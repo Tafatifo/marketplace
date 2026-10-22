@@ -1,0 +1,75 @@
+slug: shopping-return
+title: Returning an item in a shop
+description: Take back a faulty jacket, explain the problem, and ask for an exchange or a refund.
+category: daily
+levels: A2-B1
+order: 11
+goals:
+  - Explain what you bought and when
+  - Describe what is wrong with it
+  - Ask for an exchange or a refund
+  - Accept the solution politely
+roles:
+  tutor: a shop assistant in a clothes shop
+  learner: a customer with a faulty item
+languages:
+  fr:
+    opener: Bonjour ! Je peux vous renseigner ? | Hello! Can I help you?
+    focus: [fr.passe-compose-avoir, fr.demonstratives, fr.register]
+    vocab: |
+      j'ai acheté cette veste… | I bought this jacket…
+      la fermeture éclair est cassée | the zip is broken
+      l'échanger / être remboursé(e) | to exchange it / get a refund
+      le ticket de caisse | the receipt
+      une autre taille | another size
+    script: |
+      D'accord. Vous l'avez achetée quand ? | OK. When did you buy it? | Say when you bought it | kw: acheté/hier/semaine/jours
+      Et qu'est-ce qui ne va pas exactement ? | And what exactly is the problem? | Describe the problem | kw: cassé/trou/ne marche pas/problème/couleur
+      Vous avez le ticket de caisse ? | Do you have the receipt? | Answer and ask for a solution | kw: oui/voici/échanger/rembourser
+      Je peux vous l'échanger contre une neuve, ou vous faire un avoir. | I can exchange it for a new one, or give you a credit note. | Choose a solution or ask for a refund | kw: échange/préfère/remboursement/avoir
+      Très bien, c'est fait. Excusez-nous pour le dérangement ! | Very good, that's done. Sorry for the inconvenience! | Thank the assistant | kw: merci/pas de problème/au revoir
+  es:
+    opener: ¡Hola! ¿Le puedo ayudar en algo? | Hello! Can I help you with anything?
+    focus: [es.preterite, es.demonstratives, es.register]
+    vocab: |
+      compré esta chaqueta… | I bought this jacket…
+      la cremallera está rota | the zip is broken
+      cambiarla / que me devuelvan el dinero | to exchange it / get a refund
+      el tique | the receipt
+      otra talla | another size
+    script: |
+      Vale. ¿Cuándo la compró? | OK. When did you buy it? | Say when you bought it | kw: compré/ayer/semana/días
+      ¿Y qué le pasa exactamente? | And what exactly is wrong with it? | Describe the problem | kw: rota/agujero/no funciona/problema
+      ¿Tiene el tique de compra? | Do you have the receipt? | Answer and ask for a solution | kw: sí/aquí/cambiar/devolver
+      Se la puedo cambiar por una nueva o darle un vale. | I can exchange it for a new one or give you a voucher. | Choose a solution or ask for a refund | kw: cambio/prefiero/devolución/vale
+      Muy bien, ya está. ¡Disculpe las molestias! | Very good, all done. Sorry for the trouble! | Thank the assistant | kw: gracias/no pasa nada/adiós
+  de:
+    opener: Hallo! Kann ich Ihnen helfen? | Hello! Can I help you?
+    focus: [de.perfekt, de.demonstratives, de.register]
+    vocab: |
+      ich habe diese Jacke … gekauft | I bought this jacket…
+      der Reißverschluss ist kaputt | the zip is broken
+      umtauschen / das Geld zurückbekommen | to exchange / get a refund
+      der Kassenbon | the receipt
+      eine andere Größe | another size
+    script: |
+      Okay. Wann haben Sie sie gekauft? | OK. When did you buy it? | Say when you bought it | kw: gekauft/gestern/woche/tagen
+      Und was genau ist das Problem? | And what exactly is the problem? | Describe the problem | kw: kaputt/loch/funktioniert nicht/problem
+      Haben Sie den Kassenbon dabei? | Do you have the receipt with you? | Answer and ask for a solution | kw: ja/hier/umtauschen/zurück
+      Ich kann sie Ihnen gegen eine neue umtauschen oder Ihnen einen Gutschein geben. | I can exchange it for a new one or give you a voucher. | Choose a solution or ask for a refund | kw: umtausch/lieber/geld zurück/gutschein
+      Gut, erledigt. Entschuldigen Sie die Unannehmlichkeiten! | Good, done. Sorry for the inconvenience! | Thank the assistant | kw: danke/kein problem/wiedersehen
+  en:
+    opener: Hi there! Can I help you with anything? | -
+    focus: [en.past-simple, en.requests]
+    vocab: |
+      I bought this jacket last week | past simple for a finished time
+      the zip is broken | describing a fault
+      could I exchange it / get a refund? | asking for a solution
+      the receipt | proof of purchase
+      a store credit | a voucher to spend in the shop
+    script: |
+      Sure. When did you buy it? | - | Say when you bought it | kw: bought/last/yesterday/days
+      And what exactly is wrong with it? | - | Describe the problem | kw: broken/hole/doesn't work/problem
+      Do you have the receipt with you? | - | Answer and ask for a solution | kw: yes/here/exchange/refund
+      I can swap it for a new one, or give you store credit. | - | Choose a solution or ask for a refund | kw: exchange/prefer/refund/credit
+      All done. Sorry about the trouble! | - | Thank the assistant | kw: thank/no problem/bye

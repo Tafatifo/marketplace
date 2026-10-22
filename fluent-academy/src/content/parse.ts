@@ -614,7 +614,7 @@ function buildLesson(raw: RawLesson, ctx: Ctx, unit: RawUnit, index: number, uni
       note: v.note,
       translations: v.translations,
       audio: ctx.audio.ref(L, v.term, { usage: usage(`vocab:${key}`), slow: true }),
-      exampleAudio: ctx.audio.ref(L, v.example, { usage: usage(`example:${key}`), slow: true }),
+      exampleAudio: ctx.audio.ref(L, v.example, { usage: usage(`example:${key}`) }),
     };
   });
   if (vocab.length) blocks.push({ type: "vocabulary", title: "Key vocabulary", items: vocab });
@@ -627,7 +627,7 @@ function buildLesson(raw: RawLesson, ctx: Ctx, unit: RawUnit, index: number, uni
       table: parseTable(raw.grammar.table),
       examples: lines(raw.grammar.examples).map((l) => {
         const e = parseExampleLine(l);
-        return { ...e, audio: ctx.audio.ref(L, e.text, { usage: usage("grammar-example"), slow: true }) };
+        return { ...e, audio: ctx.audio.ref(L, e.text, { usage: usage("grammar-example") }) };
       }),
       tip: raw.grammar.tip?.trim(),
     });
@@ -995,7 +995,7 @@ export function buildScenario(raw: RawScenario): ScenarioDef {
     const [opener, openerTranslation] = splitFields(data.opener);
     perLanguage[lang] = {
       opener: opener!,
-      openerTranslation: openerTranslation || undefined,
+      openerTranslation: openerTranslation && openerTranslation !== "-" ? openerTranslation : undefined,
       vocabulary: lines(data.vocab).map((l) => {
         const [term, translation] = splitFields(l);
         return { term: term!, translation: translation ?? "" };
@@ -1004,7 +1004,7 @@ export function buildScenario(raw: RawScenario): ScenarioDef {
         const [tutor, translation, hint, expect] = splitFields(l);
         return {
           tutor: tutor!,
-          translation: translation || undefined,
+          translation: translation && translation !== "-" ? translation : undefined,
           hint: hint || "Respond to the tutor.",
           expect: expect ? (parseKeywords(expect)?.flat() ?? undefined) : undefined,
         };

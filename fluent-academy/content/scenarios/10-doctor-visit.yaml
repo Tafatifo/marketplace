@@ -1,0 +1,75 @@
+slug: doctor-visit
+title: At the doctor's
+description: Describe symptoms to a doctor, answer questions, and understand advice.
+category: daily
+levels: A2-B1
+order: 10
+goals:
+  - Describe your symptoms
+  - Say how long you have had them
+  - Answer questions about your health
+  - Ask a question about the treatment
+roles:
+  tutor: a general practitioner
+  learner: a patient
+languages:
+  fr:
+    opener: Bonjour, asseyez-vous. Qu'est-ce qui ne va pas ? | Hello, have a seat. What's the matter?
+    focus: [fr.avoir-mal, fr.depuis, fr.imperative]
+    vocab: |
+      j'ai mal à la tête / à la gorge | I have a headache / sore throat
+      depuis trois jours | for three days
+      j'ai de la fièvre | I have a temperature
+      une ordonnance | a prescription
+      combien de fois par jour ? | how many times a day?
+    script: |
+      Je vois. Depuis quand vous avez ces symptômes ? | I see. How long have you had these symptoms? | Say how long: depuis… | kw: depuis/jours/semaine/hier
+      Vous avez de la fièvre ? | Do you have a temperature? | Answer and give details | kw: oui/non/fièvre/degrés
+      Vous prenez des médicaments en ce moment ? Vous avez des allergies ? | Are you taking any medication at the moment? Any allergies? | Answer the questions | kw: non/oui/prends/allergie/allergique
+      Bon, c'est probablement un virus. Je vous prescris un sirop et du repos. | Well, it's probably a virus. I'll prescribe a syrup and rest. | Ask a question about the treatment | kw: combien/fois/quand/est-ce/pendant
+      Deux fois par jour pendant cinq jours. Si ça ne va pas mieux, revenez me voir. | Twice a day for five days. If it doesn't get better, come back and see me. | Thank the doctor | kw: merci/au revoir/d'accord
+  es:
+    opener: Buenos días, siéntese. ¿Qué le pasa? | Good morning, have a seat. What's wrong?
+    focus: [es.doler, es.desde-hace, es.imperative]
+    vocab: |
+      me duele la cabeza / la garganta | my head / throat hurts
+      desde hace tres días | for three days
+      tengo fiebre | I have a temperature
+      una receta | a prescription
+      ¿cuántas veces al día? | how many times a day?
+    script: |
+      Ya veo. ¿Desde cuándo tiene estos síntomas? | I see. Since when have you had these symptoms? | Say how long: desde hace… | kw: desde/días/semana/ayer
+      ¿Tiene fiebre? | Do you have a temperature? | Answer and give details | kw: sí/no/fiebre/grados
+      ¿Toma algún medicamento ahora? ¿Tiene alergias? | Are you taking any medication now? Do you have allergies? | Answer the questions | kw: no/sí/tomo/alergia/alérgico
+      Bueno, seguramente es un virus. Le receto un jarabe y reposo. | Well, it's probably a virus. I'll prescribe a syrup and rest. | Ask about the treatment | kw: cuántas/veces/cuándo/durante
+      Dos veces al día durante cinco días. Si no mejora, vuelva a verme. | Twice a day for five days. If it doesn't improve, come back to see me. | Thank the doctor | kw: gracias/adiós/vale
+  de:
+    opener: Guten Tag, nehmen Sie Platz. Was fehlt Ihnen? | Hello, take a seat. What's the matter?
+    focus: [de.dative, de.seit, de.imperative]
+    vocab: |
+      ich habe Kopfschmerzen / Halsschmerzen | I have a headache / sore throat
+      seit drei Tagen | for three days
+      ich habe Fieber | I have a temperature
+      ein Rezept | a prescription
+      wie oft am Tag? | how often a day?
+    script: |
+      Verstehe. Seit wann haben Sie diese Beschwerden? | I see. How long have you had these symptoms? | Say how long: seit… | kw: seit/tagen/woche/gestern
+      Haben Sie Fieber? | Do you have a temperature? | Answer and give details | kw: ja/nein/fieber/grad
+      Nehmen Sie zurzeit Medikamente? Haben Sie Allergien? | Are you taking any medication? Any allergies? | Answer the questions | kw: nein/ja/nehme/allergie/allergisch
+      Gut, das ist wahrscheinlich ein Virus. Ich verschreibe Ihnen einen Hustensaft und Ruhe. | OK, it's probably a virus. I'll prescribe cough syrup and rest. | Ask about the treatment | kw: wie oft/wann/wie lange
+      Zweimal am Tag, fünf Tage lang. Wenn es nicht besser wird, kommen Sie wieder. | Twice a day for five days. If it doesn't get better, come back. | Thank the doctor | kw: danke/wiedersehen/okay
+  en:
+    opener: Hello, have a seat. What seems to be the problem? | -
+    focus: [en.present-perfect, en.health]
+    vocab: |
+      I've got a headache / a sore throat | describing symptoms
+      I've had it for three days | present perfect with for
+      I've got a temperature | I have a fever
+      a prescription | the doctor's written order for medicine
+      how often should I take it? | asking about dosage
+    script: |
+      I see. How long have you had these symptoms? | - | Say how long: for… / since… | kw: for/since/days/week
+      Have you got a temperature? | - | Answer and give details | kw: yes/no/temperature/degrees
+      Are you taking any medication at the moment? Any allergies? | - | Answer the questions | kw: no/yes/taking/allergic/allergy
+      Well, it's probably a virus. I'll prescribe some syrup, and you need plenty of rest. | - | Ask a question about the treatment | kw: how often/how long/when/should
+      Twice a day for five days. If you don't feel better, come back and see me. | - | Thank the doctor | kw: thank/bye/OK

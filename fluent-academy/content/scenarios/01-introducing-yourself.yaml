@@ -1,0 +1,76 @@
+slug: introducing-yourself
+title: Introducing yourself
+description: Meet a new classmate at a language school and exchange basic information about yourselves.
+category: social
+levels: A1-A2
+free: true
+order: 1
+goals:
+  - Greet the other person and give your name
+  - Say where you are from and where you live
+  - Talk about what you do (work or studies)
+  - Ask at least two questions about the other person
+roles:
+  tutor: a friendly new classmate at a language school, around your age
+  learner: a new student on the first day
+languages:
+  fr:
+    opener: Salut ! Moi, c'est Camille. Et toi, comment tu t'appelles ? | Hi! I'm Camille. And you, what's your name?
+    focus: [fr.etre, fr.sappeler, fr.present-er]
+    vocab: |
+      enchanté(e) | nice to meet you
+      je viens de… | I come from…
+      j'habite à… | I live in…
+      je travaille comme… | I work as…
+      et toi ? | and you?
+    script: |
+      Enchantée ! Tu viens d'où ? | Nice to meet you! Where are you from? | Say where you are from: Je viens de… | kw: viens/suis/habite
+      Ah, super ! Et tu habites où maintenant ? | Oh, great! And where do you live now? | Say which city you live in: J'habite à… | kw: habite/vis
+      Moi, j'habite à Lyon. Tu travailles ou tu es étudiant(e) ? | I live in Lyon. Do you work or are you a student? | Say what you do: Je suis étudiant(e) / Je travaille… | kw: suis/travaille/étudie
+      Intéressant ! Pourquoi tu apprends le français ? | Interesting! Why are you learning French? | Give a reason: Parce que… | kw: parce/pour
+      Moi, j'apprends l'anglais pour mon travail. Tu as des questions pour moi ? | I'm learning English for my job. Do you have any questions for me? | Ask Camille a question, e.g. Tu as quel âge ? | kw: tu/quel/où/comment/est-ce
+  es:
+    opener: ¡Hola! Me llamo Lucía. ¿Y tú, cómo te llamas? | Hi! My name is Lucía. And you, what's your name?
+    focus: [es.ser-estar, es.present-regular]
+    vocab: |
+      encantado/a | nice to meet you
+      soy de… | I'm from…
+      vivo en… | I live in…
+      trabajo como… | I work as…
+      ¿y tú? | and you?
+    script: |
+      ¡Encantada! ¿De dónde eres? | Nice to meet you! Where are you from? | Say where you are from: Soy de… | kw: soy/vengo
+      ¡Qué bien! ¿Y dónde vives ahora? | How nice! And where do you live now? | Say where you live: Vivo en… | kw: vivo
+      Yo vivo en Sevilla. ¿Trabajas o estudias? | I live in Seville. Do you work or study? | Say what you do: Trabajo… / Estudio… | kw: trabajo/estudio/soy
+      ¡Interesante! ¿Por qué aprendes español? | Interesting! Why are you learning Spanish? | Give a reason: Porque… | kw: porque/para
+      Yo aprendo inglés para viajar. ¿Tienes alguna pregunta para mí? | I'm learning English to travel. Do you have a question for me? | Ask Lucía a question, e.g. ¿Cuántos años tienes? | kw: tú/qué/dónde/cómo/cuántos/tienes
+  de:
+    opener: Hallo! Ich heiße Jonas. Und du, wie heißt du? | Hi! My name is Jonas. And you, what's your name?
+    focus: [de.sein, de.present-regular]
+    vocab: |
+      freut mich | nice to meet you
+      ich komme aus… | I come from…
+      ich wohne in… | I live in…
+      ich arbeite als… | I work as…
+      und du? | and you?
+    script: |
+      Freut mich! Woher kommst du? | Nice to meet you! Where are you from? | Say where you are from: Ich komme aus… | kw: komme/bin
+      Cool! Und wo wohnst du jetzt? | Cool! And where do you live now? | Say where you live: Ich wohne in… | kw: wohne/lebe
+      Ich wohne in Hamburg. Arbeitest du oder studierst du? | I live in Hamburg. Do you work or study? | Say what you do: Ich arbeite… / Ich studiere… | kw: arbeite/studiere/bin
+      Interessant! Warum lernst du Deutsch? | Interesting! Why are you learning German? | Give a reason: Weil… / Für… | kw: weil/für/denn
+      Ich lerne Spanisch für meine Arbeit. Hast du eine Frage an mich? | I'm learning Spanish for my job. Do you have a question for me? | Ask Jonas a question, e.g. Wie alt bist du? | kw: du/wie/wo/was/woher
+  en:
+    opener: Hi! I'm Sam. What's your name? | -
+    focus: [en.be, en.present-simple]
+    vocab: |
+      nice to meet you | a polite phrase when you meet someone for the first time
+      I'm from… | to say your country or city of origin
+      I live in… | to say where your home is now
+      I work as… | to say your job
+      how about you? | to return a question
+    script: |
+      Nice to meet you! Where are you from? | - | Say where you are from: I'm from… | kw: from
+      Oh, cool. And where do you live now? | - | Say where you live: I live in… | kw: live
+      I live in Bristol. Do you work, or are you a student? | - | Say what you do: I work as… / I'm a student… | kw: work/student/study
+      Interesting! Why are you learning English? | - | Give a reason: Because… / For… | kw: because/for/to
+      I'm learning Spanish for my job. Do you have any questions for me? | - | Ask Sam a question, e.g. How long have you lived here? | kw: you/what/where/how/do

@@ -1,0 +1,75 @@
+slug: your-day
+title: Talking about your day
+description: Tell a friend about your daily routine and what you did today.
+category: daily
+levels: A1-A2
+order: 5
+goals:
+  - Say what time you get up and start work or classes
+  - Describe two or three things you do every day
+  - Say what you did today or yesterday
+  - Ask about the other person's day
+roles:
+  tutor: a friend who calls you in the evening
+  learner: yourself, at the end of the day
+languages:
+  fr:
+    opener: Salut ! Alors, ta journée, ça s'est bien passé ? | Hi! So, how did your day go?
+    focus: [fr.reflexive, fr.time, fr.passe-compose-avoir]
+    vocab: |
+      je me lève à… | I get up at…
+      d'abord / ensuite / après | first / then / afterwards
+      je suis fatigué(e) | I'm tired
+      aujourd'hui, j'ai… | today I (did)…
+      et toi, ta journée ? | and you, how was your day?
+    script: |
+      Tu t'es levé(e) tôt ce matin ? | Did you get up early this morning? | Say what time you got up | kw: levé/heure/tôt/tard
+      Et qu'est-ce que tu fais normalement le matin ? | And what do you normally do in the morning? | Describe your routine: d'abord… ensuite… | kw: d'abord/ensuite/je/après
+      Et aujourd'hui, qu'est-ce que tu as fait ? | And today, what did you do? | Say what you did: J'ai travaillé / J'ai mangé… | kw: j'ai/je suis
+      Ah, d'accord ! Et ce soir, tu fais quoi ? | Ah, OK! And what are you doing tonight? | Talk about your evening plans | kw: ce soir/je vais/regarder/rien
+      Moi, j'ai eu une journée très longue au travail ! | I had a very long day at work! | Ask about the tutor's day | kw: pourquoi/qu'est-ce/ta journée/et toi
+  es:
+    opener: ¡Hola! ¿Qué tal tu día? | Hi! How was your day?
+    focus: [es.reflexive, es.time, es.preterite]
+    vocab: |
+      me levanto a las… | I get up at…
+      primero / luego / después | first / then / afterwards
+      estoy cansado/a | I'm tired
+      hoy he… | today I have…
+      ¿y tu día qué tal? | and how was your day?
+    script: |
+      ¿Te has levantado temprano hoy? | Did you get up early today? | Say what time you got up | kw: levantado/hora/temprano/tarde
+      ¿Y qué haces normalmente por la mañana? | And what do you normally do in the morning? | Describe your routine: primero… luego… | kw: primero/luego/después/me
+      ¿Y hoy qué has hecho? | And what have you done today? | Say what you did: He trabajado / He comido… | kw: he/fui/hice
+      ¡Ah, vale! ¿Y esta noche qué vas a hacer? | Ah, OK! And what are you doing tonight? | Talk about your plans | kw: noche/voy a/ver/nada
+      Yo he tenido un día larguísimo en el trabajo. | I've had a really long day at work. | Ask about the tutor's day | kw: por qué/qué/tu día/y tú
+  de:
+    opener: Hi! Na, wie war dein Tag? | Hi! So, how was your day?
+    focus: [de.separable, de.time, de.perfekt]
+    vocab: |
+      ich stehe um … auf | I get up at…
+      zuerst / dann / danach | first / then / afterwards
+      ich bin müde | I'm tired
+      heute habe ich … | today I have …
+      und wie war dein Tag? | and how was your day?
+    script: |
+      Bist du heute früh aufgestanden? | Did you get up early today? | Say what time you got up | kw: aufgestanden/uhr/früh/spät
+      Und was machst du normalerweise morgens? | And what do you normally do in the morning? | Describe your routine: zuerst… dann… | kw: zuerst/dann/danach/ich
+      Und was hast du heute gemacht? | And what did you do today? | Say what you did: Ich habe gearbeitet… | kw: habe/bin
+      Ah, okay! Und was machst du heute Abend? | Ah, OK! And what are you doing this evening? | Talk about your evening | kw: abend/ich/nichts/sehe
+      Ich hatte einen total langen Tag bei der Arbeit. | I had a really long day at work. | Ask about the tutor's day | kw: warum/was/dein tag/und du
+  en:
+    opener: Hey! So how was your day? | -
+    focus: [en.present-simple, en.past-simple]
+    vocab: |
+      I usually get up at… | describing your routine
+      first / then / after that | sequencing words
+      I'm exhausted | I'm very tired
+      today I (went/had/did)… | past simple for today's events
+      how about your day? | returning the question
+    script: |
+      Did you get up early this morning? | - | Say what time you got up | kw: got up/o'clock/early/late
+      And what do you usually do in the morning? | - | Describe your routine: first… then… | kw: first/then/usually/after
+      So what did you do today? | - | Say what you did: I went / I had / I worked… | kw: went/had/did/worked
+      Oh, OK! And what are you up to tonight? | - | Talk about your evening plans | kw: tonight/going to/watch/nothing
+      I had such a long day at work! | - | Ask about the tutor's day | kw: why/what/your day/how about you

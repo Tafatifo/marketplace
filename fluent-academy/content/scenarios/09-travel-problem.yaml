@@ -1,0 +1,75 @@
+slug: travel-problem
+title: Handling a travel problem
+description: Your train has been cancelled. Explain the problem at the ticket desk and negotiate a solution.
+category: travel
+levels: A2-B2
+order: 9
+goals:
+  - Explain what the problem is
+  - Ask about alternatives
+  - Insist politely or express dissatisfaction
+  - Agree on a solution and check the details
+roles:
+  tutor: a station ticket-desk employee
+  learner: a traveller whose train was cancelled
+languages:
+  fr:
+    opener: Bonjour, je peux vous aider ? | Hello, can I help you?
+    focus: [fr.passe-compose-etre, fr.conditionnel, fr.register]
+    vocab: |
+      mon train a été annulé | my train was cancelled
+      la correspondance | the connection
+      est-ce qu'il y a un autre train ? | is there another train?
+      je voudrais être remboursé(e) | I would like a refund
+      c'est inadmissible | that's unacceptable
+    script: |
+      Ah, oui, il y a une grève aujourd'hui. Vous alliez où ? | Ah yes, there's a strike today. Where were you going? | Say your destination and when you need to arrive | kw: à/pour/aller/dois
+      Le prochain train direct part demain matin à 7 h 10. | The next direct train leaves tomorrow morning at 7:10. | Say why that's a problem and ask for another option | kw: mais/impossible/autre/est-ce/ce soir
+      Il y a un bus de remplacement à 19 h, mais c'est plus long : environ quatre heures. | There's a replacement bus at 7 p.m., but it's longer: about four hours. | Accept or ask about compensation/refund | kw: rembourse/d'accord/bus/compensation
+      Vous pouvez demander un remboursement partiel en ligne. Je vous fais le billet pour le bus ? | You can request a partial refund online. Shall I issue the bus ticket? | Agree and check the details (time, platform) | kw: oui/d'accord/quel/où/à quelle heure
+      Voilà votre billet. Le bus part devant la gare, quai B. | Here's your ticket. The bus leaves in front of the station, bay B. | Thank them and say goodbye | kw: merci/au revoir/bonne
+  es:
+    opener: Buenas tardes, ¿en qué le puedo ayudar? | Good afternoon, how can I help you?
+    focus: [es.preterite, es.conditional, es.register]
+    vocab: |
+      me han cancelado el tren | my train has been cancelled
+      el transbordo | the connection
+      ¿hay otro tren? | is there another train?
+      quisiera que me devolvieran el dinero | I'd like a refund
+      no es aceptable | it's not acceptable
+    script: |
+      Sí, hoy hay huelga. ¿Adónde iba usted? | Yes, there's a strike today. Where were you going? | Say your destination and when you need to arrive | kw: a/iba/tengo que/para
+      El próximo tren directo sale mañana a las siete y diez. | The next direct train leaves tomorrow at 7:10. | Say why that's a problem and ask for another option | kw: pero/imposible/otro/hay/esta noche
+      Hay un autobús a las siete de la tarde, pero tarda unas cuatro horas. | There's a bus at 7 p.m., but it takes about four hours. | Accept or ask about a refund | kw: devolución/reembolso/vale/autobús
+      Puede pedir un reembolso parcial en la web. ¿Le hago el billete del autobús? | You can request a partial refund online. Shall I issue the bus ticket? | Agree and check the details | kw: sí/vale/dónde/a qué hora/de acuerdo
+      Aquí tiene. El autobús sale delante de la estación, dársena B. | Here you are. The bus leaves in front of the station, bay B. | Thank them and say goodbye | kw: gracias/adiós
+  de:
+    opener: Guten Tag, kann ich Ihnen helfen? | Hello, can I help you?
+    focus: [de.perfekt, de.konjunktiv2, de.register]
+    vocab: |
+      mein Zug ist ausgefallen | my train was cancelled
+      der Anschluss | the connection
+      gibt es einen anderen Zug? | is there another train?
+      ich hätte gern eine Erstattung | I'd like a refund
+      das ist nicht akzeptabel | that's not acceptable
+    script: |
+      Ja, heute wird gestreikt. Wohin wollten Sie fahren? | Yes, there's a strike today. Where did you want to go? | Say your destination and when you need to arrive | kw: nach/wollte/muss/um
+      Der nächste direkte Zug fährt morgen früh um 7:10 Uhr. | The next direct train leaves tomorrow morning at 7:10. | Explain why that's a problem and ask for an alternative | kw: aber/unmöglich/andere/gibt es/heute
+      Es gibt einen Ersatzbus um 19 Uhr, aber der braucht ungefähr vier Stunden. | There's a replacement bus at 7 p.m., but it takes about four hours. | Accept or ask about a refund | kw: erstattung/zurück/okay/bus
+      Sie können online eine Teilerstattung beantragen. Soll ich Ihnen die Busfahrkarte ausstellen? | You can apply online for a partial refund. Shall I issue you the bus ticket? | Agree and check the details | kw: ja/gern/wo/wann/um wie viel
+      Bitte schön. Der Bus fährt vor dem Bahnhof ab, Steig B. | Here you are. The bus leaves in front of the station, stop B. | Thank them and say goodbye | kw: danke/wiedersehen
+  en:
+    opener: Hi, how can I help you? | -
+    focus: [en.past-simple, en.requests, en.register]
+    vocab: |
+      my train has been cancelled | present perfect passive for recent news
+      a connecting train | the next train you need to catch
+      is there any other way to get to…? | asking for alternatives
+      I'd like a refund | requesting money back
+      that's really not acceptable | expressing dissatisfaction politely but firmly
+    script: |
+      Yes, there's a strike today, I'm afraid. Where were you heading? | - | Say your destination and when you need to arrive | kw: to/heading/need/have to
+      The next direct train is tomorrow morning at 7:10. | - | Explain why that's a problem and ask for another option | kw: but/can't/another/is there/tonight
+      There's a replacement bus at 7 p.m., but it takes about four hours. | - | Accept or ask about a refund | kw: refund/compensation/OK/bus
+      You can claim a partial refund online. Shall I issue you a ticket for the bus? | - | Agree and check the details | kw: yes/please/where/what time
+      Here you go. The bus leaves from outside the station, stop B. | - | Thank them and say goodbye | kw: thank/bye

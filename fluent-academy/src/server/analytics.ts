@@ -2,16 +2,7 @@ import "server-only";
 import type { ExercisePrompt } from "@/content/types";
 import { db } from "./db";
 
-export const SKILL_LABEL: Record<string, string> = {
-  grammar: "Grammar",
-  vocabulary: "Vocabulary",
-  listening: "Listening",
-  reading: "Reading",
-  speaking: "Speaking",
-  pronunciation: "Pronunciation",
-  writing: "Writing",
-  translation: "Translation",
-};
+export { SKILL_NAMES as SKILL_LABEL } from "@/lib/skills";
 
 /** First-try accuracy by skill over a period, from real exercise attempts. */
 export async function skillAccuracy(userId: string, languageCode: string, days = 30) {
