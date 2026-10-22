@@ -1,0 +1,602 @@
+{
+ "generatedAt": "2026-10-22T21:17:01.799Z",
+ "note": "Completeness is computed from the files in /content and the generated audio. 'complete' means authored, passing automatic QA and with all audio present — not linguistically verified. All content is AI-drafted until a native-speaker review is recorded in /admin.",
+ "targets": {
+  "unitsPerCourse": 8,
+  "lessonsPerUnit": 3,
+  "readingsPerCourse": 6,
+  "listeningsPerCourse": 4,
+  "placementPerLevel": 6
+ },
+ "totals": {
+  "courses": {
+   "target": 16,
+   "present": 1,
+   "complete": 0
+  },
+  "units": {
+   "planned": 8,
+   "authored": 1,
+   "complete": 1
+  },
+  "lessons": {
+   "planned": 25,
+   "authored": 4,
+   "complete": 4
+  },
+  "exercises": 126,
+  "vocabulary": 39,
+  "passages": {
+   "reading": 0,
+   "listening": 0
+  },
+  "scenarios": 12,
+  "placementItems": 28,
+  "taxonomyTags": 277,
+  "audio": {
+   "required": 232,
+   "generated": 232,
+   "missing": 0,
+   "pass": 226,
+   "review": 6,
+   "fail": 0,
+   "unchecked": 0
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 0
+  }
+ },
+ "placement": {
+  "en": {
+   "items": 0,
+   "byLevel": {
+    "A1": 0,
+    "A2": 0,
+    "B1": 0,
+    "B2": 0
+   },
+   "complete": false
+  },
+  "fr": {
+   "items": 28,
+   "byLevel": {
+    "A1": 7,
+    "A2": 7,
+    "B1": 7,
+    "B2": 7
+   },
+   "complete": true
+  },
+  "es": {
+   "items": 0,
+   "byLevel": {
+    "A1": 0,
+    "A2": 0,
+    "B1": 0,
+    "B2": 0
+   },
+   "complete": false
+  },
+  "de": {
+   "items": 0,
+   "byLevel": {
+    "A1": 0,
+    "A2": 0,
+    "B1": 0,
+    "B2": 0
+   },
+   "complete": false
+  }
+ },
+ "courses": [
+  {
+   "slug": "en-a1",
+   "language": "en",
+   "level": "A1",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "en-a2",
+   "language": "en",
+   "level": "A2",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "en-b1",
+   "language": "en",
+   "level": "B1",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "en-b2",
+   "language": "en",
+   "level": "B2",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "fr-a1",
+   "language": "fr",
+   "level": "A1",
+   "title": "French A1 · Foundations",
+   "status": "in-progress",
+   "lessons": {
+    "planned": 25,
+    "authored": 4,
+    "complete": 4
+   },
+   "units": [
+    {
+     "order": 1,
+     "title": "Bonjour !",
+     "status": "complete",
+     "lessons": [
+      {
+       "slug": "fr-a1-u01-l01",
+       "title": "Greetings and goodbyes",
+       "kind": "LESSON",
+       "status": "complete",
+       "reasons": [],
+       "exercises": 26,
+       "authoredExercises": 14,
+       "vocabulary": 13,
+       "warnings": 0,
+       "audio": {
+        "required": 65,
+        "generated": 65,
+        "missing": 0,
+        "pass": 63,
+        "review": 2,
+        "fail": 0,
+        "unchecked": 0
+       },
+       "review": "ai-drafted"
+      },
+      {
+       "slug": "fr-a1-u01-l02",
+       "title": "Introducing yourself",
+       "kind": "LESSON",
+       "status": "complete",
+       "reasons": [],
+       "exercises": 26,
+       "authoredExercises": 14,
+       "vocabulary": 13,
+       "warnings": 0,
+       "audio": {
+        "required": 71,
+        "generated": 71,
+        "missing": 0,
+        "pass": 69,
+        "review": 2,
+        "fail": 0,
+        "unchecked": 0
+       },
+       "review": "ai-drafted"
+      },
+      {
+       "slug": "fr-a1-u01-l03",
+       "title": "Numbers, age and spelling",
+       "kind": "LESSON",
+       "status": "complete",
+       "reasons": [],
+       "exercises": 23,
+       "authoredExercises": 13,
+       "vocabulary": 13,
+       "warnings": 0,
+       "audio": {
+        "required": 78,
+        "generated": 78,
+        "missing": 0,
+        "pass": 76,
+        "review": 2,
+        "fail": 0,
+        "unchecked": 0
+       },
+       "review": "ai-drafted"
+      },
+      {
+       "slug": "fr-a1-u01-review",
+       "title": "Unit 1 review",
+       "kind": "UNIT_REVIEW",
+       "status": "complete",
+       "reasons": [],
+       "exercises": 29,
+       "authoredExercises": 17,
+       "vocabulary": 0,
+       "warnings": 0,
+       "audio": {
+        "required": 125,
+        "generated": 125,
+        "missing": 0,
+        "pass": 123,
+        "review": 2,
+        "fail": 0,
+        "unchecked": 0
+       },
+       "review": "ai-drafted"
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "title": "Ma famille et moi",
+     "status": "planned",
+     "lessons": [
+      {
+       "title": "My family",
+       "status": "planned"
+      },
+      {
+       "title": "Describing people",
+       "status": "planned"
+      },
+      {
+       "title": "Jobs and workplaces",
+       "status": "planned"
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "title": "Une journée ordinaire",
+     "status": "planned",
+     "lessons": [
+      {
+       "title": "Telling the time",
+       "status": "planned"
+      },
+      {
+       "title": "My daily routine",
+       "status": "planned"
+      },
+      {
+       "title": "Days and frequency",
+       "status": "planned"
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "title": "Au café et au marché",
+     "status": "planned",
+     "lessons": [
+      {
+       "title": "Ordering at a café",
+       "status": "planned"
+      },
+      {
+       "title": "At the market",
+       "status": "planned"
+      },
+      {
+       "title": "At the restaurant",
+       "status": "planned"
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "title": "Ma ville, ma maison",
+     "status": "planned",
+     "lessons": [
+      {
+       "title": "Places in town",
+       "status": "planned"
+      },
+      {
+       "title": "Asking for directions",
+       "status": "planned"
+      },
+      {
+       "title": "My home",
+       "status": "planned"
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "title": "Faire du shopping",
+     "status": "planned",
+     "lessons": [
+      {
+       "title": "Clothes and colours",
+       "status": "planned"
+      },
+      {
+       "title": "Prices and numbers to 100",
+       "status": "planned"
+      },
+      {
+       "title": "In a shop",
+       "status": "planned"
+      }
+     ]
+    },
+    {
+     "order": 7,
+     "title": "Loisirs et météo",
+     "status": "planned",
+     "lessons": [
+      {
+       "title": "Hobbies and likes",
+       "status": "planned"
+      },
+      {
+       "title": "Weather and seasons",
+       "status": "planned"
+      },
+      {
+       "title": "Making plans",
+       "status": "planned"
+      }
+     ]
+    },
+    {
+     "order": 8,
+     "title": "En voyage",
+     "status": "planned",
+     "lessons": [
+      {
+       "title": "Getting around",
+       "status": "planned"
+      },
+      {
+       "title": "Plans for the weekend",
+       "status": "planned"
+      },
+      {
+       "title": "Booking a room",
+       "status": "planned"
+      }
+     ]
+    }
+   ],
+   "assessment": {
+    "slug": "fr-a1-assessment",
+    "title": "French A1 assessment",
+    "kind": "LEVEL_ASSESSMENT",
+    "status": "complete",
+    "reasons": [],
+    "exercises": 22,
+    "authoredExercises": 22,
+    "vocabulary": 0,
+    "warnings": 0,
+    "audio": {
+     "required": 6,
+     "generated": 6,
+     "missing": 0,
+     "pass": 6,
+     "review": 0,
+     "fail": 0,
+     "unchecked": 0
+    },
+    "review": "ai-drafted"
+   },
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "fr-a2",
+   "language": "fr",
+   "level": "A2",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "fr-b1",
+   "language": "fr",
+   "level": "B1",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "fr-b2",
+   "language": "fr",
+   "level": "B2",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "es-a1",
+   "language": "es",
+   "level": "A1",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "es-a2",
+   "language": "es",
+   "level": "A2",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "es-b1",
+   "language": "es",
+   "level": "B1",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "es-b2",
+   "language": "es",
+   "level": "B2",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "de-a1",
+   "language": "de",
+   "level": "A1",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "de-a2",
+   "language": "de",
+   "level": "A2",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "de-b1",
+   "language": "de",
+   "level": "B1",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  },
+  {
+   "slug": "de-b2",
+   "language": "de",
+   "level": "B2",
+   "status": "missing",
+   "units": [],
+   "library": {
+    "reading": 0,
+    "listening": 0,
+    "target": {
+     "reading": 6,
+     "listening": 4
+    },
+    "passages": []
+   }
+  }
+ ]
+}

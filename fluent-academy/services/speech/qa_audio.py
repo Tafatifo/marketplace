@@ -11,6 +11,11 @@ Status per clip:  PASS   ≥ 85% of script words recognised
 This is a consistency check of synthesised audio, not a judgement of naturalness.
 
   services/speech/.venv/bin/python services/speech/qa_audio.py [--language fr] [--recheck] [--model base]
+  services/speech/.venv/bin/python services/speech/qa_audio.py --escalate [--model small]
+
+--escalate re-transcribes REVIEW/FAIL clips one at a time (padded with silence) with a
+larger model and keeps the better score. Clips still flagged afterwards need a person:
+listen in /admin/audio and record a verdict.
 """
 from __future__ import annotations
 
@@ -68,22 +73,31 @@ NUMBER_WORDS = {
 
 
 def match_ratio(target: str, heard: str, lang: str) -> float:
-    t = norm_words(target, lang)
-    h = norm_words(heard, lang)
-    if any(w.isdigit() for w in h):
-        # Whisper writes numbers as digits ("14h30"); compare the remaining words only.
-        nums = NUMBER_WORDS.get(lang, set())
-        t = [w for w in t if w not in nums and not re.fullmatch(r"(dix|vingt|trente|quarante|cinquante|soixante)\w*|\w*(zehn|zig|teen|ty)", w)]
-        h = [w for w in h if not re.search(r"\d", w)]
+    from numerals import expand
+
+    spelled = lcs_ratio(norm_words(expand(target, lang), lang), norm_words(expand(heard, lang), lang))
+    if spelled >= 0.85 or not re.search(r"\d", heard):
+        return spelled
+    return max(spelled, legacy_ratio(target, heard, lang))
+
+
+def lcs_ratio(t: list[str], h: list[str]) -> float:
     if not t:
         return 1.0
-    # LCS-based alignment ratio
     n, m = len(t), len(h)
     dp = [[0] * (m + 1) for _ in range(n + 1)]
     for i in range(n):
         for j in range(m):
             dp[i + 1][j + 1] = dp[i][j] + 1 if t[i] == h[j] else max(dp[i][j + 1], dp[i + 1][j])
     return dp[n][m] / n
+
+
+def legacy_ratio(target: str, heard: str, lang: str) -> float:
+    """Fallback for digits the expander can't read back (e.g. "3 ,020"): ignore number words."""
+    nums = NUMBER_WORDS.get(lang, set())
+    t = [w for w in norm_words(target, lang) if w not in nums and not re.fullmatch(r"(dix|vingt|trente|quarante|cinquante|soixante)\w*|\w*(zehn|zig|teen|ty)", w)]
+    h = [w for w in norm_words(heard, lang) if not re.search(r"\d", w)]
+    return lcs_ratio(t, h)
 
 
 def decode(path: Path) -> np.ndarray:
@@ -119,9 +133,12 @@ def lev(a: str, b: str) -> int:
 
 
 def phoneme_similarity(target: str, heard: str, lang: str) -> float:
+    from numerals import expand
+
+    heard = expand(heard, lang)
     if re.search(r"\d", heard):
         return 0.0
-    a, b = phonemes(target, lang), phonemes(heard, lang)
+    a, b = phonemes(expand(target, lang), lang), phonemes(heard, lang)
     if not a:
         return 1.0
     return max(0.0, 1 - lev(a, b) / max(len(a), len(b)))
@@ -144,7 +161,10 @@ def main():
     ap.add_argument("--recheck", action="store_true")
     ap.add_argument("--model", default=os.environ.get("QA_WHISPER_MODEL", "base"))
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--escalate", action="store_true")
     args = ap.parse_args()
+    if args.escalate:
+        return escalate(args)
 
     from faster_whisper import WhisperModel
 
@@ -251,6 +271,49 @@ def main():
     for e in index.values():
         counts[e.get("qaStatus", "UNCHECKED")] = counts.get(e.get("qaStatus", "UNCHECKED"), 0) + 1
     print("QA status:", counts)
+
+
+def refresh_slow(index: dict):
+    """Slow variants inherit the verdict of their normal-speed twin when their length is plausible."""
+    normal = {(e["text"], e["voice"]): e for e in index.values() if e.get("speed") == "normal"}
+    for e in index.values():
+        if e.get("speed") != "slow" or "error" in e or e.get("qaTranscript", "").startswith("silent"):
+            continue
+        twin = normal.get((e["text"], e["voice"]))
+        if twin and twin.get("qaStatus"):
+            ratio = e["durationMs"] / max(1, twin["durationMs"])
+            ok = 1.1 <= ratio <= 2.2
+            e.update(qaStatus=twin["qaStatus"] if ok else "REVIEW", qaScore=twin.get("qaScore"), qaTranscript=f"slow variant ({ratio:.2f}× normal duration) of a checked clip")
+
+
+def escalate(args):
+    from faster_whisper import WhisperModel
+
+    model_name = args.model if args.model != "base" else "small"
+    model = WhisperModel(model_name, device="cpu", compute_type="int8", download_root=str(HERE / "models"), cpu_threads=os.cpu_count() or 4)
+    index: dict = json.loads(INDEX.read_text())
+    todo = [e for e in index.values() if e.get("speed") == "normal" and e.get("qaStatus") in ("REVIEW", "FAIL") and "error" not in e and (not args.language or e["language"] == args.language)]
+    print(f"Escalating {len(todo)} flagged clips with Whisper '{model_name}'", flush=True)
+    pad = np.zeros(int(0.6 * SR), np.float32)
+    improved = 0
+    for e in todo:
+        try:
+            pcm = np.concatenate([pad, decode(AUDIO / e["key"]), pad])
+        except Exception:  # noqa: BLE001
+            continue
+        segs, _ = model.transcribe(pcm, language=e["language"], beam_size=5, vad_filter=False, condition_on_previous_text=False)
+        heard = " ".join(s.text.strip() for s in segs)
+        script = " ".join(l.split(":", 1)[1] if l[:2] in ("f:", "m:") else l for l in e["text"].split("\n"))
+        r = combined(script, heard, e["language"])
+        if r > (e.get("qaScore") or 0):
+            e.update(qaStatus=status_for(r), qaScore=round(r, 3), qaTranscript=f"{heard[:480]} [{model_name}]")
+            improved += 1
+    refresh_slow(index)
+    INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=0, sort_keys=True))
+    counts: dict[str, int] = {}
+    for e in index.values():
+        counts[e.get("qaStatus", "UNCHECKED")] = counts.get(e.get("qaStatus", "UNCHECKED"), 0) + 1
+    print(f"Improved {improved}. QA status:", counts)
 
 
 if __name__ == "__main__":
