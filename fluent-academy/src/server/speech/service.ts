@@ -211,10 +211,3 @@ export async function deleteAttemptAudio(userId: string, attemptId?: string) {
   return attempts.length;
 }
 
-/** Retention policy: removes recordings whose retention period has ended. */
-export async function purgeExpiredRecordings(now = new Date()) {
-  const expired = await db.speakingAttempt.findMany({ where: { audioExpiresAt: { lt: now }, audioKey: { not: null } }, select: { id: true, audioKey: true }, take: 1000 });
-  for (const a of expired) await recordingStore().delete(a.audioKey!);
-  await db.speakingAttempt.updateMany({ where: { id: { in: expired.map((a) => a.id) } }, data: { audioKey: null, audioExpiresAt: null } });
-  return expired.length;
-}

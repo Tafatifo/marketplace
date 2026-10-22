@@ -39,6 +39,8 @@ export interface ImportSummary {
   scenarios: number;
   placement: number;
   audioAssets: number;
+  /** Lessons edited in the CMS whose source files also changed (queued for review). */
+  conflicts: string[];
   errors: string[];
 }
 
@@ -196,30 +198,43 @@ async function importCourse(db: PrismaClient, c: CourseDef, opts: ImportOptions,
           });
           for (const e of l.exercises) await upsertExercise(tx, created.id, e);
           await tx.lessonRevision.create({
-            data: { lessonId: created.id, version: 1, source: "IMPORT", snapshot: snap as unknown as Prisma.InputJsonValue, status: opts.publish ? "PUBLISHED" : "DRAFT", publishedAt: opts.publish ? new Date() : null },
+            data: { lessonId: created.id, version: 1, source: "IMPORT", sourceHash: l.sourceHash, snapshot: snap as unknown as Prisma.InputJsonValue, status: opts.publish ? "PUBLISHED" : "DRAFT", publishedAt: opts.publish ? new Date() : null },
           });
         }, { timeout: 60_000 });
         s.lessonsCreated++;
         s.exercises += l.exercises.length;
       } else if (existing.sourceHash !== l.sourceHash) {
-        const last = await db.lessonRevision.findFirst({ where: { lessonId: existing.id }, orderBy: { version: "desc" } });
-        const version = (last?.version ?? existing.version) + 1;
-        await db.$transaction(async (tx) => {
-          await tx.lessonRevision.create({
-            data: {
-              lessonId: existing.id, version, source: "IMPORT", snapshot: snap as unknown as Prisma.InputJsonValue,
-              status: opts.publish ? "PUBLISHED" : "IN_REVIEW", publishedAt: opts.publish ? new Date() : null,
-              note: "Imported from /content",
-            },
-          });
-          await tx.lesson.update({ where: { id: existing.id }, data: { unitId: unit.id, order: l.order } });
-          if (opts.publish) {
-            s.exercisesDeactivated += await applyLessonSnapshot(tx, existing.id, l.slug, snap, l.sourceHash);
-          }
-        }, { timeout: 60_000 });
-        if (opts.publish) s.lessonsUpdated++;
-        else s.revisionsPending++;
-        s.exercises += l.exercises.length;
+        // A lesson edited in the CMS has no source hash. Its edits must not be silently
+        // overwritten by the files, so source changes queue for review instead.
+        const editedInCms = existing.sourceHash === null;
+        const autoPublish = opts.publish && !editedInCms;
+        const pending = await db.lessonRevision.findFirst({
+          where: { lessonId: existing.id, source: "IMPORT", sourceHash: l.sourceHash, status: { in: ["DRAFT", "IN_REVIEW", "APPROVED"] } },
+          select: { id: true },
+        });
+        if (pending && !autoPublish) {
+          s.revisionsPending++;
+        } else {
+          const last = await db.lessonRevision.findFirst({ where: { lessonId: existing.id }, orderBy: { version: "desc" } });
+          const version = (last?.version ?? existing.version) + 1;
+          await db.$transaction(async (tx) => {
+            await tx.lessonRevision.create({
+              data: {
+                lessonId: existing.id, version, source: "IMPORT", sourceHash: l.sourceHash, snapshot: snap as unknown as Prisma.InputJsonValue,
+                status: autoPublish ? "PUBLISHED" : "IN_REVIEW", publishedAt: autoPublish ? new Date() : null,
+                note: editedInCms ? "Source files changed after this lesson was edited in the CMS. Compare before publishing." : "Imported from /content",
+              },
+            });
+            await tx.lesson.update({ where: { id: existing.id }, data: { unitId: unit.id, order: l.order } });
+            if (autoPublish) {
+              s.exercisesDeactivated += await applyLessonSnapshot(tx, existing.id, l.slug, snap, l.sourceHash);
+            }
+          }, { timeout: 60_000 });
+          if (autoPublish) s.lessonsUpdated++;
+          else s.revisionsPending++;
+          if (editedInCms) s.conflicts.push(l.slug);
+          s.exercises += l.exercises.length;
+        }
       } else {
         s.lessonsUnchanged++;
       }
@@ -233,7 +248,12 @@ async function importCourse(db: PrismaClient, c: CourseDef, opts: ImportOptions,
           usageNote: v.note ?? null, audioKey: v.audio?.key ?? null, exampleAudioKey: v.exampleAudio?.key ?? null,
           tags: [`vocab.${l.slug}`],
         };
-        await db.vocabularyItem.upsert({ where: { key: v.key }, create: { key: v.key, ...data }, update: data });
+        const edited = await db.vocabularyItem.findUnique({ where: { key: v.key }, select: { editedAt: true } });
+        // Corrections made in the CMS win over the files until the item is reset there.
+        const update = edited?.editedAt
+          ? { lessonId: data.lessonId, levelCode: data.levelCode, audioKey: data.audioKey, exampleAudioKey: data.exampleAudioKey, tags: data.tags }
+          : data;
+        await db.vocabularyItem.upsert({ where: { key: v.key }, create: { key: v.key, ...data }, update });
         s.vocabulary++;
       }
     }
@@ -253,15 +273,22 @@ export async function importAudioIndex(db: PrismaClient, root: string) {
   let n = 0;
   const batch = Object.values(entries);
   for (let i = 0; i < batch.length; i += 500) {
+    const slice = batch.slice(i, i + 500);
+    const previous = new Map(
+      (await db.audioAsset.findMany({ where: { key: { in: slice.map((e) => e.key) } }, select: { key: true, checksum: true } })).map((a) => [a.key, a.checksum]),
+    );
     await db.$transaction(
-      batch.slice(i, i + 500).map((e) => {
+      slice.map((e) => {
         const data = {
           languageCode: e.language, text: e.text, textHash: e.checksum.slice(0, 16), voice: e.voice, speed: e.speed,
           durationMs: e.durationMs, bytes: e.bytes, checksum: e.checksum, qaStatus: e.qaStatus ?? "UNCHECKED",
           qaScore: e.qaScore ?? null, qaTranscript: e.qaTranscript ?? null,
           wordTimings: (e.wordTimings ?? undefined) as Prisma.InputJsonValue | undefined,
         };
-        return db.audioAsset.upsert({ where: { key: e.key }, create: { key: e.key, ...data }, update: data });
+        // A person's verdict only applies to the exact audio they listened to.
+        const changed = previous.has(e.key) && previous.get(e.key) !== e.checksum;
+        const update = changed ? { ...data, humanVerdict: null, humanNote: null, reviewedAt: null } : data;
+        return db.audioAsset.upsert({ where: { key: e.key }, create: { key: e.key, ...data }, update });
       }),
     );
     n += Math.min(500, batch.length - i);
@@ -283,7 +310,7 @@ export async function runImport(db: PrismaClient, opts: ImportOptions, bundle?: 
   const content = bundle ?? loadContent(root);
   const summary: ImportSummary = {
     courses: 0, units: 0, lessonsCreated: 0, lessonsUpdated: 0, lessonsUnchanged: 0, revisionsPending: 0, exercises: 0,
-    exercisesDeactivated: 0, vocabulary: 0, passages: 0, scenarios: 0, placement: 0, audioAssets: 0, errors: content.errors,
+    exercisesDeactivated: 0, vocabulary: 0, passages: 0, scenarios: 0, placement: 0, audioAssets: 0, conflicts: [], errors: content.errors,
   };
   const record = await db.contentImport.create({ data: { status: "RUNNING", publish: opts.publish, triggeredBy: opts.triggeredBy ?? "cli" } });
   try {

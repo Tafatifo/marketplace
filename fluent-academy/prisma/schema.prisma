@@ -276,20 +276,22 @@ model Exercise {
 }
 
 model LessonRevision {
-  id          String        @id @default(cuid())
-  lessonId    String
-  lesson      Lesson        @relation(fields: [lessonId], references: [id], onDelete: Cascade)
-  version     Int
-  source      String // IMPORT | EDITOR
-  snapshot    Json // full lesson payload incl. exercises
-  status      ContentStatus @default(DRAFT)
-  note        String?
-  authorId    String?
-  author      User?         @relation("RevisionAuthor", fields: [authorId], references: [id], onDelete: SetNull)
-  reviewerId  String?
-  reviewer    User?         @relation("RevisionReviewer", fields: [reviewerId], references: [id], onDelete: SetNull)
-  createdAt   DateTime      @default(now())
-  publishedAt DateTime?
+  id            String        @id @default(cuid())
+  lessonId      String
+  lesson        Lesson        @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  version       Int
+  source        String // IMPORT | EDITOR
+  sourceHash    String? // hash of the /content source for IMPORT revisions
+  snapshot      Json // full lesson payload incl. exercises
+  status        ContentStatus @default(DRAFT)
+  note          String? // author's change note
+  reviewComment String? // latest reviewer/publisher comment
+  authorId      String?
+  author        User?         @relation("RevisionAuthor", fields: [authorId], references: [id], onDelete: SetNull)
+  reviewerId    String?
+  reviewer      User?         @relation("RevisionReviewer", fields: [reviewerId], references: [id], onDelete: SetNull)
+  createdAt     DateTime      @default(now())
+  publishedAt   DateTime?
 
   @@unique([lessonId, version])
   @@index([status])
@@ -320,16 +322,16 @@ model ContentImport {
 }
 
 model VocabularyItem {
-  id                 String   @id @default(cuid())
-  key                String   @unique // fr-a1-u01-l01-v03
+  id                 String    @id @default(cuid())
+  key                String    @unique // fr-a1-u01-l01-v03
   languageCode       String
-  language           Language @relation(fields: [languageCode], references: [code])
+  language           Language  @relation(fields: [languageCode], references: [code])
   levelCode          String
   lessonId           String?
-  lesson             Lesson?  @relation(fields: [lessonId], references: [id], onDelete: SetNull)
+  lesson             Lesson?   @relation(fields: [lessonId], references: [id], onDelete: SetNull)
   term               String
   translation        String // English gloss (or English definition for the English course)
-  translations       Json     @default("{}") // optional extra glosses: { es, fr, de }
+  translations       Json      @default("{}") // optional extra glosses: { es, fr, de }
   partOfSpeech       String?
   gender             String?
   ipa                String?
@@ -341,6 +343,7 @@ model VocabularyItem {
   audioKey           String?
   exampleAudioKey    String?
   tags               String[]
+  editedAt           DateTime? // set when corrected in the CMS; imports then keep the corrected text
 
   @@index([languageCode, levelCode])
   @@index([languageCode, term])
@@ -381,24 +384,28 @@ model ReadingPassage {
 }
 
 model AudioAsset {
-  id           String   @id @default(cuid())
-  key          String   @unique // relative path, e.g. fr/a1/u01/l01/v03.mp3
+  id           String    @id @default(cuid())
+  key          String    @unique // relative path, e.g. fr/a1/u01/l01/v03.mp3
   languageCode String
-  language     Language @relation(fields: [languageCode], references: [code])
+  language     Language  @relation(fields: [languageCode], references: [code])
   text         String
   textHash     String
   voice        String
-  speed        String   @default("normal") // normal | slow
+  speed        String    @default("normal") // normal | slow
   durationMs   Int
   bytes        Int
-  format       String   @default("mp3")
+  format       String    @default("mp3")
   checksum     String
-  qaStatus     String   @default("UNCHECKED") // UNCHECKED | PASS | REVIEW | FAIL
+  qaStatus     String    @default("UNCHECKED") // UNCHECKED | PASS | REVIEW | FAIL
   qaScore      Float?
   qaTranscript String?
   wordTimings  Json? // [{ word, start, end }] from forced transcription alignment
-  createdAt    DateTime @default(now())
-  updatedAt    DateTime @updatedAt
+  // A person's verdict after listening; cleared automatically when the audio changes.
+  humanVerdict String? // APPROVED | REJECTED
+  humanNote    String?
+  reviewedAt   DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
 
   @@index([languageCode])
   @@index([qaStatus])

@@ -57,17 +57,20 @@ export async function transitionRevision(actor: { id: string; role: Role }, revi
   if (!t.roles.includes(actor.role) && actor.role !== "ADMIN") throw forbidden("Your role can't perform this action.");
   const rev = await db.lessonRevision.findUnique({ where: { id: revisionId }, include: { lesson: { select: { id: true, slug: true } } } });
   if (!rev) throw notFound("Revision not found.");
-  if (!t.from.includes(rev.status)) throw badRequest(`A ${rev.status.toLowerCase()} revision can't be ${action === "submit" ? "submitted" : `${action}d`}.`);
+  const past = { submit: "submitted", approve: "approved", reject: "sent back", publish: "published" }[action];
+  if (!t.from.includes(rev.status)) throw badRequest(`A revision that is ${rev.status.toLowerCase().replace("_", " ")} can't be ${past}.`);
   if (action === "approve" && rev.authorId === actor.id && actor.role !== "ADMIN") throw forbidden("A different person must approve your own revision.");
   await db.$transaction(async (tx) => {
     await tx.lessonRevision.update({
       where: { id: rev.id },
-      data: { status: t.to, ...(action === "approve" || action === "reject" ? { reviewerId: actor.id } : {}), ...(action === "publish" ? { publishedAt: new Date() } : {}), ...(comment ? { note: comment.slice(0, 500) } : {}) },
+      data: { status: t.to, ...(action === "approve" || action === "reject" ? { reviewerId: actor.id } : {}), ...(action === "publish" ? { publishedAt: new Date() } : {}), ...(comment ? { reviewComment: comment.slice(0, 500) } : {}) },
     });
     if (action === "publish") {
       const v = validateSnapshot(rev.snapshot);
       if (!v.ok) throw badRequest("This revision no longer passes validation.");
-      await applyLessonSnapshot(tx, rev.lesson.id, rev.lesson.slug, v.snapshot, null);
+      // Import revisions keep their source hash so the next import sees the lesson as in sync;
+      // editor revisions clear it, which protects the edit from being overwritten by the files.
+      await applyLessonSnapshot(tx, rev.lesson.id, rev.lesson.slug, v.snapshot, rev.source === "IMPORT" ? rev.sourceHash : null);
     }
     await tx.auditLog.create({ data: { actorId: actor.id, action: `revision.${action}`, entityType: "Lesson", entityId: rev.lesson.id, metadata: { revision: rev.id, comment: comment ?? null } } });
   }, { timeout: 60_000 });
