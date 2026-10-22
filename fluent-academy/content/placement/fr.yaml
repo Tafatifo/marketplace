@@ -1,0 +1,33 @@
+# Placement check: 7 items per level. A level is passed with 5/7 or more.
+A1: |
+  mc: Je ___ française. || *suis | es | ai || Je + être = je suis. || @skill grammar
+  mc: You walk into a shop in the morning. You say: || Salut ! | *Bonjour, madame. | Bonne nuit ! || Bonjour + madame/monsieur is the polite daytime greeting. || @skill vocabulary
+  mc: "J'ai vingt ans" means… || *I'm twenty years old. | I have twenty euros. | I'll be there in twenty minutes. || French uses avoir + ans for age. || @skill vocabulary
+  fill: Nous ___ à Lyon. || habitons || Nous + habiter = nous habitons. || @hint habiter
+  mc: Which noun goes with "une"? || livre | *maison | stylo || Maison is feminine: une maison. || @skill grammar
+  mc: Il ne ___ pas le café. || *aime | aimes | aimer || Il aime → negative: il n'aime pas. || @skill grammar
+  listen: Je voudrais un café et un croissant, s'il vous plaît. || What does the person order? || *A coffee and a croissant | A tea and a croissant | A coffee and a sandwich || "Un café et un croissant."
+A2: |
+  fill: Hier, j'___ mangé au restaurant avec des amis. || ai || The passé composé of manger uses avoir: j'ai mangé.
+  mc: Samedi dernier, nous ___ allés au cinéma. || avons | *sommes | étions || Aller forms its passé composé with être: nous sommes allés.
+  mc: Quand j'étais petit, je ___ souvent au parc. || *jouais | ai joué | jouerai || Habits in the past use the imparfait: je jouais. || @skill grammar
+  mc: "Tu vois Marie ce soir ?" — "Oui, je ___ vois à 20 heures." || *la | lui | le || Marie is a direct object, feminine: je la vois.
+  mc: Ce restaurant est ___ cher que l'autre. || *plus | très | trop || Comparisons use plus… que.
+  mc: Which sentence asks for directions politely? || Où la gare ? | *Excusez-moi, où se trouve la gare, s'il vous plaît ? | Gare, où ? || Excusez-moi + où se trouve… + s'il vous plaît is polite and complete. || @skill vocabulary
+  listen: Désolé, le train de neuf heures quinze a vingt minutes de retard. || What is the problem? || *The train is twenty minutes late | The train is cancelled | The train leaves from another platform || "A vingt minutes de retard" — is twenty minutes late.
+B1: |
+  mc: Il faut que tu ___ tes devoirs avant de sortir. || *fasses | fais | feras || Il faut que is followed by the subjunctive: que tu fasses.
+  mc: Si j'avais plus de temps, je ___ davantage. || lis | *lirais | lirai || Si + imparfait is followed by the conditionnel: je lirais.
+  mc: C'est la ville ___ je suis né. || que | qui | *où || Où introduces a place: la ville où je suis né.
+  mc: "Tu as besoin de ton ordinateur ?" — "Oui, j'___ ai besoin." || *en | y | le || Avoir besoin de → en replaces de + noun.
+  tf: "Malgré la pluie, la fête a eu lieu dans le jardin." The party was cancelled. || false || Malgré la pluie = despite the rain; the party took place. || @skill reading
+  mc: "Je m'en fiche" is… || very formal | *informal — "I don't care" | a polite apology || Se ficher de quelque chose is informal for not caring. || @skill vocabulary
+  listen: Je n'ai pas pu venir à la réunion parce que mon fils était malade. || Why didn't the speaker come to the meeting? || *Their son was ill | They were ill | The meeting was cancelled || "Parce que mon fils était malade."
+B2: |
+  mc: Bien qu'il ___ tard, ils ont continué à travailler. || *soit | est | était || Bien que always takes the subjunctive: bien qu'il soit tard.
+  mc: Si j'avais su, je ___ plus tôt. || *serais venu | viendrais | suis venu || Si + plus-que-parfait → conditionnel passé: je serais venu.
+  mc: Les décisions ___ il a prises ont surpris tout le monde. || *qu' | dont | lesquelles || Prendre une décision: the object pronoun is que (qu').
+  mc: "Il a beau insister, je ne changerai pas d'avis" means… || *However much he insists, I won't change my mind. | He insists politely, so I'll change my mind. | He no longer insists, and I agree. || Avoir beau + infinitif expresses that an effort is in vain. || @skill vocabulary
+  mc: Choose the most formal connector — "___, les résultats restent décevants." || *Néanmoins | Mais bon | Du coup || Néanmoins (nevertheless) belongs to formal written French; mais bon and du coup are conversational.
+  mc: La proposition a été ___ par la direction. || approuvé | *approuvée | approuver || In the passive, the past participle agrees with the subject: la proposition… approuvée.
+  listen: Même si la mesure semble populaire, ses effets à long terme restent difficiles à évaluer. || What does the speaker suggest? || *The long-term effects are uncertain | The measure is unpopular | The effects are already well known || "Restent difficiles à évaluer" — remain hard to assess.

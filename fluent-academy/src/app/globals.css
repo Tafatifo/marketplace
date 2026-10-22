@@ -1,0 +1,131 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/*
+ * Fluent Academy design tokens.
+ * Deep navy is the primary brand colour, white the canvas, and gold a
+ * restrained accent reserved for emphasis (progress, highlights, the logo bar).
+ */
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Source Serif 4 Variable", ui-serif, Georgia, "Times New Roman", serif;
+
+  --color-navy-950: #061229;
+  --color-navy-900: #0b1f3a;
+  --color-navy-800: #12294b;
+  --color-navy-700: #1b3a66;
+  --color-navy-600: #284d84;
+  --color-navy-500: #3a629f;
+  --color-navy-400: #6786bc;
+  --color-navy-300: #9bb1d8;
+  --color-navy-200: #c7d4eb;
+  --color-navy-100: #e5ebf5;
+  --color-navy-50: #f3f6fb;
+
+  --color-gold-700: #8a6a22;
+  --color-gold-600: #a8842f;
+  --color-gold-500: #c29b3f;
+  --color-gold-400: #d5b46a;
+  --color-gold-300: #e6cf9a;
+  --color-gold-200: #f1e3c2;
+  --color-gold-100: #f8f0dd;
+  --color-gold-50: #fcf8ee;
+
+  --color-ink: #0e1a2b;
+  --color-muted: #5b6777;
+  --color-subtle: #8792a2;
+  --color-line: #e3e7ee;
+  --color-canvas: #f7f8fb;
+
+  --color-success-700: #17624a;
+  --color-success-600: #1f7a5a;
+  --color-success-100: #dff2ea;
+  --color-success-50: #f0f9f5;
+  --color-danger-700: #8f1d24;
+  --color-danger-600: #b4232c;
+  --color-danger-100: #f9dfe0;
+  --color-danger-50: #fdf1f1;
+  --color-warning-700: #8a5a12;
+  --color-warning-600: #b7791f;
+  --color-warning-100: #f8ebd3;
+  --color-warning-50: #fcf6ea;
+
+  --radius-card: 1rem;
+  --shadow-card: 0 1px 2px rgb(11 31 58 / 0.04), 0 4px 16px rgb(11 31 58 / 0.05);
+  --shadow-lift: 0 2px 4px rgb(11 31 58 / 0.06), 0 12px 32px rgb(11 31 58 / 0.1);
+
+  --animate-fade-in: fade-in 0.35s ease-out both;
+  --animate-rise: rise 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  --animate-shimmer: shimmer 1.6s linear infinite;
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes shimmer {
+    from { background-position: -400px 0; }
+    to { background-position: 400px 0; }
+  }
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+    font-feature-settings: "cv11", "ss01";
+  }
+  ::selection {
+    background: var(--color-gold-200);
+    color: var(--color-navy-950);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-navy-500);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+  .eyebrow {
+    @apply text-xs font-semibold tracking-[0.16em] text-gold-600 uppercase;
+  }
+  .display {
+    @apply font-serif font-semibold tracking-tight text-navy-900;
+  }
+  .skeleton {
+    background: linear-gradient(90deg, #eef1f6 0%, #f6f8fb 40%, #eef1f6 80%);
+    background-size: 800px 100%;
+    @apply animate-shimmer rounded-md;
+  }
+  .reading-text {
+    @apply font-serif text-[1.125rem] leading-[1.85] text-ink;
+  }
+  .card {
+    @apply rounded-[var(--radius-card)] border border-line bg-white shadow-[var(--shadow-card)];
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

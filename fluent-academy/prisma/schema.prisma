@@ -1,0 +1,914 @@
+// Fluent Academy data model.
+//
+// Conventions:
+// - Public curriculum content (Language → Course → Unit → Lesson → Exercise,
+//   ReadingPassage, VocabularyItem, AudioAsset) is shared by all learners.
+// - Every private learner record carries a `userId` and must only ever be
+//   queried with that user's id (see src/server/auth/guard.ts).
+// - Exercise answers live in `Exercise.answer` and are never serialised to the
+//   client before the learner submits a response.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Identity, sessions, preferences
+// ─────────────────────────────────────────────────────────────────────────────
+
+enum Role {
+  LEARNER
+  EDITOR
+  REVIEWER
+  ADMIN
+}
+
+model User {
+  id              String    @id @default(cuid())
+  email           String    @unique
+  name            String
+  passwordHash    String
+  role            Role      @default(LEARNER)
+  emailVerifiedAt DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  lastLoginAt     DateTime?
+
+  sessions           Session[]
+  passwordResets     PasswordResetToken[]
+  preferences        UserPreferences?
+  enrollments        Enrollment[]
+  exerciseAttempts   ExerciseAttempt[]
+  lessonProgress     LessonProgress[]
+  assessmentAttempts AssessmentAttempt[]
+  conversations      Conversation[]
+  observations       LearningObservation[]
+  weaknesses         LearnerWeakness[]
+  vocabulary         UserVocabulary[]
+  vocabularyReviews  VocabularyReview[]
+  exerciseReviews    ExerciseReview[]
+  speakingAttempts   SpeakingAttempt[]
+  readingProgress    ReadingProgress[]
+  dailyActivity      DailyActivity[]
+  xpTransactions     XpTransaction[]
+  achievements       UserAchievement[]
+  subscription       Subscription?
+  usageCounters      UsageCounter[]
+  dismissedRecs      DismissedRecommendation[]
+  auditLogs          AuditLog[]                @relation("AuditActor")
+  lessonRevisions    LessonRevision[]          @relation("RevisionAuthor")
+  reviewedRevisions  LessonRevision[]          @relation("RevisionReviewer")
+  contentReviews     ContentReview[]
+}
+
+model Session {
+  id         String   @id @default(cuid())
+  tokenHash  String   @unique
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now())
+  expiresAt  DateTime
+  lastUsedAt DateTime @default(now())
+  userAgent  String?
+  ipHash     String?
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model PasswordResetToken {
+  id        String    @id @default(cuid())
+  tokenHash String    @unique
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime  @default(now())
+  expiresAt DateTime
+  usedAt    DateTime?
+
+  @@index([userId])
+}
+
+enum CorrectionMode {
+  GENTLE
+  BALANCED
+  INTENSIVE
+}
+
+model UserPreferences {
+  userId                 String         @id
+  user                   User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  nativeLanguage         String         @default("en") // ISO 639-1, may be outside supported course languages
+  explainInNative        Boolean        @default(true)
+  correctionMode         CorrectionMode @default(BALANCED)
+  dailyGoalMinutes       Int            @default(15)
+  dailyGoalXp            Int            @default(50)
+  learningObjective      String? // travel | work | study | exam | relocation | culture | family | other
+  focusAreas             String[]       @default([]) // speaking | listening | vocabulary | grammar | pronunciation | reading | writing
+  timezone               String         @default("UTC")
+  activeLanguage         String?
+  retainRecordings       Boolean        @default(true)
+  recordingRetentionDays Int            @default(30)
+  playbackRate           Float          @default(1.0)
+  onboardingCompletedAt  DateTime?
+  marketingEmails        Boolean        @default(false)
+  updatedAt              DateTime       @updatedAt
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Curriculum (public content)
+// ─────────────────────────────────────────────────────────────────────────────
+
+model Language {
+  code       String  @id // en, fr, es, de
+  name       String
+  nativeName String
+  locale     String // BCP-47 default locale for speech, e.g. fr-FR
+  isActive   Boolean @default(true)
+  sortOrder  Int     @default(0)
+  voices     Json // [{ id, label, gender, license }]
+  meta       Json    @default("{}")
+
+  courses     Course[]
+  vocabulary  VocabularyItem[]
+  passages    ReadingPassage[]
+  enrollments Enrollment[]
+  audio       AudioAsset[]
+}
+
+model CefrLevel {
+  code        String   @id // A1, A2, B1, B2
+  order       Int      @unique
+  name        String
+  description String
+  guidedHours Int // indicative guided learning hours for the level (cumulative guidance)
+  courses     Course[]
+}
+
+enum ContentStatus {
+  DRAFT
+  IN_REVIEW
+  APPROVED
+  PUBLISHED
+  ARCHIVED
+}
+
+// Linguistic review status — AI-drafted content is never considered verified.
+enum LinguisticStatus {
+  AI_DRAFTED
+  NEEDS_CHANGES
+  NATIVE_REVIEWED
+  APPROVED
+}
+
+model Course {
+  id           String        @id @default(cuid())
+  slug         String        @unique // fr-a1
+  languageCode String
+  language     Language      @relation(fields: [languageCode], references: [code])
+  levelCode    String
+  level        CefrLevel     @relation(fields: [levelCode], references: [code])
+  title        String
+  description  String
+  syllabus     Json // objectives, can-do statements, grammar scope, vocabulary domains, hours
+  status       ContentStatus @default(PUBLISHED)
+  version      Int           @default(1)
+  sourceHash   String?
+  updatedAt    DateTime      @updatedAt
+  createdAt    DateTime      @default(now())
+  units        Unit[]
+
+  @@unique([languageCode, levelCode])
+}
+
+model Unit {
+  id          String   @id @default(cuid())
+  slug        String   @unique // fr-a1-u01
+  courseId    String
+  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  order       Int
+  title       String
+  description String
+  theme       String
+  objectives  Json // string[]
+  canDo       Json // string[]
+  isFree      Boolean  @default(false)
+  lessons     Lesson[]
+
+  @@index([courseId, order])
+}
+
+enum LessonKind {
+  LESSON
+  UNIT_REVIEW
+  LEVEL_ASSESSMENT
+}
+
+model Lesson {
+  id               String           @id @default(cuid())
+  slug             String           @unique // fr-a1-u01-l01
+  unitId           String
+  unit             Unit             @relation(fields: [unitId], references: [id], onDelete: Cascade)
+  order            Int
+  kind             LessonKind       @default(LESSON)
+  title            String
+  summary          String
+  estimatedMinutes Int
+  skills           String[]
+  objectives       Json // string[]
+  grammarTags      String[]
+  content          Json // instructional blocks (see src/content/schema.ts)
+  status           ContentStatus    @default(PUBLISHED)
+  linguisticStatus LinguisticStatus @default(AI_DRAFTED)
+  version          Int              @default(1)
+  sourceHash       String?
+  publishedAt      DateTime?
+  updatedAt        DateTime         @updatedAt
+  createdAt        DateTime         @default(now())
+
+  exercises       Exercise[]
+  progress        LessonProgress[]
+  revisions       LessonRevision[]
+  vocabularyItems VocabularyItem[]
+
+  @@index([unitId, order])
+  @@index([status])
+}
+
+enum ExerciseType {
+  MULTIPLE_CHOICE
+  FILL_BLANK
+  SENTENCE_ORDER
+  MATCHING
+  TRANSLATION
+  SHORT_ANSWER
+  LISTENING
+  DICTATION
+  SPEAKING
+  WRITING
+}
+
+model Exercise {
+  id          String       @id @default(cuid())
+  key         String       @unique // stable id: fr-a1-u01-l01-e03
+  lessonId    String
+  lesson      Lesson       @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  order       Int
+  type        ExerciseType
+  skill       String // grammar | vocabulary | reading | listening | speaking | writing | translation | pronunciation
+  prompt      Json // public payload shown to the learner
+  answer      Json // server-only: accepted answers / key
+  explanation String
+  tags        String[] // taxonomy categories, e.g. grammar:fr.passe-compose.auxiliary
+  objective   String? // learning objective this item assesses
+  points      Int          @default(10)
+  isActive    Boolean      @default(true)
+  derived     Boolean      @default(false) // generated from authored vocabulary/dialogue
+
+  attempts ExerciseAttempt[]
+  reviews  ExerciseReview[]
+
+  @@index([lessonId, order])
+}
+
+model LessonRevision {
+  id          String        @id @default(cuid())
+  lessonId    String
+  lesson      Lesson        @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  version     Int
+  source      String // IMPORT | EDITOR
+  snapshot    Json // full lesson payload incl. exercises
+  status      ContentStatus @default(DRAFT)
+  note        String?
+  authorId    String?
+  author      User?         @relation("RevisionAuthor", fields: [authorId], references: [id], onDelete: SetNull)
+  reviewerId  String?
+  reviewer    User?         @relation("RevisionReviewer", fields: [reviewerId], references: [id], onDelete: SetNull)
+  createdAt   DateTime      @default(now())
+  publishedAt DateTime?
+
+  @@unique([lessonId, version])
+  @@index([status])
+}
+
+model ContentReview {
+  id         String           @id @default(cuid())
+  entityType String // LESSON | PASSAGE | VOCABULARY | COURSE
+  entityId   String
+  status     LinguisticStatus
+  comment    String
+  reviewerId String
+  reviewer   User             @relation(fields: [reviewerId], references: [id], onDelete: Cascade)
+  createdAt  DateTime         @default(now())
+
+  @@index([entityType, entityId])
+}
+
+model ContentImport {
+  id          String    @id @default(cuid())
+  startedAt   DateTime  @default(now())
+  finishedAt  DateTime?
+  status      String // RUNNING | SUCCEEDED | FAILED
+  publish     Boolean   @default(false)
+  summary     Json      @default("{}")
+  sourceHash  String?
+  triggeredBy String?
+}
+
+model VocabularyItem {
+  id                 String   @id @default(cuid())
+  key                String   @unique // fr-a1-u01-l01-v03
+  languageCode       String
+  language           Language @relation(fields: [languageCode], references: [code])
+  levelCode          String
+  lessonId           String?
+  lesson             Lesson?  @relation(fields: [lessonId], references: [id], onDelete: SetNull)
+  term               String
+  translation        String // English gloss (or English definition for the English course)
+  translations       Json     @default("{}") // optional extra glosses: { es, fr, de }
+  partOfSpeech       String?
+  gender             String?
+  ipa                String?
+  ipaSource          String? // espeak-ng (automatic) | editor
+  example            String
+  exampleTranslation String?
+  collocations       String[]
+  usageNote          String?
+  audioKey           String?
+  exampleAudioKey    String?
+  tags               String[]
+
+  @@index([languageCode, levelCode])
+  @@index([languageCode, term])
+}
+
+enum PassageKind {
+  READING
+  LISTENING
+}
+
+model ReadingPassage {
+  id               String           @id @default(cuid())
+  slug             String           @unique
+  languageCode     String
+  language         Language         @relation(fields: [languageCode], references: [code])
+  levelCode        String
+  kind             PassageKind      @default(READING)
+  title            String
+  summary          String
+  topic            String
+  body             String // paragraphs separated by blank lines; dialogues use "Speaker: line"
+  translation      String?
+  wordCount        Int
+  estimatedMinutes Int
+  glossary         Json // [{ term, translation, note }]
+  questions        Json // server-only: [{ id, type, prompt, options?, answer, explanation }]
+  audioKey         String?
+  isFree           Boolean          @default(false)
+  status           ContentStatus    @default(PUBLISHED)
+  linguisticStatus LinguisticStatus @default(AI_DRAFTED)
+  sourceHash       String?
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+
+  progress ReadingProgress[]
+
+  @@index([languageCode, levelCode, kind])
+}
+
+model AudioAsset {
+  id           String   @id @default(cuid())
+  key          String   @unique // relative path, e.g. fr/a1/u01/l01/v03.mp3
+  languageCode String
+  language     Language @relation(fields: [languageCode], references: [code])
+  text         String
+  textHash     String
+  voice        String
+  speed        String   @default("normal") // normal | slow
+  durationMs   Int
+  bytes        Int
+  format       String   @default("mp3")
+  checksum     String
+  qaStatus     String   @default("UNCHECKED") // UNCHECKED | PASS | REVIEW | FAIL
+  qaScore      Float?
+  qaTranscript String?
+  wordTimings  Json? // [{ word, start, end }] from forced transcription alignment
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([languageCode])
+  @@index([qaStatus])
+}
+
+model Scenario {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title       String
+  description String
+  minLevel    String
+  maxLevel    String
+  category    String // social | travel | work | daily | opinion
+  goals       Json // string[]
+  focusTags   String[] // taxonomy categories this scenario practices
+  roles       Json // { tutor, learner }
+  openers     Json // per language opening line { fr: "...", ... }
+  vocabulary  Json // per language suggested vocabulary
+  mockScript  Json // per language scripted turns for practice (offline) mode
+  isFree      Boolean  @default(false)
+  sortOrder   Int      @default(0)
+}
+
+model Achievement {
+  code        String            @id
+  title       String
+  description String
+  icon        String
+  category    String
+  threshold   Int
+  sortOrder   Int               @default(0)
+  users       UserAchievement[]
+}
+
+model PlacementItem {
+  id           String @id @default(cuid())
+  key          String @unique
+  languageCode String
+  levelCode    String
+  skill        String
+  prompt       Json
+  answer       Json
+  explanation  String
+  order        Int
+
+  @@index([languageCode, order])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Learner records (private)
+// ─────────────────────────────────────────────────────────────────────────────
+
+model Enrollment {
+  id             String   @id @default(cuid())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  languageCode   String
+  language       Language @relation(fields: [languageCode], references: [code])
+  levelCode      String // current working CEFR level
+  placementLevel String?
+  selfAssessed   String?
+  difficultyBias Float    @default(0) // -1..+1 adjustment used by the AI tutor (i+1 stretch)
+  startedAt      DateTime @default(now())
+  lastActiveAt   DateTime @default(now())
+  isActive       Boolean  @default(true)
+
+  @@unique([userId, languageCode])
+}
+
+model ExerciseAttempt {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exerciseId String
+  exercise   Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+  sessionKey String? // groups attempts made within one pass through a lesson
+  response   Json
+  isCorrect  Boolean
+  score      Float // 0..1
+  feedback   Json
+  createdAt  DateTime @default(now())
+
+  @@index([userId, exerciseId])
+  @@index([userId, createdAt])
+}
+
+enum ProgressStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  COMPLETED
+}
+
+model LessonProgress {
+  id          String         @id @default(cuid())
+  userId      String
+  user        User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId    String
+  lesson      Lesson         @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  status      ProgressStatus @default(IN_PROGRESS)
+  sessionKey  String?
+  currentStep Int            @default(0)
+  bestScore   Float          @default(0)
+  lastScore   Float?
+  passes      Int            @default(0)
+  xpAwarded   Int            @default(0)
+  startedAt   DateTime       @default(now())
+  completedAt DateTime?
+  updatedAt   DateTime       @updatedAt
+
+  @@unique([userId, lessonId])
+  @@index([userId, status])
+}
+
+enum AssessmentKind {
+  PLACEMENT
+  UNIT_REVIEW
+  LEVEL
+}
+
+model AssessmentAttempt {
+  id           String         @id @default(cuid())
+  userId       String
+  user         User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  kind         AssessmentKind
+  languageCode String
+  levelCode    String?
+  lessonId     String?
+  score        Float
+  maxScore     Float
+  passed       Boolean
+  result       Json
+  createdAt    DateTime       @default(now())
+
+  @@index([userId, kind, languageCode])
+}
+
+enum ConversationStatus {
+  ACTIVE
+  ENDED
+}
+
+model Conversation {
+  id             String                @id @default(cuid())
+  userId         String
+  user           User                  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  languageCode   String
+  levelCode      String
+  scenarioSlug   String
+  correctionMode CorrectionMode
+  provider       String // anthropic | openai-compatible | practice
+  model          String?
+  isPractice     Boolean               @default(false) // true when the scripted offline tutor was used
+  status         ConversationStatus    @default(ACTIVE)
+  title          String
+  context        Json                  @default("{}") // { passageSlug?, lessonSlug?, targetVocabulary, focusTags }
+  review         Json?
+  startedAt      DateTime              @default(now())
+  endedAt        DateTime?
+  messages       ConversationMessage[]
+
+  @@index([userId, startedAt])
+}
+
+enum MessageRole {
+  USER
+  ASSISTANT
+}
+
+model ConversationMessage {
+  id             String       @id @default(cuid())
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  role           MessageRole
+  content        String
+  translation    String?
+  corrections    Json         @default("[]")
+  vocabulary     Json         @default("[]")
+  meta           Json         @default("{}")
+  createdAt      DateTime     @default(now())
+
+  @@index([conversationId, createdAt])
+}
+
+model LearningObservation {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  languageCode String
+  skill        String // grammar | vocabulary | pronunciation | listening | reading | writing | translation | speaking
+  category     String // taxonomy key, e.g. grammar:fr.passe-compose.auxiliary
+  outcome      String // ERROR | SUCCESS
+  detail       String?
+  evidence     String?
+  source       String // EXERCISE | CONVERSATION | SPEAKING | READING | ASSESSMENT
+  sourceId     String?
+  confidence   Float    @default(0.7)
+  createdAt    DateTime @default(now())
+
+  @@index([userId, languageCode, category])
+  @@index([userId, createdAt])
+}
+
+enum WeaknessStatus {
+  EMERGING // some evidence, not yet enough to act on
+  ACTIVE // repeated evidence — drives recommendations
+  IMPROVING
+  RESOLVED
+  DISMISSED // learner said this is not a problem
+}
+
+model LearnerWeakness {
+  id            String         @id @default(cuid())
+  userId        String
+  user          User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  languageCode  String
+  category      String
+  skill         String
+  label         String
+  errorCount    Int            @default(0)
+  successCount  Int            @default(0)
+  distinctItems Int            @default(0)
+  recentErrors  Int            @default(0) // errors within the evidence window
+  streakCorrect Int            @default(0)
+  score         Float          @default(0) // 0..1 strength of evidence of a persistent difficulty
+  status        WeaknessStatus @default(EMERGING)
+  examples      Json           @default("[]")
+  firstSeenAt   DateTime       @default(now())
+  lastSeenAt    DateTime       @default(now())
+  dismissedAt   DateTime?
+
+  @@unique([userId, languageCode, category])
+  @@index([userId, languageCode, status])
+}
+
+enum VocabStatus {
+  NEW
+  LEARNING
+  REVIEW
+  MASTERED
+  SUSPENDED
+}
+
+model UserVocabulary {
+  id               String             @id @default(cuid())
+  userId           String
+  user             User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  languageCode     String
+  term             String
+  normalizedTerm   String
+  translation      String
+  definition       String?
+  example          String?
+  partOfSpeech     String?
+  notes            String?
+  sourceType       String // LESSON | READING | CONVERSATION | MANUAL | SPEAKING
+  sourceId         String?
+  sourceContext    String?
+  vocabularyItemId String?
+  audioKey         String?
+  status           VocabStatus        @default(NEW)
+  easeFactor       Float              @default(2.5)
+  intervalDays     Float              @default(0)
+  repetitions      Int                @default(0)
+  lapses           Int                @default(0)
+  dueAt            DateTime           @default(now())
+  lastReviewedAt   DateTime?
+  createdAt        DateTime           @default(now())
+  updatedAt        DateTime           @updatedAt
+  reviews          VocabularyReview[]
+
+  @@unique([userId, languageCode, normalizedTerm])
+  @@index([userId, languageCode, dueAt])
+}
+
+model VocabularyReview {
+  id               String         @id @default(cuid())
+  userId           String
+  user             User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userVocabularyId String
+  vocab            UserVocabulary @relation(fields: [userVocabularyId], references: [id], onDelete: Cascade)
+  mode             String // RECALL | PRODUCTION | LISTENING | CONTEXT
+  response         String?
+  correct          Boolean
+  grade            Int // 0..5 (SM-2 quality)
+  intervalBefore   Float
+  intervalAfter    Float
+  createdAt        DateTime       @default(now())
+
+  @@index([userId, createdAt])
+}
+
+// Spaced review of previously practised exercises (mistakes deck).
+model ExerciseReview {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exerciseId   String
+  exercise     Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+  languageCode String
+  easeFactor   Float    @default(2.3)
+  intervalDays Float    @default(1)
+  repetitions  Int      @default(0)
+  dueAt        DateTime
+  lastResult   Boolean?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@unique([userId, exerciseId])
+  @@index([userId, languageCode, dueAt])
+}
+
+model SpeakingAttempt {
+  id             String    @id @default(cuid())
+  userId         String
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  languageCode   String
+  targetText     String?
+  context        String // SENTENCE | EXERCISE | FREE | CONVERSATION
+  sourceId       String?
+  audioKey       String? // null once deleted by retention policy or user request
+  audioMimeType  String?
+  audioBytes     Int?
+  durationMs     Int?
+  transcript     String
+  provider       String // local-whisper | openai | azure | browser | mock
+  assessmentType String // PRONUNCIATION_ASSESSMENT | TRANSCRIPT_COMPARISON
+  isSimulated    Boolean   @default(false)
+  matchScore     Float? // transcript ↔ target word match ratio (approximate intelligibility)
+  pronunciation  Json? // provider-reported scores, only when the provider measures them
+  words          Json // word-level alignment
+  feedback       Json
+  audioExpiresAt DateTime?
+  createdAt      DateTime  @default(now())
+
+  @@index([userId, createdAt])
+  @@index([audioExpiresAt])
+}
+
+model ReadingProgress {
+  id                 String         @id @default(cuid())
+  userId             String
+  user               User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  passageId          String
+  passage            ReadingPassage @relation(fields: [passageId], references: [id], onDelete: Cascade)
+  status             ProgressStatus @default(IN_PROGRESS)
+  comprehensionScore Float?
+  answers            Json?
+  summary            String?
+  summaryFeedback    Json?
+  startedAt          DateTime       @default(now())
+  completedAt        DateTime?
+
+  @@unique([userId, passageId])
+}
+
+model DailyActivity {
+  id                String   @id @default(cuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  date              DateTime @db.Date // local date in the learner's timezone
+  xp                Int      @default(0)
+  minutes           Int      @default(0)
+  lessonsCompleted  Int      @default(0)
+  exercisesAnswered Int      @default(0)
+  exercisesCorrect  Int      @default(0)
+  reviews           Int      @default(0)
+  conversations     Int      @default(0)
+  speakingAttempts  Int      @default(0)
+  readings          Int      @default(0)
+  goalMet           Boolean  @default(false)
+
+  @@unique([userId, date])
+}
+
+model XpTransaction {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  amount     Int
+  reason     String // LESSON_COMPLETE | EXERCISE | REVIEW | CONVERSATION | READING | SPEAKING | ACHIEVEMENT | ASSESSMENT
+  sourceType String
+  sourceId   String
+  createdAt  DateTime @default(now())
+
+  // Prevents awarding XP twice for the same achievement of the same source.
+  @@unique([userId, reason, sourceType, sourceId])
+  @@index([userId, createdAt])
+}
+
+model UserAchievement {
+  userId          String
+  user            User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievementCode String
+  achievement     Achievement @relation(fields: [achievementCode], references: [code], onDelete: Cascade)
+  earnedAt        DateTime    @default(now())
+
+  @@id([userId, achievementCode])
+}
+
+model DismissedRecommendation {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  recKey    String
+  createdAt DateTime @default(now())
+  expiresAt DateTime
+
+  @@unique([userId, recKey])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Billing
+// ─────────────────────────────────────────────────────────────────────────────
+
+model Plan {
+  code               String   @id // free | premium
+  name               String
+  description        String
+  priceMonthlyCents  Int
+  priceYearlyCents   Int
+  currency           String   @default("usd")
+  stripePriceMonthly String?
+  stripePriceYearly  String?
+  limits             Json // see src/server/billing/plans.ts
+  features           Json // string[] for marketing display
+  isActive           Boolean  @default(true)
+  sortOrder          Int      @default(0)
+  updatedAt          DateTime @updatedAt
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  TRIALING
+  PAST_DUE
+  CANCELED
+  INCOMPLETE
+}
+
+model Subscription {
+  id                     String             @id @default(cuid())
+  userId                 String             @unique
+  user                   User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  planCode               String             @default("free")
+  status                 SubscriptionStatus @default(ACTIVE)
+  provider               String             @default("none") // none | stripe | simulation
+  providerCustomerId     String?            @unique
+  providerSubscriptionId String?            @unique
+  interval               String? // month | year
+  currentPeriodEnd       DateTime?
+  cancelAtPeriodEnd      Boolean            @default(false)
+  updatedAt              DateTime           @updatedAt
+  createdAt              DateTime           @default(now())
+}
+
+model PaymentEvent {
+  id          String   @id @default(cuid())
+  provider    String
+  eventId     String   @unique
+  type        String
+  payload     Json
+  processedAt DateTime @default(now())
+  outcome     String
+}
+
+model UsageCounter {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  metric      String // lesson_start | ai_conversation | ai_message | speech_attempt | reading_open
+  periodStart DateTime @db.Date
+  count       Int      @default(0)
+
+  @@unique([userId, metric, periodStart])
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Platform operations
+// ─────────────────────────────────────────────────────────────────────────────
+
+model RateLimitBucket {
+  key         String   @id
+  count       Int
+  windowStart DateTime
+  expiresAt   DateTime
+
+  @@index([expiresAt])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  actorId    String?
+  actor      User?    @relation("AuditActor", fields: [actorId], references: [id], onDelete: SetNull)
+  action     String
+  entityType String
+  entityId   String?
+  metadata   Json     @default("{}")
+  createdAt  DateTime @default(now())
+
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}
+
+model SystemEvent {
+  id        String   @id @default(cuid())
+  level     String // info | warn | error
+  source    String
+  message   String
+  context   Json     @default("{}")
+  requestId String?
+  createdAt DateTime @default(now())
+
+  @@index([level, createdAt])
+}
