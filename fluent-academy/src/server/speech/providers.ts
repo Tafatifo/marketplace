@@ -3,6 +3,7 @@ import { env } from "../env";
 import { logger } from "../logger";
 import { toWav16k } from "./audio";
 import type { RecognizerName } from "./config";
+import { localeFor } from "@/content/voices";
 
 const log = logger("speech");
 
@@ -40,7 +41,6 @@ export interface PronunciationAssessor {
   assess(audio: Buffer, language: string, referenceText: string): Promise<PronunciationResult>;
 }
 
-const LOCALES: Record<string, string> = { en: "en-US", fr: "fr-FR", es: "es-ES", de: "de-DE" };
 
 class LocalWhisperRecognizer implements SpeechRecognizer {
   name = "local" as const;
@@ -108,7 +108,7 @@ interface AzureNBest {
 
 async function azureRequest(wav: Buffer, language: string, referenceText?: string) {
   const e = env();
-  const locale = LOCALES[language] ?? "en-US";
+  const locale = localeFor(language);
   const headers: Record<string, string> = {
     "Ocp-Apim-Subscription-Key": e.AZURE_SPEECH_KEY!,
     "Content-Type": "audio/wav; codecs=audio/pcm; samplerate=16000",

@@ -4,7 +4,7 @@
  * into these shapes by src/content/parse.ts.
  */
 
-export const COURSE_LANGUAGES = ["en", "fr", "es", "de"] as const;
+export const COURSE_LANGUAGES = ["en", "fr", "es", "de", "da"] as const;
 export type CourseLanguage = (typeof COURSE_LANGUAGES)[number];
 
 export const CEFR_LEVELS = ["A1", "A2", "B1", "B2"] as const;

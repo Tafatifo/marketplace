@@ -2,9 +2,10 @@ import { z } from "zod";
 import { db } from "@/server/db";
 import { apiUser } from "@/server/auth/current";
 import { json, notFound, parseJson, route } from "@/server/http";
+import { COURSE_LANGUAGES } from "@/content/types";
 
 const schema = z.object({
-  language: z.enum(["en", "fr", "es", "de"]),
+  language: z.enum(COURSE_LANGUAGES),
   level: z.enum(["A1", "A2", "B1", "B2"]).optional(),
   activate: z.boolean().default(true),
 });

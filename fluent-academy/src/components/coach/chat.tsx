@@ -10,6 +10,7 @@ import { Recorder, type SpeechConfig } from "@/components/learning/recorder";
 import { SaveWordButton } from "@/components/learning/blocks";
 import { api, ApiError } from "@/lib/api";
 import { cn } from "@/lib/cn";
+import { localeFor } from "@/content/voices";
 
 export interface ChatMessage {
   id: string;
@@ -33,13 +34,12 @@ export interface ReviewData {
   recommendedLessons?: { slug: string; title: string }[];
 }
 
-const LOCALES: Record<string, string> = { en: "en-US", fr: "fr-FR", es: "es-ES", de: "de-DE" };
 
 function speakFallback(text: string, lang: string) {
   if (typeof window === "undefined" || !window.speechSynthesis) return;
   window.speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  u.lang = LOCALES[lang] ?? "en-US";
+  u.lang = localeFor(lang);
   window.speechSynthesis.speak(u);
 }
 

@@ -43,6 +43,7 @@ NUMBERS = {
     "fr": "zéro un deux trois quatre cinq six sept huit neuf dix onze douze treize quatorze quinze seize dix-sept dix-huit dix-neuf vingt".split(),
     "es": "cero uno dos tres cuatro cinco seis siete ocho nueve diez once doce trece catorce quince dieciséis diecisiete dieciocho diecinueve veinte".split(),
     "de": "null eins zwei drei vier fünf sechs sieben acht neun zehn elf zwölf dreizehn vierzehn fünfzehn sechzehn siebzehn achtzehn neunzehn zwanzig".split(),
+    "da": "nul en to tre fire fem seks syv otte ni ti elleve tolv tretten fjorten femten seksten sytten atten nitten tyve".split(),
     "en": "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty".split(),
 }
 
@@ -69,6 +70,7 @@ NUMBER_WORDS = {
     "es": set("cero uno una dos tres cuatro cinco seis siete ocho nueve diez once doce trece catorce quince dieciseis diecisiete dieciocho diecinueve veinte treinta cuarenta cincuenta cien mil y horas euros".split()),
     "de": set("null eins ein eine zwei drei vier funf sechs sieben acht neun zehn elf zwolf zwanzig dreissig vierzig funfzig hundert tausend und uhr euro".split()),
     "en": set("zero one two three four five six seven eight nine ten eleven twelve twenty thirty forty fifty hundred thousand and o'clock pounds dollars".split()),
+    "da": set("nul en et to tre fire fem seks syv otte ni ti elleve tolv tyve tredive fyrre halvtreds tres halvfjerds firs halvfems hundrede tusind og klokken kroner kr".split()),
 }
 
 

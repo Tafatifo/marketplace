@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Downloads the Piper voice models used by Fluent Academy (≈700 MB) from Hugging Face.
+# Downloads the Piper voice models used by Fluent Academy (≈760 MB) from Hugging Face.
 set -euo pipefail
 cd "$(dirname "$0")/voices"
 BASE="https://huggingface.co/rhasspy/piper-voices/resolve/main"
@@ -13,7 +13,8 @@ for v in \
   es/es_ES/davefx/medium/es_ES-davefx-medium \
   es/es_MX/ald/medium/es_MX-ald-medium \
   de/de_DE/thorsten/medium/de_DE-thorsten-medium \
-  de/de_DE/kerstin/low/de_DE-kerstin-low; do
+  de/de_DE/kerstin/low/de_DE-kerstin-low \
+  da/da_DK/talesyntese/medium/da_DK-talesyntese-medium; do
   n=$(basename "$v")
   [ -s "$n.onnx" ] || curl -fsSL --retry 4 -o "$n.onnx" "$BASE/$v.onnx"
   [ -s "$n.onnx.json" ] || curl -fsSL --retry 4 -o "$n.onnx.json" "$BASE/$v.onnx.json"

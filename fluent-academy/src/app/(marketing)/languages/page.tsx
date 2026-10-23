@@ -7,7 +7,7 @@ import { LANGUAGE_META } from "@/content/voices";
 
 export const metadata: Metadata = {
   title: "Languages & syllabus",
-  description: "English, French, Spanish and German from CEFR A1 to B2 — units, objectives and lesson counts.",
+  description: "English, French, Spanish, German and Danish from CEFR A1 to B2 — units, objectives and lesson counts.",
 };
 export const revalidate = 300;
 
@@ -22,7 +22,7 @@ export default async function LanguagesPage() {
     <>
       <section className="container-page py-16 lg:py-20">
         <p className="eyebrow">Languages</p>
-        <h1 className="display mt-3 max-w-3xl text-4xl sm:text-5xl">Four languages, from first words to confident discussion.</h1>
+        <h1 className="display mt-3 max-w-3xl text-4xl sm:text-5xl">Five languages, from first words to confident discussion.</h1>
         <p className="mt-5 max-w-2xl text-lg text-muted">
           Each language follows the same CEFR-aligned progression, with grammar and culture adapted to the language itself.
         </p>

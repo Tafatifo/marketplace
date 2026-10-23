@@ -4,9 +4,10 @@ import { env } from "@/server/env";
 import { apiUser } from "@/server/auth/current";
 import { badRequest, HttpError, json, route, validate } from "@/server/http";
 import { createSpeakingAttempt, serializeAttempt } from "@/server/speech/service";
+import { COURSE_LANGUAGES } from "@/content/types";
 
 const fields = z.object({
-  language: z.enum(["en", "fr", "es", "de"]),
+  language: z.enum(COURSE_LANGUAGES),
   context: z.enum(["SENTENCE", "EXERCISE", "FREE", "CONVERSATION"]),
   targetText: z.string().max(500).optional(),
   sourceId: z.string().max(60).optional(),

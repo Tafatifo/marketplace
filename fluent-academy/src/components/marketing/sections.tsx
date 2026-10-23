@@ -195,7 +195,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: "Which languages can I learn?",
-    a: "English, French, Spanish and German, each from A1 to B2. Instructions and explanations are written in English; the AI coach can explain its corrections in your native language.",
+    a: "English, French, Spanish, German and Danish, each from A1 to B2. Instructions and explanations are written in English; the AI coach can explain its corrections in your native language.",
   },
   {
     q: "How does the AI coach work?",

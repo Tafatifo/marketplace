@@ -4,9 +4,10 @@ import { json, parseJson, route } from "@/server/http";
 import { savePlacement, scorePlacement } from "@/server/assessment/placement";
 import { writtenResponseSchema } from "@/server/exercises/schemas";
 import { awardAchievements } from "@/server/progress/achievements";
+import { COURSE_LANGUAGES } from "@/content/types";
 
 const schema = z.object({
-  language: z.enum(["en", "fr", "es", "de"]),
+  language: z.enum(COURSE_LANGUAGES),
   answers: z.record(z.string().max(80), writtenResponseSchema),
   finish: z.boolean().default(false),
 });

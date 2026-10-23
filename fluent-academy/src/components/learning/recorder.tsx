@@ -8,6 +8,7 @@ import { api, ApiError } from "@/lib/api";
 import { cn } from "@/lib/cn";
 import type { Alignment } from "@/lib/align";
 import type { TimedWord } from "./word-feedback";
+import { localeFor } from "@/content/voices";
 
 export interface SpeechConfig {
   mode: "server" | "browser" | "none";
@@ -38,7 +39,6 @@ export interface SpeakingAttemptResult {
   audioUrl: string | null;
 }
 
-const LOCALES: Record<string, string> = { en: "en-US", fr: "fr-FR", es: "es-ES", de: "de-DE" };
 
 type SR = {
   lang: string;
@@ -204,7 +204,7 @@ export function Recorder({
         (window as unknown as { webkitSpeechRecognition?: new () => SR }).webkitSpeechRecognition;
       if (Ctor) {
         const r = new Ctor();
-        r.lang = LOCALES[language] ?? "en-US";
+        r.lang = localeFor(language);
         r.continuous = true;
         r.interimResults = false;
         r.onresult = (e) => {

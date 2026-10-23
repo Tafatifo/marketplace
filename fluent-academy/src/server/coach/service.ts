@@ -118,6 +118,7 @@ export async function startConversation(
       es: `Acabas de leer «${passage.title}». ¿Qué te ha parecido?`,
       de: `Du hast gerade „${passage.title}“ gelesen. Wie fandest du den Text?`,
       en: `You've just read "${passage.title}". What did you think of it?`,
+      da: `Du har lige læst »${passage.title}«. Hvad syntes du om den?`,
     };
     openerText = intros[languageCode] ?? openerText;
     openerTranslation = `You've just read "${passage.title}". What did you think of it?`;

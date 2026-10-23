@@ -6,6 +6,7 @@ import re
 _FR = "zéro un deux trois quatre cinq six sept huit neuf dix onze douze treize quatorze quinze seize".split()
 _ES = "cero uno dos tres cuatro cinco seis siete ocho nueve diez once doce trece catorce quince dieciséis diecisiete dieciocho diecinueve veinte veintiuno veintidós veintitrés veinticuatro veinticinco veintiséis veintisiete veintiocho veintinueve".split()
 _DE = "null eins zwei drei vier fünf sechs sieben acht neun zehn elf zwölf dreizehn vierzehn fünfzehn sechzehn siebzehn achtzehn neunzehn".split()
+_DA = "nul en to tre fire fem seks syv otte ni ti elleve tolv tretten fjorten femten seksten sytten atten nitten".split()
 _EN = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
 
 
@@ -64,6 +65,21 @@ def de(n: int) -> str:
     return head if r == 0 else head + de(r)
 
 
+def da(n: int) -> str:
+    if n < 20:
+        return _DA[n]
+    if n < 100:
+        tens = {2: "tyve", 3: "tredive", 4: "fyrre", 5: "halvtreds", 6: "tres", 7: "halvfjerds", 8: "firs", 9: "halvfems"}[n // 10]
+        return tens if n % 10 == 0 else f"{_DA[n % 10]}og{tens}"
+    if n < 1000:
+        h, r = divmod(n, 100)
+        head = "hundrede" if h == 1 else f"{_DA[h]} hundrede"
+        return head if r == 0 else f"{head} og {da(r)}"
+    th, r = divmod(n, 1000)
+    head = "tusind" if th == 1 else f"{da(th)} tusind"
+    return head if r == 0 else f"{head} {da(r)}"
+
+
 def en(n: int) -> str:
     if n < 20:
         return _EN[n]
@@ -77,8 +93,7 @@ def en(n: int) -> str:
     return f"{en(th)} thousand" + ("" if r == 0 else f" {en(r)}")
 
 
-SPELL = {"fr": fr, "es": es, "de": de, "en": en}
-HOUR = {"fr": "heures", "es": "", "de": "Uhr", "en": ""}
+SPELL = {"fr": fr, "es": es, "de": de, "en": en, "da": da}
 
 
 def expand(text: str, lang: str) -> str:
@@ -98,12 +113,12 @@ def expand(text: str, lang: str) -> str:
             return f"{hour} Uhr" + (f" {spell(mnt)}" if mnt else "")
         return hour + (f" {spell(mnt)}" if mnt else "")
 
-    text = re.sub(r"\b(\d{1,2})\s*[h:]\s*(\d{2})?\b(?:\s*Uhr)?", clock, text)
+    text = re.sub(r"\b(\d{1,2})\s*[h:.]\s*(\d{2})?\b(?:\s*Uhr)?", clock, text) if lang == "da" else re.sub(r"\b(\d{1,2})\s*[h:]\s*(\d{2})?\b(?:\s*Uhr)?", clock, text)
 
     def price(m: re.Match) -> str:
         a, b = int(m.group(1)), int(m.group(2))
-        unit = {"fr": "euros", "es": "euros", "de": "Euro", "en": "euros"}[lang]
+        unit = {"fr": "euros", "es": "euros", "de": "Euro", "en": "euros", "da": "kroner"}[lang]
         return f"{spell(a)} {unit} {spell(b)}"
 
-    text = re.sub(r"\b(\d{1,4})[,.](\d{2})\s*(?:€|euros?|Euro)", price, text)
+    text = re.sub(r"\b(\d{1,4})[,.](\d{2})\s*(?:€|euros?|Euro|kr\.?|kroner)", price, text)
     return re.sub(r"\b\d{1,6}\b", lambda m: spell(int(m.group(0))) if int(m.group(0)) < 1_000_000 else m.group(0), text)

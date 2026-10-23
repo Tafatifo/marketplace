@@ -5,10 +5,11 @@ import { badRequest, json, parseJson, route } from "@/server/http";
 import { DAILY_GOALS, FOCUS_AREAS, NATIVE_LANGUAGES, OBJECTIVES } from "@/lib/languages";
 import { safeTimeZone } from "@/lib/dates";
 import { awardAchievements } from "@/server/progress/achievements";
+import { COURSE_LANGUAGES } from "@/content/types";
 
 const schema = z.object({
   nativeLanguage: z.enum(NATIVE_LANGUAGES.map(([c]) => c) as [string, ...string[]]),
-  targetLanguage: z.enum(["en", "fr", "es", "de"]),
+  targetLanguage: z.enum(COURSE_LANGUAGES),
   level: z.enum(["A1", "A2", "B1", "B2"]),
   objective: z.enum(OBJECTIVES.map(([c]) => c) as [string, ...string[]]),
   dailyGoalMinutes: z.number().int().refine((m) => DAILY_GOALS.some((g) => g.minutes === m), "Choose a daily goal."),

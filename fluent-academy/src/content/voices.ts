@@ -32,6 +32,12 @@ export const VOICES: Record<string, { f: VoiceInfo; m: VoiceInfo; alt?: VoiceInf
     f: { id: "de_DE-kerstin-low", label: "Kerstin (Germany)", gender: "f", locale: "de-DE", license: "CC0", source: "https://huggingface.co/rhasspy/piper-voices" },
     m: { id: "de_DE-thorsten-medium", label: "Thorsten (Germany)", gender: "m", locale: "de-DE", license: "CC0 (Thorsten-Voice)", source: "https://huggingface.co/rhasspy/piper-voices" },
   },
+  // Only one open Danish voice exists. The second speaker is derived from it (formant and
+  // pitch shift) so dialogues have two distinguishable voices; it is labelled as derived.
+  da: {
+    f: { id: "da_DK-talesyntese-medium+f", label: "Talesyntese, derived higher voice (Denmark)", gender: "f", locale: "da-DK", license: "CC0 (NB Språkbanken talesyntese data); pitch-shifted derivative", source: "https://huggingface.co/rhasspy/piper-voices" },
+    m: { id: "da_DK-talesyntese-medium", label: "Talesyntese (Denmark)", gender: "m", locale: "da-DK", license: "CC0 (NB Språkbanken talesyntese data)", source: "https://huggingface.co/rhasspy/piper-voices" },
+  },
 };
 
 export function voiceFor(language: string, gender: "f" | "m" = "f"): VoiceInfo {
@@ -45,4 +51,10 @@ export const LANGUAGE_META: Record<string, { name: string; nativeName: string; l
   fr: { name: "French", nativeName: "Français", locale: "fr-FR", order: 2, flagColors: ["#1b3a66", "#ffffff", "#b4232c"] },
   es: { name: "Spanish", nativeName: "Español", locale: "es-ES", order: 3, flagColors: ["#b4232c", "#c29b3f", "#b4232c"] },
   de: { name: "German", nativeName: "Deutsch", locale: "de-DE", order: 4, flagColors: ["#0e1a2b", "#b4232c", "#c29b3f"] },
+  da: { name: "Danish", nativeName: "Dansk", locale: "da-DK", order: 5, flagColors: ["#b4232c", "#ffffff", "#b4232c"] },
 };
+
+/** BCP 47 locale for browser speech synthesis/recognition and Azure Speech. */
+export function localeFor(language: string): string {
+  return LANGUAGE_META[language]?.locale ?? "en-US";
+}

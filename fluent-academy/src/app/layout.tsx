@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s · Fluent Academy",
   },
   description:
-    "A structured, AI-assisted language academy for English, French, Spanish and German — personalised lessons, conversation practice, speaking feedback and graded reading from A1 to B2.",
+    "A structured, AI-assisted language academy for English, French, Spanish, German and Danish — personalised lessons, conversation practice, speaking feedback and graded reading from A1 to B2.",
   applicationName: "Fluent Academy",
   icons: { icon: "/icon.svg" },
   openGraph: {

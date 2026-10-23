@@ -38,13 +38,16 @@ const exists = (p: string) => fs.existsSync(p);
  *   content/placement/<lang>.yaml                placement test items
  *   content/taxonomy/<lang>.yaml                 grammar/skill taxonomy for mistake tracking
  */
-export function loadContent(root = CONTENT_DIR): ContentBundle {
+export function loadContent(root = CONTENT_DIR, only?: { language: CourseLanguage; level?: CefrCode }): ContentBundle {
   const errors: string[] = [];
   const audio = new AudioCollector();
   const bundle: ContentBundle = { courses: [], passages: [], scenarios: [], placement: [], taxonomy: [], audio: [], errors };
 
+  const wanted = (lang: string, level?: string) => !only || (only.language === lang && (!only.level || !level || only.level === level));
+
   for (const lang of COURSE_LANGUAGES) {
     for (const level of CEFR_LEVELS) {
+      if (!wanted(lang, level)) continue;
       const dir = path.join(root, "courses", lang, level.toLowerCase());
       const coursePath = path.join(dir, "course.yaml");
       if (!exists(coursePath)) continue;
@@ -65,6 +68,7 @@ export function loadContent(root = CONTENT_DIR): ContentBundle {
 
   for (const lang of COURSE_LANGUAGES) {
     for (const level of CEFR_LEVELS) {
+      if (!wanted(lang, level)) continue;
       const file = path.join(root, "readings", lang, `${level.toLowerCase()}.yaml`);
       if (!exists(file)) continue;
       const list = readYaml<RawPassage[]>(file, errors) ?? [];
@@ -92,6 +96,7 @@ export function loadContent(root = CONTENT_DIR): ContentBundle {
   }
 
   for (const lang of COURSE_LANGUAGES) {
+    if (!wanted(lang)) continue;
     const file = path.join(root, "placement", `${lang}.yaml`);
     if (exists(file)) {
       const raw = readYaml<Record<string, string>>(file, errors);

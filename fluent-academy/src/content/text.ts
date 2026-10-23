@@ -20,6 +20,8 @@ export function normalizeAnswer(s: string, lang = "en"): string {
   out = out.replace(/\s+/g, " ").trim();
   if (lang === "en") out = expandEnglishContractions(out);
   if (lang === "de") out = out.replace(/ß/g, "ss");
+  // "aa" is the traditional spelling of å (still used in some names and on keyboards without å).
+  if (lang === "da") out = out.replace(/aa/g, "å");
   return out;
 }
 
@@ -29,6 +31,7 @@ export function stripDiacritics(s: string): string {
     .replace(/\p{M}+/gu, "")
     .replace(/ß/g, "ss")
     .replace(/æ/g, "ae")
+    .replace(/ø/g, "o")
     .replace(/œ/g, "oe");
 }
 

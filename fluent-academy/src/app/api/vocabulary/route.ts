@@ -3,9 +3,10 @@ import { db } from "@/server/db";
 import { apiUser } from "@/server/auth/current";
 import { json, parseJson, route } from "@/server/http";
 import { saveWord } from "@/server/vocabulary/service";
+import { COURSE_LANGUAGES } from "@/content/types";
 
 const schema = z.object({
-  language: z.enum(["en", "fr", "es", "de"]),
+  language: z.enum(COURSE_LANGUAGES),
   term: z.string().trim().min(1).max(200),
   translation: z.string().trim().min(1).max(300),
   example: z.string().max(500).optional(),

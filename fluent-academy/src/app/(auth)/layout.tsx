@@ -15,7 +15,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
           </p>
           <p className="mt-4 text-sm text-navy-300">The idea behind every Fluent Academy lesson.</p>
           <ul className="mt-10 space-y-3 text-sm text-navy-200">
-            <li>— A1 to B2 in English, French, Spanish and German</li>
+            <li>— A1 to B2 in English, French, Spanish, German and Danish</li>
             <li>— A speaking coach that adapts to your level</li>
             <li>— Feedback that targets your recurring mistakes</li>
           </ul>

@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Pause, Snail, Volume2 } from "lucide-react";
 import { cn } from "@/lib/cn";
 import type { AudioRef } from "@/content/types";
+import { localeFor } from "@/content/voices";
 
 const BASE = process.env.NEXT_PUBLIC_AUDIO_BASE_URL || "/audio";
 
@@ -14,7 +15,6 @@ export function audioUrl(key: string) {
 // Only one clip plays at a time across the page.
 let current: HTMLAudioElement | null = null;
 
-const LOCALES: Record<string, string> = { en: "en-US", fr: "fr-FR", es: "es-ES", de: "de-DE" };
 
 export function useAudio() {
   const [playing, setPlaying] = useState<string | null>(null);
@@ -45,7 +45,7 @@ export function useAudio() {
         // Fall back to the device's own speech synthesis so the learner still hears the text.
         if (opts.text && typeof window !== "undefined" && window.speechSynthesis) {
           const u = new SpeechSynthesisUtterance(opts.text);
-          u.lang = LOCALES[opts.lang ?? "en"] ?? "en-US";
+          u.lang = localeFor(opts.lang ?? "en");
           u.rate = key.endsWith("-slow.mp3") ? 0.7 : 1;
           u.onend = () => setPlaying(null);
           window.speechSynthesis.speak(u);

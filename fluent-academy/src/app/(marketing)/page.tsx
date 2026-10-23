@@ -74,7 +74,7 @@ export default async function HomePage() {
           <div className="mb-10 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
             <div className="max-w-xl">
               <p className="eyebrow">Languages</p>
-              <h2 className="display mt-3 text-3xl sm:text-4xl">Four languages, four levels each.</h2>
+              <h2 className="display mt-3 text-3xl sm:text-4xl">Five languages, four levels each.</h2>
             </div>
             <ButtonLink href="/languages" variant="link">
               Compare syllabi <ArrowRight className="h-4 w-4" />

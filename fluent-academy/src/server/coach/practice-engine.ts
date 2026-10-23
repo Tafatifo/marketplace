@@ -57,6 +57,12 @@ export const RULES: Record<string, Rule[]> = {
     { re: /\bsince (\d+|two|three|four|five|ten) (years|months|weeks|days)\b/i, fix: (m) => `for ${m[1]} ${m[2]}`, explanation: "Use for with a length of time, since with a starting point.", category: "en.prepositions-time" },
     { re: /\bi am living here since\b/i, fix: () => "I have lived here since", explanation: "Use the present perfect with since for a situation that started in the past and continues.", category: "en.present-perfect" },
   ],
+  da: [
+    { re: /\b(i dag|i morgen|i går|nu|bagefter|om morgenen|om aftenen|i weekenden) (jeg|du|han|hun|vi|de) (er|har|går|kommer|spiser|arbejder|skal|vil|kan|bor|taler|tager|læser|ser)\b/i, fix: (m) => `${m[1]} ${m[3]} ${m[2]}`, explanation: "Main clauses put the verb in second place: after a time expression, the verb comes before the subject (I dag går jeg…).", category: "da.word-order" },
+    { re: /\b(jeg|du|han|hun|vi|de) ikke (er|har|kan|vil|skal|bor|taler|kommer|spiser|arbejder|kan lide)\b/i, fix: (m) => `${m[1]} ${m[2]} ikke`, explanation: "In a main clause, ikke comes after the verb: jeg har ikke, jeg kan ikke.", category: "da.negation" },
+    { re: /\bjeg har (\d+|tyve|tredive|atten|nitten) år\b/i, fix: (m) => `jeg er ${m[1]} år`, explanation: "Danish uses være for age: jeg er 25 år (gammel).", category: "da.vaere-have" },
+    { re: /\bjeg (kan lide|elsker) at (svømmer|læser|spiser|danser|løber)\b/i, fix: (m) => `jeg ${m[1]} at ${m[2].replace(/r$/, "")}`, explanation: "After at, use the infinitive: at svømme, at læse.", category: "da.infinitive" },
+  ],
 };
 
 export function ruleCorrections(language: string, text: string): TutorTurn["corrections"] {
@@ -93,12 +99,14 @@ export function practiceTurn(opts: {
     es: "¡Muchas gracias, lo has hecho muy bien! Puedes terminar la conversación para ver tu resumen.",
     de: "Vielen Dank, das war sehr gut! Du kannst das Gespräch jetzt beenden und deine Auswertung ansehen.",
     en: "Thank you, that was great! You can end the conversation now to see your review.",
+    da: "Mange tak, det var rigtig godt! Du kan afslutte samtalen nu og se din evaluering.",
   };
   const nudge: Record<string, string> = {
     fr: "Pas de problème. ",
     es: "No pasa nada. ",
     de: "Kein Problem. ",
     en: "No problem. ",
+    da: "Intet problem. ",
   };
   const reply = finished ? closing[language] ?? closing.en! : `${!addressed ? nudge[language] ?? "" : ""}${next!.tutor}`;
   return {
