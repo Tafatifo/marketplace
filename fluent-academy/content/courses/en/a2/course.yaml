@@ -1,0 +1,111 @@
+language: en
+level: A2
+title: "English A2 · Everyday life"
+description: Move beyond the basics — tell stories about your past, travel with confidence, explain health problems, talk about work and home, deal with services, celebrate with others and make plans.
+monolingual: true
+hours: 90
+summary: >-
+  A2 learners can understand sentences and frequently used expressions about areas of immediate relevance —
+  personal and family history, shopping, local geography, work, health and travel. They can communicate in simple,
+  routine tasks that need a direct exchange of information and describe their background and immediate needs in
+  simple terms. This course delivers around 90 hours of guided practice across 8 units, taught entirely in English.
+objectives:
+  - Talk about past events, life stories and childhood memories
+  - Describe a trip, set the scene and explain what went wrong
+  - Explain health problems and give and understand advice
+  - Talk about your studies, work experience and skills
+  - Describe and compare homes and talk about chores and neighbors
+  - Deal with banks, post offices, returns and phone messages politely
+  - Invite people, accept and refuse, and talk about celebrations
+  - Make arrangements, talk about future plans and compare options
+canDo:
+  listening:
+    - Understand the main point of short, clear messages, announcements and conversations about everyday topics
+    - Catch key details such as times, dates, prices and instructions in voicemails and at the doctor's or the bank
+  reading:
+    - Understand short personal emails, notices, ads for apartments and simple instructions
+    - Find specific information in everyday texts such as timetables, menus, leaflets and job ads
+  spokenInteraction:
+    - Handle short social exchanges, make and answer invitations, and make arrangements
+    - Ask for and give simple advice, explain a problem and make polite requests in shops and offices
+  spokenProduction:
+    - Describe your background, education, work and past experiences in a series of simple sentences
+    - Tell a simple story about a past event, such as a trip or a childhood memory
+  writing:
+    - Write short, simple notes, messages and personal emails about everyday matters
+    - Write a short connected text about past events, plans or a comparison of two options
+grammar:
+  - Past simple of regular and irregular verbs; questions and negatives with did, was and were
+  - Past time expressions (yesterday, last…, … ago, in + year)
+  - Past continuous and past simple (when, while)
+  - Questions about travel (How long does it take…? How far…?)
+  - Imperatives for advice; should and shouldn't; have to and don't have to
+  - Present perfect for experience (ever, never) and with for and since
+  - Present perfect or past simple
+  - Comparatives (-er, more…, as… as) and superlatives (-est, the most…)
+  - Quantifiers (much, many, a lot of, a few, a little, too much, too many, enough)
+  - Object pronouns (me, you, him, her, it, us, them)
+  - Polite requests (Can I…? Could you…? Could I…? I'd like to…)
+  - will and going to; invitations (Would you like to…? Do you want to…?)
+  - Present continuous for future arrangements
+  - First conditional (if + present, will)
+vocabularyDomains:
+  - Weekend activities and life events
+  - Childhood and memories
+  - Holidays, transportation and travel problems
+  - The body, symptoms and medicine
+  - School, university and work
+  - Housing, furniture and household chores
+  - Neighbors and the local community
+  - Banks, post offices, shops and phone calls
+  - Festivals, parties and gifts
+  - Plans, appointments and choices
+assessment: A 45-minute cumulative test covering grammar, vocabulary, listening and reading from all eight units, with a short email to write. A score of 70% or more confirms the A2 level.
+units:
+  - title: Life stories
+    theme: Life stories
+    lessons: ["Last weekend", "My life so far", "Childhood memories"]
+  - title: Holidays and travel
+    theme: Holidays and travel
+    lessons: ["A holiday to remember", "Planning a trip", "When things go wrong on a trip"]
+  - title: Health and the body
+    theme: Health and the body
+    lessons: ["Aches and pains", "At the doctor's and the pharmacy", "Healthy habits"]
+  - title: Work and studies
+    theme: Work and studies
+    lessons: ["My studies", "A day at work", "Applying for a job"]
+  - title: Home and housing
+    theme: Home and housing
+    lessons: ["Finding a flat", "Furniture and chores", "Neighbours and community"]
+  - title: Services and errands
+    theme: Services and errands
+    lessons: ["At the bank and the post office", "Returns and exchanges", "Phone calls and messages"]
+  - title: Celebrations and traditions
+    theme: Celebrations and traditions
+    lessons: ["Festivals and holidays", "Invitations and parties", "Gifts and good wishes"]
+  - title: Plans and choices
+    theme: Plans and choices
+    lessons: ["Future plans", "Making arrangements", "Comparing options"]
+assessmentItems: |
+  fill: Last summer we ___ (visit) my grandparents in Chicago. || visited || Visit is a regular verb: add -ed for the past simple. || @tags en.past-simple @obj Talk about past events, life stories and childhood memories
+  mc: Choose the correct question. || Where you went last night? | *Where did you go last night? | Where did you went last night? || Past simple questions use did + the base form of the verb: did you go (not did you went). || @tags en.past-simple,en.questions
+  fill: I ___ (be) born in 1998 and I ___ (grow) up in Lagos. || was ; grew || Born always follows was/were; grow is irregular: grew. || @tags en.past-irregular
+  fill: I ___ (walk) to the station when it started to rain. || was walking || The longer background action uses the past continuous (was walking); the shorter action that interrupts it uses the past simple (started). || @tags en.past-continuous @obj Describe a trip, set the scene and explain what went wrong
+  mc: How long ___ to get to the airport by train? || *does it take | it takes | does it takes || Ask about travel time with How long does it take…? The question uses does + base form (take). || @tags en.questions
+  mc: Your friend has a bad cold. What is the best advice? || You should go to the gym. | *You should stay in bed and drink lots of water. | You shouldn't drink any water. || Rest and plenty of water are sensible advice for a cold; going to the gym and not drinking water are bad ideas. || @tags en.modal-verbs,en.health @obj Explain health problems and give and understand advice
+  fill: You don't ___ to make an appointment. Just come in. || have || Don't have to means it isn't necessary. || @tags en.modal-verbs
+  mc: ___ you ever worked in a restaurant? || Did | *Have | Were || Have you ever + past participle (worked) asks about experience at any time in your life. || @tags en.present-perfect @obj Talk about your studies, work experience and skills
+  rw: Rewrite with the present perfect and "for" :: I started working here three years ago, and I still work here. || I have worked here for three years. | I've worked here for three years. | I have been working here for three years. | I've been working here for three years. || The action started in the past and continues now, so use the present perfect + for + a period of time. || @tags en.present-perfect
+  fill: This apartment is ___ (big) than my old one, but it's also ___ (expensive). || bigger ; more expensive || Short adjectives add -er (double the g in big); long adjectives use more. || @tags en.comparatives @obj Describe and compare homes and talk about chores and neighbors
+  mc: There isn't ___ space in the kitchen for a table. || many | *much | a few || Space is uncountable here, so use much in negatives; many and a few go with plural nouns. || @tags en.quantifiers
+  mc: You need help from a bank clerk. What is the most polite request? || Give me a form. | *Could you give me a form, please? | You give me a form? || Could you… please? is a polite request; the other two sound like orders. || @tags en.requests @obj Deal with banks, post offices, returns and phone messages politely
+  rw: Replace the repeated names with pronouns :: I called Mr. Lee, but Mr. Lee didn't answer, so I sent Mr. Lee a text. || I called Mr. Lee, but he didn't answer, so I sent him a text. | I called Mr. Lee but he didn't answer, so I sent him a text. || Use the subject pronoun he before the verb and the object pronoun him after the verb. || @tags en.pronouns
+  mc: "We've decided. We ___ a party for Dad's sixtieth birthday next month." || *are going to have | will to have | going to have || A plan you decided before speaking uses be going to + verb. Will is never followed by to, and going to needs are. || @tags en.future-forms
+  mc: A friend invites you to a party, but you're busy. You say: || *I'd love to, but I'm afraid I can't. | Yes, I'd love to come! | No. I don't want. || I'd love to, but… is a friendly way to refuse; the last answer sounds rude and is incomplete. || @tags en.suggestions @obj Invite people, accept and refuse, and talk about celebrations
+  fill: If it ___ (rain) tomorrow, we ___ (stay) at home. || rains ; will stay / 'll stay || First conditional: if + present simple, will + base form. || @tags en.conditionals @obj Make arrangements, talk about future plans and compare options
+  fill: This is the ___ (good) restaurant in town. || best || Good is irregular: good, better, the best. || @tags en.comparatives
+  mc: "What are you doing on Saturday evening?" || *I'm having dinner with my cousins. | I having dinner with my cousins. | I'm have dinner with my cousins. || Use the present continuous (am + -ing) for an arrangement: I'm having. || @tags en.present-continuous,en.future-forms
+  listen: Hi, it's Dana from Green Street Dental. I'm calling about your appointment on Thursday. Could you call me back, please? My number is 555-0182. || Why is Dana calling? || *About an appointment | To sell a product | To invite you to a party || She says she's calling about your appointment on Thursday. || @tags en.listening
+  listen: We were driving to the airport when our car broke down, so we missed our flight to Lisbon. || Why did they miss their flight? || *Their car broke down. | They woke up late. | The flight was canceled. || "Our car broke down" while they were driving to the airport. || @tags en.listening,en.past-continuous
+  short: Read the ad: "Apartment for rent. Two bedrooms, near the park, $1,200 a month. Sorry, no pets." Can you live there with your dog? || kw: no/not/can't/cannot || The ad says "Sorry, no pets." || @skill reading @tags en.reading
+  write: Write an email to a friend about your last vacation: where you went, what the weather was like, one thing that went wrong, and one plan for next year. || min=50 || req: went/was/were | was raining/was snowing/were waiting/was driving/were walking/was shining/was working | going to/will || Hi Sam, last month I went to Vancouver with my sister. The weather was great, but on the second day it was raining when we arrived at the park, so we went to a museum. Then my sister lost her phone! Next year we're going to visit Montreal. Write soon, Ana

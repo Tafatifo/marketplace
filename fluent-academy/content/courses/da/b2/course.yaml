@@ -1,0 +1,109 @@
+language: da
+level: B2
+title: "Danish B2 · Fluency"
+description: Speak and write Danish with nuance and precision — discuss identity, work, science, the environment, the media, culture and public life, argue a case convincingly and handle formal correspondence.
+hours: 120
+summary: >-
+  B2 learners can understand the main ideas of complex texts on both concrete and abstract topics, interact with a
+  degree of fluency and spontaneity that makes regular interaction with native speakers possible without strain for
+  either party, and produce clear, detailed text on a wide range of subjects. Building on Danish A1–B1, this course
+  delivers around 120 hours of guided practice across 8 units, with a strong focus on nuance (sentence adverbs and the
+  modal particles jo, nok and vel), the conditional perfect, the blive-passive and nominal style, connectors, reported
+  speech, compound words, register and formal writing.
+objectives:
+  - Express nuance, attitude and degrees of certainty with sentence adverbs and the modal particles jo, nok and vel
+  - Discuss work, the economy and consumption, and negotiate using tentative and hypothetical language (ville have + participle)
+  - Understand and produce texts about science, technology and health using the blive-passive, the s-passive and nominal style
+  - Build coherent arguments about the environment with connectors of cause, consequence and contrast
+  - Report what others have said or written, evaluate sources critically and write an opinion piece
+  - Talk about art, heritage and humour, build compound words and switch between registers
+  - Write formal letters, requests and complaints to authorities and companies
+  - Speculate about the future, express regret and present a structured argument
+canDo:
+  listening:
+    - Understand extended speech, radio and podcast discussions on familiar and abstract topics in standard Danish, including the attitude signalled by particles such as jo, nok and vel
+    - Follow the line of argument in a debate, a negotiation or a presentation when the structure is signposted
+  reading:
+    - Read news articles, opinion pieces and official letters and identify the writer's position and the arguments used
+    - Understand nominal style in news and official texts and work out the meaning of new compound words
+  spokenInteraction:
+    - Take an active part in discussions and negotiations, accounting for and sustaining your views with relevant arguments
+    - Deal with authorities and service providers politely but firmly, by phone and in person
+  spokenProduction:
+    - Give clear, detailed descriptions and presentations on a wide range of subjects, developing an argument with supporting points and examples
+    - Speculate about causes, consequences and hypothetical situations in the past, present and future
+  writing:
+    - Write an opinion piece or a debate contribution that weighs arguments for and against a position
+    - Write formal letters, requests and complaints with the right structure, register and closing formulas
+grammar:
+  - Sentence adverbs and their position in main and subordinate clauses; object shift (Jeg kender ham ikke)
+  - Modal particles jo, nok and vel; softeners and evidential adverbs (egentlig, faktisk, vist, åbenbart)
+  - Conditional perfect (ville have + participle, havde… havde) and conditions without hvis (Havde jeg vidst det, …)
+  - Tentative and polite conditionals for negotiation (Ville det være muligt at…?)
+  - The blive-passive and the s-passive in all tenses, with and without modal verbs (skal behandles, er blevet godkendt)
+  - Nominal style (undersøgelsen af, stigningen i) and how to turn it back into verbs
+  - Connectors of cause and consequence (da, eftersom, idet, for, på grund af, dermed) and contrast (skønt, til trods for, alligevel, derimod, hvorimod, dog)
+  - Correlative conjunctions (både… og, hverken… eller, dels… dels, ikke alene… men også)
+  - Reported speech in the past with backshift, indirect questions (om, hvem der, hvad der) and reporting verbs
+  - Compound words (linking -s- and -e-, gender from the last element) and differences in register
+  - Formal letters, requests and complaints
+  - Future perfect (vil have + participle), deduction with må/kan/skal have + participle, and regrets with hvis bare, gid and burde have
+vocabularyDomains:
+  - Identity, belonging, generations and multilingualism
+  - Work, the labour market, negotiation and consumption
+  - Science, ethics, artificial intelligence and health news
+  - Climate, sustainability and urban planning
+  - News, media literacy, advertising and argumentation
+  - Art, cultural heritage, humour and idioms
+  - Rights, duties, public services and complaints
+  - Predictions, regrets and presentation language
+assessment: A 60-minute cumulative test covering vocabulary, grammar, listening and reading tasks from all eight units, with a formal writing task. A score of 70% or more confirms the B2 level.
+units:
+  - title: Identitet og samfund
+    theme: Identity and society
+    lessons: [Identity and belonging, Generations, Living between languages]
+  - title: Arbejde og økonomi
+    theme: Work and the economy
+    lessons: [The future of work, Negotiating, Consumer society]
+  - title: Videnskab og teknologi
+    theme: Science and technology
+    lessons: [Innovation and ethics, Artificial intelligence, Health and medicine in the news]
+  - title: Miljø og klima
+    theme: Environment
+    lessons: [Climate policy, Sustainable cities, Debating solutions]
+  - title: Medier og overtalelse
+    theme: Media and persuasion
+    lessons: [Misinformation and media literacy, Advertising and persuasion, Writing an opinion piece]
+  - title: Kunst og kultur
+    theme: Arts and culture
+    lessons: [Talking about art, Cultural heritage, Humour and wordplay]
+  - title: Borger i samfundet
+    theme: Citizenship and public life
+    lessons: [Rights and responsibilities, Public services, Formal complaints]
+  - title: Med blikket fremad
+    theme: Looking ahead
+    lessons: [Predictions and speculation, Regrets and lessons learned, Presenting an argument]
+assessmentItems: |
+  mc: Which sentence is correct? || Hun siger, at hun har ikke tid i dag. | *Hun siger, at hun ikke har tid i dag. | Hun siger, at ikke hun har tid i dag. || In a subordinate clause (here after at) the sentence adverb ikke comes before the finite verb har. || @tags da.sentence-adverbs,da.subordinate-clauses @obj Express nuance, attitude and degrees of certainty with sentence adverbs and the modal particles jo, nok and vel
+  mc: A colleague says "Det ved du jo godt." What does jo add? || *The speaker assumes you already know it | The speaker doubts that you know it | The speaker is asking whether you know it || Jo marks something as shared knowledge — "as you know". || @tags da.discourse-markers
+  fill: You assume your friend is coming and want confirmation — Du kommer ___ til festen på lørdag? || vel || Vel in a statement-question asks the listener to confirm an assumption: "You're coming, aren't you?" || @tags da.sentence-adverbs
+  fill: Hvis vi havde fået tilbuddet i går, ___ vi have sagt ja med det samme. || ville || Conditional perfect: ville + have + participle (ville have sagt). || @tags da.conditional @obj Discuss work, the economy and consumption, and negotiate using tentative and hypothetical language (ville have + participle)
+  mc: In a negotiation, which request is the most diplomatic? || Det vil vi ikke. Forlæng fristen. | *Ville det være muligt at forlænge fristen med en uge? | I skal forlænge fristen med en uge. || Ville det være muligt at…? is a tentative, polite conditional; the other two sound like orders. || @tags da.conditional,da.register
+  rw: Rewrite in the blive-passive (keep the past tense) :: Forskerne udviklede vaccinen på rekordtid. || Vaccinen blev udviklet på rekordtid af forskerne. | Vaccinen blev udviklet af forskerne på rekordtid. | Vaccinen blev udviklet på rekordtid. || Past blive-passive: blev + participle (udviklet); the agent can be added with af. || @tags da.passive @obj Understand and produce texts about science, technology and health using the blive-passive, the s-passive and nominal style
+  fill: Ansøgningen skal ___ (sende) senest fredag den 3. maj. || sendes || After a modal verb the s-passive infinitive is the natural choice: skal sendes. || @tags da.passive
+  mc: In a news headline, "Stigning i antallet af elbiler" means… || *The number of electric cars is rising | Electric cars are becoming cheaper | The number of electric cars is falling || Stigning (rise, from at stige) + i antallet af (in the number of): nominal style typical of news. || @tags da.register
+  fill: ___ det regnede hele dagen, gennemførte alle deltagerne løbet. || Selvom / Selv om / Skønt / Til trods for at || Concession: selvom (or the more formal skønt / til trods for at) + subordinate clause. || @tags da.connectors @obj Build coherent arguments about the environment with connectors of cause, consequence and contrast
+  mc: Choose the correct word order. || Derfor vi har valgt at cykle til arbejde. | *Derfor har vi valgt at cykle til arbejde. | Derfor har valgt vi at cykle til arbejde. || Derfor is an adverb: when it comes first, the finite verb (har) follows immediately and the subject comes after it. || @tags da.connectors,da.word-order
+  rw: Report it in the past, starting "Journalisten skrev, at…" :: "Kilden er ikke troværdig." || Journalisten skrev, at kilden ikke var troværdig. || Backshift er → var, and in the at-clause ikke comes before the verb. || @tags da.reported-speech @obj Report what others have said or written, evaluate sources critically and write an opinion piece
+  fill: Redaktøren spurgte, hvem ___ havde skrevet artiklen. || der || In an indirect question where the question word is the subject, Danish adds der: hvem der… || @tags da.reported-speech
+  mc: "An art museum" is written… || kunst museum | *kunstmuseum | kunst-museum || Danish compounds are written as one word; splitting them (særskrivning) is a spelling mistake. || @tags da.compound-words @obj Talk about art, heritage and humour, build compound words and switch between registers
+  mc: Which article does "kunstværk" take? || en kunstværk | *et kunstværk | den kunstværk || A compound takes the gender of its last element: et værk, so et kunstværk. || @tags da.compound-words,da.gender
+  mc: Which phrase is the standard closing of a formal letter or email? || *Med venlig hilsen | Kærlig hilsen | Knus || Med venlig hilsen is the neutral formal closing; the others are for friends and family. || @tags da.formal-writing @obj Write formal letters, requests and complaints to authorities and companies
+  fill: Hvis bare jeg ___ lyttet til dit råd dengang! || havde || Regret about the past: hvis bare + havde + participle. || @tags da.conditional @obj Speculate about the future, express regret and present a structured argument
+  fill: Om fem år ___ vi have flyttet hele produktionen til den nye fabrik. || vil || Future perfect: vil + have + participle. || @tags da.future
+  listen: Togene mellem Odense og Middelfart er aflyst resten af dagen på grund af stormen. Der er indsat busser, men rejsende må forvente op til en times forsinkelse. || Why are the trains cancelled? || *Because of the storm | Because of a strike | Because of work on the tracks || "På grund af stormen" — because of the storm. Replacement buses run, with delays of up to an hour. || @tags da.listening,da.connectors
+  listen: Jeg havde nok taget imod jobbet, hvis de havde tilbudt mig lidt mere i løn, men det ville de ikke. || What happened? || The speaker accepted the job | *The speaker turned the job down because the salary was too low | The employer agreed to raise the salary || "Jeg havde nok taget imod jobbet, hvis…" is a hypothetical past: the employer would not pay more, so the speaker did not take the job. || @tags da.listening,da.conditional
+  listen: Ifølge planen vil kommunen have bygget tre nye cykelbroer, inden 2030 er omme. || What does the plan say? || *Three new cycle bridges will have been built by the end of 2030 | Three cycle bridges were built before 2030 | The council will start building bridges in 2030 || Vil have bygget is the future perfect: the work will be finished before the end of 2030. || @tags da.listening,da.future
+  tr: I would have taken the train if I had known about the roadworks. || Jeg ville have taget toget, hvis jeg havde kendt til vejarbejdet. | Hvis jeg havde kendt til vejarbejdet, ville jeg have taget toget. | Havde jeg kendt til vejarbejdet, ville jeg have taget toget. | Jeg havde taget toget, hvis jeg havde kendt til vejarbejdet. | Jeg ville have taget toget, hvis jeg havde vidst noget om vejarbejdet. || Conditional perfect: ville have taget (or havde taget) + hvis + havde + participle. || @tags da.conditional
+  short: Which opening do you use in a formal letter when you don't know the name of the person who will read it? || kw: rette vedkommende || "Til rette vedkommende" (to whom it may concern) is used when the recipient is unknown. || @tags da.formal-writing
+  write: Write a formal complaint (80–120 words) to a furniture shop. The sofa you ordered arrived three weeks late and damaged. Explain the problem, refer to your order number and state what you expect. || min=80 || req: vedr/vedrørende/angående | jeg forventer/jeg vil gerne bede/jeg anmoder | med venlig hilsen || Vedr.: Ordre nr. 48213 – forsinket og beskadiget sofa. Kære kundeservice. Den 2. marts bestilte jeg en sofa hos jer med levering senest den 20. marts. Sofaen blev dog først leveret den 10. april, og da jeg pakkede den ud, opdagede jeg en lang flænge i stoffet på det ene armlæn. Jeg har vedlagt billeder af skaden og en kopi af ordrebekræftelsen. Jeg finder det ikke acceptabelt, at jeg både har ventet tre uger ekstra og har modtaget en beskadiget vare. Jeg forventer derfor, at I enten udskifter sofaen eller giver mig et passende afslag i prisen. Jeg ser frem til jeres svar senest den 25. april. Med venlig hilsen Nadia Holm
