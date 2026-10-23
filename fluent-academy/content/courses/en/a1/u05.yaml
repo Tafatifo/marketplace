@@ -1,0 +1,371 @@
+unit: 5
+title: "My town, my home"
+theme: Town and home
+description: Talk about places in your town with there is and there are, ask for and give directions with imperatives, and describe your home with prepositions of place.
+objectives:
+  - Say what there is in a town with there is, there are, Is there…? and Are there any…?
+  - Ask for directions and give them with imperatives (Go straight, Turn left, Don't…)
+  - Describe your home and say where things are with in, on, under, next to, between, behind and opposite
+canDo:
+  - I can say what places there are in my neighborhood.
+  - I can ask "Excuse me, where's…?" and understand simple directions.
+  - I can give a visitor directions to my home.
+  - I can describe the rooms in my home and say where things are.
+review: |
+  fill: There ___ three supermarkets in my neighborhood. || are || Use there are with a plural noun. || @tags en.be,en.agreement
+  fill: ___ there any museums in your town? || Are || With a plural noun, the question is Are there any…? || @tags en.be,en.questions
+  mc: "Is there a bank near here?" — "Yes, ___." || there's | *there is | it is || Short answers with yes use the long form: Yes, there is. || @tags en.be
+  fill: ___ left at the corner, and the café is on the right. || Turn || For directions, use the imperative: Turn left. || @tags en.verb-forms
+  rw: Make it negative :: Cross the street here. || Don't cross the street here. | Do not cross the street here. || Negative imperative: don't + verb. || @tags en.verb-forms
+  mc: The pharmacy is on the other side of the street from the post office. It is ___ the post office. || *opposite | between | under || Opposite = on the other side of the street, facing it. || @tags en.prepositions-place
+  fill: The books are ___ the shelf. || on || Use on for things on top of a surface. || @tags en.prepositions-place
+  listen: Excuse me, is there a pharmacy near here? — Yes, there's one next to the bank. || Where is the pharmacy? || opposite the bank | *next to the bank | in the bank || "There's one next to the bank." || @tags en.prepositions-place
+  listen: The bathroom is upstairs, between the two bedrooms. || Where is the bathroom? || next to the kitchen | *between the bedrooms | opposite the living room || "Between the two bedrooms." Upstairs = on the next floor up. || @tags en.prepositions-place
+  ask: Give a friend directions from the bus stop to your home. || kw: go/turn/take/cross & left/right/straight || Go straight for two blocks and turn left at the traffic lights. My building is next to the pharmacy, opposite the park.
+  write: Write a description of your town for a travel website. Say what places there are, where they are, and one thing your town hasn't got. || min=35 || req: there's/there is | there are | there isn't/there aren't | next to/opposite/between/near || My town is small but nice. There's a beautiful old square with three cafés. The museum is opposite the square, next to the library. There are two parks near the river. There isn't a movie theater, but there's a big supermarket.
+lessons:
+  - title: Places in town
+    summary: Name places in a town and say what there is with there is, there are, Is there…? and Are there any…?
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [en.be, en.agreement]
+    objectives:
+      - Name common places in a town
+      - Use there is and there are in positive and negative sentences
+      - Ask Is there…? and Are there any…? and give short answers
+    intro: |
+      When you move to a new town or visit a city, you want to know: *Is there a supermarket near here? Are there any good cafés?* In this lesson you will learn the names of places in town and how to use **there is** and **there are** to talk about them.
+    vocab: |
+      bank | a place where people keep their money | n | There's a bank on Main Street. | -
+      post office | a place where you send letters and packages | n | The post office opens at nine. | -
+      supermarket | a big store that sells food and things for the home | n | Is there a supermarket near here? | -
+      pharmacy | a store where you buy medicine | n | The pharmacy is next to the bank. | - | n: American English also: drugstore. British English also: chemist's. | t: es=farmacia; fr=pharmacie; de=Apotheke; da=apotek
+      park | a big green place with trees and grass where people walk and play | n | There's a nice park in my neighborhood. | -
+      museum | a building where you can see art or old and interesting things | n | The museum is free on Sunday. | -
+      train station | a place where trains stop for people to get on and off | n | The train station is very big. | - | n: Often just: the station.
+      bus stop | a place on the street where buses stop | n | The bus stop is in front of the bank. | -
+      movie theater | a place where you watch movies on a big screen | n | There are two movie theaters in my town. | - | n: British English: cinema.
+      gym | a place where people do exercise | n | Is there a gym near your home? | -
+      square | an open place in a town, often with buildings on all sides | n | There are three cafés in the square. | - | c: the main square; the town square | t: es=plaza; fr=place; de=Platz; da=torv
+      street | a road in a town, with buildings on it | n | I live on Oak Street. | - | c: Main Street; on the street | n: Say on with street names: on Oak Street.
+      near | not far from | prep | Is there a bank near here? | - | c: near here; near my home
+      neighborhood | the area around your home | n | My neighborhood is quiet. | - | n: British English: neighbourhood.
+    grammar:
+      title: there is and there are
+      body: |
+        We use **there is** and **there are** to say that something exists in a place.
+
+        - **There's** (= there is) + a singular noun: *There's a bank on Main Street.*
+        - **There are** + a plural noun: *There are two cafés near my home.*
+        - Negative: *There **isn't** a museum. There **aren't any** hotels.*
+        - Questions: ***Is there** a pharmacy near here? — Yes, there is. / No, there isn't.* ***Are there any** restaurants? — Yes, there are. / No, there aren't.*
+
+        Use **any** in negatives and questions with plural nouns: *There aren't **any** parks.* For a big number, say **a lot of**: *There are a lot of stores.*
+
+        When we already know the place, we don't use *there is*: *There's a bank on Main Street. **The bank is** next to the hotel.*
+      table: |
+        Sentence | Singular | Plural
+        Positive | There's a park. | There are two parks.
+        Negative | There isn't a park. | There aren't any parks.
+        Question | Is there a park? | Are there any parks?
+        Short answers | Yes, there is. / No, there isn't. | Yes, there are. / No, there aren't.
+      examples: |
+        There's a supermarket next to the station. | | singular
+        There are three hotels in the square. | | plural
+        Is there a bus stop near here? — Yes, there is. | | question and short answer
+        There aren't any museums in my town. | | negative + any
+      tip: "In a short answer with yes, don't use the short form: Yes, there is (not Yes, there's)."
+    dialogue:
+      title: New in town
+      setting: Daniela moves to a new apartment in Denver. She meets her neighbor, Joon, outside the building.
+      speakers: D=Daniela/f; J=Joon/m
+      lines: |
+        D: Hi! I'm Daniela. I'm new here.
+        J: Hi, Daniela. I'm Joon. Welcome to the neighborhood!
+        D: Thanks! Is there a supermarket near here?
+        J: Yes, there is. It's on Oak Street.
+        D: Great. And are there any good cafés?
+        J: Yes, there are two cafés in the square.
+        D: Is there a gym?
+        J: No, there isn't. But there's a nice park.
+        D: Perfect. I love parks!
+        J: And there's a bus stop next to the bank.
+        D: Thank you, Joon. That's very helpful!
+    pronunciation:
+      title: "There's, there are"
+      body: |
+        **There** starts with the soft, buzzing **th** sound (tongue between your teeth). *There's a* joins into one quick group: "there-za". *There are* joins too: "the-rare".
+
+        In questions, *Is there a…?* sounds like "iz-there-a". Your voice goes up at the end of a yes/no question. Listen and repeat.
+      items: |
+        there's a park
+        there are two cafés
+        Is there a bank?
+        there isn't
+        there aren't any
+        near here
+    culture:
+      title: Downtown and Main Street
+      body: |
+        In the United States, the center of a city is called **downtown**, and many small towns have a **Main Street** with stores, banks and cafés. In the UK people say **the city centre** (US spelling: center) and **the high street**.
+
+        Many American towns are big and spread out, so people often drive to the supermarket. In European and Australian cities, people walk, cycle or take the bus more often.
+    mistakes: |
+      There are a bank on Main Street. => There's a bank on Main Street. | Use there is (there's) with a singular noun.
+      Is there any restaurants? => Are there any restaurants? | With plural nouns, use Are there…?
+      In my town there is not museum. => In my town there isn't a museum. | Negative: there isn't + a + singular noun.
+    task:
+      title: My neighborhood
+      mode: speaking
+      body: |
+        Describe your neighborhood in six sentences. Say what places there are (there's a…, there are two…), what there isn't, and which place you like best. Then ask a partner or the AI coach three questions: Is there a…? Are there any…?
+    exercises: |
+      fill: There ___ a pharmacy next to the bank. || is / 's || Use there is (there's) with a singular noun. || @tags en.be,en.agreement
+      fill: There ___ two parks in my town. || are || Use there are with a plural noun. || @tags en.be,en.agreement
+      fill: ___ there a post office near here? — Yes, there is. || Is || Singular question: Is there a…? || @tags en.be,en.questions
+      fill: There ___ any hotels in the square. (not) || aren't / are not || Plural negative: there aren't any. || @tags en.be,en.quantifiers
+      mc: "Are there any cafés?" Choose the correct answer. || Yes, there's. | *Yes, there are. | Yes, they are. || The short answer repeats there + be: Yes, there are. || @tags en.be
+      mc: Choose the correct sentence. || *There are three museums in the city. | There is three museums in the city. | There are three museum in the city. || Plural: there are + a plural noun (museums). || @tags en.be,en.agreement
+      rw: Make a question :: There's a gym near your home. || Is there a gym near your home? || Put is before there: Is there…? || @tags en.be,en.questions
+      rw: Make it negative :: There's a movie theater on this street. || There isn't a movie theater on this street. | There is not a movie theater on this street. || Negative: there isn't a… || @tags en.be
+      match: bank = money ; pharmacy = medicine ; post office = letters ; train station = trains ; supermarket = food || Match each place with something you find there. || @skill vocabulary @tags en.vocabulary
+      tf: There is a gym near Daniela's new home. || false || Joon says, "No, there isn't. But there's a nice park." || @ctx dialogue
+      short: Where is the supermarket? || kw: Oak || Joon says, "It's on Oak Street." || @ctx dialogue
+      listen: In my town there's a big park, but there aren't any museums. || What is in the speaker's town? || museums | *a park | a park and museums || "There's a big park, but there aren't any museums." || @tags en.be
+      listen: @dialogue || Where is the bus stop? || next to the park | *next to the bank | in the square || Joon says, "There's a bus stop next to the bank." || @tags en.listening
+      dict: There are two cafés in the square.
+      ask: Describe your neighborhood. Say three things that are there and one thing that isn't. || kw: there's/there is/there are & there isn't/there aren't/there is not/there are not || In my neighborhood there's a big supermarket and there are two cafés. There's a park too, but there isn't a gym.
+      write: Your friend is coming to visit your town. Write a short email about what there is to see and do. || min=30 || req: there's/there is | there are | a/any || Hi Paula! My town is small, but it's nice. There's a big square with a lot of cafés, and there are two museums. There isn't a movie theater, but there's a beautiful park near my home. See you soon!
+
+  - title: Asking for directions
+    summary: Ask for directions politely and give them with imperatives — go, turn, take, cross and don't.
+    minutes: 40
+    skills: [listening, speaking, grammar]
+    tags: [en.verb-forms, en.prepositions-place]
+    objectives:
+      - Ask for directions politely with Excuse me
+      - Give directions with imperatives (Go straight, Turn left, Don't…)
+      - Understand next to, opposite, between and on the corner
+    intro: |
+      You are in a new city and your phone has no battery. What do you do? You ask someone! In this lesson you will learn to ask **Excuse me, where's…?** and to understand and give directions with **imperatives**: *Go straight. Turn left. Cross the street.*
+    vocab: |
+      Excuse me. | polite words to get someone's attention | expr | Excuse me, where's the station? | -
+      Where's…? | a question about the place of something | expr | Where's the post office? | - | n: Where's = Where is.
+      turn left | to change direction ← | expr | Turn left at the bank. | - | t: es=girar a la izquierda; fr=tourner à gauche; de=links abbiegen; da=dreje til venstre
+      turn right | to change direction → | expr | Turn right at the corner. | - | t: es=girar a la derecha; fr=tourner à droite; de=rechts abbiegen; da=dreje til højre
+      go straight | to continue in the same direction ↑ | expr | Go straight for two blocks. | - | n: British English: go straight on.
+      take the first left | to turn into the first street on the left | expr | Take the first left after the bank. | - | c: take the second right; take the third left
+      corner | the place where two streets meet | n | The café is on the corner. | - | c: on the corner of Oak Street and Pine Street
+      traffic lights | red, yellow and green lights that tell cars when to stop and go | n | Turn right at the traffic lights. | - | n: Also: stoplight (American English).
+      block | the part of a street between two corners | n | It's two blocks from here. | - | n: Very common in American English.
+      next to | very near, at the side of | prep | The bank is next to the hotel. | -
+      opposite | on the other side of the street from, facing | prep | The museum is opposite the park. | - | n: American English also: across from.
+      between | in the middle of two things | prep | The pharmacy is between the bank and the café. | -
+      far | a long way from | adj | Is it far? — No, it's very near. | - | c: far from
+      cross | to go from one side of a street to the other | v | Cross the street at the traffic lights. | -
+    grammar:
+      title: Imperatives for directions
+      body: |
+        To give directions or instructions, we use the **imperative**. It is the base form of the verb, with no person: ***Go** straight. **Turn** left. **Take** the second right.*
+
+        - Negative: **Don't** + verb: ***Don't** turn here. **Don't** cross the street here.*
+        - Add **please** to sound more polite: *Please wait here.*
+
+        To ask for directions, start with ***Excuse me***: *Excuse me, where's the museum? / Excuse me, is there a bank near here? / How do I get to the station?*
+
+        Useful phrases for the place: *It's **on the left / on the right**. It's **on the corner**. It's **next to** the bank. It's **opposite** the park. It's **between** the café and the hotel.*
+
+        We also use imperatives for instructions and friendly invitations: *Come in! Sit down, please. Have a nice day!*
+      table: |
+        Verb | Example
+        go | Go straight for two blocks.
+        turn | Turn left at the traffic lights.
+        take | Take the second right.
+        cross | Cross the square.
+        don't + verb | Don't turn right here.
+      examples: |
+        Excuse me, how do I get to the station? | | asking politely
+        Turn right, and the bank is on the left. | | imperative + on the left
+        Go straight and cross the square. | | two imperatives
+        Don't take the bus — it's very near! | | negative imperative
+      tip: "In directions, first, second and third are often written 1st, 2nd and 3rd: Take the 2nd right = take the second street on the right."
+    dialogue:
+      title: Where's the museum?
+      setting: Yuki is visiting Philadelphia. She wants to find the art museum, so she asks Marcus on the street.
+      speakers: Y=Yuki/f; M=Marcus/m
+      lines: |
+        Y: Excuse me. Is the art museum near here?
+        M: Yes, it's about ten minutes on foot.
+        Y: Great! How do I get there?
+        M: Go straight for two blocks.
+        Y: Two blocks. OK.
+        M: Then turn left at the traffic lights.
+        Y: Left at the traffic lights…
+        M: Cross the square. The museum is opposite the park.
+        Y: Opposite the park. Thank you so much!
+        M: You're welcome. Oh, and don't take Bridge Street!
+        Y: Why not?
+        M: It's closed today. Enjoy the museum!
+    pronunciation:
+      title: Checking with your voice
+      body: |
+        When you get directions, repeat the important words to check them. Make your voice go **up** at the end — it's a question: *Two blocks? ↗ Left at the traffic lights? ↗*
+
+        When you give directions, your voice goes **down** at the end of each step: *Go straight. ↘ Turn left. ↘* Listen and repeat.
+      items: |
+        Excuse me.
+        Turn left.
+        Go straight.
+        at the traffic lights
+        opposite the park
+        Is it far?
+    culture:
+      title: Blocks and landmarks
+      body: |
+        Many American cities have streets in a grid, so people give directions in **blocks**: *Go two blocks north and turn right.* Streets often have numbers, like 5th Avenue or 42nd Street.
+
+        In the UK and Ireland, streets are often curved and old, so people use **landmarks** — things you can easily see: *Go past the church and turn left at the big bookstore.* Everywhere, people are usually happy to help — just start with *Excuse me*.
+    mistakes: |
+      Not turn here. => Don't turn here. | A negative imperative uses don't + verb.
+      Turn to left at the bank. => Turn left at the bank. | Don't use to: turn left, turn right.
+      The bank is in front of the park. (on the other side of the street) => The bank is opposite the park. | In front of means just before something. On the other side of the street is opposite.
+    task:
+      title: Show the way
+      mode: speaking
+      body: |
+        A visitor is at the train station in your town. Give directions to your favorite café (British English: favourite) in four or five steps. Use at least three imperatives, one negative (Don't…) and one of next to, opposite or between. Record yourself in Speaking practice.
+    exercises: |
+      fill: ___ left at the traffic lights. || Turn || Imperative: the verb with no person. || @tags en.verb-forms
+      fill: ___ straight for two blocks. || Go || Imperative: Go straight. || @tags en.verb-forms
+      fill: ___ cross here! The light is red. || Don't / Do not || Negative imperative: don't + verb. || @tags en.verb-forms
+      mc: Choose the correct sentence. || Turn to right at the bank. | *Turn right at the bank. | You turning right at the bank. || Imperative + right/left, with no to: Turn right. || @tags en.verb-forms
+      mc: The café is ___ the bank and the hotel. || *between | next | in || Between = in the middle of two things. (Next needs to: next to.) || @tags en.prepositions-place
+      rw: Make it negative :: Take the second left. || Don't take the second left. | Do not take the second left. || Negative imperative: don't + verb. || @tags en.verb-forms
+      order: Turn right and cross the square. || @tags en.verb-forms
+      match: → = turn right ; ← = turn left ; ↑ = go straight || Match each arrow to the direction. || @skill vocabulary @tags en.vocabulary
+      tf: The museum is next to the park. || false || Marcus says, "The museum is opposite the park." || @ctx dialogue
+      short: Why can't Yuki take Bridge Street? || kw: closed || Marcus says, "It's closed today." || @ctx dialogue
+      listen: Turn left at the bank. The post office is opposite the park. || Where is the post office? || next to the park | *opposite the park | next to the bank || "The post office is opposite the park." || @tags en.prepositions-place
+      listen: @dialogue || How long does it take to walk to the museum? || *about ten minutes | about two minutes | about twenty minutes || Marcus says, "It's about ten minutes on foot." || @tags en.listening
+      dict: Excuse me, how do I get to the station?
+      ask: A tourist asks you, "Where's the bank?" Give directions in two or three steps. || kw: go/turn/take/cross & left/right/straight || Go straight for one block, then turn right at the traffic lights. The bank is on the left, next to the café.
+      write: Write directions from the train station to your home for a friend (4–5 sentences). || min=25 || req: turn | left/right | go/take/cross || Leave the station and turn right. Go straight for three blocks. Turn left at the traffic lights and cross the street. My building is on the corner, opposite the park. Don't take the bus — it's a short walk!
+
+  - title: My home
+    summary: Name the rooms and furniture in your home and say where things are with in, on, under, next to, between, behind and opposite.
+    minutes: 40
+    skills: [vocabulary, grammar, writing]
+    tags: [en.prepositions-place]
+    objectives:
+      - Name rooms and furniture in a home
+      - Use prepositions of place to say where things are
+      - Describe your apartment or house
+    intro: |
+      *Where are my keys?* — *They're on the table!* In this lesson you will learn the words for rooms and furniture and the **prepositions of place** — *in, on, under, next to, between, behind, in front of* and *opposite* — so you can describe your home and find things in it.
+    vocab: |
+      apartment | a home with rooms on one floor of a bigger building | n | My apartment is on the third floor. | - | n: British English: flat.
+      house | a building where people live, usually one family | n | They've got a big house with a yard. | -
+      bedroom | a room where you sleep | n | My bedroom is small. | -
+      bathroom | a room with a toilet and a shower or a bath | n | The bathroom is next to the kitchen. | -
+      kitchen | a room where you cook | n | We eat in the kitchen. | -
+      living room | a room where you sit, relax and watch TV | n | The TV is in the living room. | - | n: British English also: lounge or sitting room.
+      sofa | a long, soft seat for two or three people | n | The cat is on the sofa. | - | n: Also: couch.
+      bed | a piece of furniture that you sleep on | n | There's a book on my bed. | -
+      table | furniture with legs and a flat top, where you eat or work | n | The keys are on the table. | -
+      chair | a seat for one person, with a back | n | There are four chairs in the kitchen. | -
+      window | a glass opening in a wall that lets in light | n | My desk is next to the window. | -
+      lamp | a light that you put on a table or on the floor | n | There's a lamp next to the sofa. | -
+      shelf | a flat board on a wall for books and other things | n | My books are on the shelf. | - | pl: shelves
+      yard | the area of grass around a house | n | The kids are in the yard. | - | n: British English: garden.
+    grammar:
+      title: Prepositions of place
+      body: |
+        Prepositions of place say **where** something is. We use them after **be**: *Where's my phone? — It's **on** the sofa. Where are my keys? — They're **in** your bag.*
+
+        - **in** = inside: *The milk is in the kitchen.*
+        - **on** = on top of a surface: *The lamp is on the table.*
+        - **under** = below: *The cat is under the bed.*
+        - **next to** = at the side of: *The sofa is next to the window.*
+        - **between** = in the middle of two things: *The chair is between the bed and the door.*
+        - **behind** = at the back of: *The yard is behind the house.*
+        - **in front of** = just before; the opposite of behind: *There's a tree in front of the house.*
+        - **opposite** = facing, on the other side: *The bathroom is opposite the kitchen.*
+
+        With rooms, say **in**: *in the kitchen, in my bedroom*. With floors of a building, say **on**: *on the third floor*.
+      table: |
+        Preposition | Example
+        in | My keys are in my bag.
+        on | The lamp is on the table.
+        under | The cat is under the bed.
+        next to | The sofa is next to the window.
+        between | The chair is between the bed and the door.
+        behind | The yard is behind the house.
+        in front of | There's a tree in front of the house.
+        opposite | The bathroom is opposite the kitchen.
+      examples: |
+        Where's my phone? — It's on the sofa. | | be + preposition
+        There are some books on the shelf. | | there are + preposition
+        The bathroom is next to my bedroom. | | next to
+        My apartment is on the third floor. | | floors use on
+      tip: "Don't add of after under, behind, between or next to: under the bed (not under of the bed). Only in front of has of."
+    dialogue:
+      title: My new apartment
+      setting: Kemal has a new apartment in Toronto. He shows it to his sister Selin on a video call.
+      speakers: K=Kemal/m; S=Selin/f
+      lines: |
+        S: So, show me your new apartment!
+        K: OK! This is the living room.
+        S: Nice! Is that a new sofa?
+        K: Yes, it is. It's next to the window.
+        S: And where's the TV?
+        K: It's on the wall, opposite the sofa.
+        S: Where's the kitchen?
+        K: It's behind the living room. It's very small.
+        S: Have you got two bedrooms?
+        K: Yes. My bedroom is next to the bathroom.
+        S: And where's your cat?
+        K: Ha! She's under the bed, as usual.
+    pronunciation:
+      title: "Stress in room words: BEDroom, BATHroom"
+      body: |
+        Many words for rooms are made of two words together. The stress is on the **first** part: *BED-room, BATH-room, LIV-ing room*. The second part is weaker.
+
+        *Kitchen* has the stress at the start too: *KITCH-en*. But *apartment* has it in the middle: *a-PART-ment*. Listen and repeat.
+      items: |
+        bedroom
+        bathroom
+        living room
+        kitchen
+        apartment
+        next to the window
+    culture:
+      title: Apartments, flats and floors
+      body: |
+        Americans say **apartment**; British people usually say **flat**. In big cities like New York and London, many people live in small apartments, sometimes a **studio** — one room for living and sleeping, plus a bathroom.
+
+        Be careful with floors! In the US, the floor at street level is the **first floor**. In the UK, it's the **ground floor**, and the next one up is the first floor. So an American "second floor" is a British "first floor".
+    mistakes: |
+      The keys are on the bag. => The keys are in the bag. | Use in for inside something.
+      The cat is under of the bed. => The cat is under the bed. | Don't add of after under, behind or between.
+      My bedroom is in the second floor. => My bedroom is on the second floor. | Use on with floors of a building.
+    task:
+      title: Home swap
+      mode: writing
+      body: |
+        You want to swap homes with a family in another country for a vacation (British English: holiday). Write a description of your home for the home-swap website: the rooms, the furniture, where things are and what's near your home. Use at least four prepositions of place.
+    exercises: |
+      fill: The lamp is ___ the table. (on top) || on || Use on for things on top of a surface. || @tags en.prepositions-place
+      fill: The cat is ___ the bed. (below) || under || Under = below something. || @tags en.prepositions-place
+      fill: The chair is ___ the bed and the door. || between || Between = in the middle of two things. || @tags en.prepositions-place
+      mc: The yard is at the back of the house. It is ___ the house. || in front of | *behind | between || Behind = at the back of. In front of is the opposite. || @tags en.prepositions-place
+      mc: Which room do you cook in? || bathroom | bedroom | *kitchen || We cook in the kitchen. || @skill vocabulary @tags en.vocabulary
+      rw: Make a question with Where :: My phone is on the sofa. || Where's my phone? | Where is my phone? || Where + is + the thing: Where's my phone? || @tags en.questions
+      match: kitchen = make dinner ; bedroom = sleep ; bathroom = take a shower ; living room = watch TV || Match each room with what you usually do there. || @skill vocabulary @tags en.vocabulary
+      order: My books are on the shelf next to the bed. || @tags en.prepositions-place
+      tf: Kemal's kitchen is big. || false || Kemal says, "It's very small." || @ctx dialogue
+      short: Where is Kemal's cat? || kw: under & bed || Kemal says, "She's under the bed, as usual." || @ctx dialogue
+      listen: Your glasses? They're on the shelf, next to the lamp. || Where are the glasses? || under the lamp | *on the shelf | in the bag || "They're on the shelf, next to the lamp." || @tags en.prepositions-place
+      listen: @dialogue || Where is the TV? || next to the window | *on the wall, opposite the sofa | behind the living room || Kemal says, "It's on the wall, opposite the sofa." || @tags en.prepositions-place
+      dict: The bathroom is next to my bedroom.
+      ask: Describe your living room or bedroom. Say where three things are. || kw: on/in/under/next to/between/behind/opposite & there's/there is/is/'s/are || In my bedroom there's a big bed. There's a lamp on the table next to the bed, and my books are on a shelf.
+      write: Describe your home for a home-swap website (5–6 sentences). || min=35 || req: there's/there is/there are | next to/between/opposite/behind/in front of | bedroom/kitchen/living room/bathroom || Our apartment is on the fourth floor of a quiet building. There are two bedrooms and a big living room. The kitchen is next to the living room, and the bathroom is between the two bedrooms. There's a sofa in front of the window. There's a park opposite the building.

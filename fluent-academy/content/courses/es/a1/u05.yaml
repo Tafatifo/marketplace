@@ -1,0 +1,357 @@
+unit: 5
+title: Mi barrio, mi casa
+theme: Town and home
+description: Say what there is in your town with hay, say where places and things are with estar and prepositions, ask for and give directions, and describe your home.
+objectives:
+  - Talk about places in town with hay and estar
+  - Ask for and give simple directions with the tú imperative, al and del
+  - Describe your home and say where things are
+canDo:
+  - I can ask if there is a pharmacy, a bank or a station nearby.
+  - I can understand and give simple directions in the street.
+  - I can describe my flat or house and its rooms.
+  - I can say where things are with prepositions like al lado de, enfrente de and encima de.
+review: |
+  fill: ¿___ un supermercado cerca de tu casa? || Hay || "Is there a…?" = ¿Hay un/una…? || @tags es.hay
+  fill: La farmacia ___ enfrente del colegio. || está || The location of a specific place uses estar: la farmacia está… || @tags es.estar
+  fill: El cine está al lado ___ banco. (de + el) || del || De + el = del: al lado del banco. || @tags es.contractions
+  fill: ___ la calle y gira a la izquierda. (cruzar, tú) || Cruza || Tú imperative of cruzar = cruza (like the él/ella form). || @tags es.imperative
+  mc: Choose the correct sentence. || Está una farmacia en la plaza. | *Hay una farmacia en la plaza. | Hay la farmacia en la plaza. || Una farmacia (any pharmacy, new information) goes with hay. || @tags es.hay
+  mc: "Go straight on" is… || Gira a la derecha. | *Sigue todo recto. | Sube la calle. || Todo recto = straight on; seguir → sigue. || @tags es.imperative
+  tr: Is there a park near here? || ¿Hay un parque cerca de aquí? | ¿Hay un parque por aquí? | ¿Hay un parque cerca? || Existence: ¿hay un…?; nearby = cerca (de aquí) or por aquí. || @tags es.hay,es.prepositions
+  tr: My flat has three bedrooms and a balcony. || Mi piso tiene tres dormitorios y una terraza. | Mi apartamento tiene tres dormitorios y una terraza. | Mi piso tiene tres habitaciones y una terraza. || Use tener for the rooms a home has. || @tags es.tener
+  listen: Perdone, el ayuntamiento está en la Plaza Mayor, al lado de la iglesia. || Where is the town hall? || Opposite the church | *Next to the church | Behind the market || Al lado de la iglesia = next to the church. || @tags es.prepositions
+  listen: Toma la tercera calle a la derecha; el museo está al final. || Which street should you take? || *The third on the right | The third on the left | The first on the right || La tercera calle a la derecha = the third street on the right. || @tags es.imperative
+  ask: Explain to a friend how to get from the station to your house — give two or three directions. || kw: sigue/gira/toma/coge/cruza & derecha/izquierda/recto || Sal de la estación, sigue todo recto y gira a la izquierda. Mi casa está al lado de la farmacia.
+  write: A friend is coming to stay. Write an email describing your neighbourhood and your home. || min=35 || req: hay | está/están | tiene | al lado de/cerca de/enfrente de/entre || ¡Hola, Marc! Mi barrio es tranquilo. Hay un mercado, dos bares y un parque muy bonito. La parada de metro está enfrente de mi casa. Mi piso es pequeño: tiene dos dormitorios, un salón y una cocina. Tu cama está al lado de la ventana. ¡Hasta pronto!
+lessons:
+  - title: Places in town
+    summary: Name the places in a town and say what there is (hay) and where things are (estar).
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.hay, es.estar]
+    objectives:
+      - Name common places in a town
+      - Use hay to say what there is
+      - Use estar to say where something is
+    intro: |
+      *¿Hay una farmacia por aquí?* *¿Dónde está la estación?* These two questions will get you around any Spanish town. They show a key difference: **hay** (*there is / there are*) introduces something new, while **estar** tells you **where** a particular place is.
+    vocab: |
+      el barrio | neighbourhood | n | Mi barrio es muy tranquilo. | My neighbourhood is very quiet. | g: m
+      la plaza | square | n | La plaza está en el centro del pueblo. | The square is in the centre of the village. | g: f | n: La Plaza Mayor is the main square in many towns.
+      la calle | street | n | Vivo en la calle Goya. | I live on Goya Street. | g: f
+      el ayuntamiento | town hall | n | El ayuntamiento está en la Plaza Mayor. | The town hall is on the main square. | g: m
+      la farmacia | pharmacy, chemist's | n | ¿Hay una farmacia por aquí? | Is there a pharmacy around here? | g: f | n: Look for the green cross.
+      el banco | bank; bench | n | Hay un banco en la esquina. | There's a bank on the corner. | g: m
+      el supermercado | supermarket | n | El supermercado abre a las nueve. | The supermarket opens at nine. | g: m
+      la estación | station | n | La estación de tren está lejos. | The train station is a long way away. | g: f | c: la estación de tren; la estación de autobuses
+      el museo | museum | n | El museo es gratis los domingos. | The museum is free on Sundays. | g: m
+      el parque | park | n | Hay un parque muy bonito al lado del río. | There's a lovely park next to the river. | g: m
+      el centro de salud | health centre | n | El centro de salud abre a las ocho. | The health centre opens at eight. | g: m | n: Your local doctor's surgery in Spain.
+      hay | there is; there are | v | En mi barrio hay dos supermercados. | In my neighbourhood there are two supermarkets. | n: One form for singular and plural.
+      estar | to be (location) | v | ¿Dónde está el museo? | Where is the museum? | n: estoy, estás, está, estamos, estáis, están.
+      por aquí | around here | expr | Perdona, ¿hay un cajero por aquí? | Excuse me, is there a cash machine around here?
+    grammar:
+      title: "Hay or está?"
+      body: |
+        **Hay** means *there is* or *there are*. It has only one form, for singular and plural. Use it to introduce something new, with **un / una / unos / unas**, a **number**, or **no article**: *Hay un banco. Hay dos farmacias. Hay bares. No hay cine.*
+
+        **Estar** says **where** something specific is. Use it with **el / la / los / las**, names and possessives: *El banco está en la plaza. Mis padres están en casa.*
+
+        Compare the two questions: *¿Hay una farmacia por aquí?* (any pharmacy) and *¿Dónde está la farmacia?* (a particular one you know about).
+
+        **Estar** is irregular: *estoy, estás, está, estamos, estáis, están*. You have already used it for how people feel (*¿Cómo estás?*). Use **ser** to say **what** something is (*Es un museo*), and **estar** to say **where** it is (*Está en el centro*).
+      table: |
+        - | hay | estar
+        Meaning | there is / there are | is / are (located)
+        Use with | un, una, unos, unas, numbers, no article | el, la, los, las, names, mi, tu, su
+        Example | Hay un hotel en la plaza. | El hotel está en la plaza.
+        Question | ¿Hay un cajero por aquí? | ¿Dónde está el cajero?
+        Negative | No hay cine en el pueblo. | El cine no está lejos.
+      examples: |
+        En mi barrio hay un mercado y dos parques. | In my neighbourhood there's a market and two parks.
+        ¿Dónde está la estación de tren? | Where's the train station?
+        No hay cine, pero hay un teatro. | There's no cinema, but there's a theatre.
+        Los museos están en el centro. | The museums are in the centre.
+      tip: "Never say hay el… or hay la…: with el/la, use estar. El museo está en la plaza."
+    dialogue:
+      title: Un vecino nuevo
+      setting: Wei has just moved to a flat in Bilbao. In the street outside, he asks his neighbour Begoña about the area.
+      speakers: B=Begoña/f; W=Wei/m
+      lines: |
+        W: Perdona, ¿hay un supermercado por aquí? | Excuse me, is there a supermarket around here?
+        B: Sí, hay dos. Uno está en la plaza. | Yes, there are two. One is in the square.
+        W: ¡Genial! ¿Y hay una farmacia? | Great! And is there a pharmacy?
+        B: Sí, la farmacia está al lado del banco. | Yes, the pharmacy is next to the bank.
+        W: Gracias. Soy nuevo en el barrio. | Thanks. I'm new in the neighbourhood.
+        B: ¡Bienvenido! Soy Begoña, tu vecina. | Welcome! I'm Begoña, your neighbour.
+        W: Encantado. Yo me llamo Wei. ¿Hay un parque cerca? | Nice to meet you. My name is Wei. Is there a park nearby?
+        B: Sí, el parque está al final de la calle. | Yes, the park is at the end of the street.
+        W: ¿Y la estación de metro? | And the metro station?
+        B: Está en la plaza, a cinco minutos. | It's in the square, five minutes away.
+        W: ¡Perfecto! Muchas gracias, Begoña. | Perfect! Thanks a lot, Begoña.
+    pronunciation:
+      title: "A soft d: ciudad, mercado, ¿dónde?"
+      body: |
+        At the start of a phrase or after **n** or **l**, **d** is like English [d], but with the tongue touching the back of the top teeth: *¿Dónde está?*, *el banco de al lado*.
+
+        **Between vowels**, d becomes soft [ð], like the *th* in English *this*: *mercado, al lado*. At the **end of a word** it is very soft — almost silent in much of Spain: *Madrid, ciudad, salud*.
+      items: |
+        ¿dónde está?
+        el mercado
+        al lado
+        centro de salud
+        Madrid
+        la ciudad
+    culture:
+      title: The plaza and the farmacia de guardia
+      body: |
+        Most Spanish towns are built around a main square, often called the **Plaza Mayor**, where you'll find the town hall, a church and bars with terraces. In the evening, people of all ages meet there or go for a **paseo** (a stroll).
+
+        Pharmacies are marked with a green cross and are the first place to go for minor health problems. At night and on holidays, there's always a **farmacia de guardia** (duty pharmacy) open — every pharmacy door shows which one it is.
+    mistakes: |
+      Hay el museo en la plaza. => El museo está en la plaza. | With el/la (a particular place), use estar, not hay.
+      Está un banco en esta calle. => Hay un banco en esta calle. | With un/una (something new), use hay.
+      Son dos parques en mi barrio. => Hay dos parques en mi barrio. | "There are" is hay, not son.
+    task:
+      title: My neighbourhood
+      mode: speaking
+      body: |
+        Tell a partner (or the AI coach) about your neighbourhood: three places there are, one thing there isn't, and where one important place is — *En mi barrio hay… No hay… La estación está…* Then ask your partner two questions about theirs.
+    exercises: |
+      fill: En mi calle ___ dos bares. || hay || "There are" = hay, for singular and plural. || @tags es.hay
+      fill: ¿Dónde ___ el ayuntamiento? || está || A specific place + location = está. || @tags es.estar
+      fill: Los museos ___ en el centro. || están || Plural subject: están. || @tags es.estar
+      fill: Yo ___ en la estación. (estar) || estoy || Yo + estar = estoy. || @tags es.estar
+      mc: Choose the correct sentence. || Hay el banco en la plaza. | *El banco está en la plaza. | El banco hay en la plaza. || El banco is a specific place, so use estar. || @tags es.hay,es.estar
+      mc: You need a pharmacy — any pharmacy. You ask: || ¿Dónde hay la farmacia? | *¿Hay una farmacia por aquí? | ¿Está una farmacia por aquí? || Any pharmacy = una farmacia, with hay. || @tags es.hay
+      mc: Where is the pharmacy? || In the square | *Next to the bank | At the end of the street || "La farmacia está al lado del banco." || @ctx dialogue @skill reading @tags es.reading
+      tf: The metro station is five minutes away. || true || "Está en la plaza, a cinco minutos." || @ctx dialogue
+      rw: Make it negative :: Hay un cine en mi barrio. || No hay cine en mi barrio. | No hay ningún cine en mi barrio. || In negative sentences hay usually drops un: no hay cine. || @tags es.hay,es.negation
+      order: El centro de salud está en la calle Mayor. || The health centre is on Calle Mayor. || @tags es.estar
+      tr: Is there a bank around here? || ¿Hay un banco por aquí? | Perdona, ¿hay un banco por aquí? | Perdone, ¿hay un banco por aquí? | ¿Hay un banco cerca? || "Is there…?" = ¿Hay un/una…?; around here = por aquí. || @tags es.hay
+      tr: My parents are at home. || Mis padres están en casa. || Where people are also uses estar. || @tags es.estar
+      listen: En el pueblo hay una farmacia, dos bares y un supermercado, pero no hay banco. || What is missing in the village? || A pharmacy | *A bank | A supermarket || "No hay banco" — there's no bank. || @tags es.hay
+      dict: Hay un parque muy bonito en mi barrio.
+      ask: Describe your neighbourhood — three things there are, and where one of them is. || kw: hay & está/están || En mi barrio hay un mercado, una farmacia y dos parques. El mercado está en la plaza.
+
+  - title: Asking for directions
+    summary: Ask the way and understand or give directions with the tú imperative, prepositions of place and al / del.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [es.imperative, es.prepositions, es.contractions]
+    objectives:
+      - Ask the way politely
+      - Give directions with the tú imperative (gira, sigue, toma, cruza)
+      - Use prepositions of place and the contractions al and del
+    intro: |
+      Even with a map on your phone, you will need to ask the way sometimes — and understand the answer! Directions in Spanish use a few short commands: **sigue todo recto**, **gira a la derecha**, **toma la primera calle**. You will also meet two compulsory contractions: **al** (a + el) and **del** (de + el).
+    vocab: |
+      perdona / perdone | excuse me | expr | Perdona, ¿dónde está el museo? | Excuse me, where's the museum? | n: Perdona (tú), perdone (usted). Also: disculpa / disculpe.
+      todo recto | straight on | expr | Sigue todo recto. | Go straight on. | n: In Latin America: derecho.
+      a la derecha | on/to the right | expr | Gira a la derecha. | Turn right.
+      a la izquierda | on/to the left | expr | La farmacia está a la izquierda. | The pharmacy is on the left.
+      girar | to turn | v | Gira en la segunda calle. | Turn at the second street.
+      seguir | to carry on, to continue | v | Sigue por la avenida hasta el puente. | Carry on along the avenue as far as the bridge. | n: e → i: sigue.
+      tomar | to take | v | Toma la primera calle a la izquierda. | Take the first street on the left. | n: In Spain coger is also very common: coge la primera. In many Latin American countries, use tomar.
+      cruzar | to cross | v | Cruza la plaza y gira a la derecha. | Cross the square and turn right.
+      al lado de | next to | expr | El hotel está al lado del museo. | The hotel is next to the museum.
+      enfrente de | opposite | expr | El banco está enfrente de la iglesia. | The bank is opposite the church.
+      cerca de | near | expr | ¿Hay un hotel cerca de la estación? | Is there a hotel near the station? | n: Opposite: lejos de (far from).
+      entre | between | prep | La farmacia está entre el bar y el banco. | The pharmacy is between the bar and the bank.
+      la esquina | corner | n | El bar está en la esquina. | The bar is on the corner. | g: f
+      la primera calle | the first street | expr | Es la primera calle a la derecha. | It's the first street on the right. | c: la segunda; la tercera
+    grammar:
+      title: "Directions: the tú imperative, al and del"
+      body: |
+        To give directions to a friend, use the **tú imperative**. For regular verbs it is the same as the **él / ella** form of the present: *girar → **gira***, *tomar → **toma***, *cruzar → **cruza***, *subir → **sube***. Stem-changing verbs keep their change: *seguir → **sigue***.
+
+        Strangers will often speak to you with **usted**, so learn to recognise the usted forms too: *gire, tome, cruce, siga*. The vowel "swaps": -ar verbs take **-e**, -er/-ir verbs take **-a**.
+
+        Most prepositions of place end in **de**: *al lado de, enfrente de, cerca de, lejos de, al final de*. When **de** meets **el**, they join: **de + el = del** (*al lado del banco*). In the same way, **a + el = al** (*Gira al final de la calle*). **La, los** and **las** never contract: *al lado de la iglesia*.
+      table: |
+        Infinitive | tú (friend) | usted (formal) | Meaning
+        girar | gira | gire | turn
+        tomar / coger | toma / coge | tome / coja | take
+        cruzar | cruza | cruce | cross
+        seguir | sigue | siga | carry on
+        subir | sube | suba | go up
+        bajar | baja | baje | go down
+      examples: |
+        Sigue todo recto y gira a la izquierda. | Go straight on and turn left.
+        Toma la segunda calle a la derecha. | Take the second street on the right.
+        El museo está al lado del parque. | The museum is next to the park.
+        Cruza la plaza; la estación está enfrente del hotel. | Cross the square; the station is opposite the hotel.
+      tip: "a + el = al and de + el = del are compulsory: al lado del banco. But la never contracts: al lado de la iglesia."
+    dialogue:
+      title: ¿Cómo llego al museo?
+      setting: In the old town of Cáceres, Hanna, a German tourist, asks Andrés, a local student, the way to the museum.
+      speakers: H=Hanna/f; A=Andrés/m
+      lines: |
+        H: Perdona, ¿cómo llego al museo? | Excuse me, how do I get to the museum?
+        A: Está cerca. Sigue todo recto hasta la plaza. | It's close. Go straight on as far as the square.
+        H: ¿Hasta la plaza? Vale. | As far as the square? OK.
+        A: Luego cruza la plaza y gira a la derecha. | Then cross the square and turn right.
+        H: ¿A la derecha? | To the right?
+        A: Sí. Toma la primera calle a la izquierda. | Yes. Take the first street on the left.
+        H: ¿Y el museo está ahí? | And is the museum there?
+        A: Sí, al final de la calle, enfrente de un hotel. | Yes, at the end of the street, opposite a hotel.
+        H: ¿Está lejos? | Is it far?
+        A: No, a diez minutos a pie. | No, ten minutes on foot.
+        H: ¡Muchas gracias! | Thank you very much!
+        A: ¡De nada! | You're welcome!
+    pronunciation:
+      title: "Silent u: sigue, esquina, izquierda"
+      body: |
+        In the groups **gue, gui** and **que, qui**, the **u** is silent — it's only there to keep the hard sound of g or c: *sigue* [ˈsi.ɣe], *esquina* [es.ˈki.na], *izquierda* [iθ.ˈkjeɾ.ða].
+
+        Before **e** and **i**, a g without u is the strong [x] sound: *gira* [ˈxi.ɾa]. Compare *gira* (turn) and *sigue* (carry on).
+      items: |
+        sigue
+        seguir
+        la esquina
+        a la izquierda
+        gira
+        a la derecha
+    culture:
+      title: Old towns and asking the way
+      body: |
+        Many Spanish cities have a **casco antiguo** (old town) with narrow, winding streets where phone maps are not always reliable. People are usually happy to help, and they often give directions with landmarks: *al lado de la iglesia, enfrente del bar*.
+
+        Distances are often given in minutes: *está a cinco minutos andando* (it's a five-minute walk). If someone says *está aquí al lado* (it's just here), it really is close!
+    mistakes: |
+      El hotel está al lado de el museo. => El hotel está al lado del museo. | De + el must contract: del.
+      Gira a la derecho. => Gira a la derecha. | Right is la derecha; derecho means "straight on" in Latin America, or "law".
+      Seguir todo recto y girar a la izquierda. => Sigue todo recto y gira a la izquierda. | To give directions to someone, use the imperative (sigue, gira), not the infinitive.
+    task:
+      title: From the station to the café
+      mode: interaction
+      body: |
+        Draw a simple map of the streets near your home or school. A visitor (your partner or the AI coach) asks how to get from the station to a café. Give three or four directions with the tú imperative and say where the café is: *Está enfrente del parque.*
+    exercises: |
+      fill: ___ todo recto y gira a la izquierda. (seguir, tú) || Sigue || Seguir changes e → i: sigue. || @tags es.imperative
+      fill: El bar está al lado ___ parque. || del || De + el = del. || @tags es.contractions
+      fill: La parada de autobús está ___ final de la calle. || al || A + el = al: al final de. || @tags es.contractions
+      mc: Which instruction means "cross the square"? || Sube la plaza. | *Cruza la plaza. | Gira la plaza. || Cruzar = to cross: cruza la plaza. || @tags es.imperative
+      mc: A stranger tells you "Siga todo recto y gire a la izquierda." These verbs are… || the tú form | *the usted form | the infinitive || Siga and gire are usted forms; to a friend you'd say sigue and gira. || @tags es.imperative,es.register
+      match: al lado de = next to ; enfrente de = opposite ; cerca de = near ; lejos de = far from ; entre = between || These prepositions say where places are. || @tags es.prepositions
+      mc: Where exactly is the museum? || In the square | *At the end of the street, opposite a hotel | In the first street on the right || "Al final de la calle, enfrente de un hotel." || @ctx dialogue @skill reading @tags es.reading
+      tf: The museum is a long way away. || false || "No, a diez minutos a pie." || @ctx dialogue
+      rw: Tell a friend to do it :: girar a la izquierda || Gira a la izquierda. || Tú imperative of girar = gira. || @tags es.imperative
+      rw: Tell a friend to do it :: tomar la segunda calle || Toma la segunda calle. | Coge la segunda calle. || Tú imperative: toma (or coge in Spain). || @tags es.imperative
+      tr: The pharmacy is next to the supermarket. || La farmacia está al lado del supermercado. || De + el = del: al lado del supermercado. || @tags es.contractions,es.prepositions
+      tr: Excuse me, how do I get to the station? (informal) || Perdona, ¿cómo llego a la estación? | Disculpa, ¿cómo llego a la estación? | Perdona, ¿para ir a la estación? || Perdona/disculpa with tú; llegar a = to get to. || @tags es.question-words
+      listen: Cruza la plaza, toma la segunda calle a la izquierda y el hotel está a la derecha. || Where is the hotel? || In the square | *In the second street on the left, on the right-hand side | In the first street on the left || Second street on the left, then the hotel is on the right. || @tags es.imperative
+      dict: Sigue todo recto y gira en la segunda calle.
+      ask: A tourist asks you the way to the station. Give two or three directions with the tú imperative. || kw: sigue/gira/toma/coge/cruza & derecha/izquierda/recto || Sigue todo recto, gira a la derecha y la estación está al final de la calle.
+
+  - title: My home
+    summary: Describe your flat or house, its rooms and furniture, and say where things are.
+    minutes: 35
+    skills: [vocabulary, grammar, writing]
+    tags: [es.prepositions, es.hay]
+    objectives:
+      - Name rooms and basic furniture
+      - Describe a home with tener and hay
+      - Say where things are with encima de, debajo de, delante de, detrás de
+    intro: |
+      Whether you're looking for a room to rent or showing a friend around, you need to describe a home: **Mi piso tiene dos dormitorios**, **en el salón hay un sofá**, **las llaves están encima de la mesa**. In this lesson you'll learn the rooms of a Spanish *piso* and the prepositions for saying where things are.
+    vocab: |
+      el piso | flat, apartment; floor | n | Vivo en un piso pequeño en el centro. | I live in a small flat in the centre. | g: m | n: In Latin America: el departamento or el apartamento.
+      la casa | house; home | n | Mis abuelos viven en una casa con jardín. | My grandparents live in a house with a garden. | g: f
+      el salón | living room | n | El salón es grande y tiene mucha luz. | The living room is big and has a lot of light. | g: m
+      la cocina | kitchen | n | La cocina está al lado del salón. | The kitchen is next to the living room. | g: f | n: Also means "cooker" and "cooking".
+      el dormitorio | bedroom | n | Mi piso tiene dos dormitorios. | My flat has two bedrooms. | g: m | n: Also: la habitación.
+      el baño | bathroom | n | El baño está al final del pasillo. | The bathroom is at the end of the corridor. | g: m
+      la terraza | balcony, terrace | n | Desayunamos en la terraza en verano. | We have breakfast on the balcony in summer. | g: f
+      la mesa | table; desk | n | Las llaves están encima de la mesa. | The keys are on the table. | g: f
+      la cama | bed | n | Mi gato duerme debajo de la cama. | My cat sleeps under the bed. | g: f
+      el sofá | sofa | n | El sofá está delante de la ventana. | The sofa is in front of the window. | g: m
+      encima de | on (top of) | expr | El móvil está encima de la cama. | The mobile is on the bed. | n: Also sobre.
+      debajo de | under | expr | La maleta está debajo de la cama. | The suitcase is under the bed.
+      delante de | in front of | expr | Hay un árbol delante de mi casa. | There's a tree in front of my house.
+      detrás de | behind | expr | El jardín está detrás de la casa. | The garden is behind the house.
+    grammar:
+      title: "Describing your home: tener, hay and prepositions"
+      body: |
+        To describe a flat or house, use **tener** for what it has — *Mi piso tiene tres dormitorios* — or **hay** for what there is inside — *En el salón hay un sofá y dos sillones*. To say **where** something is, use **estar + a preposition**: *El sofá está delante de la ventana.*
+
+        **En** is very flexible: it can mean *in*, *on* or *at* — *en la cocina* (in the kitchen), *en la mesa* (on the table), *en casa* (at home). The other prepositions are more precise, and most of them end in **de** — so remember **de + el = del**: *debajo del sofá, encima del armario*.
+
+        Use **ser** to describe the home itself (*El piso es pequeño y bonito*) and **estar** for where it is (*Está en el centro*).
+      table: |
+        Preposition | Meaning | Example
+        en | in, on, at | Las tazas están en la cocina.
+        encima de | on (top of) | El libro está encima de la mesa.
+        debajo de | under | El gato está debajo de la cama.
+        delante de | in front of | La mesa está delante del sofá.
+        detrás de | behind | El jardín está detrás de la casa.
+        al lado de | next to | El baño está al lado del dormitorio.
+        entre … y … | between … and … | La lámpara está entre el sofá y la ventana.
+      examples: |
+        Mi piso tiene dos dormitorios, un baño y una cocina pequeña. | My flat has two bedrooms, a bathroom and a small kitchen.
+        En el salón hay un sofá y una mesa. | In the living room there's a sofa and a table.
+        Las llaves están debajo del sofá. | The keys are under the sofa.
+        ¿Dónde está el baño? Al lado de la cocina. | Where's the bathroom? Next to the kitchen.
+      tip: "For things on a surface, en and encima de both work: el libro está en la mesa / encima de la mesa."
+    dialogue:
+      title: Un piso para compartir
+      setting: Luca, an Italian student, is looking for a room in Granada. On a video call, Inma tells him about her shared flat.
+      speakers: I=Inma/f; L=Luca/m
+      lines: |
+        L: Hola, Inma. ¿Cómo es el piso? | Hi, Inma. What's the flat like?
+        I: Es bastante grande. Tiene tres dormitorios. | It's quite big. It has three bedrooms.
+        L: ¿Y cuántos baños hay? | And how many bathrooms are there?
+        I: Hay dos baños y una cocina grande. | There are two bathrooms and a big kitchen.
+        L: ¿Hay salón? | Is there a living room?
+        I: Sí, y tiene una terraza muy bonita. | Yes, and it has a lovely balcony.
+        L: ¡Qué bien! ¿Cómo es mi dormitorio? | Great! What's my bedroom like?
+        I: Es pequeño, pero tiene mucha luz. | It's small, but it has a lot of light.
+        L: ¿Tiene mesa para estudiar? | Does it have a desk for studying?
+        I: Sí, la mesa está delante de la ventana. | Yes, the desk is in front of the window.
+        L: ¿Y el piso está cerca de la universidad? | And is the flat near the university?
+        I: Sí, a cinco minutos andando. | Yes, five minutes on foot.
+    pronunciation:
+      title: "Final stress: salón, sofá, habitación"
+      body: |
+        Words ending in a vowel, **n** or **s** are normally stressed on the second-to-last syllable. When the stress falls on the **last** syllable instead, Spanish writes an accent: *salón, sofá, habitación, jardín*.
+
+        In the plural the word gains a syllable, so the stress is regular again and the accent disappears: *salón → salones, habitación → habitaciones*. The stressed syllable itself doesn't move.
+      items: |
+        el salón
+        los salones
+        el sofá
+        la habitación
+        las habitaciones
+        el jardín
+    culture:
+      title: Living in a piso
+      body: |
+        Most people in Spanish cities live in flats in apartment blocks rather than in houses. An address tells you exactly where to go: *Calle Goya, 15, 3.º B* means number 15, third floor, door B. The ground floor is **la planta baja**, and the entrance hall is **el portal**.
+
+        Students and young workers often **comparten piso** (share a flat), and adverts for rooms list what the flat has: *piso compartido, 3 dormitorios, 2 baños, terraza, cerca del metro*.
+    mistakes: |
+      El gato está debajo de el sofá. => El gato está debajo del sofá. | De + el = del.
+      Mi piso hay tres dormitorios. => Mi piso tiene tres dormitorios. | A home "has" rooms: tener. With hay, say: En mi piso hay tres dormitorios.
+      Las llaves son en la mesa. => Las llaves están en la mesa. | Location uses estar, not ser.
+    task:
+      title: Room to rent
+      mode: writing
+      body: |
+        Write an advert (40–50 words) for a room in your flat or house: how many rooms there are, what the room has, where the furniture is and what is nearby (*cerca del metro, enfrente de un parque*). Then describe your home aloud to the AI coach.
+    exercises: |
+      fill: Mi piso ___ dos dormitorios. (tener) || tiene || A home "has" rooms: tiene. || @tags es.tener
+      fill: En el salón ___ un sofá y dos sillas. || hay || "There is/are" inside a room = hay. || @tags es.hay
+      fill: Las llaves ___ encima de la mesa. || están || Location of specific things = estar; plural = están. || @tags es.estar
+      fill: El gato está debajo ___ sofá. || del || De + el = del. || @tags es.contractions
+      mc: "Behind the house" is… || delante de la casa | *detrás de la casa | debajo de la casa || Detrás de = behind; delante de = in front of; debajo de = under. || @tags es.prepositions
+      mc: Choose the correct sentence. || Mi piso hay una terraza. | *Mi piso tiene una terraza. | Mi piso está una terraza. || The flat "has" a balcony: tiene. || @tags es.tener,es.hay
+      mc: Where is the desk in Luca's room? || *In front of the window | Next to the bed | Behind the door || "La mesa está delante de la ventana." || @ctx dialogue @skill reading @tags es.reading
+      tf: The flat has only one bathroom. || false || "Hay dos baños y una cocina grande." || @ctx dialogue
+      rw: Answer with "no" :: ¿Hay terraza en tu piso? || No, no hay terraza. | No, en mi piso no hay terraza. | No, mi piso no tiene terraza. || Negative: no + hay, with no article. || @tags es.hay,es.negation
+      order: El baño está al lado del dormitorio. || The bathroom is next to the bedroom. || @tags es.prepositions,es.contractions
+      tr: The kitchen is small but it has a lot of light. || La cocina es pequeña pero tiene mucha luz. | La cocina es pequeña, pero tiene mucha luz. || Ser for description (pequeña), tener for what it has. || @tags es.ser-estar,es.tener
+      listen: En mi dormitorio hay una cama, una mesa y una silla. La mesa está al lado de la ventana. || Where is the table? || Under the window | *Next to the window | In front of the bed || "La mesa está al lado de la ventana." || @tags es.prepositions
+      dict: Desayunamos en la terraza los domingos.
+      ask: Describe your home — how many rooms it has and where one piece of furniture is. || kw: tiene/hay & está/están || Vivo en un piso pequeño. Tiene dos dormitorios y un salón. El sofá está delante de la ventana.
+      write: Write an advert for a room in your flat-share. || min=30 || req: tiene/hay | dormitorio/habitación | está/están | cerca de/al lado de/enfrente de || Alquilo una habitación en un piso compartido. El piso tiene tres dormitorios, dos baños y una terraza. La habitación es grande y tiene una cama, una mesa y un armario. El piso está cerca del metro y enfrente de un parque.
