@@ -1,0 +1,379 @@
+unit: 1
+title: Historias de vida
+theme: Life stories
+description: Say what you did last weekend, tell the main stages of your life with dates, and share a childhood memory — all with the pretérito indefinido of regular verbs.
+free: true
+objectives:
+  - Say what you did yesterday and last weekend with regular verbs in the preterite
+  - Tell the main events of your life with years, ages and time links
+  - Tell a childhood memory in order, spelling preterite forms correctly
+canDo:
+  - I can say what I did yesterday or last weekend.
+  - I can tell the main stages of my life with dates.
+  - I can tell a short story from my childhood in the right order.
+  - I can write and pronounce preterite forms with the right accent.
+review: |
+  fill: El sábado pasado Julia ___ (cenar) con sus primos. || cenó || The él/ella form of -ar verbs ends in -ó, with a written accent. || @tags es.preterite
+  fill: Anoche ___ (escribir, yo) un correo muy largo a mi tía. || escribí || The yo form of -er and -ir verbs ends in -í. || @tags es.preterite
+  mc: Which sentence is about the past? || Hablo con mi madre. | *Habló con su madre. | Habla con su madre. || Habló, with the accent on the last o, is the preterite (he/she spoke). Hablo = I speak; habla = he/she speaks. || @tags es.preterite,es.stress
+  fill: Mis abuelos se ___ (casar) en 1970 en Toledo. || casaron || Ellos form of -ar verbs: -aron. The pronoun se stays before the verb. || @tags es.preterite,es.reflexive
+  fill: Ayer ___ (pagar, yo) la cena con tarjeta. || pagué || In the yo form, g becomes gu before e so the sound stays hard: pagué. || @tags es.preterite,es.spelling
+  mc: Your friend says «Me mudé a Bilbao hace tres años». When did she move? || *Three years ago | In three years' time | For three years || Hace + a length of time with the preterite means "ago". || @tags es.preterite
+  tr: We lived in Seville for two years. || Vivimos en Sevilla dos años. | Vivimos dos años en Sevilla. | Vivimos en Sevilla durante dos años. | Nosotros vivimos en Sevilla dos años. || A finished period in the past takes the preterite; nosotros + vivir = vivimos (the same form as the present). || @tags es.preterite
+  rw: Change to the past, starting with Ayer :: Hoy como en casa de mis abuelos. || Ayer comí en casa de mis abuelos. || Yo form of -er verbs in the preterite: comí. || @tags es.preterite
+  listen: El domingo me quedé en casa. Por la mañana limpié la cocina y por la tarde vi una película con mi hermana. || What did the speaker do on Sunday afternoon? || Cleaned the kitchen | *Watched a film | Went out with a friend || "Por la tarde vi una película con mi hermana." The kitchen was in the morning. || @tags es.listening,es.preterite
+  listen: Nací en Cuenca en 1990, pero a los diez años me mudé a Valencia con mi familia. || How old was the speaker when the family moved to Valencia? || Two | *Ten | Nineteen || "A los diez años me mudé a Valencia" — at the age of ten. || @tags es.listening,es.dates
+  ask: A friend asks «¿Qué tal el fin de semana?». Tell them three things you did and when you did them. || kw: sábado/domingo/viernes/fin de semana & salí/comí/cené/visité/trabajé/descansé/limpié/jugué/compré/estudié/quedé/vi/corrí/leí || Muy bien. El viernes salí con mis compañeros, el sábado limpié la casa y el domingo comí con mis padres.
+  write: Write a short email to a Spanish-speaking friend about your life — where you were born, where you grew up, when you moved to your city — and add one childhood memory. || min=40 || req: nací | a los || ¡Hola, Inés! Te cuento un poco de mi vida. Nací en Galway, en Irlanda, en 1996, pero crecí en Dublín. Terminé la carrera en 2018 y dos años después me mudé a Londres. Un recuerdo de mi infancia: a los ocho años mis padres me regalaron una bici roja y aprendí a montar en una semana. ¡Me caí muchas veces! Un abrazo, Siobhan
+lessons:
+  - title: Last weekend
+    summary: Say what you did yesterday and last weekend with regular -ar, -er and -ir verbs in the pretérito indefinido.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [es.preterite]
+    objectives:
+      - Form the preterite of regular -ar, -er and -ir verbs
+      - Use past time expressions such as ayer, anoche and el sábado pasado
+      - Ask and answer questions about last weekend
+    intro: |
+      When you talk about something that is finished and happened at a specific time — yesterday, last Saturday, in 2019 — Spanish uses the **pretérito indefinido** (also called *pretérito perfecto simple*). It is the tense of stories and of every Monday-morning chat: *El sábado cené con amigos y el domingo descansé.* In this lesson you will learn the regular forms and the time expressions that go with them.
+    vocab: |
+      ayer | yesterday | adv | Ayer trabajé hasta las ocho de la tarde. | Yesterday I worked until eight in the evening. | n: Anteayer = the day before yesterday.
+      anoche | last night | adv | Anoche cenamos en una terraza del centro. | Last night we had dinner on a terrace in the centre. | n: One word. Esta noche means "tonight".
+      el fin de semana pasado | last weekend | expr | El fin de semana pasado visité a mis padres. | Last weekend I visited my parents. | n: Informally, el finde. Pasado agrees: la semana pasada, el mes pasado, el año pasado.
+      la semana pasada | last week | expr | La semana pasada no salí mucho. | Last week I didn't go out much.
+      quedarse en casa | to stay at home | v | El domingo me quedé en casa todo el día. | On Sunday I stayed at home all day. | n: Reflexive: me quedé, te quedaste, se quedó.
+      descansar | to rest | v | Por fin descansé un poco. | At last I got some rest.
+      salir | to go out; to leave | v | El viernes salí con mis compañeros de trabajo. | On Friday I went out with my workmates. | n: Regular in the preterite: salí, saliste, salió.
+      quedar con | to meet up with | v | El sábado quedé con Leire para tomar algo. | On Saturday I met up with Leire for a drink. | n: Spain. In much of Latin America: juntarse con, verse con.
+      limpiar | to clean | v | Limpié la cocina y el baño. | I cleaned the kitchen and the bathroom.
+      ver una película | to watch a film | expr | Anoche vimos una película coreana. | Last night we watched a Korean film. | c: ver una serie; ver el partido | n: Ver: vi, viste, vio — no written accents.
+      pasarlo bien | to have a good time | expr | ¿Lo pasaste bien en la fiesta? | Did you have a good time at the party? | c: pasarlo genial; pasarlo fatal
+      correr | to run | v | El domingo corrí diez kilómetros por el río. | On Sunday I ran ten kilometres along the river.
+      el concierto | concert | n | ¿Te gustó el concierto del sábado? | Did you like the concert on Saturday? | g: m | n: Gustar in the preterite: me gustó (one thing), me gustaron (several).
+      tomar algo | to have a drink or a snack | expr | Después del cine tomamos algo en un bar. | After the cinema we had a drink in a bar.
+    grammar:
+      title: The preterite of regular verbs
+      body: |
+        Use the **pretérito indefinido** for actions that are finished and placed at a specific moment in the past: *ayer, anoche, el lunes, la semana pasada, en 2020*.
+
+        Take off **-ar**, **-er** or **-ir** and add the endings in the table. **-er** and **-ir** verbs share the same endings.
+
+        Watch the written accents. The **yo** and **él / ella / usted** forms are stressed on the last syllable and carry an accent: *trabajé, trabajó*. The accent changes the meaning: *hablo* = I speak, but *habló* = he/she spoke.
+
+        The **nosotros** form of -ar and -ir verbs is the same as in the present: *cenamos* can mean "we have dinner" or "we had dinner". The time expression makes it clear: *Anoche cenamos en casa.*
+
+        Good news: verbs that change their stem in the present (*volver → vuelvo, cerrar → cierro*) are regular in the preterite if they end in **-ar** or **-er**: *volví, cerró, encontramos*. **Ver** is regular too, but its short forms have no accent: *vi, vio*.
+      table: |
+        Pronoun | cenar | comer | salir
+        yo | cené | comí | salí
+        tú | cenaste | comiste | saliste
+        él / ella / usted | cenó | comió | salió
+        nosotros / nosotras | cenamos | comimos | salimos
+        vosotros / vosotras (Spain) | cenasteis | comisteis | salisteis
+        ellos / ellas / ustedes | cenaron | comieron | salieron
+      examples: |
+        El sábado cené con mis primos. | On Saturday I had dinner with my cousins.
+        ¿Saliste anoche? | Did you go out last night?
+        Mi hermano no comió nada en todo el día. | My brother didn't eat anything all day.
+        ¿Lo pasasteis bien en la playa? | Did you (all) have a good time at the beach? | Spain; in Latin America: ¿Lo pasaron bien en la playa?
+      tip: "Monday chats start with ¿Qué tal el fin de semana? The answer is usually a short list of preterites: Bien, descansé, limpié la casa y el domingo vi a mis amigos."
+    dialogue:
+      title: El lunes en la parada
+      setting: Monday morning at a bus stop in Murcia. Nerea and her neighbour Joaquín wait for the bus to work and talk about the weekend.
+      speakers: N=Nerea/f; J=Joaquín/m
+      lines: |
+        N: ¡Buenos días, Joaquín! ¿Qué tal el fin de semana? | Good morning, Joaquín! How was your weekend?
+        J: Muy tranquilo. Me quedé en Murcia y descansé mucho. | Very quiet. I stayed in Murcia and rested a lot.
+        N: ¿No saliste? ¿Ni el sábado por la noche? | Didn't you go out? Not even on Saturday night?
+        J: Bueno, cené con unos amigos en el centro. ¿Y tú? | Well, I had dinner with some friends in the centre. And you?
+        N: Visité a mis padres en el pueblo. Volví anoche. | I visited my parents in the village. I came back last night.
+        J: ¡Qué bien! ¿Y qué tal? ¿Lo pasaste bien? | How nice! So how was it? Did you have a good time?
+        N: Genial. El sábado ayudé a mi padre en el huerto. | Great. On Saturday I helped my father in the vegetable garden.
+        J: ¿Tu padre tiene huerto? ¡Qué suerte! | Your father has a vegetable garden? Lucky you!
+        N: Sí, y el domingo comimos todos juntos con mis abuelos. | Yes, and on Sunday we all had lunch together with my grandparents.
+        J: Yo el domingo vi el partido en casa de mi hermano. | On Sunday I watched the match at my brother's.
+        N: Ah, ¿sí? ¿Y ganó tu equipo? | Oh, really? And did your team win?
+        J: ¡Sí, tres a uno! Mira, ya llega el autobús. | Yes, three–one! Look, here comes the bus.
+    pronunciation:
+      title: "Stress and written accents: hablo or habló?"
+      body: |
+        In the preterite, the **yo** and **él / ella / usted** forms of regular verbs are stressed on the **last syllable**, and the written accent shows it: *cené, cenó, comí, comió*. If you move the stress, you change the tense: *hablo* [ˈa.βlo] is "I speak", *habló* [a.ˈβlo] is "he/she spoke".
+
+        The other forms are stressed on the syllable just before the ending: *ce-NAS-te, ce-NA-mos, ce-NA-ron*. Listen and repeat, making the stressed syllable a little longer and louder.
+      items: |
+        cené
+        comió
+        habló
+        descansé
+        salieron
+        me quedé
+    culture:
+      title: El finde en España
+      body: |
+        Weekends in Spain are very social. On Saturday or Sunday around midday, many people meet friends or family for **el aperitivo** or **el vermú** — a drink and a few tapas before a late lunch at about 2 or 3 p.m. A long Sunday lunch with the family is still a tradition in many homes.
+
+        Many city dwellers have family roots in a **pueblo** (a village) and go back for weekends and summer holidays. When a bank holiday falls on a Thursday or a Tuesday, people often take the Friday or Monday off too: that long weekend is called **un puente** ("a bridge") — the perfect excuse for a short trip.
+    mistakes: |
+      Ayer hablo con mi madre. => Ayer hablé con mi madre. | A finished action with ayer needs the preterite; the yo form of -ar verbs ends in -é.
+      Mi hermano comío en casa. => Mi hermano comió en casa. | The accent goes on the last vowel: -ió, never -ío.
+      El sábado me quedí en casa. => El sábado me quedé en casa. | Quedarse is an -ar verb, so the yo ending is -é. The ending -í is for -er and -ir verbs.
+    task:
+      title: Monday morning chat
+      mode: speaking
+      body: |
+        A colleague asks you: *¿Qué tal el fin de semana?* Prepare an answer with at least five things you did (or didn't do) on Friday, Saturday and Sunday, using time expressions like *el viernes por la noche* or *el domingo por la mañana*. Then ask your colleague two questions about their weekend (*¿Saliste? ¿Lo pasaste bien?*). Practise with the AI coach in the "Talking about your day" scenario.
+    exercises: |
+      fill: Ayer ___ (trabajar, yo) diez horas. || trabajé || The yo form of -ar verbs ends in -é, with a written accent. || @tags es.preterite
+      fill: El domingo mis primos ___ (correr) una media maratón. || corrieron || Ellos form of -er verbs: -ieron. || @tags es.preterite
+      fill: Anoche nosotros ___ (salir) con unos compañeros de clase. || salimos || Salir is regular in the preterite. The nosotros form is the same as the present — anoche shows it's past. || @tags es.preterite
+      fill: ¿Vosotros ___ (ver) el concierto del sábado por la tele? || visteis || Ver in the preterite: vi, viste, vio, vimos, visteis, vieron. || @tags es.preterite
+      mc: Which sentence means "She worked on Saturday"? || Trabaja el sábado. | Trabajo el sábado. | *Trabajó el sábado. || The accent on -ó marks the él/ella preterite. Trabajo = I work; trabaja = she works. || @tags es.preterite,es.stress
+      mc: Choose the time expression that fits: ___ me quedé en casa. || Mañana | *El domingo pasado | Normalmente || A finished, specific moment in the past goes with the preterite. Mañana is the future; normalmente describes a habit (normalmente me quedo en casa). || @tags es.preterite
+      order: El sábado por la tarde limpié toda la casa. || On Saturday afternoon I cleaned the whole house. || @tags es.preterite
+      tf: Joaquín had dinner with friends on Saturday night. || true || "Bueno, cené con unos amigos en el centro." || @ctx dialogue
+      short: Where did Nerea spend the weekend? || kw: pueblo/village/padres/parents || She visited her parents in their village (el pueblo) and came back on Sunday night. || @ctx dialogue
+      listen: @dialogue || What did Joaquín do on Sunday? || He helped his father in the garden | *He watched a match at his brother's | He had lunch with his grandparents || "Yo el domingo vi el partido en casa de mi hermano." Nerea helped her father and had lunch with her grandparents. || @tags es.listening
+      listen: El viernes salí del trabajo a las siete, cené con Paula y volví a casa en taxi. || How did the speaker get home? || By bus | *By taxi | On foot || "Volví a casa en taxi." || @tags es.listening,es.preterite
+      tr: Last night I watched a series and went to bed early. || Anoche vi una serie y me acosté pronto. | Anoche vi una serie y me acosté temprano. | Anoche vi una serie y me fui a la cama pronto. | Anoche vi una serie y me fui a la cama temprano. || Ver → vi (no accent); acostarse is regular in the preterite: me acosté. || @tags es.preterite,es.reflexive
+      dict: Ayer salí del trabajo y cené con mi hermana.
+      ask: Your colleague asks «¿Qué tal el fin de semana?». Answer with three things you did. || kw: sábado/domingo/viernes/fin de semana/finde & salí/comí/cené/visité/trabajé/descansé/limpié/compré/estudié/quedé/vi/corrí || Muy bien, gracias. El sábado por la mañana corrí por el parque, por la tarde quedé con unos amigos y el domingo descansé.
+      write: Write a message to a friend who was away this weekend. Tell them what you did on Saturday and Sunday. || min=30 || req: sábado | domingo || ¡Hola, Leire! ¿Qué tal por Londres? Yo, muy bien. El sábado por la mañana limpié la casa y por la tarde quedé con Iván para tomar algo. Por la noche vimos una película en el cine. El domingo descansé y comí con mis padres. ¡Hablamos pronto!
+
+  - title: My life so far
+    summary: Tell the main stages of your life — where you were born, grew up, studied and lived — with the preterite, years and time links.
+    minutes: 40
+    skills: [grammar, reading, writing]
+    tags: [es.preterite, es.reflexive, es.dates]
+    objectives:
+      - Use the preterite in all persons to tell a life story
+      - Place events in time with en + year, a los … años and … años después
+      - Use reflexive verbs in the past, such as me mudé and se casaron
+    intro: |
+      Where were you born? Where did you study? When did you move to your city? These questions come up when you meet new people, join a club or apply for a course. In this lesson you will tell your own life story — and follow other people's — with the preterite, years and expressions like *a los dieciocho años* (at eighteen) or *tres años después* (three years later).
+    vocab: |
+      nacer | to be born | v | Nací en Logroño en 1994. | I was born in Logroño in 1994. | n: An active verb in Spanish: nací (I was born), nació (he/she was born).
+      crecer | to grow up | v | Nací en Lima, pero crecí en Alicante. | I was born in Lima, but I grew up in Alicante.
+      mudarse | to move (house or city) | v | Nos mudamos a Málaga en 2020. | We moved to Málaga in 2020. | c: mudarse de casa; mudarse a otra ciudad | n: Reflexive: me mudé, te mudaste, se mudó.
+      terminar la carrera | to finish your degree | expr | Terminé la carrera de Derecho en 2016. | I finished my law degree in 2016. | n: In Spain, la carrera is a university degree course.
+      conocer a | to meet (for the first time) | v | Conocí a mi pareja en un curso de cocina. | I met my partner on a cooking course. | n: Add a before a person: conocer a alguien. Conocerse = to meet each other.
+      casarse | to get married | v | Mis padres se casaron en 1985. | My parents got married in 1985. | c: casarse con alguien | n: Not "casarse a".
+      la pareja | partner; couple | n | Vivo con mi pareja y nuestro gato. | I live with my partner and our cat. | g: f | n: Always feminine — la pareja — whether the partner is a man or a woman.
+      jubilarse | to retire | v | Mi abuela se jubiló a los sesenta y cinco años. | My grandmother retired at sixty-five.
+      cambiar de trabajo | to change jobs | expr | En 2021 cambié de trabajo y de ciudad. | In 2021 I changed jobs and cities. | n: No article: cambiar de casa, cambiar de coche.
+      decidir | to decide | v | En 2019 decidí estudiar Enfermería. | In 2019 I decided to study nursing. | n: decidir + infinitive, with no preposition.
+      aprender | to learn | v | Aprendí inglés en Irlanda. | I learned English in Ireland. | c: aprender a + infinitive (aprender a conducir)
+      a los … años | at the age of … | expr | A los dieciocho años me mudé a Madrid. | At eighteen I moved to Madrid.
+      … años después | … years later | expr | Dos años después, volvimos a Cádiz. | Two years later, we went back to Cádiz. | n: Also al año siguiente (the following year).
+      hace … años | … years ago | expr | Me mudé aquí hace cinco años. | I moved here five years ago. | n: Hace + a length of time = ago. You will see more uses of hace in Unit 4.
+    grammar:
+      title: "The preterite in all persons: telling a life story"
+      body: |
+        To tell a life story you need every person of the preterite: *nací* (I), *naciste* (you), *nació* (he/she), *nacimos* (we), *nacisteis* (you, plural), *nacieron* (they). Remember that **-er** and **-ir** verbs share the same endings.
+
+        Two forms look exactly like the present: the **nosotros** forms of -ar and -ir verbs (*trabajamos, vivimos*). The context tells you which one it is: *En 2010 vivimos en Roma* (past) — *Ahora vivimos en Sevilla* (present).
+
+        **Reflexive verbs** keep their pronoun before the verb: *me mudé, te casaste, se jubiló, nos conocimos*.
+
+        To place events in time:
+        - **en** + year or month: *en 1998, en mayo de 2015*
+        - **a los** + age + **años**: *a los veinte años* (at twenty)
+        - **… años después** or **al año siguiente**: *tres años después* (three years later)
+        - **hace** + time: *hace dos años* (two years ago)
+
+        Say years like any other number: *1998 = mil novecientos noventa y ocho*, *2015 = dos mil quince*. Never split them into pairs as in English ("nineteen ninety-eight").
+      table: |
+        Pronoun | trabajar | aprender | vivir | mudarse
+        yo | trabajé | aprendí | viví | me mudé
+        tú | trabajaste | aprendiste | viviste | te mudaste
+        él / ella / usted | trabajó | aprendió | vivió | se mudó
+        nosotros / nosotras | trabajamos | aprendimos | vivimos | nos mudamos
+        vosotros / vosotras (Spain) | trabajasteis | aprendisteis | vivisteis | os mudasteis
+        ellos / ellas / ustedes | trabajaron | aprendieron | vivieron | se mudaron
+      examples: |
+        Mi madre nació en Marrakech y creció en Tánger. | My mother was born in Marrakesh and grew up in Tangier.
+        Nos conocimos en 2012 y nos casamos dos años después. | We met in 2012 and got married two years later.
+        ¿Cuándo os mudasteis a Bilbao? | When did you (all) move to Bilbao? | Spain; in Latin America: ¿Cuándo se mudaron a Bilbao?
+        A los sesenta años, mi abuelo aprendió a nadar. | At sixty, my grandfather learned to swim.
+      tip: "To ask about someone's life, use ¿Dónde naciste?, ¿Dónde creciste? and ¿Cuándo te mudaste aquí? With usted: ¿Dónde nació usted?"
+    dialogue:
+      title: En el club de montaña
+      setting: During a break on a hiking-club walk in the Sierra Nevada, near Granada, Ibai chats with Valeria, a new member of the club.
+      speakers: I=Ibai/m; V=Valeria/f
+      lines: |
+        I: Oye, Valeria, tú no eres de Granada, ¿verdad? | Hey, Valeria, you're not from Granada, are you?
+        V: No, nací en Medellín, en Colombia, pero crecí en Bogotá. | No, I was born in Medellín, in Colombia, but I grew up in Bogotá.
+        I: ¿Y cuándo te mudaste a España? | And when did you move to Spain?
+        V: Hace seis años. Primero viví dos años en Madrid. | Six years ago. First I lived in Madrid for two years.
+        I: ¿Y por qué decidiste venir a Granada? | And why did you decide to come to Granada?
+        V: Por trabajo. Soy bióloga y encontré trabajo en la universidad. | For work. I'm a biologist and I found a job at the university.
+        I: Yo tampoco soy de aquí. Soy de Vitoria. | I'm not from here either. I'm from Vitoria.
+        V: ¿Ah, sí? ¿Y cuándo llegaste a Granada? | Oh, really? And when did you get to Granada?
+        I: Me mudé a los veinte años, por amor. | I moved at twenty, for love.
+        V: ¿Por amor? ¡Qué romántico! ¿Y siguen juntos? | For love? How romantic! And are you still together?
+        I: Sí. Nos conocimos en un festival y nos casamos el año pasado. | Yes. We met at a festival and got married last year.
+        V: ¡Enhorabuena! Venga, vamos, que el grupo ya se va. | Congratulations! Come on, let's go, the group is leaving.
+    pronunciation:
+      title: "B and v: viví, volví, en Valencia"
+      body: |
+        In Spanish, **b** and **v** are pronounced exactly the same. At the start of a phrase and after **m** or **n**, they are a full [b], as in English *bed*: *Valencia, también, en Valencia* [em baˈlenθja].
+
+        Between vowels and in most other positions, the sound is softer [β]: the lips come close together but don't quite close. You hear it in *viví, volví, la boda, trabajé*. Never use an English [v] with the teeth on the lip.
+      items: |
+        viví
+        volvimos
+        la boda
+        también
+        nací en Valencia
+        trabajé
+    culture:
+      title: Leaving home and many accents
+      body: |
+        Young people in Spain leave their parents' home late — on average at around 30, one of the latest ages in Europe. High rents and long studies are the main reasons, so a life story in Spain often includes years in a shared flat (*un piso compartido*) before living with a partner.
+
+        Spain is also home to many people from Latin America. Notice that Valeria, who grew up in Colombia, asks Ibai *¿Y siguen juntos?* (ustedes), where someone from Spain would say *¿Y seguís juntos?* (vosotros). You will hear both every day in Spanish cities.
+    mistakes: |
+      Nací a Sevilla. => Nací en Sevilla. | Place of birth uses en, not a.
+      Mis padres se casaron a 1990. => Mis padres se casaron en 1990. | Years take en (en 1990); ages take a los (a los veinte años).
+      Conocí mi marido en Roma. => Conocí a mi marido en Roma. | When the object is a person, add a: conocer a alguien.
+    task:
+      title: Your life in six dates
+      mode: writing
+      body: |
+        Write a short biography — your own or that of someone in your family — with six key moments: where the person was born and grew up, studies, moves, work and family. Use *en* + year, *a los … años* and *… años después* at least once each. Then read it aloud, or tell your story to the AI coach in the "Introducing yourself" scenario and add two facts from your past.
+    exercises: |
+      fill: Mi abuelo ___ (nacer) en un pueblo de Jaén. || nació || The él/ella form of -er verbs ends in -ió, with an accent. || @tags es.preterite
+      fill: Mis padres se ___ (conocer) en la universidad. || conocieron || Ellos form of -er verbs: -ieron. Conocerse = to meet each other. || @tags es.preterite,es.reflexive
+      fill: ¿Cuándo os ___ (mudar) a Zaragoza? || mudasteis || Vosotros form of -ar verbs: -asteis. The pronoun os goes before the verb. || @tags es.preterite,es.reflexive
+      fill: Mi tía se ___ (jubilar) ___ los sesenta y dos años. || jubiló ; a || Él/ella form: jubiló. Ages use a los + number + años. || @tags es.preterite,es.dates
+      fill: Mi hermano y yo ___ (vivir) en Londres de 2015 a 2019. || vivimos || Nosotros form of -ir verbs: -imos. The dates show it's a finished past period. || @tags es.preterite
+      mc: What does «Vivimos en Roma en 2010» mean? || We live in Rome. | *We lived in Rome in 2010. | We will live in Rome in 2010. || Vivimos is both present and preterite; en 2010 shows that it's past. || @tags es.preterite
+      mc: Choose the correct sentence. || Me casé a 2019. | *Me casé en 2019. | Me casé los 2019. || Years go with en: en 2019. || @tags es.preterite,es.dates
+      rw: Write the year in words :: 2016 || dos mil dieciséis || Years are read as normal numbers: dos mil + dieciséis (one word, with an accent). || @tags es.numbers,es.dates
+      tf: Valeria grew up in Medellín. || false || She was born in Medellín but grew up in Bogotá: "pero crecí en Bogotá". || @ctx dialogue
+      short: Why did Ibai move to Granada? || kw: amor/love/pareja/partner || "Me mudé a los veinte años, por amor." || @ctx dialogue
+      listen: @dialogue || How long did Valeria live in Madrid? || Six years | *Two years | Twenty years || "Primero viví dos años en Madrid." She moved to Spain six years ago. || @tags es.listening
+      listen: Mi hermana terminó la carrera en 2018 y dos años después se mudó a Lisboa. || When did the sister move to Lisbon? || *In 2020 | In 2018 | In 2022 || She finished her degree in 2018, and dos años después = two years later: 2020. || @tags es.listening,es.dates
+      order: Nos conocimos en 2015 y nos casamos tres años después. || We met in 2015 and got married three years later. || @tags es.preterite,es.reflexive
+      tr: My parents moved to Valencia in 1999. || Mis padres se mudaron a Valencia en 1999. | Mis padres se mudaron a Valencia en mil novecientos noventa y nueve. || Ellos form of mudarse: se mudaron; years take en. || @tags es.preterite,es.reflexive
+      dict: Mi madre nació en Cuenca y se jubiló el año pasado.
+      ask: Tell a new friend where you were born, where you grew up and when you moved to the city where you live now. || kw: nací & crecí/viví & me mudé/llegué/vine || Nací en Leeds, pero crecí en Manchester. Me mudé a Valencia hace tres años, por trabajo.
+
+  - title: Childhood memories
+    summary: Tell a story from your childhood in order, with preterite forms that change their spelling (llegué, empecé, leyó).
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [es.preterite, es.spelling, es.connectors]
+    objectives:
+      - Spell the yo form of -car, -gar and -zar verbs correctly (busqué, llegué, empecé)
+      - Use the y forms of leer, oír and caerse (leyó, oyeron, se cayó)
+      - Tell a childhood memory in order with primero, luego, después and al final
+    intro: |
+      Everyone has a story about their first day at school, a first bike or a summer at their grandparents' house. To tell it in Spanish you need the preterite — plus a few spelling rules that keep the sound of the verb the same — and some linking words to put events in order. With *de pequeño* or *de pequeña* ("as a child") you can start any memory.
+    vocab: |
+      de pequeño / de pequeña | as a child | expr | De pequeña viví un año en Tenerife. | As a child I lived in Tenerife for a year. | n: Also de niño / de niña. In parts of Latin America: de chiquito / de chiquita.
+      la infancia | childhood | n | Pasé mi infancia en un pueblo de León. | I spent my childhood in a village in León. | g: f
+      el recuerdo | memory | n | Tengo un recuerdo muy bonito de ese verano. | I have a lovely memory of that summer. | g: m | n: Recordar = to remember.
+      la primera vez | the first time | expr | La primera vez que vi la nieve, salté de alegría. | The first time I saw snow, I jumped for joy. | n: la primera vez que + preterite
+      montar en bici | to ride a bike | expr | Aprendí a montar en bici a los seis años. | I learned to ride a bike at six. | n: In much of Latin America: andar en bici.
+      caerse | to fall (over) | v | Me caí de la bici y me rompí el brazo. | I fell off my bike and broke my arm. | n: caí, caíste, se cayó, nos caímos, os caísteis, se cayeron.
+      el colegio | school | n | Empecé el colegio a los tres años. | I started school at three. | g: m | n: Informal: el cole. Secondary school is el instituto.
+      el maestro / la maestra | primary school teacher | n | Mi maestra de primero me enseñó a leer. | My first-year teacher taught me to read. | g: m/f | n: At secondary school: el profesor / la profesora.
+      enseñar | to teach; to show | v | Mi abuelo me enseñó a pescar. | My grandfather taught me to fish. | c: enseñar a + infinitive
+      regalar | to give (as a present) | v | Cuando cumplí diez años, mis tíos me regalaron una bici. | When I turned ten, my aunt and uncle gave me a bike. | n: El regalo = the present.
+      cumplir … años | to turn … (age) | expr | Ayer mi hija cumplió siete años. | Yesterday my daughter turned seven.
+      jugar al escondite | to play hide-and-seek | expr | Jugué al escondite con mis primos toda la tarde. | I played hide-and-seek with my cousins all afternoon. | n: jugar a + game or sport: jugar al fútbol, jugar a las cartas.
+      tocar | to play (an instrument); to touch | v | Toqué el piano en la fiesta del colegio. | I played the piano at the school party. | n: Instruments take tocar; games and sports take jugar.
+      al final | in the end | expr | Al final encontramos al perro en el jardín. | In the end we found the dog in the garden. | n: Not "finalmente" in every case — al final is the everyday choice in stories.
+    grammar:
+      title: Spelling changes in the preterite
+      body: |
+        Some regular verbs change their **spelling** — not their sound — in the preterite.
+
+        **1. Verbs in -car, -gar and -zar change in the yo form only**, because Spanish spelling needs it before **e**:
+        - **c → qu**: *buscar → busqué, tocar → toqué, sacar → saqué*
+        - **g → gu**: *llegar → llegué, jugar → jugué, pagar → pagué*
+        - **z → c**: *empezar → empecé, cruzar → crucé, organizar → organicé*
+
+        All the other persons are completely regular: *llegaste, llegó, llegamos…*
+
+        **2. Verbs like leer, creer, oír and caer** have a vowel just before the ending. In the **él / ella** and **ellos** forms, the **i** of the ending becomes **y**: *leyó, leyeron; oyó, oyeron; se cayó, se cayeron*. Their other forms take an accent on the í: *leíste, leímos*.
+
+        Remember that stem-changing verbs in -ar and -er (*jugar, empezar, volver*) do not change their stem in the preterite: *jugué, empezó, volvimos*.
+
+        To put a story in order, use **primero**, **luego** or **después**, **más tarde** and **al final**.
+      table: |
+        Verb | yo | él / ella / usted | ellos / ellas / ustedes
+        tocar | toqué | tocó | tocaron
+        llegar | llegué | llegó | llegaron
+        empezar | empecé | empezó | empezaron
+        leer | leí | leyó | leyeron
+        oír | oí | oyó | oyeron
+        caerse | me caí | se cayó | se cayeron
+      examples: |
+        El primer día de colegio llegué tarde. | On my first day at school I arrived late.
+        Mi hermano se cayó del columpio y empezó a llorar. | My brother fell off the swing and started to cry.
+        Mis padres me leyeron ese cuento cien veces. | My parents read me that story a hundred times.
+        Primero jugué con mis primos y luego empecé los deberes. | First I played with my cousins and then I started my homework.
+      tip: "The yo form keeps the sound of the infinitive: bus-CAR → bus-QUÉ, lle-GAR → lle-GUÉ. Say the infinitive aloud, then the yo form: the consonant sound doesn't change, only the letters."
+    dialogue:
+      title: Un trabajo para el cole
+      setting: A Sunday afternoon in Palencia. Ten-year-old Noa interviews her grandfather Ramón for a school project about childhood.
+      speakers: N=Noa/f; R=Ramón/m
+      lines: |
+        N: Abuelo, ¿me ayudas con un trabajo para el cole? | Grandpa, will you help me with a school project?
+        R: Claro, cariño. ¿De qué es el trabajo? | Of course, sweetheart. What's the project about?
+        N: Es sobre la infancia de los abuelos. ¿Empezamos? | It's about grandparents' childhoods. Shall we start?
+        R: ¡Uf, hace muchos años de eso! Venga, pregunta. | Phew, that was a long time ago! Go on, ask.
+        N: ¿Cuándo aprendiste a montar en bici? | When did you learn to ride a bike?
+        R: A los nueve años. Me enseñó mi hermano mayor, en la plaza. | At nine. My older brother taught me, in the square.
+        N: ¿Y te caíste alguna vez? | And did you ever fall off?
+        R: ¡Muchas! Un día choqué con la fuente y me caí al agua. | Lots of times! One day I crashed into the fountain and fell into the water.
+        N: ¿Al agua? ¿Y qué pasó después? | Into the water? And what happened next?
+        R: Mi madre oyó los gritos y llegó corriendo. | My mother heard the shouting and came running.
+        N: ¿Se enfadó contigo? | Did she get angry with you?
+        R: Un poco. Pero al final me secó y me preparó un chocolate. | A bit. But in the end she dried me off and made me a hot chocolate.
+    pronunciation:
+      title: "Same sound, new spelling: toqué, llegué, empecé"
+      body: |
+        Spanish spelling follows the sound. The [k] sound is written **c** before *a, o, u* but **qu** before *e, i*: *toco, tocó → toqué*. The hard [g] sound is **g** before *a, o, u* but **gu** before *e, i* — and that **u** is silent: *llego → llegué*. The sound [θ] (like *th* in *think* in most of Spain; [s] in Latin America and the Canaries) is **z** before *a, o, u* but **c** before *e, i*: *empiezo → empecé*.
+
+        Listen and repeat: in each verb, the consonant keeps the sound of the infinitive.
+      items: |
+        toqué
+        llegué
+        empecé
+        jugué
+        busqué
+        se cayó
+    culture:
+      title: Summers in el pueblo
+      body: |
+        For many Spaniards, the best childhood memories happen in **el pueblo** — the village where their parents or grandparents come from. Summer school holidays in Spain are long (from late June to early or mid-September), and many children spend weeks there, playing in the street until late, riding bikes around the square and swimming in the river or the local pool.
+
+        Typical street games include **el escondite** (hide-and-seek), **el pilla-pilla** (tag), **la comba** (skipping) and **las chapas** (races with bottle tops). Ask a Spanish friend about their childhood and you will probably hear a story that begins *De pequeño, en el pueblo…*
+    mistakes: |
+      Ayer llegé tarde. => Ayer llegué tarde. | Before e, the hard g sound is written gu: llegué.
+      Mi hermana leió el libro. => Mi hermana leyó el libro. | Between two vowels, the i of the ending becomes y: leyó, leyeron.
+      El año pasado empezé a tocar la guitarra. => El año pasado empecé a tocar la guitarra. | z changes to c before e: empezar → empecé.
+    task:
+      title: A childhood memory
+      mode: speaking
+      body: |
+        Choose a memory: your first day at school, a present you loved, a time you got lost or fell off your bike. Prepare 6–8 sentences: when it happened (*a los seis años, un verano…*), what happened in order (*primero, luego, al final*) and how it ended. Tell it aloud and record yourself in Speaking practice, then write it down as a short text of about 60 words.
+    exercises: |
+      fill: El lunes ___ (llegar, yo) tarde al trabajo. || llegué || In the yo form, g becomes gu before e: llegué. || @tags es.preterite,es.spelling
+      fill: Ayer ___ (empezar, yo) un curso de cerámica. || empecé || In the yo form, z becomes c before e: empecé. || @tags es.preterite,es.spelling
+      fill: ¿___ (buscar, tú) las llaves en el coche? || buscaste || Only the yo form changes (busqué); the tú form is regular: buscaste. || @tags es.preterite,es.spelling
+      fill: Mi abuela ___ (leer) el periódico en voz alta. || leyó || Between two vowels, the ending -ió becomes -yó: leyó. || @tags es.preterite,es.spelling
+      fill: Los niños ___ (oír) un ruido y ___ (correr) a la ventana. || oyeron ; corrieron || Oír → oyeron (i becomes y); correr is regular: corrieron. || @tags es.preterite
+      mc: Which form is spelled correctly? || jugé | *jugué | juegué || Jugar doesn't change its stem in the preterite (no ue), and g needs a u before e: jugué. || @tags es.preterite,es.spelling
+      mc: Complete the story: Primero cené, ___ me duché y al final me acosté. || *luego | al final | primero || Luego (then) links the middle step. Primero and al final are already used for the first and last steps. || @tags es.connectors
+      rw: Change to the yo form :: Tocó la guitarra en la boda. || Toqué la guitarra en la boda. || In the yo form, c becomes qu before e: toqué. || @tags es.preterite,es.spelling
+      tf: Ramón learned to ride a bike with his father. || false || His older brother taught him: "Me enseñó mi hermano mayor." || @ctx dialogue
+      short: What did Ramón's mother make for him in the end? || kw: chocolate || "Me secó y me preparó un chocolate" — a hot chocolate. || @ctx dialogue
+      listen: @dialogue || How did Ramón end up in the water? || He jumped in to swim | *He crashed into the fountain on his bike | His brother pushed him in || "Un día choqué con la fuente y me caí al agua." || @tags es.listening
+      listen: De pequeña, mi tío me regaló un piano, y a los ocho años toqué en un concierto del colegio. || What did the speaker do at the age of eight? || She got a piano as a present | *She played at a school concert | She started school || "A los ocho años toqué en un concierto del colegio." The piano was a present from her uncle. || @tags es.listening,es.spelling
+      tr: I learned to swim at seven. || Aprendí a nadar a los siete años. | A los siete años aprendí a nadar. | Yo aprendí a nadar a los siete años. || Aprender a + infinitive; age with a los + number + años. || @tags es.preterite
+      dict: Mi hermana se cayó de la bici y empezó a llorar.
+      ask: Tell a short childhood memory. Say how old you were with a los … años and tell at least two things that happened, in order. || kw: a los & años & primero/luego/después/al final || A los siete años, mis padres me regalaron un perro. Primero me asusté un poco, pero luego jugué con él toda la tarde.

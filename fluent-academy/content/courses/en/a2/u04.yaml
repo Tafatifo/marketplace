@@ -1,0 +1,354 @@
+unit: 4
+title: From school to work
+theme: Work and studies
+description: Talk about your studies and learning experiences, describe a day at work and how long you've had your job, and apply for a job — with the present perfect (ever, never, for, since) and the past simple.
+free: false
+objectives:
+  - Talk about learning experiences with the present perfect, ever and never
+  - Say how long you have done something with for and since
+  - Describe your experience for a job application, choosing between the present perfect and the past simple
+canDo:
+  - I can ask and answer "Have you ever…?" questions about studying and work.
+  - I can say how long I have lived, worked or studied somewhere.
+  - I can understand a simple job ad and write a short application email.
+  - I can answer basic questions in a job interview.
+review: |
+  fill: I've lived in this apartment ___ 2021. || since || Since + a point in time (2021). || @tags en.present-perfect
+  fill: ___ she ever ___ (be) to a job interview in English? || Has ; been || Has + she + ever + past participle (been). || @tags en.present-perfect,en.questions
+  fill: We ___ (meet) our new manager last week. || met || Last week is a finished time, so use the past simple: met. || @tags en.present-perfect-vs-past,en.past-irregular
+  mc: How long ___ you studied English? || *have | did | are || Studied here is a past participle, so the question needs have: How long have you studied…? || @tags en.present-perfect,en.questions
+  mc: Choose the correct sentence. || I've started my new job two weeks ago. | *I started my new job two weeks ago. | I start my new job two weeks ago. || Ago means a finished time, so use the past simple. || @tags en.present-perfect-vs-past
+  rw: Rewrite with "for" :: I met Sam ten years ago, and we're still friends. || I've known Sam for ten years. | I have known Sam for ten years. | Sam and I have been friends for ten years. | I've been friends with Sam for ten years. | I have been friends with Sam for ten years. || The friendship started in the past and continues now: present perfect + for. || @tags en.present-perfect
+  rw: Make a question with "ever" :: She has worked abroad. || Has she ever worked abroad? || Has + she + ever + past participle. || @tags en.present-perfect,en.questions
+  match: major = your main subject at college ; deadline = the last day or time to finish something ; shift = a period of work, for example 6 a.m. to 2 p.m. ; salary = the money you get for your job || Match each word with its meaning. || @tags en.vocabulary @skill vocabulary
+  listen: I studied nursing at college, and I've worked at City Hospital since 2019. || Where has the speaker worked since 2019? || At a college | *At a hospital | At a school || "I've worked at City Hospital since 2019." || @tags en.listening,en.present-perfect
+  listen: Hi, I'm calling about the job ad for a part-time driver. I've had my driver's license for ten years. || What job is the caller interested in? || *A part-time driver | A full-time teacher | A part-time cook || "I'm calling about the job ad for a part-time driver." || @tags en.listening
+  ask: Tell a new colleague about your studies and work — what you studied, one job you had, and how long you've had your current job or studies. || kw: studied/study/studying & for/since/ago || I studied graphic design in Madrid. After college I worked at a small agency for a year. I've worked here at the museum since January, and I love it.
+  write: Write a short profile for a professional networking website — your studies, your current job and how long you've had it, and one past experience with a date. || min=50 || req: have/has | for/since | studied/graduated/worked || I'm a lab technician at a hospital in Glasgow. I studied biology at the University of Aberdeen and graduated in 2018. I've worked at the hospital for five years. Before that, I worked in a pharmacy for a year. I've never worked abroad, but I would like to one day.
+lessons:
+  - title: My studies
+    summary: Talk about your studies and learning experiences with the present perfect, ever and never.
+    minutes: 40
+    skills: [grammar, speaking, vocabulary]
+    tags: [en.present-perfect, en.questions, en.pronunciation]
+    objectives:
+      - Form the present perfect with have/has + past participle
+      - Ask and answer Have you ever…? questions about learning experiences
+      - Talk about subjects, courses, exams and degrees
+    intro: |
+      *Have you ever studied abroad? I've never failed an exam!* When we talk about experiences in our life — but not **when** they happened — we use the **present perfect**. In this lesson you will learn how to form it, ask **Have you ever…?** questions and talk about your studies: subjects, courses, exams and degrees.
+    vocab: |
+      course | a series of classes about one subject | n | I'm taking an online course in photography. | - | c: take a course; an online course; a language course
+      subject | something you study at school or college, like math or history | n | My favorite subject was chemistry. | - | c: a school subject; study a subject
+      major | your main subject at an American college | n | My major is computer science. | - | n: Also a verb: She majored in history. British English: main subject.
+      degree | what you get from a university when you finish your studies | n | He has a degree in engineering. | - | c: a bachelor's degree; a master's degree; get a degree
+      exam | an important test of what you know | n | The final exam is in June. | - | c: take an exam; study for an exam | n: British English also: sit an exam.
+      pass | to be successful in an exam or test | v | Great news — I passed my driving test! | - | c: pass an exam; pass with a high grade
+      fail | to not be successful in an exam or test | v | I failed my first math test. | - | c: fail an exam; fail a class
+      grade | a letter or number that shows how good your work is | n | She got a good grade in English. | - | n: British English also: mark.
+      take notes | to write down important things in a class or meeting | expr | I always take notes on my laptop. | - | n: British English also: make notes.
+      scholarship | money from a school or organization to pay for your studies | n | She got a scholarship to study in Canada. | - | c: win a scholarship; apply for a scholarship
+      semester | one of two parts of a school or college year | n | The spring semester starts in January. | - | n: In the UK, many universities use terms (three a year).
+      graduate | to finish your studies at a school or university and get a degree or diploma | v | I graduated from high school in 2019. | - | c: graduate from college | n: Also a noun: a university graduate.
+      abroad | in or to another country | adv | Have you ever studied abroad? | - | c: study abroad; live abroad; work abroad | n: No "to": go abroad (not go to abroad).
+    grammar:
+      title: "Present perfect for experiences: ever and never"
+      body: |
+        The **present perfect** is **have/has + past participle**: *I **have taken** an online course. She **has passed** her driving test.* Short forms: *I've, you've, we've, they've, he's, she's* (here **'s = has**) and *haven't, hasn't*.
+
+        We use it for **experiences in our life up to now**, when we don't say when they happened: *I've studied in two countries.* To ask about experiences, use **ever** (= at any time in your life): ***Have** you **ever** failed an exam?* Short answers: *Yes, I **have**. / No, I **haven't**.* To say "not at any time", use **never**: *I've **never** studied abroad.*
+
+        **Past participles**: regular verbs = the past simple form (*studied, passed, failed*). Many irregular verbs have a special form: *be → **been**, do → **done**, take → **taken**, write → **written**, see → **seen**, go → **been***. Use *been to* for places you visited and left: *Have you ever **been to** Canada?*
+      table: |
+        Base form | Past simple | Past participle
+        study | studied | studied
+        be | was / were | been
+        do | did | done
+        take | took | taken
+        write | wrote | written
+        see | saw | seen
+        have | had | had
+      examples: |
+        I've taken three online courses. | | I have + past participle
+        Has she ever studied abroad? — Yes, she has. | | has + ever; short answer
+        We've never failed a test in this class. | | never = not at any time
+        Have you ever been to Oxford? — No, I haven't. | | been to = visited
+      tip: "Put ever and never between have/has and the past participle: Have you ever seen…? I've never seen…"
+    dialogue:
+      title: The first statistics class
+      setting: The first week of the fall semester at a university in Ann Arbor, Michigan. Olivia meets Ji-ho, an exchange student, before their statistics class.
+      speakers: O=Olivia/f; J=Ji-ho/m
+      lines: |
+        O: Hi! Are you in the statistics class too?
+        J: Yes. I'm Ji-ho, an exchange student from Seoul.
+        O: I'm Olivia. Have you ever studied abroad before?
+        J: No, I haven't. This is my first time in the US.
+        O: Wow. So what's your major?
+        J: Business. I've taken two statistics courses before.
+        O: Lucky you! I've never taken one. I'm a bit nervous.
+        J: Don't worry. The professor seems really nice.
+        O: Have you ever been to a class with three hundred students?
+        J: No, never! My classes in Seoul were small.
+        O: Let's sit together and take notes, then.
+    pronunciation:
+      title: "Short forms: I've, she's, haven't"
+      body: |
+        In speaking, we almost always use short forms in the present perfect. **I've** sounds like "eyv" — the v is soft but don't drop it! **She's** and **he's** end in a z sound. **Haven't** and **hasn't** have a very soft t at the end.
+
+        In questions, *have* is weak: *Have you ever…?* sounds like "həv-yə-EV-er". In short answers it is strong: *Yes, I **have**.* Listen and repeat.
+      items: |
+        I've never failed.
+        She's passed the exam.
+        Have you ever studied abroad?
+        Yes, I have.
+        No, I haven't.
+        He hasn't graduated.
+    culture:
+      title: College and university
+      body: |
+        In the US, a bachelor's degree usually takes **four years**. Students choose a **major** (their main subject), and many people start at a **community college** — a two-year college that is cheaper and close to home. Students in their first year are called **freshmen**, then **sophomores**, **juniors** and **seniors**.
+
+        In England, most bachelor's degrees take **three years** (in Scotland, usually four), and students often say **uni** for university. In both countries, it's common to work part-time while you study.
+    mistakes: |
+      Have you ever went to Canada? => Have you ever been to Canada? | Use the past participle been — went is the past simple.
+      I have never fail an exam. => I have never failed an exam. | Have + past participle: failed.
+      She have taken three courses. => She has taken three courses. | He, she, it → has.
+    task:
+      title: Find someone who…
+      mode: interaction
+      body: |
+        Write six "Have you ever…?" questions about learning (*…taken an online course? …studied abroad? …failed a test? …learned a musical instrument?*). Ask friends or classmates and find one person for each question. When someone says "Yes, I have", ask one more question to get details. You can also practice with the AI coach in the "Introducing yourself" scenario.
+    exercises: |
+      fill: ___ you ever taken an online course? || Have || Questions: Have + you + ever + past participle. || @tags en.present-perfect,en.questions
+      fill: I've never ___ (fail) an exam. || failed || Fail is regular: the past participle is failed. || @tags en.present-perfect
+      fill: My aunt has ___ (write) two books about history. || written || Write is irregular: write – wrote – written. || @tags en.present-perfect,en.past-irregular
+      mc: Choose the correct question. || Have you ever went to a job fair? | *Have you ever been to a job fair? | Did you ever been to a job fair? || Have + ever + past participle: been. || @tags en.present-perfect,en.questions
+      mc: "Have you ever studied Latin?" Choose the correct short answer. || *No, I haven't. | No, I didn't. | No, I don't. || Answer a have-question with have or haven't. || @tags en.present-perfect
+      match: take = taken ; write = written ; see = seen ; do = done ; be = been || Match each verb with its past participle. || @tags en.present-perfect,en.past-irregular @skill vocabulary
+      rw: Make a question with "ever" :: You have taken a cooking class. || Have you ever taken a cooking class? || Have + you + ever + past participle. || @tags en.present-perfect,en.questions
+      rw: Make it negative with "never" :: I have studied abroad. || I have never studied abroad. | I've never studied abroad. || Never goes between have and the past participle. || @tags en.present-perfect
+      tf: Ji-ho has studied abroad before. || false || "No, I haven't. This is my first time in the US." || @ctx dialogue
+      short: How many statistics courses has Ji-ho taken? || kw: two/2 || "I've taken two statistics courses before." || @ctx dialogue
+      listen: @dialogue || How does Olivia feel about the statistics class? || *A bit nervous | Very bored | Really angry || "I've never taken one. I'm a bit nervous." || @tags en.listening
+      listen: I've taken three online courses, but I've never studied at a university. || What has the speaker never done? || Taken an online course | *Studied at a university | Taken three courses || "I've never studied at a university." || @tags en.listening,en.present-perfect
+      dict: Have you ever taken notes in English?
+      ask: Ask a classmate two "Have you ever…?" questions about studying. || kw: have & ever || Have you ever taken an online course? Have you ever studied for an exam all night?
+      write: Write a short profile for a study-buddy website — what you are studying and three learning experiences (things you've done and one thing you've never done). || min=35 || req: have/has | never || Hi! I'm Pablo and I'm studying English and economics. I've taken two online courses in marketing, and I've studied in Ireland for a summer. I've passed all my exams this year. But I've never studied with a partner — let's try it!
+
+  - title: A day at work
+    summary: Describe your job and a typical working day, and say how long you have done something with for and since.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [en.present-perfect, en.questions, en.schwa]
+    objectives:
+      - Use the present perfect with for and since for situations that continue now
+      - Ask How long have you…? and answer
+      - Describe your job, your shifts and your tasks
+    intro: |
+      When you start a new job, people ask: *How long **have you worked** here?* The answer needs the present perfect with **for** or **since**: *For six years. Since 2019.* In this lesson you will talk about a typical working day — shifts, meetings, customers and deadlines — and say how long things have been true.
+    vocab: |
+      shift | a period of work, for example from 6 a.m. to 2 p.m. | n | I work the night shift at the hospital. | - | c: an early shift; a late shift; a night shift
+      colleague | a person who works with you | n | My colleagues are very friendly. | - | n: American English also: coworker.
+      customer | a person who buys something from a store or a business | n | We have a lot of customers on Saturdays. | - | c: serve a customer; a regular customer
+      deal with | to take action to solve a problem or help a person | phr v | I deal with customer emails every morning. | - | c: deal with a problem; deal with complaints | n: Past: dealt with.
+      meeting | a time when people come together to talk about work | n | We have a team meeting every Monday. | - | c: have a meeting; go to a meeting
+      deadline | the last day or time to finish something | n | The deadline for the report is Friday. | - | c: meet a deadline; miss a deadline
+      be in charge of | to be responsible for people or work | expr | Gareth is in charge of the nurses. | - | n: Similar: be responsible for.
+      full-time | working all the normal hours of the week, usually 35–40 | adj | She has a full-time job at a bank. | - | c: a full-time job; work full-time
+      part-time | working only some of the hours of the week | adj | I work part-time in a café. | - | c: a part-time job; work part-time
+      commute | the trip from home to work and back | n | My commute takes forty minutes by train. | - | n: Also a verb: I commute by bike.
+      lunch break | a short time in the middle of the day to eat | n | I have a thirty-minute lunch break. | - | c: take a lunch break
+      overtime | extra hours that you work after your normal hours | n | I worked overtime on Tuesday. | - | c: work overtime; do overtime
+      experienced | having a lot of knowledge or skill because you have done something for a long time | adj | She's a very experienced nurse. | - | n: The opposite is inexperienced.
+    grammar:
+      title: "Present perfect with for and since"
+      body: |
+        We use the **present perfect** for a situation that **started in the past and continues now**: *I**'ve worked** here for six years.* (I started six years ago, and I still work here.)
+
+        - **for** + a period of time: *for ten minutes, for three years, for a long time*
+        - **since** + a point in time: *since 2019, since March, since Monday, since I was twenty*
+
+        To ask about the length of time, use **How long + have/has + past participle**: *How long **have** you **worked** here? How long **has** she **been** a nurse?*
+
+        Don't use the present simple for this: say *I**'ve lived** here since 2020*, not ~~I live here since 2020~~. Common verbs with for/since are *be, have, know, live, work*: *We**'ve known** each other since college.*
+      table: |
+        for + a period | since + a point in time
+        for two hours | since nine o'clock
+        for six months | since January
+        for three years | since 2022
+        for a long time | since I was a child
+      examples: |
+        I've been a bus driver for eight years. | | for + a period
+        She's had her job since last summer. | | she's = she has
+        How long have you known Gareth? — Since 2015. | | How long + present perfect
+        We've worked together since we were students. | | since + a past clause
+      tip: "A quick test: if you can count it (two days, ten years), use for. If you can find it on a calendar or a clock (Monday, 2019, 8 a.m.), use since."
+    dialogue:
+      title: First day at the clinic
+      setting: A veterinary clinic in Cardiff, Wales. It's Noor's first day as a receptionist. Gareth, an experienced nurse, shows her around.
+      speakers: G=Gareth/m; N=Noor/f
+      lines: |
+        G: Welcome, Noor! I'm Gareth. I'm in charge of the nurses.
+        N: Nice to meet you. How long have you worked here?
+        G: For twelve years. I started straight after college.
+        G: Have you worked as a receptionist before?
+        N: Yes, at a dental office, but only part-time.
+        G: Great. Your shift starts at eight, and your lunch break is at one.
+        N: How many customers do we see every day?
+        G: About forty. Some pet owners are nervous, so be kind.
+        N: Of course. Who's in the big office?
+        G: That's Dr. Morgan. She's been the boss here since 2010.
+        N: And the dog in the corner?
+        G: That's Biscuit. He's lived here since he was a puppy!
+    pronunciation:
+      title: "Weak for and strong since"
+      body: |
+        In sentences, **for** is usually weak: *for ten years* sounds like "fə TEN years". Don't stress it! **Since** keeps its vowel, but the stress is on the time: *since TWENty-ten*.
+
+        In **How long have you worked here?**, the stress is on *long* and *worked*; *have you* is fast and weak: "how LONG həv-yə WORKED here?" Listen and repeat.
+      items: |
+        for ten years
+        since 2015
+        How long have you worked here?
+        I've been here for a year.
+        She's lived here since May.
+    culture:
+      title: First names at work
+      body: |
+        In most workplaces in the US, Canada, the UK and Australia, people use **first names** with colleagues and often with their manager too — even on the first day. Titles like **Dr.** are used for doctors, vets and dentists, especially with customers or patients.
+
+        A full-time job is usually 35 to 40 hours a week. When you start a new job, colleagues will often ask you *How long have you lived here?* or *Where did you work before?* — it's friendly small talk, not a test.
+    mistakes: |
+      I work here since 2019. => I've worked here since 2019. | For a situation that started in the past and continues now, use the present perfect.
+      I've lived here since three years. => I've lived here for three years. | Use for + a period of time and since + a point in time.
+      How long do you work here? => How long have you worked here? | Ask about duration up to now with How long + present perfect.
+    task:
+      title: My working day
+      mode: speaking
+      body: |
+        Describe a typical working day (or school day) in one minute: when your day starts, your commute, your tasks, your breaks and your colleagues. Say how long you have had this job or studied at this school, and how long you have known one of your colleagues or classmates. Practice with the AI coach in the "Talking about your day" scenario.
+    exercises: |
+      fill: I've worked here ___ 2020. || since || Since + a point in time (a year). || @tags en.present-perfect
+      fill: She's been a nurse ___ fifteen years. || for || For + a period of time. || @tags en.present-perfect
+      fill: How long ___ you known your manager? || have || How long + have + you + past participle (known). || @tags en.present-perfect,en.questions
+      mc: Choose the correct sentence. || I work here since March. | *I've worked here since March. | I've worked here for March. || Started in March and continues now → present perfect + since. || @tags en.present-perfect
+      mc: I've been in charge of the team ___ two months. || since | *for | ago || Two months is a period of time, so use for. Ago goes with the past simple. || @tags en.present-perfect
+      rw: Rewrite with the present perfect and "for" :: I started this job three years ago, and I still have it. || I've had this job for three years. | I have had this job for three years. | I've done this job for three years. | I have done this job for three years. || The situation continues now: present perfect + for + period. || @tags en.present-perfect
+      rw: Write the question with "How long" :: Gareth has worked at the clinic for twelve years. || How long has Gareth worked at the clinic? || How long + has + subject + past participle. || @tags en.present-perfect,en.questions
+      order: How long have you lived in this city? || @tags en.present-perfect,en.questions
+      tf: Noor has worked as a receptionist before. || true || She says, "Yes, at a dental office, but only part-time." || @ctx dialogue
+      short: What time is Noor's lunch break? || kw: one/1 || "Your lunch break is at one." || @ctx dialogue
+      listen: @dialogue || Who is Biscuit? || The boss of the clinic | *A dog that lives at the clinic | A nervous customer || "That's Biscuit. He's lived here since he was a puppy!" || @tags en.listening
+      listen: I'm a bus driver. I've had this job since 2016, and I usually work the early shift. || How long has the speaker been a bus driver? || Since 2006 | *Since 2016 | For sixteen years || "I've had this job since 2016." || @tags en.listening,en.present-perfect
+      dict: I've worked in this office for two years.
+      ask: Tell someone about your job or your school — what you do and how long you've done it. || kw: have/has & for/since || I'm a sales assistant at a sports store. I've worked there for two years. I usually work the late shift, and I've known my best colleague since my first day.
+      write: Write a short "Meet the team" profile for your company newsletter — your job, how long you've worked there and what you do on a typical day. || min=40 || req: for/since | have/has || Hi, I'm Grace and I'm the new office manager. I've worked at Bright Path for three months, but I've been an office manager since 2020. Every morning I deal with emails and phone calls, and in the afternoon I plan meetings. I love my colleagues!
+
+  - title: Applying for a job
+    summary: Understand a job ad, describe your experience in an interview, and write a short application — choosing between the present perfect and the past simple.
+    minutes: 45
+    skills: [grammar, reading, writing]
+    tags: [en.present-perfect-vs-past, en.formal-writing, en.word-stress]
+    objectives:
+      - Choose between the present perfect (experience, up to now) and the past simple (finished time)
+      - Understand job ads and words for applications
+      - Answer interview questions about your experience
+    intro: |
+      In a job interview, you need two tenses: the **present perfect** for your experience (*I've worked with tourists*) and the **past simple** for details with a finished time (*I worked at a hotel in 2023*). In this lesson you will understand job ads, answer interview questions and write a short application email.
+    vocab: |
+      apply for | to ask for a job, a place at a school and so on, usually in writing | phr v | I applied for a job at the library. | - | c: apply for a job; apply for a scholarship | n: Noun: an application.
+      résumé | a document with your education, work experience and skills | n | Please send your résumé by email. | - | n: Also written resume. British English: CV.
+      cover letter | a short letter or email that you send with your résumé | n | In my cover letter, I explained why I want the job. | - | n: British English also: covering letter.
+      job ad | a notice that says a company needs a worker | n | I saw a job ad for a tour guide online. | - | n: Ad is short for advertisement.
+      position | a job in a company (formal) | n | I'm writing about the position of sales assistant. | - | c: apply for a position
+      experience | knowledge or skill that you get from doing something | n | Do you have any experience with children? | - | c: work experience; no experience | n: Uncountable here: experience (not experiences).
+      skill | an ability to do something well | n | Good communication skills are important. | - | c: computer skills; language skills
+      qualification | an exam you have passed or a course you have finished | n | What qualifications do you need for this job? | - | c: a teaching qualification
+      interview | a meeting where someone asks you questions to decide if you get a job | n | I have an interview on Thursday. | - | c: a job interview; go to an interview
+      salary | the money you get for your job, usually paid every month | n | The salary is $45,000 a year. | - | n: Pay per hour is usually called a wage.
+      flexible hours | working hours that you can change | expr | This job has flexible hours. | - | n: Flexible = easy to change.
+      reference | a person who can say good things about your work; their letter | n | My old manager is one of my references. | - | c: give a reference; ask for a reference
+      reliable | someone you can trust to do what they say | adj | We need a reliable person who is never late. | - | n: Stress: re-LI-a-ble.
+    grammar:
+      title: "Present perfect or past simple?"
+      body: |
+        Use the **present perfect** for experiences and situations **up to now**, when the time is not important or not finished: *I**'ve worked** with tourists. I**'ve never used** this software. I**'ve lived** here since 2022.*
+
+        Use the **past simple** when you say or ask **when** — with a **finished time**: *yesterday, last year, in 2021, two months ago, when I was a student*. *I **worked** at a hotel **in 2023**. When **did** you **finish** college?*
+
+        We often start with the present perfect and then give the details in the past simple: *Have you ever **given** a tour? — Yes. Last summer I **led** tours for a school group. It **was** great.*
+
+        Careful with **for**: *I**'ve worked** there for two years* = I still work there. *I **worked** there for two years* = that job is finished.
+      table: |
+        Present perfect (up to now / no time) | Past simple (finished time)
+        I've worked in a hotel. | I worked in a hotel in 2023.
+        Have you ever had an interview? | When did you have your interview?
+        She's lived in Rome for a year. (she lives there now) | She lived in Rome for a year. (she doesn't now)
+        ever, never, for, since | yesterday, last…, … ago, in 2020, when…
+      examples: |
+        I've had three part-time jobs. | | experience, no time
+        I started my first job two years ago. | | ago → past simple
+        Have you ever worked in a team? — Yes, I worked in a team of six last year. | | question in the present perfect, details in the past simple
+        He's worked here since May. Before that, he worked at a café for a year. | | continues now vs finished
+      tip: "Look for time words. Yesterday, last…, ago, in 2020 or a question with When…? → past simple. Ever, never, for, since (up to now) → present perfect."
+    dialogue:
+      title: The museum interview
+      setting: A museum in Washington, D.C. Rafael has an interview for a job as a tour guide. Denise Grant, the manager, asks him about his experience.
+      speakers: D=Denise/f; R=Rafael/m
+      lines: |
+        D: Thanks for coming, Rafael. Have you ever worked with tourists?
+        R: Yes, I have. I worked at a hotel in Lisbon.
+        D: How long did you work there?
+        R: For two years. I left in 2024, when I moved here.
+        D: And what have you done since then?
+        R: I've worked part-time at a bookstore downtown.
+        D: Have you ever given a tour in English?
+        R: Yes. Last summer I led tours for a school group.
+        D: Great. Do you speak any other languages?
+        R: Portuguese and Spanish. But I've never studied French.
+        D: That's fine. Do you have any questions for me?
+        R: Yes. Are the hours flexible?
+    pronunciation:
+      title: "Word stress in job words"
+      body: |
+        Long words for jobs and applications often have the stress in the middle. In words ending in **-tion**, the stress is on the syllable **just before** -tion: *qua-li-fi-**CA**-tion, ap-pli-**CA**-tion*.
+
+        Other words to be careful with: *ex-**PE**-ri-ence, re-**LI**-a-ble, **IN**-ter-view, **SA**-la-ry*. Listen and repeat.
+      items: |
+        experience
+        qualification
+        application
+        interview
+        salary
+        reliable
+    culture:
+      title: Résumés in the US and the UK
+      body: |
+        An American résumé or a British CV is usually one or two pages. It starts with your most recent job and lists your education, experience and skills. In the US and the UK, people usually **don't** add a photo, their age or whether they are married — employers must not choose people because of these things.
+
+        Most applications include a short **cover letter** or email: say which job you're applying for, why you want it and what experience you have. Keep it polite, clear and short.
+    mistakes: |
+      I have worked there in 2022. => I worked there in 2022. | With a finished time (in 2022), use the past simple.
+      I've finished college two years ago. => I finished college two years ago. | Ago means a finished time, so use the past simple.
+      I want to apply to this job. => I want to apply for this job. | We apply for a job (and apply to a company).
+    task:
+      title: Answer a job ad
+      mode: writing
+      body: |
+        Find a real job ad, or use this one: *"Summer camp assistant wanted. Do you love working with children? Experience is helpful but not necessary. Good English is a must."* Write a short email (60–80 words): say which position you're applying for, describe your experience with the present perfect, give one detail with a date in the past simple, and say when you are free for an interview. Then practice the interview with the AI coach in the "Preparing for a job interview" scenario.
+    exercises: |
+      fill: I ___ (work) in a café when I was a student. || worked || When I was a student is a finished time → past simple. || @tags en.present-perfect-vs-past
+      fill: ___ you ever ___ (use) this software? || Have ; used || Experience question: Have + you + ever + past participle. || @tags en.present-perfect,en.questions
+      fill: She ___ (send) her résumé two days ago. || sent || Two days ago → past simple. Send is irregular: sent. || @tags en.present-perfect-vs-past,en.past-irregular
+      mc: Choose the correct sentence. || I have finished college in 2023. | *I finished college in 2023. | I finish college in 2023. || In 2023 is a finished time, so use the past simple. || @tags en.present-perfect-vs-past
+      mc: "Have you ever worked in a store?" — "Yes, I ___ at a bookstore last summer." || *worked | have worked | work || Last summer is a finished time: past simple. || @tags en.present-perfect-vs-past
+      rw: Correct the mistake :: I have started this course last month. || I started this course last month. || Last month is a finished time → past simple, not present perfect. || @tags en.present-perfect-vs-past
+      rw: Answer "No" with "never" :: Have you ever been to a job interview? || No, I have never been to a job interview. | No, I've never been to a job interview. | I have never been to a job interview. | I've never been to a job interview. || Never + present perfect for no experience up to now. || @tags en.present-perfect
+      match: résumé = a document with your education and work experience ; cover letter = a short letter that you send with your résumé ; salary = the money you get for your job ; reference = a person who can say good things about your work || Match each word with its meaning. || @tags en.vocabulary @skill vocabulary
+      tf: Rafael still works at the hotel in Lisbon. || false || He worked there for two years and left in 2024. || @ctx dialogue
+      short: Where has Rafael worked since he moved to the US? || kw: bookstore/bookshop/book store || "I've worked part-time at a bookstore downtown." || @ctx dialogue
+      listen: @dialogue || What does Rafael ask at the end of the interview? || About the salary | *If the hours are flexible | When the job starts || "Are the hours flexible?" || @tags en.listening
+      listen: I've worked as a waiter for three years. Before that, I worked in a supermarket for six months. || What is the speaker's job now? || *A waiter | A supermarket worker | An office worker || "I've worked as a waiter for three years" — the speaker still does this job. The supermarket job is finished. || @tags en.listening,en.present-perfect-vs-past
+      dict: I've never worked in an office, but I've worked in a store.
+      ask: In a job interview, someone asks you, "Have you ever worked in a team?" Answer and give one detail with a time. || kw: have/haven't/worked & last/ago/in/when/for/since || Yes, I have. Last year I worked in a team of five at a summer festival. We sold tickets and helped visitors.
+      write: Answer this job ad with a short email — "Summer camp assistant wanted. Experience with children? Good English?" Say what position you're applying for, describe your experience and give one detail with a date. || min=50 || req: have/has | apply/applying/position/job || Dear Ms. Brooks, I'm writing to apply for the position of summer camp assistant. I've worked with children for three years — I've been a swimming coach at my local pool since 2023. Last summer I also helped at a day camp in Toronto. I'm free for an interview any afternoon next week. Best regards, Amira Haddad

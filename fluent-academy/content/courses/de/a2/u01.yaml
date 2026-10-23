@@ -1,0 +1,347 @@
+unit: 1
+title: Lebensgeschichten
+theme: Life stories
+description: Talk about last weekend, the main stages of your life and your childhood with the Perfekt with haben — regular, irregular, separable and inseparable verbs.
+free: true
+objectives:
+  - Say what you did last weekend with the Perfekt and regular participles
+  - Describe the main stages of your life with irregular participles and verbs without ge-
+  - Share childhood memories, placing time phrases and negation correctly in the Perfekt
+canDo:
+  - I can tell someone what I did last weekend.
+  - I can talk about my education, my jobs and important moments in my life.
+  - I can describe what I often did, or never did, as a child.
+  - I can ask other people about their past.
+review: |
+  fill: Am Wochenende ___ wir unsere Großeltern besucht. || haben || Wir + haben = wir haben; the participle besucht closes the sentence. || @tags de.perfekt
+  fill: Als Kind habe ich jeden Abend ein Buch ___. (lesen) || gelesen || Lesen is irregular: hat gelesen. || @tags de.perfekt
+  mc: Which sentence is correct? || Früher ich habe in einem Dorf gewohnt. | *Früher habe ich in einem Dorf gewohnt. | Früher habe ich gewohnt in einem Dorf. || After früher the verb habe stays in position 2, and the participle goes to the end. || @tags de.word-order,de.perfekt
+  rw: Put into the Perfekt :: Wir räumen die Küche auf. || Wir haben die Küche aufgeräumt. || Separable verb: ge- goes between the prefix and the stem — auf-ge-räumt. || @tags de.perfekt,de.separable
+  tr: I have never worked abroad. || Ich habe noch nie im Ausland gearbeitet. | Ich habe nie im Ausland gearbeitet. || Noch nie / nie goes before the rest of the bracket; im Ausland = abroad (location). || @tags de.perfekt,de.negation
+  mc: "Sie hat ein Baby bekommen." means… || *She has had a baby. | She has become a baby. | She has wanted a baby. || Bekommen means to get or to receive — a false friend of English "become". || @tags de.vocabulary
+  listen: Nach der Schule habe ich eine Ausbildung als Elektrikerin gemacht und danach drei Jahre in Magdeburg gearbeitet. || What did the speaker do after school? || She studied at university. | *She trained as an electrician. | She worked abroad for three years. || Eine Ausbildung als Elektrikerin = vocational training as an electrician; then she worked in Magdeburg. || @tags de.listening,de.perfekt
+  listen: Letztes Wochenende habe ich nicht viel gemacht – ich habe lange geschlafen, gelesen und Musik gehört. || What was the speaker's weekend like? || Busy, with lots of sport | *Quiet and relaxing | Full of housework || Nicht viel gemacht, lange geschlafen, gelesen, Musik gehört — a quiet weekend. || @tags de.listening
+  ask: A new friend asks about your life. Tell them about one important stage — your studies, a job or a special experience. || kw: habe & studiert/gemacht/gearbeitet/gewohnt/gelernt/kennengelernt/bekommen/gefunden/geheiratet/erlebt || Nach dem Abitur habe ich in Leipzig Germanistik studiert. Dort habe ich auch meine beste Freundin kennengelernt.
+  write: Write a message (5–6 sentences) to a friend about what you did last weekend and a childhood memory it reminded you of. || min=40 || req: habe/haben | am samstag/am sonntag/am wochenende/gestern/letztes wochenende | als kind/früher || Hallo Can, letztes Wochenende habe ich mit meiner Nichte Kekse gebacken. Danach haben wir zusammen einen Film geschaut. Als Kind habe ich auch oft mit meiner Oma gebacken. Wir haben immer viel gelacht und den Teig probiert! Was hast du am Wochenende gemacht? Liebe Grüße, Mira
+lessons:
+  - title: Last weekend
+    summary: Say what you did at the weekend with the Perfekt — haben in position 2 and a regular participle at the end.
+    minutes: 35
+    skills: [grammar, listening, speaking]
+    tags: [de.perfekt, de.separable]
+    objectives:
+      - Form the Perfekt with haben and regular participles (gemacht, gearbeitet)
+      - Put the participle at the end of the sentence, including separable verbs
+      - Ask and answer questions about last weekend
+    intro: |
+      "Was hast du am Wochenende gemacht?" is one of the most common questions in German — at work on Monday, at university or when you meet a friend. To answer it you need the **Perfekt**, the past tense German speakers use most in conversation. In this lesson you will build it with regular verbs and talk about your own weekend.
+    vocab: |
+      gestern | yesterday | adv | Gestern habe ich bis acht Uhr gearbeitet. | Yesterday I worked until eight o'clock. | c: gestern Abend; gestern Nachmittag; gestern früh
+      letztes Wochenende | last weekend | expr | Was hast du letztes Wochenende gemacht? | What did you do last weekend? | c: letzte Woche; letzten Samstag; letztes Jahr | n: letzt- changes like an article: letzten Montag (der), letzte Woche (die), letztes Jahr (das).
+      grillen | to have a barbecue; to grill | v | Am Samstag haben wir im Garten gegrillt. | On Saturday we had a barbecue in the garden. | n: Perfekt: hat gegrillt
+      aufräumen | to tidy (up) | v | Ich habe endlich mein Zimmer aufgeräumt. | I've finally tidied my room. | n: Separable — ge- goes between prefix and stem: hat aufgeräumt.
+      putzen | to clean | v | Wir haben am Sonntag das Bad geputzt. | We cleaned the bathroom on Sunday. | n: Perfekt: hat geputzt
+      feiern | to celebrate; to party | v | Wir haben Omas Geburtstag gefeiert. | We celebrated Grandma's birthday. | c: eine Party feiern; Geburtstag feiern | n: Perfekt: hat gefeiert
+      tanzen | to dance | v | Auf der Hochzeit haben alle bis drei Uhr getanzt. | At the wedding everyone danced until three o'clock. | n: Perfekt: hat getanzt
+      faulenzen | to laze around | v | Am Sonntag habe ich nur gefaulenzt. | On Sunday I just lazed around. | n: Perfekt: hat gefaulenzt
+      schauen | to watch; to look | v | Wir haben abends einen Krimi geschaut. | In the evening we watched a crime drama. | n: Perfekt: hat geschaut. Also common: gucken (hat geguckt) and sehen (hat gesehen).
+      reden | to talk; to chat | v | Wir haben lange über den Urlaub geredet. | We talked about the holiday for a long time. | n: The stem ends in -d, so the participle adds -et: hat geredet.
+      der Ausflug | trip; outing | n | Am Sonntag haben wir einen Ausflug gemacht. | On Sunday we went on an outing. | g: m | pl: die Ausflüge | c: einen Ausflug machen
+      ganz | whole; entire | adj | Ich habe den ganzen Tag gelernt. | I studied all day. | c: den ganzen Tag; die ganze Woche; das ganze Wochenende
+    grammar:
+      title: "The Perfekt with haben: regular verbs"
+      body: |
+        To talk about the past in conversation, German mostly uses the **Perfekt**. It has two parts: a form of **haben** in position 2 and the **past participle** (Partizip II) at the very end. Everything else goes in between — this frame is called the *Satzklammer* (sentence bracket): *Ich **habe** am Samstag mein Zimmer **aufgeräumt**.*
+
+        Regular verbs form the participle with **ge- + stem + -t**: *machen → gemacht, kaufen → gekauft, spielen → gespielt*. If the stem ends in **-t** or **-d**, add **-et** so you can pronounce it: *arbeiten → gearbeitet, reden → geredet*.
+
+        In **separable verbs**, ge- goes between the prefix and the stem: *aufräumen → aufgeräumt, einkaufen → eingekauft*.
+
+        One Perfekt form covers several English tenses: *Ich habe gekocht* = I cooked / I have cooked. In Unit 2 you will see that some verbs of movement use **sein** instead of haben.
+      table: |
+        Infinitive | Rule | Participle | Example
+        machen | ge + mach + t | gemacht | Was hast du gemacht?
+        putzen | ge + putz + t | geputzt | Ich habe das Bad geputzt.
+        arbeiten | ge + arbeit + et | gearbeitet | Sie hat lange gearbeitet.
+        reden | ge + red + et | geredet | Wir haben viel geredet.
+        einkaufen | ein + ge + kauft | eingekauft | Habt ihr schon eingekauft?
+        aufräumen | auf + ge + räumt | aufgeräumt | Er hat die Küche aufgeräumt.
+      examples: |
+        Am Samstag habe ich für meine Freunde gekocht. | On Saturday I cooked for my friends. | habe in position 2, gekocht at the end
+        Habt ihr am Sonntag gegrillt? | Did you have a barbecue on Sunday? | yes/no question: haben comes first
+        Meine Schwester hat bis zehn Uhr gearbeitet. | My sister worked until ten o'clock. | stem in -t: gearbeitet
+        Wir haben am Freitag eingekauft. | We did the shopping on Friday. | separable: ein-ge-kauft
+      tip: Build the bracket first — "Ich habe … gemacht" — then fill the middle with when, with whom and what.
+    dialogue:
+      title: Montagmorgen in der Kaffeeküche
+      setting: Monday morning in the small kitchen of an office in Mainz. Katja and Samir make coffee and talk about their weekend.
+      speakers: K=Katja/f; S=Samir/m
+      lines: |
+        K: Guten Morgen, Samir! Hast du ein schönes Wochenende gehabt? | Good morning, Samir! Did you have a nice weekend?
+        S: Ja, sehr schön! Am Samstag haben wir im Garten gegrillt. | Yes, very nice! On Saturday we had a barbecue in the garden.
+        K: Toll! Mit wem habt ihr denn gegrillt? | Great! Who did you have the barbecue with?
+        S: Mit den Nachbarn. Wir haben lange geredet und viel gelacht. | With the neighbours. We talked for a long time and laughed a lot.
+        S: Und du? Was hast du am Wochenende gemacht? | And you? What did you do at the weekend?
+        K: Nicht viel. Am Samstag habe ich die ganze Wohnung geputzt. | Not much. On Saturday I cleaned the whole flat.
+        S: Die ganze Wohnung? Das klingt nach viel Arbeit! | The whole flat? That sounds like a lot of work!
+        K: Stimmt, aber am Sonntag habe ich nur gefaulenzt. | True, but on Sunday I just lazed around.
+        K: Ich habe gekocht und drei Folgen von einer Serie geschaut. | I cooked and watched three episodes of a series.
+        S: Echt? Welche Serie? Ich suche gerade etwas Neues. | Really? Which series? I'm looking for something new at the moment.
+        K: Einen Krimi aus Dänemark. Total spannend! | A crime drama from Denmark. Really exciting!
+        S: Super, den schaue ich heute Abend! | Great, I'll watch it tonight!
+    pronunciation:
+      title: "The unstressed ge- and the final -t"
+      body: |
+        In participles the prefix **ge-** is always short and unstressed, with a weak vowel like the *a* in English *about*: *ge-MACHT, ge-KAUFT*. In separable verbs the stress moves to the prefix: *AUF-ge-räumt, EIN-ge-kauft*.
+
+        Make sure the final **-t** is clearly audible — it tells the listener that this is a participle: *gespielt, geputzt, getanzt*. In *gemacht* and *gelacht* you also hear the ach-sound [x], made at the back of the mouth.
+      items: |
+        gemacht
+        gegrillt
+        geputzt
+        gearbeitet
+        aufgeräumt
+        Wir haben gefeiert.
+    culture:
+      title: Quiet Sundays
+      body: |
+        In Germany most shops are closed on Sundays and public holidays, so many people do their big weekly shop on Friday or Saturday. Bakeries often open for a few hours on Sunday morning, and in larger cities you can buy basics at station shops and petrol stations.
+
+        Sunday is a day for family, walks, sport and *Kaffee und Kuchen* in the afternoon. On Monday, colleagues often ask about your weekend — two or three short sentences in the Perfekt are perfect small talk.
+    mistakes: |
+      Ich habe gemacht meine Hausaufgaben. => Ich habe meine Hausaufgaben gemacht. | The participle always goes to the end of the sentence.
+      Wir haben bis acht gearbeiten. => Wir haben bis acht gearbeitet. | Regular participles end in -t (-et after t or d), never in -en.
+      Ich habe geaufräumt. => Ich habe aufgeräumt. | In separable verbs, ge- goes between the prefix and the stem: auf-ge-räumt.
+    task:
+      title: Monday-morning small talk
+      mode: interaction
+      body: |
+        It's Monday morning and a colleague asks what you did at the weekend. Tell them three things you did — for example cleaning, cooking, meeting friends or watching a series — and ask what they did. Practise with the "Talking about your day" scenario with the AI coach.
+    exercises: |
+      fill: Am Samstag ___ ich endlich mein Zimmer aufgeräumt. || habe || Ich + haben = ich habe; haben is the conjugated verb in position 2. || @tags de.perfekt
+      fill: Meine Mitbewohnerin hat am Sonntag zehn Stunden ___. (arbeiten) || gearbeitet || The stem arbeit- ends in -t, so the participle adds -et: gearbeitet. || @tags de.perfekt @hint arbeiten
+      fill: Hast du schon ___? Der Kühlschrank ist leer. (einkaufen) || eingekauft || Einkaufen is separable, so ge- goes between the prefix and the stem: ein-ge-kauft. || @tags de.perfekt,de.separable
+      mc: Choose the correct sentence. || Ich habe gekocht eine Gemüsesuppe. | *Ich habe eine Gemüsesuppe gekocht. | Ich gekocht habe eine Gemüsesuppe. || Haben is in position 2 and the participle closes the sentence. || @tags de.perfekt,de.word-order
+      rw: Put into the Perfekt :: Ich schaue einen Film. || Ich habe einen Film geschaut. || Haben in position 2, the participle geschaut at the end. || @tags de.perfekt
+      order: Am Sonntag haben wir mit Freunden gegrillt. || On Sunday we had a barbecue with friends. || Time phrase first, then haben, then the subject; gegrillt closes the sentence. || @tags de.perfekt,de.word-order @alt Wir haben am Sonntag mit Freunden gegrillt. | Mit Freunden haben wir am Sonntag gegrillt. | Wir haben mit Freunden am Sonntag gegrillt.
+      tf: Katja spent the whole weekend at the office. || false || She cleaned her flat on Saturday and lazed around at home on Sunday. || @ctx dialogue
+      short: Who did Samir have a barbecue with? || kw: nachbarn/neighbours/neighbors || He says "Mit den Nachbarn" — with the neighbours. || @ctx dialogue
+      listen: @dialogue || What is Samir going to do tonight? || Have another barbecue | *Watch the series Katja mentions | Clean his flat || He says "Super, den schaue ich heute Abend!" — he'll watch the Danish crime series.
+      listen: Am Freitag habe ich bis neun gearbeitet und danach noch schnell eingekauft. || What did the speaker do after work on Friday? || Cooked dinner | *Did the shopping | Watched a film || Danach noch schnell eingekauft = then quickly did the shopping. || @tags de.listening,de.perfekt
+      tr: What did you do last weekend? (informal) || Was hast du letztes Wochenende gemacht? | Was hast du am letzten Wochenende gemacht? | Was hast du am Wochenende gemacht? || Question word + hast du + time + gemacht at the end. || @tags de.perfekt,de.questions
+      dict: Gestern haben wir die ganze Wohnung geputzt.
+      ask: A colleague asks "Was hast du am Wochenende gemacht?" Answer with three things you did. || kw: habe/haben & gemacht/gekauft/gespielt/geputzt/gekocht/gegrillt/gearbeitet/gefeiert/getanzt/geschaut/aufgeräumt/eingekauft/besucht/gefaulenzt || Am Samstag habe ich eingekauft und gekocht. Am Abend haben wir Karten gespielt. Am Sonntag habe ich nur gefaulenzt.
+
+  - title: My life so far
+    summary: Talk about your education, your jobs and important moments in your life with irregular participles, -ieren verbs and verbs without ge-.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [de.perfekt]
+    objectives:
+      - Use irregular participles such as geschrieben, gefunden and gesprochen
+      - Form the Perfekt of -ieren verbs and verbs with be-, er- and ver-
+      - Describe the main stages of your life in order
+    intro: |
+      When you meet someone new — at work, in a course or on a language exchange — sooner or later they ask about your life: where you went to school, what you studied, where you have worked. In this lesson you will learn the participles you need to tell your own story, including the many irregular ones.
+    vocab: |
+      studieren | to study (at university) | v | Ich habe in Bochum Maschinenbau studiert. | I studied mechanical engineering in Bochum. | n: Verbs ending in -ieren have no ge-: hat studiert.
+      die Ausbildung | vocational training; apprenticeship | n | Nach der Schule hat Jana eine Ausbildung als Köchin gemacht. | After school Jana trained as a cook. | g: f | pl: die Ausbildungen | c: eine Ausbildung machen; eine Ausbildung als …
+      das Abitur | school-leaving exam (≈ A levels) | n | Mein Bruder hat 2019 das Abitur gemacht. | My brother did his Abitur in 2019. | g: n | pl: (rarely used) | n: Often shortened to das Abi.
+      die Stelle | job; position | n | Im Mai habe ich eine neue Stelle gefunden. | In May I found a new job. | g: f | pl: die Stellen | n: finden → hat gefunden
+      kennenlernen | to get to know; to meet for the first time | v | Ich habe meinen Mann im Chor kennengelernt. | I met my husband in the choir. | n: Separable: hat kennengelernt.
+      bekommen | to get; to receive | v | Sie hat mit dreißig ihr erstes Kind bekommen. | She had her first child at thirty. | n: False friend — bekommen means to get, not to become. No ge-: hat bekommen.
+      verdienen | to earn | v | In meinem ersten Job habe ich wenig verdient. | In my first job I earned very little. | n: No ge- after ver-: hat verdient.
+      erleben | to experience | v | In Kanada habe ich sehr viel erlebt. | I experienced a lot in Canada. | n: No ge- after er-: hat erlebt.
+      schreiben | to write | v | Ich habe meine Masterarbeit über Solarenergie geschrieben. | I wrote my master's thesis on solar energy. | n: Irregular: hat geschrieben.
+      das Ausland | abroad; foreign countries | n | Nach dem Studium habe ich zwei Jahre im Ausland gearbeitet. | After university I worked abroad for two years. | g: n | pl: (no plural) | c: im Ausland (location); ins Ausland (direction)
+      schon mal | ever; before | adv | Hast du schon mal im Ausland gewohnt? | Have you ever lived abroad? | n: Short for schon einmal. Typical answers: Ja, schon oft. / Nein, noch nie.
+      noch nie | never (so far) | expr | Ich habe noch nie ein Auto gehabt. | I've never had a car.
+    grammar:
+      title: "Irregular participles and verbs without ge-"
+      body: |
+        Many common verbs are **irregular** (strong). Their participle ends in **-en**, and the vowel often changes: *schreiben → geschrieben, finden → gefunden, sprechen → gesprochen*. A few "mixed" verbs change the vowel but end in -t: *bringen → gebracht, denken → gedacht, kennen → gekannt*. There is no reliable rule — learn each new verb together with its participle.
+
+        Two groups take **no ge-** at all:
+
+        - verbs ending in **-ieren**: *studieren → studiert, telefonieren → telefoniert, reparieren → repariert*
+        - verbs with an inseparable prefix **be-, er-, ver-, ent-, emp-, ge-, zer-**: *besuchen → besucht, erleben → erlebt, verdienen → verdient, bekommen → bekommen*
+
+        Separable verbs put ge- in the middle as usual, whether they are regular or irregular: *kennenlernen → kennengelernt, anrufen → angerufen, fernsehen → ferngesehen*.
+      table: |
+        Type | Pattern | Examples
+        regular | ge…t | gemacht, gekauft, geheiratet
+        irregular | ge…en (often a new vowel) | geschrieben, gefunden, gesprochen
+        mixed | ge…t with a new vowel | gebracht, gedacht, gekannt
+        -ieren verbs | no ge-, …t | studiert, telefoniert, fotografiert
+        be-, er-, ver- … | no ge- | besucht, erlebt, verdient, bekommen
+        separable | prefix + ge + … | kennengelernt, angerufen, ferngesehen
+      examples: |
+        Ich habe vier Jahre in Bochum studiert. | I studied in Bochum for four years. | -ieren: no ge-
+        Nach dem Studium hat Leyla schnell eine Stelle gefunden. | After university Leyla quickly found a job. | finden → gefunden
+        Wir haben 2021 unser erstes Kind bekommen. | We had our first child in 2021. | be-: no ge-
+        In Osaka habe ich jeden Tag Japanisch gesprochen. | In Osaka I spoke Japanese every day. | sprechen → gesprochen
+      tip: Learn every verb as a pair — schreiben, hat geschrieben. A list of the 20 verbs you use most, with their participles, is a great start.
+    dialogue:
+      title: Das Klassentreffen
+      setting: A school reunion in Würzburg, twenty years after the Abitur. Ines and Moritz haven't seen each other since school.
+      speakers: I=Ines/f; M=Moritz/m
+      lines: |
+        I: Moritz? Wow, ich habe dich sofort erkannt! | Moritz? Wow, I recognised you straight away!
+        M: Ines! Zwanzig Jahre nach dem Abitur – unglaublich! | Ines! Twenty years after our Abitur – unbelievable!
+        I: Erzähl mal, was hast du nach der Schule gemacht? | Tell me, what did you do after school?
+        M: Ich habe eine Ausbildung als Krankenpfleger gemacht. | I trained as a nurse.
+        M: Danach habe ich sechs Jahre in Basel gearbeitet. | After that I worked in Basel for six years.
+        I: Im Ausland! Hast du dort gut verdient? | Abroad! Did you earn well there?
+        M: Ja, ziemlich gut. Und ich habe dort meine Frau kennengelernt. | Yes, pretty well. And I met my wife there.
+        I: Wie schön! Ich habe in Hamburg Architektur studiert. | How lovely! I studied architecture in Hamburg.
+        M: Und? Hast du schon eigene Häuser gebaut? | And? Have you built your own houses yet?
+        I: Zwei kleine, ja. Und letztes Jahr habe ich ein eigenes Büro eröffnet. | Two small ones, yes. And last year I opened my own office.
+        M: Wahnsinn! Und Familie? Hast du Kinder? | Amazing! And family? Do you have children?
+        I: Ja, eine Tochter. Sie hat gerade ihr Abitur gemacht! | Yes, a daughter. She's just done her Abitur!
+    pronunciation:
+      title: "The ach-sound and the ich-sound"
+      body: |
+        The letters **ch** have two sounds. After **a, o, u** and **au** you hear the ach-sound [x], made at the back of the mouth, like Scottish *loch*: *gemacht, gesprochen, noch, auch*.
+
+        After **e, i, ä, ö, ü, ei, eu** and after consonants you hear the softer ich-sound [ç]. Put your tongue in the position for English *ee* and breathe out strongly, like a whispered *hue*: *ich, nicht, leicht*. Don't replace it with [k] or [ʃ] — *nicht* is not "nikt" or "nisht".
+      items: |
+        gesprochen
+        gemacht
+        noch nie
+        nicht
+        ich habe
+        Ich habe nicht viel verdient.
+    culture:
+      title: Ausbildung or Studium?
+      body: |
+        After school, young people in Germany choose between a university degree (*Studium*) and vocational training (*Ausbildung*). An Ausbildung usually lasts two to three and a half years: trainees work in a company and also attend a vocational school (*Berufsschule*) — the so-called dual system. Hundreds of jobs, from baker to IT specialist, are learned this way, and trainees earn a salary from the start.
+
+        To study at a university you normally need the *Abitur*, the exam at the end of the *Gymnasium*. Most students at public universities pay no tuition fees, only a semester contribution, which often includes a local public-transport ticket.
+    mistakes: |
+      Ich habe in Köln gestudiert. => Ich habe in Köln studiert. | Verbs ending in -ieren never take ge-.
+      Sie hat schnell eine Stelle gefindet. => Sie hat schnell eine Stelle gefunden. | Finden is irregular: the participle is gefunden.
+      Ich habe viel Geld geverdient. => Ich habe viel Geld verdient. | Verbs with be-, er-, ver- and the other inseparable prefixes add no ge-.
+    task:
+      title: Your life in six sentences
+      mode: writing
+      body: |
+        A language-exchange website asks new members for a short biography. Write five or six sentences about your life so far: school, training or studies, jobs, where you have lived and one special experience. Use at least three different participles, including one irregular one and one without ge-.
+    exercises: |
+      fill: Mein Bruder hat in Graz Medizin ___. (studieren) || studiert || Verbs ending in -ieren have no ge-: studiert. || @tags de.perfekt @hint studieren
+      fill: Nach drei Monaten hat Pavel endlich eine Wohnung ___. (finden) || gefunden || Finden is irregular: hat gefunden. || @tags de.perfekt @hint finden
+      fill: Wo hast du deine Frau ___? (kennenlernen) || kennengelernt || Kennenlernen is separable and regular: kennen-ge-lernt. || @tags de.perfekt,de.separable
+      mc: Complete the sentence. "Zum Geburtstag habe ich ein Fahrrad ___." || gebekommen | *bekommen | bekommt || Bekommen starts with be-, so there is no ge-: the participle looks like the infinitive. || @tags de.perfekt
+      mc: Which verb forms its participle WITHOUT ge-? || machen | *telefonieren | schreiben || -ieren verbs have no ge-: telefoniert. Compare gemacht and geschrieben. || @tags de.perfekt
+      rw: Put into the Perfekt :: Sie bekommt eine neue Stelle. || Sie hat eine neue Stelle bekommen. || Haben in position 2; bekommen (no ge-) at the end. || @tags de.perfekt
+      tf: Moritz worked in Switzerland for six years. || true || He says "Danach habe ich sechs Jahre in Basel gearbeitet" — Basel is in Switzerland. || @ctx dialogue
+      short: What did Ines do last year? || kw: büro/office || "Letztes Jahr habe ich ein eigenes Büro eröffnet" — she opened her own office. || @ctx dialogue
+      listen: @dialogue || What has Ines's daughter just done? || Started training as a nurse | *Passed her Abitur | Opened an office || Ines says: "Sie hat gerade ihr Abitur gemacht!"
+      listen: Ich habe noch nie im Ausland gelebt, aber ich habe schon oft in Frankreich Urlaub gemacht. || Which statement is true? || *The speaker has never lived abroad. | The speaker lived in France for years. | The speaker has never been on holiday abroad. || Noch nie im Ausland gelebt = never lived abroad; schon oft in Frankreich Urlaub gemacht = has often been on holiday in France. || @tags de.listening,de.perfekt
+      dict: Nach der Schule habe ich eine Ausbildung gemacht.
+      ask: Ask a new classmate two questions about their past — for example whether they have ever lived abroad and what they studied. || kw: hast du/haben sie & schon mal/studiert/gearbeitet/gemacht/gewohnt/gelebt || Hast du schon mal im Ausland gewohnt? Und was hast du studiert?
+      write: Write a short biography (5–6 sentences) for a language-exchange website: school, training or studies, jobs and one special experience. || min=40 || req: habe | gemacht/studiert/gelernt/gearbeitet/gewohnt/gelebt/bekommen/gefunden | nach/dann/danach || Ich heiße Amal und komme aus Amman. Nach der Schule habe ich in Jordanien Informatik studiert. Danach habe ich drei Jahre bei einer Bank gearbeitet. 2022 habe ich eine Stelle in Frankfurt bekommen. Hier habe ich schon viele nette Leute kennengelernt. Ich habe noch nie so viel Deutsch gesprochen!
+
+  - title: Childhood memories
+    summary: Describe what you did, or never did, as a child — with time phrases, frequency words and negation in the Perfekt.
+    minutes: 35
+    skills: [grammar, listening, speaking]
+    tags: [de.perfekt, de.word-order, de.negation]
+    objectives:
+      - Start a sentence with a time phrase like als Kind or früher and keep the verb in position 2
+      - Place nicht, nie and frequency words correctly in a Perfekt sentence
+      - Talk about childhood games, places and habits
+    intro: |
+      Childhood memories are a favourite topic of conversation — with friends, a partner's family or classmates. They also let you practise the Perfekt in longer, more interesting sentences. In this lesson you will learn how time phrases, *nie* and *nicht* fit into the Perfekt bracket.
+    vocab: |
+      die Kindheit | childhood | n | Ich habe meine Kindheit in Rostock verbracht. | I spent my childhood in Rostock. | g: f | pl: (no plural) | n: verbringen (to spend time) → hat verbracht
+      als Kind | as a child | expr | Als Kind habe ich viel gemalt. | As a child I painted a lot. | n: At the start of a sentence it takes position 1, so the verb follows straight after: Als Kind habe ich…
+      früher | in the past; when I was younger | adv | Früher haben wir jeden Sonntag meine Tante besucht. | We used to visit my aunt every Sunday. | n: früher + Perfekt often expresses English "used to".
+      malen | to paint; to draw | v | Meine Schwester hat stundenlang Pferde gemalt. | My sister used to draw horses for hours. | n: Perfekt: hat gemalt
+      basteln | to make things by hand; to do crafts | v | Im Kindergarten haben wir Laternen gebastelt. | At nursery school we made lanterns. | n: Perfekt: hat gebastelt
+      streiten | to argue; to fight | v | Meine Cousine und ich haben oft gestritten. | My cousin and I often argued. | n: Irregular: hat gestritten.
+      der Spielplatz | playground | n | Wir haben jeden Nachmittag auf dem Spielplatz gespielt. | We played at the playground every afternoon. | g: m | pl: die Spielplätze
+      das Dorf | village | n | Meine Großeltern haben in einem kleinen Dorf gewohnt. | My grandparents lived in a small village. | g: n | pl: die Dörfer
+      die Sommerferien | summer holidays (from school) | n | In den Sommerferien haben wir oft am See gezeltet. | In the summer holidays we often went camping by the lake. | pl: die Sommerferien | n: Plural only, like die Ferien. School summer holidays last about six weeks.
+      stundenlang | for hours | adv | Ich habe stundenlang Comics gelesen. | I read comics for hours.
+      die Angst | fear | n | Mein kleiner Bruder hat immer Angst im Dunkeln gehabt. | My little brother was always afraid of the dark. | g: f | pl: die Ängste | c: Angst haben; Angst vor Hunden haben
+      nie | never | adv | Wir haben nie Urlaub im Ausland gemacht. | We never went on holiday abroad. | n: Like nicht, nie goes towards the end of the bracket, before the participle.
+    grammar:
+      title: "Word order in the Perfekt: time, frequency and negation"
+      body: |
+        The Perfekt bracket stays the same in longer sentences: **haben** in position 2, the **participle** at the end. If you start with a time phrase such as *als Kind*, *früher* or *in den Sommerferien*, the verb still comes second and the subject moves behind it: *Als Kind **habe ich** viel **gelesen**.*
+
+        Inside the bracket, a natural order is **when – how or with whom – where**: *Ich habe früher mit meinem Bruder im Garten gespielt.* Frequency words such as *oft*, *immer* and *jeden Tag* also go inside the bracket: *Wir haben immer im Garten gespielt.*
+
+        **Nicht** and **nie** go towards the end of the bracket, after a definite object and just before the participle: *Ich habe meine Hausaufgaben nicht gemacht.* A noun without an article stays close to the participle, so *nie* comes before it: *Wir haben nie Urlaub gemacht.* To negate a noun with *ein*, use **kein**: *Wir haben keinen Fernseher gehabt.*
+      table: |
+        Position 1 | Position 2 | Middle | End
+        Als Kind | habe | ich viel | gelesen.
+        Früher | haben | wir oft im Garten | gespielt.
+        Ich | habe | meine Hausaufgaben nicht | gemacht.
+        Am Wochenende | haben | wir nie | ferngesehen.
+        Wir | haben | keinen Computer | gehabt.
+      examples: |
+        Als Kind habe ich jeden Sommer Erdbeeren gepflückt. | As a child I picked strawberries every summer. | time phrase first, then habe ich
+        Früher haben wir nie Pizza bestellt. | We never used to order pizza. | nie before the noun and the participle
+        Ich habe meine Hausaufgaben nicht immer gemacht. | I didn't always do my homework. | nicht immer before the participle
+        Mein Vater hat früher in einer Fabrik gearbeitet. | My father used to work in a factory. | früher = used to
+      tip: Say the frame first — "Als Kind habe ich … gespielt" — then add when, with whom and where in the middle.
+    dialogue:
+      title: Das alte Fotoalbum
+      setting: A rainy Sunday afternoon in Regensburg. Ida, nine, looks through an old photo album with her grandfather, Opa Konrad.
+      speakers: I=Ida/f; K=Opa Konrad/m
+      lines: |
+        I: Opa, wer ist der Junge mit dem Fußball? | Grandpa, who's the boy with the football?
+        K: Das bin ich, mit zehn Jahren. | That's me, at ten years old.
+        I: Was hast du als Kind gern gespielt? | What did you like playing as a child?
+        K: Fußball, jeden Tag nach der Schule, auf der Straße. | Football, every day after school, in the street.
+        I: Auf der Straße? Und was ist mit den Autos? | In the street? And what about the cars?
+        K: Damals haben nicht so viele Leute ein Auto gehabt. | Back then not many people had a car.
+        I: Hast du auch Computerspiele gespielt? | Did you play computer games too?
+        K: Nein, im Winter haben wir Karten gespielt oder gebastelt. | No, in winter we played cards or made things.
+        I: Und hast du mit deiner Schwester gestritten? | And did you argue with your sister?
+        K: Oh ja, sehr oft! Aber wir haben auch viel gelacht. | Oh yes, very often! But we also laughed a lot.
+        I: Hast du immer deine Hausaufgaben gemacht? | Did you always do your homework?
+        K: Nicht immer … Aber das hast du nicht gehört, okay? | Not always… But you didn't hear that, okay?
+    pronunciation:
+      title: "Long ie and short i"
+      body: |
+        The letters **ie** are always a long [iː], like English *see*: *nie, spielen, Spielplatz, Sommerferien* (in *Ferien* the e belongs to the next syllable: Fe-ri-en).
+
+        A single **i** before two or more consonants is short [ɪ], like English *bit*: *Kind, Kindheit, gestritten, immer*. Remember that a final **d** sounds like [t]: *Kind* [kɪnt]. Contrast the pairs as you repeat: *nie – nicht, spielen – Kind*.
+      items: |
+        nie
+        der Spielplatz
+        als Kind
+        gestritten
+        die Sommerferien
+        Wir haben viel gespielt.
+    culture:
+      title: The Schultüte
+      body: |
+        On their first day at school, at about six, children in Germany get a *Schultüte* — a big, colourful cardboard cone filled with sweets, pens and small presents. The first school day (*Einschulung*) is a big family event, with a short ceremony at school, lots of photos and cake at home afterwards.
+
+        Many adults still have a photo of themselves holding their Schultüte, so it's a lovely question to ask German friends: *Was war in deiner Schultüte?* Another childhood memory for many: walking through the streets in November with a paper lantern they made at nursery school.
+    mistakes: |
+      Als Kind ich habe viel gelesen. => Als Kind habe ich viel gelesen. | When a time phrase comes first, the verb (habe) stays in position 2 and the subject follows it.
+      Wir haben gemacht nie Urlaub. => Wir haben nie Urlaub gemacht. | The participle always closes the sentence; nie goes before Urlaub gemacht.
+      Früher hat ich einen Hund gehabt. => Früher habe ich einen Hund gehabt. | With ich the form is habe — also after a time phrase.
+    task:
+      title: A childhood photo
+      mode: speaking
+      body: |
+        Choose a photo from your childhood (or imagine one). Describe it in five or six sentences: who is in it, where it is and what you often did there — "Das bin ich mit acht Jahren. Hier haben wir jeden Sommer…". Include one thing you never did. Record yourself in Speaking practice.
+    exercises: |
+      fill: Als Kind ___ ich viele Comics gelesen. || habe || Even after a time phrase the verb is in position 2: Als Kind habe ich… || @tags de.perfekt,de.word-order
+      fill: Im Kindergarten haben wir Laternen ___. (basteln) || gebastelt || Basteln is regular: ge + bastel + t. || @tags de.perfekt
+      fill: Mein Bruder und ich haben oft ___. (streiten) || gestritten || Streiten is irregular: hat gestritten. || @tags de.perfekt
+      fill: Wir haben ___ ferngesehen – wir haben keinen Fernseher gehabt. (never) || nie / niemals || Nie (never) goes before the participle at the end of the bracket. || @tags de.negation,de.perfekt
+      mc: Where does nicht go? || Ich nicht habe meine Hausaufgaben gemacht. | *Ich habe meine Hausaufgaben nicht gemacht. | Ich habe meine Hausaufgaben gemacht nicht. || Nicht goes after the definite object and right before the participle. || @tags de.negation,de.perfekt
+      order: Als Kind habe ich stundenlang Karten gespielt. || As a child I played cards for hours. || Time phrase, verb, subject — the participle closes the sentence. || @tags de.word-order,de.perfekt @alt Ich habe als Kind stundenlang Karten gespielt. | Stundenlang habe ich als Kind Karten gespielt.
+      tr: As a child I collected stamps. || Als Kind habe ich Briefmarken gesammelt. | Ich habe als Kind Briefmarken gesammelt. || Als Kind + habe ich + … + gesammelt (die Briefmarke = stamp). || @tags de.perfekt,de.word-order
+      tf: Opa Konrad played computer games as a child. || false || He says no — in winter they played cards or made things. || @ctx dialogue
+      short: Where did Opa Konrad play football? || kw: straße/strasse/street/road || "Auf der Straße" — in the street, every day after school. || @ctx dialogue
+      listen: @dialogue || What does Opa Konrad admit at the end? || He never liked football. | *He didn't always do his homework. | He often argued with his teachers. || "Nicht immer…" — he didn't always do his homework.
+      listen: Wir haben in einem Dorf gewohnt, und im Sommer habe ich auf dem Bauernhof von meinem Onkel geholfen. || Where did the speaker help in the summer? || In a village shop | *On their uncle's farm | At their grandparents' house || Auf dem Bauernhof von meinem Onkel = on my uncle's farm. || @tags de.listening,de.perfekt
+      dict: Früher haben wir oft auf dem Spielplatz gespielt.
+      ask: A friend asks "Was hast du als Kind gern gemacht?" Answer with two or three activities. || kw: als kind/früher/oft/immer & habe & gespielt/gelesen/gemalt/gebastelt/gesammelt/geschaut/gemacht/gesungen || Als Kind habe ich oft Fußball gespielt. Ich habe auch viel gemalt und Comics gelesen.

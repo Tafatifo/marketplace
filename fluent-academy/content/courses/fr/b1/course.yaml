@@ -1,0 +1,105 @@
+language: fr
+level: B1
+title: "French B1 · Independence"
+description: Become an independent user of French — describe people and tell stories, handle interviews and professional emails, give advice, report the news, discuss the city and the environment, talk about health, culture and travel, and imagine what you would do if things were different.
+hours: 100
+summary: >-
+  B1 learners can understand the main points of clear standard French on familiar matters at work, at school and in
+  their free time. They can deal with most situations that arise while travelling or living in a French-speaking
+  country, tell an anecdote or the plot of a film, describe experiences, hopes and plans, and give short reasons for
+  their opinions. They can write connected texts such as emails, reviews and forum posts. This course delivers around
+  100 hours of guided practice across 8 units.
+objectives:
+  - Describe people's personalities and tell anecdotes, choosing confidently between the imparfait and the passé composé
+  - Handle a job interview, professional emails and meetings in a formal register, using the conditional and connectors
+  - Give advice and express necessity with il faut que and the present subjunctive
+  - Report what people say and explain what had happened before, using reported speech and the plus-que-parfait
+  - Express opinions, feelings and proposals about the city and the environment with the subjunctive and the gérondif
+  - Talk about wellbeing, food and sport, replacing repeated words with y, en and double object pronouns
+  - Review and recommend films, books and music, and retell a story, using dont, ce qui and ce que
+  - Imagine situations and discuss hypotheses with si + imparfait + conditionnel
+canDo:
+  listening:
+    - Understand the main points of clear standard speech on familiar matters at work, at school and in leisure time
+    - Follow the main points of podcasts, radio items and conversations on topics of personal interest when people speak fairly clearly
+  reading:
+    - Understand texts written mainly in everyday or job-related language, such as emails, articles, reviews and forum posts
+    - Understand the description of events, feelings and wishes in personal messages and blogs
+  spokenInteraction:
+    - Deal with most situations likely to arise while travelling, working or studying in a French-speaking country
+    - Take part in conversations on familiar topics, give opinions, agree and disagree politely
+  spokenProduction:
+    - Tell an anecdote or the plot of a film or book and describe your reactions
+    - Briefly give reasons and explanations for opinions, plans and proposals
+  writing:
+    - Write simple connected texts on familiar topics, such as a review, a forum post or a short story
+    - Write formal and informal emails describing experiences, asking for information or making a request
+grammar:
+  - Imparfait vs passé composé in narration, including verbs that change meaning (savoir, connaître, devoir)
+  - Relative pronouns qui, que, où and dont; ce qui and ce que
+  - Present conditional — forms and uses (politeness, wishes, advice, suggestions)
+  - Formal register and connectors (cependant, donc, en effet, par conséquent, alors que…)
+  - Present subjunctive after il faut que, il vaut mieux que and other expressions of necessity and advice
+  - Plus-que-parfait and reported speech with a present introductory verb
+  - Subjunctive after expressions of opinion, emotion and wish; the gérondif (en + -ant)
+  - Pronouns y and en with verbs + à / de, and double object pronouns
+  - Past narration combining the passé composé, the imparfait and the plus-que-parfait
+  - Si + imparfait + conditionnel for hypotheses and imaginary situations
+vocabularyDomains:
+  - Personality, friendship and relationships
+  - Work, recruitment and professional communication
+  - School systems, education and language learning
+  - News, media and digital life
+  - Town, countryside and the environment
+  - Stress, wellbeing, food and sport
+  - Films, series, books and music
+  - Responsible travel, customs and intercultural life
+assessment: A 50-minute cumulative test covering grammar, vocabulary, listening and reading from all eight units, with a short review to write. A score of 70% or more confirms the B1 level.
+units:
+  - title: Les autres et moi
+    theme: People and relationships
+    lessons: [Personality and character, Friendship and disagreements, Telling an anecdote]
+  - title: Le monde du travail
+    theme: Work and careers
+    lessons: [The job interview, Emails and meetings, Changing careers]
+  - title: Apprendre tout au long de la vie
+    theme: Education and learning
+    lessons: [School memories and systems, How we learn languages, Giving advice]
+  - title: Médias et numérique
+    theme: Media and technology
+    lessons: [News and how we follow it, Digital life, Solving a tech problem]
+  - title: Ville et environnement
+    theme: City and environment
+    lessons: ["City or countryside?", Green habits, Proposing solutions]
+  - title: Bien dans sa peau
+    theme: Health and lifestyle
+    lessons: [Stress and wellbeing, Food culture, Sport and fitness]
+  - title: Culture et divertissement
+    theme: Culture and entertainment
+    lessons: [Reviewing a film or series, Books and music, Recommending and retelling a story]
+  - title: Voyager et vivre ensemble
+    theme: Society and travel
+    lessons: [Travelling responsibly, "What would you do if…?", Customs and stereotypes]
+assessmentItems: |
+  fill: Je ___ (savoir) qu'il était fâché, mais je n'ai rien dit. || savais || A state of knowledge that lasted: imparfait (je savais = I knew). J'ai su would mean "I found out". || @tags fr.imparfait-vs-pc @obj Describe people's personalities and tell anecdotes, choosing confidently between the imparfait and the passé composé
+  mc: "C'est le quartier ___ j'ai grandi." Choose the right pronoun. || que | qui | *où || Le quartier is a place where something happened: où. || @tags fr.relative-pronouns
+  fill: ___-vous m'envoyer le contrat avant vendredi ? || Pourriez || A polite request uses the conditional of pouvoir: pourriez-vous. || @tags fr.conditionnel @obj Handle a job interview, professional emails and meetings in a formal register, using the conditional and connectors
+  mc: Which closing fits a formal letter to a company you don't know? || Bisous ! | À plus ! | *Veuillez agréer, Madame, Monsieur, mes salutations distinguées. || Bisous and À plus are for friends; the long formula is the standard formal closing. || @tags fr.formal-writing,fr.register
+  mc: "Le poste était intéressant ; ___, le salaire était trop bas." || donc | *cependant | en effet || The second idea contrasts with the first, so you need cependant (however). Donc = so; en effet = indeed. || @tags fr.connectors
+  fill: Il faut que tu ___ (finir) ce dossier avant lundi. || finisses || Il faut que + subjunctive: ils finissent → finiss- + -es. || @tags fr.subjonctif,fr.subjonctif-triggers @obj Give advice and express necessity with il faut que and the present subjunctive
+  fill: Il vaut mieux que nous ___ (être) à l'heure demain. || soyons || Il vaut mieux que + subjunctive; être is irregular: que nous soyons. || @tags fr.subjonctif
+  fill: Quand nous sommes arrivés sur le quai, le train ___ déjà ___ (partir). || était ; parti || The departure happened before our arrival: plus-que-parfait. Partir takes être: il était parti. || @tags fr.plus-que-parfait @obj Report what people say and explain what had happened before, using reported speech and the plus-que-parfait
+  rw: Report what Lina says. Start with "Lina dit que…" :: « Je suis fatiguée et je reste chez moi ce soir. » || Lina dit qu'elle est fatiguée et qu'elle reste chez elle ce soir. | Lina dit qu'elle est fatiguée et reste chez elle ce soir. || Je becomes elle and moi becomes elle; the tense stays in the present after dit. || @tags fr.reported-speech
+  mc: "Je suis vraiment contente que tu ___ venir samedi." || peux | *puisses | pourras || Être content que expresses an emotion, so it takes the subjunctive: que tu puisses. || @tags fr.subjonctif-triggers @obj Express opinions, feelings and proposals about the city and the environment with the subjunctive and the gérondif
+  fill: On économise de l'eau ___ (prendre) une douche plutôt qu'un bain. || en prenant || Gérondif = en + present participle; nous prenons → prenant. || @tags fr.gerondif
+  mc: "— Tu as rendu les clés à la propriétaire ? — Oui, je ___ ai rendues hier." || lui les | *les lui | leur les || With two pronouns, le / la / les come before lui / leur: je les lui ai rendues. || @tags fr.object-pronouns @obj Talk about wellbeing, food and sport, replacing repeated words with y, en and double object pronouns
+  fill: — Tu penses encore à ton entretien ? — Oui, j'___ pense tout le temps ! || y || Penser à + a thing is replaced by y: j'y pense. || @tags fr.y-en
+  fill: C'est un roman ___ tout le monde parle en ce moment. || dont || Parler de quelque chose → the relative pronoun is dont. || @tags fr.relative-pronouns @obj Review and recommend films, books and music, and retell a story, using dont, ce qui and ce que
+  mc: "___ m'a surpris dans ce film, c'est la fin." || Ce que | *Ce qui | Ce dont || The pronoun is the subject of a surpris, so it is ce qui. || @tags fr.relative-pronouns
+  fill: Si j'avais plus de temps, je ___ (voyager) en train. || voyagerais || Si + imparfait in one clause, conditionnel in the other: je voyagerais. || @tags fr.si-clauses,fr.conditionnel @obj Imagine situations and discuss hypotheses with si + imparfait + conditionnel
+  tr: If I were you, I would take the train. || À ta place, je prendrais le train. | À votre place, je prendrais le train. | Si j'étais toi, je prendrais le train. | Si j'étais vous, je prendrais le train. || À ta place or si j'étais toi, followed by the conditional (je prendrais). || @tags fr.si-clauses,fr.conditionnel
+  listen: Bonjour, c'est Inès Martin, du service des ressources humaines. Je vous appelle au sujet de votre candidature. Pourriez-vous me rappeler avant jeudi ? || What does Inès want? || *A call back before Thursday | An email with a CV by Thursday | An interview on Thursday morning || "Pourriez-vous me rappeler avant jeudi ?" — she asks for a call back. || @tags fr.listening,fr.conditionnel
+  listen: La mairie annonce que le marché de Noël est reporté à samedi prochain, parce qu'il va pleuvoir tout le week-end. || What does the town hall say about the Christmas market? || It is cancelled | *It is postponed to next Saturday | It starts this Saturday || "Reporté à samedi prochain" = postponed to next Saturday, because of the rain. || @tags fr.listening,fr.reported-speech
+  listen: Je fais du vélo trois fois par semaine. Au début, j'en faisais pour mon dos, mais maintenant, j'adore ça ! || Why did the speaker start cycling? || *For their back | To lose weight | To meet new people || "Au début, j'en faisais pour mon dos" — en replaces du vélo. || @tags fr.listening,fr.y-en
+  short: A friend sleeps badly. Give one piece of advice in French, starting with "Il faut que tu…". || kw: il faut que tu & ailles/fasses/dormes/boives/éteignes/prennes/arrêtes/te couches/évites/lises/mettes/sortes/coupes/laisses || After il faut que, use the subjunctive, e.g. Il faut que tu éteignes ton téléphone une heure avant de dormir. || @tags fr.subjonctif-triggers
+  write: Write a short review (60–80 words) of a film, series or book you liked — what it is about, what you liked and who you recommend it to. || min=60 || req: ce qui/ce que | qui/que/dont | conseille/recommande || J'ai adoré « La Dernière Saison », une série dont tout le monde parle en ce moment. C'est l'histoire d'une famille qui reprend une vieille ferme dans le Jura. Ce qui m'a plu, c'est l'humour des dialogues et la musique. Ce que j'ai moins aimé, c'est le dernier épisode, un peu trop long. Je la recommande à tous ceux qui aiment les histoires de famille.
