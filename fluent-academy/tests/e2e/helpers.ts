@@ -17,7 +17,7 @@ export async function signUpAndOnboard(page: Page, opts: { name?: string; email?
   await page.getByRole("button", { name: /create account/i }).click();
   await page.waitForURL(/\/onboarding/);
 
-  await page.getByLabel("Native language").selectOption("en");
+  await page.locator("select#native").selectOption("en");
   await page.getByRole("button", { name: /continue/i }).click();
   await page.getByRole("radio", { name: /français/i }).click();
   await page.getByRole("button", { name: /continue/i }).click();
