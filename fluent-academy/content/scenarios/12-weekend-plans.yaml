@@ -74,3 +74,18 @@ languages:
       Perfect. Where shall we meet? | - | Suggest a meeting place | kw: outside/at/station/café/my place
       Great. And how about getting something to eat afterwards? | - | Accept or decline | kw: yes/no/love/sorry
       Brilliant, it's a plan then! | - | Confirm the plan | kw: Saturday/see you/OK/great
+  da:
+    opener: Hej! Har du planer i weekenden? | Hi! Have you got any plans this weekend?
+    focus: [da.modal-verbs, da.time, da.word-order]
+    vocab: |
+      vi kunne… | we could…
+      har du lyst til at…? | do you fancy …?
+      jeg kan desværre ikke, jeg skal… | unfortunately I can't, I have to…
+      hvor skal vi mødes? | where shall we meet?
+      vi ses på lørdag! | see you on Saturday!
+    script: |
+      Jeg har tid på lørdag. Skal vi lave noget sammen? | I'm free on Saturday. Shall we do something together? | Suggest an activity: Vi kunne… | kw: kunne/skal vi/biografen/stranden/park/lyst
+      God idé! Kan du lørdag eftermiddag? | Good idea! Can you do Saturday afternoon? | Agree or suggest another time | kw: ja/gerne/hellere/søndag/aften/klokken
+      Super. Hvor skal vi mødes? | Great. Where shall we meet? | Suggest a meeting place, e.g. ved Nørreport Station | kw: ved/foran/stationen/café/hos
+      Fedt! Skal vi også spise sammen bagefter? | Great! Shall we have something to eat together afterwards? | Accept or decline | kw: ja/nej/gerne/desværre
+      Fint, så gør vi det! | Fine, let's do that then! | Confirm the plan | kw: lørdag/ses/okay/super

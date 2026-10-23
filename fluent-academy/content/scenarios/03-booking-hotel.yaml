@@ -73,3 +73,18 @@ languages:
       Breakfast is 14 pounds per person. Is there anything else you'd like to know? | - | Ask about wifi, parking or check-in | kw: wifi/parking/time/is there
       Of course. Could I take a name for the booking? | - | Give your name | kw: name/it's/my
       Lovely. I'll email you a confirmation. Anything else I can help with? | - | Thank the receptionist and say goodbye | kw: thank/bye/no
+  da:
+    opener: Hotel Strandly, det er Mette. Hvad kan jeg hjælpe med? | Hotel Strandly, this is Mette. How can I help?
+    focus: [da.register, da.questions, da.dates]
+    vocab: |
+      at bestille et værelse | to book a room
+      et dobbeltværelse / et enkeltværelse | a double / single room
+      er morgenmaden inkluderet? | is breakfast included?
+      fra den … til den … | from the … to the … (dates)
+      en overnatning | a night's stay
+    script: |
+      Ja, gerne. Hvor mange personer er I, og hvilke datoer drejer det sig om? | Yes, of course. How many people are you, and which dates are we talking about? | Give the number of people and the dates | kw: person/nat/nætter/fra den/til den
+      Jeg har et dobbeltværelse med havudsigt til 1.100 kroner pr. nat. Passer det? | I have a double room with a sea view for 1,100 kroner a night. Does that suit you? | Accept, or ask about the price or breakfast | kw: ja/morgenmad/inkluderet/pris/koster
+      Morgenmaden koster 150 kroner pr. person. Har du andre spørgsmål? | Breakfast costs 150 kroner per person. Do you have any other questions? | Ask about wifi, parking or check-in | kw: wifi/internet/parkering/tjek/indtjekning/hvornår/er der
+      Selvfølgelig. Hvilket navn skal reservationen stå i? | Of course. What name should the booking be under? | Give your name | kw: navn/hedder/er
+      Tusind tak. Jeg sender en bekræftelse på mail. Var der andet? | Thank you very much. I'll send you a confirmation by email. Was there anything else? | Thank her and say goodbye | kw: tak/farvel/nej/hej

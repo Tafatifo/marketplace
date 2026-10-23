@@ -73,3 +73,18 @@ languages:
       Are you taking any medication at the moment? Any allergies? | - | Answer the questions | kw: no/yes/taking/allergic/allergy
       Well, it's probably a virus. I'll prescribe some syrup, and you need plenty of rest. | - | Ask a question about the treatment | kw: how often/how long/when/should
       Twice a day for five days. If you don't feel better, come back and see me. | - | Thank the doctor | kw: thank/bye/OK
+  da:
+    opener: Goddag, sæt dig bare ned. Hvad kan jeg hjælpe dig med i dag? | Hello, do take a seat. What can I help you with today?
+    focus: [da.prepositions-time, da.perfect, da.imperative]
+    vocab: |
+      jeg har ondt i hovedet / halsen | I have a headache / sore throat
+      i tre dage | for three days
+      jeg har feber | I have a temperature
+      en recept | a prescription
+      hvor mange gange om dagen? | how many times a day?
+    script: |
+      Okay. Hvor længe har du haft det sådan? | OK. How long have you felt like this? | Say how long: i tre dage / siden i mandags | kw: dage/uge/siden/i går
+      Har du feber? | Do you have a temperature? | Answer and give details | kw: ja/nej/feber/grader
+      Tager du noget medicin for tiden? Har du nogen allergier? | Are you taking any medication at the moment? Do you have any allergies? | Answer the questions | kw: nej/ja/tager/allergi/allergisk
+      Det er nok en virus. Jeg giver dig en recept på hostesaft, og så skal du hvile dig. | It's probably a virus. I'll give you a prescription for cough syrup, and you need to rest. | Ask about the treatment | kw: hvor mange gange/hvornår/hvor længe/hvordan
+      To gange om dagen i fem dage. Kom igen, hvis det ikke bliver bedre. | Twice a day for five days. Come back if it doesn't get better. | Thank the doctor | kw: tak/farvel/okay

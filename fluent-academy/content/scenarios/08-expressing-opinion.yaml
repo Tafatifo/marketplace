@@ -69,3 +69,18 @@ languages:
       But don't you think people end up feeling isolated at home? | - | Respond to the counter-argument | kw: fair point/but/not necessarily/I'm not
       And for companies — is it actually a good deal, in your view? | - | Give your view on employers | kw: companies/costs/productivity/advantage/think
       So, all things considered, are you more for or against it? | - | Give a nuanced conclusion | kw: overall/depends/on balance/all in all
+  da:
+    opener: Sig mig, synes du egentlig, at hjemmearbejde er en god idé? | Tell me, do you actually think working from home is a good idea?
+    focus: [da.opinion, da.subordinate-clauses, da.discourse-markers]
+    vocab: |
+      efter min mening | in my opinion
+      på den ene side… på den anden side… | on the one hand… on the other…
+      jeg tror ikke, at… | I don't think that…
+      det er rigtigt, men… | that's true, but…
+      det kommer an på… | it depends on…
+    script: |
+      Okay. Hvorfor synes du det? | OK. Why do you think so? | Give at least two reasons | kw: fordi/for det første/også/derfor
+      Interessant. Kan du give mig et konkret eksempel? | Interesting. Can you give me a concrete example? | Give an example from your experience | kw: for eksempel/fx/da jeg/når jeg
+      Men tror du ikke, at man kan føle sig isoleret, når man sidder alene derhjemme? | But don't you think people can feel isolated when they're sitting alone at home? | Respond to the counter-argument | kw: det er rigtigt/men/ikke nødvendigvis/jeg tror ikke
+      Og hvad med virksomhederne – er det en fordel for dem, synes du? | And what about companies — is it an advantage for them, do you think? | Give your view on employers | kw: virksomhed/fordel/udgifter/efter min mening/produktiv
+      Så alt i alt: er du mest for eller imod? | So all in all: are you mostly for or against? | Give a nuanced conclusion | kw: alt i alt/kommer an på/mest/overordnet

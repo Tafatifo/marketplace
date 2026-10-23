@@ -1,0 +1,366 @@
+unit: 2
+title: Familie, venner og kolleger
+theme: Family and people
+description: Talk about your family with min, mit and mine, describe what people look like and what they are like, and say what you do and where you work.
+free: true
+objectives:
+  - Talk about family members with the right possessive (min, mit, mine)
+  - Describe people's appearance and personality with adjectives that agree with the noun
+  - Say what job you do and where you work, using en and et correctly
+canDo:
+  - I can name the people in my family and say how old they are.
+  - I can describe what someone looks like and what they are like.
+  - I can say what I do and where I work, and ask others the same.
+review: |
+  fill: ___ børn er søde. (my) || Mine || Børn is plural, so "my" is mine. || @tags da.possessives
+  fill: Han har ___ hår. (kort) || kort || Kort already ends in -t, so it doesn't change with the et-word hår. || @tags da.adjective-agreement
+  fill: Vi har et ___ hus. (stor) || stort || Hus is an et-word: add -t — et stort hus. || @tags da.adjective-agreement
+  mc: "Her daughter" in Danish is… || *hendes datter | hans datter | hun datter || Hendes = her, hans = his. Hun means she, not her. || @tags da.possessives
+  mc: Which sentence is correct? || *Jeg er studerende. | Jeg er en studerende. | Jeg studerende. || After være, a job or status has no article: jeg er studerende. || @tags da.gender
+  rw: Make it plural :: Mit barn er sødt. || Mine børn er søde. || Plural: mit → mine, barn → børn, sødt → søde. || @tags da.possessives,da.adjective-agreement
+  tr: My parents live in Odense. || Mine forældre bor i Odense. || Forældre is plural, so use mine. || @tags da.possessives
+  tr: Our son is tall and very funny. || Vores søn er høj og meget sjov. | Vores søn er høj, og han er meget sjov. || Vores never changes; søn is singular, so høj and sjov take no ending. || @tags da.possessives,da.adjective-agreement
+  listen: Det er min farmor. Hun er pensionist, og hun bor i Ribe. || Who is the woman? || *The speaker's grandmother (father's mother) | The speaker's mother | The speaker's sister || Farmor = far + mor, the father's mother. She is retired (pensionist). || @tags da.listening
+  listen: Min nabo er sød. Hun har kort, lyst hår og blå øjne. || What does the neighbour look like? || Long fair hair and brown eyes | *Short fair hair and blue eyes | Short dark hair and blue eyes || Kort, lyst hår = short, fair hair; blå øjne = blue eyes. || @tags da.adjective-agreement
+  ask: Show a (real or imagined) family photo — say who two people are, how old they are and what they do. || kw: min/mit/mine & er & hedder/år || Det er min bror. Han hedder Jonas, han er tyve år, og han er studerende. Og det er min mor. Hun er læge.
+  write: Write an email to a new pen-pal about your family — who they are, their names, ages and jobs, and one description. || min=30 || req: min/mine | hedder | er | har || Hej Sam! Jeg har en lille familie. Min mor hedder Karen, og hun er lærer. Min far er ingeniør. Jeg har en bror. Han hedder Mads, og han er sytten år. Han er høj og meget sjov. Hilsen Freja
+lessons:
+  - title: My family
+    summary: Name the people in your family and use the possessives min, mit and mine, which follow the noun's gender.
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [da.possessives, da.gender]
+    objectives:
+      - Name close family members, including the four Danish words for grandparents
+      - Choose min/mit/mine and din/dit/dine to match the noun
+      - Ask and answer questions about someone's family
+    intro: |
+      Family is one of the first things people talk about. Danish has a neat system for grandparents — **mormor** is your mother's mother and **farmor** your father's mother. You will also meet the most important idea in Danish grammar: every noun is an **en-word** or an **et-word**, and words like *my* and *your* change with it.
+    vocab: |
+      en familie | a family | n | Min familie bor i Vejle. | My family lives in Vejle. | g: c | pl: familier
+      en mor | a mother | n | Min mor hedder Birgit. | My mother's name is Birgit. | g: c | pl: mødre
+      en far | a father | n | Min far er fra Tyrkiet. | My father is from Turkey. | g: c | pl: fædre
+      forældre | parents | n | Mine forældre bor i Aalborg. | My parents live in Aalborg. | n: Plural: use mine, dine, vores… with it.
+      en bror | a brother | n | Min bror er tyve år. | My brother is twenty. | g: c | pl: brødre
+      en søster | a sister | n | Har du en søster? | Do you have a sister? | g: c | pl: søstre
+      søskende | siblings; brothers and sisters | n | Har du nogen søskende? | Do you have any brothers or sisters? | n: Always plural. A very common question when you get to know someone.
+      en søn | a son | n | Vores søn hedder Malte. | Our son's name is Malte. | g: c | pl: sønner
+      en datter | a daughter | n | Deres datter er ni år. | Their daughter is nine. | g: c | pl: døtre
+      et barn | a child | n | De har et barn. | They have one child. | g: n | pl: børn | n: One of the few words for people that is an et-word.
+      en mormor | a grandmother (mother's mother) | n | Min mormor bor på Fyn. | My grandmother lives on Funen. | g: c | n: Mormor = mother's mother, farmor = father's mother; the grandfathers are morfar and farfar.
+      en mand | a husband; a man | n | Hendes mand hedder Jens. | Her husband is called Jens. | g: c | pl: mænd
+      en kone | a wife | n | Hans kone er læge. | His wife is a doctor. | g: c | pl: koner
+      en kæreste | a boyfriend; a girlfriend; a partner | n | Min kæreste hedder Sam. | My partner's name is Sam. | g: c | pl: kærester | n: Kæreste works for any gender.
+    grammar:
+      title: "Min, mit, mine — my and your"
+      body: |
+        Every Danish noun is either an **en-word** (*fælleskøn*, common gender) or an **et-word** (*intetkøn*, neuter): *en mor, en søn* but *et barn, et navn*. About three out of four nouns are en-words. There is no reliable rule, so learn each noun together with *en* or *et*.
+
+        The words for *my* and *your* (du) follow the noun:
+
+        - **min / din** + en-word: *min mor, din bror*
+        - **mit / dit** + et-word: *mit barn, dit navn*
+        - **mine / dine** + plural: *mine forældre, dine børn*
+
+        **Hans** (his), **hendes** (her), **vores** (our), **jeres** (your, plural) and **deres** (their) never change: *hans bror, hans barn, hans børn*.
+
+        The noun after a possessive keeps its basic form: *min bror* (not ~~min broren~~).
+      table: |
+        | en-word | et-word | plural
+        my | min mor | mit barn | mine børn
+        your (du) | din far | dit navn | dine forældre
+        his / her | hans / hendes bror | hans / hendes barn | hans / hendes søstre
+        our | vores søn | vores hus | vores børn
+        your (I) / their | jeres / deres datter | jeres / deres hus | jeres / deres børn
+      examples: |
+        Min mor hedder Karen, og mit barn hedder Liv. | My mother is called Karen, and my child is called Liv.
+        Er det dine forældre? | Are those your parents? | plural → dine
+        Hun har to børn. Hendes søn er syv år. | She has two children. Her son is seven.
+        Vores familie bor i Vejle. | Our family lives in Vejle. | vores never changes
+      tip: Learn every noun with en or et — en bror, et barn. The article tells you whether to say min or mit.
+    dialogue:
+      title: Familiebilleder
+      setting: Lunch break at a school in Vejle. Freja shows her colleague Ahmed some family photos on her phone.
+      speakers: F=Freja/f; A=Ahmed/m
+      lines: |
+        A: Er det din familie? | Is that your family?
+        F: Ja. Det er min mor og min far. | Yes. That's my mum and my dad.
+        A: Og hvem er det? | And who's that?
+        F: Det er min bror, Mads. Han er sytten. | That's my brother, Mads. He's seventeen.
+        A: Har du også en søster? | Do you also have a sister?
+        F: Nej, men jeg har en halvsøster i Sverige. | No, but I have a half-sister in Sweden.
+        A: Bor dine forældre i Vejle? | Do your parents live in Vejle?
+        F: Ja, og min mormor bor på Fyn. | Yes, and my grandmother lives on Funen.
+        F: Hvad med dig? Har du søskende? | What about you? Do you have brothers or sisters?
+        A: Ja, jeg har tre søstre! | Yes, I have three sisters!
+        F: Tre søstre? Hvor hyggeligt! | Three sisters? How lovely!
+    pronunciation:
+      title: "The vowels æ and ø"
+      body: |
+        **Æ** is like the *e* in English *bed*, but a little more open; when it is long, as in **kæreste**, it is close to the vowel in *air* (without the r). **Ø** has no English equivalent: say the *e* of *bed* or the *ay* of *say*, then round your lips as if for *oo*. You hear it in **søster**, **søn** and **børn**.
+
+        Keep your lips rounded through the whole ø — that is the difference between *her* (here) and *hør!* (listen!). Listen and repeat each item.
+      items: |
+        søster
+        søn
+        børn
+        brødre
+        kæreste
+        Min søster og min bror.
+    culture:
+      title: Mormor, farmor and bonus families
+      body: |
+        Danish shows which side of the family a grandparent belongs to: **mormor** and **morfar** are your mother's parents, **farmor** and **farfar** your father's parents. Great-grandparents follow the same pattern: *oldemor*, *oldefar*.
+
+        Families come in many shapes. Many couples live together for years without marrying, and when parents start new relationships, Danes often speak of a **bonusmor**, **bonusfar** or **bonusbørn** (step-mother, step-father, step-children) — a friendly word that many families prefer.
+    mistakes: |
+      min barn => mit barn | Barn is an et-word, so "my" is mit.
+      mit forældre => mine forældre | Forældre is plural, so use mine.
+      Min broren hedder Mads. => Min bror hedder Mads. | After a possessive, the noun has no ending: min bror.
+    task:
+      title: A family photo
+      mode: speaking
+      body: |
+        Choose a real or imagined family photo. Say who four people are, their names and ages, and where they live — for example "Det er min mormor. Hun hedder Inge, og hun bor i Ribe." Record yourself, then write the same text in three or four sentences.
+    exercises: |
+      fill: ___ mor hedder Birgit. (my) || Min || Mor is an en-word, so "my" is min. || @tags da.possessives
+      fill: Hvad hedder ___ barn? (your — du) || dit || Barn is an et-word, so "your" is dit. || @tags da.possessives
+      mc: "Their children" in Danish is… || *deres børn | deres barn | dine børn || Deres = their (it never changes); børn is the plural of barn. Dine means your. || @tags da.possessives
+      mc: Choose the correct phrase. || min navn | *mit navn | mine navn || Navn is an et-word: mit navn. || @tags da.possessives,da.gender
+      mc: Who is Mads? || *Freja's brother | Freja's father | Ahmed's brother || "Det er min bror, Mads." || @ctx dialogue @skill reading @tags da.reading
+      tf: Freja's grandmother lives in Vejle. || false || Her parents live in Vejle, but her grandmother lives on Funen: "min mormor bor på Fyn". || @ctx dialogue
+      short: How many sisters does Ahmed have? || kw: 3/tre/three || Ahmed says "Jeg har tre søstre!" || @ctx dialogue
+      match: mormor = mother's mother ; farmor = father's mother ; morfar = mother's father ; farfar = father's father || Mor = mother, far = father: the first part tells you which side of the family. || @skill vocabulary @tags da.vocabulary
+      order: Vores søn er syv år, og vores datter er ni. || Our son is seven, and our daughter is nine. || @tags da.possessives
+      tr: My sister has two children. || Min søster har to børn. || Søster is an en-word: min søster. Børn is the plural of barn. || @tags da.possessives
+      tr: Do you have any brothers or sisters? || Har du søskende? | Har du nogen søskende? || Søskende covers brothers and sisters together. || @tags da.questions
+      listen: Jeg hedder Laila. Min mand hedder Jens, og vi har to døtre. || What children does Laila have? || *Two daughters | Two sons | One daughter and one son || Døtre is the plural of datter (daughter). || @tags da.listening
+      ask: Talk about your family — say who is in it and give two names. || kw: min/mit/mine & hedder/er/har || Jeg har en bror og en søster. Min bror hedder Mads, og min søster hedder Ida.
+      write: Write three or four sentences about your family (who, names, where they live). || min=20 || req: min/mit/mine | hedder | bor/har/er || Min familie er lille. Min mor hedder Karen, og min far hedder Ole. Jeg har en søster. Hun hedder Ida, og hun bor i Aarhus.
+      dict: Mine forældre bor på Fyn.
+
+  - title: Describing people
+    summary: Say what people look like and what they are like, with adjectives that agree with en-words, et-words and plurals.
+    minutes: 40
+    skills: [grammar, vocabulary, writing]
+    tags: [da.adjective-agreement]
+    objectives:
+      - Describe height, age, hair and eyes
+      - Describe personality with sød, sjov and glad
+      - Add -t or -e to adjectives to match the noun
+    intro: |
+      Describing people is useful when you meet someone at the station, talk about a new colleague or write to a pen-pal. Danish adjectives change their ending to match the noun — *en høj mand, et stort hus, høje mænd* — and one small word, **hår** (hair), is an et-word, so you will say *langt hår* and *kort hår*.
+    vocab: |
+      høj | tall | adj | Min bror er høj. | My brother is tall. | n: høj, højt, høje
+      lav | short (person) | adj | Min mormor er lav. | My grandmother is short. | n: Lav is for people's height; for hair and things, use kort.
+      ung | young | adj | Han er ung, kun tyve år. | He's young, only twenty.
+      gammel | old | adj | Vores hund er gammel. | Our dog is old. | n: Forms: gammel, gammelt, gamle.
+      sød | sweet; kind | adj | Min nabo er meget sød. | My neighbour is very kind. | n: Danes often use sød about kind, friendly people.
+      sjov | funny; fun | adj | Mikkel er rigtig sjov. | Mikkel is really funny.
+      glad | happy | adj | De er glade i dag. | They're happy today.
+      smuk | beautiful | adj | Hun har et smukt smil. | She has a beautiful smile. | n: The k doubles in the plural: smukke.
+      hår | hair | n | Hun har langt, lyst hår. | She has long, fair hair. | g: n | n: An et-word, so adjectives take -t: langt, lyst, mørkt hår.
+      kort | short (hair, things) | adj | Han har kort, mørkt hår. | He has short, dark hair. | n: It already ends in -t, so the et-form is the same: kort hår.
+      et øje | an eye | n | Hun har brune øjne. | She has brown eyes. | g: n | pl: øjne
+      briller | glasses | n | Min far går med briller. | My father wears glasses. | n: Always plural. Gå med briller = wear glasses.
+      meget | very | adv | Han er meget høj. | He's very tall.
+    grammar:
+      title: "Adjectives: stor, stort, store"
+      body: |
+        A Danish adjective changes its ending to match the noun it describes:
+
+        - **en-word** (singular): no ending — *en høj mand*, *Min bror er høj.*
+        - **et-word** (singular): add **-t** — *et højt hus*, *Mit barn er sødt.* Remember: **hår** is an et-word — *langt hår*.
+        - **plural**: add **-e** — *høje mænd*, *Mine børn er søde.*
+
+        The ending is the same before the noun (*en sød pige*) and after *er* (*pigen er sød*).
+
+        A few things to watch:
+
+        - Adjectives that already end in **-t** don't add another: *kort hår, et kort navn.*
+        - Most adjectives ending in **-sk** don't take -t: *et dansk navn.*
+        - **gammel** → *gammelt, gamle*; **smuk** → *smukt, smukke*.
+        - **lille** (small) is irregular: *en lille hund, et lille barn*, but plural **små**: *små børn.*
+      table: |
+        Adjective | en-word | et-word | plural
+        høj (tall) | en høj mand | et højt hus | høje mænd
+        sød (sweet) | en sød pige | et sødt barn | søde børn
+        lang (long) | en lang dag | langt hår | lange dage
+        gammel (old) | en gammel bil | et gammelt hus | gamle huse
+        kort (short) | en kort film | kort hår | korte navne
+        lille (small) | en lille hund | et lille barn | små børn
+      examples: |
+        Min søster er høj, og hun har langt hår. | My sister is tall, and she has long hair.
+        De er unge og meget sjove. | They are young and very funny. | plural → -e
+        Hun har et sødt smil og brune øjne. | She has a sweet smile and brown eyes.
+        Vores hus er gammelt, men det er hyggeligt. | Our house is old, but it's cosy. | et-word → -t
+      tip: "Check the noun first: en-word → no ending, et-word → -t, plural → -e."
+    dialogue:
+      title: På stationen
+      setting: Jonas is at Aarhus station to pick up Sara, a friend of his sister Ida. He has never met Sara, so he calls Ida.
+      speakers: J=Jonas/m; I=Ida/f
+      lines: |
+        J: Hej, Ida. Jeg er på stationen nu. | Hi, Ida. I'm at the station now.
+        I: Godt! Sara er der også. | Good! Sara is there too.
+        J: Hvordan ser hun ud? | What does she look like?
+        I: Hun er høj og har langt, mørkt hår. | She's tall and has long, dark hair.
+        J: Har hun briller? | Does she wear glasses?
+        I: Ja, hun har store, sorte briller. | Yes, she has big, black glasses.
+        J: Okay. Hvor gammel er hun? | Okay. How old is she?
+        I: Hun er tyve. Og hun er meget sød! | She's twenty. And she's very nice!
+        J: Har hun en stor kuffert? | Does she have a big suitcase?
+        I: Ja, en meget stor kuffert. | Yes, a very big suitcase.
+        J: Okay, jeg kan se hende! | Okay, I can see her!
+    pronunciation:
+      title: "The vowel å — and a surprise in også"
+      body: |
+        **Å** sounds like the vowel in British English *saw* or *more* (without the r): round your lips and open your mouth a little. You hear it in **hår** (hair) and **blå** (blue).
+
+        Some everyday words lose letters in normal speech. **Også** (also) usually sounds like "osse", and in **langt** you hear the *ng* sound, as in English *long*, followed by a soft t. Listen and repeat.
+      items: |
+        hår
+        blå øjne
+        langt hår
+        også
+        kort hår
+        Hun har langt hår.
+    culture:
+      title: "Sød, sjov and hyggelig"
+      body: |
+        When Danes describe people they like, the most common words are not about looks. **Sød** (sweet) means kind and friendly — *hun er så sød* is a real compliment for an adult. **Sjov** means funny or fun to be with, and a **hyggelig** person is pleasant and easy to spend time with.
+
+        Comments on someone's appearance are usually kept for people you know well. When you meet someone new, *Hyggeligt at møde dig* and a smile go a long way.
+    mistakes: |
+      Hun har lang hår. => Hun har langt hår. | Hår is an et-word, so the adjective takes -t.
+      Mine brødre er høj. => Mine brødre er høje. | With a plural noun, the adjective takes -e.
+      Vi har to lille børn. => Vi har to små børn. | Lille is irregular: the plural is små.
+    task:
+      title: Find my friend
+      mode: writing
+      body: |
+        A friend is picking up someone you know at the station. Write a short text message describing that person: height, age, hair, eyes, glasses and one personality word — like Ida in the dialogue.
+    exercises: |
+      fill: Hun har ___ hår. (lang) || langt || Hår is an et-word: add -t — langt hår. || @tags da.adjective-agreement
+      fill: Mine brødre er ___. (høj) || høje || Plural subject: add -e — høje. || @tags da.adjective-agreement
+      fill: Vores hus er ___. (gammel) || gammelt || Hus is an et-word: gammel → gammelt. || @tags da.adjective-agreement
+      fill: Han er ___ og meget sjov. (ung) || ung || Han is one person (like an en-word): no ending. || @tags da.adjective-agreement
+      mc: Which is correct? || to lille børn | *to små børn | to små barn || Lille has the irregular plural små, and the plural of barn is børn. || @tags da.adjective-agreement
+      mc: How do you say "a sweet child"? || en sød barn | *et sødt barn | et sød barn || Barn is an et-word: et + sødt (with -t). || @tags da.adjective-agreement,da.gender
+      mc: What does Sara look like? || *Tall, with long dark hair | Short, with short fair hair | Tall, with short dark hair || "Hun er høj og har langt, mørkt hår." || @ctx dialogue @skill reading @tags da.reading
+      tf: Sara is thirty. || false || Ida says "Hun er tyve" — she's twenty. || @ctx dialogue
+      rw: Make it plural :: Min søster er høj. || Mine søstre er høje. || Plural: min → mine, søster → søstre, høj → høje. || @tags da.adjective-agreement,da.possessives
+      order: Han har kort, mørkt hår og brune øjne. || He has short, dark hair and brown eyes. || @tags da.adjective-agreement
+      tr: My father is tall, and he wears glasses. || Min far er høj, og han har briller. | Min far er høj, og han går med briller. | Min far er høj og har briller. | Min far er høj og går med briller. || Far is an en-word, so høj has no ending; "wears glasses" is har briller or går med briller. || @tags da.adjective-agreement
+      listen: Min kollega hedder Bo. Han er lav, og han har kort, lyst hår. || What does Bo look like? || Tall, with long fair hair | *Short, with short fair hair | Short, with long dark hair || Lav = short (height); kort, lyst hår = short, fair hair. || @tags da.adjective-agreement
+      ask: Describe a friend — say if they are tall or short, what their hair is like, and one personality word. || kw: høj/lav & hår || Min ven Ali er høj, og han har kort, mørkt hår. Han er meget sjov.
+      write: Describe a family member or friend (name, age, appearance, personality). || min=25 || req: hedder | er | har | hår || Min veninde hedder Camilla. Hun er atten år. Hun er høj og har langt, lyst hår og blå øjne. Hun er sød og meget sjov.
+      dict: Hun er høj og har langt, mørkt hår.
+
+  - title: Jobs and workplaces
+    summary: Say what you do and where you work — with no article before the job — and learn nouns together with en or et.
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [da.gender]
+    objectives:
+      - Name common jobs and workplaces
+      - Say your job without an article (jeg er lærer)
+      - Use en and et with workplaces (et kontor, en skole)
+    intro: |
+      "Hvad laver du?" (What do you do?) is a question you will hear often in Denmark. To answer, you need the words for jobs and workplaces — and one simple rule: after **er**, the job has no article. *Jeg er lærer* means "I'm a teacher". Each workplace noun is an en-word or an et-word, so learn it with its article.
+    vocab: |
+      en lærer | a teacher | n | Min mor er lærer. | My mother is a teacher. | g: c | pl: lærere
+      en læge | a doctor | n | Hun er læge i Odense. | She's a doctor in Odense. | g: c | pl: læger
+      en sygeplejerske | a nurse | n | Jens er sygeplejerske. | Jens is a nurse. | g: c | pl: sygeplejersker
+      en kok | a cook; a chef | n | Han er kok på en restaurant i Aarhus. | He's a chef at a restaurant in Aarhus. | g: c | pl: kokke
+      en ingeniør | an engineer | n | Min søster er ingeniør. | My sister is an engineer. | g: c | pl: ingeniører | n: Stress on the last syllable: in-ge-ni-ØR.
+      en studerende | a student | n | Jeg er studerende på universitetet. | I'm a student at the university. | g: c | pl: studerende | n: A university student. A school pupil is en elev.
+      en pensionist | a retired person | n | Min farfar er pensionist. | My grandfather is retired. | g: c | pl: pensionister
+      arbejde | to work | v | Jeg arbejder i en butik. | I work in a shop. | n: Present tense: arbejder. Also a noun: et arbejde (a job).
+      et kontor | an office | n | Hun arbejder på et kontor. | She works in an office. | g: n | pl: kontorer
+      et hospital | a hospital | n | Han arbejder på et hospital i Odense. | He works at a hospital in Odense. | g: n | pl: hospitaler
+      en skole | a school | n | Min far arbejder på en skole. | My father works at a school. | g: c | pl: skoler
+      en butik | a shop | n | Hun arbejder i en butik i Vejle. | She works in a shop in Vejle. | g: c | pl: butikker
+      en kollega | a colleague | n | Min kollega hedder Ole. | My colleague is called Ole. | g: c | pl: kolleger | n: The plural kollegaer is also correct.
+      hvad laver du? | what do you do? | expr | Hvad laver du? – Jeg er kok. | What do you do? – I'm a chef. | n: Also: Hvad arbejder du med? (What do you work with?)
+    grammar:
+      title: "En or et? Jobs without an article"
+      body: |
+        Every noun is an **en-word** or an **et-word**, and the indefinite article (*a/an*) is **en** or **et**: *en skole, en butik* but *et kontor, et hospital*. Words for people are nearly always en-words (*en lærer, en kollega*) — an important exception is **et barn** (a child). If you have to guess, guess *en*: about three in four nouns are en-words.
+
+        **Jobs.** After *være*, Danish uses **no article** before a job or status: *Jeg er lærer. Hun er studerende.* But if you add an adjective, the article comes back: *Hun er **en** god læge.*
+
+        **Where you work.** Learn these as fixed phrases: *arbejde **på** et kontor / et hospital / en skole*, but *arbejde **i** en butik*. You will learn more about *i* and *på* in unit 5.
+
+        To ask about someone's job, say **Hvad laver du?** or **Hvad arbejder du med?**
+      table: |
+        Question | Answer | Note
+        Hvad laver du? | Jeg er lærer. | no article after er
+        Hvad laver hun? | Hun er en god læge. | article + adjective
+        Hvor arbejder du? | Jeg arbejder på et kontor. | på + office, hospital, school
+        Hvor arbejder han? | Han arbejder i en butik. | i + shop
+      examples: |
+        Jeg er ingeniør, og jeg arbejder på et kontor. | I'm an engineer, and I work in an office.
+        Hun er sygeplejerske på et hospital i Aalborg. | She's a nurse at a hospital in Aalborg.
+        Han er en meget god kok. | He's a very good chef. | article because of the adjective
+        Hvad laver din mand? – Han er pensionist. | What does your husband do? – He's retired.
+      tip: If you don't know whether a noun is an en-word or an et-word, guess en — you'll be right about three times out of four.
+    dialogue:
+      title: Til fødselsdag
+      setting: A birthday party at Line's flat in Esbjerg. Two guests, Nanna and Omar, meet in the kitchen.
+      speakers: N=Nanna/f; O=Omar/m
+      lines: |
+        N: Hej, jeg hedder Nanna. Jeg er Lines kollega. | Hi, I'm Nanna. I'm Line's colleague.
+        O: Hej, Nanna. Jeg hedder Omar. Hvad laver du? | Hi, Nanna. I'm Omar. What do you do?
+        N: Jeg er sygeplejerske. Jeg arbejder på hospitalet. | I'm a nurse. I work at the hospital.
+        O: Spændende! Er det et hårdt arbejde? | Exciting! Is it hard work?
+        N: Ja, men det er også sjovt. Og du? | Yes, but it's also fun. And you?
+        O: Jeg er kok på en restaurant ved havnen. | I'm a chef at a restaurant by the harbour.
+        N: Nå! Er det en fiskerestaurant? | Oh! Is it a fish restaurant?
+        O: Ja, og maden er rigtig god. | Yes, and the food is really good.
+        N: Er du også fra Esbjerg? | Are you from Esbjerg too?
+        O: Nej, fra Kolding. Og Line er min søster! | No, from Kolding. And Line is my sister!
+        N: Nå, så er du Lines bror! | Oh, so you're Line's brother!
+    pronunciation:
+      title: "The Danish r: lærer, arbejder"
+      body: |
+        At the start of a word or syllable, the Danish **r** is made far back in the throat, softly — a little like a gentle French r, but without friction. After a vowel it usually melts into a vowel-like sound, so **lærer** sounds roughly like "lair-a".
+
+        Many job words borrowed from French are stressed on the last syllable: **kontor**, **ingeniør**. Listen and repeat each item.
+      items: |
+        lærer
+        arbejder
+        kontor
+        ingeniør
+        sygeplejerske
+        Jeg er lærer.
+    culture:
+      title: Working life in Denmark
+      body: |
+        A normal full-time week in Denmark is 37 hours, and many people leave work around four or five o'clock to pick up children or do sport. Workplaces are usually informal: everyone uses first names, and managers are often called by their first name too.
+
+        Lunch is often short — about half an hour — and many people bring a **madpakke** (a packed lunch, often open sandwiches on rye bread) or eat in a canteen with colleagues.
+    mistakes: |
+      Jeg er en lærer. => Jeg er lærer. | After være, Danish has no article before a job.
+      Hun er god læge. => Hun er en god læge. | With an adjective before the job, you need the article: en god læge.
+      Han arbejder på en kontor. => Han arbejder på et kontor. | Kontor is an et-word.
+    task:
+      title: Small talk at a party
+      mode: interaction
+      body: |
+        At a party, ask two people what they do and where they work, and answer the same questions about yourself: "Hvad laver du? – Jeg er …, og jeg arbejder på/i …". Practise it with a partner or with the AI coach.
+    exercises: |
+      mc: Choose the correct sentence. || Jeg er en læge. | *Jeg er læge. | Jeg læge. || After være, a job takes no article: jeg er læge. || @tags da.gender
+      fill: Han er ___ meget god kok. || en || With an adjective (god), the article comes back: en god kok. || @tags da.gender
+      fill: Hun arbejder på ___ kontor. || et || Kontor is an et-word. || @tags da.gender
+      fill: Min far arbejder på ___ skole. || en || Skole is an en-word. || @tags da.gender
+      mc: Which of these nouns is an et-word? || skole | butik | *hospital || Et hospital; the others are en-words: en skole, en butik. || @tags da.gender
+      mc: Where does Nanna work? || *At the hospital | At a restaurant | At a school || "Jeg arbejder på hospitalet." || @ctx dialogue @skill reading @tags da.reading
+      tf: Omar is a chef. || true || "Jeg er kok på en restaurant ved havnen." || @ctx dialogue
+      short: How is Omar related to Line? || kw: bror/brother || Omar says "Line er min søster", so he is Line's brother. || @ctx dialogue
+      rw: Answer the question with the job in brackets :: Hvad laver du? (teacher) || Jeg er lærer. || Jeg er + job, without an article. || @tags da.gender
+      tr: She's a nurse, and she works at a hospital. || Hun er sygeplejerske, og hun arbejder på et hospital. | Hun er sygeplejerske og arbejder på et hospital. || No article before the job; arbejde på et hospital. || @tags da.gender
+      tr: What do you do? || Hvad laver du? | Hvad arbejder du med? || The everyday question is Hvad laver du? || @tags da.question-words
+      listen: Jeg hedder Esther. Jeg er ingeniør, og jeg arbejder på et kontor i Aarhus. || What is Esther's job? || Nurse | *Engineer | Teacher || Ingeniør = engineer. || @tags da.listening
+      ask: Ask a new acquaintance what they do, then say what you do and where you work. || kw: hvad laver du/hvad arbejder du med & jeg er/jeg arbejder || Hvad laver du? Jeg er kok, og jeg arbejder på en restaurant i Aarhus.
+      write: Write a short profile for a work app — your name, job, workplace and city. || min=15 || req: jeg hedder | jeg er | jeg arbejder || Hej! Jeg hedder Omar. Jeg er kok, og jeg arbejder på en restaurant i Esbjerg.
+      dict: Min mor er lærer på en skole i Vejle.

@@ -73,3 +73,18 @@ languages:
       That could work. What would we need to make it happen? | - | Say what is needed | kw: need/would/people/time/budget
       OK. Who can take ownership of that? | - | Volunteer or assign a task | kw: I can/I'll/take/could
       Perfect. Could you recap what we've agreed? | - | Summarise the decision and next steps | kw: recap/agreed/so/next
+  da:
+    opener: Godt, skal vi gå i gang? Kan du give os en kort status på, hvor langt du er? | Right, shall we get started? Can you give us a quick update on how far you've got?
+    focus: [da.opinion, da.connectors, da.conditional]
+    vocab: |
+      en statusopdatering | a progress update
+      jeg er enig, men… | I agree, but…
+      jeg foreslår, at… | I suggest that…
+      vi bliver nødt til at… | we will have to…
+      for at opsummere… | to sum up…
+    script: |
+      Tak. Kunden vil gerne rykke leveringen to uger frem. Hvad tænker du? | Thanks. The client would like to bring the delivery forward by two weeks. What do you think? | Give your opinion politely | kw: synes/tror/enig/svært/mener
+      Det forstår jeg, men det er vigtigt for dem. Har du en anden løsning? | I understand, but it's important to them. Do you have another solution? | Suggest a compromise: Jeg foreslår, at… | kw: foreslår/kunne/hvis/måske
+      God idé. Hvad ville vi have brug for til det? | Good idea. What would we need for that? | Say what is needed | kw: brug for/ville/tid/person/flere
+      Okay. Hvem kan tage sig af det? | OK. Who can take care of it? | Volunteer or assign a task | kw: jeg kan/tager/kan
+      Perfekt. Kan du lige opsummere, hvad vi har besluttet? | Perfect. Could you quickly sum up what we've decided? | Summarise the decision and next steps | kw: opsummere/besluttet/altså/næste/så

@@ -1,0 +1,368 @@
+unit: 4
+title: Comer y beber
+theme: Food and drink
+description: Order breakfast at a bar, buy food at the market with the right quantities, and order a set menu at a restaurant — with the stem-changing verbs querer, poder, costar, preferir and pedir.
+objectives:
+  - Order food and drink politely with quiero, quería, quisiera and ¿me pone…?
+  - Buy food with quantities (un kilo de, media docena de, un poco de) and ask prices
+  - Use stem-changing verbs (e → ie, o → ue, e → i) and negation with no
+canDo:
+  - I can order a drink and something to eat in a bar or café.
+  - I can buy fruit, bread and other food at a market and ask how much it costs.
+  - I can order a three-course set menu and say what I don't eat.
+  - I can ask for the bill and pay.
+review: |
+  fill: Mi hermana no ___ (querer) café. || quiere || Querer changes e → ie: ella quiere. || @tags es.present-irregular,es.negation
+  fill: ¿Cuánto ___ (costar) un café aquí? || cuesta || Costar changes o → ue: cuesta (one coffee, singular). || @tags es.present-irregular
+  fill: Mis padres siempre ___ (pedir) tortilla. || piden || Pedir changes e → i: ellos piden. || @tags es.present-irregular
+  mc: At the market you want six eggs. You say: || Una docena de huevos. | *Media docena de huevos. | Un medio docena de huevos. || Media docena = half a dozen (6). Medio/media never takes un. || @tags es.ordering
+  mc: Choose the correct sentence. || Quería un kilo de los tomates. | *Quería un kilo de tomates. | Quería un kilo tomates. || Quantity + de + noun, with no article. || @tags es.ordering
+  tr: Could I have a white coffee, please? || ¿Me pone un café con leche, por favor? | Quería un café con leche, por favor. | Quisiera un café con leche, por favor. | ¿Puede ponerme un café con leche, por favor? || ¿Me pone…? is typical at a Spanish bar; quería and quisiera are also polite. || @tags es.ordering
+  tr: We don't want dessert, thank you. || No queremos postre, gracias. | Nosotros no queremos postre, gracias. || No before the verb; nosotros + querer = queremos (no stem change). || @tags es.negation,es.present-irregular
+  listen: Una barra de pan y medio kilo de queso, por favor. || What does the customer buy? || *A baguette and half a kilo of cheese | Two baguettes and a kilo of cheese | A baguette and a little ham || Una barra de pan = a baguette; medio kilo de queso = half a kilo of cheese. || @tags es.ordering
+  listen: El menú del día cuesta doce euros, con bebida y postre. || What's included in the price of the set menu? || *A drink and dessert | Only the main course | Coffee but no dessert || "Con bebida y postre" — with a drink and dessert. || @tags es.numbers
+  ask: At a restaurant, say that you don't eat meat and ask the waiter what he recommends. || kw: no como & recomienda/recomiendas || Perdone, yo no como carne. ¿Qué me recomienda?
+  write: You're organising a picnic. Write a message to a friend saying what you want to buy at the market, with quantities. || min=30 || req: kilo/docena/barra/botella/un poco de | quiero/quería/prefiero || ¡Hola, Carla! Mañana compro la comida para el picnic. Quiero un kilo de tomates, una barra de pan, un poco de queso y media docena de huevos para la tortilla. ¿Prefieres agua o zumo? ¡Hasta mañana!
+lessons:
+  - title: Ordering at a café
+    summary: Order drinks and breakfast in a Spanish bar with quiero, quería, quisiera and ¿me pone…?, and ask for the bill.
+    minutes: 35
+    skills: [vocabulary, speaking, listening]
+    tags: [es.ordering, es.present-irregular]
+    objectives:
+      - Order a drink and something to eat politely
+      - Conjugate querer (e → ie)
+      - Ask how much it is and ask for the bill
+    intro: |
+      In Spain, *el bar* is where people have breakfast, a mid-morning coffee or a quick snack, often standing at the counter. Ordering is quick and friendly: **quería un café**, **¿me pone una tostada?**, **para mí, un zumo**. In this lesson you will learn the drinks and snacks on every bar menu and the polite ways to order them.
+    vocab: |
+      un café solo | an espresso (black coffee) | n | Un café solo, por favor. | An espresso, please. | g: m | n: Un cortado is an espresso with a little milk.
+      un café con leche | a white coffee | n | Siempre tomo café con leche. | I always have white coffee. | g: m
+      un té | a tea | n | Un té con limón, por favor. | A tea with lemon, please. | g: m | n: Herbal tea: una infusión; camomile: una manzanilla.
+      un zumo de naranja | an orange juice | n | Para mí, un zumo de naranja natural. | A fresh orange juice for me. | g: m | n: In Latin America: un jugo.
+      el agua | water | n | ¿Tiene agua sin gas? | Do you have still water? | g: f | c: agua con gas; agua sin gas | n: Feminine, but el agua and un agua, because it starts with a stressed a.
+      una tostada | a slice of toast | n | Una tostada con tomate y aceite. | Toast with tomato and olive oil. | g: f
+      un bocadillo | a sandwich (in a baguette) | n | Un bocadillo de jamón, por favor. | A ham sandwich, please. | g: m | n: A sandwich in sliced bread is un sándwich.
+      un cruasán | a croissant | n | Un café y un cruasán, por favor. | A coffee and a croissant, please. | g: m
+      quiero | I want; I'd like | v | Quiero un té, por favor. | I'd like a tea, please. | n: From querer (e → ie). With por favor it's fine for ordering.
+      quería / quisiera | I'd like (polite) | expr | Quisiera una botella de agua, por favor. | I'd like a bottle of water, please. | n: Softer than quiero; quería is very common in Spain.
+      ¿me pone…? | could I have…? (Spain) | expr | ¿Me pone un cortado, por favor? | Could I have a cortado, please? | n: Literally "will you put me…?" — typical at the bar.
+      para mí | for me | expr | Para mí, un agua con gas. | A sparkling water for me.
+      ¿cuánto es? | how much is it? | expr | Perdone, ¿cuánto es? | Excuse me, how much is it? | n: Also: ¿Qué le debo? (What do I owe you?)
+      la cuenta | the bill | n | La cuenta, por favor. | The bill, please. | g: f
+    grammar:
+      title: "Ordering politely: quiero, quería, quisiera"
+      body: |
+        To order in a bar or café you can use:
+
+        - **Quiero…** (*I want*) + **por favor**. In Spain this is normal and not rude when said with a friendly tone.
+        - **Quería…** (literally *I wanted*) or **Quisiera…** (*I would like*) — softer and very polite.
+        - **¿Me pone…?** (*Could you give me…?*) — typical at the counter in Spain.
+        - **Para mí…** (*For me…*) — when everyone orders in turn.
+
+        **Querer** is a **stem-changing verb**: the *e* of the stem becomes *ie* when it is stressed — *quiero, quieres, quiere, queremos, queréis, quieren*. Only *nosotros* and *vosotros* keep the *e*.
+
+        When you order, use **un / una**: *un café, una tostada*. You will hear the waiter ask **¿Qué le pongo?** (formal) or **¿Qué te pongo? / ¿Qué os pongo?** (informal) and **¿Algo más?** (Anything else?).
+      table: |
+        Phrase | Register | Example
+        Quiero… | direct (fine with por favor) | Quiero un té, por favor.
+        Quería… | polite, very common in Spain | Quería un bocadillo de queso.
+        Quisiera… | very polite | Quisiera un zumo de naranja.
+        ¿Me pone…? | at the bar (Spain) | ¿Me pone un café solo?
+        Para mí… | ordering in a group | Para mí, una tostada.
+      examples: |
+        Quería un café con leche y una tostada, por favor. | I'd like a white coffee and a slice of toast, please.
+        ¿Qué queréis tomar? | What would you (all) like? | Spain; Latin America: ¿Qué quieren tomar?
+        Para mí, un té. Y para ella, un zumo. | A tea for me. And a juice for her.
+        ¿Me pone un agua sin gas, por favor? | Could I have a still water, please?
+      tip: "Tomar (to have — food or drink) is the everyday verb in a café: ¿Qué quieres tomar? — Un café, gracias."
+    dialogue:
+      title: En el bar
+      setting: Saturday morning in a busy bar in Madrid. Sara and Diego order breakfast from Luis, the waiter.
+      speakers: L=Luis/m; S=Sara/f; D=Diego/m
+      lines: |
+        L: Buenos días. ¿Qué os pongo? | Good morning. What can I get you?
+        S: Para mí, un café con leche, por favor. | A white coffee for me, please.
+        D: Yo quería un cortado. | I'd like a cortado.
+        L: ¿Algo para comer? | Anything to eat?
+        S: Sí, una tostada con tomate. | Yes, toast with tomato.
+        D: ¿Tiene cruasanes? | Do you have croissants?
+        L: No, lo siento. Tenemos tostadas y bocadillos. | No, sorry. We have toast and sandwiches.
+        D: Pues un bocadillo de queso. | Then a cheese sandwich.
+        L: Muy bien. ¿Algo más? | Very good. Anything else?
+        S: No, gracias. ¿Cuánto es? | No, thanks. How much is it?
+        L: Son siete euros con veinte. | That's seven euros twenty.
+        D: Aquí tiene. ¡Gracias! | Here you are. Thanks!
+    pronunciation:
+      title: "ll, y and ch: bocadillo, yo, leche"
+      body: |
+        In most of Spain and Latin America, **ll** and **y** are pronounced the same, like the *y* in English *yes*: *bocadillo, tortilla, yo*. In Argentina and Uruguay you will hear a *sh* or *zh* sound instead.
+
+        **Ch** is like English *ch* in *church*: *leche, churros*. Keep the vowels around these sounds short and pure.
+      items: |
+        bocadillo
+        tortilla
+        yo quería
+        café con leche
+        churros
+        ¿algo más?
+    culture:
+      title: Coffee, Spanish style
+      body: |
+        Spanish coffee comes in many forms: **solo** (espresso), **cortado** (espresso with a dash of milk), **con leche** (half coffee, half milk) and **manchado** (mostly milk, "stained" with coffee). A typical breakfast at the bar is coffee with a **tostada con tomate** or a croissant.
+
+        You usually pay at the end, at the counter or at the table — just ask *¿Cuánto es?* Tipping is not obligatory; many people leave a few coins for good service.
+    mistakes: |
+      Quiero el café, por favor. => Quiero un café, por favor. | When you order, use un/una: you want "a" coffee.
+      Yo quero un té. => Yo quiero un té. | Querer changes e → ie: quiero.
+      Una agua con gas, por favor. => Un agua con gas, por favor. | Feminine nouns starting with a stressed a take un/el: un agua, el agua.
+    task:
+      title: Breakfast for two
+      mode: interaction
+      body: |
+        You are in a bar in Seville with a friend. Order two different drinks and two things to eat, answer the waiter's *¿Algo más?*, then ask how much it is. Try the "Ordering at a café" scenario with the AI coach.
+    exercises: |
+      fill: Yo ___ un café solo, por favor. (querer) || quiero || Querer changes e → ie: yo quiero. || @tags es.present-irregular
+      fill: ¿Qué ___ tomar vosotros? (querer) || queréis || Vosotros keeps the e: queréis. || @tags es.present-irregular
+      fill: Mis amigos ___ una tostada. (querer) || quieren || Ellos + querer = quieren. || @tags es.present-irregular
+      mc: Which is the most polite way to order? || Tengo un café. | *Quisiera un café, por favor. | Un café. ¡Rápido! || Quisiera + por favor is very polite. Tengo means "I have". || @tags es.ordering
+      mc: The waiter asks "¿Algo más?". He means… || *Anything else? | Is that too much? | Something to drink? || ¿Algo más? = anything else? Answer: No, nada más, gracias. || @skill vocabulary @tags es.vocabulary
+      fill: ___ agua sin gas, por favor. (a) || Un || Agua is feminine but starts with a stressed a, so it takes un: un agua. || @tags es.articles
+      mc: What does Diego eat? || A croissant | *A cheese sandwich | Toast with tomato || The bar has no croissants, so he orders un bocadillo de queso. || @ctx dialogue @skill reading @tags es.reading
+      tf: The bar has croissants. || false || "No, lo siento. Tenemos tostadas y bocadillos." || @ctx dialogue
+      order: ¿Me pone un zumo de naranja, por favor? || Could I have an orange juice, please? || @tags es.ordering
+      tr: I'd like a tea with lemon, please. || Quería un té con limón, por favor. | Quisiera un té con limón, por favor. | Quiero un té con limón, por favor. | ¿Me pone un té con limón, por favor? || Any polite ordering form works: quería, quisiera, quiero… por favor. || @tags es.ordering
+      tr: The bill, please. || La cuenta, por favor. | ¿Me trae la cuenta, por favor? | ¿Nos trae la cuenta, por favor? || The bill = la cuenta. || @tags es.ordering
+      listen: Un café con leche, un té y dos tostadas, por favor. || What do they order? || *A white coffee, a tea and two slices of toast | Two coffees and a tea | A tea, a juice and some toast || Un café con leche + un té + dos tostadas. || @tags es.ordering
+      listen: Son tres euros con veinte. || How much is it? || €3.02 | *€3.20 | €13.20 || Tres euros con veinte = three euros twenty cents. || @tags es.numbers
+      dict: Para mí, un zumo de naranja y una tostada.
+      ask: Order a drink and something to eat in a Spanish bar politely. || kw: quería/quisiera/quiero/me pone/para mí & por favor || Hola, buenos días. Quería un café con leche y un cruasán, por favor.
+
+  - title: At the market
+    summary: Buy fruit, bread and other food with quantities, ask prices and use the o → ue verbs costar and poder.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.ordering, es.present-irregular]
+    objectives:
+      - Ask for food with quantities (un kilo de, una docena de, un poco de)
+      - Ask prices with ¿cuánto cuesta / cuestan?
+      - Use the o → ue verbs costar and poder
+    intro: |
+      A Spanish food market is a great place to practise: you ask for exactly what you want, in the quantity you want. Spanish doesn't need a word for *some* — **quiero pan** is "I want some bread" — but it does need **de** after every quantity: **un kilo de naranjas**, **una barra de pan**.
+    vocab: |
+      el mercado | market | n | Compro la fruta en el mercado. | I buy fruit at the market. | g: m
+      la fruta | fruit | n | La fruta es muy buena aquí. | The fruit is very good here. | g: f
+      el tomate | tomato | n | Un kilo de tomates, por favor. | A kilo of tomatoes, please. | g: m
+      la naranja | orange | n | Las naranjas de Valencia son muy dulces. | Oranges from Valencia are very sweet. | g: f
+      la manzana | apple | n | Medio kilo de manzanas, por favor. | Half a kilo of apples, please. | g: f
+      el pan | bread | n | ¿Tiene pan integral? | Do you have wholemeal bread? | g: m | c: una barra de pan
+      el queso | cheese | n | Quería un poco de queso manchego. | I'd like a little Manchego cheese. | g: m
+      el huevo | egg | n | Una docena de huevos, por favor. | A dozen eggs, please. | g: m
+      el aceite de oliva | olive oil | n | Una botella de aceite de oliva. | A bottle of olive oil. | g: m
+      un kilo de | a kilo of | expr | Un kilo de naranjas, por favor. | A kilo of oranges, please. | c: medio kilo de; un cuarto de kilo de
+      un poco de | a little, some | expr | ¿Me pone un poco de jamón? | Could I have a little ham? | n: Followed directly by the noun, with no article.
+      costar | to cost | v | ¿Cuánto cuestan las fresas? | How much are the strawberries? | n: o → ue: cuesta (singular), cuestan (plural).
+      barato | cheap | adj | El pan aquí es muy barato. | The bread here is very cheap. | n: Opposite: caro (expensive).
+      ¿algo más? | anything else? | expr | ¿Algo más? No, nada más, gracias. | Anything else? No, nothing else, thanks.
+    grammar:
+      title: "Quantities, and o → ue verbs"
+      body: |
+        Spanish has **no word for "some"** with uncountable or plural nouns. Just use the noun: *Quiero pan. ¿Tienes huevos? Compro fruta.*
+
+        For a quantity, use **quantity + de + noun**, with **no article**: *un kilo de tomates, una docena de huevos, una botella de agua, un poco de jamón* (not ~~un kilo de los tomates~~). **Medio** (half) never takes *un*: *medio kilo, media docena*.
+
+        **Costar** and **poder** change **o → ue** when the stem is stressed (all forms except *nosotros* and *vosotros*):
+
+        - *¿Cuánto **cuesta** el queso?* (one thing) — *¿Cuánto **cuestan** las naranjas?* (several)
+        - **poder**: *puedo, puedes, puede, podemos, podéis, pueden* — *¿Puedo pagar con tarjeta?*
+
+        Prices by weight use **a … el kilo**: *Las manzanas están a dos euros el kilo* or simply *cuestan dos euros el kilo*.
+      table: |
+        Quantity | Example
+        un kilo de | un kilo de naranjas
+        medio kilo de | medio kilo de tomates
+        un cuarto de kilo de | un cuarto de kilo de queso
+        una docena de | una docena de huevos
+        una barra de | una barra de pan
+        una botella de | una botella de aceite
+        un poco de | un poco de jamón
+      examples: |
+        Quería medio kilo de tomates y una docena de huevos. | I'd like half a kilo of tomatoes and a dozen eggs.
+        ¿Cuánto cuesta el pan? | How much is the bread?
+        Las manzanas cuestan dos euros el kilo. | The apples cost two euros a kilo.
+        ¿Puedo pagar con tarjeta? | Can I pay by card?
+      tip: "Medio means half: medio kilo, media docena — never un medio kilo."
+    dialogue:
+      title: En el mercado
+      setting: Jorge buys fruit from Amparo at her stall in the Mercado Central in Valencia.
+      speakers: A=Amparo/f; J=Jorge/m
+      lines: |
+        A: ¡Buenos días! ¿Qué le pongo? | Good morning! What can I get you?
+        J: Hola. Quería un kilo de naranjas. | Hi. I'd like a kilo of oranges.
+        A: Muy bien. ¿Algo más? | Very good. Anything else?
+        J: Sí. ¿Cuánto cuestan las fresas? | Yes. How much are the strawberries?
+        A: Cuestan cuatro euros el kilo. | They're four euros a kilo.
+        J: ¡Uf, son un poco caras! | Ooh, they're a bit expensive!
+        A: Pero son muy buenas, de Huelva. | But they're very good, from Huelva.
+        J: Vale, pues medio kilo de fresas. | OK, then half a kilo of strawberries.
+        A: ¿Tomates, manzanas…? | Tomatoes, apples…?
+        J: No, nada más. ¿Puedo pagar con tarjeta? | No, nothing else. Can I pay by card?
+        A: Sí, claro. Son cuatro euros. | Yes, of course. That's four euros.
+    pronunciation:
+      title: "No weak vowels: naranjas, tomates"
+      body: |
+        In English, unstressed vowels often become a weak "uh" sound. In Spanish, **every vowel keeps its full sound**, stressed or not: *na-ran-jas* has three clear [a] sounds, and *to-ma-tes* ends in a clear [e].
+
+        Say each syllable clearly and evenly, and put the stress in the right place: *naRANjas, toMAtes, manZAnas, aCEIte*.
+      items: |
+        naranjas
+        tomates
+        manzanas
+        aceite de oliva
+        medio kilo
+        una docena
+    culture:
+      title: "¿Quién es el último?"
+      body: |
+        Most Spanish towns have a covered municipal market — such as the Mercado Central in Valencia or La Boquería in Barcelona — with stalls for fruit, fish, meat, cheese and bread. Many people still buy fresh food there several times a week.
+
+        There's often no visible queue. When you arrive, ask **¿Quién es el último?** (Who's last?). Someone will answer *Yo*, and you know you go after them. When the next person arrives, you're *el último* or *la última*!
+    mistakes: |
+      Quiero un kilo de las naranjas. => Quiero un kilo de naranjas. | After a quantity + de, don't use an article.
+      Quiero un medio kilo de queso. => Quiero medio kilo de queso. | Medio doesn't take un.
+      ¿Cuánto costa? => ¿Cuánto cuesta? | Costar changes o → ue: cuesta.
+    task:
+      title: Market shopping
+      mode: interaction
+      body: |
+        You have 20 euros and a shopping list: oranges, bread, cheese and eggs. At the market, ask *¿Quién es el último?*, then ask for each item with a quantity, ask the prices and pay. Practise with a partner or the AI coach.
+    exercises: |
+      fill: ¿Cuánto ___ el queso? (costar) || cuesta || Costar changes o → ue; one thing = cuesta. || @tags es.present-irregular
+      fill: ¿Cuánto ___ los tomates? (costar) || cuestan || Plural noun = cuestan. || @tags es.present-irregular
+      fill: ¿___ pagar con tarjeta? (poder, yo) || Puedo || Poder changes o → ue: yo puedo. || @tags es.present-irregular
+      fill: Quería una docena ___ huevos. || de || Every quantity needs de: una docena de huevos. || @tags es.prepositions
+      mc: "Half a kilo of tomatoes" is… || un medio kilo de tomates | *medio kilo de tomates | medio kilo de los tomates || Medio without un, and no article after de. || @tags es.ordering
+      mc: You want some bread. You say: || Quiero algún pan. | *Quiero pan, por favor. | Quiero el pan algo. || Spanish needs no word for "some": quiero pan. || @tags es.ordering
+      mc: Why does Jorge hesitate about the strawberries? || They aren't from Spain | *They're a bit expensive | They don't look good || "¡Uf, son un poco caras!" — they cost four euros a kilo. || @ctx dialogue @skill reading @tags es.reading
+      tf: The strawberries cost four euros a kilo. || true || "Cuestan cuatro euros el kilo." || @ctx dialogue
+      rw: Make it plural :: ¿Cuánto cuesta la manzana? || ¿Cuánto cuestan las manzanas? || Plural noun → plural verb: cuestan las manzanas. || @tags es.present-irregular,es.plural
+      tr: I'd like a kilo of oranges, please. || Quería un kilo de naranjas, por favor. | Quisiera un kilo de naranjas, por favor. | Quiero un kilo de naranjas, por favor. | ¿Me pone un kilo de naranjas, por favor? || Quantity + de + noun with no article. || @tags es.ordering
+      tr: How much is the olive oil? || ¿Cuánto cuesta el aceite de oliva? | ¿Cuánto vale el aceite de oliva? | ¿Cuánto es el aceite de oliva? || One thing, so cuesta (or vale). || @tags es.present-irregular,es.question-words
+      listen: Las naranjas, a dos euros el kilo, y las fresas, a cinco. || How much are the strawberries? || €2 a kilo | *€5 a kilo | €7 a kilo || "Las fresas, a cinco" — five euros a kilo. Oranges are two. || @tags es.numbers
+      dict: Medio kilo de tomates y una barra de pan.
+      ask: At a market stall, ask for two things with quantities, then ask how much it is. || kw: kilo/docena/barra/botella/un poco & cuánto || Buenos días. Quería un kilo de tomates y una docena de huevos. ¿Cuánto es?
+      write: Write a message asking your flatmate to buy four things at the market, with quantities. || min=15 || req: kilo/docena/barra/botella/un poco | de || ¡Hola, Iker! ¿Puedes comprar un kilo de manzanas, una barra de pan, una docena de huevos y un poco de queso? ¡Gracias!
+
+  - title: At the restaurant
+    summary: Order a set menu, say what you prefer and what you don't eat, with the stem-changing verbs pedir, preferir and recomendar.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [es.present-irregular, es.negation]
+    objectives:
+      - Order a three-course set menu
+      - Use the three kinds of stem-changing verbs (e → ie, o → ue, e → i)
+      - Say what you don't eat with no
+    intro: |
+      At lunchtime on weekdays, thousands of Spanish restaurants offer a **menú del día**: a first course, a main course, dessert, bread and a drink at a fixed price. To order it you need **de primero, de segundo, de postre**, and verbs like **pedir** (to order), **preferir** (to prefer) and **poder** (can) — all stem-changing verbs.
+    vocab: |
+      el menú del día | set lunch menu | n | El menú del día cuesta trece euros. | The set menu costs thirteen euros. | g: m | n: Usually a first course, main course, dessert, bread and a drink.
+      de primero | for the first course | expr | De primero, quiero gazpacho. | For the first course, I'd like gazpacho.
+      de segundo | for the main course | expr | De segundo, pescado a la plancha. | For the main course, grilled fish.
+      de postre | for dessert | expr | De postre, flan. | For dessert, crème caramel.
+      la carne | meat | n | No como carne. | I don't eat meat. | g: f
+      el pescado | fish (as food) | n | ¿El pescado es fresco? | Is the fish fresh? | g: m | n: A live fish is un pez.
+      la ensalada | salad | n | Una ensalada mixta, por favor. | A mixed salad, please. | g: f
+      la tortilla de patatas | Spanish omelette | n | Quería una ración de tortilla de patatas. | I'd like a portion of Spanish omelette. | g: f | n: In Latin America, a tortilla is a flatbread.
+      vegetariano | vegetarian | adj | ¿Tienen platos vegetarianos? | Do you have vegetarian dishes? | n: Vegan: vegano.
+      pedir | to order; to ask for | v | Siempre pido pescado. | I always order fish. | n: e → i: pido, pides, pide…
+      preferir | to prefer | v | ¿Prefieres vino o agua? | Do you prefer wine or water? | n: e → ie: prefiero, prefieres…
+      ¿qué me recomienda? | what do you recommend? | expr | ¿Qué me recomienda de segundo? | What do you recommend for the main course? | n: From recomendar (e → ie).
+      para beber | to drink | expr | ¿Y para beber? Agua, por favor. | And to drink? Water, please.
+      la carta | menu (list of dishes) | n | ¿Nos trae la carta, por favor? | Could you bring us the menu, please? | g: f | n: El menú usually means the set menu.
+    grammar:
+      title: "Stem-changing verbs and negation"
+      body: |
+        Some verbs change the vowel in their stem when it is stressed — in every form **except nosotros and vosotros**. The endings stay regular. There are three types:
+
+        - **e → ie**: *querer (quiero), preferir (prefiero), recomendar (recomiendo), cerrar (cierra)*
+        - **o → ue**: *poder (puedo), costar (cuesta), volver (vuelvo)*
+        - **e → i**: *pedir (pido), repetir (repito)*
+
+        Dictionaries and good vocabulary lists show the change: *pedir (i), poder (ue)*.
+
+        To make a sentence **negative**, put **no** directly before the verb: *No como carne. No queremos postre.* With a reflexive pronoun, *no* goes before the pronoun: *No me levanto tarde.* A short answer is just *No, gracias.*
+      table: |
+        Pronoun | preferir (e → ie) | poder (o → ue) | pedir (e → i)
+        yo | prefiero | puedo | pido
+        tú | prefieres | puedes | pides
+        él / ella / usted | prefiere | puede | pide
+        nosotros / nosotras | preferimos | podemos | pedimos
+        vosotros / vosotras | preferís | podéis | pedís
+        ellos / ellas / ustedes | prefieren | pueden | piden
+      examples: |
+        Yo pido el menú del día. | I'll have the set menu.
+        ¿Preferís carne o pescado? | Do you (all) prefer meat or fish? | Spain; Latin America: ¿Prefieren…?
+        No como carne. Soy vegetariana. | I don't eat meat. I'm a vegetarian.
+        ¿Podemos pagar por separado? | Can we pay separately?
+      tip: "Nosotros and vosotros never change the stem — podemos, preferís, pedimos. In the table the changed forms make the shape of a boot."
+    dialogue:
+      title: El menú del día
+      setting: Lunchtime at a small restaurant in Toledo. Pilar, the waitress, takes the order of Ahmed and Yolanda.
+      speakers: P=Pilar/f; A=Ahmed/m; Y=Yolanda/f
+      lines: |
+        P: Buenas tardes. ¿Quieren el menú del día? | Good afternoon. Would you like the set menu?
+        A: Sí, por favor. ¿Qué tienen de primero? | Yes, please. What do you have for the first course?
+        P: Gazpacho, ensalada mixta o lentejas. | Gazpacho, mixed salad or lentils.
+        Y: Yo prefiero la ensalada. | I prefer the salad.
+        A: Y para mí, gazpacho. | And gazpacho for me.
+        P: ¿Y de segundo? ¿Carne o pescado? | And for the main course? Meat or fish?
+        A: ¿Qué nos recomienda? | What do you recommend?
+        P: El pescado es muy bueno hoy. | The fish is very good today.
+        A: Pues pido el pescado. | Then I'll order the fish.
+        Y: Yo no como pescado. ¿Tienen algo vegetariano? | I don't eat fish. Do you have anything vegetarian?
+        P: Sí, tortilla de patatas o verduras a la plancha. | Yes, Spanish omelette or grilled vegetables.
+        Y: Tortilla, por favor. Y agua para los dos. | Omelette, please. And water for both of us.
+    pronunciation:
+      title: "Intonation: questions and choices"
+      body: |
+        A **yes/no question** rises at the end: *¿Quieren el menú del día?* ↗. A question with a **question word** usually falls: *¿Qué nos recomienda?* ↘.
+
+        When you offer a **choice**, the voice rises on the first option and falls on the last: *¿Carne ↗ o pescado ↘?* Lists work the same way: *gazpacho ↗, ensalada ↗ o lentejas ↘*.
+      items: |
+        ¿Quieren el menú del día?
+        ¿Qué nos recomienda?
+        ¿Carne o pescado?
+        de primero
+        de postre
+        la cuenta, por favor
+    culture:
+      title: The menú del día and the sobremesa
+      body: |
+        The **menú del día** is a Spanish institution: on weekdays, many restaurants offer two or three choices for each course at a fixed price, usually with bread, a drink and dessert or coffee included. It's often the best-value meal of the day.
+
+        Before eating, people say **¡Que aproveche!** (Enjoy your meal). After the meal, there's no rush to leave: the **sobremesa** — staying at the table to chat over coffee — is part of the experience. The waiter won't bring the bill until you ask for it.
+    mistakes: |
+      Yo podo pagar. => Yo puedo pagar. | Poder changes o → ue: puedo.
+      Nosotros pidimos el menú. => Nosotros pedimos el menú. | Nosotros never changes the stem: pedimos.
+      Yo como no carne. => Yo no como carne. | No goes directly before the verb.
+    task:
+      title: Lunch in Toledo
+      mode: interaction
+      body: |
+        You are having the menú del día with a friend. Ask what there is for each course, ask the waiter for a recommendation, say one thing you don't eat, order a drink and ask for the bill at the end. Practise with a partner or with the AI coach.
+    exercises: |
+      fill: Yo ___ el pescado. (pedir) || pido || Pedir changes e → i: yo pido. || @tags es.present-irregular
+      fill: ¿Tú ___ carne o pescado? (preferir) || prefieres || Preferir changes e → ie: tú prefieres. || @tags es.present-irregular
+      fill: Nosotros ___ el menú del día. (pedir) || pedimos || Nosotros keeps the e: pedimos. || @tags es.present-irregular
+      fill: ¿___ pagar por separado? (poder, nosotros) || Podemos || Nosotros keeps the o: podemos. || @tags es.present-irregular
+      mc: Choose the correct negative sentence. || Yo como no carne. | *Yo no como carne. | No yo como carne. || No goes directly before the verb. || @tags es.negation
+      mc: "De postre" means… || for the main course | *for dessert | to drink || De primero = first course, de segundo = main course, de postre = dessert. || @skill vocabulary @tags es.vocabulary
+      mc: What does Yolanda have for the main course? || Fish | *Spanish omelette | Grilled vegetables || She doesn't eat fish, so she chooses tortilla. || @ctx dialogue @skill reading @tags es.reading
+      tf: Ahmed orders the fish. || true || "Pues pido el pescado." || @ctx dialogue
+      rw: Make it negative :: Quiero postre. || No quiero postre. || Put no directly before the verb. || @tags es.negation
+      tr: I don't eat fish. I'm a vegetarian. (you are a man) || No como pescado. Soy vegetariano. | Yo no como pescado. Soy vegetariano. | No como pescado, soy vegetariano. || No before the verb; soy vegetariano with no article. || @tags es.negation,es.ser
+      tr: What do you recommend? (formal) || ¿Qué me recomienda? | ¿Qué nos recomienda? | ¿Qué recomienda usted? || Recomendar changes e → ie: recomienda (usted). || @tags es.present-irregular
+      listen: De primero tenemos sopa o ensalada, y de segundo, pollo o merluza. || What can you have for the main course? || Soup or salad | *Chicken or hake | Salad or hake || De segundo: pollo (chicken) o merluza (hake). || @tags es.listening
+      dict: Para beber, agua sin gas, por favor.
+      ask: Order a full set menu — first course, main course and dessert — and a drink. || kw: de primero & de segundo & de postre || De primero, ensalada; de segundo, pescado, y de postre, flan. Para beber, agua, por favor.
+      write: Write a message to a friend about a restaurant you like — what you usually order and what you prefer. || min=25 || req: pido/prefiero | de primero/de segundo/de postre || Me gusta mucho un restaurante pequeño en mi barrio. Normalmente pido el menú del día. De primero prefiero la ensalada y de segundo siempre pido pescado. No como carne. ¡Y el postre es muy bueno!

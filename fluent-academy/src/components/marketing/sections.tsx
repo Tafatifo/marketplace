@@ -111,11 +111,12 @@ const LANGS = [
   { code: "fr", name: "French", native: "Français", blurb: "From café conversations to formal emails, with clear guidance on tu and vous." },
   { code: "es", name: "Spanish", native: "Español", blurb: "Peninsular Spanish as the model, with notes on Latin American usage." },
   { code: "de", name: "German", native: "Deutsch", blurb: "Cases, word order and separable verbs, taught step by step through real situations." },
+  { code: "da", name: "Danish", native: "Dansk", blurb: "Everyday Danish for life in Denmark — word order, pronunciation and the numbers that trip everyone up." },
 ];
 
 export function LanguageCards() {
   return (
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
       {LANGS.map((l) => (
         <Link
           key={l.code}

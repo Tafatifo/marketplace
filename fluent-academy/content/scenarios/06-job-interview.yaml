@@ -73,3 +73,18 @@ languages:
       What attracts you to this position? | - | Give two reasons | kw: because/attracts/interested/I'd like
       What would you say is your main weakness? | - | Name a weakness and how you work on it | kw: weakness/sometimes/trying/improve
       Do you have any questions for me about the role or the company? | - | Ask a relevant question | kw: what/how/team/next steps/could you
+  da:
+    opener: Goddag, og tak fordi du kunne komme. Vil du starte med at fortælle lidt om dig selv? | Hello, and thank you for coming. Would you like to start by telling me a little about yourself?
+    focus: [da.past, da.subordinate-clauses, da.register]
+    vocab: |
+      jeg har arbejdet hos … i … år | I have worked at … for … years
+      jeg havde ansvaret for… | I was responsible for…
+      min styrke er… | my strength is…
+      stillingen interesserer mig, fordi… | the position interests me because…
+      hvad er de næste skridt? | what are the next steps?
+    script: |
+      Spændende. Fortæl mig lidt om dit nuværende eller seneste job. | Interesting. Tell me a bit about your current or most recent job. | Describe your job: Jeg har ansvaret for… / Jeg havde ansvaret for… | kw: har arbejdet/ansvar/var/arbejdede/arbejder
+      Kan du beskrive en svær situation, som du har løst? | Can you describe a difficult situation that you have resolved? | Describe a challenge and what you did | kw: havde/var/problem/situation/løste
+      Hvorfor søger du netop den her stilling? | Why are you applying for this particular position? | Give two reasons with fordi | kw: fordi/interesserer/gerne vil/derfor
+      Hvad vil du sige er din største svaghed? | What would you say is your biggest weakness? | Name a weakness and how you work on it | kw: svaghed/nogle gange/prøver/arbejder på
+      Har du nogen spørgsmål til stillingen eller til virksomheden? | Do you have any questions about the position or the company? | Ask a relevant question | kw: hvordan/hvad/hvilke/team/næste skridt

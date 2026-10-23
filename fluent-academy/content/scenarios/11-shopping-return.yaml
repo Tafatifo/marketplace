@@ -73,3 +73,18 @@ languages:
       Do you have the receipt with you? | - | Answer and ask for a solution | kw: yes/here/exchange/refund
       I can swap it for a new one, or give you store credit. | - | Choose a solution or ask for a refund | kw: exchange/prefer/refund/credit
       All done. Sorry about the trouble! | - | Thank the assistant | kw: thank/no problem/bye
+  da:
+    opener: Hej! Kan jeg hjælpe dig med noget? | Hi! Can I help you with anything?
+    focus: [da.past, da.demonstratives, da.ordering]
+    vocab: |
+      jeg købte den her jakke… | I bought this jacket…
+      lynlåsen er gået i stykker | the zip is broken
+      at bytte / at få pengene tilbage | to exchange / to get a refund
+      kvitteringen / bonen | the receipt
+      en anden størrelse | another size
+    script: |
+      Okay. Hvornår købte du den? | OK. When did you buy it? | Say when you bought it | kw: købte/i går/sidste/uge/dage
+      Og hvad er der helt præcist galt med den? | And what exactly is wrong with it? | Describe the problem | kw: i stykker/hul/virker ikke/lynlås/problem
+      Har du kvitteringen med? | Do you have the receipt with you? | Answer and ask for a solution | kw: ja/her/bytte/pengene tilbage
+      Jeg kan bytte den til en ny, eller du kan få et tilgodebevis. | I can exchange it for a new one, or you can have a credit note. | Choose a solution or ask for a refund | kw: bytte/hellere/pengene tilbage/tilgodebevis
+      Så er det ordnet. Undskyld besværet! | That's sorted, then. Sorry for the trouble! | Thank the assistant | kw: tak/i orden/farvel/hej

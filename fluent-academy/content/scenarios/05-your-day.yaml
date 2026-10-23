@@ -73,3 +73,18 @@ languages:
       So what did you do today? | - | Say what you did: I went / I had / I worked… | kw: went/had/did/worked
       Oh, OK! And what are you up to tonight? | - | Talk about your evening plans | kw: tonight/going to/watch/nothing
       I had such a long day at work! | - | Ask about the tutor's day | kw: why/what/your day/how about you
+  da:
+    opener: Hej! Nå, hvordan var din dag? | Hi! So, how was your day?
+    focus: [da.present, da.time, da.past]
+    vocab: |
+      jeg står op klokken… | I get up at…
+      først / så / bagefter | first / then / afterwards
+      jeg er træt | I'm tired
+      i dag har jeg… | today I have…
+      og hvordan var din dag? | and how was your day?
+    script: |
+      Stod du tidligt op i dag? | Did you get up early today? | Say what time you got up | kw: stod/klokken/tidligt/sent
+      Og hvad laver du normalt om morgenen? | And what do you usually do in the morning? | Describe your routine: først… så… | kw: først/så/bagefter/jeg
+      Og hvad lavede du i dag? | And what did you do today? | Say what you did: Jeg arbejdede… / Jeg var… | kw: arbejdede/var/lavede/gik/har
+      Okay! Og hvad skal du i aften? | OK! And what are you doing this evening? | Talk about your evening | kw: aften/skal/ingenting/ser
+      Jeg har haft en rigtig lang dag på arbejdet. | I've had a really long day at work. | Ask about the tutor's day | kw: hvorfor/hvad/din dag/og du/hvordan

@@ -38,7 +38,7 @@ export default async function HomePage() {
                 Explore features
               </ButtonLink>
             </div>
-            <p className="mt-6 text-sm text-subtle">English · Français · Español · Deutsch — free to start, no card required.</p>
+            <p className="mt-6 text-sm text-subtle">English · Français · Español · Deutsch · Dansk — free to start, no card required.</p>
           </div>
           <ProductPreview />
         </div>

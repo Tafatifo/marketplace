@@ -1,0 +1,359 @@
+unit: 2
+title: Meine Familie und ich
+theme: Family and people
+description: Talk about your family, describe what people look like and what they are like, and say what people do and where they work.
+free: true
+objectives:
+  - Introduce family members with possessive articles (mein, dein, sein, ihr…)
+  - Describe people's appearance and personality with sein + adjective
+  - Say what someone does and where they work, without an article before the job
+canDo:
+  - I can introduce the members of my family.
+  - I can describe what a person looks like and what they are like.
+  - I can say what I do and where I work.
+  - I can ask other people about their family and their job.
+review: |
+  mc: "Paul und ___ Mutter wohnen in Kiel." || ihre | *seine | sein || Paul is male, so his = sein; Mutter is feminine, so it takes -e: seine. || @tags de.possessives
+  fill: Das ist ___ Sohn Elias. (our) || unser || Sohn is masculine (der Sohn), so our = unser with no ending. || @tags de.possessives
+  fill: Meine Eltern ___ sehr nett. || sind || Eltern is plural (sie), so the verb is sind. || @tags de.sein
+  mc: Which noun is feminine? || Bruder | *Tochter | Kind || die Tochter — but der Bruder and das Kind. || @tags de.gender
+  fill: Du ___ als Verkäufer, oder? || arbeitest || The stem arbeit- ends in -t, so du arbeitest. || @tags de.present-regular
+  rw: Make it about a woman :: Er ist Arzt und sehr freundlich. || Sie ist Ärztin und sehr freundlich. || Use sie and the female job title die Ärztin; the adjective doesn't change. || @tags de.gender
+  tr: Her brother is a cook. || Ihr Bruder ist Koch. || Her = ihr; Bruder is masculine, so no ending. No article before the job. || @tags de.possessives,de.articles
+  tr: Our children are small. || Unsere Kinder sind klein. | Unsere Kinder sind noch klein. || Plural noun: unsere and sind; the adjective has no ending. || @tags de.possessives,de.plural
+  listen: Das ist mein Opa. Er ist Rentner und sehr lustig. || What do we learn about the grandfather? || He's a cook and quiet. | *He's retired and funny. | He's a teacher and tall. || Rentner = retired person; lustig = funny. || @tags de.listening
+  listen: Meine Schwester ist groß und ihre Haare sind kurz. || What does the sister look like? || Short, with short hair | *Tall, with short hair | Tall, with long hair || Groß = tall; kurz = short. || @tags de.listening
+  ask: Ask a new colleague (formally) about their job and their family. || kw: sie & beruf/beruflich/arbeiten & kinder/familie/verheiratet || Was sind Sie von Beruf? Haben Sie Kinder?
+  write: Write an email to a pen-pal introducing your family — who they are, what they are like and what they do. || min=35 || req: mein/meine | ist/sind | arbeitet/von beruf/ist || Hallo Sam, meine Familie ist klein. Mein Vater heißt Jan. Er ist Lehrer und sehr ruhig. Meine Mutter heißt Ewa. Sie ist Ärztin und arbeitet im Krankenhaus. Mein Bruder ist sechzehn und sehr lustig. Viele Grüße, Mila
+lessons:
+  - title: My family
+    summary: Name family members with their articles, use mein/meine, dein/deine, sein/seine and ihr/ihre, and talk about a family photo.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [de.possessives, de.gender]
+    objectives:
+      - Name the members of your family with the right article
+      - Use possessive articles in the nominative (mein, dein, sein, ihr, unser, Ihr)
+      - Talk about a family photo
+    intro: |
+      Family is one of the first topics people talk about when they get to know each other. In German every noun has a gender — **der**, **die** or **das** — and the gender decides the form of the word for *my*, *your* or *his*: *mein Bruder*, but *meine Schwester*. In this lesson you will learn family words with their articles and the possessives that go with them.
+    vocab: |
+      die Familie | family | n | Meine Familie wohnt in Bremen. | My family lives in Bremen. | g: f | pl: die Familien
+      die Mutter | mother | n | Meine Mutter heißt Sabine. | My mother's name is Sabine. | g: f | pl: die Mütter | n: Informal: Mama.
+      der Vater | father | n | Mein Vater ist sehr nett. | My father is very nice. | g: m | pl: die Väter | n: Informal: Papa.
+      die Eltern | parents | n | Meine Eltern wohnen in Kiel. | My parents live in Kiel. | pl: die Eltern | n: Plural only — there is no everyday singular form.
+      der Bruder | brother | n | Mein Bruder ist zwölf. | My brother is twelve. | g: m | pl: die Brüder
+      die Schwester | sister | n | Das ist meine Schwester Lina. | This is my sister Lina. | g: f | pl: die Schwestern
+      die Geschwister | brothers and sisters; siblings | n | Hast du Geschwister? | Do you have any brothers or sisters? | pl: die Geschwister | n: Used in the plural. An only child is ein Einzelkind.
+      der Sohn | son | n | Unser Sohn heißt Elias. | Our son's name is Elias. | g: m | pl: die Söhne
+      die Tochter | daughter | n | Ihre Tochter ist Studentin. | Her daughter is a student. | g: f | pl: die Töchter
+      das Kind | child | n | Das Kind ist drei Jahre alt. | The child is three years old. | g: n | pl: die Kinder
+      die Großmutter | grandmother | n | Meine Großmutter wohnt in Wien. | My grandmother lives in Vienna. | g: f | pl: die Großmütter | n: Informal: Oma. Grandfather: der Großvater (Opa); grandparents: die Großeltern.
+      der Mann | husband; man | n | Das ist mein Mann, Thomas. | This is my husband, Thomas. | g: m | pl: die Männer | n: Mein Mann = my husband; meine Frau = my wife.
+      verheiratet | married | adj | Bist du verheiratet? – Nein, ich bin ledig. | Are you married? – No, I'm single. | c: ledig (single); geschieden (divorced)
+      das Foto | photo | n | Das Foto ist schön! Wer ist das? | The photo is lovely! Who's that? | g: n | pl: die Fotos
+    grammar:
+      title: "Possessive articles: mein, dein, sein, ihr…"
+      body: |
+        Every German noun has a gender: **masculine** (*der Bruder*), **feminine** (*die Schwester*) or **neuter** (*das Kind*). In the plural all genders use **die** (*die Kinder*). Always learn a noun together with its article.
+
+        Possessive articles (*my, your, his…*) work like **ein**: they have **no ending** before masculine and neuter nouns and add **-e** before feminine and plural nouns: *mein Vater, mein Kind* — but *meine Mutter, meine Eltern*.
+
+        Choose the possessive by the **owner** — *sein* = his, *ihr* = her or their, *Ihr* (capital I) = your (formal). Then add the ending for the **noun**: *Lukas und **seine** Schwester* (his sister), *Lina und **ihr** Bruder* (her brother).
+
+        All forms in this lesson are **nominative** — the case of the subject and of nouns after *sein*: *Das ist mein Sohn.*
+      table: |
+        Owner | der / das nouns | die nouns and plural
+        ich | mein Bruder | meine Schwester
+        du | dein Vater | deine Eltern
+        er / es | sein Kind | seine Tochter
+        sie (she) | ihr Sohn | ihre Mutter
+        wir | unser Opa | unsere Kinder
+        ihr (you all) | euer Sohn | eure Familie
+        sie (they) / Sie | ihr / Ihr Mann | ihre / Ihre Frau
+      examples: |
+        Das ist mein Vater und das ist meine Mutter. | This is my father and this is my mother.
+        Wie heißt deine Schwester? | What's your sister's name? | die Schwester → deine
+        Jonas und sein Bruder wohnen in Köln. | Jonas and his brother live in Cologne. | his = sein
+        Frau Weber, ist das Ihr Sohn? | Mrs Weber, is that your son? | formal: Ihr
+      tip: First ask "whose?" to choose mein, sein, ihr…, then ask "which gender?" — add -e for die-nouns and plurals.
+    dialogue:
+      title: Das Familienfoto
+      setting: Lena shows her friend Malik a family photo on her phone. They are sitting in the university canteen in Freiburg.
+      speakers: L=Lena/f; M=Malik/m
+      lines: |
+        M: Ist das deine Familie? | Is that your family?
+        L: Ja! Das sind meine Mütter, Anja und Carla. | Yes! These are my mums, Anja and Carla.
+        M: Und wer ist das? Dein Bruder? | And who's that? Your brother?
+        L: Ja, das ist mein Bruder Tim. Er ist sechzehn. | Yes, that's my brother Tim. He's sixteen.
+        M: Und das Baby? | And the baby?
+        L: Das ist Emil, mein Neffe. | That's Emil, my nephew.
+        M: Süß! Und wo sind deine Großeltern? | Cute! And where are your grandparents?
+        L: Meine Oma ist hier, links. Sie wohnt in Wien. | My grandma is here, on the left. She lives in Vienna.
+        M: Meine Familie ist sehr klein. | My family is very small.
+        L: Wirklich? Hast du Geschwister? | Really? Do you have brothers or sisters?
+        M: Nein, ich bin Einzelkind. | No, I'm an only child.
+    pronunciation:
+      title: The ich-sound and the ach-sound
+      body: |
+        The letters **ch** have two sounds. After **a, o, u** and **au** you hear the *ach*-sound [x], made at the back of the mouth, like Scottish *loch*: *acht, Tochter, auch*.
+
+        After all other vowels (**e, i, ä, ö, ü**), after consonants and in the ending **-chen**, you hear the softer *ich*-sound [ç] — a whispered *h* with the tongue close to the roof of the mouth: *ich, Töchter, Mädchen*. Compare *Tochter* (daughter) and *Töchter* (daughters): the umlaut changes both the vowel and the ch.
+      items: |
+        ich
+        Tochter
+        Töchter
+        auch
+        Mädchen
+        natürlich
+    culture:
+      title: Families in Germany
+      body: |
+        Families in Germany come in many forms: married and unmarried couples, single parents, same-sex parents (marriage has been open to same-sex couples since 2017) and *Patchworkfamilien* — blended families with children from earlier relationships. Many families are small; one or two children is typical.
+
+        Grandparents (*Oma* and *Opa*) often help with childcare, and many young children go to a *Kita* (daycare centre). Note that *mein Freund* and *meine Freundin* usually mean *my boyfriend* and *my girlfriend*; for a friend, people often say *ein Freund von mir* or just use the name.
+    mistakes: |
+      Das ist mein Schwester. => Das ist meine Schwester. | Schwester is feminine (die Schwester), so the possessive needs -e: meine.
+      Lena und sein Bruder => Lena und ihr Bruder | The possessive follows the owner: Lena is female, so "her brother" is ihr Bruder.
+      Meine Mutter heißen Sabine. => Meine Mutter heißt Sabine. | Meine Mutter is one person (sie), so the verb is heißt.
+    task:
+      title: Show a family photo
+      mode: speaking
+      body: |
+        Choose a real or imaginary family photo. Present four people: say who they are (Das ist mein/meine…), what they are called, and how old they are or where they live. Record yourself in Speaking practice.
+    exercises: |
+      fill: Das ist ___ Bruder Tim. (my) || mein || Bruder is masculine (der Bruder): mein Bruder. || @tags de.possessives
+      fill: Wie heißt ___ Mutter? (your, informal) || deine || Mutter is feminine (die Mutter): deine Mutter. || @tags de.possessives
+      fill: Frau Schulz, ist das ___ Tochter? (your, formal) || Ihre || Formal "your" is Ihr; Tochter is feminine, so Ihre. || @tags de.possessives,de.register
+      mc: "Emma und ___ Bruder wohnen in Kassel." || sein | *ihr | ihre || Emma is female, so "her" is ihr; Bruder is masculine, so there is no ending. || @tags de.possessives
+      mc: Which article goes with "Kind"? || der | die | *das || Kind is neuter: das Kind (plural die Kinder). || @tags de.gender @skill vocabulary
+      mc: The plural of "die Tochter" is… || die Tochters | *die Töchter | die Tochtern || Tochter takes an umlaut in the plural: die Töchter. || @tags de.plural
+      tf: Lena has a sister. || false || Lena talks about her brother Tim and her nephew Emil — she doesn't mention a sister. || @ctx dialogue
+      short: Where does Lena's grandmother live? || kw: wien/vienna || "Meine Oma … wohnt in Wien." || @ctx dialogue
+      order: Unsere Kinder wohnen in Hamburg. || Our children live in Hamburg. || @tags de.possessives @alt In Hamburg wohnen unsere Kinder.
+      tr: My parents live in Graz. || Meine Eltern wohnen in Graz. || Eltern is plural, so the possessive is meine and the verb wohnen. || @tags de.possessives
+      tr: Is this your daughter? (formal) || Ist das Ihre Tochter? || Formal "your" is Ihr; die Tochter → Ihre Tochter. || @tags de.possessives,de.register
+      listen: Das ist meine Schwester Sara. Sie ist zehn Jahre alt. || Who is Sara? || *The speaker's sister, aged 10 | The speaker's daughter, aged 10 | The speaker's sister, aged 12 || Meine Schwester = my sister; zehn = 10. || @tags de.listening
+      dict: Mein Vater und meine Mutter wohnen in Kiel.
+      ask: Talk about your family — say who is in it and give two names. || kw: mein/meine & heißt/heisst/heißen/heissen/ist || Meine Familie ist klein. Meine Mutter heißt Rosa und mein Bruder heißt Tom.
+      write: Write 3–4 sentences about a family photo for a friend. || min=20 || req: das ist/das sind | mein/meine | heißt/heisst/ist || Das ist meine Familie. Links ist meine Mutter, sie heißt Rosa. Das ist mein Bruder Tom, er ist fünfzehn. Und das ist unser Hund Bello!
+
+  - title: Describing people
+    summary: Describe appearance and personality with sein + adjective, use der/die/das and ein/eine in the nominative, and ask what people are like.
+    minutes: 40
+    skills: [grammar, vocabulary, listening]
+    tags: [de.nominative, de.articles]
+    objectives:
+      - Describe appearance and character with sein + adjective
+      - Use der/die/das and ein/eine correctly in the nominative
+      - Ask what someone is like and what they look like
+    intro: |
+      When you describe a new colleague, a neighbour or a friend, you need adjectives like **groß**, **nett** or **lustig**. Good news: in German, adjectives after **sein** never change — *der Lehrer ist nett, die Lehrerin ist nett*. In this lesson you will also learn when to say **der/die/das** and when to say **ein/eine**.
+    vocab: |
+      groß | tall; big | adj | Mein Bruder ist sehr groß. | My brother is very tall. | n: Opposite: klein.
+      klein | short; small | adj | Unsere Tochter ist noch klein. | Our daughter is still small.
+      jung | young | adj | Die Lehrerin ist jung und sehr nett. | The teacher is young and very nice. | n: Opposite: alt.
+      schlank | slim | adj | Der Mann ist groß und schlank. | The man is tall and slim.
+      die Haare | hair | n | Ihre Haare sind lang und schwarz. | Her hair is long and black. | g: n | pl: die Haare | n: German normally uses the plural: Die Haare sind… The singular is das Haar (one hair).
+      das Auge | eye | n | Seine Augen sind blau. | His eyes are blue. | g: n | pl: die Augen
+      lang | long | adj | Meine Haare sind lang. | My hair is long. | n: Opposite: kurz (short).
+      blond | blond; fair-haired | adj | Hannah ist blond. | Hannah is blonde.
+      nett | nice; kind | adj | Unser Nachbar ist sehr nett. | Our neighbour is very nice.
+      freundlich | friendly | adj | Die Ärztin ist sehr freundlich. | The doctor is very friendly.
+      lustig | funny; fun | adj | Mein Opa ist lustig. | My grandpa is funny.
+      ruhig | quiet; calm | adj | Er ist ruhig, aber sehr nett. | He's quiet, but very nice.
+      der Freund | friend; boyfriend | n | Das ist Ben, ein Freund. | This is Ben, a friend. | g: m | pl: die Freunde | n: Female: die Freundin. Mein Freund often means "my boyfriend".
+      Wie sieht er aus? | what does he look like? | expr | Wie sieht deine Schwester aus? | What does your sister look like? | n: From the verb aussehen. You will learn this verb type (separable verbs) in unit 3.
+    grammar:
+      title: "der/die/das, ein/eine and sein + adjective"
+      body: |
+        In the **nominative** — the case of the subject — German has three genders and a plural:
+
+        - masculine: **der** Mann — **ein** Mann
+        - feminine: **die** Frau — **eine** Frau
+        - neuter: **das** Kind — **ein** Kind
+        - plural: **die** Kinder — no form of *ein*
+
+        Use **ein/eine** when you mention someone for the first time or one of many: *Das ist ein Freund.* Use **der/die/das** when it is clear who you mean: *Der Freund heißt Ben.*
+
+        After **sein**, adjectives have **no ending**, whatever the gender or number: *Der Mann ist groß. Die Frau ist groß. Die Kinder sind groß.* To ask about character, say *Wie ist …?*; for appearance, *Wie sieht … aus?*
+      table: |
+        Gender | Definite | Indefinite | With sein + adjective
+        masculine | der Mann | ein Mann | Der Mann ist groß.
+        feminine | die Frau | eine Frau | Die Frau ist nett.
+        neuter | das Kind | ein Kind | Das Kind ist lustig.
+        plural | die Kinder | — | Die Kinder sind klein.
+      examples: |
+        Das ist eine Freundin. Sie heißt Aylin. | This is a friend. Her name is Aylin. | first mention: eine
+        Die Lehrerin ist jung und sehr nett. | The teacher is young and very nice. | no ending after sein
+        Wie ist dein Chef? – Er ist ruhig und freundlich. | What's your boss like? – He's quiet and friendly.
+        Seine Haare sind kurz und blond. | His hair is short and blond. | plural verb: sind
+      tip: Learn nouns as "der Mann, die Männer" — article and plural together. Many learners colour-code them (blue for der, red for die, green for das).
+    dialogue:
+      title: Wie siehst du aus?
+      setting: Nadia is meeting her language-exchange partner Felix for the first time at a station café in Mannheim. Felix calls her on the phone.
+      speakers: N=Nadia/f; F=Felix/m
+      lines: |
+        F: Hallo Nadia, hier ist Felix. | Hi Nadia, it's Felix.
+        N: Hallo Felix! Ich bin schon im Café. | Hi Felix! I'm already at the café.
+        F: Super! Wie siehst du aus? | Great! What do you look like?
+        N: Ich bin klein. Meine Haare sind lang und schwarz. | I'm short. My hair is long and black.
+        F: Okay. Ich bin groß und blond. | OK. I'm tall and blond.
+        N: Hast du eine Brille? | Do you wear glasses?
+        F: Ja. Und mein Hund ist auch da! | Yes. And my dog is here too!
+        N: Oh, wie ist dein Hund? | Oh, what's your dog like?
+        F: Er ist klein, braun und sehr lustig. | He's small, brown and very funny.
+        N: Ah, da seid ihr ja! Hallo! | Ah, there you are! Hello!
+    pronunciation:
+      title: "Final devoicing: b, d and g at the end"
+      body: |
+        At the end of a word or syllable, **b, d** and **g** lose their voice and sound like **p, t** and **k**. This is called *Auslautverhärtung* (final devoicing): *blond* [blɔnt], *Hund* [hʊnt], *lieb* [liːp], *Tag* [taːk].
+
+        When an ending follows, the letter starts a new syllable and gets its voice back: *Kind* [kɪnt] but *Kinder* [ˈkɪndɐ]; *Tag* [taːk] but *Tage* [ˈtaːɡə].
+      items: |
+        blond
+        und
+        Kind
+        Kinder
+        freundlich
+        Hund
+    culture:
+      title: nett, sympathisch and polite descriptions
+      body: |
+        *Nett* (nice, kind) is the safest positive word for people in German. *Sympathisch* means that someone makes a good impression and you like them — it does not mean "sympathetic" (that is *mitfühlend*).
+
+        Comments on someone's weight or age are considered impolite, even as a joke. Neutral, factual descriptions are perfectly normal, though: *Er ist groß und hat eine Brille.*
+    mistakes: |
+      Die Frau ist nette. => Die Frau ist nett. | After sein, adjectives never take an ending.
+      Meine Haare ist lang. => Meine Haare sind lang. | Haare is plural in German, so the verb is sind.
+      Das ist ein Freundin. => Das ist eine Freundin. | Freundin is feminine, so the indefinite article is eine.
+    task:
+      title: Find the person
+      mode: interaction
+      body: |
+        You are meeting a language-exchange partner at a busy station. On the phone, describe yourself in 3–4 sentences (height, hair, glasses, character) and ask what they look like — just as Nadia and Felix do in the dialogue.
+    exercises: |
+      fill: Das ist ___ Freundin. Sie heißt Marie. || eine || Freundin is feminine and mentioned for the first time: eine Freundin. || @tags de.articles,de.nominative @hint a
+      fill: ___ Kind ist fünf Jahre alt. || Das || Kind is neuter: das Kind. || @tags de.articles,de.gender @hint the
+      fill: Die Kinder ___ sehr lustig. || sind || Die Kinder is plural, so the verb is sind. || @tags de.sein,de.plural
+      mc: Which sentence is correct? || Der Lehrer ist nette. | *Der Lehrer ist nett. | Der Lehrer nett ist. || After sein the adjective has no ending, and the verb comes in position 2. || @tags de.nominative
+      mc: What does Felix look like? || Short and blond | *Tall and blond | Tall, with black hair || "Ich bin groß und blond." || @ctx dialogue @skill reading @tags de.reading
+      tf: Felix's dog is big. || false || "Er ist klein, braun und sehr lustig." || @ctx dialogue
+      mc: What is the opposite of "groß" when you describe a person? || lang | *klein | jung || groß ↔ klein; lang ↔ kurz; jung ↔ alt. || @skill vocabulary @tags de.vocabulary
+      rw: Make it plural :: Das Kind ist klein. || Die Kinder sind klein. || das Kind → die Kinder, ist → sind; the adjective doesn't change. || @tags de.plural,de.nominative
+      tr: My sister is tall and very nice. || Meine Schwester ist groß und sehr nett. || Schwester is feminine: meine. Adjectives after sein have no ending. || @tags de.possessives,de.nominative
+      tr-en: Er ist ruhig, aber sehr freundlich. || He is quiet but very friendly. | He's quiet but very friendly. | He is calm but very friendly. | He's calm but very friendly. || Ruhig = quiet or calm; freundlich = friendly. || @skill vocabulary
+      listen: Meine Mitbewohnerin ist klein und schlank. Ihre Haare sind kurz und rot. || What does the flatmate look like? || Tall, with short red hair | *Short and slim, with short red hair | Short, with long red hair || Klein = short, schlank = slim, kurz = short (hair), rot = red. || @tags de.listening
+      dict: Der Mann ist groß und hat eine Brille.
+      ask: Describe a friend — say what they look like and what they are like. || kw: ist/sind & groß/gross/klein/schlank/blond & nett/lustig/ruhig/freundlich || Mein Freund Ali ist groß und schlank. Seine Haare sind schwarz. Er ist lustig und sehr nett.
+      write: Write a short description of your best friend (appearance and character) for a pen-pal. || min=20 || req: ist/sind | groß/gross/klein/schlank/jung/blond | nett/lustig/ruhig/freundlich || Meine Freundin heißt Clara. Sie ist klein und schlank. Ihre Haare sind lang und blond. Clara ist sehr lustig und freundlich. Wir lernen zusammen Deutsch.
+
+  - title: Jobs and workplaces
+    summary: Say what you do and where you work — without an article before the job — and form female job titles with -in.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [de.articles, de.present-regular]
+    objectives:
+      - Say what you and others do (Ich bin Lehrerin; Er arbeitet als Koch)
+      - Form female job titles with -in
+      - Say where someone works
+    intro: |
+      "What do you do?" is one of the first questions Germans ask a new acquaintance. In German there is no article before a job: **Ich bin Ingenieurin**, not ~~ich bin eine Ingenieurin~~. Most job titles have a male and a female form, and you will need both.
+    vocab: |
+      der Beruf | job; profession | n | Was sind Sie von Beruf? | What do you do (for a living)? | g: m | pl: die Berufe | n: Informal: Was bist du von Beruf? or Was machst du beruflich?
+      arbeiten | to work | v | Sie arbeitet als Köchin. | She works as a cook. | c: arbeiten als + job; arbeiten bei + company | n: The stem ends in -t, so du arbeitest and er arbeitet add an extra -e-.
+      der Lehrer | teacher (male) | n | Mein Vater ist Lehrer. | My father is a teacher. | g: m | pl: die Lehrer | n: Female: die Lehrerin, plural die Lehrerinnen.
+      der Arzt | doctor (male) | n | Er ist Arzt in Bonn. | He's a doctor in Bonn. | g: m | pl: die Ärzte | n: Female: die Ärztin (with an umlaut).
+      die Krankenpflegerin | nurse (female) | n | Sie ist Krankenpflegerin. | She's a nurse. | g: f | pl: die Krankenpflegerinnen | n: Male: der Krankenpfleger. The official title today is Pflegefachfrau / Pflegefachmann.
+      der Koch | cook; chef | n | Kofi ist Koch. | Kofi is a cook. | g: m | pl: die Köche | n: Female: die Köchin.
+      der Verkäufer | sales assistant | n | Die Verkäuferin ist sehr freundlich. | The sales assistant is very friendly. | g: m | pl: die Verkäufer | n: Female: die Verkäuferin.
+      der Ingenieur | engineer | n | Meine Mutter ist Ingenieurin. | My mother is an engineer. | g: m | pl: die Ingenieure | n: Female: die Ingenieurin. The g is pronounced like the s in "pleasure".
+      der Polizist | police officer | n | Er ist Polizist in Hamburg. | He's a police officer in Hamburg. | g: m | pl: die Polizisten | n: Female: die Polizistin.
+      das Büro | office | n | Ich arbeite im Büro. | I work in an office. | g: n | pl: die Büros
+      das Krankenhaus | hospital | n | Sie arbeitet im Krankenhaus. | She works at the hospital. | g: n | pl: die Krankenhäuser
+      die Schule | school | n | Die Schule ist klein. | The school is small. | g: f | pl: die Schulen | c: an einer Schule arbeiten (to work at a school)
+      die Firma | company; firm | n | Die Firma ist in München. | The company is in Munich. | g: f | pl: die Firmen
+      die Rentnerin | retired person; pensioner (female) | n | Meine Oma ist Rentnerin. | My grandma is retired. | g: f | pl: die Rentnerinnen | n: Male: der Rentner.
+    grammar:
+      title: "Jobs without an article, and female forms with -in"
+      body: |
+        To say what someone does, German uses **sein + job** with **no article**: *Ich bin Lehrer. Sie ist Ärztin.* You can also say **arbeiten als + job**: *Er arbeitet als Koch.*
+
+        Most jobs have a female form ending in **-in**. It is always feminine (**die**) and its plural ends in **-innen**: *der Lehrer → die Lehrerin → die Lehrerinnen*. Some words also add an umlaut: *der Arzt → die Ärztin, der Koch → die Köchin*.
+
+        The verb **arbeiten** has a stem ending in **-t**, so it adds an extra **-e-** before the endings -st and -t: *du arbeit**e**st, er arbeit**e**t, ihr arbeit**e**t*.
+
+        To ask: *Was sind Sie von Beruf?* (formal) or *Was bist du von Beruf?* (informal). For the place: *Wo arbeitest du?*
+      table: |
+        Male | Female | Female plural
+        der Lehrer | die Lehrerin | die Lehrerinnen
+        der Verkäufer | die Verkäuferin | die Verkäuferinnen
+        der Arzt | die Ärztin | die Ärztinnen
+        der Koch | die Köchin | die Köchinnen
+        der Polizist | die Polizistin | die Polizistinnen
+      examples: |
+        Ich bin Ingenieurin. | I'm an engineer. | no article
+        Was sind Sie von Beruf? – Ich bin Koch. | What do you do? – I'm a cook.
+        Mein Partner arbeitet als Krankenpfleger. | My partner works as a nurse. | arbeiten als
+        Wo arbeitest du? – Im Krankenhaus. | Where do you work? – At the hospital. | du arbeitest
+      tip: The questions "Was sind Sie von Beruf?" and "Was machen Sie beruflich?" mean the same — learn one to ask and recognise both.
+    dialogue:
+      title: Das Hoffest
+      setting: A summer party in the courtyard of a block of flats in Berlin. Julia, who lives in the building, meets Herr Nguyen and his daughter Linh.
+      speakers: J=Julia/f; N=Herr Nguyen/m; L=Linh/f
+      lines: |
+        J: Guten Abend! Ich bin Julia. Ich wohne hier. | Good evening! I'm Julia. I live here.
+        N: Guten Abend! Nguyen, freut mich. | Good evening! Nguyen, nice to meet you.
+        J: Was sind Sie von Beruf, Herr Nguyen? | What do you do, Mr Nguyen?
+        N: Ich bin Koch. Ich arbeite in einem Restaurant. | I'm a cook. I work in a restaurant.
+        J: Oh, toll! Und das ist Ihre Tochter? | Oh, great! And is this your daughter?
+        N: Ja, das ist Linh. | Yes, this is Linh.
+        L: Hallo! Was machst du beruflich? | Hi! What do you do for a living?
+        J: Ich bin Krankenpflegerin. Ich arbeite im Krankenhaus. | I'm a nurse. I work at the hospital.
+        L: Cool! Ich bin Studentin, aber ich arbeite auch. | Cool! I'm a student, but I work too.
+        J: Ach ja? Wo arbeitest du? | Oh really? Where do you work?
+        L: In einer Bäckerei, am Wochenende. | In a bakery, at the weekend.
+    pronunciation:
+      title: "z and tz: always [ts]"
+      body: |
+        The German **z** is always pronounced [ts], like the *ts* at the end of English *cats* — at the beginning, in the middle and at the end of a word: *Zeit, Arzt, Polizist*. The spelling **tz** sounds the same: *jetzt, Platz*.
+
+        Don't confuse it with **s** at the start of a word before a vowel, which is a voiced [z] like English *zoo*: *Sie, sechs, Sohn*. So German *z* sounds like English *ts*, and German *s* often sounds like English *z*!
+      items: |
+        Arzt
+        Ärztin
+        Polizist
+        zwanzig
+        jetzt
+        Sie ist Polizistin.
+    culture:
+      title: Ausbildung and job titles
+      body: |
+        Many jobs in Germany — from cook to bank clerk to electrician — are learned in an **Ausbildung**: two to three and a half years of vocational training that combine work in a company with classes at a vocational school. It is a respected path, not a second choice after university.
+
+        Job adverts usually address everyone: *Lehrer (m/w/d)* means male, female or diverse. In writing you will also see gender-inclusive forms such as Lehrer:innen or neutral words such as Lehrkräfte (teaching staff).
+    mistakes: |
+      Ich bin eine Lehrerin. => Ich bin Lehrerin. | With sein + job, German doesn't use an article.
+      Du arbeitst im Büro. => Du arbeitest im Büro. | The stem arbeit- ends in -t, so it adds -e- before -st: du arbeitest.
+      Er arbeitet wie Koch. => Er arbeitet als Koch. | "To work as" is arbeiten als, not wie.
+    task:
+      title: Small talk about jobs
+      mode: interaction
+      body: |
+        At a party you meet two people: an older neighbour (Sie) and a student (du). Ask each of them what they do and where they work, and answer their questions about your own job or studies. Record both conversations in Speaking practice, or play both roles aloud.
+    exercises: |
+      mc: Choose the correct sentence. || Ich bin ein Koch. | *Ich bin Koch. | Ich bin der Koch von Beruf. || With sein + job, there's no article. || @tags de.articles
+      fill: Er ist Verkäufer und sie ist ___. (female form) || Verkäuferin || Add -in for the female form: der Verkäufer → die Verkäuferin. || @tags de.gender
+      fill: Wo ___ du? – Im Büro. || arbeitest || The stem arbeit- ends in -t, so add -e- before -st: du arbeitest. || @tags de.present-regular @hint arbeiten
+      fill: Frau Okoye ___ als Ingenieurin. || arbeitet || Sie + arbeiten = sie arbeitet (with an extra -e-). || @tags de.present-regular @hint arbeiten
+      fill: Was ___ Sie von Beruf? || sind || The formal question is Was sind Sie von Beruf? || @tags de.sein,de.register
+      mc: The female form of "der Arzt" is… || die Arztin | *die Ärztin | die Arztfrau || Arzt adds an umlaut and -in: die Ärztin. || @tags de.gender
+      mc: What does Herr Nguyen do? || He's a nurse. | *He's a cook. | He's a student. || "Ich bin Koch. Ich arbeite in einem Restaurant." || @ctx dialogue @skill reading @tags de.reading
+      tf: Linh works at the weekend. || true || "In einer Bäckerei, am Wochenende." || @ctx dialogue
+      order: Mein Vater arbeitet als Polizist in Bremen. || My father works as a police officer in Bremen. || @tags de.present-regular @alt In Bremen arbeitet mein Vater als Polizist. | Als Polizist arbeitet mein Vater in Bremen.
+      tr: She's a doctor and works at the hospital. || Sie ist Ärztin und arbeitet im Krankenhaus. | Sie ist Ärztin und sie arbeitet im Krankenhaus. | Sie ist Ärztin und arbeitet in einem Krankenhaus. | Sie ist Ärztin und sie arbeitet in einem Krankenhaus. || No article before the job; im = in dem. || @tags de.articles,de.present-regular
+      tr: What do you do for a living? (informal) || Was bist du von Beruf? | Was machst du beruflich? | Was machst du? || Informal: Was bist du von Beruf? or Was machst du beruflich? || @tags de.questions
+      listen: Ich heiße Kerem. Ich bin Verkäufer und arbeite in Dortmund. || What is Kerem's job? || Cook | *Sales assistant | Teacher || Verkäufer = sales assistant. || @tags de.listening
+      dict: Meine Mutter ist Lehrerin und arbeitet in Bonn.
+      ask: Say what you do and where you work or study. || kw: ich bin/ich arbeite/ich studiere/ich lerne & in/im/an/bei/als || Ich bin Programmierer und arbeite in Berlin.
+      write: Write a short text (3–4 sentences) about two people in your family and their jobs. || min=20 || req: ist/arbeitet | mein/meine || Mein Vater ist Rentner. Meine Mutter ist Ärztin und arbeitet im Krankenhaus. Mein Bruder ist Koch. Er arbeitet in Köln.

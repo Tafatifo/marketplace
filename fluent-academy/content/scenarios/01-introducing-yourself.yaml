@@ -74,3 +74,18 @@ languages:
       I live in Bristol. Do you work, or are you a student? | - | Say what you do: I work as… / I'm a student… | kw: work/student/study
       Interesting! Why are you learning English? | - | Give a reason: Because… / For… | kw: because/for/to
       I'm learning Spanish for my job. Do you have any questions for me? | - | Ask Sam a question, e.g. How long have you lived here? | kw: you/what/where/how/do
+  da:
+    opener: Hej! Jeg hedder Freja. Hvad hedder du? | Hi! My name is Freja. What's your name?
+    focus: [da.vaere-have, da.present, da.questions]
+    vocab: |
+      hyggeligt at møde dig | nice to meet you
+      jeg kommer fra… | I come from…
+      jeg bor i… | I live in…
+      jeg arbejder som… | I work as…
+      hvad med dig? | what about you?
+    script: |
+      Hyggeligt at møde dig! Hvor kommer du fra? | Nice to meet you! Where are you from? | Say where you are from: Jeg kommer fra… | kw: kommer/er fra
+      Spændende! Og hvor bor du nu? | Exciting! And where do you live now? | Say which city you live in: Jeg bor i… | kw: bor
+      Jeg bor i Aarhus. Arbejder du, eller studerer du? | I live in Aarhus. Do you work or study? | Say what you do: Jeg arbejder som… / Jeg studerer… | kw: arbejder/studerer/læser/er
+      Hvor interessant! Hvorfor lærer du dansk? | How interesting! Why are you learning Danish? | Give a reason: Fordi… | kw: fordi/for at/skal/vil
+      Jeg lærer engelsk, fordi jeg skal bruge det på arbejdet. Har du et spørgsmål til mig? | I'm learning English because I need it at work. Do you have a question for me? | Ask Freja a question, e.g. Hvor gammel er du? | kw: du/hvad/hvor/hvordan/hvorfor/har

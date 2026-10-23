@@ -74,3 +74,18 @@ languages:
       Sure thing. Would you like a starter or dessert as well? | - | Answer, maybe ask what desserts there are | kw: yes/no/dessert/starter/thanks
       Here you go. How is everything? | - | Say what you think of the food | kw: good/great/delicious/really
       Can I get you anything else? | - | Ask for the bill | kw: check/bill/pay
+  da:
+    opener: Hej! Hvor mange er I? Vil I sidde inde eller ude? | Hi! How many of you are there? Would you like to sit inside or outside?
+    focus: [da.ordering, da.register]
+    vocab: |
+      jeg vil gerne have… | I would like…
+      menukortet | the menu
+      må vi bede om regningen? | could we have the bill, please?
+      at spise her / at tage med | to eat in / to take away
+      dagens ret | today's special
+    script: |
+      Godt. Hvad vil I have at drikke? | Good. What would you like to drink? | Order a drink: Jeg vil gerne have… | kw: gerne/have/tager/kan jeg få
+      Og at spise? Dagens ret er frikadeller med kartoffelsalat. | And to eat? Today's special is Danish meatballs with potato salad. | Order food or ask about the dish | kw: gerne/have/tager/hvad/er der
+      Perfekt. Skal I have en dessert bagefter? | Perfect. Would you like a dessert afterwards? | Answer, and maybe ask what desserts there are | kw: ja/nej/dessert/hvad/tak
+      Værsgo! Hvordan smager det? | Here you are! How does it taste? | Say what you think of the food | kw: godt/lækkert/dejligt/meget
+      Kan jeg hente noget mere til jer? | Can I get you anything else? | Ask for the bill | kw: regningen/betale/kort

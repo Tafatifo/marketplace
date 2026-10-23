@@ -74,3 +74,18 @@ languages:
       I go hiking and play the guitar. Do you play any instruments? | - | Answer and say which | kw: yes/no/play/instrument
       Is there anything you really don't like doing? | - | Say what you don't like: I can't stand… / I don't like… | kw: don't/can't/hate
       Do you fancy going hiking together on Saturday? | - | Accept or decline politely | kw: yes/sure/sorry/great/love
+  da:
+    opener: Sig mig, hvad kan du godt lide at lave i weekenden? | Tell me, what do you like doing at the weekend?
+    focus: [da.likes, da.frequency]
+    vocab: |
+      jeg kan godt lide at… | I like to…
+      at dyrke sport | to do sport
+      at spille guitar | to play the guitar
+      en gang imellem | now and then
+      har du lyst til at…? | do you fancy …?
+    script: |
+      Hvor fedt! Gør du det tit? | How cool! Do you do that often? | Say how often: hver dag / i weekenden / en gang imellem | kw: tit/ofte/hver/weekenden/gang
+      Og hvorfor kan du lide det? | And why do you like it? | Explain why: fordi det er… | kw: fordi/er/det
+      Jeg går tit lange ture, og jeg spiller guitar. Spiller du et instrument? | I often go for long walks, and I play the guitar. Do you play an instrument? | Answer and say which one | kw: ja/nej/spiller/instrument
+      Er der noget, du slet ikke kan lide at lave? | Is there anything you really don't like doing? | Say what you don't like: Jeg kan ikke lide at… | kw: ikke/slet/hader
+      Har du lyst til at gå en tur i Dyrehaven med mig på lørdag? | Do you fancy going for a walk in Dyrehaven with me on Saturday? | Accept or decline politely | kw: ja/gerne/desværre/fedt/klart
