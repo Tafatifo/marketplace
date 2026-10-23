@@ -75,7 +75,7 @@ def decode_audio(data: bytes) -> np.ndarray:
 
 @app.get("/health")
 def health():
-    available = {vid: (HERE / "voices" / f"{vid.split('#')[0]}.onnx").exists() for vid in VOICES}
+    available = {vid: (HERE / "voices" / f"{stem}.onnx").exists() for vid, (stem, _) in VOICES.items()}
     return {"ok": True, "whisper_model": WHISPER_MODEL, "whisper_loaded": _model is not None, "voices": available}
 
 

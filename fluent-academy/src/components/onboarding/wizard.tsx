@@ -158,7 +158,7 @@ export function OnboardingWizard({
             <h1 id="q-target" className="display text-3xl">Which language do you want to speak?</h1>
             <p className="mt-2 text-muted">You can add more languages later from your dashboard.</p>
             <div role="radiogroup" aria-labelledby="q-target" className="mt-6 grid gap-3 sm:grid-cols-2">
-              {Object.entries(COURSE_LANGUAGE_INFO).map(([code, l]) => (
+              {Object.entries(COURSE_LANGUAGE_INFO).filter(([code]) => availableLevels[code]?.length).map(([code, l]) => (
                 <OptionCard
                   key={code}
                   selected={targetLanguage === code}
@@ -171,6 +171,15 @@ export function OnboardingWizard({
                 />
               ))}
             </div>
+            {Object.keys(COURSE_LANGUAGE_INFO).some((c) => !availableLevels[c]?.length) && (
+              <p className="mt-4 text-sm text-muted">
+                In preparation:{" "}
+                {Object.entries(COURSE_LANGUAGE_INFO)
+                  .filter(([c]) => !availableLevels[c]?.length)
+                  .map(([, l]) => l.name)
+                  .join(", ")}
+              </p>
+            )}
             {targetLanguage && targetLanguage === nativeLanguage && (
               <Alert tone="warning" className="mt-4">That&apos;s your native language — pick the language you want to learn.</Alert>
             )}

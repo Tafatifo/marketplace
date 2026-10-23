@@ -24,6 +24,8 @@ export const POST = route(async (req) => {
   if (body.nativeLanguage === body.targetLanguage) {
     throw badRequest("Your target language is the same as your native language. Choose another language to learn.");
   }
+  const published = await db.course.count({ where: { languageCode: body.targetLanguage, status: "PUBLISHED" } });
+  if (!published) throw badRequest("This language isn't available yet. Choose one of the listed languages.");
   const goal = DAILY_GOALS.find((g) => g.minutes === body.dailyGoalMinutes)!;
   await db.$transaction([
     db.userPreferences.upsert({
