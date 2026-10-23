@@ -2,12 +2,13 @@ import Link from "next/link";
 import { AlertTriangle, AudioLines, BookOpenText, ClipboardCheck, GraduationCap, Users } from "lucide-react";
 import { StateDot } from "@/components/admin/badges";
 import { Card, CardBody, CardHeader, PageHeader, Stat } from "@/components/ui/primitives";
+import { addDays } from "@/lib/dates";
 import { formatNumber, timeAgo } from "@/lib/format";
 import { systemStatus } from "@/server/admin/status";
 import { db } from "@/server/db";
 
 export default async function AdminOverview() {
-  const weekAgo = new Date(Date.now() - 7 * 86_400_000);
+  const weekAgo = addDays(new Date(), -7);
   const [status, users, activeLearners, premium, lessonsByStatus, linguistic, pendingRevisions, audioQa, audioVerdicts, events, lastImport] = await Promise.all([
     systemStatus(),
     db.user.count(),

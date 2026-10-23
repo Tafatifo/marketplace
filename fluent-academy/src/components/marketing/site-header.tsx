@@ -20,7 +20,12 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => setOpen(false), [pathname]);
+  // Close the mobile menu after navigating.
+  const [menuPath, setMenuPath] = useState(pathname);
+  if (menuPath !== pathname) {
+    setMenuPath(pathname);
+    setOpen(false);
+  }
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
     onScroll();

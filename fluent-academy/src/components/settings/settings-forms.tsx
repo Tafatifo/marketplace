@@ -160,7 +160,8 @@ export function SettingsForms({ data }: { data: SettingsData }) {
       </Section>
 
       <Section title="Delete account" description="This permanently deletes your account and all learning records. It can't be undone.">
-        <form className="flex flex-col gap-4 sm:flex-row sm:items-end" onSubmit={(e) => { e.preventDefault(); void danger.run(async () => { await api("/api/settings/delete-account", { body: del }); window.location.href = "/"; }); }}>
+        <form className="flex flex-col gap-4 sm:flex-row sm:items-end" onSubmit={(e) => { e.preventDefault(); void danger.run(async () => { await api("/api/settings/delete-account", { body: del }); // Full reload so no signed-in state survives in memory.
+          window.location.assign(new URL("/", window.location.origin).href); }); }}>
           <Field label="Password" className="flex-1">{(p) => <Input {...p} type="password" autoComplete="current-password" value={del.password} onChange={(e) => setDel({ ...del, password: e.target.value })} />}</Field>
           <Field label='Type "DELETE" to confirm' className="flex-1">{(p) => <Input {...p} value={del.confirm} onChange={(e) => setDel({ ...del, confirm: e.target.value })} />}</Field>
           <Button type="submit" variant="danger" loading={danger.busy} disabled={del.confirm !== "DELETE" || !del.password}>Delete account</Button>

@@ -363,8 +363,8 @@ function TextAnswer({
   placeholder?: string;
   onSubmit: () => void;
 }) {
-  const input = useInsertAt<HTMLInputElement>(value, onChange);
-  const area = useInsertAt<HTMLTextAreaElement>(value, onChange);
+  const { ref: inputRef, insert: insertInInput } = useInsertAt<HTMLInputElement>(value, onChange);
+  const { ref: areaRef, insert: insertInArea } = useInsertAt<HTMLTextAreaElement>(value, onChange);
   const onKey = (e: KeyboardEvent) => {
     if (e.key === "Enter" && !multiline && value.trim()) {
       e.preventDefault();
@@ -375,7 +375,7 @@ function TextAnswer({
     <div>
       {multiline ? (
         <textarea
-          ref={area.ref}
+          ref={areaRef}
           value={value}
           onChange={(e) => onChange(e.target.value)}
           disabled={disabled}
@@ -388,7 +388,7 @@ function TextAnswer({
         />
       ) : (
         <input
-          ref={input.ref}
+          ref={inputRef}
           value={value}
           onChange={(e) => onChange(e.target.value)}
           onKeyDown={onKey}
@@ -402,7 +402,7 @@ function TextAnswer({
           aria-label="Your answer"
         />
       )}
-      {!disabled && <AccentBar language={language} onInsert={multiline ? area.insert : input.insert} />}
+      {!disabled && <AccentBar language={language} onInsert={multiline ? insertInArea : insertInInput} />}
     </div>
   );
 }

@@ -78,7 +78,10 @@ async function syncSubscription(s: Stripe.Subscription) {
   }
   const item = s.items.data[0];
   const status = mapStatus(s.status);
-  const planCode = status === "CANCELED" ? "free" : (s.metadata?.planCode as string | undefined) ?? "premium";
+  // Metadata is written by our own checkout, but only a known paid plan is ever granted.
+  const requested = (s.metadata?.planCode as string | undefined) ?? "premium";
+  const known = requested !== "free" && (await getPlan(requested)).code === requested;
+  const planCode = status === "CANCELED" ? "free" : known ? requested : "premium";
   await db.subscription.upsert({
     where: { userId },
     create: {

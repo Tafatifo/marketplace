@@ -12,10 +12,21 @@ const COMMON = new Set([
   "letmein123", "welcome123", "abcdefghij", "0123456789", "passw0rd12", "administrator", "fluentacademy",
 ]);
 
+const COMMON_STEMS = new Set([
+  "password", "passw0rd", "qwerty", "qwertyuiop", "azerty", "letmein", "welcome", "admin", "iloveyou", "monkey", "dragon",
+  "football", "baseball", "sunshine", "princess", "abc", "abcdef", "abcdefgh", "trustno1", "changeme", "secret", "motdepasse",
+  "contraseña", "contrasena", "passwort", "hallo", "bonjour", "hola", "fluent", "fluentacademy",
+]);
+
 export function passwordProblem(password: string, email?: string): string | null {
   if (password.length < PASSWORD_MIN) return `Use at least ${PASSWORD_MIN} characters.`;
   if (password.length > PASSWORD_MAX) return `Use at most ${PASSWORD_MAX} characters.`;
-  if (COMMON.has(password.toLowerCase())) return "This password is too common. Choose something less predictable.";
+  const lower = password.toLowerCase();
+  // Common passwords, including the usual "word + digits/symbols" variations (password1234, Qwerty123!).
+  const stem = lower.replace(/[\d!@#$%^&*._-]+$/, "");
+  if (COMMON.has(lower) || COMMON.has(stem) || COMMON_STEMS.has(stem) || /^\d+$/.test(password)) {
+    return "This password is too common. Choose something less predictable.";
+  }
   if (/^(.)\1+$/.test(password)) return "Avoid repeating a single character.";
   if (email && password.toLowerCase().includes(email.split("@")[0]!.toLowerCase()) && email.split("@")[0]!.length >= 4) {
     return "Avoid using your email name in your password.";

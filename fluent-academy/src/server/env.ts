@@ -63,7 +63,11 @@ let cached: Env | null = null;
 
 export function env(): Env {
   if (cached) return cached;
-  const parsed = schema.safeParse(process.env);
+  // Empty values (e.g. KEY="" copied from .env.example) mean "not configured".
+  const raw = Object.fromEntries(Object.entries(process.env).filter(([, v]) => v !== undefined && v.trim() !== ""));
+  const parsed = schema
+    .refine((e) => e.NODE_ENV !== "production" || Boolean(e.APP_SECRET), { path: ["APP_SECRET"], message: "is required in production" })
+    .safeParse(raw);
   if (!parsed.success) {
     const issues = parsed.error.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ");
     throw new Error(`Invalid environment configuration: ${issues}`);

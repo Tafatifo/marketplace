@@ -254,7 +254,12 @@ export function AppSidebar(props: NavProps) {
 export function MobileNav(props: NavProps) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  useEffect(() => setOpen(false), [pathname]);
+  // Close the drawer after navigating.
+  const [menuPath, setMenuPath] = useState(pathname);
+  if (menuPath !== pathname) {
+    setMenuPath(pathname);
+    setOpen(false);
+  }
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
     return () => {
