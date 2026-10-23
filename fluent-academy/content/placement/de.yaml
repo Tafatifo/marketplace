@@ -1,0 +1,33 @@
+# Placement check: 7 items per level. A level is passed with 5/7 or more.
+A1: |
+  mc: Ich ___ Lehrerin. || *bin | habe | heiße || Jobs are given with sein and no article: Ich bin Lehrerin. || @skill grammar
+  mc: Ich möchte ___ Kaffee, bitte. || *einen | ein | eine || Kaffee is masculine (der Kaffee). After möchte it is the object, so it is accusative: einen Kaffee. || @skill grammar
+  mc: Which sentence is correct? || *Ich stehe um sieben Uhr auf. | Ich aufstehe um sieben Uhr. | Ich um sieben Uhr aufstehe. || Aufstehen is a separable verb: the verb is in second position and the prefix auf goes to the end. || @skill grammar
+  mc: Morgen ___ ich nach Berlin fahren. || *muss | müssen | musst || The modal verb is in second position and agrees with ich (ich muss); the infinitive goes to the end. || @skill grammar
+  mc: Du ___ sehr gut Deutsch. || *sprichst | sprechst | spricht || Sprechen changes its vowel with du and er/sie/es: du sprichst. || @skill grammar
+  fill: Ich habe ___ Auto, ich fahre immer mit dem Fahrrad. || kein || Use kein, not nicht, to negate a noun with ein: ein Auto → kein Auto. || @hint no / not a
+  listen: Gehen Sie hier geradeaus und dann die zweite Straße links. Der Bahnhof ist neben der Post. || Where is the station? || *Next to the post office | Opposite the post office | Behind the bank || "Der Bahnhof ist neben der Post." Neben = next to.
+A2: |
+  fill: Gestern ___ ich lange mit meiner Mutter telefoniert. || habe || Telefonieren forms the Perfekt with haben: ich habe telefoniert. || @hint haben or sein?
+  mc: Am Wochenende ___ wir nach Hamburg gefahren. || *sind | haben | hatten || Verbs of movement from one place to another, like fahren, form the Perfekt with sein: wir sind gefahren. || @skill grammar
+  mc: Ich lerne Deutsch, weil ich in Wien ___. || *arbeiten möchte | möchte arbeiten | arbeite möchte || After weil, the conjugated verb (möchte) goes to the end of the clause. || @skill grammar
+  mc: Kannst du ___ bitte helfen? || *mir | mich | ich || Helfen takes the dative: Kannst du mir helfen? || @skill grammar
+  mc: Mein Bruder ist drei Jahre ___ als ich. || *älter | alter | mehr alt || Comparative: alt → älter (with an umlaut) + als. || @skill grammar
+  mc: Ich wohne schon ___ drei Jahren in München. || *seit | vor | für || Seit + dative is for something that started in the past and is still true. Vor drei Jahren needs a past tense. || @skill grammar
+  listen: Wenn das Wetter am Samstag schön ist, fahren wir an den See. || What will they do if the weather is nice on Saturday? || *Go to the lake | Go to the cinema | Stay at home || "Wenn das Wetter schön ist, fahren wir an den See."
+B1: |
+  mc: Der Mann, ___ dort an der Haltestelle steht, ist mein Nachbar. || *der | den | dem || The relative pronoun is the subject of its clause (he is standing there), so it is nominative: der. || @skill grammar
+  mc: Wenn ich mehr Geld ___, würde ich ein Haus kaufen. || *hätte | habe | hatte || Imaginary situations use Konjunktiv II: wenn ich … hätte, würde ich … || @skill grammar
+  mc: ___ es regnet, gehen wir spazieren. || *Obwohl | Trotzdem | Deshalb || Obwohl is a conjunction and sends the verb to the end (es regnet). Trotzdem and deshalb are adverbs and cannot introduce a subordinate clause. || @skill grammar
+  mc: Ich habe keine Lust, heute Abend ___. || *auszugehen | ausgehen | zu ausgehen || With separable verbs, zu goes between the prefix and the verb: auszugehen. || @skill grammar
+  mc: "Interessierst du dich für Fußball?" — "Nein, ___ interessiere ich mich nicht." || *dafür | für ihn | darauf || For things, use da- + the preposition: sich interessieren für → dafür. Für ihn would refer to a person. || @skill grammar
+  fill: Als ich am Bahnhof ankam, ___ der Zug schon abgefahren. || war || Plusquamperfekt: hatte/war + Partizip II. Abfahren forms its perfect tenses with sein: der Zug war abgefahren. || @hint Plusquamperfekt
+  listen: Letzten Sommer fuhren wir nach Italien, aber leider regnete es fast jeden Tag. || What was the problem with the holiday? || *It rained almost every day | The hotel was too expensive | They missed their train || "Leider regnete es fast jeden Tag." Präteritum is common in narration.
+B2: |
+  mc: Wenn ich das gewusst ___, wäre ich früher gekommen. || *hätte | habe | würde || Konjunktiv II for the past: hätte/wäre + Partizip II (wenn ich das gewusst hätte). || @skill grammar
+  mc: Je länger ich in Leipzig wohne, ___ gefällt mir die Stadt. || *desto besser | besser | so gut || Je + comparative … desto (or umso) + comparative. || @skill grammar
+  mc: Das Museum ist 2019 eröffnet ___. || *worden | geworden | wird || The Perfekt passive uses worden, not geworden: ist eröffnet worden. || @skill grammar
+  mc: ___ des schlechten Wetters fand das Konzert im Freien statt. || *Trotz | Wegen | Obwohl || Trotz + genitive means despite. Wegen gives the wrong meaning, and obwohl needs a clause with a verb. || @skill grammar
+  mc: Which form is Konjunktiv I, as used in news reports? "Die Sprecherin sagte, das Problem ___ inzwischen gelöst." || *sei | wäre | ist || The Konjunktiv I of sein is sei. Wäre is Konjunktiv II, and ist is the indicative. || @skill grammar
+  fill: Wir haben gestern in einem ___ Restaurant am Hafen gegessen. || kleinen || After einem (dative), the adjective ending is -en: in einem kleinen Restaurant. || @hint klein
+  listen: Die neue Wohnung ist zwar größer, aber die Miete ist deutlich höher und der Weg zur Arbeit länger. || What does the speaker say about the new flat? || *It is bigger but more expensive | It is smaller and cheaper | It is bigger and closer to work || "Zwar größer, aber die Miete ist deutlich höher." Zwar … aber concedes a point before a contrast.

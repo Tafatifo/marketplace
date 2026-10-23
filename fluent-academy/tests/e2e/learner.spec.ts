@@ -16,15 +16,16 @@ test("a learner opens a lesson, answers an exercise and gets server-checked feed
   await page.getByRole("button", { name: /^practice \(\d+\)/i }).click();
   const start = page.getByRole("button", { name: /start practice/i });
   if (await start.isVisible().catch(() => false)) await start.click();
-  // Answer whatever the first exercise is with a minimal response, then check it.
+  // Answer whatever the first exercise is with some response, then check it on the server.
   const choice = page.getByRole("radio").first();
+  const blank = page.getByLabel("Blank 1");
+  const text = page.getByRole("textbox", { name: /your answer/i }).first();
+  const matchColumn = page.locator(".grid.grid-cols-2 > div").nth(1).getByRole("button");
   if (await choice.isVisible().catch(() => false)) await choice.click();
-  else {
-    const box = page.getByRole("textbox", { name: /your answer/i }).first();
-    if (await box.isVisible().catch(() => false)) await box.fill("bonjour");
-  }
-  const check = page.getByRole("button", { name: /^check$/i });
-  if (await check.isEnabled().catch(() => false)) await check.click();
+  else if (await blank.isVisible().catch(() => false)) await blank.fill("bonjour");
+  else if (await text.isVisible().catch(() => false)) await text.fill("bonjour");
+  else for (let i = 0; i < (await matchColumn.count()); i++) await matchColumn.nth(i).click();
+  await page.getByRole("button", { name: /^check$/i }).click();
   await expect(page.getByRole("button", { name: /continue/i })).toBeVisible();
 });
 

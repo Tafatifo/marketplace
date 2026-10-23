@@ -1,0 +1,368 @@
+unit: 3
+title: Une journée ordinaire
+theme: Time and daily routine
+description: Tell the time, describe your daily routine with reflexive verbs, and talk about your week and how often you do things.
+objectives:
+  - Ask and tell the time, and say when things happen
+  - Describe your daily routine with reflexive and regular -er verbs
+  - Talk about the days of the week and how often you do things
+canDo:
+  - I can ask and say what time it is.
+  - I can understand times in timetables and announcements.
+  - I can describe my typical day from morning to night.
+  - I can say on which days and how often I do something.
+review: |
+  mc: 10:45 is… || dix heures et quart | *onze heures moins le quart | onze heures et quart || Moins le quart = quarter to: 10:45 is quarter to eleven. Dix heures et quart is 10:15. || @tags fr.time
+  fill: Le magasin ferme ___ midi. || à || Use à + time to say when something happens. || @tags fr.time
+  fill: Vous vous ___ à quelle heure ? || levez || Vous vous levez: -ez ending and no accent. || @tags fr.reflexive @hint se lever
+  fill: Elles ___ habillent pour la soirée. || s' || Se becomes s' before a vowel or silent h: elles s'habillent. || @tags fr.reflexive,fr.elision
+  mc: Which sentence means "I always have breakfast at seven"? || *Je prends toujours le petit-déjeuner à sept heures. | Je toujours prends le petit-déjeuner à sept heures. | Je prends le petit-déjeuner toujours sept heures. || Toujours goes right after the verb, and a time needs à. || @tags fr.frequency
+  rw: Start with "Nous" :: Je rentre à six heures et je dîne à huit heures. || Nous rentrons à six heures et nous dînons à huit heures. || Regular -er verbs take -ons with nous: rentrons, dînons. || @tags fr.present-er
+  tr: On Fridays, she goes to bed late. || Le vendredi, elle se couche tard. | Elle se couche tard le vendredi. || Le vendredi = on Fridays (every week); se coucher is reflexive. || @tags fr.reflexive,fr.dates
+  tr: It's quarter past two. || Il est deux heures et quart. | Il est deux heures quinze. | Il est quatorze heures quinze. || Et quart = quarter past. || @tags fr.time
+  listen: Le cours de yoga commence à dix-neuf heures et termine à vingt heures. || When does the yoga class finish? || 7 p.m. | *8 p.m. | 9 p.m. || Vingt heures = 20:00, 8 p.m. The class starts at dix-neuf heures (7 p.m.).
+  listen: Le matin, je me lève à sept heures et je prends le petit-déjeuner avec mes enfants. || Who does the speaker have breakfast with? || with colleagues | *with the children | alone || "Je prends le petit-déjeuner avec mes enfants" — with my children.
+  ask: A new colleague asks about your routine. Say what time you get up, start work and go to bed. || kw: je me lève/je me réveille & je commence/je travaille & je me couche || Je me lève à six heures et demie. Je commence à neuf heures et je me couche à onze heures.
+  write: Write an email to a French friend describing your typical Saturday — times, activities and how often you do them. || min=35 || req: je me | heures | souvent/toujours/parfois/tous les || Salut Camille ! Le samedi, je me lève tard, à dix heures. D'abord, je prends le petit-déjeuner et ensuite je téléphone souvent à ma mère. L'après-midi, je joue au tennis avec mon frère. Le soir, je dîne avec des amis et je me couche toujours après minuit !
+lessons:
+  - title: Telling the time
+    summary: Ask and tell the time, say when things happen with à, and read the 24-hour clock.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [fr.time, fr.numbers]
+    objectives:
+      - Ask what time it is and answer with il est… heures
+      - Say at what time something happens (à huit heures)
+      - Understand the 24-hour clock in timetables and announcements
+    intro: |
+      Times are everywhere — class schedules, train departures, opening hours. French uses **il est… heures** to tell the time and **à… heures** to say when something happens. You will also meet the 24-hour clock, which is standard for timetables and announcements in France.
+    vocab: |
+      quelle heure est-il ? | what time is it? | expr | Pardon, madame, quelle heure est-il ? | Excuse me, madam, what time is it? | n: Everyday speech: Il est quelle heure ?
+      il est… heures | it's … o'clock | expr | Il est huit heures. | It's eight o'clock. | n: Heures always has an s, except in il est une heure.
+      et quart | quarter past | expr | Il est neuf heures et quart. | It's quarter past nine.
+      et demie | half past | expr | Il est sept heures et demie. | It's half past seven. | n: With midi and minuit, write et demi: midi et demi.
+      moins le quart | quarter to | expr | Il est dix heures moins le quart. | It's quarter to ten. | n: Moins means minus: ten o'clock minus a quarter = 9:45.
+      midi | noon; midday | n | On déjeune à midi. | We have lunch at noon. | g: m
+      minuit | midnight | n | Le magasin ferme à minuit. | The shop closes at midnight. | g: m
+      du matin | in the morning; a.m. | expr | Il est six heures du matin. | It's six in the morning. | n: Also: de l'après-midi (in the afternoon), du soir (in the evening).
+      à quelle heure ? | at what time? | expr | Le film commence à quelle heure ? | What time does the film start?
+      commencer | to start; to begin | v | Le cours commence à neuf heures. | The class starts at nine. | n: With nous, add a cedilla: nous commençons.
+      terminer | to finish; to end | v | Je termine le travail à dix-sept heures. | I finish work at 5 p.m.
+      trente | thirty | num | Le train part à dix-huit heures trente. | The train leaves at 6:30 p.m. | n: With the 24-hour clock, minutes are read as numbers.
+      vingt et un, vingt-deux, vingt-trois | twenty-one, twenty-two, twenty-three | num | Le dernier bus passe à vingt-trois heures. | The last bus comes at 11 p.m. | n: Heure is feminine, so 21:00 is vingt et une heures.
+      en retard | late | expr | Désolée, je suis en retard ! | Sorry, I'm late! | n: Opposites: à l'heure (on time), en avance (early).
+    grammar:
+      title: "Telling the time: il est… heures"
+      body: |
+        To ask the time, say **Quelle heure est-il ?** (in everyday speech: *Il est quelle heure ?*). The answer always starts with **il est**: *Il est huit heures.*
+
+        - Put **heures** after the number (no s with *une*: *il est une heure*). In writing: *8 h*, *8 h 15* or *8h15*.
+        - Minutes after the hour: *huit heures **cinq**, huit heures **dix**, huit heures **et quart**, huit heures **et demie***.
+        - Minutes before the next hour use **moins**: *neuf heures **moins dix*** (8:50), *neuf heures **moins le quart*** (8:45).
+        - **Midi** (noon) and **minuit** (midnight) replace *douze heures* in everyday speech.
+
+        To say **when** something happens, use **à**: *Le cours commence **à** neuf heures.* The question is *À quelle heure… ?* or *… à quelle heure ?*
+
+        The **24-hour clock** is used for timetables, cinema times and appointments. You simply read the minutes as a number — *14 h 30 = quatorze heures trente* — and you don't use *et quart*, *et demie* or *moins*.
+      table: |
+        Time | Everyday | 24-hour clock
+        7:00 a.m. | sept heures du matin | sept heures
+        8:15 a.m. | huit heures et quart | huit heures quinze
+        8:50 a.m. | neuf heures moins dix | huit heures cinquante
+        12:30 p.m. | midi et demi | douze heures trente
+        2:30 p.m. | deux heures et demie | quatorze heures trente
+        9:20 p.m. | neuf heures vingt du soir | vingt et une heures vingt
+      examples: |
+        Il est onze heures et demie. | It's half past eleven.
+        Il est midi moins le quart. | It's quarter to twelve. | 11:45
+        Le film commence à vingt heures trente. | The film starts at 8:30 p.m. | 24-hour clock
+        On mange à quelle heure ? | What time are we eating?
+        Mon train part à sept heures dix. | My train leaves at ten past seven.
+      tip: With the 24-hour clock, just read the numbers — 18 h 15 is dix-huit heures quinze. Never mix it with et quart or moins.
+    dialogue:
+      title: Au téléphone avec la piscine
+      setting: Malik phones the municipal swimming pool in Montpellier to ask about opening times.
+      speakers: M=Malik/m; E=L'employée/f
+      lines: |
+        M: Bonjour, madame. La piscine ouvre à quelle heure ? | Hello, madam. What time does the pool open?
+        E: Bonjour ! Le matin, elle ouvre à sept heures. | Hello! In the morning, it opens at seven.
+        M: Et elle ferme à quelle heure ? | And what time does it close?
+        E: À vingt et une heures trente. | At 9:30 p.m.
+        M: Vingt et une heures trente ? Super ! | 9:30 p.m.? Great!
+        E: Mais attention : le dimanche, elle ferme à midi. | But careful: on Sundays, it closes at noon.
+        M: À midi ? D'accord. Et le cours d'aquagym ? | At noon? OK. And the aqua-aerobics class?
+        E: Il commence à dix-huit heures quinze. | It starts at 6:15 p.m.
+        M: Pardon ? Six heures et quart ? | Sorry? Quarter past six?
+        E: Oui, c'est ça. Six heures et quart du soir. | Yes, that's right. Quarter past six in the evening.
+        M: Parfait, merci beaucoup. Bonne journée ! | Perfect, thank you very much. Have a nice day!
+    pronunciation:
+      title: "Linking into heures"
+      body: |
+        **Heures** starts with a silent h and a vowel sound, so the number before it links to it. You hear a [z] in *deux heures* [dø.zœʁ], *trois heures* [tʁwa.zœʁ] and *six heures* [si.zœʁ]; a [n] in *une heure* [y.nœʁ]; a [t] in *vingt heures* [vɛ̃.tœʁ].
+
+        In *neuf heures* the f becomes a [v]: [nœ.vœʁ]. Practise each one as a single word.
+      items: |
+        une heure
+        deux heures
+        trois heures
+        six heures
+        neuf heures
+        vingt heures
+    culture:
+      title: Opening hours and the 24-hour clock
+      body: |
+        In France, many small shops close for lunch, roughly between noon and two, especially outside big cities. On Sundays most shops are closed, although bakeries and markets are often open in the morning.
+
+        Timetables, cinema times and appointments usually use the 24-hour clock. The standard written form is **14 h 30** or **14h30**; you will also see 14:30 on screens. People often say *Rendez-vous à quinze heures* for a meeting at 3 p.m.
+    mistakes: |
+      Il est huit heure. => Il est huit heures. | Heures takes an s after every number except une.
+      Le cours commence en neuf heures. => Le cours commence à neuf heures. | To say at what time something happens, use à.
+      Il est neuf heures moins quart. => Il est neuf heures moins le quart. | Before the hour, the expression is moins le quart (with le).
+    task:
+      title: Call for opening times
+      mode: interaction
+      body: |
+        Phone a museum, a pool or a library (or role-play it with a partner). Ask when it opens and closes and what time a guided tour or class starts. Repeat each time you hear in the everyday form to check, as Malik does: Dix-huit heures quinze ? Six heures et quart ?
+    exercises: |
+      mc: 7:30 is… || sept heures et quart | *sept heures et demie | huit heures moins le quart || Et demie = half past. Et quart is 7:15; huit heures moins le quart is 7:45. || @tags fr.time
+      mc: "Il est onze heures moins le quart." What time is it? || 11:15 | *10:45 | 11:45 || Moins le quart = quarter to: eleven minus a quarter is 10:45. || @tags fr.time
+      mc: You see "21 h 15" on a cinema ticket. You say… || vingt heures quinze | *vingt et une heures quinze | vingt et un heures et quart || 21 is vingt et une before heures (feminine), and with the 24-hour clock you read the minutes as a number. || @tags fr.time,fr.numbers
+      fill: Il est trois ___. || heures || Put heures (with an s) after the number. || @tags fr.time
+      fill: Le cours commence ___ neuf heures. || à || Use à to say at what time something happens. || @tags fr.time
+      fill: ___ heure est-il ? || quelle || Heure is feminine, so the question word is quelle. || @tags fr.time,fr.question-words
+      tf: The pool closes at noon on Sundays. || true || The receptionist says "le dimanche, elle ferme à midi". || @ctx dialogue
+      short: What time does the aqua-aerobics class start? || kw: 18/dix-huit/six/6/18h/18h15/6h15 || "Il commence à dix-huit heures quinze" — 6:15 p.m. || @ctx dialogue
+      order: Le film commence à vingt heures trente. || The film starts at 8:30 p.m. || @tags fr.time
+      tr: It's half past twelve. || Il est midi et demi. | Il est midi et demie. | Il est douze heures trente. | Il est midi trente. || After midi, the traditional spelling is et demi; with the 24-hour clock, douze heures trente. || @tags fr.time
+      listen: Le train pour Lyon part à seize heures dix. || When does the train leave? || 6:10 p.m. | *4:10 p.m. | 4:20 p.m. || Seize heures dix = 16:10, ten past four in the afternoon.
+      listen: @dialogue || When does the pool open in the morning? || *at 7:00 | at 9:00 | at 12:00 || "Le matin, elle ouvre à sept heures."
+      dict: Il est neuf heures et quart.
+      ask: Someone in the street asks you "Pardon, quelle heure est-il ?". It's 4:30 p.m. Answer politely. || kw: il est & quatre heures et demie/seize heures trente/4h30/16h30/16 h 30 || Il est quatre heures et demie, madame.
+      write: Write a short message to a classmate giving the times of three activities this week (class, sport, film…) using the 24-hour clock. || min=20 || req: à | heures || Salut Inès ! Le cours de français commence à dix-huit heures trente. Le yoga est à vingt heures et le film commence à vingt et une heures quinze. À bientôt !
+
+  - title: My daily routine
+    summary: Describe your day from morning to night with reflexive verbs (je me lève, je me couche) and -er verbs.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [fr.reflexive, fr.present-er]
+    objectives:
+      - Describe your morning and evening routine
+      - Conjugate reflexive verbs like se lever and se coucher in the present
+      - Put the events of your day in order with d'abord, ensuite and après
+    intro: |
+      Talking about your day is a perfect way to practise the present tense. Many routine verbs in French are **reflexive** — they include a small pronoun that refers back to the subject: **je me réveille** (I wake up), **elle se couche** (she goes to bed). Once you know the pattern, you can describe your whole day.
+    vocab: |
+      se réveiller | to wake up | v | Je me réveille à six heures et demie. | I wake up at half past six.
+      se lever | to get up | v | Tu te lèves tôt ? | Do you get up early? | n: Accent è in je me lève, tu te lèves, il se lève, ils se lèvent — but nous nous levons, vous vous levez.
+      se doucher | to have a shower | v | Il se douche le matin. | He has a shower in the morning.
+      s'habiller | to get dressed | v | Je m'habille vite. | I get dressed quickly. | n: Me, te, se become m', t', s' before a vowel or silent h.
+      se brosser les dents | to brush your teeth | expr | Les enfants se brossent les dents. | The children brush their teeth. | n: French uses les, not a possessive, with parts of the body here.
+      le petit-déjeuner | breakfast | n | Le petit-déjeuner est à sept heures. | Breakfast is at seven. | g: m | c: prendre le petit-déjeuner (je prends, nous prenons)
+      déjeuner | to have lunch | v | Je déjeune avec mes collègues. | I have lunch with my colleagues. | n: Also a noun: le déjeuner (lunch).
+      dîner | to have dinner | v | On dîne à vingt heures. | We have dinner at 8 p.m. | n: Also a noun: le dîner (dinner).
+      rentrer | to go home; to come back | v | Je rentre à la maison à six heures. | I go home at six.
+      se coucher | to go to bed | v | Mes parents se couchent tard. | My parents go to bed late.
+      tôt | early | adv | Je me lève très tôt. | I get up very early.
+      tard | late | adv | Le week-end, elle se couche tard. | At the weekend, she goes to bed late. | n: Être en retard = to be late (for something); tard = late in the day.
+      d'abord | first | adv | D'abord, je me douche. | First, I have a shower. | c: d'abord… ensuite… après…
+      ensuite | then; next | adv | Ensuite, je prends le petit-déjeuner. | Then I have breakfast. | n: Après (afterwards) works the same way.
+    grammar:
+      title: "Reflexive verbs: je me lève"
+      body: |
+        A **reflexive verb** has a small pronoun that refers back to the subject. English sometimes uses *myself*, but usually nothing at all: *se laver* (to wash), *se lever* (to get up). Dictionaries list these verbs with **se**: *se réveiller, se coucher*.
+
+        The pronoun changes with the subject and goes **before the verb**: *je **me** lève, tu **te** lèves, il **se** lève…* Before a vowel or silent h, *me, te, se* become **m', t', s'**: *je m'habille*.
+
+        The verb itself follows the regular **-er** pattern: drop -er and add **-e, -es, -e, -ons, -ez, -ent**. The endings -e, -es and -ent are silent, so *je me lève* and *ils se lèvent* end with the same sound.
+
+        Watch **se lever**: it takes an accent (**è**) when the ending is silent — *je me lève, ils se lèvent* — but not in *nous nous levons, vous vous levez*.
+
+        In conversation, **on** often replaces *nous*: *On se lève à sept heures* (we get up at seven). It takes the same form as *il / elle*.
+      table: |
+        Subject | se lever | se coucher | s'habiller
+        je | me lève | me couche | m'habille
+        tu | te lèves | te couches | t'habilles
+        il / elle / on | se lève | se couche | s'habille
+        nous | nous levons | nous couchons | nous habillons
+        vous | vous levez | vous couchez | vous habillez
+        ils / elles | se lèvent | se couchent | s'habillent
+      examples: |
+        Je me réveille à sept heures, mais je me lève à sept heures et quart. | I wake up at seven, but I get up at quarter past seven.
+        Tu te couches à quelle heure ? | What time do you go to bed?
+        Nous nous habillons vite. | We get dressed quickly.
+        Le matin, on se douche et on prend le petit-déjeuner. | In the morning, we have a shower and have breakfast. | on = we
+      tip: "Not every routine verb is reflexive: déjeuner, dîner, travailler and rentrer have no pronoun — je déjeune, je rentre."
+    dialogue:
+      title: Une boulangère matinale
+      setting: Lucas, a student, meets his neighbour Noémie, a baker, on the stairs of their building at lunchtime.
+      speakers: L=Lucas/m; N=Noémie/f
+      lines: |
+        L: Bonjour, Noémie ! Tu rentres du travail ? | Hi, Noémie! Are you coming home from work?
+        N: Oui, je suis boulangère. Je commence très tôt. | Yes, I'm a baker. I start very early.
+        L: Tu te lèves à quelle heure ? | What time do you get up?
+        N: Je me lève à trois heures et demie. | I get up at half past three.
+        L: Trois heures et demie ? C'est très tôt ! | Half past three? That's very early!
+        N: Oui, mais je termine à midi. | Yes, but I finish at noon.
+        L: Et l'après-midi ? | And in the afternoon?
+        N: Je déjeune et ensuite, je dors un peu. | I have lunch and then I sleep a little.
+        L: Et tu te couches à quelle heure ? | And what time do you go to bed?
+        N: À vingt et une heures. Et toi ? | At 9 p.m. And you?
+        L: Moi, je me couche à une heure du matin ! | Me, I go to bed at one in the morning!
+        N: Ah, la vie d'étudiant ! | Ah, student life!
+    pronunciation:
+      title: "Silent endings: je me lève, ils se lèvent"
+      body: |
+        In regular -er verbs, the endings **-e, -es** and **-ent** are not pronounced, so *je me lève, tu te lèves* and *ils se lèvent* all end in [lɛv]. Only **nous** (-ons [ɔ̃]) and **vous** (-ez [e]) have endings you can hear.
+
+        Notice too how the vowel changes: *je me lève* [lɛv] with an open è, but *nous nous levons* [lə.vɔ̃] with a weak e.
+      items: |
+        je me lève
+        tu te lèves
+        ils se lèvent
+        nous nous levons
+        vous vous levez
+        je m'habille
+    culture:
+      title: Meal times in France
+      body: |
+        Breakfast in France is usually light and often sweet: bread with butter and jam (**des tartines**), cereal or yoghurt, with coffee, tea or hot chocolate. Croissants are more of a weekend treat.
+
+        Lunch is often eaten between noon and 1:30 p.m., and dinner is fairly late, typically around 8 p.m. The main evening TV news is broadcast at that time — people simply call it **le 20 heures**.
+    mistakes: |
+      Je lève à sept heures. => Je me lève à sept heures. | Se lever is reflexive: don't forget the pronoun me.
+      Je me habille. => Je m'habille. | Before a vowel or silent h, me becomes m'.
+      Nous nous lèvons. => Nous nous levons. | No accent with nous and vous: nous levons, vous levez.
+    task:
+      title: My typical day
+      mode: speaking
+      body: |
+        Describe a normal weekday in about six sentences, from waking up to going to bed. Give at least three times and use d'abord, ensuite and après. Then try the "Talking about your day" scenario with the AI coach.
+    exercises: |
+      fill: Je ___ réveille à six heures. || me || With je, the reflexive pronoun is me: je me réveille. || @tags fr.reflexive
+      fill: Elle ___ habille vite. || s' || Se becomes s' before a vowel or silent h: elle s'habille. || @tags fr.reflexive,fr.elision
+      fill: Nous nous ___ à sept heures. || levons || Nous + -ons, with no accent: nous nous levons. || @tags fr.reflexive @hint se lever
+      fill: Mes enfants se ___ à vingt heures. || couchent || Ils / elles + -ent (silent): ils se couchent. || @tags fr.reflexive @hint se coucher
+      fill: Je ___ avec mes collègues à midi. || déjeune || Déjeuner is not reflexive: je déjeune. || @tags fr.present-er @hint déjeuner
+      mc: Choose the correct sentence. || Je lève à sept heures. | *Je me lève à sept heures. | Je me lèves à sept heures. || Se lever needs the pronoun me, and je takes the ending -e: je me lève. || @tags fr.reflexive
+      mc: What time does Noémie get up? || 3:00 | *3:30 | 4:30 || She says "Je me lève à trois heures et demie." || @ctx dialogue @skill reading @tags fr.reading
+      order: D'abord, je me douche et ensuite je m'habille. || First I have a shower and then I get dressed. || @tags fr.reflexive
+      rw: Start with "Nous" :: Je me lève à sept heures et je me douche. || Nous nous levons à sept heures et nous nous douchons. || Nous nous + -ons; there's no accent in nous nous levons. || @tags fr.reflexive
+      tr: I go to bed at eleven o'clock. || Je me couche à onze heures. | Je me couche à vingt-trois heures. || Se coucher is reflexive: je me couche. || @tags fr.reflexive,fr.time
+      listen: Le matin, je me lève à six heures, je me douche et je prends un café. || What time does the speaker get up? || 5:00 | *6:00 | 7:00 || "Je me lève à six heures" — I get up at six.
+      listen: @dialogue || What time does Lucas go to bed? || 9 p.m. | *1 a.m. | 3:30 a.m. || "Moi, je me couche à une heure du matin !" Nine p.m. is Noémie's bedtime.
+      dict: Le soir, nous dînons et nous nous couchons tard.
+      ask: Describe your morning routine with at least three verbs and one time. || kw: je me/je m' & heure || Je me réveille à sept heures. D'abord, je me douche, ensuite je m'habille et je prends le petit-déjeuner.
+      write: Write a short blog post called "Ma journée" describing a normal weekday from morning to night (times and at least four verbs). || min=40 || req: je me | heures | d'abord/ensuite/après || Ma journée : je me réveille à six heures et demie. D'abord, je me douche et je m'habille. Ensuite, je prends le petit-déjeuner. Je travaille de neuf heures à cinq heures. Je rentre à six heures, je dîne à huit heures et je me couche à onze heures.
+
+  - title: Days and frequency
+    summary: Name the days of the week, say how often you do things and use the full present of regular -er verbs.
+    minutes: 40
+    skills: [grammar, vocabulary, writing]
+    tags: [fr.present-er, fr.frequency, fr.dates]
+    objectives:
+      - Name the days of the week and tell lundi from le lundi
+      - Say how often you do something (toujours, souvent, parfois…)
+      - Conjugate regular -er verbs in the present
+    intro: |
+      To talk about your week, you need the days and words that say how often: **toujours**, **souvent**, **parfois**. You will also review the full present tense of regular **-er** verbs — the biggest verb group in French — so you can say what you do each week.
+    vocab: |
+      lundi | Monday | n | Lundi, je travaille à la maison. | This Monday, I'm working from home. | g: m | n: Days take no capital letter in French.
+      mardi | Tuesday | n | Le mardi, j'ai cours de piano. | On Tuesdays, I have a piano lesson. | g: m
+      mercredi | Wednesday | n | Le mercredi après-midi, je joue au tennis. | On Wednesday afternoons, I play tennis. | g: m
+      jeudi, vendredi | Thursday, Friday | n | Jeudi et vendredi, je travaille tard. | On Thursday and Friday, I'm working late. | g: m
+      samedi | Saturday | n | Le samedi, nous regardons un film. | On Saturdays, we watch a film. | g: m
+      dimanche | Sunday | n | Le dimanche, je déjeune chez mes parents. | On Sundays, I have lunch at my parents'. | g: m | n: Chez = at someone's home.
+      le week-end | weekend | n | Le week-end, je me lève tard. | At the weekend, I get up late. | g: m | n: Also: ce week-end (this weekend).
+      la semaine | week | n | Je joue au foot deux fois par semaine. | I play football twice a week. | g: f | c: par semaine; cette semaine; en semaine (on weekdays)
+      toujours | always | adv | Je prends toujours un café le matin. | I always have a coffee in the morning. | n: Goes right after the verb.
+      souvent | often | adv | Nous regardons souvent la télé. | We often watch TV. | n: Goes right after the verb.
+      parfois | sometimes | adv | Je travaille parfois le samedi. | I sometimes work on Saturdays. | n: Also: quelquefois, de temps en temps (from time to time).
+      rarement | rarely | adv | Il téléphone rarement à sa mère. | He rarely phones his mother.
+      tous les jours | every day | expr | Elle écoute la radio tous les jours. | She listens to the radio every day. | n: Also: tous les matins, tous les soirs, toutes les semaines.
+      une fois par… | once a… | expr | J'appelle ma grand-mère une fois par semaine. | I call my grandmother once a week. | c: deux fois par semaine; trois fois par mois
+    grammar:
+      title: Regular -er verbs and frequency words
+      body: |
+        Most French verbs end in **-er** in the infinitive: *parler, travailler, regarder, écouter, jouer*. To form the present, remove **-er** and add **-e, -es, -e, -ons, -ez, -ent**. Verbs in **-ger** keep an e before -ons: *nous mangeons*.
+
+        Only the **nous** (-ons) and **vous** (-ez) endings are pronounced: *je travaille, tu travailles, il travaille, ils travaillent* all sound the same. One present form covers English *I work*, *I'm working* and *I do work*.
+
+        **Frequency words** like *toujours, souvent, parfois, rarement* go **right after the verb**: *Je regarde **souvent** la télé.* Longer expressions such as *tous les jours* or *une fois par semaine* usually go at the end or the start of the sentence.
+
+        **Days** take no capital letter. *Lundi* alone means one particular Monday: *Lundi, je travaille.* With **le**, it means every Monday: ***Le** lundi, je travaille* (on Mondays).
+      table: |
+        Subject | parler | regarder | jouer
+        je (j') | parle | regarde | joue
+        tu | parles | regardes | joues
+        il / elle / on | parle | regarde | joue
+        nous | parlons | regardons | jouons
+        vous | parlez | regardez | jouez
+        ils / elles | parlent | regardent | jouent
+      examples: |
+        Le samedi, nous jouons au tennis. | On Saturdays, we play tennis.
+        Vous travaillez le dimanche ? | Do you work on Sundays?
+        Mes parents regardent souvent des films. | My parents often watch films. | souvent after the verb
+        J'écoute toujours la radio dans la voiture. | I always listen to the radio in the car.
+      tip: "Lundi = this (particular) Monday; le lundi = every Monday."
+    dialogue:
+      title: Un petit sondage
+      setting: Ana, a sociology student, asks Mr Roche, a retired man, a few survey questions about his week at the market in Dijon.
+      speakers: A=Ana/f; R=M. Roche/m
+      lines: |
+        A: Bonjour, monsieur ! Vous avez deux minutes ? | Hello, sir! Do you have two minutes?
+        R: Oui, c'est pour quoi ? | Yes, what's it for?
+        A: C'est pour un sondage. Vous regardez souvent la télé ? | It's for a survey. Do you often watch TV?
+        R: Oui, tous les soirs. | Yes, every evening.
+        A: Et vous marchez souvent ? | And do you often walk?
+        R: Je marche tous les jours avec mon chien. | I walk every day with my dog.
+        A: Vous téléphonez souvent à votre famille ? | Do you often phone your family?
+        R: J'appelle ma fille le dimanche. | I call my daughter on Sundays.
+        A: Et le week-end, vous restez à la maison ? | And at the weekend, do you stay at home?
+        R: Parfois. Le samedi, je joue aux cartes avec mes amis. | Sometimes. On Saturdays, I play cards with my friends.
+        A: Merci beaucoup, monsieur. Bonne journée ! | Thank you very much, sir. Have a nice day!
+        R: Au revoir, et bon courage pour le sondage ! | Goodbye, and good luck with the survey!
+    pronunciation:
+      title: The days of the week
+      body: |
+        All the days except *dimanche* end in **-di**, from the Latin word for *day*. In **samedi** the middle e is usually silent: [sam.di]. **Jeudi** has the rounded vowel [ø], like *deux*. **Lundi** has a nasal vowel: [lœ̃.di], which many speakers pronounce [lɛ̃.di].
+
+        In **mercredi** and **vendredi**, keep the r clear and the middle e light: [mɛʁ.kʁə.di], [vɑ̃.dʁə.di].
+      items: |
+        lundi
+        mardi
+        mercredi
+        jeudi
+        vendredi
+        samedi et dimanche
+    culture:
+      title: The French week
+      body: |
+        French calendars start the week on **Monday**. In many towns, primary-school children have no lessons on Wednesdays, so Wednesday is a day for sport, music and other activities.
+
+        When a public holiday falls on a Thursday, many people take the Friday off too and enjoy a four-day weekend. This is called **faire le pont** — literally "making the bridge".
+    mistakes: |
+      Ils parlont français. => Ils parlent français. | Ils / elles take -ent (silent), not -ont.
+      Nous mangons à midi. => Nous mangeons à midi. | Verbs in -ger keep an e before -ons: nous mangeons.
+      Je travaille Lundi. => Je travaille lundi. | Days of the week take no capital letter in French.
+    task:
+      title: My week
+      mode: writing
+      body: |
+        Make a weekly planner for yourself. For each day, write one sentence about something you do (Le lundi, je…), and add how often you do two activities (souvent, une fois par semaine…). Then read it aloud or send it to the AI coach for feedback.
+    exercises: |
+      fill: Vous ___ le samedi ? || travaillez || Vous + -ez: vous travaillez. || @tags fr.present-er @hint travailler
+      fill: Mes amis ___ au foot le mercredi. || jouent || Ils + -ent: ils jouent. || @tags fr.present-er @hint jouer
+      fill: Nous ___ souvent la radio. || écoutons || Nous + -ons: nous écoutons. || @tags fr.present-er @hint écouter
+      fill: Le soir, nous ___ à huit heures. || mangeons || -ger verbs keep the e with nous: nous mangeons. || @tags fr.present-er @hint manger
+      mc: "On Sundays, I have lunch with my grandparents." Which sentence is right? || Dimanche, je déjeune avec mes grands-parents. | *Le dimanche, je déjeune avec mes grands-parents. | En dimanche, je déjeune avec mes grands-parents. || Le + day means every week (on Sundays). Dimanche alone means one particular Sunday, and en isn't used with days. || @tags fr.dates
+      mc: Where does "souvent" go? || Je souvent regarde la télé. | *Je regarde souvent la télé. | Souvent je la télé regarde. || Short frequency words go right after the verb. || @tags fr.frequency
+      short: How often does Mr Roche walk? || kw: tous les jours/every day/daily || "Je marche tous les jours avec mon chien." || @ctx dialogue
+      tf: Mr Roche phones his daughter every day. || false || He calls her on Sundays: "J'appelle ma fille le dimanche." || @ctx dialogue
+      rw: Start with "Ils" :: Je regarde souvent la télé le soir. || Ils regardent souvent la télé le soir. || Ils + -ent: ils regardent. Souvent stays after the verb. || @tags fr.present-er
+      order: Je téléphone à mes parents une fois par semaine. || I phone my parents once a week. || @tags fr.frequency
+      tr: I sometimes work on Saturdays. || Je travaille parfois le samedi. | Parfois, je travaille le samedi. | Je travaille quelquefois le samedi. | Je travaille de temps en temps le samedi. || Parfois goes after the verb; le samedi = on Saturdays. || @tags fr.frequency,fr.dates
+      listen: Le mardi et le jeudi, je travaille à la maison. || On which days does the speaker work from home? || Monday and Thursday | *Tuesday and Thursday | Tuesday and Friday || Mardi = Tuesday, jeudi = Thursday.
+      listen: @dialogue || What does Mr Roche do on Saturdays? || He watches TV. | *He plays cards with friends. | He works at the market. || "Le samedi, je joue aux cartes avec mes amis."
+      dict: Le dimanche, nous déjeunons toujours en famille.
+      ask: Say what you do on two different days of the week and how often you do one activity. || kw: le lundi/le mardi/le mercredi/le jeudi/le vendredi/le samedi/le dimanche/le week-end & souvent/toujours/parfois/rarement/tous les/fois par || Le lundi, je travaille tard. Le samedi, je joue au foot, et je regarde souvent un film le dimanche.
+      write: Describe your week for a language-exchange partner — at least four days, what you do and how often. || min=35 || req: le lundi/le mardi/le mercredi/le jeudi/le vendredi/le samedi/le dimanche | souvent/toujours/parfois/rarement/tous les jours/fois par semaine || Salut Ben ! Le lundi et le mercredi, je travaille jusqu'à dix-neuf heures. Le mardi, je joue au badminton avec mes collègues. Le jeudi, j'ai cours de français. Le samedi, je me lève tard et le dimanche, je déjeune toujours chez mes parents. Je téléphone à ma sœur une fois par semaine.

@@ -1,0 +1,366 @@
+unit: 2
+title: People in my life
+theme: Family and people
+description: Talk about your family with my, your, his, her and 's, describe people with have got, and say what people do with a and an.
+free: true
+objectives:
+  - Talk about your family with possessive words (my, his, her, their…) and 's
+  - Describe people's appearance and personality with be and have got
+  - Say what people's jobs are and where they work, using a and an
+canDo:
+  - I can talk about the people in my family.
+  - I can describe someone's hair, eyes and personality.
+  - I can say what my job is and ask about other people's jobs.
+review: |
+  fill: Lena and ___ husband are from Poland. || her || Lena is a woman, so we say her husband. || @tags en.possessives
+  fill: This is Ahmed. ___ children are six and nine. || His || Ahmed is a man, so we say his children. || @tags en.possessives
+  rw: Use 's :: the brother of Diego || Diego's brother || For people, we add 's to the name: Diego's brother. || @tags en.possessives
+  fill: My grandma ___ got short white hair. || has / 's || She (my grandma) + has got. || @tags en.have-got
+  rw: Make a question :: Your sister has got a car. || Has your sister got a car? || Put has before the person: Has your sister got…? || @tags en.have-got,en.questions
+  mc: Choose the correct sentence. || My uncle is a engineer. | *My uncle is an engineer. | My uncle is engineer. || Engineer starts with a vowel sound, so we use an. || @tags en.articles
+  rw: Make it plural :: He's a teacher. || They're teachers. | They are teachers. || Plural: they're + job with -s, and no a. || @tags en.articles,en.plural
+  listen: This is my friend Jo. She's tall and she's got short red hair. || What does Jo look like? || short, with long red hair | *tall, with short red hair | tall, with long brown hair || "She's tall and she's got short red hair." || @tags en.have-got
+  listen: My dad's a cook and my mom's a nurse. || What is the mother's job? || cook | *nurse | teacher || "My mom's a nurse." || @tags en.articles
+  ask: Describe a person in your family — who they are, what they look like and what they do. || kw: my & got/is/'s & a/an/retired/student || This is my aunt Rosa. She's short and she's got curly black hair. She's a doctor in Bogotá.
+  write: Write an email to a new pen pal about your family. Give names, ages, appearance and jobs. || min=35 || req: my | has got/'s got/have got/'ve got | a/an | his/her/their/our || Hi Kim! I've got a small family. My mom's name is Ines. She's got long dark hair. She's a teacher. My dad, Raúl, is a police officer. His hair is short and gray. I've got one brother. His name is Leo and he's fourteen. Write soon! Carla
+lessons:
+  - title: My family
+    summary: Name the people in your family and say whose they are with my, your, his, her, our, their and 's.
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [en.possessives]
+    objectives:
+      - Name the people in your family
+      - Use my, your, his, her, its, our and their
+      - Use 's to show who people belong to (Maria's brother)
+    intro: |
+      Family is one of the first topics people talk about — at work, at a party or in a language class. In this lesson you will learn the words for family members and the small words that show who people belong to: **my**, **his**, **her**, **their** and **'s**, as in *my sister's husband*.
+    vocab: |
+      family | a group of people like parents, children, brothers and sisters | n | My family is small. | - | c: a big family; a small family
+      mother | a woman who has a child | n | My mother is from Ghana. | - | n: Informal: mom (British English: mum).
+      father | a man who has a child | n | His father is a doctor. | - | n: Informal: dad.
+      parents | your mother and father | n | My parents are from Chile. | -
+      brother | a boy or man who has the same parents as you | n | I've got one brother. | -
+      sister | a girl or woman who has the same parents as you | n | Her sister is twelve. | -
+      husband | the man someone is married to | n | This is my husband, Tom. | -
+      wife | the woman someone is married to | n | Sam's wife is from Ireland. | - | pl: wives
+      son | your child who is a boy or man | n | Their son is five. | -
+      daughter | your child who is a girl or woman | n | Our daughter is a student. | -
+      child | a young boy or girl; also your son or daughter | n | They've got one child. | - | pl: children
+      grandparents | the parents of your mother or father | n | My grandparents are in Texas. | - | n: grandmother (informal: grandma), grandfather (informal: grandpa)
+      aunt | the sister of your mother or father | n | My aunt is very funny. | - | n: The brother of your mother or father is your uncle.
+      cousin | the child of your aunt or uncle | n | My cousin Ali is nineteen. | - | t: es=primo/prima; fr=cousin/cousine; de=Cousin/Cousine; da=fætter/kusine
+    grammar:
+      title: "my, your, his, her… and 's"
+      body: |
+        Possessive words show who someone or something belongs to. Each person has its own word:
+
+        - I → **my**, you → **your**, he → **his**, she → **her**, it → **its**, we → **our**, they → **their**
+
+        Use **his** for a man or boy and **her** for a woman or girl: *Tom and **his** wife. Lisa and **her** husband.*
+
+        For names and nouns, add **'s**: ***Maria's** brother, my **sister's** husband.* For a plural noun that already ends in -s, add only **'**: *my **parents'** house.*
+
+        Be careful: **'s** can also mean **is**. *Maria's brother* = the brother of Maria. *Maria's twenty* = Maria is twenty.
+      table: |
+        Person | Possessive | Example
+        I | my | My name's Ali.
+        you | your | Is this your mom?
+        he | his | His sister is ten.
+        she | her | Her brother is twelve.
+        it | its | The cat is in its bed.
+        we | our | Our parents are from Chile.
+        they | their | Their children are seven and nine.
+      examples: |
+        This is my brother, Sam. His wife is Irish. | | his = Sam's
+        Ana's husband is from Peru. | | 's = the husband of Ana
+        Our grandparents are in Miami. | | we → our
+        My parents' names are Rosa and Luis. | | plural -s + '
+      tip: Choose his or her for the person who "owns", not for the other person — Tom and his mother (Tom is a man), Lisa and her father (Lisa is a woman).
+    dialogue:
+      title: Family photos
+      setting: Maya and Jamal are friends at college in Atlanta. They are looking at photos on Jamal's phone.
+      speakers: M=Maya/f; J=Jamal/m
+      lines: |
+        M: Is this your family, Jamal?
+        J: Yes. This is my mom, and that's my dad.
+        M: And who's the little girl?
+        J: That's my sister's daughter, Zara.
+        M: Oh, she's cute! How old is she?
+        J: She's four. Her brother is seven.
+        M: Are your grandparents in the photo?
+        J: Yes, my grandma's here, on the left.
+        M: Is your family big?
+        J: Yes! I've got three sisters and ten cousins.
+        M: Wow! My family's very small.
+    pronunciation:
+      title: "The th sound in mother, father, brother"
+      body: |
+        In *mother*, *father*, *brother*, *the*, *this* and *their*, the **th** is a soft buzzing sound. Put the tip of your tongue between your teeth and use your voice.
+
+        Don't say "moder" or "brozer". Feel the air and the buzz on your tongue. Listen and repeat, slowly at first.
+      items: |
+        mother
+        father
+        brother
+        the family
+        this is my mom
+        their son
+    culture:
+      title: All kinds of families
+      body: |
+        Families are different everywhere. Some children live with one parent, some with two moms or two dads, and some with their grandparents. There are words for new families too: a **stepmother** is your father's new wife, and a **stepbrother** is her son.
+
+        In the United States people say **Mom**; in the UK they say **Mum**. When you use *Mom* and *Dad* like a name, start with a capital letter: *Thanks, Mom!* But: *my mom is a doctor.*
+    mistakes: |
+      Tom and her sister are here. => Tom and his sister are here. | Tom is a man, so use his.
+      the brother of Maria => Maria's brother | For people, English usually uses 's: Maria's brother.
+      My parents's house is big. => My parents' house is big. | After a plural that ends in -s, add only an apostrophe.
+    task:
+      title: My family photo
+      mode: speaking
+      body: |
+        Choose a family photo (or imagine one). Talk about four people in it: their names, who they are (my aunt, my cousin's son…) and how old they are. Use my, his, her, their and 's at least once each.
+    exercises: |
+      fill: This is Carlos. ___ wife is Canadian. || His || Carlos is a man, so we say his wife. || @tags en.possessives
+      fill: Anna and ___ brother are students. || her || Anna is a woman, so we say her brother. || @tags en.possessives
+      fill: Is this ___ phone, Sara? || your || We are talking to Sara (you), so we say your phone. || @tags en.possessives
+      fill: Ben and Lily are married. ___ son is six. || Their || Ben and Lily = they, so we say their son. || @tags en.possessives
+      mc: Which phrase means "the car of my sister"? || my sister car | *my sister's car | my sisters car's || Add 's to the person: my sister's car. || @tags en.possessives
+      mc: In "Jamal's sister is cute", 's means: || is | *the sister of Jamal | has || Here 's shows who the sister belongs to — Jamal. || @tags en.possessives
+      rw: Use 's :: the husband of Elena || Elena's husband || For people, add 's to the name. || @tags en.possessives
+      match: your mother's mother = your grandmother ; your father's brother = your uncle ; your aunt's child = your cousin ; your son's sister = your daughter || Each phrase on the left describes one family member on the right. || @skill vocabulary @tags en.vocabulary
+      order: Her husband is from Chile. || @tags en.possessives
+      tf: Zara is Jamal's daughter. || false || Zara is his sister's daughter. || @ctx dialogue
+      short: How many cousins has Jamal got? || kw: 10/ten || Jamal says, "I've got three sisters and ten cousins." || @ctx dialogue
+      listen: Hi, I'm Rosa. This is my husband, Leo, and our son, Max. || Who is Max? || Rosa's husband | *Rosa's son | Rosa's brother || Rosa says "our son, Max". || @tags en.possessives
+      listen: @dialogue || How old is Zara's brother? || 4 | *7 | 10 || Jamal says, "She's four. Her brother is seven." || @tags en.numbers
+      dict: My brother's wife is from Ghana.
+      ask: Talk about two people in your family — say their names and how old they are. || kw: my & is/'s || My brother's name is Leo. He's eleven. My sister's name is Ana, and she's sixteen.
+      write: Write 4–5 sentences about your family for a class blog. Give names, ages and how people are related to you. || min=25 || req: my | his/her/their/our | 's || My family is big. My parents' names are Rosa and Luis. My sister is Ana. Her husband is from Peru, and their son is two. My grandparents are in Mexico.
+
+  - title: Describing people
+    summary: Describe what people look like with have got and be, and say what they are like with simple adjectives.
+    minutes: 40
+    skills: [grammar, vocabulary, speaking]
+    tags: [en.have-got, en.be]
+    objectives:
+      - Describe hair, eyes and height
+      - Use have got and has got in positive and negative sentences and questions
+      - Describe personality with simple adjectives
+    intro: |
+      How can you find your friend's cousin at the airport? You need to know what he looks like! In this lesson you will describe people with **have got** (*She's got long hair*) and **be** (*He's tall*), and say what someone is like with words such as **friendly** and **funny**.
+    vocab: |
+      tall | big from head to foot; not short | adj | My brother is very tall. | -
+      short | not tall; also not long | adj | She's short and she's got short hair. | -
+      young | not old; with only a few years of life | adj | Our teacher is young. | -
+      hair | the things that grow on your head | n | Her hair is long and black. | - | c: long hair; short hair; dark hair | n: Hair on your head is uncountable: her hair is (not hairs are).
+      eyes | the parts of your face that you see with | n | He's got big brown eyes. | - | c: blue eyes; brown eyes; green eyes
+      long | big from one end to the other; not short | adj | Maya has got long hair. | -
+      curly | with a lot of curves (for hair) | adj | My son has got curly hair. | - | t: es=rizado; fr=bouclé; de=lockig; da=krøllet
+      straight | with no curves; not curly | adj | Her hair is long and straight. | -
+      beard | hair on a man's chin and face | n | My uncle has got a gray beard. | - | n: British English spells the color grey. | t: es=barba; fr=barbe; de=Bart; da=skæg
+      glasses | two pieces of glass in a frame that help you see | n | She's got red glasses. | - | c: wear glasses | n: Always plural: my glasses are new. | t: es=gafas; fr=lunettes; de=Brille; da=briller
+      friendly | nice and kind to other people | adj | Our neighbors are very friendly. | - | n: British English: neighbours.
+      funny | making people laugh | adj | My cousin is really funny. | -
+      quiet | not talking a lot; not loud | adj | Leo is a quiet boy. | -
+      look like | to be similar to someone when you see them | v | You look like your mom! | - | n: Question: What does he look like? — He's tall and he's got curly hair.
+    grammar:
+      title: have got
+      body: |
+        We use **have got** for things that are part of us or that we own — hair, eyes, family, a car.
+
+        - I / you / we / they **have got** → **'ve got**: *I've got brown eyes.*
+        - he / she / it **has got** → **'s got**: *She's got curly hair.*
+        - Negative: **haven't got** / **hasn't got**: *He hasn't got a beard.*
+        - Question: **Have** you **got**…? **Has** she **got**…? Short answers: *Yes, I have. / No, she hasn't.* (no *got*)
+
+        Use **be** with an adjective alone (*He's **tall**. She's **friendly**.*) and **have got** with a noun (*She's got **long hair**.*). Adjectives come **before** the noun and never add -s: *blue eyes* (not ~~blues eyes~~).
+
+        In American English, people often say **have** or **has** without *got*: *She has curly hair.* Both are correct.
+      table: |
+        Person | Positive | Negative | Question
+        I / you / we / they | I've got a sister. | We haven't got a car. | Have you got a brother?
+        he / she / it | She's got green eyes. | He hasn't got a beard. | Has he got glasses?
+      examples: |
+        My dad's got short gray hair. | | 's got = has got
+        She hasn't got glasses. | | negative
+        Have you got a brother? — Yes, I have. | | short answer without got
+        He's tall and he's got a beard. | | first 's = is, second 's = has
+      tip: "To understand 's, look at the next word. If it is got, 's means has (she's got). If not, 's usually means is (she's tall)."
+    dialogue:
+      title: At the airport
+      setting: Priya and Tom are at the airport in San Francisco. They are meeting Tom's cousin, Dev. Priya doesn't know him.
+      speakers: P=Priya/f; T=Tom/m; D=Dev/m
+      lines: |
+        P: So, what does your cousin look like?
+        T: Well, he's tall and very young.
+        P: Has he got short hair?
+        T: No, he's got long curly hair.
+        P: Is he the man with the glasses?
+        T: No, Dev hasn't got glasses.
+        P: What about the man with the beard?
+        T: Yes, that's Dev! He's got a beard now!
+        P: He looks friendly.
+        T: He is. And he's very funny.
+        D: Tom! Hi! And you're Priya, right?
+    pronunciation:
+      title: "The h sound: hair, has, his"
+      body: |
+        In English, the **h** at the start of *hair*, *has*, *his*, *her* and *he* is a soft breath of air — like breathing on a cold window. Don't drop it: *hair* and *air* are different words.
+
+        Don't make the sound too strong, either. It is soft, quick and quiet. Listen and repeat.
+      items: |
+        hair
+        he's got
+        has she got
+        his eyes
+        her husband
+        how old
+    culture:
+      title: Kind words about people
+      body: |
+        In English, some words about the body can sound rude, especially words about weight and age. People usually say **older** instead of *old*, and they talk about hair, eyes, clothes and personality more than body size.
+
+        When you describe a friend, it's very common to say something positive: *She's really nice. He's so funny!* Small words like **really**, **very** and **so** make your description sound warm and natural.
+    mistakes: |
+      She's got blues eyes. => She's got blue eyes. | Adjectives never add -s, even with a plural noun.
+      He's got a hair long. => He's got long hair. | The adjective goes before the noun, and hair on your head takes no a.
+      Has she got glasses? — Yes, she's got. => Yes, she has. | Short answers use have or has alone, without got.
+    task:
+      title: Find my friend
+      mode: writing
+      body: |
+        Your friend arrives at the station, but your English-speaking neighbor will meet them, not you. Write a short message (4–5 sentences) so your neighbor can find your friend: height, hair, eyes, glasses or a beard, and one word about their personality.
+    exercises: |
+      fill: I ___ got two sisters. || have / 've || I + have got (short form: I've got). || @tags en.have-got
+      fill: My mom ___ got curly hair. || has / 's || She (my mom) + has got (short form: she's got). || @tags en.have-got
+      fill: He ___ a beard. (not) || hasn't got / has not got || Negative with he: hasn't got. || @tags en.have-got
+      fill: ___ you got a brother? — Yes, I have. || Have || Questions: Have + you + got…? || @tags en.have-got,en.questions
+      mc: "Has Dev got glasses?" Choose the correct answer. || Yes, he's got. | No, he hasn't got. | *No, he hasn't. || Short answers use has or hasn't alone, without got. || @tags en.have-got
+      mc: Choose the correct sentence. || She's got eyes green. | *She's got green eyes. | She's got greens eyes. || The adjective goes before the noun and never adds -s. || @tags en.have-got
+      mc: In "He's tall", 's means: || *is | has | his || Tall is an adjective alone, so 's = is. (He's got = he has got.) || @tags en.be,en.have-got
+      rw: Make a question :: She has got blue eyes. || Has she got blue eyes? || Put has before the person; got stays after it. || @tags en.have-got,en.questions
+      rw: Make it negative :: They have got a dog. || They haven't got a dog. | They have not got a dog. || Negative: haven't got. || @tags en.have-got
+      match: tall = short ; young = old ; curly = straight ; quiet = loud || Match each word with its opposite. || @skill vocabulary @tags en.vocabulary
+      tf: Dev has got glasses. || false || Tom says, "No, Dev hasn't got glasses." || @ctx dialogue
+      short: What has Dev got now? || kw: beard || Tom says, "He's got a beard now!" || @ctx dialogue
+      listen: My sister is short and she's got long black hair. || What is her hair like? || short and black | *long and black | long and blond || "She's got long black hair." Short is about her height. || @tags en.have-got
+      dict: My uncle is tall and he's got a beard.
+      ask: Describe a friend — their height, hair, eyes and personality. || kw: got/has & hair/eyes & is/'s || My friend Sara is short. She's got long curly hair and brown eyes. She's very funny.
+      write: Write a description of someone in your family for a pen pal (4–5 sentences). || min=25 || req: has got/'s got/have got/'ve got/has | hair/eyes | is/'s || This is my grandpa, Kofi. He's retired. He's tall and he's got short gray hair and a beard. He's got glasses too. He's quiet but really funny.
+
+  - title: Jobs and workplaces
+    summary: Say what people do and where they work, with a and an before jobs and plural nouns for groups of people.
+    minutes: 40
+    skills: [vocabulary, grammar, listening]
+    tags: [en.articles, en.plural]
+    objectives:
+      - Name common jobs and workplaces
+      - Use a and an with jobs, and plural nouns for two or more people
+      - Ask and answer "What do you do?"
+    intro: |
+      "What do you do?" is one of the first questions people ask in English — it means "What is your job?". In this lesson you will learn common jobs and workplaces, the small words **a** and **an** (*She's a nurse. He's an engineer.*), and plurals like *doctors*, *men* and *people*.
+    vocab: |
+      job | the work you do to get money | n | What's your job? | - | c: a good job; a new job
+      doctor | a person who helps sick people get better | n | Her mom is a doctor. | -
+      nurse | a person who looks after sick people, often in a hospital | n | Omar is a nurse. | -
+      teacher | a person who helps students learn | n | My aunt is a teacher. | -
+      engineer | a person who plans and builds machines, roads or bridges | n | Sofia is an engineer. | - | t: es=ingeniero/ingeniera; fr=ingénieur/ingénieure; de=Ingenieur/Ingenieurin; da=ingeniør
+      cook | a person who makes food, for example in a restaurant | n | My dad is a cook. | - | n: A cook in charge of a restaurant kitchen is a chef.
+      waiter | a person who brings food and drinks to you in a restaurant | n | The waiter is very friendly. | - | n: Many Americans say server for any person who does this job.
+      police officer | a person who works for the police | n | Is she a police officer? | - | n: Today people say police officer, not policeman or policewoman.
+      salesperson | a person who sells things in a store | n | I'm a salesperson in a big store. | - | pl: salespeople | n: British English: shop assistant, in a shop.
+      office | a room or building where people work at desks | n | My office is small. | - | c: work in an office
+      hospital | a building where doctors and nurses help sick people | n | Omar works at City Hospital. | -
+      factory | a building where people make things with machines | n | It's a car factory. | - | pl: factories | t: es=fábrica; fr=usine; de=Fabrik; da=fabrik
+      work | to do a job | v | I work in a bank. | - | c: work in an office; work at a school | n: Question: Where do you work?
+      retired | not working any more because you are older | adj | My grandpa is retired. | - | t: es=jubilado; fr=retraité; de=im Ruhestand; da=pensioneret
+    grammar:
+      title: "a and an; plural nouns"
+      body: |
+        In English, a job after **be** needs **a** or **an**: *She's **a** nurse. I'm **an** engineer.* (not ~~She's nurse~~)
+
+        - Use **a** before a consonant sound: *a doctor, a teacher, a police officer*.
+        - Use **an** before a vowel sound (a, e, i, o, u): *an engineer, an office, an artist*.
+
+        It's the **sound** that matters, not the letter: *an hour* (the h is silent), *a university* (u sounds like "you").
+
+        For two or more, there is **no a/an** and the noun adds **-s**: *They're doctors.* Some plurals are different: *man → men, woman → women, person → people, child → children*, and *-y → -ies*: *factory → factories*.
+
+        To ask about a job, say ***What do you do?*** or ***What's your job?*** — *I'm a cook. I work in a restaurant.*
+      table: |
+        One | Two or more
+        a doctor | two doctors
+        an engineer | three engineers
+        a man / a woman | two men / two women
+        a person | five people
+        a child | four children
+        a factory | two factories
+      examples: |
+        My mom's a nurse. She works in a hospital. | | a + job
+        Is he an engineer? — No, he's a teacher. | | an before a vowel sound
+        Lena and Joe are cooks. | | plural: no a, add -s
+        What do you do? — I'm a police officer. | | asking about jobs
+      tip: "Listen to the first sound, not the first letter: a university (it starts like \"you\") but an hour (it starts like \"our\")."
+    dialogue:
+      title: What do you do?
+      setting: Sofia and Omar meet at a friend's birthday party in Houston.
+      speakers: S=Sofia/f; O=Omar/m
+      lines: |
+        S: So, Omar, what do you do?
+        O: I'm a nurse. I work at City Hospital.
+        S: Really? My brother's a nurse too!
+        O: And you? What's your job?
+        S: I'm an engineer. I work in a big office.
+        O: Are your colleagues nice?
+        S: Yes, they are. They're very friendly.
+        O: Are your parents engineers too?
+        S: No! My mom's a teacher and my dad's retired.
+        O: My parents are cooks. They've got a small restaurant.
+        S: A restaurant? Great! What's the name?
+    pronunciation:
+      title: "Weak a and an"
+      body: |
+        In a sentence, **a** and **an** are short and weak. *A* sounds like the quick "uh" sound [ə]: *a doctor* [ə ˈdɑktər].
+
+        **An** joins the next word when it starts with a vowel: *an engineer* sounds like "a-nengineer", *an office* like "a-noffice". Don't stop between the words. Listen and repeat.
+      items: |
+        a doctor
+        a nurse
+        an engineer
+        an office
+        a police officer
+        she's a teacher
+    culture:
+      title: "\"What do you do?\""
+      body: |
+        At parties and meetings in the United States and Canada, people often ask *What do you do?* very early in a conversation. It means "What's your job?" — not "What are you doing now?". You can answer with your job, or say *I'm a student* or *I'm retired*.
+
+        Many job names are the same for men and women: *police officer*, *firefighter*, *flight attendant*, *server*. Today people use these words more than old forms like *policeman* or *stewardess*.
+    mistakes: |
+      She's nurse. => She's a nurse. | A job after be needs a or an.
+      He's a engineer. => He's an engineer. | Use an before a vowel sound.
+      They're a doctors. => They're doctors. | No a or an with plural nouns.
+    task:
+      title: Jobs in my family
+      mode: speaking
+      body: |
+        Talk about the jobs of three people you know — family or friends. Say what they do and where they work (in an office, at a school, in a hospital…). If someone doesn't work, say they're a student or retired. Then ask a partner or the AI coach: "What do you do?"
+    exercises: |
+      fill: My sister is ___ engineer. || an || Engineer starts with a vowel sound, so we use an. || @tags en.articles
+      fill: Paolo is ___ police officer. || a || Police starts with a consonant sound, so we use a. || @tags en.articles
+      fill: Is your dad ___ doctor? || a || A job after be needs a or an; doctor starts with a consonant. || @tags en.articles
+      mc: Choose the correct sentence. || *They're teachers. | They're a teachers. | They're teacher. || Plural: no a, and the noun adds -s. || @tags en.articles,en.plural
+      mc: Which word needs an? || doctor | *office | nurse || Office starts with a vowel sound: an office. || @tags en.articles
+      rw: Make it plural :: She's a nurse. || They're nurses. | They are nurses. || They're + job with -s, and no a. || @tags en.articles,en.plural
+      rw: Write the plural :: one woman || two women | women || Woman has an irregular plural: women. || @tags en.plural
+      match: teacher = school ; nurse = hospital ; salesperson = store ; cook = restaurant || Match each job with its workplace. || @skill vocabulary @tags en.vocabulary
+      order: My aunt is a police officer in Dallas. || @tags en.articles
+      tf: Sofia is a nurse. || false || Sofia is an engineer. Omar and Sofia's brother are nurses. || @ctx dialogue
+      short: What is Sofia's mom's job? || kw: teacher || Sofia says, "My mom's a teacher." || @ctx dialogue
+      listen: Hi, I'm Grace. I'm a teacher, and my husband is a cook. || What is Grace's husband's job? || teacher | *cook | doctor || "My husband is a cook." || @tags en.articles
+      listen: @dialogue || Where does Omar work? || In an office | *In a hospital | In a restaurant || Omar says, "I work at City Hospital." || @tags en.listening
+      dict: My uncle is an engineer in a big factory.
+      ask: Say what your job is (or your dream job) and where you work or study. || kw: I'm/I am & work/study/school/office/hospital/store/university || I'm a salesperson. I work in a big store in Manchester.
+      write: Write 4–5 sentences about the jobs in your family. || min=25 || req: a/an | work | my || My mom is a doctor. She works in a hospital in Lima. My dad is retired. My brother is an engineer, and my sister and I are students.
