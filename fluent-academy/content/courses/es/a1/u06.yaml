@@ -1,0 +1,365 @@
+unit: 6
+title: De compras
+theme: Shopping
+description: Talk about clothes and colours, understand prices up to 100 euros, and buy clothes in a shop — asking for sizes, trying things on and pointing with este, ese and aquel.
+objectives:
+  - Describe clothes with colours that agree with the noun
+  - Count to 100, understand prices and ask cuánto / cuántos
+  - Buy clothes in a shop with demonstratives, sizes and fitting-room phrases
+canDo:
+  - I can say what I and other people are wearing.
+  - I can understand and ask about prices up to 100 euros.
+  - I can ask for a size, try something on and say if it fits.
+  - I can point to things with este, ese and aquel.
+review: |
+  fill: Quiero ___ camiseta amarilla. (this) || esta || Camiseta is feminine singular: esta. || @tags es.demonstratives
+  fill: Mis zapatillas son ___ (gris). || grises || Gris → grises in the plural. || @tags es.adjective-agreement,es.plural
+  fill: ¿___ pantalones tienes? (how many) || Cuántos || Pantalones is masculine plural: cuántos. || @tags es.question-words
+  mc: 85 is… || *ochenta y cinco | ochenta y quince | cincuenta y ocho || Ochenta (80) + y + cinco (5). Cincuenta y ocho is 58. || @tags es.numbers
+  mc: Choose the correct phrase. || unos zapatos negro | *unos zapatos negros | unos negros zapatos || Colours go after the noun and agree: zapatos negros. || @tags es.adjective-agreement
+  tr: I'd like these black trousers, please. || Quería estos pantalones negros, por favor. | Quiero estos pantalones negros, por favor. | Quisiera estos pantalones negros, por favor. || Pantalones is masculine plural: estos… negros. || @tags es.demonstratives,es.adjective-agreement
+  tr: How many T-shirts do you want? (informal) || ¿Cuántas camisetas quieres? | ¿Tú cuántas camisetas quieres? || Camisetas is feminine plural: cuántas. || @tags es.question-words
+  listen: La camisa blanca cuesta treinta y dos euros. || How much is the white shirt? || €22 | *€32 | €42 || Treinta y dos = 32. || @tags es.numbers
+  listen: ¿Tiene estos zapatos en el número cuarenta y uno? || What does the customer want? || *These shoes in size 41 | Shoes for 41 euros | These shoes in another colour || El número is the shoe size: cuarenta y uno = 41. || @tags es.numbers,es.demonstratives
+  ask: You want to buy a jumper as a present. Ask the shop assistant about colours, the size and the price. || kw: talla & color/colores & cuánto || Buenos días. Busco un jersey para mi hermano. ¿De qué colores lo tiene? Quería la talla L. ¿Cuánto cuesta?
+  write: Write a message to a friend about your shopping day — what you bought, the colours, the sizes and the prices. || min=35 || req: este/esta/estos/estas/ese/esa | euros | talla/número || ¡Hola, Bea! Hoy hay rebajas y tengo ropa nueva. Esta chaqueta azul cuesta cuarenta euros y estos zapatos negros, treinta y cinco. La chaqueta es de la talla M y me queda muy bien. Los zapatos son del número treinta y ocho. ¡Ahora no tengo dinero!
+lessons:
+  - title: Clothes and colours
+    summary: Name everyday clothes, say what people are wearing with llevar, and make colours agree with the noun.
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.adjective-agreement]
+    objectives:
+      - Name everyday clothes
+      - Say what you and others are wearing with llevar
+      - Make colours agree with the noun
+    intro: |
+      Clothes and colours come up when you shop, when you describe someone, and when you decide what to wear. Colours in Spanish are adjectives, so they follow the rules you learnt in Unit 2: they go **after** the noun and **agree** with it — *una camisa blanca, unos zapatos negros*. A few colours never change at all.
+    vocab: |
+      la camisa | shirt | n | Llevo una camisa blanca. | I'm wearing a white shirt. | g: f
+      la camiseta | T-shirt | n | Mi camiseta favorita es verde. | My favourite T-shirt is green. | g: f
+      los pantalones | trousers | n | Busco unos pantalones negros. | I'm looking for some black trousers. | g: m | n: Usually plural: unos pantalones = a pair of trousers. Jeans: los vaqueros.
+      la falda | skirt | n | Tiene una falda roja muy bonita. | She has a very nice red skirt. | g: f
+      el vestido | dress | n | Necesito un vestido para una boda. | I need a dress for a wedding. | g: m
+      el jersey | jumper, sweater | n | En invierno llevo un jersey gris. | In winter I wear a grey jumper. | g: m | pl: jerséis | n: In Latin America: el suéter.
+      la chaqueta | jacket | n | ¿De qué color es tu chaqueta? | What colour is your jacket? | g: f
+      los zapatos | shoes | n | Necesito unos zapatos marrones. | I need some brown shoes. | g: m | n: Trainers: las zapatillas.
+      llevar | to wear | v | Hoy llevo vaqueros y una camiseta. | Today I'm wearing jeans and a T-shirt. | n: Also "to carry, to take".
+      rojo | red | adj | Una chaqueta roja y unos zapatos rojos. | A red jacket and red shoes. | n: Four forms: rojo, roja, rojos, rojas. Also amarillo (yellow).
+      blanco | white | adj | Mi vestido es blanco. | My dress is white.
+      negro | black | adj | Llevo una falda negra. | I'm wearing a black skirt.
+      azul | blue | adj | Tus ojos son azules. | Your eyes are blue. | n: Two forms: azul, azules. Same pattern: verde, gris, marrón.
+      naranja | orange | adj | Lleva unas zapatillas naranja. | He's wearing orange trainers. | n: Naranja and rosa usually stay the same: unas faldas rosa.
+    grammar:
+      title: "Colours: position and agreement"
+      body: |
+        Colours are adjectives. They go **after** the noun and **agree** with it in gender and number:
+
+        - Colours ending in **-o** have four forms: *rojo, roja, rojos, rojas* (also *blanco, negro, amarillo, morado*).
+        - Colours ending in **-e** or a **consonant** have two forms: *verde, verdes; azul, azules; gris, grises; marrón, marrones* (the accent goes in the plural).
+        - **Naranja** and **rosa** (originally the names of a fruit and a flower) usually don't change: *unos calcetines naranja, una camisa rosa*.
+        - With **claro** (light) and **oscuro** (dark), the colour doesn't change at all: *una camisa azul claro, unos pantalones verde oscuro*.
+
+        To ask about colour: *¿De qué color es la chaqueta? ¿De qué color son los zapatos?* To say what someone is wearing, use **llevar**: *¿Qué llevas hoy? — Llevo un vestido negro.*
+
+        Some clothes are always plural in Spanish: *unos pantalones, unos vaqueros* = one pair of trousers or jeans.
+      table: |
+        Ending | masc. sg | fem. sg | masc. pl | fem. pl
+        -o | rojo | roja | rojos | rojas
+        -e | verde | verde | verdes | verdes
+        consonant | azul | azul | azules | azules
+        -ón | marrón | marrón | marrones | marrones
+        naranja / rosa | naranja | naranja | naranja | naranja
+      examples: |
+        Llevo una falda negra y una camiseta blanca. | I'm wearing a black skirt and a white T-shirt.
+        Busco unos zapatos marrones. | I'm looking for some brown shoes.
+        ¿De qué color es tu chaqueta? Es azul oscuro. | What colour is your jacket? It's dark blue.
+        Mis hijos llevan jerséis rojos. | My children are wearing red jumpers.
+      tip: "With claro and oscuro, nothing changes: una camisa azul claro, unos pantalones verde oscuro."
+    dialogue:
+      title: ¿Qué llevo mañana?
+      setting: Mateo has a job interview tomorrow. His sister Claudia helps him choose what to wear.
+      speakers: C=Claudia/f; M=Mateo/m
+      lines: |
+        M: Claudia, mañana tengo una entrevista. ¿Qué llevo? | Claudia, I have an interview tomorrow. What should I wear?
+        C: ¿Tienes una camisa blanca? | Do you have a white shirt?
+        M: Sí, y una camisa azul claro. | Yes, and a light blue shirt.
+        C: La azul es muy bonita. ¿Y pantalones? | The blue one is very nice. And trousers?
+        M: Tengo unos pantalones negros y unos vaqueros. | I have some black trousers and some jeans.
+        C: Los vaqueros, no. Los negros. | Not the jeans. The black ones.
+        M: ¿Y una chaqueta? Tengo una gris. | And a jacket? I have a grey one.
+        C: Perfecto. ¿Y los zapatos? | Perfect. And shoes?
+        M: Solo tengo unas zapatillas rojas… | I've only got some red trainers…
+        C: ¡Uf! Necesitas unos zapatos negros. | Oh dear! You need some black shoes.
+    pronunciation:
+      title: "r and rr in colours: rojo, marrón, verde"
+      body: |
+        A single **r** at the start of a word is trilled, just like **rr**: *rojo* and *marrón* both have a strong rolled sound.
+
+        In the middle of a word or before a consonant, a single **r** is a quick tap: *verde, negro, gris, amarillo*. Keep the tap light and don't turn it into an English r.
+      items: |
+        rojo
+        marrón
+        verde
+        negro
+        gris
+        amarillo
+    culture:
+      title: Las rebajas
+      body: |
+        Spain has two big sales seasons, **las rebajas**: winter sales start in early January, right after the Three Kings holiday on 6 January, and summer sales start around the beginning of July. Shop windows fill with signs like *-50 %* and *¡Últimos días!*
+
+        In city centres, clothes shops are usually open from about 10 a.m. to 9 p.m. without a break, but in smaller towns many close in the early afternoon and on Sundays.
+    mistakes: |
+      Una camisa blanco. => Una camisa blanca. | Colours agree with the noun: camisa is feminine, so blanca.
+      Unos zapatos marróns. => Unos zapatos marrones. | Colours ending in a consonant add -es; the accent of marrón disappears.
+      La roja camiseta. => La camiseta roja. | Colours go after the noun.
+    task:
+      title: What are you wearing?
+      mode: speaking
+      body: |
+        Describe what you are wearing today, with colours, and describe the clothes of someone in a photo. Then ask a partner (or the AI coach): *¿Qué llevas hoy? ¿De qué color es tu…?*
+    exercises: |
+      fill: Llevo una falda ___ (negro). || negra || Falda is feminine: negra. || @tags es.adjective-agreement
+      fill: Mis zapatos son ___ (marrón). || marrones || Marrón → marrones (no accent in the plural). || @tags es.adjective-agreement,es.plural
+      fill: Tengo dos camisetas ___ (verde). || verdes || Verde has two forms: verde, verdes. || @tags es.adjective-agreement
+      fill: ¿De qué color ___ tus pantalones? || son || Pantalones is plural: ¿De qué color son…? || @tags es.ser
+      mc: Choose the correct phrase. || una chaqueta rojo | *una chaqueta roja | una roja chaqueta || The colour goes after the noun and agrees: chaqueta roja. || @tags es.adjective-agreement
+      mc: "Unos pantalones" is… || two pairs of trousers | *a pair of trousers | a pair of shoes || Pantalones is plural in Spanish but means one pair of trousers. || @skill vocabulary @tags es.vocabulary
+      match: rojo = red ; azul = blue ; verde = green ; amarillo = yellow ; gris = grey ; negro = black || Rojo red · azul blue · verde green · amarillo yellow · gris grey · negro black. || @tags es.vocabulary
+      mc: Which shirt does Claudia like? || The white one | *The light blue one | The grey one || "La azul es muy bonita." || @ctx dialogue @skill reading @tags es.reading
+      tf: Mateo has black shoes. || false || He only has red trainers, so Claudia says he needs black shoes. || @ctx dialogue
+      rw: Make it plural :: una camisa azul || unas camisas azules || Una → unas, camisa → camisas, azul → azules. || @tags es.adjective-agreement,es.plural
+      tr: I'm wearing a white T-shirt and black trousers. || Llevo una camiseta blanca y unos pantalones negros. | Llevo una camiseta blanca y pantalones negros. | Hoy llevo una camiseta blanca y unos pantalones negros. || Llevar = to wear; blanca and negros agree with their nouns. || @tags es.adjective-agreement
+      tr: What colour is your dress? (informal) || ¿De qué color es tu vestido? || ¿De qué color…? + ser. || @tags es.question-words
+      listen: Hoy Ana lleva un vestido amarillo y una chaqueta azul. || What colour is Ana's jacket? || Yellow | *Blue | Grey || Una chaqueta azul — blue. Her dress is yellow. || @tags es.adjective-agreement
+      dict: Necesito unos zapatos negros para la boda.
+      ask: Describe what you are wearing today, with colours. || kw: llevo & blanco/blanca/blancos/blancas/negro/negra/negros/negras/azul/azules/rojo/roja/rojos/rojas/verde/verdes/gris/grises/marrón/marrones/amarillo/amarilla/rosa/naranja || Hoy llevo unos vaqueros azules, una camiseta blanca y unas zapatillas rojas.
+
+  - title: Prices and numbers to 100
+    summary: Count to 100, understand and say prices, and ask how much and how many with cuánto, cuánta, cuántos, cuántas.
+    minutes: 35
+    skills: [vocabulary, listening, grammar]
+    tags: [es.numbers, es.question-words]
+    objectives:
+      - Count from 21 to 100
+      - Understand and say prices in euros
+      - Use cuánto / cuánta / cuántos / cuántas correctly
+    intro: |
+      Prices, sizes, ages, bus numbers: with numbers up to 100 you can handle most everyday situations. Spanish numbers are very regular once you know the tens. You will also learn **cuánto**, which changes its ending to agree with the noun — *¿cuántos euros?*, *¿cuántas camisetas?*
+    vocab: |
+      veintiuno | twenty-one | num | Tengo veintiún años. | I'm twenty-one. | n: 21–29 are one word: veintidós, veintitrés, veintiséis.
+      treinta | thirty | num | El jersey cuesta treinta euros. | The jumper costs thirty euros. | c: treinta y uno; treinta y cinco | n: From 31, three words: treinta y uno.
+      cuarenta | forty | num | Hay cuarenta personas en la tienda. | There are forty people in the shop.
+      cincuenta | fifty | num | Tiene cincuenta años. | She's fifty.
+      sesenta, setenta | sixty, seventy | num | Mi padre tiene sesenta y cinco años. | My father is sixty-five. | n: Seis → sesenta; siete → setenta.
+      ochenta, noventa | eighty, ninety | num | Mi abuela tiene noventa años. | My grandmother is ninety.
+      cien | a hundred | num | El abrigo cuesta cien euros. | The coat costs a hundred euros. | n: 101 = ciento uno.
+      el precio | price | n | El precio está en la etiqueta. | The price is on the label. | g: m
+      el euro | euro | n | Son cuarenta y cinco euros. | That's forty-five euros. | g: m | n: A cent is un céntimo.
+      ¿cuánto cuesta? | how much is it? | expr | ¿Cuánto cuesta el abrigo? | How much is the coat? | n: Plural: ¿Cuánto cuestan…? Also: ¿Cuánto vale?
+      ¿cuántos? / ¿cuántas? | how many? | expr | ¿Cuántas camisetas quieres? | How many T-shirts do you want? | n: Agrees with the noun: cuántos zapatos, cuántas faldas.
+      en efectivo | in cash | expr | ¿Paga en efectivo o con tarjeta? | Are you paying in cash or by card?
+      las rebajas | the sales | n | En rebajas, el abrigo cuesta sesenta euros. | In the sales, the coat costs sixty euros. | g: f
+      el descuento | discount | n | Hay un descuento del veinte por ciento. | There's a twenty per cent discount. | g: m
+    grammar:
+      title: "Numbers to 100 and cuánto"
+      body: |
+        From **21 to 29**, numbers are written as **one word**: *veintiuno, veintidós, veintitrés, veinticuatro, veinticinco, veintiséis…* (note the accents on *veintidós, veintitrés, veintiséis*).
+
+        From **31**, use the ten + **y** + the unit, as three words: *treinta y uno, cuarenta y cinco, noventa y nueve*. **100** is **cien**.
+
+        **Uno** agrees with the noun: *veintiún euros, treinta y un euros* (masculine), *veintiuna camisetas, treinta y una personas* (feminine).
+
+        Prices: Spain writes decimals with a **comma** — *12,50 €* — and says *doce euros con cincuenta* or just *doce cincuenta*.
+
+        **Cuánto** agrees like an adjective: *¿Cuánto dinero?* (m), *¿Cuánta leche?* (f), *¿Cuántos años?* (m pl), *¿Cuántas camisetas?* (f pl). In *¿Cuánto cuesta?* it doesn't change. Question words always have an accent.
+      table: |
+        Tens | Examples
+        20 veinte | 21 veintiuno · 22 veintidós · 26 veintiséis
+        30 treinta | 31 treinta y uno · 35 treinta y cinco
+        40 cuarenta | 44 cuarenta y cuatro
+        50 cincuenta | 57 cincuenta y siete
+        60 sesenta | 68 sesenta y ocho
+        70 setenta | 73 setenta y tres
+        80 ochenta | 82 ochenta y dos
+        90 noventa | 99 noventa y nueve
+        100 cien | 101 ciento uno
+      examples: |
+        La chaqueta cuesta cincuenta y nueve euros. | The jacket costs fifty-nine euros.
+        Son veintiún euros con cincuenta. | That's twenty-one euros fifty.
+        ¿Cuántas camisetas tienes? | How many T-shirts do you have?
+        ¿Cuánto dinero llevas? | How much money have you got on you?
+      tip: "Sesenta (60) and setenta (70) are easy to mix up: seis → sesenta, siete → setenta."
+    dialogue:
+      title: En el mercadillo
+      setting: Saturday morning at the weekly street market in Alicante. Rubén looks at clothes on Charo's stall.
+      speakers: C=Charo/f; R=Rubén/m
+      lines: |
+        R: Perdone, ¿cuánto cuesta la chaqueta verde? | Excuse me, how much is the green jacket?
+        C: Cuarenta y cinco euros. | Forty-five euros.
+        R: ¿Cuarenta y cinco? Es un poco cara. | Forty-five? It's a bit expensive.
+        C: Para usted, cuarenta. | For you, forty.
+        R: ¿Y las camisetas? ¿Cuánto cuestan? | And the T-shirts? How much are they?
+        C: Doce euros cada una, o tres por treinta. | Twelve euros each, or three for thirty.
+        R: ¡Qué bien! Quiero tres camisetas. | Great! I'd like three T-shirts.
+        C: ¿De qué colores? | What colours?
+        R: Una blanca, una negra y una roja. | One white, one black and one red.
+        C: Muy bien. Son setenta euros en total. | Very good. That's seventy euros in total.
+        R: ¿Puedo pagar con tarjeta? | Can I pay by card?
+        C: No, lo siento, solo en efectivo. | No, sorry, cash only.
+    pronunciation:
+      title: "Accents on numbers: veintidós, veintitrés, veintiséis"
+      body: |
+        In *veintidós, veintitrés* and *veintiséis* the stress falls on the **last** syllable, so they need a written accent. The other numbers from 21 to 29 are stressed on the second-to-last syllable: *veinticinco, veintisiete*.
+
+        In the tens, stress the second-to-last syllable: *treinta, cuarenta, sesenta, setenta*. Say *sesenta* and *setenta* slowly first — the s/t contrast is the only difference.
+      items: |
+        veintidós
+        veintitrés
+        veintiséis
+        treinta y cinco
+        sesenta
+        setenta
+    culture:
+      title: Mercadillos and prices
+      body: |
+        Many Spanish towns have a weekly **mercadillo**, an open-air market selling clothes, shoes, household goods and food. Prices are low, cash is common, and a little friendly bargaining is sometimes possible — but in normal shops prices are fixed.
+
+        Spain has used the euro since 2002; before that the currency was the **peseta**, and you may still hear older people convert prices. Prices in shops always include VAT (IVA).
+    mistakes: |
+      Treinta uno euros. => Treinta y un euros. | From 31, put y between the ten and the unit; uno becomes un before euros.
+      Cuesta veinte y cinco euros. => Cuesta veinticinco euros. | 21–29 are written as one word.
+      ¿Cuántos camisetas quieres? => ¿Cuántas camisetas quieres? | Cuánto agrees with the noun: camisetas is feminine plural.
+    task:
+      title: Shopping with a budget
+      mode: interaction
+      body: |
+        You have 100 euros to buy clothes at a mercadillo. Ask the price of three things, ask how many colours there are, and decide what to buy without spending more than your budget. Say the total aloud: *Son… euros en total.*
+    exercises: |
+      mc: 47 is… || *cuarenta y siete | cuarenta y seis | setenta y cuatro || Cuarenta (40) + y + siete (7). Setenta y cuatro is 74. || @tags es.numbers @skill vocabulary
+      mc: 60 is… || setenta | *sesenta | dieciséis || Seis → sesenta (60). Setenta is 70; dieciséis is 16. || @tags es.numbers @skill vocabulary
+      fill: ¿___ camisetas quieres? (how many) || Cuántas || Camisetas is feminine plural: cuántas. || @tags es.question-words
+      fill: ¿___ cuesta el vestido? (how much) || Cuánto || In ¿Cuánto cuesta…? the word cuánto doesn't change. || @tags es.question-words
+      rw: Write the price in words :: 21 € || veintiún euros || One word; veintiuno becomes veintiún before a masculine noun. || @tags es.numbers,es.spelling
+      rw: Write the number in words :: 35 || treinta y cinco || From 31, three words: treinta y cinco. || @tags es.numbers,es.spelling
+      match: 30 = treinta ; 40 = cuarenta ; 50 = cincuenta ; 70 = setenta ; 90 = noventa || Treinta 30 · cuarenta 40 · cincuenta 50 · setenta 70 · noventa 90. || @tags es.numbers
+      short: How much does Rubén pay in total? || kw: 70/setenta/seventy || "Son setenta euros en total": forty for the jacket and thirty for three T-shirts. || @ctx dialogue
+      tf: Rubén pays by card. || false || "Solo en efectivo" — cash only. || @ctx dialogue
+      tr: How much are the shoes? || ¿Cuánto cuestan los zapatos? | ¿Cuánto valen los zapatos? | ¿Cuánto son los zapatos? || Plural: cuestan (or valen). || @tags es.question-words,es.present-irregular
+      tr: The jacket costs eighty-five euros. || La chaqueta cuesta ochenta y cinco euros. || Ochenta + y + cinco. || @tags es.numbers
+      listen: El abrigo cuesta noventa y nueve euros, pero en rebajas cuesta sesenta. || How much is the coat in the sales? || €99 | *€60 | €70 || "En rebajas cuesta sesenta" — sixty euros. || @tags es.numbers
+      listen: setenta y seis || Which number do you hear? || 66 | *76 | 67 || Setenta (70) + seis (6) = 76. || @tags es.numbers
+      dict: Son cuarenta y cinco euros con cincuenta.
+      ask: Ask how much two things cost and say how many you want. || kw: cuánto/cuánta/cuántos/cuántas & quiero/quería || ¿Cuánto cuestan las camisetas? ¿Y cuánto cuesta la falda? Quería dos camisetas, por favor.
+
+  - title: In a shop
+    summary: Buy clothes in a shop — point with este, ese and aquel, ask for a size, try things on and say how they fit.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [es.demonstratives]
+    objectives:
+      - Point to things with este, ese and aquel
+      - Ask for a size and ask to try something on
+      - Say how clothes fit and decide to buy
+    intro: |
+      *¿Puedo probarme este jersey? ¿Tiene esa camisa en una talla más grande?* In a shop you point at things all the time. Spanish has three demonstratives — **este** (this, near me), **ese** (that, near you) and **aquel** (that, over there) — and each one agrees with the noun.
+    vocab: |
+      este / esta | this | det | Este jersey es muy bonito. | This jumper is very nice. | n: Plural: estos, estas.
+      ese / esa | that | det | ¿Cuánto cuesta esa camisa? | How much is that shirt? | n: Plural: esos, esas.
+      la talla | size (clothes) | n | ¿Qué talla usa? | What size are you? | g: f | n: For shoes: el número — ¿Qué número calza?
+      probarse | to try on | v | ¿Puedo probarme estos pantalones? | Can I try on these trousers? | n: o → ue: me pruebo.
+      el probador | fitting room | n | Los probadores están al fondo. | The fitting rooms are at the back. | g: m
+      el número | shoe size; number | n | Uso el número cuarenta. | I take a size forty. | g: m
+      me queda bien | it fits me; it suits me | expr | La chaqueta me queda muy bien. | The jacket really suits me. | n: Works like gustar (Unit 7): me queda grande, me quedan pequeños.
+      más grande | bigger | expr | ¿Tiene una talla más grande? | Do you have a bigger size? | n: Smaller: más pequeño / más pequeña.
+      me lo llevo | I'll take it | expr | Es perfecto. Me lo llevo. | It's perfect. I'll take it. | n: Lo = it (masculine); for a feminine thing, me la llevo. You'll study these pronouns at A2.
+      ¿puedo ayudarle? | can I help you? | expr | Buenos días, ¿puedo ayudarle? | Good morning, can I help you? | n: Informal: ¿Te ayudo?
+      solo estoy mirando | I'm just looking | expr | No, gracias, solo estoy mirando. | No, thanks, I'm just looking. | n: A fixed phrase — learn it as it is.
+      cambiar | to exchange, to change | v | ¿Puedo cambiar la falda? | Can I exchange the skirt? | n: To return: devolver (o → ue).
+      el tique | receipt | n | Necesita el tique para cambiar la ropa. | You need the receipt to exchange the clothes. | g: m | n: Also: el recibo, el ticket.
+      la caja | till, checkout | n | La caja está al lado de la puerta. | The till is next to the door. | g: f | n: Pagar en caja = to pay at the till.
+    grammar:
+      title: "Demonstratives: este, ese, aquel"
+      body: |
+        Demonstratives point to things and **agree** with the noun:
+
+        - **este / esta / estos / estas** — *this, these*: near the speaker.
+        - **ese / esa / esos / esas** — *that, those*: near the listener, or not far away.
+        - **aquel / aquella / aquellos / aquellas** — *that, those over there*: far from both of you.
+
+        They can stand alone to avoid repeating the noun: *—¿Qué camisa prefieres? —Esta.* (Older texts write *ésta* with an accent; it's no longer necessary.)
+
+        **Esto** and **eso** are neuter: they refer to something you can't or don't want to name, or to an idea — *¿Qué es esto? Eso es todo.* They never go before a noun: *este jersey*, not ~~esto jersey~~.
+      table: |
+        Distance | masc. sg | fem. sg | masc. pl | fem. pl
+        this / these (near me) | este | esta | estos | estas
+        that / those (near you) | ese | esa | esos | esas
+        that / those (over there) | aquel | aquella | aquellos | aquellas
+      examples: |
+        ¿Cuánto cuesta este abrigo? | How much is this coat?
+        Esa falda es muy bonita. | That skirt is very nice.
+        ¿Tiene estos zapatos en negro? | Do you have these shoes in black?
+        No quiero esta camiseta. Prefiero aquella. | I don't want this T-shirt. I prefer that one over there.
+      tip: "Este → estos, but esto has no plural: it means 'this thing' and never goes before a noun."
+    dialogue:
+      title: En la tienda de ropa
+      setting: Yusuf is looking for a winter jacket in a clothes shop in Zaragoza. Marta, the shop assistant, helps him.
+      speakers: M=Marta/f; Y=Yusuf/m
+      lines: |
+        M: Buenos días. ¿Puedo ayudarle? | Good morning. Can I help you?
+        Y: Sí, busco una chaqueta para el invierno. | Yes, I'm looking for a jacket for the winter.
+        M: Tenemos estas chaquetas negras y esas azules. | We have these black jackets and those blue ones.
+        Y: Prefiero esa azul. ¿Dónde está el probador? | I prefer that blue one. Where's the fitting room?
+        M: Al fondo, a la derecha. ¿Qué talla usa? | At the back, on the right. What size are you?
+        Y: Normalmente, la M. | Usually medium.
+        M: ¿Qué tal? | How is it?
+        Y: Me queda un poco pequeña. ¿Tiene una talla más grande? | It's a bit small on me. Do you have a bigger size?
+        M: Sí, aquí tiene la L. | Yes, here's the large.
+        Y: Esta me queda perfecta. ¿Cuánto cuesta? | This one fits perfectly. How much is it?
+        M: Setenta y nueve euros. | Seventy-nine euros.
+        Y: Muy bien, me la llevo. | Very good, I'll take it.
+    pronunciation:
+      title: "esta or está?"
+      body: |
+        **Esta** (*this*) and **está** (*is*) have the same letters but different stress. *Esta* is stressed on the first syllable: [ˈes.ta]. *Está* is stressed on the last syllable, which is why it has an accent: [es.ˈta].
+
+        Listen for the difference: *Esta camisa está aquí* — "This shirt is here".
+      items: |
+        esta camisa
+        está aquí
+        este jersey
+        estos zapatos
+        esa falda
+        aquel abrigo
+    culture:
+      title: Sizes, receipts and gift wrapping
+      body: |
+        Clothes in Spain use European sizes (38, 40, 42…) or S, M, L; shoe sizes go roughly from 35 to 46. Sizes vary between shops, so always try things on — fitting rooms are free.
+
+        Many shops let you exchange or return items within a set period if you keep **el tique**, but check the policy at the till. When you buy a present, the assistant may ask *¿Es para regalo?* — many shops will wrap it for you.
+    mistakes: |
+      Esto jersey es caro. => Este jersey es caro. | Before a masculine noun use este; esto never goes before a noun.
+      Estas pantalones son caros. => Estos pantalones son caros. | Pantalones is masculine, so estos.
+      ¿Cuánto cuesta estos zapatos? => ¿Cuánto cuestan estos zapatos? | The verb agrees with the plural noun: cuestan.
+    task:
+      title: Buying a present
+      mode: interaction
+      body: |
+        You are buying a jumper for a friend's birthday. Ask about colours and sizes using este, ese and aquel, ask to try it on (it's your size too!), say how it fits, ask the price and pay. Practise with a partner or the AI coach, then try the "Returning an item in a shop" scenario.
+    exercises: |
+      fill: ¿Cuánto cuesta ___ jersey? (this) || este || Jersey is masculine singular: este. || @tags es.demonstratives
+      fill: ___ zapatos son muy cómodos. (these) || Estos || Zapatos is masculine plural: estos. || @tags es.demonstratives
+      fill: ___ falda es muy bonita. (that, near you) || Esa || Falda is feminine singular; near the listener = esa. || @tags es.demonstratives
+      mc: "___ camisetas son baratas." (these) || Estos | *Estas | Esta || Camisetas is feminine plural: estas. || @tags es.demonstratives
+      mc: The assistant asks "¿Qué talla usa?". She wants to know… || *your size | your favourite colour | how you'd like to pay || La talla = clothes size. || @skill vocabulary @tags es.vocabulary
+      mc: Why does Yusuf ask for another jacket? || He doesn't like the colour | *The first one is a bit small | It's too expensive || "Me queda un poco pequeña. ¿Tiene una talla más grande?" || @ctx dialogue @skill reading @tags es.reading
+      tf: Yusuf buys a black jacket. || false || He prefers the blue one and buys it in size L. || @ctx dialogue
+      rw: Make it plural :: Este vestido es muy caro. || Estos vestidos son muy caros. || Este → estos, vestido → vestidos, es → son, caro → caros. || @tags es.demonstratives,es.plural
+      order: ¿Tiene esta camisa en una talla más grande? || Do you have this shirt in a bigger size? || @tags es.demonstratives
+      tr: How much is this skirt? || ¿Cuánto cuesta esta falda? | ¿Cuánto vale esta falda? || Falda is feminine: esta falda. || @tags es.demonstratives,es.question-words
+      tr: Do you have a smaller size? (formal) || ¿Tiene una talla más pequeña? | ¿Tiene usted una talla más pequeña? | ¿Tiene una talla menos? || Talla is feminine, so pequeña. || @tags es.register
+      listen: Esos pantalones cuestan cuarenta euros, y estas camisas, veinticinco. || How much are the shirts? || €40 | *€25 | €35 || "Estas camisas, veinticinco" — 25 euros. The trousers are 40. || @tags es.numbers,es.demonstratives
+      dict: Los probadores están al fondo, a la derecha.
+      ask: In a shop, ask to try something on (use este, esta, ese or esa) and ask for another size. || kw: probarme/probar & este/esta/estos/estas/ese/esa/esos/esas & talla || Perdone, ¿puedo probarme esta camisa? ¿Tiene una talla más grande?
+      write: Write a short message to a friend about something you want to buy — what it is, the colour, the size and the price. || min=25 || req: este/esta/estos/estas/ese/esa | euros | talla/número || ¡Hola, Pablo! Estoy en una tienda en el centro. Esta chaqueta negra es muy bonita y me queda bien. Es de la talla M y cuesta sesenta euros. ¿Qué piensas?

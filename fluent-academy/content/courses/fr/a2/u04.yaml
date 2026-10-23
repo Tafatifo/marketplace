@@ -1,0 +1,353 @@
+unit: 4
+title: Études et travail
+theme: Work and studies
+description: Talk about your studies and your job, describe how things used to be, and take part in a simple job interview, using depuis and il y a, the imparfait and a first comparison of the imparfait and the passé composé.
+free: false
+objectives:
+  - Say how long something has lasted and when it happened with depuis, il y a and pendant
+  - Describe past habits and situations with the imparfait
+  - Tell your career story in a job interview, mixing the imparfait and the passé composé
+canDo:
+  - I can say what I study or do and how long I have been doing it.
+  - I can describe a typical working day.
+  - I can say how things used to be.
+  - I can answer simple questions about my experience in a job interview.
+review: |
+  fill: Je suis professeur ___ 2019. || depuis || Still true now: present + depuis + date. || @tags fr.depuis
+  fill: J'ai quitté mon dernier poste ___ six mois. || il y a || A finished action and when it happened: passé composé + il y a (ago). || @tags fr.depuis
+  fill: Quand j'étais jeune, je ___ (vouloir) être pilote. || voulais || A past wish or state: imparfait (nous voulons → je voulais). || @tags fr.imparfait
+  mc: "Je lisais quand le téléphone a sonné." What happened? || I read after the phone rang | *I was reading when the phone rang | I was reading and the phone kept ringing || Lisais (imparfait) is the background; a sonné (passé composé) is the event that interrupts it. || @tags fr.imparfait-vs-pc
+  mc: Nous ___ à Lille depuis 2018. || *habitons | avons habité | habitions || Depuis + a situation that is still true takes the present: nous habitons. || @tags fr.depuis
+  rw: Put it in the imparfait :: Nous finissons à dix-huit heures et nous rentrons à pied. || Nous finissions à dix-huit heures et nous rentrions à pied. || Nous form of the present without -ons + -ions: finissions, rentrions. || @tags fr.imparfait
+  tr: She was a student when she found this job. || Elle était étudiante quand elle a trouvé ce travail. | Elle était étudiante quand elle a trouvé ce poste. | Elle était étudiante quand elle a trouvé ce boulot. || Background (était) in the imparfait, the event (a trouvé) in the passé composé. || @tags fr.imparfait-vs-pc
+  listen: Ça fait deux ans que je travaille dans cette entreprise. Avant, j'ai cherché du travail pendant six mois. || How long has the speaker worked for this company? || Six months | *Two years | Two and a half years || "Ça fait deux ans que je travaille…" = I've been working here for two years. The six months were before. || @tags fr.depuis,fr.listening
+  listen: Avant, je travaillais de nuit, mais depuis janvier, je travaille le matin. || When does the speaker work now? || At night | *In the morning | In the afternoon || "Depuis janvier, je travaille le matin" — night shifts were before (avant… je travaillais). || @tags fr.imparfait,fr.listening
+  ask: Tell a new colleague how long you have been doing your job or studies and what you did before. || kw: depuis & avant/il y a/j'ai/j'étais/je travaillais || Je travaille ici depuis deux ans. Avant, j'étais vendeuse dans une librairie et j'ai fait un stage dans une maison d'édition.
+  write: Write a short blog post called "Mon parcours" — your studies, your jobs, one change in your life and what you do now. || min=60 || req: depuis | il y a/pendant | j'étais/je travaillais/j'habitais/c'était || Mon parcours. J'ai fait des études de biologie à Lille. Pendant que j'étudiais, je travaillais dans un restaurant le soir. Après mon master, j'ai trouvé un poste dans un laboratoire. Le travail était intéressant, mais j'étais toujours seule devant un ordinateur. Il y a trois ans, j'ai décidé de changer de métier. Maintenant, je suis professeure de sciences dans un collège, et je suis très contente depuis !
+lessons:
+  - title: My studies
+    summary: Talk about what you study, where and since when, using depuis, il y a and pendant.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [fr.depuis]
+    objectives:
+      - Talk about your subject, your university or school and your timetable
+      - Say how long an action has been going on with depuis + present
+      - Say when something happened with il y a and how long it lasted with pendant
+    intro: |
+      *What do you study? Since when? When did you start?* These questions come up whenever you meet students or colleagues. English uses different tenses here (*I've been studying for two years*), but French simply uses the present with **depuis**. Mixing up *depuis*, *il y a* and *pendant* is one of the most common mistakes at A2, so this lesson puts them side by side.
+    vocab: |
+      les études | studies | n | Je fais des études de médecine. | I'm studying medicine. | c: faire des études de; finir ses études | g: f | n: Always plural in this meaning.
+      étudier | to study | v | J'étudie le droit à Montpellier. | I study law in Montpellier. | n: Faire des études de… is just as common.
+      la fac | uni | n | Je vais à la fac à vélo. | I cycle to uni. | g: f | n: Informal, short for la faculté. Neutral: l'université.
+      une licence | a bachelor's degree | n | Elle est en troisième année de licence. | She's in the third year of her bachelor's. | g: f | n: Then un master (2 years) and un doctorat.
+      un cours | a class; a lecture | n | J'ai cours le lundi de huit heures à midi. | I have classes on Mondays from eight till noon. | c: avoir cours; suivre un cours; sécher un cours | g: m
+      un examen | an exam | n | J'ai réussi tous mes examens ! | I passed all my exams! | c: passer un examen; réussir un examen; rater un examen | g: m | n: Passer un examen = to take (sit) an exam, not to pass it.
+      une note | a mark; a grade | n | J'ai eu une bonne note en statistiques. | I got a good mark in statistics. | g: f | n: French marks are usually out of 20.
+      un stage | an internship; a work placement | n | J'ai fait un stage de trois mois dans un hôpital. | I did a three-month internship in a hospital. | c: faire un stage; chercher un stage | g: m
+      une matière | a (school) subject | n | Ma matière préférée, c'est l'histoire. | My favourite subject is history. | g: f
+      réviser | to revise; to study for a test | v | Je révise avec une amie à la bibliothèque. | I revise with a friend at the library.
+      depuis | since; for (still going on) | prep | J'apprends le français depuis deux ans. | I've been learning French for two years. | n: Depuis + present for something still going on.
+      il y a | ago | prep | J'ai commencé la fac il y a trois ans. | I started uni three years ago. | n: Il y a also means "there is / there are" — the context makes it clear.
+      pendant | for; during (a finished period) | prep | J'ai vécu à Madrid pendant six mois. | I lived in Madrid for six months. | n: Pendant les vacances = during the holidays.
+    grammar:
+      title: Depuis, il y a and pendant
+      body: |
+        These three words translate English *for*, *since* and *ago*, but each has its own job.
+
+        - **Depuis** + **present**: an action that started in the past and **is still going on**. *J'étudie le chinois **depuis** 2023 / **depuis** trois ans* (I've been studying Chinese since 2023 / for three years). Don't use the passé composé here. To ask: *Depuis quand… ? Depuis combien de temps… ?*
+        - **Il y a** + **passé composé**: **when** a finished action happened — *ago*. *J'ai eu mon bac **il y a** deux ans.*
+        - **Pendant** + **passé composé**: **how long** a finished action lasted. *J'ai fait un stage **pendant** six mois.*
+
+        In conversation you will also hear **ça fait… que** + present, which means the same as depuis: *Ça fait trois ans que j'habite ici.*
+      table: |
+        Expression | Tense | Example | Meaning
+        depuis + duration or date | présent | J'habite ici depuis cinq ans. | I've lived here for five years (and still do).
+        ça fait + duration + que | présent | Ça fait cinq ans que j'habite ici. | Same meaning, conversational
+        il y a + duration | passé composé | Je suis arrivé ici il y a cinq ans. | I arrived here five years ago.
+        pendant + duration | passé composé | J'ai habité à Lyon pendant cinq ans. | I lived in Lyon for five years (finished).
+      examples: |
+        Depuis combien de temps tu apprends le piano ? | How long have you been learning the piano? | question with depuis
+        Je suis en master depuis septembre. | I've been doing my master's since September. | depuis + date
+        Elle a fini ses études il y a deux ans. | She finished her studies two years ago. | il y a = ago
+        Nous avons révisé pendant tout le week-end. | We revised all weekend. | pendant = a finished period
+      tip: "Depuis looks back from now and the action continues; il y a points to a moment in the past; pendant measures a finished block of time."
+    dialogue:
+      title: À la cafétéria de la fac
+      setting: The university cafeteria in Montpellier. Lucas, a new master's student from Belgium, sits down next to Yasmine, a third-year law student.
+      speakers: L=Lucas/m; Y=Yasmine/f
+      lines: |
+        L: Salut ! La place est libre ? Je suis nouveau ici. | Hi! Is this seat free? I'm new here.
+        Y: Oui, vas-y ! Tu étudies quoi ? | Yes, go ahead! What are you studying?
+        L: Je fais un master de chimie. Je suis arrivé il y a deux semaines. | I'm doing a master's in chemistry. I arrived two weeks ago.
+        Y: Bienvenue ! Tu viens d'où ? | Welcome! Where are you from?
+        L: De Liège, en Belgique. Et toi, tu fais quoi ? | From Liège, in Belgium. And you, what do you do?
+        Y: Moi, je suis en troisième année de droit. | I'm in my third year of law.
+        L: Tu es à Montpellier depuis longtemps ? | Have you been in Montpellier long?
+        Y: Depuis trois ans. Avant, j'ai vécu à Toulon pendant dix ans. | For three years. Before that, I lived in Toulon for ten years.
+        L: Et tu aimes le droit ? | And do you like law?
+        Y: Oui, surtout depuis mon stage dans un cabinet d'avocats, l'été dernier. | Yes, especially since my internship at a law firm last summer.
+        L: Moi, j'ai un examen dans un mois et je n'ai pas commencé à réviser ! | I've got an exam in a month and I haven't started revising!
+        Y: Pas de panique ! La bibliothèque est ouverte jusqu'à vingt-deux heures. | Don't panic! The library is open until 10 p.m.
+    pronunciation:
+      title: "Depuis and il y a in fast speech"
+      body: |
+        *Depuis* ends in [ɥi], the same glide as in *huit* and *nuit*: [də.pɥi]. Start with your lips rounded for [y] and glide quickly to [i] — it is one syllable, not two.
+
+        In everyday speech, *il y a* is often reduced: [il.ja] or simply [ja]. *Il y a deux ans* often sounds like [ja.dø.zɑ̃]. Notice the liaison in *deux ans* [dø.zɑ̃] and *trois ans* [tʁwa.zɑ̃].
+      items: |
+        depuis
+        depuis trois ans
+        il y a deux ans
+        pendant six mois
+        ça fait un an
+        la fac
+    culture:
+      title: Les études en France
+      body: |
+        After the bac, French students choose between public universities (*les facs*), which cost a few hundred euros a year, and the selective *grandes écoles* (engineering, business, political science), often after two years of *classes préparatoires*. Degrees follow the European model: *licence* (3 years), *master* (2 years), *doctorat*.
+
+        Marks are usually out of 20, and 10/20 is generally enough to pass. A 16/20 is an excellent mark — French teachers rarely give 20!
+    mistakes: |
+      J'étudie le français pour deux ans. => J'étudie le français depuis deux ans. | For an action that is still going on, use depuis + present, not pour.
+      J'ai habité ici depuis trois ans. => J'habite ici depuis trois ans. | With depuis, something that is still true takes the present.
+      J'ai commencé la fac depuis deux ans. => J'ai commencé la fac il y a deux ans. | For when a finished action happened (ago), use il y a.
+    task:
+      title: Student speed-meeting
+      mode: interaction
+      body: |
+        At a welcome event for international students, introduce yourself to three people (classmates or the AI coach): what you study or studied, since when, and one thing you did in the past (a course, an internship, a move). Use *depuis*, *il y a* and *pendant* at least once each.
+    exercises: |
+      fill: J'apprends l'espagnol ___ trois ans. || depuis || Still going on: present + depuis. || @tags fr.depuis
+      fill: Elle a eu son diplôme ___ deux ans. || il y a || A finished action, two years ago: il y a. || @tags fr.depuis
+      fill: Nous avons fait un stage à Berlin ___ six mois. || pendant || How long a finished action lasted: pendant. || @tags fr.depuis
+      mc: Choose the correct sentence. || J'ai travaillé ici depuis 2020. | *Je travaille ici depuis 2020. | Je travaille ici il y a 2020. || Still true now: present + depuis + date. || @tags fr.depuis
+      mc: "Ça fait six mois que je suis à Paris." means… || I was in Paris six months ago | *I've been in Paris for six months | I'm going to Paris for six months || Ça fait + duration + que + present = depuis: the situation is still going on. || @tags fr.depuis
+      tf: Lucas arrived in Montpellier two weeks ago. || true || "Je suis arrivé il y a deux semaines." || @ctx dialogue
+      short: How long has Yasmine been in Montpellier? || kw: trois/3/three || "Depuis trois ans." Before that, she lived in Toulon for ten years. || @ctx dialogue
+      listen: @dialogue || Where did Yasmine do her internship? || In a hospital | *In a law firm | At the university library || "Mon stage dans un cabinet d'avocats" — a law firm. || @tags fr.listening
+      listen: J'ai commencé mes études de musique il y a cinq ans, et je joue dans un orchestre depuis un an. || How long has the speaker been playing in an orchestra? || Five years | *One year | Six years || "Depuis un an" — for one year. The studies started five years ago. || @tags fr.depuis,fr.listening
+      rw: Rewrite with "depuis" :: Ça fait deux ans que je suis en master. || Je suis en master depuis deux ans. || Ça fait… que + present = present + depuis. || @tags fr.depuis
+      tr: I started university three years ago. || J'ai commencé l'université il y a trois ans. | J'ai commencé la fac il y a trois ans. | Il y a trois ans, j'ai commencé l'université. | Il y a trois ans, j'ai commencé la fac. || Ago = il y a, with the passé composé. || @tags fr.depuis,fr.passe-compose-avoir
+      dict: Je fais des études d'architecture depuis deux ans. || depuis
+      ask: Someone asks you "Tu étudies quoi ? Depuis quand ?" Answer both questions. || kw: étudie/fais/suis/apprends & depuis || J'étudie l'informatique depuis un an. Avant, j'ai travaillé dans un magasin pendant deux ans.
+      write: Write a short post for an international students' forum — what you study, since when, and one thing you did before. || min=35 || req: depuis | il y a/pendant || Bonjour à tous ! Je m'appelle Kofi, je viens d'Accra. Je fais un master de génie civil à Toulouse depuis septembre. J'ai fini ma licence il y a un an, puis j'ai travaillé pendant six mois dans une entreprise de construction. Je cherche des étudiants pour réviser ensemble !
+
+  - title: A day at work
+    summary: Describe a typical working day and say how your job used to be, using the imparfait.
+    minutes: 45
+    skills: [grammar, speaking, reading]
+    tags: [fr.imparfait, fr.frequency]
+    objectives:
+      - Describe a typical working day and your tasks
+      - Form the imparfait from the nous form of the present
+      - Describe past habits and situations with avant + imparfait
+    intro: |
+      Talking about your job means describing your routine — when you start, what you do, who you work with — and often comparing it with how things used to be. For past habits and descriptions, French uses a second past tense, the **imparfait**: *Avant, je travaillais de nuit* (I used to work nights). You already know two of its forms: *j'étais* and *j'avais*.
+    vocab: |
+      un collègue | a colleague | n | Je déjeune avec mes collègues à la cantine. | I have lunch with my colleagues in the canteen. | g: m | n: Feminine: une collègue.
+      les horaires | working hours; schedule | n | J'ai des horaires flexibles. | I have flexible working hours. | c: les horaires de bureau; des horaires décalés | g: m
+      commencer | to start | v | Je commence à huit heures et demie. | I start at half past eight. | n: Nous commençons: ç before o. Imparfait: je commençais.
+      une réunion | a meeting | n | J'ai une réunion d'équipe tous les lundis. | I have a team meeting every Monday. | c: être en réunion; une réunion d'équipe | g: f
+      l'équipe | the team | n | Notre équipe travaille sur un nouveau projet. | Our team is working on a new project. | g: f
+      le ou la responsable | the manager | n | Ma responsable est très sympa. | My manager is very nice. | g: m | n: Same form for men and women; informal: le patron, la patronne.
+      le télétravail | remote work; working from home | n | Je suis en télétravail le mercredi et le vendredi. | I work from home on Wednesdays and Fridays. | c: faire du télétravail; être en télétravail | g: m
+      la pause déjeuner | the lunch break | n | Pendant la pause déjeuner, je vais courir. | During the lunch break I go running. | g: f
+      un client | a customer; a client | n | Je reçois des clients toute la journée. | I see clients all day long. | g: m | n: Feminine: une cliente.
+      un e-mail | an email | n | Le matin, je réponds aux e-mails. | In the morning I answer emails. | g: m | n: Also un mail; the official word is un courriel.
+      gagner sa vie | to earn a living | expr | Il gagne bien sa vie, mais il travaille beaucoup. | He earns a good living, but he works a lot.
+      avant | before; in the past | adv | Avant, je travaillais dans une banque. | I used to work in a bank. | n: Avant + imparfait often translates "used to".
+      un poste | a job; a position | n | Elle a un poste de responsable des ventes. | She has a position as sales manager. | g: m | n: Also un emploi, un travail, un boulot (informal).
+    grammar:
+      title: The imparfait
+      body: |
+        The **imparfait** describes how things were and what people **used to do**: *Avant, je travaillais à Lille et je prenais le train tous les jours.* It doesn't tell you "this happened once"; it paints a background or a habit.
+
+        **Formation:** take the **nous** form of the present, remove **-ons**, and add the endings **-ais, -ais, -ait, -ions, -iez, -aient**: *nous travaill**ons** → je travaill**ais**; nous pren**ons** → je pren**ais**; nous finiss**ons** → je finiss**ais**.*
+
+        The only irregular stem is **être → ét-**: *j'étais, nous étions.* *Il y a* becomes *il y avait*.
+
+        Typical time expressions: *avant, à l'époque, quand j'étais jeune, tous les jours, le lundi, souvent, d'habitude.* For the negative, *ne… pas* goes around the verb as in the present: *Je ne travaillais pas le samedi.*
+      table: |
+        Pronoun | travailler (nous travaillons) | prendre (nous prenons) | être
+        je | travaillais | prenais | étais
+        tu | travaillais | prenais | étais
+        il / elle / on | travaillait | prenait | était
+        nous | travaillions | prenions | étions
+        vous | travailliez | preniez | étiez
+        ils / elles | travaillaient | prenaient | étaient
+      examples: |
+        Avant, je travaillais de nuit à l'hôpital. | I used to work nights at the hospital. | a past habit
+        À l'époque, nous n'avions pas d'ordinateur portable. | At the time, we didn't have laptops. | ne… pas around the verb
+        Mon bureau était petit et il y avait toujours du bruit. | My office was small and it was always noisy. | être → ét-; il y avait
+        Le lundi, on commençait à sept heures. | On Mondays we used to start at seven. | commencer → commençait
+      tip: "Verbs in -cer and -ger keep their sound before a: je commençais, je mangeais. Before i, no change is needed: nous commencions, nous mangions."
+    dialogue:
+      title: Une journée avec Nathalie
+      setting: A travel agency in Marseille. Théo, 19, is doing a week of work experience. He asks Nathalie, who has worked there for many years, about her job.
+      speakers: T=Théo/m; N=Nathalie/f
+      lines: |
+        T: Vous commencez à quelle heure le matin ? | What time do you start in the morning?
+        N: À neuf heures. D'abord, je réponds aux e-mails des clients. | At nine. First, I answer the customers' emails.
+        T: Et après, vous recevez des clients à l'agence ? | And then you see customers at the agency?
+        N: Oui, toute la journée, sauf pendant la pause déjeuner. | Yes, all day, except during the lunch break.
+        T: Vous travaillez ici depuis longtemps ? | Have you been working here long?
+        N: Depuis trente ans ! Mais avant, le métier était très différent. | For thirty years! But the job used to be very different.
+        T: Ah bon ? Comment ça ? | Really? In what way?
+        N: Les clients venaient tous à l'agence et on réservait par téléphone. | All the customers came to the agency and we booked by phone.
+        T: Et vous imprimiez les billets ? | And did you print the tickets?
+        N: Oui, on imprimait tout ! J'avais toujours des papiers partout. | Yes, we printed everything! I always had papers everywhere.
+        T: Et aujourd'hui, vous travaillez parfois à la maison ? | And today, do you sometimes work from home?
+        N: Oui, maintenant, je suis en télétravail le vendredi ! | Yes, now I work from home on Fridays!
+    pronunciation:
+      title: "Imparfait endings: -ais, -ait, -aient"
+      body: |
+        Five of the six imparfait forms sound exactly the same: *je travaillais, tu travaillais, il travaillait, ils travaillaient* are all [tʁa.va.jɛ]. Only *nous travaillions* [tʁa.va.jjɔ̃] and *vous travailliez* [tʁa.va.jje] sound different.
+
+        Compare *je travaille* [ʒə.tʁa.vaj] (present) and *je travaillais* [ʒə.tʁa.va.jɛ] (imparfait): the extra vowel at the end is the only clue to the past.
+      items: |
+        je travaille
+        je travaillais
+        ils commençaient
+        nous étions
+        vous preniez
+        il y avait
+    culture:
+      title: Le travail en France
+      body: |
+        The legal working week in France is 35 hours. Many full-time employees, especially managers (*les cadres*), work more and get extra days off, often called *RTT*. Lunch is a real break: many companies have a canteen or give staff meal vouchers (*titres-restaurant*).
+
+        Since 2020, *le télétravail* has become common in office jobs: one to three days a week at home is now a usual arrangement in many companies.
+    mistakes: |
+      Avant, je travaillé dans un café. => Avant, je travaillais dans un café. | For a past habit, use the imparfait (travaillais), not the past participle.
+      Nous étaient en réunion. => Nous étions en réunion. | The nous ending of the imparfait is -ions: nous étions.
+      Je commencais à huit heures. => Je commençais à huit heures. | Before a, the c needs a cedilla to keep the [s] sound: commençais.
+    task:
+      title: My working day — then and now
+      mode: speaking
+      body: |
+        Describe your working (or study) day today: when you start, what you do, who you work with. Then compare it with a previous job or with your school days, using *avant* + imparfait: *Avant, je commençais à…, je prenais…* Record yourself for one or two minutes, or present it to the AI coach.
+    exercises: |
+      fill: Avant, je ___ (travailler) dans une banque. || travaillais || Past habit: imparfait, je + -ais. || @tags fr.imparfait
+      fill: À l'époque, nous ___ (prendre) le bus tous les matins. || prenions || Nous prenons → pren- + -ions. || @tags fr.imparfait
+      fill: Mon premier bureau ___ (être) très petit. || était || Être has the irregular stem ét-: il était. || @tags fr.imparfait
+      fill: Ils ___ (finir) tard le vendredi. || finissaient || Nous finissons → finiss- + -aient. || @tags fr.imparfait
+      mc: Which form is in the imparfait? || il a travaillé | *il travaillait | il travaille || -ait is the imparfait ending for il/elle; a travaillé is the passé composé. || @tags fr.imparfait
+      mc: Le midi, nous ___ à la cantine. (manger, imparfait) || mangeions | *mangions | mangeons || Before i, no extra e is needed: nous mangions. Mangeons is the present. || @tags fr.imparfait,fr.spelling
+      tf: Nathalie has worked at the agency for thirty years. || true || "Depuis trente ans !" || @ctx dialogue
+      listen: @dialogue || How did the agency book trips in the past? || Online | *By phone | By email || "On réservait par téléphone." || @tags fr.listening
+      listen: Quand j'étais serveuse, je commençais à six heures et je finissais à quinze heures. || What were her working hours? || 6 a.m. to 5 p.m. | *6 a.m. to 3 p.m. | 7 a.m. to 3 p.m. || Six heures to quinze heures = 6 a.m. to 3 p.m. || @tags fr.imparfait,fr.listening
+      rw: Put it in the imparfait :: Je vais au bureau à vélo et je déjeune avec mes collègues. || J'allais au bureau à vélo et je déjeunais avec mes collègues. || Nous allons → all-, nous déjeunons → déjeun- + -ais. || @tags fr.imparfait
+      tr: In the past, my office was in Lyon. || Avant, mon bureau était à Lyon. | À l'époque, mon bureau était à Lyon. | Autrefois, mon bureau était à Lyon. || A past situation: imparfait of être, était. || @tags fr.imparfait
+      dict: Avant, nous commencions à sept heures et il y avait beaucoup de clients. || commencions
+      ask: Describe your typical working or study day in three sentences. || kw: commence/travaille/étudie/vais/arrive & heures/matin/soir || Je commence à huit heures. Le matin, je réponds aux e-mails et l'après-midi, j'ai des réunions. Je finis vers dix-huit heures.
+      write: Write a paragraph comparing your working or school day now with how it used to be. || min=40 || req: avant/à l'époque/quand j'étais | j'étais/j'avais/je travaillais/je commençais/je faisais/je prenais/il y avait/c'était || Aujourd'hui, je suis infirmier et je travaille dans une clinique à Tours. Je commence à sept heures et je finis à quinze heures. Avant, je travaillais dans un grand hôpital à Paris. Je prenais le métro tous les matins et il y avait toujours beaucoup de monde. Je travaillais souvent la nuit et j'étais très fatigué. Maintenant, c'est plus calme !
+
+  - title: Applying for a job
+    summary: Understand a job ad, tell your career story in an interview and choose between the imparfait and the passé composé.
+    minutes: 45
+    skills: [speaking, grammar, writing]
+    tags: [fr.imparfait-vs-pc, fr.depuis]
+    objectives:
+      - Understand a simple job advertisement
+      - Use the imparfait for the background and the passé composé for events
+      - Answer typical interview questions about your experience and skills
+    intro: |
+      In a job interview you tell your story: what you were doing, what happened, what you decided. That is exactly where French needs both past tenses — the **imparfait** for the background (*j'étais étudiante, je travaillais le week-end*) and the **passé composé** for the events (*j'ai trouvé un stage, j'ai obtenu mon diplôme*). This lesson gives you a first, practical way to choose between them.
+    vocab: |
+      une offre d'emploi | a job offer; a job ad | n | J'ai vu une offre d'emploi intéressante sur internet. | I saw an interesting job ad online. | g: f | n: Also une annonce.
+      postuler | to apply | v | Je voudrais postuler pour le poste d'assistant. | I'd like to apply for the assistant position. | c: postuler à une offre; postuler pour un poste
+      un CV | a CV; a résumé | n | Envoyez votre CV et une lettre de motivation. | Send your CV and a cover letter. | g: m | n: Pronounced [se.ve].
+      une lettre de motivation | a cover letter | n | Ma lettre de motivation fait une page. | My cover letter is one page long. | g: f
+      un entretien d'embauche | a job interview | n | J'ai un entretien d'embauche mardi matin. | I have a job interview on Tuesday morning. | g: m | n: Often just un entretien.
+      l'expérience | experience | n | Vous avez de l'expérience dans la vente ? | Do you have experience in sales? | c: avoir de l'expérience; une première expérience | g: f
+      un contrat | a contract | n | C'est un contrat de six mois. | It's a six-month contract. | g: m | n: CDI = permanent contract; CDD = fixed-term contract.
+      à temps plein | full-time | expr | Je cherche un poste à temps plein. | I'm looking for a full-time job. | n: Part-time: à temps partiel.
+      le salaire | the salary; pay | n | Le salaire est de deux mille euros par mois. | The salary is two thousand euros a month. | g: m
+      embaucher | to hire | v | Le restaurant embauche des serveurs pour l'été. | The restaurant is hiring waiters for the summer.
+      les compétences | skills | n | Quelles sont vos compétences en informatique ? | What are your IT skills? | g: f
+      motivé | motivated | adj | Je suis très motivée par ce poste. | I'm very motivated by this position. | n: Feminine: motivée.
+      démissionner | to resign | v | J'ai démissionné parce que je voulais changer de région. | I resigned because I wanted to move to another region.
+    grammar:
+      title: Imparfait or passé composé?
+      body: |
+        In a story, the two past tenses have different jobs.
+
+        - **Passé composé** = the **events**: what happened, at a given moment, one step after another. *En 2020, **j'ai obtenu** mon diplôme. Ensuite, **j'ai trouvé** un stage.*
+        - **Imparfait** = the **background**: the situation, descriptions, feelings and habits. *J'**étais** étudiante, j'**habitais** à Lyon et je **travaillais** le samedi.*
+
+        When an event interrupts a situation, use both: *Je **travaillais** dans un café quand **j'ai vu** l'annonce* (I was working in a café when I saw the ad). **Pendant que** (while) is usually followed by the imparfait.
+
+        A simple question helps: *Is it the scene (what was going on?) or a step in the story (what happened next?)* — imparfait for the scene, passé composé for the step.
+      table: |
+        Imparfait (background) | Passé composé (event)
+        J'étais vendeuse à Nantes… | …et en 2021, j'ai changé de métier.
+        Je cherchais du travail… | …quand j'ai vu votre offre.
+        Pendant que j'étudiais… | …j'ai fait deux stages.
+        Le travail était intéressant, mais… | …j'ai démissionné pour suivre ma famille.
+      examples: |
+        Quand j'étais étudiant, je travaillais dans un supermarché. | When I was a student, I worked in a supermarket. | situation + habit: two imparfaits
+        J'ai envoyé mon CV et j'ai eu un entretien le lendemain. | I sent my CV and had an interview the next day. | two events in a row
+        Je faisais un stage dans une pharmacie quand j'ai décidé de devenir pharmacien. | I was doing an internship in a pharmacy when I decided to become a pharmacist. | background + event
+        Le poste était intéressant, mais le salaire était bas. | The job was interesting, but the pay was low. | descriptions
+      tip: "With depuis, keep the present: Je travaille ici depuis 2022. Use the imparfait or the passé composé only for what is over."
+    dialogue:
+      title: L'entretien
+      setting: A hotel in Annecy is hiring a receptionist for the season. The manager, Mme Rousseau, interviews Rayan Benali, 28.
+      speakers: R=Mme Rousseau/f; Y=Rayan/m
+      lines: |
+        R: Bonjour, monsieur Benali. Asseyez-vous. Parlez-moi de votre parcours. | Hello, Mr Benali. Have a seat. Tell me about your background.
+        Y: Alors, j'ai fait des études de tourisme à Grenoble. | Well, I studied tourism in Grenoble.
+        R: Et vous avez déjà travaillé dans un hôtel ? | And have you worked in a hotel before?
+        Y: Oui. Pendant que j'étudiais, je travaillais à la réception le week-end. | Yes. While I was studying, I worked on reception at weekends.
+        R: Très bien. Et après vos études ? | Very good. And after your studies?
+        Y: J'ai trouvé un poste à Lyon, dans une agence de voyages. | I found a job in Lyon, in a travel agency.
+        R: Pourquoi est-ce que vous avez quitté ce poste ? | Why did you leave that job?
+        Y: Le travail était intéressant, mais je voulais revenir à la montagne. | The work was interesting, but I wanted to come back to the mountains.
+        R: Je comprends. Vous parlez des langues étrangères ? | I see. Do you speak any foreign languages?
+        Y: Je parle anglais et italien. Et j'apprends l'allemand depuis un an. | I speak English and Italian. And I've been learning German for a year.
+        R: Parfait. C'est un CDD de six mois, à temps plein. Ça vous va ? | Perfect. It's a six-month fixed-term contract, full-time. Is that all right for you?
+        Y: Oui, tout à fait. Je suis très motivé ! | Yes, absolutely. I'm very motivated!
+    pronunciation:
+      title: "J'ai travaillé or je travaillais?"
+      body: |
+        The passé composé and the imparfait can sound close. *J'ai travaillé* [ʒe.tʁa.va.je] starts with the auxiliary [ʒe]; *je travaillais* [ʒə.tʁa.va.jɛ] starts with [ʒə] and ends with an open [ɛ].
+
+        In many regions, the difference between final [e] and [ɛ] is small, so listen above all for **j'ai** at the start: it signals the passé composé.
+      items: |
+        j'ai travaillé
+        je travaillais
+        j'ai cherché
+        je cherchais
+        j'étais étudiant
+        j'ai trouvé un poste
+    culture:
+      title: CV et lettre de motivation
+      body: |
+        A French CV for a young candidate is usually one page, often with a short profile at the top. Many employers still ask for *une lettre de motivation*, a formal letter explaining why you want the job. In interviews, candidates use *vous* and wait for the recruiter to suggest *tu* — which is more common in start-ups.
+
+        The type of contract matters a lot: a *CDI* (*contrat à durée indéterminée*) is permanent and makes it easier to rent a flat or get a loan; a *CDD* is fixed-term, for example for a season.
+    mistakes: |
+      Quand j'ai été étudiant, j'ai travaillé le samedi. => Quand j'étais étudiant, je travaillais le samedi. | A past situation and a regular habit take the imparfait.
+      Je cherchais du travail quand je voyais votre offre. => Je cherchais du travail quand j'ai vu votre offre. | The event that interrupts the situation takes the passé composé.
+      Pendant que j'ai étudié, j'ai fait un stage. => Pendant que j'étudiais, j'ai fait un stage. | Pendant que introduces a background situation: use the imparfait.
+    task:
+      title: Your first job interview in French
+      mode: interaction
+      body: |
+        Choose a real or imaginary job ad. With the AI coach as the recruiter, present your background (studies, previous jobs), explain why you left your last job or why you want this one, and answer questions about your skills. Use the imparfait for situations and the passé composé for events.
+    exercises: |
+      fill: Je ___ (travailler) dans un café quand j'ai vu votre annonce. || travaillais || The background situation, interrupted by an event: imparfait. || @tags fr.imparfait-vs-pc
+      fill: Pendant que j'étudiais, j'___ (faire) deux stages. || ai fait || Two complete events inside the background: passé composé, j'ai fait. || @tags fr.imparfait-vs-pc,fr.passe-compose-avoir
+      fill: Le poste ___ (être) intéressant, mais j'ai démissionné. || était || A description of the job: imparfait. || @tags fr.imparfait-vs-pc
+      fill: En 2022, elle ___ (obtenir) son diplôme d'infirmière. || a obtenu || A dated event: passé composé; obtenir → obtenu. || @tags fr.imparfait-vs-pc,fr.passe-compose-avoir
+      mc: "I was writing an email when the manager came in." → Je ___ un e-mail quand la directrice est entrée. || ai écrit | *écrivais | écris || "Was writing" is the background interrupted by an event: imparfait (nous écrivons → j'écrivais). || @tags fr.imparfait-vs-pc
+      tf: Rayan worked on a hotel reception while he was a student. || true || "Pendant que j'étudiais, je travaillais à la réception le week-end." || @ctx dialogue
+      short: Why did Rayan leave his job in Lyon? || kw: montagne/mountains/mountain || "Je voulais revenir à la montagne." || @ctx dialogue
+      listen: @dialogue || What kind of contract is offered? || A permanent full-time contract | *A six-month full-time contract | A six-month part-time contract || "Un CDD de six mois, à temps plein." || @tags fr.listening
+      listen: Nous cherchons un vendeur ou une vendeuse à temps partiel, le samedi et le dimanche. Expérience souhaitée. || What kind of job is it? || Full-time, Monday to Friday | *Part-time, at weekends | Part-time, in the evenings || "À temps partiel, le samedi et le dimanche." || @tags fr.listening
+      rw: Put the verbs in the right past tense :: Je (être) au chômage quand je (voir) cette offre. || J'étais au chômage quand j'ai vu cette offre. || Situation → imparfait (j'étais); event → passé composé (j'ai vu). || @tags fr.imparfait-vs-pc
+      tr: I was working in Lyon when I decided to come back. || Je travaillais à Lyon quand j'ai décidé de revenir. | Je travaillais à Lyon quand j'ai décidé de rentrer. || Background (travaillais) + event (ai décidé). || @tags fr.imparfait-vs-pc
+      dict: Pendant que j'étudiais, je travaillais le week-end dans un hôtel. || pendant que
+      ask: The recruiter says "Parlez-moi de votre parcours." Give two facts about your studies or jobs. || kw: j'ai/j'étais/je travaillais & études/travaillé/poste/stage || J'ai fait des études de commerce à Lille. Pendant mes études, je travaillais dans un magasin de sport, et après, j'ai trouvé un poste dans une banque.
+      write: Write a short email to apply for a summer job in a hotel — who you are, your experience and why you are interested. || min=50 || req: madame/monsieur | j'ai | depuis/j'étais/je travaillais || Madame, Monsieur, J'ai vu votre offre d'emploi pour un poste de réceptionniste cet été. J'ai vingt-deux ans et je suis étudiante en tourisme à Nice depuis deux ans. L'été dernier, j'ai travaillé dans un camping : j'accueillais les clients et je répondais au téléphone. Je parle anglais et espagnol. Je suis très motivée. Cordialement, Inès Morel

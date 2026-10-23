@@ -1,0 +1,369 @@
+unit: 7
+title: Free time
+theme: Free time and weather
+description: Talk about hobbies with like, love and hate + -ing, describe the weather and what is happening now with the present continuous, and make plans with Let's…, How about…? and Do you want to…?
+objectives:
+  - Talk about hobbies and say what you love, like, don't like and hate doing
+  - Describe the weather and the seasons, and say what is happening now with the present continuous
+  - Make, accept and refuse suggestions with Let's…, How about…?, Why don't we…? and Do you want to…?
+canDo:
+  - I can talk about my hobbies and ask about other people's.
+  - I can say what the weather is like today.
+  - I can say what I am doing now.
+  - I can suggest a plan and say yes or no politely.
+review: |
+  fill: My dad loves ___ (cook) Thai food. || cooking || After love, use the -ing form: loves cooking. || @tags en.likes
+  mc: "Do you like dancing?" — "No, ___." || I don't like | *I don't | I'm not || Short answer to a Do… question: No, I don't. || @tags en.likes,en.present-simple
+  fill: Shh! The baby ___ (sleep). || is sleeping / 's sleeping || Happening now: is + -ing. || @tags en.present-continuous
+  rw: Make it negative :: It's raining today. || It isn't raining today. | It is not raining today. | It's not raining today. || Negative present continuous: isn't + -ing. || @tags en.present-continuous
+  mc: The season after summer is… || spring | *fall (British English: autumn) | winter || Spring, summer, fall, winter. || @tags en.vocabulary
+  fill: How about ___ (go) for a walk? || going || After how about, use the -ing form. || @tags en.suggestions
+  fill: Let's ___ (meet) at noon. || meet || After let's, use the verb without to. || @tags en.suggestions
+  listen: It's cold and cloudy, but it isn't raining. || What's the weather like? || *cold and cloudy | cold and rainy | warm and cloudy || "Cold and cloudy, but it isn't raining." || @tags en.present-continuous
+  listen: Do you want to go to a concert on Friday? — Sorry, I can't. I'm busy on Friday. || What is the answer to the invitation? || Yes, great idea | *No, the person is busy | Maybe on Saturday || "Sorry, I can't. I'm busy on Friday." || @tags en.suggestions
+  ask: Call a friend. Say what the weather is like and what you are doing, and suggest a plan for the afternoon. || kw: it's/it is & I'm/I am & let's/how about/do you want to/why don't we || Hi! It's sunny and warm here. I'm reading in the yard. Do you want to go to the park this afternoon?
+  write: Write an email to a new friend. Talk about your hobbies and the weather where you live, and suggest something to do together. || min=35 || req: love/like | it's/it is | let's/how about/do you want to/why don't we || Hi Mei! In my free time I love taking photos and I like going hiking. I don't like running! Here in Seattle it's often cloudy and it rains a lot, but today it's sunny. How about going hiking together next Saturday?
+lessons:
+  - title: Hobbies and likes
+    summary: Talk about hobbies and free time, and say what you love, like, don't like and hate doing with -ing.
+    minutes: 35
+    skills: [vocabulary, speaking, grammar]
+    tags: [en.likes]
+    objectives:
+      - Name common hobbies and free-time activities
+      - Use love, like, don't like and hate + -ing
+      - Ask "What do you do in your free time?" and "Do you like…?"
+    intro: |
+      What do you do in your free time? Hobbies are a great topic for conversation — with new friends, colleagues or a language partner. In this lesson you will learn the words for popular hobbies and how to say what you **love**, **like**, **don't like** and **hate** doing: *I love swimming, but I hate running!*
+    vocab: |
+      hobby | something you like doing in your free time | n | My favorite hobby is painting. | - | pl: hobbies
+      free time | time when you aren't working or studying | n | What do you do in your free time? | - | c: in my free time
+      reading | looking at and understanding books, magazines or other texts | n | I love reading in bed. | -
+      cooking | making food | n | Cooking is my hobby. | -
+      swimming | moving through water with your arms and legs | n | We go swimming on Saturday. | -
+      playing soccer | playing a ball game with two teams, using your feet | expr | He likes playing soccer with his friends. | - | n: British English: football. In the US, football is a different game.
+      playing the guitar | making music with a guitar | expr | She loves playing the guitar. | - | n: play + the + instrument: play the piano, play the violin.
+      dancing | moving your body to music | n | Do you like dancing? | -
+      taking photos | making pictures with a camera or phone | expr | I like taking photos of animals. | -
+      listening to music | hearing songs because you enjoy them | expr | I hate cooking, but I love listening to music. | - | n: Don't forget to: listen to music.
+      going hiking | walking a long way in the country or the mountains | expr | We love going hiking in the summer. | - | t: es=hacer senderismo; fr=faire de la randonnée; de=wandern; da=vandre
+      love | to like very much | v | I love dancing! | -
+      hate | to not like at all | v | My son hates getting up early. | -
+      favorite | the one you like best | adj | What's your favorite sport? | - | n: British English: favourite.
+    grammar:
+      title: "like, love, hate + -ing"
+      body: |
+        To talk about hobbies, use **love**, **like**, **don't like** or **hate** + a verb with **-ing**: *I **love** swimming. She **doesn't like** cooking. We **hate** getting up early.*
+
+        - **love** = like very much (++)
+        - **like** = enjoy (+)
+        - **don't like** = not enjoy (−)
+        - **hate** = not like at all (−−)
+
+        Spelling of the -ing form:
+
+        - most verbs add **-ing**: *read → reading, play → playing*
+        - verbs ending in **-e** drop the e: *dance → dancing, take → taking*
+        - short verbs with one vowel + one consonant **double** the consonant: *swim → swimming, run → running, shop → shopping*
+
+        You can also use a noun: *I like music. I love soccer.* Questions: ***Do you like** dancing? — Yes, I do. / No, I don't.* ***What do you do** in your free time?*
+      table: |
+        Feeling | Example
+        love (++) | I love reading.
+        like (+) | She likes dancing.
+        don't like (−) | We don't like cooking.
+        hate (−−) | He hates running.
+      examples: |
+        I love taking photos. | | love + -ing
+        My brother doesn't like swimming. | | doesn't like + -ing
+        Do you like dancing? — Yes, I do! | | question and short answer
+        They hate getting up early on Sunday. | | hate + -ing
+      tip: "Americans often say like to + verb as well: I like to read = I like reading. Both are correct."
+    dialogue:
+      title: What do you do in your free time?
+      setting: Hamid and Chloe are new colleagues at a company in Manchester. They are having lunch together.
+      speakers: H=Hamid/m; C=Chloe/f
+      lines: |
+        C: Hamid, what do you do in your free time?
+        H: I love cooking. Indian food, Italian food…
+        C: Really? I hate cooking!
+        H: So what do you like doing?
+        C: I like dancing and listening to music.
+        H: What's your favorite music?
+        C: Salsa! I go dancing every Friday.
+        H: Cool! I don't like dancing very much.
+        C: Do you like sports?
+        H: Yes, I play soccer on Sundays.
+        C: I like watching soccer — on TV!
+        H: Ha! That's a hobby too!
+    pronunciation:
+      title: "The -ing ending"
+      body: |
+        The **-ing** ending is one sound [ŋ] at the back of your mouth, like the end of *sing* or *long*. Don't add a hard **g** after it: say *swimming*, not "swimming-g".
+
+        The stress stays on the main verb: *SWIM-ming, DAN-cing, COOK-ing, LIS-ten-ing*. Listen and repeat.
+      items: |
+        reading
+        cooking
+        swimming
+        dancing
+        taking photos
+        listening to music
+    culture:
+      title: Clubs and teams
+      body: |
+        In English-speaking countries, many people do their hobbies in a **club** or a **team**: a book club, a running club, a choir or a local soccer team. It's a good way to meet new people — and to practice your English!
+
+        Be careful with **football**: in the UK, Ireland and most of the world, it means the game Americans call **soccer**. In the US and Canada, *football* is American football, with an oval ball.
+    mistakes: |
+      I like swim. => I like swimming. | After like, use the -ing form (or to + verb): like swimming.
+      She likes danceing. => She likes dancing. | Verbs ending in -e drop the e before -ing.
+      I love listening music. => I love listening to music. | Listen needs to: listen to music.
+    task:
+      title: My free time
+      mode: speaking
+      body: |
+        Talk for one minute about your free time: two things you love doing, one thing you like, and one thing you hate. Say how often you do them (every day, on the weekend…). Then try the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: I love ___ (read) books. || reading || After love, use the -ing form. || @tags en.likes
+      fill: Do you like ___ (dance)? || dancing || Dance ends in -e, so drop the e: dancing. || @tags en.likes
+      fill: He ___ like cooking. (not) || doesn't / does not || Negative with he: doesn't like. || @tags en.likes,en.present-simple
+      mc: Choose the correct sentence. || I like swim. | *I like swimming. | I like swiming. || Like + -ing, and swim doubles the m. || @tags en.likes
+      mc: "Do you like playing the guitar?" — "Yes, ___." || I like | *I do | I am || Short answer to a Do… question: Yes, I do. || @tags en.likes,en.present-simple
+      rw: Start with "I love" :: I play soccer on Sundays. || I love playing soccer on Sundays. || Love + -ing: I love playing… || @tags en.likes
+      match: play = the guitar ; listen to = music ; take = photos ; go = hiking || Match each verb with the words that go with it. || @tags en.collocations
+      order: My favorite hobby is taking photos. || @tags en.likes
+      tf: Chloe loves cooking. || false || Chloe says, "Really? I hate cooking!" || @ctx dialogue
+      short: When does Chloe go dancing? || kw: Friday/Fridays || Chloe says, "I go dancing every Friday." || @ctx dialogue
+      listen: I don't like swimming, but I love going hiking in the mountains. || What does the speaker love? || swimming | *going hiking | swimming and hiking || "I don't like swimming, but I love going hiking." || @tags en.likes
+      listen: @dialogue || What does Hamid do on Sundays? || He goes dancing. | *He plays soccer. | He watches soccer on TV. || Hamid says, "I play soccer on Sundays." || @tags en.listening
+      dict: My brother loves playing the guitar.
+      ask: Talk about your free time. Say two things you love or like doing and one thing you hate doing. || kw: love/like/enjoy & hate/don't like/do not like || In my free time I love reading and I like going hiking. But I hate cooking!
+      write: Write a profile for a hobby club website. Say what you love and hate doing, and how often you do your hobbies. || min=30 || req: love/like | hate/don't like | free time/every/on || Hi! I'm Rafael. In my free time I love playing the guitar and listening to music. I play every evening. I also like swimming, and I go on Saturdays. I don't like watching TV, and I hate shopping!
+
+  - title: Weather and seasons
+    summary: Describe the weather and the seasons, and say what is happening now with the present continuous.
+    minutes: 40
+    skills: [vocabulary, grammar, listening]
+    tags: [en.present-continuous]
+    objectives:
+      - Ask "What's the weather like?" and describe the weather
+      - Name the four seasons
+      - Use the present continuous for things happening now
+    intro: |
+      People in English-speaking countries talk about the weather all the time — it's the perfect small talk! In this lesson you will learn to describe the weather (*It's sunny. It's raining.*) and the seasons, and the **present continuous** for things happening now: *What are you doing? — I'm walking on the beach!*
+    vocab: |
+      weather | how it is outside — sunny, rainy, hot, cold… | n | What's the weather like today? | -
+      sunny | with a lot of sun and light | adj | It's sunny and warm. | -
+      cloudy | with a lot of clouds in the sky; gray | adj | It's cloudy, but it isn't raining. | -
+      windy | with a lot of strong air moving | adj | It's very windy at the beach today. | -
+      rain | water that falls from clouds; to fall as rain | v | It's raining. Take an umbrella! | - | n: It's raining = now. It rains a lot in April = often.
+      snow | soft white ice that falls from the sky when it's very cold | v | Look! It's snowing! | -
+      hot | very warm; with a high temperature | adj | It's very hot in July. | -
+      cold | with a low temperature; not warm | adj | It's cold today. Wear a sweater. | -
+      warm | a little hot, in a nice way | adj | It's a warm spring day. | -
+      season | one of the four parts of the year | n | My favorite season is spring. | -
+      spring | the season after winter, when flowers grow | n | The park is beautiful in spring. | -
+      summer | the hottest season of the year | n | We go to the beach in summer. | -
+      fall | the season after summer, when leaves fall from the trees | n | The trees are red and orange in the fall. | - | n: British English: autumn.
+      winter | the coldest season of the year | n | It snows a lot in winter. | -
+    grammar:
+      title: "Present continuous: It's raining. What are you doing?"
+      body: |
+        We use the **present continuous** for things that are happening **now**, at the moment of speaking.
+
+        Form: **be** (*am / is / are*) + verb + **-ing**: *It**'s raining**. I**'m reading**. They**'re playing** in the park.*
+
+        - Negative: *It **isn't** raining. I**'m not** working today.*
+        - Question: ***Is** it **snowing**? — Yes, it is. **What are** you **doing**? — I'm watching TV.*
+
+        Compare it with the present simple (Unit 3): *It **rains** a lot in April.* (often — a fact) / *Look! It**'s raining**!* (now). Words like **now**, **today**, **at the moment** and **Look!** often go with the present continuous.
+
+        For the weather, use **It's** + adjective: *It's sunny / cloudy / windy / hot / cold.* For rain and snow now, use the present continuous: *It's raining. It's snowing.* Ask: ***What's the weather like?***
+      table: |
+        Person | be | verb + -ing
+        I | am ('m) | reading a book.
+        he / she / it | is ('s) | raining. / sleeping.
+        you / we / they | are ('re) | playing soccer.
+      examples: |
+        Look! It's snowing! | | happening now
+        What are you doing? — I'm making dinner. | | question
+        It isn't raining now. Let's go out! | | negative
+        It's cold and windy today. | | It's + weather adjective
+      tip: "The present continuous is for now. For things that happen often, use the present simple: It snows every winter. — Look, it's snowing now!"
+    dialogue:
+      title: Summer in January
+      setting: It's January. Sienna is at home in Toronto, Canada. She calls her brother Mateo, who lives in Sydney, Australia.
+      speakers: S=Sienna/f; M=Mateo/m
+      lines: |
+        M: Hi, Sienna! What are you doing?
+        S: I'm sitting at home. It's snowing in Toronto!
+        M: Snowing? Here in Sydney it's summer.
+        S: Lucky you! What's the weather like?
+        M: It's sunny and very hot.
+        S: And what are you doing now?
+        M: I'm walking on the beach!
+        S: Oh no! I'm wearing two sweaters.
+        M: Ha! Is it very cold?
+        S: Yes, it's minus ten degrees.
+        M: Brr! I love summer in January!
+        S: And I love hot chocolate in January!
+    pronunciation:
+      title: "Short forms: it's raining, I'm reading"
+      body: |
+        In the present continuous, we almost always use short forms when we speak: *It's raining. I'm reading. We're walking.* The short form joins the person and **be** into one quick sound.
+
+        In questions, *What are you doing?* often sounds like "Whad-a-ya doing?" in fast American speech. Listen and repeat, slowly first.
+      items: |
+        It's raining.
+        It's snowing.
+        I'm reading.
+        We're walking.
+        They're playing.
+        What are you doing?
+    culture:
+      title: Small talk and degrees
+      body: |
+        Talking about the weather is the most common **small talk** in English, especially in the UK: *Lovely day, isn't it? It's so cold today!* It's a friendly way to start a conversation with a neighbor or a colleague.
+
+        The United States uses **Fahrenheit** (°F), not Celsius (°C). 32°F is 0°C (water freezes), and 70°F (about 21°C) is warm and nice. In the southern half of the world — Australia, New Zealand, South Africa — summer is in December, January and February!
+    mistakes: |
+      It raining now. => It's raining now. | The present continuous needs be: it is (it's) raining.
+      Look! It rains! => Look! It's raining! | For things happening now, use the present continuous.
+      It's sun today. => It's sunny today. | Use the adjective sunny. Sun is the noun.
+    task:
+      title: Weather report
+      mode: speaking
+      body: |
+        Look out of the window. Describe the weather and the season where you are. Then say what three people are doing right now — you, someone in your family and someone in the street (*My mom is cooking. A man is walking his dog.*). Record yourself in Speaking practice.
+    exercises: |
+      fill: Look outside! It ___ (snow). || is snowing / 's snowing || Happening now: is + -ing. || @tags en.present-continuous
+      fill: I ___ (read) a book at the moment. || am reading / 'm reading || I + am + -ing. || @tags en.present-continuous
+      fill: They ___ (not / play) soccer now — it's too windy. || aren't playing / are not playing / 're not playing || Negative: aren't + -ing. || @tags en.present-continuous
+      mc: It's 35°C and there are no clouds. The weather is… || cold and windy | *hot and sunny | cloudy and cool || 35°C is very hot, and no clouds = sunny. || @skill vocabulary @tags en.vocabulary
+      mc: Choose the correct sentence. || Look! The children play in the snow. | *Look! The children are playing in the snow. | Look! The children playing in the snow. || "Look!" = now, so use are + -ing. || @tags en.present-continuous,en.present-simple-vs-continuous
+      rw: Make a question :: It's raining in London. || Is it raining in London? || Put is before it: Is it raining…? || @tags en.present-continuous,en.questions
+      match: spring = flowers ; summer = the beach ; fall = orange leaves ; winter = snow || Match each season with something you see then. || @skill vocabulary @tags en.vocabulary
+      order: My parents are walking in the park. || @tags en.present-continuous
+      tf: It's summer in Toronto. || false || It's January. It's snowing in Toronto; it's summer in Sydney. || @ctx dialogue
+      short: What is Mateo doing? || kw: walking/beach || Mateo says, "I'm walking on the beach!" || @ctx dialogue
+      listen: Hi, it's Sam. It's cloudy and windy here, but it isn't raining. || What's the weather like? || sunny and hot | *cloudy and windy | rainy and cold || "It's cloudy and windy, but it isn't raining." || @tags en.listening
+      listen: @dialogue || What's the weather like in Sydney? || snowing and cold | *sunny and very hot | cloudy and warm || Mateo says, "It's sunny and very hot." || @tags en.listening
+      dict: It's cold and it's snowing today.
+      ask: A friend calls you. Say what the weather is like and what you are doing now. || kw: it's/it is & I'm/I am || Hi! It's sunny and warm here. I'm sitting in the yard and I'm reading a book.
+      write: Write a message to a friend in another country. Describe the weather and the season today, and say what you and your family are doing right now. || min=30 || req: it's/it is | I'm/I am/we're/we are | now/today/at the moment || Hi Lena! It's fall here in Boston, and today it's cold and windy. It isn't raining, but it's very cloudy. At the moment I'm sitting in the kitchen with a hot tea. My kids are playing in the living room, and my husband is cooking dinner.
+
+  - title: Making plans
+    summary: Suggest things to do with Let's…, How about…?, Why don't we…? and Do you want to…?, and say yes or no politely.
+    minutes: 40
+    skills: [speaking, listening, grammar]
+    tags: [en.suggestions]
+    objectives:
+      - Make suggestions with Let's…, Why don't we…?, How about…? and Do you want to…?
+      - Accept and refuse suggestions politely
+      - Agree on a day, a time and a place
+    intro: |
+      *Let's go to the beach! — Sorry, I can't. How about Sunday?* Making plans with friends is a big part of free time. In this lesson you will learn four ways to suggest something, how to say **yes** with enthusiasm and **no** politely, and how to agree on a time and a place.
+    vocab: |
+      Let's… | words to suggest doing something together | expr | Let's go to the park! | - | n: Let's = let us. Let's + verb.
+      Do you want to…? | a friendly question to invite someone | expr | Do you want to see a movie? | -
+      How about…? | words to suggest something | expr | How about Saturday? | - | n: How about + noun or -ing: How about pizza? How about going out?
+      Why don't we…? | another way to suggest something | expr | Why don't we have a picnic? | -
+      good idea | a good plan or suggestion | expr | That's a good idea! | - | n: Also: Great idea! Sounds good!
+      Sorry, I can't. | I am not able to come or do it | expr | Sorry, I can't. I'm busy on Friday. | - | n: Give a reason, or suggest another day.
+      free | not busy; with no plans | adj | Are you free on Saturday? | -
+      busy | with a lot of things to do | adj | I'm busy tonight. | -
+      maybe | possibly; not sure | adv | Maybe next week? | - | t: es=quizás; fr=peut-être; de=vielleicht; da=måske
+      tonight | this evening or night | adv | Do you want to go out tonight? | -
+      concert | a show where musicians play music | n | Let's go to a concert! | -
+      picnic | a meal that you eat outside, for example in a park | n | Why don't we have a picnic? | -
+      meet | to come together with someone at a place and time | v | Let's meet at the café at six. | -
+      the movies | a movie theater; going to see a movie | n | How about going to the movies? | - | n: British English: the cinema.
+    grammar:
+      title: Making suggestions
+      body: |
+        To suggest doing something together, you can say:
+
+        - **Let's** + verb: ***Let's** go to the park.* (Let's = let us)
+        - **Why don't we** + verb?: ***Why don't we** have a picnic?*
+        - **How about** + -ing or a noun?: ***How about** going to the movies? **How about** Saturday?*
+        - **Do you want to** + verb?: ***Do you want to** come to a concert?*
+
+        After *Let's* and *Why don't we*, use the verb **without to**: *Let's go* (not ~~Let's to go~~). After *How about*, use **-ing**: *How about going?*
+
+        To say **yes**: *That's a good idea! / Great! / Sure, why not?* To say **no** politely: *Sorry, I can't. I'm busy. / Maybe another day?*
+
+        To find a time, ask: *Are you free on Saturday? What time?* Then agree: *Let's meet at the café at two.*
+      table: |
+        Suggestion | Next word | Example
+        Let's… | verb | Let's go swimming.
+        Why don't we…? | verb | Why don't we meet at six?
+        How about…? | -ing or noun | How about having lunch? / How about pizza?
+        Do you want to…? | verb | Do you want to come?
+      examples: |
+        Let's meet at the café at seven. | | Let's + verb
+        How about going to the beach on Sunday? | | How about + -ing
+        Do you want to come to a concert tonight? — Sorry, I can't. I'm busy. | | saying no politely
+        Why don't we have a picnic? — Good idea! | | saying yes
+      tip: "When you say no, give a reason and a new idea: Sorry, I can't on Friday. How about Saturday?"
+    dialogue:
+      title: Saturday plans
+      setting: Obi calls his friend Ruth on Thursday evening. They want to do something together on the weekend in Cape Town.
+      speakers: O=Obi/m; R=Ruth/f
+      lines: |
+        O: Hi, Ruth! Are you free on Saturday?
+        R: Not in the morning. I work on Saturdays.
+        O: How about Saturday afternoon?
+        R: Yes, I'm free then. What do you want to do?
+        O: Let's go to the beach!
+        R: Hmm, I don't really like the beach.
+        O: OK. How about going to the movies?
+        R: Maybe. Why don't we have a picnic in the park?
+        O: Good idea! I love picnics.
+        R: Let's meet at the park café at two.
+        O: Perfect. Can I bring my sister, Tess?
+        R: Of course! See you on Saturday!
+    pronunciation:
+      title: Sounding friendly
+      body: |
+        When you make a suggestion, sound happy and interested. Your voice goes **up** at the end of a question: *How about Saturday? ↗ Are you free? ↗*
+
+        When you say yes, use a big, high voice: *Good idea! Great!* When you say no, sound soft and sorry: *Sorry, I can't.* The same words can sound rude or friendly — the music of your voice matters. Listen and repeat.
+      items: |
+        Let's go!
+        How about Saturday?
+        Good idea!
+        Sorry, I can't.
+        Are you free?
+        Why don't we meet at six?
+    culture:
+      title: Plans and "rain checks"
+      body: |
+        Friends in English-speaking countries often make plans by text message. A phrase like *Let's get coffee sometime!* is friendly, but it isn't always a real plan — if you want to meet, suggest a day and a time.
+
+        When you can't come, it's polite to say sorry and give a reason. Americans sometimes say *Can I take a rain check?* — it means "Not this time, but I want to do it another day."
+    mistakes: |
+      Let's to go to the park. => Let's go to the park. | After let's, use the verb without to.
+      How about go to the movies? => How about going to the movies? | After how about, use -ing.
+      Do you want come? => Do you want to come? | Want needs to before the next verb.
+    task:
+      title: Plan your Saturday
+      mode: interaction
+      body: |
+        Call a friend (a partner or the AI coach). Suggest two things to do on Saturday. Your friend says no to one of them, so suggest something else. Then agree on a time and a place to meet. Try the "Making weekend plans" scenario.
+    exercises: |
+      fill: Let's ___ to the beach on Sunday. || go || After let's, use the verb without to. || @tags en.suggestions
+      fill: How about ___ (have) a picnic? || having || After how about, use the -ing form: having. || @tags en.suggestions
+      fill: Do you want ___ come to the concert? || to || Want + to + verb: Do you want to come? || @tags en.suggestions
+      mc: Your friend says, "Let's go to the movies tonight." You are busy. You say: || No. | *Sorry, I can't. I'm busy. | Yes, I'm busy. || Say sorry and give a reason to refuse politely. || @tags en.suggestions
+      mc: Choose the correct sentence. || Let's to meet at six. | *Let's meet at six. | Let's meeting at six. || Let's + verb without to or -ing. || @tags en.suggestions
+      rw: Make a suggestion with How about :: play tennis on Sunday || How about playing tennis on Sunday? || How about + -ing: How about playing…? || @tags en.suggestions
+      match: Let's go swimming! = Good idea! I love swimming. ; Are you free on Friday? = No, sorry, I'm busy. ; How about seven o'clock? = Perfect, see you then. ; Do you want to come to my party? = Yes, I'd love to! || Each line on the left has one natural answer. || @tags en.suggestions
+      order: Why don't we have lunch together? || @tags en.suggestions
+      tf: Ruth works on Saturday morning. || true || Ruth says, "Not in the morning. I work on Saturdays." || @ctx dialogue
+      short: What do Ruth and Obi decide to do? || kw: picnic || Ruth suggests a picnic in the park, and Obi says, "Good idea!" || @ctx dialogue
+      listen: Sorry, I can't on Friday. How about Saturday evening? || When can the speaker meet? || Friday evening | *Saturday evening | Saturday morning || "Sorry, I can't on Friday. How about Saturday evening?" || @tags en.suggestions
+      listen: @dialogue || What time do Ruth and Obi meet? || *at 2:00 | at 12:00 | at 10:00 || Ruth says, "Let's meet at the park café at two." || @tags en.time
+      dict: Let's meet at the café at seven.
+      ask: Invite a friend to do something on the weekend. Suggest an activity, a day and a time. || kw: let's/how about/why don't we/do you want to & Saturday/Sunday/weekend & at || Do you want to go hiking on Saturday? Let's meet at the station at nine.
+      write: Write a message to two friends. Suggest a plan for Saturday — the activity, the place and the time. || min=25 || req: let's/how about/why don't we/do you want to | at | Saturday/Sunday/weekend || Hi Ana and Joe! Are you free on Saturday? Why don't we go to the farmers' market in the morning? Then let's have a picnic in the park. How about meeting at the bus stop at ten?
