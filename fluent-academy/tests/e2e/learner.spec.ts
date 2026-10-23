@@ -13,7 +13,9 @@ test("a learner opens a lesson, answers an exercise and gets server-checked feed
   await signUpAndOnboard(page);
   await page.goto("/learn/fr-a1-u01-l01");
   await expect(page.getByRole("heading", { name: /greetings and goodbyes/i }).first()).toBeVisible();
-  await page.getByRole("button", { name: /start practice/i }).first().click();
+  await page.getByRole("button", { name: /^practice \(\d+\)/i }).click();
+  const start = page.getByRole("button", { name: /start practice/i });
+  if (await start.isVisible().catch(() => false)) await start.click();
   // Answer whatever the first exercise is with a minimal response, then check it.
   const choice = page.getByRole("radio").first();
   if (await choice.isVisible().catch(() => false)) await choice.click();
@@ -29,7 +31,8 @@ test("a learner opens a lesson, answers an exercise and gets server-checked feed
 test("the AI coach runs in clearly labelled practice mode without an API key", async ({ page }) => {
   await signUpAndOnboard(page);
   await page.goto("/coach");
-  await page.getByRole("button", { name: /start conversation/i }).first().click();
+  await page.getByRole("radio", { name: /introducing yourself/i }).click();
+  await page.getByRole("button", { name: /start conversation/i }).click();
   await page.waitForURL(/\/coach\/.+/);
   await expect(page.getByText(/practice mode/i).first()).toBeVisible();
   await page.getByPlaceholder("Write your reply…").fill("Bonjour ! Je m'appelle Robin et je suis 30 ans.");

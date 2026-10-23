@@ -2,6 +2,8 @@ import { expect, type Page } from "@playwright/test";
 
 export const PASSWORD = "a long and unusual passphrase";
 
+const rnd = () => Math.floor(Math.random() * 250) + 1;
+
 export function uniqueEmail(tag: string) {
   return `e2e-${tag}-${Date.now()}-${Math.floor(Math.random() * 1e6)}@example.com`;
 }
@@ -9,6 +11,9 @@ export function uniqueEmail(tag: string) {
 /** Signs up through the UI and completes onboarding for French A1. */
 export async function signUpAndOnboard(page: Page, opts: { name?: string; email?: string } = {}) {
   const email = opts.email ?? uniqueEmail("learner");
+  // Each test acts as a different client so per-IP sign-up limits don't interfere (the dev server
+  // has no proxy, so it uses this header as the client address — see clientIp()).
+  await page.setExtraHTTPHeaders({ "x-forwarded-for": `10.${rnd()}.${rnd()}.${rnd()}` });
   await page.goto("/signup");
   await page.getByLabel("Your name").fill(opts.name ?? "Robin Test");
   await page.getByLabel("Email").fill(email);

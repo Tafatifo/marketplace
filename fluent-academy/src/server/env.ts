@@ -15,6 +15,8 @@ const schema = z.object({
   APP_SECRET: z.string().min(16).optional(),
   ADMIN_EMAILS: z.string().default(""),
   LOG_LEVEL: z.enum(["debug", "info", "warn", "error"]).default("info"),
+  // Reverse proxies in front of the app that append to X-Forwarded-For (0 = none, ignore the header).
+  TRUSTED_PROXY_HOPS: z.coerce.number().int().min(0).max(5).default(1),
 
   // Email (password recovery)
   SMTP_URL: z.string().optional(),

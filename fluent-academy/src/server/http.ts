@@ -129,8 +129,20 @@ export function errorResponse(err: unknown, requestId: string, req?: Request) {
   );
 }
 
+/**
+ * The client's IP for rate limiting. X-Forwarded-For is client-controlled except for the
+ * entries appended by our own proxies, so only the entry added by the outermost trusted
+ * proxy is used (TRUSTED_PROXY_HOPS, default 1). With 0 the header is ignored entirely —
+ * use that when the app is exposed directly without a reverse proxy.
+ */
 export function clientIp(req: Request): string {
+  const hops = env().TRUSTED_PROXY_HOPS;
+  if (hops === 0) return "direct";
   const fwd = req.headers.get("x-forwarded-for");
-  if (fwd) return fwd.split(",")[0]!.trim();
+  if (fwd) {
+    const chain = fwd.split(",").map((s) => s.trim()).filter(Boolean);
+    const ip = chain[Math.max(0, chain.length - hops)];
+    if (ip) return ip;
+  }
   return req.headers.get("x-real-ip") ?? "unknown";
 }

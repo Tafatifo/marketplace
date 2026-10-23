@@ -1,0 +1,363 @@
+unit: 1
+title: "¡Hola!"
+theme: Greetings and introductions
+description: Greet people in formal and informal situations, introduce yourself, and give your age, phone number and the spelling of your name.
+free: true
+objectives:
+  - Greet people and say goodbye with the right level of formality
+  - Introduce yourself with your name, nationality, city and languages
+  - Use numbers 0–20 to give your age and phone number, and spell your name
+canDo:
+  - I can greet someone and say goodbye politely at any time of day.
+  - I can choose between tú and usted.
+  - I can say my name, nationality and where I live.
+  - I can give my age and spell my name.
+review: |
+  mc: Your new neighbour, an older man, says "Buenos días". You answer: || ¡Hola! ¿Qué tal estás? | *Buenos días, señor. ¿Cómo está usted? | ¡Hasta luego! || With an older neighbour you call señor, use the formal greeting and usted. || @tags es.register
+  fill: Ellos ___ dieciocho años. || tienen || Ellos + tener = tienen. || @tags es.tener
+  fill: Nosotros ___ estudiantes en Granada. || somos || Nosotros + ser = somos. || @tags es.ser
+  fill: ¿Tú ___ en Madrid? (vivir) || vives || Tú + vivir = vives. || @tags es.present-regular
+  tr: I'm Italian and I live in Rome. (you are a woman) || Soy italiana y vivo en Roma. | Soy italiana, vivo en Roma. | Yo soy italiana y vivo en Roma. || Feminine nationality: italiana; vivir en + city. || @tags es.adjective-agreement,es.ser
+  tr: Nice to meet you! (a woman speaking) || ¡Encantada! | Mucho gusto. | Encantada de conocerte. || A woman says encantada; mucho gusto is the same for everyone. || @tags es.register
+  mc: Which answer fits "¿Eres francesa?" || Sí, tengo francesa. | *No, soy belga. | No, me llamo belga. || Nationality uses ser: soy belga (belga is the same for men and women). || @tags es.ser
+  listen: ¡Hola! Me llamo Rocío, tengo trece años y hablo español e inglés. || How old is Rocío? || 3 | *13 | 12 || "Tengo trece años" — I'm thirteen. || @tags es.numbers
+  listen: Adiós, señora Molina. ¡Buenas noches! || What is happening? || Someone arrives in the morning | *Someone leaves at night | Someone introduces a friend || Adiós + buenas noches is said when leaving after dark. || @tags es.register
+  ask: Introduce yourself to a new colleague — greet them formally, then give your name, nationality and city. || kw: buenos días/buenas tardes/hola & me llamo/soy & vivo/soy de || Buenos días. Me llamo Mark, soy escocés y vivo en Valencia. ¡Encantado!
+  write: Write an email to your new Spanish teacher introducing yourself (name, age, nationality, city, languages). || min=30 || req: hola/buenos días/buenas tardes | me llamo/soy | tengo | años | hablo || Hola, profesora. Me llamo Lucas y tengo diecinueve años. Soy canadiense y vivo en Toronto. Hablo inglés, francés y un poco de español. ¡Hasta pronto!
+lessons:
+  - title: Greetings and goodbyes
+    summary: Say hello, ask how someone is and say goodbye — choosing between informal tú and formal usted.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [es.register]
+    objectives:
+      - Choose between hola, buenos días, buenas tardes and buenas noches
+      - Ask how someone is and answer with tú or usted
+      - Say goodbye appropriately at different times of day
+    intro: |
+      Spanish speakers greet each other a lot: in the lift, in shops, at the bus stop. A friendly **hola** or **buenos días** opens almost every conversation, and the choice between informal **tú** and formal **usted** shows how close you are to someone. In this lesson you will learn the greetings people use every day in Spain and when to use each one.
+    vocab: |
+      hola | hello; hi | interj | ¡Hola, Marta! ¿Qué tal? | Hi, Marta! How are things? | n: Works with anyone, formal or informal. The h is silent.
+      buenos días | good morning | expr | Buenos días, señor García. | Good morning, Mr García. | n: Used until lunchtime — in Spain that's about 2 p.m.
+      buenas tardes | good afternoon; good evening | expr | Buenas tardes, señora Pons. | Good afternoon, Mrs Pons. | n: From lunchtime until it gets dark (around 8–9 p.m.).
+      buenas noches | good evening; good night | expr | Buenas noches y hasta mañana. | Good night and see you tomorrow. | n: After dark, both to greet someone and to say goodbye.
+      ¿qué tal? | how are things? | expr | Hola, Leo, ¿qué tal? | Hi, Leo, how are things? | n: Very common and fairly informal. Answer: bien, muy bien, regular.
+      ¿cómo estás? | how are you? (informal) | expr | Hola, Inés. ¿Cómo estás? | Hi, Inés. How are you? | n: Formal: ¿Cómo está usted?
+      ¿cómo está usted? | how are you? (formal) | expr | Buenos días, señora. ¿Cómo está usted? | Good morning, madam. How are you? | n: Usted uses the same verb form as él/ella: está.
+      bien | well; fine | adv | Estoy bien, gracias. | I'm fine, thanks. | c: muy bien; bastante bien | n: Regular means "so-so".
+      gracias | thank you | interj | Muchas gracias, señor. | Thank you very much, sir. | c: muchas gracias | n: The reply is de nada (you're welcome).
+      adiós | goodbye | interj | Adiós, ¡buen fin de semana! | Goodbye, have a good weekend! | n: Hasta luego is more common for everyday goodbyes.
+      hasta luego | see you later; bye | expr | Hasta luego, chicos. | Bye, guys. | n: In Spain it's the everyday goodbye, even if you won't see the person again that day.
+      hasta mañana | see you tomorrow | expr | Gracias por todo. ¡Hasta mañana! | Thanks for everything. See you tomorrow!
+      señor | sir; Mr | n | Buenos días, señor Ruiz. | Good morning, Mr Ruiz. | g: m | n: With a surname it means Mr: el señor Ruiz.
+      señora | madam; Mrs | n | Gracias, señora. | Thank you, madam. | g: f | n: Used for adult women in general, married or not.
+    grammar:
+      title: "Tú or usted?"
+      body: |
+        Spanish has two ways to say *you* to one person.
+
+        - **Tú** is informal. Use it with friends, family, children, classmates and people your own age. In Spain tú is very common — many colleagues and even shop staff use it.
+        - **Usted** is formal. Use it with older people you don't know, officials, and anyone you call *señor* or *señora*.
+        - **Usted** takes the same verb form as *él / ella*: *tú **estás***, *usted **está***.
+
+        For several people, Spain uses **vosotros** (informal) and **ustedes** (formal). In Latin America, **ustedes** is the only plural *you*, for friends and strangers alike.
+
+        Subject pronouns are often left out: *¿Cómo estás?* already means "How are you?". The greetings here use **estar** (*to be*, for how you feel) in fixed phrases — you will study estar fully in Unit 5.
+      table: |
+        Situation | Pronoun | Greeting | How are you?
+        A friend or classmate | tú | ¡Hola! | ¿Qué tal? / ¿Cómo estás?
+        An older stranger or an official | usted | Buenos días, señora. | ¿Cómo está usted?
+        Two or more friends (Spain) | vosotros | ¡Hola, chicos! | ¿Qué tal estáis?
+        Two or more people (formal; all of Latin America) | ustedes | Buenas tardes. | ¿Cómo están ustedes?
+      examples: |
+        ¡Hola, Pablo! ¿Cómo estás? | Hi, Pablo! How are you? | informal
+        Buenos días, señor Ortega. ¿Cómo está usted? | Good morning, Mr Ortega. How are you? | formal
+        Muy bien, ¿y tú? | Very well, and you? | informal: ¿y tú?
+        Bien, gracias. ¿Y usted? | Fine, thank you. And you? | formal: ¿y usted?
+      tip: "Return the question with ¿Y tú? (informal) or ¿Y usted? (formal). Unsure? Start with usted — the other person will say ¡Tutéame! (use tú with me) if they prefer."
+    dialogue:
+      title: En la oficina
+      setting: Monday morning at an office in Valencia. Lucía greets the company director, then her colleague Javi. In the evening, everyone goes home.
+      speakers: L=Lucía/f; H=Sr. Herrera/m; J=Javi/m
+      lines: |
+        L: Buenos días, señor Herrera. | Good morning, Mr Herrera.
+        H: Buenos días, Lucía. ¿Cómo está usted? | Good morning, Lucía. How are you?
+        L: Muy bien, gracias. ¿Y usted? | Very well, thank you. And you?
+        H: Bien, bien, gracias. | Fine, fine, thanks.
+        J: ¡Hola, Lucía! ¿Qué tal? | Hi, Lucía! How are things?
+        L: ¡Hola, Javi! Bien, ¿y tú? | Hi, Javi! Fine, and you?
+        J: Regular… Estoy muy cansado hoy. | So-so… I'm very tired today.
+        L: ¡Vaya! ¡Ánimo! | Oh dear! Cheer up!
+        H: Hasta mañana, Lucía. | See you tomorrow, Lucía.
+        L: Hasta mañana, señor Herrera. | See you tomorrow, Mr Herrera.
+        J: ¡Hasta luego, Lucía! | Bye, Lucía!
+    pronunciation:
+      title: The silent h and the five pure vowels
+      body: |
+        The letter **h** is always silent in Spanish: *hola* sounds like "ola", *hasta* like "asta".
+
+        Spanish has only five vowel sounds — **a, e, i, o, u** — and each one is short, clear and always the same. Don't let them glide as in English "go" or "day": the **o** in *adiós* and the **e** in *buenas* stay pure from start to finish. Listen and repeat each item, first slowly, then at normal speed.
+      items: |
+        hola
+        hasta luego
+        buenos días
+        buenas noches
+        adiós
+        muy bien
+    culture:
+      title: Dos besos and the Spanish day
+      body: |
+        In Spain, friends, family and people being introduced at a party often greet each other with **dos besos** — a light kiss on each cheek, starting with the right. Men who know each other well may hug; in professional settings a handshake is more usual.
+
+        The Spanish day runs late. *Buenos días* lasts until lunch (around 2 p.m.) and *buenas tardes* until it gets dark, so you will hear *buenas tardes* at 7 p.m. in summer. A quick *¡Hola, buenas!* works at any time of day.
+    mistakes: |
+      Buenos tardes. => Buenas tardes. | Tardes is feminine, so the adjective is buenas. Only días takes buenos.
+      Buenos días, señora. ¿Cómo estás? => Buenos días, señora. ¿Cómo está usted? | With señor or señora you normally use usted, and the verb is está.
+      ¡Buenas noches! (arriving at 5 p.m.) => ¡Buenas tardes! | Buenas noches is for after dark; in Spain the afternoon lasts until about 8–9 p.m.
+    task:
+      title: Three greetings
+      mode: speaking
+      body: |
+        You start a course at a language school in Salamanca. Greet the receptionist in the morning (formal), greet a classmate your age (informal), and at the end of the day say goodbye to your teacher. Record yourself in Speaking practice, or try the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      mc: You walk into a pharmacy at 11 a.m. What do you say? || ¡Buenas noches! | *Buenos días. | ¡Hasta luego! || Buenos días is the greeting until lunchtime (around 2 p.m. in Spain).
+      mc: Which question would you ask your friend's grandfather when you meet him? || ¿Cómo estás? | *¿Cómo está usted? | ¿Cómo estáis? || With an older person you don't know well, use usted. ¿Cómo estáis? is for several friends.
+      fill: Hola, Marcos. ¿Cómo ___? || estás || With tú, the form is estás: ¿Cómo estás? || @hint estar
+      fill: Buenos días, señora Díaz. ¿Cómo ___ usted? || está || Usted takes the él/ella form: está. || @hint estar
+      fill: Buenas ___, señor Gil. (it's 4 p.m.) || tardes || From lunchtime until dark, the greeting is buenas tardes.
+      mc: Your friend asks "¿Qué tal?". The most natural answer is: || ¿Cómo está usted? | *Bien, ¿y tú? | Hasta luego. || Answer the question, then return it with ¿y tú?
+      order: Muy bien, gracias. ¿Y usted? || Very well, thank you. And you?
+      tr: See you tomorrow, Mr López! || ¡Hasta mañana, señor López! | Hasta mañana, señor López. || "See you tomorrow" is hasta mañana; señor goes before the surname.
+      tr: Good afternoon, madam. How are you? || Buenas tardes, señora. ¿Cómo está usted? | Buenas tardes, señora. ¿Cómo está? | Buenas tardes, señora, ¿qué tal está? || Formal: señora + usted + está.
+      short: How does Javi feel today? || kw: cansado/tired/regular/so-so || Javi says "Regular… Estoy muy cansado hoy" — he's tired. || @ctx dialogue
+      listen: @dialogue || Who uses tú with each other in the dialogue? || Lucía and Mr Herrera | *Lucía and Javi | Mr Herrera and Javi || Lucía and Javi are colleagues of the same age; they say ¡Hola!, ¿Qué tal? and ¿y tú?.
+      listen: ¡Buenas noches! Hasta mañana. || When would you hear this? || In the morning, when someone arrives | *At night, when someone leaves | At lunchtime, when someone arrives || Buenas noches after dark, and hasta mañana means see you tomorrow.
+      dict: Buenos días, señora. ¿Cómo está usted?
+      ask: Greet your teacher formally in the morning and ask how she is. || kw: buenos días & está usted/está || Buenos días, señora. ¿Cómo está usted?
+      write: Write a short message (2–3 sentences) to a friend — say hi, ask how they are, and say see you tomorrow. || min=8 || req: hola | qué tal/cómo estás | hasta mañana || ¡Hola, Clara! ¿Qué tal? Yo estoy muy bien. ¡Hasta mañana!
+
+  - title: Introducing yourself
+    summary: Say your name, nationality, where you are from and where you live, using ser, llamarse, vivir and hablar.
+    minutes: 40
+    skills: [grammar, speaking, reading]
+    tags: [es.ser, es.reflexive, es.adjective-agreement]
+    objectives:
+      - Give your name with llamarse
+      - Say your nationality and where you are from with ser
+      - Say where you live and which languages you speak
+    intro: |
+      Introducing yourself is your first real conversation in Spanish. You need a way to give your name (**me llamo**), the verb **ser** for nationality and origin (**soy de…**), and two everyday verbs: **vivir** (*to live*) and **hablar** (*to speak*). With these four pieces you can already hold a short conversation.
+    vocab: |
+      me llamo | my name is | expr | Me llamo Andrea. | My name is Andrea. | n: From the verb llamarse (literally "to call oneself").
+      ¿cómo te llamas? | what's your name? (informal) | expr | Hola, ¿cómo te llamas? | Hi, what's your name? | n: Formal: ¿Cómo se llama usted?
+      encantado | nice to meet you (a man speaking) | adj | Encantado, Lucía. | Nice to meet you, Lucía. | n: A woman says encantada.
+      mucho gusto | pleased to meet you | expr | Mucho gusto, señora Vidal. | Nice to meet you, Mrs Vidal. | n: The same for men and women; very common in Latin America.
+      ser | to be | v | Soy estudiante de arquitectura. | I'm an architecture student. | n: For who you are, nationality, origin and job.
+      ser de | to be from | v | Soy de Bilbao. ¿Y tú, de dónde eres? | I'm from Bilbao. And you, where are you from? | c: ¿de dónde eres?; ¿de dónde es usted?
+      vivir en | to live in | v | Vivo en Granada, en el centro. | I live in Granada, in the centre. | n: vivo (I live), vives (you live), vive (he/she lives; you live, formal).
+      hablar | to speak | v | Hablo inglés y un poco de español. | I speak English and a little Spanish. | c: hablar un poco de; hablar muy bien
+      español | Spanish | adj | Es español, de Zaragoza. | He's Spanish, from Zaragoza. | n: Feminine: española. Nationalities and languages have no capital letter.
+      inglés | English | adj | Mi amiga Kate es inglesa. | My friend Kate is English. | n: Feminine: inglesa — the written accent disappears.
+      alemán | German | adj | Klaus es alemán, de Múnich. | Klaus is German, from Munich. | n: Feminine: alemana.
+      estadounidense | American (from the USA) | adj | Soy estadounidense, de Chicago. | I'm American, from Chicago. | n: Same form for men and women, like canadiense and belga.
+      estudiante | student | n | ¿Eres estudiante? | Are you a student? | g: m/f | n: Same form for both: el estudiante, la estudiante.
+      un poco | a little | adv | Hablo un poco de francés. | I speak a little French. | n: Before a noun, add de: un poco de francés.
+    grammar:
+      title: "Ser and llamarse"
+      body: |
+        **Ser** (*to be*) is irregular — learn it by heart. Use it to say who you are, your nationality, where you are from (**ser de**) and your job: *Soy irlandesa. Soy de Dublín.*
+
+        Spanish usually **drops the subject pronoun**, because the verb ending already shows the person: *Soy Ana* rather than *Yo soy Ana*. Add *yo, tú…* only for contrast: *Yo soy de Lima, ¿y tú?*
+
+        To give your name, use **llamarse**. The small pronoun (*me, te, se…*) goes **before** the verb: *me llamo, te llamas, se llama*.
+
+        Nationality adjectives agree with the person:
+        - **-o → -a**: *italiano → italiana*, *mexicano → mexicana*
+        - **consonant → add -a**: *español → española*, *inglés → inglesa*, *alemán → alemana* (the written accent goes)
+        - **-e, -a, -í** stay the same: *canadiense, belga, marroquí*
+
+        Nationalities and languages are written **without a capital letter**: *Soy francés. Hablo francés.*
+      table: |
+        Pronoun | ser | llamarse
+        yo | soy | me llamo
+        tú | eres | te llamas
+        él / ella / usted | es | se llama
+        nosotros / nosotras | somos | nos llamamos
+        vosotros / vosotras (Spain) | sois | os llamáis
+        ellos / ellas / ustedes | son | se llaman
+      examples: |
+        Soy Martina y soy italiana. | I'm Martina and I'm Italian.
+        ¿Eres inglés? | Are you English?
+        Ella se llama Amaia y es de San Sebastián. | Her name is Amaia and she's from San Sebastián.
+        ¿De dónde sois? | Where are you (all) from? | Spain; in Latin America: ¿De dónde son ustedes?
+      tip: "To ask a yes/no question, keep the same words and raise your voice at the end: ¿Eres estudiante? In writing, Spanish opens questions with ¿ and exclamations with ¡."
+    dialogue:
+      title: Intercambio de idiomas
+      setting: Carmen and Tom meet at a language-exchange evening in a bar in Madrid.
+      speakers: C=Carmen/f; T=Tom/m
+      lines: |
+        C: ¡Hola! Me llamo Carmen. ¿Cómo te llamas? | Hi! My name is Carmen. What's your name?
+        T: Hola, Carmen. Soy Tom. Encantado. | Hi, Carmen. I'm Tom. Nice to meet you.
+        C: Encantada, Tom. ¿De dónde eres? | Nice to meet you, Tom. Where are you from?
+        T: Soy irlandés, de Cork. ¿Y tú? | I'm Irish, from Cork. And you?
+        C: Soy de Córdoba, pero vivo aquí, en Madrid. | I'm from Córdoba, but I live here, in Madrid.
+        T: Yo también vivo en Madrid. | I live in Madrid too.
+        C: ¿Qué idiomas hablas? | What languages do you speak?
+        T: Hablo inglés, irlandés y un poco de español. | I speak English, Irish and a little Spanish.
+        C: ¡Pues hablas muy bien! | Well, you speak very well!
+        T: ¡Gracias! Eres muy amable. | Thanks! You're very kind.
+    pronunciation:
+      title: "Z, c and ñ: España, Zaragoza, Barcelona"
+      body: |
+        In most of Spain, **z** and **c before e or i** are pronounced [θ], like the *th* in English *think*: *Zaragoza* [θaɾaˈɣoθa], *Barcelona* [baɾθeˈlona], *gracias* [ˈɡɾaθjas]. In Latin America, the Canary Islands and parts of Andalusia they sound like [s] — both are correct.
+
+        The letter **ñ** is a separate letter, pronounced [ɲ], like the *ny* in *canyon*: *España*, *español*.
+      items: |
+        España
+        español
+        Zaragoza
+        Barcelona
+        Valencia
+        encantada
+    culture:
+      title: Two surnames and several languages
+      body: |
+        Most people in Spain have **two surnames**: the father's first surname followed by the mother's — *Carmen López Ruiz*. Women keep their own surnames when they marry. On forms you will often see *primer apellido* and *segundo apellido*.
+
+        **Español** (also called **castellano**) is the official language of the whole country. Catalan, Galician and Basque are also official in their own regions, so in Barcelona, Santiago de Compostela or Bilbao you will see signs in two languages.
+    mistakes: |
+      Yo llamo Tom. => Me llamo Tom. | Llamarse needs its pronoun: me llamo. Yo llamo means "I call (someone)".
+      Soy Inglés. => Soy inglés. | Nationalities and languages take no capital letter in Spanish.
+      Ella es español. => Ella es española. | Nationality adjectives agree with the person: español → española.
+      Soy de la Irlanda. => Soy de Irlanda. | Most country names take no article: de Irlanda, de España, de Francia.
+    task:
+      title: Your 30-second introduction
+      mode: speaking
+      body: |
+        Prepare a short introduction: your name, nationality, where you are from, where you live and the languages you speak. Practise it aloud three times, then try it in the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      fill: Yo ___ de Valencia. || soy || Origin uses ser de: yo soy de… || @tags es.ser
+      fill: ¿Tú ___ estudiante? || eres || Tú + ser = eres. || @tags es.ser
+      fill: Ella se ___ Sofía. || llama || Ella + llamarse = se llama. || @tags es.reflexive
+      fill: ¿De dónde ___ vosotros? || sois || Vosotros + ser = sois (Spain). In Latin America: ¿De dónde son ustedes? || @tags es.ser
+      mc: Choose the correct sentence. || Yo llamo Pedro. | *Me llamo Pedro. | Me llama Pedro. || Llamarse needs the pronoun me and the yo form llamo: me llamo Pedro. || @tags es.reflexive
+      mc: Where is Tom from? || Córdoba | *Cork | Madrid || "Soy irlandés, de Cork." He lives in Madrid; Carmen is from Córdoba. || @ctx dialogue @skill reading @tags es.reading
+      tf: Carmen lives in Córdoba. || false || She is from Córdoba, but she lives in Madrid. || @ctx dialogue
+      rw: Make it feminine :: Él es inglés y es estudiante. || Ella es inglesa y es estudiante. | Es inglesa y es estudiante. || Inglés → inglesa (the accent goes); estudiante doesn't change. || @tags es.adjective-agreement
+      order: Soy de Cádiz, pero vivo en Sevilla. || I'm from Cádiz, but I live in Seville. || @tags es.ser
+      tr: My name is Hannah and I'm German. (you are a woman) || Me llamo Hannah y soy alemana. | Soy Hannah y soy alemana. | Me llamo Hannah, soy alemana. || Use llamarse for names; alemán becomes alemana for a woman. || @tags es.reflexive,es.adjective-agreement
+      tr: Do you speak English? (informal) || ¿Hablas inglés? | ¿Tú hablas inglés? || Tú form of hablar: hablas. No capital letter for inglés. || @tags es.questions
+      listen: Me llamo Kenji, soy japonés y vivo en Málaga. || Where does Kenji live? || In Japan | *In Málaga | In Madrid || "Vivo en Málaga" — I live in Málaga. He is Japanese (japonés).
+      dict: Soy canadiense y vivo en Barcelona.
+      ask: Introduce yourself — say your name, your nationality and where you live. || kw: me llamo/soy & vivo || ¡Hola! Me llamo Emma, soy irlandesa y vivo en Dublín.
+      write: Write a short profile for a language-exchange website (name, nationality, city, languages). || min=20 || req: me llamo/soy | vivo en | hablo || ¡Hola! Me llamo Emma. Soy irlandesa, de Galway, y vivo en Dublín. Hablo inglés, irlandés y un poco de español.
+
+  - title: "Numbers, age and spelling"
+    summary: Count from 0 to 20, give your age with tener, read out a phone number and spell your name.
+    minutes: 35
+    skills: [vocabulary, listening, grammar]
+    tags: [es.tener, es.numbers]
+    objectives:
+      - Count from 0 to 20
+      - Give and ask someone's age with tener
+      - Understand a phone number and spell a name with the Spanish alphabet
+    intro: |
+      Numbers are everywhere: ages, prices, phone numbers, times. In this lesson you will learn 0–20, use the verb **tener** to give your age, and learn the names of the letters so you can spell your name at a reception desk — something you will do again and again in a Spanish-speaking country.
+    vocab: |
+      cero | zero | num | Mi número tiene dos ceros. | My number has two zeros.
+      uno, dos, tres | one, two, three | num | Uno, dos, tres… ¡ya! | One, two, three… go!
+      cuatro, cinco, seis | four, five, six | num | Tengo cinco primos. | I have five cousins.
+      siete, ocho, nueve | seven, eight, nine | num | Mi hija tiene ocho años. | My daughter is eight.
+      diez, once, doce | ten, eleven, twelve | num | Somos doce en clase. | There are twelve of us in class.
+      trece, catorce, quince | thirteen, fourteen, fifteen | num | Mi hermano tiene catorce años. | My brother is fourteen.
+      dieciséis, diecisiete, dieciocho | sixteen, seventeen, eighteen | num | Tiene diecisiete años. | She's seventeen. | n: Written as one word; dieciséis has an accent.
+      diecinueve, veinte | nineteen, twenty | num | Tengo veinte euros. | I have twenty euros.
+      tener | to have | v | Tengo diecinueve años. | I'm nineteen. | n: Spanish uses tener — not ser — for age.
+      ¿cuántos años tienes? | how old are you? | expr | Perdona, ¿cuántos años tienes? | Sorry, how old are you? | n: Formal: ¿Cuántos años tiene usted?
+      el número de teléfono | phone number | n | ¿Cuál es tu número de teléfono? | What's your phone number? | g: m | n: Your mobile is el móvil in Spain, el celular in Latin America.
+      ¿cómo se escribe? | how do you spell it? | expr | ¿Cómo se escribe tu apellido? | How do you spell your surname? | n: Literally "how is it written?"
+      el apellido | surname | n | Mi apellido es Romero. | My surname is Romero. | g: m | n: Your first name is el nombre.
+      por favor | please | expr | Su nombre, por favor. | Your name, please. | n: The same for tú and usted.
+    grammar:
+      title: Tener and talking about age
+      body: |
+        **Tener** (*to have*) is the second essential irregular verb. Notice that the **e** changes to **ie** in *tienes, tiene, tienen* — you will meet this pattern again in Unit 4.
+
+        Spanish uses **tener** — not *ser* — to give someone's age, and you add **años** (*years*): *Tengo diecinueve años* (literally "I have nineteen years").
+
+        To ask: *¿Cuántos años tienes?* (informal) or *¿Cuántos años tiene usted?* (formal). The short answer is just the number: *—¿Cuántos años tienes? —Veinte.*
+
+        **Uno** becomes **un** in front of a masculine noun: *un año, un hermano*.
+      table: |
+        Pronoun | tener | Example
+        yo | tengo | Tengo veinte años.
+        tú | tienes | ¿Cuántos años tienes?
+        él / ella / usted | tiene | Mi hijo tiene un año.
+        nosotros / nosotras | tenemos | Tenemos dos gatos.
+        vosotros / vosotras (Spain) | tenéis | ¿Tenéis clase hoy?
+        ellos / ellas / ustedes | tienen | Tienen dieciocho años.
+      examples: |
+        Tengo quince años. | I'm fifteen.
+        Mi hijo tiene un año. | My son is one (year old).
+        ¿Cuántos años tiene usted, señor? | How old are you, sir?
+      tip: "Tengo hambre (I'm hungry) and tengo frío (I'm cold) also use tener — Spanish 'has' many things English 'is'."
+    dialogue:
+      title: En la biblioteca
+      setting: Nadia gets a library card at the public library in Salamanca. The librarian, Raúl, fills in the form.
+      speakers: R=Raúl/m; N=Nadia/f
+      lines: |
+        R: Buenas tardes. Su nombre, por favor. | Good afternoon. Your name, please.
+        N: Me llamo Nadia Benali. | My name is Nadia Benali.
+        R: ¿Cómo se escribe su apellido? | How do you spell your surname?
+        N: Be, e, ene, a, ele, i. | B, E, N, A, L, I.
+        R: Gracias. ¿Y cuántos años tiene? | Thank you. And how old are you?
+        N: Tengo diecinueve años. | I'm nineteen.
+        R: ¿Y su número de teléfono? | And your phone number?
+        N: Seis, cero, cuatro, uno, siete, dos, ocho, cero, nueve. | 6-0-4-1-7-2-8-0-9.
+        R: Perfecto. Aquí tiene su carné. | Perfect. Here's your card.
+        N: Muchas gracias. ¡Hasta luego! | Thank you very much. Bye!
+    pronunciation:
+      title: Spelling in Spanish
+      body: |
+        Most letters have short names: *a, be, ce, de, e, efe, ge…* A few are worth learning well because English speakers confuse them: **h** = *hache* (the letter is silent in words), **j** = *jota* [ˈxota], a strong sound from the back of the throat, **ñ** = *eñe*, **v** = *uve* (in Latin America *ve* or *ve corta*), **y** = *i griega* or *ye*, **z** = *zeta*.
+
+        **B** and **v** sound exactly the same in Spanish, so people spell names aloud: *be de Barcelona, uve de Valencia*.
+      items: |
+        hache
+        jota
+        eñe
+        uve
+        dieciséis
+        veinte
+    culture:
+      title: Phone numbers and ID numbers
+      body: |
+        Spanish phone numbers have **nine digits**. Mobile numbers start with 6 or 7, and landlines start with 9 (for example 91 for Madrid). People read them digit by digit or in groups of two or three.
+
+        At a library, gym or doctor's you will often be asked for your **DNI** (the Spanish national ID number) or, if you are a foreign resident, your **NIE**. Have it ready — and be ready to spell your surname!
+    mistakes: |
+      Soy veinte años. => Tengo veinte años. | Age uses tener in Spanish.
+      Tengo diez y seis años. => Tengo dieciséis años. | 16–19 are written as one word: dieciséis, diecisiete, dieciocho, diecinueve.
+      ¿Cuántos años eres? => ¿Cuántos años tienes? | The question about age uses tener too.
+      Mi hijo tiene uno año. => Mi hijo tiene un año. | Uno becomes un before a masculine noun.
+    task:
+      title: Get a library card
+      mode: interaction
+      body: |
+        You are getting a library card in Spain. Give your name, spell your surname letter by letter, give your age and read out a nine-digit phone number, exactly as Nadia does in the dialogue.
+    exercises: |
+      fill: ¿Cuántos años ___ (tú)? || tienes || Tú + tener = tienes. || @tags es.tener
+      fill: Mi hermano ___ doce años. || tiene || Él (mi hermano) + tener = tiene. || @tags es.tener
+      fill: Nosotros ___ dos hijos. || tenemos || Nosotros + tener = tenemos. || @tags es.tener
+      mc: How do you say "I'm eighteen"? || Soy dieciocho. | *Tengo dieciocho años. | Estoy dieciocho años. || Tener + number + años. || @tags es.tener
+      mc: Which number is "quince"? || 5 | *15 | 50 || Quince = 15; cinco = 5. || @tags es.numbers @skill vocabulary
+      mc: Seis + siete = ? || doce | *trece | catorce || 6 + 7 = 13, trece. || @tags es.numbers @skill vocabulary
+      match: once = 11 ; doce = 12 ; trece = 13 ; dieciséis = 16 ; veinte = 20 || Once 11 · doce 12 · trece 13 · dieciséis 16 · veinte 20. || @tags es.numbers
+      listen: diecisiete || Which number do you hear? || 16 | *17 | 7 || Diecisiete = diez y siete = 17. || @tags es.numbers
+      listen: Mi número es el seis, uno, cinco, cero, ocho, dos, nueve, tres, cuatro. || What is the phone number? || *615 082 934 | 615 802 934 | 651 082 934 || The digits are read one by one: seis, uno, cinco – cero, ocho, dos – nueve, tres, cuatro. || @tags es.numbers
+      short: How old is Nadia? || kw: 19/diecinueve/nineteen || Nadia says "Tengo diecinueve años." || @ctx dialogue
+      tr: How old are you? (formal) || ¿Cuántos años tiene usted? | ¿Cuántos años tiene? | ¿Usted cuántos años tiene? || Formal: tiene (usted); the question word is cuántos años. || @tags es.tener,es.question-words
+      tr: My sister is eleven. || Mi hermana tiene once años. || Use tener + años: tiene once años. || @tags es.tener
+      rw: Write the number in words :: 16 || dieciséis || One word with an accent: dieciséis. || @tags es.numbers,es.spelling
+      dict: Tengo diecinueve años y vivo en Salamanca.
+      ask: Say how old you are and spell your first name letter by letter. || kw: tengo & años || Tengo veinte años. Me llamo Ben: be, e, ene.
