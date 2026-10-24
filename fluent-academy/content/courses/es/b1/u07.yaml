@@ -1,0 +1,354 @@
+unit: 7
+title: Cultura y ocio
+theme: Culture and entertainment
+description: Review a film or series, talk about books and music, and recommend and retell a story — with lo que, lo + adjective and all the past tenses working together.
+objectives:
+  - Give a structured opinion of a film or series with lo que
+  - Weigh up the good and bad points of books and music with lo + adjective
+  - Retell a plot combining the indefinido, imperfecto and pluscuamperfecto
+canDo:
+  - I can write a short review of a film or series.
+  - I can say what I liked most and least about a book or an album.
+  - I can recommend something and retell its plot without giving away the ending.
+  - I can understand a friend's account of a story and react to it.
+review: |
+  fill: ___ que más me sorprendió del documental fue la música. || Lo || When there is no noun, use lo que: lo que más me sorprendió… || @tags es.relative-pronouns
+  fill: Esta es la novela ___ te presté el verano pasado. || que || After a noun (la novela), the relative pronoun is que. || @tags es.relative-pronouns
+  mc: Choose the correct sentence. || Lo que más me gustó fue los actores. | *Lo que más me gustó fueron los actores. | Que más me gustó fueron los actores. || Ser agrees with the plural noun that follows: fueron los actores. || @tags es.relative-pronouns
+  fill: Lo ___ de esta serie es que los capítulos son muy cortos. (good) || bueno || Lo + masculine singular adjective = the good thing / part. || @tags es.vocabulary
+  mc: «Lo peor del viaje fue el vuelo» means… || The worst flight was on the trip. | *The worst thing about the trip was the flight. | The trip was worse than the flight. || Lo peor de… = the worst thing about… || @tags es.comparatives
+  fill: Cuando llegamos al cine, la película ya ___ (empezar) y no nos dejaron entrar. || había empezado || The earlier past action takes the pluperfect. || @tags es.pluperfect
+  fill: Mientras el protagonista ___ (dormir), alguien entró en su casa. || dormía || An action in progress in the past: imperfect. || @tags es.preterite-vs-imperfect
+  tr: What I liked most was the soundtrack. || Lo que más me gustó fue la banda sonora. | Lo que más me ha gustado ha sido la banda sonora. || Lo que más me gustó + ser + the thing. || @tags es.relative-pronouns
+  listen: Lo que más me gusta de este grupo son las letras, pero lo malo es que casi nunca dan conciertos en España. || What is the problem with the band? || Their lyrics are weak. | *They hardly ever play concerts in Spain. | Their tickets are expensive. || «Lo malo es que casi nunca dan conciertos en España.» || @tags es.listening
+  listen: La serie va de un cocinero que había perdido su restaurante y, a partir de ese momento, empieza a cocinar en la calle. || What had happened to the cook? || *He had lost his restaurant. | He had opened a new restaurant. | He had lost his job on a TV show. || «Un cocinero que había perdido su restaurante.» || @tags es.listening,es.pluperfect
+  ask: Recommend a film or series to a friend: what it is about, what you liked most and one weak point. || kw: va de/trata de & lo que/lo mejor/lo bueno & lo malo/lo peor/lo que no || Te recomiendo «La última ola». Va de una guardia civil que vuelve a su pueblo. Lo que más me gustó fue la ambientación; lo malo es que el cuarto capítulo se hace un poco largo.
+  write: Write a review (70–90 words) of a book you have read: what it is about, what you liked most, what you didn't like, and who you would recommend it to. || min=60 || req: lo que/lo mejor/lo bueno | lo malo/lo peor/lo que no | recomiendo/recomendaría/merece la pena || «La sombra del agua» es una novela que trata de dos hermanas que no se habían visto en treinta años. Lo que más me gustó fue la manera en que la autora describe sus recuerdos de infancia. Lo malo es que la segunda parte es un poco lenta y hay demasiados personajes. Aun así, merece la pena. Se la recomendaría a cualquier persona que tenga hermanos.
+lessons:
+  - title: Reviewing a film or series
+    summary: Read and write a review of a series, using lo que to highlight what you liked and what didn't convince you.
+    minutes: 45
+    skills: [reading, writing, grammar]
+    tags: [es.relative-pronouns]
+    objectives:
+      - Understand and write a structured review of a film or series
+      - Use lo que to mean "what / the thing that"
+      - Distinguish que, lo que and qué
+    intro: |
+      Whether you are chatting about last night's episode or writing a review online, you need to say **what** you liked and **what** didn't work. Spanish uses **lo que** for this: *Lo que más me gustó fue la ambientación. Lo que no me convenció fue el ritmo.* In this lesson you will read a review of a (fictional) Spanish series and write your own.
+    vocab: |
+      el capítulo | episode | n | Ayer vi tres capítulos seguidos. | Yesterday I watched three episodes in a row. | g: m | n: Also el episodio.
+      la temporada | season (of a series) | n | Ya han anunciado la segunda temporada. | They've already announced the second season. | g: f
+      estrenarse | to premiere; to be released | v | La película se estrena el viernes en los cines. | The film opens in cinemas on Friday. | n: El estreno = the premiere.
+      estar ambientado en | to be set in | expr | La serie está ambientada en un pueblo de Cantabria. | The series is set in a village in Cantabria.
+      el reparto | cast | n | El reparto es casi todo de actores desconocidos. | The cast is almost entirely unknown actors. | g: m
+      el / la protagonista | main character; lead | n | La protagonista es una guardia civil. | The main character is a Guardia Civil officer. | g: m/f
+      el personaje | character | n | Mi personaje favorito es el abuelo. | My favourite character is the grandfather. | g: m | n: Always masculine, even for women.
+      la banda sonora | soundtrack | n | La banda sonora es preciosa. | The soundtrack is beautiful. | g: f
+      el guion | script | n | El guion tiene algunos diálogos muy buenos. | The script has some very good dialogue. | g: m | n: Written without an accent since 2010.
+      el final | ending | n | El final me dejó con la boca abierta. | The ending left me open-mouthed. | g: m | c: un final abierto; un final feliz
+      hacerse largo | to drag; to feel long | expr | La película dura tres horas, pero no se hace larga. | The film lasts three hours, but it doesn't drag.
+      recomendable | worth seeing; recommended | adj | Es una serie muy recomendable para toda la familia. | It's a series well worth watching for the whole family.
+    grammar:
+      title: "Lo que: what / the thing that"
+      body: |
+        Use **lo que** when there is **no noun** for the relative clause to refer to. It means "what" or "the thing that": ***Lo que** más me gustó fue la ambientación.* *Me encanta **lo que** hace esta directora.* ***Todo lo que** dice es verdad* (everything she says).
+
+        Compare the three forms:
+        - **que** after a noun: *la serie **que** vimos ayer*
+        - **lo que** with no noun: ***lo que** vimos ayer me encantó*
+        - **qué** (with an accent) in questions: *¿**Qué** visteis ayer?*
+
+        In sentences like *Lo que más me gustó fue…*, the verb **ser** agrees with the noun that follows: *Lo que más me gustó **fue** el final* / *Lo que más me gustó **fueron** los actores.*
+
+        A very common phrase in conversation: ***Lo que pasa es que…*** (The thing is…): *Me gusta la serie; lo que pasa es que no tengo tiempo para verla.*
+      table: |
+        Form | When | Example
+        que | after a noun | Es la serie que te recomendé.
+        lo que | no noun: "what, the thing that" | Lo que no entiendo es el final.
+        todo lo que | "everything (that)" | Me creo todo lo que dice.
+        qué | questions, direct or indirect | ¿Qué te pareció? / No sé qué pasó.
+      examples: |
+        Lo que más me gustó fue la fotografía. | What I liked most was the photography. | ser in the singular
+        Lo que no me convenció fueron los diálogos. | What didn't convince me was the dialogue. | ser in the plural
+        No me creo todo lo que dicen las críticas. | I don't believe everything the reviews say. | todo lo que
+        Me gustó; lo que pasa es que el final es un poco triste. | I liked it; the thing is, the ending is a bit sad. | lo que pasa es que
+      tip: "If you can say 'the thing that' in English, Spanish needs lo que — never que on its own at the start of a sentence."
+    reading:
+      title: "«La última ola»: un thriller con sabor a mar"
+      text: |
+        ★★★★☆
+
+        «La última ola» es una serie española de seis capítulos que se estrenó el mes pasado en una plataforma digital. Está ambientada en un pequeño pueblo pesquero de Cantabria, donde la desaparición de un joven pescador cambia la vida de todos los vecinos.
+
+        Lo que más me gustó fue la ambientación. Los paisajes del Cantábrico, con sus acantilados y su niebla, son casi un personaje más. La fotografía es preciosa y la banda sonora, muy discreta, crea una tensión constante.
+
+        El reparto también está a la altura. La protagonista, una guardia civil que vuelve a su pueblo después de veinte años, está interpretada de forma magistral: con muy pocas palabras, transmite todo lo que siente. Los secundarios, sobre todo los vecinos mayores, son muy creíbles.
+
+        Sin embargo, no todo es perfecto. Lo que no me convenció fue el ritmo de los capítulos centrales: el cuarto, en concreto, se hace un poco largo. Y el final, aunque sorprendente, deja demasiadas preguntas sin respuesta. Lo que no sé es si habrá una segunda temporada para resolverlas.
+
+        En resumen, «La última ola» es una serie muy recomendable para los amantes del suspense y de las historias con atmósfera. Eso sí: no la empecéis un domingo por la noche, porque no podréis parar.
+      translation: |
+        ★★★★☆
+
+        "The Last Wave" is a six-episode Spanish series that was released last month on a streaming platform. It is set in a small fishing village in Cantabria, where the disappearance of a young fisherman changes the lives of all the residents.
+
+        What I liked most was the setting. The landscapes of the Cantabrian coast, with their cliffs and their fog, are almost one more character. The photography is beautiful and the soundtrack, very understated, creates constant tension.
+
+        The cast is also up to the job. The main character, a Guardia Civil officer who returns to her village after twenty years, is played masterfully: with very few words, she conveys everything she feels. The supporting actors, especially the older villagers, are very believable.
+
+        However, not everything is perfect. What didn't convince me was the pace of the middle episodes: the fourth, in particular, drags a little. And the ending, although surprising, leaves too many questions unanswered. What I don't know is whether there will be a second season to resolve them.
+
+        In short, "The Last Wave" is a highly recommended series for lovers of suspense and atmospheric stories. One thing, though: don't start it on a Sunday night, because you won't be able to stop.
+    pronunciation:
+      title: "Words in -ción: ambientación, emoción, emociones"
+      body: |
+        Words ending in **-ción** and **-sión** are stressed on the last syllable and carry a written accent: *am-bien-ta-**ción***, *te-le-vi-**sión***. In the plural they gain a syllable, the stress stays on the same vowel, and the accent disappears: *e-mo-**ción** → e-mo-**cio**-nes*. Remember that **c** before i is [θ] in most of Spain and [s] in Latin America and parts of Andalusia.
+      items: |
+        la ambientación
+        la interpretación
+        la emoción
+        las emociones
+        la televisión
+        la dirección
+    culture:
+      title: The Goyas and dubbed films
+      body: |
+        Spain's national film awards are the **Premios Goya**, held every year since 1987 and named after the painter Francisco de Goya. The winners receive a bronze bust of the painter.
+
+        Spain has a strong tradition of **dubbing** (*doblaje*): most foreign films and series on TV and in many cinemas are dubbed into Spanish, and some voice actors are famous in their own right. In big cities you can also find screenings in **VOSE** (original version with Spanish subtitles), which are popular with language learners.
+    mistakes: |
+      Que más me gustó fue la música. => Lo que más me gustó fue la música. | When there is no noun, use lo que.
+      La serie lo que vi ayer es muy buena. => La serie que vi ayer es muy buena. | After a noun, use que.
+      Lo que más me gustó fue los actores. => Lo que más me gustó fueron los actores. | Ser agrees with the plural noun that follows.
+    task:
+      title: Your review
+      mode: writing
+      body: |
+        Write a review (100–130 words) of a film or series you have seen recently. Include: what it is and where it is set, *lo que más me gustó*, *lo que no me convenció*, a comment on the cast or the soundtrack, a star rating and a recommendation. Then defend your opinion in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      mc: Where is the series set? || In Madrid | *In a fishing village in Cantabria | On an island in the Mediterranean || «Está ambientada en un pequeño pueblo pesquero de Cantabria.» || @ctx reading @tags es.reading
+      tf: The reviewer liked the pace of every episode. || false || «Lo que no me convenció fue el ritmo de los capítulos centrales.» || @ctx reading @tags es.reading
+      short: How many episodes does the series have? || kw: seis/6/six || «Una serie española de seis capítulos.» || @ctx reading @tags es.reading
+      mc: What doesn't the reviewer know? || *Whether there will be a second season | Who plays the main character | Where the series was filmed || «Lo que no sé es si habrá una segunda temporada.» || @ctx reading @tags es.reading
+      fill: ___ que no entiendo es por qué cancelaron la serie. || Lo || No noun: lo que = the thing that. || @tags es.relative-pronouns
+      fill: Esta es la serie ___ te recomendé el mes pasado. || que || After a noun (la serie), use que. || @tags es.relative-pronouns
+      fill: Me encanta todo ___ hace esta directora. || lo que || Todo lo que = everything (that). || @tags es.relative-pronouns
+      mc: Choose the correct sentence. || Lo que más me gustó fue los efectos especiales. | *Lo que más me gustaron fueron los efectos especiales. | *Lo que más me gustó fueron los efectos especiales. || placeholder
+      mc: «La película está ambientada en los años veinte» means… || *The film is set in the 1920s. | The film was made in the 1920s. | The film lasts twenty minutes. || Estar ambientado en = to be set in (a time or place). || @skill vocabulary @tags es.vocabulary
+      rw: Rewrite the sentence, starting with "Lo que más me gustó…" :: Me gustó mucho la banda sonora. || Lo que más me gustó fue la banda sonora. || Lo que más me gustó + fue + the thing. || @tags es.relative-pronouns
+      tr: What I don't understand is the ending. || Lo que no entiendo es el final. || Lo que + clause + es + the thing. || @tags es.relative-pronouns
+      listen: Lo que más me gustó de la serie fue el humor. Lo que menos, que algunos capítulos son demasiado largos. || What did the speaker like least? || The humour | *That some episodes are too long | The actors || «Lo que menos, que algunos capítulos son demasiado largos.» || @tags es.listening,es.relative-pronouns
+      dict: Lo que no me convenció fue el ritmo de los capítulos centrales.
+      ask: A friend asks «¿Qué tal la última peli que viste?». Answer using lo que twice. || kw: lo que & gustó/convenció/encantó/sorprendió/entendí || Me encantó. Lo que más me gustó fueron los actores, que son muy naturales. Lo que no entendí muy bien fue el final, pero quiero verla otra vez.
+
+  - title: Books and music
+    summary: Talk about books and music at a reading club, weighing up the good and bad points with lo bueno, lo malo, lo mejor and lo peor.
+    minutes: 45
+    skills: [speaking, listening, vocabulary]
+    tags: [es.relative-pronouns, es.comparatives]
+    objectives:
+      - Talk about books, genres and music you like
+      - Use lo + adjective (lo bueno, lo malo, lo mejor, lo más interesante)
+      - Say what kind of reader or listener you are with ser más de
+    intro: |
+      At a reading club or chatting about a new album, you rarely say simply "I liked it". You weigh things up: *Lo bueno es que…, lo malo es que…, lo mejor son los personajes.* **Lo + adjective** turns an adjective into an idea — "the good thing", "the worst part" — and it is one of the most useful structures for giving a balanced opinion.
+    vocab: |
+      la novela | novel | n | Estoy leyendo una novela de misterio. | I'm reading a mystery novel. | g: f | c: la novela negra (crime fiction); la novela histórica
+      el cuento | short story; tale | n | Mi abuelo me contaba cuentos antes de dormir. | My grandfather used to tell me stories before bed. | g: m
+      el autor / la autora | author | n | La autora presenta su libro en la feria. | The author is presenting her book at the fair. | g: m/f
+      el narrador / la narradora | narrator | n | El narrador es un niño de diez años. | The narrator is a ten-year-old boy. | g: m/f
+      el club de lectura | reading club; book club | n | Me he apuntado a un club de lectura en la biblioteca. | I've joined a book club at the library. | g: m
+      el género | genre; gender | n | La ciencia ficción es mi género favorito. | Science fiction is my favourite genre. | g: m
+      la letra | lyrics; letter (of the alphabet) | n | Me sé de memoria la letra de esta canción. | I know the lyrics of this song by heart. | g: f
+      el disco | album; record | n | Su último disco tiene diez canciones. | Their latest album has ten songs. | g: m | n: Also el álbum.
+      el cantautor / la cantautora | singer-songwriter | n | Me encantan los cantautores de los años setenta. | I love the singer-songwriters of the seventies. | g: m/f
+      ser más de | to prefer; to be more into | expr | Yo soy más de novela negra que de poesía. | I'm more into crime fiction than poetry. | n: Colloquial: ¿Eres más de playa o de montaña?
+      el éxito | hit; success | n | Esa canción fue un éxito en todo el mundo. | That song was a hit all over the world. | g: m | n: False friend: the exit is la salida.
+      estar basado en | to be based on | expr | La película está basada en una novela de los años sesenta. | The film is based on a novel from the sixties.
+    grammar:
+      title: "Lo + adjective: lo mejor, lo malo"
+      body: |
+        **Lo** + a masculine singular adjective turns the adjective into an abstract idea: **lo bueno** (the good thing / part), **lo malo** (the bad thing), **lo mejor** (the best thing), **lo peor** (the worst thing), **lo importante**, **lo difícil**, **lo más interesante**. *Lo* never changes, even if you are talking about something feminine or plural.
+
+        It is usually followed by:
+        - **ser + noun**: *Lo mejor del libro **son** los personajes.* (ser agrees with the noun)
+        - **es que + clause**: *Lo malo **es que** tiene demasiadas descripciones.*
+        - **de + noun / infinitive** to say "about": *Lo bueno **de** leer en papel es que no te cansa la vista.*
+
+        Don't confuse *lo bueno* (the good thing) with *el bueno* (the good one, referring to a masculine noun): *De los dos discos, el bueno es el primero.* Combine it with *lo que* from the previous lesson: *Lo que más me gusta es la letra; lo peor, la producción.*
+      table: |
+        Structure | Example
+        lo + adj + es que… | Lo malo es que es muy largo.
+        lo + adj + de + noun + ser… | Lo mejor del disco son las letras.
+        lo + más + adj | Lo más sorprendente es el final.
+        lo + adj + de + infinitive | Lo bueno de escuchar vinilos es el sonido.
+      examples: |
+        Lo mejor de la novela son los diálogos. | The best thing about the novel is the dialogue. | ser agrees: son
+        Lo malo es que el final es un poco previsible. | The bad thing is that the ending is a bit predictable. | es que + clause
+        Lo más interesante es que el narrador era un reloj. | The most interesting thing is that the narrator was a clock. | lo más + adjective
+        Lo importante no es leer mucho, sino disfrutar. | The important thing isn't reading a lot, but enjoying it. | lo importante
+      tip: "Balance your opinions in pairs: Lo bueno es que…, lo malo es que… It instantly sounds more mature and B1-level."
+    dialogue:
+      title: El club de lectura
+      setting: The monthly reading club at the public library in Cáceres. Pura, the librarian, leads the discussion of a novel called El verano de los relojes with Guillermo and Wen.
+      speakers: P=Pura/f; G=Guillermo/m; W=Wen/f
+      lines: |
+        P: Bueno, ¿qué os ha parecido «El verano de los relojes»? Guillermo, empieza tú. | Well, what did you think of The Summer of the Clocks? Guillermo, you start.
+        G: A mí me ha encantado. Lo mejor son los personajes, sobre todo la abuela. | I loved it. The best thing is the characters, especially the grandmother.
+        W: Pues a mí me ha costado mucho terminarlo. Lo malo es que tiene demasiadas descripciones. | Well, I found it really hard to finish. The bad thing is that it has too many descriptions.
+        P: Es verdad que el principio es lento. Pero ¿qué os pareció el final? | It's true that the beginning is slow. But what did you think of the ending?
+        G: Lo más sorprendente es que el narrador era el reloj de la abuela. ¡No me lo esperaba! | The most surprising thing is that the narrator was the grandmother's clock. I didn't see that coming!
+        W: Eso sí me gustó. Lo que no entendí es por qué la autora cambia tanto de época. | I did like that. What I didn't understand is why the author jumps between periods so much.
+        P: Yo creo que lo importante en la novela es la memoria. Por eso salta de una época a otra. | I think the important thing in the novel is memory. That's why it jumps from one period to another.
+        G: Además, mientras lo leía, escuchaba los boleros que salen en el libro. ¡Qué maravilla! | And while I was reading it, I listened to the boleros that appear in the book. Wonderful!
+        W: ¿Boleros? Yo soy más de pop, la verdad. Pero me apunto la idea de leer con música. | Boleros? I'm more into pop, to be honest. But I'll note down the idea of reading with music.
+        P: Pues para la próxima reunión propongo un libro de cuentos, que es más corto. | Well, for the next meeting I propose a book of short stories, which is shorter.
+        W: ¡Me parece genial! Lo peor de este mes ha sido no tener tiempo para leer. | Sounds great! The worst thing about this month has been not having time to read.
+        G: Venga, pues cuentos. Y yo me encargo de traer la música. | Come on then, short stories. And I'll take care of bringing the music.
+    pronunciation:
+      title: "Balancing ideas: lo bueno es que… lo malo es que…"
+      body: |
+        When you contrast two points, say each opening phrase as one group, with a slight rise and a tiny pause after **es que**: *Lo bueno es que ↗ | es corto. Lo malo es que ↗ | es caro.* The stress falls on the adjective: *lo **bue**no*, *lo **ma**lo*, *lo **me**jor*. In *lo importante* and *lo interesante*, the two vowels **o** and **i** link smoothly with no break.
+      items: |
+        lo bueno es que
+        lo malo es que
+        lo mejor
+        lo peor
+        lo más interesante
+        lo importante
+    culture:
+      title: 23 April, the day of books
+      body: |
+        On **23 April**, Spain celebrates **el Día del Libro**, chosen because Miguel de Cervantes died on 22 April 1616 and was buried on the 23rd. Bookshops put stalls in the street and offer discounts, and the **Premio Cervantes**, the most important prize for literature in Spanish, is presented around that date in Alcalá de Henares, Cervantes's birthplace.
+
+        In Catalonia the same day is **Sant Jordi**: people traditionally give each other a book and a red rose, and the streets of Barcelona fill with stalls and authors signing books.
+    mistakes: |
+      Lo mejor del libro es los personajes. => Lo mejor del libro son los personajes. | Ser agrees with the plural noun that follows.
+      La mala es que es muy largo. => Lo malo es que es muy largo. | Lo + masculine adjective never changes: lo malo, not la mala.
+      El bueno de este disco es la letra. => Lo bueno de este disco es la letra. | El bueno = the good one (a specific thing); lo bueno = the good thing about it.
+    task:
+      title: My favourite book or album
+      mode: speaking
+      body: |
+        Present a book or an album you love in about one minute: what kind of book or music it is, *lo mejor*, *lo más sorprendente*, *lo malo* (if anything) and who you would recommend it to. Say what kind of reader or listener you are with *soy más de…*. Then chat about your cultural tastes in the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: ___ bueno de este disco es que todas las canciones son diferentes. || Lo || Lo + adjective = the good thing. || @tags es.vocabulary
+      fill: Lo mejor de la novela ___ (ser) los diálogos. || son || Ser agrees with the plural noun that follows (los diálogos). || @tags es.vocabulary
+      fill: Lo ___ de leer en el móvil es que te cansa la vista. (bad) || malo || Lo malo = the bad thing. Lo never changes. || @tags es.vocabulary
+      mc: Choose the correct sentence. || Lo mejor del concierto fue los músicos. | *Lo mejor del concierto fueron los músicos. | El mejor del concierto fueron los músicos. || Lo + adjective, and ser agrees with the plural noun: fueron los músicos. || @tags es.comparatives
+      mc: «Yo soy más de novela negra» means… || *I prefer crime novels. | I write crime novels. | I've read more crime novels than you. || Ser más de + something = to prefer it, to be more into it. || @skill vocabulary @tags es.vocabulary
+      tf: Wen enjoyed the long descriptions in the novel. || false || «Lo malo es que tiene demasiadas descripciones.» || @ctx dialogue
+      short: What surprised Guillermo most about the novel? || kw: narrador/narrator & reloj/clock || «Lo más sorprendente es que el narrador era el reloj de la abuela.» || @ctx dialogue
+      rw: Rewrite with lo + adjective, starting with "Lo malo…" :: El problema es que el libro es muy largo. || Lo malo es que el libro es muy largo. | Lo malo del libro es que es muy largo. || Lo malo es que… replaces el problema es que… || @tags es.vocabulary
+      tr: The best thing about the album is the lyrics. || Lo mejor del disco son las letras. | Lo mejor del disco es la letra. | Lo mejor del álbum son las letras. | Lo mejor del álbum es la letra. || Lo mejor de + noun; ser agrees with the noun that follows. || @tags es.comparatives
+      listen: Lo que más me gusta de esta cantautora son las letras: cuenta historias de gente normal. || What does the speaker like most about the singer-songwriter? || *Her lyrics | Her voice | Her concerts || «Lo que más me gusta… son las letras.» || @tags es.listening,es.relative-pronouns
+      listen: @dialogue || What does Pura propose for the next meeting? || *A book of short stories | A poetry book | An evening of boleros || «Para la próxima reunión propongo un libro de cuentos, que es más corto.» || @tags es.listening
+      dict: Lo más sorprendente del libro es el final.
+      ask: Recommend a book or album to a friend. Say what is best about it and mention one weak point. || kw: lo mejor/lo bueno/lo más & lo malo/lo peor/lo único || Te recomiendo el último disco de mi grupo favorito. Lo mejor son las letras, que son muy poéticas. Lo malo es que es muy corto: solo tiene ocho canciones.
+
+  - title: Recommending and retelling a story
+    summary: Recommend a film or book and retell its plot without spoiling the ending, combining the indefinido, imperfecto and pluscuamperfecto.
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [es.preterite-vs-imperfect, es.pluperfect]
+    objectives:
+      - Recommend a story with expressions such as no te la pierdas and merece la pena
+      - Retell a plot combining the indefinido, imperfecto and pluscuamperfecto
+      - Organise the retelling with al principio, resulta que and a partir de ese momento
+    intro: |
+      *¿Me la recomiendas? —¡No te la pierdas!* Retelling a plot is one of the best tests of your Spanish, because it uses all three past tenses at once: the **imperfecto** for the situation, the **indefinido** for what happened and the **pluscuamperfecto** for what had happened before. In this lesson you will hear a friend tell the story of a film — without giving away the ending.
+    vocab: |
+      ir de / tratar de | to be about | expr | ¿De qué va la película? —Va de una familia que se muda a Galicia. | What's the film about? —It's about a family that moves to Galicia. | n: Ir de is colloquial; tratar de / sobre is neutral.
+      el argumento | plot | n | El argumento es sencillo, pero está muy bien contado. | The plot is simple, but it's very well told. | g: m | n: Also la trama.
+      destripar | to give away (the ending); to spoil | v | ¡No me destripes el final! | Don't give away the ending! | n: Many people simply say hacer spoiler.
+      no te lo pierdas | don't miss it | expr | Ponen la obra hasta el domingo: no te la pierdas. | The play is on until Sunday: don't miss it. | n: The pronoun agrees: no te la pierdas (la película), no te lo pierdas (el concierto).
+      resulta que | it turns out that | expr | Resulta que el vecino era su padre. | It turns out that the neighbour was his father.
+      a partir de ese momento | from that moment on | expr | A partir de ese momento, su vida cambió por completo. | From that moment on, her life changed completely.
+      enamorarse de | to fall in love with | v | Se enamoró de una pianista en París. | He fell in love with a pianist in Paris.
+      descubrir | to discover; to find out | v | Al final descubre quién había escrito las cartas. | In the end she finds out who had written the letters. | n: Irregular participle: descubierto.
+      el desván | attic; loft | n | Encontró una caja de fotos en el desván. | She found a box of photos in the attic. | g: m
+      ser un rollo | to be boring | expr | La segunda parte es un rollo. | The second part is boring. | n: Colloquial, Spain.
+      emocionante | exciting; moving | adj | El último capítulo es muy emocionante. | The last episode is very moving. | n: It can mean exciting or touching, depending on context.
+      merecer la pena | to be worth it | expr | Es larga, pero merece la pena verla en el cine. | It's long, but it's worth seeing at the cinema.
+    grammar:
+      title: "Retelling a story: three past tenses together"
+      body: |
+        When you retell a plot in the past, each tense has a job:
+
+        - **Imperfecto** — the situation, descriptions and actions in progress: *Elena **vivía** en Barcelona y **trabajaba** como traductora. Mientras **limpiaba** el desván…*
+        - **Indefinido** — the events that move the story forward: *…**encontró** unas cartas. **Decidió** buscar a su autor.*
+        - **Pluscuamperfecto** — what had happened **before** the moment of the story: *Su abuela **había muerto** y le **había dejado** la casa. Nadie **había leído** las cartas.*
+
+        Organise the story with markers: **al principio** (at first), **resulta que** (it turns out that), **un día**, **entonces**, **mientras tanto** (meanwhile), **a partir de ese momento** (from then on), **al final**.
+
+        To say what a story is about, use the present: ***Va de** / **trata de** una mujer que vuelve a su pueblo.* Many people also tell whole plots in the present tense — that is fine too, as long as you are consistent.
+      table: |
+        Tense | Job in the story | Example
+        imperfecto | situation, description, in progress | Elena vivía sola y no tenía mucho trabajo.
+        indefinido | events, one after another | Un día recibió una llamada y volvió al pueblo.
+        pluscuamperfecto | earlier events, background | Su abuela había muerto unos días antes.
+      examples: |
+        Al principio, Elena vivía en Barcelona y no hablaba con su familia. | At first, Elena lived in Barcelona and didn't talk to her family. | situation
+        Resulta que su abuela le había dejado la casa del pueblo. | It turns out that her grandmother had left her the house in the village. | earlier event
+        Mientras limpiaba el desván, encontró unas cartas. | While she was cleaning the attic, she found some letters. | in progress + event
+        A partir de ese momento, decidió quedarse en el pueblo. | From that moment on, she decided to stay in the village. | new event
+      tip: "To avoid spoilers, stop your retelling at the turning point and add: Y no te cuento más, que si no te destripo el final."
+    dialogue:
+      title: ¿Me la recomiendas?
+      setting: Monday morning on the metro in Madrid. Mauro asks his friend Inés about the film she saw at the cinema last night.
+      speakers: M=Mauro/m; I=Inés/f
+      lines: |
+        M: ¿Qué tal la peli de anoche? ¿Me la recomiendas o no? | How was last night's film? Do you recommend it or not?
+        I: ¡Muchísimo! No te la pierdas. Va de una mujer que vuelve a su pueblo. | Absolutely! Don't miss it. It's about a woman who goes back to her village.
+        M: Cuéntamela, pero sin destripar el final, ¿eh? | Tell me about it, but without giving away the ending, OK?
+        I: Vale. Al principio, Elena vivía en Barcelona y trabajaba como traductora. | OK. At first, Elena lived in Barcelona and worked as a translator.
+        M: ¿Y por qué volvió al pueblo? ¿Le pasó algo? | And why did she go back to the village? Did something happen to her?
+        I: Resulta que su abuela había muerto y le había dejado su casa. | It turns out that her grandmother had died and had left her her house.
+        M: Y allí descubrió algo, me imagino. | And there she discovered something, I imagine.
+        I: Exacto. Mientras limpiaba el desván, encontró unas cartas que nadie había leído nunca. | Exactly. While she was cleaning the attic, she found some letters that nobody had ever read.
+        M: ¿Unas cartas? ¿Y de quién eran? ¡Qué intriga! | Some letters? And who were they from? How intriguing!
+        I: De un hombre que había estado enamorado de su abuela en los años cincuenta. | From a man who had been in love with her grandmother in the fifties.
+        M: ¿Y Elena lo buscó? No, no, ¡no me lo digas! | And did Elena look for him? No, no, don't tell me!
+        I: Tranquilo, no te lo cuento. Pero lo que pasó al final te va a encantar. | Don't worry, I won't tell you. But you're going to love what happened at the end.
+    pronunciation:
+      title: "Storytelling rhythm: pues nada, resulta que…"
+      body: |
+        Good storytellers use markers to keep the listener hooked. Say **resulta que** and **a partir de ese momento** as one smooth group, then pause briefly before the key information. **Pues nada** and **total, que** are said quickly and lightly, with the stress on *na-* and *to-*. Reactions like *¿Y entonces?* rise at the end to invite the speaker to continue.
+      items: |
+        pues nada
+        resulta que
+        a partir de ese momento
+        total, que
+        ¿y entonces?
+        ¡no me lo digas!
+    culture:
+      title: Spoilers and film titles
+      body: |
+        Most Spanish speakers say **hacer spoiler** when someone gives away the ending, but language advisers recommend Spanish alternatives such as **destripar** (literally "to disembowel") or **revelar el final**. Asking *¿Me lo cuentas sin destripar?* is perfectly natural.
+
+        Foreign film titles are often translated very differently in Spain and Latin America, so friends from different countries may know the same film by two different names. When you recommend a film, it can help to give the director or the main actor too.
+    mistakes: |
+      Cuando llegó al pueblo, su abuela ya murió. => Cuando llegó al pueblo, su abuela ya había muerto. | The earlier event takes the pluperfect.
+      Mientras limpió el desván, encontró unas cartas. => Mientras limpiaba el desván, encontró unas cartas. | Mientras + an action in progress: imperfect.
+      La película es de una mujer que vuelve a su pueblo. => La película va de una mujer que vuelve a su pueblo. | To say what a story is about, use ir de or tratar de / sobre.
+    task:
+      title: Tell me the story — but not the ending
+      mode: speaking
+      body: |
+        Choose a film, series or book you would recommend. In 1–2 minutes, say what it is about (*va de…*), retell the beginning of the plot in the past using the imperfecto, the indefinido and at least two pluperfects, stop before the ending and recommend it (*no te la pierdas, merece la pena*). Record yourself in Speaking practice.
+    exercises: |
+      fill: Cuando Elena llegó al pueblo, su abuela ya ___ (morir). || había muerto || The grandmother died before Elena arrived: pluperfect. Morir has the irregular participle muerto. || @tags es.pluperfect
+      fill: Mientras ___ (limpiar, ella) el desván, encontró unas cartas. || limpiaba || An action in progress, interrupted by an event: imperfect. || @tags es.preterite-vs-imperfect
+      fill: Al final, Elena ___ (decidir) buscar al autor de las cartas. || decidió || An event that moves the story forward: indefinido. || @tags es.preterite-vs-imperfect
+      mc: «No me destripes el final» means… || *Don't tell me the ending. | Don't change the ending. | Don't laugh at the ending. || Destripar el final = to give away the ending. || @skill vocabulary @tags es.vocabulary
+      tf: Inés recommends the film. || true || «¡Muchísimo! No te la pierdas.» || @ctx dialogue
+      short: Where did Elena find the letters? || kw: desván/attic/loft || «Mientras limpiaba el desván, encontró unas cartas.» || @ctx dialogue
+      rw: Put the sentence in the past :: Elena vive en Barcelona cuando recibe una llamada de su tía. || Elena vivía en Barcelona cuando recibió una llamada de su tía. || The situation takes the imperfect (vivía); the event takes the indefinido (recibió). || @tags es.preterite-vs-imperfect
+      tr: It's about a woman who goes back to her village. || Va de una mujer que vuelve a su pueblo. | Trata de una mujer que vuelve a su pueblo. | Trata sobre una mujer que vuelve a su pueblo. | Va de una mujer que regresa a su pueblo. | Trata de una mujer que regresa a su pueblo. || Ir de or tratar de / sobre = to be about. || @tags es.relative-pronouns
+      mc: Choose the best option: «Cuando abrí la caja, vi que alguien ya ___ las fotos.» || sacó | *había sacado | sacaba || Someone took the photos out before I opened the box: pluperfect. || @tags es.pluperfect
+      listen: Te la recomiendo, pero ten paciencia: al principio es un poco lenta. A partir del tercer capítulo ya no puedes parar. || What does the speaker say about the beginning? || *It's a bit slow. | It's the best part. | It's very confusing. || «Al principio es un poco lenta.» || @tags es.listening
+      listen: @dialogue || Who wrote the letters? || Elena's grandmother | *A man who had been in love with Elena's grandmother | Elena's aunt || «De un hombre que había estado enamorado de su abuela en los años cincuenta.» || @tags es.listening,es.pluperfect
+      dict: Al principio no entendía nada, pero al final todo tenía sentido.
+      ask: Retell the beginning of a film or book you like in three or four sentences, without giving away the ending. || kw: va de/trata de & al principio/resulta que/un día/entonces || Va de un chico que quería ser cocinero. Al principio trabajaba en un banco, pero un día perdió el trabajo. Resulta que su abuelo le había dejado un viejo restaurante, así que decidió abrirlo otra vez. ¡Y no te cuento más!
+      write: Write a short recommendation (60–80 words) of a film or series for a friend — what it is about, how the story begins (in the past) and why you recommend it, without spoilers. || min=50 || req: va de/trata de | había | recomiendo/no te la pierdas/no te lo pierdas/merece la pena || ¡Hola, Sara! Tienes que ver «El último tranvía». Va de un conductor de tranvía que se jubila. El último día de trabajo, un niño se subió al tranvía solo y no sabía volver a casa. Resulta que se había escapado del colegio. A partir de ese momento, los dos vivieron una aventura por toda la ciudad. Es divertida y muy emocionante. ¡No te la pierdas!
