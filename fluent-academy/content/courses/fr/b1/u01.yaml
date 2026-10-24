@@ -1,0 +1,376 @@
+unit: 1
+title: Les autres et moi
+theme: People and relationships
+description: Describe people's personalities, talk about friendship, disagreements and making up, and tell a lively anecdote, using the relative pronouns qui, que and où and a confident mix of the imparfait and the passé composé.
+free: true
+objectives:
+  - Describe someone's personality precisely, linking ideas with qui, que and où
+  - Talk about friendship, disagreements and making up, choosing the right past tense for states and changes
+  - Tell a short anecdote with the imparfait for the scene and the passé composé for the events
+canDo:
+  - I can describe the character of people I know, including their qualities and flaws.
+  - I can explain a misunderstanding with a friend, apologise and suggest making up.
+  - I can tell a short personal anecdote in the past and react to someone else's story.
+  - I can join sentences with qui, que and où instead of repeating words.
+review: |
+  fill: Mon oncle est quelqu'un ___ adore raconter des histoires. || qui || The pronoun is the subject of adore: qui. || @tags fr.relative-pronouns
+  fill: C'est la chanson ___ nous écoutions pendant les vacances. || que || Nous is the subject; the song is the object of écoutions: que. || @tags fr.relative-pronouns
+  fill: Le cinéma ___ on avait rendez-vous était fermé. || où || A place where something happens: où. || @tags fr.relative-pronouns
+  mc: "Hier, j'___ que Sarah déménageait." Choose the best form. || savais | *ai appris | apprenais || Hier points to the moment you found out: passé composé, j'ai appris. || @tags fr.imparfait-vs-pc
+  fill: Je ___ (devoir) venir, mais j'ai raté mon train. || devais || Je devais = I was supposed to (the plan didn't happen): imparfait. || @tags fr.imparfait-vs-pc
+  rw: Tell it in the past :: Il fait beau et je lis dans le parc. Tout à coup, un chien vole mon sandwich. || Il faisait beau et je lisais dans le parc. Tout à coup, un chien a volé mon sandwich. || The scene in the imparfait (faisait, lisais); the sudden event in the passé composé (a volé). || @tags fr.imparfait-vs-pc
+  tr: When I arrived, the film had just started. || Quand je suis arrivé, le film venait de commencer. | Quand je suis arrivée, le film venait de commencer. | Quand je suis arrivé, le film venait juste de commencer. | Quand je suis arrivée, le film venait juste de commencer. || "Had just" = venir de in the imparfait: le film venait de commencer. || @tags fr.imparfait-vs-pc
+  mc: Your friend won't talk to you. Which question fits? || *Pourquoi tu fais la tête ? | Pourquoi tu as tort ? | Pourquoi tu comptes sur moi ? || Faire la tête = to sulk. Avoir tort = to be wrong; compter sur = to count on. || @skill vocabulary @tags fr.vocabulary
+  listen: Ma collègue Inès est très franche : elle dit toujours la vérité, mais elle n'est jamais méchante. || What is Inès like? || *Honest, but never unkind | Shy and quiet | Touchy and stubborn || "Très franche… jamais méchante" — frank but never nasty. || @tags fr.listening
+  listen: On s'est disputés pour une bêtise, mais on s'est réconciliés le lendemain autour d'un café. || What happened? || *They argued and made up the next day | They argued and haven't spoken since | They met for the first time in a café || "On s'est réconciliés le lendemain" — they made up the next day. || @tags fr.listening
+  ask: Tell a classmate about a friend you have known for a long time — how you met and what they are like. || kw: connu/rencontré/rencontrés/rencontrées & qui/que/qu' || J'ai connu Tom au lycée, dans une classe où je ne connaissais personne. C'est quelqu'un qui a beaucoup d'humour et que j'appelle quand ça ne va pas.
+  write: Write an email to a friend about a disagreement you had with someone — what happened, how you felt and how it ended. || min=70 || req: j'étais/il était/elle était/c'était | quand/soudain/tout à coup/sur le moment | réconcilié/réconciliés/excusé/excusée/pardonné || Salut Léo ! Tu ne vas pas me croire. Samedi, Nina et moi, on s'est disputées pour une bêtise. On devait aller au concert ensemble, mais elle a invité une autre amie sans me demander. Sur le moment, je me suis fâchée et je suis rentrée chez moi. J'étais triste toute la soirée. Dimanche, elle m'a appelée et elle s'est excusée. On s'est expliquées et finalement, on s'est réconciliées. Bises, Clara
+lessons:
+  - title: Personality and character
+    summary: Read short portraits of people who matter, describe personalities precisely and link your ideas with qui, que and où.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [fr.relative-pronouns, fr.adjective-agreement]
+    objectives:
+      - Describe someone's personality with precise adjectives, including flaws
+      - Use the relative pronouns qui, que and où to avoid repetition
+      - Write a short portrait of a person who matters to you
+    intro: |
+      At A2 you described people with simple adjectives: *grand, sympa, gentil*. At B1 you can go further and explain **what kind of person** someone is: *c'est quelqu'un qui ne se plaint jamais, la personne que j'appelle quand ça ne va pas*. The relative pronouns **qui, que** and **où** let you build these longer, more natural sentences — and they make your French sound much less like a list.
+    vocab: |
+      le caractère | personality; temperament | n | Ma sœur a un caractère très calme. | My sister has a very calm temperament. | c: avoir bon caractère; avoir mauvais caractère; avoir du caractère | g: m | n: Avoir du caractère = to have a strong personality.
+      franc | frank; straightforward | adj | Il est franc : il dit toujours la vérité. | He's frank: he always tells the truth. | n: Feminine: franche. Franchement = honestly.
+      généreux | generous | adj | Mon oncle est très généreux avec ses neveux. | My uncle is very generous with his nephews. | n: Feminine: généreuse.
+      têtu | stubborn | adj | Mon fils est têtu : il ne change jamais d'avis. | My son is stubborn: he never changes his mind. | n: Feminine: têtue.
+      bavard | talkative | adj | Ma voisine est bavarde, on discute pendant des heures. | My neighbour is talkative; we chat for hours. | n: Feminine: bavarde.
+      réservé | reserved; quiet | adj | Au début, il était réservé, puis il s'est ouvert. | At first he was quiet, then he opened up. | n: Feminine: réservée.
+      susceptible | touchy; easily offended | adj | Attention, elle est susceptible : ne te moque pas d'elle. | Careful, she's touchy: don't make fun of her. | n: False friend — it does not mean "susceptible to". Same form for men and women.
+      fidèle | loyal; faithful | adj | C'est une amie fidèle depuis vingt ans. | She's been a loyal friend for twenty years. | n: The noun is la fidélité (loyalty).
+      avoir de l'humour | to have a sense of humour | expr | Mon professeur a beaucoup d'humour. | My teacher has a great sense of humour. | c: avoir le sens de l'humour; manquer d'humour
+      être de bonne humeur | to be in a good mood | expr | Le matin, je ne suis jamais de bonne humeur ! | I'm never in a good mood in the morning! | n: Opposite: être de mauvaise humeur. Don't confuse humeur (mood) and humour.
+      se plaindre | to complain | v | Il se plaint toujours du bruit des voisins. | He's always complaining about the neighbours' noise. | c: se plaindre de quelque chose | n: Je me plains, nous nous plaignons; passé composé: je me suis plaint(e).
+      compter pour quelqu'un | to matter to someone | expr | Cette amitié compte beaucoup pour moi. | This friendship means a lot to me.
+      quelqu'un de + adjectif | someone + adjective | expr | C'est quelqu'un de très patient. | He's (or she's) a very patient person. | n: Use de and keep the adjective masculine, even for a woman: quelqu'un de gentil.
+      un défaut | a flaw; a fault | n | Son seul défaut, c'est qu'il est toujours en retard. | His only fault is that he's always late. | g: m | n: Opposite: une qualité.
+    grammar:
+      title: "Relative pronouns: qui, que, où"
+      body: |
+        Relative pronouns join two sentences so that you don't repeat a person, thing or place: *J'ai une amie. **Elle** est très drôle.* → *J'ai une amie **qui** est très drôle.*
+
+        - **Qui** replaces the **subject** of the next verb. It is followed directly by a verb (or by an object pronoun + verb): *C'est un homme **qui** parle peu. C'est lui **qui** m'a aidé.*
+        - **Que** replaces the **direct object**. It is followed by its own subject + verb: *C'est la personne **que** j'admire le plus* (j'admire **cette personne**). *Que* becomes **qu'** before a vowel; *qui* never changes.
+        - **Où** replaces a **place** or a **moment**: *la cuisine **où** on se retrouve*, *le jour **où** je l'ai rencontrée*.
+
+        English often drops the pronoun (*the book I read*), but French never does: *le livre **que** j'ai lu*. In the passé composé with avoir, the participle agrees with *que* when it refers to a feminine or plural noun: *la collègue que j'ai rencontré**e***.
+      table: |
+        Pronoun | Replaces | Followed by | Example
+        qui | the subject | a verb | une amie qui écoute
+        que / qu' | the direct object | a subject + verb | l'ami que j'appelle
+        où | a place or a moment | a subject + verb | la ville où j'ai grandi · le jour où on s'est connus
+      examples: |
+        J'ai un voisin qui chante sous la douche. | I have a neighbour who sings in the shower. | qui + verb
+        Le livre que tu m'as prêté est génial. | The book (that) you lent me is great. | que + subject + verb
+        C'est le parc où nous jouions quand nous étions petits. | It's the park where we used to play when we were small. | où = a place
+        Je me souviens du jour où on s'est rencontrés. | I remember the day (when) we met. | où = a moment
+      tip: "Quick test: if a subject (je, tu, Marc…) comes right after the gap, use que; if a verb comes right after it, use qui."
+    reading:
+      title: La personne qui compte
+      text: |
+        Chaque mois, nous demandons à trois lecteurs de nous parler d'une personne qui compte pour eux. Voici leurs portraits.
+
+        Samira, 34 ans, Strasbourg
+        « Ma grand-mère Fatiha est la personne que j'admire le plus. C'est une femme qui ne se plaint jamais et qui garde son humour, même dans les moments difficiles. Elle est franche : quand elle n'aime pas quelque chose, elle le dit tout de suite. Mais elle est aussi très généreuse. Sa cuisine est l'endroit où toute la famille se retrouve le dimanche. »
+
+        Bertrand, 52 ans, Rennes
+        « Je pense à Malik, mon collègue depuis quinze ans. Au début, je le trouvais un peu froid : il parlait peu et il ne riait jamais à mes blagues. En réalité, c'est quelqu'un de réservé, mais d'une fidélité incroyable. C'est lui qui m'a soutenu quand j'ai perdu mon père, et je ne l'oublierai jamais. »
+
+        Chloé, 19 ans, Toulouse
+        « Pour moi, c'est Jade, ma meilleure amie. On s'est rencontrées au lycée, dans une classe où personne ne se connaissait. Jade est bavarde, curieuse et un peu têtue, mais c'est la personne que j'appelle quand ça ne va pas. Elle est presque toujours de bonne humeur et, surtout, elle sait écouter. Son seul défaut ? Elle est toujours en retard ! »
+
+        Et vous, qui est la personne qui compte pour vous ? Envoyez-nous son portrait !
+      translation: |
+        Every month we ask three readers to tell us about a person who matters to them. Here are their portraits.
+
+        Samira, 34, Strasbourg
+        "My grandmother Fatiha is the person I admire most. She's a woman who never complains and who keeps her sense of humour, even in difficult times. She's frank: when she doesn't like something, she says so straight away. But she's also very generous. Her kitchen is the place where the whole family gets together on Sundays."
+
+        Bertrand, 52, Rennes
+        "I'm thinking of Malik, my colleague of fifteen years. At first I found him a bit cold: he didn't say much and he never laughed at my jokes. In fact, he's a reserved person, but incredibly loyal. He's the one who supported me when I lost my father, and I'll never forget it."
+
+        Chloé, 19, Toulouse
+        "For me, it's Jade, my best friend. We met at secondary school, in a class where nobody knew each other. Jade is talkative, curious and a bit stubborn, but she's the person I call when things aren't going well. She's almost always in a good mood and, above all, she knows how to listen. Her only flaw? She's always late!"
+
+        And you — who is the person who matters to you? Send us their portrait!
+    pronunciation:
+      title: "Hearing the feminine: franc / franche"
+      body: |
+        Many adjectives sound different in the feminine, because a final consonant that is silent in the masculine is pronounced when **-e** is added: *bavard* [ba.vaʁ] → *bavarde* [ba.vaʁd]. In *généreux* [ʒe.ne.ʁø] → *généreuse* [ʒe.ne.ʁøz] you hear a new [z], and *franc* [fʁɑ̃] → *franche* [fʁɑ̃ʃ] adds a [ʃ].
+
+        Adjectives ending in **-é** or **-e** sound the same for men and women: *réservé / réservée*, *fidèle*, *susceptible*. So when you listen, the final consonant is often the only clue to who is being described.
+      items: |
+        franc
+        franche
+        généreux
+        généreuse
+        bavard
+        bavarde
+    culture:
+      title: Petits noms et surnoms
+      body: |
+        French speakers often use affectionate names with partners, children and close friends: *mon chéri / ma chérie*, *mon cœur*, *ma puce* (very common with children), *mon grand / ma grande*. First names are also shortened among friends: *Maxime* becomes *Max*, *Caroline* becomes *Caro*, *Stéphanie* becomes *Steph*.
+
+        When they describe someone's flaws, people usually soften them with *un peu* or *pas très*: *il est un peu têtu*, *elle n'est pas très patiente* sounds much kinder than a bare adjective.
+    mistakes: |
+      C'est une amie que m'aide toujours. => C'est une amie qui m'aide toujours. | The pronoun is the subject of aide (m' is an object, not a subject), so you need qui.
+      Le restaurant que nous dînons est fermé. => Le restaurant où nous dînons est fermé. | Dîner has no direct object; for a place, use où.
+      C'est quelqu'un de gentille. => C'est quelqu'un de gentil. | After quelqu'un de, the adjective stays masculine, even when you are talking about a woman.
+    task:
+      title: Your portrait for the magazine
+      mode: writing
+      body: |
+        Write a portrait (80–100 words) of a person who matters to you, for the magazine page in this lesson. Say who they are and how you know them, describe their character with at least four adjectives, and use **qui**, **que** and **où** at least once each. Finish with one small flaw — gently, with *un peu* or *pas très*!
+    exercises: |
+      fill: J'ai une collègue ___ parle quatre langues. || qui || The pronoun is the subject of parle: qui. || @tags fr.relative-pronouns
+      fill: C'est un ami ___ je vois tous les week-ends. || que || Je is the subject; the pronoun is the direct object of vois: que. || @tags fr.relative-pronouns
+      fill: Voici le quartier ___ j'ai grandi. || où || Le quartier is a place: où. || @tags fr.relative-pronouns
+      fill: L'actrice ___ il admire le plus vit à Montréal. || qu' || Il is the subject of admire, so you need que, which becomes qu' before a vowel. || @tags fr.relative-pronouns,fr.elision
+      mc: Choose the correct sentence. || C'est quelqu'un que rit tout le temps. | *C'est quelqu'un qui rit tout le temps. | C'est quelqu'un où rit tout le temps. || Rit has no other subject, so the relative pronoun is the subject: qui. || @tags fr.relative-pronouns
+      mc: Someone who is "têtu"… || changes their mind easily | *rarely changes their mind | talks all the time || Têtu means stubborn. Someone who talks all the time is bavard. || @skill vocabulary @tags fr.vocabulary
+      mc: Why did Bertrand find Malik cold at first? || Malik criticised his work. | *Malik spoke little and never laughed at his jokes. | Malik was always late. || "Il parlait peu et il ne riait jamais à mes blagues." || @ctx reading @tags fr.reading
+      tf: Samira's family gets together in her grandmother's kitchen on Sundays. || true || "Sa cuisine est l'endroit où toute la famille se retrouve le dimanche." || @ctx reading
+      short: What is Jade's only flaw, according to Chloé? || kw: retard/late || "Son seul défaut ? Elle est toujours en retard !" || @ctx reading
+      rw: Join the two sentences with qui, que or où :: J'ai un voisin. Je croise ce voisin tous les matins. || J'ai un voisin que je croise tous les matins. || Ce voisin is the direct object of croise, so use que. || @tags fr.relative-pronouns
+      rw: Join the two sentences with qui, que or où :: C'est un restaurant. Nous avons fêté nos vingt ans dans ce restaurant. || C'est un restaurant où nous avons fêté nos vingt ans. | C'est le restaurant où nous avons fêté nos vingt ans. || Dans ce restaurant is a place, so use où. || @tags fr.relative-pronouns
+      tr: She's someone who never complains. || C'est quelqu'un qui ne se plaint jamais. | C'est une personne qui ne se plaint jamais. || Quelqu'un + qui (subject) + ne… jamais around the verb se plaint. || @tags fr.relative-pronouns,fr.negation
+      listen: Mon frère, c'est quelqu'un de très réservé, mais avec ses amis, il est drôle et bavard. || What is the brother like with his friends? || Quiet and serious | *Funny and talkative | Stubborn and touchy || "Avec ses amis, il est drôle et bavard." || @tags fr.listening
+      dict: Ma voisine est une femme généreuse qui aide tout le monde. || généreuse
+      ask: Describe the personality of a friend or relative in two or three sentences, using qui or que. || kw: qui/que/qu' & c'est/il est/elle est || Ma meilleure amie s'appelle Lina. C'est quelqu'un qui écoute bien et qui a beaucoup d'humour. C'est la personne que j'appelle quand j'ai un problème.
+
+  - title: Friendship and disagreements
+    summary: Talk about arguments, misunderstandings and making up, and choose the right past tense for states, reactions and verbs like savoir and connaître.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [fr.imparfait-vs-pc]
+    objectives:
+      - Talk about a disagreement, how you felt and how you made up
+      - Use the imparfait for states and the passé composé for reactions and changes
+      - Understand how savoir, connaître and devoir change meaning in the two past tenses
+    intro: |
+      Every friendship has its *malentendus*. Explaining one in French means saying how you **felt** (*j'étais déçue*), how you **reacted** (*je me suis fâchée*) and what you **knew** or **found out** (*je savais / j'ai su*). At A2 you learned that the imparfait sets the scene and the passé composé tells the events. At B1, the choice between them can change the meaning of a verb — that is what this lesson is about.
+    vocab: |
+      une dispute | an argument; a row | n | On a eu une petite dispute à propos des vacances. | We had a little argument about the holidays. | c: avoir une dispute; une dispute de couple | g: f
+      se disputer | to argue; to fall out | v | Mes frères se disputent toujours pour la télécommande. | My brothers always argue over the remote. | c: se disputer avec quelqu'un
+      se fâcher | to get angry; to fall out | v | Il s'est fâché quand je suis arrivé en retard. | He got angry when I arrived late. | c: se fâcher contre quelqu'un; se fâcher avec quelqu'un | n: Être fâché = to be angry (a state).
+      faire la tête | to sulk | expr | Pourquoi tu fais la tête ? Je t'ai vexé ? | Why are you sulking? Did I upset you? | n: Informal. Also: bouder.
+      un malentendu | a misunderstanding | n | C'était un malentendu : on ne parlait pas du même jour. | It was a misunderstanding: we weren't talking about the same day. | g: m
+      avoir tort | to be wrong | expr | J'avais tort et tu avais raison. | I was wrong and you were right. | n: Opposite: avoir raison. Both use avoir, not être.
+      s'excuser | to apologise | v | Je me suis excusée auprès de ma collègue. | I apologised to my colleague. | c: s'excuser auprès de quelqu'un; s'excuser de quelque chose
+      se réconcilier | to make up | v | Après deux semaines, ils se sont réconciliés. | After two weeks, they made up. | c: se réconcilier avec quelqu'un
+      pardonner | to forgive | v | Elle m'a pardonné mon oubli. | She forgave me for forgetting. | c: pardonner à quelqu'un; pardonner quelque chose à quelqu'un
+      en vouloir à quelqu'un | to be angry with someone; to hold it against someone | expr | Tu m'en veux encore pour samedi ? | Are you still angry with me about Saturday? | n: Ne m'en veux pas = Don't be angry with me. En is part of the expression.
+      déçu | disappointed | adj | J'ai été très déçu par sa réaction. | I was very disappointed by his reaction. | n: Feminine: déçue. From décevoir (to disappoint).
+      compter sur quelqu'un | to count on someone | expr | Tu peux compter sur moi, je serai là. | You can count on me, I'll be there.
+      sonner dans le vide | to ring with no answer | expr | J'ai appelé trois fois, mais ça sonnait dans le vide. | I called three times, but nobody picked up.
+      se faire pardonner | to make it up to someone | expr | Il a apporté des fleurs pour se faire pardonner. | He brought flowers to make it up to her.
+    grammar:
+      title: "Imparfait or passé composé: states, reactions and changes of meaning"
+      body: |
+        You know the basic rule: the **imparfait** sets the scene, the **passé composé** moves the story forward. With verbs of feeling and knowledge, the choice also changes the **meaning**.
+
+        - A **state** that lasted → imparfait: *J'étais fâchée contre lui* (I was angry with him). *J'avais l'impression de ne pas compter* (I felt I didn't matter).
+        - A **reaction** or **change** at a precise moment → passé composé: *Je me suis fâchée* (I got angry). *Sur le moment, j'ai eu peur* (At that moment, I got scared).
+
+        Some verbs need a different English translation:
+
+        - *je savais* = I knew · *j'ai su* = I found out
+        - *je connaissais Léa* = I knew Léa · *j'ai connu Léa en 2015* = I met Léa (for the first time) in 2015
+        - *je devais venir* = I was supposed to come (the plan) · *j'ai dû partir* = I had to leave (and I did)
+
+        Markers such as *sur le moment, tout à coup, ce soir-là, quand j'ai su…* usually go with the passé composé; *à l'époque, en général, depuis des mois* with the imparfait.
+      table: |
+        Verb | Imparfait (a state) | Passé composé (an event or change)
+        savoir | je savais = I knew | j'ai su = I found out
+        connaître | je connaissais = I knew | j'ai connu = I met (for the first time)
+        devoir | je devais = I was supposed to | j'ai dû = I had to (and did)
+        avoir peur | j'avais peur = I was afraid | j'ai eu peur = I got a fright
+        être fâché / se fâcher | j'étais fâché(e) = I was angry | je me suis fâché(e) = I got angry
+      examples: |
+        À l'époque, je ne connaissais personne à Nantes. | At the time, I didn't know anybody in Nantes. | a state
+        J'ai connu Inès à une fête chez des amis. | I met Inès at a party at some friends' place. | a first meeting
+        Je savais qu'il était déçu, mais je n'ai rien dit. | I knew he was disappointed, but I didn't say anything. | knowledge + event
+        Quand j'ai su la vérité, je me suis excusé. | When I found out the truth, I apologised. | two events
+      tip: "Ask yourself: did it last (imparfait), or did it start or happen at that moment (passé composé)? Je savais = I already knew; j'ai su = the moment I learned it."
+    dialogue:
+      title: Un malentendu
+      setting: Saturday morning in Nantes. Yanis finally gets through to his friend Margaux, who hasn't answered his messages since Thursday.
+      speakers: Y=Yanis/m; M=Margaux/f
+      lines: |
+        Y: Margaux, enfin ! Tu ne réponds plus à mes messages. Tu me fais la tête ? | Margaux, at last! You're not answering my messages any more. Are you sulking?
+        M: Franchement, oui. Jeudi soir, je t'ai attendu une heure devant le cinéma. | Honestly, yes. On Thursday evening I waited an hour for you outside the cinema.
+        Y: Jeudi ? Mais je croyais qu'on avait rendez-vous vendredi ! | Thursday? But I thought we were meeting on Friday!
+        M: Non, c'était jeudi. Je t'ai même envoyé un message pour confirmer. | No, it was Thursday. I even sent you a message to confirm.
+        Y: Je ne l'ai pas vu, je te jure. J'aidais mon frère à déménager. | I didn't see it, I swear. I was helping my brother move house.
+        M: J'ai essayé de t'appeler trois fois, mais ça sonnait dans le vide. | I tried to call you three times, but it just kept ringing.
+        Y: Mon téléphone était au fond d'un carton ! Je suis vraiment désolé. | My phone was at the bottom of a box! I'm really sorry.
+        M: Sur le moment, je me suis vraiment fâchée. J'avais l'impression de ne pas compter pour toi. | At the time, I got really angry. I felt as if I didn't matter to you.
+        Y: Je comprends. En plus, je savais que tu attendais ce film depuis des mois. | I understand. And I knew you'd been waiting for this film for months.
+        M: Bon… Quand j'ai su pour le déménagement, je me suis un peu calmée. | Well… When I found out about the move, I calmed down a bit.
+        Y: Ça te dit, ce soir ? C'est moi qui invite, pour me faire pardonner. | How about tonight? My treat, to make it up to you.
+        M: D'accord. Mais cette fois, tu notes le jour et l'heure dans ton agenda ! | OK. But this time, write the day and the time in your diary!
+    pronunciation:
+      title: Reproach and apology — intonation
+      body: |
+        Intonation carries a lot of the emotion in a disagreement. A reproach often starts high and falls sharply at the end: *Tu ne réponds plus à mes messages !* A real question rises at the end: *Tu me fais la tête ?*
+
+        An apology is usually slower and lower, with the stress on the last syllable of the group: *Je suis vraiment dé**so**lé.* In *je te jure* and *ne m'en veux pas*, the mute e's are often dropped in speech: [ʃtə.ʒyʁ], [nə.mɑ̃.vø.pa] or even [mɑ̃.vø.pa].
+      items: |
+        Tu me fais la tête ?
+        Franchement, oui.
+        Je te jure.
+        Je suis vraiment désolé.
+        Ne m'en veux pas.
+        C'est moi qui invite !
+    culture:
+      title: Ami, copain, pote
+      body: |
+        French has several words for "friend". *Un ami / une amie* is a real friend. *Un copain / une copine* is more casual — a friend or a mate — but *mon copain / ma copine* usually means *my boyfriend / my girlfriend*. *Un pote* is informal and very common among young adults. To avoid confusion, people say *un ami à moi* or *une amie d'enfance* (a childhood friend).
+
+        After a disagreement, French friends often prefer to talk it through openly: *on s'est expliqués* (we talked it over) is a very common way to say that the problem is solved.
+    mistakes: |
+      Quand j'ai appris la nouvelle, j'étais fâché tout de suite. => Quand j'ai appris la nouvelle, je me suis fâché tout de suite. | Tout de suite marks a sudden change, so use the passé composé: je me suis fâché.
+      J'ai connu Paul depuis dix ans. => Je connais Paul depuis dix ans. | The friendship is still going on: depuis + present.
+      Je suis excusé auprès d'elle. => Je me suis excusé auprès d'elle. | S'excuser is a reflexive verb: keep the pronoun (me) with être.
+    task:
+      title: Clearing up a misunderstanding
+      mode: interaction
+      body: |
+        Role-play with a partner: one of you missed an appointment with the other. The person who waited explains how they felt (*j'étais…, je me suis…*). The other explains what happened (*je croyais que…, je ne savais pas que…, je devais… mais…*), apologises and suggests a way to make up. Then swap roles. To fix a new date, continue in the "Making weekend plans" scenario with the AI coach.
+    exercises: |
+      fill: Quand j'___ (savoir) la vérité, je l'ai appelé tout de suite. || ai su || The moment you found out: passé composé, j'ai su. || @tags fr.imparfait-vs-pc
+      fill: À l'époque, je ne ___ (connaître) personne dans cette ville. || connaissais || A state that lasted: imparfait. || @tags fr.imparfait-vs-pc,fr.imparfait
+      fill: Elle ___ (se fâcher) quand il a oublié son anniversaire. || s'est fâchée || A reaction at a precise moment: passé composé. Se fâcher takes être and agrees with elle: fâchée. || @tags fr.imparfait-vs-pc,fr.passe-compose-etre
+      mc: "Je devais appeler Léa, mais j'ai oublié." This means… || *I was supposed to call Léa, but I forgot. | I had to call Léa and I did. | I must call Léa, but I forget. || Je devais (imparfait) describes a plan; here it didn't happen. || @tags fr.imparfait-vs-pc
+      mc: "Tout à coup, j'___ très peur." || avais | *ai eu | aurai || Tout à coup marks a sudden reaction: passé composé, j'ai eu peur. || @tags fr.imparfait-vs-pc
+      tf: Margaux and Yanis had planned to meet on Friday. || false || They were meeting on Thursday; Yanis thought it was Friday. || @ctx dialogue
+      short: Why didn't Yanis answer his phone? || kw: carton/box/déménag/moving/move || His phone was at the bottom of a box: he was helping his brother move house. || @ctx dialogue
+      listen: @dialogue || What does Yanis suggest at the end? || *Going to the cinema tonight, and he pays | Helping Margaux move house | Calling his brother to explain || "Ça te dit, ce soir ? C'est moi qui invite." || @tags fr.listening
+      listen: Je ne t'en veux plus, mais la prochaine fois, préviens-moi ! || How does the speaker feel now? || *No longer angry, but wants to be warned next time | Still very angry | Sad and disappointed for good || "Je ne t'en veux plus" = I'm not angry with you any more. || @tags fr.listening
+      rw: Put the verbs in the right past tense :: Je (être) en réunion quand tu (appeler). || J'étais en réunion quand tu as appelé. || The situation in the imparfait (j'étais); the call that interrupts it in the passé composé (tu as appelé). || @tags fr.imparfait-vs-pc
+      tr: I was supposed to come, but I couldn't. || Je devais venir, mais je n'ai pas pu. | Je devais venir mais je n'ai pas pu. | Je devais venir, mais je n'ai pas pu venir. || The plan: je devais (imparfait). What actually happened: je n'ai pas pu (passé composé). || @tags fr.imparfait-vs-pc,fr.modals
+      tr: Yesterday I found out that she was moving. || Hier, j'ai appris qu'elle déménageait. | J'ai appris hier qu'elle déménageait. | Hier, j'ai su qu'elle déménageait. | J'ai su hier qu'elle déménageait. || Found out = j'ai appris or j'ai su (passé composé); the background stays in the imparfait: elle déménageait. || @tags fr.imparfait-vs-pc
+      dict: Nous nous sommes disputés samedi, mais nous nous sommes réconciliés hier. || réconciliés
+      say: Je suis vraiment désolé, je ne voulais pas te vexer. || I'm really sorry, I didn't mean to upset you.
+      ask: A friend says « Tu m'as oublié samedi ! ». Apologise and explain what happened. || kw: désolé/désolée/pardon/excuse & j'étais/je croyais/je devais/je ne savais pas/j'avais || Je suis vraiment désolée ! J'étais malade et je croyais que c'était dimanche. Je peux t'inviter au restaurant pour me faire pardonner ?
+
+  - title: Telling an anecdote
+    summary: Tell a funny or surprising story in three steps — the scene, the events and the end — with être en train de, venir de and time markers.
+    minutes: 45
+    skills: [speaking, grammar, listening]
+    tags: [fr.imparfait-vs-pc, fr.discourse-markers]
+    objectives:
+      - Structure an anecdote with a scene, a series of events and an ending
+      - Use être en train de and venir de in the imparfait, and markers such as soudain and au bout de
+      - React to someone else's story to keep the conversation going
+    intro: |
+      Anecdotes are the heart of conversation: at dinner, at the coffee machine, with new friends. A good story in French depends on rhythm — a **scene** in the imparfait, a series of **events** in the passé composé, and a short **ending**. In this lesson you will also learn two very useful structures, *j'étais en train de…* and *ça venait de…*, and the little reactions that show you are listening.
+    vocab: |
+      une anecdote | a (short, funny) story; an anecdote | n | Mon grand-père raconte toujours la même anecdote. | My grandfather always tells the same story. | g: f
+      raconter | to tell (a story) | v | Raconte-moi comment vous vous êtes rencontrés ! | Tell me how you met! | c: raconter une histoire; raconter n'importe quoi
+      soudain | suddenly | adv | Soudain, toutes les lumières se sont éteintes. | Suddenly all the lights went out. | n: Also tout à coup. Both usually go with the passé composé.
+      au bout de | after (a period of time) | prep | Au bout de vingt minutes, le bus est enfin arrivé. | After twenty minutes, the bus finally came. | n: Au bout de la rue = at the end of the street.
+      être en train de | to be (busy) doing | expr | J'étais en train de cuisiner quand tu as appelé. | I was cooking when you called. | n: Always followed by an infinitive.
+      venir de | to have just (done) | expr | Je venais de m'endormir quand le téléphone a sonné. | I had just fallen asleep when the phone rang. | n: Present: je viens de = I have just; imparfait: je venais de = I had just.
+      coincé | stuck | adj | Je suis restée coincée dans l'ascenseur pendant une heure. | I was stuck in the lift for an hour. | n: Feminine: coincée. From coincer.
+      appeler à l'aide | to call for help | expr | Il a appelé à l'aide depuis la fenêtre. | He called for help from the window.
+      avoir honte | to be ashamed; to be embarrassed | expr | J'avais tellement honte que je suis devenu tout rouge. | I was so embarrassed that I went bright red. | n: Quelle honte ! = How embarrassing!
+      sans blague ! | no way!; you're kidding! | expr | — Il a gagné le concours. — Sans blague ! | — He won the competition. — No way! | n: Informal reaction of surprise.
+      du coup | so; as a result | adv | Il pleuvait, du coup on est restés à la maison. | It was raining, so we stayed at home. | n: Very common in speech; in writing, prefer donc.
+      le gardien | the caretaker | n | Le gardien de l'immeuble a un double de nos clés. | The building's caretaker has a spare set of our keys. | g: m | n: Feminine: la gardienne. Also le / la concierge.
+      gelé | frozen | adj | Je suis rentré gelé après la promenade. | I came home frozen after the walk. | n: Informal for "very cold". Feminine: gelée.
+      finalement | in the end | adv | Finalement, tout s'est bien terminé. | In the end, everything turned out fine. | n: False friend: it doesn't mean "finally, at last" (that's enfin).
+    grammar:
+      title: "Telling an anecdote: scene, events, ending"
+      body: |
+        A good anecdote has three parts, and each part has its tense.
+
+        1. **The scene** — imparfait: when, where, who, what was going on. *C'était un dimanche matin. J'étais en pyjama.* To stress an action **in progress**, use **être en train de** + infinitive, with *être* in the imparfait: *J'étais en train d'arroser mes plantes.*
+        2. **The events** — passé composé, often introduced by *soudain, tout à coup, à ce moment-là, au bout de dix minutes, ensuite*: *Soudain, j'ai entendu un bruit. J'ai appelé à l'aide.*
+        3. **The ending** — passé composé for the last event (*finalement, le gardien m'a ouvert*), or the present for what is still true (*depuis, on prend le café ensemble*).
+
+        Something that had **just** happened is expressed with **venir de** + infinitive, with *venir* in the imparfait: *Le vent venait de fermer la porte* (The wind had just shut the door).
+
+        Your listeners keep the story going with short reactions: *Sans blague ! Oh non ! Et alors ? Qu'est-ce que tu as fait ?*
+      table: |
+        Part of the story | Form | Useful markers | Example
+        The scene | imparfait | c'était, il y avait, ce jour-là | Il faisait nuit et il pleuvait.
+        An action in progress | être (imparfait) en train de + infinitive | quand, pendant que | J'étais en train de dîner quand on a sonné.
+        Just before | venir (imparfait) de + infinitive | juste | Le bus venait de partir.
+        The events | passé composé | soudain, tout à coup, au bout de… | Tout à coup, la lumière s'est éteinte.
+        The ending | passé composé or present | finalement, du coup, depuis | Finalement, tout s'est bien terminé.
+      examples: |
+        Ce soir-là, il pleuvait et je n'avais pas de parapluie. | That evening it was raining and I didn't have an umbrella. | the scene
+        J'étais en train de dîner quand on a sonné à la porte. | I was having dinner when someone rang the doorbell. | in progress + event
+        Quand je suis arrivée à la gare, le train venait de partir. | When I got to the station, the train had just left. | venir de in the imparfait
+        Au bout d'une heure, un automobiliste s'est arrêté pour nous aider. | After an hour, a driver stopped to help us. | an event after a delay
+      tip: "Start with « C'était… » or « Un jour… » and end with what changed: « Depuis… », « Du coup… ». Your listener will know where the story is going."
+    dialogue:
+      title: L'histoire du balcon
+      setting: A dinner at Aïcha's flat in Lille. She asks her friend Hugo to tell Lin, a new colleague, a story she has heard many times.
+      speakers: A=Aïcha/f; H=Hugo/m; L=Lin/f
+      lines: |
+        A: Hugo, raconte à Lin l'histoire du balcon, elle ne la connaît pas ! | Hugo, tell Lin the balcony story, she doesn't know it!
+        H: Ah, celle-là ! Alors, c'était un dimanche matin, en plein mois de janvier. | Oh, that one! So, it was a Sunday morning, in the middle of January.
+        H: J'étais en pyjama et j'étais en train d'arroser mes plantes sur le balcon. | I was in my pyjamas and I was watering my plants on the balcony.
+        H: Soudain, j'ai entendu un grand bruit : le vent venait de fermer la porte-fenêtre. | Suddenly I heard a loud bang: the wind had just slammed the French window shut.
+        L: Oh non ! Et ton téléphone ? Tu l'avais sur toi ? | Oh no! And your phone? Did you have it on you?
+        H: Non, il était sur le canapé. Et cette porte ne s'ouvre pas de l'extérieur ! | No, it was on the sofa. And that door doesn't open from the outside!
+        A: Et c'est là que l'histoire devient vraiment drôle… | And this is where the story gets really funny…
+        H: J'ai appelé à l'aide et, au bout de dix minutes, une voisine est sortie. | I called for help and, after ten minutes, a neighbour came out.
+        H: C'était une dame que je croisais souvent, mais on ne se parlait jamais. | She was a lady I often bumped into, but we never spoke to each other.
+        H: Elle a appelé le gardien, qui est entré chez moi avec un double des clés. | She called the caretaker, who came into my flat with a spare key.
+        L: Sans blague ! Et tu n'avais pas trop froid, en pyjama ? | No way! And weren't you too cold, in your pyjamas?
+        H: Si, j'étais gelé ! Mais depuis, Mme Ferreira et moi, on prend le café le dimanche. | Yes, I was frozen! But since then, Mrs Ferreira and I have coffee on Sundays.
+    pronunciation:
+      title: "Nasal vowels in stories: en train de, soudain, voisin"
+      body: |
+        Stories are full of nasal vowels. You hear [ɑ̃] in *en train de*, *pendant* and *au bout d'un moment*, and [ɛ̃] in *soudain*, *matin* and *voisin*. Don't pronounce an [n] after a nasal vowel: *soudain* is [su.dɛ̃].
+
+        In the feminine, the nasal disappears: *voisin* [vwa.zɛ̃] → *voisine* [vwa.zin]. The vowel becomes a clear [i] and the **n** is pronounced. The same happens with *américain → américaine*, *plein → pleine*.
+      items: |
+        en train de
+        soudain
+        pendant
+        un dimanche matin
+        le voisin
+        la voisine
+    culture:
+      title: Le gardien d'immeuble
+      body: |
+        In many older apartment buildings, especially in Paris and the big cities, a *gardien* or *gardienne* (also called *concierge*) lives on the ground floor. They clean the common areas, take in parcels, keep an eye on the building and sometimes hold spare keys for residents. There are fewer of them today, but in many neighbourhoods they are still a central figure — and a great source of anecdotes!
+
+        At a French dinner table, telling stories is a real social skill. Listeners often jump in with short reactions (*Non ?! Sans blague ! Et alors ?*). This isn't rude: it shows you are following and enjoying the story.
+    mistakes: |
+      Soudain, je voyais une lumière. => Soudain, j'ai vu une lumière. | Soudain introduces a sudden event, so use the passé composé.
+      J'étais en train de cuisinais. => J'étais en train de cuisiner. | After en train de, always use the infinitive.
+      Je viens de partir quand il est arrivé. => Je venais de partir quand il est arrivé. | In a past story, "had just" = venir de in the imparfait.
+    task:
+      title: Your best anecdote
+      mode: speaking
+      body: |
+        Prepare a one-minute anecdote about a funny, embarrassing or surprising moment. Plan it in three parts: the scene (*c'était…, j'étais en train de…*), the events (*soudain, au bout de…*) and the ending (*finalement, du coup, depuis…*). Tell it to a partner, who must react at least three times (*Sans blague ! Et alors ? Oh non !*). Then record it in Speaking practice.
+    exercises: |
+      fill: J'___ (être) en train de cuisiner quand on a sonné. || étais || An action in progress: être en train de, with être in the imparfait. || @tags fr.imparfait-vs-pc,fr.imparfait
+      fill: Quand nous sommes arrivés, le film ___ de commencer. || venait || "Had just" = venir de in the imparfait: le film venait de commencer. || @tags fr.imparfait-vs-pc
+      fill: Soudain, la lumière ___ (s'éteindre). || s'est éteinte || A sudden event: passé composé. Reflexive verbs take être; éteinte agrees with la lumière. || @tags fr.imparfait-vs-pc,fr.past-participle-agreement
+      fill: Il ___ (pleuvoir) et il ___ (faire) très froid. || pleuvait ; faisait || Weather in the scene of a story: imparfait. || @tags fr.imparfait
+      mc: Which marker introduces a sudden event? || D'habitude | *Tout à coup | À l'époque || Tout à coup (suddenly) goes with the passé composé; the other two describe habits or periods. || @tags fr.imparfait-vs-pc,fr.discourse-markers
+      mc: Your friend tells you he has just won a prize. You react: || *Sans blague ! Bravo ! | Quelle honte ! | Ça sonne dans le vide. || Sans blague ! shows surprise. Quelle honte ! means "How embarrassing!" and the last one is about a phone nobody answers. || @tags fr.discourse-markers
+      tf: Hugo knew his neighbour well before that day. || false || "C'était une dame que je croisais souvent, mais on ne se parlait jamais." || @ctx dialogue
+      short: Who opened the door for Hugo? || kw: gardien/caretaker/concierge || The neighbour called the caretaker, who came in with a spare key. || @ctx dialogue
+      listen: @dialogue || What do Hugo and Mrs Ferreira do now? || *They have coffee together on Sundays | They water their plants together | They still never talk to each other || "Depuis, Mme Ferreira et moi, on prend le café le dimanche." || @tags fr.listening
+      listen: J'étais en train de prendre ma douche quand, tout à coup, l'eau chaude s'est coupée. || What happened? || *The hot water stopped during the shower | The speaker missed the shower | The shower broke after the speaker left || "L'eau chaude s'est coupée" while the speaker was in the shower. || @tags fr.listening,fr.imparfait-vs-pc
+      order: Au bout d'une heure, un voisin est venu nous aider. || After an hour, a neighbour came to help us.
+      rw: Tell it in the past :: Je suis dans le métro. Soudain, une femme me reconnaît. || J'étais dans le métro. Soudain, une femme m'a reconnu. | J'étais dans le métro. Soudain, une femme m'a reconnue. || The scene in the imparfait (j'étais); the sudden event in the passé composé (m'a reconnu, or reconnue if you are a woman). || @tags fr.imparfait-vs-pc
+      dict: Il faisait nuit et le dernier bus venait de partir. || venait de
+      ask: Start an anecdote — set the scene in two sentences, then say what suddenly happened. || kw: c'était/il faisait/j'étais/il y avait & soudain/tout à coup/à ce moment-là || C'était un samedi soir, il pleuvait et j'étais seule à la maison. Tout à coup, j'ai entendu quelqu'un frapper à la fenêtre.
+      write: Write an anecdote (about 80 words) about a funny or embarrassing moment — the scene, the events and the ending. || min=70 || req: c'était/il y avait/il faisait/j'étais | soudain/tout à coup/au bout de/à ce moment-là | finalement/depuis/du coup || C'était un lundi matin et j'étais en retard pour un entretien. Je courais vers le métro avec mon café à la main. Soudain, quelqu'un m'a bousculée et j'ai renversé tout le café sur ma chemise blanche. J'avais tellement honte ! Au bout de deux minutes, une dame m'a donné un foulard pour cacher la tache. Finalement, j'ai eu le poste… et la recruteuse m'a dit qu'elle adorait mon foulard !
