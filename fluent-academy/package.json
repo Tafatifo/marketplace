@@ -24,6 +24,7 @@
     "speech:dev": "cd services/speech && .venv/bin/uvicorn app:app --host 127.0.0.1 --port 8090",
     "jobs:cleanup": "tsx --conditions=react-server --env-file=.env scripts/jobs/cleanup.ts",
     "audio:qa:escalate": "services/speech/.venv/bin/python services/speech/qa_audio.py --escalate",
+    "audio:pipeline": "bash scripts/audio/pipeline.sh",
     "content:all": "npm run content:qa -- --strict && npm run content:build && npm run audio:generate && npm run audio:qa && npm run audio:qa:escalate && npm run content:qa && npm run content:import"
   },
   "dependencies": {
