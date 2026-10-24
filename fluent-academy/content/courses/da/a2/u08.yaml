@@ -1,0 +1,371 @@
+unit: 8
+title: Planer og valg
+theme: Plans and choices
+description: Talk about plans, wishes and predictions with skal, vil and kommer til at, make arrangements with conditions using hvis, and compare options with superlatives like billigst, hurtigst and bedst.
+free: false
+objectives:
+  - Talk about plans, wishes and predictions for the future
+  - Make and change arrangements, adding conditions with hvis
+  - Compare several options with superlatives and explain your choice
+canDo:
+  - I can say what I'm going to do, what I'd like to do, and what I think will happen.
+  - I can suggest a time and place, accept or decline, and add a condition with hvis.
+  - I can use the right word order after a hvis-clause: Hvis det regner, tager vi bussen.
+  - I can compare options with superlatives and give a reason for my choice.
+review: |
+  fill: Det ___ til at blive en dejlig sommer. || kommer || Kommer til at + infinitive makes a prediction. || @tags da.future
+  fill: Jeg ___ gerne læse medicin. (want) || vil || Vil gerne + infinitive = would like to. || @tags da.future,da.modal-verbs
+  mc: Choose the correct sentence. || Hvis du er sulten, vi spiser nu. | *Hvis du er sulten, spiser vi nu. | Hvis er du sulten, spiser vi nu. || After a hvis-clause, the main clause starts with the verb. Inside the hvis-clause, the order is normal: du er. || @tags da.subordinate-clauses,da.word-order
+  fill: Hvis du ___ ___ komme, så ring til mig. (can't) || ikke ; kan || In a hvis-clause, ikke comes before the verb: hvis du ikke kan. || @tags da.subordinate-clauses,da.negation
+  mc: What is the superlative of "stor"? || storst | *størst | mest stor || Stor is irregular: stor → større → størst. || @tags da.comparatives
+  fill: Cyklen er ___ for miljøet. (god — the best) || bedst || God is irregular: god → bedre → bedst. || @tags da.comparatives
+  rw: Start with "Hvis" :: Vi tager bilen, hvis det regner. || Hvis det regner, tager vi bilen. | Hvis det regner, så tager vi bilen. || The hvis-clause counts as the first element, so the verb (tager) comes next. || @tags da.subordinate-clauses,da.word-order
+  tr: In two years I'll finish my studies. || Om to år bliver jeg færdig med min uddannelse. | Om to år er jeg færdig med min uddannelse. | Om to år bliver jeg færdig med mine studier. | Jeg bliver færdig med min uddannelse om to år. || Om + time = in (from now). The present tense often expresses the future. || @tags da.future,da.prepositions-time
+  listen: Næste år skal vi flytte til Sønderborg, og jeg kommer til at savne mine venner her. || What will the speaker miss? || The flat | *Their friends | Their job || "Jeg kommer til at savne mine venner her." || @tags da.future,da.listening
+  listen: Hvis vejret er godt, mødes vi på stranden klokken to. Ellers ses vi på caféen. || Where will they meet if the weather is bad? || On the beach | *At the café | At the station || "Ellers ses vi på caféen" — otherwise at the café. || @tags da.subordinate-clauses,da.listening
+  ask: Tell a friend about your plans for next weekend, and add one condition with hvis. || kw: skal/vil & hvis || På lørdag skal jeg besøge min søster i Kolding. Hvis det er godt vejr, cykler vi ud til fjorden.
+  write: Write an email to a friend about next year — what you are going to do, one wish, one prediction and one condition with hvis. || min=50 || req: næste år/om et år | skal/vil | kommer til at | hvis || Hej Mathilde! Næste år skal jeg begynde på pædagoguddannelsen i Odense. Jeg vil gerne finde et studiejob i en børnehave. Det kommer til at blive hårdt, men også sjovt. Hvis jeg finder en billig lejlighed, flytter jeg i august. Kommer du og besøger mig? Kram, Ines
+lessons:
+  - title: Future plans
+    summary: Talk about your plans and predictions with skal, vil, kommer til at and the present tense with a time expression.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [da.future, da.modal-verbs, da.prepositions-time]
+    objectives:
+      - Talk about fixed plans with skal and the present tense
+      - Say what you want to do with vil (gerne)
+      - Make predictions with kommer til at
+    intro: |
+      Where will you be in five years? Danish doesn't have one future tense — it has several ways to talk about the future. **Skal** is for plans, **vil** for wishes and intentions, and **kommer til at** for what you think will happen. Very often, Danes simply use the present tense with a time word: *I næste uge flytter vi.* In this lesson you will talk about your plans and dreams.
+    vocab: |
+      en drøm | a dream | n | Min drøm er at åbne en lille café. | My dream is to open a small café. | g: c | pl: drømme
+      om et år | in a year's time | expr | Om et år er jeg færdig med uddannelsen. | In a year I'll have finished my training. | n: Om + time = in (from now): om to uger, om fem år.
+      næste år | next year | expr | Næste år skal vi giftes. | Next year we're getting married. | n: Also i næste uge (next week) and næste sommer (next summer).
+      kommer til at | will; is going to (prediction) | expr | Du kommer til at elske Aarhus. | You're going to love Aarhus. | n: Komme til at + infinitive: what you think will happen.
+      planlægge | to plan | v | Vi planlægger en tur til Japan. | We're planning a trip to Japan. | n: Irregular: planlagde, har planlagt.
+      blive færdig | to finish (studies, a task) | expr | Hvornår bliver du færdig med din uddannelse? | When will you finish your studies? | n: Færdig med + noun.
+      spare op | to save up | expr | Vi sparer op til en lejlighed. | We're saving up for a flat. | n: Past: sparede op.
+      et mål | a goal | n | Mit mål er at tale flydende dansk. | My goal is to speak fluent Danish. | g: n | pl: mål
+      måske | maybe; perhaps | adv | Måske flytter vi til Bornholm en dag. | Maybe we'll move to Bornholm one day. | n: At the start of a sentence, the verb comes next: Måske flytter vi…
+      sikkert | probably | adv | Det bliver sikkert regnvejr i morgen. | It'll probably rain tomorrow. | n: Careful: sikkert alone usually means "probably". "Definitely" is helt sikkert.
+      helt sikkert | definitely | expr | Jeg kommer helt sikkert til din fest. | I'll definitely come to your party.
+      fremtiden | the future | n | Vi taler tit om fremtiden. | We often talk about the future. | g: c | n: Usually in the definite form. I fremtiden = in the future.
+      søge ind på | to apply to (a school or course) | expr | Jeg vil søge ind på sygeplejerskeuddannelsen. | I'm going to apply to nursing school. | n: Søge ind på + a study programme.
+    grammar:
+      title: "Talking about the future: skal, vil, kommer til at"
+      body: |
+        Danish has no single future tense. Choose by meaning:
+
+        - **Present tense + time expression** — very common for plans and timetables: *I morgen arbejder jeg hjemme. Toget kører klokken otte. Næste år flytter vi.*
+        - **skal + infinitive** — plans and arrangements: *Vi skal til Rom i maj. Hvad skal du lave i weekenden?*
+        - **vil + infinitive** — what you want or intend to do, often with *gerne*: *Jeg vil gerne lære at spille guitar. Hun vil være læge.* In news and formal language, vil also predicts: *Arbejdet vil tage to år.*
+        - **kommer til at + infinitive** — predictions, what you think will happen: *Det kommer til at regne. Du kommer til at savne Danmark.*
+
+        Word order is the usual one: the verb comes second after a time expression, and ikke follows the first verb: *Det kommer ikke til at ske. I morgen skal jeg ikke arbejde.*
+
+        **Om + time** means "in (from now)": *om to år*. Compare it with *for to år siden* (two years ago) and *i to år* (for two years).
+      table: |
+        Form | Use | Example
+        present + time | plans, timetables | I morgen flyver vi til Oslo.
+        skal | plans, arrangements | Vi skal giftes i juni.
+        vil (gerne) | wishes, intentions | Jeg vil gerne være lærer.
+        kommer til at | predictions | Det kommer til at blive en god sommer.
+        om + time | in (from now) | Om fem år bor vi på landet.
+      examples: |
+        Om to år bliver jeg færdig med min uddannelse. | In two years I'll finish my studies. | present + om + time
+        Næste sommer skal vi på cykelferie i Sverige. | Next summer we're going on a cycling holiday in Sweden. | skal for a plan
+        Jeg vil gerne starte min egen virksomhed en dag. | I'd like to start my own business one day. | vil gerne for a wish
+        Det kommer ikke til at blive let, men jeg prøver. | It won't be easy, but I'll try. | ikke after kommer
+      tip: "Careful in the past: kom til at means \"accidentally\". Jeg kom til at slette din mail = I accidentally deleted your email."
+    dialogue:
+      title: Efter gymnasiet
+      setting: A café in Aalborg in late June. Frida and Benjamin, both 19, have just finished upper secondary school and talk about what comes next.
+      speakers: B=Benjamin/m; F=Frida/f
+      lines: |
+        B: Nå, Frida, hvad skal du lave efter sommerferien? | So, Frida, what are you going to do after the summer holidays?
+        F: Jeg skal arbejde på et hotel i Skagen i et halvt år. | I'm going to work at a hotel in Skagen for six months.
+        B: Spændende! Og bagefter? | Exciting! And after that?
+        F: Jeg vil gerne søge ind på medicin i Aarhus. | I'd like to apply to study medicine in Aarhus.
+        B: Du kommer til at blive en god læge. | You're going to be a good doctor.
+        F: Tak! Men det bliver hårdt. Hvad med dig? | Thanks! But it'll be hard. What about you?
+        B: Jeg tager et sabbatår. Jeg sparer op til en lang rejse. | I'm taking a gap year. I'm saving up for a long trip.
+        F: Hvor vil du rejse hen? | Where do you want to travel?
+        B: Måske Sydamerika. Min drøm er at se Machu Picchu. | Maybe South America. My dream is to see Machu Picchu.
+        F: Du kommer til at savne rugbrød! | You're going to miss rye bread!
+        B: Helt sikkert. Men om et år er jeg hjemme igen. | Definitely. But in a year I'll be home again.
+        F: Så skal vi fejre det med en stor fest. | Then we'll celebrate with a big party.
+    pronunciation:
+      title: "Kommer til at in fast speech"
+      body: |
+        In normal speech, *kommer til at* is said as one quick unit. **Til** is reduced to a short "te", and **at** to a short "a", so you hear something like "KOM-mer-te-a". *Det kommer til at regne* sounds like "de KOM-mer-te-a RAI-ne".
+
+        In **næste år**, the æ is short and the å is long: "NES-te OR". In **planlægge**, stress the first part: "PLAN-leg-ge". Listen and repeat — first slowly, then at normal speed.
+      items: |
+        kommer til at
+        Det kommer til at regne.
+        næste år
+        om et år
+        planlægge
+        helt sikkert
+    culture:
+      title: Choosing an education
+      body: |
+        After the 9th or 10th grade, young Danes choose between an upper secondary school — **gymnasiet** — and a vocational education, **en erhvervsuddannelse**, such as electrician, chef or healthcare worker. Applications for higher education are made centrally online; the main deadline is 5 July, with an earlier deadline on 15 March for some places.
+
+        When students finish gymnasiet in June, they wear a white cap, **studenterhuen**, and ride through town on a decorated truck, stopping at each student's home for a drink and a snack. Many then take one or two gap years before they decide what comes next.
+    mistakes: |
+      Det kommer at regne. => Det kommer til at regne. | The prediction form is komme til at — don't forget til.
+      Jeg vil at studere jura. => Jeg vil studere jura. | After vil, the infinitive has no at.
+      Næste år jeg skal flytte. => Næste år skal jeg flytte. | When a time expression comes first, the verb comes next.
+    task:
+      title: Five years from now
+      mode: speaking
+      body: |
+        Talk for one minute about your future: what you are going to do next year (skal or the present tense), what you would like to do (vil gerne), one dream, and one prediction (kommer til at). Use om + time at least once. Record yourself in Speaking practice and listen back.
+    exercises: |
+      fill: Det ___ til at regne hele dagen. || kommer || Kommer til at + infinitive = a prediction. || @tags da.future
+      fill: Jeg ___ gerne være sygeplejerske. (want) || vil || Vil gerne = would like to. || @tags da.future,da.modal-verbs
+      fill: Vi flytter til Odense ___ to måneder. (in) || om || Om + time = in (from now). || @tags da.prepositions-time,da.future
+      mc: Which sentence is a prediction? || *Du kommer til at elske Skagen. | Jeg vil gerne til Skagen. | Vi skal til Skagen i juli. || Kommer til at predicts. Vil gerne is a wish, and skal is a plan. || @tags da.future
+      mc: "Jeg kom til at slette filen" means… || I came to delete the file. | *I accidentally deleted the file. | I'm going to delete the file. || In the past, kom til at means "accidentally". || @tags da.future,da.past-irregular
+      mc: Choose the correct sentence. || Næste år jeg skal læse i København. | *Næste år skal jeg læse i København. | Næste år skal læse jeg i København. || Time expression first → verb (skal) → subject (jeg) → infinitive. || @tags da.word-order,da.future
+      tf: Frida is going to study medicine straight after the summer. || false || First she's going to work at a hotel in Skagen for six months. || @ctx dialogue
+      short: What does Benjamin dream of seeing? || kw: Machu Picchu/Sydamerika/South America || "Min drøm er at se Machu Picchu." || @ctx dialogue
+      listen: @dialogue || What will Benjamin miss, according to Frida? || His family | *Rye bread | Danish weather || "Du kommer til at savne rugbrød!" || @tags da.listening
+      listen: I august begynder jeg på et nyt job i Vejle, og om et år skal vi købe hus. || When are they going to buy a house? || In August | *In a year | Next month || "Om et år skal vi købe hus." The new job starts in August. || @tags da.future,da.listening
+      rw: Make it a prediction with "kommer til at" :: Det bliver koldt i nat. || Det kommer til at blive koldt i nat. || Kommer til at + infinitive (blive). || @tags da.future
+      tr: Next year I'm going to apply to university. || Næste år vil jeg søge ind på universitetet. | Næste år skal jeg søge ind på universitetet. | Jeg vil søge ind på universitetet næste år. | Jeg skal søge ind på universitetet næste år. | Næste år søger jeg ind på universitetet. || Skal (plan), vil (intention) or the present tense all work. After næste år, the verb comes before jeg. || @tags da.future,da.word-order
+      ask: Tell a friend about your plans for next year and one dream for the future. || kw: skal/vil/kommer til at & næste år/om/i fremtiden || Næste år skal jeg begynde på et nyt job. I fremtiden vil jeg gerne bo ved vandet, og jeg tror, jeg kommer til at savne byen.
+      write: Write a short text called "Mit liv om fem år" — your plans, a wish and one prediction. || min=40 || req: om fem år | skal/vil | kommer til at || Om fem år bor jeg stadig i Danmark, men måske i Aarhus. Jeg skal være færdig med min uddannelse som ingeniør, og jeg vil gerne arbejde med vindenergi. Jeg kommer helt sikkert til at tale bedre dansk! Og måske har vi en hund.
+      dict: Vi sparer op, fordi vi vil købe et hus på landet.
+
+  - title: Making arrangements
+    summary: Make and change arrangements — suggest a time, accept, decline and add conditions with hvis (if): Hvis det regner, tager vi bussen.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [da.subordinate-clauses, da.conditional, da.word-order]
+    objectives:
+      - Suggest a time and place, and accept or decline
+      - Add conditions with hvis
+      - Use the right word order when a hvis-clause comes first
+    intro: |
+      An arrangement often depends on something: if it rains, if you finish early, if the train is late. Danish uses **hvis** (if) for conditions — and hvis starts a subordinate clause. When the hvis-clause comes first, the main clause starts with the verb: **Hvis det regner, tager vi bussen.** In this lesson you will arrange to meet and handle all the "ifs".
+    vocab: |
+      en aftale | an arrangement; an appointment | n | Vi har en aftale på torsdag klokken fire. | We have an arrangement on Thursday at four. | g: c | pl: aftaler | c: lave en aftale (make an arrangement); det er en aftale (it's a deal) | n: The af- sounds like "ow": "OW-ta-le".
+      hvis | if | conj | Hvis du har tid, kan vi spise sammen. | If you have time, we can eat together. | n: Starts a subordinate clause: hvis du ikke har tid…
+      det passer mig fint | that suits me fine | expr | Fredag klokken syv? Det passer mig fint. | Friday at seven? That suits me fine. | n: Question: Passer det dig? (Does it suit you?)
+      foreslå | to suggest | v | Jeg foreslår, at vi mødes klokken syv. | I suggest that we meet at seven. | n: Irregular: foreslog, har foreslået.
+      aflyse | to cancel | v | Jeg er nødt til at aflyse vores aftale. | I have to cancel our arrangement. | n: Past: aflyste.
+      flytte en aftale | to move an appointment | expr | Kan vi flytte mødet til tirsdag? | Can we move the meeting to Tuesday? | n: Flytte means to move house, but also to move an appointment.
+      være nødt til at | to have to | expr | Jeg er nødt til at gå nu. | I have to go now. | n: Stronger than skal: you have no choice.
+      komme for sent | to be late | expr | Undskyld, jeg kommer ti minutter for sent. | Sorry, I'll be ten minutes late. | n: For sent = too late; i god tid = in good time.
+      i stedet | instead | adv | Hvis det regner, ser vi en film i stedet. | If it rains, we'll watch a film instead.
+      senest | at the latest | adv | Jeg er hjemme senest klokken ti. | I'll be home by ten at the latest.
+      ellers | otherwise; or else | adv | Skynd dig, ellers når vi ikke bussen. | Hurry up, or we'll miss the bus. | n: Ellers is followed by the verb: ellers når vi…
+      bekræfte | to confirm | v | Kan du bekræfte tiden i en sms? | Can you confirm the time in a text? | n: Past: bekræftede.
+      spontan | spontaneous | adj | Mine venner er ikke så spontane. De planlægger alt. | My friends aren't very spontaneous. They plan everything. | n: Plural: spontane.
+    grammar:
+      title: "Hvis-clauses: Hvis det regner, tager vi bussen"
+      body: |
+        **Hvis** (if) introduces a condition. It starts a subordinate clause, so it follows the rules from unit 4: the subject comes before the verb, and **ikke** comes before the verb: *hvis du ikke kan komme, hvis vi ikke når toget.*
+
+        The hvis-clause can come **after** the main clause, with normal order: *Vi tager bussen, hvis det regner.*
+
+        Or it can come **first**. Then the whole hvis-clause counts as the first element, and the main clause starts with **the verb** (V2): *Hvis det regner, **tager** vi bussen. Hvis du ikke har tid, **kan** vi mødes i weekenden.* Danes often put **så** at the start of the main clause — and the verb still comes next: *Hvis det regner, så tager vi bussen.*
+
+        **Tense.** For a real possibility in the future, use the **present tense** in both parts, just as in English: *Hvis jeg får fri tidligt, ringer jeg til dig* (If I get off early, I'll call you). Don't use vil or skal after hvis.
+
+        **Når** (when) works the same way, for the future or for things that happen again and again: *Når jeg kommer hjem, ringer jeg.*
+      table: |
+        Order | Example
+        main clause + hvis | Vi spiser i haven, hvis det er godt vejr.
+        hvis first → verb first | Hvis det er godt vejr, spiser vi i haven.
+        hvis + ikke | Hvis du ikke kan komme, så send en sms.
+        hvis + så | Hvis det regner, så bliver vi hjemme.
+        når | Når jeg har fri, ringer jeg til dig.
+      examples: |
+        Hvis toget er forsinket, kommer jeg lidt senere. | If the train is late, I'll come a bit later. | hvis first → the verb comes next
+        Vi kan godt mødes på fredag, hvis det passer dig. | We can meet on Friday if it suits you. | hvis after the main clause
+        Hvis du ikke har tid i dag, kan vi flytte aftalen. | If you don't have time today, we can move the appointment. | ikke before har
+        Ring til mig, når du er færdig. | Call me when you've finished. | når + present tense
+      tip: "After a hvis-clause, the next word is the verb: Hvis det regner, tager vi… Think of the whole hvis-clause as one big first word."
+    dialogue:
+      title: Cykeltur på lørdag
+      setting: A phone call on a Thursday evening in Copenhagen. Leonora suggests a bike ride to Dyrehaven, the deer park north of the city, and her friend Isak checks his week.
+      speakers: L=Leonora/f; I=Isak/m
+      lines: |
+        L: Hej Isak! Skal vi cykle til Dyrehaven på lørdag? | Hi Isak! Shall we cycle to Dyrehaven on Saturday?
+        I: Gerne! Men de siger, at det måske regner. | Sure! But they say it might rain.
+        L: Hvis det regner, tager vi toget og går en tur i stedet. | If it rains, we'll take the train and go for a walk instead.
+        I: God idé. Hvornår passer det dig? | Good idea. When suits you?
+        L: Jeg foreslår klokken ti ved Nørreport. | I suggest ten o'clock at Nørreport.
+        I: Hm, jeg arbejder sent fredag. Kan vi sige halv elleve? | Hmm, I'm working late on Friday. Can we say half past ten?
+        L: Det passer mig fint. Skal jeg tage madpakker med? | That suits me fine. Shall I bring packed lunches?
+        I: Ja tak. Så køber jeg kaffe og kage. | Yes, please. Then I'll buy coffee and cake.
+        L: Og hvis du ikke kan komme alligevel, så send en sms. | And if you can't come after all, send me a text.
+        I: Selvfølgelig. Men jeg kommer helt sikkert. | Of course. But I'll definitely come.
+        L: Okay. Ellers ringer jeg til dig lørdag morgen. | Okay. Otherwise I'll call you on Saturday morning.
+        I: Perfekt. Det er en aftale! | Perfect. It's a deal!
+    pronunciation:
+      title: "Silent h in hv-, and af- as \"ow\""
+      body: |
+        In words starting with **hv-**, the h is silent: **hvis** sounds like "vees", **hvornår** like "vor-NOR", and **hvad** like "va". So *hvis* (if) and *vis* (wise) sound the same.
+
+        In **aftale** and **aflyse**, the letters *af-* sound like "ow" in English *how*: "OW-ta-le", "OW-ly-se". Listen and repeat, then say the whole sentences with the stress on the important words.
+      items: |
+        hvis
+        hvornår
+        aftale
+        aflyse
+        Hvornår passer det dig?
+        Hvis det regner, tager vi bussen.
+    culture:
+      title: Planning ahead, Danish style
+      body: |
+        Many Danes plan their free time days or even weeks in advance, and calendars fill up quickly — so "Skal vi ses i weekenden?" may be answered with "Lad mig lige tjekke min kalender." Turning up at a friend's home without an arrangement is less common than in many other countries.
+
+        Being on time matters. If you're going to be late, send a text before the agreed time. If you have to cancel, do it as early as possible, give a short reason and suggest a new time: *Jeg er desværre nødt til at aflyse. Kan vi flytte det til næste uge?*
+    mistakes: |
+      Hvis det regner, vi tager bussen. => Hvis det regner, tager vi bussen. | After a hvis-clause, the main clause starts with the verb.
+      Hvis du kan ikke komme, så ring. => Hvis du ikke kan komme, så ring. | In a hvis-clause, ikke comes before the verb.
+      Hvis jeg vil have tid, ringer jeg. => Hvis jeg har tid, ringer jeg. | Use the present tense after hvis — not vil or skal.
+    task:
+      title: Make plans for the weekend
+      mode: interaction
+      body: |
+        Arrange to meet a friend at the weekend: suggest an activity, a time and a place, add one condition with hvis (the weather, work, a late train), and agree on a plan B. Practise in the "Making weekend plans" scenario with the AI coach.
+    exercises: |
+      fill: Hvis det regner, ___ vi hjemme. (blive) || bliver || After the hvis-clause, the main clause starts with the verb: bliver vi. || @tags da.subordinate-clauses,da.word-order
+      fill: Hvis du ___ ___ tid, kan vi mødes i morgen. (don't have) || ikke ; har || In a hvis-clause, ikke comes before the verb. || @tags da.subordinate-clauses,da.negation
+      mc: Choose the correct sentence. || Hvis jeg får fri tidligt, jeg ringer til dig. | *Hvis jeg får fri tidligt, ringer jeg til dig. | Hvis får jeg fri tidligt, ringer jeg til dig. || Normal order inside the hvis-clause (jeg får); then the main clause starts with the verb (ringer jeg). || @tags da.subordinate-clauses,da.word-order
+      mc: "Hvis toget ___ forsinket, tager jeg en taxa." || *er | vil være | kommer til at være || After hvis, use the present tense for the future: hvis toget er forsinket. || @tags da.conditional,da.present
+      mc: You can't come to an arrangement. What's the most polite? || Jeg kommer ikke. | *Jeg er desværre nødt til at aflyse. Kan vi flytte det til tirsdag? | Aflys det. || Desværre, a reason (nødt til) and a new suggestion make it polite. || @tags da.register
+      tf: Isak and Leonora will meet at ten o'clock. || false || Isak works late on Friday, so they agree on half past ten. || @ctx dialogue
+      short: What will Leonora bring? || kw: madpakker/madpakke/packed lunch/packed lunches/lunch/sandwiches || "Skal jeg tage madpakker med? – Ja tak." || @ctx dialogue
+      listen: @dialogue || What will they do if it rains? || Stay at home | *Take the train and go for a walk | Go to a café || "Hvis det regner, tager vi toget og går en tur i stedet." || @tags da.listening
+      listen: Hej, det er Clara. Jeg kommer desværre tyve minutter for sent, fordi bussen er forsinket. Hvis I er sultne, så bare begynd uden mig. || What should the others do if they are hungry? || Wait for Clara | *Start without her | Order a taxi || "Hvis I er sultne, så bare begynd uden mig." || @tags da.subordinate-clauses,da.listening
+      rw: Start with "Hvis" :: Vi spiser i haven, hvis det er godt vejr. || Hvis det er godt vejr, spiser vi i haven. | Hvis det er godt vejr, så spiser vi i haven. || The hvis-clause first, then the verb (spiser) before the subject (vi). || @tags da.subordinate-clauses,da.word-order
+      order: Hvis du ikke kan komme, så send mig en sms. || If you can't come, send me a text. || @tags da.subordinate-clauses,da.negation
+      tr: If I finish early, I'll call you. || Hvis jeg bliver færdig tidligt, ringer jeg til dig. | Hvis jeg får fri tidligt, ringer jeg til dig. | Jeg ringer til dig, hvis jeg bliver færdig tidligt. | Jeg ringer til dig, hvis jeg får fri tidligt. | Hvis jeg er færdig tidligt, ringer jeg til dig. || Present tense in both parts; after a hvis-clause, the verb comes first. || @tags da.subordinate-clauses,da.conditional
+      ask: Suggest a plan for Saturday to a friend, with a plan B using hvis. || kw: hvis & lørdag/klokken/mødes/ses & i stedet/ellers/så || Skal vi mødes ved havnen klokken to på lørdag? Hvis det regner, går vi på museum i stedet.
+      write: Write a text message to move an arrangement — say why, suggest a new time, and add a condition with hvis. || min=30 || req: nødt til/desværre/aflyse/flytte | hvis | mandag/tirsdag/onsdag/torsdag/fredag/lørdag/søndag/klokken || Hej Sofie! Jeg er desværre nødt til at flytte vores aftale i morgen, fordi jeg skal arbejde over. Kan vi mødes på torsdag klokken fem i stedet? Hvis det ikke passer dig, kan vi også ses i weekenden. Undskyld! Hilsen Jonas
+      dict: Jeg er hjemme senest klokken ti, hvis bussen kører.
+
+  - title: Comparing options
+    summary: Compare options for a journey and other everyday choices, and choose the best one — with superlatives like billigst, hurtigst, bedst and mest praktisk.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [da.comparatives, da.opinion, da.subordinate-clauses]
+    objectives:
+      - Compare three or more options with superlatives
+      - Use the irregular forms bedst, størst, mindst and flest
+      - Give a reason for your choice with fordi
+    intro: |
+      Train, bus or car? Danes compare options all the time — price, time, comfort and the environment. In this lesson you will learn the superlative (the cheapest, the fastest, the best): **billigst, hurtigst, bedst**. You will compare ways of travelling and explain your decision with fordi.
+    vocab: |
+      en mulighed | an option; a possibility | n | Vi har tre muligheder: tog, bus eller bil. | We have three options: train, bus or car. | g: c | pl: muligheder
+      vælge | to choose | v | Hvilket tog vælger du? | Which train are you choosing? | n: Irregular: valgte, har valgt.
+      hurtig | fast; quick | adj | Toget er hurtigst, men bilen er mest fleksibel. | The train is fastest, but the car is most flexible. | n: hurtig → hurtigere → hurtigst.
+      langsom | slow | adj | Bussen er langsom, men den er billigst. | The bus is slow, but it's the cheapest. | n: langsom → langsommere → langsomst.
+      praktisk | practical | adj | Det er mest praktisk at tage cyklen. | It's most practical to take the bike. | n: Ends in -isk, so: mere praktisk, mest praktisk.
+      miljøvenlig | environmentally friendly | adj | Toget er mere miljøvenligt end flyet. | The train is more environmentally friendly than the plane. | n: Et-words: miljøvenligt. Long word, so: mere, mest.
+      en pris | a price | n | Hvad er prisen for en returbillet? | What's the price of a return ticket? | g: c | pl: priser
+      en fordel | an advantage | n | Fordelen ved bilen er, at vi kan stoppe, hvor vi vil. | The advantage of the car is that we can stop where we like. | g: c | pl: fordele
+      en ulempe | a disadvantage | n | Ulempen er, at det tager lang tid. | The disadvantage is that it takes a long time. | g: c | pl: ulemper
+      tage tid | to take (time) | expr | Det tager tre timer med tog. | It takes three hours by train. | n: Hvor lang tid tager det? = How long does it take?
+      bedst | best | adj | Hvad synes du er bedst? | What do you think is best? | n: god → bedre → bedst.
+      i alt | in total | expr | Turen koster 1.200 kroner i alt. | The trip costs 1,200 kroner in total.
+      komfortabel | comfortable | adj | Toget er mere komfortabelt end bussen. | The train is more comfortable than the bus. | n: Et-words: komfortabelt; plural: komfortable.
+    grammar:
+      title: "Superlatives: billigst, hurtigst, bedst"
+      body: |
+        The **superlative** (the cheapest, the fastest) adds **-est** or **-st**:
+
+        - most adjectives add **-est**: *ny → nyest, varm → varmest, lys → lysest, dyr → dyrest, tæt → tættest.*
+        - adjectives ending in **-ig, -lig** and **-som** add only **-st**: *billig → billigst, hurtig → hurtigst, venlig → venligst, langsom → langsomst.*
+        - the irregular ones follow the comparatives you know: *god → bedst, stor → størst, lille → mindst, gammel → ældst, ung → yngst, mange → flest, meget → mest, lang → længst.*
+        - long adjectives and those ending in **-isk** or **-e** use **mest**: *mest praktisk, mest moderne, mest spændende.*
+
+        After **er** or **bliver**, the superlative doesn't change: *Toget er hurtigst. Billetterne er billigst om tirsdagen. Hvilken bus er billigst?*
+
+        Before a noun, Danish uses a definite form — *den billigste billet, det bedste valg* — which you will practise at B1. For now you can use *den billigste* and *det bedste* as fixed phrases: *Jeg tager den billigste.*
+
+        Give your reason with **fordi**: *Jeg vælger toget, fordi det er hurtigst.*
+      table: |
+        Adjective | Comparative | Superlative
+        billig | billigere | billigst
+        hurtig | hurtigere | hurtigst
+        ny | nyere | nyest
+        dyr | dyrere | dyrest
+        god | bedre | bedst
+        stor | større | størst
+        lille | mindre | mindst
+        mange | flere | flest
+        praktisk | mere praktisk | mest praktisk
+      examples: |
+        Bussen er billigst, men toget er hurtigst. | The bus is cheapest, but the train is fastest. | after er: no ending
+        Hvad er bedst for miljøet — tog eller bil? | What's best for the environment — train or car? | god → bedst
+        Om sommeren er færgen mest populær. | In summer the ferry is most popular. | long adjective: mest
+        Jeg vælger toget, fordi det er hurtigst. | I'm choosing the train because it's fastest. | a reason with fordi
+      tip: "-ig, -lig and -som add only -st: billigst, venligst, langsomst. Most other adjectives add -est: nyest, dyrest, varmest."
+    dialogue:
+      title: Tog, bus eller bil?
+      setting: A kitchen in Valby in early December. Zara and Kristoffer are going to visit his parents in Aarhus for Christmas and compare ways to get there.
+      speakers: K=Kristoffer/m; Z=Zara/f
+      lines: |
+        K: Skal vi tage toget, bussen eller bilen til Aarhus? | Shall we take the train, the bus or the car to Aarhus?
+        Z: Bussen er billigst. Den koster kun 150 kroner per person. | The bus is cheapest. It only costs 150 kroner per person.
+        K: Ja, men den er også langsomst. Den tager næsten fire timer. | Yes, but it's also slowest. It takes almost four hours.
+        Z: Og toget? | And the train?
+        K: Toget er hurtigst. Det tager under tre timer. | The train is fastest. It takes under three hours.
+        Z: Men billetterne er dyrest lige før jul. | But the tickets are most expensive just before Christmas.
+        K: Hvad med bilen? Så kan vi tage gaverne med. | What about the car? Then we can take the presents with us.
+        Z: Det er mest praktisk, men benzinen og broen koster også. | It's most practical, but the petrol and the bridge cost money too.
+        K: Hvad synes du er bedst for miljøet? | What do you think is best for the environment?
+        Z: Toget, helt sikkert. Hvis vi bestiller nu, er det ikke så dyrt. | The train, definitely. If we book now, it isn't so expensive.
+        K: Okay, så tager vi toget. Og gaverne sender vi med posten! | Okay, then we'll take the train. And we'll send the presents by post!
+        Z: Ha! Eller vi køber dem i Aarhus. | Ha! Or we'll buy them in Aarhus.
+    pronunciation:
+      title: Superlatives with silent letters
+      body: |
+        Superlatives often hide silent letters. In **bedst** and **mindst** the d is silent: "best", "minst". In **billigst** and **hurtigst** the g is silent: "BIL-list", "HUR-tist".
+
+        In **størst** you hear a long, open ø and a vowel-like r: roughly "STURST". **Flest** is just what it looks like: "flest". Listen and repeat, then say the whole sentence with the stress on the superlative.
+      items: |
+        bedst
+        mindst
+        billigst
+        hurtigst
+        størst
+        Toget er hurtigst.
+    culture:
+      title: Getting around Denmark
+      body: |
+        In Danish cities, the bike is often the fastest and cheapest option — and many people cycle all year. Between the big cities there are frequent trains, while long-distance buses are usually cheaper but slower. Most people check routes and prices in an online journey planner before they leave.
+
+        If you drive between Zealand and Funen, you cross the Great Belt Bridge, **Storebæltsbroen**, which has a toll. Many Danes also think about the climate when they choose how to travel, and the train is a popular choice for that reason.
+    mistakes: |
+      Toget er mest hurtig. => Toget er hurtigst. | Short adjectives take -st or -est; mest is for long ones like praktisk.
+      Bussen er billigest. => Bussen er billigst. | Adjectives in -ig add only -st: billigst.
+      Det er godst. => Det er bedst. | God is irregular: god → bedre → bedst.
+    task:
+      title: Choose the best way to travel
+      mode: speaking
+      body: |
+        You and a friend want to travel between two Danish cities (for example Copenhagen and Odense). Compare at least three options — price, time, comfort and the environment. Use three superlatives and explain your choice with fordi. Record yourself in Speaking practice.
+    exercises: |
+      fill: Bussen er langsom, men den er ___. (billig — the cheapest) || billigst || Billig ends in -ig, so it adds only -st: billigst. || @tags da.comparatives
+      fill: Hvilket tog er ___? (hurtig — the fastest) || hurtigst || Hurtig → hurtigere → hurtigst. || @tags da.comparatives
+      fill: Om sommeren er cyklen ___ praktisk. (the most) || mest || Praktisk ends in -isk, so it uses mest. || @tags da.comparatives
+      mc: What is the superlative of "god"? || godest | *bedst | mest god || God is irregular: god → bedre → bedst. || @tags da.comparatives
+      mc: Choose the correct sentence. || Toget er mest hurtig. | *Toget er hurtigst. | Toget er hurtigest. || Hurtig ends in -ig, so it adds only -st, and short adjectives don't use mest. || @tags da.comparatives
+      match: god = bedst ; stor = størst ; lille = mindst ; gammel = ældst ; mange = flest ; meget = mest || The irregular superlatives follow the irregular comparatives. || @tags da.comparatives
+      tf: The bus is the fastest option. || false || The bus is cheapest but slowest; the train is fastest. || @ctx dialogue
+      short: Which option do they choose in the end? || kw: tog/toget/train || "Okay, så tager vi toget." || @ctx dialogue
+      listen: @dialogue || Why is the car the most practical? || It's cheapest | *They can take the presents with them | It's fastest || "Hvad med bilen? Så kan vi tage gaverne med." || @tags da.listening
+      listen: Flyet er hurtigst, men det er også dyrest. Toget tager fire timer, men det er billigst, og det er bedst for miljøet. || Which option is cheapest? || The plane | *The train | The car || "Toget … er billigst." || @tags da.comparatives,da.listening
+      rw: Use the superlative :: Toget er hurtigere end bussen og bilen. || Toget er hurtigst. | Toget er det hurtigste. || Compared with all the others, the train is hurtigst. || @tags da.comparatives
+      tr: The train is the fastest, but the bus is the cheapest. || Toget er hurtigst, men bussen er billigst. | Toget er det hurtigste, men bussen er den billigste. | Toget er hurtigst, men bussen er den billigste. || After er the superlative needs no ending: hurtigst, billigst. || @tags da.comparatives
+      ask: Compare three ways to get to work or school, and say which one you choose and why. || kw: billigst/hurtigst/bedst/mest/nemmest/langsomst/dyrest & fordi || Cyklen er billigst, og bussen er hurtigst, men jeg tager cyklen, fordi den er bedst for miljøet.
+      write: Write a message to a friend comparing three options for a weekend trip, and suggest the best one. || min=40 || req: billigst/hurtigst/bedst/mest/dyrest/langsomst/nemmest | fordi | tog/bus/bil/færge/fly || Hej Rasmus! Jeg har tjekket vores muligheder til Bornholm. Flyet er hurtigst, men det er også dyrest. Bussen og færgen er billigst, men turen tager over fem timer. Toget og færgen tager tre timer, og det er nemmest. Jeg synes, vi skal tage toget, fordi det er mest komfortabelt. Hvad synes du? Hilsen Laura
+      dict: Det tager tre timer med toget, og det er mest praktisk.
