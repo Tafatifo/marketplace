@@ -1,0 +1,378 @@
+unit: 1
+title: Mennesker og relationer
+theme: People and relationships
+description: Describe personality and character, talk about friendship and disagreements, and tell an anecdote — with relative clauses (som and der), past versus perfect, and da, når and mens.
+free: true
+objectives:
+  - Describe people's personality with adjectives and relative clauses with som and der
+  - Talk about friendships and disagreements, choosing between the past and the perfect
+  - Tell an anecdote with da, når and mens and a few story words
+canDo:
+  - I can describe someone's personality and explain what I like about them.
+  - I can join sentences with som and der and put ikke in the right place.
+  - I can say how long I have known someone and tell what happened when we disagreed.
+  - I can tell a short funny or embarrassing story about something that happened to me.
+review: |
+  fill: Min nabo er en mand, ___ alle kan lide. || som || Alle is the subject of the relative clause, so the relative word is the object — and only som can be an object. Der is for subjects only. || @tags da.relative-clauses
+  mc: Which sentence is correct? || *Det er en film, som jeg ikke har set. | Det er en film, som jeg har ikke set. | Det er en film, som ikke jeg har set. || A relative clause is a subordinate clause: subject first, then ikke, then the verb — som jeg ikke har set. || @tags da.relative-clauses,da.negation
+  fill: Vi ___ i Vejle i seks år nu, og vi elsker det. (bo) || har boet || The situation started in the past and is still true, so use the perfect + i: har boet … i seks år. || @tags da.perfect,da.prepositions-time
+  mc: "Vi har ikke set hinanden, siden han ___ til Sverige." || *flyttede | har flyttet | flytter || The siden-clause names the event that started the period, and that event is finished: use the past, flyttede. || @tags da.past,da.perfect
+  fill: ___ jeg tog bussen i morges, mødte jeg min gamle dansklærer. || Da || One single event in the past takes da. Når is for repeated events or the future. || @tags da.subordinate-clauses
+  mc: "Hun er meget pålidelig." What does this tell you? || *You can count on her | She is very curious | She is often late || Pålidelig means reliable. Curious is nysgerrig. || @tags da.vocabulary
+  tr: She got annoyed, but in the end she forgave me. || Hun blev sur, men til sidst tilgav hun mig. | Hun blev sur, men hun tilgav mig til sidst. | Hun blev irriteret, men til sidst tilgav hun mig. || Til sidst at the start of the clause triggers V2: til sidst tilgav hun. Tilgive has the irregular past tilgav. || @tags da.past-irregular,da.word-order
+  listen: Jeg har en kollega, der altid er i godt humør. Hun er også meget hjælpsom, så alle kan lide hende. || What is the colleague like? || *Cheerful and helpful | Shy and stubborn | Honest but impatient || "Altid i godt humør" — always in a good mood — and "meget hjælpsom" — very helpful. || @tags da.listening,da.relative-clauses
+  listen: Mens vi gik en tur i skoven i søndags, begyndte det pludselig at regne, og vi blev helt våde. || What happened on Sunday? || *It suddenly started to rain | They got lost in the woods | They met an old friend || "Begyndte det pludselig at regne" — it suddenly started to rain, and they got soaked. || @tags da.listening,da.subordinate-clauses
+  ask: Describe a good friend: what kind of person they are, and how and when you met. || kw: som/der & har kendt/har været/mødtes/mødte || Min bedste ven hedder Ali. Han er en person, som altid er ærlig, også når det er svært. Vi mødtes på universitetet i 2015, og vi har været venner lige siden.
+  write: Write an email to an old friend you have lost touch with. Say how long it is since you last saw each other, what has happened in your life, and remind them of a funny moment you shared. || min=60 || req: har | da | som/der | savner/savnet/tænkt på || Kære Jonas! Vi har ikke set hinanden, siden du flyttede til Bergen for fem år siden. Jeg har tænkt meget på dig. Jeg har fået nyt job og bor nu i Aarhus med min kæreste, som er fra Island. Kan du huske, da vi tog den forkerte færge til Samsø og måtte sove på havnen? Jeg griner stadig, når jeg tænker på det. Jeg savner dig! Skal vi tale sammen snart? Kærlig hilsen Mads
+lessons:
+  - title: Personality and character
+    summary: Describe what people are like with personality adjectives, and add information with relative clauses using som and der.
+    minutes: 45
+    skills: [grammar, vocabulary, speaking]
+    tags: [da.relative-clauses, da.adjective-agreement]
+    objectives:
+      - Describe personality with adjectives such as ærlig, stædig and tålmodig
+      - Join sentences with relative clauses using som and der
+      - Place ikke, altid and prepositions correctly in a relative clause
+    intro: |
+      What is your new colleague like? Who would you trust with your keys? To answer questions like these, you need more than *sød* and *sjov*: you need words for personality and a way to add detail about a person in one smooth sentence. Danish does this with relative clauses — **en ven, som altid hjælper** — and in this lesson you will learn when to use **som**, when **der** works too, and where ikke and prepositions go.
+    vocab: |
+      ærlig | honest | adj | Min bedste ven er altid ærlig, også når det er ubehageligt. | My best friend is always honest, even when it's unpleasant. | n: With et-words: ærligt; plural: ærlige. The g is silent.
+      hjælpsom | helpful | adj | Vores nye nabo er utrolig hjælpsom. | Our new neighbour is incredibly helpful. | n: Plural and definite: hjælpsomme, with double m.
+      tålmodig | patient | adj | Man skal være tålmodig, når man lærer et nyt sprog. | You have to be patient when you learn a new language. | n: The opposite is utålmodig.
+      stædig | stubborn | adj | Min farfar er stædig og skifter aldrig mening. | My grandfather is stubborn and never changes his mind. | n: It can also be positive, a bit like "determined".
+      nysgerrig | curious | adj | Hun er nysgerrig og stiller mange spørgsmål. | She is curious and asks lots of questions. | c: nysgerrig efter at vide (curious to know)
+      genert | shy | adj | Som barn var jeg meget genert over for voksne. | As a child I was very shy with adults. | n: The g sounds like "sh": "she-NERT". With et-words: genert (no extra t).
+      pålidelig | reliable | adj | Jonas er pålidelig — han holder altid, hvad han lover. | Jonas is reliable — he always keeps his promises. | n: The opposite is upålidelig.
+      selvsikker | self-confident | adj | Hun virker selvsikker, men hun er faktisk lidt nervøs. | She seems self-confident, but she's actually a bit nervous. | n: Plural: selvsikre.
+      udadvendt | outgoing | adj | Min søster er meget mere udadvendt end mig. | My sister is much more outgoing than me. | n: The opposite is indadvendt (introverted).
+      en egenskab | a quality; a trait | n | Hvad er din bedste egenskab? | What is your best quality? | g: c | pl: egenskaber | c: en god egenskab; en dårlig egenskab
+      et humør | a mood | n | Han er altid i godt humør om morgenen. | He's always in a good mood in the morning. | g: n | c: i godt humør; i dårligt humør
+      virke | to seem; to work | v | Den nye chef virker rolig og venlig. | The new boss seems calm and friendly. | n: Virke + adjective = seem. Past: virkede. Maskinen virker ikke = the machine doesn't work.
+      stole på | to trust; to rely on | v | Jeg stoler fuldstændig på hende. | I trust her completely. | n: In a relative clause, på goes to the end: en ven, som jeg stoler på.
+    grammar:
+      title: "Relative clauses with som and der"
+      body: |
+        A relative clause adds information about a noun: *en ven, **som** altid hjælper* (a friend who always helps). Danish has two relative words:
+
+        - **som** can be the **subject** or the **object** of the relative clause: *en kollega, som griner meget* (subject) · *en kollega, som jeg godt kan lide* (object — jeg is the subject).
+        - **der** can **only be the subject**: *en kollega, der griner meget*. You can't use der when the clause already has a subject: *en kollega, som jeg kan lide* — not *der jeg kan lide*.
+
+        When som is the object, you can leave it out, especially in speech: *den bog (som) jeg læser lige nu*. When it is the subject, it must stay.
+
+        A relative clause is a **subordinate clause**, so ikke and other sentence adverbs (*altid, aldrig, også*) come **before** the verb: *en person, der **ikke** lytter* · *en ven, som **altid** har tid*.
+
+        A preposition goes to the **end** of the relative clause: *en ven, som jeg stoler **på*** (a friend I trust) · *de kolleger, som jeg arbejder sammen **med***. English sometimes says "with whom", but Danish never moves the preposition to the front.
+
+        A comma before som or der is common but optional in modern Danish. A comma after a relative clause in the middle of a sentence helps the reader: *Den nabo, som bor under os, er meget hjælpsom.*
+      table: |
+        Relative word | Its role in the clause | Example
+        som | subject | en ven, som altid hjælper
+        der | subject | en ven, der altid hjælper
+        som (or nothing) | object | en ven, (som) jeg savner
+        som + preposition at the end | object of a preposition | en ven, som jeg stoler på
+      examples: |
+        Jeg har en kollega, der aldrig bliver sur. | I have a colleague who never gets angry. | der is the subject; aldrig before the verb
+        Det er den mest tålmodige lærer, jeg har haft. | It's the most patient teacher I've had. | som (object) is left out
+        Min mormor er et menneske, som alle kan stole på. | My grandmother is a person everyone can trust. | the preposition på at the end
+        De naboer, som bor under os, er meget hjælpsomme. | The neighbours who live below us are very helpful. | a relative clause in the middle of the sentence
+      tip: "When in doubt, use som — it is always correct. Der is only possible when it is the subject of its clause."
+    dialogue:
+      title: Den nye bofælle
+      setting: A shared flat in Aarhus. Emma and Tobias have met three people who want the empty room, and now they have to choose one.
+      speakers: E=Emma/f; T=Tobias/m
+      lines: |
+        E: Nå, Tobias, vi skal finde en ny bofælle inden fredag. Hvem kunne du bedst lide? | Right, Tobias, we have to find a new flatmate by Friday. Who did you like best?
+        T: Jeg kunne godt lide ham, der læser medicin. Han virkede rolig og ærlig. | I liked the guy who studies medicine. He seemed calm and honest.
+        E: Ja, men var han ikke lidt genert? Han sagde næsten ingenting hele tiden. | Yes, but wasn't he a bit shy? He hardly said anything the whole time.
+        T: Måske, men jeg vil hellere bo med en stille person end med en festabe. | Maybe, but I'd rather live with a quiet person than with a party animal.
+        E: Hvad med Sara, som vi mødte i går? Hun var både sjov og udadvendt. | What about Sara, who we met yesterday? She was both funny and outgoing.
+        T: Hun var sød, men hun kom en halv time for sent. | She was nice, but she came half an hour late.
+        E: Det var bussens skyld. Hun sendte en sms og undskyldte flere gange. | That was the bus's fault. She sent a text and apologised several times.
+        T: Okay. Og den sidste, Malik? Han havde mange meninger om rengøring. | OK. And the last one, Malik? He had a lot of opinions about cleaning.
+        E: Ha, ja! Men jeg kan godt lide folk, der siger tingene direkte. | Ha, yes! But I like people who say things directly.
+        T: Det er rigtigt. Og han er nok typen, der faktisk tager opvasken. | That's true. And he's probably the type who actually does the washing-up.
+        E: Skal vi invitere ham på kaffe igen og se, om kemien er der? | Shall we invite him for coffee again and see if the chemistry is there?
+        T: God idé. Jeg skriver til ham i aften, når jeg kommer hjem. | Good idea. I'll write to him tonight when I get home.
+    pronunciation:
+      title: "-ig and -lig: the silent g"
+      body: |
+        Many personality adjectives end in **-ig** or **-lig**, and in both endings the g is silent: *ærlig* sounds like "ÆR-li", *stædig* like "STÆ-di", and *nysgerrig* like "NYS-ger-ri". The silent g stays silent when an ending is added: *ærlige* sounds like "ÆR-li-e".
+
+        In *stædig*, *tålmodig* and *pålidelig*, the d between vowels is the soft Danish d — the tongue touches the back of the lower teeth, much like the "th" in English *this*. Listen and repeat each word, then the whole sentence.
+      items: |
+        ærlig
+        stædig
+        tålmodig
+        nysgerrig
+        pålidelig
+        Hun er ærlig og meget tålmodig.
+    culture:
+      title: Making friends in Denmark
+      body: |
+        Many newcomers say that it takes time to make Danish friends. One reason is that a lot of Danes keep the friends they made at school, at **efterskole** (a boarding school for 14- to 17-year-olds) or at university, and their weekends are already busy with family and old friends.
+
+        The easiest way in is often through a **forening** — an association or club. Denmark has tens of thousands of them, from choirs and football clubs to knitting groups and volunteer networks. When you meet the same people every week around a shared interest, a friendship can grow naturally — and once it does, it often lasts for many years.
+    mistakes: |
+      en ven, der jeg stoler på => en ven, som jeg stoler på | Der can only be the subject. Here jeg is the subject, so use som — or leave the relative word out.
+      en kollega, der hjælper ikke => en kollega, der ikke hjælper | In a relative clause, ikke comes before the verb.
+      en ven, på som jeg stoler => en ven, som jeg stoler på | The preposition always goes to the end of the relative clause.
+    task:
+      title: A person I admire
+      mode: speaking
+      body: |
+        Think of a person you admire — a friend, a relative, a teacher or a colleague. Describe them in six or seven sentences: what they are like, one quality you would like to have yourself, and an example of something they do. Use at least three personality adjectives and two relative clauses with som or der. Record yourself in Speaking practice and check where you put ikke and altid.
+    exercises: |
+      fill: Jeg har en kollega, ___ altid kommer til tiden. || der / som || Here the relative word is the subject, so both der and som are correct. || @tags da.relative-clauses
+      fill: Det er den ven, ___ jeg ringer til, når jeg har problemer. || som || Jeg is the subject of the relative clause, so the relative word is an object, and only som works. In speech you could also leave it out. || @tags da.relative-clauses
+      mc: Which sentence is correct? || *Han er en person, der aldrig bliver sur. | Han er en person, der bliver aldrig sur. | Han er en person, aldrig der bliver sur. || In a relative clause, aldrig comes before the verb: der aldrig bliver. || @tags da.relative-clauses,da.sentence-adverbs
+      mc: In which sentence can you leave out som? || *Det er den hund, som vi passer i weekenden. | Det er den hund, som bider. | Det er den hund, som altid gør. || Som can only be left out when it is the object. In "som vi passer", vi is the subject and som is the object; in the other two, som is the subject. || @tags da.relative-clauses
+      match: genert = udadvendt ; tålmodig = utålmodig ; rolig = nervøs ; ærlig = uærlig || These are opposites: shy – outgoing, patient – impatient, calm – nervous, honest – dishonest. || @hint Match each word with its opposite. @tags da.vocabulary
+      tf: Emma thought the medicine student was a bit shy. || true || "Var han ikke lidt genert? Han sagde næsten ingenting." || @ctx dialogue
+      short: Why was Sara late? || kw: bus/bussen/bussens || "Det var bussens skyld" — it was the bus's fault. || @ctx dialogue
+      listen: @dialogue || Who do Emma and Tobias decide to invite for coffee again? || The medicine student | Sara | *Malik || Emma likes people "der siger tingene direkte", and Tobias says he will write to "ham" — Malik — tonight. || @tags da.listening
+      listen: Min nye kollega, Henrik, er meget hjælpsom, men han er også lidt stædig. Han vil altid bestemme, hvordan vi gør tingene. || What is Henrik like? || *Helpful but a bit stubborn | Shy and patient | Curious but unreliable || "Meget hjælpsom, men … lidt stædig" — very helpful but a bit stubborn. || @tags da.listening
+      order: Jeg savner de venner, som jeg boede sammen med i Odense. || I miss the friends I lived with in Odense. || @tags da.relative-clauses
+      rw: Join the two sentences with a relative clause :: Jeg har en nabo. Hun hjælper mig altid. || Jeg har en nabo, som altid hjælper mig. | Jeg har en nabo, der altid hjælper mig. || Hun becomes som or der, and in the relative clause altid moves before the verb: som altid hjælper mig. || @tags da.relative-clauses,da.sentence-adverbs
+      tr: She is a person everyone can trust. || Hun er en person, som alle kan stole på. | Hun er en person, alle kan stole på. | Hun er et menneske, som alle kan stole på. | Hun er et menneske, alle kan stole på. || Stole på keeps its preposition at the end of the relative clause: som alle kan stole på. || @tags da.relative-clauses
+      ask: Describe your best friend's personality to a new colleague. Use at least two adjectives and one relative clause. || kw: er & som/der || Min bedste ven hedder Kasper. Han er ærlig og meget tålmodig, og han er en person, som altid har tid til andre.
+      write: Write a short profile (4–5 sentences) for a flat-share website about your personality and the kind of flatmate you are looking for. || min=40 || req: jeg er | som/der | ikke/aldrig/altid || Hej! Jeg hedder Laura og er 26 år. Jeg er udadvendt og ret ryddelig, men jeg er ikke perfekt. Jeg søger en bofælle, som er ærlig og hjælpsom, og som ikke spiller høj musik om natten. Det er også fint, hvis du er lidt genert. Jeg laver gerne mad til os begge om søndagen!
+      dict: Hun er en person, der altid siger, hvad hun mener.
+
+  - title: Friendship and disagreements
+    summary: Talk about how long you have known people, what happened when you disagreed and how you made up — choosing between the past and the perfect.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [da.perfect, da.past, da.s-verbs]
+    objectives:
+      - Use the perfect for situations that are still true (har kendt … i ti år) and with lige
+      - Use siden with the past to say since when something has been true
+      - Talk about quarrels, apologies and making up
+    intro: |
+      Friendships have a history: how long you've known each other, the time you fell out, the day you made up. Telling that history means choosing again and again between the past (*skændtes*) and the perfect (*har kendt*). You met the basic rule at A2; now you will learn the uses that make your Danish sound natural — the perfect for things that are still true, the little word **lige** (just), and **siden** (since).
+    vocab: |
+      et venskab | a friendship | n | Vores venskab begyndte på efterskolen. | Our friendship began at boarding school. | g: n | pl: venskaber
+      en veninde | a (female) friend | n | Jeg skal i biografen med en veninde i aften. | I'm going to the cinema with a friend tonight. | g: c | pl: veninder | n: Used by and about women. En ven can be any friend.
+      hinanden | each other | pron | Vi har kendt hinanden i tyve år. | We have known each other for twenty years. | n: The d is silent: "hin-AN-en".
+      skændes | to argue; to quarrel | v | Mine forældre skændes aldrig om penge. | My parents never argue about money. | c: skændes om noget (argue about something) | n: An s-verb. Past: skændtes; perfect: har skændtes.
+      være uenig | to disagree | expr | Jeg er uenig med dig i det. | I disagree with you about that. | n: uenig med en person; uenig i en sag. The opposite is være enig.
+      blive sur | to get annoyed; to get cross | expr | Hun blev sur, fordi jeg glemte hendes fødselsdag. | She got annoyed because I forgot her birthday. | n: Sur is milder than vred (angry).
+      undskylde | to apologise | v | Han undskyldte og gav hende en buket blomster. | He apologised and gave her a bunch of flowers. | c: undskylde for noget | n: Past: undskyldte.
+      tilgive | to forgive | v | Det tog lang tid, før hun tilgav mig. | It took a long time before she forgave me. | n: Irregular: tilgav, har tilgivet.
+      en misforståelse | a misunderstanding | n | Det hele var en stor misforståelse. | The whole thing was a big misunderstanding. | g: c | pl: misforståelser
+      savne | to miss | v | Jeg savner mine venner fra gymnasiet. | I miss my friends from upper secondary school. | n: Past: savnede.
+      holde kontakten | to keep in touch | expr | Vi holder kontakten over video hver søndag. | We keep in touch over video every Sunday. | n: The opposite: miste kontakten (lose touch).
+      lige | just | adv | Jeg har lige skrevet til hende. | I've just written to her. | n: With the perfect, lige means "just now". It can also mean "straight" or "equal".
+      blive gode venner igen | to make up | expr | Efter en uge blev vi gode venner igen. | After a week we made up. | n: Literally "become good friends again".
+    grammar:
+      title: "Past or perfect? Up to now, lige and siden"
+      body: |
+        You know the basic rule from A2: the **past** (*datid*) for finished time — *i går, i 2019, da jeg var barn* — and the **perfect** (*har/er* + participle) for experiences and results. At B1, three more uses matter.
+
+        **1. Up to now.** A situation that started in the past and is still true takes the perfect + *i*: *Vi **har boet** sammen i tre år* (and we still do). The past closes the chapter: *Vi **boede** sammen i tre år* (and then it ended). English works the same way here, but many learners use the Danish present by mistake: *Vi bor sammen i tre år* is wrong.
+
+        **2. Siden (since).** The main clause takes the perfect, and the siden-clause takes the past, because it names one finished event: *Vi har ikke talt sammen, siden vi **skændtes** i sommer.*
+
+        **3. Lige (just).** Lige + perfect means "just now": *Jeg **har lige** ringet til hende.* Lige goes straight after har.
+
+        **From perfect to past.** When you bring up a topic, you often start with the perfect and then switch to the past for the details: *Har du nogensinde været uvenner med en god ven? – Ja, engang **skændtes** jeg med min bedste veninde om penge.*
+
+        Remember the s-verbs: *skændes* and *mødes* have the past *skændtes, mødtes* and the perfect *har skændtes, har mødtes*.
+      table: |
+        Use | Tense | Example
+        finished time | past | Vi skændtes i går.
+        still true now (+ i) | perfect | Vi har været venner i ti år.
+        a closed period | past | Vi boede sammen i tre år.
+        just happened (lige) | perfect | Jeg har lige sendt en sms.
+        since a past event | perfect + siden + past | Vi har ikke set hinanden, siden hun flyttede.
+      examples: |
+        Kasper og jeg har været venner, siden vi gik i børnehave. | Kasper and I have been friends since we were at kindergarten. | still true: perfect; the starting point: past
+        Vi boede sammen i to år, men så flyttede han til Aalborg. | We lived together for two years, but then he moved to Aalborg. | a closed period: past
+        Har I skændtes igen? – Ja, vi skændtes om opvasken i morges. | Have you been arguing again? – Yes, we argued about the washing-up this morning. | perfect question, past answer
+        Jeg har lige talt med Mia, og hun er ikke sur længere. | I've just talked to Mia, and she isn't cross any more. | lige + perfect
+      tip: "Ask yourself: is the time finished? If you could add i går, sidste år or da…, use the past. If the situation reaches up to now, use the perfect."
+    dialogue:
+      title: Uvenner
+      setting: A café in Odense on a Saturday afternoon. Lærke meets her friend Yusuf, who can see that something is wrong.
+      speakers: L=Lærke/f; Y=Yusuf/m
+      lines: |
+        Y: Du ser lidt trist ud, Lærke. Er der sket noget? | You look a bit sad, Lærke. Has something happened?
+        L: Ja, jeg har skændtes med Ida. Vi har ikke talt sammen i en uge. | Yes, I've fallen out with Ida. We haven't spoken for a week.
+        Y: Med Ida? I har da været veninder, siden I gik i første klasse. | With Ida? But you've been friends since you were in first grade.
+        L: Netop. Vi skulle til Berlin sammen, men hun aflyste turen to dage før. | Exactly. We were going to Berlin together, but she cancelled the trip two days before.
+        Y: Hvorfor gjorde hun det? Gav hun dig en forklaring? | Why did she do that? Did she give you an explanation?
+        L: Hun skrev, at hun havde alt for travlt på arbejdet. | She wrote that she was far too busy at work.
+        L: Og samme weekend lagde hun billeder op fra en koncert i Aarhus. | And the same weekend she posted photos from a concert in Aarhus.
+        Y: Av. Jeg forstår godt, at du blev sur. Har du sagt det til hende? | Ouch. I can see why you got annoyed. Have you told her?
+        L: Nej, jeg har bare ignoreret hendes beskeder. Det er ikke særlig modent. | No, I've just ignored her messages. It's not very mature.
+        Y: Måske er det hele en misforståelse. Ring til hende og spørg hende direkte. | Maybe it's all a misunderstanding. Call her and ask her directly.
+        L: Du har ret. Hun har faktisk lige sendt mig en besked igen. | You're right. She's actually just sent me a message again.
+        Y: Se selv! Hun savner dig. Et venskab som jeres skal man passe på. | See? She misses you. You have to look after a friendship like yours.
+    pronunciation:
+      title: "Silent d: hinanden, undskyld, holde"
+      body: |
+        In the combinations **nd** and **ld**, the d is usually silent. *Hinanden* sounds like "hin-AN-en", *holde* like "HOL-le" and *kende* like "KEN-ne". In *undskyld*, both d's are silent, and the u sounds like a short o: "ON-skyl".
+
+        The same goes for the past and the participle: *kendte* and *kendt* have no d sound either. Listen to each item, repeat it, and then say the sentences at normal speed without pushing out any d's.
+      items: |
+        hinanden
+        undskyld
+        holde kontakten
+        kende
+        Vi har kendt hinanden i ti år.
+        Undskyld, det var ikke meningen.
+    culture:
+      title: Disagreeing, Danish style
+      body: |
+        In many Danish workplaces, schools and friendships it is quite normal to say openly that you disagree — *Det er jeg ikke enig i* — and a discussion is not seen as a personal attack. Children learn at school to give their opinion and argue for it.
+
+        Making up is often low-key. After a quarrel, a short text such as *Skal vi ikke bare glemme det?* (Shall we just forget it?) or an invitation for coffee can be enough. Big gestures are less common than simply meeting again and carrying on as before.
+    mistakes: |
+      Vi kender hinanden i ti år. => Vi har kendt hinanden i ti år. | A situation that started in the past and is still true needs the perfect: har kendt … i ti år.
+      Jeg har skændtes med ham i går. => Jeg skændtes med ham i går. | I går is finished time, so use the past.
+      Vi har ikke set hinanden, siden hun har flyttet. => Vi har ikke set hinanden, siden hun flyttede. | After siden, use the past for the event that started the period.
+    task:
+      title: Talking it through
+      mode: interaction
+      body: |
+        With a partner (or the AI coach in the "Expressing an opinion" scenario), act out a conversation between two friends who disagree about something small — a cancelled plan, a borrowed book that never came back, or whose turn it is to cook. Explain what happened in the past tense, say how long you have been friends with the perfect, and end by making up.
+    exercises: |
+      fill: Vi ___ været venner, siden vi gik i 3. klasse. || har || The friendship is still going on, so use the perfect: har været. || @tags da.perfect
+      fill: I fredags ___ jeg med min bror om opvasken. (skændes) || skændtes || I fredags is finished time, so use the past. Skændes is an s-verb: skændes → skændtes. || @tags da.past,da.s-verbs
+      mc: "Jeg ___ lige talt med Ida." || *har | er | bliver || Tale forms the perfect with har, and lige goes straight after it: har lige talt. || @tags da.perfect
+      mc: Which sentence describes something that is still true? || *Vi har boet i Esbjerg i fem år. | Vi boede i Esbjerg i fem år. | Vi boede i Esbjerg for fem år siden. || The perfect + i describes a situation that reaches up to now. The past forms describe a closed period or a finished time. || @tags da.perfect,da.past
+      mc: "Vi har ikke talt sammen, siden vi ___ på Roskilde Festival." || *mødtes | har mødtes | mødes || After siden, use the past for the event that started the period. Mødes is an s-verb: past mødtes. || @tags da.past,da.s-verbs
+      tf: Lærke and Ida have been friends since university. || false || They have been friends since first grade: "siden I gik i første klasse". || @ctx dialogue
+      short: Why is Lærke annoyed with Ida? || kw: aflyste/aflyst/cancelled/canceled/cancel/Berlin/koncert/concert/billeder/photos/pictures || Ida cancelled their trip to Berlin because she was busy, and then posted photos from a concert the same weekend. || @ctx dialogue
+      listen: @dialogue || What does Yusuf tell Lærke to do? || *Call Ida and ask her directly | Forget about Ida | Write her a long email || "Ring til hende og spørg hende direkte." || @tags da.listening
+      listen: Min veninde og jeg skændtes i sidste uge, men i går undskyldte hun, og nu er vi gode venner igen. || What happened yesterday? || *Her friend apologised | They argued again | They went on holiday together || "I går undskyldte hun" — yesterday she apologised, and now they are friends again. || @tags da.listening,da.past
+      rw: Put it in the perfect with lige :: Jeg ringer til hende. || Jeg har lige ringet til hende. || Lige comes straight after har: har lige ringet. || @tags da.perfect
+      order: Vi har ikke set hinanden, siden hun flyttede til Aalborg. || We haven't seen each other since she moved to Aalborg. || @tags da.perfect,da.subordinate-clauses
+      tr: I miss my old friends, but we keep in touch. || Jeg savner mine gamle venner, men vi holder kontakten. | Jeg savner mine gamle venner, men vi holder stadig kontakten. | Jeg savner mine gamle venner, men vi har stadig kontakt. || Savne = to miss; holde kontakten = to keep in touch. || @tags da.vocabulary
+      ask: A friend asks you: "Har du nogensinde været uvenner med en god ven?" Answer with the perfect, then tell what happened in the past tense. || kw: har & skændtes/blev sur/var uenige/var uvenner/undskyldte || Ja, jeg har været uvenner med min bedste ven én gang. Vi skændtes om penge, men efter en uge undskyldte han, og vi blev gode venner igen.
+      write: Write a message (4–6 sentences) to a friend you have argued with. Apologise, explain the misunderstanding and suggest meeting. || min=40 || req: undskyld | misforståelse | har | ses/mødes || Hej Ida. Undskyld, at jeg ikke har svaret på dine beskeder. Jeg blev sur, da du aflyste turen, men jeg tror, det hele var en misforståelse. Vi har været veninder i tyve år, og jeg savner dig. Skal vi ses til kaffe på søndag? Kram, Lærke
+      dict: Vi har kendt hinanden, siden vi gik i børnehave.
+
+  - title: Telling an anecdote
+    summary: Read and tell a short funny story — with da, når and mens, V2 after a subordinate clause, and story words such as pludselig and heldigvis.
+    minutes: 45
+    skills: [reading, grammar, speaking]
+    tags: [da.subordinate-clauses, da.past, da.word-order]
+    objectives:
+      - Choose between da, når and mens when you tell a story
+      - Use V2 word order after a subordinate clause and after story words
+      - Tell a short anecdote with a beginning, a turning point and an ending
+    intro: |
+      A good anecdote is one of the best ways to make friends in a new language: at lunch, at a party or in a language café, people love a story about the time something went wrong. In this lesson you will read a short blog story about a disastrous first day at work, and learn the small words that hold a story together: **da**, **når** and **mens** — plus *pludselig*, *heldigvis* and *til sidst*.
+    vocab: |
+      en oplevelse | an experience | n | Det var en oplevelse, jeg aldrig glemmer. | It was an experience I'll never forget. | g: c | pl: oplevelser
+      pinlig | embarrassing | adj | Det var så pinligt, at alle så det. | It was so embarrassing that everyone saw it. | n: With et-words: pinligt. Hvor pinligt! = How embarrassing!
+      pludselig | suddenly | adv | Pludselig gik lyset ud. | Suddenly the lights went out. | n: At the start of a sentence, the verb comes next.
+      heldigvis | fortunately; luckily | adv | Heldigvis kom ingen til skade. | Fortunately nobody got hurt.
+      desværre | unfortunately | adv | Desværre nåede vi ikke toget. | Unfortunately we didn't make the train.
+      til sidst | in the end; finally | expr | Til sidst grinede vi alle sammen. | In the end we all laughed. | n: Like other adverbs at the start, it is followed by the verb.
+      snuble | to trip | v | Jeg snublede over en ledning på gulvet. | I tripped over a cable on the floor. | c: snuble over noget | n: Past: snublede.
+      ske | to happen | v | Hvad skete der så? | What happened then? | n: Past: skete; perfect: er sket. Often with der: Der skete noget mærkeligt.
+      grine | to laugh | v | Vi grinede, til vi græd. | We laughed until we cried. | c: grine af noget (laugh at something) | n: Past: grinede.
+      opdage | to discover; to notice | v | Først i toget opdagede jeg, at jeg havde to forskellige sko på. | Only on the train did I notice that I was wearing two different shoes. | n: Past: opdagede.
+      fortælle | to tell | v | Har jeg fortalt dig om min første dag som tjener? | Have I told you about my first day as a waiter? | c: fortælle om noget | n: Irregular: fortalte, har fortalt.
+      blive rød i hovedet | to go red; to blush | expr | Jeg blev helt rød i hovedet. | I went completely red. | n: Literally "become red in the head".
+      en fejl | a mistake | n | Alle laver fejl, når de er nye. | Everyone makes mistakes when they're new. | g: c | pl: fejl | c: lave en fejl (make a mistake)
+    grammar:
+      title: "Da, når and mens in a story"
+      body: |
+        In stories, three time words introduce a subordinate clause:
+
+        - **da** (when) — one single event or period in the past: *Da jeg kom ind i kantinen, blev alle stille.*
+        - **når** (when, whenever) — repeated events, in the past as well as now, and events in the future: *Når vi besøgte min farmor, fik vi altid kage.* · *Når jeg kommer hjem, ringer jeg.*
+        - **mens** (while) — two things happening at the same time: *Mens jeg ventede på bussen, begyndte det at regne.*
+
+        English uses *when* for both da and når, so ask yourself: did it happen **once** in the past? Then use **da**. Did it happen **again and again**? Then use **når**.
+
+        **Word order.** Inside the subordinate clause, the subject comes before the verb, and ikke goes before the verb: *da jeg ikke kunne finde nøglen*. If the clause starts the sentence, it counts as the first element, so the main verb comes straight after the comma: *Da jeg kom hjem, **opdagede** jeg det.*
+
+        **Telling it well.** Danish anecdotes often open with the perfect — *Har jeg nogensinde fortalt dig om…?* — and then switch to the past. Story words such as *pludselig, heldigvis, desværre* and *til sidst* work like other adverbs: at the start of a sentence they are followed by the verb — *Pludselig **gik** lyset ud.*
+      table: |
+        Word | Use | Example
+        da | one time in the past | Da jeg var i London, mistede jeg mit pas.
+        når | every time (past or present) and the future | Når det regnede, spillede vi kort.
+        mens | at the same time | Mens hun talte, ringede telefonen.
+      examples: |
+        Da jeg skulle holde tale til brylluppet, kunne jeg ikke huske et eneste ord. | When I had to give a speech at the wedding, I couldn't remember a single word. | one time in the past: da
+        Når min onkel fortalte historier, grinede vi altid. | Whenever my uncle told stories, we always laughed. | repeated: når
+        Mens vi spiste, ringede telefonen tre gange. | While we were eating, the phone rang three times. | mens: at the same time
+        Pludselig stod min chef lige bag mig. | Suddenly my boss was standing right behind me. | V2 after pludselig
+      tip: "Da for the one time it happened, når for every time it happens. And after a da-clause, the main verb comes first: Da jeg kom hjem, opdagede jeg…"
+    reading:
+      title: Suppedrengen
+      text: |
+        Har jeg nogensinde fortalt jer om min første aften som tjener? Det er ti år siden, men jeg bliver stadig rød i hovedet, når jeg tænker på det.
+
+        Jeg var nitten år og arbejdede på en fin restaurant ved havnen i Aalborg. Det var min første aften, og jeg var meget nervøs. Chefen hed Bent, og han var en streng mand, som sjældent smilede.
+
+        Klokken otte kom et stort selskab ind. Det var en familie, der fejrede bedstemorens 90-års fødselsdag. Mens jeg bar fire tallerkener med suppe hen til bordet, snublede jeg over en taske på gulvet. Pludselig fløj suppen gennem luften – og landede lige i skødet på fødselaren!
+
+        Der blev helt stille i restauranten. Jeg kunne se Bent i døren til køkkenet, og jeg tænkte: Nu er det slut. Men så skete der noget mærkeligt. Den gamle dame begyndte at grine, og til sidst grinede hele familien med. "Det er den sjoveste fødselsdag i mange år," sagde hun. Heldigvis var suppen kun lunken.
+
+        Bent gav hende en flaske champagne, og jeg fik lov til at blive. Når familien kom igen, spurgte de altid efter mig – "suppedrengen".
+
+        I dag træner jeg selv nye tjenere, og jeg fortæller altid den historie. Alle laver fejl. Det vigtigste er, hvordan man reagerer bagefter.
+
+        Nikolaj
+      translation: |
+        Have I ever told you about my first evening as a waiter? It was ten years ago, but I still go red when I think about it.
+
+        I was nineteen and worked at a smart restaurant by the harbour in Aalborg. It was my first evening, and I was very nervous. The boss was called Bent, and he was a strict man who rarely smiled.
+
+        At eight o'clock a large party came in. It was a family celebrating the grandmother's 90th birthday. While I was carrying four plates of soup over to the table, I tripped over a bag on the floor. Suddenly the soup flew through the air – and landed right in the birthday girl's lap!
+
+        The restaurant went completely silent. I could see Bent in the kitchen door, and I thought: This is the end. But then something strange happened. The old lady started to laugh, and in the end the whole family laughed with her. "This is the funniest birthday in many years," she said. Fortunately the soup was only lukewarm.
+
+        Bent gave her a bottle of champagne, and I was allowed to stay. Whenever the family came again, they always asked for me – "the soup boy".
+
+        Today I train new waiters myself, and I always tell that story. Everyone makes mistakes. The most important thing is how you react afterwards.
+
+        Nikolaj
+    pronunciation:
+      title: "Stress in story words"
+      body: |
+        Most Danish words are stressed on the first syllable, and the story words in this lesson follow that rule: **PLUD**-se-lig, **HEL**-dig-vis, **PIN**-ligt. *Desværre* is an exception: the stress falls on the second syllable, de-**SVÆR**-re. In *til sidst*, the stress is on *sidst*.
+
+        Remember the silent g in *-lig* and *-ig*: *pludselig* ends in a clear "i" sound. When you tell a story, a little pause after the story word makes it sound natural: *Pludselig… gik lyset ud.*
+      items: |
+        pludselig
+        heldigvis
+        desværre
+        til sidst
+        Det var så pinligt!
+        Pludselig gik lyset ud.
+    culture:
+      title: Laughing at yourself
+      body: |
+        Many Danes enjoy stories in which the teller is the one who looks silly. **Selvironi** — the ability to laugh at yourself — is a valued quality, and an embarrassing story told with a smile often goes down better at a dinner party than a story about a big success.
+
+        Anecdotes are a big part of Danish social life: at the lunch table at work, at family birthdays and during long dinners that can go on for hours. A well-told story with a surprising ending — *og så…!* — is a good way to join the conversation.
+    mistakes: |
+      Når jeg kom hjem i går, var døren åben. => Da jeg kom hjem i går, var døren åben. | One single event in the past needs da, not når.
+      Da jeg kom ind, alle blev stille. => Da jeg kom ind, blev alle stille. | The da-clause is the first element, so the verb comes straight after the comma.
+      Pludselig lyset gik ud. => Pludselig gik lyset ud. | After pludselig (or any adverb at the start), the verb comes second.
+    task:
+      title: Your best anecdote
+      mode: speaking
+      body: |
+        Prepare a short anecdote (6–8 sentences) about something funny, embarrassing or surprising that happened to you. Start with *Har jeg nogensinde fortalt dig om…?*, use da and mens at least once each, and include two story words such as pludselig, heldigvis or til sidst. Tell it to a friend or record it in Speaking practice, then listen for V2 after your da-clauses.
+    exercises: |
+      fill: ___ jeg var på ferie i Rom, mistede jeg min telefon. || Da || One single event in the past: da. || @tags da.subordinate-clauses
+      fill: ___ vi besøgte min mormor, bagte hun altid boller. || Når || Altid shows that it happened again and again, so use når, even in the past. || @tags da.subordinate-clauses
+      mc: "___ jeg stod i køen i går, ringede min mor." || *Mens | Når | Hvis || Mens = while: she rang during the time I was standing in the queue. Når doesn't fit one single occasion (i går), and hvis means "if". || @tags da.subordinate-clauses
+      mc: Choose the correct word order. || Pludselig min chef stod bag mig. | *Pludselig stod min chef bag mig. | Pludselig stod bag mig min chef. || When pludselig starts the sentence, the verb comes second and then the subject: pludselig stod min chef. || @tags da.word-order
+      mc: Where did Nikolaj work? || *In a restaurant by the harbour | In a hotel kitchen | At a café in Aarhus || "Jeg … arbejdede på en fin restaurant ved havnen i Aalborg." || @ctx reading @skill reading @tags da.reading
+      tf: The soup landed on the grandmother who was celebrating her birthday. || true || "Suppen … landede lige i skødet på fødselaren" — the birthday girl, the 90-year-old grandmother. || @ctx reading
+      short: How did the old lady react? || kw: grinede/grine/griner/laughed/laugh/laughing || She started to laugh: "Den gamle dame begyndte at grine." || @ctx reading
+      listen: Da jeg skulle til min første jobsamtale, tog jeg den forkerte bus. Heldigvis var chefen også forsinket. || What happened, luckily? || *The boss was late too | The bus was early | The interview was cancelled || "Heldigvis var chefen også forsinket" — luckily the boss was late too. || @tags da.listening
+      rw: Start with "Da jeg kom ind" :: Alle kiggede på mig, da jeg kom ind. || Da jeg kom ind, kiggede alle på mig. || The da-clause is now the first element, so the verb kiggede comes straight after it. || @tags da.word-order,da.subordinate-clauses
+      order: Mens vi ventede på toget, begyndte det at sne. || While we were waiting for the train, it started to snow. || @tags da.subordinate-clauses,da.word-order
+      tr: When I came home, I discovered that the window was open. || Da jeg kom hjem, opdagede jeg, at vinduet var åbent. | Da jeg kom hjem, så jeg, at vinduet var åbent. | Jeg opdagede, at vinduet var åbent, da jeg kom hjem. || One past event: da. After the da-clause comes the verb (opdagede jeg). Vindue is an et-word, so åben becomes åbent. || @tags da.subordinate-clauses,da.word-order
+      ask: Tell a friend about a funny or embarrassing moment. Start with "Har jeg fortalt dig om…?" and use da. || kw: har jeg fortalt/har jeg nogensinde fortalt & da || Har jeg fortalt dig om min første danskprøve? Da jeg kom ind i lokalet, opdagede jeg, at mit pas lå derhjemme. Heldigvis fandt læreren en løsning.
+      write: Write a short anecdote (6–8 sentences) for a Danish blog about a funny, embarrassing or surprising experience. || min=60 || req: da | mens/når | pludselig/heldigvis/desværre/til sidst || Har jeg nogensinde fortalt jer om min første tur til Bornholm? Det var en varm dag i juli, og vi skulle med færgen fra Ystad. Mens vi ventede, købte jeg en is. Da jeg kom tilbage, var bilen væk! Pludselig så jeg min bror, som vinkede fra færgen. Han kørte bilen om bord uden mig! Heldigvis nåede jeg færgen i sidste øjeblik, og til sidst grinede vi alle sammen.
+      dict: Heldigvis grinede den gamle dame, og til sidst grinede alle med.

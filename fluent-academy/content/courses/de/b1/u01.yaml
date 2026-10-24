@@ -1,0 +1,373 @@
+unit: 1
+title: Menschen und Beziehungen
+theme: People and relationships
+description: Describe people's personality with relative clauses, talk about friendship, arguments and making up with the Präteritum of modal verbs, and tell an anecdote in the Präteritum.
+free: true
+objectives:
+  - Describe what people are like and define them precisely with relative clauses in the nominative and accusative
+  - Explain what you wanted, had to or couldn't do with the Präteritum of modal verbs
+  - Tell a short story in the Präteritum with regular, irregular and mixed verbs
+canDo:
+  - I can describe the personality of friends, family members and colleagues.
+  - I can explain a misunderstanding, apologise and make up with a friend.
+  - I can understand and write a short personal anecdote.
+  - I can keep a listener interested when I tell a story.
+review: |
+  fill: Ich kenne niemanden, ___ so geduldig ist wie meine Oma. || der || Niemand counts as masculine, and it is the subject of the relative clause: der. || @tags de.relative-clauses
+  fill: Das Buch, ___ du mir geliehen hast, ist wirklich spannend. || das || Das Buch is neuter and the object of leihen: das (accusative = nominative for neuter). || @tags de.relative-clauses
+  mc: "Die Leute, ___ wir im Urlaub kennengelernt haben, waren sehr nett." || *die | den | der || Die Leute is plural and the object in the relative clause; the plural relative pronoun is die in the nominative and the accusative. || @tags de.relative-clauses,de.accusative
+  fill: Leider ___ wir nicht länger bleiben, weil wir den letzten Bus nehmen mussten. (können) || konnten || Modal verbs lose the umlaut in the Präteritum: wir konnten. || @tags de.praeteritum,de.modal-verbs
+  mc: "My brother wasn't allowed to go to the party." || *Mein Bruder durfte nicht auf die Party gehen. | Mein Bruder dürfte nicht auf die Party gehen. | Mein Bruder durfte nicht auf die Party zu gehen. || The Präteritum of dürfen is durfte (no umlaut), and modal verbs take an infinitive without zu. || @tags de.praeteritum,de.modal-verbs
+  fill: Nach der Arbeit ___ wir uns in einem Café am Bahnhof. (treffen) || trafen || Treffen is irregular: wir trafen (Präteritum). || @tags de.praeteritum
+  rw: Put into the Präteritum :: Sie kommt nach Hause und sieht den Brief. || Sie kam nach Hause und sah den Brief. || Both verbs are irregular: kommen → kam, sehen → sah. || @tags de.praeteritum
+  tr: My sister is someone who is always honest. || Meine Schwester ist jemand, der immer ehrlich ist. | Meine Schwester ist ein Mensch, der immer ehrlich ist. | Meine Schwester ist eine Person, die immer ehrlich ist. || The relative pronoun follows the noun it refers to: jemand / ein Mensch → der, eine Person → die. The verb ist goes to the end. || @tags de.relative-clauses
+  listen: Mein neuer Kollege ist sehr hilfsbereit, aber ein bisschen neugierig. Er will immer genau wissen, was ich am Wochenende gemacht habe. || What is slightly annoying about the new colleague? || He is unreliable. | *He is a bit nosy. | He never helps anyone. || Neugierig here means nosy: he always wants to know what the speaker did at the weekend. || @tags de.listening
+  listen: Eigentlich wollte ich am Samstag zu Jonas fahren, aber ich musste absagen, weil meine Tochter Fieber hatte. || Why did the speaker cancel the visit? || She had to work. | *Her daughter was ill. | Jonas didn't have time. || "Weil meine Tochter Fieber hatte" — her daughter had a temperature. || @tags de.listening,de.modal-verbs
+  ask: Describe a person who is important to you — their personality and one thing you did together. Use one relative clause. || kw: der/die/den & ist/war & geduldig/ehrlich/zuverlässig/hilfsbereit/lustig/großzügig/gelassen/neugierig/selbstbewusst/ruhig/nett || Mein Opa ist ein Mensch, der nie ungeduldig wird. Er ist großzügig und sehr lustig. Als Kind durfte ich jeden Sommer bei ihm auf dem Land wohnen.
+  write: Write an email (6–8 sentences) to a friend about a disagreement you had with someone and how you made up. Say what you wanted to do, what you had to do and how it ended. || min=50 || req: wollte/wollten | musste/mussten/konnte/konnten | entschuldigt/versöhnt/tut mir leid/entschuldigung || Liebe Mia, letzte Woche hatte ich Streit mit meinem Mitbewohner Paul. Er wollte am Freitag eine große Party machen, aber ich musste am Samstag früh arbeiten. Ich war ziemlich sauer, und er war beleidigt. Zwei Tage haben wir kaum geredet. Am Sonntag hat Paul sich dann entschuldigt und für uns beide gekocht. Jetzt machen wir Partys nur noch am Samstag! Liebe Grüße, Tarek
+lessons:
+  - title: Personality and character
+    summary: Describe what people are like and say exactly who you mean with relative clauses in the nominative and accusative.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [de.relative-clauses]
+    objectives:
+      - Describe personality with adjectives such as zuverlässig, gelassen and schüchtern
+      - Form relative clauses with der, die, das (nominative) and den (accusative)
+      - Put the verb at the end of a relative clause
+    intro: |
+      At B1 you no longer just say that someone is *nett* — you explain what makes them special: "Sie ist eine Kollegin, **die** nie die Geduld verliert." Relative clauses let you describe people precisely and link your ideas in one smooth sentence. In this lesson you will learn the words for personality and use them to choose a new flatmate.
+    vocab: |
+      die Eigenschaft | quality; trait | n | Ehrlichkeit ist für mich die wichtigste Eigenschaft. | For me, honesty is the most important quality. | g: f | pl: die Eigenschaften | c: eine gute Eigenschaft; positive Eigenschaften
+      zuverlässig | reliable | adj | Mein Mitbewohner ist sehr zuverlässig – er zahlt die Miete immer pünktlich. | My flatmate is very reliable – he always pays the rent on time. | n: Noun: die Zuverlässigkeit. Opposite: unzuverlässig.
+      hilfsbereit | helpful; willing to help | adj | Unsere Nachbarin ist total hilfsbereit und gießt im Urlaub unsere Blumen. | Our neighbour is really helpful and waters our plants when we're on holiday.
+      geduldig | patient | adj | Als Lehrerin muss man sehr geduldig sein. | As a teacher you have to be very patient. | n: Opposite: ungeduldig. Noun: die Geduld.
+      schüchtern | shy | adj | Am Anfang war Tom etwas schüchtern, aber jetzt redet er viel. | At first Tom was a bit shy, but now he talks a lot.
+      selbstbewusst | self-confident | adj | Sie ist selbstbewusst und sagt immer offen ihre Meinung. | She's self-confident and always says openly what she thinks. | n: False friend — it does not mean "self-conscious" (= unsicher, gehemmt).
+      ordentlich | tidy; orderly | adj | Ist er ordentlich? In unserer Küche muss alles sauber sein. | Is he tidy? Everything has to be clean in our kitchen. | n: Opposite: unordentlich or chaotisch.
+      launisch | moody | adj | Morgens vor dem Kaffee ist mein Bruder oft launisch. | My brother is often moody in the morning before his coffee.
+      neugierig | curious; nosy | adj | Kinder sind von Natur aus neugierig. | Children are naturally curious. | n: Positive (curious) or negative (nosy), depending on the context.
+      großzügig | generous | adj | Mein Onkel ist sehr großzügig und lädt immer alle ein. | My uncle is very generous and always treats everyone. | n: Opposite: geizig (stingy).
+      gelassen | calm; relaxed | adj | Auch im Stress bleibt meine Chefin gelassen. | Even under stress my boss stays calm. | c: gelassen bleiben; gelassen reagieren
+      der Eindruck | impression | n | Welchen Eindruck hattest du von ihm? | What impression did you have of him? | g: m | pl: die Eindrücke | c: einen guten Eindruck machen; der erste Eindruck
+      die Wohngemeinschaft (WG) | shared flat; flat-share | n | In unserer WG wohnen vier Leute aus drei Ländern. | Four people from three countries live in our shared flat. | g: f | pl: die Wohngemeinschaften | n: Almost always shortened to WG [veːˈɡeː]; a flatmate is der Mitbewohner / die Mitbewohnerin.
+    grammar:
+      title: "Relative clauses: der Mensch, der … / den …"
+      body: |
+        A **relative clause** gives more information about a noun. It starts with a **relative pronoun** right after a comma, and its conjugated verb goes to the **end**: *Ich habe einen Bruder, **der** sehr geduldig **ist**.*
+
+        The relative pronoun takes its **gender and number** from the noun it refers to (*der Bruder → der, die Kollegin → die, das Kind → das, die Leute → die*). Its **case** depends on its job inside the relative clause:
+
+        - It is the **subject** of the relative clause → **nominative**: *der Kollege, **der** immer hilft* (er hilft).
+        - It is the **direct object** → **accusative**: *der Kollege, **den** alle mögen* (alle mögen ihn).
+
+        The forms are the same as the definite article. In the accusative only the masculine changes: **der → den**. If the main sentence continues after the relative clause, close it with a second comma: *Der Mitbewohner, den wir gestern getroffen haben, ist Koch.*
+      table: |
+        Gender | Nominative (subject) | Accusative (object)
+        masculine | ein Freund, der immer hilft | ein Freund, den alle mögen
+        feminine | eine Kollegin, die viel lacht | eine Kollegin, die ich oft treffe
+        neuter | ein Kind, das gern liest | ein Kind, das ich gut kenne
+        plural | Leute, die zuverlässig sind | Leute, die ich sehr schätze
+      examples: |
+        Ich habe einen Bruder, der sehr geduldig ist. | I have a brother who is very patient. | nominative: der Bruder is the subject
+        Das ist die Nachbarin, die immer unsere Pakete annimmt. | That's the neighbour who always takes in our parcels. | nominative, feminine
+        Der Mitbewohner, den wir gestern kennengelernt haben, ist Koch. | The flatmate we met yesterday is a cook. | accusative: wir haben ihn kennengelernt
+        Wir suchen Leute, die ordentlich sind. | We're looking for people who are tidy. | plural: die
+      tip: Not sure whether you need der or den? Turn the relative clause into a normal sentence — "Wir haben ihn getroffen" — him is the object, so it's den.
+    dialogue:
+      title: WG-Casting in Göttingen
+      setting: An evening in a shared flat in Göttingen. Hanna and Emre have shown the free room to three people and now talk about who should move in.
+      speakers: H=Hanna/f; E=Emre/m
+      lines: |
+        H: So, drei Leute haben sich das Zimmer angesehen. Wer hat dir am besten gefallen? | So, three people have looked at the room. Who did you like best?
+        E: Ehrlich gesagt die Frau, die als Erste da war. Sie wirkte sehr gelassen. | To be honest, the woman who was here first. She seemed very calm.
+        H: Meinst du Clara, die Tiermedizin studiert? Die war nett, aber ziemlich schüchtern. | Do you mean Clara, who's studying veterinary medicine? She was nice, but quite shy.
+        E: Schüchtern finde ich nicht schlimm. Ich brauche keine Mitbewohnerin, die ständig redet. | I don't think shy is a problem. I don't need a flatmate who talks all the time.
+        H: Und der Typ mit der Gitarre? Den fand ich eigentlich ganz lustig. | And the guy with the guitar? I actually found him quite funny.
+        E: Jonas ist bestimmt sympathisch, aber auf mich wirkte er ein bisschen chaotisch. | I'm sure Jonas is likeable, but he seemed a bit chaotic to me.
+        H: Stimmt, er kam eine halbe Stunde zu spät. Das war kein guter Eindruck. | True, he came half an hour late. That wasn't a good impression.
+        E: Und Samuel, den wir heute Nachmittag getroffen haben? Der war sehr ordentlich. | And Samuel, who we met this afternoon? He was very tidy.
+        H: Ja, ich glaube, Samuel ist zuverlässig. Er arbeitet als Pfleger und kocht gern. | Yes, I think Samuel is reliable. He works as a nurse and likes cooking.
+        E: Ein Mitbewohner, der gern kocht? Das klingt perfekt für unsere WG! | A flatmate who likes cooking? That sounds perfect for our flat!
+        H: Aber er hat zwei Katzen, die er mitbringen möchte. Das müssen wir noch klären. | But he has two cats that he'd like to bring with him. We still need to sort that out.
+        E: Katzen, die nicht in mein Zimmer gehen, sind für mich kein Problem. Laden wir Samuel noch mal ein! | Cats that don't go into my room are no problem for me. Let's invite Samuel again!
+    pronunciation:
+      title: "The ending -ig sounds like ich"
+      body: |
+        In standard German, **-ig** at the end of a word is pronounced with the ich-sound [ɪç]: *geduldig* [ɡəˈdʊldɪç], *neugierig*, *großzügig*. Many speakers in southern Germany and Austria say [ɪk], but [ɪç] is the standard you hear in news broadcasts.
+
+        As soon as an ending follows, the **g** comes back as a real [ɡ]: *geduldig* – *ein gedul-**di-ger** Mensch*. Also notice the stress: in *zuverlässig* it is on the second syllable (zu-VER-läs-sig), in *hilfsbereit* and *großzügig* on the first.
+      items: |
+        geduldig
+        zuverlässig
+        neugierig
+        großzügig
+        ein geduldiger Mensch
+        Sie ist ruhig und großzügig.
+    culture:
+      title: Life in a WG
+      body: |
+        In German university towns many students — and more and more young professionals — live in a *Wohngemeinschaft*, or *WG*. Each person has their own room and everyone shares the kitchen and bathroom. Rooms are advertised online, and the current flatmates usually invite several candidates to a *WG-Casting*: a coffee or an evening in the kitchen to see who fits in.
+
+        Personality matters as much as money. Typical questions are how tidy you are, whether you like cooking together and what you do at weekends. Many WGs have a *Putzplan* (cleaning rota) on the fridge — and a lot of WG friendships last for life.
+    mistakes: |
+      Ich habe einen Freund, der ist sehr geduldig. => Ich habe einen Freund, der sehr geduldig ist. | In a relative clause the conjugated verb goes to the end.
+      Das ist der Kollege, der ich gestern getroffen habe. => Das ist der Kollege, den ich gestern getroffen habe. | Der Kollege is the object of treffen inside the relative clause, so the masculine relative pronoun is accusative: den.
+      Mein Freund ist sehr selbstbewusst – er wird immer rot und sagt nichts. => Mein Freund ist sehr schüchtern – er wird immer rot und sagt nichts. | Selbstbewusst means self-confident, not self-conscious. For shy or insecure, use schüchtern or unsicher.
+    task:
+      title: Your flat-share profile
+      mode: writing
+      body: |
+        You are looking for a room in a WG in Leipzig. Write a short profile (5–6 sentences) for the flat-share website: describe your personality, your habits and the kind of flatmates you are looking for. Use at least two relative clauses — for example "Ich bin jemand, der …" and "Ich suche Leute, die …".
+    exercises: |
+      fill: Ich habe eine Schwester, ___ auch im Stress immer gelassen bleibt. || die || Die Schwester is feminine and the subject of the relative clause: die. || @tags de.relative-clauses
+      fill: Das ist der Film, ___ ich dir letzte Woche empfohlen habe. || den || Der Film is masculine and the object of empfehlen (ich habe ihn empfohlen): den. || @tags de.relative-clauses,de.accusative
+      fill: Wir suchen jemanden, ___ ordentlich und zuverlässig ist. || der || Jemand is treated as masculine, and here it is the subject of the relative clause: der. || @tags de.relative-clauses
+      mc: "Kennst du das Mädchen, …?" Choose the correct ending. || *das neben Clara steht | die neben Clara steht | das steht neben Clara || Das Mädchen is neuter, so the pronoun is das; the verb steht goes to the end of the relative clause. || @tags de.relative-clauses,de.subordinate-clauses
+      mc: Which adjective describes a person who always keeps their promises? || launisch | *zuverlässig | neugierig || Zuverlässig = reliable. Launisch means moody and neugierig means curious or nosy. || @skill vocabulary @tags de.vocabulary
+      rw: Join the sentences with a relative clause :: Ich habe einen Kollegen. Er spricht fünf Sprachen. || Ich habe einen Kollegen, der fünf Sprachen spricht. || Er is the subject, so the relative pronoun is nominative: der; spricht goes to the end. || @tags de.relative-clauses
+      rw: Join the sentences with a relative clause :: Der Mitbewohner ist sehr nett. Wir haben ihn gestern getroffen. || Der Mitbewohner, den wir gestern getroffen haben, ist sehr nett. | Wir haben gestern den Mitbewohner getroffen, der sehr nett ist. || Ihn is the object, so the relative pronoun is den. The relative clause comes straight after its noun, between two commas. || @tags de.relative-clauses,de.accusative
+      tf: Emre thinks it's a problem that Clara is shy. || false || He says: "Schüchtern finde ich nicht schlimm." || @ctx dialogue
+      short: Why does Emre think Samuel would be perfect for the flat? || kw: kocht/kochen/koch/cook/cooks/cooking || "Ein Mitbewohner, der gern kocht? Das klingt perfekt" — Samuel likes cooking. || @ctx dialogue
+      listen: @dialogue || What do Hanna and Emre still need to sort out about Samuel? || His working hours as a nurse | *His two cats | The date he can move in || Hanna says: "Aber er hat zwei Katzen, die er mitbringen möchte. Das müssen wir noch klären."
+      listen: Meine Chefin ist eine Frau, die nie laut wird. Auch wenn wir große Probleme haben, bleibt sie ruhig und hört zu. || How does the speaker describe her boss? || Strict and impatient | *Calm and a good listener | Shy and quiet || She never raises her voice, stays calm and listens (hört zu). || @tags de.listening,de.relative-clauses
+      tr: I'm looking for a flatmate who is tidy. || Ich suche einen Mitbewohner, der ordentlich ist. | Ich suche eine Mitbewohnerin, die ordentlich ist. | Ich suche jemanden, der ordentlich ist. || Mitbewohner → der, Mitbewohnerin → die; the verb ist goes to the end. || @tags de.relative-clauses
+      dict: Ich habe einen Freund, der immer hilfsbereit ist.
+      ask: Describe your best friend's personality with two adjectives and one relative clause. || kw: der/die/den & ist/hilft/hört/lacht/macht/bleibt/hat/kann || Meine beste Freundin heißt Rana. Sie ist ehrlich und sehr großzügig. Sie ist ein Mensch, der immer zuhört.
+      write: Write a short profile (5–6 sentences) for a flat-share website. Describe yourself as a flatmate and the people you are looking for, with at least two relative clauses. || min=40 || req: ich bin | der/die/das/den | suche/suchen || Hallo! Ich bin Lina, 26, und arbeite als Grafikerin. Ich bin jemand, der gern kocht und am Wochenende viel unterwegs ist. Ich bin ordentlich, aber nicht perfekt. Ich suche Leute, die offen und zuverlässig sind. Eine WG, die ab und zu zusammen isst, wäre ideal!
+
+  - title: Friendship and disagreements
+    summary: Talk about friendship, explain a misunderstanding and make up — saying what you wanted, had to or couldn't do with the Präteritum of modal verbs.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.praeteritum, de.modal-verbs]
+    objectives:
+      - Use the Präteritum of können, müssen, wollen, dürfen and sollen
+      - Explain why something went wrong and apologise
+      - React to an apology and make up with a friend
+    intro: |
+      Even the best friendships have difficult moments: someone forgets a birthday, cancels at the last minute or says the wrong thing. To sort it out you need to explain what you **wanted** to do and what you **had to** do instead. In German, modal verbs almost always use the **Präteritum** for this — *ich wollte, ich musste, ich konnte nicht* — even in everyday conversation.
+    vocab: |
+      der Streit | argument; quarrel | n | Nach dem Streit haben wir zwei Wochen nicht miteinander geredet. | After the argument we didn't talk to each other for two weeks. | g: m | pl: (rarely used) | c: Streit haben; Streit mit jemandem haben | n: The verb is streiten (stritt, hat gestritten).
+      sich entschuldigen | to apologise | v | Ich wollte mich eigentlich schon gestern bei dir entschuldigen. | I actually wanted to apologise to you yesterday. | c: sich bei jemandem entschuldigen; sich für etwas entschuldigen
+      sich versöhnen | to make up; to be reconciled | v | Zum Glück haben sich die beiden schnell wieder versöhnt. | Luckily the two of them made up again quickly. | n: In everyday speech also: sich wieder vertragen.
+      beleidigt | offended; in a huff | adj | Warum bist du denn so beleidigt? | Why are you so offended? | c: beleidigt sein
+      enttäuscht | disappointed | adj | Ich war enttäuscht, weil du nicht zu meiner Feier gekommen bist. | I was disappointed because you didn't come to my party. | n: Noun: die Enttäuschung.
+      das Missverständnis | misunderstanding | n | Das war ein Missverständnis – ich dachte, wir treffen uns um acht. | That was a misunderstanding – I thought we were meeting at eight. | g: n | pl: die Missverständnisse
+      absagen | to cancel; to call off | v | Sie musste das Treffen leider kurzfristig absagen. | Unfortunately she had to cancel the meeting at short notice. | c: kurzfristig absagen; einen Termin absagen | n: Separable: sagte … ab, hat abgesagt.
+      sich melden | to get in touch | v | Warum hast du dich nicht gemeldet? | Why didn't you get in touch? | c: sich bei jemandem melden
+      vertrauen | to trust | v | Ich vertraue meiner Schwester mehr als allen anderen. | I trust my sister more than anyone else. | n: Takes the dative: ich vertraue dir. Noun: das Vertrauen.
+      die Freundschaft | friendship | n | Unsere Freundschaft hält schon seit der Grundschule. | Our friendship has lasted since primary school. | g: f | pl: die Freundschaften | c: eine enge Freundschaft; Freundschaft schließen
+      ehrlich gesagt | to be honest | expr | Ehrlich gesagt hatte ich keine Lust auf die Party. | To be honest, I didn't feel like going to the party.
+      eigentlich | actually; originally | adv | Eigentlich wollte ich dich anrufen, aber dann kam etwas dazwischen. | I actually wanted to call you, but then something came up. | n: Signals that things turned out differently from the plan.
+      Recht haben | to be right | expr | Okay, du hast Recht. Ich war unfair. | Okay, you're right. I was unfair. | n: Also written recht haben. Opposite: nicht Recht haben / sich irren.
+    grammar:
+      title: "Präteritum of modal verbs: wollte, musste, konnte"
+      body: |
+        When they talk about the past, German speakers normally use the **Präteritum** of modal verbs — just like *war* and *hatte*. The Perfekt of modal verbs (*ich habe arbeiten müssen*) exists but sounds heavy, so you rarely need it.
+
+        The Präteritum is easy to form: take the stem **without the umlaut**, add **-te** and the usual past endings: *können → konnte, müssen → musste, dürfen → durfte, wollen → wollte, sollen → sollte, mögen → mochte*. The **ich** and **er/sie/es** forms are identical and have no extra ending: *ich wollte, sie wollte*.
+
+        As in the present, the modal verb is in position 2 and the **infinitive goes to the end**, without zu: *Ich **musste** gestern bis zehn **arbeiten**.* In a weil- or dass-clause the modal verb goes after the infinitive: *…, weil ich arbeiten **musste**.*
+
+        Note: *sollte* here means "was supposed to" (*Du solltest doch die Tickets kaufen!*). There is no past form of *möchte* — use *wollte*: *Ich möchte kommen → Ich wollte kommen.*
+      table: |
+        Person | können | müssen | wollen | dürfen | sollen
+        ich | konnte | musste | wollte | durfte | sollte
+        du | konntest | musstest | wolltest | durftest | solltest
+        er/sie/es | konnte | musste | wollte | durfte | sollte
+        wir | konnten | mussten | wollten | durften | sollten
+        ihr | konntet | musstet | wolltet | durftet | solltet
+        sie/Sie | konnten | mussten | wollten | durften | sollten
+      examples: |
+        Ich wollte dich anrufen, aber ich musste bis zehn arbeiten. | I wanted to call you, but I had to work until ten. | wollte, musste + infinitive at the end
+        Wir konnten nicht kommen, weil unser Zug ausgefallen ist. | We couldn't come because our train was cancelled. | können → konnten (no umlaut)
+        Als Kind durfte ich nie lange aufbleiben. | As a child I was never allowed to stay up late. | dürfen → durfte
+        Du solltest doch die Tickets kaufen! | You were supposed to buy the tickets! | sollte = was supposed to
+      tip: In the Präteritum modal verbs lose their umlaut — können → konnte, müssen → musste, dürfen → durfte. With the umlaut (könnte, müsste) they mean "could" and "would have to".
+    dialogue:
+      title: Die verpasste Geburtstagsfeier
+      setting: Saturday morning in a café in Bremen. Last night Marlene celebrated her 30th birthday, but her old school friend Yusuf didn't come — and didn't send a message.
+      speakers: M=Marlene/f; Y=Yusuf/m
+      lines: |
+        M: Schön, dass du gekommen bist. Ehrlich gesagt war ich gestern ziemlich enttäuscht. | Good that you came. To be honest, I was pretty disappointed yesterday.
+        Y: Ich weiß, und es tut mir wirklich leid. Ich wollte unbedingt kommen. | I know, and I'm really sorry. I really wanted to come.
+        M: Und warum bist du dann nicht gekommen? Du hast dich nicht mal gemeldet! | So why didn't you come? You didn't even get in touch!
+        Y: Ich musste spontan für einen Kollegen einspringen, der krank geworden ist. | I had to stand in at short notice for a colleague who got ill.
+        M: Aber warum konntest du mir nicht wenigstens eine kurze Nachricht schreiben? | But why couldn't you at least write me a short message?
+        Y: Mein Akku war leer, und auf der Station konnte ich ihn nirgends aufladen. | My battery was dead, and I couldn't charge it anywhere on the ward.
+        M: Hm. Ich dachte schon, du hast einfach keine Lust auf meine Feier. | Hmm. I was starting to think you just didn't feel like coming to my party.
+        Y: Nein, auf keinen Fall! Unsere Freundschaft ist mir total wichtig. | No, not at all! Our friendship is really important to me.
+        M: Okay, du hast Recht. Ich war gestern auch ein bisschen beleidigt, das gebe ich zu. | Okay, you're right. I was a bit offended yesterday too, I admit.
+        Y: Darf ich dich zum Frühstück einladen? Als kleine Entschuldigung? | May I treat you to breakfast? As a small apology?
+        M: Gern! Und du musst mir alles von deiner verrückten Nacht erzählen. | Gladly! And you have to tell me everything about your crazy night.
+        Y: Mach ich. Und das Geschenk, das ich für dich gekauft habe, habe ich auch dabei! | Will do. And I've brought the present I bought for you, too!
+    pronunciation:
+      title: "musste or müsste? u and ü"
+      body: |
+        In the Präteritum, modal verbs have a plain vowel: *musste, konnte, durfte*. Later you will meet forms with an umlaut — *müsste, könnte, dürfte* — which mean something different ("would have to", "could", "might"). So the umlaut really matters.
+
+        For **ü**, say *i* as in *Kind* and round your lips as for *u* without moving your tongue. For **ö**, say *e* and round your lips. In *konnte, musste, wollte* the vowel is short and the stress is on the first syllable; the final *-e* is a weak, relaxed sound.
+      items: |
+        konnte
+        musste
+        wollte
+        durfte
+        Es tut mir leid.
+        Ich wollte unbedingt kommen.
+    culture:
+      title: Freunde und Bekannte
+      body: |
+        German speakers usually distinguish between *Freunde* (close friends) and *Bekannte* (acquaintances). Many people have a small circle of friends they have known since school, university or a club, and these friendships often last for decades. Be careful: *mein Freund* / *meine Freundin* often means boyfriend or girlfriend — for a friend, many people say *ein Freund von mir* or *ein guter Freund*.
+
+        If you can't come to a party or a meeting, people expect you to cancel in advance (*rechtzeitig absagen*) with a short message or call. Not getting in touch at all is seen as quite rude, even among good friends.
+    mistakes: |
+      Ich könnte gestern nicht kommen. => Ich konnte gestern nicht kommen. | Könnte (with umlaut) is the Konjunktiv II ("could"). The past tense has no umlaut: konnte.
+      Ich musstete bis zehn arbeiten. => Ich musste bis zehn arbeiten. | The -te is added only once: muss + te = musste.
+      Er wollte mich gestern zu besuchen. => Er wollte mich gestern besuchen. | Modal verbs are followed by a plain infinitive, without zu.
+    task:
+      title: Clearing the air
+      mode: interaction
+      body: |
+        A friend is upset because you missed their important event — a concert, a party or a farewell dinner. Explain what you wanted to do, what you had to do instead and why you couldn't get in touch. Apologise and suggest a way to make up. Record the conversation with a partner or in Speaking practice.
+    exercises: |
+      fill: Gestern ___ ich leider nicht zu deiner Party kommen. (können) || konnte || Können → konnte: no umlaut, and no ending in the ich-form. || @tags de.praeteritum,de.modal-verbs
+      fill: ___ ihr am Wochenende wirklich arbeiten? (müssen) || Musstet / musstet || The ihr-form ends in -tet: ihr musstet. || @tags de.praeteritum,de.modal-verbs
+      fill: Als Kinder ___ wir nur am Wochenende fernsehen. (dürfen) || durften || Dürfen → durften: the umlaut disappears in the Präteritum. || @tags de.praeteritum,de.modal-verbs
+      fill: Lea ___ eigentlich die Getränke mitbringen, aber sie hat es vergessen. (sollen) || sollte || Sollte here means "was supposed to": sie sollte (no ending in the er/sie-form). || @tags de.praeteritum,de.modal-verbs
+      mc: "I wanted to apologise." || *Ich wollte mich entschuldigen. | Ich wollte mich zu entschuldigen. | Ich wolle mich entschuldigen. || Wollte is the Präteritum of wollen, and modal verbs take an infinitive without zu. || @tags de.praeteritum,de.modal-verbs
+      mc: "Sie hat meinen Geburtstag vergessen. Ich bin ziemlich ___." || *enttäuscht | großzügig | zuverlässig || Enttäuscht = disappointed — the natural reaction. Großzügig (generous) and zuverlässig (reliable) don't fit. || @skill vocabulary @tags de.vocabulary
+      rw: Put into the Präteritum :: Wir können leider nicht kommen. || Wir konnten leider nicht kommen. || Können → wir konnten; the infinitive kommen stays at the end. || @tags de.praeteritum,de.modal-verbs
+      order: Eigentlich wollte ich dich gestern Abend anrufen. || I actually wanted to call you yesterday evening. || The modal verb wollte is in position 2 and the infinitive anrufen goes to the end. || @tags de.word-order,de.modal-verbs @alt Ich wollte dich eigentlich gestern Abend anrufen. | Gestern Abend wollte ich dich eigentlich anrufen. | Ich wollte dich gestern Abend eigentlich anrufen.
+      tf: Yusuf missed the party because he had to work. || true || He had to stand in for a sick colleague: "Ich musste spontan für einen Kollegen einspringen." || @ctx dialogue
+      short: Why couldn't Yusuf send Marlene a message? || kw: akku/handy/battery/phone/aufladen/laden/charge || His battery was dead and he couldn't charge it on the ward. || @ctx dialogue
+      listen: @dialogue || How does Yusuf want to make up for missing the party? || He offers to organise a new party. | *He invites Marlene to breakfast. | He gives her flowers. || "Darf ich dich zum Frühstück einladen? Als kleine Entschuldigung?"
+      listen: Tut mir leid, dass ich so spät bin! Ich wollte pünktlich losfahren, aber dann musste ich noch eine halbe Stunde meinen Schlüssel suchen. || Why is the speaker late? || The train was late. | *She had to look for her key. | She had to work longer. || "Dann musste ich noch eine halbe Stunde meinen Schlüssel suchen." || @tags de.listening,de.modal-verbs
+      tr: We had to cancel the meeting. || Wir mussten das Treffen absagen. | Wir mussten das Treffen leider absagen. | Wir mussten den Termin absagen. || Müssen → wir mussten; the separable infinitive absagen goes to the end. || @tags de.praeteritum,de.modal-verbs
+      dict: Ich wollte mich bei dir entschuldigen.
+      ask: A friend asks why you didn't come to their party. Apologise and explain with two modal verbs in the Präteritum. || kw: wollte/konnte/musste/durfte/sollte & tut mir leid/entschuldigung/entschuldige/sorry || Es tut mir wirklich leid! Ich wollte kommen, aber ich musste meiner Mutter beim Umzug helfen, und ich konnte dich nicht anrufen.
+
+  - title: Telling an anecdote
+    summary: Read and write a short personal story with the Präteritum of regular, irregular and mixed verbs, and keep your listener interested.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [de.praeteritum]
+    objectives:
+      - Form the Präteritum of regular, irregular and mixed verbs
+      - Understand the structure of a written anecdote
+      - Tell a short story with words like plötzlich, zum Glück and am Ende
+    intro: |
+      Everybody has a story they love to tell — a lucky coincidence, an embarrassing moment, a strange meeting. When you write a story in German, for a blog, an email or a book, the main tense is the **Präteritum**: *Ich saß im Zug. Plötzlich merkte ich …* In this lesson you will read a true-to-life anecdote and learn the forms you need to tell your own.
+    vocab: |
+      passieren | to happen | v | Mir ist gestern etwas Lustiges passiert. | Something funny happened to me yesterday. | n: Perfekt with sein: ist passiert. Präteritum: es passierte.
+      plötzlich | suddenly | adv | Plötzlich klingelte das Telefon. | Suddenly the phone rang. | n: In speech also: auf einmal.
+      verwechseln | to mix up; to confuse | v | Ich verwechsle die beiden Zwillinge immer noch. | I still mix up the two twins. | c: etwas mit etwas verwechseln
+      merken | to notice; to realise | v | Erst zu Hause merkte ich den Fehler. | Only at home did I notice the mistake. | n: Regular: merkte, hat gemerkt.
+      der Zufall | coincidence; chance | n | Was für ein Zufall, dass wir im selben Zug saßen! | What a coincidence that we were sitting on the same train! | g: m | pl: die Zufälle | c: durch Zufall; so ein Zufall!
+      zum Glück | luckily; fortunately | expr | Zum Glück stand im Heft eine Telefonnummer. | Luckily there was a phone number in the notebook. | n: Opposite: leider.
+      aussteigen | to get off (a train, bus) | v | Ich stieg in Hannover aus und lief zum Ausgang. | I got off in Hanover and walked to the exit. | n: Separable and irregular: stieg … aus, ist ausgestiegen. Opposite: einsteigen.
+      der Rucksack | rucksack; backpack | n | Mein Rucksack war schwarz, ganz normal, ohne Aufkleber. | My rucksack was black, completely ordinary, without stickers. | g: m | pl: die Rucksäcke
+      erschrecken | to get a fright; to be startled | v | Ich erschrak, als ich die fremden Sachen sah. | I got a fright when I saw the strange things. | n: In this meaning irregular: erschrak, ist erschrocken.
+      überrascht | surprised | adj | Sie war sehr überrascht, als ich sie anrief. | She was very surprised when I called her. | n: Noun: die Überraschung (also: a surprise present or party).
+      am Ende | in the end | expr | Am Ende lachten wir beide über die Geschichte. | In the end we both laughed about the story. | n: In writing also: schließlich.
+      zurückbringen | to bring back; to return | v | Noch am selben Abend brachte ich den Rucksack zurück. | That same evening I brought the rucksack back. | n: Mixed verb: brachte … zurück, hat zurückgebracht.
+      die Geschichte | story; history | n | Diese Geschichte erzähle ich auf jeder Party. | I tell this story at every party. | g: f | pl: die Geschichten | c: eine Geschichte erzählen; eine wahre Geschichte
+    grammar:
+      title: "The Präteritum: telling stories in writing"
+      body: |
+        In written stories, blogs, reports and books, German uses the **Präteritum** for past events. In conversation the Perfekt is more common — except for *sein, haben* and the modal verbs, which you already use in the Präteritum. When people tell an anecdote aloud they often mix both, but a written story is mainly in the Präteritum.
+
+        - **Regular verbs**: stem + **-te** + ending: *machen → machte, merken → merkte*. If the stem ends in -t or -d, add **-ete**: *warten → wartete, reden → redete*.
+        - **Irregular (strong) verbs** change their vowel and take **no -te**: *gehen → ging, kommen → kam, sehen → sah, sitzen → saß, steigen → stieg, finden → fand*.
+        - **Mixed verbs** change the vowel *and* take -te: *bringen → brachte, denken → dachte, kennen → kannte, wissen → wusste*.
+
+        The **ich** and **er/sie/es** forms have no ending: *ich ging, sie ging; ich merkte, er merkte*. The other endings are *-st, -en, -t, -en*: *du gingst, wir gingen, ihr gingt*. Separable verbs split just as in the present: *Ich **stieg** in Hannover **aus**.*
+      table: |
+        Type | Infinitive | ich / er, sie, es | wir / sie, Sie
+        regular | merken | merkte | merkten
+        regular, stem in -t | warten | wartete | warteten
+        irregular | gehen | ging | gingen
+        irregular | sitzen | saß | saßen
+        irregular, separable | aussteigen | stieg … aus | stiegen … aus
+        mixed | bringen | brachte | brachten
+        mixed | denken | dachte | dachten
+      examples: |
+        Ich saß im Zug und las ein Buch. | I was sitting on the train reading a book. | sitzen → saß, lesen → las
+        Plötzlich merkte ich, dass etwas nicht stimmte. | Suddenly I noticed that something wasn't right. | regular: merkte, stimmte
+        Wir stiegen in Köln aus und gingen in ein Café. | We got off in Cologne and went into a café. | separable: stiegen … aus
+        Sie dachte, ich wollte einen Witz machen. | She thought I was trying to make a joke. | mixed: denken → dachte
+      tip: Learn irregular verbs in threes — gehen, ging, ist gegangen. The middle form is the Präteritum; the dictionary or your vocabulary list gives it to you.
+    reading:
+      title: Der falsche Rucksack
+      text: |
+        Diese Geschichte erzähle ich auf jeder Party, denn sie zeigt: Manchmal führt ein dummer Fehler zu etwas Wunderbarem.
+
+        Es war ein Sonntagabend im November vor sechs Jahren. Ich studierte damals in Hannover und fuhr nach einem Wochenende bei meinen Eltern mit dem Zug von Hamburg zurück. Der Zug war sehr voll. Ich legte meinen Rucksack oben auf die Ablage und setzte mich. Neben mir saß eine junge Frau, die etwas in ein Heft zeichnete. Ihr Rucksack lag direkt neben meinem und sah genauso aus: schwarz, ganz normal, ohne Aufkleber.
+
+        In Hannover nahm ich schnell meinen Rucksack und stieg aus. Erst zu Hause merkte ich, dass etwas nicht stimmte. Im Rucksack waren keine Bücher, sondern Pinsel, Farben und ein dickes Skizzenbuch. Ich erschrak. Wo war mein Laptop? Und wo war meine Hausarbeit, die ich am nächsten Morgen abgeben musste?
+
+        Zum Glück stand vorne im Skizzenbuch ein Name mit einer Telefonnummer: Ayumi Brandt. Ich rief sofort an. Ayumi saß noch im Zug nach Göttingen und war sehr überrascht. Sie öffnete „ihren“ Rucksack und fand meinen Laptop. Dann lachte sie so laut, dass ich auch lachen musste.
+
+        Noch am selben Abend fuhr ich mit dem Regionalzug nach Göttingen. Wir trafen uns in einem kleinen Café am Bahnhof, und ich brachte ihr die Pinsel zurück. Eigentlich wollten wir nur kurz einen Tee trinken. Aber am Ende saßen wir drei Stunden zusammen und redeten über alles: über Kunst, über unsere Familien, über das Leben. Meine Hausarbeit gab ich übrigens pünktlich ab – ich schrieb noch bis drei Uhr nachts.
+
+        Heute wohnen wir in derselben Stadt, und Ayumi ist meine beste Freundin. Auf meinem Rucksack klebt jetzt ein großer gelber Stern, ein Geschenk von ihr. „So verwechselst du ihn nie wieder“, sagt sie.
+
+        Leonie
+      translation: |
+        I tell this story at every party, because it shows that sometimes a silly mistake leads to something wonderful.
+
+        It was a Sunday evening in November six years ago. At the time I was studying in Hanover, and after a weekend at my parents' I was taking the train back from Hamburg. The train was very full. I put my rucksack up on the luggage rack and sat down. Next to me sat a young woman who was drawing something in a notebook. Her rucksack was right next to mine and looked exactly the same: black, completely ordinary, without stickers.
+
+        In Hanover I quickly took my rucksack and got off. Only when I got home did I notice that something wasn't right. In the rucksack there were no books, but brushes, paints and a thick sketchbook. I got a fright. Where was my laptop? And where was my essay, which I had to hand in the next morning?
+
+        Luckily, at the front of the sketchbook there was a name with a phone number: Ayumi Brandt. I called straight away. Ayumi was still on the train to Göttingen and was very surprised. She opened "her" rucksack and found my laptop. Then she laughed so loudly that I had to laugh too.
+
+        That same evening I took the regional train to Göttingen. We met in a little café at the station, and I gave her back her brushes. We actually only wanted to have a quick cup of tea. But in the end we sat together for three hours and talked about everything: about art, about our families, about life. By the way, I handed my essay in on time – I kept writing until three in the morning.
+
+        Today we live in the same town, and Ayumi is my best friend. On my rucksack there is now a big yellow star, a present from her. "That way you'll never mix it up again," she says.
+
+        Leonie
+    pronunciation:
+      title: "Long vowels in the Präteritum: saß, kam, stieg"
+      body: |
+        Many irregular Präteritum forms have a **long vowel**: *saß* [zaːs], *kam* [kaːm], *sah*, *las*, *lief*, *stieg* [ʃtiːk]. A vowel is long when it is followed by a single consonant, by **h** (*sah*), by **ß** (*saß*), or when it is written **ie** (*lief, stieg*).
+
+        Others have a **short vowel** before two consonants: *ging* [ɡɪŋ], *stand* [ʃtant], *fand*. Remember final devoicing: the d in *stand* and *fand* sounds like [t], the g in *stieg* like [k]. Read the items aloud and feel the difference in length.
+      items: |
+        saß
+        kam
+        stieg aus
+        ging
+        stand
+        Plötzlich merkte ich den Fehler.
+    culture:
+      title: Präteritum in the north, Perfekt in the south
+      body: |
+        In written German the Präteritum is used everywhere. In speech, however, there is a regional difference: in northern Germany people use the Präteritum in conversation more often (*Ich ging dann nach Hause*), while in the south, in Austria and in Switzerland, speakers use the Perfekt almost exclusively (*Ich bin dann nach Hause gegangen*). Both are correct.
+
+        When you tell a story aloud, a few phrases make it lively: start with *Stell dir vor, …* (Imagine …), move it forward with *und dann …* or *auf einmal …*, and finish with *Am Ende …*. Good listeners react with *Echt?*, *Nein!*, *Und dann?* or *Wie peinlich!*
+    mistakes: |
+      Ich gehte nach Hause. => Ich ging nach Hause. | Gehen is irregular: the Präteritum is ging, without -te.
+      Plötzlich ich merkte den Fehler. => Plötzlich merkte ich den Fehler. | When a word like plötzlich starts the sentence, the verb stays in position 2 and the subject follows.
+      Er bringte mir das Buch zurück. => Er brachte mir das Buch zurück. | Bringen is a mixed verb: the vowel changes and -te is added — brachte.
+    task:
+      title: Your own anecdote
+      mode: writing
+      body: |
+        A German-language blog is collecting "true stories from everyday life". Write your own anecdote (8–10 sentences) about a lucky coincidence, a funny mix-up or an embarrassing moment. Use the Präteritum and at least three of these words: plötzlich, zum Glück, leider, dann, am Ende. Then tell the story aloud to a friend or record it in Speaking practice.
+    exercises: |
+      fill: Plötzlich ___ das Telefon. (klingeln) || klingelte || Klingeln is regular: stem + -te, and no ending in the es-form. || @tags de.praeteritum
+      fill: Wir ___ in Göttingen aus und ___ zum Café. (aussteigen; laufen) || stiegen ; liefen || Both verbs are irregular: steigen → stiegen (the prefix aus goes to the end), laufen → liefen. || @tags de.praeteritum,de.separable
+      fill: Ich ___ sofort an dich, als ich das Foto sah. (denken) || dachte || Denken is a mixed verb: new vowel and -te — dachte. || @tags de.praeteritum
+      mc: What is the Präteritum of "sie findet"? || sie findete | *sie fand | sie fund || Finden is irregular: fand, with no -te. || @tags de.praeteritum
+      match: gehen = ging ; sehen = sah ; bringen = brachte ; sitzen = saß ; kennen = kannte || Gehen, sehen and sitzen are irregular; bringen and kennen are mixed verbs (new vowel + -te). || @skill grammar @tags de.praeteritum
+      rw: Put into the Präteritum :: Ich nehme den falschen Rucksack und steige aus. || Ich nahm den falschen Rucksack und stieg aus. || Nehmen → nahm, aussteigen → stieg … aus. || @tags de.praeteritum,de.separable
+      tf: Leonie noticed the mistake while she was still on the train. || false || "Erst zu Hause merkte ich, dass etwas nicht stimmte" — only when she got home. || @ctx reading
+      mc: How did Leonie find Ayumi? || Through the railway lost-property office | *There was a phone number in the sketchbook | She waited for her at the station || "Zum Glück stand vorne im Skizzenbuch ein Name mit einer Telefonnummer." || @ctx reading @skill reading
+      short: What does Leonie have on her rucksack today? || kw: stern/star || A big yellow star — a present from Ayumi, so she never mixes it up again. || @ctx reading
+      listen: Stell dir vor, gestern stand ich im Supermarkt an der Kasse und merkte plötzlich, dass ich kein Geld dabeihatte. Zum Glück bezahlte die Frau hinter mir für mich. || What happened at the checkout? || The card machine was broken. | *The speaker had no money on them. | The cashier made a mistake. || "Ich merkte plötzlich, dass ich kein Geld dabeihatte" — luckily the woman behind paid. || @tags de.listening,de.praeteritum
+      tr: Suddenly I noticed that it wasn't my bag. || Plötzlich merkte ich, dass es nicht meine Tasche war. | Plötzlich merkte ich, dass das nicht meine Tasche war. | Auf einmal merkte ich, dass es nicht meine Tasche war. | Plötzlich bemerkte ich, dass es nicht meine Tasche war. || Plötzlich in position 1, then merkte ich; in the dass-clause war goes to the end. || @tags de.praeteritum,de.subordinate-clauses
+      dict: Am Ende lachten wir beide über die Geschichte.
+      say: Stell dir vor, gestern ist mir etwas Verrücktes passiert! || Imagine, something crazy happened to me yesterday!
+      ask: Tell a friend a short anecdote: what happened, what you did and how it ended. Use at least three verbs in the Präteritum. || kw: plötzlich/dann/zum glück/am ende/auf einmal & war/hatte/ging/kam/sah/merkte/wollte/musste/stand/saß/fuhr/fand/rief || Letzten Sommer war ich in Wien. Plötzlich sah ich meine alte Lehrerin in der U-Bahn. Ich ging zu ihr, und sie erkannte mich sofort. Am Ende tranken wir zusammen einen Kaffee.
+      write: Write an anecdote (8–10 sentences) for a blog about a funny, lucky or embarrassing moment. Use the Präteritum. || min=60 || req: plötzlich/auf einmal | zum glück/leider | am ende/schließlich || Letzten Winter fuhr ich mit dem Bus zu einem Vorstellungsgespräch. Ich war sehr nervös und las noch einmal meine Notizen. Plötzlich merkte ich, dass der Bus in die falsche Richtung fuhr. Ich stieg sofort aus, aber es kam kein Taxi. Zum Glück hielt eine ältere Frau mit ihrem Auto an. Sie brachte mich direkt zur Firma, und ich kam nur fünf Minuten zu spät. Am Ende bekam ich die Stelle – und die Frau war die Mutter von meinem neuen Chef!

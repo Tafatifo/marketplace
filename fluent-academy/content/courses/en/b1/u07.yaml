@@ -1,0 +1,349 @@
+unit: 7
+title: Stories and screens
+theme: Culture and entertainment
+description: Review films and series, talk about books and music, and retell and recommend a story — adding extra information with non-defining relative clauses and combining the past tenses in a clear narrative.
+objectives:
+  - Add extra information about people, things and places with non-defining relative clauses
+  - Use which to comment on a whole idea, and whose, where and when in non-defining clauses
+  - Retell a story with the past simple, past continuous and past perfect, and recommend it
+canDo:
+  - I can describe a film or series and give my opinion of the plot, the characters and the acting.
+  - I can talk about a writer, a musician or a book I like and give some background information.
+  - I can retell the story of a film, book or real event in the right order.
+  - I can recommend something to a friend and explain why they would enjoy it.
+review: |
+  fill: My brother, ___ works in a cinema, sees every new film for free. || who || Non-defining clause about a person: who (never that). || @tags en.relative-clauses
+  mc: Choose the correct sentence. || "The Harbor", that was filmed in Canada, is brilliant. | *"The Harbor", which was filmed in Canada, is brilliant. | "The Harbor" which was filmed in Canada is brilliant. || Non-defining clauses take commas and which (not that) for things. || @tags en.relative-clauses
+  fill: We stayed in Galway, ___ the band played its first concert. || where || Non-defining clause about a place: where. || @tags en.relative-clauses
+  rw: Join the sentences with ", which" :: The film lasted three and a half hours. That was far too long. || The film lasted three and a half hours, which was far too long. || Which can refer to the whole previous clause. || @tags en.relative-clauses
+  mc: "Kemi Adeyemi, ___ first album sold a million copies, is now writing a novel." || who's | *whose | which || Whose shows possession (her first album). Who's means who is or who has. || @tags en.relative-clauses
+  fill: When I arrived at the theater, the play ___ already ___ (start). || had ; started || The play started before I arrived: past perfect. || @tags en.past-perfect
+  fill: While the hero ___ (sleep), someone ___ (steal) the map. || was sleeping ; stole || Background action: past continuous. The short event: past simple (steal → stole). || @tags en.past-continuous,en.past-irregular
+  mc: Which phrase recommends something strongly? || It was a bit predictable. | *It's definitely worth watching. | I didn't really get it. || It's (definitely) worth + -ing is a common way to recommend. || @tags en.suggestions
+  listen: The novel, which is set in Lagos in the 1970s, follows three sisters whose father has disappeared. It's long, but it's a real page-turner. || What does the speaker think of the novel? || It's too long and boring. | *It's long, but very exciting to read. | It's short and funny. || "It's long, but it's a real page-turner" — you want to keep reading. || @tags en.listening,en.relative-clauses
+  listen: We'd been waiting outside the stadium for two hours when the singer suddenly walked past us and waved. My friend was so shocked that she dropped her phone. || What happened when the singer walked past? || *The friend dropped her phone. | The concert was canceled. | They got the singer's autograph. || "She was so shocked that she dropped her phone." || @tags en.listening,en.past-perfect
+  ask: Recommend a film, series, book or album to a friend. Say what it is, one interesting fact about it and why they will enjoy it. || kw: which/who/whose/where/set in/about & recommend/worth/should/you'll love/you will love/must || You should watch "Northern Lights", which is a series about a family of reindeer herders in Norway. It's set in the Arctic, so the landscapes are incredible. If you like slow, beautiful dramas, you'll love it.
+  write: Write a short review (70–90 words) of a film, series or book. Include at least two non-defining relative clauses and a recommendation. || min=60 || req: which/who/whose/where | recommend/worth/should/you'll love/you will love || I've just finished "The Long Winter", which is the second novel by Hanna Berg. It tells the story of Elsa, whose husband goes missing during a snowstorm in northern Sweden. The writing, which is simple and clear, makes you feel the cold. The middle part is a little slow, but the ending is very moving. I'd recommend it to anyone who enjoys quiet, thoughtful stories.
+lessons:
+  - title: Reviewing a film or series
+    summary: Talk about films and series — plot, characters, acting and setting — and add extra information with non-defining relative clauses.
+    minutes: 45
+    skills: [vocabulary, grammar, speaking]
+    tags: [en.relative-clauses, en.opinion, en.intonation]
+    objectives:
+      - Use non-defining relative clauses with commas, who, which, where and whose
+      - Understand the difference between defining and non-defining clauses
+      - Give an opinion about a film or series without spoiling it
+    intro: |
+      "Have you seen it yet?" Films and series are one of the most common topics of conversation with friends and colleagues. In this lesson you will learn the words you need to talk about the plot, the characters and the acting, and use **non-defining relative clauses** to add extra information: *The main character, **who runs a café**, has a secret.*
+    vocab: |
+      plot | the story of a film, book or series | n | The plot is simple, but the characters are fascinating. | - | c: a gripping plot; the main plot
+      character | a person in a story | n | The main character is a retired detective. | - | c: the main character; a minor character
+      cast | all the actors in a film, play or series | n | The cast includes several famous actors. | -
+      set (in) | (of a story) happening in a particular place or time | adj | The series is set in a fishing village in the 1990s. | - | n: be set in + place or time
+      episode | one part of a series | n | I watched three episodes last night. | - | c: the first episode; the final episode
+      season | a set of episodes of a series, usually shown in the same year | n | Season two comes out in March. | - | n: British English also: series.
+      binge-watch | to watch many episodes of a series one after another | v | We binge-watched the whole season in one weekend. | -
+      spoiler | information that tells you what happens before you have seen it | n | No spoilers, please! I'm only on episode two. | - | c: spoiler alert
+      gripping | so exciting that you can't stop watching or reading | adj | The last episode was absolutely gripping. | -
+      predictable | happening in the way you expected; not surprising | adj | The ending was a bit predictable. | -
+      performance | the way an actor plays a role | n | She gives an amazing performance as the mother. | -
+      hooked (on) | enjoying something so much that you want more | adj | I was hooked after the first episode. | - | n: Informal.
+    grammar:
+      title: "Non-defining relative clauses"
+      body: |
+        A **non-defining relative clause** adds **extra information** about a noun that is already clear. The sentence still makes complete sense without it. It is separated from the rest of the sentence by **commas** (and in speech by short pauses):
+        *The main character, **who runs the café**, is a widow.*
+
+        - Use **who** for people, **which** for things, **where** for places and **whose** for possession.
+        - **Never use that** in a non-defining clause.
+        - You **can't leave out** the pronoun.
+        - They are very common after names and unique things: *"The Harbor", which was filmed in Nova Scotia, …; my sister, who lives in Perth, …*
+
+        Compare: *My brother **who lives in Rome** is a chef* (defining — I have more than one brother; I mean this one) and *My brother, **who lives in Rome**, is a chef* (non-defining — I have one brother, and here's an extra fact about him).
+      table: |
+        Defining | Non-defining
+        No commas | Commas
+        Essential: tells us which one | Extra information
+        who, which, that, or no pronoun | who, which, whose, where — never that, never left out
+        The film that won the prize is French. | "Lumière", which won the prize, is French.
+      examples: |
+        The main character, who runs a café, is a bit annoying. | | who: a person
+        Her story, which is told in flashbacks, explains a lot. | | which: a thing
+        It was filmed in Nova Scotia, where the director grew up. | | where: a place
+        Ken Okafor, whose performance is amazing, plays her brother. | | whose: possession
+      tip: "Cover the clause with your finger. If the sentence still makes sense and you know who or what it's about, the clause is non-defining: use commas and never that."
+    dialogue:
+      title: No spoilers!
+      setting: A Friday lunch at a food court in Singapore. Two colleagues, Wei Ling and Darren, are talking about a new series that everyone at work is watching.
+      speakers: W=Wei Ling/f; D=Darren/m
+      lines: |
+        D: Have you started "The Harbor" yet? Everyone at work is talking about it.
+        W: I finished it last night! I watched the last four episodes in one go.
+        D: No spoilers, please! I'm only on episode two. What did you think?
+        W: It starts slowly, but by episode three I was completely hooked.
+        D: The main character, who runs the café, is a bit annoying, isn't she?
+        W: At first, yes. But her story, which is told in flashbacks, explains a lot.
+        D: And the setting is amazing. Where was it filmed?
+        W: In Nova Scotia, where the director grew up. The coastline looks incredible.
+        D: What about the acting? The reviews I read were mixed.
+        W: The acting is brilliant, especially her brother, who hardly says a word.
+        D: OK. And the ending? Just tell me — is it happy or sad?
+        W: I'm not telling you! But you'll definitely want to watch season two.
+    pronunciation:
+      title: Pausing for non-defining clauses
+      body: |
+        In speech, a non-defining clause is like a little "extra" inside the sentence. Make a short **pause** before and after it, and say it a little **lower and faster** than the rest: *My sister, | who lives in Perth, | is a musician.*
+
+        Defining clauses have no pauses: *The man who lives next door is a musician.* Listen and repeat.
+      items: |
+        My sister, who lives in Perth, is a musician.
+        The series, which is set in Canada, is brilliant.
+        Her brother, who hardly speaks, is my favorite.
+        We went to Halifax, where it was filmed.
+        The man who lives next door is a musician.
+    culture:
+      title: Spoiler etiquette
+      body: |
+        Many people take spoilers very seriously. Before you talk about what happens in a film or series, check that your friends have seen it — *Have you seen the last episode yet?* — or warn them with *Spoiler alert!*
+
+        Streaming has also changed how people watch. Some series release all their episodes on the same day, so people binge-watch them in a weekend; others release one episode a week, which gives everyone something to discuss at work on Monday. In American English, a set of episodes is a **season**; in British English, it's often called a **series**.
+    mistakes: |
+      "The Harbor", that was filmed in Canada, is brilliant. => "The Harbor", which was filmed in Canada, is brilliant. | Never use that in a non-defining clause. Use which for things.
+      My mother who is a teacher loves crime series. => My mother, who is a teacher, loves crime series. | You only have one mother, so the clause is extra information and needs commas.
+      The film is set on Paris. => The film is set in Paris. | Be set in + a place or a time.
+    task:
+      title: Review it in a minute
+      mode: speaking
+      body: |
+        Choose a film or series you have seen recently. Prepare a one-minute spoken review: where and when it is set, the main characters, what you thought of the plot and the acting, and who you would recommend it to — without spoilers! Use at least two non-defining relative clauses. Then discuss whether it's better to binge-watch or watch one episode a week with the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      fill: My sister, ___ lives in Perth, has seen the film five times. || who || Non-defining clause about a person: who (not that). || @tags en.relative-clauses
+      fill: The series, ___ was filmed in Nova Scotia, has won three awards. || which || Non-defining clause about a thing: which (not that). || @tags en.relative-clauses
+      fill: We visited Dingle, ___ the movie was filmed. || where || Non-defining clause about a place: where. || @tags en.relative-clauses
+      mc: Choose the correct sentence. || "The Harbor", that is set in Canada, is brilliant. | *"The Harbor", which is set in Canada, is brilliant. | "The Harbor" which is set in Canada, is brilliant. || Use which (never that) and a comma on both sides of the clause. || @tags en.relative-clauses
+      mc: Which sentence needs commas? || The actor who plays the father is Scottish. | *Mia Torres who plays the mother is Mexican. | The episode that I liked best was the last one. || After a name (Mia Torres), the clause is extra information: Mia Torres, who plays the mother, is Mexican. || @tags en.relative-clauses
+      rw: Join the sentences with a non-defining relative clause :: The director grew up in Halifax. She also wrote the script. || The director, who grew up in Halifax, also wrote the script. | The director, who also wrote the script, grew up in Halifax. || Who + commas; she is not repeated. || @tags en.relative-clauses
+      rw: Join the sentences with "whose" :: Ken Okafor plays the brother. His performance is amazing. || Ken Okafor, whose performance is amazing, plays the brother. || Whose replaces his; commas because it's extra information about a named person. || @tags en.relative-clauses
+      tf: Wei Ling watched the last episodes slowly, one a week. || false || "I watched the last four episodes in one go." || @ctx dialogue
+      short: Where was the series filmed? || kw: Nova Scotia || "In Nova Scotia, where the director grew up." || @ctx dialogue
+      listen: @dialogue || What does Wei Ling refuse to tell Darren? || *How the series ends | Where it was filmed | Who the actors are || "I'm not telling you!" — she won't say if the ending is happy or sad. || @tags en.listening
+      listen: The film, which lasts almost three hours, is beautiful to look at, but the plot is very predictable. I guessed the ending after twenty minutes. || What is the speaker's main criticism? || *The story has no surprises. | It's too short. | The photography is poor. || "The plot is very predictable. I guessed the ending after twenty minutes." || @tags en.listening,en.relative-clauses
+      dict: The main character, who runs a café, has a secret. || non-defining clause with who
+      ask: Tell a friend about a series or film you've watched recently — what it's about, where it's set and what you thought of it. || kw: set/about & which/who/where/whose & good/great/boring/gripping/predictable/recommend/loved/liked/brilliant || I've just watched "Desert Road", which is a thriller set in Arizona. The main character, who is a truck driver, finds a bag of money. The plot is gripping, but the ending is a bit predictable.
+      write: Write a short review (70–90 words) of a film or series for a website. Include at least two non-defining relative clauses. || min=60 || req: which/who/whose/where | set in/about/tells || "Two Kitchens" is a comedy series set in Montreal. It follows Sam and Lucie, who run two rival restaurants on the same street. The first season, which has only six episodes, is short but very funny. The best performance comes from Ana Ruiz, whose character steals every scene. The plot is a little predictable, but I was hooked anyway. It's perfect for a relaxing weekend.
+
+  - title: Books and music
+    summary: Read a profile of a singer who became a novelist, talk about books and music, and use which to comment on a whole idea, plus whose, where and when in non-defining clauses.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [en.relative-clauses, en.reading, en.word-stress]
+    objectives:
+      - Use which to refer to a whole clause (…, which was a disaster)
+      - Use whose, where and when in non-defining clauses
+      - Combine short sentences into longer ones in biographies and profiles
+    intro: |
+      Behind every book and every album there's a story about the person who made it. In this lesson you will read a library newsletter profile of a musician who became a writer, learn vocabulary for books and music, and use non-defining relative clauses to write like a journalist — combining facts and adding comments: *She lost her voice, **which** was a disaster for a singer.*
+    vocab: |
+      novel | a long written story about imaginary people and events | n | Her new novel is set in Dublin. | - | n: A novelist writes novels.
+      bestseller | a book that sells a very large number of copies | n | The book became a bestseller in a few weeks. | -
+      author | the writer of a book | n | The author is coming to the bookstore to sign copies. | -
+      chapter | one of the parts of a book | n | I read a chapter every night before bed. | -
+      record | to put music or sound onto a disc or file so that it can be played again | v | The band recorded the album in one week. | - | n: Verb: re-CORD; noun: REC-ord.
+      album | a collection of songs released together | n | Their new album comes out on Friday. | -
+      lyrics | the words of a song | n | I love the music, but I can't understand the lyrics. | -
+      tour | to travel from place to place to perform | v | The band toured Europe last summer. | - | n: Also a noun: go on tour.
+      fan | someone who likes a person, a team or a band very much | n | She has loyal fans all over the world. | - | c: a big fan of; a huge fan
+      book club | a group of people who meet to discuss a book they have all read | n | Our book club meets once a month at the library. | -
+      critic | a person whose job is to give opinions about books, films or music | n | The critics loved her first novel. | -
+      page-turner | a book that is so exciting that you want to read it quickly | n | It's a real page-turner — I finished it in two days. | -
+    grammar:
+      title: "Non-defining clauses: which for a whole idea; whose, where, when"
+      body: |
+        In a non-defining clause, **which** can refer to the **whole idea** of the clause before it, not just one noun: *She lost her voice for six months, **which** was a disaster for a singer.* (Losing her voice was the disaster.) This is a natural way to add a comment or a reaction: *…, which surprised everyone / which was great news / which means…* Don't use *what* or *that* here.
+
+        You can also use **whose**, **where** and **when** in non-defining clauses:
+        - *Rosa, **whose** novel is a bestseller, used to be a singer.*
+        - *She grew up in San Antonio, **where** her parents ran a record store.*
+        - *In 2021, **when** she lost her voice, she started writing.*
+
+        In writing, these clauses help you join short sentences into longer, more elegant ones — very useful in biographies, reviews and stories. When the clause is in the middle of a sentence, put a comma on **both** sides.
+      table: |
+        Pronoun | Refers to | Example
+        who | a person | Her partner, who is a drummer, plays on the album.
+        which | a thing | Her first album, which she recorded at home, sold 200 copies.
+        which | the whole idea before it | The concert was canceled, which was a shame.
+        whose | possession | Rosa, whose novel is a bestseller, used to be a singer.
+        where | a place | She grew up in San Antonio, where her parents had a store.
+        when | a time | In 2021, when she lost her voice, she started writing.
+      examples: |
+        The band toured for years, which was exhausting. | | which = touring for years
+        The book is 900 pages long, which is a bit scary! | | which: a comment
+        She moved to Austin, where she met her partner. | | where: a place
+        Her father, whose record store closed in 2010, still collects vinyl. | | whose: possession
+      tip: "Use \", which…\" at the end of a sentence to add your own reaction: The tickets sold out in five minutes, which didn't surprise me."
+    reading:
+      title: "Meet the author: Rosa Delgado"
+      text: |
+        This month's guest at the Riverside Library Book Club is Rosa Delgado, whose first novel, The Night Ferry, has been on the bestseller list for twelve weeks.
+
+        Before she became a writer, Rosa spent fifteen years as a singer-songwriter. She grew up in San Antonio, Texas, where her parents ran a small record store, and she started writing songs at thirteen. Her first album, which she recorded in her bedroom, sold only two hundred copies. "My mom bought fifty of them," she jokes.
+
+        For years she toured small clubs and cafés across the US with her band, which made very little money but had a loyal group of fans. Then, in 2021, she lost her voice for six months because of a throat problem, which was a disaster for a singer. "I couldn't sing, so I started writing stories instead," she says. "It turned out to be the best thing that ever happened to me."
+
+        The Night Ferry tells the story of Lola, a young musician who travels to Ireland to find her missing father. Most of the novel takes place on a ferry between Wales and Dublin during a single stormy night. The book, which Rosa wrote in just nine months, is full of music: every chapter starts with a line from a song, and Rosa has recorded an album of the songs, which readers can listen to online.
+
+        Rosa now lives in Austin with her partner, Jo, who is a drummer, and their two cats, which are named after famous jazz singers. She still sings, but only at home. "My cats are my toughest critics," she says.
+
+        Join us on Thursday, May 14, at 7 p.m. in the main reading room. Rosa will read from the novel, answer your questions and, if her voice allows it, sing one song.
+    pronunciation:
+      title: "REcord or reCORD? Stress in nouns and verbs"
+      body: |
+        Some two-syllable words change their stress depending on whether they are **nouns** or **verbs**. The noun is stressed on the **first** syllable; the verb on the **second**: a **REC**ord / to re**CORD**, a **PRES**ent / to pre**SENT**, **PROG**ress / to pro**GRESS**.
+
+        The vowel in the unstressed syllable becomes weak: a REC-ərd, to rə-CORD. Listen and repeat.
+      items: |
+        a record
+        to record
+        a present
+        to present
+        They recorded an album.
+        She has a great record collection.
+    culture:
+      title: Book clubs and open mic nights
+      body: |
+        Book clubs are popular in the US, Canada and the UK. Friends or neighbors read the same book and meet once a month — often at someone's home or a library — to discuss it over coffee or dinner. Many public libraries also host free author events, where you can ask writers questions and get your book signed.
+
+        For music, look out for **open mic nights** in cafés and bars: anyone can sign up to play two or three songs, read a poem or try some comedy in front of a friendly audience.
+    mistakes: |
+      She lost her voice, what was a disaster. => She lost her voice, which was a disaster. | Use which (not what) to refer to a whole clause.
+      Rosa, who's novel is a bestseller, used to sing. => Rosa, whose novel is a bestseller, used to sing. | Whose shows possession; who's means who is or who has.
+      Her first album which she recorded at home, sold 200 copies. => Her first album, which she recorded at home, sold 200 copies. | A non-defining clause in the middle of a sentence needs a comma on both sides.
+    task:
+      title: Meet the artist
+      mode: writing
+      body: |
+        Write a short profile (80–100 words) of a writer or musician you admire — real or invented — for a library or school newsletter. Include where they grew up, how they started, one difficult moment and their most famous work. Use at least three non-defining relative clauses, including one *which* that comments on a whole idea.
+    exercises: |
+      mc: What did Rosa do before she became a novelist? || *She was a singer-songwriter. | She ran a record store. | She worked in a library. || "Rosa spent fifteen years as a singer-songwriter." Her parents ran the record store. || @ctx reading @tags en.reading
+      tf: Rosa's first album sold thousands of copies. || false || "Her first album… sold only two hundred copies." || @ctx reading
+      short: Why did Rosa start writing stories? || kw: voice/sing/throat || She lost her voice because of a throat problem: "I couldn't sing, so I started writing stories instead." || @ctx reading
+      fill: Rosa grew up in San Antonio, ___ her parents ran a record store. || where || Non-defining clause about a place: where. || @tags en.relative-clauses
+      fill: Rosa, ___ novel is a bestseller, used to be a singer. || whose || Whose for possession (her novel). || @tags en.relative-clauses
+      mc: "The concert was canceled at the last minute, ___ was really disappointing." || what | that | *which || Which refers to the whole idea (the cancellation). What and that can't be used here. || @tags en.relative-clauses
+      rw: Join the sentences with "which" :: The Night Ferry took nine months to write. It is Rosa's first novel. || The Night Ferry, which is Rosa's first novel, took nine months to write. | The Night Ferry, which took nine months to write, is Rosa's first novel. || A non-defining clause with which, with commas on both sides. || @tags en.relative-clauses
+      rw: Join the sentences with ", which" :: The band played for three hours. That was amazing. || The band played for three hours, which was amazing. || Which refers to the whole first clause. || @tags en.relative-clauses
+      mc: What does "which" refer to? "Rosa lost her voice for six months, which was a disaster for a singer." || The singer | Six months | *The fact that Rosa lost her voice || Here which refers to the whole idea of the previous clause. || @tags en.relative-clauses
+      listen: My favorite band, whose singer is from Glasgow, is playing here in June, which is great news because they almost never tour. || Why is the concert great news? || The singer is from Glasgow. | *The band rarely tours. | The tickets are free. || "Which is great news because they almost never tour." || @tags en.listening,en.relative-clauses
+      dict: Her first album, which she recorded at home, sold only two hundred copies. || non-defining clause with which
+      ask: Tell a friend about a book or album you love, using at least one non-defining relative clause. || kw: which/who/whose/where & book/album/song/novel/singer/writer/author/band || My favorite album is "Blue Rooms" by Mara Quinn, who is a jazz singer from Chicago. She recorded it in her kitchen, which is why it sounds so warm and relaxed.
+      write: Write a short profile (70–90 words) of a writer or musician you like, real or invented. Use at least two non-defining relative clauses. || min=60 || req: who/which/whose/where | grew up/was born/started/became || Tomás Ferreira, who is one of my favorite guitarists, was born in Porto in 1990. He grew up in a small apartment above his uncle's bar, where he played every weekend as a teenager. At twenty, he moved to Lisbon and recorded his first album, which sold very well. Later he lost the use of two fingers in an accident, which almost ended his career. Instead, he learned a new way to play.
+
+  - title: Recommending and retelling a story
+    summary: Retell the story of a film, book or real event with the past simple, past continuous and past perfect, use sequencing words, and recommend it to a friend.
+    minutes: 45
+    skills: [speaking, grammar, listening]
+    tags: [en.past-perfect, en.past-continuous, en.intonation]
+    objectives:
+      - Combine the past simple, past continuous and past perfect in a clear narrative
+      - Order events with sequencing words (at first, meanwhile, eventually, in the end)
+      - Recommend a story without spoiling the ending
+    intro: |
+      "What's it about?" Retelling a story — a film, a book or something that really happened — is a skill we use all the time. A good retelling is clear, in the right order and makes the listener want to know more. In this lesson you will put all your past tenses together, use sequencing words, and learn how to **recommend** a story without giving away the ending.
+    vocab: |
+      based on | using something as the starting point | adj | The film is based on a true story. | - | c: based on a novel; based on real events
+      storm | very bad weather with strong winds and rain | n | The storm lasted all night. | -
+      survive | to stay alive after a dangerous situation | v | Everyone on the boat survived. | -
+      rescue | to save someone from a dangerous situation | v | Firefighters rescued a cat from the roof. | - | n: Also a noun: a rescue.
+      eventually | in the end, after a long time or a lot of problems | adv | Eventually, they found a way home. | - | n: It doesn't mean "possibly".
+      meanwhile | at the same time, in another place | adv | Meanwhile, back in the village, nobody knew what had happened. | -
+      twist | an unexpected change in a story | n | The twist at the end surprised everyone. | - | c: a plot twist
+      spoil | to tell someone what happens in a story before they see or read it | v | Don't spoil the ending for me! | - | n: Also: ruin.
+      moving | making you feel strong emotions, often sadness | adj | The final scene is really moving. | -
+      highly recommend | to recommend something very strongly | expr | I highly recommend this book. | -
+      lonely | sad because you are alone | adj | She felt very lonely on the island. | -
+      brave | not afraid of danger or difficult situations | adj | It was a very brave thing to do. | - | n: The noun is bravery.
+    grammar:
+      title: "Past narration: putting the tenses together"
+      body: |
+        When you retell a story in the past, each tense has its own job:
+        - **past simple** — the main events, in the order they happened: *She saw a light. She ran to the boat.*
+        - **past continuous** — the background, or an action in progress when something happened: *A storm **was blowing**.*
+        - **past perfect** — an earlier event, when you need to jump back in time: *Her father **had died**. A boat **had hit** the rocks.*
+
+        **Sequencing words** guide the listener: *at first, then, after that, a few days later, meanwhile, eventually, in the end.*
+
+        When people **summarize the plot** of a film, book or series, they often use the **present simple** instead: *A young woman **works** at a lighthouse. One night she **sees** a light…* Both styles are correct, but choose one and don't switch between them.
+
+        To **recommend**: *It's definitely worth watching. You should read it. If you like…, you'll love… I highly recommend it.*
+      table: |
+        Tense | Job in the story | Example
+        past continuous | background | It was raining and the wind was blowing.
+        past simple | main events | She saw a light and ran to the window.
+        past perfect | an earlier event | A fishing boat had hit the rocks.
+        present simple | plot summary (also correct) | A young woman works at a lighthouse.
+      examples: |
+        While a terrible storm was blowing, she saw a light out at sea. | | background + event
+        A fishing boat had hit the rocks, and its engine had stopped. | | earlier events
+        Eventually, she reached the boat and pulled the fishermen to safety. | | eventually = in the end
+        If you like true stories, you'll love it. | | recommending
+      tip: "Choose one main story tense — past or present — and stay with it. Use the past perfect only when you need to jump back."
+    dialogue:
+      title: The lighthouse keeper
+      setting: A Sunday afternoon at her grandfather's house in Perth, Australia. Leila tells her grandfather, Frank, about a film she saw at the cinema.
+      speakers: L=Leila/f; F=Frank/m
+      lines: |
+        L: Grandpa, have you seen "The Lighthouse Keeper"? I think you'd love it.
+        F: I don't think so. What's it about?
+        L: It's based on a true story. It happened in Scotland in the 1950s.
+        L: A young woman was looking after a lighthouse on a tiny island.
+        F: On her own? That sounds lonely.
+        L: Very. Her father had looked after it for years, but he had just died.
+        L: One night, while a terrible storm was blowing, she saw a light out at sea.
+        L: It turned out that a fishing boat had hit the rocks and its engine had stopped.
+        F: So what did she do? Did she call for help?
+        L: She couldn't, because the radio wasn't working. So she rowed out to them herself.
+        F: In a storm? That's incredibly brave. Did they all survive?
+        L: I won't spoil the ending. But it's definitely worth watching — I cried twice!
+    pronunciation:
+      title: Telling a story with drama
+      body: |
+        Good storytellers use their voice to build suspense. **Slow down** and pause just before an important moment: *One night… | she saw a light.* **Stress** the words that carry the drama: *a TERRible STORM*, *she ROWED out HERself*.
+
+        At the end, a falling tone shows the story is finished, while a rising tone keeps the listener waiting: *And then… ↗* Listen and repeat.
+      items: |
+        One night, she saw a light.
+        Suddenly, the radio stopped working.
+        It turned out that the boat had hit the rocks.
+        She rowed out to them herself.
+        I won't spoil the ending.
+    culture:
+      title: A culture of storytelling
+      body: |
+        In Ireland, traditional storytellers called **seanchaí** used to travel from village to village, telling long stories by the fire in exchange for food and a place to sleep. Today, storytelling lives on in podcasts, live storytelling nights and stand-up comedy, where people tell true stories about their own lives in front of an audience.
+
+        When English speakers recommend something, they are often very enthusiastic: *You have to see it! It's a must-see! I couldn't put it down!* Strong phrases like these are normal and friendly — they don't sound exaggerated.
+    mistakes: |
+      Her father has died a year before. => Her father had died a year before. | To go back to an earlier past event, use the past perfect (had died), not the present perfect.
+      While she walked home, a car was stopping next to her. => While she was walking home, a car stopped next to her. | Background action: past continuous. Short event: past simple.
+      Eventually it will rain, so take an umbrella. => It might rain, so take an umbrella. | Eventually means "in the end, after a long time", not "possibly".
+    task:
+      title: Retell and recommend
+      mode: speaking
+      body: |
+        Choose a film, book or true story you know well. Retell it in about two minutes: the background (past continuous), the main events (past simple) and at least one jump back in time (past perfect), with sequencing words. Stop before the ending and recommend it. Then recommend something to watch this weekend with the AI coach in the "Making weekend plans" scenario.
+    exercises: |
+      fill: While the storm ___ (blow), she ___ (see) a light out at sea. || was blowing ; saw || Background: past continuous. The event: past simple (see → saw). || @tags en.past-continuous,en.past-irregular
+      fill: She was alone because her father ___ (die) a few months earlier. || had died / 'd died || Jumping back to an earlier event: past perfect. || @tags en.past-perfect
+      mc: Choose the best plot summary. || *A young woman lives alone on an island. One night, she sees a light. | A young woman lives alone on an island. One night, she saw a light. | A young woman has lived alone on an island. One night, she has seen a light. || Choose one tense for the story and don't switch. Plot summaries often use the present simple. || @tags en.present-simple,en.past-simple
+      mc: "We searched for the keys for hours. ___, we found them in the car." || Meanwhile | *Eventually | Suddenly || Eventually = in the end, after a long time. Meanwhile means at the same time. || @tags en.connectors
+      rw: Put the plot summary into the past :: A boy finds a map and decides to look for the treasure. || A boy found a map and decided to look for the treasure. || Present simple → past simple for a story told in the past. || @tags en.past-simple
+      rw: Join the sentences with the past perfect, starting with "She saw the light of a boat that" :: First the boat hit the rocks. Then she saw its light. || She saw the light of a boat that had hit the rocks. || The boat hit the rocks first, so use had hit. || @tags en.past-perfect,en.relative-clauses
+      order: By the time the rescue boat arrived, the storm had stopped. || @tags en.past-perfect
+      tf: The young woman called for help on the radio. || false || "She couldn't, because the radio wasn't working." || @ctx dialogue
+      short: Where and when did the true story happen? || kw: Scotland/1950s/1950 || "It happened in Scotland in the 1950s." || @ctx dialogue
+      listen: @dialogue || How does Leila feel about the film? || *She found it moving and thinks it's worth watching. | She thought the ending was predictable. | She didn't like it much. || "It's definitely worth watching — I cried twice!" || @tags en.listening
+      listen: I was reading on the train when I realized the woman next to me was the author of my book! She had seen the cover and was smiling at me. || Why was the woman smiling? || *She had written the book the speaker was reading. | She knew the speaker from school. | She had missed her stop. || She was the author, and she had seen her own book's cover. || @tags en.listening,en.past-perfect
+      dict: A fishing boat had hit the rocks during the storm. || past perfect
+      ask: Recommend a film, series or book to a friend. Say briefly what happens, without spoilers, and why they'll like it. || kw: about/based on/set in/happens & recommend/worth/should/you'll love/you will love/must || You should read "Small Island Summer". It's about a boy who spends a summer with his grandmother on a Greek island. He finds an old letter, and… I won't spoil it! If you like gentle family stories, you'll love it.
+      write: Retell a story you know (90–110 words) — from a film, a book or real life. Use the past simple, past continuous and past perfect, and at least two sequencing words. || min=80 || req: was/were | had | in the end/eventually/finally/after that/then/meanwhile || Last year my uncle was driving home late at night when he saw a small dog in the road. It was raining, and the dog was shaking with cold. He took it home, and the next day he put up posters around the town. At first, nobody called. Then, a week later, an old woman phoned him. Her dog had escaped from her garden during a storm. When she saw it, she cried. In the end, she invited my uncle for dinner every Sunday.
