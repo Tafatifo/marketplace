@@ -12,7 +12,11 @@ export interface VoiceInfo {
   source: string;
 }
 
-export const VOICES: Record<string, { f: VoiceInfo; m: VoiceInfo; alt?: VoiceInfo }> = {
+/**
+ * f/m voices distinguish speakers in dialogues. `solo` (default: f) reads everything that has
+ * no speaker — vocabulary, examples, exercises, pronunciation items and readings.
+ */
+export const VOICES: Record<string, { f: VoiceInfo; m: VoiceInfo; alt?: VoiceInfo; solo?: VoiceInfo }> = {
   en: {
     f: { id: "en_US-kristin-medium", label: "Kristin (US)", gender: "f", locale: "en-US", license: "Public domain (LibriVox)", source: "https://huggingface.co/rhasspy/piper-voices" },
     m: { id: "en_US-joe-medium", label: "Joe (US)", gender: "m", locale: "en-US", license: "CC0", source: "https://huggingface.co/rhasspy/piper-voices" },
@@ -32,11 +36,13 @@ export const VOICES: Record<string, { f: VoiceInfo; m: VoiceInfo; alt?: VoiceInf
     f: { id: "de_DE-kerstin-low", label: "Kerstin (Germany)", gender: "f", locale: "de-DE", license: "CC0", source: "https://huggingface.co/rhasspy/piper-voices" },
     m: { id: "de_DE-thorsten-medium", label: "Thorsten (Germany)", gender: "m", locale: "de-DE", license: "CC0 (Thorsten-Voice)", source: "https://huggingface.co/rhasspy/piper-voices" },
   },
-  // Only one open Danish voice exists. The second speaker is derived from it (formant and
-  // pitch shift) so dialogues have two distinguishable voices; it is labelled as derived.
+  // Only one open Danish voice exists. The second dialogue speaker is derived from it (formant
+  // and pitch shift) and labelled as derived. The derived voice is less intelligible (audio QA:
+  // mean score 0.62 vs 0.89), so everything without a speaker uses the natural voice.
   da: {
     f: { id: "da_DK-talesyntese-medium+f", label: "Talesyntese, derived higher voice (Denmark)", gender: "f", locale: "da-DK", license: "CC0 (NB Språkbanken talesyntese data); pitch-shifted derivative", source: "https://huggingface.co/rhasspy/piper-voices" },
     m: { id: "da_DK-talesyntese-medium", label: "Talesyntese (Denmark)", gender: "m", locale: "da-DK", license: "CC0 (NB Språkbanken talesyntese data)", source: "https://huggingface.co/rhasspy/piper-voices" },
+    solo: { id: "da_DK-talesyntese-medium", label: "Talesyntese (Denmark)", gender: "m", locale: "da-DK", license: "CC0 (NB Språkbanken talesyntese data)", source: "https://huggingface.co/rhasspy/piper-voices" },
   },
 };
 
@@ -44,6 +50,13 @@ export function voiceFor(language: string, gender: "f" | "m" = "f"): VoiceInfo {
   const set = VOICES[language];
   if (!set) throw new Error(`No voices configured for language "${language}"`);
   return set[gender];
+}
+
+/** The voice for clips without a speaker. */
+export function soloVoice(language: string): VoiceInfo {
+  const set = VOICES[language];
+  if (!set) throw new Error(`No voices configured for language "${language}"`);
+  return set.solo ?? set.f;
 }
 
 export const LANGUAGE_META: Record<string, { name: string; nativeName: string; locale: string; order: number; flagColors: string[] }> = {

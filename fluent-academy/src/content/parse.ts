@@ -38,7 +38,7 @@ import type {
   UnitDef,
   VocabEntry,
 } from "./types";
-import { LANGUAGE_META, voiceFor } from "./voices";
+import { LANGUAGE_META, soloVoice, voiceFor } from "./voices";
 
 export const sha1 = (s: string) => createHash("sha1").update(s).digest("hex");
 const pad2 = (n: number) => String(n).padStart(2, "0");
@@ -49,7 +49,7 @@ export class AudioCollector {
   private map = new Map<string, AudioRequest>();
 
   ref(language: string, text: string, opts: { gender?: "f" | "m"; voice?: string; slow?: boolean; usage: string }): AudioRef {
-    const voice = opts.voice ?? voiceFor(language, opts.gender ?? "f").id;
+    const voice = opts.voice ?? (opts.gender ? voiceFor(language, opts.gender) : soloVoice(language)).id;
     const key = this.add(language, text, voice, "normal", opts.usage);
     const ref: AudioRef = { key };
     if (opts.slow) ref.slowKey = this.add(language, text, voice, "slow", opts.usage);
@@ -931,7 +931,7 @@ export function buildPassage(raw: RawPassage, language: CourseLanguage, level: C
     lineAudio = dl.map((d) => audio.ref(language, d.text, { gender: genderOf.get(d.speaker) ?? "f", usage: `${slug}:line` }));
     passageAudio = audio.composite(language, dl.map((d) => ({ text: d.text, gender: genderOf.get(d.speaker) ?? "f" })), `${slug}:passage`);
   } else {
-    passageAudio = audio.ref(language, body.replace(/\n\s*\n/g, "\n"), { usage: `${slug}:passage`, gender: kind === "LISTENING" ? "m" : "f" });
+    passageAudio = audio.ref(language, body.replace(/\n\s*\n/g, "\n"), { usage: `${slug}:passage`, gender: kind === "LISTENING" ? "m" : undefined });
   }
 
   const scope: ExerciseScope = { keyPrefix: slug, lessonTags: [], vocabTag: `vocab.${slug}`, readingText: undefined };

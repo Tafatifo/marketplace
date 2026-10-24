@@ -153,8 +153,13 @@ def combined(target: str, heard: str, lang: str) -> float:
     return max(r, phoneme_similarity(target, heard, lang))
 
 
-def status_for(r: float) -> str:
-    return "PASS" if r >= 0.85 else "REVIEW" if r >= 0.5 else "FAIL"
+def status_for(r: float, text: str = "") -> str:
+    status = "PASS" if r >= 0.85 else "REVIEW" if r >= 0.5 else "FAIL"
+    # Recognition of one or two isolated words is unreliable, so a low score there is not
+    # evidence of broken audio — a person should listen instead.
+    if status == "FAIL" and text and len(text.split()) <= 2:
+        return "REVIEW"
+    return status
 
 
 def main():
@@ -229,7 +234,7 @@ def main():
             for (e, _), (a, b) in zip(window, spans):
                 heard = " ".join(w.word.strip() for w in words if (w.start + w.end) / 2 >= a - 0.15 and (w.start + w.end) / 2 <= b + 0.15)
                 r = combined(e["text"], heard, lang)
-                e.update(qaStatus=status_for(r), qaScore=round(r, 3), qaTranscript=heard[:500])
+                e.update(qaStatus=status_for(r, e["text"]), qaScore=round(r, 3), qaTranscript=heard[:500])
                 processed += 1
             window, total = [], 0.0
 
@@ -308,7 +313,7 @@ def escalate(args):
         script = " ".join(l.split(":", 1)[1] if l[:2] in ("f:", "m:") else l for l in e["text"].split("\n"))
         r = combined(script, heard, e["language"])
         if r > (e.get("qaScore") or 0):
-            e.update(qaStatus=status_for(r), qaScore=round(r, 3), qaTranscript=f"{heard[:480]} [{model_name}]")
+            e.update(qaStatus=status_for(r, e["text"]), qaScore=round(r, 3), qaTranscript=f"{heard[:480]} [{model_name}]")
             improved += 1
     refresh_slow(index)
     INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=0, sort_keys=True))

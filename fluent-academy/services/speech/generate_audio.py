@@ -126,10 +126,19 @@ def main():
     ap.add_argument("--workers", type=int, default=max(1, min(4, (os.cpu_count() or 2) - 1)))
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--language", default="")
+    ap.add_argument("--prune", action="store_true", help="remove clips (files and index entries) the manifest no longer needs")
     args = ap.parse_args()
 
     manifest = json.loads(MANIFEST.read_text())
     index: dict = json.loads(INDEX.read_text()) if INDEX.exists() else {}
+    if args.prune:
+        needed = {r["key"] for r in manifest}
+        stale = [k for k in index if k not in needed and (not args.language or k.startswith(args.language + "/"))]
+        for k in stale:
+            (OUT / k).unlink(missing_ok=True)
+            del index[k]
+        INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=0, sort_keys=True))
+        print(f"Pruned {len(stale)} clips no longer referenced by the curriculum", flush=True)
     todo = [r for r in manifest if (not args.language or r["language"] == args.language) and not (r["key"] in index and (OUT / r["key"]).exists() and "error" not in index[r["key"]])]
     if args.limit:
         todo = todo[: args.limit]
