@@ -135,7 +135,7 @@ lessons:
       listen: For rent — a bright one-bedroom apartment, ten minutes from the beach. Twelve hundred dollars a month, utilities included. || How much is the rent? || $1,100 | *$1,200 | $2,100 || "Twelve hundred dollars a month" = $1,200. || @tags en.listening,en.numbers
       dict: The new flat is bigger and brighter than our old one.
       ask: Compare two places you know — two apartments, houses or neighborhoods. Use three comparatives. || kw: than & bigger/smaller/cheaper/nicer/older/newer/quieter/noisier/better/worse/more/brighter/darker/closer/farther/safer || My parents' house is bigger than my apartment, and it's quieter. But my apartment is closer to the city center, so it's more convenient.
-      write: You saw two apartments for rent. Write an email to a friend comparing them (price, size, location) and say which one you want. || min=40 || req: than | more/-er || Hi Lina, I saw two apartments today. The first one is bigger and brighter, but it's more expensive — $1,600 a month. The second one is cheaper and closer to my office, but it's quite dark. I think I want the first one. It's nicer and the location is better for the weekends!
+      write: You saw two apartments for rent. Write an email to a friend comparing them (price, size, location) and say which one you want. || min=40 || req: than || Hi Lina, I saw two apartments today. The first one is bigger and brighter, but it's more expensive — $1,600 a month. The second one is cheaper and closer to my office, but it's quite dark. I think I want the first one. It's nicer and the location is better for the weekends!
 
   - title: Furniture and chores
     summary: Talk about furniture, what you have and what you need, and share the housework — with much, many, a lot of, a few, a little, too and enough.
@@ -231,7 +231,6 @@ lessons:
     exercises: |
       fill: How ___ money do we have for furniture? || much || Money is uncountable: How much…? || @tags en.quantifiers,en.countable
       fill: There are ___ boxes in the hall. We can't walk! (more than we want) || too many || Boxes are countable and there are more than we want: too many. || @tags en.quantifiers
-      fill: I need ___ help with the curtains. It's only a small job. || a little || Help is uncountable, and it's a small amount: a little. || @tags en.quantifiers
       fill: We only have four chairs. We don't have ___ chairs for eight people. || enough || Enough = the number you need. Not enough = too few. || @tags en.quantifiers
       mc: There's ___ furniture in the living room. It feels very crowded. || too many | *too much | a few || Furniture is uncountable, so use too much. || @tags en.quantifiers,en.countable
       mc: Choose the correct sentence. || I have a few time this evening. | *I have a little time this evening. | I have many time this evening. || Time is uncountable: a little time. || @tags en.quantifiers,en.countable

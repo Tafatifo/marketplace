@@ -1,0 +1,345 @@
+unit: 4
+title: Arbeit und Studium
+theme: Work and studies
+description: Talk about your studies and your job, say how long you have been doing something with seit, give reasons with weil and opinions with dass, and write a short job application.
+objectives:
+  - Say how long you have been studying or working with seit and the present tense
+  - Give reasons with weil and put the verb at the end
+  - Express opinions and hopes with dass, and apply for a job in writing
+canDo:
+  - I can say what I study or do and how long I have been doing it.
+  - I can describe a typical working day and say why I like or dislike my job.
+  - I can say what I think, believe or hope with dass.
+  - I can write a short email applying for a job.
+review: |
+  fill: Ich arbeite seit drei ___ als Krankenpflegerin. (Jahr) || Jahren || Seit takes the dative; in the dative plural the noun adds -n: seit drei Jahren. || @tags de.seit,de.dative
+  fill: Seit ___ Sommer jobbe ich in einem Hotel. || dem || Der Sommer → seit dem Sommer (dative). || @tags de.seit,de.dative
+  fill: Ich lerne Deutsch, weil ich in Österreich studieren ___. (wollen) || will || In a weil-clause the modal verb goes to the very end: … studieren will. || @tags de.subordinate-clauses,de.modal-verbs
+  fill: Wir hoffen, dass das Wetter morgen schön ___. || ist / wird || After dass the verb goes to the end: dass das Wetter schön ist. || @tags de.subordinate-clauses
+  mc: "I have been living here since 2020." || Ich habe hier seit 2020 gewohnt. | *Ich wohne hier seit 2020. | Ich wohne hier vor 2020. || Something that is still true: seit + present tense. Vor means ago. || @tags de.seit
+  mc: Which sentence is correct? || Ich bin froh, dass ich habe die Stelle bekommen. | *Ich bin froh, dass ich die Stelle bekommen habe. | Ich bin froh, dass habe ich die Stelle bekommen. || In a dass-clause in the Perfekt, haben goes to the very end. || @tags de.subordinate-clauses,de.perfekt
+  rw: Join the sentences with weil :: Ich bin müde. Ich hatte Nachtschicht. || Ich bin müde, weil ich Nachtschicht hatte. || Comma + weil; the verb hatte goes to the end. || @tags de.subordinate-clauses,de.connectors
+  tr: She says that she can start on Monday. || Sie sagt, dass sie am Montag anfangen kann. | Sie sagt, sie kann am Montag anfangen. || With dass, the modal kann goes to the end; without dass, normal word order. || @tags de.subordinate-clauses,de.modal-verbs
+  listen: Ich studiere seit zwei Jahren Informatik und arbeite nebenbei in einer IT-Firma, weil ich Erfahrung sammeln will. || Why does the speaker work at an IT company? || To earn money for a car | *To gain experience | Because the course requires it || Weil ich Erfahrung sammeln will = because I want to gain experience. || @tags de.listening,de.connectors
+  listen: Herr Sommer kann heute nicht zur Besprechung kommen, weil sein Zug ausgefallen ist. || Why can't Herr Sommer come to the meeting? || He is ill. | *His train was cancelled. | He has another meeting. || Weil sein Zug ausgefallen ist = because his train was cancelled. || @tags de.listening
+  ask: Say what you do (your studies or your job), since when, and why you like it. || kw: seit & weil || Ich arbeite seit vier Jahren als Grafikerin. Ich mag meinen Job, weil ich kreativ sein kann.
+  write: Write a short email to a friend (5–6 sentences) about your new job or course: what it is, since when, why you chose it and what you think of it. || min=40 || req: seit | weil | dass || Hallo Paul, ich habe Neuigkeiten! Ich arbeite seit zwei Wochen in einer Buchhandlung in Bonn. Ich habe die Stelle genommen, weil ich Bücher liebe. Meine Kolleginnen sind sehr nett. Ich glaube, dass ich hier viel lernen kann. Nur der Weg ist lang. Liebe Grüße, Ayşe
+lessons:
+  - title: My studies
+    summary: Talk about your studies or your course and say how long you have been doing something with seit and the present tense.
+    minutes: 35
+    skills: [grammar, speaking, listening]
+    tags: [de.seit, de.dative]
+    objectives:
+      - Use seit with the present tense for things that are still going on
+      - Form the dative after seit (seit einem Jahr, seit zwei Monaten)
+      - Ask and answer "Seit wann…?" and "Wie lange…?"
+    intro: |
+      Whether you are at university, on an evening course or learning on the job, people will ask what you study and *since when*. German answers with **seit** and the **present tense** — not with a past tense like English "I have been studying". In this lesson you talk about your studies and practise this very common pattern.
+    vocab: |
+      das Studium | (university) studies; degree course | n | Mein Studium dauert noch zwei Semester. | My degree has two more semesters to go. | g: n | pl: die Studien
+      das Fach | subject | n | Mein Lieblingsfach ist Statistik. | My favourite subject is statistics. | g: n | pl: die Fächer | c: das Hauptfach (main subject); das Nebenfach (minor subject)
+      das Semester | semester | n | Ich bin im dritten Semester. | I'm in my third semester. | g: n | pl: die Semester
+      die Vorlesung | lecture | n | Die Vorlesung beginnt um Viertel nach zehn. | The lecture starts at quarter past ten. | g: f | pl: die Vorlesungen
+      die Prüfung | exam | n | Im Juli habe ich drei Prüfungen. | I have three exams in July. | g: f | pl: die Prüfungen | c: eine Prüfung schreiben; eine Prüfung machen
+      bestehen | to pass (an exam) | v | Ich habe die Prüfung bestanden! | I passed the exam! | n: Irregular, no ge-: hat bestanden. To fail: durchfallen (ist durchgefallen).
+      die Bibliothek | library | n | In der Bibliothek ist es schön ruhig. | It's nice and quiet in the library. | g: f | pl: die Bibliotheken
+      das Stipendium | scholarship; grant | n | Sie hat ein Stipendium für ein Jahr in Kanada bekommen. | She got a scholarship for a year in Canada. | g: n | pl: die Stipendien
+      der Abschluss | degree; qualification | n | Nächstes Jahr mache ich meinen Abschluss in Informatik. | Next year I'm finishing my degree in computer science. | g: m | pl: die Abschlüsse | c: den Abschluss machen
+      die Weiterbildung | further training | n | Mein Bruder macht eine Weiterbildung im Marketing. | My brother is doing further training in marketing. | g: f | pl: die Weiterbildungen
+      seit | since; for (up to now) | prep | Ich lerne seit drei Monaten Deutsch. | I've been learning German for three months. | n: Takes the dative and the present tense.
+      seit wann? | since when?; how long? | expr | Seit wann wohnst du in Aachen? | How long have you been living in Aachen? | n: Also common: Wie lange … schon?
+    grammar:
+      title: "seit + present tense"
+      body: |
+        To say how long something has been going on, German uses **seit** + the **present tense**: *Ich **studiere seit** zwei Jahren in Aachen* = I have been studying in Aachen for two years. English uses a perfect tense here, German doesn't — the action is still going on, so it is present.
+
+        **Seit** always takes the **dative**: *seit dem Sommer* (der → dem), *seit der Schulzeit* (die → der), *seit einem Jahr* (das → einem). In the plural the noun usually adds **-n**: *seit zwei Jahren, seit drei Monaten*. Years, months and days need no article: *seit 2023, seit Mai, seit Montag*.
+
+        Ask with **Seit wann…?** or **Wie lange … schon?**: *Seit wann lernst du Deutsch? – Seit einem Jahr.* For something that started and finished in the past, use the Perfekt with **vor** (ago): *Ich habe vor zwei Jahren mit dem Studium angefangen.*
+      table: |
+        Noun | After seit | Example
+        der Sommer | seit dem Sommer | Ich jobbe seit dem Sommer im Café.
+        die Schulzeit | seit der Schulzeit | Wir sind seit der Schulzeit Freunde.
+        das Semester | seit einem Semester | Sie studiert seit einem Semester Jura.
+        plural | seit zwei Jahren | Er wohnt seit zwei Jahren hier.
+        no article | seit 2023 / seit Mai | Ich lerne seit Mai Deutsch.
+      examples: |
+        Ich studiere seit drei Semestern Chemie. | I've been studying chemistry for three semesters. | dative plural: -n
+        Seit wann lernst du Japanisch? – Seit dem Herbst. | How long have you been learning Japanese? – Since the autumn. | der Herbst → dem Herbst
+        Meine Schwester wohnt seit einem Monat in Wien. | My sister has been living in Vienna for a month. | der Monat → einem Monat
+        Ich habe vor zwei Jahren mit dem Studium angefangen. | I started university two years ago. | finished action: Perfekt + vor
+      tip: Seit + present for things that are still true; vor + Perfekt for when something happened.
+    dialogue:
+      title: In der Bibliothek
+      setting: The café of the university library in Aachen. Johanna sits down next to Mateo, who is studying for an exam.
+      speakers: J=Johanna/f; M=Mateo/m
+      lines: |
+        J: Entschuldigung, ist der Platz hier noch frei? | Excuse me, is this seat free?
+        M: Ja, klar. Ich lerne seit acht Uhr für meine Prüfung. | Yes, of course. I've been studying for my exam since eight o'clock.
+        J: Seit acht? Wow! Was studierst du denn? | Since eight? Wow! What do you study?
+        M: Maschinenbau. Ich mache hier meinen Master. | Mechanical engineering. I'm doing my master's here.
+        J: Ich studiere Geschichte und Spanisch, im vierten Semester. | I study history and Spanish, in my fourth semester.
+        M: Spanisch? Ich komme aus Chile! Seit wann lernst du Spanisch? | Spanish? I'm from Chile! How long have you been learning Spanish?
+        J: Seit der Schule. Aber ich spreche nicht so gut. | Since school. But I don't speak it very well.
+        M: Und ich lerne seit einem Jahr Deutsch. Ich habe ein Stipendium bekommen. | And I've been learning German for a year. I got a scholarship.
+        J: Dein Deutsch ist super! Wann ist deine Prüfung? | Your German is great! When is your exam?
+        M: Morgen früh, in Thermodynamik. Das Fach ist echt schwer. | Tomorrow morning, in thermodynamics. That subject is really hard.
+        J: Viel Glück! Wollen wir mal zusammen Spanisch und Deutsch üben? | Good luck! Shall we practise Spanish and German together some time?
+        M: Gern! Nach der Prüfung habe ich mehr Zeit. | I'd love to! After the exam I'll have more time.
+    pronunciation:
+      title: "ng and the ending -ung"
+      body: |
+        The letters **ng** are one single sound [ŋ], as in English *singer* — never with a hard g as in *finger*: *lange, Vorlesung, Prüfung*. The ending **-ung** has a short u and is never stressed: *VORlesung, PRÜfung, WEIterbildung*.
+
+        Remember that *seit* is pronounced like English *zite* [zaɪt]: the s before a vowel is voiced.
+      items: |
+        die Vorlesung
+        die Prüfung
+        die Weiterbildung
+        lange
+        Seit wann lernst du?
+        Ich lerne seit einem Jahr Deutsch.
+    culture:
+      title: Semesters, part-time jobs and evening classes
+      body: |
+        The German university year has two semesters: the winter semester from October to March and the summer semester from April to September. Lectures (*Vorlesungen*) take place in big halls, while seminars are smaller. Many students have a part-time job next to their studies — in a café, a shop or as a *Werkstudent* in a company.
+
+        Learning doesn't stop after university: adult education centres (*Volkshochschulen*) in almost every town offer evening courses in languages, IT, cooking and much more.
+    mistakes: |
+      Ich lerne Deutsch seit drei Jahre. => Ich lerne Deutsch seit drei Jahren. | Seit takes the dative: in the plural the noun adds -n (Jahren).
+      Ich habe seit 2022 in Aachen gewohnt. => Ich wohne seit 2022 in Aachen. | If it is still true, German uses seit + present tense.
+      Seit wann du studierst? => Seit wann studierst du? | In a W-question the verb comes straight after the question word.
+    task:
+      title: Tell someone about your studies
+      mode: speaking
+      body: |
+        Tell a new classmate what you study or learn, since when, your favourite subject and when your next exam is. Ask the same questions back with "Seit wann…?". Practise with the AI coach in the "Introducing yourself" scenario.
+    exercises: |
+      fill: Ich lerne ___ einem Jahr Deutsch. || seit || Something still going on: seit + present tense. || @tags de.seit
+      fill: Wir wohnen seit drei ___ in Aachen. (Monat) || Monaten || Dative plural after seit: die Monate → seit drei Monaten. || @tags de.seit,de.dative
+      fill: Sie studiert seit ___ Sommer Medizin. || dem || Der Sommer → seit dem Sommer. || @tags de.seit,de.dative
+      fill: Seit wann ___ du Gitarre? (spielen) || spielst || Seit + present tense: du spielst. || @tags de.seit,de.present-regular
+      mc: "I've been working here for two years." || Ich habe hier seit zwei Jahren gearbeitet. | *Ich arbeite hier seit zwei Jahren. | Ich arbeite hier seit zwei Jahre. || Still true → present tense; dative plural Jahren. || @tags de.seit
+      rw: Rewrite with seit :: Ich bin im März nach Köln gezogen und wohne immer noch dort. || Ich wohne seit März in Köln. | Seit März wohne ich in Köln. || Still true → seit + present; months need no article. || @tags de.seit
+      order: Seit dem Herbst mache ich eine Weiterbildung. || Since the autumn I've been doing further training. || Seit dem Herbst in position 1, then the verb. || @tags de.seit,de.word-order @alt Ich mache seit dem Herbst eine Weiterbildung.
+      tf: Mateo has been learning German for a year. || true || "Ich lerne seit einem Jahr Deutsch." || @ctx dialogue
+      short: Which subject is Mateo's exam in? || kw: thermodynamik/thermodynamics || "Morgen früh, in Thermodynamik." || @ctx dialogue
+      listen: @dialogue || What does Johanna suggest? || Studying for the exam together | *Practising Spanish and German together | Having lunch in the canteen || "Wollen wir mal zusammen Spanisch und Deutsch üben?"
+      listen: Ich studiere seit vier Semestern Biologie, und seit Oktober arbeite ich auch im Labor. || Since when has the speaker been working in the lab? || For four semesters | *Since October | Since the summer || Seit Oktober arbeite ich auch im Labor. || @tags de.listening,de.seit
+      tr: How long have you been learning German? (informal) || Seit wann lernst du Deutsch? | Wie lange lernst du schon Deutsch? | Seit wann lernst du schon Deutsch? | Wie lange lernst du Deutsch? || German uses the present tense: lernst du. || @tags de.seit,de.questions
+      dict: Ich studiere seit zwei Jahren in Aachen.
+      ask: Say what you study or learn and how long you have been doing it. || kw: seit & studiere/lerne/mache/arbeite/besuche || Ich studiere seit drei Semestern Informatik, und ich lerne seit einem Jahr Deutsch.
+
+  - title: A day at work
+    summary: Describe a typical working day and say why you like or dislike your job with weil — and the verb at the end.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.subordinate-clauses, de.connectors]
+    objectives:
+      - Give reasons with weil and put the conjugated verb at the end
+      - Use weil-clauses with modal verbs, separable verbs and the Perfekt
+      - Describe your tasks and your working day
+    intro: |
+      "Warum?" — when you talk about your job, people want to know why you chose it, why you start so early, why you enjoy it. The answer starts with **weil** (because), and German sends the verb to the very end of a weil-clause. Learning this word order is a big step: you will use it with dass and wenn too.
+    vocab: |
+      der Arbeitsplatz | workplace; desk; job | n | Mein Arbeitsplatz ist direkt am Fenster. | My desk is right by the window. | g: m | pl: die Arbeitsplätze
+      die Schicht | shift | n | Diese Woche habe ich Frühschicht, ich fange um sechs an. | This week I'm on the early shift; I start at six. | g: f | pl: die Schichten | c: die Frühschicht; die Spätschicht; die Nachtschicht
+      der Kunde | customer; client (male) | n | Heute habe ich viele Kunden beraten. | Today I advised lots of customers. | g: m | pl: die Kunden | n: Female: die Kundin, die Kundinnen.
+      der Kollege | colleague (male) | n | Meine Kollegen sind sehr hilfsbereit. | My colleagues are very helpful. | g: m | pl: die Kollegen | n: Female: die Kollegin, die Kolleginnen.
+      die Besprechung | meeting | n | Um neun haben wir eine kurze Besprechung. | At nine we have a short meeting. | g: f | pl: die Besprechungen
+      die Überstunde | hour of overtime | n | Letzte Woche habe ich zehn Überstunden gemacht. | Last week I did ten hours of overtime. | g: f | pl: die Überstunden | c: Überstunden machen
+      verantwortlich | responsible | adj | Ich bin für die Planung verantwortlich. | I'm responsible for planning. | c: verantwortlich für + accusative
+      erledigen | to deal with; to get done | v | Am Vormittag erledige ich meine E-Mails. | In the morning I deal with my emails. | n: No ge-: hat erledigt
+      anstrengend | tiring; demanding | adj | Die Nachtschicht ist anstrengend, aber gut bezahlt. | The night shift is tiring but well paid.
+      der Feierabend | end of the working day | n | Um fünf habe ich endlich Feierabend. | At five I finally finish work. | g: m | pl: die Feierabende | c: Feierabend haben; Schönen Feierabend!
+      weil | because | conj | Ich mag meinen Job, weil ich viel mit Menschen arbeite. | I like my job because I work with people a lot. | n: The conjugated verb goes to the end of the weil-clause.
+      warum? | why? | adv | Warum arbeitest du am Samstag? | Why are you working on Saturday? | n: The answer often starts with weil.
+    grammar:
+      title: "weil: giving reasons with the verb at the end"
+      body: |
+        **Weil** (because) starts a subordinate clause. In a weil-clause the **conjugated verb goes to the very end**, and a **comma** separates it from the main clause: *Ich stehe früh auf, **weil** ich um sechs Uhr **anfange**.*
+
+        - Separable verbs join up again at the end: *weil der Bus um sieben **abfährt***.
+        - With a modal verb, the modal comes last, after the infinitive: *weil ich morgen früh **arbeiten muss***.
+        - In the Perfekt, haben or sein comes last: *weil ich gestern Überstunden **gemacht habe***.
+
+        The main clause keeps its normal word order. To answer a *Warum?* question, the weil-clause can stand alone: *Warum bist du so müde? – Weil ich Nachtschicht hatte.* If you want to keep normal word order, use **denn** instead: *Ich bin müde, denn ich hatte Nachtschicht.* In casual speech you may hear weil with normal word order, but in writing and in exams always put the verb at the end.
+      table: |
+        Main clause | weil | Middle | Verb at the end
+        Ich mag meinen Job, | weil | ich viel mit Menschen | arbeite.
+        Sie ist müde, | weil | sie Nachtschicht | hatte.
+        Er nimmt den Bus, | weil | sein Auto kaputt | ist.
+        Wir bleiben länger, | weil | wir das Projekt heute beenden | müssen.
+        Ich stehe früh auf, | weil | meine Schicht um sechs | anfängt.
+        Ich bin glücklich, | weil | ich die Stelle | bekommen habe.
+      examples: |
+        Ich arbeite gern im Krankenhaus, weil die Arbeit sinnvoll ist. | I like working at the hospital because the work is meaningful. | ist at the end
+        Sie kommt heute später, weil sie zum Arzt gehen muss. | She's coming in later today because she has to go to the doctor. | the modal comes last
+        Warum bist du so müde? – Weil ich gestern Überstunden gemacht habe. | Why are you so tired? – Because I did overtime yesterday. | Perfekt: habe at the end
+      tip: Think "weil … verb". Say the weil-clause slowly at first and save the verb for last.
+    dialogue:
+      title: Der erste Tag im Praktikum
+      setting: Emil starts a two-week internship at a logistics company at the inland port of Duisburg. His mentor, Frau Reuter, explains her working day.
+      speakers: R=Frau Reuter/f; E=Emil/m
+      lines: |
+        R: Willkommen, Emil! Ich bin heute schon seit sieben Uhr hier. | Welcome, Emil! I've been here since seven o'clock today.
+        E: Seit sieben? Warum fangen Sie so früh an? | Since seven? Why do you start so early?
+        R: Weil die ersten Lkw schon um halb acht ankommen. | Because the first lorries already arrive at half past seven.
+        E: Und was machen Sie als Erstes? | And what do you do first?
+        R: Ich erledige meine E-Mails und plane die Touren für den Tag. | I deal with my emails and plan the day's routes.
+        R: Um neun haben wir eine Besprechung mit dem ganzen Team. | At nine we have a meeting with the whole team.
+        E: Ist die Arbeit nicht sehr stressig? | Isn't the work very stressful?
+        R: Manchmal schon, weil wir Probleme oft schnell lösen müssen. | Sometimes, yes, because we often have to solve problems quickly.
+        E: Und machen Sie oft Überstunden? | And do you often do overtime?
+        R: Nicht so oft. Ich arbeite gern hier, weil das Team super ist. | Not that often. I like working here because the team is great.
+        E: Wann haben Sie denn Feierabend? | So when do you finish work?
+        R: Meistens um vier. Heute bleibe ich länger, weil ich Ihnen alles zeigen will. | Usually at four. Today I'm staying longer because I want to show you everything.
+    pronunciation:
+      title: Sentence melody with weil
+      body: |
+        In a long sentence, your voice rises a little before the comma — this tells the listener "there's more coming" — and falls at the end of the weil-clause: *Ich mag meinen Job ↗, weil das Team super ist ↘.*
+
+        Don't rush the final verb: it carries important information. Practise the clauses on their own first, then the whole sentence.
+      items: |
+        die Frühschicht
+        der Feierabend
+        anstrengend
+        weil ich früh anfange
+        weil ich Überstunden gemacht habe
+        Ich mag meinen Job, weil das Team super ist.
+    culture:
+      title: Feierabend and breaks
+      body: |
+        In Germany the line between work and free time is taken seriously. By law, a working day is normally limited to eight hours (up to ten for a short time), and after six hours you must take a break of at least 30 minutes. When colleagues leave, they say *Schönen Feierabend!*
+
+        In many offices and factories you will hear *Mahlzeit!* around lunchtime — a greeting that means "enjoy your meal", used in the corridor as well as in the canteen.
+    mistakes: |
+      Ich mag meinen Job, weil ich arbeite mit Menschen. => Ich mag meinen Job, weil ich mit Menschen arbeite. | In a weil-clause the conjugated verb goes to the end.
+      Ich gehe früh ins Bett, weil ich muss früh aufstehen. => Ich gehe früh ins Bett, weil ich früh aufstehen muss. | The modal verb goes to the very end, after the infinitive.
+      Ich bin müde weil ich Spätschicht hatte. => Ich bin müde, weil ich Spätschicht hatte. | A comma always separates the main clause from the weil-clause.
+    task:
+      title: My working day
+      mode: speaking
+      body: |
+        Describe a typical working or study day in six sentences — when you start, what you do, when you finish — and give two reasons with weil why you like it or not. Practise with the AI coach in the "Talking about your day" scenario.
+    exercises: |
+      fill: Ich stehe um fünf auf, weil meine Schicht um sechs ___. (anfangen) || anfängt || Separable verbs join up at the end of a weil-clause: anfängt. || @tags de.subordinate-clauses,de.separable
+      fill: Sie bleibt heute länger, weil sie den Bericht fertig machen ___. (müssen) || muss || The modal verb comes last in the weil-clause. || @tags de.subordinate-clauses,de.modal-verbs
+      fill: Er ist müde, weil er Nachtschicht ___. (haben, simple past) || hatte || The verb goes to the end: weil er Nachtschicht hatte. || @tags de.subordinate-clauses,de.praeteritum
+      fill: Ich arbeite gern hier, weil meine Kollegen sehr nett ___. || sind || Meine Kollegen = sie (plural): sind, at the end. || @tags de.subordinate-clauses
+      mc: Which sentence is correct? || Ich nehme das Rad, weil ist mein Auto kaputt. | *Ich nehme das Rad, weil mein Auto kaputt ist. | Ich nehme das Rad, weil mein Auto ist kaputt. || In a weil-clause the conjugated verb (ist) goes to the end. || @tags de.subordinate-clauses,de.connectors
+      rw: Join the sentences with weil :: Ich komme heute später. Ich habe einen Arzttermin. || Ich komme heute später, weil ich einen Arzttermin habe. || Comma + weil; habe goes to the end. || @tags de.subordinate-clauses,de.connectors
+      order: Ich mag meinen Job, weil ich viel mit Kunden spreche. || I like my job because I talk to customers a lot. || Main clause, comma, weil-clause with the verb at the end. || @tags de.subordinate-clauses @alt Weil ich viel mit Kunden spreche, mag ich meinen Job.
+      tf: Frau Reuter starts work at eight. || false || She has been there since seven: "Ich bin heute schon seit sieben Uhr hier." || @ctx dialogue
+      short: Why does Frau Reuter start so early? || kw: lkw/lorries/lorry/trucks/truck || The first lorries arrive at half past seven. || @ctx dialogue
+      listen: @dialogue || Why is Frau Reuter staying longer today? || She has a lot of overtime to do. | *She wants to show Emil everything. | She has a meeting at four. || "Heute bleibe ich länger, weil ich Ihnen alles zeigen will."
+      listen: Ich arbeite gern im Supermarkt, weil ich viele Kunden kenne, aber die Spätschicht ist anstrengend. || What does the speaker find tiring? || The customers | *The late shift | The early shift || Die Spätschicht ist anstrengend = the late shift is tiring. || @tags de.listening,de.connectors
+      tr: I'm tired because I worked a lot. || Ich bin müde, weil ich viel gearbeitet habe. || Perfekt in a weil-clause: habe goes to the very end. || @tags de.subordinate-clauses,de.perfekt
+      dict: Um fünf Uhr habe ich endlich Feierabend.
+      ask: A friend asks "Warum magst du deinen Job (oder dein Studium)?" Give two reasons with weil. || kw: weil & ist/sind/habe/kann/arbeite/lerne/macht/verdiene || Weil die Arbeit interessant ist und weil ich sehr nette Kollegen habe.
+
+  - title: Applying for a job
+    summary: Read a job advert, say what you think and hope with dass, and write a short application email.
+    minutes: 40
+    skills: [reading, writing, grammar]
+    tags: [de.subordinate-clauses, de.formal-writing, de.opinion]
+    objectives:
+      - Express opinions, hopes and knowledge with dass (verb at the end)
+      - Understand the key information in a job advert
+      - Write a short, formal application email
+    intro: |
+      Job adverts, applications and interviews are full of sentences like *Ich glaube, dass ich gut ins Team passe* or *Ich hoffe, dass Sie mich einladen*. **Dass** (that) works like weil: the verb goes to the end. In this lesson you talk about a job advert with a friend and write your own short application.
+    vocab: |
+      die Stellenanzeige | job advert | n | Ich habe eine interessante Stellenanzeige im Internet gefunden. | I found an interesting job advert online. | g: f | pl: die Stellenanzeigen
+      die Bewerbung | application | n | Ich schicke heute meine Bewerbung ab. | I'm sending off my application today. | g: f | pl: die Bewerbungen | c: eine Bewerbung schreiben; die Bewerbung abschicken
+      der Lebenslauf | CV; résumé | n | Im Anhang finden Sie meinen Lebenslauf. | Please find my CV attached. | g: m | pl: die Lebensläufe
+      das Vorstellungsgespräch | job interview | n | Nächste Woche habe ich ein Vorstellungsgespräch. | Next week I have a job interview. | g: n | pl: die Vorstellungsgespräche | c: zum Vorstellungsgespräch einladen
+      die Berufserfahrung | work experience | n | Für die Stelle braucht man zwei Jahre Berufserfahrung. | For this job you need two years' work experience. | g: f | pl: (no plural)
+      die Teilzeit | part-time | n | Die Stelle ist in Teilzeit, zwanzig Stunden pro Woche. | The job is part-time, twenty hours a week. | g: f | pl: (no plural) | c: in Teilzeit arbeiten; die Vollzeit (full-time)
+      das Gehalt | salary | n | Das Gehalt ist nicht hoch, aber die Arbeit macht Spaß. | The salary isn't high, but the work is fun. | g: n | pl: die Gehälter
+      zuverlässig | reliable | adj | Ich bin zuverlässig und arbeite gern im Team. | I'm reliable and I like working in a team.
+      die Kenntnisse | knowledge; skills | n | Gute Deutschkenntnisse sind wichtig. | Good German skills are important. | pl: die Kenntnisse | n: Usually plural: Englischkenntnisse, Computerkenntnisse.
+      glauben | to believe; to think | v | Ich glaube, dass ich die Stelle bekomme. | I think I'll get the job.
+      hoffen | to hope | v | Ich hoffe, dass ich bald von Ihnen höre. | I hope to hear from you soon. | n: A typical last sentence in an application.
+      dass | that | conj | Ich finde, dass das Gehalt zu niedrig ist. | I think the salary is too low. | n: Verb at the end, like weil. Don't confuse it with das (the; that one).
+    grammar:
+      title: "dass: opinions, hopes and facts"
+      body: |
+        **Dass** (that) introduces what you think, know, hope or say. Like *weil*, it sends the **conjugated verb to the end** and needs a **comma**: *Ich glaube, **dass** die Stelle perfekt für mich **ist**.*
+
+        Typical verbs and phrases before dass: *glauben, denken, finden* (opinion), *hoffen* (hope), *wissen* (know), *sagen* (say), *Es ist wichtig, dass…*, *Ich bin sicher, dass…*. The usual rules apply: modal verbs come last (*dass ich gut Englisch sprechen **kann***), separable verbs join up (*dass das Gespräch um zehn **anfängt***), and in the Perfekt haben or sein is last (*dass ich die Anzeige gelesen **habe***).
+
+        In conversation, after *glauben, denken* and *finden* you can leave out dass and keep normal word order: *Ich glaube, die Stelle ist gut.* With dass, the verb must go to the end. Watch the spelling: **dass** (conjunction) has ss, **das** (article or pronoun) has one s — *Ich weiß, dass das Gehalt gut ist.*
+      table: |
+        Main clause | dass | Middle | Verb at the end
+        Ich glaube, | dass | die Stelle interessant | ist.
+        Ich hoffe, | dass | Sie mich zu einem Gespräch | einladen.
+        Sie sagt, | dass | sie gut Englisch sprechen | kann.
+        Es ist wichtig, | dass | man zuverlässig | ist.
+        Ich weiß, | dass | du viel Erfahrung | hast.
+      examples: |
+        Ich finde, dass die Arbeitszeiten super sind. | I think the working hours are great. | opinion
+        Ich hoffe, dass ich eine Einladung bekomme. | I hope I get an invitation. | hope
+        Meine Chefin sagt, dass ich nächste Woche anfangen kann. | My boss says I can start next week. | modal verb at the end
+        Ich weiß, dass du die Anzeige schon gelesen hast. | I know you've already read the advert. | Perfekt: hast at the end
+      tip: Weil and dass work the same way — comma, then the verb waits until the end of the clause.
+    dialogue:
+      title: Die Stellenanzeige
+      setting: Bilal, a student in Augsburg, is looking for a part-time job. In a café near the university his friend Merle shows him an advert.
+      speakers: M=Merle/f; B=Bilal/m
+      lines: |
+        M: Bilal, hast du die Anzeige gesehen? Die Stadtbibliothek sucht eine Aushilfe. | Bilal, have you seen the advert? The city library is looking for a temp.
+        B: Ja! Ich glaube, dass die Stelle perfekt für mich ist. | Yes! I think the job is perfect for me.
+        M: Wirklich? Warum glaubst du das? | Really? Why do you think so?
+        B: Weil ich gern mit Büchern und mit Menschen arbeite. | Because I like working with books and with people.
+        M: Und die Arbeitszeiten? Du hast doch vormittags Vorlesungen. | And the working hours? You've got lectures in the mornings.
+        B: Kein Problem. Die Stelle ist in Teilzeit, nur abends und samstags. | No problem. The job is part-time, only evenings and Saturdays.
+        M: Was brauchst du für die Bewerbung? | What do you need for the application?
+        B: Einen Lebenslauf und ein kurzes Anschreiben. | A CV and a short cover letter.
+        M: Schreib unbedingt, dass du schon in der Uni-Bibliothek gearbeitet hast! | Make sure you write that you've already worked in the university library!
+        B: Gute Idee. Meinst du, dass mein Deutsch gut genug ist? | Good idea. Do you think my German is good enough?
+        M: Natürlich! Ich bin sicher, dass sie dich einladen. | Of course! I'm sure they'll invite you.
+        B: Ich hoffe, dass du recht hast. Ich schicke die Bewerbung heute ab! | I hope you're right. I'm sending off the application today!
+    pronunciation:
+      title: "st and sp; das and dass"
+      body: |
+        At the start of a word or of a word part, **st** and **sp** are pronounced [ʃt] and [ʃp], as if they were *scht* and *schp*: *Stelle, Stellenanzeige, Vorstellungsgespräch*. Elsewhere they are [st] and [sp]: *zuerst, Fenster*.
+
+        *Das* and *dass* sound exactly the same — a short [das]. Only the spelling shows the difference, so take care when you write.
+      items: |
+        die Stelle
+        die Stellenanzeige
+        das Vorstellungsgespräch
+        die Bewerbung
+        Ich hoffe, dass…
+        Ich glaube, dass es passt.
+    culture:
+      title: The German application
+      body: |
+        A typical application (*Bewerbung*) has a cover letter (*Anschreiben*), a CV (*Lebenslauf*) — often a clear table with dates — and copies of certificates and references (*Zeugnisse*). A photo is common but not required. More and more companies use online forms or accept a short email with attachments.
+
+        Formal emails start with *Sehr geehrte Frau Hoffmann,* or *Sehr geehrte Damen und Herren,* (if you don't know the name) and end with *Mit freundlichen Grüßen*. After the greeting, the first word continues with a small letter unless it is a noun.
+    mistakes: |
+      Ich glaube, dass die Stelle ist interessant. => Ich glaube, dass die Stelle interessant ist. | After dass the conjugated verb goes to the end.
+      Ich hoffe das Sie mich einladen. => Ich hoffe, dass Sie mich einladen. | The conjunction is spelled dass, and it always needs a comma before it.
+      Liebe Damen und Herren, => Sehr geehrte Damen und Herren, | In a formal application, use Sehr geehrte… — Liebe… is for people you know.
+    task:
+      title: Your application email
+      mode: writing
+      body: |
+        Choose a part-time job, for example in a café, a library or a shop. Write a short application email: formal greeting, which job you are applying for, why you are interested (weil), what you can do (dass … kann), that you hope for an interview, and a formal closing.
+    exercises: |
+      fill: Ich glaube, dass die Stelle sehr interessant ___. || ist || After dass the verb goes to the end. || @tags de.subordinate-clauses
+      fill: Meine Chefin sagt, dass ich nächsten Montag anfangen ___. (können) || kann || The modal verb comes last: anfangen kann. || @tags de.subordinate-clauses,de.modal-verbs
+      fill: Ich weiß, dass du die Anzeige schon ___ ___. (lesen, Perfekt) || gelesen ; hast || In the Perfekt, the participle comes first and haben last: gelesen hast. || @tags de.subordinate-clauses,de.perfekt
+      fill: Ich finde, ___ ___ Gehalt gut ist. || dass ; das || First the conjunction dass, then the article das (das Gehalt). || @tags de.subordinate-clauses,de.spelling
+      mc: How do you start a formal application email when you don't know the name? || Liebe Damen und Herren, | *Sehr geehrte Damen und Herren, | Hallo zusammen, || Sehr geehrte Damen und Herren is the standard formal greeting. || @tags de.formal-writing
+      rw: Join the sentences with dass :: Ich glaube. Ich passe gut ins Team. || Ich glaube, dass ich gut ins Team passe. || Comma + dass; the verb passe goes to the end. || @tags de.subordinate-clauses
+      tf: The library job is in the mornings. || false || It's part-time, "nur abends und samstags" — only evenings and Saturdays. || @ctx dialogue
+      short: According to Merle, what should Bilal mention in his application? || kw: bibliothek/library || That he has already worked in the university library. || @ctx dialogue
+      listen: @dialogue || When is Bilal sending his application? || Tomorrow | *Today | After his exams || "Ich schicke die Bewerbung heute ab!"
+      listen: Wir suchen ab sofort eine Aushilfe in Teilzeit, zwanzig Stunden pro Woche. Gute Englischkenntnisse sind wichtig. || What does the advert ask for? || Full-time work and good French | *Part-time work and good English | Twenty hours a day and a driving licence || Aushilfe in Teilzeit, zwanzig Stunden pro Woche; gute Englischkenntnisse. || @tags de.listening
+      dict: Im Anhang finden Sie meinen Lebenslauf.
+      ask: In an interview you are asked "Warum möchten Sie bei uns arbeiten?" Answer with weil or dass. || kw: weil/dass & ist/bin/kann/arbeite/habe/finde/passt/macht/spreche || Ich glaube, dass die Arbeit sehr interessant ist. Und ich möchte hier arbeiten, weil ich gern im Team arbeite.
+      write: Write a short application email (6–8 sentences) for a part-time job in a café, shop or library. || min=50 || req: sehr geehrte | dass | weil | mit freundlichen grüßen || Sehr geehrte Frau Hoffmann, mit großem Interesse habe ich Ihre Anzeige für eine Aushilfe im Café Lindenhof gelesen. Ich studiere seit zwei Jahren Germanistik und habe schon ein Jahr in einem Restaurant gearbeitet. Die Stelle passt sehr gut, weil ich abends und am Wochenende Zeit habe. Ich bin zuverlässig und freundlich, und ich glaube, dass ich gut in Ihr Team passe. Ich hoffe, dass Sie mich zu einem Gespräch einladen. Mit freundlichen Grüßen, Lucía Romero

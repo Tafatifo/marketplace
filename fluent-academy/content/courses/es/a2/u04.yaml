@@ -1,0 +1,365 @@
+unit: 4
+title: Trabajo y estudios
+theme: Work and studies
+description: Describe your school and university years with the pretérito imperfecto, explain your job and how long you have been doing it with desde and hace, and apply for a job in Spanish.
+free: false
+objectives:
+  - Describe past situations and habits at school or university with the imperfect
+  - Talk about your job and say how long you have been doing it with desde, hace and desde hace
+  - Present your experience in a CV, a formal email and an interview
+canDo:
+  - I can describe my old school and say what I used to do there.
+  - I can say how long I have been working, studying or living somewhere.
+  - I can describe my working day and my responsibilities.
+  - I can write a short formal email to apply for a job.
+review: |
+  fill: Cuando era pequeño, ___ (ir, yo) al colegio andando. || iba || Ir is irregular in the imperfect: iba, ibas, iba, íbamos, ibais, iban. || @tags es.imperfect
+  fill: Mis abuelos ___ (tener) una tienda en el centro. || tenían || -er verbs in the imperfect: -ía; ellos form tenían. || @tags es.imperfect
+  fill: En la universidad nosotros ___ (estudiar) en la biblioteca hasta las diez. || estudiábamos || -ar verbs: -aba; the nosotros form has an accent: estudiábamos. || @tags es.imperfect
+  mc: Mi hermana vive en Berlín ___ hace seis meses. || *desde | hace | por || Desde hace + a length of time, with the present: a situation that is still going on. || @tags es.desde-hace
+  fill: ___ tres semanas que no veo a mis compañeros. || hace || Hace + time + que + present: hace tres semanas que… || @tags es.desde-hace
+  rw: Rewrite with desde hace :: Hace dos años que estudio japonés. || Estudio japonés desde hace dos años. || Hace + time + que + verb = verb + desde hace + time. || @tags es.desde-hace
+  mc: Choose the correct sentence. || Trabajaba en un banco cuatro años. | *Trabajé en un banco cuatro años. | He trabajado en un banco desde hace cuatro años. || A total length of time in a finished past job takes the preterite. For a job that continues, say Trabajo en un banco desde hace cuatro años. || @tags es.preterite,es.imperfect
+  tr: When I was a student, I lived with three friends. || Cuando era estudiante, vivía con tres amigos. | Cuando era estudiante vivía con tres amigos. | Cuando era estudiante, vivía con tres amigas. | Cuando era estudiante vivía con tres amigas. || A past situation: imperfect of ser (era) and vivir (vivía). || @tags es.imperfect
+  listen: Antes trabajaba en un banco, pero desde hace un año soy profesor de yoga. || What does the speaker do now? || *He teaches yoga | He works in a bank | He is a student || "Desde hace un año soy profesor de yoga." The bank was before (antes trabajaba). || @tags es.listening,es.desde-hace
+  listen: Buscamos camarero o camarera para una cafetería del centro. Es necesario tener experiencia y hablar inglés. || What is a requirement for the job? || *Speaking English | Having a driving licence | Living in the centre || "Es necesario tener experiencia y hablar inglés." || @tags es.listening
+  ask: Tell someone about your secondary school: what it was like and one thing you used to do there. || kw: era/tenía/había & iba/estudiaba/jugaba/comía/hacía/teníamos/íbamos/jugábamos || Mi instituto era bastante pequeño y tenía un patio muy grande. En el recreo jugábamos al baloncesto.
+  write: Write a short text about your job or studies: what you do now, since when, and what you used to do before. || min=40 || req: desde/hace | antes || Soy enfermero desde hace seis años y trabajo en un hospital de Leeds. Hago turnos de mañana y de tarde. Antes trabajaba en una residencia de mayores: el sueldo era más bajo y trabajaba muchas noches. Me encanta mi trabajo, pero este año estudio español porque quiero trabajar en Valencia.
+lessons:
+  - title: My studies
+    summary: Describe your school and university years — what they were like and what you used to do — with the pretérito imperfecto.
+    minutes: 40
+    skills: [grammar, speaking, vocabulary]
+    tags: [es.imperfect]
+    objectives:
+      - Form the imperfect of regular verbs and of ser, ir and ver
+      - Describe past habits and situations at school or university
+      - Talk about subjects, marks and exams
+    intro: |
+      What was your school like? Which subjects did you enjoy? What did you use to do at break time? To describe how things **were** and what you **used to do**, Spanish uses the **pretérito imperfecto**: *Mi instituto era pequeño y siempre comíamos en el patio.* It is one of the easiest tenses to form — only three verbs are irregular.
+    vocab: |
+      la asignatura | (school) subject | n | Mi asignatura favorita era la historia. | My favourite subject was history. | g: f
+      el instituto | secondary school | n | Iba al instituto en bici. | I used to ride my bike to secondary school. | g: m | n: In Spain, from 12 to 18. In Latin America: el colegio, la secundaria or el liceo.
+      la carrera | degree course | n | Durante la carrera vivía en una residencia de estudiantes. | During my degree I lived in a hall of residence. | g: f
+      aprobar | to pass (an exam) | v | Siempre aprobaba los exámenes de inglés. | I always used to pass my English exams. | n: Stem change in the present: apruebo.
+      suspender | to fail (an exam) | v | Mi hermano suspendía casi todo en primero. | My brother used to fail almost everything in his first year. | n: In Latin America: reprobar.
+      sacar buenas notas | to get good marks | expr | En el instituto sacaba muy buenas notas. | At secondary school I used to get very good marks. | n: La nota = the mark.
+      el examen | exam | n | Antes de los exámenes estudiábamos en la biblioteca. | Before exams we used to study in the library. | g: m | pl: exámenes
+      el compañero / la compañera de clase | classmate | n | Mis compañeros de clase eran muy simpáticos. | My classmates were very nice. | g: m/f
+      los deberes | homework | n | Hacía los deberes en la mesa de la cocina. | I used to do my homework at the kitchen table. | g: m | n: In Latin America: la tarea.
+      la beca | grant; scholarship | n | Tenía una beca y trabajaba los fines de semana. | I had a grant and worked at weekends. | g: f
+      el horario | timetable; hours | n | El horario era de ocho a dos y media. | The timetable was from eight to half past two. | g: m
+      antes | before; in the past | adv | Antes estudiaba por la noche; ahora estudio por la mañana. | I used to study at night; now I study in the morning. | n: Antes + imperfect contrasts with ahora + present.
+    grammar:
+      title: "The pretérito imperfecto: era, estudiaba, vivía"
+      body: |
+        Use the **imperfecto** to describe the past — what people, places and situations **were like** — and to talk about **habits**: what you **used to do** regularly.
+
+        It is very regular:
+        - **-ar** verbs take **-aba**: *estudiar → estudiaba*
+        - **-er / -ir** verbs take **-ía**: *tener → tenía, vivir → vivía*
+
+        The yo and él/ella forms are the same (*yo estudiaba, ella estudiaba*), so add the subject if it isn't clear. Note the accents: *estudiábamos* and every -ía form.
+
+        Only three verbs are irregular: **ser** (*era*), **ir** (*iba*) and **ver** (*veía*). Stem-changing verbs are regular: *podía, quería, dormía*. The imperfect of *hay* is **había**.
+
+        Typical expressions: **antes**, **cuando era pequeño / estaba en el instituto**, **siempre, todos los días, a menudo, a veces**.
+
+        Compare with the preterite: *Estudié Derecho en Salamanca* (a finished fact) — *En Salamanca estudiaba mucho y salía poco* (how life was then).
+      table: |
+        Pronoun | estudiar | tener | ser | ir
+        yo | estudiaba | tenía | era | iba
+        tú | estudiabas | tenías | eras | ibas
+        él / ella / usted | estudiaba | tenía | era | iba
+        nosotros / nosotras | estudiábamos | teníamos | éramos | íbamos
+        vosotros / vosotras (Spain) | estudiabais | teníais | erais | ibais
+        ellos / ellas / ustedes | estudiaban | tenían | eran | iban
+      examples: |
+        Cuando estaba en el instituto, iba a clase en autobús. | When I was at secondary school, I used to go to class by bus.
+        Mi profesora de lengua era muy exigente, pero explicaba muy bien. | My Spanish teacher was very demanding, but she explained things really well.
+        Antes no me gustaban las matemáticas; ahora me encantan. | I didn't use to like maths; now I love it.
+        Los viernes comíamos en el comedor de la universidad. | On Fridays we used to eat in the university canteen.
+      tip: "English 'used to' and 'would' for habits both translate as the imperfecto: I used to walk to school / I would walk to school = Iba andando al colegio."
+    dialogue:
+      title: Antiguos compañeros
+      setting: Twenty years after leaving school, Lidia and Fran meet again at a class reunion in a restaurant in Zamora.
+      speakers: L=Lidia/f; F=Fran/m
+      lines: |
+        L: ¡Fran! ¡No has cambiado nada! | Fran! You haven't changed a bit!
+        F: ¡Lidia! Tú tampoco. ¿Te acuerdas de nuestro instituto? | Lidia! Neither have you. Do you remember our school?
+        L: ¡Claro! Era muy pequeño y estaba al lado del río. | Of course! It was very small and it was next to the river.
+        F: Y siempre íbamos al río en el recreo. | And we always used to go to the river at break time.
+        L: ¡Sí! Y tú nunca hacías los deberes. | Yes! And you never did your homework.
+        F: Es verdad… pero sacaba buenas notas en música. | That's true… but I got good marks in music.
+        L: Porque tocabas la guitarra en todas las fiestas. | Because you played the guitar at every party.
+        F: ¿Y tú? Tú estudiabas mucho, ¿verdad? | What about you? You used to study a lot, didn't you?
+        L: Sí, quería ser médica y necesitaba buenas notas. | Yes, I wanted to be a doctor and I needed good marks.
+        F: ¿Y al final estudiaste Medicina? | And did you end up studying medicine?
+        L: No, estudié Veterinaria. Ahora trabajo con caballos. | No, I studied veterinary science. Now I work with horses.
+        F: ¡Qué bien! Siempre te gustaban los animales. | How nice! You always loved animals.
+    pronunciation:
+      title: "Stress in the imperfect: estudiaba, vivía, éramos"
+      body: |
+        In -ar verbs, the stress falls on the **-a-** before *-ba*: *estu-DIA-ba*. Only the nosotros form needs a written accent: *estu-DIÁ-ba-mos*.
+
+        In -er and -ir verbs, the **í** of *-ía* is always stressed and always written with an accent, so *vivía* has three syllables: *vi-VÍ-a*. Don't merge *-ía* into one syllable. Listen and repeat.
+      items: |
+        estudiaba
+        estudiábamos
+        vivía
+        teníamos
+        éramos
+        íbamos
+    culture:
+      title: School and university in Spain
+      body: |
+        In Spain, children go to **el colegio** for primary school (6–12) and then to **el instituto** for **la ESO**, compulsory secondary education (12–16). After that, students choose **Bachillerato** (two years that prepare for university) or **Formación Profesional** (vocational training).
+
+        To get into university, students take an entrance exam, still popularly called **la selectividad** (its official name varies). Marks go from 0 to 10: **5** is a pass (*aprobado*) and 9–10 is *sobresaliente*.
+    mistakes: |
+      Yo estudíaba mucho. => Yo estudiaba mucho. | -ar verbs have no accent in the imperfect, except the nosotros form: estudiábamos.
+      Ibamos a la playa todos los veranos. => Íbamos a la playa todos los veranos. | Íbamos needs an accent on the first í.
+      Antes usaba ir en bici. => Antes iba en bici. | Spanish doesn't use usar for "used to": the imperfect already has that meaning.
+    task:
+      title: My school years
+      mode: speaking
+      body: |
+        Describe your secondary school or university for one minute: what the building was like, how you got there, your favourite subject and teacher, and what you did at break time or at weekends. Use the imperfect for descriptions and habits, and at least one preterite for a finished fact (*Terminé en…, Estudié…*). Record yourself in Speaking practice.
+    exercises: |
+      fill: Cuando era pequeña, ___ (vivir, yo) en Ceuta. || vivía || -ir verbs in the imperfect: -ía, with an accent. || @tags es.imperfect
+      fill: En el instituto, mis amigos y yo ___ (jugar) al baloncesto en el recreo. || jugábamos || Nosotros form of -ar verbs: -ábamos, with an accent. || @tags es.imperfect
+      fill: Mi profesor de historia ___ (ser) muy divertido. || era || Ser is irregular: era, eras, era… || @tags es.imperfect
+      fill: ¿___ (ir, tú) a la universidad en bici? || ibas || Ir is irregular: iba, ibas, iba… || @tags es.imperfect
+      fill: Antes mis padres ___ (ver) las noticias todas las noches. || veían || Ver is irregular: veía, veías, veía… veían. || @tags es.imperfect
+      mc: Which sentence describes a past habit? || *Los sábados estudiaba en la biblioteca. | El sábado estudié en la biblioteca. | Este sábado he estudiado en la biblioteca. || Los sábados (every Saturday) + imperfect = a habit. The other two talk about one particular Saturday. || @tags es.imperfect
+      mc: How do you say "I used to get good marks"? || Usaba sacar buenas notas. | *Sacaba buenas notas. | Saqué buenas notas. || The imperfect alone means "used to". Saqué refers to one occasion. || @tags es.imperfect
+      rw: Change to the past, starting with Antes :: Ahora trabajo y estudio por la noche. || Antes trabajaba y estudiaba por la noche. || A past habit: imperfect -aba for both -ar verbs. || @tags es.imperfect
+      tf: Lidia studied medicine. || false || "No, estudié Veterinaria." She wanted to be a doctor, but became a vet. || @ctx dialogue
+      short: Where did Lidia and Fran use to go at break time? || kw: río/river || "Siempre íbamos al río en el recreo." || @ctx dialogue
+      listen: @dialogue || What does Lidia do now? || She's a doctor | *She works with horses | She teaches music || "Ahora trabajo con caballos." || @tags es.listening
+      listen: En la universidad vivía en una residencia, y los domingos iba a comer a casa de mis tíos. || What did the speaker use to do on Sundays? || *Have lunch at an aunt and uncle's | Study in the hall of residence | Visit the parents || "Los domingos iba a comer a casa de mis tíos." || @tags es.listening,es.imperfect
+      tr: My school was very big and had a pool. || Mi colegio era muy grande y tenía piscina. | Mi colegio era muy grande y tenía una piscina. | Mi instituto era muy grande y tenía piscina. | Mi instituto era muy grande y tenía una piscina. || Descriptions of the past: era, tenía. || @tags es.imperfect
+      dict: Todos los días íbamos al instituto en autobús.
+      ask: A new friend asks «¿Cómo era tu instituto?». Describe it and say one thing you used to do there. || kw: era/tenía/había & iba/estudiaba/jugaba/comía/hacía/íbamos/jugábamos/comíamos || Era un instituto grande, cerca del centro. Tenía un patio enorme y en el recreo jugábamos al fútbol.
+
+  - title: A day at work
+    summary: Describe your job and your working day, and say how long you have been doing it with desde, hace and desde hace.
+    minutes: 40
+    skills: [grammar, vocabulary, listening]
+    tags: [es.desde-hace, es.present-regular]
+    objectives:
+      - Say how long something has been going on with desde hace and hace … que
+      - Give a starting point with desde and say when something happened with hace
+      - Describe your job, schedule and tasks
+    intro: |
+      "How long have you worked here?" is one of the first questions new colleagues ask. English uses the present perfect (*I have worked here for three years*), but Spanish uses the **present**: *Trabajo aquí desde hace tres años.* In this lesson you will learn **desde**, **hace** and **desde hace**, and the words to describe your working day.
+    vocab: |
+      el puesto | job; position | n | Tengo un puesto de recepcionista en un hotel. | I have a job as a receptionist in a hotel. | g: m | c: el puesto de trabajo
+      la empresa | company | n | Trabajo en una empresa de transportes. | I work for a transport company. | g: f
+      el jefe / la jefa | boss | n | Mi jefa es muy organizada. | My boss is very organised. | g: m/f
+      la reunión | meeting | n | Los lunes tenemos reunión a las nueve. | On Mondays we have a meeting at nine. | g: f | pl: reuniones
+      el turno | shift | n | Esta semana tengo turno de noche. | This week I'm on the night shift. | g: m | c: turno de mañana; turno de tarde; trabajar a turnos
+      la jornada | working day; working hours | n | Tengo jornada completa: cuarenta horas a la semana. | I work full time: forty hours a week. | g: f | c: jornada completa; media jornada
+      teletrabajar | to work from home | v | Teletrabajo dos días por semana. | I work from home two days a week. | n: El teletrabajo = remote work.
+      atender a los clientes | to deal with customers | expr | Por la mañana atiendo a los clientes por teléfono. | In the morning I deal with customers on the phone. | n: Atender: e → ie (atiendo).
+      encargarse de | to be in charge of | v | Me encargo de las redes sociales de la empresa. | I'm in charge of the company's social media.
+      el sueldo | salary; pay | n | El sueldo no es muy alto, pero el horario es bueno. | The pay isn't very high, but the hours are good. | g: m | n: Also el salario.
+      desde hace | for (a length of time, until now) | expr | Vivo en Valencia desde hace cuatro años. | I've been living in Valencia for four years.
+      ¿cuánto tiempo hace que…? | how long have you…? | expr | ¿Cuánto tiempo hace que trabajas aquí? | How long have you been working here?
+    grammar:
+      title: "Desde, hace and desde hace"
+      body: |
+        To say how long a situation **has been going on** (and still is), Spanish uses the **present tense**:
+        - **desde hace** + length of time: *Trabajo aquí desde hace tres años.* (I've worked here for three years.)
+        - **hace** + length of time + **que** + present: *Hace tres años que trabajo aquí.* (same meaning)
+        - **desde** + a starting point (a date, a month, a moment): *Trabajo aquí desde 2022 / desde enero / desde el lunes.*
+
+        To ask: *¿Cuánto tiempo hace que trabajas aquí?* or *¿Desde cuándo trabajas aquí?*
+
+        Don't confuse these with **hace** + time + **preterite**, which means **ago** (Unit 1): *Empecé hace tres años* (I started three years ago). Put together: *Empecé en este hotel hace tres años, así que trabajo aquí desde hace tres años.*
+      table: |
+        Structure | Meaning | Example
+        desde hace + time + present | for (until now) | Teletrabajo desde hace un año.
+        hace + time + que + present | for (until now) | Hace un año que teletrabajo.
+        desde + date or moment + present | since | Teletrabajo desde marzo.
+        hace + time + preterite | ago | Empecé a teletrabajar hace un año.
+        ¿Desde cuándo…? | since when? | ¿Desde cuándo teletrabajas?
+        ¿Cuánto tiempo hace que…? | how long…? | ¿Cuánto tiempo hace que teletrabajas?
+      examples: |
+        Soy enfermera desde hace doce años. | I've been a nurse for twelve years.
+        Hace seis meses que no tomo café. | I haven't had any coffee for six months.
+        Mi compañero está de baja desde el lunes. | My colleague has been off sick since Monday.
+        Me cambié de departamento hace dos semanas. | I changed department two weeks ago.
+      tip: "For a situation that is still going on, the natural choice is the present: Vivo aquí desde hace cinco años — not He vivido aquí desde hace cinco años."
+    dialogue:
+      title: El primer día
+      setting: A hotel in Benidorm. Mariana starts her first day at reception, and her colleague Héctor shows her around.
+      speakers: H=Héctor/m; M=Mariana/f
+      lines: |
+        H: Bienvenida, Mariana. ¿Qué tal tu primer día? | Welcome, Mariana. How's your first day going?
+        M: Bien, aunque un poco nerviosa. ¿Cuánto tiempo hace que trabajas aquí? | Fine, although I'm a bit nervous. How long have you worked here?
+        H: Trabajo aquí desde hace ocho años. Empecé de botones. | I've worked here for eight years. I started as a bellboy.
+        M: ¿De botones? ¿Y desde cuándo eres recepcionista? | As a bellboy? And since when have you been a receptionist?
+        H: Desde 2020. Ahora también me encargo de las reservas de grupos. | Since 2020. Now I'm also in charge of group bookings.
+        M: ¿Y cuándo hay más trabajo en la recepción? | And when is reception busiest?
+        H: Entre las once y las dos, con las salidas y las llegadas. | Between eleven and two, with check-outs and arrivals.
+        M: ¿Y los turnos? ¿Cambian cada semana? | And the shifts? Do they change every week?
+        H: Sí, una semana de mañana y otra de tarde. | Yes, one week mornings and the next week afternoons.
+        M: ¿También hay turno de noche? | Is there a night shift too?
+        H: Sí, pero es de Raimundo. Hace diez años que trabaja de noche. | Yes, but that's Raimundo's. He's been working nights for ten years.
+        M: ¡Diez años de noche! ¡Qué valiente! | Ten years of nights! How brave!
+    pronunciation:
+      title: "Word stress: jornada, reunión, recepción"
+      body: |
+        Spanish stress follows simple rules. Words ending in a **vowel, n or s** are stressed on the second-to-last syllable: *jor-NA-da, tra-BA-jan, el SUEL-do*. Words ending in another consonant are stressed on the last syllable: *tra-ba-JAR, ho-TEL*.
+
+        Words that break these rules carry a written accent on the stressed vowel: *reu-NIÓN, re-cep-CIÓN, au-to-BÚS*. Listen and repeat.
+      items: |
+        la jornada
+        la reunión
+        la recepción
+        el horario
+        teletrabajar
+        el sueldo
+    culture:
+      title: Working hours in Spain
+      body: |
+        Many Spanish offices work a **jornada partida** (split day): from 9 to 2, a long lunch break, then from 4 until 7 or later. In summer, lots of companies switch to the **jornada intensiva**, working straight through — for example from 8 to 3 — with the afternoon free.
+
+        Paid holidays are generous: at least 30 calendar days a year, and many people take two or three weeks in August. In most workplaces colleagues use tú with each other, and often with the boss too.
+    mistakes: |
+      He trabajado aquí desde hace tres años. => Trabajo aquí desde hace tres años. | For a situation that is still going on, Spanish uses the present with desde hace.
+      Trabajo aquí desde tres años. => Trabajo aquí desde hace tres años. | With a length of time, use desde hace. Desde alone needs a starting point: desde 2022.
+      Empecé desde hace dos años. => Empecé hace dos años. | With the preterite, hace means "ago" — no desde.
+    task:
+      title: Introduce yourself at work
+      mode: speaking
+      body: |
+        It's your first team meeting at a new company in Madrid. Introduce yourself in 6–8 sentences: your job, how long you have been doing it, where you worked before (*hace … años*), your usual schedule and what you are in charge of. Record yourself in Speaking practice and check every *desde* and *hace*.
+    exercises: |
+      fill: Vivo en Toledo ___ hace cinco años. || desde || Desde hace + a length of time, with the present. || @tags es.desde-hace
+      fill: Trabajo en esta empresa ___ 2019. || desde || Desde + a starting point (a year). || @tags es.desde-hace
+      fill: ___ dos meses que teletrabajo los viernes. || hace || Hace + time + que + present = for (until now). || @tags es.desde-hace
+      fill: Empecé en este puesto ___ seis meses. || hace || With the preterite, hace + time means "ago". || @tags es.desde-hace,es.preterite
+      mc: How do you say "I've been studying Spanish for two years"? || He estudiado español desde hace dos años. | *Estudio español desde hace dos años. | Estudio español desde dos años. || A situation still going on: present + desde hace + length of time. || @tags es.desde-hace
+      mc: «¿Desde cuándo trabajas aquí?» Choose the correct answer. || *Desde marzo. | Hace marzo. | Desde hace marzo. || ¿Desde cuándo? asks for a starting point: desde + a date or month. Hace and desde hace need a length of time. || @tags es.desde-hace
+      rw: Rewrite with hace … que :: Juego al tenis desde hace diez años. || Hace diez años que juego al tenis. || Verb + desde hace + time = hace + time + que + verb. || @tags es.desde-hace
+      tf: Héctor started at the hotel as a receptionist. || false || He started as a bellboy: "Empecé de botones." || @ctx dialogue
+      short: How long has Raimundo been working nights? || kw: diez/10/ten || "Hace diez años que trabaja de noche." || @ctx dialogue
+      listen: @dialogue || When is reception busiest? || Early in the morning | *Between eleven and two | At night || "Entre las once y las dos, con las salidas y las llegadas." || @tags es.listening
+      listen: Soy profesora de inglés desde hace quince años, pero en este colegio trabajo desde septiembre. || Since when has she worked at this school? || For fifteen years | *Since September | Since last year || "En este colegio trabajo desde septiembre." She has been a teacher for fifteen years. || @tags es.listening,es.desde-hace
+      tr: I've been working from home for a year. || Teletrabajo desde hace un año. | Hace un año que teletrabajo. | Trabajo desde casa desde hace un año. | Hace un año que trabajo desde casa. || A situation still going on: present + desde hace, or hace + time + que. || @tags es.desde-hace
+      dict: Hace tres años que trabajo en esta empresa.
+      ask: A new colleague asks «¿Cuánto tiempo hace que trabajas aquí?». Answer, and say what you are in charge of. || kw: desde hace/hace/desde & me encargo/trabajo/atiendo || Trabajo aquí desde hace dos años. Me encargo de los pedidos y atiendo a los clientes por teléfono.
+
+  - title: Applying for a job
+    summary: Present your experience in a CV, a short formal email and an interview, using the preterite for facts and the imperfect for what a job involved.
+    minutes: 45
+    skills: [writing, grammar, speaking]
+    tags: [es.imperfect, es.preterite, es.formal-writing]
+    objectives:
+      - Understand a job advert and the parts of a Spanish CV
+      - Describe past jobs with the preterite for facts and the imperfect for daily tasks
+      - Write a short formal email to apply for a job
+    intro: |
+      Finding a job in Spanish means reading adverts, preparing a **currículum** and answering questions in an interview. You will say what you did with the preterite (*Trabajé dos años en un hotel*) and describe what the job involved, day to day, with the imperfect (*Atendía a los clientes y me encargaba de las reservas*).
+    vocab: |
+      la oferta de empleo | job advert; vacancy | n | He visto una oferta de empleo en la web del ayuntamiento. | I've seen a job advert on the town hall's website. | g: f
+      el currículum | CV; résumé | n | Envíe su currículum a esta dirección. | Send your CV to this address. | g: m | n: Also el CV. In Colombia: la hoja de vida.
+      la carta de presentación | cover letter | n | Escribí una carta de presentación muy corta. | I wrote a very short cover letter. | g: f
+      la experiencia | experience | n | Tengo tres años de experiencia en hostelería. | I have three years' experience in hospitality. | g: f
+      solicitar | to apply for | v | Quiero solicitar el puesto de cocinero. | I want to apply for the post of cook. | n: La solicitud = the application.
+      el requisito | requirement | n | Uno de los requisitos es hablar inglés. | One of the requirements is speaking English. | g: m
+      la entrevista | interview | n | Mañana tengo una entrevista de trabajo. | Tomorrow I've got a job interview. | g: f
+      el contrato | contract | n | Me ofrecieron un contrato de seis meses. | They offered me a six-month contract. | g: m | c: contrato indefinido (permanent); contrato temporal
+      las prácticas | internship; work placement | n | Hice las prácticas en una agencia de viajes. | I did my work placement at a travel agency. | g: f
+      el carné de conducir | driving licence | n | ¿Tiene usted carné de conducir? | Do you have a driving licence? | g: m | n: In Latin America: la licencia de conducir.
+      trabajar en equipo | to work in a team | expr | Me gusta mucho trabajar en equipo. | I really like working in a team.
+      estar dispuesto / dispuesta a | to be willing to | expr | Estoy dispuesta a viajar. | I'm willing to travel.
+      Estimado / Estimada… | Dear… (formal) | expr | Estimada señora Ortiz: | Dear Mrs Ortiz, | n: In formal Spanish letters and emails, a colon follows the greeting.
+    grammar:
+      title: "Describing your experience: preterite and imperfect"
+      body: |
+        When you talk about past jobs, you often need both past tenses:
+        - **Preterite** — finished facts, events and the **total length** of a job: *Trabajé dos años en un hotel. Hice las prácticas en 2021.*
+        - **Imperfect** — what the job **was like** and what you **used to do** there every day: *Atendía a los clientes, me encargaba de las reservas y trabajaba a turnos.*
+
+        A useful pattern: one preterite sentence to place the job, then imperfects to describe it: *De 2019 a 2022 trabajé en una tienda de deportes. Era una tienda grande y yo atendía a los clientes.*
+
+        For your current job, use the present with **desde hace**: *Trabajo como cocinera desde hace tres años.*
+
+        In a formal email, use usted and fixed phrases: *Estimado/a señor/a:* · *Le escribo para solicitar el puesto de…* · *Adjunto mi currículum.* · *Quedo a la espera de su respuesta.* · *Atentamente,*
+      table: |
+        Use | Tense | Example
+        total length of a past job | preterite | Trabajé tres años en un banco.
+        a finished event | preterite | En 2022 hice un curso de cocina.
+        what the job involved | imperfect | Atendía a los clientes por teléfono.
+        what it was like | imperfect | El horario era muy largo.
+        your current job | present + desde hace | Soy cocinero desde hace dos años.
+      examples: |
+        Trabajé cuatro años en un restaurante de Valencia. | I worked in a restaurant in Valencia for four years.
+        Allí me encargaba de los pedidos y preparaba los postres. | There I was in charge of the orders and made the desserts.
+        El trabajo era duro, pero aprendí mucho. | The work was hard, but I learned a lot.
+        Le escribo para solicitar el puesto de recepcionista. | I'm writing to apply for the post of receptionist.
+      tip: "A total length of time makes the job a complete fact, so it takes the preterite: Trabajé allí cinco años (not trabajaba). Use the imperfect for what you did every day."
+    dialogue:
+      title: La entrevista
+      setting: A restaurant in Tarragona, before opening time. The manager, Montse Ferrer, interviews Malik for a job as a kitchen assistant. They use usted.
+      speakers: F=Montse/f; M=Malik/m
+      lines: |
+        F: Buenos días, Malik. Siéntese, por favor. ¿Ha encontrado bien el restaurante? | Good morning, Malik. Have a seat, please. Did you find the restaurant all right?
+        M: Sí, sin problema. Muchas gracias por llamarme. | Yes, no problem. Thank you very much for calling me.
+        F: He leído su currículum. ¿Dónde trabaja ahora? | I've read your CV. Where are you working now?
+        M: Trabajo en una pizzería los fines de semana desde hace un año. | I've been working in a pizzeria at weekends for a year.
+        F: ¿Y antes? ¿Tiene experiencia en cocina? | And before that? Do you have kitchen experience?
+        M: Sí, trabajé dos veranos en un hotel de Salou. | Yes, I worked two summers in a hotel in Salou.
+        F: ¿Y qué hacía allí exactamente? | And what exactly did you do there?
+        M: Preparaba los desayunos y me encargaba de las ensaladas. | I prepared the breakfasts and I was in charge of the salads.
+        F: ¿Y cómo era el ambiente de trabajo? | And what was the working atmosphere like?
+        M: Muy bueno. Éramos un equipo joven y trabajábamos muy bien juntos. | Very good. We were a young team and we worked really well together.
+        F: El puesto incluye noches. ¿Está dispuesto a trabajar por la noche? | The job includes evenings. Are you willing to work at night?
+        M: Sí, claro. Para mí no es ningún problema. | Yes, of course. It's no problem at all for me.
+    pronunciation:
+      title: "The letter x: experiencia, examen, México"
+      body: |
+        Between vowels, **x** is pronounced [ks]: *examen, exactamente*. Before a consonant, most speakers in Spain soften it to [s] in everyday speech: *experiencia* [es.peˈɾjen.θja], *extranjero* — both [ks] and [s] are fine.
+
+        A few names keep an old spelling where **x** sounds like **j** [x]: *México, Oaxaca, Texas* (in Spanish). Listen and repeat.
+      items: |
+        la experiencia
+        el examen
+        exactamente
+        extranjero
+        México
+        la próxima entrevista
+    culture:
+      title: Job hunting in Spain
+      body: |
+        A Spanish CV is usually one or two pages long. Many people still add a photo and personal details, although this is not required, and many companies now prefer CVs without them. Language skills are often given with the CEFR scale: *inglés: B2*.
+
+        Interviews usually start formally, with usted, until the interviewer suggests tú. Most jobs in the public sector — teachers in state schools, many doctors and civil servants — require passing competitive exams called **oposiciones**.
+    mistakes: |
+      Trabajaba cinco años en un hotel. => Trabajé cinco años en un hotel. | A total length of time makes the job a finished fact: use the preterite.
+      Querida señora Ortiz: (to a stranger) => Estimada señora Ortiz: | Querido/a is for friends and family. Formal emails start with Estimado/a.
+      Estoy dispuesto de viajar. => Estoy dispuesto a viajar. | Estar dispuesto takes a + infinitive.
+    task:
+      title: Apply for a summer job
+      mode: writing
+      body: |
+        You've seen this advert: *Se busca guía turístico/a para el verano en Granada. Requisitos: español e inglés, experiencia con grupos.* Write a formal email of 80–100 words: the greeting (*Estimado/a…*), why you are writing, your experience (preterite + imperfect), your current situation (*desde hace*), your availability and a formal closing (*Atentamente*). For a challenge, rehearse your interview in the "Preparing for a job interview" scenario with the AI coach.
+    exercises: |
+      fill: De 2018 a 2020 ___ (trabajar, yo) en una agencia de viajes. || trabajé || A finished period with dates: preterite. || @tags es.preterite
+      fill: En aquel trabajo ___ (atender, yo) a los clientes y ___ (preparar, yo) los presupuestos. || atendía ; preparaba || Daily tasks in a past job: imperfect (-ía for -er verbs, -aba for -ar verbs). || @tags es.imperfect
+      fill: El horario ___ (ser) muy flexible. || era || Describing how a past job was: imperfect of ser, era. || @tags es.imperfect
+      mc: ___ dos años en una escuela de idiomas, y luego me mudé a Cádiz. || Trabajaba | *Trabajé | Trabajo || A total length of time (dos años) in a finished job takes the preterite. || @tags es.preterite,es.imperfect
+      mc: How do you start a formal email to a woman whose surname you know? || Querida Laura: | *Estimada señora Ortiz: | ¡Hola, señora! || Formal emails start with Estimado/a + title + surname, followed by a colon. || @tags es.formal-writing,es.register
+      fill: Le escribo ___ solicitar el puesto de recepcionista. || para || Para + infinitive expresses purpose: I'm writing in order to apply. || @tags es.formal-writing,es.prepositions
+      rw: Describe the old job with the imperfect, starting with Cada día :: Organizo el almacén y respondo los correos. || Cada día organizaba el almacén y respondía los correos. || Daily tasks in the past: -aba (organizaba) and -ía (respondía). || @tags es.imperfect
+      tf: Malik is working at a hotel now. || false || Now he works at a pizzeria at weekends; the hotel in Salou was before. || @ctx dialogue
+      short: What was Malik in charge of at the hotel? || kw: ensaladas/salads || "Preparaba los desayunos y me encargaba de las ensaladas." || @ctx dialogue
+      listen: @dialogue || How long did Malik work at the hotel in Salou? || One year | *Two summers | Two years || "Trabajé dos veranos en un hotel de Salou." || @tags es.listening
+      listen: Se busca dependiente con experiencia. Contrato de seis meses, media jornada, de lunes a viernes por la mañana. || What kind of job is it? || Full-time and permanent | *Part-time, for six months | Weekends only || "Contrato de seis meses, media jornada", Monday to Friday mornings. || @tags es.listening
+      tr: I worked in a bookshop for three years. || Trabajé en una librería tres años. | Trabajé tres años en una librería. | Trabajé en una librería durante tres años. || Total length of a finished job: preterite. A bookshop is una librería (a library is una biblioteca). || @tags es.preterite
+      dict: Trabajé dos años en un hotel y me encargaba de las reservas.
+      ask: The interviewer says «Hábleme de su experiencia». Describe your last job: where, for how long and two things you did there. || kw: trabajé & años/meses/veranos & me encargaba/atendía/preparaba/organizaba/hacía/era || Trabajé tres años en una tienda de ropa en Leeds. Atendía a los clientes y me encargaba del escaparate.
+      write: Write a short formal email to apply for a job as a waiter or waitress in a café. || min=50 || req: estimado/estimada | experiencia | atentamente || Estimado señor García: Le escribo para solicitar el puesto de camarero de su cafetería. Tengo dos años de experiencia: trabajé en un bar de Dublín de 2021 a 2023. Allí atendía a los clientes y preparaba los cafés. Hablo inglés y español, y estoy dispuesto a trabajar los fines de semana. Adjunto mi currículum. Atentamente, Liam Byrne
