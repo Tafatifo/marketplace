@@ -236,7 +236,6 @@ lessons:
       fill: My mom loves this bag, so I bought it for ___. || her || After a preposition, she → her. || @tags en.pronouns
       fill: These shoes are too small. Can I exchange ___? || them || Shoes are plural → them. || @tags en.pronouns
       fill: The kettle doesn't work. I want to return ___. || it || The kettle is one thing → it. || @tags en.pronouns
-      fill: Excuse me, could you help ___? We can't find the customer service desk. || us || We → us after a verb. || @tags en.pronouns,en.requests
       mc: "Did your dad like the sweater?" — "No, it doesn't fit ___." || *him | he | his || After a verb, use the object pronoun him. || @tags en.pronouns
       mc: Choose the correct sentence. || I want to take back it. | *I want to take it back. | I want to take back. || With a phrasal verb, the pronoun goes in the middle: take it back. || @tags en.pronouns,en.phrasal-verbs
       rw: Replace the repeated noun with a pronoun :: I bought the headphones online, but the headphones are broken, so I'm sending the headphones back. || I bought the headphones online, but they're broken, so I'm sending them back. | I bought the headphones online, but they are broken, so I'm sending them back. | I bought the headphones online, but they are broken, so I am sending them back. || Subject → they; object → them (in the middle of send back). || @tags en.pronouns
@@ -248,6 +247,7 @@ lessons:
       listen: Sorry, you can't get a refund without a receipt, but we can give you store credit. || What can the customer get? || A full refund | *Store credit | Nothing || Without a receipt, there's no refund, but the store offers store credit. || @tags en.listening
       dict: These jeans don't fit me. Can I exchange them?
       ask: You bought a phone case, but it doesn't fit your phone. Explain the problem to the clerk and ask for a refund. || kw: it & fit/fits/small/big/wrong & refund/return/money back || Hi. I bought this phone case yesterday, but it doesn't fit my phone. Could I return it and get a refund, please? Here's the receipt.
+      write: You ordered a sweater for your brother online, but it doesn't fit him. Write a short message to the store: say what you bought, what's wrong and what you want (a refund or an exchange). Use at least two object pronouns. || min=30 || req: it/them | him || Hi, I ordered a blue sweater for my brother last week, but it's too tight for him. Could I exchange it for a large? If you don't have it in a large, I'd like a refund, please. Thank you, Lucas Moreau
 
   - title: Phone calls and messages
     summary: Make phone calls, take and leave messages, and ask people to do things — with Could you ask him to…? and Could you tell her…?
@@ -265,7 +265,7 @@ lessons:
       leave a message | to give information for someone who isn't there | expr | She isn't here. Would you like to leave a message? | - | n: Past: left a message.
       take a message | to write down information for someone who isn't there | expr | Can I take a message? | - | n: Past: took a message.
       hold on | to wait for a short time, especially on the phone | phr v | Hold on a second, please. | - | n: Also: Hang on (informal).
-      put through | to connect a caller to another person's phone | phr v | I'll put you through to the manager. | - | n: Very common in offices.
+      put through | to connect a caller to another person's phone | phr v | Hold on, I can put you through to the manager. | - | n: Very common in offices.
       voicemail | a system that records phone messages; a recorded message | n | I left you a voicemail this morning. | - | c: check your voicemail; leave a voicemail
       text | to send a written message from a phone | v | Text me when you get home. | - | n: Also a noun: I sent you a text.
       available | free to talk or meet | adj | Is Mr. Kowalski available? | - | n: The opposite is busy or unavailable.
@@ -354,7 +354,7 @@ lessons:
       tf: Sophie speaks to Mr. Kowalski. || false || He's in a meeting, so Luke takes a message. || @ctx dialogue
       short: What is Sophie's phone number? || kw: 555 & 0147 || "It's 555-0147." || @ctx dialogue
       listen: @dialogue || What is Sophie's problem? || Her door is broken. | *Her heater doesn't work. | Her rent is too high. || "I'm calling about my heater. It doesn't work." || @tags en.listening
-      listen: Hi Noah, it's Priya. I'm running late, so could you tell the others to start without me? I'll be there at eight. || What does Priya want Noah to do? || *Tell the others to start | Call her back at eight | Wait for her outside || "Could you tell the others to start without me?" || @tags en.listening,en.requests
+      listen: Hi Noah, it's Priya. I'm running late, so could you tell the others to start without me? I can be there at eight. || What does Priya want Noah to do? || *Tell the others to start | Call her back at eight | Wait for her outside || "Could you tell the others to start without me?" || @tags en.listening,en.requests
       dict: Could you ask her to call me back this afternoon?
       ask: You call your doctor's office, but the receptionist is busy. Leave a message — say who you are, why you're calling and ask them to call you back. || kw: this is/my name & calling about/about & call me back/call back || Hi, this is Omar Haddad. I'm calling about my appointment on Friday. Could you ask the doctor's assistant to call me back? My number is 555-0168. Thank you.
       write: You took a phone message for your roommate, Kim. Write the message — who called, why, what Kim should do and the phone number. || min=25 || req: called | call/text || Kim — Jake from the bike shop called at 11. Your bike is ready, but the store closes at five today. He asked you to call him back at 555-0131 before then. Thanks!
