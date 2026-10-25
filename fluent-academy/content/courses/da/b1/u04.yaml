@@ -1,0 +1,362 @@
+unit: 4
+title: Medier og teknologi
+theme: Media and technology
+description: Follow and report the news, talk about your digital habits and get help with a tech problem — with reported speech, the past perfect and indirect questions.
+objectives:
+  - Report what the news, the police or an expert says with siger, at… and ifølge
+  - Talk about digital habits and the order of past events with the past perfect
+  - Ask for and give help with a technical problem using indirect questions
+canDo:
+  - I can tell someone what a news story says and who said it.
+  - I can report a question with om or a question word.
+  - I can explain what had already happened before something else in the past.
+  - I can describe a technical problem and ask polite indirect questions to solve it.
+review: |
+  fill: Journalisten spørger, ___ broen åbner til sommer. ("Åbner broen til sommer?") || om || A reported yes/no question starts with om (whether). || @tags da.reported-speech,da.questions
+  mc: Lise says: "Jeg kommer ikke." Which report is correct? || *Lise siger, at hun ikke kommer. | Lise siger, at hun kommer ikke. | Lise siger, at jeg ikke kommer. || Jeg becomes hun, and in the at-clause ikke comes before the verb. || @tags da.reported-speech,da.negation
+  fill: Da jeg tændte for computeren, ___ den allerede installeret opdateringen. || havde || The update was installed before I switched the computer on: past perfect havde + participle. || @tags da.past-perfect
+  mc: "Da jeg ringede, ___ hun allerede gået hjem." || *var | havde | har || Gå (hjem) is a verb of movement, so it takes være: var gået. Har is the present and doesn't fit a past story. || @tags da.past-perfect,da.perfect-er
+  mc: Which sentence is correct? || *Ved du, hvorfor bussen ikke kører i dag? | Ved du, hvorfor kører bussen ikke i dag? | Ved du, hvorfor bussen kører ikke i dag? || In an indirect question the subject comes before the verb, and ikke comes before the verb too: hvorfor bussen ikke kører. || @tags da.questions,da.subordinate-clauses
+  tr: According to DMI, it will rain tomorrow. || Ifølge DMI regner det i morgen. | Ifølge DMI kommer det til at regne i morgen. | Ifølge DMI bliver det regnvejr i morgen. | Ifølge DMI vil det regne i morgen. || Ifølge DMI is the first element, so the verb comes next: Ifølge DMI regner det… || @tags da.word-order,da.weather
+  rw: Report what Ahmed says :: Ahmed: "Jeg har ikke set nyhederne." || Ahmed siger, at han ikke har set nyhederne. | Ahmed siger, han ikke har set nyhederne. || Jeg becomes han, and ikke moves before the verb in the at-clause. || @tags da.reported-speech,da.negation
+  listen: Her er vejret. Ifølge DMI bliver det tørt og solrigt i hele landet i morgen, men i weekenden kommer der kraftig regn fra vest. || What will the weekend be like? || *Heavy rain | Dry and sunny | Cold and snowy || "I weekenden kommer der kraftig regn fra vest." Tomorrow will be dry and sunny. || @tags da.listening,da.weather
+  listen: Jeg havde lige installeret en ny app, da min telefon pludselig gik ud. Nu kan jeg ikke tænde den igen. || What happened just after the speaker installed the app? || *The phone suddenly switched off | The app deleted her photos | The screen broke || "Da min telefon pludselig gik ud" — when my phone suddenly switched off. || @tags da.listening,da.past-perfect
+  ask: Tell a friend about a news story you read or heard this week: what happened, who said what, and what people are asking. || kw: siger at/oplyser at/skriver at/fortæller at/ifølge & om/hvorfor/hvordan/hvornår || Jeg læste, at der er kommet en ny cykelbro i Odense. Kommunen siger, at den åbner i maj. Mange spørger, om den bliver for smal, og hvornår den sidste del bliver færdig.
+  write: Write an email (5–7 sentences) to the customer service of an online shop. Your new headphones have stopped working. Explain what you had already tried before writing, and ask two indirect questions. || min=60 || req: havde | om | hvordan/hvornår/hvorfor/hvad | Med venlig hilsen/Venlig hilsen/Mvh || Kære kundeservice. For to uger siden købte jeg et par trådløse høretelefoner hos jer, men nu virker de ikke længere. Før jeg skrev, havde jeg allerede opladet dem og genstartet min telefon. Jeg havde også læst jeres vejledning på hjemmesiden. Kan I fortælle mig, om jeg kan få et par nye? Og vil I skrive, hvordan jeg sender dem tilbage? Med venlig hilsen Rania Saleh
+lessons:
+  - title: News and how we follow it
+    summary: Read a local news story about a storm and report what people say with siger, at…, oplyser, at…, ifølge and spørger, om…
+    minutes: 45
+    skills: [reading, grammar, listening]
+    tags: [da.reported-speech, da.subordinate-clauses]
+    objectives:
+      - Report statements with a present reporting verb (siger, oplyser, skriver)
+      - Report questions with om and question words
+      - Understand the main points of a short news article
+    intro: |
+      How do you follow the news — on the radio, in an app, through a podcast? Whatever the channel, news is full of reported speech: *Politiet oplyser, at…*, *Ifølge DMI…*, *Mange spørger, om…* In this lesson you'll read a short local news story about a storm, and learn how to pass on what others say and ask — with the right word order.
+    vocab: |
+      en nyhed | a piece of news | n | Har du hørt den gode nyhed? | Have you heard the good news? | g: c | pl: nyheder | n: Nyhederne = the news: Har du set nyhederne?
+      en artikel | an article | n | Jeg læste en spændende artikel om bier. | I read an interesting article about bees. | g: c | pl: artikler
+      en overskrift | a headline | n | Mange læser kun overskrifterne. | Many people only read the headlines. | g: c | pl: overskrifter
+      ifølge | according to | prep | Ifølge DMI bliver det regnvejr i morgen. | According to DMI, it will rain tomorrow. | n: An ifølge-phrase at the start is followed by the verb.
+      oplyse | to inform; to state | v | Politiet oplyser, at vejen er spærret. | The police state that the road is closed. | n: Formal and common in the news. Past: oplyste.
+      en kilde | a source | n | Journalisten har to kilder til historien. | The journalist has two sources for the story. | g: c | pl: kilder
+      aflyse | to cancel | v | Koncerten er aflyst på grund af regn. | The concert has been cancelled because of rain. | n: Past: aflyste.
+      på grund af | because of | expr | Toget er forsinket på grund af et signalproblem. | The train is delayed because of a signal problem. | n: Followed by a noun. Before a clause, use fordi.
+      et indslag | a news item; a report | n | Der var et indslag om vores skole i TV-avisen. | There was a report about our school on the TV news. | g: n | pl: indslag
+      en podcast | a podcast | n | Jeg hører en nyhedspodcast hver morgen på cyklen. | I listen to a news podcast every morning on my bike. | g: c | pl: podcasts
+      en lytter | a listener | n | Programmet har over en million lyttere. | The programme has over a million listeners. | g: c | pl: lyttere | n: TV: en seer (a viewer); the press: en læser (a reader).
+      spørge, om | to ask whether | expr | Mange spørger, om de kan få pengene tilbage. | Many people are asking whether they can get their money back. | n: Om (whether), never hvis, in reported yes/no questions.
+    grammar:
+      title: "Reported speech: hun siger, at…"
+      body: |
+        News is full of reported speech — what the police, an expert or a passenger **says**. When the reporting verb is in the **present** (*siger, skriver, oplyser, fortæller*), Danish keeps the tense of the original words. Three things change:
+
+        1. The words become an **at-clause**: *DMI siger, **at** det bliver storm.* In speech, at is often left out: *Hun siger, hun kommer.*
+        2. The at-clause is a subordinate clause, so ikke and other sentence adverbs go **before** the verb: "Vi sejler ikke i dag." → *Rederiet oplyser, at de **ikke sejler** i dag.*
+        3. **Pronouns** change to fit the new speaker: "Jeg er træt." → *Hun siger, at **hun** er træt.*
+
+        **Questions.** A reported yes/no question uses **om** (whether): "Sejler færgen?" → *Han spørger, **om** færgen sejler.* A question with a question word keeps it: "Hvornår sejler den?" → *Han spørger, **hvornår** den sejler.* Both have subordinate word order: subject before the verb.
+
+        **Ifølge** (according to) is a news favourite. As the first element it is followed by the verb: *Ifølge politiet **skete** ulykken klokken otte.*
+
+        When the reporting verb is in the past (*sagde, skrev*), the tense usually shifts back too. You'll work with that at B2.
+      table: |
+        Direct speech | Reported speech
+        "Jeg er syg." | Han siger, at han er syg.
+        "Vi sejler ikke i dag." | Rederiet oplyser, at de ikke sejler i dag.
+        "Kommer du?" | Hun spørger, om jeg kommer.
+        "Hvor bor du?" | Hun spørger, hvor jeg bor.
+      examples: |
+        Politiet oplyser, at ingen kom til skade ved ulykken. | The police say that nobody was hurt in the accident. | oplyse, at… is typical of the news
+        Borgmesteren siger, at den nye bro ikke åbner før til sommer. | The mayor says that the new bridge won't open until summer. | ikke before the verb in the at-clause
+        Mange lyttere spørger, om de kan høre programmet igen. | Many listeners are asking whether they can hear the programme again. | om for a yes/no question
+        Ifølge DMI bliver weekenden varm og solrig. | According to DMI, the weekend will be warm and sunny. | V2 after ifølge
+      tip: "In every reported sentence, find ikke and move it in front of the verb: … at hun ikke kommer."
+    reading:
+      title: Stormen lukker færgen til Samsø
+      text: |
+        Stormen lukker færgen til Samsø
+        Af Mette Kjær, lokalredaktionen
+
+        Det blæser kraftigt i hele Østjylland i dag, og færgen mellem Hou og Samsø sejler ikke. Rederiet oplyser i en sms til passagererne, at alle afgange er aflyst indtil klokken 18.
+
+        Ifølge DMI kommer vinden op på stormstyrke i løbet af eftermiddagen. Meteorolog Lars Holm siger, at folk ikke bør køre over de store broer, hvis det ikke er nødvendigt. "Vi forventer, at det værste er overstået i nat," siger han.
+
+        Mange passagerer er frustrerede. Annette Bech fra Tranebjerg skulle til lægen i Aarhus i dag. Hun fortæller, at hun nu må vente til i morgen. "Det er irriterende, men sikkerheden kommer først," siger hun.
+
+        Andre spørger, om de kan få pengene tilbage for deres billetter. Rederiet svarer, at alle kan få refunderet billetten, eller at de kan bruge den på en senere afgang.
+
+        Politiet opfordrer alle til at blive inde, mens stormen står på. Følg med i opdateringerne her på siden.
+      translation: |
+        The storm closes the ferry to Samsø
+        By Mette Kjær, local news desk
+
+        It is very windy across East Jutland today, and the ferry between Hou and Samsø isn't sailing. The ferry company states in a text message to passengers that all departures are cancelled until 6 p.m.
+
+        According to DMI, the wind will reach storm force during the afternoon. Meteorologist Lars Holm says that people shouldn't drive across the big bridges if it isn't necessary. "We expect the worst to be over during the night," he says.
+
+        Many passengers are frustrated. Annette Bech from Tranebjerg was supposed to see the doctor in Aarhus today. She says that she now has to wait until tomorrow. "It's annoying, but safety comes first," she says.
+
+        Others are asking whether they can get their money back for their tickets. The ferry company replies that everyone can get a refund for their ticket, or that they can use it on a later departure.
+
+        The police urge everyone to stay indoors while the storm lasts. Follow the updates here on the page.
+    pronunciation:
+      title: "Numbers in the news: procent, halvdelen, komma"
+      body: |
+        News is full of numbers and shares. **Procent** is stressed on the second syllable: pro-**SENT**. In **halvdelen** (half of it) the v is silent: "HAL-de-len". **En tredjedel** (a third) has a soft d: "TREÐ-je-del".
+
+        Danish uses a comma for decimals, and you read it aloud: 2,5 = *to komma fem*. So 2,5 % is *to komma fem procent*. Listen and repeat, then read the headline sentence aloud like a newsreader.
+      items: |
+        procent
+        halvdelen
+        en tredjedel
+        to komma fem procent
+        Halvdelen af danskerne hører nyheder i radioen.
+    culture:
+      title: Danish news media
+      body: |
+        Denmark has two big public-service broadcasters: **DR**, which is publicly funded and has no advertising, and **TV 2**, with its regional stations. Their evening news programmes, *TV-avisen* and *Nyhederne*, are still watched by many, but more and more Danes follow the news in apps, on podcasts and on the radio while they cycle or drive.
+
+        Regional and local newspapers remain important. They cover everything from new bike lanes to ferry timetables and local sport, and their websites are often the first place people look when a storm hits.
+    mistakes: |
+      Hun siger, at hun kommer ikke. => Hun siger, at hun ikke kommer. | In an at-clause, ikke goes before the verb.
+      Han spørger, hvis færgen sejler. => Han spørger, om færgen sejler. | Reported yes/no questions use om (whether). Hvis means "if" only in conditions.
+      Han spørger, hvornår sejler færgen. => Han spørger, hvornår færgen sejler. | In a reported question, the subject comes before the verb.
+    task:
+      title: The news in brief
+      mode: speaking
+      body: |
+        Choose a short news story from today — local, national or about the weather. Retell it in five or six sentences as if you were a radio newsreader: what happened, what one person or organisation says (siger, at… / oplyser, at…), and one question people are asking (spørger, om…). Use ifølge at least once and record yourself in Speaking practice.
+    exercises: |
+      fill: "Jeg arbejder ikke i dag." → Mette siger, at hun ___ i dag. || ikke arbejder || In the at-clause, ikke comes before the verb: at hun ikke arbejder. || @tags da.reported-speech,da.negation
+      fill: "Kommer I til festen?" → Ole spørger, ___ vi kommer til festen. || om || A reported yes/no question starts with om. || @tags da.reported-speech,da.questions
+      mc: "Vi sejler ikke i dag." What does the ferry company report? || *Rederiet oplyser, at de ikke sejler i dag. | Rederiet oplyser, at de sejler ikke i dag. | Rederiet oplyser, at vi sejler ikke i dag. || Vi becomes de, and ikke moves before the verb in the at-clause. || @tags da.reported-speech,da.negation
+      mc: "Hvornår åbner broen?" How do you report the journalist's question? || *Journalisten spørger, hvornår broen åbner. | Journalisten spørger, hvornår åbner broen. | Journalisten spørger, om hvornår broen åbner. || Keep the question word, put the subject before the verb, and don't add om. || @tags da.reported-speech,da.questions
+      mc: Which sentence is correct? || *Ifølge DMI bliver det koldt i weekenden. | Ifølge DMI det bliver koldt i weekenden. | Ifølge DMI, at det bliver koldt i weekenden. || Ifølge DMI is the first element, so the verb comes next (V2). Ifølge is never followed by at. || @tags da.word-order
+      tf: Passengers can get their money back for their tickets. || true || "Rederiet svarer, at alle kan få refunderet billetten." || @ctx reading
+      mc: Why did Annette Bech want to go to Aarhus? || *She had a doctor's appointment | She was going to work | She was visiting her family || "Annette Bech fra Tranebjerg skulle til lægen i Aarhus i dag." || @ctx reading @skill reading @tags da.reading
+      short: What does the meteorologist advise people not to do? || kw: bro/broer/broerne/bridge/bridges || Not to drive across the big bridges unless it is necessary. || @ctx reading
+      listen: Her er nyhederne. Politiet oplyser, at motorvejen ved Kolding er spærret på grund af en ulykke. Ingen er kommet alvorligt til skade. || Why is the motorway closed? || *Because of an accident | Because of a storm | Because of roadworks || "Spærret på grund af en ulykke" — closed because of an accident. || @tags da.listening,da.reported-speech
+      rw: Report what Kasper says :: Kasper: "Jeg har ikke tid i morgen." || Kasper siger, at han ikke har tid i morgen. | Kasper siger, han ikke har tid i morgen. || Jeg becomes han, and ikke moves before the verb. || @tags da.reported-speech,da.negation
+      rw: Report the question :: "Hvor bor du?" → Hun spørger, … || Hun spørger, hvor jeg bor. | Hun spørger mig, hvor jeg bor. || Du becomes jeg, and the subject comes before the verb: hvor jeg bor. || @tags da.reported-speech,da.questions
+      tr: According to the police, nobody was hurt. || Ifølge politiet kom ingen til skade. | Ifølge politiet er ingen kommet til skade. | Ifølge politiet blev ingen skadet. || After ifølge politiet, the verb comes next. Komme til skade = get hurt. || @tags da.word-order
+      ask: Tell a colleague about a news story you heard today. Say who said what with siger, at…, oplyser, at… or ifølge. || kw: siger/oplyser/skriver/fortæller/ifølge || Har du hørt det? Ifølge radioen er der storm i Vestjylland. Politiet siger, at folk ikke skal køre ud, hvis det ikke er nødvendigt.
+      dict: Ifølge DMI bliver det storm i hele landet i aften.
+
+  - title: Digital life
+    summary: Talk about screens, apps and social media, and explain what had already happened with the past perfect (havde slettet, var gået).
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [da.past-perfect, da.past]
+    objectives:
+      - Form the past perfect with havde and var + participle
+      - Use it with da, efter at, allerede and aldrig før to show the order of past events
+      - Talk about digital habits, apps and screen time
+    intro: |
+      Most of us have tried to change our digital habits — deleting an app, switching off notifications, putting the phone away at night. Telling the story of such a change means showing what happened **first**: *Efter to dage havde jeg allerede downloadet appen igen.* That is the job of the past perfect. In this lesson you'll listen to two colleagues talking about a month without social media.
+    vocab: |
+      de sociale medier | social media | expr | Hun bruger to timer om dagen på de sociale medier. | She spends two hours a day on social media. | n: Singular: et socialt medie; plural: sociale medier.
+      en app | an app | n | Jeg har slettet appen fra min telefon. | I've deleted the app from my phone. | g: c | pl: apps
+      slette | to delete | v | Han slettede alle sine gamle billeder. | He deleted all his old photos. | n: Past: slettede.
+      downloade | to download | v | Jeg downloadede appen igen efter to dage. | I downloaded the app again after two days. | n: Past: downloadede. Danes also say hente.
+      en notifikation | a notification | n | Jeg har slukket for alle notifikationer. | I've turned off all notifications. | g: c | pl: notifikationer | n: Stress on the last syllable.
+      en skærm | a screen | n | Børn bruger for meget tid foran skærmen. | Children spend too much time in front of the screen. | g: c | pl: skærme | c: skærmtid (screen time)
+      vanedannende | addictive; habit-forming | adj | Spil på mobilen kan være meget vanedannende. | Mobile games can be very addictive. | n: From en vane (a habit).
+      slukke for | to turn off | v | Sluk for lyden, når du er i biografen. | Turn off the sound when you're at the cinema. | n: The opposite is tænde for (turn on).
+      lægge mærke til | to notice | expr | Jeg lagde ikke mærke til, hvor sent det var. | I didn't notice how late it was. | n: Irregular: lagde mærke til.
+      allerede | already | adv | Da jeg kom, var filmen allerede begyndt. | When I arrived, the film had already started. | n: Often used with the past perfect.
+      i træk | in a row | expr | Hun scrollede i tre timer i træk. | She scrolled for three hours in a row.
+      en vane | a habit | n | Det er svært at ændre en dårlig vane. | It's hard to change a bad habit. | g: c | pl: vaner | c: en god vane; en dårlig vane
+    grammar:
+      title: "The past perfect: havde slettet, var gået"
+      body: |
+        The past perfect (*førnutid*) describes something that happened **before** another past event: *Da jeg kom hjem, **havde** min søn allerede **spist**.* (First he ate, then I came home.)
+
+        It is formed like the perfect, but with the past of the helping verb: *har slettet → **havde** slettet*, *er blevet → **var** blevet*. Verbs that take **er** in the perfect — verbs of movement and change such as *gå, komme, rejse, køre (leave), blive* — take **var**: *Da vi kom til stationen, **var** toget **kørt**.*
+
+        Typical companions are *allerede* (already), *aldrig før* (never before) and *lige* (just), and the connectors *da*, *efter at* and *før*: *Jeg havde aldrig prøvet et smartur før.* · *Efter at jeg havde slettet appen, sov jeg bedre.*
+
+        **Word order.** Havde and var work like other finite verbs: ikke comes after them in a main clause and before them in a subordinate clause: *Hun havde ikke set beskeden.* · *…, fordi hun **ikke havde** set beskeden.*
+
+        When the order of events is already clear from *efter at*, Danes sometimes use the simple past instead: *Efter at jeg slettede appen, sov jeg bedre.* The past perfect is never wrong here, though.
+      table: |
+        Perfect | Past perfect | Meaning
+        har slettet | havde slettet | had deleted
+        har set | havde set | had seen
+        er gået | var gået | had gone
+        er blevet | var blevet | had become
+      examples: |
+        Da jeg kom hjem, havde min søn allerede spist. | When I got home, my son had already eaten. | havde + participle
+        Min farmor havde aldrig lavet et videoopkald før. | My grandmother had never made a video call before. | aldrig før
+        Da vi kom til stationen, var toget kørt. | When we got to the station, the train had left. | var with a verb of movement
+        Efter at jeg havde slukket for notifikationerne, fik jeg meget mere ro. | After I had turned off the notifications, I got much more peace. | efter at + past perfect
+      tip: "Draw a timeline: the event furthest back in the past gets havde or var."
+    dialogue:
+      title: En måned uden sociale medier
+      setting: Lunch in the canteen of a design company in Aarhus. Kofi notices that his colleague Sanne hasn't looked at her phone all day.
+      speakers: K=Kofi/m; S=Sanne/f
+      lines: |
+        K: Du har ikke kigget på din telefon en eneste gang i dag. Hvad er der sket? | You haven't looked at your phone a single time today. What's happened?
+        S: Jeg har holdt pause fra de sociale medier i en hel måned. | I've taken a break from social media for a whole month.
+        K: Hvorfor det? Var du blevet træt af dem? | Why's that? Had you got tired of them?
+        S: Ja. En aften opdagede jeg, at jeg havde scrollet i tre timer i træk. | Yes. One evening I discovered that I had scrolled for three hours in a row.
+        K: Tre timer! Hvad gjorde du så? Slettede du alle dine apps? | Three hours! So what did you do? Did you delete all your apps?
+        S: Ja, næste morgen. Men efter to dage havde jeg allerede downloadet én af dem igen. | Yes, the next morning. But after two days I had already downloaded one of them again.
+        K: Ha! Det sker for mange. Appsene er jo lavet til at være vanedannende. | Ha! That happens to lots of people. The apps are made to be addictive, after all.
+        S: Præcis. Så slukkede jeg for alle notifikationer og lagde telefonen i en skuffe om aftenen. | Exactly. So I turned off all notifications and put my phone in a drawer in the evenings.
+        K: Og hvordan har det været? Savner du ikke at følge med? | And how has it been? Don't you miss keeping up?
+        S: Lidt, men jeg sover meget bedre. Og i weekenden læste jeg en hel bog. | A bit, but I sleep much better. And at the weekend I read a whole book.
+        K: Det har jeg ikke gjort, siden jeg gik i gymnasiet. | I haven't done that since I was at upper secondary school.
+        S: Prøv det! Da jeg var færdig med bogen, havde jeg ikke tænkt på telefonen i timevis. | Try it! When I'd finished the book, I hadn't thought about my phone for hours.
+    pronunciation:
+      title: "English words with Danish endings"
+      body: |
+        Danish borrows many English words from the digital world, and the stems sound roughly as in English. But the **endings are Danish**, and so is their pronunciation: *appen* ("AP-pen"), *downloadede* (with a soft d at the end: "down-load-e-the"), *scrollet* (the -et ending is a quick "-eð").
+
+        A final **-er** is a weak vowel, not an English r: *streamer* sounds like "STRIIM-ah", and *computeren* like "kom-PJU-tah-en". Listen and repeat — say the stem the English way and the ending the Danish way.
+      items: |
+        appen
+        downloadede
+        scrollet
+        computeren
+        Jeg har slettet appen.
+    culture:
+      title: A very digital country
+      body: |
+        Denmark is one of the most digitalised countries in the world. Almost everyone uses **MitID** to log in to their bank, their doctor's system and public services, and letters from the authorities arrive in **Digital Post** instead of the letterbox. Most people pay with a card or their phone, and cash is rare in many shops.
+
+        At the same time, many Danes are discussing screen time — especially for children. Many schools now have rules that keep pupils' phones in a box or a locker during the school day.
+    mistakes: |
+      Da jeg kom hjem, har han allerede spist. => Da jeg kom hjem, havde han allerede spist. | Something that happened before another past event needs the past perfect: havde spist.
+      Da vi kom, havde toget kørt. => Da vi kom, var toget kørt. | Køre meaning "leave" is a verb of movement, so it takes være: var kørt.
+      …, fordi jeg havde ikke set beskeden. => …, fordi jeg ikke havde set beskeden. | In a subordinate clause, ikke goes before havde.
+    task:
+      title: My digital habits
+      mode: speaking
+      body: |
+        Talk for one or two minutes about a digital habit you have tried to change (or would like to change). Explain what had happened before you decided to change, what you did, and how it went. Use the past perfect at least three times, with da, efter at, allerede or aldrig før. Then discuss screen time in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: Da jeg kom hjem, ___ min datter allerede lavet aftensmad. || havde || She cooked before I came home: past perfect havde + participle. || @tags da.past-perfect
+      fill: Da vi kom til stoppestedet, ___ bussen allerede kørt. || var || Køre meaning "leave" is a verb of movement, so the past perfect takes var: var kørt. || @tags da.past-perfect,da.perfect-er
+      mc: Which sentence is correct? || *Jeg svarede ikke, fordi jeg ikke havde set beskeden. | Jeg svarede ikke, fordi jeg havde ikke set beskeden. | Jeg svarede ikke, fordi havde jeg ikke set beskeden. || After fordi: subject + ikke + havde. || @tags da.past-perfect,da.subordinate-clauses
+      mc: "Da Sanne slukkede for notifikationerne, havde hun allerede slettet appen." What happened first? || *She deleted the app | She turned off the notifications | Both at the same time || The past perfect (havde slettet) shows the earlier event. || @tags da.past-perfect
+      tf: Sanne deleted her apps and never downloaded any of them again. || false || "Efter to dage havde jeg allerede downloadet én af dem igen." || @ctx dialogue
+      short: Where did Sanne put her phone in the evenings? || kw: skuffe/skuffen/drawer || "Jeg … lagde telefonen i en skuffe om aftenen." || @ctx dialogue
+      listen: @dialogue || What has improved for Sanne? || *She sleeps much better | She works faster | She sees her friends more || "Jeg sover meget bedre." || @tags da.listening
+      listen: Da min mormor fik en smartphone, havde hun aldrig sendt en sms før. Nu skriver hun til mig hver eneste dag. || What had the grandmother never done before? || *Sent a text message | Made a phone call | Taken a photo || "Havde hun aldrig sendt en sms før" — she had never sent a text before. || @tags da.listening,da.past-perfect
+      rw: Put it in the past perfect :: Jeg har slettet appen. || Jeg havde slettet appen. || Har → havde; the participle stays the same. || @tags da.past-perfect
+      order: Efter at jeg havde slukket for telefonen, sov jeg meget bedre. || After I had turned off my phone, I slept much better. || @tags da.past-perfect,da.word-order
+      tr: When I woke up, my brother had already left. || Da jeg vågnede, var min bror allerede gået. | Da jeg vågnede, var min bror allerede taget af sted. | Da jeg vågnede, var min bror allerede kørt. | Min bror var allerede gået, da jeg vågnede. || Leaving is movement, so use var + participle. After the da-clause, the verb comes first: var min bror. || @tags da.past-perfect,da.word-order
+      ask: Tell a friend about a time you noticed that you had spent too much time on your phone. Use the past perfect. || kw: havde/var & da/efter at/allerede || En søndag opdagede jeg, at jeg havde set videoer i fire timer. Da jeg kiggede ud, var det allerede blevet mørkt. Efter det slettede jeg appen.
+      write: Write a forum post (5–7 sentences) about your digital habits — something you had never tried before, what you changed and what happened. || min=50 || req: havde | da/efter at | allerede/aldrig før || Sidste år prøvede jeg en uge uden mobil om aftenen. Jeg havde aldrig gjort det før, og jeg var lidt nervøs. Efter at jeg havde lagt telefonen væk klokken otte, begyndte jeg at læse og strikke. Da ugen var slut, havde jeg læst to bøger. Nu gør jeg det hver aften, og jeg sover meget bedre.
+      dict: Da filmen begyndte, var vi allerede faldet i søvn.
+
+  - title: Solving a tech problem
+    summary: Describe a technical problem, follow instructions and ask politely with indirect questions — Ved du, om…? Kan du sige mig, hvordan…?
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [da.questions, da.subordinate-clauses]
+    objectives:
+      - Form indirect questions with om and question words
+      - Put the subject and ikke before the verb in an indirect question
+      - Describe a technical problem and follow step-by-step instructions
+    intro: |
+      The internet is down, the printer won't print, you can't log in. When you call for help, polite questions make everything easier: *Ved du, om…?*, *Kan du sige mig, hvordan…?*, *Jeg forstår ikke, hvorfor…* These are indirect questions, and they follow subordinate word order. In this lesson you'll listen to a call to customer service and learn the words for routers, passwords and restarts.
+    vocab: |
+      en router | a router | n | Routeren står i stuen. | The router is in the living room. | g: c | pl: routere | n: Pronounced roughly as in English: "RAU-ter".
+      genstarte | to restart | v | Prøv at genstarte computeren. | Try restarting the computer. | n: Past: genstartede. Gen- means re-, as in genbruge (reuse).
+      fungere | to work; to function | v | Skærmen fungerer ikke. | The screen isn't working. | n: Past: fungerede. Virke means the same.
+      en forbindelse | a connection | n | Jeg har ingen forbindelse til nettet. | I have no connection to the internet. | g: c | pl: forbindelser
+      en adgangskode | a password | n | Jeg har glemt min adgangskode. | I've forgotten my password. | g: c | pl: adgangskoder | n: Also en kode or et password.
+      logge ind | to log in | v | Jeg kan ikke logge ind på min konto. | I can't log in to my account. | n: The opposite is logge ud.
+      en opdatering | an update | n | Computeren installerer en opdatering. | The computer is installing an update. | g: c | pl: opdateringer
+      installere | to install | v | Har du installeret den nye version? | Have you installed the new version? | n: Past: installerede.
+      et stik | a plug | n | Tag stikket ud, og vent tredive sekunder. | Unplug it and wait thirty seconds. | g: n | pl: stik | c: tage stikket ud (unplug); sætte stikket i (plug in)
+      blinke | to flash; to blink | v | Lampen blinker rødt. | The light is flashing red. | n: Past: blinkede.
+      om | whether; if | conj | Ved du, om butikken er åben? | Do you know if the shop is open? | n: For indirect yes/no questions. Hvis is only for conditions.
+      finde ud af | to find out; to figure out | v | Jeg kan ikke finde ud af, hvordan den virker. | I can't figure out how it works. | n: A particle verb. Past: fandt ud af.
+    grammar:
+      title: "Indirect questions: Ved du, hvordan…?"
+      body: |
+        To ask politely, Danes often wrap a question in another sentence: *Ved du, hvor routeren er?* · *Kan du sige mig, hvordan jeg logger ind?* · *Jeg forstår ikke, hvorfor den ikke virker.* The question part is an **indirect question**, which is a subordinate clause.
+
+        - With a **question word** (*hvad, hvor, hvornår, hvordan, hvorfor, hvilken*), keep the word but put the **subject before the verb**: "Hvor **er** routeren?" → *Ved du, hvor routeren **er**?*
+        - A **yes/no question** gets **om** (whether, if): "Virker nettet?" → *Ved du, **om** nettet virker?* Never use hvis here.
+        - **Ikke** goes **before** the verb: *Jeg forstår ikke, hvorfor den **ikke virker**.*
+
+        Useful openings: *Ved du, …?* · *Kan du sige mig, …?* · *Kan du fortælle mig, …?* · *Jeg vil gerne vide, …* · *Jeg er ikke sikker på, …* · *Jeg prøver at finde ud af, …*
+
+        If the question word itself is the subject — *Hvad sker der? Hvem ringede?* — Danish adds *der* in the indirect question (*Jeg ved ikke, hvad der sker*). You'll practise that at B2; for now, ask about other parts of the sentence.
+      table: |
+        Direct question | Indirect question
+        Hvor er opladeren? | Ved du, hvor opladeren er?
+        Hvordan logger jeg ind? | Kan du sige mig, hvordan jeg logger ind?
+        Virker nettet? | Ved du, om nettet virker?
+        Hvorfor starter den ikke? | Jeg forstår ikke, hvorfor den ikke starter.
+      examples: |
+        Ved du, hvornår teknikeren kommer? | Do you know when the technician is coming? | subject before the verb
+        Jeg prøver at finde ud af, hvorfor printeren ikke virker. | I'm trying to find out why the printer isn't working. | ikke before the verb
+        Kan du se, om lampen på routeren blinker? | Can you see whether the light on the router is flashing? | om for a yes/no question
+        Jeg er ikke sikker på, hvilken adgangskode jeg brugte. | I'm not sure which password I used. | hvilken + noun
+      tip: "Indirect questions sound polite and are easy to build: Ved du, … + subject + verb."
+    dialogue:
+      title: Opkald til kundeservice
+      setting: Birgitte, who lives in Silkeborg, calls her internet provider because her connection has stopped working. Mikkel from customer service answers.
+      speakers: M=Mikkel/m; B=Birgitte/f
+      lines: |
+        M: Kundeservice, det er Mikkel. Hvad kan jeg hjælpe dig med? | Customer service, this is Mikkel. What can I help you with?
+        B: Hej, jeg hedder Birgitte Lund. Mit internet har ikke virket siden i går aftes. | Hi, my name is Birgitte Lund. My internet hasn't worked since last night.
+        M: Det er jeg ked af at høre. Kan du se, om lampen på routeren lyser? | I'm sorry to hear that. Can you see whether the light on the router is on?
+        B: Den blinker rødt. Jeg ved ikke, hvad det betyder. | It's flashing red. I don't know what that means.
+        M: Det betyder, at routeren ikke har forbindelse. Har du prøvet at genstarte den? | It means that the router has no connection. Have you tried restarting it?
+        B: Ja, to gange. Men jeg er ikke sikker på, om jeg gjorde det rigtigt. | Yes, twice. But I'm not sure whether I did it right.
+        M: Intet problem. Tag stikket ud, vent tredive sekunder, og sæt det i igen. | No problem. Unplug it, wait thirty seconds and plug it in again.
+        B: Okay… Nu blinker den grønt. Kan du sige mig, hvor længe jeg skal vente? | OK… Now it's flashing green. Can you tell me how long I have to wait?
+        M: Normalt tager det et par minutter. Ved du, hvilket netværk din computer bruger? | It normally takes a couple of minutes. Do you know which network your computer uses?
+        B: Det står her på skærmen: "Lund-hjemme". Og nu virker det! | It says here on the screen: "Lund-hjemme". And now it works!
+        M: Perfekt. Så var det bare routeren, der havde brug for en genstart. | Perfect. So it was just the router that needed a restart.
+        B: Tusind tak for hjælpen. Det var meget lettere, end jeg troede. | Thank you so much for your help. It was much easier than I thought.
+    pronunciation:
+      title: "Verbs in -ere: installere, fungere"
+      body: |
+        Many technical verbs end in **-ere**, and the stress always falls on the first e of that ending: in-stal-**LE**-re, fun-**GE**-re, re-a-**GE**-re. The stress stays in the same place in every form: *installerer*, *installerede*, *har installeret*.
+
+        The final *-re* is weak: the r becomes a vowel sound, so *fungere* ends in a soft "-ah". Listen, repeat, and keep the stressed syllable long.
+      items: |
+        installere
+        fungere
+        reagere
+        installerede
+        Skærmen fungerer ikke.
+    culture:
+      title: Getting tech help
+      body: |
+        When something stops working, many Danes first call the provider's **kundeservice** — have your customer number (*kundenummer*) ready, and expect to start with an automatic menu. Most providers also offer a chat on their website.
+
+        For help with the digital basics — MitID, Digital Post, online forms or a new tablet — many public libraries offer free IT help, often run by staff or volunteers. It's a good place to practise Danish too: *Kan du vise mig, hvordan man gør?*
+    mistakes: |
+      Ved du, hvor er opladeren? => Ved du, hvor opladeren er? | In an indirect question, the subject comes before the verb.
+      Jeg ved ikke, hvis den virker. => Jeg ved ikke, om den virker. | Indirect yes/no questions use om (whether), not hvis.
+      Jeg forstår ikke, hvorfor den starter ikke. => Jeg forstår ikke, hvorfor den ikke starter. | In an indirect question, ikke comes before the verb.
+    task:
+      title: Call the helpdesk
+      mode: interaction
+      body: |
+        Your laptop, printer or phone has a problem. Prepare a call to a helpdesk: describe the problem, say what you have already tried, and ask at least three indirect questions (Ved du, om…? Kan du sige mig, hvordan…? Jeg vil gerne vide, hvornår…). Act it out with a partner, or try the "Returning an item in a shop" scenario with the AI coach and explain that your new device doesn't work.
+    exercises: |
+      fill: "Er butikken åben?" → Ved du, ___ butikken er åben i dag? || om || An indirect yes/no question starts with om. || @tags da.questions,da.subordinate-clauses
+      fill: Jeg ved ikke, hvorfor computeren ___ ___. (doesn't start) || ikke ; starter || In an indirect question, ikke comes before the verb: hvorfor computeren ikke starter. || @tags da.questions,da.negation
+      mc: "Hvornår kommer teknikeren?" Which indirect question is correct? || *Ved du, hvornår teknikeren kommer? | Ved du, hvornår kommer teknikeren? | Ved du, om hvornår teknikeren kommer? || Keep hvornår and put the subject before the verb. || @tags da.questions,da.subordinate-clauses
+      mc: "Jeg er ikke sikker på, ___ jeg har gemt filen." || *om | hvis | hvad || Whether = om. Hvis is only for conditions, and hvad (what) doesn't fit because filen is already the object. || @tags da.questions
+      mc: "Tag stikket ud." What should you do? || *Unplug it | Plug it in | Switch it on || Tage stikket ud = pull out the plug. Plug in = sætte stikket i. || @tags da.vocabulary,da.phrasal-verbs
+      tf: Birgitte's internet stopped working last night. || true || "Mit internet har ikke virket siden i går aftes." || @ctx dialogue
+      short: What colour was the light on the router before the restart? || kw: rød/rødt/red || "Den blinker rødt." After the restart it flashes green. || @ctx dialogue
+      listen: @dialogue || What solved the problem? || *Restarting the router properly | A new password | A visit from a technician || Mikkel tells her to unplug the router, wait thirty seconds and plug it in again — and then it works. || @tags da.listening
+      listen: Hej, jeg ringer, fordi jeg ikke kan logge ind i min netbank. Jeg ved ikke, om jeg har glemt min adgangskode, eller om systemet er nede. || What is the caller's problem? || *She can't log in to her online bank | Her phone is broken | Her computer won't start || "Jeg kan ikke logge ind i min netbank." || @tags da.listening,da.questions
+      rw: Make it an indirect question :: Hvor er opladeren? → Ved du, … || Ved du, hvor opladeren er? || Subject before verb: hvor opladeren er. || @tags da.questions,da.subordinate-clauses
+      rw: Make it an indirect question :: Virker printeren? → Jeg ved ikke, … || Jeg ved ikke, om printeren virker. || A yes/no question becomes om + subject + verb. || @tags da.questions,da.subordinate-clauses
+      tr: Can you tell me how I log in? || Kan du sige mig, hvordan jeg logger ind? | Kan du fortælle mig, hvordan jeg logger ind? | Kan du sige, hvordan jeg logger ind? | Kan du fortælle, hvordan jeg logger ind? || In the indirect question the subject comes before the verb: hvordan jeg logger ind. || @tags da.questions,da.subordinate-clauses
+      ask: You call a helpdesk because your laptop won't start. Describe the problem and ask two indirect questions. || kw: ved du/kan du sige/kan du fortælle/jeg vil gerne vide & om/hvordan/hvorfor/hvornår || Hej, min computer vil ikke starte, selvom jeg har opladet den. Kan du sige mig, hvad jeg skal gøre? Og ved du, om den stadig er dækket af garantien?
+      dict: Jeg forstår ikke, hvorfor computeren ikke vil starte.

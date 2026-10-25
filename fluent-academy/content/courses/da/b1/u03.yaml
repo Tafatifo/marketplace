@@ -1,0 +1,371 @@
+unit: 3
+title: Uddannelse og læring
+theme: Education and learning
+description: Compare school then and now, talk about how you learn languages and give friendly advice — with the past forms of the modal verbs kunne, ville, skulle, måtte and burde.
+objectives:
+  - Describe school memories and the Danish school system with måtte, skulle and kunne
+  - Tell how you learned a language with kunne, ville and skulle
+  - Give soft, friendly advice with du burde, du skulle prøve at and du kunne
+canDo:
+  - I can describe what I had to do and wasn't allowed to do at school.
+  - I can explain the main steps of the Danish education system.
+  - I can tell how I learned a language and what was difficult at first.
+  - I can give advice politely without sounding bossy.
+review: |
+  fill: Da jeg var barn, ___ vi ikke se fjernsyn før aftensmaden. (were not allowed to) || måtte || Måtte ikke = was not allowed to. Måtte is the past of må. || @tags da.modal-verbs
+  mc: "Jeg kunne ikke et ord dansk." What does it mean? || *I didn't know a word of Danish | I couldn't say anything in Danish class | I didn't want to speak Danish || With a language as object, kunne means "knew": kunne dansk = knew Danish. || @tags da.modal-verbs
+  fill: Vi ___ egentlig flytte til Norge, men så fik min kone job i Aalborg. (were going to) || skulle || Skulle describes a plan in the past, and egentlig shows that the plan changed. || @tags da.modal-verbs
+  mc: "Du burde ringe til din mor." What does burde suggest? || *You ought to call her (and haven't yet) | You must call her right now | You called her yesterday || Burde is softer than bør and often hints that the person hasn't done it. || @tags da.modal-verbs
+  mc: "Hvorfor ville du lære dansk?" means… || *Why did you want to learn Danish? | Why would you learn Danish? | Why will you learn Danish? || Ville is the past of vil: wanted to. || @tags da.modal-verbs,da.question-words
+  rw: Put it in the past :: Jeg skal aflevere opgaven, men jeg kan ikke finde den. || Jeg skulle aflevere opgaven, men jeg kunne ikke finde den. || Skal → skulle and kan → kunne. The infinitives stay the same. || @tags da.modal-verbs
+  tr: Why not ask your teacher? || Hvorfor ikke spørge din lærer? | Hvorfor ikke spørge læreren? | Hvorfor spørger du ikke din lærer? | Hvorfor spørger du ikke læreren? || After hvorfor ikke comes the infinitive without at. || @tags da.infinitive
+  listen: Min farfar kunne kun gå i skole om vinteren, fordi han skulle hjælpe på gården om sommeren. || Why couldn't the grandfather go to school in summer? || *He had to help on the farm | The school was closed | He lived too far away || "Fordi han skulle hjælpe på gården om sommeren" — because he had to help on the farm. || @tags da.listening,da.modal-verbs
+  listen: Du ser træt ud, Sara. Du burde tage en fridag i morgen og bare slappe af. || What does the speaker suggest? || *Taking a day off tomorrow | Working longer hours | Going to the doctor || "Du burde tage en fridag i morgen" — you ought to take a day off tomorrow. || @tags da.listening,da.modal-verbs
+  ask: Tell a classmate how you learned a language you speak: why you wanted to learn it, what you couldn't do at first, and one tip for others. || kw: ville/kunne & skulle/burde/kunne || Jeg ville lære engelsk, fordi jeg elskede amerikanske film. I starten kunne jeg ikke forstå noget uden undertekster. Mit bedste råd: Du skulle prøve at se film uden undertekster.
+  write: Write an email to a friend who is moving to Denmark. Tell them what you couldn't do when you arrived and give three pieces of advice about learning Danish. || min=60 || req: kunne ikke | burde/skulle | kunne | prøve at || Kære Marco! Hvor er det godt, at du flytter til Odense. Da jeg kom hertil, kunne jeg ikke engang bestille en kop kaffe på dansk. Derfor har jeg tre gode råd til dig. Du skulle prøve at gå til sprogcafé på biblioteket. Du burde også se danske serier med danske undertekster. Og du kunne bede dine kolleger om at tale dansk med dig. Held og lykke! Kærlig hilsen Giulia
+lessons:
+  - title: School memories and systems
+    summary: Read a grandmother's memories of school in the 1960s, and talk about what you had to do, couldn't do and weren't allowed to do — with skulle, kunne and måtte.
+    minutes: 45
+    skills: [reading, grammar, speaking]
+    tags: [da.modal-verbs, da.past]
+    objectives:
+      - Form the past of the modal verbs (kunne, ville, skulle, måtte, burde)
+      - Say what you had to do and weren't allowed to do at school
+      - Describe the main steps of the Danish school system
+    intro: |
+      Everybody has school memories: the strict teacher, the rules, the subject you loved or hated. To talk about them, you need the past of the modal verbs — **Vi skulle…** (we had to), **Vi måtte ikke…** (we weren't allowed to), **Jeg kunne ikke…** (I couldn't). In this lesson you will read a text comparing Danish school in the 1960s and today, and learn how the Danish school system works.
+    vocab: |
+      et barnebarn | a grandchild | n | Mit barnebarn går i 6. klasse. | My grandchild is in 6th grade. | g: n | pl: børnebørn
+      en elev | a pupil; a student | n | Der er 24 elever i min datters klasse. | There are 24 pupils in my daughter's class. | g: c | pl: elever
+      en time | a lesson; an hour | n | Vi har to timer dansk om mandagen. | We have two Danish lessons on Mondays. | g: c | pl: timer | n: I timen = in class.
+      en lektie | a homework task | n | Har du lavet dine lektier? | Have you done your homework? | g: c | pl: lektier | n: Mostly used in the plural: lektier.
+      udenad | by heart | adv | Vi skulle lære et digt udenad hver uge. | We had to learn a poem by heart every week.
+      rejse sig | to stand up | v | Alle rejste sig, da rektor kom ind. | Everyone stood up when the head teacher came in. | n: Reflexive: jeg rejser mig, vi rejser os.
+      en karakter | a grade; a mark | n | Hun fik en god karakter i engelsk. | She got a good grade in English. | g: c | pl: karakterer | n: Also means character (in a story).
+      en eksamen | an exam | n | Han bestod sin eksamen i juni. | He passed his exam in June. | g: c | pl: eksamener | c: gå op til eksamen (sit an exam); bestå (pass); dumpe (fail)
+      et gymnasium | an upper secondary school | n | Efter 9. klasse begyndte hun i gymnasiet. | After 9th grade she started upper secondary school. | g: n | pl: gymnasier | n: Usually definite: gå i gymnasiet.
+      dengang | back then; at that time | adv | Dengang havde skolen ingen computere. | Back then the school had no computers. | n: At the start of the sentence, the verb comes next.
+      måtte | was allowed to; had to | v | Vi måtte ikke tale i timerne. | We weren't allowed to talk in class. | n: The past of må. Måtte ikke = wasn't allowed to.
+      skulle | had to; was supposed to | v | Hver fredag skulle vi skrive diktat. | Every Friday we had to write a dictation. | n: The past of skal.
+    grammar:
+      title: "The past of the modal verbs"
+      body: |
+        The modal verbs have their own past forms. They are irregular, but there are only five to learn: *kan → **kunne**, vil → **ville**, skal → **skulle**, må → **måtte**, bør → **burde***.
+
+        In the past they mean:
+
+        - **kunne** — could, was able to: *Jeg kunne godt lide dansk.*
+        - **ville** — wanted to: *Jeg ville være lærer.*
+        - **skulle** — had to, was supposed to (a rule or a plan): *Vi skulle rejse os, når læreren kom ind.*
+        - **måtte** — was allowed to; **måtte ikke** — was not allowed to: *Vi måtte ikke spise i timerne.* Måtte can also mean "had to": *Vi måtte gå hjem i regnvejr.*
+        - **burde** — ought to: *Min lærer sagde, at jeg burde øve mig mere.* (In lesson 3 you'll see burde used about the present, too.)
+
+        The rules are the same as in the present: the next verb is an **infinitive without at**, and ikke comes after the modal in a main clause — *Vi måtte **ikke** bruge lommeregner.* In a subordinate clause, ikke goes before the modal: *…, fordi vi **ikke måtte** tale.*
+
+        The perfect is *har kunnet, har villet, har skullet, har måttet* — for example *Jeg har aldrig kunnet lide matematik.* It is used less often than the past.
+      table: |
+        Present | Past | Perfect | Meaning in the past
+        kan | kunne | har kunnet | could, was able to
+        vil | ville | har villet | wanted to
+        skal | skulle | har skullet | had to, was supposed to
+        må | måtte | har måttet | was allowed to; had to
+        bør | burde | har burdet | ought to
+      examples: |
+        Vi måtte ikke bruge mobiltelefon i timerne. | We weren't allowed to use mobile phones in class. | måtte ikke = wasn't allowed to
+        Hver morgen skulle vi synge en sang, før timen begyndte. | Every morning we had to sing a song before the lesson started. | skulle = had to (a rule)
+        Jeg kunne ikke lide gymnastik, fordi jeg ikke kunne svømme. | I didn't like PE because I couldn't swim. | ikke before the modal after fordi
+        Som barn ville jeg være pilot. | As a child I wanted to be a pilot. | ville = wanted to
+      tip: "Kunne, skulle and måtte look like infinitives, but they are past forms. One form for every person: jeg kunne, vi kunne, de kunne."
+    reading:
+      title: Skole dengang og nu
+      text: |
+        Mit barnebarn Oscar går i 6. klasse, og han spørger tit, hvordan det var at gå i skole, da jeg var barn. Jeg gik i folkeskolen i Randers i 1960'erne, og meget var anderledes.
+
+        Vi skulle rejse os, når læreren kom ind i klassen, og vi måtte kun tale, når hun spurgte os. Vi skulle lære salmevers udenad, og hver fredag skulle vi skrive diktat. Hvis man ville vide noget, måtte man spørge læreren eller gå på biblioteket. Vi kunne jo ikke bare søge på nettet!
+
+        Jeg kunne godt lide dansk og historie, men regning var et mareridt. Min lærer sagde tit, at jeg burde øve mig mere, og det havde hun nok ret i. Om eftermiddagen skulle jeg hjælpe til i min fars butik, så jeg kunne ikke altid nå mine lektier.
+
+        Oscars skoledag ser helt anderledes ud. Han bruger computer i de fleste timer, og eleverne arbejder tit i grupper. De kalder deres lærere ved fornavn, og ingen rejser sig, når en lærer kommer ind. Dengang brugte man 13-skalaen til karakterer. I dag bruger man 7-trinsskalaen, hvor 12 er den bedste karakter.
+
+        Var alting bedre før? Nej, bestemt ikke. Men jeg kan stadig synge alle de salmevers, jeg lærte – og det er Oscar meget imponeret over.
+
+        Inge, 70 år
+      translation: |
+        My grandson Oscar is in 6th grade, and he often asks what it was like to go to school when I was a child. I went to the folkeskole in Randers in the 1960s, and a lot was different.
+
+        We had to stand up when the teacher came into the classroom, and we were only allowed to speak when she asked us. We had to learn hymn verses by heart, and every Friday we had to write a dictation. If you wanted to know something, you had to ask the teacher or go to the library. After all, we couldn't just search online!
+
+        I liked Danish and history, but arithmetic was a nightmare. My teacher often said that I ought to practise more, and she was probably right about that. In the afternoons I had to help out in my father's shop, so I couldn't always get my homework done.
+
+        Oscar's school day looks completely different. He uses a computer in most lessons, and the pupils often work in groups. They call their teachers by their first names, and nobody stands up when a teacher comes in. Back then we used the 13-point scale for grades. Today they use the 7-point scale, where 12 is the best grade.
+
+        Was everything better before? No, definitely not. But I can still sing all the hymn verses I learned – and Oscar is very impressed by that.
+
+        Inge, 70
+    pronunciation:
+      title: "Prefixes: uddannelse, undervisning, forklare"
+      body: |
+        Many school words begin with a prefix, and the prefix decides the stress. **Ud-, op-** and **under-** are stressed: **UD**-dan-nel-se, **OP**-ga-ve, **UN**-der-vis-ning. **Be-** and **for-** are never stressed — the stress falls on the next syllable: for-**KLA**-re, be-**GYN**-de.
+
+        Notice also the silent letters: in *uddannelse* the first d is silent, and in *begynde* the d after n is silent. Listen, repeat, and tap the stressed syllable on the table as you say it.
+      items: |
+        uddannelse
+        undervisning
+        opgave
+        forklare
+        begynde
+        Læreren forklarede opgaven.
+    culture:
+      title: The Danish school system
+      body: |
+        Danish children start in **folkeskolen** at about six, in 0. klasse, and stay until 9. klasse; an optional 10. klasse is popular too. Many 14- to 17-year-olds spend a year or two at an **efterskole**, a boarding school with a strong social side. After that, about two thirds go on to a **gymnasium** (three years, finished with the famous student cap, *studenterhuen*), and others choose a vocational education (**erhvervsuddannelse**), for example as an electrician, a chef or a care worker.
+
+        Grades are given on the **7-trinsskalaen**: 12, 10, 7, 4, 02, 00 and −3, where 02 is the lowest pass. Higher education is free for Danish and EU students.
+    mistakes: |
+      Vi måtte ikke at bruge mobiltelefon. => Vi måtte ikke bruge mobiltelefon. | After a modal verb, the infinitive has no at.
+      Da jeg var barn, skal vi rejse os. => Da jeg var barn, skulle vi rejse os. | A past situation needs the past form of the modal: skal → skulle.
+      Jeg kunde ikke lide regning. => Jeg kunne ikke lide regning. | The past of kan is spelled kunne. En kunde is a customer.
+    task:
+      title: My school days
+      mode: speaking
+      body: |
+        Tell a friend about your school days in six or seven sentences: what kind of school you went to, two things you had to do, one thing you weren't allowed to do, and a subject you could or couldn't do well. Use skulle, måtte (ikke) and kunne. Then compare: what is different in schools today? Record yourself in Speaking practice.
+    exercises: |
+      fill: Da jeg gik i skole, ___ vi ikke spise slik i frikvarteret. (were not allowed to) || måtte || Måtte ikke = was not allowed to. || @tags da.modal-verbs
+      fill: Hver morgen ___ vi stå i kø i skolegården, før vi gik ind. (had to) || skulle / måtte || A rule in the past: skulle (or måtte, both meaning "had to"). || @tags da.modal-verbs
+      mc: "Jeg ___ ikke lide matematik, da jeg var barn." || *kunne | kan | kunde || The past of kan is kunne. Kan is the present, and en kunde is a customer. || @tags da.modal-verbs,da.past
+      mc: Which sentence is correct? || *Vi skulle lære digte udenad. | Vi skulle at lære digte udenad. | Vi skullede lære digte udenad. || Skulle is already the past form, and after a modal the infinitive comes without at. || @tags da.modal-verbs,da.infinitive
+      mc: What is the perfect of "kan"? || *har kunnet | har kunne | er kunnet || The participle of the modals ends in -et: kunnet, villet, skullet, måttet. They all take har. || @tags da.modal-verbs,da.perfect
+      tf: Inge loved arithmetic at school. || false || "Regning var et mareridt" — arithmetic was a nightmare. || @ctx reading
+      mc: What did Inge have to do in the afternoons? || *Help in her father's shop | Sing hymns at church | Look after her grandson || "Om eftermiddagen skulle jeg hjælpe til i min fars butik." || @ctx reading @skill reading @tags da.reading
+      short: Which grading scale do Danish schools use today? || kw: 7-trinsskalaen/7/syv/seven || "I dag bruger man 7-trinsskalaen, hvor 12 er den bedste karakter." || @ctx reading
+      listen: Da jeg gik i gymnasiet i Esbjerg, skulle vi aflevere en stor opgave hver måned, men vi måtte selv vælge emnet. || What could the students decide themselves? || *The topic of the assignment | The deadline | Their grade || "Vi måtte selv vælge emnet" — we were allowed to choose the topic ourselves. || @tags da.listening,da.modal-verbs
+      rw: Put it in the past :: Vi må ikke bruge telefonen i timerne. || Vi måtte ikke bruge telefonen i timerne. || Må → måtte. Ikke stays after the modal. || @tags da.modal-verbs
+      tr: As a child I wanted to be a teacher. || Som barn ville jeg være lærer. | Som barn ville jeg gerne være lærer. | Som barn ville jeg blive lærer. | Da jeg var barn, ville jeg være lærer. | Da jeg var barn, ville jeg gerne være lærer. | Da jeg var barn, ville jeg blive lærer. || Wanted to = ville. Som barn at the start triggers V2: Som barn ville jeg… No article before the job. || @tags da.modal-verbs,da.word-order
+      ask: Tell a new friend about your school: one thing you had to do and one thing you weren't allowed to do. || kw: skulle/måtte & måtte ikke || I min skole skulle vi have skoleuniform på, og vi måtte ikke have farvet hår. Men vi måtte godt spille fodbold i alle frikvartererne.
+      write: Write a short text (5–6 sentences) comparing your own school days with schools today. || min=50 || req: skulle | måtte | kunne | dengang/i dag || Da jeg gik i skole i Vilnius, skulle vi altid sidde stille og lytte. Vi måtte ikke arbejde i grupper, og vi kunne ikke vælge mange fag selv. Dengang havde vi ingen computere i klassen. I dag bruger min søn en tablet i næsten alle timer, og han arbejder tit sammen med andre. Jeg synes, at det er bedre i dag, men han lærer ikke så mange digte udenad.
+      dict: Dengang måtte vi ikke tale, når læreren talte.
+
+  - title: How we learn languages
+    summary: Talk about how you learned a language — what you wanted, what you could and couldn't do at first, and how your plans changed — with ville, kunne and skulle.
+    minutes: 45
+    skills: [listening, speaking, grammar]
+    tags: [da.modal-verbs, da.past]
+    objectives:
+      - Say why you wanted to learn a language with ville
+      - Describe what you could and couldn't do at first with kunne
+      - Describe plans that changed with skulle egentlig
+    intro: |
+      "Why did you want to learn Danish?" is a question every learner in Denmark hears — often in English! In this lesson you will listen to a conversation at a library language café and learn to tell your own language story: what you **wanted** (*ville*), what you **could** and **couldn't** do (*kunne*), and what you **were going to** do before life changed your plans (*skulle egentlig*).
+    vocab: |
+      et modersmål | a mother tongue | n | Mit modersmål er arabisk, men jeg taler også fransk. | My mother tongue is Arabic, but I also speak French. | g: n | pl: modersmål
+      flydende | fluent; fluently | adj | Hun taler flydende dansk efter fem år. | She speaks fluent Danish after five years. | n: Also means liquid.
+      en udtale | a pronunciation | n | Den danske udtale er svær i starten. | Danish pronunciation is hard at first. | g: c | n: The verb is udtale (to pronounce): Hvordan udtaler man det?
+      en undertekst | a subtitle | n | Jeg ser danske serier med danske undertekster. | I watch Danish series with Danish subtitles. | g: c | pl: undertekster
+      en sprogskole | a language school | n | Jeg gik på sprogskole tre aftener om ugen. | I went to language school three evenings a week. | g: c | pl: sprogskoler
+      følge med | to keep up; to follow | v | I starten kunne jeg ikke følge med, når mine kolleger talte. | At first I couldn't keep up when my colleagues talked. | n: A particle verb. Følge med i nyhederne = follow the news.
+      øve sig | to practise | v | Jeg øver mig hver dag i bussen. | I practise every day on the bus. | c: øve sig på noget (practise something) | n: Reflexive: jeg øver mig, hun øver sig.
+      lyde | to sound | v | Alle ord lød ens i starten. | All the words sounded the same at first. | n: Irregular: lød, har lydt.
+      ens | alike; the same | adj | De to ord lyder næsten ens. | The two words sound almost the same. | n: Never changes its form.
+      et ordforråd | a vocabulary | n | Jeg udvider mit ordforråd ved at læse aviser. | I expand my vocabulary by reading newspapers. | g: n
+      kunne | could; knew | v | Jeg kunne ikke et ord dansk, da jeg kom. | I didn't know a word of Danish when I came. | n: The past of kan. Kunne dansk = knew Danish.
+      ville | wanted to | v | Jeg ville gerne tale med mine naboer. | I wanted to talk to my neighbours. | n: The past of vil. In this meaning it is not "would".
+      egentlig | actually; really | adv | Jeg skulle egentlig kun være her et år. | I was really only going to be here for a year. | n: Shows that a plan or expectation changed. The g is silent: "E-gent-li".
+    grammar:
+      title: "Kunne, ville and skulle in your language story"
+      body: |
+        When you tell how you learned a language, the past of the modal verbs is everywhere:
+
+        - **kunne** — could, was able to: *Efter et år kunne jeg følge med i nyhederne.* With a language as object, kunne means "knew": *Jeg kunne ikke et ord dansk, da jeg kom.* (In the present: *Jeg kan dansk* = I know Danish.)
+        - **ville** — wanted to: *Jeg ville gerne forstå mine kolleger.* Careful: ville is the past of vil, so *Jeg ville lære dansk* means "I wanted to learn Danish", not "I would learn". For a wish now, use *vil gerne*.
+        - **skulle** — was going to (a plan) or had to (an obligation): *Jeg skulle egentlig kun bo her et år.* · *Vi skulle tale dansk hele timen.* With *egentlig*, it tells the listener that the plan changed.
+
+        The word order is the same as with all modal verbs: the infinitive without at, ikke after the modal in a main clause, and before it in a subordinate clause: *Jeg kunne ikke følge med, fordi jeg **ikke kunne** ordene.*
+
+        Ville + have + til at means "wanted somebody to": *Min kollega ville have mig til at sige det hver dag.*
+      table: |
+        Modal | Past | Example | Meaning
+        kan | kunne | Efter et år kunne jeg læse avisen. | could, was able to
+        kan + language | kunne | Hun kunne fire sprog. | knew
+        vil | ville | Jeg ville gerne forstå mine naboer. | wanted to
+        skal | skulle | Jeg skulle kun blive et år. | was going to
+        skal | skulle | Vi skulle tale dansk i timen. | had to, was supposed to
+      examples: |
+        Da jeg kom til Danmark, kunne jeg kun sige hej og tak. | When I came to Denmark, I could only say hello and thank you. | kunne = could
+        Jeg ville gerne forstå vittighederne i frokostpausen. | I wanted to understand the jokes in the lunch break. | ville = wanted to
+        Vi skulle egentlig kun bo her i to år, men nu har vi boet her i otte. | We were really only going to live here for two years, but now we've lived here for eight. | skulle egentlig = a plan that changed
+        Jeg kunne ikke følge med, fordi de talte så hurtigt. | I couldn't keep up because they spoke so fast. | ikke after the modal in a main clause
+      tip: "Ville = wanted to, not would. Jeg ville lære dansk = I wanted to learn Danish."
+    dialogue:
+      title: Sprogcaféen på biblioteket
+      setting: The weekly language café at the main library in Aarhus. Grethe, a retired teacher who volunteers there, welcomes two new participants, Wei and Lucia.
+      speakers: G=Grethe/f; W=Wei/m; L=Lucia/f
+      lines: |
+        G: Velkommen til sprogcaféen! Hvad hedder I, og hvor længe har I lært dansk? | Welcome to the language café! What are your names, and how long have you been learning Danish?
+        W: Jeg hedder Wei. Jeg har lært dansk i to år, men det går langsomt. | My name is Wei. I've been learning Danish for two years, but it's going slowly.
+        L: Og jeg er Lucia. Jeg kom hertil sidste sommer og kunne ikke et ord dansk. | And I'm Lucia. I came here last summer and didn't know a word of Danish.
+        G: Hvorfor ville I lære dansk? Mange danskere taler jo godt engelsk. | Why did you want to learn Danish? After all, lots of Danes speak good English.
+        W: Jeg ville gerne forstå mine kolleger i frokostpausen. De taler altid dansk der. | I wanted to understand my colleagues in the lunch break. They always speak Danish there.
+        L: Jeg skulle egentlig kun være her et halvt år, men så fik jeg et job. | I was actually only going to be here for six months, but then I got a job.
+        G: Hvordan lærte I det så? Gik I begge to på sprogskole? | So how did you learn it? Did you both go to language school?
+        W: Ja, men jeg lærte mest ved at se danske serier med danske undertekster. | Yes, but I learned most by watching Danish series with Danish subtitles.
+        L: Jeg kunne slet ikke forstå udtalen i starten. Alle ordene lød ens! | I couldn't understand the pronunciation at all at first. All the words sounded the same!
+        G: Det siger alle. Hvad var det sværeste ord, I skulle lære? | Everybody says that. What was the hardest word you had to learn?
+        W: Rødgrød med fløde! Min kollega ville have mig til at sige det hver dag. | Rødgrød med fløde! My colleague wanted me to say it every day.
+        G: Ha, det er en klassiker. Skal vi øve det sammen nu? | Ha, that's a classic. Shall we practise it together now?
+    pronunciation:
+      title: "Rødgrød med fløde"
+      body: |
+        *Rødgrød med fløde* (red berry pudding with cream) is the phrase Danes love to make foreigners say — because it is full of the sounds that are hardest for learners. Each word has a **soft d**: the tip of the tongue rests behind the lower teeth, a bit like the "th" in English *this*. *Rød* and *grød* also have the **Danish r**, made far back in the throat, and the rounded vowel **ø**.
+
+        Take it slowly: *rød* – *grød* – *rødgrød* – *med* – *fløde*. Then put it together. Don't worry if it isn't perfect: Danes will be impressed that you tried.
+      items: |
+        rød
+        grød
+        fløde
+        rødgrød med fløde
+        Kan du sige rødgrød med fløde?
+    culture:
+      title: Learning Danish as an adult
+      body: |
+        Adults who move to Denmark can take Danish courses at a **sprogskole** (language centre), usually in the evening or as a mix of classes and online work. The courses lead to official tests — **Prøve i Dansk 1, 2 and 3** and the **Studieprøven**, which is needed for many university programmes.
+
+        Many public libraries host a **sprogcafé**, where volunteers chat with learners over coffee. A common frustration is that Danes switch to English as soon as you hesitate. A friendly *Må vi godt tale dansk? Jeg vil gerne øve mig* (Can we speak Danish? I'd like to practise) usually works.
+    mistakes: |
+      Jeg kunne ikke at forstå dem. => Jeg kunne ikke forstå dem. | After a modal verb, the infinitive has no at.
+      …, fordi jeg kunne ikke følge med. => …, fordi jeg ikke kunne følge med. | In a subordinate clause, ikke goes before the modal verb.
+      Jeg ville lære dansk næste år. (= I would like to) => Jeg vil gerne lære dansk næste år. | Ville is the past (wanted to). For a wish about now or the future, use vil gerne.
+    task:
+      title: My language story
+      mode: speaking
+      body: |
+        Prepare your own language story in six to eight sentences: why you wanted to learn Danish (or another language), what you could and couldn't do at first, a plan that changed (skulle egentlig…), and what helped you most. Tell it at a language café, or practise it in the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      fill: Da jeg kom til Danmark, ___ jeg kun sige hej og tak. (could) || kunne || Could = kunne, the past of kan. || @tags da.modal-verbs
+      fill: Jeg ___ egentlig kun bo her i et år, men nu har jeg boet her i seks. (was going to) || skulle || A plan in the past: skulle. Egentlig shows that the plan changed. || @tags da.modal-verbs
+      mc: "Jeg ville lære dansk." What does it mean? || *I wanted to learn Danish | I will learn Danish | I would learn Danish || Ville is the past of vil: wanted to. || @tags da.modal-verbs
+      mc: Which sentence is correct? || *Jeg gik til sprogcafé, fordi jeg ikke kunne forstå mine kolleger. | Jeg gik til sprogcafé, fordi jeg kunne ikke forstå mine kolleger. | Jeg gik til sprogcafé, fordi kunne jeg ikke forstå mine kolleger. || After fordi, the order is subject + ikke + modal verb: fordi jeg ikke kunne. || @tags da.modal-verbs,da.subordinate-clauses
+      mc: "Hun kunne fire sprog." What does it mean? || *She knew four languages | She could learn four languages | She wanted to speak four languages || With a language as object, kunne means "knew". || @tags da.modal-verbs
+      tf: Lucia knew some Danish when she arrived. || false || "Jeg kom hertil sidste sommer og kunne ikke et ord dansk." || @ctx dialogue
+      short: How did Wei learn most of his Danish? || kw: serier/series/undertekster/subtitles/TV || By watching Danish series with Danish subtitles. || @ctx dialogue
+      listen: @dialogue || Why did Wei want to learn Danish? || *To understand his colleagues at lunch | To pass a university exam | To read Danish novels || "Jeg ville gerne forstå mine kolleger i frokostpausen." || @tags da.listening
+      listen: Jeg ville gerne tage danskprøven i juni, men jeg kunne ikke, fordi jeg skulle til min søsters bryllup i Polen. || Why couldn't the speaker take the test in June? || *She had to go to her sister's wedding | She was ill | She didn't pass the course || "Fordi jeg skulle til min søsters bryllup" — she had to go to her sister's wedding. || @tags da.listening,da.modal-verbs
+      rw: Put it in the past :: Jeg vil gerne forstå mine naboer, men jeg kan ikke følge med. || Jeg ville gerne forstå mine naboer, men jeg kunne ikke følge med. || Vil → ville and kan → kunne. || @tags da.modal-verbs
+      order: Efter et år kunne jeg læse en dansk avis. || After a year I could read a Danish newspaper. || @tags da.modal-verbs,da.word-order
+      tr: I couldn't understand anything at first. || I starten kunne jeg ikke forstå noget. | Jeg kunne ikke forstå noget i starten. | I begyndelsen kunne jeg ikke forstå noget. | Jeg kunne ikke forstå noget i begyndelsen. | I starten kunne jeg ingenting forstå. || Couldn't = kunne ikke. If I starten comes first, the verb follows: I starten kunne jeg… || @tags da.modal-verbs,da.word-order
+      ask: At a language café, tell the others why you wanted to learn Danish and what you couldn't do at first. || kw: ville & kunne ikke || Jeg ville lære dansk, fordi min kæreste er dansk. I starten kunne jeg ikke forstå hans familie, når de talte sammen.
+      dict: Jeg kunne ikke et ord dansk, da jeg kom hertil.
+
+  - title: Giving advice
+    summary: Give friendly, soft advice before exams and in everyday life — with du burde, du skulle prøve at, du kunne and hvorfor ikke…?
+    minutes: 45
+    skills: [speaking, grammar, writing]
+    tags: [da.modal-verbs, da.infinitive]
+    objectives:
+      - Give advice of different strengths with skal, bør, burde, skulle and kunne
+      - Make suggestions with hvorfor ikke…?, har du prøvet at…? and det kunne være en god idé at…
+      - Talk about studying, exams and stress
+    intro: |
+      In Danish, advice that sounds too direct can come across as bossy. The trick is to use the **past** forms of the modal verbs about the present: **du burde…**, **du skulle prøve at…**, **du kunne…**. They work like English *you ought to*, *you should really try* and *you could*. In this lesson you'll hear a student giving a stressed friend advice before her first exam.
+    vocab: |
+      et råd | a piece of advice | n | Har du et godt råd til mig? | Do you have a good piece of advice for me? | g: n | pl: råd | n: Countable: et råd, to gode råd. The d is soft.
+      burde | ought to | v | Du burde tage en pause. | You ought to take a break. | n: The past of bør, used about now for softer advice. No at after it.
+      prøve at | to try to | expr | Du skulle prøve at læse lidt hver dag. | You should try to read a little every day.
+      en pause | a break | n | Husk at holde en pause hver time. | Remember to take a break every hour. | g: c | pl: pauser | c: holde en pause (take a break)
+      stresset | stressed | adj | Hun er meget stresset op til eksamen. | She's very stressed in the run-up to the exam. | n: Plural: stressede.
+      koncentrere sig | to concentrate | v | Jeg kan ikke koncentrere mig, når musikken er tændt. | I can't concentrate when the music is on. | n: Reflexive. Stress on -re-: "kon-sen-TRE-re".
+      forstyrre | to disturb | v | Undskyld, at jeg forstyrrer. | Sorry to disturb you. | n: Past: forstyrrede.
+      have styr på | to have under control | expr | Jeg har ikke styr på mine noter. | My notes are a mess. | n: Literally "have steering on".
+      pensum | the syllabus; the required reading | n | Vi skal læse hele pensum til eksamen. | We have to read the whole syllabus for the exam. | g: n
+      en plan | a plan | n | Du skulle lave en plan for hver dag. | You should make a plan for each day. | g: c | pl: planer | c: lave en plan
+      hvorfor ikke…? | why not…? | expr | Hvorfor ikke spørge din lærer? | Why not ask your teacher? | n: Followed by the infinitive without at.
+      huske at | to remember to | expr | Husk at drikke vand! | Remember to drink water!
+    grammar:
+      title: "Soft advice: du burde, du skulle, du kunne"
+      body: |
+        The past forms of the modal verbs are often used about **now** to make advice softer and more polite:
+
+        - **Du burde** (you ought to) is softer than *du bør*, and often suggests that the person isn't doing it: *Du burde gå tidligere i seng.*
+        - **Du skulle** (you should really) is a friendly tip, often with *prøve at*: *Du skulle prøve at læse børnebøger.*
+        - **Du kunne** (you could) is a gentle suggestion: *Du kunne melde dig til en sprogcafé.* Also: *Det kunne være en god idé at…*
+
+        Other friendly ways: *Har du prøvet at…?* · *Hvorfor ikke…?* + infinitive without at · the imperative with *bare*: *Spørg bare!*
+
+        Compare the strength: *Du skal læse mere* (an instruction) → *Du bør læse mere* (firm advice) → *Du burde læse mere* (softer) → *Du skulle prøve at læse mere* (a friendly tip).
+
+        The word order is the usual one for modals: infinitive without at, ikke after the modal in a main clause — *Du burde **ikke** arbejde så meget.* In a question the modal comes first: *Skulle du ikke tale med din lærer?*
+
+        The fixed phrase *Hvis jeg var dig, ville jeg…* (If I were you, I would…) is also very common — unit 8 explains how it works.
+      table: |
+        Phrase | Strength | Example
+        Du skal … | instruction | Du skal aflevere opgaven i morgen.
+        Du bør … | firm advice | Du bør tale med en læge.
+        Du burde … | softer advice | Du burde tage en pause.
+        Du skulle prøve at … | friendly tip | Du skulle prøve at lave en læseplan.
+        Du kunne … | suggestion | Du kunne spørge din lærer.
+      examples: |
+        Du burde ikke læse til midnat. | You shouldn't study until midnight. | burde + ikke + infinitive
+        Du skulle prøve at dele pensum op i små bidder. | You should try to split the syllabus into small chunks. | a friendly tip
+        Du kunne tage med mig på biblioteket i morgen. | You could come with me to the library tomorrow. | a suggestion
+        Hvorfor ikke gå en tur hver eftermiddag? | Why not go for a walk every afternoon? | infinitive without at
+      tip: "To sound friendly, start with a question (Har du prøvet at…?) or use the past forms burde, skulle and kunne."
+    dialogue:
+      title: Op til eksamen
+      setting: A study room at the University of Copenhagen. Amalie has her first exam in ten days and asks her older fellow student Oliver for advice.
+      speakers: A=Amalie/f; O=Oliver/m
+      lines: |
+        A: Jeg har eksamen om ti dage, og jeg har slet ikke styr på pensum. | I have an exam in ten days, and I'm not on top of the syllabus at all.
+        O: Rolig nu. Har du lavet en plan for, hvad du skal læse hver dag? | Calm down. Have you made a plan for what to read every day?
+        A: Nej, jeg læser bare lidt af det hele og bliver mere og mere stresset. | No, I just read a bit of everything and get more and more stressed.
+        O: Du skulle prøve at dele pensum op i små bidder. Det hjalp mig meget. | You should try to split the syllabus into small chunks. That helped me a lot.
+        A: God idé. Men jeg kan ikke koncentrere mig derhjemme. Telefonen forstyrrer mig hele tiden. | Good idea. But I can't concentrate at home. My phone keeps disturbing me.
+        O: Så burde du læse på biblioteket og lade telefonen blive i tasken. | Then you ought to study at the library and leave your phone in your bag.
+        A: Det kunne jeg godt. Læser du selv på biblioteket? | I could do that. Do you study at the library yourself?
+        O: Ja, hver morgen fra klokken otte. Du kunne tage med i morgen, hvis du vil. | Yes, every morning from eight. You could come along tomorrow if you like.
+        A: Gerne! Har du andre gode råd? Jeg sover også dårligt for tiden. | I'd love to! Do you have any other good advice? I'm sleeping badly at the moment, too.
+        O: Du burde ikke læse til midnat. Det er bedre at sove otte timer. | You shouldn't study until midnight. It's better to sleep eight hours.
+        A: Det ved jeg godt, men det er svært at holde op. | I know, but it's hard to stop.
+        O: Og husk at holde pauser. Hvorfor ikke gå en tur hver eftermiddag? | And remember to take breaks. Why not go for a walk every afternoon?
+    pronunciation:
+      title: "Loanwords with late stress: idé, problem, eksamen"
+      body: |
+        Most Danish words are stressed on the first syllable, but many words borrowed from Latin, Greek and French keep a later stress: i-**DÉ**, pro-**BLEM**, ek-**SA**-men. Verbs in **-ere** are always stressed on that ending: kon-sen-**TRE**-re, stu-**DE**-re.
+
+        When you give advice, these words often carry the main stress of the sentence: *Det er en god i-**DÉ**!* Listen and repeat, and make the stressed syllable clearly longer and louder than the others.
+      items: |
+        idé
+        problem
+        eksamen
+        koncentrere
+        Det er en god idé.
+    culture:
+      title: Oral exams and the student cap
+      body: |
+        Danish schools and universities use a lot of **oral exams** (*mundtlig eksamen*). The student draws a question or presents a project and then talks with the examiner and an external examiner, the **censor**, for 20–30 minutes. Many students find this more stressful than written exams, so good advice before an exam is always welcome.
+
+        After the final exams at the gymnasium, the new graduates put on their white **studenterhue** (student cap) and ride around town in a decorated open truck, visiting each student's home. It is one of the happiest days of the Danish year in June.
+    mistakes: |
+      Du burde at tage en pause. => Du burde tage en pause. | Burde is a modal verb, so the infinitive comes without at.
+      Hvorfor ikke at spørge læreren? => Hvorfor ikke spørge læreren? | After hvorfor ikke, use the infinitive without at.
+      Jeg kan ikke koncentrere. => Jeg kan ikke koncentrere mig. | Koncentrere sig is reflexive: jeg koncentrerer mig.
+    task:
+      title: Advice for a stressed friend
+      mode: interaction
+      body: |
+        A friend tells you: *Jeg sover dårligt, jeg har for travlt, og jeg kan ikke koncentrere mig.* Give at least four pieces of advice of different strengths: one with burde, one with skulle prøve at, one with kunne and one with hvorfor ikke…? Practise the conversation with a partner, or role-play it in the "At the doctor's" scenario with the AI coach.
+    exercises: |
+      fill: Du ___ prøve at lave en læseplan. Det hjalp mig meget. (a friendly tip with the past of skal) || skulle || Du skulle prøve at… = you should really try to… — a friendly tip. || @tags da.modal-verbs
+      fill: Du ser træt ud. Du ___ gå tidligere i seng. (ought to) || burde / bør || Burde (softer) or bør (firmer) both mean "ought to". || @tags da.modal-verbs
+      mc: Which is the softest piece of advice? || *Du kunne måske spørge din lærer. | Du skal spørge din lærer. | Spørg din lærer! || Du kunne (måske) is a gentle suggestion. Du skal is an instruction, and the imperative alone can sound like an order. || @tags da.modal-verbs,da.register
+      mc: Which sentence is correct? || *Hvorfor ikke tage en pause? | Hvorfor ikke at tage en pause? | Hvorfor tager ikke en pause? || After hvorfor ikke comes the infinitive without at. || @tags da.infinitive
+      mc: "Jeg har ikke styr på pensum." What does it mean? || *I'm not on top of the syllabus | I don't like the syllabus | I've lost the syllabus || Have styr på = have under control. || @tags da.vocabulary
+      tf: Oliver suggests that Amalie should study at the library. || true || "Så burde du læse på biblioteket og lade telefonen blive i tasken." || @ctx dialogue
+      short: Why can't Amalie concentrate at home? || kw: telefon/telefonen/phone/mobil/mobile || Her phone keeps disturbing her: "Telefonen forstyrrer mig hele tiden." || @ctx dialogue
+      listen: @dialogue || What does Oliver say about sleep? || *She shouldn't study until midnight | She should sleep less | She should sleep in the afternoon || "Du burde ikke læse til midnat. Det er bedre at sove otte timer." || @tags da.listening
+      listen: Hvis du gerne vil lære dansk hurtigere, kunne du melde dig til en sprogcafé. Du burde også høre danske podcasts på vej til arbejde. || What else does the speaker recommend? || *Listening to Danish podcasts | Watching English films | Reading grammar books || "Du burde også høre danske podcasts på vej til arbejde." || @tags da.listening,da.modal-verbs
+      rw: Make the advice softer :: Du bør ikke arbejde så meget. || Du burde ikke arbejde så meget. || Bør → burde makes the advice softer. Ikke stays after the modal. || @tags da.modal-verbs
+      tr: You should try to read a little every day. || Du skulle prøve at læse lidt hver dag. | Du burde prøve at læse lidt hver dag. | Du bør prøve at læse lidt hver dag. | Du skal prøve at læse lidt hver dag. || Skulle prøve at is the friendliest; burde, bør and skal are also correct. Prøve takes at before the next infinitive. || @tags da.modal-verbs,da.infinitive
+      ask: A friend is stressed before an exam. Give three pieces of advice with burde, skulle or kunne. || kw: burde/skulle/kunne & pause/plan/sove/læse/biblioteket || Du skulle prøve at lave en plan for hver dag. Du burde også sove mere og ikke læse om natten. Og du kunne læse sammen med mig på biblioteket.
+      write: Write a reply (5–6 sentences) to this forum post — "Jeg har lært dansk i et år, men jeg tør ikke tale. Hvad skal jeg gøre?" || min=45 || req: burde/skulle/kunne | prøve at | hvorfor ikke/har du prøvet || Hej! Jeg kender godt problemet. Du skulle prøve at gå til sprogcafé på biblioteket, for der er alle tålmodige. Har du prøvet at tale med dig selv på dansk, når du laver mad? Det lyder mærkeligt, men det hjælper. Du kunne også bede dine kolleger om at tale langsomt. Og hvorfor ikke starte med små ting, som at bestille kaffe på dansk? Held og lykke!
+      dict: Du burde holde en pause og gå en tur.

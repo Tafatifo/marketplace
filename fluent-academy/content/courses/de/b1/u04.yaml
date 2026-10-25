@@ -1,0 +1,353 @@
+unit: 4
+title: Medien und Technik
+theme: Media and technology
+description: Talk about the news and how you follow it, describe your digital life with the Plusquamperfekt and nachdem, and solve a tech problem on the phone with indirect questions.
+objectives:
+  - Say what had happened before another past event with the Plusquamperfekt
+  - Order past events with nachdem, bevor and als
+  - Ask for help politely with indirect questions (Können Sie mir sagen, ob …?)
+canDo:
+  - I can retell a news story and say how I heard about it.
+  - I can describe my digital habits and a change I made.
+  - I can explain a technical problem and ask for help on the phone.
+  - I can understand the main points of a short news report.
+review: |
+  fill: Bevor ich den Artikel schrieb, ___ ich mit drei Fachleuten gesprochen. || hatte || The conversations happened before the writing: Plusquamperfekt with hatte + participle. || @tags de.plusquamperfekt
+  fill: Nachdem sie nach Hamburg ___ war, suchte sie eine Wohnung. (ziehen) || gezogen || Ziehen (to move house) takes sein: sie war gezogen. || @tags de.plusquamperfekt,de.perfekt-sein
+  mc: "___ ich die Nachricht las, musste ich laut lachen." || *Als | Wenn | Nachdem || One event in the past at the same time as the laughing: als. Wenn is for repeated or present events; nachdem would need the Plusquamperfekt (gelesen hatte). || @tags de.subordinate-clauses
+  fill: Können Sie mir sagen, ___ der Kurs kostet? || was / wie viel || An indirect W-question keeps its question word: was / wie viel … kostet (verb at the end). || @tags de.questions,de.subordinate-clauses
+  mc: "Ich weiß nicht, ___ er morgen kommt." || *ob | wenn | was || A yes/no question becomes an indirect question with ob. Wenn means "if/when" in conditions; was doesn't fit a yes/no question. || @tags de.questions,de.subordinate-clauses
+  rw: Make it an indirect question, starting with "Wissen Sie, …" :: Wo kann ich mein Handy reparieren lassen? || Wissen Sie, wo ich mein Handy reparieren lassen kann? || The question word wo starts the clause, the subject follows, and the conjugated verb kann goes to the very end. || @tags de.questions,de.subordinate-clauses
+  tr: I had already switched off the computer. || Ich hatte den Computer schon ausgeschaltet. | Ich hatte den Computer bereits ausgeschaltet. | Ich hatte den Rechner schon ausgeschaltet. || Plusquamperfekt: hatte + participle at the end (aus-ge-schaltet). || @tags de.plusquamperfekt
+  listen: In der Nacht hatte es sehr stark geregnet. Deshalb ist die Straße zwischen Jena und Weimar heute Morgen gesperrt. || Why is the road closed this morning? || Because of an accident | *Because it had rained heavily in the night | Because of building work || "In der Nacht hatte es sehr stark geregnet. Deshalb ist die Straße … gesperrt." || @tags de.listening,de.plusquamperfekt
+  listen: Ich weiß nicht, ob mein Akku kaputt ist. Das Handy geht jeden Tag schon mittags aus, auch wenn ich es morgens voll geladen habe. || What is the problem with the phone? || It doesn't charge at all. | *The battery runs out by midday. | The screen is broken. || "Das Handy geht jeden Tag schon mittags aus." || @tags de.listening,de.questions
+  ask: Tell a friend about a time when technology let you down. Say what had happened before. || kw: hatte/war & vergessen/gelöscht/gespeichert/geladen/kaputtgegangen/abgestürzt/verloren/geschrieben/gemacht || Letzte Woche ist mein Laptop abgestürzt. Ich hatte meine Präsentation leider nicht gespeichert und musste alles noch einmal schreiben.
+  write: Write an email (60–80 words) to the customer service of an online shop. Your new headphones don't connect to your phone. Describe what you had already tried and ask two indirect questions. || min=50 || req: sehr geehrte/sehr geehrter | hatte/habe | ob | können sie mir sagen/ich möchte wissen/wissen sie/könnten sie mir sagen || Sehr geehrte Damen und Herren, letzte Woche habe ich bei Ihnen Kopfhörer bestellt. Leider verbinden sie sich nicht mit meinem Handy. Ich hatte sie vorher voll geladen und auch das Handy neu gestartet. Können Sie mir sagen, ob es ein Update gibt? Ich möchte außerdem wissen, wie ich die Kopfhörer zurückschicken kann, wenn das Problem bleibt. Mit freundlichen Grüßen Karim Haddad
+lessons:
+  - title: News and how we follow it
+    summary: Retell a local news story and talk about where you get your news, using the Plusquamperfekt for what had happened before.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.plusquamperfekt]
+    objectives:
+      - Form the Plusquamperfekt with hatte/war + participle
+      - Use it for an event that happened before another past event
+      - Talk about news sources and news habits
+    intro: |
+      Push notifications, radio, podcasts, the local paper — we hear about the news in many ways. When you retell a story, you often need to go one step further back in time: *Als die Polizei kam, **hatte** die Bäckerin das Tier schon **gefüttert**.* That's the job of the **Plusquamperfekt**, the "past of the past".
+    vocab: |
+      die Nachrichten | the news | n | Um acht kommen die Nachrichten im Fernsehen. | The news is on TV at eight. | pl: die Nachrichten | n: Singular die Nachricht = a message or one piece of news.
+      die Schlagzeile | headline | n | Das Lama war heute die Schlagzeile der Lokalzeitung. | The llama was today's headline in the local paper. | g: f | pl: die Schlagzeilen
+      die Lokalzeitung | local newspaper | n | Ich lese die Lokalzeitung meistens in der App. | I usually read the local paper in the app. | g: f | pl: die Lokalzeitungen
+      der Artikel | article | n | Hast du den Artikel über das neue Schwimmbad gelesen? | Have you read the article about the new swimming pool? | g: m | pl: die Artikel
+      berichten | to report | v | Alle Sender haben über das Lama berichtet. | All the channels reported on the llama. | c: über etwas berichten | n: Noun: der Bericht.
+      veröffentlichen | to publish | v | Die Polizei hat ein Video veröffentlicht. | The police published a video. | n: Inseparable: hat veröffentlicht.
+      die Quelle | source | n | Ich prüfe immer, aus welcher Quelle eine Nachricht kommt. | I always check which source a piece of news comes from. | g: f | pl: die Quellen
+      die Sendung | programme; broadcast | n | Meine Lieblingssendung läuft jeden Sonntag. | My favourite programme is on every Sunday. | g: f | pl: die Sendungen
+      abonnieren | to subscribe to | v | Ich habe einen Nachrichten-Podcast abonniert. | I've subscribed to a news podcast. | n: -ieren verb: hat abonniert. Noun: das Abo.
+      die Falschmeldung | false report; fake news | n | Im Internet gibt es viele Falschmeldungen. | There are lots of false reports on the internet. | g: f | pl: die Falschmeldungen
+      ausbrechen | to escape; to break out | v | Ein Lama war aus dem Streichelzoo ausgebrochen. | A llama had escaped from the petting zoo. | n: Separable, irregular, with sein: brach … aus, ist ausgebrochen.
+      stimmen | to be true; to be right | v | Stimmt die Geschichte überhaupt? | Is the story even true? | c: Das stimmt!; Stimmt das?
+    grammar:
+      title: "Plusquamperfekt: what had happened before"
+      body: |
+        The **Plusquamperfekt** describes something that happened **before** another event in the past. It is formed like the Perfekt, but with the Präteritum of the helping verb: **hatte** or **war** + **participle** at the end.
+
+        Verbs that take *sein* in the Perfekt (movement, change: *fahren, kommen, ausbrechen, passieren*) take **war**; all others take **hatte**: *Das Lama **war** ausgebrochen. Die Bäckerin **hatte** ihren Laden geöffnet.*
+
+        Typical signal words are *schon* (already), *gerade* (just), *vorher* (before) and *noch nie*. In everyday conversation people often use the Perfekt when the order is clear, but in stories and reports the Plusquamperfekt makes the sequence of events precise.
+      table: |
+        Perfekt (past) | Plusquamperfekt (earlier past) | Meaning
+        Ich habe die Nachricht gelesen. | Ich hatte die Nachricht gelesen. | I had read the message.
+        Sie hat den Laden geöffnet. | Sie hatte den Laden geöffnet. | She had opened the shop.
+        Das Lama ist ausgebrochen. | Das Lama war ausgebrochen. | The llama had escaped.
+        Wir sind früh aufgestanden. | Wir waren früh aufgestanden. | We had got up early.
+      examples: |
+        Ein Lama war in der Nacht aus dem Streichelzoo ausgebrochen. | A llama had escaped from the petting zoo in the night. | sein-verb: war ausgebrochen
+        Ich hatte schon beim Frühstück eine Push-Nachricht bekommen. | I had already got a push notification at breakfast. | hatte + bekommen
+        Als die Sendung kam, hatte die Polizei das Tier schon gefunden. | When the programme was on, the police had already found the animal. | first found, then the programme
+        Ich hatte so etwas noch nie gesehen. | I had never seen anything like it. | noch nie + Plusquamperfekt
+      tip: Draw a time line — the event furthest in the past gets the Plusquamperfekt, the later one the Präteritum or Perfekt.
+    dialogue:
+      title: Das Lama in der Fußgängerzone
+      setting: Monday morning in the office kitchen of a company in Erfurt. Nadia has heard an unusual local news story; her colleague Piotr knows nothing yet.
+      speakers: N=Nadia/f; P=Piotr/m
+      lines: |
+        N: Hast du das von dem Lama gehört? Das ist heute überall in den Nachrichten. | Have you heard about the llama? It's all over the news today.
+        P: Nein, ich habe heute noch keine Nachrichten gelesen. Was ist denn passiert? | No, I haven't read any news yet today. So what happened?
+        N: Ein Lama war in der Nacht aus dem Streichelzoo am Stadtrand ausgebrochen. | A llama had escaped from the petting zoo on the edge of town during the night.
+        P: Ausgebrochen? Und wie hat man das gemerkt? | Escaped? And how did anyone notice?
+        N: Eine Bäckerin hatte gerade ihren Laden geöffnet, da stand das Lama vor der Tür. | A baker had just opened her shop, and there was the llama in front of the door.
+        P: Das gibt's doch nicht! Woher weißt du das alles? | No way! How do you know all that?
+        N: Ich hatte schon beim Frühstück eine Push-Nachricht von der Lokalzeitung bekommen. | I'd already got a push notification from the local paper at breakfast.
+        P: Ich lese Nachrichten meistens abends. Morgens höre ich nur kurz Radio im Auto. | I usually read the news in the evening. In the morning I just listen to the radio in the car for a bit.
+        N: Im Radio kam es auch. Da hatte die Polizei das Tier aber schon gefunden. | It was on the radio too. But by then the police had already found the animal.
+        P: Und stimmt die Geschichte überhaupt? Im Internet steht ja viel Unsinn. | And is the story even true? There's a lot of nonsense on the internet.
+        N: Ja, die Polizei hat sogar ein Video veröffentlicht. Das Lama heißt übrigens Gustav. | Yes, the police even published a video. By the way, the llama's called Gustav.
+        P: Gustav! Dann schaue ich mir das Video gleich in der Mittagspause an. | Gustav! Then I'll watch the video right away in my lunch break.
+    pronunciation:
+      title: "The vocalic r: war, aber, Nachrichten"
+      body: |
+        After a long vowel at the end of a syllable, and in the ending **-er**, the German r is not rolled or rubbed — it turns into a soft vowel [ɐ], a little like the *u* in English *but*: *war* [vaːɐ̯], *aber* [ˈaːbɐ], *der Laden*.
+
+        Before a vowel the r is consonantal, made at the back of the throat: *Radio, berichten, Nachrichten* [ˈnaːxrɪçtn̩]. Practise the contrast: *war – waren, Bäcker – Bäckerin*.
+      items: |
+        war
+        aber
+        die Nachrichten
+        ausgebrochen
+        Ich hatte es schon gehört.
+        Das gibt's doch nicht!
+    culture:
+      title: The Tagesschau at eight
+      body: |
+        For millions of people in Germany, the evening news means the *Tagesschau*, broadcast by the public channel ARD at 8 p.m. since 1952 — many families still plan dinner around it. Public broadcasting (ARD, ZDF, Deutschlandfunk and regional stations) is financed by the *Rundfunkbeitrag*, a fee paid per household.
+
+        Regional and local newspapers are also important: they report on everything from council decisions to new cycle paths — and, sometimes, escaped animals. Today many people read them in an app and listen to news podcasts on the way to work.
+    mistakes: |
+      Als ich ankam, der Film hatte schon angefangen. => Als ich ankam, hatte der Film schon angefangen. | When a subordinate clause comes first, the main clause starts with the verb: verb – comma – verb.
+      Der Zug hatte schon abgefahren. => Der Zug war schon abgefahren. | Verbs that take sein in the Perfekt (abfahren, ankommen, ausbrechen) take war in the Plusquamperfekt.
+      Ich habe die Nachricht schon gelesen gehabt. => Ich hatte die Nachricht schon gelesen. | The standard Plusquamperfekt is hatte/war + participle; the "double Perfekt" with gehabt is not standard German.
+    task:
+      title: Did you hear …?
+      mode: speaking
+      body: |
+        Retell a local or unusual news story you heard recently (or invent one). Say what happened, what had happened before, and how and when you heard about it — push notification, radio, a friend, a podcast. Then say where you usually get your news and why. Record yourself in Speaking practice.
+    exercises: |
+      fill: Als ich ins Büro kam, ___ meine Kollegin die Nachricht schon gelesen. || hatte || Lesen takes haben, so the Plusquamperfekt uses hatte. || @tags de.plusquamperfekt
+      fill: Das Lama ___ in der Nacht ausgebrochen. || war || Ausbrechen takes sein: war ausgebrochen. || @tags de.plusquamperfekt,de.perfekt-sein
+      fill: Als die Polizei kam, hatte die Bäckerin das Tier schon ___. (füttern) || gefüttert || Regular participle: ge-fütter-t. || @tags de.plusquamperfekt
+      mc: "Als wir zur Haltestelle kamen, ___ der Bus schon abgefahren." || hatte | *war | wird || Abfahren is a verb of movement and takes sein, so the Plusquamperfekt is war abgefahren. || @tags de.plusquamperfekt
+      rw: Put into the Plusquamperfekt :: Ich habe die Schlagzeile gelesen. || Ich hatte die Schlagzeile gelesen. || Habe → hatte; the participle stays at the end. || @tags de.plusquamperfekt
+      rw: Put into the Plusquamperfekt :: Sie ist früh aufgestanden. || Sie war früh aufgestanden. || Ist → war; aufstehen takes sein. || @tags de.plusquamperfekt,de.perfekt-sein
+      mc: What is a "Falschmeldung"? || *A news report that isn't true | A wrong phone number | A spelling mistake in an article || Falsch (false) + die Meldung (report). || @skill vocabulary @tags de.vocabulary
+      tf: Piotr had already read about the llama that morning. || false || "Ich habe heute noch keine Nachrichten gelesen." || @ctx dialogue
+      short: How did Nadia first hear about the llama? || kw: push/nachricht/notification/lokalzeitung/app/handy/phone || She got a push notification from the local paper at breakfast. || @ctx dialogue
+      listen: @dialogue || What had happened by the time the story was on the radio? || The llama had gone back to the zoo on its own. | *The police had already found the animal. | The baker had closed her shop. || "Da hatte die Polizei das Tier aber schon gefunden."
+      listen: Als ich gestern um acht die Nachrichten einschalten wollte, war die Sendung schon vorbei. Ich hatte die Uhrzeit verwechselt. || Why did the speaker miss the news? || The TV was broken. | *He had mixed up the time. | He had fallen asleep. || "Ich hatte die Uhrzeit verwechselt." || @tags de.listening,de.plusquamperfekt
+      tr: When I arrived, the film had already started. || Als ich ankam, hatte der Film schon angefangen. | Als ich angekommen bin, hatte der Film schon angefangen. | Als ich ankam, hatte der Film schon begonnen. | Als ich ankam, hatte der Film bereits angefangen. || The film started first: Plusquamperfekt. After the als-clause the main clause starts with the verb hatte. || @tags de.plusquamperfekt,de.subordinate-clauses
+      dict: Ich hatte die Nachricht schon beim Frühstück gelesen.
+      ask: Where and when do you usually follow the news? Give two sources and say why you use them. || kw: lese/höre/schaue/sehe/abonniert & nachrichten/zeitung/radio/app/podcast/internet/fernsehen/tagesschau || Morgens höre ich einen Nachrichten-Podcast, weil ich dabei Kaffee kochen kann. Abends lese ich die Lokalzeitung in der App.
+
+  - title: Digital life
+    summary: Read a blog post about a week without a smartphone and put past events in order with nachdem, bevor and als.
+    minutes: 40
+    skills: [reading, grammar, writing]
+    tags: [de.plusquamperfekt, de.subordinate-clauses]
+    objectives:
+      - Use nachdem with the Plusquamperfekt
+      - Order events with bevor and als
+      - Talk about screen time and digital habits
+    intro: |
+      How many hours a day do you spend on your phone? Malte from Kassel was shocked by his answer — and locked his smartphone in a drawer for a week. In this lesson you will read about his experiment and learn to tell a sequence of events with **nachdem** (after), **bevor** (before) and **als** (when).
+    vocab: |
+      die Bildschirmzeit | screen time | n | Meine Bildschirmzeit liegt bei vier Stunden pro Tag. | My screen time is about four hours a day. | g: f | pl: (no plural)
+      offline | offline | adj | Ich bin heute Abend offline – ruf mich lieber an. | I'm offline this evening – call me instead. | n: Opposite: online. Both are pronounced as in English.
+      erreichen | to reach; to contact | v | Wie kann ich dich am besten erreichen? | What's the best way to contact you? | n: Inseparable: hat erreicht.
+      verpassen | to miss | v | Ich habe nichts Wichtiges verpasst. | I didn't miss anything important. | c: den Bus verpassen; eine Nachricht verpassen
+      entdecken | to discover | v | Ich entdeckte ein kleines Café, das ich nie bemerkt hatte. | I discovered a little café that I had never noticed. | n: Inseparable: hat entdeckt.
+      bemerken | to notice | v | Hast du bemerkt, dass hier ein neues Kino ist? | Have you noticed there's a new cinema here? | n: Slightly more formal than merken.
+      die Benachrichtigung | notification | n | Ich habe alle Benachrichtigungen ausgeschaltet. | I've turned off all notifications. | g: f | pl: die Benachrichtigungen
+      süchtig | addicted | adj | Bin ich schon handysüchtig? | Am I addicted to my phone already? | c: handysüchtig; nach etwas süchtig sein | n: Noun: die Sucht.
+      ausschalten | to switch off | v | Vor dem Schlafen schalte ich das Handy aus. | Before going to sleep I switch off my phone. | n: Separable: schaltete … aus, hat ausgeschaltet. Opposite: einschalten.
+      das Festnetz | landline | n | Wir haben noch ein Telefon im Festnetz. | We still have a landline phone. | g: n | pl: die Festnetze | c: auf dem Festnetz anrufen
+      die Schublade | drawer | n | Das Handy lag eine Woche in der Schublade. | The phone lay in the drawer for a week. | g: f | pl: die Schubladen
+      nachdem | after (conjunction) | conj | Nachdem ich gegessen hatte, las ich ein Buch. | After I had eaten, I read a book. | n: Sends the verb to the end; usually with the Plusquamperfekt.
+    grammar:
+      title: "nachdem, bevor and als: the order of events"
+      body: |
+        **nachdem** (after), **bevor** (before) and **als** (when) start subordinate clauses, so the conjugated verb goes to the **end**. If the subordinate clause comes first, the main clause starts with its verb: *Nachdem ich aufgewacht **war**, **griff** ich nach dem Handy.*
+
+        - **nachdem**: the action in the nachdem-clause happens first, so it is one step further back in time. Main clause in the Präteritum or Perfekt → nachdem-clause in the **Plusquamperfekt**: *Nachdem er mir den Weg erklärt **hatte**, unterhielten wir uns.* (Main clause in the present → nachdem-clause in the Perfekt.)
+        - **bevor**: the action in the bevor-clause happens later. Both clauses usually have the **same tense**: *Bevor ich das Handy weglegte, schrieb ich allen eine Nachricht.*
+        - **als**: one single event or period in the past: *Als ich das Handy wieder einschaltete, hatte ich 214 Nachrichten.* For repeated events or the present, use **wenn**.
+      table: |
+        Conjunction | Meaning | Tense | Example
+        nachdem | after | Plusquamperfekt + Präteritum | Nachdem ich gegessen hatte, las ich.
+        bevor | before | same tense in both | Bevor ich schlief, las ich.
+        als | when (once, in the past) | Präteritum | Als ich aufwachte, war es still.
+        wenn | when(ever) | present or repeated | Wenn ich aufwache, lese ich die Nachrichten.
+      examples: |
+        Nachdem ich aufgewacht war, griff ich sofort neben das Bett. | After I had woken up, I immediately reached beside the bed. | nachdem + war aufgewacht
+        Bevor ich das Handy in die Schublade legte, schrieb ich allen Freunden. | Before I put the phone in the drawer, I wrote to all my friends. | bevor: same tense
+        Als ich das Handy wieder einschaltete, hatte ich 214 Nachrichten. | When I switched the phone on again, I had 214 messages. | als: one event in the past
+        Nachdem er mir den Weg erklärt hatte, unterhielten wir uns noch lange. | After he had explained the way to me, we chatted for a long time. | hatte erklärt → unterhielten
+      tip: Verb – comma – verb. When a nachdem-, bevor- or als-clause starts the sentence, two verbs meet at the comma.
+    reading:
+      title: Sieben Tage offline – mein Experiment
+      text: |
+        Letzten Monat zeigte mir eine App meine Bildschirmzeit: fast fünf Stunden pro Tag! Ich erschrak. Deshalb beschloss ich, eine Woche lang ohne Smartphone zu leben.
+
+        Bevor ich das Handy in eine Schublade legte, schrieb ich allen Freunden eine Nachricht: „Ich bin sieben Tage offline. Wenn ihr mich erreichen wollt, ruft mich auf dem Festnetz an.“
+
+        Der erste Tag war schwer. Nachdem ich aufgewacht war, griff ich sofort neben das Bett – aber da war kein Handy. Im Bus hatte ich plötzlich nichts in der Hand und fühlte mich komisch. Also sah ich aus dem Fenster und entdeckte Dinge, die ich vorher nie bemerkt hatte: ein kleines Café, einen schönen Park, ein altes Kino.
+
+        Am dritten Tag verlief ich mich in der Altstadt, weil ich keine Karten-App hatte. Ich musste einen älteren Herrn nach dem Weg fragen. Nachdem er mir den Weg erklärt hatte, unterhielten wir uns noch zehn Minuten über Kassel. Das war der schönste Moment der Woche.
+
+        Nach sieben Tagen holte ich das Handy wieder aus der Schublade. Als ich es einschaltete, hatte ich 214 Nachrichten – aber ich hatte nichts Wichtiges verpasst.
+
+        Seitdem lasse ich das Handy abends im Flur und lese vor dem Schlafen ein Buch. Ganz ohne Smartphone möchte ich nicht leben. Aber ich habe gelernt: Ich brauche es viel weniger, als ich dachte.
+
+        Malte, Kassel
+      translation: |
+        Last month an app showed me my screen time: almost five hours a day! I got a shock. So I decided to live without a smartphone for a week.
+
+        Before I put my phone in a drawer, I sent all my friends a message: "I'm offline for seven days. If you want to reach me, call me on the landline."
+
+        The first day was hard. After I had woken up, I immediately reached beside the bed – but there was no phone. On the bus I suddenly had nothing in my hand and felt strange. So I looked out of the window and discovered things I had never noticed before: a little café, a beautiful park, an old cinema.
+
+        On the third day I got lost in the old town because I didn't have a map app. I had to ask an elderly gentleman the way. After he had explained the way to me, we chatted for another ten minutes about Kassel. That was the best moment of the week.
+
+        After seven days I took the phone out of the drawer again. When I switched it on, I had 214 messages – but I hadn't missed anything important.
+
+        Since then I leave my phone in the hall in the evening and read a book before going to sleep. I wouldn't like to live completely without a smartphone. But I've learned that I need it much less than I thought.
+
+        Malte, Kassel
+    pronunciation:
+      title: "English words in German"
+      body: |
+        German uses many English words for digital life: *online, offline, die App, das Smartphone, das Update*. They are usually pronounced roughly as in English, but with German sounds: the *r* in *Smartphone* is softer, and *das Handy* is pronounced [ˈhɛndi].
+
+        Careful: *das Handy* is a German invention — English speakers say "mobile" or "cell phone". German compounds keep the stress on the first part even when one part is English: ***BILD**-schirmzeit, **KAR**-ten-App*.
+      items: |
+        offline
+        das Smartphone
+        die Bildschirmzeit
+        die Benachrichtigung
+        das Festnetz
+        Nachdem ich aufgewacht war, …
+    culture:
+      title: Digital, but careful
+      body: |
+        Almost everyone in Germany has a smartphone, yet many people are cautious about digital life. *Datenschutz* (data protection) is taken seriously, cash is still used more than in many other countries, and some people deliberately keep a landline. Digital-detox ideas — phone-free evenings, offline weekends or *handyfreie* zones in schools — are a popular topic in magazines and families.
+    mistakes: |
+      Nachdem ich frühstückte, ging ich los. => Nachdem ich gefrühstückt hatte, ging ich los. | When the main clause is in the past, the nachdem-clause needs the Plusquamperfekt.
+      Nachdem ich gegessen hatte, ich las ein Buch. => Nachdem ich gegessen hatte, las ich ein Buch. | After a subordinate clause, the main clause starts with its verb.
+      Wenn ich gestern nach Hause kam, war niemand da. => Als ich gestern nach Hause kam, war niemand da. | For one single event in the past, use als, not wenn.
+    task:
+      title: My digital day
+      mode: writing
+      body: |
+        Write a comment (70–90 words) under Malte's blog post. Describe a day in your digital life last week, or a day when you were offline. Use nachdem, bevor and als at least once each, and say whether you would like to change your habits.
+    exercises: |
+      fill: Nachdem ich aufgewacht ___, griff ich sofort nach dem Handy. || war || Aufwachen takes sein: nachdem ich aufgewacht war. || @tags de.plusquamperfekt,de.subordinate-clauses
+      fill: Nachdem er die E-Mail geschrieben ___, schaltete er den Computer aus. || hatte || Schreiben takes haben: nachdem er … geschrieben hatte. || @tags de.plusquamperfekt,de.subordinate-clauses
+      fill: ___ ich ins Bett gehe, lege ich das Handy in den Flur. (before) || Bevor || Bevor = before; the verb gehe goes to the end. || @tags de.subordinate-clauses
+      fill: ___ ich gestern nach Hause kam, war niemand da. (when) || Als || One event in the past: als. || @tags de.subordinate-clauses
+      mc: Choose the correct sentence. || Nachdem wir gegessen hatten, wir sahen fern. | *Nachdem wir gegessen hatten, sahen wir fern. | Nachdem wir hatten gegessen, sahen wir fern. || In the nachdem-clause hatten goes to the end; then the main clause starts with its verb: sahen wir. || @tags de.plusquamperfekt,de.word-order
+      rw: Join the sentences with nachdem :: Ich habe die Nachrichten gelesen. Dann bin ich zur Arbeit gefahren. || Nachdem ich die Nachrichten gelesen hatte, fuhr ich zur Arbeit. | Nachdem ich die Nachrichten gelesen hatte, bin ich zur Arbeit gefahren. | Ich fuhr zur Arbeit, nachdem ich die Nachrichten gelesen hatte. || The earlier action goes into the nachdem-clause in the Plusquamperfekt. || @tags de.plusquamperfekt,de.subordinate-clauses
+      tf: Malte started his experiment after an app showed him his screen time. || true || "Letzten Monat zeigte mir eine App meine Bildschirmzeit … Deshalb beschloss ich, …" || @ctx reading
+      mc: What happened on the third day? || Malte lost his landline phone. | *He got lost and had to ask someone the way. | His friends visited him at home. || "Am dritten Tag verlief ich mich in der Altstadt … Ich musste einen älteren Herrn nach dem Weg fragen." || @ctx reading @skill reading
+      short: Where does Malte leave his phone in the evening now? || kw: flur/hall/hallway/corridor || "Seitdem lasse ich das Handy abends im Flur." || @ctx reading
+      listen: Seit ich die Benachrichtigungen ausgeschaltet habe, schaue ich viel seltener aufs Handy. Vorher hatte ich jeden Tag über hundert Nachrichten bekommen. || What has changed for the speaker? || *She looks at her phone much less often. | She gets more messages than before. | She has bought a new phone. || "Ich schaue viel seltener aufs Handy." || @tags de.listening,de.plusquamperfekt
+      tr: Before I go to sleep, I read a book. || Bevor ich schlafen gehe, lese ich ein Buch. | Bevor ich einschlafe, lese ich ein Buch. | Bevor ich ins Bett gehe, lese ich ein Buch. || Bevor sends gehe to the end; the main clause starts with lese. || @tags de.subordinate-clauses
+      dict: Nachdem er mir den Weg erklärt hatte, redeten wir noch lange.
+      say: Ich brauche mein Handy viel weniger, als ich dachte. || I need my phone much less than I thought.
+      write: Write a comment (70–90 words) about a day in your digital life or a day offline. Use nachdem, bevor and als. || min=55 || req: nachdem | bevor | als || Letzten Sonntag habe ich einen Tag ohne Handy ausprobiert. Bevor ich frühstückte, schaltete ich es aus. Nachdem ich gefrühstückt hatte, ging ich mit meiner Schwester am Fluss spazieren. Wir machten keine Fotos und redeten viel mehr als sonst. Als ich abends das Handy wieder einschaltete, hatte ich nur drei Nachrichten. Ich möchte das jetzt jeden Sonntag machen!
+
+  - title: Solving a tech problem
+    summary: Explain a problem with your internet, phone or computer and ask for help politely with indirect questions.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.questions, de.subordinate-clauses]
+    objectives:
+      - Form indirect questions with question words and with ob
+      - Ask polite questions with Können Sie mir sagen …? and Wissen Sie …?
+      - Describe a technical problem and follow instructions
+    intro: |
+      The internet is down, the laptop has crashed, the new phone won't connect — and you have to call a hotline in German. Direct questions like *Wo ist das Problem?* can sound abrupt; indirect questions sound much more polite: *Können Sie mir sagen, **wo** das Problem **ist**?* In this lesson you will follow a call to customer service and learn how to build them.
+    vocab: |
+      der Kundenservice | customer service | n | Ich habe eine halbe Stunde beim Kundenservice gewartet. | I waited half an hour for customer service. | g: m | pl: (rarely used) | n: Also: der Kundendienst, die Hotline.
+      die Verbindung | connection | n | Der Router hat keine Verbindung zum Internet. | The router has no connection to the internet. | g: f | pl: die Verbindungen
+      die Störung | fault; disruption | n | Gibt es in meiner Straße eine Störung? | Is there a fault in my street? | g: f | pl: die Störungen | c: eine Störung melden
+      neu starten | to restart | expr | Haben Sie den Router schon neu gestartet? | Have you already restarted the router? | n: Also: neu booten (informal).
+      abstürzen | to crash | v | Mein Laptop ist schon wieder abgestürzt. | My laptop has crashed again. | n: Separable, with sein: ist abgestürzt. Also used for planes.
+      das Kabel | cable | n | Das graue Kabel war nur halb in der Buchse. | The grey cable was only halfway in the socket. | g: n | pl: die Kabel
+      stecken | to be (stuck) in; to put in | v | Steckt das Kabel fest in der Buchse? | Is the cable firmly in the socket? | n: Without an object = to be in something; with an object = to put something in.
+      leuchten | to shine; to light up | v | Jetzt leuchtet die Lampe grün. | Now the light is green. | n: Regular: hat geleuchtet.
+      blinken | to flash; to blink | v | Die Internet-Lampe blinkt rot. | The internet light is flashing red.
+      prüfen | to check | v | Prüfen Sie bitte, ob das Kabel richtig steckt. | Please check whether the cable is plugged in properly. | n: Also: überprüfen, checken (informal).
+      das Passwort | password | n | Ich habe mein Passwort vergessen. | I've forgotten my password. | g: n | pl: die Passwörter | c: das Passwort ändern
+      die Einstellungen | settings | n | Das finden Sie in den Einstellungen unter „WLAN“. | You'll find that in the settings under "Wi-Fi". | pl: die Einstellungen | n: Singular die Einstellung also means attitude.
+    grammar:
+      title: "Indirect questions: Können Sie mir sagen, ob …?"
+      body: |
+        An **indirect question** is a question inside another sentence. It is a subordinate clause, so the **conjugated verb goes to the end**.
+
+        - **W-questions** keep their question word: *Wo ist der Router?* → *Können Sie mir sagen, **wo** der Router **ist**?*
+        - **Yes/no questions** use **ob** (whether/if): *Gibt es eine Störung?* → *Ich möchte wissen, **ob** es eine Störung **gibt**.*
+
+        Typical openings: **Können Sie mir sagen, …?**, **Wissen Sie, …?**, **Ich möchte wissen, …**, **Ich weiß nicht, …**, **Ich frage mich, …**. Put a question mark only if the whole sentence is a question.
+
+        Don't use *wenn* for "if/whether" here — *wenn* is for conditions and time. Indirect questions are a key tool for polite requests in shops, offices and on the phone.
+      table: |
+        Direct question | Indirect question
+        Wann kommt der Techniker? | Können Sie mir sagen, wann der Techniker kommt?
+        Was bedeutet das rote Licht? | Ich weiß nicht, was das rote Licht bedeutet.
+        Wie ändere ich mein Passwort? | Wissen Sie, wie ich mein Passwort ändere?
+        Gibt es eine Störung? | Ich möchte wissen, ob es eine Störung gibt.
+        Ist das Kabel kaputt? | Wissen Sie, ob das Kabel kaputt ist?
+      examples: |
+        Können Sie mir sagen, welche Lampen am Router leuchten? | Can you tell me which lights on the router are on? | W-word + verb at the end
+        Ich weiß nicht, was das bedeutet. | I don't know what that means. | statement: no question mark
+        Ich wollte wissen, ob es in meiner Straße eine Störung gibt. | I wanted to know whether there's a fault in my street. | yes/no → ob
+        Prüfen Sie bitte, ob das Kabel fest in der Buchse steckt. | Please check whether the cable is firmly in the socket. | ob after prüfen
+      tip: If you can answer the question with ja or nein, the indirect version needs ob.
+    dialogue:
+      title: Kein Internet im Homeoffice
+      setting: A Tuesday morning. Jelena Petrović works from home in Mainz, but her internet has stopped working. She calls her provider's customer service.
+      speakers: H=Herr Hoffmann/m; P=Frau Petrović/f
+      lines: |
+        H: Guten Tag, Sie sprechen mit Max Hoffmann vom Kundenservice. Was kann ich für Sie tun? | Good morning, you're speaking to Max Hoffmann from customer service. What can I do for you?
+        P: Guten Tag. Mein Internet funktioniert seit heute Morgen nicht, und ich arbeite im Homeoffice. | Good morning. My internet hasn't been working since this morning, and I'm working from home.
+        H: Das tut mir leid. Können Sie mir sagen, welche Lampen am Router leuchten? | I'm sorry to hear that. Can you tell me which lights on the router are on?
+        P: Die Power-Lampe ist grün, aber die Internet-Lampe blinkt rot. Ich weiß nicht, was das bedeutet. | The power light is green, but the internet light is flashing red. I don't know what that means.
+        H: Das heißt, der Router hat keine Verbindung. Haben Sie ihn schon neu gestartet? | That means the router has no connection. Have you already restarted it?
+        P: Ja, sogar zweimal. Ich wollte auch wissen, ob es in meiner Straße eine Störung gibt. | Yes, twice in fact. I also wanted to know whether there's a fault in my street.
+        H: Einen Moment, ich schaue nach … Nein, im Moment ist keine Störung gemeldet. | One moment, I'll check … No, there's no fault reported at the moment.
+        P: Hm. Wissen Sie, ob vielleicht ein Kabel kaputt ist? Meine Katze spielt manchmal mit den Kabeln. | Hmm. Do you know if a cable might be broken? My cat sometimes plays with the cables.
+        H: Das könnte sein. Prüfen Sie bitte, ob das graue Kabel fest in der Buchse steckt. | That could be it. Please check whether the grey cable is firmly in the socket.
+        P: Oh … es war nur halb drin. Jetzt leuchtet die Lampe grün! | Oh … it was only halfway in. Now the light is green!
+        H: Wunderbar. Können Sie mir noch sagen, ob Sie jetzt Webseiten öffnen können? | Wonderful. Can you also tell me whether you can open websites now?
+        P: Ja, alles funktioniert wieder. Vielen Dank für Ihre Geduld! | Yes, everything's working again. Thank you very much for your patience!
+    pronunciation:
+      title: "st and sp at the start: Störung, stecken, Einstellungen"
+      body: |
+        At the beginning of a word or word part, **st** and **sp** are pronounced [ʃt] and [ʃp]: *Störung* [ˈʃtøːrʊŋ], *stecken, starten, Ein-**st**ellungen, Sprechstunde*.
+
+        Inside or at the end of a word part they keep the plain [s]: *ist, fest, das Passwort, die Kiste*. Compare: *Ein-stellung* [ʃt] but *fest* [st].
+      items: |
+        die Störung
+        neu starten
+        die Einstellungen
+        Es steckt fest.
+        Ich weiß nicht, was das bedeutet.
+        Können Sie mir sagen, ob es eine Störung gibt?
+    culture:
+      title: "Haben Sie es schon neu gestartet?"
+      body: |
+        Calling a German hotline often starts with a recorded menu and some time in the *Warteschleife* (waiting loop). Have your customer number (*Kundennummer*) ready — you will almost always be asked for it. Internet and mobile contracts often run for 24 months, so people read the small print before signing. And yes, the first question is usually the same as everywhere: *Haben Sie das Gerät schon neu gestartet?*
+    mistakes: |
+      Können Sie mir sagen, wo ist der Router? => Können Sie mir sagen, wo der Router ist? | An indirect question is a subordinate clause: the verb goes to the end.
+      Ich weiß nicht, wenn das Kabel kaputt ist. => Ich weiß nicht, ob das Kabel kaputt ist. | English "if" in the sense of "whether" is ob, not wenn.
+      Wissen Sie, ob funktioniert das Update? => Wissen Sie, ob das Update funktioniert? | After ob the subject comes first and the verb goes to the end.
+    task:
+      title: Calling the hotline
+      mode: interaction
+      body: |
+        Your new phone won't charge, or your laptop keeps crashing. Call customer service: describe the problem, say what you have already tried, and ask at least three indirect questions (Können Sie mir sagen, …? Wissen Sie, ob …? Ich möchte wissen, …). If you bought the device recently, continue with the "Returning an item in a shop" scenario with the AI coach.
+    exercises: |
+      fill: Können Sie mir sagen, wann der Techniker ___? (kommen) || kommt || In an indirect question the verb goes to the end: wann der Techniker kommt. || @tags de.questions,de.subordinate-clauses
+      fill: Ich weiß nicht, ___ das Kabel kaputt ist. || ob || A yes/no question (Ist das Kabel kaputt?) becomes an indirect question with ob. || @tags de.questions,de.subordinate-clauses
+      fill: Wissen Sie, wie man das Passwort ___? (ändern) || ändert || Verb at the end: wie man das Passwort ändert. || @tags de.questions,de.subordinate-clauses
+      mc: Choose the correct sentence. || Können Sie mir sagen, wo ist das Passwort? | *Können Sie mir sagen, wo das Passwort ist? | Können Sie mir sagen, ob wo das Passwort ist? || The question word wo starts the clause and the verb ist goes to the end; ob is only for yes/no questions. || @tags de.questions,de.subordinate-clauses
+      rw: Make it an indirect question, starting with "Können Sie mir sagen, …" :: Wie lange dauert die Reparatur? || Können Sie mir sagen, wie lange die Reparatur dauert? || Keep wie lange, put dauert at the end. || @tags de.questions,de.subordinate-clauses
+      rw: Start with "Ich möchte wissen, …" :: Gibt es eine Störung? || Ich möchte wissen, ob es eine Störung gibt. || Yes/no question → ob; gibt goes to the end. || @tags de.questions,de.subordinate-clauses
+      mc: "Mein Laptop ist abgestürzt." What happened? || *The laptop crashed and stopped working. | The laptop is charging. | The laptop has been stolen. || Abstürzen = to crash (computers, programs, also planes). || @skill vocabulary @tags de.vocabulary
+      tf: There was a reported fault in Frau Petrović's street. || false || "Nein, im Moment ist keine Störung gemeldet." || @ctx dialogue
+      short: What was the real cause of the problem? || kw: kabel/cable || The grey cable was only halfway in the socket — probably because of the cat. || @ctx dialogue
+      listen: @dialogue || What does Herr Hoffmann ask at the end? || Whether the cat is all right | *Whether she can open websites now | Whether she would like a new router || "Können Sie mir noch sagen, ob Sie jetzt Webseiten öffnen können?"
+      listen: Hallo, ich habe gestern ein neues Handy gekauft, aber ich weiß nicht, wie ich meine Fotos vom alten Handy übertragen kann. Können Sie mir helfen? || What does the customer want to know? || How to return the new phone | *How to transfer photos from the old phone | Whether the phone has a guarantee || "Ich weiß nicht, wie ich meine Fotos vom alten Handy übertragen kann." || @tags de.listening,de.questions
+      tr: Do you know whether the shop is open on Saturday? (formal) || Wissen Sie, ob der Laden am Samstag geöffnet ist? | Wissen Sie, ob das Geschäft am Samstag geöffnet ist? | Wissen Sie, ob der Laden am Samstag offen ist? | Wissen Sie, ob das Geschäft am Samstag offen ist? | Wissen Sie, ob der Laden am Samstag aufhat? || Whether = ob; the verb goes to the end. || @tags de.questions,de.subordinate-clauses
+      dict: Können Sie mir sagen, ob es eine Störung gibt?
+      ask: You call a hotline because your phone won't charge. Describe the problem and ask two indirect questions. || kw: können sie mir sagen/wissen sie/ich möchte wissen/ich weiß nicht/könnten sie mir sagen & ob/wie/wann/was/warum/wo || Mein Handy lädt seit gestern nicht mehr. Können Sie mir sagen, ob das Kabel kaputt sein kann? Und ich möchte wissen, wie lange eine Reparatur dauert.

@@ -1,0 +1,357 @@
+unit: 3
+title: Ciencia y tecnología
+theme: Science and technology
+description: Discuss scientific innovation and its ethical limits, the uses and risks of artificial intelligence, and health news — using the passive with ser, the pasiva refleja and the typical structures of news reports.
+objectives:
+  - Describe discoveries and decisions with the passive (ser + participle) and results with estar + participle
+  - Talk about processes and technology with the pasiva refleja (se usan, se han desarrollado)
+  - Understand and summarise science and health news, including the conditional for unconfirmed information
+canDo:
+  - I can explain who discovered or developed something and when, using the passive.
+  - I can discuss the ethical questions raised by new technologies.
+  - I can describe how artificial intelligence is used and what its limits are.
+  - I can understand a health news article and tell confirmed facts from unconfirmed ones.
+review: |
+  fill: La estructura del ADN ___ (describir — passive with ser, indefinido) en 1953. || fue descrita || Passive with ser: fue + participle. Describir has an irregular participle (descrito), which agrees with la estructura: descrita. || @tags es.passive
+  mc: Choose the correct sentence. || Las nuevas normas fueron aprobado ayer. | *Las nuevas normas fueron aprobadas ayer. | Las nuevas normas fue aprobadas ayer. || Both ser and the participle agree with the subject: las normas fueron aprobadas. || @tags es.passive
+  mc: «La tienda está cerrada» describes… || *a state: it is closed now | an action: someone closed it at a specific moment | who closed it || Estar + participle describes a resulting state; ser + participle describes the action. || @tags es.passive,es.ser-estar
+  fill: En los últimos años ___ (desarrollar — pretérito perfecto) muchas aplicaciones de inteligencia artificial. || se han desarrollado || Pasiva refleja: se + verb agreeing with the plural noun aplicaciones. || @tags es.passive,es.present-perfect
+  mc: You want to say who wrote the report. Which sentence is correct? || El informe se escribió por una consultora. | *El informe fue escrito por una consultora. | El informe se fue escrito por una consultora. || The pasiva refleja doesn't take an agent with por; to name the agent, use ser + participle. || @tags es.passive
+  rw: Move the object to the start of the sentence :: Una investigadora de Sevilla descubrió el error. → El error… || El error lo descubrió una investigadora de Sevilla. || When the direct object comes first, it is repeated with a pronoun: el error lo descubrió… || @tags es.object-pronouns,es.passive
+  mc: In a news report, «Según fuentes del hospital, la operación duraría unas diez horas» means: || The operation definitely lasted ten hours. | *The information hasn't been officially confirmed. | The operation was cancelled. || Journalists use the conditional to report information they haven't confirmed. || @tags es.conditional,es.reading
+  tr: Many jobs will be transformed by artificial intelligence. || Muchos trabajos serán transformados por la inteligencia artificial. | Muchos puestos de trabajo serán transformados por la inteligencia artificial. | Muchos empleos serán transformados por la inteligencia artificial. | La inteligencia artificial transformará muchos trabajos. | La inteligencia artificial transformará muchos puestos de trabajo. || With an agent (por la IA), use ser + participle in the future: serán transformados. The active sentence is also natural. || @tags es.passive
+  listen: El nuevo hospital será inaugurado en marzo, aunque algunas consultas ya están abiertas desde la semana pasada. || What is already open? || The whole hospital | *Some consulting rooms | Nothing yet || «Algunas consultas ya están abiertas»; the official opening (será inaugurado) will be in March. || @tags es.listening,es.passive
+  listen: En esta fábrica ya no se usan hojas de papel: todo se controla desde una tableta y los errores se detectan al momento. || How are errors detected in the factory? || Workers check every product by hand. | *Immediately, with a digital system. | Once a week, on paper. || «Todo se controla desde una tableta y los errores se detectan al momento.» || @tags es.listening,es.passive
+  ask: A friend asks you about a scientific or technological advance that has changed your life. Explain who developed it or how it is used, and give one risk. || kw: fue/fueron/ha sido/se usa/se usan/se ha/se han & creo/me parece/el problema/el riesgo/sin embargo || El avance que más ha cambiado mi vida es el GPS. Fue desarrollado para usos militares, pero hoy se usa en todos los móviles. Gracias a él ya no me pierdo nunca, aunque el riesgo es que dependemos demasiado de la tecnología y ya no sabemos orientarnos solos.
+  write: Write a short news item (90–110 words) about an invented scientific discovery. Say what was discovered, by whom, what it could be used for, and what experts think. || min=80 || req: fue/fueron/ha sido/han sido | se/según | podría/podrían/sería/serían || Un equipo de la Universidad de Oviedo ha desarrollado un material capaz de absorber el ruido del tráfico. El material fue presentado ayer en un congreso internacional y ha sido probado durante dos años en una calle del centro de la ciudad. Según los investigadores, el ruido se redujo casi a la mitad. El nuevo material podría utilizarse en colegios, hospitales y viviendas, y su precio sería similar al de los aislantes actuales. Los expertos consultados piden prudencia: los resultados todavía tienen que ser confirmados por otros estudios.
+lessons:
+  - title: Innovation and ethics
+    summary: Discuss scientific breakthroughs and their ethical limits, using the passive with ser and the contrast with estar + participle.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.passive]
+    objectives:
+      - Talk about scientific advances, research and ethical dilemmas
+      - Form the passive with ser + participle in different tenses, with the agent introduced by por
+      - Distinguish an action (ser + participle) from a resulting state (estar + participle)
+    intro: |
+      Every great scientific advance raises new questions: who decides how far we can go? When we talk about discoveries, the result often matters more than who did it, and Spanish has two passives for that. In this lesson you will use the **passive with ser** — the formal one, typical of history, science and the news: *La penicilina fue descubierta por Alexander Fleming.*
+    vocab: |
+      la innovación | innovation | n | La innovación no siempre va acompañada de reflexión ética. | Innovation doesn't always come with ethical reflection. | g: f
+      el avance | advance; breakthrough | n | Es uno de los mayores avances médicos del siglo. | It's one of the greatest medical breakthroughs of the century. | g: m
+      el investigador | researcher | n | Una investigadora española fue premiada por su trabajo sobre bacterias. | A Spanish researcher was awarded a prize for her work on bacteria. | g: m | n: Feminine: la investigadora. La investigación = research.
+      el ensayo clínico | clinical trial | n | El ensayo clínico se hizo con dos mil pacientes. | The clinical trial was carried out with two thousand patients. | g: m
+      el comité de ética | ethics committee | n | El proyecto tiene que ser aprobado por el comité de ética. | The project has to be approved by the ethics committee. | g: m
+      la edición genética | gene editing | n | La edición genética podría curar algunas enfermedades hereditarias. | Gene editing could cure some hereditary diseases. | g: f
+      modificar | to modify; to alter | v | Los embriones habían sido modificados en un laboratorio. | The embryos had been modified in a laboratory.
+      el dilema | dilemma | n | Esta técnica plantea un dilema ético muy serio. | This technique raises a very serious ethical dilemma. | g: m | n: Masculine, although it ends in -a, like el problema and el sistema.
+      plantear | to raise (a question or problem) | v | El caso plantea muchas preguntas. | The case raises a lot of questions. | n: Plantearse = to consider: me planteo cambiar de trabajo.
+      poner límites | to set limits | expr | Alguien tiene que ponerle límites a la ciencia. | Someone has to set limits on science.
+      la comunidad científica | the scientific community | n | La comunidad científica condenó el experimento. | The scientific community condemned the experiment. | g: f
+      condenar | to condemn; to sentence | v | El investigador fue condenado a tres años de cárcel. | The researcher was sentenced to three years in prison.
+    grammar:
+      title: "The passive with ser: fue descubierta por…"
+      body: |
+        The passive with **ser** is formed with **ser** in any tense + **past participle**. The participle **agrees** with the subject in gender and number, and the agent (who did it) is introduced by **por**: *La técnica **fue desarrollada por** dos científicas.*
+
+        It appears mostly in **formal and written Spanish** — history, science, the news — when the action or its result matters more than who did it. It works in every tense: *es utilizado, fue aprobado, ha sido criticada, será revisado, había sido modificado.* In everyday speech Spanish prefers the active voice or the pasiva refleja, which you will study in the next lesson.
+
+        **Ser or estar + participle?** *Ser* describes the **action** at a particular moment; *estar* describes the **state** that results from it:
+
+        - *La ley **fue aprobada** en mayo.* (the action: it was passed in May)
+        - *La ley ya **está aprobada**.* (the result: it is already in force)
+
+        Don't confuse the participle in the passive, which agrees (*las muestras fueron analizad**as***), with the participle after *haber*, which never changes (*han analizad**o** las muestras*).
+      table: |
+        Tense | Passive with ser | Translation
+        Present | El método es utilizado en todo el mundo. | The method is used all over the world.
+        Indefinido | La vacuna fue desarrollada en un año. | The vaccine was developed in a year.
+        Perfecto | El tratamiento ha sido aprobado. | The treatment has been approved.
+        Pluperfect | Los embriones habían sido modificados. | The embryos had been modified.
+        Future | Los resultados serán publicados en junio. | The results will be published in June.
+      examples: |
+        La penicilina fue descubierta por Alexander Fleming en 1928. | Penicillin was discovered by Alexander Fleming in 1928. | indefinido + agent with por
+        El experimento fue condenado por toda la comunidad científica. | The experiment was condemned by the whole scientific community.
+        El nuevo tratamiento ha sido aprobado en varios países. | The new treatment has been approved in several countries. | pretérito perfecto
+        Este tipo de ensayo está prohibido en muchos países. | This type of trial is banned in many countries. | estar + participle: a state
+      tip: "In the passive, check two agreements: ser with the subject (fue / fueron) and the participle with the subject (-o, -a, -os, -as)."
+    dialogue:
+      title: Después de la conferencia
+      setting: The foyer of a lecture hall at the University of Salamanca. Nerea and Tomás, two biology PhD students, have just attended a talk on gene editing.
+      speakers: N=Nerea/f; T=Tomás/m
+      lines: |
+        N: ¿Qué te ha parecido la charla? A mí me ha dejado con más preguntas que respuestas. | What did you think of the talk? It's left me with more questions than answers.
+        T: A mí me ha encantado. Es increíble que esta técnica fuera desarrollada hace poco más de diez años. | I loved it. It's incredible that this technique was developed just over ten years ago.
+        N: Ya, y en tan poco tiempo ha sido utilizada para casi todo: plantas, animales, enfermedades raras… | I know, and in such a short time it's been used for almost everything: plants, animals, rare diseases…
+        T: Y ya hay tratamientos que han sido aprobados para algunas enfermedades de la sangre. | And there are already treatments that have been approved for some blood diseases.
+        N: Eso me parece estupendo. El problema empieza cuando se trata de modificar embriones humanos. | I think that's great. The problem starts when it comes to modifying human embryos.
+        T: Hombre, pero eso está prohibido en muchísimos países. No lo puede hacer cualquiera. | Come on, that's banned in lots of countries. Not just anyone can do it.
+        N: Ya, pero hubo un caso en dos mil dieciocho, ¿te acuerdas? Nacieron dos niñas de embriones que habían sido modificados. | Sure, but there was a case in two thousand eighteen, remember? Two girls were born from embryos that had been modified.
+        T: Y el investigador fue condenado por toda la comunidad científica y acabó en la cárcel. El sistema funcionó, ¿no? | And the researcher was condemned by the whole scientific community and ended up in prison. The system worked, didn't it?
+        N: Funcionó tarde: las niñas ya habían nacido. Lo que me preocupa es quién pone los límites. | It worked too late: the girls had already been born. What worries me is who sets the limits.
+        T: Los comités de ética, que para eso están. Ningún ensayo puede empezar si no ha sido revisado antes. | The ethics committees — that's what they're there for. No trial can start unless it's been reviewed first.
+        N: Ya, pero las leyes son aprobadas por cada país, y la ciencia no entiende de fronteras. | Sure, but laws are passed by each country, and science doesn't respect borders.
+        T: En eso tienes razón. Haría falta un acuerdo internacional, aunque dudo que sea fácil conseguirlo. | You're right about that. An international agreement would be needed, although I doubt it'll be easy to achieve.
+    pronunciation:
+      title: "Hearing agreement in the participle"
+      body: |
+        In the passive, the ending of the participle tells you what the subject is, so pronounce it clearly: *desarrollad**a***, *aprobad**os***, *condenad**o***. The **d** between vowels is soft, like the *th* in English "this", but it shouldn't disappear in careful speech: *aprobado*, not "aprobao".
+
+        Also link *ha sido* and *han sido* smoothly: [a-SI-ðo], with a silent **h**.
+      items: |
+        fue desarrollada
+        han sido aprobados
+        ha sido utilizada
+        fue condenado
+        está prohibido
+        había sido revisado
+    culture:
+      title: "From Ramón y Cajal to CRISPR"
+      body: |
+        Spain has two Nobel prizes in medicine: **Santiago Ramón y Cajal** (1906), whose drawings of neurons are still admired today, and **Severo Ochoa** (1959), for his work on the synthesis of RNA. The biochemist **Margarita Salas** discovered an enzyme whose patent became one of the most profitable in the history of Spanish public research.
+
+        The gene-editing story also has a Spanish chapter: the microbiologist **Francisco Mojica**, from the University of Alicante, was one of the first to describe the strange repeated sequences in bacterial DNA that are now known as CRISPR — and he helped give them that name.
+    mistakes: |
+      La vacuna fue desarrollado por un equipo internacional. => La vacuna fue desarrollada por un equipo internacional. | In the passive, the participle agrees with the subject: la vacuna → desarrollada.
+      El experimento fue condenado de la comunidad científica. => El experimento fue condenado por la comunidad científica. | The agent of a passive is introduced by por.
+      La ley ya es aprobada. => La ley ya está aprobada. | To describe the resulting state, use estar + participle; ser + participle describes the action itself.
+    task:
+      title: An advance and its limits
+      mode: speaking
+      body: |
+        Choose a scientific or technological advance (vaccines, organ transplants, gene editing, cultivated meat…). In about two minutes, explain when and by whom it was developed, how it has been used, and one ethical dilemma it raises. Use at least four passives with *ser* in different tenses and one *estar* + participle. Then discuss in the "Expressing an opinion" scenario with the AI coach whether science should have limits and who should set them.
+    exercises: |
+      fill: La penicilina ___ (descubrir — passive with ser, indefinido) por Alexander Fleming en 1928. || fue descubierta || Passive with ser in the indefinido: fue + participle agreeing with la penicilina. || @tags es.passive
+      fill: El nuevo tratamiento ya ___ (aprobar — passive with ser, pretérito perfecto) en varios países. || ha sido aprobado || Pretérito perfecto of ser (ha sido) + participle agreeing with el tratamiento. || @tags es.passive,es.present-perfect
+      fill: Los resultados ___ (publicar — passive with ser, future) el mes que viene en una revista científica. || serán publicados || Future of ser (serán) + participle agreeing with los resultados. || @tags es.passive,es.future
+      mc: Choose the correct sentence. || Las muestras fueron analizados por el laboratorio. | *Las muestras fueron analizadas por el laboratorio. | Las muestras fueron analizadas de el laboratorio. || The participle agrees with las muestras (analizadas), and the agent is introduced by por. || @tags es.passive
+      mc: Compare «El museo está cerrado» and «El museo fue cerrado en 2020». The first sentence describes… || *a present state | an action at a particular moment | who closed the museum || Estar + participle describes the resulting state; ser + participle describes the action. || @tags es.passive,es.ser-estar
+      mc: «Este avance plantea un dilema ético» means the advance… || solves an ethical dilemma. | *raises an ethical dilemma. | plants an ethical idea. || Plantear un problema / una pregunta / un dilema = to raise it. || @skill vocabulary @tags es.vocabulary
+      tf: According to Tomás, editing human embryos is allowed in most countries. || false || He says «eso está prohibido en muchísimos países». || @ctx dialogue
+      short: What worries Nerea most? || kw: límites/limits/limit/quién/who/decide/decides || She wants to know who sets the limits — «quién pone los límites». || @ctx dialogue
+      rw: Rewrite in the passive with ser :: Un equipo internacional desarrolló la técnica. || La técnica fue desarrollada por un equipo internacional. || The object (la técnica) becomes the subject; the verb becomes fue + desarrollada; the agent goes after por. || @tags es.passive
+      tr: The clinical trial was stopped by the ethics committee. || El ensayo clínico fue detenido por el comité de ética. | El ensayo clínico fue suspendido por el comité de ética. | El ensayo clínico fue interrumpido por el comité de ética. | El ensayo clínico fue paralizado por el comité de ética. || Passive with ser in the indefinido; the participle agrees with el ensayo. || @tags es.passive
+      listen: El proyecto fue presentado en mayo, pero todavía no ha sido aprobado por el comité de ética del hospital. || What is the situation of the project now? || *It is waiting for approval from the ethics committee. | It has been cancelled. | It was approved in May. || It was presented in May, but «todavía no ha sido aprobado». || @tags es.listening,es.passive
+      listen: @dialogue || What does Tomás think would be needed? || A ban on all genetic research | *An international agreement | More ethics committees in each hospital || «Haría falta un acuerdo internacional.» || @tags es.listening
+      dict: Muchos avances científicos fueron recibidos al principio con desconfianza. || fueron recibidos = were received
+      ask: A friend asks your opinion about an innovation such as gene editing or cultivated meat. Explain what it is, how it has been used, and whether it should have limits. || kw: fue/fueron/ha sido/han sido/es utilizada/es utilizado & creo/me parece/opino/dudo/límites || La carne cultivada se produce a partir de células animales en un laboratorio. Ya ha sido aprobada en algunos países, aunque todavía es muy cara. Me parece una idea interesante para el medio ambiente, pero creo que necesitamos más estudios antes de comerla todos los días.
+
+  - title: Artificial intelligence
+    summary: Discuss how artificial intelligence is used and what its risks are, using the pasiva refleja and distinguishing it from impersonal se.
+    minutes: 50
+    skills: [grammar, listening, speaking]
+    tags: [es.passive]
+    objectives:
+      - Talk about how artificial intelligence works and where it is used
+      - Use the pasiva refleja (se usan, se ha desarrollado, se pueden detectar) with correct agreement
+      - Distinguish the pasiva refleja from impersonal se with people (se contrató a dos expertas)
+    intro: |
+      Artificial intelligence is already in classrooms, offices and hospitals — and so is the debate about it. To describe processes without saying who does them, Spanish usually prefers the **pasiva refleja**: *se entrenan los modelos, se detectan errores, se han generado textos.* It is far more common than the passive with *ser*, especially in speech, but agreement and a few traps need care.
+    vocab: |
+      la inteligencia artificial | artificial intelligence | n | La inteligencia artificial ya se usa en muchos hospitales. | Artificial intelligence is already used in many hospitals. | g: f | n: Abbreviation: la IA (not "AI").
+      el algoritmo | algorithm | n | El algoritmo decide qué vídeos ves a continuación. | The algorithm decides which videos you watch next. | g: m
+      entrenar | to train | v | Estos modelos se entrenan con millones de textos. | These models are trained on millions of texts.
+      los datos | data | n | ¿Dónde se guardan nuestros datos personales? | Where is our personal data stored? | g: m | n: Plural in Spanish: los datos son… Singular: un dato (a piece of data).
+      generar | to generate | v | La aplicación genera imágenes a partir de una frase. | The app generates images from a sentence.
+      fiable | reliable; trustworthy | adj | Las respuestas no siempre son fiables. | The answers aren't always reliable. | n: Same form for masculine and feminine.
+      desconfiar de | to distrust; to be wary of | v | Hay que desconfiar de las citas que no tienen fuente. | You should be wary of quotations that have no source. | n: Stress on the í: desconfío, desconfías.
+      la herramienta | tool | n | Para mí, la IA es una herramienta, no un sustituto. | For me, AI is a tool, not a substitute. | g: f
+      sustituir | to replace | v | No creo que las máquinas sustituyan a los profesores. | I don't think machines will replace teachers. | n: Sustituir a + person. Present: sustituyo, sustituyes.
+      el sesgo | bias | n | Si los datos tienen sesgos, el sistema también los tendrá. | If the data is biased, the system will be too. | g: m
+      la privacidad | privacy | n | Muchos usuarios están preocupados por su privacidad. | Many users are worried about their privacy. | g: f
+      el claustro | staff meeting (at a school) | n | En el claustro se habló de la nueva normativa. | The new rules were discussed at the staff meeting. | g: m | n: Also the teaching staff as a body, and a cloister in a monastery.
+    grammar:
+      title: "The pasiva refleja: se usan, se han desarrollado"
+      body: |
+        The **pasiva refleja** is formed with **se** + a verb in the **third person**, which **agrees with the noun** (the thing affected): *Se **usa** un algoritmo* / *Se **usan** algoritmos.* The noun usually comes after the verb. No agent is mentioned: we don't know, or don't care, who does it.
+
+        It works in every tense and with modal verbs, where the modal agrees: *se ha desarrollado, se desarrollarán, se estaban entrenando, se **pueden** detectar errores, se **deben** revisar los datos.*
+
+        **Pasiva refleja or impersonal se?** You met impersonal se at B1 (*se vive bien aquí*). The difference matters with people: when the object is a specific person introduced by **a**, the construction is impersonal and the verb stays **singular**: *Se contrató **a** dos ingenieras.* With things, the verb agrees: *Se compraron dos ordenadores.*
+
+        **No agent with the pasiva refleja.** If you want to say who did it, use the passive with *ser* or the active voice: ~~Se escribió por una IA~~ → *Fue escrito por una IA* / *Lo escribió una IA.*
+      table: |
+        Type | Example | Note
+        pasiva refleja (singular) | Se usa inteligencia artificial en el hospital. | agrees with a singular noun
+        pasiva refleja (plural) | Se usan algoritmos para recomendar series. | agrees with a plural noun
+        with a modal | Se pueden detectar errores. | the modal agrees: pueden
+        impersonal se + a + person | Se contrató a dos expertas. | always singular
+        impersonal se, no object | En esta empresa se trabaja mucho. | always singular
+      examples: |
+        Hoy en día se generan textos casi perfectos en cuestión de segundos. | Nowadays almost perfect texts are generated in a matter of seconds. | plural agreement
+        En el claustro se decidió crear una comisión. | At the staff meeting it was decided to set up a committee. | singular with an infinitive
+        Se pueden detectar errores que una persona no vería. | Errors can be detected that a person wouldn't see. | modal verb agrees
+        Se entrevistó a varios expertos para el informe. | Several experts were interviewed for the report. | person with a: singular
+      tip: "To check agreement, ask: what is being used, detected or trained? If it's plural, the verb is plural — unless it's people introduced by a."
+    dialogue:
+      title: En la sala de profesores
+      setting: The staff room of a secondary school in Murcia at break time. Marisa, who teaches literature, has just marked a pile of essays; Jaime teaches computer science.
+      speakers: M=Marisa/f; J=Jaime/m
+      lines: |
+        M: Mira esto, Jaime. De veinticinco redacciones, en al menos ocho se nota que se ha usado inteligencia artificial. | Look at this, Jaime. Out of twenty-five essays, in at least eight you can tell that artificial intelligence has been used.
+        J: ¿Cómo lo sabes? Hoy en día se generan textos casi perfectos en cuestión de segundos. | How can you tell? Nowadays almost perfect texts are generated in a matter of seconds.
+        M: Precisamente por eso. Se repiten las mismas expresiones y no hay ni una falta de ortografía. ¡Con catorce años! | That's exactly why. The same expressions are repeated and there isn't a single spelling mistake. At fourteen!
+        J: Ya. En el claustro de ayer se habló mucho del tema. Se va a crear una comisión para redactar unas normas. | I know. The subject was discussed a lot at yesterday's staff meeting. A committee is going to be set up to draft some rules.
+        M: Me parece bien. Pero prohibirla no tiene sentido: se puede usar desde cualquier móvil. | Fine by me. But banning it makes no sense: it can be used from any phone.
+        J: Claro. Yo prefiero enseñarles cómo funciona. Estos modelos se entrenan con millones de textos y a veces se equivocan. | Exactly. I'd rather teach them how it works. These models are trained on millions of texts and sometimes they get things wrong.
+        M: ¿Y se lo explicas así, sin más? ¿No les da igual? | And you just explain it to them like that? Don't they just not care?
+        J: Al contrario. Cuando descubren que se inventan datos o citas falsas, empiezan a desconfiar un poco más. | Quite the opposite. When they find out that they invent data or fake quotes, they start to be a bit more wary.
+        M: Interesante. A lo mejor el problema es que se valora el resultado y no el proceso. | Interesting. Maybe the problem is that the result is valued and not the process.
+        J: Exacto. Si las redacciones se escribieran en clase, a mano, se acabaría el problema. | Exactly. If essays were written in class, by hand, the problem would be over.
+        M: O se podría pedir un borrador y comentarlo después en voz alta. Así se ve quién ha pensado de verdad. | Or we could ask for a draft and discuss it aloud afterwards. That way you can see who has really thought about it.
+        J: Buena idea. Propónselo a la comisión; seguro que se tiene en cuenta. | Good idea. Suggest it to the committee; I'm sure it'll be taken into account.
+    pronunciation:
+      title: "The letter x: texto, exacto, experta"
+      body: |
+        Between vowels, **x** is pronounced [ks]: *exacto* [ek-SAK-to], *examen*. Before a consonant, careful speakers also say [ks] — *texto, experta, explicar* — but in relaxed speech in Spain many people simplify it to [s]: [TES-to]. Both are acceptable; in a presentation, aim for [ks].
+
+        Remember that *x* is never pronounced like the English *z* in "exam".
+      items: |
+        exacto
+        examen
+        texto
+        experta
+        explicar
+        próximo
+    mistakes: |
+      Se contrataron a dos expertas. => Se contrató a dos expertas. | When the object is a person introduced by a, the construction is impersonal and the verb stays singular.
+      Se necesita más datos. => Se necesitan más datos. | In the pasiva refleja the verb agrees with the noun: datos is plural.
+      El texto se escribió por una IA. => El texto fue escrito por una IA. | The pasiva refleja can't take an agent with por; use ser + participle or the active voice.
+    task:
+      title: AI in my life
+      mode: speaking
+      body: |
+        Explain in about two minutes how artificial intelligence is used in your job, your studies or your daily life: what it is used for, what can and can't be done with it, and one risk (privacy, bias, mistakes). Use at least five examples of the pasiva refleja (*se usa, se pueden, se ha…*) and one impersonal *se* with *a*. Then tell the AI coach about a normal day and the technology you use in the "Talking about your day" scenario.
+    exercises: |
+      fill: En nuestra oficina ___ (usar, present) herramientas de inteligencia artificial para traducir los contratos. || se usan || Pasiva refleja: the verb agrees with herramientas, which is plural. || @tags es.passive
+      fill: Todavía no ___ (descubrir, pretérito perfecto) una forma fiable de detectar textos generados por IA. || se ha descubierto || Pasiva refleja in the pretérito perfecto: se ha + participle, singular because una forma is singular. || @tags es.passive,es.present-perfect
+      fill: Con este programa ___ (poder, present) detectar errores en cuestión de segundos. || se pueden || With a modal verb, the modal agrees with the noun: se pueden detectar errores. || @tags es.passive
+      mc: Choose the correct sentence. || Se necesita más datos para entrenar el modelo. | *Se necesitan más datos para entrenar el modelo. | Se necesitan más dato para entrenar el modelo. || Datos is plural, so the verb is plural: se necesitan. || @tags es.passive
+      mc: Choose the sentence that follows the standard rule. || Se contrataron a dos ingenieras. | *Se contrató a dos ingenieras. | Se contrató dos ingenieras. || With people introduced by a, the construction is impersonal and the verb stays singular. Without a, the sentence is incorrect. || @tags es.passive
+      mc: You want to say who wrote the report. Which sentence is correct? || El informe se redactó por la directora. | *El informe fue redactado por la directora. | El informe se fue redactado por la directora. || To name the agent, use ser + participle; the pasiva refleja can't take por + agent. || @tags es.passive
+      mc: «Esa fuente no es fiable» means… || *you can't trust that source. | that source isn't free. | that source is out of date. || Fiable = reliable, trustworthy. || @skill vocabulary @tags es.vocabulary
+      tf: Marisa thinks the school should ban artificial intelligence. || false || She says «prohibirla no tiene sentido», because it can be used from any phone. || @ctx dialogue
+      short: According to Jaime, what makes students more wary of AI? || kw: inventa/inventan/inventar/falsos/falsas/fake/false/invent/invents/made up/equivocan/mistakes || Discovering that it invents data and fake quotes. || @ctx dialogue
+      tr: These models are trained on millions of texts. || Estos modelos se entrenan con millones de textos. | Estos modelos son entrenados con millones de textos. | Estos modelos se entrenan a partir de millones de textos. || The pasiva refleja (se entrenan) is the most natural option; son entrenados is also correct. || @tags es.passive
+      listen: En la reunión se decidió que, a partir de enero, una persona revisará todos los informes antes de enviarlos a los clientes. || What was decided at the meeting? || *A person will check every report before it is sent. | Reports will be written by AI from January. | Clients will review the reports themselves. || «Una persona revisará todos los informes antes de enviarlos.» || @tags es.listening,es.passive
+      listen: @dialogue || What does Marisa suggest at the end? || Letting students write essays at home | *Asking for a draft and discussing it aloud | Banning phones in class || «Se podría pedir un borrador y comentarlo después en voz alta.» || @tags es.listening
+      dict: En esta aplicación no se guardan los datos de los usuarios. || se guardan = are stored
+      say: Estos sistemas se equivocan más de lo que pensamos. || These systems make more mistakes than we think.
+
+  - title: Health and medicine in the news
+    summary: Read a health news article and learn the structures of news reports — passive tenses, headlines, fronted objects and the conditional for unconfirmed information.
+    minutes: 50
+    skills: [reading, writing, vocabulary]
+    tags: [es.passive, es.conditional]
+    objectives:
+      - Understand a health news article and separate confirmed facts from unconfirmed information
+      - Recognise news structures — headline participles, fronted objects with a pronoun, según
+      - Use the conditional to report unconfirmed information
+    intro: |
+      Health news is everywhere, and it is often exaggerated. Reading it critically starts with the language: who says what, what has been confirmed and what is only expected. In this lesson you will read a report on a new blood test and learn how journalists write: *Aprobado un nuevo fármaco…*, *La prueba la ha desarrollado…*, *El análisis costaría…*
+    vocab: |
+      el diagnóstico | diagnosis | n | Un diagnóstico precoz puede cambiar la evolución de la enfermedad. | An early diagnosis can change the course of the disease. | g: m | c: diagnóstico precoz
+      el síntoma | symptom | n | Los primeros síntomas aparecen años después. | The first symptoms appear years later. | g: m | n: Masculine, although it ends in -a.
+      la prueba | test | n | Es una prueba sencilla y barata. | It's a simple and cheap test. | g: f | c: hacerse una prueba; prueba de sangre
+      el fármaco | drug; medicine | n | Se han aprobado nuevos fármacos contra la migraña. | New drugs against migraine have been approved. | g: m | n: More technical than el medicamento.
+      la eficacia | effectiveness | n | Su eficacia todavía es limitada. | Its effectiveness is still limited. | g: f | n: Adjective: eficaz.
+      prometedor | promising | adj | Los resultados son muy prometedores. | The results are very promising. | n: Feminine: prometedora.
+      pedir prudencia | to urge caution | expr | Los expertos piden prudencia antes de sacar conclusiones. | Experts urge caution before drawing conclusions.
+      acertar | to get it right | v | La prueba acertó en el noventa por ciento de los casos. | The test was right in ninety per cent of the cases. | n: Stem change e → ie: acierto, aciertas.
+      frenar | to slow down; to curb | v | No existe todavía un tratamiento que frene la enfermedad del todo. | There's still no treatment that completely halts the disease.
+      ralentizar | to slow down | v | El fármaco ralentiza el avance de la enfermedad. | The drug slows down the progress of the disease.
+      el factor de riesgo | risk factor | n | El tabaco es un factor de riesgo para muchas enfermedades. | Smoking is a risk factor for many diseases. | g: m
+      la fuente | source | n | Según fuentes del hospital, la prueba llegará en tres años. | According to hospital sources, the test will arrive in three years. | g: f | n: Also "fountain".
+    grammar:
+      title: "The language of news reports"
+      body: |
+        News reports in Spanish share a few structures you need to recognise and use.
+
+        - **Headlines with a participle only**: the verb *ser* or *haber* is dropped. *Aprobado un nuevo fármaco contra la migraña* (= Ha sido aprobado…). The participle agrees: *Aprobada una nueva vacuna.*
+        - **Passive tenses**, especially the perfect and the future: *El estudio **ha sido publicado** esta semana. La prueba **deberá ser evaluada** por las agencias.* After a modal, use **ser + participle**: *tendrá que ser confirmado.*
+        - **Fronted object + pronoun**: to put the topic first, journalists often start with the object. Spanish then **repeats it with a pronoun**: ***La prueba la** ha desarrollado un equipo de Barcelona.* Without *la*, the sentence is wrong.
+        - **Sources with según**: *Según los autores, … / Según fuentes del hospital, …* Don't add *dice que* after *según*.
+        - **The conditional for unconfirmed information** (*condicional de rumor*): journalists use it to report information they cannot yet confirm: *El análisis **costaría** menos de cien euros. La prueba **podría** llegar en tres años.* When you read a conditional like this, understand: "reportedly, allegedly".
+      table: |
+        Structure | Example | Meaning
+        headline participle | Aprobado un nuevo fármaco | A new drug has been approved
+        passive after a modal | Tendrá que ser confirmado por un especialista. | It will have to be confirmed by a specialist.
+        fronted object + pronoun | La prueba la ha desarrollado un equipo de Barcelona. | The test was developed by a team in Barcelona.
+        según + source | Según los autores, la prueba acertó en el noventa por ciento. | According to the authors…
+        conditional of rumour | El análisis costaría menos de cien euros. | The test would reportedly cost under €100.
+      examples: |
+        El estudio ha sido publicado esta semana en una revista internacional. | The study was published this week in an international journal. | passive, pretérito perfecto
+        Este fármaco lo desarrolló un laboratorio público. | This drug was developed by a public laboratory. | fronted object + lo
+        Según fuentes del ministerio, la campaña empezaría en octubre. | According to ministry sources, the campaign would start in October. | unconfirmed information
+        Un resultado positivo tendrá que ser confirmado por un especialista. | A positive result will have to be confirmed by a specialist. | passive after a modal
+      tip: "When you read health news, underline every conditional and every según: they show you what is not yet a confirmed fact."
+    reading:
+      title: Un análisis de sangre podría adelantar el diagnóstico del alzhéimer
+      text: |
+        Un simple análisis de sangre podría detectar el alzhéimer hasta diez años antes de que aparezcan los primeros síntomas. Así lo indica un estudio que ha sido publicado esta semana en una revista científica internacional y en el que han participado más de dos mil voluntarios de cinco países europeos.
+
+        La prueba la ha desarrollado un equipo de investigadoras de un hospital universitario de Barcelona, que lleva casi una década trabajando en el proyecto. El análisis mide en la sangre los niveles de una proteína relacionada con la enfermedad. Hasta ahora, esa proteína solo podía medirse mediante pruebas mucho más caras e invasivas, como la punción lumbar o ciertos tipos de escáner.
+
+        Según los autores, la prueba acertó en el noventa por ciento de los casos. «Es un avance importante, pero no es una herramienta de diagnóstico definitiva», advierte la directora del estudio. «Un resultado positivo tendrá que ser confirmado siempre por un especialista.»
+
+        Los expertos consultados por este periódico coinciden en que los resultados son prometedores, aunque piden prudencia. «Detectar antes la enfermedad solo tiene sentido si se puede hacer algo para frenarla», recuerda un neurólogo que no ha participado en la investigación. En los últimos años se han aprobado algunos fármacos que ralentizan el avance del alzhéimer en sus primeras fases, pero su eficacia todavía es limitada y su precio, muy elevado.
+
+        La prueba no estará disponible de forma inmediata. Antes deberá ser evaluada por las agencias del medicamento, un proceso que suele durar varios años. Según fuentes del hospital, el análisis podría llegar a los centros de salud en un plazo de tres a cinco años y costaría menos de cien euros por paciente.
+
+        Mientras tanto, los especialistas recuerdan que hay factores de riesgo que sí podemos controlar: el ejercicio físico, una dieta equilibrada, el descanso y la vida social siguen siendo, hoy por hoy, algunas de las mejores formas de cuidar el cerebro.
+      translation: |
+        A simple blood test could detect Alzheimer's up to ten years before the first symptoms appear. That is what a study published this week in an international scientific journal indicates; more than two thousand volunteers from five European countries took part in it.
+
+        The test was developed by a team of researchers at a university hospital in Barcelona, who have been working on the project for almost a decade. The test measures the levels in the blood of a protein linked to the disease. Until now, this protein could only be measured with much more expensive and invasive tests, such as a lumbar puncture or certain types of scan.
+
+        According to the authors, the test was right in ninety per cent of cases. "It's an important advance, but it isn't a definitive diagnostic tool," warns the director of the study. "A positive result will always have to be confirmed by a specialist."
+
+        The experts consulted by this newspaper agree that the results are promising, although they urge caution. "Detecting the disease earlier only makes sense if something can be done to slow it down," points out a neurologist who did not take part in the research. In recent years some drugs that slow the progress of Alzheimer's in its early stages have been approved, but their effectiveness is still limited and their price very high.
+
+        The test will not be available immediately. First it will have to be assessed by the medicines agencies, a process that usually takes several years. According to hospital sources, the test could reach health centres within three to five years and would cost less than a hundred euros per patient.
+
+        In the meantime, specialists point out that there are risk factors we can control: physical exercise, a balanced diet, rest and social life are still, for now, some of the best ways to look after the brain.
+    pronunciation:
+      title: "Medical words with a written accent"
+      body: |
+        Many medical and scientific words are stressed on the third-to-last syllable (*esdrújulas*), so they always carry a written accent: ***diag**-**nós**-ti-co*, ***sín**-to-ma*, ***fár**-ma-co*, *neu-**ró**-lo-go*. Words ending in **-s** stressed on the second-to-last syllable don't need one (*análisis* does, because the stress is on the third-to-last: *a-**ná**-li-sis*).
+
+        *Alzhéimer* is adapted to Spanish spelling: the accent shows the stress on *-héi-*.
+      items: |
+        diagnóstico
+        síntoma
+        fármaco
+        análisis
+        alzhéimer
+        neurólogo
+    culture:
+      title: "The centro de salud"
+      body: |
+        Spain has a universal public health system, run by each autonomous community. For most health problems, people go first to their **centro de salud**, where they have an assigned **médico de familia** (also called *médico de cabecera*), who refers them to a specialist when necessary. New tests and drugs are assessed nationally by the Spanish medicines agency and, at European level, by the European Medicines Agency.
+
+        In Latin America, systems vary greatly from country to country, often combining public institutions, social security and private insurance.
+    mistakes: |
+      Esta prueba desarrolló un equipo de Barcelona. => Esta prueba la desarrolló un equipo de Barcelona. | When the direct object comes before the verb, repeat it with a pronoun (la).
+      La síntoma más común es el cansancio. => El síntoma más común es el cansancio. | Síntoma is masculine, like many words of Greek origin ending in -ma (el problema, el sistema).
+      Según el estudio dice que la prueba es fiable. => Según el estudio, la prueba es fiable. | Según already introduces the source; don't add dice que.
+    task:
+      title: Health news for the class blog
+      mode: writing
+      body: |
+        Find (or invent) a recent piece of health or science news. Summarise it in 120–150 words for your class blog. Include a headline with a participle, at least two passive structures, one fronted object with a pronoun, two sources introduced by *según*, and one conditional for information that has not been confirmed. End with one sentence of your own opinion.
+    exercises: |
+      mc: How long before the first symptoms could the test detect Alzheimer's? || Two years | Five years | *Up to ten years || «Hasta diez años antes de que aparezcan los primeros síntomas.» || @ctx reading @tags es.reading
+      tf: The test is already available in health centres. || false || It still has to be assessed by the medicines agencies; it could reach health centres in three to five years. || @ctx reading @tags es.reading
+      short: How often was the test right, according to the authors? || kw: noventa/90/ninety || In ninety per cent of cases. || @ctx reading @tags es.reading
+      mc: Why do the experts urge caution? || Because the test is very expensive | *Because early detection only makes sense if something can be done to slow the disease | Because only ten volunteers took part || The neurologist says «Detectar antes la enfermedad solo tiene sentido si se puede hacer algo para frenarla». || @ctx reading @tags es.reading
+      fill: Un resultado positivo tendrá que ___ (confirmar) por un especialista. || ser confirmado || After a modal verb, the passive is ser + participle: tendrá que ser confirmado. || @tags es.passive
+      fill: El estudio ___ (publicar — passive with ser, pretérito perfecto) esta semana en una revista internacional. || ha sido publicado || Passive in the pretérito perfecto: ha sido + participle agreeing with el estudio. || @tags es.passive,es.present-perfect
+      fill: Esta vacuna ___ desarrolló un equipo internacional de investigadores. || la || The object (esta vacuna) comes first, so it is repeated with the pronoun la. || @tags es.object-pronouns
+      mc: In a news report, «El tratamiento costaría unos cien euros» means: || It definitely costs a hundred euros. | *It would reportedly cost about a hundred euros — this isn't confirmed. | It used to cost a hundred euros. || The conditional of rumour presents information that hasn't been confirmed. || @tags es.conditional
+      rw: Write it as a newspaper headline with just the participle :: La agencia del medicamento ha aprobado un nuevo fármaco contra la migraña. || Aprobado un nuevo fármaco contra la migraña || Headlines drop ha sido and keep the participle, agreeing with the noun: aprobado un nuevo fármaco. || @tags es.passive
+      rw: Move the object to the start of the sentence :: Un equipo de Barcelona ha desarrollado la prueba. → La prueba… || La prueba la ha desarrollado un equipo de Barcelona. || A fronted direct object is repeated with a pronoun: la prueba la… || @tags es.object-pronouns
+      tr: According to the hospital, the treatment could be available in three years. || Según el hospital, el tratamiento podría estar disponible en tres años. | Según el hospital, el tratamiento podría estar disponible dentro de tres años. | Según el hospital, el tratamiento estaría disponible en tres años. | Según el hospital, el tratamiento estaría disponible dentro de tres años. || Según + source, followed by the conditional for unconfirmed information. || @tags es.conditional
+      listen: Según fuentes del ministerio, la campaña de vacunación empezaría a mediados de octubre y estaría dirigida a los mayores de sesenta años. || What does the use of the conditional tell us? || The campaign has already started. | *The information hasn't been officially confirmed yet. | The campaign has been cancelled. || The conditional (empezaría, estaría) reports unconfirmed information from a source. || @tags es.listening,es.conditional
+      listen: El ensayo ha sido suspendido temporalmente después de que varios pacientes sufrieran efectos secundarios leves. || Why was the trial suspended? || *Several patients had mild side effects. | It ran out of money. | The results were already excellent. || «Varios pacientes sufrieran efectos secundarios leves.» || @tags es.listening,es.passive
+      dict: Los resultados son prometedores, pero los expertos piden prudencia. || piden prudencia = urge caution
+      say: Detectar antes la enfermedad solo tiene sentido si podemos frenarla. || Detecting the disease earlier only makes sense if we can slow it down.

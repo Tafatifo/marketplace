@@ -1,0 +1,346 @@
+unit: 4
+title: Medio ambiente
+theme: Environment
+description: Discuss climate policy, sustainable cities and how to solve environmental problems — explaining causes and consequences with a wide range of connectors and building a clear argument in a debate.
+objectives:
+  - Explain causes with como, ya que, puesto que, dado que, debido a, a causa de, gracias a and por culpa de
+  - Express consequences with así que, por lo tanto, de modo que, con lo que, de ahí que + subjunctive and tan / tanto… que
+  - Argue in a debate with no porque… sino porque, si bien, mientras que and en cambio
+canDo:
+  - I can explain the causes of an environmental problem in a formal or informal register.
+  - I can describe the consequences of changes in my city or region.
+  - I can concede a point and counter-argue in a debate.
+  - I can propose a compromise solution and justify it.
+review: |
+  fill: ___ no había autobuses por la huelga, fuimos andando al trabajo. (start of the sentence) || Como || Como meaning "since" introduces a cause and always goes at the start of the sentence. || @tags es.connectors
+  mc: Se han cancelado las clases al aire libre ___ la ola de calor. || *debido a | debido a que | por culpa que || Debido a goes before a noun; debido a que goes before a verb. || @tags es.connectors
+  mc: ___ los nuevos paneles solares, el colegio ahorra mil euros al mes. || Por culpa de | *Gracias a | A pesar de || A positive cause is introduced by gracias a; por culpa de is for negative causes. || @tags es.connectors
+  fill: Este invierno apenas ha nevado; de ahí que las estaciones de esquí ___ (abrir) tan tarde. || abran / abrieran / abriesen || De ahí que is always followed by the subjunctive. || @tags es.connectors,es.subjunctive-triggers
+  fill: Había ___ humo que no se veía el otro lado de la calle. || tanto || Before a noun, use tanto / tanta / tantos / tantas + noun + que. Humo is masculine singular. || @tags es.connectors
+  mc: Which connector would you use in a formal report? || así que | *por consiguiente | o sea que || Por consiguiente (consequently) belongs to formal registers; así que and o sea que are conversational. || @tags es.connectors,es.register
+  rw: Rewrite with «no porque…, sino porque…» :: Como poca carne. No es por el precio. Es por el medio ambiente. || Como poca carne no porque sea cara, sino porque me preocupa el medio ambiente. | Como poca carne no porque sea cara, sino por el medio ambiente. | Como poca carne, no porque sea cara, sino por el medio ambiente. || No porque + subjunctive rejects a cause; sino porque / sino por gives the real one. || @tags es.connectors,es.subjunctive-triggers
+  tr: Although public transport has improved, many people still use the car. (use si bien) || Si bien el transporte público ha mejorado, mucha gente sigue usando el coche. | Si bien el transporte público ha mejorado, mucha gente todavía usa el coche. | Si bien el transporte público ha mejorado, muchas personas siguen usando el coche. | Si bien el transporte público ha mejorado, mucha gente aún usa el coche. || Si bien (although) is formal and takes the indicative: ha mejorado. || @tags es.connectors
+  listen: Como el agua de los embalses está muy baja, el ayuntamiento ha prohibido regar los jardines durante el día. || Why has watering gardens been banned during the day? || Because of a broken pipe | *Because the reservoirs are very low | Because of a heatwave || Como introduces the cause: el agua de los embalses está muy baja. || @tags es.listening,es.connectors
+  listen: En mi barrio han quitado un carril para coches y han puesto un carril bici, con lo que ahora tardo diez minutos menos en llegar a la oficina. || What is the consequence for the speaker? || *The journey to the office is ten minutes shorter. | The traffic is worse than before. | The speaker now takes the bus. || Con lo que introduces the consequence: tardo diez minutos menos. || @tags es.listening,es.connectors
+  ask: A friend asks what the main environmental problem in your city or region is. Explain its causes and its consequences. || kw: como/ya que/debido a/a causa de/porque/dado que/puesto que & así que/por eso/por lo tanto/de ahí que/de modo que/tan/tanto || En mi región el gran problema es la sequía. Como llueve cada vez menos y hace más calor, los ríos llevan muy poca agua. Debido a eso, muchos agricultores han perdido parte de la cosecha, así que algunos pueblos están perdiendo población. Por eso creo que hay que cambiar el tipo de cultivos.
+  write: Write a short paragraph (90–110 words) for a local newspaper about a change in your city (a pedestrian street, a new bike lane, a low-emission zone). Explain why it was introduced and what its consequences have been. || min=80 || req: como/ya que/debido a/dado que/puesto que/a causa de | así que/por lo tanto/de modo que/de ahí que/con lo que/tan/tanto | si bien/sin embargo/en cambio/es cierto que || Hace dos años el ayuntamiento peatonalizó la calle Mayor. Como el tráfico y el ruido eran insoportables, muchos vecinos llevaban años pidiéndolo. Los resultados se han notado enseguida: hay tan poco ruido que ahora se puede charlar en las terrazas, y los niños juegan en la calle. Si bien al principio algunos comerciantes protestaron, las ventas han subido, de ahí que otras calles quieran hacer lo mismo. En cambio, el aparcamiento se ha convertido en un problema, por lo que sería necesario mejorar los autobuses.
+lessons:
+  - title: Climate policy
+    summary: Discuss climate change, heatwaves, drought and the policies to tackle them, explaining causes with formal and informal connectors.
+    minutes: 50
+    skills: [vocabulary, grammar, listening]
+    tags: [es.connectors]
+    objectives:
+      - Talk about climate change, its effects and the measures to tackle it
+      - Explain causes with como, ya que, puesto que, dado que, debido a and a causa de
+      - Distinguish positive and negative causes with gracias a and por culpa de
+    intro: |
+      Heatwaves, drought, international summits, emission targets: climate policy is in the news every day. To follow and join these discussions you need more than *porque*. In this lesson a climate scientist explains on the radio why summers are changing, and you will learn the connectors that introduce a cause — from the conversational *como* to the formal *dado que* and *debido a*.
+    vocab: |
+      el cambio climático | climate change | n | El cambio climático hace que las olas de calor sean más frecuentes. | Climate change makes heatwaves more frequent. | g: m
+      la ola de calor | heatwave | n | Este verano hemos tenido tres olas de calor. | This summer we've had three heatwaves. | g: f
+      las emisiones | emissions | n | El objetivo es reducir las emisiones a la mitad antes de dos mil treinta. | The aim is to cut emissions by half before 2030. | g: f | c: emisiones de CO2; reducir las emisiones
+      el compromiso | commitment | n | Todos los países firmaron un compromiso para reducir emisiones. | All the countries signed a commitment to reduce emissions. | g: m | n: False friend: "compromise" is usually un acuerdo or una solución intermedia.
+      la medida | measure; step | n | El Gobierno ha anunciado nuevas medidas contra la sequía. | The government has announced new measures against the drought. | g: f | c: tomar medidas
+      la sequía | drought | n | La sequía ha afectado a toda la cosecha de cereal. | The drought has affected the entire cereal harvest. | g: f
+      el embalse | reservoir | n | Los embalses están al veinte por ciento de su capacidad. | The reservoirs are at twenty per cent of their capacity. | g: m
+      asumir | to take on; to accept | v | Cada país tiene que asumir su parte de responsabilidad. | Each country has to accept its share of responsibility. | n: Also "to assume" a role, not "to suppose" (that is suponer).
+      perjudicar | to harm; to damage | v | Algunas medidas perjudican a las pequeñas empresas. | Some measures harm small businesses. | n: The opposite is beneficiar.
+      adaptarse a | to adapt to | v | Las ciudades tienen que adaptarse a veranos más largos. | Cities have to adapt to longer summers.
+      el reto | challenge | n | El agua es el gran reto de las próximas décadas. | Water is the great challenge of the coming decades. | g: m | n: Synonym: el desafío.
+      aprovechar | to make the most of; to use well | v | Tenemos que aprovechar mejor cada gota de agua. | We have to make better use of every drop of water.
+    grammar:
+      title: "Explaining causes: como, ya que, debido a…"
+      body: |
+        **Porque** is the all-purpose connector, but it normally comes **after** the main clause: *No salimos porque hacía calor.* Other connectors add nuance or register:
+
+        - **Como** — introduces a cause **at the start** of the sentence, never after the main clause: ***Como** hacía calor, no salimos.*
+        - **Ya que / puesto que / dado que** — present a cause that the listener knows or can accept; more formal, and they can go at the start or after the main clause: *Dado que el problema es global, todos los países deben actuar.*
+        - **Debido a / a causa de** + **noun**, and **debido a que** + **verb** — formal, typical of news and reports: *Se suspendió el concierto **debido a la** ola de calor* / ***debido a que** hacía demasiado calor.*
+        - **Por** + noun or infinitive — short and frequent: *La cosecha se perdió **por la** sequía. Le multaron **por** regar a mediodía.*
+        - **Gracias a** (a positive cause) / **por culpa de** (a negative cause): ***Gracias a** los toldos, la plaza tiene más sombra. **Por culpa de** la sequía, no hay pasto.*
+
+        In conversation, **es que** introduces an excuse or explanation: *—¿No riegas? —Es que está prohibido.*
+      table: |
+        Connector | Position and register | Example
+        porque | after the main clause; neutral | No salimos porque hacía calor.
+        como | always at the start; neutral | Como hacía calor, no salimos.
+        ya que / puesto que / dado que | start or middle; formal | Ya que el problema es global, hay que cooperar.
+        debido a / a causa de + noun | formal | Debido a la sequía, se ha restringido el agua.
+        debido a que + verb | formal | Debido a que no llueve, se ha restringido el agua.
+        gracias a / por culpa de + noun | positive / negative cause | Gracias a los árboles, hace menos calor.
+      examples: |
+        Como ningún país puede resolverlo solo, todos tienen que asumir compromisos. | Since no country can solve it alone, they all have to make commitments. | como at the start
+        Las olas de calor son más frecuentes debido al aumento de la temperatura media. | Heatwaves are more frequent due to the rise in average temperature. | debido a + noun (a + el = al)
+        Dado que los daños también cuestan dinero, no actuar saldría más caro. | Given that the damage also costs money, not acting would be more expensive. | formal cause
+        Por culpa de la sequía, este año la cosecha de aceite ha sido muy pobre. | Because of the drought, this year's olive-oil harvest has been very poor. | negative cause
+      tip: "If you start a sentence with a cause, como is the natural choice in conversation. Don't start with porque unless you are answering a ¿por qué? question."
+    dialogue:
+      title: «El verano ya no es lo que era»
+      setting: A morning radio programme in Seville at the end of September. The presenter, Lola Fuentes, interviews the climatologist Ernesto Viñas after a record-breaking summer.
+      speakers: L=Lola/f; E=Ernesto/m
+      lines: |
+        L: Ernesto, este verano hemos tenido tres olas de calor. ¿Es casualidad o va a seguir pasando? | Ernesto, this summer we've had three heatwaves. Is it a coincidence, or will it keep happening?
+        E: No es casualidad. Las olas de calor son más frecuentes debido al aumento de la temperatura media del planeta. | It isn't a coincidence. Heatwaves are more frequent due to the rise in the planet's average temperature.
+        L: Pero mucha gente dice que en Sevilla siempre ha hecho calor en verano. | But a lot of people say it's always been hot in Seville in summer.
+        E: Y es verdad. Pero ya que el punto de partida es más alto, cada ola de calor es ahora más intensa y dura más. | And it's true. But since the starting point is higher, each heatwave is now more intense and lasts longer.
+        L: ¿Y por qué se insiste tanto en reducir emisiones si el problema es global? | And why is there so much insistence on reducing emissions if the problem is global?
+        E: Precisamente porque es global: como ningún país puede resolverlo solo, todos tienen que asumir compromisos. | Precisely because it's global: since no country can solve it alone, they all have to make commitments.
+        L: Hay quien piensa que esas medidas son caras y perjudican a las empresas. | Some people think those measures are expensive and harm businesses.
+        E: Hay costes, sin duda. Sin embargo, dado que los daños del clima también cuestan dinero, no actuar saldría más caro. | There are costs, no doubt. However, given that climate damage also costs money, not acting would be more expensive.
+        L: ¿Y qué se está haciendo aquí, en el sur, para adaptarse? | And what's being done here, in the south, to adapt?
+        E: Bastantes cosas. Gracias a los toldos y a los árboles nuevos, algunas plazas tienen hasta cuatro grados menos. | Quite a lot. Thanks to the awnings and the new trees, some squares are up to four degrees cooler.
+        L: ¿Y el agua? Este año los embalses han estado muy bajos a causa de la sequía. | And water? This year the reservoirs have been very low because of the drought.
+        E: Ese es el gran reto. Puesto que lloverá menos, tendremos que aprovechar mejor cada gota, sobre todo en la agricultura. | That's the big challenge. Since it will rain less, we'll have to make better use of every drop, especially in farming.
+    pronunciation:
+      title: "c, z and s: distinción and seseo"
+      body: |
+        In most of Spain, **z** and **c** before *e* and *i* are pronounced like the English *th* in "think": *ciudad* [θiu-DAD], *cero*, *hacer*. This is called *distinción*, because these sounds are kept apart from **s**. In Latin America, the Canary Islands and much of Andalusia — including Seville — speakers use *seseo*: both sounds are pronounced [s].
+
+        Both pronunciations are correct and widely understood. Choose one and use it consistently. Listen to these phrases and repeat them in the variety you prefer.
+      items: |
+        cambio climático
+        la ciudad
+        cero emisiones
+        la sequía
+        hacer frente
+        aprovechar cada gota
+    mistakes: |
+      No salimos, como hacía mucho calor. => Como hacía mucho calor, no salimos. | Como meaning "since" must go at the start of the sentence; after the main clause, use porque.
+      Debido a que la sequía, se ha restringido el riego. => Debido a la sequía, se ha restringido el riego. | Debido a goes before a noun; debido a que goes before a verb.
+      Por culpa de las lluvias, la cosecha ha sido excelente. => Gracias a las lluvias, la cosecha ha sido excelente. | Por culpa de introduces a negative cause; for a positive one, use gracias a.
+    task:
+      title: Why is it happening?
+      mode: speaking
+      body: |
+        Choose an environmental problem that affects your region (heat, drought, floods, air pollution, forest fires). In about two minutes, explain its causes and say which measures are being taken. Use at least five different cause connectors, including *como* at the start of a sentence, one formal connector (*dado que, debido a*) and *gracias a* or *por culpa de*. Then discuss in the "Expressing an opinion" scenario with the AI coach which measure you think would work best.
+    exercises: |
+      fill: ___ había llovido tan poco, los embalses estaban casi vacíos. (start of the sentence) || Como / Ya que / Puesto que / Dado que || At the start of a sentence, como (or a formal connector such as ya que or dado que) introduces the cause. || @tags es.connectors
+      fill: El concierto al aire libre se suspendió ___ la ola de calor. (formal, + noun) || debido a / a causa de / por || Before a noun: debido a, a causa de or simply por. || @tags es.connectors
+      fill: ___ los nuevos árboles, la plaza tiene ahora mucha más sombra. (positive cause) || Gracias a || A positive cause is introduced by gracias a. || @tags es.connectors
+      mc: Choose the correct sentence. || Hace mucho calor, como no salimos de casa. | *Como hace mucho calor, no salimos de casa. | Como que hace mucho calor, no salimos de casa. || Como introduces a cause only at the start of the sentence, and it isn't followed by que. || @tags es.connectors
+      mc: Debido ___ la sequía, se ha prohibido llenar las piscinas privadas. || de | *a | por || The connector is debido a. || @tags es.connectors
+      mc: «El agua es el gran reto del siglo» means water is… || *the great challenge of the century. | the great threat of the century. | the great success of the century. || El reto = the challenge (synonym: el desafío). || @skill vocabulary @tags es.vocabulary
+      tf: Ernesto thinks this summer's heatwaves were a coincidence. || false || He says «No es casualidad» and explains they are due to the rise in average temperature. || @ctx dialogue
+      short: According to Ernesto, why must all countries make commitments? || kw: solo/alone/ningún/no country/nobody/nadie/global || Because no country can solve the problem alone. || @ctx dialogue
+      rw: Join the sentences with ya que :: Tenemos que ahorrar agua. Este año ha llovido muy poco. || Tenemos que ahorrar agua, ya que este año ha llovido muy poco. | Ya que este año ha llovido muy poco, tenemos que ahorrar agua. || Ya que can go before or after the main clause. || @tags es.connectors,es.join
+      tr: Since no country can solve the problem alone, we need an agreement. || Como ningún país puede resolver el problema solo, necesitamos un acuerdo. | Ya que ningún país puede resolver el problema solo, necesitamos un acuerdo. | Puesto que ningún país puede resolver el problema solo, necesitamos un acuerdo. | Dado que ningún país puede resolver el problema solo, necesitamos un acuerdo. | Como ningún país puede solucionar el problema solo, necesitamos un acuerdo. || At the start of the sentence, "since" is como or a formal connector (ya que, puesto que, dado que). || @tags es.connectors
+      listen: En varios pueblos de la comarca han cortado el agua por las noches debido a que los pozos están casi secos. || Why has the water been cut off at night? || A pipe is broken. | *The wells are almost dry. | The reservoir is being repaired. || «Debido a que los pozos están casi secos.» || @tags es.listening,es.connectors
+      listen: @dialogue || What has made some squares in Seville cooler? || New fountains | *Awnings and new trees | Fewer cars in the centre || «Gracias a los toldos y a los árboles nuevos, algunas plazas tienen hasta cuatro grados menos.» || @tags es.listening
+      dict: Por culpa de la sequía, este año la cosecha ha sido muy pobre. || por culpa de = because of (negative)
+      ask: A friend asks you why heatwaves are becoming more frequent. Explain it with at least two different cause connectors. || kw: debido a/a causa de/como/ya que/porque/dado que/puesto que & calor/temperatura/temperaturas || Las olas de calor son más frecuentes debido al cambio climático. Como la temperatura media del planeta ha subido, cualquier ola de calor empieza desde un punto más alto, así que dura más y es más intensa. Además, en las ciudades hay mucho asfalto y pocos árboles, por eso el calor se nota todavía más.
+
+  - title: Sustainable cities
+    summary: Talk about pedestrian streets, bike lanes and low-emission zones, and describe their consequences with así que, por lo tanto, de ahí que and tan / tanto… que.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.connectors, es.subjunctive-triggers]
+    objectives:
+      - Talk about urban planning, traffic and public space
+      - Express consequences with así que, por lo tanto, por consiguiente, con lo que and de ahí que + subjunctive
+      - Use tan + adjective / tanto + noun + que, and de modo que with indicative (result) or subjunctive (purpose)
+    intro: |
+      Cities across Spain are closing streets to traffic, widening pavements and creating bike lanes — and every change has winners and losers. Describing those effects means talking about **consequences**: *hay tan poco ruido que…, así que…, de ahí que…* In this lesson a teacher and a shopkeeper discuss the new "superblock" in their neighbourhood in Vitoria-Gasteiz.
+    vocab: |
+      la supermanzana | superblock (a group of blocks closed to through traffic) | n | Mi calle forma parte de la nueva supermanzana. | My street is part of the new superblock. | g: f | n: Also written superilla in Barcelona (Catalan).
+      peatonalizar | to pedestrianise | v | Van a peatonalizar todo el casco antiguo. | They're going to pedestrianise the whole old town. | n: Adjective: peatonal (una calle peatonal).
+      el tráfico de paso | through traffic | n | Solo se ha prohibido el tráfico de paso; los vecinos pueden entrar. | Only through traffic has been banned; residents can drive in. | g: m
+      la carga y descarga | loading and unloading | n | La carga y descarga solo se permite de siete a once. | Loading and unloading is only allowed from seven to eleven. | g: f
+      el carril bici | cycle lane | n | El nuevo carril bici llega hasta la universidad. | The new cycle lane goes as far as the university. | g: m | pl: carriles bici
+      la zona de bajas emisiones | low-emission zone | n | Los coches más antiguos no pueden entrar en la zona de bajas emisiones. | The oldest cars can't enter the low-emission zone. | g: f
+      el espacio público | public space | n | Queremos recuperar el espacio público para las personas. | We want to take back public space for people. | g: m
+      el comercio de barrio | local shops | n | El comercio de barrio da vida a las calles. | Local shops bring the streets to life. | g: m | n: Also: el pequeño comercio.
+      la calidad del aire | air quality | n | La calidad del aire ha mejorado mucho este año. | Air quality has improved a lot this year. | g: f
+      habitable | liveable; habitable | adj | Queremos una ciudad más habitable. | We want a more liveable city.
+      impensable | unthinkable | adj | Hace diez años, una calle sin coches era impensable. | Ten years ago, a street without cars was unthinkable.
+      ir a por | to go and get; to fetch | expr | Voy a por pan, ¿quieres algo? | I'm going to get some bread — do you want anything? | n: Spain, colloquial. Elsewhere: ir por, ir a buscar.
+    grammar:
+      title: "Expressing consequences: así que, de ahí que, tan… que"
+      body: |
+        Consequence connectors also differ in register:
+
+        - **así que, por eso** — conversational: *No pueden aparcar en la puerta, **así que** van al centro comercial.*
+        - **por lo tanto, por consiguiente** — more formal, typical of writing and debates: *El tráfico ha bajado; **por lo tanto**, el aire es más limpio.*
+        - **con lo que / por lo que** — "which means that": *Ahora van solos al colegio, **con lo que** los padres estamos más tranquilos.*
+        - **de ahí que + subjunctive** — "hence, that's why": *Hay más gente paseando; **de ahí que haya** más terrazas.* It always takes the subjunctive, even for a real fact.
+
+        **Intensity + consequence**: **tan** + adjective / adverb + **que**, **tanto/a/os/as** + noun + **que**, verb + **tanto que**: *Hay **tan poco** ruido **que** oigo los pájaros. Hay **tantas** bicis **que** han ampliado el carril. Ha bajado **tanto** el tráfico **que** el aire se nota limpio.*
+
+        **De modo que / de manera que** + **indicative** = a result (so): *Cerraron la calle, de modo que **tuvimos** que dar la vuelta.* + **subjunctive** = a purpose (so that): *Pon los carteles grandes, de modo que todo el mundo los **vea**.*
+      table: |
+        Connector | Register | Example
+        así que / por eso | conversational | No hay sitio para aparcar, así que voy en bici.
+        por lo tanto / por consiguiente | formal | El tráfico ha bajado; por lo tanto, hay menos ruido.
+        con lo que / por lo que | neutral | Van solos al colegio, con lo que estamos más tranquilos.
+        de ahí que + subjunctive | formal | Hay más peatones; de ahí que abran más terrazas.
+        tan + adj. / tanto + noun + que | neutral | Hay tanto ruido que no puedo dormir.
+        de modo que + subjunctive | purpose | Habla alto, de modo que todos te oigan.
+      examples: |
+        Hay tan poco ruido que por las mañanas oigo los pájaros desde la cocina. | There's so little noise that in the mornings I can hear the birds from the kitchen. | tan… que
+        Los clientes ya no pueden aparcar en la puerta, así que muchos se van al centro comercial. | Customers can't park outside any more, so many go to the shopping centre. | así que
+        Hay más gente paseando por el barrio; de ahí que haya tres terrazas nuevas en la plaza. | There are more people walking around the neighbourhood; hence there are three new terraces in the square. | de ahí que + subjunctive
+        Deberían permitir la carga y descarga por la mañana, de modo que los clientes puedan recoger las cosas pesadas. | They should allow loading in the morning, so that customers can pick up heavy things. | purpose: subjunctive
+      tip: "Tan goes with adjectives and adverbs (tan limpio, tan rápido); tanto agrees with nouns (tanto tráfico, tantas bicis). Never say tan tráfico."
+    dialogue:
+      title: La supermanzana
+      setting: A street in Vitoria-Gasteiz, six months after the area became a superblock closed to through traffic. Clara, a primary school teacher, meets Fermín, who runs the hardware shop on the corner.
+      speakers: F=Fermín/m; C=Clara/f
+      lines: |
+        F: Buenos días, Clara. ¿Qué, contenta con tu calle sin coches? Porque yo no tanto, te lo aseguro. | Morning, Clara. So, happy with your car-free street? Because I'm not so much, I can tell you.
+        C: Pues sí, la verdad. Hay tan poco ruido que por las mañanas oigo los pájaros desde la cocina. | Well, yes, to be honest. There's so little noise that in the mornings I can hear the birds from the kitchen.
+        F: Ya, pero los clientes ya no pueden aparcar en la puerta, así que muchos se van al centro comercial. | Sure, but customers can't park outside any more, so a lot of them go to the shopping centre.
+        C: ¿En serio? Yo veo más gente paseando que nunca. De ahí que ahora haya tres terrazas nuevas en la plaza. | Really? I see more people out walking than ever. That's why there are three new terraces in the square now.
+        F: Las terrazas sí, pero una ferretería es otra cosa. La gente viene a por sacos de cemento, no a tomar el sol. | The terraces, yes, but a hardware shop is something else. People come for bags of cement, not to sunbathe.
+        C: Tienes razón. Deberían permitir la carga y descarga a ciertas horas, de modo que los clientes puedan recoger las cosas pesadas. | You're right. They should allow loading and unloading at certain times, so that customers can collect heavy things.
+        F: Eso mismo pedimos en la reunión de comerciantes. Nos dijeron que lo estudiarían, así que a ver si hay suerte. | That's exactly what we asked for at the shopkeepers' meeting. They said they'd look into it, so let's see if we're lucky.
+        C: Para los niños, en cambio, es una maravilla. Ahora van solos al colegio, con lo que los padres estamos mucho más tranquilos. | For the children, on the other hand, it's wonderful. Now they walk to school on their own, which means we parents are much calmer.
+        F: Eso no te lo discuto. Mi nieta juega en la plaza hasta las nueve, algo que antes era impensable. | I won't argue with that. My granddaughter plays in the square until nine, something that was unthinkable before.
+        C: Además, ha bajado tanto el tráfico que el aire se nota mucho más limpio, sobre todo por la mañana. | Besides, traffic has gone down so much that you can feel the air is much cleaner, especially in the morning.
+        F: Bueno, bueno, me estás convenciendo. Pero si dentro de un año cierro la tienda, te mando la factura a ti. | All right, all right, you're winning me over. But if I close the shop in a year's time, I'll send you the bill.
+        C: ¡Trato hecho! Aunque estoy segura de que no hará falta. Por cierto, necesitaba una bombilla… | Deal! Although I'm sure it won't be necessary. By the way, I needed a light bulb…
+    pronunciation:
+      title: "r and rr in city words"
+      body: |
+        Spanish has two r sounds. The **tapped r** is a single quick touch of the tongue behind the top teeth, as in *ahora* or *tráfico*. The **trilled rr** is several quick taps and is used for **rr** between vowels (*barrio, carril, terraza*) and for **r** at the start of a word or after *n, l, s* (*ruido, alrededor*).
+
+        Contrast *pero* (tap) and *perro* (trill). Practise these city words, keeping the trill short and relaxed.
+      items: |
+        el barrio
+        el carril bici
+        las terrazas
+        la ferretería
+        el ruido
+        recuperar la calle
+    culture:
+      title: "Cities taking back their streets"
+      body: |
+        **Pontevedra**, in Galicia, began pedestrianising its centre at the end of the 1990s and has become an international reference for walkable cities. **Vitoria-Gasteiz** was European Green Capital in 2012, and **Barcelona** began creating its *superilles* (superblocks) in the district of Poblenou in 2016.
+
+        Since a 2021 climate law, Spanish towns and cities with more than fifty thousand inhabitants have to establish **zonas de bajas emisiones**. Each car has an environmental label — *etiqueta ambiental* — that determines where and when it can enter.
+    mistakes: |
+      Hay tan tráfico que no se puede cruzar. => Hay tanto tráfico que no se puede cruzar. | Before a noun use tanto / tanta / tantos / tantas; tan goes before adjectives and adverbs.
+      Hay más gente paseando; de ahí que hay más terrazas. => Hay más gente paseando; de ahí que haya más terrazas. | De ahí que is always followed by the subjunctive.
+      Hace tanto calor como no puedo dormir. => Hace tanto calor que no puedo dormir. | The structure is tanto… que, not tanto… como (which compares).
+    task:
+      title: A car-free weekend
+      mode: interaction
+      body: |
+        Your city is organising a car-free weekend. With a partner, plan what you will do and how you will get around, and discuss two consequences — positive or negative — for shops, families and visitors. Use *así que, con lo que, de ahí que* and *tan / tanto… que* at least once each. Then plan the weekend in the "Making weekend plans" scenario with the AI coach, suggesting activities that don't need a car.
+    exercises: |
+      fill: Han cerrado mi calle al tráfico, ___ ahora los niños juegan en la plaza. (conversational) || así que / por eso || A conversational consequence: así que or por eso. || @tags es.connectors
+      fill: El aire está ___ limpio que se ven las montañas desde el centro. || tan || Before an adjective (limpio), use tan… que. || @tags es.connectors
+      fill: Hay ___ bicicletas que el ayuntamiento ha tenido que ampliar el carril bici. || tantas || Before a noun, tanto agrees with it: bicicletas is feminine plural, so tantas. || @tags es.connectors
+      fill: El tráfico ha bajado mucho; de ahí que ___ (haber) menos ruido en el barrio. || haya || De ahí que is always followed by the subjunctive. || @tags es.connectors,es.subjunctive-triggers
+      mc: «Pon los carteles bien grandes, de modo que todo el mundo los vea.» Here de modo que expresses… || a consequence | *a purpose | a cause || With the subjunctive (vea), de modo que expresses purpose: so that everyone sees them. || @tags es.connectors,es.subjunctive-triggers
+      mc: Your neighbour says «Han prohibido el tráfico de paso». What has been banned? || *Cars driving through the area without stopping | Pedestrians crossing the street | All residents' cars || Tráfico de paso is through traffic; residents and deliveries can usually still enter. || @skill vocabulary @tags es.vocabulary
+      tf: Fermín was enthusiastic about the superblock from the start. || false || He says he isn't so happy, because customers can't park outside his shop. || @ctx dialogue
+      short: What does Clara suggest to help Fermín's shop? || kw: carga/descarga/loading/unloading/horas/hours/times || Allowing loading and unloading at certain times, so customers can collect heavy things. || @ctx dialogue
+      rw: Join the sentences with de ahí que :: Han peatonalizado la plaza. Ahora hay muchas más terrazas. || Han peatonalizado la plaza; de ahí que ahora haya muchas más terrazas. | Han peatonalizado la plaza, de ahí que ahora haya muchas más terrazas. | Han peatonalizado la plaza. De ahí que ahora haya muchas más terrazas. || De ahí que introduces the consequence and changes hay to the subjunctive haya. || @tags es.connectors,es.join
+      tr: There is so much traffic that we can't open the windows. || Hay tanto tráfico que no podemos abrir las ventanas. | Hay tanto tráfico que no se pueden abrir las ventanas. || Tanto + noun + que: tanto tráfico que… || @tags es.connectors
+      listen: Desde que pusieron la zona de bajas emisiones, la contaminación ha bajado tanto que este año no han tenido que activar ni una sola alerta. || What happened this year? || *No pollution alert was needed. | Two pollution alerts were activated. | The low-emission zone was removed. || «No han tenido que activar ni una sola alerta.» || @tags es.listening,es.connectors
+      listen: @dialogue || Why are parents calmer now, according to Clara? || The school has moved closer. | *The children can walk to school on their own. | There are more police in the street. || «Ahora van solos al colegio, con lo que los padres estamos mucho más tranquilos.» || @tags es.listening
+      dict: Han cerrado la calle al tráfico de paso, con lo que ahora hay mucho menos ruido. || con lo que = which means that
+      say: El barrio está tan tranquilo que parece un pueblo. || The neighbourhood is so quiet that it feels like a village.
+
+  - title: Debating solutions
+    summary: Debate environmental solutions, conceding and refuting arguments with es cierto que… pero, no porque… sino porque, si bien, mientras que and en cambio.
+    minutes: 50
+    skills: [listening, speaking, writing]
+    tags: [es.connectors, es.opinion]
+    objectives:
+      - Concede a point and counter-argue in a debate
+      - Reject a cause and give the real one with no porque + subjunctive, sino porque + indicative
+      - Contrast ideas with si bien, mientras que and en cambio, and propose a compromise
+    intro: |
+      Environmental solutions are rarely simple: a solar farm produces clean energy but takes up farmland; a wind farm creates jobs but changes the landscape. A good debater recognises the other side's arguments before answering them. In this lesson you will follow a local TV debate and learn the structures that make an argument sound balanced and convincing.
+    vocab: |
+      la energía renovable | renewable energy | n | España produce gran parte de su electricidad con energías renovables. | Spain produces a large part of its electricity from renewable energy. | g: f | c: energía solar; energía eólica
+      la planta solar | solar farm | n | La planta solar ocuparía dos mil hectáreas. | The solar farm would take up two thousand hectares. | g: f | n: Also: el parque solar, la huerta solar.
+      las placas solares | solar panels | n | Hemos puesto placas solares en el tejado. | We've put solar panels on the roof. | g: f | n: Also: los paneles solares.
+      el terreno | land; plot of land | n | Es un terreno que lleva años sin cultivarse. | It's land that hasn't been farmed for years. | g: m
+      el cultivo | crop; farming | n | Aquí los cultivos principales son el trigo y la cebada. | The main crops here are wheat and barley. | g: m | n: Verb: cultivar.
+      oponerse a | to oppose; to be against | v | Me opongo al proyecto tal como está. | I oppose the project as it stands. | n: Conjugated like poner: me opongo, se opuso.
+      los beneficios | benefits; profits | n | ¿Qué beneficios tendría para los pueblos? | What benefits would it bring the villages? | g: m
+      el impacto | impact | n | Todo proyecto tiene un impacto en el paisaje. | Every project has an impact on the landscape. | g: m | c: impacto ambiental
+      a largo plazo | in the long term | expr | A largo plazo, la energía solar es más barata. | In the long term, solar energy is cheaper. | n: The opposite is a corto plazo.
+      la solución intermedia | compromise; middle way | n | Buscamos una solución intermedia que convenza a todos. | We're looking for a compromise that convinces everyone. | g: f
+      que conste | for the record; let it be clear | expr | Que conste que no estoy en contra de las renovables. | For the record, I'm not against renewables.
+      lo cierto es que | the truth is that | expr | Lo cierto es que nadie nos había preguntado. | The truth is that nobody had asked us. | n: Not to be confused with es cierto que (it's true that), used to concede.
+    grammar:
+      title: "Arguing: no porque…, sino porque; si bien; mientras que"
+      body: |
+        In a debate you need to **concede**, **contrast** and **reject** arguments clearly.
+
+        - **Es cierto que… pero… / Es verdad que… sin embargo…** — concede, then counter-argue: *Es cierto que ocupa mucho terreno, pero buena parte no se cultiva.*
+        - **Si bien** + indicative — a formal "although", for facts you accept: ***Si bien** la mayoría de los empleos **son** temporales, quedarían cuarenta puestos fijos.*
+        - **No porque + subjunctive, sino porque + indicative** — reject one cause and give the real one: *Me opongo **no porque sea** solar, **sino porque ocupa** tierras de cultivo.* The rejected cause goes in the subjunctive.
+        - **Mientras que** — contrasts two subjects in one sentence (whereas): *Algunas tierras están abandonadas, **mientras que** otras son muy fértiles.*
+        - **En cambio** — "on the other hand", usually between commas or at the start: *Para los niños, **en cambio**, es una maravilla.* Don't confuse it with **en lugar de / en vez de** (instead of).
+        - **Lo cierto es que…** — "the truth is…", to state your main point after a discussion.
+      table: |
+        Function | Structure | Example
+        concede + counter | es cierto que…, pero… | Es cierto que es caro, pero a largo plazo se ahorra.
+        formal concession | si bien + indicative | Si bien es una buena idea, llega tarde.
+        reject a cause | no porque + subj., sino porque + ind. | No lo apoyo porque sea popular, sino porque funciona.
+        contrast two subjects | mientras que | Unos están a favor, mientras que otros se oponen.
+        on the other hand | en cambio | En el norte llueve; en el sur, en cambio, no.
+      examples: |
+        Me opongo, no porque sea solar, sino porque ocupa dos mil hectáreas de cultivo. | I'm against it, not because it's solar, but because it takes up two thousand hectares of farmland. | no porque + subjunctive
+        Si bien la energía eólica es limpia, algunos vecinos dicen que estropea el paisaje. | Although wind energy is clean, some residents say it spoils the landscape. | si bien + indicative
+        Algunas tierras llevan años abandonadas, mientras que otras son las mejores de la zona. | Some land has been abandoned for years, whereas other land is the best in the area. | mientras que
+        Lo cierto es que no existe una solución perfecta para todos. | The truth is that there's no perfect solution for everyone.
+      tip: "To sound balanced, follow a pattern: concede (es cierto que…), counter (pero…), conclude (lo cierto es que… / por lo tanto…)."
+    dialogue:
+      title: Placas solares, ¿dónde?
+      setting: A local television debate in Teruel about plans to build a large solar farm on farmland near several villages. Inés moderates; Marta is an engineer for the energy company and Paco is a farmer.
+      speakers: I=Inés/f; M=Marta/f; P=Paco/m
+      lines: |
+        I: Buenas noches. Hoy debatimos sobre la planta solar prevista en la comarca. Marta, ¿por qué aquí? | Good evening. Tonight we're debating the solar farm planned for the area. Marta, why here?
+        M: Porque es una de las zonas con más horas de sol del país y, además, ya hay líneas eléctricas cerca. | Because it's one of the areas with the most hours of sunshine in the country and, besides, there are already power lines nearby.
+        P: Yo no estoy en contra de la energía solar, que conste. Me opongo, no porque sea solar, sino porque ocupa tierras de cultivo. | I'm not against solar energy, for the record. I'm against it, not because it's solar, but because it takes up farmland.
+        M: Es cierto que ocupa mucho terreno, pero buena parte son tierras que llevan años sin cultivarse. | It's true that it takes up a lot of land, but a good part of it hasn't been farmed for years.
+        P: Algunas sí, mientras que otras son de los mejores campos de cereal de la zona. No es lo mismo un terreno abandonado que un campo de trigo. | Some of it, yes, whereas some is among the best cereal land in the area. Abandoned land isn't the same as a wheat field.
+        I: Marta, ¿qué beneficios tendría el proyecto para los pueblos? | Marta, what benefits would the project bring the villages?
+        M: Si bien la mayoría de los empleos se crean durante la construcción, quedarían unos cuarenta puestos fijos de mantenimiento. | Although most of the jobs are created during construction, around forty permanent maintenance jobs would remain.
+        P: Cuarenta puestos está bien. En cambio, se perderían tierras que dan trabajo a muchas familias desde hace generaciones. | Forty jobs is fine. On the other hand, we'd lose land that has given work to many families for generations.
+        I: ¿Y no hay una solución intermedia? | And isn't there a middle way?
+        M: La hay. Podríamos combinar placas y cultivos en algunas parcelas, o reducir la planta y usar los tejados de las naves industriales. | There is. We could combine panels and crops on some plots, or make the farm smaller and use the roofs of industrial buildings.
+        P: Eso ya me gusta más. Lo cierto es que, hasta hoy, nadie nos había preguntado nada. | I like that better. The truth is that, until today, nobody had asked us anything.
+        I: Pues quizás ese sea el primer paso: escuchar a los vecinos antes de decidir. | Well, perhaps that's the first step: listening to local people before deciding.
+    pronunciation:
+      title: "Contrastive stress in an argument"
+      body: |
+        In a debate, you can make a contrast clearer by stressing the words that carry it and pausing briefly before the second part: *Me opongo, no porque sea **so**lar, | sino porque ocupa **tie**rras de cultivo.* The voice rises on the first contrasted word and falls on the second.
+
+        With *en cambio* and *que conste*, use a short pause on both sides, like commas you can hear.
+      items: |
+        Que conste que no estoy en contra.
+        Es cierto que es caro, pero…
+        No porque sea solar, sino porque…
+        Mientras que otras son muy fértiles…
+        En cambio, se perderían tierras.
+        Lo cierto es que nadie nos preguntó.
+    mistakes: |
+      Me opongo no porque es solar, sino porque ocupa tierras. => Me opongo no porque sea solar, sino porque ocupa tierras. | The rejected cause after no porque goes in the subjunctive.
+      Si bien sea una buena idea, llega tarde. => Si bien es una buena idea, llega tarde. | Si bien takes the indicative.
+      En cambio de usar el coche, voy en bici. => En lugar de usar el coche, voy en bici. | En cambio means "on the other hand"; "instead of" is en lugar de or en vez de.
+    task:
+      title: A local debate
+      mode: interaction
+      body: |
+        Your town has to decide on one project: a wind farm on a nearby hill, a new car park in the centre or a large recycling plant. Choose a side and prepare three arguments and one possible compromise. Then defend your position in the "Taking part in a business meeting" scenario with the AI coach, treating it as a meeting with local representatives. Concede at least one point (*es cierto que… pero*), use *no porque… sino porque* and *si bien*, and end with *lo cierto es que…*
+    exercises: |
+      fill: Apoyo la medida no porque ___ (ser) popular, sino porque funciona. || sea || The rejected cause after no porque takes the subjunctive. || @tags es.connectors,es.subjunctive-triggers
+      fill: Si bien la energía solar ___ (ser) cada vez más barata, almacenarla sigue siendo caro. || es || Si bien is a formal "although" and takes the indicative. || @tags es.connectors
+      fill: Algunos vecinos apoyan el proyecto, ___ otros lo rechazan totalmente. || mientras que || Mientras que contrasts two groups in the same sentence: whereas. || @tags es.connectors
+      mc: Choose the correct sentence. || En cambio de ir en coche, voy en bici. | *En lugar de ir en coche, voy en bici. | En cambio ir en coche, voy en bici. || "Instead of" is en lugar de (or en vez de); en cambio means "on the other hand". || @tags es.connectors
+      mc: Paco says «Que conste que no estoy en contra de la energía solar». He means: || *For the record, I'm not against solar energy. | I'm counting on solar energy. | It costs me nothing to support solar energy. || Que conste = for the record, let it be clear. || @skill vocabulary @tags es.vocabulary
+      tf: Paco is against solar energy in general. || false || He says he isn't against solar energy; he objects because the farm takes up farmland. || @ctx dialogue
+      short: What compromise does Marta suggest? || kw: combinar/combine/cultivos/crops/tejados/roofs/naves/reducir/smaller/reduce || Combining panels and crops, or making the farm smaller and using the roofs of industrial buildings. || @ctx dialogue
+      rw: Rewrite with «no porque…, sino porque…» :: Voy en tren. No es más rápido. Contamina menos. || Voy en tren no porque sea más rápido, sino porque contamina menos. | Voy en tren, no porque sea más rápido, sino porque contamina menos. || No porque + subjunctive (sea) rejects a cause; sino porque + indicative gives the real one. || @tags es.connectors,es.subjunctive-triggers
+      tr: Although wind energy is clean, some people say it spoils the landscape. (use si bien) || Si bien la energía eólica es limpia, algunas personas dicen que estropea el paisaje. | Si bien la energía eólica es limpia, hay quien dice que estropea el paisaje. | Si bien la energía eólica es limpia, algunos dicen que estropea el paisaje. | Si bien la energía eólica es limpia, algunas personas dicen que afea el paisaje. | Si bien la energía eólica es limpia, hay gente que dice que estropea el paisaje. || Si bien + indicative (es) for a fact you accept. || @tags es.connectors
+      listen: Es cierto que los coches eléctricos no contaminan en la ciudad, pero fabricar sus baterías también tiene un impacto importante. || What is the speaker's main point? || *Electric cars also have an environmental impact. | Electric cars pollute a lot in cities. | Batteries are cheap to make. || The speaker concedes (es cierto que…) and then counter-argues: the batteries have an impact. || @tags es.listening,es.connectors
+      listen: @dialogue || What does Paco admit at the end? || That he will sell his land | *That nobody had asked the residents until then | That the solar farm is a good idea as it is || «Lo cierto es que, hasta hoy, nadie nos había preguntado nada.» || @tags es.listening
+      dict: Lo cierto es que no existe una solución perfecta para todos. || lo cierto es que = the truth is that
+      say: Me opongo, no porque sea caro, sino porque no resuelve el problema. || I'm against it, not because it's expensive, but because it doesn't solve the problem.
+      write: Write a paragraph (90–110 words) for or against this proposal: «Prohibir los vuelos nacionales cuando exista una alternativa en tren de menos de tres horas.» Concede one point, reject one argument and reach a conclusion. || min=80 || req: es cierto que/si bien | no porque/mientras que/en cambio | por lo tanto/por eso/así que/de ahí que/lo cierto es que || Estoy a favor de la propuesta, no porque los aviones sean el único problema, sino porque es una medida sencilla y eficaz. Es cierto que algunas personas necesitan viajar rápido por trabajo. Sin embargo, en trayectos cortos el tren tarda casi lo mismo si contamos el tiempo en el aeropuerto. Además, el avión contamina mucho más por pasajero, mientras que el tren llega al centro de las ciudades. Si bien habría que bajar el precio de los billetes de tren, lo cierto es que la medida reduciría las emisiones sin grandes sacrificios.

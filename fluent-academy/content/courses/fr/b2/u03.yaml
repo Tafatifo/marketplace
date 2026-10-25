@@ -1,0 +1,349 @@
+unit: 3
+title: La science en questions
+theme: Science and technology
+description: Debate the ethics of innovation, discuss artificial intelligence and understand health news, using the passive voice in all tenses, its everyday alternatives (on, se + verb, se faire + infinitive) and nominalisation.
+free: false
+objectives:
+  - Use the passive voice in all tenses, with or without an agent
+  - Choose natural alternatives to the passive in speech
+  - Understand and write headlines and formal texts using nominalisation
+canDo:
+  - I can follow and join a debate about the ethics of a new technology.
+  - I can describe what is done, was done or will be done without naming who does it.
+  - I can talk about the uses and risks of artificial intelligence.
+  - I can understand health news briefs and turn sentences into headlines.
+review: |
+  fill: Le projet ___ (examiner, futur passif) par un comité d'éthique en mars. || sera examiné || Future passive: être in the future + participle, sera examiné. || @tags fr.passive
+  fill: Ces données ont été ___ (collecter) sans autorisation. || collectées || In the passé composé passive, the last participle agrees with the subject (les données, feminine plural). || @tags fr.passive,fr.past-participle-agreement
+  mc: "Ce chercheur est respecté ___ tous ses collègues." || *de | à | pour || With verbs of feeling such as respecter, the agent is often introduced by de (par is also possible). || @tags fr.passive
+  mc: Which sentence uses the pronominal passive? || *Ce logiciel se télécharge gratuitement. | Ce logiciel est téléchargé par mon frère. | On télécharge ce logiciel gratuitement. || Se + verb with a thing as subject and no agent is the pronominal passive. || @tags fr.passive
+  fill: Elle s'est ___ (faire) piéger par un faux message. || fait || Se faire + infinitive: fait never agrees, even with a feminine subject. || @tags fr.passive
+  rw: Rewrite the sentence with "on" :: Il a été conseillé aux patients de se reposer. || On a conseillé aux patients de se reposer. || Conseiller à quelqu'un is an indirect construction: in everyday French, use on + active verb. || @tags fr.passive
+  fill: Le traitement est efficace → L'___ du traitement. || efficacité || The noun from efficace is l'efficacité (-ité, feminine). || @tags fr.vocabulary
+  rw: Turn the sentence into a headline :: Les urgences ferment la nuit. || Fermeture des urgences la nuit. | Fermeture nocturne des urgences. | Fermeture des urgences pendant la nuit. || Fermer → la fermeture; the subject becomes a complement with de (des urgences). || @tags fr.vocabulary
+  listen: Cette découverte, annoncée hier, devra être confirmée par des essais cliniques avant toute mise sur le marché. || What must happen before the product can be sold? || *Clinical trials must confirm the discovery | The discovery must be announced officially | Doctors must be trained to use it || "Devra être confirmée par des essais cliniques" — a passive in the future. || @tags fr.listening,fr.passive
+  listen: Ça ne se fait pas de publier une étude sans la faire relire par d'autres chercheurs. || What does the speaker consider unacceptable? || *Publishing a study without having other researchers review it | Asking other researchers for help | Publishing a study too late || Ça ne se fait pas = it isn't done; it isn't acceptable. || @tags fr.listening,fr.passive
+  ask: Talk about an innovation that excites or worries you, using the passive at least once. || kw: est/sont/a été/ont été/sera/seront/être & testé/testée/testés/utilisé/utilisée/utilisés/développé/développée/autorisé/autorisée/autorisés/contrôlé/contrôlée/contrôlés/remplacé/remplacés || Les voitures autonomes m'inquiètent un peu. Elles sont déjà testées dans plusieurs villes, mais je ne suis pas sûre qu'elles soient assez contrôlées.
+  write: Write a news brief (80–100 words) about a scientific or medical discovery, with a nominalised headline, two passives and one piece of unconfirmed information. || min=80 || req: a été/ont été/sera/seront/devra être/devront être/est/sont | aurait/auraient/serait/seraient/pourrait/pourraient || Découverte d'une plante contre la fatigue ? Une plante de montagne pourrait réduire la fatigue chronique, selon une étude publiée lundi. Les premiers tests ont été réalisés sur une centaine de volontaires, qui auraient retrouvé de l'énergie en quelques semaines. Prudence toutefois : l'étude n'a pas encore été relue par d'autres chercheurs, et les résultats devront être confirmés par des essais plus larges. La mise sur le marché d'un médicament ne serait pas envisagée avant plusieurs années.
+lessons:
+  - title: Innovation and ethics
+    summary: Follow a podcast debate on cultivated meat and use the passive voice in all tenses to focus on what is done rather than on who does it.
+    minutes: 50
+    skills: [listening, grammar, speaking]
+    tags: [fr.passive]
+    objectives:
+      - Discuss the ethical questions raised by an innovation
+      - Form the passive in all tenses, including the infinitive and the subjunctive
+      - Introduce the agent with par or de, or leave it out
+    intro: |
+      Every innovation raises the same questions: who controls it, who benefits, and who was consulted? When we discuss science, we often focus on **what is done** rather than on **who does it** — *les cellules sont prélevées, la vente a été autorisée*. That is the job of the **passive voice**, which French uses in every tense and is very frequent in scientific and journalistic language.
+    vocab: |
+      l'innovation | innovation | n | L'innovation va souvent plus vite que la loi. | Innovation often moves faster than the law. | g: f
+      l'éthique | ethics | n | Ce projet pose des questions d'éthique. | This project raises ethical questions. | g: f | n: Also an adjective: un comité d'éthique, une question éthique.
+      la viande cultivée | cultivated meat | n | La viande cultivée est produite à partir de cellules animales. | Cultivated meat is produced from animal cells. | g: f | n: Also called viande de laboratoire.
+      une cellule | a cell | n | Les cellules sont cultivées dans des cuves. | The cells are grown in tanks. | g: f
+      prélever | to take (a sample) | v | On a prélevé quelques cellules sur l'animal. | A few cells were taken from the animal. | n: Un prélèvement = a sample. Je prélève, nous prélevons.
+      un éleveur | a livestock farmer | n | Les éleveurs craignent pour leur métier. | Livestock farmers fear for their profession. | g: m | n: Feminine: une éleveuse. L'élevage = livestock farming.
+      abattre | to slaughter; to cut down | v | Aucun animal n'est abattu. | No animal is slaughtered. | n: Past participle: abattu. Un abattoir = a slaughterhouse.
+      les autorités sanitaires | the health authorities | n | Le produit doit être évalué par les autorités sanitaires. | The product must be assessed by the health authorities. | g: f
+      autoriser | to authorise; to allow | v | La vente a été autorisée en 2020. | The sale was authorised in 2020. | n: Une autorisation; interdire = to ban.
+      coexister | to coexist | v | Les deux modèles pourraient coexister. | The two models could coexist.
+      suivre de près | to follow closely | expr | Le débat est suivi de près par les consommateurs. | The debate is being followed closely by consumers.
+      un enjeu | an issue; what is at stake | n | Les enjeux éthiques sont considérables. | The ethical issues are considerable. | g: m | pl: des enjeux
+    grammar:
+      title: The passive voice in all tenses
+      body: |
+        In the passive, the object of the action becomes the subject: *On cultive les cellules* → *Les cellules **sont cultivées**.* It is formed with **être** + **past participle**, and the participle agrees with the subject like an adjective.
+
+        The tense is carried by *être*: *sont prélevées* (present), *a été présenté* (passé composé), *était utilisée* (imparfait), *sera suivi* (future), *serait autorisée* (conditional), *que notre métier **soit remplacé*** (subjunctive), *avant d'**être vendus*** (infinitive).
+
+        The agent is introduced by **par**: *Le débat sera suivi **par** les consommateurs.* With verbs of feeling or description (*aimer, respecter, connaître, entourer, couvrir*), **de** is common: *Elle est respectée **de** tous.* Often the agent is simply left out — that is the point of the passive: *La vente a été autorisée en 2020.*
+
+        Only verbs with a **direct object** can become passive. *On m'a demandé de venir* cannot become ~~je suis demandé~~: keep *on* (see lesson 2).
+      table: |
+        Tense | Active | Passive
+        présent | on contrôle les produits | les produits sont contrôlés
+        passé composé | on a présenté le steak | le steak a été présenté
+        imparfait | on utilisait cette méthode | cette méthode était utilisée
+        futur | on suivra le débat | le débat sera suivi
+        conditionnel | on autoriserait la vente | la vente serait autorisée
+        subjonctif | qu'on remplace notre métier | que notre métier soit remplacé
+      examples: |
+        Ces produits devraient être évalués par les autorités sanitaires. | These products should be assessed by the health authorities. | passive infinitive
+        Le premier steak cultivé a été présenté à Londres en 2013. | The first cultivated burger was presented in London in 2013. | passé composé
+        Les éleveurs n'ont pas été consultés. | The farmers weren't consulted. | no agent
+        Cette chercheuse est connue de tous ses collègues. | This researcher is known to all her colleagues. | de with a verb of state
+      tip: "In the passé composé passive there are two participles: a été + présenté. Été never changes; only the second participle agrees — les produits ont été présentés."
+    dialogue:
+      title: Science en débat
+      setting: A science podcast. The host, Clarisse, has invited Malik, a biologist, and Gilles, a cattle farmer from the Aveyron, to discuss cultivated meat.
+      speakers: C=Clarisse/f; M=Malik/m; G=Gilles/m
+      lines: |
+        C: Bienvenue dans « Science en débat ». Aujourd'hui, une question qui divise : faut-il autoriser la viande cultivée ? | Welcome to "Science en débat". Today, a divisive question: should cultivated meat be authorised?
+        M: Le principe est simple : des cellules sont prélevées sur un animal vivant, puis elles sont cultivées en laboratoire. | The principle is simple: cells are taken from a living animal, then grown in a laboratory.
+        C: Et l'animal n'est pas abattu. C'est l'argument qui est le plus souvent avancé, non ? | And the animal isn't slaughtered. That's the argument most often put forward, isn't it?
+        M: Exactement. Le premier steak cultivé a été présenté à Londres en 2013, et il avait coûté plus de deux cent mille euros. | Exactly. The first cultivated burger was presented in London in 2013, and it had cost more than two hundred thousand euros.
+        G: Moi, je suis éleveur dans l'Aveyron. Je me demande par qui ces produits seront contrôlés, et selon quelles règles. | I'm a cattle farmer in the Aveyron. I wonder who these products will be checked by, and according to what rules.
+        M: C'est une vraie question. Avant d'être vendus en Europe, ils doivent être évalués par les autorités sanitaires. | That's a real question. Before being sold in Europe, they have to be assessed by the health authorities.
+        C: Est-ce que leur vente a déjà été autorisée quelque part dans le monde ? | Has their sale already been authorised anywhere in the world?
+        M: Oui, elle a été autorisée à Singapour dès 2020, puis aux États-Unis en 2023. | Yes, it was authorised in Singapore in 2020, then in the United States in 2023.
+        G: Ce qui m'inquiète, c'est que notre métier soit remplacé par des usines, sans que personne ne soit consulté. | What worries me is that our profession might be replaced by factories without anyone being consulted.
+        M: Je comprends. D'ailleurs, beaucoup de chercheurs pensent que l'élevage et la viande cultivée pourraient coexister. | I understand. In fact, many researchers think that livestock farming and cultivated meat could coexist.
+        C: Une chose est sûre : ce débat sera suivi de près par les consommateurs comme par les éleveurs. | One thing is certain: this debate will be followed closely by consumers and farmers alike.
+        G: Et j'espère que nous serons enfin écoutés avant que les décisions soient prises ! | And I hope we'll finally be listened to before the decisions are made!
+    pronunciation:
+      title: "a été, ont été, sera suivi"
+      body: |
+        In *a été* [a.e.te], three vowels follow each other: pronounce each one clearly, without adding a consonant. In *ont été* [ɔ̃.te.te], the liaison in [t] is usual: *ils ont été consultés* [il.zɔ̃.te.te.kɔ̃.syl.te].
+
+        Both vowels of *été* are a closed [e], like the end of the participles *présenté, consulté*. Passive sentences contain many [e] sounds — keep them short and tense.
+      items: |
+        a été présenté
+        ils ont été autorisés
+        sera suivi de près
+        devraient être évalués
+        les autorités sanitaires
+        l'éthique
+    mistakes: |
+      Les produits ont été présenté. => Les produits ont été présentés. | Été never changes, but the second participle agrees with the subject.
+      Je suis demandé de venir. => On m'a demandé de venir. | Demander à quelqu'un is indirect: it can't become passive, so use on.
+      Le steak a été présenté de un chercheur. => Le steak a été présenté par un chercheur. | The agent of an action is introduced by par; de is used mainly with verbs of feeling or state.
+    task:
+      title: Should it be allowed?
+      mode: interaction
+      body: |
+        Choose an innovation (cultivated meat, driverless cars, brain implants, delivery drones). In a group, one person presents how it works using the passive (*est produit, a été testé, sera utilisé…*), and the others ask who controls it and raise ethical questions. Finish by voting. Then defend your position with the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      fill: Les cellules ___ (prélever, présent passif) sur un animal vivant. || sont prélevées || Present passive: sont + participle; les cellules is feminine plural, so prélevées. || @tags fr.passive
+      fill: Le premier steak cultivé ___ (présenter, passé composé passif) en 2013. || a été présenté || Passé composé passive: a été + participle, agreeing with le steak (masculine singular). || @tags fr.passive
+      fill: Avant d'être vendus, ces produits devront ___ (évaluer) par une agence européenne. || être évalués || Passive infinitive after devoir: être + participle agreeing with ces produits. || @tags fr.passive
+      mc: "Les éleveurs n'ont pas été ___." || consulté | *consultés | consultées || The participle agrees with les éleveurs, masculine plural. || @tags fr.passive,fr.past-participle-agreement
+      mc: Which active sentence cannot be made passive? || On a testé le vaccin. | *On a téléphoné au chercheur. | On a publié l'étude. || Téléphoner à has no direct object, so there is nothing to become the subject of a passive. || @tags fr.passive
+      tf: Gilles is a biologist. || false || Gilles is a cattle farmer: "Je suis éleveur dans l'Aveyron." Malik is the biologist. || @ctx dialogue
+      short: In which country was the sale of cultivated meat first authorised? || kw: Singapour/Singapore || "Elle a été autorisée à Singapour dès 2020." || @ctx dialogue
+      listen: @dialogue || What worries Gilles most? || *That his profession could be replaced by factories without anyone being consulted | That cultivated meat will be too expensive | That the animals will suffer || "C'est que notre métier soit remplacé par des usines, sans que personne ne soit consulté." || @tags fr.listening,fr.passive
+      listen: Cette découverte a été saluée par toute la communauté scientifique, mais elle n'a pas encore été confirmée par d'autres équipes. || What is still missing? || *Confirmation by other research teams | Funding for the research | Publication of the results || "Elle n'a pas encore été confirmée par d'autres équipes." || @tags fr.listening,fr.passive
+      rw: Put the sentence into the passive :: Un comité d'éthique examinera le projet. || Le projet sera examiné par un comité d'éthique. || The object (le projet) becomes the subject; être takes the future (sera); the agent follows par. || @tags fr.passive
+      tr: This method was used for twenty years. || Cette méthode a été utilisée pendant vingt ans. | Cette méthode a été employée pendant vingt ans. || A finished period in the past: passé composé passive, a été utilisée (feminine agreement). || @tags fr.passive
+      dict: Le débat sera suivi de près par les consommateurs. || suivi de près
+      ask: Should cultivated meat be authorised in your country? Give your opinion, using the passive at least once. || kw: autorisé/autorisée/autoriser/interdit/interdite/contrôlé/contrôlée/contrôlés/évalué/évaluée/évalués/consultés & viande/éleveurs/consommateurs/produit/produits || Je pense qu'elle pourrait être autorisée, à condition que les produits soient contrôlés très strictement et que les éleveurs soient consultés.
+
+  - title: Artificial intelligence
+    summary: Talk about the uses and risks of artificial intelligence and use natural alternatives to the passive — on, se + verb, se faire and se laisser + infinitive.
+    minutes: 45
+    skills: [listening, grammar, speaking, writing]
+    tags: [fr.passive]
+    objectives:
+      - Discuss the uses and risks of artificial intelligence at work and in daily life
+      - Use on and the pronominal passive (ça se traduit, ça ne se fait pas)
+      - Use se faire and se laisser + infinitive for things that happen to you
+    intro: |
+      Machine translation, generated images, chatbots: artificial intelligence is now part of everyday conversation. In spoken French, people rarely say *ce texte est traduit par une IA*; they say **ça se traduit** in seconds, **on me demande** de relire, **je me suis fait avoir** par une fausse photo. These alternatives to the passive are what make your French sound natural rather than bookish.
+    vocab: |
+      l'intelligence artificielle | artificial intelligence | n | L'intelligence artificielle transforme le métier de traducteur. | Artificial intelligence is transforming the translator's profession. | g: f | n: Abbreviated l'IA [i.a].
+      un outil | a tool | n | C'est un outil utile, mais pas magique. | It's a useful tool, but not a magic one. | g: m
+      entraîner | to train | v | Ces modèles ont été entraînés sur des millions de textes. | These models were trained on millions of texts. | n: Also to train athletes. L'entraînement = training.
+      générer | to generate | v | Cette image a été générée par une IA. | This image was generated by an AI. | n: Je génère, nous générons.
+      post-éditer | to post-edit | v | On me demande de post-éditer des traductions automatiques. | I'm asked to post-edit machine translations. | n: La post-édition = correcting a machine translation.
+      relire | to proofread; to reread | v | Il faut tout relire avant de publier. | You have to proofread everything before publishing. | n: La relecture = proofreading.
+      la fluidité | fluency; smoothness | n | La fluidité du texte inspire confiance. | The smoothness of the text inspires confidence. | g: f
+      les données | data | n | Qui contrôle nos données personnelles ? | Who controls our personal data? | g: f | n: Plural in this meaning. La protection des données = data protection.
+      les droits d'auteur | copyright; royalties | n | La question des droits d'auteur n'est pas réglée. | The copyright question hasn't been settled. | g: m
+      un hypertrucage | a deepfake | n | Cette vidéo est un hypertrucage très réaliste. | This video is a very realistic deepfake. | g: m | n: The official French term; in everyday speech people often say un deepfake.
+      se faire avoir | to be fooled; to be had | expr | Je me suis fait avoir par une fausse publicité. | I got fooled by a fake ad. | n: Informal but very common.
+      vérifier | to check | v | Pensez à vérifier la source avant de partager. | Remember to check the source before sharing. | c: vérifier une source; vérifier les faits
+    grammar:
+      title: "Alternatives to the passive: on, se + verb, se faire + infinitive"
+      body: |
+        Everyday French uses the *être* passive less than English does. It prefers four alternatives:
+
+        - **on + active verb**, when the agent is vague or obvious: ***On** me demande de post-éditer.* This is the only option with indirect verbs (*demander à, dire à, conseiller à, permettre à*).
+        - **The pronominal passive** — *se* + verb in the third person — for habits, general truths and norms, with a thing as subject and no agent: *Ce texte **se traduit** en quelques secondes. Ça **ne se fait pas**.*
+        - **se faire + infinitive**, when something happens to the subject — often something unpleasant: *J'ai peur de **me faire remplacer**. Je **me suis fait avoir**.* In compound tenses *fait* never agrees: *elle s'est **fait** voler son vélo.*
+        - **se laisser + infinitive**, when the subject lets something happen: *On **se laisse endormir** par sa fluidité.*
+
+        The *être* passive remains natural in writing and when you focus on a result: *Ces outils **ont été entraînés** sur des millions de textes.*
+      table: |
+        Structure | Use | Example
+        on + active verb | vague agent; indirect verbs | On m'a proposé un contrat.
+        se + verb | habit, general truth, norm | Ça se traduit facilement.
+        se faire + infinitive | something happens to the subject | Il s'est fait remplacer.
+        se laisser + infinitive | the subject lets it happen | Ne te laisse pas impressionner.
+        être + participle | writing; focus on the result | Les outils ont été entraînés.
+      examples: |
+        Les images générées par IA se partagent très vite. | AI-generated images are shared very quickly. | pronominal passive
+        On a demandé aux traducteurs de relire les textes. | The translators were asked to proofread the texts. | on with an indirect verb
+        Ma collègue s'est fait piéger par un faux message. | My colleague got caught out by a fake message. | se faire + infinitive
+        Ça ne se dit pas dans un courrier professionnel. | You don't say that in a professional letter. | a norm
+      tip: "The pronominal passive never takes an agent with par. If you need to say who does it, switch to the être passive: ce texte a été traduit par une IA."
+    dialogue:
+      title: Traductrice ou post-éditrice ?
+      setting: Aya, a translator, and her friend Corentin, a web developer, talk over a coffee in Strasbourg about AI at work and online.
+      speakers: A=Aya/f; C=Corentin/m
+      lines: |
+        A: Tu as vu ? Mon agence fait maintenant traduire toutes les notices techniques par une IA. | Have you seen? My agency now has all its technical manuals translated by an AI.
+        C: Ça ne m'étonne pas. Aujourd'hui, ce genre de texte se traduit en quelques secondes. | I'm not surprised. These days, that kind of text gets translated in a few seconds.
+        A: Oui, mais il faut tout relire. L'autre jour, une erreur grave ne s'est vue qu'à l'impression ! | Yes, but you have to proofread everything. The other day, a serious mistake was only spotted at the printing stage!
+        C: C'est le piège : on fait confiance à la machine, et on se laisse endormir par sa fluidité. | That's the trap: you trust the machine and let yourself be lulled by how smooth it sounds.
+        A: Moi, j'ai surtout peur de me faire remplacer. On me demande déjà de post-éditer au lieu de traduire. | What I'm most afraid of is being replaced. I'm already asked to post-edit instead of translating.
+        C: Je comprends. Mais une traduction littéraire, ça ne se fait pas en appuyant sur un bouton. | I understand. But a literary translation isn't done at the push of a button.
+        A: C'est vrai. Et puis ces outils ont été entraînés sur des millions de textes humains, souvent sans autorisation. | True. And these tools were trained on millions of texts written by humans, often without permission.
+        C: Justement, ça se discute beaucoup en ce moment, surtout la question des droits d'auteur. | Exactly, that's being widely debated at the moment, especially the copyright question.
+        A: En attendant, je me suis fait avoir hier soir par une fausse photo générée par IA. | Meanwhile, I got fooled last night by a fake AI-generated photo.
+        C: Ça arrive à tout le monde. Ces images se partagent si vite qu'on ne vérifie plus rien. | It happens to everyone. These images get shared so fast that nobody checks anything any more.
+        A: Bref, l'IA peut nous aider, à condition qu'on ne se laisse pas dicter nos choix. | In short, AI can help us, as long as we don't let it dictate our choices.
+        C: D'accord avec toi. Un outil, ça se maîtrise : tout dépend de l'usage qu'on en fait. | I agree. A tool has to be mastered: it all depends on how you use it.
+    pronunciation:
+      title: "ça se dit, je me suis fait avoir"
+      body: |
+        In fast speech, the *e* of *se* and *me* is usually dropped: *ça se traduit* [sas.tʁa.dɥi], *ça ne se fait pas* [san.sə.fɛ.pa] or even [sas.fɛ.pa], *je me suis fait avoir* [ʒəm.sɥi.fɛ.a.vwaʁ].
+
+        In *intelligence artificielle* [ɛ̃.te.li.ʒɑ̃s.aʁ.ti.fi.sjɛl], link the final [s] of *intelligence* to the vowel of *artificielle* without a pause.
+      items: |
+        ça se traduit
+        ça ne se fait pas
+        je me suis fait avoir
+        se faire remplacer
+        l'intelligence artificielle
+        un hypertrucage
+    mistakes: |
+      Je suis demandé de relire. => On me demande de relire. | Demander à quelqu'un is indirect, so it can't be made passive: use on.
+      Elle s'est faite avoir. => Elle s'est fait avoir. | In se faire + infinitive, fait never agrees.
+      Ce texte s'est traduit par une IA. => Ce texte a été traduit par une IA. | The pronominal passive doesn't take an agent; with par, use the être passive.
+    task:
+      title: AI and me
+      mode: speaking
+      body: |
+        Prepare a two-minute talk on how you use (or refuse to use) artificial intelligence at work, in your studies or at home. Describe one benefit, one risk and one time you or someone you know got fooled. Use at least four alternatives to the passive (*on, ça se fait, se faire + infinitive, se laisser…*).
+    exercises: |
+      fill: Ce genre de document ___ (se traduire) aujourd'hui en quelques secondes. || se traduit || Pronominal passive for a general truth: ce genre de document se traduit. || @tags fr.passive
+      fill: Ma voisine s'est ___ (faire) voler son vélo hier. || fait || Se faire + infinitive: fait never agrees, even with a feminine subject. || @tags fr.passive
+      rw: Rewrite the sentence with "on" :: Il a été demandé aux salariés de suivre une formation. || On a demandé aux salariés de suivre une formation. || Demander à is indirect: in natural French, use on + active verb. || @tags fr.passive
+      mc: "Ça ne se fait pas" means… || *That isn't done; it isn't acceptable | That can't be manufactured | That hasn't been done yet || The pronominal passive often expresses a social norm. || @tags fr.passive
+      mc: Which sentence is correct? || Je suis demandé de vérifier les sources. | *On me demande de vérifier les sources. | Je me demande de vérifier les sources. || Demander à quelqu'un is indirect, so the natural option is on me demande. Je me demande means "I wonder". || @tags fr.passive
+      tf: Aya's agency has stopped using AI. || false || Her agency now has all its technical manuals translated by an AI. || @ctx dialogue
+      short: What happened to Aya yesterday evening? || kw: photo/image/picture/fausse/fake/deepfake/fooled/avoir || "Je me suis fait avoir hier soir par une fausse photo générée par IA." || @ctx dialogue
+      listen: @dialogue || On what condition can AI help us, according to Aya? || *If we don't let it dictate our choices | If it is free for everyone | If it only translates technical texts || "À condition qu'on ne se laisse pas dicter nos choix." || @tags fr.listening
+      listen: Ces outils se perfectionnent chaque mois, mais ils se trompent encore souvent sur les noms propres et les chiffres. || What do these tools still often get wrong? || *Proper names and numbers | Grammar and spelling | Long, complex sentences || "Ils se trompent encore souvent sur les noms propres et les chiffres." || @tags fr.listening
+      tr: I'm afraid of being replaced by a machine. || J'ai peur de me faire remplacer par une machine. | J'ai peur d'être remplacé par une machine. | J'ai peur d'être remplacée par une machine. || Se faire remplacer is the most natural option in speech; d'être remplacé(e) is also correct. || @tags fr.passive
+      dict: Ma sœur s'est fait piéger par un faux message de sa banque. || s'est fait piéger
+      ask: A friend says that AI will soon replace all translators. React with nuance. || kw: on/se fait/se font/ça se/se faire/se laisser/se laisse & traduction/traducteur/traducteurs/traductrices/machine/outil/IA || Je ne crois pas. Une notice se traduit vite, d'accord, mais un roman, ça ne se fait pas en un clic. Par contre, on va sûrement demander aux traducteurs de relire davantage.
+      write: Write a paragraph (60–80 words) about how AI is used in your job or studies, using at least three alternatives to the passive. || min=60 || req: on a/on me/on nous/on peut/on utilise/on demande | se traduit/se traduisent/se fait/se font/se corrige/se corrigent/se dit/se partage/se partagent/se vérifie | se faire/me suis fait/s'est fait/se laisse/se laisser || Dans mon école, on utilise l'IA pour préparer des exercices. Un texte simple se traduit en quelques secondes et une erreur d'orthographe se corrige automatiquement. Mais nos professeurs nous demandent de vérifier chaque source, parce qu'on peut facilement se faire avoir par une réponse fausse mais bien écrite. Moi, j'essaie de ne pas me laisser impressionner par la fluidité des réponses.
+
+  - title: Health and medicine in the news
+    summary: Read health news briefs and use nominalisation to understand headlines and write in a concise, formal style.
+    minutes: 45
+    skills: [reading, vocabulary, writing]
+    tags: [fr.vocabulary, fr.passive]
+    objectives:
+      - Understand short health news items and their headlines
+      - Form nouns from verbs and adjectives (-tion, -ment, -age, -ure, -ité and nouns without a suffix)
+      - Turn a sentence into a headline, moving the subject into a complement with de
+    intro: |
+      *Hausse des cas de grippe*, *Ouverture d'un centre de santé*, *Pénurie de médicaments* — French headlines are made of nouns rather than verbs. This **nominal style** is also typical of reports, formal letters and exam essays. Understanding how nouns are built from verbs and adjectives will help you read the news faster and write more concisely.
+    vocab: |
+      une épidémie | an epidemic | n | Le pic de l'épidémie est attendu fin janvier. | The peak of the epidemic is expected at the end of January. | g: f
+      un pic | a peak | n | On observe un pic de consultations en hiver. | There's a peak in consultations in winter. | g: m
+      un médecin généraliste | a GP; a family doctor | n | Mon médecin généraliste part à la retraite. | My GP is retiring. | g: m | n: Informally: un généraliste.
+      le dépistage | screening | n | Le dépistage précoce sauve des vies. | Early screening saves lives. | g: m | n: Dépister = to screen for; un test de dépistage.
+      une pénurie | a shortage | n | La pénurie de médecins touche de nombreuses régions. | The shortage of doctors affects many regions. | g: f
+      une rupture de stock | a stock shortage | n | Ce médicament est en rupture de stock. | This medicine is out of stock. | g: f
+      un désert médical | an area with too few doctors | n | Le village se trouve en plein désert médical. | The village is in an area with almost no doctors. | g: m
+      un essai clinique | a clinical trial | n | L'essai clinique a duré trois ans. | The clinical trial lasted three years. | g: m
+      prometteur | promising | adj | Les premiers résultats sont prometteurs. | The first results are promising. | n: Feminine: prometteuse.
+      la résistance aux antibiotiques | antibiotic resistance | n | La résistance aux antibiotiques inquiète les médecins. | Antibiotic resistance worries doctors. | g: f
+      la mise au point | development (of a product) | n | La mise au point du vaccin a pris dix ans. | The development of the vaccine took ten years. | g: f | n: From mettre au point = to develop, to perfect.
+      la hausse | rise; increase | n | On note une hausse des consultations. | There's a rise in consultations. | g: f | n: The opposite is la baisse. Both are formed without a suffix.
+    grammar:
+      title: "Nominalisation: from verbs and adjectives to nouns"
+      body: |
+        Headlines, reports and formal writing often replace a verb or an adjective with a **noun**: *Les cas de grippe augmentent* → ***Augmentation** des cas de grippe*. The sentence becomes shorter, more abstract and more formal.
+
+        Common patterns:
+        - **-tion / -sion** (feminine): *augmenter → l'augmentation, décider → la décision*
+        - **-ment** (masculine): *lancer → le lancement, renforcer → le renforcement*
+        - **-age** (masculine): *dépister → le dépistage, laver → le lavage*
+        - **-ure** (feminine): *ouvrir → l'ouverture, fermer → la fermeture*
+        - **no suffix**: *hausser → la hausse, baisser → la baisse, reculer → le recul, découvrir → la découverte*
+        - adjective → noun in **-ité, -eur, -esse**: *efficace → l'efficacité, long → la longueur, faible → la faiblesse*
+
+        When you nominalise, the subject or object of the verb becomes a complement with **de**: *On a découvert une molécule* → *la découverte **d'**une molécule*. Adverbs become adjectives: *augmenter nettement* → *une **nette** augmentation*. Learn each noun with its gender: the suffix helps, but there are exceptions.
+      table: |
+        Verb or adjective | Noun | Headline
+        augmenter | l'augmentation (f) | Augmentation des prix de l'énergie
+        lancer | le lancement (m) | Lancement d'une campagne de dépistage
+        ouvrir | l'ouverture (f) | Ouverture d'un centre de santé
+        baisser | la baisse (f) | Baisse du nombre de fumeurs
+        découvrir | la découverte (f) | Découverte d'une nouvelle molécule
+        efficace | l'efficacité (f) | Efficacité du traitement confirmée
+      examples: |
+        Le nombre de médecins recule. → Recul du nombre de médecins. | The number of doctors is falling. → Fall in the number of doctors. | no suffix
+        On a fermé la maternité. → Fermeture de la maternité. | The maternity unit was closed. → Closure of the maternity unit. | -ure
+        On vaccine rapidement les personnes âgées. → La vaccination rapide des personnes âgées. | Older people are vaccinated quickly. → The rapid vaccination of older people. | adverb → adjective
+      tip: "Nouns in -age are masculine, except a handful you should learn: la page, la plage, la cage, l'image, la nage, la rage."
+    reading:
+      title: La santé en bref
+      text: |
+        Hausse des cas de grippe dans le Grand Est
+        Depuis deux semaines, les médecins généralistes de la région constatent une nette augmentation des consultations pour syndrome grippal. Le pic de l'épidémie serait attendu d'ici la fin du mois. Les autorités sanitaires rappellent l'importance de la vaccination des personnes âgées et de quelques gestes simples : lavage des mains, aération des pièces, port du masque en cas de symptômes.
+
+        Ouverture d'un centre de santé dans la Creuse
+        Après trois ans sans médecin, les habitants de ce village peuvent de nouveau consulter près de chez eux. L'ouverture du centre, financé par la commune et la région, a été rendue possible grâce au recrutement de deux médecins salariés. Une infirmière assure également des visites à domicile.
+
+        Pénurie de médicaments : vers un renforcement des stocks ?
+        Depuis plusieurs hivers, les pharmacies font face à des ruptures de stock de médicaments courants, notamment d'antibiotiques pour enfants. Pour limiter ces pénuries, les fabricants pourraient être obligés de constituer des stocks plus importants. Le retour en Europe d'une partie de la production est également envisagé.
+
+        Découverte prometteuse contre la résistance aux antibiotiques
+        Une équipe de chercheurs a identifié une molécule capable de détruire certaines bactéries résistantes. Les premiers résultats, obtenus sur des souris, ont été publiés cette semaine. Prudence toutefois : la mise au point d'un traitement pour l'être humain pourrait prendre une dizaine d'années, et l'efficacité de la molécule devra être confirmée par des essais cliniques.
+      translation: |
+        Rise in flu cases in the Grand Est
+        For the past two weeks, GPs in the region have seen a clear increase in consultations for flu-like illness. The peak of the epidemic is reportedly expected by the end of the month. The health authorities stress the importance of vaccinating older people and of a few simple measures: washing your hands, airing rooms and wearing a mask if you have symptoms.
+
+        A health centre opens in the Creuse
+        After three years without a doctor, the residents of this village can once again see a doctor close to home. The opening of the centre, funded by the municipality and the region, was made possible by the recruitment of two salaried doctors. A nurse also makes home visits.
+
+        Medicine shortages: towards bigger stocks?
+        For several winters, pharmacies have been facing shortages of common medicines, especially antibiotics for children. To limit these shortages, manufacturers could be required to build up larger stocks. Bringing part of the production back to Europe is also being considered.
+
+        A promising discovery against antibiotic resistance
+        A team of researchers has identified a molecule capable of destroying certain resistant bacteria. The first results, obtained in mice, were published this week. Caution, however: developing a treatment for humans could take around ten years, and the molecule's effectiveness will have to be confirmed by clinical trials.
+    pronunciation:
+      title: "-tion, -sion, -stion"
+      body: |
+        The ending **-tion** is pronounced [sjɔ̃]: *augmentation* [oɡ.mɑ̃.ta.sjɔ̃], *vaccination* [vak.si.na.sjɔ̃]. After a vowel, **-sion** is [zjɔ̃]: *décision* [de.si.zjɔ̃]; after a consonant it is [sjɔ̃]: *pension*. But after **s**, *-tion* keeps a real [t]: *question* [kɛs.tjɔ̃], *gestion* [ʒɛs.tjɔ̃].
+
+        In *épidémie* [e.pi.de.mi], every vowel is a short, clear syllable: don't reduce any of them.
+      items: |
+        l'augmentation
+        la vaccination
+        la décision
+        la question
+        la gestion
+        l'épidémie
+    culture:
+      title: Le médecin traitant
+      body: |
+        In France, every adult is encouraged to declare a *médecin traitant*, usually a GP, who coordinates their care: consultations are better reimbursed by the *Assurance maladie* when patients go through this doctor first. In rural areas and some suburbs, finding a médecin traitant has become difficult, and towns increasingly open *centres de santé* with salaried doctors to attract young practitioners.
+    mistakes: |
+      Augmentation de les cas de grippe. => Augmentation des cas de grippe. | De + les always contracts to des.
+      Le découverte d'une molécule. => La découverte d'une molécule. | Découverte is feminine; nouns formed from a feminine participle keep the -e.
+      L'ouvrement du centre. => L'ouverture du centre. | The noun from ouvrir is l'ouverture (-ure), not a -ment noun.
+    task:
+      title: Health news from your town
+      mode: writing
+      body: |
+        Write four nominalised headlines about health in your town or region (an opening, a closure, a rise or fall, a campaign), then develop one of them into a short news brief (about 80 words). Use at least one passive and one journalistic conditional, as in the reading.
+    exercises: |
+      fill: Les prix des médicaments baissent. → ___ des prix des médicaments. || Baisse / La baisse / Une baisse || Baisser → la baisse, a noun formed without a suffix. || @tags fr.vocabulary
+      fill: On lance une campagne de vaccination. → ___ d'une campagne de vaccination. || Lancement / Le lancement || Lancer → le lancement (-ment, masculine). || @tags fr.vocabulary
+      fill: On ferme les urgences la nuit. → ___ des urgences la nuit. || Fermeture / La fermeture || Fermer → la fermeture (-ure, feminine). || @tags fr.vocabulary
+      mc: Which headline is correct? || Découvert d'un nouveau traitement | *Découverte d'un nouveau traitement | Découvrement d'un nouveau traitement || The noun from découvrir is la découverte. Découvert is the masculine participle (or an overdraft). || @tags fr.vocabulary
+      mc: The noun formed from "efficace" is… || l'efficacement | *l'efficacité | l'efficaceur || Adjective → noun in -ité: efficace → l'efficacité. Efficacement is an adverb. || @tags fr.vocabulary
+      mc: Why can the villagers in the Creuse see a doctor again? || *Two salaried doctors were recruited | A new hospital was built | Pharmacists can now give consultations || "Grâce au recrutement de deux médecins salariés." || @ctx reading @tags fr.reading
+      tf: The new molecule has already been tested on humans. || false || The first results were "obtenus sur des souris" — in mice. || @ctx reading
+      short: Which medicines are mentioned as being in short supply? || kw: antibiotique/antibiotiques/antibiotic/antibiotics || "Notamment d'antibiotiques pour enfants." || @ctx reading
+      listen: Baisse du nombre de fumeurs, mais hausse inquiétante de la consommation de sucre chez les adolescents. || What is worrying, according to this headline? || *The rise in teenagers' sugar consumption | The fall in the number of smokers | The rise in smoking among teenagers || "Hausse inquiétante de la consommation de sucre chez les adolescents." || @tags fr.listening,fr.vocabulary
+      rw: Turn the sentence into a headline :: Les médecins généralistes partent massivement à la retraite. || Départ massif des médecins généralistes à la retraite. | Départs massifs des médecins généralistes à la retraite. | Départ massif à la retraite des médecins généralistes. | Départs massifs à la retraite des médecins généralistes. || Partir → le départ; the adverb massivement becomes the adjective massif; the subject becomes a complement with de. || @tags fr.vocabulary
+      tr: Opening of a new health centre in the town centre || Ouverture d'un nouveau centre de santé dans le centre-ville | Ouverture d'un nouveau centre de santé en centre-ville | Ouverture d'un nouveau centre de santé au centre-ville || Ouvrir → l'ouverture; no article at the start of a headline. || @tags fr.vocabulary
+      dict: La mise au point d'un traitement pourrait prendre une dizaine d'années. || la mise au point
+      say: Hausse des cas de grippe : le pic de l'épidémie serait attendu fin janvier. || Rise in flu cases: the peak of the epidemic is reportedly expected at the end of January.

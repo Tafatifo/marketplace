@@ -1,0 +1,349 @@
+unit: 4
+title: A planet under pressure
+theme: Environment
+description: Weigh up the pros and cons of climate policies, explain the causes and consequences of urban problems and their solutions, and take part in a debate, using linking words of contrast, cause and consequence and cleft sentences for emphasis.
+free: false
+objectives:
+  - Discuss climate policies and balance arguments with linking words of contrast
+  - Explain the causes and effects of urban problems with linking words of cause and consequence
+  - Emphasize your main point in a debate with cleft sentences
+canDo:
+  - I can explain the advantages and disadvantages of a climate policy that affects ordinary households.
+  - I can describe how a city has changed and explain the causes and consequences of those changes.
+  - I can take part in a debate, emphasize my key point and respond to objections.
+  - I can write a balanced paragraph that compares two solutions to an environmental problem.
+review: |
+  fill: ___ the high cost of installation, solar panels have become very popular in our street. || Despite / In spite of || Despite and in spite of are followed by a noun phrase (the high cost). || @tags en.connectors
+  mc: ___ the old city center is crowded and noisy, the new district is calm and green. || Despite | *Whereas | Nevertheless || Whereas compares two contrasting facts in one sentence. Despite needs a noun phrase, and nevertheless starts a new sentence or clause. || @tags en.connectors
+  fill: The flight was canceled ___ to the storm. || due / owing || Due to and owing to + noun phrase give a reason. || @tags en.connectors
+  fill: The new park is ___ a peaceful place that people come from all over the city to relax there. || such || Such + a + adjective + noun + that. With an adjective alone, use so: so peaceful that. || @tags en.connectors
+  rw: Rewrite as a cleft sentence beginning "What" :: The lack of trees makes the square so hot in summer. || What makes the square so hot in summer is the lack of trees. || What + clause + is + focus. The focus (the lack of trees) moves to the end for emphasis. || @tags en.connectors,en.register
+  rw: Rewrite as a cleft sentence beginning "It was" :: Local residents, not the council, started the cleanup campaign. || It was local residents, not the council, who started the cleanup campaign. | It was local residents, not the council, that started the cleanup campaign. | It was local residents who started the cleanup campaign, not the council. || It was + focus + who/that + rest of the sentence. || @tags en.connectors,en.register
+  mc: Fares were cut by half. ___, the number of passengers doubled within a year. || Owing to | *As a result | Even though || As a result introduces a consequence at the start of a sentence. Owing to needs a noun phrase, and even though introduces a contrast. || @tags en.connectors
+  mc: A tax on fuel is one example of a policy that tries to reduce ___. || renewables | *emissions | incentives || Emissions = gases such as carbon dioxide that are released into the air. || @tags en.vocabulary @skill vocabulary
+  listen: Although the new tram line was expensive to build, it has reduced traffic in the center so much that the council now plans a second one. || What is the council planning to do? || Close the tram line | *Build another tram line | Reduce the number of trams || "The council now plans a second one." || @tags en.listening,en.connectors
+  listen: It isn't the price that stops people from cycling to work here. It's the lack of safe bike lanes. || What is the main problem, according to the speaker? || The cost of bikes | *Dangerous roads without bike lanes | The distance to work || The it-cleft emphasizes the real reason: "the lack of safe bike lanes." || @tags en.listening,en.connectors
+  ask: A friend says, "Individual actions like recycling don't make any difference. Only governments can solve climate change." Respond with a balanced view, using at least one contrast linker and one cleft sentence. || kw: although/even though/despite/in spite of/whereas/while/however/nevertheless & what/it is/it's/the reason/all || I see your point, and it's true that governments can change things faster. Nevertheless, what individuals do still matters, because our choices influence businesses and politicians. Although recycling alone won't solve the problem, it's millions of small changes together that make a difference.
+  write: Write a paragraph (110–130 words) comparing two solutions to an environmental problem in your area. Explain their causes and effects and say which you prefer. || min=100 || req: although/even though/despite/in spite of/whereas/while/however/nevertheless/on the other hand | because of/due to/owing to/as a result/consequently/which is why/so/such/lead to/result in || The river in my town floods almost every winter, owing to heavy rain and the many buildings on the old floodplain. One solution is to build higher walls along the river. Although walls would protect the center quickly, they are expensive and ugly, and they could push the water further downstream. The other solution is to plant trees and restore wetlands upriver. Whereas walls only stop the water at the last moment, wetlands slow it down before it reaches the town. As a result, the river would rise more gradually. This option is slower, and some farmland would be lost. Nevertheless, I prefer it, because it also creates habitats for wildlife, which is why many experts recommend it.
+lessons:
+  - title: Climate policy
+    summary: Discuss climate policies that affect households, weigh their advantages and disadvantages, and balance arguments with despite, in spite of, even though, whereas and nevertheless.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [en.connectors, en.vocabulary, en.intonation]
+    objectives:
+      - Talk about emissions, targets, subsidies and costs with precise vocabulary
+      - Express contrast with despite, in spite of, even though, whereas and while
+      - Link sentences with nevertheless, nonetheless and even so
+    intro: |
+      Climate policy isn't only something that happens at international summits. It affects the way we heat our homes, the cars we drive and the bills we pay. Discussing it fairly means recognizing both the benefits and the costs. In this lesson you will learn vocabulary for climate policy and **linking words of contrast** that let you balance two sides of an argument in one sentence.
+    vocab: |
+      emissions | gases such as carbon dioxide that are sent out into the air | n pl | The city wants to cut its emissions by half by 2035. | - | c: carbon emissions; reduce/cut emissions
+      net zero | a situation in which the amount of greenhouse gas produced is balanced by the amount removed | n phr | The country aims to reach net zero by 2050. | - | c: reach net zero; a net-zero target
+      fossil fuels | fuels such as coal, oil and gas that formed from plants and animals millions of years ago | n pl | Most of our electricity still comes from fossil fuels. | -
+      renewable energy | energy from sources that don't run out, such as wind and sunlight | n phr | Renewable energy now provides a third of the region's power. | - | n: Also: renewables.
+      subsidy | money that a government pays to make something cheaper | n | There's a subsidy for families who buy electric bikes. | - | n: Similar: grant (money for a specific purpose).
+      incentive | something that encourages you to do something | n | Lower taxes are an incentive to switch to electric cars. | - | c: a financial incentive; an incentive to do something
+      upfront cost | the amount you have to pay at the beginning, before you get any benefit | n phr | The upfront cost of solar panels is high, but they save money later. | -
+      running costs | the money you need to spend regularly to use something | n pl | Heat pumps have lower running costs than gas boilers. | -
+      insulation | material that stops heat from escaping from a building | n | Good insulation can halve your heating bills. | - | n: Verb: insulate.
+      target | a result that you plan to achieve | n | The government has set a target of one million heat pumps a year. | - | c: set a target; meet/miss a target; an ambitious target
+      trade-off | a situation in which you accept something bad in order to have something good | n | There's always a trade-off between cost and speed. | -
+      put (someone) off | to make someone not want to do something | phr v | The noise put us off buying a house near the airport. | -
+      carbon tax | a tax on fuels and activities that produce carbon dioxide | n phr | Economists disagree about how high a carbon tax should be. | -
+    grammar:
+      title: Linking words of contrast
+      body: |
+        You already know **but**, **however** and **although**. At B2, use a wider range — and pay attention to what follows each linker.
+
+        - **despite / in spite of** + **noun** or **-ing**: ***Despite the grant**, it's still expensive. **In spite of being** cheaper to run, heat pumps aren't popular yet.* To add a full clause, use **despite the fact that**: *Despite the fact that it was raining…*
+        - **although / even though** + **clause**: ***Even though** the running costs are lower, the upfront cost puts people off.* *Even though* is stronger than *although*: it emphasizes the surprise.
+        - **whereas / while** + clause — to compare two **different facts**: ***Whereas** a boiler takes a day to fit, a heat pump takes a week.*
+        - **nevertheless / nonetheless / even so** — at the start of a new sentence (or after a semicolon), with a comma: *The policy isn't perfect. **Nevertheless**, it's a step forward.* These are more formal than *however*.
+        - **though** at the **end** of a sentence is informal: *It's still expensive, **though**.*
+      table: |
+        Linker | Followed by | Example
+        despite / in spite of | noun or -ing | Despite the cost, we installed solar panels.
+        despite the fact that | clause | Despite the fact that it cost a lot, we did it.
+        although / even though | clause | Even though it was cheap, nobody bought it.
+        whereas / while | clause (comparing two facts) | Whereas wind is cheap here, solar is not.
+        nevertheless / nonetheless | new sentence | It's slow. Nevertheless, it works.
+      examples: |
+        In spite of all my complaining, I do like the idea of cutting our emissions. | | in spite of + noun phrase
+        Even though the policy isn't perfect, at least it makes clean heating more affordable. | | even though + clause
+        While a heat pump changes how you heat your home, insulation means you need less heat. | | while: comparing two facts
+        Our boiler is fifteen years old. Nevertheless, it still works perfectly. | | nevertheless + new sentence
+      tip: |
+        Test it: if a subject and verb follow, use although or even though. If only a noun or -ing form follows, use despite or in spite of.
+    dialogue:
+      title: Heat pump or not?
+      setting: A terraced street in Sheffield, England. Neighbors Leah and Ade have both received a letter about a government grant to replace gas boilers with heat pumps, which run on electricity and produce far lower emissions.
+      speakers: L=Leah/f; A=Ade/m
+      lines: |
+        L: Did you get the letter about the heat pump grant? The government will pay up to half the cost of installation.
+        A: I did. Despite the grant, though, it's still going to cost us thousands. I'm not sure we can afford it.
+        L: I know. Even though the running costs are supposed to be lower, the upfront cost puts a lot of people off.
+        A: And whereas a gas boiler takes a day to fit, a heat pump can apparently take up to a week.
+        L: True. Nevertheless, our boiler is fifteen years old. We'll have to replace it soon anyway.
+        A: Fair point. And in spite of all my complaining, I do like the idea of cutting our emissions.
+        L: Me too. Although the policy isn't perfect, at least it's trying to make clean heating affordable.
+        A: Some people say the money should go to insulation first. Our house loses heat like a sieve.
+        L: That's a good argument. While a heat pump changes how you heat your home, insulation means you need less heat in the first place.
+        A: So maybe we should do both — insulation this year, and the heat pump next year.
+        L: Sounds sensible. It's slower, but it spreads the cost.
+        A: Let's talk to the Wilsons next door. In spite of their doubts, they had one installed last winter.
+    pronunciation:
+      title: Intonation in contrasting clauses
+      body: |
+        When a sentence balances two ideas, the first clause usually ends with a **fall-rise** (↘↗), which tells the listener "there's more coming". The second clause ends with a clear **fall** (↘): *Even though it's exPENsive ↘↗, it's worth it ↘.*
+
+        The linker itself is usually unstressed, but the two contrasting words are stressed: *WHEREas the BOIler takes a DAY, the heat pump takes a WEEK.* Listen and repeat.
+      items: |
+        Despite the grant, it's still expensive.
+        Even though it's cheaper to run
+        Whereas a boiler takes a day
+        Nevertheless, it's a step forward.
+        In spite of all my complaining
+        It's still expensive, though.
+    mistakes: |
+      Despite it was expensive, they installed solar panels. => Despite the cost, they installed solar panels. | Despite is followed by a noun or -ing, not a clause. Or: Although it was expensive, …
+      In spite the rain, the march went ahead. => In spite of the rain, the march went ahead. | In spite always needs of. Despite never takes of.
+      The grant is generous, nevertheless many people can't afford it. => The grant is generous. Nevertheless, many people can't afford it. | Nevertheless is an adverb, not a conjunction. Start a new sentence or use a semicolon.
+    task:
+      title: Weighing a policy
+      mode: speaking
+      body: |
+        Choose a climate policy that affects ordinary people: a subsidy for electric cars, a tax on frequent flights, a ban on gas boilers in new homes or a deposit on plastic bottles. Prepare a balanced one-minute summary with two advantages and two disadvantages, linked with despite, even though, whereas and nevertheless. Finish with your own view. Then present and defend it with the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      fill: ___ the government grant, many families still can't afford a heat pump. || Despite / In spite of || Despite or in spite of + noun phrase. || @tags en.connectors
+      fill: ___ it's more expensive at first, a heat pump is much cheaper to run. || Although / Even though / Though / While || Although, even though or while + a full clause (it's more expensive). || @tags en.connectors
+      fill: The plan was popular with residents. ___, it was dropped because of the cost. || Nevertheless / Nonetheless / However / Even so || A linking adverb at the start of a new sentence introduces a contrast. || @tags en.connectors
+      mc: In spite ___ the protests, the new tax was introduced. || *of | that | from || In spite is always followed by of. || @tags en.connectors
+      mc: ___ wind power works well in windy coastal areas, solar makes more sense in sunny regions. || *Whereas | Despite | Nevertheless || Whereas compares two different facts in one sentence. Despite needs a noun phrase, and nevertheless can't join two clauses like this. || @tags en.connectors
+      rw: Rewrite using "despite" :: Although it was raining, thousands of people joined the climate march. || Despite the rain, thousands of people joined the climate march. | Thousands of people joined the climate march despite the rain. | Despite the fact that it was raining, thousands of people joined the climate march. | Despite it raining, thousands of people joined the climate march. || Despite + noun (the rain), or despite the fact that + clause. || @tags en.connectors
+      rw: Join the sentences with "whereas" :: Cities produce most emissions. Rural areas absorb most of them. || Whereas cities produce most emissions, rural areas absorb most of them. | Cities produce most emissions, whereas rural areas absorb most of them. || Whereas joins two contrasting facts. It can go at the start or in the middle (after a comma). || @tags en.connectors
+      match: renewable = energy ; fossil = fuels ; carbon = tax ; reduce = emissions ; upfront = cost || Common collocations: renewable energy, fossil fuels, a carbon tax, reduce emissions, the upfront cost. || @hint Match the words to make common expressions. @skill vocabulary @tags en.collocations
+      tf: The grant pays for the whole cost of a heat pump. || false || Leah says the government will pay "up to half the cost of installation." || @ctx dialogue
+      short: How old is Leah's boiler? || kw: fifteen/15 || "Our boiler is fifteen years old." || @ctx dialogue
+      listen: @dialogue || What do Leah and Ade decide to do? || Install heat pumps immediately | Keep their gas boilers | *Improve the insulation first and get a heat pump later || "Insulation this year, and the heat pump next year." || @tags en.listening
+      listen: Whereas the city has cut emissions from buildings by a third, emissions from transport have barely changed in ten years. || Which sector has made little progress? || Buildings | *Transport | Industry || "Emissions from transport have barely changed." || @tags en.listening,en.connectors
+      dict: Even though the policy isn't perfect, it's a step in the right direction. || even though + clause
+      ask: Talk about a climate policy in your country or city. Explain one advantage and one disadvantage, linking them with a contrast linker. || kw: although/even though/despite/in spite of/whereas/while/however/nevertheless/nonetheless || My city charges drivers to enter the center. Despite the cost for drivers, the air is noticeably cleaner. Even though some shop owners were worried at first, more people walk in the center now. Nevertheless, it's unfair for people who live far from a bus route.
+      write: Write a paragraph (100–120 words) weighing up a climate policy that affects households. Give both sides and your view. Use at least three different linkers of contrast. || min=90 || req: despite/in spite of | although/even though/whereas/while | nevertheless/nonetheless/however/even so || Our government recently introduced a deposit on plastic bottles: you pay a small extra amount and get it back when you return the bottle. Despite some complaints at first, the scheme has been a success. Even though returning bottles takes a little time, most people now do it automatically, and far less plastic ends up in parks and rivers. Whereas the old recycling bins were often full of the wrong things, returned bottles are clean and easy to recycle. Nevertheless, the system isn't perfect. People without a car find it hard to take large bags to the machines. In my view, more collection points in small shops would solve this.
+
+  - title: Sustainable cities
+    summary: Describe how a city has been transformed and explain causes and consequences with due to, owing to, as a result, consequently, so/such… that and which is why.
+    minutes: 50
+    skills: [vocabulary, grammar, listening]
+    tags: [en.connectors, en.vocabulary, en.word-stress]
+    objectives:
+      - Talk about urban planning, green spaces and transport with precise vocabulary
+      - Express cause with due to, owing to, because of and as a result of
+      - Express consequence with consequently, which is why, so/such… that, lead to and result in
+    intro: |
+      More than half of the world's population lives in cities, and the way cities are designed affects our health, our climate and our happiness. Some cities have removed motorways, planted forests on rooftops or closed streets to cars, with surprising results. In this lesson you will learn to explain the **causes and consequences** of these changes clearly, using linkers that are essential in both conversation and formal writing.
+    vocab: |
+      congestion | a situation in which there is so much traffic that vehicles can hardly move | n | Congestion is worst between eight and nine in the morning. | - | c: traffic congestion; reduce congestion
+      infrastructure | the basic systems a city needs, such as roads, railways, pipes and power supplies | n | The city is investing heavily in its infrastructure. | -
+      green space | an area of grass, trees or plants in a town, such as a park | n phr | Living near green space is good for your mental health. | -
+      pedestrianize | to close a street to traffic so that only people on foot can use it | v | The main square was pedestrianized in 2015. | - | n: British spelling: pedestrianise.
+      urban heat island | a city area that is much warmer than the countryside around it because of buildings and roads | n phr | Planting trees is one of the best ways to cool an urban heat island. | -
+      densely populated | having a lot of people living in a small area | adj phr | Hong Kong is one of the most densely populated places on Earth. | -
+      urban sprawl | the spread of a city into the countryside around it, often in an unplanned way | n phr | Urban sprawl means longer commutes and more cars. | -
+      regeneration | the improvement of an area that was in bad condition | n | The regeneration of the old docks created thousands of jobs. | - | c: urban regeneration
+      livable | pleasant and suitable to live in | adj | It's regularly voted one of the most livable cities in the world. | - | n: British spelling: liveable.
+      bike lane | a part of a road that only bicycles can use | n phr | The new bike lanes are separated from the traffic by a low wall. | - | n: British English also: cycle lane.
+      commute | the regular journey between your home and your work or school | n | My commute takes forty minutes by train. | - | n: Also a verb: I commute to the city every day.
+      restore | to bring something back to its original or good condition | v | Volunteers helped to restore the old canal. | - | n: Noun: restoration.
+      absorb | to take in heat, liquid or energy | v | Trees absorb heat and rainwater. | -
+    grammar:
+      title: Linking words of cause and consequence
+      body: |
+        **Cause** — say why something happened:
+        - **because of / due to / owing to** + **noun**: *The bus was late **due to** roadworks.* *Owing to* is more formal. *Due to* is common after be: *The delay was **due to** the weather.*
+        - **as a result of** + noun: ***As a result of** the restoration, the area is cooler.*
+        - **as / since** + clause (the reason is often already known): ***Since** the center is car-free, it's very quiet.*
+
+        **Consequence** — say what happened as a result:
+        - **as a result / consequently / therefore** at the start of a sentence or clause: *Fares were cut. **Consequently**, passenger numbers rose.* **Thus** and **hence** are very formal.
+        - **which is why** + clause, referring back to the whole idea: *The water absorbs heat, **which is why** it's cooler here.*
+        - **so + adjective/adverb + that** and **such (a) + (adjective) + noun + that**: *It was **so** hot **that** we stayed inside. It was **such a** hot day **that** we stayed inside.*
+        - **Verbs**: X **leads to / results in / causes** Y; Y **results from** X.
+      table: |
+        Function | Linker | Example
+        cause + noun | due to / owing to / because of | Owing to a strike, there are no trains.
+        cause + clause | as / since | Since it's free, everyone uses it.
+        consequence (new clause) | as a result / consequently | Consequently, rents have risen.
+        consequence (whole idea) | which is why | It's quiet, which is why families love it.
+        degree → result | so + adjective + that / such + noun + that | It's such a small flat that we can't have guests.
+        verbs | lead to / result in / result from | The new lanes led to more cycling.
+      examples: |
+        Owing to improvements in the bus network, the traffic jams were smaller than expected. | | owing to + noun phrase
+        The water and trees absorb heat, which is why the area is cooler in summer. | | which is why + clause
+        The area feels so calm that it's hard to believe we're in the city center. | | so + adjective + that
+        Removing the motorway resulted in a big increase in visitors. | | result in + noun
+      tip: |
+        Don't confuse result in (cause → effect) and result from (effect ← cause): The flood resulted from heavy rain. Heavy rain resulted in a flood.
+    dialogue:
+      title: A river under the motorway
+      setting: Cheonggyecheon, a restored stream in central Seoul, South Korea. In the early two thousands, an elevated highway was removed to bring the stream back to the surface. Ji-woo, a city guide, is showing the area to Marco, a transport engineer from Milan.
+      speakers: J=Ji-woo/f; M=Marco/m
+      lines: |
+        J: This stream used to be buried under a busy elevated highway. It was taken down in the early two thousands.
+        M: Really? Removing a highway in the middle of a city must have caused chaos.
+        J: Many people expected it to. But owing to big improvements in the bus network, the traffic was more manageable than they'd feared.
+        M: So drivers switched to public transport instead of simply driving somewhere else?
+        J: Many did. Buses became faster and more reliable, which is why a lot of commuters left their cars at home.
+        M: And now the place is full of people. It feels so calm that it's hard to believe we're downtown.
+        J: Exactly. As a result of the restoration, the area around the stream is also noticeably cooler in summer.
+        M: Is that because of the water itself, or because there's less concrete?
+        J: Both, apparently. The water and the trees absorb heat, whereas roads and buildings store it.
+        M: Milan has such hot summers now that this kind of project is becoming essential.
+        J: Planners from all over the world have come to see it. Consequently, similar projects have started in other cities.
+        M: I can see why. Due to rising temperatures, every city will need places like this to keep people cool.
+    pronunciation:
+      title: Word stress in word families
+      body: |
+        In many word families, the stress moves when the word changes form. This is especially common with **-tion** endings, which pull the stress to the syllable just before them: re**STORE** → resto**RA**tion, re**GEN**erate → regene**RA**tion, con**GES**ted → con**GES**tion.
+
+        Also notice **IN**frastructure (first syllable) and pe**DES**trianize (second syllable). Listen and repeat.
+      items: |
+        restoration
+        regeneration
+        congestion
+        infrastructure
+        pedestrianize
+        consequently
+    mistakes: |
+      Due to the traffic was heavy, I was late. => Due to the heavy traffic, I was late. | Due to is followed by a noun phrase. With a clause, use because: Because the traffic was heavy, …
+      It was so a hot day that we stayed at home. => It was such a hot day that we stayed at home. | Use such (a) before a noun phrase and so before an adjective alone.
+      The new bike lanes resulted on fewer accidents. => The new bike lanes resulted in fewer accidents. | The verb is result in (cause → effect) or result from (effect ← cause).
+    task:
+      title: Fix my city
+      mode: writing
+      body: |
+        Write a short proposal (120–150 words) to your local council about one problem in your town or city: traffic, heat, lack of green space or empty shops. Explain its causes and consequences, then propose one change and explain the results you expect. Use at least four different cause and consequence linkers. Then discuss your proposal with the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      fill: The 8:15 bus was canceled ___ a shortage of drivers. || due to / owing to / because of || Due to, owing to and because of + noun phrase give the cause. || @tags en.connectors
+      fill: The summers here are ___ hot that many people leave the city in August. || so || So + adjective + that shows a result. || @tags en.connectors
+      fill: It was ___ a successful project that other cities copied it. || such || Such + a + adjective + noun + that. || @tags en.connectors
+      mc: The new bike lanes have ___ a big drop in car journeys. || *led to | resulted from | been caused by || Lead to = cause a result. Resulted from and been caused by reverse the meaning. || @tags en.connectors
+      mc: Fares were reduced. ___, passenger numbers rose by twenty percent. || *Consequently | Owing to | Because || Consequently introduces a result at the start of a new sentence. Owing to needs a noun phrase, and because can't start a result like this. || @tags en.connectors
+      rw: Rewrite using "owing to" :: Because the bridge was being repaired, traffic was diverted. || Owing to repairs to the bridge, traffic was diverted. | Owing to repairs on the bridge, traffic was diverted. | Owing to the repairs to the bridge, traffic was diverted. | Owing to the bridge repairs, traffic was diverted. | Traffic was diverted owing to repairs to the bridge. | Owing to the fact that the bridge was being repaired, traffic was diverted. || Owing to + noun phrase (repairs to the bridge), or owing to the fact that + clause. || @tags en.connectors
+      rw: Join the sentences with "which is why" :: The city center is car-free. It's very popular with families. || The city center is car-free, which is why it's very popular with families. | The city center is car-free, which is why it is very popular with families. || Which is why refers back to the whole first clause. || @tags en.connectors
+      match: green = space ; urban = sprawl ; traffic = congestion ; public = transport ; bike = lane || Common collocations: green space, urban sprawl, traffic congestion, public transport, a bike lane. || @hint Match the words to make common expressions. @skill vocabulary @tags en.collocations
+      tf: When the highway was removed, the traffic was much worse than people had feared. || false || Ji-woo says the traffic "was more manageable than they'd feared." || @ctx dialogue
+      short: Which city does Marco come from? || kw: Milan || The setting says Marco is "a transport engineer from Milan," and he mentions Milan's hot summers. || @ctx dialogue
+      listen: @dialogue || Why is the area around the stream cooler in summer? || There are fewer people. | *The water and the trees absorb heat. | The buildings are taller and give more shade. || "The water and the trees absorb heat, whereas roads and buildings store it." || @tags en.listening
+      listen: Owing to a sharp rise in rents, many young families have left the center, which is why several schools there are now half empty. || Why are some schools half empty? || The schools are too old. | *Families have moved out because rents went up. | Teachers have left the area. || Rents rose → families left → schools are half empty. || @tags en.listening,en.connectors
+      dict: As a result of the restoration, the area is noticeably cooler in summer. || as a result of + noun phrase
+      ask: Explain a problem in your town or city: what caused it and what its consequences are. || kw: because of/due to/owing to/as a result/consequently/which is why/since/so/such/lead to/leads to/led to/result in/results in/resulted in/cause/causes || My city has grown very fast because of new factories on the edge of town. As a result, there's a lot of urban sprawl, and most people drive to work. The roads are so congested that a ten-minute journey can take an hour, which is why many people want a new tram line.
+      write: Write a paragraph (100–120 words) about a change that has made a city more livable. Explain why it was made and what its consequences were. Use at least four different cause and consequence linkers. || min=90 || req: due to/owing to/because of/as a result of | as a result/consequently/therefore/which is why | so/such/lead to/led to/result in/resulted in || Ten years ago, the main street in my hometown was always blocked by cars. Owing to pressure from residents, the council decided to pedestrianize it. At first, shop owners were worried, because they thought customers would stop coming. In fact, the opposite happened. The street became so pleasant that people started spending whole afternoons there. As a result, new cafés opened, and empty shops found tenants again. The change also led to cleaner air and fewer accidents. Of course, traffic increased on some nearby roads, which is why a new bus route was added. Overall, the town center is far more livable than it used to be.
+
+  - title: Debating solutions
+    summary: Take part in a structured debate about an environmental proposal, concede and rebut points, and emphasize your key message with cleft sentences.
+    minutes: 50
+    skills: [speaking, grammar, listening]
+    tags: [en.connectors, en.opinion, en.intonation]
+    objectives:
+      - Present and defend a position in a debate and respond to objections
+      - Use what-clefts and it-clefts to emphasize information
+      - Use The reason why… is that…, All we need is… and The thing that… is…
+    intro: |
+      In a debate, the speaker who wins is not always the one with the best facts but the one who makes the key point impossible to miss. English has a special structure for this: the **cleft sentence**, which splits a sentence in two to put the spotlight on one part. *We need cheaper meals* becomes *What we need is cheaper meals.* In this lesson you will use clefts to focus, correct and contrast ideas while you debate a real proposal.
+    vocab: |
+      motion | the statement that is discussed and voted on in a formal debate | n | The motion was passed by a large majority. | - | c: propose/oppose a motion; vote on a motion
+      objection | a reason why you don't agree with something | n | My main objection is the cost. | - | c: raise an objection; have no objection to something
+      counterargument | an argument that is given against another argument | n | A good essay always deals with the main counterarguments. | -
+      concede | to admit, often unwillingly, that something is true | v | I concede that the plan is expensive, but it will save money later. | - | n: Noun: concession.
+      rebut | to prove or argue that a statement is false | v | She rebutted every point her opponent made. | - | n: Noun: rebuttal.
+      voluntary | done because you choose to, not because you have to | adj | The scheme is voluntary at first. | -
+      compulsory | required by law or a rule | adj | Recycling is compulsory in many cities. | - | n: Similar: mandatory.
+      lead by example | to show others how to behave by doing it yourself | expr | If we want students to cycle, the staff should lead by example. | -
+      outweigh | to be more important or greater than something else | v | The benefits clearly outweigh the costs. | -
+      evidence | facts or information that show that something is true | n | There's little evidence that bans change people's habits. | - | n: Uncountable: some evidence, a piece of evidence.
+      take a stand | to state publicly what you think about something and defend it | expr | The university has taken a stand on single-use plastic. | -
+      common ground | opinions or interests that two sides share | n phr | Despite our differences, we found some common ground. | - | c: find/seek common ground
+      plant-based | made from plants, without meat or other animal products | adj | The canteen now offers three plant-based meals a day. | -
+    grammar:
+      title: "Cleft sentences for emphasis"
+      body: |
+        A **cleft sentence** divides one idea into two parts to put **focus** on one of them. In speech, the focus also gets strong stress.
+
+        **What-clefts** focus on the information at the **end**: *We need cheaper meals.* → ***What we need is** cheaper meals.* You can also focus on an action with **do**: ***What I'd do is** make the meals cheaper.* *What happened was (that)…* introduces an event.
+
+        **It-clefts** focus on the information **after It is / It was**, often to correct or contrast: ***It isn't** the goal **that** I disagree with — **it's** the method.* Use **who** or **that** for people and **that** for things, times and places: ***It was** in 2019 **that** the policy changed.*
+
+        **Other common patterns**:
+        - ***The reason (why)** sales didn't change **is that** the meals were expensive.* (In careful English, avoid *the reason is because*.)
+        - ***All** we're asking for **is** a fair vote.* (= the only thing)
+        - ***The thing that** worries me **is**… / **The person who**… / **The place where**…*
+      table: |
+        Neutral sentence | Cleft sentence | Pattern
+        We need better buses. | What we need is better buses. | What + clause + is + focus
+        I'd make meals cheaper. | What I'd do is make meals cheaper. | What + subject + do + is + base form
+        The students started it. | It was the students who started it. | It was + focus + who/that…
+        Bans worry me. | The thing that worries me is bans. | The thing that… is…
+        We only want a fair vote. | All we want is a fair vote. | All + clause + is…
+      examples: |
+        What we're asking for is a small change with a big effect. | | what-cleft
+        It isn't the goal that I disagree with — it's the method. | | it-cleft for correction
+        The reason why they didn't change is that the vegetarian options were expensive. | | the reason why… is that…
+        All we're saying is that the university should lead by example. | | all + clause + is
+      tip: |
+        Use clefts for your one or two key points. If every sentence is a cleft, nothing stands out.
+    dialogue:
+      title: Beef off the menu?
+      setting: A student debate at a university in Manchester, England. The motion is that the university should stop serving beef in its cafeterias. Professor Adeyemi is chairing, Hana is speaking for the motion and Lucas is speaking against it.
+      speakers: C=Adeyemi/m; H=Hana/f; L=Lucas/m
+      lines: |
+        C: Welcome, everyone. Tonight's motion is that the university should stop serving beef on campus. Hana, you're speaking first.
+        H: Thank you. What we're asking for is a small change with a big effect. Beef has the highest carbon footprint of any common food.
+        C: Lucas, you're opposing the motion. What's your main objection?
+        L: It isn't the goal that I disagree with — it's the method. What worries me is that bans tend to make people defensive.
+        H: But voluntary measures have been tried for years. What happened was that sales of plant-based meals barely changed.
+        L: The reason why they didn't change is that the vegetarian options were expensive and, frankly, not very tasty.
+        H: I'll concede that point. But the thing that surprised me most was how many students supported a ban in our survey.
+        C: So, Lucas, what would you do instead?
+        L: What I'd do is make the plant-based meals cheaper and better, and then let students choose for themselves.
+        H: All we're saying is that the university should lead by example. It's institutions, not individuals, that can change habits fastest.
+        L: And it's students who'll decide whether they eat on campus or buy a burger across the road.
+        C: Two very clear positions. Before we vote, let's take some questions from the audience.
+    pronunciation:
+      title: Stress in cleft sentences
+      body: |
+        The purpose of a cleft sentence is focus, so the **focus word** gets the strongest stress, often with a big fall in pitch: *It isn't the GOAL I disagree with — it's the METHOD.* The rest of the sentence is said more quickly and quietly.
+
+        In what-clefts, there is often a small pause after *is*: *What we NEED is… | CHEAPer MEALS.* Listen and repeat.
+      items: |
+        It isn't the goal — it's the method.
+        What we need is cheaper meals.
+        What I'd do is make them better.
+        All we're saying is this.
+        The reason why is simple.
+        It's students who'll decide.
+    mistakes: |
+      What we need it is more frequent buses. => What we need is more frequent buses. | The what-clause is the subject, so don't add it.
+      It was the bike lanes who made the difference. => It was the bike lanes that made the difference. | In it-clefts, use who only for people. For things, use that.
+      The reason is because the meals were expensive. => The reason is that the meals were expensive. | In careful English, the reason is followed by that, not because.
+    task:
+      title: Hold a debate
+      mode: interaction
+      body: |
+        In groups of three or four, choose a motion: "Our city should ban cars from the center on weekends," "Plastic packaging should be taxed," or "Every school should have a vegetable garden." Speakers for and against prepare a one-minute opening statement with at least two cleft sentences, then respond to each other, conceding one point and rebutting another. A chair keeps time and calls the vote. Afterward, practice defending your position with the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      rw: Rewrite as a cleft sentence beginning "What" :: We need better public transport. || What we need is better public transport. || What + clause + is + focus. || @tags en.connectors,en.register
+      rw: Rewrite as a cleft sentence beginning "It was" :: The students started the campaign, not the teachers. || It was the students who started the campaign, not the teachers. | It was the students that started the campaign, not the teachers. || It was + focus + who/that + the rest. || @tags en.connectors,en.register
+      rw: Rewrite beginning "The reason why" :: Sales didn't change because the meals were too expensive. || The reason why sales didn't change is that the meals were too expensive. | The reason why sales didn't change was that the meals were too expensive. || The reason why + clause + is/was that + clause. || @tags en.connectors
+      fill: ___ worries me is that bans tend to make people defensive. || What || What + clause acts as the subject of is. || @tags en.connectors
+      fill: It's institutions, not individuals, ___ can change habits fastest. || that / which || In an it-cleft, that (or which) introduces the rest of the sentence after a focus that isn't a person. || @tags en.connectors
+      mc: Which sentence emphasizes when the change happened? || *It was in 2019 that the city closed the center to cars. | What the city closed in 2019 was the center. | The city closed the center to cars in 2019. || The it-cleft puts the focus on the time (in 2019). || @tags en.connectors
+      mc: Choose the correct sentence. || What we need it is more trees. | *What we need is more trees. | That we need is more trees. || A what-cleft: What + clause + is + focus. Don't add it, and don't use that instead of what. || @tags en.connectors
+      match: I take your point, but… = conceding before disagreeing ; That simply isn't supported by the evidence. = rebutting a claim ; Let's look for some common ground. = seeking agreement ; Tonight's motion is… = introducing the topic ; To sum up… = concluding || Each phrase is matched with its function in a debate. || @hint Match each phrase with its function. @skill speaking @tags en.opinion
+      tf: Lucas disagrees with the goal of reducing beef consumption. || false || Lucas says, "It isn't the goal that I disagree with — it's the method." || @ctx dialogue
+      short: What would Lucas do instead of banning beef? || kw: cheaper/better/tastier/improve || "What I'd do is make the plant-based meals cheaper and better." || @ctx dialogue
+      listen: @dialogue || What happens at the end of the dialogue? || The audience votes immediately. | Hana changes her mind. | *The chair invites questions from the audience. || "Before we vote, let's take some questions from the audience." || @tags en.listening
+      listen: It wasn't the cost that put people off the new recycling scheme. It was the confusing instructions on the bins. || What was the real problem with the scheme? || It was too expensive. | *The instructions were confusing. | There weren't enough bins. || The it-cleft corrects the assumption: not the cost, but "the confusing instructions." || @tags en.listening,en.connectors
+      dict: What surprised me most was how many students supported the idea. || what-cleft
+      ask: In a debate about banning cars from the city center on weekends, give your main point using a cleft sentence, then respond to someone who says "Shops will lose customers." || kw: what/it is/it's/it isn't/it was/the reason/all/the thing || What I'm proposing is a trial on Sundays only. I understand the concern about shops, but it isn't drivers who spend the most in city centers — it's people on foot, because they stay longer.
+      write: Write the opening statement (100–120 words) for one side of a debate on an environmental motion of your choice. Use at least two cleft sentences and concede one point. || min=90 || req: what/it is/it's/it was/the reason/all/the thing | concede/admit/I accept/I agree/admittedly/it's true || Tonight's motion is that every school should have a vegetable garden, and I'm speaking in favor. What a garden offers is something no textbook can: the chance to see where food really comes from. It's not just biology that children learn outside, but patience, teamwork and responsibility. I accept that gardens need time and money, and that teachers are already very busy. However, the reason why so many schools have succeeded is that parents and local volunteers help to run them. All we're asking for is a small piece of land and a little support. The benefits for children's health and understanding of nature clearly outweigh the costs.

@@ -1,0 +1,377 @@
+unit: 5
+title: Medios y persuasión
+theme: Media and persuasion
+description: Spot hoaxes and misleading news, analyse how advertising persuades us and write a structured opinion piece — reporting what other people said in the past and using a wide range of reporting verbs and argumentative markers.
+objectives:
+  - Report statements, questions and requests in the past with the correct tense shifts and time references
+  - Use reporting verbs such as asegurar, negar, prometer, reconocer, aconsejar and pedir with the right mood
+  - Write an opinion piece with a clear structure, evaluations with the subjunctive and other people's views
+canDo:
+  - I can explain what a message, an article or a person said, even days later.
+  - I can recognise a hoax and explain how to check a piece of news.
+  - I can describe the techniques an advert uses to persuade.
+  - I can write a structured opinion piece that reports other views and reaches a conclusion.
+review: |
+  fill: «El museo cerrará en agosto.» → El director anunció que el museo ___ (cerrar) en agosto. || cerraría || With a past reporting verb, the future becomes the conditional. || @tags es.reported-speech
+  fill: «He perdido el tren.» → Marta me dijo que ___ (perder) el tren. || había perdido || The pretérito perfecto becomes the pluperfect: había perdido. || @tags es.reported-speech,es.pluperfect
+  mc: On Friday you report what Leo said on Monday: «Mañana te llamo». || Leo dijo que mañana me llama. | *Leo dijo que me llamaría al día siguiente. | Leo dijo que me llamará mañana. || Days later, mañana becomes al día siguiente, and the promise in the present becomes the conditional. || @tags es.reported-speech
+  fill: «No compartas el vídeo.» → Mi hermana me pidió que no ___ (compartir) el vídeo. || compartiera / compartiese || A negative command reported after a past verb takes the imperfect subjunctive. || @tags es.reported-speech,es.imperfect-subjunctive
+  mc: «¿Has leído el artículo entero?» → El profesor me preguntó ___ había leído el artículo entero. || que | *si | qué || Yes/no questions are reported with si. || @tags es.reported-speech
+  mc: «No, no es cierto que la oferta tenga trampa», dijo el vendedor. → El vendedor ___ que la oferta tuviera trampa. || prometió | *negó | aconsejó || Negar que (to deny that) reports a denial and takes the subjunctive: tuviera. || @tags es.reported-speech,es.subjunctive-triggers
+  fill: Es lamentable que tantos medios ___ (publicar) rumores sin comprobarlos. || publiquen || An evaluation (es lamentable que) takes the subjunctive. Note the spelling c → qu. || @tags es.subjunctive-triggers,es.opinion
+  tr: She assured me that the news was true. || Me aseguró que la noticia era verdad. | Me aseguró que la noticia era cierta. | Me aseguró que la noticia era verdadera. | Ella me aseguró que la noticia era verdad. | Ella me aseguró que la noticia era cierta. || Asegurar que + indicative, with the present shifted to the imperfect: era. || @tags es.reported-speech
+  listen: Ayer la empresa reconoció que el anuncio era confuso y prometió que lo cambiaría antes del fin de semana. || What did the company promise? || To pay back customers | *To change the advert before the weekend | To withdraw the product || «Prometió que lo cambiaría antes del fin de semana.» || @tags es.listening,es.reported-speech
+  listen: Mi abuelo me contó que en su pueblo las noticias llegaban por la radio y que solo había un teléfono para todos los vecinos. || How did news reach the grandfather's village? || *By radio | By telephone | By newspaper || «Las noticias llegaban por la radio.» || @tags es.listening,es.reported-speech
+  ask: Tell a friend about something someone told you last week — a piece of news, a promise or a piece of advice. Report it in the past. || kw: dijo/me dijo/contó/aseguró/prometió/me pidió/me aconsejó & que || La semana pasada mi jefa me dijo que iban a cambiar el horario y que a partir de enero trabajaríamos solo cuatro días. También me aseguró que no nos bajarían el sueldo. Me pidió que no se lo contara a nadie todavía, pero ya lo sabe toda la oficina.
+  write: Write a short opinion paragraph (100–120 words) answering: «¿Deberían los colegios enseñar a detectar noticias falsas?» Include another person's view and an evaluation with the subjunctive. || min=90 || req: a mi juicio/en mi opinión/desde mi punto de vista/creo que | es preocupante que/es fundamental que/es lamentable que/es lógico que/no es de extrañar que | según/hay quien/algunos/afirma/sostiene | en definitiva/en resumen/por todo ello/por lo tanto || Hoy en día recibimos noticias a todas horas y en todas partes. Hay quien sostiene que esta educación corresponde a las familias, pero, a mi juicio, el colegio es el lugar ideal para aprenderlo. Es preocupante que muchos adolescentes se informen solo a través de vídeos cortos y que no sepan comprobar una fuente. Según una profesora de mi barrio, sus alumnos aprendieron a detectar bulos en solo cuatro clases. Es más, empezaron a corregir a sus propios padres. En definitiva, es fundamental que los colegios incluyan esta materia cuanto antes.
+lessons:
+  - title: Misinformation and media literacy
+    summary: Talk about hoaxes, fake news and fact-checking, and report what messages and people said in the past with the right tense shifts.
+    minutes: 50
+    skills: [grammar, listening, speaking]
+    tags: [es.reported-speech]
+    objectives:
+      - Talk about hoaxes, misinformation and how to check a piece of news
+      - Report statements, questions and commands in the past, shifting tenses and time references
+      - Know when the original tense can be kept
+    intro: |
+      A message arrives on your phone: *¡Urgente! Mañana cortan el agua en todo el barrio. ¡Compártelo!* Two days later you need to explain what it said, who said it and what it asked you to do. At B1 you reported speech in the present (*dice que…*). At B2 you will report it in the past — *decía que cortarían el agua, pedía que lo compartiéramos* — which means shifting tenses, moods and time words.
+    vocab: |
+      el bulo | hoax; false rumour | n | El ayuntamiento ha desmentido el bulo del corte de agua. | The council has denied the hoax about the water cut. | g: m | n: Common in Spain. Also: la noticia falsa, the English "fake news".
+      la desinformación | misinformation; disinformation | n | La desinformación se extiende más rápido que las noticias verificadas. | Misinformation spreads faster than verified news. | g: f
+      desmentir | to deny; to refute | v | La empresa desmintió la noticia en un comunicado. | The company denied the news in a statement. | n: e → ie: desmiento. Also e → i in the indefinido: desmintió.
+      verificar | to verify; to fact-check | v | Antes de publicar, verificamos cada dato. | Before publishing, we check every fact. | n: Noun: la verificación (de datos) = fact-checking.
+      reenviar | to forward | v | Reenvié el mensaje sin leerlo entero. | I forwarded the message without reading all of it. | n: Stress on the í: reenvío, reenvías.
+      hacerse viral | to go viral | expr | El vídeo se hizo viral en pocas horas. | The video went viral in a few hours.
+      el titular | headline | n | El titular no tenía nada que ver con el contenido del artículo. | The headline had nothing to do with the content of the article. | g: m | n: Also "holder" (of an account or a post).
+      el medio de comunicación | media outlet | n | Busca la noticia en un medio de comunicación fiable. | Look for the news in a reliable media outlet. | g: m | n: Los medios = the media.
+      crear alarma | to cause alarm; to spread panic | expr | Pidieron que no se difundiera el mensaje para no crear alarma. | They asked people not to spread the message so as not to cause alarm.
+      falsificar | to forge; to fake | v | Un logotipo se puede falsificar en dos minutos. | A logo can be faked in two minutes.
+      el sensacionalismo | sensationalism | n | El sensacionalismo vende, pero desinforma. | Sensationalism sells, but it misinforms. | g: m | n: Adjective: sensacionalista.
+      la alfabetización mediática | media literacy | n | La alfabetización mediática debería empezar en primaria. | Media literacy should start in primary school. | g: f
+    grammar:
+      title: "Reported speech in the past"
+      body: |
+        When the reporting verb is in the past (*dijo, decía, explicó, contó, aseguró*), the reported verb usually moves **one step back in time**:
+
+        - present → **imperfect**: «Es falso» → *Dijo que **era** falso.*
+        - pretérito perfecto / indefinido → **pluperfect**: «Lo ha anunciado el ayuntamiento» → *Decía que lo **había anunciado** el ayuntamiento.* (The indefinido can also stay: *dijo que lo anunció*.)
+        - future → **conditional**: «No habrá cortes» → *Dijeron que no **habría** cortes.*
+        - imperfect, pluperfect and conditional **don't change**.
+        - commands and present subjunctive → **imperfect subjunctive**: «¡Compártelo!» → *Pedía que lo **compartiéramos**.*
+
+        **Questions**: yes/no questions with **si**, others with the question word: *Me preguntó **si** lo había comprobado. Le pregunté **quién** lo decía.*
+
+        **Time and place** change when you report later or elsewhere: *hoy → ese / aquel día, mañana → al día siguiente, ayer → el día anterior, aquí → allí, este → ese.*
+
+        **Keeping the tense**: if what was said is still true now, you can keep the original tense: *Me dijo que el museo **abre** los lunes* (it still does).
+      table: |
+        Original words | Reported in the past
+        «Es un bulo.» | Dijo que era un bulo.
+        «Lo hemos comprobado.» | Explicaron que lo habían comprobado.
+        «No habrá ningún corte.» | Aseguraron que no habría ningún corte.
+        «Compártelo con todos.» | Pedía que lo compartiéramos con todos.
+        «¿Quién te lo ha dicho?» | Me preguntó quién me lo había dicho.
+        «Mañana lo publicamos.» | Dijo que lo publicarían al día siguiente.
+      examples: |
+        El mensaje decía que iban a cortar el agua tres días en todo el barrio. | The message said they were going to cut off the water for three days in the whole neighbourhood. | ir a in the present → imperfect
+        Mi tía me aseguró que se lo había confirmado una vecina. | My aunt assured me that a neighbour had confirmed it to her. | perfect → pluperfect
+        El ayuntamiento dijo que no habría ningún corte. | The council said there would be no cut. | future → conditional
+        Me pidió que no se lo contara a nadie. | She asked me not to tell anyone. | command → imperfect subjunctive
+      tip: "Think of the original words as a photo taken in the present. When you report them from the past, everything moves one step back: es → era, ha sido → había sido, será → sería."
+    dialogue:
+      title: El bulo del agua
+      setting: A flat in Zaragoza. Héctor comes home carrying several large bottles of water. His flatmate Alba works at a fact-checking agency.
+      speakers: A=Alba/f; H=Héctor/m
+      lines: |
+        A: ¿Y todas esas garrafas de agua? ¿Vamos a montar una fiesta o qué? | What's with all those big bottles of water? Are we throwing a party or what?
+        H: ¿No te has enterado? Me llegó un mensaje que decía que iban a cortar el agua tres días en todo el barrio. | Haven't you heard? I got a message saying they were going to cut off the water for three days in the whole neighbourhood.
+        A: ¿Tres días? ¿Y quién lo decía exactamente? | Three days? And who exactly was saying that?
+        H: El mensaje decía que lo había anunciado el ayuntamiento esa misma mañana, y pedía que lo compartiéramos con todo el mundo. | The message said the council had announced it that very morning, and it asked us to share it with everyone.
+        A: Ya. Pues hace un rato he visto que el ayuntamiento ha desmentido el bulo. Dijeron que no habría ningún corte. | Right. Well, a little while ago I saw that the council has denied the hoax. They said there wouldn't be any cut.
+        H: ¿En serio? Pero si mi tía me aseguró que se lo había confirmado una vecina que trabaja en la empresa del agua. | Seriously? But my aunt assured me that a neighbour who works at the water company had confirmed it to her.
+        A: Clásico. Siempre hay una vecina que trabaja allí. ¿Te dijo cómo se llamaba esa vecina? | Classic. There's always a neighbour who works there. Did she tell you what this neighbour's name was?
+        H: Pues no. Solo me dijo que no se lo contara a nadie para no crear alarma. | Well, no. She just told me not to tell anyone, so as not to cause alarm.
+        A: ¡Y tú lo reenviaste a cuarenta personas! En la agencia siempre decimos que, antes de compartir, hay que comprobar la fuente. | And you forwarded it to forty people! At the agency we always say you have to check the source before sharing.
+        H: Es que el mensaje parecía muy oficial: tenía el escudo de la ciudad y todo. | It's just that the message looked very official: it had the city's coat of arms and everything.
+        A: Eso se falsifica en dos minutos. La próxima vez, busca la noticia en la web del ayuntamiento o en un medio fiable. | That can be faked in two minutes. Next time, look for the news on the council's website or in a reliable media outlet.
+        H: Vale, lección aprendida. ¿Y ahora qué hago yo con veinticuatro garrafas de agua? | OK, lesson learned. And what am I supposed to do with twenty-four big bottles of water now?
+    pronunciation:
+      title: "ll and y: yeísmo"
+      body: |
+        In most of Spain and Latin America, **ll** and **y** (before a vowel) are pronounced the same: a sound like the *y* in English "yes", sometimes a little stronger. This is called *yeísmo*: *llegó* and *yegua* start with the same sound, and *se calló* (he went quiet) sounds like *se cayó* (he fell).
+
+        In Argentina and Uruguay, both are pronounced like the *sh* in "show" or the *s* in "pleasure": [ʃe-ˈɣo]. Practise the standard pronunciation first.
+      items: |
+        me llegó un mensaje
+        ayer
+        allí
+        ya lo sé
+        se llamaba
+        el ayuntamiento
+    culture:
+      title: "Bulos, fact-checkers and family chats"
+      body: |
+        In Spain, false messages often spread through family and neighbourhood group chats, where people trust the sender more than the source. Several independent fact-checking organisations publish daily lists of **bulos** and explain how each one was debunked; some even offer a phone number to which you can forward a suspicious message.
+
+        The Real Academia Española recommends **noticia falsa** or **bulo** instead of the English *fake news*, although the English term is very widely used in the media in Spain and Latin America.
+    mistakes: |
+      La semana pasada me dijo que viene mañana. => La semana pasada me dijo que vendría al día siguiente. | Reported later, the future becomes the conditional and mañana becomes al día siguiente.
+      Me pidió que lo comparto. => Me pidió que lo compartiera. | A request reported with a past verb takes the imperfect subjunctive.
+      Dijo que ha sido un error. => Dijo que había sido un error. | With a past reporting verb, the pretérito perfecto becomes the pluperfect.
+    task:
+      title: Anatomy of a hoax
+      mode: speaking
+      body: |
+        Think of a hoax, rumour or misleading message you or someone you know received (or invent one). In about two minutes, explain what it said, who sent it, what it asked people to do and how the truth came out. Use at least six reported structures in the past (*decía que…, aseguraba que…, pedía que…, me preguntó si…*). Then tell the AI coach about your day in the "Talking about your day" scenario, reporting at least three things that people said to you.
+    exercises: |
+      fill: «El agua estará cortada tres días.» → El mensaje decía que el agua ___ (estar) cortada tres días. || estaría || With a past reporting verb, the future becomes the conditional: estará → estaría. || @tags es.reported-speech
+      fill: «He leído la noticia en un periódico serio.» → Me aseguró que ___ (leer) la noticia en un periódico serio. || había leído || The pretérito perfecto becomes the pluperfect: había leído. || @tags es.reported-speech,es.pluperfect
+      fill: «Comprueba siempre la fuente.» → Mi profesora me dijo que ___ (comprobar) siempre la fuente. || comprobara / comprobase || A command reported after a past verb takes the imperfect subjunctive. || @tags es.reported-speech,es.imperfect-subjunctive
+      mc: On Friday you report what Ana said on Monday: «Hoy no puedo hablar». || Ana dijo que hoy no puede hablar. | *Ana dijo que ese día no podía hablar. | Ana dijo que hoy no podía hablar. || Days later, hoy becomes ese día, and the present becomes the imperfect. || @tags es.reported-speech
+      mc: «¿Lo has comprobado?» → Me preguntó ___ lo había comprobado. || que | *si | qué || A yes/no question is reported with si. || @tags es.reported-speech
+      mc: «El ayuntamiento ha desmentido el bulo» means the council has… || confirmed the rumour. | *denied the hoax. | spread the hoax. || Desmentir = to deny, to show that something is false. || @skill vocabulary @tags es.vocabulary
+      tf: Héctor's aunt told him the name of the neighbour who confirmed the news. || false || When Alba asks, Héctor says «Pues no». || @ctx dialogue
+      short: Why did Héctor believe the message? || kw: oficial/official/escudo/logo/coat of arms/tía/aunt || It looked very official, with the city's coat of arms — and his aunt confirmed it. || @ctx dialogue
+      rw: Report it in the past, starting with «La periodista explicó que…» :: «El vídeo es falso y lo han manipulado.» || La periodista explicó que el vídeo era falso y que lo habían manipulado. | La periodista explicó que el vídeo era falso y lo habían manipulado. || Present → imperfect (era); pretérito perfecto → pluperfect (habían manipulado). || @tags es.reported-speech
+      tr: She told me not to share it with anyone. || Me dijo que no lo compartiera con nadie. | Me dijo que no lo compartiese con nadie. | Ella me dijo que no lo compartiera con nadie. | Me pidió que no lo compartiera con nadie. | Me pidió que no lo compartiese con nadie. || A negative command reported in the past: decir / pedir que + imperfect subjunctive. || @tags es.reported-speech,es.imperfect-subjunctive
+      listen: Ayer el ayuntamiento explicó que el mensaje era falso y que no habría ningún corte de agua en los próximos días. || What did the council say yesterday? || *That the message was false and there would be no water cut | That the water would be cut for three days | That they didn't know yet || «El mensaje era falso y no habría ningún corte de agua.» || @tags es.listening,es.reported-speech
+      listen: @dialogue || What does Alba recommend doing next time? || Asking a relative who works at the water company | *Looking for the news on the council's website or in a reliable outlet | Forwarding messages to fewer people || «Busca la noticia en la web del ayuntamiento o en un medio fiable.» || @tags es.listening
+      dict: Me dijo que lo había leído en internet, pero no recordaba dónde. || había leído = had read
+      ask: Tell a friend about a fake piece of news you received — what it said, who sent it and how you found out it was false. || kw: decía/dijo/dijeron/aseguraba/contaba & que & era/había/iba/iban/sería/habría || Hace unos meses me llegó un mensaje que decía que un famoso cantante había muerto. Lo enviaba mi primo, que aseguraba que lo había visto en la tele. Busqué la noticia en varios periódicos y no aparecía en ninguno. Al día siguiente el propio cantante publicó un vídeo en el que decía que estaba perfectamente.
+
+  - title: Advertising and persuasion
+    summary: Analyse the techniques of advertising and report claims, promises, denials and advice with a wide range of reporting verbs.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.reported-speech, es.subjunctive-triggers]
+    objectives:
+      - Describe advertising techniques such as urgency, testimonials and miracle promises
+      - Report statements with asegurar, reconocer, prometer and advertir, and denials with negar que + subjunctive
+      - Report advice and requests with aconsejar, recomendar, pedir and sugerir + imperfect subjunctive
+    intro: |
+      «¡Habla inglés en treinta días!» «Solo para las primeras cien personas.» Adverts persuade with promises, testimonials and a sense of urgency. When you complain or warn a friend, you need precise reporting verbs: *el anuncio **prometía** que…, la operadora **negó** que…, me **aconsejó** que…* Each verb carries an attitude — and some of them require the subjunctive.
+    vocab: |
+      persuadir | to persuade | v | El objetivo de un anuncio es persuadir, no informar. | The aim of an advert is to persuade, not to inform. | n: Noun: la persuasión.
+      el eslogan | slogan | n | Todo el mundo recuerda aquel eslogan. | Everyone remembers that slogan. | g: m | pl: eslóganes
+      el testimonio | testimonial; account | n | En el anuncio salía el testimonio de un cliente satisfecho. | The advert featured a testimonial from a satisfied customer. | g: m
+      el público objetivo | target audience | n | El público objetivo de esta campaña son los adolescentes. | The target audience of this campaign is teenagers. | g: m
+      la técnica de venta | sales technique | n | Crear urgencia es la técnica de venta más antigua. | Creating urgency is the oldest sales technique. | g: f
+      el reclamo | lure; selling point | n | El precio bajo es solo un reclamo para que entres en la tienda. | The low price is just a lure to get you into the shop. | g: m | n: Also "claim" in Latin America (here: la reclamación).
+      exagerado | exaggerated; over the top | adj | ¿No te parece un poquito exagerado? | Don't you think it's a little over the top?
+      milagroso | miraculous; miracle (adj.) | adj | Desconfía de los productos que prometen resultados milagrosos. | Be wary of products that promise miracle results.
+      apuntarse a | to sign up for | v | Me apunté al curso sin leer las condiciones. | I signed up for the course without reading the conditions.
+      fijarse en | to notice; to pay attention to | v | ¿Te fijaste en la letra pequeña? | Did you notice the small print?
+      el cargo | charge (on an account) | n | Ayer me llegó un cargo de ciento veinte euros. | Yesterday a charge of a hundred and twenty euros came through. | g: m | n: Also "position" in a company: un cargo directivo.
+      darse de baja | to cancel (a subscription or membership) | expr | Quiero darme de baja de la aplicación. | I want to cancel my subscription to the app. | n: The opposite is darse de alta.
+    grammar:
+      title: "Reporting verbs: aseguró que, negó que, me aconsejó que…"
+      body: |
+        *Decir* is useful, but precise reporting verbs show the speaker's attitude. They fall into three groups.
+
+        **Statements + indicative** (with the tense shifts from the previous lesson): *afirmar, asegurar, explicar, contar, comentar, añadir, reconocer / admitir* (to admit), *advertir de que* (to warn that). → *La operadora **reconoció** que **había** un error.*
+
+        **Promises**: *prometer que* + conditional, or *prometer* + infinitive when the subject is the same: *Prometieron que me **devolverían** el dinero* / *Prometieron **devolverme** el dinero.*
+
+        **Denials + subjunctive**: *negar que* normally takes the subjunctive: *Negó que **hubiera** ningún cargo automático.*
+
+        **Advice, requests and orders + subjunctive**: *aconsejar, recomendar, sugerir, pedir, rogar, exigir* + **que** + subjunctive. After a past verb, use the **imperfect subjunctive**: *Me **aconsejó** que **esperara**. Nos **pidió** que **leyéramos** un libro al mes.*
+
+        Careful with **decir**: + indicative it reports information; + subjunctive it reports an order: *Me dijo que **llamaba** más tarde* (she said she'd call) / *Me dijo que **llamara** más tarde* (she told me to call).
+      table: |
+        Verb | Construction | Example
+        asegurar / afirmar | que + indicative | Aseguraba que podría hablar inglés en un mes.
+        reconocer / admitir | que + indicative | Reconoció que el anuncio era confuso.
+        prometer | que + conditional / + infinitive | Prometió que me llamarían. / Prometió llamarme.
+        negar | que + subjunctive | Negó que hubiera ningún cargo.
+        aconsejar / recomendar / pedir | que + subjunctive | Me aconsejó que esperara.
+        decir | que + indicative (info) / subjunctive (order) | Me dijo que esperaba. / Me dijo que esperara.
+      examples: |
+        El anuncio aseguraba que en treinta días podría mantener una conversación en inglés. | The advert claimed that in thirty days I would be able to hold a conversation in English. | statement
+        La operadora negó que hubiera ningún cargo automático. | The operator denied that there was any automatic charge. | denial + subjunctive
+        Me aconsejó que esperara hasta el final del mes de prueba. | She advised me to wait until the end of the trial month. | advice + imperfect subjunctive
+        Prometieron que me devolverían el dinero en una semana. | They promised they would give me my money back within a week. | promise + conditional
+      tip: "Ask: is the verb reporting information (indicative) or trying to influence someone — advice, a request, an order (subjunctive)? Negar que is the exception to remember: a denial takes the subjunctive."
+    dialogue:
+      title: «¡Habla inglés en treinta días!»
+      setting: A shared flat in Madrid. Rubén shows his flatmate Daniela, who is from Bogotá, the language app he subscribed to after seeing an advert.
+      speakers: D=Daniela/f; R=Rubén/m
+      lines: |
+        D: ¿Qué es eso que tienes en el celular? ¿Otra aplicación de idiomas? | What's that on your phone? Another language app?
+        R: Sí. El anuncio aseguraba que en treinta días podría mantener una conversación en inglés sin problemas. | Yes. The advert claimed that in thirty days I'd be able to hold a conversation in English with no problems.
+        D: ¿Treinta días? ¿Y no te pareció un poquito exagerado? | Thirty days? And didn't that seem a little over the top to you?
+        R: Bueno, salía un chico que contaba que había conseguido trabajo en Londres gracias a la aplicación. | Well, there was a guy in it who said he'd got a job in London thanks to the app.
+        D: Ya, el testimonio de siempre. ¿Y no te fijaste en las condiciones? | Right, the usual testimonial. And didn't you look at the conditions?
+        R: Ponía que la oferta era solo para las primeras cien personas, así que me apunté corriendo. | It said the offer was only for the first hundred people, so I signed up straight away.
+        D: Claro, la urgencia. Te hacen creer que, si no compras ya, te lo pierdes. Es la técnica más vieja del mundo. | Of course, urgency. They make you believe that if you don't buy now, you'll miss out. It's the oldest trick in the book.
+        R: Y encima, cuando llamé para darme de baja, la operadora me aconsejó que esperara hasta el final del mes de prueba. | And on top of that, when I called to cancel, the operator advised me to wait until the end of the trial month.
+        D: ¿Y te advirtió de que después te cobrarían el año entero? | And did she warn you that afterwards they'd charge you for the whole year?
+        R: ¡Qué va! Negó que hubiera ningún cargo automático. Pero ayer me llegó un cargo de ciento veinte euros. | Not at all! She denied that there was any automatic charge. But yesterday a charge of a hundred and twenty euros came through.
+        D: Pues reclama. Y la próxima vez, desconfía de cualquier anuncio que te prometa milagros. | Then complain. And next time, be wary of any advert that promises you miracles.
+        R: Tienes razón. Por cierto, tú aprendiste inglés en Bogotá, ¿no? ¿Cómo lo hiciste? | You're right. By the way, you learned English in Bogotá, didn't you? How did you do it?
+        D: Con una profesora muy exigente que nos pidió que leyéramos un libro al mes. Sin milagros, pero funcionó. | With a very demanding teacher who asked us to read a book a month. No miracles, but it worked.
+    pronunciation:
+      title: "The voice of advertising"
+      body: |
+        Adverts use exclamations and short phrases with a strong fall at the end: *¡Solo hoy! ↘* Rhetorical questions rise: *¿A qué esperas? ↗*
+
+        Adverbs ending in **-mente** have **two** stresses: one on the adjective and one on *-men-*: *cien-**tí**-fi-ca-**men**-te*, ***rá**-pi-da-**men**-te*. The adjective keeps its written accent. Say these slogans like a radio announcer — then say them again in a neutral voice and notice the difference.
+      items: |
+        ¡Solo hoy!
+        ¡No te lo pierdas!
+        ¿A qué esperas?
+        Resultados garantizados
+        Científicamente probado
+        Últimas plazas disponibles
+    culture:
+      title: "Celular or móvil?"
+      body: |
+        Daniela is from Bogotá, so she says **celular**, the usual word in Latin America; in Spain people say **el móvil**. Other common differences: *ordenador* (Spain) / *computador* or *computadora* (Latin America), *coche* / *carro*, *vale* / *listo* or *dale*. In Colombia, many people use **usted** even with friends and family, while in Spain *tú* is used almost everywhere except in formal situations.
+
+        Advertising in Spain is regulated by law: adverts may not be misleading, and in several sectors, such as toys and food aimed at children, there are specific rules.
+    mistakes: |
+      Me aconsejó que espero hasta el final del mes. => Me aconsejó que esperara hasta el final del mes. | Advice reported after a past verb takes the imperfect subjunctive.
+      Negó que había ningún cargo. => Negó que hubiera ningún cargo. | Negar que normally takes the subjunctive.
+      Me prometió que me devolverá el dinero, pero nunca lo hizo. => Me prometió que me devolvería el dinero, pero nunca lo hizo. | The future seen from a past reporting verb becomes the conditional.
+    task:
+      title: Behind the advert
+      mode: interaction
+      body: |
+        Choose an advert you remember (or invent one for a gym, an app or a holiday). Tell a partner what it promised, which techniques it used (urgency, testimonials, a celebrity, "scientific" claims) and what happened if you bought the product. Use at least five different reporting verbs (*aseguraba, prometía, negó, me aconsejó, me pidió…*). Then discuss in the "Expressing an opinion" scenario with the AI coach whether advertising aimed at children should have stricter rules.
+    exercises: |
+      fill: «Si no estás satisfecho, te devolveremos el dinero.» → Prometieron que, si no estaba satisfecho, me ___ (devolver) el dinero. || devolverían || A promise about the future, reported in the past, takes the conditional. || @tags es.reported-speech,es.conditional
+      fill: El vendedor me recomendó que ___ (probar) primero la versión gratuita. || probara / probase || Recomendar que in the past + imperfect subjunctive. || @tags es.reported-speech,es.imperfect-subjunctive
+      fill: La empresa negó que el producto ___ (ser) peligroso para los niños. || fuera / fuese || Negar que takes the subjunctive; after a past verb, the imperfect subjunctive. || @tags es.reported-speech,es.subjunctive-triggers
+      mc: Compare «Me dijo que la llamara» and «Me dijo que la llamaba». In the first sentence, she… || *told me to call her. | told me she was calling. | told me that I had called her. || Decir + subjunctive reports an order or request; + indicative it reports information. || @tags es.reported-speech,es.subjunctive-triggers
+      mc: «No, no hay ningún cargo automático», dijo la operadora. → La operadora ___ que hubiera ningún cargo automático. || aseguró | *negó | prometió || The operator denies it, and negar que takes the subjunctive (hubiera). || @tags es.reported-speech
+      mc: Your friend says «Me di de baja del gimnasio». She… || *cancelled her gym membership. | signed up for the gym. | got injured at the gym. || Darse de baja = to cancel a membership; darse de alta = to sign up. || @skill vocabulary @tags es.vocabulary
+      tf: According to the advert, the offer was only for the first hundred people. || true || Rubén says «Ponía que la oferta era solo para las primeras cien personas». || @ctx dialogue
+      short: How did Daniela learn English? || kw: profesora/teacher/libro/libros/book/books/leer/read || With a demanding teacher who asked them to read a book a month. || @ctx dialogue
+      rw: Report the request in the past, starting with «Me pidió que…» :: «Envíame el recibo por correo.» || Me pidió que le enviara el recibo por correo. | Me pidió que le enviase el recibo por correo. | Me pidió que le mandara el recibo por correo. || A command reported in the past takes the imperfect subjunctive; envíame becomes le enviara. || @tags es.reported-speech,es.object-pronouns
+      tr: The advert promised that we would speak English in a month. || El anuncio prometía que hablaríamos inglés en un mes. | El anuncio prometió que hablaríamos inglés en un mes. | El anuncio prometía que hablaríamos inglés en un solo mes. | El anuncio prometía que en un mes hablaríamos inglés. | El anuncio prometió que en un mes hablaríamos inglés. || Prometer que + conditional (hablaríamos) for the future seen from the past. || @tags es.reported-speech,es.conditional
+      listen: La vendedora me aseguró que la batería duraba dos días, pero no me advirtió de que, con el GPS encendido, no llega ni a medio día. || What didn't the saleswoman mention? || The price of the battery | *That with the GPS on the battery lasts less than half a day | That the battery lasts two days || «No me advirtió de que, con el GPS encendido, no llega ni a medio día.» || @tags es.listening,es.reported-speech
+      listen: @dialogue || What happened when Rubén called to cancel? || He got his money back. | *He was advised to wait until the end of the trial month. | His subscription was cancelled immediately. || «La operadora me aconsejó que esperara hasta el final del mes de prueba.» || @tags es.listening
+      dict: El anuncio aseguraba que los resultados estaban científicamente probados. || científicamente = scientifically
+      say: Nos advirtieron de que la oferta terminaba a medianoche. || They warned us that the offer ended at midnight.
+
+  - title: Writing an opinion piece
+    summary: Read an opinion column about misleading headlines and learn to structure your own opinion piece, evaluate with the subjunctive and present other people's views.
+    minutes: 50
+    skills: [reading, writing, grammar]
+    tags: [es.opinion, es.connectors, es.subjunctive-triggers]
+    objectives:
+      - Understand the structure and arguments of an opinion column
+      - Evaluate facts with impersonal expressions + subjunctive (es preocupante que, no es de extrañar que)
+      - Present other views and organise an argument with markers such as es más, a mi juicio and en definitiva
+    intro: |
+      An opinion piece is more than an opinion: it needs a hook, arguments, a fair account of other views and a clear conclusion. Spanish newspapers have a long tradition of columns written by journalists and writers. In this lesson you will read one about misleading headlines and learn the language to write your own — from *hay quien sostiene que* to *en definitiva*.
+    vocab: |
+      la columna | (newspaper) column | n | Escribe una columna semanal en un periódico regional. | She writes a weekly column in a regional newspaper. | g: f | n: The writer is el / la columnista.
+      indignado | outraged; indignant | adj | Una lectora me escribió indignada. | A reader wrote to me, outraged.
+      hacer clic | to click | expr | Los titulares se escriben para que hagamos clic. | Headlines are written so that we click.
+      difundir | to spread; to disseminate | v | Difundimos más rápido lo que nos indigna. | We spread what outrages us more quickly.
+      culpar | to blame | v | Sería injusto culpar solo a los periodistas. | It would be unfair to blame only journalists. | c: culpar a alguien de algo
+      sostener | to maintain; to argue | v | Hay quien sostiene que hay que regular las plataformas. | Some people argue that the platforms should be regulated. | n: Conjugated like tener: sostengo, sostuvo.
+      a mi juicio | in my view | expr | A mi juicio, ambas cosas son necesarias. | In my view, both things are necessary. | n: Formal. Also: desde mi punto de vista, en mi opinión.
+      no es de extrañar que | it's no wonder that | expr | No es de extrañar que los lectores desconfíen. | It's no wonder readers are distrustful. | n: Followed by the subjunctive.
+      resultar | to be; to turn out (+ adjective) | v | Resulta preocupante que no se enseñe en los colegios. | It's worrying that it isn't taught in schools.
+      es más | what's more; in fact | expr | No lo leí. Es más, ni siquiera abrí el enlace. | I didn't read it. In fact, I didn't even open the link. | n: Adds a stronger argument.
+      en definitiva | in short; ultimately | expr | En definitiva, la calidad de la información depende de todos. | Ultimately, the quality of information depends on everyone.
+      la precisión | accuracy; precision | n | Algunos medios prefieren la sorpresa a la precisión. | Some media prefer surprise to accuracy. | g: f
+    grammar:
+      title: "Building an opinion piece"
+      body: |
+        A typical opinion piece has four parts: a **hook** (an anecdote, a fact, a question), the **argument**, **other views** and a **conclusion**.
+
+        **Evaluating a fact**: impersonal expressions that judge or react take the **subjunctive**, even when the fact is true: *es lamentable que, es preocupante / resulta preocupante que, no es de extrañar que, es lógico que, es fundamental que.* → *Resulta preocupante que no **se enseñe** a distinguir una noticia de una opinión.* Expressions of certainty take the indicative (*es evidente que, está claro que* — Unit 1).
+
+        **Presenting other views**: *Según + source, … / Hay quien sostiene que… / Otros, en cambio, defienden que… / Como señala X, …* When you report what someone wrote or said in the past, use the tense shifts: *Me contaba que **había compartido** una noticia.*
+
+        **Organising the argument**:
+
+        - giving your view: *a mi juicio, desde mi punto de vista, en mi opinión* (use only one at a time)
+        - adding: *además, asimismo* (formal), *es más* (stronger argument)
+        - contrasting: *sin embargo, en cambio, ahora bien*
+        - concluding: *en definitiva, en resumen, por todo ello*
+      table: |
+        Function | Markers | Example
+        Evaluating (+ subj.) | es preocupante que, no es de extrañar que, es lamentable que | No es de extrañar que los lectores desconfíen.
+        Other views | según, hay quien sostiene que, otros defienden que | Hay quien sostiene que hay que regular las redes.
+        Your view | a mi juicio, desde mi punto de vista | A mi juicio, ambas cosas son necesarias.
+        Adding | además, asimismo, es más | Es más, solemos difundir lo que nos indigna.
+        Concluding | en definitiva, en resumen, por todo ello | En definitiva, depende también de quien lee.
+      examples: |
+        No es de extrañar que algunos medios prefieran la sorpresa a la precisión. | It's no wonder that some media prefer surprise to accuracy. | evaluation + subjunctive
+        Hay quien sostiene que la solución pasa por regular las plataformas. | Some argue that the solution lies in regulating the platforms. | another view
+        Es más, solemos difundir con más rapidez aquello que nos indigna. | What's more, we tend to spread what outrages us more quickly. | adding a stronger argument
+        En definitiva, la calidad de la información no depende solo de quien escribe. | In short, the quality of information doesn't depend only on the person writing. | conclusion
+      tip: "Plan before you write: one sentence for the hook, three for your arguments, two for the other side and one for the conclusion. Then add the markers."
+    reading:
+      title: El titular es la trampa
+      text: |
+        Hace unas semanas, una lectora me escribió indignada. Me contaba que había compartido una noticia con el titular «Los médicos lo confirman: el café acorta la vida» y que, al leer el artículo entero, había descubierto que el estudio decía casi lo contrario: que tres tazas al día no tenían ningún efecto negativo en adultos sanos. Me preguntaba, con razón, cómo era posible que un periódico serio publicara algo así.
+
+        La respuesta es tan sencilla como incómoda: los titulares ya no se escriben solo para informar, sino para que hagamos clic. Cada clic se traduce en publicidad y, por lo tanto, en dinero. No es de extrañar, pues, que algunos medios prefieran la sorpresa a la precisión.
+
+        Sin embargo, sería injusto culpar únicamente a los periodistas. Según algunos estudios, muchos usuarios comparten noticias en las redes sin haberlas leído. Es más, solemos difundir con más rapidez aquello que nos indigna o que confirma lo que ya pensábamos. Y los algoritmos, que aprenden de nuestro comportamiento, nos devuelven más de lo mismo.
+
+        Hay quien sostiene que la solución pasa por regular las plataformas. Otros, en cambio, defienden que lo importante es educar a los lectores. A mi juicio, ambas cosas son necesarias, pero la segunda depende de nosotros. Resulta preocupante que en muchos colegios todavía no se enseñe a distinguir una noticia de una opinión, o un dato de un rumor.
+
+        Mientras tanto, propongo tres hábitos sencillos: leer la noticia completa antes de compartirla, comprobar quién la firma y desconfiar de los titulares que prometen escándalos. Puede parecer poco, pero si cada uno de nosotros los adoptara, el titular dejaría de ser una trampa.
+
+        En definitiva, la calidad de la información no depende solo de quien escribe, sino también de quien lee. Y eso, querida lectora, es una buena noticia.
+      translation: |
+        A few weeks ago, a reader wrote to me, outraged. She told me she had shared a news item with the headline "Doctors confirm it: coffee shortens your life" and that, when she read the whole article, she had discovered that the study said almost the opposite: that three cups a day had no negative effect on healthy adults. She asked me, rightly, how it was possible for a serious newspaper to publish something like that.
+
+        The answer is as simple as it is uncomfortable: headlines are no longer written just to inform, but to make us click. Every click translates into advertising and, therefore, into money. It's no wonder, then, that some media prefer surprise to accuracy.
+
+        However, it would be unfair to blame only journalists. According to some studies, many users share news on social media without having read it. What's more, we tend to spread more quickly what outrages us or confirms what we already thought. And the algorithms, which learn from our behaviour, give us back more of the same.
+
+        Some argue that the solution lies in regulating the platforms. Others, on the other hand, maintain that what matters is educating readers. In my view, both are necessary, but the second depends on us. It is worrying that many schools still don't teach how to tell news from opinion, or a fact from a rumour.
+
+        In the meantime, I suggest three simple habits: read the whole article before sharing it, check who has written it, and be wary of headlines that promise scandals. It may not seem much, but if each of us adopted them, the headline would stop being a trap.
+
+        In short, the quality of information doesn't depend only on the person who writes, but also on the person who reads. And that, dear reader, is good news.
+    pronunciation:
+      title: "Reading aloud: markers and pauses"
+      body: |
+        When you read an opinion piece aloud — or give a short speech — the markers organise the listener's attention. Make a short pause after *a mi juicio, es más, sin embargo* and *en definitiva*, with the voice slightly raised, as if announcing what comes next. Inserted words such as *pues* in *No es de extrañar, pues, que…* go between two short pauses, in a lower voice.
+
+        Read each phrase aloud, then read the last paragraph of the column at a calm, steady pace.
+      items: |
+        A mi juicio,
+        Es más,
+        Sin embargo,
+        No es de extrañar, pues, que…
+        Hay quien sostiene que…
+        En definitiva,
+    culture:
+      title: "Columnas, tribunas and cartas al director"
+      body: |
+        Spanish newspapers distinguish several types of opinion text. The **editorial** is unsigned and expresses the newspaper's position. A **columna** is written regularly by the same author, often a well-known journalist or novelist, with a personal style. A **tribuna** is a one-off piece by a guest expert. Readers can reply through **cartas al director**, letters to the editor.
+
+        Many great Spanish and Latin American writers have also been columnists, and some of their best-known texts first appeared in a newspaper.
+    mistakes: |
+      Es lamentable que muchos medios publican rumores. => Es lamentable que muchos medios publiquen rumores. | An expression that evaluates a fact takes the subjunctive.
+      A mi juicio, creo que es necesario. => A mi juicio, es necesario. | Don't stack two opinion markers: a mi juicio already means "I think".
+      Hay quien sostiene de que hay que regularlo. => Hay quien sostiene que hay que regularlo. | Sostener is followed directly by que, without de.
+    task:
+      title: Your opinion column
+      mode: writing
+      body: |
+        Write an opinion piece (150–180 words) for a Spanish student magazine on one of these questions: *¿Deberían los periódicos cobrar por sus noticias?* or *¿Es buena idea informarse solo a través de las redes sociales?* Start with a hook, give two arguments, present one opposing view (*hay quien sostiene que…*), evaluate at least one fact with the subjunctive and finish with *en definitiva* or *por todo ello*.
+    exercises: |
+      mc: Why did the reader write to the columnist? || *The headline said the opposite of what the study showed. | The newspaper had refused to publish her letter. | She thought the article was too long. || The headline said coffee shortens your life, but the study said three cups a day had no negative effect. || @ctx reading @tags es.reading
+      tf: According to the columnist, only journalists are to blame for misleading headlines. || false || «Sería injusto culpar únicamente a los periodistas»: readers and algorithms also play a part. || @ctx reading @tags es.reading
+      mc: What is the columnist's position on regulation and education? || Only regulating the platforms will work. | *Both are necessary, but education depends on us. | Neither will change anything. || «A mi juicio, ambas cosas son necesarias, pero la segunda depende de nosotros.» || @ctx reading @tags es.reading
+      short: Name one of the three habits the columnist suggests. || kw: leer/read/completa/whole/firma/firmar/who wrote/autor/author/desconfiar/titulares/headlines/escándalos || Reading the whole article before sharing it, checking who wrote it, and being wary of scandalous headlines. || @ctx reading @tags es.reading
+      fill: Resulta preocupante que muchos jóvenes ___ (informarse) solo por las redes sociales. || se informen || Resulta preocupante que evaluates a fact, so it takes the subjunctive. || @tags es.subjunctive-triggers,es.opinion
+      fill: No es de extrañar que los lectores ___ (desconfiar) de algunos medios. || desconfíen || No es de extrañar que + subjunctive. Note the accent: desconfíen. || @tags es.subjunctive-triggers,es.opinion
+      fill: Es evidente que los titulares ___ (influir) en lo que compartimos. || influyen || Es evidente que expresses certainty, so it takes the indicative. Influir adds y: influyen. || @tags es.subjunctive-triggers
+      mc: Which marker adds a stronger argument? || Sin embargo | *Es más | En cambio || Es más (what's more, in fact) reinforces the previous point; the other two introduce a contrast. || @tags es.connectors
+      rw: Report the reader's words, starting with «La lectora me contó que…» :: «He compartido una noticia falsa sin leerla.» || La lectora me contó que había compartido una noticia falsa sin leerla. || A past reporting verb: the pretérito perfecto becomes the pluperfect. || @tags es.reported-speech
+      tr: It's worrying that many people share news without reading it. || Es preocupante que mucha gente comparta noticias sin leerlas. | Resulta preocupante que mucha gente comparta noticias sin leerlas. | Es preocupante que muchas personas compartan noticias sin leerlas. | Resulta preocupante que muchas personas compartan noticias sin leerlas. | Es preocupante que mucha gente comparta las noticias sin leerlas. || An evaluation takes the subjunctive: comparta (mucha gente is singular) or compartan (muchas personas). || @tags es.subjunctive-triggers,es.opinion
+      listen: Hay quien sostiene que las redes sociales nos informan mejor que nunca; otros, en cambio, creen que solo nos muestran lo que queremos ver. || What does the second group believe? || *That social media only shows us what we want to see | That social media informs us better than ever | That newspapers are more reliable than ever || «Otros, en cambio, creen que solo nos muestran lo que queremos ver.» || @tags es.listening,es.opinion
+      dict: A mi juicio, la calidad de la información también depende de quien lee. || a mi juicio = in my view
+      say: No es de extrañar que la gente desconfíe de los titulares. || It's no wonder that people distrust headlines.
+      write: Write an opinion paragraph (100–120 words): «¿Es buena idea informarse solo a través de las redes sociales?» || min=90 || req: a mi juicio/en mi opinión/desde mi punto de vista | es preocupante que/es lamentable que/no es de extrañar que/es fundamental que/resulta preocupante que | hay quien/según/otros/algunos | en definitiva/en resumen/por todo ello || Cada vez más personas se informan solo a través de las redes sociales. Hay quien sostiene que así estamos mejor informados que nunca, porque las noticias llegan al instante. A mi juicio, sin embargo, es un riesgo. Los algoritmos nos muestran lo que nos gusta, no lo que es importante, y muchas publicaciones no tienen ninguna fuente. Es más, los vídeos cortos rara vez explican el contexto. Resulta preocupante que tantos jóvenes no lean nunca un periódico. En definitiva, las redes pueden ser un buen punto de partida, pero nunca deberían ser la única fuente de información.
