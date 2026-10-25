@@ -1,0 +1,353 @@
+unit: 4
+title: Umwelt und Klima
+theme: Environment
+description: Weigh up climate measures, describe sustainable neighbourhoods and debate solutions — with two-part connectors, je … desto and connectors of consequence, contrast and concession.
+free: false
+objectives:
+  - Balance arguments with two-part connectors (zwar … aber, nicht nur … sondern auch, weder … noch)
+  - Describe developments and their effects with je … desto/umso and immer + comparative
+  - Debate solutions with sodass, während, wohingegen, dennoch and folglich
+canDo:
+  - I can explain a climate measure and present the arguments for and against it in a balanced way.
+  - I can describe what makes a neighbourhood sustainable and liveable.
+  - I can take part in a debate, react to counter-arguments and suggest a compromise.
+  - I can link ideas precisely to show addition, contrast, consequence and concession.
+review: |
+  fill: Der neue Radweg ist nicht nur sicherer, ___ auch schneller. || sondern || Nicht nur … sondern auch adds a second, often stronger point. || @tags de.connectors
+  fill: Ich habe weder ein Auto ___ einen Führerschein. || noch || Weder … noch = neither … nor. || @tags de.connectors,de.negation
+  mc: Je mehr Menschen Rad fahren, ___ || *desto weniger Platz brauchen Autos. | desto weniger Platz Autos brauchen. | desto Autos brauchen weniger Platz. || After desto + comparative (+ noun) comes the conjugated verb, then the subject. || @tags de.connectors,de.comparatives,de.word-order
+  fill: Je länger ich hier wohne, ___ wohler fühle ich mich. || desto / umso || Je + comparative is answered by desto or umso + comparative. || @tags de.connectors,de.comparatives
+  fill: Es hat drei Tage lang geregnet, ___ der Keller unter Wasser stand. || sodass / so dass || Sodass introduces a consequence and sends the verb to the end. || @tags de.connectors,de.subordinate-clauses
+  mc: Die Stadt hat kaum Geld. ___ will sie in neue Radwege investieren. || *Dennoch | Sodass | Wohingegen || A contrast to what you would expect: dennoch (= trotzdem) with the verb straight after it. || @tags de.connectors
+  rw: Combine with zwar … aber :: Die Wärmepumpe ist teuer. Sie spart langfristig Geld. || Die Wärmepumpe ist zwar teuer, aber sie spart langfristig Geld. | Zwar ist die Wärmepumpe teuer, aber sie spart langfristig Geld. | Die Wärmepumpe ist zwar teuer, spart aber langfristig Geld. || Zwar concedes the first point; aber introduces the stronger counterpoint. || @tags de.connectors
+  tr: In the city many people cycle, whereas in the countryside almost everyone drives. || In der Stadt fahren viele Menschen Rad, während auf dem Land fast alle Auto fahren. | In der Stadt fahren viele Menschen Rad, wohingegen auf dem Land fast alle Auto fahren. | In der Stadt fahren viele Leute Rad, während auf dem Land fast jeder Auto fährt. | In der Stadt fahren viele Leute Rad, wohingegen auf dem Land fast jeder Auto fährt. || Während or wohingegen express contrast and send the verb to the end. || @tags de.connectors,de.subordinate-clauses
+  listen: Die neue Förderung gilt sowohl für Eigentümer als auch für Mieter. Anträge können allerdings nur noch bis Ende Juni gestellt werden. || Who can apply for the new subsidy? || Only home owners | *Both owners and tenants | Only tenants || "Sowohl für Eigentümer als auch für Mieter" = for both owners and tenants. || @tags de.listening,de.connectors
+  listen: Je heißer die Sommer werden, desto wichtiger sind schattige Plätze in der Stadt. Deshalb pflanzen wir in diesem Jahr dreihundert neue Bäume. || Why is the city planting new trees? || Because the old trees are ill | *Because shade becomes more important as summers get hotter | Because residents have complained about noise || "Je heißer die Sommer werden, desto wichtiger sind schattige Plätze." || @tags de.listening,de.connectors
+  ask: „Was müsste Ihre Stadt tun, um klimafreundlicher zu werden?“ Make two suggestions and use at least two different connectors. || kw: zwar/aber/sondern/je/desto/umso/sodass/während/dennoch/weder & müsste/sollte/könnte/würde || Die Stadt sollte nicht nur mehr Bäume pflanzen, sondern auch die Busse günstiger machen. Das kostet zwar Geld, aber je mehr Menschen den Bus nehmen, desto weniger Autos sind unterwegs.
+  write: Write a short comment (80–100 words) for a local news website on the question „Sollte unsere Innenstadt autofrei werden?“ Present both sides and give your opinion. || min=70 || req: zwar/einerseits | aber/andererseits/dennoch/allerdings | je/sodass/während/wohingegen/nicht nur || Eine autofreie Innenstadt hätte zwar viele Vorteile, aber sie ist nicht für alle gleich gut. Einerseits wären die Straßen ruhiger und sicherer, sodass sich mehr Menschen gern dort aufhalten würden. Andererseits sind viele ältere Menschen und Pendler aus dem Umland auf das Auto angewiesen, während junge Leute in der Stadt problemlos mit dem Rad fahren. Dennoch finde ich die Idee richtig. Je besser der Nahverkehr wird, desto weniger braucht man das Auto. Deshalb sollte man schrittweise vorgehen und mit einzelnen Straßen anfangen.
+lessons:
+  - title: Climate policy
+    summary: Read an explainer about the CO₂ price and weigh up arguments with two-part connectors (zwar … aber, nicht nur … sondern auch, sowohl … als auch, weder … noch, entweder … oder).
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [de.connectors, de.reading]
+    objectives:
+      - Use two-part connectors to add, contrast and exclude ideas
+      - Put the parts of two-part connectors in the right position in the sentence
+      - Understand and summarise a balanced explainer on a climate measure
+    intro: |
+      Climate measures are rarely simply good or bad: a policy is *zwar* effective, *aber* expensive; it affects *nicht nur* companies, *sondern auch* households. **Two-part connectors** help you present such balanced arguments clearly. In this lesson you will read an explainer about the CO₂ price — written neutrally, as in a good newspaper — and learn to use these connectors yourself.
+    vocab: |
+      der CO₂-Preis | carbon price | n | Der CO₂-Preis macht Heizöl und Benzin teurer. | The carbon price makes heating oil and petrol more expensive. | g: m | pl: die CO₂-Preise | n: CO₂ is read [tseː ʔoː ˈtsveː].
+      die Emission | emission | n | Der Verkehr verursacht einen großen Teil der Emissionen. | Transport causes a large share of emissions. | g: f | pl: die Emissionen | n: Also: der Ausstoß (output) von Treibhausgasen.
+      fossil | fossil | adj | Fossile Energieträger wie Kohle und Gas sollen ersetzt werden. | Fossil fuels such as coal and gas are to be replaced.
+      klimafreundlich | climate-friendly | adj | Mit dem Zug zu reisen ist meist klimafreundlicher als zu fliegen. | Travelling by train is usually more climate-friendly than flying.
+      umstritten | controversial; disputed | adj | Die Wirkung der Maßnahme ist unter Fachleuten umstritten. | The effect of the measure is disputed among experts.
+      der Befürworter | supporter; advocate | n | Die Befürworter des Plans hoffen auf weniger Verkehr. | Supporters of the plan hope for less traffic. | g: m | pl: die Befürworter | n: Feminine: die Befürworterin. Opposite: der Gegner, die Gegnerin.
+      einsparen | to save; to cut | v | Durch die neue Heizung sparen wir ein Drittel der Energie ein. | With the new heating we save a third of the energy. | n: Separable. Noun: die Einsparung.
+      die Wärmepumpe | heat pump | n | Immer mehr Neubauten werden mit einer Wärmepumpe geheizt. | More and more new buildings are heated with a heat pump. | g: f | pl: die Wärmepumpen
+      dämmen | to insulate | v | Seit das Dach gedämmt ist, ist unsere Heizrechnung deutlich niedriger. | Since the roof was insulated our heating bill has been much lower. | n: Noun: die Dämmung.
+      die Einnahmen | revenue; income | n | Die Einnahmen aus dem CO₂-Preis fließen in einen Fonds. | The revenue from the carbon price goes into a fund. | pl: die Einnahmen | n: Mostly plural. Opposite: die Ausgaben.
+      fördern | to fund; to support; to promote | v | Der Staat fördert den Einbau von Solaranlagen. | The state subsidises the installation of solar panels. | n: Noun: die Förderung; das Förderprogramm.
+      empfinden | to perceive; to feel | v | Viele empfinden die Regelung als ungerecht. | Many people regard the rule as unfair. | c: etwas als gerecht/ungerecht empfinden | n: Irregular: empfand, hat empfunden.
+    grammar:
+      title: "Two-part connectors"
+      body: |
+        Two-part connectors frame two ideas at once and make the logic of an argument visible:
+
+        - **zwar … aber** concedes a point and then contrasts it: *Die Idee ist **zwar** einfach, **aber** ihre Wirkung ist umstritten.*
+        - **nicht nur … sondern auch** adds a second, often stronger point: *Der Preis betrifft **nicht nur** Unternehmen, **sondern auch** Haushalte.*
+        - **sowohl … als auch** = both … and: ***Sowohl** die Stadt **als auch** das Land fördern Radwege.*
+        - **weder … noch** = neither … nor (no extra *nicht*!): *Mieter können die Heizung **weder** austauschen **noch** das Haus dämmen.*
+        - **entweder … oder** = either … or: ***Entweder** wir investieren jetzt, **oder** es wird später teurer.*
+
+        **Word order.** *Zwar* is an adverb: it stands after the verb or in position 1 with inversion (***Zwar ist** die Idee einfach, …*). *Aber, sondern* and *oder* stand in "position 0" and don't change the word order. *Entweder* and *weder* can be in position 0 or 1: *Entweder **wir investieren** jetzt … / Entweder **investieren wir** jetzt …*
+
+        With **sowohl … als auch** joining two subjects, the verb is plural.
+      table: |
+        Connector | Meaning | Example
+        zwar … aber | admittedly … but | Das ist zwar teuer, aber es lohnt sich.
+        nicht nur … sondern auch | not only … but also | Das spart nicht nur Geld, sondern auch Energie.
+        sowohl … als auch | both … and | Sowohl Mieter als auch Eigentümer profitieren.
+        weder … noch | neither … nor | Ich habe weder Zeit noch Geld.
+        entweder … oder | either … or | Entweder wir handeln jetzt, oder wir zahlen später.
+      examples: |
+        Die Idee hinter dem CO₂-Preis ist zwar einfach, aber ihre Wirkung ist umstritten. | The idea behind the carbon price is simple, but its effect is disputed. | zwar … aber
+        Der CO₂-Preis ist nicht nur ein ökonomisches Instrument, sondern auch eine soziale Frage. | The carbon price is not only an economic instrument but also a social issue. | nicht nur … sondern auch
+        Wer zur Miete wohnt, kann die Ölheizung weder austauschen noch das Haus dämmen. | Tenants can neither replace the oil heating nor insulate the house. | weder … noch (no nicht)
+        Entweder fließen die Einnahmen in Förderprogramme, oder sie werden an die Bürger zurückgezahlt. | Either the revenue goes into funding programmes or it is paid back to the citizens. | entweder … oder
+      tip: "Weder … noch is already negative. Never add nicht or kein: Ich habe weder Zeit noch Geld — not weder keine Zeit."
+    reading:
+      title: Was kostet eine Tonne CO₂?
+      text: |
+        Wer tankt oder mit Gas heizt, zahlt in Deutschland seit 2021 nicht nur für die Energie selbst, sondern auch für das Kohlendioxid, das dabei entsteht. Der sogenannte CO₂-Preis soll fossile Energie schrittweise teurer und klimafreundliche Alternativen dadurch attraktiver machen. Die Idee dahinter ist zwar einfach, aber ihre Wirkung ist umstritten.
+
+        Befürworterinnen und Befürworter argumentieren, dass ein Preis sowohl für Unternehmen als auch für Privathaushalte ein klares Signal setzt. Der Staat schreibt niemandem vor, welche Heizung er einbauen oder welches Auto er fahren soll. Jeder entscheidet selbst, wo er am günstigsten Emissionen einsparen kann.
+
+        Kritikerinnen und Kritiker halten dagegen, dass ein Preis allein nicht ausreicht. Wer auf dem Land wohnt und keine Bushaltestelle in der Nähe hat, kann das Auto zwar stehen lassen, aber nur mit großem Aufwand. Und wer zur Miete wohnt, kann die alte Ölheizung weder austauschen noch das Haus dämmen – das entscheidet der Vermieter.
+
+        Deshalb wird diskutiert, wie die Einnahmen verwendet werden sollen. Entweder fließen sie in Förderprogramme, zum Beispiel für Wärmepumpen und den Nahverkehr, oder sie werden direkt an die Bürgerinnen und Bürger zurückgezahlt. Viele Fachleute empfehlen eine Kombination aus beidem.
+
+        Klar ist: Der CO₂-Preis ist nicht nur ein ökonomisches Instrument, sondern auch eine soziale Frage. Ob er akzeptiert wird, hängt nicht zuletzt davon ab, ob die Menschen das System als gerecht empfinden.
+      translation: |
+        Anyone in Germany who fills up the car or heats with gas has paid since 2021 not only for the energy itself but also for the carbon dioxide it produces. The so-called carbon price is meant to make fossil energy gradually more expensive and thereby make climate-friendly alternatives more attractive. The idea behind it is simple, but its effect is disputed.
+
+        Supporters argue that a price sends a clear signal to both companies and private households. The state doesn't tell anyone which heating system to install or which car to drive. Everyone decides for themselves where they can cut emissions most cheaply.
+
+        Critics counter that a price alone is not enough. Someone who lives in the countryside without a bus stop nearby can leave the car at home, but only with great effort. And tenants can neither replace the old oil heating nor insulate the house – that is the landlord's decision.
+
+        That is why there is a debate about how the revenue should be used. Either it goes into funding programmes, for example for heat pumps and public transport, or it is paid back directly to citizens. Many experts recommend a combination of both.
+
+        One thing is clear: the carbon price is not only an economic instrument but also a social issue. Whether it is accepted depends not least on whether people regard the system as fair.
+    pronunciation:
+      title: "Stressing both parts of a connector"
+      body: |
+        In spoken arguments both parts of a two-part connector carry stress, and there is often a short pause before the second part: *Das ist ZWAR teuer | ABER es lohnt sich. Ich habe WEDER Zeit | NOCH Geld.*
+
+        With *nicht nur … sondern auch*, the stress falls on the contrasted words: *nicht nur GELD, sondern auch ZEIT*.
+      items: |
+        zwar … aber
+        nicht nur Geld, sondern auch Zeit
+        sowohl die Stadt als auch das Land
+        weder Zeit noch Geld
+        die Wärmepumpe
+        Die Idee ist zwar einfach, aber umstritten.
+    mistakes: |
+      Ich habe weder keine Zeit noch kein Geld. => Ich habe weder Zeit noch Geld. | Weder … noch is already negative; don't add kein or nicht.
+      Das spart nicht nur Energie, aber auch Geld. => Das spart nicht nur Energie, sondern auch Geld. | The partner of nicht nur is always sondern auch.
+      Zwar die Idee ist gut, aber … => Zwar ist die Idee gut, aber … | Zwar in position 1 is followed directly by the verb.
+    task:
+      title: Explain a measure
+      mode: writing
+      body: |
+        Choose a climate or environmental measure (for example a deposit on bottles, a speed limit, subsidies for solar panels or a ban on plastic bags). Write a neutral explainer of 120–150 words: what it is, what supporters say, what critics say and what is still open. Use at least four different two-part connectors.
+    exercises: |
+      mc: ___ ist die Idee einfach, aber ihre Umsetzung ist kompliziert. || *Zwar | Weder | Sowohl || Zwar … aber concedes a point and contrasts it; weder needs noch, sowohl needs als auch. || @tags de.connectors
+      fill: Der CO₂-Preis betrifft nicht nur Unternehmen, ___ auch Privathaushalte. || sondern || Nicht nur … sondern auch. || @tags de.connectors
+      fill: Wer zur Miete wohnt, kann die Heizung weder austauschen ___ das Haus dämmen. || noch || Weder … noch = neither … nor. || @tags de.connectors
+      fill: Sowohl die Stadt ___ auch das Land fördern den Bau neuer Radwege. || als || Sowohl … als auch = both … and; the verb is plural (fördern). || @tags de.connectors
+      fill: Entweder wir investieren jetzt in den Hochwasserschutz, ___ die Schäden werden später noch teurer. || oder || Entweder … oder = either … or. || @tags de.connectors
+      rw: Combine with weder … noch :: Wir haben kein Auto. Wir haben auch keine Garage. || Wir haben weder ein Auto noch eine Garage. || Weder … noch replaces both negations; kein becomes ein/eine. || @tags de.connectors,de.negation
+      rw: Combine with nicht nur … sondern auch :: Das Programm spart Energie. Es schafft außerdem neue Arbeitsplätze. || Das Programm spart nicht nur Energie, sondern schafft auch neue Arbeitsplätze. | Das Programm spart nicht nur Energie, sondern es schafft auch neue Arbeitsplätze. || Nicht nur before the first point, sondern auch before the second. || @tags de.connectors
+      tf: According to the text, the CO₂ price tells people which heating system they must install. || false || "Der Staat schreibt niemandem vor, welche Heizung er einbauen … soll." || @ctx reading
+      mc: Why is it difficult for tenants to react to the CO₂ price? || They don't pay for heating. | *The landlord decides about the heating and insulation. | They are not allowed to drive. || "… das entscheidet der Vermieter." || @ctx reading @skill reading
+      short: What are the two options for using the revenue? || kw: förder/fund/subsid/program/wärmepump/heat pump/nahverkehr/transport & zurück/back/bürger/citizen || Either funding programmes (heat pumps, public transport) or paying the money back directly to citizens. || @ctx reading
+      listen: Unser Dorf ist zwar klein, aber wir haben inzwischen sowohl ein eigenes Windrad als auch eine große Solaranlage auf dem Dach der Schule. || What does the village have? || Neither wind power nor solar panels | *Both a wind turbine and a large solar installation | Only a small solar installation || "Sowohl ein eigenes Windrad als auch eine große Solaranlage." || @tags de.listening,de.connectors
+      tr: Neither the city nor the state wants to pay for it. || Weder die Stadt noch das Land will dafür bezahlen. | Weder die Stadt noch das Land wollen dafür bezahlen. | Weder die Stadt noch der Staat will dafür bezahlen. | Weder die Stadt noch der Staat wollen dafür bezahlen. | Weder die Stadt noch das Land will dafür zahlen. | Weder die Stadt noch der Staat will dafür zahlen. || Weder … noch with two subjects; the verb can be singular or plural. || @tags de.connectors
+      dict: Klimaschutz ist nicht nur eine technische, sondern auch eine soziale Frage.
+      ask: „Wie kann man im Alltag Energie sparen?“ Give two tips and use at least one two-part connector. || kw: zwar/nicht nur/sondern/sowohl/weder/entweder & spar/heiz/strom/licht/rad/bus/dusch || Man kann nicht nur die Heizung etwas herunterdrehen, sondern auch kürzer duschen. Zwar sind das kleine Schritte, aber sie sparen sowohl Energie als auch Geld.
+
+  - title: Sustainable cities
+    summary: Visit a car-light neighbourhood and describe developments and effects with je … desto/umso and immer + comparative.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [de.connectors, de.comparatives]
+    objectives:
+      - Describe proportional developments with je … desto/umso
+      - Use the correct word order in both parts of a je … desto sentence
+      - Talk about green spaces, mobility and housing in sustainable neighbourhoods
+    intro: |
+      *The fewer cars, the more space for children. The hotter the summers, the more important trees become.* Urban planning is full of such "the more …, the more …" relationships. German expresses them with **je … desto** (or **je … umso**) — a structure with a word order you need to practise. You will join a sceptical visitor on a tour of a new, car-light neighbourhood.
+    vocab: |
+      das Quartier | neighbourhood; district | n | Im neuen Quartier wohnen über zweitausend Menschen. | Over two thousand people live in the new neighbourhood. | g: n | pl: die Quartiere | n: Common in planning; everyday word: das Viertel.
+      autoarm | with little car traffic | adj | Das Viertel ist autoarm, aber nicht ganz autofrei. | The district has little car traffic but isn't completely car-free. | n: -arm = with little: kalorienarm, lärmarm.
+      die Fläche | area; surface | n | Parkplätze brauchen sehr viel Fläche. | Car parks take up a great deal of space. | g: f | pl: die Flächen | c: eine Fläche nutzen; Grünflächen
+      entsiegeln | to remove the paving from (land) | v | Der alte Parkplatz wurde entsiegelt und in einen Park verwandelt. | The old car park was unpaved and turned into a park. | n: Opposite: versiegeln (to seal with asphalt or concrete).
+      begrünt | planted; covered with greenery | adj | Alle Dächer im Viertel sind begrünt. | All the roofs in the district are covered with plants. | n: Verb: begrünen; noun: die Dachbegrünung.
+      die Hitze | heat | n | Während der Hitze bleiben viele Menschen tagsüber zu Hause. | During the heatwave many people stay at home during the day. | g: f | pl: (no plural) | c: die Hitzewelle; vor Hitze schützen
+      sich abkühlen | to cool down | v | Nachts kühlt sich die Luft im Park schneller ab. | At night the air in the park cools down more quickly. | n: Separable.
+      speichern | to store | v | Die Dächer speichern das Regenwasser. | The roofs store rainwater. | n: Also used for data: eine Datei speichern.
+      die Anschaffung | purchase; acquisition | n | In der Anschaffung ist die Anlage teuer, im Betrieb aber günstig. | The system is expensive to buy but cheap to run. | g: f | pl: die Anschaffungen
+      die Genossenschaft | cooperative | n | Unsere Wohnung gehört einer Genossenschaft. | Our flat belongs to a cooperative. | g: f | pl: die Genossenschaften | n: Die Wohnungsgenossenschaft = housing cooperative.
+      lebendig | lively; alive | adj | Je gemischter ein Viertel ist, desto lebendiger ist es. | The more mixed a neighbourhood is, the livelier it is.
+      der Nahverkehr | local public transport | n | Der Nahverkehr wird hier stark ausgebaut. | Local public transport is being expanded considerably here. | g: m | pl: (no plural) | n: Also: der ÖPNV (öffentlicher Personennahverkehr).
+    grammar:
+      title: "je … desto / umso"
+      body: |
+        **Je … desto** (or **je … umso**) links two developments: when one increases, the other changes too. Both parts start with a **comparative**.
+
+        - The **je-part** is a subordinate clause: **je + comparative (+ noun) … verb at the end**: *Je weniger Autos zwischen den Häusern **parken**, …*
+        - The **desto/umso-part** is a main clause that starts with **desto/umso + comparative (+ noun)**, followed directly by the **verb** and then the subject: *… desto mehr Platz **bleibt** für Spielplätze.*
+
+        The je-part usually comes first, but it can also follow: *Die Luft kühlt sich umso besser ab, je mehr Flächen entsiegelt werden.*
+
+        In short exclamations both verbs disappear: ***Je früher, desto besser!*** *Je gemischter, desto lebendiger.*
+
+        A related structure: **immer + comparative** describes a continuous development: *Die Sommer werden **immer heißer*** (hotter and hotter).
+      table: |
+        je + comparative … verb at the end | desto/umso + comparative + verb + subject
+        Je weniger Autos parken, | desto mehr Platz bleibt für Bäume.
+        Je länger man rechnet, | desto günstiger wird die Anlage.
+        Je mehr Flächen entsiegelt werden, | umso besser kühlt sich die Luft ab.
+        Je früher, | desto besser.
+      examples: |
+        Je weniger Autos zwischen den Häusern parken, desto mehr Platz bleibt für Spielplätze. | The fewer cars park between the houses, the more space there is for playgrounds. | je + verb last · desto + verb + subject
+        Je weiter die Garage weg ist, desto unbequemer wird es für die Bewohner. | The further away the garage is, the less convenient it is for the residents. | je … desto with adjectives
+        Je mehr Flächen entsiegelt werden, umso besser kühlt sich die Luft nachts ab. | The more ground is unsealed, the better the air cools down at night. | umso = desto
+        Unsere Innenstadt wird jedes Jahr immer heißer. | Our city centre gets hotter and hotter every year. | immer + comparative
+      tip: "Check the verb in the second part: desto mehr Platz BLEIBT — the verb comes straight after desto + comparative (+ noun), never at the end."
+    dialogue:
+      title: Rundgang im neuen Quartier
+      setting: A new car-light neighbourhood on the site of an old freight yard in Karlsruhe. Urban planner Grace Okoye shows Mr Grabowski, a sceptical visitor from the residents' association next door, around.
+      speakers: G=Herr Grabowski/m; O=Frau Okoye/f
+      lines: |
+        G: Hier stehen ja kaum Autos auf der Straße. Wo parken die Leute denn eigentlich? | There are hardly any cars in the street here. Where do people actually park?
+        O: Am Rand gibt es zwei Quartiersgaragen. Je weniger Autos zwischen den Häusern parken, desto mehr Platz bleibt für Spielplätze. | There are two neighbourhood car parks on the edge. The fewer cars park between the houses, the more space there is for playgrounds.
+        G: Aber je weiter die Garage weg ist, desto unbequemer wird es doch für die Bewohner, oder? | But the further away the car park is, the less convenient it is for the residents, isn't it?
+        O: Das höre ich oft. Dafür ist der Weg zur Straßenbahn kürzer als zur Garage – höchstens fünf Minuten. | I hear that a lot. But the walk to the tram is shorter than to the car park – five minutes at most.
+        G: Und was passiert im Sommer? Unsere Innenstadt wird jedes Jahr immer heißer. | And what happens in summer? Our city centre gets hotter and hotter every year.
+        O: Genau deshalb gibt es hier so viel Grün. Je mehr Flächen entsiegelt werden, umso besser kühlt sich die Luft nachts ab. | That's exactly why there's so much green here. The more ground is unsealed, the better the air cools down at night.
+        G: Die Dächer sind ja auch alle begrünt. Ist das nicht furchtbar teuer? | And the roofs are all planted, too. Isn't that terribly expensive?
+        O: In der Anschaffung schon. Aber je länger man rechnet, desto günstiger wird es, weil das Regenwasser gespeichert wird. | To install, yes. But the longer you calculate, the cheaper it gets, because the rainwater is stored.
+        G: Ehrlich gesagt hatte ich mir ein Ökoviertel eher wie ein Freilichtmuseum für Idealisten vorgestellt. | To be honest, I'd imagined an eco-district more like an open-air museum for idealists.
+        O: Und jetzt? Hier wohnen ganz normale Leute: Familien, Studierende, Rentnerinnen – je gemischter, desto lebendiger. | And now? Perfectly ordinary people live here: families, students, pensioners – the more mixed, the livelier.
+        G: Zugegeben, es ist ruhiger und angenehmer, als ich gedacht habe. Gibt es noch freie Wohnungen? | Admittedly, it's quieter and more pleasant than I thought. Are there any flats still available?
+        O: Ein paar Genossenschaftswohnungen sind noch frei. Aber ich warne Sie: Je früher Sie sich bewerben, desto besser! | A few cooperative flats are still available. But I'm warning you: the sooner you apply, the better!
+    pronunciation:
+      title: "Rhythm in je … desto sentences"
+      body: |
+        A *je … desto* sentence has two balanced halves, like a seesaw. Stress the two comparatives and let the voice rise slightly at the end of the je-part: *Je WEniger Autos parken ↗, desto MEHR Platz bleibt ↘.*
+
+        Note the umlaut in many comparatives: *warm – w**ä**rmer, kurz – k**ü**rzer, gro**ß** – gr**ö**ßer*, and the irregular forms *viel – mehr, gut – besser, gern – lieber*.
+      items: |
+        Je früher, desto besser!
+        je gemischter, desto lebendiger
+        immer heißer
+        Je länger man rechnet, desto günstiger wird es.
+        die Genossenschaft
+        entsiegeln
+    culture:
+      title: Housing cooperatives
+      body: |
+        Germany has a long tradition of housing cooperatives (*Wohnungsgenossenschaften*); some were founded in the nineteenth century. Members buy shares in the cooperative and in return get a secure right to live in a flat, usually at moderate rents. Many new sustainable neighbourhoods, from Hamburg to Munich, include cooperative housing as well as rented and owner-occupied flats, so that residents with different incomes live side by side.
+    mistakes: |
+      Je mehr Autos fahren, desto die Luft wird schlechter. => Je mehr Autos fahren, desto schlechter wird die Luft. | Desto must be followed by the comparative and then the verb.
+      Je länger ich warte, desto ich werde nervöser. => Je länger ich warte, desto nervöser werde ich. | After desto + comparative comes the verb, then the subject.
+      Je mehr Bäume, desto kühl. => Je mehr Bäume, desto kühler. | Both parts need a comparative.
+    task:
+      title: My ideal neighbourhood
+      mode: speaking
+      body: |
+        Describe the neighbourhood you would like to live in, in one to two minutes: transport, green spaces, shops, neighbours. Explain three relationships with *je … desto* (for example *Je mehr Grünflächen es gibt, desto …*) and one development with *immer* + comparative. Then discuss with the AI coach in the "Expressing an opinion" scenario whether cities should have fewer cars.
+    exercises: |
+      fill: Je länger ich in Karlsruhe wohne, ___ besser gefällt mir die Stadt. || desto / umso || Je + comparative is answered by desto or umso + comparative. || @tags de.connectors,de.comparatives
+      fill: Je mehr Bäume es in einer Straße gibt, desto ___ wird es dort im Sommer. (kühl) || kühler || Both parts need a comparative: kühl → kühler. || @tags de.comparatives
+      fill: Die Sommer in der Stadt werden immer ___. (heiß) || heißer || Immer + comparative describes a continuous development. || @tags de.comparatives
+      mc: Je früher wir mit der Sanierung anfangen, ___ || *desto günstiger wird es. | desto es wird günstiger. | desto günstiger es wird. || In the desto-part, the verb comes directly after desto + comparative. || @tags de.connectors,de.word-order
+      mc: ___, desto voller werden die Busse. || *Je besser das Angebot ist | Je besser ist das Angebot | Je das Angebot besser ist || The je-part is a subordinate clause: je + comparative first, verb at the end. || @tags de.connectors,de.subordinate-clauses
+      rw: Combine with je … desto :: Die Mieten steigen stark. Viele Familien ziehen ins Umland. || Je stärker die Mieten steigen, desto mehr Familien ziehen ins Umland. | Je stärker die Mieten steigen, umso mehr Familien ziehen ins Umland. | Je höher die Mieten steigen, desto mehr Familien ziehen ins Umland. | Je mehr die Mieten steigen, desto mehr Familien ziehen ins Umland. || Je + comparative + verb at the end; desto + comparative + verb + subject. || @tags de.connectors,de.comparatives
+      tf: In the new neighbourhood most cars are parked in car parks on the edge. || true || "Am Rand gibt es zwei Quartiersgaragen." || @ctx dialogue
+      short: Why do the green roofs become cheaper in the long run, according to Ms Okoye? || kw: regen/rain/wasser/water || Because they store rainwater. || @ctx dialogue
+      listen: @dialogue || How had Mr Grabowski imagined an eco-district? || As a very expensive place for rich people | *As an open-air museum for idealists | As a noisy building site || "Ehrlich gesagt hatte ich mir ein Ökoviertel eher wie ein Freilichtmuseum für Idealisten vorgestellt."
+      listen: Je mehr Menschen das neue Mietradsystem nutzen, desto mehr Stationen will die Stadt bauen. Im ersten Jahr waren es schon über zweitausend Nutzerinnen und Nutzer. || What will the city do if more people use the hire bikes? || Raise the prices | *Build more stations | Stop the scheme after the first year || "Je mehr Menschen das neue Mietradsystem nutzen, desto mehr Stationen will die Stadt bauen." || @tags de.listening,de.connectors
+      tr: The sooner, the better. || Je früher, desto besser. | Je eher, desto besser. | Je früher, umso besser. | Je eher, umso besser. || A short je … desto phrase without verbs. || @tags de.connectors,de.comparatives
+      dict: Je weniger Flächen versiegelt sind, desto besser kühlt die Stadt nachts ab.
+      ask: „Was macht für Sie eine Stadt lebenswert?“ Answer with at least two je … desto sentences. || kw: je & desto/umso || Je mehr Parks und Bäume es gibt, desto wohler fühle ich mich. Und je besser der Nahverkehr ist, umso weniger brauche ich ein Auto.
+
+  - title: Debating solutions
+    summary: Take part in a debate about a car-free city centre — with sodass, während, wohingegen, dennoch, allerdings and folglich.
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [de.connectors, de.opinion]
+    objectives:
+      - Express consequences with sodass, so … dass and folglich
+      - Contrast positions with während and wohingegen, and concede with dennoch and allerdings
+      - Argue, react to objections and propose a compromise in a debate
+    intro: |
+      In a debate you have to do several things at once: state consequences (*sodass, folglich*), contrast positions (*während, wohingegen*) and concede a point without giving up your own (*dennoch, allerdings*). Each of these connectors has its own word order. You will listen to a university debating club arguing about a car-free city centre and learn the language of fair, structured disagreement.
+    vocab: |
+      die Debatte | debate | n | Die Debatte über die autofreie Innenstadt wird sehr emotional geführt. | The debate about a car-free city centre is very emotional. | g: f | pl: die Debatten | c: eine Debatte führen
+      eine Position vertreten | to hold/argue a position | expr | In der Debatte vertrete ich die Gegenseite. | In the debate I'm arguing for the opposing side. | n: Vertreten also means to represent or to stand in for someone.
+      der Pendler | commuter | n | Viele Pendler fahren jeden Tag fünfzig Kilometer zur Arbeit. | Many commuters drive fifty kilometres to work every day. | g: m | pl: die Pendler | n: Feminine: die Pendlerin. Verb: pendeln.
+      angewiesen sein auf | to depend on; to rely on | expr | Auf dem Land sind viele Menschen auf das Auto angewiesen. | In the countryside many people depend on the car. | n: Auf + accusative.
+      das Umland | surrounding area | n | Viele Kundinnen und Kunden kommen aus dem Umland. | Many customers come from the surrounding area. | g: n | pl: (no plural)
+      sich aufhalten | to stay; to spend time | v | In der lauten Innenstadt hält sich kaum jemand gern auf. | Hardly anyone likes spending time in the noisy city centre. | n: Separable, irregular: hielt sich auf, hat sich aufgehalten. Noun: der Aufenthalt.
+      die Auswirkung | effect; impact | n | Die Auswirkungen auf den Handel sind noch unklar. | The impact on retail is still unclear. | g: f | pl: die Auswirkungen | c: Auswirkungen auf + acc. haben
+      fordern | to demand; to call for | v | Die Initiative fordert einen besseren Nahverkehr. | The initiative is calling for better public transport. | n: Noun: die Forderung.
+      vorausgesetzt | provided (that) | conj | Ich bin einverstanden, vorausgesetzt, die Busse fahren öfter. | I agree, provided the buses run more often. | n: Also: vorausgesetzt, dass …
+      schrittweise | gradually; step by step | adv | Die Umstellung soll schrittweise erfolgen. | The changeover is to take place gradually.
+      sich einig sein | to agree; to be in agreement | expr | In diesem Punkt sind wir uns einig. | We agree on this point. | n: Opposite: sich uneinig sein.
+      der Einwand | objection | n | Das ist ein berechtigter Einwand. | That's a justified objection. | g: m | pl: die Einwände | c: einen Einwand erheben
+    grammar:
+      title: "Consequence, contrast, concession"
+      body: |
+        **Consequence**
+        - **sodass** (also *so dass*) + verb at the end: *Wir brauchen besseren Nahverkehr, **sodass** niemand auf das Auto angewiesen **ist**.*
+        - **so + adjective/adverb … dass** stresses the degree: *Der Verkehr ist **so** laut, **dass** sich kaum jemand dort aufhält.*
+        - **folglich** (therefore, consequently) is an adverb: position 1 + verb: ***Folglich müsste** die Stadt sparen.*
+
+        **Contrast**
+        - **während** (whereas) + verb at the end: *Fußgänger kommen oft, **während** Autofahrer seltener **kommen**.* Careful: *während* can also mean *while* (time).
+        - **wohingegen** means the same but is more formal, and it only introduces the second clause.
+        - **dagegen / hingegen** are adverbs: *Kiel **hingegen** hat viele Pendler.*
+
+        **Concession**
+        - **dennoch** = trotzdem, but more formal: position 1 + verb: ***Dennoch darf** man die Geschäfte nicht vergessen.*
+        - **allerdings** (however, admittedly) usually stands after the verb: *Das **kostet allerdings** Millionen.*
+      table: |
+        Type | Connector | Word order | Example
+        consequence | sodass | verb at the end | …, sodass niemand das Auto braucht.
+        consequence | so … dass | verb at the end | Es ist so laut, dass niemand bleibt.
+        consequence | folglich | verb next | Folglich muss die Stadt sparen.
+        contrast | während / wohingegen | verb at the end | …, während Autofahrer seltener kommen.
+        concession | dennoch | verb next | Dennoch halten viele den Plan für richtig.
+        concession | allerdings | after the verb | Das kostet allerdings viel Geld.
+      examples: |
+        Der Verkehr ist so laut, dass sich kaum jemand gern in der Innenstadt aufhält. | The traffic is so loud that hardly anyone likes spending time in the city centre. | so … dass
+        Fußgänger kaufen häufiger ein, während Autofahrer zwar mehr ausgeben, aber seltener kommen. | Pedestrians shop more often, whereas drivers spend more but come less often. | während = whereas
+        Ein besserer Nahverkehr kostet allerdings Millionen. Folglich müsste die Stadt an anderer Stelle sparen. | Better public transport costs millions, however. Consequently the city would have to save elsewhere. | allerdings · folglich + verb
+        Dennoch darf man die Interessen der Geschäfte nicht vergessen. | Nevertheless, the interests of the shops must not be forgotten. | dennoch + verb
+      tip: "Sort connectors by word order, not by meaning: subordinating (sodass, während, wohingegen → verb at the end) versus adverbs (folglich, dennoch → verb next)."
+    dialogue:
+      title: Der Debattierclub
+      setting: "A university debating club in Kiel. The motion: „Die Kieler Innenstadt soll bis 2030 autofrei werden.“ Lea chairs the debate; Hamza speaks for the motion, Frieda against."
+      speakers: L=Lea/f; H=Hamza/m; F=Frieda/f
+      lines: |
+        L: Unser Thema heute: Soll die Kieler Innenstadt bis 2030 autofrei werden? Die Pro-Seite beginnt. | Our topic today: should Kiel city centre become car-free by 2030? The side for the motion begins.
+        H: Der Verkehr ist so laut, dass sich kaum jemand gern in der Innenstadt aufhält. Autofreie Straßen würden das sofort ändern. | The traffic is so loud that hardly anyone likes spending time in the city centre. Car-free streets would change that immediately.
+        F: Dennoch darf man die Geschäfte nicht vergessen. Viele Kundinnen und Kunden kommen aus dem Umland, wo kaum Busse fahren. | Nevertheless, we mustn't forget the shops. Many customers come from the surrounding area, where hardly any buses run.
+        H: Studien aus anderen Städten zeigen, dass Fußgänger häufiger einkaufen, während Autofahrer seltener in die Innenstadt kommen. | Studies from other cities show that pedestrians shop more often, whereas drivers come into the city centre less often.
+        F: Das mag für Großstädte gelten, wohingegen Kiel sehr viele Pendler hat, die auf das Auto angewiesen sind. | That may be true for big cities, whereas Kiel has a great many commuters who depend on the car.
+        H: Deshalb fordern wir ja einen besseren Nahverkehr, sodass niemand mehr auf das Auto angewiesen ist. | That's exactly why we're calling for better public transport, so that nobody depends on the car any more.
+        F: Ein besserer Nahverkehr kostet allerdings Millionen. Folglich müsste die Stadt an anderer Stelle sparen. | Better public transport costs millions, however. Consequently the city would have to save elsewhere.
+        L: Ich unterbreche kurz: Gibt es einen Kompromiss, auf den sich beide Seiten einigen könnten? | Let me interrupt briefly: is there a compromise both sides could agree on?
+        H: Man könnte mit einzelnen Straßen anfangen, sodass die Händler die Auswirkungen erst einmal testen können. | We could start with individual streets, so that the shopkeepers can test the effects first.
+        F: Damit könnte ich leben, vorausgesetzt, Lieferverkehr und Menschen mit Behinderung dürfen weiterhin hineinfahren. | I could live with that, provided delivery traffic and people with disabilities can still drive in.
+        L: Vielen Dank! Obwohl Sie verschiedene Positionen vertreten, sind Sie sich in einem Punkt einig: Es muss schrittweise gehen. | Thank you very much! Although you hold different positions, you agree on one point: it has to happen gradually.
+    pronunciation:
+      title: "Pauses and emphasis in an argument"
+      body: |
+        Connectors are signposts for your listener, so give them space: make a short pause **before** a connector and stress it lightly: *Das kostet viel Geld | FOLGlich müsste die Stadt sparen. Die Idee ist gut | DENnoch …*
+
+        Note the stress in the longer connectors: *so-DASS, wo-hin-GE-gen, FOLG-lich, DEN-noch, al-ler-DINGS, vor-AUS-ge-setzt*.
+      items: |
+        Folglich müsste die Stadt sparen.
+        Dennoch darf man die Geschäfte nicht vergessen.
+        wohingegen
+        allerdings
+        vorausgesetzt
+        schrittweise
+    mistakes: |
+      Die Stadt hat kein Geld, folglich sie muss sparen. => Die Stadt hat kein Geld, folglich muss sie sparen. | Folglich is an adverb: the verb follows it directly.
+      Es regnete stark, sodass die Straße war überflutet. => Es regnete stark, sodass die Straße überflutet war. | Sodass introduces a subordinate clause: the verb goes to the end.
+      Wohingegen ich gern Rad fahre, fährt mein Bruder Auto. => Während ich gern Rad fahre, fährt mein Bruder Auto. | Wohingegen only introduces the second of two contrasted clauses; at the start of a sentence use während.
+    task:
+      title: Your debate
+      mode: interaction
+      body: |
+        Debate a local issue with the AI coach in the "Expressing an opinion" scenario — for example *Sollte der Nahverkehr kostenlos sein?* or *Sollten Neubauten Solaranlagen haben müssen?* Present two arguments, react to at least one objection with *dennoch* or *allerdings*, contrast two positions with *während* or *wohingegen*, and propose a compromise with *sodass* or *vorausgesetzt*.
+    exercises: |
+      fill: Der Verkehr ist so laut, ___ sich niemand gern dort aufhält. || dass || So + adjective … dass expresses a consequence of the degree. || @tags de.connectors,de.subordinate-clauses
+      fill: Der Bus fährt nur einmal pro Stunde, ___ viele Leute lieber das Auto nehmen. || sodass / so dass || Sodass introduces the consequence; the verb nehmen goes to the end. || @tags de.connectors,de.subordinate-clauses
+      fill: Der Plan ist teuer. ___ halten ihn viele für richtig. || Dennoch / Trotzdem || An unexpected contrast; the verb halten follows directly. || @tags de.connectors
+      mc: Die Stadt hat kaum Geld. Folglich ___ || *müssen einige Projekte verschoben werden. | einige Projekte müssen verschoben werden. | einige Projekte verschoben werden müssen. || Folglich takes position 1, so the verb comes next. || @tags de.connectors,de.word-order
+      rw: Combine with sodass :: Es hat die ganze Nacht geregnet. Die Straße war überflutet. || Es hat die ganze Nacht geregnet, sodass die Straße überflutet war. | Es hat die ganze Nacht geregnet, so dass die Straße überflutet war. || Sodass + verb at the end. || @tags de.connectors,de.subordinate-clauses
+      rw: Combine with wohingegen :: In Berlin fahren viele Menschen Rad. In meinem Dorf fährt fast jeder Auto. || In Berlin fahren viele Menschen Rad, wohingegen in meinem Dorf fast jeder Auto fährt. | In Berlin fahren viele Menschen Rad, während in meinem Dorf fast jeder Auto fährt. || Wohingegen (or während) introduces the contrasting clause; the verb goes to the end. || @tags de.connectors,de.subordinate-clauses
+      mc: „Das kostet allerdings viel Geld.“ What does allerdings do in this sentence? || *It adds a restriction or counterpoint. | It gives a reason. | It introduces an example. || Allerdings = however, admittedly: it limits what was said before. || @tags de.connectors
+      tf: Frieda rejects any compromise on cars in the city centre. || false || She accepts starting with individual streets, "vorausgesetzt, Lieferverkehr und Menschen mit Behinderung dürfen weiterhin hineinfahren". || @ctx dialogue
+      short: Under what condition would Frieda accept the compromise? || kw: liefer/deliver/behinder/disab || Delivery traffic and people with disabilities must still be allowed to drive in. || @ctx dialogue
+      listen: @dialogue || What compromise does Hamza suggest? || Making the city centre car-free only at weekends | *Starting with individual streets | Building more car parks on the edge || "Man könnte mit einzelnen Straßen anfangen, sodass die Händler die Auswirkungen erst einmal testen können."
+      listen: Die Fahrpreise wurden gesenkt, sodass deutlich mehr Menschen den Bus nehmen. Allerdings sind die Busse morgens inzwischen oft überfüllt. || What problem has arisen? || Fares have gone up. | *The buses are often overcrowded in the morning. | Fewer people take the bus. || "Allerdings sind die Busse morgens inzwischen oft überfüllt." || @tags de.listening,de.connectors
+      tr: Whereas my brother lives in the city, I live in the country. || Während mein Bruder in der Stadt wohnt, wohne ich auf dem Land. | Während mein Bruder in der Stadt lebt, lebe ich auf dem Land. | Mein Bruder wohnt in der Stadt, während ich auf dem Land wohne. | Mein Bruder lebt in der Stadt, während ich auf dem Land lebe. | Mein Bruder wohnt in der Stadt, wohingegen ich auf dem Land wohne. || At the start of a sentence use während; wohingegen can only introduce the second clause. || @tags de.connectors,de.subordinate-clauses
+      dict: Der Plan ist zwar teuer, dennoch halten ihn viele für notwendig.
+      ask: Someone says: „Kostenloser Nahverkehr ist viel zu teuer.“ React with a counter-argument and a compromise. || kw: dennoch/allerdings/während/wohingegen/sodass/folglich/zwar/vorausgesetzt & bus/bahn/nahverkehr/ticket/fahr/auto || Das kostet zwar viel Geld, dennoch würde es sich lohnen, weil weniger Autos in die Stadt fahren. Man könnte allerdings mit günstigeren Tickets für Schüler und Rentner anfangen, sodass man die Auswirkungen erst testen kann.

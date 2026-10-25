@@ -1,0 +1,394 @@
+unit: 7
+title: La vie citoyenne
+theme: Citizenship and public life
+description: Talk about civic rights and duties, get help with administrative procedures and write a formal complaint, using the past subjunctive, conjunctions followed by the subjunctive and the conventions of French formal letters.
+free: false
+objectives:
+  - Form the past subjunctive and use it for actions completed before the main verb
+  - Use pour que, avant que, jusqu'à ce que, sans que and de peur que — or an infinitive when the subject is the same
+  - Write a formal letter of complaint with the right structure and formulas
+canDo:
+  - I can discuss a civic duty such as jury service and react to what other people have done.
+  - I can explain an administrative problem at a public service desk and understand what is needed.
+  - I can write a firm but polite complaint and ask for compensation.
+  - I can use the standard opening and closing formulas of a French formal letter.
+review: |
+  fill: Je suis heureuse que vous ___ (répondre) si vite à mon courrier. || ayez répondu || The answer came before the feeling: past subjunctive, que vous ayez répondu. || @tags fr.subjonctif,fr.subjonctif-triggers
+  fill: Bien qu'elle ___ (partir) tôt, elle est arrivée en retard à la mairie. || soit partie || Bien que + past subjunctive; partir takes être and agrees with elle. || @tags fr.subjonctif
+  mc: "Après que le juge ___ la séance, les jurés se sont retirés." || ait ouvert | *a ouvert | ouvre || In careful French, après que is followed by the indicative, because the action is a fact. || @tags fr.subjonctif-triggers
+  fill: Je vous envoie ce document afin que vous ___ (pouvoir) compléter mon dossier. || puissiez || Afin que + subjunctive: que vous puissiez. || @tags fr.subjonctif-triggers,fr.subjonctif
+  mc: "Je reste ici jusqu'à ce que vous ___ une solution." || trouvez | *trouviez | trouverez || Jusqu'à ce que is always followed by the subjunctive: que vous trouviez. || @tags fr.subjonctif-triggers
+  mc: "Je suis venu ___ renouveler ma carte d'identité." || pour que | *pour | afin que || Same subject (je… je): use pour + infinitive, not pour que. || @tags fr.subjonctif-triggers
+  rw: Make the request formal :: Je veux que vous me remboursiez. || Je vous saurais gré de bien vouloir me rembourser. | Je vous serais reconnaissant de bien vouloir me rembourser. | Je vous serais reconnaissante de bien vouloir me rembourser. | Je vous prie de bien vouloir me rembourser. || In a formal letter, a demand becomes a polite formula + de bien vouloir + infinitive. || @tags fr.formal-writing,fr.register
+  tr: I'm surprised that nobody has answered my letter. || Je suis surpris que personne n'ait répondu à ma lettre. | Je suis surprise que personne n'ait répondu à ma lettre. | Je m'étonne que personne n'ait répondu à ma lettre. | Je suis surpris que personne n'ait répondu à mon courrier. | Je suis surprise que personne n'ait répondu à mon courrier. | Je m'étonne que personne n'ait répondu à mon courrier. || A feeling about a past (non-)action: past subjunctive, que personne n'ait répondu. || @tags fr.subjonctif,fr.subjonctif-triggers
+  listen: Votre dossier est complet. Il sera traité dans un délai de six semaines, à moins qu'une pièce supplémentaire ne soit nécessaire. || When will the file be processed? || *Within six weeks, unless another document is needed | Immediately, because it is complete | In six months, once all documents have arrived || "Il sera traité dans un délai de six semaines, à moins qu'une pièce supplémentaire ne soit nécessaire." || @tags fr.listening,fr.subjonctif-triggers
+  listen: Je regrette que la mairie n'ait pas consulté les habitants avant de fermer la bibliothèque le samedi. || What does the speaker regret? || *That residents weren't consulted | That the library is closing for good | That the library now opens on Saturdays || "Je regrette que la mairie n'ait pas consulté les habitants." || @tags fr.listening,fr.subjonctif
+  ask: Call a company to complain about a parcel that never arrived. Stay formal and use the past subjunctive. || kw: je regrette que/je m'étonne que/je suis surpris que/je suis surprise que/je suis déçu que/je suis déçue que & ait/aie/soit/aient/soient || Bonjour, je vous appelle au sujet de ma commande du 3 mars. Je m'étonne qu'elle ne soit toujours pas arrivée et je regrette que personne ne m'ait prévenu du retard. Je vous serais reconnaissant de me proposer une solution.
+  write: Write a formal email (100–120 words) to a public service or a company about a problem you have had. || min=100 || req: Madame, Monsieur | je me permets/au sujet de/suite à | regrette que/m'étonne que/étonné que/étonnée que/surpris que/surprise que | saurais gré/serais reconnaissant/serais reconnaissante/prie de bien vouloir | salutations distinguées/agréer || Madame, Monsieur, je me permets de vous écrire au sujet de la piscine municipale du quartier Saint-Michel, fermée depuis le 1er juin. Le panneau annonçait une réouverture le 15 juin ; or, elle est toujours fermée. Je regrette vivement que les usagers n'aient reçu aucune information et je m'étonne que le site de la mairie n'ait pas été mis à jour. Je vous saurais gré de bien vouloir m'indiquer la date de réouverture et, si possible, les créneaux proposés dans les piscines voisines. Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées. Karim Haddad
+lessons:
+  - title: Rights and responsibilities
+    summary: Talk about jury service and other civic duties, and react to what people have done with the past subjunctive.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [fr.subjonctif, fr.subjonctif-triggers]
+    objectives:
+      - Talk about civic rights and duties such as voting, jury service and volunteering
+      - Form the past subjunctive with avoir and être
+      - Choose between the present and past subjunctive according to the timing of the action
+    intro: |
+      Voting, paying taxes, serving on a jury, volunteering as a firefighter: citizenship is made of **rights** and **duties**. When we talk about them, we often react to something that has **already happened** — *je suis surprise que tu n'aies jamais été convoquée*, *bien qu'il ait hésité, il en garde un bon souvenir*. For this, French uses the **past subjunctive**.
+    vocab: |
+      un citoyen | a citizen | n | Chaque citoyen peut être tiré au sort. | Every citizen can be selected at random. | g: m | n: Feminine: une citoyenne. La citoyenneté = citizenship.
+      un droit | a right | n | Voter est un droit, mais aussi un devoir. | Voting is a right, but also a duty. | g: m | c: avoir le droit de; les droits et les devoirs
+      un devoir | a duty | n | Être juré est un devoir civique. | Being a juror is a civic duty. | g: m | n: Also homework: les devoirs.
+      tirer au sort | to draw lots; to select at random | expr | Les jurés sont tirés au sort sur les listes électorales. | Jurors are selected at random from the electoral roll. | n: Le tirage au sort = the draw.
+      un juré | a juror | n | Elle a été jurée d'assises l'an dernier. | She was a juror at the assize court last year. | g: m | n: Feminine: une jurée.
+      les listes électorales | the electoral roll | n | Il faut être inscrit sur les listes électorales pour voter. | You must be on the electoral roll to vote. | g: f
+      une convocation | an official summons; a notice to attend | n | J'ai reçu une convocation du tribunal. | I've received a summons from the court. | g: f | n: Convoquer = to summon.
+      être à la hauteur | to be up to it | expr | J'ai peur de ne pas être à la hauteur. | I'm afraid I won't be up to it.
+      un motif valable | a valid reason | n | On ne peut refuser que pour un motif valable. | You can only refuse for a valid reason. | g: m
+      une amende | a fine | n | Il a dû payer une amende. | He had to pay a fine. | g: f
+      un magistrat | a judge; a magistrate | n | Les magistrats expliquent la procédure aux jurés. | The judges explain the procedure to the jurors. | g: m | n: Also une magistrate.
+      rendre la justice | to administer justice | expr | En France, la justice est rendue au nom du peuple français. | In France, justice is administered in the name of the French people.
+    grammar:
+      title: "The past subjunctive: que j'aie fait, qu'elle soit venue"
+      body: |
+        The **subjonctif passé** is formed with **avoir** or **être** in the present subjunctive + the **past participle**: *que j'**aie** prévenu, que tu **aies** été convoquée, qu'il **soit** venu, qu'ils **se soient** inscrits.* The choice of auxiliary and the agreement follow the same rules as in the passé composé.
+
+        It is used after the same triggers as the present subjunctive (feelings, wishes, doubt, *bien que…*) when the action in the subordinate clause happened **before** the main verb:
+
+        - *Je suis contente que tu m'en **parles**.* (now) / *Je suis contente que tu m'en **aies parlé**.* (already done)
+        - *Il regrette que je ne l'**aie** pas **prévenu** plus tôt.*
+        - *Bien qu'il **ait hésité** au début, il en garde un souvenir très fort.*
+
+        It can also describe an action that must be **finished before a point in the future**: *Il faut que vous **ayez renvoyé** le questionnaire avant lundi.*
+
+        Note: in careful French, **après que** takes the **indicative** (*après qu'il est parti*), because the action is a fact. The subjunctive is frequent in speech but criticised in writing. **Avant que**, on the other hand, always takes the subjunctive.
+      table: |
+        Verb | Present subjunctive | Past subjunctive
+        prévenir (avoir) | que je prévienne | que j'aie prévenu
+        être convoqué | que tu sois convoquée | que tu aies été convoquée
+        venir (être) | qu'il vienne | qu'il soit venu
+        partir (être) | qu'elle parte | qu'elle soit partie
+        s'inscrire | qu'ils s'inscrivent | qu'ils se soient inscrits
+      examples: |
+        Je suis surprise qu'il ne se soit jamais inscrit sur les listes électorales. | I'm surprised he has never registered on the electoral roll. | feeling about the past
+        Bien qu'elle ait reçu la convocation, elle ne s'est pas présentée. | Although she received the summons, she didn't turn up. | bien que
+        Je doute que tout le monde ait compris le fonctionnement du jury. | I doubt that everyone has understood how the jury works. | doubt
+        Il faut que vous ayez renvoyé le questionnaire avant le 15 mars. | You must have returned the questionnaire by 15 March. | finished before a future point
+      tip: "Compare je suis content qu'il vienne (he's coming) and je suis content qu'il soit venu (he came). The auxiliary tells you that the action is finished."
+    dialogue:
+      title: Tirée au sort
+      setting: The break room of an insurance company in Lille. Adèle has just received a letter from the court; she talks about it with her colleague Kofi.
+      speakers: A=Adèle/f; K=Kofi/m
+      lines: |
+        A: Tu ne devineras jamais : j'ai reçu un courrier du tribunal. J'ai été tirée au sort pour être jurée d'assises ! | You'll never guess: I've had a letter from the court. I've been selected at random to be a juror at the assize court!
+        K: Sérieusement ? Je suis surpris que tu n'aies jamais été convoquée avant, depuis le temps que tu votes ! | Seriously? I'm surprised you've never been summoned before, given how long you've been voting!
+        A: Justement, je ne m'y attendais pas du tout. Et j'ai peur de ne pas être à la hauteur. | Exactly, I wasn't expecting it at all. And I'm afraid I won't be up to it.
+        K: Je comprends. Mais c'est un droit et un devoir à la fois : la justice est rendue au nom du peuple. | I understand. But it's both a right and a duty: justice is administered in the name of the people.
+        A: Mon chef n'est pas ravi. Il regrette que je ne l'aie pas prévenu plus tôt, alors que j'ai reçu la lettre hier ! | My boss isn't thrilled. He's annoyed I didn't tell him sooner, even though I only got the letter yesterday!
+        K: Il n'a pas le choix : ton employeur est obligé de te laisser y aller. Et toi, tu peux refuser ? | He has no choice: your employer has to let you go. And can you refuse?
+        A: Seulement pour un motif grave. Sinon, on risque une amende. Je doute que ma peur soit un motif valable ! | Only for a serious reason. Otherwise you risk a fine. I doubt my fear counts as a valid reason!
+        K: Mon oncle a été juré il y a trois ans. Bien qu'il ait hésité au début, il en garde un souvenir très fort. | My uncle was a juror three years ago. Although he hesitated at first, it left a very strong impression on him.
+        A: Ah oui ? Et qu'est-ce qu'il a trouvé le plus difficile, finalement ? | Really? And what did he find hardest, in the end?
+        K: Juger quelqu'un, bien sûr. Mais il était content que les magistrats aient pris le temps de tout expliquer aux jurés. | Judging someone, of course. But he was glad the judges had taken the time to explain everything to the jurors.
+        A: Ça me rassure. Je suis contente que tu m'en aies parlé, je me sens déjà un peu moins stressée. | That reassures me. I'm glad you told me about it; I already feel a bit less stressed.
+        K: Et puis ce n'est pas encore sûr qu'on te choisisse : il y aura un nouveau tirage au sort le jour du procès. | And it's not certain yet that you'll be chosen: there'll be another draw on the day of the trial.
+    pronunciation:
+      title: "que tu aies été, qu'il ait hésité"
+      body: |
+        The past subjunctive often creates chains of vowels: *que tu aies été* [kə.ty.ɛ.e.te], *qu'il ait hésité* [ki.lɛ.e.zi.te]. Pronounce each vowel separately, without a glottal stop and without dropping any.
+
+        *Aie, aies, ait* and *aient* are all pronounced [ɛ], like *est*. After *ils* and *elles*, the liaison is compulsory: *qu'ils aient compris* [kil.zɛ.kɔ̃.pʁi].
+      items: |
+        que tu aies été convoquée
+        qu'il ait hésité
+        qu'ils aient compris
+        qu'elle soit venue
+        tirer au sort
+        rendre la justice
+    mistakes: |
+      Je suis content que tu es venu. => Je suis content que tu sois venu. | Être content que requires the subjunctive; for a finished action, the past subjunctive.
+      Après qu'il soit parti, nous avons voté. => Après qu'il est parti, nous avons voté. | In careful French, après que takes the indicative.
+      Il regrette que je n'ai pas prévenu. => Il regrette que je n'aie pas prévenu. | After regretter que, use the subjunctive: que j'aie, not que j'ai (same sound, different spelling).
+    task:
+      title: A civic duty
+      mode: interaction
+      body: |
+        With a partner, discuss a civic experience — real or imagined: being a juror, voting for the first time, volunteering, giving blood, sitting on a neighbourhood council. One person tells what happened; the other reacts at least three times with the past subjunctive (*je suis surpris(e) que…, c'est bien que…, je regrette que…*). Then defend your view on civic duties in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: Je suis content que mes parents ___ (venir) à la cérémonie hier. || soient venus || A finished action before the feeling: past subjunctive; venir takes être and agrees with mes parents. || @tags fr.subjonctif,fr.subjonctif-triggers
+      fill: Bien qu'il ___ (recevoir) la convocation, il ne s'est pas présenté. || ait reçu || Bien que + past subjunctive: avoir in the subjunctive (ait) + reçu. || @tags fr.subjonctif
+      fill: Je regrette que nous n'___ pas ___ (pouvoir) voter cette année. || ayons ; pu || Past subjunctive: que nous ayons pu, with ne… pas around the auxiliary. || @tags fr.subjonctif,fr.negation
+      mc: "Je suis désolé que tu ___ malade la semaine dernière." || sois | *aies été | as été || The illness is over (la semaine dernière) and être désolé que needs the subjunctive: que tu aies été. || @tags fr.subjonctif
+      mc: Which sentence follows careful written French? || Après qu'il soit parti, la réunion a continué. | *Après qu'il est parti, la réunion a continué. | Après qu'il parte, la réunion a continué. || Après que + indicative in careful French, because the departure is a fact. || @tags fr.subjonctif-triggers
+      tf: Adèle's boss is pleased that she has been selected. || false || "Mon chef n'est pas ravi. Il regrette que je ne l'aie pas prévenu plus tôt." || @ctx dialogue
+      short: What did Kofi's uncle appreciate during his jury service? || kw: magistrats/magistrates/juges/judges/expliqué/expliquer/explained/temps/time || "Il était content que les magistrats aient pris le temps de tout expliquer aux jurés." || @ctx dialogue
+      listen: @dialogue || What will happen on the day of the trial? || *There will be another draw to choose the jurors | Adèle will meet the accused | Adèle's boss will come with her || "Il y aura un nouveau tirage au sort le jour du procès." || @tags fr.listening
+      listen: Je suis fière que ma fille se soit engagée comme pompière volontaire, même si je m'inquiète un peu pour elle. || How does the mother feel? || *Proud, but a little worried | Angry that her daughter didn't ask her | Indifferent to her daughter's choice || "Je suis fière… même si je m'inquiète un peu." || @tags fr.listening,fr.subjonctif
+      rw: Start with "Je suis surpris que…" :: Il n'a jamais été convoqué. || Je suis surpris qu'il n'ait jamais été convoqué. || Être surpris que + subjunctive; the action is in the past: qu'il n'ait jamais été convoqué. || @tags fr.subjonctif,fr.subjonctif-triggers
+      tr: I'm sorry you had to wait. || Je suis désolé que vous ayez dû attendre. | Je suis désolée que vous ayez dû attendre. | Je suis désolé que tu aies dû attendre. | Je suis désolée que tu aies dû attendre. | Je regrette que vous ayez dû attendre. | Je regrette que tu aies dû attendre. || A feeling about a finished action: past subjunctive of devoir, que vous ayez dû. || @tags fr.subjonctif
+      dict: Je doute que tout le monde ait lu la convocation jusqu'au bout. || ait lu
+      ask: A friend tells you they have been selected for jury service — or have volunteered for a local cause. React, using the past subjunctive. || kw: content que/contente que/surpris que/surprise que/fier que/fière que/étonne que/bien que & aies/ait/soit/sois/aient/soient || C'est génial ! Je suis contente que tu aies accepté, et je suis surprise que tu ne m'en aies pas parlé plus tôt !
+
+  - title: Public services
+    summary: Get help with an online application at a public service desk, and use conjunctions with the subjunctive — or an infinitive when the subject doesn't change.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [fr.subjonctif-triggers, fr.subjonctif]
+    objectives:
+      - Explain an administrative problem and understand which documents are needed
+      - Use pour que, afin que, avant que, jusqu'à ce que, sans que and de peur que + subjunctive
+      - Switch to pour, afin de, avant de, sans + infinitive when the subject is the same
+    intro: |
+      Housing benefit, tax returns, ID cards: in France most administrative procedures are now done online, which is not easy for everyone. Public service desks help people **so that** they can complete their applications, keep files on hold **until** a document arrives, and explain what to do **before** the deadline. All these conjunctions — *pour que, jusqu'à ce que, avant que* — are followed by the subjunctive.
+    vocab: |
+      un service public | a public service | n | La poste et l'hôpital sont des services publics. | The post office and the hospital are public services. | g: m
+      une démarche administrative | an administrative procedure | n | Je ne comprends rien à ces démarches administratives. | I don't understand anything about these procedures. | g: f | c: faire des démarches; une démarche en ligne
+      un dossier | a file; an application | n | Votre dossier est incomplet. | Your application is incomplete. | g: m | c: déposer un dossier; un dossier complet
+      une pièce justificative | a supporting document | n | Joignez toutes les pièces justificatives à votre demande. | Attach all the supporting documents to your application. | g: f
+      un avis d'imposition | a tax notice | n | Il faut fournir votre dernier avis d'imposition. | You must provide your latest tax notice. | g: m
+      un RIB | bank details | n | Pouvez-vous m'envoyer votre RIB ? | Can you send me your bank details? | g: m | n: Relevé d'identité bancaire: a document with your account number.
+      une aide au logement | housing benefit | n | Elle a droit à une aide au logement. | She's entitled to housing benefit. | g: f
+      verser | to pay (money) | v | L'aide est versée chaque mois sur votre compte. | The benefit is paid into your account every month. | n: Le versement = the payment.
+      en attente | pending; on hold | expr | Votre dossier est en attente. | Your file is on hold.
+      planter | to crash (computer) | v | Le site a planté au moment de valider. | The site crashed just as I was submitting. | n: Informal. Also: to plant (a tree).
+      la fracture numérique | the digital divide | n | La fracture numérique touche surtout les personnes âgées. | The digital divide mainly affects older people. | g: f
+      soulagé | relieved | adj | Je suis soulagée que tout soit réglé. | I'm relieved that everything is sorted. | n: Feminine: soulagée.
+    grammar:
+      title: "Conjunctions + subjunctive — or preposition + infinitive"
+      body: |
+        Some conjunctions are **always** followed by the subjunctive — present or past, depending on the timing:
+
+        - **purpose**: *pour que, afin que* (more formal): *C'est **pour que** tout le monde **puisse** faire ses démarches.*
+        - **time**: *avant que* (sometimes with *ne*): *avant qu'elle **ait pu** tout enregistrer*; *jusqu'à ce que*: *jusqu'à ce que vous **ayez envoyé** le document*
+        - **absence**: *sans que*: *Il a déménagé **sans que** l'administration **soit** prévenue.*
+        - **fear**: *de peur que, de crainte que* (often with *ne*): *de peur que vous **ne restiez** sans nouvelles*
+        - **condition and concession**: *à condition que, à moins que, bien que* (units 1–2)
+
+        When the subject is the **same** in both parts of the sentence, replace the conjunction with a **preposition + infinitive**: *pour, afin de, avant de, sans, de peur de*: *Je suis venue **pour faire** ma demande* (not ~~pour que je fasse~~). *Vérifiez vos documents **avant de** les envoyer.* There is no infinitive equivalent for *jusqu'à ce que*.
+
+        Remember the pair: **avant que** + subjunctive, but **après que** + indicative.
+      table: |
+        Different subjects (+ subjunctive) | Same subject (+ infinitive) | Meaning
+        pour que / afin que | pour / afin de | purpose
+        avant que | avant de | before
+        sans que | sans | without
+        de peur que | de peur de | for fear that
+        jusqu'à ce que | — | until
+        à condition que | à condition de | provided that
+      examples: |
+        Je vous envoie le formulaire pour que vous puissiez le remplir chez vous. | I'm sending you the form so you can fill it in at home. | pour que
+        Remplissez le formulaire avant de prendre rendez-vous. | Fill in the form before making an appointment. | same subject: avant de
+        Le dossier reste en attente jusqu'à ce que nous ayons reçu toutes les pièces. | The file stays on hold until we've received all the documents. | jusqu'à ce que + past subjunctive
+        Il est parti sans que personne s'en aperçoive. | He left without anyone noticing. | sans que
+      tip: "Never say pour que je fasse when the subject doesn't change: je suis venue pour faire ma demande."
+    dialogue:
+      title: Au guichet France Services
+      setting: A France Services desk in a small town in the Drôme. Yacine, an adviser, helps Mme Morel, a retired woman, with an online application for housing benefit.
+      speakers: Y=Yacine/m; L=Mme Morel/f
+      lines: |
+        Y: Bonjour madame, asseyez-vous. Qu'est-ce que je peux faire pour vous aujourd'hui ? | Good morning, madam, have a seat. What can I do for you today?
+        L: Bonjour. Je dois faire une demande d'aide au logement en ligne, mais je n'ai pas d'ordinateur. | Good morning. I have to apply online for housing benefit, but I don't have a computer.
+        Y: Pas de souci. C'est justement pour que tout le monde puisse faire ses démarches que nous sommes là. | No problem. That's exactly why we're here: so that everyone can do their paperwork.
+        L: Ma fille a essayé de m'aider, mais le site a planté avant qu'elle ait pu tout enregistrer. | My daughter tried to help me, but the site crashed before she could save everything.
+        Y: Ça arrive souvent. Nous allons tout reprendre ensemble, afin que votre dossier soit complet cette fois-ci. | That happens a lot. We'll go through it all again together, so that your application is complete this time.
+        L: J'ai apporté mon avis d'imposition et mon contrat de location. Il manque quelque chose ? | I've brought my tax notice and my tenancy agreement. Is anything missing?
+        Y: Il faudrait aussi un RIB, pour que l'aide puisse être versée directement sur votre compte. | We'd also need your bank details, so that the benefit can be paid straight into your account.
+        L: Je l'ai oublié sur la table de la cuisine… Je pensais qu'on me l'avait déjà demandé l'an dernier. | I left it on the kitchen table… I thought I'd already been asked for it last year.
+        Y: Ce n'est pas grave. Je garde votre dossier en attente jusqu'à ce que vous ayez envoyé le document. | It doesn't matter. I'll keep your file on hold until you've sent the document.
+        L: Et combien de temps faudra-t-il attendre avant que je reçoive une réponse ? | And how long will I have to wait before I get an answer?
+        Y: Environ deux mois, en général. Je vous note mon numéro, de peur que vous ne restiez sans nouvelles. | About two months, usually. I'll write down my number for you, in case you don't hear anything.
+        L: Merci infiniment, jeune homme. Je suis soulagée que quelqu'un ait enfin pris le temps de m'expliquer. | Thank you so much, young man. I'm relieved that someone has finally taken the time to explain.
+    pronunciation:
+      title: "pour que vous puissiez, jusqu'à ce que"
+      body: |
+        Conjunctions with *que* are linked to the next word without a pause: *pour que vous puissiez* [puʁ.kə.vu.pɥi.sje], *afin qu'elle ait* [a.fɛ̃.kɛ.lɛ]. In fast speech, *jusqu'à ce que* is often reduced to [ʒys.kas.kə].
+
+        Administrative terms are long: keep a regular rhythm, one syllable at a time, with a slight stress on the last one: *une pièce justificative* [pjɛs.ʒys.ti.fi.ka.**tiv**].
+      items: |
+        pour que vous puissiez
+        afin que votre dossier soit complet
+        jusqu'à ce que vous ayez envoyé
+        avant qu'elle ait pu
+        une pièce justificative
+        un avis d'imposition
+    culture:
+      title: France Services
+      body: |
+        Since 2020, thousands of *France Services* desks have opened across France — in town halls, post offices, libraries and even buses that travel between villages. In one place, trained advisers help people with procedures from several bodies: taxes, family and housing benefits, health insurance, pensions, driving licences and ID documents. The aim is to fight the digital divide and to keep a human contact for those who struggle with online forms.
+    mistakes: |
+      Je suis venue pour que je fasse ma demande. => Je suis venue pour faire ma demande. | With the same subject, use pour + infinitive, not pour que.
+      Avant que vous partez, signez ici. => Avant que vous partiez, signez ici. | Avant que is always followed by the subjunctive.
+      Jusqu'à ce que vous avez envoyé le document. => Jusqu'à ce que vous ayez envoyé le document. | Jusqu'à ce que takes the subjunctive; here, the past subjunctive.
+    task:
+      title: At the desk
+      mode: interaction
+      body: |
+        Role-play with a partner. One of you is an adviser at a public service desk; the other needs help with a procedure (renewing an ID card, applying for a grant, changing an address). The user explains the problem; the adviser lists the documents needed and explains what will happen, using at least four conjunctions (*pour que, avant que, jusqu'à ce que, sans que…*) and one infinitive construction (*avant de, pour…*).
+    exercises: |
+      fill: Je vous envoie le lien pour que vous ___ (pouvoir) suivre votre dossier en ligne. || puissiez || Pour que + subjunctive: que vous puissiez. || @tags fr.subjonctif-triggers,fr.subjonctif
+      fill: Votre dossier restera en attente jusqu'à ce que nous ___ (recevoir) votre RIB. || ayons reçu / recevions || Jusqu'à ce que + subjunctive; the past subjunctive (ayons reçu) stresses that the reception must be complete. || @tags fr.subjonctif-triggers,fr.subjonctif
+      fill: Vérifiez bien vos documents avant ___ les envoyer. || de || Same subject: avant de + infinitive. || @tags fr.subjonctif-triggers
+      mc: "Je suis venue ___ faire ma demande." || pour que | *pour | afin que || Same subject (je… je): pour + infinitive. || @tags fr.subjonctif-triggers
+      mc: "Partez avant qu'il ___ trop tard." || est | *soit | sera || Avant que is always followed by the subjunctive: qu'il soit. || @tags fr.subjonctif-triggers,fr.subjonctif
+      tf: Mme Morel brought all the documents she needed. || false || She forgot her RIB: "Je l'ai oublié sur la table de la cuisine." || @ctx dialogue
+      short: Why does Yacine need Mme Morel's RIB? || kw: versée/verser/payer/paid/pay/payment/compte/account/bank || "Pour que l'aide puisse être versée directement sur votre compte." || @ctx dialogue
+      listen: @dialogue || How long does it usually take to get an answer? || *About two months | About two weeks | About six months || "Environ deux mois, en général." || @tags fr.listening
+      listen: Afin que votre demande soit traitée rapidement, merci de joindre toutes les pièces justificatives dès le premier envoi. || What are applicants asked to do? || *Send all the supporting documents with the first submission | Phone before sending their application | Come to the office in person || "Merci de joindre toutes les pièces justificatives dès le premier envoi." || @tags fr.listening,fr.subjonctif-triggers
+      rw: Join the sentences with "sans que" :: Il a changé d'adresse. L'administration n'a pas été prévenue. || Il a changé d'adresse sans que l'administration ait été prévenue. | Il a changé d'adresse sans que l'administration soit prévenue. || Different subjects: sans que + subjunctive (present or past). || @tags fr.subjonctif-triggers,fr.subjonctif
+      tr: I'm calling so that you can update my file. || Je vous appelle pour que vous puissiez mettre à jour mon dossier. | Je vous appelle afin que vous puissiez mettre à jour mon dossier. | J'appelle pour que vous puissiez mettre à jour mon dossier. | J'appelle afin que vous puissiez mettre à jour mon dossier. || Different subjects: pour que / afin que + subjunctive (puissiez). || @tags fr.subjonctif-triggers
+      dict: Il faudrait que vous ayez rempli le formulaire avant la fin du mois. || ayez rempli
+      ask: At a public service desk, explain your problem and ask what you need to do. || kw: pour que/afin que/avant que/jusqu'à ce que/sans que/pour/avant de & dossier/demande/formulaire/document/carte/papiers || Bonjour, je dois renouveler ma carte d'identité avant de partir en voyage. Que faut-il que j'apporte pour que mon dossier soit complet ?
+
+  - title: Formal complaints
+    summary: Read a formal letter of complaint about cancelled trains, learn the structure and formulas of French formal letters, and express dissatisfaction with the past subjunctive.
+    minutes: 50
+    skills: [reading, writing, grammar]
+    tags: [fr.formal-writing, fr.subjonctif]
+    objectives:
+      - Lay out a French formal letter (sender, recipient, objet, formule d'appel, closing formula)
+      - Express dissatisfaction firmly but politely, with the past subjunctive
+      - Make a formal request and mention the next step (je vous saurais gré de…, à défaut de…)
+    intro: |
+      When a company or an administration doesn't respond, a well-written **formal letter** is often the most effective tool. French formal letters follow strict conventions: a subject line (*objet*), set phrases to open and close, a factual tone and a clear request. Dissatisfaction is expressed politely but firmly — often with the **past subjunctive**: *Je regrette que ma demande **soit restée** sans réponse.*
+    vocab: |
+      une réclamation | a complaint (formal) | n | J'ai déposé une réclamation en ligne. | I filed a complaint online. | g: f | c: déposer une réclamation; le service réclamations
+      l'objet | the subject (of a letter) | n | Indiquez l'objet de votre courrier en haut de la page. | Write the subject of your letter at the top of the page. | g: m
+      un abonnement | a subscription; a season ticket | n | Mon abonnement mensuel coûte soixante-seize euros. | My monthly season ticket costs seventy-six euros. | g: m | n: Un abonné, une abonnée = a subscriber.
+      une suppression | a cancellation | n | Les suppressions de trains se multiplient. | Train cancellations are increasing. | g: f
+      à plusieurs reprises | on several occasions | expr | Le train a été supprimé à plusieurs reprises. | The train was cancelled on several occasions. | n: Also: à neuf reprises = nine times.
+      un dédommagement | compensation | n | Je demande un dédommagement. | I'm asking for compensation. | g: m | n: Dédommager = to compensate.
+      un geste commercial | a goodwill gesture | n | Le magasin m'a proposé un geste commercial. | The shop offered me a goodwill gesture. | g: m
+      je vous saurais gré de | I would be grateful if you would | expr | Je vous saurais gré de bien vouloir me répondre. | I would be grateful if you would reply. | n: Very formal; followed by de + infinitive.
+      ci-joint | attached; enclosed | adj | Vous trouverez ci-joint la copie de ma facture. | Please find attached a copy of my invoice. | n: Invariable before the noun; after it, it agrees: la copie ci-jointe.
+      à défaut de | failing; in the absence of | expr | À défaut de réponse, je saisirai le médiateur. | Failing a reply, I will refer the matter to the ombudsman.
+      saisir le médiateur | to refer a matter to the ombudsman | expr | Elle a saisi le médiateur de la consommation. | She referred the matter to the consumer ombudsman. | n: Un médiateur settles disputes out of court.
+      les salutations distinguées | yours faithfully (closing formula) | n | Je vous prie d'agréer l'expression de mes salutations distinguées. | Yours faithfully. | g: f
+    grammar:
+      title: "The formal letter: structure and key formulas"
+      body: |
+        A French formal letter follows a fixed layout: the **sender** (top left), the **recipient** (right), the **place and date**, the **objet** (subject line) and any references, then the **formule d'appel** — *Madame, Monsieur,* if you don't know the person's name. Never write *Cher Monsieur* to a stranger.
+
+        1. **Opening**: *Je me permets de vous écrire au sujet de… / Suite à notre conversation du… / Par la présente, je souhaite…*
+        2. **The facts**, in the passé composé, with dates and figures.
+        3. **Your dissatisfaction**, often with the **past subjunctive**: *Je regrette vivement que ma demande **soit restée** sans réponse. Je m'étonne qu'aucun geste commercial n'**ait été** proposé.*
+        4. **Your request**: *Je vous saurais gré de bien vouloir… / Je vous serais reconnaissant(e) de… / Je vous prie de…* + infinitive.
+        5. **The next step** (optional): *À défaut de réponse de votre part sous quinze jours, je me verrai contraint(e) de…*
+        6. **The closing formula**, which repeats the formule d'appel exactly: *Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.*
+
+        Attachments are announced with *Vous trouverez ci-joint…* and listed at the end after *P.J.* (*pièces jointes*).
+      table: |
+        Part | Formula | Tone
+        opening | Je me permets de vous écrire au sujet de… | polite, neutral
+        facts | J'ai constaté que… / À plusieurs reprises… | factual, dated
+        dissatisfaction | Je regrette vivement que… / Je m'étonne que… + subjunctive | firm but polite
+        request | Je vous saurais gré de bien vouloir + infinitive | very formal
+        next step | À défaut de réponse…, je me verrai contraint(e) de… | firm
+        closing | Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées. | standard
+      examples: |
+        Je me permets de vous écrire au sujet de ma facture du mois de mars. | I am writing to you regarding my March invoice. | opening
+        Je regrette que personne ne m'ait informée de ce changement. | I regret that nobody informed me of this change. | past subjunctive
+        Je vous saurais gré de bien vouloir me rembourser dans les meilleurs délais. | I would be grateful if you would refund me as soon as possible. | request
+        Vous trouverez ci-joint la copie de mon contrat. | Please find attached a copy of my contract. | attachment
+      tip: "Use the same words in the opening and the closing: if you start with Madame, Monsieur, end with je vous prie d'agréer, Madame, Monsieur, …"
+    reading:
+      title: Une lettre de réclamation
+      text: |
+        Inès Carvalho
+        14, rue des Tanneurs
+        37000 Tours
+
+        Transports régionaux Val de Loire
+        Service relations clients
+        45000 Orléans
+
+        Tours, le 4 mars
+
+        Objet : réclamation — suppressions répétées de trains et demande de remboursement
+        Abonnement n° 458207
+
+        Madame, Monsieur,
+
+        Abonnée depuis trois ans à la ligne Tours–Blois, je me permets de vous écrire au sujet des nombreuses suppressions de trains intervenues au cours du mois de février.
+
+        Entre le 2 et le 27 février, le train de 7 h 12 a été supprimé à neuf reprises, le plus souvent sans que les voyageurs aient été informés avant leur arrivée en gare. Chaque fois, j'ai dû attendre le train suivant, si bien que je suis arrivée en retard à mon travail. Le 18 février, le car de remplacement annoncé n'est jamais venu.
+
+        Le 20 février, j'ai déposé une première réclamation sur votre site internet. Je regrette vivement que cette demande soit restée sans réponse, et je m'étonne qu'aucun geste commercial n'ait été proposé aux abonnés, alors que vos conditions générales prévoient un dédommagement en cas de perturbations importantes.
+
+        Par conséquent, je vous saurais gré de bien vouloir me rembourser la moitié de mon abonnement mensuel, soit 38 euros, conformément à vos engagements. Vous trouverez ci-joint la copie de mon abonnement ainsi que la liste des trains supprimés.
+
+        À défaut de réponse de votre part dans un délai de trente jours, je me verrai contrainte de saisir le médiateur.
+
+        Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+        Inès Carvalho
+
+        P.J. : copie de l'abonnement ; liste des trains supprimés
+      translation: |
+        Inès Carvalho
+        14 rue des Tanneurs
+        37000 Tours
+
+        Val de Loire Regional Transport
+        Customer Relations Department
+        45000 Orléans
+
+        Tours, 4 March
+
+        Subject: complaint — repeated train cancellations and request for a refund
+        Season ticket no. 458207
+
+        Dear Sir or Madam,
+
+        As a season-ticket holder on the Tours–Blois line for three years, I am writing to you about the many train cancellations that occurred during the month of February.
+
+        Between 2 and 27 February, the 7.12 a.m. train was cancelled nine times, usually without passengers being informed before they arrived at the station. Each time, I had to wait for the next train, so I arrived late for work. On 18 February, the replacement coach that had been announced never came.
+
+        On 20 February, I filed a first complaint on your website. I very much regret that this request has received no reply, and I am surprised that no goodwill gesture has been offered to season-ticket holders, even though your terms and conditions provide for compensation in the event of major disruption.
+
+        I would therefore be grateful if you would refund half of my monthly season ticket, that is 38 euros, in accordance with your commitments. Please find attached a copy of my season ticket and the list of cancelled trains.
+
+        Should I not receive a reply from you within thirty days, I will be obliged to refer the matter to the ombudsman.
+
+        I look forward to your reply. Yours faithfully,
+
+        Inès Carvalho
+
+        Encl.: copy of season ticket; list of cancelled trains
+    pronunciation:
+      title: Reading a formal letter aloud
+      body: |
+        In a formal style, speakers make more **optional liaisons** than in conversation: *je suis‿arrivée, vous avez‿été, ils ont‿été*. The compulsory ones remain: *des‿abonnés* [de.za.bɔ.ne], *mes‿excuses*.
+
+        Read the closing formula as one long, calm phrase, with a slight pause after each comma: *je vous prie d'agréer,* | *Madame, Monsieur,* | *l'expression de mes salutations distinguées.*
+      items: |
+        des abonnés
+        je suis arrivée en retard
+        je vous saurais gré
+        à défaut de réponse
+        je vous prie d'agréer
+        mes salutations distinguées
+    mistakes: |
+      Cher Monsieur, (writing to a company you don't know) => Madame, Monsieur, | Cher is only used when you know the person; to an unknown recipient, write Madame, Monsieur.
+      Je regrette que ma demande est restée sans réponse. => Je regrette que ma demande soit restée sans réponse. | Regretter que is followed by the subjunctive — here the past subjunctive.
+      Vous trouverez ci-jointe la copie de ma facture. => Vous trouverez ci-joint la copie de ma facture. | Before the noun, ci-joint is invariable; it only agrees after the noun (la copie ci-jointe).
+    task:
+      title: Your letter of complaint
+      mode: writing
+      body: |
+        Write a formal letter of complaint (150–180 words) about a real or invented problem: a delayed refund, repeated cancellations, a faulty product, works that were never finished. Follow the six steps of the lesson, use at least two past subjunctives (*je regrette que…, je m'étonne que…*) and end with the standard closing formula. Then practise complaining out loud in the "Handling a travel problem" scenario with the AI coach.
+    exercises: |
+      fill: Je regrette vivement que ma demande ___ (rester) sans réponse. || soit restée || Regretter que + past subjunctive; rester takes être and agrees with ma demande. || @tags fr.subjonctif,fr.formal-writing
+      fill: Je m'étonne qu'aucun technicien ne ___ (venir) depuis ma première réclamation. || soit venu || S'étonner que + past subjunctive; venir takes être: qu'aucun technicien ne soit venu. || @tags fr.subjonctif,fr.formal-writing
+      fill: Je vous saurais ___ de bien vouloir me rembourser. || gré || Fixed formula: je vous saurais gré de + infinitive. || @tags fr.formal-writing
+      mc: How should you begin a formal letter to someone whose name you don't know? || Cher Monsieur, | *Madame, Monsieur, | Bonjour à vous, || Madame, Monsieur, is the standard formule d'appel for an unknown recipient. || @tags fr.formal-writing,fr.register
+      mc: Which closing formula is correct? || *Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées. | Je vous prie d'agréer, Madame, Monsieur, mes grosses bises. | Salutations distinguées et à bientôt ! || The standard formula repeats Madame, Monsieur and ends with mes salutations distinguées. || @tags fr.formal-writing
+      mc: How many times was the 7.12 train cancelled in February? || Seven times | *Nine times | Eighteen times || "Le train de 7 h 12 a été supprimé à neuf reprises." || @ctx reading @tags fr.reading
+      tf: Inès's first complaint received a quick reply. || false || "Je regrette vivement que cette demande soit restée sans réponse." || @ctx reading
+      short: What will Inès do if she gets no reply within thirty days? || kw: médiateur/mediator/ombudsman || "Je me verrai contrainte de saisir le médiateur." || @ctx reading
+      listen: Je vous appelle au sujet de ma réclamation du 4 mai : je m'étonne que personne ne m'ait encore recontactée. || Why is the caller surprised? || *Nobody has contacted her again about her complaint | Her complaint was rejected | She was contacted by several people || "Je m'étonne que personne ne m'ait encore recontactée." || @tags fr.listening,fr.subjonctif
+      rw: Make the request formal :: Remboursez-moi vite, s'il vous plaît. || Je vous saurais gré de bien vouloir me rembourser dans les meilleurs délais. | Je vous serais reconnaissant de bien vouloir me rembourser dans les meilleurs délais. | Je vous serais reconnaissante de bien vouloir me rembourser dans les meilleurs délais. | Je vous prie de bien vouloir me rembourser dans les meilleurs délais. || A formal request: formula + de bien vouloir + infinitive; vite becomes dans les meilleurs délais. || @tags fr.formal-writing,fr.register
+      tr: Please find attached a copy of my invoice. || Vous trouverez ci-joint une copie de ma facture. | Vous trouverez ci-joint la copie de ma facture. | Veuillez trouver ci-joint une copie de ma facture. | Veuillez trouver ci-joint la copie de ma facture. || Please find attached = vous trouverez ci-joint (invariable before the noun). || @tags fr.formal-writing
+      dict: À défaut de réponse de votre part, je me verrai contraint de saisir le médiateur. || à défaut de réponse
+      say: Je me permets de vous écrire au sujet de ma réclamation du 20 février. || I am writing to you regarding my complaint of 20 February.
