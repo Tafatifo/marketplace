@@ -1,0 +1,356 @@
+unit: 1
+title: Who we are
+theme: Identity and society
+description: Talk about identity, belonging and the differences between generations, make confident and tentative deductions about the present and the past with modal verbs, and express nuance and degrees of certainty when you describe life between languages.
+free: true
+objectives:
+  - Speculate about people and situations in the present with must, might, may, could and can't
+  - Draw conclusions about the past with must have, might have and can't have, and discuss how generations differ
+  - Express nuance and degrees of certainty with hedging verbs, adverbs and softeners
+canDo:
+  - I can describe what makes me feel I belong to a place or a group, and why.
+  - I can make logical guesses about people and situations, both in the present and in the past.
+  - I can discuss differences between generations without relying on stereotypes.
+  - I can talk about my languages and my identity in a nuanced, careful way.
+review: |
+  fill: Everyone coming in from the street is carrying an umbrella and shaking off water. It ___ (rain) outside. || must be raining || Strong evidence about something happening now: must + be + -ing. || @tags en.modals-deduction
+  fill: My great-grandfather crossed the Atlantic alone at sixteen. He ___ (be) very brave. || must have been / must've been || A confident conclusion about the past: must have + past participle. || @tags en.modals-deduction
+  rw: Rewrite using "can't have" :: I'm sure they didn't receive my letter — they would have replied by now. || They can't have received my letter — they would have replied by now. | They cannot have received my letter — they would have replied by now. | They can't have received my letter. | They cannot have received my letter. || Can't have + past participle = I'm sure this didn't happen. || @tags en.modals-deduction
+  mc: "Is that your new neighbor?" "I'm not sure. It ___ be — I've only seen him once." || must | *might | can || Might shows that something is possible but uncertain. Must shows certainty, and can isn't used for a possibility in a specific situation. || @tags en.modals-deduction
+  fill: The results ___ (appear / show) that people who grow up with grandparents nearby feel less lonely as adults. || appear to show || Appear + to-infinitive presents a finding cautiously instead of as a proven fact. || @tags en.modals-deduction,en.register
+  mc: Choose the most natural sentence. || I won't probably move back to my hometown. | *I probably won't move back to my hometown. | I won't move probably back to my hometown. || With a negative contraction, probably comes before the auxiliary: probably won't. || @tags en.adverbs
+  mc: Lina moved to Lisbon five years ago and finally feels that she ___ in. || belongs | *fits | feels || Fit in = be accepted as part of a group. Belong is used with to or alone (she belongs), not with in here. || @tags en.phrasal-verbs @skill vocabulary
+  listen: My grandmother must have been about twenty in this photo. She can't have had much money, but she looks so confident. || What does the speaker conclude about her grandmother? || She was rich and confident. | *She probably wasn't rich, but she seemed confident. | She was shy and nervous. || "She can't have had much money, but she looks so confident." || @tags en.listening,en.modals-deduction
+  listen: I'd say I'm fairly fluent in Korean, but I tend to struggle when people talk about politics or banking. || How does the speaker describe their Korean? || Perfect in every situation | *Good, but weaker in some specialist topics | Very basic || "Fairly fluent" is a hedge, and they struggle with some topics such as banking. || @tags en.listening,en.adverbs
+  order: Every generation seems to complain about the next one. || @tags en.modals-deduction
+  ask: A friend asks, "Do you feel more connected to the place where you grew up or the place where you live now?" Give a nuanced answer. || kw: feel/belong/at home/fit in/roots & I'd say/probably/to some extent/tend to/seem/a bit/fairly/I would say || I'd say I feel more at home where I live now, because my friends and my daily life are here. Still, my roots are in a small town by the sea, and I probably feel most like myself when I go back there for the holidays.
+  write: Write a paragraph (90–110 words) about an object, photo or tradition that has been passed down in your family. Speculate about its history and say what it means to you. || min=80 || req: must have/might have/may have/could have/can't have/must've/might've | passed down/handed down/belong/family/roots || My grandmother's sewing box has been passed down through three generations. It's made of dark wood, and the lid is covered in scratches, so it must have traveled a lot. My mother thinks it might have belonged to her grandmother, who worked as a tailor in Naples before the war. She can't have earned much, but she made clothes for the whole family. The box is full of buttons that don't match anything. I keep it on my desk, and whenever I open it, I feel connected to women I never met.
+lessons:
+  - title: Identity and belonging
+    summary: Talk about identity, roots and feeling at home, and make logical deductions about the present with must, might, may, could and can't, including continuous forms.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [en.modals-deduction, en.vocabulary, en.schwa]
+    objectives:
+      - Talk about identity, roots and the feeling of belonging with precise vocabulary
+      - Make deductions about the present with must, might, may, could and can't
+      - Use must be / might be + -ing to speculate about actions in progress
+    intro: |
+      Who are you? Your answer probably includes more than a name and a nationality: the languages you speak, the places that feel like home, the communities you are part of. At B2, you need words to talk about these abstract ideas with precision. In this lesson you will also learn to speculate like a fluent speaker, using **modals of deduction** — *must*, *might*, *could* and *can't* — to say how sure you are about what is true right now.
+    vocab: |
+      identity | who you are, and the qualities, beliefs and connections that make you different from others | n | Speaking two languages is a big part of my identity. | - | c: national identity; a sense of identity; identity crisis
+      sense of belonging | the feeling that you are accepted and that you are an important part of a group or place | n phr | Volunteering gave him a real sense of belonging in his new town. | - | c: a strong sense of belonging; create a sense of belonging
+      roots | the place, family or culture that you originally come from | n pl | Although she was born in Chicago, her roots are in Jamaica. | - | c: go back to your roots; put down roots
+      background | your family, education, culture and experience | n | The team includes people from very different backgrounds. | - | c: cultural background; family background; come from a … background
+      fit in | to be accepted by a group because you are similar to the other people in it | phr v | It took me a year to fit in at my new school. | - | n: fit in with a group
+      feel at home | to feel relaxed and comfortable, as if you are in your own home | expr | Our neighbors made us feel at home from the very first day. | - | c: make someone feel at home
+      outsider | a person who is not accepted as a member of a group, or who doesn't feel part of it | n | For the first few months, I felt like an outsider at work. | - | n: The opposite is insider.
+      heritage | the traditions, language and history that a group of people shares and passes on | n | The festival celebrates the city's Greek heritage. | - | c: cultural heritage; proud of your heritage
+      newcomer | someone who has recently arrived in a place or joined a group | n | The library runs free conversation classes for newcomers. | - | c: a newcomer to the city
+      at heart | used to describe what someone is really like, even if it doesn't seem so | expr | He's lived abroad for years, but he's still a country boy at heart. | -
+      define | to describe or decide the most important qualities of someone or something | v | I don't let my job define who I am. | - | c: define yourself as…; clearly defined | n: The noun is definition.
+      embrace | to accept a new idea, culture or situation willingly and with enthusiasm | v | My parents embraced life in Canada, but they kept their own traditions too. | - | n: Also means to hug someone (formal).
+      label | to describe someone or something with a word or phrase, often unfairly | v | I don't like being labeled "the foreign one" at work. | - | n: Also a noun. US spelling: labeled; UK: labelled.
+    grammar:
+      title: "Modals of deduction: the present"
+      body: |
+        When we don't know something for certain, we can use a modal verb to show **how sure we are**. The modal is followed by the **base form** (without *to*).
+
+        - **must** — you are almost sure something is true, because of the evidence: *The lights are on. They **must be** at home.*
+        - **might / may / could** — it is possible, but you aren't sure: *She **might be** Rosa's sister — they have the same smile.*
+        - **can't / couldn't** — you are almost sure something is **not** true: *He **can't be** the manager. He started last week!*
+        - **might not / may not** — it is possible that something is not true: *They **may not know** about the change yet.*
+
+        To speculate about an action **in progress** now, use modal + **be + -ing**: *She isn't answering. She **must be driving**.*
+
+        Two common traps: the negative of deductive *must* is **can't**, not *mustn't* (mustn't means something is forbidden). And for a possibility in a specific situation, use **could**, not *can*: *It **could be** the wrong address* (not ~~It can be~~). *Can* describes general possibility: *Winters here can be very cold.*
+      table: |
+        How sure? | Modal | Example
+        Almost certainly true | must | You must be exhausted after that flight.
+        Possibly true | might / may / could | That might be her brother.
+        Possibly not true | might not / may not | He may not speak English.
+        Almost certainly not true | can't / couldn't | That can't be right — check again.
+        Action in progress | modal + be + -ing | They must be having dinner.
+      examples: |
+        You've lived here for twenty years — you must know everyone in the neighborhood. | | must: a logical conclusion
+        The handwriting isn't Leo's, so the note can't be from him. | | can't: a negative conclusion
+        I'm not sure where Mei is. She might be working from home today. | | might + be + -ing: an action in progress
+        They may not realize how welcome they are here. | | may not: a possible negative
+      tip: |
+        Ask yourself what evidence you have. Strong evidence → must or can't. Weak or no evidence → might, may or could.
+    dialogue:
+      title: The mystery sign maker
+      setting: A community garden in Melbourne, Australia. Priya, who has looked after a plot there for ten years, is talking to Tomasz, who moved from Poland three years ago and now volunteers every weekend.
+      speakers: P=Priya/f; T=Tomasz/m
+      lines: |
+        P: Have you seen these new labels on the plots? They're in English, Vietnamese and Spanish. Who could be making them?
+        T: It can't be the council. Their signs are always printed, and these are clearly handwritten.
+        P: True. It might be Rosa. She speaks Spanish, and she's always talking about making newcomers feel welcome.
+        T: But Rosa doesn't speak Vietnamese, as far as I know. It must be someone who speaks all three.
+        P: Or it could be a group of people. Plenty of families around here speak two or three languages at home.
+        T: That's what I love about this place. When I arrived, I didn't know a soul, and now I really feel I belong.
+        P: You must feel completely at home by now. You're here more often than I am!
+        T: Almost. I'm still Polish at heart, but Melbourne has become part of who I am.
+        P: I think that's normal. Identity isn't fixed — it keeps changing as your life changes.
+        T: Wait, look over there. That teenager with the paint pens must be our mysterious sign maker.
+        P: That's Mr. Tran's grandson! He can't be older than fifteen, and he must be fluent in all three languages.
+        T: Then he deserves a thank-you card — in three languages, of course.
+    pronunciation:
+      title: "Weak forms: must be, can't be"
+      body: |
+        In fast speech, the **t** at the end of *must* often disappears before a consonant, and the vowel becomes a schwa: *must be* sounds like "məs-bee". The modal is usually unstressed, and the stress falls on the important word after it: *She must be TIRED.*
+
+        *Can't* is different: because it carries the negative meaning, it is **stressed** and keeps its full vowel (American "kænt", British "kɑːnt"). The final t is often very light, so listen for the long, stressed vowel. Listen and repeat.
+      items: |
+        It must be Rosa.
+        It can't be the council.
+        She might be working.
+        You must feel at home.
+        He can't be older than fifteen.
+        It could be a group of people.
+    culture:
+      title: Asking about someone's background
+      body: |
+        In many English-speaking countries, a large share of the population was born abroad or has parents who were. Asking *Where are you from?* is usually friendly, but repeating it with *No, where are you really from?* can make people feel like outsiders in their own country, especially if they were born there.
+
+        Questions such as *Where did you grow up?* or *What languages do you speak?* are more open and let people decide how much of their background they want to share.
+    mistakes: |
+      He mustn't be at home — all the lights are off. => He can't be at home — all the lights are off. | For a negative deduction, use can't. Mustn't means that something is not allowed.
+      It can be Rosa who is making the labels. => It could be Rosa who is making the labels. | For a possibility in a specific situation, use could, might or may. Can is for general possibility.
+      She must to be fluent in three languages. => She must be fluent in three languages. | Modal verbs are followed by the base form without to.
+    task:
+      title: Where I belong
+      mode: speaking
+      body: |
+        Prepare a two-minute talk about a place or group where you feel you belong — a neighborhood, a team, a club or an online community. Explain how long it took you to fit in and what made the difference. Then look at three photos of people you don't know (from a newspaper or a website) and speculate about who they are and what they are doing, using must, might, could and can't. Finally, introduce yourself in a nuanced way — your roots, your languages and where you feel at home — to the AI coach in the "Introducing yourself" scenario.
+    exercises: |
+      fill: Nobody is answering the door, and the car isn't in the driveway. They ___ (be) at home. || can't be / cannot be / couldn't be / could not be || Strong evidence that something is not true: can't or couldn't + base form. || @tags en.modals-deduction
+      fill: Ayşe isn't picking up. She ___ (might / drive) — she never answers when she's behind the wheel. || might be driving || An action that is possibly in progress now: might + be + -ing. || @tags en.modals-deduction,en.present-continuous
+      mc: Which sentence is a strong negative deduction? || He mustn't be the new director — he looks about nineteen. | *He can't be the new director — he looks about nineteen. | He doesn't must be the new director — he looks about nineteen. || Can't + base form expresses a strong negative deduction. Mustn't means "not allowed", and must doesn't use do in negatives. || @tags en.modals-deduction
+      mc: "Is that Lena's sister?" "I'm not sure. She ___ — they have the same smile." || *might be | must be not | can be || Might be shows a possibility you aren't sure about. Must be not is the wrong word order, and can isn't used for a specific possibility. || @tags en.modals-deduction
+      rw: Rewrite using "must" :: I'm sure she's proud of her roots. || She must be proud of her roots. || I'm sure + present = must + base form. || @tags en.modals-deduction
+      rw: Rewrite using "can't" :: I'm sure this isn't the right address. || This can't be the right address. | This cannot be the right address. | It can't be the right address. | It cannot be the right address. || I'm sure … not = can't + base form. || @tags en.modals-deduction
+      match: sense of = belonging ; feel = at home ; fit = in ; cultural = heritage ; put down = roots || Common collocations: a sense of belonging, feel at home, fit in, cultural heritage, put down roots. || @hint Match the words to make common expressions. @skill vocabulary @tags en.collocations
+      tf: The labels in the garden were printed by the council. || false || Tomasz says the council's signs are always printed, "and these are clearly handwritten." || @ctx dialogue
+      short: Which three languages are the new labels written in? || kw: English & Vietnamese & Spanish || Priya says, "They're in English, Vietnamese and Spanish." || @ctx dialogue
+      listen: @dialogue || Who turns out to be making the labels? || A council worker | Rosa | *Mr. Tran's grandson || Tomasz spots a teenager with paint pens, and Priya recognizes him as Mr. Tran's grandson. || @tags en.listening
+      listen: My parents moved here before I was born, so I've never lived anywhere else. Still, when I visit Manila, my cousins tease me because my Tagalog is so slow. || Why do the speaker's cousins tease them? || Because they were born in Manila | *Because they speak Tagalog slowly | Because they don't visit often || "My cousins tease me because my Tagalog is so slow." || @tags en.listening
+      order: You must feel completely at home by now. || @tags en.modals-deduction
+      dict: He might be working late, or he could be stuck in traffic. || might / could + be + -ing
+      ask: A friend shows you a photo of a woman in a lab coat holding a trophy, surrounded by smiling colleagues. Speculate about who she is and what is happening. || kw: must/might/may/could/can't/cannot & be || She must be a scientist, because she's wearing a lab coat. She might be the head of the team. They must be celebrating something — maybe she's just won a prize for her research. She can't be new, because everyone seems to know her well.
+      write: Write a paragraph (80–100 words) about a place or group where you feel you belong. Explain why, and speculate about how a newcomer might feel there. || min=70 || req: belong/at home/fit in/sense of belonging | must/might/may/could/can't || I feel I belong at my running club. We meet every Saturday at seven, whatever the weather, and afterward we have breakfast together at the same café. Nobody cares how fast you are, and people from very different backgrounds become friends there. A newcomer might feel nervous at first, because everyone already knows each other's names. They must notice quite quickly, though, that we're a friendly group. It can't be easy to arrive alone, so we always make sure that someone runs with new members.
+
+  - title: Generations
+    summary: Discuss the differences and similarities between generations, avoid stereotypes, and make deductions about the past with must have, might have, could have and can't have.
+    minutes: 50
+    skills: [vocabulary, grammar, listening]
+    tags: [en.modals-deduction, en.vocabulary, en.schwa]
+    objectives:
+      - Talk about upbringing, values and the generation gap with precise vocabulary
+      - Make deductions about the past with must have, might have, could have and can't have + past participle
+      - Challenge generational stereotypes politely
+    intro: |
+      Every generation thinks the next one is lazy, and every generation thinks the last one was out of touch. Conversations between grandparents and grandchildren can show how much has changed — and how little. In this lesson you will learn vocabulary for comparing generations and use **modals of deduction about the past** — *must have*, *might have*, *can't have* — to make logical guesses about how people lived.
+    vocab: |
+      generation gap | the differences in attitudes and habits between older and younger people | n phr | There's a big generation gap in how my family uses technology. | - | c: bridge the generation gap
+      stereotype | a fixed, simple and often unfair idea of what a type of person is like | n | The stereotype that older people can't use technology is out of date. | - | c: a negative stereotype; challenge a stereotype; reinforce a stereotype
+      upbringing | the way your parents or carers treated you and taught you as a child | n | She had a fairly strict upbringing on a farm in Iowa. | - | c: a strict upbringing; a happy upbringing
+      values | the principles and beliefs that help you decide what is right and important | n pl | My grandparents and I have similar values, even if we disagree about politics. | - | c: family values; shared values
+      take (something) for granted | to expect something to always be there and not appreciate it | expr | We take clean water for granted, but my grandmother had to carry it from a well. | -
+      pass down | to give knowledge, objects or traditions to younger people in a family | phr v | The recipe has been passed down from my great-grandmother. | - | c: pass something down to someone | n: Also: hand down.
+      nostalgic | feeling happy and a little sad when you remember the past | adj | Old songs always make my dad feel nostalgic. | - | n: The noun is nostalgia.
+      look back on | to think about something that happened in the past | phr v | When I look back on my teenage years, I cringe. | - | n: Often with fondly: look back on something fondly.
+      tech-savvy | good at using modern technology | adj | My eighty-year-old aunt is more tech-savvy than I am. | - | n: Informal.
+      out of touch | not knowing about recent changes or what people think now | adj phr | Some politicians seem completely out of touch with young voters' concerns. | - | c: out of touch with something
+      resilient | able to recover quickly from difficult situations | adj | Children who move a lot often become very resilient. | - | n: The noun is resilience.
+      peers | people of the same age or social position as you | n pl | Teenagers usually care a lot about what their peers think. | - | c: peer pressure
+      emigrate | to leave your own country to live permanently in another | v | His parents emigrated from Ghana in the 1980s. | - | n: Emigrate from (the country you leave); immigrate to (the country you go to).
+    grammar:
+      title: "Modals of deduction: the past"
+      body: |
+        To make a logical guess about the **past**, use a modal + **have** + **past participle**. The modal shows how sure you are, and *have + past participle* moves the guess into the past.
+
+        - **must have** — you are almost sure something happened: *The grass is wet. It **must have rained** last night.*
+        - **might have / may have / could have** — it possibly happened: *She **might have missed** the bus.*
+        - **can't have / couldn't have** — you are almost sure it did **not** happen: *He **can't have seen** my message — he hasn't replied.*
+        - **might not have / may not have** — it possibly didn't happen: *They **may not have heard** the news.*
+
+        For an action that was **in progress**, use modal + **have been + -ing**: *Your phone was off. You **must have been sleeping**.*
+
+        In speech, *have* is a weak form: *must have* sounds like "must-əv" and is sometimes written **must've**, but never *must of*. As with the present, the negative of deductive must is **can't have**, not mustn't have.
+      table: |
+        How sure? | Form | Example
+        Almost certainly happened | must have + past participle | They must have left early.
+        Possibly happened | might / may / could have + past participle | He might have forgotten.
+        Possibly didn't happen | might not / may not have + past participle | She may not have received it.
+        Almost certainly didn't happen | can't / couldn't have + past participle | It can't have been easy.
+        In progress in the past | must / might have been + -ing | They must have been waiting for hours.
+      examples: |
+        Phone calls to Australia must have been incredibly expensive in the 1960s. | | must have: a confident conclusion
+        My grandmother can't have had much free time with six children. | | can't have: a negative conclusion
+        The letter might have arrived after he had already left. | | might have: a possibility
+        You must have been feeling very homesick during your first winter. | | must have been + -ing
+      tip: |
+        Don't confuse "could have" for deduction (It could have been him — maybe it was) with "could have" for a missed opportunity (You could have called me! — you didn't).
+    dialogue:
+      title: A letter from nineteen sixty-four
+      setting: A house in Cardiff, Wales. Nia, a twenty-two-year-old student, is helping her grandfather Gareth clear out the attic when she finds a box of old letters.
+      speakers: N=Nia/f; G=Gareth/m
+      lines: |
+        N: Grandpa, look what I found in this box — a letter dated nineteen sixty-four, addressed to you.
+        G: Let me see. Oh, that must have been from my brother Dylan. He'd just moved to Australia.
+        N: He says he "can't afford to call." Phone calls must have been incredibly expensive back then.
+        G: They were. We couldn't have spoken every week, the way you do with your friends.
+        N: People say my generation is glued to our phones, but I think you'd have loved video calls.
+        G: Maybe. Still, we might have valued letters more because they took weeks to arrive.
+        N: He mentions a job at the docks. He can't have been older than eighteen when he left.
+        G: Seventeen, actually. Our parents must have been worried sick, but they never showed it.
+        N: It's funny — people complain that young people are lazy, but he was working full time at seventeen.
+        G: Every generation says that about the next one. My father said exactly the same thing about me!
+        N: So the stereotypes haven't changed in sixty years. That's oddly reassuring.
+        G: It is. Now, help me find Dylan's number. I think it's time I gave him a video call.
+    pronunciation:
+      title: "Weak have: must've, might've, can't have"
+      body: |
+        In past deductions, **have** is almost never stressed. It reduces to a schwa + v: *must have* → "MUS-təv", *might have* → "MY-təv", *could have* → "KU-dəv". The main stress falls on the modal and on the past participle: *He MUST have been WORried.*
+
+        Because the weak form sounds like "of", some native speakers write *must of*, but this is a spelling mistake — the word is always **have**. Listen and repeat.
+      items: |
+        It must have been expensive.
+        They might have known.
+        He can't have been older than eighteen.
+        We couldn't have spoken every week.
+        They must have been worried sick.
+        She may not have received it.
+    culture:
+      title: Labels for generations
+      body: |
+        English speakers often use labels for generations: **baby boomers** (born roughly 1946–1964), **Generation X**, **millennials** and **Generation Z**. You'll hear them in the news and in jokes, but the exact dates vary, and the labels are broad generalizations. Many people find it irritating to be described by a stereotype of their generation.
+
+        A useful way to challenge a stereotype politely is to give a counterexample: *That's not always true — my grandad is more tech-savvy than I am.*
+    mistakes: |
+      He must had left before we arrived. => He must have left before we arrived. | After a modal, use have + past participle, never had.
+      She mustn't have seen my message. => She can't have seen my message. | The negative of a past deduction is can't have or couldn't have.
+      They might of gone home already. => They might have gone home already. | The weak form of have sounds like "of", but it is always written have (or 've).
+    task:
+      title: Then and now
+      mode: interaction
+      body: |
+        Interview someone at least thirty years older than you — a relative, a neighbor or a colleague — about one aspect of their youth: school, work, communication or free time. Before the interview, write three guesses using must have, might have and can't have (*Your school must have been very strict*). Afterward, report which guesses were right. Then discuss with the AI coach in the "Expressing an opinion" scenario whether life is harder or easier for young people today than it was fifty years ago.
+    exercises: |
+      fill: The streets are wet, but it's sunny now. It ___ (rain) during the night. || must have rained / must've rained || Strong present evidence of a past event: must have + past participle. || @tags en.modals-deduction
+      fill: My grandmother left school at fourteen to work in a factory. Life ___ (be) easy for her family. || can't have been / cannot have been / couldn't have been / could not have been || A confident negative conclusion about the past: can't have / couldn't have + past participle. || @tags en.modals-deduction
+      fill: Jamal didn't hear the doorbell. He ___ (must / listen) to music with his headphones on. || must have been listening / must've been listening || An action in progress in the past: must have been + -ing. || @tags en.modals-deduction,en.past-continuous
+      mc: "I texted Dad an hour ago, but he hasn't replied." "He ___ it yet — he never checks his phone at work." || *might not have seen | mustn't have seen | can't see || Might not have seen = possibly he hasn't seen it. Mustn't have is not used for deduction, and can't see refers to the present. || @tags en.modals-deduction
+      mc: Which sentence means "Perhaps they took the wrong train"? || They must have taken the wrong train. | *They may have taken the wrong train. | They can't have taken the wrong train. || May have = possibly. Must have means you're sure, and can't have means you're sure they didn't. || @tags en.modals-deduction
+      rw: Rewrite using "must have" :: I'm sure our great-grandparents worked incredibly hard. || Our great-grandparents must have worked incredibly hard. | Our great-grandparents must've worked incredibly hard. || I'm sure + past simple = must have + past participle. || @tags en.modals-deduction
+      match: take = for granted ; pass = down ; generation = gap ; out of = touch ; peer = pressure || Common expressions: take for granted, pass down, generation gap, out of touch, peer pressure. || @hint Match the words to make common expressions. @skill vocabulary @tags en.collocations
+      tf: Gareth's brother was eighteen when he moved to Australia. || false || Nia guesses he "can't have been older than eighteen," and Gareth says, "Seventeen, actually." || @ctx dialogue
+      short: Why didn't the two brothers phone each other often? || kw: expensive/afford/cost/money || Dylan wrote that he couldn't afford to call; calls were "incredibly expensive back then." || @ctx dialogue
+      listen: @dialogue || What does Gareth decide to do at the end? || Write his brother a letter | *Call his brother on video | Fly to Australia || "I think it's time I gave him a video call." || @tags en.listening
+      listen: My dad must have been about twenty when this photo was taken. Look at that haircut — it can't have been fashionable, even then. || What does the speaker think about her father's haircut? || *It wasn't fashionable even at the time. | It was very fashionable then. | It has become fashionable again. || "It can't have been fashionable, even then" — she is sure it wasn't stylish at the time either. || @tags en.listening,en.modals-deduction
+      order: They can't have known how hard their new life would be. || @tags en.modals-deduction
+      dict: She must have been waiting for hours when the train finally arrived. || must have been + -ing
+      ask: Your friend says, "My grandparents moved to a new country with no money and no English." Respond, speculating about how they felt and what their first years were like. || kw: must have/might have/may have/could have/can't have/couldn't have/must've/might've || Wow, that must have been terrifying. They can't have understood much at first, and they might have felt very lonely. They must have been incredibly resilient to build a new life like that.
+      write: Write a paragraph (80–100 words) about an old photo of a relative or an older person you know. Describe it and speculate about their life at the time. || min=70 || req: must have/might have/may have/could have/can't have/couldn't have/must've/might've || In this photo, my grandfather is standing outside a small shop in Lagos. He must have been about twenty-five, and he looks very proud. The shop might have been his first business, because the sign looks brand new. He's wearing a smart suit, so it must have been a special occasion, perhaps the opening day. He can't have had much money then, but he looks confident about the future. I wish I could ask him what he was thinking at that moment.
+
+  - title: Living between languages
+    summary: Read a personal essay about growing up bilingual, discuss how languages shape the way we feel and behave, and express nuance with hedging verbs, adverbs and softeners.
+    minutes: 50
+    skills: [reading, grammar, writing]
+    tags: [en.modals-deduction, en.adverbs, en.word-stress]
+    objectives:
+      - Understand a personal essay about bilingualism and identity
+      - Express degrees of certainty with seem to, appear to, tend to and be likely to
+      - Soften and qualify claims with adverbs such as apparently, arguably and presumably
+    intro: |
+      Many people who speak more than one language say they feel slightly different in each one. Talking about this — or about any complex topic — requires **nuance**: fluent speakers rarely say *This is true* when they mean *This seems to be true for me*. In this lesson you will read an essay by a bilingual writer and learn **hedging** language, which lets you sound careful, precise and open-minded.
+    vocab: |
+      bilingual | able to speak two languages equally or almost equally well | adj | Their children are bilingual in Welsh and English. | - | n: Trilingual = three languages; multilingual = several.
+      mother tongue | the first language you learned as a child | n phr | My mother tongue is Tamil, but I think in English at work. | - | n: Also: first language, native language.
+      switch between | to change from one thing to another, often quickly | phr v | She switches between Spanish and English without noticing. | - | n: Linguists call this code-switching.
+      come across as | to seem to have a particular quality to other people | phr v | In interviews, he comes across as very confident. | - | n: Followed by an adjective or a noun phrase.
+      reserved | not showing your feelings or opinions openly | adj | My father is quite reserved — he rarely talks about himself. | - | n: Not negative; it often suggests calm and polite.
+      lost in translation | when meaning or humor disappears because it can't be expressed in another language | expr | The joke was completely lost in translation. | -
+      context | the situation in which something happens, which helps you understand it | n | You can usually guess the meaning of a new word from the context. | - | c: in this context; out of context
+      fluency | the ability to speak or write a language easily and naturally | n | Reading every day really improved my fluency. | - | n: Adjective: fluent.
+      heritage language | a language spoken in your family or community, but not the main language of the country | n phr | Many cities run weekend schools for heritage languages such as Polish and Korean. | -
+      accent | the way people from a particular area or country pronounce words | n | She has a slight Scottish accent. | - | c: a strong accent; a slight accent; lose your accent
+      foreign | from or belonging to another country | adj | After ten years away, my hometown felt slightly foreign. | - | n: Calling a person "a foreigner" can sound unfriendly; "someone from abroad" is often better.
+      reflect | to show or be a sign of something | v | The way we speak reflects where we grew up. | - | n: Also: to think carefully (reflect on something).
+    grammar:
+      title: "Hedging: expressing nuance and degrees of certainty"
+      body: |
+        **Hedging** means making a statement less absolute. It sounds careful and honest, and it is essential in discussions, academic writing and polite conversation.
+
+        - **seem / appear + to-infinitive** — this is how it looks to me: *She **seems to be** happier in Spanish.* With a past action, use the perfect infinitive: *The rules **appear to have changed**.*
+        - **tend to + base form** — this is generally true: *People **tend to speak** faster in their first language.*
+        - **be likely / unlikely to + base form**, or **It's likely that…** — this is probably (not) true: *She's **likely to** become fluent quickly.*
+        - **adverbs of certainty** — **apparently** (people say so), **arguably** (you could reasonably claim this), **presumably** (I suppose this is true), **probably**, **definitely**. *Probably* and *definitely* go after *be* and auxiliaries but before a negative contraction: *She'll **probably** come. She **probably won't** come.*
+        - **softeners** — **fairly**, **rather**, **slightly**, **somewhat**, **a bit**, **to some extent**, **I'd say**: *My accent is **slightly** different in each language.*
+
+        Hedging doesn't mean you have no opinion. It shows you are aware of exceptions.
+      table: |
+        Strong claim | Hedged version | Structure
+        Bilinguals have two personalities. | Bilinguals sometimes seem to have two personalities. | seem + to-infinitive
+        People mix languages when they're tired. | People tend to mix languages when they're tired. | tend to + base form
+        She will become fluent. | She's likely to become fluent. | be likely to + base form
+        This is the best method. | This is arguably the best method. | adverb after be
+        He's shy. | He's fairly reserved, I'd say. | softener + I'd say
+      examples: |
+        Children who grow up with two languages tend to switch between them without effort. | | tend to
+        The writer appears to feel more relaxed in Portuguese. | | appear + to-infinitive
+        Apparently, more than half of the world's population speaks more than one language. | | apparently: according to what I've heard or read
+        It's unlikely that he'll forget his mother tongue completely. | | It's unlikely that…
+      tip: |
+        In writing, combine two hedges at most. "It might possibly seem to perhaps suggest…" sounds unsure rather than careful.
+    reading:
+      title: Two windows, one room
+      text: |
+        When people find out that I grew up speaking Portuguese at home and English at school, they tend to ask the same question: "Which language do you dream in?" The honest answer is that I'm not sure. I seem to dream in whichever language the people in the dream speak, which is probably the least exciting answer possible.
+
+        A more interesting question, I'd say, is whether I'm the same person in both languages. My friends would argue that I'm not. In English, I apparently come across as fairly reserved and rather precise; I choose my words carefully and rarely interrupt. In Portuguese, I talk faster, laugh louder and use my hands far more. My mother, who is arguably the best judge, says I'm warmer in Portuguese and more efficient in English. I'm still not sure which one is the compliment.
+
+        I used to think this was evidence that I had two personalities. Now I suspect it's something more ordinary. Each language came with its own context: Portuguese was the language of family dinners, arguments and jokes, while English was the language of classrooms, exams and, later, job interviews. It's likely that I'm simply carrying those settings with me. Many bilingual people describe something similar, and some researchers have suggested that the situations in which we learn a language may shape how we behave when we use it.
+
+        Living between languages isn't always comfortable. There are things I can only talk about in one of them. I can explain a mortgage in English but not in Portuguese, and I can describe my grandmother's cooking properly only in Portuguese. When I'm tired, I tend to switch between the two in the middle of a sentence, which my colleagues find slightly confusing. And there is the occasional feeling of being a little foreign everywhere: a bit too American for my cousins in Porto, and a bit too Portuguese for my neighbors in Boston.
+
+        Still, I wouldn't change it. Having two languages is rather like having two windows in the same room. The view from each one is somewhat different, but it's the same room. If anything, moving between them has taught me that there is rarely only one way to say something — or to be someone.
+    pronunciation:
+      title: Word stress in hedging words
+      body: |
+        Many hedging adverbs are long words, and the stress is not always where learners expect. **Apparently** and **presumably** are stressed on the second syllable: a**PA**rently, pre**SU**mably. **Arguably** and **definitely** are stressed on the first: **AR**guably, **DE**finitely. **Bilingual** is stressed on the second syllable: bi**LIN**gual.
+
+        Hedges are often said with a slight **fall-rise** intonation, which signals "this is true, but…": *Apparently* ↘↗ *it's the best method.* Listen and repeat.
+      items: |
+        apparently
+        arguably
+        presumably
+        definitely
+        bilingual
+        It seems to me that it depends.
+    mistakes: |
+      She seems being happier in Spanish. => She seems to be happier in Spanish. | Seem and appear are followed by to + infinitive, not -ing.
+      I won't probably come to the party. => I probably won't come to the party. | With a negative contraction (won't, don't, can't), probably comes before it.
+      People tend to thinking that bilingual children get confused. => People tend to think that bilingual children get confused. | Tend to is followed by the base form.
+    task:
+      title: Me in two languages
+      mode: writing
+      body: |
+        Write a short reflective text (120–150 words) for a language-learning blog: Do you feel or behave differently when you speak English? Give two concrete examples (how fast you speak, how polite or direct you are, what you joke about) and use at least three hedging expressions. Then describe your language background to the AI coach in the "Introducing yourself" scenario, using hedges to sound natural and nuanced.
+    exercises: |
+      mc: How does the writer answer the question about which language she dreams in? || She always dreams in Portuguese. | *It seems to depend on who is in the dream. | She doesn't dream in either language. || "I seem to dream in whichever language the people in the dream speak." || @ctx reading @skill reading @tags en.reading
+      tf: According to the writer's mother, she is warmer when she speaks English. || false || Her mother says she is warmer in Portuguese and more efficient in English. || @ctx reading @tags en.reading
+      short: What does the writer say she can describe properly only in Portuguese? || kw: grandmother & cooking/food/cook/dishes/recipes || "I can describe my grandmother's cooking properly only in Portuguese." || @ctx reading @tags en.reading
+      fill: People ___ (tend) assume that bilingual children get confused, but most switch between languages with ease. || tend to || Tend to + base form describes what is generally true. || @tags en.modals-deduction
+      fill: The new evening course ___ (likely / be) popular with heritage speakers. || is likely to be / 's likely to be || Be likely to + base form = this will probably happen. || @tags en.modals-deduction
+      rw: Make the statement more cautious using "seem to" :: This method is more effective than the old one. || This method seems to be more effective than the old one. || Seem + to-infinitive presents the claim as an impression, not a fact. || @tags en.modals-deduction,en.register
+      rw: Rewrite starting with "It's likely that" :: She will probably become fluent within a year. || It's likely that she will become fluent within a year. | It is likely that she will become fluent within a year. | It's likely that she'll become fluent within a year. || It's likely that + clause = probably. Remove probably, because likely already gives that meaning. || @tags en.modals-deduction
+      mc: Which adverb means "according to what I have heard or read"? || *apparently | arguably | presumably || Apparently reports information from others. Arguably = it can reasonably be claimed; presumably = I suppose. || @tags en.adverbs @skill vocabulary
+      mc: Choose the correct sentence. || I won't probably be able to come. | *I probably won't be able to come. | I won't be able probably to come. || With a negative contraction, probably goes before it: probably won't. || @tags en.adverbs
+      match: apparently = I've heard or read this ; arguably = some people could reasonably claim this ; presumably = I suppose this is true ; definitely = I'm completely sure || Each adverb is matched with what it shows about the speaker's certainty. || @hint Match each adverb with its meaning. @skill vocabulary @tags en.adverbs
+      listen: My kids switch between Arabic and English all the time. To some extent it's a game, but I'd say it also helps them find exactly the right word. || How does the speaker feel about the children's switching between languages? || *Mostly positive — it seems useful. | Worried — it confuses them. | Annoyed — they should speak one language. || "I'd say it also helps them find exactly the right word" — a positive, hedged opinion. || @tags en.listening,en.adverbs
+      order: In English, I apparently come across as fairly reserved. || @tags en.adverbs
+      dict: Bilingual speakers tend to switch languages when they are tired or excited. || tend to + base form
+      ask: Someone asks you, "Are you a different person when you speak English?" Give a nuanced answer with at least two hedges. || kw: tend to/seem/appear/I'd say/I would say/apparently/probably/to some extent/a bit/fairly/slightly/rather/somewhat || To some extent, yes. I tend to be more polite in English, and I'd say I'm slightly more formal, probably because I learned it at school and at work. Apparently I also laugh less, but I'm not sure that's true!
+      write: Write a paragraph (100–120 words) comparing how you communicate in your first language and in English. Use at least three different hedging expressions. || min=90 || req: tend to/seem/appear/likely/apparently/arguably/presumably/probably/to some extent/I'd say/I would say | fairly/rather/slightly/somewhat/a bit || I'd say I'm a slightly different person in English. In Italian, I tend to speak quickly, interrupt my friends and make a lot of jokes. In English, I seem to be calmer and rather more careful, probably because I'm still thinking about grammar while I speak. Apparently I'm also more polite: my British colleagues say I apologize far too often! To some extent, this is because I learned English in formal situations, such as lessons and meetings. It's likely that I'll feel more relaxed in English as I use it more with friends, and I'm curious to see whether my sense of humor will finally make the journey too.
