@@ -300,7 +300,7 @@ function MatchInput({
   const pairIndexOfRight = (r: number) => pairs.indexOf(r);
   return (
     <div className="grid grid-cols-2 gap-3 sm:gap-6">
-      <div className="space-y-2">
+      <div className="space-y-2" role="group" aria-label="Items to match">
         {left.map((l, i) => {
           const paired = pairs[i] !== -1;
           return (
@@ -322,7 +322,7 @@ function MatchInput({
           );
         })}
       </div>
-      <div className="space-y-2">
+      <div className="space-y-2" role="group" aria-label="Matches">
         {right.map((r, i) => {
           const owner = pairIndexOfRight(i);
           return (

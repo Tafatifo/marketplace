@@ -17,10 +17,12 @@ test("a learner opens a lesson, answers an exercise and gets server-checked feed
   const start = page.getByRole("button", { name: /start practice/i });
   if (await start.isVisible().catch(() => false)) await start.click();
   // Answer whatever the first exercise is with some response, then check it on the server.
+  // Wait for the exercise to render before probing which input type it has.
+  await expect(page.getByRole("button", { name: /^check$/i })).toBeVisible();
   const choice = page.getByRole("radio").first();
   const blank = page.getByLabel("Blank 1");
   const text = page.getByRole("textbox", { name: /your answer/i }).first();
-  const matchColumn = page.locator(".grid.grid-cols-2 > div").nth(1).getByRole("button");
+  const matchColumn = page.getByRole("group", { name: "Matches" }).getByRole("button");
   if (await choice.isVisible().catch(() => false)) await choice.click();
   else if (await blank.isVisible().catch(() => false)) await blank.fill("bonjour");
   else if (await text.isVisible().catch(() => false)) await text.fill("bonjour");
