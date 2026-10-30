@@ -11,6 +11,8 @@ evidence-based recommendations. Editors and reviewers manage content in a built-
 - **AI coach:** Anthropic Claude (default) or any OpenAI-compatible API, server-side only; scripted practice mode without a key
 - **Payments:** Stripe Checkout, Customer Portal and verified webhooks; a development-only simulator
 
+Current build and content status, with verified counts and open items: [COMPLETION_REPORT.md](COMPLETION_REPORT.md).
+
 ---
 
 ## Quick start (local development)

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30T17:15:37.159Z",
+ "generatedAt": "2026-10-30T17:33:31.198Z",
  "note": "Completeness is computed from the files in /content and the generated audio. 'complete' means authored, passing automatic QA and with all audio present — not linguistically verified. All content is AI-drafted until a native-speaker review is recorded in /admin.",
  "targets": {
   "unitsPerCourse": 8,
@@ -12,17 +12,17 @@
   "courses": {
    "target": 20,
    "present": 20,
-   "complete": 14
+   "complete": 16
   },
   "units": {
    "planned": 160,
    "authored": 160,
-   "complete": 129
+   "complete": 139
   },
   "lessons": {
    "planned": 640,
    "authored": 640,
-   "complete": 545
+   "complete": 585
   },
   "exercises": 17192,
   "vocabulary": 6100,
@@ -35,12 +35,12 @@
   "taxonomyTags": 339,
   "audio": {
    "required": 38173,
-   "generated": 35966,
-   "missing": 2207,
+   "generated": 38173,
+   "missing": 0,
    "pass": 9800,
    "review": 3153,
    "fail": 139,
-   "unchecked": 22874
+   "unchecked": 25081
   },
   "qa": {
    "errors": 0,
@@ -14282,11 +14282,11 @@
    "language": "de",
    "level": "B2",
    "title": "German B2 · Fluency",
-   "status": "in-progress",
+   "status": "complete",
    "lessons": {
     "planned": 32,
     "authored": 32,
-    "complete": 24
+    "complete": 32
    },
    "units": [
     {
@@ -14838,28 +14838,26 @@
     {
      "order": 7,
      "title": "Rechte, Pflichten und Behörden",
-     "status": "incomplete",
+     "status": "complete",
      "lessons": [
       {
        "slug": "de-b2-u07-l01",
        "title": "Rights and responsibilities",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "75 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 12,
        "warnings": 0,
        "audio": {
         "required": 75,
-        "generated": 0,
-        "missing": 75,
+        "generated": 75,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 75
        },
        "review": "ai-drafted"
       },
@@ -14867,22 +14865,20 @@
        "slug": "de-b2-u07-l02",
        "title": "Public services",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "79 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 23,
        "authoredExercises": 13,
        "vocabulary": 12,
        "warnings": 0,
        "audio": {
         "required": 79,
-        "generated": 0,
-        "missing": 79,
+        "generated": 79,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 79
        },
        "review": "ai-drafted"
       },
@@ -14890,22 +14886,20 @@
        "slug": "de-b2-u07-l03",
        "title": "Formal complaints",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "51 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 12,
        "warnings": 0,
        "audio": {
         "required": 55,
-        "generated": 4,
-        "missing": 51,
+        "generated": 55,
+        "missing": 0,
         "pass": 0,
         "review": 2,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 53
        },
        "review": "ai-drafted"
       },
@@ -14913,22 +14907,20 @@
        "slug": "de-b2-u07-review",
        "title": "Unit 7 review",
        "kind": "UNIT_REVIEW",
-       "status": "incomplete",
-       "reasons": [
-        "112 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 29,
        "authoredExercises": 18,
        "vocabulary": 0,
        "warnings": 0,
        "audio": {
         "required": 114,
-        "generated": 2,
-        "missing": 112,
+        "generated": 114,
+        "missing": 0,
         "pass": 0,
         "review": 2,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 112
        },
        "review": "ai-drafted"
       }
@@ -14937,28 +14929,26 @@
     {
      "order": 8,
      "title": "Der Blick nach vorn",
-     "status": "incomplete",
+     "status": "complete",
      "lessons": [
       {
        "slug": "de-b2-u08-l01",
        "title": "Predictions and speculation",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "73 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 23,
        "authoredExercises": 13,
        "vocabulary": 12,
        "warnings": 0,
        "audio": {
         "required": 73,
-        "generated": 0,
-        "missing": 73,
+        "generated": 73,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 73
        },
        "review": "ai-drafted"
       },
@@ -14966,22 +14956,20 @@
        "slug": "de-b2-u08-l02",
        "title": "Regrets and lessons learned",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "73 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 12,
        "warnings": 0,
        "audio": {
         "required": 77,
-        "generated": 4,
-        "missing": 73,
+        "generated": 77,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 4
+        "unchecked": 77
        },
        "review": "ai-drafted"
       },
@@ -14989,22 +14977,20 @@
        "slug": "de-b2-u08-l03",
        "title": "Presenting an argument",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "56 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 23,
        "authoredExercises": 13,
        "vocabulary": 12,
        "warnings": 0,
        "audio": {
         "required": 56,
-        "generated": 0,
-        "missing": 56,
+        "generated": 56,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 56
        },
        "review": "ai-drafted"
       },
@@ -15012,22 +14998,20 @@
        "slug": "de-b2-u08-review",
        "title": "Unit 8 review",
        "kind": "UNIT_REVIEW",
-       "status": "incomplete",
-       "reasons": [
-        "114 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 30,
        "authoredExercises": 18,
        "vocabulary": 0,
        "warnings": 0,
        "audio": {
         "required": 118,
-        "generated": 4,
-        "missing": 114,
+        "generated": 118,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 4
+        "unchecked": 118
        },
        "review": "ai-drafted"
       }
@@ -15038,22 +15022,20 @@
     "slug": "de-b2-assessment",
     "title": "German B2 assessment",
     "kind": "LEVEL_ASSESSMENT",
-    "status": "incomplete",
-    "reasons": [
-     "4 audio clips missing"
-    ],
+    "status": "complete",
+    "reasons": [],
     "exercises": 37,
     "authoredExercises": 37,
     "vocabulary": 0,
     "warnings": 0,
     "audio": {
      "required": 10,
-     "generated": 6,
-     "missing": 4,
+     "generated": 10,
+     "missing": 0,
      "pass": 0,
      "review": 0,
      "fail": 0,
-     "unchecked": 6
+     "unchecked": 10
     },
     "review": "ai-drafted"
    },
@@ -15070,16 +15052,16 @@
       "kind": "READING",
       "title": "Heimat im Plural",
       "words": 370,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -15087,16 +15069,16 @@
       "kind": "READING",
       "title": "Leihen statt kaufen",
       "words": 355,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -15104,16 +15086,16 @@
       "kind": "READING",
       "title": "Wissenschaft zum Mitmachen",
       "words": 367,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -15121,16 +15103,16 @@
       "kind": "READING",
       "title": "Die Stadt als Schwamm",
       "words": 363,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -15138,16 +15120,16 @@
       "kind": "READING",
       "title": "Pfeifen, Bälge und viel Geduld",
       "words": 383,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -15155,16 +15137,16 @@
       "kind": "READING",
       "title": "Wenn der Melder piept",
       "words": 369,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -15172,16 +15154,16 @@
       "kind": "LISTENING",
       "title": "Faktencheck im Radio",
       "words": 377,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 18,
-       "generated": 0,
-       "missing": 18,
+       "generated": 18,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 18
       }
      },
      {
@@ -15189,16 +15171,16 @@
       "kind": "LISTENING",
       "title": "Verhandlung um den Laden",
       "words": 359,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 21,
-       "generated": 0,
-       "missing": 21,
+       "generated": 21,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 21
       }
      },
      {
@@ -15206,16 +15188,16 @@
       "kind": "LISTENING",
       "title": "Sprechstunde: Schlafen wir zu wenig?",
       "words": 382,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 17,
-       "generated": 0,
-       "missing": 17,
+       "generated": 17,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 17
       }
      },
      {
@@ -15223,16 +15205,16 @@
       "kind": "LISTENING",
       "title": "Zehn Jahre danach",
       "words": 354,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 22,
-       "generated": 0,
-       "missing": 22,
+       "generated": 22,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 22
       }
      }
     ]
@@ -18150,38 +18132,36 @@
    "language": "da",
    "level": "B2",
    "title": "Danish B2 · Fluency",
-   "status": "in-progress",
+   "status": "complete",
    "lessons": {
     "planned": 32,
     "authored": 32,
-    "complete": 0
+    "complete": 32
    },
    "units": [
     {
      "order": 1,
      "title": "Identitet og samfund",
-     "status": "incomplete",
+     "status": "complete",
      "lessons": [
       {
        "slug": "da-b2-u01-l01",
        "title": "Identity and belonging",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "76 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 23,
        "authoredExercises": 13,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 76,
-        "generated": 0,
-        "missing": 76,
+        "generated": 76,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 76
        },
        "review": "ai-drafted"
       },
@@ -18189,22 +18169,20 @@
        "slug": "da-b2-u01-l02",
        "title": "Generations",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "70 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 23,
        "authoredExercises": 13,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 76,
-        "generated": 6,
-        "missing": 70,
+        "generated": 76,
+        "missing": 0,
         "pass": 1,
         "review": 0,
         "fail": 0,
-        "unchecked": 5
+        "unchecked": 75
        },
        "review": "ai-drafted"
       },
@@ -18212,22 +18190,20 @@
        "slug": "da-b2-u01-l03",
        "title": "Living between languages",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "48 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 23,
        "authoredExercises": 13,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 54,
-        "generated": 6,
-        "missing": 48,
+        "generated": 54,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 6
+        "unchecked": 54
        },
        "review": "ai-drafted"
       },
@@ -18235,22 +18211,20 @@
        "slug": "da-b2-u01-review",
        "title": "Unit 1 review",
        "kind": "UNIT_REVIEW",
-       "status": "incomplete",
-       "reasons": [
-        "95 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 29,
        "authoredExercises": 18,
        "vocabulary": 0,
        "warnings": 0,
        "audio": {
         "required": 105,
-        "generated": 10,
-        "missing": 95,
+        "generated": 105,
+        "missing": 0,
         "pass": 1,
         "review": 0,
         "fail": 0,
-        "unchecked": 9
+        "unchecked": 104
        },
        "review": "ai-drafted"
       }
@@ -18259,28 +18233,26 @@
     {
      "order": 2,
      "title": "Arbejde og økonomi",
-     "status": "incomplete",
+     "status": "complete",
      "lessons": [
       {
        "slug": "da-b2-u02-l01",
        "title": "The future of work",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "72 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 76,
-        "generated": 4,
-        "missing": 72,
+        "generated": 76,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 4
+        "unchecked": 76
        },
        "review": "ai-drafted"
       },
@@ -18288,22 +18260,20 @@
        "slug": "da-b2-u02-l02",
        "title": "Negotiating",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "76 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 76,
-        "generated": 0,
-        "missing": 76,
+        "generated": 76,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 76
        },
        "review": "ai-drafted"
       },
@@ -18311,22 +18281,20 @@
        "slug": "da-b2-u02-l03",
        "title": "Consumer society",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "72 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 76,
-        "generated": 4,
-        "missing": 72,
+        "generated": 76,
+        "missing": 0,
         "pass": 2,
         "review": 0,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 74
        },
        "review": "ai-drafted"
       },
@@ -18334,22 +18302,20 @@
        "slug": "da-b2-u02-review",
        "title": "Unit 2 review",
        "kind": "UNIT_REVIEW",
-       "status": "incomplete",
-       "reasons": [
-        "97 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 28,
        "authoredExercises": 17,
        "vocabulary": 0,
        "warnings": 0,
        "audio": {
         "required": 105,
-        "generated": 8,
-        "missing": 97,
+        "generated": 105,
+        "missing": 0,
         "pass": 2,
         "review": 0,
         "fail": 0,
-        "unchecked": 6
+        "unchecked": 103
        },
        "review": "ai-drafted"
       }
@@ -18358,28 +18324,26 @@
     {
      "order": 3,
      "title": "Videnskab og teknologi",
-     "status": "incomplete",
+     "status": "complete",
      "lessons": [
       {
        "slug": "da-b2-u03-l01",
        "title": "Innovation and ethics",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "74 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 74,
-        "generated": 0,
-        "missing": 74,
+        "generated": 74,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 74
        },
        "review": "ai-drafted"
       },
@@ -18387,22 +18351,20 @@
        "slug": "da-b2-u03-l02",
        "title": "Artificial intelligence",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "71 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 10,
        "warnings": 0,
        "audio": {
         "required": 73,
-        "generated": 2,
-        "missing": 71,
+        "generated": 73,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 73
        },
        "review": "ai-drafted"
       },
@@ -18410,22 +18372,20 @@
        "slug": "da-b2-u03-l03",
        "title": "Health and medicine in the news",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "52 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 54,
-        "generated": 2,
-        "missing": 52,
+        "generated": 54,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 54
        },
        "review": "ai-drafted"
       },
@@ -18433,22 +18393,20 @@
        "slug": "da-b2-u03-review",
        "title": "Unit 3 review",
        "kind": "UNIT_REVIEW",
-       "status": "incomplete",
-       "reasons": [
-        "100 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 29,
        "authoredExercises": 17,
        "vocabulary": 0,
        "warnings": 0,
        "audio": {
         "required": 104,
-        "generated": 4,
-        "missing": 100,
+        "generated": 104,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 4
+        "unchecked": 104
        },
        "review": "ai-drafted"
       }
@@ -18457,28 +18415,26 @@
     {
      "order": 4,
      "title": "Miljø og klima",
-     "status": "incomplete",
+     "status": "complete",
      "lessons": [
       {
        "slug": "da-b2-u04-l01",
        "title": "Climate policy",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "54 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 54,
-        "generated": 0,
-        "missing": 54,
+        "generated": 54,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 54
        },
        "review": "ai-drafted"
       },
@@ -18486,22 +18442,20 @@
        "slug": "da-b2-u04-l02",
        "title": "Sustainable cities",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "74 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 76,
-        "generated": 2,
-        "missing": 74,
+        "generated": 76,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 76
        },
        "review": "ai-drafted"
       },
@@ -18509,22 +18463,20 @@
        "slug": "da-b2-u04-l03",
        "title": "Debating solutions",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "74 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 76,
-        "generated": 2,
-        "missing": 74,
+        "generated": 76,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 76
        },
        "review": "ai-drafted"
       },
@@ -18532,22 +18484,20 @@
        "slug": "da-b2-u04-review",
        "title": "Unit 4 review",
        "kind": "UNIT_REVIEW",
-       "status": "incomplete",
-       "reasons": [
-        "103 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 28,
        "authoredExercises": 17,
        "vocabulary": 0,
        "warnings": 0,
        "audio": {
         "required": 105,
-        "generated": 2,
-        "missing": 103,
+        "generated": 105,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 105
        },
        "review": "ai-drafted"
       }
@@ -18556,28 +18506,26 @@
     {
      "order": 5,
      "title": "Medier og overtalelse",
-     "status": "incomplete",
+     "status": "complete",
      "lessons": [
       {
        "slug": "da-b2-u05-l01",
        "title": "Misinformation and media literacy",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "67 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 23,
        "authoredExercises": 13,
        "vocabulary": 10,
        "warnings": 0,
        "audio": {
         "required": 71,
-        "generated": 4,
-        "missing": 67,
+        "generated": 71,
+        "missing": 0,
         "pass": 0,
         "review": 2,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 69
        },
        "review": "ai-drafted"
       },
@@ -18585,22 +18533,20 @@
        "slug": "da-b2-u05-l02",
        "title": "Advertising and persuasion",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "71 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 10,
        "warnings": 0,
        "audio": {
         "required": 71,
-        "generated": 0,
-        "missing": 71,
+        "generated": 71,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 71
        },
        "review": "ai-drafted"
       },
@@ -18608,22 +18554,20 @@
        "slug": "da-b2-u05-l03",
        "title": "Writing an opinion piece",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "45 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 23,
        "authoredExercises": 13,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 47,
-        "generated": 2,
-        "missing": 45,
+        "generated": 47,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 47
        },
        "review": "ai-drafted"
       },
@@ -18631,22 +18575,20 @@
        "slug": "da-b2-u05-review",
        "title": "Unit 5 review",
        "kind": "UNIT_REVIEW",
-       "status": "incomplete",
-       "reasons": [
-        "99 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 29,
        "authoredExercises": 17,
        "vocabulary": 0,
        "warnings": 0,
        "audio": {
         "required": 101,
-        "generated": 2,
-        "missing": 99,
+        "generated": 101,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 101
        },
        "review": "ai-drafted"
       }
@@ -18655,28 +18597,26 @@
     {
      "order": 6,
      "title": "Kunst og kultur",
-     "status": "incomplete",
+     "status": "complete",
      "lessons": [
       {
        "slug": "da-b2-u06-l01",
        "title": "Talking about art",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "71 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 10,
        "warnings": 0,
        "audio": {
         "required": 71,
-        "generated": 0,
-        "missing": 71,
+        "generated": 71,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 71
        },
        "review": "ai-drafted"
       },
@@ -18684,22 +18624,20 @@
        "slug": "da-b2-u06-l02",
        "title": "Cultural heritage",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "48 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 10,
        "warnings": 0,
        "audio": {
         "required": 48,
-        "generated": 0,
-        "missing": 48,
+        "generated": 48,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 48
        },
        "review": "ai-drafted"
       },
@@ -18707,22 +18645,20 @@
        "slug": "da-b2-u06-l03",
        "title": "Humour and wordplay",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "70 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 10,
        "warnings": 0,
        "audio": {
         "required": 70,
-        "generated": 0,
-        "missing": 70,
+        "generated": 70,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 70
        },
        "review": "ai-drafted"
       },
@@ -18730,22 +18666,20 @@
        "slug": "da-b2-u06-review",
        "title": "Unit 6 review",
        "kind": "UNIT_REVIEW",
-       "status": "incomplete",
-       "reasons": [
-        "94 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 28,
        "authoredExercises": 18,
        "vocabulary": 0,
        "warnings": 0,
        "audio": {
         "required": 94,
-        "generated": 0,
-        "missing": 94,
+        "generated": 94,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 94
        },
        "review": "ai-drafted"
       }
@@ -18754,28 +18688,26 @@
     {
      "order": 7,
      "title": "Borger i samfundet",
-     "status": "incomplete",
+     "status": "complete",
      "lessons": [
       {
        "slug": "da-b2-u07-l01",
        "title": "Rights and responsibilities",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "72 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 72,
-        "generated": 0,
-        "missing": 72,
+        "generated": 72,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 72
        },
        "review": "ai-drafted"
       },
@@ -18783,22 +18715,20 @@
        "slug": "da-b2-u07-l02",
        "title": "Public services",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "70 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 76,
-        "generated": 6,
-        "missing": 70,
+        "generated": 76,
+        "missing": 0,
         "pass": 0,
         "review": 2,
         "fail": 0,
-        "unchecked": 4
+        "unchecked": 74
        },
        "review": "ai-drafted"
       },
@@ -18806,22 +18736,20 @@
        "slug": "da-b2-u07-l03",
        "title": "Formal complaints",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "50 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 52,
-        "generated": 2,
-        "missing": 50,
+        "generated": 52,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 2
+        "unchecked": 52
        },
        "review": "ai-drafted"
       },
@@ -18829,22 +18757,20 @@
        "slug": "da-b2-u07-review",
        "title": "Unit 7 review",
        "kind": "UNIT_REVIEW",
-       "status": "incomplete",
-       "reasons": [
-        "99 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 29,
        "authoredExercises": 17,
        "vocabulary": 0,
        "warnings": 0,
        "audio": {
         "required": 107,
-        "generated": 8,
-        "missing": 99,
+        "generated": 107,
+        "missing": 0,
         "pass": 0,
         "review": 2,
         "fail": 0,
-        "unchecked": 6
+        "unchecked": 105
        },
        "review": "ai-drafted"
       }
@@ -18853,28 +18779,26 @@
     {
      "order": 8,
      "title": "Med blikket fremad",
-     "status": "incomplete",
+     "status": "complete",
      "lessons": [
       {
        "slug": "da-b2-u08-l01",
        "title": "Predictions and speculation",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "70 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 11,
        "warnings": 0,
        "audio": {
         "required": 70,
-        "generated": 0,
-        "missing": 70,
+        "generated": 70,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 70
        },
        "review": "ai-drafted"
       },
@@ -18882,22 +18806,20 @@
        "slug": "da-b2-u08-l02",
        "title": "Regrets and lessons learned",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "69 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 24,
        "authoredExercises": 14,
        "vocabulary": 10,
        "warnings": 0,
        "audio": {
         "required": 73,
-        "generated": 4,
-        "missing": 69,
+        "generated": 73,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 4
+        "unchecked": 73
        },
        "review": "ai-drafted"
       },
@@ -18905,22 +18827,20 @@
        "slug": "da-b2-u08-l03",
        "title": "Presenting an argument",
        "kind": "LESSON",
-       "status": "incomplete",
-       "reasons": [
-        "47 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 23,
        "authoredExercises": 13,
        "vocabulary": 10,
        "warnings": 0,
        "audio": {
         "required": 47,
-        "generated": 0,
-        "missing": 47,
+        "generated": 47,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 0
+        "unchecked": 47
        },
        "review": "ai-drafted"
       },
@@ -18928,22 +18848,20 @@
        "slug": "da-b2-u08-review",
        "title": "Unit 8 review",
        "kind": "UNIT_REVIEW",
-       "status": "incomplete",
-       "reasons": [
-        "97 audio clips missing"
-       ],
+       "status": "complete",
+       "reasons": [],
        "exercises": 29,
        "authoredExercises": 17,
        "vocabulary": 0,
        "warnings": 0,
        "audio": {
         "required": 101,
-        "generated": 4,
-        "missing": 97,
+        "generated": 101,
+        "missing": 0,
         "pass": 0,
         "review": 0,
         "fail": 0,
-        "unchecked": 4
+        "unchecked": 101
        },
        "review": "ai-drafted"
       }
@@ -18954,22 +18872,20 @@
     "slug": "da-b2-assessment",
     "title": "Danish B2 assessment",
     "kind": "LEVEL_ASSESSMENT",
-    "status": "incomplete",
-    "reasons": [
-     "9 audio clips missing"
-    ],
+    "status": "complete",
+    "reasons": [],
     "exercises": 38,
     "authoredExercises": 38,
     "vocabulary": 0,
     "warnings": 0,
     "audio": {
      "required": 9,
-     "generated": 0,
-     "missing": 9,
+     "generated": 9,
+     "missing": 0,
      "pass": 0,
      "review": 0,
      "fail": 0,
-     "unchecked": 0
+     "unchecked": 9
     },
     "review": "ai-drafted"
    },
@@ -18986,16 +18902,16 @@
       "kind": "READING",
       "title": "Tre generationer under samme tag",
       "words": 403,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -19003,16 +18919,16 @@
       "kind": "READING",
       "title": "Køb nu – betal senere",
       "words": 403,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -19020,16 +18936,16 @@
       "kind": "READING",
       "title": "Når computeren læser røntgenbilledet",
       "words": 383,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -19037,16 +18953,16 @@
       "kind": "READING",
       "title": "Når havet kommer tættere på",
       "words": 379,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -19054,16 +18970,16 @@
       "kind": "READING",
       "title": "Fem spørgsmål, der afslører en falsk nyhed",
       "words": 410,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -19071,16 +18987,16 @@
       "kind": "READING",
       "title": "Lyset i Skagen",
       "words": 375,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 1,
-       "generated": 0,
-       "missing": 1,
+       "generated": 1,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 1
       }
      },
      {
@@ -19088,16 +19004,16 @@
       "kind": "LISTENING",
       "title": "Tilbuddet på det nye køkken",
       "words": 423,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 28,
-       "generated": 0,
-       "missing": 28,
+       "generated": 28,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 28
       }
      },
      {
@@ -19105,16 +19021,16 @@
       "kind": "LISTENING",
       "title": "Kan vi spise os til et bedre klima?",
       "words": 367,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 23,
-       "generated": 0,
-       "missing": 23,
+       "generated": 23,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 23
       }
      },
      {
@@ -19122,16 +19038,16 @@
       "kind": "LISTENING",
       "title": "Domsmand for første gang",
       "words": 388,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 28,
-       "generated": 0,
-       "missing": 28,
+       "generated": 28,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 28
       }
      },
      {
@@ -19139,16 +19055,16 @@
       "kind": "LISTENING",
       "title": "Danmark om tyve år",
       "words": 350,
-      "status": "incomplete",
+      "status": "complete",
       "errors": 0,
       "audio": {
        "required": 22,
-       "generated": 0,
-       "missing": 22,
+       "generated": 22,
+       "missing": 0,
        "pass": 0,
        "review": 0,
        "fail": 0,
-       "unchecked": 0
+       "unchecked": 22
       }
      }
     ]
