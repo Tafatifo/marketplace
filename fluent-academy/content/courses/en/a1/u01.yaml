@@ -1,0 +1,354 @@
+unit: 1
+title: "Hello!"
+theme: Greetings and introductions
+description: Say hello and goodbye, introduce yourself with the verb be, give your age and phone number, and spell your name.
+free: true
+objectives:
+  - Greet people and say goodbye in friendly and polite situations
+  - Introduce yourself with the verb be — name, country, nationality and city
+  - Use numbers 0–20 and the alphabet to give your age, phone number and the spelling of your name
+canDo:
+  - I can say hello and goodbye at different times of the day.
+  - I can introduce myself and ask "Where are you from?"
+  - I can say how old I am and give my phone number.
+  - I can spell my name.
+review: |
+  mc: Your friend's grandmother says "Good afternoon." You answer: || Hey, what's up? | *Good afternoon. How are you? | Good night! || Answer an older person politely with the same greeting. Good night is only for goodbye. || @tags en.register
+  fill: We ___ from Nigeria. || are || We + be = we are (short form: we're). || @tags en.be
+  fill: ___ she from Australia? — No, she isn't. || Is || Questions with be start with the verb: Is she…? || @tags en.be,en.questions
+  rw: Make it negative :: I'm Mexican. || I'm not Mexican. | I am not Mexican. || Add not after be: I'm not. || @tags en.be
+  rw: Write the short form :: They are very tired. || They're very tired. || They are → they're. || @tags en.be,en.pronouns
+  mc: Which question goes with the answer "I'm from Kenya"? || How old are you? | *Where are you from? | What's your name? || "I'm from…" answers the question "Where are you from?". || @tags en.questions
+  fill: Eleven + nine = ___ || twenty || 11 + 9 = 20 (twenty). || @tags en.numbers @skill vocabulary
+  listen: Hello, my name's Oliver. I'm sixteen and I'm from Dublin. || How old is Oliver? || 6 | *16 | 60 || "I'm sixteen" — 16. || @tags en.numbers
+  listen: Bye, Mrs. Clark! Have a nice evening! || What is happening? || Someone arrives in the morning | *Someone leaves in the evening | Someone goes to bed || "Bye" and "Have a nice evening" are said when you leave in the evening. || @tags en.register
+  ask: Introduce yourself to a new classmate — say hello and give your name, age and country. || kw: hi/hello & name/I'm/I am & from || Hi! My name's Ahmed. I'm eighteen and I'm from Morocco. Nice to meet you!
+  write: Write an email to your new English teacher. Give your name, age, country, city and languages. || min=30 || req: hello/hi/dear | my name/I'm/I am | from | I speak || Dear Ms. Wilson, my name's Elena. I'm nineteen and I'm from Romania. I live in Chicago now. I speak Romanian, Italian and a little English. See you on Monday!
+lessons:
+  - title: Greetings and goodbyes
+    summary: Say hello, ask how someone is and say goodbye — in friendly (informal) and polite (formal) English.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [en.register, en.be]
+    objectives:
+      - Say hello with hi, hello and good morning, good afternoon or good evening
+      - Ask "How are you?" and answer with I'm…
+      - Say goodbye in the right way at different times of the day
+    intro: |
+      People say **hi** and **hello** many times a day — to friends, to people at work and even to people in shops. In this lesson you will learn how to say hello and goodbye, how to ask **How are you?** and answer, and which words are friendly (informal) and which are polite (formal).
+    vocab: |
+      hello | a word you say when you meet someone | interj | Hello, Mrs. Lee! | - | n: You can use it with anyone, at any time.
+      hi | hello (friendly, informal) | interj | Hi, Sam! How are you? | - | n: Use it with friends, family and people at work.
+      good morning | hello, said before 12 p.m. | expr | Good morning, everyone! | - | n: 12 p.m. is the middle of the day (noon).
+      good afternoon | hello, said from 12 p.m. to about 6 p.m. | expr | Good afternoon. Can I help you? | - | n: Polite. Friends usually just say hi.
+      good evening | hello, said after about 6 p.m. | expr | Good evening, sir. A table for two? | - | n: It is a hello. Don't use it to say goodbye.
+      good night | goodbye, said late in the evening or before bed | expr | Good night, Mom! See you in the morning. | - | n: Only for goodbye, never for hello. British English: Mum.
+      goodbye | a word you say when you leave | interj | Goodbye, and thank you! | - | c: say goodbye | n: The short, friendly form is bye.
+      bye | goodbye (friendly, informal) | interj | Bye, Jen! See you later. | - | c: bye for now
+      see you later | goodbye — I will see you again soon | expr | OK, Leo. See you later! | - | c: see you soon; see you tomorrow
+      How are you? | a question about how someone feels | expr | Hi, Anna. How are you? | - | n: Friendly forms: How's it going? How are things?
+      fine | good, OK | adj | I'm fine, thanks. | - | c: I'm fine; fine, thank you
+      thank you | words you say when someone is kind or helps you | expr | Thank you very much! | - | c: thank you very much | n: Friendly short form: thanks. The answer is: You're welcome.
+      tired | needing rest or sleep | adj | I'm very tired today. | - | c: very tired; a bit tired | t: es=cansado; fr=fatigué; de=müde; da=træt
+      Mr. | a title before a man's family name | n | Good morning, Mr. Brown. | - | n: Mrs. = a married woman; Ms. = any woman. British English writes Mr, Mrs and Ms with no dot.
+    grammar:
+      title: "I'm, you're, she's: the verb be"
+      body: |
+        We use the verb **be** to say how people feel, who they are and where they are from.
+
+        - **I am** → **I'm**: *I'm fine.*
+        - **you are** → **you're**: *You're late!*
+        - **he is / she is / it is** → **he's / she's / it's**: *She's tired.*
+        - **we are / they are** → **we're / they're**: *We're OK.*
+
+        When we speak, we almost always use the short forms (*I'm, you're, she's*). In questions, **be** comes before the person: *How **are** you? How **is** your mom?*
+
+        English has only one word for *you* — for one person or many people, friends or strangers. To be polite, use **good morning**, **please**, **thank you** and titles like **Mr.** and **Ms.**
+      table: |
+        Long form | Short form | Example
+        I am | I'm | I'm fine, thanks.
+        you are | you're | You're right.
+        he is / she is / it is | he's / she's / it's | She's very well.
+        we are | we're | We're tired.
+        they are | they're | They're OK.
+      examples: |
+        How are you? — I'm fine, thanks. | | question: be before the person
+        I'm very well, thank you. And you? | | polite answer
+        She's tired today. | | she is → she's
+        We're OK, thanks. | | we are → we're
+      tip: You can answer "How are you?" with "Fine, thanks. And you?" — it works with friends and with your boss.
+    dialogue:
+      title: A day at the office
+      setting: Monday morning in Chicago. Ana arrives at work. She meets her manager, Mr. Davis, and then her colleague Ben. In the evening, she goes home.
+      speakers: A=Ana/f; D=Mr. Davis/m; B=Ben/m
+      lines: |
+        A: Good morning, Mr. Davis!
+        D: Good morning, Ana. How are you?
+        A: I'm very well, thank you. And you?
+        D: I'm fine, thanks.
+        B: Hi, Ana! How's it going?
+        A: Hi, Ben! Good, thanks. And you?
+        B: Not bad, but I'm tired today.
+        A: Oh no! Coffee time, then!
+        D: Goodbye, Ana. Have a nice evening!
+        A: Thank you, you too. See you tomorrow!
+    pronunciation:
+      title: "Short forms: I'm, you're, they're"
+      body: |
+        When we speak, we join the person and the verb **be** into one short word. *I am* becomes **I'm** — one syllable, like *time* without the *t*.
+
+        **You're** sounds the same as *your*, and **they're** sounds the same as *there*. **She's** and **he's** end in a [z] sound. Listen and repeat each item, first slowly, then at normal speed.
+      items: |
+        I'm fine
+        you're right
+        she's tired
+        we're OK
+        they're late
+        good morning
+    culture:
+      title: "\"How are you?\" is often just hello"
+      body: |
+        In the United States, Canada and the UK, *How are you?* or *How's it going?* is often just a friendly hello — in a shop, at work or on the phone. People usually answer with something short and positive: *Good, thanks. And you?* They don't expect a long answer.
+
+        When you meet someone for the first time, a handshake is common in work situations. At work, many people use first names, even with their manager. Use **Mr.** or **Ms.** + family name in formal situations or when you aren't sure.
+    mistakes: |
+      Good night! (arriving at a party at 8 p.m.) => Good evening! | Good night is only for goodbye. To say hello in the evening, use good evening or hi.
+      I fine, thanks. => I'm fine, thanks. | Don't forget the verb be: I'm (I am) fine.
+      How you are? => How are you? | In questions, be comes before the person: How are you?
+    task:
+      title: Three greetings
+      mode: speaking
+      body: |
+        It's your first day at a new job in Chicago. Greet your manager in the morning (polite), say hi to a colleague your age (friendly), and say goodbye to both of them at 6 p.m. Record yourself in Speaking practice, or try the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      mc: You arrive at a hotel at 9 a.m. What do you say to the receptionist? || Good night! | *Good morning. | Good evening. || Before 12 p.m. we say good morning. Good night is only for goodbye. || @tags en.register
+      mc: It's 11 p.m. You leave a friend's house. You say: || Good evening! | *Good night! | Good morning! || Good night is a goodbye late in the evening. Good evening is a hello. || @tags en.register
+      fill: Hi, Tom! How ___ you? || are || You + be = you are: How are you? || @tags en.be
+      fill: ___ fine, thank you. (I) || I'm / I am || I + be = I am. The short form is I'm. || @tags en.be,en.pronouns
+      fill: Ben is tired. ___ very tired today. (Ben) || He's / He is || Ben is a man, so we use he: he is → he's. || @tags en.be,en.pronouns
+      rw: Write the short form :: I am very tired. || I'm very tired. || I am → I'm. || @tags en.be
+      match: How are you? = Fine, thanks. And you? ; Thank you! = You're welcome. ; Goodbye! = Bye! See you tomorrow. ; Good morning, Ms. Park. = Good morning, Mr. Ali. || Each greeting or question on the left has a natural answer on the right. || @tags en.register
+      order: Good morning, how are you today? || @tags en.be,en.questions
+      short: How does Ben feel today? || kw: tired || Ben says, "Not bad, but I'm tired today." || @ctx dialogue
+      tf: Ana says "Hi" to Mr. Davis. || false || She says "Good morning, Mr. Davis!" — he is her manager, so she is polite. || @ctx dialogue
+      listen: @dialogue || Who says "hi" to each other? || Ana and Mr. Davis | *Ana and Ben | Ben and Mr. Davis || Ana and Ben are colleagues and friends. They say "Hi" and "How's it going?".
+      listen: Good night, Dad! See you in the morning. || When do you hear this? || *Before bed | At breakfast | At 3 p.m. at work || Good night and "See you in the morning" are said before you go to bed.
+      dict: Good afternoon. How are you today?
+      ask: Greet your teacher politely in the morning and ask how they are. || kw: good morning/hello & how are you || Good morning, Ms. Garcia. How are you?
+      write: Write a short message (2–3 sentences) to a friend. Say hi, ask how they are, and say see you tomorrow. || min=8 || req: hi/hello | how are you/how's it going | see you || Hi Maya! How are you? I'm fine, but a bit tired. See you tomorrow!
+
+  - title: Introducing yourself
+    summary: Say your name, country, nationality and city, and ask other people the same questions with be.
+    minutes: 40
+    skills: [grammar, speaking, reading]
+    tags: [en.be, en.questions, en.pronouns]
+    objectives:
+      - Say your name, where you are from and where you live
+      - Make questions and negative sentences with be
+      - Talk about countries, nationalities and languages
+    intro: |
+      When you meet new people, you need a few simple sentences: **My name's…**, **I'm from…**, **I live in…** In this lesson you will use the verb **be** to ask and answer questions about names, countries and nationalities — the first real conversation in English.
+    vocab: |
+      name | the word that people call you | n | My name's Daniel. | - | c: first name; last name; What's your name? | n: Last name = family name (British English also: surname).
+      from | shows the place where someone was born or grew up | prep | I'm from Mexico. | - | c: Where are you from?
+      live | to have your home in a place | v | I live in Seattle. | - | c: live in + city or country | n: Question: Where do you live?
+      country | a land with its own government, for example Japan or Peru | n | Canada is a very big country. | - | pl: countries
+      city | a big and important town | n | Lagos is a big city. | - | pl: cities
+      nationality | the country you belong to — for example Spanish or Korean | n | What's your nationality? | - | t: es=nacionalidad; fr=nationalité; de=Staatsangehörigkeit; da=nationalitet
+      American | from the United States | adj | My friend Jake is American. | - | n: Nationalities and languages always start with a capital letter.
+      Spanish | from Spain; also the language of Spain | adj | Pilar is Spanish. She's from Madrid. | -
+      Chinese | from China; also a language | adj | Mei is Chinese. She's from Beijing. | -
+      Brazilian | from Brazil | adj | Are you Brazilian? | - | n: People in Brazil speak Portuguese.
+      speak | to use a language | v | I speak English and a little Arabic. | - | c: speak English; speak a little
+      a little | not much; a small amount | expr | I speak a little German. | -
+      Nice to meet you. | a polite thing to say when you meet someone for the first time | expr | I'm Lena. — Nice to meet you, Lena. | - | n: The answer is: Nice to meet you too.
+      student | a person who studies at a school or university | n | I'm a student in Boston. | - | c: a language student; a university student
+    grammar:
+      title: "be: questions and negatives"
+      body: |
+        To make a **question** with be, put the verb before the person: *You **are** from Spain.* → ***Are** you from Spain?*
+
+        Short answers use be too: *Yes, I **am**. / No, I**'m not**.* Don't use a short form after yes: say *Yes, I am* (not ~~Yes, I'm~~).
+
+        To make a **negative**, add **not** after be: *I'm **not** American. She **isn't** from Rome. They **aren't** students.* (*is not* → *isn't*, *are not* → *aren't*.)
+
+        With question words, the order is **question word + be + person**: *Where **are** you from? What **is** your name?* (*What is* → *What's*.)
+      table: |
+        Positive | Negative | Question | Short answers
+        I'm from Peru. | I'm not from Peru. | Am I right? | Yes, you are. / No, you aren't.
+        You're Korean. | You aren't Korean. | Are you Korean? | Yes, I am. / No, I'm not.
+        She's Italian. | She isn't Italian. | Is she Italian? | Yes, she is. / No, she isn't.
+        They're students. | They aren't students. | Are they students? | Yes, they are. / No, they aren't.
+      examples: |
+        Where are you from? — I'm from Egypt. | | question word + be + person
+        Is Paulo Brazilian? — Yes, he is. | | short answer
+        I'm not Canadian. I'm American. | | negative: I'm not
+        What's your name? — My name's Kim. | | what is → what's
+      tip: Always answer a short question with a short answer — "Are you a student?" "Yes, I am." It sounds friendly and natural.
+    dialogue:
+      title: The first English class
+      setting: An evening English class in Toronto, Canada. The teacher, Grace, meets two new students, Lucía and Kenji.
+      speakers: G=Grace/f; L=Lucía/f; K=Kenji/m
+      lines: |
+        G: Hello, everyone. I'm Grace, your teacher.
+        L: Hi, Grace! My name's Lucía.
+        K: And I'm Kenji. Nice to meet you.
+        L: Nice to meet you too. Are you Chinese?
+        K: No, I'm not. I'm Japanese. And you?
+        L: I'm Spanish. I'm from Valencia.
+        G: And where do you live now, Lucía?
+        L: I live here in Toronto.
+        K: Me too! But my English isn't very good.
+        G: That's OK. We're here to learn!
+    pronunciation:
+      title: "Word stress: Japan, Japanese"
+      body: |
+        In English, one part of a long word is stronger: we call it **stress**. Countries and nationalities often have the stress in different places.
+
+        *JA-pan* has the stress at the start — but *ja-pa-NESE* has it at the end. *CHI-na* → *chi-NESE*. *I-ta-ly* → *i-TA-lian*. Say the strong part a little louder and longer. Listen and repeat.
+      items: |
+        Japan
+        Japanese
+        China
+        Chinese
+        Italy
+        Italian
+    culture:
+      title: First names and last names
+      body: |
+        In English, your **first name** comes first and your **last name** (family name) comes last: *Grace Okafor*. On forms you often see "First name" and "Last name" (British English also: "Surname").
+
+        English is the first language in many countries — the United States, the UK, Canada, Australia, Ireland, New Zealand and more. It is also an official language in countries like India, Nigeria and Singapore. So in an English class, you can meet people from everywhere!
+    mistakes: |
+      I'm from Spanish. => I'm from Spain. | After from, use the country (Spain), not the nationality (Spanish).
+      She's japanese. => She's Japanese. | Nationalities and languages always start with a capital letter.
+      Are you from Canada? — Yes, I'm. => Yes, I am. | Don't use a short form at the end of a short answer.
+    task:
+      title: Your 30-second introduction
+      mode: speaking
+      body: |
+        Prepare a short introduction: your name, your country and nationality, the city where you live, and the languages you speak. Practice it aloud three times (British English: practise), then try it in the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      fill: ___ you from Mexico? — Yes, I am. || Are || Questions with be start with the verb: Are you…? || @tags en.be,en.questions
+      fill: Where ___ Kenji from? || is || Kenji = he, so the verb is is: Where is Kenji from? || @tags en.be,en.questions
+      fill: ___ Canadian. I'm Australian. || I'm not / I am not || Negative: I + am + not. The short form is I'm not. || @tags en.be
+      fill: They ___ students. They're teachers. || aren't / are not || Negative of they are: they aren't (they are not). || @tags en.be
+      mc: "Are you Brazilian?" Choose the correct answer. || Yes, I'm. | *Yes, I am. | Yes, I are. || After yes, use the long form: Yes, I am. || @tags en.be
+      mc: Where is Kenji from? || China | *Japan | Spain || He says, "I'm Japanese." || @ctx dialogue @skill reading @tags en.reading
+      tf: Lucía lives in Valencia now. || false || She is from Valencia, but she lives in Toronto now. || @ctx dialogue
+      rw: Make a question :: She is Korean. || Is she Korean? || Put is before she: Is she…? || @tags en.be,en.questions
+      rw: Make it negative :: We are from Italy. || We aren't from Italy. | We are not from Italy. | We're not from Italy. || Add not after are. || @tags en.be
+      order: My friend Omar is from Egypt. || @tags en.be
+      match: Spain = Spanish ; Japan = Japanese ; Brazil = Brazilian ; the United States = American ; China = Chinese || Match each country to its nationality. || @skill vocabulary @tags en.vocabulary
+      listen: Hi, I'm Amira. I'm from Egypt, but I live in London. || Where does Amira live? || Egypt | *London | Cairo || She is from Egypt, but she lives in London.
+      dict: I'm not American. I'm from Canada.
+      ask: Introduce yourself — say your name, where you are from and where you live. || kw: name/I'm/I am & from & live || Hi! My name's Ana. I'm from Brazil and I live in Miami.
+      write: Write a short profile for a language-exchange website. Give your name, country, city and languages. || min=20 || req: my name/I'm/I am | from | I live | I speak || Hi! My name's Olga. I'm Russian and I'm from Kazan. I live in Berlin now. I speak Russian, German and a little English.
+
+  - title: "Numbers, age and spelling"
+    summary: Count from 0 to 20, say your age with be, give your phone number and spell your name.
+    minutes: 35
+    skills: [vocabulary, listening, grammar]
+    tags: [en.numbers, en.spelling, en.be]
+    objectives:
+      - Count from 0 to 20
+      - Ask and say someone's age with be
+      - Spell your name and give your phone number and email address
+    intro: |
+      Numbers and letters are everywhere: in ages, phone numbers and email addresses. In this lesson you will count from 0 to 20, say how old you are with **be**, and spell your name — very useful on the phone or at a hotel desk.
+    vocab: |
+      zero | the number 0 | num | My phone number starts with zero. | - | n: In phone numbers, people often say "oh" for 0.
+      one, two, three | the numbers 1, 2, 3 | num | One, two, three — go! | -
+      four, five, six | the numbers 4, 5, 6 | num | My son is six. | -
+      seven, eight, nine | the numbers 7, 8, 9 | num | My daughter is eight. | -
+      ten, eleven, twelve | the numbers 10, 11, 12 | num | Room twelve, please. | -
+      thirteen, fourteen, fifteen | the numbers 13, 14, 15 | num | Fourteen and one is fifteen. | -
+      sixteen, seventeen, eighteen | the numbers 16, 17, 18 | num | She's seventeen years old. | -
+      nineteen, twenty | the numbers 19 and 20 | num | I'm twenty. | -
+      old | used with How…? and years to talk about age | adj | How old are you? — I'm nineteen. | - | c: How old…?; years old
+      years old | words after a number when you give an age | expr | My cat is three years old. | - | n: Say "I'm twenty" or "I'm twenty years old" — not "I'm twenty years".
+      spell | to say the letters of a word, one by one | v | Can you spell your name, please? | - | t: es=deletrear; fr=épeler; de=buchstabieren; da=stave
+      phone number | the numbers you use to call someone | n | What's your phone number? | - | c: cell phone number; home phone number | n: British English: mobile number.
+      email address | the address for your emails, for example ana@mail.com | n | What's your email address? | - | n: Say @ as "at" and . as "dot".
+      letter | one of the signs A, B, C… | n | "Anna" has four letters. | - | c: capital letter; double letter
+    grammar:
+      title: "Age, phone numbers and spelling"
+      body: |
+        In English we use **be** to give an age: *I**'m** twenty. She**'s** seven.* You can add **years old**: *I'm twenty years old.* Never say ~~I have twenty years~~ or ~~I'm twenty years~~.
+
+        To ask about age, say ***How old are** you?* or ***How old is** your brother?*
+
+        For a **phone number**, say the numbers one by one: 555-0143 → *five, five, five, oh, one, four, three*. Many people say **oh** for 0.
+
+        To **spell** a word, say the letters: *How do you spell that? — L, double E.* For two letters that are the same, you can say **double** (*double E*) or say the letter twice (*E, E*).
+      table: |
+        Question | Answer
+        How old are you? | I'm nineteen. / I'm nineteen years old.
+        How old is she? | She's twelve.
+        What's your phone number? | It's 555-0198 (five, five, five, oh, one, nine, eight).
+        How do you spell your name? | M-A-R-T-A.
+      examples: |
+        How old is your son? — He's ten. | | be + number
+        I'm eighteen years old. | | years old is possible but not necessary
+        How do you spell "Lee"? — L, double E. | | double = two letters the same
+      tip: "The letters A, E and I are easy to mix up: A sounds like \"day\", E sounds like \"see\" and I sounds like \"my\"."
+    dialogue:
+      title: A new library card
+      setting: Ravi wants a card for the public library in Dublin, Ireland. Nora works at the desk.
+      speakers: N=Nora/f; R=Ravi/m
+      lines: |
+        N: Hello. Can I help you?
+        R: Hi. A library card, please.
+        N: Sure. What's your name?
+        R: Ravi Sharma.
+        N: How do you spell your last name?
+        R: S-H-A-R-M-A.
+        N: Thanks. And how old are you, Ravi?
+        R: I'm nineteen.
+        N: What's your phone number?
+        R: It's five five five, oh one seven two.
+        N: Great. Here's your card. Have a nice day!
+    pronunciation:
+      title: "Stress in -teen numbers"
+      body: |
+        In the numbers 13 to 19, the stress is on **-teen**: *thir-TEEN, four-TEEN, fif-TEEN*. Make the *ee* sound long and clear.
+
+        In *three* and *thirteen*, the **th** sound is made with your tongue between your teeth. Blow air gently. Don't say "tree" or "sirteen". Listen and repeat.
+      items: |
+        thirteen
+        fourteen
+        fifteen
+        sixteen
+        seventeen
+        eighteen
+    culture:
+      title: Phone numbers and age
+      body: |
+        In the United States and Canada, phone numbers have ten numbers, for example 312-555-0186. The first three are the **area code** (312 is Chicago). In the UK, cell phone numbers start with 07.
+
+        Asking an adult "How old are you?" can sound rude in English-speaking countries — people ask children, students or friends, but not usually a new colleague or an older person.
+    mistakes: |
+      I have nineteen years. => I'm nineteen. | In English, age uses be, not have.
+      I'm twenty years. => I'm twenty. / I'm twenty years old. | Say years old or nothing after the number.
+      How old you are? => How old are you? | Put be before the person in a question.
+    task:
+      title: Signing up by phone
+      mode: interaction
+      body: |
+        You call a language school in Dublin to sign up for a class. Say your name and spell your last name, give your age, and say your phone number and email address slowly and clearly — just like Ravi in the dialogue.
+    exercises: |
+      fill: My brother ___ fifteen. || is / 's || My brother = he, and he + be = is (short form 's). || @tags en.be
+      fill: How old ___ you? || are || You + be = are: How old are you? || @tags en.be,en.questions
+      fill: How do you ___ your name? — A-N-A. || spell || To spell = to say the letters. || @skill vocabulary @tags en.spelling
+      mc: How do you say "I'm 18"? || I have eighteen years. | *I'm eighteen. | I'm eighteen years. || Use be + number (+ years old). || @tags en.be,en.numbers
+      mc: Seven + eight = ? || thirteen | *fifteen | seventeen || 7 + 8 = 15 (fifteen). || @tags en.numbers @skill vocabulary
+      mc: Which letter sounds like the word "see"? || A | *E | I || E sounds like "see", A sounds like "day" and I sounds like "my". || @tags en.spelling @skill pronunciation
+      rw: Write the number in words :: 14 || fourteen || 14 = fourteen. || @tags en.numbers,en.spelling
+      listen: seventeen || Which number do you hear? || 7 | *17 | 70 || Seventeen = 17. The stress is on -teen. || @tags en.numbers
+      listen: My number is five, five, five, oh, one, four, nine. || What is the phone number? || *555-0149 | 555-1049 | 555-0194 || "Oh" means zero: 555-0149. || @tags en.numbers
+      listen: My last name is Clark. That's C-L-A-R-K. || How do you spell the last name? || *Clark | Clarke | Klark || The letters are C-L-A-R-K. || @tags en.spelling
+      short: How old is Ravi? || kw: 19/nineteen || Ravi says, "I'm nineteen." || @ctx dialogue
+      tf: Ravi spells his first name for Nora. || false || He spells his last name: S-H-A-R-M-A. || @ctx dialogue
+      dict: Her son is twelve years old.
+      ask: Say how old you are and spell your first name. || kw: I'm/I am & name || I'm nineteen. My first name is Ana: A-N-A.
+      write: Write 3–4 sentences about you for a new class list. Give your name (spell it), your age, your city and your phone number. || min=20 || req: my name/I'm/I am | old/I'm | phone number || My name's Tom Novak — N-O-V-A-K. I'm eighteen years old and I live in Dublin. My phone number is 555-0163.

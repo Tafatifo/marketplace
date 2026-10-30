@@ -1,0 +1,361 @@
+unit: 4
+title: "Let's eat!"
+theme: Food and drink
+description: Order drinks and snacks politely with would like, buy food at a market with countable and uncountable nouns, and order a meal in a restaurant with some and any.
+objectives:
+  - Order food and drinks politely with I'd like…, Can I have…? and Would you like…?
+  - Use countable and uncountable nouns with a, an, some and measures like a kilo of
+  - Use some and any in positive and negative sentences, questions and offers
+canDo:
+  - I can order a drink and a snack in a café.
+  - I can buy fruit, vegetables and other food at a market.
+  - I can order a meal in a restaurant and ask for the check.
+  - I can ask "Have you got any…?" and understand the answer.
+review: |
+  fill: I'd like ___ glass of water, please. || a || Glass is a singular countable noun that starts with a consonant sound: a glass. || @tags en.articles
+  mc: Your friend asks, "Would you like some tea?" You don't want any. You say: || No, I wouldn't like. | *No, thank you. | No, I don't like. || "No, thank you" is the polite answer to an offer. || @tags en.requests
+  fill: Can I have two ___ (banana), please? || bananas || Banana is countable, so the plural adds -s: bananas. || @tags en.countable,en.plural
+  mc: Which word is countable? || bread | milk | *egg || We can count eggs: one egg, two eggs. Bread and milk are uncountable. || @tags en.countable
+  fill: Sorry, we haven't got ___ cheese. || any || Use any in negative sentences. || @tags en.quantifiers
+  rw: Make it polite :: I want a coffee. || I'd like a coffee, please. | I would like a coffee, please. | Can I have a coffee, please? | Could I have a coffee, please? || Use I'd like… or Can I have… + please to order politely. || @tags en.requests
+  fill: ___ you got any vegetarian soup? || Have || Have you got any…? is a question with have got. || @tags en.have-got,en.quantifiers
+  listen: A small coffee and a cheese sandwich to go, please. || What does the customer want? || To eat and drink in the café | *To take the food and drink away | A large coffee and a sandwich || "To go" means the customer takes it away. The coffee is small. || @tags en.requests
+  listen: We've got some apples, but we haven't got any bananas today. || What can you buy today? || bananas | *apples | apples and bananas || "We've got some apples, but we haven't got any bananas." || @tags en.quantifiers
+  ask: Order at a café — a drink and something to eat — and say if it's for here or to go. || kw: I'd like/can I have/I would like/could I have & please & here/to go || Hi! I'd like a small tea and a blueberry muffin, please. To go, thanks.
+  write: Your friend is going to the market for you. Write a note with five things to buy. Use some, a or an, and measures like a kilo of or a bottle of. || min=20 || req: some | a/an | of || Hi Dan! Can you buy some things at the market, please? I need a kilo of tomatoes, an onion, some cheese, six eggs and a bottle of milk. Thanks!
+lessons:
+  - title: Ordering at a café
+    summary: Order drinks and snacks politely with I'd like… and Can I have…?, and answer offers with Yes, please or No, thank you.
+    minutes: 35
+    skills: [speaking, vocabulary, listening]
+    tags: [en.requests]
+    objectives:
+      - Name common café drinks and snacks
+      - Order politely with I'd like… and Can I have…?
+      - Understand and answer offers with Would you like…?
+    intro: |
+      Ordering a coffee is often the first thing people do in English on a trip. In this lesson you will learn the words for café drinks and snacks and the polite phrases **I'd like…**, **Can I have…?** and **Would you like…?** — so you sound friendly, not rude.
+    vocab: |
+      coffee | a hot brown drink made from beans | n | A coffee with milk, please. | - | n: In a café, "a coffee" means a cup of coffee.
+      tea | a hot drink made with leaves and hot water | n | I'd like a tea, please. | -
+      hot chocolate | a hot, sweet drink made with chocolate and milk | n | Can I have a hot chocolate? | -
+      orange juice | a cold drink made from oranges | n | An orange juice, please. | -
+      water | the clear drink that comes from rain, rivers and the tap | n | Can I have a glass of water? | - | c: a glass of water; sparkling water
+      milk | a white drink that comes from cows | n | Would you like milk? | - | c: with milk; without milk
+      sugar | something sweet that people put in tea or coffee | n | No sugar, thanks. | -
+      sandwich | two pieces of bread with food between them | n | I'd like a cheese sandwich. | - | c: a chicken sandwich; a cheese sandwich
+      muffin | a small, sweet cake | n | A blueberry muffin, please. | -
+      cup | a small container with a handle, for hot drinks | n | Would you like a cup of tea? | - | c: a cup of coffee
+      large | big | adj | A large coffee, please. | - | c: small, medium or large
+      to go | to take away and eat or drink outside the café | expr | For here or to go? | - | n: British English: to take away, or takeaway.
+      anything else | one more thing; something more | expr | Anything else? — No, that's all, thanks. | -
+      Here you are. | words you say when you give something to someone | expr | Your tea. Here you are. | - | n: Also: Here you go.
+    grammar:
+      title: "I'd like… / Would you like…?"
+      body: |
+        In a café or a shop, we use **would like** to ask for things. It means *want*, but it is more polite.
+
+        - **I'd like** (= I would like) + a thing: *I'd like a coffee, please.*
+        - **Would you like** + a thing? — this is an **offer**: *Would you like a muffin? — Yes, please. / No, thank you.*
+        - **Can I have** + a thing? is also very common and polite: *Can I have a tea, please?*
+
+        Don't confuse it with **like** (present simple). *I like coffee* = I enjoy coffee in general. *I'd like a coffee* = I want one now.
+
+        *I want a coffee* or *Give me a coffee* can sound rude to a server. Use *I'd like* or *Can I have* and add **please**.
+      table: |
+        Use | Example | Answer
+        Ordering | I'd like a tea, please. | Sure. Anything else?
+        Ordering | Can I have a muffin, please? | Of course. Here you are.
+        Offering | Would you like milk? | Yes, please. / No, thank you.
+        Asking | What would you like? | A hot chocolate, please.
+      examples: |
+        I'd like a large coffee, please. | | I'd like = I would like
+        Would you like sugar? — No, thank you. | | an offer and a polite answer
+        Can I have a glass of water, please? | | a polite request
+        What would you like? — An orange juice, please. | | the server's question
+      tip: "Yes, please and No, thank you are the polite answers to Would you like…? — not just yes or no."
+    dialogue:
+      title: Coffee for two
+      setting: Saturday morning at a busy café in Seattle. Aisha and her friend Liam order at the counter. Jordan works there.
+      speakers: J=Jordan/m; A=Aisha/f; L=Liam/m
+      lines: |
+        J: Hi! What would you like?
+        A: Hi. Can I have a large coffee, please?
+        J: Sure. With milk?
+        A: Yes, please. But no sugar.
+        J: Would you like anything to eat?
+        A: Yes. A blueberry muffin, please.
+        L: And I'd like a hot chocolate.
+        J: Small, medium or large?
+        L: Small, please.
+        J: For here or to go?
+        A: For here, thanks.
+        J: OK. That's twelve dollars, please.
+    pronunciation:
+      title: "Would you → \"wouldja\""
+      body: |
+        In fast, friendly speech, **would you** often sounds like "wouldja": *Wouldja like milk?* The **d** and the **y** join together into one sound.
+
+        In **I'd like**, the **d** is very short — you almost don't hear it. But it's important: *I'd like* (I want now) and *I like* (I enjoy) are different. Listen and repeat.
+      items: |
+        I'd like a coffee
+        Would you like milk?
+        Can I have a tea?
+        Yes, please.
+        No, thank you.
+        For here or to go?
+    culture:
+      title: Ordering at the counter
+      body: |
+        In many cafés in the US, the UK and Australia, you order and pay at the counter, not at the table. The barista sometimes asks your name and writes it on your cup. Then you wait until they call your name.
+
+        Americans say **to go**; British people say **takeaway** or **to take away**. In the US there is often a tip jar on the counter — tipping in a café is a nice extra, but you don't have to.
+    mistakes: |
+      I like a coffee, please. => I'd like a coffee, please. | I like = I enjoy in general. To order, say I'd like (I would like).
+      Give me a sandwich. => Can I have a sandwich, please? | Give me… sounds rude. Use Can I have… or I'd like… + please.
+      Would you like milk? — Yes. => Yes, please. | Add please (or thank you) to sound polite.
+    task:
+      title: Your café order
+      mode: interaction
+      body: |
+        You're at a café with a friend. Order a drink and a snack for you and a different drink for your friend. Answer the server's questions: size, milk or sugar, and "For here or to go?". Try the "Ordering at a café or restaurant" scenario with the AI coach.
+    exercises: |
+      fill: I ___ like a cup of tea, please. || would / 'd || I would like (I'd like) is the polite way to order. || @tags en.requests
+      fill: ___ you like milk? — Yes, please. || Would || Would you like…? is an offer. || @tags en.requests
+      mc: The server asks, "Would you like a muffin?" You want one. You say: || Yes, I would like. | *Yes, please. | Yes, I like. || The polite answer to an offer is "Yes, please." || @tags en.requests
+      mc: Which sentence is an order in a café? || I like coffee. | *I'd like a coffee, please. | I'm a coffee. || "I'd like… please" asks for something now. "I like coffee" is about what you enjoy in general. || @tags en.requests
+      rw: Make it polite :: Give me a sandwich. || Can I have a sandwich, please? | I'd like a sandwich, please. | I would like a sandwich, please. | Could I have a sandwich, please? || Use Can I have… or I'd like… and add please. || @tags en.requests
+      order: Can I have a glass of water, please? || @tags en.requests
+      match: Would you like milk? = Yes, please. ; For here or to go? = To go, please. ; Anything else? = No, that's all. ; Small, medium or large? = Large, please. || Each server question has one natural answer. || @tags en.requests
+      tf: Aisha wants sugar in her coffee. || false || Aisha says, "Yes, please. But no sugar." || @ctx dialogue
+      short: What does Liam order? || kw: hot chocolate/chocolate || Liam says, "And I'd like a hot chocolate." || @ctx dialogue
+      listen: Can I have a small tea with milk and an orange juice, please? || What does the customer order? || a large tea and an orange juice | *a small tea and an orange juice | a small coffee and an orange juice || "A small tea with milk and an orange juice." || @tags en.requests
+      listen: @dialogue || How much is the order? || $2 | *$12 | $20 || Jordan says, "That's twelve dollars, please." || @tags en.numbers
+      dict: I'd like a hot chocolate, please.
+      ask: Order a drink and something to eat in a café. Be polite. || kw: I'd like/I would like/can I have/could I have & please || Hi! Can I have a large tea with milk, please? And I'd like a cheese sandwich.
+      write: You are in a café with two friends. Write what you all order (3–4 sentences). || min=20 || req: I'd like/would like/can I have/can we have | please || Hi! I'd like a small coffee with milk, please. My friend would like a hot chocolate. And can we have two muffins, please? For here, thanks.
+
+  - title: At the market
+    summary: Buy fruit, vegetables and other food with countable and uncountable nouns, a/an, some and measures like a kilo of.
+    minutes: 40
+    skills: [grammar, vocabulary, speaking]
+    tags: [en.countable, en.plural]
+    objectives:
+      - Name common fruit, vegetables and other food
+      - Understand countable and uncountable nouns
+      - Ask for food with a/an, some and measures (a kilo of, a bottle of)
+    intro: |
+      At a market you need to say what you want and how much. Can you say *a bread*? (No!) In this lesson you will learn food words and the difference between **countable** nouns (*an apple, two apples*) and **uncountable** nouns (*some bread, some rice*), plus measures like **a kilo of** and **a bottle of**.
+    vocab: |
+      fruit | food like apples, bananas and oranges | n | The fruit here is very good. | - | n: Usually uncountable: some fruit.
+      vegetables | food like carrots, onions and potatoes | n | I buy vegetables at the market. | - | n: Countable: a vegetable, some vegetables.
+      apple | a round fruit — red, green or yellow | n | Six apples, please. | -
+      banana | a long, yellow fruit | n | I've got a banana for lunch. | -
+      tomato | a soft, red fruit that people use in salads | n | A kilo of tomatoes, please. | - | pl: tomatoes
+      potato | a vegetable that grows under the ground | n | We need some potatoes. | - | pl: potatoes | n: Fries (British English: chips) are made from potatoes.
+      onion | a round vegetable with a strong smell and taste | n | Can I have two onions? | - | t: es=cebolla; fr=oignon; de=Zwiebel; da=løg
+      egg | a round thing from a chicken that we eat | n | I'd like a dozen eggs. | - | n: A dozen = twelve.
+      bread | a food made from flour and baked in an oven | n | Have you got any bread? | - | c: a loaf of bread | n: Uncountable: some bread, not a bread.
+      cheese | a yellow or white food made from milk | n | A piece of cheese, please. | - | c: a piece of cheese
+      rice | small white or brown grains that we cook and eat | n | We eat rice every day. | -
+      kilo | 1,000 grams | n | Two kilos of apples, please. | - | n: Also kilogram. In the US, people often use pounds (1 pound is about 450 grams).
+      bottle | a tall container for liquids like water or oil | n | A bottle of water, please. | - | c: a bottle of water; a bottle of olive oil
+      fresh | picked or made a short time ago; not old | adj | The fish is very fresh today. | -
+    grammar:
+      title: Countable and uncountable nouns
+      body: |
+        **Countable** nouns are things we can count: *one apple, two apples, an egg, six eggs*. They have a singular and a plural.
+
+        **Uncountable** nouns are things we can't count one by one: *bread, rice, cheese, milk, water, fruit*. They have no plural and no **a/an**: *some bread* (not ~~a bread~~ or ~~breads~~).
+
+        - singular countable → **a / an**: *a banana, an onion*
+        - plural countable → **some** or a number: *some tomatoes, three onions*
+        - uncountable → **some**: *some rice, some cheese*
+
+        To count uncountable things, use a container or a measure + **of**: *a bottle of water, a kilo of rice, a piece of cheese, a loaf of bread*.
+
+        Spelling: many nouns that end in a consonant + o add **-es**: *tomato → tomatoes, potato → potatoes*.
+      table: |
+        Countable | Uncountable | How to count it
+        an apple, two apples | bread | a loaf of bread
+        an egg, six eggs | cheese | a piece of cheese
+        a tomato, some tomatoes | rice | a kilo of rice
+        an onion, three onions | water | a bottle of water
+      examples: |
+        I'd like an onion and some tomatoes, please. | | countable: an + singular, some + plural
+        Can I have some bread? | | uncountable: some, no a
+        Two kilos of potatoes, please. | | a measure + of
+        A bottle of water and some cheese, please. | | measure + uncountable
+      tip: "Some words are countable in other languages but uncountable in English: bread, rice, fruit, money, information. Say some bread, some information."
+    dialogue:
+      title: At the farmers' market
+      setting: Saturday morning at a farmers' market in Portland, Oregon. Marco buys food from Hana's stall.
+      speakers: H=Hana/f; M=Marco/m
+      lines: |
+        H: Good morning! What would you like?
+        M: Hi! I'd like a kilo of tomatoes, please.
+        H: Sure. Anything else?
+        M: Yes, some onions and some potatoes.
+        H: Here you are. The apples are very fresh today.
+        M: OK, six apples, please. And some bananas.
+        H: Would you like some cheese too?
+        M: Yes, please. A small piece.
+        H: And bread? It's from this morning.
+        M: No, thanks. I've got some bread at home.
+        H: OK. That's fifteen dollars.
+        M: Here you are. Thank you!
+    pronunciation:
+      title: "Weak \"of\": a kilo of, a bottle of"
+      body: |
+        In measures, **of** is weak and very quick. It sounds like "uv" or even just "uh": *a kilo of apples* → "a kilo-uv apples", *a cup of tea* → "a cup-uh tea".
+
+        Don't say *of* strongly. Put the stress on the important words: *a KIlo of APples, a BOTtle of WAter*. Listen and repeat.
+      items: |
+        a kilo of apples
+        a bottle of water
+        a piece of cheese
+        a loaf of bread
+        some tomatoes
+        two potatoes
+    culture:
+      title: Farmers' markets
+      body: |
+        Many towns in the US, Canada, the UK and Australia have a **farmers' market** on Saturday or Sunday. Farmers sell fresh fruit, vegetables, eggs, bread and cheese. People often bring their own bags.
+
+        Be ready for different measures: in the US, prices are often "per pound" (about half a kilo). In the UK, Ireland and Australia, kilos are normal — but some people still talk about pounds.
+    mistakes: |
+      Can I have a bread, please? => Can I have some bread, please? | Bread is uncountable: no a. Say some bread or a loaf of bread.
+      two kilo of tomato => two kilos of tomatoes | Kilo and tomato are countable, so the plurals are kilos and tomatoes.
+      I'd like some apple. => I'd like some apples. | Apple is countable — use the plural after some.
+    task:
+      title: Your market list
+      mode: writing
+      body: |
+        Plan a meal for four people. Write a shopping list of six things from the market, with an amount for each (*a kilo of potatoes, six eggs, some cheese…*). Then practice saying each item as a polite request: *I'd like…, please. Can I have…?*
+    exercises: |
+      mc: Which word is uncountable? || apple | egg | *rice || We can't count rice grain by grain: some rice. || @tags en.countable
+      fill: I'd like ___ onion, please. || an || Onion is countable and starts with a vowel sound: an onion. || @tags en.countable,en.articles
+      fill: Can I have ___ bread, please? || some || Bread is uncountable: some bread (not a bread). || @tags en.countable
+      fill: Two kilos of ___ (potato), please. || potatoes || Potato is countable; consonant + o adds -es: potatoes. || @tags en.plural
+      mc: Choose the correct sentence. || Can I have a rice? | *Can I have some rice? | Can I have rices? || Rice is uncountable: no a and no plural. || @tags en.countable
+      rw: Write the plural :: a tomato || tomatoes | some tomatoes | two tomatoes || Tomato adds -es in the plural. || @tags en.plural
+      match: a bottle of = water ; a loaf of = bread ; a kilo of = potatoes ; a piece of = cheese || Each measure goes with one food. || @tags en.countable
+      order: We need some rice and two onions. || @tags en.countable
+      tf: Marco buys some bread. || false || Marco says, "No, thanks. I've got some bread at home." || @ctx dialogue
+      short: How many apples does Marco buy? || kw: 6/six || Marco says, "OK, six apples, please." || @ctx dialogue
+      listen: Can I have a kilo of onions and a bottle of milk, please? || What does the customer want? || *onions and milk | onions and water | apples and milk || "A kilo of onions and a bottle of milk." || @tags en.countable
+      listen: @dialogue || How much does Marco pay? || $5 | *$15 | $50 || Hana says, "That's fifteen dollars." || @tags en.numbers
+      dict: A kilo of tomatoes and some cheese, please.
+      ask: At a market, ask for three things — one countable, one uncountable and one with a measure (a kilo of, a bottle of). || kw: I'd like/can I have/I would like & some/kilo/bottle/piece || I'd like six eggs and some rice, please. And can I have a kilo of potatoes?
+      write: Write your shopping list as full sentences for the market (5–6 items). || min=20 || req: some | of | a/an || I'd like a kilo of apples and some bananas. I need an onion and some potatoes. Can I have a piece of cheese and a bottle of milk, please?
+
+  - title: At the restaurant
+    summary: Order a meal, ask what the restaurant has with Have you got any…?, and use some and any correctly.
+    minutes: 40
+    skills: [speaking, grammar, listening]
+    tags: [en.quantifiers, en.requests]
+    objectives:
+      - Understand a menu and order a meal
+      - Use some in positive sentences, offers and requests
+      - Use any in negative sentences and questions
+    intro: |
+      In a restaurant you ask for a table, read the menu, order and pay. You also need to ask *Have you got any vegetarian dishes?* and understand *Sorry, we haven't got any fish.* In this lesson you will learn restaurant words and how to use **some** and **any**.
+    vocab: |
+      menu | a list of the food and drinks in a restaurant | n | Can we see the menu, please? | -
+      table for two | a table for two people | expr | A table for two, please. | - | c: a table for four
+      order | to ask for food or drinks in a restaurant | v | Are you ready to order? | -
+      appetizer | a small dish before the main course | n | Would you like an appetizer? | - | n: British English: starter.
+      main course | the biggest dish of a meal | n | For my main course, I'd like the fish. | -
+      dessert | sweet food at the end of a meal | n | Would you like dessert? | - | n: Say "di-ZURT", with the stress at the end.
+      soup | a hot, liquid food made from vegetables, meat or fish | n | The tomato soup is very good. | - | c: tomato soup; chicken soup
+      salad | a cold dish of vegetables like lettuce and tomatoes | n | I'd like a green salad. | -
+      chicken | meat from a chicken, a farm bird | n | The chicken is delicious. | -
+      fish | an animal that lives in water; also its meat | n | We haven't got any fish today. | - | n: The plural is usually fish: two fish.
+      vegetarian | without meat or fish | adj | Have you got any vegetarian dishes? | - | t: es=vegetariano; fr=végétarien; de=vegetarisch; da=vegetarisk
+      spicy | with a hot, strong taste, like chili | adj | Is the curry spicy? | - | t: es=picante; fr=épicé; de=scharf; da=stærk
+      delicious | very, very good to eat | adj | This cake is delicious! | -
+      the check | the paper that shows how much you pay | n | Can we have the check, please? | - | n: British English: the bill.
+    grammar:
+      title: some and any
+      body: |
+        We use **some** and **any** with plural nouns and uncountable nouns.
+
+        - **some** in positive sentences: *We've got **some** soup today.*
+        - **any** in negative sentences: *We haven't got **any** fish. I don't want **any** dessert.*
+        - **any** in most questions: *Have you got **any** vegetarian dishes?*
+        - **some** in offers and requests: *Would you like **some** bread? Can I have **some** water, please?*
+
+        With a singular countable noun, use **a / an**, not some or any: *a salad, an apple*.
+      table: |
+        Sentence | some | any
+        Positive | We've got some fresh fish. | —
+        Negative | — | We haven't got any chicken.
+        Question | — | Have you got any soup?
+        Offer or request | Would you like some water? Can I have some bread? | —
+      examples: |
+        I'd like some soup, please. | | positive
+        We don't have any tables for two. | | negative
+        Have you got any vegetarian dishes? | | question
+        Would you like some dessert? | | offer
+      tip: "Use some in questions when you offer or ask for something: Would you like some tea? Can I have some water? Use any in other questions: Have you got any tea?"
+    dialogue:
+      title: Dinner for two
+      setting: Friday evening at a small restaurant in Boston. Rachel and David are friends. Sam is their server.
+      speakers: S=Sam/m; R=Rachel/f; D=David/m
+      lines: |
+        S: Good evening. A table for two?
+        R: Yes, please.
+        S: Here's the menu. Are you ready to order?
+        R: Yes. Have you got any vegetarian dishes?
+        S: Yes, we've got a vegetable curry. It's spicy.
+        R: Perfect. And some rice, please.
+        D: I'd like the chicken soup and the fish.
+        S: Sorry, we haven't got any fish tonight.
+        D: Oh. The chicken salad, then.
+        S: Would you like some water?
+        R: Yes, please. A bottle of water.
+        D: Mmm, this is delicious! Can we have the check, please?
+    pronunciation:
+      title: "Weak \"some\": some water, some bread"
+      body: |
+        Before a noun, **some** is usually weak. It sounds like "sum" said very quickly, with a short "uh" sound: *some water* → "s'm water".
+
+        Put the stress on the noun, not on *some*: *some WAter, some BREAD*. In *Can we have the check?*, the stress is on **check**. Listen and repeat.
+      items: |
+        some water
+        some bread
+        any fish
+        a table for two
+        Can we have the check?
+        delicious
+    culture:
+      title: Tipping in restaurants
+      body: |
+        In the United States, people usually leave a **tip** of 15–20% for the server in a restaurant. Servers' pay is often low, so the tip is very important. When you're ready to pay, you ask for **the check** — the server doesn't bring it before you ask.
+
+        In the UK and Ireland, people say **the bill**. A tip of about 10–12% is common, but check the bill first: sometimes there is already a "service charge". In Australia and New Zealand, tipping is not expected but is nice for great service.
+    mistakes: |
+      We haven't got some fish. => We haven't got any fish. | Use any in negative sentences.
+      Can I have any water, please? => Can I have some water, please? | In requests and offers, use some.
+      A table for two persons, please. => A table for two, please. | Just say a table for two. The usual plural of person is people.
+    task:
+      title: Order a meal
+      mode: interaction
+      body: |
+        You are in a restaurant with a friend. Ask for a table, ask if they have any vegetarian dishes, order an appetizer, a main course and a drink, and ask for the check at the end. Try the "Ordering at a café or restaurant" scenario with the AI coach.
+    exercises: |
+      fill: We haven't got ___ chicken today. || any || Use any in negative sentences. || @tags en.quantifiers
+      fill: Would you like ___ bread? || some || Use some in offers: Would you like some…? || @tags en.quantifiers
+      fill: Have you got ___ vegetarian dishes? || any || Use any in most questions. || @tags en.quantifiers
+      fill: Can I have ___ rice with my chicken, please? || some || Use some in requests: Can I have some…? || @tags en.quantifiers
+      mc: Choose the correct sentence. || I don't want some dessert. | *I don't want any dessert. | I don't want a dessert any. || Negative sentences use any. || @tags en.quantifiers
+      mc: You want to pay. You say: || Can we have the menu, please? | *Can we have the check, please? | Can we have a table, please? || The check (British English: the bill) shows how much you pay. || @tags en.requests
+      rw: Make it negative :: We've got some tables for two. || We haven't got any tables for two. | We have not got any tables for two. | We don't have any tables for two. | We do not have any tables for two. || Negative: haven't got (or don't have) + any. || @tags en.quantifiers,en.have-got
+      match: Are you ready to order? = Yes, I'd like the fish. ; Would you like some dessert? = No, thank you. ; A table for two? = Yes, please. ; How is the soup? = It's delicious! || Each server question has one natural answer. || @tags en.requests
+      tf: The restaurant has got fish tonight. || false || Sam says, "Sorry, we haven't got any fish tonight." || @ctx dialogue
+      short: What does Rachel order? || kw: curry || Rachel orders the vegetable curry with some rice. || @ctx dialogue
+      listen: Sorry, we haven't got any chicken, but we've got some fresh fish. || What has the restaurant got? || chicken | *fish | chicken and fish || "We haven't got any chicken, but we've got some fresh fish." || @tags en.quantifiers
+      listen: @dialogue || What does David ask for at the end? || the menu | *the check | some water || David says, "Can we have the check, please?" || @tags en.listening
+      dict: Have you got any vegetarian dishes?
+      ask: In a restaurant, ask for a table, order a main course and a drink, and ask for the check. || kw: table & I'd like/can I have/I would like/could I have & check/bill || A table for two, please. I'd like the chicken salad and some water. Can we have the check, please?
+      write: Write a message to a friend about a restaurant in your town. Say what food they have, what they haven't got, and what you usually order. || min=30 || req: some | any | delicious/good/spicy || Hi Sara! My favorite restaurant is Casa Luna. They haven't got any fish, but they've got some delicious chicken dishes and some vegetarian soups. I usually order the spicy chicken with some rice. The desserts are very good too!

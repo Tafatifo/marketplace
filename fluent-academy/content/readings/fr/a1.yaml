@@ -1,0 +1,478 @@
+- slug: je-me-presente
+  kind: reading
+  title: Je me présente
+  topic: Greetings and introductions
+  summary: Read a profile on a language-exchange website and find the key personal details.
+  free: true
+  text: |
+    Bonjour à tous !
+
+    Je m'appelle Mariana Costa. J'ai vingt ans et je suis brésilienne. Je viens de Recife, mais maintenant, j'habite à Lyon, en France. Je suis étudiante en architecture.
+
+    Je parle portugais, anglais et un peu français. Je cherche un partenaire pour parler français le mardi ou le jeudi soir, dans un café près de l'université. En échange, je parle portugais avec vous !
+
+    J'aime la musique, le cinéma et la cuisine. Je suis un peu timide, mais très sympa.
+
+    Écrivez-moi ici, sur le site.
+
+    À bientôt,
+    Mariana
+  translation: |
+    Hello everyone!
+
+    My name is Mariana Costa. I'm twenty and I'm Brazilian. I come from Recife, but now I live in Lyon, in France. I'm an architecture student.
+
+    I speak Portuguese, English and a little French. I'm looking for a partner to speak French with on Tuesday or Thursday evenings, in a café near the university. In exchange, I'll speak Portuguese with you!
+
+    I like music, cinema and cooking. I'm a little shy, but very friendly.
+
+    Write to me here, on the website.
+
+    See you soon,
+    Mariana
+  glossary: |
+    je m'appelle | my name is | from s'appeler
+    brésilienne | Brazilian (woman) | masculine: brésilien
+    je viens de | I come from | venir de + city
+    maintenant | now
+    étudiante en architecture | architecture student (f) | étudiant(e) en + subject
+    je cherche | I'm looking for | from chercher
+    en échange | in exchange
+    timide | shy | same form for a man and a woman
+  questions: |
+    mc: Where does Mariana come from? || Lyon | *Recife | Lisbon || She says "Je viens de Recife". She lives in Lyon now.
+    tf: Mariana speaks French very well. || false || She speaks "un peu français" — a little French.
+    short: How old is Mariana? || kw: 20/vingt/twenty || "J'ai vingt ans" — she's twenty.
+    fill: Mariana est ___ en architecture. || étudiante || She is an architecture student: étudiante (feminine).
+    mc: When does Mariana want to practise French? || on Saturday mornings | *on Tuesday or Thursday evenings | every day || "Le mardi ou le jeudi soir."
+
+- slug: la-famille-de-theo
+  kind: reading
+  title: La famille de Théo
+  topic: Family and people
+  summary: Read an email in which Théo describes his family to his new pen friend.
+  free: false
+  text: |
+    Salut Kenji,
+
+    Merci pour ton message ! Voici ma famille.
+
+    J'habite à Nantes avec ma mère, mon beau-père et ma sœur. Ma mère s'appelle Claire. Elle a quarante-deux ans et elle est infirmière à l'hôpital. Elle est petite, brune et très drôle. Mon beau-père, Ahmed, est professeur de musique. Il est grand et un peu sérieux, mais il est très gentil.
+
+    Ma sœur s'appelle Lou. Elle a seize ans et elle est blonde, comme mon père. Mon père habite à Rennes avec sa femme, Julie. Ils ont un fils, Malo : c'est mon demi-frère. Il a trois ans et il est adorable !
+
+    Mes grands-parents habitent à la campagne, près de Nantes. Le dimanche, nous déjeunons souvent chez eux.
+
+    Et toi, tu as des frères et sœurs ?
+
+    À bientôt,
+    Théo
+  translation: |
+    Hi Kenji,
+
+    Thanks for your message! Here's my family.
+
+    I live in Nantes with my mother, my stepfather and my sister. My mother's name is Claire. She's forty-two and she's a nurse at the hospital. She's short, dark-haired and very funny. My stepfather, Ahmed, is a music teacher. He's tall and a bit serious, but he's very kind.
+
+    My sister's name is Lou. She's sixteen and she's blond, like my father. My father lives in Rennes with his wife, Julie. They have a son, Malo: he's my half-brother. He's three and he's adorable!
+
+    My grandparents live in the countryside, near Nantes. On Sundays, we often have lunch at their place.
+
+    And you, do you have brothers and sisters?
+
+    See you soon,
+    Théo
+  glossary: |
+    le beau-père | stepfather | also means father-in-law
+    le demi-frère | half-brother | half-sister: la demi-sœur
+    infirmière | nurse (f) | masculine: infirmier
+    sérieux | serious | feminine: sérieuse
+    gentil | kind | feminine: gentille
+    la campagne | the countryside
+    chez eux | at their home | chez + person
+    adorable | adorable; very cute
+  questions: |
+    mc: What is Théo's mother's job? || teacher | *nurse | doctor || "Elle est infirmière à l'hôpital."
+    tf: Théo's father lives in Nantes. || false || His father lives in Rennes with his wife, Julie.
+    short: Who is Malo? || kw: demi-frère/half-brother/half brother/half || "Ils ont un fils, Malo : c'est mon demi-frère."
+    fill: Lou a ___ ans. || seize / 16 || "Elle a seize ans."
+    mc: What does the family often do on Sundays? || They go to Rennes. | *They have lunch at the grandparents' house. | They go to the cinema. || "Le dimanche, nous déjeunons souvent chez eux" — at the grandparents'.
+
+- slug: la-journee-de-karima
+  kind: reading
+  title: La journée de Karima
+  topic: Time and daily routine
+  summary: Read about the daily routine of a bus driver in Marseille who starts work very early.
+  free: false
+  text: |
+    Karima a trente-cinq ans et elle est conductrice de bus à Marseille. Sa journée est un peu spéciale : elle commence très tôt !
+
+    Du lundi au vendredi, Karima se lève à quatre heures et demie. Elle se douche, elle s'habille et elle prend un café. À cinq heures et quart, elle part à pied au dépôt de bus. Elle commence le travail à six heures.
+
+    Elle déjeune à midi avec ses collègues et elle termine à quatorze heures. L'après-midi, elle rentre à la maison et elle se repose. Ensuite, à seize heures trente, elle attend ses enfants devant l'école.
+
+    Le soir, la famille dîne à dix-neuf heures. Karima se couche toujours à vingt et une heures. Le week-end, elle ne travaille pas : elle se lève tard et elle fait du vélo avec ses enfants.
+  translation: |
+    Karima is thirty-five and she's a bus driver in Marseille. Her day is a bit special: it starts very early!
+
+    From Monday to Friday, Karima gets up at half past four. She has a shower, gets dressed and has a coffee. At quarter past five, she walks to the bus depot. She starts work at six.
+
+    She has lunch at noon with her colleagues and she finishes at 2 p.m. In the afternoon, she goes home and rests. Then, at 4:30 p.m., she waits for her children outside the school.
+
+    In the evening, the family has dinner at 7 p.m. Karima always goes to bed at 9 p.m. At the weekend, she doesn't work: she gets up late and goes cycling with her children.
+  glossary: |
+    la conductrice de bus | bus driver (f) | masculine: le conducteur
+    du lundi au vendredi | from Monday to Friday
+    se lever | to get up | elle se lève
+    le dépôt de bus | bus depot
+    terminer | to finish | elle termine
+    se reposer | to rest | elle se repose
+    attendre | to wait for | elle attend
+    se coucher | to go to bed | elle se couche
+  questions: |
+    mc: What time does Karima get up on weekdays? || 4:00 | *4:30 | 5:15 || "Karima se lève à quatre heures et demie." She leaves home at 5:15.
+    fill: Karima commence le travail à ___ heures. || six / 6 || "Elle commence le travail à six heures."
+    tf: Karima drives to the bus depot. || false || She walks there: "elle part à pied au dépôt de bus".
+    short: What does Karima do at the weekend? || kw: tard/late/vélo/bike/cycling/cycle || She gets up late and goes cycling with her children.
+    mc: What time does Karima go to bed? || 7 p.m. | *9 p.m. | 11 p.m. || "Karima se couche toujours à vingt et une heures" — 9 p.m.
+
+- slug: un-samedi-au-marche
+  kind: reading
+  title: Un samedi au marché
+  topic: Food and drink
+  summary: Read a short blog post about shopping at a Saturday market and having lunch at a café.
+  free: false
+  text: |
+    Le samedi matin, je vais toujours au marché de mon quartier, à Lyon. J'adore l'ambiance : il y a beaucoup de monde, beaucoup de couleurs et de bonnes odeurs.
+
+    D'abord, j'achète des fruits et des légumes : un kilo de tomates, des courgettes et une barquette de fraises. Ensuite, je vais chez le fromager. Je prends un morceau de comté et un petit fromage de chèvre. Je ne mange pas de viande, alors je ne vais pas chez le boucher.
+
+    À midi, je m'arrête au café du marché. Je commande une salade et une eau minérale. Le serveur est très sympa. Ça fait douze euros.
+
+    Le marché, c'est mon moment préféré de la semaine !
+  translation: |
+    On Saturday mornings, I always go to the market in my neighbourhood, in Lyon. I love the atmosphere: there are lots of people, lots of colours and nice smells.
+
+    First, I buy fruit and vegetables: a kilo of tomatoes, some courgettes and a punnet of strawberries. Then I go to the cheese stall. I take a piece of Comté and a small goat's cheese. I don't eat meat, so I don't go to the butcher's.
+
+    At noon, I stop at the market café. I order a salad and a mineral water. The waiter is very nice. It comes to twelve euros.
+
+    The market is my favourite moment of the week!
+  glossary: |
+    l'ambiance | atmosphere
+    beaucoup de monde | lots of people
+    une odeur | a smell
+    une barquette | a punnet; a small tray
+    chez le fromager | at the cheese seller's | chez + shopkeeper
+    le comté | Comté | a hard cheese from the Jura mountains
+    le boucher | butcher
+    je m'arrête | I stop | from s'arrêter
+    je commande | I order | from commander
+  questions: |
+    mc: What does the writer buy at the cheese stall? || some meat and some cheese | *a piece of Comté and a small goat's cheese | a punnet of strawberries || "Je prends un morceau de comté et un petit fromage de chèvre."
+    tf: The writer eats meat. || false || "Je ne mange pas de viande" — so no visit to the butcher's.
+    fill: J'achète un ___ de tomates. || kilo || "Un kilo de tomates."
+    short: How much does lunch cost? || kw: 12/douze/twelve || "Ça fait douze euros."
+    mc: What does the writer order at the café? || an omelette and a coffee | *a salad and a mineral water | a sandwich and a juice || "Je commande une salade et une eau minérale."
+
+- slug: mon-quartier-a-bordeaux
+  kind: reading
+  title: Mon quartier à Bordeaux
+  topic: Places and the home
+  summary: Read a forum post in which Hugo describes his flat and his neighbourhood.
+  free: false
+  text: |
+    J'habite dans un vieux quartier de Bordeaux, près du fleuve. C'est un quartier calme et agréable.
+
+    Dans ma rue, il y a une boulangerie, une pharmacie et deux restaurants. Le supermarché est à cinq minutes à pied. Le dimanche matin, il y a un marché sur la place.
+
+    Mon appartement est au deuxième étage. Il y a un salon, une petite cuisine, une chambre et une salle de bains. Il n'y a pas de jardin, mais il y a un balcon. Dans le salon, mon canapé est devant la fenêtre et ma bibliothèque est à côté de la porte.
+
+    Il n'y a pas de cinéma dans le quartier, mais il y a un arrêt de tram en face de mon immeuble. Pour aller au centre-ville, je prends le tram : c'est très pratique !
+
+    Hugo
+  translation: |
+    I live in an old neighbourhood in Bordeaux, near the river. It's a quiet, pleasant neighbourhood.
+
+    In my street, there's a bakery, a pharmacy and two restaurants. The supermarket is five minutes' walk away. On Sunday mornings, there's a market on the square.
+
+    My flat is on the second floor. There's a living room, a small kitchen, a bedroom and a bathroom. There's no garden, but there's a balcony. In the living room, my sofa is in front of the window and my bookcase is next to the door.
+
+    There's no cinema in the neighbourhood, but there's a tram stop opposite my building. To go to the town centre, I take the tram: it's very convenient!
+
+    Hugo
+  glossary: |
+    le quartier | neighbourhood
+    calme | quiet; calm
+    le fleuve | (large) river
+    à cinq minutes à pied | five minutes' walk away
+    l'étage | floor | au deuxième étage = on the second floor
+    la bibliothèque | bookcase; library | here, a piece of furniture
+    l'arrêt de tram | tram stop
+    l'immeuble | apartment building
+    pratique | convenient; practical
+  questions: |
+    mc: Which floor does Hugo live on? || the ground floor | the first floor | *the second floor || "Mon appartement est au deuxième étage."
+    tf: Hugo's flat has a garden. || false || "Il n'y a pas de jardin, mais il y a un balcon."
+    fill: Le canapé est ___ la fenêtre. || devant || "Mon canapé est devant la fenêtre" — in front of the window.
+    short: How does Hugo get to the town centre? || kw: tram/tramway || "Pour aller au centre-ville, je prends le tram."
+    mc: What is there NOT in Hugo's neighbourhood? || a bakery | a pharmacy | *a cinema || "Il n'y a pas de cinéma dans le quartier."
+
+- slug: carte-postale-de-bretagne
+  kind: reading
+  title: Une carte postale de Bretagne
+  topic: Free time and weather
+  summary: Read a holiday postcard about the weather, daily activities and plans.
+  free: false
+  text: |
+    Chère Inès,
+
+    Je suis en vacances à Quiberon, en Bretagne, avec mon frère et ses enfants. Ici, le temps change tout le temps ! Le matin, il fait souvent beau, mais l'après-midi, il y a du vent et parfois il pleut. Il fait vingt degrés : ce n'est pas très chaud pour juillet.
+
+    Tous les jours, nous faisons du vélo au bord de la mer. Mon neveu adore nager, mais moi, je préfère marcher sur la plage. Le soir, on mange des crêpes au restaurant. J'adore ça !
+
+    Demain, nous allons visiter une île en bateau. Et samedi, il y a un concert de musique bretonne sur le port. On va danser !
+
+    Je rentre à Paris dimanche. On se retrouve au café lundi ?
+
+    Grosses bises,
+    Sophie
+  translation: |
+    Dear Inès,
+
+    I'm on holiday in Quiberon, in Brittany, with my brother and his children. Here, the weather changes all the time! In the morning it's often nice, but in the afternoon it's windy and sometimes it rains. It's twenty degrees: that's not very warm for July.
+
+    Every day, we go cycling by the sea. My nephew loves swimming, but I prefer walking on the beach. In the evening, we eat crêpes at a restaurant. I love that!
+
+    Tomorrow, we're going to visit an island by boat. And on Saturday, there's a concert of Breton music at the harbour. We're going to dance!
+
+    I'm going back to Paris on Sunday. Shall we meet at the café on Monday?
+
+    Lots of love,
+    Sophie
+  glossary: |
+    le temps change | the weather changes
+    tout le temps | all the time
+    au bord de la mer | by the sea; at the seaside
+    mon neveu | my nephew | niece: ma nièce
+    une crêpe | a crêpe; a thin pancake | a speciality of Brittany
+    une île | an island
+    en bateau | by boat
+    le port | harbour; port
+    grosses bises | lots of love | informal ending for friends and family
+  questions: |
+    mc: What is the weather like in the afternoon? || always sunny and hot | *windy and sometimes rainy | snowy || "L'après-midi, il y a du vent et parfois il pleut."
+    tf: Sophie loves swimming. || false || Her nephew loves swimming; Sophie prefers walking on the beach.
+    fill: Il fait vingt ___. || degrés || "Il fait vingt degrés."
+    short: What are they going to do tomorrow? || kw: île/island/bateau/boat || "Demain, nous allons visiter une île en bateau."
+    mc: When is Sophie going back to Paris? || on Saturday | *on Sunday | on Monday || "Je rentre à Paris dimanche." She suggests meeting on Monday.
+
+- slug: un-pull-pour-l-hiver
+  kind: listening
+  title: Un pull pour l'hiver
+  topic: Shopping
+  summary: Listen to a customer buying a jumper — colours, sizes and prices.
+  free: true
+  speakers: V=La vendeuse/f; C=Le client/m
+  text: |
+    V: Bonjour, monsieur. Je peux vous aider ?
+    C: Bonjour. Je cherche un pull pour l'hiver.
+    V: Nous avons ces pulls en laine. Ils sont très chauds.
+    C: Vous avez ce pull en bleu ?
+    V: En bleu marine, oui. Vous faites quelle taille ?
+    C: Je fais du L, je pense.
+    V: Voilà. La cabine d'essayage est au fond, à droite.
+    C: Merci… Hmm, il est un peu trop grand.
+    V: Voici le même en M.
+    C: Ah oui, c'est parfait. Il coûte combien ?
+    V: Soixante-cinq euros. Mais avec les soldes, c'est quarante-neuf euros.
+    C: Super ! Je prends ce pull.
+    V: Vous payez par carte ?
+    C: Oui, par carte. Merci beaucoup !
+  translation: |
+    Shop assistant: Hello, sir. Can I help you?
+    Customer: Hello. I'm looking for a jumper for the winter.
+    Shop assistant: We have these woollen jumpers. They're very warm.
+    Customer: Do you have this jumper in blue?
+    Shop assistant: In navy blue, yes. What size are you?
+    Customer: I'm an L, I think.
+    Shop assistant: Here you are. The fitting room is at the back, on the right.
+    Customer: Thanks… Hmm, it's a bit too big.
+    Shop assistant: Here's the same one in an M.
+    Customer: Oh yes, that's perfect. How much is it?
+    Shop assistant: Sixty-five euros. But with the sale, it's forty-nine euros.
+    Customer: Great! I'll take this jumper.
+    Shop assistant: Are you paying by card?
+    Customer: Yes, by card. Thank you very much!
+  glossary: |
+    je peux vous aider ? | can I help you?
+    en laine | woollen; made of wool
+    bleu marine | navy blue | doesn't change: une veste bleu marine
+    la taille | size | je fais du L = I'm a size L
+    la cabine d'essayage | fitting room
+    au fond | at the back
+    le même | the same one
+    les soldes | the sales
+  questions: |
+    mc: What colour is the jumper? || light blue | *navy blue | grey || "En bleu marine, oui."
+    tf: The size L fits him perfectly. || false || The L is a little too big ("un peu trop grand"), so he takes an M.
+    fill: Avec les soldes, le pull coûte ___ euros. || quarante-neuf / 49 || "Avec les soldes, c'est quarante-neuf euros." The normal price is 65 euros.
+    short: How does the customer pay? || kw: carte/card || "Oui, par carte."
+    mc: Where is the fitting room? || at the front, on the left | *at the back, on the right | next to the till || "La cabine d'essayage est au fond, à droite."
+
+- slug: pour-aller-a-la-gare
+  kind: listening
+  title: Pour aller à la gare ?
+  topic: Places and the home
+  summary: Listen to a tourist asking a local resident for directions to the station.
+  free: false
+  speakers: B=Ben/m; H=Une habitante/f
+  text: |
+    B: Pardon, madame. Où est la gare, s'il vous plaît ?
+    H: La gare ? Ce n'est pas très loin. Vous êtes à pied ?
+    B: Oui, à pied.
+    H: Alors, allez tout droit jusqu'à la place.
+    B: Jusqu'à la place… D'accord.
+    H: Sur la place, il y a une église. Tournez à gauche après l'église.
+    B: À gauche après l'église.
+    H: Ensuite, prenez la deuxième rue à droite. La gare est au bout de la rue, en face d'un grand hôtel.
+    B: C'est à combien de minutes ?
+    H: À dix minutes, environ.
+    B: Et il y a une pharmacie près de la gare ?
+    H: Oui, à côté de la boulangerie, juste avant la gare.
+    B: Merci beaucoup, madame !
+    H: De rien. Bonne journée !
+  translation: |
+    Ben: Excuse me, madam. Where is the station, please?
+    Resident: The station? It isn't very far. Are you on foot?
+    Ben: Yes, on foot.
+    Resident: Then go straight on as far as the square.
+    Ben: As far as the square… OK.
+    Resident: On the square, there's a church. Turn left after the church.
+    Ben: Left after the church.
+    Resident: Then take the second street on the right. The station is at the end of the street, opposite a big hotel.
+    Ben: How many minutes away is it?
+    Resident: About ten minutes.
+    Ben: And is there a pharmacy near the station?
+    Resident: Yes, next to the bakery, just before the station.
+    Ben: Thank you very much, madam!
+    Resident: You're welcome. Have a nice day!
+  glossary: |
+    ce n'est pas très loin | it isn't very far
+    jusqu'à | as far as; up to
+    l'église | church
+    la deuxième rue | the second street
+    au bout de | at the end of
+    en face de | opposite | en face d'un hôtel before a vowel
+    environ | about; approximately
+    juste avant | just before
+  questions: |
+    mc: What is on the square? || a hotel | *a church | a pharmacy || "Sur la place, il y a une église."
+    mc: Which street should Ben take after the church? || the first on the left | *the second on the right | the second on the left || He turns left after the church, then "prenez la deuxième rue à droite".
+    fill: La gare est en face d'un grand ___. || hôtel || "La gare est au bout de la rue, en face d'un grand hôtel."
+    short: How long does it take to walk to the station? || kw: 10/dix/ten || "À dix minutes, environ" — about ten minutes.
+    tf: The pharmacy is next to the bakery. || true || "Oui, à côté de la boulangerie, juste avant la gare."
+
+- slug: on-fait-quoi-samedi
+  kind: listening
+  title: On fait quoi samedi ?
+  topic: Free time and weather
+  summary: Listen to two friends making plans for Saturday, depending on the weather.
+  free: false
+  speakers: A=Anaïs/f; Y=Yanis/m
+  text: |
+    A: Salut, Yanis ! Tu es libre samedi ?
+    Y: Samedi matin, non. Je joue au foot avec mon club.
+    A: Et l'après-midi ? On fait une randonnée ?
+    Y: Bonne idée, mais la météo n'est pas bonne. Il va pleuvoir.
+    A: Ah bon ? Alors, on va au musée ? Il y a une exposition de photos.
+    Y: Bof… Je n'aime pas beaucoup les musées.
+    A: Et le cinéma, ça te dit ?
+    Y: Oui, avec plaisir ! J'adore le cinéma. Il y a quoi ?
+    A: Il y a une comédie à seize heures et un film d'action à dix-huit heures trente.
+    Y: Je préfère le film d'action.
+    A: D'accord. On se retrouve devant le cinéma à dix-huit heures quinze ?
+    Y: Parfait. Et après, on mange une pizza ?
+    A: Super ! À samedi !
+  translation: |
+    Anaïs: Hi, Yanis! Are you free on Saturday?
+    Yanis: Saturday morning, no. I play football with my club.
+    Anaïs: And in the afternoon? Shall we go hiking?
+    Yanis: Good idea, but the weather forecast isn't good. It's going to rain.
+    Anaïs: Really? Then shall we go to the museum? There's a photo exhibition.
+    Yanis: Meh… I don't really like museums.
+    Anaïs: What about the cinema, do you fancy it?
+    Yanis: Yes, I'd love to! I love the cinema. What's on?
+    Anaïs: There's a comedy at 4 p.m. and an action film at 6:30 p.m.
+    Yanis: I prefer the action film.
+    Anaïs: OK. Shall we meet in front of the cinema at 6:15?
+    Yanis: Perfect. And afterwards, shall we have a pizza?
+    Anaïs: Great! See you on Saturday!
+  glossary: |
+    tu es libre ? | are you free?
+    il va pleuvoir | it's going to rain | near future of pleuvoir
+    bof | meh; not really | shows a lack of enthusiasm
+    ça te dit ? | do you fancy it?
+    avec plaisir | I'd love to; with pleasure
+    un film d'action | an action film
+    on se retrouve | let's meet | from se retrouver
+  questions: |
+    mc: Why don't they go hiking? || Yanis is tired. | *The weather forecast is bad. | Anaïs doesn't like walking. || "La météo n'est pas bonne. Il va pleuvoir."
+    tf: Yanis loves museums. || false || "Bof… Je n'aime pas beaucoup les musées."
+    mc: Which film do they choose? || the comedy at 4 p.m. | *the action film at 6:30 p.m. | the action film at 4 p.m. || Yanis says "Je préfère le film d'action", which starts at dix-huit heures trente.
+    fill: Ils se retrouvent devant le cinéma à dix-huit heures ___. || quinze / 15 || "On se retrouve devant le cinéma à dix-huit heures quinze ?"
+    short: What does Yanis do on Saturday morning? || kw: foot/football/soccer || "Je joue au foot avec mon club."
+
+- slug: un-week-end-a-bordeaux
+  kind: listening
+  title: Un week-end à Bordeaux
+  topic: Travel
+  summary: Listen to a phone call to book a hotel room for a weekend trip.
+  free: false
+  speakers: R=La réceptionniste/f; M=Marc/m
+  text: |
+    R: Hôtel du Port, bonjour !
+    M: Bonjour, madame. Est-ce que vous avez une chambre double pour le week-end prochain ?
+    R: Pour combien de nuits ?
+    M: Deux nuits, vendredi et samedi. Nous allons arriver vendredi soir, en train.
+    R: Oui, j'ai une chambre double avec vue sur le port.
+    M: Elle coûte combien ?
+    R: Quatre-vingt-quinze euros la nuit.
+    M: Est-ce que le petit-déjeuner est compris ?
+    R: Non, le petit-déjeuner coûte douze euros par personne.
+    M: D'accord. Et l'hôtel est loin de la gare ?
+    R: Non, à quinze minutes à pied, ou cinq minutes en tram.
+    M: Parfait. Je voudrais réserver, s'il vous plaît.
+    R: C'est à quel nom ?
+    M: Marc Dubois. D, U, B, O, I, S.
+    R: Merci, monsieur Dubois. À vendredi !
+  translation: |
+    Receptionist: Hôtel du Port, good morning!
+    Marc: Good morning. Do you have a double room for next weekend?
+    Receptionist: For how many nights?
+    Marc: Two nights, Friday and Saturday. We're going to arrive on Friday evening, by train.
+    Receptionist: Yes, I have a double room with a view of the harbour.
+    Marc: How much is it?
+    Receptionist: Ninety-five euros a night.
+    Marc: Is breakfast included?
+    Receptionist: No, breakfast costs twelve euros per person.
+    Marc: OK. And is the hotel far from the station?
+    Receptionist: No, fifteen minutes on foot, or five minutes by tram.
+    Marc: Perfect. I'd like to book, please.
+    Receptionist: What name is it under?
+    Marc: Marc Dubois. D, U, B, O, I, S.
+    Receptionist: Thank you, Mr Dubois. See you on Friday!
+  glossary: |
+    le week-end prochain | next weekend
+    nous allons arriver | we're going to arrive | near future: aller + infinitive
+    avec vue sur | with a view of
+    la nuit | night | quatre-vingt-quinze euros la nuit = 95 euros a night
+    compris | included
+    par personne | per person
+    c'est à quel nom ? | what name is it under?
+  questions: |
+    mc: How many nights does Marc want to stay? || one | *two | three || "Deux nuits, vendredi et samedi."
+    mc: How much is the room per night? || €75 | *€95 | €85 || "Quatre-vingt-quinze euros la nuit" — 4 × 20 + 15 = 95.
+    tf: Breakfast is included in the price. || false || "Non, le petit-déjeuner coûte douze euros par personne."
+    fill: À pied, l'hôtel est à ___ minutes de la gare. || quinze / 15 || "À quinze minutes à pied, ou cinq minutes en tram."
+    short: How are Marc and his partner travelling to Bordeaux? || kw: train || "Nous allons arriver vendredi soir, en train."

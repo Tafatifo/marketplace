@@ -1,0 +1,349 @@
+unit: 5
+title: Reading between the lines
+theme: Media and persuasion
+description: Check whether news stories are true and report exactly what sources said, analyze the techniques used in advertising, and read and write an opinion piece, using advanced reported speech, reporting verbs and language for presenting and evaluating other people's views.
+free: false
+objectives:
+  - Report statements and questions accurately, deciding when to change tenses, modals and time references
+  - Describe how people persuade, promise, deny and admit, using reporting verbs with the right patterns
+  - Present, evaluate and respond to other people's views in an opinion piece
+canDo:
+  - I can check a story that is spreading online and report accurately what the original sources said.
+  - I can explain the techniques an advert or a salesperson uses to persuade people.
+  - I can follow the argument of an opinion piece and recognize how the writer feels about the views they report.
+  - I can write a persuasive opinion piece that deals fairly with counterarguments.
+review: |
+  rw: Report this statement, made last year :: "The new bridge will open next month," the mayor said. || The mayor said that the new bridge would open the following month. | The mayor said the new bridge would open the following month. | The mayor said that the new bridge would open the next month. | The mayor said the new bridge would open the next month. || The time has passed: will → would, next month → the following month. || @tags en.reported-speech
+  rw: Report the question :: "Who took the photo?" the editor asked me. || The editor asked me who had taken the photo. | The editor asked me who took the photo. || Reported questions use statement word order. The backshift to the past perfect (had taken) is common but optional here. || @tags en.reported-speech
+  fill: The influencer denied ___ (receive) any money for the review. || receiving / having received || Deny + -ing (or having + past participle). || @tags en.reported-speech
+  fill: Consumer groups urged shoppers ___ (read) the small print carefully. || to read || Urge + object + to-infinitive. || @tags en.reported-speech
+  mc: "You copied my design!" the designer said to the company. → The designer ___ the company of copying her design. || blamed | *accused | criticized || Accuse someone of + -ing. Blame takes for, and criticize takes for or a noun. || @tags en.reported-speech
+  mc: Which reporting verb shows that the writer doubts the statement? || The report points out that sales fell. | *The company claims that its product is the best on the market. | The study shows that sales fell. || Claim distances the writer from the statement. Point out and show present it as true. || @tags en.reported-speech,en.opinion
+  rw: Rewrite starting "It has been argued" :: Some experts argue that short videos reduce our attention span. || It has been argued that short videos reduce our attention span. || It has been argued that… reports a view without saying exactly who holds it. || @tags en.reported-speech,en.passive
+  mc: A headline written mainly to make people click on it, often by exaggerating, is ___. || *clickbait | a slogan | a testimonial || Clickbait exaggerates to get clicks. A slogan is a short advertising phrase, and a testimonial is a customer's recommendation. || @tags en.vocabulary @skill vocabulary
+  listen: The post claimed the museum was closing for good. But when I called, the manager told me they were only closing for two weeks to repair the roof. || What is really happening to the museum? || It's closing permanently. | *It's closing for two weeks for repairs. | It's moving to a new building. || The manager said "they were only closing for two weeks to repair the roof." || @tags en.listening,en.reported-speech
+  listen: The advert promises to cut your energy bills in half, but the small print says that applies only to homes with solar panels and a battery. || What does the small print reveal? || The offer is free. | *The promise only applies to certain homes. | The offer ends tomorrow. || The saving "applies only to homes with solar panels and a battery." || @tags en.listening,en.reported-speech
+  ask: A friend has shared a shocking news story with you. Tell them what you found when you checked it, reporting what the original source said. || kw: said/told/claimed/explained/reported/according to & would/had/was/were/could || I checked that story. The website claimed the beach had been closed because of pollution, but the local council told a newspaper that it was only closed for one day for a sailing race. According to the council, the water quality is excellent.
+  write: Write a paragraph (100–120 words) about an advert or sales pitch that persuaded you — or failed to. Report what was promised, claimed or offered, and what happened. Use at least four different reporting verbs. || min=90 || req: promised/claimed/offered/assured/guaranteed | persuaded/convinced/urged/encouraged/warned/reminded | admitted/denied/insisted/apologized/refused/suggested || Last year, a salesperson at a phone shop persuaded me to upgrade my contract. He promised that the new plan would save me money, and he assured me there were no hidden costs. He even offered to transfer all my photos for free. When my first bill arrived, it was twice as high as before. I called the company, and the agent admitted that the discount only lasted for one month. At first she refused to cancel the contract, but when I insisted on speaking to a manager, they apologized for the confusion and gave me a partial refund. Now I always read the small print.
+lessons:
+  - title: Misinformation and media literacy
+    summary: Check whether a viral story is true, discuss misinformation, and report statements and questions accurately, choosing when to change tenses, modals and time references.
+    minutes: 50
+    skills: [vocabulary, grammar, listening]
+    tags: [en.reported-speech, en.vocabulary, en.intonation]
+    objectives:
+      - Talk about misinformation, sources and fact-checking with precise vocabulary
+      - Decide when to backshift tenses in reported speech and when to keep them
+      - Change modals and time and place references correctly when you report
+    intro: |
+      A false story can travel around the world in minutes. Fact-checkers stop it by going back to the original sources and reporting **exactly** what was said — and in English, small changes in tense or time can change the meaning completely. In this lesson you will learn vocabulary for misinformation and verification and go beyond basic **reported speech**: when to change tenses and when not to, how modals change and how to report time and place.
+    vocab: |
+      misinformation | false information that is spread, whether or not people know it is false | n | Misinformation spreads six times faster than corrections. | - | n: Uncountable.
+      disinformation | false information that is spread deliberately to deceive people | n | The campaign was a clear case of disinformation. | -
+      fact-check | to check whether the facts in a story or statement are correct | v | Always fact-check a story before you share it. | - | n: Also a noun: a fact-check.
+      go viral | to spread very quickly on the internet | expr | The video went viral overnight. | -
+      verify | to check or prove that something is true | v | We couldn't verify the photo, so we didn't publish it. | - | n: Noun: verification.
+      reliable source | a person or publication that you can trust to give correct information | n phr | A post on social media is not a reliable source. | -
+      spokesperson | a person who speaks officially for an organization | n | A spokesperson for the hospital confirmed the news. | - | n: Also: spokesman, spokeswoman.
+      clickbait | headlines or images designed to make you click on a link, often by exaggerating | n | "You won't believe what happened next" is classic clickbait. | -
+      out of context | without the surrounding information that is needed to understand something correctly | expr | The quote was taken out of context. | - | c: take something out of context
+      blow (something) out of proportion | to make something seem much bigger or more important than it is | expr | A small mistake was blown completely out of proportion. | -
+      echo chamber | a situation in which people only hear opinions similar to their own | n phr | Social media can become an echo chamber. | -
+      distort | to change facts so that they are no longer true or accurate | v | The headline distorted the results of the study. | -
+      credible | able to be believed or trusted | adj | There's no credible evidence for the claim. | - | n: Noun: credibility.
+    grammar:
+      title: "Reported speech: beyond the basics"
+      body: |
+        You know the basic rule: after a **past** reporting verb, tenses usually move back (*is → was, will → would, has done → had done*). At B2, you need to know when and how to apply it.
+
+        - **No backshift after a present reporting verb**: *The post **claims** that the council **will** ban dogs.* (The claim is still being made.)
+        - **Optional backshift** when the situation is **still true** or you report very soon afterward: *She told me this morning that she**'s** working from home today* (or *she **was** working*).
+        - **Modals**: *will → would, can → could, may → might, must → had to* (or must). *Would, could, might, should* and *ought to* don't change.
+        - **The past perfect doesn't change**, and the past simple → past perfect is often optional when the order of events is clear.
+        - **Time and place** change if the time or place is different when you report: *today → that day, tomorrow → the next/following day, yesterday → the day before/the previous day, next week → the following week, ago → before, here → there.*
+        - **Reported questions** use statement word order, with **if/whether** for yes/no questions: *I asked **whether a decision had been made**.*
+      table: |
+        Direct speech | Reported later | Note
+        "I'll call you tomorrow." | She said she would call me the next day. | will → would; tomorrow → the next day
+        "We can't confirm it." | They said they couldn't confirm it. | can → could
+        "You must check every source." | She told us we had to check every source. | must → had to (or must)
+        "We met two weeks ago." | He said they had met two weeks before. | past → past perfect; ago → before
+        "Has a decision been made?" | I asked whether a decision had been made. | whether + statement order
+      examples: |
+        The post claims that dogs will be banned from every park next month. | | present reporting verb: no backshift
+        The spokesperson told me they were only considering a ban in two playgrounds. | | backshift after a past reporting verb
+        She said no decision would be made until residents had been consulted. | | will → would; passive forms shift too
+        I asked her why they hadn't published anything about it. | | reported wh- question
+      tip: |
+        Ask: Is it still true, and is it still the same day and place? If yes, you can usually keep the original tense and time words.
+    dialogue:
+      title: The dog ban that wasn't
+      setting: The fact-checking desk of a local news website in Bristol, England. Freya, the editor, asks Tunde, a fact-checker, about a post that is spreading quickly on social media.
+      speakers: F=Freya/f; T=Tunde/m
+      lines: |
+        F: Tunde, that post about the dog ban has been shared forty thousand times. Have you managed to check it yet?
+        T: I have. The post claims that the council will ban dogs from every park in the city from next month.
+        F: And what did the council actually say?
+        T: I called their press office this morning. The spokesperson told me they were only considering a ban in two children's playgrounds.
+        F: So someone took a small proposal and blew it completely out of proportion. Where did the post come from?
+        T: An account that was created last week. The first version said the ban had been "confirmed by a council source."
+        F: Did you ask the spokesperson whether a decision had been made?
+        T: Yes. She said no decision would be made until residents had been consulted, and she said I could quote her.
+        F: Good. And did you ask why they hadn't published anything about it?
+        T: She explained that the proposal had only been discussed at a meeting two days before.
+        F: Right. Let's publish the fact-check today. Make it clear that the claim is false, not just exaggerated.
+        T: It's already drafted. I've included a screenshot that shows when the account was created, too.
+    pronunciation:
+      title: Intonation in reported questions
+      body: |
+        A direct yes/no question usually **rises** at the end: *Has a decision been ↗made?* But a reported question is a statement, so it normally **falls**: *I asked whether a decision had been ↘made.*
+
+        Learners often keep the rising tone in reported questions, which makes them sound like real questions. Practice the contrast. Listen and repeat.
+      items: |
+        I asked whether a decision had been made.
+        She asked why they hadn't published it.
+        He wanted to know where the post came from.
+        The post claims the council will ban dogs.
+        She said I could quote her.
+        It was taken out of context.
+    mistakes: |
+      Last week, the spokesperson said the decision will be made tomorrow. => Last week, the spokesperson said the decision would be made the next day. | When the time has passed, change will to would and tomorrow to the next day.
+      He asked me where did the post come from. => He asked me where the post had come from. | Reported questions use statement word order, with no do/did.
+      The post claims that dogs would be banned next month. => The post claims that dogs will be banned next month. | After a present reporting verb, keep the original tense.
+    task:
+      title: Check before you share
+      mode: speaking
+      body: |
+        Find a surprising claim that is circulating online (a health tip, a statistic or a news story). Try to trace it back to its original source. Prepare a one-minute "fact-check" report: what the claim says, who first said it, what the original source actually said, and whether the claim is true, false or out of context. Use at least five reported speech structures. Then discuss with the AI coach in the "Expressing an opinion" scenario whether social media platforms should remove false posts.
+    exercises: |
+      rw: Report this statement, made last month :: "We will publish the results tomorrow," the minister said. || The minister said that they would publish the results the next day. | The minister said they would publish the results the next day. | The minister said that they would publish the results the following day. | The minister said they would publish the results the following day. | The minister said that they would publish the results the day after. | The minister said they would publish the results the day after. || The time has passed: will → would and tomorrow → the next day. || @tags en.reported-speech
+      rw: Report the question :: "Has a decision been made?" I asked the spokesperson. || I asked the spokesperson whether a decision had been made. | I asked the spokesperson if a decision had been made. || Yes/no question → if/whether + statement order; has been → had been. || @tags en.reported-speech
+      rw: Report the question :: "Why haven't you published anything?" she asked them. || She asked them why they hadn't published anything. | She asked them why they had not published anything. || Wh- question → question word + statement order; haven't → hadn't. || @tags en.reported-speech
+      fill: "I can send you the documents," she said. → She said she ___ send me the documents. || could || Can → could after a past reporting verb. || @tags en.reported-speech
+      fill: The post claims that the new law ___ (come) into force next month. || will come / is coming / comes / is going to come || After a present reporting verb (claims), the tense doesn't change. || @tags en.reported-speech
+      mc: This morning Sam said, "I'm working from home today." It's now lunchtime. Which report is NOT correct? || Sam said he was working from home today. | Sam said he's working from home today. | *Sam said me he was working from home today. || Both tenses are possible because it's still true and still the same day. But say needs no object: say to me, or told me. || @tags en.reported-speech
+      mc: Months later, in another city, you report: "We met here two weeks ago," she said. || *She said they had met there two weeks before. | She said they met here two weeks ago. | She said they have met there two weeks before. || The time and place have changed: met → had met, here → there, ago → before. || @tags en.reported-speech
+      match: tomorrow = the next day ; yesterday = the day before ; next week = the following week ; ago = before ; here = there || How time and place words usually change when you report later and somewhere else. || @hint Match each word with how it changes in reported speech. @skill grammar @tags en.reported-speech
+      tf: The council has decided to ban dogs from every park in the city. || false || The council is only considering a ban in two playgrounds, and no decision has been made. || @ctx dialogue
+      short: When was the account that posted the claim created? || kw: last week/Tuesday/recently || Tunde says it was "an account that was created last week." || @ctx dialogue
+      listen: @dialogue || What did the spokesperson say about the decision? || It had already been made. | *It wouldn't be made until residents had been consulted. | It would be made at the next meeting. || "She said no decision would be made until residents had been consulted." || @tags en.listening
+      listen: The article said the study had involved ten thousand people. In fact, the researchers told us they had only surveyed four hundred. || What was wrong with the article? || *It exaggerated the size of the study. | It reported the wrong results. | It didn't name the researchers. || The article said ten thousand people, but the researchers had only surveyed four hundred. || @tags en.listening,en.reported-speech
+      dict: She said that no decision would be made until residents had been consulted. || reported speech with would and the past perfect
+      ask: Tell a friend about a news story you heard recently. Report what was said, who said it and whether you think the source was reliable. || kw: said/told/claimed/reported/explained/announced/according to & reliable/trust/source/sure/checked/verified || I read that the city is going to open a new swimming pool. The mayor said it would be ready by next summer, and according to the local paper, the money has already been approved. I think it's reliable, because it came from an official announcement.
+      write: Write a short fact-check (90–110 words) about a claim that was spread online. Report what the claim said, what the original source said, and give your verdict. || min=80 || req: claimed/said/stated/reported/alleged | told/explained/confirmed/denied/admitted | would/had/was/were/could || A post that went viral last weekend claimed that the city's tap water had become unsafe to drink. The post said that a hospital had treated dozens of people after drinking it. When we contacted the water company, a spokesperson told us that tests had been carried out that morning and that the water was perfectly safe. She explained that the post had used a photo from a different country, taken five years earlier. The hospital also confirmed that it had not treated anyone for water-related illness. Our verdict: the claim is false, and the photo was taken out of context.
+
+  - title: Advertising and persuasion
+    summary: Analyze the techniques used in advertising and sales, and describe what people promised, claimed, denied and admitted using reporting verbs with the correct patterns.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [en.reported-speech, en.vocabulary, en.word-stress]
+    objectives:
+      - Talk about advertising, endorsements and persuasive techniques
+      - Use reporting verbs with to-infinitive, object + to-infinitive and -ing patterns
+      - Use reporting verbs with prepositions (accuse of, apologize for, insist on)
+    intro: |
+      Adverts rarely tell you to buy something directly; instead, they suggest, promise, remind and reassure. When we describe what an advert or a salesperson did, **reporting verbs** are much more precise than *said*: they show the speaker's intention. In this lesson you will learn how persuasion works and how to use the most common reporting verbs, each with its own grammar pattern.
+    vocab: |
+      persuasive | able to make people believe or do something | adj | It was a very persuasive advert — I bought the product the next day. | - | n: Verb: persuade.
+      target audience | the group of people an advert or product is aimed at | n phr | The target audience for this campaign is people in their twenties. | -
+      slogan | a short, memorable phrase used in advertising | n | The slogan was printed on every bus in the city. | - | c: a catchy slogan
+      endorse | to say publicly that you support or approve of a product or person | v | The shoes were endorsed by a famous athlete. | - | n: Noun: endorsement.
+      sponsored content | material, such as a post or video, that a company has paid someone to make | n phr | Influencers must label sponsored content clearly. | -
+      the small print | the part of a contract or offer, often in tiny letters, that contains important conditions | n phr | Always read the small print before you sign. | - | n: American English also: the fine print.
+      exaggerate | to make something seem bigger, better or worse than it really is | v | The advert exaggerated how long the battery lasts. | - | n: Noun: exaggeration.
+      appeal to | to try to influence someone through a particular feeling or interest | phr v | The campaign appeals to people's fear of missing out. | - | c: appeal to someone's emotions/vanity
+      regulator | an official organization that makes sure companies follow the rules | n | The advertising regulator banned the advert. | -
+      testimonial | a statement from a customer saying how good a product or service is | n | The website is full of glowing testimonials. | -
+      gimmick | a trick or unusual feature used to attract attention, often without real value | n | The free gift is just a marketing gimmick. | -
+      fall for | to be tricked into believing something that isn't true | phr v | I can't believe I fell for that offer. | -
+      false claim | a statement that something is true when it isn't | n phr | The company was fined for making false claims about its product. | -
+    grammar:
+      title: Reporting verbs and their patterns
+      body: |
+        Reporting verbs summarize **what someone meant**, not just what they said. Each verb has its own pattern, and many have more than one.
+
+        - **verb + to-infinitive**: *agree, claim, offer, promise, refuse, threaten*: *The company **refused to withdraw** the advert.*
+        - **verb + object + to-infinitive**: *advise, convince, encourage, invite, persuade, remind, urge, warn*: *He **urged listeners to read** the small print.* For a negative, put *not* before *to*: *She **warned me not to sign**.*
+        - **verb + -ing**: *admit, deny, recommend, suggest*: *The company **denied making** false claims.* Use **having + past participle** to stress that the action came earlier: *She **denied having received** any money.*
+        - **verb + preposition + -ing**: *apologize **for**, insist **on**, accuse someone **of**, blame someone **for**, congratulate someone **on***: *Customers **accused the company of exaggerating**.*
+        - **verb + that-clause**: *admit, agree, claim, deny, explain, insist, promise, suggest*: *It **admitted that** it hadn't tested the cream.*
+
+        **Suggest** and **recommend** never take object + to: say *She suggested **trying** it* or *She suggested **that I try** it* (not ~~suggested me to try~~).
+      table: |
+        Pattern | Verbs | Example
+        + to-infinitive | promise, offer, refuse, agree, claim | They promised to refund the money.
+        + object + to-infinitive | urge, persuade, warn, remind, encourage | She persuaded me to cancel.
+        + -ing | deny, admit, suggest, recommend | He admitted using fake reviews.
+        + preposition + -ing | accuse of, apologize for, insist on | They apologized for causing confusion.
+        + that-clause | claim, admit, insist, explain | The ad claimed that results were guaranteed.
+      examples: |
+        The best ads don't just promise to solve a problem — they persuade you that you have one. | | promise + to-infinitive; persuade + object + that
+        At first, the company denied making any false claims. | | deny + -ing
+        Thousands of customers accused the company of exaggerating. | | accuse + object + of + -ing
+        I'd urge everyone to ask who paid for the research. | | urge + object + to-infinitive
+      tip: |
+        Learn reporting verbs with a typical phrase, not alone: deny doing, refuse to do, accuse someone of doing, insist on doing.
+    dialogue:
+      title: Ten years younger in a week?
+      setting: The recording studio of a consumer rights podcast in Toronto, Canada. The host, Bella, is interviewing Kenji, who wrote adverts for fifteen years before becoming a consumer campaigner.
+      speakers: B=Bella/f; K=Kenji/m
+      lines: |
+        B: Kenji, you wrote adverts for fifteen years. What's the most persuasive trick in the business?
+        K: Making people feel they're already behind. The best ads don't just promise to solve a problem — they persuade you that you have one.
+        B: Like that face cream advert that claimed to "reverse ten years of aging in a week"?
+        K: Exactly. Thousands of customers accused the company of exaggerating, and the regulator agreed with them.
+        B: How did the company respond when it was investigated?
+        K: At first, it denied making any false claims. It even insisted on calling the results "scientifically proven."
+        B: And was there any real evidence behind that?
+        K: The "study" involved twelve people. In the end, the company admitted that it hadn't tested the cream properly.
+        B: Did they at least apologize to their customers?
+        K: They apologized for causing confusion — which isn't quite the same as apologizing for misleading people.
+        B: So what would you advise our listeners to do when they see a claim like that?
+        K: I'd urge them to read the small print and ask who paid for the research. And never trust a one-week miracle!
+    pronunciation:
+      title: Stress in reporting verbs
+      body: |
+        Most two-syllable reporting verbs are stressed on the **second** syllable: de**NY**, ad**MIT**, in**SIST**, re**FUSE**, ac**CUSE**, per**SUADE**, sug**GEST**. Compare nouns and adjectives from the same families, where the stress often moves: **RE**fuse (noun = rubbish) vs re**FUSE** (verb); per**SUA**sive.
+
+        Note also a**PO**logize and en**COUR**age, stressed on the second syllable. Listen and repeat.
+      items: |
+        deny
+        insist
+        persuade
+        apologize
+        encourage
+        They accused the company of exaggerating.
+    mistakes: |
+      She suggested me to try the free trial. => She suggested that I try the free trial. | Suggest isn't followed by object + to-infinitive. Use suggest + -ing or suggest that + clause.
+      The company denied to make false claims. => The company denied making false claims. | Deny is followed by -ing (or a that-clause), not a to-infinitive.
+      Customers accused the company for lying. => Customers accused the company of lying. | The pattern is accuse someone of + -ing.
+    task:
+      title: Analyze an advert
+      mode: speaking
+      body: |
+        Choose an advert you have seen recently (on TV, online or on a poster) — don't mention the brand name. Prepare a one-minute analysis: who the target audience is, what the advert promises or claims, which feelings it appeals to and whether it persuaded you. Use at least five different reporting verbs. Then practice resisting a persuasive sales pitch, and reporting what was offered, with the AI coach in the "Returning an item in a shop" scenario.
+    exercises: |
+      fill: The company denied ___ (mislead) its customers. || misleading / having misled || Deny + -ing, or having + past participle for an earlier action. || @tags en.reported-speech
+      fill: The regulator urged the company ___ (withdraw) the advert immediately. || to withdraw || Urge + object + to-infinitive. || @tags en.reported-speech
+      fill: Fans accused the influencer ___ (not / reveal) that the post was sponsored. || of not revealing / of not having revealed || Accuse someone of + -ing; not goes before the -ing form. || @tags en.reported-speech
+      mc: "Don't sign anything until you've read the small print," my lawyer said. → My lawyer ___ me not to sign anything until I'd read the small print. || *warned | suggested | denied || Warn + object + not + to-infinitive. Suggest doesn't take object + to, and deny means say something isn't true. || @tags en.reported-speech
+      mc: "I'm sorry I didn't reply sooner," the manager said. → The manager ___. || apologized not replying sooner | *apologized for not replying sooner | apologized to not reply sooner || Apologize for + -ing. || @tags en.reported-speech
+      rw: Report using "promised" :: "I'll refund your money within a week," the manager told me. || The manager promised to refund my money within a week. | The manager promised that she would refund my money within a week. | The manager promised that he would refund my money within a week. | The manager promised me that she would refund my money within a week. | The manager promised me that he would refund my money within a week. || Promise + to-infinitive, or promise (someone) + that + would. || @tags en.reported-speech
+      rw: Report using "admitted" :: "Yes, we used fake reviews on our website," the company said. || The company admitted using fake reviews on its website. | The company admitted using fake reviews on their website. | The company admitted having used fake reviews on its website. | The company admitted having used fake reviews on their website. | The company admitted that it had used fake reviews on its website. | The company admitted that they had used fake reviews on their website. || Admit + -ing (or having + past participle), or admit + that-clause with backshift. || @tags en.reported-speech
+      rw: Report using "suggested" :: "Why don't we compare prices online first?" Leo said. || Leo suggested comparing prices online first. | Leo suggested that we compare prices online first. | Leo suggested that we should compare prices online first. | Leo suggested that they compare prices online first. | Leo suggested that they should compare prices online first. || Suggest + -ing, or suggest that + subject + (should) + base form. || @tags en.reported-speech
+      match: deny = making false claims ; refuse = to change the advert ; urge = customers to complain ; insist = on a full refund ; apologize = for the confusion || Each verb is followed by its usual pattern: deny + -ing, refuse + to, urge + object + to, insist on, apologize for. || @hint Match each verb with the phrase that follows it correctly. @skill grammar @tags en.reported-speech
+      tf: The company apologized for misleading its customers. || false || Kenji says they apologized "for causing confusion — which isn't quite the same as apologizing for misleading people." || @ctx dialogue
+      short: How many people took part in the company's "study"? || kw: twelve/12 || "The 'study' involved twelve people." || @ctx dialogue
+      listen: @dialogue || What does Kenji urge listeners to do? || Complain to the regulator | Stop buying face cream | *Read the small print and ask who paid for the research || "I'd urge them to read the small print and to ask who paid for the research." || @tags en.listening
+      dict: The influencer admitted that she had never actually used the product. || admit + that-clause
+      ask: Tell a friend about a time a salesperson or an advert tried to persuade you. Report what they said and did with at least three reporting verbs. || kw: promised/claimed/offered/assured/persuaded/convinced/urged/encouraged/reminded/warned/insisted/suggested/recommended || At the gym, the salesperson offered to give me a free month and promised that I'd see results in six weeks. When I hesitated, she reminded me that the offer ended that day and suggested signing up immediately. In the end, I refused to sign a two-year contract.
+      write: Write a paragraph (90–110 words) reporting a dispute between a company and its customers, real or imagined. Use at least four different reporting verbs with the correct patterns. || min=80 || req: claimed/promised/insisted/admitted/denied/refused | accused/urged/warned/persuaded/encouraged/apologized || A food delivery app recently advertised "free delivery forever" for new customers. Many people signed up, but after three months, they started paying a delivery fee. Customers accused the company of misleading them and urged others to delete the app. At first, the company denied doing anything wrong and insisted that the conditions were in the small print. However, after the regulator warned it to change the advert, the company admitted that the slogan was confusing. It apologized for the misunderstanding and promised to offer affected customers a month of free deliveries. Many users refused to come back anyway.
+
+  - title: Writing an opinion piece
+    summary: Read an opinion piece about teaching media literacy, analyze how the writer presents and answers opposing views, and write your own using reporting and concession language.
+    minutes: 55
+    skills: [reading, writing, grammar]
+    tags: [en.reported-speech, en.opinion, en.writing]
+    objectives:
+      - Follow the structure and argument of an opinion piece
+      - Present other people's views with verbs that show your attitude (claim, point out, acknowledge, maintain)
+      - Concede and rebut counterarguments with Admittedly…, It is true that… but…, While…
+    intro: |
+      An opinion piece doesn't just state a view; it persuades. The most convincing writers present the other side fairly and then explain why they still disagree. The verbs they use to report other people's opinions — *claim*, *point out*, *acknowledge* — quietly tell the reader what the writer thinks of those opinions. In this lesson you will read an opinion piece, analyze its structure and language, and learn to write your own.
+    vocab: |
+      opinion piece | a newspaper or online article in which a writer gives their personal view on a topic | n phr | She wrote an opinion piece about school uniforms. | - | n: Also: op-ed, opinion column.
+      argue | to give reasons why you believe something is true | v | Some people argue that homework should be banned. | - | n: Noun: argument.
+      maintain | to continue to say firmly that something is true, even when others disagree | v | He maintains that he did nothing wrong. | -
+      acknowledge | to accept or admit that something is true | v | The writer acknowledges that the plan is expensive. | -
+      point out | to tell someone a fact they may not know or have forgotten | phr v | She pointed out that most children are already online. | -
+      cynical | believing that people are only interested in themselves and that nothing is honest | adj | I don't want my students to become cynical about the news. | - | n: Noun: cynicism.
+      manipulate | to influence someone cleverly or dishonestly so that they do what you want | v | Some adverts manipulate our emotions. | -
+      wary | careful because you think something might be dangerous or cause problems | adj | Teachers are wary of adding another subject. | - | c: wary of something
+      curriculum | all the subjects that are taught in a school or a course | n | Coding is now part of the national curriculum. | - | n: Plural: curricula or curriculums.
+      sophisticated | complicated and advanced, or showing a lot of knowledge and experience | adj | Fake videos are becoming more sophisticated. | -
+      fool | to trick someone into believing something that isn't true | v | Don't be fooled by the low price. | -
+      in effect | used to describe the real result of something, even if it isn't stated | expr | Waiting until secondary school means, in effect, waiting until habits are formed. | -
+    grammar:
+      title: Presenting and evaluating other people's views
+      body: |
+        In an argument, the reporting verb you choose shows your **attitude** to the view you report.
+
+        - **Neutral**: *say, state, explain, argue, suggest*: *Some teachers **argue** that the timetable is full.*
+        - **You accept it as true**: *point out, show, demonstrate, note*: *As researchers **have pointed out**, habits form early.*
+        - **You doubt it**: *claim, maintain, insist, allege*: *Critics **claim** that children are too young.* (= but I'm not convinced)
+        - **The other side concedes**: *acknowledge, admit, accept, concede*: *Even supporters **acknowledge** that it costs money.*
+
+        To report a view without naming a source, use **Some (people) would argue that…**, **It is often said that…** or **It has been argued that…**.
+
+        To **concede and then rebut** — the heart of a fair argument — use:
+        - **Admittedly, …, but…**: ***Admittedly**, the plan is expensive, **but** it will save money.*
+        - **It is true that… However, …**: ***It is true that** families play a role. **However**, …*
+        - **While / Although it is true that…, …**: ***While** parents are important, schools must lead.*
+      table: |
+        Function | Language | Example
+        neutral report | argue, state, suggest | Some argue that the timetable is full.
+        accept as true | point out, show, note | As one study shows, habits form early.
+        distance / doubt | claim, maintain, insist | Critics claim that it is too costly.
+        concede | acknowledge, admit, admittedly | Admittedly, it will take time.
+        rebut | However, … / Yet … / But … | Yet ten-year-olds are already online.
+      examples: |
+        Some will argue that this is a job for parents, not teachers. | | anticipating a counterargument
+        It is true that families play an important role. However, most parents were never taught these skills. | | concede, then rebut
+        Critics who maintain that we should wait are, in effect, arguing that we should wait until the habits are formed. | | maintain: the writer disagrees
+        As several researchers have pointed out, it is easier to build good habits than to break bad ones. | | point out: the writer agrees
+      tip: |
+        Use claim carefully. "The minister claimed that…" tells your reader you doubt the minister. If you want to be neutral, use said or stated.
+    reading:
+      title: Teach our children to doubt
+      text: |
+        Last month, my ten-year-old daughter came home from school convinced that a famous singer had died. She had seen it on a video app, along with thousands of sad comments. The singer, as it turned out, was alive and well and about to start a world tour. My daughter was embarrassed; I was worried. If a fake story could fool a bright ten-year-old so easily, what chance would she have against the far more sophisticated misinformation she will meet as an adult?
+
+        I believe the answer is simple: media literacy should be a compulsory subject in every primary school, taught as seriously as reading and math.
+
+        Some will argue that this is a job for parents, not teachers. It is true that families play an important role, and I am not suggesting that parents should step back. However, most parents were never taught these skills themselves, and many admit that they struggle to tell a reliable source from an unreliable one. Leaving it to families means leaving it to chance.
+
+        Others claim that the timetable is already overcrowded. Admittedly, this is a fair point, and teachers are right to be wary of yet another subject. But media literacy does not need to replace anything. It can be built into lessons that already exist: comparing two accounts of the same event in history, checking the data behind a graph in science, or analyzing the language of advertisements in English. What it needs is time, training and a clear place in the curriculum.
+
+        A third objection is that children are simply too young. Yet many ten-year-olds are already online for several hours a day. Critics who maintain that we should wait until secondary school are, in effect, arguing that we should wait until the habits are formed. As several educational researchers have pointed out, it is far easier to build good habits than to break bad ones.
+
+        Of course, the aim is not to make children cynical. A child who believes nothing is as easy to manipulate as a child who believes everything. The aim is to teach them to ask a few simple questions every time they read something: Who made this? Why? How do they know? What is missing? These questions sound basic, but adults who ask them regularly are much harder to fool.
+
+        No program is perfect, and the details will need careful thought. But the principle is clear. We teach children to look both ways before they cross the road — not because every car is dangerous, but because some are. It is time we taught them to look both ways before they share.
+    pronunciation:
+      title: Signposting with stress and pauses
+      body: |
+        When you read an argument aloud or present it, **signposting phrases** need a short pause after them and stress on the key word: *Admittedly, | this is a FAIR point.* *It is TRUE that… | HOWever, …*
+
+        The concession is usually said a little faster and lower, and the rebuttal that follows is louder and slower, because it carries your real message. Listen and repeat.
+      items: |
+        Admittedly, this is a fair point.
+        It is true that families play a role.
+        Some will argue that this is a job for parents.
+        As researchers have pointed out
+        Yet many children are already online.
+        It is time we taught them.
+    mistakes: |
+      Some people would argue me that it's too expensive. => Some people would argue that it's too expensive. | Argue is followed directly by that-clause, not by a person.
+      Admittedly that the plan is expensive, it will save money. => Admittedly, the plan is expensive, but it will save money. | Admittedly is an adverb; it isn't followed by that. Use a comma and a full clause, then but.
+      As the researchers have pointed, habits form early. => As the researchers have pointed out, habits form early. | The phrasal verb is point out — don't forget out.
+    task:
+      title: Your opinion piece
+      mode: writing
+      body: |
+        Write an opinion piece (250–300 words) for a news website on one of these topics: "Children under twelve shouldn't have smartphones," "Influencers should need a license to advertise," or "Local newspapers deserve public funding." Start with a short story or a striking fact, state your position, deal fairly with two counterarguments (concede, then rebut) and finish with a memorable final line. Then present your main argument and respond to challenges from the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      mc: What made the writer worried about her daughter? || Her daughter spent too long online. | *Her daughter believed a fake story about a singer. | Her daughter's school had stopped teaching reading. || Her daughter "came home… convinced that a famous singer had died," but it wasn't true. || @ctx reading @skill reading @tags en.reading
+      tf: The writer thinks media literacy should replace another school subject. || false || "Media literacy does not need to replace anything. It can be built into lessons that already exist." || @ctx reading @tags en.reading
+      short: What is the first question the writer wants children to ask about what they read? || kw: who & made/make/created/wrote || "Who made this?" || @ctx reading @tags en.reading
+      mc: Why does the writer mention "a child who believes nothing"? || To show that children are naturally cynical | *To show that doubting everything is also dangerous | To argue that children believe parents more than teachers || "A child who believes nothing is as easy to manipulate as a child who believes everything." || @ctx reading @skill reading @tags en.reading
+      mc: In which sentence does the writer clearly accept the reported view as true? || Critics claim that children are too young. | *As researchers have pointed out, habits form early. | Some insist that the timetable is full. || Point out presents information as a fact. Claim and insist suggest the writer is not convinced. || @tags en.reported-speech,en.opinion
+      mc: Which reporting verb suggests that the writer doubts the statement? || *claim | point out | demonstrate || Claim distances the writer from the statement. Point out and demonstrate present it as true. || @tags en.reported-speech,en.opinion
+      rw: Rewrite starting "It has been argued" :: Some people argue that social media makes us better informed. || It has been argued that social media makes us better informed. || It has been argued that… reports a view without naming who holds it. || @tags en.reported-speech,en.passive
+      rw: Rewrite using "Admittedly" :: I admit that the plan is expensive. However, it would save money in the long term. || Admittedly, the plan is expensive, but it would save money in the long term. | Admittedly, the plan is expensive. However, it would save money in the long term. | Admittedly, the plan is expensive, but in the long term it would save money. || Admittedly + concession, then but or However + your main point. || @tags en.opinion,en.connectors
+      fill: ___ several researchers have pointed out, it is easier to build good habits than to break bad ones. || As || As + subject + reporting verb introduces a view the writer agrees with. || @tags en.reported-speech,en.opinion
+      match: hook = an opening story or striking fact ; thesis = the writer's main position ; counterargument = an opposing view ; rebuttal = the writer's response to an opposing view ; call to action = what the writer wants readers to do || The main parts of an opinion piece. || @hint Match each part of an opinion piece with its purpose. @skill writing @tags en.writing
+      listen: Some people maintain that paper newspapers are dead. I'd point out, though, that local papers are still the most trusted source of news in many small towns. || What is the speaker's view? || Paper newspapers have no future. | *Local papers are still important and trusted. | Small towns don't need newspapers. || The speaker uses maintain for the view she doubts and point out for the fact she believes: local papers are still trusted. || @tags en.listening,en.reported-speech
+      order: It is true that families play an important role. || @tags en.opinion
+      dict: Critics claim that the school timetable is already overcrowded. || claim + that-clause
+      ask: A friend says, "Social media does more harm than good." Give your view, acknowledging at least one point on the other side before you rebut it. || kw: admittedly/it is true/it's true/while/although/I accept/I admit/I agree & however/but/yet/nevertheless/still || It's true that social media spreads a lot of misinformation, and it can be bad for teenagers' self-esteem. However, it has also helped people find support and organize community projects. Admittedly, we need better rules, but I don't think it does more harm than good overall.
+      write: Write the middle paragraph (110–130 words) of an opinion piece arguing that smartphones should be banned in schools. Present two counterarguments fairly and rebut them. || min=100 || req: argue/claim/maintain/insist/some people/critics/it has been argued | admittedly/it is true/it's true/while/although | however/but/yet || Some parents argue that children need their phones in case of an emergency. It is true that parents want to be able to contact their children, and this concern should be taken seriously. However, every school already has a phone and an office that can pass on urgent messages, so a ban would not leave anyone unreachable. Others claim that phones are useful learning tools. Admittedly, a phone can be used to look up information or record a science experiment, but schools can provide tablets for these activities when they are needed. What a ban removes is the constant distraction of messages and games, which, as many teachers have pointed out, makes it almost impossible to concentrate in class.

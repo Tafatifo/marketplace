@@ -1,0 +1,373 @@
+unit: 5
+title: Hjem og bolig
+theme: Home and housing
+description: Read flat ads and compare homes with comparatives, furnish a flat and share the chores with plural nouns, and get to know your neighbours with lige så … som and ikke så … som.
+free: false
+objectives:
+  - Find a flat and compare homes with comparatives and end
+  - Talk about furniture and chores with indefinite and definite plurals
+  - Get to know your neighbours and compare with lige så … som
+canDo:
+  - I can understand the key information in a flat ad and ask a landlord simple questions.
+  - I can compare two homes: bigger, cheaper, closer to the centre, more modern.
+  - I can form plural nouns like stole, lamper, børn and stolene, lamperne, børnene.
+  - I can talk to a neighbour and understand a notice in my building.
+review: |
+  fill: Lejligheden i Herning er ___ end lejligheden i Aarhus. (billig) || billigere || Billig + -ere: billigere. || @tags da.comparatives
+  mc: What is the comparative of "gammel"? || gamlere | *ældre | mere gammel || Gammel is irregular: gammel → ældre → ældst. || @tags da.comparatives
+  fill: Vi har købt tre nye ___. (en lampe) || lamper || Lampe takes -r in the plural: lamper. || @tags da.plural
+  fill: Hvor har du lagt ___? (the books — en bog) || bøgerne || Bog is irregular: bøger, and the definite plural adds -ne: bøgerne. || @tags da.plural,da.definite
+  mc: Choose the correct sentence. || *Der er flere naboer her end i Kolding. | Der er mere naboer her end i Kolding. | Der er flere naboer her som i Kolding. || Naboer can be counted, so use flere; "than" is end. || @tags da.comparatives,da.plural
+  mc: Which plural is correct? || to stoler | *to stole | to stolene || Stol takes -e: stole. Stolene means "the chairs" and doesn't follow a number. || @tags da.plural
+  rw: Use "lige så … som" :: Køkkenet er stort. Stuen er også stor. || Køkkenet er lige så stort som stuen. || Lige så + adjective + som; køkkenet is an et-word, so stort. || @tags da.comparatives,da.adjective-agreement
+  tr: Our new flat is cheaper than our old one. || Vores nye lejlighed er billigere end vores gamle. | Vores nye lejlighed er billigere end den gamle. | Vores nye lejlighed er billigere end den gamle lejlighed. || Billig → billigere + end. || @tags da.comparatives
+  listen: Lejligheden har tre værelser og en stor altan. Huslejen er 8.900 kroner, og den er ledig fra 1. juni. || When is the flat available? || *From 1 June | From 1 July | Right now || "Den er ledig fra 1. juni." || @tags da.listening
+  listen: Hej, det er din nabo fra fjerde sal. Må jeg låne en stige? Jeg skal skifte nogle pærer. || What does the neighbour want to borrow? || A drill | *A ladder | Some light bulbs || En stige = a ladder. The pærer (light bulbs) are what he wants to change. || @tags da.listening
+  ask: Describe your home to a friend — compare two rooms and say who does which chores. || kw: end/lige så/ikke så & støvsuger/vasker op/gør rent/vasker tøj/rydder op/tømmer || Stuen er større end soveværelset, men køkkenet er lige så lyst som stuen. Jeg støvsuger, og min kæreste vasker op.
+  write: Write an email to a friend about your new flat — compare it with your old one and describe the furniture. || min=40 || req: end | større/mindre/billigere/dyrere/lysere/bedre/lige så/ikke så | stole/lamper/reoler/skabe/borde/senge/sofaer || Hej Sune! Nu bor vi i vores nye lejlighed i Randers. Den er større end den gamle, og den er meget lysere. Vi har købt fire stole og to reoler, men vi mangler stadig lamper. Køkkenet er ikke så moderne som før, men det er hyggeligt. Kom snart på besøg! Hilsen Maria
+lessons:
+  - title: Finding a flat
+    summary: Read flat ads and compare homes — større, billigere, tættere på, mere moderne — with comparatives and end.
+    minutes: 40
+    skills: [reading, grammar, speaking]
+    tags: [da.comparatives, da.adjective-agreement]
+    objectives:
+      - Understand the key words in a flat ad
+      - Compare two homes with comparatives and end
+      - Ask a landlord simple questions about rent and moving in
+    intro: |
+      Finding a place to live in a Danish city can take time, and you will compare a lot of options: Is it bigger? Cheaper? Closer to the station? In Danish, most adjectives add **-ere** (*billig → billigere*), a few common ones are irregular (*stor → større, god → bedre*), and long ones use **mere** (*mere moderne*). In this lesson you will read flat ads and compare homes.
+    vocab: |
+      en husleje | rent | n | Huslejen er 7.500 kroner om måneden. | The rent is 7,500 kroner a month. | g: c | pl: huslejer | n: Heating and water often come on top: plus varme og vand.
+      et depositum | a deposit | n | Depositummet er tre måneders husleje. | The deposit is three months' rent. | g: n | pl: depositummer | n: Definite: depositummet.
+      en udlejer | a landlord | n | Udlejeren viser lejligheden på torsdag. | The landlord is showing the flat on Thursday. | g: c | pl: udlejere
+      en annonce | an ad; an advert | n | Jeg har set en annonce for en lejlighed i Valby. | I've seen an ad for a flat in Valby. | g: c | pl: annoncer
+      kvadratmeter | square metres | n | Lejligheden er på 65 kvadratmeter. | The flat is 65 square metres. | g: c | pl: kvadratmeter | n: Written m² in ads. Er på = has a size of.
+      en altan | a balcony | n | Vi drikker kaffe på altanen om morgenen. | We drink coffee on the balcony in the morning. | g: c | pl: altaner
+      en elevator | a lift; an elevator | n | Der er ingen elevator, og vi bor på fjerde sal. | There's no lift, and we live on the fourth floor. | g: c | pl: elevatorer | c: på fjerde sal (on the fourth floor)
+      lys | light; bright | adj | Stuen er meget lys om eftermiddagen. | The living room is very light in the afternoon. | n: Comparative: lysere.
+      billig | cheap | adj | Lejligheden i Valby er billigere end den på Nørrebro. | The flat in Valby is cheaper than the one in Nørrebro. | n: billig → billigere → billigst.
+      moderne | modern | adj | Køkkenet er mere moderne end i vores gamle lejlighed. | The kitchen is more modern than in our old flat. | n: Never changes. Comparative with mere: mere moderne.
+      tæt på | close to | expr | Huset ligger tæt på stationen. | The house is close to the station. | n: Comparative: tættere på (closer to).
+      ledig | available; vacant | adj | Lejligheden er ledig fra 1. maj. | The flat is available from 1 May. | n: About a person, ledig means unemployed.
+      flytte ind | to move in | expr | Hvornår kan vi flytte ind? | When can we move in? | n: The opposite: flytte ud (move out).
+    grammar:
+      title: "Comparatives: større, billigere, mere moderne"
+      body: |
+        To compare two things, use the **comparative** and **end** (than): *Lejligheden er billigere end huset.*
+
+        - Most adjectives add **-ere**: *billig → billigere, lys → lysere, ny → nyere, varm → varmere, lav → lavere.*
+        - After a short vowel, a single final consonant is doubled: *tæt → tættere, smuk → smukkere.*
+        - Some very common adjectives are **irregular**: *stor → større, lille → mindre, god → bedre, gammel → ældre, ung → yngre, lang → længere, mange → flere, meget → mere.*
+        - Long adjectives, and those ending in **-isk** or **-e**, use **mere**: *mere moderne, mere praktisk, mere spændende.*
+
+        The comparative **never changes** for en-words, et-words or plurals: *en større stue, et større køkken, større værelser.*
+
+        Put **meget** (much) or **lidt** (a bit) in front to say how big the difference is: *meget større, lidt billigere.*
+      table: |
+        Adjective | Comparative | Example
+        billig | billigere | Valby er billigere end Østerbro.
+        lys | lysere | Stuen er lysere end soveværelset.
+        tæt (på) | tættere (på) | Vi bor tættere på stranden nu.
+        stor | større | Køkkenet er større.
+        lille | mindre | Badeværelset er mindre.
+        god | bedre | Beliggenheden er bedre.
+        gammel | ældre | Huset er ældre end lejligheden.
+        moderne | mere moderne | Køkkenet er mere moderne.
+      examples: |
+        Den nye lejlighed er større end den gamle. | The new flat is bigger than the old one. | irregular: større
+        Huslejen i Aarhus er lavere end i København. | The rent in Aarhus is lower than in Copenhagen. | lav → lavere
+        Badeværelset er mindre, men det er mere moderne. | The bathroom is smaller, but it's more modern. | mindre and mere moderne
+        Vi har brug for et større værelse til børnene. | We need a bigger room for the children. | the comparative never changes
+      tip: "Learn the irregular five like a little poem: stor – større, lille – mindre, god – bedre, gammel – ældre, mange – flere."
+    dialogue:
+      title: Fremvisning i Valby
+      setting: A flat viewing in Valby, Copenhagen. Johanne and Hassan are looking for a bigger home, and the landlord, Bent, shows them a flat.
+      speakers: B=Bent/m; J=Johanne/f; H=Hassan/m
+      lines: |
+        B: Velkommen! Kom bare ind. Lejligheden er på 75 kvadratmeter. | Welcome! Come on in. The flat is 75 square metres.
+        J: Den er meget lysere end vores lejlighed nu. | It's much lighter than our flat now.
+        H: Og stuen er større. Hvad er huslejen? | And the living room is bigger. What's the rent?
+        B: 9.800 kroner om måneden plus varme. | 9,800 kroner a month plus heating.
+        H: Hm, det er tusind kroner mere, end vi betaler nu. | Hmm, that's a thousand kroner more than we pay now.
+        J: Men den ligger tættere på stationen. | But it's closer to the station.
+        B: Ja, og køkkenet er helt nyt. | Yes, and the kitchen is brand new.
+        J: Det er meget mere moderne end vores. | It's much more modern than ours.
+        H: Er der en altan? | Is there a balcony?
+        B: Ja, ud mod gården. Og der er elevator. | Yes, facing the courtyard. And there's a lift.
+        J: Hvornår er lejligheden ledig? | When is the flat available?
+        B: Fra 1. marts. Depositummet er tre måneders husleje. | From 1 March. The deposit is three months' rent.
+    pronunciation:
+      title: Comparatives with silent letters
+      body: |
+        Several comparatives hide silent letters. In **mindre** and **ældre** the d is silent: "MIN-re", "EL-re". In **bedre** the d is a soft d: "BETH-re". In **billigere** the g is silent: "BIL-li-e-re".
+
+        **Større** has a long, open ø and a vocalised r: roughly "STUR-a". In **længere** you hear the ng of English *sing*: "LENG-e-re". Listen, repeat each word, then say the whole sentence.
+      items: |
+        mindre
+        ældre
+        bedre
+        billigere
+        større
+        Stuen er større end køkkenet.
+    culture:
+      title: Finding a home in Denmark
+      body: |
+        In Copenhagen and Aarhus, rented flats go fast, and many people search on online housing portals every day. Ads often say **2 vær.** (two rooms) — Danes count the living room as a room. There are several types of housing: a privately rented **lejebolig**, an **almen bolig** (non-profit housing with a waiting list), an **andelsbolig** (a cooperative, where you buy a share) and an **ejerlejlighed** (a flat you own).
+
+        When you rent, expect to pay a deposit of up to three months' rent, and often some rent in advance, before you get the keys.
+    mistakes: |
+      Lejligheden er mere billig. => Lejligheden er billigere. | Short adjectives add -ere. Mere is for long ones like moderne and praktisk.
+      Huset er større som lejligheden. => Huset er større end lejligheden. | "Than" is end. Som goes with lige så: lige så stor som.
+      Køkkenet er storere. => Køkkenet er større. | Stor is irregular: stor → større.
+    task:
+      title: Call a landlord
+      mode: interaction
+      body: |
+        You have seen an ad for a flat. Phone the landlord: ask about the rent, the size, the deposit and when it's available, and compare it with where you live now (bigger, cheaper, closer to…). Record your side of the call in Speaking practice.
+    exercises: |
+      fill: Lejligheden i Valby er ___ end den på Østerbro. (billig) || billigere || Billig + -ere = billigere. || @tags da.comparatives
+      fill: Det nye køkken er ___ end det gamle. (stor) || større || Stor is irregular: større. || @tags da.comparatives
+      fill: Badeværelset er ___ moderne end i vores gamle lejlighed. || mere || Moderne is a long adjective, so it uses mere. || @tags da.comparatives
+      mc: What is the comparative of "god"? || godere | *bedre | mere god || God is irregular: god → bedre → bedst. || @tags da.comparatives
+      mc: Choose the correct sentence. || Huset er ældre som lejligheden. | *Huset er ældre end lejligheden. | Huset er mere gammel end lejligheden. || Gammel → ældre, and "than" is end. || @tags da.comparatives
+      match: stor = større ; lille = mindre ; god = bedre ; gammel = ældre ; ung = yngre ; mange = flere || The most common adjectives have irregular comparatives. || @tags da.comparatives
+      tf: The new flat is cheaper than Hassan and Johanne's flat now. || false || Hassan says: "Det er tusind kroner mere, end vi betaler nu." || @ctx dialogue
+      short: Why does Johanne like the location? || kw: station/tættere/closer/close || "Den ligger tættere på stationen" — it's closer to the station. || @ctx dialogue
+      listen: @dialogue || When is the flat available? || *From 1 March | From 1 May | Right now || "Fra 1. marts." || @tags da.listening
+      listen: Til leje i Horsens. Lys toværelses lejlighed på 58 kvadratmeter. Husleje 6.200 kroner. Ledig fra 1. april. || How big is the flat? || 85 m² | *58 m² | 62 m² || "58 kvadratmeter" — otteoghalvtreds. 85 would be femogfirs. || @tags da.numbers,da.listening
+      rw: Make one sentence with "end" :: Stuen er lys. Soveværelset er mørkt. || Stuen er lysere end soveværelset. || Lys → lysere + end. || @tags da.comparatives
+      tr: Our new flat is bigger and closer to the centre. || Vores nye lejlighed er større og tættere på centrum. | Vores nye lejlighed er større og ligger tættere på centrum. | Vores nye lejlighed er større og tættere på byen. | Vores nye lejlighed er større og ligger tættere på byen. || Stor → større, tæt på → tættere på. || @tags da.comparatives
+      ask: Compare where you live now with your dream home — use at least two comparatives. || kw: end & større/mindre/billigere/dyrere/lysere/bedre/tættere/mere || Min drømmebolig er større end min lejlighed nu, og den ligger tættere på vandet. Den er også mere moderne.
+      write: Answer a flat ad — introduce yourself, say why the flat interests you (compare it with where you live now), and ask two questions. || min=40 || req: end | husleje/depositum/ledig/flytte ind | hvornår/hvad/er der/kan jeg || Hej Bent. Jeg hedder Lucía, og jeg har set din annonce. Lejligheden er større end mit værelse nu, og den ligger tættere på mit arbejde. Hvad er depositummet? Og hvornår kan jeg flytte ind? Jeg kan gerne komme og se den på torsdag. Venlig hilsen Lucía Romero
+      dict: Den nye lejlighed er lysere og tættere på stationen.
+
+  - title: Furniture and chores
+    summary: Furnish a flat and share the housework — with plural nouns, indefinite and definite (stole, stolene; børn, børnene).
+    minutes: 40
+    skills: [vocabulary, grammar, writing]
+    tags: [da.plural, da.definite]
+    objectives:
+      - Name furniture and things in the home
+      - Form indefinite and definite plurals
+      - Talk about chores and who does what
+    intro: |
+      When you move in, you count things: three chairs, two lamps, far too many boxes. Danish plurals come in three main patterns — **-er**, **-e** and **no ending** — plus a few irregular ones, and the definite plural adds **-ne** or **-ene**. In this lesson you will furnish a flat and divide the housework fairly.
+    vocab: |
+      en sofa | a sofa | n | Vi har købt en brugt sofa på nettet. | We've bought a second-hand sofa online. | g: c | pl: sofaer
+      en reol | a bookcase; shelves | n | Reolerne i stuen er fulde af bøger. | The shelves in the living room are full of books. | g: c | pl: reoler
+      et skab | a cupboard; a wardrobe | n | Glassene står i skabet over vasken. | The glasses are in the cupboard above the sink. | g: n | pl: skabe
+      en lampe | a lamp | n | Vi mangler to lamper til soveværelset. | We need two lamps for the bedroom. | g: c | pl: lamper
+      et tæppe | a rug; a blanket | n | Tæppet i stuen er fra min mormor. | The rug in the living room is from my grandmother. | g: n | pl: tæpper
+      en flyttekasse | a moving box | n | Vi har stadig tyve flyttekasser i gangen. | We still have twenty moving boxes in the hall. | g: c | pl: flyttekasser
+      en ting | a thing | n | Vi har alt for mange ting! | We have far too many things! | g: c | pl: ting | n: No ending in the plural: en ting, mange ting.
+      støvsuge | to vacuum; to hoover | v | Jeg støvsuger hele lejligheden om lørdagen. | I vacuum the whole flat on Saturdays. | n: Past: støvsugede. The machine is en støvsuger.
+      vaske op | to do the dishes | expr | Hvem vasker op i aften? | Who's doing the dishes tonight? | n: Past: vaskede op. Many Danes also say tage opvasken.
+      gøre rent | to clean | expr | Vi gør rent på badeværelset hver fredag. | We clean the bathroom every Friday. | n: Irregular: gjorde rent, har gjort rent.
+      vaske tøj | to do the laundry | expr | Jeg vasker tøj to gange om ugen. | I do the laundry twice a week.
+      tømme | to empty | v | Kan du tømme skraldespanden? | Can you empty the bin? | n: Past: tømte.
+      en skraldespand | a (rubbish) bin | n | Skraldespandene står i gården. | The bins are in the courtyard. | g: c | pl: skraldespande
+    grammar:
+      title: "Plural nouns: stole and stolene"
+      body: |
+        Danish has three main plural patterns. Dictionaries always show the plural, so learn it with the noun:
+
+        1. **-er** — many en-words and most words ending in -e: *en lampe → lamper, en sofa → sofaer, en reol → reoler, et tæppe → tæpper, et vindue → vinduer.*
+        2. **-e** — many one-syllable words: *en stol → stole, et bord → borde, en seng → senge, et skab → skabe, en skraldespand → skraldespande.*
+        3. **No ending** — many short et-words and a few en-words: *et glas → glas, et rum → rum, et ben → ben, en ting → ting, en sko → sko.*
+
+        A few very common nouns are **irregular**: *et barn → børn, en mand → mænd, en bog → bøger, en hånd → hænder, en fod → fødder.* Nouns ending in -er add -e: *en computer → computere, en lærer → lærere.*
+
+        The **definite plural** (*the chairs*) adds **-ne** to plurals ending in -e or -er: *lamperne, stolene, reolerne*. Plurals with no ending add **-ene**: *tingene, børnene, glassene* — doubling a final consonant after a short vowel (*glas → glassene, rum → rummene*).
+
+        After numbers and *mange*, use the indefinite plural: *to stole, mange ting.* Adjectives in the plural add -e: *store vinduer, nye lamper.*
+      table: |
+        Singular | Plural | Definite plural
+        en lampe | lamper | lamperne
+        en sofa | sofaer | sofaerne
+        en stol | stole | stolene
+        et bord | borde | bordene
+        et glas | glas | glassene
+        en ting | ting | tingene
+        et barn | børn | børnene
+        en bog | bøger | bøgerne
+      examples: |
+        Vi har fire stole, men kun to borde. | We have four chairs but only two tables. | -e plural after a number
+        Lamperne i køkkenet er nye. | The lamps in the kitchen are new. | definite plural: -ne
+        Hvem har vasket glassene? | Who has washed the glasses? | glas → glassene
+        Børnene rydder op på deres værelser hver søndag. | The children tidy their rooms every Sunday. | barn → børn → børnene
+      tip: "Learn every new noun in three forms: en stol – stole – stolene, et glas – glas – glassene. Say them aloud like a little rhythm."
+    dialogue:
+      title: Flyttedag i Holstebro
+      setting: Moving day in a flat in Holstebro. Two friends, Ditte and Noah, have just moved in together and are looking at all their boxes.
+      speakers: D=Ditte/f; N=Noah/m
+      lines: |
+        D: Puha! Hvor mange flyttekasser har vi egentlig? | Phew! How many moving boxes do we actually have?
+        N: Toogtyve. Og alle bøgerne er i dem her. | Twenty-two. And all the books are in these ones.
+        D: Hvor skal reolerne stå? | Where should the bookcases go?
+        N: I stuen, ved siden af vinduerne. | In the living room, next to the windows.
+        D: Og lamperne? Vi har kun to. | And the lamps? We only have two.
+        N: Vi køber flere i weekenden. Og nogle stole. | We'll buy more at the weekend. And some chairs.
+        D: Okay. Skal vi lave en plan for rengøringen? | Okay. Shall we make a plan for the cleaning?
+        N: God idé. Jeg kan godt støvsuge og tømme skraldespandene. | Good idea. I'm happy to vacuum and empty the bins.
+        D: Så vasker jeg op og gør rent på badeværelset. | Then I'll do the dishes and clean the bathroom.
+        N: Og tøjet? Vi har ingen vaskemaskine. | And the laundry? We don't have a washing machine.
+        D: Der er et fælles vaskeri i kælderen. Jeg har set skiltet. | There's a shared laundry room in the basement. I've seen the sign.
+        N: Perfekt. Nu mangler vi bare en sofa! | Perfect. Now we just need a sofa!
+    pronunciation:
+      title: "Quick plural endings: -ne and -erne"
+      body: |
+        Definite plural endings are unstressed and quick — keep the stress on the first syllable. **Stolene** sounds like "STO-le-ne", and **tingene** like "TING-e-ne".
+
+        In **-erne**, the r is vocalised, so **lamperne** sounds like "LAM-pa-ne" and **vinduerne** like "VIN-du-a-ne". In **børnene** the r is almost silent: "BØ-ne-ne". Listen and repeat, then ask the whole question.
+      items: |
+        stolene
+        tingene
+        lamperne
+        vinduerne
+        børnene
+        Hvor er glassene?
+    culture:
+      title: Sharing the housework
+      body: |
+        Danish couples are among the most equal in Europe when it comes to sharing housework, and children often have small daily chores, **pligter**, such as laying the table or emptying the dishwasher. Many families make a weekly plan on the fridge.
+
+        Sorting rubbish is a daily chore too: Danish households sort their waste into up to ten types — food waste, paper, cardboard, plastic, glass, metal, food and drink cartons, textiles, hazardous waste and the rest. And when you visit a Danish home, you usually take your shoes off at the door.
+    mistakes: |
+      Vi har to stoler. => Vi har to stole. | Stol takes -e in the plural: stole.
+      Bogene står på reolen. => Bøgerne står på reolen. | Bog is irregular: en bog, bøger, bøgerne.
+      Vi har mange tinger. => Vi har mange ting. | Ting has no ending in the plural.
+    task:
+      title: A cleaning plan
+      mode: writing
+      body: |
+        You share a flat with two people. Write a message to your flatmates with a cleaning plan for the week: which chores, who does what and on which day, and three things you need to buy for the flat. Use at least four plural nouns.
+    exercises: |
+      fill: Vi har seks ___ i køkkenet. (en stol) || stole || Stol takes -e in the plural: stole. || @tags da.plural
+      fill: Hvor er ___? Jeg kan ikke finde dem. (the lamps — en lampe) || lamperne || Lamper + -ne = lamperne. || @tags da.plural,da.definite
+      fill: ___ leger i gården. (the children — et barn) || Børnene || Barn is irregular: børn, børnene. || @tags da.plural,da.definite
+      mc: What is the plural of "en bog"? || boger | *bøger | boge || Bog is irregular: the vowel changes, and it adds -er: bøger. || @tags da.plural
+      mc: "Glassene" means… || a glass | the glass | *the glasses || Glas has no plural ending; the definite plural adds -ene (with double s): glassene. || @tags da.plural,da.definite
+      match: en sofa = sofaer ; et bord = borde ; et glas = glas ; en mand = mænd ; en fod = fødder ; en reol = reoler || Learn the plural together with each new noun. || @tags da.plural
+      tf: Ditte and Noah have a washing machine in the flat. || false || "Vi har ingen vaskemaskine" — but there's a shared laundry room in the basement. || @ctx dialogue
+      short: Which chores will Noah do? || kw: støvsuge/vacuum/hoover/skraldespand/skraldespandene/bins || "Jeg kan godt støvsuge og tømme skraldespandene." || @ctx dialogue
+      listen: @dialogue || How many moving boxes do they have? || 12 | *22 | 32 || "Toogtyve" = 22 (two-and-twenty). || @tags da.numbers,da.listening
+      listen: Kan du tømme skraldespandene og vaske glassene, før gæsterne kommer? || What should the person do before the guests arrive? || Vacuum and clean the bathroom | *Empty the bins and wash the glasses | Buy chairs and lamps || "Tømme skraldespandene og vaske glassene." || @tags da.plural,da.listening
+      rw: Make it two lamps :: Jeg har købt en ny lampe. || Jeg har købt to nye lamper. || Plural noun (lamper) and plural adjective (nye). || @tags da.plural,da.adjective-agreement
+      tr: The books are on the shelves. || Bøgerne står på reolerne. | Bøgerne er på reolerne. | Bøgerne står på reolen. | Bøgerne er på reolen. || Bog → bøger → bøgerne. Danes say things "stand" on a shelf: står. || @tags da.plural,da.definite
+      ask: Tell a flatmate which chores you will do this week and what you need to buy. || kw: støvsuge/støvsuger/vaske op/vasker op/gøre rent/gør rent/vasker tøj/tømme/tømmer & lamper/stole/glas/tallerkener/skabe/reoler/borde/puder || I denne uge støvsuger jeg og vasker tøj. Vi skal også købe to lamper og nogle nye glas.
+      write: Write a message to your flatmates with a cleaning plan for the week. || min=35 || req: støvsuger/vasker op/gør rent/vasker tøj/tømmer | mandag/tirsdag/onsdag/torsdag/fredag/lørdag/søndag | skraldespandene/glassene/lamper/stole/ting || Hej begge to! Her er en plan for ugen: Om mandagen støvsuger jeg stuen. Om onsdagen gør Oskar rent på badeværelset, og Nadia vasker tøj om torsdagen. Vi tømmer skraldespandene hver aften. Vi mangler også to stole og nogle glas. Hilsen Liam
+      dict: Børnene har ryddet op, men glassene står stadig på bordet.
+
+  - title: Neighbours and community
+    summary: Get to know your neighbours, understand notices in your building, and compare with lige så … som, ikke så … som, flere and mere.
+    minutes: 40
+    skills: [listening, speaking, writing]
+    tags: [da.comparatives, da.plural, da.adjective-agreement]
+    objectives:
+      - Greet and talk to neighbours in your building
+      - Understand notices about shared spaces
+      - Compare with lige så … som, ikke så … som, flere and mere
+    intro: |
+      In a Danish apartment building you share a lot: the stairwell, the courtyard, the laundry room and the bike room. Neighbours meet at the residents' meeting or at a summer party in the courtyard. In this lesson you will talk to a new neighbour, understand notices in your building, and compare your old and new home with **lige så … som** (as … as) and **ikke så … som** (not as … as).
+    vocab: |
+      en nabo | a neighbour | n | Vores naboer på tredje sal er meget venlige. | Our neighbours on the third floor are very friendly. | g: c | pl: naboer
+      en opgang | a stairwell (and the flats around it) | n | Vi bor i samme opgang som min søster. | We live in the same stairwell as my sister. | g: c | pl: opgange | n: In Danish blocks, each opgang has its own entrance and stairs.
+      en gård | a courtyard | n | Børnene spiller fodbold i gården. | The children play football in the courtyard. | g: c | pl: gårde | n: Gård also means farm.
+      en cykelkælder | a bike room (in the basement) | n | Du kan stille din cykel i cykelkælderen. | You can put your bike in the bike room. | g: c | pl: cykelkældre
+      et vaskeri | a laundry room | n | Man skal booke en tid i vaskeriet. | You have to book a time in the laundry room. | g: n | pl: vaskerier
+      et beboermøde | a residents' meeting | n | Der er beboermøde i fælleshuset på tirsdag. | There's a residents' meeting in the common house on Tuesday. | g: n | pl: beboermøder
+      et opslag | a notice | n | Har du læst opslaget ved hoveddøren? | Have you read the notice by the front door? | g: n | pl: opslag
+      larme | to make a noise | v | Undskyld, at vi larmede i går aftes. | Sorry that we made so much noise last night. | n: Past: larmede. The noun is larm (noise).
+      sortere affald | to sort rubbish | expr | Vi sorterer affald i ti forskellige spande. | We sort our rubbish into ten different bins. | n: Affald = rubbish, waste.
+      låne | to borrow | v | Må jeg låne din boremaskine? | May I borrow your drill? | n: Past: lånte. Kan du låne mig…? means "Can you lend me…?"
+      en fællesspisning | a communal dinner | n | Vi har fællesspisning i gården en gang om måneden. | We have a communal dinner in the courtyard once a month. | g: c | pl: fællesspisninger
+      lige så … som | as … as | expr | Gården er lige så grøn som en park. | The courtyard is as green as a park. | n: The negative: ikke så … som (not as … as).
+      rolig | quiet; calm | adj | Det er et roligt kvarter med mange familier. | It's a quiet neighbourhood with lots of families. | n: Et-words: roligt. Comparative: roligere.
+    grammar:
+      title: "Lige så … som, ikke så … som, flere and mere"
+      body: |
+        Besides the comparative + **end**, Danish compares in two more ways:
+
+        - **lige så + adjective + som** = *as … as*: *Gården er lige så stor som en fodboldbane.*
+        - **ikke så + adjective + som** = *not as … as*: *Livet i byen er ikke så roligt som på landet.*
+
+        The adjective keeps its normal agreement with the noun it describes: *Huset er lige så **gammelt** som kirken* (huset is an et-word). *Værelserne er ikke så **store** som i vores gamle lejlighed* (plural).
+
+        **More and fewer.** With nouns you can count (plurals), *more* is **flere** and *fewer* is **færre**: *Der er flere børn i vores opgang end i jeres. Vi har færre naboer nu.* With things you can't count, *more* is **mere**: *Der er mere larm om sommeren. Vi har mere plads nu.*
+
+        After *end* and *som*, Danes usually use the object form of a pronoun in speech: *Hun er ældre end mig. Han er lige så høj som dig.*
+      table: |
+        Pattern | Example | Meaning
+        lige så … som | Vores gård er lige så stor som jeres. | as big as
+        ikke så … som | Kvarteret er ikke så roligt som før. | not as quiet as
+        flere + plural | Der er flere børn her end i Kolding. | more (things you count)
+        færre + plural | Vi har færre naboer nu. | fewer
+        mere + no plural | Der er mere larm om sommeren. | more (things you can't count)
+      examples: |
+        Gården er lige så stor som en fodboldbane. | The courtyard is as big as a football pitch. | lige så … som
+        Livet i byen er ikke så roligt som på landet. | Life in the city isn't as quiet as in the countryside. | ikke så … som; roligt agrees with livet
+        Der er flere cykler end mennesker i vores opgang! | There are more bikes than people in our stairwell! | flere + plural
+        Der er mere støj om sommeren, fordi vinduerne er åbne. | There's more noise in summer because the windows are open. | mere + uncountable
+      tip: "Flere for things you can count (flere naboer, flere cykler); mere for things you can't (mere larm, mere plads)."
+    dialogue:
+      title: Den nye nabo
+      setting: The stairwell of an apartment building on Amager in Copenhagen. Josefine has just moved in and meets her neighbour Jørgen, a retired bus driver.
+      speakers: J=Jørgen/m; F=Josefine/f
+      lines: |
+        J: Hej! Er du den nye nabo på anden sal? | Hi! Are you the new neighbour on the second floor?
+        F: Ja, jeg hedder Josefine. Jeg flyttede ind i mandags. | Yes, I'm Josefine. I moved in last Monday.
+        J: Velkommen til opgangen! Jeg hedder Jørgen. | Welcome to the building! I'm Jørgen.
+        F: Tak! Undskyld, at vi larmede med flyttekasserne. | Thanks! Sorry we were so noisy with the moving boxes.
+        J: Det er helt i orden. Hvor boede du før? | That's quite all right. Where did you live before?
+        F: I Kolding. Der var ikke så travlt som her. | In Kolding. It wasn't as busy as here.
+        J: Nej, men gården her er lige så grøn som en park. | No, but the courtyard here is as green as a park.
+        F: Det er rigtigt. Hvor er cykelkælderen? | That's true. Where's the bike room?
+        J: Under opgangen. Og vaskeriet er ved siden af. | Under the stairwell. And the laundry room is next to it.
+        J: Husk at booke en tid på listen ved døren. | Remember to book a time on the list by the door.
+        F: Tak for hjælpen. Er der mange børn i opgangen? | Thanks for your help. Are there many children in the building?
+        J: Flere end før! Og på lørdag er der fællesspisning i gården. | More than before! And on Saturday there's a communal dinner in the courtyard.
+    pronunciation:
+      title: "Long compounds: stress the first part"
+      body: |
+        Danish loves long compound words. Stress the **first** part and say the rest more quietly: **cykelkælder** ("CY-kel-kæl-der"), **fællesspisning** ("FÆL-les-spis-ning"), **opgang** ("OP-gang").
+
+        Two traps: in **beboermøde** the prefix be- is never stressed, so the stress falls on -bo-: "be-BO-er-mø-de". And **vaskeri** is not a compound — the ending -eri takes the stress: "vas-ke-RI". Listen and repeat.
+      items: |
+        cykelkælder
+        fællesspisning
+        opgang
+        beboermøde
+        vaskeri
+        Hvor er cykelkælderen?
+    culture:
+      title: Life in a Danish apartment block
+      body: |
+        Many apartment buildings have a residents' association with a yearly **beboermøde**, where neighbours vote on things like a new bike room or a courtyard party. A caretaker, **en vicevært**, looks after the building. Most buildings have house rules — **en husorden** — for example about quiet hours in the evening and booking the laundry room.
+
+        Neighbours often say hello on the stairs but keep some distance. A summer party in the courtyard, a **gårdfest**, or a communal dinner is the easiest way to get to know them — and a short note in the stairwell before your own party is always appreciated.
+    mistakes: |
+      Huset er lige så stor som kirken. => Huset er lige så stort som kirken. | The adjective still agrees with the noun: huset is an et-word, so stort.
+      Der er mere børn her. => Der er flere børn her. | Countable plural nouns take flere; mere is for things you can't count.
+      Min lejlighed er ikke så stor end din. => Min lejlighed er ikke så stor som din. | After så, use som — never end.
+    task:
+      title: A note for the stairwell
+      mode: writing
+      body: |
+        You are having a birthday party on Saturday. Write a friendly note (et opslag) for your neighbours: say who you are and where you live, when the party is, apologise in advance for any noise, and invite them for a drink.
+    exercises: |
+      fill: Vores nye lejlighed er lige så lys ___ vores gamle. || som || Lige så … som = as … as. || @tags da.comparatives
+      fill: Der er ___ børn i vores opgang end i jeres. (more) || flere || Børn can be counted, so "more" is flere. || @tags da.comparatives,da.plural
+      fill: Om sommeren er der ___ larm i gården. (more) || mere || Larm (noise) can't be counted, so "more" is mere. || @tags da.comparatives
+      mc: Choose the correct sentence. || Huset er lige så gammel som kirken. | *Huset er lige så gammelt som kirken. | Huset er lige så gammelt end kirken. || Huset is an et-word, so gammelt; lige så goes with som. || @tags da.comparatives,da.adjective-agreement
+      mc: "Kvarteret er ikke så roligt som før" means… || The area is quieter than before. | *The area isn't as quiet as before. | The area is as quiet as before. || Ikke så … som = not as … as. || @tags da.comparatives
+      mc: You want to use your neighbour's drill. You ask: || *Må jeg låne din boremaskine? | Må du låne min boremaskine? | Jeg låner din boremaskine. || Må jeg låne…? = May I borrow…? The other two ask about your own drill or simply take it. || @tags da.modal-verbs
+      tf: Josefine moved in last Monday. || true || "Jeg flyttede ind i mandags." || @ctx dialogue
+      short: Where is the laundry room? || kw: ved siden af/next to/cykelkælder/bike room/under || "Vaskeriet er ved siden af" — next to the bike room, under the stairwell. || @ctx dialogue
+      listen: @dialogue || What happens on Saturday? || A residents' meeting | *A communal dinner in the courtyard | A party in Josefine's flat || "På lørdag er der fællesspisning i gården." || @tags da.listening
+      listen: Beboermøde i fælleshuset tirsdag klokken nitten. Vi taler om den nye cykelkælder og sommerfesten. Alle er velkomne. || Where is the meeting? || In the courtyard | *In the common house | In the bike room || "Beboermøde i fælleshuset" — in the common house. || @tags da.listening
+      rw: Use "ikke så … som" :: Min nye opgang er mindre end min gamle. || Min nye opgang er ikke så stor som min gamle. || Mindre end = ikke så stor som. || @tags da.comparatives
+      tr: Our courtyard is as big as a football pitch. || Vores gård er lige så stor som en fodboldbane. | Vores gårdhave er lige så stor som en fodboldbane. || Lige så + stor (en gård) + som. || @tags da.comparatives
+      ask: Tell a new neighbour where you lived before and compare it with your new home — use lige så … som or ikke så … som. || kw: lige så/ikke så & som || Før boede jeg i Vejle. Der var ikke så travlt som her, men min nye lejlighed er lige så hyggelig som min gamle.
+      write: Write a note for your stairwell — you are having a party on Saturday. || min=35 || req: fest | lørdag | undskyld/beklager | velkommen/velkomne/kig forbi || Kære naboer! Jeg hedder Kiran og bor på tredje sal til venstre. På lørdag holder jeg fødselsdagsfest fra klokken otte. Undskyld på forhånd, hvis der bliver lidt larm. Kig gerne forbi til et glas vin – I er alle velkomne! Mange hilsner Kiran
+      dict: Der er flere cykler end mennesker i vores cykelkælder.

@@ -1,0 +1,372 @@
+unit: 3
+title: La salud y el cuerpo
+theme: Health and the body
+description: Say what hurts and how you feel, understand a doctor's and a pharmacist's instructions in the usted imperative, and give advice about healthy habits with tener que, hay que and deber.
+free: false
+objectives:
+  - Describe aches, pains and symptoms with doler, tener and estar
+  - Understand and follow medical instructions in the usted imperative
+  - Give advice about healthy habits with tener que, hay que, deber and the tú imperative
+canDo:
+  - I can say what hurts and describe simple symptoms.
+  - I can explain my problem to a doctor or a pharmacist and understand how to take a medicine.
+  - I can give a friend simple advice about sleep, food and exercise.
+  - I can tell the difference between "you don't have to" and "you shouldn't".
+review: |
+  fill: A Carmen le ___ las piernas después del partido. || duelen || Doler agrees with what hurts: las piernas (plural) → duelen. || @tags es.doler
+  mc: How do you say "I've got a cough"? || *Tengo tos. | Estoy tos. | Me duele la tos. || Tos is a noun, so it goes with tener: tengo tos. || @tags es.tener
+  fill: Señor Ruiz, ___ (tomar) este jarabe antes de dormir. || tome || Usted imperative of -ar verbs: -e. || @tags es.imperative
+  fill: ___ (venir, usted) a verme dentro de diez días. || venga || Venir → vengo → venga: the usted imperative starts from the yo form. || @tags es.imperative
+  mc: The doctor says: «___ la camisa, por favor.» (quitarse) || Quítate | *Quítese | Quite || With usted, the reflexive pronoun is se, attached to the end: quítese. Quítate is the tú form. || @tags es.imperative,es.register
+  fill: Para estar en forma, ___ que moverse todos los días. || hay || A general rule for everyone: hay que + infinitive. || @tags es.hay
+  rw: Give the advice as a tú imperative :: Tienes que hacer más deporte. || Haz más deporte. | ¡Haz más deporte! || The tú imperative of hacer is irregular: haz. || @tags es.imperative
+  tr: My stomach hurts. || Me duele el estómago. | Me duele la barriga. | Me duele la tripa. || Doler + article: me duele el estómago (not mi estómago). || @tags es.doler
+  listen: Tome estas pastillas tres veces al día, siempre después de las comidas. || When should you take the pills? || *After meals | Before meals | On an empty stomach || "Siempre después de las comidas" — always after meals. || @tags es.listening,es.imperative
+  listen: Hola, Elisa, soy Andrés. Hoy no voy a clase: estoy resfriado y me duele mucho la garganta. || Why isn't Andrés going to class? || *He has a cold and a sore throat | He has a stomach ache | He has a dentist's appointment || "Estoy resfriado y me duele mucho la garganta." || @tags es.listening,es.doler
+  ask: Tell the doctor what's wrong: give at least two symptoms. || kw: me duele/me duelen/dolor & tengo/estoy || Me duele mucho la cabeza, tengo fiebre y estoy muy cansada.
+  write: Write a message to a friend who is ill. Ask how they are and give three pieces of advice. || min=30 || req: tienes que/debes/hay que || ¡Hola, Pedro! ¿Qué tal estás? Siento mucho lo de la gripe. Tienes que descansar mucho y debes beber mucha agua. Toma una sopa caliente por la noche y quédate en casa hasta el lunes. Si necesitas algo, llámame. Un abrazo, Nuria
+lessons:
+  - title: Aches and pains
+    summary: Say what hurts and how you feel with doler, tener and estar, and ask other people what's wrong.
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.doler, es.tener, es.estar]
+    objectives:
+      - Name the main parts of the body
+      - Say what hurts with me duele and me duelen
+      - Describe symptoms with tener (fiebre, tos) and estar (resfriado, mareado)
+    intro: |
+      "I've got a headache", "my back hurts", "I think I've got a cold": you need these phrases at work, with friends and at the doctor's. Spanish says what hurts with **doler**, a verb that works like *gustar*, and describes other symptoms with **tener** and **estar**.
+    vocab: |
+      la cabeza | head | n | Me duele mucho la cabeza. | I've got a bad headache. | g: f
+      la garganta | throat | n | Me duele la garganta y casi no puedo hablar. | I've got a sore throat and I can hardly talk. | g: f
+      la espalda | back | n | Después de la mudanza me duele la espalda. | My back hurts after the move. | g: f
+      el estómago | stomach | n | Me duele el estómago: comí demasiado. | My stomach hurts: I ate too much. | g: m | n: Informal in Spain: la barriga, la tripa.
+      la muela | back tooth; molar | n | Me duelen las muelas. | I've got toothache. | g: f | n: Toothache = dolor de muelas. A front tooth is un diente.
+      el oído | (inner) ear; hearing | n | El niño tiene dolor de oído. | The child has earache. | g: m | n: La oreja is the outer ear.
+      doler | to hurt | v | ¿Te duele aquí? | Does it hurt here? | n: Stem change o → ue: duele, duelen.
+      tener fiebre | to have a temperature | expr | Tengo fiebre: treinta y ocho y medio. | I've got a temperature: 38.5. | n: No article: tener fiebre, tener tos.
+      la tos | cough | n | Por la noche tengo mucha tos. | At night I cough a lot. | g: f
+      estar resfriado / resfriada | to have a cold | expr | Creo que estoy resfriada. | I think I've got a cold. | n: In Spain also estar constipado — it doesn't mean "constipated"!
+      estar mareado / mareada | to feel dizzy; to feel sick | expr | En el barco estuve mareado todo el viaje. | I felt sick on the boat the whole trip.
+      ¿qué te pasa? | what's wrong? | expr | Tienes mala cara. ¿Qué te pasa? | You don't look well. What's wrong? | n: Formal: ¿Qué le pasa?
+      hacerse daño | to hurt yourself | expr | Me he hecho daño en el tobillo. | I've hurt my ankle. | n: In Latin America: lastimarse.
+    grammar:
+      title: "Doler: me duele la cabeza"
+      body: |
+        **Doler** (to hurt) works like **gustar**: what hurts is the subject, and the person goes in a pronoun before the verb (*me, te, le, nos, os, les*).
+        - One thing hurts → **duele**: *Me duele la cabeza.*
+        - Several things hurt → **duelen**: *Me duelen los pies.*
+
+        With parts of the body, use the **article**, not a possessive: *Me duele la espalda* (not *mi espalda*). The pronoun *me* already says whose back it is.
+
+        To make it clear who, or for emphasis, add *a mí, a ti, a mi hijo…*: *A mi hijo le duele el oído.*
+
+        For other symptoms:
+        - **tener** + noun: *tengo fiebre, tengo tos, tengo dolor de cabeza*
+        - **estar** + adjective, agreeing with the person: *estoy resfriado / resfriada, estoy mareado / mareada*
+
+        To ask: *¿Qué te pasa?* (tú) / *¿Qué le pasa?* (usted) and *¿Te duele?*
+      table: |
+        Person | Pronoun | One thing | Several things
+        (a mí) | me | me duele la cabeza | me duelen los ojos
+        (a ti) | te | te duele la espalda | te duelen las piernas
+        (a él / a ella / a usted) | le | le duele el estómago | le duelen las muelas
+        (a nosotros / a nosotras) | nos | nos duele la garganta | nos duelen los pies
+        (a vosotros / a vosotras) | os | os duele el oído | os duelen los brazos
+        (a ellos / a ellas / a ustedes) | les | les duele la cabeza | les duelen las rodillas
+      examples: |
+        Me duele la garganta y tengo un poco de fiebre. | I've got a sore throat and a slight temperature.
+        A mi padre le duelen las rodillas cuando sube escaleras. | My father's knees hurt when he goes up stairs.
+        ¿Os duele algo? | Does anything hurt? (to several people) | Spain; in Latin America: ¿Les duele algo?
+        Estoy mareada y tengo dolor de estómago. | I feel dizzy and I've got a stomach ache.
+      tip: "Tener dolor de + body part is the noun version: tengo dolor de cabeza = me duele la cabeza. Both are very common."
+    dialogue:
+      title: Un lunes por la mañana
+      setting: Monday, 7.30 a.m., in a flat in Santander. Carolina wakes up her fourteen-year-old son Unai, who says he is too ill for school.
+      speakers: C=Carolina/f; U=Unai/m
+      lines: |
+        C: Unai, son las siete y media. ¡Arriba! | Unai, it's half past seven. Up you get!
+        U: Mamá, no puedo ir al instituto. Estoy fatal. | Mum, I can't go to school. I feel awful.
+        C: ¿Qué te pasa, cariño? | What's wrong, sweetheart?
+        U: Me duele mucho la cabeza y también la garganta. | My head really hurts, and my throat too.
+        C: A ver… No tienes fiebre. ¿Te duele algo más? | Let's see… You haven't got a temperature. Does anything else hurt?
+        U: Sí, me duele el estómago. Y estoy un poco mareado. | Yes, my stomach hurts. And I feel a bit dizzy.
+        C: ¡Vaya! ¿Ayer cenaste mucho? | Oh dear! Did you have a big dinner yesterday?
+        U: No, casi nada. Y anoche dormí muy mal. | No, hardly anything. And I slept really badly last night.
+        C: Qué raro… Oye, ¿hoy no tienes el examen de mates? | That's strange… Hey, isn't your maths exam today?
+        U: Eh… sí. ¿Por qué? | Er… yes. Why?
+        C: Porque a tu hermana le duele la cabeza antes de cada examen. | Because your sister gets a headache before every exam.
+        U: Vale, vale… Ya me levanto. | OK, OK… I'm getting up.
+    pronunciation:
+      title: "Diphthongs: duele, fiebre, cuello"
+      body: |
+        When doler changes **o → ue**, you get a diphthong: two vowels in one syllable. Say both vowels clearly but quickly, in one beat: *due-le* has two syllables, not three (*du-e-le*).
+
+        You hear the same in *fiebre* (fie-bre), *cuello* (cue-llo), *muela* (mue-la) and *resfriado* (res-fria-do). Keep each vowel pure — no English glide. Listen and repeat.
+      items: |
+        me duele
+        me duelen los pies
+        la fiebre
+        el cuello
+        las muelas
+        estoy resfriado
+    culture:
+      title: "Constipado ≠ constipated"
+      body: |
+        Watch out for false friends. In Spain, *estoy constipado* means "I've got a cold" (constipated is *estreñido*), and *estoy embarazada* means "I'm pregnant", not "embarrassed" (that's *me da vergüenza*).
+
+        If you are too ill to work, your doctor at the local health centre gives you **la baja** (a sick note). *Estar de baja* means "to be off sick", and *darse de alta* means to be signed fit to go back to work.
+    mistakes: |
+      Me duelo la cabeza. => Me duele la cabeza. | Doler agrees with what hurts (la cabeza), not with the person.
+      Me duele mi espalda. => Me duele la espalda. | With body parts, use the article: me already shows whose back it is.
+      Me duele los pies. => Me duelen los pies. | Several things hurt, so the verb is plural: duelen.
+    task:
+      title: Calling in sick
+      mode: speaking
+      body: |
+        You wake up feeling ill. Leave a 30-second voice message for your manager: say that you can't come to work today, what hurts and what other symptoms you have, and that you are going to the doctor. Record it in Speaking practice, then listen back: did you use *duele* for one thing and *duelen* for several?
+    exercises: |
+      fill: Me ___ mucho la espalda. || duele || One thing hurts (la espalda) → duele. || @tags es.doler
+      fill: ¿Te ___ los ojos? Pasas muchas horas delante del ordenador. || duelen || Los ojos is plural → duelen. || @tags es.doler
+      fill: A mi abuela ___ duelen las rodillas. || le || A mi abuela = a ella, so the pronoun is le. || @tags es.doler
+      fill: A nosotros ___ ___ la cabeza por el calor. || nos ; duele || A nosotros → nos; la cabeza is singular → duele. || @tags es.doler
+      mc: Ana has a cold. She says: || Estoy resfriado. | *Estoy resfriada. | Tengo resfriada. || Estar + an adjective that agrees with the speaker: a woman says resfriada. || @tags es.estar,es.adjective-agreement
+      mc: How do you say "I've got a temperature"? || *Tengo fiebre. | Estoy fiebre. | Me duele la fiebre. || Fiebre is a noun, so it goes with tener, with no article. || @tags es.tener
+      rw: Say it with doler :: Tengo dolor de muelas. || Me duelen las muelas. || Las muelas is plural → me duelen. || @tags es.doler
+      tf: Unai has a temperature. || false || His mother checks: "No tienes fiebre." || @ctx dialogue
+      short: What does Unai have at school today? || kw: examen/exam/test || "¿Hoy no tienes el examen de mates?" — a maths exam. || @ctx dialogue
+      listen: @dialogue || Why does Carolina think Unai feels ill? || He ate too much last night | *He's nervous about an exam | He has flu || She remembers the maths exam: his sister also gets a headache before every exam. || @tags es.listening
+      listen: Me duele la garganta y tengo tos, pero no tengo fiebre. || Which symptom does the speaker NOT have? || A sore throat | A cough | *A temperature || "Pero no tengo fiebre." || @tags es.listening,es.doler
+      tr: My feet hurt. || Me duelen los pies. | A mí me duelen los pies. || Los pies is plural → duelen, with the article los. || @tags es.doler
+      dict: A mi hijo le duele el oído y tiene un poco de fiebre.
+      ask: A friend says «Tienes mala cara. ¿Qué te pasa?». Say what hurts and give one more symptom. || kw: me duele/me duelen/dolor & tengo/estoy || Me duele mucho la garganta y creo que tengo fiebre.
+
+  - title: At the doctor's and the pharmacy
+    summary: Explain your symptoms to a doctor or a pharmacist and understand their instructions in the usted imperative.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [es.imperative, es.doler, es.register]
+    objectives:
+      - Understand and give instructions with the usted imperative (tome, beba, descanse)
+      - Answer a doctor's questions about your symptoms and allergies
+      - Ask a pharmacist for something and understand how to take it
+    intro: |
+      Doctors and pharmacists in Spain usually speak to patients with **usted**, and their advice comes as instructions: *Tome este jarabe. Beba mucha agua. Descanse dos días.* In this lesson you will learn to understand those instructions — the **usted imperative** — and to explain clearly what's wrong.
+    vocab: |
+      el centro de salud | health centre; GP surgery | n | Tengo cita en el centro de salud a las diez. | I've got an appointment at the health centre at ten. | g: m
+      pedir cita | to make an appointment | expr | Puedes pedir cita por internet o por teléfono. | You can make an appointment online or by phone. | n: La cita = the appointment.
+      el médico / la médica | doctor | n | La médica me ha recetado un antibiótico. | The doctor has prescribed me an antibiotic. | g: m/f | n: To address them: doctor / doctora.
+      la receta | prescription | n | Para este medicamento necesita receta. | You need a prescription for this medicine. | g: f | n: It also means "recipe".
+      recetar | to prescribe | v | Le receto un jarabe para la tos. | I'm prescribing you a cough syrup.
+      el jarabe | syrup (medicine) | n | Tome el jarabe tres veces al día. | Take the syrup three times a day. | g: m
+      la pastilla | pill; tablet | n | Tome una pastilla cada ocho horas. | Take a pill every eight hours. | g: f | n: Also el comprimido.
+      el medicamento | medicine | n | ¿Toma usted algún medicamento? | Are you taking any medicine? | g: m
+      ser alérgico / alérgica a | to be allergic to | expr | Soy alérgica a la penicilina. | I'm allergic to penicillin.
+      la farmacia de guardia | duty pharmacy | n | A medianoche solo abre la farmacia de guardia. | At midnight only the duty pharmacy is open. | g: f
+      cada … horas | every … hours | expr | Tome un sobre cada doce horas. | Take one sachet every twelve hours. | c: cada día; cada dos días
+      en ayunas | on an empty stomach | expr | Tome esta pastilla en ayunas. | Take this pill on an empty stomach. | n: Antes de las comidas / después de las comidas = before / after meals.
+      tumbarse | to lie down | v | Túmbese en la camilla, por favor. | Lie down on the couch, please. | n: La camilla = the examination couch.
+    grammar:
+      title: "The usted imperative: tome, beba, descanse"
+      body: |
+        At A1 you used the tú imperative for directions (*gira, sigue, toma*). Doctors, pharmacists and other professionals usually give instructions with **usted**.
+
+        Start from the **yo** form of the present, drop the **-o** and add the "opposite" vowel:
+        - **-ar** verbs → **-e**: *tomar → tomo → tome; descansar → descanse*
+        - **-er / -ir** verbs → **-a**: *beber → bebo → beba; abrir → abro → abra*
+
+        Because it starts from the yo form, irregular and stem-changing verbs keep their change: *hacer → hago → haga; tener → tengo → tenga; volver → vuelvo → vuelva; decir → digo → diga*. Spelling changes as in the preterite: *tocar → toque, pagar → pague*.
+
+        For **ustedes**, add **-n**: *tomen, beban, vuelvan*.
+
+        With reflexive verbs, **se** is attached to the end and a written accent keeps the stress: *siéntese, túmbese*. A few verbs are completely irregular: *ir → vaya, ser → sea, dar → dé*.
+
+        This lesson practises affirmative instructions. To say what a patient shouldn't do, doctors often use *No debe…*: *No debe tomar alcohol.*
+      table: |
+        Infinitive | yo (present) | usted | ustedes
+        tomar | tomo | tome | tomen
+        descansar | descanso | descanse | descansen
+        beber | bebo | beba | beban
+        abrir | abro | abra | abran
+        hacer | hago | haga | hagan
+        volver | vuelvo | vuelva | vuelvan
+      examples: |
+        Tome una pastilla cada ocho horas. | Take one pill every eight hours.
+        Beba mucha agua y descanse un par de días. | Drink plenty of water and rest for a couple of days.
+        Abra la boca y diga «aaa». | Open your mouth and say "aaah".
+        Vuelva dentro de una semana. | Come back in a week.
+      tip: "Pharmacists and doctors ask polite questions with usted: ¿Qué le pasa? ¿Le duele aquí? ¿Toma algún medicamento? Answer with yo forms: Me duele…, Tengo…, Estoy…"
+    dialogue:
+      title: En la consulta
+      setting: A health centre in Alcalá de Henares. Kwame sees his family doctor, Dra. Solís. They use usted.
+      speakers: M=Dra. Solís/f; K=Kwame/m
+      lines: |
+        M: Pase, pase. Siéntese. Dígame, ¿qué le pasa? | Come in, come in. Have a seat. Tell me, what's the matter?
+        K: Me duele mucho la garganta y anoche tuve fiebre. | My throat really hurts and last night I had a temperature.
+        M: A ver, abra la boca, por favor… Sí, tiene una infección. | Let's see, open your mouth, please… Yes, you've got an infection.
+        K: ¿Es grave, doctora? | Is it serious, doctor?
+        M: Tranquilo, no es grave. ¿Es usted alérgico a algún medicamento? | Don't worry, it isn't serious. Are you allergic to any medicine?
+        K: Sí, soy alérgico a la penicilina. | Yes, I'm allergic to penicillin.
+        M: Muy bien. Le receto otro antibiótico y un jarabe para la tos. | All right. I'm prescribing you a different antibiotic and a cough syrup.
+        K: ¿Y cuántas veces al día? | And how many times a day?
+        M: Una pastilla cada ocho horas, y el jarabe después de comer. | One pill every eight hours, and the syrup after meals.
+        K: ¿Puedo ir a trabajar mañana? | Can I go to work tomorrow?
+        M: Mejor no. Descanse dos días y beba mucha agua. | Better not. Rest for two days and drink plenty of water.
+        K: De acuerdo. Muchas gracias, doctora. | All right. Thank you very much, doctor.
+    pronunciation:
+      title: "Stress in the imperative: tome, beba, siéntese"
+      body: |
+        Usted imperatives keep the stress of the yo form: *TO-mo → TO-me, BE-bo → BE-ba, VUEL-vo → VUEL-va*.
+
+        When you attach a pronoun, the stress doesn't move, so the word needs a written accent: *SIEN-te → SIÉN-te-se, TUM-be → TÚM-be-se*. Listen and repeat, stressing the same syllable each time.
+      items: |
+        tome
+        beba
+        descanse
+        vuelva
+        siéntese
+        túmbese
+    culture:
+      title: The Spanish pharmacy
+      body: |
+        Spanish pharmacies are easy to spot: look for the **green cross**, often lit up. Pharmacists are highly trained and give advice on minor problems, so many people go to the pharmacy before seeing a doctor. Antibiotics and many other medicines need a **receta**.
+
+        At night and on public holidays, pharmacies take turns to open: the **farmacia de guardia**. Every pharmacy door shows where the nearest one is. For everything else there is your family doctor (*médico de cabecera*) at the **centro de salud**; in an emergency, go to *urgencias* or call **112**.
+    mistakes: |
+      Toma este jarabe, señor López. => Tome este jarabe, señor López. | With usted, -ar verbs end in -e: tome. Toma is the tú form.
+      Bebe mucha agua, señora. => Beba mucha agua, señora. | With usted, -er verbs end in -a: beba.
+      Volva el lunes. => Vuelva el lunes. | The usted imperative starts from the yo form (vuelvo), so it keeps the stem change.
+    task:
+      title: At the health centre
+      mode: interaction
+      body: |
+        Your throat hurts, you have a cough and last night you had a temperature. Explain your symptoms to the doctor, say whether you are allergic to any medicine, and ask how often to take what she prescribes. Then practise the whole visit in the "At the doctor's" scenario with the AI coach.
+    exercises: |
+      fill: ___ (tomar, usted) una pastilla después de cada comida. || tome || Usted imperative of -ar verbs: tomo → tome. || @tags es.imperative
+      fill: ___ (beber, usted) mucha agua y ___ (descansar, usted). || beba ; descanse || -er verbs take -a (beba); -ar verbs take -e (descanse). || @tags es.imperative
+      fill: Señora, ___ (abrir) la boca, por favor. || abra || Abrir → abro → abra. || @tags es.imperative
+      fill: ___ (volver, usted) dentro de una semana. || vuelva || Volver → vuelvo → vuelva: the stem change stays. || @tags es.imperative
+      fill: ___ (hacer, ustedes) un poco de ejercicio cada día. || hagan || Hacer → hago → haga; for ustedes add -n: hagan. || @tags es.imperative
+      mc: The pharmacist says «Tome el jarabe cada doce horas». How often do you take it? || *Twice a day | Every two hours | Three times a day || Every twelve hours = twice a day. || @tags es.numbers @skill vocabulary
+      mc: Which instruction uses usted? || Descansa dos días. | *Descanse dos días. | Descanso dos días. || Descanse is the usted imperative. Descansa is the tú imperative; descanso means "I rest". || @tags es.imperative,es.register
+      rw: Change the advice to usted :: Toma esta pastilla y bebe mucha agua. || Tome esta pastilla y beba mucha agua. || Tú → usted: toma → tome, bebe → beba. || @tags es.imperative,es.register
+      tf: Kwame is allergic to penicillin. || true || "Sí, soy alérgico a la penicilina." || @ctx dialogue
+      short: What does the doctor prescribe? || kw: antibiótico/antibiotic/jarabe/syrup || "Le receto otro antibiótico y un jarabe para la tos." || @ctx dialogue
+      listen: @dialogue || Can Kwame go to work tomorrow? || Yes, in the afternoon | *No, he should rest for two days | Yes, if he takes the syrup || "Mejor no. Descanse dos días y beba mucha agua." || @tags es.listening,es.imperative
+      listen: Tome un sobre en ayunas, por la mañana, y otro antes de cenar. || When should you take the second sachet? || In the morning | After dinner | *Before dinner || "Y otro antes de cenar." The first one is in the morning on an empty stomach. || @tags es.listening,es.imperative
+      tr: Rest and drink plenty of water. (to a patient, using usted) || Descanse y beba mucha agua. | Beba mucha agua y descanse. | Descanse y beba bastante agua. || Usted imperatives: descanse (-ar → -e), beba (-er → -a). || @tags es.imperative
+      dict: Tome una pastilla cada ocho horas durante cinco días.
+      ask: At the pharmacy, say you have a cough and a sore throat, and ask for something for the cough. || kw: tos & garganta & algo/jarabe/tiene || Buenas tardes. Tengo tos y me duele la garganta. ¿Tiene algo para la tos, por favor?
+
+  - title: Healthy habits
+    summary: Talk about healthy habits and give advice with tener que, hay que, deber and the tú imperative.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [es.tener, es.imperative, es.frequency]
+    objectives:
+      - Express obligation with tener que (personal) and hay que (general)
+      - Give advice with deber and the tú imperative, including haz, sal, ven and pon
+      - Say how often you exercise, sleep well and eat healthily
+    intro: |
+      Sleep more, move more, eat better — easier said than done! In this lesson you will talk about healthy habits and give advice to friends: *Tienes que dormir más. Hay que comer fruta todos los días. Debes descansar.* The tú imperative you learned for directions now becomes advice: *Bebe agua, haz deporte, sal a caminar.*
+    vocab: |
+      hacer ejercicio | to exercise | expr | Hago ejercicio tres veces por semana. | I exercise three times a week. | c: hacer deporte; hacer yoga
+      caminar | to walk | v | Camino media hora todos los días. | I walk for half an hour every day. | n: In Spain also andar; pasear = to go for a stroll.
+      dormir la siesta | to have a nap | expr | Los domingos duermo la siesta. | On Sundays I have a nap.
+      la dieta equilibrada | balanced diet | n | Una dieta equilibrada tiene mucha verdura. | A balanced diet has lots of vegetables. | g: f
+      las legumbres | pulses (lentils, chickpeas, beans) | n | En casa comemos legumbres dos veces por semana. | At home we eat pulses twice a week. | g: f
+      el azúcar | sugar | n | Intento tomar menos azúcar. | I try to have less sugar. | g: m | n: Usually masculine: el azúcar.
+      dejar de + infinitive | to stop (doing something) | expr | Mi padre dejó de fumar hace diez años. | My father stopped smoking ten years ago.
+      estar en forma | to be fit | expr | Quiero estar en forma para el verano. | I want to be fit for the summer.
+      el estrés | stress | n | El yoga me ayuda con el estrés. | Yoga helps me with stress. | g: m
+      sano / sana | healthy | adj | Llevo una vida bastante sana. | I lead a fairly healthy life. | n: Also saludable. Llevar una vida sana = to lead a healthy life.
+      tener que + infinitive | to have to | expr | Tengo que dormir más. | I have to sleep more.
+      hay que + infinitive | you have to; one must | expr | Para estar sano, hay que dormir bien. | To be healthy, you have to sleep well. | n: Impersonal: it never changes.
+      deber + infinitive | should; ought to | expr | Debes descansar más. | You should rest more.
+    grammar:
+      title: "Obligation and advice: tener que, hay que, deber"
+      body: |
+        Three structures + **infinitive** express obligation and advice:
+        - **tener que** — a personal obligation; *tener* changes for the person: *Tengo que dormir más. Mi hermana tiene que dejar de fumar.*
+        - **hay que** — a general rule for everyone; it never changes: *Hay que comer fruta todos los días.*
+        - **deber** — advice (a regular -er verb): *Debes beber más agua.*
+
+        Be careful with the negative. *No tienes que ir* means "you **don't have to** go". To advise against something, use **no debes**: *No debes conducir con sueño* (you mustn't / shouldn't drive when you're sleepy).
+
+        For direct advice to a friend, use the **tú imperative** — the same form as él/ella in the present: *bebe, come, camina, duerme*. A few common verbs are irregular: *hacer → haz, salir → sal, poner → pon, venir → ven, tener → ten, ir → ve, decir → di*.
+      table: |
+        Structure | Use | Example
+        tener que + infinitive | personal obligation | Tengo que caminar más.
+        hay que + infinitive | general rule | Hay que dormir ocho horas.
+        deber + infinitive | advice | Debes comer más verdura.
+        no tener que + infinitive | no obligation | No tienes que correr: camina.
+        no deber + infinitive | advice against | No debes tomar tanto azúcar.
+        tú imperative | direct advice | Haz ejercicio y sal más.
+      examples: |
+        Para estar en forma, hay que moverse un poco cada día. | To be fit, you have to move a bit every day.
+        Tienes que dormir más: ¡solo duermes cinco horas! | You have to sleep more: you only sleep five hours!
+        No debes tomar tanto café. | You shouldn't drink so much coffee.
+        Sal a caminar y haz un poco de yoga por la noche. | Go out for a walk and do a bit of yoga in the evening.
+      tip: "No tienes que… means 'you don't have to', not 'you mustn't'. To warn someone, say No debes…: No debes fumar aquí."
+    dialogue:
+      title: El primer día en el polideportivo
+      setting: A municipal sports centre in Córdoba. Alicia, a fitness instructor, meets Ernesto, a new client in his fifties. As usual in Spanish gyms, they use tú.
+      speakers: A=Alicia/f; E=Ernesto/m
+      lines: |
+        A: Bueno, Ernesto, ¿por qué has decidido venir al polideportivo? | So, Ernesto, why have you decided to come to the sports centre?
+        E: Mi médica dice que tengo que hacer más ejercicio. | My doctor says I have to do more exercise.
+        A: ¿Y cuánto ejercicio haces ahora? | And how much exercise do you do now?
+        E: Casi nada. Trabajo sentado todo el día. | Hardly any. I sit at a desk all day.
+        A: Vale. Primero, hay que empezar poco a poco. | OK. First of all, you have to start little by little.
+        E: Menos mal. No quiero correr maratones. | Thank goodness. I don't want to run marathons.
+        A: Tranquilo. Ven dos días por semana y camina todos los días. | Don't worry. Come twice a week and walk every day.
+        E: ¿Y cuánto tiempo tengo que caminar? | And how long do I have to walk for?
+        A: Media hora es suficiente. Y debes dormir bien, ¿eh? | Half an hour is enough. And you should sleep well, OK?
+        E: Eso es difícil. Me acuesto muy tarde. | That's hard. I go to bed very late.
+        A: Pues apaga el móvil a las once y lee un rato. | Well, switch off your phone at eleven and read for a while.
+        E: ¡Uf! Eso sí que es difícil. | Phew! Now that really is hard.
+    pronunciation:
+      title: "Ll and y: llevo, yoga, hay que"
+      body: |
+        In most of Spain and Latin America, **ll** and **y** are pronounced the same, like the *y* in *yes* but a little stronger: *llevo, ayudar, yoga, me llamo*. In Argentina and Uruguay you will hear them as *sh* or as the *s* in *measure*.
+
+        At the end of a word, **y** is a vowel sound [i]: *hoy, muy, hay que*. Listen and repeat.
+      items: |
+        llevo una vida sana
+        el yoga
+        me ayuda
+        hay que
+        muy bien
+        yo también
+    culture:
+      title: The Mediterranean way
+      body: |
+        Spain has one of the highest life expectancies in the world — over 83 years. Experts often point to the **Mediterranean diet** (olive oil, vegetables, pulses, fish and fruit) and to an active street life: people walk a lot, and the evening **paseo**, a stroll around town, is a tradition in many places.
+
+        Most towns have a **polideportivo**, a municipal sports centre with cheap classes and a pool. On the other hand, Spaniards go to bed late — dinner at 9 or 10 p.m. is normal — and many sleep less than they should.
+    mistakes: |
+      Tengo hacer más deporte. => Tengo que hacer más deporte. | Tener que needs que before the infinitive.
+      Hay que comes más fruta. => Hay que comer más fruta. | After hay que, tener que and deber, use the infinitive.
+      No tienes que fumar. (meaning "you mustn't smoke") => No debes fumar. | No tienes que means "you don't have to". To advise against something, use no debes.
+    task:
+      title: A healthier life
+      mode: writing
+      body: |
+        A friend wants to lead a healthier life. Write them a message of 60–80 words with five pieces of advice about sleep, food, exercise and stress. Use *tener que*, *hay que* and *deber*, and at least two tú imperatives (*haz, sal, come…*). Then talk about your own habits and free time in the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: Mi médico dice que ___ que caminar más. (yo) || tengo || Personal obligation: tener que, yo form tengo. || @tags es.tener
+      fill: Para aprender a nadar, ___ que practicar mucho. || hay || A general rule for everyone: hay que + infinitive. || @tags es.hay
+      fill: No ___ tomar tanto azúcar. (deber, tú) || debes || Advice against something: no debes + infinitive. || @tags es.present-regular
+      fill: ___ (hacer, tú) ejercicio y ___ (salir, tú) más con tus amigos. || haz ; sal || Irregular tú imperatives: hacer → haz, salir → sal. || @tags es.imperative
+      fill: ___ (dormir, tú) ocho horas y ___ (beber, tú) más agua. || duerme ; bebe || The tú imperative is the él/ella present form, with its stem change: duerme, bebe. || @tags es.imperative
+      mc: Which sentence gives a general rule for everyone? || Tengo que comer fruta. | *Hay que comer fruta. | Debo comer fruta. || Hay que is impersonal: it applies to everybody. Tengo que and debo are about me. || @tags es.hay,es.tener
+      mc: «No tienes que correr» means… || You mustn't run. | *You don't have to run. | You can't run. || No tener que = there's no obligation. "You mustn't" is no debes. || @tags es.tener
+      rw: Give the same advice with a tú imperative :: Tienes que salir a caminar. || Sal a caminar. | ¡Sal a caminar! || Salir has an irregular tú imperative: sal. || @tags es.imperative
+      tf: Ernesto's doctor told him to do more exercise. || true || "Mi médica dice que tengo que hacer más ejercicio." || @ctx dialogue
+      short: How long should Ernesto walk every day? || kw: media hora/30/treinta/half an hour || "Media hora es suficiente." || @ctx dialogue
+      listen: @dialogue || What does Alicia suggest so that Ernesto sleeps better? || Doing yoga before bed | *Switching off his phone at eleven and reading | Having a nap after lunch || "Pues apaga el móvil a las once y lee un rato." || @tags es.listening,es.imperative
+      listen: Para dormir bien, hay que cenar pronto, apagar las pantallas una hora antes y acostarse siempre a la misma hora. || Which piece of advice do you hear? || *Have dinner early | Have a nap every day | Drink milk before bed || "Hay que cenar pronto" — have dinner early. || @tags es.listening,es.hay
+      tr: You have to sleep more. (to a friend) || Tienes que dormir más. | Tú tienes que dormir más. | Debes dormir más. || Personal obligation: tienes que + infinitive (or advice with debes). || @tags es.tener
+      dict: Hay que comer legumbres y caminar todos los días.
+      ask: A friend says «Estoy muy estresado y duermo fatal». Give him two pieces of advice. || kw: tienes que/debes/hay que/haz/sal/duerme/descansa/apaga/camina || Tienes que descansar más. Sal a caminar después del trabajo y apaga el móvil antes de dormir.

@@ -1,0 +1,368 @@
+unit: 8
+title: På rejse
+theme: Travel
+description: Get around by train, bus, ferry and bike, talk about weekend plans with skal and vil, and book a room with clear questions.
+objectives:
+  - Buy a ticket and ask about times, tracks and changes, using transport phrases (med toget, på cykel)
+  - Talk about future plans with skal, vil and the present tense
+  - Book accommodation by asking yes/no and question-word questions
+canDo:
+  - I can buy a train ticket and ask when and where the train leaves.
+  - I can say what I am going to do at the weekend and how I will travel.
+  - I can book a room and ask about the price, breakfast and check-in.
+review: |
+  fill: Vi tager ___ til Bornholm. (the ferry — en færge) || færgen || Tage + transport, in the definite form: færge + n = færgen. || @tags da.definite
+  mc: "By bike" in Danish is… || med cykel | *på cykel | i cykel || Bikes take på: på cykel. Trains and buses take med. || @tags da.prepositions-place
+  fill: I weekenden ___ jeg besøge min farfar. || skal || Plans: skal + infinitive. || @tags da.future
+  mc: Which sentence is correct? || I morgen vi tager toget. | *I morgen tager vi toget. | I morgen tager toget vi. || Verb second: I morgen (1) tager (2) vi. || @tags da.word-order,da.future
+  fill: ___ lang tid tager det? || Hvor || How long = hvor lang tid. || @tags da.question-words
+  mc: Which question is correct? || Hvad det koster? | *Hvad koster det? | Koster hvad det? || Question word + verb + subject: Hvad koster det? || @tags da.question-words
+  tr: When does the bus leave? || Hvornår kører bussen? | Hvornår går bussen? || Hvornår + verb + bussen. || @tags da.question-words
+  tr: We're going to Skagen on Saturday. || Vi skal til Skagen på lørdag. | På lørdag skal vi til Skagen. | Vi tager til Skagen på lørdag. | På lørdag tager vi til Skagen. || Skal + til + place (no verb needed), or the present tense with a time word. || @tags da.future
+  listen: Metroen til lufthavnen kører om fire minutter. || When does the metro leave? || *In 4 minutes | In 14 minutes | At four o'clock || Om fire minutter = in four minutes. || @tags da.prepositions-time
+  listen: Vi har et enkeltværelse til to nætter, og morgenmaden er fra klokken syv. || What kind of room is it? || A double room | *A single room | A family room || Et enkeltværelse = a single room. || @tags da.listening
+  ask: Tell a friend your plans for next weekend — where you are going, how you are travelling and where you are staying. || kw: skal & toget/bussen/færgen/cykel/bil/fly & hotel/vandrerhjem/sommerhus/overnatte || I weekenden skal jeg til Aarhus. Jeg tager toget, og jeg overnatter på et vandrerhjem.
+  write: Write an email to a friend suggesting a weekend trip together — where to go, how to travel, where to stay — and ask a question. || min=35 || req: skal | tager/med | vil du/skal vi || Hej Sara! Skal vi tage til Ribe i weekenden? Vi kan tage toget fra Odense på lørdag morgen. Der er et hyggeligt vandrerhjem tæt på domkirken. Jeg vil gerne se byen og spise frokost ved åen. Vil du med? Kram, Nora
+lessons:
+  - title: Getting around
+    summary: Travel by train, bus, metro, ferry and bike — buy a ticket and ask when, where and how long with question words.
+    minutes: 40
+    skills: [listening, speaking, vocabulary]
+    tags: [da.question-words, da.prepositions-place]
+    objectives:
+      - Name means of transport and use med toget, på cykel and tage bussen
+      - Buy a single or return ticket
+      - Ask when, where and how long with hvornår, hvor and hvor lang tid
+    intro: |
+      Denmark is easy to explore: trains link the big cities, ferries go to the islands, and you can cycle almost everywhere. In this lesson you will buy a ticket, understand times and tracks, and ask the key travel questions — **hvornår?** (when?), **hvor?** (where?) and **hvor lang tid?** (how long?).
+    vocab: |
+      et tog | a train | n | Toget til Odense kører fra spor fem. | The train to Odense leaves from track five. | g: n | pl: tog
+      en bus | a bus | n | Bussen kommer om fem minutter. | The bus is coming in five minutes. | g: c | pl: busser | n: Definite: bussen (double s).
+      metroen | the metro | n | Metroen i København kører hele døgnet. | The Copenhagen metro runs around the clock. | g: c | n: From en metro.
+      en færge | a ferry | n | Vi tager færgen til Bornholm. | We're taking the ferry to Bornholm. | g: c | pl: færger
+      et fly | a plane | n | Flyet lander klokken ti. | The plane lands at ten. | g: n | pl: fly
+      en cykel | a bike | n | Jeg kommer på cykel. | I'm coming by bike. | g: c | pl: cykler | n: Definite: cyklen.
+      en billet | a ticket | n | En billet til Aarhus, tak. | A ticket to Aarhus, please. | g: c | pl: billetter
+      en returbillet | a return ticket | n | En returbillet til Esbjerg, tak. | A return ticket to Esbjerg, please. | g: c | pl: returbilletter | n: One way is en enkeltbillet.
+      et spor | a track; a platform | n | Toget kører fra spor tre. | The train leaves from track three. | g: n | pl: spor
+      skifte | to change (trains, buses) | v | Du skal skifte i Roskilde. | You have to change in Roskilde.
+      med | by (transport) | prep | Jeg kører med bussen til arbejde. | I go to work by bus. | n: med toget, med bussen, med færgen — but på cykel.
+      tage | to take | v | Jeg tager toget til Odense. | I take the train to Odense. | n: tage toget / bussen / færgen — no med after tage.
+      hvor lang tid tager det? | how long does it take? | expr | Hvor lang tid tager det til Aarhus? | How long does it take to Aarhus?
+      forsinket | delayed; late | adj | Toget er forsinket ti minutter. | The train is ten minutes late.
+    grammar:
+      title: "Getting there — and question words"
+      body: |
+        **Transport.** Use **med** + the definite form: *med toget, med bussen, med metroen, med færgen, med flyet.* Bikes are different: **på cykel** — or simply the verb *cykle*: *Jeg cykler.*
+
+        With **tage** you don't need a preposition: *Jeg tager toget. Vi tager færgen.* **Til** means *to* and **fra** means *from*: *fra København til Odense.*
+
+        **Question words** come first, then the verb, then the subject:
+
+        - **hvornår** (when): *Hvornår kører toget?*
+        - **hvor** (where): *Hvor holder bussen?*
+        - **hvordan** (how): *Hvordan kommer jeg til lufthavnen?*
+        - **hvad** (what): *Hvad koster en billet?*
+        - **hvem** (who): *Hvem kører?* — here *hvem* is itself the subject.
+        - **hvorfor** (why): *Hvorfor er toget forsinket?*
+        - **hvor lang tid** (how long): *Hvor lang tid tager det?*
+      table: |
+        Question word | Meaning | Example
+        hvornår | when | Hvornår kører toget?
+        hvor | where | Hvor holder bussen?
+        hvordan | how | Hvordan kommer jeg til lufthavnen?
+        hvad | what | Hvad koster en billet?
+        hvem | who | Hvem kører?
+        hvorfor | why | Hvorfor er toget forsinket?
+        hvor lang tid | how long | Hvor lang tid tager det?
+      examples: |
+        Jeg tager toget fra København til Aarhus. | I take the train from Copenhagen to Aarhus. | tage + transport
+        Hun kommer med bussen klokken ti. | She's coming by bus at ten. | med + definite form
+        Hvordan kommer jeg til lufthavnen? – Tag metroen. | How do I get to the airport? – Take the metro.
+        Hvor lang tid tager det? – Cirka en time. | How long does it take? – About an hour.
+      tip: "Tage + transport needs no preposition: Jeg tager bussen. With other verbs, use med: Jeg kører med bussen."
+    dialogue:
+      title: På Hovedbanegården
+      setting: The ticket office at Copenhagen Central Station. Marie wants to visit a friend in Odense.
+      speakers: H=Hassan/m; M=Marie/f
+      lines: |
+        M: Hej. En billet til Odense, tak. | Hi. A ticket to Odense, please.
+        H: Enkeltbillet eller retur? | Single or return?
+        M: Retur, tak. Hvornår kører toget? | Return, please. When does the train leave?
+        H: Halv elleve, fra spor fem. | At half past ten, from track five.
+        M: Skal jeg skifte? | Do I have to change?
+        H: Nej, toget kører direkte. | No, the train goes direct.
+        M: Hvor lang tid tager det? | How long does it take?
+        H: Cirka halvanden time. | About an hour and a half.
+        M: Og hvad koster billetten? | And how much is the ticket?
+        H: Er du studerende? Så er der rabat. | Are you a student? Then there's a discount.
+        M: Ja, jeg er studerende! | Yes, I'm a student!
+    pronunciation:
+      title: "tog, cykel, billet"
+      body: |
+        In **tog** the final g softens into a u-like glide, so the word sounds roughly like "tow". **Cykel** starts with an s sound (c before y is s) and has the Danish y. **Billet** is stressed on the last syllable: bil-**LET**.
+
+        **Forsinket** is stressed on *-sin-*: for-**SIN**-ket. Listen and repeat, then say the whole sentence.
+      items: |
+        toget
+        cykel
+        billet
+        metroen
+        forsinket
+        Jeg tager toget til Odense.
+    culture:
+      title: Trains, bridges and ferries
+      body: |
+        Trains connect Copenhagen, Odense, Aarhus and Aalborg several times an hour or so, and the journey from Zealand to Funen crosses the long **Storebæltsbroen** (Great Belt Bridge). In Copenhagen the driverless metro runs around the clock and goes to the airport.
+
+        Many islands, including Bornholm, Ærø and Samsø, are reached by ferry. On many trains you can bring your bike, usually with a separate bike ticket — and in towns, the bike is often the fastest way to get around.
+    mistakes: |
+      Jeg tager med toget. => Jeg tager toget. | With tage, there is no med: tage toget.
+      Jeg kommer med cykel. => Jeg kommer på cykel. | Bikes take på: på cykel.
+      Hvornår toget kører? => Hvornår kører toget? | After a question word, the verb comes next.
+    task:
+      title: A ticket to Aarhus
+      mode: interaction
+      body: |
+        At the ticket office, buy a ticket to Aarhus: say single or return, ask when the train leaves, from which track (fra hvilket spor?), whether you have to change and how long it takes. Practise with a partner or the AI coach.
+    exercises: |
+      fill: Jeg tager ___ til Odense. (the train — et tog) || toget || Tage + the definite form: tog + et = toget. || @tags da.definite
+      mc: How do you say "I'm coming by bike"? || Jeg kommer med cykel. | *Jeg kommer på cykel. | Jeg kommer i cykel. || Bikes take på: på cykel. || @tags da.prepositions-place
+      mc: Which question is correct? || Hvornår toget kører? | *Hvornår kører toget? | Kører hvornår toget? || Question word + verb + subject. || @tags da.question-words,da.word-order
+      fill: ___ lang tid tager det til Aarhus? || Hvor || How long = hvor lang tid. || @tags da.question-words
+      match: hvornår = when ; hvor = where ; hvordan = how ; hvem = who ; hvorfor = why || Five key question words — all start with hv-, and the h is silent. || @tags da.question-words
+      fill: Vi tager færgen ___ Bornholm. (to) || til || To a place = til. || @tags da.prepositions-place
+      mc: Which ticket does Marie buy? || A single to Odense | *A return to Odense | A return to Aarhus || "En billet til Odense… Retur, tak." || @ctx dialogue @skill reading @tags da.reading
+      tf: Marie has to change trains. || false || "Nej, toget kører direkte." || @ctx dialogue
+      short: Which track does the train leave from? || kw: 5/fem/five || "Halv elleve, fra spor fem." || @ctx dialogue
+      order: Hvornår kører toget til Aarhus? || When does the train to Aarhus leave? || @tags da.question-words
+      tr: How long does it take? || Hvor lang tid tager det? || Hvor lang tid + tager + det. || @tags da.question-words
+      tr: I take the bus to work. || Jeg tager bussen på arbejde. | Jeg tager bussen til arbejde. | Jeg kører med bussen på arbejde. | Jeg kører med bussen til arbejde. || Tage bussen (no med), or køre med bussen. || @tags da.prepositions-place
+      listen: Toget til Esbjerg er forsinket tyve minutter. Det kører fra spor syv. || How late is the train? || 7 minutes | *20 minutes | 2 minutes || "Forsinket tyve minutter" — twenty minutes late. Spor syv is the track. || @tags da.numbers
+      ask: At the station, ask when the train to Aalborg leaves and from which track. || kw: hvornår & toget & spor || Undskyld, hvornår kører toget til Aalborg? Og fra hvilket spor?
+      dict: Vi tager færgen til Bornholm.
+
+  - title: Plans for the weekend
+    summary: Say what you are going to do with skal + infinitive, what you want to do with vil, and use the present tense with time words.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [da.future]
+    objectives:
+      - Talk about plans with skal (and skal til + place)
+      - Say what you want or intend to do with vil (gerne)
+      - Use the present tense with a time word for the future
+    intro: |
+      "Hvad skal du lave i weekenden?" — every Friday, Danes ask each other this question. Danish has no special future tense: you talk about plans with **skal**, about wishes with **vil**, or simply with the present tense and a time word like *i morgen*. In this lesson you will describe your weekend.
+    vocab: |
+      i weekenden | at the weekend | expr | Hvad skal du lave i weekenden? | What are you doing at the weekend? | n: Danes ask this every Friday!
+      besøge | to visit | v | Jeg skal besøge min mormor. | I'm going to visit my grandmother.
+      slappe af | to relax | v | På søndag vil jeg bare slappe af. | On Sunday I just want to relax. | n: A particle verb: jeg slapper af.
+      tage på udflugt | to go on a trip; to go on an outing | expr | Vi tager på udflugt til Møns Klint. | We're going on a trip to Møns Klint. | n: Møns Klint is a line of white chalk cliffs on the island of Møn.
+      stranden | the beach | n | Om sommeren tager vi til stranden. | In summer we go to the beach. | g: c | n: From en strand.
+      et sommerhus | a summer house | n | Mine forældre har et sommerhus i Nordsjælland. | My parents have a summer house in North Zealand. | g: n | pl: sommerhuse
+      overnatte | to stay overnight | v | Vi overnatter på et vandrerhjem. | We're staying overnight at a hostel.
+      i næste uge | next week | expr | I næste uge skal jeg til Berlin. | Next week I'm going to Berlin.
+      en tur | a trip; a walk | n | Vi tager en tur til Aarhus. | We're taking a trip to Aarhus. | g: c | pl: ture
+      pakke | to pack | v | Jeg skal pakke i aften. | I have to pack tonight.
+      en kuffert | a suitcase | n | Kufferten er tung. | The suitcase is heavy. | g: c | pl: kufferter
+      glæde sig til | to look forward to | expr | Jeg glæder mig til weekenden! | I'm looking forward to the weekend! | n: Learn it as a phrase: jeg glæder mig, du glæder dig, vi glæder os.
+      måske | maybe | adv | Måske tager vi til Skagen. | Maybe we'll go to Skagen. | n: Verb second: Måske tager vi…
+      god weekend! | have a nice weekend! | expr | Tak for i dag, og god weekend! | Thanks for today, and have a nice weekend!
+    grammar:
+      title: "The future: skal, vil — or the present"
+      body: |
+        Danish has no special future tense. There are three common ways to talk about the future:
+
+        1. **skal + infinitive** — plans and arrangements (the most common): *I weekenden **skal** jeg **besøge** min mormor.* With a place, the verb of movement is usually left out: *Vi **skal til** Skagen* (We're going to Skagen).
+        2. **vil + infinitive** — what you want or intend: *Jeg **vil** slappe af.* With **gerne** it's a polite wish: *Jeg vil gerne se Skagen.*
+        3. **present tense + time word** — when the time is clear: *I morgen **tager** vi til Aarhus. På lørdag **besøger** jeg min bror.*
+
+        As always, the verb comes second: *I weekenden **skal vi**… Måske **tager vi**…* And there is no *at* after *skal* or *vil*.
+
+        The question **Hvad skal du lave i weekenden?** (or just *Hvad skal du i weekenden?*) means "What are you doing at the weekend?"
+      table: |
+        Form | Use | Example
+        skal + infinitive | plans | Vi skal besøge min mormor.
+        skal til + place | going somewhere | Jeg skal til Aalborg.
+        vil (gerne) + infinitive | wishes, intentions | Jeg vil gerne se Grenen.
+        present + time word | fixed plans | I morgen tager vi toget.
+      examples: |
+        Hvad skal du lave i weekenden? | What are you doing at the weekend?
+        På lørdag skal vi til Skagen. | On Saturday we're going to Skagen. | skal til + place
+        Jeg vil bare slappe af på søndag. | I just want to relax on Sunday. | vil = want to
+        I morgen tager jeg toget til Odense. | Tomorrow I'm taking the train to Odense. | present + time word
+      tip: "Asked \"Hvad skal du i weekenden?\", answer with skal: Jeg skal…"
+    dialogue:
+      title: Fredag eftermiddag
+      setting: Friday afternoon at an office in Aarhus. Rikke and Jamal talk about their weekend plans before they go home.
+      speakers: R=Rikke/f; J=Jamal/m
+      lines: |
+        R: Hvad skal du lave i weekenden, Jamal? | What are you doing at the weekend, Jamal?
+        J: Jeg skal til Skagen med min kæreste. | I'm going to Skagen with my partner.
+        R: Hvor dejligt! Hvordan kommer I derop? | How lovely! How are you getting up there?
+        J: Vi tager toget i morgen tidlig. | We're taking the train early tomorrow morning.
+        R: Hvor skal I overnatte? | Where are you staying?
+        J: På et lille hotel ved havnen. | At a small hotel by the harbour.
+        J: Vi vil gerne se Grenen. Og du? | We'd like to see Grenen. And you?
+        R: Jeg skal besøge min søster i Ribe. | I'm going to visit my sister in Ribe.
+        R: Og på søndag vil jeg bare slappe af. | And on Sunday I just want to relax.
+        J: Det lyder godt! God weekend! | That sounds good! Have a nice weekend!
+        R: Tak, i lige måde! | Thanks, you too!
+    pronunciation:
+      title: "Danish place names"
+      body: |
+        Place names are worth practising. In **Aarhus** and **Aalborg**, *aa* is the old spelling of å; *Aarhus* sounds roughly like "or-hoos", and in *Aalborg* the final g is silent. In **Skagen** the g is hardly heard — roughly "skay-en".
+
+        **Odense** has a soft d, and **Ribe** is simply "ree-be". Listen and repeat.
+      items: |
+        Skagen
+        Aarhus
+        Aalborg
+        Odense
+        Ribe
+        Vi skal til Skagen.
+    culture:
+      title: Summer houses, Skagen and Ribe
+      body: |
+        Denmark has a great many **sommerhuse** (summer houses), many of them close to the coast. Families often own one or rent one for a week, and a weekend "i sommerhus" is a classic Danish holiday.
+
+        **Skagen**, at the very top of Jutland, is famous for its light and for **Grenen**, the sandy point where two seas, the Skagerrak and the Kattegat, meet. **Ribe**, in south-west Jutland, is Denmark's oldest town, with a cathedral and narrow old streets.
+    mistakes: |
+      I weekenden jeg skal besøge min mormor. => I weekenden skal jeg besøge min mormor. | Verb second: skal comes before jeg.
+      Jeg skal at besøge min bror. => Jeg skal besøge min bror. | No at after skal.
+      Jeg glæder til weekenden. => Jeg glæder mig til weekenden. | The phrase needs mig: jeg glæder mig til…
+    task:
+      title: My weekend
+      mode: writing
+      body: |
+        Write a message to a friend about your plans for the weekend: three plans with skal, one wish with vil (gerne), and how you will travel. End with "God weekend!".
+    exercises: |
+      fill: I weekenden ___ jeg besøge min mormor. || skal || Plans: skal + infinitive, verb second after I weekenden. || @tags da.future,da.word-order
+      mc: Which sentence is correct? || I weekenden vi skal til Skagen. | *I weekenden skal vi til Skagen. | I weekenden skal til Skagen vi. || Verb second: I weekenden (1) skal (2) vi. || @tags da.future,da.word-order
+      mc: Which sentence is correct? || Jeg skal at besøge min bror. | *Jeg skal besøge min bror. | Jeg skal besøger min bror. || Skal + infinitive without at. || @tags da.future,da.modal-verbs
+      fill: På søndag ___ jeg bare slappe af. (want to) || vil || Wishes and intentions: vil + infinitive. || @tags da.future
+      rw: Rewrite with skal :: Jeg besøger min søster i morgen. || Jeg skal besøge min søster i morgen. | I morgen skal jeg besøge min søster. || Skal + infinitive: besøger → skal besøge. || @tags da.future
+      mc: Where is Jamal going? || *To Skagen | To Ribe | To Aarhus || "Jeg skal til Skagen med min kæreste." || @ctx dialogue @skill reading @tags da.reading
+      tf: Jamal and his partner are going by car. || false || "Vi tager toget i morgen tidlig." || @ctx dialogue
+      short: Who is Rikke going to visit? || kw: søster/sister || "Jeg skal besøge min søster i Ribe." || @ctx dialogue
+      order: Hvad skal du lave i weekenden? || What are you doing at the weekend? || @tags da.future,da.question-words
+      tr: Next week I'm going to Aalborg. || I næste uge skal jeg til Aalborg. | Jeg skal til Aalborg i næste uge. || Skal til + place; verb second after I næste uge. || @tags da.future,da.word-order
+      tr: We'd like to see Skagen. || Vi vil gerne se Skagen. || Vil gerne + infinitive for a polite wish. || @tags da.future
+      listen: På lørdag skal Ida til Roskilde, og på søndag vil hun slappe af. || What does Ida want to do on Sunday? || Go to Roskilde | *Relax | Visit her mother || "På søndag vil hun slappe af." Roskilde is on Saturday. || @tags da.future
+      ask: Tell a colleague what you are doing at the weekend. || kw: skal & i weekenden/på lørdag/på søndag || I weekenden skal jeg besøge min bror i Aarhus. På søndag vil jeg slappe af.
+      write: Write a message to a friend about your weekend plans — three plans with skal, one wish with vil, and how you will travel. || min=25 || req: skal | vil | i weekenden/på lørdag/på søndag || Hej Ali! I weekenden skal jeg til Odense. Jeg tager toget på lørdag. Jeg skal besøge min kusine, og vi skal spise på en restaurant. På søndag vil jeg gerne gå en tur i parken. God weekend! Lena
+      dict: Vi skal til Skagen i weekenden.
+
+  - title: Booking a room
+    summary: Book a hotel or hostel room — ask if there is a room, what it costs, whether breakfast is included and when you can check in.
+    minutes: 40
+    skills: [speaking, listening, writing]
+    tags: [da.questions, da.question-words]
+    objectives:
+      - Ask yes/no questions with the verb first (Har I…? Er der…?)
+      - Ask question-word questions about price, times and rooms
+      - Use I (plural you) when you speak to a hotel or a business
+    intro: |
+      Booking a room brings together everything you have learned: polite requests, numbers, times and — above all — **questions**. In Danish, a yes/no question starts with the verb (*Har I et ledigt værelse?*), and a question word is followed straight away by the verb (*Hvad koster det?*).
+    vocab: |
+      et dobbeltværelse | a double room | n | Har I et dobbeltværelse? | Do you have a double room? | g: n | pl: dobbeltværelser
+      et enkeltværelse | a single room | n | Jeg vil gerne have et enkeltværelse. | I'd like a single room. | g: n | pl: enkeltværelser
+      ledig | free; available | adj | Har I et ledigt værelse? | Do you have a room available? | n: ledig, ledigt, ledige. The g is silent: "le-di".
+      en nat | a night | n | Hvad koster det per nat? | How much is it per night? | g: c | pl: nætter
+      bestille | to book; to order | v | Jeg vil gerne bestille et værelse. | I'd like to book a room. | n: Booke and reservere are also used.
+      morgenmad | breakfast | n | Er morgenmad inkluderet? | Is breakfast included? | g: c
+      inkluderet | included | adj | Morgenmaden er inkluderet i prisen. | Breakfast is included in the price.
+      en nøgle | a key | n | Her er din nøgle. Du har værelse tolv. | Here's your key. You're in room twelve. | g: c | pl: nøgler | n: Øg sounds like "oy": "noy-le".
+      receptionen | the reception | n | Receptionen er åben hele døgnet. | Reception is open 24 hours a day. | g: c | n: From en reception. Hele døgnet = around the clock.
+      tjekke ind; tjekke ud | to check in; to check out | v | Hvornår kan vi tjekke ind? | When can we check in?
+      et vandrerhjem | a hostel | n | Vi bor på et vandrerhjem i Ribe. | We're staying at a hostel in Ribe. | g: n | pl: vandrerhjem
+      hundrede; to hundrede | a hundred; two hundred | num | Værelset koster otte hundrede kroner. | The room costs eight hundred kroner. | n: 850 = otte hundrede og halvtreds.
+      gratis | free (of charge) | adj | Parkering er gratis. | Parking is free.
+      hvilken; hvilket | which | pron | Hvilket værelse har vi? | Which room do we have? | n: Hvilken + en-word, hvilket + et-word, hvilke + plural.
+    grammar:
+      title: Asking questions
+      body: |
+        There are two kinds of question:
+
+        1. **Yes/no questions** — the **verb comes first**: *Har I et ledigt værelse? Er morgenmad inkluderet? Kan vi tjekke ind nu?*
+        2. **Question-word questions** — **question word + verb + subject**: *Hvad koster det? Hvornår er der morgenmad? Hvor ligger receptionen?*
+
+        **Hvilken / hvilket / hvilke** (which) go with a noun and follow its gender: *hvilken nøgle, hvilket værelse, hvilke dage.* The noun comes straight after it, then the verb: *Hvilket værelse **har** vi?*
+
+        When you ask a hotel, shop or restaurant what *they* have, Danes use **I** (plural *you*), because you mean the whole business: *Har I et ledigt værelse? Har I gratis parkering?*
+
+        To be polite, start with *Hej* or *Undskyld*, and use *jeg vil gerne…* and *kan jeg / kan vi…?*
+      table: |
+        Type | Example | Word order
+        yes/no | Har I et ledigt værelse? | verb + subject
+        yes/no | Er morgenmad inkluderet? | verb + subject
+        question word | Hvad koster et dobbeltværelse? | question word + verb + subject
+        question word | Hvornår kan vi tjekke ind? | question word + modal + subject + infinitive
+        which | Hvilket værelse har vi? | hvilket + noun + verb + subject
+      examples: |
+        Har I et ledigt dobbeltværelse fra fredag til søndag? | Do you have a double room free from Friday to Sunday? | verb first
+        Hvad koster det per nat? | How much is it per night?
+        Hvornår er der morgenmad? – Fra klokken syv til ti. | When is breakfast? – From seven to ten.
+        Hvilken nøgle er til cykelkælderen? | Which key is for the bike cellar? | hvilken + en-word
+      tip: "Asking a hotel, a shop or a restaurant? Use I — Har I…? — because you're talking to the whole business."
+    dialogue:
+      title: Et værelse i Skagen
+      setting: Jamal phones Hotel Havblik, a small hotel by the harbour in Skagen, to book a room for the weekend.
+      speakers: B=Bente/f; J=Jamal/m
+      lines: |
+        B: Hotel Havblik, det er Bente. | Hotel Havblik, Bente speaking.
+        J: Hej. Har I et ledigt dobbeltværelse? | Hi. Do you have a double room available?
+        B: Hvornår? | When for?
+        J: Fra fredag til søndag. To nætter. | From Friday to Sunday. Two nights.
+        B: Ja, det har vi. Med udsigt over havnen. | Yes, we do. With a view of the harbour.
+        J: Dejligt! Hvad koster det per nat? | Lovely! How much is it per night?
+        B: Ni hundrede kroner per nat. | Nine hundred kroner per night.
+        J: Er morgenmad inkluderet? | Is breakfast included?
+        B: Ja, fra klokken syv til halv elleve. | Yes, from seven to half past ten.
+        J: Godt. Hvornår kan vi tjekke ind? | Good. When can we check in?
+        B: Fra klokken tre. Hvad er dit navn? | From three o'clock. What's your name?
+        J: Jamal Haddad. H, A, dobbelt-d, A, D. | Jamal Haddad. H, A, double D, A, D.
+    pronunciation:
+      title: "Questions: Har I…? Hvad koster det?"
+      body: |
+        In Danish, the word order already shows that something is a question, so the voice doesn't need to rise much at the end. Say the question clearly and stress the important word: *Har I et **LEDIGT** værelse?*
+
+        In **ledigt** the g is silent ("le-dit"), **nøgle** sounds like "noy-le", and in **morgenmad** the end of *morgen* is weak and *mad* ends with a soft d. Listen and repeat.
+      items: |
+        Har I et ledigt værelse?
+        Hvad koster det?
+        nøgle
+        morgenmad
+        dobbeltværelse
+        Hvornår kan vi tjekke ind?
+    culture:
+      title: Where to stay
+      body: |
+        Danish **vandrerhjem** (hostels) are used by people of all ages, including families, and often have private rooms. Many visitors also rent a **sommerhus** or stay at a campsite. In summer, popular places such as Skagen and Bornholm get busy, so it's a good idea to book early.
+
+        A Danish hotel breakfast is usually a buffet with rye bread, rolls, cheese, cold cuts, yoghurt and coffee. Check-out is normally in the late morning.
+    mistakes: |
+      Har du gratis parkering? (asking a hotel) => Har I gratis parkering? | When you ask a business what it has, Danes use I.
+      Hvad det koster? => Hvad koster det? | After a question word, the verb comes next.
+      Hvilken værelse har vi? => Hvilket værelse har vi? | Værelse is an et-word, so use hvilket.
+    task:
+      title: Book a room by phone
+      mode: interaction
+      body: |
+        Phone a hotel or hostel: ask if they have a room for two nights, ask the price, whether breakfast is included and when you can check in, and spell your surname. Try the "Booking a hotel" scenario with the AI coach.
+    exercises: |
+      mc: You phone a hotel. Which question asks if they have a room available? || *Har I et ledigt værelse? | I har et ledigt værelse? | Har et ledigt værelse I? || Yes/no question: verb first, then I (you, the hotel). || @tags da.questions
+      rw: Make it a question :: Morgenmad er inkluderet. || Er morgenmad inkluderet? | Er morgenmaden inkluderet? || Yes/no question: move the verb (er) to the front. || @tags da.questions
+      fill: ___ koster et dobbeltværelse? (what) || Hvad || Hvad koster…? = How much is…? || @tags da.question-words
+      fill: ___ kan vi tjekke ind? (when) || Hvornår || When = hvornår. || @tags da.question-words
+      fill: ___ værelse har vi? (which) || Hvilket || Værelse is an et-word: hvilket værelse. || @tags da.question-words,da.gender
+      mc: "Two nights" in Danish is… || to nat | *to nætter | to natter || The plural of nat is irregular: nætter. || @tags da.plural
+      mc: How many nights does Jamal book? || One | *Two | Three || "Fra fredag til søndag. To nætter." || @ctx dialogue @skill reading @tags da.reading
+      tf: Breakfast is included. || true || "Ja, fra klokken syv til halv elleve." || @ctx dialogue
+      short: From what time can they check in? || kw: 3/tre/three/15 || "Fra klokken tre." || @ctx dialogue
+      order: Hvad koster det per nat? || How much is it per night? || @tags da.question-words
+      tr: I'd like to book a single room. || Jeg vil gerne bestille et enkeltværelse. | Jeg vil gerne booke et enkeltværelse. | Jeg vil gerne reservere et enkeltværelse. || Jeg vil gerne + infinitive; værelse is an et-word. || @tags da.ordering
+      listen: Et dobbeltværelse koster otte hundrede og halvtreds kroner per nat, med morgenmad. || How much is the room per night? || *850 kr. | 580 kr. | 805 kr. || Otte hundrede og halvtreds = 800 + 50 = 850. || @tags da.numbers
+      ask: Phone a hotel — ask if they have a double room for two nights and ask the price. || kw: har i & værelse/dobbeltværelse & hvad koster/hvor meget koster || Hej! Har I et ledigt dobbeltværelse fra fredag til søndag? Hvad koster det per nat?
+      write: Write an email to a hostel to book a room — dates, type of room, number of people, and two questions (breakfast, check-in). || min=30 || req: vil gerne | værelse | nat/nætter | hvornår/er der/er morgenmad || Hej! Vi vil gerne bestille et dobbeltværelse fra fredag til søndag — to nætter. Vi er to personer. Er morgenmad inkluderet? Og hvornår kan vi tjekke ind? Med venlig hilsen Jamal Haddad
+      dict: Er morgenmad inkluderet i prisen?

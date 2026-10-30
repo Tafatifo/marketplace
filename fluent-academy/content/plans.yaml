@@ -1,0 +1,52 @@
+# Subscription plans. Prices are the proposed starting point for pricing tests and
+# can be changed at any time in /admin/plans (the database copy wins after import
+# unless the importer runs with --reset-plans). Amounts are in the smallest unit.
+free:
+  name: Free
+  description: Start speaking with structured lessons and daily practice.
+  priceMonthlyCents: 0
+  priceYearlyCents: 0
+  currency: usd
+  sortOrder: 1
+  limits:
+    lessonsPerDay: 3
+    conversationsPerDay: 2
+    messagesPerConversation: 12
+    speakingAttemptsPerDay: 20
+    vocabularyReviewsPerDay: 40
+    freeUnitsOnly: true
+    premiumReadings: false
+    detailedAnalytics: false
+    personalizedPractice: false
+  features:
+    - The first two units of every level
+    - Up to 3 lessons a day
+    - 2 AI coach conversations a day
+    - Speaking practice with transcript feedback
+    - Basic progress tracking
+    - Selected reading and listening passages
+premium:
+  name: Premium
+  description: The full academy — every level, unlimited lessons and a personal coach.
+  priceMonthlyCents: 1299
+  priceYearlyCents: 9999
+  currency: usd
+  sortOrder: 2
+  limits:
+    lessonsPerDay: null
+    conversationsPerDay: 25
+    messagesPerConversation: 40
+    speakingAttemptsPerDay: 200
+    vocabularyReviewsPerDay: null
+    freeUnitsOnly: false
+    premiumReadings: true
+    detailedAnalytics: true
+    personalizedPractice: true
+  features:
+    - Full A1–B2 curriculum in every language
+    - Unlimited lessons and assessments
+    - Up to 25 AI coach conversations a day
+    - Personalized practice from your mistake history
+    - Full reading and listening library
+    - Unlimited spaced-repetition vocabulary review
+    - Detailed learning analytics

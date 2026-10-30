@@ -1,0 +1,342 @@
+unit: 2
+title: Arbejde og økonomi
+theme: Work and the economy
+description: Discuss how work is changing, negotiate pay and conditions, and talk about consumption — with the conditional perfect (ville have + participle), tentative language for negotiating and conditions without hvis (Havde jeg vidst det, …).
+free: true
+objectives:
+  - Talk about what would have happened in the past with ville have + participle
+  - Negotiate politely with tentative conditionals and conditions (forudsat at, på betingelse af, at)
+  - Express conditions without hvis, including the formal skulle and medmindre
+canDo:
+  - I can explain how my working life could have turned out differently.
+  - I can negotiate pay or conditions and propose a compromise.
+  - I can understand terms and conditions written with Skulle… and medmindre.
+  - I can discuss consumption, second-hand buying and sharing.
+review: |
+  fill: Hvis hun havde søgt jobbet, ___ hun have fået det. || ville || Unreal past: ville + have + participle (have fået). || @tags da.conditional
+  mc: Which sentence talks about an unreal past? || *Hvis jeg havde haft penge, ville jeg have købt huset. | Hvis jeg har penge, køber jeg huset. | Hvis jeg havde penge, ville jeg købe huset. || Havde haft + ville have købt: it didn't happen, and it's too late now. || @tags da.conditional
+  fill: Hun ville ___ kommet til mødet, hvis hun havde vidst det. || være || Komme takes er in the perfect, so the conditional perfect is ville være kommet. || @tags da.conditional,da.perfect-er
+  rw: Make it more tentative :: Jeg vil have en lønstigning på tre tusind kroner. || Jeg havde egentlig håbet på en lønstigning på tre tusind kroner. | Jeg havde håbet på en lønstigning på tre tusind kroner. | Ville det være muligt at få en lønstigning på tre tusind kroner? | Kunne jeg få en lønstigning på tre tusind kroner? || Jeg vil have… sounds like a demand; havde håbet på or ville det være muligt softens it. || @tags da.conditional,da.register
+  fill: Du kan låne bilen på betingelse ___, at du tanker den op bagefter. || af || The fixed expression is på betingelse af, at… (on condition that). || @tags da.connectors
+  mc: "Skulle De have spørgsmål, er De velkommen til at kontakte os." Where would you find this sentence? || *In a formal letter or terms and conditions | In a text message to a friend | In a children's book || Skulle + infinitive as a condition, together with De, is formal written style. || @tags da.conditional,da.register
+  rw: Rewrite without hvis :: Hvis du får brug for hjælp, så ring til mig. || Får du brug for hjælp, så ring til mig. | Får du brug for hjælp, kan du ringe til mig. | Får du brug for hjælp, så kan du ringe til mig. || Put the verb first in the condition: Får du brug for hjælp, … || @tags da.conditional,da.word-order
+  listen: Havde vi ikke fået den store ordre fra Norge, havde vi været nødt til at afskedige tre medarbejdere. || What happened? || *They got a big order and kept their staff | They lost an order and dismissed three people | They hired three people for the Norwegian order || The verb-first condition "Havde vi ikke fået…" describes what did not happen: they did get the order. || @tags da.listening,da.conditional
+  listen: Jeg kan godt gå med til en fast hjemmearbejdsdag, forudsat at du er på kontoret alle mandage. || What is the condition? || *Being at the office every Monday | Working longer hours | Working from home on Mondays || "Forudsat at du er på kontoret alle mandage." || @tags da.listening,da.connectors
+  ask: You're buying a used car from a private seller, and the price is too high. Negotiate politely and propose a compromise. || kw: ville det være muligt/kunne/havde håbet/hvad hvis & pris/prisen/kroner || Bilen er fin, men jeg havde egentlig håbet på en lavere pris. Den skal have nye dæk snart. Ville det være muligt at gå ned til halvtreds tusind kroner, hvis jeg betaler kontant i dag?
+  write: Write a short text (6–8 sentences) about a choice in your education or career. What would have happened if you had chosen differently? || min=60 || req: hvis/havde | ville have/havde/kunne have || Da jeg var tyve, kunne jeg vælge mellem at læse jura og at blive kok. Jeg valgte køkkenet. Hvis jeg havde læst jura, ville jeg nok have tjent flere penge. Til gengæld ville jeg aldrig have mødt min mand, som var tjener på min første restaurant. Havde jeg valgt anderledes, havde jeg måske haft et roligere liv. Men jeg fortryder ikke noget.
+lessons:
+  - title: The future of work
+    summary: Talk about automation, further training and changing jobs, and describe what would have happened with the conditional perfect — ville have + participle.
+    minutes: 50
+    skills: [grammar, speaking, listening]
+    tags: [da.conditional, da.perfect, da.word-order]
+    objectives:
+      - Form the conditional perfect with ville have / ville være + participle
+      - Express unreal past conditions with hvis, uden and ellers
+      - Discuss automation, further training and the labour market
+    intro: |
+      Robots in warehouses, software that writes reports, colleagues who retrain in their fifties: the Danish labour market is changing fast. Looking back is often the best way to talk about the future — what would have happened if we hadn't adapted? In this lesson a former forklift driver who now looks after robots talks to a young colleague, and you'll learn the conditional perfect: *Hvis jeg ikke havde taget kurset, ville jeg have mistet mit job.*
+    vocab: |
+      en efteruddannelse | further training; continuing education | n | Kommunen betaler en del af efteruddannelsen. | The municipality pays part of the further training. | g: c | pl: efteruddannelser | c: tage en efteruddannelse
+      en fagforening | a trade union | n | Over halvdelen af de ansatte er medlem af en fagforening. | Over half of the employees are members of a trade union. | g: c | pl: fagforeninger
+      en tillidsrepræsentant | a shop steward; a union representative | n | Tal med din tillidsrepræsentant, før du skriver under. | Talk to your shop steward before you sign. | g: c | pl: tillidsrepræsentanter
+      arbejdsmarkedet | the labour market | n | Arbejdsmarkedet mangler både sygeplejersker og elektrikere. | The labour market is short of both nurses and electricians. | g: n | pl: arbejdsmarkeder
+      automatisere | to automate | v | Lageret blev automatiseret for fem år siden. | The warehouse was automated five years ago. | n: Past: automatiserede. En automatisering = an automation.
+      arbejdskraft | labour; workforce | n | Der mangler kvalificeret arbejdskraft i byggebranchen. | There's a shortage of skilled labour in the construction industry. | g: c | n: No plural.
+      omstille sig | to adapt; to retrain | v | Mange virksomheder har måttet omstille sig hurtigt. | Many companies have had to adapt quickly. | n: Reflexive. Past: omstillede sig. En omstilling = a transition.
+      en kompetence | a skill; a competence | n | Hvilke kompetencer får vi brug for om ti år? | Which skills will we need in ten years? | g: c | pl: kompetencer
+      overflødig | redundant; superfluous | adj | Ingen medarbejdere skal føle sig overflødige. | No employees should feel redundant. | n: Et-words: overflødigt; plural and definite: overflødige.
+      blive ved med | to keep (on) doing | expr | Hun bliver ved med at lære nye ting. | She keeps learning new things. | n: Followed by at + infinitive.
+      forestille sig | to imagine | v | Jeg kan ikke forestille mig et liv uden arbejde. | I can't imagine a life without work. | n: Reflexive. Past: forestillede sig.
+    grammar:
+      title: "Ville have + participle — what would have happened"
+      body: |
+        At B1 you used *hvis + past* for imagined situations now or in the future: *Hvis jeg havde tid, ville jeg tage kurset.* To talk about a past that **didn't** happen and its imagined result, you go one step further back:
+
+        - the condition: **hvis + havde + participle** — *Hvis jeg havde haft tid, …*
+        - the result: **ville have + participle** — *…ville jeg have taget kurset.*
+
+        In everyday speech the result is very often just **havde + participle**: *Hvis jeg havde vidst det, **havde** jeg sagt det.* Both forms are correct.
+
+        Verbs that take *er* in the perfect (gå, komme, blive, rejse, flytte) usually take **være**: *ville være kommet, kunne være gået galt*. **Kunne have** means "could have": *Det kunne have kostet mig jobbet.*
+
+        The condition doesn't need hvis. It can be a phrase with **uden** or **med**, or the result can follow **ellers** (otherwise): *Uden min fagforening havde jeg aldrig turdet.* · *Jeg tog kurset — ellers havde jeg mistet jobbet.*
+
+        Word order: when the hvis-clause comes first, the main clause begins with the verb: *Hvis …, **ville** jeg have…*
+      table: |
+        Situation | Condition | Result
+        imagined now (B1) | Hvis jeg havde tid, | ville jeg tage kurset.
+        unreal past | Hvis jeg havde haft tid, | ville jeg have taget kurset.
+        unreal past, spoken | Hvis jeg havde haft tid, | havde jeg taget kurset.
+        with a være-verb | Hvis toget var kørt til tiden, | ville vi være kommet hjem.
+        without hvis | Uden din hjælp | havde jeg aldrig klaret det.
+      examples: |
+        Hvis vi havde investeret i robotter tidligere, ville vi have sparet mange penge. | If we had invested in robots earlier, we would have saved a lot of money. | hvis + havde / ville have
+        Hun havde aldrig fået jobbet uden sin efteruddannelse. | She would never have got the job without her further training. | uden + noun; sin refers to hun
+        Han ville være blevet i firmaet, hvis lønnen havde været bedre. | He would have stayed with the company if the pay had been better. | blive takes være
+        Jeg tog imod tilbuddet — ellers havde jeg fortrudt det. | I accepted the offer — otherwise I'd have regretted it. | ellers
+      tip: "Count the haves: an unreal past needs havde in the condition and ville have (or just havde) in the result — Hvis jeg havde vidst det, ville jeg have sagt det."
+    dialogue:
+      title: Fra truck til robot
+      setting: The break room of a large warehouse near Horsens. Jytte, who has worked there for twenty years, talks to Kasper, a young warehouse worker.
+      speakers: J=Jytte/f; K=Kasper/m
+      lines: |
+        K: Jytte, er det rigtigt, at du var truckfører her, før robotterne kom? | Jytte, is it true that you were a forklift driver here before the robots came?
+        J: Ja, i atten år. Hvis jeg ikke havde taget efteruddannelsen, ville jeg nok have mistet mit job. | Yes, for eighteen years. If I hadn't taken the further training, I would probably have lost my job.
+        K: Var du ikke nervøs for at komme på skolebænken igen efter så mange år? | Weren't you nervous about going back to school after so many years?
+        J: Jo, meget. Uden min fagforening havde jeg aldrig turdet søge om en plads på kurset. | Yes, very. Without my union I would never have dared to apply for a place on the course.
+        K: Og nu passer du robotterne. Kunne du have forestillet dig det for ti år siden? | And now you look after the robots. Could you have imagined that ten years ago?
+        J: Aldrig. Jeg ville have grinet, hvis nogen havde sagt, at jeg skulle programmere maskiner. | Never. I would have laughed if anyone had said that I'd be programming machines.
+        K: Tror du, robotterne en dag tager mit job? Jeg er jo bare lagerarbejder. | Do you think the robots will take my job one day? I'm just a warehouse worker, after all.
+        J: Måske, men så opstår der nye job. For tyve år siden ville ingen have troet, at jeg endte her. | Maybe, but then new jobs appear. Twenty years ago nobody would have believed that I'd end up here.
+        K: Mine forældre siger, at de ville have valgt helt anderledes, hvis de havde haft vores muligheder. | My parents say they would have chosen completely differently if they'd had our opportunities.
+        J: Det tror jeg gerne. Men det kræver, at man bliver ved med at lære hele livet. | I can well believe it. But it means you have to keep learning all your life.
+        K: Så burde jeg måske også melde mig til et kursus, mens jeg har tid. | Then maybe I ought to sign up for a course too, while I have the time.
+        J: Det synes jeg bestemt. Tal med vores tillidsrepræsentant i morgen — hun ved alt om det. | I definitely think so. Talk to our shop steward tomorrow — she knows all about it.
+    pronunciation:
+      title: "Ville have sagt: the weak have"
+      body: |
+        In the conditional perfect, *have* is almost never pronounced in full. It shrinks to a short, weak "ha", and it often merges with *ville* or *havde* before it: *ville have sagt* sounds like "ville-ha-SAGT". *Havde* itself is short and weak, "ha-de" or even just "ha".
+
+        The stress goes on the participle — the word that carries the meaning: *ville have MISTET*, *havde aldrig TURDET*. Listen and repeat.
+      items: |
+        ville have sagt
+        ville have mistet
+        havde aldrig turdet
+        kunne have forestillet sig
+        Hvis jeg havde vidst det, havde jeg sagt det.
+    culture:
+      title: The Danish model
+      body: |
+        Denmark has no statutory minimum wage. Pay and working conditions are agreed in collective agreements (**overenskomster**) between unions and employers' organisations — this is often called *den danske model*. Combined with flexible hiring rules, unemployment insurance through an **a-kasse** and public funding for further training, it is also known as *flexicurity*.
+    mistakes: |
+      Hvis jeg havde vidst det, jeg ville have sagt det. => Hvis jeg havde vidst det, ville jeg have sagt det. | After a hvis-clause in first position, the main clause starts with the verb.
+      Hvis jeg havde tid, ville jeg have tage kurset. => Hvis jeg havde haft tid, ville jeg have taget kurset. | Unreal past: havde + participle (haft) in the condition and ville have + participle (taget) in the result.
+      Hun ville have kommet for sent. => Hun ville være kommet for sent. | Komme takes er in the perfect, so it takes være after ville.
+    task:
+      title: A turning point
+      mode: speaking
+      body: |
+        Think of a turning point in your education or working life — a course, a move, a job you accepted or turned down. Prepare a two-minute account: what happened, and what would have happened if you had chosen differently? Use at least three sentences with ville have / havde + participle. Then present your background in the "Preparing for a job interview" scenario with the AI coach.
+    exercises: |
+      fill: Hvis jeg ikke havde taget kurset, ___ jeg have mistet mit job. || ville || Result clause: ville + have + participle. The verb comes first because the hvis-clause is the first element. || @tags da.conditional
+      fill: Hvis vi havde ___ det i går, havde vi sagt det til jer. (vide) || vidst || The participle of vide is vidst: havde vidst. || @tags da.conditional,da.past-perfect
+      fill: Uden hendes hjælp ___ vi aldrig fået ordren. || havde || Spoken conditional perfect: havde + participle (havde fået). With ville you would also need have. || @tags da.conditional
+      mc: "Hvis jeg havde haft tid, ville jeg have taget kurset." Did the speaker take the course? || *No — it's an imagined past | Yes | Maybe next year || Havde haft + ville have taget describes a past that didn't happen. || @tags da.conditional
+      mc: Which sentence is correct? || *Hun ville være kommet til tiden, hvis toget ikke var blevet aflyst. | Hun ville have kommet til tiden, hvis toget ikke var blevet aflyst. | Hun ville kommet til tiden, hvis toget ikke var blevet aflyst. || Komme takes være: ville være kommet. || @tags da.conditional,da.perfect-er
+      tf: Jytte has worked as a robot technician for eighteen years. || false || She was a forklift driver for eighteen years before the robots came. || @ctx dialogue
+      short: What helped Jytte dare to apply for the course? || kw: fagforening/union || "Uden min fagforening havde jeg aldrig turdet søge om en plads på kurset." || @ctx dialogue
+      listen: @dialogue || What does Jytte advise Kasper to do? || *Talk to the shop steward about a course | Look for a job somewhere else | Learn to drive a forklift || "Tal med vores tillidsrepræsentant i morgen — hun ved alt om det." || @tags da.listening
+      listen: Hvis vi havde haft flere ansatte i sommer, kunne vi have taget imod den store ordre fra Tyskland. || What happened in the summer? || *They couldn't accept a big order | They accepted a big order from Germany | They hired more staff || "Hvis vi havde haft flere ansatte…, kunne vi have taget imod…" — they didn't have the staff, so they couldn't take the order. || @tags da.listening,da.conditional
+      rw: Rewrite as an unreal past :: Hvis jeg har tid, tager jeg kurset. || Hvis jeg havde haft tid, ville jeg have taget kurset. | Hvis jeg havde haft tid, havde jeg taget kurset. || Condition: havde haft; result: ville have taget (or havde taget). || @tags da.conditional
+      tr: Without the course I would never have got the job. || Uden kurset havde jeg aldrig fået jobbet. | Uden kurset ville jeg aldrig have fået jobbet. | Uden kurset havde jeg aldrig fået det job. | Uden kurset ville jeg aldrig have fået det job. || Uden + noun as the condition, then havde (or ville have) + fået. || @tags da.conditional
+      ask: Describe a decision in your working or study life and say what would have happened if you had chosen differently. || kw: hvis/uden/ellers & havde/ville have || Jeg valgte at læse til sygeplejerske i stedet for at blive frisør. Hvis jeg var blevet frisør, ville jeg nok have haft min egen salon nu. Men uden min uddannelse havde jeg aldrig fået job på Rigshospitalet.
+      write: Write a short post (6–8 sentences) for a career blog called "Et vendepunkt i mit arbejdsliv". || min=60 || req: hvis/uden/ellers | havde | ville have/havde/kunne have || For fem år siden arbejdede jeg som bogholder i et lille firma i Vejle. Så blev regnskabet automatiseret, og halvdelen af mine opgaver forsvandt. Hvis jeg ikke havde taget en efteruddannelse i dataanalyse, ville jeg nok være blevet fyret. I dag hjælper jeg firmaer med at bruge deres data. Uden min chefs opbakning havde jeg aldrig turdet. Det kunne være gået helt anderledes.
+      dict: Hvis jeg ikke havde taget efteruddannelsen, ville jeg have mistet mit job.
+
+  - title: Negotiating
+    summary: Negotiate pay and conditions with tentative language — Ville det være muligt at…?, Jeg havde egentlig håbet på…, forudsat at — and reach a compromise.
+    minutes: 50
+    skills: [speaking, grammar, listening]
+    tags: [da.conditional, da.register, da.connectors]
+    objectives:
+      - Make tentative requests and proposals (ville det være muligt, havde håbet, hvad hvis vi…)
+      - Set conditions with forudsat at, på betingelse af, at and så længe
+      - Refuse politely and close a deal
+    intro: |
+      Danes rarely haggle in shops, but they do negotiate — pay, working hours, prices with craftsmen, a deal with a supplier. Danish negotiating style is usually low-key and polite: you state your wish softly, give reasons and look for a solution that both sides can live with. In this lesson Fatima has her annual pay review with her manager, Henrik. Listen to how she softens her requests and how he sets conditions.
+    vocab: |
+      en lønsamtale | a pay review; a salary meeting | n | Jeg har lønsamtale med min chef på torsdag. | I have a pay review with my manager on Thursday. | g: c | pl: lønsamtaler
+      en lønstigning | a pay rise | n | Hun fik en lønstigning på to tusind kroner om måneden. | She got a pay rise of two thousand kroner a month. | g: c | pl: lønstigninger
+      forhandle | to negotiate | v | Fagforeningen har forhandlet en ny aftale på plads. | The union has negotiated a new agreement. | n: Past: forhandlede. En forhandling = a negotiation.
+      begrunde | to justify; to give reasons for | v | Du skal kunne begrunde dit krav. | You must be able to justify your demand. | n: Past: begrundede. En begrundelse = a justification.
+      et krav | a demand; a requirement | n | Medarbejderne stillede krav om mere fleksibel arbejdstid. | The employees demanded more flexible working hours. | g: n | pl: krav | c: stille krav om noget
+      et kompromis | a compromise | n | Vi endte med et kompromis, som alle kunne leve med. | We ended up with a compromise that everyone could live with. | g: n | pl: kompromiser | c: indgå et kompromis
+      mødes på halvvejen | to meet halfway | expr | Kan vi ikke mødes på halvvejen? | Can't we meet halfway?
+      gå med til | to agree to | v | Direktøren gik med til en hjemmearbejdsdag om ugen. | The director agreed to one day working from home a week. | n: Past: gik med til. Stress on til.
+      forudsat at | provided that | conj | Du kan få fri på fredag, forudsat at opgaven er færdig. | You can have Friday off, provided that the task is finished. | n: Introduces a subordinate clause: ikke before the verb.
+      en betingelse | a condition | n | Jeg siger ja på betingelse af, at vi evaluerer ordningen om et halvt år. | I'll say yes on condition that we evaluate the arrangement in six months. | g: c | pl: betingelser
+      rimelig | reasonable; fair | adj | Det synes jeg er et rimeligt tilbud. | I think that's a reasonable offer. | n: Et-words: rimeligt. As an adverb: rimelig godt (fairly good).
+    grammar:
+      title: "Tentative language for negotiating"
+      body: |
+        In a negotiation, the past forms of modal verbs and the conditional make your requests and offers sound open rather than like demands.
+
+        - **Tentative requests:** *Ville det være muligt at…?* · *Kunne du forestille dig…?* · *Vi kunne eventuelt…*
+        - **The past perfect as a softener:** *Jeg havde (egentlig) håbet på…* · *Hvad havde du forestillet dig?* Putting your wish in the past signals that it is open to discussion.
+        - **Tentative proposals:** *Hvad hvis vi…?* + past tense: *Hvad hvis vi delte udgifterne?*
+        - **Conditions:** *forudsat at* (provided that), *på betingelse af, at* (on condition that), *så længe* (as long as). They introduce subordinate clauses, so ikke comes before the verb: *forudsat at du ikke arbejder over*.
+
+        Compare the steps from blunt to tentative: *Jeg vil have tre tusind mere.* → *Jeg vil gerne have…* → *Jeg havde håbet på…* → *Ville det være muligt at…?*
+
+        A real condition presents a genuine option: *Hvis I kan levere i morgen, bestiller vi.* A tentative one sounds more cautious: *Hvis I kunne levere i morgen, ville vi bestille.*
+      table: |
+        Function | Expression
+        asking tentatively | Ville det være muligt at…? / Kunne du forestille dig…?
+        stating your wish softly | Jeg havde (egentlig) håbet på…
+        proposing | Hvad hvis vi…? / Vi kunne eventuelt…
+        setting a condition | forudsat at… / på betingelse af, at… / så længe…
+        refusing politely | Det kan jeg desværre ikke love. / Det bliver svært.
+        closing the deal | Så har vi en aftale.
+      examples: |
+        Ville det være muligt at forlænge kontrakten med et år? | Would it be possible to extend the contract by a year? | a very tentative request
+        Jeg havde egentlig håbet på lidt mere. | I had actually hoped for a bit more. | past perfect as a softener
+        Vi kan godt sænke prisen, forudsat at I bestiller mindst hundrede stykker. | We can lower the price, provided that you order at least a hundred. | condition
+        Hvad hvis vi delte udgifterne? | What if we split the costs? | past tense in a proposal
+      tip: "Pair every no with an alternative: Det kan jeg desværre ikke love, men jeg kunne godt…"
+    dialogue:
+      title: Den årlige lønsamtale
+      setting: An engineering consultancy in Kolding. Project coordinator Fatima meets her manager Henrik for her annual pay review.
+      speakers: H=Henrik/m; F=Fatima/f
+      lines: |
+        H: Nå, Fatima, så er det tid til den årlige lønsamtale. Hvad havde du forestillet dig? | Well, Fatima, it's time for the annual pay review. What did you have in mind?
+        F: Jeg havde egentlig håbet på en lønstigning på fire tusind kroner om måneden. | I had actually hoped for a pay rise of four thousand kroner a month.
+        H: Det er en del mere, end vi havde regnet med. Kan du begrunde det? | That's quite a bit more than we had expected. Can you justify it?
+        F: Ja. Siden sidste år har jeg overtaget to store kunder og ledet projektet i Esbjerg alene. | Yes. Since last year I've taken over two big clients and led the Esbjerg project on my own.
+        H: Det er rigtigt, og vi er meget tilfredse med dig. Men budgettet er desværre stramt i år. | That's true, and we're very pleased with you. But unfortunately the budget is tight this year.
+        F: Det forstår jeg godt. Ville det være muligt at mødes på halvvejen, hvis jeg fik en ekstra uges ferie? | I understand. Would it be possible to meet halfway if I got an extra week's holiday?
+        H: En ekstra uge kan jeg ikke love. Men tre tusind kunne jeg godt forsvare, forudsat at du tager dig af den nye praktikant. | I can't promise an extra week. But I could defend three thousand, provided that you look after the new intern.
+        F: Det vil jeg gerne. Hvad hvis vi i stedet for ferien aftalte en fast hjemmearbejdsdag om ugen? | I'd be happy to. What if, instead of the holiday, we agreed on a fixed day working from home each week?
+        H: Det kunne jeg godt gå med til, så længe du er på kontoret til mandagsmøderne. | I could agree to that, as long as you're at the office for the Monday meetings.
+        F: Selvfølgelig. Så har vi en aftale: tre tusind mere om måneden, praktikanten og en hjemmearbejdsdag. | Of course. Then we have a deal: three thousand more a month, the intern and a day working from home.
+        H: Det har vi. Jeg sender dig et referat af aftalen i løbet af eftermiddagen. | We do. I'll send you a summary of the agreement during the afternoon.
+        F: Tak, Henrik. Havde du sagt nej til det hele, var jeg altså blevet lidt skuffet. | Thanks, Henrik. If you'd said no to everything, I'd have been a bit disappointed, I must say.
+    pronunciation:
+      title: "Polite requests: stress the key word"
+      body: |
+        A polite Danish request doesn't need a dramatic rise in pitch. The politeness is in the words; the voice stays calm and fairly level, and the main stress falls on the key content word: *Ville det være MULIGT at…?* · *Jeg havde egentlig HÅBET på…*
+
+        Avoid heavy stress on *ville* or *kunne* — *VILLE det være muligt?* can sound impatient or sarcastic. Listen and repeat at a calm pace.
+      items: |
+        Ville det være muligt?
+        Kunne du forestille dig det?
+        Jeg havde egentlig håbet på mere.
+        Hvad hvis vi mødtes på halvvejen?
+        Så har vi en aftale.
+    mistakes: |
+      Jeg vil have mere i løn. (in a pay review) => Jeg havde egentlig håbet på lidt mere i løn. | Jeg vil have… sounds like a demand; the past perfect havde håbet softens it.
+      Forudsat at du arbejder ikke over, … => Forudsat at du ikke arbejder over, … | Forudsat at introduces a subordinate clause: ikke goes before the verb.
+      Ville det være muligt at du forlænger fristen? => Ville det være muligt at forlænge fristen? | After muligt, use at + infinitive (or a full at-clause after a comma: muligt, at du forlængede fristen).
+    task:
+      title: Two days at home
+      mode: interaction
+      body: |
+        You want to work from home two days a week; your manager is sceptical. Prepare your arguments, a first request, a fallback position and a condition you can offer (forudsat at…). Then practise the negotiation in the "Taking part in a business meeting" scenario with the AI coach, and close with "Så har vi en aftale."
+    exercises: |
+      mc: In a pay review, which request is the most tentative? || Jeg vil have en lønstigning. | Jeg vil gerne have en lønstigning. | *Jeg havde egentlig håbet på en lønstigning. || The past perfect havde håbet presents the wish as open to discussion. || @tags da.register,da.conditional
+      fill: ___ det være muligt at flytte mødet til torsdag? || Ville / Kunne || Ville (or kunne) + det være muligt makes a tentative request. || @tags da.conditional,da.register
+      fill: Du kan få fri på fredag, ___ ___ opgaven er færdig. (provided that) || forudsat ; at || Forudsat at = provided that; it introduces a subordinate clause. || @tags da.connectors
+      fill: Vi siger ja, forudsat at prisen ___ ___. (not + rise) || ikke ; stiger || In the subordinate clause ikke comes before the finite verb: at prisen ikke stiger. || @tags da.subordinate-clauses,da.negation
+      mc: "Hvad hvis vi delte udgifterne?" What is the speaker doing? || *Proposing a compromise | Refusing an offer | Talking about the past || Hvad hvis vi + past tense is a tentative proposal, not a statement about the past. || @tags da.conditional
+      tf: Fatima gets the extra week's holiday she asked for. || false || "En ekstra uge kan jeg ikke love." She gets a day working from home instead. || @ctx dialogue
+      short: What condition does Henrik set for the pay rise? || kw: praktikant/intern || "…forudsat at du tager dig af den nye praktikant." || @ctx dialogue
+      listen: @dialogue || What do they agree on in the end? || *Three thousand kroner more, the intern and a day working from home | Four thousand kroner more and an extra week's holiday | No rise this year, but more holiday || "Tre tusind mere om måneden, praktikanten og en hjemmearbejdsdag." || @tags da.listening
+      listen: Vi kan godt sænke prisen med ti procent, forudsat at I bestiller mindst tusind stykker inden udgangen af måneden. || What is the condition for the discount? || *Ordering at least a thousand units before the end of the month | Paying within ten days | Ordering ten per cent more than last year || "…forudsat at I bestiller mindst tusind stykker inden udgangen af måneden." || @tags da.listening,da.connectors
+      rw: Make it tentative, starting "Ville det være muligt…" :: Flyt mødet til fredag! || Ville det være muligt at flytte mødet til fredag? | Ville det være muligt at flytte mødet til på fredag? || Ville det være muligt at + infinitive turns an order into a polite request. || @tags da.conditional,da.register
+      tr: I had actually hoped for a bit more. || Jeg havde egentlig håbet på lidt mere. | Jeg havde faktisk håbet på lidt mere. | Egentlig havde jeg håbet på lidt mere. || Havde håbet på (past perfect) is the soft way to state a wish. || @tags da.register
+      ask: Your manager offers you a smaller pay rise than you hoped for. Respond politely, give one argument and propose a compromise. || kw: havde håbet/ville det være muligt/kunne/hvad hvis & forudsat at/hvis/i stedet || Tak for tilbuddet. Jeg havde egentlig håbet på lidt mere, fordi jeg har overtaget to nye projekter i år. Ville det være muligt at få en ekstra fridag i stedet, hvis budgettet er stramt?
+      write: Write an email (6–8 sentences) to your manager asking to work from home one day a week. Give your reasons and offer a condition. || min=60 || req: ville det være muligt/kunne/havde håbet | forudsat at/på betingelse af/så længe | med venlig hilsen || Kære Lise. Jeg vil gerne høre, om det ville være muligt at arbejde hjemme hver fredag. Jeg bruger næsten to timer om dagen på transport, og hjemme kan jeg koncentrere mig bedre om rapporterne. Jeg vil selvfølgelig være tilgængelig på telefon og mail hele dagen. Ordningen kunne gælde, forudsat at mine opgaver ikke kræver, at jeg er på kontoret. Vi kunne evaluere den efter tre måneder. Med venlig hilsen Jonas
+      dict: Ville det være muligt at mødes på halvvejen?
+
+  - title: Consumer society
+    summary: Talk about consumption, buying freezes and sharing, and express conditions without hvis — Havde jeg vidst det, …, Skulle varen være defekt, … and medmindre.
+    minutes: 50
+    skills: [grammar, listening, speaking]
+    tags: [da.conditional, da.word-order, da.connectors]
+    objectives:
+      - Express conditions with the verb first instead of hvis
+      - Understand formal conditions with skulle in terms and conditions
+      - Use medmindre (unless) and talk about consumption and second-hand culture
+    intro: |
+      Sales emails, next-day delivery and a new phone every other year — or second-hand clothes, swap parties and a drill shared by the whole stairwell? In this lesson Jonas tells his flatmate Nadia about the year he didn't buy any new clothes. You'll learn how Danish expresses conditions without *hvis*, by putting the verb first: *Havde jeg ikke set den dokumentar, havde jeg aldrig prøvet.*
+    vocab: |
+      et købestop | a buying freeze | n | Hun holdt købestop i et helt år. | She had a buying freeze for a whole year. | g: n | pl: købestop
+      et forbrug | consumption | n | Vores forbrug af tøj er steget kraftigt. | Our consumption of clothes has risen sharply. | g: n | n: No plural in this sense. Forbrugersamfundet = the consumer society.
+      en forbruger | a consumer | n | Forbrugerne bliver mere og mere bevidste om, hvad de køber. | Consumers are becoming more and more aware of what they buy. | g: c | pl: forbrugere
+      brugt | second-hand; used | adj | Jeg køber næsten kun brugt tøj. | I buy almost only second-hand clothes. | n: Same form for en- and et-words: en brugt cykel, et brugt bord.
+      bytte | to swap; to exchange | v | Vi bytter tøj med hinanden en gang om måneden. | We swap clothes with each other once a month. | n: Past: byttede.
+      et impulskøb | an impulse buy | n | Jakken var et impulskøb, som jeg fortrød med det samme. | The jacket was an impulse buy that I regretted immediately. | g: n | pl: impulskøb
+      fortryde | to regret; to change one's mind | v | Har du fortrudt dit køb, kan du returnere varen. | If you've changed your mind about your purchase, you can return the item. | n: Irregular: fortrød, har fortrudt. Fortrydelsesret = the right of withdrawal.
+      en trang | an urge | n | Jeg fik en pludselig trang til at købe nye sko. | I got a sudden urge to buy new shoes. | g: c | c: trang til at + infinitive
+      en deleordning | a sharing scheme | n | I vores opgang har vi en deleordning for værktøj. | In our stairwell we have a sharing scheme for tools. | g: c | pl: deleordninger
+      afmelde | to unsubscribe; to cancel | v | Jeg har afmeldt alle nyhedsbreve fra butikkerne. | I've unsubscribed from all the shops' newsletters. | n: Past: afmeldte.
+      medmindre | unless | conj | Jeg køber ikke nyt tøj, medmindre noget er slidt op. | I don't buy new clothes unless something is worn out. | n: Already contains "not": don't add ikke for the same idea.
+    grammar:
+      title: "Conditions without hvis: Havde jeg vidst det, …"
+      body: |
+        Danish can express a condition by putting the **verb first**, without hvis — like English *Had I known…* or *Should you…*:
+
+        - **Unreal past:** *Havde jeg vidst det, havde jeg sagt nej.* (= Hvis jeg havde vidst det…) Very common in speech.
+        - **Real condition:** *Har du spørgsmål, så ring til os.* · *Får jeg en dårlig dag, ender jeg med at handle på nettet.*
+        - **Skulle** — a formal "should": *Skulle varen være defekt, kan den returneres inden for fjorten dage.* Typical of terms and conditions and formal letters.
+
+        The verb-first clause counts as the first element, so the main clause continues with its verb (V2): *Har du spørgsmål, **kan** du ringe.* You can also start the main clause with så: *Har du spørgsmål, **så** kan du ringe.*
+
+        Two more useful words: **medmindre** (unless) and **ellers** (otherwise). Medmindre introduces a subordinate clause and already means "if not": *Vi tager i sommerhus, **medmindre** det regner.* (Not ~~medmindre det ikke regner~~.)
+
+        How do you tell a condition from a question? A verb-first question ends with a question mark; a verb-first condition is followed by a comma and another clause.
+      table: |
+        With hvis | Without hvis
+        Hvis jeg havde vidst det, havde jeg sagt nej. | Havde jeg vidst det, havde jeg sagt nej.
+        Hvis du har spørgsmål, kan du ringe. | Har du spørgsmål, kan du ringe.
+        Hvis varen er defekt, kan den returneres. | Skulle varen være defekt, kan den returneres.
+        Hvis det ikke regner, tager vi afsted. | Vi tager afsted, medmindre det regner.
+      examples: |
+        Havde jeg tænkt mig om, havde jeg aldrig købt den jakke. | Had I thought about it, I would never have bought that jacket. | unreal past
+        Får du brug for en boremaskine, kan du låne vores. | If you need a drill, you can borrow ours. | real condition
+        Skulle De ønske at returnere varen, bedes De kontakte kundeservice. | Should you wish to return the item, please contact customer service. | formal: skulle + De
+        Jeg handler ikke på nettet, medmindre jeg virkelig mangler noget. | I don't shop online unless I really need something. | medmindre = unless
+      tip: Verb first + question mark = a question. Verb first + comma + another clause = a condition.
+    dialogue:
+      title: Et år uden nyt tøj
+      setting: A shared flat in Aalborg on a Friday evening in November. Nadia scrolls through sales emails while her flatmate Jonas cooks.
+      speakers: N=Nadia/f; J=Jonas/m
+      lines: |
+        N: Har du set alle de mails om Black Friday? Halvtreds procent på alt — det er næsten for godt til at være sandt. | Have you seen all those Black Friday emails? Fifty per cent off everything — it's almost too good to be true.
+        J: Jeg har afmeldt dem allesammen. Det var det første, jeg gjorde, da jeg startede mit købestop. | I've unsubscribed from all of them. It was the first thing I did when I started my buying freeze.
+        N: Nå ja, dit købestop. Har du virkelig ikke købt noget nyt tøj i et helt år? | Oh right, your buying freeze. Have you really not bought any new clothes for a whole year?
+        J: Ikke andet end sokker og undertøj. Havde jeg ikke set den dokumentar om tøjproduktion, havde jeg aldrig prøvet. | Nothing but socks and underwear. If I hadn't seen that documentary about clothing production, I'd never have tried.
+        N: Men savner du ikke at købe noget nyt? Det er jo også en slags glæde. | But don't you miss buying something new? It's a kind of pleasure too, after all.
+        J: I starten, ja. Men nu køber jeg brugt eller bytter med venner, og det er faktisk sjovere. | At first, yes. But now I buy second-hand or swap with friends, and it's actually more fun.
+        N: Det kunne jeg aldrig. Får jeg en dårlig dag, ender jeg altid med at handle på nettet om aftenen. | I could never do that. If I have a bad day, I always end up shopping online in the evening.
+        J: Det gjorde jeg også. Trangen forsvandt først, da jeg slettede alle butikkernes apps fra min telefon. | So did I. The urge only disappeared when I deleted all the shops' apps from my phone.
+        N: Og boremaskinen, du lånte i sidste uge? Før ville du da have købt din egen. | And the drill you borrowed last week? Before, you'd have bought your own.
+        J: Helt sikkert. Men sådan en bruges jo kun ti minutter om året. Nu har vi en deleordning i opgangen. | Definitely. But one of those is only used ten minutes a year. Now we have a sharing scheme in the stairwell.
+        N: Okay, du er ved at overtale mig. Skulle jeg prøve, hvor skulle jeg så starte? | OK, you're starting to persuade me. If I were to try, where should I start?
+        J: Start med en måned. Har du ikke købt noget efter fire uger, kan du belønne dig selv med noget fra genbrugsbutikken. | Start with a month. If you haven't bought anything after four weeks, you can reward yourself with something from the charity shop.
+    pronunciation:
+      title: "Verb-first conditions: hold the voice at the comma"
+      body: |
+        A verb-first condition is said as one unit, with a small pause at the comma. At that pause the voice doesn't drop to a final low tone — it stays up, telling the listener that the sentence isn't finished: *Havde jeg vidst det, | havde jeg sagt nej.*
+
+        A verb-first question is different: it is complete on its own. Practise the difference: *Har du tid?* (a question) — *Har du tid, så ring.* (a condition). Listen and repeat.
+      items: |
+        Havde jeg vidst det, havde jeg sagt nej.
+        Har du tid, så ring.
+        Skulle varen være defekt
+        Får jeg en dårlig dag
+        medmindre det regner
+    mistakes: |
+      Havde jeg vidst det, jeg havde sagt nej. => Havde jeg vidst det, havde jeg sagt nej. | The conditional clause is the first element, so the main clause continues with the verb.
+      Skulle varen er defekt, … => Skulle varen være defekt, … | After skulle, use the infinitive: være.
+      Vi tager afsted, medmindre det ikke regner. => Vi tager afsted, medmindre det regner. | Medmindre already means "if not" — don't add ikke.
+    task:
+      title: Taking it back
+      mode: interaction
+      body: |
+        You bought a coffee machine online, and it stopped working after a week. Read the seller's terms ("Skulle varen være defekt, …") and plan what you will say. Then practise returning the item in the "Returning an item in a shop" scenario with the AI coach, using at least one verb-first condition (Havde jeg vidst…, Kan I ikke…, så…).
+    exercises: |
+      rw: Rewrite without hvis :: Hvis jeg havde vidst det, havde jeg sagt nej. || Havde jeg vidst det, havde jeg sagt nej. | Havde jeg vidst det, ville jeg have sagt nej. || Drop hvis and put the finite verb (havde) first. || @tags da.conditional,da.word-order
+      rw: Rewrite without hvis :: Hvis du har spørgsmål, kan du ringe til os. || Har du spørgsmål, kan du ringe til os. | Har du spørgsmål, så kan du ringe til os. | Har du spørgsmål, så ring til os. || Verb first in the condition; the main clause keeps V2. || @tags da.conditional,da.word-order
+      fill: ___ varen være defekt, kan den returneres inden for fjorten dage. (formal condition) || Skulle || Skulle + infinitive is the formal verb-first condition. || @tags da.conditional,da.register
+      fill: Vi tager i sommerhus på lørdag, ___ det regner. (unless) || medmindre || Medmindre = unless; no ikke is needed. || @tags da.connectors
+      mc: "Havde jeg tænkt mig om, havde jeg ikke købt den." What does it mean? || *I bought it, but I wouldn't have if I'd thought about it | I didn't buy it because I thought about it | I'll think before I buy it || An unreal past condition: in reality the speaker didn't think and did buy it. || @tags da.conditional
+      mc: Which sentence is correct? || *Får du brug for hjælp, kan du skrive til mig. | Får du brug for hjælp, du kan skrive til mig. | Du får brug for hjælp, kan du skrive til mig. || The verb-first condition is the first element, so kan comes next, then du. || @tags da.conditional,da.word-order
+      tf: Jonas hasn't bought anything new at all for a year. || false || He has bought socks and underwear: "Ikke andet end sokker og undertøj." || @ctx dialogue
+      short: What made Jonas start his buying freeze? || kw: dokumentar/documentary || "Havde jeg ikke set den dokumentar om tøjproduktion, havde jeg aldrig prøvet." || @ctx dialogue
+      listen: @dialogue || How does Jonas suggest Nadia should start? || *With a one-month buying freeze | By deleting her email account | By selling her clothes || "Start med en måned." || @tags da.listening
+      listen: Skulle du fortryde dit køb, kan du sende varen retur inden for fjorten dage. Husk at vedlægge kvitteringen. || What must you include when you return the item? || *The receipt | The original box | A letter explaining why || "Husk at vedlægge kvitteringen." || @tags da.listening,da.conditional
+      tr: Had I known that it was so expensive, I wouldn't have bought it. || Havde jeg vidst, at den var så dyr, havde jeg ikke købt den. | Havde jeg vidst, at den var så dyr, ville jeg ikke have købt den. | Hvis jeg havde vidst, at den var så dyr, havde jeg ikke købt den. | Hvis jeg havde vidst, at den var så dyr, ville jeg ikke have købt den. | Havde jeg vidst, at det var så dyrt, havde jeg ikke købt det. | Havde jeg vidst, at det var så dyrt, ville jeg ikke have købt det. || Verb-first condition (Havde jeg vidst…) + havde/ville have + participle. || @tags da.conditional
+      ask: Tell a friend about something you bought and regret — or don't regret. Use a verb-first condition. || kw: havde/har/får/skulle & købt/købe/køb || Jeg købte en dyr cykel sidste år. Havde jeg vidst, hvor meget jeg ville bruge den, havde jeg købt den meget før. Men et par sko på udsalg fortryder jeg — dem har jeg aldrig haft på.
+      write: Write a forum post (6–8 sentences) — could you manage a year without buying new clothes or gadgets? Use at least two conditions without hvis. || min=60 || req: havde/har/får/skulle | medmindre/ellers/hvis || Et helt år uden nyt tøj lyder svært, men jeg tror, jeg kunne klare det. Jeg køber allerede det meste brugt. Får jeg brug for noget særligt, kan jeg låne det af min søster. Havde du spurgt mig for fem år siden, havde jeg sagt nej. Men elektronik ville være sværere, medmindre der var en god deleordning. Går min telefon i stykker, bliver jeg nødt til at købe en ny.
+      dict: Havde jeg ikke set dokumentaren, havde jeg aldrig prøvet et købestop.

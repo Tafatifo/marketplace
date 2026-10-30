@@ -1,0 +1,364 @@
+unit: 7
+title: Freizeit und Wetter
+theme: Free time and weather
+description: Talk about hobbies and what you like, describe the weather and the seasons, and make plans with friends.
+free: false
+objectives:
+  - Talk about hobbies and likes with gern, nicht gern and mögen
+  - Describe the weather and the seasons with es ist…, es regnet…
+  - Make, accept and decline simple plans, using stem-changing verbs
+canDo:
+  - I can say what I like doing and what I don't like doing.
+  - I can describe today's weather and the weather in different seasons.
+  - I can suggest an activity and accept or decline an invitation.
+  - I can talk about what other people do in their free time.
+review: |
+  fill: Ich höre ___ Musik. (like) || gern / gerne || Verb + gern = like doing something. || @tags de.gern @hint like
+  mc: "I like summer." || Ich bin den Sommer gern. | *Ich mag den Sommer. | Ich möchte den Sommer. || Mögen + noun = to like something; möchte means "would like". || @tags de.gern
+  fill: Er ___ jeden Tag die Zeitung. (lesen) || liest || Lesen changes e → ie: er liest. || @tags de.present-irregular
+  fill: Du ___ sehr gut Deutsch! (sprechen) || sprichst || Sprechen changes e → i: du sprichst. || @tags de.present-irregular
+  mc: Which sentence is correct? || Im Winter es schneit oft. | *Im Winter schneit es oft. | Im Winter schneit oft. || The verb stays in position 2 and the subject es is required. || @tags de.weather,de.word-order
+  rw: Make it negative :: Es regnet. || Es regnet nicht. || Nicht goes to the end of a short sentence. || @tags de.weather,de.negation
+  tr: In summer it's hot. || Im Sommer ist es heiß. | Es ist im Sommer heiß. || Im + season; weather sentences need es. || @tags de.weather
+  tr: Do you fancy the cinema? (informal) || Hast du Lust auf Kino? | Hast du Lust, ins Kino zu gehen? | Hast du Lust auf einen Film? || Lust haben auf + noun = to feel like something. || @tags de.questions
+  listen: In Berlin ist es heute sonnig, aber kalt – nur drei Grad. || What's the weather like in Berlin? || Sunny and warm, 13 °C | *Sunny but cold, 3 °C | Cloudy and cold, 3 °C || Sonnig, aber kalt; drei Grad = 3 °C. || @tags de.weather
+  listen: Meine Freundin fährt gern Ski, aber sie schwimmt nicht gern. || What doesn't the friend like doing? || Skiing | *Swimming | Cycling || Sie schwimmt nicht gern = she doesn't like swimming. || @tags de.gern
+  ask: Tell a new friend about your hobbies and your favourite season, then invite them to do something together. || kw: gern/gerne/mag & sommer/winter/herbst/frühling/fruehling & hast du/kommst du/lust || Ich wandere gern und ich mag den Herbst. Hast du am Sonntag Lust auf eine Wanderung?
+  write: Write an invitation to a friend for an activity at the weekend — what, when, the weather, and ask if they want to come. || min=35 || req: hast du/kommst du/lust | am/um | es ist/es regnet/sonne/grad || Hallo Sam! Am Samstag ist es sonnig und warm, fünfundzwanzig Grad! Ich fahre mit Ben an den See. Wir schwimmen und essen Kuchen. Hast du Lust? Kommst du mit? Wir fahren um zehn Uhr. Liebe Grüße, Mira
+lessons:
+  - title: Hobbies and likes
+    summary: Talk about free-time activities, say what you like doing with gern, and what you like with mögen.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [de.gern]
+    objectives:
+      - Name common hobbies and free-time activities
+      - Say what you like and don't like doing with gern and nicht gern
+      - Say what you like with mögen + noun
+    intro: |
+      What do you do in your free time? In German you don't need a special verb for "like doing": just add **gern** after the verb — *Ich schwimme gern* (I like swimming). For things and people, use **mögen**: *Ich mag Musik. Magst du Katzen?* With these two tools you can talk about your hobbies for hours.
+    vocab: |
+      die Freizeit | free time; leisure | n | Was machst du in der Freizeit? | What do you do in your free time? | g: f | pl: (no plural)
+      das Hobby | hobby | n | Mein Hobby ist Fotografieren. | My hobby is photography. | g: n | pl: die Hobbys | n: The plural is spelled Hobbys.
+      gern | gladly; (like doing) | adv | Ich koche gern. | I like cooking. | n: Verb + gern = to like doing; nicht gern = not to like doing. Also gerne.
+      mögen | to like | v | Ich mag Jazz. | I like jazz. | n: ich mag, du magst, er mag, wir mögen, Sie mögen. Usually followed by a noun.
+      spielen | to play | v | Wir spielen am Samstag Fußball. | We play football on Saturdays. | c: Fußball spielen; Gitarre spielen; Karten spielen
+      schwimmen | to swim | v | Im Sommer schwimme ich im See. | In summer I swim in the lake. | c: schwimmen gehen (to go swimming)
+      lesen | to read | v | Ich lese gern Krimis. | I like reading crime novels. | n: The vowel changes: du liest, er liest (see lesson 3).
+      Musik hören | to listen to music | expr | Abends höre ich Musik. | In the evenings I listen to music.
+      tanzen | to dance | v | Tanzt du gern? | Do you like dancing? | n: The stem ends in z, so du only adds -t: du tanzt.
+      wandern | to hike; to go hiking | v | Am Wochenende wandern wir oft. | At the weekend we often go hiking. | n: ich wandere, du wanderst, er wandert.
+      Rad fahren | to cycle | expr | Ich fahre gern Rad. | I like cycling. | n: Fahren changes its vowel: du fährst Rad, er fährt Rad.
+      fotografieren | to take photos | v | Sie fotografiert gern Tiere. | She likes taking photos of animals.
+      der Sport | sport; exercise | n | Ich mache gern Sport. | I like doing sport. | g: m | pl: (usually no plural) | c: Sport machen
+      langweilig | boring | adj | Fußball finde ich langweilig. | I find football boring. | n: Opposite: interessant; spannend (exciting).
+    grammar:
+      title: "gern and mögen"
+      body: |
+        To say you **like doing** something, put **gern** after the conjugated verb: *Ich schwimme **gern**. Wir tanzen **gern**.* For things you don't like doing, use **nicht gern**: *Ich koche **nicht gern**.* With two-part verbs, gern comes before the final part: *Ich fahre **gern** Rad. Ich sehe **gern** fern.*
+
+        To say you **like something or someone**, use **mögen** + accusative: *Ich mag **den** Sommer. Magst du Katzen?* *Mögen* is irregular: the singular forms have **a** (*ich mag, du magst, er/sie mag*), the plural forms have **ö** (*wir mögen, ihr mögt, sie/Sie mögen*).
+
+        To ask: *Was machst du **gern**?* (What do you like doing?) or *Was magst du?*
+
+        Don't mix up *mögen* and *möchte*: *Ich mag Kaffee* (I like coffee in general) — *Ich möchte einen Kaffee* (I'd like a coffee now).
+      table: |
+        Pronoun | mögen | Example with gern
+        ich | mag | Ich lese gern.
+        du | magst | Spielst du gern Tennis?
+        er / sie / es | mag | Sie tanzt gern.
+        wir | mögen | Wir wandern gern.
+        ihr | mögt | Kocht ihr gern?
+        sie / Sie | mögen | Sie fahren gern Rad.
+      examples: |
+        Ich spiele gern Gitarre. | I like playing the guitar. | verb + gern
+        Mein Bruder schwimmt nicht gern. | My brother doesn't like swimming. | nicht gern
+        Magst du Jazz? – Ja, sehr! | Do you like jazz? – Yes, a lot! | mögen + noun
+        Ich mag den Winter nicht. | I don't like winter. | mögen + nicht
+      tip: Gern goes with verbs, mögen goes with nouns — "Ich tanze gern", but "Ich mag Musik".
+    dialogue:
+      title: Was machst du gern?
+      setting: Leonie and Kemal meet at a language café in Freiburg and talk about their free time.
+      speakers: L=Leonie/f; K=Kemal/m
+      lines: |
+        L: Was machst du gern in der Freizeit? | What do you like doing in your free time?
+        K: Ich spiele gern Fußball und ich koche gern. | I like playing football and cooking.
+        L: Oh, du kochst gern? Was denn? | Oh, you like cooking? What, then?
+        K: Pasta, Suppe, Curry… Und du? | Pasta, soup, curry… And you?
+        L: Ich koche nicht gern. Aber ich backe gern Kuchen! | I don't like cooking. But I like baking cakes!
+        K: Super! Magst du Sport? | Great! Do you like sport?
+        L: Ja, ich wandere gern und ich fahre viel Rad. | Yes, I like hiking and I cycle a lot.
+        K: Wandern finde ich langweilig. | I find hiking boring.
+        L: Wirklich? Und was magst du noch? | Really? And what else do you like?
+        K: Ich mag Musik. Ich höre jeden Tag Jazz. | I like music. I listen to jazz every day.
+        L: Ich auch! Ich spiele ein bisschen Klavier. | Me too! I play the piano a little.
+        K: Toll! | Great!
+    pronunciation:
+      title: The ending -en in fast speech
+      body: |
+        In natural speech the unstressed ending **-en** is often reduced: the e almost disappears and you hear only a syllabic n — *spielen* [ˈʃpiːln̩], *lesen* [ˈleːzn̩], *schwimmen*. After b or p the n can even sound like m: *haben* [ˈhaːbm̩].
+
+        You can pronounce the e lightly yourself, but knowing the short forms helps you understand fast German. In **-ern**, as in *wandern*, the r becomes vowel-like: [ˈvandɐn].
+      items: |
+        spielen
+        lesen
+        schwimmen
+        tanzen
+        wandern
+        Wir spielen gern Karten.
+    culture:
+      title: Vereine — a club for everything
+      body: |
+        Germany has a huge number of *Vereine* — registered clubs for sport, music, gardening, hiking, chess and much more. Sports clubs (*Sportvereine*) are the most popular: many children and adults play football, handball or tennis in a local club for a small monthly fee.
+
+        Joining a choir (*Chor*) or a club is one of the best ways to meet people and practise German, because members meet every week and often celebrate together.
+    mistakes: |
+      Ich gern schwimme. => Ich schwimme gern. | Gern comes after the conjugated verb.
+      Ich mage Musik. => Ich mag Musik. | Mögen is irregular: ich mag, with no -e.
+      Ich möchte Katzen. (meaning "I like cats") => Ich mag Katzen. | Möchte means "would like" (a wish now); mag means "like" in general.
+    task:
+      title: Find a hobby partner
+      mode: interaction
+      body: |
+        Write a short profile for a hobby website: three things you like doing (gern), one thing you don't like doing (nicht gern) and one thing you like (Ich mag…). Then ask a partner about their hobbies and find one activity you both like.
+    exercises: |
+      fill: Ich spiele ___ Tennis. (like) || gern / gerne || Verb + gern = like doing: Ich spiele gern Tennis. || @tags de.gern @hint like
+      fill: ___ du Hunde? (mögen) || Magst || Du + mögen = du magst. || @tags de.gern
+      fill: Wir ___ den Sommer. (mögen) || mögen / moegen || Wir + mögen = wir mögen (with ö in the plural). || @tags de.gern
+      mc: Choose the correct sentence. || Ich gern lese. | *Ich lese gern. | Ich lese mag. || Gern comes right after the conjugated verb. || @tags de.gern,de.word-order
+      mc: Which sentence means "I like tea" (in general)? || Ich möchte Tee. | *Ich mag Tee. | Ich bin Tee gern. || Mag = like in general; möchte = would like (now). || @tags de.gern
+      mc: Which sentence means "I don't like dancing"? || *Ich tanze nicht gern. | Ich tanze gern nicht. | Ich nicht tanze gern. || Nicht gern comes after the verb. || @tags de.gern,de.negation
+      mc: What does Leonie like doing? || Cooking and playing football | *Baking, hiking and cycling | Listening to jazz every day || "Aber ich backe gern Kuchen!" … "ich wandere gern und ich fahre viel Rad." || @ctx dialogue @skill reading @tags de.reading
+      tf: Kemal finds hiking boring. || true || "Wandern finde ich langweilig." || @ctx dialogue
+      rw: Say you like doing it :: Ich fahre Rad. || Ich fahre gern Rad. | Ich fahre gerne Rad. || Gern comes before the final part Rad. || @tags de.gern
+      tr: My sister likes reading. || Meine Schwester liest gern. | Meine Schwester liest gerne. || Lesen → sie liest; add gern after the verb. || @tags de.gern,de.present-irregular
+      tr: Do you like music? (informal) || Magst du Musik? | Hörst du gern Musik? | Hörst du gerne Musik? || Mögen + noun: Magst du Musik? || @tags de.gern,de.questions
+      listen: Ich mache gern Sport, aber ich sehe nicht gern fern. || What doesn't the speaker like? || Doing sport | *Watching TV | Listening to music || Ich sehe nicht gern fern = I don't like watching TV. || @tags de.gern
+      dict: Am Wochenende wandern wir gern.
+      ask: Say three things you like doing and one thing you don't like doing. || kw: gern/gerne & nicht gern/nicht gerne || Ich koche gern, ich lese gern und ich tanze gern. Ich mache nicht gern Sport.
+
+  - title: Weather and seasons
+    summary: Describe the weather with es ist…, es regnet and es schneit, and talk about the seasons and months.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [de.weather, de.dates]
+    objectives:
+      - Ask about and describe the weather
+      - Use es with weather verbs and adjectives
+      - Name the seasons and months and say im Sommer, im Juli
+    intro: |
+      The weather is the classic small-talk topic in Germany — and German weather gives you plenty to talk about! Weather sentences almost always start with **es**: *Es ist kalt. Es regnet. Es schneit.* In this lesson you will also learn the seasons and months, and temperatures in degrees Celsius.
+    vocab: |
+      das Wetter | weather | n | Wie ist das Wetter heute? | What's the weather like today? | g: n | pl: (no plural)
+      die Sonne | sun | n | Die Sonne scheint. | The sun is shining. | g: f | pl: die Sonnen | n: Also: Es ist sonnig.
+      der Regen | rain | n | Ich mag Regen nicht. | I don't like rain. | g: m | pl: (no plural) | n: The verb: es regnet (it's raining).
+      der Schnee | snow | n | In den Alpen gibt es im Winter viel Schnee. | There's a lot of snow in the Alps in winter. | g: m | pl: (no plural) | n: The verb: es schneit (it's snowing).
+      der Wind | wind | n | Heute ist viel Wind. | It's very windy today. | g: m | pl: die Winde | n: Also: Es ist windig.
+      warm | warm | adj | Im Mai ist es oft warm. | It's often warm in May. | n: Stronger: heiß (hot).
+      kalt | cold | adj | Es ist kalt, nur zwei Grad. | It's cold, only two degrees. | n: Weaker: kühl (cool).
+      bewölkt | cloudy | adj | Am Morgen ist es bewölkt. | In the morning it's cloudy.
+      der Grad | degree | n | Es sind zwanzig Grad. | It's twenty degrees. | g: m | pl: die Grad | n: After a number, Grad stays singular. Minus fünf Grad = –5 °C.
+      der Frühling | spring | n | Im Frühling ist es oft mild. | In spring it's often mild. | g: m | pl: die Frühlinge
+      der Sommer | summer | n | Im Sommer ist es heiß. | In summer it's hot. | g: m | pl: die Sommer
+      der Herbst | autumn; fall | n | Im Herbst regnet es oft. | It often rains in autumn. | g: m | pl: die Herbste
+      der Winter | winter | n | Im Winter schneit es manchmal. | It sometimes snows in winter. | g: m | pl: die Winter
+      der Monat | month | n | Der Juli ist mein Lieblingsmonat. | July is my favourite month. | g: m | pl: die Monate | n: Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember — all masculine: im Juli.
+    grammar:
+      title: Talking about the weather with es
+      body: |
+        German weather sentences need a subject, so they use **es** (*it*), just like English:
+
+        - **es ist** + adjective: *Es ist kalt. Es ist sonnig. Es ist windig.*
+        - weather verbs: ***Es regnet*** (it's raining), ***es schneit*** (it's snowing), ***die Sonne scheint***. *Regnen* adds an extra -e- before the ending: es regn**e**t.
+        - temperature: *Es sind zwanzig Grad.* (You will also hear *Es ist zwanzig Grad*.) Below zero: *Es sind minus drei Grad.*
+
+        To ask: *Wie ist das Wetter?* or *Wie ist das Wetter in Hamburg?*
+
+        Seasons and months are all **masculine** and use **im** (= in dem): *im Sommer, im Winter, im Juli*. If the sentence starts with a season or a time word, the verb stays in position 2 and *es* follows it: *Im Herbst **regnet es** oft. Heute **ist es** kalt.*
+      table: |
+        Question | Answer | Meaning
+        Wie ist das Wetter? | Es ist sonnig und warm. | It's sunny and warm.
+        Regnet es? | Ja, es regnet. | Yes, it's raining.
+        Schneit es? | Nein, es schneit nicht. | No, it isn't snowing.
+        Wie warm ist es? | Es sind fünfundzwanzig Grad. | It's 25 degrees.
+        Wie ist das Wetter im Winter? | Im Winter ist es kalt. | In winter it's cold.
+      examples: |
+        Heute ist es kalt und windig. | It's cold and windy today. | es after the verb
+        Im April regnet es oft. | It often rains in April. | im + month
+        Die Sonne scheint, es sind achtundzwanzig Grad. | The sun is shining, it's 28 degrees.
+        Im Winter schneit es in den Alpen. | In winter it snows in the Alps. | im + season
+      tip: In weather sentences, es is never optional — Heute regnet es, not "Heute regnet".
+    dialogue:
+      title: Wie ist das Wetter bei dir?
+      setting: A video call in September. Paula is in Munich, and her brother Finn is in Kiel, on the Baltic coast.
+      speakers: P=Paula/f; F=Finn/m
+      lines: |
+        F: Hallo Paula! Wie ist das Wetter in München? | Hi Paula! What's the weather like in Munich?
+        P: Super! Die Sonne scheint und es ist warm. | Great! The sun's shining and it's warm.
+        F: Wie warm ist es? | How warm is it?
+        P: Es sind fünfundzwanzig Grad. Und bei dir? | It's twenty-five degrees. And where you are?
+        F: Hier in Kiel regnet es. Es ist windig und kalt. | Here in Kiel it's raining. It's windy and cold.
+        P: Oh nein! Wie kalt ist es? | Oh no! How cold is it?
+        F: Nur zwölf Grad. Typisch Herbst! | Only twelve degrees. Typical autumn!
+        P: Magst du den Herbst? | Do you like autumn?
+        F: Nein, ich mag den Winter. Ich fahre gern Ski. | No, I like winter. I like skiing.
+        P: Und ich mag den Sommer. | And I like summer.
+        F: Ja, ja. Viel Spaß in der Sonne! | Yeah, yeah. Have fun in the sun!
+        P: Danke! Tschüss, Finn! | Thanks! Bye, Finn!
+    pronunciation:
+      title: "The r in Wetter, Winter, Sommer"
+      body: |
+        In the ending **-er**, the r is not pronounced as a consonant. It becomes a short, relaxed vowel [ɐ], a bit like the *u* in English *but*: *Wetter* [ˈvɛtɐ], *Winter, Sommer, aber*. After a vowel in a short word, the r is also vowel-like: *warm* sounds close to [vaɐ̯m].
+
+        At the start of a syllable or after a consonant, you hear a real r: *Regen, Frühling, Grad*.
+      items: |
+        Wetter
+        Winter
+        Sommer
+        Regen
+        Frühling
+        Im Herbst regnet es oft.
+    culture:
+      title: Four seasons and Celsius
+      body: |
+        Germany has four clear seasons. Summers are usually warm (20–30 °C), with occasional heatwaves; winters can be cold, especially in the east and in the mountains. Snow is common in the Alps but less reliable in the north. April is famous for *Aprilwetter* — sun, rain and even hail on the same day.
+
+        Temperatures are always given in degrees Celsius. A popular saying goes: *Es gibt kein schlechtes Wetter, nur falsche Kleidung* — "There's no bad weather, only the wrong clothes."
+    mistakes: |
+      Heute ist kalt. => Heute ist es kalt. | Weather sentences need es, even after the verb.
+      Es ist regnet. => Es regnet. | Regnen is a verb: es regnet. Don't add ist.
+      In Sommer ist es heiß. => Im Sommer ist es heiß. | Seasons and months use im (in + dem): im Sommer, im Juli.
+    task:
+      title: Weather report
+      mode: speaking
+      body: |
+        Look at today's forecast for two German cities, for example Hamburg and Munich. Give a short weather report: what the weather is like, the temperature, and what the weather is usually like there in winter and in summer.
+    exercises: |
+      fill: Im Januar ___ es oft. (schneien) || schneit || Weather verbs use es: es schneit. || @tags de.weather
+      fill: Im Sommer ___ die Sonne oft. (scheinen) || scheint || Die Sonne (sie) + scheinen = scheint. || @tags de.weather,de.present-regular
+      fill: ___ Winter ist es kalt. || Im || Seasons use im (in + dem): im Winter. || @tags de.dates
+      fill: Heute ist ___ sehr windig. || es || The verb ist is in position 2, so es follows it: Heute ist es windig. || @tags de.weather
+      mc: Which sentence is correct? || Heute regnet. | *Heute regnet es. | Heute es regnet. || Es is needed, and the verb stays in position 2. || @tags de.weather,de.word-order
+      mc: "Bewölkt" means… || sunny | *cloudy | windy || Bewölkt = cloudy; sonnig = sunny; windig = windy. || @skill vocabulary @tags de.weather
+      mc: What's the weather like in Kiel? || Sunny and 25 degrees | *Rainy, windy and 12 degrees | Snowy and cold || "Hier in Kiel regnet es. Es ist windig und kalt." … "Nur zwölf Grad." || @ctx dialogue @skill reading @tags de.reading
+      tf: Finn likes winter. || true || "Nein, ich mag den Winter. Ich fahre gern Ski." || @ctx dialogue
+      order: Im Winter ist es sehr kalt. || In winter it's very cold. || @tags de.weather,de.word-order @alt Es ist im Winter sehr kalt.
+      tr: It's sunny and twenty degrees. || Es ist sonnig und es sind zwanzig Grad. | Es ist sonnig und zwanzig Grad. | Die Sonne scheint und es sind zwanzig Grad. | Es ist sonnig und es ist zwanzig Grad. || Es ist + adjective; temperature: es sind … Grad. || @tags de.weather
+      tr-en: Im April regnet es oft. || It often rains in April. | In April it often rains. | It rains a lot in April. || Im April = in April; es regnet = it rains; oft = often. || @tags de.weather
+      listen: Morgen ist es bewölkt, aber es regnet nicht. Es sind fünfzehn Grad. || What will the weather be like tomorrow? || *Cloudy, no rain, 15 °C | Rainy and 15 °C | Sunny and 50 °C || Bewölkt = cloudy; es regnet nicht = no rain; fünfzehn = 15. || @tags de.weather
+      dict: Im Winter ist es kalt und es schneit.
+      ask: Describe today's weather where you are, and say which season you like. || kw: es ist/es regnet/es schneit/sonne/grad & mag/gern || Heute ist es bewölkt und kühl, es sind zwölf Grad. Ich mag den Frühling.
+
+  - title: Making plans
+    summary: Suggest activities, accept and decline invitations, and use stem-changing verbs such as fahren, lesen, sehen and treffen.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [de.present-irregular, de.separable]
+    objectives:
+      - Suggest an activity and agree on a day and time
+      - Accept or decline an invitation politely
+      - Use stem-changing verbs (fahren, lesen, sehen, treffen, essen, nehmen) in the present
+    intro: |
+      *Hast du am Samstag Zeit?* — making plans with friends is where your German comes alive. You need invitations, polite refusals and verbs for what people do. Some very common verbs change their vowel with **du** and **er/sie/es**: *ich fahre, du **fährst**, sie **fährt***. You will learn the most important ones here.
+    vocab: |
+      Hast du Zeit? | are you free? | expr | Hast du am Freitag Zeit? | Are you free on Friday? | n: Formal: Haben Sie Zeit?
+      Hast du Lust auf…? | do you fancy…? | expr | Hast du Lust auf Kino? | Do you fancy the cinema? | n: Lust haben = to feel like (doing) something.
+      mitkommen | to come along | v | Kommst du mit? | Are you coming along? | n: Separable: Ich komme gern mit.
+      treffen | to meet | v | Ich treffe Ali im Café. | I'm meeting Ali at the café. | n: Stem change e → i: du triffst, er trifft.
+      fahren | to go (by vehicle); to drive | v | Wir fahren am Sonntag nach Potsdam. | We're going to Potsdam on Sunday. | n: Stem change a → ä: du fährst, sie fährt.
+      sehen | to see; to watch | v | Wir sehen heute einen Film. | We're watching a film today. | n: Stem change e → ie: du siehst, er sieht.
+      essen | to eat | v | Isst du gern Pizza? | Do you like eating pizza? | n: Stem change e → i: du isst, er isst.
+      das Kino | cinema | n | Gehen wir heute ins Kino? | Shall we go to the cinema today? | g: n | pl: die Kinos | n: ins Kino gehen = to go to the cinema.
+      das Konzert | concert | n | Das Konzert beginnt um acht. | The concert starts at eight. | g: n | pl: die Konzerte
+      die Party | party | n | Am Samstag ist eine Party bei Lisa. | There's a party at Lisa's on Saturday. | g: f | pl: die Partys
+      leider | unfortunately | adv | Leider habe ich keine Zeit. | Unfortunately I don't have time.
+      vielleicht | maybe; perhaps | adv | Vielleicht am Sonntag? | Maybe on Sunday?
+      Gute Idee! | good idea! | expr | Ins Museum? Gute Idee! | To the museum? Good idea! | c: Super!; Klingt gut! (sounds good)
+      die Verabredung | plan to meet; date | n | Ich habe heute Abend eine Verabredung. | I'm meeting someone this evening. | g: f | pl: die Verabredungen
+    grammar:
+      title: Stem-changing verbs
+      body: |
+        Some common verbs change their **stem vowel** in the present tense — but only with **du** and **er/sie/es**. All the other forms are regular. There are three main patterns:
+
+        - **a → ä**: *fahren → du fährst, er fährt*; also *schlafen, tragen*
+        - **e → i**: *treffen → du triffst, sie trifft*; also *essen, sprechen, nehmen, geben*
+        - **e → ie**: *sehen → du siehst, er sieht*; also *lesen*
+
+        A few have extra spelling changes: *nehmen → du **nimmst**, er **nimmt***; *essen → du **isst**, er **isst*** (the stem ends in s, so du only adds -t). Learn the er/sie form together with the infinitive: *fahren – fährt, lesen – liest*.
+
+        To make plans: *Hast du am Samstag Zeit? Hast du Lust auf Kino? Kommst du mit?* Answer *Ja, gern! / Gute Idee!* or *Leider nicht. Ich habe keine Zeit.*
+      table: |
+        Pronoun | fahren (a → ä) | treffen (e → i) | sehen (e → ie)
+        ich | fahre | treffe | sehe
+        du | fährst | triffst | siehst
+        er / sie / es | fährt | trifft | sieht
+        wir | fahren | treffen | sehen
+        ihr | fahrt | trefft | seht
+        sie / Sie | fahren | treffen | sehen
+      examples: |
+        Fährst du am Wochenende nach Berlin? | Are you going to Berlin at the weekend? | a → ä
+        Lena trifft Paul im Café. | Lena is meeting Paul at the café. | e → i
+        Er liest gern Comics. | He likes reading comics. | e → ie
+        Was nimmst du? – Ich nehme die Pizza. | What are you having? – I'll have the pizza. | nehmen → nimmst
+      tip: The vowel only changes with du and er/sie/es — the ich-form is always regular (ich fahre, ich lese, ich nehme).
+    dialogue:
+      title: Hast du am Samstag Zeit?
+      setting: Marie calls her friend Jan in Dortmund to make plans for the weekend.
+      speakers: M=Marie/f; J=Jan/m
+      lines: |
+        M: Hallo Jan! Hast du am Samstag Zeit? | Hi Jan! Are you free on Saturday?
+        J: Am Samstag? Was machst du denn? | On Saturday? What are you doing, then?
+        M: Ich fahre mit Aylin zum See. | I'm going to the lake with Aylin.
+        M: Kommst du mit? | Are you coming along?
+        J: Leider nicht. Am Samstag arbeite ich. | Unfortunately not. I'm working on Saturday.
+        M: Schade! Und am Sonntag? | Pity! And on Sunday?
+        J: Am Sonntag treffe ich meine Eltern. Aber am Abend? | On Sunday I'm meeting my parents. But in the evening?
+        M: Gute Idee! Hast du Lust auf Kino? | Good idea! Do you fancy the cinema?
+        J: Ja, gern! Was läuft denn? | Yes, I'd love to! What's on?
+        M: Ein Krimi. Er beginnt um acht. | A crime film. It starts at eight.
+        J: Super. Ich bin um halb acht am Kino. | Great. I'll be at the cinema at half past seven.
+        M: Perfekt. Bis Sonntag! | Perfect. See you on Sunday!
+    pronunciation:
+      title: Hearing the vowel change
+      body: |
+        In stem-changing verbs you can hear the difference: **ä** in *fährst, fährt* sounds like a long open *e* [ɛː], quite different from the a in *fahren*. **ie** in *siehst, liest* is a long [iː], while the **i** in *triffst, isst, nimmst* is short [ɪ] — note the double consonant after it.
+
+        Practise in pairs: *ich fahre – du fährst; ich lese – du liest; ich treffe – du triffst.*
+      items: |
+        du fährst
+        er schläft
+        du liest
+        sie sieht
+        du triffst
+        Was nimmst du?
+    culture:
+      title: Making plans the German way
+      body: |
+        Many Germans plan their free time in advance: invitations to dinner or a birthday party often come a week or more ahead, and once you say yes, people expect you to come — and to be on time. If you can't come, it's polite to say so early.
+
+        Spontaneous plans are common too, especially among young people and students — a quick message like *Hast du Lust auf Kino heute Abend?* is perfectly normal.
+    mistakes: |
+      Du fahrst nach Köln. => Du fährst nach Köln. | Fahren changes a → ä with du and er/sie/es: du fährst.
+      Er lest ein Buch. => Er liest ein Buch. | Lesen changes e → ie: er liest.
+      Du treffst Ben. => Du triffst Ben. | Treffen changes e → i with du and er/sie/es: du triffst, er trifft.
+    task:
+      title: Plan the weekend with a friend
+      mode: interaction
+      body: |
+        Role-play a phone call with a friend. Suggest an activity for Saturday, listen to the answer, suggest another day or activity, and agree on a time and place. Use at least two stem-changing verbs (fahren, treffen, sehen, lesen…).
+    exercises: |
+      fill: ___ du am Samstag nach Hamburg? (fahren) || Fährst / Faehrst || Fahren changes a → ä with du: du fährst. || @tags de.present-irregular
+      fill: Lena ___ heute ihre Freundin. (treffen) || trifft || Treffen changes e → i with er/sie: sie trifft. || @tags de.present-irregular
+      fill: Was ___ du gern? (lesen) || liest || Lesen changes e → ie, and the stem ends in s: du liest. || @tags de.present-irregular
+      fill: Mein Sohn ___ gern Nudeln. (essen) || isst || Essen changes e → i: er isst. || @tags de.present-irregular
+      fill: Was ___ du? – Ich nehme die Suppe. (nehmen) || nimmst || Nehmen has an irregular du-form: du nimmst. || @tags de.present-irregular
+      mc: "Er ___ einen Film." (sehen) || seht | *sieht | siehst || Sehen changes e → ie: er sieht. Seht is ihr, siehst is du. || @tags de.present-irregular
+      mc: A friend invites you, but you are busy. You say: || Ja, gern! Gute Idee! | *Leider nicht, ich habe keine Zeit. | Ich komme gern mit. || Leider nicht = unfortunately not. || @tags de.negation
+      mc: Why can't Jan come on Saturday? || He's meeting his parents. | *He's working. | He's going to the lake. || "Leider nicht. Am Samstag arbeite ich." || @ctx dialogue @skill reading @tags de.reading
+      tf: Marie and Jan go to the cinema on Sunday evening. || true || They agree on the cinema on Sunday evening; the film starts at eight. || @ctx dialogue
+      rw: Change the subject to "er" :: Ich fahre gern Rad. || Er fährt gern Rad. | Er fährt gerne Rad. || With er, fahren becomes fährt. || @tags de.present-irregular
+      tr: Are you coming along? (informal) || Kommst du mit? || Mitkommen is separable: Kommst du … mit? || @tags de.separable,de.questions
+      tr: She's meeting her friend at the café. || Sie trifft ihre Freundin im Café. | Sie trifft ihren Freund im Café. || Treffen → sie trifft; "her friend" can be ihre Freundin or ihren Freund (accusative). || @tags de.present-irregular,de.possessives
+      listen: Hast du am Freitag Lust auf ein Konzert? Es beginnt um neun. || What is the speaker suggesting? || *A concert on Friday at nine | A film on Friday at nine | A concert on Saturday at nine || Am Freitag, ein Konzert, um neun. || @tags de.listening
+      dict: Am Sonntag fährt Paul nach Dresden.
+      ask: Invite a friend to do something at the weekend, and give the day and the time. || kw: hast du/kommst du/lust & samstag/sonntag/freitag/wochenende & um || Hast du am Samstag Lust auf Kino? Der Film beginnt um acht. Kommst du mit?

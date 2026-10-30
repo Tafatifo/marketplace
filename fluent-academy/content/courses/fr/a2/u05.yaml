@@ -1,0 +1,350 @@
+unit: 5
+title: Chez soi
+theme: Home and housing
+description: Look for a flat and compare homes, share the furniture and the housework, and get to know your neighbours and neighbourhood, using comparatives, possessive pronouns and the pronoun y.
+free: false
+objectives:
+  - Compare flats, rooms and neighbourhoods with plus, moins, aussi… que, meilleur and mieux
+  - Talk about furniture and chores and say whose things are whose with possessive pronouns
+  - Talk about local places without repeating them, using the pronoun y
+canDo:
+  - I can understand a simple flat advert and ask questions about a flat.
+  - I can compare two homes or neighbourhoods.
+  - I can discuss who does which chores at home.
+  - I can talk to my neighbours and about places in my neighbourhood.
+review: |
+  fill: Mon nouveau quartier est ___ calme que l'ancien. (more) || plus || Plus + adjective + que. || @tags fr.comparatives
+  fill: C'est ta veste ? — Non, ce n'est pas ___. (mine) || la mienne || La veste is feminine singular: la mienne. || @tags fr.possessives
+  fill: La boulangerie ? J'___ vais tous les matins. || y || Y replaces à la boulangerie and goes before the verb: j'y vais. || @tags fr.y-en
+  mc: Choose the correct sentence. || Ce gâteau est plus bon que l'autre. | *Ce gâteau est meilleur que l'autre. | Ce gâteau est plus meilleur que l'autre. || Bon has an irregular comparative: meilleur. Plus bon and plus meilleur are both wrong. || @tags fr.comparatives
+  mc: "Ce sont les vélos de vos voisins ?" — "Oui, ce sont ___." || les siens | *les leurs | les nôtres || Several owners (the neighbours) and several bikes: les leurs. || @tags fr.possessives
+  rw: Answer "yes" with y :: Tu es déjà allé au marché de Wazemmes ? || Oui, j'y suis déjà allé. | Oui, j'y suis déjà allée. || In the passé composé, y goes before the auxiliary: j'y suis allé(e). || @tags fr.y-en,fr.passe-compose-etre
+  tr: There are fewer rooms, but the rent is lower. || Il y a moins de pièces, mais le loyer est moins cher. | Il y a moins de pièces, mais le loyer est moins élevé. | Il y a moins de pièces mais le loyer est plus bas. || Moins de + noun; moins + adjective (or plus bas). || @tags fr.comparatives
+  listen: Dans notre coloc, je fais la cuisine et Julie fait la vaisselle. Le samedi, on fait le ménage ensemble. || Who does the washing-up? || The speaker | *Julie | Everyone together || "Julie fait la vaisselle"; the cleaning (le ménage) is done together on Saturdays. || @tags fr.listening
+  listen: L'appartement fait soixante mètres carrés. Il est au quatrième étage avec ascenseur, et le loyer est de mille euros charges comprises. || Which statement is true? || It's on the third floor | *The service charges are included | There is no lift || "Charges comprises" = charges included; quatrième étage = fourth floor; avec ascenseur = there is a lift. || @tags fr.listening
+  ask: Compare your home with the home of a friend or relative (size, rooms, area). || kw: plus/moins/aussi/meilleur/mieux/autant & que || Mon appartement est plus petit que la maison de ma sœur, mais il est plus lumineux. Son quartier est plus calme, mais le mien est mieux desservi.
+  write: Write a description of your neighbourhood for a new neighbour — compare it with your old one and mention two places you go to (use y). || min=50 || req: plus/moins/aussi | y vais/y va/y allons/y suis || Bienvenue dans le quartier ! Ici, c'est plus calme que dans le centre et il y a plus d'espaces verts. Le parc est à deux minutes : j'y vais tous les matins avec mon chien. Le marché est le jeudi, on y trouve des légumes excellents. Mon ancien quartier était plus animé, mais je préfère celui-ci. À bientôt ! Thomas, 3e étage
+lessons:
+  - title: Finding a flat
+    summary: Understand flat adverts, visit a flat and compare homes with plus, moins, aussi… que, meilleur and mieux.
+    minutes: 45
+    skills: [reading, grammar, speaking]
+    tags: [fr.comparatives]
+    objectives:
+      - Understand the key words and abbreviations in a flat advert
+      - Compare with plus / moins / aussi + adjective and plus de / moins de / autant de + noun
+      - Use the irregular comparatives meilleur and mieux
+    intro: |
+      Looking for a flat in France means reading short adverts full of abbreviations, visiting places and comparing them: this one is bigger, that one is cheaper, the other is better located. French comparatives follow a simple pattern — **plus / moins / aussi + adjective + que** — with two irregular forms you need to know: **meilleur** and **mieux**.
+    vocab: |
+      un appartement | a flat; an apartment | n | Nous cherchons un appartement de trois pièces. | We're looking for a three-room flat. | g: m | n: Informal: un appart.
+      une pièce | a (main) room | n | L'appartement a quatre pièces : un salon et trois chambres. | The flat has four rooms: a living room and three bedrooms. | g: f | n: In adverts, T2 or F2 = two main rooms (the kitchen and bathroom don't count).
+      le loyer | the rent | n | Le loyer est de huit cents euros par mois. | The rent is eight hundred euros a month. | c: payer le loyer; un loyer élevé | g: m
+      les charges | service charges | n | Le loyer est de neuf cents euros, charges comprises. | The rent is nine hundred euros, including service charges. | g: f | n: Water, heating, maintenance of the building… In adverts: CC = charges comprises.
+      meublé | furnished | adj | C'est un studio meublé près de la fac. | It's a furnished studio near the university. | n: Opposite: vide (unfurnished).
+      l'étage | the floor; the storey | n | J'habite au troisième étage sans ascenseur. | I live on the third floor without a lift. | g: m | n: Le rez-de-chaussée = the ground floor.
+      un ascenseur | a lift; an elevator | n | Il y a un ascenseur, heureusement ! | There's a lift, fortunately! | g: m
+      lumineux | bright; full of light | adj | Le salon est très lumineux. | The living room is very bright. | n: Feminine: lumineuse.
+      le quartier | the neighbourhood; the area | n | C'est un quartier calme et bien desservi. | It's a quiet area with good public transport. | c: un quartier animé; bien desservi | g: m
+      louer | to rent | v | Ils louent une maison à la campagne. | They rent a house in the countryside. | n: Le/la locataire = tenant; le/la propriétaire = owner, landlord.
+      une visite | a viewing | n | La visite de l'appartement est à dix-huit heures. | The flat viewing is at 6 p.m. | g: f
+      le mètre carré | square metre | n | Le studio fait vingt-cinq mètres carrés. | The studio is twenty-five square metres. | g: m | n: Written m². Use faire for size: il fait 40 m².
+      une agence immobilière | an estate agency | n | Nous avons trouvé l'appartement par une agence immobilière. | We found the flat through an estate agency. | g: f
+    grammar:
+      title: Comparatives
+      body: |
+        To compare two things with an **adjective**, use **plus** (more), **moins** (less) or **aussi** (as) + adjective + **que**: *Cet appartement est **plus** grand **que** l'autre. Le studio est **moins** cher. La cuisine est **aussi** petite **que** la salle de bains.* The adjective agrees as usual: *La chambre est plus grande.*
+
+        With a **noun**, use **plus de**, **moins de**, **autant de** + noun (+ **que**): *Il y a **plus de** placards ici. Il y a **autant de** chambres **que** chez nous.* With a **verb**, put **plus**, **moins** or **autant** after it: *On paie **moins** ici.*
+
+        Two irregular forms: **bon → meilleur** (an adjective: *Ce quartier est meilleur* — never ~~plus bon~~) and **bien → mieux** (an adverb: *On vit mieux ici. Il est mieux situé.*). *C'est mieux* (it's better) is very common in conversation.
+      table: |
+        Comparing | more | less | as / as much
+        adjectives | plus grand que | moins grand que | aussi grand que
+        nouns | plus de pièces que | moins de pièces que | autant de pièces que
+        verbs | il paie plus | il paie moins | il paie autant
+        bon (adjective) | meilleur | moins bon | aussi bon
+        bien (adverb) | mieux | moins bien | aussi bien
+      examples: |
+        Le deuxième appartement est plus lumineux que le premier. | The second flat is brighter than the first one. | plus + adjective + que
+        Le loyer est moins élevé en banlieue. | The rent is lower in the suburbs. | moins + adjective
+        Il y a autant de chambres, mais moins de placards. | There are as many bedrooms, but fewer cupboards. | autant de / moins de + noun
+        Ce quartier est meilleur pour les familles, et il est mieux desservi. | This area is better for families, and it has better transport links. | meilleur (adjective), mieux (adverb)
+      tip: "Meilleur describes a noun (une meilleure cuisine); mieux describes a verb or a whole situation (on dort mieux ici; c'est mieux)."
+    dialogue:
+      title: La visite
+      setting: Bordeaux. Clémence and her partner Bilal are viewing a flat with an estate agent, M. Perrin. They saw another flat that morning.
+      speakers: C=Clémence/f; B=Bilal/m; P=M. Perrin/m
+      lines: |
+        P: Voilà le salon. Il fait trente mètres carrés. | Here's the living room. It's thirty square metres.
+        C: Il est plus grand que le salon de ce matin ! | It's bigger than the living room this morning!
+        B: Et beaucoup plus lumineux. Il y a deux grandes fenêtres. | And much brighter. There are two big windows.
+        P: La cuisine est petite, mais elle est équipée. | The kitchen is small, but it's fitted.
+        C: Hmm, elle est aussi petite que notre cuisine actuelle. | Hmm, it's as small as our current kitchen.
+        B: Le loyer est de combien, charges comprises ? | How much is the rent, including charges?
+        P: Neuf cent cinquante euros. C'est un peu plus cher. | Nine hundred and fifty euros. It's a bit more expensive.
+        B: Cinquante euros de plus que l'autre… | Fifty euros more than the other one…
+        P: Oui, mais le quartier est meilleur et le tram est à côté. | Yes, but the area is better and the tram is right next to it.
+        C: C'est vrai, on va aller plus vite au travail. | That's true, we'll get to work faster.
+        B: Et il y a moins de bruit que dans le centre. | And there's less noise than in the centre.
+        P: Réfléchissez, mais attention : il y a beaucoup de visites ! | Think it over, but be careful: there are lots of viewings!
+    pronunciation:
+      title: "Plus: [ply], [plyz] or [plys]?"
+      body: |
+        In comparatives, the s of **plus** is silent before a consonant: *plus grand* [ply.gʁɑ̃]. Before a vowel, it links with a [z]: *plus intéressant* [ply.zɛ̃.te.ʁɛ.sɑ̃], *plus agréable* [ply.za.gʁe.abl].
+
+        When *plus* means "more" after a verb, the s is usually pronounced: *on paie plus* [plys]. Compare the negative *on ne paie plus* [ply] — "we don't pay any more" — where it is silent.
+      items: |
+        plus grand
+        plus intéressant
+        moins cher
+        aussi lumineux
+        meilleur
+        on paie plus
+    culture:
+      title: Louer un appartement en France
+      body: |
+        Renting in big French cities is competitive. Landlords and agencies ask for *un dossier*: ID, recent payslips, a tax notice and often *un garant* (a guarantor) who will pay if you can't. Many expect your income to be about three times the rent.
+
+        You usually pay *un dépôt de garantie* (a deposit — one month's rent for an unfurnished flat) and sign *un bail* (a lease). Before moving in, the landlord and the tenant do *l'état des lieux* together: a careful check of the flat's condition.
+    mistakes: |
+      Cet appartement est plus bon. => Cet appartement est meilleur. | Bon has an irregular comparative: meilleur, never plus bon.
+      Il y a plus chambres ici. => Il y a plus de chambres ici. | With a noun, use plus de / moins de / autant de.
+      Le studio est moins cher de l'appartement. => Le studio est moins cher que l'appartement. | The second part of a comparison is introduced by que, not de.
+    task:
+      title: Two flats, one choice
+      mode: speaking
+      body: |
+        Look at two flat adverts (invent them or find real ones): size, number of rooms, floor, rent, area. Compare them aloud with at least five comparisons (*plus… que, moins de…, aussi…, meilleur, mieux*), say which one you choose and why, then discuss your choice with the AI coach.
+    exercises: |
+      fill: Le studio est ___ cher que l'appartement. (less) || moins || Moins + adjective + que. || @tags fr.comparatives
+      fill: Ma chambre est ___ grande ___ la chambre de Léo. (as… as) || aussi ; que || Aussi + adjective + que = as… as. || @tags fr.comparatives
+      fill: Il y a ___ fenêtres dans le salon que dans la cuisine. (more) || plus de || With a noun: plus de + noun + que. || @tags fr.comparatives
+      fill: Ce quartier est ___ pour les enfants : il y a un parc et une école. (better) || meilleur || Quartier is a masculine noun: bon → meilleur. || @tags fr.comparatives
+      mc: Which sentence is correct? || On vit plus bien à la campagne. | *On vit mieux à la campagne. | On vit meilleur à la campagne. || With a verb (vivre), bien → mieux. || @tags fr.comparatives
+      mc: An advert says "T3, 65 m², 2e étage avec ascenseur, 1 100 € CC". Which statement is true? || The flat has three bedrooms | *There is a lift | Service charges are not included || T3 = three main rooms (usually a living room and two bedrooms); avec ascenseur = with a lift; CC = charges comprises. || @skill reading @tags fr.reading
+      tf: The second flat is fifty euros more expensive than the first one. || true || Bilal says: "Cinquante euros de plus que l'autre…" || @ctx dialogue
+      listen: @dialogue || What do Clémence and Bilal think of the kitchen? || It's bigger than theirs | *It's as small as their current kitchen | It isn't fitted || "Elle est aussi petite que notre cuisine actuelle." The agent says it is fitted (équipée). || @tags fr.comparatives,fr.listening
+      listen: Mon nouvel appartement est plus petit que l'ancien, mais il est beaucoup plus calme. || How is the new flat different from the old one? || Bigger and quieter | *Smaller but much quieter | Smaller and noisier || Plus petit = smaller; beaucoup plus calme = much quieter. || @tags fr.comparatives,fr.listening
+      rw: Compare with "moins… que" :: L'appartement A coûte 800 euros. L'appartement B coûte 950 euros. (A, cher) || L'appartement A est moins cher que l'appartement B. | L'appartement A est moins cher que le B. | L'appartement A est moins cher que l'appartement B ! || 800 is less than 950: A est moins cher que B. || @tags fr.comparatives
+      tr: This neighbourhood is quieter than the centre. || Ce quartier est plus calme que le centre. | Ce quartier est plus calme que le centre-ville. || Plus + adjective + que. || @tags fr.comparatives
+      dict: Le salon est plus lumineux, mais il y a moins de placards. || moins de
+      ask: Ask the estate agent three questions about a flat (rent, floor, area). || kw: loyer/charges/combien & étage/ascenseur/quartier || Le loyer est de combien, charges comprises ? C'est à quel étage ? Est-ce qu'il y a un ascenseur ?
+      write: Write a message to a friend comparing the two flats you visited and saying which one you prefer. || min=40 || req: plus/moins/aussi/meilleur/mieux | que || Salut Inès ! Ce matin, j'ai visité deux appartements. Le premier est plus grand et moins cher, mais il est au cinquième étage sans ascenseur. Le deuxième est plus petit, mais il est plus lumineux et le quartier est meilleur. Il y a aussi moins de bruit. Je préfère le deuxième ! Et toi, qu'est-ce que tu en penses ?
+
+  - title: Furniture and chores
+    summary: Name furniture and household chores, share out the housework and say whose things are whose with possessive pronouns.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [fr.possessives]
+    objectives:
+      - Name furniture and household chores
+      - Use possessive pronouns (le mien, la tienne, les leurs…) to avoid repeating a noun
+      - Share out the chores and say who does what and how often
+    intro: |
+      Moving in with flatmates or a partner raises two questions: whose is this sofa, and who is doing the washing-up? French **possessive pronouns** (*le mien, la tienne, les nôtres*) let you answer the first without repeating the noun, and the vocabulary of chores — *faire la vaisselle, passer l'aspirateur* — helps you deal with the second.
+    vocab: |
+      le canapé | the sofa | n | On a acheté un canapé d'occasion. | We bought a second-hand sofa. | c: un canapé-lit | g: m
+      l'armoire | the wardrobe | n | L'armoire de la chambre est très grande. | The bedroom wardrobe is very big. | g: f | n: Un placard = a built-in cupboard.
+      le lave-linge | the washing machine | n | Le lave-linge est dans la salle de bains. | The washing machine is in the bathroom. | g: m | n: Also une machine à laver.
+      faire la vaisselle | to do the washing-up | expr | Ce soir, c'est toi qui fais la vaisselle ! | Tonight it's your turn to do the washing-up! | n: Le lave-vaisselle = the dishwasher.
+      passer l'aspirateur | to vacuum; to hoover | expr | Je passe l'aspirateur dans le salon le samedi. | I vacuum the living room on Saturdays. | n: Passer l'aspirateur dans + room.
+      faire le ménage | to do the cleaning | expr | On fait le ménage ensemble le dimanche. | We do the cleaning together on Sundays.
+      faire la lessive | to do the laundry | expr | Je fais la lessive deux fois par semaine. | I do the laundry twice a week. | n: Informal: faire une machine.
+      sortir la poubelle | to take out the rubbish | expr | Qui sort la poubelle ce soir ? | Who's taking out the rubbish tonight? | n: Une poubelle = a bin.
+      le linge | laundry; washing | n | Tu peux étendre le linge, s'il te plaît ? | Can you hang out the washing, please? | c: étendre le linge; plier le linge | g: m
+      un colocataire | a flatmate | n | Mes colocataires sont étudiants en médecine. | My flatmates are medical students. | g: m | n: Feminine: une colocataire. Informal: un/une coloc. La colocation = flatsharing.
+      partager | to share | v | Nous partageons la cuisine et la salle de bains. | We share the kitchen and the bathroom. | n: Nous partageons: keep the e before -ons.
+      le mien / la mienne | mine | pron | Ce n'est pas ton bol, c'est le mien ! | That's not your bowl, it's mine! | n: Agrees with the thing owned, not with the owner.
+      à tour de rôle | in turn; taking turns | expr | On fait la cuisine à tour de rôle. | We take turns cooking.
+    grammar:
+      title: Possessive pronouns
+      body: |
+        A **possessive pronoun** replaces a possessive + noun: *C'est ton vélo ? — Non, ce n'est pas **le mien**, c'est **le sien**.* (It's not mine, it's his / hers.)
+
+        Like *mon, ma, mes*, it agrees with the **thing owned**, not with the owner: *ma tasse → **la mienne**; mes livres → **les miens**.* A man and a woman both say *la mienne* for a cup, and *le sien* means *his* or *hers* depending on the context.
+
+        The article contracts with *à* and *de* as usual: *Je parle de mon colocataire, pas **du** tien.*
+
+        Notice the circumflex: *notre → **le nôtre***, *votre → **le vôtre***. Without the accent, *notre* and *votre* are determiners before a noun.
+      table: |
+        Owner | masc. sing. | fem. sing. | masc. plural | fem. plural
+        je | le mien | la mienne | les miens | les miennes
+        tu | le tien | la tienne | les tiens | les tiennes
+        il / elle | le sien | la sienne | les siens | les siennes
+        nous | le nôtre | la nôtre | les nôtres | les nôtres
+        vous | le vôtre | la vôtre | les vôtres | les vôtres
+        ils / elles | le leur | la leur | les leurs | les leurs
+      examples: |
+        C'est ta serviette ou la mienne ? | Is it your towel or mine? | la serviette → la mienne
+        Nos voisins ont un jardin, mais le nôtre est plus grand. | Our neighbours have a garden, but ours is bigger. | le jardin → le nôtre
+        Ce ne sont pas mes chaussures, ce sont les siennes. | These aren't my shoes, they're his (or hers). | les chaussures → les siennes
+        Ce n'est pas mon tour de faire la vaisselle, c'est le tien ! | It's not my turn to do the washing-up, it's yours! | le tour → le tien
+      tip: "If le sien is unclear (his or hers?), use être à + person instead: C'est à Paul ? — Non, c'est à Léa."
+    dialogue:
+      title: La réunion de coloc
+      setting: Grenoble. Three flatmates — Margot, Kenji and Samia — sit down in the kitchen to organise the chores. The sink is full of dirty dishes.
+      speakers: M=Margot/f; K=Kenji/m; S=Samia/f
+      lines: |
+        M: Bon, il faut parler du ménage. L'évier est plein de vaisselle ! | Right, we need to talk about the cleaning. The sink is full of dishes!
+        K: Ce n'est pas ma vaisselle. Mes assiettes sont propres ! | They're not my dishes. My plates are clean!
+        S: Ce bol rouge, c'est le tien, Kenji. | This red bowl is yours, Kenji.
+        K: Ah oui, c'est le mien… Et ces deux tasses ? | Oh yes, it's mine… And those two cups?
+        M: Ce sont les miennes, désolée. | They're mine, sorry.
+        S: Je propose un planning. On fait la vaisselle à tour de rôle. | I suggest a schedule. We take turns doing the washing-up.
+        K: D'accord. Moi, je peux passer l'aspirateur le samedi. | OK. I can do the vacuuming on Saturdays.
+        M: Et moi, je sors la poubelle tous les soirs. | And I'll take out the rubbish every evening.
+        S: Parfait. Et Kenji, ton linge est sur le canapé depuis lundi ! | Perfect. And Kenji, your washing has been on the sofa since Monday!
+        K: Non, ce n'est pas le mien ! C'est le linge de Margot. | No, it isn't mine! It's Margot's washing.
+        M: Oups… C'est vrai, c'est le mien. Je range tout ce soir ! | Oops… That's true, it's mine. I'll put everything away tonight!
+        S: Bon, on met le planning sur le frigo ! | Right, let's put the schedule on the fridge!
+    pronunciation:
+      title: "Le mien, la mienne: nasal or not?"
+      body: |
+        The masculine forms end in a nasal vowel: *le mien* [mjɛ̃], *le tien* [tjɛ̃], *le sien* [sjɛ̃]. In the feminine, the vowel is no longer nasal and you hear the [n]: *la mienne* [mjɛn], *la tienne* [tjɛn]. The same change happens in *italien / italienne* and *canadien / canadienne*.
+
+        In *le nôtre* and *le vôtre*, the circumflex shows a closed [o]: [notʁ]. Compare the open [ɔ] of *notre appartement* [nɔ.tʁa.paʁ.tə.mɑ̃].
+      items: |
+        le mien
+        la mienne
+        le tien
+        la tienne
+        le nôtre
+        notre appartement
+    culture:
+      title: La colocation
+      body: |
+        Flatsharing (*la colocation*) is very common among students and young workers in French cities, where rents are high. Many flatshares put a chore schedule (*un planning*) on the fridge — and the washing-up is the most common source of arguments!
+
+        The expression *la charge mentale* (the mental load) became very popular in France after 2017. It describes the invisible work of remembering everything a household needs, and it is often mentioned when couples discuss how to share the housework.
+    mistakes: |
+      C'est la mien. => C'est la mienne. | The pronoun agrees with the thing owned: a feminine noun gives la mienne.
+      Ce sont les miens livres. => Ce sont mes livres. | Before a noun, use a determiner (mes). Le mien / les miens replace the noun.
+      Leur jardin est grand, mais le notre est plus beau. => Leur jardin est grand, mais le nôtre est plus beau. | The pronoun le nôtre takes a circumflex; notre without it is the determiner.
+    task:
+      title: The flatshare schedule
+      mode: interaction
+      body: |
+        You are moving into a flatshare. With the AI coach (or classmates) as your flatmates, list the chores, decide who does what and how often, and settle one argument about whose things are lying around in the living room (*C'est le tien ? — Non, c'est le sien !*). Then write the final schedule.
+    exercises: |
+      fill: C'est ton stylo ? — Oui, c'est ___. (mine) || le mien || Le stylo is masculine singular: le mien. || @tags fr.possessives
+      fill: Ce sont tes clés ou ___ ? (Paul's — his) || les siennes || Les clés is feminine plural; the owner's gender doesn't matter: les siennes. || @tags fr.possessives
+      fill: Notre appartement est petit. ___ est plus grand ? (yours, vous) || Le vôtre || L'appartement is masculine singular; vous → le vôtre, with a circumflex. || @tags fr.possessives
+      fill: Ils ont leurs vélos et nous avons ___. (ours) || les nôtres || Les vélos is plural: les nôtres. || @tags fr.possessives
+      mc: "C'est la voiture de tes parents ?" — "Oui, c'est ___." || la sienne | *la leur | les leurs || Two owners (the parents), one car (feminine): la leur. || @tags fr.possessives
+      match: faire la vaisselle = to do the washing-up ; faire la lessive = to do the laundry ; sortir la poubelle = to take out the rubbish ; faire le ménage = to do the cleaning || Most chores use faire: faire la vaisselle, faire le ménage, faire la lessive. || @skill vocabulary @tags fr.vocabulary
+      tf: The red bowl belongs to Kenji. || true || Samia says "Ce bol rouge, c'est le tien, Kenji" and he answers "c'est le mien". || @ctx dialogue
+      listen: @dialogue || Whose washing is on the sofa? || Kenji's | *Margot's | Samia's || Kenji says "C'est le linge de Margot" and Margot admits "c'est le mien". || @tags fr.possessives,fr.listening
+      listen: Chez nous, mon mari fait la cuisine et moi, je fais la vaisselle. Les enfants rangent leurs chambres. || Who does the washing-up? || The husband | *The speaker | The children || "Moi, je fais la vaisselle." The husband cooks; the children tidy their rooms. || @tags fr.listening
+      rw: Avoid repeating the noun: use a possessive pronoun :: Ta chambre est plus grande que ma chambre. || Ta chambre est plus grande que la mienne. || Ma chambre (feminine singular) → la mienne. || @tags fr.possessives,fr.comparatives
+      tr: It's not my turn, it's yours! (informal) || Ce n'est pas mon tour, c'est le tien ! | C'est pas mon tour, c'est le tien ! || Le tour is masculine: le tien. || @tags fr.possessives
+      dict: Je passe l'aspirateur et mon colocataire fait la vaisselle. || colocataire
+      ask: Your flatmate asks "Tu peux faire la vaisselle ce soir ?" Say no politely and offer to do another chore. || kw: non/désolé/désolée & aspirateur/poubelle/lessive/ménage/linge || Désolée, ce soir je ne peux pas, je rentre tard. Mais je peux sortir la poubelle et passer l'aspirateur demain !
+      write: Write the weekly chore schedule for your flat, with a short note to your flatmates. || min=35 || req: lundi/mardi/mercredi/jeudi/vendredi/samedi/dimanche/tous les | vaisselle/aspirateur/ménage/lessive/poubelle || Planning de la semaine : Lundi et jeudi, Hugo fait la vaisselle. Mardi et vendredi, c'est Léa. Le samedi, je passe l'aspirateur et Hugo fait le ménage dans la salle de bains. Chacun fait sa lessive. Et on sort la poubelle à tour de rôle ! Merci tout le monde, Nora
+
+  - title: Neighbours and community
+    summary: Talk to your neighbours, talk about local places and activities, and use the pronoun y to avoid repeating places.
+    minutes: 40
+    skills: [speaking, grammar, listening]
+    tags: [fr.y-en]
+    objectives:
+      - Introduce yourself to neighbours and ask for or offer small favours
+      - Use y to replace à / chez / dans + a place
+      - Talk about local places, shops and community events
+    intro: |
+      Good relations with your neighbours make everyday life easier: someone to water your plants, take in a parcel or tell you where the best bakery is. When you talk about places — the market, the park, the library — French uses the small pronoun **y** to avoid repeating them: *Le marché ? J'y vais le dimanche.*
+    vocab: |
+      un voisin | a neighbour | n | Ma voisine du troisième est très gentille. | My neighbour on the third floor is very kind. | c: les voisins du dessus; les voisins d'en face | g: m | n: Feminine: une voisine.
+      l'immeuble | the block of flats; the building | n | Il y a vingt appartements dans notre immeuble. | There are twenty flats in our building. | g: m
+      le gardien | the caretaker | n | La gardienne distribue le courrier le matin. | The caretaker hands out the post in the morning. | g: m | n: Feminine: la gardienne. Also le/la concierge.
+      la boîte aux lettres | the letterbox | n | J'ai trouvé un mot dans ma boîte aux lettres. | I found a note in my letterbox. | g: f
+      arroser | to water | v | Tu peux arroser mes plantes pendant les vacances ? | Can you water my plants during the holidays?
+      rendre service | to do a favour; to help out | expr | Elle aime rendre service aux voisins. | She likes doing favours for the neighbours.
+      le bruit | noise | n | Désolé pour le bruit hier soir ! | Sorry about the noise last night! | c: faire du bruit | g: m
+      la fête des voisins | the neighbours' party | n | La fête des voisins a lieu fin mai dans la cour. | The neighbours' party takes place at the end of May in the courtyard. | g: f
+      une association | a (non-profit) association; a club | n | Je fais partie d'une association de quartier. | I'm a member of a local association. | c: une association sportive; faire partie de | g: f
+      la mairie | the town hall | n | On peut s'inscrire à la mairie. | You can sign up at the town hall. | g: f
+      la médiathèque | the (public) library | n | La médiathèque est gratuite pour les habitants. | The library is free for local residents. | g: f | n: Also la bibliothèque. Une librairie is a bookshop!
+      un vide-grenier | a car-boot sale; a flea market | n | J'ai acheté une lampe au vide-grenier. | I bought a lamp at the car-boot sale. | g: m | n: Literally "empty-the-attic".
+      y | there (replaces a place) | pron | Le parc ? J'y vais avec les enfants. | The park? I go there with the children. | n: Y goes before the verb: j'y vais, on y va.
+    grammar:
+      title: The pronoun y
+      body: |
+        **Y** replaces a **place** introduced by *à, en, dans, chez, sur…* — it means *there*: *Tu vas **au marché** ? — Oui, j'**y** vais.* (Yes, I'm going there.) *Elle travaille **chez** sa tante ? — Oui, elle **y** travaille.* English often leaves *there* out, but French needs y: ~~je vais~~ alone is incomplete.
+
+        **Position:** y goes **before the conjugated verb**: *J'y vais. Nous y habitons depuis deux ans.* In the negative, it stays next to the verb: *Je **n'y** vais **pas**.* In the passé composé, it goes before the auxiliary: *J'**y** suis allé hier.* With aller + infinitive, it goes before the infinitive: *Je vais **y** aller demain.*
+
+        In the affirmative imperative, it comes after the verb: *Vas-y !* (note the -s) and *Allons-y !* Y can also replace **à + a thing** with verbs like *participer à* or *penser à*: *La fête ? Je vais y participer.*
+      table: |
+        Situation | Without y | With y
+        present | Je vais à la piscine le lundi. | J'y vais le lundi.
+        negative | Je ne vais pas au marché. | Je n'y vais pas.
+        passé composé | Il est allé à la mairie. | Il y est allé.
+        aller + infinitive | Je vais aller à la fête. | Je vais y aller.
+        imperative | Va à la boulangerie ! | Vas-y !
+      examples: |
+        La médiathèque ? J'y vais tous les samedis. | The library? I go there every Saturday. | y before the verb
+        Tu habites dans cet immeuble depuis longtemps ? — Oui, j'y habite depuis dix ans. | Have you lived in this building long? — Yes, I've lived here for ten years. | y + present + depuis
+        On n'y est pas allés cette année. | We didn't go there this year. | negative passé composé
+        La fête des voisins ? Vous allez y participer ? | The neighbours' party? Are you going to take part? | participer à → y, before the infinitive
+      tip: "On y va ! (Let's go!) and Vas-y ! (Go on! / Go ahead!) are everyday phrases — start using them as fixed expressions today."
+    dialogue:
+      title: Dans l'escalier
+      setting: Saturday morning on the stairs of a building in Lille. Jeanne, 70, has lived there for decades. She meets her new neighbour Kwame, who moved in last week.
+      speakers: J=Jeanne/f; K=Kwame/m
+      lines: |
+        J: Bonjour ! Vous êtes le nouveau voisin du deuxième ? | Hello! Are you the new neighbour on the second floor?
+        K: Oui, bonjour, madame. Je m'appelle Kwame. Je suis arrivé lundi. | Yes, hello. My name's Kwame. I arrived on Monday.
+        J: Bienvenue ! Moi, c'est Jeanne. J'habite ici depuis quarante ans ! | Welcome! I'm Jeanne. I've lived here for forty years!
+        K: Alors, vous connaissez bien le quartier. Il y a un marché près d'ici ? | So you know the area well. Is there a market near here?
+        J: Oui, place du Concert, le dimanche matin. J'y vais toutes les semaines. | Yes, on Place du Concert, on Sunday mornings. I go every week.
+        K: Super, je vais y aller demain. Et la médiathèque, elle est loin ? | Great, I'll go tomorrow. And the library, is it far?
+        J: Non, c'est à cinq minutes. J'y vais le mercredi avec mon petit-fils. | No, it's five minutes away. I go there on Wednesdays with my grandson.
+        K: Merci ! Et pour le courrier, il y a une gardienne ? | Thanks! And for the post, is there a caretaker?
+        J: Oui, Mme Lopes. Elle rend service à tout le monde. | Yes, Mrs Lopes. She helps everybody out.
+        K: Au fait, désolé pour le bruit mardi soir. C'était le déménagement. | By the way, sorry about the noise on Tuesday evening. It was the move.
+        J: Ce n'est pas grave ! Vous venez à la fête des voisins en mai ? | Never mind! Are you coming to the neighbours' party in May?
+        K: Avec plaisir, je vais y participer ! | With pleasure, I'll take part!
+    pronunciation:
+      title: "Y in liaison: j'y vais, on y va, vas-y"
+      body: |
+        Y is pronounced [i] and always links with the word before: *j'y vais* [ʒi.vɛ], *on y va* [ɔ̃.ni.va] with a liaison [n], *nous y allons* [nu.zi.a.lɔ̃] with a liaison [z], *vas-y* [va.zi].
+
+        In the negative, keep it attached to the verb: *je n'y vais pas* [ʒə.ni.vɛ.pa]. In fast speech, many people say *j'y vais pas* [ʒi.vɛ.pa].
+      items: |
+        j'y vais
+        on y va ?
+        vas-y !
+        nous y allons
+        je n'y vais pas
+        il y est allé
+    culture:
+      title: La fête des voisins
+      body: |
+        Every year, at the end of May or in early June, thousands of buildings and streets in France hold *la fête des voisins*: neighbours bring food and drinks to the courtyard or the street and get to know each other. The idea started in Paris in 1999 and has spread to many other countries.
+
+        In many older city buildings, *le gardien* or *la gardienne* (also called *concierge*) lives on the ground floor, hands out the post and keeps an eye on the building. Neighbours often leave them a small gift at New Year.
+    mistakes: |
+      Je vais y. => J'y vais. | Y goes before the conjugated verb.
+      Je ne vais y pas. => Je n'y vais pas. | In the negative, y stays directly before the verb, inside ne… pas.
+      Va-y ! => Vas-y ! | Before y, the tu imperative of aller keeps its -s: vas-y.
+    task:
+      title: Welcome to the building
+      mode: interaction
+      body: |
+        You have just moved into a new building. Introduce yourself to a neighbour (the AI coach), ask about three local places (market, bakery, library, gym…) and when they go there, and ask for one small favour (watering your plants, taking in a parcel). Use *y* at least three times.
+    exercises: |
+      fill: Tu vas à la piscine ce soir ? — Oui, j'___ vais à dix-neuf heures. || y || Y replaces à la piscine: j'y vais. || @tags fr.y-en
+      fill: Le marché ? Je n'___ vais pas le samedi. || y || In the negative, y stays before the verb: je n'y vais pas. || @tags fr.y-en,fr.negation
+      fill: La fête des voisins ? Je vais ___ participer. || y || Participer à → y, placed before the infinitive. || @tags fr.y-en
+      mc: "Vous habitez à Lille depuis longtemps ?" — "Oui, ___ depuis cinq ans." || j'habite y | *j'y habite | y j'habite || Y goes between the subject and the verb: j'y habite. || @tags fr.y-en,fr.depuis
+      rw: Replace the place with y :: Nous allons à la médiathèque le mercredi. || Nous y allons le mercredi. || Y replaces à la médiathèque and goes before the verb. || @tags fr.y-en
+      rw: Answer in the negative with y :: Tu vas au vide-grenier dimanche ? || Non, je n'y vais pas. | Non, je n'y vais pas dimanche. || Ne + y + verb + pas. || @tags fr.y-en,fr.negation
+      tf: Jeanne has lived in the building for forty years. || true || "J'habite ici depuis quarante ans !" || @ctx dialogue
+      short: When does Jeanne go to the library? || kw: mercredi/Wednesday/Wednesdays || "J'y vais le mercredi avec mon petit-fils." || @ctx dialogue
+      listen: @dialogue || Why does Kwame apologise? || He lost Jeanne's post | *There was noise during his move | He can't come to the party || "Désolé pour le bruit mardi soir. C'était le déménagement." || @tags fr.listening
+      listen: Le vide-grenier du quartier, c'est dimanche. On y va ensemble à dix heures ? || What does the speaker suggest? || Going to the market on Saturday | *Going to the car-boot sale together at ten | Organising a car-boot sale || "On y va ensemble à dix heures ?" — y = au vide-grenier. || @tags fr.y-en,fr.listening
+      tr: Shall we go? (informal) || On y va ? | Allons-y ? | On y va ! || On y va ? is the everyday way to say "Shall we go?" || @tags fr.y-en
+      dict: Le parc est à côté de chez nous, on y va tous les dimanches. || on y va
+      ask: Ask your new neighbour where the nearest bakery is and when they go to the market. || kw: boulangerie & marché || Excusez-moi, il y a une boulangerie près d'ici ? Et le marché, vous y allez quand ?
+      write: Write a note for your neighbours' letterboxes — introduce yourself, apologise for the noise of your move and invite them for a drink. || min=40 || req: voisin/voisins/voisines | bruit || Chers voisins, je m'appelle Lina et j'habite au quatrième étage depuis samedi. Désolée pour le bruit pendant le déménagement ! Pour me faire pardonner, je vous invite à prendre un verre chez moi vendredi à dix-neuf heures. Au plaisir de vous rencontrer ! Lina

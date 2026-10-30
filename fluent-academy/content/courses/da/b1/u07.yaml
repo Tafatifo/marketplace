@@ -1,0 +1,380 @@
+unit: 7
+title: Kultur og underholdning
+theme: Culture and entertainment
+description: Review films and series, talk about books and music, and recommend and retell a story — with particle verbs (give op, finde ud af), fused verbs (udgive, indspille) and narrative connectors (efter at, indtil, så snart).
+objectives:
+  - Review a film or series using particle verbs with the right stress and word order
+  - Talk about books and music, choosing between spoken particle verbs and written fused verbs
+  - Recommend a film or book and retell its plot with efter at, før, indtil and så snart
+canDo:
+  - I can write a short review of a film or series and give it a rating.
+  - I can use common particle verbs and put ikke in the right place.
+  - I can talk about books, authors, albums and concerts.
+  - I can retell a plot in order and recommend it without giving away the ending.
+review: |
+  fill: Hun giver ___ ___, selvom alle siger, at det er umuligt. (doesn't give up) || ikke ; op || In a main clause, ikke goes between the verb and the particle: giver ikke op. || @tags da.phrasal-verbs,da.negation
+  mc: "Det ser spændende ud." What does it mean? || *It looks exciting | It sounds exciting | It is outside and exciting || Se ud = look, appear. "It sounds exciting" is Det lyder spændende. || @tags da.phrasal-verbs
+  fill: Ida Brandts nye bog ___ på fredag. (comes out — one word) || udkommer || The fused verb udkomme (spoken: komme ud) is common in written Danish. || @tags da.phrasal-verbs
+  mc: Which sentence is most typical of everyday spoken Danish? || *Bandet spillede albummet ind på Fanø. | Bandet indspillede albummet på Fanø. | Bandet spillede ind albummet på Fanø. || The particle verb (spille … ind) is the spoken form; indspille is more written. The object goes before the particle, so the third sentence is wrong. || @tags da.phrasal-verbs,da.register
+  fill: ___ at vi havde spist, gik vi i biografen. || Efter || Efter at + past perfect shows what happened first. || @tags da.connectors,da.past-perfect
+  mc: "Vi blev siddende, ___ rulleteksterne var færdige." || *indtil | før | så snart || They stayed seated until the credits had finished: indtil. Før and så snart don't fit the meaning. || @tags da.connectors
+  rw: Make it negative :: Han holder op med at ryge. || Han holder ikke op med at ryge. || Ikke goes between the verb and the particle: holder ikke op. || @tags da.phrasal-verbs,da.negation
+  tr: She found out that he had lied. || Hun fandt ud af, at han havde løjet. || Finde ud af (find out) has the past fandt ud af. The lie came first: past perfect havde løjet. || @tags da.phrasal-verbs,da.past-perfect
+  listen: Jeg så en fantastisk dansk film i weekenden. Den handler om en lærer, der giver op, men til sidst finder hun modet igen. || What happens in the end? || *The teacher finds her courage again | The teacher moves abroad | The teacher loses her job || "Til sidst finder hun modet igen" — in the end she finds her courage again. || @tags da.listening,da.phrasal-verbs
+  listen: Ida Brandts nye roman udkommer først i november, men man kan allerede reservere den på biblioteket. || What can you already do? || *Reserve the book at the library | Read the book online | Meet the author || "Man kan allerede reservere den på biblioteket." || @tags da.listening
+  ask: Retell the plot of a film you love in five or six sentences. Use efter at, før or indtil, and at least two particle verbs. || kw: efter at/før/indtil/så snart & finder ud af/fandt ud af/giver op/gav op/holder op/holdt op/kommer tilbage/kom tilbage/ser ud || Filmen handler om en pige, der vokser op i Odense. Efter at hendes forældre er blevet skilt, flytter hun til sin farmor. Hun finder ud af, at farmoren har en hemmelighed. Hun giver ikke op, før hun kender sandheden.
+  write: Write a short review (6–8 sentences) of a book, an album or a concert. Say what it is about, when it came out and whether you recommend it. || min=60 || req: handler om/foregår | udkom/kom ud/udgav/gav ud/indspillede/spillede | anbefale/anbefaler || Kystlys' nye album "Lyset over havet" udkom i marts. Bandet indspillede sangene i et gammelt fyrtårn på Fanø, og man kan høre havet i baggrunden. Teksterne handler om kærlighed, savn og om at flytte hjem. Den første sang er rolig, men så tager tempoet til. Min yndlingssang er nummer fem, som jeg ikke kan holde op med at høre. Jeg kan varmt anbefale albummet til en regnvejrsdag. Fem ud af seks stjerner!
+lessons:
+  - title: Reviewing a film or series
+    summary: Read a review of a Danish crime series and learn particle verbs such as give op, finde ud af and se frem til — with the stress on the particle and ikke in between.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [da.phrasal-verbs, da.negation]
+    objectives:
+      - Understand and use common particle verbs (give op, holde op med, se frem til, se ud)
+      - Place ikke and objects correctly with particle verbs
+      - Write a short review with a rating
+    intro: |
+      Danish crime series are watched all over the world, and Danes love to discuss them. A review — **en anmeldelse** — tells you what a series is about, what works and what doesn't. In this lesson you'll read a review of a new crime series set on the Limfjord, and meet one of the most important features of Danish vocabulary: particle verbs like **give op**, **finde ud af** and **se frem til**.
+    vocab: |
+      en anmeldelse | a review | n | Filmen har fået gode anmeldelser. | The film has had good reviews. | g: c | pl: anmeldelser | n: The verb is anmelde (to review).
+      en serie | a series | n | Har du set den nye danske serie? | Have you seen the new Danish series? | g: c | pl: serier
+      et afsnit | an episode | n | Jeg så tre afsnit i går aftes. | I watched three episodes last night. | g: n | pl: afsnit
+      en hovedperson | a main character | n | Hovedpersonen er en ung politibetjent. | The main character is a young police officer. | g: c | pl: hovedpersoner
+      en skuespiller | an actor | n | Hun er en af Danmarks bedste skuespillere. | She is one of Denmark's best actors. | g: c | pl: skuespillere | n: Used for both women and men.
+      spændende | exciting | adj | Serien er spændende fra første minut. | The series is exciting from the first minute. | n: Never changes its form.
+      en slutning | an ending | n | Slutningen var helt overraskende. | The ending was completely surprising. | g: c | pl: slutninger
+      foregå | to take place | v | Filmen foregår i Aalborg i 1950'erne. | The film takes place in Aalborg in the 1950s. | n: Irregular: foregik.
+      give op | to give up | v | Hun giver aldrig op. | She never gives up. | n: A particle verb: stress on op. Past: gav op.
+      holde op med | to stop (doing) | expr | Jeg kunne ikke holde op med at se. | I couldn't stop watching. | n: holde op med at + infinitive.
+      se frem til | to look forward to | expr | Jeg ser frem til næste sæson. | I'm looking forward to the next season. | n: Means the same as glæde sig til.
+      se ud | to look; to appear | v | Det ser spændende ud. | It looks exciting. | n: The adjective comes before ud: det ser godt ud.
+    grammar:
+      title: "Particle verbs: give op, finde ud af, se frem til"
+      body: |
+        A **particle verb** is a verb + a small word (*op, ud, ind, af, på, med, til, frem*) that belong together, often with a new meaning: *give* → **give op** (give up) · *finde* → **finde ud af** (find out) · *holde* → **holde op med** (stop) · *se* → **se ud** (look, appear) and **se frem til** (look forward to).
+
+        **1. The particle is stressed**, and the verb is light: *Hun giver **OP**.* That is how you hear that it is a particle verb.
+
+        **2. Ikke and other adverbs** come between the verb and the particle in a main clause: *Hun giver **ikke** op.* · *Serien holder **aldrig** op med at overraske.* In a subordinate clause they come before the verb as usual: *…, selvom hun **ikke** giver op.*
+
+        **3. Objects.** With short particles like *op, ud, ned, på*, the object normally comes **before** the particle: *Skriv **titlen** ned.* · *Tag **jakken** på.* · *Sluk **den** ikke!* With particle + preposition (*finde ud af, holde op med, se frem til*), the object comes last: *Jeg fandt ud af **det**.*
+
+        Particle verbs have the same past forms as the base verb: *give op → gav op → har givet op*; *finde ud af → fandt ud af → har fundet ud af*.
+      table: |
+        Particle verb | Meaning | Example
+        give op | give up | Detektiven giver ikke op.
+        finde ud af | find out | Hun finder ud af sandheden.
+        holde op med | stop | Jeg kunne ikke holde op med at se.
+        se frem til | look forward to | Jeg ser frem til næste sæson.
+        se ud | look, appear | Det ser rigtig godt ud.
+        lægge op til | set up, prepare for | Slutningen lægger op til en ny sæson.
+      examples: |
+        Kommissæren giver ikke op, selvom alle andre gør. | The inspector doesn't give up, even though everyone else does. | ikke between the verb and the particle
+        Jeg kunne ikke holde op med at se serien. | I couldn't stop watching the series. | holde op med at
+        I sidste afsnit finder hun endelig ud af sandheden. | In the last episode she finally finds out the truth. | endelig between the verb and the particle
+        Skriv titlen ned, så du ikke glemmer den. | Write the title down so you don't forget it. | the object before the particle
+      tip: "Learn particle verbs as one unit with the stress on the particle: give OP, se UD, finde UD af."
+    reading:
+      title: "Anmeldelse: Tågen"
+      text: |
+        Anmeldelse: "Tågen" – en krimi, man ikke kan slippe
+        Fem ud af seks stjerner
+
+        Den nye danske krimiserie "Tågen" foregår på Mors i Limfjorden, hvor en ung kvinde forsvinder en kold novembernat. Kriminalassistent Sara Holm er lige flyttet hjem fra København efter en svær skilsmisse, og hun får sagen med det samme.
+
+        Det lyder som mange andre krimier, men "Tågen" er noget særligt. Serien tager sig god tid. Vi lærer det lille samfund at kende, og alle personer har en hemmelighed.
+
+        Sara er en stærk hovedperson. Hun er stædig og giver ikke op, selvom hendes chef vil lukke sagen. Skuespilleren Line Mortensen spiller hende med stor ro, og man holder hurtigt af hende.
+
+        Fotografiet er fantastisk: tåge over vandet, mørke marker og små, gule huse. Musikken er stille, men den sætter stemningen fra første minut.
+
+        Serien er ikke perfekt. Midt i sæsonen går historien lidt i stå, og et par sidehistorier er for lange. Men i de sidste tre afsnit tager tempoet til, og jeg kunne ikke holde op med at se. Slutningen er overraskende, og den lægger op til en ny sæson.
+
+        Kort sagt: "Tågen" er en atmosfærisk og velspillet krimi. Den ser rigtig godt ud, og jeg ser allerede frem til sæson to.
+
+        Alle otte afsnit kan streames fra fredag.
+      translation: |
+        Review: "The Fog" – a crime series you can't let go of
+        Five out of six stars
+
+        The new Danish crime series "The Fog" takes place on Mors in the Limfjord, where a young woman disappears on a cold November night. Detective Sara Holm has just moved home from Copenhagen after a difficult divorce, and she gets the case straight away.
+
+        It sounds like many other crime series, but "The Fog" is something special. The series takes its time. We get to know the small community, and every character has a secret.
+
+        Sara is a strong main character. She is stubborn and doesn't give up, even though her boss wants to close the case. The actor Line Mortensen plays her with great calm, and you quickly grow fond of her.
+
+        The photography is fantastic: fog over the water, dark fields and small yellow houses. The music is quiet, but it sets the mood from the first minute.
+
+        The series isn't perfect. In the middle of the season the story stalls a little, and a couple of side stories are too long. But in the last three episodes the pace picks up, and I couldn't stop watching. The ending is surprising, and it sets up a new season.
+
+        In short: "The Fog" is an atmospheric and well-acted crime series. It looks really good, and I'm already looking forward to season two.
+
+        All eight episodes can be streamed from Friday.
+    pronunciation:
+      title: "Stress on the particle: give OP, se UD"
+      body: |
+        In a particle verb, the **particle carries the stress** and the verb is said quickly and lightly: *give **OP***, *se **UD***, *se **FREM** til*, *finde **UD** af*. If you stress the verb instead, Danes may not hear that it is a particle verb.
+
+        In *finde ud af*, the little word *af* is weak and sounds like a short "a": "fin-ne UÐ a". Listen and repeat, and then say the full sentence with the stress on *op*.
+      items: |
+        give op
+        se ud
+        se frem til
+        finde ud af
+        Hun giver ikke op.
+    culture:
+      title: Danish TV drama
+      body: |
+        Since the early 2000s, Danish TV series have become famous far beyond Denmark. Crime series and political dramas — often grouped under the label **nordic noir** — have been sold to many countries, and some have been remade in English. Many were produced by DR, the public broadcaster.
+
+        Danish newspapers often rate films and series on a scale of one to six stars, and a *sekser* (six stars) is the highest praise. A review usually ends with a short verdict: *Kort sagt…*
+    mistakes: |
+      Hun giver op ikke. => Hun giver ikke op. | In a main clause, ikke goes between the verb and the particle.
+      Jeg kunne ikke holde op at se. => Jeg kunne ikke holde op med at se. | The fixed expression is holde op med at + infinitive.
+      Det ser ud spændende. => Det ser spændende ud. | With se ud, the adjective comes before the particle.
+    task:
+      title: Your review
+      mode: writing
+      body: |
+        Write a short review (8–10 sentences) of a film or series you have seen recently. Say where it takes place and who the main character is, what works and what doesn't, and end with *Kort sagt…* and a rating out of six stars. Use at least three particle verbs, one of them with ikke. Then tell a friend about it out loud.
+    exercises: |
+      fill: Detektiven giver ___ ___, selvom sagen er svær. (doesn't give up) || ikke ; op || Ikke goes between the verb and the particle: giver ikke op. || @tags da.phrasal-verbs,da.negation
+      fill: Jeg kunne ikke holde op ___ at se serien. || med || The fixed expression is holde op med at + infinitive. || @tags da.phrasal-verbs
+      fill: Jeg ser frem ___ næste sæson. || til || Se frem til = look forward to. || @tags da.phrasal-verbs
+      mc: Which sentence is correct? || *Serien ser rigtig godt ud. | Serien ser ud rigtig godt. | Serien ud ser rigtig godt. || With se ud, the adjective goes before the particle: ser rigtig godt ud. || @tags da.phrasal-verbs,da.word-order
+      mc: "Hun finder ud af sandheden." What does it mean? || *She finds out the truth | She finds the truth outside | She looks for the truth || Finde ud af = find out. || @tags da.phrasal-verbs
+      mc: What is the past of "give op"? || *gav op | givede op | gived op || A particle verb has the same past as its base verb: give → gav. || @tags da.phrasal-verbs,da.past-irregular
+      tf: The reviewer thinks the series is perfect. || false || "Serien er ikke perfekt. Midt i sæsonen går historien lidt i stå." || @ctx reading
+      mc: Where does the series take place? || *On Mors in the Limfjord | In Copenhagen | On Bornholm || "Tågen foregår på Mors i Limfjorden." || @ctx reading @skill reading @tags da.reading
+      short: What does the reviewer say about the ending? || kw: overraskende/surprising/surprise/ny sæson/new season/season two || It is surprising, and it sets up a new season. || @ctx reading
+      listen: Jeg så den nye film i går. Den første halvdel var lidt kedelig, men så tog den fart, og slutningen var fantastisk. || What was the first half like? || *A bit boring | Very exciting | Too long and violent || "Den første halvdel var lidt kedelig" — the first half was a bit boring. || @tags da.listening
+      rw: Make it negative :: Hun giver op. || Hun giver ikke op. || Ikke goes between the verb and the particle. || @tags da.phrasal-verbs,da.negation
+      tr: I'm looking forward to the next season. || Jeg ser frem til næste sæson. | Jeg glæder mig til næste sæson. | Jeg ser frem til den næste sæson. | Jeg glæder mig til den næste sæson. || Se frem til (or glæde sig til) = look forward to. || @tags da.phrasal-verbs
+      ask: Tell a friend about a film or series you have seen recently — what it's about, what you liked and what you didn't. Use at least two particle verbs. || kw: ser ud/så ud/giver op/gav op/holde op/holdt op/finder ud af/fandt ud af/ser frem til/foregår/foregik || Jeg har lige set en dansk serie, der foregår i Skagen. Hovedpersonen finder ud af, at hendes far har en hemmelighed. Den er lidt langsom, men jeg kunne ikke holde op med at se den.
+      write: Write a short review (6–8 sentences) of a film or series. || min=60 || req: foregår/handler om | giver op/gav op/holde op/holdt op/finder ud af/fandt ud af/ser frem til/ser godt ud/ser flot ud | stjerner/anbefale/anbefaler || "Havnen" er en ny dansk dramaserie, som foregår i Esbjerg. Den handler om tre søskende, der overtager deres fars fiskerbåd. Den ældste søster er stædig og giver aldrig op, selvom alt går galt. Serien ser flot ud, og skuespillerne er fantastiske. Nogle afsnit er lidt for lange, men slutningen er stærk. Jeg ser frem til næste sæson og kan varmt anbefale den. Fem stjerner!
+      dict: Jeg kunne ikke holde op med at se den nye serie.
+
+  - title: Books and music
+    summary: Talk about novels, authors, albums and concerts, and choose between spoken particle verbs (give ud, spille ind) and written fused verbs (udgive, indspille).
+    minutes: 45
+    skills: [listening, vocabulary, grammar]
+    tags: [da.phrasal-verbs, da.register]
+    objectives:
+      - Recognise fused verbs such as udgive, indspille and udkomme and their particle-verb partners
+      - Choose the spoken or the written form, and put ikke in the right place in each
+      - Talk about books, authors, albums and concerts
+    intro: |
+      "The book comes out on Friday" — in Danish you can say *Bogen kommer ud på fredag* or *Bogen udkommer på fredag*. Many particle verbs have a twin where the particle is glued to the front of the verb. In this lesson two friends talk about a new novel and a new album, and you'll learn when Danes use each form — and a few twins that mean something completely different.
+    vocab: |
+      en roman | a novel | n | Hendes første roman blev en stor succes. | Her first novel was a big success. | g: c | pl: romaner
+      en forfatter | an author; a writer | n | Forfatteren læser op på biblioteket i aften. | The author is reading on stage at the library tonight. | g: c | pl: forfattere
+      et digt | a poem | n | Han skrev et digt til sin mor. | He wrote a poem for his mother. | g: n | pl: digte
+      udkomme | to come out; to be published | v | Bogen udkommer i maj. | The book comes out in May. | n: Irregular: udkom. Spoken: komme ud.
+      udgive | to publish; to release | v | Forlaget udgiver tyve bøger om året. | The publisher publishes twenty books a year. | n: Irregular: udgav, har udgivet. Spoken: give ud.
+      indspille | to record | v | Bandet indspillede albummet på Fanø. | The band recorded the album on Fanø. | n: Past: indspillede. Spoken: spille ind.
+      et album | an album | n | Deres nye album er rigtig godt. | Their new album is really good. | g: n | pl: albummer / album
+      en koncert | a concert | n | Vi skal til koncert i Aalborg i marts. | We're going to a concert in Aalborg in March. | g: c | pl: koncerter | c: gå til koncert (go to a concert)
+      en tekst | a text; lyrics | n | Jeg elsker teksterne på det nye album. | I love the lyrics on the new album. | g: c | pl: tekster
+      sluge | to swallow; to devour (a book) | v | Jeg slugte bogen på to dage. | I devoured the book in two days. | n: Past: slugte.
+      handle om | to be about | expr | Hvad handler bogen om? | What is the book about?
+      undgå | to avoid | v | Prøv at undgå spoilers, før du har set den. | Try to avoid spoilers before you've seen it. | n: Irregular: undgik, har undgået. Not the same as gå under (sink).
+    grammar:
+      title: "Particle verb or fused verb? give ud – udgive"
+      body: |
+        Many particle verbs also exist as one **fused** word with the particle at the front: *give ud → **udgive*** (publish, release) · *spille ind → **indspille*** (record) · *komme ud → **udkomme*** (come out).
+
+        **Same meaning, different style.** Often the two forms mean the same, but the particle verb is more **spoken** and the fused verb more **written** — typical of news, reviews and publishers' texts: *Bandet spillede albummet ind i Aarhus* (spoken) · *Bandet indspillede albummet i Aarhus* (written).
+
+        **Stress.** In the fused verb, the prefix is stressed: **UD**give, **IND**spille. In the particle verb, the particle is stressed: give **UD**, spille **IND**.
+
+        **Word order.** The fused verb is one word, so ikke comes after it: *Bogen udkommer **ikke** før i maj.* With the particle verb, ikke goes between the verb and the particle: *Bogen kommer **ikke** ud før i maj.*
+
+        **Different meanings.** Some twins mean something else, so learn them separately: *holde op* (stop) vs *opholde sig* (stay somewhere) · *gå under* (sink, perish) vs *undgå* (avoid) · *tage op* (pick up; bring up a topic) vs *optage* (record; take up space).
+      table: |
+        Particle verb (spoken) | Fused verb (written) | Meaning
+        give ud | udgive | publish, release
+        spille ind | indspille | record (music)
+        komme ud | udkomme | come out, be published
+        holde op | opholde sig | stop / stay somewhere (different!)
+        gå under | undgå | sink / avoid (different!)
+      examples: |
+        Hendes nye roman udkommer i september. | Her new novel comes out in September. | fused verb: written style
+        Bandet spillede sangene ind i et gammelt sommerhus. | The band recorded the songs in an old summer house. | particle verb: spoken style
+        Forlaget har udgivet tre af hans bøger. | The publisher has published three of his books. | the perfect of a fused verb
+        Albummet kommer ikke ud før til foråret. | The album won't come out until the spring. | ikke between the verb and the particle
+      tip: "Writing a review or a formal text? Choose the fused verb. Chatting with a friend? The particle verb sounds more natural."
+    dialogue:
+      title: Nye bøger og ny musik
+      setting: A café near the main library in Aalborg on a Saturday afternoon. Sebastian and Cecilie talk about a new novel and a band Sebastian has discovered.
+      speakers: S=Sebastian/m; C=Cecilie/f
+      lines: |
+        S: Har du læst Ida Brandts nye roman? Den udkom i sidste uge. | Have you read Ida Brandt's new novel? It came out last week.
+        C: Ja, jeg slugte den på to dage. Jeg kunne ikke lægge den fra mig. | Yes, I devoured it in two days. I couldn't put it down.
+        S: Handler den ikke om en familie, der flytter til Grønland? | Isn't it about a family who move to Greenland?
+        C: Jo, og datteren finder ud af en stor familiehemmelighed. Mere siger jeg ikke! | Yes, and the daughter finds out a big family secret. I'm not saying any more!
+        S: Okay, ingen spoilers. Har hun ikke også udgivet digte? | OK, no spoilers. Hasn't she published poems too?
+        C: Jo, men hun holdt op med at skrive digte, da hun fik børn. | Yes, but she stopped writing poems when she had children.
+        S: Apropos — kender du bandet Kystlys? De har lige spillet et nyt album ind. | Speaking of which — do you know the band Kystlys? They've just recorded a new album.
+        C: Nej, det kender jeg ikke. Hvilken slags musik spiller de? | No, I don't know them. What kind of music do they play?
+        S: Rolig indiepop på dansk. De indspillede det hele i et gammelt fyrtårn på Fanø. | Calm indie pop in Danish. They recorded the whole thing in an old lighthouse on Fanø.
+        C: Det lyder vildt! Hvornår kommer albummet ud på streamingtjenesterne? | That sounds amazing! When does the album come out on the streaming services?
+        S: Det udkommer på fredag, og de spiller koncert i Aalborg i marts. | It comes out on Friday, and they're playing a concert in Aalborg in March.
+        C: Skal vi tage med? Jeg har ikke været til koncert, siden jeg flyttede hertil. | Shall we go? I haven't been to a concert since I moved here.
+    pronunciation:
+      title: "give UD or UDgive?"
+      body: |
+        The twin verbs are stressed in opposite places. In the particle verb, the **particle** at the end is stressed: *give **UD***, *spille **IND***. In the fused verb, the **prefix** at the front is stressed: ***UD**give*, ***IND**spille*, ***UD**komme*.
+
+        In *indspille*, the d is silent: "IN-spil-le". Listen to the pairs and repeat them, moving the stress from the end to the front.
+      items: |
+        give ud
+        udgive
+        spille ind
+        indspille
+        Bandet indspillede albummet på Fanø.
+    culture:
+      title: Libraries, festivals and singing together
+      body: |
+        Danish public libraries are free and busy: besides books, they lend out music, films and even tools, and they host author evenings, concerts and language cafés. Many Danes still read a lot of fiction, and crime novels top the lists every year.
+
+        Music life is rich too, from small jazz clubs to **Roskilde Festival**, one of the biggest music festivals in northern Europe. A very Danish tradition is **fællessang** — singing together from songbooks such as *Højskolesangbogen* at school, at work and at family parties.
+    mistakes: |
+      Bogen ud kommer i maj. => Bogen udkommer i maj. | Write the fused verb as one word, or use the particle verb: Bogen kommer ud i maj.
+      Albummet kommer ud ikke før maj. => Albummet kommer ikke ud før maj. | With a particle verb, ikke goes between the verb and the particle.
+      Jeg prøver at gå under spoilers. => Jeg prøver at undgå spoilers. | Gå under means sink or perish. Avoid = undgå.
+    task:
+      title: Recommend a book or an album
+      mode: speaking
+      body: |
+        Prepare a one-minute talk about a book or an album you like: who wrote or recorded it, when it came out, what it is about and why you like it. Use at least one fused verb (udkom, udgav, indspillede) and one particle verb (kom ud, spillede ind, holdt op). Then chat about your taste in books and music in the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: Hendes nye roman ___ i september. (comes out — one word) || udkommer || The fused verb udkomme is one word: udkommer. || @tags da.phrasal-verbs
+      fill: Bandet spillede albummet ___ i et gammelt fyrtårn. || ind || Spille ind = record. The object comes before the particle: spillede albummet ind. || @tags da.phrasal-verbs
+      mc: Which sentence would you most expect to read in a newspaper? || *Forlaget udgiver bogen i maj. | Forlaget giver bogen ud i maj. | Forlaget giver ud bogen i maj. || The fused verb (udgiver) is typical of written Danish. The second sentence is correct but more spoken, and in the third the object is in the wrong place. || @tags da.phrasal-verbs,da.register
+      mc: Which sentence is correct? || *Albummet kommer ikke ud før i maj. | Albummet kommer ud ikke før i maj. | Albummet ikke kommer ud før i maj. || With a particle verb, ikke goes between the verb and the particle. || @tags da.phrasal-verbs,da.negation
+      mc: "Jeg prøver at undgå spoilers." What does it mean? || *I try to avoid spoilers | I try to find spoilers | I try to post spoilers || Undgå = avoid. || @tags da.vocabulary
+      tf: Ida Brandt's novel came out last week. || true || "Den udkom i sidste uge." || @ctx dialogue
+      short: Where did the band record their album? || kw: fyrtårn/fyrtårnet/lighthouse/Fanø || In an old lighthouse on Fanø. || @ctx dialogue
+      listen: @dialogue || Why did Ida Brandt stop writing poems? || *She had children | She moved to Greenland | She started a band || "Hun holdt op med at skrive digte, da hun fik børn." || @tags da.listening
+      listen: Min yndlingsforfatter har udgivet en ny bog om sin barndom på Bornholm. Jeg har allerede købt den, men jeg har ikke læst den endnu. || What hasn't the speaker done yet? || *Read the book | Bought the book | Visited Bornholm || "Jeg har ikke læst den endnu" — I haven't read it yet. || @tags da.listening
+      rw: Use the fused verb :: Bandet spillede sangene ind i Aarhus. || Bandet indspillede sangene i Aarhus. || Spille ind → indspille (one word, more written). || @tags da.phrasal-verbs,da.register
+      rw: Use the particle verb :: Bogen udkommer på fredag. || Bogen kommer ud på fredag. || Udkomme → komme ud (more spoken). || @tags da.phrasal-verbs,da.register
+      tr: The band has recorded a new album. || Bandet har indspillet et nyt album. | Bandet har spillet et nyt album ind. || Indspille or spille … ind. Album is an et-word: et nyt album. || @tags da.phrasal-verbs,da.perfect
+      ask: Tell a friend about a book or an album you like: what it is about, when it came out, and why you recommend it. || kw: handler om & udkom/kom ud/udgav/gav ud/indspillede/spillede || Jeg elsker en roman, der hedder "Vinterbørn". Den udkom for nogle år siden, og den handler om en familie i Nordjylland. Jeg slugte den på en weekend.
+      dict: Hendes nye roman udkommer på fredag.
+
+  - title: Recommending and retelling a story
+    summary: Recommend a film or a book and retell its plot in the right order — with efter at, før, indtil and så snart, and the past perfect where needed.
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [da.connectors, da.subordinate-clauses, da.past-perfect]
+    objectives:
+      - Order events in a story with efter at, før, indtil and så snart
+      - Use V2 after a subordinate clause and after story adverbs
+      - Recommend a film or book without giving away the ending
+    intro: |
+      "You have to see it!" A good recommendation makes people curious without telling them the ending. To retell a plot clearly, you need words that show the order of events: **efter at**, **før**, **indtil**, **så snart**. In this lesson you'll hear a colleague recommend a film and retell its beginning — and learn how to do the same with your favourite story.
+    vocab: |
+      anbefale | to recommend | v | Den kan jeg varmt anbefale. | I can highly recommend it. | n: Past: anbefalede. Varmt anbefale = highly recommend.
+      en handling | a plot; an action | n | Handlingen foregår på en lille ø. | The plot takes place on a small island. | g: c | pl: handlinger
+      genfortælle | to retell | v | Kan du genfortælle historien med dine egne ord? | Can you retell the story in your own words? | n: Irregular like fortælle: genfortalte.
+      efter at | after | conj | Efter at vi havde spist, gik vi en tur. | After we had eaten, we went for a walk. | n: Often followed by the past perfect.
+      indtil | until | conj | Vi ventede, indtil regnen holdt op. | We waited until the rain stopped. | n: In speech, til is also common.
+      så snart | as soon as | conj | Så snart jeg kom hjem, ringede jeg til dig. | As soon as I got home, I called you.
+      imens | meanwhile | adv | Imens ventede hun i bilen. | Meanwhile she waited in the car. | n: An adverb, so it takes V2. Mens (while) is a conjunction.
+      en tudefilm | a tear-jerker | n | Tag lommetørklæder med — det er en tudefilm! | Bring tissues — it's a tear-jerker! | g: c | pl: tudefilm | n: From tude (to cry, informal).
+      morsom | funny | adj | Filmen er både trist og morsom. | The film is both sad and funny. | n: Plural: morsomme.
+      røre | to move (emotionally); to touch | v | Slutningen rørte mig dybt. | The ending moved me deeply. | n: Past: rørte. Rørende = moving.
+      rulletekster | (film) credits | n | Vi blev siddende, til rulleteksterne var færdige. | We stayed in our seats until the credits had finished. | g: c | pl: rulletekster | n: Usually plural.
+      overraske | to surprise | v | Slutningen overraskede mig. | The ending surprised me. | n: Past: overraskede. Overraskende = surprising.
+    grammar:
+      title: "Retelling a story: efter at, før, indtil, så snart"
+      body: |
+        When you retell a story — a film, a book or something that happened — you need words that show the **order of events**:
+
+        - **efter at** (after), often + the past perfect: *Efter at hun **havde fundet** brevet, tog hun til Grønland.* In speech, *efter* alone is also common.
+        - **før** (before): *Før han rejste, sagde han farvel.* No at after før.
+        - **indtil** (until): *Hun ventede, indtil alle var gået.*
+        - **så snart** (as soon as): *Så snart han kom hjem, ringede han til politiet.*
+        - and **mens** (while) and **da** (when) from unit 1.
+
+        They all start a **subordinate clause**: subject before the verb and ikke before the verb — *indtil hun **ikke** var vred længere*. When the clause comes first, the main verb follows straight after the comma: *Efter at de havde spist, **gik de** en tur.*
+
+        Story adverbs move the plot forward and take V2: *først, så, bagefter, imens, senere, til sidst* — *Bagefter **gik de** ud og spiste.*
+
+        **Tense.** A plot summary is usually told in the **present**, as in English: *Filmen handler om en pige, der… Hun finder ud af…* — and then *efter at* takes the perfect: *efter at hendes mor er død*. A personal story is told in the past.
+      table: |
+        Connector | Type | Example
+        efter at | subordinate | Efter at hun havde læst brevet, græd hun.
+        før | subordinate | Før han gik, slukkede han lyset.
+        indtil | subordinate | Vi ventede, indtil det holdt op med at regne.
+        så snart | subordinate | Så snart filmen sluttede, gik vi.
+        bagefter | adverb (V2) | Bagefter gik vi ud og spiste.
+        til sidst | adverb (V2) | Til sidst fandt de skatten.
+      examples: |
+        Efter at Jonas havde mistet sit job, flyttede han hjem til sin mor. | After Jonas had lost his job, he moved back in with his mother. | efter at + past perfect
+        Hun sagde ingenting, før politiet kom. | She said nothing before the police came. | før without at
+        De ledte efter hunden, indtil det blev mørkt. | They looked for the dog until it got dark. | indtil
+        Så snart hun åbnede døren, vidste hun, at noget var galt. | As soon as she opened the door, she knew that something was wrong. | V2 after the clause
+      tip: "Retell in three steps — the beginning, the turning point (så snart…, pludselig…) and the situation just before the end. Then stop: Mere siger jeg ikke!"
+    dialogue:
+      title: Du skal bare se den!
+      setting: Lunch break at a nursery school in Vejle. Kasim wants to watch a film tonight and asks his colleague Frida for a tip.
+      speakers: K=Kasim/m; F=Frida/f
+      lines: |
+        K: Jeg skal se en film i aften. Kan du anbefale noget godt? | I'm going to watch a film tonight. Can you recommend something good?
+        F: Ja! Du skal bare se "Vinterhavn". Den kan jeg varmt anbefale. | Yes! You simply have to see "Winter Harbour". I can highly recommend it.
+        K: Hvad handler den om? Men fortæl mig ikke slutningen! | What's it about? But don't tell me the ending!
+        F: Den handler om en gammel fisker, som bor alene på en lille ø. | It's about an old fisherman who lives alone on a small island.
+        F: En dag banker hans barnebarn på døren. Han har ikke set hende i ti år. | One day his granddaughter knocks on the door. He hasn't seen her for ten years.
+        K: Hvorfor ikke? Var de blevet uvenner, eller hvad var der sket? | Why not? Had they fallen out, or what had happened?
+        F: Efter at hendes mor var død, flyttede hun til Spanien med sin far. | After her mother had died, she moved to Spain with her father.
+        K: Okay. Og hvad sker der så, da hun kommer tilbage? | OK. And what happens when she comes back?
+        F: I starten taler de næsten ikke sammen. Men så snart stormen kommer, må de hjælpe hinanden. | At first they hardly talk to each other. But as soon as the storm comes, they have to help each other.
+        K: Det lyder lidt trist. Er det en tudefilm? | It sounds a bit sad. Is it a tear-jerker?
+        F: Både og. Jeg græd, indtil rulleteksterne kom, men den er også meget morsom. | Yes and no. I cried until the credits came, but it's also very funny.
+        K: Okay, du har solgt den. Jeg ser den i aften, så snart børnene sover. | OK, you've sold it to me. I'll watch it tonight as soon as the children are asleep.
+    pronunciation:
+      title: "Little at sounds like \"å\""
+      body: |
+        The small word **at** — both "to" before an infinitive and "that" before a clause — is almost never pronounced with an a and a t. It sounds like a short, weak **"å"**, a bit like the o in English *on*: *efter at* is "EF-ter å", *at se* is "å SE".
+
+        Because it is unstressed, it blends into the words around it. Listen and repeat the phrases, then say the sentence without stressing *at*.
+      items: |
+        efter at
+        at se
+        holde op med at
+        Jeg synes, at du skal se den.
+        Efter at hun var flyttet, savnede han hende.
+    culture:
+      title: Danish film
+      body: |
+        Denmark makes many films for a small country, and Danish films have won the Oscar for best international film several times — among them *Babettes gæstebud* (1988), *Pelle Erobreren* (1989), *Hævnen* (2011) and *Druk* (2021). In the 1990s, the Danish **Dogme 95** movement made headlines with its strict rules for filmmaking: handheld cameras and no added music or special effects.
+
+        Going to the cinema (**biografen**) is still popular, and many cinemas show Danish films with English subtitles on certain evenings — a good way to practise your listening.
+    mistakes: |
+      Efter at vi havde spist, vi gik en tur. => Efter at vi havde spist, gik vi en tur. | The efter at-clause is the first element, so the main verb comes straight after the comma.
+      Vi ventede, indtil hun var ikke vred længere. => Vi ventede, indtil hun ikke var vred længere. | In an indtil-clause, ikke goes before the verb.
+      Før at han gik, slukkede han lyset. => Før han gik, slukkede han lyset. | Før is not followed by at.
+    task:
+      title: You have to see it!
+      mode: speaking
+      body: |
+        Choose a film, series or book you love. Prepare a recommendation for a friend: what it's about, the beginning of the story in four or five sentences with efter at, før, indtil or så snart, and why they should see or read it — but stop before the ending (*Mere siger jeg ikke!*). Tell it to a partner and ask them to retell what they understood.
+    exercises: |
+      fill: ___ hun havde læst brevet, ringede hun til sin søster. (after) || Efter at / Efter || Efter at (or just efter) + past perfect: she read the letter first. || @tags da.connectors,da.past-perfect
+      fill: Vi ventede, ___ det holdt op med at regne. (until) || indtil / til || Until = indtil (til in speech). || @tags da.connectors
+      fill: ___ filmen var slut, gik vi hjem. (as soon as) || Så snart || As soon as = så snart. After the clause, the verb comes first: gik vi. || @tags da.connectors,da.word-order
+      mc: Which sentence is correct? || *Efter at de havde set filmen, spiste de pizza. | Efter at de havde set filmen, de spiste pizza. | Efter at havde de set filmen, spiste de pizza. || Inside the clause: subject + verb (de havde). After the clause: verb + subject (spiste de). || @tags da.subordinate-clauses,da.word-order
+      mc: "Han slukkede lyset, ___ han gik i seng." || *før | efter at | indtil || You turn the light off before you go to bed: før. || @tags da.connectors
+      tf: The fisherman hadn't seen his granddaughter for ten years. || true || "Han har ikke set hende i ti år." || @ctx dialogue
+      short: Where did the granddaughter move after her mother died? || kw: Spanien/Spain || "Efter at hendes mor var død, flyttede hun til Spanien med sin far." || @ctx dialogue
+      listen: @dialogue || When is Kasim going to watch the film? || *Tonight, when the children are asleep | At the weekend | Tomorrow at the cinema || "Jeg ser den i aften, så snart børnene sover." || @tags da.listening
+      listen: Bogen handler om en dreng, der vokser op på en gård i Vestjylland. Efter at hans far er død, må han klare det hele selv. || What happens after the father dies? || *The boy has to manage everything himself | The family sells the farm | The boy moves to Copenhagen || "Efter at hans far er død, må han klare det hele selv." || @tags da.listening,da.connectors
+      rw: Join the sentences with efter at and the past perfect :: Hun fandt brevet. Så rejste hun til Grønland. || Efter at hun havde fundet brevet, rejste hun til Grønland. | Hun rejste til Grønland, efter at hun havde fundet brevet. || The earlier event takes the past perfect (havde fundet), and after the clause the verb comes first: rejste hun. || @tags da.connectors,da.past-perfect
+      order: Før han rejste, gav han sin datter et gammelt kort. || Before he left, he gave his daughter an old map. || @tags da.connectors,da.word-order
+      tr: I can highly recommend this film. || Jeg kan varmt anbefale den her film. | Den her film kan jeg varmt anbefale. | Jeg kan varmt anbefale denne film. | Denne film kan jeg varmt anbefale. || Varmt anbefale = highly recommend. If the film comes first, the verb follows: Den her film kan jeg… || @tags da.word-order
+      ask: Recommend a film, series or book to a friend and retell the beginning of the story without giving away the ending. Use two connectors. || kw: handler om & efter at/før/indtil/så snart/mens/da || Du skal læse "Havets datter". Den handler om en pige, der bor på Ærø. Efter at hendes bror er forsvundet, begynder hun at lede efter ham. Så snart hun finder hans dagbog, forstår hun, at noget er galt. Mere siger jeg ikke!
+      write: Write a message (6–8 sentences) to a friend recommending a book or a film. Retell the beginning of the plot and say why they should read or see it. || min=60 || req: handler om | efter at/før/indtil/så snart | anbefale/anbefaler/skal se/skal læse || Hej Johanne! Du skal se filmen "Vinterhavn". Den handler om en gammel fisker på en lille ø. En dag kommer hans barnebarn, som han ikke har set i ti år. Efter at hendes mor er død, har hun boet i Spanien. I starten taler de næsten ikke sammen, men så snart stormen kommer, må de hjælpe hinanden. Den er både morsom og rørende, og jeg kan varmt anbefale den. Knus, Frida
+      dict: Efter at hun havde læst brevet, græd hun i lang tid.

@@ -1,0 +1,370 @@
+unit: 3
+title: Krop og sundhed
+theme: Health and the body
+description: Say what hurts with have ondt i, call in sick, explain at the doctor's what has happened with the perfect with er, and give advice about healthy habits with the imperative, skal and bør.
+free: false
+objectives:
+  - Describe pain and symptoms and call in sick
+  - Explain at the doctor's what has happened, using the perfect with er
+  - Give and understand advice with the imperative, skal and bør
+canDo:
+  - I can say what hurts and how I feel, and call in sick to work or school.
+  - I can tell a doctor what has happened, for example Jeg er faldet or Det er blevet værre.
+  - I can understand simple instructions for taking medicine.
+  - I can give a friend advice about sleep, food and exercise.
+review: |
+  fill: Jeg har ondt i ___. (en ryg) || ryggen || Ondt i takes the definite form: en ryg → ryggen. || @tags da.definite
+  mc: "I have a cold." || Jeg har forkølet. | *Jeg er forkølet. | Jeg er forkølelse. || Forkølet is an adjective, so it goes with være. Forkølelse is the noun (a cold). || @tags da.vaere-have
+  fill: Hun ___ faldet på isen og har slået hovedet. || er || Falde forms the perfect with er: er faldet. Slå takes har: har slået. || @tags da.perfect-er
+  fill: Min hoste er ___ værre. (blive) || blevet || Blive → blev → er blevet. || @tags da.perfect-er
+  mc: Which sentence is correct? || Jeg er været syg hele ugen. | *Jeg har været syg hele ugen. | Jeg har været syget hele ugen. || Være itself forms the perfect with har: har været. || @tags da.perfect
+  fill: Du ___ ikke ryge. Det er usundt. (should) || bør || Bør = should; ikke comes after bør. || @tags da.modal-verbs,da.negation
+  mc: What is the imperative of "sove"? || sove | *sov | sover || The imperative drops the final -e: sove → sov. Sover is the present tense. || @tags da.imperative
+  tr: My knee hurts. || Mit knæ gør ondt. | Jeg har ondt i knæet. || Either a possessive + gøre ondt, or have ondt i + the definite form. Knæ is an et-word: mit knæ, knæet. || @tags da.possessives,da.definite
+  listen: Du skal tage en tablet tre gange om dagen, og husk at spise lidt først. || What should you do before taking a tablet? || Drink some milk | *Eat a little | Lie down || "Husk at spise lidt først" — remember to eat a little first. || @tags da.modal-verbs,da.listening
+  listen: Jeg er faldet på cyklen, og nu er min hånd helt hævet. Kan jeg få en tid i dag? || What's the problem? || *A swollen hand | A swollen knee | A sore throat || "Min hånd er helt hævet" — my hand is very swollen. || @tags da.perfect-er,da.listening
+  ask: Phone the doctor's surgery — say what has happened and how you feel, and ask for an appointment. || kw: er faldet/er blevet/har haft/har været & ondt i/feber/hævet/hoste & tid || Hej, jeg er faldet på trappen, og nu har jeg ondt i ryggen. Det er blevet værre. Kan jeg få en tid i dag?
+  write: Write a message to a colleague who is ill — wish them a quick recovery and give two pieces of advice. || min=30 || req: god bedring | bør/skal/prøv at | sove/hvile/drikke/spise || Hej Johan! Jeg har hørt, at du er blevet syg. God bedring! Du bør blive i sengen og sove meget. Prøv at drikke masser af te med honning, og lad være med at tjekke din arbejdsmail. Vi savner dig! Hilsen Nadja
+lessons:
+  - title: Aches and pains
+    summary: Say what hurts and how you feel — have ondt i…, have feber, være forkølet — and call in sick to work or school.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [da.definite, da.vaere-have, da.vocabulary]
+    objectives:
+      - Name the main parts of the body
+      - Say what hurts with have ondt i + the definite form
+      - Describe how you feel and call in sick
+    intro: |
+      When you feel ill, you need to explain it quickly and clearly — to a colleague, a teacher or a doctor. Danish has one very useful expression for pain: **have ondt i** (literally "have bad in"): *Jeg har ondt i hovedet.* In this lesson you will learn the main body parts, the most common symptoms, and how to call in sick.
+    vocab: |
+      et hoved | a head | n | Jeg har ondt i hovedet efter mødet. | I have a headache after the meeting. | g: n | pl: hoveder | n: The v is silent: hovedet sounds like "HO-eth".
+      en mave | a stomach; a tummy | n | Min datter har ondt i maven. | My daughter has a stomach ache. | g: c | pl: maver
+      en ryg | a back | n | Han har ondt i ryggen efter flytningen. | His back hurts after the move. | g: c | pl: rygge | n: Definite: ryggen, with gg.
+      en hals | a throat; a neck | n | Jeg har ondt i halsen og kan næsten ikke tale. | I have a sore throat and can hardly speak. | g: c | pl: halse | n: Hals means both throat and neck.
+      et øre | an ear | n | Lille Noah har ondt i øret. | Little Noah has earache. | g: n | pl: ører
+      en tand | a tooth | n | Jeg har ondt i en tand, så jeg skal til tandlæge. | I have toothache, so I'm going to the dentist. | g: c | pl: tænder | n: The d is silent in tænder: "TEN-ner".
+      et knæ | a knee | n | Mit knæ gør ondt, når jeg løber. | My knee hurts when I run. | g: n | pl: knæ | n: The k is pronounced: "k-neh".
+      et ben | a leg | n | Hun brækkede benet på skiferie. | She broke her leg on a skiing holiday. | g: n | pl: ben | n: Ben also means "bone". Brække → brækkede.
+      have ondt i | to have a pain in; to hurt | expr | Har du ondt i armen? | Does your arm hurt? | n: Always with the definite form: ondt i hovedet, ondt i ryggen.
+      feber | a temperature; a fever | n | Jeg har feber og ligger i sengen. | I have a temperature and I'm in bed. | g: c | n: No article: jeg har feber. Normal body temperature is about 37 degrees.
+      forkølet | having a cold | adj | Jeg er forkølet og hoster hele tiden. | I have a cold and I'm coughing all the time. | n: Danish says "I am colded": jeg er forkølet.
+      have det dårligt | to feel ill; to feel bad | expr | Jeg har det dårligt i dag, så jeg bliver hjemme. | I don't feel well today, so I'm staying at home. | n: The opposite is have det godt.
+      melde sig syg | to call in sick | expr | Jeg ringede og meldte mig syg i morges. | I called in sick this morning. | n: Jeg melder mig syg, du melder dig syg — you will learn more verbs like this in unit 7.
+    grammar:
+      title: "Ondt i + the body, and how you feel"
+      body: |
+        **Have ondt i** + body part is the everyday way to say that something hurts. The body part is always in the **definite** form, where English uses "my": *Jeg har ondt i ryggen* (My back hurts). *Hun har ondt i maven* (She has a stomach ache).
+
+        Remember the definite endings from A1: en-words add **-en** (*maven, halsen, ryggen* — with a double g after the short vowel), and et-words add **-et** (*hovedet, øret, knæet, benet*).
+
+        With a possessive, use **gøre ondt** (to hurt) instead: *Mit knæ gør ondt. Min arm gør ondt.* And when you point: *Det gør ondt her.*
+
+        **Symptoms** often go with *have* and no article: *jeg har feber, jeg har hovedpine, jeg har kvalme* (I feel sick), *jeg har hoste* (I have a cough). A cold is an adjective with *være*: *jeg er forkølet*. For how you feel in general, say *jeg har det dårligt* or, more informally, *jeg har det skidt*.
+
+        The past and perfect follow the rules you know: *I går havde jeg feber. Jeg har haft ondt i hovedet hele dagen.* (have → havde → har haft)
+      table: |
+        Body part | Definite | Pain
+        en ryg | ryggen | Jeg har ondt i ryggen.
+        en mave | maven | Jeg har ondt i maven.
+        en hals | halsen | Jeg har ondt i halsen.
+        et hoved | hovedet | Jeg har ondt i hovedet.
+        et øre | øret | Jeg har ondt i øret.
+        et knæ | knæet | Jeg har ondt i knæet.
+      examples: |
+        Jeg har ondt i halsen og hoster meget. | I have a sore throat and I'm coughing a lot.
+        Mit knæ gør ondt, når jeg går på trapper. | My knee hurts when I walk on stairs. | gøre ondt with a possessive
+        Hun har haft feber i to dage. | She's had a temperature for two days. | have → har haft
+        Har du det dårligt? Du ser træt ud. | Are you feeling ill? You look tired.
+      tip: "Think \"a pain in the head\": ondt i hovedet, ondt i maven — the definite form, never ondt i mit hoved."
+    dialogue:
+      title: En sygemelding
+      setting: A phone call at a quarter to seven on a Tuesday morning. Rasmus, who works at a nursery in Randers, calls his manager Gitte.
+      speakers: R=Rasmus/m; G=Gitte/f
+      lines: |
+        R: Godmorgen, Gitte. Det er Rasmus. | Good morning, Gitte. It's Rasmus.
+        G: Hej, Rasmus. Du lyder ikke så godt. | Hi, Rasmus. You don't sound very good.
+        R: Nej, jeg har det dårligt. Jeg melder mig syg i dag. | No, I feel ill. I'm calling in sick today.
+        G: Åh nej. Hvad er der galt? | Oh no. What's wrong?
+        R: Jeg har ondt i halsen og i hovedet, og jeg har feber. | I have a sore throat and a headache, and I have a temperature.
+        G: Hvor høj er feberen? | How high is your temperature?
+        R: Jeg målte den i morges. Den var 38,5. | I took it this morning. It was 38.5.
+        G: Så skal du blive i sengen. | Then you must stay in bed.
+        R: Ja. Jeg har også ondt i ryggen. | Yes. My back hurts too.
+        G: Det lyder som influenza. Drik masser af te! | It sounds like flu. Drink lots of tea!
+        R: Det gør jeg. Jeg ringer igen i morgen. | I will. I'll call again tomorrow.
+        G: God bedring, Rasmus! | Get well soon, Rasmus!
+    pronunciation:
+      title: Body words with silent letters
+      body: |
+        Several body words hide silent letters. In **hovedet** the v is silent and the ending -et is a soft d, so it sounds like "HO-eth". In **ondt** the d is silent: "ont". In **tænder** you don't hear the d either: "TEN-ner".
+
+        In **knæet** the k is pronounced — unlike English *knee*: "k-NEH-eth". In **maven** the v becomes a short "oo" glide: roughly "MA-oo-en". Listen and repeat each word, then the whole sentence.
+      items: |
+        hovedet
+        ondt
+        tænder
+        knæet
+        maven
+        Jeg har ondt i hovedet.
+    culture:
+      title: Calling in sick
+      body: |
+        If you are ill in Denmark, you call or text your manager early in the morning on the first day — **en sygemelding**. For a short illness you usually don't need a note from the doctor; your employer trusts you.
+
+        Many workplaces also let a parent stay at home on **barnets første sygedag** (the child's first sick day). When a colleague is ill, people say or write **God bedring!** (Get well soon!).
+    mistakes: |
+      Jeg har ondt i mit hoved. => Jeg har ondt i hovedet. | After ondt i, use the definite form, not a possessive.
+      Jeg er feber. => Jeg har feber. | Feber goes with have: jeg har feber.
+      Jeg har forkølet. => Jeg er forkølet. | Forkølet is an adjective, so it goes with være.
+    task:
+      title: Call in sick
+      mode: interaction
+      body: |
+        It's seven in the morning, and you feel ill. Leave a short voicemail for your manager: say who you are, that you are calling in sick, two symptoms, and when you will call again. Record it in Speaking practice, then listen back and check that you used ondt i + the definite form.
+    exercises: |
+      fill: Jeg har ondt i ___. (et hoved) || hovedet || Ondt i + definite form: et hoved → hovedet. || @tags da.definite
+      fill: Min søn har ondt i ___. (en mave) || maven || En-word: en mave → maven. || @tags da.definite
+      fill: Jeg ___ forkølet, så jeg bliver hjemme i dag. || er || Forkølet is an adjective and goes with være: jeg er forkølet. || @tags da.vaere-have
+      mc: How do you say "My knee hurts"? || *Mit knæ gør ondt. | Mit knæ har ondt. | Min knæ gør ondt. || With a possessive, use gøre ondt. Knæ is an et-word, so the possessive is mit. || @tags da.possessives
+      mc: You have a temperature. You say: || Jeg er feber. | *Jeg har feber. | Jeg feber. || Feber goes with have and no article: jeg har feber. || @tags da.vaere-have
+      match: et hoved = a head ; en ryg = a back ; en hals = a throat ; et knæ = a knee ; en tand = a tooth ; et øre = an ear || Learn body parts with en or et — you need it for the definite form. || @skill vocabulary @tags da.vocabulary
+      tf: Rasmus has a temperature. || true || "Jeg har feber" — and it was 38.5 this morning. || @ctx dialogue
+      short: What does Gitte tell Rasmus to drink? || kw: te/tea || "Drik masser af te!" — lots of tea. || @ctx dialogue
+      listen: @dialogue || When will Rasmus call again? || This afternoon | *Tomorrow | Next week || "Jeg ringer igen i morgen." || @tags da.listening
+      listen: Hej, det er Amalie. Jeg kommer ikke i skole i dag. Jeg har kvalme og ondt i maven. || What's wrong with Amalie? || A sore throat and a cough | *Nausea and a stomach ache | A headache and a temperature || "Jeg har kvalme og ondt i maven." Kvalme = nausea. || @tags da.listening
+      rw: Use "gøre ondt" :: Jeg har ondt i ryggen. || Min ryg gør ondt. || With a possessive, the body part is the subject of gøre ondt: min ryg gør ondt. || @tags da.possessives
+      tr: I have a sore throat and a headache. || Jeg har ondt i halsen og hovedet. | Jeg har ondt i halsen og ondt i hovedet. | Jeg har ondt i halsen og i hovedet. | Jeg har ondt i halsen og hovedpine. | Jeg har ondt i halsen, og jeg har hovedpine. || Ondt i + the definite form: halsen, hovedet. Hovedpine (a headache) also works. || @tags da.definite
+      ask: Call your manager — say that you are calling in sick and describe two symptoms. || kw: syg/har det dårligt & ondt i/feber/forkølet/kvalme/hoste || Hej, det er Lina. Jeg melder mig syg i dag. Jeg har feber og ondt i halsen.
+      write: Write a text message to your Danish teacher — you can't come today. Say what's wrong and when you hope to be back. || min=20 || req: ondt i/feber/forkølet/kvalme | i dag | syg/dårligt/desværre || Hej Hanne. Jeg kan desværre ikke komme til dansk i dag. Jeg er forkølet og har ondt i halsen. Jeg håber at være tilbage på torsdag. Hilsen Marco
+      dict: Min datter har ondt i øret og har feber.
+
+  - title: "At the doctor's and the pharmacy"
+    summary: Explain at the doctor's what has happened — Jeg er faldet, det er blevet værre — with the perfect with er, and understand instructions at the pharmacy.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [da.perfect-er, da.perfect, da.imperative]
+    objectives:
+      - Form the perfect with er for verbs of movement and change
+      - Book an appointment and describe how a problem started
+      - Understand instructions for medicine at the pharmacy
+    intro: |
+      At the doctor's, you often explain what has happened: I've fallen, it has got worse, the pain has gone. In Danish, some verbs form the perfect with **er** instead of har — verbs of movement and change, such as *falde, blive, gå* and *komme*. In this lesson you will learn which ones, and you will practise understanding a doctor and a pharmacist.
+    vocab: |
+      en læge | a doctor | n | Jeg har bestilt en tid hos lægen. | I've booked an appointment with the doctor. | g: c | pl: læger | c: gå til læge (see a doctor); egen læge (your GP)
+      en tid | an appointment; a time | n | Kan jeg få en tid i dag? | Can I get an appointment today? | g: c | pl: tider | c: bestille en tid (book an appointment)
+      falde | to fall | v | Jeg er faldet på cyklen. | I've fallen off my bike. | n: Irregular past: faldt. The perfect takes er: er faldet.
+      blive syg | to fall ill | expr | Han er blevet syg igen. | He has fallen ill again. | n: Blive → blev → er blevet.
+      værre | worse | adj | Hosten er blevet værre. | The cough has got worse. | n: The opposite is bedre (better).
+      gå over | to pass; to go away | expr | Hovedpinen er gået over. | The headache has gone. | n: About pain and illness. The perfect takes er: er gået over.
+      hævet | swollen | adj | Min ankel er helt hævet. | My ankle is very swollen. | n: Plural: hævede.
+      en recept | a prescription | n | Lægen har sendt en recept til apoteket. | The doctor has sent a prescription to the pharmacy. | g: c | pl: recepter | n: Stress on the last syllable: re-SEPT. Danish prescriptions are electronic.
+      et apotek | a pharmacy | n | Apoteket på hjørnet har åbent til klokken otte. | The pharmacy on the corner is open until eight. | g: n | pl: apoteker
+      en tablet | a tablet; a pill | n | Tag to tabletter tre gange om dagen. | Take two tablets three times a day. | g: c | pl: tabletter | c: smertestillende tabletter (painkillers)
+      en bivirkning | a side effect | n | Har medicinen nogen bivirkninger? | Does the medicine have any side effects? | g: c | pl: bivirkninger
+      allergisk | allergic | adj | Jeg er allergisk over for penicillin. | I'm allergic to penicillin. | n: Allergisk over for + noun.
+      et sundhedskort | a health insurance card | n | Husk dit gule sundhedskort. | Remember your yellow health card. | g: n | pl: sundhedskort | n: The yellow card shows your CPR number and the name of your doctor.
+    grammar:
+      title: "The perfect with er: Jeg er faldet"
+      body: |
+        Most verbs form the perfect with **har**. But verbs that describe **movement to a place** or a **change of state** take **er**:
+
+        - movement: *komme → er kommet, gå → er gået, rejse → er rejst, flytte → er flyttet, falde → er faldet*
+        - change: *blive → er blevet* (has become, has got), *gå over → er gået over* (has passed)
+
+        *Jeg er faldet på trappen. Hosten er blevet værre. Lægen er gået hjem. Feberen er gået over.*
+
+        Compare *Hun er gået hjem* (she has gone home — movement to a place) with *Vi har gået en lang tur* (we have been for a long walk — an activity, no destination). And **være** itself always takes har: *Jeg har været syg i en uge* — even though English also says "have been".
+
+        Word order doesn't change: ikke comes after er, and in a question er comes first: *Feberen er ikke gået over. Er du faldet?*
+
+        At the doctor's and the pharmacy you will also hear the **imperative** for instructions: *Tag en tablet morgen og aften. Drik meget vand. Kom igen om en uge.*
+      table: |
+        Verb | Past | Perfect
+        komme | kom | er kommet
+        gå | gik | er gået
+        falde | faldt | er faldet
+        blive | blev | er blevet
+        rejse | rejste | er rejst
+        flytte | flyttede | er flyttet
+        være | var | har været
+      examples: |
+        Jeg er faldet og har slået min arm. | I've fallen and hurt my arm. | er faldet, but har slået
+        Er hovedpinen gået over? | Has the headache gone? | question: er first
+        Min ankel er blevet mere hævet. | My ankle has got more swollen. | blive → er blevet
+        Lægen er gået til frokost. Kom igen klokken et. | The doctor has gone to lunch. Come back at one. | movement to a place + imperative
+      tip: "Movement or change → er: er kommet, er gået, er faldet, er blevet. Almost everything else → har, and være always takes har: har været."
+    dialogue:
+      title: Hos lægen i Viborg
+      setting: A GP's surgery in Viborg on a Monday morning. Selma has hurt her ankle, and Dr Thomas Krogh examines her.
+      speakers: T=Thomas/m; S=Selma/f
+      lines: |
+        T: Goddag, Selma. Sæt dig bare. Hvad kan jeg gøre for dig? | Hello, Selma. Do sit down. What can I do for you?
+        S: Jeg er faldet på cyklen, og min ankel gør ondt. | I fell off my bike, and my ankle hurts.
+        T: Hvornår skete det? | When did it happen?
+        S: I lørdags. Det var glat på vejen. | Last Saturday. The road was slippery.
+        T: Er smerterne blevet værre siden? | Has the pain got worse since then?
+        S: Nej, men anklen er stadig meget hævet. | No, but the ankle is still very swollen.
+        T: Lad mig se. Gør det ondt her? | Let me see. Does it hurt here?
+        S: Av! Ja, lige der. | Ouch! Yes, right there.
+        T: Den er ikke brækket, men du har forstuvet den. | It isn't broken, but you've sprained it.
+        T: Læg is på, og hold foden højt i et par dage. | Put ice on it, and keep your foot up for a couple of days.
+        S: Skal jeg tage noget mod smerterne? | Should I take something for the pain?
+        T: Ja, køb nogle smertestillende tabletter på apoteket. | Yes, buy some painkillers at the pharmacy.
+    pronunciation:
+      title: Stress in medical words
+      body: |
+        Many medical words come from Latin, Greek or French, and Danish stresses them late in the word — often on the last syllable: **recept** (re-SEPT), **apotek** (a-po-TEK), **medicin** (me-di-SIN), **tablet** (ta-BLET), **temperatur** (tem-pe-ra-TUR).
+
+        English speakers often stress the first syllable, which makes the words hard to recognise for Danes. Listen and repeat, and make the stressed syllable clearly longer and louder.
+      items: |
+        recept
+        apotek
+        medicin
+        tablet
+        temperatur
+        Har du en recept?
+    culture:
+      title: Your doctor and the pharmacy
+      body: |
+        Everyone registered in Denmark has their own GP — **egen læge** — whose name is on the yellow health card. You usually phone in the morning or book online for an appointment, and visits are free. Outside opening hours you call the out-of-hours service, **lægevagten** (in the Copenhagen region the number is 1813).
+
+        Medicine is partly paid by the state. Prescriptions are electronic, so you simply show your health card at the pharmacy. Mild painkillers in small packs can be bought without a prescription — **i håndkøb** — at pharmacies and many supermarkets.
+    mistakes: |
+      Jeg har faldet på trappen. => Jeg er faldet på trappen. | Falde describes a movement, so the perfect takes er.
+      Hosten har blevet værre. => Hosten er blevet værre. | Blive always forms the perfect with er: er blevet.
+      Jeg er været syg i en uge. => Jeg har været syg i en uge. | Være itself takes har: har været.
+    task:
+      title: Describe your symptoms
+      mode: interaction
+      body: |
+        You have a doctor's appointment. Say what has happened, when it started and whether it has got better or worse, answer questions about medicine and allergies, and ask one question about the treatment. Practise in the "At the doctor's" scenario with the AI coach.
+    exercises: |
+      fill: Min søn ___ faldet ned fra et træ. || er || Falde (movement) forms the perfect with er: er faldet. || @tags da.perfect-er
+      fill: Hosten er ___ værre. (blive) || blevet || Blive → blev → er blevet. || @tags da.perfect-er
+      fill: Jeg ___ været syg i tre dage. || har || Være itself takes har: har været. || @tags da.perfect
+      mc: Which sentence is correct? || Feberen har gået over. | *Feberen er gået over. | Feberen er gåede over. || Gå over (pass, go away) forms the perfect with er, and the participle is gået. || @tags da.perfect-er
+      mc: The pharmacist says: "Tag to tabletter tre gange om dagen." How many tablets a day is that? || 3 | 5 | *6 || Two tablets, three times a day: 2 × 3 = 6. || @tags da.imperative,da.numbers
+      tf: Selma's ankle is broken. || false || "Den er ikke brækket, men du har forstuvet den" — it's sprained, not broken. || @ctx dialogue
+      short: What does the doctor tell Selma to put on her ankle? || kw: is/ice || "Læg is på" — put ice on it. || @ctx dialogue
+      listen: @dialogue || When did Selma fall? || *Last Saturday | Yesterday | This morning || "Hvornår skete det? – I lørdags." || @tags da.listening
+      listen: Tag en tablet morgen og aften i fem dage. Du må ikke drikke alkohol, mens du tager medicinen. || What mustn't you do? || Take the tablets in the morning | *Drink alcohol | Eat before the tablets || "Du må ikke drikke alkohol" — you mustn't drink alcohol. || @tags da.imperative,da.listening
+      rw: Put it in the perfect :: Han faldt på isen. || Han er faldet på isen. || Falde → faldt → er faldet. || @tags da.perfect-er
+      tr: I've fallen, and my knee is swollen. || Jeg er faldet, og mit knæ er hævet. | Jeg er faldet, og knæet er hævet. | Jeg er faldet, og mit knæ er helt hævet. || Falde takes er in the perfect; hævet works like an adjective after er. || @tags da.perfect-er
+      ask: Tell the doctor what has happened and how you feel now. || kw: er faldet/er blevet/har haft/har været & ondt i/hævet/feber/værre || Jeg er faldet på trappen, og nu har jeg ondt i ryggen. Det er blevet værre i dag.
+      write: Write a short message to your GP's online service — describe a problem, say when it started, and ask for an appointment. || min=30 || req: er blevet/er faldet/har haft/har været | ondt i/feber/hoste/hævet | tid || Hej. Jeg har haft hoste og feber siden torsdag, og nu er det blevet værre. I nat havde jeg også ondt i brystet. Kan jeg få en tid i dag eller i morgen? Venlig hilsen Omid Rahimi
+      dict: Hovedpinen er gået over, men jeg er stadig træt.
+
+  - title: Healthy habits
+    summary: Give and understand advice about sleep, food and exercise with the imperative, skal, bør, prøv at and lad være med at.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [da.modal-verbs, da.imperative, da.infinitive]
+    objectives:
+      - Give advice with the imperative, du bør and du skal
+      - Talk about your own sleep, food and exercise habits
+      - Use prøv at… and lad være med at… for friendly advice
+    intro: |
+      Ten thousand steps, eight hours' sleep, more vegetables and less sugar — there's health advice everywhere. In Danish you give advice with the imperative (*Drik mere vand!*), with **skal** (firm) and **bør** (should), and with two friendly phrases: **prøv at…** (try to…) and **lad være med at…** (don't…). In this lesson you will talk about healthy habits and give a tired friend some good advice.
+    vocab: |
+      sund | healthy | adj | Rugbrød er sundt og mætter godt. | Rye bread is healthy and filling. | n: Et-words: sundt; plural: sunde. The opposite is usund.
+      motion | exercise | n | Du bør få en halv times motion hver dag. | You should get half an hour of exercise every day. | g: c | c: dyrke motion (do exercise) | n: Used without en.
+      søvn | sleep | n | Voksne har brug for syv til ni timers søvn. | Adults need seven to nine hours' sleep. | g: c | n: The verb is sove; søvn is the noun.
+      bør | should; ought to | v | Du bør spise mere frugt og grønt. | You should eat more fruit and vegetables. | n: The present of burde. Followed by the infinitive without at.
+      skal | must; have to | v | Du skal tage medicinen hver morgen. | You must take the medicine every morning. | n: Stronger than bør — doctors use it for instructions.
+      prøv at | try to | expr | Prøv at gå en tur hver dag. | Try to go for a walk every day. | n: The imperative of prøve + at + infinitive.
+      lad være med at | don't | expr | Lad være med at kigge på skærmen før sengetid. | Don't look at screens before bedtime. | n: A friendly way to say "don't".
+      en grøntsag | a vegetable | n | Vi spiser grøntsager til hvert måltid. | We eat vegetables with every meal. | g: c | pl: grøntsager | n: Usually plural. Frugt og grønt = fruit and veg.
+      sukker | sugar | n | Sodavand indeholder meget sukker. | Fizzy drinks contain a lot of sugar. | g: n | n: No article: meget sukker, lidt sukker.
+      stresset | stressed | adj | Jeg er tit stresset på arbejdet. | I'm often stressed at work. | n: Plural: stressede.
+      en vane | a habit | n | Det er en god vane at cykle på arbejde. | Cycling to work is a good habit. | g: c | pl: vaner
+      en trappe | a staircase; stairs | n | Tag trappen i stedet for elevatoren. | Take the stairs instead of the lift. | g: c | pl: trapper | n: Danes say trappen (singular) for "the stairs".
+      ryge | to smoke | v | Min far holdt op med at ryge for ti år siden. | My father stopped smoking ten years ago. | n: Irregular: ryge → røg → har røget. Holde op med at = stop.
+    grammar:
+      title: "Giving advice: the imperative, skal and bør"
+      body: |
+        There are three common ways to give advice in Danish, from direct to firm:
+
+        - **The imperative** is the infinitive without its final -e: *drikke → drik, spise → spis, sove → sov, tage → tag*. Verbs without a final -e stay the same: *gå!* The imperative is direct, but not rude in Danish, especially with *bare*: *Drik bare noget vand.*
+        - **Du bør + infinitive** (you should, you ought to) is a recommendation: *Du bør sove mere.* Bør is the present tense of *burde*.
+        - **Du skal + infinitive** (you must, you have to) is firmer — a doctor's instruction or a clear opinion: *Du skal tage tabletterne i ti dage.*
+
+        Two friendly phrases soften advice: **Prøv at…** (try to…) and **Lad være med at…** (don't…): *Prøv at gå i seng før elleve. Lad være med at spise så meget slik.*
+
+        **Negative advice:** ikke goes after bør and skal: *Du bør ikke ryge. Du skal ikke løbe på det knæ.* With the imperative, ikke follows the verb: *Drik ikke kaffe om aftenen.*
+
+        Modal verbs (bør, skal, kan, vil) take the infinitive **without at**: *du bør spise*. Prøv and lad være med take **at**: *prøv at spise, lad være med at spise.*
+      table: |
+        Form | Example | How strong?
+        imperative | Drik mere vand. | direct
+        prøv at… | Prøv at sove otte timer. | a friendly suggestion
+        du bør… | Du bør dyrke mere motion. | a recommendation
+        du skal… | Du skal tage medicinen. | firm, an instruction
+        lad være med at… | Lad være med at ryge. | don't
+      examples: |
+        Du bør spise mindre sukker og flere grøntsager. | You should eat less sugar and more vegetables. | bør + infinitive
+        Sov mindst syv timer hver nat. | Sleep at least seven hours every night. | imperative: sove → sov
+        Du skal ikke løbe på det knæ i to uger. | You mustn't run on that knee for two weeks. | skal ikke = mustn't
+        Prøv at cykle på arbejde et par gange om ugen. | Try to cycle to work a couple of times a week. | prøv at + infinitive
+      tip: "Bør and skal never take at: du bør sove, du skal sove. Prøv and lad være med always do: prøv at sove, lad være med at ryge."
+    dialogue:
+      title: Gåtur ved søerne
+      setting: A lunchtime walk by the lakes in Silkeborg. Two colleagues, Louise and Tariq, talk about sleep — Tariq has been sleeping badly for weeks.
+      speakers: L=Louise/f; T=Tariq/m
+      lines: |
+        T: Undskyld, jeg gaber hele tiden. Jeg sover så dårligt. | Sorry, I keep yawning. I'm sleeping so badly.
+        L: Hvor mange timer sover du om natten? | How many hours do you sleep at night?
+        T: Fem, måske seks. Jeg kigger tit på min telefon i sengen. | Five, maybe six. I often look at my phone in bed.
+        L: Lad være med det! Læg telefonen i stuen om aftenen. | Don't do that! Leave your phone in the living room in the evening.
+        T: Det er svært. Og jeg drikker meget kaffe om eftermiddagen. | That's hard. And I drink a lot of coffee in the afternoon.
+        L: Så bør du drikke te eller vand efter klokken tre. | Then you should drink tea or water after three o'clock.
+        T: Okay. Hvad gør du selv? Du ser altid så frisk ud. | Okay. What do you do yourself? You always look so fresh.
+        L: Jeg cykler på arbejde, og jeg går i seng klokken halv elleve. | I cycle to work, and I go to bed at half past ten.
+        T: Halv elleve? Det er jo midt om aftenen! | Half past ten? That's the middle of the evening!
+        L: Prøv det i en uge. Du skal nok mærke forskellen. | Try it for a week. You'll definitely notice the difference.
+        T: Fint. Og så tager jeg trappen i stedet for elevatoren. | Fine. And I'll take the stairs instead of the lift.
+        L: Godt! Små vaner gør en stor forskel. | Good! Small habits make a big difference.
+    pronunciation:
+      title: "When u sounds like o: sund, frugt, ung"
+      body: |
+        In many short words, the Danish **u** before *n, nd, ng* or *gt* sounds closer to a short "o": **sund** sounds like "sonn" (the d is silent), **ung** like "ong", and **frugt** like "frogt".
+
+        In **motion**, the letters *ti* sound like "sh": "mo-SHOHN". In **søvn**, the v becomes a short "w"-like glide. Listen and repeat each word, then the whole sentence.
+      items: |
+        sund
+        ung
+        frugt
+        motion
+        søvn
+        Du bør dyrke motion.
+    culture:
+      title: Bikes, fresh air and cold water
+      body: |
+        Cycling is part of everyday health in Denmark: in Copenhagen, more than four in ten trips to work or school are made by bike, in all weathers. The Danish Health Authority advises adults to be physically active for at least 30 minutes a day — and a bike ride to work counts.
+
+        Danes also love **frisk luft** (fresh air): babies often nap in their prams outside, and many people go for a walk every day. A growing number swim in the sea all year round — **vinterbadning** — often followed by a sauna.
+    mistakes: |
+      Du bør at sove mere. => Du bør sove mere. | Bør, like skal and kan, takes the infinitive without at.
+      Drikke mere vand! => Drik mere vand! | The imperative drops the final -e: drikke → drik.
+      Prøv sove otte timer. => Prøv at sove otte timer. | Prøv is followed by at + infinitive.
+    task:
+      title: Advice for a tired friend
+      mode: writing
+      body: |
+        A Danish friend writes: "Jeg er altid træt og stresset. Hvad skal jeg gøre?" Write a reply (50–70 words) with at least four pieces of advice. Use the imperative, du bør, du skal and prøv at or lad være med at at least once each.
+    exercises: |
+      fill: Du ___ dyrke mere motion. (should) || bør || Bør = should, followed by the infinitive without at. || @tags da.modal-verbs
+      fill: ___ et stort glas vand, når du står op! (drikke — imperative) || Drik || The imperative drops the final -e: drikke → drik. || @tags da.imperative
+      fill: Prøv ___ gå i seng lidt tidligere. || at || Prøv is followed by at + infinitive. || @tags da.infinitive
+      mc: Which sentence is correct? || Du bør at spise mere frugt. | *Du bør spise mere frugt. | Du bør spiser mere frugt. || Bør takes the infinitive (spise) without at. || @tags da.modal-verbs,da.infinitive
+      mc: The doctor gives a firm instruction. Which sentence is it? || Prøv at tage en tablet. | *Du skal tage en tablet hver morgen. | Måske kan du tage en tablet. || Du skal… is the firm form. Prøv at and måske kan du are soft suggestions. || @tags da.modal-verbs
+      mc: "Lad være med at ryge" means… || Let me smoke. | *Don't smoke. | Try to smoke less. || Lad være med at… = don't… || @tags da.imperative
+      tf: Tariq sleeps about eight hours a night. || false || He sleeps "fem, måske seks" — five, maybe six hours. || @ctx dialogue
+      short: What time does Louise go to bed? || kw: 22.30/10.30/halv elleve/half past ten/ten thirty || "Jeg går i seng klokken halv elleve" — half past ten. || @ctx dialogue
+      listen: @dialogue || What does Louise tell Tariq to do with his phone? || Turn it off at nine | *Leave it in the living room | Put it under his pillow || "Læg telefonen i stuen om aftenen." || @tags da.listening
+      listen: Voksne bør være fysisk aktive mindst en halv time hver dag. Gå en tur, tag cyklen eller dans – det tæller alt sammen. || How long should adults be active every day? || Ten minutes | *At least half an hour | Two hours || "Mindst en halv time hver dag" — at least half an hour. || @tags da.modal-verbs,da.listening
+      rw: Make it advice with "bør" :: Spis mere frugt. || Du bør spise mere frugt. || Du bør + infinitive: spis → du bør spise. || @tags da.modal-verbs
+      tr: Don't drink coffee in the evening. || Lad være med at drikke kaffe om aftenen. | Drik ikke kaffe om aftenen. | Du skal ikke drikke kaffe om aftenen. | Du bør ikke drikke kaffe om aftenen. || Lad være med at… is the friendliest; with the imperative, ikke follows the verb. || @tags da.imperative,da.negation
+      ask: Give a friend who is always tired three pieces of advice. || kw: bør/skal/prøv at/lad være med at & sove/seng/kaffe/motion/telefon/gå/cykle || Du bør sove mere. Prøv at gå i seng klokken ti, og lad være med at drikke kaffe om aftenen.
+      write: Reply to a friend who writes "Jeg er altid træt og stresset" — give at least three pieces of advice. || min=40 || req: bør/skal | prøv at/lad være med at | sove/søvn/seng/motion || Hej Kim! Det lyder hårdt. Du bør sove mindst syv timer hver nat, og prøv at gå en tur i frokostpausen. Lad være med at tjekke mails om aftenen. Og du skal tale med din chef, hvis du har for meget arbejde. Knus, Sanne
+      dict: Min læge siger, at jeg bør sove mere.

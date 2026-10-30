@@ -1,0 +1,357 @@
+unit: 7
+title: Kultur und Unterhaltung
+theme: Culture and entertainment
+description: Review a film or series with relative clauses in the dative, talk about books and music with relative clauses after prepositions, and retell and recommend a story using was and wo.
+objectives:
+  - Use the relative pronouns dem, der, dem and denen in the dative
+  - Form relative clauses with a preposition (das Buch, von dem ich erzählt habe)
+  - Use was and wo as relative pronouns and retell a story in the Präteritum
+canDo:
+  - I can understand and write a short review of a film or series.
+  - I can talk about books, audiobooks and music I like and say why.
+  - I can retell a legend, a fairy tale or the plot of a film.
+  - I can recommend something to a friend and explain who it is good for.
+review: |
+  fill: Die Leute, ___ der Film gefallen hat, haben laut geklatscht. || denen || Gefallen takes the dative (der Film hat ihnen gefallen); the dative plural relative pronoun is denen. || @tags de.relative-clauses,de.dative
+  fill: Die Schauspielerin, ___ ich nach dem Film geschrieben habe, hat mir geantwortet! || der || Jemandem schreiben takes a dative person: ich habe ihr geschrieben → der (dative feminine). || @tags de.relative-clauses,de.dative
+  fill: Das ist das Konzert, auf ___ ich mich so freue. || das || Sich freuen auf + accusative; das Konzert is neuter: auf das. || @tags de.relative-clauses,de.prepositions
+  mc: "Der Sänger, ___ ich schwärme, kommt im Mai nach Köln." || *für den | für dem | den für || Schwärmen für + accusative; der Sänger is masculine: für den. The preposition always comes first. || @tags de.relative-clauses,de.prepositions
+  fill: Das ist alles, ___ ich über das Buch weiß. || was || After alles the relative pronoun is was. || @tags de.relative-clauses
+  mc: "Leipzig ist die Stadt, ___ im Frühling die Buchmesse stattfindet." || *wo | was | die || For a place, wo (= in der) introduces the relative clause. Was refers to alles, etwas, nichts or a whole idea; die would need a preposition (in der). || @tags de.relative-clauses
+  rw: Join the sentences with a relative clause :: Das ist der Autor. Ich habe mit ihm gesprochen. || Das ist der Autor, mit dem ich gesprochen habe. || Mit + dative: mit dem (der Autor, masculine). The verb habe goes to the end. || @tags de.relative-clauses,de.prepositions
+  tr: The series everyone is talking about is boring. || Die Serie, über die alle reden, ist langweilig. | Die Serie, über die alle sprechen, ist langweilig. | Die Serie, von der alle reden, ist langweilig. | Die Serie, von der alle sprechen, ist langweilig. || German can't end a clause with a preposition: über die / von der + verb at the end. || @tags de.relative-clauses,de.prepositions
+  listen: Ich lese gerade einen Krimi, in dem eine Köchin die Täterin ist. Das Ende hat mich total überrascht. || Who is the culprit in the crime novel? || A police officer | *A cook | A journalist || "In dem eine Köchin die Täterin ist." || @tags de.listening,de.relative-clauses
+  listen: Das Beste, was ich dieses Jahr gesehen habe, war ein kleines Theaterstück in einem Hinterhof in Köln. || What was the best thing the speaker saw this year? || A film at the cinema | *A small play in a courtyard in Cologne | A concert in a hall in Cologne || "Ein kleines Theaterstück in einem Hinterhof in Köln." || @tags de.listening,de.relative-clauses
+  ask: Recommend a film, a book or an album to a friend. Say what it is about and who it is good for, with one relative clause. || kw: empfehle/würde/solltest/musst & der/die/das/dem/den/denen/was || Ich empfehle dir den Film „Sommer in Lissabon“. Er erzählt von einer Frau, die mit sechzig noch einmal studiert. Er ist perfekt für alle, denen ruhige Filme gefallen.
+  write: Retell a fairy tale, a legend or the story of a film you like (70–90 words). Use the Präteritum and at least two relative clauses, one of them with was or a preposition. || min=60 || req: war/kam/ging/lebte/hatte/wollte/fand/sah | was/dem/der/den/denen | am ende/schließlich || Es war einmal ein armer Müller, der drei Söhne hatte. Als er starb, bekam der jüngste Sohn nur einen Kater. Aber der Kater war klug und hatte einen Plan, von dem niemand etwas wusste. Er fing Tiere und brachte sie dem König als Geschenk von seinem „Herrn“. Der König war begeistert. Alles, was der Kater tat, war für den jungen Mann. Am Ende heiratete der Sohn die Prinzessin, und der Kater lebte wie ein Graf.
+lessons:
+  - title: Reviewing a film or series
+    summary: Read a review of a TV series and write your own, describing characters with relative pronouns in the dative — dem, der, dem, denen.
+    minutes: 40
+    skills: [reading, grammar, writing]
+    tags: [de.relative-clauses, de.dative]
+    objectives:
+      - Use relative pronouns in the dative after verbs like helfen, gefallen and vertrauen
+      - Understand the structure of a review
+      - Describe characters, plot and your opinion of a series
+    intro: |
+      What makes a good series — the story, the characters, the pictures? In this lesson you will read a review of *Hafenlichter*, a (fictional) series set in Kiel, and learn how reviewers describe characters precisely: *eine Heldin, **der** nicht alles gelingt; Stammgäste, **denen** sie nicht vertraut*. These are relative clauses in the **dative**.
+    vocab: |
+      die Staffel | season (of a series) | n | Die zweite Staffel kommt im Herbst. | The second season comes out in the autumn. | g: f | pl: die Staffeln
+      die Folge | episode | n | Die Serie hat acht Folgen. | The series has eight episodes. | g: f | pl: die Folgen
+      die Handlung | plot; story | n | Die Handlung ist am Anfang etwas langsam. | The plot is a bit slow at the beginning. | g: f | pl: die Handlungen
+      die Hauptfigur | main character | n | Die Hauptfigur ist eine junge Lotsin. | The main character is a young harbour pilot. | g: f | pl: die Hauptfiguren | n: Also: die Hauptperson; der Held / die Heldin (hero/heroine).
+      die Rolle | role; part | n | Ole Petersen spielt die Rolle des Vaters. | Ole Petersen plays the role of the father. | g: f | pl: die Rollen | c: eine Rolle spielen; die Hauptrolle
+      spielen | to be set (in); to play | v | Die Serie spielt in Kiel. | The series is set in Kiel. | n: spielen in + place = to be set in.
+      die Kritik | review; criticism | n | Die Kritik in der Zeitung war sehr positiv. | The review in the paper was very positive. | g: f | pl: die Kritiken | n: Also: die Rezension (for books, films, music).
+      überzeugen | to convince | v | Die Schauspielerin überzeugt in jeder Szene. | The actress is convincing in every scene. | n: Inseparable: hat überzeugt. Adjective: überzeugend.
+      gelingen | to succeed; to work out | v | Nicht alles gelingt ihr beim ersten Mal. | Not everything works out for her the first time. | n: Takes a dative person: es gelingt mir. Perfekt: ist gelungen.
+      schwerfallen | to be difficult (for someone) | v | Über Gefühle zu sprechen fällt ihm schwer. | Talking about feelings is hard for him. | n: Takes a dative person: es fällt mir schwer. Separable: fiel … schwer.
+      das Ende | ending; end | n | Das Ende kam mir etwas zu schnell. | The ending came a bit too quickly for me. | g: n | pl: die Enden (rarely used) | n: Also: der Schluss.
+      bewerten | to rate | v | Ich bewerte die Serie mit vier von fünf Sternen. | I'm giving the series four out of five stars. | n: Noun: die Bewertung.
+    grammar:
+      title: "Relative pronouns in the dative: dem, der, dem, denen"
+      body: |
+        In Unit 1 you used relative pronouns in the nominative and accusative. When the relative pronoun is the **dative object** of the verb in the relative clause, it takes dative forms: **dem** (masculine), **der** (feminine), **dem** (neuter) and **denen** (plural).
+
+        You need them after verbs with a dative object, such as *helfen, danken, gefallen, gehören, glauben, vertrauen, gelingen, schwerfallen, begegnen*: *Merle ist eine Heldin, **der** nicht alles gelingt* (es gelingt **ihr** nicht alles).
+
+        Careful with the plural: the dative relative pronoun is **denen**, not *den*: *die Stammgäste, **denen** Merle nicht vertraut*.
+
+        The test from Unit 1 still works: turn the relative clause into a normal sentence with a pronoun. *Sie vertraut **ihnen** nicht* → dative plural → **denen**.
+      table: |
+        Case | masculine | feminine | neuter | plural
+        nominative | der | die | das | die
+        accusative | den | die | das | die
+        dative | dem | der | dem | denen
+      examples: |
+        Merle ist eine Heldin, der nicht alles gelingt. | Merle is a heroine for whom not everything works out. | gelingen + dative: der (f)
+        Ihr Vater, dem sie seit Jahren aus dem Weg geht, ist schwer krank. | Her father, whom she has been avoiding for years, is seriously ill. | aus dem Weg gehen + dative: dem (m)
+        Die Stammgäste, denen Merle nicht vertraut, sind herrlich witzig. | The regulars, whom Merle doesn't trust, are wonderfully funny. | dative plural: denen
+        Ich empfehle die Serie allen, denen ruhige Geschichten gefallen. | I recommend the series to everyone who likes quiet stories. | gefallen + dative: denen
+      tip: If the verb in the relative clause takes a dative (helfen, gefallen, vertrauen …), check the dative row — and remember denen for the plural.
+    reading:
+      title: "Serienkritik: Hafenlichter"
+      text: |
+        Hafenlichter – acht Folgen, eine Staffel
+
+        Merle Hansen, Mitte dreißig, arbeitet als Lotsin im Hamburger Hafen. Nach zehn Jahren muss sie plötzlich zurück nach Kiel: Ihr Vater, dem sie seit Jahren aus dem Weg geht, ist schwer krank. Jemand muss seine kleine Hafenkneipe „Zum Leuchtturm“ weiterführen – und dieser Jemand ist Merle.
+
+        Was die Serie so stark macht, sind die Figuren. Merle ist eine Heldin, der nicht alles gelingt: Sie ist ungeduldig, sie macht Fehler, und sie hat keine Ahnung vom Kochen. Genau das macht sie so sympathisch. Ihr Vater Jens ist ein Mann, dem es schwerfällt, über Gefühle zu sprechen. Ole Petersen spielt ihn großartig, oft ganz ohne Worte. Herrlich sind auch die Stammgäste, denen Merle am Anfang überhaupt nicht vertraut und die am Ende fast zu ihrer Familie werden.
+
+        Die Bilder vom Hafen bei Nacht sind wunderschön, und die Musik einer jungen Kieler Band passt perfekt. Nicht ganz überzeugt hat mich die Handlung in der Mitte: Die Folgen vier und fünf sind etwas langsam, und das Ende kam mir zu schnell.
+
+        Mein Fazit: Hafenlichter ist eine ruhige, warme Familiengeschichte mit viel Humor. Ich empfehle die Serie allen, denen große Actionszenen nicht so wichtig sind. Ich bewerte sie mit vier von fünf Sternen.
+      translation: |
+        Hafenlichter ("Harbour Lights") – eight episodes, one season
+
+        Merle Hansen, in her mid-thirties, works as a pilot in the port of Hamburg. After ten years she suddenly has to go back to Kiel: her father, whom she has been avoiding for years, is seriously ill. Someone has to keep his little harbour pub "The Lighthouse" going – and that someone is Merle.
+
+        What makes the series so strong are the characters. Merle is a heroine for whom not everything works out: she's impatient, she makes mistakes, and she has no idea about cooking. That's exactly what makes her so likeable. Her father Jens is a man who finds it hard to talk about feelings. Ole Petersen plays him brilliantly, often without any words at all. The regulars are wonderful too – Merle doesn't trust them at all at first, and by the end they have almost become her family.
+
+        The pictures of the harbour at night are beautiful, and the music by a young band from Kiel fits perfectly. I wasn't completely convinced by the plot in the middle: episodes four and five are a bit slow, and the ending came too quickly for me.
+
+        My verdict: Hafenlichter is a quiet, warm family story with lots of humour. I recommend the series to everyone for whom big action scenes aren't that important. I'm giving it four out of five stars.
+    pronunciation:
+      title: "dem, den, denen — and denn"
+      body: |
+        The relative pronouns *dem* [deːm], *den* [deːn] and *denen* [ˈdeːnən] all have a **long e**. Make the final consonant clear — *dem* ends with closed lips [m], *den* with the tongue behind the teeth [n]. That small difference tells the listener the case.
+
+        Don't confuse them with the conjunction *denn* [dɛn] (because), which has a **short e** — the double n shows it. In *denen* the stress is on the first syllable: ***DE**-nen*.
+      items: |
+        dem
+        den
+        denen
+        denn
+        die Leute, denen ich vertraue
+        eine Heldin, der nicht alles gelingt
+    culture:
+      title: Sunday night is Tatort night
+      body: |
+        Since 1970, millions of people in Germany have watched the *Tatort* crime series on Sunday evenings at 8:15 p.m. on ARD. Each episode is set in a different city with its own team of detectives, and many people watch it together in pubs or with friends. German series made for streaming services are also successful abroad — and newspapers and magazines regularly publish *Serienkritiken*.
+    mistakes: |
+      Die Freunde, den ich vertraue, sind immer für mich da. => Die Freunde, denen ich vertraue, sind immer für mich da. | Vertrauen takes the dative, and the dative plural relative pronoun is denen.
+      Der Mann, der ich geholfen habe, war sehr dankbar. => Der Mann, dem ich geholfen habe, war sehr dankbar. | Helfen takes the dative (ich habe ihm geholfen) → dem.
+      Die Serie, der mir gefallen hat, heißt „Hafenlichter“. => Die Serie, die mir gefallen hat, heißt „Hafenlichter“. | Here the series is the subject (sie hat mir gefallen), so the relative pronoun is nominative: die. Mir is the dative.
+    task:
+      title: Your review
+      mode: writing
+      body: |
+        Write a review (90–110 words) of a film or series you have seen recently for a German-language website. Include what it is about, one or two characters (use at least two relative clauses in the dative), what you liked and didn't like, a rating and who you would recommend it to.
+    exercises: |
+      fill: Merle ist eine Heldin, ___ nicht alles gelingt. || der || Gelingen + dative (es gelingt ihr nicht alles) → feminine dative: der. || @tags de.relative-clauses,de.dative
+      fill: Ihr Vater, ___ sie seit Jahren aus dem Weg geht, ist krank. || dem || Jemandem aus dem Weg gehen takes the dative → masculine dative: dem. || @tags de.relative-clauses,de.dative
+      fill: Die Stammgäste, ___ Merle nicht vertraut, sind sehr witzig. || denen || Vertrauen + dative, plural → denen. || @tags de.relative-clauses,de.dative
+      fill: Das Kind, ___ der Hund gehört, sucht ihn überall. || dem || Gehören + dative (der Hund gehört ihm) → neuter dative: dem. || @tags de.relative-clauses,de.dative
+      mc: "Das ist der Schauspieler, ___ ich gestern im Café begegnet bin." || den | *dem | denen || Begegnen takes the dative (ich bin ihm begegnet) → dem. Denen is plural. || @tags de.relative-clauses,de.dative
+      mc: "Ich mag Filme, ___ ein Happy End haben." || *die | denen | der || The films are the subject of the relative clause (sie haben ein Happy End), so you need the nominative plural: die. || @tags de.relative-clauses,de.nominative
+      rw: Join the sentences with a relative clause :: Das ist meine Nachbarin. Ich habe ihr die Serie empfohlen. || Das ist meine Nachbarin, der ich die Serie empfohlen habe. || Ihr (dative) → der; habe goes to the end. || @tags de.relative-clauses,de.dative
+      tf: Merle has always had a close relationship with her father. || false || She has been avoiding him for years: "dem sie seit Jahren aus dem Weg geht". || @ctx reading
+      mc: What didn't the reviewer like? || The music | *The slow middle episodes and the quick ending | The actor who plays the father || "Die Folgen vier und fünf sind etwas langsam, und das Ende kam mir zu schnell." || @ctx reading @skill reading
+      short: Who does the reviewer recommend the series to? || kw: action/actionszenen/ruhig/quiet/familie/family || To everyone for whom big action scenes aren't that important. || @ctx reading
+      listen: Der Film erzählt von einem alten Mann, dem niemand glaubt. Am Ende hat er aber recht. Mir hat besonders die Musik gefallen. || What did the speaker like most about the film? || The old man's story | *The music | The ending || "Mir hat besonders die Musik gefallen." || @tags de.listening,de.relative-clauses
+      tr: These are the friends I trust. || Das sind die Freunde, denen ich vertraue. | Das sind die Freundinnen, denen ich vertraue. || Vertrauen + dative; plural → denen. German needs the relative pronoun. || @tags de.relative-clauses,de.dative
+      dict: Merle ist eine Heldin, der nicht alles gelingt.
+      say: Ich empfehle die Serie allen, denen ruhige Geschichten gefallen. || I recommend the series to everyone who likes quiet stories.
+      write: Write a short review (80–100 words) of a film or series. Use two relative clauses in the dative and give a rating. || min=60 || req: dem/der/denen | ich empfehle/würde/empfehlen | sterne/sternen/punkte || Der Film „Die Brücke am Fluss“ spielt in einem kleinen Dorf in Österreich. Die Hauptfigur ist ein Bürgermeister, dem plötzlich niemand mehr glaubt. Seine Tochter, der er immer vertraut hat, kämpft gegen ihn. Die Schauspieler sind sehr gut, und die Landschaft ist wunderschön. Leider ist der Film zwanzig Minuten zu lang. Ich empfehle ihn allen, denen Familiendramen gefallen. Ich gebe ihm drei von fünf Sternen.
+
+  - title: Books and music
+    summary: Talk about books, audiobooks and bands you love with relative clauses after prepositions — die Band, von der ich dir erzählt habe.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.relative-clauses, de.prepositions]
+    objectives:
+      - Put the preposition before the relative pronoun and choose the right case
+      - Use prepositional verbs (warten auf, sich freuen auf) in relative clauses
+      - Talk about reading, listening and concerts
+    intro: |
+      English often ends a sentence with a preposition: "the band I told you *about*". German never does. Instead the preposition moves to the front of the relative clause: *die Band, **von der** ich dir erzählt habe*. In this lesson two friends meet in a bookshop in Leipzig and talk about a novel, an audiobook and a sold-out concert.
+    vocab: |
+      der Roman | novel | n | Der Roman erzählt die Geschichte einer Familie in Leipzig. | The novel tells the story of a family in Leipzig. | g: m | pl: die Romane | n: Not "romance"! Every long fictional story is a Roman.
+      die Autorin | author (female) | n | Die Autorin liest heute Abend in der Buchhandlung. | The author is reading in the bookshop this evening. | g: f | pl: die Autorinnen | n: Masculine: der Autor.
+      das Hörbuch | audiobook | n | Auf dem Weg zur Arbeit höre ich Hörbücher. | I listen to audiobooks on my way to work. | g: n | pl: die Hörbücher
+      die Buchhandlung | bookshop | n | In unserer Buchhandlung gibt es auch ein kleines Café. | Our bookshop also has a little café. | g: f | pl: die Buchhandlungen
+      die Buchmesse | book fair | n | Auf der Buchmesse habe ich mit der Autorin gesprochen. | I spoke to the author at the book fair. | g: f | pl: die Buchmessen
+      die Stimme | voice | n | Die Sprecherin hat eine wunderbare Stimme. | The narrator has a wonderful voice. | g: f | pl: die Stimmen
+      das Album | album | n | Ihr neues Album ist endlich da. | Their new album is finally out. | g: n | pl: die Alben
+      der Liedtext | (song) lyrics | n | Die Liedtexte sind auf Deutsch und sehr poetisch. | The lyrics are in German and very poetic. | g: m | pl: die Liedtexte
+      sich begeistern für | to be enthusiastic about | v | Für diese Band begeistere ich mich seit Jahren. | I've been crazy about this band for years. | n: für + accusative. Adjective: begeistert sein von.
+      schwärmen für | to be mad about; to adore | v | Mein Bruder schwärmt für die Sängerin. | My brother adores the singer. | n: für + accusative. Also: schwärmen von = to rave about.
+      ausverkauft | sold out | adj | Das Konzert war in zehn Minuten ausverkauft. | The concert sold out in ten minutes.
+      zum Trost | as a consolation | expr | Zum Trost schenke ich dir das Hörbuch. | As a consolation I'll give you the audiobook.
+    grammar:
+      title: "Relative clauses with prepositions: von dem, für die, auf das"
+      body: |
+        If the verb or phrase in the relative clause needs a **preposition** (*erzählen von, warten auf, sprechen mit, spielen in*), the preposition goes at the **start** of the relative clause, directly **before** the relative pronoun. It can never go to the end as in English.
+
+        The relative pronoun takes its **gender and number** from the noun it refers to and its **case** from the preposition:
+
+        - dative prepositions (*von, mit, bei, zu, aus*): *der Roman, **von dem** …; die Autorin, **mit der** …; die Freunde, **mit denen** …*
+        - accusative prepositions (*für, über, um*) and prepositional verbs with auf/über + accusative: *die Band, **für die** …; das Album, **auf das** ich gewartet habe*
+        - two-way prepositions: dative for "where?": *die Halle, **in der** sie spielen*
+
+        This is where the prepositional verbs from Unit 6 come in handy: *sich freuen auf → das Konzert, **auf das** ich mich freue*.
+      table: |
+        Noun | Verb / phrase | Relative clause
+        der Roman | erzählen von + dat. | der Roman, von dem ich dir erzählt habe
+        die Autorin | sprechen mit + dat. | die Autorin, mit der ich gesprochen habe
+        das Album | warten auf + acc. | das Album, auf das ich gewartet habe
+        die Band | sich begeistern für + acc. | die Band, für die ich mich begeistere
+        die Halle | spielen in + dat. (wo?) | die Halle, in der sie spielen
+        die Freunde | gehen mit + dat. | die Freunde, mit denen ich ins Konzert gehe
+      examples: |
+        Das ist der Roman, von dem ich dir erzählt habe! | That's the novel I told you about! | von + dative: dem
+        Die Autorin, mit der ich auf der Buchmesse gesprochen habe, war total sympathisch. | The author I talked to at the book fair was really nice. | mit + dative: der
+        Ihr neues Album, auf das ich ein Jahr gewartet habe, ist endlich da. | Their new album, which I waited a year for, is finally out. | warten auf + accusative: das
+        Die Halle, in der sie spielen, war in zehn Minuten ausverkauft. | The hall they're playing in sold out in ten minutes. | wo? → in + dative
+      tip: Find the preposition first (warten auf), then the gender of the noun (das Album) — auf das. The verb goes to the end as usual.
+    dialogue:
+      title: In der Buchhandlung
+      setting: A Saturday afternoon in a small bookshop with a café in Leipzig. Greta loves reading; her friend Hamid prefers music.
+      speakers: G=Greta/f; H=Hamid/m
+      lines: |
+        G: Schau mal, Hamid, das ist der Roman, von dem ich dir erzählt habe! | Look, Hamid, that's the novel I told you about!
+        H: Der über die Familie, die in den Achtzigern aus Vietnam nach Leipzig kam? | The one about the family who came from Vietnam to Leipzig in the eighties?
+        G: Genau. Die Autorin, mit der ich auf der Buchmesse gesprochen habe, war total sympathisch. | Exactly. The author I talked to at the book fair was really nice.
+        H: Ehrlich gesagt lese ich gerade kaum. Ich höre lieber Musik oder Hörbücher. | To be honest, I hardly read at the moment. I'd rather listen to music or audiobooks.
+        G: Das Buch gibt es bestimmt auch als Hörbuch. Die Schauspielerin, die es liest, hat eine tolle Stimme. | I'm sure the book is also available as an audiobook. The actress who reads it has a great voice.
+        H: Klingt gut. Übrigens, kennst du die Band, für die ich mich gerade so begeistere? | Sounds good. By the way, do you know the band I'm so excited about at the moment?
+        G: Die aus Hamburg, über die du ständig redest? „Nebelmeer“ oder so? | The one from Hamburg you keep talking about? "Nebelmeer" or something?
+        H: Genau! Ihr neues Album, auf das ich ein Jahr gewartet habe, ist endlich da. | Exactly! Their new album, which I waited a year for, is finally out.
+        G: Und hast du schon Karten für das Konzert, zu dem du unbedingt gehen willst? | And have you got tickets for the concert you're desperate to go to?
+        H: Leider nicht. Die Halle, in der sie spielen, war in zehn Minuten ausverkauft. | Unfortunately not. The hall they're playing in sold out in ten minutes.
+        G: Wie schade! Dann schenke ich dir zum Trost das Hörbuch. | What a pity! Then I'll give you the audiobook as a consolation.
+        H: Echt? Danke! Dann können wir endlich zusammen über ein Buch reden. | Really? Thanks! Then we can finally talk about a book together.
+    pronunciation:
+      title: "Commas you can hear: relative clauses in speech"
+      body: |
+        In speech, a relative clause is marked by a tiny pause and a change in melody. Before the comma the voice stays up a little; then the relative clause follows in one breath, with the main stress near its end: *Das ist der Roman, | von dem ich dir erZÄHLT habe.*
+
+        If the main sentence continues, there is a second small pause: *Die Halle, | in der sie SPIElen, | war ausverkauft.* Don't stress the relative pronoun — stress the important word in the clause.
+      items: |
+        der Roman
+        die Buchmesse
+        ausverkauft
+        das Hörbuch
+        die Band, für die ich mich begeistere
+        Das ist der Roman, von dem ich dir erzählt habe.
+    culture:
+      title: Book fairs and fixed book prices
+      body: |
+        Germany has two big book fairs: the *Frankfurter Buchmesse* every October, the largest in the world for publishers, and the *Leipziger Buchmesse* in spring, which comes with a city-wide reading festival, *Leipzig liest*. New books have a fixed price by law (*Buchpreisbindung*): a novel costs the same in a small bookshop as online, which helps many independent bookshops to survive.
+    mistakes: |
+      Das ist die Band, die ich dir von erzählt habe. => Das ist die Band, von der ich dir erzählt habe. | The preposition can't go at the end; it comes first, before the relative pronoun in the right case.
+      Der Roman, von den ich erzählt habe, ist toll. => Der Roman, von dem ich erzählt habe, ist toll. | Von always takes the dative: masculine dem.
+      Die Halle, in die sie spielen, ist riesig. => Die Halle, in der sie spielen, ist riesig. | Spielen in answers "where?", so in takes the dative: in der.
+    task:
+      title: Recommend it!
+      mode: interaction
+      body: |
+        Tell a friend about a book, an audiobook or an album you love and one you didn't like. Use at least three relative clauses with prepositions (das Buch, von dem …; die Sängerin, für die …; das Konzert, auf das …). Then continue the conversation about your free time with the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: Das ist der Roman, von ___ ich dir erzählt habe. || dem || Von + dative; der Roman is masculine → von dem. || @tags de.relative-clauses,de.prepositions
+      fill: Die Autorin, mit ___ ich gesprochen habe, war sehr nett. || der || Mit + dative; die Autorin is feminine → mit der. || @tags de.relative-clauses,de.prepositions
+      fill: Das Album, auf ___ ich ein Jahr gewartet habe, ist endlich da. || das || Warten auf + accusative; das Album is neuter → auf das. || @tags de.relative-clauses,de.prepositions
+      mc: "That's the band I'm mad about." || *Das ist die Band, für die ich schwärme. | Das ist die Band, die ich für schwärme. | Das ist die Band, für der ich schwärme. || Schwärmen für + accusative: the preposition comes first, then the feminine accusative pronoun die. || @tags de.relative-clauses,de.prepositions
+      mc: "Die Halle, ___ sie spielen, ist ausverkauft." || *in der | in die | in den || Where do they play? → in + dative; die Halle is feminine → in der. || @tags de.relative-clauses,de.two-way-prepositions
+      rw: Join the sentences with a relative clause :: Das ist die Sängerin. Ich habe dir von ihr erzählt. || Das ist die Sängerin, von der ich dir erzählt habe. || Von ihr → von der; habe goes to the end. || @tags de.relative-clauses,de.prepositions
+      rw: Join the sentences with a relative clause :: Ich höre das Hörbuch. Ich habe mich so darauf gefreut. || Ich höre das Hörbuch, auf das ich mich so gefreut habe. || Darauf refers to das Hörbuch → auf das. || @tags de.relative-clauses,de.prepositions
+      tf: Hamid already has tickets for the concert. || false || "Leider nicht. Die Halle, in der sie spielen, war in zehn Minuten ausverkauft." || @ctx dialogue
+      short: What does Greta give Hamid as a consolation? || kw: hörbuch/audiobook/audio book || "Dann schenke ich dir zum Trost das Hörbuch." || @ctx dialogue
+      listen: @dialogue || Where did Greta talk to the author? || In the bookshop | *At the book fair | At a concert || "Die Autorin, mit der ich auf der Buchmesse gesprochen habe …"
+      listen: Das Lied, bei dem ich immer weinen muss, ist von meiner Lieblingssängerin. Sie singt darin über ihre Kindheit am Meer. || What is the song about? || A broken heart | *The singer's childhood by the sea | A journey to the sea with friends || "Sie singt darin über ihre Kindheit am Meer." || @tags de.listening,de.relative-clauses
+      tr: That's the book I told you about. || Das ist das Buch, von dem ich dir erzählt habe. | Das ist das Buch, über das ich dir erzählt habe. | Das ist das Buch, von dem ich dir berichtet habe. || The preposition goes before the relative pronoun: von dem (dative). || @tags de.relative-clauses,de.prepositions
+      dict: Die Autorin, mit der ich gesprochen habe, war sehr sympathisch.
+      ask: Describe a book or a song you love using a relative clause with a preposition. || kw: von dem/von der/für den/für die/für das/auf den/auf die/auf das/mit dem/mit der/über den/über die/über das/in dem/in der/bei dem/bei der/zu dem/zu der || Mein Lieblingsbuch ist ein Roman, in dem eine alte Frau mit dem Fahrrad durch Europa fährt. Das ist ein Buch, über das ich stundenlang reden könnte.
+
+  - title: Recommending and retelling a story
+    summary: Retell a famous German legend and recommend stories, films and places, with was and wo as relative pronouns.
+    minutes: 40
+    skills: [listening, grammar, speaking]
+    tags: [de.relative-clauses, de.praeteritum]
+    objectives:
+      - Use was after alles, etwas, nichts and superlatives (das Beste, was …)
+      - Use wo for places in relative clauses
+      - Retell a story in the Präteritum and recommend it
+    intro: |
+      Every culture has stories that everyone knows. In this lesson Lukas tells his friend Inés, a teacher from Mexico, the legend of the **Pied Piper of Hamelin** while they walk through the town. You will practise retelling a story in the Präteritum and learn two more relative words: ***was*** (*alles, **was** du weißt*) and ***wo*** (*die Straße, **wo** man sie zuletzt sah*).
+    vocab: |
+      die Sage | legend; saga | n | Kennst du die Sage vom Rattenfänger? | Do you know the legend of the Pied Piper? | g: f | pl: die Sagen | n: A Sage is set in a real place; a Märchen usually isn't.
+      das Märchen | fairy tale | n | Die Brüder Grimm haben viele Märchen gesammelt. | The Brothers Grimm collected many fairy tales. | g: n | pl: die Märchen | n: Märchen often begin with "Es war einmal …" (Once upon a time …).
+      nacherzählen | to retell | v | Kannst du die Geschichte kurz nacherzählen? | Can you retell the story briefly? | n: Separable: hat nacherzählt.
+      versprechen | to promise | v | Die Bürger versprachen ihm viel Geld. | The citizens promised him a lot of money. | n: Irregular: versprach, hat versprochen.
+      befreien | to free; to rid | v | Er wollte die Stadt von den Ratten befreien. | He wanted to rid the town of the rats. | c: jemanden von etwas befreien
+      folgen | to follow | v | Alle Ratten folgten ihm in den Fluss. | All the rats followed him into the river. | n: Takes the dative and sein in the Perfekt: sie sind ihm gefolgt.
+      verschwinden | to disappear | v | Die Kinder verschwanden für immer. | The children disappeared for ever. | n: Irregular, with sein: verschwand, ist verschwunden.
+      der Bürger | citizen; townsperson | n | Die Bürger von Hameln hielten ihr Versprechen nicht. | The citizens of Hamelin didn't keep their promise. | g: m | pl: die Bürger | n: Feminine: die Bürgerin.
+      unheimlich | spooky; eerie | adj | Das Ende der Geschichte ist ziemlich unheimlich. | The end of the story is quite spooky. | n: In everyday speech also "incredibly": unheimlich nett.
+      die Moral | moral (of a story) | n | Die Moral der Geschichte: Halte deine Versprechen! | The moral of the story: keep your promises! | g: f | pl: (no plural in this meaning)
+      empfehlen | to recommend | v | Ich kann dir einen Ausflug nach Hameln nur empfehlen. | I can really recommend a trip to Hamelin. | n: Irregular: du empfiehlst, empfahl, hat empfohlen. Takes a dative person.
+      sich lohnen | to be worth it | v | Die Altstadt lohnt sich wirklich. | The old town is really worth it. | c: Es lohnt sich, … zu …
+    grammar:
+      title: "was and wo as relative pronouns"
+      body: |
+        After a **noun**, a relative clause starts with der, die, das (or a preposition + pronoun). But after certain words, German uses **was** instead:
+
+        - after **alles, etwas, nichts, vieles, weniges**: *Erzähl mir **alles, was** du weißt!*
+        - after a **superlative used as a noun**: *Das ist **das Dümmste, was** man machen kann.*
+        - after **das** (meaning "the thing"): *Sie bezahlten ihm **das, was** sie versprochen hatten, nicht.*
+        - to refer to a **whole sentence**: *Er kam nie zurück, **was** alle traurig machte.*
+
+        For **places**, you can use **wo** instead of in + dative pronoun: *die Straße, **wo** man sie zuletzt sah* (= in der man sie zuletzt sah). After town and country names, *wo* is the normal choice: *Hameln, **wo** die Sage spielt*.
+
+        **Retelling a story**: legends, fairy tales and your own stories are told in the **Präteritum**. To summarise the plot of a film or book, German usually uses the **present tense**: *Der Film erzählt von einem Mann, der …*
+      table: |
+        After … | Relative word | Example
+        alles, etwas, nichts | was | Das ist alles, was ich weiß.
+        superlative noun | was | Das ist das Beste, was ich je gelesen habe.
+        das (the thing) | was | Sie bekam nicht das, was sie wollte.
+        a whole sentence | was | Er kam zu spät, was mich ärgerte.
+        a place | wo | Das ist die Stadt, wo ich geboren bin.
+        a noun | der/die/das | Das ist die Sage, die ich meine.
+      examples: |
+        Erzähl mir alles, was du über die Sage weißt! | Tell me everything you know about the legend! | alles → was
+        Das ist wirklich das Dümmste, was man machen kann! | That really is the stupidest thing you can do! | superlative → was
+        Die Straße, wo man sie zuletzt sah, heißt Bungelosenstraße. | The street where they were last seen is called Bungelosenstraße. | place → wo
+        Das ist etwas, was ich unbedingt meinen Schülern erzählen will. | That's something I really want to tell my students. | etwas → was
+      tip: After alles, etwas and nichts, think "was" — after a normal noun, think "der, die, das".
+    dialogue:
+      title: Der Rattenfänger von Hameln
+      setting: A sunny afternoon in the old town of Hamelin (Hameln) in Lower Saxony. Inés, a primary school teacher from Mexico, is visiting her friend Lukas.
+      speakers: I=Inés/f; L=Lukas/m
+      lines: |
+        I: Warum gibt es hier überall Ratten? Auf Schildern, als Brot, sogar auf dem Boden! | Why are there rats everywhere here? On signs, as bread, even on the ground!
+        L: Das hat mit der Sage vom Rattenfänger zu tun. Kennst du sie nicht? | That's to do with the legend of the Pied Piper. Don't you know it?
+        I: Nur ein bisschen. Erzähl mir alles, was du weißt! | Only a little. Tell me everything you know!
+        L: Also: Der Sage nach gab es in Hameln im Jahr 1284 eine schreckliche Rattenplage. | Well: according to the legend, Hamelin had a terrible plague of rats in 1284.
+        L: Eines Tages kam ein Mann in bunter Kleidung und versprach, die Stadt zu befreien. | One day a man in colourful clothes came and promised to rid the town of them.
+        I: Und was wollte er dafür haben? | And what did he want for it?
+        L: Viel Geld. Er spielte auf seiner Flöte, und alle Ratten folgten ihm in die Weser. | A lot of money. He played his pipe, and all the rats followed him into the River Weser.
+        L: Aber die Bürger wollten ihm das, was sie versprochen hatten, nicht bezahlen. | But the citizens didn't want to pay him what they had promised.
+        I: Das ist wirklich das Dümmste, was man machen kann! Und dann? | That really is the stupidest thing you can do! And then?
+        L: Er kam zurück, spielte wieder – und diesmal folgten ihm 130 Kinder aus der Stadt. | He came back, played again – and this time 130 children from the town followed him.
+        L: Die Straße, wo man sie zuletzt sah, heißt Bungelosenstraße. Dort macht bis heute niemand Musik. | The street where they were last seen is called Bungelosenstraße. To this day nobody plays music there.
+        I: Unheimlich! Das ist etwas, was ich unbedingt meinen Schülern erzählen will. | Spooky! That's something I really want to tell my pupils.
+    pronunciation:
+      title: "w is [v]: was, wo, Weser"
+      body: |
+        The German letter **w** is always pronounced [v], like English *v*: *was* [vas], *wo* [voː], *wohin, die Weser, das Wunder*. Don't round your lips as for English *w*.
+
+        The letter **v**, on the other hand, usually sounds like [f] in German words: *versprechen, verschwinden, viel* [fiːl]. Practise the pair *wo – vor* and the sentence slowly.
+      items: |
+        was
+        wohin
+        die Weser
+        versprechen
+        alles, was du weißt
+        Das ist etwas, was ich erzählen will.
+    culture:
+      title: The Fairy Tale Route
+      body: |
+        In 1812 the brothers Jacob and Wilhelm Grimm published the first volume of their *Kinder- und Hausmärchen*, with stories such as *Hänsel und Gretel*, *Rotkäppchen* and *Aschenputtel*. Today the *Deutsche Märchenstraße* (German Fairy Tale Route) leads about 600 kilometres from Hanau, where the brothers were born, to Bremen, passing many places connected with fairy tales and legends.
+
+        Hamelin is one of the stops: in summer the story of the Pied Piper is performed in the old town, and you can buy bread rats and rat-shaped sweets everywhere.
+    mistakes: |
+      Das ist alles, das ich weiß. => Das ist alles, was ich weiß. | After alles, etwas and nichts, the relative pronoun is was.
+      Das war das Schönste, das ich je gesehen habe. => Das war das Schönste, was ich je gesehen habe. | After a superlative used as a noun, use was.
+      Ich empfehle dir den Film, was ich gestern gesehen habe. => Ich empfehle dir den Film, den ich gestern gesehen habe. | After a normal noun (der Film), use der/die/das in the right case — was doesn't refer to nouns.
+    task:
+      title: A story from home
+      mode: speaking
+      body: |
+        Retell a legend, a fairy tale or a well-known story from your country in 8–10 sentences, in the Präteritum. Use at least two relative clauses with was or wo (alles, was …; die Stadt, wo …). Finish by recommending the story or a place connected with it: "Ich kann dir … nur empfehlen, weil …". Record yourself in Speaking practice.
+    exercises: |
+      fill: Erzähl mir alles, ___ du über die Sage weißt! || was || After alles, the relative pronoun is was. || @tags de.relative-clauses
+      fill: Das ist das Schönste, ___ ich je gelesen habe. || was || After a superlative used as a noun (das Schönste), use was. || @tags de.relative-clauses
+      fill: Hameln ist die Stadt, ___ der Rattenfänger die Kinder aus der Stadt lockte. || wo / in der || For a place, use wo (or in der). || @tags de.relative-clauses
+      fill: Gibt es etwas, ___ du mir empfehlen kannst? || was / das || After etwas, was is the usual relative pronoun (das is also possible). || @tags de.relative-clauses
+      mc: "Ich empfehle dir den Film, ___ ich gestern gesehen habe." || *den | was | wo || After a normal noun use der/die/das: der Film, masculine accusative → den. || @tags de.relative-clauses,de.accusative
+      mc: "Ich glaube nicht alles, ___ in der Zeitung steht." || *was | das | den || After alles, the relative pronoun is was. || @tags de.relative-clauses
+      rw: Put the story into the Präteritum :: Der Mann spielt auf seiner Flöte, und alle Ratten folgen ihm. || Der Mann spielte auf seiner Flöte, und alle Ratten folgten ihm. || Regular verbs: spielte, folgten. Legends are told in the Präteritum. || @tags de.praeteritum
+      tf: The citizens paid the piper the money they had promised. || false || "Aber die Bürger wollten ihm das, was sie versprochen hatten, nicht bezahlen." || @ctx dialogue
+      short: How many children followed the piper? || kw: 130/hundertdreißig/einhundertdreißig || "Diesmal folgten ihm 130 Kinder aus der Stadt." || @ctx dialogue
+      listen: @dialogue || What is special about the Bungelosenstraße today? || *Nobody plays music there. | There is a statue of the piper. | It's where the piper was born. || "Dort macht bis heute niemand Musik."
+      listen: Mein Lieblingsmärchen ist „Hänsel und Gretel“. Alles, was die beiden Kinder im Wald erleben, ist spannend, aber auch ein bisschen unheimlich. || How does the speaker describe the fairy tale? || Funny and short | *Exciting but a bit spooky | Sad and boring || "Spannend, aber auch ein bisschen unheimlich." || @tags de.listening,de.relative-clauses
+      tr: That's something I'd like to recommend to you. || Das ist etwas, was ich dir empfehlen möchte. | Das ist etwas, das ich dir empfehlen möchte. | Das ist etwas, was ich dir gern empfehlen möchte. | Das ist etwas, was ich dir empfehlen würde. || After etwas → was (or das); the modal verb goes to the end. || @tags de.relative-clauses
+      dict: Erzähl mir alles, was du über die Geschichte weißt!
+      ask: Retell a short story you know (a fairy tale, a legend or a film) in four or five sentences. || kw: was/wo/der/die/das/dem/den & war/kam/ging/lebte/hatte/wollte/fand/sah/sagte/spielte || Es war einmal ein Mädchen, das bei seiner Großmutter im Wald lebte. Eines Tages kam ein Wolf, der sehr hungrig war. Alles, was das Mädchen sagte, war ihm egal. Am Ende rettete ein Jäger die beiden.

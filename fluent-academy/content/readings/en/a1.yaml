@@ -1,0 +1,360 @@
+- slug: new-classmates
+  kind: reading
+  title: My new classmates
+  topic: Greetings and introductions
+  summary: A teacher's class blog introduces four new students — their names, countries, ages and languages.
+  free: true
+  text: |
+    Hello, everyone! I'm Ms. Carter, and I'm the teacher of the Monday evening English class in Toronto. This month we've got four new students. Please say hello!
+
+    Kwame is from Ghana. He's twenty, and he's a student at the university. He speaks English and Twi, and a little French.
+
+    Ana and Pablo are from Mexico. They aren't brother and sister — they're friends from the same city, Puebla. Ana is nineteen and Pablo is eighteen. They speak Spanish and a little English.
+
+    Yuna is from South Korea. She's seventeen, and she's our youngest student. She speaks Korean, English and a little Japanese. Her favorite word in English is "awesome"!
+
+    Welcome to the class, Kwame, Ana, Pablo and Yuna. Nice to meet you!
+  glossary: |
+    classmate | a person in your class
+    blog | a website where someone writes short texts, like a diary
+    this month | the month we are in now
+    university | a big school for adults, after high school
+    the same | not different
+    youngest | the most young; with the fewest years
+    awesome | very, very good | informal
+    welcome | words you say to someone new: we are happy you are here
+  questions: |
+    mc: Where is the English class? || Ghana | *Toronto | Mexico || "I'm the teacher of the Monday evening English class in Toronto."
+    tf: Ana and Pablo are brother and sister. || false || "They aren't brother and sister — they're friends."
+    short: How old is Kwame? || kw: 20/twenty || "He's twenty."
+    fill: Yuna is from South ___. || Korea || "Yuna is from South Korea."
+    mc: Who is the youngest student? || Pablo | *Yuna | Kwame || "She's seventeen, and she's our youngest student."
+    tf: Kwame speaks three languages. || true || He speaks English, Twi and a little French.
+
+- slug: meet-my-family
+  kind: reading
+  title: Meet my family
+  topic: Family and people
+  summary: Leila writes to her new pen pal about the people in her family — their ages, looks and jobs.
+  text: |
+    Hi Sam,
+
+    Thanks for your email! Now it's my turn. My name's Leila, I'm nineteen, and I live in Austin, Texas, with my parents and my little brother.
+
+    My mom, Nadia, is a doctor. She's tall and she's got short black hair. She's very kind, but she's always busy! My dad, Omar, is a teacher at a high school. He's got a beard and glasses, and he's really funny.
+
+    My brother's name is Adam. He's twelve, and he's got curly hair, like me. He loves soccer and video games.
+
+    I've got one aunt and two cousins in Canada. My aunt's husband is Canadian. Their children, Maya and Leo, are eight and ten. They're very cute!
+
+    And you? Have you got any brothers or sisters? What do your parents do?
+
+    Write soon!
+    Leila
+  glossary: |
+    pen pal | a friend you write to, often in another country | British English: pen friend
+    it's my turn | now it is my time to do it (here: to write)
+    little brother | a brother who is younger than you
+    kind | nice and good to other people
+    busy | with a lot of things to do
+    high school | a school for students from about 14 to 18
+    like me | the same as me
+    cute | pretty and sweet, often for children or animals
+    Write soon! | a friendly way to end an email: please write back quickly
+  questions: |
+    mc: What is Leila's mom's job? || teacher | *doctor | nurse || "My mom, Nadia, is a doctor."
+    tf: Leila's dad has got a beard. || true || "He's got a beard and glasses."
+    fill: Adam is Leila's ___. || brother || "My brother's name is Adam."
+    short: Where do Leila's cousins live? || kw: Canada || "I've got one aunt and two cousins in Canada."
+    mc: How old are Maya and Leo? || 8 and 12 | *8 and 10 | 10 and 12 || "Their children, Maya and Leo, are eight and ten."
+    tf: Leila has got straight hair. || false || Adam has got curly hair "like me", so Leila's hair is curly too.
+
+- slug: working-nights
+  kind: reading
+  title: Breakfast at two, lunch at midnight
+  topic: Time and daily routine
+  summary: A short magazine article about Rosa, a nurse who works at night, and her unusual daily routine.
+  text: |
+    Rosa Díaz is a nurse at a big hospital in Miami. Her day is very different from your day — because she works at night!
+
+    Rosa usually gets up at two o'clock in the afternoon. She has breakfast at half past two: eggs, fruit and a big coffee. Then she often goes to the gym or takes her dog to the park.
+
+    She starts work at seven p.m. and finishes at seven in the morning. At midnight she has lunch with the other nurses. "Lunch at midnight is normal for us!" she says.
+
+    Rosa gets home at about eight a.m. She takes a shower, reads a little and goes to bed at nine. She never drinks coffee after midnight, and she always turns off her phone in the morning.
+
+    Rosa works four nights a week, from Monday to Thursday. On the weekend she sleeps at night, like everybody else. "Sunday is my favorite day," she says. "I have dinner with my family — at a normal time!"
+  glossary: |
+    different from | not the same as
+    at night | when it is dark, in the night
+    gym | a place where people do exercise
+    normal | usual; what most people do
+    turn off | to stop a machine, a light or a phone
+    four nights a week | on four nights every week
+    like everybody else | the same as all other people
+  questions: |
+    mc: Where does Rosa work? || in a gym | *in a hospital | in a park || "Rosa Díaz is a nurse at a big hospital in Miami."
+    fill: Rosa usually gets up at two o'clock in the ___. || afternoon || "Rosa usually gets up at two o'clock in the afternoon."
+    tf: Rosa has lunch at noon. || false || She has lunch at midnight with the other nurses.
+    short: What time does Rosa finish work? || kw: 7/seven || "She starts work at seven p.m. and finishes at seven in the morning."
+    mc: How often does Rosa drink coffee after midnight? || always | sometimes | *never || "She never drinks coffee after midnight."
+    tf: Rosa works on Friday nights. || false || She works from Monday to Thursday.
+
+- slug: welcome-to-maple-court
+  kind: reading
+  title: Welcome to Maple Court!
+  topic: Town and home
+  summary: A welcome note for new people in an apartment building describes the building and the places near it.
+  text: |
+    Welcome to Maple Court!
+
+    Maple Court is a quiet apartment building on Maple Street. There are twenty apartments on five floors. The elevator is next to the front door, and the mailboxes are opposite the elevator.
+
+    All the apartments have got a living room, a kitchen, a bathroom and one or two bedrooms. There's a washing machine in the basement. Please don't use it after 10 p.m.!
+
+    Places near the building:
+    There's a supermarket on the corner of Maple Street and Second Avenue. It opens at 7 a.m.
+    The bus stop is in front of the building. The number 14 bus goes downtown.
+    There are two cafés and a pharmacy on Second Avenue.
+    There isn't a park on our street, but there's a big park behind the school. Go straight down Maple Street and turn left at the traffic lights. The park is on the right.
+
+    Any questions? Call the building manager, Mr. Ortiz, at 555-0137.
+  glossary: |
+    apartment building | a big building with a lot of apartments | British English: block of flats
+    quiet | with very little noise
+    mailbox | a box where the mail carrier puts your letters | British English: letterbox
+    basement | the floor of a building under the ground
+    washing machine | a machine that washes clothes
+    avenue | a wide street in a city
+    downtown | the center of a city | British English: the city centre
+    building manager | the person who takes care of a building
+  questions: |
+    mc: Where is the elevator? || opposite the front door | *next to the front door | in the basement || "The elevator is next to the front door."
+    tf: There are twenty apartments in the building. || true || "There are twenty apartments on five floors."
+    fill: The washing machine is in the ___. || basement || "There's a washing machine in the basement."
+    mc: Where is the big park? || on Maple Street | *behind the school | next to the supermarket || "There's a big park behind the school."
+    short: What time does the supermarket open? || kw: 7/seven || "It opens at 7 a.m."
+    tf: There's a pharmacy on Maple Street. || false || The pharmacy is on Second Avenue.
+
+- slug: weekend-sale
+  kind: reading
+  title: Big weekend sale!
+  topic: Shopping
+  summary: An ad for a weekend sale at a clothes store, with prices, sizes and opening hours.
+  text: |
+    City Style — big weekend sale! Saturday and Sunday only.
+
+    Are your clothes old and boring? Come to City Style this weekend! Everything is on sale.
+
+    Jeans for women and men: only $30 (usually $45).
+    T-shirts in all colors: $10, or three for $25.
+    Warm winter jackets: only $60 (usually $90).
+    Sweaters in green, gray and red: only $35.
+    Children's shoes: $25 a pair.
+
+    We've got all sizes, from extra small to extra large. You can try everything on — the fitting rooms are next to the front door. You can pay in cash or by card.
+
+    We're open on Saturday from 9 a.m. to 8 p.m. and on Sunday from 10 a.m. to 6 p.m. You can find us at 210 Main Street, opposite the train station.
+
+    Bring this ad and get a free bag!
+  glossary: |
+    sale | a time when a store sells things at lower prices
+    boring | not interesting
+    everything | all the things
+    usually | most times; here, the normal price
+    a pair | two things that go together, like two shoes
+    fitting room | a small room in a store where you try on clothes | British English: changing room
+    free | costing no money
+    ad | a short text or picture that asks people to buy something | Short for advertisement.
+  questions: |
+    mc: How much are the jeans this weekend? || $45 | *$30 | $25 || "Jeans for women and men: only $30 (usually $45)."
+    fill: Three T-shirts cost $___. || 25 / twenty-five || "T-shirts in all colors: $10, or three for $25."
+    tf: The sale is on Friday, Saturday and Sunday. || false || The sale is on Saturday and Sunday only.
+    mc: What colors are the sweaters? || black, white and blue | *green, gray and red | all colors || "Sweaters in green, gray and red."
+    short: Where is the store? || kw: Main Street/opposite/station || "210 Main Street, opposite the train station."
+    tf: You can pay by card. || true || "You can pay in cash or by card."
+
+- slug: postcard-from-dublin
+  kind: reading
+  title: A postcard from Dublin
+  topic: Free time and weather
+  summary: Marta writes a postcard to her grandparents about the weather and what she is doing on her trip to Ireland.
+  text: |
+    Dear Grandma and Grandpa,
+
+    Greetings from Dublin! I'm sitting in a café in the city center, and I'm drinking a big hot chocolate. It's three o'clock in the afternoon, and it's raining — again! The weather here is crazy. In the morning it's sunny, then it's cloudy and windy, and then it rains. People here always carry an umbrella.
+
+    But I love Dublin. The people are very friendly. Every morning I go to an English class, and in the afternoon I visit museums or walk in the parks. I'm taking a lot of photos for you!
+
+    At the moment my friend Sinéad is sitting next to me. She's writing a postcard to her mom. Tomorrow we're going to take a bus to the sea. I hope it's sunny!
+
+    Lots of love,
+    Marta
+  glossary: |
+    postcard | a card with a picture, for a short message from a trip
+    Greetings from… | hello from (a place) — common on postcards
+    again | one more time
+    crazy | very strange; not normal | informal
+    carry | to have something in your hand or bag when you go somewhere
+    friendly | nice and kind to other people
+    the sea | a very big area of salt water
+    Lots of love | a friendly way to end a letter to family or close friends
+  questions: |
+    mc: What is Marta doing now? || walking in a park | *sitting in a café | taking a bus || "I'm sitting in a café in the city center."
+    tf: It's sunny in Dublin at the moment. || false || "It's raining — again!"
+    fill: Every morning Marta goes to an English ___. || class || "Every morning I go to an English class."
+    short: What is Sinéad doing? || kw: writing/postcard || "She's writing a postcard to her mom."
+    mc: What are Marta and Sinéad going to do tomorrow? || visit a museum | *take a bus to the sea | go to an English class || "Tomorrow we're going to take a bus to the sea."
+    tf: Marta doesn't like Dublin. || false || She says, "But I love Dublin."
+
+- slug: lunch-at-the-cafe
+  kind: listening
+  title: Lunch at the café
+  topic: Food and drink
+  summary: Two friends order lunch at a café. Listen for what they order and how much it costs.
+  free: true
+  speakers: W=Nina/f; T=Tariq/m; E=Elena/f
+  text: |
+    W: Hi there! Are you ready to order?
+    T: Yes, please. What soups have you got today?
+    W: We've got tomato soup and chicken soup.
+    T: I'd like the tomato soup, please.
+    W: Would you like some bread with it?
+    T: Yes, please.
+    E: And can I have a cheese sandwich?
+    W: Sorry, we haven't got any cheese today.
+    E: Oh no! Have you got any salads?
+    W: Yes, a green salad and a chicken salad.
+    E: The green salad, please. And an orange juice.
+    W: Anything to drink for you, sir?
+    T: Just water, thanks.
+    W: OK. One soup with bread, one green salad, an orange juice and a water.
+    E: How much is that?
+    W: That's nineteen dollars, please.
+  glossary: |
+    Are you ready to order? | Do you know what you want to eat and drink?
+    tomato soup | a hot soup made with tomatoes
+    Would you like…? | a polite offer
+    we haven't got any | we have no…
+    Anything to drink? | Do you want a drink?
+    sir | a polite word for a man you don't know
+    just | only
+  questions: |
+    mc: What soup does Tariq order? || chicken soup | *tomato soup | vegetable soup || "I'd like the tomato soup, please."
+    tf: Elena orders a cheese sandwich. || false || The café hasn't got any cheese, so she orders a green salad.
+    fill: Elena wants an orange ___ to drink. || juice || "The green salad, please. And an orange juice."
+    short: What does Tariq drink? || kw: water || "Just water, thanks."
+    mc: How much is the lunch? || $9 | *$19 | $90 || "That's nineteen dollars, please."
+
+- slug: new-shoes
+  kind: listening
+  title: New running shoes
+  topic: Shopping
+  summary: A customer looks for running shoes in a store. Listen for the size, the color and the price.
+  speakers: S=Sara/f; J=James/m
+  text: |
+    S: Hi! Can I help you?
+    J: Yes, please. I'm looking for some running shoes.
+    S: OK. What size are you?
+    J: Ten, I think.
+    S: How about these blue shoes? They're very popular.
+    J: Hmm. Have you got them in black?
+    S: Yes, we have. Here you are. Size ten.
+    J: Thanks. Can I try them on?
+    S: Of course. Sit here.
+    J: Oh, they're too small. Have you got an eleven?
+    S: Let me look… Yes! Here's an eleven.
+    J: Perfect. These fit. How much are they?
+    S: They're on sale. Only sixty-five dollars.
+    J: Great! Can I pay by card?
+    S: Sure.
+  glossary: |
+    running shoes | shoes for running and sports | British English: trainers
+    popular | liked by a lot of people
+    Have you got them in black? | Do you have the same shoes in black?
+    try them on | put them on to see if they're OK
+    Let me look. | Wait a moment — I'm going to check.
+    fit | to be the right size
+    on sale | at a lower price than usual
+  questions: |
+    mc: What does James want? || a blue jacket | *running shoes | black jeans || "I'm looking for some running shoes."
+    tf: James buys the blue shoes. || false || He asks, "Have you got them in black?" and he tries the black shoes.
+    mc: What size are the shoes that fit? || 9 | 10 | *11 || Size ten is too small; the eleven fits.
+    fill: The shoes cost ___ dollars. || sixty-five / 65 || "They're on sale. Only sixty-five dollars."
+    short: How does James pay? || kw: card || "Can I pay by card?" — "Sure."
+
+- slug: saturday-plans
+  kind: listening
+  title: What about Saturday?
+  topic: Free time and weather
+  summary: Two friends talk about the weather on the phone and make a plan for Saturday.
+  speakers: L=Lucy/f; B=Bruno/m
+  text: |
+    L: Hi, Bruno! What are you doing?
+    B: Hi, Lucy. I'm watching a movie at home.
+    L: It's raining here. Is it raining there?
+    B: Yes, it's raining and it's very windy.
+    L: Are you free on Saturday?
+    B: Yes, I am. Why?
+    L: Let's go to the beach!
+    B: But the weather is terrible!
+    L: Not on Saturday. It's going to be sunny and hot.
+    B: Really? OK, why not?
+    L: Great. Do you want to take a picnic?
+    B: Good idea. I love picnics. I can make sandwiches.
+    L: And I can bring some fruit and drinks.
+    B: What time?
+    L: How about ten o'clock at the bus stop?
+    B: Perfect. See you on Saturday!
+  glossary: |
+    terrible | very bad
+    Why not? | yes — there's no reason to say no
+    take a picnic | bring food to eat outside
+    bring | to carry something with you to a place
+    drinks | things like water, juice and coffee
+    Good idea. | I like your suggestion.
+  questions: |
+    mc: What is Bruno doing? || making sandwiches | *watching a movie | walking on the beach || "I'm watching a movie at home."
+    tf: It's sunny today. || false || "It's raining and it's very windy."
+    mc: What's the weather going to be like on Saturday? || rainy and windy | *sunny and hot | cloudy and cold || "It's going to be sunny and hot."
+    short: What is Bruno going to make for the picnic? || kw: sandwiches/sandwich || "I can make sandwiches."
+    fill: They are going to meet at the bus ___ at ten o'clock. || stop || "How about ten o'clock at the bus stop?"
+
+- slug: tickets-to-the-beach
+  kind: listening
+  title: Two tickets to the beach
+  topic: Travel
+  summary: A tourist buys train tickets at a station. Listen for the times, the platform and the price.
+  speakers: T=Tomás/m; H=Heather/f
+  text: |
+    T: Good morning. Can I buy two tickets to Ocean City here?
+    H: Yes, you can. One-way or round-trip?
+    T: Round-trip, please. We're going to come back tonight.
+    H: OK. The next train leaves at nine forty.
+    T: Nine forty? And how long is the trip?
+    H: About two hours. It arrives at eleven forty.
+    T: Great. How much are the tickets?
+    H: They're twenty-eight dollars each, so fifty-six dollars.
+    T: Can I pay by card?
+    H: Yes, of course.
+    T: Which platform is it?
+    H: Platform six. It's on the left, next to the café.
+    T: And what time is the last train back?
+    H: It's at eight fifteen this evening.
+    T: Thank you very much!
+    H: You're welcome. Have a nice day at the beach!
+  glossary: |
+    one-way | going to a place, but not coming back | British English: single
+    round-trip | going to a place and coming back | British English: return
+    come back | to return to a place
+    leave | to go away from a place; here, the train starts its trip
+    arrive | to get to a place
+    each | for one person or one thing
+    the last train | the final train of the day; there are no more trains after it
+  questions: |
+    mc: What tickets does Tomás buy? || two one-way tickets | *two round-trip tickets | one round-trip ticket || He asks for two tickets: "Round-trip, please."
+    mc: When does the next train leave? || 9:14 | *9:40 | 11:40 || "The next train leaves at nine forty." It arrives at 11:40.
+    tf: The trip is about two hours. || true || "About two hours. It arrives at eleven forty."
+    fill: The train leaves from platform ___. || six / 6 || "Platform six. It's on the left, next to the café."
+    short: How much are the two tickets? || kw: 56/fifty-six/fifty six || "They're twenty-eight dollars each, so fifty-six dollars."
+    mc: When is the last train back? || *8:15 p.m. | 8:50 p.m. | 6:15 p.m. || "It's at eight fifteen this evening."

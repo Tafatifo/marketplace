@@ -1,0 +1,354 @@
+unit: 6
+title: Kunst und Kultur
+theme: Arts and culture
+description: Talk about paintings, discover industrial heritage and enjoy German humour — with the genitive, genitive prepositions and the relative pronouns dessen and deren.
+free: false
+objectives:
+  - Describe works of art precisely with the genitive (die Farben des Bildes, Paulas Selbstbildnis)
+  - Explain causes, contrasts and circumstances with genitive prepositions (wegen, trotz, während, anlässlich …)
+  - Add information about people and things with the relative pronouns dessen and deren
+canDo:
+  - I can describe a painting or photo and explain its effect on me.
+  - I can talk about the history and present-day use of a heritage site.
+  - I can explain a play on words and say what kind of humour I like.
+  - I can use the genitive in formal speech and writing instead of von + dative.
+review: |
+  fill: Die Farben des ___ sind erstaunlich kräftig. (Bild) || Bildes / Bilds || Masculine and neuter nouns add -s or -es in the genitive singular; with one-syllable nouns -es is more common. || @tags de.genitive
+  fill: Der Stil des jungen ___ ist noch sehr wild. (Künstler) || Künstlers || Masculine genitive: des jungen Künstlers (adjective -en, noun -s). || @tags de.genitive,de.adjective-endings
+  mc: Das Leben des ___ war nicht leicht. || *Studenten | Students | Student || Student belongs to the n-declension: des Studenten (no -s). || @tags de.genitive,de.n-declension
+  fill: ___ des schlechten Wetters kamen über tausend Gäste zum Festival. || Trotz || The guests came in spite of the weather: trotz + genitive. || @tags de.genitive,de.prepositions
+  fill: Die Rechnung muss ___ von zwei Wochen bezahlt werden. || innerhalb || Innerhalb (within); with a number and no article, von + dative is used. || @tags de.prepositions
+  rw: Use wegen + genitive :: Weil es stark geregnet hat, fiel das Konzert aus. || Wegen des starken Regens fiel das Konzert aus. | Wegen starken Regens fiel das Konzert aus. | Aufgrund des starken Regens fiel das Konzert aus. | Aufgrund starken Regens fiel das Konzert aus. || The weil-clause becomes a genitive phrase: der starke Regen → wegen des starken Regens. || @tags de.genitive,de.prepositions
+  fill: Der Komiker, ___ neues Programm gerade überall läuft, kommt aus Mainz. || dessen || The relative pronoun refers to der Komiker (masculine): dessen = whose. || @tags de.genitive,de.relative-clauses
+  fill: Die Künstlerin, ___ Bilder wir gestern gesehen haben, lebt in Dresden. || deren || A feminine antecedent (die Künstlerin) takes deren. || @tags de.genitive,de.relative-clauses
+  tr: Despite the rain, many people came to the festival. || Trotz des Regens kamen viele Menschen zum Festival. | Trotz des Regens sind viele Menschen zum Festival gekommen. | Trotz des Regens kamen viele Leute zum Festival. | Trotz des Regens sind viele Leute zum Festival gekommen. | Trotz des Regens kamen viele Menschen zu dem Festival. || Trotz + genitive: des Regens. || @tags de.genitive,de.prepositions
+  listen: Anlässlich des hundertsten Geburtstags der Fotografin zeigt das Museum bis Ende März rund zweihundert ihrer Bilder. Der Eintritt ist während der gesamten Ausstellung frei. || Why is the museum holding the exhibition? || Because the photographer has died | *To mark the photographer's hundredth birthday | Because the museum is closing in March || Anlässlich des hundertsten Geburtstags = on the occasion of the hundredth birthday. || @tags de.listening,de.genitive
+  listen: Mein Onkel, dessen Witze immer furchtbar schlecht sind, hat gestern zum ersten Mal die ganze Familie zum Lachen gebracht. || What happened yesterday? || The uncle told terrible jokes as usual. | *The uncle made the whole family laugh for the first time. | The family laughed at the uncle's clothes. || "… hat gestern zum ersten Mal die ganze Familie zum Lachen gebracht." || @tags de.listening,de.relative-clauses
+  ask: „Welches Kunstwerk, Gebäude oder welcher Ort hat Sie besonders beeindruckt – und warum?“ Use at least two genitive forms. || kw: des/der/eines/einer/meines/meiner & bild/gebäude/ort/kirche/museum/farbe/form/stil/geschichte/architektur || Mich hat vor allem die Kathedrale von Köln beeindruckt. Die Größe des Gebäudes ist unglaublich, und die Farben der Fenster leuchten bei Sonne wunderschön. Trotz der vielen Touristen ist es drinnen erstaunlich ruhig.
+  write: Write a short review (70–90 words) of an exhibition, a concert or a show for a culture blog. Use at least two genitive forms and one relative clause with dessen or deren. || min=60 || req: des/der/eines/einer | dessen/deren | trotz/wegen/während/anlässlich/aufgrund/innerhalb || Anlässlich des Stadtjubiläums zeigt das Kunstmuseum Fotografien von Hanna Okafor, deren Bilder bisher nur in kleinen Galerien zu sehen waren. Die Ausstellung zeigt den Alltag der Menschen im Hafenviertel – Fischer, Kinder, Verkäuferinnen. Besonders beeindruckt hat mich die Wirkung des Lichts in den Schwarz-Weiß-Fotos. Trotz der vielen Besucher hat man genug Zeit, jedes Bild in Ruhe anzuschauen. Eine klare Empfehlung für alle, die ihre eigene Stadt mit anderen Augen sehen möchten.
+lessons:
+  - title: Talking about art
+    summary: Discuss a famous self-portrait in a museum and describe works of art precisely with the genitive.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [de.genitive, de.adjective-endings]
+    objectives:
+      - Form the genitive of articles, adjectives and nouns, including proper names
+      - Use the genitive instead of von + dative in more formal speech and writing
+      - Describe a painting and its effect, and react to other people's views
+    intro: |
+      When you talk about art, you constantly link things to their owners and parts: *die Farben **des Bildes**, der Blick **der Frau**, die Bedeutung **ihres Werks**.* In everyday speech many Germans say *von dem Bild*, but in a museum guide, a review or a careful conversation the **genitive** is the norm. You'll accompany two friends in a museum in Bremen in front of a painting that caused a stir in its time.
+    vocab: |
+      das Gemälde | painting | n | Das Gemälde hängt im zweiten Stock des Museums. | The painting hangs on the second floor of the museum. | g: n | pl: die Gemälde
+      das Selbstbildnis | self-portrait | n | In ihrem letzten Lebensjahr malte sie mehrere Selbstbildnisse. | In the last year of her life she painted several self-portraits. | g: n | pl: die Selbstbildnisse | n: Also: das Selbstporträt.
+      der Hintergrund | background | n | Die Farben des Hintergrunds sind sehr kräftig. | The colours of the background are very strong. | g: m | pl: die Hintergründe | n: Opposite: der Vordergrund.
+      kräftig | strong; vivid (colours) | adj | Sie arbeitet gern mit kräftigen Farben. | She likes working with strong colours. | n: Opposite: blass (pale).
+      der Stil | style | n | Ihr Stil wirkt auf den ersten Blick fast kindlich. | At first sight her style seems almost childlike. | g: m | pl: die Stile
+      das Werk | work (of art) | n | Erst nach ihrem Tod wurde die Bedeutung ihres Werks erkannt. | Only after her death was the importance of her work recognised. | g: n | pl: die Werke | n: Genitive: des Werks / des Werkes.
+      gelten als | to be considered (as) | v | Das Bild gilt als Meilenstein der modernen Kunst. | The picture is considered a milestone of modern art. | n: Irregular: galt, hat gegolten.
+      wirken | to seem; to have an effect | v | Das Bild wirkt auf mich sehr ruhig. | The picture has a very calm effect on me. | c: auf jemanden wirken | n: Noun: die Wirkung.
+      die Bedeutung | meaning; significance | n | Über die Bedeutung der Kette wird bis heute diskutiert. | The meaning of the necklace is still debated today. | g: f | pl: die Bedeutungen
+      der Zeitgenosse | contemporary | n | Viele Zeitgenossen der Malerin konnten mit ihren Bildern nichts anfangen. | Many of the painter's contemporaries couldn't make anything of her pictures. | g: m | pl: die Zeitgenossen | n: N-declension: des Zeitgenossen. Feminine: die Zeitgenossin.
+      ablehnen | to reject | v | Die Kritiker lehnten ihre Bilder damals ab. | The critics rejected her pictures at the time. | n: Separable. Noun: die Ablehnung.
+      der Blick | gaze; look; view | n | Mir gefällt vor allem der Blick der Frau. | What I like most is the woman's gaze. | g: m | pl: die Blicke | c: auf den ersten Blick; einen Blick werfen auf
+    grammar:
+      title: "The genitive"
+      body: |
+        The genitive links a noun to another noun — it answers *wessen?* (whose? of what?): *die Farben **des Hintergrunds**, der Blick **der Frau**.*
+
+        **Articles:** masculine and neuter **des / eines / meines**, feminine and plural **der / einer / meiner**.
+
+        **Nouns:** masculine and neuter nouns add **-s** or **-es** (-es is common after one syllable and after -s, -ß, -z: *des Bildes, des Kreuzes*). Nouns of the **n-declension** take **-(e)n** instead: *des Künstlers* but *des Menschen, des Zeitgenossen, des Studenten.* Feminine and plural nouns add nothing.
+
+        **Adjectives** after an article end in **-en**: *des berühmten Bildes, der jungen Malerin.* Without an article the plural is **-er**: *die Werke junger Künstlerinnen.*
+
+        **Names** take **-s** and come first, with no article: *Paulas Selbstbildnis, Goethes Gedichte.* Names ending in -s, -ß, -x, -z take an apostrophe: *Max' Bilder.*
+
+        In conversation, **von + dative** often replaces the genitive (*das Bild von meiner Tante*); in writing, the genitive is preferred. *Von* is required when there is no article to show the case: *die Bilder von Kindern.*
+      table: |
+        Gender | Definite | Indefinite | Example
+        masculine | des …(e)s | eines …(e)s | die Farben des Hintergrunds
+        feminine | der | einer | der Blick der Frau
+        neuter | des …(e)s | eines …(e)s | die Wirkung des Bildes
+        plural | der | — (von + dative) | die Reaktionen der Zeitgenossen
+        n-declension | des …(e)n | eines …(e)n | das Leben des Künstlers – des Menschen
+      examples: |
+        Die Farben des Hintergrunds sind viel kräftiger, als ich dachte. | The colours of the background are much stronger than I thought. | masculine: des Hintergrunds
+        Es gilt als eines der ersten Selbstbildnisse einer Frau, die sich nackt gemalt hat. | It is considered one of the first self-portraits by a woman who painted herself nude. | einer Frau (feminine)
+        Die Reaktionen der Zeitgenossen kann ich mir gut vorstellen. | I can well imagine the reactions of her contemporaries. | n-declension plural: der Zeitgenossen
+        Erst nach ihrem Tod wurde die Bedeutung ihres Werks erkannt. | Only after her death was the significance of her work recognised. | ihres Werks (neuter)
+      tip: "Check two things in the genitive singular: the article (des/der) and, for masculine and neuter nouns, the -s on the noun itself."
+    dialogue:
+      title: Vor dem Selbstbildnis
+      setting: A museum in Bremen devoted to the painter Paula Modersohn-Becker (1876–1907). Mira, who studies art history, and her friend Jakob stand in front of a famous self-portrait from 1906.
+      speakers: M=Mira/f; J=Jakob/m
+      lines: |
+        M: Das ist also das berühmte Selbstbildnis. Die Farben des Hintergrunds sind viel kräftiger, als ich dachte. | So this is the famous self-portrait. The colours of the background are much stronger than I thought.
+        J: Weißt du, warum das Bild so bekannt ist? Ich kenne eigentlich nur den Namen der Malerin. | Do you know why the picture is so famous? I actually only know the painter's name.
+        M: Es gilt als eines der ersten Selbstbildnisse einer Frau, die sich selbst nackt gemalt hat. | It's considered one of the first self-portraits by a woman who painted herself nude.
+        J: Und das um 1906! Die Reaktionen der Zeitgenossen kann ich mir gut vorstellen. | And that around 1906! I can well imagine how her contemporaries reacted.
+        M: Viele Kritiker haben ihre Bilder damals abgelehnt. Erst nach ihrem Tod wurde die Bedeutung ihres Werks erkannt. | Many critics rejected her paintings at the time. Only after her death was the significance of her work recognised.
+        J: Ehrlich gesagt verstehe ich die Wirkung des Bildes nicht ganz. Der Stil wirkt auf mich fast kindlich. | To be honest, I don't fully understand the effect of the picture. The style seems almost childlike to me.
+        M: Genau das ist der Punkt: Sie hat bewusst auf Details verzichtet. Die Einfachheit der Formen war damals revolutionär. | That's exactly the point: she deliberately did without details. The simplicity of the forms was revolutionary at the time.
+        J: Hm. Und was bedeutet die Bernsteinkette um ihren Hals? Ist das ein Symbol? | Hm. And what does the amber necklace round her neck mean? Is it a symbol?
+        M: Darüber streiten sich die Fachleute. Manche sehen darin ein Zeichen ihres Selbstbewusstseins. | Experts argue about that. Some see it as a sign of her self-confidence.
+        J: Mir gefällt vor allem der Blick der Frau. Sie schaut einen an, als würde sie einen prüfen. | What I like most is the woman's gaze. She looks at you as if she were testing you.
+        M: Siehst du? Am Ende einer guten Ausstellung sieht man die Bilder mit ganz anderen Augen. | You see? At the end of a good exhibition you see the pictures with completely different eyes.
+    pronunciation:
+      title: "das Bild [t] – des Bildes [d]"
+      body: |
+        At the end of a word, **b, d, g** are devoiced: *das Bil**d*** [bɪlt], *der Ta**g*** [taːk], *das Lo**b*** [loːp]. In the genitive an ending is added, the consonant now starts a new syllable and becomes **voiced** again: *des Bil-**d**es* [ˈbɪldəs], *des Ta-**g**es* [ˈtaːgəs], *des Lo-**b**es*.
+
+        With the short ending *-s* the consonant stays devoiced: *des Hintergrun**ds*** [ts].
+      items: |
+        das Bild – des Bildes
+        der Tag – des Tages
+        der Hintergrund – des Hintergrunds
+        das Werk – des Werkes
+        die Wirkung des Bildes
+        Paulas Selbstbildnis
+    mistakes: |
+      Die Farben des Hintergrund sind kräftig. => Die Farben des Hintergrunds sind kräftig. | Masculine and neuter nouns need -s or -es in the genitive singular.
+      Das Leben des Künstleren war schwer. => Das Leben des Künstlers war schwer. | Künstler is not an n-declension noun, so it takes -s. Only nouns like Mensch, Student, Zeitgenosse take -en.
+      Das ist der Paulas Selbstbildnis. => Das ist Paulas Selbstbildnis. | A name in the genitive comes before the noun and replaces the article.
+    task:
+      title: My favourite picture
+      mode: speaking
+      body: |
+        Choose a painting, photo or poster you like (you can show it on your phone). Describe it in one to two minutes: what it shows, the colours and forms, the effect it has on you and what you know about the artist. Use at least five genitive forms (*die Farben des …, der Blick der …, das Werk einer …*).
+    exercises: |
+      fill: Die Farben des ___ sind sehr kräftig. (Hintergrund) || Hintergrunds / Hintergrundes || Masculine genitive: des + noun with -s or -es. || @tags de.genitive
+      fill: Das ist das bekannteste Bild ___ Malerin. || der || Feminine genitive article: der. || @tags de.genitive
+      fill: Die Reaktionen der ___ waren damals sehr negativ. (Zeitgenosse, plural) || Zeitgenossen || Zeitgenosse is an n-declension noun; plural: die/der Zeitgenossen. || @tags de.genitive,de.n-declension
+      mc: Das Leben des ___ ist schon oft verfilmt worden. || *Malers | Maleres | Malern || Masculine genitive singular: des Malers. -n would be dative plural. || @tags de.genitive
+      rw: Use the genitive instead of von :: Das ist das Atelier von meiner Tante. || Das ist das Atelier meiner Tante. || Von + dative (von meiner Tante) → genitive: meiner Tante. || @tags de.genitive,de.possessives
+      rw: Use a name in the genitive :: Die Bilder von Max sind sehr bunt. || Max' Bilder sind sehr bunt. || Names ending in -s, -x or -z take an apostrophe instead of -s and come before the noun. || @tags de.genitive,de.spelling
+      tf: Most critics praised Paula Modersohn-Becker's paintings during her lifetime. || false || "Viele Kritiker haben ihre Bilder damals abgelehnt." || @ctx dialogue
+      short: What does Jakob like most about the painting? || kw: blick/gaze/look/augen/eyes || The woman's gaze — she looks at you as if she were testing you. || @ctx dialogue
+      listen: @dialogue || According to Mira, what was revolutionary about the painting? || The size of the canvas | *The simplicity of the forms | The amber necklace || "Die Einfachheit der Formen war damals revolutionär."
+      listen: Die Ausstellung zeigt rund achtzig Werke des Fotografen, darunter viele Porträts seiner Nachbarn aus dem Viertel. || What does the exhibition show? || Paintings by the photographer's neighbours | *Works by a photographer, including portraits of his neighbours | Photos of famous people from the district || "Rund achtzig Werke des Fotografen, darunter viele Porträts seiner Nachbarn." || @tags de.listening,de.genitive
+      tr: The colours of the painting are very strong. || Die Farben des Bildes sind sehr kräftig. | Die Farben des Gemäldes sind sehr kräftig. | Die Farben des Bilds sind sehr kräftig. | Die Farben des Bildes sind sehr intensiv. | Die Farben des Gemäldes sind sehr intensiv. || Neuter genitive: des Bildes / des Gemäldes. || @tags de.genitive
+      dict: Die Wirkung des Bildes hängt stark vom Licht im Raum ab.
+      ask: Describe a picture or photo in your home. What does it show and what effect does it have on you? Use at least two genitive forms. || kw: des/der/eines/einer/meines/meiner & bild/foto/farbe/hintergrund/wirkung/blick/form || In meinem Wohnzimmer hängt ein Foto meiner Großmutter. Im Hintergrund sieht man das Meer, und die Farben des Himmels sind ganz warm. Die Wirkung des Fotos ist sehr ruhig.
+
+  - title: Cultural heritage
+    summary: Read about the transformation of a coal mine into a World Heritage Site and use genitive prepositions (wegen, trotz, während, anlässlich, angesichts …).
+    minutes: 45
+    skills: [reading, grammar, vocabulary]
+    tags: [de.genitive, de.prepositions]
+    objectives:
+      - Use the most important genitive prepositions in formal speech and writing
+      - Know when von + dative or the dative replaces the genitive
+      - Talk about the history and present-day use of a heritage site
+    intro: |
+      Heritage sites tell stories of change — and the texts about them are full of compact phrases such as ***Trotz** ihres guten Rufs*, ***während** des Strukturwandels*, ***aufgrund** ihrer Bedeutung*. These **genitive prepositions** are typical of written German, guidebooks and the news. You will read about the Zollverein colliery in Essen, which went from a coal mine to a World Heritage Site.
+    vocab: |
+      das Welterbe | World Heritage (Site) | n | Seit 2001 gehört die Zeche zum UNESCO-Welterbe. | The colliery has been part of UNESCO World Heritage since 2001. | g: n | pl: (no plural) | n: Also: die Welterbestätte.
+      die Zeche | colliery; coal mine | n | Mein Großvater hat dreißig Jahre auf der Zeche gearbeitet. | My grandfather worked at the colliery for thirty years. | g: f | pl: die Zechen | n: Common in the Ruhr; elsewhere: das Bergwerk.
+      stilllegen | to shut down; to close | v | Die Zeche wurde 1986 stillgelegt. | The colliery was shut down in 1986. | n: Separable. Three l's: still + legen.
+      abreißen | to demolish; to pull down | v | Viele alte Fabriken wurden abgerissen. | Many old factories were demolished. | n: Separable, irregular: riss ab, hat abgerissen. Noun: der Abriss.
+      der Denkmalschutz | protection of historic monuments | n | Das Gebäude steht unter Denkmalschutz. | The building is a listed monument. | g: m | pl: (no plural) | c: unter Denkmalschutz stehen
+      der Strukturwandel | structural change (of an economy) | n | Der Strukturwandel hat das Ruhrgebiet stark verändert. | Structural change has transformed the Ruhr area. | g: m | pl: (no plural)
+      das Gelände | site; grounds | n | Auf dem Gelände gibt es heute ein Museum und mehrere Cafés. | Today there is a museum and several cafés on the site. | g: n | pl: die Gelände
+      ehemalig | former | adj | In der ehemaligen Kohlenwäsche befindet sich heute ein Museum. | A museum is now located in the former coal-washing plant.
+      unter Tage | underground (in a mine) | expr | Die Arbeit unter Tage war hart und gefährlich. | Work underground was hard and dangerous. | n: Opposite: über Tage.
+      bemängeln | to criticise; to complain about | v | Einige Besucher bemängeln die hohen Preise im Café. | Some visitors complain about the high prices in the café.
+      in Vergessenheit geraten | to be forgotten; to fall into oblivion | expr | Viele alte Handwerksberufe sind in Vergessenheit geraten. | Many old crafts have been forgotten. | n: geraten: geriet, ist geraten.
+      der Wandel | change; transformation | n | Zollverein ist zu einem Symbol des Wandels geworden. | Zollverein has become a symbol of change. | g: m | pl: (no plural)
+    grammar:
+      title: "Prepositions with the genitive"
+      body: |
+        A group of prepositions takes the **genitive**. They are especially frequent in written and formal German:
+
+        - **Cause:** *wegen* (because of), *aufgrund* (due to, formal), *infolge* (as a result of)
+        - **Concession:** *trotz* (despite, in spite of)
+        - **Time:** *während* (during), *innerhalb* (within), *außerhalb* (outside)
+        - **Replacement:** *statt / anstatt* (instead of)
+        - **Formal:** *anlässlich* (on the occasion of), *angesichts* (in view of), *mithilfe* (with the help of)
+
+        Examples: ***Trotz** ihres guten Rufs wurde die Zeche stillgelegt. **Aufgrund** seiner Bedeutung wurde das Gelände Welterbe.*
+
+        **When the genitive isn't visible.** If a plural noun has no article or adjective, the genitive can't be seen, so the **dative** or **von + dative** is used: *innerhalb **von** drei Jahren, aufgrund **von** Bauarbeiten, wegen Bauarbeiten*.
+
+        **In speech** many people use the dative after *wegen, trotz* and *während* (*wegen dem Wetter*). It is common in conversation, but in writing the genitive is standard.
+      table: |
+        Preposition | Meaning | Example
+        wegen / aufgrund | because of / due to | wegen des Regens · aufgrund seiner Bedeutung
+        trotz | despite | trotz ihres guten Rufs
+        während | during | während des Strukturwandels
+        innerhalb / außerhalb | within / outside | innerhalb einer Generation
+        statt / anstatt | instead of | statt eines Neubaus
+        anlässlich | on the occasion of | anlässlich des Jubiläums
+        angesichts | in view of | angesichts der hohen Kosten
+      examples: |
+        Trotz ihres guten Rufs wurde die Zeche 1986 stillgelegt. | Despite its good reputation, the colliery was shut down in 1986. | trotz + genitive
+        Während des Strukturwandels verschwanden zahlreiche Bergwerke. | During the structural change numerous mines disappeared. | während + genitive
+        Im Jahr 2001 wurde das Gelände aufgrund seiner Bedeutung für die Industriegeschichte Welterbe. | In 2001 the site became a World Heritage Site because of its importance for industrial history. | aufgrund + genitive
+        Innerhalb einer Generation wurde aus einem Ort der Schwerarbeit ein Ort der Begegnung. | Within one generation a place of hard labour became a place where people meet. | innerhalb + genitive
+      tip: "During and while: während + genitive is a preposition (während des Konzerts); während + verb at the end is a conjunction (während das Konzert läuft)."
+    reading:
+      title: Vom Bergwerk zum Welterbe
+      text: |
+        Als die Zeche Zollverein in Essen 1986 stillgelegt wurde, fürchteten viele, dass die riesigen Anlagen innerhalb weniger Jahre abgerissen würden. Schließlich waren während des Strukturwandels im Ruhrgebiet schon zahlreiche Bergwerke verschwunden. Doch statt der Abrissbagger kamen Denkmalschützer, Architektinnen und Künstler.
+
+        Der Grund dafür war vor allem die Architektur. Die Schachtanlage, die Anfang der Dreißigerjahre im Stil der Neuen Sachlichkeit gebaut worden war, galt wegen ihrer klaren Formen schon damals als „schönste Zeche der Welt“. Im Jahr 2001 wurde das Gelände aufgrund seiner Bedeutung für die Industriegeschichte in die Liste des UNESCO-Welterbes aufgenommen.
+
+        Heute ist Zollverein ein Ort der Kultur. In der ehemaligen Kohlenwäsche befindet sich das Ruhr Museum, und anlässlich von Festivals, Konzerten und Märkten kommen jedes Jahr Hunderttausende Besucherinnen und Besucher. Im Winter kann man sogar vor der alten Kokerei Schlittschuh laufen.
+
+        Trotz des Erfolgs gibt es auch kritische Stimmen. Manche ehemalige Bergleute bemängeln, dass die harte Arbeit unter Tage angesichts der schicken Cafés und Designbüros in Vergessenheit gerate. Andere betonen dagegen, dass gerade mithilfe der Kultur ein neues Bewusstsein für die Geschichte der Region entstanden sei.
+
+        Statt eines Endpunkts ist Zollverein so zu einem Symbol des Wandels geworden: Die Region hat ihre Vergangenheit nicht versteckt, sondern zu einem Teil ihrer Identität gemacht. Innerhalb einer Generation wurde aus einem Ort der Schwerarbeit ein Ort der Begegnung.
+      translation: |
+        When the Zollverein colliery in Essen was shut down in 1986, many people feared that the huge facilities would be demolished within a few years. After all, numerous mines in the Ruhr had already disappeared during the structural change. But instead of the demolition excavators came conservationists, architects and artists.
+
+        The main reason was the architecture. The pithead complex, which had been built in the early nineteen-thirties in the style of New Objectivity, was already considered "the most beautiful colliery in the world" at the time because of its clear forms. In 2001 the site was added to the UNESCO World Heritage list because of its importance for industrial history.
+
+        Today Zollverein is a place of culture. The Ruhr Museum is located in the former coal-washing plant, and hundreds of thousands of visitors come every year for festivals, concerts and markets. In winter you can even go ice skating in front of the old coking plant.
+
+        Despite this success there are also critical voices. Some former miners complain that, amid the smart cafés and design studios, the hard work underground is being forgotten. Others, by contrast, stress that it is precisely with the help of culture that a new awareness of the region's history has emerged.
+
+        Instead of an end point, Zollverein has thus become a symbol of change: the region has not hidden its past but made it part of its identity. Within one generation a place of hard labour has become a place where people meet.
+    pronunciation:
+      title: "Stress in genitive prepositions"
+      body: |
+        Most two-syllable genitive prepositions are stressed on the **second** syllable: *wäh-REND, in-ner-HALB, au-ßer-HALB, an-STATT*. Prepositions formed from nouns or verbs keep the stress of their origin: *AUF-grund, AN-läss-lich, AN-ge-sichts, mit-HIL-fe*.
+
+        Remember the long *ä* in *während* [ˈvɛːrənt] and the clear [ts] at the end of *trotz* and *angesichts*.
+      items: |
+        während des Strukturwandels
+        innerhalb einer Generation
+        aufgrund seiner Bedeutung
+        anlässlich des Jubiläums
+        angesichts der Kosten
+        trotz des Erfolgs
+    culture:
+      title: The end of coal
+      body: |
+        For more than a century, coal and steel shaped the Ruhr area — its landscape, its cities and the mix of people who came from all over Europe to work there. In December 2018 the last German hard-coal mine, in Bottrop, closed. Many former industrial sites have been turned into parks, museums and concert venues, and in 2010 the Ruhr area was European Capital of Culture.
+    mistakes: |
+      Trotz dem schlechten Wetter kamen viele Gäste. => Trotz des schlechten Wetters kamen viele Gäste. | In writing, trotz takes the genitive. The dative is common in casual speech only.
+      Innerhalb drei Jahren wurde alles renoviert. => Innerhalb von drei Jahren wurde alles renoviert. | Without an article the genitive plural isn't visible, so use von + dative.
+      Während der Konzert war es sehr laut. => Während des Konzerts war es sehr laut. | Konzert is neuter: genitive des Konzerts.
+    task:
+      title: A place with a history
+      mode: speaking
+      body: |
+        Present a heritage site, an old building or a historic place in your region in about two minutes: what it was used for, what happened to it and what it is today. Use at least four genitive prepositions (*während, trotz, wegen/aufgrund, statt, innerhalb, anlässlich*).
+    exercises: |
+      fill: ___ des schlechten Wetters kamen über tausend Besucher zum Markt. || Trotz || The visitors came despite the weather: trotz + genitive. || @tags de.genitive,de.prepositions
+      fill: Das Museum ist ___ der Renovierung bis Mai geschlossen. || wegen / aufgrund / während || Wegen/aufgrund (because of) and während (during) all take the genitive and all make sense here. || @tags de.genitive,de.prepositions
+      mc: ___ des hundertsten Geburtstags der Künstlerin zeigt das Museum eine große Ausstellung. || *Anlässlich | Trotz | Statt || Anlässlich = on the occasion of; trotz and statt make no sense here. || @tags de.genitive,de.prepositions
+      fill: Die Tickets müssen ___ von drei Tagen bezahlt werden. || innerhalb || Innerhalb (within); with a number and no article: innerhalb von + dative. || @tags de.prepositions
+      mc: Choose the correct written form. || *trotz des Regens | trotz dem Regens | trotz der Regen || Trotz + genitive: der Regen → des Regens. || @tags de.genitive
+      rw: Use wegen + genitive :: Weil die Kosten hoch sind, wird das Projekt verschoben. || Wegen der hohen Kosten wird das Projekt verschoben. | Aufgrund der hohen Kosten wird das Projekt verschoben. || The weil-clause becomes a genitive phrase: die hohen Kosten → wegen der hohen Kosten. || @tags de.genitive,de.prepositions
+      rw: Use statt + genitive :: Man hat keinen Neubau errichtet, sondern das alte Gebäude saniert. || Statt eines Neubaus hat man das alte Gebäude saniert. | Anstatt eines Neubaus hat man das alte Gebäude saniert. | Statt eines Neubaus wurde das alte Gebäude saniert. || Statt + genitive: ein Neubau → eines Neubaus. || @tags de.genitive,de.prepositions
+      tf: Zollverein became a World Heritage Site because of its importance for industrial history. || true || "… aufgrund seiner Bedeutung für die Industriegeschichte in die Liste des UNESCO-Welterbes aufgenommen." || @ctx reading
+      mc: What do some former miners criticise? || That the museum is too expensive | *That the hard work underground is being forgotten | That there are too few events || "… dass die harte Arbeit unter Tage … in Vergessenheit gerate." || @ctx reading @skill reading
+      short: What was the colliery called because of its architecture? || kw: schönste/most beautiful/beautiful || "Die schönste Zeche der Welt" – the most beautiful colliery in the world. || @ctx reading
+      listen: Während der Bauarbeiten bleibt der Haupteingang des Doms geschlossen. Besucherinnen und Besucher erreichen die Kirche in dieser Zeit über den Seiteneingang. || How can visitors get into the cathedral during the building work? || They can't get in at all. | *Through the side entrance | Only with a guided tour || "… erreichen die Kirche in dieser Zeit über den Seiteneingang." || @tags de.listening,de.genitive
+      tr: Despite its age, the building is in very good condition. || Trotz seines Alters ist das Gebäude in sehr gutem Zustand. | Trotz seines Alters ist das Gebäude in einem sehr guten Zustand. | Trotz des Alters ist das Gebäude in sehr gutem Zustand. || Trotz + genitive: das Alter → seines/des Alters. || @tags de.genitive,de.prepositions
+      dict: Innerhalb einer Generation wurde aus dem Bergwerk ein Ort der Kultur.
+      say: Angesichts der hohen Kosten ist das eine mutige Entscheidung. || In view of the high costs, that's a brave decision.
+
+  - title: Humour and wordplay
+    summary: Talk about a cabaret evening, explain wordplay and add information about people with the relative pronouns dessen and deren.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [de.relative-clauses, de.genitive]
+    objectives:
+      - Use the genitive relative pronouns dessen and deren correctly
+      - Understand common kinds of German wordplay (homonyms, stress pairs, Amtsdeutsch)
+      - Talk about different kinds of humour and what you find funny
+    intro: |
+      Humour is often said to be the last thing you master in a foreign language. German humour loves language itself: words with two meanings (*Teekesselchen*), verbs that change meaning with stress, and the absurd side of official German. In this lesson two friends talk about a cabaret evening — and you'll learn **dessen** and **deren** (*whose*), which let you add information about people elegantly: *die Kabarettistin, **deren** Programm wir gesehen haben*.
+    vocab: |
+      der Humor | (sense of) humour | n | Mein Kollege hat einen sehr trockenen Humor. | My colleague has a very dry sense of humour. | g: m | pl: (no plural) | n: Stress: Hu-MOR.
+      das Wortspiel | pun; play on words | n | Ihre Wortspiele sind schwer zu übersetzen. | Her puns are hard to translate. | g: n | pl: die Wortspiele
+      das Teekesselchen | word with two meanings (homonym) | n | „Bank“ ist ein typisches Teekesselchen. | "Bank" is a typical word with two meanings. | g: n | pl: die Teekesselchen | n: Also the name of a children's guessing game.
+      die Pointe | punchline | n | Ich habe die Pointe leider nicht verstanden. | Unfortunately I didn't get the punchline. | g: f | pl: die Pointen | n: From French; pronounced [ˈpwɛ̃ːtə].
+      die Ironie | irony | n | Ironie wird schriftlich oft missverstanden. | Irony is often misunderstood in writing. | g: f | pl: (no plural) | n: Adjective: ironisch. Die Selbstironie = self-mockery.
+      sich lustig machen über | to make fun of | expr | Sie macht sich vor allem über sich selbst lustig. | She mainly makes fun of herself. | n: Über + accusative.
+      das Kabarett | (satirical) cabaret | n | Im Kabarett wird oft über Alltag und Gesellschaft gelacht. | In cabaret people often laugh about everyday life and society. | g: n | pl: die Kabaretts | n: The performer: der Kabarettist, die Kabarettistin.
+      missverstehen | to misunderstand | v | Er wird oft missverstanden, weil er so ironisch ist. | He is often misunderstood because he is so ironic. | n: Inseparable: hat missverstanden. Noun: das Missverständnis.
+      trocken | dry | adj | Ihr trockener Humor kommt nicht bei allen gut an. | Her dry humour doesn't go down well with everyone.
+      gemein | mean; nasty | adj | Der Witz war nicht lustig, sondern einfach gemein. | The joke wasn't funny, just mean.
+      liebevoll | affectionate; loving | adj | Sie erzählt liebevoll von ihren chaotischen Eltern. | She talks affectionately about her chaotic parents.
+      das Behördendeutsch | officialese; bureaucratic German | n | Ohne Wörterbuch verstehe ich das Behördendeutsch kaum. | Without a dictionary I hardly understand the officialese. | g: n | pl: (no plural) | n: Also: das Amtsdeutsch.
+    grammar:
+      title: "Relative pronouns dessen and deren"
+      body: |
+        **Dessen** and **deren** are the genitive forms of the relative pronoun and mean **whose** (or *of which*). They link a person or thing to something that belongs to it:
+
+        - **dessen** refers back to a **masculine or neuter** noun: *der Kollege, **dessen** Humor sehr trocken ist; das Theater, **dessen** Keller …*
+        - **deren** refers back to a **feminine or plural** noun: *die Kabarettistin, **deren** Programm …; die Eltern, **deren** Faxgerät …*
+
+        The choice depends **only on the noun before the comma** — not on the noun that follows: *die Kabarettistin, **deren** Vater …* (feminine antecedent, even though Vater is masculine).
+
+        The noun after dessen/deren has **no article**, so an adjective takes the **strong ending**: *der Sänger, dessen neu**es** Album …; mit dessen neu**em** Album.* Dessen/deren never change, even after a preposition: *die Autorin, **mit deren** Hilfe …*
+
+        As in all relative clauses, the conjugated verb goes to the end.
+      table: |
+        Antecedent | Relative pronoun | Example
+        masculine | dessen | der Kollege, dessen Humor sehr trocken ist
+        neuter | dessen | das Theater, in dessen Keller das Kabarett spielt
+        feminine | deren | die Kabarettistin, deren Programm wir gesehen haben
+        plural | deren | die Eltern, deren Faxgerät noch immer läuft
+      examples: |
+        Die Kabarettistin, deren Programm wir gesehen haben, schreibt alle Texte selbst. | The cabaret artist whose show we saw writes all her texts herself. | feminine → deren
+        Und dann der Beamte, dessen Steuererklärung selbst ein Kunstwerk war! | And then the civil servant whose tax return was a work of art in itself! | masculine → dessen
+        Mein Kollege, dessen Humor sehr trocken ist, wird oft missverstanden. | My colleague, whose humour is very dry, is often misunderstood. | dessen + noun without article
+        Erklär mir bitte die Wortspiele, deren Pointe ich verpasst habe. | Please explain the puns whose punchline I missed. | plural → deren
+      tip: "Look left, not right: dessen or deren depends on the noun before the comma."
+    dialogue:
+      title: Nach dem Kabarettabend
+      setting: Late evening outside a small cabaret theatre in Mainz. Lina and Ole have just seen a show by a local cabaret artist.
+      speakers: L=Lina/f; O=Ole/m
+      lines: |
+        O: Und, wie fandest du die Show? Bei der Nummer über die Zugverspätungen hätte ich mich fast verschluckt. | So, what did you think of the show? I nearly choked during the bit about train delays.
+        L: Ich auch! Die Kabarettistin, deren Programm wir gesehen haben, schreibt übrigens alle Texte selbst. | Me too! By the way, the cabaret artist whose show we saw writes all her texts herself.
+        O: Der Gag mit dem Teekesselchen „Bank“ war genial: die Bank im Park und die Bank mit dem Geld. | The gag with the double meaning of "Bank" was brilliant: the bench in the park and the bank with the money.
+        L: Und dann der Beamte vom Finanzamt, dessen Steuererklärung selbst ein Kunstwerk war! | And then the tax office official whose own tax return was a work of art!
+        O: Den Teil fand ich ehrlich gesagt schwierig. Wortspiele mit Behördendeutsch verstehe ich noch nicht immer. | To be honest, I found that part difficult. I don't always understand puns on officialese yet.
+        L: Das geht vielen so. Humor ist das Letzte, was man in einer Fremdsprache lernt – und das Schönste. | That's the same for a lot of people. Humour is the last thing you learn in a foreign language – and the best.
+        O: Was ich mag: Sie macht sich nie über Schwächere lustig, sondern vor allem über sich selbst. | What I like is that she never makes fun of weaker people, but mainly of herself.
+        L: Stimmt. Der Witz über ihre Eltern, deren Faxgerät noch immer läuft, war eher liebevoll als gemein. | True. The joke about her parents, whose fax machine is still running, was affectionate rather than mean.
+        O: Ironie ist trotzdem riskant. Mein Kollege, dessen Humor sehr trocken ist, wird ständig missverstanden. | Irony is still risky, though. My colleague, whose humour is very dry, is constantly misunderstood.
+        L: Dann sollte er mal zu einem Kabarettabend mitkommen. Hier lacht man ja gerade über das Absurde. | Then he should come along to a cabaret evening. Here people laugh precisely at the absurd.
+        O: Gute Idee. Und du erklärst mir beim nächsten Mal die Wortspiele, deren Pointe ich verpasst habe. | Good idea. And next time you explain to me the puns whose punchline I missed.
+    pronunciation:
+      title: "Stress that changes meaning: UMfahren – umFAHren"
+      body: |
+        A favourite source of German wordplay: some verbs exist twice — **separable** with the stress on the prefix, and **inseparable** with the stress on the verb. *Er fährt den Baum UM* (UM-fahren = to knock down) versus *Er umFÄHRT den Baum* (um-FAH-ren = to drive round). The same goes for *ÜBERsetzen* (to ferry across) and *überSETZen* (to translate).
+
+        Adjectives can play this game too: ***MO**dern* (to rot) and *mo**DERN*** (modern).
+      items: |
+        umfahren – umfahren
+        übersetzen – übersetzen
+        modern – modern
+        das Teekesselchen
+        die Pointe
+        Der Witz war liebevoll, nicht gemein.
+    mistakes: |
+      Die Kabarettistin, dessen Programm ich mag, … => Die Kabarettistin, deren Programm ich mag, … | The relative pronoun agrees with the antecedent (die Kabarettistin → deren), not with Programm.
+      Mein Kollege, dessen der Humor trocken ist, … => Mein Kollege, dessen Humor trocken ist, … | There is no article after dessen or deren.
+      Der Autor, mit dessen neuen Buch ich angefangen habe, … => Der Autor, mit dessen neuem Buch ich angefangen habe, … | No article after dessen, so the adjective takes the strong dative ending: neuem.
+    task:
+      title: What makes you laugh?
+      mode: speaking
+      body: |
+        Talk for one to two minutes about humour: a comedian, series or person whose humour you like, a joke or play on words from your own language (explain why it is funny) and a situation in which humour was misunderstood. Use at least two relative clauses with dessen or deren.
+    exercises: |
+      fill: Der Autor, ___ Roman gerade verfilmt wird, lebt in Leipzig. || dessen || Der Autor is masculine, so the genitive relative pronoun is dessen. || @tags de.relative-clauses,de.genitive
+      fill: Die Nachbarin, ___ Katze immer auf unserem Balkon sitzt, ist sehr nett. || deren || Die Nachbarin is feminine: deren. || @tags de.relative-clauses,de.genitive
+      fill: Die Kinder, ___ Eltern im Ausland arbeiten, wohnen bei ihren Großeltern. || deren || The antecedent is plural (die Kinder): deren. || @tags de.relative-clauses,de.genitive
+      mc: Der Komiker, mit ___ Tochter ich studiert habe, tritt heute im Fernsehen auf. || *dessen | deren | dem || The antecedent der Komiker is masculine → dessen, even though Tochter is feminine. || @tags de.relative-clauses,de.genitive
+      mc: Die Sängerin, deren ___ Album gerade erschienen ist, gibt morgen ein Konzert. || *neues | neue | neuen || No article after deren, so the adjective takes the strong neuter ending: neues Album. || @tags de.relative-clauses,de.adjective-endings
+      rw: Combine with deren :: Ich kenne eine Malerin. Ihre Bilder sind sehr witzig. || Ich kenne eine Malerin, deren Bilder sehr witzig sind. || Ihre (her) becomes deren; the verb goes to the end. || @tags de.relative-clauses,de.genitive
+      rw: Combine with dessen :: Das ist mein Kollege. Sein Humor ist sehr trocken. || Das ist mein Kollege, dessen Humor sehr trocken ist. || Sein (his) becomes dessen; the verb goes to the end. || @tags de.relative-clauses,de.genitive
+      tf: Ole understood all the jokes about official German. || false || "Wortspiele mit Behördendeutsch verstehe ich noch nicht immer." || @ctx dialogue
+      short: What does Ole like about the cabaret artist's humour? || kw: selbst/herself/schwäch/weaker/nie/never || She never makes fun of weaker people, but mainly of herself. || @ctx dialogue
+      listen: @dialogue || What does the joke about the artist's parents refer to? || Their old car | *Their fax machine, which is still running | Their tax return || "Der Witz über ihre Eltern, deren Faxgerät noch immer läuft …"
+      listen: Kennst du den Unterschied zwischen umfahren und umfahren? Der eine fährt um den Baum herum, der andere fährt den Baum um. || What does the joke play on? || Two different trees | *A verb whose meaning changes with the stress | A driver who has lost his way || UM-fahren = to knock over, um-FAH-ren = to drive round: the meaning depends on the stress. || @tags de.listening,de.separable
+      tr: The comedian whose show I saw yesterday comes from Kiel. (a woman) || Die Komikerin, deren Show ich gestern gesehen habe, kommt aus Kiel. | Die Kabarettistin, deren Show ich gestern gesehen habe, kommt aus Kiel. | Die Komikerin, deren Programm ich gestern gesehen habe, kommt aus Kiel. | Die Kabarettistin, deren Programm ich gestern gesehen habe, kommt aus Kiel. || A feminine antecedent takes deren; the verb habe goes to the end of the relative clause. || @tags de.relative-clauses,de.genitive
+      dict: Humor ist das Letzte, was man in einer Fremdsprache wirklich lernt.
+      ask: „Worüber können Sie lachen – und worüber nicht?“ Give an example and use dessen or deren at least once. || kw: dessen/deren & lach/witz/humor/lustig/ironie/komisch || Ich lache gern über Komiker, deren Humor ein bisschen absurd ist. Aber Witze, deren Pointe auf Kosten von Schwächeren geht, finde ich nicht lustig.

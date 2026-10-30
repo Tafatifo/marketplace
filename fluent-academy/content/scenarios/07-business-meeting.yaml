@@ -1,0 +1,90 @@
+slug: business-meeting
+title: Taking part in a business meeting
+description: Join a project meeting — give an update, react to a proposal, and agree on next steps.
+category: work
+levels: B1-B2
+order: 7
+goals:
+  - Give a short progress update on your work
+  - Agree or disagree politely with a proposal
+  - Suggest an alternative or a compromise
+  - Summarise the decision and next steps
+roles:
+  tutor: a project manager chairing a weekly meeting
+  learner: a team member
+languages:
+  fr:
+    opener: Bon, on commence ? Tu peux nous faire un point rapide sur ton avancement ? | Right, shall we start? Can you give us a quick update on your progress?
+    focus: [fr.register, fr.conditionnel, fr.subjonctif]
+    vocab: |
+      faire le point | to give an update
+      je suis d'accord, mais… | I agree, but…
+      je propose que… | I suggest that… (+ subjunctive)
+      il faudrait… | we should…
+      si je résume… | to sum up…
+    script: |
+      Merci. Le client voudrait avancer la livraison de deux semaines. Qu'en penses-tu ? | Thanks. The client would like to bring delivery forward by two weeks. What do you think? | Give your opinion politely | kw: pense/d'accord/difficile/possible/à mon avis
+      Je comprends, mais c'est important pour eux. Tu as une autre solution ? | I understand, but it's important to them. Do you have another solution? | Suggest a compromise: je propose que… / on pourrait… | kw: propose/pourrait/faudrait/si
+      C'est une bonne idée. Qu'est-ce qu'il faudrait pour que ça marche ? | Good idea. What would be needed for it to work? | Say what is needed (resources, time) | kw: faudrait/besoin/personne/temps
+      D'accord. Qui peut s'en occuper ? | OK. Who can take care of it? | Volunteer or assign a task | kw: je peux/je m'en occupe/peut
+      Parfait. Tu peux résumer ce qu'on a décidé ? | Perfect. Can you summarise what we've decided? | Summarise the decision and next steps | kw: résume/on a décidé/donc/prochaine
+  es:
+    opener: Bueno, ¿empezamos? ¿Nos puedes poner al día sobre cómo va lo tuyo? | Right, shall we start? Can you update us on how your part is going?
+    focus: [es.register, es.conditional, es.subjunctive]
+    vocab: |
+      poner al día | to update
+      estoy de acuerdo, pero… | I agree, but…
+      propongo que… | I suggest that… (+ subjunctive)
+      habría que… | we would need to…
+      en resumen… | in summary…
+    script: |
+      Gracias. El cliente quiere adelantar la entrega dos semanas. ¿Qué opinas? | Thanks. The client wants to bring delivery forward two weeks. What do you think? | Give your opinion politely | kw: creo/opino/de acuerdo/difícil/en mi opinión
+      Lo entiendo, pero es importante para ellos. ¿Se te ocurre otra solución? | I understand, but it matters to them. Can you think of another solution? | Suggest a compromise | kw: propongo/podríamos/habría que/si
+      Buena idea. ¿Qué haría falta para que funcione? | Good idea. What would be needed for it to work? | Say what is needed | kw: haría falta/necesitamos/persona/tiempo
+      De acuerdo. ¿Quién se puede encargar? | OK. Who can take care of it? | Volunteer or assign a task | kw: puedo/me encargo/puede
+      Perfecto. ¿Puedes resumir lo que hemos decidido? | Perfect. Can you summarise what we've decided? | Summarise the decision | kw: resumen/hemos decidido/entonces/próximo
+  de:
+    opener: Gut, fangen wir an? Kannst du uns kurz sagen, wie weit du bist? | Right, shall we start? Can you briefly tell us how far you've got?
+    focus: [de.konjunktiv2, de.subordinate-clauses, de.register]
+    vocab: |
+      auf dem neuesten Stand | up to date
+      ich bin einverstanden, aber… | I agree, but…
+      ich schlage vor, dass… | I suggest that…
+      wir müssten… | we would have to…
+      zusammengefasst… | in summary…
+    script: |
+      Danke. Der Kunde möchte die Lieferung um zwei Wochen vorziehen. Was meinst du? | Thanks. The client wants to bring delivery forward by two weeks. What do you think? | Give your opinion politely | kw: meine/finde/einverstanden/schwierig/glaube
+      Verstehe, aber es ist ihnen wichtig. Hast du eine andere Lösung? | I see, but it's important to them. Do you have another solution? | Suggest a compromise: Ich schlage vor, dass… | kw: schlage vor/könnten/müssten/wenn
+      Gute Idee. Was bräuchten wir dafür? | Good idea. What would we need for that? | Say what is needed | kw: bräuchten/brauchen/person/zeit
+      Okay. Wer kann sich darum kümmern? | OK. Who can take care of it? | Volunteer or assign a task | kw: ich kann/kümmere/kann
+      Perfekt. Kannst du kurz zusammenfassen, was wir beschlossen haben? | Perfect. Can you sum up what we decided? | Summarise the decision and next steps | kw: zusammengefasst/beschlossen/also/nächste
+  en:
+    opener: OK, shall we get started? Could you give us a quick update on where you are? | -
+    focus: [en.modal-verbs, en.register, en.conditionals]
+    vocab: |
+      to bring someone up to speed | to update someone
+      I see your point, but… | polite disagreement
+      what if we…? | suggesting an alternative
+      we'd need to… | stating requirements
+      so, to recap… | summarising
+    script: |
+      Thanks. The client wants to bring the delivery forward by two weeks. What's your take? | - | Give your opinion politely | kw: think/agree/difficult/point/honestly
+      I get that, but it really matters to them. Do you see another option? | - | Suggest a compromise | kw: what if/could/suggest/maybe
+      That could work. What would we need to make it happen? | - | Say what is needed | kw: need/would/people/time/budget
+      OK. Who can take ownership of that? | - | Volunteer or assign a task | kw: I can/I'll/take/could
+      Perfect. Could you recap what we've agreed? | - | Summarise the decision and next steps | kw: recap/agreed/so/next
+  da:
+    opener: Godt, skal vi gå i gang? Kan du give os en kort status på, hvor langt du er? | Right, shall we get started? Can you give us a quick update on how far you've got?
+    focus: [da.opinion, da.connectors, da.conditional]
+    vocab: |
+      en statusopdatering | a progress update
+      jeg er enig, men… | I agree, but…
+      jeg foreslår, at… | I suggest that…
+      vi bliver nødt til at… | we will have to…
+      for at opsummere… | to sum up…
+    script: |
+      Tak. Kunden vil gerne rykke leveringen to uger frem. Hvad tænker du? | Thanks. The client would like to bring the delivery forward by two weeks. What do you think? | Give your opinion politely | kw: synes/tror/enig/svært/mener
+      Det forstår jeg, men det er vigtigt for dem. Har du en anden løsning? | I understand, but it's important to them. Do you have another solution? | Suggest a compromise: Jeg foreslår, at… | kw: foreslår/kunne/hvis/måske
+      God idé. Hvad ville vi have brug for til det? | Good idea. What would we need for that? | Say what is needed | kw: brug for/ville/tid/person/flere
+      Okay. Hvem kan tage sig af det? | OK. Who can take care of it? | Volunteer or assign a task | kw: jeg kan/tager/kan
+      Perfekt. Kan du lige opsummere, hvad vi har besluttet? | Perfect. Could you quickly sum up what we've decided? | Summarise the decision and next steps | kw: opsummere/besluttet/altså/næste/så

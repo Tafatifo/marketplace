@@ -1,0 +1,357 @@
+unit: 5
+title: In der Stadt und zu Hause
+theme: Town and home
+description: Name places in town and say what there is, ask for and give directions, and describe your home and where things are.
+free: false
+objectives:
+  - Say what there is in a town with es gibt and name places
+  - Ask for and give directions using the Sie-imperative
+  - Describe your home and say where things are with in, an and auf + dative
+canDo:
+  - I can say what there is in my town or neighbourhood.
+  - I can ask the way and understand simple directions.
+  - I can give simple directions to a stranger.
+  - I can describe my flat and say where things are.
+review: |
+  fill: Es gibt hier ___ Museum und ___ Bibliothek. || ein ; eine || Es gibt + accusative: das Museum → ein, die Bibliothek → eine. || @tags de.accusative
+  fill: Die Haltestelle ist ___ Bahnhof. || am || Bahnhof is masculine: an + dem Bahnhof = am Bahnhof. || @tags de.dative
+  mc: Choose the polite instruction. || Sie biegen rechts ab! | *Biegen Sie rechts ab! | Biegen rechts ab Sie! || Sie-imperative: verb first, then Sie; the separable prefix ab goes to the end. || @tags de.imperative
+  rw: Make it an instruction :: Sie nehmen den Bus Nummer zwölf. || Nehmen Sie den Bus Nummer zwölf! | Nehmen Sie den Bus Nummer zwölf. || Put the verb first, then Sie. || @tags de.imperative
+  fill: Die Bücher liegen ___ Tisch. (on) || auf dem || On top of a horizontal surface → auf; der Tisch → dem Tisch in the dative. || @tags de.dative @hint on
+  mc: "Das Bild hängt ___ Wand." || auf der | *an der | an dem || Walls are vertical surfaces, so German uses an; die Wand → der Wand in the dative. || @tags de.prepositions,de.dative
+  tr: There's no park here. || Hier gibt es keinen Park. | Es gibt hier keinen Park. | Es gibt keinen Park hier. || Es gibt + accusative; der Park → keinen Park. || @tags de.negation,de.accusative
+  tr: Turn left at the crossroads. || Gehen Sie an der Kreuzung links. | Biegen Sie an der Kreuzung links ab. | An der Kreuzung gehen Sie links. | Gehen Sie an der Kreuzung nach links. | An der Kreuzung biegen Sie links ab. || Sie-imperative + an der Kreuzung (dative). || @tags de.imperative,de.dative
+  listen: Das Hotel ist nicht weit. Gehen Sie geradeaus und dann die zweite Straße links. || How do you get to the hotel? || *Straight on, then the second street on the left | Straight on, then the second street on the right | The first street on the left, then straight on || Geradeaus = straight on; die zweite Straße links = the second street on the left. || @tags de.imperative
+  listen: Meine Wohnung hat zwei Zimmer, eine Küche, ein Bad und einen Balkon. || What does the flat have? || *Two rooms, a kitchen, a bathroom and a balcony | Three rooms and a garden | Two rooms and a garden || Zwei Zimmer, eine Küche, ein Bad und einen Balkon — no garden is mentioned. || @tags de.listening
+  ask: A tourist asks you the way to the station. Give directions in two or three steps. || kw: gehen sie/nehmen sie/biegen sie & links/rechts/geradeaus || Gehen Sie hier geradeaus. An der Ampel gehen Sie rechts. Der Bahnhof ist dann links.
+  write: Write an email to a friend about your new home and neighbourhood — the rooms, what there is nearby and where you like to sit. || min=40 || req: es gibt | im/in der/am/an der/auf dem | zimmer/wohnung/küche/kueche || Hallo Paul, meine neue Wohnung ist toll! Sie hat zwei Zimmer, eine Küche und ein Bad. Das Wohnzimmer ist hell und gemütlich. In der Nähe gibt es einen Park und eine Bäckerei. Die Haltestelle ist an der Ecke. Am Abend sitze ich oft auf dem Balkon. Liebe Grüße, Elif
+lessons:
+  - title: Places in town
+    summary: Name places in town, say what there is with es gibt, and say where something is with in, an and auf + dative.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [de.dative, de.accusative]
+    objectives:
+      - Name important places in town with their articles
+      - Say what there is (and isn't) with es gibt
+      - Say where places are with in, an and auf + dative
+    intro: |
+      Whether you are new in town or just visiting, you will want to know what's nearby: a bakery, a pharmacy, a bus stop. **Es gibt** (*there is / there are*) tells you what exists in a place, and the dative after **in**, **an** and **auf** tells you where it is: *im Zentrum, am Bahnhof, auf dem Marktplatz*.
+    vocab: |
+      die Stadt | town; city | n | Die Stadt ist klein, aber schön. | The town is small but beautiful. | g: f | pl: die Städte | c: in der Stadt; die Altstadt (old town)
+      der Bahnhof | (railway) station | n | Der Bahnhof ist im Zentrum. | The station is in the centre. | g: m | pl: die Bahnhöfe | c: der Hauptbahnhof (main station)
+      die Apotheke | pharmacy; chemist's | n | Gibt es hier eine Apotheke? | Is there a pharmacy here? | g: f | pl: die Apotheken
+      die Bäckerei | bakery | n | Die Bäckerei ist am Marktplatz. | The bakery is on the market square. | g: f | pl: die Bäckereien
+      die Bank | bank | n | Die Bank ist in der Hauptstraße. | The bank is on the high street. | g: f | pl: die Banken | n: Careful: die Bank meaning "bench" has the plural die Bänke.
+      die Post | post office; mail | n | Die Post ist am Bahnhof. | The post office is at the station. | g: f | pl: (usually no plural)
+      das Rathaus | town hall | n | Das Rathaus ist sehr alt. | The town hall is very old. | g: n | pl: die Rathäuser
+      das Museum | museum | n | Es gibt ein Museum in der Altstadt. | There's a museum in the old town. | g: n | pl: die Museen
+      der Supermarkt | supermarket | n | Gibt es hier einen Supermarkt? | Is there a supermarket here? | g: m | pl: die Supermärkte
+      die Haltestelle | (bus or tram) stop | n | Die Haltestelle ist an der Ecke. | The stop is on the corner. | g: f | pl: die Haltestellen | c: die Bushaltestelle
+      der Park | park | n | Wir joggen im Park. | We go jogging in the park. | g: m | pl: die Parks
+      die Straße | street; road | n | Ich wohne in der Goethestraße. | I live on Goethestraße. | g: f | pl: die Straßen | n: For a street, German says in der …straße.
+      es gibt | there is; there are | expr | Es gibt hier zwei Cafés. | There are two cafés here. | n: Always gibt (singular), always followed by the accusative: Es gibt einen Park.
+      in der Nähe | nearby | expr | Gibt es in der Nähe ein Café? | Is there a café nearby?
+    grammar:
+      title: "es gibt and the dative for places"
+      body: |
+        **Es gibt** means *there is* or *there are*. The verb is always **gibt** (singular), and what follows is in the **accusative**: *Es gibt **einen** Park* (der Park), *eine Apotheke, ein Museum, zwei Kinos*. The negative uses *kein*: *Es gibt **keinen** Supermarkt.* To ask, put *gibt* first: *Gibt es hier eine Bank?*
+
+        To say **where** something is (*Wo?*), use **in**, **an** or **auf** + the **dative**. In the dative the articles change: **der → dem**, **das → dem**, **die → der**. Two short forms are very common: *in + dem* = **im** (*im Park*) and *an + dem* = **am** (*am Bahnhof*).
+
+        Use **in** for inside a building or an area (*in der Stadt*), **an** for "at" or "next to" something such as a station, a corner or a river (*an der Ecke*), and **auf** for open places and surfaces (*auf dem Markt, auf dem Platz*).
+      table: |
+        Nominative | Dative (Wo?) | Example
+        der Park | im Park (in + dem) | Wir sind im Park.
+        das Zentrum | im Zentrum (in + dem) | Das Hotel ist im Zentrum.
+        die Stadt | in der Stadt | Ich wohne in der Stadt.
+        der Bahnhof | am Bahnhof (an + dem) | Die Post ist am Bahnhof.
+        die Ecke | an der Ecke | Die Haltestelle ist an der Ecke.
+        der Markt | auf dem Markt | Er ist auf dem Markt.
+      examples: |
+        Es gibt einen Supermarkt in der Nähe. | There's a supermarket nearby. | es gibt + accusative
+        Gibt es hier eine Apotheke? | Is there a pharmacy here? | question: Gibt es…?
+        In der Altstadt gibt es keinen Supermarkt. | There's no supermarket in the old town. | negative: kein
+        Das Museum ist am Marktplatz. | The museum is on the market square. | an + dem = am
+      tip: Wo? (where?) needs the dative. Learn places as chunks — im Park, am Bahnhof, in der Stadt — and new nouns will follow the same pattern.
+    dialogue:
+      title: Neu in Bremen
+      setting: Amira has just moved to Bremen. On the stairs she meets her new neighbour, Herr Petersen, and asks about the neighbourhood.
+      speakers: A=Amira/f; P=Herr Petersen/m
+      lines: |
+        A: Entschuldigung, ich bin neu hier. | Excuse me, I'm new here.
+        P: Ach, herzlich willkommen! | Oh, welcome!
+        A: Danke! Gibt es hier einen Supermarkt? | Thanks! Is there a supermarket here?
+        P: Ja, in der Bahnhofstraße. | Yes, on Bahnhofstraße.
+        A: Und gibt es auch eine Apotheke? | And is there a pharmacy too?
+        P: Ja, am Marktplatz. Da ist auch eine Bäckerei. | Yes, on the market square. There's a bakery there too.
+        A: Super. Gibt es in der Nähe einen Park? | Great. Is there a park nearby?
+        P: Nein, leider gibt es keinen Park. | No, unfortunately there's no park.
+        P: Aber die Weser ist ganz nah. | But the Weser is very close.
+        A: Toll! Und wo ist die Haltestelle? | Great! And where is the stop?
+        P: Die Haltestelle ist an der Ecke. | The stop is on the corner.
+        A: Vielen Dank, Herr Petersen! | Thank you very much, Mr Petersen!
+    pronunciation:
+      title: "th and h: Rathaus, Bahnhof"
+      body: |
+        In German, **th** is simply [t] — there is no English *th* sound: *Theater, Apotheke*. *Rathaus* is *Rat* + *Haus*, so you hear a t and then an h.
+
+        An **h** after a vowel is silent; it shows that the vowel is long: *Bahnhof* [ˈbaːnhoːf], *wohnen, Uhr*. At the start of a word or word part, h is pronounced as in English: *Haus, Haltestelle*.
+      items: |
+        Rathaus
+        Apotheke
+        Theater
+        Bahnhof
+        Haltestelle
+        Wo ist der Bahnhof?
+    culture:
+      title: The town centre
+      body: |
+        Many German towns are built around a *Marktplatz* (market square) with the *Rathaus* (town hall), a church and cafés. The old town (*Altstadt*) is often a pedestrian zone (*Fußgängerzone*) with shops, bakeries and pharmacies.
+
+        A pharmacy (*Apotheke*) is marked by a large red **A**. At night and on Sundays there is always an emergency pharmacy (*Notdienst*) open in the area; a list hangs in every pharmacy window. Drugstores (*Drogerien*) sell cosmetics and household products, but no prescription medicine.
+    mistakes: |
+      Es gibt ein Supermarkt in der Nähe. => Es gibt einen Supermarkt in der Nähe. | Es gibt takes the accusative: der Supermarkt → einen Supermarkt.
+      Wir sind in der Park. => Wir sind im Park. | Park is masculine: in + dem Park = im Park.
+      Es geben zwei Cafés. => Es gibt zwei Cafés. | Es gibt never changes, even with plural nouns.
+    task:
+      title: My neighbourhood
+      mode: speaking
+      body: |
+        Describe your neighbourhood to a new neighbour: what there is (Es gibt…), what there isn't (Es gibt keinen/keine/kein…) and where three places are (im…, am…, in der…). Record yourself in Speaking practice.
+    exercises: |
+      fill: Es gibt hier ___ Park. || einen || Es gibt + accusative: der Park → einen Park. || @tags de.accusative
+      fill: In der Altstadt gibt es ___ Supermarkt. (no) || keinen || The negative of einen is keinen. || @tags de.negation,de.accusative @hint no
+      fill: Wir joggen ___ Park. || im || In + dem Park = im Park (dative for location). || @tags de.dative
+      fill: Die Haltestelle ist an ___ Ecke. || der || Ecke is feminine: die Ecke → an der Ecke in the dative. || @tags de.dative
+      mc: "Die Post ist ___ Bahnhof." || an der | *am | an die || Bahnhof is masculine: an + dem = am. For a location you need the dative, not an die. || @tags de.dative
+      mc: Which question is correct? || *Gibt es hier eine Bank? | Gibt es hier einer Bank? | Geben es hier eine Bank? || Gibt es + accusative; die Bank → eine Bank. The verb is always gibt. || @tags de.questions,de.accusative
+      mc: Where is the pharmacy? || On Bahnhofstraße | *On the market square | On the corner || "Ja, am Marktplatz." || @ctx dialogue @skill reading @tags de.reading
+      tf: There's a park near Amira's new flat. || false || "Nein, leider gibt es keinen Park." But the river Weser is very close. || @ctx dialogue
+      rw: Answer with "Ja, es gibt…" :: Gibt es hier ein Museum? || Ja, es gibt hier ein Museum. | Ja, es gibt ein Museum. | Ja, hier gibt es ein Museum. || Das Museum is neuter, so the accusative is still ein Museum. || @tags de.accusative
+      tr: Is there a bakery nearby? || Gibt es in der Nähe eine Bäckerei? | Gibt es eine Bäckerei in der Nähe? | Gibt es hier in der Nähe eine Bäckerei? | Gibt es hier eine Bäckerei? || Gibt es + accusative (die Bäckerei → eine Bäckerei); nearby = in der Nähe. || @tags de.questions
+      tr: The museum is in the centre. || Das Museum ist im Zentrum. || In + dem Zentrum = im Zentrum. || @tags de.dative
+      listen: In der Hauptstraße gibt es zwei Banken und eine Apotheke. || What is there on the high street? || *Two banks and a pharmacy | A bank and two pharmacies | Two banks and a bakery || Zwei Banken = two banks; eine Apotheke = a pharmacy. || @tags de.listening
+      dict: Die Bäckerei ist am Marktplatz.
+      ask: Ask a passer-by whether there is a pharmacy or a supermarket nearby. || kw: gibt es & apotheke/supermarkt || Entschuldigung, gibt es hier in der Nähe eine Apotheke?
+
+  - title: Asking for directions
+    summary: Ask the way, understand directions and give them yourself with the Sie-imperative.
+    minutes: 40
+    skills: [listening, speaking, grammar]
+    tags: [de.imperative, de.question-words]
+    objectives:
+      - Ask the way politely
+      - Understand and give directions with the Sie-imperative
+      - Use links, rechts, geradeaus and phrases like die erste Straße
+    intro: |
+      Even with a map on your phone, you will sometimes need to ask someone the way — and understand the answer! Directions in German use the polite **imperative**: *Gehen Sie geradeaus. Nehmen Sie die zweite Straße links.* It is easy to form: verb first, then **Sie**.
+    vocab: |
+      Entschuldigung | excuse me; sorry | interj | Entschuldigung, wo ist der Bahnhof? | Excuse me, where is the station? | n: More formal: Entschuldigen Sie, …
+      der Weg | way; path | n | Ist das der Weg zum Bahnhof? | Is this the way to the station? | g: m | pl: die Wege | n: zum (= zu dem) before der/das nouns, zur (= zu der) before die nouns: zum Bahnhof, zur Post.
+      links | left; on the left | adv | Gehen Sie hier links. | Turn left here. | c: nach links (to the left)
+      rechts | right; on the right | adv | Das Hotel ist rechts. | The hotel is on the right. | c: nach rechts (to the right)
+      geradeaus | straight on | adv | Gehen Sie immer geradeaus. | Keep going straight on.
+      die Ampel | traffic lights | n | An der Ampel gehen Sie links. | At the traffic lights, turn left. | g: f | pl: die Ampeln | n: One set of lights is singular in German: die Ampel.
+      die Kreuzung | crossroads; junction | n | An der Kreuzung gehen Sie rechts. | At the crossroads, turn right. | g: f | pl: die Kreuzungen
+      die erste Straße | the first street | expr | Nehmen Sie die erste Straße links. | Take the first street on the left. | c: die zweite Straße; die dritte Straße
+      gehen | to go; to walk | v | Wir gehen zu Fuß. | We're walking. | c: zu Fuß gehen (to walk, go on foot)
+      weit | far | adj | Ist das weit? – Nein, nur fünf Minuten. | Is it far? – No, only five minutes. | n: Opposite: nah (near).
+      die Ecke | corner | n | Das Café ist an der Ecke. | The café is on the corner. | g: f | pl: die Ecken
+      gegenüber | opposite | adv | Die Bank ist gleich gegenüber. | The bank is right opposite. | n: gleich gegenüber = right across the road.
+      der Stadtplan | town map | n | Haben Sie einen Stadtplan? | Do you have a map of the town? | g: m | pl: die Stadtpläne
+      dort | there | adv | Dort ist die Haltestelle. | There's the stop. | c: da (there, more informal); hier (here)
+    grammar:
+      title: The Sie-imperative for directions
+      body: |
+        To give instructions politely, German uses the **Sie-imperative**: take the **Sie-form** of the verb, put it **first**, then add **Sie**: *Sie gehen geradeaus* → ***Gehen Sie** geradeaus!*
+
+        The rest of the sentence keeps its normal order, and separable prefixes still go to the end: ***Biegen Sie** an der Ampel links **ab**!* (abbiegen = to turn). Only **sein** is irregular: ***Seien Sie** pünktlich!*
+
+        For places in directions you already know the dative: *an der Ampel, an der Kreuzung, an der Ecke*. To ask the way, say *Wo ist…?* or *Wie komme ich zum/zur…?* — *zum* before der/das nouns, *zur* before die nouns: *zum Bahnhof, zur Post*.
+
+        Add **bitte** to sound even more polite: *Gehen Sie bitte geradeaus.*
+      table: |
+        Statement | Imperative | Meaning
+        Sie gehen geradeaus. | Gehen Sie geradeaus! | Go straight on!
+        Sie nehmen die erste Straße rechts. | Nehmen Sie die erste Straße rechts! | Take the first street on the right!
+        Sie biegen links ab. | Biegen Sie links ab! | Turn left!
+        Sie fahren mit dem Bus. | Fahren Sie mit dem Bus! | Take the bus!
+        Sie sind pünktlich. | Seien Sie pünktlich! | Be on time!
+      examples: |
+        Entschuldigung, wo ist die Post? | Excuse me, where is the post office? | asking
+        Wie komme ich zum Bahnhof? | How do I get to the station? | zum + der/das noun
+        Gehen Sie hier geradeaus und dann links. | Go straight on here and then left. | imperative
+        Nehmen Sie die zweite Straße rechts. | Take the second street on the right. | imperative
+      tip: Use your hands! Pointing while you say links, rechts or geradeaus makes directions much clearer — for you and for the person listening.
+    dialogue:
+      title: Wie komme ich zum Museum?
+      setting: Ravi is visiting the old town of Nuremberg. He asks Frau Wolf, who is waiting at a tram stop, for the way to the city museum.
+      speakers: R=Ravi/m; W=Frau Wolf/f
+      lines: |
+        R: Entschuldigung, wie komme ich zum Museum? | Excuse me, how do I get to the museum?
+        W: Zum Stadtmuseum? Das ist nicht weit. | To the city museum? It isn't far.
+        R: Super. Ich gehe zu Fuß. | Great. I'm walking.
+        W: Gehen Sie hier geradeaus bis zur Ampel. | Go straight on here as far as the traffic lights.
+        R: Bis zur Ampel. Okay. | As far as the lights. OK.
+        W: An der Ampel gehen Sie links. | At the lights, turn left.
+        W: Dann nehmen Sie die zweite Straße rechts. | Then take the second street on the right.
+        R: Die zweite Straße rechts? | The second street on the right?
+        W: Genau. Das Museum ist dort an der Ecke. | Exactly. The museum is there, on the corner.
+        R: Wie lange dauert das? | How long does it take?
+        W: Ungefähr zehn Minuten. | About ten minutes.
+        R: Vielen Dank! Schönen Tag noch! | Thank you very much! Have a nice day!
+    pronunciation:
+      title: "ng and nk"
+      body: |
+        The spelling **ng** is one single sound [ŋ], as in English *singer* (not *finger*): there is no separate g. You hear it in *Entschuldigung, Kreuzung, Richtung, lang*. The spelling **nk** is [ŋk], as in English *think*: *links, danke, trinken*.
+
+        In long words like *Entschuldigung*, the stress is on the second syllable: *ent-SCHUL-di-gung*.
+      items: |
+        Entschuldigung
+        Kreuzung
+        links
+        danke
+        Richtung
+        Gehen Sie links!
+    culture:
+      title: Crossing the road
+      body: |
+        In Germany pedestrians usually wait at a red light even when the road is empty — especially when children are around, because adults are expected to set a good example. Crossing at red can also get you a small fine.
+
+        In Berlin and other eastern cities you will see the *Ampelmännchen*, a little man with a hat on the pedestrian lights. It dates from the time of East Germany and has become a popular symbol of the city.
+    mistakes: |
+      Sie gehen links! (as an instruction) => Gehen Sie links! | In the Sie-imperative the verb comes first, then Sie.
+      Gehen links! => Gehen Sie links! | The polite imperative always needs Sie after the verb.
+      An die Ampel gehen Sie rechts. => An der Ampel gehen Sie rechts. | For a location (wo?), an takes the dative: die Ampel → an der Ampel.
+    task:
+      title: Show the way
+      mode: interaction
+      body: |
+        Draw a simple map of the streets around your home or school. A visitor asks you the way to three places (a bakery, the station, a park). Give directions with the Sie-imperative: geradeaus, links, rechts, an der Ampel, die erste/zweite Straße.
+    exercises: |
+      rw: Make it an instruction :: Sie gehen geradeaus. || Gehen Sie geradeaus! | Gehen Sie geradeaus. || Sie-imperative: verb first, then Sie. || @tags de.imperative
+      rw: Make it an instruction :: Sie nehmen die erste Straße links. || Nehmen Sie die erste Straße links! | Nehmen Sie die erste Straße links. || The verb nehmen moves to the front, followed by Sie. || @tags de.imperative
+      fill: ___ Sie an der Kreuzung rechts! (gehen) || Gehen || In the Sie-imperative the verb (Sie-form) comes first. || @tags de.imperative
+      fill: An ___ Ampel gehen Sie links. || der || Ampel is feminine: an der Ampel (dative for location). || @tags de.dative
+      mc: The bank is "gleich gegenüber". Where is it? || *Right opposite | Far away | On the left || Gleich gegenüber = right opposite, across the road. || @skill vocabulary @tags de.vocabulary
+      mc: Which is the polite imperative? || Sie nehmen den Bus! | *Nehmen Sie den Bus! | Nimm Sie den Bus! || Verb first + Sie; the verb keeps its normal Sie-form (nehmen). || @tags de.imperative
+      mc: Where exactly is the museum? || At the traffic lights | *On the corner, in the second street on the right | Opposite the tram stop || "Dann nehmen Sie die zweite Straße rechts. … Das Museum ist dort an der Ecke." || @ctx dialogue @skill reading @tags de.reading
+      tf: Ravi takes the tram to the museum. || false || He says "Ich gehe zu Fuß" — he walks. || @ctx dialogue
+      order: Gehen Sie an der Ampel links. || Turn left at the traffic lights. || @tags de.imperative @alt An der Ampel gehen Sie links.
+      tr: Excuse me, how do I get to the station? || Entschuldigung, wie komme ich zum Bahnhof? | Entschuldigen Sie, wie komme ich zum Bahnhof? | Entschuldigung, wie komme ich zum Hauptbahnhof? || Zum = zu dem, because der Bahnhof is masculine. || @tags de.question-words
+      tr: Take the second street on the left. || Nehmen Sie die zweite Straße links. | Nehmen Sie bitte die zweite Straße links. || Sie-imperative: Nehmen Sie… || @tags de.imperative
+      listen: Gehen Sie geradeaus, dann die erste Straße rechts. Die Apotheke ist an der Ecke. || How do you get to the pharmacy? || *Straight on, then first right — it's on the corner | Straight on, then first left — it's opposite | First right, then straight on to the lights || Geradeaus, die erste Straße rechts, an der Ecke. || @tags de.imperative
+      dict: Gehen Sie hier links und dann geradeaus.
+      ask: Ask a stranger politely how to get to the town hall, then ask if it is far. || kw: entschuldigung/entschuldigen & wie komme/wo ist & rathaus || Entschuldigung, wie komme ich zum Rathaus? Ist das weit?
+
+  - title: My home
+    summary: Describe your flat or house, name rooms and furniture, and say where things are with in, an and auf + dative.
+    minutes: 40
+    skills: [vocabulary, grammar, writing]
+    tags: [de.dative, de.prepositions]
+    objectives:
+      - Name rooms and furniture with their articles
+      - Describe your flat or house
+      - Say where things are with in, an and auf + dative
+    intro: |
+      Talking about where you live is a classic small-talk topic — and essential when you look for a flat or share one. In this lesson you will learn rooms and furniture and practise the dative after **in**, **an** and **auf**: *Das Sofa steht **im** Wohnzimmer. Das Bild hängt **an der** Wand. Die Lampe steht **auf dem** Tisch.*
+    vocab: |
+      die Wohnung | flat; apartment | n | Meine Wohnung ist klein, aber hell. | My flat is small but bright. | g: f | pl: die Wohnungen | c: die Zweizimmerwohnung (two-room flat)
+      das Haus | house | n | Das Haus hat einen Garten. | The house has a garden. | g: n | pl: die Häuser | c: zu Hause (at home)
+      das Zimmer | room | n | Die Wohnung hat drei Zimmer. | The flat has three rooms. | g: n | pl: die Zimmer | n: In flat adverts, Zimmer counts the living room and bedrooms, not the kitchen or bathroom.
+      die Küche | kitchen | n | Wir essen oft in der Küche. | We often eat in the kitchen. | g: f | pl: die Küchen
+      das Bad | bathroom | n | Das Bad ist neu. | The bathroom is new. | g: n | pl: die Bäder | n: Also das Badezimmer.
+      das Wohnzimmer | living room | n | Das Sofa steht im Wohnzimmer. | The sofa is in the living room. | g: n | pl: die Wohnzimmer
+      das Schlafzimmer | bedroom | n | Mein Schlafzimmer ist ruhig. | My bedroom is quiet. | g: n | pl: die Schlafzimmer
+      der Tisch | table | n | Die Schlüssel liegen auf dem Tisch. | The keys are on the table. | g: m | pl: die Tische
+      das Bett | bed | n | Das Bett ist sehr groß. | The bed is very big. | g: n | pl: die Betten
+      der Schrank | cupboard; wardrobe | n | Der Schrank ist im Flur. | The wardrobe is in the hall. | g: m | pl: die Schränke
+      die Wand | wall | n | Das Bild hängt an der Wand. | The picture is hanging on the wall. | g: f | pl: die Wände
+      der Balkon | balcony | n | Wir frühstücken auf dem Balkon. | We have breakfast on the balcony. | g: m | pl: die Balkone
+      hell | bright; light | adj | Das Zimmer ist sehr hell. | The room is very bright. | n: Opposite: dunkel (dark).
+      gemütlich | cosy; comfortable | adj | Die Küche ist klein, aber gemütlich. | The kitchen is small but cosy. | n: A very German idea: warm, relaxed and comfortable.
+    grammar:
+      title: "Where is it? in, an, auf + dative"
+      body: |
+        To say **where** something is, German uses a preposition + the **dative**. The articles change: **der → dem**, **das → dem**, **die → der**.
+
+        - **in** = inside: *im Bad* (in + dem), *in der Küche*
+        - **an** = on a vertical surface, or next to something: *an der Wand, am Fenster* (an + dem)
+        - **auf** = on top of a horizontal surface: *auf dem Tisch, auf dem Balkon*
+
+        German also likes to say *how* things are placed: **stehen** for things standing upright (*Das Sofa steht im Wohnzimmer*), **liegen** for things lying flat (*Das Buch liegt auf dem Bett*) and **hängen** for things hanging (*Das Bild hängt an der Wand*). For people, use **sein**: *Mama ist in der Küche.*
+
+        The question is always **Wo?**: *Wo ist der Schlüssel? – Auf dem Tisch.*
+      table: |
+        Preposition | der / das → dem | die → der
+        in | im Schrank, im Bad | in der Küche
+        an | am Fenster, am Schrank | an der Wand
+        auf | auf dem Tisch, auf dem Bett | auf der Terrasse
+      examples: |
+        Das Sofa steht im Wohnzimmer. | The sofa is in the living room. | in + dem = im
+        Das Bild hängt an der Wand. | The picture is hanging on the wall. | an + der
+        Mein Handy liegt auf dem Tisch. | My phone is on the table. | auf + dem
+        Wo ist Lukas? – Er ist in der Küche. | Where's Lukas? – He's in the kitchen. | people: sein
+      tip: Learn one model sentence — "im Bad, an der Wand, auf dem Tisch" — and use it as a pattern for new nouns.
+    dialogue:
+      title: Die neue Wohnung
+      setting: Jonas has just moved into a shared flat in Göttingen. His friend Mia comes to see it.
+      speakers: J=Jonas/m; M=Mia/f
+      lines: |
+        M: Hallo Jonas! Die Wohnung ist schön! | Hi Jonas! The flat is lovely!
+        J: Danke! Hier ist die Küche. | Thanks! This is the kitchen.
+        M: Die Küche ist groß und hell. | The kitchen is big and bright.
+        J: Ja, wir kochen oft zusammen. | Yes, we often cook together.
+        M: Wie viele Zimmer hat die Wohnung? | How many rooms does the flat have?
+        J: Drei Zimmer, eine Küche und ein Bad. | Three rooms, a kitchen and a bathroom.
+        M: Und wo ist dein Zimmer? | And where's your room?
+        J: Hier links. Es ist klein, aber gemütlich. | Here on the left. It's small but cosy.
+        M: Oh, das Bild an der Wand ist toll! | Oh, the picture on the wall is great!
+        J: Danke! Und das Bett steht am Fenster. | Thanks! And the bed is by the window.
+        M: Gibt es auch einen Balkon? | Is there a balcony too?
+        J: Ja! Wir frühstücken oft auf dem Balkon. | Yes! We often have breakfast on the balcony.
+    pronunciation:
+      title: "ü: Küche, Stühle, gemütlich"
+      body: |
+        **ü** is pronounced like **i**, but with rounded lips: say *ee*, keep your tongue where it is, and push your lips forward as for *oo*. There is a long ü (*Stühle, Tür, über*) and a short ü (*Küche, Schlüssel*).
+
+        Keep **ü** and **u** apart: *Küche* (kitchen) and *Kuchen* (cake) are different words!
+      items: |
+        Küche
+        Kuchen
+        Stühle
+        Tür
+        gemütlich
+        Schlüssel
+    culture:
+      title: Flats, WGs and floors
+      body: |
+        Many people in Germany rent rather than own their home, and flats in apartment blocks are very common. Students and young professionals often live in a *WG* (*Wohngemeinschaft*), a shared flat where everyone has their own room and shares the kitchen and bathroom.
+
+        Be careful with floors: the *Erdgeschoss* is the ground floor, so the *erste Stock* is what Americans call the second floor. And when you rent, check whether the flat comes with a kitchen — unfurnished flats in Germany sometimes have no kitchen units at all!
+    mistakes: |
+      Das Bild hängt auf der Wand. => Das Bild hängt an der Wand. | For vertical surfaces like walls, German uses an, not auf.
+      Die Lampe steht auf der Tisch. => Die Lampe steht auf dem Tisch. | Tisch is masculine, and the dative of der is dem.
+      Ich bin in Küche. => Ich bin in der Küche. | German needs the article here: in der Küche.
+    task:
+      title: Describe your home
+      mode: writing
+      body: |
+        A new friend asks about your home. Write 5–6 sentences: what kind of home it is, how many rooms it has, what your favourite room is like, and where two or three things are (im…, an der…, auf dem…).
+    exercises: |
+      fill: Das Bett steht ___ Schlafzimmer. || im || In + dem Schlafzimmer = im Schlafzimmer. || @tags de.dative
+      fill: Der Schlüssel liegt auf ___ Tisch. || dem || Tisch is masculine: der → dem in the dative. || @tags de.dative
+      fill: Mama ist in ___ Küche. || der || Küche is feminine: die → der in the dative. || @tags de.dative
+      fill: Das Foto hängt ___ der Wand. || an || For walls (vertical surfaces) use an. || @tags de.prepositions
+      mc: "Die Katze liegt ___ Bett." || in der | *auf dem | auf der || On top of the bed → auf; Bett is neuter, so the dative is dem. || @tags de.dative,de.prepositions
+      mc: "Gemütlich" means… || *cosy | bright | big || Gemütlich = cosy and comfortable; hell = bright; groß = big. || @skill vocabulary @tags de.vocabulary
+      mc: How many rooms does the flat have (not counting the kitchen and bathroom)? || Two | *Three | Four || "Drei Zimmer, eine Küche und ein Bad." || @ctx dialogue @skill reading @tags de.reading
+      tf: Jonas's bed is by the window. || true || "Das Bett steht am Fenster." || @ctx dialogue
+      order: Die Lampe steht auf dem Tisch im Wohnzimmer. || The lamp is on the table in the living room. || @tags de.dative @alt Im Wohnzimmer steht die Lampe auf dem Tisch. | Auf dem Tisch im Wohnzimmer steht die Lampe.
+      tr: My flat has two rooms and a balcony. || Meine Wohnung hat zwei Zimmer und einen Balkon. || After haben, der Balkon becomes einen Balkon (accusative). || @tags de.accusative
+      tr: The picture is hanging on the wall. || Das Bild hängt an der Wand. | Das Bild ist an der Wand. || An + der Wand (dative for location). || @tags de.dative,de.prepositions
+      listen: Mein Zimmer ist klein. Der Schreibtisch steht am Fenster und das Bett an der Wand. || Where is the desk? || Next to the bed | *By the window | In the hall || Am Fenster = by the window. || @tags de.dative
+      dict: Wir frühstücken oft auf dem Balkon.
+      ask: Tell a friend about your favourite room and where two things are. || kw: im/in der/am/an der/auf dem/auf der & steht/liegt/hängt/haengt/ist || Mein Lieblingszimmer ist das Wohnzimmer. Das Sofa steht am Fenster und ein Bild hängt an der Wand.
+      write: Write a short ad for a free room in your shared flat — the room, the furniture and the other rooms. || min=25 || req: zimmer | im/in der/am/an der/auf dem | hell/groß/gross/klein/gemütlich/ruhig || Zimmer frei! Das Zimmer ist hell und ruhig. Es gibt ein Bett, einen Schrank und einen Tisch am Fenster. Die Küche ist groß und gemütlich. Das Bad ist neu. Wir sind zwei Studentinnen und ein Student.

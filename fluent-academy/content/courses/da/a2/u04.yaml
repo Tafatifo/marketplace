@@ -1,0 +1,363 @@
+unit: 4
+title: Arbejde og studier
+theme: Work and studies
+description: Talk about your studies and how long you have done things (i … år, siden), describe a working day and give reasons with fordi, and apply for a job with at-clauses — learning the word order of Danish subordinate clauses.
+free: false
+objectives:
+  - Talk about your studies and say how long with i … år and siden
+  - Describe a working day and give reasons with fordi
+  - Apply for a job and say what you think and hope with at-clauses
+canDo:
+  - I can say what I study or do, and how long I have done it.
+  - I can describe my working day and explain why with fordi.
+  - I can put ikke and other adverbs before the verb after fordi and at.
+  - I can write a short job application and answer simple interview questions.
+review: |
+  fill: Jeg har boet i Danmark ___ 2020. || siden || Siden + a point in time (2020) = since. || @tags da.prepositions-time
+  fill: Vi har lært dansk ___ seks måneder. || i || I + a period (seks måneder) = for. || @tags da.prepositions-time
+  mc: Han er altid træt, fordi… || *han aldrig sover nok. | han sover aldrig nok. | aldrig han sover nok. || After fordi, aldrig comes before the verb: fordi han aldrig sover. || @tags da.subordinate-clauses,da.sentence-adverbs
+  rw: Join the sentences with "at" :: Jeg tror. Hun kan ikke komme i morgen. || Jeg tror, at hun ikke kan komme i morgen. | Jeg tror, hun ikke kan komme i morgen. || In the at-clause, ikke comes before the verb: at hun ikke kan. || @tags da.subordinate-clauses,da.negation
+  fill: Jeg ___ travlt på arbejdet i denne uge. || har || "I'm busy" = jeg har travlt. || @tags da.vaere-have
+  mc: "Hvor længe har du arbejdet her?" Which answer fits? || *I to år. | For to år siden. | Siden to år. || Hvor længe asks about a period: i to år. For to år siden answers hvornår (when), and siden needs a point in time. || @tags da.prepositions-time
+  tr: I'm applying for the job because I have experience with children. || Jeg søger jobbet, fordi jeg har erfaring med børn. | Jeg søger stillingen, fordi jeg har erfaring med børn. | Jeg søger det job, fordi jeg har erfaring med børn. || Søge takes a direct object; after fordi the order is subject + verb. || @tags da.subordinate-clauses
+  fill: Jeg er god ___ at lave mad. || til || Good at = god til + at + infinitive. || @tags da.infinitive
+  listen: Jeg har arbejdet som sygeplejerske i ti år, og jeg har boet i Esbjerg siden 2019. || How long has the speaker worked as a nurse? || Since 2019 | *For ten years | For two years || "I ti år" = for ten years; siden 2019 is about where she lives. || @tags da.prepositions-time,da.listening
+  listen: Mødet er flyttet til torsdag, fordi chefen ikke er her på onsdag. || Why has the meeting been moved? || *The boss isn't here on Wednesday | The room is booked | Thursday is quieter || "Fordi chefen ikke er her på onsdag." || @tags da.subordinate-clauses,da.listening
+  ask: Tell a new colleague what you do at work or school, and why you like it — use fordi. || kw: fordi & arbejder/læser/studerer/er ansvarlig/laver || Jeg arbejder i en børnehave. Jeg kan godt lide mit job, fordi børnene altid er glade.
+  write: Write an email to a language school — say how long you have learned Danish, why you want to join a course, and that you hope to start soon. || min=40 || req: har lært/har læst/har gået | fordi | håber || Kære Sprogskolen Vest. Jeg har lært dansk i et år, og jeg har gået på aftenhold siden september. Nu vil jeg gerne begynde på et dagkursus, fordi jeg ikke arbejder om formiddagen længere. Jeg håber, at der er en ledig plads i januar. Venlig hilsen Pedro Alves
+lessons:
+  - title: My studies
+    summary: Say what and where you study and how long you have studied, with i … år (for) and siden (since).
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [da.prepositions-time, da.perfect, da.question-words]
+    objectives:
+      - Say what and where you study, and how long you have studied
+      - Use i + period for duration and siden + point in time
+      - Talk about courses, lectures, assignments and exams
+    intro: |
+      "Hvad læser du?" — what are you studying? — is one of the first questions students ask each other in Denmark. To answer, you need some study vocabulary and two ways to talk about time: **i to år** (for two years) and **siden 2023** (since 2023). In this lesson you will talk about your studies, your Danish course and your exams.
+    vocab: |
+      læse | to study (a subject); to read | v | Jeg læser medicin på universitetet. | I'm studying medicine at university. | n: Læse + subject = study at university or college: Hun læser jura.
+      et universitet | a university | n | Han læser på universitetet i Roskilde. | He studies at the university in Roskilde. | g: n | pl: universiteter | c: på universitetet (at university)
+      et fag | a subject | n | Mit yndlingsfag er matematik. | My favourite subject is maths. | g: n | pl: fag
+      et kursus | a course | n | Jeg går på et danskkursus om aftenen. | I'm doing a Danish course in the evenings. | g: n | pl: kurser | n: Definite: kurset. Gå på kursus = attend a course.
+      en eksamen | an exam | n | Vi har eksamen i juni. | We have exams in June. | g: c | pl: eksaminer | c: gå op til eksamen (sit an exam) | n: Often without an article: have eksamen.
+      en forelæsning | a lecture | n | Forelæsningen begynder klokken kvart over otte. | The lecture starts at a quarter past eight. | g: c | pl: forelæsninger
+      en opgave | an assignment; a task | n | Jeg skriver en opgave om vindenergi. | I'm writing an assignment on wind energy. | g: c | pl: opgaver | c: aflevere en opgave (hand in an assignment)
+      et semester | a semester; a term | n | Det her semester har jeg fire fag. | This semester I have four subjects. | g: n | pl: semestre
+      siden | since | prep | Jeg har lært dansk siden januar. | I've been learning Danish since January. | n: Siden + a point in time: siden 2022, siden mandag.
+      i … år | for … years | expr | Hun har boet i Aalborg i tre år. | She has lived in Aalborg for three years. | n: I + a period: i to uger, i en måned, i fem år.
+      bestå | to pass (an exam) | v | Jeg bestod min eksamen i går! | I passed my exam yesterday! | n: Irregular: bestå → bestod → har bestået.
+      dumpe | to fail (an exam or test) | v | Han dumpede til køreprøven første gang. | He failed his driving test the first time. | n: Past: dumpede.
+      en medstuderende | a fellow student | n | Jeg læser tit sammen med to medstuderende. | I often study with two fellow students. | g: c | pl: medstuderende
+    grammar:
+      title: "How long? i … år, siden and for … siden"
+      body: |
+        Danish has three short time expressions that English speakers easily mix up:
+
+        - **i + a period** = *for* (duration): *Jeg har lært dansk i to år.* (I've learned Danish for two years.) *Vi boede i Paris i et år.*
+        - **siden + a point in time** = *since*: *Jeg har lært dansk siden 2023. Hun har været syg siden mandag.*
+        - **for … siden** = *ago* (from unit 1): *Jeg begyndte for to år siden.*
+
+        **Which tense?** When something started in the past and is still true, use the perfect — as in English: *Jeg har boet her i fem år* (and I still live here). When it's over, use the past: *Jeg boede i Bergen i fem år* (but not any more).
+
+        Ask **Hvor længe…?** (How long…?) for a period, and **Hvornår…?** (When…?) for a point in time: *Hvor længe har du læst medicin? – I tre år. Hvornår begyndte du? – For tre år siden.*
+      table: |
+        Expression | Meaning | Example
+        i + period | for | Jeg har boet her i fem år.
+        siden + point in time | since | Jeg har boet her siden 2020.
+        for … siden | ago | Jeg flyttede hertil for fem år siden.
+        hvor længe? | how long? | Hvor længe har du boet her?
+      examples: |
+        Hvor længe har du læst økonomi? – I halvandet år. | How long have you been studying economics? – For a year and a half. | i + period
+        Biblioteket har været lukket siden fredag. | The library has been closed since Friday. | siden + a day
+        Jeg gik på kursus i Odense i seks måneder. | I did a course in Odense for six months. | finished: past tense
+        Hun bestod eksamen for en uge siden. | She passed the exam a week ago. | for … siden
+      tip: "A period (two years) → i. A starting point (2023, January, Monday) → siden. How far back from now → for … siden."
+    dialogue:
+      title: I studiegruppen
+      setting: The student canteen at the university in Odense. Mie, a Danish student, meets Min-jun, an exchange student from South Korea, before their first study-group meeting.
+      speakers: M=Mie/f; J=Min-jun/m
+      lines: |
+        M: Hej! Er du også med i studiegruppen? | Hi! Are you in the study group too?
+        J: Ja, jeg hedder Min-jun. Jeg er udvekslingsstuderende fra Seoul. | Yes, I'm Min-jun. I'm an exchange student from Seoul.
+        M: Velkommen! Hvad læser du? | Welcome! What are you studying?
+        J: Jeg læser til ingeniør. | I'm studying to be an engineer.
+        M: Hvor længe har du været i Danmark? | How long have you been in Denmark?
+        J: Siden august. Altså i to måneder nu. | Since August. So for two months now.
+        M: Og du taler allerede dansk! | And you already speak Danish!
+        J: Lidt. Jeg har gået på kursus siden min første uge. | A little. I've been doing a course since my first week.
+        M: Imponerende. Har I mange forelæsninger? | Impressive. Do you have a lot of lectures?
+        J: Ja, og vi skal aflevere en stor opgave i december. | Yes, and we have to hand in a big assignment in December.
+        M: Hvornår har du eksamen? | When are your exams?
+        J: I januar. Men først skal jeg overleve den danske vinter! | In January. But first I have to survive the Danish winter!
+    pronunciation:
+      title: Stress in study words
+      body: |
+        Danish compounds are stressed on the **first** part: **forelæsning** (FOR-e-les-ning), **opgave** (OP-ga-ve), **kursus** (KUR-sus). Words borrowed from Latin and French are stressed **late**: **universitet** (u-ni-ver-si-TET), **eksamen** (ek-SA-men), **semester** (se-MES-ter).
+
+        Getting the stress right matters more than getting every sound right — it's what helps Danes recognise the word. Listen, tap the rhythm on the table, and repeat.
+      items: |
+        forelæsning
+        opgave
+        universitet
+        eksamen
+        semester
+        Hvad læser du?
+    culture:
+      title: Studying in Denmark
+      body: |
+        Teaching at Danish universities is informal: students call teachers by their first name and are expected to discuss and ask questions. A lot of work is done in groups (**gruppearbejde**), and many exams are oral.
+
+        Danish grades use a seven-step scale, **7-trinsskalaen**: 12 is the top grade, 02 is the lowest pass, and 00 and -3 are fails. So if a Danish friend proudly says "Jeg fik 12!", congratulate them.
+    mistakes: |
+      Jeg har lært dansk siden to år. => Jeg har lært dansk i to år. | A period (to år) takes i. Siden needs a point in time: siden 2023.
+      Jeg bor her i fem år. => Jeg har boet her i fem år. | For something that started in the past and is still true, use the perfect.
+      Jeg har eksamen på juni. => Jeg har eksamen i juni. | Months take i: i juni, i december.
+    task:
+      title: Introduce yourself to your study group
+      mode: speaking
+      body: |
+        You have just joined a Danish course or a study group. Introduce yourself: what you study or work with, how long you have learned Danish, since when you have lived in your town, and one exam or deadline you have soon. Try it in the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      fill: Jeg har lært dansk ___ to år. || i || I + a period = for: i to år. || @tags da.prepositions-time
+      fill: Hun har boet i Aarhus ___ 2019. || siden || Siden + a point in time = since. || @tags da.prepositions-time
+      fill: Hvor ___ har du læst medicin? – I tre år. || længe || Hvor længe = how long. || @tags da.question-words
+      mc: "Vi har ikke set hinanden ___ sommerferien." || i | *siden | for || Sommerferien is a point in time, so use siden (since the summer holidays). || @tags da.prepositions-time
+      mc: "Jeg har boet i Danmark i fire år." What does it mean? || I lived in Denmark for four years, but I don't now. | *I've lived in Denmark for four years, and I still do. | I'm going to live in Denmark for four years. || The perfect + i fire år describes something that started in the past and is still true. || @tags da.perfect,da.prepositions-time
+      mc: "Hun læser jura" means… || She is reading a law book. | *She is studying law. | She works as a lawyer. || Læse + subject = study at university or college. || @tags da.vocabulary
+      tf: Min-jun has been in Denmark for two months. || true || "Siden august. Altså i to måneder nu." || @ctx dialogue
+      short: When does Min-jun have his exams? || kw: januar/january || "Hvornår har du eksamen? – I januar." || @ctx dialogue
+      listen: @dialogue || What does Min-jun have to hand in in December? || An exam paper for Mie | *A big assignment | A Danish test || "Vi skal aflevere en stor opgave i december." || @tags da.listening
+      listen: Jeg hedder Clara. Jeg har læst biologi i to år, og jeg har arbejdet i en boghandel siden marts. || Since when has Clara worked in a bookshop? || *Since March | For two years | Since May || "Jeg har arbejdet i en boghandel siden marts." She has studied biology for two years. || @tags da.prepositions-time,da.listening
+      rw: Use "siden" — the course started in May :: Jeg har gået på kurset i tre måneder. || Jeg har gået på kurset siden maj. || A starting point takes siden: siden maj. || @tags da.prepositions-time
+      tr: How long have you lived in Denmark? || Hvor længe har du boet i Danmark? | Hvor lang tid har du boet i Danmark? || Hvor længe + perfect, because you still live there. || @tags da.question-words,da.perfect
+      ask: Tell a classmate what you study or do, and how long you have learned Danish. || kw: læser/arbejder/studerer/går på & i/siden & har || Jeg læser økonomi, og jeg har lært dansk i et år. Jeg har boet i Odense siden sidste sommer.
+      write: Write a short profile for your study group — what you study, since when, how long you have lived in your town, and one exam or assignment you have soon. || min=35 || req: læser/studerer/går på | siden | har boet/har læst/har lært/har gået || Hej alle sammen! Jeg hedder Noor, og jeg læser sygepleje. Jeg begyndte på uddannelsen for et år siden. Jeg har boet i Aalborg siden 2022, og jeg har lært dansk i tre år. I december skal vi aflevere en stor opgave. Vi ses!
+      dict: Vi har eksamen i juni, så jeg læser hver aften.
+
+  - title: A day at work
+    summary: Describe your working day and explain why with fordi — and learn where ikke and other adverbs go in a subordinate clause.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [da.subordinate-clauses, da.negation, da.sentence-adverbs]
+    objectives:
+      - Describe your tasks and your working day
+      - Give reasons with fordi
+      - Put ikke, altid and other adverbs before the verb in a subordinate clause
+    intro: |
+      Why do you start so early? Why don't you take the bus? Whenever you explain a reason, you use **fordi** (because) — and fordi starts a subordinate clause, which has its own word order: *Jeg cykler, fordi jeg **ikke** har en bil.* In this lesson you will describe a day at work and learn the most important word-order rule of A2.
+    vocab: |
+      en arbejdsdag | a working day | n | Min arbejdsdag begynder klokken halv otte. | My working day starts at half past seven. | g: c | pl: arbejdsdage
+      en kollega | a colleague | n | Mine kolleger er meget hjælpsomme. | My colleagues are very helpful. | g: c | pl: kolleger | n: The plural kollegaer is also correct.
+      en chef | a boss; a manager | n | Min chef arbejder hjemme om fredagen. | My boss works from home on Fridays. | g: c | pl: chefer
+      et møde | a meeting | n | Vi har møde hver mandag klokken ni. | We have a meeting every Monday at nine. | g: n | pl: møder | c: holde møde (hold a meeting); være til møde (be in a meeting)
+      en frokostpause | a lunch break | n | I frokostpausen spiser vi sammen i kantinen. | In the lunch break we eat together in the canteen. | g: c | pl: frokostpauser
+      en kunde | a customer; a client | n | Jeg taler med kunder hele dagen. | I talk to customers all day. | g: c | pl: kunder
+      have fri | to be off work | expr | Jeg har fri på onsdag, fordi jeg arbejdede i weekenden. | I'm off on Wednesday because I worked at the weekend. | n: Also en fridag (a day off).
+      have travlt | to be busy | expr | Vi har travlt før jul. | We're busy before Christmas. | n: Literally "have busy". The adjective travl describes a day or a place: en travl dag.
+      hjemmefra | from home | adv | Jeg arbejder hjemmefra to dage om ugen. | I work from home two days a week.
+      fordi | because | conj | Jeg tager toget, fordi jeg ikke har en bil. | I take the train because I don't have a car. | n: Starts a subordinate clause, so ikke comes before the verb.
+      en vagt | a shift | n | I næste uge har jeg tre aftenvagter. | Next week I have three evening shifts. | g: c | pl: vagter | c: en nattevagt (a night shift); have vagt (be on duty)
+      ansvarlig for | responsible for | expr | Jeg er ansvarlig for lageret. | I'm responsible for the warehouse. | n: Ansvarlig for + noun.
+      gå hjem | to go home; to leave work | expr | Om fredagen går vi hjem klokken tre. | On Fridays we leave at three. | n: Danes "go home" from work even if they drive.
+    grammar:
+      title: "Fordi — and the word order of subordinate clauses"
+      body: |
+        **Fordi** (because) adds a reason to a sentence: *Jeg står tidligt op, fordi jeg begynder klokken syv.* The part after fordi is a **subordinate clause** (*ledsætning*), and it has two rules of its own:
+
+        1. **No inversion.** The subject always comes before the verb: *fordi jeg begynder* — never *fordi begynder jeg*.
+        2. **Ikke and other sentence adverbs come before the verb.** That includes *ikke, altid, aldrig, også, tit, gerne* and *kun*.
+
+        Main clause: *Jeg har **ikke** en bil.* → Subordinate: *…, fordi jeg **ikke** har en bil.*
+        Main clause: *Hun arbejder **altid** om lørdagen.* → Subordinate: *…, fordi hun **altid** arbejder om lørdagen.*
+
+        With two verbs, the adverb comes before the first one: *…, fordi jeg ikke kan komme. …, fordi vi aldrig har haft tid.*
+
+        You may write a comma before fordi; this course does. If the fordi-clause comes first, the main clause starts with its verb: *Fordi det regnede, tog jeg bussen.* The same rules apply after **at** (next lesson), **når** and **hvis** (unit 8).
+      table: |
+        Main clause | After fordi
+        Jeg har ikke tid. | …, fordi jeg ikke har tid.
+        Han kommer altid for sent. | …, fordi han altid kommer for sent.
+        Vi kan ikke parkere her. | …, fordi vi ikke kan parkere her.
+        Hun har aldrig været der. | …, fordi hun aldrig har været der.
+      examples: |
+        Jeg cykler på arbejde, fordi jeg ikke kan lide bussen. | I cycle to work because I don't like the bus. | ikke before kan
+        Vi holder møde om mandagen, fordi alle er på kontoret. | We have our meetings on Mondays because everyone is at the office. | no inversion: alle er
+        Han er træt, fordi han altid har nattevagt i weekenden. | He's tired because he always works nights at the weekend. | altid before har
+        Hvorfor går du så tidligt? – Fordi jeg skal hente min søn. | Why are you leaving so early? – Because I have to pick up my son. | a short answer with fordi
+      tip: "In a fordi-clause, think \"subject – ikke – verb\": fordi jeg ikke har, fordi hun ikke kan, fordi vi ikke vil."
+    dialogue:
+      title: Første uge på lageret
+      setting: A Friday afternoon at a logistics company in Kolding. Aksel started on Monday; he asks his colleague Mona about the working day.
+      speakers: A=Aksel/m; M=Mona/f
+      lines: |
+        A: Hej, Mona. Hvornår begynder du om morgenen? | Hi, Mona. When do you start in the morning?
+        M: Klokken syv, fordi jeg gerne vil hjem tidligt. | At seven, because I like to go home early.
+        A: Og hvornår går du hjem? | And when do you leave?
+        M: Klokken tre. Så kan jeg hente mine børn. | At three. Then I can pick up my kids.
+        A: Arbejder du også hjemmefra? | Do you work from home as well?
+        M: Nej, ikke så tit, fordi jeg er ansvarlig for lageret. | No, not very often, because I'm responsible for the warehouse.
+        A: Hvorfor er der så stille i dag? | Why is it so quiet today?
+        M: Fordi mange kolleger har fri i dag. | Because a lot of colleagues are off today.
+        A: Har vi møde på mandag? | Do we have a meeting on Monday?
+        M: Ja, klokken ni. Kom til tiden, fordi chefen ikke kan lide at vente! | Yes, at nine. Be on time, because the boss doesn't like waiting!
+        A: Det skal jeg nok huske. Tak for hjælpen! | I'll be sure to remember that. Thanks for your help!
+        M: Selv tak. Og god weekend, Aksel! | You're welcome. And have a good weekend, Aksel!
+    pronunciation:
+      title: Small words in fast speech
+      body: |
+        In normal speech, the little words in a subordinate clause are very short. **Ikke** sounds like "IG-ge" — the kk is soft. **At** is usually just "a", and **det** is "de". **Jeg** is "yai", and **har** is often just "ha".
+
+        **Fordi** is stressed on the second syllable: "fo-DI". Say the phrase *fordi jeg ikke har tid* as one smooth unit — "fo-DI yai IG-ge ha TID" — with the stress on the important word at the end.
+      items: |
+        ikke
+        fordi
+        fordi jeg ikke har tid
+        Jeg ved det ikke.
+        Det er, fordi jeg er træt.
+        Jeg kan ikke i dag.
+    culture:
+      title: Working life in Denmark
+      body: |
+        A full-time week in Denmark is usually 37 hours. Many people start early and leave between three and four to pick up their children, and nobody expects you to stay late to look busy. Hierarchies are flat: you call your boss by their first name, and you are expected to give your opinion in meetings.
+
+        The lunch break is often just half an hour, and many workplaces have a canteen or a shared lunch scheme (**en frokostordning**). Some offices end the week with a **fredagsbar** — drinks and snacks on Friday afternoon.
+    mistakes: |
+      …, fordi jeg har ikke tid. => …, fordi jeg ikke har tid. | In a subordinate clause, ikke comes before the verb.
+      …, fordi har jeg travlt. => …, fordi jeg har travlt. | No inversion after fordi: the subject comes before the verb.
+      Jeg er travl. => Jeg har travlt. | "I'm busy" is jeg har travlt. Travl describes a day or a place: en travl dag.
+    task:
+      title: Your working day
+      mode: speaking
+      body: |
+        Describe a normal working or study day in six to eight sentences: when you start, what you do, who you work with and when you go home. Give at least three reasons with fordi — one of them with ikke. Then practise the "Taking part in a business meeting" scenario with the AI coach and give a short update on your week.
+    exercises: |
+      fill: Jeg tager bussen, fordi jeg ___ ___ en cykel. (don't have) || ikke ; har || After fordi, ikke comes before the verb: fordi jeg ikke har. || @tags da.subordinate-clauses,da.negation
+      mc: Choose the correct sentence. || Han kommer ikke, fordi han har ikke tid. | *Han kommer ikke, fordi han ikke har tid. | Han kommer ikke, fordi ikke han har tid. || Subordinate clause: subject – ikke – verb. || @tags da.subordinate-clauses,da.negation
+      mc: Choose the correct sentence. || Hun er træt, fordi hun arbejder altid om natten. | *Hun er træt, fordi hun altid arbejder om natten. | Hun er træt, fordi altid hun arbejder om natten. || Altid is a sentence adverb, so after fordi it comes before the verb. || @tags da.subordinate-clauses,da.sentence-adverbs
+      fill: Jeg ___ travlt i dag. Vi ses i morgen! || har || "I'm busy" = jeg har travlt. || @tags da.vaere-have
+      rw: Join the sentences with "fordi" :: Jeg går tidligt hjem. Jeg har ikke flere møder. || Jeg går tidligt hjem, fordi jeg ikke har flere møder. || Ikke moves before the verb in the fordi-clause. || @tags da.subordinate-clauses,da.negation
+      rw: Join the sentences with "fordi" :: Vi spiser i kantinen. Den er billig. || Vi spiser i kantinen, fordi den er billig. || No inversion after fordi: den er. || @tags da.subordinate-clauses
+      tf: Mona often works from home. || false || "Nej, ikke så tit, fordi jeg er ansvarlig for lageret." || @ctx dialogue
+      short: Why does Mona start at seven? || kw: hjem/home/tidligt/early || "Fordi jeg gerne vil hjem tidligt" — she likes to go home early. || @ctx dialogue
+      listen: @dialogue || Why should Aksel be on time on Monday? || The meeting is short | *The boss doesn't like waiting | There's breakfast for everyone || "Kom til tiden, fordi chefen ikke kan lide at vente!" || @tags da.listening
+      listen: Jeg arbejder hjemmefra i dag, fordi min datter er syg. Jeg kan ikke komme til mødet klokken ti. || Why is the speaker working from home? || The car has broken down | *The daughter is ill | There's a meeting at ten || "Fordi min datter er syg." || @tags da.subordinate-clauses,da.listening
+      order: Jeg kan godt lide mit job, fordi jeg altid lærer noget nyt. || I like my job because I'm always learning something new. || @tags da.subordinate-clauses,da.sentence-adverbs
+      tr: I'm taking the train because I can't park in the city. || Jeg tager toget, fordi jeg ikke kan parkere i byen. | Jeg tager toget, fordi jeg ikke kan parkere inde i byen. | Jeg tager toget, fordi man ikke kan parkere i byen. || After fordi: subject – ikke – kan – parkere. || @tags da.subordinate-clauses,da.negation
+      ask: A colleague asks why you are leaving early today. Give a reason with fordi — and use ikke. || kw: fordi & ikke || Jeg går tidligt i dag, fordi jeg ikke har flere møder, og fordi jeg skal hente min datter.
+      write: Describe your working day in an email to a Danish friend — when you start, what you do and why. Use fordi at least twice. || min=40 || req: fordi | klokken | kolleger/chef/kunder/møde/arbejde || Hej Ole! Jeg begynder klokken otte, fordi jeg skal aflevere min søn i børnehave først. Om formiddagen taler jeg med kunder, og klokken tolv spiser jeg frokost med mine kolleger. Jeg arbejder hjemmefra om fredagen, fordi der ikke er møder den dag. Hvordan går det med dit nye job? Hilsen Ayesha
+      dict: Jeg arbejder hjemmefra, fordi jeg ikke har møder i dag.
+
+  - title: Applying for a job
+    summary: Understand a job ad, answer interview questions and write a short application — with at-clauses (Jeg tror, at jeg…) and ikke before the verb.
+    minutes: 45
+    skills: [writing, reading, speaking]
+    tags: [da.subordinate-clauses, da.formal-writing, da.sentence-adverbs]
+    objectives:
+      - Understand a simple job ad
+      - Say what you think, hope and know with at-clauses
+      - Write a short application and answer typical interview questions
+    intro: |
+      Applying for a job in Denmark means writing a short application (**en ansøgning**) and then talking about yourself at an interview. You will need sentences like *Jeg tror, at jeg er god til…* and *Jeg håber, at I vil invitere mig til en samtale.* These are at-clauses, and they follow the same word-order rule as fordi. In this lesson you will read a job ad, practise an interview and write your own application.
+    vocab: |
+      en stilling | a position; a post | n | Jeg søger stillingen som receptionist. | I'm applying for the position as receptionist. | g: c | pl: stillinger | c: en ledig stilling (a vacancy)
+      søge | to apply for; to look for | v | Hun har søgt fem job i denne måned. | She has applied for five jobs this month. | n: Past: søgte; perfect: har søgt. No preposition: søge et job.
+      en ansøgning | an application | n | Send din ansøgning senest den 1. marts. | Send your application by 1 March at the latest. | g: c | pl: ansøgninger | n: The g is silent: "AN-sø-ning".
+      et CV | a CV; a résumé | n | Husk at vedhæfte dit CV. | Remember to attach your CV. | g: n | pl: CV'er | n: Pronounced "se-ve".
+      erfaring | experience | n | Jeg har tre års erfaring med kundeservice. | I have three years' experience in customer service. | g: c | c: erfaring med (experience with) | n: Usually without an article.
+      en jobsamtale | a job interview | n | Jeg er inviteret til jobsamtale på torsdag. | I've been invited to an interview on Thursday. | g: c | pl: jobsamtaler | n: Often just en samtale.
+      god til | good at | expr | Jeg er god til at lytte og løse problemer. | I'm good at listening and solving problems. | n: God til + noun or at + infinitive: god til tysk, god til at lave mad.
+      en stærk side | a strength | n | Min stærke side er, at jeg har overblik. | My strength is that I keep the overview. | g: c | pl: stærke sider | n: The opposite: en svag side (a weakness).
+      en arbejdsplads | a workplace | n | Jeg søger en arbejdsplads med et godt arbejdsmiljø. | I'm looking for a workplace with a good working environment. | g: c | pl: arbejdspladser
+      tro | to think; to believe | v | Jeg tror, at jeg passer godt til jobbet. | I think I'm a good fit for the job. | n: Tro = think when you are not sure. Past: troede.
+      håbe | to hope | v | Jeg håber, at I vil invitere mig til en samtale. | I hope you will invite me for an interview. | n: Past: håbede.
+      fleksibel | flexible | adj | Jeg er fleksibel og kan godt arbejde i weekenden. | I'm flexible and happy to work at weekends. | n: Plural: fleksible.
+      venlig hilsen | kind regards | expr | Venlig hilsen Amina Yusuf | Kind regards, Amina Yusuf | n: The standard ending of a formal email or letter. The g in venlig is silent.
+    grammar:
+      title: "At-clauses: Jeg tror, at…"
+      body: |
+        **At** (that) introduces what you say, think, hope or know: *Jeg tror, at… Jeg håber, at… Jeg ved, at… Hun siger, at…* The at-clause is a subordinate clause, so it follows the same rules as fordi: the subject comes before the verb, and **ikke** and other sentence adverbs come **before** the verb.
+
+        - *Jeg har ikke meget erfaring.* → *Jeg ved, at jeg **ikke** har meget erfaring, men jeg lærer hurtigt.*
+        - *Jeg er altid til tiden.* → *Min chef siger, at jeg **altid** er til tiden.*
+        - *Jeg kan også arbejde om aftenen.* → *Jeg skriver, at jeg **også** kan arbejde om aftenen.*
+
+        In speech and informal writing, Danes often leave out at: *Jeg tror, jeg passer godt til jobbet.* Both are correct. In fast speech you will sometimes hear ikke after the verb, but in writing — and in this course — it goes before the verb.
+
+        After a verb in the past, the at-clause is usually in the past too, as in English: *Hun sagde, at hun ikke havde tid* (She said that she didn't have time).
+      table: |
+        Main clause | Inside an at-clause
+        Jeg har ikke meget erfaring. | Jeg ved, at jeg ikke har meget erfaring.
+        Jeg er altid til tiden. | Min chef siger, at jeg altid er til tiden.
+        Jeg kan også tale tysk. | Jeg skriver, at jeg også kan tale tysk.
+        Jeg har aldrig arbejdet i en butik. | Jeg siger ærligt, at jeg aldrig har arbejdet i en butik.
+      examples: |
+        Jeg tror, at jeg passer godt til stillingen. | I think I'm a good fit for the position.
+        Jeg ved, at jeg ikke har meget erfaring, men jeg lærer hurtigt. | I know I don't have much experience, but I learn quickly. | ikke before har
+        Min tidligere chef siger, at jeg altid er positiv. | My former boss says that I'm always positive. | altid before er
+        Jeg tror, jeg kan begynde den 1. august. | I think I can start on 1 August. | at left out — common in speech
+      tip: "After at and fordi, think \"subject – adverb – verb\": at jeg ikke har, at hun altid er, at vi også kan."
+    dialogue:
+      title: Jobsamtalen
+      setting: A job interview at a hotel in Helsingør. The manager, Martin, interviews Daniela, who has applied for a job as a receptionist.
+      speakers: M=Martin/m; D=Daniela/f
+      lines: |
+        M: Velkommen, Daniela. Fortæl lidt om dig selv. | Welcome, Daniela. Tell me a little about yourself.
+        D: Jeg er fra Rumænien, og jeg har boet i Helsingør i fire år. | I'm from Romania, and I've lived in Helsingør for four years.
+        M: Hvorfor søger du stillingen som receptionist? | Why are you applying for the receptionist position?
+        D: Fordi jeg elsker at møde nye mennesker hver dag. | Because I love meeting new people every day.
+        M: Har du erfaring fra hotelbranchen? | Do you have experience in the hotel industry?
+        D: Ja, jeg arbejdede to år på et hotel i Bukarest. | Yes, I worked at a hotel in Bucharest for two years.
+        M: Hvad er dine stærke sider? | What are your strengths?
+        D: Jeg tror, at jeg er god til at bevare roen. | I think I'm good at keeping calm.
+        D: Og mine kolleger siger, at jeg altid er positiv. | And my colleagues say that I'm always positive.
+        M: Vi har tit vagter i weekenden. Er det et problem? | We often have weekend shifts. Is that a problem?
+        D: Nej, slet ikke. Jeg er meget fleksibel. | No, not at all. I'm very flexible.
+        M: Fint. Har du nogen spørgsmål til os? | Good. Do you have any questions for us?
+    pronunciation:
+      title: "Silent g and the ng sound"
+      body: |
+        In **ansøgning** the g before n is silent: "AN-sø-ning". The ending -ning has the same sound as English *sing*, and so do **stillingen** ("STIL-ling-en") and **erfaring** ("er-FA-ring").
+
+        In **venlig** the g is silent too: *venlig hilsen* sounds like "VEN-li HIL-sen". Compounds like **jobsamtale** are stressed on the first part: "JOB-sam-ta-le". Listen and repeat.
+      items: |
+        ansøgning
+        stillingen
+        erfaring
+        jobsamtale
+        venlig hilsen
+        Jeg søger stillingen.
+    culture:
+      title: Danish job applications
+      body: |
+        A Danish application is short: one page of **ansøgning** plus a CV of one or two pages. You usually start with *Kære* + first name (or *Hej*), explain why you want the job and what you can offer, and end with *Venlig hilsen*. Many jobs are advertised on Jobnet, the public job portal.
+
+        At the interview, Danes value honesty, teamwork and a relaxed but serious tone. It's normal — even expected — to ask questions about the workplace, the team and the tasks at the end.
+    mistakes: |
+      Jeg tror, at jeg har ikke nok erfaring. => Jeg tror, at jeg ikke har nok erfaring. | In an at-clause, ikke comes before the verb.
+      Jeg er god at lytte. => Jeg er god til at lytte. | "Good at" is god til, followed by at + infinitive.
+      Jeg søger for stillingen. => Jeg søger stillingen. | Søge takes a direct object, with no preposition.
+    task:
+      title: Prepare for an interview
+      mode: interaction
+      body: |
+        Find or imagine a job ad. Prepare answers to three questions: *Fortæl lidt om dig selv. Hvorfor søger du stillingen? Hvad er dine stærke sider?* Use at least two at-clauses and one fordi-clause. Then practise in the "Preparing for a job interview" scenario with the AI coach.
+    exercises: |
+      fill: Jeg tror, at jeg ___ ___ nok erfaring. (don't have) || ikke ; har || In an at-clause, ikke comes before the verb: at jeg ikke har. || @tags da.subordinate-clauses,da.negation
+      fill: Jeg er god ___ at arbejde i team. || til || "Good at" = god til + at + infinitive. || @tags da.infinitive
+      mc: Choose the correct sentence. || Hun siger, at hun kan ikke begynde før maj. | *Hun siger, at hun ikke kan begynde før maj. | Hun siger, at ikke hun kan begynde før maj. || In the at-clause, ikke comes after the subject and before the verb. || @tags da.subordinate-clauses,da.negation
+      mc: Choose the correct sentence. || *Min chef siger, at jeg altid er til tiden. | Min chef siger, at jeg er altid til tiden. | Min chef siger, at altid jeg er til tiden. || Altid comes before the verb in an at-clause. || @tags da.subordinate-clauses,da.sentence-adverbs
+      rw: Start with "Jeg tror, at" :: Jeg kan også arbejde om aftenen. || Jeg tror, at jeg også kan arbejde om aftenen. | Jeg tror, jeg også kan arbejde om aftenen. || Også moves before the verb (kan) in the at-clause. || @tags da.subordinate-clauses,da.sentence-adverbs
+      rw: Start with "Hun skriver, at" :: Hun har aldrig arbejdet i en butik. || Hun skriver, at hun aldrig har arbejdet i en butik. | Hun skriver, hun aldrig har arbejdet i en butik. || Aldrig comes before har in the at-clause. || @tags da.subordinate-clauses
+      mc: How do you end a formal application? || Knus, Amina | *Venlig hilsen Amina | Vi ses, Amina || Venlig hilsen is the formal ending. Knus (hugs) and Vi ses (see you) are for friends. || @tags da.formal-writing
+      tf: Daniela has lived in Helsingør for four years. || true || "Jeg har boet i Helsingør i fire år." || @ctx dialogue
+      short: What do Daniela's colleagues say about her? || kw: positiv/positive || "Mine kolleger siger, at jeg altid er positiv." || @ctx dialogue
+      listen: @dialogue || What does Martin say about the shifts? || They are always at night | *They are often at weekends | They are only in summer || "Vi har tit vagter i weekenden." || @tags da.listening
+      listen: Vi søger en ny medarbejder til vores café i Roskilde. Du skal have erfaring med kunder, og du skal kunne arbejde i weekenden. Send din ansøgning senest fredag. || What must applicants be able to do? || Speak English | *Work at weekends | Drive a car || "Du skal kunne arbejde i weekenden." || @tags da.listening
+      order: Jeg ved, at jeg ikke har meget erfaring. || I know that I don't have much experience. || @tags da.subordinate-clauses,da.negation
+      tr: I think that I'm good at solving problems. || Jeg tror, at jeg er god til at løse problemer. | Jeg tror, jeg er god til at løse problemer. | Jeg synes, at jeg er god til at løse problemer. || God til + at + infinitive inside an at-clause. || @tags da.subordinate-clauses
+      ask: Answer the interview question "Hvorfor søger du stillingen?" Give a reason with fordi and add one sentence with at. || kw: fordi & at/tror/håber/ved || Jeg søger stillingen, fordi jeg elsker at arbejde med mennesker. Jeg tror, at jeg passer godt ind i jeres team.
+      write: Write a short application (60–80 words) for a job as a café assistant. || min=50 || req: kære/hej | søger | erfaring | at | venlig hilsen || Kære Lotte. Jeg søger stillingen som caféassistent hos jer. Jeg har to års erfaring fra en café i Lyon, og jeg er god til at lave kaffe og tale med kunder. Mine kolleger siger, at jeg altid er glad og hjælpsom. Jeg er fleksibel og kan også arbejde i weekenden. Jeg håber, at I vil invitere mig til en samtale. Venlig hilsen Amélie Durand
+      dict: Jeg tror, at jeg passer godt til jeres team.

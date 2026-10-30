@@ -1,0 +1,365 @@
+unit: 3
+title: Bildung und Lernen
+theme: Education and learning
+description: Talk about school memories and school systems with infinitives with zu, share what helps you learn a language with um … zu, and give advice with sollte and an deiner Stelle würde ich.
+objectives:
+  - Use zu + infinitive after verbs such as versuchen, vergessen, anfangen and vorhaben
+  - Use zu + infinitive after adjectives and nouns, and say why you do something with um … zu
+  - Give advice with sollte, an deiner Stelle würde ich … and es wäre besser, … zu
+canDo:
+  - I can describe my school days and compare school systems.
+  - I can explain how I learn a language and why.
+  - I can give a friend useful advice and react to advice.
+  - I can understand a blog post with tips for learners.
+review: |
+  fill: Ich habe heute keine Zeit, einkaufen ___. (gehen) || zu gehen || After keine Zeit haben the infinitive takes zu and goes to the end: einkaufen zu gehen. || @tags de.infinitive-zu
+  fill: Vergiss nicht, das Fenster ___! (zumachen) || zuzumachen || Zumachen is separable, so zu goes between the prefix and the stem: zu-zu-machen. || @tags de.infinitive-zu,de.separable
+  mc: "Er spart, ___ ein Auto zu kaufen." || *um | für | weil || Um … zu expresses a purpose (in order to). Für can't introduce a clause, and weil needs a conjugated verb at the end. || @tags de.infinitive-zu
+  fill: Du ___ mit deiner Lehrerin sprechen – sie hilft dir bestimmt. (sollen, advice) || solltest || Advice uses the Konjunktiv II of sollen: du solltest + infinitive without zu. || @tags de.konjunktiv2,de.modal-verbs
+  mc: Choose the correct sentence. || An deiner Stelle ich würde mehr schlafen. | *An deiner Stelle würde ich mehr schlafen. | An deiner Stelle würde ich mehr zu schlafen. || An deiner Stelle takes position 1, so würde comes next; würde is followed by an infinitive without zu. || @tags de.konjunktiv2,de.word-order
+  rw: Join the sentences with um … zu :: Ich besuche einen Kurs an der Volkshochschule. Ich will meine Aussprache verbessern. || Ich besuche einen Kurs an der Volkshochschule, um meine Aussprache zu verbessern. || The second sentence gives the purpose: um … zu + infinitive at the end; the modal verb will disappears. || @tags de.infinitive-zu
+  tr: I've stopped watching TV in the evening. || Ich habe aufgehört, abends fernzusehen. | Ich habe aufgehört, am Abend fernzusehen. | Ich sehe abends nicht mehr fern. || Aufhören + zu-infinitive; fernsehen is separable: fernzusehen. || @tags de.infinitive-zu,de.separable
+  listen: Meine Tochter geht seit August aufs Gymnasium. Am Anfang war es schwer für sie, aber jetzt hat sie viele neue Freunde und richtig Spaß am Lernen. || How is the daughter doing now? || She wants to change schools. | *She has made friends and enjoys learning. | She still finds it very hard. || "Jetzt hat sie viele neue Freunde und richtig Spaß am Lernen." || @tags de.listening
+  listen: Ich lerne Wörter am liebsten mit kleinen Karten. Jeden Morgen im Bus wiederhole ich zehn Karten, um sie nicht zu vergessen. || When does the speaker review vocabulary? || In the evening before bed | *On the bus in the morning | At lunchtime at work || "Jeden Morgen im Bus wiederhole ich zehn Karten." || @tags de.listening,de.infinitive-zu
+  ask: A colleague wants to learn German quickly before moving to Hamburg. Give two pieces of advice. || kw: solltest/sollten/würde/wäre/wie wäre es & zu/lernen/hören/sprechen/tandem/kurs/üben || Du solltest jeden Tag Podcasts hören. An deiner Stelle würde ich auch ein Sprachtandem suchen, um mehr zu sprechen.
+  write: A friend is very worried about an important exam next month. Write them a message (6–8 sentences) with advice. || min=50 || req: solltest | würde | zu || Liebe Nora, mach dir nicht so viele Sorgen! Du hast noch vier Wochen Zeit, und das ist genug. Du solltest einen Lernplan machen und jeden Tag ein bisschen wiederholen. An deiner Stelle würde ich auch mit Leuten aus deinem Kurs lernen, denn zusammen geht es leichter. Es ist auch wichtig, genug zu schlafen und Pausen zu machen. Du schaffst das! Viele Grüße, Paul
+lessons:
+  - title: School memories and systems
+    summary: Talk about your school days and the German school system with zu + infinitive after verbs like versuchen, vergessen and vorhaben.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.infinitive-zu]
+    objectives:
+      - Use zu + infinitive after versuchen, vergessen, anfangen, aufhören, vorhaben and beschließen
+      - Place zu correctly with separable verbs (anzurufen)
+      - Compare the German school system with the one in your country
+    intro: |
+      Which school should a child go to after primary school? Parents in Germany ask themselves this question when their child is only ten. In this lesson you will hear two parents discuss it and share their own school memories. You will also learn one of the most useful B1 structures: **zu + infinitive** after verbs like *versuchen* (to try) and *vergessen* (to forget).
+    vocab: |
+      die Grundschule | primary school | n | In Deutschland dauert die Grundschule meistens vier Jahre. | In Germany, primary school usually lasts four years. | g: f | pl: die Grundschulen
+      die weiterführende Schule | secondary school | n | Nach der vierten Klasse wechseln die Kinder auf eine weiterführende Schule. | After year four the children move to a secondary school. | g: f | pl: die weiterführenden Schulen
+      das Gymnasium | grammar school; academic secondary school | n | Mein Bruder war auf dem Gymnasium und hat dort Abitur gemacht. | My brother went to the Gymnasium and did his Abitur there. | g: n | pl: die Gymnasien | n: Not a gym! Stress: Gym-NA-si-um.
+      die Gesamtschule | comprehensive school | n | An der Gesamtschule lernen alle Kinder zusammen. | At the comprehensive school all the children learn together. | g: f | pl: die Gesamtschulen
+      die Note | mark; grade | n | In Mathe hatte ich immer gute Noten. | I always had good marks in maths. | g: f | pl: die Noten | n: In Germany 1 is the best mark (sehr gut) and 6 the worst (ungenügend).
+      das Zeugnis | school report | n | Zweimal im Jahr gibt es Zeugnisse. | There are school reports twice a year. | g: n | pl: die Zeugnisse
+      sitzen bleiben | to repeat a school year | expr | In der achten Klasse ist mein Cousin sitzen geblieben. | My cousin had to repeat year eight. | n: Perfekt with sein: ist sitzen geblieben.
+      der Tag der offenen Tür | open day | n | Am Samstag ist an der Gesamtschule Tag der offenen Tür. | On Saturday the comprehensive school has its open day. | g: m | pl: die Tage der offenen Tür
+      überfordern | to ask too much of; to overwhelm | v | Ich will mein Kind nicht überfordern. | I don't want to put too much pressure on my child. | n: Inseparable: hat überfordert. Adjective: überfordert sein.
+      versuchen | to try | v | Ich versuche, das Schulsystem zu verstehen. | I'm trying to understand the school system. | c: versuchen, … zu + infinitive
+      vorhaben | to plan; to intend | v | Was hast du am Wochenende vor? | What are you planning to do at the weekend? | c: vorhaben, … zu + infinitive | n: Separable: Ich habe vor, … zu …
+      sich wohlfühlen | to feel comfortable; to feel at home | v | Leo soll sich in seiner neuen Schule wohlfühlen. | Leo should feel comfortable at his new school. | n: Separable: ich fühle mich wohl.
+    grammar:
+      title: "zu + infinitive after verbs"
+      body: |
+        Many verbs are followed by a second action in the infinitive with **zu**: *Ich versuche, das System **zu verstehen**.* The zu-infinitive goes to the **end** of its clause, and its objects come before it. A comma usually separates it from the main clause.
+
+        Common verbs with zu: **versuchen** (to try), **vergessen** (to forget), **anfangen / beginnen** (to start), **aufhören** (to stop), **vorhaben** (to plan), **beschließen** (to decide), **hoffen** (to hope), **planen** and **vorschlagen** (to suggest).
+
+        With **separable verbs**, zu goes between the prefix and the stem and is written as one word: *anrufen → an**zu**rufen, mitnehmen → mit**zu**nehmen*.
+
+        **No zu** after modal verbs and würde: *Ich will studieren. Ich würde gern studieren.* (not *zu studieren*).
+      table: |
+        Verb | Example
+        versuchen | Ich versuche, jeden Tag zu lesen.
+        vergessen | Er hat vergessen, die Lehrerin anzurufen.
+        anfangen | Mit zwölf habe ich angefangen, Englisch zu lernen.
+        aufhören | Sie hat aufgehört, Hausaufgaben zu machen.
+        vorhaben | Wir haben vor, zum Tag der offenen Tür zu gehen.
+        beschließen | Ich habe beschlossen, das Abitur nachzuholen.
+      examples: |
+        Ich versuche gerade, das Schulsystem hier zu verstehen. | I'm trying to understand the school system here. | versuchen + zu
+        Vergiss nicht, Leo mitzunehmen! | Don't forget to take Leo with you! | separable: mit-zu-nehmen
+        In der siebten Klasse habe ich fast aufgehört, Hausaufgaben zu machen. | In year seven I almost stopped doing homework. | aufhören + zu
+        Ich habe vor, nächste Woche die Schule anzuschauen. | I'm planning to look at the school next week. | vorhaben + an-zu-schauen
+      tip: English "-ing" after try, start, stop and forget usually becomes zu + infinitive in German — "I stopped smoking" = Ich habe aufgehört zu rauchen.
+    dialogue:
+      title: Welche Schule für Leo?
+      setting: In front of a primary school in Bochum. Fernanda, who grew up in Brazil, asks Thomas, another parent, for advice about the next school for her son Leo.
+      speakers: F=Fernanda/f; T=Thomas/m
+      lines: |
+        F: Thomas, hast du kurz Zeit? Ich versuche gerade, das Schulsystem hier zu verstehen. | Thomas, have you got a moment? I'm trying to understand the school system here.
+        T: Klar. Es geht um Leo, oder? Nach der vierten Klasse wechselt er ja. | Sure. It's about Leo, isn't it? He's changing schools after year four.
+        F: Genau. Die Lehrerin empfiehlt das Gymnasium, aber ich habe Angst, ihn zu überfordern. | Exactly. His teacher recommends the Gymnasium, but I'm afraid of putting too much pressure on him.
+        T: Das verstehe ich. Ich war auch auf dem Gymnasium und musste sehr viel lernen. | I understand. I went to the Gymnasium too and had to study a lot.
+        F: Und hat es dir Spaß gemacht? | And did you enjoy it?
+        T: Nicht immer. In der siebten Klasse habe ich fast aufgehört, Hausaufgaben zu machen. | Not always. In year seven I almost stopped doing homework.
+        F: Und die Realschule? Ist das eine schlechte Wahl? | And the Realschule? Is that a bad choice?
+        T: Gar nicht! Meine Schwester hat dort angefangen und später trotzdem Abitur gemacht. | Not at all! My sister started there and still did her Abitur later.
+        F: In Brasilien lernen alle Kinder bis vierzehn zusammen. Das finde ich eigentlich besser. | In Brazil all children learn together until fourteen. Actually I think that's better.
+        T: Dann schau dir doch die Gesamtschule an. Dort bleiben alle Kinder zusammen. | Then take a look at the comprehensive school. All the children stay together there.
+        F: Gute Idee. Ich habe vor, nächste Woche zum Tag der offenen Tür zu gehen. | Good idea. I'm planning to go to the open day next week.
+        T: Vergiss nicht, Leo mitzunehmen! Am Ende muss er sich dort wohlfühlen. | Don't forget to take Leo with you! In the end he's the one who has to feel comfortable there.
+    pronunciation:
+      title: "Stress with separable verbs and zu: AN-zu-ru-fen"
+      body: |
+        In a zu-infinitive of a separable verb, the **prefix** keeps the main stress, and *zu* is short and unstressed: ***AN**-zu-ru-fen, **MIT**-zu-neh-men, **AUF**-zu-hö-ren*. Say the word as one unit, without a pause before zu.
+
+        In longer words from Latin or Greek the stress is often in the middle: *das Gym-**NA**-si-um*. In German compounds it is on the first part: ***GRUND**-schu-le, **GE**-samt-schu-le*.
+      items: |
+        anzurufen
+        mitzunehmen
+        das Gymnasium
+        die Gesamtschule
+        das Zeugnis
+        Vergiss nicht, Leo mitzunehmen!
+    culture:
+      title: One country, sixteen school systems
+      body: |
+        In Germany, education is the responsibility of the 16 federal states (*Länder*), so the details differ from state to state. In most states, children go to the *Grundschule* for four years (in Berlin and Brandenburg for six). Then they move to a secondary school: the *Gymnasium* leads to the *Abitur* after 12 or 13 years; other schools — such as the *Realschule*, the *Gesamtschule* or combined schools with different names — lead to other qualifications, and from there the Abitur is still possible later.
+
+        Marks go from 1 (*sehr gut*) to 6 (*ungenügend*), and pupils get a *Zeugnis* twice a year. A child who doesn't pass a year may have to repeat it — *sitzen bleiben*.
+    mistakes: |
+      Ich habe vergessen, dich zu anrufen. => Ich habe vergessen, dich anzurufen. | With separable verbs, zu goes between the prefix and the stem: an-zu-rufen.
+      Ich möchte nächstes Jahr zu studieren. => Ich möchte nächstes Jahr studieren. | Modal verbs (and möchte, würde) are followed by an infinitive without zu.
+      Ich versuche zu das System verstehen. => Ich versuche, das System zu verstehen. | Zu comes directly before the infinitive, and both go to the end of the clause.
+    task:
+      title: My school days
+      mode: speaking
+      body: |
+        Talk for one or two minutes about your school days: what kind of school you went to, what you tried hard to do, what you sometimes forgot to do and what you started or stopped doing as a teenager. Compare your school system with the German one. Record yourself in Speaking practice.
+    exercises: |
+      fill: Ich versuche, jeden Tag eine Stunde Deutsch ___. (lernen) || zu lernen || Versuchen is followed by zu + infinitive at the end. || @tags de.infinitive-zu
+      fill: Hast du vergessen, Oma ___? Sie wartet auf deinen Anruf. (anrufen) || anzurufen || Anrufen is separable: an-zu-rufen, written as one word. || @tags de.infinitive-zu,de.separable
+      fill: Mit fünfzehn habe ich angefangen, Gitarre ___. (spielen) || zu spielen || Anfangen + zu-infinitive. || @tags de.infinitive-zu
+      mc: Which sentence is correct? || Ich möchte nächstes Jahr zu studieren. | *Ich habe vor, nächstes Jahr zu studieren. | Ich habe vor, zu studieren nächstes Jahr. || Vorhaben takes zu + infinitive, which goes to the end; möchte takes no zu. || @tags de.infinitive-zu
+      rw: Start with "Ich versuche, …" :: Ich verstehe das Schulsystem. || Ich versuche, das Schulsystem zu verstehen. || The verb becomes zu + infinitive at the end. || @tags de.infinitive-zu
+      rw: Start with "Vergiss nicht, …" :: Nimm Leo mit! || Vergiss nicht, Leo mitzunehmen! | Vergiss nicht, Leo mitzunehmen. || Mitnehmen is separable: mit-zu-nehmen. || @tags de.infinitive-zu,de.separable
+      mc: "Mein Cousin ist sitzen geblieben." What happened? || *He had to repeat a school year. | He stayed in his seat all day. | He failed his driving test. || Sitzen bleiben = to repeat a year at school. || @skill vocabulary @tags de.vocabulary
+      tf: Leo's teacher recommends the Realschule. || false || She recommends the Gymnasium: "Die Lehrerin empfiehlt das Gymnasium." || @ctx dialogue
+      short: What is Fernanda planning to do next week? || kw: tag der offenen tür/open day/gesamtschule/schule/school || She plans to go to the open day at the comprehensive school. || @ctx dialogue
+      listen: @dialogue || What did Thomas's sister do? || She left school without a qualification. | *She started at a Realschule and later did her Abitur. | She went to a school in Brazil. || "Meine Schwester hat dort angefangen und später trotzdem Abitur gemacht."
+      listen: In Mathe hatte ich als Kind immer schlechte Noten. Erst in der neunten Klasse hatte ich eine Lehrerin, die alles ganz geduldig erklärt hat. || When did maths get easier for the speaker? || In primary school | *In year nine, with a patient teacher | Only at university || "Erst in der neunten Klasse hatte ich eine Lehrerin, die alles ganz geduldig erklärt hat." || @tags de.listening,de.relative-clauses
+      tr: I've decided to learn Spanish. || Ich habe beschlossen, Spanisch zu lernen. | Ich habe mich entschieden, Spanisch zu lernen. | Ich habe mich entschlossen, Spanisch zu lernen. || Beschließen + zu-infinitive at the end. || @tags de.infinitive-zu
+      dict: Ich habe vor, nächste Woche zum Tag der offenen Tür zu gehen.
+      ask: A friend asks about your school days. Say what you started or stopped doing as a teenager and what you often forgot to do. || kw: zu & angefangen/aufgehört/versucht/vergessen/beschlossen || Mit dreizehn habe ich angefangen, Handball zu spielen. Ich habe oft vergessen, meine Sportsachen mitzunehmen!
+
+  - title: How we learn languages
+    summary: Read a learner's blog post and explain what helps you learn — with es ist wichtig, … zu, es macht Spaß, … zu and um … zu.
+    minutes: 40
+    skills: [reading, grammar, writing]
+    tags: [de.infinitive-zu]
+    objectives:
+      - Use zu + infinitive after adjectives (es ist wichtig, … zu) and nouns (Lust haben, … zu)
+      - Express a purpose with um … zu
+      - Talk about learning strategies
+    intro: |
+      What really helps you learn a language — grammar books, podcasts, a language partner, films? In this lesson you will read a blog post by Mei Lin, who has learned German in Mannheim, and compare her tips with your own. Along the way you will learn to say *why* you do things: *Ich höre Podcasts, **um** mein Hörverstehen **zu** verbessern.*
+    vocab: |
+      auswendig lernen | to learn by heart | expr | Ich habe jeden Abend zwanzig Wörter auswendig gelernt. | Every evening I learned twenty words by heart.
+      der Wortschatz | vocabulary | n | Mit Serien kann man seinen Wortschatz schnell erweitern. | With series you can expand your vocabulary quickly. | g: m | pl: (rarely used) | c: den Wortschatz erweitern
+      die Aussprache | pronunciation | n | Meine Aussprache ist mit der Zeit viel besser geworden. | My pronunciation has got much better over time. | g: f | pl: (rarely used)
+      das Hörverstehen | listening comprehension | n | Podcasts sind gut, um das Hörverstehen zu trainieren. | Podcasts are good for training your listening comprehension. | g: n | pl: (no plural)
+      die Muttersprache | mother tongue; first language | n | Meine Muttersprache ist Mandarin. | My first language is Mandarin. | g: f | pl: die Muttersprachen
+      die Fremdsprache | foreign language | n | Wie viele Fremdsprachen sprichst du? | How many foreign languages do you speak? | g: f | pl: die Fremdsprachen
+      das Sprachtandem | language exchange (partnership) | n | Im Sprachtandem lernen zwei Leute die Sprache des anderen. | In a language exchange, two people learn each other's language. | g: n | pl: die Sprachtandems | n: Often just: das Tandem.
+      sich unterhalten | to have a conversation; to chat | v | Ich möchte mich auf Deutsch mit meinen Nachbarn unterhalten. | I'd like to chat with my neighbours in German. | n: Irregular: unterhielt, hat unterhalten.
+      wiederholen | to revise; to repeat | v | Am Wochenende wiederhole ich die Wörter von der Woche. | At the weekend I revise the words from the week. | n: Inseparable: hat wiederholt.
+      verbessern | to improve | v | Ich lese jeden Tag, um meinen Wortschatz zu verbessern. | I read every day to improve my vocabulary. | n: Noun: die Verbesserung.
+      fließend | fluent; fluently | adj | Sie spricht fließend Deutsch und Spanisch. | She speaks German and Spanish fluently.
+      die Lust | desire; wish | n | Ich habe keine Lust mehr, perfekt zu sein. | I don't feel like being perfect any more. | g: f | pl: (rarely used) | c: Lust haben, … zu; keine Lust haben
+    grammar:
+      title: "zu + infinitive after adjectives and nouns; um … zu"
+      body: |
+        The zu-infinitive also follows many **adjectives** in the pattern *es ist + adjective*: *Es ist wichtig, jeden Tag **zu üben**. Es ist nicht leicht, Witze **zu verstehen**.* The same goes for *Es macht Spaß, … zu …*
+
+        It also follows **nouns** such as **Lust, Zeit, Angst, die Möglichkeit, die Idee**: *Ich habe keine Zeit, Vokabeln **zu lernen**. Hast du Lust, mit mir Deutsch **zu sprechen**?*
+
+        To say **why** or **for what purpose** you do something, use **um … zu**: *Ich höre Podcasts, **um** mein Hörverstehen **zu** verbessern.* Um starts the clause, zu + infinitive closes it. This works only when the subject of both parts is the same person (*ich* höre … – *ich* verbessere …).
+
+        English "for + -ing" or "to" for purpose is never *für* in German: *I go to the tandem to practise* = *Ich gehe zum Tandem, **um** zu üben.*
+      table: |
+        Pattern | Example
+        es ist + adjective, … zu | Es ist wichtig, jeden Tag zu üben.
+        es macht Spaß, … zu | Es macht Spaß, mit Freunden zu lernen.
+        noun + haben, … zu | Ich habe keine Zeit, Grammatik zu wiederholen.
+        um … zu (purpose) | Ich lese Krimis, um meinen Wortschatz zu erweitern.
+      examples: |
+        Es ist nicht wichtig, viele Stunden auf einmal zu lernen. | It isn't important to study for many hours at a time. | es ist + adjective + zu
+        Hast du Lust, heute Abend einen Film auf Deutsch zu sehen? | Do you feel like watching a film in German tonight? | Lust haben + zu
+        Wir treffen uns jeden Mittwoch, um Deutsch und Chinesisch zu sprechen. | We meet every Wednesday to speak German and Chinese. | purpose: um … zu
+        Ich schaue Kochvideos, um neue Wörter im Kontext zu lernen. | I watch cooking videos to learn new words in context. | purpose: um … zu
+      tip: Ask yourself "wozu?" (what for?). If the answer is a purpose, you need um … zu — not für.
+    reading:
+      title: Drei Tipps, die mir wirklich geholfen haben
+      text: |
+        Ich lerne seit drei Jahren Deutsch, und am Anfang war es ehrlich gesagt eine Katastrophe. Ich hatte ein dickes Grammatikbuch und versuchte, jeden Abend zwanzig neue Wörter auswendig zu lernen. Nach einer Woche wusste ich keins mehr.
+
+        Heute weiß ich: Es ist nicht wichtig, viele Stunden auf einmal zu lernen. Es ist viel wichtiger, jeden Tag ein bisschen Kontakt mit der Sprache zu haben. Hier sind meine drei besten Tipps.
+
+        Erstens: Hören, hören, hören. Ich höre jeden Morgen einen Podcast, um mein Hörverstehen zu trainieren. Am Anfang verstand ich fast nichts, aber das war egal.
+
+        Zweitens: keine Angst vor Fehlern! Ich hatte lange Angst, falsch zu sprechen, und habe deshalb fast nie etwas gesagt. Dann habe ich ein Sprachtandem gefunden: Jonas lernt Chinesisch, ich lerne Deutsch. Wir treffen uns jeden Mittwoch, um eine Stunde Deutsch und eine Stunde Chinesisch zu sprechen. Es macht total Spaß, gemeinsam über unsere Fehler zu lachen.
+
+        Drittens: Lernen Sie mit Dingen, die Sie lieben. Ich koche gern, deshalb lese ich deutsche Rezepte und schaue Kochvideos. So ist es leicht, neue Wörter im Kontext zu lernen – und ich brauche keine langen Listen mehr.
+
+        Natürlich mache ich immer noch Fehler. Der, die oder das? Keine Ahnung! Aber ich habe keine Lust mehr, perfekt zu sein. Ich will mich unterhalten, Witze verstehen und Freunde finden – und das klappt jeden Monat besser.
+
+        Mei Lin, Mannheim
+      translation: |
+        I've been learning German for three years, and to be honest, at the beginning it was a disaster. I had a thick grammar book and tried to learn twenty new words by heart every evening. After a week I didn't know a single one any more.
+
+        Today I know that it isn't important to study for many hours at a time. It's much more important to have a little contact with the language every day. Here are my three best tips.
+
+        First: listen, listen, listen. Every morning I listen to a podcast to train my listening comprehension. At the beginning I understood almost nothing, but that didn't matter.
+
+        Second: don't be afraid of mistakes! For a long time I was afraid of speaking incorrectly, and so I hardly ever said anything. Then I found a language exchange partner: Jonas is learning Chinese, I'm learning German. We meet every Wednesday to speak German for an hour and Chinese for an hour. It's great fun laughing about our mistakes together.
+
+        Third: learn with things you love. I like cooking, so I read German recipes and watch cooking videos. That way it's easy to learn new words in context – and I don't need long lists any more.
+
+        Of course I still make mistakes. Der, die or das? No idea! But I no longer feel like being perfect. I want to have conversations, understand jokes and make friends – and that works better every month.
+
+        Mei Lin, Mannheim
+    pronunciation:
+      title: "The long ü and ö: fließend, Hörverstehen, üben"
+      body: |
+        Learners' words are full of umlauts: *üben, Hörverstehen, Wörter, Fehler*. For a long **ü** [yː] in *üben*, say a long *ie* as in *Spiel* and round your lips tightly. For a long **ö** [øː] in *hören*, say a long *e* as in *sehen* and round your lips.
+
+        In *fließend* the **ie** is a long [iː] and the **ß** is a voiceless [s]; the final *d* sounds like [t]. Try the sentence slowly first, then at normal speed.
+      items: |
+        üben
+        das Hörverstehen
+        die Aussprache
+        fließend
+        der Wortschatz
+        Es macht Spaß, Deutsch zu sprechen.
+    culture:
+      title: Volkshochschule and Sprachtandem
+      body: |
+        Almost every German town has a *Volkshochschule* (VHS), a public adult education centre with affordable evening and weekend courses — from German and other languages to cooking, IT and yoga. Many VHS also offer the official *Integrationskurse* for newcomers.
+
+        A popular free way to practise is a *Sprachtandem*: two people meet regularly and help each other learn their languages. Universities, libraries and websites help you find a partner, and many cities have a language café or *Sprachstammtisch* where people meet in a bar to talk in different languages.
+    mistakes: |
+      Ich lerne Deutsch, um in Berlin arbeiten. => Ich lerne Deutsch, um in Berlin zu arbeiten. | Um … zu always needs zu directly before the infinitive at the end.
+      Ich habe keine Zeit für Vokabeln lernen. => Ich habe keine Zeit, Vokabeln zu lernen. | After nouns like Zeit or Lust, use zu + infinitive — English "for" + -ing doesn't work in German.
+      Es macht mir Spaß, zu Deutsch sprechen. => Es macht mir Spaß, Deutsch zu sprechen. | The object (Deutsch) comes first; zu + infinitive close the clause.
+    task:
+      title: Your three best tips
+      mode: writing
+      body: |
+        Write a comment (80–100 words) under Mei Lin's blog post with your own three best tips for learning a language. For each tip, say what you do and why — use es ist wichtig/leicht/hilfreich, … zu and um … zu at least once each.
+    exercises: |
+      fill: Es ist wichtig, jeden Tag ein bisschen ___. (üben) || zu üben || Es ist + adjective is followed by zu + infinitive. || @tags de.infinitive-zu
+      fill: Ich höre Podcasts, ___ mein Hörverstehen zu verbessern. || um || Purpose: um … zu. || @tags de.infinitive-zu
+      fill: Hast du Lust, heute Abend mit mir Deutsch ___? (sprechen) || zu sprechen || Lust haben is followed by zu + infinitive at the end. || @tags de.infinitive-zu
+      mc: "I'm learning German to work in Vienna." || *Ich lerne Deutsch, um in Wien zu arbeiten. | Ich lerne Deutsch, für in Wien zu arbeiten. | Ich lerne Deutsch, um in Wien arbeiten. || A purpose needs um … zu; für can't introduce a clause, and zu can't be left out. || @tags de.infinitive-zu
+      rw: Join the sentences with um … zu :: Ich lese deutsche Rezepte. Ich lerne neue Wörter. || Ich lese deutsche Rezepte, um neue Wörter zu lernen. || The second sentence is the purpose: um + object + zu + infinitive. || @tags de.infinitive-zu
+      rw: Start with "Es macht Spaß, …" :: Wir lachen über unsere Fehler. || Es macht Spaß, über unsere Fehler zu lachen. || The subject wir disappears, and the verb becomes zu lachen at the end. || @tags de.infinitive-zu
+      tf: At the beginning, learning twenty words every evening worked well for Mei Lin. || false || "Nach einer Woche wusste ich keins mehr." || @ctx reading
+      mc: Why does Mei Lin meet Jonas every Wednesday? || To cook together | *To speak German and Chinese | To do grammar exercises || "Wir treffen uns jeden Mittwoch, um eine Stunde Deutsch und eine Stunde Chinesisch zu sprechen." || @ctx reading @skill reading
+      short: How does Mei Lin learn new words today? || kw: rezepte/recipes/kochvideos/kochen/cooking/videos || She reads German recipes and watches cooking videos. || @ctx reading
+      listen: Ich schaue Serien auf Deutsch, aber immer mit deutschen Untertiteln. So ist es leichter, die Wörter zu verstehen und gleichzeitig die Aussprache zu hören. || Why does the speaker use German subtitles? || To practise writing | *To understand the words and hear the pronunciation at the same time | Because there are no English subtitles || "So ist es leichter, die Wörter zu verstehen und gleichzeitig die Aussprache zu hören." || @tags de.listening,de.infinitive-zu
+      tr: It isn't easy to learn a new language. || Es ist nicht leicht, eine neue Sprache zu lernen. | Es ist nicht einfach, eine neue Sprache zu lernen. | Eine neue Sprache zu lernen ist nicht leicht. | Eine neue Sprache zu lernen ist nicht einfach. || Es ist + adjective + zu-infinitive at the end. || @tags de.infinitive-zu
+      dict: Es macht Spaß, gemeinsam über Fehler zu lachen.
+      say: Ich habe keine Angst mehr, Fehler zu machen. || I'm no longer afraid of making mistakes.
+      write: Write a comment (80–100 words) with your three best tips for learning a language. Use es ist …, zu and um … zu. || min=60 || req: es ist/es macht | um | zu || Danke für die Tipps, Mei Lin! Mein erster Tipp: Es ist hilfreich, kleine Notizen in der Wohnung aufzuhängen – „der Kühlschrank“, „das Fenster“. Zweitens lese ich jeden Abend zehn Minuten, um meinen Wortschatz zu erweitern. Am Anfang waren es Kinderbücher, jetzt sind es Krimis. Drittens: Es macht viel Spaß, deutsche Lieder zu singen, denn so lernt man die Aussprache fast automatisch. Und ich habe keine Angst mehr, Fehler zu machen! Viele Grüße, Diego
+
+  - title: Giving advice
+    summary: Give a friend advice about studying and exams with du solltest, an deiner Stelle würde ich … and es wäre besser, … zu.
+    minutes: 35
+    skills: [grammar, listening, speaking]
+    tags: [de.konjunktiv2, de.modal-verbs]
+    objectives:
+      - Give advice with sollte in the du- and Sie-form
+      - Use an deiner Stelle würde ich …, es wäre besser, … zu and wie wäre es mit …?
+      - React to advice and talk about problems at school or university
+    intro: |
+      When a friend has a problem, you want to help — without sounding like a strict teacher. German has a whole set of friendly ways to give advice, from *Du **solltest** …* to *An deiner Stelle **würde** ich …*. In this lesson a student who has failed his first exam wants to give up, and his cousin tries to change his mind.
+    vocab: |
+      die Klausur | written exam (at university or school) | n | Morgen schreiben wir eine Klausur in Mathe. | Tomorrow we're sitting a maths exam. | g: f | pl: die Klausuren | c: eine Klausur schreiben; eine Klausur bestehen
+      durchfallen | to fail (an exam) | v | Ich bin in der Prüfung durchgefallen. | I failed the exam. | c: durch eine Prüfung fallen | n: Separable, Perfekt with sein: ist durchgefallen. Opposite: bestehen.
+      abbrechen | to break off; to drop out of | v | Er will sein Studium abbrechen. | He wants to drop out of university. | n: Separable and irregular: brach … ab, hat abgebrochen. Noun: der Studienabbruch.
+      aufgeben | to give up | v | Du solltest nicht so schnell aufgeben. | You shouldn't give up so quickly. | n: Separable and irregular: gab … auf, hat aufgegeben.
+      die Lerngruppe | study group | n | In unserer Lerngruppe sind fünf Leute. | There are five people in our study group. | g: f | pl: die Lerngruppen
+      das Tutorium | tutorial (small class run by a student) | n | Im Tutorium erklärt ein älterer Student die Aufgaben. | In the tutorial an older student explains the exercises. | g: n | pl: die Tutorien
+      die Sprechstunde | office hours; consultation hours | n | Die Professorin hat dienstags von zehn bis zwölf Sprechstunde. | The professor has office hours on Tuesdays from ten to twelve. | g: f | pl: die Sprechstunden | n: Also used for doctors: die Sprechstunde = surgery hours.
+      der Studiengang | degree programme; course | n | Welchen Studiengang hast du gewählt? | Which degree programme did you choose? | g: m | pl: die Studiengänge
+      der Ratschlag | piece of advice; tip | n | Danke für deinen Ratschlag! | Thanks for your advice! | g: m | pl: die Ratschläge | n: Also: der Rat (no plural) — Ich brauche deinen Rat.
+      raten | to advise | v | Was rätst du mir? | What do you advise me to do? | n: Takes the dative: Ich rate dir, … zu …; irregular: du rätst, er rät.
+      sich Sorgen machen | to worry | expr | Mach dir keine Sorgen, du schaffst das! | Don't worry, you can do it! | n: Dative reflexive pronoun: ich mache mir Sorgen, du machst dir Sorgen.
+      an deiner Stelle | if I were you; in your place | expr | An deiner Stelle würde ich mit der Professorin sprechen. | If I were you, I'd talk to the professor. | n: Formal: an Ihrer Stelle.
+    grammar:
+      title: "Giving advice: du solltest, an deiner Stelle würde ich …"
+      body: |
+        The friendliest way to give advice is the **Konjunktiv II of sollen**: *Du **solltest** mehr schlafen. Sie **sollten** einen Termin machen.* It looks exactly like the Präteritum from Unit 1 (*ich sollte, du solltest, wir sollten*) — the context tells you whether it means "should" or "was supposed to". The infinitive goes to the end, without zu.
+
+        Other common patterns:
+
+        - **An deiner Stelle würde ich …** (If I were you, I'd …): very personal advice. *An deiner Stelle* takes position 1, so *würde* comes next.
+        - **Es wäre gut / besser, … zu …**: neutral advice with a zu-infinitive. *Es wäre besser, früher anzufangen.*
+        - **Wie wäre es mit …?** + dative: a suggestion. *Wie wäre es mit einer Lerngruppe?*
+        - **Ich rate dir, … zu …**: a little more formal. *Ich rate dir, in die Sprechstunde zu gehen.*
+
+        Don't confuse **du solltest** (my advice to you) with **du sollst** (somebody else's instruction or a rule): *Der Arzt sagt, du sollst im Bett bleiben.*
+      table: |
+        Pattern | Example | Feel
+        du solltest / Sie sollten | Du solltest nicht gleich aufgeben. | friendly advice
+        an deiner Stelle würde ich | An deiner Stelle würde ich eine Lerngruppe suchen. | personal
+        es wäre gut / besser, … zu | Es wäre besser, sofort anzufangen. | neutral
+        wie wäre es mit + dative | Wie wäre es mit einem Tutorium? | suggestion
+        ich rate dir, … zu | Ich rate dir, mit der Professorin zu sprechen. | a bit formal
+      examples: |
+        Nach einer Klausur solltest du nicht gleich alles hinschmeißen. | You shouldn't throw it all in after one exam. | solltest + infinitive at the end
+        An deiner Stelle würde ich eine Lerngruppe suchen. | If I were you, I'd look for a study group. | position 1: an deiner Stelle
+        Es wäre gut, im Forum von deinem Studiengang zu fragen. | It would be good to ask in your degree programme's forum. | es wäre gut, … zu
+        Wie wäre es mit einem Termin in der Sprechstunde? | How about an appointment in the office hours? | wie wäre es mit + dative
+      tip: Soften advice with vielleicht or mal — "Du solltest vielleicht mal mit ihr reden" sounds kind, not bossy.
+    dialogue:
+      title: Durchgefallen!
+      setting: A student café in Münster. Jonas, in his first semester of computer science, has failed his maths exam. His cousin Aylin, who is in her fifth semester, meets him for coffee.
+      speakers: J=Jonas/m; A=Aylin/f
+      lines: |
+        J: Ich bin in der Matheklausur durchgefallen. Ich glaube, ich breche das Studium ab. | I failed the maths exam. I think I'm going to drop out.
+        A: Jetzt warte mal. Nach einer Klausur solltest du nicht gleich alles hinschmeißen. | Hang on a minute. You shouldn't throw it all in after one exam.
+        J: Aber ich verstehe in den Vorlesungen fast nichts. Die anderen sind alle besser. | But I understand almost nothing in the lectures. The others are all better.
+        A: Das glauben viele im ersten Semester. Warst du schon mal im Tutorium? | Lots of people think that in their first semester. Have you been to the tutorial yet?
+        J: Nein, dienstags arbeite ich im Supermarkt. Da habe ich keine Zeit. | No, on Tuesdays I work in the supermarket. I don't have time then.
+        A: Dann solltest du vielleicht deine Schichten tauschen. Das Tutorium ist echt wichtig. | Then maybe you should swap your shifts. The tutorial is really important.
+        J: Hm. Und was würdest du an meiner Stelle noch machen? | Hmm. And what else would you do in my place?
+        A: An deiner Stelle würde ich eine Lerngruppe suchen. Allein lernt man viel langsamer. | If I were you, I'd look for a study group. You learn much more slowly on your own.
+        J: Eine Lerngruppe? Ich kenne aber noch kaum jemanden aus meinem Jahrgang. | A study group? But I hardly know anyone from my year yet.
+        A: Es wäre gut, im Forum von deinem Studiengang zu fragen. Da suchen bestimmt auch andere. | It would be good to ask in your degree programme's forum. Others are bound to be looking too.
+        J: Okay. Und die Klausur kann ich im März noch einmal schreiben, oder? | Okay. And I can resit the exam in March, can't I?
+        A: Genau. Aber du solltest sofort mit dem Lernen anfangen, nicht erst im Februar! | Exactly. But you should start studying right away, not just in February!
+    pronunciation:
+      title: "The ich-sound in advice: vielleicht, nicht, Sprechstunde"
+      body: |
+        Advice is full of the soft **ich-sound** [ç]: *vielleicht, nicht, sprechen, möglich*. Put your tongue in the position for English *ee* and breathe out strongly — like a whispered *hue*. Don't replace it with [k] or [ʃ].
+
+        In *Sprechstunde* you hear [ʃ] (sp at the start of a word or word part) and then [ç]: [ˈʃprɛçˌʃtʊndə]. In *solltest* the double *ll* shows that the *o* is short; stress the first syllable: *SOLL-test*.
+      items: |
+        vielleicht
+        nicht gleich
+        die Sprechstunde
+        Du solltest nicht aufgeben.
+        An deiner Stelle würde ich …
+        die Klausur
+    culture:
+      title: Exams at German universities
+      body: |
+        At German universities, most exams (*Klausuren*) take place at the end of the semester. If you fail, you can usually resit the exam, but the number of attempts is limited — so a failed first try is common and not the end of your studies.
+
+        Help is easy to find: *Tutorien* are small classes run by older students, professors have weekly office hours (*Sprechstunden*), and every university has a *Studienberatung* that advises students who are thinking of changing their subject or dropping out.
+    mistakes: |
+      Du solltest mehr zu schlafen. => Du solltest mehr schlafen. | Sollte, like all modal verbs, is followed by an infinitive without zu.
+      An deiner Stelle ich würde das Studium nicht abbrechen. => An deiner Stelle würde ich das Studium nicht abbrechen. | An deiner Stelle is in position 1, so the verb würde comes next.
+      Du sollst mehr Pausen machen. (your own advice) => Du solltest mehr Pausen machen. | Du sollst passes on another person's instruction; for your own friendly advice use du solltest.
+    task:
+      title: A friend in need
+      mode: interaction
+      body: |
+        A friend wants to quit their German course because they find the grammar too hard and have no time. Listen to their problems and give at least three pieces of advice with different patterns — du solltest, an deiner Stelle würde ich, es wäre besser, … zu and wie wäre es mit …? Practise the conversation with a partner or in Speaking practice.
+    exercises: |
+      fill: Du ___ mehr schlafen – du siehst total müde aus. || solltest || Advice: du solltest + infinitive at the end. || @tags de.konjunktiv2,de.modal-verbs
+      fill: Herr Kaya, Sie ___ einen Termin in der Sprechstunde machen. || sollten || Formal advice: Sie sollten. || @tags de.konjunktiv2,de.modal-verbs
+      fill: An deiner Stelle ___ ich das Studium nicht abbrechen. || würde || An deiner Stelle würde ich … + infinitive at the end. || @tags de.konjunktiv2
+      fill: Es wäre besser, früher mit dem Lernen ___. (anfangen) || anzufangen || Es wäre besser + zu-infinitive; anfangen is separable: an-zu-fangen. || @tags de.infinitive-zu,de.separable
+      mc: Your friend is stressed. Which is friendly advice? || *Du solltest mal eine Pause machen. | Du sollst eine Pause machen. | Du solltest eine Pause zu machen. || Du solltest = friendly advice, with an infinitive without zu. Du sollst sounds like an order from someone else. || @tags de.konjunktiv2,de.modal-verbs
+      mc: "Wie wäre es ___ einer Lerngruppe?" || *mit | für | von || The fixed phrase is Wie wäre es mit + dative? || @tags de.konjunktiv2,de.prepositions
+      rw: Turn the order into friendly advice with sollte :: Lern jeden Tag eine Stunde! || Du solltest jeden Tag eine Stunde lernen. | Du solltest jeden Tag eine Stunde lernen! || Du solltest + infinitive at the end. || @tags de.konjunktiv2,de.modal-verbs
+      tf: Jonas can't go to the tutorial because he works on Tuesdays. || true || "Dienstags arbeite ich im Supermarkt. Da habe ich keine Zeit." || @ctx dialogue
+      short: When can Jonas resit the exam? || kw: märz/march || "Die Klausur kann ich im März noch einmal schreiben." || @ctx dialogue
+      listen: @dialogue || How does Aylin suggest finding a study group? || By asking the professor | *By asking in the forum of his degree programme | By putting up a notice in the canteen || "Es wäre gut, im Forum von deinem Studiengang zu fragen."
+      listen: Wenn du nachts nicht schlafen kannst, solltest du abends nicht mehr aufs Handy schauen. An deiner Stelle würde ich lieber ein Buch lesen. || What does the speaker advise? || Drinking tea before bed | *Reading a book instead of looking at the phone | Doing sport in the evening || "An deiner Stelle würde ich lieber ein Buch lesen." || @tags de.listening,de.konjunktiv2
+      tr: If I were you, I would talk to the professor. || An deiner Stelle würde ich mit der Professorin sprechen. | An deiner Stelle würde ich mit dem Professor sprechen. | An Ihrer Stelle würde ich mit der Professorin sprechen. | An Ihrer Stelle würde ich mit dem Professor sprechen. | An deiner Stelle würde ich mit der Professorin reden. | An deiner Stelle würde ich mit dem Professor reden. || An deiner Stelle + würde ich + … + infinitive at the end. || @tags de.konjunktiv2
+      dict: An deiner Stelle würde ich eine Lerngruppe suchen.
+      ask: A friend says: "Ich habe so viel Stress vor der Prüfung." Give two pieces of advice. || kw: solltest/würde/wäre/wie wäre es & pause/schlafen/lernen/lernplan/lerngruppe/sport/spazieren/wiederholen || Du solltest einen Lernplan machen. An deiner Stelle würde ich auch jeden Tag spazieren gehen, um den Kopf frei zu bekommen.

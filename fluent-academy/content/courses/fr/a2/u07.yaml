@@ -1,0 +1,352 @@
+unit: 7
+title: Fêtes et traditions
+theme: Celebrations and traditions
+description: Talk about festivals and traditions, invite people and reply to invitations, and choose presents and give good wishes, using the pronoun en, the conditionnel de politesse and a first look at the futur simple.
+free: false
+objectives:
+  - Talk about festivals, food and traditions, and about quantities with the pronoun en
+  - Invite people, and accept or decline politely with the conditionnel
+  - Choose presents, give good wishes and make promises with the futur simple
+canDo:
+  - I can describe a festival or tradition and what people do, eat and drink.
+  - I can invite someone and accept or decline an invitation politely.
+  - I can discuss gift ideas and react politely to a present.
+  - I can write a short card with good wishes for a special occasion.
+review: |
+  fill: Des bougies ? Il y ___ a vingt sur le gâteau. || en || Il y a + quantity: en replaces des bougies → il y en a vingt. || @tags fr.y-en
+  fill: Vous ___ (pouvoir) fermer la fenêtre, s'il vous plaît ? || pourriez || Polite request: conditionnel of pouvoir, vous pourriez. || @tags fr.conditionnel
+  fill: L'année prochaine, j'___ (aller) au carnaval de Nice. || irai || Aller has the irregular future stem ir-: j'irai. || @tags fr.futur-simple
+  mc: "Tu as acheté du pain pour la fête ?" — "Oui, ___." || j'ai acheté le | *j'en ai acheté | j'y ai acheté || En replaces du pain (du + noun), before the auxiliary. || @tags fr.y-en
+  mc: Which sentence is a polite invitation? || Viens samedi, c'est obligatoire ! | *Ça te dirait de venir samedi ? | Tu dois venir samedi. || Ça te dirait de… ? (conditionnel) is a friendly, polite invitation; the others are orders. || @tags fr.conditionnel
+  rw: Make it more polite :: Vous pouvez m'aider ? || Vous pourriez m'aider ? | Pourriez-vous m'aider ? || The conditionnel (pourriez) softens the request. || @tags fr.conditionnel
+  tr: Congratulations on your new job! || Félicitations pour ton nouveau travail ! | Félicitations pour votre nouveau travail ! | Félicitations pour ton nouveau poste ! | Félicitations pour votre nouveau poste ! || Félicitations (always plural) + pour + noun. || @tags fr.vocabulary
+  listen: Pour le Nouvel An, on fera un grand dîner chez nous. Tu pourrais apporter du champagne ? || What is the speaker asking? || To come early | *To bring champagne | To cook the dinner || "Tu pourrais apporter du champagne ?" — a polite request. || @tags fr.conditionnel,fr.listening
+  listen: C'est gentil, mais malheureusement, je ne suis pas libre vendredi. On pourrait se voir la semaine prochaine ? || What does the speaker suggest? || Meeting on Friday | *Meeting next week | Not meeting at all || "On pourrait se voir la semaine prochaine ?" || @tags fr.listening
+  ask: Invite a friend to your birthday party — give the day and time, and ask them to bring something. || kw: dirait/voudrais/aimerais/pourrais/pourrait & anniversaire/fête/soirée || Ça te dirait de venir à mon anniversaire samedi soir ? On commence vers vingt heures chez moi. Tu pourrais apporter des chips ou une boisson ?
+  write: Reply to a wedding invitation — thank the couple, accept (or decline with a reason) and say what you will do or bring. || min=40 || req: merci | serai/serons/aurai/irai/ferai/fêterons/pourrais/aimerais/voudrais || Chers Inès et Samuel, merci beaucoup pour votre invitation ! Nous serons très heureux de fêter votre mariage avec vous le 14 juin. Nous arriverons la veille à Bordeaux. Je pourrais jouer de la guitare pendant l'apéritif, si vous voulez ! Je vous embrasse, Paul
+lessons:
+  - title: Festivals and holidays
+    summary: Talk about French festivals and traditions — what people do, eat and drink — and use the pronoun en with quantities.
+    minutes: 40
+    skills: [reading, grammar, speaking]
+    tags: [fr.y-en, fr.partitive]
+    objectives:
+      - Name the main French festivals and public holidays
+      - Use en to replace de + noun (du, de la, des) and with quantities
+      - Describe a festival or tradition from your country or family
+    intro: |
+      Every French festival comes with its own food: *la galette des rois* in January, *les crêpes* at la Chandeleur, chocolate at Easter. When you talk about how much or how many, French uses the pronoun **en**: *Des crêpes ? On en mange beaucoup ! J'en ai fait vingt.*
+    vocab: |
+      une fête | a festival; a party; a celebration | n | Noël est ma fête préférée. | Christmas is my favourite festival. | g: f | n: Bonne fête ! is also said on someone's name day.
+      un jour férié | a public holiday | n | Le 1er mai est un jour férié en France. | 1 May is a public holiday in France. | g: m
+      fêter | to celebrate | v | Nous fêtons le Nouvel An chez des amis. | We celebrate New Year at friends' place. | c: fêter un anniversaire; fêter Noël
+      Noël | Christmas | n | À Noël, toute la famille se retrouve chez ma tante. | At Christmas, the whole family gets together at my aunt's. | g: m | n: Joyeux Noël ! Le réveillon = the big dinner on 24 or 31 December.
+      le Nouvel An | New Year | n | Au Nouvel An, on s'embrasse à minuit. | At New Year, people kiss each other at midnight. | g: m | n: Bonne année !
+      la Chandeleur | Candlemas (crêpe day) | n | À la Chandeleur, on mange des crêpes. | At Candlemas, we eat crêpes. | g: f | n: On 2 February.
+      la galette des rois | the kings' cake | n | Dans la galette des rois, il y a une fève. | There's a little charm hidden in the kings' cake. | g: f | n: Eaten in January. Whoever finds the fève is king or queen for the day.
+      le feu d'artifice | the fireworks | n | Le 14 juillet, nous regardons le feu d'artifice. | On 14 July, we watch the fireworks. | g: m
+      un défilé | a parade | n | Il y a un grand défilé sur les Champs-Élysées. | There's a big parade on the Champs-Élysées. | g: m
+      un bal | a dance; a ball | n | Le 13 juillet, il y a un bal chez les pompiers. | On 13 July, there's a dance at the fire station. | g: m | n: Le bal des pompiers is a popular tradition around 14 July.
+      une tradition | a tradition | n | Chez nous, c'est une tradition d'ouvrir les cadeaux le 24 au soir. | In our family, it's a tradition to open the presents on the evening of the 24th. | g: f
+      l'Aïd | Eid | n | Pour l'Aïd, nous préparons des gâteaux pour les voisins. | For Eid, we make cakes for the neighbours. | g: m | n: Many families in France also celebrate Eid, Hanukkah, Diwali or Lunar New Year.
+      en | some; of it; of them | pron | Des crêpes ? J'en mange beaucoup ! | Crêpes? I eat lots of them! | n: Replaces de + noun and goes before the verb.
+    grammar:
+      title: The pronoun en
+      body: |
+        **En** replaces a noun introduced by **du, de la, de l', des** or **de**: *Tu manges **des crêpes** ? — Oui, j'**en** mange.* (Yes, I eat some.) English often leaves *some* or *any* out, but French needs en.
+
+        With a **quantity** — a number, *beaucoup, un peu, trop, un kilo, une bouteille* — en replaces the noun and the quantity stays at the end: *J'**en** ai fait vingt. Il **en** reste beaucoup. Tu **en** veux un peu ?* With *un* or *une*, keep the number: *Tu as une galette ? — Oui, j'**en** ai une.*
+
+        **Position:** like the other pronouns, en goes before the verb (*j'en prends*), before the infinitive (*je vais en acheter*), before the auxiliary (*j'en ai mangé*) and after an affirmative imperative (*Prends-**en** !*). In the negative: *Je **n'en** veux **pas**.* There is no participle agreement with en.
+      table: |
+        Without en | With en | Note
+        Je mange des crêpes. | J'en mange. | des + noun
+        Il boit du champagne. | Il en boit. | du + noun
+        Elle a acheté trois galettes. | Elle en a acheté trois. | the number stays at the end
+        Tu veux un peu de gâteau ? | Tu en veux un peu ? | the quantity stays
+        Je n'ai pas de bougies. | Je n'en ai pas. | negative: ne + en + verb
+      examples: |
+        Des feux d'artifice ? Il y en a partout le 14 juillet. | Fireworks? There are some everywhere on 14 July. | il y a → il y en a
+        J'ai fait des crêpes. Tu en veux une ? | I've made crêpes. Would you like one? | en + une
+        Nous en avons mangé beaucoup à la Chandeleur. | We ate lots of them at Candlemas. | en before the auxiliary
+        Du chocolat ? Non merci, je n'en mange pas. | Chocolate? No thanks, I don't eat it. | negative
+      tip: "Il y en a (there's some / there are some) and il n'y en a plus (there's none left) are very common — learn them as fixed phrases."
+    dialogue:
+      title: La Chandeleur
+      setting: 2 February in Rennes. Élise is making crêpes for la Chandeleur when her colleague Arjun, who moved from India last year, drops by.
+      speakers: E=Élise/f; A=Arjun/m
+      lines: |
+        A: Mmm, ça sent bon ! Qu'est-ce que tu prépares ? | Mmm, it smells good! What are you making?
+        E: Des crêpes ! C'est la Chandeleur aujourd'hui. Tu en veux une ? | Crêpes! It's Candlemas today. Would you like one?
+        A: Avec plaisir ! C'est une fête religieuse ? | I'd love one! Is it a religious festival?
+        E: À l'origine, oui. Mais aujourd'hui, c'est surtout une fête gourmande ! | Originally, yes. But today it's mostly a festival for food lovers!
+        A: Tu en as fait combien ? | How many have you made?
+        E: J'en ai fait trente. Mes neveux arrivent ce soir. | I've made thirty. My nephews are coming tonight.
+        A: Je peux en prendre une au chocolat ? | Can I have one with chocolate?
+        E: Bien sûr, il y en a encore beaucoup. Tiens ! | Of course, there's still lots. Here you are!
+        A: Délicieux ! En Inde, pour Diwali, on mange beaucoup de sucreries. | Delicious! In India, for Diwali, we eat lots of sweets.
+        E: Ah oui ? Et tu en prépares ici, à Rennes ? | Really? And do you make some here, in Rennes?
+        A: Oui, j'en fais tous les ans pour mes collègues ! | Yes, I make some every year for my colleagues!
+        E: Alors, cette année, je veux en goûter ! | Then this year I want to taste some!
+    pronunciation:
+      title: "En in liaison: j'en ai, on en mange, il y en a"
+      body: |
+        *En* is the nasal vowel [ɑ̃], and it links with the words around it: *j'en ai* [ʒɑ̃.ne] (liaison [n] after en), *on en mange* [ɔ̃.nɑ̃.mɑ̃ʒ], *nous en avons* [nu.zɑ̃.na.vɔ̃].
+
+        Practise *il y en a* as one word: [il.jɑ̃.na] — and in fast speech simply [jɑ̃.na].
+      items: |
+        j'en ai fait trente
+        on en mange
+        il y en a
+        il n'y en a plus
+        tu en veux une ?
+        prends-en
+    culture:
+      title: Le calendrier des fêtes
+      body: |
+        France has eleven public holidays, including 1 January, Easter Monday, 1 May, 8 May, 14 July (the national holiday), 15 August, 1 November, 11 November and Christmas Day. When a holiday falls on a Thursday, many people *font le pont* — they take the Friday off too, for a long weekend.
+
+        Many festivals are linked to food: *la galette des rois* in January, crêpes at *la Chandeleur*, chocolate eggs and bells at Easter, oysters or *foie gras* at Christmas. Many families also celebrate Eid, Hanukkah, Lunar New Year and other festivals.
+    mistakes: |
+      Des crêpes ? J'ai mangé trois. => Des crêpes ? J'en ai mangé trois. | With a number, you need en to replace the noun: j'en ai mangé trois.
+      Je ne veux en pas. => Je n'en veux pas. | En goes directly before the verb, inside ne… pas.
+      Du gâteau ? Oui, j'en veux un peu de. => Du gâteau ? Oui, j'en veux un peu. | En already replaces de + noun, so don't repeat de.
+    task:
+      title: A festival from home
+      mode: speaking
+      body: |
+        Present a festival or tradition from your country or family to the AI coach: when it is, what people do, eat and drink. Use *en* at least three times (*on en mange…, il y en a…*) and compare it with a French festival from this lesson.
+    exercises: |
+      fill: Des crêpes ? J'___ mange à la Chandeleur. || en || En replaces des crêpes and goes before the verb: j'en mange. || @tags fr.y-en
+      fill: Tu as des bougies ? — Oui, j'en ai ___. (ten) || dix || The number goes at the end: j'en ai dix. || @tags fr.y-en,fr.numbers
+      fill: Du champagne ? Non merci, je n'___ bois pas. || en || Negative: ne + en + verb + pas → je n'en bois pas. || @tags fr.y-en,fr.negation
+      mc: "Vous avez acheté des fleurs ?" — "Oui, ___." || nous les avons acheté deux | *nous en avons acheté deux | nous avons en acheté deux || With a quantity (deux), use en before the auxiliary; the number stays at the end. || @tags fr.y-en
+      tf: Élise made thirty crêpes. || true || "J'en ai fait trente." || @ctx dialogue
+      short: Which festival does Arjun talk about? || kw: Diwali || "En Inde, pour Diwali, on mange beaucoup de sucreries." || @ctx dialogue
+      listen: @dialogue || Why did Élise make so many crêpes? || For her colleagues at work | *Her nephews are coming tonight | For a party at Arjun's || "J'en ai fait trente. Mes neveux arrivent ce soir." || @tags fr.listening
+      listen: Pour la galette des rois, on en achète deux : une pour les enfants et une pour les adultes. || How many galettes do they buy? || One | *Two | Three || "On en achète deux" — one for the children and one for the adults. || @tags fr.y-en,fr.listening
+      rw: Replace the object with en :: Nous préparons des sucreries pour l'Aïd. || Nous en préparons pour l'Aïd. || En replaces des sucreries and goes before the verb. || @tags fr.y-en
+      rw: Answer with en and the number :: Combien de cadeaux tu as reçus ? (cinq) || J'en ai reçu cinq. || En before the auxiliary, the number at the end, and no agreement with en. || @tags fr.y-en,fr.passe-compose-avoir
+      tr: Crêpes? We eat lots of them! || Des crêpes ? On en mange beaucoup ! | Des crêpes ? Nous en mangeons beaucoup ! || En replaces des crêpes; beaucoup stays after the verb. || @tags fr.y-en
+      dict: À Noël, il y a beaucoup de chocolats et j'en mange trop ! || j'en mange
+      ask: Describe a festival from your country — when it is and what people eat. Use en at least once. || kw: en & mange/mangeons/boit/buvons/prépare/préparons/fait/faisons || Chez nous, au Mexique, on fête le jour des Morts le 2 novembre. On prépare un pain spécial et on en mange en famille.
+      write: Write a short forum post about your favourite festival — when it is, what you do and what you eat. || min=40 || req: en | fête/fêter/fêtons/fêtent || Ma fête préférée, c'est le Nouvel An chinois. Chez mes grands-parents, à Paris, on prépare des raviolis : on en fait plus de cent ! Les enfants reçoivent des enveloppes rouges avec de l'argent. Le soir, on regarde le défilé dans le quartier. C'est une fête joyeuse et très bruyante !
+
+  - title: Invitations and parties
+    summary: Invite people, accept and decline politely, and organise a party with the conditionnel de politesse.
+    minutes: 40
+    skills: [speaking, grammar, writing]
+    tags: [fr.conditionnel, fr.ordering]
+    objectives:
+      - Invite someone, formally and informally
+      - Accept or decline an invitation politely and give a reason
+      - Make polite requests and suggestions with the conditionnel (je voudrais, tu pourrais, ça te dirait…)
+    intro: |
+      Inviting someone, saying yes with enthusiasm, saying no without offending: all of this needs politeness. You already know *je voudrais*. It is a form of the **conditionnel**, which French uses to soften requests and suggestions: *Tu pourrais venir ? Ça te dirait ? On pourrait…*
+    vocab: |
+      inviter | to invite | v | Je t'invite à mon anniversaire samedi. | I'm inviting you to my birthday party on Saturday. | c: inviter quelqu'un à dîner; une invitation
+      une soirée | a party; an evening | n | On organise une soirée pour les trente ans de Karim. | We're throwing a party for Karim's thirtieth birthday. | g: f
+      ça te dirait de… ? | how about…? would you like to…? | expr | Ça te dirait de venir dîner vendredi ? | How about coming to dinner on Friday? | n: Formal: Ça vous dirait de… ?
+      avec plaisir | with pleasure; I'd love to | expr | — Tu viens ? — Avec plaisir ! | — Are you coming? — I'd love to!
+      volontiers | gladly; I'd love to | adv | Un café ? — Volontiers ! | A coffee? — I'd love one!
+      malheureusement | unfortunately | adv | Malheureusement, je ne suis pas libre samedi. | Unfortunately, I'm not free on Saturday.
+      être pris | to have plans; to be busy | expr | Désolée, je suis déjà prise ce soir-là. | Sorry, I already have plans that evening. | n: Feminine: prise.
+      apporter | to bring (a thing) | v | Je peux apporter un dessert ? | Can I bring a dessert? | n: For a person, use amener: j'amène mon copain.
+      un apéro | drinks and nibbles | n | On fait un apéro sur la terrasse à dix-neuf heures. | We're having drinks on the terrace at 7 p.m. | g: m | n: Short for un apéritif.
+      une crémaillère | a housewarming party | n | Nous faisons notre crémaillère le 12 octobre. | We're having our housewarming party on 12 October. | g: f | n: Pendre la crémaillère = to have a housewarming.
+      confirmer | to confirm | v | Tu peux confirmer avant jeudi ? | Can you confirm before Thursday?
+      une surprise | a surprise | n | C'est une fête surprise, ne dis rien à Sonia ! | It's a surprise party, don't say anything to Sonia! | g: f
+      ce serait | it would be | expr | Ce serait super de vous voir ! | It would be great to see you! | n: Conditionnel of être: ce serait.
+    grammar:
+      title: The conditionnel de politesse
+      body: |
+        The **conditionnel** makes requests, wishes and suggestions softer and more polite. Compare *Je veux un café* (I want a coffee — rather abrupt) and *Je **voudrais** un café* (I'd like a coffee).
+
+        **Formation:** the infinitive (without the final -e of -re verbs) + the endings of the imparfait **-ais, -ais, -ait, -ions, -iez, -aient**: *aimer → j'aimer**ais**; prendre → je prendr**ais***. Some very common verbs have an irregular stem: *vouloir → voudr-, pouvoir → pourr-, être → ser-, avoir → aur-, faire → fer-, aller → ir-*.
+
+        Useful expressions:
+
+        - *Je voudrais / J'aimerais* + noun or infinitive — a wish or a request
+        - *Tu pourrais / Vous pourriez* + infinitive — a polite request
+        - *On pourrait* + infinitive — a suggestion
+        - *Ça te dirait de… ? / Ça vous dirait de… ?* — an invitation
+        - *Ce serait* + adjective — *Ce serait génial !*
+      table: |
+        Verb | je | tu | il / elle / on | nous | vous | ils / elles
+        vouloir | voudrais | voudrais | voudrait | voudrions | voudriez | voudraient
+        pouvoir | pourrais | pourrais | pourrait | pourrions | pourriez | pourraient
+        aimer | aimerais | aimerais | aimerait | aimerions | aimeriez | aimeraient
+        être | serais | serais | serait | serions | seriez | seraient
+      examples: |
+        J'aimerais t'inviter à dîner samedi. | I'd like to invite you to dinner on Saturday. | aimer → j'aimerais
+        Tu pourrais apporter des chaises ? | Could you bring some chairs? | pouvoir → tu pourrais
+        On pourrait faire la fête dans le jardin. | We could have the party in the garden. | a suggestion
+        Ça vous dirait de venir à notre crémaillère ? | Would you like to come to our housewarming? | a formal invitation
+      tip: "To decline politely, follow three steps: thank, refuse with a reason, suggest something else — Merci beaucoup ! Malheureusement, je suis prise samedi. On pourrait se voir dimanche ?"
+    dialogue:
+      title: Une fête surprise
+      setting: Wednesday evening in Lyon. Nicolas phones his friend Aminata to invite her to a surprise party for his husband, Julien.
+      speakers: N=Nicolas/m; A=Aminata/f
+      lines: |
+        N: Salut Aminata ! Tu es libre samedi soir ? | Hi Aminata! Are you free on Saturday evening?
+        A: Samedi ? Je crois, oui. Pourquoi ? | Saturday? I think so, yes. Why?
+        N: Julien a quarante ans. J'organise une fête surprise à la maison. | Julien is turning forty. I'm organising a surprise party at home.
+        A: Génial ! Avec plaisir. Ça commence à quelle heure ? | Great! I'd love to come. What time does it start?
+        N: Vers vingt heures. Il ne faut rien dire à Julien, hein ! | Around eight. You mustn't say anything to Julien, OK!
+        A: Promis ! Je pourrais apporter quelque chose ? | Promise! Could I bring something?
+        N: Oui, tu pourrais faire ton gâteau au chocolat ? Il l'adore. | Yes, could you make your chocolate cake? He loves it.
+        A: Volontiers. Et je pourrais venir avec ma sœur ? | Gladly. And could I come with my sister?
+        N: Bien sûr ! Ce serait super de la revoir. | Of course! It would be great to see her again.
+        N: Tu pourrais me confirmer avant jeudi ? | Could you confirm by Thursday?
+        A: D'accord, je t'envoie un message demain. | OK, I'll send you a message tomorrow.
+    pronunciation:
+      title: "Je voudrais, j'aimerais: hearing the conditionnel"
+      body: |
+        The conditionnel endings sound like the imparfait: *je voudrais* [ʒə.vu.dʁɛ], *on pourrait* [ɔ̃.pu.ʁɛ]. What tells you it's the conditionnel is the **r** just before the ending: compare *je pouvais* [pu.vɛ] (imparfait) and *je pourrais* [pu.ʁɛ] (conditionnel).
+
+        For politeness, intonation matters as much as grammar: say *Tu pourrais m'aider ?* with a gentle rise at the end, not as a flat command.
+      items: |
+        je voudrais
+        j'aimerais
+        tu pourrais ?
+        ça te dirait ?
+        on pourrait
+        ce serait super
+    culture:
+      title: Être invité chez des Français
+      body: |
+        If you're invited to dinner at 8 p.m., arrive a little late — ten or fifteen minutes is fine, and arriving early can embarrass your hosts. Bring something small: flowers, a bottle of wine, chocolates or a dessert (ask first: *Je peux apporter quelque chose ?*).
+
+        Dinner often starts with *l'apéro* and can last several hours. An *apéro dînatoire* is a relaxed buffet of nibbles that replaces the meal.
+    mistakes: |
+      Je voudrai un café, s'il vous plaît. => Je voudrais un café, s'il vous plaît. | For a polite request, use the conditionnel (-ais). Je voudrai without -s is the future.
+      Tu pourrais de venir ? => Tu pourrais venir ? | Pourrais is followed directly by the infinitive, without de.
+      Ça te dirait venir samedi ? => Ça te dirait de venir samedi ? | Ça te dirait needs de before the infinitive.
+    task:
+      title: Party planner
+      mode: writing
+      body: |
+        Write an invitation (message or email) to a party — a birthday, a housewarming or a leaving party: date, time, place, what people could bring, and ask them to confirm. Then reply to two invitations from the AI coach: accept one and decline the other politely, with a reason.
+    exercises: |
+      fill: Je ___ (vouloir) réserver une table pour six, s'il vous plaît. || voudrais || Polite request: conditionnel of vouloir, je voudrais. || @tags fr.conditionnel,fr.ordering
+      fill: Tu ___ (pouvoir) apporter des verres ? || pourrais || Polite request with tu: tu pourrais (stem pourr- + -ais). || @tags fr.conditionnel
+      fill: Ça te ___ de venir à la plage dimanche ? || dirait || The fixed invitation phrase: ça te dirait de + infinitive. || @tags fr.conditionnel
+      mc: At a dinner party, you want the salt from a guest you don't know. You say: || Donnez-moi le sel. | Je veux le sel. | *Vous pourriez me passer le sel, s'il vous plaît ? || Vous + conditionnel + s'il vous plaît is the polite form with a stranger. || @tags fr.conditionnel,fr.register
+      tf: Nicolas agrees that Aminata can bring her sister. || true || "Bien sûr ! Ce serait super de la revoir." || @ctx dialogue
+      short: What will Aminata bring? || kw: gâteau/cake || Nicolas asks for her chocolate cake: "tu pourrais faire ton gâteau au chocolat ?" || @ctx dialogue
+      listen: @dialogue || By when does Nicolas want an answer? || Tonight | *Before Thursday | On Saturday || "Tu pourrais me confirmer avant jeudi ?" || @tags fr.listening
+      listen: Merci pour l'invitation ! Malheureusement, je suis déjà prise samedi. On pourrait déjeuner ensemble dimanche ? || What does the speaker do? || Accepts the invitation | *Declines and suggests lunch on Sunday | Asks if she can bring a friend || "Je suis déjà prise samedi" (declines) + "On pourrait déjeuner ensemble dimanche ?" || @tags fr.conditionnel,fr.listening
+      rw: Make it more polite with the conditionnel :: Je veux un verre d'eau. || Je voudrais un verre d'eau. | Je voudrais un verre d'eau, s'il vous plaît. || Je veux → je voudrais. || @tags fr.conditionnel,fr.ordering
+      rw: Turn it into a suggestion with "on pourrait" :: On va au cinéma ce soir. || On pourrait aller au cinéma ce soir. | On pourrait aller au cinéma ce soir ? || On pourrait + infinitive (aller). || @tags fr.conditionnel
+      tr: Would you like to come to my housewarming? (informal) || Ça te dirait de venir à ma crémaillère ? | Tu voudrais venir à ma crémaillère ? | Tu aimerais venir à ma crémaillère ? || Ça te dirait de + infinitive, or tu voudrais / tu aimerais + infinitive. || @tags fr.conditionnel
+      dict: Ce serait super de vous voir samedi soir. || ce serait
+      ask: Invite the AI coach to a picnic on Sunday, using the conditionnel. || kw: dirait/pourrait/pourrais/voudrais/aimerais || Ça te dirait de faire un pique-nique dimanche au parc ? On pourrait se retrouver à midi. Tu pourrais apporter une salade ?
+      write: Write an invitation to a party — date, time, place, and what guests could bring. Ask people to confirm. || min=40 || req: dirait/aimerais/voudrais/pourriez/pourrais/pourrait | samedi/dimanche/vendredi/soir || Bonjour à tous ! Nous avons enfin fini les travaux et nous aimerions fêter ça avec vous : ça vous dirait de venir à notre crémaillère samedi 12 octobre, à partir de dix-neuf heures ? Vous pourriez apporter une boisson ou un petit plat. Vous pourriez confirmer avant mercredi ? Bises, Léa et Malik
+
+  - title: Gifts and good wishes
+    summary: Choose presents, react to a gift, give good wishes for special occasions and make promises with a first look at the futur simple.
+    minutes: 40
+    skills: [vocabulary, grammar, writing]
+    tags: [fr.futur-simple]
+    objectives:
+      - Discuss gift ideas and react politely to a present
+      - Use the right wish for birthdays, weddings, births, exams and New Year
+      - Form the futur simple of regular verbs and of être, avoir, aller and faire
+    intro: |
+      Birthdays, weddings, a new baby, a new job: each occasion has its own words — *bon anniversaire, félicitations, meilleurs vœux*. Cards and wishes often look ahead (*tu seras une super maman, on fêtera ça !*), so this lesson also introduces the **futur simple**, the tense of promises and predictions.
+    vocab: |
+      un cadeau | a present; a gift | n | Qu'est-ce qu'on offre comme cadeau à Lina ? | What shall we give Lina as a present? | c: faire un cadeau; un cadeau d'anniversaire | g: m | pl: des cadeaux
+      une cagnotte | a collection; a kitty | n | On fait une cagnotte pour le départ de Martine. | We're having a collection for Martine's leaving present. | g: f
+      emballer | to wrap | v | Vous pouvez l'emballer ? C'est pour offrir. | Can you gift-wrap it? It's a present. | n: Le papier cadeau = wrapping paper.
+      une carte | a card | n | On a tous signé la carte pour Mehdi. | We all signed the card for Mehdi. | c: une carte d'anniversaire; une carte de vœux | g: f
+      bon anniversaire ! | happy birthday! | expr | Bon anniversaire, Clara ! | Happy birthday, Clara! | n: Also joyeux anniversaire !
+      félicitations ! | congratulations! | expr | Félicitations pour ton nouveau travail ! | Congratulations on your new job! | n: Always plural; félicitations pour + noun.
+      meilleurs vœux | best wishes | expr | Meilleurs vœux pour la nouvelle année ! | Best wishes for the new year! | n: In January: Bonne année et meilleurs vœux !
+      bonne chance ! | good luck! | expr | Bonne chance pour ton examen ! | Good luck with your exam!
+      un mariage | a wedding; a marriage | n | Nous sommes invités à un mariage en juin. | We're invited to a wedding in June. | g: m | n: Tous mes vœux de bonheur = all my best wishes for your happiness.
+      une naissance | a birth | n | Félicitations pour la naissance de votre fille ! | Congratulations on the birth of your daughter! | g: f
+      un bon d'achat | a gift voucher | n | On lui offre un bon d'achat pour une librairie. | We're giving him a voucher for a bookshop. | g: m | n: Also une carte cadeau.
+      ça me fait très plaisir | I'm delighted; how kind | expr | Merci, ça me fait très plaisir ! | Thank you, I'm delighted! | n: The classic reply when you receive a present.
+      il ne fallait pas ! | you shouldn't have! | expr | Oh, des fleurs ! Il ne fallait pas ! | Oh, flowers! You shouldn't have! | n: A polite, happy reaction — not a complaint.
+    grammar:
+      title: The futur simple (introduction)
+      body: |
+        The **futur simple** expresses predictions, promises and wishes: *Tu **seras** très heureuse. Je t'**écrirai** pendant les vacances. On **fêtera** ça !* For everyday plans, French speakers often prefer the near future (*je vais écrire*); the futur simple sounds more like a promise or a prediction — perfect for cards and wishes.
+
+        **Regular verbs:** infinitive + **-ai, -as, -a, -ons, -ez, -ont** (the endings look like the present of avoir). Verbs in -re drop the final e: *fêter → je fêter**ai**; offrir → tu offrir**as**; prendre → nous prendr**ons***.
+
+        **Four essential irregular stems:** *être → **ser**-, avoir → **aur**-, aller → **ir**-, faire → **fer**-*: *je serai, tu auras, on ira, ils feront.* These are the same stems as in the conditionnel (lesson 2) — only the endings change. You will learn more irregular stems in unit 8.
+      table: |
+        Pronoun | fêter | prendre | être | avoir
+        je | fêterai | prendrai | serai | aurai
+        tu | fêteras | prendras | seras | auras
+        il / elle / on | fêtera | prendra | sera | aura
+        nous | fêterons | prendrons | serons | aurons
+        vous | fêterez | prendrez | serez | aurez
+        ils / elles | fêteront | prendront | seront | auront
+      examples: |
+        Tu seras une maman formidable ! | You'll be a wonderful mum! | être → ser-
+        On fêtera ton diplôme le week-end prochain. | We'll celebrate your degree next weekend. | fêter + -a
+        Je t'écrirai pendant les vacances. | I'll write to you during the holidays. | écrire → écrir- + -ai
+        Cet été, nous irons au mariage de ma cousine en Martinique. | This summer, we'll go to my cousin's wedding in Martinique. | aller → ir-
+      tip: "Je te souhaite / Je vous souhaite + noun is a safe way to write wishes: Je te souhaite un bon anniversaire, beaucoup de bonheur, une très bonne année."
+    dialogue:
+      title: Le cadeau de départ
+      setting: An office in Lille. Martine is retiring after thirty-five years. Her colleagues Romain and Fatima choose a present, then give it to her at her leaving drinks.
+      speakers: R=Romain/m; F=Fatima/f; M=Martine/f
+      lines: |
+        R: On a combien dans la cagnotte pour Martine ? | How much do we have in the kitty for Martine?
+        F: Trois cents euros. Qu'est-ce qu'on lui offre ? | Three hundred euros. What shall we give her?
+        R: Elle adore le jardinage. Un bon d'achat pour une jardinerie ? | She loves gardening. A voucher for a garden centre?
+        F: Bonne idée ! Et on achètera aussi une belle plante. | Good idea! And we'll buy a nice plant too.
+        R: Parfait. Tu t'occupes de la carte ? Tout le monde la signera. | Perfect. Can you take care of the card? Everyone will sign it.
+        F: Martine, voici un petit cadeau de toute l'équipe ! | Martine, here's a little present from the whole team!
+        M: Oh, il ne fallait pas ! Qu'est-ce que c'est ? | Oh, you shouldn't have! What is it?
+        R: Ouvre-le ! Tu auras enfin du temps pour ton jardin. | Open it! You'll finally have time for your garden.
+        M: Un bon d'achat et une plante ! Ça me fait très plaisir. | A voucher and a plant! I'm delighted.
+        F: Tu seras une retraitée très occupée ! | You'll be a very busy retiree!
+        M: C'est sûr ! Et je passerai vous voir, promis. | That's for sure! And I'll drop by to see you, I promise.
+        R: Bonne retraite, Martine ! On t'attendra avec des croissants ! | Happy retirement, Martine! We'll be waiting for you with croissants!
+    pronunciation:
+      title: "The future: listen for the r"
+      body: |
+        The futur simple always has an **r** before the ending: *je fêterai* [fɛt.ʁe], *on ira* [i.ʁa], *vous serez* [sə.ʁe]. In *fêterai*, the e in the middle is usually silent.
+
+        Compare *je fête* [fɛt] (present) and *je fêterai* [fɛt.ʁe] (future), or *je ferai* [fə.ʁe] (future) and *je fais* [fɛ] (present): the [ʁ] is the sign of the future.
+      items: |
+        je fêterai
+        tu seras
+        on ira
+        nous aurons
+        ils feront
+        bon anniversaire !
+    culture:
+      title: Cartes, cadeaux et vœux
+      body: |
+        In France, people send their New Year wishes (*les vœux*) during the whole of January — but not before 1 January! At work, the team often shares a *galette des rois* in January while the manager presents the year's wishes.
+
+        When you receive a present, it's polite to open it in front of the giver and react warmly: *Oh, il ne fallait pas ! Ça me fait très plaisir !* For a colleague's birthday, wedding or retirement, teams often organise *une cagnotte* and sign a card together.
+    mistakes: |
+      Je serais là demain, promis ! => Je serai là demain, promis ! | For a promise, use the futur (-ai). The conditionnel (-ais) means "would".
+      Nous allerons au mariage. => Nous irons au mariage. | Aller has an irregular future stem: ir-.
+      Félicitation pour ton bébé ! => Félicitations pour ton bébé ! | Félicitations is always plural.
+    task:
+      title: A card for every occasion
+      mode: writing
+      body: |
+        Write three short cards (two or three sentences each): a birthday card for a friend, a congratulations card for a colleague's wedding or new baby, and New Year wishes for your neighbours. Use at least one verb in the futur simple in each card (*tu seras, on fêtera, nous aurons…*).
+    exercises: |
+      fill: L'année prochaine, nous ___ (fêter) Noël chez mes parents. || fêterons || Regular verb: infinitive + -ons → nous fêterons. || @tags fr.futur-simple
+      fill: Ne t'inquiète pas, tu ___ (avoir) ton examen ! || auras || Avoir has the irregular stem aur-: tu auras. || @tags fr.futur-simple
+      fill: Demain, il ___ (faire) beau pour le mariage. || fera || Faire has the irregular stem fer-: il fera. || @tags fr.futur-simple,fr.weather
+      mc: Your friend has just had a baby. You write: || Bonne chance ! | *Félicitations pour la naissance ! | Meilleurs vœux pour la nouvelle année ! || Félicitations is for good news such as a birth; bonne chance is for something still to come. || @skill vocabulary @tags fr.vocabulary
+      mc: You receive a present. The most natural reaction is: || Bonne chance ! | *Oh, il ne fallait pas ! Ça me fait très plaisir. | Félicitations ! || Il ne fallait pas + ça me fait très plaisir is the classic polite reaction to a present. || @skill vocabulary @tags fr.vocabulary
+      match: un anniversaire = Bon anniversaire ! ; un examen = Bonne chance ! ; le 1er janvier = Bonne année ! ; un mariage = Tous mes vœux de bonheur ! || Each occasion has its own fixed wish. || @skill vocabulary @tags fr.vocabulary
+      tf: The team gives Martine a voucher and a plant. || true || "Un bon d'achat et une plante ! Ça me fait très plaisir." || @ctx dialogue
+      listen: @dialogue || Why did Romain and Fatima choose this present? || Martine loves cooking | *Martine loves gardening | Martine is moving house || "Elle adore le jardinage." || @tags fr.listening
+      listen: Joyeux anniversaire, Hugo ! Ce soir, on ira au restaurant et ensuite, on fera une surprise. || What will they do tonight? || Stay at home | *Go to a restaurant | Go to the cinema || "On ira au restaurant" — aller → ir- in the future. || @tags fr.futur-simple,fr.listening
+      rw: Put it in the futur simple :: Je vais écrire une carte et je vais faire un gâteau. || J'écrirai une carte et je ferai un gâteau. || Écrire → écrir- (the e drops); faire → fer-. || @tags fr.futur-simple
+      tr: We'll celebrate your birthday on Saturday. || On fêtera ton anniversaire samedi. | Nous fêterons ton anniversaire samedi. | On fêtera ton anniversaire samedi ! | Nous fêterons votre anniversaire samedi. || Fêter in the futur simple: on fêtera, nous fêterons. || @tags fr.futur-simple
+      dict: Bonne année ! Cette année, nous irons enfin au Japon. || nous irons
+      ask: Your colleague is getting married next month. Congratulate her and ask two questions about the wedding. || kw: félicitations & mariage || Félicitations ! Le mariage, c'est où ? Vous ferez une grande fête ?
+      write: Write a birthday card for a friend, with wishes and one promise in the futur simple. || min=25 || req: anniversaire | fêtera/fêterons/seras/sera/auras/aura/ira/irons/ferons/fera || Joyeux anniversaire, ma chère Lou ! Je te souhaite une année pleine de bonheur et de voyages. Samedi, on fêtera ça au restaurant et je ferai ton gâteau préféré, promis ! Gros bisous, Maya

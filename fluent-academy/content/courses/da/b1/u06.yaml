@@ -1,0 +1,369 @@
+unit: 6
+title: Sundhed og livsstil
+theme: Health and lifestyle
+description: Talk about stress and wellbeing, Danish food culture, and sport and fitness — and learn when Danish says sin, sit and sine, and when it says hans, hendes or deres.
+objectives:
+  - Talk about stress, rest and work-life balance using sin, sit and sine
+  - Describe food habits and meals, and avoid sin in the subject and in the wrong clause
+  - Talk about sport and exercise, using possessives with man, hver and plural subjects
+canDo:
+  - I can talk about stress and what people do to feel better.
+  - I can say whose thing it is with sin, sit, sine or hans and hendes.
+  - I can describe Danish and other food habits and meals.
+  - I can talk about how I keep fit and ask about a sports club.
+review: |
+  fill: Sofie har skåret ned på ___ arbejdstimer. (her own) || sine || The hours belong to the subject, Sofie, and arbejdstimer is plural: sine. || @tags da.reflexive-possessive
+  mc: "Peter er syg, så Mads henter ___ børn i skolen." (Peter's children) || *hans | sine | sin || The children are Peter's, not Mads's, so you need hans. Sine would mean Mads's own children. || @tags da.reflexive-possessive
+  mc: Which sentence is correct? || *Lars og hans datter laver mad sammen. | Lars og sin datter laver mad sammen. | Lars og sine datter laver mad sammen. || Sin can never be part of the subject. Lars og hans datter is the subject here. || @tags da.reflexive-possessive
+  fill: Børnene har glemt ___ madpakker derhjemme. || deres || With a plural subject (børnene), Danish uses deres — sin, sit and sine are only for singular subjects. || @tags da.reflexive-possessive,da.possessives
+  mc: "Man skal passe på ___ søvn." || *sin | sit | deres || Man takes sin/sit/sine. Søvn is an en-word: sin søvn. || @tags da.reflexive-possessive
+  fill: Han bager ___ eget brød hver lørdag. || sit || Brød is an et-word, so it is sit eget brød. || @tags da.reflexive-possessive,da.adjective-agreement
+  tr: She is very happy in her new job. || Hun trives godt i sit nye job. | Hun er meget glad for sit nye job. | Hun trives rigtig godt i sit nye job. | Hun er rigtig glad for sit nye job. || The job is her own, and job is an et-word: sit nye job. || @tags da.reflexive-possessive
+  listen: Min bror arbejdede tres timer om ugen. Nu har han sagt op, og han har mere tid til sine børn. || What does the brother have more time for now? || *His children | His new job | Sport || "Han har mere tid til sine børn" — his own children. || @tags da.listening,da.reflexive-possessive
+  listen: I vores familie spiser vi altid aftensmad sammen klokken seks. Min søn laver mad om torsdagen, og hans yndlingsret er lasagne. || Who cooks on Thursdays? || *The son | The mother | The grandfather || "Min søn laver mad om torsdagen." || @tags da.listening
+  ask: Describe a typical day for a friend or relative — their work, their meals and their exercise. Use sin/sit/sine and hans or hendes. || kw: sin/sit/sine & hans/hendes/deres || Min veninde Maja arbejder på et hospital. Hun cykler på arbejde og tager altid sin egen madpakke med. Hendes mand laver aftensmad, og om aftenen går hun en tur med sin hund.
+  write: Write a short article (6–8 sentences) for a school newsletter about a healthy habit in your family or among your friends. || min=60 || req: sin/sit/sine | hans/hendes/deres | fordi/derfor || I vores familie går vi en lang tur hver søndag, uanset vejret. Min mand tager altid sin kikkert med, fordi han elsker fugle. Vores datter tager sin bedste veninde med, og hendes hund løber foran. Bagefter drikker vi te og spiser boller. Vi gør det, fordi vi ellers sidder alt for meget stille i løbet af ugen. Derfor er søndagsturen blevet vores vigtigste tradition.
+lessons:
+  - title: Stress and wellbeing
+    summary: Talk about stress, rest and work-life balance, and say whose thing it is with sin, sit and sine versus hans and hendes.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [da.reflexive-possessive, da.possessives]
+    objectives:
+      - Use sin, sit and sine when the owner is the subject of the clause
+      - Use hans and hendes when the owner is someone else
+      - Talk about stress, sleep and taking time off
+    intro: |
+      English *his* can mean "his own" or "another man's". Danish is more precise: *Han ringer til **sin** mor* is his own mother, and *Han ringer til **hans** mor* is someone else's. In this lesson you'll hear two colleagues talk about a co-worker who has just come back after stress, and learn the basic rule for **sin, sit, sine** — one of the most typical features of Danish.
+    vocab: |
+      stress | stress | n | Mange unge oplever stress. | Many young people experience stress. | g: c | n: No plural. The adjective is stresset.
+      en sygemelding | a period of sick leave | n | Hun er tilbage efter en lang sygemelding. | She is back after a long period of sick leave. | g: c | pl: sygemeldinger | n: Være sygemeldt = be on sick leave.
+      skære ned på | to cut down on | expr | Jeg har skåret ned på kaffen. | I've cut down on coffee. | n: Irregular: skar ned, har skåret ned.
+      afslappet | relaxed | adj | Hun virker meget mere afslappet nu. | She seems much more relaxed now. | n: Plural: afslappede.
+      holde fri | to take time off | expr | Jeg holder fri på fredag. | I'm taking Friday off. | n: Have fri = be off work.
+      en balance | a balance | n | Det er svært at finde balancen mellem arbejde og fritid. | It's hard to find the balance between work and free time. | g: c
+      sige fra | to say no; to set a limit | expr | Du må lære at sige fra, når du har for meget at lave. | You must learn to say no when you have too much to do. | n: A particle verb, very common in Danish working life.
+      bekymret | worried | adj | Hans kone er bekymret for ham. | His wife is worried about him. | c: bekymret for noget/nogen
+      søvn | sleep | n | Jeg får ikke nok søvn for tiden. | I'm not getting enough sleep at the moment. | g: c | n: The verb is sove.
+      trivsel | wellbeing | n | Skolen arbejder meget med elevernes trivsel. | The school works a lot on the pupils' wellbeing. | g: c
+      trives | to thrive; to be happy (in a place) | v | Hun trives rigtig godt i sit nye job. | She's really happy in her new job. | n: An s-verb: trives, trivedes, har trives.
+      sin / sit / sine | his, her, its (own) | pron | Han ringer til sin mor hver søndag. | He calls his mother every Sunday. | n: Agrees with the owned noun: sin + en-word, sit + et-word, sine + plural.
+    grammar:
+      title: "Sin, sit, sine or hans, hendes?"
+      body: |
+        In the third person, Danish has two kinds of possessive:
+
+        - **sin, sit, sine** (his/her/its own) refer back to the **subject of the same clause**: *Mads ringer til **sin** far* — Mads's own father.
+        - **hans, hendes** (and *dens, dets* for things) refer to **someone else**: *Mads ringer til **hans** far* — another man's father, for example Peter's.
+
+        **Sin, sit, sine** agree with the thing that is owned, just like min/mit/mine: **sin** + en-word (*sin chef*), **sit** + et-word (*sit job*), **sine** + plural (*sine kolleger*). *Hans* and *hendes* never change: *hendes chef, hendes job, hendes kolleger*.
+
+        Sin is only possible when the subject is **han, hun, den, det, man** or a singular noun or name. With *jeg, du, vi, I* use *min, din, vores, jeres* as usual: *Jeg ringer til **min** mor.*
+
+        Ask yourself one question: **does the thing belong to the subject of this clause?** Yes → sin, sit, sine. No → hans or hendes.
+      table: |
+        Owned thing | The subject's own | Someone else's
+        en-word: en chef | Hun taler med sin chef. | Hun taler med hendes chef. (another woman's)
+        et-word: et job | Han elsker sit job. | Han elsker hans job. (another man's)
+        plural: kolleger | Hun savner sine kolleger. | Hun savner hans kolleger.
+      examples: |
+        Sofie har skåret ned på sine arbejdstimer. | Sofie has cut down her working hours. | sine: plural, her own
+        Peter er syg, så Jonas passer hans hund. | Peter is ill, so Jonas is looking after his (Peter's) dog. | hans: not the subject's
+        Hun har slukket sin telefon for at få ro. | She has switched off her phone to get some peace. | sin + en-word
+        Han går en tur med sit barnebarn hver dag. | He goes for a walk with his grandchild every day. | sit + et-word
+      tip: "Point to the subject of the clause. If the thing belongs to that person, use sin, sit or sine."
+    dialogue:
+      title: Tilbage efter stress
+      setting: The coffee machine at an accounting firm in Esbjerg. Tina and Lasse talk about their colleague Sofie, who has just come back after stress — and about Lasse's own busy weeks.
+      speakers: T=Tina/f; L=Lasse/m
+      lines: |
+        T: Har du hørt, at Sofie er tilbage efter sin sygemelding? | Have you heard that Sofie is back after her sick leave?
+        L: Ja, jeg så hende i kantinen i dag. Hun virkede glad og afslappet. | Yes, I saw her in the canteen today. She seemed happy and relaxed.
+        T: Hun fortalte mig, at hun har skåret ned på sine timer. | She told me that she has cut down her hours.
+        L: Smart. Hun arbejdede jo altid til sent om aftenen. | Smart. She always used to work until late in the evening.
+        T: Ja, og hendes læge sagde, at hun skulle holde mere fri. | Yes, and her doctor said that she should take more time off.
+        L: Hvad gør hun så nu for at slappe af? | So what does she do to relax now?
+        T: Hun går en tur med sin hund hver morgen og slukker sin telefon klokken otte. | She goes for a walk with her dog every morning and switches off her phone at eight.
+        L: Det burde jeg også gøre. Jeg sover dårligt for tiden. | I ought to do that too. I'm sleeping badly at the moment.
+        T: Er det på grund af det nye projekt? Du ser træt ud. | Is it because of the new project? You look tired.
+        L: Ja. Min chef ringer til mig, selv når jeg holder ferie. | Yes. My boss calls me even when I'm on holiday.
+        T: Det er ikke i orden. Du burde tale med ham om det. | That's not OK. You ought to talk to him about it.
+        L: Du har ret. Jeg tager en snak med ham i morgen. | You're right. I'll have a word with him tomorrow.
+    pronunciation:
+      title: "Sin, sit, sine — hans, hendes"
+      body: |
+        The three forms sound different, so listen carefully. **Sin** has a short i and a stød — a little catch in the voice. In **sit**, the i is short and the final t is soft. **Sine** has a long i: "SII-ne".
+
+        In **hendes** the d is silent: "HEN-es". **Hans** has a short, open a. Repeat each form, then the sentence, and notice that the possessive is often unstressed — the stress falls on the noun: *Hun ringer til sin **MOR**.*
+      items: |
+        sin
+        sit
+        sine
+        hendes
+        Hun ringer til sin mor.
+    culture:
+      title: Work-life balance
+      body: |
+        A normal full-time week in Denmark is 37 hours, and by law employees have five weeks of paid holiday a year. Many parents leave work at around four to pick up their children, and colleagues rarely send emails late in the evening.
+
+        Stress is still common, and it is talked about openly. Doctors can sign people off sick for stress, and many workplaces offer a gradual return (*delvis raskmelding*). Saying no — **at sige fra** — when the workload is too big is seen as a sensible thing to do, not as a weakness.
+    mistakes: |
+      Hun ringer til hendes mor. (her own mother) => Hun ringer til sin mor. | When the mother belongs to the subject, use sin. Hendes would mean another woman's mother.
+      Han elsker sin job. => Han elsker sit job. | Job is an et-word, so it is sit.
+      Jeg ringer til sin mor. => Jeg ringer til min mor. | Sin is only for third-person subjects. With jeg, use min.
+    task:
+      title: How do you unwind?
+      mode: speaking
+      body: |
+        Talk about someone you know who has found a good way to deal with stress, and about what you do yourself. Use at least four possessives — sin, sit, sine, hans, hendes and min — and check each time: does it belong to the subject? Then practise describing symptoms of stress and asking for advice in the "At the doctor's" scenario with the AI coach.
+    exercises: |
+      fill: Lasse cykler på arbejde med ___ kollega hver dag. (his own) || sin || The colleague belongs to the subject, Lasse, and kollega is an en-word: sin. || @tags da.reflexive-possessive
+      fill: Hun har sat ___ telefon på lydløs. (her own) || sin || Telefon is an en-word, and it belongs to the subject: sin. || @tags da.reflexive-possessive
+      fill: Han har skåret ned på ___ arbejdstimer. (his own) || sine || Arbejdstimer is plural: sine. || @tags da.reflexive-possessive
+      mc: "Peter er på ferie, så Anna vander ___ planter." (Peter's plants) || *hans | sine | sin || The plants are Peter's, not the subject's (Anna's), so use hans. || @tags da.reflexive-possessive
+      mc: "Hun trives i ___ nye job." (her own) || *sit | sin | sine || Job is an et-word: sit nye job. || @tags da.reflexive-possessive
+      mc: Which sentence is correct? || *Jeg savner mine kolleger. | Jeg savner sine kolleger. | Jeg savner min kolleger. || With jeg, use min/mit/mine; kolleger is plural: mine. Sine is only for third-person subjects. || @tags da.possessives
+      tf: Sofie has started working longer hours. || false || She has cut down: "hun har skåret ned på sine timer." || @ctx dialogue
+      short: What does Sofie do every morning? || kw: hund/dog/tur/walk || "Hun går en tur med sin hund hver morgen." || @ctx dialogue
+      listen: @dialogue || What problem does Lasse have with his boss? || *His boss calls him when he's on holiday | His boss is often ill | His boss doesn't listen in meetings || "Min chef ringer til mig, selv når jeg holder ferie." || @tags da.listening
+      listen: Min nabo har været sygemeldt med stress i to måneder. Nu går hun lange ture med sin hund, og hun har det meget bedre. || How is the neighbour now? || *Much better | Still very stressed | Back at work full-time || "Hun har det meget bedre" — she is much better. || @tags da.listening,da.reflexive-possessive
+      rw: Make it mean "her own sister" :: Mette ringer til hendes søster. || Mette ringer til sin søster. || The sister belongs to the subject, Mette, so hendes becomes sin. || @tags da.reflexive-possessive
+      tr: He has switched off his phone. (his own) || Han har slukket sin telefon. | Han har slukket for sin telefon. | Han har slukket sin mobil. | Han har slukket sin mobiltelefon. || His own + en-word = sin. || @tags da.reflexive-possessive
+      ask: Tell a colleague about someone you know who changed something to feel less stressed. Use sin, sit or sine. || kw: sin/sit/sine || Min ven Ali arbejdede altid om aftenen. Nu slukker han sin computer klokken fem og spiser aftensmad med sine børn. Han siger, at han sover meget bedre.
+      dict: Han trives godt i sit nye job.
+
+  - title: Food culture
+    summary: Read about the Danish packed lunch and everyday food, and master the tricky cases of sin — never in the subject, and only about the subject of its own clause.
+    minutes: 45
+    skills: [reading, grammar, vocabulary]
+    tags: [da.reflexive-possessive, da.possessives]
+    objectives:
+      - Avoid sin in the subject (Lars og hans datter…)
+      - Use sin correctly in at-clauses and with egen, eget, egne
+      - Talk about meals, packed lunches and everyday food
+    intro: |
+      Rye bread, packed lunches and long dinners: food says a lot about a culture. In this lesson you'll read about a father in Ribe who makes packed lunches every morning, and learn the three cases where learners most often get sin wrong — when the owner is part of the subject, when there are two clauses, and when you want to say *his own*.
+    vocab: |
+      en madpakke | a packed lunch | n | Han glemte sin madpakke i bussen. | He forgot his packed lunch on the bus. | g: c | pl: madpakker | c: smøre en madpakke (make a packed lunch)
+      smøre | to spread; to make (sandwiches) | v | Hun smører leverpostej på rugbrødet. | She spreads liver pâté on the rye bread. | n: Irregular: smurte, har smurt.
+      pålæg | sandwich toppings; cold cuts | n | Hvad vil du have som pålæg? | What would you like on your bread? | g: n | n: No plural. Cheese, sausage, egg, liver pâté…
+      en frokostordning | a workplace lunch scheme | n | Vi har en frokostordning med varm mad hver dag. | We have a lunch scheme with hot food every day. | g: c | pl: frokostordninger
+      en kantine | a canteen | n | Kantinen serverer suppe om fredagen. | The canteen serves soup on Fridays. | g: c | pl: kantiner
+      et måltid | a meal | n | Aftensmaden er dagens vigtigste måltid. | Dinner is the most important meal of the day. | g: n | pl: måltider
+      en råvare | an ingredient; raw produce | n | Restauranten bruger kun lokale råvarer. | The restaurant only uses local produce. | g: c | pl: råvarer
+      begejstret | enthusiastic; delighted | adj | Børnene var ikke begejstrede for fisken. | The children weren't keen on the fish. | c: begejstret for noget | n: Plural: begejstrede.
+      en ret | a dish | n | Stegt flæsk er en klassisk dansk ret. | Fried pork belly is a classic Danish dish. | g: c | pl: retter
+      til gengæld | on the other hand; in return | expr | Han laver ikke mad. Til gengæld vasker han altid op. | He doesn't cook. On the other hand, he always does the washing-up. | n: At the start of the sentence, the verb comes next.
+      egen / eget / egne | own | adj | Han bager sit eget brød. | He bakes his own bread. | n: sin egen bil, sit eget hus, sine egne børn.
+      hverdagsmad | everyday food | n | Frikadeller er klassisk dansk hverdagsmad. | Meatballs are classic Danish everyday food. | g: c
+    grammar:
+      title: "Sin or hans? The tricky cases"
+      body: |
+        The rule from the last lesson — sin refers back to the subject of its own clause — leads to three important cases.
+
+        **1. Sin is never part of the subject.** When the owner is in the subject itself, use hans or hendes: ***Hans** datter laver mad.* · *Lars og **hans** datter laver mad sammen* (not *sin datter*).
+
+        **2. Every clause has its own subject.** In an at-clause, sin refers to the subject of the at-clause: *Lars siger, at **datteren** glemmer **sin** madpakke* — the daughter's own lunch box. If the lunch box belongs to Lars, use hans: *Lars siger, at datteren glemmer **hans** madpakke.*
+
+        **3. Egen, eget, egne (own)** add emphasis and agree like adjectives: *Han bager **sit eget** brød.* · *De dyrker **deres egne** grøntsager.* · *Hun har **sin egen** restaurant.*
+
+        In all cases, sin/sit/sine still agree with the owned noun (en-word, et-word or plural), while hans and hendes never change.
+      table: |
+        Sentence | Whose?
+        Lars og hans datter laver mad. | Lars's daughter — hans, because it is part of the subject
+        Hans datter er ni år. | Lars's daughter — the subject itself
+        Lars siger, at datteren glemmer sin madpakke. | the daughter's own lunch box
+        Lars siger, at datteren glemmer hans madpakke. | Lars's lunch box
+        Han bager sit eget rugbrød. | his own — with emphasis
+      examples: |
+        Hendes klassekammerat har pasta med hver dag. | Her classmate brings pasta every day. | the owner is in the subject: hendes
+        Lise og hendes mand spiser altid aftensmad klokken seks. | Lise and her husband always have dinner at six. | not sin mand
+        Malte siger, at hans søster ikke kan lide sin madpakke. | Malte says that his sister doesn't like her packed lunch. | sin = the sister's own
+        Kokken bruger grøntsager fra sin egen have. | The chef uses vegetables from his own garden. | sin egen for emphasis
+      tip: "Sin can never stand in the subject — not even in og-subjects like Lars og hans datter."
+    reading:
+      title: Madpakken – en dansk klassiker
+      text: |
+        Madpakken – en dansk klassiker
+
+        Hver morgen klokken halv syv står Lars Sørensen fra Ribe i køkkenet og smører madpakker. Han laver én til sig selv og én til hver af sine to børn. "Det er en del af min morgen, ligesom kaffen," siger han.
+
+        I mange andre lande spiser børn varm mad i skolen. I Danmark har de fleste elever stadig en madpakke med: rugbrød med pålæg som leverpostej, æg eller frikadeller – og noget frugt eller grønt ved siden af.
+
+        Lars' datter, Ella på ni år, er ikke altid begejstret. "Hendes klassekammerat har pasta med hver dag, og det vil hun også have," griner Lars. Hans søn, Malte, spiser til gengæld alt, men han glemmer tit sin madpakke i bussen.
+
+        Mange danskere er vokset op med madpakken, og den er blevet et symbol på dansk hverdagsmad: enkel, billig og sund. På arbejdspladserne har mange dog fået en frokostordning, hvor kantinen serverer et fælles måltid. Her sidder kollegerne ved lange borde og snakker – også med deres chef.
+
+        Danske kokke har også gjort det nordiske køkken kendt i hele verden. De bruger råvarer fra deres egne marker og fra havet: rodfrugter, rug, fisk og bær.
+
+        For Lars er det enkle stadig det bedste. Om lørdagen bager han sit eget rugbrød. "Min farmor smurte sine madpakker med kærlighed, og det prøver jeg også," siger han.
+      translation: |
+        The packed lunch – a Danish classic
+
+        Every morning at half past six, Lars Sørensen from Ribe stands in the kitchen making packed lunches. He makes one for himself and one for each of his two children. "It's part of my morning, like the coffee," he says.
+
+        In many other countries children eat a hot meal at school. In Denmark most pupils still bring a packed lunch: rye bread with toppings such as liver pâté, egg or meatballs – and some fruit or vegetables on the side.
+
+        Lars's daughter, Ella, who is nine, isn't always keen. "Her classmate brings pasta every day, and she wants that too," Lars laughs. His son, Malte, on the other hand, eats everything, but he often forgets his packed lunch on the bus.
+
+        Many Danes grew up with the packed lunch, and it has become a symbol of Danish everyday food: simple, cheap and healthy. At many workplaces, though, people now have a lunch scheme where the canteen serves a shared meal. Here colleagues sit at long tables and chat – with their boss, too.
+
+        Danish chefs have also made Nordic cuisine famous all over the world. They use produce from their own fields and from the sea: root vegetables, rye, fish and berries.
+
+        For Lars, the simple things are still the best. On Saturdays he bakes his own rye bread. "My grandmother made her packed lunches with love, and I try to do the same," he says.
+    pronunciation:
+      title: "Stress in food words"
+      body: |
+        Danish compounds are stressed on the first part: **MAD**-pak-ke, **FRO**-kost-ord-ning, **RUG**-brød. But many food words borrowed from other languages keep a later stress: fri-ka-**DEL**-ler, kar-**TOF**-ler, re-stau-**RANG** (restaurant ends in a nasal "ang" sound).
+
+        Listen and repeat each word, tapping the stressed syllable, and then say the sentence. Notice that *med* in the middle of the sentence is short and unstressed.
+      items: |
+        madpakke
+        frokostordning
+        frikadeller
+        kartofler
+        restaurant
+        Vi spiste frikadeller med kartofler.
+    culture:
+      title: Danish mealtimes
+      body: |
+        Lunch in Denmark is usually early and short — around half past eleven or twelve, and often only half an hour. Many workplaces have a shared lunch in the canteen, where everyone from the newest trainee to the director sits together. Dinner (*aftensmad*) is early too, usually between six and seven, and it is the main family meal of the day.
+
+        In 2014 the Danes voted **stegt flæsk med persillesovs** (crispy pork belly with parsley sauce and potatoes) their national dish. At the same time, Danish cooking today is very international: pasta, tacos and curries are everyday food in many homes.
+    mistakes: |
+      Peter og sin søn laver mad. => Peter og hans søn laver mad. | Sin can never be part of the subject — not even after og.
+      Sin madpakke er altid sund. => Hans madpakke er altid sund. | The possessive is in the subject, so use hans or hendes.
+      Hun bager sin eget brød. => Hun bager sit eget brød. | Brød is an et-word: sit eget.
+    task:
+      title: A typical lunch
+      mode: writing
+      body: |
+        Write a short text (6–8 sentences) comparing lunch and dinner habits in Denmark with those in another country you know. Describe what one person or family eats and when, using sin/sit/sine at least twice and hans or hendes at least twice. Then read it aloud, or talk about your favourite meal in the "Ordering at a café or restaurant" scenario with the AI coach.
+    exercises: |
+      fill: Lars og ___ kone laver mad sammen om søndagen. || hans || The owner is part of the subject (Lars og … kone), so sin is impossible: hans. || @tags da.reflexive-possessive
+      fill: Ella glemmer tit ___ madpakke i bussen. || sin || The packed lunch belongs to the subject, Ella, and madpakke is an en-word: sin. || @tags da.reflexive-possessive
+      fill: Han bager ___ ___ rugbrød. (his own — rugbrød is an et-word) || sit ; eget || Et-word: sit eget rugbrød. || @tags da.reflexive-possessive,da.adjective-agreement
+      mc: "Malte siger, at hans søster ikke kan lide ___ madpakke." (the sister's own) || *sin | hendes | sit || In the at-clause the subject is hans søster, and the lunch box is hers: sin. Hendes would mean another woman's. || @tags da.reflexive-possessive,da.subordinate-clauses
+      mc: Which sentence is correct? || *Hendes klassekammerat har pasta med hver dag. | Sin klassekammerat har pasta med hver dag. | Sine klassekammerat har pasta med hver dag. || The possessive is in the subject, so it must be hendes (or hans). || @tags da.reflexive-possessive
+      tf: Lars only makes packed lunches for his children. || false || "Han laver én til sig selv og én til hver af sine to børn" — he makes one for himself too. || @ctx reading
+      mc: What would Ella like instead of her packed lunch? || *Pasta | Hot soup | More fruit || "Hendes klassekammerat har pasta med hver dag, og det vil hun også have." || @ctx reading @skill reading @tags da.reading
+      short: What is a frokostordning? || kw: kantine/kantinen/canteen/fælles/shared/together/work/arbejde || A lunch scheme at work: the canteen serves a shared meal. || @ctx reading
+      listen: Min farfar spiste rugbrød med sild hver dag til frokost. Hans yndlingsret var stegt flæsk med persillesovs. || What was the grandfather's favourite dish? || *Fried pork belly with parsley sauce | Herring on rye bread | Meatballs with potatoes || "Hans yndlingsret var stegt flæsk med persillesovs." He ate herring on rye bread for lunch. || @tags da.listening
+      rw: The keys belong to the subject — correct the possessive :: Mette har glemt hendes nøgler. || Mette har glemt sine nøgler. || The keys are Mette's own, and nøgler is plural: sine. || @tags da.reflexive-possessive
+      order: Lise smører madpakker til sine to børn hver morgen. || Lise makes packed lunches for her two children every morning. || @tags da.reflexive-possessive,da.word-order
+      tr: Her son always forgets his lunch box. || Hendes søn glemmer altid sin madpakke. | Hendes søn glemmer altid sin madkasse. || Hendes is in the subject; the lunch box belongs to the subject (the son): sin. || @tags da.reflexive-possessive
+      ask: Describe what a friend or family member usually eats for lunch, and what their family eats for dinner. Use sin/sit/sine and hans or hendes. || kw: sin/sit/sine & hans/hendes || Min kollega Jens tager altid sin egen madpakke med. Hans kone laver aftensmad, og de spiser klokken seks. Hendes yndlingsret er fiskefrikadeller.
+      write: Write a short text (5–6 sentences) about food culture in another country you know, compared with Denmark. || min=50 || req: madpakke/frokost/aftensmad | sin/sit/sine/hans/hendes || I Spanien spiser man frokost meget sent, ofte klokken to. Min ven Pablo spiser sit største måltid midt på dagen, og hans familie spiser kun lidt om aftenen. I Danmark er det omvendt. Her tager min veninde Kirsten sin madpakke med på arbejde, og hun spiser varm mad klokken seks med sin familie.
+      dict: Han tager altid sin egen madpakke med på arbejde.
+
+  - title: Sport and fitness
+    summary: Talk about exercise, sport clubs and fun runs, and use possessives with man, hver and plural subjects — sin with man and hver, deres with de and alle.
+    minutes: 45
+    skills: [speaking, grammar, listening]
+    tags: [da.reflexive-possessive, da.possessives, da.pronouns]
+    objectives:
+      - Use sin/sit/sine with man and hver, and deres with plural subjects
+      - Choose the right possessive for every person (min, din, sin, vores, jeres, deres)
+      - Talk about training, sport clubs and staying fit
+    intro: |
+      Running clubs, gyms, football on Tuesday nights, a fun run in May — Danes are an active people, and many of them exercise in a club. In this lesson you'll hear a new member join a running club in Esbjerg and learn the last pieces of the possessive puzzle: what happens with **man** and **hver**, and why plural subjects always take **deres**.
+    vocab: |
+      motionere | to exercise | v | Jeg motionerer tre gange om ugen. | I exercise three times a week. | n: Past: motionerede. Motion = exercise.
+      et helbred | health | n | Man skal passe på sit helbred. | You have to look after your health. | g: n | n: Physical health. No plural.
+      en løbeklub | a running club | n | Hun har været med i en løbeklub i ti år. | She has been in a running club for ten years. | g: c | pl: løbeklubber
+      et tempo | a pace; a speed | n | Hver løber finder sit eget tempo. | Each runner finds their own pace. | g: n | pl: tempoer
+      et hold | a team; a group; a class | n | Vi deler os i tre hold efter niveau. | We split into three groups by level. | g: n | pl: hold | c: gå på hold (take a class)
+      varme op | to warm up | v | Husk at varme op før træningen. | Remember to warm up before training. | n: A particle verb. The noun is en opvarmning.
+      et motionsløb | a fun run | n | Hele klubben løber et motionsløb i maj. | The whole club runs a fun run in May. | g: n | pl: motionsløb
+      en muskel | a muscle | n | Mine muskler er ømme efter træningen. | My muscles are sore after training. | g: c | pl: muskler
+      en skade | an injury | n | Han har en skade i knæet. | He has a knee injury. | g: c | pl: skader | c: komme til skade (get hurt)
+      et fitnesscenter | a gym | n | Hun går i fitnesscenter før arbejde. | She goes to the gym before work. | g: n | pl: fitnesscentre
+      hver | each; every | pron | Hver spiller har sin egen trøje. | Each player has their own shirt. | n: Hver takes sin, sit, sine; alle takes deres.
+      deres | their | pron | Mine naboer løber med deres hund. | My neighbours run with their dog. | n: With a plural subject, always deres — never sine.
+    grammar:
+      title: "Possessives with man, hver and plural subjects"
+      body: |
+        Sin, sit and sine are only used with **singular third-person subjects** — and that includes two important words:
+
+        - **man** (one, you, people): *Man skal passe på **sit** helbred.* · *Man bør varme **sine** muskler op.*
+        - **hver** (each): *Hver spiller har **sin** egen trøje.* · *Hver løber finder **sit** eget tempo.*
+
+        **Plural subjects** — *de, alle, mine naboer, spillerne* — always take **deres**, also when the thing is their own: *Mine forældre cykler med **deres** venner.* · *Alle spillerne tager **deres** egne bolde med.* There is no plural form of sin in Danish.
+
+        With the first and second person, the normal possessives refer back to the subject: *Jeg glemte **mine** løbesko.* · *Vi træner med **vores** klub.* · *Tag **jeres** håndklæder med!*
+
+        Sometimes you hear *Hver spiller har deres egen trøje*, especially when people avoid saying "his" or "her", but sin is the standard choice after hver.
+      table: |
+        Subject | Possessive that refers back to it | Example
+        jeg | min / mit / mine | Jeg glemte mine løbesko.
+        du | din / dit / dine | Har du din vandflaske med?
+        han, hun, man, hver | sin / sit / sine | Man skal passe på sit helbred.
+        vi | vores | Vi træner med vores klub.
+        I | jeres | Tag jeres håndklæder med.
+        de, alle, plural nouns | deres | De cykler med deres børn.
+      examples: |
+        Man skal lytte til sin krop. | You have to listen to your body. | man takes sin
+        Hver deltager får sit eget nummer. | Each participant gets their own number. | hver takes sit
+        Mine naboer løber med deres hund hver morgen. | My neighbours run with their dog every morning. | plural subject: deres
+        Alle spillerne skal tage deres egne bolde med. | All the players must bring their own balls. | alle takes deres
+      tip: "Plural subject? Then it's deres — no exceptions. Man or hver? Then it's sin, sit or sine."
+    dialogue:
+      title: Løbeklubben i Esbjerg
+      setting: A running club meets by the harbour in Esbjerg on a Tuesday evening. The trainer, Rikke, welcomes Hamid, who wants to start running.
+      speakers: R=Rikke/f; H=Hamid/m
+      lines: |
+        R: Velkommen til løbeklubben, Hamid! Har du løbet før? | Welcome to the running club, Hamid! Have you run before?
+        H: Kun lidt. Min læge sagde, at jeg burde motionere noget mere. | Only a little. My doctor said that I ought to exercise a bit more.
+        R: Det er en god grund. Man skal passe på sit helbred. | That's a good reason. You have to look after your health.
+        H: Hvordan foregår træningen? Løber alle i samme tempo? | How does the training work? Does everyone run at the same pace?
+        R: Nej, hver løber finder sit eget tempo, og vi deler os i tre hold. | No, each runner finds their own pace, and we split into three groups.
+        H: Fint. Hvad skal jeg tage med næste gang? | Fine. What should I bring next time?
+        R: Bare dine løbesko og en vandflaske. Mange tager også deres telefon med til musik. | Just your running shoes and a water bottle. Lots of people also bring their phone for music.
+        H: Mine løbesko er meget gamle. Er det et problem? | My running shoes are very old. Is that a problem?
+        R: Måske. Man bør købe sine sko i en løbebutik, hvor de kan se, hvordan man løber. | Maybe. You should buy your shoes in a running shop, where they can see how you run.
+        H: Det lyder fornuftigt. Hvornår træner I i løbet af ugen? | That sounds sensible. When do you train during the week?
+        R: Tirsdag og torsdag klokken halv seks. Og i maj løber hele klubben et motionsløb sammen. | Tuesday and Thursday at half past five. And in May the whole club runs a fun run together.
+        H: Super. Så ses vi på tirsdag – med nye sko! | Great. See you on Tuesday, then – with new shoes!
+    pronunciation:
+      title: "The ending -ing: træning, svømning"
+      body: |
+        The ending **-ing** (or **-ning**) is very common in sport words. It sounds like "-eng", and the *ng* is one sound, as in English *sing* — there is no separate g at the end: *træning* is "TRÆ-neng", *svømning* is "SVØM-neng".
+
+        The stress is on the first part: **TRÆ**-ning, **OP**-varm-ning, **STYR**-ke-træ-ning. Listen, repeat, and keep the ending light and short.
+      items: |
+        træning
+        svømning
+        opvarmning
+        styrketræning
+        Træningen starter med ti minutters opvarmning.
+    culture:
+      title: Sport clubs and fun runs
+      body: |
+        A large part of Danish sport happens in local clubs (**foreninger**): football, handball, swimming, badminton, gymnastics and running. Membership is usually cheap because the clubs are run by volunteers — parents coach the children's teams, and members help at events.
+
+        Fun runs (**motionsløb**) are hugely popular. Workplaces send teams to relay races in the summer, and many towns have a yearly run through the streets or the woods. Cycling is everyday exercise too: many Danes cycle to work all year round.
+    mistakes: |
+      De tager sine sko med. => De tager deres sko med. | With a plural subject, use deres — never sine.
+      Man skal passe på hans helbred. => Man skal passe på sit helbred. | Man takes sin, sit, sine. Helbred is an et-word: sit.
+      Vi træner med sin klub. => Vi træner med vores klub. | Sin is only for third-person singular subjects. With vi, use vores.
+    task:
+      title: Joining a club
+      mode: interaction
+      body: |
+        You want to join a sports club in your town. Prepare a conversation with the trainer: say what you do now to keep fit, ask how the training works, what to bring and when they train. Use possessives for different people (min, sin, deres, jeres). Practise it with a partner, or talk about your favourite sport in the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: Man bør lytte til ___ krop. || sin || Man takes sin/sit/sine. Krop is an en-word: sin. || @tags da.reflexive-possessive
+      fill: Mine forældre cykler med ___ venner hver søndag. || deres || A plural subject always takes deres. || @tags da.reflexive-possessive,da.possessives
+      fill: Hver deltager får ___ eget nummer. || sit || Hver takes sin/sit/sine. Nummer is an et-word: sit eget nummer. || @tags da.reflexive-possessive
+      mc: "Alle spillerne skal tage ___ egne bolde med." || *deres | sine | sin || Alle spillerne is plural, so the possessive is deres. || @tags da.reflexive-possessive
+      mc: "Vi træner med ___ nye træner." || *vores | sin | deres || With vi, the possessive is vores. || @tags da.possessives
+      mc: "Man skal varme ___ muskler op." || *sine | deres | hans || Man takes sin/sit/sine; muskler is plural: sine. || @tags da.reflexive-possessive,da.phrasal-verbs
+      tf: Hamid's doctor told him to exercise more. || true || "Min læge sagde, at jeg burde motionere noget mere." || @ctx dialogue
+      short: What should Hamid bring next time? || kw: løbesko/sko/shoes/vandflaske/water || His running shoes and a water bottle. || @ctx dialogue
+      listen: @dialogue || When does the club train? || *On Tuesdays and Thursdays | On Mondays and Wednesdays | Only at weekends || "Tirsdag og torsdag klokken halv seks." || @tags da.listening
+      listen: Mine kolleger og jeg løber et motionsløb hvert år i juni. De fleste løber fem kilometer, men min chef løber altid ti. || How far does the boss run? || *Ten kilometres | Five kilometres | Fifteen kilometres || "Min chef løber altid ti." || @tags da.listening
+      rw: Change the subject to "De" :: Han tager sin cykel på arbejde. || De tager deres cykler på arbejde. | De tager deres cykel på arbejde. || With a plural subject, sin becomes deres. || @tags da.reflexive-possessive
+      tr: You have to look after your health. (general "you") || Man skal passe på sit helbred. | Man må passe på sit helbred. | Man bør passe på sit helbred. || General "you" = man, which takes sin/sit/sine. Helbred is an et-word: sit. || @tags da.reflexive-possessive
+      ask: Tell a new friend how you stay fit — what you do, how often and with whom. || kw: min/mit/mine/sin/sit/sine/deres/vores & træner/løber/cykler/svømmer/motionerer/går/spiller || Jeg løber to gange om ugen med min nabo og hendes søn. Om lørdagen spiller jeg fodbold med mine kolleger, og de tager deres børn med.
+      write: Write a message (5–6 sentences) to a sports club asking to join. Say what you do now, what you want to improve, and ask about the training. || min=45 || req: træning/hold/træne | min/mit/mine | hvornår/hvordan/hvad || Hej! Jeg hedder Daniel, og jeg vil gerne starte på et af jeres svømmehold. Jeg cykler på arbejde hver dag, men jeg vil gerne forbedre min kondition. Kan I fortælle mig, hvornår holdene for voksne træner? Og hvad koster det at være medlem? Jeg kan tage min datter med, hvis I også har et hold for børn. Venlig hilsen Daniel Weber
+      dict: Husk at tage jeres egne håndklæder med.

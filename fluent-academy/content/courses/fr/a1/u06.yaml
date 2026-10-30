@@ -1,0 +1,372 @@
+unit: 6
+title: Faire du shopping
+theme: Shopping
+description: Describe clothes and colours, understand prices up to 100 euros, and buy clothes in a shop — asking for a size and choosing with ce and quel.
+objectives:
+  - Describe clothes with colour adjectives that agree
+  - Count to 100 and ask about prices with combien
+  - Buy clothes in a shop using ce, cette, ces and quel
+canDo:
+  - I can say what I'm wearing and describe clothes with colours.
+  - I can understand and say prices up to 100 euros.
+  - I can ask for a size, try something on and say if it fits.
+  - I can choose between items with ce, cette, ces and quel.
+review: |
+  fill: Elle porte une chemise ___. || blanche || Blanc has an irregular feminine: blanche. || @tags fr.adjective-agreement @hint blanc
+  mc: "Brown shoes" is… || des chaussures marrons | *des chaussures marron | des marron chaussures || Marron never changes, and colours go after the noun. || @tags fr.adjective-agreement,fr.adjective-position
+  mc: 96 in French is… || soixante-seize | *quatre-vingt-seize | quatre-vingt-six || 96 = 4 × 20 + 16: quatre-vingt-seize. Soixante-seize is 76 and quatre-vingt-six is 86. || @tags fr.numbers
+  fill: Le pull coûte ___ euros. || cinquante || 50 = cinquante. || @tags fr.numbers @hint 50
+  fill: Je voudrais essayer ___ imperméable. || cet || Imperméable is masculine and starts with a vowel: cet imperméable. || @tags fr.demonstratives
+  fill: Tu préfères ___ chaussures ? || quelles || Chaussures is feminine plural: quelles. || @tags fr.question-words
+  rw: Talk about "la jupe" instead :: Ce pantalon gris est trop petit. || Cette jupe grise est trop petite. || Everything agrees with jupe (feminine): cette, grise, petite. || @tags fr.demonstratives,fr.adjective-agreement
+  tr: How much are these shoes? || Combien coûtent ces chaussures ? | Ces chaussures coûtent combien ? | C'est combien, ces chaussures ? | Elles coûtent combien, ces chaussures ? || Plural noun, so ces and coûtent. || @tags fr.question-words,fr.demonstratives
+  listen: La robe rouge coûte soixante-dix-neuf euros. || How much is the red dress? || €69 | *€79 | €99 || Soixante-dix-neuf = 60 + 19 = 79.
+  listen: Je cherche un pull bleu, taille M, et un jean noir. || What colour are the jeans? || blue | *black | grey || "Un jean noir" — black jeans. The jumper is blue.
+  ask: You're in a clothes shop. Say what you're looking for (item and colour), give your size and ask the price. || kw: je cherche/je voudrais & taille/je fais du & combien || Bonjour, je cherche une chemise blanche. Je fais du M. Elle coûte combien ?
+  write: Write a message to a friend from the sales — what you're buying, the colours, the sizes and the prices. || min=35 || req: euros | ce/cet/cette/ces | noir/noire/blanc/bleu/bleue/vert/verte/gris/grise/rouge/jaune/rose/marron || Salut Hugo ! Je suis aux soldes avec ma sœur. Je prends ces baskets blanches à cinquante-neuf euros et cette veste noire à quatre-vingt-cinq euros. Ma sœur essaie une robe verte, mais elle est trop grande. Il y a beaucoup de monde !
+lessons:
+  - title: Clothes and colours
+    summary: Name clothes and colours, make colour adjectives agree and place them after the noun.
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [fr.adjective-agreement, fr.adjective-position]
+    objectives:
+      - Name common clothes
+      - Use colour adjectives with the right agreement and position
+      - Say what you and other people are wearing with porter
+    intro: |
+      Clothes and colours are useful whenever you shop, describe someone or decide what to wear. Colours in French are adjectives, so most of them agree with the noun — **un pull vert**, **une veste verte** — and they always come **after** the noun.
+    vocab: |
+      le pantalon | trousers | n | Il porte un pantalon gris. | He's wearing grey trousers. | g: m | n: Singular in French: un pantalon. Jeans: un jean.
+      la jupe | skirt | n | Elle porte une jupe noire. | She's wearing a black skirt. | g: f
+      la robe | dress | n | Ta robe rouge est très jolie ! | Your red dress is very pretty! | g: f
+      la chemise | shirt | n | Il porte une chemise blanche. | He's wearing a white shirt. | g: f | n: A woman's blouse: un chemisier.
+      le tee-shirt | T-shirt | n | Mon tee-shirt préféré est jaune. | My favourite T-shirt is yellow. | g: m | n: Also spelt t-shirt.
+      le pull | jumper; sweater | n | Mon pull est bleu marine. | My jumper is navy blue. | g: m | n: Two-word colours like bleu marine never change.
+      la veste | jacket | n | Ma veste est marron. | My jacket is brown. | g: f | n: A long coat is un manteau.
+      les chaussures | shoes | n | Mes chaussures sont noires. | My shoes are black. | g: f | c: des baskets (trainers); des bottes (boots)
+      porter | to wear; to carry | v | Aujourd'hui, je porte une robe bleue. | Today I'm wearing a blue dress.
+      blanc | white | adj | Il porte des chaussures blanches. | He's wearing white shoes. | n: Irregular feminine: blanche.
+      noir | black | adj | Un manteau noir et une écharpe noire. | A black coat and a black scarf. | n: Feminine: noire.
+      vert / bleu / gris | green / blue / grey | adj | Elle a une jupe verte et un sac bleu. | She has a green skirt and a blue bag. | n: Feminine: verte, bleue, grise.
+      rouge / jaune / rose | red / yellow / pink | adj | Une chemise rose et un pull rouge. | A pink shirt and a red jumper. | n: Already end in -e, so the feminine is the same.
+      marron / orange | brown / orange | adj | Des chaussures marron et un sac orange. | Brown shoes and an orange bag. | n: These never change, even in the plural.
+    grammar:
+      title: "Colours: agreement and position"
+      body: |
+        Colours are adjectives, so in French they normally **agree** with the noun and go **after** it: *un pull **vert**, une jupe **verte**, des chaussures **vertes***.
+
+        - Most colours add **-e** in the feminine and **-s** in the plural: *noir → noire, noirs, noires; bleu → bleue*. **Gris** doesn't change in the masculine plural: *des pulls gris*.
+        - Colours ending in **-e** change only in the plural: *rouge → rouges, jaune → jaunes, rose → roses*.
+        - **Blanc** has an irregular feminine: *blanche*. **Violet** becomes *violette*.
+        - Colours that are also nouns — **marron** (chestnut) and **orange** (the fruit) — **never change**: *des chaussures marron, une veste orange*.
+        - Two-word colours don't change either: *une veste bleu marine, des yeux bleu clair*.
+
+        To say what someone is wearing, use **porter**: *Elle porte une robe rouge.* To ask about colour: *Il est de quelle couleur, ton sac ?*
+      table: |
+        masculine | feminine | m. plural | f. plural
+        noir | noire | noirs | noires
+        bleu | bleue | bleus | bleues
+        gris | grise | gris | grises
+        blanc | blanche | blancs | blanches
+        rouge | rouge | rouges | rouges
+        marron | marron | marron | marron
+      examples: |
+        Il porte une chemise blanche et un pantalon noir. | He's wearing a white shirt and black trousers.
+        Mes chaussures préférées sont rouges. | My favourite shoes are red.
+        J'ai deux vestes marron. | I have two brown jackets. | marron never changes
+        Elle a les yeux verts. | She has green eyes. | yeux is masculine plural
+      tip: Colours always go after the noun — une robe rouge, never une rouge robe.
+    dialogue:
+      title: Tu portes quoi ?
+      setting: Jade and Omar have only chatted online. They phone each other to find each other in the crowd outside Marseille station.
+      speakers: O=Omar/m; J=Jade/f
+      lines: |
+        O: Allô, Jade ? Je suis devant la gare. | Hello, Jade? I'm in front of the station.
+        J: Moi aussi ! Tu portes quoi ? | Me too! What are you wearing?
+        O: Je porte un pull vert et un jean. | I'm wearing a green jumper and jeans.
+        J: Un pull vert… Et une veste ? | A green jumper… And a jacket?
+        O: Oui, une veste noire. Et toi ? | Yes, a black jacket. And you?
+        J: Moi, je porte une robe jaune. | I'm wearing a yellow dress.
+        O: Une robe jaune ? Et des chaussures blanches ? | A yellow dress? And white shoes?
+        J: Non, mes chaussures sont rouges ! | No, my shoes are red!
+        O: Ah ! Et tu as un sac ? | Ah! And do you have a bag?
+        J: Oui, un petit sac marron. | Yes, a small brown bag.
+        O: Je vois une robe jaune… C'est toi, là ? | I can see a yellow dress… Is that you, there?
+        J: Oui ! Bonjour, Omar ! | Yes! Hello, Omar!
+    pronunciation:
+      title: Hearing feminine colours
+      body: |
+        As with other adjectives, the feminine -e often makes the last consonant heard: *vert* [vɛʁ] → *verte* [vɛʁt], *gris* [ɡʁi] → *grise* [ɡʁiz], *blanc* [blɑ̃] → *blanche* [blɑ̃ʃ].
+
+        Some pairs sound exactly the same: *noir / noire* [nwaʁ], *bleu / bleue* [blø]. For those, only the spelling shows the difference.
+      items: |
+        un pull vert
+        une jupe verte
+        un sac gris
+        une veste grise
+        un pull blanc
+        une chemise blanche
+    culture:
+      title: Les soldes
+      body: |
+        In France, the big sales (**les soldes**) take place twice a year on dates set nationally: in winter, starting in January, and in summer, starting in late June. Each period lasts four weeks, and shops are crowded on the first day.
+
+        Many clothes words come from English — **un pull** (from pullover), **un jean**, **un tee-shirt**, **des baskets** — but notice that *un jean* and *un pantalon* are singular in French.
+    mistakes: |
+      une rouge robe => une robe rouge | Colours go after the noun.
+      une chemise blanc => une chemise blanche | Blanc has an irregular feminine: blanche.
+      des chaussures marrons => des chaussures marron | Marron (like orange) never changes.
+    task:
+      title: What are you wearing?
+      mode: speaking
+      body: |
+        Describe what you are wearing today — at least three clothes with their colours. Then describe what a friend or a person in a photo is wearing. Record both descriptions and check each colour ending.
+    exercises: |
+      fill: Elle porte une jupe ___. || noire || Jupe is feminine: noir + e = noire. || @tags fr.adjective-agreement @hint noir
+      fill: J'ai des chaussures ___. || blanches || Feminine plural of blanc: blanches. || @tags fr.adjective-agreement @hint blanc
+      fill: Mes deux pulls préférés sont ___. || gris || Gris already ends in -s, so the masculine plural doesn't change. || @tags fr.adjective-agreement @hint gris
+      fill: Elle a une veste ___. || marron || Marron never changes. || @tags fr.adjective-agreement @hint marron
+      mc: Choose the correct phrase. || une rouge robe | *une robe rouge | une robe rouges || Colours go after the noun and agree with it: une robe rouge (singular). || @tags fr.adjective-position
+      mc: "Green shirts" (la chemise) is… || des chemises verts | *des chemises vertes | des vertes chemises || Feminine plural: verte + s, after the noun. || @tags fr.adjective-agreement
+      mc: What colour are Jade's shoes? || white | *red | yellow || "Non, mes chaussures sont rouges !" || @ctx dialogue @skill reading @tags fr.reading
+      tf: Omar is wearing a black jacket. || true || Omar says "Oui, une veste noire." || @ctx dialogue
+      rw: Make the clothes plural :: J'ai une chemise blanche. || J'ai des chemises blanches. || Une → des; chemise → chemises; blanche → blanches. || @tags fr.adjective-agreement,fr.plural
+      tr: She's wearing a blue dress and white shoes. || Elle porte une robe bleue et des chaussures blanches. || Robe (f): bleue; chaussures (f. plural): blanches. || @tags fr.adjective-agreement
+      listen: Aujourd'hui, Paul porte un pantalon gris, une chemise bleue et une veste noire. || What colour is Paul's shirt? || grey | *blue | black || "Une chemise bleue" — a blue shirt.
+      listen: @dialogue || What colour is Jade's dress? || green | *yellow | red || "Moi, je porte une robe jaune." The green jumper is Omar's.
+      dict: Il porte un pull vert et une veste noire.
+      ask: Describe what you are wearing today — at least two clothes and their colours. || kw: je porte/j'ai & noir/noire/noirs/blanc/bleu/bleue/bleus/vert/verte/verts/gris/grise/rouge/jaune/rose/roses/marron/orange/violet || Aujourd'hui, je porte un jean bleu, un pull gris et des chaussures blanches.
+      write: Write a message to a friend describing your favourite outfit and what you're wearing today. || min=25 || req: je porte | noir/noire/blanc/bleu/bleue/vert/verte/gris/grise/rouge/jaune/rose/marron/orange || Salut Zoé ! Ma tenue préférée, c'est un jean noir, un tee-shirt blanc et une veste rouge. Aujourd'hui, je porte une robe verte et des chaussures marron. Et toi ?
+
+  - title: Prices and numbers to 100
+    summary: Count from 20 to 100, understand prices and ask how much things cost with combien.
+    minutes: 40
+    skills: [vocabulary, listening, grammar]
+    tags: [fr.numbers, fr.question-words]
+    objectives:
+      - Count from 20 to 100, including 70, 80 and 90
+      - Understand and say prices in euros
+      - Ask how much something costs with combien
+    intro: |
+      Prices, ages, addresses, phone numbers — you need numbers above 20 all the time. French numbers up to 69 follow a regular pattern, but 70, 80 and 90 use a little arithmetic: **soixante-dix** (60 + 10), **quatre-vingts** (4 × 20) and **quatre-vingt-dix** (4 × 20 + 10).
+    vocab: |
+      trente, quarante, cinquante | thirty, forty, fifty | num | Le pull coûte quarante euros. | The jumper costs forty euros.
+      soixante | sixty | num | Ma mère a soixante ans. | My mother is sixty.
+      soixante-dix | seventy | num | Le manteau est à soixante-dix euros. | The coat is seventy euros. | n: 60 + 10. Then 71 = soixante et onze, 72 = soixante-douze…
+      quatre-vingts | eighty | num | Mon grand-père a quatre-vingts ans. | My grandfather is eighty. | n: 4 × 20. The s disappears when another number follows: quatre-vingt-un.
+      quatre-vingt-dix | ninety | num | Ça fait quatre-vingt-dix euros. | That's ninety euros. | n: 4 × 20 + 10. 99 = quatre-vingt-dix-neuf.
+      cent | a hundred | num | Les chaussures coûtent cent euros. | The shoes cost a hundred euros. | n: No un before cent.
+      vingt et un | twenty-one | num | Mon frère a vingt et un ans. | My brother is twenty-one. | n: Et is used only in 21, 31, 41, 51, 61 and 71.
+      combien ? | how much?; how many? | adv | C'est combien ? | How much is it? | c: combien de + noun: combien de pulls ?
+      coûter | to cost | v | Combien coûte la veste ? | How much does the jacket cost? | n: Plural: Combien coûtent les chaussures ?
+      le prix | price | n | Le prix est sur l'étiquette. | The price is on the label. | g: m | pl: les prix
+      cher | expensive | adj | C'est trop cher pour moi. | It's too expensive for me. | n: Feminine: chère. Cheap: pas cher.
+      les soldes | the sales | n | Pendant les soldes, tout est moins cher. | During the sales, everything is cheaper. | g: m | c: en solde (on sale)
+      la carte bancaire | bank card | n | Je paie par carte bancaire. | I'm paying by card. | g: f | c: payer par carte; payer en espèces (in cash)
+      le centime | cent | n | Un euro, c'est cent centimes. | One euro is a hundred cents. | g: m
+    grammar:
+      title: "Numbers 20–100 and combien ?"
+      body: |
+        From 20 to 69, French numbers are regular: tens + units, joined by a hyphen — *vingt-deux, trente-cinq, quarante-huit*. Only 21, 31, 41, 51 and 61 use **et un**: *vingt et un, trente et un*.
+
+        From 70, French counts in twenties:
+
+        - **70–79 = 60 + 10…19**: *soixante-dix* (70), *soixante et onze* (71), *soixante-douze* (72) … *soixante-dix-neuf* (79).
+        - **80 = 4 × 20**: *quatre-vingts*. The **s** disappears when another number follows: *quatre-vingt-un* (81, with no et), *quatre-vingt-cinq* (85).
+        - **90–99 = 80 + 10…19**: *quatre-vingt-dix* (90), *quatre-vingt-onze* (91) … *quatre-vingt-dix-neuf* (99).
+        - **100 = cent**, with no *un*.
+
+        **Prices** are said as euros, then cents: *12,50 € = douze euros cinquante*. French writes a comma before the cents, not a point.
+
+        To ask the price: *C'est combien ?* — *Ça coûte combien ?* — *Combien coûte la veste ?* (singular) — *Combien coûtent les chaussures ?* (plural). **Combien de** + noun asks *how many*: *Combien de tee-shirts ?*
+      table: |
+        Number | French | How it works
+        21 | vingt et un | 20 + et + 1
+        45 | quarante-cinq | 40 + 5
+        71 | soixante et onze | 60 + 11
+        77 | soixante-dix-sept | 60 + 17
+        80 | quatre-vingts | 4 × 20
+        84 | quatre-vingt-quatre | 4 × 20 + 4
+        91 | quatre-vingt-onze | 4 × 20 + 11
+        100 | cent | —
+      examples: |
+        Le jean coûte cinquante-neuf euros. | The jeans cost fifty-nine euros.
+        Ça fait soixante-quatorze euros, s'il vous plaît. | That's seventy-four euros, please. | 60 + 14
+        Combien coûtent les baskets ? — Quatre-vingt-dix euros. | How much are the trainers? — Ninety euros.
+        Mon grand-père a quatre-vingt-sept ans. | My grandfather is eighty-seven. | 4 × 20 + 7
+      tip: In Belgium and Switzerland people say septante (70) and nonante (90), and in parts of Switzerland huitante (80). In France, use soixante-dix and quatre-vingt-dix.
+    dialogue:
+      title: Au marché aux puces
+      setting: Saturday morning at a flea market in Lille. Romain stops at a second-hand clothes stall.
+      speakers: R=Romain/m; V=La vendeuse/f
+      lines: |
+        R: Bonjour ! La veste en cuir, c'est combien ? | Hello! How much is the leather jacket?
+        V: Soixante-dix euros. | Seventy euros.
+        R: Soixante-dix ? C'est un peu cher… | Seventy? That's a bit expensive…
+        V: Elle est en très bon état ! | It's in very good condition!
+        R: Et le pull rouge, il coûte combien ? | And the red jumper, how much is it?
+        V: Le pull ? Vingt-cinq euros. | The jumper? Twenty-five euros.
+        R: Bon… Les deux pour quatre-vingts euros ? | Well… Both for eighty euros?
+        V: Quatre-vingt-cinq, et c'est d'accord. | Eighty-five, and it's a deal.
+        R: D'accord ! Vous prenez la carte ? | OK! Do you take cards?
+        V: Non, désolée, seulement les espèces. | No, sorry, cash only.
+        R: Pas de problème, j'ai de l'argent. | No problem, I have money.
+        V: Merci ! Bonne journée ! | Thank you! Have a nice day!
+    pronunciation:
+      title: Silent and spoken t in vingt
+      body: |
+        The **t** of *vingt* is silent on its own [vɛ̃] and in *quatre-vingts* [ka.tʁə.vɛ̃] — and it stays silent in 81–99: *quatre-vingt-un* [ka.tʁə.vɛ̃.œ̃].
+
+        But from 21 to 29 you hear it: *vingt et un* [vɛ̃.te.œ̃], *vingt-deux* [vɛ̃t.dø]. In *cent* the t is silent [sɑ̃], except in liaison before a vowel: *cent euros* [sɑ̃.tø.ʁo].
+      items: |
+        vingt et un
+        vingt-deux
+        soixante-dix
+        quatre-vingts
+        quatre-vingt-un
+        cent euros
+    culture:
+      title: Paying in France
+      body: |
+        Prices in French shops include VAT — you'll see **TTC** (*toutes taxes comprises*) — so the price on the label is the price you pay.
+
+        Most people pay by card, often contactless (**sans contact**), even for small amounts like a baguette. Some market stalls, flea markets and small shops still prefer cash (**les espèces**), so it's useful to carry a little.
+    mistakes: |
+      quatre-vingt euros => quatre-vingts euros | Eighty on its own takes an s: quatre-vingts.
+      Combien coûte les chaussures ? => Combien coûtent les chaussures ? | With a plural noun, the verb is plural: coûtent.
+      un cent euros => cent euros | Don't put un before cent.
+    task:
+      title: Price check
+      mode: interaction
+      body: |
+        Work with a partner. One of you is the shop assistant with a price list (all prices between 20 and 100 euros); the other asks the price of five items and writes down the numbers they hear. Then swap roles and check your answers together.
+    exercises: |
+      mc: 70 in French is… || *soixante-dix | sept-dix | soixante-sept || 70 = 60 + 10: soixante-dix. Soixante-sept is 67. || @tags fr.numbers
+      mc: Which number is "quatre-vingt-douze"? || 82 | *92 | 72 || 4 × 20 + 12 = 92. || @tags fr.numbers
+      fill: 21 = vingt ___ un || et || 21, 31, 41, 51, 61 and 71 use et: vingt et un. || @tags fr.numbers
+      fill: 80 = quatre-___ || vingts || 80 is quatre-vingts, with an s because no number follows. || @tags fr.numbers
+      fill: Combien ___ les chaussures ? || coûtent || Plural subject (les chaussures), so coûtent. || @tags fr.question-words,fr.present-er @hint coûter
+      mc: How much is the leather jacket at first? || €60 | *€70 | €80 || The seller says "Soixante-dix euros." || @ctx dialogue @skill reading @tags fr.reading
+      short: How much does Romain pay for the two items? || kw: 85/quatre-vingt-cinq/eighty-five/eighty five || They agree on "Quatre-vingt-cinq" — €85. || @ctx dialogue
+      tf: Romain pays by card. || false || The seller says "seulement les espèces" — cash only. || @ctx dialogue
+      tr: How much does the jumper cost? || Combien coûte le pull ? | Le pull coûte combien ? | C'est combien, le pull ? | Le pull, c'est combien ? | Ça coûte combien, le pull ? || Combien + coûter, or simply C'est combien ? || @tags fr.question-words
+      tr-en: Les baskets coûtent quatre-vingt-dix-neuf euros. || The trainers cost ninety-nine euros. | The trainers cost 99 euros. | The sneakers cost ninety-nine euros. | The sneakers cost 99 euros. | The trainers cost €99. | The sneakers cost €99. || Quatre-vingt-dix-neuf = 4 × 20 + 19 = 99. || @tags fr.numbers
+      listen: Le manteau coûte soixante-quinze euros. || How much is the coat? || €65 | *€75 | €95 || Soixante-quinze = 60 + 15 = 75. || @tags fr.numbers
+      listen: Vous avez une robe à cinquante-neuf euros et une jupe à trente-deux euros. || How much is the skirt? || €22 | *€32 | €59 || "Une jupe à trente-deux euros." The dress is €59. || @tags fr.numbers
+      dict: Le jean coûte soixante-neuf euros.
+      ask: Ask a shop assistant the price of two things — one singular and one plural. || kw: combien & coûte/coûtent/c'est || Bonjour ! Combien coûte la chemise ? Et les chaussures, elles coûtent combien ?
+      write: There's a sale in your favourite shop. Write a message to a friend about three items and their prices. || min=25 || req: euros | coûte/coûtent/c'est || Salut Inès ! Ce sont les soldes au magasin près de la gare ! La veste noire coûte quarante-cinq euros, les baskets blanches coûtent soixante-dix-neuf euros et le pull gris coûte seulement vingt-deux euros. Ce n'est pas cher !
+
+  - title: In a shop
+    summary: Shop for clothes — ask for a size, try things on and choose with ce, cette, ces and quel.
+    minutes: 40
+    skills: [speaking, grammar, listening]
+    tags: [fr.demonstratives, fr.question-words]
+    objectives:
+      - Ask for a size and try clothes on
+      - Point to things with ce, cet, cette and ces
+      - Ask which one with quel, quelle, quels and quelles
+    intro: |
+      In a clothes shop you point, compare and choose: **ce pull**, **cette robe**, **ces chaussures**. The shop assistant asks **Vous faites quelle taille ?** and you ask **Je peux essayer ?** This lesson gives you what you need to buy clothes in French.
+    vocab: |
+      je cherche | I'm looking for | expr | Je cherche une veste pour l'hiver. | I'm looking for a jacket for the winter. | n: From chercher, a regular -er verb.
+      la taille | size (clothes) | n | Vous faites quelle taille ? | What size are you? | g: f | n: Answer: Je fais du 38 / du M.
+      la pointure | shoe size | n | Quelle est votre pointure ? | What's your shoe size? | g: f | n: Answer: Je fais du 42.
+      essayer | to try on; to try | v | Je peux essayer ce pantalon ? | Can I try on these trousers? | n: Je peux… ? = Can I…? Present: j'essaie, nous essayons.
+      la cabine d'essayage | fitting room | n | Les cabines d'essayage sont au fond. | The fitting rooms are at the back. | g: f
+      trop | too | adv | La jupe est trop petite. | The skirt is too small. | c: trop grand; trop cher; trop court
+      ça vous va | it suits you; it fits you | expr | Cette robe vous va très bien ! | This dress really suits you! | n: Informal: Ça te va bien. To ask: Ça me va ?
+      en plus grand / en plus petit | in a bigger / smaller size | expr | Vous avez ce pull en plus grand ? | Do you have this jumper in a bigger size? | n: Learn these as set phrases; comparatives come at A2.
+      la caisse | till; checkout | n | Vous pouvez payer à la caisse. | You can pay at the till. | g: f
+      ce / cette / ces | this; that; these; those | det | Je prends cette veste et ces chaussures. | I'll take this jacket and these shoes. | n: Before a masculine vowel sound: cet (cet anorak).
+      quel / quelle | which; what | det | Vous préférez quelle couleur ? | Which colour do you prefer? | n: Plural: quels, quelles. All four sound the same.
+      je prends | I'll take | expr | Je prends la bleue. | I'll take the blue one. | n: From prendre. Le / la / les + colour = the … one(s).
+      le sac | bag | n | Vous voulez un sac ? | Would you like a bag? | g: m
+      joli | pretty; nice | adj | C'est une jolie couleur. | It's a pretty colour. | n: Feminine: jolie. Goes before the noun, like petit and grand.
+    grammar:
+      title: "Ce, cette, ces — and quel ?"
+      body: |
+        **Demonstratives** (*this, that, these, those*) point to things. Like other determiners, they agree with the noun:
+
+        - **ce** + masculine noun: *ce pull, ce pantalon*
+        - **cet** + masculine noun starting with a vowel or silent h: *cet anorak, cet imperméable*
+        - **cette** + feminine noun: *cette robe, cette veste*
+        - **ces** + any plural noun: *ces chaussures, ces pulls*
+
+        Ce, cette and ces mean both *this* and *that*. To contrast two things, add **-ci** (here) or **-là** (there): *ce pull-ci ou ce pull-là ?*
+
+        **Quel** (*which, what*) asks for a choice and agrees in the same way: *quel pull ?, quelle taille ?, quels gants ?, quelles chaussures ?* All four forms sound the same [kɛl]. Use it straight before a noun — *Vous faites quelle taille ?* — or with être: *Quelle est votre pointure ?*
+
+        To avoid repeating the noun, use **le / la / les + colour**: *Je prends **la** rouge* (the red one), *Je préfère **les** noires* (the black ones).
+      table: |
+        Use | masculine | masc. + vowel | feminine | plural
+        this / that | ce pull | cet anorak | cette robe | ces chaussures
+        which? | quel pull ? | quel anorak ? | quelle robe ? | quels pulls ? quelles robes ?
+      examples: |
+        Je peux essayer cette veste ? | Can I try on this jacket?
+        Ces chaussures sont trop petites. | These shoes are too small.
+        Cet anorak est en solde. | This anorak is on sale. | cet before a vowel
+        Tu préfères quel pull, le bleu ou le gris ? | Which jumper do you prefer, the blue one or the grey one?
+      tip: Don't confuse ces (these) and ses (his, her) — they sound the same [se], so the context tells you which one you hear.
+    dialogue:
+      title: Dans la boutique
+      setting: Amina is looking for a winter jacket in a clothes shop in Nantes during the sales.
+      speakers: V=Le vendeur/m; A=Amina/f
+      lines: |
+        V: Bonjour, madame. Je peux vous aider ? | Hello, madam. Can I help you?
+        A: Oui, je cherche une veste pour l'hiver. | Yes, I'm looking for a jacket for the winter.
+        V: Ces vestes sont en solde. | These jackets are on sale.
+        A: Oh, cette veste verte est jolie ! Je peux essayer ? | Oh, this green jacket is pretty! Can I try it on?
+        V: Bien sûr. Vous faites quelle taille ? | Of course. What size are you?
+        A: Je fais du 38. | I'm a 38.
+        V: Voilà, en 38. La cabine est au fond. | Here you are, in a 38. The fitting room is at the back.
+        A: Hmm, elle est un peu trop petite. | Hmm, it's a little too small.
+        V: Voici la même en 40. | Here's the same one in a 40.
+        A: Ah, c'est parfait ! Elle coûte combien ? | Ah, that's perfect! How much is it?
+        V: Cinquante-cinq euros, avec les soldes. | Fifty-five euros, with the sale.
+        A: Super, je prends cette veste ! | Great, I'll take this jacket!
+    pronunciation:
+      title: "Ce, ces, c'est, cette, quel"
+      body: |
+        These short words are easy to mix up. **Ce** has a weak vowel [sə]. **Ces** (and *ses*) is [se], **c'est** is [sɛ] — many speakers pronounce these two almost the same. **Cette** is [sɛt], with a clear t.
+
+        **Quel, quelle, quels, quelles** all sound [kɛl] — the spelling changes, the sound doesn't.
+      items: |
+        ce pull
+        cette robe
+        ces chaussures
+        c'est joli
+        quelle taille
+        quel pull
+    culture:
+      title: Shop etiquette and sizes
+      body: |
+        In a French shop, say **bonjour** when you walk in and **au revoir** when you leave, even if you don't buy anything. Ask *Je peux essayer ?* before taking clothes to the fitting room.
+
+        France uses European sizes: women's clothes often go 36, 38, 40, 42…, and shoe sizes are numbers like 38 or 43. Many shops also use S, M, L and XL.
+    mistakes: |
+      Ce robe est jolie. => Cette robe est jolie. | Robe is feminine, so the demonstrative is cette.
+      Ce anorak est en solde. => Cet anorak est en solde. | Before a masculine noun starting with a vowel or silent h, ce becomes cet.
+      Vous faites quel taille ? => Vous faites quelle taille ? | Taille is feminine: quelle.
+    task:
+      title: Buy an outfit
+      mode: interaction
+      body: |
+        Role-play a visit to a clothes shop. Say what you're looking for, give your size, try one item on, say it's too big or too small, ask for another size, ask the price and pay. Use ce/cette/ces at least twice.
+    exercises: |
+      fill: Je peux essayer ___ robe ? || cette || Robe is feminine: cette robe. || @tags fr.demonstratives
+      fill: ___ chaussures sont trop petites. || ces || Plural noun: ces chaussures. || @tags fr.demonstratives
+      fill: Combien coûte ___ anorak ? || cet || Masculine noun starting with a vowel: cet anorak. || @tags fr.demonstratives
+      fill: Vous faites ___ taille ? || quelle || Taille is feminine: quelle taille. || @tags fr.question-words
+      mc: "Which shoes?" in French is… || Quel chaussures ? | Quelle chaussures ? | *Quelles chaussures ? || Chaussures is feminine plural: quelles. || @tags fr.question-words
+      mc: Why does Amina ask for another jacket? || She doesn't like the colour. | *The first one is too small. | It's too expensive. || "Elle est un peu trop petite" — so the seller brings a 40. || @ctx dialogue @skill reading @tags fr.reading
+      tf: The jacket costs fifty-five euros in the sale. || true || "Cinquante-cinq euros, avec les soldes." || @ctx dialogue
+      rw: Make it plural :: Ce pull est trop grand. || Ces pulls sont trop grands. || Ce → ces, est → sont, grand → grands. || @tags fr.demonstratives,fr.adjective-agreement
+      tr: Can I try on this shirt? || Je peux essayer cette chemise ? | Est-ce que je peux essayer cette chemise ? | Je peux essayer cette chemise, s'il vous plaît ? || Chemise is feminine: cette chemise. || @tags fr.demonstratives
+      tr: These trousers are too big. || Ce pantalon est trop grand. | Ces pantalons sont trop grands. || Pantalon is singular in French, so for one pair: ce pantalon est trop grand. || @tags fr.demonstratives,fr.adjective-agreement
+      listen: Bonjour, je cherche des chaussures noires. Je fais du quarante-deux. || What is the customer's shoe size? || 32 | *42 | 52 || "Je fais du quarante-deux" — size 42.
+      listen: @dialogue || What colour is the jacket Amina buys? || black | *green | blue || "Oh, cette veste verte est jolie !"
+      dict: Je peux essayer ce pull en plus grand ?
+      ask: In a shop, ask to try on an item, give your size and ask the price. || kw: essayer & taille/je fais du & combien || Bonjour, je peux essayer cette veste ? Je fais du 40. Elle coûte combien ?
+      write: Write a message to a friend from a shop — what you're trying on, the sizes and the prices — and ask which one they prefer. || min=30 || req: ce/cet/cette/ces | quel/quelle/quels/quelles | euros || Coucou Sarah ! Je suis dans un magasin près de la gare. J'essaie deux robes : cette robe rouge coûte quarante euros et cette robe bleue coûte soixante euros. Je fais du 38 et les deux me vont bien. Tu préfères quelle robe ?

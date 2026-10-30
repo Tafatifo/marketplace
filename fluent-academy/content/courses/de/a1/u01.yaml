@@ -1,0 +1,355 @@
+unit: 1
+title: "Hallo!"
+theme: Greetings and introductions
+description: Greet people in formal and informal situations, introduce yourself, and give your age, phone number and the spelling of your name.
+free: true
+objectives:
+  - Greet people and say goodbye with the right level of formality
+  - Introduce yourself with your name, origin, city and languages
+  - Use numbers 0–20 to give your age and phone number, and spell your name
+canDo:
+  - I can greet someone and say goodbye politely.
+  - I can choose between du and Sie.
+  - I can say my name, where I come from and where I live.
+  - I can give my age and phone number and spell my name.
+review: |
+  mc: Your elderly neighbour, Herr Vogel, says "Guten Morgen!". You answer: || Hallo, wie geht's dir? | *Guten Morgen, Herr Vogel. Wie geht es Ihnen? | Tschüss, Herr Vogel! || With Herr + surname, use Sie: Wie geht es Ihnen? Tschüss is for leaving. || @tags de.register
+  fill: Wir ___ aus Brasilien. || kommen || Wir + kommen = wir kommen (same form as the infinitive). || @tags de.present-regular
+  fill: Ihr ___ Studenten, oder? || seid || Ihr + sein = ihr seid. || @tags de.sein
+  fill: Mia ___ fünfzehn Jahre alt. || ist || Mia = sie; sie + sein = sie ist. Age always uses sein. || @tags de.sein
+  tr: I come from England and I live in Bonn. || Ich komme aus England und ich wohne in Bonn. | Ich komme aus England und wohne in Bonn. | Ich bin aus England und wohne in Bonn. | Ich bin aus England und ich wohne in Bonn. || kommen aus + country; wohnen in + city. || @tags de.present-regular
+  tr: Do you have time? (informal) || Hast du Zeit? || Du + haben = du hast; the verb comes first in a yes/no question. || @tags de.haben,de.questions
+  mc: Which answer fits "Kommen Sie aus Österreich?" || Ja, ich habe aus Österreich. | *Nein, ich komme aus der Schweiz. | Nein, ich heiße aus der Schweiz. || Origin uses kommen aus. Die Schweiz keeps its article: aus der Schweiz. || @tags de.present-regular
+  mc: "Wie schreibt man das?" means… || *How do you spell that? | How old are you? | What's your phone number? || Wie schreibt man das? = How do you write that? — the usual way to ask for a spelling. || @tags de.spelling
+  listen: Hallo! Ich bin Paula, ich bin vierzehn und ich spreche Deutsch und Spanisch. || How old is Paula? || 4 | 40 | *14 || "Ich bin vierzehn" — I'm fourteen. || @tags de.numbers
+  listen: Auf Wiedersehen, Frau Albrecht, schönen Abend noch! || What is happening? || Someone arrives in the morning | *Someone leaves in the evening | Someone introduces a friend || Auf Wiedersehen + schönen Abend is said when leaving in the evening. || @tags de.register
+  ask: Introduce yourself to a new colleague — greet them formally, then give your name, where you come from and where you live. || kw: guten tag/guten morgen/hallo & ich heiße/ich heisse/ich bin/mein name & ich komme/ich wohne || Guten Tag! Ich heiße Mark Evans. Ich komme aus Wales und wohne in Düsseldorf. Freut mich!
+  write: Write an email to your new German teacher introducing yourself (name, age, country, city, languages). || min=30 || req: hallo/guten tag/liebe/lieber | ich heiße/ich heisse/ich bin/mein name | jahre alt | ich spreche || Liebe Frau Huber, ich heiße Lucas und ich bin neunzehn Jahre alt. Ich komme aus Kanada und wohne jetzt in München. Ich spreche Englisch, Französisch und ein bisschen Deutsch. Viele Grüße, Lucas
+lessons:
+  - title: Greetings and goodbyes
+    summary: Say hello, ask how someone is, and say goodbye — choosing between informal du and formal Sie.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [de.register]
+    objectives:
+      - Choose between Hallo, Guten Morgen, Guten Tag and Guten Abend
+      - Ask how someone is with du or Sie and answer
+      - Say goodbye appropriately in formal and informal situations
+    intro: |
+      In German, the first words you choose show how well you know someone. Colleagues, shop staff and neighbours you don't know well get a **Guten Tag** and the formal **Sie**, while friends and family get a relaxed **Hallo** and **du**. In this lesson you will learn the greetings German speakers use every day and when to use each one.
+    vocab: |
+      Hallo | hello; hi | interj | Hallo, Jonas! Wie geht's? | Hi, Jonas! How's it going? | n: Neutral to informal — fine with friends and classmates, and with many colleagues.
+      Guten Morgen | good morning | expr | Guten Morgen, Frau Schneider! | Good morning, Mrs Schneider! | n: Used until about 10 or 11 a.m.
+      Guten Tag | hello; good day | expr | Guten Tag, Herr Yilmaz. | Hello, Mr Yilmaz. | n: The standard formal greeting from late morning until early evening. In speech it is often shortened to Tag!
+      Guten Abend | good evening | expr | Guten Abend! Ein Tisch für zwei? | Good evening! A table for two? | n: Used from about 6 p.m.
+      Gute Nacht | good night | expr | Gute Nacht, Mia. Bis morgen! | Good night, Mia. See you tomorrow! | n: Only when someone goes to bed or you part late at night — never as a greeting.
+      Wie geht's? | how are you? (informal) | expr | Hallo, Ben! Wie geht's? | Hi, Ben! How are you? | n: Short for Wie geht es dir? A typical answer: Gut, danke!
+      Wie geht es Ihnen? | how are you? (formal) | expr | Guten Tag, Herr Weber. Wie geht es Ihnen? | Hello, Mr Weber. How are you? | n: The formal Ihnen is always written with a capital I.
+      gut | good; well | adj | Danke, mir geht es gut. | Thanks, I'm well. | c: sehr gut; ganz gut; nicht so gut
+      danke | thank you; thanks | interj | Danke schön, Frau Lang! | Thank you very much, Mrs Lang! | c: danke schön; vielen Dank
+      Auf Wiedersehen | goodbye (formal) | expr | Auf Wiedersehen, Frau Berger! | Goodbye, Mrs Berger! | n: On the phone people say Auf Wiederhören ("until we hear each other again").
+      Tschüss | bye | interj | Tschüss, Lena! Bis bald! | Bye, Lena! See you soon! | n: Informal and very common; also spelled tschüs.
+      Bis morgen | see you tomorrow | expr | Schönen Abend, Emre. Bis morgen! | Have a nice evening, Emre. See you tomorrow! | c: bis bald; bis später; bis Montag
+      die Frau | Mrs; Ms; woman | n | Guten Tag, Frau Nowak. | Hello, Ms Nowak. | g: f | pl: die Frauen | n: Frau + surname is the polite form for every adult woman, married or not.
+      der Herr | Mr; gentleman | n | Guten Morgen, Herr Becker. | Good morning, Mr Becker. | g: m | pl: die Herren
+    grammar:
+      title: "du or Sie?"
+      body: |
+        German has two ways to say *you* to one person.
+
+        - **du** is informal. Use it with friends, family, children and people your own age in relaxed settings — students and many young colleagues say *du* straight away.
+        - **Sie** is formal. Use it with adults you don't know, shop and office staff, older people and anyone you call *Frau* or *Herr* + surname. **Sie** always has a capital S.
+        - **ihr** is the informal plural (*you* to two or more friends). To a group you address formally, you use **Sie** again.
+
+        The question *How are you?* changes with the pronoun: *Wie geht es **dir**?* (du) and *Wie geht es **Ihnen**?* (Sie). When in doubt, start with **Sie**. The other person may offer to switch: *Wollen wir uns duzen?* ("Shall we say du?").
+      table: |
+        Situation | Pronoun | Greeting | How are you?
+        A friend or classmate | du | Hallo! / Hi! | Wie geht's? / Wie geht es dir?
+        A shop assistant or stranger | Sie | Guten Tag! | Wie geht es Ihnen?
+        Two or more friends | ihr | Hallo zusammen! | Wie geht es euch?
+        A group you don't know | Sie | Guten Tag zusammen! | Wie geht es Ihnen?
+      examples: |
+        Hallo, Lukas! Wie geht's? | Hi, Lukas! How's it going? | informal
+        Guten Tag, Frau Schmidt. Wie geht es Ihnen? | Hello, Mrs Schmidt. How are you? | formal
+        Gut, danke. Und dir? | Fine, thanks. And you? | informal: und dir?
+        Sehr gut, danke. Und Ihnen? | Very well, thank you. And you? | formal: und Ihnen?
+      tip: Return the question with "Und dir?" (du) or "Und Ihnen?" (Sie) — short, polite and always correct.
+    dialogue:
+      title: Im Büro
+      setting: Monday morning in an office in Hamburg. Aylin Demir arrives, greets her boss, Herr Krüger, and then her colleague Jonas. In the evening she leaves.
+      speakers: A=Aylin/f; K=Herr Krüger/m; J=Jonas/m
+      lines: |
+        A: Guten Morgen, Herr Krüger! | Good morning, Mr Krüger!
+        K: Guten Morgen, Frau Demir. Wie geht es Ihnen? | Good morning, Ms Demir. How are you?
+        A: Danke, sehr gut. Und Ihnen? | Very well, thank you. And you?
+        K: Auch gut, danke. | Fine too, thanks.
+        J: Hallo, Aylin! Wie geht's? | Hi, Aylin! How's it going?
+        A: Hallo, Jonas! Gut, danke. Und dir? | Hi, Jonas! Fine, thanks. And you?
+        J: Na ja, es geht. Ich bin müde. | Well, so-so. I'm tired.
+        A: Oh, das tut mir leid! | Oh, I'm sorry to hear that!
+        K: Auf Wiedersehen, Frau Demir. Schönen Abend! | Goodbye, Ms Demir. Have a nice evening!
+        A: Auf Wiedersehen! Tschüss, Jonas, bis morgen! | Goodbye! Bye, Jonas, see you tomorrow!
+    pronunciation:
+      title: "ei, ie and the final g in Tag"
+      body: |
+        German spelling is very regular. The letters **ei** always sound like English *eye*: *heißen, nein, zwei*. The letters **ie** are a long [iː], like English *see*: *wie, Sie, Wiedersehen*. A trick: say the *second* letter as you would in English — e**i** sounds like "I", i**e** sounds like "E".
+
+        At the end of a word, **g** is pronounced [k] and **d** is pronounced [t]: *Tag* [taːk], *und* [ʊnt]. Listen and repeat each item, first slowly, then at normal speed.
+      items: |
+        Guten Tag
+        Wie geht es Ihnen?
+        Auf Wiedersehen
+        Gute Nacht
+        Tschüss
+        Und Sie?
+    culture:
+      title: Handshakes and regional greetings
+      body: |
+        In Germany people often shake hands when they are introduced or meet in a professional setting; friends usually just say hello or hug. Looking the other person in the eye while you greet them is considered polite.
+
+        Greetings vary by region. In the north, around Hamburg and Bremen, you hear **Moin** (or **Moin moin**) at any time of day. In Bavaria and Austria people say **Grüß Gott** or **Servus**. **Guten Tag** and **Hallo** are understood everywhere.
+    mistakes: |
+      Guten Tag, Frau Weber! Wie geht es dir? => Guten Tag, Frau Weber! Wie geht es Ihnen? | With Frau or Herr + surname you use Sie, so the question is Wie geht es Ihnen?
+      Gute Nacht! (arriving at a restaurant at 8 p.m.) => Guten Abend! | Gute Nacht is only for saying goodbye late at night or before bed; to greet in the evening, say Guten Abend.
+      Wie geht es ihnen? => Wie geht es Ihnen? | The formal Ihnen is always written with a capital I; ihnen with a small i means "them".
+    task:
+      title: Three greetings
+      mode: speaking
+      body: |
+        You start a German course in Munich. Greet the receptionist (formal), greet a classmate your age (informal), and at the end of the day say goodbye to your teacher, Frau Huber. Record yourself in Speaking practice, or try the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      mc: You walk into a bakery at 8 a.m. What do you say? || Gute Nacht! | *Guten Morgen! | Guten Abend! || In the early morning the polite greeting is Guten Morgen. || @tags de.register
+      mc: Which question do you ask your new teacher, Herr Albers? || Wie geht's dir? | *Wie geht es Ihnen? | Wie geht es dich? || With Herr + surname use Sie: Wie geht es Ihnen? "Dich" is never correct in this question. || @tags de.register
+      fill: Hallo, Mia! Wie geht es ___? || dir || With du, the question is Wie geht es dir? || @tags de.register @hint du-form
+      fill: Guten Tag, Frau Roth. Wie geht es ___? || Ihnen || With Sie, the question is Wie geht es Ihnen? (capital I). || @tags de.register @hint Sie-form
+      mc: It's 8 p.m. and you arrive at a restaurant. You say: || Gute Nacht! | *Guten Abend! | Guten Morgen! || From about 6 p.m. you greet with Guten Abend; Gute Nacht is only for leaving late or going to bed. || @tags de.register
+      mc: Your friend asks "Wie geht's?". The most natural answer is: || Auf Wiedersehen! | *Gut, danke. Und dir? | Wie geht es Ihnen? || Answer, then return the question with "Und dir?" (informal). || @tags de.register
+      order: Mir geht es sehr gut, danke. || I'm very well, thank you. || @alt Es geht mir sehr gut, danke.
+      tr: Goodbye, see you tomorrow! (formal) || Auf Wiedersehen, bis morgen! | Auf Wiedersehen und bis morgen! | Auf Wiedersehen. Bis morgen! || The formal goodbye is Auf Wiedersehen; see you tomorrow is bis morgen. || @tags de.register
+      tr: Hi, Paul! How are you? || Hallo, Paul! Wie geht's? | Hallo, Paul! Wie geht es dir? | Hi, Paul! Wie geht's? | Hi, Paul! Wie geht es dir? || Informal: Hallo + first name, then Wie geht's? or Wie geht es dir? || @tags de.register
+      short: How does Jonas feel? || kw: müde/mude/muede/tired/es geht/so-so || Jonas says "Na ja, es geht. Ich bin müde" — he's tired. || @ctx dialogue
+      listen: @dialogue || Who says "du" to each other in the dialogue? || Aylin and Herr Krüger | *Aylin and Jonas | Herr Krüger and Jonas || Aylin and Jonas are colleagues who use first names, Hallo and "Und dir?".
+      listen: Tschüss, Ben! Bis morgen! || When would you hear this? || *When friends say goodbye | When a waiter greets a guest | When someone answers the phone at work || Tschüss is an informal goodbye; bis morgen means see you tomorrow.
+      dict: Hallo, Lena! Mir geht es gut, danke.
+      ask: Greet your teacher, Frau Huber, formally and ask how she is. || kw: guten morgen/guten tag/guten abend & ihnen || Guten Tag, Frau Huber! Wie geht es Ihnen?
+      write: Write a short message (2–3 sentences) to a friend — say hi, ask how they are, and say see you tomorrow. || min=8 || req: hallo/hi/moin | wie geht | bis morgen || Hallo Tim! Wie geht's? Mir geht es gut. Bis morgen!
+
+  - title: Introducing yourself
+    summary: Say your name, where you come from, where you live and which languages you speak, using sein, heißen, kommen, wohnen and sprechen.
+    minutes: 40
+    skills: [grammar, speaking, reading]
+    tags: [de.sein, de.present-regular]
+    objectives:
+      - Give your name with heißen or Ich bin…
+      - Say where you come from and where you live
+      - Use sein and the present tense of regular verbs with ich, du and Sie
+    intro: |
+      Introducing yourself is your first real conversation in German. You need **Ich heiße…** or **Ich bin…** for your name, **Ich komme aus…** for your country and **Ich wohne in…** for your city. The verbs you learn here follow a pattern you will use for hundreds of other verbs.
+    vocab: |
+      heißen | to be called | v | Ich heiße Elif. Wie heißt du? | My name is Elif. What's your name? | n: Formal: Wie heißen Sie? The du-form is du heißt — the ß already sounds like s, so only -t is added.
+      der Name | name | n | Mein Name ist Paul Wagner. | My name is Paul Wagner. | g: m | pl: die Namen | c: der Vorname (first name); der Nachname (surname)
+      sein | to be | v | Ich bin Studentin. Bist du auch Student? | I'm a student. Are you a student too? | n: Irregular — learn ich bin, du bist, Sie sind by heart.
+      kommen aus | to come from | v | Ich komme aus Polen. | I come from Poland. | c: aus Deutschland; aus Wien; aus der Türkei
+      woher? | where from? | adv | Woher kommen Sie? | Where do you come from? | n: wo? asks for a place; woher? asks for an origin.
+      wohnen | to live (somewhere) | v | Ich wohne in Köln. | I live in Cologne. | c: wohnen in + city
+      wo? | where? | adv | Wo wohnst du? | Where do you live?
+      sprechen | to speak | v | Ich spreche Englisch und Arabisch. | I speak English and Arabic. | n: Sprechen Sie Deutsch? With du and er/sie the vowel changes (du sprichst) — more in unit 7.
+      Deutsch | German (language) | n | Ich lerne Deutsch. | I'm learning German. | g: n | pl: (no plural) | n: Language names are nouns and take a capital letter: Deutsch, Englisch, Türkisch.
+      Deutschland | Germany | n | Ich wohne jetzt in Deutschland. | I live in Germany now. | g: n | pl: (no plural) | n: Most countries are neuter and need no article: aus Spanien, in Italien. Exceptions: die Schweiz, die Türkei.
+      der Student | student (male) | n | Ich bin Student in Halle. | I'm a student in Halle. | g: m | pl: die Studenten | n: Female: die Studentin, plural die Studentinnen.
+      lernen | to learn; to study | v | Wir lernen Deutsch in Leipzig. | We're learning German in Leipzig.
+      Freut mich! | nice to meet you | expr | Ich bin Tom. – Freut mich! | I'm Tom. – Nice to meet you! | n: Longer and more formal: Freut mich, Sie kennenzulernen.
+      ein bisschen | a little | adv | Ich spreche ein bisschen Spanisch. | I speak a little Spanish.
+    grammar:
+      title: "sein and the present tense"
+      body: |
+        **Sein** (*to be*) is irregular — learn its forms by heart. Use it for your name, your job or studies and simple descriptions: *Ich bin Marta. Ich bin Studentin.*
+
+        Most other verbs are **regular**. Take the infinitive (*wohnen*), remove **-en** to get the stem (*wohn-*), and add the ending for each person: *ich wohn**e**, du wohn**st**, er wohn**t***.
+
+        **Sie** (formal *you*) always takes the same form as **sie** (*they*): *Sie wohnen, sie wohnen*. In writing only the capital letter shows the difference.
+
+        If the stem ends in **-s, -ß** or **-z**, the du-form only adds **-t**: *du heißt* (not ~~du heißst~~).
+      table: |
+        Pronoun | sein | wohnen | heißen
+        ich | bin | wohne | heiße
+        du | bist | wohnst | heißt
+        er / sie / es | ist | wohnt | heißt
+        wir | sind | wohnen | heißen
+        ihr | seid | wohnt | heißt
+        sie / Sie | sind | wohnen | heißen
+      examples: |
+        Ich bin Marta und ich komme aus Spanien. | I'm Marta and I come from Spain.
+        Woher kommst du? | Where do you come from? | du: -st
+        Herr Okafor wohnt in Frankfurt. | Mr Okafor lives in Frankfurt. | er: -t
+        Sind Sie Frau Petrović? | Are you Ms Petrović? | formal: Sie sind
+      tip: In a yes/no question the verb comes first — Wohnst du in Berlin? Sind Sie Studentin?
+    dialogue:
+      title: Im Deutschkurs
+      setting: The first evening of a German class at an adult education centre in Leipzig. Sofia and Kwame meet during the break.
+      speakers: S=Sofia/f; K=Kwame/m
+      lines: |
+        S: Hallo! Ich bin Sofia. Und wie heißt du? | Hi! I'm Sofia. And what's your name?
+        K: Hallo, Sofia. Ich heiße Kwame. | Hi, Sofia. My name is Kwame.
+        S: Freut mich! Woher kommst du? | Nice to meet you! Where are you from?
+        K: Ich komme aus Ghana, aus Accra. Und du? | I'm from Ghana, from Accra. And you?
+        S: Ich komme aus Italien. | I'm from Italy.
+        K: Wohnst du hier in Leipzig? | Do you live here in Leipzig?
+        S: Ja, ich wohne und arbeite hier. | Yes, I live and work here.
+        K: Ich bin Student. Ich wohne in Halle. | I'm a student. I live in Halle.
+        K: Ich spreche Englisch und ein bisschen Deutsch. | I speak English and a little German.
+        S: Ich auch! Deutsch ist schwer, aber schön. | Me too! German is difficult but beautiful.
+    pronunciation:
+      title: The German r
+      body: |
+        At the start of a word or syllable, the German **r** is made at the back of the mouth, a little like a soft gargle: *Rom, Frau, sprechen*. If that is hard at first, a rolled r is also understood everywhere.
+
+        After a vowel, and especially in the ending **-er**, the r is almost a vowel — a short, relaxed "uh" [ɐ]: *aber* [ˈaːbɐ], *Lehrer*, *der*. Listen and repeat, paying attention to where the r is strong and where it almost disappears.
+      items: |
+        Frau
+        Herr
+        sprechen
+        Freut mich!
+        aber
+        Ich wohne in Bremen.
+    culture:
+      title: Sie, du and first names
+      body: |
+        In Germany, *Sie* is still the default with adults you don't know — at the doctor's, in shops and in many offices — together with *Frau* or *Herr* and the surname. Switching to *du* is usually offered by the older person or the person in the higher position.
+
+        At the same time, *du* is spreading: students, young people, many start-ups and sports clubs use *du* and first names from the start. A good rule: if someone introduces themselves with only their first name, *du* is usually fine.
+    mistakes: |
+      Ich heiße ist Sofia. => Ich heiße Sofia. | Heiße is already the verb, so don't add ist. You can also say Ich bin Sofia or Mein Name ist Sofia.
+      Du heißst Kwame. => Du heißt Kwame. | When the stem ends in ß, s or z, the du-form only adds -t.
+      Ich komme von Italien. => Ich komme aus Italien. | For the country or city you come from, German uses aus.
+    task:
+      title: Your 30-second introduction
+      mode: speaking
+      body: |
+        Prepare a short introduction: your name, where you come from, where you live and the languages you speak. Practise it aloud three times, then try it in the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      fill: Ich ___ Studentin in Köln. || bin || Ich + sein = ich bin. || @tags de.sein
+      fill: ___ Sie Herr Lindner? || Sind || Sie (formal) + sein = Sie sind; the verb comes first in a yes/no question. || @tags de.sein,de.questions
+      fill: Er ___ Mehmet und kommt aus Izmir. || heißt / heisst || Er + heißen = er heißt. || @tags de.present-regular @hint heißen
+      fill: Wo ___ du? – In Dresden. || wohnst || Du + wohnen = du wohnst (stem wohn- + -st). || @tags de.present-regular @hint wohnen
+      mc: Choose the correct sentence. || Ich komme von Brasilien. | *Ich komme aus Brasilien. | Ich komme in Brasilien. || Origin: kommen aus + country or city. || @tags de.prepositions
+      mc: Where does Kwame live? || Leipzig | *Halle | Accra || "Ich bin Student. Ich wohne in Halle." He comes from Accra. || @ctx dialogue @skill reading @tags de.reading
+      tf: Sofia comes from Ghana. || false || Kwame comes from Ghana; Sofia comes from Italy. || @ctx dialogue
+      order: Ich komme aus Kanada und wohne in Hamburg. || I come from Canada and live in Hamburg. || @tags de.present-regular @alt Ich wohne in Hamburg und komme aus Kanada.
+      tr: My name is Lea and I live in Munich. || Ich heiße Lea und ich wohne in München. | Ich heiße Lea und wohne in München. | Mein Name ist Lea und ich wohne in München. | Ich bin Lea und ich wohne in München. | Ich bin Lea und wohne in München. || Use heißen for names and wohnen in + city (Munich = München). || @tags de.present-regular
+      tr: Where do you come from? (formal) || Woher kommen Sie? || Formal: Sie + kommen; woher = where from. || @tags de.question-words,de.register
+      rw: Make it formal :: Wo wohnst du? || Wo wohnen Sie? || With Sie, the verb takes the -en form: wohnen Sie. || @tags de.register,de.present-regular
+      listen: Ich heiße Jana, ich komme aus Tschechien und ich wohne in Nürnberg. || Where does Jana live? || Prague | *Nuremberg | Vienna || "Ich wohne in Nürnberg" — Nürnberg is Nuremberg. She comes from Czechia (Tschechien). || @tags de.listening
+      dict: Ich komme aus Polen und wohne in Bremen.
+      ask: Introduce yourself — say your name, where you come from and where you live. || kw: ich heiße/ich heisse/ich bin/mein name & ich komme/ich wohne || Hallo! Ich heiße Daniel. Ich komme aus Irland und ich wohne in Freiburg.
+      write: Write a short profile for a language-exchange website (name, country, city, languages). || min=20 || req: ich heiße/ich heisse/ich bin/mein name | ich komme aus | ich wohne | ich spreche || Hallo! Ich heiße Daniel. Ich komme aus Irland und ich wohne jetzt in Freiburg. Ich spreche Englisch, Irisch und ein bisschen Deutsch. Ich lerne Deutsch an der Uni.
+
+  - title: "Numbers, age and spelling"
+    summary: Count from 0 to 20, give your age, use haben, read out phone numbers and spell your name with the German alphabet.
+    minutes: 35
+    skills: [vocabulary, listening, grammar]
+    tags: [de.haben, de.numbers]
+    objectives:
+      - Count from 0 to 20
+      - Ask and give someone's age, and use haben
+      - Spell your name and say a phone number
+    intro: |
+      Numbers are everywhere: ages, prices, phone numbers, times. In this lesson you will learn 0–20, say your age with **sein** (*Ich bin neunzehn*), meet the verb **haben** (*to have*), and practise spelling so you can give your name on the phone or at a reception desk.
+    vocab: |
+      null | zero | num | Meine Nummer beginnt mit null. | My number starts with zero.
+      eins, zwei, drei | one, two, three | num | Eins, zwei, drei – los! | One, two, three – go! | n: On the phone people often say zwo instead of zwei, so it isn't confused with drei.
+      vier, fünf, sechs | four, five, six | num | Sie hat sechs Katzen. | She has six cats.
+      sieben, acht, neun | seven, eight, nine | num | Mein Sohn ist acht. | My son is eight.
+      zehn, elf, zwölf | ten, eleven, twelve | num | Der Kurs beginnt um zehn Uhr. | The course starts at ten o'clock.
+      dreizehn, vierzehn, fünfzehn | thirteen, fourteen, fifteen | num | Meine Tochter ist vierzehn Jahre alt. | My daughter is fourteen years old.
+      sechzehn, siebzehn, achtzehn | sixteen, seventeen, eighteen | num | Er ist siebzehn. | He's seventeen. | n: Watch the spelling: sechzehn (not sechszehn), siebzehn (not siebenzehn).
+      neunzehn, zwanzig | nineteen, twenty | num | Wir sind zwanzig im Kurs. | There are twenty of us in the course.
+      alt | old | adj | Wie alt bist du? – Ich bin neunzehn Jahre alt. | How old are you? – I'm nineteen. | n: German uses sein for age: Ich bin … (Jahre alt).
+      das Jahr | year | n | Ich bin achtzehn Jahre alt. | I'm eighteen years old. | g: n | pl: die Jahre
+      haben | to have | v | Hast du heute Zeit? | Do you have time today? | n: Irregular in two forms: du hast, er/sie/es hat.
+      die Telefonnummer | phone number | n | Wie ist Ihre Telefonnummer? | What's your phone number? | g: f | pl: die Telefonnummern | c: die Handynummer (mobile number)
+      buchstabieren | to spell | v | Können Sie das bitte buchstabieren? | Can you spell that, please? | n: Also very common: Wie schreibt man das? (How do you write that?)
+      bitte | please; you're welcome | adv | Ihre Adresse, bitte? | Your address, please? | n: Also the answer to danke: Danke! – Bitte!
+    grammar:
+      title: "haben — and how to say your age"
+      body: |
+        **Haben** (*to have*) is the second key verb after *sein*. It is almost regular — only **du hast** and **er/sie/es hat** lose the **b**.
+
+        Use *haben* for things you have: *Ich habe eine Frage* (I have a question), *Hast du Zeit?* (Do you have time?), *Wir haben zwei Kinder.*
+
+        For your **age**, German uses **sein**, not *haben*: *Ich bin zwanzig (Jahre alt).* To ask: *Wie alt bist du?* (informal) or *Wie alt sind Sie?* (formal). Never say ~~Ich habe zwanzig Jahre~~.
+
+        Numbers 13–19 are built like English: the unit + **-zehn**: *vierzehn* (14), *achtzehn* (18). Watch *sechzehn* and *siebzehn*, which drop letters.
+      table: |
+        Pronoun | haben | Example
+        ich | habe | Ich habe eine Frage.
+        du | hast | Hast du Zeit?
+        er / sie / es | hat | Sie hat ein Handy.
+        wir | haben | Wir haben zwei Kinder.
+        ihr | habt | Habt ihr Hunger?
+        sie / Sie | haben | Haben Sie eine E-Mail-Adresse?
+      examples: |
+        Ich bin sechzehn Jahre alt. | I'm sixteen (years old). | age: sein
+        Wie alt sind Sie? | How old are you? | formal
+        Paul hat zwei Kinder. | Paul has two children. | er hat
+        Hast du heute Zeit? | Do you have time today? | du hast
+      tip: On the phone, say "zwo" for 2 — it can't be confused with "drei".
+    dialogue:
+      title: Im Fitnessstudio
+      setting: Luca signs up at a gym in Stuttgart. The receptionist, Frau Graf, fills in his membership form.
+      speakers: R=Frau Graf/f; L=Luca/m
+      lines: |
+        R: Guten Tag! Wie ist Ihr Name, bitte? | Hello! What's your name, please?
+        L: Luca Ferrante. | Luca Ferrante.
+        R: Wie schreibt man das? | How do you spell that?
+        L: F – E – zwei R – A – N – T – E. | F – E – double R – A – N – T – E.
+        R: Danke. Und wie alt sind Sie? | Thank you. And how old are you?
+        L: Ich bin neunzehn. | I'm nineteen.
+        R: Haben Sie eine Handynummer? | Do you have a mobile number?
+        L: Ja, null eins sieben sechs, zwölf, vierzehn, zwanzig, elf. | Yes, 0176 12 14 20 11.
+        R: Null eins sieben sechs, zwölf, vierzehn, zwanzig, elf? | 0176 12 14 20 11?
+        L: Ja, genau. | Yes, exactly.
+        R: Super, danke. Schönen Tag noch! | Great, thanks. Have a nice day!
+    pronunciation:
+      title: "Umlauts in numbers: ü and ö"
+      body: |
+        **ü** is said with the tongue in the position for *ee* [iː] but with rounded lips, as if you wanted to say *oo*: *fünf, fünfzehn*. **ö** is the *e* of *bed*, but with rounded lips: *zwölf*. Don't replace an umlaut with a plain vowel — *fünf* is not "funf". If you can't type ü or ö, write ue or oe: fuenf, zwoelf.
+
+        The letter **z** is always [ts], like the end of English *cats*: *zehn, zwanzig, zwölf*.
+      items: |
+        fünf
+        fünfzehn
+        zwölf
+        zehn
+        zwanzig
+        sechzehn
+    culture:
+      title: Phone numbers and the spelling alphabet
+      body: |
+        Germans usually read phone numbers digit by digit or in pairs: a Berlin number starts with *null drei null* (030), and mobile numbers start with 015, 016 or 017. On the phone, **zwo** often replaces *zwei* so it isn't confused with *drei*.
+
+        To spell names clearly, people use a spelling alphabet: *A wie Anton, B wie Berta, C wie Cäsar*. Since 2022 the official version uses city names — *A wie Aachen, B wie Berlin* — but you will hear both.
+    mistakes: |
+      Ich habe zwanzig Jahre. => Ich bin zwanzig Jahre alt. | German uses sein for age, not haben.
+      Du habst eine Frage. => Du hast eine Frage. | Haben is irregular: du hast and er/sie/es hat lose the b.
+      sechszehn => sechzehn | The s of sechs disappears in sechzehn (16).
+    task:
+      title: Sign up by phone
+      mode: interaction
+      body: |
+        You are joining a gym in Stuttgart. Give your name and spell your surname, say your age and read out a phone number (for example 0176 12 14 20 11) exactly as Luca does in the dialogue.
+    exercises: |
+      fill: ___ du heute Zeit? || Hast || Du + haben = du hast; the verb comes first in a yes/no question. || @tags de.haben
+      fill: Herr Kaya ___ zwei Kinder. || hat || Er (Herr Kaya) + haben = er hat. || @tags de.haben
+      fill: Wie alt ___ du? – Ich bin elf. || bist || Age uses sein: Wie alt bist du? || @tags de.sein
+      mc: How do you say "I'm eighteen"? || Ich habe achtzehn Jahre. | *Ich bin achtzehn Jahre alt. | Ich habe achtzehn. || German uses sein for age: Ich bin achtzehn (Jahre alt). || @tags de.sein
+      mc: Which number is "siebzehn"? || 7 | *17 | 70 || Siebzehn = 17; sieben = 7. || @tags de.numbers @skill vocabulary
+      mc: Neun + sechs = ? || sechzehn | *fünfzehn | vierzehn || 9 + 6 = 15 = fünfzehn. || @tags de.numbers @skill vocabulary
+      listen: zwölf || Which number do you hear? || 2 | *12 | 20 || Zwölf = 12; zwei = 2 and zwanzig = 20. || @tags de.numbers
+      listen: Meine Nummer ist null eins fünf neun, dreizehn, achtzehn, sechzehn. || What is the phone number? || *0159 13 18 16 | 0159 30 18 60 | 0195 13 80 16 || Null eins fünf neun = 0159, then dreizehn (13), achtzehn (18), sechzehn (16). || @tags de.numbers
+      short: How old is Luca? || kw: 19/neunzehn/nineteen || Luca says "Ich bin neunzehn." || @ctx dialogue
+      tr: How old are you? (formal) || Wie alt sind Sie? || Formal Sie + sein = Sie sind; age is asked with wie alt. || @tags de.sein,de.register
+      tr: We have two children. || Wir haben zwei Kinder. || Wir + haben = wir haben; das Kind, plural die Kinder. || @tags de.haben
+      rw: Write the number in words :: 16 || sechzehn || The s of sechs disappears: sechzehn. || @tags de.numbers,de.spelling
+      dict: Ich bin zwanzig Jahre alt und wohne in Stuttgart.
+      ask: Say how old you are and give a (made-up) phone number. || kw: ich bin & null/nummer || Ich bin neunzehn Jahre alt. Meine Nummer ist null eins sieben null, zwölf, fünfzehn, achtzehn.

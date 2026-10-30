@@ -1,0 +1,349 @@
+unit: 2
+title: Arbeit und Wirtschaft
+theme: Work and the economy
+description: Discuss how work is changing, negotiate fees and conditions, and reflect on consumption — with Konjunktiv II past, modal verbs in the past subjunctive and als ob.
+free: true
+objectives:
+  - Talk about unreal situations in the past with hätte/wäre + Partizip II
+  - Negotiate politely and admit mistakes with hätte … sollen/müssen/können
+  - Make unreal comparisons with als ob, als wenn and als + Konjunktiv II
+canDo:
+  - I can evaluate a change at work and say what would have happened otherwise.
+  - I can negotiate a price, a deadline or payment terms and reach a compromise.
+  - I can say what someone should or could have done differently.
+  - I can describe and question our consumer habits, using unreal comparisons.
+review: |
+  fill: Wenn ich von der Stelle gewusst ___, hätte ich mich sofort beworben. || hätte || An unreal condition in the past: hätte + Partizip II, with hätte at the end of the wenn-clause. || @tags de.konjunktiv2
+  fill: Ohne den Kredit der Bank ___ die kleine Firma pleitegegangen. || wäre || Pleitegehen forms the Perfekt with sein (ist pleitegegangen), so the Konjunktiv II past is wäre + Partizip II. || @tags de.konjunktiv2
+  mc: Ich weiß, dass ich dich früher ___. || *hätte anrufen sollen | anrufen sollen hätte | angerufen hätte sollen || With a double infinitive, hätte stands in front of both infinitives, even in a dass-clause. || @tags de.konjunktiv2,de.modal-verbs
+  rw: Say it was a mistake (hätte … sollen) :: Wir haben die Kundschaft nicht informiert. || Wir hätten die Kundschaft informieren sollen. | Wir hätten die Kunden informieren sollen. || Hätte + infinitive + sollen expresses what should have been done. || @tags de.konjunktiv2,de.modal-verbs
+  fill: Er gibt das Geld aus, als ___ er Millionär. (sein) || wäre || After als alone the Konjunktiv II verb comes immediately: als wäre er … || @tags de.konjunktiv2
+  mc: In a negotiation you want to propose payment in instalments. What do you say? || *Wären Sie damit einverstanden, wenn wir in zwei Raten zahlen? | Sie müssen in zwei Raten bezahlen. | Ich zahle in zwei Raten, fertig. || Wären Sie damit einverstanden, … ? is a polite proposal; the other options leave no room to negotiate. || @tags de.konjunktiv2,de.register
+  tr: Without your help I would not have managed it. || Ohne deine Hilfe hätte ich es nicht geschafft. | Ohne Ihre Hilfe hätte ich es nicht geschafft. | Ohne deine Hilfe hätte ich das nicht geschafft. | Ohne Ihre Hilfe hätte ich das nicht geschafft. || Ohne + noun replaces the condition; the main clause uses hätte + Partizip II. || @tags de.konjunktiv2
+  listen: Hätten wir den Online-Shop schon vor fünf Jahren eröffnet, hätten wir die schwierige Zeit viel besser überstanden. Aber damals fehlte uns einfach das Geld. || Why didn't they open the online shop earlier? || They didn't believe in online sales. | *They didn't have the money. | Their customers didn't want it. || "Aber damals fehlte uns einfach das Geld." || @tags de.listening,de.konjunktiv2
+  listen: Wir haben uns auf einen Kompromiss geeinigt: Die Lieferung kommt zwei Wochen später, dafür bekommen wir acht Prozent Rabatt. || What was agreed? || A faster delivery for a higher price | *A later delivery with an eight per cent discount | No discount but free delivery || "Die Lieferung kommt zwei Wochen später, dafür bekommen wir acht Prozent Rabatt." || @tags de.listening
+  ask: A friend asks: „Bereust du eigentlich, dass du damals nicht ins Ausland gegangen bist?“ Answer with at least two Konjunktiv II past forms. || kw: hätte/hätten/wäre/wären & gegangen/gemacht/gelernt/gearbeitet/kennengelernt/gefunden/geblieben/verdient || Manchmal schon. Wenn ich nach Kanada gegangen wäre, hätte ich bestimmt sehr gut Englisch gelernt. Andererseits hätte ich meinen Partner dann nie kennengelernt.
+  write: Write a short e-mail (70–90 words) to a client. Admit that something went wrong in a project, say what you should have done, and propose a solution. || min=60 || req: hätte/hätten | sollen/müssen/können | könnten/wäre/würden || Sehr geehrte Frau Ahrens, leider hat sich die Lieferung der Broschüren um eine Woche verzögert. Wir hätten Sie früher über die Probleme bei der Druckerei informieren müssen, und dafür möchte ich mich entschuldigen. Als Ausgleich könnten wir Ihnen die Versandkosten erstatten. Außerdem würden wir die restlichen Exemplare per Express schicken, sodass sie spätestens am Freitag bei Ihnen wären. Wäre das für Sie in Ordnung? Mit freundlichen Grüßen, Paul Krämer
+lessons:
+  - title: The future of work
+    summary: Evaluate a four-day-week pilot and say what would have happened otherwise — with Konjunktiv II past (hätte/wäre + Partizip II).
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [de.konjunktiv2, de.opinion]
+    objectives:
+      - Form the Konjunktiv II past with hätte or wäre + Partizip II
+      - Talk about unreal conditions in the past with wenn and ohne
+      - Discuss changes in the world of work such as the four-day week and automation
+    intro: |
+      Every change at work raises the question *What if…?* What would have happened without the new software, without the shorter week, without the new colleagues? To talk about things that did **not** happen, German uses the **Konjunktiv II past**: *Ohne die Absprachen **wäre** das Projekt **gescheitert**.* You know the present forms (*wäre, hätte, würde*) from B1 — now you will look back.
+    vocab: |
+      die Viertagewoche | four-day week | n | Seit einem Jahr testet unsere Firma die Viertagewoche. | Our company has been testing the four-day week for a year. | g: f | pl: die Viertagewochen
+      die Fachkraft | skilled worker; qualified employee | n | In der Pflege fehlen überall Fachkräfte. | Skilled staff are lacking everywhere in care. | g: f | pl: die Fachkräfte | n: Der Fachkräftemangel = shortage of skilled workers.
+      einstellen | to hire, take on (staff) | v | Wir haben dieses Jahr sechs neue Mitarbeitende eingestellt. | We've hired six new employees this year. | n: Separable. Opposite: entlassen (to dismiss). Also: to adjust (eine Maschine einstellen).
+      die Belegschaft | workforce; staff | n | Die Belegschaft hat über das neue Modell abgestimmt. | The workforce voted on the new model. | g: f | pl: die Belegschaften
+      die Krankmeldung | sick note; reported sick day | n | Die Zahl der Krankmeldungen ist deutlich gesunken. | The number of sick days reported has fallen significantly. | g: f | pl: die Krankmeldungen | n: sich krankmelden = to call in sick.
+      die Teilzeit | part-time work | n | Viele Eltern arbeiten in Teilzeit. | Many parents work part-time. | g: f | pl: (no plural) | n: Opposite: die Vollzeit.
+      scheitern | to fail | v | Das Projekt ist an fehlender Kommunikation gescheitert. | The project failed because of a lack of communication. | c: an etwas (dat.) scheitern | n: Perfekt with sein: ist gescheitert.
+      die Bilanz | (overall) result; balance sheet | n | Nach einem Jahr ziehen wir eine positive Bilanz. | After a year our overall assessment is positive. | g: f | pl: die Bilanzen | c: eine Bilanz ziehen; die Bilanz fällt positiv aus
+      die Automatisierung | automation | n | Durch die Automatisierung verändern sich viele Berufe. | Many jobs are changing through automation. | g: f | pl: die Automatisierungen
+      ersetzen | to replace | v | Maschinen ersetzen vor allem Routineaufgaben. | Machines mainly replace routine tasks. | c: jemanden/etwas durch etwas ersetzen
+      die Skepsis | scepticism | n | In der Produktion war die Skepsis anfangs groß. | At first scepticism was high in production. | g: f | pl: (no plural) | n: Adjective: skeptisch.
+      die Absprache | arrangement; agreement | n | Ohne klare Absprachen funktioniert kein Schichtplan. | No shift rota works without clear arrangements. | g: f | pl: die Absprachen | c: eine Absprache treffen
+    grammar:
+      title: "Konjunktiv II past: hätte/wäre + Partizip II"
+      body: |
+        To talk about something that **did not happen** in the past — or to imagine an alternative past — German uses the **Konjunktiv II past**: **hätte** or **wäre** + **Partizip II**. You choose haben or sein exactly as in the Perfekt; only the auxiliary changes: *Wir **haben** es geschafft → Wir **hätten** es (nicht) geschafft. Das Projekt **ist** gescheitert → Das Projekt **wäre** gescheitert.*
+
+        **Unreal conditions:** both clauses use the Konjunktiv II past. In the wenn-clause, hätte/wäre goes to the end: *Wenn wir die Kundschaft früher **informiert hätten**, **wäre** der Ärger kleiner **gewesen**.*
+
+        **ohne + noun** can replace a whole wenn-clause: *Ohne die neue Software **hätten** wir den Auftrag nicht **geschafft*** (= If we hadn't had the new software …).
+
+        Other typical uses: *Das **hätte** ich nicht **gedacht**.* (I wouldn't have thought so.) *Fast **wäre** ich zu spät **gekommen**.* (I was almost late.) There is no form with *würde* + Partizip II in everyday German — always use hätte or wäre.
+      table: |
+        Perfekt (real) | Konjunktiv II past (unreal)
+        Ich habe gewartet. | Ich hätte gewartet.
+        Du bist geblieben. | Du wär(e)st geblieben.
+        Sie hat sich beworben. | Sie hätte sich beworben.
+        Wir sind gescheitert. | Wir wären gescheitert.
+        Ihr habt es gewusst. | Ihr hättet es gewusst.
+        Es ist teuer gewesen. | Es wäre teuer gewesen.
+      examples: |
+        Wenn wir die Kundschaft früher informiert hätten, wäre der Ärger kleiner gewesen. | If we had informed our customers earlier, the trouble would have been smaller. | unreal condition: hätte … informiert / wäre … gewesen
+        Ohne die neuen Fachkräfte hätten wir die vielen Aufträge nicht geschafft. | Without the new skilled workers we wouldn't have managed all the orders. | ohne + noun replaces the wenn-clause
+        Fast wäre unser Pilotprojekt an der Skepsis in der Produktion gescheitert. | Our pilot project almost failed because of scepticism in production. | fast + Konjunktiv II past = almost
+        Vor einem Jahr hätte ich nicht gedacht, dass das funktioniert. | A year ago I wouldn't have thought that it would work. | hätte gedacht: an unreal thought in the past
+      tip: "Build the Perfekt first, then add the umlaut: hat → hätte, ist → wäre. Everything else stays the same."
+    dialogue:
+      title: Ein Jahr Viertagewoche
+      setting: A meeting room at a machine-building company in Chemnitz. Ines Wolff from HR and production manager Tobias Nguyen look back on a one-year pilot of the four-day week.
+      speakers: I=Ines Wolff/f; T=Tobias Nguyen/m
+      lines: |
+        I: Ein Jahr Viertagewoche – ehrlich gesagt hätte ich nicht gedacht, dass die Bilanz so positiv ausfällt. | A year of the four-day week – to be honest, I wouldn't have thought the results would be so positive.
+        T: Ich auch nicht. Vor einem Jahr hätte ich gewettet, dass die Produktion darunter leidet. | Nor would I. A year ago I'd have bet that production would suffer.
+        I: Und warum hat es dann trotzdem funktioniert? In der Produktion war die Skepsis doch am größten. | So why did it work after all? Scepticism was greatest in production.
+        T: Weil wir die Schichtpläne gemeinsam mit dem Team erstellt haben. Ohne diese Absprachen wäre das Projekt gescheitert. | Because we drew up the shift rotas together with the team. Without those arrangements the project would have failed.
+        I: Die Krankmeldungen sind übrigens deutlich zurückgegangen, und wir haben sechs neue Fachkräfte eingestellt. | Sick days have dropped noticeably, by the way, and we've hired six new skilled workers.
+        T: Ohne die Viertagewoche hätten sich die meisten von ihnen wahrscheinlich gar nicht bei uns beworben. | Without the four-day week most of them probably wouldn't have applied to us at all.
+        I: Trotzdem gab es Probleme. Wenn wir die Kundschaft früher informiert hätten, wäre der Ärger im Frühjahr kleiner gewesen. | There were problems all the same. If we had informed our customers earlier, the trouble in the spring would have been smaller.
+        T: Stimmt. Und die Verwaltung hätte mehr Unterstützung gebraucht – da haben wir am Anfang zu wenig investiert. | True. And the admin team would have needed more support – we invested too little there at the beginning.
+        I: Einige Kolleginnen sagen, ohne den freien Freitag wären sie längst in Teilzeit gegangen. | Some colleagues say that without the free Friday they would have gone part-time long ago.
+        T: Dann sollten wir die Viertagewoche nicht mehr als Experiment sehen, sondern als neuen Standard. | Then we shouldn't see the four-day week as an experiment any more, but as the new standard.
+        I: Das sehe ich genauso. Ich bereite für die Geschäftsführung eine Präsentation mit allen Zahlen vor. | I agree completely. I'll prepare a presentation with all the figures for the management.
+    pronunciation:
+      title: "Intonation in conditional sentences"
+      body: |
+        A long German sentence with a wenn-clause has two melodic parts. At the end of the **wenn-clause** the voice stays up or rises slightly — it signals "there's more to come". The **main clause** then ends with a clear fall: *Wenn wir das früher gewusst hätten ↗, wären wir besser vorbereitet gewesen ↘.*
+
+        Put the main stress on the word that carries new information, not on *hätte* or *wäre*: *Ohne diese ABsprachen wäre das Projekt geSCHEItert.*
+      items: |
+        Das hätte ich nicht gedacht.
+        Ohne diese Absprachen wäre das Projekt gescheitert.
+        Wenn wir das gewusst hätten, …
+        die Viertagewoche
+        die Belegschaft
+        die Krankmeldungen
+    mistakes: |
+      Wenn ich das gewusst habe, wäre ich gekommen. => Wenn ich das gewusst hätte, wäre ich gekommen. | Both clauses describe something unreal in the past, so both need the Konjunktiv II: hätte … gewusst.
+      Wir wären früher angefangen. => Wir hätten früher angefangen. | Anfangen forms the Perfekt with haben (hat angefangen), so its Konjunktiv II past uses hätte.
+      Ohne dich würde ich es nicht geschafft. => Ohne dich hätte ich es nicht geschafft. | Würde + Partizip II doesn't exist here: an unreal past is hätte/wäre + Partizip II.
+    task:
+      title: What if …?
+      mode: speaking
+      body: |
+        Think of a change at your workplace, school or university — a new rule, a new tool or a new way of working. Explain for about two minutes what has improved, what problems there were, and what would have happened without the change. Use at least four Konjunktiv II past forms. Then present your evaluation to the AI coach in the "Taking part in a business meeting" scenario.
+    exercises: |
+      fill: Wenn du mich gefragt ___, hätte ich dir gern geholfen. || hättest || Fragen forms the Perfekt with haben; du-form of the Konjunktiv II: hättest. || @tags de.konjunktiv2
+      fill: Ohne das Navi ___ wir den Weg zur Messe nie gefunden. || hätten || Finden takes haben: hätten … gefunden. || @tags de.konjunktiv2
+      fill: Fast ___ ich den wichtigsten Termin der Woche vergessen. || hätte || Vergessen takes haben; fast + Konjunktiv II past = I almost forgot. || @tags de.konjunktiv2
+      fill: Wenn sie den Zug nicht verpasst ___, ___ sie pünktlich angekommen. || hätte ; wäre || Verpassen takes haben (hätte … verpasst), ankommen takes sein (wäre … angekommen). || @tags de.konjunktiv2,de.perfekt-sein
+      mc: "If I had known that, I would have stayed at home." || *Wenn ich das gewusst hätte, wäre ich zu Hause geblieben. | Wenn ich das gewusst hätte, hätte ich zu Hause geblieben. | Wenn ich das gewusst habe, wäre ich zu Hause geblieben. || Bleiben forms the Perfekt with sein, so it's wäre … geblieben; the wenn-clause also needs Konjunktiv II (hätte). || @tags de.konjunktiv2
+      rw: Imagine the opposite (Wenn … nicht …, hätten …) :: Wir haben die Software rechtzeitig gekauft, deshalb haben wir den Auftrag geschafft. || Wenn wir die Software nicht rechtzeitig gekauft hätten, hätten wir den Auftrag nicht geschafft. | Ohne die Software hätten wir den Auftrag nicht geschafft. | Hätten wir die Software nicht rechtzeitig gekauft, hätten wir den Auftrag nicht geschafft. || The real past (haben … gekauft) becomes an unreal condition: hätte(n) + Partizip II in both clauses, or ohne + noun. || @tags de.konjunktiv2
+      tf: Tobias expected the four-day week to be a success from the start. || false || "Vor einem Jahr hätte ich gewettet, dass die Produktion darunter leidet." || @ctx dialogue
+      short: What does Ines think they should have done earlier? || kw: kund/customer/client & informier/inform/told/tell || Informed their customers earlier: "Wenn wir die Kundschaft früher informiert hätten …" || @ctx dialogue
+      listen: @dialogue || Why did the four-day week work in production, according to Tobias? || The company bought new machines. | *The shift rotas were drawn up together with the team. | Temporary staff were hired for Fridays. || "Weil wir die Schichtpläne gemeinsam mit dem Team erstellt haben."
+      listen: Wenn mein Chef mir damals kein Homeoffice erlaubt hätte, wäre ich mit meiner Familie nie aufs Land gezogen. || What made it possible for the speaker to move to the countryside? || *Her boss allowed her to work from home. | She found a new job in a village. | Her family inherited a farm. || "Wenn mein Chef mir damals kein Homeoffice erlaubt hätte, wäre ich … nie aufs Land gezogen" — so he did allow it. || @tags de.listening,de.konjunktiv2
+      tr: Without your support we would have failed. (formal) || Ohne Ihre Unterstützung wären wir gescheitert. | Ohne Ihre Unterstützung hätten wir es nicht geschafft. || Scheitern takes sein: wären … gescheitert. || @tags de.konjunktiv2,de.register
+      dict: Ohne die neuen Fachkräfte hätten wir die Aufträge nicht geschafft.
+      ask: „Was wäre anders gewesen, wenn du dich nach der Schule für einen anderen Weg entschieden hättest?“ Answer with at least two Konjunktiv II past forms. || kw: hätte/hätten/wäre/wären & gemacht/gelernt/gearbeitet/studiert/gegangen/geblieben/gezogen/kennengelernt/verdient || Wenn ich eine Ausbildung gemacht hätte, hätte ich früher eigenes Geld verdient. Aber dann wäre ich wahrscheinlich nicht nach Berlin gezogen und hätte meine besten Freunde nie kennengelernt.
+
+  - title: Negotiating
+    summary: Negotiate a fee, a deadline and payment terms, and admit what should have been done differently — with hätte … sollen/müssen/können.
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [de.konjunktiv2, de.modal-verbs]
+    objectives:
+      - Use modal verbs in the Konjunktiv II past (hätte … machen sollen/müssen/können)
+      - Get the word order right with a double infinitive in subordinate clauses
+      - Make offers, counter-offers and compromises politely
+    intro: |
+      A good negotiation is firm on content and soft in tone. German achieves this with the Konjunktiv II: *Wären Sie bereit …? Wie sähe es mit … aus? Ich hätte mir etwas anderes vorgestellt.* And when something has gone wrong, you need to say what *should* have happened: *Wir **hätten** das klarer **kommunizieren müssen**.* This lesson brings both together in a fee negotiation between a freelance web designer and a client.
+    vocab: |
+      verhandeln | to negotiate | v | Über den Preis können wir noch verhandeln. | We can still negotiate on the price. | c: über etwas (acc.) verhandeln; mit jemandem verhandeln | n: Noun: die Verhandlung.
+      das Angebot | offer; quotation | n | Ich schicke Ihnen bis Montag ein schriftliches Angebot. | I'll send you a written quotation by Monday. | g: n | pl: die Angebote | c: ein Angebot machen/annehmen/ablehnen
+      der Tagessatz | day rate | n | Mein Tagessatz als Freiberuflerin liegt bei 650 Euro. | My day rate as a freelancer is 650 euros. | g: m | pl: die Tagessätze
+      das Budget | budget | n | Für die Website haben wir nur ein begrenztes Budget. | We only have a limited budget for the website. | g: n | pl: die Budgets | n: Pronounced as in French: [byˈdʒeː].
+      der Umfang | scope; extent | n | Wir müssten den Umfang des Projekts reduzieren. | We would have to reduce the scope of the project. | g: m | pl: die Umfänge
+      der Spielraum | room for manoeuvre; leeway | n | Beim Preis habe ich leider kaum Spielraum. | Unfortunately I have hardly any leeway on the price. | g: m | pl: die Spielräume
+      entgegenkommen | to meet someone halfway; to make a concession | v | Beim Liefertermin können wir Ihnen gern entgegenkommen. | We're happy to meet you halfway on the delivery date. | n: Separable, with dative: jemandem (beim Preis) entgegenkommen.
+      der Kompromiss | compromise | n | Nach langer Diskussion haben wir einen Kompromiss gefunden. | After a long discussion we found a compromise. | g: m | pl: die Kompromisse | c: einen Kompromiss schließen/finden; kompromissbereit
+      die Rate | instalment | n | Wir würden den Betrag gern in zwei Raten zahlen. | We'd like to pay the amount in two instalments. | g: f | pl: die Raten | c: in Raten zahlen
+      einverstanden | in agreement | adj | Mit diesem Vorschlag bin ich einverstanden. | I agree to this proposal. | c: mit etwas einverstanden sein
+      festhalten | to record; to put down in writing | v | Lassen Sie uns die Ergebnisse schriftlich festhalten. | Let's put the results down in writing. | n: Separable. Also: sich festhalten = to hold on.
+      die Anforderung | requirement | n | Die Anforderungen an die Website waren am Anfang nicht klar. | The requirements for the website weren't clear at the start. | g: f | pl: die Anforderungen
+    grammar:
+      title: "hätte … machen sollen: modal verbs in the Konjunktiv II past"
+      body: |
+        With a modal verb, the Konjunktiv II past is **hätte + infinitive + modal verb in the infinitive** — a so-called **double infinitive** (no participle!):
+
+        - **hätte … sollen** = should have: *Ich **hätte** genauer **nachfragen sollen**.*
+        - **hätte … müssen** = would have had to / ought to have: *Wir **hätten** die Anforderungen klarer **mitteilen müssen**.*
+        - **hätte … können** = could have: *Sie **hätten** mich ruhig **anrufen können**.*
+
+        The auxiliary is always **hätte** — even with verbs like *gehen* or *kommen*: *Ich **hätte** früher **gehen sollen**.*
+
+        **Word order:** in a subordinate clause the conjugated *hätte* does **not** go to the end. It comes **in front of** the two infinitives: *…, dass wir das früher **hätten besprechen sollen**.*
+
+        **In negotiations** the Konjunktiv II softens every step: proposals (*Wären Sie bereit, …? Wie sähe es mit … aus?*), counter-offers (*Das wäre für mich nur machbar, wenn …*) and polite disagreement (*Ehrlich gesagt hätte ich mir etwas mehr vorgestellt.*).
+      table: |
+        Meaning | Main clause | Subordinate clause
+        should have | Ich hätte nachfragen sollen. | …, dass ich hätte nachfragen sollen.
+        could have | Sie hätten anrufen können. | …, weil Sie hätten anrufen können.
+        would have had to | Wir hätten den Vertrag ändern müssen. | …, obwohl wir den Vertrag hätten ändern müssen.
+      examples: |
+        Wir hätten Ihnen die Anforderungen klarer mitteilen müssen. | We ought to have told you the requirements more clearly. | hätte + mitteilen + müssen
+        Ich hätte genauer nachfragen sollen, bevor ich das Angebot geschrieben habe. | I should have asked more precisely before I wrote the quotation. | hätte … sollen = should have
+        Mir ist klar, dass ich den Vertrag hätte lesen sollen. | I realise that I should have read the contract. | dass-clause: hätte before the double infinitive
+        Wären Sie bereit, uns beim Preis etwas entgegenzukommen? | Would you be willing to meet us halfway on the price? | negotiating: Wären Sie bereit, … zu …?
+      tip: "If you see two infinitives at the end, hätte goes right in front of them — in every type of clause."
+    dialogue:
+      title: Verhandlung per Video
+      setting: A video call. Zeynep Arslan, a freelance web designer in Hanover, negotiates with Mr Lorenz, who runs a family farm shop near Hildesheim and wants an online shop.
+      speakers: L=Herr Lorenz/m; Z=Zeynep Arslan/f
+      lines: |
+        L: Frau Arslan, Ihr Angebot hat uns gut gefallen, aber der Tagessatz liegt deutlich über unserem Budget. | Ms Arslan, we liked your quotation, but the day rate is well above our budget.
+        Z: Das verstehe ich. Darf ich fragen, mit welchem Betrag Sie ungefähr gerechnet hätten? | I understand. May I ask roughly what amount you had expected?
+        L: Ehrlich gesagt hätten wir uns etwa zwanzig Prozent weniger vorgestellt. | To be honest, we had in mind about twenty per cent less.
+        Z: Das wäre für mich nur machbar, wenn wir den Umfang anpassen, zum Beispiel ohne die englische Version. | That would only be feasible for me if we adjusted the scope, for example without the English version.
+        L: Die englische Version brauchen wir leider. Hätten Sie denn beim Zeitplan etwas Spielraum? | Unfortunately we do need the English version. Would you have some leeway on the schedule, then?
+        Z: Wenn Sie mir zwei Wochen mehr Zeit geben könnten, könnte ich Ihnen beim Preis zehn Prozent entgegenkommen. | If you could give me two more weeks, I could come down ten per cent on the price.
+        L: Das klingt fair. Wir hätten Ihnen die Anforderungen allerdings von Anfang an klarer mitteilen müssen. | That sounds fair. We ought to have told you the requirements more clearly from the start, though.
+        Z: Das passiert oft. Ich hätte auch genauer nachfragen sollen, bevor ich das Angebot geschrieben habe. | That happens a lot. I should also have asked more precisely before I wrote the quotation.
+        L: Und wie sähe es mit der Bezahlung aus? Wir würden gern in zwei Raten zahlen. | And what about payment? We'd like to pay in two instalments.
+        Z: Damit bin ich einverstanden: die Hälfte bei Projektbeginn, den Rest nach der Abnahme der fertigen Website. | I agree to that: half at the start of the project, the rest once the finished website has been signed off.
+        L: Gut, dann halten wir das so fest. Ich schicke Ihnen bis Freitag den überarbeiteten Vertrag. | Good, then let's put that on record. I'll send you the revised contract by Friday.
+    pronunciation:
+      title: "Polite questions: melody and stress"
+      body: |
+        Yes/no questions such as *Wären Sie bereit …?* or *Hätten Sie Spielraum?* rise at the end. Questions with a question word (*Wie sähe es mit der Bezahlung aus?*) usually fall — a rise can sound surprised or insistent.
+
+        In negotiations, stress the content word, not the auxiliary: *Hätten Sie beim ZEITplan etwas Spielraum?* Keep *hätte* and *wäre* short and light; a heavily stressed *HÄTTE* sounds like a reproach.
+      items: |
+        Wären Sie bereit, uns entgegenzukommen?
+        Hätten Sie beim Zeitplan Spielraum?
+        Wie sähe es mit der Bezahlung aus?
+        Damit bin ich einverstanden.
+        Ich hätte nachfragen sollen.
+        der Kompromiss
+    culture:
+      title: Negotiating the German way
+      body: |
+        Business negotiations in Germany tend to be *sachlich* — factual and well prepared. People come with figures, expect arguments rather than charm, and say clearly when something is not possible; a direct *Nein, das geht leider nicht* is not meant as rudeness. Small talk is usually brief. What has been agreed is confirmed in writing (*Das halten wir schriftlich fest*), and a written offer is considered binding.
+    mistakes: |
+      Ich hätte nachgefragt sollen. => Ich hätte nachfragen sollen. | With a modal verb the Konjunktiv II past uses two infinitives (nachfragen sollen), not a participle.
+      …, dass wir das früher besprechen hätten sollen. => …, dass wir das früher hätten besprechen sollen. | With a double infinitive, hätte moves in front of both infinitives, even in a subordinate clause.
+      Ich wäre früher gehen sollen. => Ich hätte früher gehen sollen. | Modal verbs always form the past with haben, so it's hätte — even with gehen.
+    task:
+      title: Your negotiation
+      mode: interaction
+      body: |
+        Negotiate with the AI coach in the "Taking part in a business meeting" scenario. You are a freelancer (or a supplier) and the client says your offer is too expensive. Defend your price, make one counter-offer (time, scope or payment terms), admit one thing that could have been clearer (*Ich hätte … sollen*) and agree on a compromise that you confirm in writing.
+    exercises: |
+      fill: Ich ___ den Vertrag genauer lesen sollen. || hätte || Konjunktiv II past with a modal verb: hätte + infinitive + sollen. || @tags de.konjunktiv2,de.modal-verbs
+      fill: Sie hätten mich ruhig ___ können. (anrufen) || anrufen || With a modal verb the main verb stays in the infinitive (double infinitive), not the participle. || @tags de.konjunktiv2,de.modal-verbs
+      fill: Wir ___ das Problem viel früher erkennen müssen. || hätten || Modal verbs always use hätte in the Konjunktiv II past. || @tags de.konjunktiv2,de.modal-verbs
+      mc: Ich weiß, dass ich dir das schon gestern ___. || *hätte sagen sollen | sagen sollen hätte | gesagt hätte sollen || In a dass-clause hätte comes before the double infinitive: hätte sagen sollen. || @tags de.konjunktiv2,de.word-order
+      rw: Say what should have happened (hätte … sollen) :: Wir haben die Kundinnen und Kunden nicht gefragt. || Wir hätten die Kundinnen und Kunden fragen sollen. | Wir hätten die Kunden fragen sollen. || Hätte + infinitive + sollen = should have done (but didn't). || @tags de.konjunktiv2,de.modal-verbs
+      mc: You want to ask a client whether they would accept a later deadline. Which is the best choice? || *Wären Sie mit einem späteren Termin einverstanden? | Sie müssen einen späteren Termin akzeptieren. | Ich will einen späteren Termin. || The Konjunktiv II question leaves room for negotiation; the other two are demands. || @tags de.konjunktiv2,de.register
+      mc: „Hätten Sie beim Zeitplan etwas Spielraum?“ What is the speaker asking? || *Whether the schedule is flexible | Whether the schedule is finished | Whether there is a meeting room free || Spielraum = room for manoeuvre, leeway. || @skill vocabulary @tags de.vocabulary
+      tf: Mr Lorenz agrees to drop the English version of the website. || false || "Die englische Version brauchen wir leider." || @ctx dialogue
+      short: How will the farm shop pay for the website? || kw: zwei/two/raten/instalment/installment/hälfte/half || In two instalments: half at the start of the project, the rest after sign-off. || @ctx dialogue
+      listen: @dialogue || What does Zeynep offer in return for two more weeks? || To drop the English version | *A ten per cent reduction in her price | Free maintenance for a year || "… könnte ich Ihnen beim Preis zehn Prozent entgegenkommen."
+      listen: Ihr Angebot ist interessant, aber wir hätten uns eine kürzere Lieferzeit gewünscht. Wäre eine Lieferung bis Ende März möglich? || What does the customer want? || *Delivery by the end of March | A lower price | A longer guarantee || "Wäre eine Lieferung bis Ende März möglich?" || @tags de.listening,de.konjunktiv2
+      tr: We should have asked earlier. || Wir hätten früher fragen sollen. | Wir hätten früher nachfragen sollen. | Wir hätten eher fragen sollen. | Wir hätten eher nachfragen sollen. || Should have + participle in English = hätte + infinitive + sollen in German. || @tags de.konjunktiv2,de.modal-verbs
+      dict: Wären Sie bereit, uns beim Preis etwas entgegenzukommen?
+      ask: Your manager says: „Mehr als drei Prozent Gehaltserhöhung sind dieses Jahr leider nicht möglich.“ React politely and make a counter-offer. || kw: wäre/könnte/könnten/hätte/würde/würden & prozent/homeoffice/urlaub/weiterbildung/fortbildung/stunden/bonus/zeit || Das verstehe ich. Wäre es dann möglich, dass ich zusätzlich zwei Tage Homeoffice pro Woche bekomme? Oder könnten wir über eine Weiterbildung sprechen, die die Firma bezahlt?
+
+  - title: Consumer society
+    summary: Read a column about a year without buying anything new and make unreal comparisons with als ob, als wenn and als + Konjunktiv II.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [de.konjunktiv2, de.opinion]
+    objectives:
+      - Make unreal comparisons with als ob, als wenn and als + Konjunktiv II
+      - Distinguish present and past unreal comparisons (als wüsste er / als hätte er gewusst)
+      - Discuss consumption, second-hand culture and conscious shopping
+    intro: |
+      We buy things because we need them — or because advertising makes it look *as if* we couldn't live without them. German expresses such unreal comparisons with **als ob** and the Konjunktiv II: *Jede Rabattaktion tut so, **als ob** man etwas Wichtiges verpassen **würde**.* In this lesson you will read a journalist's column about twelve months without buying anything new and learn to use these comparisons in speech and writing.
+    vocab: |
+      der Konsum | consumption | n | Unser Konsum hat Folgen für die Umwelt. | Our consumption has consequences for the environment. | g: m | pl: (no plural) | n: Verb: konsumieren. Stress: Kon-SUM.
+      verzichten | to do without; to give up | v | Ein Jahr lang habe ich auf neue Kleidung verzichtet. | For a year I went without new clothes. | c: auf etwas (acc.) verzichten | n: Noun: der Verzicht.
+      gebraucht | second-hand; used | adj | Mein Fahrrad habe ich gebraucht gekauft. | I bought my bike second-hand. | n: Also: aus zweiter Hand. Opposite: neu.
+      leihen | to lend; to borrow | v | Die Bohrmaschine leihe ich mir von meinem Nachbarn. | I borrow the drill from my neighbour. | n: sich (dat.) etwas leihen = to borrow; jemandem etwas leihen = to lend. Irregular: lieh, hat geliehen.
+      tauschen | to swap; to exchange | v | Auf der Tauschparty haben wir Kleidung und Bücher getauscht. | At the swap party we exchanged clothes and books. | c: etwas gegen etwas tauschen
+      das Repair-Café | repair café | n | Im Repair-Café helfen Ehrenamtliche bei der Reparatur von Geräten. | At the repair café volunteers help to fix appliances. | g: n | pl: die Repair-Cafés
+      die Rabattaktion | discount promotion; sale | n | Die Rabattaktion gilt nur bis Sonntag. | The discount promotion is only valid until Sunday. | g: f | pl: die Rabattaktionen
+      sich etwas leisten können | to be able to afford something | expr | Nicht jeder kann sich teure Bioprodukte leisten. | Not everyone can afford expensive organic products. | n: The reflexive pronoun is dative: Ich kann mir das nicht leisten.
+      bewusst | conscious; consciously | adj | Seitdem kaufe ich viel bewusster ein. | Since then I've been shopping much more consciously. | n: Noun: das Bewusstsein.
+      der Entschluss | decision; resolution | n | Im Januar habe ich einen Entschluss gefasst. | In January I made a decision. | g: m | pl: die Entschlüsse | c: einen Entschluss fassen
+      das Umfeld | (social) environment; circle | n | In meinem Umfeld kauft fast niemand mehr neue Möbel. | Hardly anyone in my circle buys new furniture any more. | g: n | pl: die Umfelder
+      die Botschaft | message | n | Die Botschaft der Werbung ist immer dieselbe: Kauf mehr! | The message of advertising is always the same: buy more! | g: f | pl: die Botschaften | n: Also: embassy.
+    grammar:
+      title: "als ob, als wenn, als: unreal comparisons"
+      body: |
+        To say that something seems a certain way but **isn't really so**, German uses **als ob** or **als wenn** + **Konjunktiv II**, usually after verbs such as *so tun* (to act, to pretend), *aussehen*, *sich anfühlen* or *Es kommt mir vor*:
+
+        - **als ob / als wenn** send the verb to the **end**: *Er tut so, **als ob** er alles **wüsste**.*
+        - **als** alone is followed **directly by the verb**: *Er tut so, **als wüsste** er alles.* This form is more elegant and common in writing.
+
+        **Present or past?** If the comparison refers to the same time as the main clause, use the present Konjunktiv II (*wäre, hätte, wüsste* or *würde* + infinitive). If it refers to something earlier, use the **Konjunktiv II past**: *Sie sah mich an, **als hätte** ich etwas Verbotenes **gesagt**.*
+
+        In informal speech you will also hear the indicative (*als ob er alles weiß*), but in careful speech and writing the Konjunktiv II is the norm.
+      table: |
+        Structure | Example
+        als ob + verb at the end | Er tut so, als ob er alles wüsste.
+        als wenn + verb at the end | Sie lacht, als wenn nichts passiert wäre.
+        als + verb directly after | Das Sofa sieht aus, als wäre es neu.
+        earlier event (past) | Er redet, als hätte er das Rad erfunden.
+      examples: |
+        Meine Kollegin sah mich an, als hätte ich etwas völlig Verrücktes angekündigt. | My colleague looked at me as if I had announced something completely crazy. | als + Konjunktiv II past (earlier event)
+        Werbung tut oft so, als ob wir ohne das neueste Gerät nicht glücklich sein könnten. | Advertising often acts as if we couldn't be happy without the latest device. | als ob + verb at the end
+        Die reparierte Jacke sieht aus, als wäre sie gerade aus dem Laden gekommen. | The repaired jacket looks as if it had just come out of the shop. | als + verb directly
+        Es kommt mir vor, als würde ich die Stadt zum ersten Mal richtig sehen. | It seems to me as if I were seeing the city properly for the first time. | würde + infinitive for most verbs
+      tip: "Choose one structure and stick to it: either als ob … verb at the end, or als + verb immediately. Mixing them (als ob wäre er …) is the most common mistake."
+    reading:
+      title: Zwölf Monate, nichts Neues
+      text: |
+        Im vergangenen Januar habe ich einen Entschluss gefasst: ein Jahr lang nichts Neues kaufen. Ausgenommen waren nur Lebensmittel, Hygieneartikel und Medikamente. Alles andere – Kleidung, Elektronik, Möbel, Bücher – wollte ich gebraucht kaufen, leihen, tauschen oder reparieren.
+
+        Die Reaktionen in meinem Umfeld waren gemischt. Meine Kollegin sah mich an, als hätte ich angekündigt, in eine Berghütte ohne Strom zu ziehen. Mein Bruder dagegen wollte sofort mitmachen.
+
+        Die ersten Wochen waren leichter als erwartet. Schwierig wurde es im März, als meine Waschmaschine kaputtging. Früher hätte ich sofort eine neue bestellt. Diesmal brachte ich das Problem ins Repair-Café bei uns im Viertel. Ein pensionierter Elektriker fand den Fehler in zwanzig Minuten: ein defekter Schlauch für acht Euro.
+
+        Am meisten überrascht hat mich, wie stark Werbung meinen Alltag bestimmt. Jede Rabattaktion tut so, als ob man ohne das Angebot etwas Wichtiges verpassen würde. In diesem Jahr habe ich gelernt, solche Botschaften zu erkennen – und sie zu ignorieren.
+
+        Natürlich hat das Experiment auch Grenzen. Gebrauchte Kinderschuhe in der richtigen Größe zu finden, kostete mich manchmal ganze Samstage. Und ein solches Jahr muss man sich leisten können: Wer wenig Zeit hat oder auf dem Land ohne Secondhandläden wohnt, für den ist Verzicht keine lockere Lifestyle-Entscheidung.
+
+        Meine Bilanz? Ich habe knapp zweitausend Euro gespart und viele Nachbarinnen und Nachbarn kennengelernt. Ich werde auch in Zukunft wieder Neues kaufen, aber seltener und bewusster. Es fühlt sich an, als wüsste ich zum ersten Mal, was ich wirklich brauche.
+
+        Amara Okafor, Köln
+      translation: |
+        Last January I made a decision: to buy nothing new for a year. The only exceptions were food, toiletries and medicine. Everything else – clothes, electronics, furniture, books – I wanted to buy second-hand, borrow, swap or repair.
+
+        The reactions among the people around me were mixed. My colleague looked at me as if I had announced that I was moving into a mountain hut without electricity. My brother, on the other hand, wanted to join in straight away.
+
+        The first weeks were easier than expected. It got difficult in March, when my washing machine broke down. In the past I would have ordered a new one immediately. This time I took the problem to the repair café in our neighbourhood. A retired electrician found the fault in twenty minutes: a faulty hose for eight euros.
+
+        What surprised me most was how strongly advertising shapes my everyday life. Every discount promotion acts as if you would miss something important without the offer. This year I learnt to recognise such messages – and to ignore them.
+
+        Of course the experiment also has its limits. Finding second-hand children's shoes in the right size sometimes cost me entire Saturdays. And you have to be able to afford a year like that: for someone who has little time or lives in the countryside without second-hand shops, doing without is not a casual lifestyle choice.
+
+        My verdict? I saved almost two thousand euros and got to know lots of my neighbours. In future I will buy new things again, but less often and more consciously. It feels as if I knew for the first time what I really need.
+
+        Amara Okafor, Cologne
+    pronunciation:
+      title: "Long and short vowels: Konsum, bewusst, Verzicht"
+      body: |
+        Vowel length changes meaning in German, so it is worth exaggerating at first. A vowel is usually **long** before a single consonant or an h (*Kon-SUM* [uː], *leihen*, *wäre*) and **short** before a double consonant or several consonants (*be-WUSST* [ʊ], *Ver-ZICHT* [ɪ], *hätte*).
+
+        Compare: *wusste* (short u, "knew") and *wüsste* (short ü, "would know"); *Kon-SUM* with a long u and the stress at the end.
+      items: |
+        der Konsum
+        bewusst
+        der Verzicht
+        gebraucht
+        als wüsste ich es
+        Es fühlt sich an, als wäre es neu.
+    mistakes: |
+      Er tut so, als ob er alles weiß. => Er tut so, als ob er alles wüsste. | An unreal comparison needs the Konjunktiv II in careful speech and in writing.
+      Sie sieht aus, als ob wäre sie müde. => Sie sieht aus, als ob sie müde wäre. | With als ob the verb goes to the end; only with als alone does it come directly after (als wäre sie müde).
+      Er redet, als ob er dabei war. => Er redet, als ob er dabei gewesen wäre. | The comparison refers to the past, so it needs the Konjunktiv II past: gewesen wäre.
+    task:
+      title: Do we really need it?
+      mode: writing
+      body: |
+        Write a comment (120–150 words) for a sustainability blog on the question „Brauchen wir das wirklich?“ Describe one thing you bought that you didn't really need, explain why you bought it, and say what you would do differently. Use at least two unreal comparisons with als ob or als and one Konjunktiv II past form.
+    exercises: |
+      fill: Er tut so, als ob er die Antwort schon ___. (wissen) || wüsste || Unreal comparison with als ob: Konjunktiv II at the end (wissen → wüsste). || @tags de.konjunktiv2
+      fill: Die Jacke ist zehn Jahre alt, aber sie sieht aus, als ___ sie ganz neu. (sein) || wäre || After als alone the verb follows immediately: als wäre sie … || @tags de.konjunktiv2
+      fill: Sie sah mich an, als ob ich etwas Verbotenes gesagt ___. || hätte || The comparison refers to an earlier moment, so Konjunktiv II past: gesagt hätte. || @tags de.konjunktiv2
+      mc: Das alte Sofa sieht aus, ___. || *als wäre es neu | als es wäre neu | als ob wäre es neu || Als alone is followed directly by the verb; with als ob, the verb would go to the end (als ob es neu wäre). || @tags de.konjunktiv2,de.word-order
+      rw: Rewrite with als + verb directly :: Er redet, als ob er das Rad erfunden hätte. || Er redet, als hätte er das Rad erfunden. || Drop ob and move hätte directly after als. || @tags de.konjunktiv2,de.word-order
+      rw: Rewrite with als ob :: Sie lacht, als wäre nichts passiert. || Sie lacht, als ob nichts passiert wäre. | Sie lacht, als wenn nichts passiert wäre. || With als ob/als wenn the conjugated verb (wäre) goes to the end. || @tags de.konjunktiv2,de.word-order
+      mc: How did the author's colleague react to her plan? || She immediately wanted to join in. | *She looked at her as if she had announced something extreme. | She gave her a second-hand washing machine. || "Meine Kollegin sah mich an, als hätte ich angekündigt, in eine Berghütte ohne Strom zu ziehen." || @ctx reading @skill reading
+      tf: The washing machine could not be repaired, so the author bought a used one. || false || A retired electrician at the repair café found the fault: a faulty hose for eight euros. || @ctx reading
+      short: Why, according to the author, can't everyone afford such a year? || kw: zeit/time/land/countryside/rural/secondhand/second-hand/läden/shops || It takes a lot of time, and people in the countryside often have no second-hand shops nearby. || @ctx reading
+      listen: Seit ich meine Kleidung auf Tauschpartys bekomme, gebe ich kaum noch Geld für Mode aus. Trotzdem fühlt es sich an, als hätte ich ständig etwas Neues im Schrank. || How does the speaker feel about her wardrobe? || As if she had nothing left to wear | *As if there were always something new in it | As if she were spending too much on fashion || "Trotzdem fühlt es sich an, als hätte ich ständig etwas Neues im Schrank." || @tags de.listening,de.konjunktiv2
+      tr: He acts as if he had never bought anything. || Er tut so, als hätte er nie etwas gekauft. | Er tut so, als ob er nie etwas gekauft hätte. | Er tut so, als wenn er nie etwas gekauft hätte. || So tun, als + Konjunktiv II past, because the buying would lie in the past. || @tags de.konjunktiv2
+      dict: Wer bewusster konsumiert, verzichtet nicht unbedingt auf alles.
+      say: Ein solches Jahr muss man sich erst einmal leisten können. || You have to be able to afford a year like that in the first place.
+      write: Write a short comment (70–90 words) on a second-hand platform's blog about something you bought used, borrowed or had repaired. Use at least one comparison with als ob or als. || min=60 || req: als ob/als wäre/als hätte/als würde/als wüsste/als wenn | gebraucht/geliehen/repariert/getauscht || Letztes Jahr habe ich ein gebrauchtes Lastenrad gekauft, und ich bereue es keine Sekunde. Es ist zwar schon sechs Jahre alt, aber es fährt, als wäre es neu. Meine Nachbarn haben mich zuerst angesehen, als hätte ich ein Raumschiff gekauft. Inzwischen leihen sie es sich ständig aus, um ihre Einkäufe zu transportieren. Ein neues Rad hätte fast dreimal so viel gekostet. Für mich ist das der beste Beweis, dass gebraucht oft die klügere Wahl ist.

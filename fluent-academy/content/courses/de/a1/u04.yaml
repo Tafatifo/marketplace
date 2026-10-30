@@ -1,0 +1,357 @@
+unit: 4
+title: Essen und Trinken
+theme: Food and drink
+description: Order food and drinks in a café and a restaurant, buy food at the market, and say what you don't eat or drink.
+free: false
+objectives:
+  - Order food and drinks politely with möchte
+  - Use the accusative after möchte, nehmen, brauchen and haben (einen, eine, ein; den)
+  - Say what you don't want with kein and nicht, and pay the bill
+canDo:
+  - I can order a drink and a snack in a café.
+  - I can buy fruit and vegetables at the market and ask about prices.
+  - I can order a meal, say what I don't eat and ask for the bill.
+  - I can understand simple prices and quantities.
+review: |
+  mc: In a café you order a hot chocolate: "Ich möchte ___ Kakao, bitte." || ein | *einen | eine || Kakao is masculine (der Kakao), so after möchte it is einen Kakao. || @tags de.accusative
+  fill: Möchten Sie ___ Stück Kuchen? || ein || Stück is neuter (das Stück), so the accusative is ein. || @tags de.accusative
+  fill: Ich nehme ___ Apfelsaft. || einen / den || Apfelsaft is masculine: einen Apfelsaft (a) or den Apfelsaft (the). || @tags de.accusative
+  fill: Du ___ einen Tee, oder? (möchte) || möchtest / moechtest || Du + möchte = du möchtest. || @tags de.ordering
+  mc: Which request is correct? || Ein Kilo von Tomaten, bitte. | *Ein Kilo Tomaten, bitte. | Ein Kilos Tomaten, bitte. || After a quantity the noun follows directly, without von. || @tags de.plural
+  fill: Wir haben ___ Eier mehr. || keine || Eier is plural without an article, so the negative is keine. || @tags de.negation
+  rw: Make it negative :: Der Kaffee ist heiß. || Der Kaffee ist nicht heiß. || Adjectives are negated with nicht, placed before the adjective. || @tags de.negation
+  tr: Two coffees and a piece of apple cake, please. || Zwei Kaffee und ein Stück Apfelkuchen, bitte. | Zwei Kaffees und ein Stück Apfelkuchen, bitte. | Ich möchte zwei Kaffee und ein Stück Apfelkuchen, bitte. | Wir möchten zwei Kaffee und ein Stück Apfelkuchen, bitte. | Ich möchte zwei Kaffees und ein Stück Apfelkuchen, bitte. | Wir möchten zwei Kaffees und ein Stück Apfelkuchen, bitte. || When ordering, zwei Kaffee is very common; ein Stück Kuchen = a piece of cake. || @tags de.ordering
+  listen: Das macht zusammen neun Euro fünfzig. || How much is it altogether? || €19.50 | *€9.50 | €9.15 || Neun Euro fünfzig = €9.50. || @tags de.numbers
+  listen: Für mich bitte die Suppe, aber ohne Brot. || What does the guest want? || *The soup, without bread | Bread, without soup | The soup with extra bread || Ohne = without. || @tags de.ordering
+  ask: You are a vegetarian. Order a meal and a drink in a restaurant, and ask for the bill. || kw: möchte/moechte/nehme & kein/keine/vegetarisch & rechnung/zahlen || Ich nehme die Gemüsesuppe und ein Wasser. Ich esse kein Fleisch. Die Rechnung, bitte!
+  write: Write a short message inviting a friend for coffee and cake at your place — say what you have and what you don't have. || min=25 || req: kaffee/tee/kuchen | habe/haben | kein/keine/keinen/nicht || Hallo Jana! Kommst du am Sonntag zu Kaffee und Kuchen? Ich habe Apfelkuchen und Käsekuchen. Ich habe leider keinen Kaffee, aber ich habe Tee. Bis Sonntag! Miriam
+lessons:
+  - title: Ordering at a café
+    summary: Order drinks and snacks with ich möchte, and use the accusative forms einen, eine and ein.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [de.ordering, de.accusative]
+    objectives:
+      - Order drinks and snacks politely with ich möchte
+      - Use the accusative of ein after möchte and nehmen
+      - Understand a waiter's questions
+    intro: |
+      A café is the perfect place to try out your first German sentences. With **Ich möchte…** (I would like) you can order almost anything. Here you also meet the **accusative** case: after *möchte*, masculine nouns change their article — *der Kaffee* becomes **einen Kaffee**.
+    vocab: |
+      ich möchte | I would like | expr | Ich möchte einen Tee, bitte. | I'd like a tea, please. | n: du möchtest, er/sie möchte, wir möchten, Sie möchten.
+      der Kaffee | coffee | n | Einen Kaffee mit Milch, bitte. | A coffee with milk, please. | g: m | pl: die Kaffees | n: When ordering, people often say zwei Kaffee (without -s).
+      der Tee | tea | n | Der Tee ist sehr heiß. | The tea is very hot. | g: m | pl: die Tees | c: der Pfefferminztee (peppermint tea); der Kräutertee (herbal tea)
+      das Wasser | water | n | Ein Wasser, bitte. | A (glass of) water, please. | g: n | pl: die Wasser | c: das Mineralwasser; das Leitungswasser (tap water)
+      die Milch | milk | n | Mit Milch und Zucker? | With milk and sugar? | g: f | pl: (no plural)
+      der Zucker | sugar | n | Ohne Zucker, bitte. | Without sugar, please. | g: m | pl: (no plural)
+      der Saft | juice | n | Ich möchte einen Orangensaft. | I'd like an orange juice. | g: m | pl: die Säfte | c: der Apfelsaft; der Orangensaft
+      die Apfelschorle | apple juice spritzer | n | Eine Apfelschorle, bitte! | An apple spritzer, please! | g: f | pl: die Apfelschorlen | n: Apple juice mixed with sparkling water — a German favourite.
+      der Kuchen | cake | n | Der Kuchen ist noch warm. | The cake is still warm. | g: m | pl: die Kuchen | c: ein Stück Kuchen (a piece of cake)
+      das Brötchen | bread roll | n | Ich nehme ein Käsebrötchen. | I'll have a cheese roll. | g: n | pl: die Brötchen | n: Nouns ending in -chen are always neuter.
+      nehmen | to take; to have (food or drink) | v | Ich nehme einen Cappuccino. | I'll have a cappuccino. | n: Use ich nehme and Sie nehmen for now; du nimmst and er nimmt come in unit 7.
+      trinken | to drink | v | Was trinkst du? | What are you drinking?
+      die Tasse | cup | n | Eine Tasse Kaffee, bitte. | A cup of coffee, please. | g: f | pl: die Tassen | c: eine Tasse Tee; ein Glas Wasser
+      lecker | tasty; delicious | adj | Das Brötchen ist wirklich lecker. | The roll is really delicious.
+    grammar:
+      title: "möchte and the accusative: einen, eine, ein"
+      body: |
+        **Möchte** (*would like*) is the polite way to order or ask for something: *ich möcht**e**, du möcht**est**, er/sie möcht**e**, wir möcht**en**, ihr möcht**et**, sie/Sie möcht**en***. Note that *ich* and *er/sie* have the same form. If you add a verb, it goes to the end: *Was möchten Sie **trinken**?*
+
+        The thing you order is the **direct object**, and it goes in the **accusative** case. The good news: only **masculine** nouns change. *Der Kaffee ist heiß* (nominative) → *Ich möchte **einen** Kaffee* (accusative). Feminine, neuter and plural nouns stay the same: *eine Apfelschorle, ein Wasser, zwei Brötchen*.
+
+        The definite article changes in the same way: **der → den**: *Ich nehme **den** Apfelkuchen.* Many verbs take the accusative: *möchte, nehmen, trinken, haben, essen, kaufen*.
+      table: |
+        Gender | Nominative | Accusative | Example
+        masculine | der / ein Kaffee | den / einen Kaffee | Ich möchte einen Kaffee.
+        feminine | die / eine Tasse | die / eine Tasse | Ich nehme eine Tasse Tee.
+        neuter | das / ein Wasser | das / ein Wasser | Wir möchten ein Wasser.
+        plural | die Brötchen | die Brötchen | Ich nehme zwei Brötchen.
+      examples: |
+        Ich möchte einen Tee mit Milch, bitte. | I'd like a tea with milk, please. | der Tee → einen
+        Möchtest du ein Stück Kuchen? | Would you like a piece of cake? | du möchtest
+        Wir nehmen den Apfelkuchen. | We'll have the apple cake. | der → den
+        Was möchten Sie trinken? | What would you like to drink? | infinitive at the end
+      tip: Only masculine nouns change in the accusative — if a noun is "der", say "einen" or "den" after möchte and nehmen.
+    dialogue:
+      title: Im Café
+      setting: A sunny afternoon at a café in Heidelberg. Clara and her friend Ben order from the waitress.
+      speakers: K=Die Kellnerin/f; C=Clara/f; B=Ben/m
+      lines: |
+        K: Hallo! Was möchten Sie trinken? | Hello! What would you like to drink?
+        C: Ich möchte einen Cappuccino, bitte. | I'd like a cappuccino, please.
+        B: Und ich nehme eine Apfelschorle. | And I'll have an apple spritzer.
+        K: Gern. Möchten Sie auch etwas essen? | Certainly. Would you like something to eat too?
+        C: Ja. Haben Sie Apfelkuchen? | Yes. Do you have apple cake?
+        K: Ja, und auch Käsekuchen. | Yes, and cheesecake too.
+        C: Dann ein Stück Käsekuchen, bitte. | Then a piece of cheesecake, please.
+        B: Für mich ein Käsebrötchen, bitte. | A cheese roll for me, please.
+        K: Gern. Kommt sofort! | Sure. Coming right up!
+        C: Danke schön! | Thank you very much!
+        C: Mmh, der Käsekuchen ist super lecker! | Mmm, the cheesecake is really delicious!
+    pronunciation:
+      title: "ö: möchte, Brötchen, schön"
+      body: |
+        **ö** is pronounced with the tongue as for **e** and the lips rounded as for **o**. There is a short ö, as in *möchte* and *Löffel* (spoon), and a long ö, as in *Brötchen* and *schön*. Keep your lips rounded, and don't let ö slide into "oy" or "ur".
+
+        *Ich möchte* is one of the most useful phrases in German, so practise it slowly: the **ch** after ö is the soft *ich*-sound.
+      items: |
+        ich möchte
+        Brötchen
+        schön
+        Löffel
+        Möchten Sie Milch?
+        Danke schön!
+    culture:
+      title: Kaffee und Kuchen
+      body: |
+        In many German families, *Kaffee und Kuchen* (coffee and cake) on a Saturday or Sunday afternoon is a small tradition — at home, at a café or when visiting grandparents. Popular cakes include *Apfelkuchen*, *Käsekuchen* and *Schwarzwälder Kirschtorte* (Black Forest gâteau).
+
+        In a café you usually wait to be served at your table, and you pay at the table too. Tap water (*Leitungswasser*) isn't always served automatically: if you want it, ask for it.
+    mistakes: |
+      Ich möchte ein Kaffee. => Ich möchte einen Kaffee. | Kaffee is masculine (der Kaffee), so after möchte it becomes einen Kaffee.
+      Ich möchte einen Apfelschorle. => Ich möchte eine Apfelschorle. | Only masculine nouns change: die Apfelschorle → eine Apfelschorle.
+      Ich möchten einen Tee. => Ich möchte einen Tee. | With ich, the form is möchte — without -n.
+    task:
+      title: Order for a friend
+      mode: interaction
+      body: |
+        You are in a café with a friend who doesn't speak German. Order two different drinks and two snacks, ask whether they have a particular cake, and thank the waiter. Practise with a partner or record yourself in Speaking practice.
+    exercises: |
+      fill: Ich möchte ___ Tee, bitte. || einen || Tee is masculine (der Tee): einen Tee in the accusative. || @tags de.accusative,de.ordering
+      fill: Wir nehmen ___ Wasser und ___ Apfelschorle. || ein ; eine || Das Wasser → ein, die Apfelschorle → eine: neuter and feminine don't change in the accusative. || @tags de.accusative
+      fill: ___ du ein Stück Kuchen? (möchte) || Möchtest / Moechtest || Du möchtest; the verb comes first in a yes/no question. || @tags de.ordering,de.questions
+      fill: Was ___ Sie trinken? (möchte) || möchten / moechten || Sie + möchte = Sie möchten; the infinitive trinken goes to the end. || @tags de.ordering
+      mc: Choose the correct order. || Ich möchte ein Saft. | *Ich möchte einen Saft. | Ich möchte einer Saft. || Der Saft → einen Saft in the accusative. || @tags de.accusative
+      mc: The waiter asks "Mit Milch und Zucker?" You only want milk. You say: || *Nur mit Milch, bitte. | Nur mit Zucker, bitte. | Ohne Milch, bitte. || Nur mit Milch = only with milk. || @skill vocabulary @tags de.ordering
+      mc: What does Clara order to eat? || Apple cake | *Cheesecake | A cheese roll || "Dann ein Stück Käsekuchen, bitte." Ben orders the cheese roll. || @ctx dialogue @skill reading @tags de.reading
+      tf: Ben orders a cappuccino. || false || Clara orders the cappuccino; Ben has an apple spritzer. || @ctx dialogue
+      rw: Order it with "Ich nehme" and the definite article :: der Apfelkuchen || Ich nehme den Apfelkuchen. || Masculine der becomes den in the accusative. || @tags de.accusative
+      tr: I'd like a coffee with milk, please. || Ich möchte einen Kaffee mit Milch, bitte. | Einen Kaffee mit Milch, bitte. | Ich nehme einen Kaffee mit Milch, bitte. | Ich möchte bitte einen Kaffee mit Milch. || Der Kaffee → einen Kaffee after möchte. || @tags de.accusative,de.ordering
+      tr: What would you like to drink? (formal) || Was möchten Sie trinken? || Sie möchten + infinitive at the end. || @tags de.ordering,de.register
+      listen: Ich möchte zwei Brötchen und eine Tasse Tee, bitte. || What does the customer order? || *Two rolls and a cup of tea | Two rolls and a cup of coffee | One roll and two teas || Zwei Brötchen = two rolls; eine Tasse Tee = a cup of tea. || @tags de.ordering
+      dict: Ich nehme einen Tee ohne Zucker.
+      ask: Order a drink and something to eat politely. || kw: möchte/moechte/nehme & einen/eine/ein & bitte || Ich möchte einen Orangensaft und ein Stück Apfelkuchen, bitte.
+
+  - title: At the market
+    summary: Buy fruit and vegetables at the market, ask for quantities and prices, and use the accusative and plural forms.
+    minutes: 40
+    skills: [vocabulary, grammar, listening]
+    tags: [de.accusative, de.plural]
+    objectives:
+      - Name common fruit and vegetables with their articles and plurals
+      - Ask for quantities (ein Kilo, ein Pfund, eine Packung…)
+      - Ask about prices and buy food using the accusative
+    intro: |
+      Weekly markets are a big part of town life in Germany — fresh vegetables, fruit, cheese and bread from the farms nearby. To shop there you need food words with their plurals, quantities like **ein Kilo** or **eine Packung**, and the accusative: *Ich brauche **einen** Salat* (der Salat).
+    vocab: |
+      der Markt | market | n | Samstags kaufe ich auf dem Markt ein. | On Saturdays I shop at the market. | g: m | pl: die Märkte | c: der Wochenmarkt (weekly market)
+      der Apfel | apple | n | Ein Kilo Äpfel, bitte. | A kilo of apples, please. | g: m | pl: die Äpfel
+      die Tomate | tomato | n | Die Tomaten sind sehr frisch. | The tomatoes are very fresh. | g: f | pl: die Tomaten
+      die Kartoffel | potato | n | Ich brauche zwei Kilo Kartoffeln. | I need two kilos of potatoes. | g: f | pl: die Kartoffeln
+      der Salat | lettuce; salad | n | Ich nehme einen Salat. | I'll take a lettuce. | g: m | pl: die Salate
+      die Erdbeere | strawberry | n | Die Erdbeeren sind heute im Angebot. | The strawberries are on special offer today. | g: f | pl: die Erdbeeren
+      der Käse | cheese | n | Ich möchte ein Stück Käse. | I'd like a piece of cheese. | g: m | pl: die Käse | n: The plural means kinds of cheese; for amounts say zwei Stück Käse.
+      das Ei | egg | n | Ich brauche zehn Eier. | I need ten eggs. | g: n | pl: die Eier
+      das Kilo | kilo | n | Ein Kilo Tomaten kostet drei Euro. | A kilo of tomatoes costs three euros. | g: n | pl: die Kilos | n: After a number it stays singular: zwei Kilo. Ein Pfund = 500 grams.
+      die Packung | packet; pack | n | Eine Packung Butter, bitte. | A packet of butter, please. | g: f | pl: die Packungen | c: eine Flasche (a bottle); ein Glas (a jar)
+      brauchen | to need | v | Brauchen Sie eine Tüte? | Do you need a bag? | n: Takes an accusative object: Ich brauche einen Salat.
+      kosten | to cost | v | Was kostet das? | How much is that? | n: Plural: Was kosten die Äpfel? The stem ends in -t: es kostet.
+      frisch | fresh | adj | Das Brot ist ganz frisch. | The bread is really fresh.
+      der Euro | euro | n | Das macht vier Euro zwanzig. | That's €4.20. | g: m | pl: die Euros | n: In prices, Euro has no plural: zehn Euro. The smaller unit is der Cent.
+    grammar:
+      title: "Accusative, plurals and quantities"
+      body: |
+        Many verbs need an **accusative** object: *brauchen, kaufen, nehmen, haben, möchte*. Remember: only **masculine** articles change — **der → den**, **ein → einen**: *Der Salat ist frisch. → Ich nehme **den** Salat. Ich brauche **einen** Salat.*
+
+        When you buy food you often need the **plural**. German plurals have several endings, so learn them with the noun: *die Tomate → die Tomaten, der Apfel → die Äpfel, das Ei → die Eier*. The plural article is always **die**, in the nominative and in the accusative.
+
+        With **quantities**, the food word follows directly — no article and no word for "of": *ein Kilo Äpfel, eine Packung Butter, ein Stück Käse*. After a number, *Kilo* and *Stück* stay singular: *zwei Kilo Kartoffeln*.
+
+        To ask the price: *Was kostet der Käse?* (singular) or *Was kosten die Erdbeeren?* (plural).
+      table: |
+        Singular | Plural | Plural ending
+        die Tomate | die Tomaten | -n
+        die Kartoffel | die Kartoffeln | -n
+        der Apfel | die Äpfel | umlaut
+        das Ei | die Eier | -er
+        der Salat | die Salate | -e
+        das Brötchen | die Brötchen | no change
+      examples: |
+        Ich brauche einen Salat und zwei Kilo Kartoffeln. | I need a lettuce and two kilos of potatoes. | der Salat → einen
+        Was kosten die Erdbeeren? | How much are the strawberries? | plural: kosten
+        Ich nehme den Käse da. | I'll take that cheese there. | der → den
+        Haben Sie auch Eier? | Do you have eggs too? | plural, no article
+      tip: Write your shopping list in German with article and plural — "der Apfel, die Äpfel" — and you will remember both forms much faster.
+    dialogue:
+      title: Auf dem Wochenmarkt
+      setting: Saturday morning at the weekly market in Münster. Frau Mensah buys fruit and vegetables at Herr Hartmann's stall.
+      speakers: H=Herr Hartmann/m; M=Frau Mensah/f
+      lines: |
+        H: Guten Morgen! Was darf es sein? | Good morning! What can I get you?
+        M: Guten Morgen! Ich brauche Tomaten. | Good morning! I need tomatoes.
+        H: Wie viele? Ein Kilo? | How many? A kilo?
+        M: Nein, ein Pfund, bitte. Was kosten die Erdbeeren? | No, a pound, please. How much are the strawberries?
+        H: Die Schale kostet drei Euro. | The punnet costs three euros.
+        M: Gut, ich nehme eine Schale. | Good, I'll take one punnet.
+        H: Sonst noch etwas? | Anything else?
+        M: Ja, einen Salat und sechs Eier. | Yes, a lettuce and six eggs.
+        H: Tut mir leid, ich habe heute keine Eier. | Sorry, I don't have any eggs today.
+        M: Kein Problem. Was macht das? | No problem. How much is that?
+        H: Das macht sechs Euro, bitte. | That's six euros, please.
+        M: Bitte schön. Schönes Wochenende! | Here you are. Have a nice weekend!
+    pronunciation:
+      title: "eu, äu and ä"
+      body: |
+        The letters **eu** and **äu** sound the same — like the *oy* in English *boy*: *Euro, teuer, Kräuter*. The letter **ä** sounds like the *e* in *bed*, either long (*Käse*) or short (*Äpfel*).
+
+        Many plurals get an umlaut — *der Apfel → die Äpfel* — so listening for ä helps you hear whether someone means one apple or several.
+      items: |
+        Euro
+        teuer
+        Käse
+        Äpfel
+        Gemüse
+        Das ist nicht teuer.
+    culture:
+      title: The weekly market
+      body: |
+        Almost every German town has a *Wochenmarkt* once or twice a week, often on the main square in front of the town hall. People buy regional, seasonal food there: asparagus (*Spargel*) in spring, strawberries in early summer, apples and pumpkins in autumn.
+
+        Bring your own bag — many stalls don't give out plastic bags. Small stalls often prefer cash, though more and more accept cards. And when you buy drinks in bottles or cans in Germany, you pay a small deposit (*Pfand*), which you get back when you return them.
+    mistakes: |
+      Ich brauche ein Salat. => Ich brauche einen Salat. | Salat is masculine (der Salat), so the accusative is einen Salat.
+      Ein Kilo von Äpfeln, bitte. => Ein Kilo Äpfel, bitte. | After a quantity, German puts the noun directly — no von.
+      Was kostet die Erdbeeren? => Was kosten die Erdbeeren? | Erdbeeren is plural, so the verb is kosten.
+    task:
+      title: Shopping at a market stall
+      mode: interaction
+      body: |
+        Write a shopping list of five items with quantities (ein Kilo…, eine Packung…). Then role-play buying them at a market stall: greet the seller, ask for each item, ask one price and pay.
+    exercises: |
+      fill: Ich brauche ___ Salat und ___ Packung Butter. || einen ; eine || Der Salat → einen; die Packung → eine. || @tags de.accusative
+      fill: Was ___ die Äpfel? || kosten || Äpfel is plural, so the verb is kosten. || @tags de.present-regular,de.plural
+      fill: Ich nehme ___ Käse da. (the) || den || Der Käse → den Käse in the accusative. || @tags de.accusative @hint the
+      mc: The plural of "das Ei" is… || die Eis | *die Eier | die Eien || Das Ei → die Eier. || @tags de.plural
+      mc: The plural of "der Apfel" is… || die Apfels | die Apfeln | *die Äpfel || Apfel takes an umlaut in the plural: die Äpfel. || @tags de.plural
+      mc: Which request is correct? || Zwei Kilo von Kartoffeln, bitte. | *Zwei Kilo Kartoffeln, bitte. | Zwei Kilos Kartoffeln, bitte. || After a quantity the noun follows directly, and Kilo stays singular after a number. || @tags de.plural
+      mc: How much does one punnet of strawberries cost? || €6 | *€3 | €1.50 || "Die Schale kostet drei Euro." || @ctx dialogue @skill reading @tags de.reading
+      tf: Frau Mensah buys six eggs. || false || Herr Hartmann has no eggs today: "Ich habe heute keine Eier." || @ctx dialogue
+      match: Ei = Eier ; Tomate = Tomaten ; Apfel = Äpfel ; Salat = Salate || Each noun has its own plural ending: -er, -n, umlaut, -e. || @tags de.plural
+      tr: I need a kilo of tomatoes and a lettuce. || Ich brauche ein Kilo Tomaten und einen Salat. | Ich brauche einen Salat und ein Kilo Tomaten. || Ein Kilo Tomaten (no word for "of"); der Salat → einen Salat. || @tags de.accusative
+      listen: Ein Pfund Erdbeeren kostet zwei Euro fünfzig. || How much is a pound of strawberries? || €2.15 | *€2.50 | €5.20 || Zwei Euro fünfzig = €2.50. || @tags de.numbers
+      dict: Ich kaufe zwei Kilo Kartoffeln und zehn Eier.
+      ask: Buy three things at a market stall — greet the seller and give the quantities. || kw: möchte/moechte/nehme/brauche & kilo/pfund/packung/stück/stueck || Guten Morgen! Ich möchte ein Kilo Äpfel, ein Pfund Tomaten und eine Packung Butter, bitte.
+      write: Write a short note to your flatmate — say you are at the market and what you are buying, with quantities. || min=15 || req: kaufe/brauche/brauchen/nehme | kilo/pfund/packung/stück/stueck || Hallo Max, ich bin auf dem Markt. Brauchen wir Eier? Ich kaufe ein Kilo Kartoffeln, einen Salat und ein Pfund Erdbeeren. Bis später, Ines
+
+  - title: At the restaurant
+    summary: Order a meal, say what you don't eat with kein and nicht, and ask for the bill.
+    minutes: 40
+    skills: [grammar, speaking, reading]
+    tags: [de.negation, de.ordering]
+    objectives:
+      - Read a simple menu and order a meal
+      - Say what you don't eat or want with kein and nicht
+      - Ask for the bill and pay, together or separately
+    intro: |
+      Eating out in German is easier than you think: a few fixed phrases take you from *Wir möchten bestellen* to *Die Rechnung, bitte*. You also need to say **no**. German has two words for it — **kein** for nouns (*Ich esse kein Fleisch*) and **nicht** for almost everything else (*Das ist nicht scharf*).
+    vocab: |
+      die Speisekarte | menu | n | Die Speisekarte, bitte! | The menu, please! | g: f | pl: die Speisekarten | n: Die Karte is also common.
+      bestellen | to order | v | Wir möchten bitte bestellen. | We'd like to order, please.
+      das Essen | food; meal | n | Das Essen ist sehr gut hier. | The food is very good here. | g: n | pl: die Essen
+      das Fleisch | meat | n | Ich esse kein Fleisch. | I don't eat meat. | g: n | pl: (no plural)
+      der Fisch | fish | n | Der Fisch ist heute frisch. | The fish is fresh today. | g: m | pl: die Fische
+      vegetarisch | vegetarian | adj | Ist die Suppe vegetarisch? | Is the soup vegetarian? | n: The person: der Vegetarier / die Vegetarierin. Vegan is also vegan in German.
+      die Suppe | soup | n | Als Vorspeise nehme ich die Suppe. | As a starter I'll have the soup. | g: f | pl: die Suppen
+      die Nudeln | pasta; noodles | n | Die Nudeln mit Gemüse, bitte. | The pasta with vegetables, please. | g: f | pl: die Nudeln | n: Usually used in the plural; the singular is die Nudel.
+      das Gemüse | vegetables | n | Das Gemüse ist sehr lecker. | The vegetables are very tasty. | g: n | pl: (no plural) | n: Singular in German: das Gemüse ist…
+      scharf | spicy; hot | adj | Ist das Curry scharf? | Is the curry spicy?
+      kein | no; not a; not any | det | Ich trinke keinen Alkohol. | I don't drink alcohol. | n: Endings like ein: kein, keine, kein — masculine accusative keinen; plural keine.
+      nicht | not | adv | Die Suppe ist nicht heiß. | The soup isn't hot.
+      die Rechnung | bill; check | n | Die Rechnung, bitte! | The bill, please! | g: f | pl: die Rechnungen | n: Also common: Zahlen, bitte! (We'd like to pay.)
+      zusammen oder getrennt? | together or separately? | expr | Zusammen oder getrennt? – Getrennt, bitte. | Together or separately? – Separately, please. | n: Waiters ask this when a group pays.
+    grammar:
+      title: "kein or nicht?"
+      body: |
+        German has two main ways to make a sentence negative.
+
+        **kein** negates a **noun** that would otherwise have **ein** or **no article**. It takes the same endings as *ein*: *Ich möchte **einen** Salat → Ich möchte **keinen** Salat. Ich esse Fleisch → Ich esse **kein** Fleisch.* In the plural: *keine Eier*.
+
+        **nicht** negates everything else: verbs, adjectives, adverbs, and nouns with **der/die/das** or a possessive. *Das Curry ist **nicht** scharf. Ich nehme den Fisch **nicht**. Das ist **nicht** mein Teller.*
+
+        Position of *nicht*: at the end of a simple sentence (*Ich koche heute nicht*), but **before** an adjective or the word it negates (*nicht scharf, nicht hier*).
+
+        Quick test: if you could say *ein* or nothing → **kein**. Otherwise → **nicht**.
+      table: |
+        Positive | Negative | Rule
+        Ich möchte einen Salat. | Ich möchte keinen Salat. | ein → kein
+        Wir haben Zeit. | Wir haben keine Zeit. | no article → kein
+        Das ist ein Fisch. | Das ist kein Fisch. | ein → kein
+        Die Suppe ist scharf. | Die Suppe ist nicht scharf. | adjective → nicht
+        Ich nehme den Fisch. | Ich nehme den Fisch nicht. | der/die/das → nicht
+        Ich koche heute. | Ich koche heute nicht. | verb → nicht
+      examples: |
+        Ich esse kein Fleisch. Ich bin Vegetarierin. | I don't eat meat. I'm a vegetarian. | no article → kein
+        Ich trinke keinen Alkohol. | I don't drink alcohol. | der Alkohol → keinen
+        Das Curry ist nicht scharf. | The curry isn't spicy. | nicht + adjective
+        Das ist nicht meine Suppe! | That's not my soup! | possessive → nicht
+      tip: Kein is simply k + ein — wherever ein (or no article) would go, kein can go.
+    dialogue:
+      title: Im Restaurant
+      setting: Friday evening in a small restaurant in Cologne. Sophie and her colleague Daniel order dinner; when the food arrives, Daniel has a small problem. At the end they pay.
+      speakers: K=Der Kellner/m; S=Sophie/f; D=Daniel/m
+      lines: |
+        K: Guten Abend! Möchten Sie bestellen? | Good evening! Would you like to order?
+        S: Ja, gern. Ist die Gemüsesuppe vegetarisch? | Yes, please. Is the vegetable soup vegetarian?
+        K: Ja, sie ist ganz ohne Fleisch. | Yes, it's completely meat-free.
+        S: Super, dann nehme ich die Suppe. | Great, then I'll have the soup.
+        D: Ich nehme den Fisch mit Kartoffeln. | I'll have the fish with potatoes.
+        K: Und was möchten Sie trinken? | And what would you like to drink?
+        D: Ein Mineralwasser, bitte. Ich trinke keinen Alkohol. | A mineral water, please. I don't drink alcohol.
+        D: Entschuldigung, der Fisch ist leider nicht warm. | Excuse me, I'm afraid the fish isn't hot.
+        K: Oh, das tut mir leid! Einen Moment. | Oh, I'm sorry! One moment.
+        S: Die Rechnung, bitte! | The bill, please!
+        K: Zusammen oder getrennt? | Together or separately?
+        D: Getrennt, bitte. | Separately, please.
+    pronunciation:
+      title: "pf: two sounds at once"
+      body: |
+        The German **pf** is a p and an f said together, quickly: close your lips for **p**, then release them into **f**. You hear it at the start of words — *Pfeffer, Pfanne, Pfand* — and in the middle or at the end: *Apfel, Kopf*.
+
+        Don't drop the p! *Pfanne* (pan) is not "Fanne". Practise by saying p and f faster and faster until they merge into one sound.
+      items: |
+        Pfeffer
+        Apfelsaft
+        Pfannkuchen
+        Apfelkuchen
+        Salz und Pfeffer
+        Kopfsalat
+    culture:
+      title: Paying and tipping
+      body: |
+        In German restaurants you usually ask for the bill: *Die Rechnung, bitte!* or *Zahlen, bitte!* You pay at the table, and in a group the waiter will ask *Zusammen oder getrennt?*, so everyone can pay for their own food and drinks.
+
+        Service is included in the price, but people usually round up or add about 5–10%. You say the total you want to pay when you hand over the money: for a bill of €18.50 you might say *Zwanzig, bitte* or *Stimmt so* ("keep the change").
+    mistakes: |
+      Ich esse nicht Fleisch. => Ich esse kein Fleisch. | Fleisch has no article here, so it is negated with kein.
+      Ich trinke keine Alkohol. => Ich trinke keinen Alkohol. | Alkohol is masculine (der Alkohol), so the accusative is keinen.
+      Die Suppe ist kein scharf. => Die Suppe ist nicht scharf. | Adjectives are negated with nicht, never with kein.
+    task:
+      title: Dinner for two
+      mode: interaction
+      body: |
+        You are at a restaurant with a friend. Ask for the menu, ask whether one dish is vegetarian or spicy, order a main course and a drink each, say one thing you don't eat or drink, and ask for the bill — separately.
+    exercises: |
+      fill: Wir essen ___ Fisch. Wir sind Veganer. || keinen || Fisch is masculine and has no article here: keinen Fisch (accusative). || @tags de.negation,de.accusative
+      fill: Die Suppe ist ___ scharf. || nicht || Adjectives are negated with nicht. || @tags de.negation
+      fill: Wir haben heute ___ Zeit. || keine || Zeit has no article (die Zeit), so the negative is keine. || @tags de.negation
+      mc: Choose the correct sentence. || Ich habe nicht Hunger. | *Ich habe keinen Hunger. | Ich habe kein Hunger. || Hunger has no article (der Hunger), so the negative is keinen Hunger (masculine accusative). || @tags de.negation,de.accusative
+      mc: "Das ist ___ mein Teller." || kein | *nicht | keine || With a possessive (mein Teller) use nicht. || @tags de.negation
+      mc: Why does Daniel complain? || The soup is spicy. | *The fish isn't hot. | There's no water. || "Der Fisch ist leider nicht warm." || @ctx dialogue @skill reading @tags de.reading
+      tf: Sophie and Daniel pay together. || false || The waiter asks "Zusammen oder getrennt?" and Daniel answers "Getrennt, bitte." || @ctx dialogue
+      rw: Make it negative :: Ich möchte einen Salat. || Ich möchte keinen Salat. || Ein becomes kein with the same ending: einen → keinen. || @tags de.negation
+      tr: The bill, please! || Die Rechnung, bitte! | Zahlen, bitte! | Wir möchten zahlen, bitte. | Ich möchte zahlen, bitte. | Die Rechnung bitte! || Die Rechnung, bitte! or Zahlen, bitte! are both common. || @tags de.ordering
+      tr: The fish isn't spicy. || Der Fisch ist nicht scharf. || Adjectives are negated with nicht. || @tags de.negation
+      listen: Ich nehme die Nudeln mit Gemüse, aber ohne Käse, bitte. || What does the guest order? || *Pasta with vegetables, no cheese | Pasta with cheese, no vegetables | Vegetable soup with cheese || Ohne Käse = without cheese. || @tags de.ordering
+      dict: Wir möchten bitte bestellen.
+      ask: Order a main course and say one thing you don't eat. || kw: nehme/möchte/moechte & kein/keine/keinen || Ich nehme die Nudeln mit Gemüse. Ich esse kein Fleisch.
+      write: Write a message recommending a restaurant to a friend — what is good there and what is not. || min=25 || req: ist/sind | nicht/kein/keine/keinen | lecker/gut/frisch/scharf || Hallo Lea! Das Restaurant am Markt ist super. Die Suppe ist sehr lecker und das Gemüse ist frisch. Das Essen ist nicht teuer. Nur der Kaffee ist leider nicht so gut. Viele Grüße, Max

@@ -1,0 +1,367 @@
+unit: 8
+title: Planes y decisiones
+theme: Plans and choices
+description: Talk about your plans, hopes and predictions, make arrangements and plan Bs with si + present, and compare options to choose the best one with superlatives.
+free: false
+objectives:
+  - Talk about plans, hopes and predictions with the future and ir a, saying how sure you are
+  - Make arrangements and set real conditions with si + present
+  - Compare options and choose the best with superlatives and -ísimo
+canDo:
+  - I can talk about my plans for next year and my dreams for the future.
+  - I can arrange a time and place to meet and suggest a plan B.
+  - I can say what will happen if something changes.
+  - I can compare several options and explain which one is best.
+review: |
+  fill: El año que viene ___ (vivir, yo) en Valencia. || viviré || Future of regular verbs: infinitive + -é. || @tags es.future
+  fill: Dentro de unos años ___ (poder, nosotros) comprar una casa. || podremos || Poder has an irregular future stem: podr- + emos. || @tags es.future
+  mc: Si mañana ___ tiempo, te ayudo con la mudanza. || *tengo | tendré | tenía || After si (if), use the present for a real condition: si tengo tiempo. || @tags es.si-clauses
+  fill: Si ___ (llegar, tú) tarde, avísame. || llegas || Si + present: si llegas tarde. The result here is an imperative (avísame). || @tags es.si-clauses
+  rw: Join the sentences with si :: A lo mejor tienes hambre. Hay tortilla en la nevera. || Si tienes hambre, hay tortilla en la nevera. | Hay tortilla en la nevera si tienes hambre. || A real condition: si + present, with a comma when si comes first. || @tags es.si-clauses,es.join
+  fill: Es la ciudad ___ bonita ___ España. || más ; de || Superlative: el/la + más + adjective + de (the group). || @tags es.comparatives
+  mc: Which sentence is correct? || *Es el mejor café del barrio. | Es el más bueno café del barrio. | Es el mejor café en el barrio. || Bueno → el mejor, and "in" is de in superlatives. || @tags es.comparatives
+  tr: It's the cheapest option. || Es la opción más barata. | Es la opción más económica. | Esta es la opción más barata. || Superlative: la opción + más + adjective (agreeing with opción). || @tags es.comparatives
+  listen: Si el sábado hace buen tiempo, haremos una barbacoa en el jardín de Laura. || What will they do if the weather is good? || *Have a barbecue | Go to the beach | Stay at home || "Haremos una barbacoa en el jardín de Laura." || @tags es.listening,es.si-clauses
+  listen: De todos los pisos que hemos visto, este es el más luminoso y el mejor comunicado. || What does the speaker say about this flat? || It's the cheapest | *It's the brightest | It's the biggest || "Este es el más luminoso" — and it has the best transport links. || @tags es.listening,es.comparatives
+  ask: Tell a friend your plans for next summer and add a plan B with si. || kw: iré/viajaré/voy a/haré/pasaré/visitaré/vamos a/iremos & si || El verano que viene iré a México con mi hermana. Si no encontramos vuelos baratos, viajaremos por el norte de España.
+  write: Write a message to two friends proposing a plan for a long weekend. Compare two options, say which one is the best and what you will do if something goes wrong. || min=50 || req: más/mejor | si || ¡Hola, chicos! He mirado dos opciones para el puente. La casa rural de Cuenca es la más barata, pero la de Teruel es la mejor: tiene piscina y unas reseñas buenísimas. Yo prefiero la de Teruel. Iremos en coche el viernes por la tarde. Si llueve, visitaremos el centro y los museos. ¿Os apuntáis? ¡Decidme algo hoy!
+lessons:
+  - title: Future plans
+    summary: Talk about your plans, hopes and predictions with the futuro simple and ir a, and say how sure you are.
+    minutes: 40
+    skills: [speaking, grammar, listening]
+    tags: [es.future, es.ir-a]
+    objectives:
+      - Talk about plans and predictions with the future and ir a + infinitive
+      - Use future time expressions such as el año que viene, dentro de dos años and algún día
+      - Say how sure you are with seguro que, probablemente and a lo mejor
+    intro: |
+      Where will you be in five years? Will you change jobs, move house, learn another language? In this lesson you will talk about plans and predictions with the **futuro simple** (*viviré, tendré, haré*) and **ir a + infinitive**, and say how sure you are: *seguro que…, probablemente…, a lo mejor…*
+    vocab: |
+      el año que viene | next year | expr | El año que viene terminaré el máster. | Next year I'll finish my master's. | n: Also el próximo año.
+      dentro de | in (… time from now) | prep | Dentro de dos años viviremos en Canarias. | In two years we'll be living in the Canaries. | n: In Latin America you will also hear en dos años.
+      algún día | one day; some day | expr | Algún día tendré una casa con jardín. | One day I'll have a house with a garden.
+      el futuro | future | n | En el futuro habrá más coches eléctricos. | In the future there will be more electric cars. | g: m
+      el objetivo | goal; aim | n | Mi objetivo es hablar español con fluidez. | My goal is to speak Spanish fluently. | g: m
+      ahorrar | to save (money) | v | Este año ahorraré para el viaje. | This year I'll save for the trip.
+      cambiar de vida | to change your life | expr | Mi hermana quiere cambiar de vida y mudarse al campo. | My sister wants to change her life and move to the countryside.
+      montar un negocio | to set up a business | expr | Dentro de unos años montaré mi propio negocio. | In a few years I'll set up my own business.
+      el sueño | dream | n | Mi sueño es abrir una librería. | My dream is to open a bookshop. | g: m | n: It also means "sleep": tengo sueño = I'm sleepy.
+      seguro que | I'm sure (that) | expr | Seguro que aprobarás el examen. | I'm sure you'll pass the exam.
+      probablemente | probably | adv | Probablemente iremos en tren. | We'll probably go by train. | n: Also seguramente.
+      a lo mejor | maybe; perhaps | expr | A lo mejor me compro una moto. | Maybe I'll buy a motorbike. | n: Usually followed by the present.
+    grammar:
+      title: "Talking about the future: viviré or voy a vivir?"
+      body: |
+        You now know two ways to talk about the future:
+        - **ir a + infinitive** — plans and intentions already decided, and things that are clearly about to happen: *El lunes voy a empezar un curso. ¡Cuidado, te vas a caer!*
+        - **futuro simple** — predictions, hopes, promises and plans that are further away or less certain: *Algún día viviré en Argentina. En el futuro habrá menos tráfico.*
+
+        For many everyday plans both are fine: *El año que viene voy a estudiar alemán / estudiaré alemán.* Remember the irregular stems from Unit 7: *tendré, podré, haré, pondré, saldré, vendré, diré, sabré, querré, habrá*.
+
+        To show how sure you are, add:
+        - **seguro que** (I'm sure): *Seguro que te gustará.*
+        - **probablemente / seguramente** (probably): *Probablemente cambiaré de trabajo.*
+        - **creo que** (I think): *Creo que estaremos bien.*
+        - **a lo mejor** (maybe), usually + present: *A lo mejor voy a Lisboa en verano.*
+
+        Time expressions: *pasado mañana, la semana que viene, el próximo mes, dentro de tres años, algún día, en el futuro*.
+      table: |
+        Expression | Meaning | Example
+        voy a + infinitive | plan, intention | Voy a buscar piso en septiembre.
+        futuro simple | prediction, hope | Algún día tendré mi propia casa.
+        seguro que + future | I'm sure | Seguro que lo pasaremos genial.
+        probablemente + future | probably | Probablemente viviremos en el centro.
+        a lo mejor + present | maybe | A lo mejor cambio de trabajo.
+        dentro de + time | in … time | Dentro de un año hablaré mejor español.
+      examples: |
+        Dentro de cinco años tendré mi propia empresa. | In five years I'll have my own company.
+        Seguro que encontrarás trabajo pronto. | I'm sure you'll find a job soon.
+        A lo mejor hacemos el Camino de Santiago en verano. | Maybe we'll do the Camino de Santiago in the summer.
+        El año que viene voy a aprender a conducir. | Next year I'm going to learn to drive.
+      tip: "Don't mix the two forms: either viajaré (future) or voy a viajar (ir a + infinitive) — not iré a viajar for a simple plan."
+    dialogue:
+      title: Dentro de diez años
+      setting: A graduation party at the University of Almería. Alma and Teo have just finished their degree and talk about what comes next.
+      speakers: A=Alma/f; T=Teo/m
+      lines: |
+        A: ¡Por fin hemos terminado la carrera! ¿Qué vas a hacer ahora, Teo? | We've finally finished our degree! What are you going to do now, Teo?
+        T: En septiembre voy a empezar un máster en Barcelona. | In September I'm going to start a master's in Barcelona.
+        A: ¡Qué bien! ¿Y después? ¿Volverás a Almería? | Great! And after that? Will you come back to Almería?
+        T: No lo sé. A lo mejor me quedo en Barcelona. ¿Y tú? | I don't know. Maybe I'll stay in Barcelona. And you?
+        A: Yo voy a trabajar un año para ahorrar dinero. | I'm going to work for a year to save some money.
+        T: ¿Para qué? ¿Tienes algún plan? | What for? Have you got a plan?
+        A: Sí. Mi sueño es viajar por Sudamérica: Perú, Bolivia, Chile… | Yes. My dream is to travel around South America: Peru, Bolivia, Chile…
+        T: ¡Qué envidia! ¿Y dónde te ves dentro de diez años? | I'm so jealous! And where do you see yourself in ten years?
+        A: Seguro que viviré cerca del mar. Probablemente aquí, en Almería. | I'm sure I'll live near the sea. Probably here, in Almería.
+        T: Yo creo que tendré un perro y una casa en el campo. | I think I'll have a dog and a house in the country.
+        A: ¿Tú, en el campo? ¡Pero si odias los bichos! | You, in the country? But you hate creepy-crawlies!
+        T: Bueno, a lo mejor me compro solo el perro. | Well, maybe I'll just get the dog.
+    pronunciation:
+      title: "Linking across words: dentro de un año"
+      body: |
+        In Spanish, a consonant at the end of a word joins the vowel at the start of the next one, so phrases sound like one long word: *un_año* [u.ˈna.ɲo], *mis_objetivos* [mi.soβ.xe.ˈti.βos], *el_año que viene*.
+
+        Vowels link too: *a_lo mejor, seguro_que_sí*. Don't stop between words — keep the flow. Listen and repeat.
+      items: |
+        dentro de un año
+        el año que viene
+        a lo mejor
+        seguro que sí
+        mis objetivos
+        algún día
+    culture:
+      title: Big decisions
+      body: |
+        Many young Spaniards finish university at 22 or 23 and then do a **máster** to improve their chances in the job market. Others prepare **oposiciones**, the competitive exams for public-sector jobs, which can take years of study but usually lead to a job for life.
+
+        Spain is also one of the countries that sends and receives the most **Erasmus** students in Europe, and a year abroad is a common dream. Later in life, many people dream of a house by the sea — or of going back to *el pueblo*.
+    mistakes: |
+      Mañana voy estudiar. => Mañana voy a estudiar. | Ir a + infinitive needs a.
+      Dentro dos años terminaré la carrera. => Dentro de dos años terminaré la carrera. | Dentro de needs de.
+      Iré a viajar mucho el año que viene. => Viajaré mucho el año que viene. | For a simple plan, use either the future (viajaré) or ir a + infinitive (voy a viajar), not both.
+    task:
+      title: My five-year plan
+      mode: speaking
+      body: |
+        Talk for one minute about your plans and dreams: what you are going to do next year, where you think you will live in five years, and one dream for *algún día*. Say how sure you are with *seguro que*, *probablemente* and *a lo mejor*. Record yourself in Speaking practice.
+    exercises: |
+      fill: Dentro de dos años ___ (vivir, nosotros) en Galicia. || viviremos || Future, nosotros: infinitive + -emos. || @tags es.future
+      fill: Algún día ___ (tener, yo) un barco. || tendré || Tener has an irregular future stem: tendr- + é. || @tags es.future
+      fill: Seguro que ___ (hacer, tú) muy bien la entrevista. || harás || Hacer → har- + ás. || @tags es.future
+      fill: ___ ___ dos semanas empezaré en mi nuevo trabajo. || dentro ; de || In two weeks' time = dentro de dos semanas. || @tags es.future,es.prepositions
+      mc: «A lo mejor voy a Cuba en diciembre.» How sure is the speaker? || Completely sure | *Not sure — maybe | Sure it won't happen || A lo mejor = maybe. || @tags es.future
+      mc: Which sentence is NOT correct? || Voy a estudiar Medicina. | Estudiaré Medicina. | *Voy estudiar Medicina. || Ir a + infinitive needs a: voy a estudiar. || @tags es.ir-a
+      rw: Change to the futuro simple :: Voy a ahorrar para el viaje. || Ahorraré para el viaje. || Voy a ahorrar → ahorraré. || @tags es.future,es.ir-a
+      tf: Teo is going to do a master's in Barcelona. || true || "En septiembre voy a empezar un máster en Barcelona." || @ctx dialogue
+      short: What is Alma's dream? || kw: Sudamérica/South America/viajar/travel || "Mi sueño es viajar por Sudamérica." || @ctx dialogue
+      listen: @dialogue || Why is Alma going to work for a year? || To pay for a master's | *To save money for a trip | To buy a house by the sea || She wants to save money to travel around South America. || @tags es.listening
+      listen: El año que viene me jubilo. Creo que pasaré los inviernos en Málaga y los veranos en el pueblo. || Where will the speaker spend the winters? || *In Málaga | In the village | Abroad || "Pasaré los inviernos en Málaga y los veranos en el pueblo." || @tags es.listening,es.future
+      tr: I'm sure you'll pass the exam. (to a friend) || Seguro que aprobarás el examen. | Seguro que apruebas el examen. | Estoy seguro de que aprobarás el examen. | Estoy segura de que aprobarás el examen. || Seguro que + future (or present). || @tags es.future
+      dict: Dentro de cinco años tendré mi propia empresa.
+      ask: A friend asks «¿Qué planes tienes para el año que viene?». Give two plans and say how sure you are. || kw: voy a/iré/haré/estudiaré/viajaré/tendré/trabajaré/viviré/empezaré & seguro que/probablemente/a lo mejor/creo que/seguramente || El año que viene voy a buscar un trabajo nuevo. Probablemente viviré en Madrid, y a lo mejor empiezo un curso de italiano.
+
+  - title: Making arrangements
+    summary: Arrange to meet, change plans and set real conditions with si + present (si llueve, iremos al museo).
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [es.si-clauses, es.future]
+    objectives:
+      - Make real conditions with si + present and a future, present or imperative
+      - Arrange a time and a place to meet with ¿Quedamos…? and ¿Te viene bien…?
+      - Change or postpone plans politely
+    intro: |
+      "If it rains, we'll go to the museum." "If you finish early, call me." Arrangements often depend on conditions. Spanish uses **si + present** for real, possible conditions — never the future after *si*. You will also learn to suggest a time (*¿Te viene bien el jueves?*), change plans (*¿Lo dejamos para otro día?*) and agree (*¡Hecho!*).
+    vocab: |
+      quedar | to arrange to meet | v | ¿Quedamos el sábado a las once? | Shall we meet on Saturday at eleven? | n: Quedar con alguien = to meet up with someone.
+      ¿te viene bien…? | does … suit you? | expr | ¿Te viene bien el jueves por la tarde? | Does Thursday afternoon suit you? | n: Works like gustar: me viene bien, nos viene mal.
+      el plan | plan | n | ¿Tienes plan para el viernes? | Have you got plans for Friday? | g: m
+      aplazar | to postpone | v | Tenemos que aplazar la cena una semana. | We have to put the dinner off for a week.
+      dejarlo para otro día | to leave it for another day | expr | ¿Lo dejamos para otro día? Estoy agotada. | Shall we leave it for another day? I'm exhausted.
+      avisar | to let (someone) know | v | Si llegas tarde, avísame. | If you're running late, let me know.
+      en punto | sharp; on the dot | expr | Quedamos a las ocho en punto. | Let's meet at eight o'clock sharp.
+      la entrada | ticket (for a show, a museum) | n | Ya tengo las entradas para el concierto. | I've already got the tickets for the concert. | g: f
+      apuntarse | to sign up; to join in | v | Vamos al cine. ¿Te apuntas? | We're going to the cinema. Are you in? | n: ¡Me apunto! = Count me in!
+      ¡hecho! | done!; it's a deal! | interj | —¿A las nueve en la plaza? —¡Hecho! | —Nine o'clock in the square? —Deal!
+      depender de | to depend on | v | Depende del tiempo. | It depends on the weather. | n: ¡Depende! = It depends!
+      la puerta | entrance; door | n | Te espero en la puerta del cine. | I'll wait for you at the cinema entrance. | g: f
+    grammar:
+      title: "Real conditions: si + present"
+      body: |
+        To talk about a **real, possible** condition, use **si + present**. The result can be:
+        - a **future**: *Si llueve, iremos al museo.*
+        - a **present** (very common in speech): *Si quieres, quedamos mañana.*
+        - an **imperative**: *Si llegas tarde, avísame.*
+        - **ir a + infinitive**: *Si no hay entradas, vamos a cenar fuera.*
+
+        **Never** use the future after *si* in these sentences: *Si mañana hace sol…* (not *si hará sol*).
+
+        The *si* part can go first or second. When it goes first, add a comma: *Si tienes tiempo, llámame. / Llámame si tienes tiempo.*
+
+        Careful with the accent: **si** = if; **sí** = yes.
+
+        For fixed arrangements, Spanish often uses the **present**: *El viernes ceno con mis padres. ¿Quedamos el sábado?*
+      table: |
+        Condition | Result | Example
+        si + present | future | Si hace buen tiempo, comeremos en la playa.
+        si + present | present | Si quieres, te acompaño.
+        si + present | imperative | Si te viene mal, avísame.
+        si + present | ir a + infinitive | Si no hay mesa, vamos a ir a otro sitio.
+        result first | si + present | Te llamo si salgo antes.
+      examples: |
+        Si terminas pronto, podemos ir al cine. | If you finish early, we can go to the cinema.
+        Si llueve, dejamos la excursión para otro día. | If it rains, we'll leave the trip for another day.
+        Si te viene mal el jueves, quedamos el viernes. | If Thursday is bad for you, we'll meet on Friday.
+        Avísame si cambias de plan. | Let me know if you change your plans.
+      tip: "Even when English has 'will' in the result, Spanish keeps the present after si: If you come, I'll cook = Si vienes, cocino (or cocinaré)."
+    dialogue:
+      title: ¿Te viene bien el domingo?
+      setting: Jimena calls her friend Nacho in Madrid to organise a day out in the mountains near the city.
+      speakers: J=Jimena/f; N=Nacho/m
+      lines: |
+        J: Nacho, ¿te apuntas a una excursión a la sierra este fin de semana? | Nacho, are you up for a trip to the mountains this weekend?
+        N: ¡Me apunto! Pero el sábado trabajo hasta las dos. | Count me in! But on Saturday I work until two.
+        J: Entonces, ¿te viene bien el domingo? | Then does Sunday suit you?
+        N: Sí, el domingo me viene genial. ¿A qué hora quedamos? | Yes, Sunday's perfect for me. What time shall we meet?
+        J: A las ocho en punto en la estación de autobuses. | At eight sharp at the bus station.
+        N: ¡A las ocho! Bueno, vale. ¿Y si llueve? | At eight! Well, OK. And what if it rains?
+        J: Si llueve, dejamos la sierra para otro día. | If it rains, we'll leave the mountains for another day.
+        N: ¿Y qué hacemos entonces? ¿Nos quedamos en casa? | So what do we do then? Do we stay at home?
+        J: No. Si llueve, iremos al museo y luego a comer. | No. If it rains, we'll go to the museum and then out for lunch.
+        N: Perfecto. Si me duermo, llámame, ¿vale? | Perfect. If I oversleep, call me, OK?
+        J: Tranquilo. Si no estás allí a las ocho, te llamo. | Don't worry. If you're not there at eight, I'll call you.
+        N: ¡Hecho! Nos vemos el domingo. | Deal! See you on Sunday.
+    pronunciation:
+      title: "Si or sí? The melody of conditions"
+      body: |
+        **Si** (if) is unstressed and short; **sí** (yes) is stressed: *Si quieres… — ¡Sí!*
+
+        In a condition, your voice rises slightly at the end of the *si* part and pauses, then falls at the end of the result: *Si llueve ↗ | iremos al museo ↘.* Listen and repeat, with a small pause at the comma.
+      items: |
+        si llueve
+        si quieres
+        sí, claro
+        ¿te viene bien?
+        ¡me apunto!
+        ¡hecho!
+    culture:
+      title: Making plans in Spain
+      body: |
+        Among friends, plans in Spain are often made late and changed easily: Saturday's plan may be fixed by message on Friday night, and meeting "at eight" often means ten past. For work, official appointments and the doctor, however, be on time.
+
+        The Spanish day runs late: lunch at 2–3 p.m., dinner at 9–10 p.m., and a night out may start at midnight. Small shops often close from about 2 to 5 p.m., and many shops are closed on Sundays, except in tourist areas.
+    mistakes: |
+      Si hará sol, iremos a la playa. => Si hace sol, iremos a la playa. | After si (if), use the present, not the future.
+      Sí tienes tiempo, llámame. => Si tienes tiempo, llámame. | Si (if) has no accent. Sí with an accent means "yes".
+      ¿Quedamos en el jueves? => ¿Quedamos el jueves? | Days of the week take no preposition: el jueves. Quedar con is for the person: quedar con Ana.
+    task:
+      title: Plan a day out
+      mode: interaction
+      body: |
+        Arrange a day out with a friend: suggest an activity, find a day and a time that suit you both (*¿Te viene bien…?*), agree on a meeting point and make a plan B with *si* (*si llueve…, si no hay entradas…*). Practise the conversation in the "Making weekend plans" scenario with the AI coach.
+    exercises: |
+      fill: Si ___ (llover), iremos al cine. || llueve || After si, use the present: llueve (llover: o → ue). || @tags es.si-clauses
+      fill: Si ___ (tener, tú) tiempo, llámame. || tienes || Si + present (tienes), result in the imperative (llámame). || @tags es.si-clauses
+      fill: Si mañana hace sol, ___ (comer, nosotros) en la playa. || comeremos / comemos / vamos a comer || The result of a real condition can be future, present or ir a + infinitive. || @tags es.si-clauses,es.future
+      fill: Avísame ___ cambias de plan. || si || Si (if), with no accent. || @tags es.si-clauses,es.spelling
+      mc: Si ___ entradas, iremos al concierto. || habrá | *hay | había || After si, use the present: si hay entradas. || @tags es.si-clauses
+      mc: Your friend suggests Tuesday, but Tuesday is bad for you. You say: || *El martes me viene mal. ¿Qué tal el miércoles? | El martes me viene bien. | ¡Hecho! || Me viene mal = it doesn't suit me; then suggest another day. || @tags es.vocabulary
+      rw: Join the sentences with si :: Puede llover. En ese caso, nos quedamos en casa. || Si llueve, nos quedamos en casa. | Nos quedamos en casa si llueve. || A real condition: si + present (llueve). || @tags es.si-clauses,es.join
+      tf: Nacho can go on Saturday morning. || false || "El sábado trabajo hasta las dos." That's why they choose Sunday. || @ctx dialogue
+      short: Where will they meet on Sunday? || kw: estación/station || "A las ocho en punto en la estación de autobuses." || @ctx dialogue
+      listen: @dialogue || What will they do if it rains? || Stay at home | *Go to a museum and then out for lunch | Go to the mountains anyway || "Si llueve, iremos al museo y luego a comer." || @tags es.listening,es.si-clauses
+      listen: Si salgo pronto del trabajo, te espero en la puerta del cine a las siete y media. || Where will the speaker wait? || *At the cinema entrance | At work | At the bus station || "Te espero en la puerta del cine." || @tags es.listening,es.si-clauses
+      tr: If you want, we can meet tomorrow. || Si quieres, podemos quedar mañana. | Si quieres, quedamos mañana. | Si quieres, nos vemos mañana. | Si quieres, podemos vernos mañana. || Si + present (quieres); quedar or verse for meeting up. || @tags es.si-clauses
+      dict: Si te viene mal el jueves, quedamos el viernes.
+      ask: Suggest a plan to a friend for Saturday and give a plan B with si. || kw: quedamos/te apuntas/vamos/te viene bien & si || ¿Te apuntas a ir a la playa el sábado? Si hace mal tiempo, vamos al cine.
+
+  - title: Comparing options
+    summary: Compare options for a trip, a course or a purchase and choose the best one with superlatives (el más barato, la mejor opción) and -ísimo.
+    minutes: 40
+    skills: [grammar, speaking, reading]
+    tags: [es.comparatives]
+    objectives:
+      - Form superlatives with el/la más … de, el/la menos … de, el/la mejor and peor
+      - Use -ísimo for "very" (carísimo, rapidísimo)
+      - Compare options and justify a decision
+    intro: |
+      Train, bus or car? This hotel or that one? A course in Salamanca or in Granada? Making choices means comparing — and naming the best, the cheapest or the most convenient option. You will learn **superlatives** (*el más barato de todos, la mejor opción*) and the very Spanish **-ísimo** (*¡Es carísimo!*).
+    vocab: |
+      la opción | option | n | La mejor opción es el tren. | The best option is the train. | g: f | pl: opciones
+      elegir | to choose | v | Es difícil elegir entre las dos ciudades. | It's hard to choose between the two cities. | n: e → i, and g → j in the yo form: elijo, eliges.
+      la ventaja | advantage | n | La gran ventaja del tren es que llega al centro. | The big advantage of the train is that it arrives in the centre. | g: f
+      el inconveniente | drawback; disadvantage | n | El único inconveniente es el precio. | The only drawback is the price. | g: m | n: Also la desventaja.
+      cómodo / cómoda | comfortable; convenient | adj | El autobús es barato, pero no es muy cómodo. | The bus is cheap, but it isn't very comfortable.
+      rápido / rápida | fast | adj | En avión es más rápido, pero hay que ir al aeropuerto. | It's faster by plane, but you have to get to the airport.
+      la oferta | special offer | n | Hay una oferta: dos noches por cien euros. | There's an offer: two nights for a hundred euros. | g: f
+      merecer la pena | to be worth it | expr | Es caro, pero merece la pena. | It's expensive, but it's worth it. | n: Also valer la pena, more common in Latin America.
+      decidirse | to make up your mind | v | ¿Ya te has decidido? | Have you made up your mind yet? | c: decidirse por (to opt for)
+      carísimo / carísima | really expensive | adj | Ese hotel es carísimo. | That hotel is really expensive. | n: caro + -ísimo.
+      de todos / de todas | of all | expr | Es el más barato de todos. | It's the cheapest of all.
+      la reseña | (online) review | n | Este hotel tiene muy buenas reseñas. | This hotel has very good reviews. | g: f
+    grammar:
+      title: "Superlatives: el más barato, la mejor opción, carísimo"
+      body: |
+        To say that something is the **most** or the **least** in a group, use **el / la / los / las** + (noun) + **más / menos** + adjective + **de** + the group: *Es el hotel más barato de la ciudad. Es la opción menos cómoda de todas.*
+
+        Spanish uses **de** for the group, where English says "in" or "of": *el más alto **de** la clase*.
+
+        Irregular forms: **el / la mejor** (best), **el / la peor** (worst), **el / la mayor** and **el / la menor** (oldest, youngest): *Es la mejor pizzería del barrio. Soy el menor de tres hermanos.* Mejor and peor usually go **before** the noun.
+
+        For **very** (without comparing), add **-ísimo / -ísima** to the adjective after removing the final vowel: *caro → carísimo, rápido → rapidísimo, bueno → buenísimo*. Spelling changes keep the sound: *rico → riquísimo, largo → larguísimo*. It is stronger than *muy*: *muy caro → carísimo*.
+
+        Remember the comparatives from Unit 5: *más barato que*. A superlative is article + comparative + **de**.
+      table: |
+        Structure | Example
+        el / la + noun + más + adjective + de | Es el tren más rápido de todos.
+        el / la + noun + menos + adjective + de | Es la opción menos cara del viaje.
+        el / la mejor + noun + de | Es la mejor playa de la isla.
+        el / la peor + noun + de | Fue el peor día de las vacaciones.
+        adjective + -ísimo / -ísima | El billete es carísimo.
+        spelling change: rico → riquísimo | La comida está riquísima.
+      examples: |
+        El autobús es la opción más barata, pero también la más lenta. | The bus is the cheapest option, but also the slowest.
+        Para mí, la mejor época para visitar Andalucía es la primavera. | For me, the best time to visit Andalusia is spring.
+        Este curso es carísimo, pero las reseñas son buenísimas. | This course is really expensive, but the reviews are excellent.
+        Mi abuela es la mayor de ocho hermanos. | My grandmother is the eldest of eight siblings.
+      tip: "In a superlative, English 'in' is de in Spanish: the best restaurant in town = el mejor restaurante de la ciudad (never en la ciudad)."
+    dialogue:
+      title: ¿Tren, autobús o avión?
+      setting: Dalia and Ismael live in Madrid and want to spend a long weekend in Santiago de Compostela. They compare the options on a laptop.
+      speakers: D=Dalia/f; I=Ismael/m
+      lines: |
+        D: Bueno, ¿cómo vamos a Santiago: en tren, en autobús o en avión? | So, how shall we go to Santiago: by train, by bus or by plane?
+        I: El autobús es la opción más barata: treinta y cinco euros. | The bus is the cheapest option: thirty-five euros.
+        D: Sí, pero tarda ocho horas. ¡Es el más lento de todos! | Yes, but it takes eight hours. It's the slowest of all!
+        I: ¿Y el avión? Es el más rápido. | And the plane? It's the fastest.
+        D: Rápido, sí, pero los billetes están carísimos esta semana. | Fast, yes, but the tickets are really expensive this week.
+        I: Entonces el tren. Tarda unas tres horas y media. | Then the train. It takes about three and a half hours.
+        D: Y es el más cómodo. Puedo leer y trabajar un poco. | And it's the most comfortable. I can read and do a bit of work.
+        I: ¿Cuánto cuesta? | How much is it?
+        D: Sesenta euros, pero hay una oferta si compramos hoy. | Sixty euros, but there's an offer if we buy today.
+        I: ¿Y alquilamos un coche allí? Así podremos ver la costa. | And shall we hire a car there? That way we'll be able to see the coast.
+        D: Buena idea. Para mí, el tren y un coche allí es la mejor opción. | Good idea. For me, the train plus a car there is the best option.
+        I: Vale, me has convencido. ¡Compramos los billetes ahora mismo! | OK, you've convinced me. Let's buy the tickets right now!
+    pronunciation:
+      title: "Stress in -ísimo: carísimo, rapidísimo"
+      body: |
+        Words with **-ísimo** are always stressed on the **í** of the ending, which always carries a written accent. The stress moves away from the original adjective: *CA-ro → ca-RÍ-si-mo, RÁ-pi-do → ra-pi-DÍ-si-mo, BUE-no → bue-NÍ-si-mo*.
+
+        Say *-ísimo* with energy — it's emphatic. Listen and repeat.
+      items: |
+        carísimo
+        rapidísimo
+        buenísimo
+        riquísimo
+        la mejor opción
+        el más barato de todos
+    culture:
+      title: Choosing how to travel
+      body: |
+        For long distances in Spain, the train has become a favourite. Since several companies started running high-speed trains, there are more connections and cheaper tickets on the busiest routes. Long-distance buses are cheaper still and reach almost every town.
+
+        Before choosing a hotel or a restaurant, many people read **reseñas** online and compare prices. And in conversation you will hear superlatives everywhere — Spaniards love *-ísimo*: *¡Está buenísimo! ¡Es carísimo! ¡Fue divertidísimo!*
+    mistakes: |
+      Es el restaurante más bueno de la ciudad. => Es el mejor restaurante de la ciudad. | Bueno has an irregular superlative: el mejor, usually before the noun.
+      Es la playa más bonita en la isla. => Es la playa más bonita de la isla. | In superlatives, "in" is de.
+      Este hotel es muy carísimo. => Este hotel es carísimo. | -ísimo already means "very": don't add muy.
+    task:
+      title: Make the best choice
+      mode: speaking
+      body: |
+        You and two friends want to spend a weekend away. Compare three options — a city, the beach and the mountains, or three hotels — by price, comfort, distance and reviews. Use superlatives (*el más barato, la mejor opción*) and -ísimo, then say which option you choose and why. Record your decision in Speaking practice (about one minute).
+    exercises: |
+      fill: Es el hotel ___ barato ___ la ciudad: solo cuesta cuarenta euros. || más ; de || Superlative: el + noun + más + adjective + de. || @tags es.comparatives
+      fill: Para mí, la primavera es la ___ época para visitar Sevilla. (bueno) || mejor || Bueno → la mejor, before the noun. || @tags es.comparatives
+      fill: Fue el ___ día de las vacaciones: perdimos el tren y llovió. (malo) || peor || Malo → el peor. || @tags es.comparatives
+      fill: Este jamón está ___. (rico + -ísimo) || riquísimo || Rico → riquísimo: c becomes qu to keep the [k] sound. || @tags es.comparatives,es.spelling
+      mc: Choose the correct sentence. || Es el piso más grande en el edificio. | *Es el piso más grande del edificio. | Es el piso más grande que el edificio. || Superlatives use de for the group: del edificio. || @tags es.comparatives
+      mc: «Este coche es carísimo» means… || It's quite expensive. | *It's extremely expensive. | It's the most expensive car. || -ísimo means "very, extremely", without comparing with anything. || @tags es.comparatives
+      rw: Make it a superlative, using de la ciudad :: La catedral es un edificio muy antiguo. || La catedral es el edificio más antiguo de la ciudad. || El + noun + más + adjective + de. || @tags es.comparatives
+      tf: The bus is the fastest option. || false || The bus is the cheapest but the slowest ("el más lento de todos"); the plane is the fastest. || @ctx dialogue
+      short: How will they travel to Santiago? || kw: tren/train || They choose the train and will hire a car there. || @ctx dialogue
+      listen: @dialogue || Why don't they take the plane? || It's the slowest option | *The tickets are very expensive this week | There are no flights || "Los billetes están carísimos esta semana." || @tags es.listening,es.comparatives
+      listen: De los tres cursos, el de Salamanca es el más caro, pero tiene las mejores reseñas. || What is true about the course in Salamanca? || It's the cheapest | *It has the best reviews | It's the shortest || "Es el más caro, pero tiene las mejores reseñas." || @tags es.listening,es.comparatives
+      tr: It's the best restaurant in the neighbourhood. || Es el mejor restaurante del barrio. | Este es el mejor restaurante del barrio. || El mejor + noun + de (del barrio). || @tags es.comparatives
+      dict: El tren es la opción más cómoda y el autobús, la más barata.
+      ask: A friend can't decide between two phones. Recommend one with a superlative or -ísimo and give a reason. || kw: el más/la más/el mejor/la mejor/carísimo/buenísimo/baratísimo || Elige el azul: es el más barato y tiene la mejor cámara. El otro es carísimo.

@@ -1,0 +1,111 @@
+language: da
+level: A2
+title: "Danish A2 · Everyday life"
+description: Talk about your past, your holidays, your health, your studies and work, your home, everyday errands, Danish celebrations and your plans — the Danish you need to manage daily life.
+hours: 80
+summary: >-
+  A2 learners can talk about familiar topics in a series of simple, connected sentences: what they did last weekend,
+  where they went on holiday, how they feel, what they study or do for a living, where they live and what they plan
+  to do next. They can deal with routine errands at the bank, the post office, the pharmacy and in shops, and they
+  understand short, clear messages, notices and conversations about everyday matters. This course delivers around
+  80 hours of guided practice across 8 units, set in towns across Denmark — from Horsens, Herning and Kolding to
+  Næstved, Ærø and the neighbourhoods of Copenhagen.
+objectives:
+  - Talk about past events, your life story and childhood memories with the past tense and the perfect
+  - Describe holidays and trips, plan a journey and deal with problems when travelling
+  - Describe symptoms, understand advice from a doctor or pharmacist and give simple health advice
+  - Talk about your studies and work, give reasons with fordi and opinions with at, and apply for a job
+  - Find a place to live, compare homes and talk about furniture, chores and neighbours
+  - Handle errands at the bank and the post office, return goods, and make phone calls and polite requests
+  - Take part in Danish celebrations, invite people and give good wishes
+  - Talk about future plans, make arrangements with hvis, and compare options
+canDo:
+  listening:
+    - Understand phrases and common words about personal and family information, shopping, work and the local area
+    - Catch the main point of short, clear messages and announcements, such as a voicemail or a delay at the station
+  reading:
+    - Read short, simple texts and find specific information in ads, notices, menus, timetables and leaflets
+    - Understand short personal emails, invitations and cards
+  spokenInteraction:
+    - Handle short social exchanges and routine tasks that need a simple, direct exchange of information
+    - Make and respond to invitations, suggestions and polite requests
+  spokenProduction:
+    - Describe your background, education, work, home and recent experiences in a series of simple sentences
+  writing:
+    - Write short notes and messages about everyday matters
+    - Write a simple personal email or card describing an experience, thanking someone or sending good wishes
+grammar:
+  - Past tense (datid) of regular verbs with -ede and -te; one form for every person
+  - Common irregular past forms (var, havde, gik, kom, tog, fik, så, sagde, blev…)
+  - The perfect with har + participle (har købt, har været) and with er for movement and change (er kommet, er blevet)
+  - Past or perfect? Finished time (i går, i lørdags) versus experience and result (nogensinde, endnu)
+  - Health expressions (have ondt i …, have det dårligt) and advice with the imperative, skal and bør
+  - Subordinate clauses with fordi and at, and the position of ikke and other adverbs before the verb
+  - Duration with i … år and siden
+  - Comparatives (større, billigere, mere praktisk) and lige så … som
+  - Plural nouns, indefinite and definite (stole, stolene; børn, børnene)
+  - Object pronouns (mig, dig, ham, hende, den, det, os, jer, dem) and their position with ikke
+  - Polite requests (kunne du…?, vil du være sød at…?, må jeg…?)
+  - Reflexive verbs (glæde sig, skynde sig, more sig, ønske sig)
+  - s-verbs (synes, mødes, ses, følges)
+  - The future with skal, vil and kommer til at
+  - hvis-clauses and the word order after a subordinate clause
+  - Superlatives (billigst, hurtigst, bedst, mest praktisk)
+vocabularyDomains:
+  - Weekend activities and life events
+  - Holidays, transport and travel problems
+  - The body, symptoms, the doctor and the pharmacy
+  - Studies, the workplace and job applications
+  - Housing, furniture, chores and neighbours
+  - Banking, post, returns and phone calls
+  - Danish holidays, parties, gifts and good wishes
+  - Plans, arrangements and comparing options
+assessment: A 50-minute cumulative test covering vocabulary, grammar, listening and reading tasks from all eight units, with a short writing task. A score of 70% or more confirms the A2 level.
+units:
+  - title: Livshistorier
+    theme: Life stories
+    lessons: [Last weekend, My life so far, Childhood memories]
+  - title: Ferie og rejser
+    theme: Holidays and travel
+    lessons: [A holiday to remember, Planning a trip, When things go wrong on a trip]
+  - title: Krop og sundhed
+    theme: Health and the body
+    lessons: [Aches and pains, "At the doctor's and the pharmacy", Healthy habits]
+  - title: Arbejde og studier
+    theme: Work and studies
+    lessons: [My studies, A day at work, Applying for a job]
+  - title: Hjem og bolig
+    theme: Home and housing
+    lessons: [Finding a flat, Furniture and chores, Neighbours and community]
+  - title: Ærinder og service
+    theme: Services and errands
+    lessons: [At the bank and the post office, Returns and exchanges, Phone calls and messages]
+  - title: Fester og traditioner
+    theme: Celebrations and traditions
+    lessons: [Festivals and holidays, Invitations and parties, Gifts and good wishes]
+  - title: Planer og valg
+    theme: Plans and choices
+    lessons: [Future plans, Making arrangements, Comparing options]
+assessmentItems: |
+  mc: Which sentence means "Last Saturday I played football"? || *I lørdags spillede jeg fodbold. | I lørdags jeg spillede fodbold. | I lørdags spiller jeg fodbold. || Past tense spillede, and verb-second order: after I lørdags comes the verb, then jeg. Spiller is the present tense. || @tags da.past,da.word-order @obj Talk about past events, your life story and childhood memories with the past tense and the perfect
+  fill: I går ___ vi en gammel film i biografen. (se) || så || Se is irregular: se → så → har set. || @tags da.past-irregular
+  fill: Vi har ___ et sommerhus på Fanø i to uger. (leje) || lejet || The perfect is har + participle: leje → lejede → har lejet. || @tags da.perfect @obj Describe holidays and trips, plan a journey and deal with problems when travelling
+  mc: Hun ___ blevet syg, så hun kommer ikke i dag. || *er | har | bliver || Blive (to become) forms the perfect with er: hun er blevet syg. "Har blevet" and "bliver blevet" are not Danish. || @tags da.perfect-er
+  mc: How do you say "I have a sore throat"? || *Jeg har ondt i halsen. | Jeg er ondt i halsen. | Jeg har ondt på halsen. || The fixed expression is have ondt i + the body part in the definite form: ondt i halsen. || @tags da.vocabulary @obj Describe symptoms, understand advice from a doctor or pharmacist and give simple health advice
+  mc: Which sentence has the correct word order? || *Jeg bliver hjemme, fordi jeg ikke har det godt. | Jeg bliver hjemme, fordi jeg har ikke det godt. | Jeg bliver hjemme, fordi ikke jeg har det godt. || In a subordinate clause (after fordi), ikke comes before the verb: fordi jeg ikke har… || @tags da.subordinate-clauses,da.negation @obj Talk about your studies and work, give reasons with fordi and opinions with at, and apply for a job
+  mc: Vores nye lejlighed er ___ end den gamle. (stor) || *større | storere | mere stor || Stor is irregular: stor → større → størst. || @tags da.comparatives @obj Find a place to live, compare homes and talk about furniture, chores and neighbours
+  fill: Vi har købt fire nye ___ til køkkenet. (en stol) || stole || En stol takes -e in the plural: stole. || @tags da.plural
+  mc: "Har du set mine nøgler?" – "Nej, jeg har ikke set ___." || de | *dem | deres || After a verb, the object form is dem (them). De is the subject form, and deres means "their". || @tags da.pronouns @obj Handle errands at the bank and the post office, return goods, and make phone calls and polite requests
+  mc: You need help at the post office counter. Which request is the most polite? || *Kunne du hjælpe mig med den her pakke? | Hjælp mig med den her pakke! | Du hjælper mig med den her pakke. || Kunne du…? is the polite way to ask. The imperative sounds like an order, and the statement is not a request at all. || @tags da.ordering,da.modal-verbs
+  fill: Børnene glæder ___ meget til juleaften. || sig || Glæde sig (til) is reflexive; with børnene (they) the pronoun is sig. || @tags da.reflexive @obj Take part in Danish celebrations, invite people and give good wishes
+  mc: Skal vi ___ foran biografen klokken syv? || *mødes | møde | møder || Mødes is an s-verb meaning "meet (each other)". Møde needs an object, and after skal you need the infinitive, not the present tense møder. || @tags da.s-verbs
+  fill: Du ___ til at elske Skagen – der er så smukt! || kommer || Kommer til at + infinitive predicts what will happen: du kommer til at elske… || @tags da.future @obj Talk about future plans, make arrangements with hvis, and compare options
+  mc: Which sentence is correct? || *Hvis det regner, tager vi bussen. | Hvis det regner, vi tager bussen. | Hvis regner det, tager vi bussen. || The hvis-clause has normal order (det regner) and counts as the first element, so the main clause starts with the verb: tager vi. || @tags da.subordinate-clauses,da.word-order
+  fill: Bussen er billig, men toget er endnu billigere, og cyklen er ___. (billig — the cheapest) || billigst || Superlative: billig → billigere → billigst. || @tags da.comparatives
+  listen: I sommer var vi to uger på Bornholm. Vi lejede et lille sommerhus, og vi cyklede rundt på øen hver dag. || What did they do every day? || *They cycled around the island | They went to the beach | They took the ferry || "Vi cyklede rundt på øen hver dag" — they cycled around the island every day. || @tags da.past,da.listening
+  listen: Hej, det er Hassan Ali. Jeg vil gerne bestille en tid hos lægen. Jeg har haft ondt i ryggen i en uge. || How long has Hassan had back pain? || A day | *A week | A month || "Jeg har haft ondt i ryggen i en uge" — i en uge = for a week. || @tags da.listening,da.perfect
+  listen: Hej Rasmus! Vi holder fest på lørdag klokken syv. Tag gerne noget at drikke med. Vi glæder os til at se dig! || What should Rasmus bring? || Some food | *Something to drink | A present || "Tag gerne noget at drikke med" — please bring something to drink. || @tags da.listening
+  short: How do you say in Danish that you have lived in Denmark for three years (and still live there)? || kw: har boet & i tre år || Jeg har boet i Danmark i tre år. The perfect + i … år describes something that started in the past and is still true. || @tags da.perfect,da.prepositions-time
+  tr: I didn't go to work yesterday, because I was ill. || Jeg tog ikke på arbejde i går, fordi jeg var syg. | Jeg gik ikke på arbejde i går, fordi jeg var syg. | I går tog jeg ikke på arbejde, fordi jeg var syg. | I går gik jeg ikke på arbejde, fordi jeg var syg. | Jeg kom ikke på arbejde i går, fordi jeg var syg. || Past tense tog/gik with ikke after the verb in the main clause; var is the past of være. || @tags da.past-irregular,da.subordinate-clauses
+  rw: Put it in the perfect :: Vi købte en ny sofa. || Vi har købt en ny sofa. || The perfect is har + participle: købe → købte → har købt. || @tags da.perfect
+  write: Write an email to a Danish friend about your last holiday — where you went, what you did, how it was, and what you plan to do next year. || min=50 || req: var/rejste/tog | det var | næste år | skal/vil/kommer til at || Hej Mette! I sommer var jeg en uge i Ribe med min familie. Vi lejede et sommerhus tæt på Vadehavet, og vi cyklede meget. Det var rigtig hyggeligt, men det regnede tit. Vi har aldrig set så mange fugle! Næste år skal vi til Bornholm, fordi min søn gerne vil se klipperne. Hvad med dig? Kærlig hilsen Anna

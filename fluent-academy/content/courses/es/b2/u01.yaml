@@ -1,0 +1,373 @@
+unit: 1
+title: Identidad y sociedad
+theme: Identity and society
+description: Talk about identity and belonging, compare generations and explore what it means to live between languages — expressing doubt and probability with the subjunctive and conceding points with aunque and other concessive structures.
+free: true
+objectives:
+  - Express degrees of certainty, doubt and probability with the indicative or the subjunctive (dudo que, puede que, quizás, a lo mejor)
+  - Concede a point with aunque + indicative or subjunctive, a pesar de que and por mucho que
+  - Use concessive formulas such as pase lo que pase and no es que… sino que to talk about languages and identity
+canDo:
+  - I can say how sure I am about something, from complete certainty to strong doubt.
+  - I can explain where I feel I belong and what shapes my identity.
+  - I can concede a point with aunque and still defend my view.
+  - I can describe the experience of living between two languages or cultures.
+review: |
+  fill: No está nada claro que la gente joven ___ (querer) volver a los pueblos. || quiera || No está claro que expresses doubt, so it takes the subjunctive. Querer is stem-changing: quiera. || @tags es.subjunctive-triggers,es.subjunctive
+  fill: Es evidente que el barrio ___ (haber) cambiado mucho en los últimos años. || ha || Es evidente que expresses certainty, so it takes the indicative. || @tags es.subjunctive-triggers
+  mc: Choose the sentence that is NOT correct. || Quizás vuelvo a Cádiz el año que viene. | Quizás vuelva a Cádiz el año que viene. | *A lo mejor vuelva a Cádiz el año que viene. || Quizás can take either mood, but a lo mejor is always followed by the indicative: a lo mejor vuelvo. || @tags es.subjunctive-triggers
+  fill: Aunque mi tío ___ (llevar) treinta años en Argentina, todavía dice «vosotros». || lleva || The speaker presents a fact as new information, so aunque takes the indicative. || @tags es.connectors,es.subjunctive-triggers
+  mc: Aunque me ___ un trabajo en Madrid, no me iría de Sevilla. || ofrecen | *ofrecieran | ofrecerán || A hypothetical, unlikely situation followed by the conditional (no me iría) takes aunque + imperfect subjunctive. || @tags es.imperfect-subjunctive,es.connectors
+  fill: Digan lo que ___ (decir), los idiomas no se olvidan del todo. || digan || In reduplicated formulas both verbs are in the subjunctive: digan lo que digan. || @tags es.subjunctive
+  rw: Correct the misunderstanding with «No es que…, sino que…» :: No hablo euskera porque no me guste. La verdad es que no he tenido tiempo de aprenderlo. || No es que no me guste el euskera, sino que no he tenido tiempo de aprenderlo. | No es que no me guste, sino que no he tenido tiempo de aprenderlo. || No es que + subjunctive rejects an explanation; sino que + indicative gives the real one. || @tags es.subjunctive-triggers,es.join
+  tr: Even if it's difficult, I want my children to speak both languages. || Aunque sea difícil, quiero que mis hijos hablen los dos idiomas. | Aunque sea difícil, quiero que mis hijos hablen las dos lenguas. | Aunque sea difícil, quiero que mis hijos hablen ambos idiomas. | Aunque resulte difícil, quiero que mis hijos hablen los dos idiomas. || Aunque + subjunctive (sea) concedes a point; querer que + another subject also takes the subjunctive (hablen). || @tags es.subjunctive-triggers
+  listen: Mi abuela dice que ella es de Lugo, aunque lleve sesenta años viviendo en Barcelona. Para ella, el hogar es donde naciste. || Where does the grandmother say she is from? || *Lugo | Barcelona | She doesn't know || «Ella es de Lugo»: for her, home is where you were born, even after sixty years in Barcelona. || @tags es.listening
+  listen: Por mucho que me insistan mis padres, no pienso dejar el piso compartido: aquí tengo mi vida y mis amigos. || What will the speaker do? || Move back in with the parents | *Stay in the shared flat | Look for a flat of their own || «No pienso dejar el piso compartido» — I have no intention of leaving the shared flat. || @tags es.listening,es.subjunctive-triggers
+  ask: A new colleague asks you where you are from and where you feel at home. Give a nuanced answer, with at least one doubt and one concession. || kw: soy/nací & aunque & dudo/no estoy seguro/quizás/puede que/es posible que/no creo que || Nací en Zaragoza, aunque llevo diez años en Valencia y aquí me siento en casa. Mis amigos dicen que ya soy valenciana, pero dudo que algún día deje de sentirme un poco maña. Quizás la identidad sea eso: una mezcla de los sitios donde has vivido.
+  write: Write a forum post (100–120 words) answering the question «¿Las nuevas generaciones lo tienen más fácil que sus padres?». Concede at least two points and give your own opinion. || min=90 || req: aunque | a pesar de/por mucho que/sin embargo | dudo que/no creo que/no está claro que/es posible que/puede que || Es cierto que los jóvenes de hoy tienen más oportunidades para viajar y estudiar que sus padres. Aunque esto sea una ventaja enorme, no creo que su vida sea más fácil. A pesar de que están más preparados que nunca, muchos tienen contratos temporales y sueldos bajos, y les cuesta muchísimo emanciparse. Mis padres compraron un piso con veintiséis años; dudo que yo pueda hacerlo antes de los cuarenta. Por otro lado, ahora hay más libertad para elegir cómo vivir. En resumen, las dificultades han cambiado, pero no han desaparecido.
+lessons:
+  - title: Identity and belonging
+    summary: Talk about what shapes your identity and where you feel at home, and express how sure you are with the indicative or the subjunctive.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.subjunctive-triggers, es.subjunctive]
+    objectives:
+      - Talk about origins, identity and the feeling of belonging with abstract vocabulary
+      - Express certainty with the indicative and doubt or probability with the subjunctive
+      - Choose correctly between quizás, tal vez, puede que and a lo mejor
+    intro: |
+      "¿Y tú de dónde eres?" sounds like a simple question, but for millions of people it has no simple answer. At B2 you need to talk about complex ideas — identity, roots, belonging — and, above all, to say **how sure you are**. Spanish marks this with the verb mood: certainty goes with the indicative, doubt and probability with the subjunctive. Mastering this contrast is one of the clearest signs of an advanced speaker.
+    vocab: |
+      la identidad | identity | n | Para mí, la identidad tiene más que ver con las personas que con los lugares. | For me, identity has more to do with people than with places. | g: f | c: identidad cultural; crisis de identidad
+      pertenecer a | to belong to | v | Durante años sentí que no pertenecía a ningún sitio. | For years I felt I didn't belong anywhere. | n: Irregular yo form: pertenezco.
+      el sentimiento de pertenencia | sense of belonging | n | El equipo de fútbol del barrio nos daba un fuerte sentimiento de pertenencia. | The neighbourhood football team gave us a strong sense of belonging. | g: m
+      encajar | to fit in | v | Al principio me costó encajar en el nuevo instituto. | At first I found it hard to fit in at the new school. | c: encajar en un grupo; no acabar de encajar
+      las raíces | roots | n | Aunque vive en Londres, nunca ha olvidado sus raíces gallegas. | Although she lives in London, she has never forgotten her Galician roots. | g: f | n: Singular: la raíz (z changes to c in the plural).
+      echar raíces | to put down roots | expr | Nos mudamos tantas veces que nunca llegamos a echar raíces. | We moved so often that we never managed to put down roots.
+      el arraigo | attachment; rootedness (to a place) | n | En los pueblos pequeños el arraigo a la tierra es muy fuerte. | In small villages people's attachment to the land is very strong. | g: m | n: The opposite is el desarraigo, the feeling of being uprooted.
+      el hogar | home | n | Mi hogar está donde están mis hijos. | My home is wherever my children are. | g: m | n: More emotional and abstract than casa.
+      la procedencia | origin; where someone or something comes from | n | En mi clase hay alumnos de procedencias muy distintas. | In my class there are students from very different backgrounds. | g: f
+      sentirse extranjero | to feel like a foreigner | expr | A veces me siento extranjera en mi propio país. | Sometimes I feel like a foreigner in my own country. | n: Extranjero agrees: me siento extranjera, nos sentimos extranjeros.
+      el prejuicio | prejudice | n | Esa pregunta, a veces, esconde algún prejuicio. | Sometimes that question hides some kind of prejudice. | g: m | c: tener prejuicios; luchar contra los prejuicios
+      la mezcla | mix; blend | n | Mi familia es una mezcla de acentos, costumbres y recetas. | My family is a mix of accents, customs and recipes. | g: f
+      dudar que | to doubt that | v | Dudo que alguien pueda definirse con una sola palabra. | I doubt that anyone can define themselves with a single word. | n: Always + subjunctive. No dudo que (I don't doubt) usually takes the indicative.
+      estar convencido de que | to be convinced that | expr | Mis padres están convencidos de que volveremos algún día. | My parents are convinced that we will come back one day. | n: Certainty: + indicative. Keep de before que.
+    grammar:
+      title: "Certainty, doubt and probability"
+      body: |
+        At B1 you learned that *creo que* takes the indicative and *no creo que* the subjunctive. At B2 you need the whole scale, from complete certainty to strong doubt. The rule is simple: **if the speaker presents something as true, use the indicative; if they doubt it, deny it or only see it as possible, use the subjunctive.**
+
+        - **Certainty → indicative**: *estoy seguro/a de que, estoy convencido/a de que, es evidente que, está claro que, no cabe duda de que, sé que*. → *Está claro que **es** una pregunta difícil.*
+        - **Doubt or denial → subjunctive**: *dudo que, no estoy seguro/a de que, no está claro que, no es cierto que*. → *Dudo que **sea** tan fácil.*
+        - **Possibility and probability → subjunctive**: *es posible que, es probable que, puede (ser) que*. → *Puede que nunca **encajes** del todo.*
+
+        Some adverbs leave the choice to you. **Quizás / quizá** and **tal vez** take the **indicative** when you think something is fairly likely and the **subjunctive** when you are less sure: *Quizás tienes razón* (I think you do) / *Quizás tengas razón* (maybe — I'm not convinced). If they come **after** the verb, use the indicative: *Tienes razón, quizás.* **A lo mejor**, very common in Spain, is **always** followed by the indicative: *A lo mejor vuelvo a Galicia.*
+
+        Watch the negation: *no dudo que* expresses certainty, so it normally takes the indicative: *No dudo que lo **dices** con buena intención.*
+      table: |
+        Degree | Expressions | Mood | Example
+        Certainty | estoy seguro de que, es evidente que, no cabe duda de que | indicative | Es evidente que el barrio ha cambiado.
+        Fairly likely | quizás, tal vez | indicative | Quizás tiene razón.
+        Possible | quizás, tal vez, puede que, es posible que | subjunctive | Puede que tenga razón.
+        Doubt or denial | dudo que, no está claro que, no es cierto que | subjunctive | Dudo que tenga razón.
+        Always indicative | a lo mejor | indicative | A lo mejor tiene razón.
+      examples: |
+        Estoy convencida de que la identidad cambia a lo largo de la vida. | I'm convinced that identity changes over the course of a lifetime. | certainty: indicative
+        Dudo que mis abuelos entiendan por qué me fui a vivir a Oslo. | I doubt my grandparents understand why I went to live in Oslo. | doubt: subjunctive
+        Es probable que Hugo se quede en Lisboa: allí se siente en casa. | Hugo will probably stay in Lisbon: he feels at home there. | probability: subjunctive
+        Tal vez vuelvan al pueblo cuando se jubilen. | Perhaps they'll go back to the village when they retire. | tal vez + subjunctive: less certain
+        A lo mejor me mudo a Granada el año que viene. | Maybe I'll move to Granada next year. | a lo mejor: always indicative
+      tip: "Not sure which mood to use? Ask yourself: am I stating it or doubting it? Stating → indicative. Doubting, denying or just seeing it as possible → subjunctive. And remember the exception: a lo mejor never takes the subjunctive."
+    dialogue:
+      title: «¿Y tú de dónde eres?»
+      setting: A dinner party at a friend's flat in Madrid. Another guest has just asked Iker and Yasmina the classic question, and they keep talking about it in the kitchen.
+      speakers: I=Iker/m; Y=Yasmina/f
+      lines: |
+        I: Siempre me hace gracia esa pregunta. Llevo quince años en Madrid y todavía no sé muy bien qué contestar. | That question always makes me laugh. I've been in Madrid for fifteen years and I still don't really know what to answer.
+        Y: A mí me pasa lo contrario: nací en Terrassa, pero mucha gente duda que sea de aquí. | I have the opposite problem: I was born in Terrassa, but lots of people doubt that I'm from here.
+        I: ¿Por tu nombre? Dudo que lo pregunten con mala intención, aunque entiendo que acabe cansando. | Because of your name? I doubt they ask with bad intentions, although I can see it gets tiring.
+        Y: No, no creo que sea mala intención. Es más bien curiosidad. Aun así, a veces me siento extranjera en mi propio país. | No, I don't think it's bad intentions. It's more curiosity. Even so, sometimes I feel like a foreigner in my own country.
+        I: Te entiendo. Cuando vuelvo a Bilbao, mis amigos dicen que hablo como un madrileño, y aquí soy «el vasco». | I understand. When I go back to Bilbao, my friends say I talk like someone from Madrid, and here I'm "the Basque guy".
+        Y: ¡Exacto! Es posible que nunca encajes del todo en ningún sitio, pero eso también tiene su lado bueno. | Exactly! You may never fit in completely anywhere, but that has its good side too.
+        I: ¿Qué lado bueno? Yo a veces tengo la sensación de no pertenecer a ninguna parte. | What good side? Sometimes I feel as if I don't belong anywhere.
+        Y: Pues que puedes elegir. Yo me siento catalana, marroquí y, sobre todo, de mi barrio. Eso no me lo quita nadie. | Well, that you can choose. I feel Catalan, Moroccan and, above all, from my neighbourhood. Nobody can take that away from me.
+        I: Quizás tengas razón. A lo mejor la identidad no es un lugar, sino la gente con la que creces. | Maybe you're right. Perhaps identity isn't a place, but the people you grow up with.
+        Y: Puede que sí. Mis padres, por ejemplo, están convencidos de que su hogar está donde estamos sus hijos. | Could be. My parents, for example, are convinced that their home is wherever their children are.
+        I: Pues la próxima vez que me lo pregunten, diré: «Soy de donde está mi gente». | Well, the next time someone asks me, I'll say: "I'm from wherever my people are."
+        Y: Me parece una respuesta preciosa, aunque dudo que la gente se conforme con eso. | I think that's a beautiful answer, although I doubt people will be satisfied with it.
+    pronunciation:
+      title: "Linking vowels between words"
+      body: |
+        In natural Spanish, a word ending in a vowel is linked to the next word when it begins with a vowel — or with a silent **h**. The two vowels are pronounced in one smooth movement, without a break: *mi_identidad*, *su_hogar*, *de_origen*. This linking (*sinalefa*) is a big part of why Spanish sounds so fast and fluid.
+
+        When the two vowels are the same, they almost merge into one: *la_alegría*, *me_encanta* → "me_ncanta". Practise each phrase slowly first, then at normal speed, without stopping between the words.
+      items: |
+        mi identidad
+        su hogar
+        de origen
+        puede que encaje
+        me siento extranjera
+        lo echo de menos
+    culture:
+      title: "La patria chica: many layers of identity"
+      body: |
+        Many people in Spain feel attached to several places at once: their town or city, their region and their country. The expression **la patria chica** (literally "the little homeland") refers to the place where you were born or grew up, and it often carries strong emotions — think of the local festivals, the football team or the way people speak. It is common to hear *soy de Cuenca, pero vivo en Madrid desde hace veinte años* as the answer to a simple question.
+
+        In recent decades Spain has also become home to millions of people born abroad, and to their children, many of whom feel completely Spanish and something else at the same time. In Latin America, questions of identity often include indigenous, African and European roots, and many people describe themselves with more than one label.
+    mistakes: |
+      Dudo que tiene razón. => Dudo que tenga razón. | Dudar que expresses doubt, so the verb that follows goes in the subjunctive.
+      A lo mejor sea verdad. => A lo mejor es verdad. | A lo mejor is always followed by the indicative, unlike quizás and tal vez.
+      Estoy seguro que vuelva pronto. => Estoy seguro de que vuelve pronto. | Certainty takes the indicative, and estar seguro keeps de before que.
+    task:
+      title: Where do I belong?
+      mode: speaking
+      body: |
+        Prepare a one- to two-minute talk about what shapes your identity: the places you have lived in, your languages, your family, your work or your friends. Say where you feel at home and why. Use at least two expressions of certainty (*estoy convencido/a de que, es evidente que*) and three of doubt or probability (*dudo que, puede que, quizás*). Then practise in the "Introducing yourself" scenario with the AI coach — but go beyond the basics: when the coach asks where you are from, give the full, nuanced answer.
+    exercises: |
+      fill: Dudo que mis abuelos ___ (entender) por qué decidí irme a vivir a Noruega. || entiendan || Dudar que expresses doubt, so it takes the subjunctive. Entender is stem-changing: entiendan. || @tags es.subjunctive-triggers,es.subjunctive
+      fill: Estoy convencida de que la identidad ___ (ser) algo que cambia con el tiempo. || es || Estar convencido de que expresses certainty, so the indicative follows: es. || @tags es.subjunctive-triggers
+      fill: Es probable que Óscar ___ (quedarse) en Lisboa: allí se siente como en casa. || se quede || Es probable que + subjunctive. The reflexive pronoun goes before the verb: se quede. || @tags es.subjunctive-triggers,es.reflexive
+      fill: No cabe duda de que el barrio ___ (cambiar) mucho desde que llegaron los nuevos vecinos. || ha cambiado || No cabe duda de que (there's no doubt that) expresses certainty: indicative, here the pretérito perfecto. || @tags es.subjunctive-triggers,es.present-perfect
+      mc: Choose the correct sentence. || A lo mejor se muden a Valencia en verano. | *A lo mejor se mudan a Valencia en verano. | A lo mejor que se mudan a Valencia en verano. || A lo mejor is always followed by the indicative, and it is never followed by que. || @tags es.subjunctive-triggers
+      mc: Which sentence expresses the strongest doubt? || Está claro que vuelve en Navidad. | Seguro que vuelve en Navidad. | *Dudo mucho que vuelva en Navidad. || Dudo mucho que + subjunctive expresses strong doubt. The other two express certainty. || @tags es.subjunctive-triggers
+      mc: Your friend says «No acabo de encajar en el nuevo trabajo». She means: || She has just started the new job. | *She doesn't quite fit in at the new job. | She has finished the job she was doing. || No acabar de + infinitive means "not quite", and encajar is "to fit in". || @skill vocabulary @tags es.vocabulary
+      tf: Yasmina was born in Morocco. || false || She says «nací en Terrassa»; she feels Catalan, Moroccan and, above all, from her neighbourhood. || @ctx dialogue
+      short: According to Yasmina, what is the good side of not fitting in completely anywhere? || kw: elegir/eliges/choose/choice/choosing || She says «que puedes elegir» — you can choose who you are. || @ctx dialogue
+      rw: Rewrite the sentence, starting with «Dudo que…» :: Creo que mi hermano vuelve a vivir al pueblo. || Dudo que mi hermano vuelva a vivir al pueblo. || Dudo que replaces creo que, so the indicative vuelve becomes the subjunctive vuelva. || @tags es.subjunctive-triggers
+      tr: It's possible that she feels like a foreigner in her own country. || Es posible que se sienta extranjera en su propio país. | Es posible que ella se sienta extranjera en su propio país. | Puede que se sienta extranjera en su propio país. | Puede que ella se sienta extranjera en su propio país. | Puede ser que se sienta extranjera en su propio país. || Es posible que / puede que + subjunctive: se sienta. Extranjera agrees with ella. || @tags es.subjunctive-triggers
+      listen: Mi madre está convencida de que algún día volveremos todos a Asturias, pero yo dudo mucho que mi hermana deje Berlín. || What does the speaker doubt? || That the mother will return to Asturias | *That the sister will leave Berlin | That the family will visit Berlin || «Dudo mucho que mi hermana deje Berlín» — the speaker doubts that the sister will leave Berlin. || @tags es.listening,es.subjunctive-triggers
+      listen: @dialogue || How does Iker decide to answer the question next time? || *That he is from wherever his people are | That he is from Bilbao, his home town | That he is from Madrid, where he lives || He says «Soy de donde está mi gente». || @tags es.listening
+      dict: Dudo que alguien pueda definir su identidad con una sola palabra. || dudo que + subjunctive
+      ask: Someone you have just met asks where you are from. Give a nuanced answer — where you were born, where you feel at home, and one thing you are not sure about. || kw: nací/soy & casa/hogar & dudo/no estoy seguro/quizás/tal vez/puede que/es posible que || Nací en Rosario, en Argentina, pero llevo ocho años en Málaga y aquí me siento en casa. Estoy convencido de que mi forma de ser es muy argentina, aunque mis amigos de allí dicen que ya hablo como un andaluz. Puede que dentro de unos años no sepa ni cómo contestar a esa pregunta.
+
+  - title: Generations
+    summary: Compare the values and lives of different generations, and concede a point with aunque + indicative or subjunctive, a pesar de que and por mucho que.
+    minutes: 50
+    skills: [grammar, listening, speaking]
+    tags: [es.connectors, es.subjunctive-triggers]
+    objectives:
+      - Talk about differences between generations in work, housing and values
+      - Choose between aunque + indicative (a fact) and aunque + subjunctive (a known or hypothetical point)
+      - Concede and counter-argue with a pesar de que, por mucho que and aun así
+    intro: |
+      Conversations between generations are full of concessions: *Aunque tengas razón en parte…*, *Por mucho que cambien las cosas…* At B1 you used *aunque* simply as "although". At B2 the mood after *aunque* changes the message: with the indicative you **inform**, with the subjunctive you **concede or imagine**. In this lesson, three generations of one family discuss a big decision — and nobody fully agrees.
+    vocab: |
+      la brecha generacional | generation gap | n | La brecha generacional se nota sobre todo en el uso de la tecnología. | The generation gap is especially noticeable in the use of technology. | g: f
+      los valores | values | n | Mis padres y yo compartimos los mismos valores, aunque no las mismas costumbres. | My parents and I share the same values, though not the same habits. | g: m | n: In the singular, el valor can also mean "courage".
+      la estabilidad | stability; security | n | Para mis abuelos, lo más importante era la estabilidad. | For my grandparents, the most important thing was stability. | g: f
+      el contrato indefinido | permanent contract | n | Después de cinco años de contratos temporales, por fin tengo un contrato indefinido. | After five years of temporary contracts, I finally have a permanent one. | g: m | n: Colloquially: un contrato fijo. The opposite is un contrato temporal.
+      la precariedad | insecurity; precariousness | n | La precariedad laboral afecta sobre todo a los menores de treinta y cinco años. | Job insecurity mainly affects people under thirty-five. | g: f | c: precariedad laboral
+      emanciparse | to leave the family home; to become independent | v | Hoy en día cuesta mucho emanciparse antes de los treinta. | Nowadays it's very hard to leave home before thirty.
+      arriesgarse | to take a risk | v | Si no te arriesgas, nunca sabrás si podías conseguirlo. | If you don't take a risk, you'll never know if you could do it. | c: arriesgarse a + infinitive
+      atreverse a | to dare to | v | A tu edad yo no me atreví a cambiar de vida. | At your age I didn't dare to change my life.
+      conformarse con | to settle for; to be content with | v | Mi abuelo se conforma con muy poco. | My grandfather is content with very little.
+      en mis tiempos | in my day | expr | En mis tiempos nadie se iba a vivir solo antes de casarse. | In my day nobody went to live on their own before getting married.
+      ponerse en el lugar de | to put yourself in someone's shoes | expr | Intenta ponerte en el lugar de tu abuela. | Try to put yourself in your grandmother's shoes. | n: Latin America also: ponerse en los zapatos de alguien.
+      el choque | clash | n | En la comida hubo un pequeño choque generacional. | There was a little generational clash at lunch. | g: m | c: choque generacional; choque cultural
+      quedarse con la duda | to be left wondering | expr | Prefiero intentarlo a quedarme con la duda. | I'd rather try than be left wondering.
+      las personas mayores | older people; the elderly | n | Las personas mayores tienen mucho que enseñarnos. | Older people have a lot to teach us. | g: f | n: More respectful than los viejos. Also: los mayores.
+    grammar:
+      title: "Conceding a point: aunque + indicative or subjunctive"
+      body: |
+        **Aunque** introduces an idea that could be an obstacle but doesn't change the conclusion. The mood tells your listener how you see that idea.
+
+        - **Aunque + indicative**: you present the obstacle as a **real fact that you are informing about**. *Aunque mi abuela **tiene** noventa años, usa el móvil para todo* (she is ninety — I'm telling you).
+        - **Aunque + present subjunctive**: (1) the fact is **already known or you don't consider it relevant**: *Aunque **tengas** razón en parte, las cosas han cambiado* (OK, you may be partly right, but…); or (2) it is a **possibility in the future**: *Aunque **llueva**, iremos* (even if it rains).
+        - **Aunque + imperfect subjunctive**: a **hypothetical or unlikely** situation, usually with the conditional: *Aunque me **pagaran** el doble, no volvería.*
+
+        Other ways of conceding: **a pesar de** + noun or infinitive (*a pesar de la edad*, *a pesar de tener ahorros*); **a pesar de que** + indicative or subjunctive, like *aunque*; **por mucho que** (however much) + subjunctive for something that hasn't happened yet: *Por mucho que insistas, no voy a cambiar de opinión.* **Aun así** (even so) starts a new sentence after a concession.
+
+        Never add *pero* to the main clause after *aunque* or *a pesar de que*: the concession is already built in.
+      table: |
+        Structure | What it means | Example
+        aunque + indicative | real fact, new information | Aunque el sueldo es bueno, no estoy contento.
+        aunque + present subjunctive | known fact or irrelevant | Aunque no te guste, es un buen contrato.
+        aunque + present subjunctive | future possibility (even if) | Aunque me salga mal, quiero intentarlo.
+        aunque + imperfect subjunctive | hypothetical, unlikely | Aunque me lo pidieran, no volvería.
+        por mucho que + subjunctive | however much | Por mucho que cambien las cosas, hay que pagar el alquiler.
+      examples: |
+        Aunque mis padres nunca fueron a la universidad, siempre nos animaron a estudiar. | Although my parents never went to university, they always encouraged us to study. | a fact: indicative
+        Aunque sea tu abuelo, no tiene por qué decidir por ti. | Even if he is your grandfather, he doesn't have to decide for you. | known fact, considered irrelevant
+        Aunque me ofrecieran un contrato indefinido, no me quedaría en esa empresa. | Even if they offered me a permanent contract, I wouldn't stay at that company. | hypothetical
+        A pesar de tener ahorros, me da miedo dejar el trabajo. | Despite having savings, I'm scared of leaving my job. | a pesar de + infinitive
+      tip: "A quick test: if you can replace aunque with 'I'm telling you that… but', use the indicative. If it means 'OK, maybe… but' or 'even if', use the subjunctive."
+    dialogue:
+      title: Tres generaciones a la mesa
+      setting: Sunday lunch at the grandparents' flat in Valladolid. Lucía, 28, tells her grandfather Ramón and her mother Pilar that she is leaving her permanent job to work as a freelance illustrator.
+      speakers: R=Ramón/m; L=Lucía/f; P=Pilar/f
+      lines: |
+        R: ¿Cómo que dejas el trabajo? Aunque no te guste, es un contrato indefinido, hija. Eso hoy vale oro. | What do you mean, you're leaving your job? Even if you don't like it, it's a permanent contract, love. That's worth its weight in gold these days.
+        L: Lo sé, abuelo. Aunque el sueldo es bueno, llevo dos años sintiendo que estoy perdiendo el tiempo. | I know, Grandad. Although the salary is good, for two years I've felt that I'm wasting my time.
+        R: En mis tiempos nadie hablaba de perder el tiempo. Trabajabas en lo que había y punto. | In my day nobody talked about wasting time. You worked at whatever there was, and that was that.
+        P: Papá, aunque tengas razón en parte, las cosas han cambiado mucho desde que tú entraste en la fábrica. | Dad, even if you're partly right, things have changed a lot since you started at the factory.
+        R: Ya, ya. Pero por mucho que cambien las cosas, el alquiler hay que pagarlo a final de mes. | Yes, yes. But however much things change, the rent still has to be paid at the end of the month.
+        L: Claro, por eso lo he pensado tanto. Tengo ahorros para un año, aunque espero no necesitarlos todos. | Of course, that's why I've thought about it so much. I have savings for a year, although I hope I won't need all of them.
+        P: A mí me da un poco de miedo, no te voy a mentir. Pero a tu edad yo también quería cambiar de vida. | It scares me a bit, I'm not going to lie. But at your age I wanted to change my life too.
+        R: ¿Tú? ¡Si llevas treinta años en el mismo banco! | You? But you've been at the same bank for thirty years!
+        P: Precisamente por eso. No me arrepiento, pero a veces pienso en todo lo que no me atreví a hacer. | That's exactly why. I don't regret it, but sometimes I think about everything I didn't dare to do.
+        L: Pues yo prefiero equivocarme ahora, aunque me salga mal, que quedarme con la duda toda la vida. | Well, I'd rather make a mistake now, even if it goes wrong, than be left wondering my whole life.
+        R: Mira, aunque no lo entienda del todo, si tú estás segura, cuenta conmigo para lo que necesites. | Look, even if I don't fully understand it, if you're sure, you can count on me for whatever you need.
+        L: Gracias, abuelo. Aunque no lo parezca, eso era justo lo que necesitaba oír. | Thanks, Grandad. You may not think so, but that was exactly what I needed to hear.
+    pronunciation:
+      title: "The melody of a concession"
+      body: |
+        A sentence with *aunque* has two parts, and the voice tells the listener that the first part is not the end. At the end of the *aunque* clause, your voice stays up or rises slightly, with a short pause (marked by the comma). Then the main clause falls clearly at the end: *Aunque no te guste ↗ | es un contrato indefinido ↘.*
+
+        The same melody works for *por mucho que*, *a pesar de que* and *si*. Read each phrase aloud and exaggerate the rise before the comma at first.
+      items: |
+        Aunque no te guste, es un buen contrato.
+        Aunque tengas razón en parte…
+        Por mucho que cambien las cosas…
+        Aunque no lo parezca…
+        Aun así, prefiero intentarlo.
+        Si tú estás segura, cuenta conmigo.
+    culture:
+      title: "Leaving home at thirty — and the abuelos"
+      body: |
+        In Spain young people leave the family home later than in most of Europe: the average age is around thirty, one of the highest in the European Union. Long years of study, temporary contracts and high rents all play a part. Many people in their twenties share flats, and it is not unusual to return to the parents' home for a while after a job ends.
+
+        Grandparents play a huge role in family life. Many look after their grandchildren every day while the parents work — they are sometimes jokingly called *abuelos canguro* — and the weekly family meal, often on Sunday, is still a fixed point in many families' week.
+    mistakes: |
+      Aunque llueve mañana, iremos a la playa. => Aunque llueva mañana, iremos a la playa. | A possibility in the future ("even if") takes aunque + subjunctive.
+      A pesar de que no tengo tiempo, pero voy a ayudarte. => A pesar de que no tengo tiempo, voy a ayudarte. | Don't add pero after a concessive clause: a pesar de que already expresses the contrast.
+      Mi abuelo no se conforma de nada. => Mi abuelo no se conforma con nada. | The verb is conformarse con.
+    task:
+      title: Then and now
+      mode: interaction
+      body: |
+        Talk to an older relative, neighbour or friend — or imagine the conversation — about how one area of life has changed: work, housing, technology or family. Note down three things that were better in their day and three that are better now. Then defend your view in the "Expressing an opinion" scenario with the AI coach on whether life is easier for young people today, conceding at least three points with *aunque*, *a pesar de que* or *por mucho que*.
+    exercises: |
+      fill: Aunque mi abuela ___ (tener) noventa años, todavía va a nadar todas las mañanas. || tiene || The speaker presents the age as a fact, new information: aunque + indicative. || @tags es.connectors,es.subjunctive-triggers
+      fill: Aunque mañana ___ (hacer) mal tiempo, la comida familiar se celebra igual. || haga || A possibility in the future ("even if") takes the subjunctive. Hacer is irregular: haga. || @tags es.connectors,es.subjunctive
+      fill: Aunque me ___ (ofrecer, ellos) el doble, no volvería a trabajar en esa empresa. || ofrecieran / ofreciesen || An unlikely hypothesis followed by the conditional (volvería): aunque + imperfect subjunctive. || @tags es.imperfect-subjunctive,es.connectors
+      fill: Por mucho que ___ (insistir, tú), no voy a cambiar de opinión. || insistas || Por mucho que about something that hasn't happened yet takes the subjunctive. || @tags es.subjunctive-triggers,es.subjunctive
+      mc: «Ya sé que es tu jefe, pero aunque sea tu jefe, no tiene derecho a gritarte.» Why does the speaker use the subjunctive sea? || Because the speaker doesn't know who the boss is. | *Because the fact is known and doesn't change the conclusion. | Because it refers to a future possibility. || Both speakers already know he is the boss; the subjunctive shows that this fact is irrelevant to the conclusion. || @tags es.subjunctive-triggers
+      mc: Choose the correct sentence. || A pesar de que es muy joven, pero tiene mucha experiencia. | *A pesar de que es muy joven, tiene mucha experiencia. | A pesar de es muy joven, tiene mucha experiencia. || A pesar de que + a verb, with no pero in the main clause. A pesar de (without que) only goes before a noun or an infinitive. || @tags es.connectors
+      mc: «Mi hermano se conforma con poco» means: || He agrees with very few things. | *He is content with very little. | He follows the rules strictly. || Conformarse con = to be content with, to settle for. || @skill vocabulary @tags es.vocabulary
+      tf: Pilar has changed jobs several times. || false || Ramón says «¡Si llevas treinta años en el mismo banco!» || @ctx dialogue
+      short: How long can Lucía live on her savings? || kw: año/year || She says «Tengo ahorros para un año». || @ctx dialogue
+      rw: Join the two sentences with aunque, presenting the first idea as a fact :: Mi padre no entiende mi decisión. Me apoya. || Aunque mi padre no entiende mi decisión, me apoya. | Mi padre me apoya aunque no entiende mi decisión. | Mi padre me apoya, aunque no entiende mi decisión. || Presented as a fact, the concession takes the indicative: aunque no entiende. || @tags es.connectors,es.join
+      tr: Even if it goes wrong, I'd rather try than be left wondering. || Aunque salga mal, prefiero intentarlo que quedarme con la duda. | Aunque salga mal, prefiero intentarlo a quedarme con la duda. | Aunque me salga mal, prefiero intentarlo que quedarme con la duda. | Aunque me salga mal, prefiero intentarlo a quedarme con la duda. | Aunque salga mal, prefiero probar a quedarme con la duda. || "Even if" about the future: aunque + subjunctive (salga). Preferir… a / que… for the comparison. || @tags es.connectors,es.subjunctive
+      listen: Aunque mis padres nunca pudieron estudiar, siempre nos animaron a elegir la carrera que quisiéramos. || What did the speaker's parents do? || They chose their children's degrees. | *They encouraged their children to study whatever they wanted. | They went back to university later in life. || «Siempre nos animaron a elegir la carrera que quisiéramos.» || @tags es.listening,es.connectors
+      listen: @dialogue || What does Ramón finally tell Lucía? || That she should keep her permanent job | *That he supports her even if he doesn't fully understand | That she can come and live with him || «Aunque no lo entienda del todo, si tú estás segura, cuenta conmigo.» || @tags es.listening
+      dict: Aunque no lo parezca, mi abuelo es el más moderno de toda la familia.
+      say: Aunque no esté de acuerdo contigo, entiendo perfectamente tu punto de vista. || Even if I don't agree with you, I understand your point of view perfectly.
+
+  - title: Living between languages
+    summary: Read a personal essay about growing up between three languages, and use concessive formulas such as pase lo que pase, sea como sea and no es que… sino que.
+    minutes: 50
+    skills: [reading, writing, grammar]
+    tags: [es.subjunctive, es.subjunctive-triggers]
+    objectives:
+      - Understand a personal essay about bilingualism and identity
+      - Use reduplicated subjunctive formulas (pase lo que pase, digan lo que digan, vaya donde vaya)
+      - Reject an explanation and give the real one with no es que… sino que
+    intro: |
+      More than half of the world's population uses more than one language in daily life. In this lesson you will read the story of Andrei, who arrived in Castellón at seven with three words of Spanish and now dreams in it. His essay is full of the structures that advanced speakers use to concede, insist and correct: *digan lo que digan*, *sea como sea*, *no es que… sino que*.
+    vocab: |
+      bilingüe | bilingual | adj | Mi hija es bilingüe: habla rumano en casa y castellano en el colegio. | My daughter is bilingual: she speaks Romanian at home and Spanish at school. | n: Same form for men and women. The diaeresis (ü) means the u is pronounced.
+      la lengua materna | mother tongue; first language | n | Su lengua materna es el árabe, pero piensa en castellano. | Her mother tongue is Arabic, but she thinks in Spanish. | g: f
+      la lengua de herencia | heritage language | n | Muchos hijos de inmigrantes entienden la lengua de herencia, pero no la hablan. | Many children of immigrants understand their heritage language but don't speak it. | g: f
+      mezclar | to mix | v | Cuando hablo con mi hermano, mezclamos los dos idiomas sin darnos cuenta. | When I talk to my brother, we mix the two languages without realising. | c: mezclar idiomas
+      pasar de un idioma a otro | to switch from one language to another | expr | Los niños bilingües pasan de un idioma a otro con total naturalidad. | Bilingual children switch from one language to the other completely naturally.
+      costar | to find something hard (me cuesta…) | v | Me cuesta mucho escribir en rumano. | I find it very hard to write in Romanian. | n: Works like gustar: me cuesta, nos cuesta. Stem change o → ue.
+      avergonzarse de | to be ashamed of; to be embarrassed about | v | De adolescente me avergonzaba de mi acento. | As a teenager I was embarrassed about my accent. | n: Present: me avergüenzo — note the ü.
+      ocultar | to hide; to conceal | v | Durante años intentó ocultar su acento. | For years he tried to hide his accent.
+      recuperar | to get back; to recover | v | Me costó años recuperar el vocabulario que había perdido. | It took me years to get back the vocabulary I had lost.
+      el rincón | corner (of a room or space) | n | Los idiomas de la infancia se quedan en algún rincón de la memoria. | Childhood languages stay in some corner of your memory. | g: m | n: A street corner is la esquina.
+      la nostalgia | nostalgia; homesickness | n | Cuando oigo esa canción, siento una nostalgia enorme. | When I hear that song, I feel a huge sense of nostalgia. | g: f
+      la jugada | trick; move | n | Mi hija me hace la misma jugada: le hablo en rumano y me contesta en castellano. | My daughter pulls the same trick on me: I speak to her in Romanian and she answers in Spanish. | g: f | n: Literally a move in a game.
+      el taco | swear word | n | Cuando se enfada, se le escapan los tacos en los dos idiomas. | When he gets angry, he lets out swear words in both languages. | g: m | n: Spain; also la palabrota. In Mexico a taco is only food.
+    grammar:
+      title: "Concessive formulas: pase lo que pase, no es que…"
+      body: |
+        Spanish has some compact, very idiomatic ways of conceding that use the subjunctive.
+
+        **Reduplicated formulas.** The same verb is repeated around a relative word (*lo que, donde, como, quien, cuando*), both times in the subjunctive. The meaning is "whatever / wherever / however… — it doesn't matter": *pase lo que pase* (whatever happens), *digan lo que digan* (whatever people say), *sea como sea* (one way or another, be that as it may), *vaya donde vaya* (wherever I go), *hable con quien hable* (whoever I talk to). For the past, use the imperfect subjunctive: *fuera donde fuera, siempre llevaba un diccionario.*
+
+        **No es que + subjunctive, sino que + indicative.** Use it to reject a possible explanation and give the real one: *No es que **mezcle** los idiomas por pereza, sino que algunas cosas solo **tienen** nombre en uno de ellos.* The first part takes the subjunctive because you are denying it; the second takes the indicative because it is what you claim is true.
+
+        **Por más que** works like *por mucho que*: *Por más que lo intente, no consigo perder el acento.*
+
+        A fixed phrase you will hear constantly: **que yo sepa** (as far as I know), always with the subjunctive.
+      table: |
+        Formula | Meaning | Example
+        pase lo que pase | whatever happens | Pase lo que pase, seguiré hablándole en rumano.
+        digan lo que digan | whatever people say | Digan lo que digan, mezclar idiomas no es malo.
+        sea como sea | one way or another | Sea como sea, quiero que aprenda los dos idiomas.
+        vaya donde vaya | wherever I / you / he go(es) | Vaya donde vaya, me preguntan por mi acento.
+        no es que + subj., sino que + ind. | it's not that…, it's that… | No es que no quiera, sino que no puedo.
+        que yo sepa | as far as I know | Que yo sepa, en su casa solo hablan gallego.
+      examples: |
+        Digan lo que digan los expertos, yo sueño en castellano. | Whatever the experts say, I dream in Spanish. | reduplicated formula
+        Sea como sea, pienso seguir hablándole en mi lengua. | One way or another, I intend to keep speaking to her in my language.
+        No es que no me guste el inglés, sino que me cuesta pensar en él. | It's not that I don't like English; it's that I find it hard to think in it. | no es que + subjunctive
+        Fuera donde fuera, mi padre siempre buscaba un periódico en su idioma. | Wherever he went, my father always looked for a newspaper in his language. | past: imperfect subjunctive
+      tip: "In reduplicated formulas, the verb is the same both times and always in the subjunctive. If you remember pase lo que pase, you can build all the others."
+    reading:
+      title: Entre el rumano y el castellano
+      text: |
+        Llegué a Castellón con siete años, una maleta y tres palabras en castellano: hola, gracias y agua. Mis padres habían encontrado trabajo en el campo y yo empecé el colegio en octubre, sin entender nada. Aquel primer año, en casa hablábamos rumano; en clase, castellano; y en el patio, valenciano, porque mis compañeros jugaban en valenciano. Tres idiomas antes de cumplir los ocho.
+
+        Hoy tengo treinta y cuatro años y me preguntan a menudo en qué idioma pienso. La respuesta sincera es que depende. Cuento en rumano, sueño en castellano y, cuando me enfado, digan lo que digan los expertos, se me escapan los tacos en los dos. No es que mezcle los idiomas por pereza, sino que algunas cosas solo tienen nombre en uno de ellos. ¿Cómo traduzco «dor», esa añoranza rumana que no es exactamente nostalgia? ¿Y cómo le explico a mi madre lo que es una sobremesa?
+
+        Durante la adolescencia me avergonzaba de mi acento y hacía todo lo posible por ocultarlo. Aunque mis padres me hablaban en rumano, yo les contestaba en castellano. Ahora lo lamento un poco, porque perdí vocabulario que me costó años recuperar.
+
+        Mi hija Irina tiene cinco años y me hace la misma jugada: le hablo en rumano y me responde en castellano. Puede que algún día rechace el rumano del todo, pero dudo que lo olvide: los idiomas de la infancia se quedan en algún rincón de la memoria. Sea como sea, pienso seguir hablándole en mi lengua, porque no es solo un idioma: es la voz de sus abuelos.
+
+        Vivir entre lenguas tiene algo de equilibrio inestable. A veces me siento un traductor permanente, de palabras y de costumbres. Pero, vaya donde vaya, llevo conmigo dos maneras de mirar el mundo, y no las cambiaría por nada.
+      translation: |
+        I arrived in Castellón at the age of seven, with a suitcase and three words of Spanish: hello, thank you and water. My parents had found work on the land and I started school in October without understanding anything. That first year, at home we spoke Romanian; in class, Spanish; and in the playground, Valencian, because my classmates played in Valencian. Three languages before I turned eight.
+
+        Today I'm thirty-four and people often ask me which language I think in. The honest answer is that it depends. I count in Romanian, I dream in Spanish and, when I get angry, whatever the experts say, I let out swear words in both. It's not that I mix the languages out of laziness; it's that some things only have a name in one of them. How do I translate "dor", that Romanian longing which isn't exactly nostalgia? And how do I explain to my mother what a sobremesa is?
+
+        As a teenager I was ashamed of my accent and did everything I could to hide it. Although my parents spoke to me in Romanian, I answered them in Spanish. Now I regret it a little, because I lost vocabulary that took me years to get back.
+
+        My daughter Irina is five and she pulls the same trick on me: I speak to her in Romanian and she answers in Spanish. She may reject Romanian altogether one day, but I doubt she'll forget it: the languages of childhood stay in some corner of your memory. One way or another, I intend to keep speaking to her in my language, because it isn't just a language: it's her grandparents' voice.
+
+        Living between languages is a bit like an unstable balance. Sometimes I feel like a permanent translator, of words and of customs. But wherever I go, I carry with me two ways of looking at the world, and I wouldn't swap them for anything.
+    pronunciation:
+      title: "gue, gui and güe: bilingüe"
+      body: |
+        In the groups **gue** and **gui**, the *u* is silent: it only tells you that the *g* is hard, as in *seguir* [se-GIR] or *guerra*. When the *u* must be pronounced, Spanish adds a diaeresis: **ü**. So *bilingüe* is [bi-LIN-gwe] and *vergüenza* is [ber-GWEN-sa] (with a *th* sound for the *z* in most of Spain).
+
+        Compare *seguir* (silent u) with *lingüístico* (pronounced u). Say each word slowly, then in a short phrase.
+      items: |
+        bilingüe
+        lingüístico
+        vergüenza
+        me avergüenzo
+        seguir hablándole
+        la lengua
+    culture:
+      title: "Spain's languages — and Latin America's"
+      body: |
+        Castilian Spanish (*castellano*) is the official language of the whole of Spain, but several regions have a second official language: Catalan in Catalonia and the Balearic Islands, Valencian in the Valencian Community, Galician in Galicia and Basque (*euskera*) in the Basque Country and part of Navarre. Children in these regions usually study in both languages, so many grow up bilingual. Spanish speakers often say *castellano* rather than *español* when they want to distinguish it from the other languages of Spain.
+
+        In Latin America, millions of people speak indigenous languages. In Paraguay, Guaraní is an official language alongside Spanish and is spoken by most of the population; Quechua and Aymara are widely spoken in the Andes, and Nahuatl and many Mayan languages in Mexico and Guatemala.
+    mistakes: |
+      Pase lo que pasa, te llamaré. => Pase lo que pase, te llamaré. | In reduplicated formulas the verb is repeated in the subjunctive both times.
+      No es que no me gusta, sino que no tengo tiempo. => No es que no me guste, sino que no tengo tiempo. | No es que is followed by the subjunctive, because you are rejecting that explanation.
+      Me cuesto mucho hablar en público. => Me cuesta mucho hablar en público. | Costar works like gustar: the activity (hablar en público) is the subject, so the verb is cuesta.
+    task:
+      title: My languages and me
+      mode: writing
+      body: |
+        A language-learning magazine is collecting readers' stories for a feature called *Vivir entre lenguas*. Write 120–150 words about your relationship with the languages you speak or are learning: when and how you learned them, which one you use for what (counting, dreaming, arguing…) and one word that is hard to translate. Use at least one reduplicated formula (*pase lo que pase, sea como sea…*), *no es que… sino que* and one *aunque*.
+    exercises: |
+      mc: How many languages did Andrei use every day when he was seven? || Two | *Three | Four || Romanian at home, Spanish in class and Valencian in the playground. || @ctx reading @tags es.reading
+      tf: Andrei's daughter answers him in Romanian. || false || «Le hablo en rumano y me responde en castellano.» || @ctx reading @tags es.reading
+      short: Why does Andrei mix languages, according to him? || kw: nombre/palabra/palabras/name/word/words/traducir/translate || It's not laziness: some things only have a name in one of the two languages. || @ctx reading @tags es.reading
+      mc: Why does Andrei regret answering his parents in Spanish as a teenager? || Because his parents were angry with him | *Because he lost vocabulary that took years to recover | Because his daughter now does the same || «Perdí vocabulario que me costó años recuperar.» || @ctx reading @tags es.reading
+      fill: Pase lo que ___, seguiré hablándole a mi hija en mi idioma. || pase || The verb is repeated in the subjunctive: pase lo que pase. || @tags es.subjunctive
+      fill: Digan lo que ___ (decir), mezclar idiomas no es ningún problema. || digan || Reduplicated formula: digan lo que digan = whatever people say. || @tags es.subjunctive
+      fill: No es que no ___ (querer, yo) hablar alemán, sino que me da vergüenza equivocarme. || quiera || No es que + subjunctive: you are rejecting that explanation. || @tags es.subjunctive-triggers,es.subjunctive
+      mc: Hable con ___ hable, todo el mundo me pregunta de dónde es mi acento. || que | *quien | lo que || The formula is about people (whoever I talk to), so the relative word is quien. || @tags es.subjunctive,es.relative-pronouns
+      mc: «Me cuesta mucho pasar de un idioma a otro» means: || *I find it hard to switch from one language to another. | It costs me a lot of money to learn languages. | I really enjoy switching between languages. || Costar here means "to find hard", and it works like gustar: me cuesta. || @skill vocabulary @tags es.vocabulary
+      rw: Correct the misunderstanding with «No es que…, sino que…» :: —¿No te gusta el catalán? —(The real reason: me cuesta pronunciarlo.) || No es que no me guste el catalán, sino que me cuesta pronunciarlo. | No es que no me guste, sino que me cuesta pronunciarlo. || No es que + subjunctive rejects the explanation; sino que + indicative gives the real one. || @tags es.subjunctive-triggers,es.join
+      tr: It's not that I don't remember the words; it's that I can't find them. || No es que no recuerde las palabras, sino que no las encuentro. | No es que no me acuerde de las palabras, sino que no las encuentro. | No es que no recuerde las palabras, es que no las encuentro. | No es que no me acuerde de las palabras, es que no las encuentro. || No es que + subjunctive (recuerde / me acuerde), followed by sino que or es que + indicative. || @tags es.subjunctive-triggers
+      listen: Mi hijo entiende perfectamente el gallego, aunque casi nunca lo habla. Dice que le da vergüenza su acento. || Why does the son rarely speak Galician? || He doesn't understand it well. | *He's embarrassed about his accent. | His friends don't speak it. || «Dice que le da vergüenza su acento.» || @tags es.listening
+      listen: Pase lo que pase, en casa seguiremos hablando árabe: es la lengua en la que mis padres nos contaban cuentos. || Why will the family keep speaking Arabic at home? || Because the children's school requires it | *Because it's the language their parents told them stories in | Because the grandparents don't speak Spanish || «Es la lengua en la que mis padres nos contaban cuentos.» || @tags es.listening,es.subjunctive
+      dict: Sea como sea, quiero que mis hijos crezcan con los dos idiomas. || sea como sea = one way or another
+      say: Vaya donde vaya, llevo conmigo dos maneras de mirar el mundo. || Wherever I go, I carry two ways of looking at the world with me.
+      write: Write a short text (90–120 words) for a blog about languages. Explain which languages are part of your life, what you find hard, and why you will keep using them. || min=80 || req: aunque | no es que/sea como sea/pase lo que pase/digan lo que digan/vaya donde vaya | idioma/idiomas/lengua/lenguas || Mi lengua materna es el inglés, pero llevo seis años viviendo en Valencia y el castellano ya forma parte de mi vida. Aunque lo hablo todos los días, todavía me cuesta escribir correos formales. No es que no conozca las reglas, sino que me da miedo sonar demasiado directo. En casa hablo inglés con mi pareja y, con mis vecinos, intento chapurrear un poco de valenciano. Sea como sea, pienso seguir aprendiendo, porque cada idioma me ha dado amigos, canciones y una forma nueva de ver las cosas.

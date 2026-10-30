@@ -1,0 +1,353 @@
+unit: 7
+title: The common good
+theme: Citizenship and public life
+description: Understand and explain civic rights and duties, take part in a public consultation about local services, and make firm, polite complaints, using the formal language of obligation and permission, nominalization and should have / was supposed to for criticizing past actions.
+free: false
+objectives:
+  - Explain rights, duties and rules in formal English (be required to, be entitled to, be prohibited from)
+  - Understand and use the nominal style of official notices and consultations, and translate it into plain English
+  - Make spoken and written complaints that are firm, polite and clear about what went wrong
+canDo:
+  - I can explain what citizens are required, entitled and not allowed to do in a civic situation such as jury service.
+  - I can understand official notices about public services and express my views in a consultation.
+  - I can say what should have happened and what was supposed to happen when a service goes wrong.
+  - I can write a formal complaint that explains the problem and states clearly what I expect.
+review: |
+  fill: All residents are required ___ (register) to vote by the end of the month. || to register || Be required + to-infinitive expresses a formal obligation. || @tags en.register,en.modal-verbs
+  fill: Passengers are prohibited ___ (smoke) on all platforms. || from smoking || Be prohibited from + -ing. || @tags en.register
+  mc: Which sentence means "It isn't necessary for you to pay"? || You are prohibited from paying. | *You are exempt from the fee. | You are obliged to pay the fee. || Exempt from = not required to do or pay something. Prohibited means not allowed; obliged means required. || @tags en.register
+  rw: Rewrite using a noun phrase starting "The closure of" :: They closed the bridge, and this caused long delays. || The closure of the bridge caused long delays. || Nominalization: close → the closure of + noun. || @tags en.register,en.formal-writing
+  mc: There has been a sharp ___ the number of visitors since the museum became free. || increase of | *increase in | increase to || Increase in + the thing that changes; increase to + the new figure (an increase to two thousand). || @tags en.register,en.collocations
+  fill: The plumber ___ (should / check) the pipes before he left — the kitchen flooded an hour later. || should have checked / should've checked || Should have + past participle criticizes a past action that didn't happen. || @tags en.modal-verbs
+  fill: The new bins ___ (supposed / deliver) last week, but they still haven't arrived. || were supposed to be delivered || Was/were supposed to expresses an expectation that wasn't met; the bins receive the action, so use the passive infinitive. || @tags en.modal-verbs,en.passive
+  mc: Which is the most appropriate first sentence for a formal complaint? || Your service is a total joke. | *I am writing to complain about the delay in processing my application. | Hi, just a quick moan about my application. || A formal complaint starts by stating the reason for writing clearly and politely. || @tags en.formal-writing,en.register
+  listen: Following the introduction of a new booking system, residents are no longer required to visit the council offices in person to renew their parking permits. || What has changed for residents? || They have to visit the offices more often. | *They can renew their permits without visiting the offices. | Parking permits are no longer available. || "No longer required to visit the council offices in person." || @tags en.listening,en.register
+  listen: I was told the engineer would come between eight and twelve. He didn't turn up at all, and nobody called to tell me. Someone should have let me know. || What does the speaker think the company should have done? || Sent a different engineer | *Contacted her to say the engineer wasn't coming | Come earlier in the morning || "Nobody called to tell me. Someone should have let me know." || @tags en.listening,en.modal-verbs
+  ask: A friend from abroad asks what their rights and responsibilities will be when they rent their first flat in your country. Explain at least three, using formal expressions. || kw: required/obliged/entitled/right to/prohibited/not allowed/not permitted/responsible/must/compulsory || Tenants are usually required to pay a deposit of one or two months' rent, and you're entitled to get it back at the end if there's no damage. You have the right to a written contract. You're responsible for paying the bills, and in many buildings you're prohibited from smoking or having pets without permission.
+  write: Write a formal email (110–130 words) to your local council complaining about a public service that has got worse. Explain what happened, what should have happened and what you expect them to do. || min=100 || req: I am writing/I'm writing | should have/ought to have/was supposed to/were supposed to/was meant to | I would be grateful/I would like/I would appreciate/I expect/I look forward || Dear Sir or Madam, I am writing to complain about the recycling collection in Elm Road. Since the introduction of the new schedule in March, our bins have been missed on four occasions. On each occasion, I reported the problem online and was told that the bins would be collected within two days. However, nobody came, and I received no explanation. The collection was supposed to take place every Tuesday, and residents should have been informed of any changes. I would be grateful if you could confirm the correct collection day and explain what steps will be taken to prevent this from happening again. I look forward to your reply. Yours faithfully, Hannah Osei
+lessons:
+  - title: Rights and responsibilities
+    summary: Talk about civic rights and duties such as jury service, voting and registering, and explain rules formally with be required to, be entitled to, be prohibited from and be exempt from.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [en.register, en.modal-verbs, en.vocabulary]
+    objectives:
+      - Talk about civic duties, rights and legal requirements
+      - Express obligation, permission and prohibition in formal English
+      - Choose between formal and informal ways of explaining rules
+    intro: |
+      Living in a community means having both rights — to vote, to a fair trial, to free education — and responsibilities, such as paying taxes or serving on a jury. Official letters, websites and helplines explain these rules in a **formal register** that can be harder to understand than everyday English. In this lesson you will learn the formal language of obligation, permission and prohibition, and practice explaining rules clearly.
+    vocab: |
+      civic duty | something you are expected to do as a responsible member of society | n phr | Many people see voting as a civic duty. | -
+      jury service | a period when an ordinary citizen helps decide a court case as a member of a jury | n phr | She was called for jury service last spring. | - | n: American English also: jury duty.
+      be entitled to | to have the right to have or do something | expr | Part-time workers are entitled to paid holidays. | - | n: Followed by a noun or a to-infinitive.
+      obligation | something you must do because of a law, rule or promise | n | Employers have a legal obligation to provide a safe workplace. | - | c: a legal obligation; be under an obligation to…
+      by law | because the law says so | expr | Children must attend school by law until the age of sixteen. | - | c: required by law
+      exempt (from) | not required to do or pay something that others must do or pay | adj | People over seventy are exempt from the fee. | - | n: Noun: exemption.
+      comply with | to obey a rule, law or request | phr v | All restaurants must comply with hygiene regulations. | - | n: Noun: compliance.
+      abide by | to accept and follow a rule or decision | phr v | Both sides agreed to abide by the court's decision. | -
+      defer | to delay something until a later time | v | You can defer your jury service once. | - | n: Noun: deferral.
+      penalty | a punishment, often a fine, for breaking a rule or law | n | The penalty for late payment is fifty dollars. | - | c: face a penalty; a heavy penalty
+      liable | legally responsible for something, especially for paying for damage | adj | Tenants are liable for any damage they cause. | - | c: liable for something
+      fundamental right | a basic right that everyone should have | n phr | Freedom of speech is a fundamental right. | -
+      citizen | a person who legally belongs to a country, or who lives in a town or city | n | All citizens over eighteen can vote. | - | n: Noun: citizenship.
+    grammar:
+      title: Formal language of obligation, permission and prohibition
+      body: |
+        Official English often avoids *must*, *can* and *can't* in favor of longer, more formal structures. Pay attention to the **patterns** that follow them.
+
+        - **Obligation**: **be required to** + base form, **be obliged to** + base form, **it is compulsory / mandatory to**…, **have a duty to**…: *Employers **are required** by law **to** let you attend.*
+        - **No obligation**: **be not required to**, **be exempt from** + noun / -ing, **it is optional to**…: *You **are not obliged to** pay. Students **are exempt from** the fee.*
+        - **Rights and permission**: **be entitled to** + noun / to-infinitive, **have the right to** + base form, **be permitted to**, **may**: *You **are entitled to** claim expenses. You **have the right to** ask for a later date.*
+        - **Prohibition**: **be prohibited from** + -ing, **be forbidden to / from**, **be not permitted to**, **may not**: *Jurors **are prohibited from discussing** the case.*
+
+        Many of these use the **passive** (are required, are permitted), which keeps the focus on the rule rather than on who makes it. In conversation, you can explain the same rules more simply: *You have to go. You can claim expenses. You can't talk about it.*
+      table: |
+        Meaning | Formal | Informal
+        obligation | You are required to attend. | You have to go.
+        no obligation | You are not obliged to pay. | You don't have to pay.
+        right | You are entitled to claim expenses. | You can claim expenses.
+        prohibition | You are prohibited from discussing it. | You can't talk about it.
+        exemption | You are exempt from the fee. | You don't have to pay the fee.
+      examples: |
+        You're required to attend court for up to two weeks. | | be required to + base form
+        Employers aren't obliged to pay you while you're away. | | not obliged to: no obligation
+        You're entitled to claim expenses for loss of earnings. | | be entitled to + to-infinitive
+        Jurors are prohibited from discussing the case with anyone outside the jury. | | be prohibited from + -ing
+      tip: |
+        Remember the prepositions: entitled TO something, exempt FROM something, prohibited FROM doing something, liable FOR something.
+    dialogue:
+      title: Called for jury service
+      setting: A phone call to the jury office of a court in Leeds, England. Maya, a software tester, has received a letter saying she has been selected for jury service. Mr. Oduya, a court officer, answers her questions.
+      speakers: M=Maya/f; O=Oduya/m
+      lines: |
+        M: Hello, I've received a letter saying I've been selected for jury service next month. I'm not sure what it involves.
+        O: It's an important civic duty. You're required to attend court for up to two weeks, starting on the date in your letter.
+        M: Two weeks? I work full time. Is my employer obliged to give me the time off?
+        O: Yes. Employers are required by law to let you attend, although they aren't obliged to pay you while you're away.
+        M: So I could lose two weeks' wages? That seems a bit unfair.
+        O: You're entitled to claim expenses for loss of earnings, as well as for travel and food, up to a daily limit.
+        M: That's a relief. And what if the dates are impossible? I'm supposed to be at a conference in the second week.
+        O: You have the right to ask for your service to be moved to a later date, but you can usually only do that once.
+        M: Understood. Is there anything I'm not allowed to do while I'm on a jury?
+        O: Jurors are prohibited from discussing the case with anyone outside the jury, and that includes posting about it online.
+        M: What about looking things up? I'm the kind of person who checks everything on the internet.
+        O: That's strictly forbidden. You must reach a decision based only on the evidence presented in court.
+    pronunciation:
+      title: Word stress in formal vocabulary
+      body: |
+        Formal words often have three or more syllables, and the stress can fall in unexpected places: ob**LI**ged, en**TI**tled, ob**LI**gatory but obli**GA**tion, pro**HI**bited, ex**EMPT**, **LI**able.
+
+        In formal phrases, the stress usually falls on the key word, and *to*, *from* and *for* are weak: *You're en**TI**tled tə claim exPENses.* Listen and repeat.
+      items: |
+        obligation
+        entitled
+        prohibited
+        exempt from the fee
+        liable for any damage
+        You're required to attend.
+    mistakes: |
+      You are entitled to claiming expenses. => You are entitled to claim expenses. | Be entitled to is followed by a noun (expenses) or a base form (claim), not -ing.
+      Jurors are prohibited to discuss the case. => Jurors are prohibited from discussing the case. | The pattern is be prohibited from + -ing.
+      Employers are obliged giving you time off. => Employers are obliged to give you time off. | Be obliged is followed by to + base form.
+    task:
+      title: Know your rights
+      mode: speaking
+      body: |
+        Choose a situation in your country where people have both rights and responsibilities: starting a new job, renting a flat, voting for the first time or serving on a jury. Prepare a two-minute explanation for a newcomer, using at least six formal expressions (be required to, be entitled to, be exempt from…). Then explain the same rules informally to a friend, and notice the difference. Finally, practice asking about your rights in a formal situation with the AI coach in the "Preparing for a job interview" scenario.
+    exercises: |
+      fill: Jurors are prohibited ___ (discuss) the case with anyone outside the jury. || from discussing || Be prohibited from + -ing. || @tags en.register
+      fill: All employees are entitled ___ twenty days of paid leave a year. || to || Be entitled to + noun phrase. || @tags en.register
+      fill: Visitors are required ___ (show) photo ID at the entrance. || to show || Be required + to-infinitive. || @tags en.register,en.passive
+      mc: Which sentence means "You don't have to attend"? || You are prohibited from attending. | *You are not required to attend. | You are obliged to attend. || Not required = it isn't necessary. Prohibited means you mustn't; obliged means you must. || @tags en.register,en.modal-verbs
+      mc: Which sentence is the most formal? || You've got to wear a helmet, OK? | *Cyclists are required to wear a helmet. | You really need to wear a helmet. || Be required to + base form, with a general subject (cyclists), is typical of official rules. || @tags en.register
+      rw: Rewrite formally using "be required to" :: You have to register within thirty days of moving. || You are required to register within thirty days of moving. | You're required to register within thirty days of moving. | Residents are required to register within thirty days of moving. || Have to → be required to + base form. || @tags en.register
+      rw: Rewrite formally using "be prohibited from" :: Visitors can't take photos anywhere in the museum. || Visitors are prohibited from taking photos anywhere in the museum. | Visitors are prohibited from taking photographs anywhere in the museum. || Can't → be prohibited from + -ing. || @tags en.register
+      rw: Rewrite formally using "be entitled to" :: You can get free legal advice. || You are entitled to free legal advice. | You're entitled to free legal advice. | You are entitled to get free legal advice. | You are entitled to receive free legal advice. || Be entitled to + noun (free legal advice) or + base form. || @tags en.register
+      match: get = obtain ; need = require ; help = assist ; ask for = request ; tell = inform || Each everyday verb is matched with a more formal equivalent. || @hint Match each everyday verb with a formal equivalent. @skill vocabulary @tags en.register
+      tf: Employers have to pay jurors their normal salary. || false || Mr. Oduya says employers "aren't obliged to pay you while you're away," but jurors can claim expenses. || @ctx dialogue
+      short: How long might Maya have to attend court? || kw: two weeks/2 weeks/fortnight || "You're required to attend court for up to two weeks." || @ctx dialogue
+      listen: @dialogue || What is Maya forbidden to do during the trial? || Claim travel expenses | Ask for a later date | *Look things up about the case online || Looking things up on the internet is "strictly forbidden"; she must use only the evidence in court. || @tags en.listening
+      dict: Employers are required by law to let you attend. || be required by law to…
+      ask: A new neighbor from abroad asks what residents in your town are required to do and what they are entitled to. Explain at least three rules. || kw: required/obliged/entitled/right to/prohibited/permitted/allowed/exempt/compulsory/must || Everyone is required to register at the town hall within two weeks of arriving. Once you're registered, you're entitled to use the local health center and the library for free. You're also required to sort your rubbish, and you're prohibited from putting glass in the normal bins.
+      write: Write the text (90–110 words) for an official information leaflet about a civic duty or right in your country, such as voting, registering a car or serving on a jury. Use at least four formal expressions. || min=80 || req: required/obliged/compulsory/mandatory | entitled/right to/permitted/may | prohibited/not permitted/forbidden/exempt/liable || Voting in local elections: what you need to know. All citizens over eighteen who have lived in the town for at least six months are entitled to vote. You are required to register by the thirtieth of April, either online or at the town hall. On election day, you may vote at any polling station in your district, but you are required to bring photo identification. Voters are prohibited from taking photographs inside the polling station. If you are unable to attend in person, you have the right to vote by post. Residents in hospital are exempt from the identification requirement.
+
+  - title: Public services
+    summary: Understand official notices and take part in a public consultation about local services, using and decoding the nominal style of formal English.
+    minutes: 50
+    skills: [listening, grammar, speaking]
+    tags: [en.register, en.formal-writing, en.word-stress]
+    objectives:
+      - Talk about local services, funding and consultations
+      - Understand and use nominalization (the closure of, a reduction in, following the introduction of)
+      - Rewrite nominal, official English in plain English
+    intro: |
+      Libraries, buses, swimming pools and health centers are services most of us use without thinking — until they change. Official notices about these changes are often written in a **nominal style**: instead of *The council will close the pool*, they say *The closure of the pool will take place…* In this lesson you will learn to understand this style, use it when you need to sound formal, and turn it back into plain English when you want to be clear.
+    vocab: |
+      local authority | the organization that is responsible for public services in a city or area | n phr | The local authority runs most of the schools in the area. | - | n: Also: local council.
+      public consultation | a process in which an authority asks people for their opinions before making a decision | n phr | A public consultation on the new bus routes is open until June. | -
+      funding | money given for a particular purpose, especially by a government or organization | n | The library has lost a third of its funding. | - | c: cut funding; secure funding
+      cuts | reductions in the amount of money spent on something | n pl | The cuts will affect services for older people. | - | c: budget cuts; spending cuts
+      facility | a building or place that provides a particular service or activity | n | The sports center has excellent facilities. | - | n: Often plural.
+      provision | the act of providing something, or the amount that is provided | n | The provision of free school meals is a priority. | -
+      accessible | easy to reach, enter, use or understand, including for people with disabilities | adj | All the new buses are fully accessible. | - | n: Noun: accessibility.
+      allocate | to give an amount of money, time or space for a particular purpose | v | The council has allocated extra money to road repairs. | - | n: Noun: allocation.
+      resident | someone who lives in a particular place | n | Residents were invited to a meeting at the town hall. | -
+      eligible | having the right to do or receive something because you meet the conditions | adj | You may be eligible for a discount. | - | c: eligible for something; eligible to do something
+      self-service | where customers do things themselves instead of being served by staff | adj | Self-service checkouts have replaced most of the staff. | -
+      take into account | to consider something when you make a decision | expr | Has the council taken local needs into account? | - | n: Also: take account of.
+    grammar:
+      title: Nominalization in formal English
+      body: |
+        **Nominalization** means expressing an action or quality with a **noun** instead of a verb or adjective. It makes formal writing more concise and impersonal, because the doer often disappears: *The council **reduced** the opening hours* → *the **reduction in** opening hours*.
+
+        Common changes:
+        - verb → noun: *close → closure, reduce → reduction, introduce → introduction, decide → decision, propose → proposal, publish → publication, assist → assistance, fail → failure, improve → improvement, consider → consideration*
+        - adjective → noun: *available → availability, accessible → accessibility, safe → safety*
+        - some words are the same: *increase, decrease, change, delay, cut*
+
+        Typical patterns: **the + noun + of + noun** (*the closure of the pool*), **noun + in** for changes (*an increase **in** demand, a reduction **in** staff*), **noun + to-infinitive** (*the decision **to** close*) and prepositions such as **following**, **due to**, **prior to**: ***Following the introduction of** online booking, waiting times fell.*
+
+        Too many nouns make a text heavy and hard to follow. In plain English, use verbs: *If you don't pay* is clearer than *Failure to pay*.
+      table: |
+        Plain English | Nominal style
+        The council will close the library on Mondays. | The closure of the library on Mondays…
+        Demand has increased. | There has been an increase in demand.
+        They decided to cancel the club. | The decision to cancel the club…
+        After they introduced online booking… | Following the introduction of online booking…
+        If you don't pay, … | Failure to pay will result in…
+      examples: |
+        The council has proposed a reduction in the library's opening hours. | | reduction in + noun
+        Demand has increased since the closure of the community center. | | the closure of + noun
+        One option under consideration is the introduction of self-service hours. | | under consideration; the introduction of
+        All proposals will be considered before a final decision is made. | | proposal, decision
+      tip: |
+        To decode an official sentence, find the nouns that hide actions (closure, reduction, introduction) and ask: Who is doing what?
+    dialogue:
+      title: The library consultation
+      setting: A public meeting at a branch library in Leicester, England. Ms. Grant, an officer from the local authority, is explaining proposed changes to library services. Javier, a parent, and Ruth, a retired teacher, have come to give their views.
+      speakers: G=Grant/f; J=Javier/m; R=Ruth/f
+      lines: |
+        G: Thank you all for coming. As you know, the council has proposed a reduction in the library's opening hours from next April.
+        J: The notice mentions "a reorganization of services." What would that mean in practice for families like mine?
+        G: In practice, the library would close on Mondays, and there would be a reduction in staff on weekday evenings.
+        R: But demand has increased since the closure of the community center. Has the council taken that into account?
+        G: That's a fair point. The increase in demand is one of the main reasons for this consultation.
+        J: My kids go to the homework club every evening. Its cancellation would be a disaster for working parents.
+        G: I understand. One option under consideration is the introduction of self-service hours, when no staff would be present.
+        R: How would that work? Many older people rely on the staff for help with forms and computers.
+        G: Assistance would still be available during staffed hours, and volunteers could provide additional support.
+        J: Then I'd like to make a proposal: keep the evenings open and close on Saturday mornings instead.
+        R: I'd support that. Saturday mornings are much quieter than weekday evenings, in my experience.
+        G: Thank you both. All proposals will be considered, and a summary of responses will be published before a final decision is made in January.
+    pronunciation:
+      title: Stress shift in nominalization
+      body: |
+        When a verb becomes a noun, the stress often moves. Nouns ending in **-tion** and **-ity** are stressed on the syllable just before the ending: re**DUCE** → re**DUC**tion, pro**POSE** → propo**SI**tion, a**VAIL**able → availa**BIL**ity, ac**CES**sible → accessi**BIL**ity.
+
+        Some two-syllable words change stress between verb and noun: in**CREASE** (verb) → **IN**crease (noun), re**CORD** → **RE**cord. Listen and repeat.
+      items: |
+        reduction
+        availability
+        accessibility
+        an increase in demand
+        to increase the budget
+        consultation
+    mistakes: |
+      There has been an increase of demand since May. => There has been an increase in demand since May. | Nouns of change (increase, reduction, rise, fall) are followed by in + the thing that changes.
+      Following the decision of closing the library, residents protested. => Following the decision to close the library, residents protested. | Decision is followed by a to-infinitive.
+      Prior to submit your application, read the guidance notes. => Prior to submitting your application, read the guidance notes. | Prior to is a preposition, so it is followed by a noun or -ing.
+    task:
+      title: Have your say
+      mode: interaction
+      body: |
+        Find (or imagine) a proposed change to a public service in your area: shorter opening hours, a new bus route, parking charges or a closed post office. First, rewrite the official announcement in plain English for a neighbor. Then role-play a public consultation with two partners: one is the council officer, and the others are residents with different needs. Make at least one formal proposal. Finally, practice presenting your proposal in a meeting with the AI coach in the "Taking part in a business meeting" scenario.
+    exercises: |
+      fill: The ___ (close) of the swimming pool has upset many residents. || closure || Close → closure: the closure of + noun. || @tags en.register,en.formal-writing
+      fill: The council has announced a ___ (reduce) ___ opening hours. || reduction ; in || Reduce → reduction; nouns of change are followed by in. || @tags en.register,en.formal-writing
+      rw: Rewrite using a noun phrase, starting "The council's decision" :: The council decided to close the library, which surprised everyone. || The council's decision to close the library surprised everyone. || Decided → decision + to-infinitive. The which-clause becomes the main verb. || @tags en.register,en.formal-writing
+      rw: Rewrite starting "The introduction of" :: The council introduced parking fees, and this led to many complaints. || The introduction of parking fees led to many complaints. | The introduction of parking fees by the council led to many complaints. || Introduced → the introduction of + noun. || @tags en.register,en.formal-writing
+      rw: Rewrite in plain English, starting "If you don't" :: Failure to pay the fee will result in the cancellation of your membership. || If you don't pay the fee, your membership will be canceled. | If you don't pay the fee, your membership will be cancelled. | If you don't pay the fee, we will cancel your membership. | If you don't pay the fee, we'll cancel your membership. || Failure to pay → If you don't pay; the cancellation of → will be canceled. || @tags en.register
+      mc: What is the noun form of "available"? || *availability | availableness | availment || Available → availability. || @tags en.register @skill vocabulary
+      mc: Which sentence is the most appropriate for an official notice? || We're going to make the bins better, promise! | *Improvements to the recycling service will be introduced next month. | We'll sort out the bins soon. || Official notices use nominal, impersonal language: improvements… will be introduced. || @tags en.register,en.formal-writing
+      match: propose = proposal ; assist = assistance ; publish = publication ; fail = failure ; decide = decision || Each verb is matched with its noun form. || @hint Match each verb with its noun. @skill vocabulary @tags en.register
+      tf: The council wants to close the library permanently. || false || The proposal is a reduction in opening hours: closing on Mondays and having fewer staff in the evenings. || @ctx dialogue
+      short: When will the final decision be made? || kw: January || "Before a final decision is made in January." || @ctx dialogue
+      listen: @dialogue || What does Javier propose? || Closing the library on weekday evenings | *Keeping the evenings open and closing on Saturday mornings | Introducing more self-service hours || "Keep the evenings open and close on Saturday mornings instead." || @tags en.listening
+      listen: Following the introduction of online booking, waiting times at the passport office have fallen by half. || What has happened at the passport office? || Online booking has been canceled. | *Waiting times have gone down since online booking started. | The office has closed for half the week. || "Following the introduction of online booking, waiting times… have fallen by half." || @tags en.listening,en.register
+      dict: All proposals will be considered before a final decision is made. || nominal style: proposals, decision
+      ask: You are at a public consultation about cuts to a bus route you use. Make a formal point and a proposal. || kw: reduction/closure/cancellation/decision/introduction/increase/proposal/provision & propose/suggest/would like/consider/take into account || I'd like to point out that the reduction in evening buses would leave many shift workers without transport. Has the council taken this into account? My proposal would be the introduction of a smaller bus on the evening route instead of its cancellation.
+      write: Write a formal comment (90–110 words) for an online consultation about a change to a local service. Use at least three nominalizations. || min=80 || req: reduction/closure/introduction/increase/decision/proposal/provision/improvement/availability | would/I am/I would || I am writing in response to the proposed closure of the Park Road health center. The proposal would mean a significant increase in travel time for elderly residents, many of whom do not drive. In addition, the reduction in bus services last year has already made the hospital difficult to reach. I would therefore ask the council to consider the provision of a weekly mobile clinic as an alternative to complete closure. I would also welcome the publication of the figures on which this decision is based. Any decision should take into account the needs of residents with limited mobility.
+
+  - title: Formal complaints
+    summary: Make firm, polite complaints by phone and in writing, saying what went wrong and what should have happened with should have, ought to have, was supposed to and was meant to.
+    minutes: 50
+    skills: [speaking, writing, grammar]
+    tags: [en.modal-verbs, en.formal-writing, en.intonation]
+    objectives:
+      - Criticize past actions with should have, shouldn't have and ought to have
+      - Describe expectations that weren't met with was supposed to and was meant to
+      - Structure a complaint and state clearly what you expect
+    intro: |
+      An effective complaint is calm, clear and specific: what happened, what should have happened, and what you want now. Shouting rarely works; precise language does. In this lesson you will learn to **criticize past actions** with *should have* and *ought to have*, describe broken promises with *was supposed to* and *was meant to*, and use the phrases that make a complaint polite but impossible to ignore.
+    vocab: |
+      lodge a complaint | to make a formal complaint | expr | She lodged a complaint with the airline. | - | n: Also: file a complaint, make a complaint.
+      compensation | money or something else that you receive because you have suffered loss or harm | n | Passengers are entitled to compensation for long delays. | - | c: claim compensation; offer compensation
+      gesture of goodwill | something given to show that you want to keep a good relationship, without admitting fault | n phr | As a gesture of goodwill, the hotel offered us a free dinner. | -
+      unacceptable | too bad to be allowed or accepted | adj | A three-hour wait is completely unacceptable. | -
+      inconvenience | trouble or difficulty caused to someone | n | We apologize for any inconvenience. | - | c: cause inconvenience
+      escalate | to pass a problem to a more senior person, or to become more serious | v | If they don't reply, escalate the complaint to the manager. | -
+      resolve | to find a solution to a problem | v | The issue was resolved within a week. | - | c: resolve a complaint/an issue
+      assurance | a promise that something will happen or is true | n | I'd like an assurance that this won't happen again. | - | c: give someone an assurance
+      dissatisfied | not happy with something because it is not as good as expected | adj | I am dissatisfied with the service I received. | -
+      in writing | on paper or by email, as a formal record | expr | Please confirm the refund in writing. | -
+      reimburse | to pay back money that someone has spent | v | The company reimbursed my taxi fare. | - | n: Noun: reimbursement.
+      customer relations | the department of a company that deals with customers' questions and complaints | n phr | I called customer relations three times. | -
+    grammar:
+      title: "Criticizing past actions: should have, was supposed to"
+      body: |
+        When something has gone wrong, we often say what **should have happened** instead.
+
+        - **should have / ought to have + past participle** — criticizes something that didn't happen: *Someone **should have checked** the bus.* *Ought to have* is more formal and less common.
+        - **shouldn't have + past participle** — criticizes something that did happen: *That **shouldn't have happened**.*
+        - **Passive**: **should have been + past participle** — when the person or thing received the action: *Passengers **should have been informed**.*
+        - **was / were supposed to + base form** and **was / were meant to** — an arrangement, plan or expectation that was **not met**: *The train **was supposed to leave** at eight-fifteen.* *A replacement bus **was meant to** be on its way.*
+
+        In complaints, combine these structures with polite, firm phrases: *I would expect…*, *I would be grateful if you could…*, *I would like an assurance that…*
+
+        Note: *should have* is about the past. For the present, use *should* + base form: *You **should** refund the full amount.*
+      table: |
+        Structure | Use | Example
+        should have + past participle | something that didn't happen but was right | You should have told us.
+        shouldn't have + past participle | something that happened but was wrong | They shouldn't have canceled it.
+        should have been + past participle | passive criticism | We should have been informed.
+        ought to have + past participle | formal criticism | The company ought to have apologized.
+        was/were supposed to + base form | an expectation not met | It was supposed to arrive on Monday.
+      examples: |
+        Passengers should have been informed on the platform screens. | | passive: should have been + past participle
+        Someone ought to have checked the size of the bus. | | ought to have + past participle
+        The train was supposed to leave at eight-fifteen. | | was supposed to: a plan that failed
+        That shouldn't have happened, and I apologize. | | shouldn't have: criticizing what happened
+      tip: |
+        In a complaint, criticize the action, not the person: "The booking should have been confirmed" sounds more professional than "You should have confirmed it."
+    dialogue:
+      title: The eight-fifteen from York
+      setting: A phone call to the customer relations department of a train company in northern England. Tomás, whose train was canceled on Tuesday morning, is speaking to Nadia, a customer relations adviser.
+      speakers: N=Nadia/f; T=Tomas/m
+      lines: |
+        N: Customer relations, Nadia speaking. How can I help you today?
+        T: Good morning. I'd like to make a complaint about the eight-fifteen service from York on Tuesday.
+        N: I'm sorry to hear that. Could you tell me what happened?
+        T: The train was supposed to leave at eight-fifteen, but it was canceled at the last minute without any announcement.
+        N: I do apologize. Passengers should have been informed on the platform screens as soon as the decision was made.
+        T: Exactly. We waited forty minutes, and then we were told that a replacement bus was meant to be on its way.
+        N: That must have been very frustrating. Did the bus arrive in the end?
+        T: Eventually, but it was far too small for the number of passengers. Someone ought to have checked that.
+        N: You're quite right. That shouldn't have happened, and I'll pass your comments on to our operations team.
+        T: Thank you. I missed a hospital appointment as a result, and I'd been waiting three months for it.
+        N: I'm very sorry. You're entitled to a full refund, and I can also offer you a voucher as a gesture of goodwill.
+        T: I appreciate that. I'd also like a written response explaining what will be done to prevent this from happening again.
+    pronunciation:
+      title: Sounding firm but polite
+      body: |
+        In a complaint, your tone matters as much as your words. A firm but polite tone is **calm and steady**, with clear stress on the key facts: *The train was SUPPOSED to leave at eight-FIFTEEN.*
+
+        Avoid a high, rising pitch, which can sound emotional or sarcastic. Use a clear **fall** at the end of statements and requests: *I'd like a written reSPONSE. ↘* Notice also the weak forms in *should have been* ("shəd-əv-bin"). Listen and repeat.
+      items: |
+        The train was supposed to leave at eight-fifteen.
+        Passengers should have been informed.
+        Someone ought to have checked that.
+        That shouldn't have happened.
+        I'd like a written response.
+        I would expect a full refund.
+    culture:
+      title: How to complain effectively
+      body: |
+        In English-speaking countries, complaints are usually more effective when they are **polite, factual and specific**: dates, times, reference numbers and what you want to happen. Many companies have a formal complaints procedure, and if they don't resolve your complaint, you can often escalate it to an independent ombudsman or regulator.
+
+        British English speakers in particular often soften complaints (*I'm afraid there seems to be a problem with…*), but that doesn't mean they are less serious. A calm tone combined with a clear request is usually the fastest way to a solution.
+    mistakes: |
+      They should have inform us about the delay. => They should have informed us about the delay. | After should have, use the past participle.
+      The train supposed to leave at eight. => The train was supposed to leave at eight. | Supposed to needs be: was/were supposed to + base form.
+      I am writing to complain for the service I received. => I am writing to complain about the service I received. | The pattern is complain about something (and complain to someone).
+    task:
+      title: Make it right
+      mode: writing
+      body: |
+        Think of a service that let you down: a delivery, a repair, a hotel, a course or a public service. Write a formal complaint email (150–180 words): explain what happened with dates and details, say what should have happened, describe the consequences for you and state clearly what you expect (a refund, an apology, an explanation). Then make the same complaint by phone to the AI coach in the "Handling a travel problem" scenario, keeping a firm but polite tone.
+    exercises: |
+      fill: The train ___ (supposed / leave) at eight-fifteen, but it was canceled. || was supposed to leave || Was supposed to + base form: a plan or expectation that wasn't met. || @tags en.modal-verbs
+      fill: Passengers ___ (should / inform) about the delay much earlier. || should have been informed || Passive criticism of the past: should have been + past participle. || @tags en.modal-verbs,en.passive
+      mc: Which sentence criticizes a past action? || You should check the bill. | *You should have checked the bill. | You must check the bill. || Should have + past participle refers to the past. The others are advice or obligation for now or the future. || @tags en.modal-verbs
+      mc: Which is the best opening sentence for a formal complaint? || I'm really angry about your awful service! | *I am writing to express my dissatisfaction with the service I received on the third of May. | Hi, your service was rubbish last week. || A formal complaint opens by stating the purpose politely and specifically. || @tags en.formal-writing,en.register
+      rw: Rewrite using "ought to have" :: It was wrong of the hotel not to warn us about the building work. || The hotel ought to have warned us about the building work. || Ought to have + past participle criticizes something that didn't happen. || @tags en.modal-verbs
+      rw: Rewrite using "was meant to" :: The repair was planned for Monday, but nobody came. || The repair was meant to happen on Monday, but nobody came. | The repair was meant to be done on Monday, but nobody came. | The repair was meant to take place on Monday, but nobody came. | The repair was meant to be carried out on Monday, but nobody came. || Was meant to + base form describes a plan that didn't happen. || @tags en.modal-verbs
+      rw: Rewrite formally, starting "I would be grateful if" :: Give me my money back. || I would be grateful if you could give me my money back. | I would be grateful if you could refund my money. | I would be grateful if you could refund me. | I would be grateful if you could give me a refund. | I would be grateful if you could give me a full refund. | I would be grateful if you would refund my money. || I would be grateful if you could… turns a demand into a polite but firm request. || @tags en.formal-writing,en.register
+      match: I'm fed up with this. = I am dissatisfied with the situation. ; Sort it out. = Please resolve the matter. ; Get back to me. = I look forward to your reply. ; I want my money back. = I would like a full refund. ; Say sorry. = I would expect an apology. || Each informal phrase is matched with a formal equivalent for a complaint. || @hint Match each informal phrase with its formal equivalent. @skill writing @tags en.register,en.formal-writing
+      tf: The station announced that the train had been canceled. || false || Tomás says it was canceled "without any announcement." || @ctx dialogue
+      short: What did Tomás miss because of the cancellation? || kw: hospital/appointment || "I missed a hospital appointment as a result." || @ctx dialogue
+      listen: @dialogue || What does Nadia offer Tomás? || A free season ticket | *A full refund and a voucher | A taxi to the hospital || "You're entitled to a full refund, and I can also offer you a voucher as a gesture of goodwill." || @tags en.listening
+      listen: We were told the room would be ready by two o'clock. By five, we were still waiting in the lobby, and nobody had offered us so much as a glass of water. || What is the guest complaining about? || The room was too small. | *They had to wait three hours for their room, with no help. | The hotel was too far from the center. || The room should have been ready at two, but they were still waiting at five. || @tags en.listening,en.modal-verbs
+      dict: I would like a written response explaining what will be done to prevent this. || formal request
+      ask: You're phoning a delivery company because a sofa that was supposed to arrive on Saturday didn't come, and nobody told you. Make your complaint and say what you expect. || kw: supposed to/meant to/should have/ought to have/shouldn't have & refund/compensation/apology/explanation/expect/would like/grateful || Hello, I'm calling about order number four-two-seven-one. My sofa was supposed to arrive on Saturday between nine and one. I took the day off work, but nobody came, and nobody called. Someone should have let me know. I'd like it delivered this week, and I would expect a refund of the delivery charge.
+      write: Write a formal complaint email (120–150 words) to a company that provided a poor service. Say what happened, what should have happened and what you expect. || min=110 || req: I am writing/I'm writing | should have/ought to have/was supposed to/were supposed to/was meant to | I would be grateful/I would like/I would expect/I would appreciate/I look forward || Dear Sir or Madam, I am writing to complain about the boiler repair carried out at my flat on 12 November (reference 58213). The engineer was supposed to arrive between eight and ten, but he did not arrive until after one, and nobody called to explain the delay. When he finally arrived, he replaced a part but did not test the system, and the boiler stopped working again that evening. He should have checked that the heating was working before he left. As a result, I had no hot water for three days and had to take time off work. I would be grateful if you could arrange a second visit this week and refund the call-out fee. I look forward to your prompt reply. Yours faithfully, Daniel Mensah

@@ -1,0 +1,90 @@
+slug: booking-hotel
+title: Booking a hotel room
+description: Phone or walk into a hotel to book a room, ask about prices and facilities, and confirm the details.
+category: travel
+levels: A2-B1
+order: 3
+goals:
+  - Say what kind of room you need and for which dates
+  - Ask about the price and what is included
+  - Ask about at least one facility or service
+  - Confirm the booking and give your name
+roles:
+  tutor: a hotel receptionist
+  learner: a guest who wants to book a room
+languages:
+  fr:
+    opener: Hôtel du Parc, bonjour ! Que puis-je faire pour vous ? | Hôtel du Parc, hello! How can I help you?
+    focus: [fr.ordering, fr.questions, fr.dates]
+    vocab: |
+      réserver une chambre | to book a room
+      une chambre double / simple | a double / single room
+      le petit-déjeuner est compris ? | is breakfast included?
+      du … au … | from … to … (dates)
+      une nuit | a night
+    script: |
+      Bien sûr. Pour combien de personnes et pour quelles dates ? | Of course. For how many people and which dates? | Give the number of people and the dates | kw: personne/nuit/du/au/pour
+      J'ai une chambre double avec vue sur le jardin à 95 euros la nuit. Ça vous convient ? | I have a double room overlooking the garden at 95 euros a night. Does that suit you? | Accept, or ask about the price or breakfast | kw: oui/compris/petit-déjeuner/prix/combien
+      Le petit-déjeuner est à 12 euros par personne. Vous avez d'autres questions ? | Breakfast is 12 euros per person. Do you have any other questions? | Ask about wifi, parking or check-in time | kw: wifi/parking/heure/est-ce/il y a
+      Oui, bien sûr. C'est à quel nom, s'il vous plaît ? | Yes, of course. What name is it under, please? | Give and spell your name | kw: nom/c'est/m'appelle
+      Merci. Je vous envoie la confirmation par e-mail. Autre chose ? | Thank you. I'll send you the confirmation by email. Anything else? | Thank the receptionist and say goodbye | kw: merci/au revoir/non
+  es:
+    opener: Hotel Mirador, buenos días. ¿En qué puedo ayudarle? | Hotel Mirador, good morning. How can I help you?
+    focus: [es.register, es.questions]
+    vocab: |
+      reservar una habitación | to book a room
+      una habitación doble / individual | a double / single room
+      ¿está incluido el desayuno? | is breakfast included?
+      del … al … | from … to …
+      una noche | a night
+    script: |
+      Claro. ¿Para cuántas personas y qué fechas? | Of course. For how many people and which dates? | Give the number of people and the dates | kw: persona/noche/del/al/para
+      Tengo una doble con vistas al mar por 90 euros la noche. ¿Le va bien? | I have a double with a sea view for 90 euros a night. Does that work for you? | Accept, or ask about price or breakfast | kw: sí/incluido/desayuno/precio/cuánto
+      El desayuno cuesta 10 euros por persona. ¿Alguna otra pregunta? | Breakfast costs 10 euros per person. Any other questions? | Ask about wifi, parking or check-in | kw: wifi/aparcamiento/hora/hay
+      Sí, por supuesto. ¿A nombre de quién hago la reserva? | Yes, of course. Whose name shall I put the booking under? | Give your name | kw: nombre/a nombre/me llamo
+      Perfecto. Le envío la confirmación por correo. ¿Algo más? | Perfect. I'll email you the confirmation. Anything else? | Thank them and say goodbye | kw: gracias/adiós/nada
+  de:
+    opener: Hotel am See, guten Tag! Was kann ich für Sie tun? | Hotel am See, hello! What can I do for you?
+    focus: [de.register, de.questions, de.dates]
+    vocab: |
+      ein Zimmer reservieren | to book a room
+      ein Doppelzimmer / Einzelzimmer | a double / single room
+      ist das Frühstück inklusive? | is breakfast included?
+      vom … bis zum … | from … to …
+      eine Nacht | a night
+    script: |
+      Gern. Für wie viele Personen und für welche Tage? | Certainly. For how many people and which days? | Give the number of people and dates | kw: person/nacht/vom/bis/für
+      Ich habe ein Doppelzimmer mit Seeblick für 110 Euro pro Nacht. Passt das? | I have a double room with a lake view for 110 euros a night. Is that OK? | Accept, or ask about the price or breakfast | kw: ja/frühstück/inklusive/preis/kostet
+      Das Frühstück kostet 15 Euro pro Person. Haben Sie noch Fragen? | Breakfast is 15 euros per person. Any other questions? | Ask about wifi, parking or check-in | kw: wlan/parkplatz/uhr/gibt
+      Natürlich. Auf welchen Namen darf ich reservieren? | Of course. What name should I book under? | Give your name | kw: name/heiße/ist
+      Vielen Dank. Ich schicke Ihnen die Bestätigung per E-Mail. Noch etwas? | Thank you. I'll email you the confirmation. Anything else? | Thank them and say goodbye | kw: danke/wiederhören/nein
+  en:
+    opener: Good afternoon, Harbour View Hotel. How can I help you? | -
+    focus: [en.requests, en.questions]
+    vocab: |
+      I'd like to book a room | a polite request to reserve
+      a double / single room | room for two people / one person
+      is breakfast included? | asking whether the price covers breakfast
+      from … to … | the start and end dates
+      check-in / check-out | arriving at / leaving the hotel
+    script: |
+      Certainly. For how many guests, and which dates? | - | Give the number of people and the dates | kw: people/night/from/to/for
+      I have a double room with a sea view for 120 pounds a night. Would that be OK? | - | Accept, or ask about price or breakfast | kw: yes/breakfast/included/price/how much
+      Breakfast is 14 pounds per person. Is there anything else you'd like to know? | - | Ask about wifi, parking or check-in | kw: wifi/parking/time/is there
+      Of course. Could I take a name for the booking? | - | Give your name | kw: name/it's/my
+      Lovely. I'll email you a confirmation. Anything else I can help with? | - | Thank the receptionist and say goodbye | kw: thank/bye/no
+  da:
+    opener: Hotel Strandly, det er Mette. Hvad kan jeg hjælpe med? | Hotel Strandly, this is Mette. How can I help?
+    focus: [da.register, da.questions, da.dates]
+    vocab: |
+      at bestille et værelse | to book a room
+      et dobbeltværelse / et enkeltværelse | a double / single room
+      er morgenmaden inkluderet? | is breakfast included?
+      fra den … til den … | from the … to the … (dates)
+      en overnatning | a night's stay
+    script: |
+      Ja, gerne. Hvor mange personer er I, og hvilke datoer drejer det sig om? | Yes, of course. How many people are you, and which dates are we talking about? | Give the number of people and the dates | kw: person/nat/nætter/fra den/til den
+      Jeg har et dobbeltværelse med havudsigt til 1.100 kroner pr. nat. Passer det? | I have a double room with a sea view for 1,100 kroner a night. Does that suit you? | Accept, or ask about the price or breakfast | kw: ja/morgenmad/inkluderet/pris/koster
+      Morgenmaden koster 150 kroner pr. person. Har du andre spørgsmål? | Breakfast costs 150 kroner per person. Do you have any other questions? | Ask about wifi, parking or check-in | kw: wifi/internet/parkering/tjek/indtjekning/hvornår/er der
+      Selvfølgelig. Hvilket navn skal reservationen stå i? | Of course. What name should the booking be under? | Give your name | kw: navn/hedder/er
+      Tusind tak. Jeg sender en bekræftelse på mail. Var der andet? | Thank you very much. I'll send you a confirmation by email. Was there anything else? | Thank her and say goodbye | kw: tak/farvel/nej/hej

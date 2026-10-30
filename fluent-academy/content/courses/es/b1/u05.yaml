@@ -1,0 +1,355 @@
+unit: 5
+title: Ciudad y medio ambiente
+theme: City and environment
+description: Compare life in the city and the countryside, talk about the green habits you are trying, and propose solutions to local problems — with the subjunctive after opinion and emotion, and estar + gerundio.
+objectives:
+  - Give and contrast opinions with creo que + indicative and no creo que + subjunctive
+  - Describe changes in progress with estar, seguir and llevar + gerund
+  - React to problems and make proposals with me preocupa que, propongo que and ¿y si…?
+canDo:
+  - I can compare the advantages of living in a city and in a village.
+  - I can say what I am doing these days to live more sustainably.
+  - I can say what worries or annoys me about my neighbourhood.
+  - I can propose practical solutions at a meeting.
+review: |
+  fill: No creo que el alquiler ___ (ser) más barato en el centro. || sea || No creo que takes the subjunctive: sea. || @tags es.subjunctive-triggers,es.opinion
+  fill: Creo que en los pueblos la gente ___ (vivir) más tranquila. || vive || Creo que (positive) takes the indicative. || @tags es.subjunctive-triggers,es.opinion
+  mc: Choose the correct sentence. || Es importante que reciclamos el vidrio. | *Es importante que reciclemos el vidrio. | Es importante que reciclar el vidrio. || Es importante que + a subject takes the subjunctive. || @tags es.subjunctive-triggers
+  fill: Llevo tres años ___ (ir) al trabajo en transporte público. || yendo || Llevar + time + gerund. The gerund of ir is irregular: yendo. || @tags es.estar-gerund
+  fill: Este mes ___ (estar, yo) intentando no comprar ropa nueva. || estoy || Estar + gerund for something going on these days. || @tags es.estar-gerund
+  mc: «Sigo viviendo con mis padres» means… || I'm going to live with my parents. | *I'm still living with my parents. | I've stopped living with my parents. || Seguir + gerund = to still be doing something. || @tags es.estar-gerund
+  fill: Me molesta que mis vecinos ___ (hacer) tanto ruido por la noche. || hagan || Me molesta que + another person takes the subjunctive. || @tags es.subjunctive-triggers
+  rw: Make a proposal, starting with "Propongo que…" :: Vamos al ayuntamiento todos juntos. || Propongo que vayamos al ayuntamiento todos juntos. | Propongo que vayamos todos juntos al ayuntamiento. || Proponer que + subjunctive: vayamos. || @tags es.subjunctive-triggers
+  listen: Me encanta que por fin haya un carril bici en mi calle. Ahora tardo diez minutos menos en llegar a la oficina. || Why is the speaker happy? || A new park has opened. | *There is finally a cycle lane on the speaker's street. | The office has moved. || «Me encanta que por fin haya un carril bici en mi calle.» || @tags es.listening,es.subjunctive-triggers
+  listen: Estamos separando la basura orgánica desde enero y ya casi no usamos el contenedor gris. || Which bin does the family hardly use now? || The yellow one | *The grey one | The brown one || «Ya casi no usamos el contenedor gris.» || @tags es.listening,es.estar-gerund
+  ask: Would you rather live in a city or a village? Give one opinion with creo que and one with no creo que. || kw: creo que & no creo que/no pienso que/no me parece que || Creo que en una ciudad hay más oportunidades de trabajo, pero no creo que sea el mejor sitio para tener hijos. Por eso me gustaría vivir en un pueblo cerca de una ciudad.
+  write: Write a message (60–80 words) to your neighbourhood association about one problem in your area: say why it worries you and make two proposals. || min=50 || req: me preocupa que/me molesta que/es una pena que/me parece fatal que | propongo que/y si/podríamos || Hola a todos: Me preocupa mucho que el parque esté tan sucio, sobre todo los fines de semana. Es una pena que los niños no puedan jugar tranquilos. Propongo que pidamos al ayuntamiento más papeleras y que organicemos una jornada de limpieza con los vecinos un sábado al mes. ¿Y si hacemos también carteles con los niños del colegio? Un saludo, Teresa (3.º B)
+lessons:
+  - title: City or countryside?
+    summary: Compare city and village life and give opinions with creo que + indicative, no creo que + subjunctive and es importante que.
+    minutes: 45
+    skills: [speaking, grammar, listening]
+    tags: [es.subjunctive-triggers, es.opinion]
+    objectives:
+      - Compare quality of life in the city and in the countryside
+      - Use creo que / me parece que + indicative and no creo que + subjunctive
+      - Evaluate with es importante / mejor / necesario que + subjunctive
+    intro: |
+      More and more people in Spain are asking whether city life is worth it — and remote work has made moving to a village a real option. Discussing this needs opinions, and Spanish marks the difference between what you believe (*creo que **hay** trabajo*) and what you doubt (*no creo que **haya** trabajo*) with the mood of the verb.
+    vocab: |
+      el pueblo | village; small town | n | Mis abuelos viven en un pueblo de doscientos habitantes. | My grandparents live in a village of two hundred inhabitants. | g: m
+      las afueras | outskirts | n | Vivimos en las afueras, a veinte minutos del centro. | We live on the outskirts, twenty minutes from the centre. | g: f | pl: afueras
+      el ritmo de vida | pace of life | n | En Madrid el ritmo de vida es muy rápido. | In Madrid the pace of life is very fast. | g: m
+      la calidad de vida | quality of life | n | Nos mudamos al campo por la calidad de vida. | We moved to the countryside for the quality of life. | g: f
+      el alquiler | rent | n | El alquiler se lleva la mitad de mi sueldo. | The rent takes half my salary. | g: m | c: pagar el alquiler; un piso de alquiler
+      el teletrabajo | remote work; working from home | n | Gracias al teletrabajo, puedo vivir lejos de la oficina. | Thanks to remote work, I can live far from the office. | g: m | n: Teletrabajar = to work remotely.
+      el centro de salud | health centre; GP surgery | n | El centro de salud más cercano está a diez minutos. | The nearest health centre is ten minutes away. | g: m
+      la tranquilidad | peace and quiet; calm | n | Lo que más valoro del campo es la tranquilidad. | What I value most about the countryside is the peace and quiet. | g: f
+      el ruido | noise | n | No puedo dormir por el ruido de la calle. | I can't sleep because of the street noise. | g: m
+      el atasco | traffic jam | n | Todas las mañanas hay un atasco enorme en la entrada de la ciudad. | Every morning there's a huge traffic jam at the entrance to the city. | g: m | n: Latin America: el trancón (Colombia), el tráfico, el embotellamiento.
+      la contaminación | pollution | n | La contaminación es un problema en las grandes ciudades. | Pollution is a problem in big cities. | g: f
+      tardar (en) | to take (time) | v | Tardo una hora en llegar al trabajo. | It takes me an hour to get to work. | n: The person is the subject: tardo, tardas…
+    grammar:
+      title: "Creo que… / No creo que… + subjunctive"
+      body: |
+        When you present something as **true**, you use the **indicative**: *Creo que **hay** trabajo. Pienso que **es** fácil. Me parece que **vivimos** estresados.* The same applies to certainty: *es verdad que, está claro que, es evidente que* + indicative.
+
+        When you **deny or doubt** it, the verb goes into the **subjunctive**: *No creo que **haya** trabajo. No pienso que **sea** fácil. No es verdad que **vivamos** peor.*
+
+        Expressions of **evaluation** — *es importante que, es mejor que, es necesario que, es lógico que, es normal que* — take the subjunctive when there is a subject: *Es importante que los niños **crezcan** con espacio.* With no particular subject, use the infinitive: *Es importante tener servicios cerca.*
+
+        A quick test: if the sentence starts with *no* + an opinion verb, expect the subjunctive.
+      table: |
+        Indicative (true, believed) | Subjunctive (denied, doubted, evaluated)
+        Creo que hay trabajo. | No creo que haya trabajo.
+        Pienso que es fácil. | No pienso que sea fácil.
+        Me parece que vivimos estresados. | No me parece que vivamos estresados.
+        Es verdad que tardamos una hora. | No es verdad que tardemos una hora.
+        Está claro que el campo es tranquilo. | Es importante que los niños tengan espacio.
+      examples: |
+        Creo que en un pueblo la vida es más tranquila. | I think life is calmer in a village. | opinion: indicative
+        No creo que haya colegio en un pueblo tan pequeño. | I don't think there's a school in such a small village. | negative opinion: subjunctive
+        Es mejor que lo pensemos con calma. | It's better if we think about it calmly. | evaluation with a subject
+        Es necesario tener coche para vivir allí. | You need a car to live there. | evaluation, no subject: infinitive
+      tip: "In questions, both moods are possible: ¿Crees que es / sea buena idea? Use the indicative if you just want to know someone's opinion — it is the more common choice."
+    dialogue:
+      title: Una casa en Soria
+      setting: A small flat in Madrid on a Sunday evening. Lola has found a house for sale in a village in Soria and shows it to her partner Andrés on her laptop.
+      speakers: L=Lola/f; A=Andrés/m
+      lines: |
+        L: Mira esta casa en un pueblo de Soria. ¡Cuesta menos que un garaje en Madrid! | Look at this house in a village in Soria. It costs less than a garage in Madrid!
+        A: ¿En serio? Pero no creo que haya trabajo para nosotros en un pueblo. | Really? But I don't think there's work for us in a village.
+        L: Yo trabajo desde casa cuatro días a la semana. Creo que podría hacerlo desde allí. | I work from home four days a week. I think I could do it from there.
+        A: Ya, pero no pienso que sea fácil vivir sin cines, sin restaurantes, sin nada. | Yes, but I don't think it's easy to live without cinemas, without restaurants, without anything.
+        L: Hombre, Soria no está tan lejos. Y me parece que aquí vivimos muy estresados. | Come on, Soria isn't that far. And I think we live very stressed lives here.
+        A: Eso es verdad. Y es verdad que tardamos una hora en llegar al trabajo. | That's true. And it's true that it takes us an hour to get to work.
+        L: Además, es importante que los niños crezcan con espacio y aire limpio. | Besides, it's important for the children to grow up with space and clean air.
+        A: En eso tienes razón. Pero ¿el pueblo tiene colegio y centro de salud? | You're right about that. But does the village have a school and a health centre?
+        L: Tiene colegio, y el centro de salud está en el pueblo de al lado, a diez minutos. | It has a school, and the health centre is in the next village, ten minutes away.
+        A: Bueno, no creo que perdamos nada por ir a verla este fin de semana. | Well, I don't think we lose anything by going to see it this weekend.
+        L: ¡Así me gusta! Y si no nos convence, volvemos y seguimos como siempre. | That's the spirit! And if we're not convinced, we come back and carry on as always.
+    pronunciation:
+      title: "Ll and y: calle, allí, ya"
+      body: |
+        For most Spanish speakers in Spain and Latin America, **ll** and **y** (before a vowel) sound exactly the same — a soft sound similar to the English *y* in *yes*, sometimes a little stronger. This is called **yeísmo**: *calle* and *cayó* rhyme. In Argentina and Uruguay both letters sound like English *sh* or the *s* in *pleasure*: *calle* [ˈkaʃe]. A few speakers, mostly older people in rural areas, still pronounce *ll* differently from *y*.
+      items: |
+        la calle
+        allí
+        llegar
+        ya
+        el rollo
+        la playa
+    culture:
+      title: La España vaciada
+      body: |
+        Large parts of inland Spain have lost much of their population over the last seventy years, as people moved to the cities and the coast. Provinces such as Soria, Teruel and Cuenca have some of the lowest population densities in the European Union, and many villages have fewer than a hundred inhabitants. People call this area **la España vaciada** or **la España vacía** — "emptied Spain".
+
+        Since remote work became common, some villages offer cheap houses, coworking spaces or help for families with children, so that the local school can stay open.
+    mistakes: |
+      No creo que es buena idea. => No creo que sea buena idea. | No creo que takes the subjunctive.
+      Creo que el pueblo sea más tranquilo. => Creo que el pueblo es más tranquilo. | Creo que (positive) takes the indicative.
+      Es importante que los niños tienen espacio. => Es importante que los niños tengan espacio. | Es importante que + a subject takes the subjunctive.
+    task:
+      title: City or village?
+      mode: interaction
+      body: |
+        Prepare three arguments for city life and three for village life (work, services, rent, noise, quality of life). Give your opinion with *creo que* and *me parece que*, reject the other side's arguments with *no creo que* + subjunctive, and use *es importante que* at least once. Then defend your choice in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: No creo que en el pueblo ___ (haber) muchos atascos. || haya || No creo que + subjunctive: haber → haya. || @tags es.subjunctive-triggers,es.opinion
+      fill: Creo que en la ciudad ___ (haber) más oportunidades de trabajo. || hay || Creo que (positive) + indicative. || @tags es.subjunctive-triggers,es.opinion
+      fill: Es importante que los pueblos ___ (tener) buenos servicios. || tengan || Es importante que + a subject takes the subjunctive. || @tags es.subjunctive-triggers
+      mc: Choose the correct sentence. || *Pienso que la ciudad es más cómoda. | Pienso que la ciudad sea más cómoda. | No pienso que la ciudad es más cómoda. || Positive opinion: indicative (es). Negative opinion: subjunctive (no pienso que sea). || @tags es.subjunctive-triggers,es.opinion
+      mc: Es verdad que ___ mucho ruido en el centro. || haya | *hay | haber || Es verdad que presents a fact, so it takes the indicative. || @tags es.subjunctive-triggers
+      mc: «Tardo una hora en llegar al trabajo» means… || *It takes me an hour to get to work. | I'm an hour late for work. | I work for an hour. || Tardar + time + en + infinitive = to take (time) to do something. || @skill vocabulary @tags es.vocabulary
+      tf: Lola works from home most days of the week. || true || «Yo trabajo desde casa cuatro días a la semana.» || @ctx dialogue
+      short: How far is the health centre from the village? || kw: diez/10 || «El centro de salud está en el pueblo de al lado, a diez minutos.» || @ctx dialogue
+      rw: Make the opinion negative, starting with "No creo que…" :: Creo que vivir en el campo es aburrido. || No creo que vivir en el campo sea aburrido. || No creo que + subjunctive: es → sea. || @tags es.subjunctive-triggers,es.opinion
+      tr: I don't think there's work in the village. || No creo que haya trabajo en el pueblo. | No pienso que haya trabajo en el pueblo. || No creo que + subjunctive of haber: haya. || @tags es.subjunctive-triggers
+      listen: Yo creo que la ciudad es mejor para los jóvenes, pero no creo que sea el mejor sitio para criar a los niños. || What does the speaker think about raising children in the city? || It's the best place. | *It isn't the best place. | It's cheaper than in a village. || «No creo que sea el mejor sitio para criar a los niños.» || @tags es.listening,es.opinion
+      listen: @dialogue || What do Lola and Andrés decide at the end? || To move to Soria next month | *To go and see the house this weekend | To stay in Madrid for good || «No creo que perdamos nada por ir a verla este fin de semana.» || @tags es.listening
+      dict: No creo que sea fácil vivir lejos de todo.
+      ask: A friend asks «¿Tú prefieres vivir en la ciudad o en el campo?». Answer with creo que and no creo que. || kw: creo que & no creo que/no pienso que/no me parece que || Creo que en el campo la calidad de vida es mejor, pero no creo que pueda vivir sin cines ni teatros. Así que prefiero las afueras de una ciudad.
+
+  - title: Green habits
+    summary: Talk about the green habits you are trying with estar + gerundio, and say how long you have been doing them with llevar + gerundio.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [es.estar-gerund]
+    objectives:
+      - Form the gerund, including irregular forms (leyendo, yendo, durmiendo)
+      - Describe changes in progress with estar + gerund
+      - Use seguir + gerund (still) and llevar + time + gerund (for how long)
+    intro: |
+      Taking the bus, carrying your own bags, separating the rubbish: green habits are usually changes **in progress**. Spanish describes them with **estar + gerundio** (*estamos comprando en el mercado*) and says how long you have been doing them with **llevar + gerundio** (*llevamos tres semanas reciclando*). In this lesson you will read a family's diary of a month without plastic.
+    vocab: |
+      el plástico de un solo uso | single-use plastic | n | Intentamos no comprar plástico de un solo uso. | We try not to buy single-use plastic. | g: m
+      reciclar | to recycle | v | En casa reciclamos el papel y el vidrio. | At home we recycle paper and glass.
+      el contenedor | (large) bin; container | n | El contenedor amarillo es para los envases. | The yellow bin is for packaging. | g: m
+      el envase | packaging; container | n | Casi todo en el supermercado viene en envases de plástico. | Almost everything in the supermarket comes in plastic packaging. | g: m
+      la bolsa de tela | cloth bag; tote bag | n | Siempre llevo una bolsa de tela en la mochila. | I always carry a cloth bag in my backpack. | g: f
+      el tarro de cristal | glass jar | n | Compro las lentejas a granel y las guardo en tarros de cristal. | I buy lentils loose and keep them in glass jars. | g: m | n: A granel = loose, unpackaged.
+      tirar | to throw away | v | No tires las pilas a la basura normal. | Don't throw batteries in the normal rubbish. | n: Also "to throw" and "to pull" (on doors).
+      la basura | rubbish; waste | n | Ahora producimos la mitad de basura que antes. | We now produce half as much rubbish as before. | g: f | c: sacar la basura; separar la basura
+      ahorrar | to save | v | Con estas bombillas ahorramos mucha energía. | With these light bulbs we save a lot of energy. | c: ahorrar agua; ahorrar dinero
+      malgastar | to waste | v | Es una pena malgastar tanta agua. | It's a shame to waste so much water. | n: Also desperdiciar.
+      de segunda mano | second-hand | expr | Casi toda la ropa de mis hijos es de segunda mano. | Almost all my children's clothes are second-hand.
+      el transporte público | public transport | n | Uso el transporte público para ir a trabajar. | I use public transport to go to work. | g: m
+    grammar:
+      title: "estar + gerundio, seguir and llevar + gerundio"
+      body: |
+        The **gerund** ends in **-ando** for -ar verbs and **-iendo** for -er and -ir verbs: *reciclar → reciclando*, *aprender → aprendiendo*, *vivir → viviendo*. Some are irregular:
+        - between two vowels, *i* becomes **y**: *leer → leyendo*, *oír → oyendo*, *ir → yendo*, *construir → construyendo*;
+        - -ir verbs with a stem change: *dormir → durmiendo*, *pedir → pidiendo*, *decir → diciendo*, *venir → viniendo*.
+
+        Uses:
+        - **estar + gerund**: an action happening now or a temporary situation these days: *Este mes **estamos comprando** en el mercado.*
+        - **seguir + gerund**: to still be doing something: *Mi marido **sigue probando** champús sólidos.*
+        - **llevar + time + gerund**: how long you have been doing something: ***Llevamos tres semanas** reciclando.* (= Reciclamos desde hace tres semanas.)
+        - **estaba + gerund**: an action in progress in the past, often interrupted: *Estábamos merendando cuando empezó a llover.*
+
+        Pronouns go before *estar* or attached to the gerund (with an accent): ***lo** estamos intentando* = *estamos intentándo**lo***.
+      table: |
+        Infinitive | Gerund | Note
+        reciclar | reciclando | -ar → -ando
+        aprender | aprendiendo | -er → -iendo
+        leer | leyendo | i → y between vowels
+        ir | yendo | irregular
+        dormir | durmiendo | o → u
+        decir | diciendo | e → i
+      examples: |
+        Mi hija está aprendiendo a hacer jabón. | My daughter is learning to make soap. | temporary activity
+        Llevo dos años yendo al trabajo en bici. | I've been cycling to work for two years. | llevar + time + gerund
+        ¿Sigues comprando agua en botella? | Are you still buying bottled water? | seguir + gerund
+        Lo estamos intentando, pero no es fácil. | We're trying, but it isn't easy. | pronoun before estar
+      tip: "Don't overuse estar + gerund: for routines and general truths Spanish prefers the simple present. Reciclo el vidrio = I recycle glass (always)."
+    reading:
+      title: Un mes sin plástico
+      text: |
+        Desde el 1 de marzo, mi familia y yo estamos haciendo un experimento: intentamos vivir un mes sin comprar plástico de un solo uso. Llevamos ya tres semanas y os cuento cómo nos está yendo.
+
+        La compra es, sin duda, el mayor reto. Ahora vamos al mercado con bolsas de tela y con nuestros propios tarros de cristal, y el pescadero ya nos conoce. En el supermercado casi todo viene envasado, así que estamos comprando mucho más en las tiendas del barrio. Es un poco más caro, pero tiramos mucha menos comida.
+
+        En casa también estamos cambiando cosas. Mi hija Elsa, de once años, está aprendiendo a hacer jabón con su abuela, y mi marido sigue probando champús sólidos porque todavía no ha encontrado uno bueno. Además, separamos toda la basura: el contenedor amarillo para los envases, el azul para el papel y el verde para el vidrio. Hemos descubierto que ahora producimos la mitad de basura que antes.
+
+        ¿Lo estamos haciendo perfecto? Ni mucho menos. El otro día, por ejemplo, estábamos merendando en el parque cuando nos dimos cuenta de que habíamos comprado zumos en botellas de plástico. ¡Qué desastre! Pero estamos aprendiendo muchísimo y, al final del mes, vamos a seguir con los hábitos que mejor nos funcionan.
+
+        Marta, Murcia
+      translation: |
+        Since 1 March, my family and I have been doing an experiment: we're trying to live for a month without buying single-use plastic. We've already been at it for three weeks, and I'll tell you how it's going.
+
+        Shopping is, without a doubt, the biggest challenge. Now we go to the market with cloth bags and our own glass jars, and the fishmonger already knows us. In the supermarket almost everything comes packaged, so we're buying much more in the local shops. It's a bit more expensive, but we throw away much less food.
+
+        At home we're also changing things. My daughter Elsa, who is eleven, is learning to make soap with her grandmother, and my husband is still trying out solid shampoos because he hasn't found a good one yet. We also separate all our rubbish: the yellow bin for packaging, the blue one for paper and the green one for glass. We've discovered that we now produce half as much rubbish as before.
+
+        Are we doing it perfectly? Far from it. The other day, for example, we were having an afternoon snack in the park when we realised we had bought juice in plastic bottles. What a disaster! But we're learning a huge amount and, at the end of the month, we're going to keep the habits that work best for us.
+
+        Marta, Murcia
+    pronunciation:
+      title: "Gerunds: reciclando, leyendo, intentándolo"
+      body: |
+        In the gerund, the stress always falls on the **a** of *-ando* or the **e** of *-iendo*: *re-ci-**clan**-do*, *a-pren-**dien**-do*. In *leyendo, oyendo, yendo*, the **y** is pronounced like the *y* in *ya*. When you attach pronouns, the stress stays in the same place, so a written accent appears: *in-ten-**tán**-do-lo*, *ha-**cién**-do-lo*.
+      items: |
+        reciclando
+        aprendiendo
+        leyendo
+        yendo
+        intentándolo
+        durmiendo
+    culture:
+      title: The colours of Spanish recycling
+      body: |
+        Spanish streets have rows of large bins, each with its own colour: **amarillo** for plastic packaging, cans and drink cartons; **azul** for paper and cardboard; **verde** for glass (often a dome-shaped bin people call *el iglú*); **marrón** for organic waste in many towns; and **gris** for everything else. Old furniture, electronics, batteries and paint go to the **punto limpio**, a municipal recycling centre.
+
+        Systems are different across Latin America, and even between Spanish towns, so it's always worth asking your neighbours: *¿Esto dónde se tira?*
+    mistakes: |
+      Llevo tres semanas intentar no usar plástico. => Llevo tres semanas intentando no usar plástico. | Llevar + time is followed by a gerund.
+      Estoy leendo un libro sobre el clima. => Estoy leyendo un libro sobre el clima. | Between two vowels, the i of -iendo becomes y: leyendo.
+      Sigo a buscar un champú sólido. => Sigo buscando un champú sólido. | Seguir is followed by a gerund, not by a + infinitive.
+    task:
+      title: My green challenge
+      mode: writing
+      body: |
+        Write a short blog post (90–120 words) about a green habit you are trying — or would like to try. Say what you are doing these days (*estoy / estamos + gerund*), how long you have been doing it (*llevo… + gerund*), what you are still finding difficult (*sigo…*) and one funny or frustrating moment (*estaba + gerund cuando…*).
+    exercises: |
+      mc: What is Marta's family's experiment? || *Living a month without buying single-use plastic | Eating only food from their own garden | Not using the car for a month || «Intentamos vivir un mes sin comprar plástico de un solo uso.» || @ctx reading @tags es.reading
+      tf: The family is buying more in the supermarket now. || false || «Estamos comprando mucho más en las tiendas del barrio.» || @ctx reading @tags es.reading
+      short: What is Elsa learning to make? || kw: jabón/soap || «Elsa… está aprendiendo a hacer jabón con su abuela.» || @ctx reading @tags es.reading
+      mc: What mistake did the family make in the park? || They forgot their cloth bags. | *They had bought juice in plastic bottles. | They threw rubbish in the wrong bin. || «Nos dimos cuenta de que habíamos comprado zumos en botellas de plástico.» || @ctx reading @tags es.reading
+      fill: Este mes ___ (estar, nosotros) usando mucho menos el coche. || estamos || Estar + gerund for a temporary situation. || @tags es.estar-gerund
+      fill: Mi hermano está ___ (leer) un libro sobre el cambio climático. || leyendo || Leer → leyendo: i becomes y between vowels. || @tags es.estar-gerund
+      fill: Llevo dos años ___ (ir) al trabajo en bici. || yendo || Llevar + time + gerund. Ir → yendo. || @tags es.estar-gerund
+      fill: ¿Sigues ___ (comprar) agua en botellas de plástico? || comprando || Seguir + gerund = to still be doing something. || @tags es.estar-gerund
+      mc: In Spain, which bin is for glass? || The yellow one | The blue one | *The green one || Verde = glass, amarillo = packaging, azul = paper and cardboard. || @skill vocabulary @tags es.vocabulary
+      rw: Rewrite with llevar + gerund :: Reciclo desde hace cinco años. || Llevo cinco años reciclando. || Desde hace + time = llevar + time + gerund. || @tags es.estar-gerund,es.desde-hace
+      tr: We are trying to save water. || Estamos intentando ahorrar agua. | Estamos tratando de ahorrar agua. | Intentamos ahorrar agua. | Lo estamos intentando: ahorrar agua. || Estar + gerund (intentando) + infinitive. Ahorrar = to save. || @tags es.estar-gerund
+      listen: Llevamos un año separando la basura orgánica y ahora casi no sacamos bolsas al contenedor gris. || How long has the family been separating organic waste? || A month | *A year | Ten years || «Llevamos un año separando la basura orgánica.» || @tags es.listening,es.estar-gerund
+      dict: Estamos aprendiendo a vivir con menos plástico.
+      say: Llevo seis meses yendo al trabajo en bici. || I've been cycling to work for six months.
+
+  - title: Proposing solutions
+    summary: Say what worries or annoys you about your neighbourhood and propose solutions at a residents' meeting, using emotion verbs and propongo que + subjunctive.
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [es.subjunctive-triggers]
+    objectives:
+      - React to problems with me preocupa / me molesta / me encanta que + subjunctive
+      - Use the infinitive when the subject is the same
+      - Make proposals with propongo que, ¿y si…? and podríamos
+    intro: |
+      Every neighbourhood has its problems: traffic, dirt, noise, not enough trees. At a residents' meeting you need to say how you **feel** about them and **propose** solutions. Emotion verbs like *me preocupa que* and proposals like *propongo que* are followed by the subjunctive: *Me preocupa que los coches **vayan** tan rápido. Propongo que **escribamos** una carta.*
+    vocab: |
+      el ayuntamiento | town council; town hall | n | Vamos a pedir una reunión con el ayuntamiento. | We're going to ask for a meeting with the council. | g: m
+      la asociación de vecinos | residents' association | n | La asociación de vecinos se reúne el primer martes de cada mes. | The residents' association meets on the first Tuesday of every month. | g: f
+      la acera | pavement; sidewalk | n | Hay coches aparcados en la acera. | There are cars parked on the pavement. | g: f | n: Latin America: la vereda (Southern Cone), la banqueta (Mexico).
+      aparcar | to park | v | Es imposible aparcar en el centro. | It's impossible to park in the centre. | n: Latin America: estacionar, parquear.
+      peatonal | pedestrian (adj) | adj | Desde el año pasado, la calle Mayor es peatonal. | Since last year, Calle Mayor has been pedestrianised. | n: Peatonalizar = to pedestrianise. El peatón = pedestrian.
+      el carril bici | cycle lane | n | Han abierto un carril bici nuevo junto al río. | They've opened a new cycle lane along the river. | g: m
+      la zona verde | green space | n | El barrio necesita más zonas verdes. | The neighbourhood needs more green spaces. | g: f
+      el camino escolar | safe route to school | n | El camino escolar tiene pasos de cebra y voluntarios. | The safe route to school has zebra crossings and volunteers. | g: m
+      la propuesta | proposal | n | Tenemos tres propuestas para mejorar la plaza. | We have three proposals to improve the square. | g: f
+      proponer | to propose; to suggest | v | Propongo que hagamos una encuesta entre los vecinos. | I propose that we do a survey among the residents. | n: Conjugated like poner: propongo, propuse.
+      solucionar | to solve; to fix | v | Así no vamos a solucionar el problema. | That way we're not going to solve the problem.
+      firmar | to sign | v | Más de trescientos vecinos han firmado la carta. | More than three hundred residents have signed the letter.
+    grammar:
+      title: "Feelings and proposals: me preocupa que…, propongo que…"
+      body: |
+        Verbs of feeling work like *gustar*: **me molesta, me preocupa, me encanta, me da pena, me parece bien / mal / fatal**. When the feeling is about **someone else's** action, use **que + subjunctive**: *Me molesta que la gente **aparque** en la acera.* When it is about **your own** action, use the infinitive: *Me molesta **esperar** tanto.*
+
+        Impersonal expressions of feeling follow the same rule: *es una pena que, es increíble que, es una vergüenza que* + subjunctive: *Es una pena que no **haya** árboles.*
+
+        To make proposals:
+        - **propongo que** + subjunctive: *Propongo que **escribamos** una carta.*
+        - **¿Y si** + present indicative?: *¿Y si **ponemos** más bancos?*
+        - **¿Por qué no** + present?: *¿Por qué no **hablamos** con el ayuntamiento?*
+        - **podríamos** + infinitive: *Podríamos organizar una jornada de limpieza.*
+      table: |
+        Expression | Same person: infinitive | Another person: que + subjunctive
+        me molesta | Me molesta esperar. | Me molesta que la gente aparque en la acera.
+        me preocupa | Me preocupa llegar tarde. | Me preocupa que los coches vayan tan rápido.
+        me encanta | Me encanta pasear por aquí. | Me encanta que tengáis tantas ideas.
+        es una pena | Es una pena tirar comida. | Es una pena que no haya árboles.
+        propongo | — | Propongo que escribamos una carta.
+      examples: |
+        Me preocupa que los niños crucen la calle solos. | It worries me that the children cross the street alone. | another person
+        Me da pena que cierren el mercado del barrio. | It makes me sad that they're closing the neighbourhood market. | dar pena
+        Me parece fatal que no haya un paso de cebra aquí. | I think it's terrible that there's no zebra crossing here. | me parece fatal que
+        ¿Y si pedimos más papeleras? | What if we ask for more litter bins? | ¿y si? + indicative
+      tip: "Never use the subjunctive after ¿y si…? — ¿Y si ponemos…?, not ¿Y si pongamos…?"
+    dialogue:
+      title: Reunión de vecinos
+      setting: A residents' meeting in a community centre in Valladolid. Mercedes, the president of the association, opens the first item. Ibrahim and Patricia live on the street where the primary school is.
+      speakers: M=Mercedes/f; I=Ibrahim/m; P=Patricia/f
+      lines: |
+        M: Bueno, vecinos, el primer tema es el tráfico en la calle del colegio. | Right, everyone, the first item is the traffic on the school's street.
+        I: A mí me preocupa mucho que los coches vayan tan rápido a la hora de entrada. | It really worries me that cars go so fast at the start of the school day.
+        P: Y a mí me molesta que la gente aparque en la acera. ¡Es peligrosísimo! | And it annoys me that people park on the pavement. It's extremely dangerous!
+        M: Estoy de acuerdo con vosotros. ¿Qué proponéis para solucionarlo? | I agree with you. What do you propose to solve it?
+        I: Propongo que pidamos al ayuntamiento que cierre la calle al tráfico por las mañanas. | I propose we ask the council to close the street to traffic in the mornings.
+        P: ¿Y si ponemos también más bancos y árboles? Así sería una calle para la gente. | And what if we also put in more benches and trees? Then it would be a street for people.
+        M: Me encanta que tengáis tantas ideas. Pero no creo que el ayuntamiento tenga mucho dinero. | I love that you have so many ideas. But I don't think the council has much money.
+        I: Entonces podríamos empezar por algo barato, como un camino escolar seguro. | Then we could start with something cheap, like a safe route to school.
+        P: Sí, es una pena que tantos niños vengan en coche viviendo tan cerca. | Yes, it's a shame that so many children come by car when they live so close.
+        M: Muy bien. Propongo que escribamos una carta con estas propuestas y la firmemos todos. | Very good. I propose we write a letter with these proposals and all sign it.
+        I: Me parece genial. Yo puedo redactarla esta semana, si queréis. | Sounds great. I can draft it this week, if you like.
+        M: Perfecto, Ibrahim. Pasamos al segundo punto: la limpieza del parque. | Perfect, Ibrahim. Let's move on to the second item: cleaning the park.
+    pronunciation:
+      title: "Showing feelings: ¡Es peligrosísimo!"
+      body: |
+        To sound convincing at a meeting, stress the key word strongly and let your voice rise on it before it falls: *¡Me parece **fa**tal!*, *¡Es in-cre-**í**-ble!* The suffix **-ísimo** always carries the stress on the **í**: *pe-li-gro-**sí**-si-mo*, *ca-**rí**-si-mo*. Practise each item calmly first, then with real feeling.
+      items: |
+        ¡Es peligrosísimo!
+        ¡Me parece fatal!
+        ¡Qué pena!
+        Me encanta la idea.
+        ¡Es increíble!
+        Me parece genial.
+    culture:
+      title: Streets for people
+      body: |
+        Spanish cities have become well known for giving streets back to pedestrians. **Pontevedra**, in Galicia, closed most of its centre to cars at the end of the 1990s and has won international awards for it. **Barcelona** has created *superilles* (superblocks): groups of blocks where through traffic is limited and crossroads become small squares with benches, trees and play areas.
+
+        Many of these changes started with requests from **asociaciones de vecinos**, residents' associations that have played an important role in Spanish neighbourhoods since the 1970s.
+    mistakes: |
+      Me molesta que la gente aparca en la acera. => Me molesta que la gente aparque en la acera. | Me molesta que + another person takes the subjunctive (aparcar: c → qu).
+      Me preocupa que llego tarde. => Me preocupa llegar tarde. | When the subject is the same, use the infinitive.
+      Propongo que escribimos una carta. => Propongo que escribamos una carta. | Proponer que + subjunctive.
+    task:
+      title: A letter to the council
+      mode: writing
+      body: |
+        Write a short letter (90–120 words) from your residents' association to the town council. Describe two problems in your neighbourhood, say how they make residents feel (*nos preocupa que, nos molesta que, es una pena que*) and make three proposals (*proponemos que*, *podrían…*). Use the formal formulas from Unit 2.
+    exercises: |
+      fill: Me preocupa que los niños ___ (cruzar) la calle solos. || crucen || Me preocupa que + subjunctive. Cruzar: z → c before e: crucen. || @tags es.subjunctive-triggers,es.spelling
+      fill: Me molesta que la gente ___ (tirar) papeles al suelo. || tire || Me molesta que + another person takes the subjunctive. || @tags es.subjunctive-triggers
+      fill: Propongo que ___ (plantar, nosotros) más árboles en la plaza. || plantemos || Proponer que + subjunctive: plantemos. || @tags es.subjunctive-triggers
+      fill: Es una pena que no ___ (haber) carril bici en el barrio. || haya || Es una pena que + subjunctive: haber → haya. || @tags es.subjunctive-triggers
+      mc: Choose the correct sentence. || Me molesta que espero tanto. | *Me molesta esperar tanto. | Me molesta que esperar tanto. || The person who is annoyed is also the one waiting, so use the infinitive. || @tags es.subjunctive-triggers
+      mc: How do you make a suggestion with ¿y si…? || ¿Y si pongamos más bancos? | *¿Y si ponemos más bancos? | ¿Y si pondremos más bancos? || ¿Y si…? is followed by the present indicative. || @tags es.subjunctive-triggers
+      tf: Mercedes thinks the council has plenty of money for the project. || false || «No creo que el ayuntamiento tenga mucho dinero.» || @ctx dialogue
+      short: What does Ibrahim offer to do this week? || kw: carta/letter/redactar/escribir/write/draft || «Yo puedo redactarla esta semana» — he will draft the letter. || @ctx dialogue
+      rw: React to the fact, starting with "Me parece fatal que…" :: Los coches aparcan en la acera. || Me parece fatal que los coches aparquen en la acera. || Me parece fatal que + subjunctive: aparcar → aparquen. || @tags es.subjunctive-triggers
+      tr: I love that the street is pedestrianised now. || Me encanta que la calle sea peatonal ahora. | Me encanta que ahora la calle sea peatonal. | Me encanta que la calle ya sea peatonal. || Me encanta que + subjunctive of ser: sea. || @tags es.subjunctive-triggers
+      listen: A mí me da mucha pena que cierren el mercado del barrio. Llevo treinta años comprando allí. || Why is the speaker sad? || *The neighbourhood market is going to close. | The market has moved to another neighbourhood. | The prices at the market have gone up. || «Me da mucha pena que cierren el mercado del barrio.» || @tags es.listening,es.subjunctive-triggers
+      listen: @dialogue || What worries Ibrahim? || The noise in the park | *Cars going too fast near the school | The lack of benches || «Me preocupa mucho que los coches vayan tan rápido a la hora de entrada.» || @tags es.listening
+      dict: Propongo que escribamos una carta al ayuntamiento.
+      ask: At a residents' meeting, say what bothers you about your street and make one proposal. || kw: me molesta que/me preocupa que/me parece fatal que/es una pena que & propongo que/y si/podríamos || Me molesta que haya tanto ruido por la noche en la plaza. Propongo que pidamos al ayuntamiento que cierre los bares a la una.

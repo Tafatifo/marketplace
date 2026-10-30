@@ -1,0 +1,374 @@
+unit: 2
+title: Ferie og rejser
+theme: Holidays and travel
+description: Tell the story of a holiday with the most common irregular past forms, plan a trip with the perfect (har + participle), and explain what has gone wrong on a journey.
+free: true
+objectives:
+  - Tell the story of a holiday with common irregular past forms
+  - Plan a trip and talk about experiences with the perfect (har + participle)
+  - Explain a travel problem and choose between the past and the perfect
+canDo:
+  - I can tell a friend about a holiday — where I went, how I travelled and what I did.
+  - I can use the most common irregular past forms (var, tog, gik, kom, så, fik).
+  - I can say what I have already done and ask "Har du nogensinde været…?"
+  - I can explain a problem with a train, a flight or a booking and ask for help.
+review: |
+  fill: Vi ___ toget fra Aarhus til Hamborg i fredags. (tage) || tog || Tage is irregular: tage → tog. || @tags da.past-irregular
+  fill: Har du nogensinde ___ på Island? (være) || været || Experience → perfect: har været. Iceland, like Danish islands, takes på. || @tags da.perfect
+  mc: What is the past tense of "se"? || seede | *så | set || Se is irregular: se → så → har set. Set is the participle. || @tags da.past-irregular
+  mc: "We've already booked a hotel." || *Vi har allerede bestilt et hotel. | Vi allerede har bestilt et hotel. | Vi har bestilt allerede et hotel. || Allerede goes after har and before the participle. || @tags da.perfect,da.sentence-adverbs
+  fill: I går ___ vi tre timer i lufthavnen. (vente) || ventede || A specific time (i går) needs the past tense: vente → ventede. || @tags da.past
+  fill: Min cykel er væk! Nogen har ___ den. (stjæle) || stjålet || Stjæle is irregular: stjæle → stjal → har stjålet. || @tags da.perfect,da.past-irregular
+  rw: Put it in the perfect :: Vi fik ikke vores bagage. || Vi har ikke fået vores bagage. || Få → fik → har fået; ikke goes after har. || @tags da.perfect,da.negation
+  tr: Did you (plural) have good weather? || Fik I godt vejr? | Havde I godt vejr? || Få and have are both used about the weather; in a yes/no question the verb comes first. || @tags da.past-irregular,da.questions
+  listen: Vi kørte til Skagen i fredags. Vi gik på stranden og så Grenen, og om aftenen spiste vi fisk på havnen. || What did they do in the evening? || *They ate fish at the harbour | They walked to Grenen | They drove home || "Om aftenen spiste vi fisk på havnen." || @tags da.past-irregular,da.listening
+  listen: Hej, det er Viktor. Jeg har allerede købt togbilletterne, men jeg har ikke fundet et hotel endnu. || What hasn't Viktor done yet? || Bought the train tickets | *Found a hotel | Checked the weather || "Jeg har ikke fundet et hotel endnu" — he hasn't found a hotel yet. || @tags da.perfect,da.listening
+  ask: Tell a friend about a holiday — where you went, how you travelled, and one thing that went wrong. || kw: var/tog/kørte/fløj & så/fik/gik/lejede/boede/badede & glemte/mistede/forsinket/aflyst/regnede || Sidste sommer var jeg i Norge. Vi tog færgen til Oslo og så fjordene. Men vores tog til Bergen var tre timer forsinket.
+  write: Write a message to a friend from a trip — where you are, what you did yesterday, and one problem you have had. || min=40 || req: i går | har | var/tog/så/fik/gik/kom || Hej Lærke! Nu er vi i Stockholm. I går tog vi en båd rundt i skærgården, og vi så mange små øer. Det var fantastisk! Men i dag har jeg mistet mine solbriller, og det har regnet hele formiddagen. Vi ses på søndag! Kram, Sofia
+lessons:
+  - title: A holiday to remember
+    summary: Tell the story of a holiday with the most common irregular past forms — var, tog, gik, kom, så, fik, sov, blev and sagde.
+    minutes: 40
+    skills: [grammar, listening, writing]
+    tags: [da.past-irregular, da.past]
+    objectives:
+      - Use the most common irregular past forms
+      - Tell the story of a holiday in the right order
+      - Say how something was with det var + adjective
+    intro: |
+      Holiday stories are full of irregular verbs: we went, we took, we saw, we got. In Danish, the most common verbs are irregular too — **gå → gik, tage → tog, se → så**. In this lesson you will learn the dozen you need most and use them to tell the story of a holiday you won't forget.
+    vocab: |
+      en ferie | a holiday; a vacation | n | Vi holdt ferie på Bornholm i juli. | We spent our holiday on Bornholm in July. | g: c | pl: ferier | c: holde ferie (have a holiday); på ferie (on holiday) | n: Holde → holdt.
+      tage | to take; to go (by transport) | v | Vi tog færgen fra Køge til Rønne. | We took the ferry from Køge to Rønne. | n: Past: tog. Tage til = go to: Vi tog til Skagen.
+      gå | to walk; to go | v | Vi gik en lang tur på stranden hver morgen. | We went for a long walk on the beach every morning. | n: Past: gik.
+      komme | to come; to arrive | v | Vi kom hjem sent søndag aften. | We came home late on Sunday evening. | n: Past: kom.
+      se | to see | v | Vi så mange sæler ved Vadehavet. | We saw lots of seals by the Wadden Sea. | n: Past: så — spelt like så (then, so).
+      få | to get; to have (a meal) | v | Vi fik fisk og pommes frites på havnen. | We had fish and chips at the harbour. | n: Past: fik.
+      sove | to sleep | v | Vi sov i telt på en campingplads. | We slept in a tent at a campsite. | n: Past: sov.
+      blive | to become; to get; to stay | v | Om aftenen blev det koldt. | In the evening it got cold. | n: Past: blev. It also means "stay": Vi blev der i en uge.
+      sige | to say | v | Hvad sagde du? Jeg hørte det ikke. | What did you say? I didn't hear it. | n: Past: sagde. It sounds like "sa-e".
+      flyve | to fly | v | Vi fløj fra Billund til Kreta. | We flew from Billund to Crete. | n: Past: fløj.
+      et sommerhus | a holiday cottage; a summer house | n | Vi lejede et sommerhus tæt på stranden. | We rented a holiday cottage near the beach. | g: n | pl: sommerhuse
+      en campingplads | a campsite | n | Campingpladsen lå lige ved vandet. | The campsite was right by the water. | g: c | pl: campingpladser | n: Ligge (be located) → lå.
+      en udsigt | a view | n | Fra tårnet havde vi en fantastisk udsigt. | From the tower we had a fantastic view. | g: c | pl: udsigter
+    grammar:
+      title: Irregular past forms
+      body: |
+        Many of the most common verbs are **irregular** (strong): in the past they change their vowel and take no ending. *Gå → gik, tage → tog, se → så.* As with regular verbs, the form is the same for every person: *jeg gik, vi gik, de gik.*
+
+        There is no rule that tells you the form — you learn it. The good news is that the list of everyday irregular verbs is short, and you hear them all the time. A few patterns help: *drikke → drak, finde → fandt* (i → a), *blive → blev, skrive → skrev* (i → e).
+
+        The word order is the same as always. The verb comes second, so when a time expression starts the sentence, the subject comes after the verb: *Om morgenen **gik** vi på stranden.*
+
+        To say how something was, use **det var** + adjective. After *det*, the adjective takes **-t**: *Det var dejligt! Det var lidt koldt. Det var sjovt.* About a noun, the adjective agrees with it: *Det var en dejlig ferie. Det var et hyggeligt hotel.*
+      table: |
+        Infinitive | Past | Example
+        være | var | Vi var i Rom.
+        have | havde | Vi havde god tid.
+        gå | gik | Vi gik på museum.
+        komme | kom | Vi kom hjem i går.
+        tage | tog | Vi tog toget.
+        se | så | Vi så slottet.
+        få | fik | Vi fik is.
+        sove | sov | Vi sov længe.
+        blive | blev | Det blev koldt.
+        sige | sagde | Hun sagde ja.
+        flyve | fløj | Vi fløj til Rom.
+        drikke | drak | Vi drak kaffe.
+        gøre | gjorde | Hvad gjorde I?
+      examples: |
+        Vi tog toget til Hamborg og gik rundt i byen hele dagen. | We took the train to Hamburg and walked around the city all day.
+        Om aftenen fik vi pizza på en lille restaurant. | In the evening we had pizza at a small restaurant. | V2 after om aftenen
+        Det regnede hele ugen, men det var alligevel dejligt. | It rained all week, but it was lovely anyway. | det var + adjective in -t
+        Hvad gjorde I om aftenen? | What did you do in the evenings? | gøre → gjorde
+      tip: "Make a list of the ten irregular verbs you use most — var, havde, gik, kom, tog, så, fik, sov, blev, sagde — and say infinitive and past aloud every day for a week."
+    dialogue:
+      title: Sommerferie på Ærø
+      setting: A café in Odense in August. Pernille meets her friend Bashir, who has just come back from a week's holiday on the island of Ærø.
+      speakers: P=Pernille/f; B=Bashir/m
+      lines: |
+        P: Hej, Bashir! Du ser brun ud. Hvor var du på ferie? | Hi, Bashir! You look tanned. Where did you go on holiday?
+        B: Vi var en uge på Ærø med børnene. | We spent a week on Ærø with the kids.
+        P: Hvordan kom I derover? | How did you get over there?
+        B: Vi kørte til Svendborg og tog færgen til Ærøskøbing. | We drove to Svendborg and took the ferry to Ærøskøbing.
+        P: Hvor boede I? | Where did you stay?
+        B: Vi lejede et lille sommerhus tæt på stranden. | We rented a small cottage near the beach.
+        P: Og hvad lavede I hele ugen? | And what did you do all week?
+        B: Vi cyklede rundt på øen og badede hver dag. | We cycled around the island and swam every day.
+        B: En aften så vi en fantastisk solnedgang ved havnen. | One evening we saw a fantastic sunset at the harbour.
+        P: Hvor dejligt! Fik I godt vejr? | How lovely! Did you get good weather?
+        B: Ja, bortset fra den sidste dag. Da regnede det hele dagen. | Yes, apart from the last day. Then it rained all day.
+        P: Det lyder som en perfekt ferie! | That sounds like a perfect holiday!
+    pronunciation:
+      title: Past forms that don't sound like they look
+      body: |
+        Several common past forms have silent or softened letters. In **sagde** the g and the d almost disappear: it sounds like "SA-e". In **havde** the v is silent: "HA-the". **Gjorde** sounds like "GYO-a" — the d is silent.
+
+        In **blev** and **sov**, the v after the vowel becomes a short "oo" glide, so blev sounds a bit like "ble-oo" and sov rhymes with English "now" (with an s). Listen and repeat each word, then the whole question.
+      items: |
+        sagde
+        havde
+        gjorde
+        blev
+        sov
+        Hvad sagde du?
+    culture:
+      title: Summer holidays, Danish style
+      body: |
+        Most Danes have five weeks of paid holiday a year — many get a sixth — and a lot of people take three weeks in a row in July. A classic Danish summer means a **sommerhus** by the coast, cycling on small islands such as Ærø, Fanø or Bornholm, and long, light evenings when the sun sets after ten.
+
+        Others travel south for guaranteed sunshine. Either way, when people come back in August, the first question at work is: **Hvor var du på ferie?**
+    mistakes: |
+      Vi gåede til stranden. => Vi gik til stranden. | Gå is irregular: gå → gik.
+      I går vi tog toget til Aarhus. => I går tog vi toget til Aarhus. | Verb second: after I går comes the verb, then the subject.
+      Det var dejlig. => Det var dejligt. | After det var on its own, the adjective takes -t: dejligt, sjovt, koldt.
+    task:
+      title: A holiday email
+      mode: writing
+      body: |
+        Write an email (60–80 words) to a Danish friend about a holiday you remember well: where you went, how you travelled, where you stayed, two things you did and how it was. Use at least four irregular past forms and one "Det var …".
+    exercises: |
+      fill: Vi ___ færgen fra Esbjerg til Fanø. (tage) || tog || Tage is irregular: tage → tog. || @tags da.past-irregular
+      fill: I går ___ vi en lang tur langs stranden. (gå) || gik || Gå → gik; after I går the verb comes before vi. || @tags da.past-irregular,da.word-order
+      fill: Om aftenen ___ vi fisk på havnen. (få) || fik || Få → fik. Danes use få about meals: vi fik fisk = we had fish. || @tags da.past-irregular
+      mc: What is the past tense of "blive"? || blivede | *blev | blevet || Blive is irregular: blev. Blevet is a different form, used in the perfect. || @tags da.past-irregular
+      match: gå = gik ; tage = tog ; se = så ; komme = kom ; få = fik ; sige = sagde || Learn each irregular verb with its past form. || @tags da.past-irregular
+      tf: Bashir and his family flew to Ærø. || false || They drove to Svendborg and took the ferry: "Vi kørte til Svendborg og tog færgen til Ærøskøbing." || @ctx dialogue
+      mc: What did Bashir see one evening? || *A sunset at the harbour | Seals on the beach | A concert in town || "En aften så vi en fantastisk solnedgang ved havnen." || @ctx dialogue @skill reading @tags da.reading
+      listen: @dialogue || What was the weather like on the last day? || Sunny and hot | Windy but dry | *It rained all day || "Bortset fra den sidste dag. Da regnede det hele dagen." || @tags da.listening
+      listen: Sidste sommer fløj vi til Island. Vi så vulkaner og vandfald, men det blev ret koldt om aftenen. || What was the problem? || *It got quite cold in the evenings | The flight was late | They didn't see any waterfalls || "Det blev ret koldt om aftenen" — it got quite cold in the evenings. || @tags da.past-irregular,da.listening
+      rw: Put it in the past tense :: Vi tager toget og kommer hjem klokken ti. || Vi tog toget og kom hjem klokken ti. || Tage → tog and komme → kom are both irregular. || @tags da.past-irregular
+      tr: We stayed in a holiday cottage and swam every day. || Vi boede i et sommerhus og badede hver dag. | Vi boede i et sommerhus, og vi badede hver dag. | Vi boede i et sommerhus og svømmede hver dag. | Vi var i et sommerhus og badede hver dag. || Boede and badede are regular (-ede). Bade = swim in the sea or a lake. || @tags da.past
+      say: Vi tog færgen og cyklede rundt på øen. || We took the ferry and cycled around the island.
+      ask: Tell a friend about a holiday you remember — where you went and two things you did. || kw: var/tog/kørte/fløj & så/fik/gik/sov/badede/lejede/boede || Sidste år var jeg i Sverige. Vi lejede en kano og sov i telt ved en sø.
+      write: Write a postcard (4–5 sentences) from a holiday you remember — where you were, how you got there, what you did and saw. || min=35 || req: var | tog/kom/fløj/kørte | så/fik/gik/sov || Kære Morten! Vi er på Fanø. Vi kørte til Esbjerg og tog færgen herover. I går gik vi en lang tur på stranden, og vi så mange sæler. Om aftenen fik vi rejer på en hyggelig restaurant. Det var dejligt! Hilsen Ida og Kasper
+      dict: Vi sov i telt og så stjernerne om natten.
+
+  - title: Planning a trip
+    summary: Plan a trip with a friend — say what you have already booked and packed, and ask "Har du nogensinde været…?" with the perfect tense (har + participle).
+    minutes: 40
+    skills: [grammar, speaking, vocabulary]
+    tags: [da.perfect, da.questions, da.sentence-adverbs]
+    objectives:
+      - Form the perfect with har + participle
+      - Ask and answer "Har du nogensinde været i…?"
+      - Say what you have already done and haven't done yet with allerede and endnu
+    intro: |
+      Before a trip there's a lot to check: Have you booked the tickets? Have you packed? Have you ever been there before? For all of these, Danish uses the perfect — **har + participle** — very much like English "have done". In this lesson you will form the participles of regular and irregular verbs and plan a trip together.
+    vocab: |
+      bestille | to book; to order | v | Jeg har bestilt billetter til toget. | I've booked train tickets. | n: Past: bestilte; perfect: har bestilt. Many people also say booke: har booket.
+      en billet | a ticket | n | Har du købt en billet til færgen? | Have you bought a ticket for the ferry? | g: c | pl: billetter | c: en returbillet (a return ticket); en enkeltbillet (a single)
+      pakke | to pack | v | Har du pakket din kuffert endnu? | Have you packed your suitcase yet? | n: Past: pakkede; perfect: har pakket.
+      en kuffert | a suitcase | n | Min kuffert er alt for tung. | My suitcase is far too heavy. | g: c | pl: kufferter
+      et pas | a passport | n | Husk dit pas! | Remember your passport! | g: n | pl: pas | n: Husk is the imperative of huske (remember).
+      nogensinde | ever | adv | Har du nogensinde været i Norge? | Have you ever been to Norway? | n: Mostly in questions. A typical answer: Nej, jeg har aldrig været der.
+      allerede | already | adv | Vi har allerede lejet en bil. | We've already hired a car. | n: Goes between har and the participle.
+      ikke endnu | not yet | expr | Jeg har ikke fundet et hotel endnu. | I haven't found a hotel yet. | n: Endnu = yet. In writing you also see endnu ikke: Jeg har endnu ikke fundet et hotel.
+      leje | to rent; to hire | v | Vi har lejet en lejlighed i Lissabon. | We've rented a flat in Lisbon. | n: Past: lejede; perfect: har lejet.
+      et vandrerhjem | a youth hostel | n | Vi sov på et vandrerhjem i Bergen. | We slept at a youth hostel in Bergen. | g: n | pl: vandrerhjem
+      en plan | a plan | n | Hvad er planen for i morgen? | What's the plan for tomorrow? | g: c | pl: planer | c: lave en plan (make a plan); have planer (have plans)
+      tjekke | to check | v | Har du tjekket afgangstiderne? | Have you checked the departure times? | n: Perfect: har tjekket.
+      et rejsemål | a destination | n | Lissabon er et populært rejsemål. | Lisbon is a popular destination. | g: n | pl: rejsemål
+    grammar:
+      title: "The perfect: har + participle"
+      body: |
+        The perfect (**førnutid**) is **har + participle**, and you use it much like the English present perfect:
+
+        - for **experiences**, often with *nogensinde* (ever) and *aldrig* (never): *Har du nogensinde været i Rom?*
+        - for something done with a **result now**, often with *allerede* (already) and *endnu* (yet): *Jeg har bestilt billetterne.*
+
+        **Participles.** Verbs with the past in -ede make the participle in **-et**: *pakke → pakket, leje → lejet, tjekke → tjekket.* Verbs with the past in -te make it in **-t**: *købe → købt, bestille → bestilt, læse → læst.* Irregular verbs have their own forms: *være → været, se → set, få → fået, tage → taget, finde → fundet, gøre → gjort, sige → sagt.*
+
+        **Været i.** Notice that *været* itself goes with har, and English "been to" is **været i** — or *været på* for islands: *Jeg har været i Paris. Har du været på Bornholm?*
+
+        **Word order.** Har is the verb in second position. Ikke, allerede, aldrig and nogensinde come after har and before the participle: *Vi har allerede købt billetter. Jeg har aldrig været i Norge.* In a yes/no question, har comes first: *Har du pakket?* A short answer repeats har: *Ja, det har jeg. / Nej, det har jeg ikke.*
+      table: |
+        Infinitive | Past | Perfect
+        pakke | pakkede | har pakket
+        leje | lejede | har lejet
+        købe | købte | har købt
+        bestille | bestilte | har bestilt
+        være | var | har været
+        se | så | har set
+        få | fik | har fået
+        tage | tog | har taget
+        finde | fandt | har fundet
+      examples: |
+        Har du nogensinde været på Island? | Have you ever been to Iceland? | på with islands
+        Vi har allerede bestilt et hotel i Berlin. | We've already booked a hotel in Berlin. | allerede between har and the participle
+        Jeg har ikke pakket endnu. | I haven't packed yet. | ikke after har, endnu at the end
+        Min bror har aldrig taget et fly. | My brother has never taken a plane. | aldrig after har
+      tip: "English \"been to\" is været i in Danish, or været på for islands: Jeg har været i Paris. Jeg har været på Bornholm."
+    dialogue:
+      title: Togtur til Norge
+      setting: A student flat in Odense. Astrid and Elias are planning a train trip to Oslo and Bergen in the summer holidays.
+      speakers: A=Astrid/f; E=Elias/m
+      lines: |
+        A: Nå, Elias, har du tjekket togtiderne til Oslo? | So, Elias, have you checked the train times to Oslo?
+        E: Ja, og jeg har allerede bestilt billetterne. | Yes, and I've already booked the tickets.
+        A: Super! Har du nogensinde været i Norge? | Great! Have you ever been to Norway?
+        E: Nej, aldrig. Men min bror har boet i Bergen. | No, never. But my brother has lived in Bergen.
+        A: Har du fundet et sted at sove i Oslo? | Have you found a place to sleep in Oslo?
+        E: Ikke endnu. Hotellerne er meget dyre der. | Not yet. The hotels are very expensive there.
+        A: Hvad med et vandrerhjem? Jeg har læst gode anmeldelser. | What about a youth hostel? I've read good reviews.
+        E: God idé. Kan du sende mig et link? | Good idea. Can you send me a link?
+        A: Det har jeg allerede gjort! Tjek din mail. | I've already done that! Check your email.
+        E: Nå ja. Har du pakket din rygsæk? | Oh, right. Have you packed your backpack?
+        A: Nej, vi rejser først om to uger! | No, we're not leaving for another two weeks!
+        E: Okay, men husk dit pas denne gang. | Okay, but remember your passport this time.
+    pronunciation:
+      title: "The participle ending -et"
+      body: |
+        The ending **-et** in participles is not a hard t. It sounds like a weak e followed by a soft d: *pakket* sounds like "PAK-keth", *lejet* like "LAI-eth", and *været* like "VAIR-eth". In **fået** the å is long: "FO-eth".
+
+        In participles ending in a consonant + **t**, such as *bestilt* and *købt*, the t is soft — almost a d — just as in the past tense. Listen and repeat, then say the whole question at normal speed.
+      items: |
+        pakket
+        lejet
+        været
+        fået
+        bestilt
+        Har du nogensinde været i Norge?
+    culture:
+      title: Travelling from Denmark
+      body: |
+        Denmark is a small country with good connections. From Copenhagen, the train crosses the Øresund Bridge to Malmö in Sweden in about 35 minutes, and overnight ferries sail to Oslo. Inside Denmark, many islands can only be reached by ferry, so in July it's smart to book a place for your car weeks in advance.
+
+        For buses and trains, most people use a **rejsekort** — a travel card you check in and out with — or buy tickets on their phone. Students and young people often travel cheaply by train around Europe in the summer.
+    mistakes: |
+      Jeg har været til Paris. => Jeg har været i Paris. | "Been to" a place is været i (or på for islands), not til.
+      Vi har købet billetterne. => Vi har købt billetterne. | Købe has the past købte, so the participle is købt — no e.
+      Har du været i London? – Ja, jeg var. => Ja, det har jeg. | Short answers to a perfect question repeat har: Ja, det har jeg. / Nej, det har jeg ikke.
+    task:
+      title: Book a room for your trip
+      mode: interaction
+      body: |
+        You are planning a weekend in Copenhagen. Phone a hotel and book a room: say when you arrive and leave, ask about the price and breakfast, and mention that you have already bought train tickets. Practise in the "Booking a hotel room" scenario with the AI coach.
+    exercises: |
+      fill: Har du ___ billetterne? (bestille) || bestilt || Bestille → bestilte → har bestilt. || @tags da.perfect
+      fill: Vi har ___ et sommerhus i Blokhus. (leje) || lejet || Leje → lejede → har lejet. || @tags da.perfect
+      mc: "Have you ever been to Sweden?" || *Har du nogensinde været i Sverige? | Har du nogensinde være i Sverige? | Har du nogensinde været til Sverige? || After har you need the participle (været), and "been to" is været i. || @tags da.perfect,da.questions
+      mc: Where does "allerede" go? || Vi allerede har købt billetter. | *Vi har allerede købt billetter. | Vi har købt allerede billetter. || Adverbs like allerede, ikke and aldrig go after har and before the participle. || @tags da.perfect,da.sentence-adverbs
+      mc: What is the participle of "tage"? || tog | *taget | tagede || Tage is irregular: tage → tog → har taget. Tog is the past tense. || @tags da.perfect,da.past-irregular
+      tf: Elias has been to Norway before. || false || "Nej, aldrig. Men min bror har boet i Bergen." || @ctx dialogue
+      short: What hasn't Elias found yet? || kw: sove/sleep/hotel/hostel/vandrerhjem/accommodation/sted/place || A place to sleep in Oslo: "Har du fundet et sted at sove i Oslo? – Ikke endnu." || @ctx dialogue
+      listen: @dialogue || When are Astrid and Elias leaving? || Tomorrow | Next weekend | *In two weeks || "Vi rejser først om to uger" — not until two weeks from now. || @tags da.listening
+      listen: Jeg har tjekket togtiderne. Toget til Stockholm kører klokken tyve minutter i otte, og jeg har allerede købt to billetter. || What has the speaker already done? || *Bought two tickets | Booked a hotel | Packed a suitcase || "Jeg har allerede købt to billetter." || @tags da.perfect,da.listening
+      rw: Put it in the perfect :: Jeg pakker min kuffert. || Jeg har pakket min kuffert. || Har + participle: pakke → pakket. || @tags da.perfect
+      rw: Give a short "yes" answer :: Har du været i Paris? || Ja, det har jeg. || Short answers repeat har: Ja, det har jeg. / Nej, det har jeg ikke. || @tags da.perfect,da.questions
+      tr: I haven't packed yet. || Jeg har ikke pakket endnu. | Jeg har endnu ikke pakket. || Ikke goes after har; endnu (yet) goes at the end. || @tags da.perfect,da.negation
+      ask: Ask a friend three questions about a trip you are planning together — tickets, a place to stay and packing. || kw: har du & bestilt/købt/fundet/pakket/tjekket/lejet || Har du købt billetterne? Har du fundet et hotel? Har du pakket din kuffert?
+      write: Write a message to your travel partner — what you have already done and what you haven't done yet. || min=30 || req: har | allerede | ikke/endnu || Hej Mads! Jeg har allerede bestilt færgen og lejet et sommerhus på Fanø. Jeg har også tjekket vejrudsigten – der kommer sol! Men jeg har ikke pakket endnu. Har du købt mad til turen? Hilsen Anja
+      dict: Vi har allerede købt billetter til færgen.
+
+  - title: When things go wrong on a trip
+    summary: Explain what has gone wrong on a trip — a delayed train, lost luggage, a missing booking — and ask for help, choosing between the past and the perfect.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [da.perfect, da.past, da.negation]
+    objectives:
+      - Explain a travel problem with the perfect, for example Jeg har mistet…
+      - Choose between the past (a known time) and the perfect (the result now)
+      - Ask for help politely and understand a simple solution
+    intro: |
+      Even the best-planned trip can go wrong: the train is late, a bag goes missing, the hotel can't find your booking. To explain the problem you need both past tenses — the perfect for the result now (*Jeg har mistet min telefon*) and the past for what happened at a known time (*Jeg glemte den i toget i morges*). In this lesson you will learn to tell them apart and to ask for help calmly.
+    vocab: |
+      forsinket | delayed; late | adj | Toget er tyve minutter forsinket. | The train is twenty minutes late. | n: Plural: forsinkede. Alle togene er forsinkede.
+      aflyst | cancelled | adj | Vores fly er aflyst på grund af tåge. | Our flight is cancelled because of fog. | n: From aflyse (to cancel). På grund af = because of.
+      miste | to lose | v | Jeg har mistet min pung. | I've lost my wallet. | n: Past: mistede; perfect: har mistet.
+      glemme | to forget; to leave behind | v | Jeg glemte min oplader på hotellet. | I left my charger at the hotel. | n: Past: glemte; perfect: har glemt.
+      stjæle | to steal | v | Nogen har stjålet min cykel! | Someone has stolen my bike! | n: Irregular: stjæle → stjal → har stjålet.
+      bagagen | the luggage | n | Vi har ventet på bagagen i over en time. | We've been waiting for the luggage for over an hour. | g: c | n: Uncountable — no plural, just like English luggage.
+      en forbindelse | a connection | n | Vi nåede ikke vores forbindelse i Hamborg. | We didn't make our connection in Hamburg. | g: c | pl: forbindelser | n: Nå (reach, make it) → nåede → har nået.
+      en bestilling | a booking; an order | n | Vi kan desværre ikke finde din bestilling. | Unfortunately we can't find your booking. | g: c | pl: bestillinger
+      et hittegodskontor | a lost property office | n | Har du spurgt på hittegodskontoret? | Have you asked at the lost property office? | g: n | pl: hittegodskontorer | n: Spørge → spurgte → har spurgt.
+      desværre | unfortunately | adv | Der er desværre ingen ledige værelser. | Unfortunately there are no free rooms. | n: The polite word for bad news.
+      få pengene tilbage | to get a refund | expr | Kan jeg få pengene tilbage for billetten? | Can I get a refund for the ticket? | n: In official texts you will also see refusion (a refund).
+      hjælpe | to help | v | Kan du hjælpe mig? Jeg har mistet mit pas. | Can you help me? I've lost my passport. | n: Irregular: hjælpe → hjalp → har hjulpet. The h is silent.
+      en løsning | a solution | n | Vi finder en løsning. | We'll find a solution. | g: c | pl: løsninger
+    grammar:
+      title: Past or perfect?
+      body: |
+        Like English, Danish has two tenses for the past:
+
+        - The **past (datid)** for a finished event at a known time — often with *i går, i morges, i lørdags, for en time siden, klokken tre*: *Jeg glemte min jakke i toget i morges.*
+        - The **perfect (har + participle)** when no time is mentioned and the result matters now: *Jeg har mistet min jakke* (and I still don't have it). It's also the tense for *allerede, endnu, aldrig* and *nogensinde*.
+
+        A problem story often starts in the perfect and continues in the past: *Jeg har mistet min telefon. Jeg brugte den på stationen klokken fem, og så var den væk.*
+
+        **Negation.** Ikke comes after the first verb. In the past that's the main verb: *Bussen kom ikke.* In the perfect it's har: *Jeg har ikke fået min bagage. Vi har ikke hørt noget.*
+
+        **Forsinket** and **aflyst** work like adjectives after er: *Toget er forsinket. Flyet er aflyst.* With a plural subject, forsinket becomes *forsinkede*: *Togene er forsinkede.*
+      table: |
+        Past — a known time | Perfect — the result now
+        Jeg glemte min taske i går. | Jeg har glemt min taske.
+        Jeg mistede mit pas i lufthavnen i morges. | Jeg har mistet mit pas.
+        Vi fik en mail klokken ti. | Vi har ikke fået nogen mail.
+        Toget kørte for fem minutter siden. | Toget har holdt stille i en halv time.
+      examples: |
+        Jeg har mistet min pung. Jeg havde den i bussen for ti minutter siden. | I've lost my wallet. I had it on the bus ten minutes ago. | perfect for the result, past for the moment
+        Vi har ventet på bagagen i over en time. | We've been waiting for the luggage for over an hour. | perfect: it's still going on
+        Hotellet har ikke fået vores bestilling. | The hotel hasn't received our booking. | ikke after har
+        Toget var forsinket, så vi nåede ikke færgen. | The train was late, so we didn't make the ferry. | past: a finished story
+      tip: "Start with the problem in the perfect, then add the details in the past: Jeg har glemt min telefon. Jeg lagde den på bordet i caféen klokken to."
+    dialogue:
+      title: Hvor er min kuffert?
+      setting: The baggage service desk at Copenhagen Airport late on a Thursday evening. Fatima has just landed from Paris, but her suitcase hasn't come out with the others. Jesper works at the desk.
+      speakers: F=Fatima/f; J=Jesper/m
+      lines: |
+        F: Godaften. Jeg har ventet på min kuffert i en time. | Good evening. I've been waiting for my suitcase for an hour.
+        J: Det er jeg ked af. Hvor fløj du fra? | I'm sorry about that. Where did you fly from?
+        F: Fra Paris. Flyet landede klokken halv ti. | From Paris. The plane landed at half past nine.
+        J: Må jeg se dit boardingkort? | May I see your boarding pass?
+        F: Værsgo. Jeg har også bagagekvitteringen. | Here you are. I've also got the baggage receipt.
+        J: Tak. Din kuffert har desværre ikke forladt Paris. | Thanks. Unfortunately your suitcase hasn't left Paris.
+        F: Hvad? Men alt mit tøj er i den! | What? But all my clothes are in it!
+        J: Den kommer med det første fly i morgen tidlig. | It's coming on the first flight tomorrow morning.
+        F: Okay. Kan I sende den til mit hotel? | Okay. Can you send it to my hotel?
+        J: Ja, selvfølgelig. Hvad hedder hotellet? | Yes, of course. What's the hotel called?
+        F: Hotel Nordlys på Vesterbro. Og hvad med en tandbørste? | Hotel Nordlys in Vesterbro. And what about a toothbrush?
+        J: Køb det, du har brug for. Vi betaler, så gem kvitteringerne. | Buy what you need. We'll pay, so keep the receipts.
+    pronunciation:
+      title: The Danish r
+      body: |
+        The Danish **r** is made at the back of the throat — a soft, slightly gargled sound. It is never rolled with the tip of the tongue. You hear it at the start of **rejse** and **rigtig** and in the middle of **desværre**.
+
+        After a vowel, the r almost turns into a vowel itself. In **kuffert** you hear something like "KOF-fat", and in **forsinket** the first syllable is just "fo": "fo-SING-keth". Listen and repeat — keep your tongue tip low and relaxed.
+      items: |
+        rejse
+        rigtig
+        desværre
+        forsinket
+        kuffert
+        Toget er forsinket.
+    culture:
+      title: When the train is late
+      body: |
+        Many Danish train and bus companies have a travel-time guarantee, a **rejsetidsgaranti**: if you arrive much later than planned, you can apply online for some of your money back. Keep your ticket and note the time.
+
+        If you lose something on a train, a bus or in the street, ask the company first. Items that people hand in often end up at the police's lost property office, **hittegodskontoret**, where you can search for them. And when you complain, a calm, direct tone works best in Denmark — staff are usually happy to help if you explain the problem clearly.
+    mistakes: |
+      Toget er forsinkede. => Toget er forsinket. | One train (toget) is forsinket. Only a plural subject takes forsinkede: Togene er forsinkede.
+      Jeg har stjålet min taske! => Nogen har stjålet min taske! | "Jeg har stjålet" means that you stole it. The thief is nogen (someone).
+      Jeg har fået ikke min kuffert. => Jeg har ikke fået min kuffert. | Ikke comes after har and before the participle.
+    task:
+      title: A cancelled train
+      mode: interaction
+      body: |
+        Your train to Aarhus is cancelled, and you have an important meeting there at two o'clock. At the ticket desk, explain the problem, say where you need to go and when, ask for another solution, and ask about getting some money back. Practise in the "Handling a travel problem" scenario with the AI coach.
+    exercises: |
+      fill: Jeg har ___ min pung. Har du set den? (miste) || mistet || Perfect for the result now: miste → mistede → har mistet. || @tags da.perfect
+      fill: I morges ___ jeg min oplader på hotellet. (glemme) || glemte || A known time (i morges, this morning) needs the past tense: glemte. || @tags da.past
+      mc: "Someone has stolen my bike!" || *Nogen har stjålet min cykel! | Nogen har stjælet min cykel! | Nogen stjal har min cykel! || Stjæle is irregular: stjæle → stjal → har stjålet. || @tags da.perfect,da.past-irregular
+      mc: Which sentence is correct? || Vi har fået ikke vores billetter. | *Vi har ikke fået vores billetter. | Vi ikke har fået vores billetter. || In the perfect, ikke goes after har and before the participle. || @tags da.negation,da.perfect
+      mc: "Jeg ___ mit pas i lufthavnen for en time siden." || har mistet | *mistede | mister || For en time siden (an hour ago) is a known time, so use the past tense: mistede. || @tags da.past,da.perfect
+      tf: Fatima's suitcase is still in Paris. || true || "Din kuffert har desværre ikke forladt Paris." || @ctx dialogue
+      short: What should Fatima keep? || kw: kvittering/kvitteringer/kvitteringerne/receipt/receipts || Jesper says: "Vi betaler, så gem kvitteringerne" — keep the receipts. || @ctx dialogue
+      listen: @dialogue || When will the suitcase arrive? || Tonight | *Tomorrow morning | In three days || "Den kommer med det første fly i morgen tidlig." || @tags da.listening
+      listen: Vi beklager. Toget til Aalborg er desværre aflyst. Der kører en bus fra stationspladsen klokken atten. || What should travellers to Aalborg do? || Wait for the next train | *Take a bus at six p.m. | Go to the airport || "Der kører en bus … klokken atten" — a bus at 18.00. || @tags da.listening
+      rw: Put it in the perfect (the result now) :: Jeg glemte min paraply. || Jeg har glemt min paraply. || Glemme → glemte → har glemt. || @tags da.perfect
+      tr: The train is delayed, and we have missed our connection. || Toget er forsinket, og vi har misset vores forbindelse. | Toget er forsinket, og vi har ikke nået vores forbindelse. | Toget er forsinket, så vi har misset vores forbindelse. | Toget er forsinket, og vi har misset forbindelsen. || "Miss a connection" is misse (informal) or ikke nå: vi har ikke nået… || @tags da.perfect
+      tr-en: Jeg har ikke fået min bagage. || I haven't received my luggage. | I haven't got my luggage. | I haven't gotten my luggage. | I have not received my luggage. | I haven't got my baggage. || Få → har fået; ikke goes after har. || @tags da.perfect,da.negation
+      ask: At the information desk, explain that you have lost your bag, and say where you had it last. || kw: har mistet/har glemt & havde/glemte/var/så || Undskyld, jeg har mistet min taske. Jeg havde den i toget fra Odense for en halv time siden.
+      write: Write a short email to a hotel — you left something in your room. Say what it is, when you stayed, and ask them to send it. || min=35 || req: har glemt/har mistet | boede/var | kan I/kunne I || Kære Hotel Nordlys. Jeg boede hos jer fra den 3. til den 5. maj, og jeg har glemt min oplader på værelse 214. Den er sort og ligger måske i skuffen. Kan I sende den til mig? Jeg betaler gerne for porto. Venlig hilsen Eva Lindqvist
+      dict: Flyet er aflyst, og vi har ikke fået nye billetter.

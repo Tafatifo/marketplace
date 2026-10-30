@@ -1,0 +1,105 @@
+language: fr
+level: B2
+title: "French B2 · Fluency"
+description: Speak and write French fluently and with nuance — discuss identity, work, science, the environment, the media, the arts and public life, negotiate and complain in a formal register, report and weigh up arguments, and talk about the future and about regrets.
+hours: 120
+summary: >-
+  B2 learners can understand the main ideas of complex texts on both concrete and abstract topics, including
+  discussions in their field. They can interact with native speakers with a degree of fluency and spontaneity that
+  makes regular conversation possible without strain for either side, and they can write clear, detailed texts that
+  explain a viewpoint, giving the advantages and disadvantages of various options. This course delivers around
+  120 hours of guided practice across 8 units, with an emphasis on nuance, register and structured argument.
+objectives:
+  - Discuss identity, generations and life between languages, expressing doubt and concession with the subjunctive and nuancing your opinions
+  - Talk about the future of work, negotiate and express regrets and reproaches with the past conditional
+  - Discuss science, technology and health news using the passive voice and nominalisation
+  - Explain the causes and consequences of environmental problems and debate solutions with a wide range of connectors
+  - Report what others said in the past, analyse persuasion techniques and write a structured opinion piece
+  - Talk about art, heritage and humour, using the compound relative pronouns lequel, auquel and duquel
+  - Discuss rights and public services and write formal letters and complaints, using the past subjunctive
+  - Make predictions with the futur antérieur, express regrets with si + plus-que-parfait + conditionnel passé and present an argument
+canDo:
+  listening:
+    - Understand extended speech and lectures and follow complex lines of argument on reasonably familiar topics
+    - Understand most radio and podcast programmes, news reports and interviews in standard French
+  reading:
+    - Read articles and reports on contemporary problems in which the writers adopt particular attitudes or viewpoints
+    - Understand opinion pieces, formal letters and longer narrative texts, including implicit attitudes and nuance
+  spokenInteraction:
+    - Interact with a degree of fluency and spontaneity, take an active part in discussions and negotiations, and defend your views
+    - Handle formal exchanges with public services and companies, making requests and complaints in the right register
+  spokenProduction:
+    - Give clear, detailed descriptions and presentations on a wide range of subjects related to your interests
+    - Explain a viewpoint on a topical issue, giving the advantages and disadvantages of various options
+  writing:
+    - Write clear, detailed texts such as opinion pieces and essays, passing on information or giving reasons for or against a point of view
+    - Write formal letters and complaints that highlight the personal significance of events and experiences
+grammar:
+  - The subjunctive after doubt and possibility (douter que, il se peut que), contrasted with the indicative after certainty
+  - Concession with bien que, quoique + subjunctive, même si + indicative, malgré and avoir beau
+  - Nuance and hedging (il me semble que / il semble que, plutôt, dans une certaine mesure) and the subjunctive after le seul, personne qui
+  - The conditionnel passé — regrets and reproaches, unconfirmed information, polite and cautious negotiation language
+  - The passive voice in all tenses, alternatives to the passive (on, se faire, pronominal verbs) and nominalisation
+  - Connectors of cause, consequence, opposition and concession (en raison de, faute de, si bien que, d'où, alors que, en revanche)
+  - Reported speech in the past — tense and time-expression changes, reported questions and orders, reporting verbs
+  - The structure of argumentation (certes… mais, d'une part… d'autre part, force est de constater)
+  - Compound relative pronouns lequel, auquel, duquel and their forms, contrasted with dont; interrogative lequel
+  - The past subjunctive and the conventions of formal letters and complaints
+  - The futur antérieur (completed future, probability) and si + plus-que-parfait + conditionnel passé for regrets
+vocabularyDomains:
+  - Identity, belonging, generations and bilingualism
+  - Work, the economy, negotiation and consumption
+  - Science, ethics, artificial intelligence and health news
+  - Climate, sustainable cities and environmental debate
+  - Media, misinformation, advertising and argumentation
+  - Art, cultural heritage, humour and wordplay
+  - Rights, civic duties, public services and complaints
+  - The future, regrets and public speaking
+assessment: A 60-minute cumulative test covering grammar, vocabulary, listening and reading from all eight units, with an argued paragraph to write. A score of 70% or more confirms the B2 level.
+units:
+  - title: Identités plurielles
+    theme: Identity and society
+    lessons: [Identity and belonging, Generations, Living between languages]
+  - title: Travailler demain
+    theme: Work and the economy
+    lessons: [The future of work, Negotiating, Consumer society]
+  - title: La science en questions
+    theme: Science and technology
+    lessons: [Innovation and ethics, Artificial intelligence, Health and medicine in the news]
+  - title: Agir pour le climat
+    theme: Environment
+    lessons: [Climate policy, Sustainable cities, Debating solutions]
+  - title: Informer et convaincre
+    theme: Media and persuasion
+    lessons: [Misinformation and media literacy, Advertising and persuasion, Writing an opinion piece]
+  - title: Arts et patrimoine
+    theme: Arts and culture
+    lessons: [Talking about art, Cultural heritage, Humour and wordplay]
+  - title: La vie citoyenne
+    theme: Citizenship and public life
+    lessons: [Rights and responsibilities, Public services, Formal complaints]
+  - title: Et demain ?
+    theme: Looking ahead
+    lessons: [Predictions and speculation, Regrets and lessons learned, Presenting an argument]
+assessmentItems: |
+  fill: Je doute que ce nouveau logiciel ___ (suffire) à résoudre le problème. || suffise || Douter que expresses doubt, so it takes the subjunctive: qu'il suffise. || @tags fr.subjonctif-triggers @obj Discuss identity, generations and life between languages, expressing doubt and concession with the subjunctive and nuancing your opinions
+  mc: "___ il pleuve, ils ont maintenu le pique-nique." || Même s' | Malgré | *Bien qu' || Bien que takes the subjunctive (il pleuve). Même si needs the indicative (même s'il pleut) and malgré is followed by a noun (malgré la pluie). || @tags fr.subjonctif,fr.connectors
+  fill: Tu ___ (devoir) me prévenir que tu serais en retard ! || aurais dû || A reproach about the past: conditionnel passé of devoir, tu aurais dû. || @tags fr.conditionnel-passe @obj Talk about the future of work, negotiate and express regrets and reproaches with the past conditional
+  mc: In a negotiation, which sentence accepts an offer on a condition? || Nous acceptons, bien que la livraison soit gratuite. | *Nous pourrions accepter, à condition que la livraison soit gratuite. | Nous acceptons, même si la livraison est gratuite. || À condition que (+ subjunctive) sets a condition; bien que and même si concede a point instead. || @tags fr.conditionnel,fr.subjonctif-triggers
+  rw: Put the sentence into the passive :: Une équipe de Grenoble a mis au point ce traitement. || Ce traitement a été mis au point par une équipe de Grenoble. || The object becomes the subject; être takes the tense of the active verb (a été) and the participle agrees (mis). The agent is introduced by par. || @tags fr.passive @obj Discuss science, technology and health news using the passive voice and nominalisation
+  fill: Les loyers augmentent → L'___ des loyers. || augmentation || The noun formed from augmenter is l'augmentation (feminine, -ation). || @tags fr.vocabulary
+  mc: "___ la neige, les écoles sont restées fermées." || Grâce à | *En raison de | Malgré || En raison de introduces a neutral cause. Grâce à is for a positive cause; malgré expresses opposition. || @tags fr.connectors @obj Explain the causes and consequences of environmental problems and debate solutions with a wide range of connectors
+  mc: "Il a beaucoup plu cet hiver, ___ les nappes phréatiques se sont rechargées." || *si bien que | bien que | alors que || The second clause is a consequence: si bien que (+ indicative). Bien que concedes and alors que contrasts. || @tags fr.connectors
+  rw: Report it in the past. Start with "Elle a dit que…" :: « Je publierai l'article demain. » || Elle a dit qu'elle publierait l'article le lendemain. || In past reported speech the futur becomes the conditionnel (publierait) and demain becomes le lendemain. || @tags fr.reported-speech @obj Report what others said in the past, analyse persuasion techniques and write a structured opinion piece
+  mc: "D'abord, il a ___ avoir copié le texte ; puis, devant les preuves, il l'a reconnu." || *nié | promis | admis || Nier = to deny, which contrasts with reconnaître later in the sentence. Admettre would mean he admitted it from the start. || @tags fr.reported-speech
+  fill: C'est un tableau ___ le peintre a consacré dix ans de sa vie. || auquel || Consacrer quelque chose à + le tableau (masculine singular): à + lequel = auquel. || @tags fr.relative-compound @obj Talk about art, heritage and humour, using the compound relative pronouns lequel, auquel and duquel
+  mc: "Le château, près ___ nous avons pique-niqué, date du XIIᵉ siècle." || dont | *duquel | lequel || After a compound preposition ending in de (près de), use duquel. Dont cannot follow a preposition. || @tags fr.relative-compound
+  fill: Je suis désolée que vous ___ (attendre) si longtemps hier. || ayez attendu || The waiting happened before the feeling: past subjunctive, que vous ayez attendu. || @tags fr.subjonctif,fr.subjonctif-triggers @obj Discuss rights and public services and write formal letters and complaints, using the past subjunctive
+  mc: Which sentence opens a formal complaint letter? || Salut, je vous écris parce que… | *Madame, Monsieur, je me permets de vous écrire au sujet de… | Coucou, j'ai un petit souci avec… || A formal letter opens with Madame, Monsieur and a formal phrase such as je me permets de vous écrire. || @tags fr.formal-writing,fr.register
+  fill: Dès que tu ___ (finir) ton rapport, appelle-moi. || auras fini || After dès que, an action completed before another future action takes the futur antérieur: tu auras fini. || @tags fr.futur-simple @obj Make predictions with the futur antérieur, express regrets with si + plus-que-parfait + conditionnel passé and present an argument
+  tr: If I had known, I would have come earlier. || Si j'avais su, je serais venu plus tôt. | Si j'avais su, je serais venue plus tôt. | Si je l'avais su, je serais venu plus tôt. | Si je l'avais su, je serais venue plus tôt. || A past regret: si + plus-que-parfait, conditionnel passé in the main clause. Venir takes être. || @tags fr.si-clauses,fr.conditionnel-passe
+  listen: Selon nos informations, l'usine aurait fermé ses portes vendredi, mais la direction n'a pas encore confirmé. || What do we know about the factory? || *It may have closed, but this is not confirmed | It closed and the management confirmed it | It will close next Friday || The journalistic conditionnel passé (aurait fermé) presents unconfirmed information. || @tags fr.listening,fr.conditionnel-passe
+  listen: La bibliothèque dans laquelle j'ai passé toute mon enfance va enfin être rénovée grâce à la région. || What will happen to the library? || *It will be renovated | It will close for good | It will move to another town || "Va enfin être rénovée" — a passive in the near future. || @tags fr.listening,fr.relative-compound
+  listen: D'ici 2035, la ville aura planté dix mille arbres et aura transformé ses cours d'école en jardins. || By 2035, what will the city have done? || *Planted ten thousand trees and turned its schoolyards into gardens | Built ten new schools with gardens | Closed its centre to traffic || Aura planté, aura transformé: the futur antérieur describes what will be finished by 2035. || @tags fr.listening,fr.futur-simple
+  short: Express one regret about your studies or your career in French, using the conditionnel passé. || kw: j'aurais dû/j'aurais aimé/j'aurais voulu/j'aurais pu/j'aurais préféré/il aurait fallu/j'aurais mieux fait || For example: J'aurais dû faire un stage à l'étranger pendant mes études. || @tags fr.conditionnel-passe
+  write: Write an argued paragraph (100–120 words) — should museums be free for everyone? Give arguments on both sides and conclude. || min=100 || req: d'une part/tout d'abord/premièrement/d'abord | certes/bien que/même si/il est vrai que | en revanche/cependant/néanmoins/toutefois/pourtant | en conclusion/en somme/pour conclure/en définitive || Faut-il rendre les musées gratuits pour tous ? D'une part, la gratuité permettrait à des publics qui n'y vont jamais de découvrir l'art, en particulier les familles et les jeunes. D'autre part, elle ferait des musées de véritables lieux de vie, dans lesquels on entre comme dans une bibliothèque. Certes, les musées ont besoin de ressources pour entretenir et restaurer leurs collections, et la billetterie représente une part importante de leur budget. En revanche, l'expérience montre que la gratuité seule ne suffit pas à attirer de nouveaux visiteurs : il faut aussi de la médiation. En somme, je suis favorable à une gratuité ciblée, accompagnée d'actions vers les publics éloignés. || @tags fr.opinion,fr.connectors

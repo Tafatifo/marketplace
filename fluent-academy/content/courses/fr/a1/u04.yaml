@@ -1,0 +1,368 @@
+unit: 4
+title: Au café et au marché
+theme: Food and drink
+description: Order in a café, buy food at the market in the right quantities, and order a meal at a restaurant — including saying what you don't eat.
+objectives:
+  - Order food and drinks politely with je voudrais
+  - Buy food using partitive articles (du, de la, des) and quantities
+  - Order a meal and use ne… pas to say what you don't eat or want
+canDo:
+  - I can order drinks and snacks in a café and ask for the bill.
+  - I can buy food at a market and ask for quantities and prices.
+  - I can understand a simple menu and order a meal.
+  - I can say what I don't eat or don't want.
+review: |
+  mc: You'd like a hot chocolate. You say… || Je suis un chocolat chaud. | *Je voudrais un chocolat chaud, s'il vous plaît. | Je voudrais chocolat chaud. || Je voudrais + un + drink, then s'il vous plaît. Je suis means I am, and the drink needs an article. || @tags fr.ordering
+  fill: Vous avez ___ fraises ? || des || Fraises is plural: des fraises. || @tags fr.partitive
+  fill: Je voudrais un morceau ___ fromage. || de || After a quantity (un morceau), use de without an article. || @tags fr.partitive
+  fill: Il ne boit pas ___ café. || de || After a negative verb, du becomes de: pas de café. || @tags fr.negation,fr.partitive
+  mc: Choose the correct negative sentence. || Je ne pas mange de pain. | *Je ne mange pas de pain. | Je mange ne pas de pain. || Ne goes before the verb and pas after it. || @tags fr.negation
+  rw: Make the sentence negative :: Elle mange des frites. || Elle ne mange pas de frites. || Ne… pas around the verb; des becomes de after a negative. || @tags fr.negation,fr.partitive
+  tr: Two coffees and the bill, please. || Deux cafés et l'addition, s'il vous plaît. | Deux cafés et l'addition s'il vous plaît. || Cafés takes a silent -s in the plural; the bill = l'addition. || @tags fr.ordering
+  tr: I'd like a kilo of tomatoes, please. || Je voudrais un kilo de tomates, s'il vous plaît. | Un kilo de tomates, s'il vous plaît. || Quantity + de + noun, with no article. || @tags fr.partitive,fr.ordering
+  listen: Un thé au citron et un sandwich au fromage, ça fait sept euros vingt. || How much does the order cost? || €7.02 | *€7.20 | €17.20 || Sept euros vingt = €7.20. Dix-sept would be 17.
+  listen: Je voudrais une omelette, mais pas de frites, s'il vous plaît. || What does the customer order? || an omelette with chips | *an omelette without chips | chips without an omelette || "Une omelette, mais pas de frites" — an omelette but no chips.
+  ask: You're at a market stall. Ask for two products with a quantity, then ask how much it is. || kw: je voudrais & de/d' & combien || Bonjour, je voudrais un kilo de pommes et une bouteille de jus de pomme. Ça fait combien ?
+  write: A friend is coming for dinner. Write a message saying what you're buying at the market and what you don't eat or buy. || min=30 || req: du/de la/des/de l' | ne/n' | pas || Salut Tom ! Pour le dîner de ce soir, j'achète du poisson, des légumes et un kilo de fraises au marché. Je ne prends pas de viande, parce que ma sœur est végétarienne. Et toi, tu ne manges pas de fromage, c'est ça ? À ce soir !
+lessons:
+  - title: Ordering at a café
+    summary: Order drinks and snacks politely with je voudrais, ask for the bill and understand simple prices.
+    minutes: 35
+    skills: [speaking, vocabulary, listening]
+    tags: [fr.ordering, fr.articles]
+    objectives:
+      - Order food and drinks politely with je voudrais and s'il vous plaît
+      - Ask for the bill and understand prices up to 20 euros
+      - Use un or une with the things you order
+    intro: |
+      The café is at the heart of French daily life. Ordering politely is easy once you know one key phrase: **je voudrais…** (*I would like…*). In this lesson you will order drinks and snacks, ask for the bill and understand the price.
+    vocab: |
+      je voudrais | I would like | expr | Je voudrais un café, s'il vous plaît. | I'd like a coffee, please. | n: More polite than je veux (I want).
+      un café | a coffee (espresso) | n | Un café et un croissant, s'il vous plaît. | A coffee and a croissant, please. | g: m | n: In France, un café is a small black espresso.
+      un café crème | a white coffee | n | Je voudrais un grand café crème. | I'd like a large white coffee. | g: m | n: Often shortened to un crème.
+      un thé | a tea | n | Un thé au citron, s'il vous plaît. | A lemon tea, please. | g: m | c: un thé au lait; un thé à la menthe
+      un chocolat chaud | a hot chocolate | n | Pour moi, un chocolat chaud. | For me, a hot chocolate. | g: m
+      un jus d'orange | an orange juice | n | Les enfants prennent un jus d'orange. | The children are having an orange juice. | g: m | n: Freshly squeezed: une orange pressée.
+      une eau minérale | a mineral water | n | Une eau minérale, s'il vous plaît. | A mineral water, please. | g: f | c: une eau gazeuse (sparkling); une eau plate (still)
+      un croissant | a croissant | n | Je voudrais deux croissants. | I'd like two croissants. | g: m
+      un sandwich | a sandwich | n | Un sandwich au jambon, s'il vous plaît. | A ham sandwich, please. | g: m | c: un sandwich au fromage; un jambon-beurre
+      l'addition | the bill | n | L'addition, s'il vous plaît ! | The bill, please! | g: f
+      pour moi | for me | expr | Pour moi, une limonade. | For me, a lemonade. | n: Also: pour lui (for him), pour elle (for her).
+      ça fait combien ? | how much is it? | expr | Ça fait combien, s'il vous plaît ? | How much is it, please? | n: The answer: Ça fait six euros.
+      l'euro | euro | n | Le café coûte deux euros. | The coffee costs two euros. | g: m | n: Liaison: un euro, deux euros [dø.zø.ʁo].
+      vous désirez ? | what would you like? | expr | Bonjour ! Vous désirez ? | Hello! What would you like? | n: Waiters also say: Qu'est-ce que je vous sers ?
+    grammar:
+      title: "Ordering politely: je voudrais + un, une"
+      body: |
+        **Je voudrais** (*I would like*) is the polite way to ask for something in a café, a shop or a restaurant. It comes from *vouloir* (to want), but *je veux* (I want) sounds too direct when you order.
+
+        - **Je voudrais + noun**: *Je voudrais un thé.*
+        - **Je voudrais + infinitive**: *Je voudrais payer, s'il vous plaît.*
+        - Add **s'il vous plaît** at the end (with friends: *s'il te plaît*).
+
+        When you order a drink or a snack, you count it as one item, so use **un** or **une**: *un café, une eau minérale, deux croissants*. Most drinks are masculine (*un café, un thé, un jus*), but some are feminine: *une limonade, une eau, une bière*.
+
+        Other natural ways to order: *Pour moi, un café.* — *Un café, s'il vous plaît.* — *Je prends un croissant* (I'll have a croissant). To pay, say *L'addition, s'il vous plaît* or *Je voudrais payer*; the answer is *Ça fait… euros*.
+      table: |
+        You want… | You say | Also possible
+        to order | Je voudrais un café, s'il vous plaît. | Un café, s'il vous plaît.
+        to choose | Pour moi, une limonade. | Moi, je prends une limonade.
+        to pay | L'addition, s'il vous plaît. | Je voudrais payer.
+        the price | Ça fait combien ? | C'est combien ?
+      examples: |
+        Je voudrais un café crème, s'il vous plaît. | I'd like a white coffee, please.
+        Pour moi, une eau minérale. | For me, a mineral water.
+        Deux croissants et un jus d'orange, s'il vous plaît. | Two croissants and an orange juice, please.
+        Je voudrais payer, s'il vous plaît. | I'd like to pay, please. | je voudrais + infinitive
+      tip: Say bonjour before you order and merci when you're served — in France, the polite words matter as much as the order.
+    dialogue:
+      title: En terrasse
+      setting: Clara and her friend Hugo sit down on a café terrace in Toulouse. The waiter comes to take their order.
+      speakers: S=Le serveur/m; C=Clara/f; H=Hugo/m
+      lines: |
+        S: Bonjour ! Vous désirez ? | Hello! What would you like?
+        C: Bonjour, monsieur. Je voudrais un café crème, s'il vous plaît. | Hello. I'd like a white coffee, please.
+        S: Un grand ou un petit ? | A large one or a small one?
+        C: Un grand, s'il vous plaît. | A large one, please.
+        S: Et pour vous, monsieur ? | And for you, sir?
+        H: Pour moi, un jus d'orange et un croissant. | For me, an orange juice and a croissant.
+        S: Très bien. C'est tout ? | Very good. Is that all?
+        H: Oui, c'est tout, merci. | Yes, that's all, thanks.
+        C: L'addition, s'il vous plaît ! | The bill, please!
+        S: Voilà. Ça fait huit euros vingt. | Here you are. That's eight euros twenty.
+        H: Par carte, c'est possible ? | Is it possible to pay by card?
+        S: Oui, bien sûr. Merci et bonne journée ! | Yes, of course. Thank you and have a nice day!
+    pronunciation:
+      title: "Liaison with euros"
+      body: |
+        **Euro** starts with a vowel, so the number before it links to it: *un euro* [œ̃.nø.ʁo], *deux euros* [dø.zø.ʁo], *trois euros* [tʁwa.zø.ʁo], *six euros* [si.zø.ʁo], *dix euros* [di.zø.ʁo], *vingt euros* [vɛ̃.tø.ʁo].
+
+        **Neuf** keeps its [f] here: *neuf euros* [nœ.fø.ʁo]. The [v] only appears in *neuf ans* and *neuf heures*.
+      items: |
+        un euro
+        deux euros
+        trois euros
+        six euros
+        dix euros
+        vingt euros
+    culture:
+      title: Café culture
+      body: |
+        In many cafés, a coffee costs less at the counter (**au comptoir**) than at a table or on the terrace (**en terrasse**). Nobody will rush you: you can sit for an hour with one coffee and a book.
+
+        Service is included in the price (**service compris**). Leaving a little change for good service is a kind gesture, but it is not expected as it is in some countries.
+    mistakes: |
+      Je veux un café. => Je voudrais un café, s'il vous plaît. | Je veux sounds too direct when you order; je voudrais is polite.
+      Je voudrais une café. => Je voudrais un café. | Café is masculine: un café.
+      L'addition, s'il te plaît ! (to the waiter) => L'addition, s'il vous plaît ! | Use vous with staff you don't know: s'il vous plaît.
+    task:
+      title: At the café
+      mode: interaction
+      body: |
+        You are at a café with a friend. Greet the waiter, order a drink and a snack for yourself and a drink for your friend, ask for the bill, ask the price and ask to pay by card. Practise with the "Ordering at a café or restaurant" scenario with the AI coach.
+    exercises: |
+      fill: Je ___ un thé, s'il vous plaît. || voudrais || Je voudrais is the polite way to order. || @tags fr.ordering @hint vouloir (polite)
+      fill: Je voudrais ___ eau minérale. || une || Eau is feminine: une eau minérale. || @tags fr.articles,fr.gender
+      fill: L'addition, s'il ___ plaît ! || vous || With a waiter, use the formal s'il vous plaît. || @tags fr.register,fr.ordering
+      mc: The waiter asks "Vous désirez ?". You answer… || *Je voudrais un café, s'il vous plaît. | Je suis un café. | Je voudrais café. || Je voudrais + un/une + drink. Je suis means I am, and café needs an article. || @tags fr.ordering
+      mc: You want to pay. You say… || Ça va, merci. | *L'addition, s'il vous plaît. | Je voudrais un addition. || L'addition = the bill. Addition is feminine, so un addition is wrong. || @tags fr.ordering
+      mc: What does Clara order? || a small white coffee | *a large white coffee | an orange juice || "Je voudrais un café crème" — and then "Un grand". || @ctx dialogue @skill reading @tags fr.reading
+      tf: Hugo asks to pay by card. || true || Hugo asks "Par carte, c'est possible ?" and the waiter says yes. || @ctx dialogue
+      order: Pour moi, un chocolat chaud et un croissant. || For me, a hot chocolate and a croissant. || @tags fr.ordering
+      tr: I'd like a tea with lemon, please. || Je voudrais un thé au citron, s'il vous plaît. | Je voudrais un thé citron, s'il vous plaît. | Un thé au citron, s'il vous plaît. || Je voudrais + un thé; with lemon = au citron. || @tags fr.ordering
+      tr: How much is it? || Ça fait combien ? | C'est combien ? | Combien ça fait ? | Ça fait combien, s'il vous plaît ? || Ça fait combien ? is the usual question when you pay. || @tags fr.question-words
+      listen: Un café et deux croissants, ça fait quatre euros vingt. || How much does the customer pay? || €2.20 | *€4.20 | €4.02 || Quatre euros vingt = €4.20. || @tags fr.numbers
+      listen: @dialogue || How much is the bill? || €8.02 | *€8.20 | €18.20 || "Ça fait huit euros vingt."
+      dict: Je voudrais un jus d'orange, s'il vous plaît.
+      ask: You're at a café with a friend. Politely order a drink for yourself and one for your friend. || kw: je voudrais/pour moi & s'il vous plaît/s'il vous plait || Bonjour ! Je voudrais un café, s'il vous plaît, et pour mon amie, une limonade.
+      write: Write a short note to a friend about your favourite café — what you usually order there and how much it costs. || min=20 || req: je voudrais/je prends | euros || Au café de la gare, je prends toujours un café crème et un croissant. Je dis : « Je voudrais un grand crème, s'il vous plaît. » Ça fait quatre euros dix.
+
+  - title: At the market
+    summary: Buy food at the market with partitive articles (du, de la, des) and quantities (un kilo de, une bouteille de).
+    minutes: 40
+    skills: [grammar, vocabulary, speaking]
+    tags: [fr.partitive]
+    objectives:
+      - Name common food at the market
+      - Use du, de la, de l' and des for an unspecified amount
+      - Ask for quantities with un kilo de, une bouteille de, un peu de
+    intro: |
+      Markets are a great place to practise French: short exchanges, lots of food words and numbers. To say *some bread* or *a kilo of apples*, French uses **partitive articles** (**du, de la, des**) and **quantity + de**. You need these small words every time you talk about food.
+    vocab: |
+      le pain | bread | n | Je voudrais du pain, s'il vous plaît. | I'd like some bread, please. | g: m | c: une baguette; du pain complet (wholemeal bread)
+      le fromage | cheese | n | Vous avez du fromage de chèvre ? | Do you have goat's cheese? | g: m
+      la viande | meat | n | Il mange de la viande le dimanche. | He eats meat on Sundays. | g: f
+      le poisson | fish | n | Le vendredi, nous mangeons du poisson. | On Fridays, we eat fish. | g: m
+      le lait | milk | n | Tu prends du lait dans ton café ? | Do you take milk in your coffee? | g: m
+      la pomme | apple | n | Un kilo de pommes, s'il vous plaît. | A kilo of apples, please. | g: f
+      la tomate | tomato | n | Les tomates sont très belles aujourd'hui ! | The tomatoes are lovely today! | g: f
+      la pomme de terre | potato | n | Je voudrais deux kilos de pommes de terre. | I'd like two kilos of potatoes. | g: f | pl: les pommes de terre
+      les légumes | vegetables | n | J'achète toujours des légumes ici. | I always buy vegetables here. | g: m
+      l'eau | water | n | Une bouteille d'eau, s'il vous plaît. | A bottle of water, please. | g: f
+      le kilo | kilo | n | Les cerises sont à huit euros le kilo. | Cherries are eight euros a kilo. | g: m | c: un kilo de; un demi-kilo de; une livre de (500 g)
+      la bouteille | bottle | n | Je prends une bouteille de lait. | I'll take a bottle of milk. | g: f
+      un peu de | a little; some | expr | Je voudrais un peu de beurre. | I'd like a little butter. | n: Also: beaucoup de (a lot of), assez de (enough).
+      c'est tout ? | is that all? | expr | Et avec ceci ? C'est tout ? | Anything else? Is that all? | n: The answer: Oui, c'est tout, merci.
+    grammar:
+      title: Partitive articles and quantities
+      body: |
+        To talk about an **unspecified amount** of something — *some bread, (some) water* — French uses a **partitive article**. English often uses *some* or nothing at all, but French always needs an article.
+
+        - **du** + masculine noun: *du pain, du fromage*
+        - **de la** + feminine noun: *de la viande, de la confiture*
+        - **de l'** + noun starting with a vowel or silent h: *de l'eau, de l'huile*
+        - **des** + plural noun: *des tomates, des légumes*
+
+        With a **quantity**, use the quantity word + **de** (or **d'** before a vowel) and **no article**: *un kilo **de** pommes, une bouteille **d'**eau, un peu **de** sel, beaucoup **de** légumes*.
+
+        Compare: *Je voudrais **des** pommes* (some apples) and *Je voudrais un kilo **de** pommes* (a kilo of apples).
+
+        Remember that **de + le** always becomes **du**, and **de + les** becomes **des** — never ~~de le~~ or ~~de les~~.
+      table: |
+        Noun | partitive | example | with a quantity
+        masculine | du | du pain | un morceau de pain
+        feminine | de la | de la viande | un kilo de viande
+        vowel or silent h | de l' | de l'eau | une bouteille d'eau
+        plural | des | des tomates | un kilo de tomates
+      examples: |
+        Je voudrais du fromage et de la crème. | I'd like some cheese and some cream.
+        Vous avez des cerises ? | Do you have any cherries?
+        Un kilo de pommes de terre, s'il vous plaît. | A kilo of potatoes, please. | quantity + de
+        Je prends un peu de beurre et une bouteille de lait. | I'll take a little butter and a bottle of milk.
+      tip: "After a quantity it's always de or d' — un kilo de tomates, une bouteille d'eau — never un kilo des tomates."
+    dialogue:
+      title: Au marché
+      setting: Saturday morning at the market in Aix-en-Provence. Mrs Diallo stops at a stall that sells fruit, vegetables and cheese.
+      speakers: M=Le marchand/m; D=Mme Diallo/f
+      lines: |
+        M: Bonjour, madame ! Qu'est-ce que je vous sers ? | Good morning, madam! What can I get you?
+        D: Bonjour ! Je voudrais un kilo de tomates. | Hello! I'd like a kilo of tomatoes.
+        M: Voilà. Et avec ceci ? | Here you are. Anything else?
+        D: Vous avez des fraises ? | Do you have strawberries?
+        M: Oui, elles sont très bonnes aujourd'hui ! | Yes, they're very good today!
+        D: Alors, une barquette de fraises, s'il vous plaît. | Then a punnet of strawberries, please.
+        M: Très bien. C'est tout ? | Very good. Is that all?
+        D: Non, je voudrais aussi du fromage de chèvre. | No, I'd also like some goat's cheese.
+        M: Un petit ou un gros ? | A small one or a big one?
+        D: Un petit, s'il vous plaît. Ça fait combien ? | A small one, please. How much is that?
+        M: Alors… ça fait douze euros. | Let's see… that's twelve euros.
+        D: Voilà. Merci, bonne journée ! | Here you are. Thank you, have a nice day!
+    pronunciation:
+      title: "Du, de, des — and the vowel u"
+      body: |
+        The vowel in **du** is [y]: round your lips as if to say *ou*, but say *i* instead. Don't let it become *doux* [du] (soft). Practise *du pain, du fromage*.
+
+        Also listen for the difference between **de** [də], with a short weak vowel, and **des** [de], like *day* without the glide: *un kilo de tomates* — *des tomates*.
+      items: |
+        du pain
+        du fromage
+        de la viande
+        de l'eau
+        des tomates
+        un kilo de pommes
+    culture:
+      title: Markets in France
+      body: |
+        Most French towns and many city neighbourhoods have an open-air market (**le marché**) on one or more mornings a week. Stallholders often sell their own produce and may offer you a taste (*Vous voulez goûter ?*).
+
+        At many stalls it's the seller who picks the fruit and vegetables for you, so ask rather than touching. You'll also hear **une livre** (a pound, 500 g): *une livre de cerises*.
+    mistakes: |
+      Je voudrais pain. => Je voudrais du pain. | French needs an article here: du pain (some bread).
+      Un kilo des tomates. => Un kilo de tomates. | After a quantity, use de without an article.
+      Je voudrais de le fromage. => Je voudrais du fromage. | De + le always contracts to du.
+    task:
+      title: Your shopping list
+      mode: speaking
+      body: |
+        Write a shopping list of six items with quantities (un kilo de…, une bouteille de…, du…). Then role-play buying them at a market stall: greet the seller, ask for each item, ask the price and say goodbye.
+    exercises: |
+      fill: Le matin, je mange ___ pain avec ___ confiture. || du ; de la || Pain is masculine (du); confiture is feminine (de la). || @tags fr.partitive
+      fill: Vous avez ___ eau minérale ? || de l' || Before a vowel, use de l': de l'eau. || @tags fr.partitive,fr.elision
+      fill: Un kilo ___ pommes, s'il vous plaît. || de || After a quantity, use de with no article. || @tags fr.partitive
+      fill: Je prends une bouteille ___ huile d'olive. || d' || De becomes d' before a vowel or silent h: une bouteille d'huile. || @tags fr.partitive,fr.elision
+      mc: Choose the right phrase for "some meat". || du viande | *de la viande | des viande || Viande is feminine singular: de la viande. || @tags fr.partitive
+      mc: Which phrase is correct? || un kilo des cerises | *un kilo de cerises | un kilo du cerises || After a quantity such as un kilo, use de alone. || @tags fr.partitive
+      mc: What does Mrs Diallo buy first? || strawberries | *tomatoes | goat's cheese || "Je voudrais un kilo de tomates." || @ctx dialogue @skill reading @tags fr.reading
+      short: How much does Mrs Diallo pay? || kw: 12/douze/twelve || "Ça fait douze euros." || @ctx dialogue
+      rw: Add the quantity "un kilo" :: Je voudrais des tomates. || Je voudrais un kilo de tomates. || After a quantity, des becomes de. || @tags fr.partitive
+      tr: I'd like some cheese and some water, please. || Je voudrais du fromage et de l'eau, s'il vous plaît. | Je voudrais du fromage et de l'eau s'il vous plaît. || Fromage is masculine (du); eau starts with a vowel (de l'). || @tags fr.partitive,fr.ordering
+      listen: Bonjour ! Je voudrais un kilo de pommes et deux kilos de pommes de terre. || How many kilos of potatoes does the customer want? || 1 | *2 | 3 || "Deux kilos de pommes de terre." The apples are one kilo.
+      listen: @dialogue || What size of goat's cheese does Mrs Diallo choose? || a big one | *a small one | two small ones || The seller asks "Un petit ou un gros ?" and she answers "Un petit".
+      dict: Je voudrais du pain et un peu de fromage.
+      ask: At a market stall, ask for three things with quantities, then ask the price. || kw: je voudrais/vous avez & kilo/bouteille/un peu/barquette/morceau & combien || Bonjour ! Je voudrais un kilo de tomates, une barquette de fraises et un peu de fromage. Ça fait combien ?
+      write: Write a shopping list for a picnic (at least five items with quantities) and one sentence you will say to the stallholder. || min=20 || req: de/d' | je voudrais/vous avez || Liste : un kilo de tomates, une baguette, du fromage, une bouteille d'eau, un kilo de cerises. Au marché : « Bonjour, je voudrais un kilo de cerises, s'il vous plaît. »
+
+  - title: At the restaurant
+    summary: Understand a menu, order a meal and say what you don't eat with ne… pas and pas de.
+    minutes: 40
+    skills: [grammar, speaking, reading]
+    tags: [fr.negation, fr.partitive, fr.ordering]
+    objectives:
+      - Understand a simple menu (entrée, plat, dessert)
+      - Order a meal and ask for a vegetarian dish
+      - Make negative sentences with ne… pas and pas de
+    intro: |
+      At a restaurant you need to read the menu, order your meal — and sometimes say what you **don't** want or don't eat. French negation goes around the verb: **je ne mange pas de viande**. In this lesson you will practise ordering and saying no politely.
+    vocab: |
+      la carte | the menu | n | La carte, s'il vous plaît. | The menu, please. | g: f | n: The full list of dishes. Le menu is usually a set meal.
+      le menu | set menu | n | Le menu du jour est à dix-huit euros. | The set menu of the day is eighteen euros. | g: m | c: le menu du jour; le menu enfant
+      l'entrée | starter | n | En entrée, je voudrais une soupe. | As a starter, I'd like a soup. | g: f | n: Careful: in American English an entrée is a main course.
+      le plat | main course; dish | n | Le plat du jour, c'est du poulet rôti. | Today's special is roast chicken. | g: m | c: le plat du jour; le plat principal
+      le dessert | dessert | n | Et comme dessert, une tarte aux pommes. | And for dessert, an apple tart. | g: m
+      le poulet | chicken | n | Le poulet est servi avec des frites. | The chicken comes with chips. | g: m
+      les frites | chips; French fries | n | Un steak avec des frites, s'il vous plaît. | A steak with chips, please. | g: f
+      la salade | salad; lettuce | n | Je prends une salade verte. | I'll have a green salad. | g: f
+      végétarien | vegetarian | adj | Vous avez un plat végétarien ? | Do you have a vegetarian dish? | n: Feminine: végétarienne.
+      une carafe d'eau | a jug of tap water | n | Une carafe d'eau, s'il vous plaît. | A jug of tap water, please. | g: f | n: Tap water is free in French restaurants.
+      le vin | wine | n | Un verre de vin rouge, s'il vous plaît. | A glass of red wine, please. | g: m | c: un verre de vin; du vin blanc
+      comme | as; for (a course) | prep | Comme plat, je prends le poisson. | For my main course, I'll have the fish.
+      ne… pas | not | adv | Je ne mange pas de viande. | I don't eat meat. | n: Ne becomes n' before a vowel: je n'ai pas.
+      délicieux | delicious | adj | C'est délicieux ! | It's delicious! | n: Feminine: délicieuse.
+    grammar:
+      title: "Negation: ne… pas and pas de"
+      body: |
+        To make a sentence negative, put **ne** before the verb and **pas** after it, like a sandwich: *Je **ne** mange **pas**.* Before a vowel or silent h, ne becomes **n'**: *Nous **n'**avons **pas** de table. Il **n'**habite **pas** ici.* With a reflexive verb, ne goes before the pronoun: *Je **ne** me lève **pas** tôt.*
+
+        After a negative verb, **un, une, du, de la, de l'** and **des** become **de** (or **d'** before a vowel):
+
+        - *Je mange **de la** viande.* → *Je ne mange **pas de** viande.*
+        - *Elle prend **un** dessert.* → *Elle ne prend **pas de** dessert.*
+        - *Nous avons **de l'**eau.* → *Nous n'avons **pas d'**eau.*
+
+        **Le, la, les** don't change: *Je ne prends pas **le** poisson.* And after **être**, un and une stay: *Ce n'est pas **un** plat végétarien.*
+
+        In relaxed speech many people drop the ne (*je mange pas*), but always write it.
+      table: |
+        Positive | Negative
+        Je mange de la viande. | Je ne mange pas de viande.
+        Elle prend un dessert. | Elle ne prend pas de dessert.
+        Nous avons de l'eau. | Nous n'avons pas d'eau.
+        Je prends le poisson. | Je ne prends pas le poisson.
+        C'est un plat végétarien. | Ce n'est pas un plat végétarien.
+      examples: |
+        Je ne mange pas de viande, je suis végétarienne. | I don't eat meat, I'm a vegetarian.
+        Il ne prend pas de dessert. | He isn't having dessert.
+        Ce n'est pas le plat du jour. | That isn't today's special. | le stays le
+        Nous ne buvons pas de vin. | We don't drink wine.
+      tip: Only un, une, du, de la, de l' and des change to de after ne… pas — le, la and les stay the same.
+    dialogue:
+      title: Le plat du jour
+      setting: Inès and her colleague Jules have lunch in a small restaurant in Lyon.
+      speakers: S=La serveuse/f; I=Inès/f; J=Jules/m
+      lines: |
+        S: Bonjour ! Voici la carte. | Hello! Here's the menu.
+        I: Merci. Le plat du jour, c'est quoi ? | Thank you. What's today's special?
+        S: C'est du poulet avec des frites. | It's chicken with chips.
+        I: Désolée, je ne mange pas de viande. | Sorry, I don't eat meat.
+        S: Nous avons une omelette aux champignons. | We have a mushroom omelette.
+        I: Parfait ! Une omelette, s'il vous plaît. | Perfect! An omelette, please.
+        J: Pour moi, le plat du jour. | For me, today's special.
+        S: Et comme boisson ? | And to drink?
+        J: Une carafe d'eau, s'il vous plaît. | A jug of water, please.
+        S: Vous prenez un dessert ? | Are you having dessert?
+        I: Non merci, je ne prends pas de dessert. | No thanks, I'm not having dessert.
+        J: Moi, je voudrais une tarte aux pommes ! | I'd like an apple tart!
+    pronunciation:
+      title: The sound of ne… pas
+      body: |
+        In careful speech you hear both parts: *je ne mange pas* [ʒə.nə.mɑ̃ʒ.pa]. Before a vowel, ne becomes n' and links to the verb: *je n'ai pas* [ʒə.ne.pa], *ce n'est pas* [sə.nɛ.pa].
+
+        In fast everyday speech the ne is often dropped or almost silent — *j'mange pas* — so listen for **pas** to know the sentence is negative. *Pas de* often sounds like one syllable: [pad].
+      items: |
+        je ne mange pas
+        je n'ai pas
+        ce n'est pas
+        pas de viande
+        pas d'eau
+        il ne prend pas
+    culture:
+      title: Restaurant habits
+      body: |
+        At lunchtime many restaurants offer a **formule** — for example starter and main course, or main course and dessert, at a fixed price. A jug of tap water (**une carafe d'eau**) is free; just ask for it.
+
+        Waiters don't bring the bill until you ask for it — rushing you would be impolite. Catch their eye and say *L'addition, s'il vous plaît*. Service is included in the prices.
+    mistakes: |
+      Je ne mange pas de la viande. => Je ne mange pas de viande. | After ne… pas, du / de la / des become de.
+      Nous ne avons pas de dessert. => Nous n'avons pas de dessert. | Ne becomes n' before a vowel.
+      Je mange pas de viande. (in writing) => Je ne mange pas de viande. | In writing, always use both parts: ne… pas.
+    task:
+      title: Order a meal
+      mode: interaction
+      body: |
+        With a partner, or in the "Ordering at a café or restaurant" scenario with the AI coach, order a starter or a dessert and a main course. Ask if there is a vegetarian dish or say one thing you don't eat, order a drink, and ask for the bill.
+    exercises: |
+      fill: Je ___ mange ___ viande. || ne ; pas de || Ne before the verb, pas after it, and de la becomes de: je ne mange pas de viande. || @tags fr.negation,fr.partitive
+      fill: Nous ___ avons pas de dessert. || n' || Ne becomes n' before a vowel: nous n'avons pas. || @tags fr.negation,fr.elision
+      fill: Elle ne prend pas ___ entrée. || d' || After a negative, une becomes de — and de becomes d' before a vowel. || @tags fr.negation,fr.partitive
+      fill: Je ne prends pas ___ poisson, je prends le poulet. || le || Le, la and les don't change after ne… pas. || @tags fr.negation,fr.articles
+      mc: Make it negative — "Il prend du vin." || Il ne prend pas du vin. | *Il ne prend pas de vin. | Il prend ne pas de vin. || Ne… pas goes around the verb, and du becomes de. || @tags fr.negation,fr.partitive
+      mc: Why doesn't Inès order today's special? || She doesn't like chips. | *She doesn't eat meat. | She isn't hungry. || She says "Désolée, je ne mange pas de viande" — the special is chicken. || @ctx dialogue @skill reading @tags fr.reading
+      tf: Jules orders a dessert. || true || Jules says "Moi, je voudrais une tarte aux pommes !" || @ctx dialogue
+      rw: Make the sentence negative :: Je prends un dessert. || Je ne prends pas de dessert. || Ne… pas around the verb; un becomes de. || @tags fr.negation
+      rw: Make the sentence negative :: C'est un plat végétarien. || Ce n'est pas un plat végétarien. || After être, un and une don't change: ce n'est pas un… || @tags fr.negation
+      tr: I don't eat fish. || Je ne mange pas de poisson. || Ne… pas + de, with no article. || @tags fr.negation,fr.partitive
+      listen: Je ne prends pas d'entrée, mais je voudrais un dessert. || What does the customer order? || a starter | *a dessert | a starter and a dessert || "Je ne prends pas d'entrée, mais je voudrais un dessert" — no starter, but a dessert.
+      listen: @dialogue || What does Jules drink? || wine | *tap water | orange juice || "Une carafe d'eau, s'il vous plaît" — a jug of tap water.
+      dict: Je ne mange pas de viande, je suis végétarien.
+      ask: The waiter asks what you'd like. Order a main course and say one thing you don't eat or don't want. || kw: je voudrais/je prends/pour moi & pas || Pour moi, l'omelette, s'il vous plaît. Je ne mange pas de viande.
+      write: Write a short restaurant review for a friend — what you ate, one thing you didn't take, and the price. || min=30 || req: ne/n' | pas | euros || Le restaurant de la place est super ! Le menu est à dix-sept euros. En entrée, je prends une soupe, et comme plat, du poisson avec des légumes. Je ne prends pas de dessert, mais le café est délicieux.

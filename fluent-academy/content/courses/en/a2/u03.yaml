@@ -1,0 +1,350 @@
+unit: 3
+title: Feeling better
+theme: Health and the body
+description: Say what's wrong when you feel ill, understand a doctor and a pharmacist, and talk about healthy habits — with imperatives, should and have to.
+free: false
+objectives:
+  - Describe symptoms and aches, and give simple advice with imperatives
+  - Ask for and give advice with should and shouldn't at the doctor's and the pharmacy
+  - Talk about healthy habits, rules and necessity with have to and don't have to
+canDo:
+  - I can say what's wrong when I feel ill.
+  - I can explain my symptoms to a doctor and understand instructions for medicine.
+  - I can give a friend advice about health with should and shouldn't.
+  - I can talk about what I have to do and what I don't have to do.
+review: |
+  fill: I have a ___ throat, so I can't talk much today. || sore || A sore throat = your throat hurts. || @tags en.health @skill vocabulary
+  fill: That cough sounds really bad. You ___ see a doctor. || should || Should + base form gives advice. || @tags en.modal-verbs
+  fill: My grandfather ___ (have to) take his pills three times a day. || has to || He/she/it → has to. || @tags en.modal-verbs
+  mc: "My back hurts." Which advice is best? || *You shouldn't carry heavy bags. | You should carry heavy bags. | You don't have to rest. || Heavy bags are bad for a painful back, so the advice is shouldn't carry. || @tags en.modal-verbs,en.health
+  mc: We ___ go to school tomorrow. It's a holiday! || *don't have to | have to | has to || It's a holiday, so it isn't necessary: don't have to. Has to is for he/she/it. || @tags en.modal-verbs
+  rw: Make it negative :: Take this medicine with milk. || Don't take this medicine with milk. | Do not take this medicine with milk. || Negative imperative: Don't + base form. || @tags en.verb-forms
+  rw: Make a question :: I should call the doctor. || Should I call the doctor? || Questions with should: Should + subject + base form. || @tags en.modal-verbs,en.questions
+  match: I need my prescription medicine. = the pharmacy ; I have a terrible toothache. = the dentist ; I had a serious accident. = the emergency room ; I want to get fit. = the gym || Match each situation with the best place to go. || @tags en.health @skill vocabulary
+  listen: Hi, it's Leon. I can't come to work today. I have a fever and a terrible headache. || Why is Leon calling? || *He's sick. | He's late for work. | He lost his keys. || He has a fever and a headache, so he can't come to work. || @tags en.listening,en.health
+  listen: You should drink more water and go for a walk every day, but you don't have to stop eating chocolate. || What does the speaker say about chocolate? || You have to stop eating it. | *It isn't necessary to stop eating it. | You should eat more of it. || "You don't have to stop eating chocolate" — it isn't necessary. || @tags en.listening,en.modal-verbs
+  ask: A coworker looks tired and stressed. Give two pieces of advice. || kw: should/try/don't/have to & sleep/rest/walk/break/relax/drink/eat/bed/home || You look really tired. You should take a break and go for a walk. And don't work late tonight — try to sleep eight hours.
+  write: Write a message to a friend who is sick. Ask how they feel and give advice with should and an imperative. || min=35 || req: should | feel/better || Hi Ana, I'm sorry you're sick! How do you feel today? You should stay in bed and drink lots of hot tea with honey. Don't go to class tomorrow — I can send you my notes. Get better soon!
+lessons:
+  - title: Aches and pains
+    summary: Say what's wrong when you feel ill — aches, a sore throat, a fever — and give simple advice with imperatives.
+    minutes: 35
+    skills: [vocabulary, speaking, listening]
+    tags: [en.health, en.verb-forms, en.pronunciation]
+    objectives:
+      - Describe common symptoms with have a…, hurt and feel
+      - Give advice with positive and negative imperatives
+      - Ask "What's the matter?" and show sympathy
+    intro: |
+      When you feel ill, you need to explain the problem quickly: *I have a headache. My back hurts. I feel dizzy.* In this lesson you will learn how to describe common aches and pains, how to ask **What's the matter?**, and how to give simple advice with imperatives like **Drink lots of water** and **Don't go to work**.
+    vocab: |
+      What's the matter? | What's wrong? What's the problem? | expr | You look pale. What's the matter? | - | n: You can also ask: Are you OK?
+      headache | a pain in your head | n | I have a terrible headache. | - | c: have a headache; a bad headache
+      stomachache | a pain in your stomach | n | I ate too fast and now I have a stomachache. | - | n: Also toothache, backache, earache.
+      sore throat | a pain in your throat, especially when you swallow | n | I have a sore throat, so I can't sing today. | - | c: have a sore throat
+      cough | the noise you make when air comes out of your throat suddenly; the illness | n | My son has a bad cough. | - | c: have a cough; a dry cough | n: Also a verb: He coughed all night.
+      fever | a body temperature that is higher than normal | n | She has a fever of 101 degrees. | - | c: have a fever; a high fever | n: British English also: a temperature.
+      cold | a common illness: you sneeze and your nose runs | n | I have a cold, so I'm staying at home. | - | c: have a cold; catch a cold
+      hurt | to feel pain; to cause pain | v | My legs hurt after the long walk. | - | c: my back hurts; hurt your knee | n: Past: hurt (no change).
+      ankle | the joint between your foot and your leg | n | I hurt my ankle playing basketball. | - | c: a sprained ankle
+      dizzy | feeling that everything is moving around you | adj | I feel dizzy when I stand up too fast. | - | c: feel dizzy
+      feel sick | to feel that you are going to vomit; also, to feel ill | expr | I feel sick after that boat trip. | - | n: In American English, I'm sick often just means I'm ill.
+      painkiller | a medicine that stops pain | n | Take a painkiller and lie down. | - | c: take a painkiller
+      rest | to relax and do nothing so that your body can get better | v | You should rest for a few days. | - | c: get some rest | n: Also a noun: Get some rest.
+    grammar:
+      title: "Symptoms with have, hurt and feel; imperatives for advice"
+      body: |
+        There are three common ways to say what's wrong:
+        - **have a** + illness or ache: *I **have a** headache / a cold / a fever / a sore throat.* (British English often says *I've got a cold*.)
+        - body part + **hurt(s)**: *My head **hurts**. My feet **hurt**.* (one thing → hurts; two or more → hurt)
+        - **feel** + adjective: *I **feel** dizzy / sick / awful.*
+
+        To talk about an injury, use the past simple: *I **hurt** my ankle yesterday.*
+
+        To give simple, direct advice, use the **imperative** — the base form of the verb: ***Take** a painkiller. **Drink** lots of water. **Go** to bed.* For negative advice, use **Don't** + base form: ***Don't go** to work today.* Add *try to* to make it softer: *Try to sleep.*
+      table: |
+        Problem | Example | Advice (imperative)
+        have a… | I have a headache. | Take a painkiller.
+        … hurts | My ankle hurts. | Don't walk on it.
+        … hurt | My eyes hurt. | Don't look at your screen all day.
+        feel… | I feel dizzy. | Sit down and drink some water.
+        past injury | I hurt my back yesterday. | Don't lift anything heavy.
+      examples: |
+        What's the matter? — I have a sore throat. | | have a + problem
+        My feet hurt after the run. | | two feet → hurt
+        I feel dizzy. — Sit down for a minute. | | imperative for advice
+        Don't go out in the cold. Stay at home and rest. | | negative and positive imperatives
+      tip: "Don't forget a: I have a headache, a cold, a fever, a cough. But some words don't take a: I have flu (British) / I have the flu (American)."
+    dialogue:
+      title: A bad morning
+      setting: A Wednesday morning in a shared house in Brisbane, Australia. Sunil wakes up feeling terrible. His housemate Talia sees him in the kitchen.
+      speakers: T=Talia/f; S=Sunil/m
+      lines: |
+        T: Morning, Sunil. Are you OK? You look terrible.
+        S: I feel awful. I have a really bad headache.
+        T: Oh no. Do you have a fever too?
+        S: I think so. And my throat hurts.
+        T: Maybe it's the flu. Go back to bed.
+        S: But I have a big meeting at ten.
+        T: Call your boss and stay at home today.
+        S: You're right. My whole body hurts.
+        T: Take a painkiller and drink lots of water.
+        S: Thanks, Talia. Is there any honey for my throat?
+        T: Yes. Don't get up — I can bring it to you.
+    pronunciation:
+      title: "-ache sounds like make"
+      body: |
+        The word **ache** sounds like *make* or *take* without the first letter: "ake". The letters **ch** make a **k** sound here. So *headache* is "HED-ake" and *stomachache* is "STUM-uk-ake".
+
+        In **sore throat**, put your tongue between your teeth for the **th** sound. Listen and repeat.
+      items: |
+        headache
+        stomachache
+        toothache
+        backache
+        a sore throat
+        my back hurts
+    culture:
+      title: Calling in sick
+      body: |
+        When you are too ill to go to work, you **call in sick**: you phone or message your manager early in the morning. In the UK, workers can usually take up to seven days off sick without a note from a doctor; after that, they need a **fit note** from their doctor. In the US, the number of **sick days** depends on the company and the state.
+
+        Be careful with *sick*: in American English, *I'm sick* usually means *I'm ill*. In British English, *I feel sick* often means you think you are going to vomit.
+    mistakes: |
+      I have headache. => I have a headache. | Use a before headache, cold, cough, fever and sore throat.
+      My legs hurts. => My legs hurt. | Two or more body parts → hurt, without -s.
+      Don't to go to work. => Don't go to work. | Negative imperative: Don't + base form, without to.
+    task:
+      title: Call in sick
+      mode: speaking
+      body: |
+        You wake up and you feel ill. Leave a short voicemail (20–30 seconds) for your manager or teacher: say who you are, what's wrong (two symptoms), that you can't come today, and when you plan to call again. Record it in Speaking practice and listen back — is it clear?
+    exercises: |
+      fill: I have a terrible ___. I need a painkiller for my head. || headache || A pain in your head is a headache. || @tags en.health @skill vocabulary
+      fill: My feet ___ after the long walk. || hurt || Feet is plural, so use hurt without -s. || @tags en.health,en.agreement
+      fill: ___ go to work today. Stay in bed. || Don't / Do not || Negative imperative: Don't + base form. || @tags en.verb-forms
+      mc: "What's the matter?" Choose the best answer. || *I have a sore throat. | I have sore throat. | I am a sore throat. || Say I have a sore throat — with have and a. || @tags en.health
+      mc: Your friend hurt her ankle playing soccer. Which is good advice? || *Rest it and put some ice on it. | Run on it to make it stronger. | Forget about it and play another game. || A hurt ankle needs rest. Running or playing on it can make it worse. || @tags en.health,en.verb-forms
+      rw: Make it negative :: Go out tonight. || Don't go out tonight. | Do not go out tonight. || Negative imperative: Don't + base form. || @tags en.verb-forms
+      rw: Rewrite with "hurts" :: I have a pain in my stomach. || My stomach hurts. || One body part + hurts. || @tags en.health,en.agreement
+      match: I have a fever. = Rest and drink lots of water. ; I have a toothache. = Call the dentist. ; I hurt my back. = Don't lift heavy things. ; I can't sleep. = Don't drink coffee in the evening. || Match each problem with the best advice. || @tags en.health,en.verb-forms
+      tf: Sunil has a stomachache. || false || He has a headache, maybe a fever, and his throat hurts. || @ctx dialogue
+      short: What does Talia tell Sunil to drink? || kw: water || "Take a painkiller and drink lots of water." || @ctx dialogue
+      listen: @dialogue || Why doesn't Sunil want to stay at home at first? || *He has a big meeting. | He has no food at home. | He wants to see a doctor. || "But I have a big meeting at ten." || @tags en.listening
+      listen: I fell off my bike yesterday, and now my knee really hurts. I can't walk very well. || What's the problem? || *The speaker hurt a knee. | The speaker's bike is broken. | The speaker has a fever. || "Now my knee really hurts." || @tags en.listening,en.health
+      dict: I have a sore throat and my head hurts.
+      ask: You feel ill. Tell a friend what's wrong — give two symptoms. || kw: have/hurts/hurt/feel & headache/fever/cough/cold/sore/stomachache/dizzy/sick/toothache/throat/back/head || I don't feel very well. I have a fever, and my throat hurts. I think I have a cold.
+      write: Write a message to your manager or teacher. Say you can't come today and explain what's wrong. || min=25 || req: have/feel/hurts/hurt | today || Hi Ms. Patel, I'm sorry, but I can't come to work today. I have a high fever and a bad cough. I'm going to stay in bed and rest. I can call you tomorrow morning. Best, Daniel
+
+  - title: "At the doctor's and the pharmacy"
+    summary: Explain your symptoms to a doctor, understand advice and instructions for medicine, and ask questions with should.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [en.modal-verbs, en.health, en.questions]
+    objectives:
+      - Give and ask for advice with should and shouldn't
+      - Explain symptoms and answer a doctor's questions
+      - Understand instructions on medicine (twice a day, with food)
+    intro: |
+      At the doctor's office and the pharmacy, you need to understand advice and instructions — and ask the right questions: ***Should** I take it with food? How often **should** I take it?* In this lesson you will use **should** and **shouldn't** to give and ask for advice, and learn the words you need to see a doctor and get your medicine.
+    vocab: |
+      appointment | a time when you plan to see a doctor, dentist and so on | n | I have an appointment at 3:15. | - | c: make an appointment; cancel an appointment
+      symptom | a sign of an illness, for example a fever or a cough | n | What are your symptoms? | - | c: flu symptoms; describe your symptoms
+      examine | to look at a person's body carefully to find a problem | v | The doctor examined my ears. | - | n: Noun: examination (exam).
+      prescription | a doctor's note that says which medicine you need | n | You need a prescription for these pills. | - | c: write a prescription; fill a prescription
+      pharmacy | a store that prepares and sells medicine | n | The pharmacy opens at 8 a.m. | - | n: American English also: drugstore. British English: chemist's.
+      pharmacist | a person whose job is to prepare and sell medicine | n | Ask the pharmacist about side effects. | - | n: Stress: PHAR-ma-cist.
+      medicine | something you take to get better when you are ill | n | Take your medicine after breakfast. | - | c: take medicine; cough medicine
+      pill | a small, round piece of medicine that you swallow | n | Take one pill with a glass of water. | - | n: Also tablet. A capsule is similar.
+      twice a day | two times every day | expr | Take the pills twice a day, morning and evening. | - | c: once a day; three times a day
+      allergic | having a bad reaction to something you eat, touch or breathe | adj | I'm allergic to penicillin. | - | c: allergic to nuts; allergic to cats | n: Noun: an allergy.
+      infection | an illness caused by bacteria or a virus in part of the body | n | You have a chest infection. | - | c: an ear infection; a chest infection
+      get better | to become healthy again | expr | I hope you get better soon! | - | n: The past is got better. Friendly wish: Get well soon!
+    grammar:
+      title: "should and shouldn't for advice"
+      body: |
+        We use **should** + base form to say that something is a good idea: *You **should** rest.* We use **shouldn't** (should not) to say that something is a bad idea: *You **shouldn't** drink alcohol with this medicine.*
+
+        Should is the same for every person — no -s: *She **should** see a doctor* (not ~~shoulds~~). And there is no *to* after it: ~~You should to rest~~.
+
+        To ask for advice, put should first: ***Should** I take it with food? What **should** I do? How often **should** I take it?* Short answers: *Yes, you should. / No, you shouldn't.*
+
+        To make advice softer and more polite, start with **I think** or **Maybe**: *I think you should go home. Maybe you should call the doctor.* Imperatives (*Take this…*) are more direct; doctors and pharmacists often use them for instructions.
+      table: |
+        Positive | Negative | Question | Short answers
+        You should rest. | You shouldn't go to work. | Should I stay at home? | Yes, you should. / No, you shouldn't.
+        She should drink water. | She shouldn't drink coffee. | Should she take a pill? | Yes, she should. / No, she shouldn't.
+        — | — | How often should I take it? | Twice a day.
+      examples: |
+        You should make an appointment with your doctor. | | should + base form
+        You shouldn't eat anything before the test. | | shouldn't = it's a bad idea
+        Should I take these pills with food? — Yes, you should. | | question + short answer
+        I think you should stay at home today. | | softer advice
+      tip: "Should means \"it's a good idea\", not \"it's necessary\". For rules and things that are necessary, use have to — you'll learn it in the next lesson."
+    dialogue:
+      title: That cough
+      setting: A clinic in Phoenix, Arizona. Marisol Reyes sees Dr. Okafor about her cough. Then she goes to the pharmacy next door, where Ben, the pharmacist, gives her the medicine.
+      speakers: D=Dr. Okafor/m; M=Marisol/f; P=Ben/m
+      lines: |
+        D: Good morning, Ms. Reyes. What seems to be the problem?
+        M: I have a bad cough, and I can't sleep at night.
+        D: I see. When did the cough start?
+        M: About a week ago. I also have a slight fever.
+        D: Let me examine you. Breathe in… and out.
+        D: It's a chest infection. You should take these antibiotics.
+        M: Should I stay at home from work?
+        D: Yes, you should rest for two or three days.
+        P: Here's your medicine. Take one pill twice a day.
+        M: Should I take it with food?
+        P: Yes, and you shouldn't drink alcohol with it.
+        M: Thank you. I hope I get better soon.
+    pronunciation:
+      title: "Silent l in should, could and would"
+      body: |
+        In **should**, the **l** is silent: it sounds like "shood", and it rhymes with *good*. The same is true for *could* and *would*.
+
+        In a sentence, *should* is usually short and weak: *You should rest* → "You shd rest". In short answers it is strong: *Yes, you **should**.* In **shouldn't**, the t at the end is very soft. Listen and repeat.
+      items: |
+        You should rest.
+        You shouldn't worry.
+        Should I take it with food?
+        Yes, you should.
+        twice a day
+        pharmacy
+    culture:
+      title: Seeing a doctor
+      body: |
+        In the US, people usually see a doctor at a **doctor's office** or a **clinic**, and they need health insurance or have to pay. For small problems at night or on weekends, there are **urgent care** centers; for emergencies, people go to the **ER** (emergency room) or call **911**.
+
+        In the UK, people register with a **GP** (general practitioner, a family doctor), and NHS care is free at the point of use. The emergency number is **999**, and **111** is for urgent questions that aren't emergencies. Pharmacists in both countries can give advice on small problems like colds.
+    mistakes: |
+      You should to see a doctor. => You should see a doctor. | Should + base form, without to.
+      She shoulds rest. => She should rest. | Should never changes: no -s for he, she or it.
+      Do I should take it with food? => Should I take it with food? | In questions, put should before the subject. Don't use do.
+    task:
+      title: A visit to the doctor
+      mode: interaction
+      body: |
+        Role-play a visit to the doctor. Explain two symptoms, say when they started, and ask at least two questions with should (*Should I stay at home? How often should I take it?*). Then practice with the AI coach in the "At the doctor's" scenario.
+    exercises: |
+      fill: You have a fever. You ___ stay in bed for a few days. || should || Should + base form = it's a good idea. || @tags en.modal-verbs
+      fill: You ___ drink coffee before bed. It keeps you awake. || shouldn't / should not || Coffee before bed is a bad idea: shouldn't. || @tags en.modal-verbs
+      fill: ___ I take this medicine before or after meals? || Should || To ask for advice, start the question with should. || @tags en.modal-verbs,en.questions
+      mc: Choose the correct sentence. || You should to rest. | *You should rest. | You should resting. || Should + base form: should rest. || @tags en.modal-verbs
+      rw: Give advice with "You should" :: Go to the dentist. || You should go to the dentist. || You should + base form. || @tags en.modal-verbs
+      rw: Give advice with "You shouldn't" :: Don't carry heavy bags. || You shouldn't carry heavy bags. | You should not carry heavy bags. || Don't + verb → You shouldn't + verb. || @tags en.modal-verbs
+      order: How often should I take these pills? || @tags en.modal-verbs,en.questions
+      match: twice a day = two times every day ; prescription = a doctor's note for medicine ; pharmacist = a person who prepares and sells medicine ; allergic = having a bad reaction to something || Match each word with its meaning. || @tags en.health @skill vocabulary
+      tf: Marisol's cough started about a week ago. || true || "About a week ago." || @ctx dialogue
+      short: How many pills should Marisol take every day? || kw: two/2/twice || The pharmacist says, "Take one pill twice a day." || @ctx dialogue
+      listen: @dialogue || What shouldn't Marisol do? || Take the pills with food | *Drink alcohol with the medicine | Stay at home from work || "You shouldn't drink alcohol with it." || @tags en.listening,en.modal-verbs
+      listen: Take two tablets every six hours, but don't take more than eight in one day. || What is the maximum number of tablets in one day? || Six | *Eight | Two || "Don't take more than eight in one day." Six is the number of hours. || @tags en.listening,en.numbers
+      dict: You should rest and drink lots of water.
+      ask: A friend has a toothache and can't sleep. Give two pieces of advice with should. || kw: should & dentist/painkiller/rest/sleep/call/see/take/eat/drink/appointment || You should call the dentist tomorrow morning. And you should take a painkiller tonight. You shouldn't eat sweet things.
+      write: Your friend is going on a long trip and is worried about getting sick. Write a message with three pieces of advice. Use should and shouldn't. || min=30 || req: should | shouldn't/should not || Hi Jonas! Don't worry. You should take a small first-aid kit with painkillers. You should drink bottled water, and you shouldn't eat food from places that look dirty. Have a great trip!
+
+  - title: Healthy habits
+    summary: Talk about healthy and unhealthy habits, rules and necessity with have to and don't have to.
+    minutes: 40
+    skills: [grammar, reading, writing]
+    tags: [en.modal-verbs, en.health, en.schwa]
+    objectives:
+      - Use have to, has to and had to for necessity and rules
+      - Use don't have to when something isn't necessary
+      - Talk about your habits and plan small changes
+    intro: |
+      Some things are necessary: *I **have to** take my medicine every day.* Other things are just a good idea: *I **should** walk more.* And some things are not necessary at all: *You **don't have to** join a gym.* In this lesson you will talk about healthy habits with **have to** and **don't have to**, and plan small, realistic changes.
+    vocab: |
+      habit | something that you do often, almost without thinking | n | Walking to work is a good habit. | - | c: a healthy habit; a bad habit; break a habit
+      healthy | good for your body; not ill | adj | We try to eat healthy food. | - | n: The opposite is unhealthy.
+      work out | to do exercise to make your body strong | phr v | I work out at the gym three times a week. | - | n: Noun: a workout.
+      get enough sleep | to sleep as much as your body needs | expr | Teenagers often don't get enough sleep. | - | c: get eight hours of sleep
+      skip | to not do or not have something that you usually do | v | I often skip breakfast because I'm late. | - | c: skip breakfast; skip a class | n: Past: skipped.
+      junk food | food that is fast and easy but not healthy, like chips and candy | n | I eat too much junk food. | - | n: British English: crisps and sweets.
+      balanced diet | a mix of different healthy foods | n | A balanced diet has lots of fruit and vegetables. | - | n: A diet can also mean eating less to lose weight: I'm on a diet.
+      take the stairs | to walk up the stairs and not use the elevator | expr | I take the stairs to my office on the fifth floor. | - | n: British English: lift = elevator.
+      stretch | to make your arms, legs or body long and straight | v | Stretch your legs every hour. | - | c: stretch your back; stretch after a run
+      screen time | the time you spend looking at phones, computers and TV | n | I want to reduce my screen time. | - | c: too much screen time
+      stressed | worried and nervous because you have too many problems or too much work | adj | I feel stressed before exams. | - | c: stressed about work; feel stressed
+      quit | to stop doing something, especially a bad habit | v | My uncle quit smoking last year. | - | c: quit smoking; quit a job | n: Past: quit.
+      energy | the strength to be active without feeling tired | n | I have more energy in the morning. | - | c: full of energy; no energy
+    grammar:
+      title: "have to and don't have to"
+      body: |
+        We use **have to** + base form when something is **necessary** — because of a rule, a job or the situation: *I **have to** wear a uniform at work. She **has to** take her pills every morning.*
+
+        We use **don't have to** when something is **not necessary** — you can do it if you want, but you can choose: *You **don't have to** join a gym. Just walk more.*
+
+        Have to works like a normal verb: **has to** for he/she/it, and questions and negatives with **do/does**: ***Do** you **have to** work on Saturdays? He **doesn't have to** cook.* In the past, use **had to**: *I **had to** wait two hours.*
+
+        Careful: *don't have to* does not mean "it's not allowed". To say that, use **can't**: *You **can't** smoke in the hospital.*
+      table: |
+        Subject | Positive | Negative | Question
+        I / you / we / they | have to go | don't have to go | Do you have to go?
+        he / she / it | has to go | doesn't have to go | Does she have to go?
+        everyone (past) | had to go | didn't have to go | Did you have to go?
+      examples: |
+        I have to get up at six for work. | | necessary because of my job
+        My sister has to take her medicine every day. | | she → has to
+        You don't have to run. Walking is fine too. | | not necessary
+        Did you have to wait long at the hospital? — Yes, I had to wait two hours. | | past: had to
+      tip: "Compare: You should sleep more (a good idea). You have to sleep more (it's necessary — this is serious!). You don't have to sleep more (you sleep enough)."
+    dialogue:
+      title: The health check
+      setting: A free health check at a community center in Leeds, England. Nurse Abena asks Owen about his daily habits.
+      speakers: A=Abena/f; O=Owen/m
+      lines: |
+        A: So, Owen, tell me about your daily habits.
+        O: Well, I usually skip breakfast because I'm always late.
+        A: Hmm. And do you work out at all?
+        O: Not really. I sit at a desk all day.
+        A: You don't have to join a gym. Just walk more.
+        O: That's easy. Do I have to stop drinking coffee?
+        A: No, you don't, but two cups a day is enough.
+        O: And sleep? I only get about five hours.
+        A: That's not enough. You have to sleep more, Owen.
+        O: But my kids wake me up at six every day!
+        A: Then try to go to bed at ten.
+    pronunciation:
+      title: "have to = \"hafta\", has to = \"hasta\""
+      body: |
+        In **have to**, the v sounds like **f**, and *to* is weak: "HAF-tə". In **has to**, the s sounds like a real **s**: "HAS-tə". In **had to**, the two d/t sounds join: "HAT-tə".
+
+        The weak **tə** is the schwa sound — short and relaxed. Listen and repeat.
+      items: |
+        I have to go.
+        She has to work late.
+        You don't have to come.
+        Do you have to wear a uniform?
+        We had to wait.
+    culture:
+      title: Official health advice
+      body: |
+        Health services in English-speaking countries give similar advice. In the UK, the NHS **"5 A Day"** campaign tells people to eat at least five portions of fruit and vegetables every day. In the US, the **MyPlate** guide shows a plate: half fruit and vegetables, and the other half grains and protein.
+
+        Both the UK and the US recommend that adults do at least **150 minutes** of moderate activity a week — for example, a fast 30-minute walk five days a week. You don't have to run a marathon!
+    mistakes: |
+      She have to work on Saturdays. => She has to work on Saturdays. | He, she, it → has to.
+      I have to going to the gym. => I have to go to the gym. | Have to + base form.
+      You don't have to smoke in here. => You can't smoke in here. | Don't have to = not necessary. For something that isn't allowed, use can't.
+    task:
+      title: My healthy week
+      mode: writing
+      body: |
+        Write a plan for a healthier week (6–8 sentences). Include three things you have to do (because of work, school or your health), two things you don't have to do, and two small changes you should make. Share it with a friend or ask the AI coach for feedback on your plan.
+    exercises: |
+      fill: My brother is a nurse, so he ___ work at night sometimes. || has to || He → has to + base form. || @tags en.modal-verbs
+      fill: It's Sunday! We ___ get up early today. || don't have to / do not have to || It isn't necessary on Sunday: don't have to. || @tags en.modal-verbs
+      fill: Yesterday I ___ (have to) wait two hours at the hospital. || had to || The past of have to is had to. || @tags en.modal-verbs,en.past-simple
+      mc: The swimming pool is free for students. You ___ pay. || *don't have to | have to | has to || Free means it isn't necessary to pay. Has to is only for he/she/it. || @tags en.modal-verbs
+      mc: Which sentence means "It's not necessary"? || *You don't have to bring water. | You can't bring water. | You have to bring water. || Don't have to = not necessary. Can't = not allowed; have to = necessary. || @tags en.modal-verbs
+      rw: Make a question :: She has to take her medicine every morning. || Does she have to take her medicine every morning? || Questions: Does + she + have to + base form. || @tags en.modal-verbs,en.questions
+      rw: Rewrite with "have to" :: It's necessary for me to sleep eight hours. || I have to sleep eight hours. | I have to sleep for eight hours. || Necessary for me → I have to. || @tags en.modal-verbs
+      match: work out = do exercise ; skip = not do or not have something, like a meal ; quit = stop a bad habit ; stretch = make your arms and legs long and straight || Match each verb with its meaning. || @tags en.health @skill vocabulary
+      tf: The nurse says Owen has to join a gym. || false || She says, "You don't have to join a gym. Just walk more." || @ctx dialogue
+      short: How many hours does Owen usually sleep? || kw: five/5 || "I only get about five hours." || @ctx dialogue
+      listen: @dialogue || How much coffee is OK for Owen? || *Two cups a day | Five cups a day | No coffee at all || "Two cups a day is enough." || @tags en.listening
+      listen: At our school, students don't have to wear a uniform, but they have to switch off their phones in class. || What do students have to do? || Wear a uniform | *Switch off their phones in class | Bring a laptop to class || "They have to switch off their phones." A uniform isn't necessary. || @tags en.listening,en.modal-verbs
+      dict: You don't have to run every day, but you should walk more.
+      ask: Tell a friend about your week — two things you have to do and one thing you don't have to do. || kw: have to/has to & don't have to/do not have to/doesn't have to || This week I have to finish a big project, and I have to take my son to the dentist. But I don't have to work on Friday, so I can relax.
+      write: Write a short post for a health forum (4–5 sentences) about your habits — one good habit, one bad habit, one thing you have to change and one piece of advice for other people. || min=40 || req: have to/has to | should || I have a good habit: I take the stairs every day. But I have a bad habit too — I eat a lot of junk food at work. My doctor says I have to change my diet. My advice: you should always bring healthy snacks from home.

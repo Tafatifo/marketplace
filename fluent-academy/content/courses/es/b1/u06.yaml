@@ -1,0 +1,348 @@
+unit: 6
+title: Salud y estilo de vida
+theme: Health and lifestyle
+description: Talk about stress and wellbeing, food culture and sport — describing what people do in general with impersonal se, and handling things at the table and the gym with double object pronouns.
+objectives:
+  - Describe habits and give general recommendations with impersonal se
+  - Offer, ask for and pass things with double object pronouns (te lo, se la)
+  - Place pronouns with infinitives, gerunds and commands (explícamelo, voy a explicártelo)
+canDo:
+  - I can explain how people in my country deal with stress and sleep.
+  - I can share a recipe and talk about meals and food customs.
+  - I can ask for, offer and pass things at the table naturally.
+  - I can understand and give instructions at the gym or a sports class.
+review: |
+  fill: En mi país ___ (comer) muy pronto, a las doce o las doce y media. || se come || Impersonal se + third-person singular talks about people in general. || @tags es.passive
+  fill: Para dormir mejor, ___ (aconsejar) no mirar el móvil antes de acostarse. || se aconseja || With an infinitive, impersonal se takes a singular verb: se aconseja. || @tags es.passive
+  mc: Choose the correct sentence. || Se recomienda descansos cada hora. | *Se recomiendan descansos cada hora. | Se recomiendas descansos cada hora. || With a plural noun, the verb agrees: se recomiendan descansos. || @tags es.passive
+  fill: —¿Le has devuelto el libro de recetas a tu tía? —Sí, ya ___ he devuelto. || se lo || Le becomes se before lo: se lo. || @tags es.object-pronouns
+  fill: —¿Nos enseñas las fotos de la boda? —Claro, ahora ___ enseño. || os las || Indirect pronoun first (os), then direct (las, for las fotos). || @tags es.object-pronouns
+  mc: —¿Me prestas tu raqueta? —Sí, mañana ___. || *te la traigo | la te traigo | te lo traigo || Raqueta is feminine (la); the indirect pronoun goes first: te la. || @tags es.object-pronouns
+  rw: Attach the pronouns to the command :: Me lo explicas. (make it an affirmative tú command) || Explícamelo. || Affirmative commands take pronouns at the end, with a written accent to keep the stress: explícamelo. || @tags es.object-pronouns,es.imperative
+  tr: I'm going to give it to her tomorrow. (the present: el regalo) || Se lo voy a dar mañana. | Voy a dárselo mañana. | Mañana se lo voy a dar. | Mañana voy a dárselo. || Le → se before lo; the pronouns go before voy or are attached to dar (dárselo). || @tags es.object-pronouns
+  listen: En mi casa se come a las tres y se cena a las diez. Los domingos, la comida dura hasta las cinco. || How long does Sunday lunch last? || Until three | *Until five | Until ten || «Los domingos, la comida dura hasta las cinco.» || @tags es.listening,es.passive
+  listen: —¿Le has dicho al entrenador que el jueves no puedes ir? —Sí, se lo dije ayer por la tarde. || When did the speaker tell the coach? || This morning | *Yesterday afternoon | On Thursday || «Se lo dije ayer por la tarde.» || @tags es.listening,es.object-pronouns
+  ask: A friend asks what people in your country do to stay healthy. Answer with at least two sentences with se. || kw: se & deporte/come/duerme/camina/corre/hace/descansa || En mi país se camina mucho y se hace bastante deporte al aire libre. Se come bastante pronto, pero también se trabaja muchas horas, así que el estrés es un problema.
+  write: Write a message (60–80 words) to a friend who wants your favourite recipe. Explain when you make it, who taught it to you and how to prepare it. || min=50 || req: me la/me lo/te la/te lo/se la/se lo | se || ¡Hola, Rubén! ¿Querías mi receta de lentejas? Me la enseñó mi abuela cuando yo era pequeño y siempre las hago en invierno. Es muy fácil: se pone el aceite, se fríen la cebolla y el pimiento, y luego se añaden las lentejas, una zanahoria y agua. Se cuecen unos cuarenta minutos. Si quieres, el sábado te la explico mejor en persona. ¡Un abrazo!
+lessons:
+  - title: Stress and wellbeing
+    summary: Talk about stress, sleep and wellbeing, and describe habits and recommendations with impersonal se.
+    minutes: 45
+    skills: [reading, grammar, speaking]
+    tags: [es.passive]
+    objectives:
+      - Talk about stress, tiredness and ways to relax
+      - Use impersonal se to describe what people do in general
+      - Make general recommendations with se recomienda / se aconseja
+    intro: |
+      Late dinners, long working days, phones in bed: there is a lot of talk in Spain about sleep and stress. When we describe what **people in general** do, Spanish often uses **impersonal se**: *En España **se cena** tarde. **Se recomienda** dormir ocho horas.* In this lesson you will read an article about it and describe the habits of your own country.
+    vocab: |
+      el estrés | stress | n | El estrés afecta a la salud y al sueño. | Stress affects health and sleep. | g: m | n: Estresado/a = stressed.
+      el bienestar | wellbeing | n | La empresa ha creado un programa de bienestar. | The company has created a wellbeing programme. | g: m
+      el cansancio | tiredness | n | Por la tarde noto mucho cansancio. | In the afternoon I feel very tired. | g: m
+      agotado | exhausted | adj | Después de la mudanza estábamos agotados. | After the move we were exhausted.
+      la ansiedad | anxiety | n | Hablar con alguien de confianza ayuda a reducir la ansiedad. | Talking to someone you trust helps to reduce anxiety. | g: f
+      madrugar | to get up early | v | Odio madrugar los lunes. | I hate getting up early on Mondays.
+      el descanso | break; rest | n | Hago un descanso de cinco minutos cada hora. | I take a five-minute break every hour. | g: m | c: hacer un descanso; los días de descanso
+      relajarse | to relax | v | Para relajarme, salgo a caminar por el río. | To relax, I go for a walk along the river.
+      la respiración | breathing | n | Unos minutos de respiración tranquila al día reducen el estrés. | A few minutes of calm breathing a day reduce stress. | g: f
+      liberar tensión | to release tension | expr | El deporte me ayuda a liberar tensión. | Sport helps me release tension.
+      el horario | timetable; schedule | n | En verano tengo un horario más flexible. | In summer I have a more flexible schedule. | g: m
+      el sueño | sleep; dream | n | Me falta sueño: duermo cinco horas al día. | I'm short of sleep: I sleep five hours a day. | g: m | n: Tener sueño = to be sleepy.
+    grammar:
+      title: "Impersonal se: se duerme poco"
+      body: |
+        To talk about what **people in general** do, without saying who, Spanish uses **se + verb in the third-person singular**: *En España **se cena** tarde.* *En esta empresa **se trabaja** mucho.* English would say "people", "you" or "one".
+
+        - With an **infinitive**, the verb stays singular: ***Se recomienda** dormir ocho horas.*
+        - With a **plural noun**, the verb agrees with the noun: ***Se recomiendan** descansos cortos*, but ***Se recomienda** un descanso*.
+        - With **reflexive verbs** (*acostarse, levantarse*) you can't add a second *se*. Use **uno / una** or **la gente** instead: ***Uno se acuesta** tarde* or ***La gente se acuesta** tarde*.
+        - With *ser* or *estar* + adjective, the adjective is masculine singular: *Cuando **se está cansado**, no se trabaja bien.*
+
+        In conversation, a generic **tú** is also very common: *Cuando **duermes** poco, **estás** de mal humor.*
+      table: |
+        Personal | Impersonal
+        Los españoles cenan tarde. | En España se cena tarde.
+        Los médicos recomiendan dormir ocho horas. | Se recomienda dormir ocho horas.
+        Los expertos recomiendan pausas. | Se recomiendan pausas.
+        La gente se acuesta tarde. | Uno se acuesta tarde. (not: se se acuesta)
+      examples: |
+        En mi ciudad se vive muy bien, pero se trabaja demasiado. | In my city life is very good, but people work too much. | singular verb
+        Se aconseja dejar el móvil fuera del dormitorio. | It is advisable to leave your phone outside the bedroom. | se + infinitive
+        En esta clínica se ofrecen talleres de meditación. | Meditation workshops are offered at this clinic. | plural noun: plural verb
+        Cuando uno está agotado, no piensa con claridad. | When you're exhausted, you don't think clearly. | uno with estar
+      tip: "On signs you will often see impersonal and passive se: Se alquila piso (flat to let), Se venden bicis (bikes for sale), No se permite fumar (no smoking)."
+    reading:
+      title: ¿Por qué estamos tan cansados?
+      text: |
+        En España se duerme poco. Se cena tarde, se ve la televisión hasta medianoche y, al día siguiente, se madruga para ir a trabajar. Muchos expertos explican que este ritmo tiene mucho que ver con el estrés y el cansancio que sufre buena parte de la población.
+
+        ¿Qué se puede hacer? Para empezar, se recomienda mantener un horario regular: acostarse y levantarse siempre a la misma hora, también el fin de semana. Además, se aconseja dejar el móvil fuera del dormitorio y no mirar pantallas durante la última hora del día.
+
+        En el trabajo, se habla cada vez más de la importancia de las pausas. Cuando se está muchas horas delante del ordenador, se pierde concentración, así que se recomiendan descansos cortos cada hora y, si es posible, salir a caminar un poco.
+
+        Otro factor clave es la vida social. En España se pasa mucho tiempo con los amigos y la familia, y eso protege contra la ansiedad. Hablar de nuestros problemas con alguien de confianza es una de las mejores formas de liberar tensión.
+
+        Por último, no hay que olvidar el cuerpo: se sabe que el ejercicio moderado, una alimentación equilibrada y unos minutos de respiración tranquila al día reducen el estrés. No son soluciones mágicas, pero, como dice el refrán, «más vale prevenir que curar».
+      translation: |
+        In Spain people don't sleep much. People have dinner late, watch TV until midnight and, the next day, get up early to go to work. Many experts explain that this rhythm has a lot to do with the stress and tiredness that a large part of the population suffers from.
+
+        What can be done? To begin with, it is recommended to keep a regular schedule: going to bed and getting up at the same time every day, at weekends too. It is also advisable to leave your phone outside the bedroom and not to look at screens during the last hour of the day.
+
+        At work, people talk more and more about the importance of breaks. When you spend many hours in front of the computer, you lose concentration, so short breaks every hour are recommended and, if possible, going out for a short walk.
+
+        Another key factor is social life. In Spain people spend a lot of time with friends and family, and that protects against anxiety. Talking about our problems with someone we trust is one of the best ways to release tension.
+
+        Finally, we mustn't forget the body: it is known that moderate exercise, a balanced diet and a few minutes of calm breathing a day reduce stress. They aren't magic solutions, but, as the saying goes, "prevention is better than cure".
+    pronunciation:
+      title: "The letter x: experto, examen, éxito"
+      body: |
+        Between vowels, **x** is pronounced [ks]: *e**x**amen*, *é**x**ito*, *tó**x**ico*. Before a consonant, most speakers soften it to [s] in everyday speech: *e**x**perto* [esˈpeɾto], *e**x**plicar*, *e**x**cesivo* — [ks] is also correct and sounds more careful. Notice that *estrés* has no x at all, even though English *stress* starts with *s*.
+      items: |
+        experto
+        explicar
+        excesivo
+        el examen
+        el éxito
+        tóxico
+    culture:
+      title: Spain's late clock
+      body: |
+        Spain has used Central European Time since 1940, although most of the country lies further west, in line with the United Kingdom and Portugal. As a result the sun rises and sets late, and so do meals: lunch around 2–3 p.m. and dinner around 9–10 p.m. are normal, and prime-time TV often finishes after midnight.
+
+        For years there has been a public debate about **horarios racionales** — more "rational" working hours that would let people finish work earlier, sleep more and spend more time with their families.
+    mistakes: |
+      En España se cenan tarde. => En España se cena tarde. | With no noun after the verb, impersonal se takes a singular verb.
+      Se recomienda descansos cortos. => Se recomiendan descansos cortos. | With a plural noun, the verb is plural.
+      Cuando se se acuesta tarde, se duerme mal. => Cuando uno se acuesta tarde, duerme mal. | With reflexive verbs, use uno or la gente instead of a second se.
+    task:
+      title: Habits in my country
+      mode: speaking
+      body: |
+        Explain to a Spanish friend how people in your country sleep, work, eat and relax, and what is recommended to reduce stress. Use at least five sentences with impersonal se (*se trabaja, se cena, se recomienda…*) and one with *uno*. Then talk about your own day in the "Talking about your day" scenario with the AI coach.
+    exercises: |
+      mc: According to the article, why do people in Spain sleep little? || They work night shifts. | *They have dinner late, watch TV until midnight and get up early. | They do too much sport. || «Se cena tarde, se ve la televisión hasta medianoche y… se madruga.» || @ctx reading @tags es.reading
+      tf: The article advises keeping your phone in the bedroom. || false || «Se aconseja dejar el móvil fuera del dormitorio.» || @ctx reading @tags es.reading
+      short: What is recommended every hour at work? || kw: descanso/descansos/break/breaks/pausa/caminar/walk || «Se recomiendan descansos cortos cada hora.» || @ctx reading @tags es.reading
+      fill: En mi país ___ (cenar) muy pronto, a las seis o las siete. || se cena || Impersonal se + third-person singular. || @tags es.passive
+      fill: Para dormir bien, ___ (recomendar) no tomar café por la tarde. || se recomienda || With an infinitive, the verb stays singular. || @tags es.passive
+      fill: En este gimnasio ___ (ofrecer) clases de yoga y meditación. || se ofrecen || With a plural noun (clases), the verb is plural. || @tags es.passive
+      mc: Choose the correct sentence. || Cuando se se acuesta tarde, se duerme mal. | *Cuando uno se acuesta tarde, duerme mal. | Cuando acuesta tarde, duerme mal. || With a reflexive verb, use uno instead of impersonal se. || @tags es.passive,es.reflexive
+      mc: «Estoy agotada» means… || *I'm exhausted. | I'm in a hurry. | I'm on holiday. || Agotado/a = exhausted, very tired. || @skill vocabulary @tags es.vocabulary
+      rw: Make it impersonal with se :: La gente trabaja muchas horas en esta ciudad. || Se trabaja muchas horas en esta ciudad. | En esta ciudad se trabaja muchas horas. || Impersonal se replaces la gente: se trabaja. || @tags es.passive
+      tr: In Spain people have dinner very late. || En España se cena muy tarde. | En España la gente cena muy tarde. | En España cenan muy tarde. || Impersonal se (se cena) or la gente + singular verb. || @tags es.passive
+      listen: Dicen que en verano se duerme peor porque hace calor y se sale más por la noche. || Why do people sleep worse in summer? || *It's hot and people go out more at night. | People work more in summer. | The days are shorter. || «Hace calor y se sale más por la noche.» || @tags es.listening,es.passive
+      dict: Se recomienda dormir entre siete y ocho horas.
+      ask: A Spanish friend asks how people deal with stress in your country. Answer with at least two sentences with se. || kw: se & deporte/relaja/descansa/sale/camina/corre/habla/duerme || En mi país se trabaja mucho, pero se hace bastante deporte. Cuando se está estresado, se sale a correr o se habla con los amigos.
+
+  - title: Food culture
+    summary: Talk about meals, recipes and food customs, and offer, ask for and pass things at the table with double object pronouns.
+    minutes: 45
+    skills: [grammar, listening, vocabulary]
+    tags: [es.object-pronouns]
+    objectives:
+      - Talk about meals, dishes and recipes
+      - Combine indirect and direct object pronouns (te lo, nos la)
+      - Change le / les to se before lo, la, los, las
+    intro: |
+      A Spanish family lunch is full of small exchanges: *¿Me pasas el pan? —Toma, te lo paso. ¿Te pongo más? ¿Me das la receta? —Te la escribo luego.* When both "what" and "to whom" are pronouns, Spanish puts them together in a fixed order. Mastering **double object pronouns** makes your Spanish sound much more natural.
+    vocab: |
+      la receta | recipe | n | Esta receta es de mi bisabuela. | This recipe is my great-grandmother's. | g: f | n: Also a (medical) prescription.
+      probar | to taste; to try | v | ¿Has probado alguna vez el gazpacho? | Have you ever tried gazpacho? | n: o → ue: pruebo, pruebas.
+      el plato | dish; plate; course | n | El cocido es un plato típico de Madrid. | Cocido is a typical Madrid dish. | g: m | c: el primer plato; el segundo plato
+      el ingrediente | ingredient | n | El secreto está en los ingredientes. | The secret is in the ingredients. | g: m
+      casero | homemade | adj | Todo lo que comemos aquí es casero. | Everything we eat here is homemade. | n: La comida casera = home cooking.
+      el postre | dessert | n | De postre hay arroz con leche. | For dessert there's rice pudding. | g: m
+      servir | to serve | v | ¿Os sirvo ya la sopa? | Shall I serve you the soup now? | n: e → i: sirvo, sirves.
+      ¿te pongo más? | shall I give you some more? | expr | ¿Te pongo un poco más de ensalada? | Shall I give you a bit more salad? | n: Poner is used for serving food and drink.
+      pasar | to pass | v | ¿Me pasas el agua, por favor? | Could you pass me the water, please?
+      estar buenísimo | to be delicious | expr | Este arroz está buenísimo. | This rice is delicious. | n: Use estar for how food tastes.
+      la sobremesa | after-meal conversation at the table | n | La sobremesa duró hasta las seis. | The chat after lunch lasted until six. | g: f
+      la comida | lunch; meal; food | n | La comida del domingo es sagrada en mi familia. | Sunday lunch is sacred in my family. | g: f | n: In Spain la comida is the main midday meal; in much of Latin America that is el almuerzo.
+    grammar:
+      title: "Double object pronouns: te lo, se la"
+      body: |
+        When a sentence has both an **indirect** object pronoun (to whom) and a **direct** object pronoun (what), the indirect one always comes **first**: *¿Me pasas el pan? —Sí, **te lo** paso.* (te = to you, lo = el pan).
+
+        **Le** and **les** become **se** before *lo, la, los, las*: *Le doy la receta → **Se la** doy* (never *le la*). Because *se* can mean *to him, to her, to you (usted)* or *to them*, you can add *a él, a ella, a usted, a ellos* for clarity: *Se la doy **a ella**.*
+
+        With a conjugated verb — including compound tenses — both pronouns go **before** the verb: ***Te la** escribo. **Se la** he dado. **Nos lo** dijeron.* Nothing can come between *haber* and the participle.
+      table: |
+        Indirect + direct | Example
+        me + lo / la | ¿El pan? Me lo pasa Clara.
+        te + lo / la | ¿La receta? Te la escribo luego.
+        le + lo / la → se lo / se la | ¿Y a la abuela? Se la he dado.
+        nos + los / las | ¿Las fotos? Nos las enseña mañana.
+        os + lo / la | ¿El postre? Os lo sirvo ahora.
+        les + los / las → se los / se las | ¿Los platos? Se los llevo a la cocina.
+      examples: |
+        —¿Me pasas la sal? —Toma, te la paso. | —Could you pass me the salt? —Here, I'll pass it to you. | te + la
+        Mi madre me enseñó esta receta. Me la enseñó con diez años. | My mother taught me this recipe. She taught it to me when I was ten. | me + la
+        —¿Le has dado el regalo a tu suegra? —Sí, se lo di ayer. | —Have you given the present to your mother-in-law? —Yes, I gave it to her yesterday. | le → se
+        ¿Los postres? Os los traigo enseguida. | The desserts? I'll bring them to you right away. | os + los
+      tip: "Remember the order with the memory aid RID: Reflexive, Indirect, Direct — se me cayó, te lo doy."
+    dialogue:
+      title: La comida del domingo
+      setting: Sunday lunch at Amparo's flat in Valencia. Her granddaughter Clara has brought her partner Kenji, who is from Osaka, to try Amparo's arroz al horno for the first time.
+      speakers: A=Amparo/f; C=Clara/f; K=Kenji/m
+      lines: |
+        C: Abuela, este arroz al horno está buenísimo. ¿Me pasas el pan, por favor? | Grandma, this baked rice is delicious. Could you pass me the bread, please?
+        A: Toma, aquí te lo dejo. Kenji, ¿te pongo un poco más? | Here, I'll leave it here for you. Kenji, shall I give you a bit more?
+        K: Sí, por favor, un poquito más. Es la primera vez que lo pruebo. | Yes, please, a little bit more. It's the first time I've tried it.
+        A: Pues es una receta de mi madre. Me la enseñó cuando yo tenía doce años. | Well, it's my mother's recipe. She taught it to me when I was twelve.
+        K: ¿Me la escribes? Me encantaría hacérselo a mis padres en Japón. | Will you write it down for me? I'd love to make it for my parents in Japan.
+        A: Claro que sí, hijo. Te la escribo después del café. | Of course, dear. I'll write it down for you after coffee.
+        C: Abuela, ¡a mí nunca me la has querido dar! ¡Qué injusticia! | Grandma, you've never wanted to give it to me! How unfair!
+        A: Porque tú nunca me la has pedido, guapa. | Because you've never asked me for it, sweetheart.
+        C: Bueno, pues ahora te la pido. Kenji, ¿me pasas el vino? | Well, I'm asking you for it now. Kenji, could you pass me the wine?
+        K: Toma. ¿Y el postre? ¿Quién lo ha traído? | Here you are. And the dessert? Who brought it?
+        C: Lo he comprado yo en la pastelería de abajo. ¿Os lo sirvo ya? | I bought it at the cake shop downstairs. Shall I serve it to you now?
+        A: Sí, sírvelo ya, que luego viene lo mejor: la sobremesa. | Yes, serve it now, because then comes the best part: the after-lunch chat.
+    pronunciation:
+      title: "Pronoun pairs as one word: te lo paso, se la he dado"
+      body: |
+        Double pronouns are unstressed: say them together with the verb, as if they were one word, and put the stress on the verb: *te-lo-**pa**-so*, *se-la-he-**da**-do*, *me-la-en-se-**ñó***. Don't pause between the pronouns and don't stress them — *¿me lo pasas?* sounds like one smooth word, [melo'pasas].
+      items: |
+        te lo paso
+        se la he dado
+        me la enseñó
+        ¿me lo pasas?
+        se lo doy
+        os lo sirvo
+    culture:
+      title: Meals, the menú del día and the Mediterranean diet
+      body: |
+        In Spain the day's main meal is **la comida**, between 2 and 3 p.m. On weekdays many people eat out with a **menú del día**: a fixed-price lunch with a first course, a second course, dessert or coffee, bread and a drink. Dinner comes late and is usually lighter. Children (and many adults) have **la merienda**, an afternoon snack, around 6 p.m.
+
+        The **Mediterranean diet** — olive oil, vegetables, pulses, fish and sharing food at the table — is on UNESCO's list of the Intangible Cultural Heritage of Humanity, with Spain among the countries that share it.
+    mistakes: |
+      Le lo doy a mi abuela. => Se lo doy a mi abuela. | Le and les become se before lo, la, los, las.
+      Lo te paso ahora. => Te lo paso ahora. | The indirect pronoun (te) always comes before the direct one (lo).
+      ¿La receta? Te he la escrito. => ¿La receta? Te la he escrito. | Both pronouns go before haber, never between haber and the participle.
+    task:
+      title: At the table
+      mode: interaction
+      body: |
+        Role-play a family meal with a partner: ask for and pass at least four things (*¿Me pasas…? —Toma, te lo paso*), offer food (*¿Te pongo más?*), and ask for and promise a recipe (*¿Me la das? —Te la mando mañana*). Then practise ordering, asking for things and requesting changes in the "Ordering at a café or restaurant" scenario with the AI coach.
+    exercises: |
+      fill: —¿Me pasas la sal? —Sí, ahora ___ paso. || te la || Indirect (te) first, then direct (la, for la sal). || @tags es.object-pronouns
+      fill: —¿Le has dado la receta a Kenji? —Sí, ya ___ he dado. || se la || Le becomes se before la: se la. || @tags es.object-pronouns
+      fill: —¿Nos traes los postres? —Ahora mismo ___ traigo. || os los || Os (to you, plural) + los (los postres). || @tags es.object-pronouns
+      fill: —¿Me dejas tu libro de cocina? —Claro, ___ dejo mañana. || te lo || Te (to you) + lo (el libro). || @tags es.object-pronouns
+      mc: —¿Les has enviado las fotos a tus padres? Choose the answer. || *Sí, se las he enviado. | Sí, les las he enviado. | Sí, las les he enviado. || Les becomes se before las, and the indirect pronoun goes first. || @tags es.object-pronouns
+      mc: Your host says «¿Te pongo un poco más?». She is… || *offering you more food. | asking you to put on a jumper. | asking you to sit down. || Poner is used for serving food: ¿te pongo más? = shall I give you more? || @skill vocabulary @tags es.vocabulary
+      tf: Amparo learnt the recipe from her mother. || true || «Es una receta de mi madre. Me la enseñó cuando yo tenía doce años.» || @ctx dialogue
+      short: Who bought the dessert? || kw: Clara || «Lo he comprado yo en la pastelería de abajo» — Clara says. || @ctx dialogue
+      rw: Replace both nouns with pronouns :: Doy el regalo a mi madre. || Se lo doy. || A mi madre → le → se; el regalo → lo: se lo doy. || @tags es.object-pronouns
+      tr: My grandmother taught it to me. (the recipe) || Mi abuela me la enseñó. | Me la enseñó mi abuela. || Me (to me) + la (la receta), both before the verb. || @tags es.object-pronouns
+      listen: —¿Le has dicho a tu hermana que venimos a comer? —Sí, se lo dije ayer. || What did the speaker do yesterday? || *Told her sister they are coming to lunch | Cooked lunch for her sister | Invited her sister for dinner || «Se lo dije ayer» — se = to my sister, lo = that we're coming to lunch. || @tags es.listening,es.object-pronouns
+      listen: @dialogue || What will Amparo do after coffee? || *Write down the recipe for Kenji | Serve the dessert | Teach Clara to cook || «Te la escribo después del café.» || @tags es.listening
+      dict: Es una receta de mi madre; me la enseñó cuando era pequeña.
+      say: —¿Me pasas el pan, por favor? —Sí, toma, te lo paso. || —Could you pass me the bread, please? —Yes, here, I'll pass it to you.
+
+  - title: Sport and fitness
+    summary: Understand and give instructions at the gym or in a sports class, placing pronouns correctly with infinitives, gerunds and commands.
+    minutes: 45
+    skills: [speaking, grammar, listening]
+    tags: [es.object-pronouns, es.imperative]
+    objectives:
+      - Talk about sport, training and keeping fit
+      - Attach pronouns to infinitives, gerunds and affirmative commands
+      - Write the accents that appear when pronouns are attached
+    intro: |
+      At the gym, in a pádel class or on a run, instructions come thick and fast: *Ajústalo. Hazlo despacio. Te lo explico.* With infinitives, gerunds and commands, pronouns can be **attached** to the end of the verb — and that often adds a written accent. This lesson puts together everything you know about pronouns.
+    vocab: |
+      el polideportivo | sports centre | n | Voy a nadar al polideportivo de mi barrio. | I go swimming at my local sports centre. | g: m
+      entrenar | to train; to work out | v | Entreno tres veces por semana. | I train three times a week.
+      estar en forma | to be fit | expr | Mi abuelo tiene ochenta años y está en forma. | My grandfather is eighty and he's fit. | n: Ponerse en forma = to get fit.
+      la taquilla | locker; ticket office | n | Guarda la mochila en la taquilla. | Keep your backpack in the locker. | g: f
+      estirar | to stretch | v | Estira bien antes y después de correr. | Stretch well before and after running.
+      la serie | set (of exercises); series | n | Haz tres series de doce repeticiones. | Do three sets of twelve repetitions. | g: f
+      la repetición | repetition; rep | n | En la última repetición me temblaban los brazos. | On the last rep my arms were shaking. | g: f
+      el entrenador / la entrenadora | coach; trainer | n | Mi entrenadora me ha preparado un plan nuevo. | My trainer has prepared a new plan for me. | g: m/f
+      la cuota | membership fee | n | La cuota del gimnasio es de treinta euros al mes. | The gym membership fee is thirty euros a month. | g: f
+      el pádel | padel (racket sport) | n | Juego al pádel con mis compañeros de trabajo. | I play padel with my workmates. | g: m
+      las agujetas | muscle soreness (after exercise) | n | Después de la clase tenía agujetas en todo el cuerpo. | After the class I was aching all over. | g: f | pl: agujetas | n: Spain. Latin America: dolor muscular.
+      ajustar | to adjust | v | Ajusta el asiento a tu altura. | Adjust the seat to your height.
+    grammar:
+      title: "Where do pronouns go? Explícamelo, voy a explicártelo"
+      body: |
+        Object and reflexive pronouns (one or two) can go in two places:
+
+        - **Before a conjugated verb**, as separate words: ***Te lo** explico.* ***No te lo** quites.*
+        - **Attached to the end** of an **infinitive**, a **gerund** or an **affirmative command**: *Voy a explicár**telo**. Estoy explicándo**telo**. Explíca**melo**.*
+
+        With an infinitive or gerund after another verb (*voy a, puedo, quiero, estoy*) **both positions are correct**: *Te lo voy a explicar* = *Voy a explicártelo*. With affirmative commands, pronouns must be attached; with negative commands, they must go before the verb: *Pruébatelo → No te lo pruebes.*
+
+        When you attach pronouns, the stress of the verb doesn't move, so you often need a **written accent**: *explica → explícamelo*, *dando → dándoselo*, *dar → dárselo*. Short commands with one pronoun keep no accent: *dame, hazlo, ponte*.
+      table: |
+        Verb form | Pronouns before | Pronouns attached
+        conjugated verb | Te lo explico. | —
+        infinitive | Te lo voy a explicar. | Voy a explicártelo.
+        gerund | Te lo estoy explicando. | Estoy explicándotelo.
+        affirmative command | — | Explícamelo.
+        negative command | No me lo expliques. | —
+      examples: |
+        El asiento está muy alto. Ajústalo a la altura de las rodillas. | The seat is very high. Adjust it to knee height. | command + lo
+        ¿La botella? Guárdatela en la taquilla. | The bottle? Keep it in your locker. | command + te + la
+        No te preocupes, el ejercicio te lo enseño yo. | Don't worry, I'll show you the exercise myself. | pronouns before the verb
+        Si no entiendes la tabla, puedo explicártela otra vez. | If you don't understand the plan, I can explain it to you again. | infinitive
+      tip: "Count the syllables: if the stress falls on the third or fourth syllable from the end after you attach the pronouns, write an accent — explí-ca-me-lo."
+    dialogue:
+      title: Primer día en el polideportivo
+      setting: A municipal sports centre in Zaragoza on a Monday evening. Ana has just joined, and Germán, one of the trainers, shows her how the fitness room works.
+      speakers: A=Ana/f; G=Germán/m
+      lines: |
+        A: Hola, es mi primer día. ¿Me explicas cómo funciona esta máquina? | Hi, it's my first day. Can you explain how this machine works?
+        G: Claro. Primero, el asiento: ajústalo a la altura de tus rodillas. | Sure. First, the seat: adjust it to the height of your knees.
+        A: ¿Así? No sé si lo estoy haciendo bien. | Like this? I don't know if I'm doing it right.
+        G: Casi. Espera, que te lo enseño. Mira, se hace así, despacio. | Almost. Hang on, I'll show you. Look, you do it like this, slowly.
+        A: Ah, vale. ¿Y la botella de agua? ¿Me la guardas tú mientras entreno? | Oh, OK. And my water bottle? Will you keep it for me while I train?
+        G: Mejor guárdatela en la taquilla. Aquí se pierden muchas cosas. | Better keep it in your locker. Lots of things get lost here.
+        A: Vale. Oye, ¿cuántas repeticiones tengo que hacer? | OK. Listen, how many reps do I have to do?
+        G: Tres series de doce. Pero no te agobies: hazlo a tu ritmo. | Three sets of twelve. But don't stress: do it at your own pace.
+        A: Una amiga me ha recomendado las clases de pádel. ¿Me las recomiendas tú también? | A friend has recommended the padel classes to me. Do you recommend them too?
+        G: Sí, te las recomiendo. Si quieres, te apunto ahora a la del jueves. | Yes, I recommend them. If you like, I'll sign you up now for the Thursday one.
+        A: ¡Perfecto! Apúntame, por favor. ¿Y cuánto cuesta? | Perfect! Sign me up, please. And how much does it cost?
+        G: Se paga en recepción: son veinte euros al mes. Te lo apunto en la ficha. | You pay at reception: it's twenty euros a month. I'll note it on your card.
+    pronunciation:
+      title: "Long words with pronouns: explícamelo, guárdatela"
+      body: |
+        When one or two pronouns are attached, the word gets longer but the stress stays on the verb: *ex-**plí**-ca-me-lo*, ***guár**-da-te-la*, *a-**pún**-ta-me*. Say the stressed syllable clearly and let the pronouns fall away quickly afterwards. If you stress the pronoun (*explicamelÓ*), Spanish speakers will find you hard to understand.
+      items: |
+        explícamelo
+        dámelo
+        ajústalo
+        guárdatela
+        apúntame
+        estirándolos
+    culture:
+      title: Pádel, polideportivos and popular races
+      body: |
+        **Pádel**, a racket sport played in doubles on a small walled court, has become one of the most popular sports in Spain, and there are courts in almost every town. Many people play at their municipal **polideportivo**, where fees are usually lower than in private gyms.
+
+        Running is also huge: towns organise **carreras populares** (fun runs) all year round, and on 31 December thousands of people run the **San Silvestre** races — the San Silvestre Vallecana in Madrid is the best known, often with runners in fancy dress.
+    mistakes: |
+      Explicamelo, por favor. => Explícamelo, por favor. | With two pronouns attached, the stress needs a written accent: explí-ca-me-lo.
+      Voy a te lo explicar. => Te lo voy a explicar. / Voy a explicártelo. | Pronouns go before the conjugated verb or are attached to the infinitive.
+      No explícamelo ahora. => No me lo expliques ahora. | In negative commands, pronouns go before the verb, which is in the subjunctive.
+    task:
+      title: Be the trainer
+      mode: speaking
+      body: |
+        Explain to a friend how to do your favourite exercise, stretch or sport technique in 6–8 steps. Use affirmative and negative commands with pronouns (*ajústalo, no lo bajes, hazlo despacio*) and at least one infinitive with attached pronouns (*voy a enseñártelo*). Then talk about your favourite sports in the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: —¿Me explicas el ejercicio? —Sí, ahora ___ explico. || te lo || Before a conjugated verb, the two pronouns go in front: te lo explico. || @tags es.object-pronouns
+      fill: —¿Le has pagado la cuota al entrenador? —Sí, ___ pagué ayer. || se la || Le becomes se before la: se la pagué. || @tags es.object-pronouns
+      mc: Choose the correct sentence. || Voy a te lo enseñar. | *Te lo voy a enseñar. | Te voy a lo enseñar. || The pronouns go together, before voy or attached to enseñar (voy a enseñártelo). || @tags es.object-pronouns
+      mc: Your friend asks for your water bottle. You say: || *Toma, te la doy. | Toma, te lo doy. | Toma, la te doy. || Botella is feminine, so the direct pronoun is la; te comes first: te la doy. || @tags es.object-pronouns
+      mc: «Tengo agujetas» means… || *My muscles ache after exercise. | I've got a cold. | I've got pins and needles. || Las agujetas = muscle soreness after exercise (Spain). || @skill vocabulary @tags es.vocabulary
+      tf: Germán says it is safe to leave the bottle anywhere in the room. || false || «Mejor guárdatela en la taquilla. Aquí se pierden muchas cosas.» || @ctx dialogue
+      short: How much do the padel classes cost? || kw: veinte/20 || «Son veinte euros al mes.» || @ctx dialogue
+      rw: Attach the pronouns to the infinitive :: Te lo voy a explicar. || Voy a explicártelo. || Attach te + lo to explicar and add an accent: explicártelo. || @tags es.object-pronouns
+      rw: Make the command negative :: Pruébatelas. || No te las pruebes. || In negative commands, the pronouns go before the verb, which is in the subjunctive. || @tags es.object-pronouns,es.imperative
+      tr: Explain it to me, please. (tú) || Explícamelo, por favor. | Por favor, explícamelo. || Affirmative command + me + lo attached, with a written accent. || @tags es.object-pronouns,es.imperative
+      listen: Para no tener agujetas, estira bien las piernas después de correr. Estíralas por lo menos cinco minutos. || What does the speaker advise? || *Stretching your legs for at least five minutes after running | Running for five minutes before stretching | Not running two days in a row || «Estíralas por lo menos cinco minutos.» || @tags es.listening,es.object-pronouns
+      listen: @dialogue || Where should Ana keep her water bottle? || *In her locker | On the bench | With Germán || «Mejor guárdatela en la taquilla.» || @tags es.listening
+      dict: Si quieres, te apunto ahora a la clase del jueves.
+      ask: A friend asks you how to do your favourite exercise or stretch. Explain it with at least two commands. || kw: hazlo/ponte/estira/levanta/dobla/mantén/repite/baja/sube/ajusta || Ponte de pie con las piernas separadas. Levanta los brazos y estíralos hacia arriba. Mantén la posición diez segundos y luego bájalos despacio. Repítelo cinco veces.

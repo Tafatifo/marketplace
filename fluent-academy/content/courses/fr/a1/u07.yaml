@@ -1,0 +1,373 @@
+unit: 7
+title: Loisirs et météo
+theme: Free time and weather
+description: Talk about your hobbies and what you like, describe the weather and the seasons, and make plans with friends.
+objectives:
+  - Say what you like and dislike doing with aimer, adorer, préférer and détester
+  - Describe the weather and the seasons with faire and il y a
+  - Make, accept and refuse plans with aller and venir
+canDo:
+  - I can talk about my hobbies and what I like or dislike.
+  - I can describe the weather and say what I do in each season.
+  - I can suggest an outing and accept or refuse an invitation.
+  - I can agree on a day, a time and a meeting place.
+review: |
+  mc: "We love dancing" is… || Nous adorons de danser. | *Nous adorons danser. | Nous adorons la danser. || Adorer is followed directly by the infinitive. || @tags fr.likes
+  fill: Je n'aime pas ___ jeux vidéo. || les || After aimer, le / la / les stay the same, even in the negative. || @tags fr.likes,fr.negation
+  fill: En hiver, il ___ très froid à Strasbourg. || fait || Weather: il fait + adjective. || @tags fr.weather,fr.faire
+  fill: Vous ___ du ski ? || faites || Faire is irregular: vous faites. || @tags fr.faire @hint faire
+  fill: Tu ___ au concert avec nous ? || viens || Venir is irregular: tu viens. || @tags fr.present-irregular @hint venir
+  mc: Which sentence describes the weather? || J'ai chaud. | *Il y a du vent. | Je suis froid. || Il y a du vent = it's windy. J'ai chaud describes how a person feels, and je suis froid is incorrect. || @tags fr.weather
+  rw: Start with "Nous" :: Je vais à la piscine et je fais de la natation. || Nous allons à la piscine et nous faisons de la natation. || Both verbs are irregular: nous allons, nous faisons. || @tags fr.aller,fr.faire
+  tr: In autumn, it often rains. || En automne, il pleut souvent. | Il pleut souvent en automne. || En automne; souvent goes after the verb. || @tags fr.weather,fr.frequency
+  listen: Ce week-end, il fait beau. Samedi, on va à la plage et dimanche, on fait du vélo. || What are they doing on Sunday? || going to the beach | *cycling | swimming || "Dimanche, on fait du vélo." The beach is on Saturday.
+  listen: J'adore le tennis, mais je préfère la natation. || Which sport does the speaker prefer? || tennis | *swimming | cycling || "Je préfère la natation" — swimming.
+  ask: A friend suggests "On va au cinéma samedi ?". Refuse politely, give a reason and suggest something else. || kw: désolé/désolée/je ne peux pas & on va/ça te dit/tu es libre/tu viens || Désolée, je ne peux pas samedi, je travaille. On va à la piscine dimanche ?
+  write: Write a message to a pen friend about your free time — what you like doing in each season and what the weather is like. || min=40 || req: j'aime/j'adore | il fait/il pleut/il neige | en été/en hiver/au printemps/en automne || Salut Kenji ! J'adore l'été parce qu'il fait chaud : je nage et je fais du vélo. En automne, il pleut souvent, alors je lis et je vais au cinéma. En hiver, il neige un peu et je fais du ski avec mon père. Je n'aime pas le froid, mais j'adore la montagne ! Et toi ?
+lessons:
+  - title: Hobbies and likes
+    summary: Talk about your hobbies and say what you like and dislike with aimer, adorer, détester and préférer.
+    minutes: 40
+    skills: [vocabulary, speaking, grammar]
+    tags: [fr.likes]
+    objectives:
+      - Name common hobbies and free-time activities
+      - Say what you love, like, prefer and hate with an infinitive or a noun
+      - Use le, la, les after verbs of liking, and jouer à / jouer de
+    intro: |
+      What you do in your free time is one of the best topics for getting to know someone. In French you say **j'aime lire**, **j'adore le cinéma**, **je déteste courir** — verbs of liking are followed either by an infinitive or by a noun with **le, la, les**.
+    vocab: |
+      aimer | to like; to love | v | J'aime lire le soir. | I like reading in the evening. | n: With people, aimer means to love; aimer bien means to like.
+      adorer | to love; to adore | v | Ma fille adore danser. | My daughter loves dancing.
+      détester | to hate | v | Je déteste courir. | I hate running.
+      préférer | to prefer | v | Tu préfères le thé ou le café ? | Do you prefer tea or coffee? | n: é → è when the ending is silent: je préfère, but nous préférons.
+      lire | to read | v | Il lit beaucoup de romans. | He reads a lot of novels. | n: Irregular: je lis, tu lis, il lit, nous lisons.
+      nager | to swim | v | Nous aimons nager à la piscine. | We like swimming at the pool.
+      danser | to dance | v | Vous aimez danser ? | Do you like dancing?
+      cuisiner | to cook | v | Mon mari adore cuisiner pour ses amis. | My husband loves cooking for his friends.
+      jouer au… | to play (a sport or game) | expr | Je joue au foot le samedi. | I play football on Saturdays. | c: jouer au tennis; jouer aux cartes; jouer aux jeux vidéo
+      jouer du… | to play (an instrument) | expr | Elle joue de la guitare. | She plays the guitar. | c: jouer du piano; jouer de la guitare; jouer du violon
+      la musique | music | n | J'écoute de la musique dans le train. | I listen to music on the train. | g: f
+      la randonnée | hiking; a hike | n | J'adore la randonnée en montagne. | I love hiking in the mountains. | g: f
+      les jeux vidéo | video games | n | Mon frère adore les jeux vidéo. | My brother loves video games. | g: m
+      le temps libre | free time | n | Pendant mon temps libre, je lis et je dessine. | In my free time, I read and draw. | g: m | n: Also: les loisirs (leisure activities).
+    grammar:
+      title: "Aimer, adorer, préférer + infinitive or noun"
+      body: |
+        To talk about likes and dislikes, use a verb of liking followed by **an infinitive** (an activity) or by **le, la, l', les + noun** (a thing in general):
+
+        - *J'aime **nager**.* (I like swimming) — the second verb stays in the infinitive, with nothing in between.
+        - *J'adore **le** cinéma. Je déteste **les** jeux vidéo.* — for things in general, French uses the definite article, even where English has none.
+
+        From most to least positive: **adorer** (love) → **aimer** (like) → **aimer bien** (quite like) → **ne pas aimer** (not like) → **détester** (hate).
+
+        All four are regular -er verbs. **Préférer** changes é to è when the ending is silent: *je préfère, ils préfèrent*, but *nous préférons, vous préférez*.
+
+        In the negative, ne… pas goes around the conjugated verb: *Je **n'**aime **pas** courir. Il **n'**aime **pas** le sport.* The le / la / les stay the same.
+
+        **Jouer à** for sports and games — *jouer **au** foot, **aux** cartes* — and **jouer de** for instruments — *jouer **du** piano, **de la** guitare*.
+      table: |
+        Verb | + infinitive | + le / la / les + noun
+        adorer | J'adore danser. | J'adore la musique.
+        aimer | Tu aimes cuisiner ? | Tu aimes le jazz ?
+        aimer bien | J'aime bien lire. | J'aime bien les romans.
+        ne pas aimer | Il n'aime pas nager. | Il n'aime pas la piscine.
+        détester | Nous détestons courir. | Nous détestons le froid.
+        préférer | Elles préfèrent marcher. | Elles préfèrent le vélo.
+      examples: |
+        J'adore lire, mais je déteste écrire. | I love reading, but I hate writing.
+        Mon fils aime bien les jeux vidéo. | My son quite likes video games.
+        Vous préférez le cinéma ou le théâtre ? | Do you prefer the cinema or the theatre?
+        Je n'aime pas le sport. | I don't like sport. | le stays after ne… pas
+      tip: After aimer, use le, la, les for things in general — j'aime le chocolat — but du, de la for an amount — je mange du chocolat.
+    dialogue:
+      title: Au café des langues
+      setting: Lucie and Arjun meet for the first time at a language café in Grenoble and talk about their hobbies.
+      speakers: L=Lucie/f; A=Arjun/m
+      lines: |
+        L: Qu'est-ce que tu aimes faire le week-end ? | What do you like doing at the weekend?
+        A: J'adore la randonnée en montagne. | I love hiking in the mountains.
+        L: Ah oui ? Moi, je déteste marcher ! | Really? I hate walking!
+        A: Et qu'est-ce que tu aimes, alors ? | So what do you like?
+        L: J'aime lire et cuisiner. | I like reading and cooking.
+        A: Tu cuisines quoi ? | What do you cook?
+        L: Des plats italiens, surtout ! | Italian dishes, mostly!
+        A: Super, j'adore la cuisine italienne ! | Great, I love Italian food!
+        L: Et tu joues d'un instrument ? | And do you play an instrument?
+        A: Oui, je joue de la guitare. Et toi ? | Yes, I play the guitar. And you?
+        L: Non, mais j'aime bien chanter… | No, but I quite like singing…
+        A: Alors, on fait un concert ? | So, shall we give a concert?
+    pronunciation:
+      title: "J'aime, j'adore — elision with je"
+      body: |
+        Before a vowel or a silent h, **je** becomes **j'** and joins the verb: *j'aime* [ʒɛm], *j'adore* [ʒa.dɔʁ], *j'écoute* [ʒe.kut]. Before a consonant it stays *je*: *je déteste* [ʒə.de.tɛst], *je préfère* [ʒə.pʁe.fɛʁ].
+
+        In the negative, **ne** also becomes **n'** before a vowel: *je n'aime pas* [ʒə.nɛm.pa].
+      items: |
+        j'aime
+        j'adore
+        je déteste
+        je préfère
+        j'aime bien lire
+        je n'aime pas
+    culture:
+      title: Free time in France
+      body: |
+        Reading, walking, cycling, going to the cinema and meeting friends are among the most popular free-time activities in France. Almost every town has **associations** — local clubs run by volunteers — for sport, music, dance, theatre and languages.
+
+        On **21 June** each year, the **Fête de la musique** fills the streets with free concerts by amateurs and professionals. Anyone can play, and the music goes on late into the night.
+    mistakes: |
+      J'aime de nager. => J'aime nager. | Nothing comes between aimer and the infinitive.
+      J'aime du chocolat. => J'aime le chocolat. | After verbs of liking, use le / la / les for things in general.
+      Je joue le piano. => Je joue du piano. | Instruments take jouer de (du, de la); sports take jouer à (au, aux).
+    task:
+      title: Find a hobby partner
+      mode: interaction
+      body: |
+        Ask three people (classmates, friends or the AI coach in the "Discussing hobbies" scenario) what they like doing in their free time. Say what you love, like and hate, and find one activity you have in common.
+    exercises: |
+      fill: Tu aimes ___ cinéma ? || le || After aimer, use le / la / les for things in general: le cinéma. || @tags fr.likes,fr.articles
+      fill: Nous ___ danser. || adorons || Nous + -ons: nous adorons. || @tags fr.likes,fr.present-er @hint adorer
+      fill: Elle ___ le thé au café. || préfère || Préférer: é becomes è when the ending is silent — elle préfère. || @tags fr.likes @hint préférer
+      fill: Il joue ___ piano. || du || Instruments: jouer de + le = du piano. || @tags fr.contractions
+      mc: "I like cooking" is… || J'aime de cuisiner. | *J'aime cuisiner. | J'aime cuisine. || Aimer + infinitive, with nothing in between. Cuisine is a noun and would need la. || @tags fr.likes
+      mc: Choose the correct sentence. || J'adore du chocolat. | *J'adore le chocolat. | J'adore chocolat. || With verbs of liking, use le / la / les for things in general. || @tags fr.likes,fr.articles
+      mc: What does Arjun love? || cooking | *hiking in the mountains | singing || "J'adore la randonnée en montagne." || @ctx dialogue @skill reading @tags fr.reading
+      tf: Lucie plays the guitar. || false || Arjun plays the guitar. Lucie says "Non, mais j'aime bien chanter". || @ctx dialogue
+      rw: Make the sentence negative :: J'aime le football. || Je n'aime pas le football. || Ne… pas goes around aime (n' before the vowel); le stays the same. || @tags fr.negation,fr.likes
+      tr: My sister loves reading. || Ma sœur adore lire. | Ma sœur aime beaucoup lire. | Ma sœur aime lire. || Adorer + infinitive. || @tags fr.likes,fr.possessives
+      listen: Moi, j'adore le sport, mais je déteste nager. || What does the speaker hate? || sport | *swimming | dancing || "Je déteste nager" — I hate swimming.
+      listen: @dialogue || What kind of food does Lucie cook? || Indian | *Italian | French || "Des plats italiens, surtout !"
+      dict: Le week-end, j'aime lire et écouter de la musique.
+      ask: A new friend asks "Qu'est-ce que tu aimes faire ?". Say two things you like doing and one thing you don't like. || kw: j'aime/j'adore & je n'aime pas/je déteste/j'aime pas || J'adore nager et j'aime bien cuisiner, mais je déteste courir.
+      write: Write a profile for a language-exchange club — your hobbies and what you love, prefer and hate. || min=30 || req: j'aime/j'adore | je n'aime pas/je déteste | je préfère || Salut ! Je m'appelle Nora. Pendant mon temps libre, j'adore lire et jouer de la guitare. J'aime bien la randonnée, mais je préfère le vélo. Je n'aime pas les jeux vidéo et je déteste courir !
+
+  - title: Weather and seasons
+    summary: Talk about the weather and the seasons with il fait, il pleut and il neige, and use faire for activities.
+    minutes: 35
+    skills: [vocabulary, listening, grammar]
+    tags: [fr.weather, fr.faire]
+    objectives:
+      - Describe the weather with il fait, il pleut, il neige and il y a
+      - Name the seasons and say what you do in each one
+      - Conjugate faire and use it for activities (faire du vélo)
+    intro: |
+      The weather is the classic small-talk topic — and in French it mostly uses the verb **faire**: **il fait beau**, **il fait froid**. The same verb is used for many activities: **faire du vélo**, **faire de la natation**. Learn faire well and you can talk about both.
+    vocab: |
+      il fait beau | it's nice weather | expr | Aujourd'hui, il fait beau. | It's nice today.
+      il fait mauvais | the weather's bad | expr | Il fait mauvais, alors on reste à la maison. | The weather's bad, so we're staying at home.
+      il fait chaud | it's hot | expr | En août, il fait très chaud à Marseille. | In August, it's very hot in Marseille. | n: For a person: j'ai chaud (I'm hot), with avoir.
+      il fait froid | it's cold | expr | Il fait froid ce matin ! | It's cold this morning! | n: For a person: j'ai froid.
+      il pleut | it's raining | expr | Il pleut souvent en Bretagne. | It often rains in Brittany. | n: From pleuvoir. Rain: la pluie.
+      il neige | it's snowing | expr | Il neige dans les Alpes. | It's snowing in the Alps. | n: Snow: la neige.
+      il y a du soleil | it's sunny | expr | Il y a du soleil, mais il fait froid. | It's sunny, but it's cold. | c: il y a du vent (it's windy); il y a des nuages (it's cloudy)
+      la météo | weather forecast | n | La météo est bonne pour le week-end. | The forecast is good for the weekend. | g: f
+      le degré | degree | n | Il fait vingt-cinq degrés. | It's twenty-five degrees. | g: m | n: Celsius. Below zero: moins cinq (−5 °C).
+      le printemps | spring | n | Au printemps, il fait doux. | In spring, it's mild. | g: m | n: Au printemps, but en été, en automne, en hiver.
+      l'été | summer | n | En été, nous faisons du camping. | In summer, we go camping. | g: m
+      l'automne | autumn; fall | n | En automne, il pleut souvent. | In autumn, it often rains. | g: m | n: The m is silent: [o.tɔn].
+      l'hiver | winter | n | En hiver, je fais du ski. | In winter, I go skiing. | g: m
+      faire | to do; to make | v | Qu'est-ce que tu fais ce week-end ? | What are you doing this weekend? | n: Irregular: je fais, nous faisons, vous faites, ils font.
+    grammar:
+      title: Faire and the weather
+      body: |
+        **Faire** (*to do, to make*) is one of the most common verbs in French — and it's irregular.
+
+        Most weather expressions use **il fait** + adjective: *il fait **beau / mauvais / chaud / froid / doux***, and *il fait vingt degrés*. Here **il** doesn't refer to anyone — it's like English *it*.
+
+        Some weather verbs stand alone: **il pleut** (it's raining), **il neige** (it's snowing). Others use **il y a** + partitive: *il y a **du** soleil, **du** vent, **des** nuages*. To ask: *Quel temps fait-il ?* or, more casually, *Il fait quel temps ?*
+
+        **Faire + du / de la / de l' / des** is also used for many activities: *faire **du** vélo, **du** ski, **de la** natation, **de la** randonnée, **du** sport*. In the negative it becomes **de**: *Je ne fais pas **de** sport.*
+
+        All the **seasons** are masculine: **au** printemps, but **en** été, **en** automne, **en** hiver (en before a vowel sound).
+      table: |
+        Subject | faire | Example
+        je | fais | Je fais du vélo.
+        tu | fais | Tu fais du sport ?
+        il / elle / on | fait | Il fait beau.
+        nous | faisons | Nous faisons de la natation.
+        vous | faites | Vous faites du ski ?
+        ils / elles | font | Ils font une randonnée.
+      examples: |
+        Il fait beau et il y a du soleil. | It's nice and sunny.
+        En hiver, il neige et il fait froid. | In winter, it snows and it's cold.
+        Quand il pleut, je ne fais pas de vélo. | When it rains, I don't go cycling. | pas de after the negative
+        Vous faites quoi en été ? | What do you do in summer?
+      tip: "Nous faisons is pronounced [fə.zɔ̃], with a weak e. And vous faites has no -ez — like vous êtes."
+    dialogue:
+      title: Il fait quel temps chez toi ?
+      setting: A video call in January between Élise, who lives in Brest, and her friend Nadir, who lives in Nice.
+      speakers: N=Nadir/m; E=Élise/f
+      lines: |
+        N: Salut, Élise ! Il fait quel temps à Brest ? | Hi, Élise! What's the weather like in Brest?
+        E: Il pleut un peu. Et chez toi ? | It's raining a little. And where you are?
+        N: Ici, il fait beau. | Here, it's nice.
+        E: Il fait chaud à Nice ? | Is it hot in Nice?
+        N: Il fait quinze degrés et il y a du soleil. | It's fifteen degrees and sunny.
+        E: Quinze degrés en janvier ? Quelle chance ! | Fifteen degrees in January? Lucky you!
+        N: Et à Brest, il fait froid ? | And in Brest, is it cold?
+        E: Oui, il fait sept degrés et il y a du vent. | Yes, it's seven degrees and windy.
+        N: Brr ! Qu'est-ce que tu fais quand il pleut ? | Brr! What do you do when it rains?
+        E: Je lis et je fais du yoga. Et toi ? | I read and do yoga. And you?
+        N: Moi, je fais du vélo au bord de la mer. | I go cycling by the sea.
+        E: La prochaine fois, je viens chez toi ! | Next time, I'm coming to your place!
+    pronunciation:
+      title: "Faire: fais, faisons, font — and il pleut"
+      body: |
+        **Fais** and **fait** both sound [fɛ]; **faites** is [fɛt]. **Faisons** is irregular in pronunciation: [fə.zɔ̃], with a weak e. **Font** [fɔ̃] rhymes with *sont* and *vont* — listen to the first consonant to tell them apart.
+
+        In **il pleut** [il.plø], the vowel [ø] is like *deux*: say [e] with rounded lips.
+      items: |
+        il fait beau
+        il fait froid
+        nous faisons
+        vous faites
+        ils font
+        il pleut
+    culture:
+      title: Climates in France
+      body: |
+        France has several climates. The west has an **oceanic** climate — mild and often rainy. The east is more **continental**, with cold winters and hot summers. The south has a **Mediterranean** climate with hot, dry summers and mild winters, and the Alps and Pyrenees have a **mountain** climate with plenty of snow.
+
+        Many people check **la météo** every day on their phone or after the TV news. In summer you may hear about **la canicule** — a heatwave.
+    mistakes: |
+      Il est froid aujourd'hui. => Il fait froid aujourd'hui. | Weather uses il fait, not il est.
+      Je suis froid. => J'ai froid. | To say how you feel, use avoir: j'ai froid, j'ai chaud.
+      Vous faisez du sport ? => Vous faites du sport ? | Faire is irregular: vous faites.
+    task:
+      title: Weather report
+      mode: speaking
+      body: |
+        Present a short weather report for three French cities (look at a real forecast, or invent one): say if it's sunny, rainy or windy, give the temperature, and suggest an activity for each city (À Nice, on fait du vélo…). Record it like a TV forecast.
+    exercises: |
+      fill: En été, il ___ chaud à Nice. || fait || Weather: il fait + adjective. || @tags fr.weather,fr.faire
+      fill: Nous ___ du vélo le dimanche. || faisons || Faire is irregular: nous faisons. || @tags fr.faire @hint faire
+      fill: Ils ___ de la natation. || font || Faire is irregular: ils font. || @tags fr.faire @hint faire
+      fill: Il y a ___ vent aujourd'hui. || du || Il y a + partitive: du vent. || @tags fr.weather,fr.partitive
+      mc: It's raining. You say… || Il fait pluie. | *Il pleut. | Il a de la pluie. || Rain has its own verb, pleuvoir: il pleut. || @tags fr.weather
+      mc: "I'm cold" is… || Je suis froid. | *J'ai froid. | Il fait froid. || For a person, use avoir: j'ai froid. Il fait froid means "it's cold" (the weather). || @tags fr.weather,fr.avoir
+      mc: "In spring" is… || en printemps | *au printemps | à printemps || Printemps starts with a consonant: au printemps. The other seasons take en. || @tags fr.weather
+      mc: What's the weather like in Nice? || rainy and windy | *sunny and fifteen degrees | snowy || "Il fait quinze degrés et il y a du soleil." || @ctx dialogue @skill reading @tags fr.reading
+      short: What does Élise do when it rains? || kw: lis/lire/read/reads/reading & yoga || "Je lis et je fais du yoga." || @ctx dialogue
+      rw: Make the sentence negative :: Je fais du ski en hiver. || Je ne fais pas de ski en hiver. || After ne… pas, du becomes de. || @tags fr.negation,fr.faire
+      tr: In summer, we go cycling. || En été, nous faisons du vélo. | En été, on fait du vélo. | Nous faisons du vélo en été. | On fait du vélo en été. || Faire du vélo = to go cycling; en été = in summer. || @tags fr.faire,fr.weather
+      listen: Aujourd'hui à Lille, il pleut et il fait douze degrés. || What's the temperature in Lille? || 2 °C | *12 °C | 20 °C || "Il fait douze degrés" — 12 °C.
+      listen: @dialogue || What's the weather like in Brest? || sunny and hot | *rainy, windy and seven degrees | snowy || "Il pleut un peu" and "il fait sept degrés et il y a du vent".
+      dict: En automne, il pleut souvent et il y a du vent.
+      ask: A friend abroad asks "Il fait quel temps chez toi ?". Describe today's weather with at least two details. || kw: il fait/il pleut/il neige/il y a || Aujourd'hui, il fait froid et il pleut. Il fait huit degrés.
+      write: Write a holiday postcard — describe the weather and say what you do there. || min=30 || req: il fait/il pleut/il neige | fais/faisons/fait || Chère Maman, je suis à Chamonix avec Paul. Il neige un peu et il fait froid, mais il y a du soleil l'après-midi. Le matin, nous faisons du ski et le soir, je lis près du feu. Bisous, Laura
+
+  - title: Making plans
+    summary: Suggest an outing, accept or refuse, and agree on a time and place with aller, venir and à (au, à la, aux).
+    minutes: 40
+    skills: [speaking, listening, grammar]
+    tags: [fr.aller, fr.contractions]
+    objectives:
+      - Suggest an outing and accept or refuse politely
+      - Conjugate aller and use it with à + place or chez + person
+      - Agree on a day, a time and a meeting place
+    intro: |
+      Making plans with friends means suggesting, accepting, refusing and agreeing on a time. The key verb is **aller** (*to go*): **on va au cinéma ?**, **je vais à la piscine**. You'll also learn friendly ways to say yes — **avec plaisir !** — and no — **désolé, je ne peux pas**.
+    vocab: |
+      aller | to go | v | Je vais à la piscine le mercredi. | I go to the pool on Wednesdays. | n: Irregular: je vais, tu vas, il va, nous allons, vous allez, ils vont.
+      on va… ? | shall we go…? | expr | On va au cinéma ce soir ? | Shall we go to the cinema tonight? | n: On = we in everyday French.
+      ça te dit ? | do you fancy it? | expr | Un concert samedi, ça te dit ? | A concert on Saturday — do you fancy it? | n: Formal or plural: Ça vous dit ?
+      tu es libre ? | are you free? | expr | Tu es libre dimanche après-midi ? | Are you free on Sunday afternoon? | n: Libre = not busy. Free of charge is gratuit.
+      avec plaisir | with pleasure; I'd love to | expr | Un café ? Avec plaisir ! | A coffee? I'd love to! | n: Also: Bonne idée ! D'accord ! Volontiers !
+      d'accord | OK; all right | expr | D'accord, à samedi ! | OK, see you on Saturday!
+      désolé, je ne peux pas | sorry, I can't | expr | Désolée, je ne peux pas, je travaille. | Sorry, I can't, I'm working. | n: A woman writes désolée. Je peux = I can.
+      le rendez-vous | meeting; appointment | n | Rendez-vous devant le cinéma à vingt heures. | Let's meet in front of the cinema at 8 p.m. | g: m | n: Any arranged meeting, not only a date.
+      se retrouver | to meet (up) | v | On se retrouve où ? | Where shall we meet? | n: Reflexive: on se retrouve, nous nous retrouvons.
+      ce soir | tonight; this evening | expr | Tu es libre ce soir ? | Are you free tonight? | c: ce matin; cet après-midi; ce week-end
+      le concert | concert | n | Il y a un concert de jazz au parc. | There's a jazz concert in the park. | g: m
+      la piscine | swimming pool | n | On va à la piscine ensemble ? | Shall we go to the pool together? | g: f
+      l'exposition | exhibition | n | Il y a une exposition de photos au musée. | There's a photo exhibition at the museum. | g: f | n: Informal: une expo.
+      venir | to come | v | Tu viens avec nous ? | Are you coming with us? | n: Irregular: je viens, tu viens, il vient, nous venons, vous venez, ils viennent.
+    grammar:
+      title: "Aller + à: je vais au cinéma"
+      body: |
+        **Aller** (*to go*) is irregular — learn it by heart. It is usually followed by a place introduced by **à**, with the usual contractions: **à la** piscine, **à l'**exposition, **au** cinéma (à + le), **aux** toilettes (à + les). For someone's home, use **chez**: *Je vais **chez** Marie. On va **chez** moi ?*
+
+        To **suggest** something, French often uses **on** + the present tense with a rising voice: *On va au concert samedi ?* Or a noun + *ça te dit ?*: *Un ciné, ça te dit ?*
+
+        To **answer**: *Oui, avec plaisir ! / D'accord ! / Bonne idée !* — or *Désolé(e), je ne peux pas*, often with a reason: *je travaille, je suis fatigué(e)*.
+
+        To **agree on the details**: *On se retrouve où ? — Devant le cinéma. À quelle heure ? — À vingt heures.*
+
+        French often uses the **present tense** for plans that are already fixed: *Samedi, je vais à la piscine.* In the next unit you'll learn aller + infinitive for the near future.
+      table: |
+        Subject | aller | Example
+        je | vais | Je vais à la piscine.
+        tu | vas | Tu vas au concert ?
+        il / elle / on | va | On va au cinéma ?
+        nous | allons | Nous allons à l'exposition.
+        vous | allez | Vous allez chez Paul ?
+        ils / elles | vont | Ils vont au parc.
+      examples: |
+        On va au cinéma vendredi soir ? | Shall we go to the cinema on Friday evening?
+        Désolée, je ne peux pas. Je vais chez ma grand-mère. | Sorry, I can't. I'm going to my grandmother's. | chez + person
+        Nous allons au concert avec Inès. | We're going to the concert with Inès.
+        On se retrouve devant la piscine à dix heures ? | Shall we meet in front of the pool at ten?
+      tip: Use chez for people, not à — je vais chez le médecin, chez Léa, chez moi.
+    dialogue:
+      title: Tu es libre samedi ?
+      setting: On Thursday evening, Chloé phones her friend Maxime to make plans for the weekend.
+      speakers: C=Chloé/f; M=Maxime/m
+      lines: |
+        C: Salut, Maxime ! Tu es libre samedi ? | Hi, Maxime! Are you free on Saturday?
+        M: Samedi matin, non. Je vais à la piscine. | Saturday morning, no. I'm going to the pool.
+        C: Et samedi soir ? On va au cinéma ? | And Saturday evening? Shall we go to the cinema?
+        M: Bonne idée ! Il y a quoi au cinéma ? | Good idea! What's on at the cinema?
+        C: Une comédie française. Ça te dit ? | A French comedy. Do you fancy it?
+        M: Oui, avec plaisir ! C'est à quelle heure ? | Yes, I'd love to! What time is it?
+        C: À vingt heures quinze. | At 8:15 p.m.
+        M: D'accord. On se retrouve où ? | OK. Where shall we meet?
+        C: Devant le cinéma, à vingt heures ? | In front of the cinema, at eight?
+        M: Parfait. Et ta sœur, elle vient ? | Perfect. And your sister, is she coming?
+        C: Non, elle ne peut pas. Elle travaille. | No, she can't. She's working.
+        M: Dommage ! Alors, à samedi ! | Shame! See you on Saturday, then!
+    pronunciation:
+      title: "Aller: vais, vas, va, allons, allez, vont"
+      body: |
+        **Vais, vas** and **va** are short and sound almost alike: [vɛ], [va], [va]. With **nous** and **vous**, you hear a [z] liaison: *nous allons* [nu.za.lɔ̃], *vous allez* [vu.za.le].
+
+        **Ils vont** [il.vɔ̃] rhymes with *ils sont* and *ils font* — only the first consonant changes, so listen carefully.
+      items: |
+        je vais
+        tu vas
+        nous allons
+        vous allez
+        ils vont
+        on va au cinéma
+    culture:
+      title: Going out in France
+      body: |
+        Friends often meet **pour prendre un verre** (for a drink) or a coffee on a café terrace, especially at the end of the afternoon. Many national museums are free on the first Sunday of the month (in some places only in low season), and cinemas often have cheaper tickets for students.
+
+        If you're invited to dinner at someone's home, it's polite to arrive about ten or fifteen minutes after the time you were given — people call this **le quart d'heure de politesse**.
+    mistakes: |
+      Je vais à Léa samedi. => Je vais chez Léa samedi. | To go to someone's home, use chez + person.
+      Nous allez au concert. => Nous allons au concert. | Aller is irregular: nous allons, vous allez.
+      Ils allent à la piscine. => Ils vont à la piscine. | Ils + aller = ils vont.
+    task:
+      title: Plan your weekend
+      mode: interaction
+      body: |
+        Invite a friend to two different activities this weekend. Your friend refuses the first one with a reason and accepts the second. Agree on the day, the time and the meeting place. Practise it in the "Making weekend plans" scenario with the AI coach.
+    exercises: |
+      fill: Ce soir, je ___ chez mes parents. || vais || Aller is irregular: je vais. || @tags fr.aller @hint aller
+      fill: Nous ___ au concert samedi. || allons || Aller is irregular: nous allons. || @tags fr.aller @hint aller
+      fill: Mes amis ___ au parc. || vont || Ils / elles + aller = vont. || @tags fr.aller @hint aller
+      fill: On va ___ exposition ? || à l' || Before a vowel, à + la becomes à l': à l'exposition. || @tags fr.contractions
+      mc: Your friend says "On va au cinéma ce soir ?". Which answer accepts? || Désolé, je ne peux pas. | *Oui, bonne idée ! | Je suis fatigué. || Bonne idée ! accepts. The other two refuse or give a reason not to go. || @tags fr.speaking
+      mc: Choose the correct sentence. || Je vais à Léa samedi. | *Je vais chez Léa samedi. | Je vais au Léa samedi. || For a person's home, use chez. || @tags fr.prepositions-place,fr.aller
+      mc: Why can't Maxime go out on Saturday morning? || He's working. | *He's going to the pool. | He's tired. || "Samedi matin, non. Je vais à la piscine." || @ctx dialogue @skill reading @tags fr.reading
+      short: Where and when do Chloé and Maxime meet? || kw: devant/front/cinéma/cinema & 20/vingt/8/eight || "Devant le cinéma, à vingt heures" — in front of the cinema at 8 p.m. || @ctx dialogue
+      tf: Chloé's sister is coming to the cinema. || false || "Non, elle ne peut pas. Elle travaille." || @ctx dialogue
+      rw: Start with "Ils" :: Je vais au marché le samedi. || Ils vont au marché le samedi. || Ils + aller = ils vont. || @tags fr.aller
+      tr: Shall we go to the swimming pool on Sunday? || On va à la piscine dimanche ? | Dimanche, on va à la piscine ? | On va à la piscine, dimanche ? || On + va + à la piscine; dimanche alone = this Sunday. || @tags fr.aller,fr.contractions
+      listen: Salut Paul ! On va au concert vendredi ? Rendez-vous devant la gare à dix-neuf heures. || Where is the meeting point? || in front of the cinema | *in front of the station | at the concert hall || "Rendez-vous devant la gare" — in front of the station. || @tags fr.aller
+      listen: @dialogue || What time does the film start? || 8:00 p.m. | *8:15 p.m. | 9:15 p.m. || "À vingt heures quinze" — 8:15 p.m. They meet at 8:00.
+      dict: On se retrouve devant le musée à quinze heures ?
+      ask: Invite a friend to do something this weekend — suggest an activity, a day and a meeting place. || kw: on va/ça te dit/tu es libre/tu viens & samedi/dimanche/week-end/vendredi & devant/chez/rendez-vous/on se retrouve || Tu es libre samedi ? On va au concert ? Rendez-vous devant la gare à vingt heures.
+      write: Write a message inviting two friends to an outing — the activity, the day, the time and where to meet — and ask them to reply. || min=30 || req: on va/ça vous dit/vous êtes libres | heures | rendez-vous/on se retrouve || Salut Lina, salut Sam ! Vous êtes libres dimanche ? Il y a une exposition de photos au musée. On va au musée à quinze heures ? Rendez-vous devant l'entrée à quinze heures moins le quart. Vous venez ? Bisous !

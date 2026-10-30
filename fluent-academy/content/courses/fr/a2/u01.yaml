@@ -1,0 +1,360 @@
+unit: 1
+title: Histoires de vie
+theme: Life stories
+description: Talk about what you did last weekend, the main steps of your life so far and a few childhood memories, using the passé composé with avoir.
+free: true
+objectives:
+  - Say what you did recently with the passé composé of regular verbs
+  - Talk about your life experiences with irregular past participles, déjà and jamais
+  - Tell a short childhood memory with time markers, negatives and questions
+canDo:
+  - I can say what I did last weekend.
+  - I can talk about things I have and haven't done in my life.
+  - I can ask someone questions about their past.
+  - I can tell a short story about a childhood memory.
+review: |
+  fill: Hier, nous ___ (finir) le travail à dix-huit heures. || avons fini || Nous + avoir = avons; -ir verbs like finir have a participle in -i: fini. || @tags fr.passe-compose-avoir
+  fill: Tu ___ (voir) mes lunettes ? || as vu || Tu + avoir = as; voir has an irregular participle: vu. || @tags fr.passe-compose-avoir
+  fill: Elle ___ (avoir) son permis l'année dernière. || a eu || The participle of avoir is eu: elle a eu son permis. || @tags fr.passe-compose-avoir
+  mc: Choose the correct sentence. || *Je n'ai pas encore lu ce livre. | Je n'ai lu pas encore ce livre. | Je ne pas encore ai lu ce livre. || Ne… pas encore goes around the auxiliary avoir; the participle comes after. || @tags fr.negation,fr.passe-compose-avoir
+  mc: Which question is correct? || *Qu'est-ce que vous avez fait dimanche ? | Qu'est-ce que vous avez faire dimanche ? | Qu'est-ce que vous faites dimanche dernier ? || Faire → fait, and dimanche dernier (in the past) needs the passé composé, not the present. || @tags fr.passe-compose-avoir,fr.questions
+  rw: Put it in the passé composé :: Nous prenons le train et nous lisons un magazine. || Nous avons pris le train et nous avons lu un magazine. || Prendre → pris and lire → lu; each verb needs its own auxiliary. || @tags fr.passe-compose-avoir
+  tr: I've never seen this film. || Je n'ai jamais vu ce film. || Ne… jamais goes around avoir; voir → vu. || @tags fr.negation,fr.passe-compose-avoir
+  order: À huit ans, j'ai appris à faire du vélo. || At eight, I learned to ride a bike. || @tags fr.passe-compose-avoir
+  listen: Samedi, j'ai fait les courses, et le soir, on a regardé un film chez Lucas. || What did the speaker do on Saturday evening? || Went shopping | *Watched a film at Lucas's place | Had dinner in a restaurant || "Le soir, on a regardé un film chez Lucas" — the shopping was earlier in the day. || @tags fr.listening
+  listen: Tu as déjà mangé des escargots ? — Non, jamais ! Mais j'ai déjà goûté les cuisses de grenouille. || What has the second speaker never eaten? || Frogs' legs | *Snails | Cheese || "Non, jamais" answers the question about escargots (snails); frogs' legs (cuisses de grenouille) were already tasted. || @tags fr.listening
+  ask: Tell a friend two things you did last weekend and one thing you have never done. || kw: j'ai/on a/nous avons & jamais || Samedi, j'ai joué au tennis avec ma sœur et dimanche, j'ai lu un roman. Par contre, je n'ai jamais fait de surf !
+  write: Write a short email to a new pen friend about your life so far — where you grew up, what you studied or learned, one memorable experience and one thing you have never done. || min=50 || req: j'ai | jamais || Salut Mathis ! Je m'appelle Clara et j'ai vingt-neuf ans. J'ai grandi à Cork, en Irlande, et j'ai fait mes études à Dublin. J'ai appris le français au lycée et j'ai passé un été à Montpellier, une très belle expérience ! J'ai déjà visité beaucoup de pays, mais je n'ai jamais vu Paris. Et toi, raconte-moi ta vie ! Clara
+lessons:
+  - title: Last weekend
+    summary: Say what you did at the weekend with the passé composé of regular verbs and avoir.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [fr.passe-compose-avoir]
+    objectives:
+      - Form the passé composé of regular -er, -ir and -re verbs with avoir
+      - Say what you did last weekend with past time expressions
+      - Ask a friend or colleague about their weekend
+    intro: |
+      On Monday morning, the first question at work or at school is often *Tu as passé un bon week-end ?* To answer it, you need the **passé composé**, the tense French speakers use to say what happened. In this lesson you will build it with **avoir** and a past participle, and talk about your own weekend.
+    vocab: |
+      le week-end | the weekend | n | Tu as passé un bon week-end ? | Did you have a good weekend? | c: ce week-end; le week-end dernier; bon week-end ! | g: m
+      hier | yesterday | adv | Hier, j'ai travaillé jusqu'à vingt heures. | Yesterday I worked until 8 p.m. | c: hier matin; hier soir; avant-hier
+      samedi dernier | last Saturday | expr | Samedi dernier, nous avons fêté l'anniversaire d'Inès. | Last Saturday we celebrated Inès's birthday. | n: Dernier comes after the noun: samedi dernier, la semaine dernière, l'année dernière.
+      passer | to spend (time) | v | J'ai passé le dimanche chez mes parents. | I spent Sunday at my parents' place. | c: passer un bon week-end; passer la journée; passer du temps
+      ranger | to tidy (up) | v | Samedi matin, j'ai rangé ma chambre. | On Saturday morning I tidied my room. | c: ranger la maison; ranger ses affaires
+      faire la grasse matinée | to have a lie-in | expr | Dimanche, j'ai fait la grasse matinée. | On Sunday I had a lie-in. | n: Literally "to do the fat morning". Faire has an irregular participle: fait.
+      regarder une série | to watch a series | expr | Hier soir, on a regardé une série policière. | Last night we watched a crime series. | c: regarder un film; regarder la télé
+      jouer | to play | v | Les enfants ont joué au parc tout l'après-midi. | The children played in the park all afternoon. | c: jouer au foot; jouer aux cartes; jouer de la guitare | n: Jouer à + game or sport, jouer de + instrument.
+      finir | to finish | v | J'ai fini mon livre dimanche soir. | I finished my book on Sunday evening. | n: Most -ir verbs have a participle in -i: fini, choisi, dormi.
+      attendre | to wait (for) | v | Nous avons attendu le bus vingt minutes. | We waited twenty minutes for the bus. | n: No word for "for": attendre le bus. Most -re verbs have a participle in -u: attendu, vendu.
+      un repas | a meal | n | Nous avons préparé un grand repas pour toute la famille. | We made a big meal for the whole family. | c: un repas de famille; préparer le repas | g: m
+      bricoler | to do DIY | v | Mon voisin a bricolé dans son garage tout le week-end. | My neighbour did DIY in his garage all weekend. | n: Le bricolage = DIY.
+      un pique-nique | a picnic | n | On a fait un pique-nique au bord du lac. | We had a picnic by the lake. | c: faire un pique-nique | g: m
+    grammar:
+      title: The passé composé with avoir
+      body: |
+        The **passé composé** says what happened at a specific moment in the past: *Samedi, j'ai joué au tennis* (On Saturday I played tennis). It translates both *I played* and *I have played*.
+
+        It has two parts: the present tense of **avoir** (the auxiliary) + a **past participle**.
+
+        - -er verbs → **-é**: *jouer → joué, regarder → regardé*
+        - most -ir verbs → **-i**: *finir → fini, choisir → choisi*
+        - most -re verbs → **-u**: *attendre → attendu, vendre → vendu*
+
+        Only *avoir* changes with the person; the participle stays the same: *j'ai mangé, nous avons mangé*. One very common verb is irregular: *faire → fait* (*Qu'est-ce que tu as fait ?*). A small group of verbs, such as *aller*, use **être** instead — you will meet them in unit 2.
+      table: |
+        Pronoun | jouer (-er) | finir (-ir) | attendre (-re)
+        j' | ai joué | ai fini | ai attendu
+        tu | as joué | as fini | as attendu
+        il / elle / on | a joué | a fini | a attendu
+        nous | avons joué | avons fini | avons attendu
+        vous | avez joué | avez fini | avez attendu
+        ils / elles | ont joué | ont fini | ont attendu
+      examples: |
+        Samedi, j'ai rangé mon appartement. | On Saturday I tidied my flat. | ranger → rangé
+        Vous avez fini le travail ? | Have you finished the work? | finir → fini
+        Nous avons attendu le train une heure. | We waited an hour for the train. | attendre → attendu
+        Qu'est-ce que tu as fait dimanche ? | What did you do on Sunday? | faire → fait (irregular)
+      tip: "Jouer, joué and jouez all sound the same [ʒwe]. In writing, look at the word before: after a form of avoir, write the participle — j'ai joué."
+    dialogue:
+      title: Lundi matin
+      setting: Monday morning in an office in Toulouse. Inès and Karim chat about their weekend at the coffee machine; then their manager, Mme Garnier, joins them.
+      speakers: I=Inès/f; K=Karim/m; G=Mme Garnier/f
+      lines: |
+        K: Salut, Inès ! Tu as passé un bon week-end ? | Hi, Inès! Did you have a good weekend?
+        I: Oui, très calme. Samedi, j'ai fait la grasse matinée. | Yes, very quiet. On Saturday I had a lie-in.
+        K: La chance ! Moi, j'ai travaillé samedi matin. | Lucky you! I worked on Saturday morning.
+        I: Et l'après-midi, qu'est-ce que tu as fait ? | And in the afternoon, what did you do?
+        K: J'ai joué au foot avec mon fils au parc. | I played football with my son in the park.
+        I: Super ! Moi, dimanche, j'ai rangé tout l'appartement. | Great! On Sunday I tidied the whole flat.
+        G: Bonjour, vous deux ! Karim, vous avez fini le rapport ? | Hello, you two! Karim, have you finished the report?
+        K: Presque, madame. J'ai terminé la première partie vendredi. | Nearly, madam. I finished the first part on Friday.
+        G: Parfait. Et vous, Inès, vous avez réservé la salle ? | Perfect. And you, Inès, have you booked the room?
+        I: Oui, j'ai réservé la salle de réunion pour dix heures. | Yes, I booked the meeting room for ten o'clock.
+        G: Merci beaucoup. Alors, à tout à l'heure ! | Thank you very much. See you later, then!
+    pronunciation:
+      title: "J'ai [ʒe] or je [ʒə]?"
+      body: |
+        The difference between the present and the passé composé often comes down to one small sound. In *j'ai joué* [ʒe ʒwe] (I played), *j'ai* has a closed [e], like in *été*. In *je joue* [ʒə ʒu] (I play), *je* has a short, relaxed [ə].
+
+        The participle ending **-é** sounds exactly like the infinitive ending **-er**: *manger* and *mangé* are both [mɑ̃ʒe]. So listen for the auxiliary (*j'ai, il a, nous avons*) to know that an action is in the past.
+      items: |
+        j'ai joué
+        je joue
+        j'ai mangé
+        je mange
+        nous avons fini
+        ils ont attendu
+    culture:
+      title: Le week-end à la française
+      body: |
+        In France many shops close on Sundays, especially outside the big cities, so Saturday is the day for shopping and errands. Sunday is often a family day: a long lunch with parents or grandparents is still a habit in many families, and markets are busy on Sunday mornings.
+
+        At work, people wish each other *Bon week-end !* on Friday and ask *Tu as passé un bon week-end ?* on Monday. A short, friendly answer is enough — nobody expects every detail.
+    mistakes: |
+      J'ai jouer au tennis. => J'ai joué au tennis. | After avoir, use the past participle (-é), not the infinitive (-er).
+      Je joué au foot samedi. => J'ai joué au foot samedi. | The passé composé needs the auxiliary: j'ai joué, not just joué.
+      Nous avons finé le travail. => Nous avons fini le travail. | -ir verbs like finir have a participle in -i: fini.
+    task:
+      title: Monday morning chat
+      mode: interaction
+      body: |
+        It's Monday morning. Tell a classmate or the AI coach three things you did last weekend (one on Saturday, one on Sunday and one in the evening), then ask them what they did. Use at least four different verbs in the passé composé, including *faire*.
+    exercises: |
+      fill: Samedi, nous ___ (regarder) un film à la maison. || avons regardé || Nous + avoir = avons; regarder → regardé. || @tags fr.passe-compose-avoir
+      fill: Tu ___ (finir) tes devoirs ? || as fini || Tu + avoir = as; finir → fini. || @tags fr.passe-compose-avoir
+      fill: Mes voisins ___ (vendre) leur voiture. || ont vendu || Ils + avoir = ont; -re verbs like vendre → vendu. || @tags fr.passe-compose-avoir
+      fill: Dimanche, j'___ (préparer) un gâteau au chocolat. || ai préparé || J' + ai + préparé (-er → -é). || @tags fr.passe-compose-avoir
+      mc: Choose the correct sentence. || *Hier, j'ai mangé une pizza. | Hier, j'ai manger une pizza. | Hier, je mangé une pizza. || The passé composé is avoir + past participle: j'ai mangé. || @tags fr.passe-compose-avoir
+      mc: What is the past participle of "choisir"? || choisé | *choisi | choisu || Most -ir verbs have a participle in -i: finir → fini, choisir → choisi. || @tags fr.passe-compose-avoir
+      tf: Karim worked on Saturday morning. || true || He says: "Moi, j'ai travaillé samedi matin." || @ctx dialogue
+      short: What did Inès do on Sunday? || kw: rangé/ranger/range/tidied/tidy/cleaned/clean || She says: "Dimanche, j'ai rangé tout l'appartement." || @ctx dialogue
+      listen: @dialogue || What does Mme Garnier ask Inès? || If she has finished the report | *If she has booked the meeting room | If she had a good weekend || She asks "vous avez réservé la salle ?" — Inès booked it for ten o'clock. The report question is for Karim. || @tags fr.listening
+      listen: Hier soir, nous avons dîné chez Paul et nous avons joué aux cartes. || What did they do last night? || They cooked at home and watched TV | *They had dinner at Paul's and played cards | They played football with Paul || "Nous avons dîné chez Paul" (dinner at Paul's) and "joué aux cartes" (played cards). || @tags fr.passe-compose-avoir,fr.listening
+      rw: Put it in the passé composé :: Je travaille et je range la cuisine. || J'ai travaillé et j'ai rangé la cuisine. || Each verb needs avoir + participle: j'ai travaillé, j'ai rangé. || @tags fr.passe-compose-avoir
+      tr: What did you do last weekend? (informal) || Qu'est-ce que tu as fait le week-end dernier ? | Tu as fait quoi le week-end dernier ? | Qu'as-tu fait le week-end dernier ? | Le week-end dernier, qu'est-ce que tu as fait ? || Faire has an irregular participle: tu as fait. || @tags fr.passe-compose-avoir,fr.questions
+      dict: Samedi dernier, j'ai passé la journée chez mes grands-parents. || passer → passé
+      ask: A colleague asks you "Tu as passé un bon week-end ?" Answer and say two things you did. || kw: j'ai/nous avons/on a || Oui, merci ! Samedi, j'ai joué au tennis et dimanche, j'ai préparé un grand repas pour ma famille.
+      write: Write a short message to a friend about your weekend — three things you did and one question for them. || min=30 || req: j'ai/nous avons/on a | samedi/dimanche/week-end || Salut Chloé ! Ce week-end, j'ai fait la grasse matinée samedi. L'après-midi, j'ai joué au badminton avec Sami. Dimanche, nous avons fait un pique-nique au parc. Et toi, qu'est-ce que tu as fait ? Bises !
+
+  - title: My life so far
+    summary: Talk about your experiences and the main steps of your life with irregular past participles, déjà, jamais and pas encore.
+    minutes: 45
+    skills: [grammar, speaking, reading]
+    tags: [fr.passe-compose-avoir, fr.negation]
+    objectives:
+      - Use the most common irregular past participles (fait, eu, été, vu, pris…)
+      - Talk about experiences with déjà, ne… jamais and pas encore
+      - Ask someone about their life and experiences
+    intro: |
+      When you meet someone new, you soon talk about your life: where you grew up, what you studied, where you have worked or lived, and what you haven't done yet. French uses the passé composé for all these experiences. In this lesson you will learn the irregular past participles you need most and the small but important words **déjà**, **jamais** and **pas encore**.
+    vocab: |
+      déjà | already; ever | adv | Tu as déjà mangé des escargots ? | Have you ever eaten snails? | n: In questions, déjà means "ever". It goes between avoir and the participle.
+      ne… jamais | never | adv | Je n'ai jamais pris l'avion. | I've never taken a plane. | n: Ne… jamais goes around avoir: je n'ai jamais vu.
+      ne… pas encore | not yet | adv | Je n'ai pas encore lu ce livre. | I haven't read this book yet. | n: Short answer: Pas encore !
+      une expérience | an experience | n | Travailler à l'étranger, c'est une belle expérience. | Working abroad is a great experience. | c: une belle expérience; une expérience professionnelle | g: f
+      un diplôme | a degree; a diploma | n | Elle a eu son diplôme d'ingénieure en 2019. | She got her engineering degree in 2019. | c: avoir son diplôme; un diplôme d'infirmier | g: m
+      apprendre | to learn | v | J'ai appris l'italien à Milan. | I learned Italian in Milan. | n: Participle: appris (like prendre → pris, comprendre → compris).
+      vivre | to live | v | Nous avons vécu trois ans au Maroc. | We lived in Morocco for three years. | n: Participle: vécu. Use vivre for a period of your life, habiter for where you live now.
+      connaître | to know (a person, a place) | v | J'ai connu mon meilleur ami au lycée. | I met my best friend at secondary school. | n: Participle: connu. In the passé composé, connaître often means "to meet for the first time".
+      rencontrer | to meet | v | Elle a rencontré son compagnon à un cours de danse. | She met her partner at a dance class. | c: rencontrer quelqu'un; rencontrer des amis
+      le permis de conduire | driving licence | n | J'ai eu mon permis à dix-huit ans. | I got my driving licence at eighteen. | c: passer le permis; avoir son permis | g: m | n: Often just le permis.
+      l'étranger | abroad; foreign countries | n | Tu as déjà travaillé à l'étranger ? | Have you ever worked abroad? | g: m | n: À l'étranger = abroad, with or without movement.
+      voir | to see | v | J'ai vu la tour Eiffel trois fois. | I've seen the Eiffel Tower three times. | n: Participle: vu.
+      une fois | once; one time | n | J'ai fait du ski une seule fois. | I've only been skiing once. | c: deux fois; plusieurs fois; la première fois | g: f
+    grammar:
+      title: Irregular participles, déjà and jamais
+      body: |
+        Many common verbs have an **irregular past participle**. Learn them in groups — they often rhyme:
+
+        - **-u**: *avoir → eu, voir → vu, lire → lu, boire → bu, pouvoir → pu, vouloir → voulu, vivre → vécu, connaître → connu*
+        - **-is / -it**: *prendre → pris, apprendre → appris, mettre → mis, dire → dit, écrire → écrit*
+        - others: *faire → fait, être → été, ouvrir → ouvert*
+
+        To talk about experiences, put **déjà** (already, ever) between avoir and the participle: *Tu as **déjà** vu la mer ?* In the negative, **ne… pas** and **ne… jamais** go around avoir: *Je **n'**ai **jamais** vu la mer.* Use **ne… pas encore** for something that hasn't happened yet but probably will: *Je n'ai pas encore eu mon diplôme.*
+      table: |
+        Infinitive | Participle | Example
+        avoir | eu | J'ai eu mon permis en 2015.
+        être | été | Nous avons été très contents.
+        faire | fait | Tu as déjà fait du ski ?
+        prendre | pris | Ils ont pris le train de nuit.
+        voir | vu | J'ai vu ce film deux fois.
+        lire | lu | Vous avez lu ce roman ?
+        écrire | écrit | Elle a écrit trois livres.
+        boire | bu | On a bu un café en terrasse.
+      examples: |
+        Tu as déjà mangé du couscous ? | Have you ever eaten couscous? | déjà between avoir and the participle
+        Je n'ai jamais lu ce roman. | I've never read this novel. | ne… jamais around avoir
+        Nous n'avons pas encore vu l'appartement. | We haven't seen the flat yet. | ne… pas encore
+        Elle a appris le français à Dakar. | She learned French in Dakar. | apprendre → appris
+      tip: "Short answers to a déjà question: Oui, déjà deux fois ! / Non, jamais. / Pas encore, mais un jour…"
+    dialogue:
+      title: Un nouveau colocataire
+      setting: Nadia is looking for a flatmate in Lille. Samuel, 26, has just arrived in the city, and she asks him about his life over a cup of tea.
+      speakers: N=Nadia/f; S=Samuel/m
+      lines: |
+        N: Alors, Samuel, tu as toujours habité dans le Nord ? | So, Samuel, have you always lived in the north?
+        S: Non, j'ai grandi à Nantes et j'ai fait mes études à Rennes. | No, I grew up in Nantes and I studied in Rennes.
+        N: Et tu as déjà vécu à l'étranger ? | And have you ever lived abroad?
+        S: Oui, j'ai vécu un an au Canada, à Montréal. | Yes, I lived in Canada for a year, in Montreal.
+        N: Génial ! Tu as appris l'anglais là-bas ? | Great! Did you learn English there?
+        S: Un peu, mais surtout, j'ai connu des gens formidables. | A little, but above all I met wonderful people.
+        N: Moi, je n'ai jamais pris l'avion pour l'Amérique. | I've never flown to America.
+        S: Tu as déjà voyagé hors d'Europe ? | Have you ever travelled outside Europe?
+        N: Oui, deux fois, au Sénégal. Ma mère est de Dakar. | Yes, twice, to Senegal. My mother is from Dakar.
+        S: Et toi, tu travailles ou tu étudies ? | And you, do you work or study?
+        N: J'ai eu mon diplôme d'infirmière en juin. Je travaille à l'hôpital. | I got my nursing degree in June. I work at the hospital.
+        S: Moi, je n'ai pas encore trouvé de travail ici. | I haven't found a job here yet.
+    pronunciation:
+      title: "Participles that rhyme: vu, lu, bu, eu"
+      body: |
+        Many irregular participles end in the vowel [y], the French *u*. Round your lips as if to say *ou* [u], then say *i* [i] without moving your lips: *vu* [vy], *lu* [ly], *bu* [by]. Careful: the participle **eu** (from avoir) is also pronounced [y] — *j'ai eu* [ʒe y] — not like the *eu* in *deux*.
+
+        Compare *vu* [vy] (seen) and *vous* [vu] (you): the lips are rounded in both, but for [y] the tongue is pushed forward.
+      items: |
+        j'ai vu
+        tu as lu
+        on a bu
+        elle a eu
+        vous avez vu
+        j'ai connu
+    culture:
+      title: Le bac, le permis et les grandes étapes
+      body: |
+        In France, a few milestones mark the start of adult life. **Le bac** (baccalauréat) is the exam at the end of the *lycée*, usually taken at 17 or 18, and people still ask each other *Tu as eu ton bac en quelle année ?*
+
+        Young people can take **le permis de conduire** from the age of 17, after lessons at an *auto-école*. In big cities with good public transport, many people get their licence later — or never.
+    mistakes: |
+      J'ai prendu le train. => J'ai pris le train. | Prendre has an irregular participle: pris (also appris, compris).
+      Je n'ai vu jamais ce film. => Je n'ai jamais vu ce film. | Ne… jamais goes around the auxiliary, not around the participle.
+      Tu as vu déjà la mer ? => Tu as déjà vu la mer ? | Short adverbs like déjà go between avoir and the participle.
+    task:
+      title: Find someone who…
+      mode: interaction
+      body: |
+        Prepare five questions with *Tu as déjà… ?* (taken a night train, eaten snails, lived abroad, seen a famous monument, learned an instrument). Ask a classmate or the AI coach, note the answers, then report two of them: *Elle a déjà vécu en Italie, mais elle n'a jamais pris le train de nuit.*
+    exercises: |
+      fill: Vous ___ (voir) l'exposition au musée ? || avez vu || Vous + avoir = avez; voir → vu. || @tags fr.passe-compose-avoir
+      fill: Ma sœur ___ (apprendre) le piano au conservatoire. || a appris || Apprendre → appris, like prendre → pris. || @tags fr.passe-compose-avoir
+      fill: Je n'ai ___ mangé de cuisine coréenne. (never) || jamais || Ne… jamais goes around avoir: je n'ai jamais mangé. || @tags fr.negation,fr.passe-compose-avoir
+      mc: Choose the correct sentence. || Elle a vu déjà Paris. | Elle a déjà voir Paris. | *Elle a déjà vu Paris. || Déjà goes between avoir and the participle, and voir → vu. || @tags fr.passe-compose-avoir
+      match: faire = fait ; prendre = pris ; avoir = eu ; être = été ; lire = lu || Learn irregular participles in groups: eu, lu and vu rhyme; pris and appris go together. || @tags fr.passe-compose-avoir
+      tf: Nadia has lived in Canada. || false || It's Samuel who lived in Montreal. Nadia has travelled to Senegal twice. || @ctx dialogue
+      short: Where did Samuel study? || kw: Rennes || He says: "j'ai fait mes études à Rennes." He grew up in Nantes. || @ctx dialogue
+      listen: @dialogue || What hasn't Samuel done yet? || Learn some English | *Find a job in Lille | Travel outside Europe || "Je n'ai pas encore trouvé de travail ici." He learned a little English and lived in Canada, outside Europe. || @tags fr.listening
+      listen: Je n'ai jamais vu la mer, mais j'ai déjà vu la montagne trois fois. || What has the speaker never seen? || The mountains | *The sea | A big city || "Je n'ai jamais vu la mer" — the mountains were seen three times. || @tags fr.negation,fr.listening
+      rw: Make it negative with "ne… jamais" :: J'ai pris le métro à Paris. || Je n'ai jamais pris le métro à Paris. || Ne… jamais goes around avoir: je n'ai jamais pris. || @tags fr.negation,fr.passe-compose-avoir
+      tr: Have you ever lived abroad? (formal) || Vous avez déjà vécu à l'étranger ? | Avez-vous déjà vécu à l'étranger ? | Est-ce que vous avez déjà vécu à l'étranger ? || Déjà = ever; vivre → vécu; à l'étranger = abroad. || @tags fr.passe-compose-avoir,fr.questions
+      dict: Nous avons vécu deux ans au Québec et nous avons appris à faire du ski. || vivre → vécu
+      ask: A new friend asks you "Tu as déjà voyagé à l'étranger ?" Answer and add one detail. || kw: j'ai/je n'ai/jamais || Oui, j'ai déjà voyagé en Espagne et au Portugal. J'ai visité Lisbonne l'été dernier, c'est magnifique !
+      write: Write a short profile for a flatshare website — where you grew up, two experiences you have had and one thing you have never done. || min=35 || req: j'ai | jamais || Bonjour ! Je m'appelle Hana, j'ai vingt-quatre ans. J'ai grandi à Strasbourg et j'ai fait mes études à Lyon. J'ai déjà travaillé un an en Allemagne et j'ai appris à jouer de la guitare. Je n'ai jamais vécu en colocation, mais j'ai très envie d'essayer !
+
+  - title: Childhood memories
+    summary: Tell a short childhood memory — a first time, a special day, a funny accident — with time markers, negatives and questions in the passé composé.
+    minutes: 40
+    skills: [speaking, listening, writing]
+    tags: [fr.passe-compose-avoir, fr.negation, fr.questions]
+    objectives:
+      - Place events in time with à + age, en + year and link them with d'abord, ensuite, enfin
+      - Make negative sentences and ask questions in the passé composé
+      - Tell a short story about something that happened in your childhood
+    intro: |
+      Everyone has a childhood memory to share: a first bike, a first day at school, a summer with the grandparents. To tell one, you need to place events in time (*à sept ans, en 2005*) and link them (*d'abord, ensuite, enfin*). You will also learn to ask questions and make negative sentences in the passé composé, so you can ask other people about their own memories.
+    vocab: |
+      quand j'étais petit / petite | when I was little | expr | Quand j'étais petit, j'ai cassé la fenêtre du voisin. | When I was little I broke the neighbour's window. | n: Learn it as a fixed phrase for now; this tense (the imparfait) comes in unit 4.
+      l'enfance | childhood | n | J'ai passé mon enfance à la campagne. | I spent my childhood in the countryside. | g: f
+      à l'âge de… | at the age of… | expr | J'ai appris à nager à l'âge de six ans. | I learned to swim at the age of six. | n: Shorter and more common: à six ans.
+      la première fois | the first time | expr | La première fois, j'ai eu très peur. | The first time, I was very scared. | c: pour la première fois; la dernière fois | g: f
+      un souvenir | a memory | n | J'ai un très bon souvenir de cette journée. | I have a very good memory of that day. | c: un bon souvenir; un souvenir d'enfance | g: m | n: Also "a souvenir" bought on holiday.
+      d'abord | first | adv | D'abord, nous avons pris le bateau. | First, we took the boat. | c: d'abord… ensuite… enfin
+      ensuite | then; next | adv | Ensuite, nous avons visité le château. | Then we visited the castle. | n: Puis and après also mean "then".
+      enfin | finally; at last | adv | Enfin, j'ai trouvé mes clés ! | At last, I found my keys! | n: Also an exclamation of relief: Enfin !
+      offrir | to give (as a present) | v | Pour Noël, mes grands-parents ont offert une guitare à ma sœur. | For Christmas my grandparents gave my sister a guitar. | n: Participle: offert. Offrir quelque chose à quelqu'un.
+      casser | to break | v | Mon frère a cassé un vase chez ma tante. | My brother broke a vase at my aunt's. | c: casser un verre; casser une assiette
+      une colonie de vacances | a holiday camp | n | J'ai passé trois semaines en colonie de vacances. | I spent three weeks at a holiday camp. | g: f | n: Often shortened to la colo.
+      l'école primaire | primary school | n | J'ai eu une maîtresse très gentille à l'école primaire. | I had a very kind teacher at primary school. | g: f | n: Children call their teacher la maîtresse or le maître.
+      un vélo | a bike | n | J'ai appris à faire du vélo avec mon grand-père. | I learned to ride a bike with my grandfather. | c: faire du vélo; un vélo électrique | g: m
+      avoir peur | to be scared | expr | J'ai eu très peur du chien des voisins. | I was very scared of the neighbours' dog. | n: Avoir peur de + noun. Passé composé: j'ai eu peur.
+    grammar:
+      title: Negatives, questions and time markers
+      body: |
+        **Negatives.** *Ne… pas*, *ne… jamais* and *ne… rien* (nothing) go around the auxiliary, and the participle comes after: *Je **n'**ai **pas** compris. Il **n'**a **rien** dit.* Never ~~je n'ai compris pas~~.
+
+        **Questions.** Raise your voice (*Tu as aimé ?*), use **est-ce que** (*Est-ce que vous avez gagné ?*) or invert the subject and avoir (*As-tu aimé ?*). With *il, elle* or *on*, add **-t-** between the two vowels: ***A-t-il** gagné ?* Question words go first: *Qu'est-ce que tu as fait ? Où est-ce que tu as appris à nager ?*
+
+        **Time markers.** Use **à + age** (*à huit ans*) and **en + year or month** (*en 2010, en juillet*). Link the steps of a story with **d'abord, ensuite, puis, après** and **enfin**.
+      table: |
+        Form | Present | Passé composé
+        Negative | Je ne comprends pas. | Je n'ai pas compris.
+        Negative (nothing) | Il ne dit rien. | Il n'a rien dit.
+        Question with est-ce que | Est-ce que tu gagnes ? | Est-ce que tu as gagné ?
+        Inversion | Aimez-vous ce film ? | Avez-vous aimé ce film ?
+        Inversion with il / elle | Gagne-t-il souvent ? | A-t-il gagné ?
+      examples: |
+        Je n'ai pas aimé la colonie de vacances. | I didn't like the holiday camp. | ne… pas around avoir
+        Il n'a rien mangé à la fête. | He didn't eat anything at the party. | ne… rien around avoir
+        Est-ce que tu as eu un chat quand tu étais petit ? | Did you have a cat when you were little? | est-ce que + passé composé
+        À dix ans, j'ai gagné un concours de dessin. | At ten, I won a drawing competition. | à + age
+        En 2008, ma famille a acheté une maison à la campagne. | In 2008 my family bought a house in the country. | en + year
+      tip: "In conversation, question words often go at the end: Tu as fait quoi ? Tu as appris où ? It's informal but very common."
+    dialogue:
+      title: La photo de classe
+      setting: A Sunday afternoon in Clermont-Ferrand. Zoé, 12, finds an old school photo and asks her grandfather Michel about his childhood. Her mother, Aïcha, is there too.
+      speakers: Z=Zoé/f; M=Michel/m; A=Aïcha/f
+      lines: |
+        Z: Papi, c'est toi sur la photo, au premier rang ? | Grandpa, is that you in the photo, in the front row?
+        M: Oui ! C'est ma classe de CM2, en 1962. | Yes! That's my last year of primary school, in 1962.
+        Z: Tu as aimé l'école primaire ? | Did you like primary school?
+        M: Pas toujours… Un jour, j'ai cassé la fenêtre de la classe ! | Not always… One day I broke the classroom window!
+        Z: Non ! Et qu'est-ce que la maîtresse a dit ? | No way! And what did the teacher say?
+        M: Elle n'a rien dit, mais mon père a payé la fenêtre. | She didn't say anything, but my father paid for the window.
+        A: Raconte aussi l'histoire du vélo, papa ! | Tell the story about the bike too, Dad!
+        M: Ah oui ! À dix ans, j'ai gagné un concours de dessin. | Oh yes! At ten, I won a drawing competition.
+        Z: Tu as gagné quoi ? | What did you win?
+        M: Cinquante francs ! Avec ça, j'ai acheté mon premier vélo. | Fifty francs! With that, I bought my first bike.
+        Z: Trop bien ! Moi, je n'ai jamais gagné de concours. | So cool! I've never won a competition.
+        A: Pas encore, ma chérie ! | Not yet, sweetheart!
+    pronunciation:
+      title: "Questions with -t- and negatives with n'"
+      body: |
+        In inverted questions with *il*, *elle* or *on*, French adds a **-t-** so that two vowels don't meet: *a-t-il* [a.til], *a-t-elle* [a.tɛl]. With *ils* and *elles*, the liaison gives a [t] sound too: *ont-ils* [ɔ̃.til].
+
+        In the negative, *ne* becomes **n'** before avoir: *je n'ai pas* [ʒə.ne.pa], *il n'a rien* [il.na.ʁjɛ̃]. Pronounce the [n] clearly — it's the only sign of the negative at the start of the sentence.
+      items: |
+        a-t-il gagné ?
+        a-t-elle aimé ?
+        ont-ils compris ?
+        je n'ai pas compris
+        il n'a rien dit
+        d'abord, ensuite, enfin
+    culture:
+      title: L'école en France
+      body: |
+        French children start *l'école maternelle* at three — school has been compulsory from that age since 2019 — and then go to *l'école primaire*, from CP (age 6) to CM2 (age 10). In many primary schools there are no lessons on Wednesdays, so children do sport or music, or go to the *centre de loisirs*.
+
+        Holiday camps (*colonies de vacances*, or *colos*) have been part of French childhood for generations, and many adults still have funny memories of their first *colo*.
+    mistakes: |
+      Je n'ai compris pas. => Je n'ai pas compris. | Ne… pas goes around the auxiliary, before the participle.
+      J'ai appris à nager en six ans. => J'ai appris à nager à six ans. | For age, use à: à six ans. En six ans means "within six years".
+      A il gagné ? => A-t-il gagné ? | In inverted questions with il, elle or on, add -t- between the two vowels.
+    task:
+      title: My first…
+      mode: writing
+      body: |
+        Write a short story (60–80 words) about a "first" from your childhood: your first bike, your first day at school, your first trip without your parents… Say when it happened (*à… ans* or *en…*), use *d'abord*, *ensuite* and *enfin*, and include one negative sentence. Then read your story aloud.
+    exercises: |
+      fill: Je n'___ rien ___ (comprendre) au début. || ai ; compris || Ne… rien goes around avoir, and comprendre → compris: je n'ai rien compris. || @tags fr.negation,fr.passe-compose-avoir
+      fill: À sept ans, Mehdi ___ (apprendre) à nager. || a appris || Il + avoir = a; apprendre → appris. || @tags fr.passe-compose-avoir
+      fill: Mes parents ont acheté cette maison ___ 1999. || en || Use en with a year: en 1999. || @tags fr.dates
+      fill: J'ai eu mon premier vélo ___ huit ans. || à || Use à + age: à huit ans. || @tags fr.numbers
+      mc: Choose the correct question. || A-elle aimé le film ? | *A-t-elle aimé le film ? | A-t-elle aimer le film ? || Inversion with elle needs -t- between the vowels, and the passé composé uses the participle aimé. || @tags fr.questions,fr.passe-compose-avoir
+      order: Je n'ai jamais oublié cette journée. || I've never forgotten that day. || @tags fr.negation
+      tf: The teacher said nothing about the broken window. || true || Michel says: "Elle n'a rien dit, mais mon père a payé la fenêtre." || @ctx dialogue
+      short: What did Michel buy with his prize money? || kw: vélo/bike/bicycle || "Avec ça, j'ai acheté mon premier vélo." || @ctx dialogue
+      listen: @dialogue || How old was Michel when he won the drawing competition? || 8 | *10 | 12 || "À dix ans, j'ai gagné un concours de dessin." || @tags fr.listening
+      listen: Quand j'étais petite, j'ai passé tous mes étés en Bretagne, chez ma grand-mère. || Where did the speaker spend her summers? || At a holiday camp | *At her grandmother's in Brittany | In Paris with her parents || "En Bretagne, chez ma grand-mère." || @tags fr.listening
+      rw: Make it negative with "ne… rien" :: Il a dit quelque chose. || Il n'a rien dit. || Ne… rien replaces quelque chose and goes around avoir. || @tags fr.negation,fr.passe-compose-avoir
+      dict: Quand j'étais petit, j'ai passé un été chez mon oncle à Marseille. || passer → passé
+      ask: Ask your partner two questions about their childhood (a first bike, a pet, a holiday). || kw: tu as/est-ce que/as-tu || Quand tu étais petit, tu as eu un animal ? Est-ce que tu as appris à faire du vélo avec tes parents ?
+      write: Write 4–5 sentences about a childhood memory — when it happened, what you did and one thing you didn't do. || min=40 || req: j'ai | n'ai/n'a/n'avons/n'ont || Quand j'étais petit, j'ai passé un été chez mes cousins en Normandie. D'abord, nous avons fait du vélo tous les jours. Ensuite, mon oncle a acheté un petit bateau et nous avons pêché sur la rivière. Je n'ai rien attrapé, mais j'ai beaucoup ri. Enfin, à la fin de l'été, j'ai pleuré dans le train !

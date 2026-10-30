@@ -1,0 +1,91 @@
+slug: ordering-cafe
+title: Ordering at a café or restaurant
+description: Order food and drinks, ask about the menu, and pay the bill.
+category: travel
+levels: A1-B1
+free: true
+order: 2
+goals:
+  - Greet the server and ask for a table or order directly
+  - Order a drink and something to eat politely
+  - Ask a question about the menu or a dish
+  - Ask for the bill and pay
+roles:
+  tutor: a friendly server in a busy café
+  learner: a customer
+languages:
+  fr:
+    opener: Bonjour ! Vous êtes combien ? Vous voulez une table en terrasse ? | Hello! How many of you are there? Would you like a table outside?
+    focus: [fr.register, fr.partitive, fr.ordering]
+    vocab: |
+      je voudrais… | I would like…
+      la carte | the menu
+      l'addition, s'il vous plaît | the bill, please
+      sur place / à emporter | to eat in / to take away
+      une carafe d'eau | a jug of tap water
+    script: |
+      Très bien. Qu'est-ce que je vous sers à boire ? | Very good. What can I get you to drink? | Order a drink: Je voudrais… | kw: voudrais/prends/aimerais
+      Et pour manger ? Aujourd'hui, le plat du jour, c'est un poulet basquaise. | And to eat? Today's special is Basque-style chicken. | Order food or ask about the dish | kw: voudrais/prends/qu'est-ce/c'est/avec
+      Parfait. Vous voulez une entrée ou un dessert ? | Perfect. Would you like a starter or a dessert? | Answer and maybe ask what desserts they have | kw: oui/non/dessert/entrée/merci
+      Voilà ! Bon appétit. Tout se passe bien ? | Here you are! Enjoy your meal. Is everything all right? | Say what you think of the food | kw: bon/délicieux/très/bien
+      Je vous apporte autre chose ? | Can I bring you anything else? | Ask for the bill | kw: addition/payer/carte
+  es:
+    opener: ¡Buenas! ¿Mesa para cuántos? ¿Dentro o en la terraza? | Hello! A table for how many? Inside or on the terrace?
+    focus: [es.register, es.ordering]
+    vocab: |
+      me pone… / quisiera… | I'd like… (ordering)
+      la carta | the menu
+      la cuenta, por favor | the bill, please
+      para llevar | to take away
+      el menú del día | the set menu of the day
+    script: |
+      Perfecto. ¿Qué os pongo para beber? | Perfect. What can I get you to drink? | Order a drink: Me pone… / Quisiera… | kw: pone/quisiera/quiero/para
+      ¿Y para comer? Hoy el menú del día es paella o lentejas. | And to eat? Today's set menu is paella or lentils. | Order or ask about the dishes | kw: paella/lentejas/quisiera/para/qué
+      Muy bien. ¿Queréis algo de postre después? | Very good. Would you like dessert afterwards? | Answer, maybe ask what there is | kw: sí/no/postre/qué/gracias
+      Aquí tenéis. ¿Qué tal está todo? | Here you are. How is everything? | Say what you think of the food | kw: bueno/rico/muy/está
+      ¿Os traigo algo más? | Can I bring you anything else? | Ask for the bill | kw: cuenta/pagar
+  de:
+    opener: Guten Tag! Für wie viele Personen? Möchten Sie drinnen oder draußen sitzen? | Hello! For how many people? Would you like to sit inside or outside?
+    focus: [de.accusative, de.register]
+    vocab: |
+      ich hätte gern… | I'd like…
+      die Speisekarte | the menu
+      zahlen, bitte | the bill, please
+      zum Mitnehmen | to take away
+      das Tagesgericht | the dish of the day
+    script: |
+      Gern. Was möchten Sie trinken? | Of course. What would you like to drink? | Order a drink: Ich hätte gern… / Ich nehme… | kw: hätte/nehme/möchte
+      Und zum Essen? Das Tagesgericht ist heute Schnitzel mit Kartoffelsalat. | And to eat? Today's dish is schnitzel with potato salad. | Order or ask about the dish | kw: nehme/hätte/möchte/was/ist
+      Sehr gern. Möchten Sie danach noch einen Nachtisch? | Very good. Would you like a dessert afterwards? | Answer, maybe ask what there is | kw: ja/nein/nachtisch/danke/was
+      Bitte schön. Schmeckt es Ihnen? | Here you are. Do you like it? | Say what you think of the food | kw: gut/lecker/sehr/schmeckt
+      Darf es noch etwas sein? | Would you like anything else? | Ask for the bill | kw: zahlen/rechnung
+  en:
+    opener: Hi there! Table for how many? Inside or out on the patio? | -
+    focus: [en.requests, en.modal-verbs]
+    vocab: |
+      I'd like… / could I have…? | polite ways to order
+      the menu | the list of food and drinks
+      could we have the check/bill, please? | asking to pay
+      to go | to take away (US)
+      today's special | the dish the kitchen recommends today
+    script: |
+      Great, follow me. What can I get you to drink? | - | Order a drink: I'd like… / Could I have…? | kw: like/could/have/please
+      And to eat? Today's special is grilled salmon with rice. | - | Order or ask about the special | kw: like/have/salmon/what/does
+      Sure thing. Would you like a starter or dessert as well? | - | Answer, maybe ask what desserts there are | kw: yes/no/dessert/starter/thanks
+      Here you go. How is everything? | - | Say what you think of the food | kw: good/great/delicious/really
+      Can I get you anything else? | - | Ask for the bill | kw: check/bill/pay
+  da:
+    opener: Hej! Hvor mange er I? Vil I sidde inde eller ude? | Hi! How many of you are there? Would you like to sit inside or outside?
+    focus: [da.ordering, da.register]
+    vocab: |
+      jeg vil gerne have… | I would like…
+      menukortet | the menu
+      må vi bede om regningen? | could we have the bill, please?
+      at spise her / at tage med | to eat in / to take away
+      dagens ret | today's special
+    script: |
+      Godt. Hvad vil I have at drikke? | Good. What would you like to drink? | Order a drink: Jeg vil gerne have… | kw: gerne/have/tager/kan jeg få
+      Og at spise? Dagens ret er frikadeller med kartoffelsalat. | And to eat? Today's special is Danish meatballs with potato salad. | Order food or ask about the dish | kw: gerne/have/tager/hvad/er der
+      Perfekt. Skal I have en dessert bagefter? | Perfect. Would you like a dessert afterwards? | Answer, and maybe ask what desserts there are | kw: ja/nej/dessert/hvad/tak
+      Værsgo! Hvordan smager det? | Here you are! How does it taste? | Say what you think of the food | kw: godt/lækkert/dejligt/meget
+      Kan jeg hente noget mere til jer? | Can I get you anything else? | Ask for the bill | kw: regningen/betale/kort

@@ -1,0 +1,358 @@
+unit: 7
+title: "Let's celebrate!"
+theme: Celebrations and traditions
+description: Talk about festivals and holidays, invite people to parties and answer invitations, and choose gifts and good wishes — with will and going to.
+free: false
+objectives:
+  - Talk about festivals and make predictions with will and going to
+  - Make, accept and refuse invitations, and make offers and quick decisions with will
+  - Choose gifts and give good wishes, and make promises with will and plans with going to
+canDo:
+  - I can describe a festival or a holiday and say what I think will happen.
+  - I can invite someone to a party and accept or refuse an invitation politely.
+  - I can offer to help and make a promise.
+  - I can write a short card with good wishes.
+review: |
+  fill: Don't worry about the food — I ___ bring a big salad. (offer, decided now) || 'll / will || An offer decided at the moment of speaking: will. || @tags en.future-forms
+  fill: We bought the tickets last week. We ___ (go) to the parade on Saturday. || are going to go / 're going to go || A plan made before: be going to + base form. || @tags en.future-forms
+  fill: Would you like ___ come to our housewarming party? || to || Would you like to + base form? || @tags en.suggestions
+  mc: I think the festival ___ really crowded this year. || *will be | will to be | is going be || Prediction: will + base form (no to). Going to needs to: is going to be. || @tags en.future-forms
+  mc: Your friend invites you to a party, but you have to work that night. What do you say? || *I'd love to, but I'm afraid I have to work. | I'd love! | No, I don't like parties. || Refuse politely: I'd love to, but… + a reason. || @tags en.suggestions,en.register
+  rw: Make it a promise with "won't" :: I promise — I'm not going to tell anyone about the surprise party. || I won't tell anyone about the surprise party. | I promise I won't tell anyone about the surprise party. | I promise I won't tell anyone. | I won't tell anyone. || Promises use will/won't. || @tags en.future-forms
+  rw: Make an invitation with "Do you want to" :: (come to the fireworks with us on Friday) || Do you want to come to the fireworks with us on Friday? || Do you want to + base form? is a friendly, informal invitation. || @tags en.suggestions
+  match: Congratulations! = someone has a new job ; Happy anniversary! = a couple married years ago on this day ; Good luck! = someone has an exam tomorrow ; Get well soon! = someone is sick || Match each wish with the situation. || @tags en.vocabulary @skill vocabulary
+  listen: Hi Sam! We're going to have a barbecue on Sunday at two. Would you like to come? Just bring something to drink. || What should Sam bring? || Some food | *Something to drink | A present || "Just bring something to drink." || @tags en.listening,en.suggestions
+  listen: Look at those dark clouds! I think the fireworks are going to be canceled tonight. || Why does the speaker think the fireworks will be canceled? || *Because of the weather | Because nobody bought tickets | Because it's too late || The speaker sees dark clouds — a prediction based on what we can see. || @tags en.listening,en.future-forms
+  ask: Invite a friend to a celebration — say what it is, when and where, and offer to help with something. || kw: would you like/do you want/want to & I'll/I will || Would you like to come to my sister's graduation party on Saturday? It's at our house at six. I'll pick you up if you want.
+  write: Write a short invitation to a party — what it's for, the day, time and place, what guests should bring, and how to reply. || min=40 || req: would you like/do you want/join us/invite | bring || Hi everyone! It's Theo's thirtieth birthday, and we're going to have a surprise party at my place on Saturday, May 10, at 7 p.m. It's a potluck, so please bring something to eat or drink. Would you like to come? Please RSVP by Wednesday — and don't tell Theo! Camila
+lessons:
+  - title: Festivals and holidays
+    summary: Talk about festivals, holidays and traditions, and make predictions with will — and plans with going to.
+    minutes: 40
+    skills: [grammar, vocabulary, listening]
+    tags: [en.future-forms, en.vocabulary, en.pronunciation]
+    objectives:
+      - Make predictions with will, won't and I think…
+      - Choose between will (prediction, opinion) and going to (plans, evidence)
+      - Describe festivals, holidays and traditions
+    intro: |
+      Every culture has its festivals: lights, parades, fireworks and special food. When we tell a friend about a festival, we often predict what will happen: *It'**ll** be crowded. You'**ll** love it!* In this lesson you will make predictions with **will**, talk about plans with **going to**, and learn words for festivals and traditions.
+    vocab: |
+      festival | a special time when people celebrate something, often with music, food and events | n | The city has a big music festival every summer. | - | c: a music festival; a film festival; a food festival
+      celebrate | to do something special and fun for an important day or event | v | We celebrate New Year with a big dinner. | - | n: Noun: celebration.
+      parade | a line of people, music and decorated vehicles moving through the streets | n | We watched the parade from the sidewalk. | - | c: a holiday parade; march in a parade
+      fireworks | small explosives that make bright colors and loud noises in the sky | n | The fireworks start at midnight. | - | c: a fireworks show; watch the fireworks
+      costume | special clothes that make you look like someone or something else | n | The kids wore animal costumes. | - | c: a Halloween costume; wear a costume
+      decorate | to make a place look nice for a special day | v | We decorate the house with lights. | - | n: Noun: decorations.
+      tradition | something that people in a family or culture have done for a long time | n | It's a family tradition to sing after dinner. | - | c: a family tradition; an old tradition
+      public holiday | a day when most people don't go to work or school | n | Monday is a public holiday. | - | n: British English also: bank holiday. American English: federal holiday.
+      take place | to happen (at a planned time or place) | phr v | The festival takes place every October. | - | n: Past: took place.
+      feast | a big, special meal for a lot of people | n | After the ceremony, there's a feast for the whole family. | - | n: Also a verb: feast on something.
+      get together | to meet as a group, usually for fun | phr v | My cousins and I get together every holiday season. | - | n: Noun: a get-together.
+      crowd | a large group of people in one place | n | A huge crowd watched the fireworks. | - | n: Adjective: crowded.
+      light | to make a candle or a fire start to burn | v | We light candles for Diwali. | - | n: Past: lit. Also a noun: the lights.
+    grammar:
+      title: "will for predictions; will or going to?"
+      body: |
+        We use **will + base form** to say what we **think** or **believe** about the future: *It**'ll** be crowded. You**'ll** love it. It **won't** be cold.* We often add **I think**, **I'm sure**, **probably** or **maybe**: *I think it'll rain.* For a negative opinion, say *I **don't think** it'll rain* (more natural than *I think it won't rain*).
+
+        Will is the same for every person, and there's **no to** after it: *She will come* (not ~~will comes~~, ~~will to come~~). Short forms: **'ll** and **won't** (= will not). Questions: ***Will** it be crowded? — Yes, it will. / No, it won't.*
+
+        You already know **be going to** for **plans** you decided before: *We**'re going to watch** the parade.* We also use going to for a prediction when we can **see** the evidence now: *Look at those clouds! It**'s going to rain**.*
+      table: |
+        Use | Form | Example
+        prediction / opinion | will + base form | I think you'll love the festival.
+        negative prediction | won't + base form | It won't be expensive.
+        question | Will + subject + base form? | Will it be crowded?
+        plan (decided before) | be going to + base form | We're going to watch the parade.
+        prediction with evidence | be going to + base form | Look at the sky — it's going to rain.
+      examples: |
+        There'll be music and fireworks. | | there will → there'll
+        I'm sure the kids will enjoy the parade. | | I'm sure + will
+        I don't think it'll be very cold. | | I don't think + will
+        We're going to light candles tonight. | | a plan with going to
+      tip: "For your own plans, use going to. For what you think about the future, use will — often after I think or I'm sure."
+    dialogue:
+      title: Diwali lights
+      setting: An October evening in Leicester, England. Lukas, an exchange student from Germany, asks his friend Divya about the Diwali celebrations in the city.
+      speakers: D=Divya/f; L=Lukas/m
+      lines: |
+        D: Are you going to come to the Diwali lights on Sunday?
+        L: Yes! What's going to happen?
+        D: They light thousands of lights on Belgrave Road.
+        D: There'll be music, dancing and food from lots of stalls.
+        L: It sounds amazing. Will it be very crowded?
+        D: Oh yes. Lots of people come every year.
+        L: Will it be cold at night?
+        D: Probably. Bring a warm jacket — you'll need it.
+        L: Are you going to celebrate with your family too?
+        D: Yes, we're going to light candles and have a big feast.
+        L: I'm sure it'll be an unforgettable night.
+    pronunciation:
+      title: "'ll and won't"
+      body: |
+        In speaking, **will** is usually **'ll**: *I'll, you'll, it'll, there'll*. It's a dark, short l sound — don't add a new syllable. *It'll* sounds like "IT-l".
+
+        Be careful with **won't** (will not) and **want**: *won't* has an "oh" sound, like *don't*; *want* has an "o" like *hot*. Listen and repeat.
+      items: |
+        It'll be fun.
+        You'll love it.
+        There'll be fireworks.
+        It won't rain.
+        I want to go.
+        I won't go.
+    culture:
+      title: Holidays in English-speaking countries
+      body: |
+        In the US, important federal holidays include **Independence Day** (July 4), with parades and fireworks, and **Thanksgiving** (the fourth Thursday in November), when families get together for a feast, often with turkey. In the UK, many public holidays are called **bank holidays**, and most of them are on Mondays.
+
+        These countries are home to people from all over the world, so many festivals are celebrated: Diwali, Lunar New Year, Eid, Hanukkah, Christmas and more. Leicester, in England, has one of the biggest Diwali celebrations outside India.
+    mistakes: |
+      I think it will rains tomorrow. => I think it will rain tomorrow. | Will + base form: no -s.
+      It will to be crowded. => It will be crowded. | No to after will.
+      I'm going watch the parade. => I'm going to watch the parade. | Be going to + base form: don't forget to.
+    task:
+      title: My favorite festival
+      mode: speaking
+      body: |
+        Choose a festival or holiday that you love, or one in your city. In one minute, tell a friend about it: when it takes place, what people do, what you're going to do this year, and two predictions about it (*I think it'll be…, there'll be…*). Record it in Speaking practice or tell the AI coach.
+    exercises: |
+      fill: Bring an umbrella. I think it ___ rain later. || 'll / will || Prediction with I think: will + base form. || @tags en.future-forms
+      fill: Don't worry, the tickets ___ be expensive. They're usually cheap. || won't / will not || Negative prediction: won't + base form. || @tags en.future-forms
+      fill: ___ the parade be long? — No, about an hour. || Will || Question: Will + subject + base form? || @tags en.future-forms,en.questions
+      fill: We decided last week. We ___ (have) a party for Lunar New Year. || are going to have / 're going to have || A plan decided before: be going to. || @tags en.future-forms
+      mc: Look at those black clouds! It ___ rain. || *is going to | will to | is going || You can see the evidence now → going to. Will to and is going (without to) are wrong. || @tags en.future-forms
+      mc: Choose the most natural sentence. || I think it won't be cold. | *I don't think it'll be cold. | I don't think it won't be cold. || English usually puts the negative in I don't think. || @tags en.future-forms
+      rw: Make it a prediction with "I'm sure" and "will" :: The kids love the fireworks. (tonight) || I'm sure the kids will love the fireworks tonight. | I am sure the kids will love the fireworks tonight. || I'm sure + will + base form. || @tags en.future-forms
+      match: parade = people and music moving through the streets ; fireworks = colors and noise in the night sky ; feast = a big, special meal ; costume = special clothes to look like someone else || Match each word with its meaning. || @tags en.vocabulary @skill vocabulary
+      tf: Divya thinks Lukas won't need a jacket. || false || "Bring a warm jacket — you'll need it." || @ctx dialogue
+      short: What is Divya's family going to do? || kw: candles/feast/celebrate || "We're going to light candles and have a big feast." || @ctx dialogue
+      listen: @dialogue || Where are the Diwali lights? || *On Belgrave Road | In Divya's house | In the town hall || "They light thousands of lights on Belgrave Road." || @tags en.listening
+      listen: The summer festival takes place in the park every July. This year there'll be three music stages and a food market. || What will be new this year? || A parade | *Three music stages and a food market | Fireworks at midnight || "This year there'll be three music stages and a food market." || @tags en.listening,en.future-forms
+      dict: I'm sure there'll be a big crowd at the parade.
+      ask: Tell a friend about a festival in your city — when it takes place and two predictions about this year. || kw: will/'ll/won't & festival/parade/fireworks/music/crowded/fun/people || The jazz festival takes place every June. I think it'll be really crowded this year, and there'll be a lot of free concerts.
+      write: Write a short message to a friend who is visiting your city during a festival. Say when it takes place, what you're going to do together, and two predictions with will. || min=35 || req: going to | will/'ll/won't || Hi Marta! The food festival takes place next weekend, so your visit is perfect. We're going to try street food from twenty countries and watch the parade on Saturday. I think you'll love it! It'll be crowded, but it won't be expensive. See you soon!
+
+  - title: Invitations and parties
+    summary: Invite people to parties, accept and refuse politely, and make offers and quick decisions with will.
+    minutes: 40
+    skills: [speaking, listening, grammar]
+    tags: [en.suggestions, en.future-forms, en.intonation]
+    objectives:
+      - Make invitations with Would you like to…? and Do you want to…?
+      - Accept and refuse invitations politely
+      - Use will for offers and decisions you make while speaking
+    intro: |
+      *Would you like to come to my party?* — *I'd love to! I'll bring dessert.* Invitations need polite questions and friendly answers, and offers often use **will**. In this lesson you will invite people, accept and refuse without sounding rude, and offer to help with **I'll…**.
+    vocab: |
+      invitation | a written or spoken request to come to a party or event | n | Thanks for the invitation! | - | c: send an invitation; accept an invitation
+      RSVP | to say if you will come to an event (on an invitation) | v | Please RSVP by Friday. | - | n: Say "R-S-V-P". It comes from French.
+      host | the person who invites guests and organizes a party | n | Don't forget to thank the host. | - | n: Also a verb: host a party.
+      guest | a person who is invited to a party or someone's home | n | We have twenty guests tonight. | - | c: a dinner guest; a special guest
+      housewarming party | a party in your new home | n | They're going to have a housewarming party next month. | - | n: Housewarming gifts are often plants or something for the kitchen.
+      potluck | a meal where every guest brings some food to share | n | It's a potluck, so bring a dish. | - | n: Mainly American English. In Australia and New Zealand: bring a plate.
+      surprise party | a party that the person it's for doesn't know about | n | We want to throw a surprise party for Mom. | - | c: throw a surprise party
+      turn | to become a certain age | v | My daughter turns ten on Friday. | - | n: Turned thirty = had a thirtieth birthday.
+      dress code | rules about what clothes to wear at an event | n | The dress code is casual. | - | c: casual; smart casual; formal
+      make it | to be able to come to an event | expr | Sorry, I can't make it on Saturday. | - | n: Informal and very common.
+      I'd love to. | a warm way to say yes to an invitation | expr | Would you like to come? — I'd love to! | - | n: Don't stop at "I'd love". Say I'd love to.
+      I'm afraid… | a polite way to start bad news or a refusal | expr | I'm afraid I can't come. I have to work. | - | n: It doesn't mean you are scared here.
+      Maybe another time. | a friendly way to say no now, but yes in the future | expr | I can't tonight. Maybe another time? | - | n: Also: Can I take a rain check? (American English)
+    grammar:
+      title: "Invitations; will for offers and quick decisions"
+      body: |
+        **Making invitations**: *Would you like to + base form?* (polite) — *Do you want to + base form?* (friendly, informal) — *Why don't you come…?*
+
+        **Accepting**: *I'd love to! That sounds great! Thanks, I'll be there.*
+        **Refusing politely**: say thank you, say no softly, give a reason: *Thanks for inviting me. I'd love to, but I'm afraid I can't. I have to work. Maybe another time?*
+
+        **will for offers and quick decisions**: when you decide to do something **at the moment of speaking**, use **will** (usually **'ll**): *OK, **I'll bring** a salad. The doorbell! **I'll get** it.* To offer help in a question, use **Shall I…?** (more British) or **Do you want me to…?**: *Do you want me to bring some music?*
+
+        Compare: *I'**m going to** make a cake* = I decided before (a plan). *OK, **I'll** make a cake* = I'm deciding now.
+      table: |
+        Function | Phrase
+        invite (polite) | Would you like to come to my party?
+        invite (friendly) | Do you want to come over on Friday?
+        accept | I'd love to! / That sounds great!
+        refuse | I'd love to, but I'm afraid I can't. Maybe another time?
+        offer | I'll bring dessert. / Do you want me to help?
+        quick decision | The phone's ringing — I'll answer it.
+      examples: |
+        Would you like to come to our housewarming party? — I'd love to! | | invitation + acceptance
+        Thanks so much, but I'm afraid I can't make it. | | polite refusal
+        It's a potluck? Great, I'll bring a salad. | | offer decided now: will
+        We're going to have a barbecue. Do you want to come? | | plan (going to) + invitation
+      tip: "When you refuse, always give a short reason (I have to work, my parents are in town…). A refusal with no reason can sound unfriendly in English."
+    dialogue:
+      title: Theo's surprise party
+      setting: An office in Austin, Texas. Camila is planning a surprise party for her friend Theo, who turns thirty next week. She invites two coworkers, Ezra and Jun.
+      speakers: C=Camila/f; E=Ezra/m; J=Jun/m
+      lines: |
+        C: Ezra, would you like to come to a surprise party?
+        E: I'd love to! Who's it for?
+        C: Theo. He turns thirty next Saturday.
+        E: Great. Where's it going to be?
+        C: At my place. It's a potluck, so everyone brings food.
+        E: OK, I'll bring a salad. Do you need anything else?
+        C: Could you bring some music too?
+        E: Sure. I'll make a playlist tonight.
+        C: Jun, do you want to come to Theo's party on Saturday?
+        J: Thanks, but I'm afraid I can't. I have to work that night.
+        J: But I'll send him a card. Maybe another time!
+        C: No problem. Remember, it's a surprise — don't tell him!
+    pronunciation:
+      title: "Saying yes and no warmly"
+      body: |
+        To accept an invitation, sound excited: start high on the important word and fall: ***LOVE** to! That sounds **GREAT**!*
+
+        To refuse, speak a little more softly and slowly, and let your voice fall gently: *I'm a**FRAID** I **CAN'T**…* A quick, flat "No" can sound rude, even with the right words. Listen and repeat.
+      items: |
+        I'd love to!
+        That sounds great!
+        I'm afraid I can't.
+        Maybe another time.
+        Would you like to come?
+        I'll bring a salad.
+    culture:
+      title: Party customs
+      body: |
+        On invitations you may see **RSVP**: it means please reply and say if you're coming. In the US and Canada, a **potluck** is very common at work or with neighbors — everyone brings one dish. In Australia and New Zealand, *bring a plate* means bring some food to share, not an empty plate!
+
+        **BYOB** means *bring your own bottle* (or beverage). For dinner at someone's home, guests often bring a small gift like flowers or dessert. For a casual party, arriving 10–20 minutes late is usually fine; for a dinner, try to arrive on time.
+    mistakes: |
+      Would you like come to my party? => Would you like to come to my party? | Would you like + to + base form.
+      Thanks for the invitation. I'd love! => Thanks for the invitation. I'd love to! | Don't stop after love — say I'd love to.
+      The phone's ringing. — OK, I answer it. => OK, I'll answer it. | For a decision at the moment of speaking, use will ('ll).
+    task:
+      title: Party planner
+      mode: interaction
+      body: |
+        You're having a party (a birthday, a housewarming or a potluck). Invite three people — a partner, classmates or the AI coach in the "Making weekend plans" scenario. One accepts and offers to bring something, one refuses politely with a reason, and one asks a question (time, place, dress code). Use Would you like to…? and I'll….
+    exercises: |
+      fill: ___ you like to come to my birthday dinner on Friday? || Would || Polite invitation: Would you like to…? || @tags en.suggestions
+      fill: I'd love ___, but I'm afraid I have to study. || to || I'd love to = yes, I want to (here, before but). || @tags en.suggestions
+      fill: You don't have any chairs? No problem, I ___ bring some. || 'll / will || An offer decided now: will. || @tags en.future-forms
+      mc: Choose the best way to refuse an invitation. || No. | I don't want to come. | *Thanks, but I'm afraid I can't. I have to work that day. || Thank the person, refuse softly and give a reason. || @tags en.suggestions,en.register
+      mc: The doorbell rings during the party. You say: || I'm going to get it. | I get it. | *I'll get it! || A decision at the moment of speaking: will. || @tags en.future-forms
+      rw: Make it a polite invitation with "Would you like to" :: Come to our housewarming party on Saturday. || Would you like to come to our housewarming party on Saturday? || Would you like to + base form? || @tags en.suggestions
+      rw: Make an offer with "I'll" :: (bring some drinks) || I'll bring some drinks. | I will bring some drinks. || Offer: I'll + base form. || @tags en.future-forms
+      match: RSVP = say if you are coming ; potluck = a meal where guests bring food ; host = the person who gives the party ; dress code = rules about what to wear || Match each word with its meaning. || @tags en.vocabulary @skill vocabulary
+      tf: Jun can come to the party. || false || "I'm afraid I can't. I have to work that night." || @ctx dialogue
+      short: What is Ezra going to bring? || kw: salad & music/playlist || He says, "I'll bring a salad" and "I'll make a playlist tonight." || @ctx dialogue
+      listen: @dialogue || How old is Theo going to be? || Twenty | *Thirty | Forty || "He turns thirty next Saturday." || @tags en.listening,en.numbers
+      listen: Thanks so much for the invitation, Rosa. I'd love to come, but I have to visit my grandmother that weekend. Maybe another time? || Is the speaker going to the party? || *No, she can't go. | Yes, she's going with her grandmother. | We don't know. || "I'd love to come, but… Maybe another time?" is a polite refusal. || @tags en.listening,en.suggestions
+      dict: Would you like to come to our party on Saturday?
+      ask: A friend invites you to a barbecue on Sunday. Accept and offer to bring something. || kw: love/great/sure/yes & I'll/I will/bring || I'd love to! That sounds great. I'll bring some burgers and a cake.
+      write: A coworker invited you to her housewarming party, but you can't go. Write a short, polite reply with a reason and a wish. || min=25 || req: thank/thanks | afraid/sorry/can't/cannot || Hi Lena, thank you so much for the invitation! I'd love to come, but I'm afraid I can't make it — I have plans with my parents that weekend. I hope you have a great party. Maybe we can have coffee next week? Jun
+
+  - title: Gifts and good wishes
+    summary: Choose gifts, write cards with good wishes, and make promises with will and plans with going to.
+    minutes: 35
+    skills: [writing, vocabulary, speaking]
+    tags: [en.future-forms, en.vocabulary, en.word-stress]
+    objectives:
+      - Use the right wish for each occasion (Congratulations!, Good luck!, Best wishes…)
+      - Make promises with will and won't
+      - Choose between will and going to for decisions, offers, promises and plans
+    intro: |
+      Birthdays, weddings, new babies, new jobs — they all need the right words: ***Congratulations!** **Best wishes!** **Good luck!*** In this lesson you will talk about gifts, write short cards and make promises with **will** (*I won't tell anyone, I promise*), and review when to use **will** and **going to**.
+    vocab: |
+      present | something you give to someone on a special day | n | I bought a present for my nephew. | - | n: Also gift (a little more formal).
+      wrap | to cover a present with paper | v | Can you help me wrap this present? | - | c: wrapping paper; gift-wrap | n: The w is silent.
+      card | a folded piece of thick paper with a picture and a message | n | Don't forget to sign the birthday card. | - | c: a birthday card; a thank-you card
+      gift card | a card with money on it that you can spend in a store | n | I got a gift card for the bookstore. | - | n: British English also: gift voucher.
+      thoughtful | showing that you think about other people's feelings | adj | What a thoughtful present! | - | n: Similar: kind.
+      Congratulations! | words to say you are happy about someone's success or good news | expr | Congratulations on your new job! | - | n: Always with -s. Congratulations on + noun.
+      anniversary | the same date as an important event in a past year, like a wedding | n | Happy tenth anniversary! | - | c: a wedding anniversary
+      engaged | having agreed to get married | adj | My brother and his partner just got engaged! | - | c: get engaged
+      Best wishes | a friendly phrase at the end of a card or for a special day | expr | Best wishes for your new home! | - | n: Also: All the best.
+      Good luck! | words you say before someone does something difficult | expr | Good luck with your exam tomorrow! | - | c: good luck with + noun
+      make a toast | to lift your glass and say good words about someone before drinking | expr | Grandpa made a toast to the happy couple. | - | n: People say Cheers! after a toast.
+      You shouldn't have! | a polite thing to say when someone gives you a present | expr | Flowers for me? Oh, you shouldn't have! | - | n: It means thank you — it's not a complaint!
+      promise | to say that you will certainly do or not do something | v | I promise I'll call you tomorrow. | - | n: Also a noun: make a promise; keep a promise.
+    grammar:
+      title: "will for promises; will or going to?"
+      body: |
+        We use **will / won't** to make **promises**: *I**'ll** call you every week. I **won't** tell anyone, I **promise**.* After *I promise (that)*, use will: *I promise I**'ll** be on time.*
+
+        Here's a summary of will and going to:
+        - **plan** decided before → **going to**: *We**'re going to give** them a photo album.*
+        - **decision** at the moment of speaking → **will**: *Great idea! I**'ll find** the photos.*
+        - **offer** → **will**: *I**'ll wrap** it for you.*
+        - **promise** → **will**: *I **won't forget**.*
+        - **prediction**: **will** for an opinion (*I think they'll love it*); **going to** when you can see it (*She's going to open it now!*).
+
+        For good wishes, use **hope** + present simple: *I **hope** you **have** a great day!* (not ~~I wish you have~~). You can also say *I wish you a happy birthday* (wish + person + noun).
+      table: |
+        Situation | Form | Example
+        plan made before | going to | I'm going to buy her a scarf.
+        decision now | will | That's a good idea. I'll ask Dad.
+        offer | will | I'll help you wrap it.
+        promise | will / won't | I won't tell her, I promise.
+        good wish | hope + present | I hope you have a wonderful birthday.
+      examples: |
+        What are you going to give him? — I'm going to give him a gift card. | | plan
+        Oh no, we forgot the card! — Don't worry, I'll get one. | | decision now
+        I promise I won't open it before my birthday. | | promise
+        I hope you enjoy your new home! | | hope + present for good wishes
+      tip: "Learn wishes with their occasions: Happy birthday / anniversary! Congratulations on your wedding / new baby / new job! Good luck with your exam / interview! Get well soon!"
+    dialogue:
+      title: Thirty-five years
+      setting: A Saturday afternoon at a café in Seattle. Siblings Selam and Abel are planning a gift for their parents' wedding anniversary.
+      speakers: S=Selam/f; A=Abel/m
+      lines: |
+        S: Mom and Dad's anniversary is on Friday. What are we going to get them?
+        A: I'm going to order flowers. I decided last night.
+        S: Nice. Thirty-five years — that's amazing!
+        A: How about a photo album with old family pictures?
+        S: Great idea! I'll find the photos this weekend.
+        A: And I'll write the card. What should I say?
+        S: "Happy anniversary! Best wishes and lots of love."
+        A: Perfect. Oh, and don't tell Mom about the album.
+        S: I won't tell anyone, I promise.
+        A: I think they'll love it. Dad will probably cry!
+        S: Of course he will. He cries at everything!
+    pronunciation:
+      title: "Stress in good wishes"
+      body: |
+        Long words in wishes have one strong syllable. ***Con**-gra-tu-**LA**-tions*: the main stress is on **LA**. *An-ni-**VER**-sa-ry*: the stress is on **VER**.
+
+        In short wishes, stress the most important word: *Good **LUCK**! Best **WISH**es! Thank you so **MUCH**!* Smile while you say them — it changes your voice. Listen and repeat.
+      items: |
+        Congratulations!
+        Happy anniversary!
+        Best wishes!
+        Good luck!
+        You shouldn't have!
+        Thank you so much!
+    culture:
+      title: Giving and getting presents
+      body: |
+        In the US, Canada and the UK, people usually open a present **in front of the person** who gave it and say thank you right away — *Oh, I love it! You shouldn't have!* Taking the price tag off before you give a gift is polite, and stores often give a **gift receipt** so the person can exchange it.
+
+        A written **thank-you card** or message after a wedding or a birthday party is a nice tradition. And remember: *It's the thought that counts* — a small, thoughtful present is often better than an expensive one.
+    mistakes: |
+      Congratulation for your new job! => Congratulations on your new job! | Always Congratulations (with -s), and use on before the event.
+      I promise I don't tell anyone. => I promise I won't tell anyone. | Promises about the future use will/won't.
+      I wish you have a great day. => I hope you have a great day. | Use hope + present simple for good wishes (or I wish you a great day).
+    task:
+      title: Write a card
+      mode: writing
+      body: |
+        Write three short cards (2–3 sentences each): one for a friend's birthday, one for a colleague who has a new job, and one for a couple's wedding anniversary. Use the right wish for each, and add a promise or an offer with will in one of them (*I'll take you out for lunch next week!*).
+    exercises: |
+      fill: ___ on your new job! You'll be great. || Congratulations || Congratulations (with -s) on + the good news. || @tags en.vocabulary @skill vocabulary
+      fill: I promise I ___ forget your birthday this year. || won't / will not || A promise: won't + base form. || @tags en.future-forms
+      fill: I hope you ___ (have) a wonderful day! || have || Hope + present simple for good wishes. || @tags en.future-forms,en.present-simple
+      mc: You bought the tickets last month. "What's your plan for Mom's birthday?" — "We ___ take her to a concert." || *are going to | will to | going to || A plan made before: be going to. Going to without are is wrong. || @tags en.future-forms
+      mc: "Oh no, we don't have any wrapping paper!" — "Don't worry, I ___ get some." || *'ll | 'm going to to | am get || A decision at the moment of speaking: I'll. || @tags en.future-forms
+      rw: Make it a promise with "I promise" and "will" :: I call you every week. || I promise I'll call you every week. | I promise I will call you every week. | I promise to call you every week. || I promise + will + base form (or I promise to + base form). || @tags en.future-forms
+      rw: Correct the mistake :: Congratulation for your engagement! || Congratulations on your engagement! || Congratulations (with -s) + on. || @tags en.vocabulary
+      match: Happy birthday! = a friend turns twenty-one ; Congratulations! = your cousin passed her exams ; Get well soon! = your neighbor is in the hospital ; Good luck! = your brother has a job interview tomorrow || Match each wish with the situation. || @tags en.vocabulary @skill vocabulary
+      tf: Abel decided to order flowers today. || false || He says, "I decided last night." That's why he uses going to. || @ctx dialogue
+      short: Who is going to write the card? || kw: abel || Abel says, "And I'll write the card." || @ctx dialogue
+      listen: @dialogue || How many years have the parents been married? || Twenty-five | *Thirty-five | Fifty || "Thirty-five years — that's amazing!" || @tags en.listening,en.numbers
+      listen: Thank you so much for the flowers! You shouldn't have! They're beautiful, and they're my favorite color. || How does the speaker feel about the flowers? || *Very happy | Angry | Bored || "You shouldn't have" here is a polite way to say thank you; she says they're beautiful. || @tags en.listening
+      dict: Congratulations on your new job! I'm sure you'll love it.
+      ask: Your friend just got engaged. Congratulate them and make a promise or an offer with will. || kw: congratulations & will/'ll/won't || Congratulations! That's wonderful news. I'll help you plan the party, I promise!
+      write: Write a card for a friend who is moving to another city. Give good wishes and make one promise. || min=25 || req: hope/best wishes/good luck | will/'ll/won't || Dear Kai, I'm sad you're leaving, but I hope you love your new home in Denver! Good luck with your new job. I promise I'll visit you in the spring. Best wishes, Ana
