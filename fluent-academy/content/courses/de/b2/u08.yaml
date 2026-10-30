@@ -1,0 +1,366 @@
+unit: 8
+title: Der Blick nach vorn
+theme: Looking ahead
+description: Speculate about the future and the past, reflect on regrets and lessons learned, and present a structured argument — with Futur II, Konjunktiv II past for regrets, verb-first conditionals and the language of presentations.
+free: false
+objectives:
+  - Say what will have happened by a point in the future and make assumptions about the past with Futur II
+  - Express regrets and alternative pasts with Konjunktiv II past and verb-first conditionals
+  - Structure and deliver a short presentation with clear signposting
+canDo:
+  - I can make predictions and say what will probably have changed by a certain date.
+  - I can guess what has probably happened when I don't know for sure.
+  - I can talk about decisions I regret and what I have learned from them.
+  - I can give a short, well-structured presentation and deal with counter-arguments.
+review: |
+  fill: Bis 2040 ___ die Stadt alle Busse auf Elektroantrieb umgestellt haben. || wird || Futur II: werden + Partizip II + haben; die Stadt → wird. || @tags de.futur
+  fill: Paula ist noch nicht da. Sie wird den Zug verpasst ___. || haben || Futur II for an assumption about the past: wird … verpasst haben (= she has probably missed the train). || @tags de.futur
+  mc: „Er wird den Schlüssel im Büro vergessen haben.“ What does this mean? || *He has probably left the key at the office. | He will forget the key at the office. | He wants to leave the key at the office. || Futur II often expresses an assumption about something that has already happened. || @tags de.futur
+  fill: Wäre ich doch nicht so früh nach Hause ___! (gehen) || gegangen || A regret about the past: wäre + Partizip II; gehen forms the Perfekt with sein. || @tags de.konjunktiv2,de.perfekt-sein
+  rw: Leave out wenn (verb first) :: Wenn ich das früher gewusst hätte, wäre ich gekommen. || Hätte ich das früher gewusst, wäre ich gekommen. | Hätte ich das früher gewusst, dann wäre ich gekommen. | Hätte ich das früher gewusst, so wäre ich gekommen. || Without wenn, hätte moves to the front; the main clause still starts with its verb (or dann/so). || @tags de.konjunktiv2,de.word-order
+  rw: Express a regret (Hätte ich doch …!) :: Ich habe das Angebot nicht angenommen. || Hätte ich doch das Angebot angenommen! | Hätte ich das Angebot doch angenommen! | Hätte ich nur das Angebot angenommen! | Hätte ich das Angebot nur angenommen! | Wenn ich das Angebot doch angenommen hätte! | Wenn ich das Angebot nur angenommen hätte! || The negative fact becomes a positive wish: Hätte ich doch/nur … + Partizip II! || @tags de.konjunktiv2
+  mc: Which phrase introduces a counter-argument in a presentation? || *Nun könnte man einwenden, dass … | Zusammenfassend lässt sich sagen, … | Mein Vortrag gliedert sich in drei Teile. || Nun könnte man einwenden … introduces a possible objection; the others summarise or outline. || @tags de.discourse-markers,de.opinion
+  tr: I should have listened to you. || Ich hätte auf dich hören sollen. | Ich hätte auf Sie hören sollen. | Ich hätte dir zuhören sollen. | Ich hätte Ihnen zuhören sollen. || Should have = hätte + infinitive + sollen; auf jemanden hören = to take someone's advice. || @tags de.konjunktiv2,de.modal-verbs
+  listen: Im Nachhinein hätte ich mein Studium nicht abbrechen sollen. Aber ohne diesen Umweg hätte ich nie meine eigene Firma gegründet. || How does the speaker see dropping out of university today? || As the best decision of her life | *As a mistake that also led to her own company | As something she has never thought about || She regrets it ("hätte … nicht abbrechen sollen") but says that without it she would never have founded her company. || @tags de.listening,de.konjunktiv2
+  listen: Damit komme ich zum letzten Punkt meines Vortrags. Zusammenfassend lässt sich sagen, dass die Nachfrage nach Lastenrädern stark gestiegen ist. || What is the speaker doing? || Introducing the topic | *Summing up at the end of the talk | Answering a question from the audience || "Damit komme ich zum letzten Punkt … Zusammenfassend lässt sich sagen …" || @tags de.listening,de.discourse-markers
+  ask: „Was werden Sie in fünf Jahren erreicht haben – und was würden Sie im Rückblick auf die letzten fünf Jahre anders machen?“ || kw: werde/werden & haben/sein & hätte/wäre/würde || In fünf Jahren werde ich hoffentlich meinen Master abgeschlossen haben. Im Rückblick hätte ich früher mit Deutsch anfangen sollen. Hätte ich das getan, wäre der Umzug viel leichter gewesen.
+  write: Write a short letter (80–100 words) to yourself, to be opened in ten years. Say what you will probably have achieved by then and what you hope you won't regret. || min=70 || req: wirst/werde/wird | haben/sein | hätte/wäre/hoffentlich || Liebe Zukunfts-Lina, wenn du diesen Brief liest, wirst du hoffentlich deine Ausbildung längst abgeschlossen haben und in deiner eigenen Werkstatt arbeiten. Vielleicht wirst du sogar ein paar Jahre im Ausland gelebt haben. Ich hoffe, du hast den Kontakt zu deinen alten Freundinnen nicht verloren. Hätte ich in den letzten Jahren mehr Zeit für sie gehabt, wären wir heute noch enger befreundet. Bitte mach diesen Fehler nicht noch einmal. Und falls du gerade unzufrieden bist: Es ist nie zu spät, etwas Neues anzufangen. Deine Lina von heute
+lessons:
+  - title: Predictions and speculation
+    summary: Fill a school time capsule and speculate about the future and the present — with Futur II and Futur I for assumptions.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [de.futur, de.opinion]
+    objectives:
+      - Form the Futur II (wird … gemacht haben / gekommen sein)
+      - Say what will have been completed by a point in the future
+      - Make assumptions about the past with Futur II and about the present with Futur I
+    intro: |
+      *By 2050 robots will have taken over the housework. — Jonas isn't here yet; he'll have missed the bus.* German uses the **Futur II** for both ideas: things that will be finished by a certain time, and guesses about what has (probably) already happened. In this lesson a class fills a time capsule to be opened in 2050 and speculates about the future — and about a classmate who hasn't turned up.
+    vocab: |
+      die Prognose | forecast; prediction | n | Meine Prognose: In zwanzig Jahren hat niemand mehr ein Smartphone. | My prediction: in twenty years nobody will have a smartphone any more. | g: f | pl: die Prognosen | c: eine Prognose wagen/abgeben
+      vorhersagen | to predict; to forecast | v | Viele Experten haben vorhergesagt, dass Bücher verschwinden. | Many experts predicted that books would disappear. | n: Separable. Noun: die Vorhersage (also: weather forecast).
+      die Zeitkapsel | time capsule | n | Die Zeitkapsel wird erst in fünfundzwanzig Jahren geöffnet. | The time capsule won't be opened for another twenty-five years. | g: f | pl: die Zeitkapseln
+      eintreten | to happen; to come true (formal) | v | Zum Glück ist die Katastrophe nicht eingetreten. | Fortunately the disaster didn't happen. | n: Separable, Perfekt with sein. Also: to enter.
+      voraussichtlich | probably; expected to | adv | Das Rathaus wird voraussichtlich im Herbst fertig. | The town hall is expected to be finished in the autumn.
+      längst | long since; a long time ago | adv | Bis dahin wird man die Handys längst ersetzt haben. | By then phones will long since have been replaced.
+      vermuten | to suppose; to suspect | v | Ich vermute, dass er den Bus verpasst hat. | I suspect that he missed the bus. | n: Noun: die Vermutung.
+      spekulieren | to speculate | v | Über die Zukunft kann man nur spekulieren. | One can only speculate about the future. | c: über etwas (acc.) spekulieren
+      die Entwicklung | development | n | Diese Entwicklung hat niemand vorhergesehen. | Nobody foresaw this development. | g: f | pl: die Entwicklungen
+      sich amüsieren | to be amused; to have fun | v | Sie werden sich bestimmt über unsere Fotos amüsieren. | They'll certainly be amused by our photos. | c: sich über etwas (acc.) amüsieren
+      sich schämen | to be ashamed; to be embarrassed | v | Für diesen Brief werde ich mich später bestimmt schämen. | I'll certainly be embarrassed about this letter later. | c: sich für etwas schämen
+      wiedererkennen | to recognise (again) | v | Nach dreißig Jahren hätte ich ihn fast nicht wiedererkannt. | After thirty years I almost didn't recognise him. | n: Separable: erkannte … wieder, hat wiedererkannt.
+    grammar:
+      title: "Futur II: wird … gemacht haben"
+      body: |
+        The **Futur II** is formed with **werden + Partizip II + haben/sein** (choose haben or sein as in the Perfekt): *Bis 2050 **werden** Roboter die Hausarbeit **übernommen haben**. Bis zur Pause **wird** er **gekommen sein**.*
+
+        It has two uses:
+
+        1. **Completed in the future** — something will be finished by a certain point, often with *bis*, *bis dahin* or *in … Jahren*: *Bis dahin **wird** man die Handys längst **ersetzt haben**.* In everyday speech the Perfekt often replaces it: *Bis Freitag **habe** ich das **erledigt**.*
+        2. **Assumption about the past** — you are fairly sure something has happened, but you don't know: *Er **wird** den Bus **verpasst haben*** (= Er hat den Bus wahrscheinlich verpasst). Words like *wohl, sicher, bestimmt* make the guess explicit.
+
+        In the same way, **Futur I** often expresses an assumption about the **present**: *Er **wird** wohl im Stau **stehen**.*
+
+        In a subordinate clause *wird* goes to the very end: *Ich glaube, dass er den Bus verpasst haben **wird**.*
+      table: |
+        Form | Example | Meaning
+        Futur I (future) | Die Kapsel wird 2050 geöffnet werden. | prediction
+        Futur I (assumption) | Er wird wohl im Stau stehen. | probably now
+        Futur II (completed) | Bis dahin werden wir das Problem gelöst haben. | finished by then
+        Futur II (assumption) | Er wird den Bus verpasst haben. | probably already happened
+        Futur II with sein | Bis zur Pause wird er gekommen sein. | movement or change
+      examples: |
+        Bis dahin werden Roboter die meisten Hausarbeiten übernommen haben. | By then robots will have taken over most of the housework. | completed by a point in the future
+        Vielleicht werden sie das Klimaproblem bis dahin gelöst haben. | Perhaps they will have solved the climate problem by then. | Futur II with haben
+        Er wird den Bus verpasst haben. Das passiert ihm fast jeden Montag. | He'll have missed the bus. That happens to him almost every Monday. | assumption about the past
+        Bis zur Pause wird er schon gekommen sein. | He'll have arrived by the break. | Futur II with sein
+      tip: "If you can say 'probably' in English and the action is already over, Futur II is a natural choice in German: Sie wird es vergessen haben."
+    dialogue:
+      title: Die Zeitkapsel
+      setting: A secondary school in Rostock. For the school's hundredth anniversary, a class is preparing a time capsule that will be opened in 2050. Their teacher, Ms Mahler, talks to the pupils Emre and Sophie.
+      speakers: M=Frau Mahler/f; E=Emre/m; S=Sophie/f
+      lines: |
+        M: Die Zeitkapsel wird erst im Jahr 2050 geöffnet. Was glaubt ihr, wie die Welt dann aussieht? | The time capsule won't be opened until 2050. What do you think the world will look like then?
+        E: Bis dahin werden Roboter die meisten Hausarbeiten übernommen haben – hoffentlich auch das Aufräumen. | By then robots will have taken over most of the housework – hopefully the tidying up too.
+        S: Ich bin da skeptischer. Vieles, was man vor dreißig Jahren vorhergesagt hat, ist nie eingetreten. | I'm more sceptical. A lot of what people predicted thirty years ago never happened.
+        M: Guter Punkt. Und was werden die Leute wohl denken, wenn sie eure Briefe lesen? | Good point. And what do you think people will make of your letters when they read them?
+        E: Sie werden sich bestimmt über unsere Handys amüsieren. Bis dahin wird man sie längst durch etwas anderes ersetzt haben. | They'll certainly be amused by our phones. By then they'll long since have been replaced by something else.
+        S: Und vielleicht werden sie das Klimaproblem bis dahin gelöst haben. Das wäre mein größter Wunsch. | And perhaps they'll have solved the climate problem by then. That would be my biggest wish.
+        M: Apropos Briefe: Wo ist eigentlich Jonas? Er wollte doch heute seinen Brief mitbringen. | Speaking of letters: where's Jonas, actually? He was going to bring his letter today.
+        E: Er wird den Bus verpasst haben. Das passiert ihm fast jeden Montag. | He'll have missed the bus. That happens to him almost every Monday.
+        S: Oder er wird den Brief zu Hause vergessen haben und holt ihn gerade. | Or he'll have forgotten the letter at home and is fetching it now.
+        M: Na gut, bis zur Pause wird er schon gekommen sein. Fangen wir mit euren Prognosen an. | All right, he'll have arrived by the break. Let's start with your predictions.
+        E: Meine Prognose: In fünfundzwanzig Jahren werde ich meinen eigenen Brief nicht wiedererkennen – oder mich für ihn schämen! | My prediction: in twenty-five years I won't recognise my own letter – or I'll be embarrassed by it!
+    pronunciation:
+      title: "Futur II at natural speed"
+      body: |
+        In careful speech each part of the Futur II is clear: *Er wird den Bus verpasst haben.* At natural speed, **haben** at the end is reduced to something like [ˈhaːbm̩] or even [ham], and **wird** is short, with a vocalised r: [vɪɐ̯t]. The main stress goes on the participle: *Er wird den Bus verPASST haben.*
+
+        Practise first slowly, then at normal speed, keeping the participle prominent.
+      items: |
+        Er wird den Bus verpasst haben.
+        Bis dahin wird er gekommen sein.
+        Das wird schon geklappt haben.
+        voraussichtlich
+        die Prognose
+        vorhersagen
+    mistakes: |
+      Bis 2050 werden Roboter die Arbeit übernommen sein. => Bis 2050 werden Roboter die Arbeit übernommen haben. | Übernehmen forms the Perfekt with haben, so the Futur II is … übernommen haben.
+      Er wird den Bus verpassen haben. => Er wird den Bus verpasst haben. | The Futur II needs the Partizip II (verpasst), not the infinitive.
+      Ich glaube, dass er wird gekommen sein. => Ich glaube, dass er gekommen sein wird. | In a subordinate clause the conjugated wird goes to the very end.
+    task:
+      title: Letter to the future
+      mode: speaking
+      body: |
+        Imagine your town is preparing a time capsule to be opened in 2050. Explain in one to two minutes what will have changed by then (technology, work, the town, your own life) and what you think people will find funny about us. Use at least four Futur II forms. Then speculate: a friend is half an hour late — give three possible explanations with Futur II.
+    exercises: |
+      fill: Bis zum Abend werden wir die ganze Arbeit erledigt ___. || haben || Futur II: werden + Partizip II + haben (erledigen takes haben). || @tags de.futur
+      fill: Bis zur Pause wird er schon gekommen ___. || sein || Kommen forms the Perfekt with sein, so the Futur II is gekommen sein. || @tags de.futur,de.perfekt-sein
+      fill: Mein Bruder geht nicht ans Telefon. Er ___ wohl noch schlafen. || wird || Futur I (wird + infinitive) with wohl expresses an assumption about the present. || @tags de.futur
+      mc: "By next year she will have finished her studies." || *Bis nächstes Jahr wird sie ihr Studium abgeschlossen haben. | Bis nächstes Jahr wird sie ihr Studium abschließen haben. | Bis nächstes Jahr hat sie ihr Studium abgeschlossen werden. || Futur II = wird + Partizip II (abgeschlossen) + haben. || @tags de.futur
+      mc: „Sie wird den Termin vergessen haben.“ What does the speaker mean? || *She has probably forgotten the appointment. | She will forget the appointment. | She had forgotten the appointment. || Futur II here expresses an assumption about the past. || @tags de.futur
+      rw: Express the assumption with Futur II :: Wahrscheinlich hat er den Zug verpasst. || Er wird den Zug verpasst haben. | Er wird wohl den Zug verpasst haben. | Er wird den Zug wohl verpasst haben. || Wahrscheinlich + Perfekt → Futur II (wird … verpasst haben), optionally with wohl. || @tags de.futur
+      tf: Sophie thinks that most predictions come true. || false || "Vieles, was man vor dreißig Jahren vorhergesagt hat, ist nie eingetreten." || @ctx dialogue
+      short: Why might Jonas be late, according to Emre? || kw: bus || He'll have missed the bus, which happens almost every Monday. || @ctx dialogue
+      listen: @dialogue || What is Sophie's biggest wish? || That robots will do the tidying up | *That the climate problem will have been solved | That Jonas will bring his letter || "Vielleicht werden sie das Klimaproblem bis dahin gelöst haben. Das wäre mein größter Wunsch."
+      listen: Bis Ende des Jahres werden wir das neue Rathaus voraussichtlich fertiggestellt haben. Der Umzug der Verwaltung ist dann für Februar geplant. || When is the administration due to move into the new town hall? || At the end of the year | *In February | It hasn't been decided yet. || "Der Umzug der Verwaltung ist dann für Februar geplant." || @tags de.listening,de.futur
+      tr: By then we will have found a solution. || Bis dahin werden wir eine Lösung gefunden haben. | Bis dahin werden wir schon eine Lösung gefunden haben. || Futur II: werden + gefunden + haben. || @tags de.futur
+      dict: In fünfundzwanzig Jahren wird sich vieles verändert haben.
+      ask: „Wie wird Ihr Leben in zehn Jahren aussehen? Was werden Sie bis dahin erreicht haben?“ || kw: werde/wird/werden & haben/sein || In zehn Jahren werde ich hoffentlich in meinem Traumberuf arbeiten. Bis dahin werde ich mein Studium abgeschlossen haben und vielleicht ein paar Jahre in Österreich gelebt haben.
+
+  - title: Regrets and lessons learned
+    summary: Listen to two old colleagues talking about decisions they regret, and express regrets and alternative pasts with Hätte ich doch …! and verb-first conditionals.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [de.konjunktiv2, de.word-order]
+    objectives:
+      - Express regrets with Hätte ich doch/nur …! and Wenn ich doch/nur … hätte!
+      - Form conditionals without wenn (Hätte ich das gewusst, wäre ich gekommen)
+      - Talk about a decision you regret and what you learned from it
+    intro: |
+      Looking back, everyone has something they would do differently. German has compact structures for regret: ***Hätte** ich doch weiter Geige **gespielt**!* And instead of *Wenn ich mehr Mut gehabt hätte, …* you can start directly with the verb: ***Hätte** ich mehr Mut **gehabt**, **wäre** ich Musikerin **geworden**.* You know the Konjunktiv II past from Unit 2 — now you'll use it to reflect on your own life.
+    vocab: |
+      bereuen | to regret | v | Ich bereue, dass ich damals nicht ins Ausland gegangen bin. | I regret not going abroad back then. | n: Noun: die Reue. Ich bereue nichts = I have no regrets.
+      im Nachhinein | in hindsight; looking back | expr | Im Nachhinein war die Entscheidung richtig. | In hindsight the decision was right.
+      der Mut | courage | n | Mit zwanzig hatte ich nicht den Mut, alles hinzuschmeißen. | At twenty I didn't have the courage to throw it all in. | g: m | pl: (no plural) | n: Adjective: mutig.
+      aufgeben | to give up | v | Nach dem Abitur habe ich das Geigespielen aufgegeben. | After my school-leaving exams I gave up playing the violin. | n: Separable, irregular: gab auf, hat aufgegeben.
+      eine Chance verpassen | to miss an opportunity | expr | Ich habe das Gefühl, ich habe eine große Chance verpasst. | I feel I missed a big opportunity.
+      die Gelegenheit | opportunity; occasion | n | Bei der nächsten Gelegenheit sage ich ihr die Wahrheit. | I'll tell her the truth at the next opportunity. | g: f | pl: die Gelegenheiten | c: eine Gelegenheit nutzen
+      der Wendepunkt | turning point | n | Die Geburt meiner Tochter war ein Wendepunkt in meinem Leben. | The birth of my daughter was a turning point in my life. | g: m | pl: die Wendepunkte
+      sich etwas vorwerfen | to blame oneself for something | expr | Ich werfe mir vor, dass ich so wenig Zeit für meine Kinder hatte. | I blame myself for having so little time for my children. | n: Dative reflexive: ich werfe mir vor. Noun: der Vorwurf.
+      gelassen | calm; relaxed; composed | adj | Mit fünfzig sehe ich vieles gelassener. | At fifty I'm more relaxed about many things. | n: Noun: die Gelassenheit.
+      nachholen | to make up for; to catch up on | v | Was ich damals verpasst habe, hole ich jetzt nach. | I'm now making up for what I missed back then. | n: Separable.
+      untergehen | to sink; to come to an end | v | Wenn ich einmal Nein gesagt hätte, wäre die Welt nicht untergegangen. | If I'd said no just once, the world wouldn't have ended. | n: Separable, Perfekt with sein. Literally: to sink, to go down (sun, ship).
+      verstimmt | out of tune; put out | adj | Die alte Geige ist bestimmt völlig verstimmt. | The old violin is bound to be completely out of tune. | n: Also: annoyed (Er war etwas verstimmt.)
+    grammar:
+      title: "Regrets and verb-first conditionals"
+      body: |
+        **Regrets and unreal wishes about the past** use the Konjunktiv II past, usually with **doch** and/or **nur**:
+        - ***Hätte** ich doch weiter Geige **gespielt**!* (If only I had …)
+        - ***Wäre** ich doch nicht so früh **gegangen**!*
+        - *Wenn ich nur einmal Nein **gesagt hätte**!* — with wenn, the verb goes to the end.
+
+        **Self-criticism** with modal verbs (from Unit 2): *Ich **hätte** mehr **üben sollen**. Ich **hätte** nicht so viel **arbeiten dürfen**.* (I shouldn't have …)
+
+        **Verb-first conditionals.** In writing and careful speech, *wenn* can be left out. Then the conjugated verb (*hätte, wäre*) moves to the front of the condition, and the main clause still begins with its verb: ***Hätte** ich mehr Mut gehabt, **wäre** ich Musikerin geworden.* You can add *dann* or *so*: *…, dann wäre ich …*
+
+        Neutral ways to talk about regrets: *Ich bereue, dass … · Im Nachhinein würde ich … · Ich werfe mir vor, dass … · Daraus habe ich gelernt, dass …*
+      table: |
+        Structure | Example
+        regret (verb first) | Hätte ich doch mehr Zeit mit ihnen verbracht!
+        regret (wenn) | Wenn ich nur einmal Nein gesagt hätte!
+        should(n't) have | Ich hätte nicht so viel arbeiten dürfen.
+        condition with wenn | Wenn ich mehr Mut gehabt hätte, wäre ich Musikerin geworden.
+        condition without wenn | Hätte ich mehr Mut gehabt, wäre ich Musikerin geworden.
+      examples: |
+        Hätte ich mit zwanzig mehr Mut gehabt, wäre ich Musikerin geworden. | If I'd had more courage at twenty, I'd have become a musician. | verb-first conditional
+        Hätte ich doch wenigstens weiter Geige gespielt! | If only I had at least kept playing the violin! | regret with doch
+        Wenn ich nur einmal Nein gesagt hätte, wäre die Welt nicht untergegangen. | If I had said no just once, the world wouldn't have ended. | wenn + nur
+        Ich hätte nicht so viel arbeiten dürfen, als die Kinder klein waren. | I shouldn't have worked so much when the children were small. | hätte nicht … dürfen
+      tip: "A sentence that starts with Hätte or Wäre and ends with an exclamation mark is a regret; one that continues after a comma is a condition."
+    dialogue:
+      title: Rückblick auf dem Wanderweg
+      setting: A hiking trail in the Harz mountains. Bettina, 54, an engineer, and Kofi, 57, her former colleague, take a break at a viewpoint and talk about the past.
+      speakers: B=Bettina/f; K=Kofi/m
+      lines: |
+        B: Weißt du, was ich manchmal denke? Hätte ich mit zwanzig mehr Mut gehabt, wäre ich Musikerin geworden. | Do you know what I sometimes think? If I'd had more courage at twenty, I'd have become a musician.
+        K: Wirklich? Du hast doch immer gesagt, dass dir die Arbeit als Ingenieurin Spaß macht. | Really? But you always said you enjoyed your work as an engineer.
+        B: Das stimmt auch. Aber hätte ich doch wenigstens weiter Geige gespielt! Ich habe einfach aufgegeben. | That's true too. But if only I had at least kept playing the violin! I just gave up.
+        K: Das verstehe ich gut. Ich bereue vor allem, dass ich so viel gearbeitet habe, als die Kinder klein waren. | I understand that well. What I regret most is working so much when the children were small.
+        B: Hättest du denn weniger arbeiten können? Ihr hattet damals ja auch einen Kredit für das Haus. | Could you have worked less, though? You had a loan for the house back then, after all.
+        K: Im Nachhinein schon. Wenn ich nur einmal Nein gesagt hätte, wäre die Welt nicht untergegangen. | In hindsight, yes. If I'd said no just once, the world wouldn't have ended.
+        B: Und was hast du daraus gelernt? Würdest du heute etwas anders machen? | And what have you learned from it? Would you do anything differently today?
+        K: Ich arbeite nur noch vier Tage pro Woche. Mit den Enkeln mache ich nicht denselben Fehler noch einmal. | I only work four days a week now. With my grandchildren I'm not making the same mistake again.
+        B: Das ist schön. Vielleicht sollte ich auch nicht nur bereuen, sondern einfach wieder anfangen. | That's lovely. Maybe I shouldn't just regret things either, but simply start again.
+        K: Genau! Es ist nie zu spät. Deine alte Geige liegt doch bestimmt noch irgendwo auf dem Dachboden. | Exactly! It's never too late. Your old violin must still be lying somewhere in the attic.
+        B: Stimmt, die wird ziemlich verstimmt sein. Aber ich hätte große Lust, es einfach zu versuchen. | True, it'll be pretty out of tune. But I'd really like to just give it a try.
+    pronunciation:
+      title: "The melody of regret"
+      body: |
+        Regrets are exclamations: the voice starts high on the stressed word and falls clearly at the end. *HÄTTE ich doch weiter Geige gespielt! ↘* The little words **doch** and **nur** are unstressed and short.
+
+        In a verb-first conditional, the voice rises slightly at the comma and falls at the end: *Hätte ich mehr Mut gehabt ↗, wäre ich Musikerin geworden ↘.*
+      items: |
+        Hätte ich doch weiter Geige gespielt!
+        Wäre ich doch geblieben!
+        Wenn ich nur Nein gesagt hätte!
+        Hätte ich das gewusst, wäre ich gekommen.
+        im Nachhinein
+        Es ist nie zu spät.
+    mistakes: |
+      Wenn ich das gewusst hätte, ich wäre gekommen. => Wenn ich das gewusst hätte, wäre ich gekommen. | After the conditional clause, the main clause starts with its verb.
+      Ich hätte mehr üben gesollt. => Ich hätte mehr üben sollen. | With a modal verb the Konjunktiv II past uses two infinitives: üben sollen.
+      Hätte ich mehr gelernt, würde ich die Prüfung bestanden. => Hätte ich mehr gelernt, hätte ich die Prüfung bestanden. | An unreal past result also needs hätte/wäre + Partizip II.
+    task:
+      title: What I learned
+      mode: speaking
+      body: |
+        Talk for one to two minutes about a decision you regret — or one you are glad you made. Explain what happened, what would have happened otherwise (verb-first conditional), what you regret or don't regret (*Hätte ich doch …!*) and what you learned. Then practise the typical interview question „Was würden Sie heute anders machen?“ with the AI coach in the "Preparing for a job interview" scenario.
+    exercises: |
+      fill: ___ ich doch damals das Angebot aus Wien angenommen! || Hätte || A regret about the past: Hätte (verb first) + doch + Partizip II; annehmen takes haben. || @tags de.konjunktiv2
+      fill: Hätte ich mehr Mut gehabt, ___ ich Musikerin geworden. || wäre || In the main clause of a verb-first conditional the verb comes first; werden forms the Perfekt with sein. || @tags de.konjunktiv2,de.word-order
+      fill: Ich hätte nicht so viel arbeiten ___. (dürfen) || dürfen || Hätte nicht … dürfen = shouldn't have; double infinitive. || @tags de.konjunktiv2,de.modal-verbs
+      fill: Wenn ich nur einmal Nein gesagt ___! || hätte || A wish with wenn: the verb hätte goes to the end. || @tags de.konjunktiv2
+      mc: "Had I known that, I would have helped you." || *Hätte ich das gewusst, hätte ich dir geholfen. | Hätte ich das gewusst, ich dir geholfen hätte. | Hatte ich das gewusst, hätte ich dir geholfen. || Verb-first condition (Konjunktiv II hätte) followed by the main clause starting with its verb. Hatte is the indicative. || @tags de.konjunktiv2,de.word-order
+      rw: Express a regret (Hätte ich doch …!) :: Ich habe nicht genug geübt. || Hätte ich doch mehr geübt! | Hätte ich nur mehr geübt! | Hätte ich doch genug geübt! | Hätte ich nur genug geübt! | Wenn ich doch mehr geübt hätte! | Wenn ich nur mehr geübt hätte! || The negative fact becomes a positive wish in the Konjunktiv II past. || @tags de.konjunktiv2
+      rw: Leave out wenn :: Wenn wir früher losgefahren wären, hätten wir den Zug erreicht. || Wären wir früher losgefahren, hätten wir den Zug erreicht. | Wären wir früher losgefahren, dann hätten wir den Zug erreicht. || Without wenn, wären moves to the front of the condition. || @tags de.konjunktiv2,de.word-order
+      tf: Bettina regrets that she stopped playing the violin. || true || "Aber hätte ich doch wenigstens weiter Geige gespielt! Ich habe einfach aufgegeben." || @ctx dialogue
+      short: What does Kofi regret most? || kw: arbeit/work/gearbeitet & kind/child || That he worked so much when his children were small. || @ctx dialogue
+      listen: @dialogue || What has Kofi changed in his life? || He has stopped working completely. | *He only works four days a week now. | He has started playing the violin. || "Ich arbeite nur noch vier Tage pro Woche."
+      listen: Wäre ich damals nicht nach Hamburg gezogen, hätte ich meine Frau nie kennengelernt. Deshalb bereue ich den Umzug keine Sekunde, auch wenn der Anfang schwer war. || How does the speaker feel about the move to Hamburg? || He regrets it because the beginning was hard. | *He doesn't regret it at all. | He wishes he had moved earlier. || "Deshalb bereue ich den Umzug keine Sekunde." || @tags de.listening,de.konjunktiv2
+      tr: If only I had asked her! || Hätte ich sie doch gefragt! | Hätte ich sie nur gefragt! | Wenn ich sie doch gefragt hätte! | Wenn ich sie nur gefragt hätte! || A regret: Hätte ich … doch/nur + Partizip II, or wenn … hätte. || @tags de.konjunktiv2
+      dict: Im Nachhinein würde ich vieles anders machen.
+      ask: „Was würden Sie heute anders machen, und was haben Sie daraus gelernt?“ || kw: hätte/wäre/würde & gelernt/lernen/bereue/nachhinein/anders || Im Nachhinein hätte ich mich früher für eine Ausbildung entscheiden sollen. Hätte ich das getan, wäre ich heute schon Meisterin. Daraus habe ich gelernt, dass man nicht zu lange warten sollte.
+
+  - title: Presenting an argument
+    summary: Read a short talk at a citizens' forum and learn to structure a presentation — introduction, arguments, counter-arguments and conclusion.
+    minutes: 50
+    skills: [reading, speaking, writing]
+    tags: [de.discourse-markers, de.opinion]
+    objectives:
+      - Structure a presentation with signposting phrases (zunächst, damit komme ich zu …, zusammenfassend …)
+      - Deal with counter-arguments (Nun könnte man einwenden … Dem ist entgegenzuhalten …)
+      - Combine the grammar of the course in a coherent spoken argument
+    intro: |
+      This last lesson brings everything together. A good presentation tells listeners where they are: what comes first, which argument follows, where the objection is and when the conclusion begins. German has a set of fixed phrases (*Redemittel*) for exactly this. You will read a short talk given at a citizens' forum on whether everyone should learn first aid — and then give your own talk.
+    vocab: |
+      der Vortrag | talk; presentation | n | Ihr Vortrag dauert genau zehn Minuten. | Your talk lasts exactly ten minutes. | g: m | pl: die Vorträge | c: einen Vortrag halten
+      sich gliedern in | to be divided into | v | Mein Vortrag gliedert sich in drei Teile. | My talk is divided into three parts. | n: Noun: die Gliederung (outline).
+      die Ausgangslage | initial situation; starting point | n | Zunächst möchte ich die Ausgangslage darstellen. | First I'd like to outline the initial situation. | g: f | pl: die Ausgangslagen
+      darstellen | to present; to describe | v | Die Grafik stellt die Entwicklung seit 2010 dar. | The chart shows the development since 2010. | n: Separable. Noun: die Darstellung.
+      eingehen auf | to address; to go into | v | Zum Schluss gehe ich auf mögliche Einwände ein. | Finally I'll address possible objections. | n: Separable, irregular, with sein: ging ein, ist eingegangen. Auf + accusative.
+      entgegenhalten | to counter (with an argument) | v | Dem ist entgegenzuhalten, dass ein Kurs nur einen Tag dauert. | Against this it can be argued that a course only takes one day. | n: Separable. Dem ist entgegenzuhalten = sein + zu (Unit 3).
+      die Wiederbelebung | resuscitation; CPR | n | Bei der Wiederbelebung zählt jede Minute. | Every minute counts in resuscitation. | g: f | pl: die Wiederbelebungen | n: Verb: wiederbeleben.
+      der Laie | layperson; non-expert | n | Auch Laien können mit wenigen Handgriffen Leben retten. | Even non-experts can save lives with a few simple moves. | g: m | pl: die Laien | n: N-declension: des Laien.
+      die Gleichgültigkeit | indifference | n | Der Grund ist meist nicht Gleichgültigkeit, sondern Unsicherheit. | The reason is usually not indifference but uncertainty. | g: f | pl: (no plural) | n: Adjective: gleichgültig.
+      der Anreiz | incentive | n | Man könnte Anreize schaffen, zum Beispiel einen Rabatt bei der Versicherung. | One could create incentives, such as a discount on insurance. | g: m | pl: die Anreize
+      zusammenfassend | in summary | adv | Zusammenfassend lässt sich sagen, dass Erste Hilfe jeden betrifft. | In summary, it can be said that first aid concerns everyone.
+      die Aufmerksamkeit | attention | n | Vielen Dank für Ihre Aufmerksamkeit. | Thank you for your attention. | g: f | pl: (no plural)
+    grammar:
+      title: "Structuring a presentation"
+      body: |
+        Listeners can't scroll back, so a presentation needs **signposts**. German uses fixed phrases (*Redemittel*) for each stage:
+
+        - **Introduction:** *Ich möchte heute über … sprechen. Mein Vortrag gliedert sich in drei Teile.*
+        - **Order:** *Zunächst … · Anschließend … · Zum Schluss …* — or *erstens, zweitens, drittens*; *zum einen … zum anderen*.
+        - **Transitions:** *Damit komme ich zu meinem ersten/nächsten Argument. · Ein weiterer Punkt ist …*
+        - **Evidence:** *Fachleuten zufolge … · Wie diese Zahl zeigt, …*
+        - **Counter-argument and rebuttal:** *Nun könnte man einwenden, dass … · Dem ist entgegenzuhalten, dass …*
+        - **Conclusion:** *Zusammenfassend lässt sich sagen, … · Abschließend möchte ich … · Vielen Dank für Ihre Aufmerksamkeit.*
+
+        **Word order:** most of these signposts are adverbs or phrases in position 1, so the verb follows immediately: ***Zunächst stelle** ich die Ausgangslage dar. **Anschließend nenne** ich zwei Argumente.*
+
+        Several phrases recycle grammar from this course: *Dem **ist entgegenzuhalten*** (sein + zu), *Zusammenfassend **lässt sich sagen*** (sich lassen), *Fachleuten **zufolge***, *je … desto*, and verb-first conditionals in the conclusion.
+      table: |
+        Stage | Phrase
+        introduction | Ich möchte heute über … sprechen. Mein Vortrag gliedert sich in drei Teile.
+        order | Zunächst … Anschließend … Zum Schluss …
+        transition | Damit komme ich zu meinem zweiten Argument.
+        counter-argument | Nun könnte man einwenden, dass …
+        rebuttal | Dem ist entgegenzuhalten, dass …
+        conclusion | Zusammenfassend lässt sich sagen, … Vielen Dank für Ihre Aufmerksamkeit.
+      examples: |
+        Zunächst stelle ich die Ausgangslage dar, anschließend nenne ich zwei Argumente. | First I'll outline the initial situation, then I'll give two arguments. | adverb in position 1 + verb
+        Damit komme ich zu meinem ersten Argument. | That brings me to my first argument. | transition
+        Nun könnte man einwenden, dass eine Pflicht zu weit geht. Dem ist entgegenzuhalten, dass ein Kurs nur einen Tag dauert. | One could object that an obligation goes too far. Against this it can be argued that a course only takes one day. | counter-argument and rebuttal
+        Zusammenfassend lässt sich sagen: Erste Hilfe ist eine Grundkompetenz. | In summary, first aid is a basic skill. | conclusion
+      tip: "Announce, deliver, sum up: tell listeners what you will say, say it, and tell them what you have said."
+    reading:
+      title: Erste Hilfe – eine Pflicht für alle?
+      text: |
+        Kurzvortrag von Jonas Weber im Bürgerforum Kassel
+
+        Sehr geehrte Damen und Herren,
+
+        ich möchte heute über eine Frage sprechen, die jeden von uns betreffen kann: Sollte jede und jeder Erwachsene regelmäßig einen Erste-Hilfe-Kurs besuchen? Mein Vortrag gliedert sich in drei Teile. Zunächst stelle ich die Ausgangslage dar, anschließend nenne ich zwei Argumente, und zum Schluss gehe ich auf mögliche Einwände ein.
+
+        Zur Ausgangslage: Bei einem Herz-Kreislauf-Stillstand zählt jede Minute. Fachleuten zufolge sinkt die Überlebenschance mit jeder Minute ohne Wiederbelebung um etwa zehn Prozent. Der Rettungsdienst braucht aber oft acht Minuten oder länger. Was in dieser Zeit passiert, hängt also von den Menschen ab, die zufällig in der Nähe sind.
+
+        Damit komme ich zu meinem ersten Argument. In Deutschland beginnen Laien deutlich seltener mit der Wiederbelebung als zum Beispiel in skandinavischen Ländern. Der Grund ist meist nicht Gleichgültigkeit, sondern Unsicherheit: Viele haben ihren letzten Kurs vor Jahrzehnten für den Führerschein gemacht und fürchten, etwas falsch zu machen.
+
+        Mein zweites Argument betrifft die Wirkung von Übung. Je häufiger man die Handgriffe trainiert, desto selbstverständlicher werden sie. Ein kurzer Auffrischungskurs alle zwei Jahre würde schon genügen.
+
+        Nun könnte man einwenden, dass eine Pflicht zu weit geht und Zeit und Geld kostet. Dem ist entgegenzuhalten, dass ein Kurs nur einen Tag dauert und von vielen Arbeitgebern ohnehin angeboten wird. Außerdem gilt: Der einzige Fehler bei der Wiederbelebung ist, nichts zu tun.
+
+        Zusammenfassend lässt sich sagen: Erste Hilfe ist kein Spezialwissen, sondern eine Grundkompetenz – wie Lesen oder Schwimmen. Ob man sie zur Pflicht macht oder durch Anreize fördert, darüber kann man streiten. Klar ist aber: Hätten mehr Menschen den Mut zu helfen, könnten jedes Jahr viele Leben gerettet werden.
+
+        Vielen Dank für Ihre Aufmerksamkeit. Ich freue mich auf Ihre Fragen.
+      translation: |
+        Short talk by Jonas Weber at the Kassel citizens' forum
+
+        Ladies and gentlemen,
+
+        today I'd like to talk about a question that can affect every one of us: should every adult regularly attend a first-aid course? My talk is divided into three parts. First I'll outline the initial situation, then I'll give two arguments, and finally I'll address possible objections.
+
+        To begin with the situation: in a cardiac arrest, every minute counts. According to experts, the chance of survival falls by about ten per cent with every minute without resuscitation. But the emergency services often need eight minutes or longer. So what happens in that time depends on the people who happen to be nearby.
+
+        That brings me to my first argument. In Germany, laypeople start resuscitation much less often than, for example, in Scandinavian countries. The reason is usually not indifference but uncertainty: many people did their last course decades ago for their driving licence and are afraid of doing something wrong.
+
+        My second argument concerns the effect of practice. The more often you train the moves, the more natural they become. A short refresher course every two years would be enough.
+
+        Now one could object that an obligation goes too far and costs time and money. Against this it can be argued that a course only takes one day and is offered by many employers anyway. Moreover: the only mistake in resuscitation is to do nothing.
+
+        In summary: first aid is not specialist knowledge but a basic skill – like reading or swimming. Whether it should be made compulsory or encouraged through incentives is open to debate. But one thing is clear: if more people had the courage to help, many lives could be saved every year.
+
+        Thank you for your attention. I look forward to your questions.
+    pronunciation:
+      title: "Presenting: pace, pauses and emphasis"
+      body: |
+        Speak a little more slowly than in conversation and pause **after** each signpost so that listeners can follow: *Damit komme ich zu meinem ersten Argument. | (pause) In Deutschland …* Stress the key word in each sentence and let your voice fall clearly at the end of each point.
+
+        Numbers and long compounds need extra care: *Herz-Kreislauf-Stillstand* has three parts, each with its own stress, the main one on the first: ***HERZ**-Kreislauf-Stillstand*.
+      items: |
+        Mein Vortrag gliedert sich in drei Teile.
+        Damit komme ich zu meinem ersten Argument.
+        Dem ist entgegenzuhalten, dass …
+        Zusammenfassend lässt sich sagen …
+        der Herz-Kreislauf-Stillstand
+        Vielen Dank für Ihre Aufmerksamkeit.
+    culture:
+      title: The German "Referat"
+      body: |
+        At German schools and universities, students regularly give a *Referat* — a short presentation, often with a one-page handout (*Handout* or *Thesenpapier*). Audiences tend to value clear structure, reliable sources and keeping to time more than a show; going over time is considered impolite. A presentation usually ends with *Vielen Dank für Ihre Aufmerksamkeit* and a round of questions, and in many places listeners still knock on the table instead of clapping.
+    mistakes: |
+      Zunächst ich stelle die Ausgangslage dar. => Zunächst stelle ich die Ausgangslage dar. | Zunächst takes position 1, so the verb follows directly.
+      Mein Vortrag gliedert in drei Teile. => Mein Vortrag gliedert sich in drei Teile. | The verb is reflexive: sich gliedern in.
+      Zum Schluss gehe ich mögliche Einwände ein. => Zum Schluss gehe ich auf mögliche Einwände ein. | Eingehen needs the preposition auf + accusative.
+    task:
+      title: Your presentation
+      mode: speaking
+      body: |
+        Prepare a three-minute presentation on a question that matters to you — for example *Sollte jede Schule Kochen als Fach anbieten?* or *Brauchen wir mehr Grünflächen in der Stadt?* Use the structure of the model: introduction with an outline, two arguments, one counter-argument with a rebuttal, and a conclusion. Then present it to the AI coach in the "Taking part in a business meeting" scenario and answer its questions.
+    exercises: |
+      fill: Mein Vortrag ___ sich in drei Teile. || gliedert || Sich gliedern in = to be divided into. || @tags de.discourse-markers,de.reflexive
+      fill: ___ stelle ich die Ausgangslage dar, anschließend nenne ich zwei Argumente. || Zunächst / Zuerst || A signpost for the first step; the verb stelle follows directly. || @tags de.discourse-markers,de.word-order
+      fill: Zum Schluss gehe ich ___ mögliche Einwände ein. || auf || Eingehen auf + accusative = to address. || @tags de.discourse-markers,de.prepositions
+      match: Mein Vortrag gliedert sich in … = outlining the talk ; Damit komme ich zu … = moving to the next point ; Nun könnte man einwenden, dass … = introducing an objection ; Zusammenfassend lässt sich sagen … = summing up || Each phrase signals a different stage of a presentation. || @tags de.discourse-markers
+      mc: Which sentence is the best way to end a presentation? || *Vielen Dank für Ihre Aufmerksamkeit. Ich freue mich auf Ihre Fragen. | Damit komme ich zu meinem ersten Argument. | Zur Ausgangslage: … || The standard closing thanks the audience and invites questions. || @tags de.discourse-markers
+      rw: Signal the transition to your second argument :: Jetzt das zweite Argument. || Damit komme ich zu meinem zweiten Argument. | Ich komme nun zu meinem zweiten Argument. | Damit komme ich zum zweiten Argument. | Nun komme ich zu meinem zweiten Argument. || Damit/Nun komme ich zu … is the standard transition. || @tags de.discourse-markers
+      tf: According to the speaker, people in Germany rarely start resuscitation because they don't care. || false || "Der Grund ist meist nicht Gleichgültigkeit, sondern Unsicherheit." || @ctx reading
+      mc: What does the speaker suggest would be enough? || A course once in a lifetime | *A short refresher course every two years | A course every month || "Ein kurzer Auffrischungskurs alle zwei Jahre würde schon genügen." || @ctx reading @skill reading
+      short: What does the speaker compare first aid to? || kw: lesen/reading/schwimmen/swimming/grundkompetenz/basic skill || A basic skill, like reading or swimming. || @ctx reading
+      listen: Ich möchte heute über die Frage sprechen, ob Schulen Kochen als Pflichtfach einführen sollten. Mein Vortrag gliedert sich in drei Teile. || What does the speaker do in these sentences? || Sum up the arguments | *Introduce the topic and outline the talk | Answer a counter-argument || "Ich möchte heute über … sprechen. Mein Vortrag gliedert sich in drei Teile." || @tags de.listening,de.discourse-markers
+      dict: Zusammenfassend lässt sich sagen, dass Erste Hilfe eine Grundkompetenz ist.
+      say: Vielen Dank für Ihre Aufmerksamkeit. Ich freue mich auf Ihre Fragen. || Thank you for your attention. I look forward to your questions.
+      write: Write the introduction and the conclusion of a short presentation (80–100 words) on a question of your choice. || min=70 || req: vortrag/präsentation | zunächst/zuerst/erstens | zusammenfassend/abschließend/zum schluss | vielen dank || Sehr geehrte Damen und Herren, ich möchte heute über die Frage sprechen, ob unsere Stadt mehr Trinkbrunnen braucht. Mein Vortrag gliedert sich in drei Teile. Zunächst stelle ich die Ausgangslage dar, anschließend nenne ich zwei Argumente, und zum Schluss gehe ich auf die Kosten ein. … Zusammenfassend lässt sich sagen, dass Trinkbrunnen günstig sind und vor allem älteren Menschen und Kindern bei Hitze helfen. Je früher die Stadt damit beginnt, desto besser. Vielen Dank für Ihre Aufmerksamkeit.
