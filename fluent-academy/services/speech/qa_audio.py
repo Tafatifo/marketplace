@@ -304,7 +304,8 @@ def escalate(args):
     model = WhisperModel(model_name, device="cpu", compute_type="int8", download_root=str(HERE / "models"), cpu_threads=os.cpu_count() or 4)
     index: dict = json.loads(INDEX.read_text())
     statuses = {x.strip().upper() for x in args.only.split(",") if x.strip()}
-    todo = [e for e in index.values() if e.get("speed") == "normal" and e.get("qaStatus") in statuses and "error" not in e and (not args.language or e["language"] == args.language)]
+    # Clips already re-checked with this model are skipped, so an interrupted run resumes where it stopped.
+    todo = [e for e in index.values() if e.get("speed") == "normal" and e.get("qaStatus") in statuses and e.get("qaEscalated") != model_name and "error" not in e and (not args.language or e["language"] == args.language)]
     print(f"Escalating {len(todo)} flagged clips with Whisper '{model_name}'", flush=True)
     pad = np.zeros(int(0.6 * SR), np.float32)
     improved = 0
@@ -321,6 +322,7 @@ def escalate(args):
         heard = " ".join(s.text.strip() for s in segs)
         script = " ".join(l.split(":", 1)[1] if l[:2] in ("f:", "m:") else l for l in e["text"].split("\n"))
         r = combined(script, heard, e["language"])
+        e["qaEscalated"] = model_name
         if r > (e.get("qaScore") or 0):
             e.update(qaStatus=status_for(r, e["text"]), qaScore=round(r, 3), qaTranscript=f"{heard[:480]} [{model_name}]")
             improved += 1
