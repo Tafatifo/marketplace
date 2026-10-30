@@ -169,6 +169,7 @@ def main():
     ap.add_argument("--model", default=os.environ.get("QA_WHISPER_MODEL", "base"))
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--escalate", action="store_true")
+    ap.add_argument("--only", default="REVIEW,FAIL", help="with --escalate: which statuses to re-check (e.g. FAIL)")
     args = ap.parse_args()
     if args.escalate:
         return escalate(args)
@@ -213,6 +214,9 @@ def main():
             except Exception as exc:  # noqa: BLE001
                 e.update(qaStatus="FAIL", qaScore=0, qaTranscript=f"error: {exc}")
             processed += 1
+            if processed % 100 == 0:
+                save()
+                print(f"  {lang}: {processed}/{len(todo)} · {processed / max(1e-6, time.time() - started):.1f} clips/s", flush=True)
         save()
         # 2) Short clips in concatenated windows.
         window: list[tuple[dict, np.ndarray]] = []
@@ -299,11 +303,16 @@ def escalate(args):
     model_name = args.model if args.model != "base" else "small"
     model = WhisperModel(model_name, device="cpu", compute_type="int8", download_root=str(HERE / "models"), cpu_threads=os.cpu_count() or 4)
     index: dict = json.loads(INDEX.read_text())
-    todo = [e for e in index.values() if e.get("speed") == "normal" and e.get("qaStatus") in ("REVIEW", "FAIL") and "error" not in e and (not args.language or e["language"] == args.language)]
+    statuses = {x.strip().upper() for x in args.only.split(",") if x.strip()}
+    todo = [e for e in index.values() if e.get("speed") == "normal" and e.get("qaStatus") in statuses and "error" not in e and (not args.language or e["language"] == args.language)]
     print(f"Escalating {len(todo)} flagged clips with Whisper '{model_name}'", flush=True)
     pad = np.zeros(int(0.6 * SR), np.float32)
     improved = 0
-    for e in todo:
+    for n, e in enumerate(todo, 1):
+        if n % 50 == 0:
+            refresh_slow(index)
+            INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=0, sort_keys=True))
+            print(f"  {n}/{len(todo)} checked · {improved} improved", flush=True)
         try:
             pcm = np.concatenate([pad, decode(AUDIO / e["key"]), pad])
         except Exception:  # noqa: BLE001

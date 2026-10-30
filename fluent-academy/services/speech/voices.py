@@ -65,8 +65,11 @@ def load_voice(stem: str):
 def synthesize_to_wav(voice_id: str, text: str, slow: bool = False) -> bytes:
     from piper import SynthesisConfig
 
+    from numerals import speakable
+
     stem, speaker = VOICES[voice_id]
     voice = load_voice(stem)
+    text = speakable(text, voice_id[:2])
     cfg = SynthesisConfig(speaker_id=speaker, length_scale=SLOW_LENGTH_SCALE if slow else None)
     buf = io.BytesIO()
     with wave.open(buf, "wb") as w:

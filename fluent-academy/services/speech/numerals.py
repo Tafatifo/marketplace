@@ -95,11 +95,30 @@ def en(n: int) -> str:
 
 SPELL = {"fr": fr, "es": es, "de": de, "en": en, "da": da}
 
+# Years 1100–1999 are read in pairs in English, German and Danish ("nineteen ninety"); French and Spanish
+# read them as ordinary numbers, which the spellers above already do.
+_UNIT_AFTER = r"\s*(?:kr\.?|kroner|euros?|Euro|€|dollars?|pounds?|£|\$|km|kilomet(?:er|re)s?|Kilometer|met(?:er|re)s?|Meter|kg|personer|people|Menschen|indbyggere|Einwohner|inhabitants)\b"
+
+
+def year(n: int, lang: str) -> str | None:
+    if not 1100 <= n <= 1999:
+        return None
+    hi, lo = divmod(n, 100)
+    if lang == "en":
+        return f"{en(hi)} hundred" if lo == 0 else f"{en(hi)} oh {en(lo)}" if lo < 10 else f"{en(hi)} {en(lo)}"
+    if lang == "de":
+        return de(hi) + "hundert" + ("" if lo == 0 else de(lo))
+    if lang == "da":
+        return f"{da(hi)} hundrede" + ("" if lo == 0 else f" og {da(lo)}")
+    return None
+
 
 def expand(text: str, lang: str) -> str:
     spell = SPELL.get(lang)
     if not spell:
         return text
+
+    text = speakable(text, lang)
 
     def clock(m: re.Match) -> str:
         h, mnt = int(m.group(1)), int(m.group(2) or 0)
@@ -122,3 +141,16 @@ def expand(text: str, lang: str) -> str:
 
     text = re.sub(r"\b(\d{1,4})[,.](\d{2})\s*(?:€|euros?|Euro|kr\.?|kroner)", price, text)
     return re.sub(r"\b\d{1,6}\b", lambda m: spell(int(m.group(0))) if int(m.group(0)) < 1_000_000 else m.group(0), text)
+
+
+def speakable(text: str, lang: str) -> str:
+    """Prepare text for the synthesiser: spell out the numbers Piper reads badly (years 1100–1999 in
+    English, German and Danish, and numbers written with a thousands separator). Other numbers are
+    left to the voice, which reads them correctly."""
+    spell = SPELL.get(lang)
+    if not spell:
+        return text
+    if lang in ("en", "de", "da"):
+        text = re.sub(rf"\b(1[1-9]\d\d)\b(?!{_UNIT_AFTER})(?![.,]\d)", lambda m: year(int(m.group(1)), lang) or m.group(0), text)
+    group_sep = {"en": ",", "fr": r"[\s  .]", "es": r"[.\s  ]"}.get(lang, r"\.")
+    return re.sub(rf"\b\d{{1,3}}(?:{group_sep}\d{{3}})+\b", lambda m: spell(int(re.sub(r"\D", "", m.group(0)))), text)
