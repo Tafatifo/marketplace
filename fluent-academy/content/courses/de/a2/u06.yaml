@@ -12,16 +12,16 @@ canDo:
   - I can leave a phone message and pass one on.
   - I can ask people politely to help me or explain something to me.
 review: |
-  fill: Kannst du ___ morgen beim Umzug helfen? (me) || mir || Helfen always takes the dative: mir. || @tags de.dative,de.mp3
-  fill: Die Hose gefällt ___ Sohn nicht. (mein) || meinem || Gefallen + dative; der Sohn → meinem Sohn. || @tags de.mp3,de.dative
+  fill: Kannst du ___ morgen beim Umzug helfen? (me) || mir || Helfen always takes the dative: mir. || @tags de.dative,de.dative-verbs
+  fill: Die Hose gefällt ___ Sohn nicht. (mein) || meinem || Gefallen + dative; der Sohn → meinem Sohn. || @tags de.dative-verbs,de.dative
   fill: Ich schicke ___ die Fotos heute Abend. (you, informal plural) || euch || The receiver is dative: ihr → euch. || @tags de.dative
-  fill: Die Schuhe ___ mir leider nicht. Sie sind zu klein. (passen) || passen || The verb agrees with die Schuhe (plural): passen. || @tags de.mp3
-  mc: "Gehört dir das Fahrrad?" means… || *Is the bike yours? | Can you hear the bike? | Do you like the bike? || Gehören + dative = to belong to someone. || @tags de.mp3
+  fill: Die Schuhe ___ mir leider nicht. Sie sind zu klein. (passen) || passen || The verb agrees with die Schuhe (plural): passen. || @tags de.dative-verbs
+  mc: "Gehört dir das Fahrrad?" means… || *Is the bike yours? | Can you hear the bike? | Do you like the bike? || Gehören + dative = to belong to someone. || @tags de.dative-verbs
   mc: Which sentence is correct? || Ich rufe dir morgen an. | *Ich rufe dich morgen an. | Ich rufe du morgen an. || Anrufen takes the accusative: dich. || @tags de.accusative
   rw: Replace both objects with pronouns :: Ich gebe der Kundin den Schlüssel. || Ich gebe ihn ihr. || Two pronouns: accusative (ihn) before dative (ihr). || @tags de.dative,de.word-order
-  tr: That colour suits you. (informal) || Die Farbe steht dir. | Die Farbe steht dir gut. | Diese Farbe steht dir. | Diese Farbe steht dir gut. || Stehen + dative = to suit someone. || @tags de.mp3
+  tr: That colour suits you. (informal) || Die Farbe steht dir. | Die Farbe steht dir gut. | Diese Farbe steht dir. | Diese Farbe steht dir gut. || Stehen + dative = to suit someone. || @tags de.dative-verbs
   listen: Ihr Paket kommt leider nicht heute, sondern erst am Donnerstag. || When will the parcel arrive? || Today | Tomorrow | *On Thursday || Nicht heute, sondern erst am Donnerstag = not today, only on Thursday. || @tags de.listening
-  listen: Die Jacke gefällt mir, aber sie ist zu weit. Haben Sie sie eine Nummer kleiner? || What does the customer want? || *A smaller size | A bigger size | A different colour || Zu weit = too loose; eine Nummer kleiner = one size smaller. || @tags de.listening,de.mp3
+  listen: Die Jacke gefällt mir, aber sie ist zu weit. Haben Sie sie eine Nummer kleiner? || What does the customer want? || *A smaller size | A bigger size | A different colour || Zu weit = too loose; eine Nummer kleiner = one size smaller. || @tags de.listening,de.dative-verbs
   ask: Ask a shop assistant for help and say that something doesn't fit you. || kw: helfen/können sie & passt/passen/zu groß/zu klein/zu eng/zu weit || Entschuldigung, können Sie mir helfen? Die Hose passt mir nicht, sie ist zu eng.
   write: Write an email to an online shop: you want to return something. Say what you ordered, what is wrong and what you would like. || min=35 || req: sehr geehrte | mir | zurück/umtauschen/zurückgeben/zurückschicken || Sehr geehrte Damen und Herren, letzte Woche habe ich bei Ihnen einen Rucksack bestellt. Leider gefällt mir die Farbe nicht, und er ist auch zu klein. Ich möchte ihn zurückschicken und mein Geld zurückbekommen. Können Sie mir bitte ein Rücksendeetikett schicken? Mit freundlichen Grüßen, Tarik Benali
 lessons:
@@ -119,7 +119,7 @@ lessons:
       body: |
         Role-play with a partner or record both parts: send a parcel abroad — say who it is for and what is in it, ask how long it takes and how much it costs. Then ask a bank employee to explain to you how to open an account.
     exercises: |
-      fill: Können Sie ___ bitte helfen? (me) || mir || Helfen takes the dative: mir. || @tags de.dative,de.mp3
+      fill: Können Sie ___ bitte helfen? (me) || mir || Helfen takes the dative: mir. || @tags de.dative,de.dative-verbs
       fill: Ich schicke ___ das Foto per Nachricht. (you, informal) || dir || The receiver is dative: du → dir. || @tags de.dative
       fill: Wir schenken ___ Oma einen Kalender. (unsere) || unserer || Die Oma → dative unserer Oma. || @tags de.dative,de.possessives
       fill: Der Mitarbeiter erklärt ___ das Formular. (him) || ihm || Er → dative ihm. || @tags de.dative
@@ -137,7 +137,7 @@ lessons:
     summary: Return or exchange things that don't fit or don't work, with verbs that take the dative — gefallen, passen, stehen, gehören.
     minutes: 35
     skills: [grammar, speaking, vocabulary]
-    tags: [de.mp3, de.dative]
+    tags: [de.dative-verbs, de.dative]
     objectives:
       - Use verbs with a dative object such as gefallen, passen, stehen, gehören and helfen
       - Explain what is wrong with something you bought
@@ -229,17 +229,17 @@ lessons:
       body: |
         Practise with the AI coach in the "Returning an item in a shop" scenario: say what you bought and when, explain what is wrong — it doesn't fit, doesn't work or you don't like it — and ask for an exchange or a refund.
     exercises: |
-      fill: Die Jacke ist schön, aber sie passt ___ nicht. (me) || mir || Passen + dative: mir. || @tags de.mp3,de.dative
-      fill: Die Farbe steht ___ super, Lena! (you, informal) || dir || Stehen (to suit) + dative: dir. || @tags de.mp3,de.dative
-      fill: Die Schuhe ___ mir nicht. (gefallen) || gefallen || The verb agrees with die Schuhe (plural): gefallen. || @tags de.mp3
-      fill: Wem gehört der Schirm? – Er gehört ___ Kollegin. (meine) || meiner || Gehören + dative; die Kollegin → meiner Kollegin. || @tags de.mp3,de.dative
-      mc: How do you say "I like the bag"? || Ich gefalle die Tasche. | *Die Tasche gefällt mir. | Die Tasche gefällt mich. || The thing is the subject; the person is dative (mir). || @tags de.mp3
-      rw: Rewrite with gefallen :: Ich finde das Hemd schön. || Das Hemd gefällt mir. | Das Hemd gefällt mir gut. | Mir gefällt das Hemd. || Das Hemd becomes the subject; ich → mir. || @tags de.mp3
+      fill: Die Jacke ist schön, aber sie passt ___ nicht. (me) || mir || Passen + dative: mir. || @tags de.dative-verbs,de.dative
+      fill: Die Farbe steht ___ super, Lena! (you, informal) || dir || Stehen (to suit) + dative: dir. || @tags de.dative-verbs,de.dative
+      fill: Die Schuhe ___ mir nicht. (gefallen) || gefallen || The verb agrees with die Schuhe (plural): gefallen. || @tags de.dative-verbs
+      fill: Wem gehört der Schirm? – Er gehört ___ Kollegin. (meine) || meiner || Gehören + dative; die Kollegin → meiner Kollegin. || @tags de.dative-verbs,de.dative
+      mc: How do you say "I like the bag"? || Ich gefalle die Tasche. | *Die Tasche gefällt mir. | Die Tasche gefällt mich. || The thing is the subject; the person is dative (mir). || @tags de.dative-verbs
+      rw: Rewrite with gefallen :: Ich finde das Hemd schön. || Das Hemd gefällt mir. | Das Hemd gefällt mir gut. | Mir gefällt das Hemd. || Das Hemd becomes the subject; ich → mir. || @tags de.dative-verbs
       tf: Greta doesn't like the raincoat. || false || She likes it very much — it just doesn't fit. || @ctx dialogue
       short: What colour is the bigger raincoat? || kw: grau/grey/gray || "In L haben wir sie noch, aber nur in Grau." || @ctx dialogue
       listen: @dialogue || What does Greta do in the end? || She gets her money back. | *She exchanges the jacket for a bigger one. | She buys a second jacket. || She tries on the grey jacket in L, it fits, and she exchanges it.
       listen: Der Föhn funktioniert leider nicht. Ich möchte ihn zurückgeben und mein Geld zurückbekommen. || What does the customer want? || To exchange the hairdryer | *A refund | A repair || Mein Geld zurückbekommen = to get my money back. || @tags de.listening
-      tr: The trousers don't fit me. || Die Hose passt mir nicht. || Die Hose is singular in German; passen + dative mir. || @tags de.mp3
+      tr: The trousers don't fit me. || Die Hose passt mir nicht. || Die Hose is singular in German; passen + dative mir. || @tags de.dative-verbs
       dict: Die Farbe gefällt mir, aber die Jacke ist zu eng.
       ask: At customer service, return something: say what you bought and what is wrong with it. || kw: gekauft/zurückgeben/umtauschen & passt/passen/gefällt/gefallen/funktioniert/kaputt/eng/fehler/klein/groß || Guten Tag, ich habe diese Schuhe gestern gekauft, aber sie passen mir nicht. Kann ich sie umtauschen?
 
