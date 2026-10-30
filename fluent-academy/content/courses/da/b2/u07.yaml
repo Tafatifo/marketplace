@@ -1,0 +1,413 @@
+unit: 7
+title: Borger i samfundet
+theme: Citizenship and public life
+description: Talk about rights and duties, deal with public services by phone and email, and write a formal complaint — with the language of rights and obligations (have ret til, være forpligtet til, må ikke vs. behøver ikke), polite formal requests and the structure of formal letters.
+objectives:
+  - Express rights, permission, obligation and exemption precisely
+  - Make polite, formal requests by phone and in writing
+  - Write a formal complaint with the right structure, register and formulas
+canDo:
+  - I can explain basic civic rights and duties.
+  - I can contact a public authority and ask for information politely.
+  - I can understand official letters and notices.
+  - I can write a firm but polite formal complaint.
+review: |
+  fill: Alle har ret ___ at sige deres mening. || til || Have ret til (at) + infinitive. || @tags da.vocabulary
+  mc: The sign says "Du må ikke ryge her." What does it mean? || *Smoking is not allowed here | You don't have to smoke here | You won't smoke here || Må ikke expresses a prohibition. || @tags da.modal-verbs,da.negation
+  fill: Man har ___ til at hjælpe, hvis nogen er i fare. (duty) || pligt || Have pligt til at = have a duty to. || @tags da.vocabulary
+  fill: Jeg vil gerne høre, ___ der er ledige pladser. (whether) || om || "Whether" in an indirect question is om. || @tags da.reported-speech,da.register
+  mc: Which closing is correct in a formal letter? || *Med venlig hilsen | Knus og kram | Vi ses! || Med venlig hilsen is the standard formal closing. || @tags da.formal-writing
+  rw: Make it formal :: Kan I ikke lige sende mig pengene? || Jeg anmoder om, at beløbet overføres til min konto. | Jeg anmoder om, at pengene overføres til min konto. | Jeg vil gerne bede om, at beløbet overføres til min konto. | Jeg skal bede om, at beløbet overføres til min konto. || Use a formal request formula (anmode om, at / bede om, at) and a passive. || @tags da.formal-writing,da.register
+  fill: ___ De har spørgsmål, er De velkommen til at kontakte os. (formal "if") || Såfremt / Hvis || Såfremt is the formal word for hvis. || @tags da.formal-writing,da.connectors
+  listen: Som borger har du pligt til at melde flytning senest fem dage efter, at du er flyttet. || When must you report a move? || *Within five days of moving | Five days before moving | Within five weeks || "…senest fem dage efter, at du er flyttet." || @tags da.listening
+  listen: Vi har modtaget din anmodning om aktindsigt. Du vil modtage et svar inden for syv arbejdsdage. || What will the person receive? || *An answer within seven working days | The documents today | A phone call tomorrow || "Du vil modtage et svar inden for syv arbejdsdage." || @tags da.listening,da.formal-writing
+  ask: You call Borgerservice about a new passport. Give your reason for calling and ask two polite questions. || kw: ringer angående/ringer vedrørende/ringer om & vil gerne høre/kan det passe/hvor lang || Goddag, jeg ringer angående et nyt pas. Jeg vil gerne høre, om jeg skal bestille tid, før jeg kommer. Og kan det passe, at det tager tre uger at få passet?
+  write: Write a short formal email (5–7 sentences) to your municipality asking for information about a rule that affects you. || min=50 || req: vedr/vedrørende/angående | vil gerne høre/anmoder om/vil gerne bede om | med venlig hilsen || Vedr.: Parkeringstilladelse i Vesterbro. Kære Teknik og Miljø. Jeg er flyttet til Vesterbrogade og har bil til mit arbejde. Jeg vil gerne høre, om jeg kan søge om en beboerlicens, og hvad det koster. Jeg vil også gerne bede om oplysninger om sagsbehandlingstiden. På forhånd tak for hjælpen. Med venlig hilsen Kasper Lind
+lessons:
+  - title: Rights and responsibilities
+    summary: Talk about civic rights and duties at a Constitution Day meeting, and express rights, permission, obligation and exemption precisely — have ret til, have lov til, være forpligtet til, må ikke, behøver ikke.
+    minutes: 50
+    skills: [vocabulary, speaking, listening]
+    tags: [da.modal-verbs, da.vocabulary, da.negation]
+    objectives:
+      - Use have ret til, have lov til, have pligt til and være forpligtet til correctly
+      - Distinguish må ikke (must not) from behøver ikke (don't have to)
+      - Talk about civic rights and duties
+    intro: |
+      Every year on 5 June, Grundlovsdag, Danes celebrate the constitution of 1849 with open-air meetings, speeches and coffee. It's a good occasion to talk about what citizenship means: the right to vote and speak freely, but also duties such as paying tax and serving as a lay judge. In this lesson Lene and her friend Yusuf, who has just become a Danish citizen, attend a Constitution Day meeting — and you'll learn the precise language of rights and obligations.
+    vocab: |
+      en rettighed | a right | n | Alle borgere har de samme rettigheder. | All citizens have the same rights. | g: c | pl: rettigheder
+      en pligt | a duty | n | Det er en borgerpligt at være domsmand. | Being a lay judge is a civic duty. | g: c | pl: pligter | c: en borgerpligt (a civic duty)
+      ytringsfrihed | freedom of expression | n | Ytringsfriheden er beskyttet af grundloven. | Freedom of expression is protected by the constitution. | g: c | n: No plural. Also: forsamlingsfrihed (freedom of assembly).
+      grundloven | the Constitution | n | Grundloven blev underskrevet den 5. juni 1849. | The Constitution was signed on 5 June 1849. | g: c | n: Grundlovsdag = 5 June.
+      en domsmand | a lay judge | n | Hun blev udtaget som domsmand i byretten. | She was selected as a lay judge at the district court. | g: c | pl: domsmænd
+      et folketingsvalg | a general election | n | Kun danske statsborgere kan stemme til folketingsvalg. | Only Danish citizens can vote in general elections. | g: n | pl: folketingsvalg
+      være forpligtet til | to be obliged to | expr | Man er forpligtet til at betale skat. | You are obliged to pay tax. | n: Formal; neutral: have pligt til, skulle.
+      have lov til | to be allowed to | expr | Har man lov til at filme i retssalen? | Are you allowed to film in the courtroom? | n: Past: havde lov til.
+      fritage | to exempt | v | Han blev fritaget på grund af sygdom. | He was exempted because of illness. | n: Irregular: fritog, har fritaget. Fritaget for = exempt from.
+      et vederlag | a fee; remuneration | n | Domsmænd får et vederlag for hver retsdag. | Lay judges receive a fee for each day in court. | g: n | pl: vederlag
+      nægte | to refuse; to deny | v | Arbejdsgiveren kan ikke nægte dig fri. | The employer can't refuse you time off. | n: Past: nægtede.
+    grammar:
+      title: "Rights and duties: have ret til, have pligt til, må ikke, behøver ikke"
+      body: |
+        Civic and official language has precise expressions for rights, permission and obligation. Most of them take a preposition + at + infinitive:
+
+        - **Right:** *have ret til (at)* — *Du har ret til at stemme.* · formal: *være berettiget til* — *Du er berettiget til vederlag.*
+        - **Permission:** *have lov til at*, *det er tilladt at*, *må*.
+        - **Prohibition:** *det er forbudt at*, *det er ikke tilladt at*, *må ikke*.
+        - **Obligation:** *have pligt til at*, *være forpligtet til at* (formal), *skal*.
+        - **Exemption:** *blive fritaget for* — *Hun blev fritaget for tjenesten.*
+
+        **Må ikke, behøver ikke or skal ikke?** This is where English speakers slip:
+        - *Du **må ikke** parkere her.* = You must not (it's forbidden).
+        - *Du **behøver ikke** (at) møde op.* = You don't have to.
+        - *Du **skal ikke** bekymre dig.* = Don't worry / you shouldn't — advice, not a ban.
+
+        The nouns follow the same pattern: *retten til at stemme, pligten til at hjælpe*. And remember the sentence adverb position: *Man har **ikke** pligt til at svare.*
+      table: |
+        Meaning | Expression | Example
+        right | have ret til (at) | Du har ret til at stemme.
+        right (formal) | være berettiget til | Du er berettiget til et vederlag.
+        permission | have lov til at / må | Har de lov til at nægte?
+        prohibition | det er forbudt at / må ikke | Det er forbudt at ryge her.
+        obligation | have pligt til at / være forpligtet til at | Man er forpligtet til at betale skat.
+        no obligation | behøver ikke (at) | Du behøver ikke at svare.
+        exemption | blive fritaget for | Hun blev fritaget for tjenesten.
+      examples: |
+        Alle borgere har ret til at ytre sig frit. | All citizens have the right to express themselves freely. | have ret til at
+        Man har pligt til at hjælpe, hvis nogen er i fare. | You have a duty to help if someone is in danger. | have pligt til at
+        Arbejdsgiveren har ikke lov til at nægte dig fri. | The employer isn't allowed to refuse you time off. | have lov til at
+        Du behøver ikke at møde op personligt. | You don't have to turn up in person. | no obligation
+      tip: "Må ikke = forbidden. Behøver ikke = not necessary. Skal ikke is usually friendly advice: Du skal ikke bekymre dig."
+    dialogue:
+      title: Grundlovsdag i parken
+      setting: The fifth of June. A Constitution Day meeting in a park in Randers, with speeches, a brass band and coffee. Lene meets her friend Yusuf, who became a Danish citizen this spring.
+      speakers: L=Lene/f; Y=Yusuf/m
+      lines: |
+        L: Tillykke med statsborgerskabet, Yusuf! Er det første gang, du er til grundlovsmøde? | Congratulations on your citizenship, Yusuf! Is this your first Constitution Day meeting?
+        Y: Ja. Jeg tænkte, det var passende, nu hvor jeg har fået ret til at stemme til folketingsvalg. | Yes. I thought it was fitting, now that I've got the right to vote in general elections.
+        L: Det er en stor ting. Grundloven giver os jo både ytringsfrihed og forsamlingsfrihed — derfor kan vi stå her i dag. | That's a big thing. The constitution gives us both freedom of expression and freedom of assembly — that's why we can stand here today.
+        Y: Men taleren sagde, at der også følger pligter med rettighederne. Hvad mente hun egentlig med det? | But the speaker said that duties come with the rights. What did she actually mean by that?
+        L: For eksempel er man forpligtet til at betale skat. Og man kan blive udtaget som domsmand. | For example, you're obliged to pay tax. And you can be selected as a lay judge.
+        Y: Domsmand? Har man pligt til at sige ja, hvis man bliver udtaget? | Lay judge? Are you obliged to say yes if you're selected?
+        L: Ja, det er en borgerpligt. Man kan kun blive fritaget, hvis man har en god grund, for eksempel sygdom. | Yes, it's a civic duty. You can only be exempted if you have a good reason, illness for example.
+        Y: Og hvad med arbejdsgiveren? Har de lov til at nægte én fri? | And what about the employer? Are they allowed to refuse you time off?
+        L: Nej, det har de ikke. Og du får et vederlag for de dage, du er i retten. | No, they're not. And you get a fee for the days you're in court.
+        Y: Det lyder faktisk spændende. Jeg har altid været nysgerrig efter, hvordan en retssag foregår. | That actually sounds exciting. I've always been curious about how a trial works.
+        L: Så har du fundet din første borgerpligt. Men nu begynder næste tale — lad os gå lidt tættere på. | Then you've found your first civic duty. But the next speech is starting now — let's move a bit closer.
+    pronunciation:
+      title: "-hed and -heder: frihed, rettigheder"
+      body: |
+        Many words for rights and values end in **-hed** (plural **-heder**): *frihed, ytringsfrihed, rettighed, sikkerhed*. The d is a soft d, and in the plural the ending is weak: "-he-ðer". In *rettighed* the g is silent, as in other -ig- words: "RET-ti-heð".
+
+        Long compounds keep the main stress on the first part: *YTringsfrihed, forSAMlingsfrihed*. Listen and repeat.
+      items: |
+        frihed
+        ytringsfrihed
+        rettigheder
+        forsamlingsfrihed
+        Grundloven giver os ytringsfrihed.
+    culture:
+      title: Grundlovsdag and lay judges
+      body: |
+        Denmark's first democratic constitution was signed on 5 June 1849; the current version dates from 1953. Grundlovsdag is not an official public holiday, but many workplaces close at noon, and political parties, unions and associations hold open-air meetings across the country. It is also Father's Day.
+
+        Ordinary citizens take part in many court cases as **domsmænd** (lay judges) or **nævninger** (jurors). They are selected at random from lists drawn up in each municipality, and serving is considered a civic duty.
+    mistakes: |
+      Du har ret at stemme. => Du har ret til at stemme. | Have ret til + at + infinitive.
+      Du skal ikke parkere her. (meaning it's forbidden) => Du må ikke parkere her. | A prohibition is må ikke; skal ikke is advice or a prediction.
+      Man er forpligtet at betale skat. => Man er forpligtet til at betale skat. | Være forpligtet til + at + infinitive.
+    task:
+      title: Rights and duties for newcomers
+      mode: speaking
+      body: |
+        A friend is moving to Denmark (or to your country). In one to two minutes, explain three rights and three duties they will have as a resident — for example voting, healthcare, school for children, paying tax, reporting a change of address. Use have ret til, have pligt til, have lov til, må ikke and behøver ikke at least once each.
+    exercises: |
+      fill: Alle borgere har ret ___ at ytre sig frit. || til || Have ret til + at + infinitive. || @tags da.vocabulary
+      fill: Man er forpligtet ___ at betale skat. || til || Være forpligtet til + at + infinitive. || @tags da.vocabulary
+      fill: Arbejdsgiveren har ikke ___ til at nægte dig fri. (permission) || lov || Have lov til = be allowed to. || @tags da.vocabulary,da.negation
+      mc: "Det er forbudt at parkere her." What does it mean? || *You must not park here | You don't have to park here | You may park here for a fee || Forbudt = forbidden. || @tags da.vocabulary
+      mc: "Du behøver ikke at møde op." What does it mean? || *You don't have to come | You must not come | You won't come || Behøver ikke = it isn't necessary. || @tags da.modal-verbs,da.negation
+      tf: Yusuf can now vote in general elections. || true || "…nu hvor jeg har fået ret til at stemme til folketingsvalg." || @ctx dialogue
+      short: When can you be exempted from being a lay judge? || kw: grund/reason/syg/ill/illness/sickness || "…hvis man har en god grund, for eksempel sygdom." || @ctx dialogue
+      listen: @dialogue || What does a lay judge receive for the days in court? || *A fee | Nothing | Extra holiday || "Du får et vederlag for de dage, du er i retten." || @tags da.listening
+      listen: I Danmark har man ret til gratis behandling hos sin praktiserende læge, men man har pligt til at melde flytning til kommunen. || Which duty is mentioned? || *Reporting a change of address to the municipality | Paying the doctor | Registering with a new doctor every year || "…man har pligt til at melde flytning til kommunen." || @tags da.listening
+      rw: Rewrite with have pligt til :: Man skal hjælpe, hvis nogen er i fare. || Man har pligt til at hjælpe, hvis nogen er i fare. || Skal + infinitive → har pligt til at + infinitive. || @tags da.modal-verbs,da.vocabulary
+      tr: You don't have to answer. || Du behøver ikke at svare. | Du behøver ikke svare. | Du er ikke forpligtet til at svare. | Du har ikke pligt til at svare. || Not necessary = behøver ikke (skal ikke would sound like advice not to answer). || @tags da.modal-verbs,da.negation
+      ask: Explain to a newcomer two rights and two duties people have in Denmark or in your country. || kw: ret til/lov til/berettiget & pligt til/forpligtet/skal || I Danmark har man ret til gratis lægehjælp, og børn har ret til at gå i skole. Til gengæld har man pligt til at betale skat, og man er forpligtet til at melde flytning til kommunen.
+      write: Write a short text (6–8 sentences) for a newcomers' guide called "Rettigheder og pligter". || min=60 || req: ret til/lov til/berettiget til | pligt til/forpligtet til || Som borger i Danmark har du en række rettigheder. Du har ret til gratis behandling hos din læge og på sygehuset. Dine børn har ret til en plads i daginstitution. Men du har også pligter. Du er forpligtet til at betale skat af din indkomst, og du har pligt til at melde flytning inden for fem dage. Du må ikke køre bil uden et gyldigt kørekort. Du behøver ikke at være statsborger for at stemme til kommunalvalg, hvis du har boet her længe nok.
+      dict: Med rettighederne følger der også pligter.
+
+  - title: Public services
+    summary: Phone the municipality about a move, a new doctor and childcare, and make polite formal requests — Jeg ringer angående…, Jeg vil gerne høre, om…, Kan det passe, at…?, Vil du være venlig at…?
+    minutes: 45
+    skills: [listening, speaking, writing]
+    tags: [da.register, da.formal-writing]
+    objectives:
+      - Open a call or email with your reason (angående, vedrørende)
+      - Ask for information and make requests politely and formally
+      - Understand public-service vocabulary (CPR-nummer, sundhedskort, venteliste)
+    intro: |
+      Moving to a new municipality means registering your address, choosing a doctor and perhaps finding a kindergarten. Most of this is done online in Denmark, but sooner or later you'll need to phone Borgerservice or write to a caseworker. In this lesson Grace, who has just moved from Aarhus to Odense with her family, calls the municipality. Listen to how she introduces her reason, asks for information and makes requests — politely, but without wasting words.
+    vocab: |
+      borgerservice | citizen service (council office) | n | Du kan bestille pas hos Borgerservice. | You can order a passport at Citizen Service. | g: c | n: Usually written with a capital B as the name of the office.
+      melde flytning | to register a change of address | expr | Husk at melde flytning senest fem dage efter, at du er flyttet. | Remember to register your move no later than five days after moving.
+      et CPR-nummer | a civil registration number | n | Må jeg bede om dit CPR-nummer? | May I have your CPR number? | g: n | pl: CPR-numre
+      et sundhedskort | a health insurance card | n | Det gule sundhedskort skal vises hos lægen. | The yellow health card must be shown at the doctor's. | g: n | pl: sundhedskort
+      angående | regarding; concerning | prep | Jeg ringer angående min ansøgning. | I'm calling regarding my application. | n: Formal: vedrørende (vedr.).
+      en venteliste | a waiting list | n | Der er lang venteliste til børnehaven. | There's a long waiting list for the kindergarten. | g: c | pl: ventelister
+      en pasningsgaranti | a childcare guarantee | n | Kommunen har pasningsgaranti for børn over et halvt år. | The municipality guarantees childcare for children over six months. | g: c
+      skrive sig op | to put one's name down | v | Vi har skrevet os op til en plads. | We've put our names down for a place. | n: Reflexive. Past: skrev sig op.
+      en sagsbehandler | a caseworker | n | Min sagsbehandler ringer tilbage i morgen. | My caseworker will call back tomorrow. | g: c | pl: sagsbehandlere
+      en frist | a deadline | n | Fristen for at søge er den første marts. | The deadline for applying is the first of March. | g: c | pl: frister
+      ledig | vacant; available | adj | Er der en ledig tid i næste uge? | Is there an available appointment next week? | n: Et-words: ledigt; plural: ledige.
+    grammar:
+      title: "Polite and formal requests"
+      body: |
+        When you contact an authority, the right formulas make you sound competent and polite:
+
+        - **State your reason:** *Jeg ringer angående…* · *Jeg skriver vedrørende…*
+        - **Ask for information:** *Jeg vil gerne høre, om…* (I'd like to know whether) + subordinate clause: *Jeg vil gerne høre, om vi også skal vælge en ny læge.*
+        - **Check something politely:** *Kan det passe, at…?* (Is it true that…?) — useful for checking what you've heard, or for pointing out a possible mistake without accusing anyone.
+        - **Request:** *Vil du være venlig at…?* (formal) — compare the friendly *Vil du være sød at…?* · *Jeg vil gerne bede om…*
+        - **Staff asking you:** *Må jeg bede om dit CPR-nummer?* (May I have…?)
+        - **Recommend:** *Jeg vil anbefale, at du…* · *Du kan med fordel…* (you'd do well to)
+
+        **Du or De?** Almost all Danish authorities say du today. *De* survives in some very formal letters and forms and with very elderly people. If someone addresses you as De, you can answer with De.
+
+        Remember the word order in om- and at-clauses: subject + ikke + verb.
+      table: |
+        Situation | Formula
+        stating your reason | Jeg ringer angående… / Jeg skriver vedrørende…
+        asking for information | Jeg vil gerne høre, om… / Kan det passe, at…?
+        making a request | Vil du være venlig at…? / Jeg vil gerne bede om…
+        staff asking you | Må jeg bede om dit CPR-nummer?
+        recommending | Jeg vil anbefale, at du… / Du kan med fordel…
+        thanking | Tusind tak for hjælpen. / På forhånd tak.
+      examples: |
+        Jeg vil gerne høre, om jeg kan få tilsendt et nyt sundhedskort. | I'd like to know whether I can have a new health card sent to me. | om + subordinate clause
+        Kan det passe, at fristen allerede er udløbet? | Is it true that the deadline has already passed? | a polite check
+        Vil du være venlig at bekræfte, at du har modtaget min ansøgning? | Would you kindly confirm that you've received my application? | formal request
+        Du kan med fordel skrive dig op i god tid. | You'd do well to put your name down in good time. | recommendation
+      tip: "Kan det passe, at…? lets you question information politely — even when you suspect the authority has made a mistake."
+    dialogue:
+      title: Nyt i Odense
+      setting: A phone call to Citizen Service in Odense. Grace, an engineer, has just moved from Aarhus with her husband and two children.
+      speakers: T=Tina/f; G=Grace/f
+      lines: |
+        T: Odense Kommune, Borgerservice, det er Tina. Hvad kan jeg hjælpe med? | Odense Municipality, Citizen Service, this is Tina. How can I help?
+        G: Goddag. Jeg ringer angående vores flytning. Jeg er flyttet hertil fra Aarhus med min familie i sidste uge. | Hello. I'm calling about our move. I moved here from Aarhus with my family last week.
+        T: Velkommen til Odense. Har du allerede meldt flytningen digitalt? | Welcome to Odense. Have you already registered the move online?
+        G: Ja, det gjorde jeg i fredags. Men jeg vil gerne høre, om vi også skal vælge en ny læge. | Yes, I did it last Friday. But I'd like to know whether we also have to choose a new doctor.
+        T: Ja, det skal I, fordi I er flyttet til en anden region. Må jeg bede om dit CPR-nummer? | Yes, you do, because you've moved to another region. May I have your CPR number?
+        G: Selvfølgelig, et øjeblik. Jeg har det her på mit gamle sundhedskort. | Of course, just a moment. I have it here on my old health card.
+        T: Tak. Jeg kan se, at der er ledige pladser hos to lægehuse tæt på jeres adresse i Bolbro. | Thanks. I can see there are places available at two practices near your address in Bolbro.
+        G: Hvor hurtigt får vi så de nye sundhedskort? Mine børn skal til lægen om to uger. | How soon will we get the new health cards, then? My children have a doctor's appointment in two weeks.
+        T: De bliver sendt med posten inden for et par uger. Indtil da kan I bruge det digitale sundhedskort i appen. | They'll be sent by post within a couple of weeks. Until then you can use the digital health card in the app.
+        G: Perfekt. Et sidste spørgsmål: Kan det passe, at der er venteliste til børnehaverne i området? | Perfect. One last question: is it true that there's a waiting list for the kindergartens in the area?
+        T: Det er rigtigt, men kommunen har pasningsgaranti. Jeg vil anbefale, at du skriver jer op hurtigst muligt. | That's right, but the municipality has a childcare guarantee. I'd recommend that you put your names down as soon as possible.
+        G: Tusind tak for hjælpen. Vil du være venlig at sende mig et link til tilmeldingen på mail? | Thank you very much for your help. Would you kindly send me a link to the registration by email?
+    pronunciation:
+      title: "Dates of birth and CPR numbers"
+      body: |
+        A CPR number starts with your date of birth (day, month, year) followed by four digits. Danes read it in pairs: *220380-1234* is "toogtyve, nul tre, firs — tolv, fireogtredive". A zero is "nul", never "o".
+
+        Dates are read with ordinals: *den 5. juni* is "den femte juni", *den 22. marts* is "den toogtyvende marts". Listen and repeat.
+      items: |
+        den femte juni
+        nul tre
+        toogtyve, nul tre, firs
+        tolv, fireogtredive
+        Mit CPR-nummer begynder med toogtyve, nul tre, firs.
+    mistakes: |
+      Jeg vil gerne høre, hvis vi skal vælge en ny læge. => Jeg vil gerne høre, om vi skal vælge en ny læge. | "Whether" is om, not hvis.
+      Vil du være venlig og sende mig et link? => Vil du være venlig at sende mig et link? | The formula is være venlig at + infinitive.
+      Jeg ringer angående om min flytning. => Jeg ringer angående min flytning. | Angående is a preposition: a noun follows directly.
+    task:
+      title: Calling the council
+      mode: interaction
+      body: |
+        You have just moved to a new town and need a place in a kindergarten for your child. With a partner, role-play the call to Borgerservice: introduce your reason (Jeg ringer angående…), ask two questions (Jeg vil gerne høre, om… / Kan det passe, at…?) and make one request (Vil du være venlig at…?). Then write a short follow-up email confirming what you agreed.
+    exercises: |
+      fill: Jeg ringer ___ min flytning. (regarding) || angående / vedrørende || Angående (or vedrørende) + noun introduces the reason for your call. || @tags da.register
+      fill: Jeg vil gerne høre, ___ jeg skal vælge en ny læge. (whether) || om || "Whether" = om. || @tags da.register,da.subordinate-clauses
+      fill: Vil du være venlig ___ sende mig et link? || at || Være venlig at + infinitive. || @tags da.register
+      mc: Which sentence is the most suitable when you call an authority? || *Jeg vil gerne høre, om jeg kan få et nyt sundhedskort. | Giv mig et nyt sundhedskort. | Hey, kan jeg lige snuppe et nyt sundhedskort? || Jeg vil gerne høre, om… is polite and neutral; the others are blunt or too slangy. || @tags da.register
+      mc: What does "Kan det passe, at fristen er udløbet?" do? || *It politely checks whether something is true | It complains angrily | It asks for a new deadline || Kan det passe, at…? = Is it true that…? || @tags da.register
+      tf: Grace hasn't registered her move yet. || false || "Ja, det gjorde jeg i fredags." || @ctx dialogue
+      short: Why does the family have to choose a new doctor? || kw: region || "…fordi I er flyttet til en anden region." || @ctx dialogue
+      listen: @dialogue || What can the family use until the new health cards arrive? || *The digital health card in the app | Their old cards from Aarhus | A letter from the municipality || "Indtil da kan I bruge det digitale sundhedskort i appen." || @tags da.listening
+      listen: Sagsbehandlingstiden for pas er i øjeblikket cirka tre uger, så du kan med fordel søge i god tid før din rejse. || What does the caseworker recommend? || *Applying in good time before the trip | Calling again in three weeks | Travelling without a passport || "Du kan med fordel søge i god tid før din rejse." || @tags da.listening,da.register
+      rw: Make it polite and formal, starting "Jeg vil gerne høre, om…" :: Kan jeg få en tid i næste uge? || Jeg vil gerne høre, om jeg kan få en tid i næste uge. || The question becomes an om-clause with statement word order. || @tags da.register,da.subordinate-clauses
+      tr: Would you kindly confirm that you have received my application? || Vil du være venlig at bekræfte, at du har modtaget min ansøgning? | Vil du være venlig at bekræfte, at I har modtaget min ansøgning? | Vil De være venlig at bekræfte, at De har modtaget min ansøgning? | Vil du venligst bekræfte, at du har modtaget min ansøgning? || Være venlig at + infinitive, then an at-clause. || @tags da.register,da.formal-writing
+      ask: You call your municipality: you've just moved and want a place in a kindergarten. Give your reason and ask two polite questions. || kw: angående/vedrørende/ringer & vil gerne høre/kan det passe/vil du være venlig || Goddag, jeg ringer angående en børnehaveplads. Jeg vil gerne høre, om der er ledige pladser i Hasseris. Og kan det passe, at man skal skrive sig op tre måneder før?
+      write: Write an email (5–7 sentences) to Borgerservice asking for help with a lost health card. || min=50 || req: vedr/vedrørende/angående | vil gerne høre/vil gerne bede om/vil du være venlig | med venlig hilsen || Vedr.: Mistet sundhedskort. Kære Borgerservice. Jeg har desværre mistet mit sundhedskort i weekenden. Jeg vil gerne bede om et nyt kort og høre, hvad det koster. Kan det passe, at jeg kan bruge det digitale kort i mellemtiden? Vil du være venlig at sende mig et svar på mail? Med venlig hilsen Grace Okafor
+      dict: Jeg vil gerne høre, om vi også skal vælge en ny læge.
+
+  - title: Formal complaints
+    summary: Read a tenant's formal complaint about a deducted deposit and learn the structure and formulas of a formal letter — Vedr., Til rette vedkommende, Jeg anmoder om, at…, Såfremt…, Med venlig hilsen.
+    minutes: 55
+    skills: [reading, writing, grammar]
+    tags: [da.formal-writing, da.register, da.reading]
+    objectives:
+      - Structure a formal complaint from subject line to enclosures
+      - Use formal formulas (anmode om, det fremgår af, såfremt, forbeholde sig ret til)
+      - Keep a firm, factual and polite tone
+    intro: |
+      When something goes seriously wrong — a deposit that isn't returned, a faulty product, a wrong decision — a phone call is often not enough. A written complaint creates a record, and in Denmark it is often the first step before you take a case to a complaints board. In this lesson you'll read a complaint from a tenant whose landlord has kept most of her deposit, and learn the structure and formulas of a formal Danish letter.
+    vocab: |
+      en klage | a complaint | n | Jeg har sendt en klage til udlejeren. | I've sent a complaint to the landlord. | g: c | pl: klager | c: klage over noget
+      et depositum | a deposit | n | Depositummet svarer til tre måneders husleje. | The deposit is equal to three months' rent. | g: n | pl: depositummer
+      fraflytte | to move out of; to vacate | v | Hun fraflyttede lejligheden den første august. | She moved out of the flat on the first of August. | n: Past: fraflyttede. Formal.
+      et flyttesyn | a move-out inspection | n | Ved flyttesynet blev der fundet et hul i væggen. | At the move-out inspection a hole was found in the wall. | g: n | pl: flyttesyn
+      et fradrag | a deduction | n | Fradraget i depositummet var på atten tusind kroner. | The deduction from the deposit was eighteen thousand kroner. | g: n | pl: fradrag
+      et slid | wear and tear | n | Almindeligt slid skal lejeren ikke betale for. | The tenant doesn't have to pay for normal wear and tear. | g: n | n: No plural.
+      vedlægge | to enclose; to attach | v | Jeg har vedlagt en kopi af kontrakten. | I have enclosed a copy of the contract. | n: Irregular: vedlagde, har vedlagt.
+      anmode om | to request (formal) | v | Jeg anmoder om, at beløbet tilbagebetales. | I request that the amount be refunded. | n: Past: anmodede om. En anmodning = a request.
+      såfremt | if; provided that (formal) | conj | Såfremt I fastholder kravet, kontakter jeg Huslejenævnet. | Should you maintain the claim, I will contact the Rent Tribunal. | n: Introduces a subordinate clause.
+      fastholde | to maintain; to insist on | v | Udlejeren fastholder sit krav. | The landlord maintains his claim. | n: Irregular: fastholdt, har fastholdt.
+      et bilag | an enclosure; an attachment | n | Bilag: kopi af flytterapporten. | Enclosure: copy of the move-out report. | g: n | pl: bilag
+    grammar:
+      title: "The formal complaint: structure and formulas"
+      body: |
+        A Danish formal complaint follows a fixed structure:
+
+        1. **Sender, recipient, place and date** — *Aarhus, den 12. september 2026*.
+        2. **Subject line** with *Vedr.:* (vedrørende) or *Ang.:* (angående): *Vedr.: Klage over fradrag i depositum*.
+        3. **Greeting** — *Kære [name]* if you know who will read it, otherwise *Til rette vedkommende* (to whom it may concern).
+        4. **Purpose** — *Jeg skriver for at klage over…* · *Hermed klager jeg over…*
+        5. **Facts** — what happened and when, in the past tense, with dates and reference numbers.
+        6. **Arguments** — *Jeg finder ikke … rimeligt af følgende grunde:* · *Det fremgår af kontrakten, at…* (it is clear from the contract that…)
+        7. **Demand** — *Jeg anmoder om, at…* (formal) · *Jeg forventer, at…*
+        8. **Consequence (optional)** — *Såfremt I fastholder kravet, forbeholder jeg mig ret til at…*
+        9. **Closing** — *Jeg ser frem til jeres svar.* · *Med venlig hilsen* · *Bilag:* (enclosures)
+
+        **Tone:** firm, factual and polite — no exclamation marks, no sarcasm. Address a company as *I/jer* and a named person as *du*; use *De/Dem* only if you want to be very formal.
+
+        Note the passive after *anmode om, at*: *Jeg anmoder om, at fradraget **nedsættes**.* It focuses on what must happen, not on who should do it.
+      table: |
+        Part | Formula
+        subject line | Vedr.: Klage over…
+        greeting | Kære … / Til rette vedkommende
+        purpose | Jeg skriver for at klage over…
+        facts and evidence | Det fremgår af…, at… / Jeg har vedlagt…
+        argument | Jeg finder ikke … rimeligt af følgende grunde:
+        demand | Jeg anmoder om, at… / Jeg forventer, at…
+        consequence | Såfremt…, forbeholder jeg mig ret til at…
+        closing | Jeg ser frem til jeres svar. Med venlig hilsen
+      examples: |
+        Jeg skriver for at klage over den behandling, jeg fik i jeres butik. | I am writing to complain about the treatment I received in your shop. | purpose
+        Det fremgår af kontrakten, at lejligheden skal afleveres i samme stand. | It is clear from the contract that the flat must be handed back in the same condition. | evidence
+        Jeg anmoder om, at beløbet tilbagebetales inden fjorten dage. | I request that the amount be refunded within fourteen days. | demand + s-passive
+        Såfremt I fastholder kravet, vil jeg indbringe sagen for Huslejenævnet. | Should you maintain the claim, I will bring the case before the Rent Tribunal. | consequence
+      tip: Separate facts from feelings. Describe what happened with dates and documents, and let the facts carry your frustration.
+    reading:
+      title: Klage over fradrag i depositum
+      text: |
+        Mette Lund
+        Nørregade 14, 2. tv.
+        8000 Aarhus C
+
+        Lærkegårdens Ejendomsadministration
+        Udlejningsafdelingen
+
+        Aarhus, den 12. september 2026
+
+        Vedr.: Klage over fradrag i depositum – lejemål Lærkevej 7, 1. th.
+
+        Til rette vedkommende
+
+        Jeg skriver for at klage over den flytteopgørelse, som jeg modtog fra jer den 30. august.
+
+        Jeg fraflyttede lejligheden på Lærkevej den 1. august efter at have boet der i fem år. Ved flyttesynet den 2. august gennemgik jeg lejligheden sammen med jeres ejendomsfunktionær. Han bemærkede kun et mindre hul i væggen i soveværelset, som jeg accepterede at betale for.
+
+        I flytteopgørelsen har I imidlertid trukket 18.500 kr. fra mit depositum. Beløbet dækker ifølge opgørelsen maling af hele lejligheden samt afslibning af alle gulve. Jeg finder ikke dette fradrag rimeligt af følgende grunde:
+
+        For det første fremgår det af min lejekontrakt, at lejligheden skal afleveres i samme stand som ved indflytningen, bortset fra almindeligt slid. Efter fem års beboelse må en vis slitage på gulve og vægge betragtes som almindeligt slid.
+
+        For det andet blev ingen af de nævnte mangler noteret i flytterapporten, som både jeg og jeres medarbejder underskrev ved synet. Jeg har vedlagt en kopi af rapporten samt de billeder, jeg tog samme dag.
+
+        For det tredje har jeg ikke modtaget nogen dokumentation for udgifterne, for eksempel fakturaer fra maler eller gulvfirma.
+
+        På den baggrund anmoder jeg om, at fradraget nedsættes til udgiften til reparation af hullet i soveværelset, og at det resterende beløb udbetales til min konto inden fjorten dage.
+
+        Såfremt I fastholder jeres krav, forbeholder jeg mig ret til at indbringe sagen for Huslejenævnet.
+
+        Jeg ser frem til jeres svar.
+
+        Med venlig hilsen
+        Mette Lund
+
+        Bilag: Kopi af flytterapport og tolv fotos
+      translation: |
+        Mette Lund
+        Nørregade 14, 2nd floor left
+        8000 Aarhus C
+
+        Lærkegården Property Management
+        Lettings Department
+
+        Aarhus, 12 September 2026
+
+        Re: Complaint about deduction from deposit – tenancy Lærkevej 7, 1st floor right
+
+        To whom it may concern
+
+        I am writing to complain about the move-out statement that I received from you on 30 August.
+
+        I moved out of the flat on Lærkevej on 1 August after living there for five years. At the move-out inspection on 2 August, I went through the flat together with your caretaker. He only noted a small hole in the bedroom wall, which I agreed to pay for.
+
+        In the move-out statement, however, you have deducted DKK 18,500 from my deposit. According to the statement, the amount covers painting the whole flat and sanding all the floors. I do not find this deduction reasonable, for the following reasons:
+
+        Firstly, it is clear from my tenancy agreement that the flat must be handed back in the same condition as when I moved in, apart from normal wear and tear. After five years of occupancy, a certain amount of wear on the floors and walls must be regarded as normal wear and tear.
+
+        Secondly, none of the defects mentioned were noted in the move-out report, which both I and your employee signed at the inspection. I have enclosed a copy of the report and the photos I took the same day.
+
+        Thirdly, I have not received any documentation of the costs, such as invoices from a painter or a flooring company.
+
+        On this basis, I request that the deduction be reduced to the cost of repairing the hole in the bedroom, and that the remaining amount be paid into my account within fourteen days.
+
+        Should you maintain your claim, I reserve the right to bring the case before the Rent Tribunal.
+
+        I look forward to your reply.
+
+        Yours faithfully,
+        Mette Lund
+
+        Enclosures: Copy of move-out report and twelve photos
+    pronunciation:
+      title: "Abbreviations are read in full"
+      body: |
+        Formal letters are full of abbreviations, but they are read aloud as whole words: *vedr.* → "vedrørende", *ang.* → "angående", *bl.a.* → "blandt andet", *jf.* → "jævnfør", *fx* → "for eksempel", *kr.* → "kroner". *Tv.* and *th.* in an address are read "til venstre" and "til højre".
+
+        Listen and repeat the full forms.
+      items: |
+        vedrørende
+        blandt andet
+        jævnfør
+        anden sal til venstre
+        atten tusind fem hundrede kroner
+    mistakes: |
+      Hej Lærkegården! (in a formal complaint) => Til rette vedkommende | Hej is too informal for a formal letter; use the department name or Til rette vedkommende.
+      Jeg anmoder, at fradraget nedsættes. => Jeg anmoder om, at fradraget nedsættes. | Anmode takes om: anmode om, at…
+      Såfremt I fastholder ikke kravet, … => Såfremt I ikke fastholder kravet, … | Såfremt introduces a subordinate clause: ikke before the verb.
+    task:
+      title: Your formal complaint
+      mode: writing
+      body: |
+        Choose a situation: a deposit that wasn't returned, a delayed or damaged delivery, a course that was cancelled without a refund. Write a formal complaint (150–200 words) with all nine parts: sender and date, subject line, greeting, purpose, facts, arguments, demand, consequence and closing. Read it once more and remove every exclamation mark.
+    exercises: |
+      fill: ___: Klage over fradrag i depositum (subject line) || Vedr. / Vedrørende / Ang. / Angående || A formal subject line starts with Vedr. or Ang. || @tags da.formal-writing
+      fill: Jeg anmoder ___, at beløbet tilbagebetales. || om || Anmode om, at… = request that… || @tags da.formal-writing
+      fill: ___ I fastholder kravet, vil jeg kontakte Huslejenævnet. (formal "if") || Såfremt / Hvis || Såfremt is the formal equivalent of hvis. || @tags da.formal-writing,da.connectors
+      mc: You don't know who will read your complaint. How do you start? || *Til rette vedkommende | Hej med jer | Kære ven || Til rette vedkommende = To whom it may concern. || @tags da.formal-writing
+      mc: Which sentence fits a formal complaint best? || *Jeg finder ikke fradraget rimeligt af følgende grunde: | Det er simpelthen for dårligt!!! | I er da helt urimelige, ikke? || Formal complaints are firm and factual, without exclamation marks or sarcasm. || @tags da.formal-writing,da.register
+      tf: Mette agreed to pay for the hole in the bedroom wall. || true || "…et mindre hul i væggen i soveværelset, som jeg accepterede at betale for." || @ctx reading
+      mc: What does Mette request? || *That the deduction is reduced to the cost of repairing the hole | That the whole flat is repainted | That she can move back in || "…at fradraget nedsættes til udgiften til reparation af hullet i soveværelset." || @ctx reading @skill reading @tags da.reading
+      short: What has Mette enclosed with her letter? || kw: flytterapport/rapport/report/billeder/fotos/photos/pictures || A copy of the move-out report and twelve photos. || @ctx reading
+      listen: Vi har modtaget din klage og beklager den lange ventetid. Din sag er nu sendt videre til vores juridiske afdeling, som vil kontakte dig inden fjorten dage. || What will happen next? || *The legal department will contact the customer within fourteen days | The customer will get a refund today | The case has been closed || "…vores juridiske afdeling, som vil kontakte dig inden fjorten dage." || @tags da.listening,da.formal-writing
+      rw: Make it formal, starting "Jeg anmoder om, at…" :: Giv mig pengene tilbage nu! || Jeg anmoder om, at beløbet tilbagebetales. | Jeg anmoder om, at pengene tilbagebetales. | Jeg anmoder om, at beløbet bliver tilbagebetalt. | Jeg anmoder om, at I tilbagebetaler beløbet. | Jeg anmoder om, at I betaler beløbet tilbage. || Anmode om, at + subordinate clause, often with a passive. || @tags da.formal-writing,da.passive
+      tr: I look forward to your reply. || Jeg ser frem til jeres svar. | Jeg ser frem til dit svar. | Jeg ser frem til Deres svar. | Jeg ser frem til at høre fra jer. || Se frem til = look forward to. || @tags da.formal-writing
+      ask: Phone your landlord and complain politely but firmly about a repair that hasn't been done. || kw: ringer angående/ringer vedrørende/ringer om/klage & forventer/anmoder/vil gerne bede om || Goddag, jeg ringer angående vandhanen i mit køkken. Jeg meldte fejlen for tre uger siden, men der er ikke sket noget. Jeg forventer, at den bliver repareret i denne uge, og jeg vil gerne bede om en skriftlig bekræftelse.
+      write: Write a formal complaint (150–200 words) about a deposit, a delivery or a cancelled course. || min=120 || req: vedr/vedrørende/angående | jeg skriver for at klage/hermed klager jeg/jeg vil gerne klage | anmoder om/forventer/beder om | med venlig hilsen || Vedr.: Klage over aflyst kursus, ordre nr. 2231. Til rette vedkommende. Jeg skriver for at klage over jeres håndtering af aflysningen af kurset i fotografi, som skulle have startet den 3. oktober. Jeg betalte 2.400 kr. for kurset den 15. august. Den 1. oktober modtog jeg en kort mail om, at kurset var aflyst, men I har endnu ikke tilbagebetalt beløbet. Det fremgår af jeres betingelser, at kursusgebyret tilbagebetales fuldt ud, hvis et kursus aflyses. Jeg har siden skrevet to gange uden at få svar. Jeg anmoder derfor om, at beløbet overføres til min konto inden fjorten dage. Såfremt det ikke sker, forbeholder jeg mig ret til at klage til Forbrugerklagenævnet. Jeg ser frem til jeres svar. Med venlig hilsen Pernille Dahl. Bilag: Kvittering og mail om aflysning.
+      dict: Jeg finder ikke dette fradrag rimeligt af følgende grunde.
