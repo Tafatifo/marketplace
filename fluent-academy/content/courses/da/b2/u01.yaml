@@ -1,0 +1,361 @@
+unit: 1
+title: Identitet og samfund
+theme: Identity and society
+description: Talk about identity, belonging, generations and life with more than one language — and express attitude and nuance with sentence adverbs, the modal particles jo, nok and vel, and object shift (Jeg kender ham ikke).
+free: true
+objectives:
+  - Signal shared knowledge, probability and assumptions with the modal particles jo, nok and vel
+  - Place several sentence adverbs and unstressed object pronouns correctly (object shift)
+  - Correct, qualify and comment on statements with faktisk, egentlig, vist and åbenbart
+canDo:
+  - I can talk about where I feel at home and what belonging means to me.
+  - I can hear and use the attitude behind jo, nok and vel.
+  - I can compare my generation with older and younger generations.
+  - I can describe what it is like to live with more than one language.
+review: |
+  fill: Du er ___ født her, så selvfølgelig taler du dansk. (as we both know) || jo || Jo presents a fact as shared knowledge: "you were born here, after all". || @tags da.discourse-markers
+  mc: "Han kommer nok ikke i aften." What does the speaker mean? || *He probably isn't coming this evening | He is definitely not coming this evening | Isn't he coming this evening? || Nok means "probably": the speaker is fairly sure, but not certain. || @tags da.sentence-adverbs
+  rw: Add ikke :: Jeg forstår dem. || Jeg forstår dem ikke. || With only one verb, the unstressed pronoun dem moves in front of ikke (object shift). || @tags da.negation,da.pronouns
+  mc: Which sentence is correct? || *Jeg har ikke set dem i år. | Jeg har set dem ikke i år. | Jeg har dem ikke set i år. || With an auxiliary (har), ikke follows the auxiliary and the pronoun stays after the participle. || @tags da.negation,da.word-order
+  fill: Hun bliver hjemme, fordi hun ___ ___ tid. (not + has) || ikke ; har || In a subordinate clause the sentence adverb comes before the finite verb: fordi hun ikke har tid. || @tags da.subordinate-clauses,da.negation
+  fill: Toget er ___ forsinket — der står tyve minutter på skærmen. (apparently, judging from what you see) || åbenbart / vist / tilsyneladende || Åbenbart signals a conclusion drawn from evidence you have just seen. || @tags da.sentence-adverbs
+  mc: What does egentlig add in "Hvad laver du egentlig på dit arbejde?" || *It makes the question sound curious and less direct | It makes the question sound rude | It turns the question into a statement || In questions, egentlig signals genuine curiosity and softens the question. || @tags da.sentence-adverbs
+  tr: You've heard the news, I suppose? || Du har vel hørt nyheden? | Du har vel hørt nyhederne? | Du har vel hørt det nye? || Vel in a statement-question asks the listener to confirm an assumption. || @tags da.discourse-markers
+  listen: Min mormor siger altid, at vi unge har det for nemt. Hun har nok ret i nogle ting, men hun kender jo ikke presset på arbejdsmarkedet i dag. || What does the speaker think? || *The grandmother is partly right but doesn't know today's pressures | The grandmother is completely right | Young people really do have it too easy || "Hun har nok ret i nogle ting, men hun kender jo ikke presset…" || @tags da.listening,da.discourse-markers
+  listen: Jeg troede, at min nye kollega var dansk, men hun er faktisk vokset op i Brasilien og flyttede hertil som tyveårig. || Where did the colleague grow up? || *In Brazil | In Denmark | In Portugal || Faktisk corrects the speaker's assumption: "hun er faktisk vokset op i Brasilien". || @tags da.listening,da.sentence-adverbs
+  ask: Tell someone how your generation differs from your parents' generation. Use at least two of jo, nok, vel, faktisk and egentlig. || kw: jo/nok/vel/faktisk/egentlig & generation/forældre/dengang/i dag || Min generation har faktisk mange flere valgmuligheder end mine forældres. Dengang fik man jo et job og blev der. Til gengæld har vi nok mere pres på os i dag.
+  write: Write a short comment (6–8 sentences) for a radio programme's website on the question "Hvad betyder det at høre til?" || min=60 || req: høre til/hjemme/tilhørsforhold | jo/nok/vel/faktisk/egentlig || For mig handler det at høre til egentlig ikke om, hvor man er født. Jeg er født i Polen, men jeg har boet i Vejle i femten år, og her føler jeg mig hjemme. Det er jo her, mine venner og mit kor er. Når jeg besøger min familie i Polen, er jeg nok mere dansk, end jeg selv tror. Jeg tror, man kan høre til flere steder på én gang. Det vigtigste er faktisk, at andre mennesker ser én som en del af fællesskabet.
+lessons:
+  - title: Identity and belonging
+    summary: Discuss roots, home and belonging, and use the modal particles jo, nok and vel to show how you feel about what you say.
+    minutes: 50
+    skills: [speaking, grammar, listening]
+    tags: [da.discourse-markers, da.sentence-adverbs, da.word-order]
+    objectives:
+      - Use jo, nok and vel to signal shared knowledge, probability and assumptions
+      - Place modal particles correctly, including before ikke
+      - Talk about home, roots and belonging with nuance
+    intro: |
+      "Hvor kommer du fra?" is a simple question with a complicated answer for many people living in Denmark. In this lesson two colleagues talk about roots, home and what it means to belong somewhere. You'll also meet three tiny words that native speakers use all the time — **jo**, **nok** and **vel**. They don't change the facts of a sentence, but they tell the listener how the speaker feels about those facts. Without them, your Danish can sound abrupt; with them, it sounds natural and nuanced.
+    vocab: |
+      et tilhørsforhold | a sense of belonging; an attachment | n | Mange har et stærkt tilhørsforhold til det sted, hvor de voksede op. | Many people have a strong attachment to the place where they grew up. | g: n | pl: tilhørsforhold | c: et tilhørsforhold til noget
+      høre til | to belong | v | Jeg har aldrig rigtig følt, at jeg hørte til nogen steder. | I've never really felt that I belonged anywhere. | n: Particle verb, stress on til. Past: hørte til.
+      føle sig hjemme | to feel at home | expr | Efter et par år begyndte hun at føle sig hjemme i Odense. | After a couple of years she began to feel at home in Odense. | n: Reflexive: jeg føler mig, du føler dig, hun føler sig hjemme.
+      en rod | a root | n | Min far har sine rødder i Tyrkiet, men han er født i Ishøj. | My father has his roots in Turkey, but he was born in Ishøj. | g: c | pl: rødder | n: Plural with a vowel change: rod → rødder.
+      en identitet | an identity | n | Sproget er en vigtig del af min identitet. | Language is an important part of my identity. | g: c | pl: identiteter
+      et fællesskab | a community; a sense of togetherness | n | Koret giver mig et fællesskab på tværs af alder. | The choir gives me a community across age groups. | g: n | pl: fællesskaber
+      en baggrund | a background | n | Klassen har elever med mange forskellige baggrunde. | The class has pupils from many different backgrounds. | g: c | pl: baggrunde
+      opfatte | to perceive; to see (as) | v | Hun opfatter sig selv som både dansk og iransk. | She sees herself as both Danish and Iranian. | n: Past: opfattede. Passive: opfattes som (be seen as).
+      en fordom | a prejudice | n | Vi har alle fordomme, men vi kan godt arbejde med dem. | We all have prejudices, but we can work on them. | g: c | pl: fordomme
+      dybest set | basically; deep down | adv | Dybest set handler det om at blive set og accepteret. | Basically, it's about being seen and accepted. | n: In first position it triggers inversion: Dybest set handler det om…
+      et statsborgerskab | a citizenship | n | Hun fik dansk statsborgerskab sidste år. | She got Danish citizenship last year. | g: n | pl: statsborgerskaber
+    grammar:
+      title: "Jo, nok and vel — attitude in one syllable"
+      body: |
+        Modal particles are short, unstressed words that don't change *what* you say but *how* you present it. They are extremely frequent in spoken Danish.
+
+        - **jo** — "as you know, after all": the speaker presents the information as shared or obvious. *Du er **jo** født i Aarhus.* It can also soften an objection: *Det er **jo** ikke så nemt.*
+        - **nok** — "probably, I expect": the speaker is fairly sure but not certain. *Hun kommer **nok** lidt senere.* About the future it can reassure: *Det går **nok**.* (It'll be fine.)
+        - **vel** — "I suppose, surely": the speaker assumes something and invites the listener to confirm it. *Du har **vel** fået min besked?* In a statement it can express a reluctant conclusion: *Det er **vel** en smagssag.* (I suppose it's a matter of taste.)
+
+        **Position.** The particles are sentence adverbs, so they go where ikke goes: straight after the finite verb in a main clause (*Hun er jo dansk*), after a pronoun subject when the clause is inverted (*I dag er hun jo hjemme*), and before the finite verb in a subordinate clause (*…fordi det jo er dyrt*). When several adverbs meet, the particle comes before ikke: *Han kommer **nok ikke**.* · *Du er **vel ikke** syg?*
+
+        **Stress changes the word.** Stressed *JO* is the answer "yes" to a negative question, and stressed *NOK* means "enough": *Nu er det NOK!*
+      table: |
+        Particle | Attitude | Example | English
+        jo | shared or obvious knowledge | Vi bor jo kun ti minutter væk. | We only live ten minutes away, after all.
+        nok | probability | Han har nok glemt det. | He's probably forgotten.
+        vel | assumption, asking for confirmation | Du er vel ikke sur? | You're not cross, are you?
+        particle + ikke | the particle comes first | Hun ringer nok ikke i dag. | She probably won't call today.
+      examples: |
+        Du kender jo Mette fra studiet. | You know Mette from university, of course. | jo: you already know this
+        Han bor nok stadig i Esbjerg. | He probably still lives in Esbjerg. | nok: likely, not certain
+        Du har vel hørt, at Ali er flyttet? | I suppose you've heard that Ali has moved? | vel: asking for confirmation
+        Det er jo nok derfor, hun er ked af det. | That's probably why she's upset, then. | jo before nok
+      tip: If you're unsure which particle to use, nok is the safest. Jo can sound slightly patronising if the listener doesn't actually share the knowledge you present as obvious.
+    dialogue:
+      title: Frokost i kantinen
+      setting: The canteen of an engineering company in Aarhus. Sanne, who works in HR, has lunch with her colleague Amir after a meeting with a new team member.
+      speakers: S=Sanne/f; A=Amir/m
+      lines: |
+        S: Du så lidt irriteret ud til mødet i morges. Var det noget, den nye kollega sagde? | You looked a bit annoyed at the meeting this morning. Was it something the new colleague said?
+        A: Ja, han spurgte, hvor jeg kom fra, og da jeg sagde Aarhus, spurgte han, hvor jeg egentlig kom fra. | Yes, he asked where I came from, and when I said Aarhus, he asked where I was "really" from.
+        S: Han mente det nok ikke ondt. Men jeg forstår godt, at det irriterer dig. | He probably didn't mean any harm. But I understand why it annoys you.
+        A: Nej, men jeg er jo født og opvokset her. Mine forældre kom fra Irak, før jeg blev født. | No, but I was born and raised here, after all. My parents came from Iraq before I was born.
+        S: Så det er vel Aarhus, du føler dig hjemme i? Eller er det mere kompliceret end det? | So I suppose Aarhus is where you feel at home? Or is it more complicated than that?
+        A: Både og. Hos min farmor i Bagdad er jeg danskeren, og her er jeg tit bare ham fra Irak. | Both. At my grandmother's in Baghdad I'm the Dane, and here I'm often just the guy from Iraq.
+        S: Det kender jeg faktisk lidt til. Jeg er fra Thy, og her i byen er jeg stadig hende fra Thy. | I actually know a bit about that. I'm from Thy, and here in the city I'm still the girl from Thy.
+        A: Ha, ja, men det er jo ikke helt det samme. Ingen spørger dig, om du kan tale dansk. | Ha, yes, but it's not quite the same, is it. Nobody asks you whether you can speak Danish.
+        S: Nej, det har du ret i. Jeg har vel aldrig skullet forklare, hvem jeg er. | No, you're right about that. I suppose I've never had to explain who I am.
+        A: Præcis. Dybest set vil jeg bare gerne opfattes som Amir og ikke som et eksempel på noget. | Exactly. Basically, I just want to be seen as Amir and not as an example of something.
+        S: Skal jeg tage en snak med ham? Han er jo ny i huset og kender ikke kulturen her endnu. | Shall I have a word with him? He's new to the company, after all, and doesn't know the culture here yet.
+        A: Nej tak, det klarer jeg selv. Han får nok en invitation til frokost i morgen. | No thanks, I'll handle it myself. He'll probably get an invitation to lunch tomorrow.
+    pronunciation:
+      title: "Unstressed jo, nok and vel"
+      body: |
+        As modal particles, jo, nok and vel are never stressed. They are squeezed in between the stressed words and said quickly and lightly: in *Du er jo født her* the stress falls on *født*, and *er jo* runs together.
+
+        If you stress them, the meaning changes: a stressed **JO** answers "yes" to a negative question, and a stressed **NOK** means "enough". Listen and repeat, keeping the particles light and the content words strong.
+      items: |
+        Du er jo født her.
+        Han kommer nok senere.
+        Du har vel tid i morgen?
+        Det er jo ikke det samme.
+        Nu er det nok!
+    culture:
+      title: '"Hvor kommer du fra?"'
+      body: |
+        About 15 per cent of the people living in Denmark are immigrants or the children of immigrants, and many of them hear "Hvor kommer du fra?" again and again — often answering with the name of a Danish town. Whether the question feels friendly or excluding depends a lot on tone and context.
+
+        Regional identity matters too. People from Thy, Bornholm or Sønderjylland are often proud of their dialect and local roots, and moving to Copenhagen or Aarhus can make them feel like outsiders for a while.
+    mistakes: |
+      Du er født jo i Aarhus. => Du er jo født i Aarhus. | Jo is a sentence adverb: it comes straight after the finite verb (er), before the participle.
+      I dag jo er hun hjemme. => I dag er hun jo hjemme. | In an inverted clause the verb is second, and the particle follows the pronoun subject.
+      Han kommer ikke nok i dag. => Han kommer nok ikke i dag. | Modal particles come before ikke.
+    task:
+      title: Where do you belong?
+      mode: speaking
+      body: |
+        Prepare a two-minute talk about a place where you feel at home — or where you have felt like an outsider. Explain why, and use jo, nok and vel at least once each. Then discuss the question "Kan man høre til flere steder?" in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: Du kender ___ Amir — han sidder ved siden af dig hver dag! (as you know) || jo || Jo marks something the listener already knows. || @tags da.discourse-markers
+      fill: Bussen er ___ forsinket igen. Den plejer at være det, når det sner. (probably) || nok || Nok = probably: the speaker is fairly sure, but not certain. || @tags da.sentence-adverbs
+      fill: Du har ___ husket nøglerne? (you assume so and want confirmation) || vel || Vel in a statement-question asks the listener to confirm an assumption. || @tags da.discourse-markers
+      mc: Which sentence is correct? || *Hun bor nok ikke i København længere. | Hun bor ikke nok i København længere. | Hun nok bor ikke i København længere. || The particle follows the finite verb and comes before ikke. || @tags da.sentence-adverbs,da.negation
+      mc: Choose the correct word order. || *I weekenden er han nok hos sine forældre. | I weekenden han er nok hos sine forældre. | I weekenden er nok han hos sine forældre. || Inversion after I weekenden: verb (er) + pronoun subject (han) + particle (nok). || @tags da.word-order,da.sentence-adverbs
+      tf: Amir's parents came to Denmark after he was born. || false || "Mine forældre kom fra Irak, før jeg blev født." || @ctx dialogue
+      short: How does Amir want to be seen? || kw: Amir/himself/person/individual/sig selv || "Dybest set vil jeg bare gerne opfattes som Amir og ikke som et eksempel på noget." || @ctx dialogue
+      listen: @dialogue || How will Amir deal with the new colleague? || *He'll invite him to lunch himself | He'll ask Sanne to talk to him | He'll complain to his manager || "Nej tak, det klarer jeg selv. Han får nok en invitation til frokost i morgen." || @tags da.listening
+      listen: Du er vel ikke sur over det, jeg sagde i går? Det var jo bare for sjov. || What is the speaker doing? || *Checking that the listener isn't upset | Accusing the listener of being rude | Asking the listener to repeat something || "Du er vel ikke sur…?" asks for reassurance; "det var jo bare for sjov" — it was only a joke. || @tags da.listening,da.discourse-markers
+      tr: I suppose you've heard that Line has moved to Thy? || Du har vel hørt, at Line er flyttet til Thy? | Du har vel hørt, at Line har flyttet til Thy? | Du har vel hørt, at Line er flyttet til Thy. || Vel + statement word order asks for confirmation; vel follows the finite verb har. || @tags da.discourse-markers
+      ask: A friend asks where you feel most at home. Answer and use jo, nok or vel. || kw: hjemme/høre til & jo/nok/vel || Jeg føler mig nok mest hjemme i Odense. Jeg har jo boet der i tolv år, og alle mine venner bor der.
+      write: Write a short forum post (5–7 sentences) answering the question "Hvad betyder 'hjem' for dig?" Use at least two of jo, nok and vel. || min=50 || req: hjem/hjemme | jo/nok/vel || For mig er hjem nok mere et fællesskab end et sted. Jeg er vokset op i Randers, men jeg har boet i Spanien og Canada. Hjem er jo der, hvor folk kender én. Når jeg kommer til Randers, føler jeg mig stadig hjemme, fordi min familie bor der. Men jeg har vel også et hjem i København nu, hvor mine venner er.
+      dict: Han mente det nok ikke ondt, men det irriterede mig alligevel.
+
+  - title: Generations
+    summary: Compare the lives of different generations and master the order of sentence adverbs and object shift — Jeg kender ham ikke, but Jeg har ikke set ham.
+    minutes: 50
+    skills: [grammar, speaking, listening]
+    tags: [da.sentence-adverbs, da.pronouns, da.negation, da.word-order]
+    objectives:
+      - Use object shift — an unstressed pronoun before ikke when there is only one verb
+      - Put several sentence adverbs in the right order (jo, nok, faktisk, ikke)
+      - Compare work, family life and technology across generations
+    intro: |
+      A Danish grandmother in her late seventies and her grandson in his twenties have grown up in two very different countries — even though it is the same one. In this lesson Inger and her grandson Mikkel compare their twenties over Sunday coffee. You'll also learn a word-order rule that even advanced learners get wrong: why Danes say *Jeg kender ham ikke* but *Jeg har ikke set ham*.
+    vocab: |
+      en generation | a generation | n | Min generation er vokset op med internettet. | My generation grew up with the internet. | g: c | pl: generationer
+      en kløft | a gap; a gulf | n | Der er en stor kløft mellem de unges og de ældres medievaner. | There's a big gap between the media habits of young and old people. | g: c | pl: kløfter | c: generationskløften (the generation gap)
+      forsørge | to support; to provide for | v | Allerede som ung forsørgede hun to børn. | Even as a young woman she was supporting two children. | n: Past: forsørgede. En forsørger = a breadwinner.
+      en selvfølge | a matter of course | n | For min mormor var en uddannelse ikke en selvfølge. | For my grandmother, an education wasn't a matter of course. | g: c | pl: selvfølger | n: Det er en selvfølge = it goes without saying.
+      dengang | back then | adv | Dengang havde man ikke mobiltelefoner. | Back then people didn't have mobile phones. | n: Refers to a specific time in the past. In first position: Dengang havde man…
+      nu om dage | nowadays | expr | Nu om dage arbejder mange hjemme en dag om ugen. | Nowadays many people work from home one day a week. | n: In first position it triggers inversion.
+      forvente | to expect | v | Mine forældre forventede, at jeg ville blive håndværker. | My parents expected me to become a craftsman. | n: Past: forventede. En forventning = an expectation.
+      et pres | a pressure | n | Mange unge føler et stort pres for at præstere. | Many young people feel great pressure to perform. | g: n | n: No plural. Et præstationspres = pressure to perform.
+      til gengæld | on the other hand; in return | expr | Lønnen er lav, men til gengæld er arbejdstiden fleksibel. | The pay is low, but on the other hand the hours are flexible. | n: In first position: Til gengæld er…
+      tilpasse sig | to adapt | v | Min farfar har tilpasset sig nye tider. | My grandfather has adapted to new times. | n: Reflexive. Past: tilpassede sig.
+      misunde | to envy | v | Jeg misunder dig ikke din eksamensperiode. | I don't envy you your exam period. | n: Past: misundte. Takes two objects: misunde nogen noget.
+    grammar:
+      title: "Sentence adverbs in a row — and object shift"
+      body: |
+        Sentence adverbs (ikke, aldrig, også, gerne, jo, nok, vel, faktisk, desværre…) share one position: after the finite verb in a main clause, after the subject in an inverted clause, and before the finite verb in a subordinate clause.
+
+        **Several adverbs together.** The modal particles jo, vel and nok usually come first and ikke or aldrig last: *Det er **jo nok ikke** så nemt.* · *Han har **vel aldrig** prøvet det.*
+
+        **Object shift.** When the clause has only **one verb** (no auxiliary or modal), an **unstressed object pronoun** (mig, dig, ham, hende, den, det, os, jer, dem, sig) moves in front of the sentence adverbs: *Jeg kender **ham ikke**.* · *Vi ser **dem desværre** sjældent.* Saying ~~Jeg kender ikke ham~~ sounds as if you are contrasting him with someone else.
+
+        No object shift happens when:
+        - there is an auxiliary or modal — the pronoun stays after the main verb: *Jeg har **ikke** set **ham**.* · *Jeg kan **ikke** forstå **det**.*
+        - the object is a full noun: *Jeg kender **ikke** Peter.*
+        - the clause is subordinate: *…fordi jeg **ikke** kender **ham**.*
+        - the pronoun is stressed for contrast: *Jeg kender ikke HAM, men jeg kender hans søster.*
+      table: |
+        Sentence | Why
+        Jeg kender ham ikke. | one verb: the pronoun moves before ikke
+        Jeg har ikke set ham. | auxiliary har: no object shift
+        Jeg kender ikke Peter. | a full noun never moves
+        …, fordi jeg ikke kender ham. | subordinate clause: no object shift
+        Det tror jeg ikke. | the object is in first position
+      examples: |
+        Min farfar forstår det ikke. | My grandfather doesn't understand it. | object shift: det before ikke
+        Min farfar har aldrig forstået det. | My grandfather has never understood it. | auxiliary: det after the participle
+        Vi ser dem desværre sjældent. | Unfortunately we rarely see them. | dem before two sentence adverbs
+        Det er jo nok ikke så mærkeligt. | That's probably not so strange, after all. | jo + nok + ikke
+      tip: "Ask yourself two questions: is there only one verb, and is the object a small unstressed pronoun? If both answers are yes, the pronoun goes before ikke: Jeg ved det ikke."
+    dialogue:
+      title: Søndagskaffe hos mormor
+      setting: A Sunday afternoon in a terraced house in Næstved. Mikkel, 24, visits his grandmother Inger, 79, who has just been given a tablet by her children.
+      speakers: I=Inger/f; M=Mikkel/m
+      lines: |
+        I: Mikkel, kan du hjælpe mig med den her tablet? Jeg forstår den ikke, og knapperne er så små. | Mikkel, can you help me with this tablet? I don't understand it, and the buttons are so small.
+        M: Selvfølgelig, mormor. Du har nok bare slået lyden fra. Se, nu kan du høre den igen. | Of course, Gran. You've probably just turned the sound off. Look, now you can hear it again.
+        I: Tak, skat. Da jeg var på din alder, havde vi én telefon i hele opgangen. | Thanks, love. When I was your age, we had one telephone for the whole stairwell.
+        M: Det lyder vildt. Men du var jo også gift og havde to børn, da du var fireogtyve. | That sounds crazy. But then you were also married with two children when you were twenty-four.
+        I: Ja, det var helt normalt dengang. Vi forventede ikke at rejse jorden rundt først. | Yes, that was quite normal back then. We didn't expect to travel around the world first.
+        M: Nu om dage er det næsten en selvfølge. Til gengæld føler vi et kæmpe pres for at præstere. | Nowadays it's almost a matter of course. On the other hand, we feel huge pressure to perform.
+        I: Det pres kender jeg ikke. Vi fik et job og blev der i fyrre år. | I don't know that kind of pressure. We got a job and stayed there for forty years.
+        M: Jeg misunder dig faktisk lidt. Jeg har allerede skiftet job to gange, og jeg er kun fireogtyve. | I actually envy you a bit. I've already changed jobs twice, and I'm only twenty-four.
+        I: Men I har så mange muligheder. Jeg ville gerne have læst videre, men det havde vi ikke råd til. | But you have so many opportunities. I would have liked to study further, but we couldn't afford it.
+        M: Det vidste jeg ikke. Har du aldrig fortalt mor det? | I didn't know that. Have you never told Mum?
+        I: Jo, men hun har vist glemt det. Det er jo også mange år siden. | Yes, I have, but I think she's forgotten. It was a long time ago, after all.
+        M: Så skal du fortælle mig det hele. Jeg har god tid, og kaffen er stadig varm. | Then you must tell me all about it. I've got plenty of time, and the coffee is still hot.
+    pronunciation:
+      title: "Weak pronouns: kender ham ikke"
+      body: |
+        Unstressed object pronouns are short and lean on the verb in front of them: *kender ham ikke* is said as one unit with the stress on *KEN-*, and the h of *ham* is often barely heard. In *ved det ikke*, the d of *ved* is silent, so it sounds like "ve-de-ikke". *Hende* is "hen-ne" — the d is silent.
+
+        Stress on the pronoun signals contrast — and then the pronoun stays after ikke: *Jeg kender ikke HAM.* Listen and repeat, stressing the verb and keeping the pronoun light.
+      items: |
+        Jeg kender ham ikke.
+        Jeg ved det ikke.
+        Vi ser dem sjældent.
+        Jeg misunder dig faktisk.
+        Jeg kender ikke HAM, men hans søster.
+    mistakes: |
+      Jeg kender ikke ham. => Jeg kender ham ikke. | With only one verb, an unstressed pronoun object moves in front of ikke (object shift).
+      Jeg har set ham ikke. => Jeg har ikke set ham. | With an auxiliary, ikke follows the auxiliary and the pronoun stays after the participle.
+      …, fordi jeg forstår det ikke. => …, fordi jeg ikke forstår det. | In a subordinate clause ikke goes before the verb, and there is no object shift.
+    task:
+      title: Then and now
+      mode: interaction
+      body: |
+        Interview an older person you know — or imagine one — about their life at your age: work, family, technology and expectations. Then give a short talk (one to two minutes) comparing their life with yours, using dengang, nu om dage and til gengæld, and at least two sentences with object shift (Jeg forstår det ikke, Vi ser dem sjældent).
+    exercises: |
+      rw: Add ikke :: Jeg kender hende. || Jeg kender hende ikke. || One verb + unstressed pronoun: the pronoun moves in front of ikke. || @tags da.negation,da.pronouns
+      rw: Add ikke :: Jeg har mødt hende. || Jeg har ikke mødt hende. || With an auxiliary there's no object shift: ikke after har, the pronoun after the participle. || @tags da.negation,da.word-order
+      mc: Which sentence is correct? || *Vi ser dem desværre sjældent. | Vi ser desværre sjældent dem. | Vi desværre ser dem sjældent. || One verb + unstressed pronoun: dem moves in front of the sentence adverbs. || @tags da.pronouns,da.sentence-adverbs
+      mc: Complete correctly — Hun siger, at… || *hun ikke forstår den | hun forstår den ikke | hun forstår ikke den || A subordinate clause has no object shift: subject + ikke + verb + object. || @tags da.subordinate-clauses,da.pronouns
+      fill: Min bror bor i Australien, så vi ser ___ ___. (him + rarely — in the right order) || ham ; sjældent || Object shift: the unstressed pronoun ham comes before the sentence adverb sjældent. || @tags da.pronouns,da.word-order
+      tf: Inger had her own telephone when she was young. || false || "Vi havde én telefon i hele opgangen." || @ctx dialogue
+      short: Why didn't Inger study further? || kw: råd/afford/money/penge || "Jeg ville gerne have læst videre, men det havde vi ikke råd til." || @ctx dialogue
+      listen: @dialogue || What does Mikkel envy about his grandmother's generation? || *People could stay in the same job for many years | People travelled the world young | People had more opportunities || Inger says "Vi fik et job og blev der i fyrre år", and Mikkel answers "Jeg misunder dig faktisk lidt." || @tags da.listening
+      listen: Min farfar har aldrig haft en smartphone, og han savner den ikke. Han læser stadig avisen på papir hver morgen. || What does the grandfather do every morning? || *He reads a paper newspaper | He reads the news on his phone | He listens to the radio || "Han læser stadig avisen på papir hver morgen." || @tags da.listening,da.pronouns
+      tr: I don't understand it, but my brother understands it. || Jeg forstår det ikke, men min bror forstår det. | Jeg forstår det ikke, men det gør min bror. | Jeg forstår det ikke, men min bror gør. | Jeg forstår den ikke, men min bror forstår den. || One verb + pronoun object: forstår det ikke. || @tags da.pronouns,da.negation
+      ask: Compare your generation with your parents' generation — one thing that is easier today and one thing that was easier before. || kw: dengang/før/tidligere & nu/i dag/nu om dage || Nu om dage er det lettere at rejse og læse videre. Men dengang var der nok mindre pres, og man kunne få et fast job uden en lang uddannelse.
+      write: Write a short text (6–8 sentences) comparing your life now with the life of an older person you know when they were your age. || min=60 || req: dengang | nu/i dag/nu om dage | ikke || Min morfar blev født i 1950 på en gård ved Skive. Dengang gik han kun i skole i syv år, og som fjortenårig begyndte han at arbejde hos en smed. Han flyttede aldrig langt væk. Nu om dage tager de fleste unge en lang uddannelse, og mange flytter til en storby. Jeg har boet i tre byer, og jeg ved ikke, hvor jeg ender. Min morfar forstår det ikke helt, men han misunder mig vist lidt. Til gengæld misunder jeg ham hans ro.
+      dict: Min mormor har en ny telefon, men hun bruger den ikke.
+
+  - title: Living between languages
+    summary: Read a personal essay about growing up with two languages, and correct, qualify and comment on what you say with faktisk, egentlig, vist and åbenbart.
+    minutes: 50
+    skills: [reading, grammar, writing]
+    tags: [da.sentence-adverbs, da.word-order, da.reading]
+    objectives:
+      - Correct, soften and comment on statements with faktisk, egentlig, vist and åbenbart
+      - Understand a personal essay about bilingual identity
+      - Describe the role of different languages in your own life
+    intro: |
+      Many families in Denmark use more than one language every day — at the dinner table, on the phone to relatives abroad, or in the playground. In this essay a young woman describes growing up with Polish at home and Danish everywhere else. Notice how she uses small adverbs — **faktisk**, **egentlig**, **vist** and **åbenbart** — to correct herself, to soften what she says and to show where her information comes from.
+    vocab: |
+      tosproget | bilingual | adj | Hendes børn er tosprogede og skifter ubesværet mellem dansk og arabisk. | Her children are bilingual and switch effortlessly between Danish and Arabic. | n: Plural and definite: tosprogede. Flersproget = multilingual.
+      et modersmål | a mother tongue | n | Mit modersmål er polsk, men jeg drømmer på dansk. | My mother tongue is Polish, but I dream in Danish. | g: n | pl: modersmål
+      skifte mellem | to switch between | v | Vi skifter mellem tre sprog ved middagsbordet. | We switch between three languages at the dinner table. | n: Past: skiftede.
+      skamme sig over | to be ashamed of | v | Som teenager skammede jeg mig over min mors accent. | As a teenager I was ashamed of my mother's accent. | n: Reflexive: jeg skammer mig, du skammer dig.
+      en arv | a heritage; an inheritance | n | Sproget er en arv, jeg gerne vil give videre. | The language is a heritage I'd like to pass on. | g: c | n: No plural in this sense. En kulturarv = a cultural heritage.
+      give videre | to pass on | v | Hun vil gerne give sproget videre til sine børn. | She would like to pass the language on to her children. | n: Particle verb, stress on videre.
+      et ordforråd | a vocabulary | n | Mit polske ordforråd er meget mindre end mit danske. | My Polish vocabulary is much smaller than my Danish one. | g: n | pl: ordforråd
+      faktisk | actually; in fact | adv | Jeg taler faktisk bedre polsk, end jeg skriver det. | I actually speak Polish better than I write it. | n: Corrects an expectation or adds a surprising fact.
+      egentlig | really; actually | adv | Hvad betyder det egentlig at være dansk? | What does it really mean to be Danish? | n: Contrasts the underlying truth with the surface; in questions it adds curiosity.
+      vist | I think; apparently (hearsay) | adv | Hun er vist flyttet til Kraków. | I think she's moved to Kraków. | n: Unstressed. Stressed in Ja vist! (certainly).
+      åbenbart | apparently; evidently | adv | Det er åbenbart helt normalt at blande sprogene. | Apparently it's quite normal to mix the languages. | n: A conclusion based on what you have just seen, heard or read.
+    grammar:
+      title: "Faktisk, egentlig, vist, åbenbart — commenting on what you say"
+      body: |
+        These sentence adverbs comment on the truth of a statement or on where the information comes from. They take the normal sentence-adverb position — after the finite verb, after the subject in an inverted clause, before the verb in a subordinate clause — and **faktisk** and **egentlig** can also start the sentence, followed by the verb (V2): *Faktisk taler jeg bedre polsk end min bror.*
+
+        - **faktisk** corrects an assumption or adds something surprising: *Han er faktisk født i Danmark.* (Contrary to what you might think.)
+        - **egentlig** points to what is true underneath, or makes a question curious rather than direct: *Jeg er egentlig ret glad for min accent.* · *Hvad laver du egentlig?* With skulle + have it means "was actually supposed to": *Jeg skulle egentlig have ringet.*
+        - **vist** marks second-hand or uncertain information — "I think, I believe": *Hun er vist læge.*
+        - **åbenbart** marks a conclusion from evidence you have just seen, heard or read — "apparently, evidently": *Toget er åbenbart aflyst.* (Judging from the board.)
+
+        With the modal particles from lesson 1, the order is usually particle first, then the comment adverb, then ikke: *Det er **jo faktisk ikke** så svært.*
+      table: |
+        Adverb | Signals | Example
+        faktisk | correction, surprise | Jeg taler faktisk polsk.
+        egentlig | underlying truth; curious question | Hvad betyder det egentlig?
+        vist | hearsay, uncertainty | Hun er vist flyttet.
+        åbenbart | conclusion from evidence | Mødet er åbenbart aflyst.
+      examples: |
+        Faktisk lærte jeg at læse på dansk før polsk. | Actually, I learned to read in Danish before Polish. | first position: verb second
+        Jeg er egentlig ret glad for min accent. | I'm actually quite fond of my accent. | egentlig: deep down
+        Hendes bedstemor taler vist kun lidt dansk. | I think her grandmother only speaks a little Danish. | vist: not quite sure
+        Børnene forstår åbenbart mere, end de siger. | Apparently the children understand more than they say. | åbenbart: you've just noticed
+      tip: "Adding egentlig to a question makes it sound curious rather than like an interview: Hvad laver du egentlig på dit arbejde?"
+    reading:
+      title: Mellem to sprog
+      text: |
+        Mellem to sprog
+
+        Når folk hører mit navn, spørger de tit, om jeg taler polsk. Svaret er ja – men det er faktisk mere kompliceret end som så.
+
+        Jeg er født i Kolding. Mine forældre kom til Danmark fra Gdańsk året før, jeg blev født. Derhjemme talte vi polsk, og i børnehaven talte jeg dansk. Mine første ord var vist på polsk – i hvert fald påstår min mor det. Som lille syntes jeg ikke, det var mærkeligt. Jeg skiftede bare mellem de to sprog, ligesom man skifter mellem to par sko.
+
+        Det ændrede sig, da jeg kom i skole. Jeg ville ikke være anderledes, og som teenager skammede jeg mig over min mors accent, når hun talte dansk med mine veninder. Jeg svarede hende på dansk, selvom hun talte polsk til mig. Det gjorde hende sikkert ked af det, men hun sagde aldrig noget.
+
+        I dag er jeg enogtyve år og studerer i København. Mit danske ordforråd er langt større end mit polske. Når jeg skal fortælle min familie i Polen om mit studie, mangler jeg ordene. Jeg ved egentlig godt, hvad jeg vil sige, men det kommer ud på dansk. Min fætter griner og siger, at jeg taler polsk som en turist.
+
+        Alligevel er polsk ikke bare et sprog for mig. Det er min farmors stemme i telefonen, de sange, min far synger, når han laver mad, og ord, som jeg ikke kan oversætte til dansk.
+
+        For tre år siden begyndte jeg på et kursus i polsk på universitetet. Jeg troede, det ville være nemt, men det var det ikke. Grammatikken var meget sværere, end jeg huskede. Til gengæld opdagede jeg, at jeg ikke var alene. På holdet sad der unge med polske forældre fra hele landet, og vi havde åbenbart haft præcis de samme oplevelser: den samme skam, de samme misforståelser og den samme glæde, når en bedstemor roste os for vores udtale.
+
+        Nogle gange spørger folk mig, om jeg føler mig mest dansk eller mest polsk. Jeg plejer at svare, at jeg ikke behøver at vælge. Jeg drømmer på dansk, jeg bander på polsk, og jeg regner i hovedet på begge sprog.
+
+        Hvis jeg en dag får børn, vil jeg gerne give sproget videre. Ikke fordi de skal være polske, men fordi sproget er en arv – og en nøgle til en del af mig selv.
+
+        Kasia Nowak
+      translation: |
+        Between two languages
+
+        When people hear my name, they often ask whether I speak Polish. The answer is yes – but it's actually more complicated than that.
+
+        I was born in Kolding. My parents came to Denmark from Gdańsk the year before I was born. At home we spoke Polish, and at nursery I spoke Danish. My first words were in Polish, I think – at least my mother claims so. As a small child I didn't think it was strange. I just switched between the two languages, the way you switch between two pairs of shoes.
+
+        That changed when I started school. I didn't want to be different, and as a teenager I was ashamed of my mother's accent when she spoke Danish with my friends. I answered her in Danish, even though she spoke Polish to me. It must have upset her, but she never said anything.
+
+        Today I'm twenty-one and studying in Copenhagen. My Danish vocabulary is far bigger than my Polish one. When I want to tell my family in Poland about my studies, I can't find the words. I actually know perfectly well what I want to say, but it comes out in Danish. My cousin laughs and says I speak Polish like a tourist.
+
+        Still, Polish isn't just a language to me. It's my grandmother's voice on the phone, the songs my father sings when he cooks, and words that I can't translate into Danish.
+
+        Three years ago I started a Polish course at the university. I thought it would be easy, but it wasn't. The grammar was much harder than I remembered. On the other hand, I discovered that I wasn't alone. In the class there were young people with Polish parents from all over the country, and apparently we had all had exactly the same experiences: the same shame, the same misunderstandings and the same joy when a grandmother praised us for our pronunciation.
+
+        Sometimes people ask me whether I feel more Danish or more Polish. I usually answer that I don't have to choose. I dream in Danish, I swear in Polish, and I do mental arithmetic in both languages.
+
+        If I have children one day, I'd like to pass the language on. Not because they have to be Polish, but because the language is a heritage – and a key to a part of myself.
+
+        Kasia Nowak
+    pronunciation:
+      title: "Language names: stress before -isk"
+      body: |
+        Most adjectives for languages end in -sk or -isk. Short ones are stressed on the first syllable: *DANSK, POLSK, ENGELSK, TYRKISK*. In longer words ending in -isk, the stress usually falls on the syllable just before -isk: *a-RA-bisk, ki-NE-sisk, so-MA-lisk, por-tu-GI-sisk*.
+
+        In *tosproget* the stress is on *to-*, and the o in *sprog* is short and open, close to the vowel in English "law". Listen and repeat.
+      items: |
+        polsk
+        arabisk
+        kinesisk
+        portugisisk
+        tosproget
+        Jeg taler både dansk og arabisk.
+    mistakes: |
+      Faktisk jeg taler polsk. => Faktisk taler jeg polsk. | When faktisk starts the sentence, the verb must come next (V2).
+      Hun er flyttet vist. => Hun er vist flyttet. | Vist is a sentence adverb: after the finite verb (er), before the participle.
+      Jeg skammer over min accent. => Jeg skammer mig over min accent. | Skamme sig is reflexive: jeg skammer mig, du skammer dig.
+    task:
+      title: Your language biography
+      mode: writing
+      body: |
+        Write a short language biography (120–150 words): which languages have been part of your life, when and where you use them, and how you feel about each one. Use faktisk, egentlig, vist and åbenbart at least once each, and start one sentence with faktisk or egentlig. Then read it aloud and check the word order after each first element.
+    exercises: |
+      fill: Jeg troede, at dansk var nemt, men det er ___ ret svært. (correcting an assumption) || faktisk / egentlig || Faktisk (or egentlig) corrects what the speaker believed before. || @tags da.sentence-adverbs
+      fill: Der er ingen lys i vinduerne. Naboerne er ___ taget på ferie. (apparently — judging from what you can see) || åbenbart / vist / tilsyneladende || A conclusion based on evidence: åbenbart (vist and tilsyneladende are also possible). || @tags da.sentence-adverbs
+      mc: Which sentence is correct? || *Faktisk er min farmor født i Tyskland. | Faktisk min farmor er født i Tyskland. | Faktisk er født min farmor i Tyskland. || Faktisk takes first place, so the finite verb follows, then the subject. || @tags da.word-order,da.sentence-adverbs
+      tf: As a teenager, Kasia always answered her mother in Polish. || false || "Jeg svarede hende på dansk, selvom hun talte polsk til mig." || @ctx reading
+      mc: What did Kasia discover on her Polish course? || *That many others had had the same experiences | That her grammar was still perfect | That she preferred Polish to Danish || "Vi havde åbenbart haft præcis de samme oplevelser." || @ctx reading @skill reading @tags da.reading
+      short: Why does Kasia want to pass Polish on to her children? || kw: arv/heritage/nøgle/key/del af/part of || "Fordi sproget er en arv – og en nøgle til en del af mig selv." || @ctx reading
+      listen: Min søn forstår åbenbart alt, hvad farmor siger på tyrkisk, men han svarer hende altid på dansk. || What has the speaker noticed? || *Her son understands Turkish but always answers in Danish | Her son doesn't understand his grandmother | Her son only speaks Turkish with his grandmother || "Han forstår åbenbart alt … men han svarer hende altid på dansk." || @tags da.listening,da.sentence-adverbs
+      listen: Jeg skulle egentlig have læst lektier i aftes, men så ringede min fætter fra Beirut, og vi snakkede i to timer. || What did the speaker do last night? || *Talked to a cousin on the phone | Did homework | Travelled to Beirut || "Skulle egentlig have læst" = was actually supposed to study; instead "vi snakkede i to timer". || @tags da.listening,da.sentence-adverbs
+      rw: Start the sentence with Faktisk :: Jeg drømmer på dansk. || Faktisk drømmer jeg på dansk. || With faktisk first, the verb comes second and the subject follows. || @tags da.word-order,da.sentence-adverbs
+      tr: Apparently the meeting has been cancelled. || Mødet er åbenbart aflyst. | Mødet er åbenbart blevet aflyst. | Åbenbart er mødet aflyst. | Mødet er vist aflyst. | Mødet er vist blevet aflyst. | Mødet er tilsyneladende aflyst. || Åbenbart (or vist) follows the finite verb er. || @tags da.sentence-adverbs
+      ask: Tell a new acquaintance about the languages in your life. Use at least one of faktisk, egentlig, vist and åbenbart. || kw: faktisk/egentlig/vist/åbenbart & sprog/dansk/engelsk/modersmål || Mit modersmål er engelsk, men jeg taler faktisk mest dansk nu. Min mand er fra Fyn, og vores datter forstår åbenbart begge sprog, selvom hun kun svarer på dansk.
+      write: Write your language biography (8–10 sentences). || min=80 || req: modersmål/sprog | faktisk/egentlig | vist/åbenbart || Mit modersmål er spansk. Jeg voksede op i Sevilla, og i skolen lærte jeg engelsk og lidt fransk. Fransk har jeg vist glemt næsten alt af. For seks år siden flyttede jeg til Aalborg på grund af min kæreste. Faktisk var dansk det sværeste sprog, jeg nogensinde har lært. I dag taler jeg dansk på arbejdet og spansk med mine forældre. Min søn er tosproget, og han skifter åbenbart helt ubesværet mellem sprogene. Egentlig er jeg lidt misundelig på ham.
+      dict: Jeg ved egentlig godt, hvad jeg vil sige, men det kommer ud på dansk.
