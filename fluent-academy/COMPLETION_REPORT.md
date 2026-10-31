@@ -13,7 +13,7 @@ Re-running the commands in the last section reproduces them.
   - They type-check, lint cleanly, build for production, and pass 66 unit/integration tests and 12 end-to-end browser runs.
 - **Curriculum:** all 20 courses (English, French, Spanish, German and Danish, levels A1–B2) are written.
   - They pass automatic content QA with 0 errors and 0 warnings and are imported into the database.
-- **Audio:** every clip the curriculum needs has been generated (38,173 clips) and checked by speech recognition. 77 % pass, 23 % are flagged for a listen, and 169 clips (95 sentences) fail.
+- **Audio:** every clip the curriculum needs has been generated (38,173 clips) and checked by speech recognition. 78 % pass, 22 % are flagged for a listen, and 169 clips (95 sentences) fail.
   - The failures hold 81 lessons back from "complete" in the manifest, so 10 of the 20 courses are fully complete (see Audio).
 - **Linguistic review:** all content is AI-drafted and has **not** been reviewed by native speakers.
   - The app labels it "Not yet reviewed" until a reviewer records a verdict in `/admin/review`.
@@ -112,8 +112,8 @@ State on 31 October 2026, after every clip was checked and every failed clip was
 | | Clips |
 |---|---|
 | Generated | 38,173 / 38,173 |
-| PASS | 29,382 (77 %) |
-| REVIEW | 8,622 (23 %) |
+| PASS | 29,723 (78 %) |
+| REVIEW | 8,281 (22 %) |
 | FAIL | 169 (0.4 %) |
 | Not yet checked | 0 |
 
@@ -126,7 +126,7 @@ The 169 failed clips are 95 distinct sentences, each in a normal and usually a s
 | English | 1 | "miss out (on)" |
 | French | 1 | "tu as lu" |
 
-The larger model is still re-checking the REVIEW clips; the score improved for about 60 % of those checked so far. This step is optional and resumable (`npm run audio:qa:escalate`): REVIEW clips count as usable, only FAIL clips hold a lesson back.
+The larger model has re-checked 850 of the 4,975 normal-speed REVIEW clips, and the score improved for 546 of them. The rest of this optional step can be resumed with `npm run audio:qa:escalate -- --only REVIEW`; it takes about 6 hours on 4 cores. REVIEW clips count as usable; only FAIL clips hold a lesson back.
 
 - **Why some courses still show as incomplete:**
   - In the manifest, 10 of the 20 courses are "complete": all English courses except B2, all French courses except A2, and all Spanish courses.
@@ -197,7 +197,7 @@ No external API calls, payments, pronunciation scores or test results have been 
      - factual statements in culture notes and readings;
      - Danish word order and particle placement.
    - Review is recorded per lesson and passage in the CMS.
-2. **Flagged audio** (see Audio). The 95 failed sentences need a listen in `/admin/audio`, and then either approval or a different voice. The Danish ones are the priority. REVIEW clips are usable; the optional larger-model re-check of them is resumable.
+2. **Flagged audio** (see Audio). The 95 failed sentences need a listen in `/admin/audio`, and then either approval or a different voice. The Danish ones are the priority. REVIEW clips are usable; the optional larger-model re-check of them is 17 % done and resumable.
 3. **Unit file size.** B1/B2 units are 42–50 KB, above the authoring target of 25–38 KB. Nothing is padded; the extra comes from longer dialogues and generous lists of accepted answers. Trimming is optional.
 4. **Taxonomy.**
    - Authors proposed finer tags, for example:
