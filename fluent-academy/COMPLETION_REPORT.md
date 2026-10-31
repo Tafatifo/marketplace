@@ -1,6 +1,6 @@
 # Fluent Academy — completion report
 
-Status as of 30 October 2026. Every number below comes from the repository itself:
+Status as of 31 October 2026. Every number below comes from the repository itself:
 - `content/manifest.json` (from `npm run content:qa`);
 - the importer's summary;
 - the test runners' output.
@@ -13,8 +13,8 @@ Re-running the commands in the last section reproduces them.
   - They type-check, lint cleanly, build for production, and pass 66 unit/integration tests and 12 end-to-end browser runs.
 - **Curriculum:** all 20 courses (English, French, Spanish, German and Danish, levels A1–B2) are written.
   - They pass automatic content QA with 0 errors and 0 warnings and are imported into the database.
-- **Audio:** every clip the curriculum needs has been generated (38,173 clips).
-  - Speech-recognition QA of those clips is still running. Until it finishes, some lessons count as "incomplete" in the manifest because of clips that failed or have not been checked yet (see Audio).
+- **Audio:** every clip the curriculum needs has been generated (38,173 clips) and checked by speech recognition. 77 % pass, 23 % are flagged for a listen, and 169 clips (95 sentences) fail.
+  - The failures hold 81 lessons back from "complete" in the manifest, so 10 of the 20 courses are fully complete (see Audio).
 - **Linguistic review:** all content is AI-drafted and has **not** been reviewed by native speakers.
   - The app labels it "Not yet reviewed" until a reviewer records a verdict in `/admin/review`.
 
@@ -107,22 +107,41 @@ Quality check:
 - Verdicts are PASS (≥ 0.85 match), REVIEW or FAIL.
 - Editors can hear any clip and record their own verdict in `/admin/audio`.
 
-State when this report was written:
+State on 31 October 2026, after every clip was checked and every failed clip was re-checked with the larger model:
 
 | | Clips |
 |---|---|
 | Generated | 38,173 / 38,173 |
-| PASS | 9,800 |
-| REVIEW | 3,153 |
-| FAIL | 139 (113 Danish, 24 German, 2 French) |
-| Not yet checked | 25,081 |
+| PASS | 29,382 (77 %) |
+| REVIEW | 8,622 (23 %) |
+| FAIL | 169 (0.4 %) |
+| Not yet checked | 0 |
 
-The QA run continues in the background (`scripts/audio/pipeline.sh`) and is resumable. On this 4-core machine it needs several more hours.
+The 169 failed clips are 95 distinct sentences, each in a normal and usually a slow version:
 
-- **Why some courses still show as incomplete:** 16 of the 20 courses are "complete" in the manifest. The other four (French A2, German A1, Danish A1, Danish A2) are held back only by failed clips; their content passes QA.
+| Language | Distinct sentences | Voice |
+|---|---|---|
+| Danish | 74 | 58 with the derived second voice, 16 with the natural voice |
+| German | 18 | all with the `de_DE-kerstin-low` voice (Piper's lower-quality German voice) |
+| English | 1 | "miss out (on)" |
+| French | 1 | "tu as lu" |
+
+The larger model is still re-checking the REVIEW clips; the score improved for about 60 % of those checked so far. This step is optional and resumable (`npm run audio:qa:escalate`): REVIEW clips count as usable, only FAIL clips hold a lesson back.
+
+- **Why some courses still show as incomplete:**
+  - In the manifest, 10 of the 20 courses are "complete": all English courses except B2, all French courses except A2, and all Spanish courses.
+  - In the other 10, 81 lessons each contain at least one failed clip:
+    - German: A1 10, A2 3, B1 1, B2 6.
+    - Danish: A1 22, A2 18, B1 10, B2 8.
+    - English B2: 2.
+    - French A2: 1.
+  - Their written content passes QA. They become complete when an editor listens to the flagged clips in `/admin/audio` and either approves them or replaces the voice.
 - **What the failures are:**
-  - Most failures are Danish. There Whisper's recognition is itself unreliable, so many are recognition errors rather than bad audio. The larger-model re-check resolves part of them.
-  - One real cause was found and fixed: Piper misread years and numbers written with thousands separators ("7.500 kroner", "1990"). Those 55 clips are regenerated with the numbers spelled out.
+  - The derived Danish voice and the low-quality German voice account for 76 of the 95 sentences. Nobody has listened to them yet. Some may be genuinely hard to understand; others are likely Whisper misrecognitions, because Danish recognition is unreliable and isolated phrases such as "in der Nähe" give it little context.
+  - One real cause was found and fixed: Piper misread years and numbers written with thousands separators ("7.500 kroner", "1990"). The 55 affected clips were regenerated with the numbers spelled out.
+- **What would reduce the failures:**
+  - A second natural Danish voice, if an openly licensed one becomes available.
+  - A medium-quality female German voice in place of `kerstin-low`. All German female-speaker clips would then need regenerating.
 - **Danish voices:** only one open Danish voice exists (male). The second dialogue voice is derived from it by pitch and formant shifting, and lessons use the natural voice for single speakers.
 - **What QA measures:** it confirms the words spoken, not naturalness.
 
@@ -178,7 +197,7 @@ No external API calls, payments, pronunciation scores or test results have been 
      - factual statements in culture notes and readings;
      - Danish word order and particle placement.
    - Review is recorded per lesson and passage in the CMS.
-2. **Audio QA in progress** (see Audio). After it finishes, remaining FAIL and REVIEW clips need a listen in `/admin/audio`. The Danish ones are the priority.
+2. **Flagged audio** (see Audio). The 95 failed sentences need a listen in `/admin/audio`, and then either approval or a different voice. The Danish ones are the priority. REVIEW clips are usable; the optional larger-model re-check of them is resumable.
 3. **Unit file size.** B1/B2 units are 42–50 KB, above the authoring target of 25–38 KB. Nothing is padded; the extra comes from longer dialogues and generous lists of accepted answers. Trimming is optional.
 4. **Taxonomy.**
    - Authors proposed finer tags, for example:
