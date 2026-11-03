@@ -1,0 +1,370 @@
+unit: 8
+title: En voyage
+theme: Travel
+description: Get around by public transport, talk about your plans with the near future, and book a hotel room using polite questions.
+objectives:
+  - Talk about transport with en, à and prendre, and buy a ticket
+  - Talk about plans with the near future (aller + infinitive)
+  - Book a room and ask questions with est-ce que and inversion
+canDo:
+  - I can say how I travel and buy a train ticket.
+  - I can understand times and platforms in station announcements.
+  - I can talk about my plans for the weekend or the holidays.
+  - I can book a hotel room and ask polite questions.
+review: |
+  fill: Mes parents vont à Rome ___ avion. || en || Vehicles you get inside take en: en avion. || @tags fr.prepositions-place
+  fill: Vous ___ le bus ou le métro ? || prenez || Prendre is irregular: vous prenez. || @tags fr.present-irregular @hint prendre
+  mc: "I'm going to visit Nantes" is… || Je vais visite Nantes. | *Je vais visiter Nantes. | Je visite aller Nantes. || Near future: aller (conjugated) + infinitive. || @tags fr.futur-proche
+  fill: Samedi, nous ___ faire une randonnée. || allons || Near future: nous allons + infinitive. || @tags fr.futur-proche
+  rw: Make the sentence negative :: Je vais prendre la voiture. || Je ne vais pas prendre la voiture. || Ne… pas goes around aller, not around the infinitive. || @tags fr.futur-proche,fr.negation
+  rw: Rewrite with inversion :: Vous partez à quelle heure ? || À quelle heure partez-vous ? || Question word first, then verb + hyphen + vous. || @tags fr.questions
+  mc: Which question uses est-ce que correctly? || Est-ce vous avez des billets ? | *Est-ce que vous avez des billets ? | Est-ce que avez-vous des billets ? || Est-ce que + normal word order. Don't mix it with inversion. || @tags fr.questions
+  tr: We're going to take the train tomorrow. || Demain, nous allons prendre le train. | Nous allons prendre le train demain. | On va prendre le train demain. | Demain, on va prendre le train. || Near future: nous allons / on va + prendre. || @tags fr.futur-proche
+  listen: Le train pour Lille part à quinze heures vingt, voie deux. || When does the train leave? || 3:02 p.m. | *3:20 p.m. | 5:20 p.m. || Quinze heures vingt = 15:20, twenty past three in the afternoon.
+  listen: Bonsoir, avez-vous une chambre pour deux personnes, pour une nuit ? || How many nights does the guest want? || *one | two | three || "Pour deux personnes, pour une nuit" — two people, one night.
+  ask: Tell a friend about your plans for next weekend — where you're going, how you'll travel and two things you're going to do. || kw: je vais/on va/nous allons & en train/en voiture/en bus/à vélo/à pied/en avion || Ce week-end, je vais à Bruges en train. Je vais visiter la ville et manger des gaufres.
+  write: Write an email to a friend about a trip you are planning — where, when, how you'll travel, where you'll stay and what you'll do. || min=40 || req: je vais/nous allons/on va | en train/en voiture/en avion/en bus/à vélo | hôtel/chambre || Salut Inès ! La semaine prochaine, nous allons partir à Marseille en train. Nous allons réserver une chambre dans un petit hôtel près du port. Samedi, on va visiter la ville et dimanche, on va nager à la plage. Est-ce que tu veux venir avec nous ?
+lessons:
+  - title: Getting around
+    summary: Say how you travel with en, à and prendre, buy a train ticket and understand station announcements.
+    minutes: 40
+    skills: [vocabulary, listening, speaking]
+    tags: [fr.prepositions-place, fr.present-irregular]
+    objectives:
+      - Say how you travel with en, à and prendre
+      - Buy a train ticket (single or return, times, price)
+      - Understand times and platforms in station announcements
+    intro: |
+      Getting around is the first challenge of any trip. French uses **en** for most vehicles — **en train**, **en bus** — but **à** when you travel on your own two feet or on a bike: **à pied**, **à vélo**. You will also buy a train ticket and understand station announcements.
+    vocab: |
+      le train | train | n | Je vais à Lyon en train. | I'm going to Lyon by train. | g: m | n: The high-speed train is le TGV.
+      le bus | bus | n | Je prends le bus tous les matins. | I take the bus every morning. | g: m | n: A long-distance coach is un car.
+      le métro | underground; subway | n | À Paris, je prends le métro. | In Paris, I take the metro. | g: m
+      la voiture | car | n | Ils vont au travail en voiture. | They go to work by car. | g: f
+      l'avion | plane | n | Nous allons à Montréal en avion. | We're going to Montreal by plane. | g: m
+      à pied | on foot | expr | Le musée est à dix minutes à pied. | The museum is ten minutes' walk away.
+      à vélo | by bike | expr | Elle va à l'école à vélo. | She goes to school by bike. | n: You'll also hear en vélo in everyday speech.
+      prendre | to take | v | Nous prenons le train de huit heures. | We're taking the eight o'clock train. | n: Irregular: je prends, nous prenons, ils prennent.
+      le billet | ticket | n | Je voudrais un billet pour Marseille. | I'd like a ticket to Marseille. | g: m | c: un billet de train; un ticket de métro
+      un aller simple | a single (one-way) ticket | n | Un aller simple pour Lille, s'il vous plaît. | A single to Lille, please. | g: m
+      un aller-retour | a return (round-trip) ticket | n | Un aller-retour coûte quarante euros. | A return costs forty euros. | g: m
+      la voie | platform; track | n | Le train part de la voie trois. | The train leaves from platform three. | g: f | n: You'll also hear le quai (platform).
+      partir / arriver | to leave / to arrive | v | Le train part à dix heures et arrive à midi. | The train leaves at ten and arrives at noon. | n: Partir is irregular: il part, ils partent. Arriver is a regular -er verb.
+      le départ / l'arrivée | departure / arrival | n | Regardez le tableau des départs. | Look at the departures board. | g: m / f
+    grammar:
+      title: "En train, à pied — transport and prendre"
+      body: |
+        To say **how** you travel, French uses two prepositions:
+
+        - **en** + a vehicle you get **inside**: *en train, en bus, en métro, en voiture, en avion, en taxi*.
+        - **à** + something you sit **on**, or your own feet: *à pied, à vélo, à moto, à cheval*.
+
+        Another very common way is **prendre** + **le / la / l'**: *Je prends le bus. Elle prend le train de 8 h 10. Vous prenez l'avion ?* Prendre is irregular — note the double n in *ils prennent*.
+
+        For **destinations**, use **à** + city (*à Lyon*) and the contractions you know: *au centre-ville, à la gare*. For countries: **en** France, **au** Canada, **aux** États-Unis.
+
+        At the station, times are given with the 24-hour clock: *Le train pour Bordeaux part à 14 h 32, voie 5.*
+      table: |
+        Subject | prendre | Example
+        je | prends | Je prends le métro.
+        tu | prends | Tu prends le bus ?
+        il / elle / on | prend | Elle prend le train.
+        nous | prenons | Nous prenons un taxi.
+        vous | prenez | Vous prenez l'avion ?
+        ils / elles | prennent | Ils prennent le tram.
+      examples: |
+        Je vais au travail en métro, mais je rentre à pied. | I go to work by metro, but I walk home.
+        Nous prenons le train pour Nantes. | We're taking the train to Nantes.
+        Mes enfants vont à l'école à vélo. | My children go to school by bike. | à + vélo
+        Un aller-retour pour Lyon, s'il vous plaît. | A return to Lyon, please.
+      tip: Use en train for the way you travel and le train for the thing you take — je vais à Lyon en train, je prends le train.
+    dialogue:
+      title: Au guichet
+      setting: At the ticket office of a Paris station, Kofi buys a train ticket to Dijon.
+      speakers: G=La guichetière/f; K=Kofi/m
+      lines: |
+        G: Bonjour, monsieur. Je vous écoute. | Hello, sir. How can I help?
+        K: Bonjour. Je voudrais un billet pour Dijon, s'il vous plaît. | Hello. I'd like a ticket to Dijon, please.
+        G: Un aller simple ou un aller-retour ? | A single or a return?
+        K: Un aller-retour. Je pars aujourd'hui et je rentre dimanche. | A return. I'm leaving today and coming back on Sunday.
+        G: Il y a un train à quatorze heures douze. | There's a train at 14:12.
+        K: Il arrive à quelle heure ? | What time does it arrive?
+        G: À quinze heures cinquante. | At 15:50.
+        K: Parfait. Ça fait combien ? | Perfect. How much is it?
+        G: Soixante-quatre euros, s'il vous plaît. | Sixty-four euros, please.
+        K: Voilà. Le train part de quelle voie ? | Here you are. Which platform does the train leave from?
+        G: La voie est affichée vingt minutes avant le départ. | The platform is shown twenty minutes before departure.
+        K: D'accord, merci beaucoup ! | OK, thank you very much!
+    pronunciation:
+      title: "Nasal vowels: en train, en avion"
+      body: |
+        **En** is the nasal vowel [ɑ̃]: *en train* [ɑ̃.tʁɛ̃], *en voiture* [ɑ̃.vwa.tyʁ]. Before a vowel, en links with an [n]: *en avion* [ɑ̃.na.vjɔ̃]. *Train* ends in the nasal [ɛ̃] and *avion* in [ɔ̃].
+
+        A double **nn** cancels the nasal sound: *ils prennent* [il.pʁɛn] — compare *prendre* [pʁɑ̃dʁ].
+      items: |
+        en train
+        en avion
+        en voiture
+        ils prennent
+        à pied
+        un aller-retour
+    culture:
+      title: Trains and transport in France
+      body: |
+        High-speed trains (**TGV**) link Paris with most big French cities in a few hours, and regional trains (**TER**) serve smaller towns. Tickets are usually cheaper if you book early. At big stations the platform is often shown on the departure board only about twenty minutes before the train leaves.
+
+        In cities, people get around by metro, tram, bus and bike. Many cities have self-service bikes (**vélos en libre-service**) that you can rent with a phone or a card.
+    mistakes: |
+      Je vais au travail en pied. => Je vais au travail à pied. | Walking takes à: à pied.
+      Ils prendent le train. => Ils prennent le train. | Prendre is irregular: ils prennent (double n).
+      Un billet à Marseille, s'il vous plaît. => Un billet pour Marseille, s'il vous plaît. | A ticket to a place is un billet pour…
+    task:
+      title: Buy a ticket
+      mode: interaction
+      body: |
+        Role-play a visit to a station ticket office. Ask for a return ticket to a French city, ask the departure and arrival times, the price and the platform, and pay. Then swap roles and read out a station announcement for your partner to note down.
+    exercises: |
+      fill: Je vais à Bordeaux ___ train. || en || Vehicles you get inside take en: en train. || @tags fr.prepositions-place
+      fill: Nous ___ le métro tous les jours. || prenons || Prendre is irregular: nous prenons. || @tags fr.present-irregular @hint prendre
+      fill: Un billet ___ Nice, s'il vous plaît. || pour || A ticket to a place is un billet pour + place. || @tags fr.prepositions-place,fr.ordering
+      fill: Les touristes ___ le bus devant la gare. || prennent || Prendre is irregular: ils prennent, with a double n. || @tags fr.present-irregular @hint prendre
+      mc: Which phrase is correct? || *à vélo | à voiture | en pied || Bikes take à (à vélo); voiture takes en (en voiture) and pied takes à (à pied). || @tags fr.prepositions-place
+      mc: You want a return ticket. You ask for… || un aller simple | *un aller-retour | un retour simple || Un aller-retour = a return ticket; un aller simple = a single. || @skill vocabulary @tags fr.vocabulary
+      mc: When does Kofi's train arrive in Dijon? || 14:12 | *15:50 | 16:05 || "À quinze heures cinquante." The train leaves at 14:12. || @ctx dialogue @skill reading @tags fr.reading
+      tf: Kofi buys a single ticket. || false || He asks for "un aller-retour" — he's coming back on Sunday. || @ctx dialogue
+      short: How much is Kofi's ticket? || kw: 64/soixante-quatre/sixty-four/sixty four || "Soixante-quatre euros." || @ctx dialogue
+      rw: Start with "Nous" :: Je prends le train et j'arrive à midi. || Nous prenons le train et nous arrivons à midi. || Nous prenons (irregular), nous arrivons (regular -ons). || @tags fr.present-irregular,fr.present-er
+      tr: I go to work by car. || Je vais au travail en voiture. | Je vais travailler en voiture. || En + vehicle: en voiture. || @tags fr.prepositions-place,fr.aller
+      listen: Le train pour Strasbourg part à dix-sept heures quarante, voie six. || Which platform does the train leave from? || 4 | *6 | 7 || "Voie six" — platform 6. It leaves at 17:40. || @tags fr.numbers
+      listen: @dialogue || When is the platform shown? || at 14:00 | *twenty minutes before departure | two hours before departure || "La voie est affichée vingt minutes avant le départ."
+      dict: Je prends le bus et ensuite je vais à pied.
+      ask: At the ticket office, ask for a ticket to a city (single or return), then ask the departure time and the price. || kw: billet/aller simple/aller-retour & pour & quelle heure & combien || Bonjour, je voudrais un aller-retour pour Rennes, s'il vous plaît. Le train part à quelle heure ? Ça fait combien ?
+      write: Write a message to a friend explaining how you get to work or school every day — transport and times. || min=25 || req: en/à pied/à vélo | je prends/je vais || Salut Léo ! Le matin, je prends le bus à sept heures et demie. Ensuite, je prends le métro jusqu'au bureau. Le soir, quand il fait beau, je rentre à pied. Ça prend quarante minutes !
+
+  - title: Plans for the weekend
+    summary: Talk about what you're going to do with the near future (aller + infinitive) and time expressions.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [fr.futur-proche]
+    objectives:
+      - Talk about your plans with aller + infinitive
+      - Use time expressions such as demain, ce week-end and la semaine prochaine
+      - Make the near future negative
+    intro: |
+      To talk about plans — tonight, this weekend, next summer — French uses a simple structure: **aller + infinitive**. **Je vais visiter Lyon**, **on va faire du vélo**. You already know aller; now you can use it to talk about the future.
+    vocab: |
+      demain | tomorrow | adv | Demain, je vais travailler à la maison. | Tomorrow, I'm going to work from home. | c: demain matin; demain soir
+      ce week-end | this weekend | expr | Ce week-end, nous allons voir mes parents. | This weekend, we're going to see my parents.
+      la semaine prochaine | next week | expr | La semaine prochaine, elle va commencer un nouveau travail. | Next week, she's going to start a new job. | n: Also: le mois prochain, l'année prochaine.
+      bientôt | soon | adv | Je vais bientôt partir en vacances. | I'm going on holiday soon. | n: It goes between aller and the infinitive.
+      visiter | to visit (a place) | v | On va visiter le château. | We're going to visit the castle. | n: For people, say aller voir: je vais voir ma tante.
+      voir | to see | v | Tu vas voir un film ce soir ? | Are you going to see a film tonight? | n: Irregular: je vois, nous voyons.
+      partir en vacances | to go on holiday | expr | Nous allons partir en vacances en juillet. | We're going on holiday in July.
+      se reposer | to rest | v | Dimanche, je vais me reposer. | On Sunday, I'm going to rest. | n: The pronoun matches the subject: je vais me reposer, tu vas te reposer.
+      faire la grasse matinée | to have a lie-in | expr | Samedi, je vais faire la grasse matinée ! | On Saturday, I'm going to have a lie-in!
+      la plage | beach | n | Ils vont passer la journée à la plage. | They're going to spend the day at the beach. | g: f
+      la campagne | countryside | n | Ce week-end, on va à la campagne. | This weekend, we're going to the countryside. | g: f
+      le château | castle; chateau | n | Le château est ouvert le dimanche. | The castle is open on Sundays. | g: m | pl: les châteaux
+      inviter | to invite | v | Je vais inviter des amis à dîner. | I'm going to invite some friends to dinner.
+      le projet | plan; project | n | Tu as des projets pour le week-end ? | Do you have any plans for the weekend? | g: m
+    grammar:
+      title: "The near future: aller + infinitive"
+      body: |
+        To talk about what you are **going to do**, use the present of **aller** + an **infinitive**:
+
+        - *Je **vais visiter** Lyon.* (I'm going to visit Lyon.)
+        - *Nous **allons faire** du vélo.* (We're going to go cycling.)
+
+        Only aller changes; the second verb stays in the infinitive. This **futur proche** is the most common way to talk about plans in spoken French.
+
+        **Negative:** ne… pas goes around **aller**: *Je **ne vais pas** travailler demain.* With a reflexive verb, the pronoun stays just before the infinitive and matches the subject: *Je vais **me** reposer. Tu vas **te** coucher tard ?*
+
+        Short adverbs like *bientôt* go between aller and the infinitive: *Il va **bientôt** arriver.* Time expressions usually go at the start or the end: *ce soir, demain, ce week-end, samedi prochain, la semaine prochaine, l'été prochain*.
+
+        Compare: *Je vais à Paris* (aller + place = I'm going to Paris) and *Je vais visiter Paris* (aller + infinitive = I'm going to visit Paris).
+      table: |
+        Subject | aller + infinitive | Negative
+        je | vais visiter Lyon | je ne vais pas visiter Lyon
+        tu | vas partir demain | tu ne vas pas partir demain
+        il / elle / on | va faire du ski | on ne va pas faire de ski
+        nous | allons dîner chez Paul | nous n'allons pas dîner chez Paul
+        vous | allez voir le film | vous n'allez pas voir le film
+        ils / elles | vont se reposer | ils ne vont pas se reposer
+      examples: |
+        Samedi, je vais faire la grasse matinée. | On Saturday, I'm going to have a lie-in.
+        Qu'est-ce que vous allez faire ce week-end ? | What are you going to do this weekend?
+        Nous n'allons pas partir en vacances cette année. | We're not going on holiday this year. | ne… pas around aller
+        Elle va se reposer à la campagne. | She's going to rest in the countryside. | reflexive pronoun before the infinitive
+      tip: Je vais à… means going somewhere; je vais + infinitive means going to do something — je vais à la plage, je vais nager.
+    dialogue:
+      title: Des projets pour le week-end ?
+      setting: Friday afternoon in an office in Toulouse. Paul asks his colleague Sarah about her plans.
+      speakers: P=Paul/m; S=Sarah/f
+      lines: |
+        P: Alors, Sarah, tu as des projets pour le week-end ? | So, Sarah, do you have any plans for the weekend?
+        S: Oui ! Je vais partir à Carcassonne avec ma copine. | Yes! I'm going to Carcassonne with my girlfriend.
+        P: Super ! Vous allez visiter la cité médiévale ? | Great! Are you going to visit the medieval city?
+        S: Oui, et on va dîner au restaurant. | Yes, and we're going to have dinner at a restaurant.
+        P: Vous allez rentrer quand ? | When are you going to come back?
+        S: Dimanche soir, en train. Et toi ? | On Sunday evening, by train. And you?
+        P: Moi, je ne vais pas partir. | I'm not going away.
+        S: Tu vas rester à la maison ? | Are you going to stay at home?
+        P: Oui, je vais me reposer et faire la grasse matinée ! | Yes, I'm going to rest and have a lie-in!
+        S: Et dimanche ? | And on Sunday?
+        P: Ma fille va venir déjeuner avec ses enfants. | My daughter is going to come for lunch with her children.
+        S: C'est un bon programme ! Bon week-end ! | That sounds like a good plan! Have a nice weekend!
+    pronunciation:
+      title: Rhythm in the near future
+      body: |
+        In the near future, **aller** is short and unstressed, and the stress falls on the last syllable of the infinitive: *je vais par**tir***, *on va dî**ner***. Say the whole group as one word.
+
+        The **-er** ending of the infinitive sounds [e], exactly like the **-ez** of vous: *visiter* and *visitez* sound the same. And don't forget the liaison in *nous allons* [nu.za.lɔ̃] and *vous allez* [vu.za.le].
+      items: |
+        je vais partir
+        tu vas voir
+        on va dîner
+        nous allons visiter
+        vous allez rentrer
+        ils vont se reposer
+    culture:
+      title: Weekends and holidays
+      body: |
+        Employees in France have at least **five weeks** of paid holiday a year (**les congés payés**), and many families go away in July or August, during the long summer school holidays (**les grandes vacances**).
+
+        A short break in another region is very popular: *un week-end à la campagne*, at the seaside or in a historic town like Carcassonne, with its medieval walled city.
+    mistakes: |
+      Je vais visite Paris. => Je vais visiter Paris. | After aller, use the infinitive.
+      Je vais ne pas travailler. => Je ne vais pas travailler. | In standard French, ne… pas goes around aller.
+      Je vais se reposer. => Je vais me reposer. | The reflexive pronoun matches the subject: je vais me reposer.
+    task:
+      title: My weekend plans
+      mode: speaking
+      body: |
+        Say five things you are going to do this weekend and one thing you are not going to do, with a day or time for each (samedi matin, dimanche soir…). Then compare plans with a partner, or try the "Making weekend plans" scenario with the AI coach.
+    exercises: |
+      fill: Demain, je ___ visiter le musée. || vais || Near future: je vais + infinitive. || @tags fr.futur-proche
+      fill: Nous ___ partir en vacances en août. || allons || Near future: nous allons + infinitive. || @tags fr.futur-proche @hint aller
+      fill: Tu vas ___ reposer ce week-end ? || te || The reflexive pronoun matches tu: tu vas te reposer. || @tags fr.futur-proche,fr.reflexive
+      fill: Je ne ___ pas travailler samedi. || vais || Ne… pas goes around aller: je ne vais pas travailler. || @tags fr.futur-proche,fr.negation
+      mc: "We're going to eat at the restaurant." || Nous allons mangeons au restaurant. | *Nous allons manger au restaurant. | Nous mangeons aller au restaurant. || Conjugate aller and keep the second verb in the infinitive: nous allons manger. || @tags fr.futur-proche
+      mc: Choose the correct negative. || Je vais ne pas sortir. | *Je ne vais pas sortir. | Je ne vais sortir pas. || Ne… pas goes around aller. || @tags fr.futur-proche,fr.negation
+      mc: Where is Sarah going this weekend? || to Toulouse | *to Carcassonne | to her daughter's || "Je vais partir à Carcassonne avec ma copine." || @ctx dialogue @skill reading @tags fr.reading
+      tf: Paul is going to stay at home this weekend. || true || "Moi, je ne vais pas partir" — he's going to rest and have a lie-in. || @ctx dialogue
+      rw: Put the sentence in the near future :: Je fais du vélo samedi. || Je vais faire du vélo samedi. || Aller + infinitive: je vais faire. || @tags fr.futur-proche
+      rw: Make the sentence negative :: Nous allons dîner chez Paul. || Nous n'allons pas dîner chez Paul. || Ne… pas around allons, with n' before the vowel. || @tags fr.futur-proche,fr.negation
+      listen: Ce soir, je vais rester à la maison, mais demain, je vais faire une randonnée. || What is the speaker going to do tomorrow? || stay at home | *go hiking | go to the cinema || "Demain, je vais faire une randonnée." Tonight, the speaker is staying at home.
+      listen: @dialogue || Who is coming to Paul's for lunch on Sunday? || his son | *his daughter and her children | Sarah || "Ma fille va venir déjeuner avec ses enfants."
+      dict: Ce week-end, nous allons visiter un château.
+      ask: A colleague asks "Qu'est-ce que tu vas faire ce week-end ?". Say three things you're going to do and one thing you're not going to do. || kw: je vais/on va/nous allons & je ne vais pas/on ne va pas/nous n'allons pas || Samedi, je vais faire du vélo et voir des amis. Dimanche, je vais faire la grasse matinée. Je ne vais pas travailler !
+      write: Write a message to a friend about your holiday plans — where you're going, how, and what you're going to do. || min=35 || req: je vais/nous allons/on va | en train/en voiture/en avion/en bus/à vélo || Salut Mia ! En juillet, nous allons partir en Bretagne en train. Nous allons faire du vélo, nager et visiter Saint-Malo. Le soir, on va manger des crêpes ! Je ne vais pas travailler pendant deux semaines. Et toi, qu'est-ce que tu vas faire ?
+
+  - title: Booking a room
+    summary: Book a hotel room and ask polite questions with est-ce que and inversion.
+    minutes: 40
+    skills: [speaking, grammar, reading]
+    tags: [fr.questions, fr.ordering]
+    objectives:
+      - Book a hotel room and give the details (people, nights)
+      - Ask questions in three ways — intonation, est-ce que and inversion
+      - Understand key information at reception (breakfast, key, Wi-Fi)
+    intro: |
+      Booking a room by phone or at reception is a classic travel situation — and a good moment for polite, formal French. You'll learn three ways to ask a question: with your voice (**Vous avez une chambre ?**), with **est-ce que** (**Est-ce que vous avez une chambre ?**) and with inversion (**Avez-vous une chambre ?**).
+    vocab: |
+      réserver | to book; to reserve | v | Je voudrais réserver une chambre. | I'd like to book a room. | c: faire une réservation; réserver en ligne
+      la chambre simple / double | single / double room | n | Une chambre double pour deux nuits, s'il vous plaît. | A double room for two nights, please. | g: f
+      la nuit | night | n | La chambre coûte quatre-vingts euros la nuit. | The room costs eighty euros a night. | g: f
+      le petit-déjeuner compris | breakfast included | expr | Le petit-déjeuner est compris ? | Is breakfast included? | n: Compris = included.
+      libre | available; free | adj | Vous avez une chambre libre pour ce soir ? | Do you have a room available for tonight? | n: Opposite: complet (full).
+      complet | full; fully booked | adj | Désolé, l'hôtel est complet. | Sorry, the hotel is fully booked. | n: Feminine: complète.
+      la clé | key | n | Voici votre clé. Chambre douze. | Here's your key. Room twelve. | g: f | n: Also spelt clef.
+      l'ascenseur | lift; elevator | n | L'ascenseur est à droite. | The lift is on the right. | g: m
+      la réception | reception | n | La réception est ouverte jour et nuit. | Reception is open day and night. | g: f
+      le nom | name; surname | n | C'est à quel nom ? | What name is it under? | g: m | n: First name: le prénom.
+      est-ce que | (turns a sentence into a question) | expr | Est-ce que vous avez le wifi ? | Do you have Wi-Fi? | n: Before a vowel: est-ce qu'il…, est-ce qu'on…
+      le wifi | Wi-Fi | n | Le wifi est gratuit. | The Wi-Fi is free. | g: m | n: Gratuit = free of charge.
+      le séjour | stay | n | Bon séjour ! | Enjoy your stay! | g: m
+      jusqu'à quelle heure ? | until what time? | expr | Le petit-déjeuner est servi jusqu'à quelle heure ? | Until what time is breakfast served?
+    grammar:
+      title: Three ways to ask a question
+      body: |
+        French has three ways to ask a yes/no question. They mean the same thing; the difference is the level of formality.
+
+        1. **Intonation** (everyday speech): keep the normal word order and raise your voice at the end — *Vous avez une chambre ?*
+        2. **Est-ce que** (neutral, spoken or written): put *est-ce que* at the start — ***Est-ce que** vous avez une chambre ?* Before a vowel: *est-ce qu'il…*
+        3. **Inversion** (formal, mostly written): put the subject pronoun **after** the verb, with a hyphen — ***Avez-vous** une chambre ?* If the verb ends in a vowel, add **-t-** before il, elle or on: ***A-t-il** une réservation ?*
+
+        With a **question word** (*où, quand, comment, combien, à quelle heure*), the same patterns work: *Vous arrivez quand ?* — ***Quand est-ce que** vous arrivez ?* — ***Quand arrivez-vous** ?*
+
+        At a hotel, **est-ce que** and **inversion with vous** are the safest choices — polite and clear.
+      table: |
+        Style | Yes/no question | With a question word
+        intonation | Vous avez une chambre ? | Vous arrivez quand ?
+        est-ce que | Est-ce que vous avez une chambre ? | Quand est-ce que vous arrivez ?
+        inversion | Avez-vous une chambre ? | Quand arrivez-vous ?
+      examples: |
+        Est-ce que le petit-déjeuner est compris ? | Is breakfast included?
+        Avez-vous une chambre libre pour ce soir ? | Do you have a room available for tonight? | inversion
+        À quelle heure est-ce que le petit-déjeuner commence ? | What time does breakfast start?
+        Combien coûte la chambre ? | How much is the room?
+      tip: In inversion, add -t- when the verb ends in a vowel and the pronoun is il, elle or on — a-t-il, va-t-elle, parle-t-on.
+    dialogue:
+      title: À la réception
+      setting: Evening at a small hotel in Annecy. Mrs Okafor arrives without a booking.
+      speakers: O=Mme Okafor/f; R=Le réceptionniste/m
+      lines: |
+        O: Bonsoir, monsieur. Avez-vous une chambre libre ? | Good evening. Do you have a room available?
+        R: Bonsoir, madame. Pour combien de personnes ? | Good evening, madam. For how many people?
+        O: Pour une personne, pour deux nuits. | For one person, for two nights.
+        R: J'ai une chambre simple avec douche. | I have a single room with a shower.
+        O: Elle coûte combien ? | How much is it?
+        R: Soixante-dix euros la nuit. | Seventy euros a night.
+        O: Est-ce que le petit-déjeuner est compris ? | Is breakfast included?
+        R: Oui, il est servi de sept heures à dix heures. | Yes, it's served from seven to ten.
+        O: Parfait. Et est-ce qu'il y a le wifi ? | Perfect. And is there Wi-Fi?
+        R: Oui, il est gratuit. C'est à quel nom ? | Yes, it's free. What name is it under?
+        O: Okafor. O, K, A, F, O, R. | Okafor. O, K, A, F, O, R.
+        R: Merci. Voici votre clé, chambre douze. Bon séjour ! | Thank you. Here's your key, room twelve. Enjoy your stay!
+    pronunciation:
+      title: Question intonation
+      body: |
+        A yes/no question with no question word **rises** at the end: *Vous avez une chambre ?* ↗. The same is true with est-ce que and inversion, although the rise is often smaller because the words already show it's a question.
+
+        **Est-ce que** is said quickly as two syllables: [ɛs.kə]. In inversion, link the verb and the pronoun: *avez-vous* [a.ve.vu], *a-t-il* [a.til].
+      items: |
+        Vous avez une chambre ?
+        Est-ce que c'est compris ?
+        Avez-vous le wifi ?
+        Où est l'ascenseur ?
+        À quelle heure ?
+        A-t-il une réservation ?
+    culture:
+      title: Staying in hotels in France
+      body: |
+        French hotels are rated from one to five stars (**étoiles**). Breakfast is often not included in the room price, so it's worth asking. Most towns also charge a small tourist tax (**la taxe de séjour**) per person and per night, which is added to your bill.
+
+        In the countryside, **chambres d'hôtes** — rooms in a private house, with breakfast — are a popular alternative to hotels.
+    mistakes: |
+      Est-ce vous avez une chambre ? => Est-ce que vous avez une chambre ? | Don't forget que: est-ce que.
+      Avez vous une chambre ? => Avez-vous une chambre ? | In inversion, join the verb and the pronoun with a hyphen.
+      A il une réservation ? => A-t-il une réservation ? | When the verb ends in a vowel, add -t- before il, elle or on.
+    task:
+      title: Book a room by phone
+      mode: interaction
+      body: |
+        Phone a hotel (role-play with a partner). Ask for a room for your dates and number of people, ask the price and one question about breakfast or Wi-Fi, and spell your name. Use est-ce que at least once and inversion at least once. When you feel ready, try the "Booking a hotel room" scenario with the AI coach.
+    exercises: |
+      fill: ___ vous avez une chambre libre ? || est-ce que || Est-ce que at the start turns the sentence into a question. || @tags fr.questions
+      fill: ___-vous le wifi ? || avez || Inversion: verb + hyphen + vous: avez-vous. || @tags fr.questions,fr.avoir @hint avoir
+      fill: Quand est-ce ___ vous arrivez ? || que || Question word + est-ce que + normal word order. || @tags fr.questions,fr.question-words
+      mc: Which question is the most formal? || Vous avez une chambre ? | Est-ce que vous avez une chambre ? | *Avez-vous une chambre ? || Inversion is the most formal; intonation alone is the most informal. || @tags fr.questions,fr.register
+      mc: Choose the correct inversion. || Parle il anglais ? | *Parle-t-il anglais ? | Il parle-t-il anglais ? || The verb ends in a vowel, so add -t- before il, with hyphens: parle-t-il. || @tags fr.questions
+      mc: How much is Mrs Okafor's room per night? || €17 | *€70 | €80 || "Soixante-dix euros la nuit." || @ctx dialogue @skill reading @tags fr.reading
+      tf: Breakfast is included in the price. || true || She asks "Est-ce que le petit-déjeuner est compris ?" and the receptionist says "Oui". || @ctx dialogue
+      short: How many nights is Mrs Okafor staying? || kw: 2/deux/two || "Pour une personne, pour deux nuits." || @ctx dialogue
+      rw: Rewrite with est-ce que :: Vous acceptez les chiens ? || Est-ce que vous acceptez les chiens ? || Put est-ce que at the start; the word order doesn't change. || @tags fr.questions
+      rw: Rewrite with inversion :: Vous avez une chambre double ? || Avez-vous une chambre double ? || Verb + hyphen + vous. || @tags fr.questions
+      listen: Le petit-déjeuner est servi de sept heures à dix heures et demie, au rez-de-chaussée. || Until what time is breakfast served? || 10:00 | *10:30 | 7:30 || "De sept heures à dix heures et demie" — from 7:00 to 10:30.
+      listen: @dialogue || What is Mrs Okafor's room number? || 2 | *12 | 20 || "Voici votre clé, chambre douze."
+      dict: Est-ce que le petit-déjeuner est compris ?
+      ask: Phone a hotel. Ask for a room for two people for three nights and ask one question about breakfast or Wi-Fi. Use est-ce que or inversion. || kw: chambre & nuit & est-ce que/avez-vous/y a-t-il || Bonjour, avez-vous une chambre double pour trois nuits ? Est-ce que le petit-déjeuner est compris ?
+      write: Write an email to a hotel to book a room — dates, number of people and nights — and ask two questions (breakfast, parking, Wi-Fi…). || min=35 || req: réserver | nuit | est-ce que/avez-vous || Madame, Monsieur, je voudrais réserver une chambre double pour deux personnes, du 12 au 15 août (trois nuits). Est-ce que le petit-déjeuner est compris ? Avez-vous un parking ? Je vais arriver vers dix-huit heures. Merci d'avance. Cordialement, Marta Silva

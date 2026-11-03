@@ -1,0 +1,388 @@
+unit: 2
+title: Le monde du travail
+theme: Work and careers
+description: Take part in a job interview, write professional emails and follow a meeting in a formal register, and talk about changing careers, using the present conditional and connectors of addition, contrast, cause and consequence.
+free: true
+objectives:
+  - Answer and ask questions in a job interview, using the conditional for politeness, wishes and imagined situations
+  - Write and understand formal emails and follow a simple meeting, with the right formulas and connectors
+  - Explain the causes and consequences of a career change
+canDo:
+  - I can present my strengths in a job interview and ask polite questions about the position.
+  - I can write a formal email to postpone a meeting or ask for information.
+  - I can link ideas with connectors such as en effet, cependant and par conséquent.
+  - I can explain why someone changed careers and what happened next.
+review: |
+  fill: Est-ce que vous ___ (pouvoir) m'envoyer l'ordre du jour ? || pourriez || A polite request: conditional of pouvoir, vous pourriez. || @tags fr.conditionnel
+  fill: Nous ___ (aimer) reporter la réunion à jeudi. || aimerions || Nous + conditional: aimer- + -ions. || @tags fr.conditionnel
+  mc: Which request is the most polite? || Je veux un rendez-vous. | *Je voudrais un rendez-vous, s'il vous plaît. | Donnez-moi un rendez-vous. || The conditional (je voudrais) + s'il vous plaît softens the request. || @tags fr.conditionnel,fr.register
+  fill: Le directeur est absent ; par ___, la réunion est reportée. || conséquent || Par conséquent introduces a consequence (as a result). || @tags fr.connectors
+  mc: "J'ai trouvé ce poste ___ mon réseau." || à cause de | *grâce à | parce que || A positive cause + noun: grâce à. Parce que needs a full clause. || @tags fr.connectors
+  fill: ___ tu es déjà au bureau, tu peux ouvrir la salle de réunion ? || Puisque / Comme || A cause at the start of the sentence: puisque (an obvious cause) or comme. || @tags fr.connectors
+  tr: Could you call me back tomorrow morning? || Pourriez-vous me rappeler demain matin ? | Est-ce que vous pourriez me rappeler demain matin ? | Tu pourrais me rappeler demain matin ? | Pourrais-tu me rappeler demain matin ? | Est-ce que tu pourrais me rappeler demain matin ? || Could you…? = the conditional of pouvoir (pourriez-vous / pourrais-tu). || @tags fr.conditionnel
+  listen: Bonjour, monsieur Garnier. Je ne pourrai pas venir à la réunion de demain, car je serai en déplacement à Lyon. || Why is the caller phoning? || *To say she can't come to tomorrow's meeting | To organise a trip to Lyon | To move the meeting to Lyon || "Je ne pourrai pas venir à la réunion de demain" — she'll be on a business trip. || @tags fr.listening
+  listen: Après dix ans dans une banque, Lucie a suivi une formation de fleuriste, et elle a ouvert sa boutique l'année dernière. || What does Lucie do now? || She still works in a bank | *She runs her own flower shop | She teaches at a training centre || She trained as a florist and opened her shop last year. || @tags fr.listening
+  ask: Your manager asks why you'd like to work from home on Fridays. Ask politely and give a reason. || kw: pourrais/voudrais/aimerais/serait & parce que/comme/car/puisque || J'aimerais télétravailler le vendredi parce que je passe deux heures par jour dans les transports. Est-ce que ce serait possible ?
+  write: Write a formal email to a training centre asking for information about a career-change course (dates, price, timetable). || min=70 || req: madame/monsieur | je me permets/je vous écris | pourriez/serait/aimerais/voudrais | cordialement/salutations || Madame, Monsieur, Je me permets de vous écrire au sujet de votre formation de menuisier pour adultes. En effet, je travaille dans la vente depuis dix ans et j'aimerais me reconvertir. Pourriez-vous m'indiquer les dates de la prochaine session et son prix ? De plus, je voudrais savoir si les cours ont lieu le soir, car je travaille encore à temps plein. Je vous remercie par avance. Cordialement, Julien Moreau
+lessons:
+  - title: The job interview
+    summary: Present your strengths, ask polite questions and talk about an imagined position with the present conditional.
+    minutes: 45
+    skills: [speaking, grammar, listening]
+    tags: [fr.conditionnel, fr.register]
+    objectives:
+      - Form the present conditional of regular and irregular verbs
+      - Use the conditional to be polite, express wishes and describe an imagined situation
+      - Present your qualities and ask questions in a job interview
+    intro: |
+      At A2 you used *je voudrais* and *pourriez-vous* as polite set phrases. In a B1 interview you need the whole **conditionnel**: to express wishes (*j'aimerais évoluer*), to imagine the job (*vous géreriez une équipe*), to ask delicate questions (*serait-il possible de… ?*) and to stay diplomatic. It is one of the most useful forms in professional French.
+    vocab: |
+      un recruteur | a recruiter | n | La recruteuse m'a posé beaucoup de questions. | The recruiter asked me lots of questions. | g: m | n: Feminine: une recruteuse.
+      une candidature | an application | n | Merci pour votre candidature, nous allons l'étudier. | Thank you for your application, we will look at it. | c: envoyer sa candidature; une candidature spontanée | g: f
+      un point fort | a strength | n | Mon point fort, c'est l'organisation. | My strength is organisation. | g: m | n: Opposite: un point faible.
+      une qualité | a quality; a strength | n | La patience est une qualité essentielle dans ce métier. | Patience is an essential quality in this job. | g: f
+      être disponible | to be available | expr | Je serais disponible à partir du 1er mars. | I would be available from 1 March. | n: La disponibilité = availability.
+      la période d'essai | the trial period | n | La période d'essai dure trois mois. | The trial period lasts three months. | g: f
+      les prétentions salariales | salary expectations | n | Quelles sont vos prétentions salariales ? | What are your salary expectations? | g: f | n: Formal phrase used in job ads and interviews.
+      mettre en valeur | to highlight; to make the most of | expr | Ce poste me permettrait de mettre en valeur mes compétences. | This job would let me make the most of my skills.
+      déléguer | to delegate | v | Un bon manager sait déléguer. | A good manager knows how to delegate.
+      gérer | to manage; to handle | v | Je gère une équipe de quatre personnes. | I manage a team of four. | n: Conditional: je gérerais.
+      recontacter | to get back to (someone) | v | Nous vous recontacterons d'ici la fin de la semaine. | We'll get back to you by the end of the week.
+      envisageable | possible; worth considering | adj | Un jour de télétravail, c'est envisageable. | One day of remote work is something we could consider.
+    grammar:
+      title: The present conditional
+      body: |
+        **Formation:** take the **future stem** (usually the infinitive; drop the final **-e** of -re verbs) and add the **imparfait endings** *-ais, -ais, -ait, -ions, -iez, -aient*: *parler → je parler**ais***, *prendre → nous prendr**ions***.
+
+        Verbs with an irregular future have the same irregular stem: *être → ser-*, *avoir → aur-*, *faire → fer-*, *aller → ir-*, *pouvoir → pourr-*, *vouloir → voudr-*, *devoir → devr-*, *venir → viendr-*, *savoir → saur-*, *il faut → il faudrait*.
+
+        **Uses:**
+        - **politeness**: *Pourriez-vous… ? Je voudrais… Serait-il possible de… ?*
+        - **wishes**: *J'aimerais travailler à l'international.*
+        - **suggestions**: *On pourrait faire un premier entretien en visio.*
+        - an **imagined** situation: *Dans ce poste, vous géreriez le site internet.*
+        - what others **would say**: *Mes collègues diraient que je suis patiente.*
+      table: |
+        Infinitive | Stem | je | nous | ils
+        parler | parler- | parlerais | parlerions | parleraient
+        prendre | prendr- | prendrais | prendrions | prendraient
+        être | ser- | serais | serions | seraient
+        avoir | aur- | aurais | aurions | auraient
+        pouvoir | pourr- | pourrais | pourrions | pourraient
+        faire | fer- | ferais | ferions | feraient
+      examples: |
+        J'aimerais travailler dans une entreprise internationale. | I'd like to work for an international company. | a wish
+        Pourriez-vous me dire quand le poste commence ? | Could you tell me when the job starts? | politeness
+        Dans ce poste, vous géreriez une équipe de cinq personnes. | In this role, you would manage a team of five. | an imagined situation
+        On pourrait faire un premier entretien en visio. | We could do a first interview by video call. | a suggestion
+      tip: "Future or conditional? je serai (I will be) / je serais (I would be). The only difference is the -s: check it every time you write."
+    dialogue:
+      title: Un entretien au musée
+      setting: A contemporary art museum in Bordeaux is recruiting a communication officer. M. Lefèvre, the HR manager, interviews Awa Diallo.
+      speakers: L=M. Lefèvre/m; A=Awa/f
+      lines: |
+        L: Bonjour, madame Diallo, merci d'être venue. Asseyez-vous, je vous en prie. | Hello, Ms Diallo, thank you for coming. Please have a seat.
+        L: Alors, pourquoi est-ce que ce poste au musée vous intéresse ? | So, why are you interested in this position at the museum?
+        A: J'adore l'art contemporain, et j'aimerais mettre mes compétences en communication au service d'un musée. | I love contemporary art, and I'd like to put my communication skills to work for a museum.
+        L: D'après vous, quelles sont vos principales qualités ? | In your view, what are your main strengths?
+        A: Je suis organisée et créative. Mes anciens collègues diraient aussi que je suis patiente. | I'm organised and creative. My former colleagues would also say I'm patient.
+        L: Et quel serait, selon vous, votre point faible ? | And what would your weak point be, in your opinion?
+        A: Je suis parfois trop perfectionniste, mais j'apprends à déléguer. | I'm sometimes too much of a perfectionist, but I'm learning to delegate.
+        L: Le poste commence en mars. Vous seriez disponible à cette date ? | The job starts in March. Would you be available then?
+        A: Oui, tout à fait. Est-ce que je pourrais vous poser une question sur l'équipe ? | Yes, absolutely. Could I ask you a question about the team?
+        L: Bien sûr. Vous travailleriez avec trois personnes, sous la responsabilité de Mme Roux. | Of course. You would work with three people, reporting to Ms Roux.
+        A: Parfait. Et serait-il possible de télétravailler un jour par semaine ? | Perfect. And would it be possible to work from home one day a week?
+        L: Ce serait envisageable après la période d'essai. Nous vous recontacterons d'ici vendredi. | That could be considered after the trial period. We'll get back to you by Friday.
+    pronunciation:
+      title: "Future or conditional? je serai / je serais"
+      body: |
+        In careful standard French, the future *je serai* ends in a closed [e] and the conditional *je serais* in an open [ɛ]: [sə.ʁe] / [sə.ʁɛ]. Many speakers hardly make the difference, so listen for the context.
+
+        With *nous* and *vous* the difference is always clear, because the conditional adds an [j] sound: *nous pourrons* [pu.ʁɔ̃] / *nous pourrions* [pu.ʁjɔ̃], *vous serez* [sə.ʁe] / *vous seriez* [sə.ʁje].
+      items: |
+        je serai
+        je serais
+        nous pourrons
+        nous pourrions
+        vous seriez
+        j'aimerais
+    culture:
+      title: L'entretien à la française
+      body: |
+        Recruitment in France often starts with a short phone or video interview, followed by one or two interviews in person. Candidates use *vous*, arrive on time and are often asked about their *parcours* and their *prétentions salariales*. It is fine to ask about the team, the start date or remote work at the end.
+
+        Most permanent contracts (*CDI*) start with a *période d'essai*, usually between two and four months depending on the job, sometimes renewable once. During this time, the employer or the employee can end the contract quite easily.
+    mistakes: |
+      Je voudrai travailler chez vous. => Je voudrais travailler chez vous. | For a polite wish, use the conditional (-ais), not the future (-ai).
+      Je pourais commencer en mars. => Je pourrais commencer en mars. | Pouvoir has a double r in the future and conditional stem: pourr-.
+      Je serais disponible depuis le 1er mars. => Je serais disponible à partir du 1er mars. | For a future starting point, use à partir de; depuis looks back from now.
+    task:
+      title: Your interview in French
+      mode: interaction
+      body: |
+        Choose a job you would like. Prepare three strengths, one weak point and two polite questions for the recruiter (*Serait-il possible de… ? Pourriez-vous me dire… ?*). Then do the interview in the "Preparing for a job interview" scenario with the AI coach, using the conditional at least five times.
+    exercises: |
+      fill: J'___ (aimer) travailler dans une équipe internationale. || aimerais || A wish: conditional, aimer- + -ais. || @tags fr.conditionnel
+      fill: ___-vous me dire quand le poste commence ? || Pourriez || Polite question: pouvoir → pourr- + -iez. || @tags fr.conditionnel
+      fill: Dans ce poste, vous ___ (être) responsable de trois projets. || seriez || Être has the irregular stem ser-: vous seriez. || @tags fr.conditionnel
+      fill: Nous ___ (pouvoir) organiser un deuxième entretien en visio. || pourrions || A suggestion: nous pourrions (pourr- + -ions). || @tags fr.conditionnel
+      mc: Which sentence is in the conditional? || Je serai disponible en mars. | *Je serais disponible en mars. | J'étais disponible en mars. || -ais on the future stem ser- = conditional. Je serai is the future; j'étais is the imparfait. || @tags fr.conditionnel
+      mc: The recruiter asks about your "prétentions salariales". She wants to know… || *how much you would like to earn | what you would like to study | when you could start || Les prétentions salariales = salary expectations. || @skill vocabulary @tags fr.vocabulary
+      tf: Awa could work from home from her very first week. || false || "Ce serait envisageable après la période d'essai." || @ctx dialogue
+      short: According to Awa, how would her former colleagues describe her? || kw: patient/patiente || "Mes anciens collègues diraient aussi que je suis patiente." || @ctx dialogue
+      listen: @dialogue || When will the museum contact Awa again? || Next Monday | *By Friday | In March || "Nous vous recontacterons d'ici vendredi." || @tags fr.listening
+      listen: Dans ce poste, vous géreriez le site internet et vous organiseriez deux événements par an. || What would the job include? || *Managing the website and organising two events a year | Managing a team and two websites | Organising an event every week || Vous géreriez le site… vous organiseriez deux événements par an. || @tags fr.listening,fr.conditionnel
+      rw: Make the request more polite :: Je veux savoir combien de jours de télétravail il y a. || Je voudrais savoir combien de jours de télétravail il y a. | J'aimerais savoir combien de jours de télétravail il y a. || Replace je veux with the conditional: je voudrais or j'aimerais. || @tags fr.conditionnel,fr.register
+      tr: Would it be possible to start in April? || Serait-il possible de commencer en avril ? | Est-ce qu'il serait possible de commencer en avril ? | Est-ce que ce serait possible de commencer en avril ? | Ce serait possible de commencer en avril ? || Would it be possible = serait-il possible (formal inversion) or est-ce qu'il serait possible. || @tags fr.conditionnel
+      dict: Je serais disponible à partir du premier mars. || à partir du
+      ask: The recruiter asks « Pourquoi ce poste vous intéresse-t-il ? ». Answer with at least one verb in the conditional. || kw: aimerais/voudrais/pourrais/serait/permettrait/plairait || J'aimerais travailler dans un musée, et ce poste me permettrait de mettre en valeur mes compétences en communication.
+
+  - title: Emails and meetings
+    summary: Read and write formal emails, follow the agenda of a meeting and link your ideas with formal connectors.
+    minutes: 45
+    skills: [reading, writing, grammar]
+    tags: [fr.formal-writing, fr.connectors, fr.register]
+    objectives:
+      - Recognise and use the standard formulas of a formal email
+      - Link ideas with en effet, de plus, cependant, en revanche and par conséquent
+      - Understand the agenda of a meeting and propose a new date
+    intro: |
+      French professional emails are more formal than English ones: they open and close with set formulas and use connectors that would sound heavy in speech. If you learn a dozen of these formulas and five or six connectors, you can write clear, polite emails to colleagues, clients and administrations — and understand the ones you receive.
+    vocab: |
+      l'ordre du jour | the agenda (of a meeting) | n | Le premier point à l'ordre du jour, c'est le budget. | The first item on the agenda is the budget. | g: m
+      reporter | to postpone | v | Nous devons reporter la réunion à jeudi. | We have to postpone the meeting to Thursday. | c: reporter à une date | n: Annuler = to cancel.
+      un compte rendu | a report; the minutes | n | Lucas enverra le compte rendu de la réunion. | Lucas will send the minutes of the meeting. | g: m | pl: des comptes rendus
+      ci-joint | attached; enclosed | adv | Vous trouverez ci-joint mon CV. | Please find my CV attached. | n: Invariable before the noun. Also: en pièce jointe.
+      une pièce jointe | an attachment | n | J'ai oublié la pièce jointe ! | I forgot the attachment! | g: f
+      faire le point | to review; to take stock | expr | Faisons le point sur le projet. | Let's review where we are on the project. | c: faire le point sur quelque chose
+      aborder | to address; to deal with (a topic) | v | Nous aborderons ensuite la question du calendrier. | Next we'll address the schedule.
+      convenir à | to suit | v | Est-ce que jeudi vous convient ? | Does Thursday suit you? | n: Ça me convient = that suits me.
+      la visioconférence | video conference | n | La réunion aura lieu en visioconférence. | The meeting will take place by video conference. | g: f | n: Informal: en visio.
+      être en déplacement | to be away on business | expr | La directrice est en déplacement jusqu'à mardi. | The director is away on business until Tuesday.
+      un délai | a deadline; time allowed | n | Le délai est très court. | The deadline is very tight. | g: m | n: Dans les délais = on time.
+      relancer | to follow up; to chase | v | Je vais relancer le client par e-mail. | I'll chase the client by email.
+      rester à votre disposition | to remain available (formal) | expr | Je reste à votre disposition pour toute question. | Please don't hesitate to contact me with any questions.
+    grammar:
+      title: Formal register and connectors
+      body: |
+        A formal email has three parts, each with its set phrases.
+
+        - **Opening**: *Madame, Monsieur,* (you don't know the name) · *Madame Morel,* or *Bonjour Madame Morel,* (you know it). Then: *Je me permets de vous écrire au sujet de…* · *Je vous remercie pour votre message.*
+        - **Body**: *Vous trouverez ci-joint…* · *Pourriez-vous… ?* · *Nous vous proposons de…* The conditional softens requests: *il faudrait*, *nous pourrions*, *j'aimerais*.
+        - **Closing**: *Je reste à votre disposition pour toute question.* + *Cordialement* / *Bien cordialement* (emails) or *Veuillez agréer, Madame, Monsieur, mes salutations distinguées* (letters).
+
+        **Connectors** show the logic of your text. *En effet* explains or confirms what you have just said (it does **not** mean "in effect"). *Cependant* and *en revanche* introduce a contrast; *par conséquent* and *donc* a consequence; *de plus* adds an idea; *d'abord, ensuite, enfin* give the order of points.
+      table: |
+        Function | Connectors | Example
+        add an idea | de plus, en outre | De plus, le budget a augmenté.
+        explain | en effet, car | La réunion est reportée. En effet, deux collègues sont absents.
+        contrast | cependant, en revanche, pourtant | Le projet avance ; cependant, il reste un problème.
+        consequence | donc, par conséquent, c'est pourquoi | Le client est absent ; par conséquent, nous reportons.
+        order | d'abord, ensuite, enfin | D'abord, nous présenterons les maquettes.
+      examples: |
+        Je me permets de vous contacter au sujet de votre offre de stage. | I am writing to you about your internship offer. | formal opening
+        Vous trouverez ci-joint le compte rendu de la réunion. | Please find attached the minutes of the meeting. | attachment
+        Le train était en retard ; par conséquent, la réunion a commencé à dix heures. | The train was late; as a result, the meeting started at ten. | consequence
+        Le prix est intéressant. En revanche, le délai est trop court. | The price is attractive. On the other hand, the deadline is too short. | contrast
+      tip: "In emails, Cordialement is the safe default. Bien cordialement is a little warmer, and Bien à vous is friendly but still professional."
+    reading:
+      title: Report de la réunion
+      text: |
+        Objet : Report de la réunion du 12 mars
+
+        Monsieur Petit,
+
+        Je me permets de vous écrire au sujet de notre réunion prévue le mardi 12 mars à dix heures. En effet, deux membres de notre équipe seront en déplacement à Lille ce jour-là. Par conséquent, nous vous proposons de reporter la réunion au jeudi 14 mars, à la même heure. Si cette date ne vous convient pas, nous pourrions également nous réunir en visioconférence le 13 mars.
+
+        Vous trouverez ci-joint l'ordre du jour. D'abord, nous vous présenterons les nouvelles maquettes du site. Ensuite, nous ferons le point sur le budget. Enfin, nous aborderons le calendrier de la mise en ligne. De plus, nous aimerions avoir votre avis sur le choix des photos ; cependant, si vous manquez de temps, ce point pourra attendre la réunion suivante.
+
+        Je vous prie de nous excuser pour ce changement et je reste à votre disposition pour toute question.
+
+        Bien cordialement,
+        Claire Morel, cheffe de projet
+
+        Objet : RE : Report de la réunion du 12 mars
+
+        Madame Morel,
+
+        Je vous remercie pour votre message. Le jeudi 14 mars me convient parfaitement. En revanche, je ne pourrai pas rester après onze heures et demie : il faudrait donc commencer à l'heure. Je vous enverrai les photos d'ici lundi, afin de vous laisser le temps de les regarder.
+
+        Cordialement,
+        Bernard Petit
+      translation: |
+        Subject: Postponement of the meeting on 12 March
+
+        Dear Mr Petit,
+
+        I am writing to you about our meeting planned for Tuesday 12 March at ten o'clock. Two members of our team will be away on business in Lille that day. We would therefore like to suggest postponing the meeting to Thursday 14 March, at the same time. If this date does not suit you, we could also meet by video conference on 13 March.
+
+        Please find the agenda attached. First, we will present the new mock-ups of the website. Next, we will review the budget. Finally, we will discuss the schedule for the launch. In addition, we would like your opinion on the choice of photos; however, if you are short of time, this item can wait until the following meeting.
+
+        We apologise for this change and remain at your disposal for any questions.
+
+        Kind regards,
+        Claire Morel, project manager
+
+        Subject: RE: Postponement of the meeting on 12 March
+
+        Dear Ms Morel,
+
+        Thank you for your message. Thursday 14 March suits me perfectly. However, I will not be able to stay after half past eleven, so we would need to start on time. I will send you the photos by Monday, to give you time to look at them.
+
+        Regards,
+        Bernard Petit
+    pronunciation:
+      title: Liaisons in formal French
+      body: |
+        Formal speech — meetings, presentations, phone calls with clients — uses more liaisons than casual conversation. Some are compulsory: after a pronoun before a verb (*je vous‿écris*, *nous‿aimerions*) and after *en* (*en‿effet* [ɑ̃.ne.fɛ]).
+
+        Others are optional but sound more careful: after *être* and the auxiliaries (*ils sont‿arrivés*, *c'est‿important*). In relaxed speech people often drop them; in a meeting, making them sounds professional.
+      items: |
+        je vous écris
+        nous aimerions
+        en effet
+        par conséquent
+        ils sont arrivés
+        c'est important
+    culture:
+      title: Le droit à la déconnexion
+      body: |
+        French professional emails tend to be more formal than English ones, even between people who know each other well: *Bonjour Madame Morel* and *Cordialement* are standard, and *Cher Bernard* is kept for people you are on friendly terms with.
+
+        Since 2017, French companies with at least 50 employees have had to set rules on the *droit à la déconnexion* — the right not to read or answer work emails outside working hours. Many companies limit internal emails in the evening and at weekends.
+    mistakes: |
+      Salut Monsieur Petit, => Bonjour Monsieur Petit, | Salut is informal. In a formal email, start with Monsieur, or Bonjour Monsieur Petit,.
+      Le client est absent. Cependant, nous reportons la réunion. => Le client est absent. Par conséquent, nous reportons la réunion. | Postponing is a consequence of the absence, not a contrast: use par conséquent or donc.
+      En effet, je vous remercie de votre message. => Je vous remercie de votre message. | En effet explains or confirms a previous sentence; it can't open an email.
+    task:
+      title: Postpone a meeting
+      mode: writing
+      body: |
+        Write a formal email (about 100 words) to a client or a colleague to postpone a meeting. Explain why (*En effet…*), propose two new dates (*nous pourrions…*), say what is on the agenda (*d'abord, ensuite, enfin*) and close appropriately. Then practise discussing the new date aloud in the "Taking part in a business meeting" scenario with the AI coach.
+    exercises: |
+      mc: You are writing to a company for the first time and don't know who will read it. You start with… || Salut, | Cher ami, | *Madame, Monsieur, || Madame, Monsieur, is the standard opening when you don't know the reader's name. || @tags fr.formal-writing,fr.register
+      mc: Which closing is standard in a professional email? || Bisous, | *Cordialement, | À plus, || Cordialement is the neutral professional closing; the others are for friends. || @tags fr.formal-writing
+      fill: La réunion est reportée. En ___, deux collègues sont en déplacement. || effet || En effet introduces the explanation of the previous sentence. || @tags fr.connectors
+      fill: Le client ne peut pas venir ; par ___, nous proposons une visio. || conséquent || Par conséquent = as a result. || @tags fr.connectors
+      mc: "Le budget est serré ; ___, nous voulons garder toutes les fonctionnalités." || donc | *pourtant | en effet || The two ideas contrast (tight budget, but we want everything): pourtant (yet). || @tags fr.connectors
+      fill: Vous trouverez ___ le compte rendu de la réunion. || ci-joint || Ci-joint = attached; it doesn't change before the noun. || @tags fr.formal-writing
+      mc: Why does Claire Morel want to move the meeting? || The client is ill. | *Two team members will be away on business. | The office will be closed. || "Deux membres de notre équipe seront en déplacement à Lille ce jour-là." || @ctx reading @tags fr.reading
+      tf: M. Petit can stay as long as necessary on 14 March. || false || "Je ne pourrai pas rester après onze heures et demie." || @ctx reading
+      short: What will be discussed last at the meeting? || kw: calendrier/schedule/timetable/mise en ligne/launch/going live || "Enfin, nous aborderons le calendrier de la mise en ligne." || @ctx reading
+      rw: Rewrite with "par conséquent" instead of "donc" :: Le directeur est malade, donc la réunion est annulée. || Le directeur est malade ; par conséquent, la réunion est annulée. | Le directeur est malade, par conséquent, la réunion est annulée. | Le directeur est malade. Par conséquent, la réunion est annulée. | Le directeur est malade, par conséquent la réunion est annulée. || Par conséquent is a more formal way to introduce a consequence. || @tags fr.connectors,fr.register
+      tr: Please find attached the agenda for Thursday's meeting. || Vous trouverez ci-joint l'ordre du jour de la réunion de jeudi. | Veuillez trouver ci-joint l'ordre du jour de la réunion de jeudi. | Vous trouverez ci-joint l'ordre du jour pour la réunion de jeudi. || Please find attached = vous trouverez ci-joint; agenda = l'ordre du jour. || @tags fr.formal-writing
+      listen: Bonjour à tous. D'abord, nous ferons le point sur le budget ; ensuite, Paul présentera le nouveau site. || What will happen first? || Paul will present the website. | *The team will review the budget. | Everybody will introduce themselves. || "D'abord, nous ferons le point sur le budget." || @tags fr.listening
+      dict: Je reste à votre disposition pour toute question. || à votre disposition
+      ask: At a meeting, a colleague suggests a date that doesn't suit you. Say so politely and suggest another one, using the conditional. || kw: pourrions/pourrait/serait/préférerais/conviendrait & lundi/mardi/mercredi/jeudi/vendredi/date/semaine/matin || Malheureusement, cette date ne me convient pas. Nous pourrions plutôt nous réunir jeudi matin ? Ce serait plus pratique pour toute l'équipe.
+
+  - title: Changing careers
+    summary: Talk about a career change and explain its causes and consequences with comme, puisque, grâce à, à cause de and donc.
+    minutes: 45
+    skills: [listening, speaking, grammar]
+    tags: [fr.connectors, fr.conditionnel]
+    objectives:
+      - Understand someone's story of a career change
+      - Explain causes and consequences with comme, parce que, puisque, grâce à, à cause de and donc
+      - Say what you would advise someone who wants to change careers
+    intro: |
+      More and more people change careers in the middle of their working lives — *la reconversion professionnelle* is a big topic in France. Telling this kind of story means explaining **why** (*comme je ne voyais plus mes enfants…*), **what helped** (*grâce à une formation*) and **what made it hard** (*à cause du loyer*). These connectors make your explanations clear and natural.
+    vocab: |
+      la reconversion | career change | n | Sa reconversion a pris deux ans. | Her career change took two years. | g: f | n: In full: la reconversion professionnelle.
+      se reconvertir | to retrain; to change careers | v | Il s'est reconverti dans la boulangerie. | He retrained as a baker. | c: se reconvertir dans + field
+      un bilan de compétences | a skills assessment | n | J'ai fait un bilan de compétences avec une conseillère. | I did a skills assessment with an adviser. | g: m
+      une formation | a training course | n | Elle suit une formation de développeuse web. | She's doing a web-developer training course. | c: suivre une formation; une formation en ligne | g: f
+      se lancer | to take the plunge; to get started | v | J'avais peur, mais je me suis lancé. | I was scared, but I took the plunge.
+      trouver sa voie | to find one's path | expr | Elle a mis du temps à trouver sa voie. | It took her a while to find her path.
+      être son propre patron | to be one's own boss | expr | Depuis deux ans, je suis mon propre patron. | For two years I've been my own boss.
+      se renseigner | to find out; to make enquiries | v | Renseignez-vous bien avant de démissionner. | Find out everything you can before you resign. | c: se renseigner sur quelque chose
+      un atelier | a workshop | n | Il a ouvert un atelier de réparation de vélos. | He opened a bike-repair workshop. | g: m
+      un métier manuel | a manual trade | n | Les métiers manuels attirent de plus en plus de jeunes. | Manual trades attract more and more young people. | g: m
+      hésiter à | to hesitate to | v | N'hésitez pas à demander conseil. | Don't hesitate to ask for advice.
+      regretter | to regret | v | Je ne regrette pas du tout mon choix. | I don't regret my choice at all.
+      un auditeur | a listener | n | Merci à nos auditeurs pour leurs messages ! | Thanks to our listeners for their messages! | g: m | n: Feminine: une auditrice.
+    grammar:
+      title: Explaining causes and consequences
+      body: |
+        French has several ways to explain **why**, and each has its place.
+
+        - **parce que** + clause: the neutral answer to *pourquoi ?* — *J'ai démissionné parce que je voulais voir mes enfants.*
+        - **comme** + clause, **at the start** of the sentence: *Comme je passais ma vie sur la route, j'ai démissionné.*
+        - **puisque** + clause: a cause that is obvious or already known: *Puisque je suis mon propre patron, je choisis mes horaires.*
+        - **car** + clause: more formal or written; never at the start of a sentence.
+        - **grâce à** + noun for a **positive** cause, **à cause de** + noun for a **negative** one: *grâce à une formation*, *à cause du loyer*. Remember the contractions: *à cause du / des*, *grâce au / aux*.
+
+        For the **consequence**, use *donc*, *alors*, *c'est pour ça que* (spoken) or *c'est pourquoi* (more formal). To put a cause in focus, say *C'est grâce à… que…*: *C'est grâce à ma conseillère que j'ai trouvé ma voie.*
+      table: |
+        Meaning | Connector | Followed by | Example
+        cause | parce que | a clause | Je suis parti parce que j'étais fatigué.
+        cause at the start | comme | a clause | Comme il pleuvait, on est restés.
+        known cause | puisque | a clause | Puisque tu es là, aide-moi !
+        positive cause | grâce à | a noun | J'ai trouvé ce poste grâce à une amie.
+        negative cause | à cause de | a noun | On est en retard à cause des travaux.
+        consequence | donc, alors, c'est pour ça que | a clause | J'aime bricoler, donc j'ai choisi ce métier.
+      examples: |
+        Comme j'étais toujours fatigué, j'ai décidé de changer de vie. | As I was always tired, I decided to change my life. | comme at the start
+        Elle a trouvé un emploi grâce à son stage. | She found a job thanks to her internship. | positive cause
+        Le projet a pris du retard à cause du budget. | The project fell behind because of the budget. | negative cause
+        Je voulais travailler dehors, c'est pour ça que je suis devenue jardinière. | I wanted to work outdoors; that's why I became a gardener. | consequence
+      tip: "Grâce à and à cause de are followed by a noun; parce que, comme and puisque by a full clause with a verb."
+    dialogue:
+      title: Nouvelle vie
+      setting: A podcast about career changes. The host, Élodie, interviews Karim, a former sales representative who now runs a bike workshop in Grenoble.
+      speakers: E=Élodie/f; K=Karim/m
+      lines: |
+        E: Bienvenue dans « Nouvelle vie ». Karim, vous avez été commercial pendant douze ans. Pourquoi tout quitter ? | Welcome to "New Life". Karim, you were a sales rep for twelve years. Why give it all up?
+        K: Comme je passais ma vie sur la route, je ne voyais presque plus mes enfants. | As I spent my life on the road, I hardly saw my children any more.
+        E: Et vous saviez déjà quel métier vous vouliez faire ? | And did you already know what job you wanted to do?
+        K: Pas du tout. C'est grâce à un bilan de compétences que j'ai trouvé ma voie. | Not at all. It was thanks to a skills assessment that I found my path.
+        E: Et pourquoi la réparation de vélos ? | And why bike repair?
+        K: Je répare des vélos depuis l'adolescence, donc c'était une évidence pour moi. | I've been repairing bikes since I was a teenager, so it was obvious for me.
+        E: Ça n'a pas été trop difficile, financièrement ? | Wasn't it too hard, financially?
+        K: Si, la première année a été dure, à cause du loyer de l'atelier et des travaux. | Yes, the first year was hard, because of the workshop rent and the renovation work.
+        E: Vous ne regrettez rien ? | You don't regret anything?
+        K: Non ! Puisque je suis mon propre patron, je rentre tous les soirs à dix-huit heures. | No! Since I'm my own boss, I'm home every evening at six.
+        E: Quel conseil donneriez-vous à nos auditeurs qui hésitent à se lancer ? | What advice would you give our listeners who are hesitating to take the plunge?
+        K: Je leur dirais de bien se renseigner, mais surtout de ne pas avoir peur. | I'd tell them to find out as much as they can, but above all not to be afraid.
+    pronunciation:
+      title: Connectors in fast speech
+      body: |
+        In everyday speech, connectors are often shortened. *Parce que* can sound like [pas.kə] or even [pask]; *c'est pour ça que* becomes [sɛ.puʁ.sak]. *Puisque* is [pɥis.kə]: the same glide [ɥ] as in *huit*.
+
+        *Donc* is usually pronounced with its final [k] — [dɔ̃k] — especially at the start of a sentence or when you stress the consequence. In *grâce à*, link the two words smoothly: [ɡʁɑ.sa].
+      items: |
+        parce que
+        puisque
+        à cause de
+        grâce à
+        donc
+        c'est pour ça que
+    culture:
+      title: La reconversion en France
+      body: |
+        Changing careers is common in France, and there are tools to help. A *bilan de compétences* is a series of sessions with a professional adviser to analyse your skills, motivations and options. Every worker also has a *compte personnel de formation* (CPF), a training account credited every year, which can pay for courses or a skills assessment.
+
+        Many adults who move into manual trades — baker, carpenter, florist, bike mechanic — prepare a *CAP*, a vocational diploma that can be taken in a year or less by adults.
+    mistakes: |
+      Car je passais ma vie sur la route, j'ai démissionné. => Comme je passais ma vie sur la route, j'ai démissionné. | Car can't start a sentence; at the beginning, use comme.
+      J'ai trouvé ce poste à cause d'une amie. => J'ai trouvé ce poste grâce à une amie. | For a positive result, use grâce à; à cause de is for a negative cause.
+      On est en retard à cause de le train. => On est en retard à cause du train. | De + le contracts to du.
+    task:
+      title: My career change
+      mode: speaking
+      body: |
+        Tell the story of a career change — your own, someone you know, or an imaginary one — as if you were a guest on the podcast. Say what the person did before, why they changed (*comme, parce que, grâce à, à cause de*), how it went, and what advice you would give (*je leur dirais de…*). Speak for one to two minutes, then practise explaining your choices to a recruiter in the "Preparing for a job interview" scenario.
+    exercises: |
+      fill: ___ il pleuvait, nous avons annulé la sortie. || Comme || At the start of the sentence, comme introduces the cause. || @tags fr.connectors
+      fill: J'ai trouvé ce stage ___ mon ancien professeur. || grâce à || A positive cause + noun: grâce à. || @tags fr.connectors
+      fill: Nous sommes arrivés en retard ___ la neige. || à cause de || A negative cause + noun: à cause de (de + la stays de la). || @tags fr.connectors
+      mc: "___ tu connais bien la ville, tu peux nous guider !" || *Puisque | Car | Grâce à || Puisque gives a cause both people know. Car can't start a sentence; grâce à needs a noun. || @tags fr.connectors
+      mc: Which connector introduces a consequence? || parce que | *c'est pour ça que | comme || C'est pour ça que = that's why. The other two introduce a cause. || @tags fr.connectors
+      tf: When Karim left his job, he already knew what he wanted to do. || false || "Pas du tout." He found his path thanks to a skills assessment. || @ctx dialogue
+      short: Why did Karim want to stop working as a sales rep? || kw: route/road/enfant/children/kids/travel || "Comme je passais ma vie sur la route, je ne voyais presque plus mes enfants." || @ctx dialogue
+      listen: @dialogue || What made Karim's first year difficult? || *The workshop rent and the renovation work | Not having enough customers | Problems with his skills assessment || "À cause du loyer de l'atelier et des travaux." || @tags fr.listening
+      listen: Grâce à une formation en ligne, j'ai pu préparer ma reconversion sans quitter mon emploi tout de suite. || What helped the speaker? || *An online training course | A new manager | A loan from the bank || "Grâce à une formation en ligne…" || @tags fr.listening,fr.connectors
+      rw: Join the sentences with "parce que" :: J'ai quitté mon poste. Je voulais vivre à la campagne. || J'ai quitté mon poste parce que je voulais vivre à la campagne. || Parce que + a full clause gives the reason. || @tags fr.connectors
+      rw: Start the sentence with "Comme" :: Je travaillais trop, donc j'étais toujours fatigué. || Comme je travaillais trop, j'étais toujours fatigué. || With comme at the start, you no longer need donc. || @tags fr.connectors
+      tr: I changed careers because I wanted to work with my hands. || J'ai changé de métier parce que je voulais travailler avec mes mains. | Je me suis reconverti parce que je voulais travailler avec mes mains. | Je me suis reconvertie parce que je voulais travailler avec mes mains. || Parce que + clause; the wish in the past is in the imparfait (je voulais). || @tags fr.connectors,fr.imparfait-vs-pc
+      dict: Puisque je suis mon propre patron, je choisis mes horaires. || puisque
+      ask: Explain why you chose your job or your studies, using at least two connectors of cause or consequence. || kw: parce que/comme/puisque/grâce à/à cause de/car & donc/alors/c'est pour ça que/du coup/c'est pourquoi || J'ai choisi l'informatique parce que j'adorais les jeux vidéo. Comme j'étais bon en maths, c'était logique, donc je suis devenu développeur.

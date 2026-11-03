@@ -1,0 +1,357 @@
+unit: 3
+title: Mein Alltag
+theme: Time and daily routine
+description: Tell the time, describe your daily routine with regular and separable verbs, and say on which days and how often you do things.
+free: false
+objectives:
+  - Ask and tell the time, both officially and in everyday German
+  - Describe your daily routine with regular and separable verbs
+  - Talk about days of the week and how often you do things
+canDo:
+  - I can ask and say what time it is.
+  - I can say when I get up, work and eat.
+  - I can describe a typical day.
+  - I can say how often I do something and on which days.
+review: |
+  mc: "Es ist Viertel nach zehn." What time is it? || 9:45 | *10:15 | 10:30 || Viertel nach zehn = a quarter past ten (10:15). || @tags de.time
+  listen: Der Deutschkurs beginnt um halb sieben. || When does the course start? || 7:30 | *6:30 | 6:00 || Halb sieben = half-way to seven = 6:30. || @tags de.time
+  fill: Wann ___ ihr ___? (aufstehen) || steht ; auf || Ihr + stehen = ihr steht; the prefix auf goes to the end. || @tags de.separable
+  fill: Herr Lang ___ am Freitag ___. (einkaufen) || kauft ; ein || Er kauft … ein: verb in position 2, prefix at the end. || @tags de.separable
+  fill: Du ___ sehr gut! (kochen) || kochst || Du + stem + -st: du kochst. || @tags de.present-regular
+  mc: Which sentence is correct? || Am Abend ich rufe Oma an. | Am Abend rufe ich an Oma. | *Am Abend rufe ich Oma an. || The verb is in position 2 and the prefix an goes to the very end. || @tags de.separable,de.word-order
+  rw: Add "oft" :: Wir frühstücken zusammen. || Wir frühstücken oft zusammen. || Frequency adverbs come right after the conjugated verb. || @tags de.frequency
+  tr: On Saturdays I sleep late. || Samstags schlafe ich lange. | Am Samstag schlafe ich lange. | Ich schlafe samstags lange. | Ich schlafe am Samstag lange. || Samstags = every Saturday. If the time word comes first, the verb stays in position 2. || @tags de.dates,de.word-order
+  tr: The film starts at a quarter to nine. || Der Film beginnt um Viertel vor neun. | Der Film fängt um Viertel vor neun an. || Um + time; Viertel vor neun = 8:45. || @tags de.time
+  listen: Montags und donnerstags arbeite ich von neun bis fünf. || On which days does the speaker work from nine to five? || *Mondays and Thursdays | Mondays and Tuesdays | Wednesdays and Thursdays || Montags = on Mondays, donnerstags = on Thursdays. || @tags de.dates
+  ask: Tell a new friend about your typical Saturday — when you get up and three things you do. || kw: stehe/stehen & auf & samstag/samstags || Samstags stehe ich um neun Uhr auf. Ich frühstücke lange, dann kaufe ich ein. Am Abend koche ich mit Freunden.
+  write: Write an email to a friend about your week — your routine on weekdays, what you do at the weekend and how often you do sport. || min=40 || req: stehe/stehen | am/montags/dienstags/samstags/wochenende | oft/manchmal/selten/nie/immer/mal || Hallo Jule, meine Woche ist sehr voll! Ich stehe jeden Tag um sechs Uhr auf und arbeite von acht bis vier. Dienstags und donnerstags gehe ich schwimmen. Am Wochenende schlafe ich lange und kaufe ein. Sonntags rufe ich immer meine Eltern an. Liebe Grüße, Sam
+lessons:
+  - title: Telling the time
+    summary: Ask and tell the time, understand halb, Viertel, vor and nach, and say when something happens with um.
+    minutes: 40
+    skills: [vocabulary, listening, speaking]
+    tags: [de.time]
+    objectives:
+      - Ask Wie spät ist es? and tell the time
+      - Understand halb, Viertel, vor and nach in everyday times
+      - Say when something happens with um … Uhr
+    intro: |
+      Trains, classes, appointments — in Germany punctuality matters, so understanding times is essential. German uses two systems: the official 24-hour clock (*neunzehn Uhr zehn*) on timetables and the radio, and an everyday system with **halb**, **Viertel**, **vor** and **nach**. Watch out: **halb acht** means 7:30, not 8:30!
+    vocab: |
+      die Uhr | clock; watch; o'clock | n | Es ist acht Uhr. | It's eight o'clock. | g: f | pl: die Uhren | n: In times, Uhr never takes a plural: zehn Uhr.
+      Wie spät ist es? | what time is it? | expr | Entschuldigung, wie spät ist es? | Excuse me, what time is it? | n: Also common: Wie viel Uhr ist es?
+      um | at (a time) | prep | Der Film beginnt um acht Uhr. | The film starts at eight o'clock. | n: Um wie viel Uhr…? = At what time…?
+      halb | half (to the next hour) | adj | Es ist halb acht. | It's half past seven. | n: Halb acht = 7:30 — half-way to eight!
+      das Viertel | quarter | n | Es ist Viertel nach zwei. | It's a quarter past two. | g: n | pl: die Viertel | c: Viertel nach; Viertel vor
+      nach | past (in times) | prep | Es ist zehn nach neun. | It's ten past nine.
+      vor | to (in times) | prep | Es ist fünf vor zwölf. | It's five to twelve.
+      die Minute | minute | n | Der Bus kommt in zehn Minuten. | The bus is coming in ten minutes. | g: f | pl: die Minuten
+      die Stunde | hour | n | Der Kurs dauert eine Stunde. | The class lasts an hour. | g: f | pl: die Stunden | n: Stunde is a length of time; for clock time use Uhr: Es ist drei Uhr.
+      der Termin | appointment | n | Der Termin ist um elf Uhr. | The appointment is at eleven o'clock. | g: m | pl: die Termine
+      beginnen | to begin; to start | v | Der Unterricht beginnt um neun. | Lessons start at nine. | n: Regular in the present: ich beginne, du beginnst, er beginnt.
+      dauern | to last; to take (time) | v | Wie lange dauert der Film? | How long is the film? | n: Wie lange? = How long?
+      pünktlich | on time; punctual | adj | Der Zug ist pünktlich. | The train is on time. | c: zu spät (too late); früh (early)
+      dreißig, vierzig, fünfzig | thirty, forty, fifty | num | Es ist neunzehn Uhr dreißig. | It's 19:30. | n: Useful for official times. You will learn all the numbers up to 100 in unit 6.
+    grammar:
+      title: Telling the time
+      body: |
+        To ask the time, say *Wie spät ist es?* or *Wie viel Uhr ist es?* The answer always starts with **Es ist…**
+
+        **Official time** (timetables, the radio, appointments) uses the 24-hour clock: hour + *Uhr* + minutes. *Es ist neunzehn Uhr zehn* (19:10).
+
+        **Everyday time** uses the 12-hour clock with **nach** (past), **vor** (to), **Viertel** (quarter) and **halb** (half). The big difference from English: **halb** points to the *next* hour. *Halb neun* means "half-way to nine" = 8:30.
+
+        To say *when* something happens, use **um**: *Um wie viel Uhr beginnt der Kurs? – Um halb zehn.*
+      table: |
+        Time | Everyday German | Official German
+        7:00 | sieben (Uhr) | sieben Uhr
+        7:10 | zehn nach sieben | sieben Uhr zehn
+        7:15 | Viertel nach sieben | sieben Uhr fünfzehn
+        7:30 | halb acht | sieben Uhr dreißig
+        7:40 | zwanzig vor acht | sieben Uhr vierzig
+        19:00 | sieben (Uhr abends) | neunzehn Uhr
+      examples: |
+        Wie spät ist es? – Es ist halb drei. | What time is it? – It's half past two. | halb drei = 2:30
+        Es ist Viertel vor elf. | It's a quarter to eleven. | 10:45
+        Der Zug kommt um achtzehn Uhr zwölf. | The train arrives at 18:12. | official time
+        Um wie viel Uhr beginnt der Kurs? – Um neun. | What time does the class start? – At nine. | um = at
+      tip: Think of halb as "half-way to" — halb neun is half-way to nine, so 8:30.
+    dialogue:
+      title: Wann beginnt der Film?
+      setting: Saturday evening in Dresden. Emma and her flatmate Yusuf want to go to the cinema.
+      speakers: E=Emma/f; Y=Yusuf/m
+      lines: |
+        E: Yusuf, wie spät ist es? | Yusuf, what time is it?
+        Y: Es ist Viertel nach sieben. | It's a quarter past seven.
+        E: Und wann beginnt der Film? | And when does the film start?
+        Y: Um acht Uhr, glaube ich. | At eight o'clock, I think.
+        E: Nein, hier steht: neunzehn Uhr dreißig! | No, it says here: 19:30!
+        Y: Oh! Also halb acht. Das ist in fünfzehn Minuten! | Oh! So half past seven. That's in fifteen minutes!
+        E: Wie lange brauchen wir? | How long do we need?
+        Y: Zehn Minuten mit dem Fahrrad. | Ten minutes by bike.
+        E: Okay, dann los! Wir sind pünktlich. | OK, let's go then! We'll be on time.
+        Y: Und der Film dauert zwei Stunden. Super! | And the film lasts two hours. Great!
+    pronunciation:
+      title: "v sounds like f, w sounds like v"
+      body: |
+        In most German words the letter **v** is pronounced [f]: *vier, vor, Viertel, Vater*. The letter **w** is pronounced [v], like English *v*: *wie, wann, zwanzig, Woche*. So *wie viel* sounds like "vee feel".
+
+        A few words borrowed from other languages keep [v] for v: *Video, Klavier*. Listen and repeat, keeping your top teeth on your lower lip for both sounds.
+      items: |
+        vier
+        Viertel vor
+        wie viel
+        wann
+        zwanzig
+        Wie spät ist es?
+    culture:
+      title: Punctuality and the 24-hour clock
+      body: |
+        Being on time (*pünktlich*) is important in Germany. For appointments, interviews and doctor's visits, people arrive a few minutes early; for a dinner invitation at a friend's home, five to ten minutes late is fine. If you are running late, it is polite to send a message.
+
+        Timetables, opening hours and appointment letters use the 24-hour clock: *Öffnungszeiten: 9–20 Uhr*. In conversation most people switch to the 12-hour clock with halb and Viertel. In some regions you will also hear *viertel acht* for 7:15 and *dreiviertel acht* for 7:45.
+    mistakes: |
+      Es ist halb acht. (meaning 8:30) => Es ist halb neun. | Halb points to the next hour, so 8:30 is halb neun.
+      Der Kurs beginnt an neun Uhr. => Der Kurs beginnt um neun Uhr. | For clock times German uses um.
+      Es ist zwei Uhren. => Es ist zwei Uhr. | In times, Uhr never takes a plural.
+    task:
+      title: Plan an evening out
+      mode: interaction
+      body: |
+        Look at a cinema or concert programme (real or invented). Ask a partner what time it is now, when the film starts and how long it lasts, then agree when to leave — just as Emma and Yusuf do. Use both the official and the everyday times.
+    exercises: |
+      mc: "Es ist halb fünf." What time is it? || 5:30 | *4:30 | 5:15 || Halb points to the next hour: halb fünf = 4:30. || @tags de.time
+      mc: How do you say 9:45 in everyday German? || Viertel nach neun | *Viertel vor zehn | halb zehn || 9:45 = a quarter to ten = Viertel vor zehn. || @tags de.time
+      fill: Der Kurs beginnt ___ zehn Uhr. || um || For clock times use um: um zehn Uhr. || @tags de.time,de.prepositions
+      fill: Es ist zehn ___ acht. (7:50) || vor || 7:50 = ten to eight = zehn vor acht. || @tags de.time
+      fill: Wie ___ ist es? – Es ist drei Uhr. || spät / spaet / spat || Wie spät ist es? = What time is it? || @tags de.time,de.question-words
+      rw: Say this official time in everyday German :: 14:30 || halb drei | Es ist halb drei. || 14:30 = 2:30 = halb drei (half-way to three). || @tags de.time
+      tf: The film starts at eight o'clock. || false || Emma reads "neunzehn Uhr dreißig" — the film starts at 19:30 (halb acht). || @ctx dialogue
+      short: How do Emma and Yusuf get to the cinema? || kw: fahrrad/rad/bike/bicycle/cycl || "Zehn Minuten mit dem Fahrrad." — they go by bike. || @ctx dialogue
+      listen: Der Bus kommt um sieben Uhr zwanzig. || When does the bus arrive? || 7:02 | *7:20 | 6:40 || Sieben Uhr zwanzig = 7:20. || @tags de.time
+      listen: Es ist Viertel vor drei. || What time is it? || 3:15 | *2:45 | 3:45 || Viertel vor drei = a quarter to three = 2:45. || @tags de.time
+      tr: What time is it, please? || Wie spät ist es, bitte? | Wie viel Uhr ist es, bitte? | Entschuldigung, wie spät ist es? | Wie spät ist es? | Wie viel Uhr ist es? || Ask with Wie spät ist es? or Wie viel Uhr ist es? || @tags de.time,de.question-words
+      tr: The course lasts two hours. || Der Kurs dauert zwei Stunden. || Use Stunde for a length of time; Uhr is only for the clock. || @tags de.time
+      dict: Der Film beginnt um halb neun.
+      ask: Ask someone what time it is, then say when your German class starts. || kw: wie spät/wie spaet/wie viel uhr & um || Entschuldigung, wie spät ist es? Mein Deutschkurs beginnt um halb sieben.
+
+  - title: My daily routine
+    summary: Describe a typical day with regular and separable verbs such as aufstehen, einkaufen and anrufen.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [de.separable, de.present-regular]
+    objectives:
+      - Describe your typical day from morning to evening
+      - Use separable verbs, with the prefix at the end of the sentence
+      - Use the present tense of regular verbs with all persons
+    intro: |
+      Describing your day is a perfect way to practise verbs. Many everyday German verbs are **separable**: *aufstehen* (to get up) becomes **Ich stehe um sieben Uhr auf** — the little prefix jumps to the end of the sentence. Once you notice this pattern, you will see it everywhere.
+    vocab: |
+      aufstehen | to get up | v | Ich stehe um sechs Uhr auf. | I get up at six. | n: Separable: auf goes to the end of the sentence.
+      frühstücken | to have breakfast | v | Wir frühstücken um sieben. | We have breakfast at seven. | n: Not separable: ich frühstücke.
+      das Frühstück | breakfast | n | Das Frühstück ist fertig! | Breakfast is ready! | g: n | pl: die Frühstücke | c: zum Frühstück (for breakfast)
+      anfangen | to start; to begin | v | Ich fange um acht Uhr an. | I start at eight. | n: Separable. With du and er/sie the vowel changes: du fängst an, sie fängt an.
+      einkaufen | to do the shopping | v | Ich kaufe am Abend ein. | I do the shopping in the evening. | n: Kaufen alone means to buy: Ich kaufe Brot.
+      kochen | to cook | v | Mein Mann kocht jeden Tag. | My husband cooks every day.
+      anrufen | to call (on the phone) | v | Ich rufe meine Mutter an. | I'm calling my mother. | n: Separable: ich rufe … an.
+      fernsehen | to watch TV | v | Am Abend sehe ich fern. | In the evening I watch TV. | n: Separable. With du and er/sie the vowel changes: du siehst fern.
+      duschen | to have a shower | v | Ich dusche am Morgen. | I shower in the morning.
+      nach Hause kommen | to come home | expr | Ich komme um fünf Uhr nach Hause. | I come home at five. | n: Where to? nach Hause. Where? zu Hause (at home).
+      schlafen gehen | to go to bed | expr | Wir gehen um elf Uhr schlafen. | We go to bed at eleven. | n: Also common: ins Bett gehen.
+      der Morgen | morning | n | Am Morgen trinke ich Kaffee. | In the morning I drink coffee. | g: m | pl: die Morgen | n: am Morgen = in the morning; morgens = every morning.
+      der Abend | evening | n | Am Abend lese ich. | In the evening I read. | g: m | pl: die Abende | c: am Abend; heute Abend
+      der Feierabend | end of the working day | n | Um fünf habe ich Feierabend. | I finish work at five. | g: m | pl: die Feierabende | n: A very German word for the free time after work.
+    grammar:
+      title: Separable verbs and the present tense
+      body: |
+        **Regular verbs** follow one pattern: stem + ending. *kochen → ich koch**e**, du koch**st**, er koch**t**, wir koch**en**, ihr koch**t**, sie/Sie koch**en***.
+
+        **Separable verbs** have a stressed prefix such as **auf-, an-, ein-, fern-** or **mit-**. In a normal sentence the verb splits: the conjugated part goes in **position 2** and the prefix goes to the **very end**. Together they form a "bracket" around the sentence (*Satzklammer*): *Ich **stehe** um sieben Uhr **auf**.*
+
+        The verb stays in position 2 even when the sentence starts with a time: *Um sieben Uhr **stehe** ich **auf**.* (You will practise this word order more in unit 8.)
+
+        In the infinitive and in dictionaries the verb is one word: *aufstehen, einkaufen, anrufen*. Not every verb separates: *frühstücken* and *beginnen* never split.
+      table: |
+        Infinitive | In a sentence | At the end
+        aufstehen | Ich stehe um sechs Uhr auf. | auf
+        einkaufen | Wir kaufen am Samstag ein. | ein
+        anrufen | Rufst du heute an? | an
+        fernsehen | Am Abend sehe ich fern. | fern
+        mitkommen | Kommst du mit? | mit
+      examples: |
+        Ich stehe um halb sieben auf. | I get up at half past six. | stehe … auf
+        Wann kaufst du ein? | When do you do the shopping? | kaufst … ein
+        Wir rufen Oma am Sonntag an. | We call Grandma on Sunday. | rufen … an
+        Um acht Uhr frühstückt Lukas. | Lukas has breakfast at eight. | not separable
+      tip: Learn each separable verb in a short sentence ("Ich stehe … auf") — then the prefix at the end will feel natural.
+    dialogue:
+      title: Ein ganz normaler Tag
+      setting: Tarek, a student in Nuremberg, is making a podcast about jobs. He interviews Frau Becker, a baker.
+      speakers: T=Tarek/m; B=Frau Becker/f
+      lines: |
+        T: Frau Becker, wann stehen Sie auf? | Mrs Becker, when do you get up?
+        B: Sehr früh – um drei Uhr. | Very early – at three o'clock.
+        T: Um drei Uhr? Wow! Und dann? | At three o'clock? Wow! And then?
+        B: Ich dusche und trinke schnell Kaffee. | I have a shower and quickly drink some coffee.
+        T: Wann beginnt die Arbeit? | When does work start?
+        B: Um vier. Ich backe Brot und Brötchen. | At four. I bake bread and rolls.
+        T: Und wann haben Sie Feierabend? | And when do you finish work?
+        B: Um zwölf. Dann kaufe ich ein und koche. | At twelve. Then I do the shopping and cook.
+        T: Und am Nachmittag? | And in the afternoon?
+        B: Ich schlafe ein bisschen. | I sleep a little.
+        T: Wann gehen Sie schlafen? | When do you go to bed?
+        B: Schon um acht Uhr! | As early as eight o'clock!
+    pronunciation:
+      title: Stress on separable prefixes
+      body: |
+        In separable verbs the **prefix is stressed**: *AUFstehen, EINkaufen, ANrufen, FERNsehen*. When the prefix moves to the end of the sentence it keeps its stress, so the end of the sentence sounds strong: *Ich stehe um sieben AUF.*
+
+        Verbs that don't separate are stressed differently: *beGINnen*. *FRÜHstücken* is stressed on the first part but never separates — an exception to remember.
+      items: |
+        aufstehen
+        Ich stehe um sieben auf.
+        einkaufen
+        anrufen
+        fernsehen
+        frühstücken
+    culture:
+      title: Frühstück, Feierabend and Saturday shopping
+      body: |
+        A typical German breakfast is bread or *Brötchen* (bread rolls) with butter, jam, cheese or cold meat, and coffee or tea. At weekends many families buy fresh rolls from the bakery in the morning.
+
+        *Feierabend* — the end of the working day — is taken seriously, and many people don't answer work emails in the evening. On Sundays most shops are closed, so people do their weekly shopping (*einkaufen*) on Saturday.
+    mistakes: |
+      Ich aufstehe um sieben. => Ich stehe um sieben auf. | Separable verbs split: the verb goes in position 2 and the prefix goes to the end.
+      Ich stehe auf um sieben. => Ich stehe um sieben auf. | The prefix goes to the very end of the sentence, after the time.
+      Um sieben Uhr ich frühstücke. => Um sieben Uhr frühstücke ich. | The verb is always in position 2, even when the sentence starts with a time.
+    task:
+      title: My day in six sentences
+      mode: speaking
+      body: |
+        Describe a typical weekday: when you get up, have breakfast, start work or classes, come home, what you do in the evening and when you go to bed. Use at least three separable verbs. Record yourself in Speaking practice, then write the same text in your notebook.
+    exercises: |
+      fill: Ich ___ jeden Tag um sechs Uhr ___. (aufstehen) || stehe ; auf || Aufstehen splits: stehe in position 2, auf at the end. || @tags de.separable
+      fill: Wir ___ am Samstag ___. (einkaufen) || kaufen ; ein || Wir kaufen … ein: the prefix ein goes to the end. || @tags de.separable
+      fill: ___ du deine Mutter heute ___? (anrufen) || Rufst ; an || In a yes/no question the verb comes first: Rufst du … an? || @tags de.separable,de.questions
+      fill: Mein Mann ___ jeden Abend. (kochen) || kocht || Er + kochen = er kocht. || @tags de.present-regular
+      fill: Ihr ___ sehr früh. (frühstücken) || frühstückt / fruehstueckt / fruhstuckt || Ihr + stem + -t: ihr frühstückt. Frühstücken doesn't separate. || @tags de.present-regular
+      mc: Choose the correct sentence. || Ich fernsehe am Abend. | *Am Abend sehe ich fern. | Am Abend ich sehe fern. || Fernsehen splits (sehe … fern), and the verb stays in position 2. || @tags de.separable,de.word-order
+      mc: When does Frau Becker get up? || At 4 a.m. | *At 3 a.m. | At 8 p.m. || "Sehr früh – um drei Uhr." || @ctx dialogue @skill reading @tags de.reading
+      tf: Frau Becker sleeps a little in the afternoon. || true || "Ich schlafe ein bisschen." || @ctx dialogue
+      order: Ich rufe am Sonntag meine Oma an. || I call my grandma on Sunday. || @tags de.separable @alt Am Sonntag rufe ich meine Oma an.
+      tr: I get up at seven and have breakfast at half past seven. || Ich stehe um sieben Uhr auf und frühstücke um halb acht. | Ich stehe um sieben auf und frühstücke um halb acht. | Ich stehe um sieben Uhr auf und ich frühstücke um halb acht. | Ich stehe um sieben auf und ich frühstücke um halb acht. || Aufstehen separates, frühstücken doesn't. Half past seven = halb acht. || @tags de.separable,de.time
+      listen: Ich komme um sechs Uhr nach Hause und koche. || What does the speaker do at six? || Gets up and has a shower | *Comes home and cooks | Goes shopping || Nach Hause kommen = to come home; kochen = to cook. || @tags de.listening
+      dict: Wir kaufen am Samstag ein.
+      ask: Describe your morning — when you get up, when you have breakfast and when work or class starts. || kw: stehe/stehen & auf & frühstücke/fruehstuecke/fruhstucke/frühstück || Ich stehe um sechs Uhr auf. Ich dusche und frühstücke um halb sieben. Die Arbeit beginnt um acht.
+      write: Write a short text about your typical weekday (5–6 sentences). || min=35 || req: stehe/stehen | um | frühstücke/arbeite/koche/kaufe || Ich stehe um halb sieben auf und dusche. Um sieben Uhr frühstücke ich. Ich arbeite von acht bis vier im Büro. Dann kaufe ich ein und koche. Am Abend sehe ich ein bisschen fern. Um elf Uhr gehe ich schlafen.
+
+  - title: Days and frequency
+    summary: Name the days of the week, say on which days you do things and how often — with immer, oft, manchmal, selten and nie.
+    minutes: 35
+    skills: [vocabulary, grammar, writing]
+    tags: [de.frequency, de.dates]
+    objectives:
+      - Name the days of the week and say on which day you do something
+      - Talk about regular habits with montags, dienstags…
+      - Say how often you do things with frequency adverbs
+    intro: |
+      Talking about your week means combining days and frequency: *Am Montag habe ich Yoga*, *Samstags schlafe ich lange*, *Ich koche nie*. German frequency words are short and easy to place — usually right after the verb. In this lesson you will learn the days of the week and how to say how often you do something.
+    vocab: |
+      der Montag | Monday | n | Am Montag arbeite ich bis sechs. | On Monday I work until six. | g: m | pl: die Montage | n: All days are masculine: am Montag, am Dienstag…
+      Dienstag, Mittwoch | Tuesday, Wednesday | n | Am Mittwoch habe ich Deutschkurs. | On Wednesday I have my German class. | g: m | pl: die Dienstage, die Mittwoche | n: Mittwoch literally means "mid-week".
+      Donnerstag, Freitag | Thursday, Friday | n | Am Freitag gehe ich tanzen. | On Friday I'm going dancing. | g: m | pl: die Donnerstage, die Freitage
+      der Samstag | Saturday | n | Am Samstag kaufe ich ein. | On Saturday I do the shopping. | g: m | pl: die Samstage | n: In northern and eastern Germany also called Sonnabend.
+      der Sonntag | Sunday | n | Am Sonntag schlafe ich lange. | On Sunday I sleep late. | g: m | pl: die Sonntage
+      das Wochenende | weekend | n | Was machst du am Wochenende? | What are you doing at the weekend? | g: n | pl: die Wochenenden
+      die Woche | week | n | Ich mache zweimal pro Woche Sport. | I do sport twice a week. | g: f | pl: die Wochen | c: pro Woche; jede Woche; nächste Woche
+      immer | always | adv | Ich trinke immer Tee. | I always drink tea.
+      oft | often | adv | Wir kochen oft zusammen. | We often cook together.
+      manchmal | sometimes | adv | Manchmal arbeite ich am Samstag. | Sometimes I work on Saturdays.
+      selten | rarely; seldom | adv | Ich sehe selten fern. | I rarely watch TV.
+      nie | never | adv | Ich esse nie Fleisch. | I never eat meat.
+      jeden Tag | every day | expr | Ich lerne jeden Tag Deutsch. | I study German every day. | c: jeden Morgen; jede Woche; jedes Wochenende
+      montags | on Mondays; every Monday | adv | Montags habe ich frei. | I'm off on Mondays. | n: Add -s to a day for a regular habit: dienstags, freitags. Written with a small letter.
+    grammar:
+      title: "am + day, montags, and frequency adverbs"
+      body: |
+        All days of the week are **masculine**. To say *on* a day, use **am** (= an dem): *am Montag, am Wochenende*. For something you do regularly, add **-s** and write the word with a small letter: *montags* (on Mondays), *abends* (in the evenings).
+
+        Frequency adverbs answer the question **Wie oft?** (*How often?*). From most to least often: **immer – oft – manchmal – selten – nie**. They usually come **right after the conjugated verb**: *Ich koche **oft**. Paul ruft **selten** an.*
+
+        A frequency word or a day can also start the sentence. The verb then stays in **position 2** and the subject follows it: ***Manchmal** arbeite ich am Samstag. **Montags** habe ich frei.*
+
+        You can also count: *einmal* (once), *zweimal* (twice), *dreimal pro Woche* (three times a week).
+      table: |
+        How often? | Example | Meaning
+        immer | Ich trinke immer Tee. | I always drink tea.
+        oft | Wir kochen oft zusammen. | We often cook together.
+        manchmal | Manchmal schwimme ich. | Sometimes I go swimming.
+        selten | Paul ruft selten an. | Paul rarely calls.
+        nie | Ich esse nie Fisch. | I never eat fish.
+        zweimal pro Woche | Ich mache zweimal pro Woche Sport. | I do sport twice a week.
+      examples: |
+        Am Freitag gehe ich tanzen. | On Friday I'm going dancing. | am + day
+        Samstags schlafe ich lange. | On Saturdays I sleep late. | every Saturday
+        Wie oft machst du Sport? – Dreimal pro Woche. | How often do you do sport? – Three times a week.
+        Lena arbeitet nie am Sonntag. | Lena never works on Sundays. | nie after the verb
+      tip: Sonntag is the "sun day" and Montag the "moon day", just as in English — use that to remember them.
+    dialogue:
+      title: Wann hast du Zeit?
+      setting: Hannah and Mehmet are classmates in a German course in Frankfurt. After class, they try to find a day to study together.
+      speakers: H=Hannah/f; M=Mehmet/m
+      lines: |
+        H: Mehmet, lernen wir zusammen? | Mehmet, shall we study together?
+        M: Gern! Wann hast du Zeit? | Sure! When are you free?
+        H: Am Montag? | On Monday?
+        M: Montags arbeite ich immer bis acht. | On Mondays I always work until eight.
+        H: Hm. Und am Dienstag? | Hm. And on Tuesday?
+        M: Dienstags spiele ich Fußball. | On Tuesdays I play football.
+        H: Wie oft spielst du denn? | How often do you play, then?
+        M: Zweimal pro Woche, dienstags und freitags. | Twice a week, on Tuesdays and Fridays.
+        H: Und am Mittwoch? | And on Wednesday?
+        M: Mittwoch ist super. Um sechs? | Wednesday is great. At six?
+        H: Perfekt! Bis Mittwoch! | Perfect! See you on Wednesday!
+    pronunciation:
+      title: "s, st and sp"
+      body: |
+        At the start of a word before a vowel, **s** is voiced [z], like English *zoo*: *Sonntag, Samstag, selten*. At the end of a syllable it is a sharp [s]: *Dienstag, montags*.
+
+        At the beginning of a word or word part, **st** and **sp** sound like *sht* and *shp* — [ʃt] and [ʃp]: *Stunde, spät, Sport, spielen*. In the middle or at the end of a word part they keep a plain s: *Dienstag* [ˈdiːnstaːk], *Fenster*.
+      items: |
+        Sonntag
+        Samstag
+        selten
+        Sport
+        spät
+        Dienstag
+    culture:
+      title: The German week
+      body: |
+        In Germany the week starts on **Monday**, and calendars show Monday first. Sunday is a legal day of rest: most shops are closed, and noisy jobs such as drilling or mowing the lawn are frowned upon in residential areas.
+
+        Many people organise their free time around fixed weekly activities — a choir on Tuesdays, football training on Thursdays, a *Stammtisch* (a regular get-together at a pub or café) once a month. *Dienstags habe ich Chor* is a typical way to explain why you are busy.
+    mistakes: |
+      Ich gehe in Montag schwimmen. => Ich gehe am Montag schwimmen. | For days of the week use am: am Montag.
+      Ich oft koche. => Ich koche oft. | Frequency adverbs come after the conjugated verb, not before it.
+      Montags ich habe frei. => Montags habe ich frei. | When the sentence starts with a time word, the verb stays in position 2 and the subject comes after it.
+    task:
+      title: My week
+      mode: writing
+      body: |
+        Write a short weekly plan for a new flatmate: what you do on which days and how often (Montags…, Am Wochenende…, zweimal pro Woche…). Then tell a partner when you are free to cook together.
+    exercises: |
+      fill: Ich habe ___ Freitag Deutschkurs. || am || For days, use am (= an dem): am Freitag. || @tags de.dates,de.prepositions
+      fill: Sie kocht ___. (never) || nie || Nie = never; it comes after the verb. || @tags de.frequency @hint never
+      mc: Which sentence is correct? || Ich manchmal arbeite am Samstag. | *Manchmal arbeite ich am Samstag. | Manchmal ich arbeite am Samstag. || When manchmal starts the sentence, the verb stays in position 2 and the subject follows. || @tags de.frequency,de.word-order
+      mc: "Samstags" means… || *on Saturdays (every week) | only this Saturday | on Sundays || The -s ending shows a regular habit: samstags = on Saturdays. || @tags de.dates
+      mc: Which order goes from most to least often? || *immer – oft – manchmal – nie | oft – immer – nie – manchmal | manchmal – oft – immer – nie || Immer (always) > oft (often) > manchmal (sometimes) > nie (never). || @tags de.frequency
+      mc: The day after Mittwoch is… || Dienstag | *Donnerstag | Freitag || Montag, Dienstag, Mittwoch, Donnerstag, Freitag… || @tags de.dates @skill vocabulary
+      short: How often does Mehmet play football? || kw: zweimal/twice/2/two || "Zweimal pro Woche, dienstags und freitags." || @ctx dialogue
+      tf: Hannah and Mehmet meet on Monday. || false || Mehmet works until eight on Mondays; they meet on Wednesday at six. || @ctx dialogue
+      rw: Start with the time word :: Ich spiele dienstags Tennis. || Dienstags spiele ich Tennis. || The verb stays in position 2, so ich moves after it. || @tags de.word-order,de.frequency
+      tr: I rarely watch TV. || Ich sehe selten fern. || Fernsehen splits (sehe … fern) and selten comes after the verb. || @tags de.separable,de.frequency
+      tr-en: Wir kochen oft zusammen. || We often cook together. | We cook together often. || Oft = often; zusammen = together. || @tags de.frequency
+      listen: Ich gehe dreimal pro Woche schwimmen – montags, mittwochs und freitags. || How often does the speaker go swimming? || Twice a week | *Three times a week | Every day || Dreimal pro Woche = three times a week. || @tags de.frequency
+      dict: Am Sonntag schlafe ich immer lange.
+      ask: Say what you do on two different days and how often you do sport. || kw: am/montags/dienstags/mittwochs/donnerstags/freitags/samstags/sonntags & oft/manchmal/selten/nie/immer/mal || Am Montag arbeite ich. Samstags kaufe ich ein. Ich mache zweimal pro Woche Sport.
+      write: Write a message to a classmate — say on which days you are busy and suggest a day to study together. || min=20 || req: am/montags/dienstags/mittwochs/donnerstags/freitags | zeit/lernen || Hallo Ana! Montags und mittwochs arbeite ich bis sieben. Dienstags habe ich Yoga. Hast du am Donnerstag Zeit? Lernen wir zusammen, vielleicht um sechs? Viele Grüße, Tom

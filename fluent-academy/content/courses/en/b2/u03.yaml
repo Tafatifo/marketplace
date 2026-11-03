@@ -1,0 +1,355 @@
+unit: 3
+title: Progress and its price
+theme: Science and technology
+description: Discuss new technologies and the ethical questions they raise, talk about artificial intelligence and report what is generally believed about it, and understand health news, using the passive in all tenses, impersonal passive structures and have/get something done.
+free: false
+objectives:
+  - Describe processes, research and regulations with the passive in all tenses and with modals
+  - Report opinions and beliefs about artificial intelligence with impersonal passives (It is thought that…, X is said to…)
+  - Understand health news and talk about services with have/get something done
+canDo:
+  - I can explain how a new technology works and discuss the ethical questions it raises.
+  - I can report what people generally say, believe or expect about a topic without naming a source.
+  - I can follow a news article about health and medicine and discuss its main points.
+  - I can talk about health checks and services that other people do for me.
+review: |
+  fill: The new vaccine ___ (test) on volunteers at the moment, and the results ___ (publish) next year. || is being tested ; will be published || Present continuous passive (is being + past participle) for now; future passive (will be + past participle) for later. || @tags en.passive
+  fill: By the time the regulations were introduced, the drones ___ already ___ (use) for two years. || had ; been used || Past perfect passive: had been + past participle, for an action before another past moment. || @tags en.passive,en.past-perfect
+  mc: The accident could ___ if the software had been checked properly. || *have been avoided | be avoided | have avoided || A modal perfect passive (could have been + past participle) for a past possibility. The accident receives the action, so the verb is passive. || @tags en.passive
+  rw: Rewrite starting "It is" :: People expect that the new model will be released in the spring. || It is expected that the new model will be released in the spring. | It's expected that the new model will be released in the spring. || Impersonal passive: It is + past participle + that-clause. || @tags en.passive
+  rw: Rewrite starting "The robot" :: People say that the robot can recognize over a thousand faces. || The robot is said to be able to recognize over a thousand faces. || Subject + is said + to-infinitive. Can becomes to be able to after to. || @tags en.passive
+  fill: I can't see the board properly. I need to ___ my eyes ___ (test). || have / get ; tested || have/get + object + past participle: someone else does it for you. || @tags en.causative
+  mc: Which sentence means that something bad happened to the speaker? || I had my car repaired. | *I had my car broken into. | I had repaired my car. || Have + object + past participle can describe an unpleasant experience caused by someone else (a break-in). || @tags en.causative
+  mc: A major new discovery or development is a ___. || setback | *breakthrough | side effect || A breakthrough is an important new discovery. A setback is a problem that delays progress. || @tags en.vocabulary @skill vocabulary
+  listen: The trial has been paused while safety concerns are being investigated. It's expected to restart early next year. || Why has the trial been paused? || The results were excellent. | *Safety concerns are being investigated. | The scientists ran out of money. || "Paused while safety concerns are being investigated." || @tags en.listening,en.passive
+  listen: The company is believed to have collected data from millions of users without asking for their permission. || What is the company accused of? || Selling devices that don't work | *Collecting people's data without permission | Losing users' passwords || "Believed to have collected data… without asking for their permission." || @tags en.listening,en.passive
+  ask: A friend asks you about a new technology you've heard about (for example, self-driving buses or smart glasses). Explain how it works, what is generally thought about it and what should be done to make it safe. || kw: is being/has been/have been/are being/will be/is used/are used/was developed/is made/are made & it is thought/it's thought/is said/are said/is believed/it is said/it's said/is expected & should be/must be/needs to be/need to be || Self-driving buses are being tested in several cities. They're controlled by cameras and sensors, and they're said to be safer than human drivers on simple routes. But it is thought that they still struggle in heavy rain. I think they should be tested for much longer, and a human should be kept on board as a backup.
+  write: Write a paragraph (100–120 words) about a recent innovation. Describe how it was developed and how it is used, report what people think about it, and give your opinion. Use at least three different passive forms. || min=90 || req: is/are/was/were/has been/have been/will be & used/developed/tested/made/designed/introduced | it is thought/it is said/it's said/is believed/is said/is expected/is thought/are thought/are believed || Smart insulin pens were developed to help people with diabetes manage their treatment. The pen records every dose, and the information is sent to a phone app automatically. Doctors say this has made treatment easier, because mistakes are noticed sooner. The pens are now being used in many hospitals, and they are expected to become cheaper in the next few years. However, it is thought that some older patients find the apps confusing. In my opinion, the technology should be offered to everyone who needs it, but patients must be given proper training. Otherwise, a useful invention could easily be wasted.
+lessons:
+  - title: Innovation and ethics
+    summary: Discuss new technologies and the ethical questions they raise, and describe processes, research and regulations using the passive in all tenses and with modal verbs.
+    minutes: 50
+    skills: [vocabulary, grammar, listening]
+    tags: [en.passive, en.vocabulary, en.schwa]
+    objectives:
+      - Talk about innovation, research and regulation with precise vocabulary
+      - Use the passive in continuous, perfect and future tenses
+      - Use modal passives (should be labeled, could have been avoided) to discuss rules and responsibility
+    intro: |
+      Every new technology raises questions: Is it safe? Who benefits? Who should decide how it is used? When we discuss these issues, we often focus on the process or the result rather than on who did it: *The product **has been approved**. More tests **are being carried out**.* In this lesson you will extend your knowledge of the **passive** to all tenses and to modal verbs, and use it to discuss the ethics of innovation.
+    vocab: |
+      innovation | a new idea, method or product, or the process of creating one | n | Medical innovation has made many diseases curable. | - | n: Adjective: innovative.
+      breakthrough | an important new discovery or development | n | Scientists have made a breakthrough in battery technology. | - | c: make a breakthrough; a major breakthrough
+      cutting-edge | the most advanced and modern | adj | The lab uses cutting-edge equipment. | -
+      prototype | the first form of a new design, made to test it before it is produced | n | The first prototype was built in a garage. | -
+      trial | a test of a product, treatment or system over a period of time | n | The drug is still in clinical trials. | - | c: a clinical trial; a trial period
+      regulate | to control an activity officially with rules | v | Many people think AI should be regulated more strictly. | - | n: Noun: regulation.
+      approve | to officially accept that something is good enough or safe | v | The new treatment was approved last year. | - | c: approve something for sale/use
+      ethical dilemma | a situation in which you have to choose between two options that are both morally difficult | n phr | Driverless cars raise a serious ethical dilemma. | -
+      unintended consequences | results of an action that were not planned or expected | n phr | Cheap plastic had unintended consequences for the oceans. | -
+      controversial | causing a lot of disagreement | adj | Gene editing is still highly controversial. | - | c: a controversial decision; highly controversial
+      pioneer | one of the first people to develop or use something new | n | She was a pioneer of solar energy research. | - | n: Also a verb: to pioneer a technique.
+      mislead | to make someone believe something that isn't true | v | Customers must not be misled about what they're buying. | - | n: Past: misled. Adjective: misleading.
+      safeguard | a rule or system that protects against harm | n | Strong safeguards are needed to protect patients' data. | -
+    grammar:
+      title: The passive in all tenses
+      body: |
+        We use the passive when the **action or the result** is more important than who did it, when the doer is unknown or obvious, or in formal and scientific writing. The form is always **be** (in the right tense) + **past participle**. Only *be* changes for tense.
+
+        - **Present continuous**: *More applications **are being reviewed**.* (am/is/are + being + past participle)
+        - **Past continuous**: *The lab **was being built** when the funding stopped.*
+        - **Present perfect**: *It **has been approved** in several countries.*
+        - **Past perfect**: *The animals **had** already **been moved** before the tests began.*
+        - **Future**: *The results **will be published** next year.*
+        - **Modals**: *It **should be labeled** clearly. Safety **must be taken** seriously.* For the past: *The mistake **could have been avoided**.*
+        - **Infinitive and -ing forms**: *It **needs to be tested**. Nobody likes **being misled**.*
+
+        Add **by + agent** only when the doer is important or new information: *The first prototype was built **by two students**.*
+      table: |
+        Tense | Active | Passive
+        Present continuous | They are testing it. | It is being tested.
+        Present perfect | They have approved it. | It has been approved.
+        Past perfect | They had grown the cells. | The cells had been grown.
+        Future | They will sell it. | It will be sold.
+        Modal | They should label it. | It should be labeled.
+        Modal perfect | They could have avoided it. | It could have been avoided.
+      examples: |
+        Cultivated meat has been approved for sale in a few countries. | | present perfect passive
+        New safety rules are being discussed by the committee this week. | | present continuous passive + agent
+        The data should have been protected more carefully. | | modal perfect passive
+        Nobody wants to be replaced by a machine. | | passive infinitive
+      tip: |
+        To check a passive form, find be and look at its tense: is being (present continuous), has been (present perfect), will be (future). The past participle never changes.
+    dialogue:
+      title: Meat without the farm?
+      setting: A science podcast recorded in Toronto, Canada. The host, Kofi, is interviewing Ingrid, a food scientist who has spent ten years developing cultivated meat — meat grown from animal cells.
+      speakers: K=Kofi/m; I=Ingrid/f
+      lines: |
+        K: Today's guest has spent ten years growing meat in a lab. Ingrid, how exactly is cultivated meat made?
+        I: A small sample of cells is taken from a living animal, and the cells are grown in large steel tanks.
+        K: And the animal isn't harmed? That's what many of our listeners have been asking.
+        I: No. The sample is taken painlessly, and no animals need to be slaughtered at all.
+        K: Has cultivated meat been approved for sale anywhere yet?
+        I: It's been approved in a few countries, and more applications are being reviewed as we speak.
+        K: Critics say it should be tested for years before it's sold to the public. Is that fair?
+        I: Safety must be taken seriously, of course. Every product is checked far more strictly than ordinary meat.
+        K: What about farmers? Some people worry that their jobs will be replaced by laboratories.
+        I: That's a real concern. Ideally, farmers would be involved in the new industry instead of being left behind.
+        K: And will it be labeled clearly? People want to know what they're eating.
+        I: Absolutely. Customers mustn't be misled. In my view, the word "cultivated" should be printed on every package.
+    pronunciation:
+      title: "Weak forms: been and being"
+      body: |
+        In passive sentences, the auxiliaries are usually unstressed. **Been** is often reduced to "bin", and **has been** sounds like "əz-bin": *It's been approved* → "its-bin-ə-PROOVD". **Being** keeps two syllables but is said quickly: "BEE-ing".
+
+        The stress falls on the past participle, which carries the meaning: *It's being TESTed. It should be LAbeled.* Listen and repeat.
+      items: |
+        It's been approved.
+        It's being tested.
+        It should be labeled.
+        Safety must be taken seriously.
+        It could have been avoided.
+        The results will be published.
+    mistakes: |
+      The new law is discussing in parliament this week. => The new law is being discussed in parliament this week. | The present continuous passive needs being + past participle.
+      The vaccine has been test on thousands of people. => The vaccine has been tested on thousands of people. | The passive always uses the past participle (tested).
+      The data must protected at all times. => The data must be protected at all times. | A modal passive needs be: modal + be + past participle.
+    task:
+      title: An ethics panel
+      mode: interaction
+      body: |
+        In a group, choose one controversial innovation: cultivated meat, facial recognition in public places, delivery drones or gene-edited crops. Each person takes a role (a scientist, a business owner, a worried citizen, a regulator). Prepare three points: how the technology is used, what has been done so far and what should be done next. Use at least five passive forms. Then defend your view on one of these innovations with the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      fill: More applications ___ (review) right now, so we'll know the decision soon. || are being reviewed || An action in progress now, in the passive: are being + past participle. || @tags en.passive
+      fill: The first prototype ___ (build) in 2019. Since then, it ___ (improve) many times. || was built ; has been improved || Past simple passive for a finished past time; present perfect passive for the period up to now. || @tags en.passive
+      fill: By the time the trial ended, more than five thousand patients ___ (treat). || had been treated || Past perfect passive: had been + past participle, for an action before a past point. || @tags en.passive,en.past-perfect
+      mc: The accident could ___ if the software had been tested properly. || *have been avoided | be avoided | have avoided || Modal perfect passive: could have been + past participle. The accident receives the action. || @tags en.passive
+      mc: Choose the correct sentence. || The cells are growing by scientists in steel tanks. | *The cells are grown by scientists in steel tanks. | The cells are grow by scientists in steel tanks. || Present simple passive: are + past participle (grown). The other two mix up active and passive forms. || @tags en.passive
+      rw: Rewrite in the passive, without the agent :: Engineers are testing the new battery in extreme temperatures. || The new battery is being tested in extreme temperatures. || Present continuous passive. The agent (engineers) is obvious, so it is left out. || @tags en.passive
+      rw: Rewrite in the passive :: They will have installed the new system by the end of the year. || The new system will have been installed by the end of the year. || Future perfect passive: will have been + past participle. || @tags en.passive
+      match: unintended = consequences ; ethical = dilemma ; major = breakthrough ; clinical = trial ; cutting-edge = technology || Common collocations: unintended consequences, an ethical dilemma, a major breakthrough, a clinical trial, cutting-edge technology. || @hint Match the words to make common expressions. @skill vocabulary @tags en.collocations
+      tf: Animals have to be killed to produce cultivated meat. || false || Ingrid says, "no animals need to be slaughtered at all." || @ctx dialogue
+      short: Where are the animal cells grown? || kw: tank/tanks || "The cells are grown in large steel tanks." || @ctx dialogue
+      listen: @dialogue || What does Ingrid say about labeling? || Labels aren't necessary. | *The word "cultivated" should be printed on every package. | The product should be labeled as ordinary meat. || "The word 'cultivated' should be printed on every package." || @tags en.listening
+      listen: The delivery drone trial has been suspended while complaints about noise are being investigated. It's expected to restart in the spring. || Why has the trial stopped? || A drone crashed. | *Noise complaints are being looked into. | The drones were too expensive. || "Suspended while complaints about noise are being investigated." || @tags en.listening,en.passive
+      order: The new rules are being discussed by the committee. || @tags en.passive
+      dict: The project has been delayed because the funding hasn't been approved yet. || present perfect passive
+      write: Write a paragraph (90–110 words) about an innovation that you think should be regulated more strictly. Explain how it is used, what has been done so far and what should be done. Use at least three passive forms. || min=80 || req: is/are/has been/have been/was/were/will be & used/developed/introduced/tested/sold/made | should be/must be/needs to be/need to be/ought to be || Facial recognition cameras are now used in many shopping centers and train stations. The technology was developed to find criminals, but it has also been used to track ordinary people without their knowledge. Some rules have been introduced, but they are not always followed. In my opinion, the cameras should be allowed only in specific situations, for example at airports. People must be told clearly when they are being filmed, and all images should be deleted after a short time. If strong safeguards are not created soon, our privacy could be lost for good.
+
+  - title: Artificial intelligence
+    summary: Discuss the benefits and risks of artificial intelligence, and report what is generally said, believed or expected using impersonal passive structures.
+    minutes: 50
+    skills: [speaking, grammar, vocabulary]
+    tags: [en.passive, en.vocabulary, en.word-stress]
+    objectives:
+      - Talk about artificial intelligence, data and bias with precise vocabulary
+      - Report beliefs and claims with It is said/thought/believed that…
+      - Use subject + is said/thought/believed + to-infinitive, including perfect and continuous forms
+    intro: |
+      Few topics generate as many opinions as artificial intelligence. When we discuss it, we often report what *people* or *experts* say without naming anyone: *It is believed that…*, *AI is thought to…* These **impersonal passive** structures are typical of the news, reports and academic writing, and they let you present information carefully. In this lesson you will use them to discuss AI in education.
+    vocab: |
+      algorithm | a set of instructions that a computer follows to solve a problem or make a decision | n | The app uses an algorithm to recommend videos. | -
+      chatbot | a computer program that has conversations with people, usually in writing | n | I asked a chatbot to explain the rules of cricket. | -
+      generate | to produce or create something | v | The software can generate a report in seconds. | - | c: generate ideas; generate text
+      bias | an unfair preference for or against a person or group, which affects decisions | n | If the training data contains bias, the system will repeat it. | - | c: unconscious bias; gender bias | n: Adjective: biased.
+      accuracy | the quality of being correct and exact | n | The accuracy of the translation surprised me. | - | n: Adjective: accurate.
+      rely on | to need or depend on something or someone | phr v | Some students rely on AI too much. | -
+      make (something) up | to invent information that isn't true | phr v | The chatbot made up a quote from a famous writer. | -
+      detect | to notice or discover something that is difficult to see | v | The tool claims to detect AI-generated essays. | - | n: Noun: detection.
+      critical thinking | the ability to analyze information carefully and judge whether it is true or useful | n phr | Critical thinking matters more than ever. | -
+      privacy | the right to keep your personal life and information to yourself | n | Many users are worried about their privacy. | - | c: data privacy; invade someone's privacy
+      transparent | open and honest about how something works or how decisions are made | adj | Companies should be transparent about how they use our data. | - | n: Noun: transparency.
+      feedback | comments about how well someone is doing something | n | Students get instant feedback on their pronunciation. | - | c: give feedback; instant feedback | n: Uncountable: some feedback, not a feedback.
+      cheat | to behave dishonestly in order to get an advantage, for example in an exam | v | Using AI to write your essay is considered cheating at our school. | -
+    grammar:
+      title: "Impersonal passives: It is said that…, X is thought to…"
+      body: |
+        To report what people generally say, think or believe — without saying who — we use **reporting verbs in the passive**: *say, think, believe, expect, know, report, consider, estimate, claim*. There are two patterns.
+
+        **1. It + passive + that-clause**: ***It is believed that** most students use AI tools.* ***It has been reported that** the system made mistakes.*
+
+        **2. Subject + passive + to-infinitive**: *Most students **are believed to use** AI tools.* The infinitive changes to show time:
+        - same time: **to + base form** — *The tool **is said to be** very accurate.*
+        - in progress: **to be + -ing** — *The company **is thought to be developing** a new model.*
+        - earlier: **to have + past participle** — *The system **is known to have made** several errors.*
+
+        Don't mix the two patterns: ~~AI is said that it will…~~. Choose *It is said that AI will…* or *AI is said to…*.
+
+        The expression **has been known to** means that something happens occasionally: *Detection tools **have been known to** accuse innocent students.*
+      table: |
+        Pattern | Example | Time
+        It is + past participle + that… | It is thought that AI will create new jobs. | any time (in the that-clause)
+        Subject + is + past participle + to + base form | AI is thought to create new jobs. | same time / general
+        … + to be + -ing | The firm is believed to be testing a new tool. | in progress now
+        … + to have + past participle | The tool is said to have made errors. | earlier action
+      examples: |
+        It is generally agreed that students should learn to use AI critically. | | It + passive + that-clause
+        Around seventy percent of teenagers are estimated to use chatbots every week. | | subject + passive + to-infinitive
+        The company is reported to be working on a new language model. | | to be + -ing: in progress
+        The essay is known to have been copied from a chatbot. | | to have been + past participle: earlier, passive
+      tip: |
+        These structures are fairly formal. In conversation, people often say "Apparently…" or "They say…" instead.
+    dialogue:
+      title: The homework question
+      setting: A staff room at a secondary school in Cape Town, South Africa. Thandi, the head of English, and Ravi, who teaches computer science, are discussing whether students should be allowed to use AI tools for homework.
+      speakers: T=Thandi/f; R=Ravi/m
+      lines: |
+        T: Have you seen the new report from the education department? It says most of our students use AI tools for homework.
+        R: I read it last night. Around seventy percent of teenagers are believed to use chatbots at least once a week.
+        T: It's often said that these tools make students lazy. Do you think that's true?
+        R: Not necessarily. Students who use them well are thought to learn faster, because they get instant feedback.
+        T: But half the essays I'm marking sound identical, and one of them is known to have been copied word for word.
+        R: That's a real problem. The detection tools are claimed to be accurate, but they've been known to accuse innocent students.
+        T: So banning AI completely isn't the answer either. Students will be expected to use it at university anyway.
+        R: Exactly. It's generally agreed that we should teach them to use it critically instead.
+        T: What would that look like in practice, in your subject?
+        R: Students could be asked to compare a chatbot's answer with a textbook and find the mistakes.
+        T: I like that. Chatbots are known to make things up sometimes, so the students would learn to check their sources.
+        R: Let's suggest it at Monday's staff meeting. If nothing else, it'll make for a lively discussion.
+    pronunciation:
+      title: Word stress in technology words
+      body: |
+        Long technology words have one main stress, and the other syllables are often reduced to a schwa. Compare: **AL**gorithm, arti**FI**cial, in**TEL**ligence, tech**NO**logy, **AC**curacy, trans**PA**rent.
+
+        Watch out for word families where the stress moves: **TECH**nical but tech**NO**logy; **A**nalyze but a**NA**lysis. Listen and repeat.
+      items: |
+        algorithm
+        artificial intelligence
+        technology
+        accuracy
+        transparent
+        It is generally agreed.
+    culture:
+      title: Plagiarism and academic honesty
+      body: |
+        Universities and schools in English-speaking countries take **plagiarism** — presenting someone else's work as your own — very seriously. Many now have clear rules about AI: some allow it for brainstorming or checking grammar but require students to say how they used it, while others ban it in exams completely.
+
+        If you study in English, always check the policy and **cite your sources**. Saying *I used a chatbot to suggest a structure, but the writing is my own* is usually far better than saying nothing.
+    mistakes: |
+      AI is said that it will change education. => It is said that AI will change education. | Use either It is said that + clause or subject + is said + to-infinitive. Don't mix them.
+      The system is thought to make the error last year. => The system is thought to have made the error last year. | For an action earlier than the reporting, use to have + past participle.
+      It is expecting that prices will fall. => It is expected that prices will fall. | The structure is passive: It is + past participle.
+    task:
+      title: AI in my world
+      mode: speaking
+      body: |
+        Prepare a two-minute talk on how AI is changing one area you know well: your job, your studies, healthcare, music or translation. Include at least three things that are generally said or believed (*It's widely thought that…*, *Chatbots are known to…*) and say whether you agree. Then discuss the question "Should AI tools be allowed in schools?" with the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      fill: It ___ (believe) that AI will create as many jobs as it replaces. || is believed / 's believed || Impersonal passive: It + is + past participle + that-clause. || @tags en.passive
+      fill: The system is reported ___ (make) several serious errors last year. || to have made || The errors happened before the reporting, so use to have + past participle. || @tags en.passive
+      mc: Choose the correct sentence. || *The company is said to be developing a new model. | The company is said that it is developing a new model. | The company says to be developing a new model. || Subject + is said + to be + -ing for an action in progress. The other two mix patterns or use the active. || @tags en.passive
+      mc: Students are expected ___ AI tools responsibly. || *to use | using | that they use || Subject + is/are expected + to-infinitive. || @tags en.passive
+      rw: Rewrite starting "It is" :: People say that the new model is far more accurate. || It is said that the new model is far more accurate. | It's said that the new model is far more accurate. || It + passive reporting verb + that-clause. || @tags en.passive
+      rw: Rewrite starting "The software" :: People believe that the software caused the error. || The software is believed to have caused the error. || The cause came before the believing, so use to have + past participle. || @tags en.passive
+      rw: Rewrite starting "Over half of all students" :: Experts estimate that over half of all students use chatbots for homework. || Over half of all students are estimated to use chatbots for homework. || Subject + are estimated + to-infinitive (same time). || @tags en.passive
+      match: critical = thinking ; data = privacy ; artificial = intelligence ; instant = feedback ; unconscious = bias || Common collocations: critical thinking, data privacy, artificial intelligence, instant feedback, unconscious bias. || @hint Match the words to make common expressions. @skill vocabulary @tags en.collocations
+      tf: Ravi thinks the school should ban AI tools completely. || false || Ravi agrees that banning AI "isn't the answer" and suggests teaching students to use it critically. || @ctx dialogue
+      short: What activity does Ravi suggest for his students? || kw: compare & mistakes/errors/textbook || Students could compare a chatbot's answer with a textbook and find the mistakes. || @ctx dialogue
+      listen: @dialogue || What problem with detection tools does Ravi mention? || They are too expensive for schools. | *They have sometimes accused innocent students. | They can't read handwriting. || "They've been known to accuse innocent students." || @tags en.listening
+      listen: The new translation app is said to be the most accurate ever released, although it is known to struggle with jokes and idioms. || What is the app's weakness? || *Jokes and idioms | Long documents | Rare languages || "It is known to struggle with jokes and idioms." || @tags en.listening,en.passive
+      dict: It is generally agreed that students should learn to use AI critically. || It is + past participle + that…
+      ask: A friend asks, "Will AI take everyone's jobs?" Answer by reporting what is generally said or expected, then give your own view. || kw: it is said/it's said/it is thought/it's thought/it is believed/it's believed/it is expected/it's expected/is said to/are said to/is thought to/are thought to/is expected to/are expected to/is believed to/are believed to || It's often said that AI will replace millions of workers, but it's also expected to create new kinds of jobs. Routine office tasks are thought to be most at risk. Personally, I think jobs that involve caring for people are much safer.
+      write: Write a paragraph (90–110 words) for a school newsletter about AI and homework. Report what is generally said and believed, then give your own recommendation. Use both impersonal passive patterns at least once. || min=80 || req: it is said/it's said/it is thought/it's thought/it is believed/it's believed/it is expected/it's expected/it is generally agreed/it's generally agreed/it is often said/it's often said | is said to/are said to/is thought to/are thought to/is believed to/are believed to/is expected to/are expected to/is known to/are known to/is estimated to/are estimated to || AI tools are now part of everyday life for most students. In fact, over half of our students are estimated to use a chatbot at least once a week. It is often said that these tools encourage cheating, and some essays are known to have been copied directly. However, it is also believed that AI can help students learn faster when it is used well, for example to get feedback on a first draft. We recommend that students be allowed to use AI for planning and checking, provided that they explain how they used it. Teachers will be given training next term.
+
+  - title: Health and medicine in the news
+    summary: Read a news article about a community health scheme, discuss medical news critically, and talk about services and experiences with have/get something done.
+    minutes: 50
+    skills: [reading, grammar, speaking]
+    tags: [en.causative, en.health, en.reading]
+    objectives:
+      - Understand the main points and different opinions in a health news article
+      - Use have/get + object + past participle for services that other people do for you
+      - Use have/get something done for unpleasant experiences, and have someone do / get someone to do
+    intro: |
+      Health stories are among the most-read articles in any newspaper, but headlines can be misleading. A good reader looks for the facts, the evidence and the critics' views. In this lesson you will read a news article about a health scheme and learn the **causative** — *have/get something done* — which we use all the time to talk about medical checks, repairs and services that other people do for us.
+    vocab: |
+      screening | testing people to find out if they have a disease, before they have symptoms | n | Breast cancer screening is offered to women over fifty. | - | c: health screening; a screening program
+      blood pressure | the force with which blood moves through your body | n phr | High blood pressure rarely causes symptoms. | - | c: high/low blood pressure; take someone's blood pressure
+      diagnose | to identify what illness a person has | v | She was diagnosed with diabetes last year. | - | c: be diagnosed with something | n: Noun: diagnosis.
+      treatable | able to be cured or controlled with medical care | adj | Most skin cancers are treatable if found early. | -
+      side effect | an unwanted extra effect of a medicine or treatment | n phr | Tiredness is a common side effect of the medication. | -
+      pilot scheme | a small trial of a new system before it is used more widely | n phr | The pilot scheme will run for twelve months. | - | n: American English often says pilot program.
+      waiting list | a list of people waiting for a service, such as an operation | n phr | There's a six-month waiting list for knee surgery. | -
+      GP | a doctor who treats general health problems in a local community (general practitioner) | n | You should see your GP if the pain continues. | - | n: Mainly British; American English: family doctor, primary care doctor.
+      prevention | stopping something bad from happening | n | Prevention is cheaper than treatment. | - | c: disease prevention | n: Verb: prevent.
+      refer | to send someone to a specialist or another service for help | v | My GP referred me to a heart specialist. | - | c: refer someone to someone
+      get (something) checked out | to have something examined by a doctor or expert to make sure it's OK | expr | You should get that cough checked out. | - | n: Informal.
+      findings | the information that people discover as a result of research | n pl | The findings were published in a medical journal. | -
+    grammar:
+      title: "have/get something done"
+      body: |
+        We use the **causative** to say that **someone else** does something for us, usually because we ask or pay them. The form is **have** or **get** + **object** + **past participle**: *I **had my blood pressure checked**.* (A nurse checked it.) Compare: *I **checked** my blood pressure* (I did it myself).
+
+        - **have** and **get** can be used in any tense: *I'm **having** my eyes **tested** tomorrow. She's **just had** a tooth **removed**. You should **get** that cough **checked out**.*
+        - **get** is a little more informal and common in speech.
+        - The same structure describes **unpleasant experiences** caused by someone else: *He **had his phone stolen** at the hospital.*
+
+        To name the person who does the job, use **have + person + base form** or **get + person + to-infinitive**: *I **had the nurse check** my prescription. I **got my brother to drive** me to the clinic.*
+      table: |
+        Structure | Example | Meaning
+        have + object + past participle | I had my eyes tested. | an optician tested them
+        get + object + past participle | I need to get my knee looked at. | informal
+        have + object + past participle (experience) | She had her bag stolen. | something bad happened to her
+        have + person + base form | The doctor had me lie down. | the doctor asked me to
+        get + person + to-infinitive | I got my sister to come with me. | I persuaded her
+      examples: |
+        Thousands of people have had their blood pressure checked at local libraries. | | present perfect + causative
+        I'm getting my flu jab done at the pharmacy on Friday. | | get + object + past participle, future arrangement
+        He had his wallet stolen while he was in the waiting room. | | an unpleasant experience
+        The physiotherapist had me repeat the exercises every morning. | | have + person + base form
+      tip: |
+        Word order matters: "I had my hair cut" (a hairdresser cut it) is very different from "I had cut my hair" (past perfect — I did it myself, earlier).
+    reading:
+      title: Health checks on the high street
+      text: |
+        Thousands of people in Bristol have had their blood pressure checked in libraries, community centers and even barbershops over the past year, as part of a pilot scheme designed to catch serious health problems before they become emergencies.
+
+        The project, which was launched last spring by a group of local GP practices, allows anyone over forty to walk in without an appointment and have a range of basic tests done in about fifteen minutes. Visitors can get their blood pressure measured and their heart rhythm checked, and they receive advice on diet and exercise from trained health workers.
+
+        According to the scheme's organizers, almost one in five of the people tested had high blood pressure that had never been diagnosed. "High blood pressure rarely causes symptoms, so many people simply don't know they have it," explained Dr. Amara Okoye, one of the GPs behind the project. "It's very treatable, but if it isn't detected, it can lead to strokes and heart attacks. Early detection really does save lives."
+
+        Many of those who took part said they would not have gone to a doctor otherwise. Winston Clarke, a fifty-eight-year-old bus driver, had his blood pressure taken while he was waiting for a haircut. "I hadn't had a check-up for about ten years," he said. "They told me my reading was dangerously high, and I was referred to my GP the same week. Now I'm on medication, and I've cut down on salt. My barber probably saved my life."
+
+        The scheme has not been without its critics. Some doctors have warned that walk-in tests could cause unnecessary worry, or lead to longer waiting lists if large numbers of people are referred for further tests. Others argue that the money would be better spent on reducing waiting times for existing patients.
+
+        Dr. Okoye accepts that the scheme must be carefully evaluated. "We need to make sure that people who are referred actually get seen quickly," she said. "But prevention is far cheaper than treatment. If we can stop even a handful of strokes, the scheme pays for itself."
+
+        The pilot is due to be reviewed in the fall, and health officials in several other cities are said to be watching closely. In the meantime, organizers are encouraging anyone over forty who has not had their blood pressure checked in the last year to drop in. "It takes a quarter of an hour," said Mr. Clarke. "There's really no excuse."
+    pronunciation:
+      title: Stress in causative sentences
+      body: |
+        In causative sentences, the main stress usually falls on the **object** or the **past participle**, not on *have* or *get*: *I had my EYES tested. I need to get my KNEE looked at.* If you stress *had*, it can sound like you are correcting someone.
+
+        Notice also the difference in rhythm between *I had my hair CUT* (causative) and *I'd CUT my hair* (past perfect). Listen and repeat.
+      items: |
+        I had my blood pressure checked.
+        You should get that cough checked out.
+        She's having her eyes tested.
+        He had his wallet stolen.
+        I got my brother to drive me.
+        blood pressure
+    mistakes: |
+      I need to cut my hair at the hairdresser's. => I need to have my hair cut at the hairdresser's. | If someone else does it for you, use have/get + object + past participle.
+      I had checked my eyes by an optician. => I had my eyes checked by an optician. | Word order: have + object + past participle.
+      I got my brother drive me to the hospital. => I got my brother to drive me to the hospital. | Get + person + to-infinitive (but have + person + base form).
+    task:
+      title: Read the news like an expert
+      mode: speaking
+      body: |
+        Find a short health or medical news story in English. Prepare a one-minute summary: what was found or offered, who was involved, what the evidence was, and what critics said. Then explain whether you think the headline was fair. Finally, describe a recent medical check or appointment, using have/get something done, to the AI coach in the "At the doctor's" scenario.
+    exercises: |
+      mc: What is the main aim of the Bristol scheme? || To reduce the number of GP practices | *To find health problems such as high blood pressure early | To train barbers as nurses || It was "designed to catch serious health problems before they become emergencies." || @ctx reading @skill reading @tags en.reading
+      tf: Visitors need to book an appointment before they come. || false || The scheme allows people "to walk in without an appointment." || @ctx reading @tags en.reading
+      short: Where did Winston Clarke have his blood pressure taken? || kw: barber/barbershop/barber's/haircut || He had it taken "while he was waiting for a haircut" — at a barbershop. || @ctx reading @tags en.reading
+      mc: Which concern do some critics raise? || The tests are too slow. | *The scheme could make waiting lists longer. | Only people under forty can take part. || Critics warn of "longer waiting lists if large numbers of people are referred for further tests." || @ctx reading @skill reading @tags en.reading
+      fill: I can't read the menu without my glasses anymore. I need to ___ my eyes ___. || have / get ; tested / checked / examined || have/get + object + past participle: an optician will do it. || @tags en.causative
+      fill: I ___ my wallet ___ (steal) in the hospital car park yesterday. || had / got ; stolen || have/get + object + past participle can describe something unpleasant that someone did to you. || @tags en.causative
+      rw: Rewrite using "have" :: A dentist is going to remove two of my teeth next week. || I'm going to have two of my teeth removed next week. | I'm going to have two teeth removed next week. | I'm having two of my teeth removed next week. | I'm having two teeth removed next week. | I am going to have two of my teeth removed next week. | I am having two of my teeth removed next week. || have + object (two teeth) + past participle (removed). || @tags en.causative
+      rw: Rewrite using "get" :: A nurse vaccinated me before my trip to Ghana. || I got vaccinated before my trip to Ghana. | I got myself vaccinated before my trip to Ghana. | I got vaccinated by a nurse before my trip to Ghana. || Get + past participle (got vaccinated) describes something done to you. || @tags en.causative
+      mc: In which sentence did someone else do the action? || I cut my hair yesterday. | *I had my hair cut yesterday. | I had cut my hair before the party. || Had + object + past participle = someone else did it. "I had cut my hair" is the past perfect: I did it myself. || @tags en.causative,en.past-perfect
+      mc: "That cough has lasted three weeks. You should get it ___." || *checked out | check out | to check out || Get + object + past participle: get it checked out. || @tags en.causative
+      listen: I finally got my hearing tested last month. It turns out I don't need a hearing aid at all — I just needed to have my ears cleaned! || What was the cause of the speaker's hearing problem? || They needed a hearing aid. | *Their ears needed cleaning. | They had an ear infection. || "I don't need a hearing aid at all — I just needed to have my ears cleaned!" || @tags en.listening,en.causative
+      order: You should have your blood pressure checked every year. || @tags en.causative
+      dict: Many people don't know they have high blood pressure because it rarely causes symptoms. || rarely + present simple
+      ask: A friend tells you they've had headaches every day for two weeks. Give advice using have/get something done. || kw: should/ought to/why don't you/I'd/I would/you need to & have/get & checked/tested/examined/looked at/seen || You should get that checked out. Why don't you have your eyes tested? Headaches are sometimes caused by needing glasses. And I'd get your blood pressure checked at the pharmacy too.
+      write: Write a short news report (90–110 words) about a health service or scheme in your town, real or imagined. Say what is offered, what people can have done and what one person said about it. || min=80 || req: have/has/had/get/got & checked/tested/done/measured/examined/vaccinated | said/says/explained/according to || A new mobile health unit has started visiting villages in our region every Tuesday. Residents can have their eyes tested, get their blood sugar measured and have vaccinations done without traveling to the city hospital. The service was introduced after a study found that many older people were missing check-ups because of the long journey. "I had my eyes tested for the first time in six years," said Marta Lis, a seventy-two-year-old farmer. "Now I've got new glasses, and I can read the newspaper again." Organizers hope to add dental checks next year.

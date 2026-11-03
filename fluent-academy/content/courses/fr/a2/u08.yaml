@@ -1,0 +1,356 @@
+unit: 8
+title: Projets et choix
+theme: Plans and choices
+description: Talk about your plans and hopes for the future, make arrangements with conditions, and compare options to make a choice, using the futur simple, si + présent and superlatives.
+free: false
+objectives:
+  - Talk about plans and predictions with the futur simple, including irregular verbs
+  - Make arrangements and set conditions with si + présent + futur or imperative
+  - Compare several options and choose the best one with superlatives
+canDo:
+  - I can talk about my plans for next year and my longer-term projects.
+  - I can make arrangements with a friend and say what will happen if plans change.
+  - I can compare several options and say which one is the best.
+  - I can explain and justify a choice.
+review: |
+  fill: L'année prochaine, nous ___ (pouvoir) acheter une maison. || pourrons || Pouvoir has the irregular future stem pourr-: nous pourrons. || @tags fr.futur-simple
+  fill: Si tu ___ (venir) à Lyon, je te montrerai la vieille ville. || viens || After si (a condition), use the present: si tu viens. || @tags fr.si-clauses
+  fill: C'est le film ___ plus drôle de l'année ! || le || Superlative after the noun: the article is repeated — le film le plus drôle. || @tags fr.comparatives
+  mc: Choose the correct sentence. || *Quand je serai à Paris, je t'enverrai une carte. | Quand je suis à Paris demain, je t'enverrai une carte. | Quand je serai à Paris, je t'envoyerai une carte. || Quand + futur for a future action, and envoyer has the irregular stem enverr-. || @tags fr.futur-simple
+  mc: Le mont Blanc est ___ montagne d'Europe occidentale. || *la plus haute | la plus haut | plus haute || Superlative: la + plus + adjective; haute agrees with montagne (feminine). || @tags fr.comparatives
+  rw: Join the two sentences with si :: Il pleut demain. Nous visiterons le musée. || S'il pleut demain, nous visiterons le musée. | Nous visiterons le musée s'il pleut demain. || Si + il = s'il; the condition is in the present, the result in the futur. || @tags fr.si-clauses
+  tr: When I'm thirty, I'll live in Montreal. || Quand j'aurai trente ans, j'habiterai à Montréal. | Quand j'aurai 30 ans, j'habiterai à Montréal. | Quand j'aurai trente ans, je vivrai à Montréal. || Quand + futur (j'aurai); age uses avoir. || @tags fr.futur-simple
+  listen: Si tout va bien, je finirai mon master en juin et je commencerai à travailler en septembre. || When will the speaker start working? || In June | *In September | Next January || "Je commencerai à travailler en septembre" — June is when the master's ends. || @tags fr.futur-simple,fr.listening
+  listen: Pour aller à l'aéroport, le taxi est le plus rapide, mais le RER est le moins cher. || Which option is the cheapest? || The taxi | *The RER (the train) | The bus || "Le RER est le moins cher"; the taxi is the fastest. || @tags fr.comparatives,fr.listening
+  ask: Arrange to meet a friend next weekend: suggest a day, a time and a place, and add one condition with si. || kw: si/s'il & samedi/dimanche/week-end || On se retrouve samedi à quinze heures devant la gare ? S'il fait beau, on ira au bord du lac. Si tu es en retard, envoie-moi un message !
+  write: Write an email to a friend about your summer plans — compare two or three destinations, say which is the best for you and add a condition with si. || min=60 || req: si/s'il | ferai/irai/partirai/serai/pourrai/verrai/aurai/visiterai/prendrai/resterai | le plus/la plus/le moins/la moins/meilleur/meilleure || Salut Clément ! Cet été, je partirai trois semaines en vacances. J'hésite entre l'Écosse, la Croatie et le Portugal. L'Écosse est la destination la plus fraîche, mais c'est aussi la plus chère. La Croatie a les plus belles plages. À mon avis, le Portugal est la meilleure option : c'est le moins cher et je pourrai voir ma cousine à Porto. Si les billets ne sont pas trop chers, je réserverai ce week-end ! Et toi, tu feras quoi ? Bises, Jade
+lessons:
+  - title: Future plans
+    summary: Talk about your plans, hopes and predictions with the futur simple, including the most common irregular verbs.
+    minutes: 45
+    skills: [grammar, speaking, writing]
+    tags: [fr.futur-simple, fr.futur-proche]
+    objectives:
+      - Use the futur simple of the most common irregular verbs (pouvoir, vouloir, venir, voir, devoir…)
+      - Use future time expressions (dans deux ans, l'année prochaine, un jour…) and quand + futur
+      - Talk about your plans and hopes for the coming years
+    intro: |
+      Where will you be in five years? What will you do after your studies, or when you retire? To talk about the future beyond next weekend, French uses the **futur simple**. In unit 7 you learned its endings and four irregular stems; now you'll learn the other common irregular verbs and how to use the future after *quand*.
+    vocab: |
+      un projet | a plan; a project | n | Quels sont tes projets pour l'année prochaine ? | What are your plans for next year? | c: faire des projets; un projet professionnel | g: m
+      l'avenir | the future | n | Je pense beaucoup à mon avenir. | I think a lot about my future. | g: m | n: À l'avenir = in future, from now on. Le futur is mainly the name of the tense.
+      dans | in (from now) | prep | Je finirai mes études dans deux ans. | I'll finish my studies in two years. | n: Dans + duration = from now. Compare il y a (ago).
+      l'année prochaine | next year | expr | L'année prochaine, je ferai un stage à l'étranger. | Next year I'll do an internship abroad. | n: Also la semaine prochaine, le mois prochain.
+      un jour | one day; someday | expr | Un jour, j'aurai une maison au bord de la mer. | One day I'll have a house by the sea.
+      déménager | to move (house) | v | Nous déménagerons à Montréal en août. | We'll move to Montreal in August. | n: Un déménagement = a move.
+      prendre sa retraite | to retire | expr | Mon père prendra sa retraite dans trois ans. | My father will retire in three years. | n: Être à la retraite = to be retired.
+      créer | to create; to set up | v | Elle veut créer son entreprise. | She wants to set up her own business. | c: créer une entreprise; créer une association
+      économiser | to save (money) | v | J'économise pour un voyage en Asie. | I'm saving up for a trip to Asia. | n: Mettre de l'argent de côté = to put money aside.
+      un rêve | a dream | n | Mon rêve, c'est de faire le tour du monde. | My dream is to travel around the world. | c: réaliser un rêve | g: m
+      espérer | to hope | v | J'espère qu'il fera beau demain. | I hope the weather will be nice tomorrow. | n: J'espère que + futur. J'espère, nous espérons.
+      devenir | to become | v | Plus tard, je deviendrai vétérinaire. | Later, I'll become a vet. | n: Future stem deviendr- (like venir → viendr-).
+      peut-être | maybe; perhaps | adv | Je partirai peut-être en Australie. | I might go to Australia.
+    grammar:
+      title: The futur simple — irregular verbs and quand
+      body: |
+        You already know the endings (**-ai, -as, -a, -ons, -ez, -ont**) and the stems *ser-, aur-, ir-, fer-*. Other common verbs also have an irregular stem — the endings never change:
+
+        - *pouvoir → **pourr**-, vouloir → **voudr**-, devoir → **devr**-, savoir → **saur**-*
+        - *venir → **viendr**-* (also *devenir, revenir*), *voir → **verr**-, envoyer → **enverr**-*
+        - *il faut → il **faudra**, il pleut → il **pleuvra***
+
+        **Quand + futur:** when a *quand* clause refers to the future, French uses the future in it too — unlike English: *Quand je **serai** à la retraite, je **voyagerai**.* (When I retire, I'll travel.)
+
+        **Futur proche or futur simple?** Both are often possible. The near future (*je vais déménager*) is very common in conversation for decided or close plans; the futur simple is more frequent for the distant or uncertain future, predictions, promises and in writing.
+      table: |
+        Infinitive | Stem | je | nous
+        pouvoir | pourr- | je pourrai | nous pourrons
+        vouloir | voudr- | je voudrai | nous voudrons
+        devoir | devr- | je devrai | nous devrons
+        venir | viendr- | je viendrai | nous viendrons
+        voir | verr- | je verrai | nous verrons
+        savoir | saur- | je saurai | nous saurons
+        envoyer | enverr- | j'enverrai | nous enverrons
+        falloir | faudr- | il faudra | —
+      examples: |
+        Dans cinq ans, je pourrai parler couramment français. | In five years, I'll be able to speak French fluently. | pouvoir → pourr-
+        Quand nous aurons des enfants, nous habiterons à la campagne. | When we have children, we'll live in the countryside. | quand + futur
+        Tu verras, tout se passera bien ! | You'll see, everything will be fine! | voir → verr-
+        Il faudra trouver un appartement avant septembre. | We'll have to find a flat before September. | il faut → il faudra
+      tip: "Tu verras ! (You'll see!) and On verra. (We'll see.) are everyday expressions — start using them today."
+    dialogue:
+      title: Et après le bac ?
+      setting: June, in a café in Toulouse. Maëlle, 18, has just finished her bac. She talks to her aunt Nadia about the future.
+      speakers: M=Maëlle/f; N=Nadia/f
+      lines: |
+        N: Alors, Maëlle, tu as des projets pour l'année prochaine ? | So, Maëlle, do you have plans for next year?
+        M: Oui ! En septembre, je partirai à Bordeaux pour mes études. | Yes! In September I'll go to Bordeaux for my studies.
+        N: Et après tes études, qu'est-ce que tu voudras faire ? | And after your studies, what will you want to do?
+        M: Je voudrais travailler à l'étranger, peut-être au Canada. | I'd like to work abroad, maybe in Canada.
+        N: Tu devras parler anglais couramment, alors ! | You'll have to speak fluent English, then!
+        M: Je sais. Quand je serai à Bordeaux, je prendrai des cours. | I know. When I'm in Bordeaux, I'll take lessons.
+        N: Et ton copain, Lucas ? Il viendra avec toi ? | And your boyfriend, Lucas? Will he come with you?
+        M: Non, il restera ici. Mais on se verra souvent, j'espère ! | No, he'll stay here. But we'll see each other often, I hope!
+        N: Tu verras, ce sera une année géniale. | You'll see, it'll be a great year.
+        M: Et toi, tata ? Tu as des projets aussi ? | And you, auntie? Do you have plans too?
+        N: Oui ! L'année prochaine, j'ouvrirai enfin mon restaurant ! | Yes! Next year I'll finally open my restaurant!
+    pronunciation:
+      title: "Je ferai [ʒə.fə.ʁe] or je ferais [ʒə.fə.ʁɛ]?"
+      body: |
+        For *je*, the future (*je ferai, je pourrai*) and the conditionnel (*je ferais, je pourrais*) differ only in the final vowel: a closed [e] for the future, an open [ɛ] for the conditionnel. Many speakers hardly make the difference, so the context usually tells you — but in writing, the **-s** matters.
+
+        Practise the irregular stems with a clear [ʁ]: *viendrai* [vjɛ̃.dʁe], *verrai* [vɛ.ʁe], *pourrai* [pu.ʁe].
+      items: |
+        je ferai
+        je pourrai
+        tu verras
+        il viendra
+        nous devrons
+        il faudra
+    culture:
+      title: Après le bac
+      body: |
+        In their last year of *lycée*, French students apply for higher education on a national online platform, *Parcoursup*: they list their choices in winter and receive answers from late May.
+
+        Some young people take *une année de césure* (a gap year) to travel, work or volunteer — for example through the *service civique*, a paid volunteering programme for 16- to 25-year-olds.
+    mistakes: |
+      Je pouverai venir demain. => Je pourrai venir demain. | Pouvoir has an irregular future stem: pourr-.
+      Quand je suis grand, je serai pilote. => Quand je serai grand, je serai pilote. | After quand, French uses the future when the action is in the future.
+      Je vienderai samedi. => Je viendrai samedi. | Venir has the future stem viendr-.
+    task:
+      title: Me in five years
+      mode: speaking
+      body: |
+        Prepare a two-minute talk starting *Dans cinq ans…* Where will you live, what will you do, who will you be with, what will you have learned? Use at least six verbs in the futur simple, including three irregular ones, and one sentence with *quand*. Present it to the AI coach and answer its questions.
+    exercises: |
+      fill: L'année prochaine, je ___ (pouvoir) partir en vacances en juillet. || pourrai || Pouvoir → pourr- + -ai. || @tags fr.futur-simple
+      fill: Mes parents ___ (venir) nous voir à Noël. || viendront || Venir → viendr- + -ont. || @tags fr.futur-simple
+      fill: Tu ___ (voir), Paris est magnifique au printemps ! || verras || Voir → verr- + -as: tu verras. || @tags fr.futur-simple
+      fill: Il ___ (falloir) réserver les billets avant mars. || faudra || Il faut → il faudra. || @tags fr.futur-simple
+      mc: Choose the correct sentence. || Quand j'ai le temps demain, je t'appellerai. | *Quand j'aurai le temps demain, je t'appellerai. | Quand j'aurais le temps demain, je t'appelle. || Future action after quand → futur: quand j'aurai le temps. || @tags fr.futur-simple
+      tf: Maëlle's boyfriend will move to Bordeaux with her. || false || "Non, il restera ici." || @ctx dialogue
+      short: What will Nadia do next year? || kw: restaurant || "L'année prochaine, j'ouvrirai enfin mon restaurant !" || @ctx dialogue
+      listen: @dialogue || What will Maëlle do in Bordeaux to improve her English? || Watch films in English | *Take lessons | Find a job in a café || "Quand je serai à Bordeaux, je prendrai des cours." || @tags fr.futur-simple,fr.listening
+      listen: Dans deux ans, nous prendrons notre retraite et nous irons vivre en Bretagne, près de la mer. || What is the couple's plan? || To move to Brittany next month | *To retire in two years and live by the sea | To buy a boat in Brittany || "Dans deux ans" = two years from now; "nous prendrons notre retraite" = we'll retire. || @tags fr.futur-simple,fr.listening
+      rw: Put it in the futur simple :: Je vais voir mes amis et je vais leur envoyer des photos. || Je verrai mes amis et je leur enverrai des photos. || Voir → verr-, envoyer → enverr-. || @tags fr.futur-simple,fr.futur-proche
+      tr: When I have more money, I'll travel to Japan. || Quand j'aurai plus d'argent, je voyagerai au Japon. | Quand j'aurai plus d'argent, j'irai au Japon. | Quand j'aurai plus d'argent, je partirai au Japon. || Quand + futur (j'aurai), then the main verb in the futur. || @tags fr.futur-simple
+      dict: Un jour, je créerai mon entreprise et je pourrai travailler chez moi. || je pourrai
+      ask: The AI coach asks you "Qu'est-ce que tu feras l'année prochaine ?" Answer with two plans. || kw: ferai/irai/serai/pourrai/partirai/travaillerai/étudierai/aurai/commencerai/déménagerai/voyagerai/apprendrai || L'année prochaine, je commencerai un nouveau travail à Lyon. Je déménagerai en août et j'apprendrai à jouer du piano !
+      write: Write an email to a friend about your plans for the next year or two — work or studies, home, travel and one dream. || min=50 || req: ferai/irai/serai/pourrai/partirai/aurai/viendrai/verrai/devrai/voudrai | quand/dans/l'année prochaine/un jour || Salut Yanis ! J'ai plein de projets. L'année prochaine, je finirai ma formation de cuisinier et je chercherai un poste à Nantes. Quand j'aurai un salaire, je prendrai un appartement avec ma copine. Dans deux ans, nous irons au Viêt Nam pour voir la famille de mon père. Et un jour, j'aurai mon propre restaurant ! Tu viendras dîner ? À plus, Hugo
+
+  - title: Making arrangements
+    summary: Arrange to meet, change plans and set conditions with si + présent followed by the futur or an imperative.
+    minutes: 40
+    skills: [speaking, grammar, listening]
+    tags: [fr.si-clauses, fr.futur-simple, fr.imperative]
+    objectives:
+      - Suggest a time and place to meet and agree on arrangements
+      - Set conditions with si + présent + futur (si tu veux, on ira…)
+      - Give instructions for different situations with si + présent + imperative
+    intro: |
+      Arranging to meet always involves "what if": *If it rains, we'll go to the cinema. If you're late, text me.* In French, these conditions are easy: after **si**, use the **present**; in the main clause, use the **futur** or an **imperative**. The one thing to avoid is putting the future right after si.
+    vocab: |
+      se retrouver | to meet (up) | v | On se retrouve devant le cinéma à vingt heures ? | Shall we meet in front of the cinema at 8 p.m.? | n: Se donner rendez-vous = to arrange to meet.
+      un rendez-vous | an appointment; a date; a meeting | n | J'ai rendez-vous avec Sacha à midi. | I'm meeting Sacha at noon. | g: m | n: Avoir rendez-vous avec quelqu'un.
+      ça te va ? | does that suit you? is that OK? | expr | Samedi à dix heures, ça te va ? | Saturday at ten, is that OK for you? | n: Formal: ça vous va ? Answer: ça me va.
+      libre | free; available | adj | Tu es libre jeudi soir ? | Are you free on Thursday evening?
+      annuler | to cancel | v | Si tu es malade, on annulera. | If you're ill, we'll cancel.
+      reporter | to postpone | v | On peut reporter le dîner à la semaine prochaine ? | Can we postpone the dinner until next week? | n: Informal: décaler — on décale à 21 h ?
+      prévenir | to let (someone) know | v | Si tu as du retard, préviens-moi ! | If you're running late, let me know! | n: Prévenir quelqu'un takes a direct object: je te préviens.
+      en retard | late | adv | Désolé, je serai un peu en retard. | Sorry, I'll be a bit late. | n: En avance = early; à l'heure = on time.
+      sinon | otherwise; if not | conj | Viens avant midi, sinon il n'y aura plus de place. | Come before noon, otherwise there won't be any room left. | n: Il n'y aura plus = the future of il n'y a plus.
+      au cas où | just in case | expr | Prends un parapluie, au cas où. | Take an umbrella, just in case.
+      d'accord | OK; all right | expr | D'accord, à samedi alors ! | OK, see you on Saturday then!
+      ça marche | that works; deal | expr | — On dit midi ? — Ça marche ! | — Shall we say noon? — Deal! | n: Informal.
+      si | if | conj | Si tu veux, on ira au marché ensemble. | If you like, we'll go to the market together. | n: Si + il = s'il; si + elle does not change.
+    grammar:
+      title: Si + présent
+      body: |
+        To talk about a **possible condition** in the future, French uses **si + présent**, and the main clause is usually in the **futur** (or the near future): ***Si** tu **viens** samedi, on **ira** au marché.* (If you come on Saturday, we'll go to the market.)
+
+        The main clause can also be an **imperative**: ***Si** tu **es** en retard, **envoie**-moi un message.* Or a present: *Si tu veux, je peux t'aider.*
+
+        **Never** use the future or the conditionnel right after this *si*: ~~si tu viendras~~, ~~si tu viendrais~~. The order can change: *On ira au marché si tu viens.*
+
+        **Si** becomes **s'** only before *il* and *ils*: ***S'il** pleut, on restera à la maison.* Before *elle* or *on*, it doesn't change: *si elle veut, si on part tôt.*
+      table: |
+        Si + présent (condition) | Main clause | Form
+        Si tu es libre samedi, | on ira à la plage. | futur
+        S'il pleut, | on va aller au musée. | futur proche
+        Si tu as un problème, | appelle-moi ! | imperative
+        Si vous voulez, | je peux vous accompagner. | présent
+      examples: |
+        Si le train est à l'heure, j'arriverai à dix-huit heures. | If the train is on time, I'll arrive at 6 p.m. | si + présent, futur
+        S'il fait beau dimanche, on fera un pique-nique. | If the weather's nice on Sunday, we'll have a picnic. | si + il = s'il
+        Si tu ne peux pas venir, préviens-moi. | If you can't come, let me know. | si + présent, imperative
+        On reportera si tu es trop fatiguée. | We'll postpone if you're too tired. | main clause first
+      tip: "A quick check: if you see -rai, -ras, -ra… right after si, change it to the present — si j'ai le temps, not si j'aurai le temps."
+    dialogue:
+      title: Rendez-vous samedi
+      setting: Thursday evening. Sacha and Nour, friends in Marseille, organise their Saturday by phone.
+      speakers: S=Sacha/m; N=Nour/f
+      lines: |
+        S: Salut Nour ! Tu es libre samedi ? | Hi Nour! Are you free on Saturday?
+        N: Le matin, non, je travaille. Mais l'après-midi, oui ! | Not in the morning, I'm working. But in the afternoon, yes!
+        S: Super. Si tu veux, on ira à la plage des Catalans. | Great. If you like, we'll go to the Catalans beach.
+        N: Bonne idée ! Mais s'il pleut ? La météo n'est pas sûre. | Good idea! But what if it rains? The forecast isn't certain.
+        S: S'il pleut, on ira au musée. Il y a une nouvelle expo. | If it rains, we'll go to the museum. There's a new exhibition.
+        N: Parfait. On se retrouve où ? | Perfect. Where shall we meet?
+        S: Devant l'Office de tourisme du Vieux-Port, à quinze heures. Ça te va ? | In front of the tourist office at the Old Port, at 3 p.m. Is that OK?
+        N: Ça marche. Mais si je finis tard, je serai un peu en retard. | Deal. But if I finish late, I'll be a bit late.
+        S: Pas de problème. Si tu es en retard, envoie-moi un message. | No problem. If you're late, send me a message.
+        N: D'accord. Et si Léo est libre, je l'invite ? | OK. And if Léo is free, shall I invite him?
+        S: Oui, bien sûr ! Plus on est de fous, plus on rit ! | Yes, of course! The more the merrier!
+        N: Super, à samedi alors ! | Great, see you on Saturday then!
+    pronunciation:
+      title: "S'il [sil] and the melody of si sentences"
+      body: |
+        *Si il* always contracts: *s'il* [sil]. *S'ils* sounds the same, with a [z] liaison before a vowel: *s'ils arrivent* [sil.za.ʁiv].
+
+        In a sentence with *si*, the voice rises at the end of the condition and falls at the end of the main clause: *S'il pleut ↗, on ira au musée ↘.* This melody helps the listener follow the logic.
+      items: |
+        s'il pleut
+        s'il fait beau
+        si tu veux
+        si tu es en retard
+        ça te va ?
+        ça marche !
+    culture:
+      title: L'heure du rendez-vous
+      body: |
+        Between friends, many French people are a little flexible with time: arriving five or ten minutes late is common, and people text *J'arrive dans 5 min !* For a job interview, a doctor's appointment or a train, of course, be on time.
+
+        Plans are often made at the last minute by message. *On se tient au courant* (let's keep each other posted) is a typical way to end a conversation when nothing is decided yet.
+    mistakes: |
+      Si tu viendras, on ira au cinéma. => Si tu viens, on ira au cinéma. | After si (a condition), use the present, not the future.
+      Si il pleut, on restera ici. => S'il pleut, on restera ici. | Si becomes s' before il and ils.
+      S'elle veut venir, elle peut. => Si elle veut venir, elle peut. | Si only becomes s' before il and ils, never before elle.
+    task:
+      title: Plan B
+      mode: interaction
+      body: |
+        Organise a Saturday outing with the AI coach: suggest an activity, a time and a place, and prepare a plan B for two problems (bad weather, someone late, a cancelled train). Use at least four sentences with *si*, including one with an imperative: *Si tu es en retard, appelle-moi !*
+    exercises: |
+      fill: Si tu ___ (avoir) le temps, on prendra un café. || as || After si, use the present: si tu as. || @tags fr.si-clauses
+      fill: S'il fait beau, nous ___ (aller) à la plage. || irons || Main clause in the futur: aller → ir- + -ons. || @tags fr.si-clauses,fr.futur-simple
+      mc: Choose the correct sentence. || Si tu viendras samedi, on ira au marché. | *Si tu viens samedi, on ira au marché. | Si tu viens samedi, on irait au marché. || Si + présent, then the futur in the main clause. || @tags fr.si-clauses
+      mc: Which sentence is correct? || Si il est libre, il viendra. | *S'il est libre, il viendra. | S'il sera libre, il viendra. || Si + il = s'il, followed by the present (est). || @tags fr.si-clauses
+      tf: If it rains, Sacha and Nour will go to a museum. || true || "S'il pleut, on ira au musée." || @ctx dialogue
+      short: Where will they meet? || kw: Vieux-Port/Vieux Port/Old Port/office de tourisme/tourist office || "Devant l'Office de tourisme du Vieux-Port, à quinze heures." || @ctx dialogue
+      listen: @dialogue || What should Nour do if she is late? || Call Léo | *Send Sacha a message | Go straight to the beach || "Si tu es en retard, envoie-moi un message." || @tags fr.si-clauses,fr.listening
+      listen: Si le train a du retard, je prendrai un taxi. Sinon, on se retrouve à la gare à dix-neuf heures. || What will the speaker do if the train is late? || Wait at the station | *Take a taxi | Cancel the dinner || "Si le train a du retard, je prendrai un taxi." || @tags fr.si-clauses,fr.listening
+      rw: Join the two sentences with si :: Tu es fatigué. On reportera la sortie. || Si tu es fatigué, on reportera la sortie. | On reportera la sortie si tu es fatigué. || Si + présent (condition) + futur (result). || @tags fr.si-clauses
+      rw: Write an instruction with si + imperative :: (tu / avoir un problème) + (m'appeler) || Si tu as un problème, appelle-moi. | Si tu as un problème, appelle-moi ! || Si + présent, then the tu imperative: appelle-moi (no -s). || @tags fr.si-clauses,fr.imperative
+      tr: If you're free on Sunday, we'll go to the museum. (informal) || Si tu es libre dimanche, on ira au musée. | Si tu es libre dimanche, nous irons au musée. | Si tu es libre dimanche, on va aller au musée. | On ira au musée si tu es libre dimanche. || Si + présent (tu es), then the futur (on ira). || @tags fr.si-clauses,fr.futur-simple
+      dict: S'il fait beau samedi, on fera un pique-nique au parc. || s'il
+      ask: Suggest a time and place to meet a friend this weekend, and add one plan B with si. || kw: si/s'il & retrouve/rendez-vous/devant/heures || On se retrouve dimanche à onze heures devant la médiathèque ? S'il pleut, on ira au café à côté.
+      write: Write a message to a group of friends to organise an outing — day, time, meeting place and a plan B with si. || min=40 || req: si/s'il | retrouve/rendez-vous/devant || Salut tout le monde ! Samedi, on fait une randonnée dans les calanques ? On se retrouve devant la gare à neuf heures. S'il pleut, on ira au cinéma l'après-midi. Si vous ne pouvez pas venir, prévenez-moi avant vendredi. Et apportez de l'eau ! Nour
+
+  - title: Comparing options
+    summary: Compare several options — trips, phones, courses — and choose the best one with superlatives.
+    minutes: 40
+    skills: [reading, grammar, speaking]
+    tags: [fr.comparatives]
+    objectives:
+      - Use superlatives with adjectives (le plus cher, la moins chère), nouns and verbs
+      - Use the irregular superlatives le meilleur and le mieux
+      - Compare options and justify a choice
+    intro: |
+      Which train is the fastest? Which phone has the best battery? Which course is the least expensive? When you choose between more than two options, you need the **superlative**: *le plus rapide, la moins chère, le meilleur*. It builds directly on the comparatives you learned in unit 5.
+    vocab: |
+      une option | an option | n | Nous avons trois options pour les vacances. | We have three options for the holidays. | g: f
+      choisir | to choose | v | Je n'arrive pas à choisir ! | I can't choose! | n: Un choix = a choice.
+      le prix | the price | n | Le prix comprend le petit-déjeuner. | The price includes breakfast. | c: à petit prix; le meilleur prix | g: m
+      rapide | fast; quick | adj | Le TGV est le moyen de transport le plus rapide. | The TGV is the fastest means of transport. | n: Opposite: lent (slow).
+      pratique | practical; convenient | adj | En ville, le vélo, c'est le plus pratique. | In town, cycling is the most practical.
+      un avantage | an advantage | n | Le grand avantage, c'est le prix. | The big advantage is the price. | g: m
+      un inconvénient | a drawback; a disadvantage | n | Le seul inconvénient, c'est la distance. | The only drawback is the distance. | g: m
+      un avis | an opinion; a review | n | J'ai lu les avis des clients sur internet. | I read the customer reviews online. | c: donner son avis; des avis positifs | g: m
+      à mon avis | in my opinion | expr | À mon avis, c'est la meilleure solution. | In my opinion, it's the best solution.
+      cher | expensive | adj | C'est l'hôtel le plus cher de la ville. | It's the most expensive hotel in town. | n: Feminine: chère. Pas cher = cheap.
+      un abonnement | a subscription; a season pass | n | L'abonnement annuel est le moins cher. | The annual subscription is the cheapest. | g: m
+      hésiter | to hesitate; to be unsure | v | J'hésite entre la mer et la montagne. | I can't decide between the sea and the mountains. | c: hésiter entre… et…
+      de loin | by far | expr | C'est de loin la meilleure option. | It's by far the best option.
+    grammar:
+      title: Superlatives
+      body: |
+        The **superlative** compares one thing with all the others: *the most…, the least…, the best*. Use **le / la / les + plus** or **moins** + adjective: *C'est **le** train **le plus** rapide. C'est **la** solution **la moins** chère.* To say "in" or "of" the group, use **de**: *la ville la plus visitée **de** France, le moins cher **du** groupe.*
+
+        **Position:** most adjectives go after the noun, so the article appears twice: *l'hôtel **le plus** calme*. Short adjectives that go before the noun (*grand, petit, beau, bon…*) usually stay before it: *la plus belle plage, le plus grand appartement.*
+
+        With a **noun**: *Ce forfait offre **le plus de** données.* With a **verb**: *En ville, on va **le plus** vite à vélo.*
+
+        **Irregular forms:** *bon → **le meilleur, la meilleure, les meilleurs, les meilleures*** and *bien → **le mieux***: *C'est la meilleure option. C'est ce modèle qui marche le mieux.* Never ~~le plus bon~~.
+      table: |
+        Type | Superlative | Example
+        adjective after the noun | le / la / les + plus / moins + adjective | le vol le moins cher
+        adjective before the noun | le / la / les + plus + adjective + noun | la plus belle plage
+        noun | le plus de / le moins de + noun | Ce forfait offre le plus de données.
+        verb | verb + le plus / le moins | En ville, on va le plus vite à vélo.
+        bon / bien | le meilleur / le mieux | la meilleure option
+      examples: |
+        C'est le moyen de transport le plus écologique. | It's the most environmentally friendly means of transport. | adjective after the noun
+        Marseille est la plus grande ville du sud de la France. | Marseille is the biggest city in the south of France. | adjective before the noun; de = in
+        Cet hôtel a les meilleurs avis. | This hotel has the best reviews. | bon → les meilleurs
+        Des trois téléphones, c'est le moins cher. | Of the three phones, it's the cheapest. | le moins + adjective
+      tip: "With a superlative after the noun, the article appears twice: l'option la moins chère, les hôtels les plus calmes."
+    dialogue:
+      title: Quel voyage choisir ?
+      setting: Paris. Louise and her father, Hervé, 62, want to spend a long weekend in Barcelona. They compare the options on a laptop.
+      speakers: L=Louise/f; H=Hervé/m
+      lines: |
+        L: Alors, papa, on a trois options pour aller à Barcelone. | So, Dad, we have three options for getting to Barcelona.
+        H: Quelle est la plus rapide ? | Which is the fastest?
+        L: L'avion, bien sûr. Mais avec l'aéroport, c'est le plus compliqué. | The plane, of course. But with the airport, it's the most complicated.
+        H: Et le train ? | And the train?
+        L: Six heures et demie en direct. C'est le plus confortable. | Six and a half hours direct. It's the most comfortable.
+        H: Et le car ? C'est le moins cher, non ? | And the coach? It's the cheapest, isn't it?
+        L: Oui, mais c'est aussi le plus long : quinze heures ! | Yes, but it's also the longest: fifteen hours!
+        H: Ah non, c'est trop long pour moi. Et le prix du train ? | Oh no, that's too long for me. And the price of the train?
+        L: Cent vingt euros aller-retour. C'est raisonnable. | A hundred and twenty euros return. That's reasonable.
+        H: À mon avis, le train est la meilleure option. | In my opinion, the train is the best option.
+        L: Moi aussi. Et c'est le moyen le plus écologique ! | Me too. And it's the most environmentally friendly way!
+        H: Parfait. Si les billets sont disponibles, on réserve ce soir ! | Perfect. If the tickets are available, we'll book tonight!
+    pronunciation:
+      title: "Le plus, le meilleur, le mieux"
+      body: |
+        In superlatives with an adjective, the s of *plus* is silent before a consonant — *le plus rapide* [lə.ply.ʁa.pid] — and becomes [z] before a vowel: *le plus intéressant* [lə.ply.zɛ̃.te.ʁɛ.sɑ̃]. With a noun (*le plus de*) or at the end of a sentence (*c'est lui qui voyage le plus*), many speakers pronounce it: [lə.plys].
+
+        *Meilleur* has two syllables with a [j] glide: [mɛ.jœʁ]. *Mieux* is one syllable: [mjø].
+      items: |
+        le plus rapide
+        la moins chère
+        le plus intéressant
+        la meilleure option
+        le mieux
+        c'est de loin le plus cher
+    culture:
+      title: Voyager malin
+      body: |
+        French travellers love comparing prices: train tickets are often cheaper when booked early, and long-distance coaches (*les cars*) have become a cheap alternative since they were allowed to run between big cities in 2015.
+
+        The environment is also an important criterion for many people. For short trips, the train produces far less CO₂ than the plane, and since 2023 some short domestic flights have been banned when a train alternative of under two and a half hours exists.
+    mistakes: |
+      C'est la plus bonne pizza de la ville. => C'est la meilleure pizza de la ville. | Bon has an irregular superlative: le meilleur, la meilleure.
+      C'est l'hôtel plus calme de la ville. => C'est l'hôtel le plus calme de la ville. | After the noun, the superlative needs its own article: l'hôtel le plus calme.
+      C'est la ville la plus belle en France. => C'est la ville la plus belle de France. | After a superlative, "in" is de: la plus belle de France.
+    task:
+      title: Help me choose
+      mode: speaking
+      body: |
+        Choose a real decision: three phones, three holiday destinations, three language schools or three gyms. Compare them with the AI coach, using at least five superlatives (*le plus…, le moins…, le meilleur, le mieux*) and two comparatives. Say which one you choose and why — and what you will do *si* your first choice isn't available.
+    exercises: |
+      fill: Le car est le moyen de transport ___ ___ cher. (least) || le ; moins || Superlative after the noun: le + moins + adjective. || @tags fr.comparatives
+      fill: C'est le ___ restaurant du quartier ! (best) || meilleur || Bon → le meilleur (restaurant is masculine). || @tags fr.comparatives
+      fill: Parmi mes amis, c'est Karim qui cuisine ___ ___. (best — with a verb) || le ; mieux || With a verb (cuisiner), bien → le mieux. || @tags fr.comparatives
+      mc: Choose the correct sentence. || C'est la ville plus visitée de France. | *C'est la ville la plus visitée de France. | C'est la plus ville visitée de France. || After the noun, repeat the article: la ville la plus visitée. || @tags fr.comparatives
+      mc: Paris est la plus grande ville ___ France. || en | *de | à || After a superlative, "in" + the group is de: la plus grande ville de France. || @tags fr.comparatives
+      tf: According to Louise, the coach is the cheapest option. || true || Hervé asks "C'est le moins cher, non ?" and Louise answers "Oui". || @ctx dialogue
+      short: Which option do Louise and her father choose? || kw: train || "À mon avis, le train est la meilleure option." — "Moi aussi." || @ctx dialogue
+      listen: @dialogue || Why doesn't Hervé want to take the coach? || It's too expensive | *It takes too long | It's not comfortable || "C'est aussi le plus long : quinze heures !" — "Ah non, c'est trop long pour moi." || @tags fr.listening
+      listen: Le forfait A coûte quinze euros, c'est le moins cher. Mais le forfait B offre le plus de données. || Which statement is true? || Plan A has the most data | *Plan A is the cheapest | Plan B is the cheapest || "Le forfait A… c'est le moins cher"; plan B has the most data (le plus de données). || @tags fr.comparatives,fr.listening
+      rw: Make it a superlative (+) :: Cet hôtel est calme. (de la ville) || C'est l'hôtel le plus calme de la ville. | Cet hôtel est le plus calme de la ville. || Le + plus + adjective, and de for "in" the town. || @tags fr.comparatives
+      tr: It's by far the best option. || C'est de loin la meilleure option. | C'est la meilleure option, de loin. | C'est de loin la meilleure solution. || Une option is feminine: la meilleure. De loin = by far. || @tags fr.comparatives
+      dict: À mon avis, le train est de loin la meilleure option. || la meilleure
+      ask: The AI coach asks "Quelle est la meilleure saison pour visiter ton pays ?" Answer and explain why. || kw: meilleur/meilleure/le plus/la plus/le moins/la moins || À mon avis, la meilleure saison, c'est le printemps. Il fait doux et c'est la période la moins chère pour voyager.
+      write: Write a short review comparing three cafés, hotels or gyms in your town, and recommend the best one. || min=50 || req: le plus/la plus/les plus/le moins/la moins | meilleur/meilleure/meilleurs/le mieux || Dans mon quartier, il y a trois cafés. Le Café du Port est le plus grand, mais c'est aussi le plus bruyant. Chez Lina est le moins cher et il a la plus jolie terrasse. Le Petit Moulin est un peu plus cher, mais on y mange les meilleurs croissants de la ville et le service est le plus sympa. Pour moi, c'est de loin le meilleur café !

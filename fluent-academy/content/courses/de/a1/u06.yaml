@@ -1,0 +1,359 @@
+unit: 6
+title: Einkaufen
+theme: Shopping
+description: Talk about clothes and colours, understand prices and numbers up to 100, and buy clothes in a shop.
+free: false
+objectives:
+  - Name clothes and colours and point things out with dieser, diese, dieses
+  - Count to 100, and understand and ask about prices with wie viel
+  - Ask for sizes and colours, try things on and decide what to buy
+canDo:
+  - I can say what clothes I wear and what colour they are.
+  - I can understand and say prices up to €100.
+  - I can ask for a size or a colour and try something on.
+  - I can say whether something fits and decide to buy it.
+review: |
+  fill: ___ Tasche ist sehr praktisch. (this) || Diese || Tasche is feminine (die Tasche), so "this" is diese. || @tags de.demonstratives @hint this
+  fill: Wie findest du ___ Mantel? (this) || diesen || Finden takes the accusative, and Mantel is masculine: diesen Mantel. || @tags de.demonstratives,de.accusative @hint this
+  mc: 64 in German is… || *vierundsechzig | sechsundvierzig | vierzigsechs || Units first, then und, then the tens: vier-und-sechzig. || @tags de.numbers
+  listen: Der Mantel kostet achtundneunzig Euro. || How much is the coat? || €89 | *€98 | €88 || Acht-und-neunzig = 98. || @tags de.numbers
+  listen: Haben Sie diese Hose auch in Grün? || What does the customer want? || *The same trousers in green | Green trousers in a bigger size | A green shirt || In Grün = in green; diese Hose = these trousers. || @tags de.listening
+  fill: Wie viel ___ das Hemd? || kostet || Das Hemd is singular, so the verb is kostet. || @tags de.question-words
+  mc: The trousers are ten centimetres too long. You say: || Die Hose ist sehr kurz. | *Die Hose ist zu lang. | Die Hose passt gut. || Zu lang = too long. || @tags de.vocabulary
+  rw: Write the price in words :: 36,50 € || sechsunddreißig Euro fünfzig | sechsunddreissig Euro fünfzig | sechsunddreissig Euro fuenfzig || Euros first (units before tens), then the cents. || @tags de.numbers
+  tr: These shoes are comfortable. || Diese Schuhe sind bequem. || Plural: diese Schuhe, sind; no ending on bequem. || @tags de.demonstratives
+  tr: Do you also have the jumper in red? (formal) || Haben Sie den Pullover auch in Rot? | Haben Sie den Pulli auch in Rot? || Der Pullover → den Pullover (accusative); in Rot with a capital R. || @tags de.questions,de.accusative
+  ask: In a shop, ask the price of a jacket, ask for another colour, and say you'll take it. || kw: kostet/kosten & in & nehme/kaufe || Wie viel kostet diese Jacke? Haben Sie die Jacke auch in Blau? Gut, ich nehme die Jacke.
+  write: Write a message to a friend from a shopping trip — what you are looking for, what you like, the price and the size. || min=35 || req: diese/dieser/dieses/diesen | euro | zu/passt/größe/groesse || Hallo Nina, ich bin in der Stadt und suche eine Jacke für den Winter. Diese Jacke hier ist grün und sehr warm. Sie kostet neunundsiebzig Euro. Größe 38 ist zu klein, aber Größe 40 passt gut. Ich nehme die Jacke! Bis später, Pia
+lessons:
+  - title: Clothes and colours
+    summary: Name clothes and colours, point things out with dieser, diese and dieses, and say what you think of something.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [de.demonstratives, de.vocabulary]
+    objectives:
+      - Name common clothes with their articles and plurals
+      - Describe colours with sein + colour
+      - Point things out with dieser, diese, dieses
+    intro: |
+      Shopping, packing for a trip, describing what someone is wearing — you need clothes and colours. To point at one item among many, German uses **dieser** (*this*): *Dieser Pullover ist schön, aber diese Jacke ist zu teuer.* Its endings follow the article: der → dieser, die → diese, das → dieses.
+    vocab: |
+      die Kleidung | clothes; clothing | n | Die Kleidung hier ist sehr schön. | The clothes here are very nice. | g: f | pl: (no plural) | n: Singular in German: die Kleidung ist…
+      der Pullover | jumper; sweater | n | Dieser Pullover ist sehr warm. | This jumper is very warm. | g: m | pl: die Pullover | n: Informal: der Pulli.
+      die Hose | trousers; pants | n | Die Hose ist zu lang. | The trousers are too long. | g: f | pl: die Hosen | n: Singular in German: eine Hose = one pair of trousers.
+      das Hemd | shirt | n | Das Hemd ist weiß. | The shirt is white. | g: n | pl: die Hemden
+      das T-Shirt | T-shirt | n | Im Sommer trage ich oft T-Shirts. | In summer I often wear T-shirts. | g: n | pl: die T-Shirts
+      die Jacke | jacket | n | Die Jacke ist warm und praktisch. | The jacket is warm and practical. | g: f | pl: die Jacken
+      das Kleid | dress | n | Das Kleid ist rot. | The dress is red. | g: n | pl: die Kleider
+      der Schuh | shoe | n | Die Schuhe sind neu. | The shoes are new. | g: m | pl: die Schuhe
+      tragen | to wear; to carry | v | Ich trage heute eine Jeans. | I'm wearing jeans today. | n: The vowel changes with du and er/sie: du trägst, er trägt (more in unit 7).
+      schwarz, weiß, grau | black, white, grey | adj | Mein Mantel ist grau. | My coat is grey.
+      rot, gelb, orange | red, yellow, orange | adj | Die Tasche ist gelb. | The bag is yellow.
+      blau, grün, braun | blue, green, brown | adj | Seine Schuhe sind braun. | His shoes are brown. | n: Also rosa (pink) and lila (purple).
+      die Farbe | colour | n | Welche Farbe hat die Jacke? | What colour is the jacket? | g: f | pl: die Farben
+      dieser | this; this one | det | Dieser Rock ist schön. | This skirt is nice. | n: dieser (der), diese (die), dieses (das), diese (plural).
+    grammar:
+      title: "dieser, diese, dieses — and colours"
+      body: |
+        **Dieser** means *this* (one). Its endings are like the definite article: **der → dieser**, **die → diese**, **das → dieses**, plural **die → diese**. In the accusative only the masculine changes, just like *den*: **diesen**: *Ich nehme diesen Pullover.*
+
+        The question word **welcher?** (*which?*) has the same endings: *Welcher Pullover? – Dieser hier. Welche Farbe? Welches Kleid?*
+
+        **Colours** after *sein* have no ending, like all adjectives: *Die Jacke ist blau. Die Schuhe sind schwarz.* To ask about a colour, say *Welche Farbe hat …?* To ask for an opinion, use **finden** + accusative: *Wie findest du dieses Kleid? – Sehr schön!*
+      table: |
+        Gender | Nominative | Accusative | Example
+        masculine | dieser Pullover | diesen Pullover | Ich nehme diesen Pullover.
+        feminine | diese Jacke | diese Jacke | Diese Jacke ist grün.
+        neuter | dieses Hemd | dieses Hemd | Wie findest du dieses Hemd?
+        plural | diese Schuhe | diese Schuhe | Diese Schuhe sind bequem.
+      examples: |
+        Dieser Pullover ist grau. | This jumper is grey. | der → dieser
+        Welche Farbe hat das Kleid? – Es ist blau. | What colour is the dress? – It's blue. | welch- like dieser
+        Wie findest du dieses T-Shirt? | What do you think of this T-shirt? | das → dieses
+        Ich nehme diesen Rock. | I'll take this skirt. | accusative: diesen
+      tip: Look at the last letter of the article — der, die, das end in r, e, s, and so do dieser, diese, dieses.
+    dialogue:
+      title: Im Kleidergeschäft
+      setting: Lea and her friend Tom are browsing in a clothes shop in Hamburg on a Saturday afternoon.
+      speakers: L=Lea/f; T=Tom/m
+      lines: |
+        L: Tom, wie findest du dieses Hemd? | Tom, what do you think of this shirt?
+        T: Hm, gelb ist nicht meine Farbe. | Hm, yellow isn't my colour.
+        L: Und dieser Pullover? Er ist blau. | And this jumper? It's blue.
+        T: Ja, blau finde ich gut! | Yes, I like blue!
+        T: Und du? Brauchst du auch etwas? | And you? Do you need something too?
+        L: Ja, eine Jacke für den Winter. | Yes, a jacket for the winter.
+        T: Hier, diese Jacke ist schön! | Here, this jacket is nice!
+        L: Hm, sie ist rot. Rot trage ich nie. | Hm, it's red. I never wear red.
+        T: Und diese Jacke? Sie ist schwarz und warm. | And this jacket? It's black and warm.
+        L: Ja, die ist super! Welche Größe ist das? | Yes, that one's great! What size is it?
+        T: Größe 38. | Size 38.
+        L: Perfekt! | Perfect!
+    pronunciation:
+      title: "au and ei in colours"
+      body: |
+        **au** sounds like the *ow* in English *how*: *blau, grau, braun, kaufen*. **ei** sounds like English *eye*: *weiß, Kleid, Preis*.
+
+        Compare *weiß* (white) and *wie* (how): ei and ie are completely different sounds. And remember final devoicing: the d in *Kleid* sounds like a t.
+      items: |
+        blau
+        grau
+        braun
+        weiß
+        Kleid
+        Der Pullover ist grau.
+    culture:
+      title: Sizes and second-hand clothes
+      body: |
+        German clothes sizes (*Größen*) are different from British and American ones: women's sizes 36, 38 and 40 are roughly UK 8, 10 and 12, and men's jackets come in sizes like 48, 50 and 52. Shoes use European sizes (38, 42…). When in doubt, ask: *Welche Größe ist das?*
+
+        Second-hand clothes are popular, especially among students: flea markets (*Flohmärkte*) at the weekend and second-hand shops are a cheap and sustainable way to shop.
+    mistakes: |
+      Dieses Pullover ist schön. => Dieser Pullover ist schön. | Pullover is masculine (der Pullover), so the form is dieser.
+      Die Schuhe sind schwarze. => Die Schuhe sind schwarz. | After sein, colours have no ending.
+      Ich nehme dieser Pullover. => Ich nehme diesen Pullover. | After nehmen (accusative), masculine dieser becomes diesen.
+    task:
+      title: What are you wearing?
+      mode: speaking
+      body: |
+        Describe what you are wearing today and what colour each item is (Meine Hose ist…, Meine Schuhe sind…). Then look at a clothes website and say which three items you like, using dieser, diese and dieses.
+    exercises: |
+      fill: ___ Kleid ist sehr schön. (this) || Dieses || Kleid is neuter (das Kleid), so "this" is dieses. || @tags de.demonstratives @hint this
+      fill: ___ Schuhe sind zu klein. (these) || Diese || In the plural, dieser becomes diese. || @tags de.demonstratives @hint these
+      fill: Ich nehme ___ Pullover. (this) || diesen || Nehmen takes the accusative; masculine dieser → diesen. || @tags de.demonstratives,de.accusative @hint this
+      fill: Welche Farbe ___ die Jacke? || hat || To ask about a colour: Welche Farbe hat…? || @tags de.question-words
+      mc: Choose the correct sentence. || *Die Hose ist grün. | Die Hose ist grüne. | Die Hose sind grün. || No ending after sein; Hose is singular in German, so the verb is ist. || @tags de.nominative
+      mc: Which colour is "grau"? || *grey | green | brown || Grau = grey; grün = green; braun = brown. || @skill vocabulary @tags de.vocabulary
+      mc: What does Tom think of the yellow shirt? || He loves it. | *Yellow isn't his colour. | It's too expensive. || "Hm, gelb ist nicht meine Farbe." || @ctx dialogue @skill reading @tags de.reading
+      tf: Lea often wears red. || false || "Rot trage ich nie." — she never wears red. || @ctx dialogue
+      rw: Replace the article with a form of dieser :: Das Hemd ist zu groß. || Dieses Hemd ist zu groß. || Das → dieses. || @tags de.demonstratives
+      tr: These shoes are brown. || Diese Schuhe sind braun. || Plural: diese; the colour has no ending after sind. || @tags de.demonstratives
+      tr: What do you think of this jumper? (informal) || Wie findest du diesen Pullover? | Wie findest du diesen Pulli? || Finden + accusative: diesen Pullover. || @tags de.demonstratives,de.accusative
+      listen: Heute trage ich ein T-Shirt und eine Jacke. Das T-Shirt ist weiß und die Jacke ist grün. || What colour is the jacket? || White | *Green | Blue || "Die Jacke ist grün" — green. The T-shirt is white. || @tags de.listening
+      dict: Dieser Pullover ist blau und sehr warm.
+      ask: Describe what you are wearing today and the colours. || kw: trage/hose/pullover/hemd/t-shirt/jacke/kleid/schuhe/jeans & schwarz/weiß/weiss/grau/rot/gelb/blau/grün/gruen/braun/orange || Heute trage ich eine Jeans und einen Pullover. Der Pullover ist grün und meine Schuhe sind weiß.
+
+  - title: Prices and numbers to 100
+    summary: Count from 21 to 100, understand prices, and ask how much things cost with wie viel and was kostet.
+    minutes: 40
+    skills: [vocabulary, listening, speaking]
+    tags: [de.numbers, de.question-words]
+    objectives:
+      - Count from 21 to 100
+      - Understand and say prices in euros and cents
+      - Ask about prices with Wie viel kostet…? and Was kosten…?
+    intro: |
+      German numbers from 21 to 99 work "backwards": you say the units first, then the tens — **einundzwanzig** is literally "one-and-twenty". It takes practice, but it's completely regular. In this lesson you will learn all the numbers up to 100 and use them for the most important thing: prices.
+    vocab: |
+      einundzwanzig | twenty-one | num | Mein Bruder ist einundzwanzig. | My brother is twenty-one. | n: Eins loses its -s: einundzwanzig, not einsundzwanzig.
+      zweiundzwanzig, dreiundzwanzig | twenty-two, twenty-three | num | Das kostet dreiundzwanzig Euro. | That costs twenty-three euros.
+      dreißig, vierzig | thirty, forty | num | Die Jacke kostet vierzig Euro. | The jacket costs forty euros. | n: Dreißig is the only tens number without -zig — it ends in -ßig.
+      fünfzig, sechzig | fifty, sixty | num | Meine Mutter ist sechzig. | My mother is sixty. | n: Sechzig drops the s of sechs, like sechzehn.
+      siebzig, achtzig, neunzig | seventy, eighty, ninety | num | Mein Opa ist neunzig! | My grandpa is ninety! | n: Siebzig drops the -en of sieben.
+      hundert | a hundred | num | Das kostet hundert Euro. | That costs a hundred euros. | n: Also einhundert.
+      der Preis | price | n | Der Preis ist gut. | The price is good. | g: m | pl: die Preise
+      Wie viel kostet…? | how much is…? | expr | Wie viel kostet die Tasche? | How much is the bag? | n: Plural: Wie viel kosten die Schuhe? Also common: Was kostet…?
+      teuer | expensive | adj | Die Jacke ist zu teuer. | The jacket is too expensive. | n: Opposite: billig (cheap) or günstig (good value).
+      billig | cheap | adj | Die T-Shirts sind billig. | The T-shirts are cheap. | n: Günstig sounds more positive (good value for money).
+      der Cent | cent | n | Das kostet neunundneunzig Cent. | That costs 99 cents. | g: m | pl: die Cents | n: In prices, Cent stays singular: fünfzig Cent.
+      das Angebot | special offer | n | Die Schuhe sind im Angebot. | The shoes are on special offer. | g: n | pl: die Angebote
+      bezahlen | to pay | v | Ich bezahle mit Karte. | I'm paying by card. | c: bar bezahlen (to pay cash); mit Karte bezahlen
+      die Kasse | till; checkout | n | Bitte bezahlen Sie an der Kasse. | Please pay at the till. | g: f | pl: die Kassen
+    grammar:
+      title: "Numbers 21–100 and prices"
+      body: |
+        From 21 to 99, German says the **units first**, then **und**, then the **tens** — all in one word: *21 = einundzwanzig* (one-and-twenty), *35 = fünfunddreißig*, *99 = neunundneunzig*. Note that *eins* becomes **ein-**: *einundzwanzig*.
+
+        The tens end in **-zig**, except **dreißig** (with ß). Three tens drop letters: *zwanzig* (from zwei), *sechzig* (sechs) and *siebzig* (sieben).
+
+        **Prices** are written with a comma and the euro sign after the number: *4,50 €*. You say the euros, then the cents, without "and": *4,50 € = vier Euro fünfzig*. *Euro* and *Cent* don't take a plural ending in prices: *zwanzig Euro*.
+
+        To ask: ***Wie viel** kostet die Tasche?* or *Was kostet die Tasche?* With plural nouns: *Wie viel kosten die Schuhe?* Note that **wie viel** is written as two words.
+      table: |
+        Number | German | Literally
+        21 | einundzwanzig | one-and-twenty
+        34 | vierunddreißig | four-and-thirty
+        47 | siebenundvierzig | seven-and-forty
+        56 | sechsundfünfzig | six-and-fifty
+        68 | achtundsechzig | eight-and-sixty
+        99 | neunundneunzig | nine-and-ninety
+        100 | hundert | a hundred
+      examples: |
+        Die Schuhe kosten neunundfünfzig Euro. | The shoes cost €59. | units first
+        Wie viel kostet das T-Shirt? – Zwölf Euro neunzig. | How much is the T-shirt? – €12.90.
+        Das macht zusammen vierunddreißig Euro fünfzig. | That's €34.50 altogether. | euros + cents
+        Ich bin siebenundzwanzig Jahre alt. | I'm twenty-seven. | age
+      tip: When you hear "fünfund…", write the 5 first and leave space on its left — then add the tens you hear next.
+    dialogue:
+      title: Auf dem Flohmarkt
+      setting: Sunday morning at a flea market in Leipzig. Elias wants to buy a lamp from a seller.
+      speakers: E=Elias/m; V=Die Verkäuferin/f
+      lines: |
+        E: Hallo! Wie viel kostet die Lampe? | Hi! How much is the lamp?
+        V: Die Lampe? Fünfundzwanzig Euro. | The lamp? Twenty-five euros.
+        E: Hm, das ist ein bisschen teuer. | Hm, that's a bit expensive.
+        V: Sie ist aber sehr schön! | But it's very nice!
+        E: Zwanzig Euro? | Twenty euros?
+        V: Zweiundzwanzig. Okay? | Twenty-two. OK?
+        E: Okay! Und was kosten die Bücher? | OK! And how much are the books?
+        V: Ein Buch kostet zwei Euro, drei Bücher fünf Euro. | One book costs two euros, three books five euros.
+        E: Gut, dann nehme ich diese drei Bücher. | Good, then I'll take these three books.
+        V: Das macht zusammen siebenundzwanzig Euro. | That's twenty-seven euros altogether.
+        E: Hier sind dreißig Euro. | Here's thirty euros.
+        V: Und drei Euro zurück. Danke! | And three euros change. Thank you!
+    pronunciation:
+      title: "-zehn or -zig?"
+      body: |
+        Many learners mix up **-zehn** (13–19) and **-zig** (the tens): *vierzehn* (14) and *vierzig* (40), *siebzehn* (17) and *siebzig* (70). Listen to the end of the word: **-zehn** has a long *e* and an n; **-zig** ends in the soft *ich*-sound [tsɪç] (in southern Germany often [tsɪk]).
+
+        And remember that **dreißig** has a sharp s sound in the middle, while **dreizehn** has a ts: *drei-ßig* but *drei-zehn*.
+      items: |
+        vierzehn
+        vierzig
+        siebzehn
+        siebzig
+        dreizehn
+        dreißig
+    culture:
+      title: Cash, cards and prices
+      body: |
+        Germans have traditionally liked to pay cash (*bar*), and some small shops, bakeries and market stalls still prefer it. Today cards and phone payments are accepted almost everywhere, but it's useful to carry a few coins — for example for a shopping trolley or a public toilet.
+
+        Prices in shops always include VAT (*Mehrwertsteuer*, *MwSt.*). Many prices end in ,99 (*neun Euro neunundneunzig*), and at flea markets a little friendly bargaining is normal.
+    mistakes: |
+      dreizig => dreißig | The only tens number not ending in -zig is dreißig, spelled with ß.
+      zwanzigfünf Euro => fünfundzwanzig Euro | From 21 to 99, the units come first: fünf-und-zwanzig.
+      Wie viel kostet die Schuhe? => Wie viel kosten die Schuhe? | Schuhe is plural, so the verb is kosten.
+    task:
+      title: Price check
+      mode: interaction
+      body: |
+        Choose five items from an online shop or a flea market. A partner asks how much each one costs (Wie viel kostet…? / Was kosten…?), and you answer with prices between €20 and €100. Then switch roles and write down the prices you hear.
+    exercises: |
+      mc: 47 in German is… || vierzigsieben | *siebenundvierzig | siebzigvier || Units first, then und, then the tens: sieben-und-vierzig. || @tags de.numbers
+      mc: "Achtundsechzig" is… || 86 | *68 | 18 || Acht (8) und sechzig (60) = 68. || @tags de.numbers
+      fill: 30 = ___ || dreißig / dreissig || Thirty is dreißig — with ß, not -zig. || @tags de.numbers,de.spelling
+      rw: Write the number in words :: 72 || zweiundsiebzig || Zwei-und-siebzig; siebzig drops the -en of sieben. || @tags de.numbers,de.spelling
+      rw: Write the price in words :: 15,90 € || fünfzehn Euro neunzig | fuenfzehn Euro neunzig | funfzehn Euro neunzig || Euros first, then the cents, without und. || @tags de.numbers
+      fill: Wie viel ___ die Schuhe? || kosten || Schuhe is plural, so the verb is kosten. || @tags de.question-words,de.plural
+      fill: ___ viel kostet der Pullover? || Wie || Wie viel = how much (two words). || @tags de.question-words
+      mc: How much does Elias pay for the lamp in the end? || €25 | *€22 | €20 || The seller says "Zweiundzwanzig. Okay?" and Elias agrees. || @ctx dialogue @skill reading @tags de.reading
+      short: How much change does Elias get? || kw: 3/drei/three || He pays €30 for €27, so he gets €3 back: "Und drei Euro zurück." || @ctx dialogue
+      listen: Das macht zusammen dreiundvierzig Euro achtzig. || How much is it? || €34.80 | *€43.80 | €43.18 || Drei-und-vierzig = 43; achtzig = 80 cents. || @tags de.numbers
+      listen: neunzehn || Which number do you hear? || *19 | 90 | 91 || Neunzehn (-zehn) = 19; neunzig (-zig) would be 90. || @tags de.numbers
+      tr: How much is the jacket? || Wie viel kostet die Jacke? | Was kostet die Jacke? || Wie viel kostet + singular noun. || @tags de.question-words
+      dict: Die Tasche kostet neunundzwanzig Euro.
+      ask: Ask a shop assistant how much two things cost, then say one of them is too expensive. || kw: wie viel/was & kostet/kosten & teuer || Entschuldigung, wie viel kostet die Jacke? Und was kosten die Schuhe? Hm, das ist zu teuer.
+
+  - title: In a shop
+    summary: Ask for help, a size or a colour, try clothes on, and decide whether to buy them.
+    minutes: 40
+    skills: [speaking, listening, grammar]
+    tags: [de.accusative, de.questions]
+    objectives:
+      - Ask for an item in your size or in another colour
+      - Try things on and say whether they fit
+      - Decide to buy something or not, and pay
+    intro: |
+      In a German clothes shop, a sales assistant may ask **Kann ich Ihnen helfen?** You can answer **Ich suche…** (I'm looking for…) or **Danke, ich schaue nur** (I'm just looking). In this lesson you will learn to ask for sizes and colours, try things on, and say *Die Hose ist zu lang* or *Ich nehme diesen Pullover*.
+    vocab: |
+      suchen | to look for | v | Ich suche eine Jacke. | I'm looking for a jacket.
+      Kann ich Ihnen helfen? | can I help you? | expr | Guten Tag! Kann ich Ihnen helfen? | Hello! Can I help you? | n: Possible answers: Ja, ich suche… / Danke, ich schaue nur.
+      Ich schaue nur | I'm just looking | expr | Danke, ich schaue nur. | Thanks, I'm just looking.
+      die Größe | size | n | Welche Größe haben Sie? | What size are you? | g: f | pl: die Größen
+      anprobieren | to try on | v | Ich probiere die Hose an. | I'll try the trousers on. | n: Separable: ich probiere … an.
+      die Umkleidekabine | changing room | n | Die Umkleidekabine ist dort hinten. | The changing room is back there. | g: f | pl: die Umkleidekabinen | n: Often just die Kabine.
+      passen | to fit | v | Die Hose passt gut. | The trousers fit well. | n: The clothes are the subject: Der Pullover passt (nicht).
+      zu groß / zu klein | too big / too small | expr | Die Schuhe sind zu klein. | The shoes are too small. | c: zu lang; zu kurz; zu teuer
+      bequem | comfortable | adj | Diese Schuhe sind sehr bequem. | These shoes are very comfortable.
+      die Tasche | bag | n | Ich brauche eine Tasche für die Arbeit. | I need a bag for work. | g: f | pl: die Taschen
+      der Mantel | coat | n | Der Mantel ist warm, aber teuer. | The coat is warm but expensive. | g: m | pl: die Mäntel
+      in Schwarz | in black | expr | Haben Sie die Jacke auch in Schwarz? | Do you have the jacket in black too? | n: After in, colours are written with a capital letter: in Blau, in Rot.
+      kaufen | to buy | v | Ich kaufe den Mantel. | I'm buying the coat.
+      umtauschen | to exchange | v | Kann ich die Hose umtauschen? | Can I exchange the trousers? | n: Separable: ich tausche … um. Keep the receipt (der Kassenbon)!
+    grammar:
+      title: "suchen, passen and zu + adjective"
+      body: |
+        Most shopping sentences use verbs with an **accusative** object: *suchen, brauchen, anprobieren, nehmen, kaufen*. Remember that masculine nouns change: *Ich suche **einen** Mantel. Ich probiere **diesen** Pullover an. Ich nehme **den** Mantel.*
+
+        **Passen** (*to fit*) works differently: the **clothes** are the subject. *Die Hose **passt** gut. Die Schuhe **passen** nicht.* So the verb is singular or plural depending on the item.
+
+        **zu** + adjective means *too*: *zu groß, zu klein, zu lang, zu teuer*. Compare *Die Jacke ist sehr teuer* (very expensive — maybe I'll still buy it) and *Die Jacke ist zu teuer* (too expensive — I won't buy it).
+
+        To ask for alternatives, use **in** + size or colour: *Haben Sie das **in Größe 40**? Haben Sie die Jacke auch **in Blau**?*
+      table: |
+        You want to… | You say
+        ask for something | Ich suche einen Mantel.
+        ask for a size | Haben Sie das in Größe 40?
+        ask for a colour | Haben Sie die Jacke auch in Blau?
+        try something on | Kann ich diesen Pullover anprobieren?
+        say it fits | Die Hose passt gut.
+        say it doesn't fit | Die Schuhe sind zu klein.
+        buy it | Ich nehme den Mantel.
+      examples: |
+        Ich suche eine Hose in Größe 38. | I'm looking for trousers in size 38. | suchen + accusative
+        Der Pullover passt nicht. Er ist zu klein. | The jumper doesn't fit. It's too small. | passen; zu + adjective
+        Haben Sie die Schuhe auch in Braun? | Do you have the shoes in brown too? | in + colour
+        Gut, ich nehme diesen Mantel. | Good, I'll take this coat. | dieser → diesen
+      tip: The word zu is a polite way to say no — "Die Jacke ist leider zu teuer" — you don't need to say you don't like it.
+    dialogue:
+      title: Ein Mantel für den Winter
+      setting: Herr Adeyemi is looking for a winter coat in a department store in Stuttgart. The sales assistant, Frau Kraus, helps him.
+      speakers: K=Frau Kraus/f; A=Herr Adeyemi/m
+      lines: |
+        K: Guten Tag! Kann ich Ihnen helfen? | Hello! Can I help you?
+        A: Ja, bitte. Ich suche einen Mantel. | Yes, please. I'm looking for a coat.
+        K: Welche Größe haben Sie? | What size are you?
+        A: Größe 52. | Size 52.
+        K: Hier, dieser Mantel ist sehr warm. | Here, this coat is very warm.
+        A: Schön! Haben Sie den Mantel auch in Schwarz? | Nice! Do you have the coat in black too?
+        K: Ja, hier. Die Umkleidekabine ist dort. | Yes, here. The changing room is over there.
+        A: Hm, der Mantel ist zu groß. | Hm, the coat is too big.
+        K: Hier ist Größe 50. | Here's size 50.
+        A: Ja, der passt gut! Was kostet er? | Yes, this one fits well! How much is it?
+        K: Neunundachtzig Euro. Er ist im Angebot. | Eighty-nine euros. It's on special offer.
+        A: Super, dann nehme ich den Mantel. | Great, then I'll take the coat.
+    pronunciation:
+      title: Long and short vowels
+      body: |
+        German vowels can be long or short, and the spelling usually tells you which. A vowel is **long** before a single consonant, before **h**, or when it is doubled: *Hose, Größe, Schuh, Tee*. A vowel is **short** before two or more consonants, including double consonants: *passt, Kasse, Mantel, bitte*.
+
+        The difference can change the meaning: *Ofen* (oven) has a long o, *offen* (open) a short one.
+      items: |
+        Hose
+        Größe
+        passt
+        Kasse
+        Mantel
+        Die Hose passt gut.
+    culture:
+      title: Opening hours and returns
+      body: |
+        Shops in Germany are usually open Monday to Saturday, and most are closed on Sundays and public holidays — except for a few shopping Sundays (*verkaufsoffene Sonntage*) a year and shops at stations and airports.
+
+        Many shops let you exchange or return goods if you keep the receipt (*Kassenbon*), but in a shop this is a goodwill gesture, not a legal right. For goods ordered online, there is a legal right to return them within 14 days.
+    mistakes: |
+      Ich suche ein Mantel. => Ich suche einen Mantel. | Mantel is masculine, and suchen takes the accusative: einen Mantel.
+      Ich passe die Hose. => Die Hose passt. | With passen, the clothes are the subject: Die Hose passt (gut).
+      Die Jacke ist sehr teuer. (meaning "I won't buy it") => Die Jacke ist zu teuer. | Zu means "too" — more than you want; sehr only means "very".
+    task:
+      title: Buy a winter coat
+      mode: interaction
+      body: |
+        Role-play a visit to a clothes shop. The sales assistant greets you; you say what you are looking for, give your size, ask for another colour, try it on, say whether it fits, and decide to buy it or not.
+    exercises: |
+      fill: Ich ___ eine Hose in Größe 40. (suchen) || suche || Ich + suchen = ich suche. || @tags de.present-regular
+      fill: Die Schuhe ___ nicht. Sie sind zu klein. (passen) || passen || Die Schuhe (plural) are the subject, so the verb is passen. || @tags de.present-regular
+      fill: Der Pullover ___ gut. (passen) || passt || Der Pullover (singular) is the subject: er passt. || @tags de.present-regular
+      fill: Ich ___ die Jacke ___. (anprobieren) || probiere ; an || Anprobieren is separable: probiere in position 2, an at the end. || @tags de.separable
+      mc: The sales assistant asks "Kann ich Ihnen helfen?". You only want to look around. You say: || *Danke, ich schaue nur. | Ja, ich nehme den Mantel. | Nein, das passt nicht. || Ich schaue nur = I'm just looking. || @tags de.register
+      mc: The coat costs more than you want to pay. You say: || Der Mantel ist sehr schön. | *Der Mantel ist zu teuer. | Der Mantel passt gut. || Zu teuer = too expensive. || @tags de.vocabulary
+      mc: Which size fits Herr Adeyemi? || 52 | *50 | 48 || Size 52 is too big; Frau Kraus brings size 50 and it fits. || @ctx dialogue @skill reading @tags de.reading
+      tf: The coat is on special offer. || true || "Neunundachtzig Euro. Er ist im Angebot." || @ctx dialogue
+      rw: Say it is "too" long, not "very" long :: Die Hose ist sehr lang. || Die Hose ist zu lang. || Zu + adjective = too. || @tags de.vocabulary
+      order: Haben Sie die Jacke auch in Blau? || Do you have the jacket in blue too? || @tags de.questions
+      tr: I'm looking for a coat in size 50. || Ich suche einen Mantel in Größe 50. | Ich suche einen Mantel in Größe fünfzig. | Ich suche einen Mantel in Grösse 50. || Suchen + accusative: der Mantel → einen Mantel. || @tags de.accusative
+      tr: The shoes are too small. || Die Schuhe sind zu klein. || Schuhe is plural: sind; zu klein = too small. || @tags de.plural
+      listen: Die Umkleidekabine ist dort hinten, rechts. || Where is the changing room? || *At the back, on the right | At the front, on the left | Next to the till || Dort hinten = back there; rechts = on the right. || @tags de.listening
+      dict: Ich probiere diesen Pullover an.
+      ask: You are in a shop. Say what you are looking for and ask for a size or a colour. || kw: suche/brauche & größe/groesse/grösse/schwarz/weiß/weiss/grau/rot/gelb/blau/grün/gruen/braun || Guten Tag, ich suche eine Jacke. Haben Sie die Jacke in Größe 38?

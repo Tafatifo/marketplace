@@ -1,0 +1,472 @@
+- slug: hallo-aus-koeln
+  kind: reading
+  title: "Hallo aus Köln!"
+  topic: Greetings and introductions
+  summary: Tomasz, a student from Poland, introduces himself on a language-exchange website and looks for a tandem partner.
+  free: true
+  text: |
+    Hallo! Ich heiße Tomasz Nowak und ich bin dreiundzwanzig Jahre alt. Ich komme aus Polen, aus Krakau. Jetzt wohne ich in Köln. Ich bin Student und lerne Informatik an der Universität.
+
+    Ich spreche Polnisch, Englisch und ein bisschen Deutsch. Deutsch ist schwer, aber sehr interessant! Ich suche einen Tandempartner oder eine Tandempartnerin. Ich möchte mein Deutsch verbessern. Ich helfe gern mit Polnisch oder Englisch.
+
+    In der Freizeit spiele ich gern Gitarre und ich koche gern. Am Wochenende fahre ich oft Rad, zum Beispiel am Rhein.
+
+    Hast du Zeit und Lust? Wir können zusammen Kaffee trinken und sprechen – zum Beispiel am Mittwoch oder am Freitag. Ich habe nachmittags Zeit.
+
+    Bis bald!
+    Tomasz
+  translation: |
+    Hello! My name is Tomasz Nowak and I'm twenty-three years old. I come from Poland, from Kraków. Now I live in Cologne. I'm a student and I study computer science at the university.
+
+    I speak Polish, English and a little German. German is difficult, but very interesting! I'm looking for a tandem partner. I'd like to improve my German. I'm happy to help with Polish or English.
+
+    In my free time I like playing the guitar and I like cooking. At the weekend I often go cycling, for example along the Rhine.
+
+    Do you have time and feel like it? We can have a coffee together and talk – for example on Wednesday or Friday. I'm free in the afternoons.
+
+    See you soon!
+    Tomasz
+  glossary: |
+    der Tandempartner | language-exchange partner | Two people teach each other their languages. Female: die Tandempartnerin.
+    die Informatik | computer science
+    schwer | difficult; heavy
+    verbessern | to improve
+    helfen | to help
+    die Freizeit | free time
+    zum Beispiel | for example | Often written z. B.
+    zusammen | together
+    nachmittags | in the afternoons
+  questions: |
+    mc: Where does Tomasz come from? || Cologne | *Kraków, Poland | Prague || "Ich komme aus Polen, aus Krakau." He lives in Cologne now.
+    tf: Tomasz works as a computer scientist. || false || He is a student: "Ich bin Student und lerne Informatik."
+    fill: Tomasz ist ___ Jahre alt. || dreiundzwanzig / 23 || "Ich bin dreiundzwanzig Jahre alt."
+    short: Which languages does Tomasz speak? || kw: polnisch/polish & englisch/english & deutsch/german || He speaks Polish, English and a little German.
+    mc: What does Tomasz suggest? || *Meeting for a coffee to talk | Going cycling together on Sunday | A Polish course at the university || "Wir können zusammen Kaffee trinken und sprechen."
+
+- slug: meine-familie
+  kind: reading
+  title: Meine Familie
+  topic: Family and people
+  summary: In an email to her pen-pal, Jana from Rostock describes the members of her family, what they look like and what they do.
+  free: false
+  text: |
+    Liebe Emma,
+
+    danke für deine E-Mail! Heute schreibe ich über meine Familie. Wir sind fünf: mein Vater, meine Mutter, mein Bruder, meine Schwester und ich. Wir wohnen in Rostock, an der Ostsee.
+
+    Mein Vater heißt Frank. Er ist Busfahrer und sehr lustig. Meine Mutter heißt Maria, sie kommt aus Portugal. Sie ist Ärztin und arbeitet im Krankenhaus. Mein Bruder Paul ist neunzehn. Er ist groß und sportlich und macht eine Ausbildung als Koch. Meine Schwester Lotte ist erst acht. Sie ist klein und blond – und manchmal sehr laut!
+
+    Meine Großeltern wohnen auch in Rostock. Oma und Opa sind Rentner. Sie haben einen Garten und einen Hund. Am Sonntag essen wir oft zusammen bei Oma.
+
+    Und deine Familie? Hast du Geschwister?
+
+    Viele Grüße
+    Jana
+  translation: |
+    Dear Emma,
+
+    thanks for your email! Today I'm writing about my family. There are five of us: my father, my mother, my brother, my sister and me. We live in Rostock, on the Baltic Sea.
+
+    My father's name is Frank. He's a bus driver and very funny. My mother's name is Maria; she comes from Portugal. She's a doctor and works at the hospital. My brother Paul is nineteen. He's tall and sporty and is training to be a cook. My sister Lotte is only eight. She's small and blonde – and sometimes very loud!
+
+    My grandparents live in Rostock too. Grandma and Grandpa are retired. They have a garden and a dog. On Sundays we often eat together at Grandma's.
+
+    And your family? Do you have brothers or sisters?
+
+    Best wishes
+    Jana
+  glossary: |
+    die Ostsee | the Baltic Sea
+    der Busfahrer | bus driver | Female: die Busfahrerin.
+    sportlich | sporty; athletic
+    die Ausbildung | vocational training | Paul is training to be a cook.
+    erst | only (with ages and times) | erst acht = only eight
+    laut | loud; noisy
+    die Großeltern | grandparents
+    der Rentner | retired person; pensioner | Plural: die Rentner.
+  questions: |
+    mc: How many people are there in Jana's family (parents and children)? || four | *five | six || "Wir sind fünf: mein Vater, meine Mutter, mein Bruder, meine Schwester und ich."
+    tf: Jana's mother comes from Portugal. || true || "Meine Mutter heißt Maria, sie kommt aus Portugal."
+    mc: What is Paul doing? || He's studying medicine. | *He's training to be a cook. | He's a bus driver. || "Er … macht eine Ausbildung als Koch." Their father is the bus driver.
+    fill: Jana's sister Lotte ist erst ___ Jahre alt. || acht / 8 || "Meine Schwester Lotte ist erst acht."
+    short: Name one thing that Jana's grandparents have. || kw: garten/garden/hund/dog || "Sie haben einen Garten und einen Hund."
+
+- slug: ein-ganz-normaler-montag
+  kind: reading
+  title: Ein ganz normaler Montag
+  topic: Time and daily routine
+  summary: Sophie, a primary-school teacher in Stuttgart, describes her typical Monday from getting up to going to bed.
+  free: false
+  text: |
+    Ich heiße Sophie Wagner und ich bin Lehrerin an einer Grundschule in Stuttgart. Mein Montag beginnt früh: Ich stehe um Viertel nach sechs auf. Dann dusche ich und trinke einen Kaffee. Mein Mann macht das Frühstück.
+
+    Um sieben Uhr fahre ich mit dem Fahrrad zur Schule. Der Unterricht fängt um acht Uhr an. Ich unterrichte Deutsch und Musik. Um halb eins essen die Kinder und ich in der Schule.
+
+    Am Nachmittag bin ich oft noch in der Schule, oder ich arbeite zu Hause am Computer. Um fünf Uhr kaufe ich ein.
+
+    Montags gehe ich am Abend immer zum Chor. Wir singen von sieben bis neun. Danach bin ich müde! Ich lese noch ein bisschen und gehe um elf Uhr schlafen.
+  translation: |
+    My name is Sophie Wagner and I'm a teacher at a primary school in Stuttgart. My Monday starts early: I get up at a quarter past six. Then I have a shower and drink a coffee. My husband makes breakfast.
+
+    At seven o'clock I cycle to school. Lessons start at eight o'clock. I teach German and music. At half past twelve the children and I eat at school.
+
+    In the afternoon I'm often still at school, or I work at home on the computer. At five o'clock I do the shopping.
+
+    On Mondays I always go to choir in the evening. We sing from seven to nine. Afterwards I'm tired! I read a little and go to bed at eleven o'clock.
+  glossary: |
+    die Grundschule | primary school | For children aged about 6 to 10.
+    der Unterricht | lessons; classes
+    anfangen | to start | Separable: Der Unterricht fängt um acht an.
+    unterrichten | to teach
+    halb eins | half past twelve | Half-way to one.
+    der Chor | choir
+    singen | to sing
+    danach | afterwards
+  questions: |
+    mc: When does Sophie get up on Mondays? || 6:45 | *6:15 | 7:15 || "Ich stehe um Viertel nach sechs auf." = 6:15.
+    tf: Sophie goes to school by bus. || false || "Um sieben Uhr fahre ich mit dem Fahrrad zur Schule." She cycles.
+    fill: Der Unterricht fängt um ___ Uhr an. || acht / 8 || "Der Unterricht fängt um acht Uhr an."
+    mc: What does Sophie do every Monday evening? || *She sings in a choir. | She goes shopping. | She works on the computer. || "Montags gehe ich am Abend immer zum Chor."
+    short: Which subjects does Sophie teach? || kw: deutsch/german & musik/music || "Ich unterrichte Deutsch und Musik."
+
+- slug: samstag-auf-dem-markt
+  kind: reading
+  title: Samstag auf dem Markt
+  topic: Food and drink
+  summary: A woman describes her Saturday morning at the weekly market — what she buys, what it costs and who she meets.
+  free: false
+  text: |
+    Jeden Samstag kaufe ich auf dem Wochenmarkt ein. Der Markt ist am Rathaus und beginnt um sieben Uhr. Ich komme meistens um neun, dann ist es nicht so voll.
+
+    Zuerst kaufe ich Obst und Gemüse: ein Kilo Äpfel, ein Pfund Tomaten und einen Salat. Das Gemüse ist frisch und kommt aus der Region. Im Juni gibt es Erdbeeren. Sie sind sehr lecker, aber nicht billig: Eine Schale kostet vier Euro.
+
+    Dann kaufe ich Brot, zehn Eier und ein Stück Käse. Fleisch kaufe ich nicht, ich bin Vegetarierin.
+
+    Am Ende trinke ich immer einen Kaffee im Marktcafé. Dort treffe ich oft meine Nachbarin Ines. Wir sprechen über die Woche und essen ein Stück Kuchen. Ich liebe den Samstag auf dem Markt!
+  translation: |
+    Every Saturday I do my shopping at the weekly market. The market is by the town hall and starts at seven o'clock. I usually come at nine; then it isn't so crowded.
+
+    First I buy fruit and vegetables: a kilo of apples, a pound of tomatoes and a lettuce. The vegetables are fresh and come from the region. In June there are strawberries. They're very tasty, but not cheap: a punnet costs four euros.
+
+    Then I buy bread, ten eggs and a piece of cheese. I don't buy meat; I'm a vegetarian.
+
+    At the end I always have a coffee at the market café. I often meet my neighbour Ines there. We talk about the week and eat a piece of cake. I love Saturdays at the market!
+  glossary: |
+    meistens | usually; mostly
+    voll | full; crowded
+    zuerst | first; first of all
+    das Obst | fruit | Uncountable, always singular: Das Obst ist frisch.
+    aus der Region | local; from the area
+    die Schale | punnet; small tray
+    die Nachbarin | (female) neighbour | Male: der Nachbar.
+    lieben | to love
+  questions: |
+    mc: Why does the writer usually come at nine? || *It isn't so crowded then. | The market only opens at nine. | The strawberries arrive at nine. || "Ich komme meistens um neun, dann ist es nicht so voll." The market opens at seven.
+    fill: Eine Schale Erdbeeren kostet ___ Euro. || vier / 4 || "Eine Schale kostet vier Euro."
+    tf: The writer buys meat for the weekend. || false || "Fleisch kaufe ich nicht, ich bin Vegetarierin."
+    short: Who does the writer often meet at the café? || kw: ines/nachbarin/neighbour/neighbor || "Dort treffe ich oft meine Nachbarin Ines."
+    mc: Which of these does the writer NOT buy? || Eggs | Cheese | *Meat || She buys eggs and cheese, but no meat.
+
+- slug: wg-zimmer-frei
+  kind: reading
+  title: "WG-Zimmer frei!"
+  topic: Town and home
+  summary: An advert for a free room in a shared flat in Leipzig describes the room, the flat and the neighbourhood.
+  free: false
+  text: |
+    Zimmer frei in Leipzig-Connewitz!
+
+    Wir sind eine nette WG: Lara (24, Studentin), Kofi (27, Krankenpfleger) und unsere Katze Mimi. Ab Oktober ist ein Zimmer frei.
+
+    Das Zimmer ist 16 Quadratmeter groß, hell und ruhig. Es hat ein Bett, einen Schrank und einen Schreibtisch am Fenster. Die Wohnung hat drei Zimmer, eine große Küche, ein Bad und einen Balkon. In der Küche kochen und essen wir oft zusammen.
+
+    Die Wohnung ist im dritten Stock – leider ohne Aufzug! In der Nähe gibt es einen Supermarkt, eine Bäckerei und einen Park. Die Haltestelle ist gleich an der Ecke. Mit der Straßenbahn bist du in zehn Minuten im Zentrum.
+
+    Die Miete ist 380 Euro im Monat. Interesse? Dann schreib uns eine E-Mail!
+
+    Lara und Kofi
+  translation: |
+    Room available in Leipzig-Connewitz!
+
+    We're a friendly shared flat: Lara (24, student), Kofi (27, nurse) and our cat Mimi. From October a room is available.
+
+    The room is 16 square metres, bright and quiet. It has a bed, a wardrobe and a desk by the window. The flat has three rooms, a big kitchen, a bathroom and a balcony. We often cook and eat together in the kitchen.
+
+    The flat is on the third floor – unfortunately without a lift! Nearby there's a supermarket, a bakery and a park. The stop is right on the corner. By tram you're in the centre in ten minutes.
+
+    The rent is 380 euros a month. Interested? Then send us an email!
+
+    Lara and Kofi
+  glossary: |
+    die WG | shared flat | Short for Wohngemeinschaft.
+    der Quadratmeter | square metre | Often written m².
+    der Schreibtisch | desk
+    im dritten Stock | on the third floor | The Erdgeschoss (ground floor) is not counted.
+    der Aufzug | lift; elevator
+    gleich an der Ecke | right on the corner
+    die Miete | rent
+    schreib uns | write to us | The du-imperative of schreiben.
+  questions: |
+    mc: How many people live in the flat at the moment? || One | *Two | Three || Lara and Kofi live there — and their cat Mimi.
+    tf: The flat has a lift. || false || "Die Wohnung ist im dritten Stock – leider ohne Aufzug!"
+    fill: Das Zimmer ist 16 Quadratmeter groß, hell und ___. || ruhig || "Das Zimmer ist 16 Quadratmeter groß, hell und ruhig."
+    short: Name one place that is near the flat. || kw: supermarkt/supermarket/bäckerei/baeckerei/bakery/park/haltestelle/stop || "In der Nähe gibt es einen Supermarkt, eine Bäckerei und einen Park."
+    mc: How long does it take to get to the centre by tram? || *Ten minutes | Twenty minutes | Three minutes || "Mit der Straßenbahn bist du in zehn Minuten im Zentrum."
+
+- slug: postkarte-aus-hamburg
+  kind: reading
+  title: Eine Postkarte aus Hamburg
+  topic: Free time, weather and travel
+  summary: Mia writes a postcard to her grandparents about her short trip to Hamburg — where she is staying, the weather and what she is doing.
+  free: false
+  text: |
+    Liebe Oma, lieber Opa,
+
+    viele Grüße aus Hamburg! Ich bin mit Leon hier, wir bleiben bis Sonntag. Wir wohnen in einer Jugendherberge am Hafen. Das Zimmer ist klein, aber das Frühstück ist super.
+
+    Das Wetter ist typisch für Hamburg: Am Morgen regnet es oft, aber am Nachmittag scheint manchmal die Sonne. Es sind nur fünfzehn Grad und es ist sehr windig!
+
+    Hamburg ist toll. Wir fahren viel mit der U-Bahn und mit dem Schiff. Leon kauft jeden Tag ein Fischbrötchen. Ich esse keinen Fisch, aber die Franzbrötchen hier sind sehr lecker!
+
+    Am Sonntag wollen wir sehr früh aufstehen, denn dann ist Fischmarkt. Am Nachmittag müssen wir leider schon zurückfahren.
+
+    Bis bald!
+    Eure Mia
+  translation: |
+    Dear Grandma, dear Grandpa,
+
+    greetings from Hamburg! I'm here with Leon; we're staying until Sunday. We're staying in a youth hostel by the harbour. The room is small, but the breakfast is great.
+
+    The weather is typical for Hamburg: in the morning it often rains, but in the afternoon the sun sometimes shines. It's only fifteen degrees and it's very windy!
+
+    Hamburg is great. We travel a lot by underground and by boat. Leon buys a fish roll every day. I don't eat fish, but the Franzbrötchen here are delicious!
+
+    On Sunday we want to get up very early, because that's when the fish market is on. In the afternoon, unfortunately, we already have to go back.
+
+    See you soon!
+    Love, Mia
+  glossary: |
+    die Jugendherberge | youth hostel
+    der Hafen | harbour; port
+    windig | windy
+    das Schiff | ship; boat | In Hamburg, harbour ferries are part of public transport.
+    das Fischbrötchen | fish roll | A bread roll with fish — a typical snack in northern Germany.
+    das Franzbrötchen | cinnamon pastry | A sweet speciality from Hamburg.
+    denn | because
+    der Fischmarkt | fish market | Hamburg's famous market takes place early on Sunday mornings.
+    zurückfahren | to travel back | Separable: Wir fahren am Sonntag zurück.
+  questions: |
+    mc: Where are Mia and Leon staying? || In a hotel in the centre | *In a youth hostel by the harbour | At their grandparents' house || "Wir wohnen in einer Jugendherberge am Hafen."
+    fill: Es sind nur ___ Grad. || fünfzehn / fuenfzehn / 15 || "Es sind nur fünfzehn Grad und es ist sehr windig!"
+    tf: Leon buys a fish roll every day. || true || "Leon kauft jeden Tag ein Fischbrötchen."
+    mc: Why do they want to get up very early on Sunday? || *To go to the fish market | To catch an early train | To have breakfast at the hostel || "Am Sonntag wollen wir sehr früh aufstehen, denn dann ist Fischmarkt."
+    short: How do Mia and Leon get around in Hamburg? || kw: u-bahn/underground/subway/schiff/ship/boat/ferry || "Wir fahren viel mit der U-Bahn und mit dem Schiff."
+
+- slug: der-erste-tag-im-kurs
+  kind: listening
+  title: Der erste Tag im Deutschkurs
+  topic: Greetings and introductions
+  summary: On the first morning of a German course in Mainz, the teacher welcomes two new students and asks them about themselves.
+  free: true
+  speakers: S=Frau Schröder/f; M=Marco/m; Y=Yuki/f
+  text: |
+    S: Guten Morgen und herzlich willkommen im Deutschkurs!
+    S: Ich heiße Anna Schröder. Ich bin Ihre Lehrerin.
+    S: Und wie heißen Sie?
+    M: Guten Morgen! Ich heiße Marco Bianchi.
+    S: Woher kommen Sie, Herr Bianchi?
+    M: Ich komme aus Italien, aus Turin.
+    S: Und wo wohnen Sie jetzt?
+    M: Jetzt wohne ich hier in Mainz.
+    S: Danke. Und Sie?
+    Y: Hallo! Mein Name ist Yuki Tanaka.
+    Y: Ich bin Studentin und komme aus Japan.
+    S: Wie schreibt man Tanaka?
+    Y: T – A – N – A – K – A.
+    S: Danke! Und welche Sprachen sprechen Sie?
+    Y: Japanisch, Englisch und ein bisschen Deutsch.
+    S: Sehr gut! Dann fangen wir an.
+  translation: |
+    Ms Schröder: Good morning and welcome to the German course!
+    Ms Schröder: My name is Anna Schröder. I'm your teacher.
+    Ms Schröder: And what's your name?
+    Marco: Good morning! My name is Marco Bianchi.
+    Ms Schröder: Where do you come from, Mr Bianchi?
+    Marco: I come from Italy, from Turin.
+    Ms Schröder: And where do you live now?
+    Marco: Now I live here in Mainz.
+    Ms Schröder: Thank you. And you?
+    Yuki: Hello! My name is Yuki Tanaka.
+    Yuki: I'm a student and I come from Japan.
+    Ms Schröder: How do you spell Tanaka?
+    Yuki: T – A – N – A – K – A.
+    Ms Schröder: Thank you! And which languages do you speak?
+    Yuki: Japanese, English and a little German.
+    Ms Schröder: Very good! Then let's begin.
+  glossary: |
+    herzlich willkommen | welcome | A warm, slightly formal welcome.
+    der Deutschkurs | German course
+    die Lehrerin | (female) teacher | Male: der Lehrer.
+    woher | where from
+    Wie schreibt man das? | How do you spell that?
+    die Sprache | language | Plural: die Sprachen.
+    anfangen | to begin | Separable: Wir fangen an.
+  questions: |
+    mc: What is the teacher's name? || Yuki Tanaka | *Anna Schröder | Marco Bianchi || "Ich heiße Anna Schröder. Ich bin Ihre Lehrerin."
+    tf: Marco lives in Turin. || false || He comes from Turin, but now he lives in Mainz.
+    fill: Yuki ist ___ und kommt aus Japan. || Studentin || "Ich bin Studentin und komme aus Japan."
+    short: Which languages does Yuki speak? || kw: japanisch/japanese & englisch/english & deutsch/german || "Japanisch, Englisch und ein bisschen Deutsch."
+    mc: Do the teacher and the students use du or Sie? || du | *Sie | They switch between du and Sie. || They use the formal Sie: "Wie heißen Sie?", "Woher kommen Sie, Herr Bianchi?"
+
+- slug: im-schuhgeschaeft
+  kind: listening
+  title: Im Schuhgeschäft
+  topic: Shopping
+  summary: Julia buys a pair of trainers — she asks for her size and another colour, tries them on and pays.
+  free: false
+  speakers: V=Der Verkäufer/m; J=Julia/f
+  text: |
+    V: Guten Tag! Kann ich Ihnen helfen?
+    J: Ja, bitte. Ich suche Sportschuhe.
+    V: Welche Größe haben Sie?
+    J: Größe neununddreißig.
+    V: Wie finden Sie diese Schuhe hier?
+    J: Hm, die Farbe ist nicht so schön. Haben Sie die Schuhe auch in Blau?
+    V: Ja, Moment… Hier, in Blau und in Größe neununddreißig.
+    J: Danke. Kann ich die Schuhe anprobieren?
+    V: Natürlich.
+    J: Oh, sie sind ein bisschen zu klein.
+    V: Hier ist Größe vierzig.
+    J: Ja, die passen gut! Wie viel kosten sie?
+    V: Neunundfünfzig Euro neunzig. Sie sind heute im Angebot.
+    J: Super, dann nehme ich die Schuhe. Kann ich mit Karte bezahlen?
+    V: Ja, gern. Die Kasse ist dort vorne.
+  translation: |
+    Sales assistant: Hello! Can I help you?
+    Julia: Yes, please. I'm looking for trainers.
+    Sales assistant: What size are you?
+    Julia: Size thirty-nine.
+    Sales assistant: What do you think of these shoes here?
+    Julia: Hm, the colour isn't so nice. Do you have the shoes in blue too?
+    Sales assistant: Yes, one moment… Here, in blue and in size thirty-nine.
+    Julia: Thanks. Can I try the shoes on?
+    Sales assistant: Of course.
+    Julia: Oh, they're a bit too small.
+    Sales assistant: Here's size forty.
+    Julia: Yes, these fit well! How much are they?
+    Sales assistant: Fifty-nine euros ninety. They're on special offer today.
+    Julia: Great, then I'll take the shoes. Can I pay by card?
+    Sales assistant: Yes, of course. The till is over there at the front.
+  glossary: |
+    die Sportschuhe | trainers; sneakers | Singular: der Sportschuh.
+    die Größe | size
+    anprobieren | to try on | Separable: Ich probiere die Schuhe an.
+    zu klein | too small
+    passen | to fit
+    im Angebot | on special offer
+    die Kasse | till; checkout
+    vorne | at the front
+  questions: |
+    mc: Which size does Julia buy in the end? || 39 | *40 | 49 || Size 39 is a bit too small; size 40 fits well.
+    mc: What colour are the shoes she buys? || White | *Blue | Red || "Haben Sie die Schuhe auch in Blau?" — "Ja … Hier, in Blau."
+    fill: Die Schuhe kosten ___ Euro neunzig. || neunundfünfzig / neunundfuenfzig / 59 || "Neunundfünfzig Euro neunzig."
+    tf: Julia pays cash. || false || She asks "Kann ich mit Karte bezahlen?" and the sales assistant says yes.
+    short: Why does Julia ask for another colour? || kw: farbe/colour/color/schön/schoen/nice/like || "Die Farbe ist nicht so schön" — she doesn't like the colour.
+
+- slug: was-machen-wir-am-wochenende
+  kind: listening
+  title: Was machen wir am Wochenende?
+  topic: Free time and weather
+  summary: Two flatmates check the weather forecast and change their weekend plans.
+  free: false
+  speakers: N=Nils/m; S=Selin/f
+  text: |
+    N: Selin, hast du am Samstag Zeit?
+    S: Ja, warum?
+    N: Ich möchte wandern. Kommst du mit?
+    S: Hm, wie ist das Wetter am Samstag?
+    N: Am Samstag regnet es leider. Es sind nur zehn Grad.
+    S: Dann wandern wir nicht! Ich mag Regen nicht.
+    N: Und am Sonntag? Am Sonntag ist es sonnig und warm.
+    S: Am Vormittag treffe ich meine Schwester. Aber am Nachmittag habe ich Zeit.
+    N: Super! Dann fahren wir mit dem Rad an den See. Wir können schwimmen!
+    S: Gute Idee! Und am Samstag?
+    N: Am Samstag sehen wir zu Hause einen Film. Ich koche!
+    S: Perfekt. Und ich mache einen Kuchen.
+  translation: |
+    Nils: Selin, are you free on Saturday?
+    Selin: Yes, why?
+    Nils: I'd like to go hiking. Are you coming along?
+    Selin: Hm, what's the weather like on Saturday?
+    Nils: Unfortunately it's going to rain on Saturday. It'll only be ten degrees.
+    Selin: Then we won't go hiking! I don't like rain.
+    Nils: And on Sunday? On Sunday it's going to be sunny and warm.
+    Selin: In the morning I'm meeting my sister. But in the afternoon I'm free.
+    Nils: Great! Then we'll cycle to the lake. We can go swimming!
+    Selin: Good idea! And on Saturday?
+    Nils: On Saturday we'll watch a film at home. I'll cook!
+    Selin: Perfect. And I'll make a cake.
+  glossary: |
+    warum | why
+    wandern | to hike; to go hiking
+    der Regen | rain | Verb: es regnet.
+    der Vormittag | (late) morning | Am Vormittag = in the morning, before lunch.
+    der Nachmittag | afternoon
+    der See | lake | Careful: die See means the sea.
+    Gute Idee! | Good idea!
+    zu Hause | at home
+  questions: |
+    mc: Why don't they go hiking on Saturday? || Selin has to work. | *It's going to rain. | Nils is ill. || "Am Samstag regnet es leider. Es sind nur zehn Grad."
+    tf: On Sunday it will be sunny and warm. || true || "Am Sonntag ist es sonnig und warm."
+    mc: What will they do on Sunday afternoon? || Go hiking | *Cycle to the lake and swim | Watch a film at home || "Dann fahren wir mit dem Rad an den See. Wir können schwimmen!"
+    fill: Am Samstag sind es nur ___ Grad. || zehn / 10 || "Es sind nur zehn Grad."
+    short: What will Selin make on Saturday? || kw: kuchen/cake || "Und ich mache einen Kuchen."
+
+- slug: am-bahnhof
+  kind: listening
+  title: Am Bahnhof
+  topic: Travel
+  summary: At a station information desk, Rosa asks about her train to Heidelberg, where to buy a ticket and where to find a café.
+  free: false
+  speakers: R=Rosa/f; I=Der Mitarbeiter/m
+  text: |
+    R: Entschuldigung, wann fährt der nächste Zug nach Heidelberg?
+    I: Um elf Uhr zwanzig, von Gleis acht.
+    R: Muss ich umsteigen?
+    I: Ja, Sie müssen in Mannheim umsteigen.
+    R: Und wann komme ich in Heidelberg an?
+    I: Um zwölf Uhr fünf.
+    R: Danke. Wo kann ich eine Fahrkarte kaufen?
+    I: Am Automaten dort drüben.
+    R: Und gibt es hier ein Café? Ich habe noch Zeit.
+    I: Ja. Gehen Sie hier geradeaus und dann rechts. Das Café ist neben der Apotheke.
+    R: Vielen Dank!
+    I: Gern. Gute Reise!
+  translation: |
+    Rosa: Excuse me, when does the next train to Heidelberg leave?
+    Staff member: At 11:20, from platform eight.
+    Rosa: Do I have to change?
+    Staff member: Yes, you have to change in Mannheim.
+    Rosa: And when do I arrive in Heidelberg?
+    Staff member: At 12:05.
+    Rosa: Thanks. Where can I buy a ticket?
+    Staff member: At the machine over there.
+    Rosa: And is there a café here? I still have time.
+    Staff member: Yes. Go straight on here and then right. The café is next to the pharmacy.
+    Rosa: Thank you very much!
+    Staff member: You're welcome. Have a good trip!
+  glossary: |
+    der nächste Zug | the next train
+    das Gleis | platform; track
+    umsteigen | to change (trains) | Separable: Ich steige in Mannheim um.
+    ankommen | to arrive | Separable: Ich komme um zwölf an.
+    der Automat | (ticket) machine
+    dort drüben | over there
+    neben | next to
+    Gute Reise! | Have a good trip!
+  questions: |
+    mc: Which platform does the train leave from? || 4 | *8 | 18 || "Um elf Uhr zwanzig, von Gleis acht."
+    fill: Rosa muss in ___ umsteigen. || Mannheim || "Ja, Sie müssen in Mannheim umsteigen."
+    mc: When does Rosa arrive in Heidelberg? || 11:20 | *12:05 | 12:50 || "Um zwölf Uhr fünf" = 12:05. The train leaves at 11:20.
+    tf: Rosa can buy a ticket at a machine. || true || "Am Automaten dort drüben."
+    short: Where is the café? || kw: apotheke/pharmacy/rechts/right || "Gehen Sie hier geradeaus und dann rechts. Das Café ist neben der Apotheke."

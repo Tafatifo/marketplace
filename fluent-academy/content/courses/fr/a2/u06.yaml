@@ -1,0 +1,354 @@
+unit: 6
+title: Services et démarches
+theme: Services and errands
+description: Deal with banks and post offices, return or exchange a purchase, and handle phone calls and messages, using direct and indirect object pronouns.
+free: false
+objectives:
+  - Carry out simple transactions at a bank and a post office, using direct object pronouns
+  - Return or exchange an item, placing pronouns with infinitives, imperatives and the passé composé
+  - Make phone calls and leave messages, using indirect object pronouns
+canDo:
+  - I can carry out simple transactions at a bank or a post office.
+  - I can explain a problem with a purchase and ask for an exchange or a refund.
+  - I can make a phone call, leave a message and understand a simple voicemail.
+  - I can avoid repeating nouns by using le, la, les, lui and leur.
+review: |
+  fill: Votre code ? Ne ___ donnez à personne ! || le || Le code is masculine: le, placed before the verb in the negative imperative. || @tags fr.object-pronouns,fr.imperative
+  fill: Cette robe, je l'ai ___ (porter) une seule fois. || portée || L' stands for la robe (feminine), placed before avoir, so the participle agrees: portée. || @tags fr.object-pronouns,fr.past-participle-agreement
+  fill: Mes parents sont en vacances. Je ___ envoie une carte postale. || leur || Envoyer quelque chose à mes parents → leur (indirect, plural, no -s). || @tags fr.object-pronouns
+  mc: "Tu as vu Clara ?" — "Oui, je ___ ai vue hier." || lui | *l' | la || Voir quelqu'un takes a direct object: la → l' before ai (and vue agrees with Clara). || @tags fr.object-pronouns
+  mc: Choose the correct sentence. || *Je peux lui parler ? | Je lui peux parler ? | Je peux parler lui ? || With an infinitive, the pronoun goes before the infinitive: je peux lui parler. || @tags fr.object-pronouns
+  rw: Replace the people with pronouns :: Je téléphone à Marc et j'invite Léa. || Je lui téléphone et je l'invite. || Téléphoner à → lui (indirect); inviter quelqu'un → l' (direct). || @tags fr.object-pronouns
+  tr: Keep it! (it = the receipt; formal) || Gardez-le ! | Gardez-le. || Affirmative imperative: verb + hyphen + pronoun. Le ticket is masculine. || @tags fr.object-pronouns,fr.imperative
+  listen: Bonjour, ici Mme Leroy, votre conseillère. Votre nouvelle carte est arrivée. Passez la chercher à l'agence quand vous voulez. || What should the customer do? || Call the bank back | *Collect the new card at the branch | Wait for the card by post || "Passez la chercher à l'agence" — come and collect it at the branch. || @tags fr.listening
+  listen: Allô, Sam ? C'est Nora. Je t'ai envoyé trois messages ! Rappelle-moi vite, c'est pour samedi. || What does Nora want? || Sam to send her a message | *Sam to call her back quickly | Sam to come on Sunday || "Rappelle-moi vite" = call me back quickly. || @tags fr.object-pronouns,fr.listening
+  ask: The coffee machine you bought last week doesn't work. Phone the shop, explain the problem and ask what you can do. || kw: marche/fonctionne & échanger/rembourser/rapporter || Bonjour, j'ai acheté une machine à café chez vous la semaine dernière, mais elle ne marche pas. Est-ce que je peux la rapporter et l'échanger ?
+  write: Write a message to your flatmate — today you went to the post office and the bank. Say what you did with the parcel, the letter and the rent, using pronouns. || min=40 || req: l'/les/lui/leur/la/le | j'ai/je suis || Coucou Max ! Ce matin, je suis allée à la poste. Le colis pour ta mère ? Je l'ai envoyé en prioritaire, elle va le recevoir lundi. Ta lettre recommandée, je l'ai prise et je l'ai mise sur ton bureau. Ensuite, je suis passée à la banque et j'ai payé le loyer : j'ai fait un virement à la propriétaire et je lui ai envoyé un message. Bises, Jade
+lessons:
+  - title: At the bank and the post office
+    summary: Open an account, use a cash machine and send a parcel, replacing nouns with le, la, l' and les.
+    minutes: 45
+    skills: [vocabulary, grammar, listening]
+    tags: [fr.object-pronouns]
+    objectives:
+      - Carry out simple transactions at a bank and a post office
+      - Use the direct object pronouns le, la, l', les and me, te, nous, vous
+      - Place the pronoun correctly in affirmative and negative sentences
+    intro: |
+      At the bank or the post office, conversations are short and full of things passed back and forth: *Votre carte ? Je la mets dans la machine. Ce colis, vous l'envoyez où ?* French doesn't repeat the noun — it uses a **direct object pronoun**, placed before the verb. This lesson shows you how it works.
+    vocab: |
+      un compte bancaire | a bank account | n | Je voudrais ouvrir un compte bancaire. | I'd like to open a bank account. | c: ouvrir un compte; fermer un compte; un compte joint | g: m
+      la carte bancaire | the bank card | n | J'ai perdu ma carte bancaire. | I've lost my bank card. | g: f | n: Informal: la carte bleue or la CB.
+      le code | the PIN | n | Tapez votre code, s'il vous plaît. | Enter your PIN, please. | g: m | n: Also le code secret.
+      retirer de l'argent | to withdraw money | expr | Je retire de l'argent au distributeur. | I withdraw money from the cash machine. | n: Le distributeur (de billets) = the cash machine.
+      un virement | a bank transfer | n | J'ai fait un virement à mon propriétaire. | I made a transfer to my landlord. | c: faire un virement | g: m
+      un RIB | bank details (document) | n | Mon employeur demande mon RIB. | My employer is asking for my bank details. | g: m | n: Relevé d'identité bancaire, a document with your IBAN. Pronounced [ʁib].
+      la poste | the post office | n | La poste ferme à dix-huit heures. | The post office closes at 6 p.m. | g: f | n: Also le bureau de poste.
+      un colis | a parcel | n | J'envoie un colis à ma sœur au Canada. | I'm sending a parcel to my sister in Canada. | g: m
+      une lettre recommandée | a registered letter | n | J'ai reçu une lettre recommandée. | I received a registered letter. | g: f | n: Envoyer en recommandé = to send by registered post.
+      un timbre | a stamp | n | Il faut un timbre pour la Belgique. | You need a stamp for Belgium. | g: m
+      peser | to weigh | v | Le guichetier pèse le colis. | The counter clerk weighs the parcel. | n: Je pèse, nous pesons: è when the ending is silent.
+      un formulaire | a form | n | Remplissez ce formulaire, s'il vous plaît. | Please fill in this form. | c: remplir un formulaire | g: m
+      une pièce d'identité | a proof of identity; ID | n | Vous avez une pièce d'identité ? | Do you have any ID? | g: f | n: Un justificatif de domicile = proof of address.
+    grammar:
+      title: Direct object pronouns
+      body: |
+        A **direct object** follows the verb directly, without a preposition: *J'envoie **le colis**.* To avoid repeating it, French uses a pronoun: **le** (masculine), **la** (feminine), **l'** (before a vowel or a silent h) and **les** (plural): *Le colis ? Je **l'**envoie aujourd'hui.*
+
+        The pronoun goes **before the conjugated verb** — not after it as in English: *Je **la** prends* (I'm taking it). In the negative, *ne… pas* goes around the pronoun and the verb together: *Je **ne la** trouve **pas**.*
+
+        For people, you also use **me, te, nous, vous**: *Le conseiller **vous** attend. Tu **m'**attends ?*
+
+        Don't confuse the pronouns with the articles: the article comes before a noun (*la carte*), the pronoun before a verb (*je la mets*).
+      table: |
+        Object | Pronoun | Example
+        le colis (masculine) | le / l' | Je l'envoie au Canada.
+        la carte (feminine) | la / l' | Je la mets dans la machine.
+        les timbres (plural) | les | Je les achète au guichet.
+        me / you (tu) | me / te | Il me voit. Il te voit.
+        us / you (vous) | nous / vous | Le conseiller vous attend.
+      examples: |
+        Votre carte ? Vous la mettez ici, s'il vous plaît. | Your card? Put it here, please. | la = la carte
+        Ces formulaires, je les remplis maintenant. | I'm filling in these forms now. | les = les formulaires
+        Ton code, tu ne le donnes à personne ! | You don't give your PIN to anybody! | ne + le + verb
+        Mme Duval ? Je la connais bien, c'est ma conseillère. | Mrs Duval? I know her well, she's my adviser. | la = a person
+      tip: "Attendre, chercher, écouter and regarder take a direct object in French — no preposition: J'attends le bus → Je l'attends."
+    dialogue:
+      title: À la poste
+      setting: A post office in Toulouse. Chloé wants to send a parcel to her brother in Quebec and collect a registered letter.
+      speakers: C=Chloé/f; G=Le guichetier/m
+      lines: |
+        G: Bonjour, madame. Je vous écoute. | Hello, madam. How can I help you?
+        C: Bonjour. Je voudrais envoyer ce colis au Canada. | Hello. I'd like to send this parcel to Canada.
+        G: Très bien. Je le pèse… Deux kilos. Vous l'envoyez en prioritaire ? | Very good. I'll weigh it… Two kilos. Are you sending it priority?
+        C: Il arrive quand, en prioritaire ? | When does it arrive, by priority?
+        G: En une semaine environ. Sinon, comptez trois semaines. | In about a week. Otherwise, allow three weeks.
+        C: C'est pour l'anniversaire de mon frère. Alors, en prioritaire ! | It's for my brother's birthday. So priority, then!
+        G: D'accord. Remplissez ce formulaire, s'il vous plaît. | OK. Please fill in this form.
+        C: Voilà. J'ai aussi un avis de passage pour une lettre recommandée. | Here you are. I also have a delivery notice for a registered letter.
+        G: Vous l'avez avec vous ? | Do you have it with you?
+        C: Oui, le voici. Et ma carte d'identité, vous la voulez ? | Yes, here it is. And my ID card, do you want it?
+        G: Oui, je la regarde… Merci. Voici votre lettre. | Yes, let me look at it… Thank you. Here's your letter.
+        C: Merci ! Je peux payer par carte ? | Thanks! Can I pay by card?
+    pronunciation:
+      title: "Le, la, l', les before the verb"
+      body: |
+        Object pronouns are short and unstressed, so they attach to the verb: *je le pèse* [ʒəl.pɛz], *je la mets* [ʒə.la.mɛ]. Before a vowel, *l'* glues to the verb: *je l'envoie* [ʒə.lɑ̃.vwa]. *Les* links with a [z] before a vowel: *je les envoie* [ʒə.le.zɑ̃.vwa].
+
+        Listen carefully to the difference between *je l'envoie* (I'm sending it) and *je les envoie* (I'm sending them) — the [z] is the clue.
+      items: |
+        je le pèse
+        je la mets
+        je l'envoie
+        je les envoie
+        vous l'avez ?
+        je ne la trouve pas
+    culture:
+      title: La poste et la banque
+      body: |
+        In France, the national postal service also runs a bank, so many post offices have banking services. Town post offices usually open from Monday to Saturday morning; in many villages, postal services are now offered in the town hall or in a local shop.
+
+        To open a bank account, you need ID, proof of address (*un justificatif de domicile*, such as an electricity bill) and sometimes proof of income. Cheques are still used more in France than in many countries — some people still pay their rent by cheque.
+    mistakes: |
+      J'envoie le aujourd'hui. => Je l'envoie aujourd'hui. | The pronoun goes before the verb, and le becomes l' before a vowel.
+      Je ne trouve la pas. => Je ne la trouve pas. | In the negative, the pronoun stays directly before the verb: ne + la + trouve + pas.
+      J'attends pour le bus. => J'attends le bus. | Attendre takes a direct object, with no preposition: j'attends le bus, je l'attends.
+    task:
+      title: At the counter
+      mode: interaction
+      body: |
+        Role-play two short visits with the AI coach. First, at the post office, send a parcel abroad and ask how long it takes and how much it costs. Then, at the bank, ask to open an account and say which documents you have. Answer the clerk's questions with pronouns: *Ma pièce d'identité ? Je l'ai, la voici.*
+    exercises: |
+      fill: Le colis ? Je ___ envoie demain. || l' || Le colis is masculine; le becomes l' before a vowel: je l'envoie. || @tags fr.object-pronouns
+      fill: Ta carte bancaire ? Tu ___ mets dans le distributeur. || la || La carte is feminine: tu la mets. || @tags fr.object-pronouns
+      fill: Ces timbres, je ___ achète au guichet. || les || Plural object: les. || @tags fr.object-pronouns
+      fill: Le conseiller est arrivé : il ___ attend dans son bureau, madame. || vous || The person spoken to (madame, vous) is the direct object of attendre: il vous attend. || @tags fr.object-pronouns
+      mc: Ma carte ? ___ || Je ne trouve pas la. | *Je ne la trouve pas. | Je la ne trouve pas. || Ne… pas goes around the pronoun and the verb: je ne la trouve pas. || @tags fr.object-pronouns,fr.negation
+      tf: Chloé's parcel is for her brother's birthday. || true || "C'est pour l'anniversaire de mon frère." || @ctx dialogue
+      short: How long does priority post to Canada take? || kw: semaine/week/sept/7 || "En une semaine environ." Ordinary post takes about three weeks. || @ctx dialogue
+      listen: @dialogue || What does the clerk ask Chloé to do? || Weigh the parcel herself | *Fill in a form | Come back next week || "Remplissez ce formulaire, s'il vous plaît." || @tags fr.listening
+      listen: Bonjour, monsieur. Pour ouvrir un compte, apportez une pièce d'identité et un justificatif de domicile. || What should the customer bring? || A payslip and a bank card | *ID and proof of address | A form and a stamp || Une pièce d'identité (ID) and un justificatif de domicile (proof of address). || @tags fr.listening
+      rw: Replace the object with a pronoun :: Je remplis le formulaire. || Je le remplis. || Le formulaire → le, before the verb. || @tags fr.object-pronouns
+      rw: Answer in the negative with a pronoun :: Tu connais la nouvelle conseillère ? || Non, je ne la connais pas. | Je ne la connais pas. || La conseillère → la; ne + la + connais + pas. || @tags fr.object-pronouns,fr.negation
+      tr: My bank card? I always keep it in my wallet. || Ma carte bancaire ? Je la garde toujours dans mon portefeuille. | Ma carte ? Je la garde toujours dans mon portefeuille. || La carte → la, before the verb garder. || @tags fr.object-pronouns
+      dict: Je pèse votre colis et je l'envoie en prioritaire. || je l'envoie
+      ask: At the bank, say that you'd like to open an account and that you have your ID and proof of address. || kw: ouvrir & compte || Bonjour, je voudrais ouvrir un compte, s'il vous plaît. J'ai ma pièce d'identité et un justificatif de domicile, je les ai avec moi.
+      write: Write a short note for a friend explaining how to send a parcel abroad from a French post office (three or four steps). Use at least two object pronouns. || min=30 || req: le/la/l'/les || D'abord, tu vas au guichet avec ton colis. L'employé le pèse et il te donne un formulaire. Tu le remplis avec l'adresse. Ensuite, tu choisis : en prioritaire, c'est plus rapide. Enfin, tu paies et tu gardes bien le reçu !
+
+  - title: Returns and exchanges
+    summary: Explain a problem with a purchase and ask for an exchange or a refund, placing object pronouns with infinitives, imperatives and the passé composé.
+    minutes: 45
+    skills: [speaking, grammar, listening]
+    tags: [fr.object-pronouns, fr.past-participle-agreement]
+    objectives:
+      - Explain what is wrong with a product and ask for an exchange or a refund
+      - Place object pronouns before an infinitive and after an affirmative imperative
+      - Use object pronouns in the passé composé, with participle agreement in writing
+    intro: |
+      A jumper that's too small, headphones that don't work, a lamp that arrives broken: returning things is part of everyday life. In these conversations the pronouns move around — *je peux l'échanger ? gardez-le, je l'ai acheté hier* — so this lesson shows you where they go with infinitives, imperatives and the passé composé.
+    vocab: |
+      rapporter | to bring back; to return | v | Je rapporte ce pull, il est trop petit. | I'm bringing back this jumper, it's too small.
+      échanger | to exchange | v | Est-ce que je peux échanger cette chemise ? | Can I exchange this shirt? | c: échanger contre une autre taille
+      rembourser | to refund; to pay back | v | Le magasin rembourse sous trente jours. | The shop gives refunds within thirty days. | n: Être remboursé(e) = to get a refund.
+      le ticket de caisse | the receipt | n | Gardez bien votre ticket de caisse. | Keep your receipt safe. | g: m | n: Also le reçu.
+      un avoir | a credit note | n | Nous ne remboursons pas, mais nous faisons un avoir. | We don't give refunds, but we give credit notes. | g: m
+      la taille | the size (clothes) | n | Vous avez la taille au-dessus ? | Do you have the next size up? | g: f | n: For shoes: la pointure.
+      abîmé | damaged | adj | Le carton est arrivé abîmé. | The box arrived damaged.
+      marcher | to work (a machine) | v | Mon casque ne marche pas. | My headphones don't work. | n: More formal: fonctionner.
+      un défaut | a defect; a fault | n | Il y a un défaut sur la manche. | There's a fault on the sleeve. | g: m
+      la garantie | the warranty; the guarantee | n | L'aspirateur est encore sous garantie. | The vacuum cleaner is still under warranty. | g: f
+      le service client | customer service | n | J'ai appelé le service client trois fois. | I called customer service three times. | g: m
+      livrer | to deliver | v | Ils livrent le canapé mardi. | They're delivering the sofa on Tuesday. | n: La livraison = delivery.
+      se plaindre | to complain | v | Je ne veux pas me plaindre, mais… | I don't want to complain, but… | n: Une réclamation = a formal complaint.
+    grammar:
+      title: Where do object pronouns go?
+      body: |
+        **With an infinitive** (after *pouvoir, vouloir, devoir, aller*…), the pronoun goes **before the infinitive**: *Je peux **l'**échanger ? Vous allez **le** rembourser ? Je voudrais **les** essayer.*
+
+        **In the affirmative imperative**, it comes **after** the verb, with a hyphen: *Gardez-**le**. Rapportez-**la** demain.* (*Me* becomes *moi*: *Appelez-**moi**.*) In the negative imperative, it goes back before the verb: ***Ne le** jetez **pas**.*
+
+        **In the passé composé**, it goes **before the auxiliary**: *Je **l'**ai acheté hier. Je ne **l'**ai pas utilisé.* When the pronoun stands for a feminine or plural noun, the participle **agrees in writing**: *Cette robe ? Je l'ai acheté**e** samedi. Ces chaussures ? Je les ai porté**es** une fois.* You usually can't hear the agreement — except with participles like *mis, pris, fait*: *je l'ai mise* [miz].
+      table: |
+        Structure | Position | Example
+        present | before the verb | Je l'échange.
+        verb + infinitive | before the infinitive | Je peux l'échanger ?
+        affirmative imperative | after the verb | Gardez-le !
+        negative imperative | before the verb | Ne le jetez pas !
+        passé composé | before the auxiliary | Je l'ai acheté hier.
+        passé composé, feminine or plural object | + agreement | Je l'ai achetée. Je les ai achetés.
+      examples: |
+        Ce pull est trop petit. Je peux l'échanger contre un M ? | This jumper is too small. Can I exchange it for a medium? | before the infinitive
+        Votre ticket ? Gardez-le, c'est important. | Your receipt? Keep it, it's important. | after the affirmative imperative
+        Ces chaussures, je les ai achetées samedi. | I bought these shoes on Saturday. | les = feminine plural → achetées
+        Je ne l'ai jamais utilisé. | I've never used it. | negative passé composé
+      tip: "With two verbs, ask which one the object belongs to: you exchange the jumper (échanger), so the pronoun goes with échanger — je peux l'échanger."
+    dialogue:
+      title: Un pull trop petit
+      setting: A clothes shop in Lyon on Monday. On Saturday, Pauline bought a jumper for her girlfriend, but it's too small. She speaks to a shop assistant, Hugo.
+      speakers: P=Pauline/f; H=Hugo/m
+      lines: |
+        P: Bonjour. J'ai acheté ce pull samedi, mais il est trop petit. | Hello. I bought this jumper on Saturday, but it's too small.
+        H: Bonjour, madame. Vous avez votre ticket de caisse ? | Hello, madam. Do you have your receipt?
+        P: Oui, je l'ai gardé. Le voilà. | Yes, I kept it. Here it is.
+        H: Merci. Vous l'avez porté ? | Thank you. Have you worn it?
+        P: Non, ma compagne l'a essayé, c'est tout. C'était un cadeau. | No, my girlfriend tried it on, that's all. It was a present.
+        H: D'accord. Vous voulez l'échanger ou être remboursée ? | OK. Would you like to exchange it or get a refund?
+        P: Je préfère l'échanger. Vous l'avez en taille L ? | I'd rather exchange it. Do you have it in a large?
+        H: En bleu, non, mais je l'ai en vert. | Not in blue, but I have it in green.
+        P: Hmm… Elle n'aime pas le vert. Vous pouvez me rembourser ? | Hmm… She doesn't like green. Can you refund me?
+        H: Bien sûr. Je vous rembourse sur votre carte. | Of course. I'll refund you on your card.
+        P: Parfait. Je la mets ici ? | Perfect. Shall I put it here?
+        H: Oui, insérez-la et tapez votre code, s'il vous plaît. | Yes, insert it and enter your PIN, please.
+    pronunciation:
+      title: "Hearing the agreement: mis / mise, pris / prise"
+      body: |
+        With most verbs, the agreement of the participle is silent: *acheté, achetée, achetés* all sound [aʃ.te]. But when the participle ends in a consonant letter, the feminine makes it audible: *je l'ai mis* [mi] → *je l'ai mise* [miz]; *pris* [pʁi] → *prise* [pʁiz]; *fait* [fɛ] → *faite* [fɛt].
+
+        In the affirmative imperative, *le* is stressed and pronounced with a full vowel: *gardez-le* [gaʁ.de.lø].
+      items: |
+        je l'ai mis
+        je l'ai mise
+        je l'ai prise
+        gardez-le
+        je peux l'échanger ?
+        ne le jetez pas
+    culture:
+      title: Rendre un article en France
+      body: |
+        In French shops, taking back an item you simply don't want is a goodwill gesture, not a legal right: each shop sets its own rules (often 15 or 30 days, with the receipt), and some only give *un avoir*. Check the sign at the till before you buy.
+
+        Online, the rules are stricter: for most purchases you have 14 days to change your mind (*le droit de rétractation*) and get your money back. And if a product is faulty, the legal guarantee (*la garantie légale de conformité*) lasts two years.
+    mistakes: |
+      Je peux échanger le ? => Je peux l'échanger ? | With an infinitive, the pronoun goes before the infinitive.
+      Le gardez ! => Gardez-le ! | In the affirmative imperative, the pronoun comes after the verb, with a hyphen.
+      J'ai le acheté hier. => Je l'ai acheté hier. | In the passé composé, the pronoun goes before the auxiliary (and le becomes l').
+    task:
+      title: Back to the shop
+      mode: interaction
+      body: |
+        You bought something that doesn't work or doesn't fit (headphones, shoes, a lamp…). With the AI coach as the shop assistant, explain when you bought it and what the problem is, show your receipt and ask for an exchange or a refund. If the shop only offers a credit note, negotiate politely.
+    exercises: |
+      fill: Ce pantalon est trop long. Je peux ___ échanger ? || l' || The pronoun goes before the infinitive; le becomes l' before a vowel. || @tags fr.object-pronouns
+      fill: Votre ticket de caisse ? Gardez-___ ! || le || Affirmative imperative: verb + hyphen + pronoun. Le ticket is masculine. || @tags fr.object-pronouns,fr.imperative
+      fill: Cette lampe ? Je l'ai ___ (acheter) ici samedi. || achetée || L' stands for la lampe (feminine) and comes before avoir: achetée. || @tags fr.object-pronouns,fr.past-participle-agreement
+      mc: Ce sac ? ___ || Je le veux rapporter demain. | *Je veux le rapporter demain. | Je veux rapporter le demain. || The pronoun goes before the infinitive it belongs to: rapporter. || @tags fr.object-pronouns
+      mc: Ces chaussures, je les ai ___ une seule fois. || porté | *portées | portés || Les stands for les chaussures (feminine plural), placed before avoir: portées. || @tags fr.past-participle-agreement
+      tf: Pauline's girlfriend wore the jumper outside. || false || "Ma compagne l'a essayé, c'est tout" — she only tried it on. || @ctx dialogue
+      short: Why doesn't Pauline take the green jumper? || kw: vert/green || "Elle n'aime pas le vert" — her girlfriend doesn't like green. || @ctx dialogue
+      listen: @dialogue || How does Pauline get her money back? || In cash | *On her card | With a credit note || "Je vous rembourse sur votre carte." || @tags fr.listening
+      listen: Désolé, madame, nous ne remboursons pas. Mais nous pouvons vous faire un avoir, valable six mois. || What does the shop offer? || A refund within six months | *A credit note valid for six months | An exchange for a bigger size || Un avoir valable six mois = a credit note valid for six months. || @tags fr.listening
+      rw: Replace the object with a pronoun :: Rapportez la facture demain. || Rapportez-la demain. || Affirmative imperative: the pronoun comes after the verb. || @tags fr.object-pronouns,fr.imperative
+      rw: Answer "yes" with a pronoun :: Tu as gardé le ticket ? || Oui, je l'ai gardé. || In the passé composé, the pronoun goes before avoir. || @tags fr.object-pronouns,fr.passe-compose-avoir
+      dict: Je l'ai achetée samedi, mais elle ne marche pas. || achetée
+      ask: Explain to the shop assistant that your new headphones don't work and ask to exchange them. || kw: marche/marchent/fonctionne/fonctionnent & échanger/rembourser || Bonjour, j'ai acheté ce casque ici jeudi, mais il ne marche pas. Je peux l'échanger, s'il vous plaît ? Voici le ticket de caisse.
+      write: Write an email to an online shop's customer service — your order arrived damaged. Say what you ordered, when it arrived, what the problem is and what you would like. || min=50 || req: madame/monsieur | commandé/acheté | l'/les/le/la || Madame, Monsieur, j'ai commandé une lampe sur votre site le 3 mars. Je l'ai reçue hier, mais elle est arrivée abîmée : le verre est cassé. Je ne l'ai pas utilisée. Je voudrais la renvoyer et être remboursé. Pouvez-vous m'envoyer une étiquette de retour ? Cordialement, Hugo Lefèvre
+
+  - title: Phone calls and messages
+    summary: Make and answer phone calls, leave and understand messages, and use the indirect object pronouns lui, leur, me, te, nous, vous.
+    minutes: 40
+    skills: [listening, grammar, speaking]
+    tags: [fr.object-pronouns]
+    objectives:
+      - Make, answer and end a phone call politely
+      - Leave a voicemail message and understand one
+      - Use indirect object pronouns with verbs like téléphoner à, dire à, répondre à
+    intro: |
+      Phone calls are hard in a foreign language: no gestures, no faces, sometimes a bad line. Fixed phrases help a lot — *C'est de la part de qui ? Ne quittez pas* — and so do **indirect object pronouns**, which replace *à + a person*: *Je lui téléphone ce soir. Tu peux leur dire ?*
+    vocab: |
+      appeler | to call | v | Je t'appelle ce soir ! | I'll call you tonight! | n: Appeler quelqu'un takes a direct object: je l'appelle. J'appelle, nous appelons.
+      téléphoner à | to phone (someone) | v | Je téléphone à ma mère tous les dimanches. | I phone my mother every Sunday. | n: Indirect object: je lui téléphone.
+      raccrocher | to hang up | v | Ne raccrochez pas, s'il vous plaît. | Please don't hang up. | n: Décrocher = to pick up.
+      ne quittez pas | hold the line | expr | Ne quittez pas, je vous passe le service comptable. | Hold the line, I'll put you through to the accounts department. | n: Literally "don't leave".
+      c'est de la part de qui ? | who's calling? | expr | — C'est de la part de qui ? — De Paul Martin. | — Who's calling? — Paul Martin.
+      un message | a message | n | J'ai laissé un message sur son répondeur. | I left a message on her voicemail. | c: laisser un message; envoyer un message | g: m
+      le répondeur | voicemail; answering machine | n | Je tombe toujours sur son répondeur. | I always get his voicemail. | g: m | n: Tomber sur = to get through to by chance.
+      rappeler | to call back | v | Pouvez-vous me rappeler demain ? | Can you call me back tomorrow? | n: Je rappelle, nous rappelons.
+      un texto | a text message | n | Envoie-moi un texto quand tu arrives. | Text me when you arrive. | g: m | n: Also un SMS or simply un message.
+      occupé | busy; engaged | adj | La ligne est occupée. | The line is engaged. | n: Also for people: je suis occupé(e).
+      dire | to say; to tell | v | Dis à Malik que je suis en retard. | Tell Malik I'm late. | n: Dire quelque chose à quelqu'un → je lui dis.
+      répondre à | to answer; to reply to | v | Elle ne répond pas à mes messages. | She doesn't reply to my messages. | n: Indirect object: je lui réponds.
+      la batterie | the battery | n | Je n'ai plus de batterie ! | My battery's dead! | g: f | n: Recharger son téléphone = to charge your phone.
+    grammar:
+      title: Indirect object pronouns
+      body: |
+        Many verbs of communication take **à + person**: *téléphoner à, parler à, dire à, répondre à, écrire à, envoyer quelque chose à, demander à*. To replace *à + person*, use an **indirect object pronoun**: **lui** (to him / to her) and **leur** (to them): *Je téléphone **à Sarah** → Je **lui** téléphone. Tu réponds **à tes parents** ? → Tu **leur** réponds ?*
+
+        For *me, you, us*, the forms are the same as the direct pronouns: **me (m'), te (t'), nous, vous**: *Tu **m'**envoies un texto ?*
+
+        The position is also the same: before the verb, before the infinitive, before the auxiliary, and after an affirmative imperative (*Écris-**lui** ! Dites-**moi**…*). With lui and leur, there is **no agreement** in the passé composé: *Je lui ai écrit.*
+
+        Careful: *appeler* takes a direct object (*je **l'**appelle*), but *téléphoner à* takes an indirect one (*je **lui** téléphone*).
+      table: |
+        Person | Direct (appeler) | Indirect (téléphoner à)
+        him / her | je l'appelle | je lui téléphone
+        them | je les appelle | je leur téléphone
+        me | il m'appelle | il me téléphone
+        you (tu) | il t'appelle | il te téléphone
+        us | il nous appelle | il nous téléphone
+        you (vous) | il vous appelle | il vous téléphone
+      examples: |
+        Ta grand-mère a appelé. Tu peux lui téléphoner ? | Your grandmother called. Can you phone her? | lui = à ta grand-mère
+        J'ai écrit à mes collègues, mais ils ne m'ont pas répondu. | I wrote to my colleagues, but they didn't reply to me. | m' = à moi
+        Je leur envoie un message tout de suite. | I'm sending them a message right away. | leur = à + plural, no -s
+        Dites-lui que je suis en réunion. | Tell him I'm in a meeting. | after the affirmative imperative
+      tip: "Lui means both 'to him' and 'to her'. The pronoun leur never takes an -s — don't confuse it with leurs (their) before a plural noun."
+    dialogue:
+      title: Un appel au cabinet d'architectes
+      setting: An architects' office in Nantes. Daniel Okafor phones to speak to Mme Girard; the receptionist, Laure, takes the call.
+      speakers: L=Laure/f; O=M. Okafor/m
+      lines: |
+        L: Cabinet Girard, bonjour ! | Girard architects, good morning!
+        O: Bonjour, madame. Je voudrais parler à Mme Girard, s'il vous plaît. | Hello. I'd like to speak to Mrs Girard, please.
+        L: C'est de la part de qui ? | Who's calling?
+        O: De Daniel Okafor. Je lui ai envoyé un e-mail hier. | Daniel Okafor. I sent her an email yesterday.
+        L: Ne quittez pas, monsieur… Désolée, sa ligne est occupée. | Hold the line, sir… Sorry, her line is engaged.
+        O: Ah, dommage. Je peux lui laisser un message ? | Oh, what a shame. Can I leave her a message?
+        L: Bien sûr, je vous écoute. | Of course, go ahead.
+        O: Dites-lui que je suis d'accord pour le rendez-vous de jeudi. | Tell her that Thursday's meeting is fine with me.
+        L: Très bien. Elle a votre numéro ? | Very good. Does she have your number?
+        O: Oui, mais notez-le : zéro six, quarante, douze, trente-trois, cinquante. | Yes, but write it down: 06 40 12 33 50.
+        L: C'est noté. Elle vous rappelle cet après-midi. | Got it. She'll call you back this afternoon.
+        O: Merci beaucoup. Bonne journée, madame ! | Thank you very much. Have a nice day!
+    pronunciation:
+      title: "Lui [lɥi], leur [lœʁ] and phone numbers"
+      body: |
+        *Lui* has the same glide as *huit* and *nuit*: [lɥi] — one syllable, not [lu.i]. *Leur* has the vowel of *heure*: [lœʁ].
+
+        French phone numbers are read in pairs: *06 40 12 33 50* → *zéro six, quarante, douze, trente-trois, cinquante*. Say them in a steady rhythm, with a small rise at the end of each pair except the last.
+      items: |
+        je lui téléphone
+        je leur réponds
+        dites-lui
+        ne quittez pas
+        c'est de la part de qui ?
+        zéro six, quarante, douze
+    culture:
+      title: Le téléphone en France
+      body: |
+        French mobile numbers start with 06 or 07; landlines start with 01 to 05, depending on the region. Numbers are always read in pairs of digits.
+
+        On the phone, people say who they are at the start: *Bonjour, c'est Julie* or, more formally, *Bonjour, Julie Martin à l'appareil*. Many younger people prefer texts and voice messages to calls, and *un vocal* (a voice message) has become an everyday word.
+    mistakes: |
+      Je téléphone le ce soir. => Je lui téléphone ce soir. | Téléphoner à takes an indirect object: lui, placed before the verb.
+      Je leurs envoie un message. => Je leur envoie un message. | The pronoun leur never takes an -s.
+      Je lui appelle demain. => Je l'appelle demain. | Appeler takes a direct object in French: je l'appelle.
+    task:
+      title: Leave a message
+      mode: speaking
+      body: |
+        Your colleague isn't answering the phone. Leave a 30-second voicemail (record it, or say it to the AI coach): say who you are, why you are calling, what you need and when they can call you back. Then swap roles: take a message for someone else and repeat it back using *lui* or *leur*.
+    exercises: |
+      fill: Je téléphone à ma sœur. → Je ___ téléphone. || lui || Téléphoner à + one person → lui. || @tags fr.object-pronouns
+      fill: Tu as répondu à tes clients ? — Oui, je ___ ai répondu hier. || leur || Répondre à + several people → leur, before the auxiliary. || @tags fr.object-pronouns
+      fill: Paul ne répond pas au téléphone. Écris-___ un texto ! || lui || Affirmative imperative: écris-lui (écrire à Paul). || @tags fr.object-pronouns,fr.imperative
+      mc: "Tu as parlé à Inès et à Tom ?" — "Oui, je ___ ai parlé ce matin." || les | *leur | leurs || Parler à + two people → leur (indirect, plural, never with -s). || @tags fr.object-pronouns
+      mc: Which sentence is correct? || Je lui appelle ce soir. | *Je l'appelle ce soir. | Je leur appelle ce soir. || Appeler takes a direct object: je l'appelle. || @tags fr.object-pronouns
+      tf: Mr Okafor speaks to Mme Girard. || false || Her line is engaged, so he leaves a message with the receptionist. || @ctx dialogue
+      short: What message does Mr Okafor leave? || kw: jeudi/Thursday || "Dites-lui que je suis d'accord pour le rendez-vous de jeudi." || @ctx dialogue
+      listen: @dialogue || When will Mme Girard call Mr Okafor back? || Tomorrow morning | *This afternoon | On Thursday || "Elle vous rappelle cet après-midi." Thursday is the day of the meeting. || @tags fr.listening
+      listen: Bonjour, c'est Lucie, de la pharmacie. Vos médicaments sont arrivés, vous pouvez passer demain. || Why is Lucie calling? || To change an appointment | *To say the medicines have arrived | To ask for a prescription || "Vos médicaments sont arrivés." || @tags fr.listening
+      rw: Replace the person with a pronoun :: J'ai envoyé un message à Karim. || Je lui ai envoyé un message. || Envoyer quelque chose à Karim → lui, before the auxiliary; no agreement. || @tags fr.object-pronouns,fr.passe-compose-avoir
+      tr: Can you call me back tomorrow? (formal) || Pouvez-vous me rappeler demain ? | Vous pouvez me rappeler demain ? | Est-ce que vous pouvez me rappeler demain ? || Me goes before the infinitive rappeler. || @tags fr.object-pronouns
+      dict: Je lui ai laissé un message sur son répondeur ce matin. || répondeur
+      ask: Phone a company and ask to speak to someone. They aren't available, so leave a short message. || kw: parler & message/rappeler/dites || Bonjour, je voudrais parler à M. Lambert, s'il vous plaît. Il n'est pas là ? Alors, dites-lui que Sara Diop a appelé et demandez-lui de me rappeler, s'il vous plaît.
+      write: Write a text to a friend — you can't come to dinner tonight. Ask them to tell the others and say you'll call them tomorrow. || min=30 || req: leur/lui | t'appelle/te téléphone/te rappelle || Salut Léo ! Désolée, je ne peux pas venir au dîner ce soir, je suis malade. Tu peux leur dire ? Dis aussi à Camille que je lui rends son livre la semaine prochaine. Je t'appelle demain. Bisous !

@@ -1,0 +1,90 @@
+slug: job-interview
+title: Preparing for a job interview
+description: Practise a first-round interview — introduce your background, describe your experience and ask good questions.
+category: work
+levels: B1-B2
+order: 6
+goals:
+  - Present your background and current role
+  - Describe a past achievement or challenge in detail
+  - Explain why you want this job
+  - Ask the interviewer at least one relevant question
+roles:
+  tutor: a recruiter conducting a first interview for a project coordinator position
+  learner: a candidate
+languages:
+  fr:
+    opener: Bonjour, merci d'être venu(e). Pour commencer, pouvez-vous vous présenter en quelques mots ? | Hello, thank you for coming. To begin, could you introduce yourself briefly?
+    focus: [fr.passe-compose-avoir, fr.imparfait, fr.register]
+    vocab: |
+      j'ai travaillé pendant… | I worked for… (duration)
+      j'étais chargé(e) de… | I was responsible for…
+      mon point fort, c'est… | my strength is…
+      ce poste m'intéresse parce que… | this position interests me because…
+      quelles sont les prochaines étapes ? | what are the next steps?
+    script: |
+      Très bien. Pouvez-vous me parler de votre expérience la plus récente ? | Very good. Can you tell me about your most recent experience? | Describe your last job: J'ai travaillé… / J'étais chargé(e) de… | kw: travaillé/étais/chargé/poste
+      Racontez-moi une situation difficile que vous avez gérée. | Tell me about a difficult situation you handled. | Describe a challenge and what you did | kw: j'ai/il y avait/problème/situation
+      Pourquoi ce poste vous intéresse-t-il ? | Why are you interested in this position? | Give two reasons | kw: parce/intéresse/j'aimerais/car
+      Quel est, selon vous, votre principal point faible ? | What would you say is your main weakness? | Name a weakness and how you work on it | kw: point faible/j'essaie/parfois/améliorer
+      Avez-vous des questions sur le poste ou sur l'entreprise ? | Do you have any questions about the job or the company? | Ask a relevant question | kw: est-ce/quel/comment/équipe/étapes
+  es:
+    opener: Buenos días, gracias por venir. Para empezar, ¿podría presentarse brevemente? | Good morning, thank you for coming. To start, could you briefly introduce yourself?
+    focus: [es.preterite, es.imperfect, es.register]
+    vocab: |
+      he trabajado durante… | I have worked for…
+      me encargaba de… | I was in charge of…
+      mi punto fuerte es… | my strength is…
+      me interesa este puesto porque… | I'm interested in this job because…
+      ¿cuáles son los siguientes pasos? | what are the next steps?
+    script: |
+      Muy bien. ¿Puede hablarme de su experiencia más reciente? | Very good. Can you tell me about your most recent experience? | Describe your last job | kw: trabajé/he trabajado/me encargaba/puesto
+      Cuénteme una situación difícil que haya tenido que resolver. | Tell me about a difficult situation you had to resolve. | Describe a challenge and what you did | kw: tuve/había/problema/situación
+      ¿Por qué le interesa este puesto? | Why are you interested in this position? | Give two reasons | kw: porque/me interesa/me gustaría
+      ¿Cuál diría que es su principal punto débil? | What would you say is your main weakness? | Name a weakness and how you improve it | kw: punto débil/intento/a veces/mejorar
+      ¿Tiene alguna pregunta sobre el puesto o la empresa? | Do you have any questions about the job or the company? | Ask a relevant question | kw: cómo/cuál/qué/equipo/pasos
+  de:
+    opener: Guten Tag, danke, dass Sie gekommen sind. Könnten Sie sich zuerst kurz vorstellen? | Hello, thank you for coming. Could you first introduce yourself briefly?
+    focus: [de.perfekt, de.subordinate-clauses, de.register]
+    vocab: |
+      ich habe … Jahre bei … gearbeitet | I worked at … for … years
+      ich war für … zuständig | I was responsible for…
+      meine Stärke ist… | my strength is…
+      die Stelle interessiert mich, weil… | the job interests me because…
+      wie sehen die nächsten Schritte aus? | what are the next steps?
+    script: |
+      Sehr schön. Erzählen Sie mir von Ihrer letzten Stelle. | Very good. Tell me about your last position. | Describe your last job: Ich war für … zuständig | kw: habe/war/zuständig/gearbeitet
+      Beschreiben Sie eine schwierige Situation, die Sie gelöst haben. | Describe a difficult situation that you solved. | Describe a challenge and what you did | kw: habe/gab/problem/situation
+      Warum interessiert Sie diese Stelle? | Why does this position interest you? | Give two reasons with weil | kw: weil/interessiert/möchte
+      Was würden Sie als Ihre größte Schwäche bezeichnen? | What would you call your biggest weakness? | Name a weakness and how you work on it | kw: schwäche/manchmal/versuche/verbessern
+      Haben Sie noch Fragen zur Stelle oder zum Unternehmen? | Do you have any questions about the job or the company? | Ask a relevant question | kw: wie/was/welche/team/schritte
+  en:
+    opener: Hello, thanks for coming in. To start, could you tell me a little about yourself? | -
+    focus: [en.present-perfect, en.past-simple, en.register]
+    vocab: |
+      I've been working as … for … | present perfect continuous for experience
+      I was responsible for… | describing past duties
+      one of my strengths is… | presenting a strength
+      what attracts me to this role is… | explaining motivation
+      what would the next steps be? | asking about the process
+    script: |
+      Great. Can you walk me through your most recent role? | - | Describe your last job and responsibilities | kw: worked/responsible/role/I've been
+      Tell me about a difficult situation you handled at work. | - | Describe the situation, what you did and the result | kw: there was/I had/problem/situation/managed
+      What attracts you to this position? | - | Give two reasons | kw: because/attracts/interested/I'd like
+      What would you say is your main weakness? | - | Name a weakness and how you work on it | kw: weakness/sometimes/trying/improve
+      Do you have any questions for me about the role or the company? | - | Ask a relevant question | kw: what/how/team/next steps/could you
+  da:
+    opener: Goddag, og tak fordi du kunne komme. Vil du starte med at fortælle lidt om dig selv? | Hello, and thank you for coming. Would you like to start by telling me a little about yourself?
+    focus: [da.past, da.subordinate-clauses, da.register]
+    vocab: |
+      jeg har arbejdet hos … i … år | I have worked at … for … years
+      jeg havde ansvaret for… | I was responsible for…
+      min styrke er… | my strength is…
+      stillingen interesserer mig, fordi… | the position interests me because…
+      hvad er de næste skridt? | what are the next steps?
+    script: |
+      Spændende. Fortæl mig lidt om dit nuværende eller seneste job. | Interesting. Tell me a bit about your current or most recent job. | Describe your job: Jeg har ansvaret for… / Jeg havde ansvaret for… | kw: har arbejdet/ansvar/var/arbejdede/arbejder
+      Kan du beskrive en svær situation, som du har løst? | Can you describe a difficult situation that you have resolved? | Describe a challenge and what you did | kw: havde/var/problem/situation/løste
+      Hvorfor søger du netop den her stilling? | Why are you applying for this particular position? | Give two reasons with fordi | kw: fordi/interesserer/gerne vil/derfor
+      Hvad vil du sige er din største svaghed? | What would you say is your biggest weakness? | Name a weakness and how you work on it | kw: svaghed/nogle gange/prøver/arbejder på
+      Har du nogen spørgsmål til stillingen eller til virksomheden? | Do you have any questions about the position or the company? | Ask a relevant question | kw: hvordan/hvad/hvilke/team/næste skridt

@@ -1,0 +1,107 @@
+language: da
+level: A1
+title: "Danish A1 · Foundations"
+description: Build a solid base in everyday Danish — greetings, personal information, family, daily routines, food, places, shopping, free time and simple travel.
+hours: 70
+summary: >-
+  A1 learners can understand and use familiar everyday expressions and very basic phrases, introduce themselves,
+  ask and answer simple questions about personal details, and interact simply when the other person talks slowly
+  and clearly. This course delivers around 70 hours of guided practice across 8 units, set in Danish towns from
+  Copenhagen and Aarhus to Odense, Aalborg and Skagen.
+objectives:
+  - Greet people and introduce yourself, using du (and recognising the rare, very formal De)
+  - Give and ask for personal information (name, age, nationality, city, phone number)
+  - Talk about family, jobs and daily routines in the present tense with verb-second word order
+  - Order food and drinks and buy things in shops and at the market
+  - Ask for and understand simple directions in town
+  - Talk about likes, hobbies and the weather
+  - Make simple plans and handle basic travel situations
+canDo:
+  listening:
+    - Understand familiar words and very basic phrases about yourself, your family and your surroundings when people speak slowly and clearly
+    - Catch numbers, prices and times in short announcements, including the Danish forms halvtreds, tres, halvfjerds, firs and halvfems
+  reading:
+    - Understand familiar names, words and very simple sentences on signs, menus, timetables and short messages
+  spokenInteraction:
+    - Interact in a simple way if the other person repeats or rephrases and helps you
+    - Ask and answer simple questions on very familiar topics
+  spokenProduction:
+    - Use simple phrases and sentences to describe where you live and people you know
+  writing:
+    - Write a short, simple message or postcard
+    - Fill in forms with personal details
+grammar:
+  - Subject pronouns and du / I / De (De is rare and very formal)
+  - Present tense of være, have, hedde and regular verbs (-r, one form for every person)
+  - Verb-second word order in statements; verb first in yes/no questions
+  - Noun gender (en/et) and the definite singular (-en/-et)
+  - Adjective agreement (stor, stort, store)
+  - Possessives (min/mit/mine, din/dit/dine, hans, hendes, vores, deres)
+  - Negation with ikke and its position in the sentence
+  - Frequency adverbs (altid, tit, nogle gange, aldrig)
+  - Polite requests (jeg vil gerne have…, kan jeg få…?)
+  - Prepositions of place i and på; der er (there is / there are)
+  - The imperative for directions (gå, drej, tag)
+  - Demonstratives den her / det her / de her
+  - kan lide + infinitive; modal verbs kan, vil, skal
+  - The future with skal and vil
+  - Question words (hvad, hvor, hvornår, hvordan, hvem, hvorfor, hvor meget)
+vocabularyDomains:
+  - Greetings and politeness
+  - Personal information, numbers and the alphabet
+  - Family, appearance and jobs
+  - Time, days and frequency
+  - Food, drink and Danish bakery classics
+  - Places in town and the home
+  - Clothes, colours and prices in kroner
+  - Hobbies, seasons and the weather
+  - Transport and accommodation
+assessment: A 40-minute cumulative test covering vocabulary, grammar, listening and reading tasks from all eight units, with a short writing task. A score of 70% or more confirms the A1 level.
+units:
+  - title: "Hej!"
+    theme: Greetings and introductions
+    lessons: [Greetings and goodbyes, Introducing yourself, "Numbers, age and spelling"]
+  - title: Familie, venner og kolleger
+    theme: Family and people
+    lessons: [My family, Describing people, Jobs and workplaces]
+  - title: En helt almindelig dag
+    theme: Time and daily routine
+    lessons: [Telling the time, My daily routine, Days and frequency]
+  - title: Mad og drikke
+    theme: Food and drink
+    lessons: [Ordering at a café, At the market, At the restaurant]
+  - title: I byen og derhjemme
+    theme: Town and home
+    lessons: [Places in town, Asking for directions, My home]
+  - title: På indkøb
+    theme: Shopping
+    lessons: [Clothes and colours, Prices and numbers to 100, In a shop]
+  - title: Fritid og vejr
+    theme: Free time and weather
+    lessons: [Hobbies and likes, Weather and seasons, Making plans]
+  - title: På rejse
+    theme: Travel
+    lessons: [Getting around, Plans for the weekend, Booking a room]
+assessmentItems: |
+  mc: You meet your new manager on Monday morning. What do you say? || *Godmorgen! | Godnat! | Farvel! || Godmorgen is the morning greeting. Godnat is said at bedtime and farvel when you leave. || @tags da.register @obj Greet people and introduce yourself, using du (and recognising the rare, very formal De)
+  mc: Which question is the normal way to ask a Danish colleague's name? || Hvad hedder De? | *Hvad hedder du? | Hvad er dit hedder? || Danes say du to almost everyone, colleagues and managers included; De is rare and very formal. || @tags da.register
+  mc: "My house" in Danish is… || min hus | *mit hus | mine hus || Hus is an et-word, so the possessive is mit. Min goes with en-words, mine with plurals. || @tags da.possessives @obj Give and ask for personal information (name, age, nationality, city, phone number)
+  fill: Lejligheden er stor, og huset er også ___. (stor) || stort || Huset is an et-word, so the adjective adds -t: stort. || @tags da.adjective-agreement
+  mc: Which sentence has the correct word order? || I dag jeg arbejder hjemme. | *I dag arbejder jeg hjemme. | I dag hjemme jeg arbejder. || The verb comes second. When the sentence starts with I dag, the subject (jeg) moves after the verb. || @tags da.word-order @obj Talk about family, jobs and daily routines in the present tense with verb-second word order
+  fill: Om morgenen ___ hun rugbrød med ost. (spise) || spiser || Present tense = infinitive + r: spise → spiser, the same form for every person. || @tags da.present,da.word-order
+  mc: You would like a coffee. You say: || *Jeg vil gerne have en kop kaffe. | Jeg vil gerne en kop kaffe have. | Jeg gerne vil have en kop kaffe. || Jeg vil gerne have + what you want; gerne comes straight after vil. || @tags da.ordering @obj Order food and drinks and buy things in shops and at the market
+  fill: Hvad koster ___? (the cheese — en ost) || osten || En-words add -en in the definite form: en ost → osten. || @tags da.definite
+  mc: Which sentence is correct? || *Jeg drikker ikke kaffe. | Jeg ikke drikker kaffe. | Ikke jeg drikker kaffe. || Ikke comes after the verb in a main clause: jeg drikker ikke. || @tags da.negation
+  mc: "Turn left" in Danish is… || *Drej til venstre. | Drej til højre. | Gå ligeud. || Venstre = left, højre = right, ligeud = straight on. || @tags da.imperative @obj Ask for and understand simple directions in town
+  fill: Jeg bor ___ København, men min søster bor ___ Bornholm. || i ; på || Cities take i (i København); islands take på (på Bornholm). || @tags da.prepositions-place
+  mc: How do you say 70 in Danish? || tres | *halvfjerds | halvfems || Tres = 60, halvfjerds = 70, halvfems = 90. || @tags da.numbers
+  fill: Hvad koster ___ her tørklæde? || det || Tørklæde is an et-word, so "this" is det her. || @tags da.demonstratives
+  mc: "I like reading" in Danish is… || *Jeg kan godt lide at læse. | Jeg kan lide læser. | Jeg godt kan lide at læse. || Kan (godt) lide + at + infinitive. Godt comes after kan. || @tags da.likes @obj Talk about likes, hobbies and the weather
+  fill: I weekenden ___ vi besøge min mormor i Aalborg. || skal || Skal + infinitive is the usual way to talk about plans: vi skal besøge. || @tags da.future @obj Make simple plans and handle basic travel situations
+  listen: Toget til Aarhus kører fra spor seks klokken kvart over ti. || When does the train leave, and from which track? || 10:45, track 7 | *10:15, track 6 | 9:45, track 6 || Kvart over ti = a quarter past ten (10:15); spor seks = track 6. || @tags da.time
+  listen: To rundstykker og en kanelsnegl. Det bliver otteogtredive kroner. || How much does it cost? || 28 kr. | *38 kr. | 83 kr. || Otteogtredive = eight-and-thirty = 38. Danish says the unit before the ten. || @tags da.numbers
+  listen: Hej, jeg hedder Malik. Jeg kommer fra Nuuk, men jeg bor i Aalborg. || Where does Malik live now? || Nuuk | *Aalborg | Aarhus || He comes from Nuuk (Greenland) but lives in Aalborg: jeg bor i Aalborg. || @tags da.listening
+  short: How do you ask a friend in Danish what they are doing at the weekend? || Hvad skal du lave i weekenden? | Hvad laver du i weekenden? | Hvad skal du i weekenden? || Hvad + skal du (lave) + i weekenden — the verb comes straight after the question word. || @tags da.question-words,da.future
+  tr: I don't speak German. || Jeg taler ikke tysk. || Ikke follows the verb (taler); languages have no capital letter in Danish. || @tags da.negation
+  tr: We would like to book a double room. || Vi vil gerne bestille et dobbeltværelse. | Vi vil gerne booke et dobbeltværelse. | Vi vil gerne reservere et dobbeltværelse. || Vi vil gerne + infinitive; værelse is an et-word: et dobbeltværelse. || @tags da.ordering
+  write: Write a short postcard to a Danish friend from a weekend trip — where you are, the weather, and what you are going to do tomorrow. || min=30 || req: jeg er/vi er | det er/det regner/solen skinner/det blæser | i morgen || Kære Mette! Mange hilsner fra Skagen. Vi er på et lille hotel ved havnen. Solen skinner, men det blæser meget. I dag spiser vi fisk, og i morgen skal vi cykle til Grenen. Vi ses på mandag! Kærlig hilsen Tom

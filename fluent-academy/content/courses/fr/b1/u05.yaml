@@ -1,0 +1,363 @@
+unit: 5
+title: Ville et environnement
+theme: City and environment
+description: Weigh up life in the city and the countryside, talk about green habits and propose solutions for your neighbourhood, using the subjunctive after feelings, wishes and opinions, and the gérondif (en + -ant).
+free: false
+objectives:
+  - Express feelings, wishes and doubts with que + subjunctive, and opinions with penser que + indicative
+  - Explain how you do something, and at the same time as what, with the gérondif
+  - Make and discuss proposals at a local meeting
+canDo:
+  - I can compare life in the city and in the countryside and say what I hope or fear.
+  - I can say when an opinion needs the subjunctive and when it needs the indicative.
+  - I can describe my green habits and their effects with en + -ant.
+  - I can propose a solution to a local problem and react to other people's proposals.
+review: |
+  fill: Je suis ravie que vous ___ (venir) à la réunion. || veniez || Être ravi que + subjunctive; venir → que vous veniez. || @tags fr.subjonctif-triggers
+  fill: J'ai peur qu'il n'y ___ pas assez de bus le soir. || ait || Avoir peur que + subjunctive: il y a → qu'il y ait. || @tags fr.subjonctif-triggers,fr.subjonctif
+  mc: "Je pense que ce projet ___ utile." || *est | soit | soient || In the affirmative, penser que takes the indicative: est. || @tags fr.subjonctif-triggers,fr.opinion
+  mc: "Je ne crois pas que ___ une bonne idée." || c'est | *ce soit | ce sont || Ne pas croire que + subjunctive: c'est → ce soit. || @tags fr.subjonctif-triggers,fr.opinion
+  fill: Elle écoute la radio ___ (conduire). || en conduisant || Two actions at the same time: en + present participle (nous conduisons → conduisant). || @tags fr.gerondif
+  fill: On réduit ses déchets ___ (acheter) en vrac. || en achetant || The means: en + present participle (nous achetons → achetant). || @tags fr.gerondif
+  rw: Join the sentences with a gérondif :: Je me brosse les dents. Je ferme le robinet. || Je ferme le robinet en me brossant les dents. || Same subject, same time: en + present participle; the reflexive pronoun stays (en me brossant). || @tags fr.gerondif
+  tr: I'm sorry that the shops are so far away. || Je regrette que les magasins soient si loin. | Je regrette que les commerces soient si loin. | Je regrette que les magasins soient aussi loin. | Je regrette que les commerces soient aussi loin. || Regretter que + subjunctive: ils sont → qu'ils soient. || @tags fr.subjonctif-triggers
+  listen: En venant à vélo, je gagne vingt minutes chaque matin et je ne cherche plus de place pour me garer. || What does the speaker gain by cycling? || *Twenty minutes every morning | Two euros a day | A reserved parking space || "Je gagne vingt minutes chaque matin." || @tags fr.listening,fr.gerondif
+  listen: Je ne pense pas que la piste cyclable soit prête avant l'été, mais la mairie promet de commencer les travaux en mars. || When will the works start? || *In March | In the summer | Next year || "La mairie promet de commencer les travaux en mars." || @tags fr.listening
+  ask: Give your opinion about life in your town, using at least one expression that takes the subjunctive. || kw: ne pense pas que/ne crois pas que/content que/contente que/regrette que/peur que/aimerais que/voudrais que/souhaite que & ville/quartier/village/rue/ici || J'aime mon quartier, mais je regrette qu'il y ait si peu d'espaces verts. J'aimerais que la mairie plante plus d'arbres.
+  write: Write a forum post — would you rather live in the city or in the countryside? Give two arguments and one fear. || min=80 || req: je pense que/je trouve que/je crois que | ne pense pas que/ne crois pas que/peur que/regrette que | soit/ait/puisse/fasse/aille/soient/aient || Moi, je préfère la ville. D'abord, je pense que la vie culturelle y est beaucoup plus riche : cinémas, concerts, musées… Ensuite, on peut tout faire en marchant ou en prenant le tram. Bien sûr, je ne crois pas que l'air soit très pur en centre-ville, et le bruit me fatigue parfois. Mais si je déménageais à la campagne, j'aurais peur que mes amis soient trop loin et que je m'ennuie le week-end !
+lessons:
+  - title: "City or countryside?"
+    summary: Weigh up the pros and cons of the city and the countryside and express feelings, wishes and doubts with que + subjunctive.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [fr.subjonctif-triggers, fr.opinion]
+    objectives:
+      - Compare the quality of life in the city and in the countryside
+      - Use the subjunctive after expressions of feeling and wish (content que, peur que, regretter que, vouloir que)
+      - Choose between je pense que + indicative and je ne pense pas que + subjunctive
+    intro: |
+      Should we stay in the city or move to the countryside? Since remote work became common, many French people have asked themselves this question. Discussing it means expressing **feelings** (*j'ai peur qu'on s'ennuie*), **wishes** (*j'aimerais que les enfants grandissent près de la nature*) and **opinions** (*je ne pense pas qu'on soit isolés*). In unit 3 you used the subjunctive after *il faut que*; here it follows feelings, wishes and negative opinions.
+    vocab: |
+      le cadre de vie | living environment; surroundings | n | Le cadre de vie est magnifique, mais il n'y a pas de commerces. | The surroundings are beautiful, but there are no shops. | g: m
+      la qualité de vie | quality of life | n | On a gagné en qualité de vie en quittant Paris. | We gained in quality of life by leaving Paris. | g: f
+      s'installer | to settle; to move in | v | Ils se sont installés dans un village du Jura. | They settled in a village in the Jura. | c: s'installer à la campagne; s'installer en ville
+      isolé | isolated; remote | adj | La maison est un peu isolée, à cinq kilomètres du village. | The house is a bit remote, five kilometres from the village. | n: Feminine: isolée.
+      s'ennuyer | to be bored | v | Je m'ennuie le dimanche quand tout est fermé. | I get bored on Sundays when everything's closed. | n: Je m'ennuie, nous nous ennuyons.
+      les transports en commun | public transport | n | En ville, je me déplace en transports en commun. | In town I get around by public transport. | g: m
+      les commerces de proximité | local shops | n | Le village a gardé ses commerces de proximité : une boulangerie et une épicerie. | The village has kept its local shops: a bakery and a grocery. | g: m
+      le trajet | the journey; the commute | n | Mon trajet pour aller au bureau dure une heure. | My commute to the office takes an hour. | g: m
+      la pollution | pollution | n | La pollution de l'air est plus forte en centre-ville. | Air pollution is higher in the city centre. | g: f
+      tentant | tempting | adj | Une maison avec jardin, c'est tentant ! | A house with a garden — that's tempting! | n: Feminine: tentante.
+      par contre | on the other hand; however | adv | Le loyer est moins cher ; par contre, il faut une voiture. | The rent is cheaper; on the other hand, you need a car. | n: Common in speech; in formal writing prefer en revanche.
+      ravi | delighted | adj | Mes parents sont ravis que nous habitions près de chez eux. | My parents are delighted that we live near them. | n: Feminine: ravie.
+    grammar:
+      title: The subjunctive after feelings, wishes and opinions
+      body: |
+        When the main verb expresses a **feeling**, a **wish** or a **doubt**, and the subject changes, the second verb goes into the **subjonctif**.
+
+        - **Feelings**: *être content / heureux / ravi / triste / déçu que, avoir peur que, regretter que, ça m'étonne que* → *Je suis contente que ton entreprise **accepte** enfin. J'ai peur qu'on **s'ennuie**.*
+        - **Wishes and preferences**: *vouloir que, aimer que / j'aimerais que, préférer que, souhaiter que* → *Je préfère qu'on **reste** en ville.*
+        - **Opinions**: in the affirmative, *je pense que, je crois que, je trouve que* take the **indicative** — you present the idea as a fact: *Je pense que la ville **est** trop chère.* In the **negative**, they take the **subjunctive**: *Je **ne** pense **pas** que la ville **soit** trop chère.*
+
+        If the subject is the same in both parts, don't use *que*: use **de + infinitive** (or the infinitive alone after *vouloir, préférer, aimer*): *Je suis contente **de partir**. J'ai peur **de m'ennuyer**. Je veux **déménager**.*
+      table: |
+        Expression | Mood | Example
+        je pense que / je crois que / je trouve que | indicative | Je pense que la ville est trop chère.
+        je ne pense pas que / je ne crois pas que | subjunctive | Je ne pense pas que la ville soit trop chère.
+        je suis content(e) / ravi(e) / triste que | subjunctive | Je suis ravie que tu viennes.
+        j'ai peur que / je regrette que | subjunctive | J'ai peur qu'il fasse trop froid.
+        je veux que / j'aimerais que / je préfère que | subjunctive | Je préfère qu'on reste ici.
+        same subject: content(e) de / peur de | infinitive | J'ai peur de m'ennuyer.
+      examples: |
+        Je suis heureux que nos enfants puissent jouer dehors. | I'm happy that our children can play outside. | feeling
+        J'aimerais que tu viennes voir la maison avec moi. | I'd like you to come and see the house with me. | wish
+        Je ne crois pas qu'il y ait un médecin dans le village. | I don't think there's a doctor in the village. | negative opinion
+        Je trouve que la vie est plus calme ici. | I find life is calmer here. | affirmative opinion: indicative
+      tip: "Il y a becomes qu'il y ait in the subjunctive: Je ne crois pas qu'il y ait un cinéma ici. C'est becomes que ce soit."
+    dialogue:
+      title: On quitte Lyon ?
+      setting: A flat in Lyon. Raphaël has just heard that he can work from home four days a week. He and his partner Inès discuss moving to a village in the Drôme.
+      speakers: R=Raphaël/m; I=Inès/f
+      lines: |
+        R: J'ai reçu la réponse : je peux télétravailler quatre jours par semaine ! | I've got the answer: I can work from home four days a week!
+        I: C'est génial ! Je suis contente que ton entreprise accepte enfin. | That's great! I'm glad your company is finally saying yes.
+        R: Alors, on quitte Lyon ? Tu sais que je rêve d'une maison dans la Drôme. | So, are we leaving Lyon? You know I dream of a house in the Drôme.
+        I: Je sais… Mais j'ai peur qu'on s'ennuie un peu, à la campagne. | I know… But I'm afraid we might get a bit bored in the countryside.
+        R: Je ne pense pas qu'on soit isolés : le village a un marché et une école. | I don't think we'd be isolated: the village has a market and a school.
+        I: Oui, mais je ne crois pas qu'il y ait un cinéma à moins de trente kilomètres. | Yes, but I don't think there's a cinema within thirty kilometres.
+        R: C'est vrai. Par contre, on aurait un jardin, de l'air pur et moins de bruit. | True. On the other hand, we'd have a garden, clean air and less noise.
+        I: Ça, c'est tentant. Et je trouve que Lyon devient vraiment trop cher. | That is tempting. And I think Lyon's getting far too expensive.
+        R: Et tes parents seraient ravis que leurs petits-enfants grandissent près de la nature. | And your parents would be delighted for their grandchildren to grow up close to nature.
+        I: Peut-être, mais je regrette que les bus soient si rares là-bas. | Maybe, but it's a shame the buses are so rare there.
+        R: On pourrait essayer un an et louer une maison avant d'acheter ? | We could try it for a year and rent a house before buying?
+        I: D'accord. Mais il faut que je trouve un travail là-bas, moi aussi ! | OK. But I need to find a job there too!
+    pronunciation:
+      title: "Je pense qu'il est / je ne pense pas qu'il soit"
+      body: |
+        In speech, the subjunctive is often easy to hear because the verb changes completely: *qu'il est* [kil.ɛ] → *qu'il soit* [kil.swa], *il y a* [il.ja] → *qu'il y ait* [kil.jɛ], *tu viens* [vjɛ̃] → *que tu viennes* [vjɛn].
+
+        In relaxed speech, *ne* often disappears — *je pense pas qu'il soit…* — but the subjunctive stays. In *s'ennuie* [sɑ̃.nɥi], you hear the nasal [ɑ̃] followed by [n] and the glide [ɥ], as in *nuit*.
+      items: |
+        je pense qu'il est
+        je ne pense pas qu'il soit
+        qu'il y ait
+        je suis contente que tu viennes
+        j'ai peur qu'on s'ennuie
+        la qualité de vie
+    culture:
+      title: Quitter la ville ?
+      body: |
+        Since 2020, the idea of leaving the big cities for small towns or the countryside has been widely discussed in France, helped by remote work. Studies show that the trend is real but more modest than the headlines suggested: most people who move go to medium-sized towns or to villages near a city with a train station. Many rural areas, by contrast, struggle to keep doctors, shops and public transport.
+    mistakes: |
+      Je ne pense pas que c'est une bonne idée. => Je ne pense pas que ce soit une bonne idée. | After je ne pense pas que, use the subjunctive: c'est → ce soit.
+      Je pense que la ville soit trop chère. => Je pense que la ville est trop chère. | In the affirmative, penser que takes the indicative.
+      Je suis contente que je parte. => Je suis contente de partir. | When the subject is the same, use de + infinitive, not que.
+    task:
+      title: City or countryside — the debate
+      mode: interaction
+      body: |
+        With a partner, take opposite sides: one defends the city, the other the countryside. Each of you gives three arguments, one fear (*j'ai peur que…*) and one wish (*j'aimerais que…*), and reacts to the other's arguments (*je ne pense pas que…, par contre…*). Then practise defending your view in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: Je suis content que tu ___ (venir) ce week-end. || viennes || Être content que + subjunctive: venir → que tu viennes. || @tags fr.subjonctif-triggers,fr.subjonctif
+      fill: J'ai peur qu'il ___ (faire) trop froid à la montagne. || fasse || Avoir peur que + subjunctive: faire → qu'il fasse. || @tags fr.subjonctif-triggers
+      fill: Je ne pense pas que ce quartier ___ (être) dangereux. || soit || Negative opinion: subjunctive, que ce quartier soit. || @tags fr.subjonctif-triggers,fr.opinion
+      fill: Je pense que la vie ___ (être) plus calme à la campagne. || est || Affirmative opinion: indicative, est. || @tags fr.subjonctif-triggers,fr.opinion
+      mc: "Je regrette que les commerces ___ si loin." || sont | *soient | seront || Regretter que expresses a feeling: subjunctive, soient. || @tags fr.subjonctif-triggers
+      mc: Choose the correct sentence. || Je suis ravie que je déménage. | *Je suis ravie de déménager. | Je suis ravie que déménager. || Same subject (je… je): use de + infinitive. || @tags fr.subjonctif-triggers
+      mc: "Les commerces de proximité" are… || *local shops near where you live | shopping centres outside town | online shops || De proximité = nearby, local. || @skill vocabulary @tags fr.vocabulary
+      tf: Inès is afraid they might get bored in the countryside. || true || "J'ai peur qu'on s'ennuie un peu, à la campagne." || @ctx dialogue
+      short: Name one thing they would gain in the countryside, according to Raphaël. || kw: jardin/garden/air/bruit/noise/calme/quiet/nature || "On aurait un jardin, de l'air pur et moins de bruit." || @ctx dialogue
+      listen: @dialogue || What does Inès need to do before they move? || *Find a job there too | Sell their flat in Lyon | Convince her parents || "Il faut que je trouve un travail là-bas, moi aussi !" || @tags fr.listening
+      listen: Ça m'étonne que tu veuilles quitter Paris, toi qui adores les musées ! || How does the speaker feel? || *Surprised | Relieved | Angry || Ça m'étonne que = it surprises me that (+ subjunctive: veuilles). || @tags fr.listening,fr.subjonctif-triggers
+      rw: Make the opinion negative. Start with "Je ne pense pas que…" :: Je pense que la campagne est ennuyeuse. || Je ne pense pas que la campagne soit ennuyeuse. || Negative opinion → subjunctive: est becomes soit. || @tags fr.subjonctif-triggers,fr.opinion
+      tr: I'm happy that you're moving near us. || Je suis content que tu déménages près de chez nous. | Je suis contente que tu déménages près de chez nous. | Je suis heureux que tu déménages près de chez nous. | Je suis heureuse que tu déménages près de chez nous. | Je suis content que tu déménages près de nous. | Je suis contente que tu déménages près de nous. || Être content que + subjunctive (déménages looks like the present for -er verbs). || @tags fr.subjonctif-triggers
+      dict: Je regrette que les bus soient si rares le dimanche. || soient
+      ask: City or countryside? Give your opinion, with one feeling or one negative opinion followed by the subjunctive. || kw: ne pense pas que/ne crois pas que/content que/contente que/regrette que/peur que/préfère que/aimerais que & soit/soient/ait/aient/fasse/puisse/puissent/aille/ailles/viennes/s'ennuie || Je préfère la ville, parce que tout est proche. J'ai peur qu'on s'ennuie à la campagne, et je ne pense pas qu'il y ait assez de transports.
+
+  - title: Green habits
+    summary: Read about the green habits of a neighbourhood's residents and explain how and when you do things with the gérondif.
+    minutes: 40
+    skills: [reading, grammar, writing]
+    tags: [fr.gerondif]
+    objectives:
+      - Talk about everyday green habits and their effects
+      - Form the gérondif (en + present participle), including être, avoir and savoir
+      - Use the gérondif to express the means, simultaneity and condition
+    intro: |
+      Cycling to work, sorting your waste, buying second-hand: small gestures add up. When people explain their habits, they often say **how** they achieve something — *en pédalant vingt minutes, je fais du sport* — or what they do **at the same time** as something else. French uses one compact form for both: the **gérondif**, *en + -ant*.
+    vocab: |
+      un geste | a gesture; an action | n | Trier ses déchets, c'est un geste simple. | Sorting your waste is a simple action. | c: un geste écologique; un petit geste | g: m
+      trier | to sort | v | Nous trions le verre, le papier et le plastique. | We sort glass, paper and plastic. | n: Le tri = sorting.
+      les déchets | waste; rubbish | n | Nous avons réduit nos déchets de moitié. | We've halved our waste. | g: m
+      le compost | compost | n | Le compost sert au jardin partagé. | The compost is used for the community garden. | g: m | n: Un composteur = a compost bin.
+      recycler | to recycle | v | Ces bouteilles sont recyclées en vêtements. | These bottles are recycled into clothes.
+      d'occasion | second-hand | adj | J'ai acheté un vélo d'occasion. | I bought a second-hand bike. | n: Invariable. Also: de seconde main.
+      une friperie | a second-hand clothes shop | n | J'ai trouvé cette veste dans une friperie. | I found this jacket in a second-hand clothes shop. | g: f
+      économiser | to save (money, energy) | v | On économise de l'énergie en baissant le chauffage. | You save energy by turning down the heating. | c: économiser de l'argent; faire des économies
+      consommer | to consume; to use | v | Ce lave-linge consomme peu d'eau. | This washing machine uses little water. | n: La consommation = consumption.
+      le gaspillage | waste (of resources) | n | Le gaspillage alimentaire est un vrai problème. | Food waste is a real problem. | g: m | n: Gaspiller = to waste.
+      réduire | to reduce | v | Il faut réduire notre consommation d'énergie. | We have to reduce our energy consumption. | n: Nous réduisons; past participle: réduit.
+      un jardin partagé | a community garden | n | Le jardin partagé est ouvert à tous les habitants. | The community garden is open to all residents. | g: m
+    grammar:
+      title: The gérondif (en + -ant)
+      body: |
+        The **gérondif** is **en** + the **present participle**. To form the present participle, take the **nous** form of the present, remove **-ons** and add **-ant**: *nous prenons → en prenant*, *nous finissons → en finissant*, *nous faisons → en faisant*.
+
+        Only three verbs are irregular: *être → en étant*, *avoir → en ayant*, *savoir → en sachant*.
+
+        The gérondif expresses:
+        - **simultaneity** — two actions at the same time: *Il écoute des podcasts **en cuisinant**.*
+        - the **means** or the **manner** (it answers *comment ?*): ***En prenant** le vélo, on économise de l'argent.*
+        - a **condition**: ***En triant** vos déchets, vous réduirez vos poubelles* (= if you sort…).
+
+        The gérondif always has the **same subject** as the main verb. **Tout en** stresses that two actions happen together, sometimes with a contrast: *On peut agir **tout en** faisant des économies.* Reflexive verbs keep their pronoun: *en **me** levant*, *en **nous** promenant*.
+      table: |
+        Infinitive | nous (present) | Gérondif
+        prendre | prenons | en prenant
+        finir | finissons | en finissant
+        faire | faisons | en faisant
+        manger | mangeons | en mangeant
+        être | irregular | en étant
+        avoir | irregular | en ayant
+      examples: |
+        Je vais au travail en écoutant la radio. | I go to work listening to the radio. | simultaneity
+        En baissant le chauffage d'un degré, on consomme moins d'énergie. | By turning the heating down one degree, you use less energy. | the means
+        En achetant d'occasion, vous ferez des économies. | If you buy second-hand, you'll save money. | condition
+        Elle travaille tout en suivant une formation. | She works while also doing a training course. | tout en
+      tip: "The gérondif answers comment ? (how?): Comment tu économises ? — En prenant le vélo !"
+    reading:
+      title: Écolo au quotidien
+      text: |
+        Chaque mois, notre journal de quartier donne la parole aux habitants. Ce mois-ci, nous leur avons posé une question : quel geste écologique faites-vous au quotidien ?
+
+        Mathilde, 41 ans, infirmière : « Je vais au travail à vélo depuis trois ans. En pédalant vingt minutes matin et soir, je fais du sport sans payer d'abonnement à la salle, et j'économise environ cent euros d'essence par mois. »
+
+        Ousmane, 67 ans, retraité : « Avec mes voisins, nous avons installé un composteur au pied de l'immeuble. En triant nos déchets, nous avons réduit nos poubelles de moitié. Et le compost sert au jardin partagé ! »
+
+        Clara, 23 ans, étudiante : « J'achète presque tous mes vêtements d'occasion. En allant dans les friperies ou sur des sites de seconde main, je trouve des pièces originales pour beaucoup moins cher. »
+
+        La famille Martin, cinq personnes : « Nous prenons des douches courtes et nous avons installé des économiseurs d'eau sur les robinets. En faisant un peu attention, on consomme beaucoup moins d'eau, sans perdre en confort. Les enfants surveillent le chronomètre ! »
+
+        Bien sûr, ces gestes ne suffisent pas, à eux seuls, à sauver la planète. Mais en les adoptant, chacun peut agir à son niveau, tout en faisant des économies. Et vous, quel est votre geste ? Écrivez-nous !
+      translation: |
+        Every month our neighbourhood newspaper gives residents a voice. This month we asked them one question: what green gesture do you make in your daily life?
+
+        Mathilde, 41, nurse: "I've been cycling to work for three years. By pedalling twenty minutes morning and evening, I get exercise without paying for a gym membership, and I save around a hundred euros a month on petrol."
+
+        Ousmane, 67, retired: "With my neighbours, we set up a compost bin at the foot of our building. By sorting our waste, we've halved our rubbish. And the compost is used in the community garden!"
+
+        Clara, 23, student: "I buy almost all my clothes second-hand. By going to second-hand shops or using second-hand websites, I find original pieces for much less money."
+
+        The Martin family, five people: "We take short showers and we've fitted water-saving devices on the taps. By being a little careful, we use much less water without losing any comfort. The children keep an eye on the stopwatch!"
+
+        Of course, these gestures alone are not enough to save the planet. But by adopting them, everyone can act at their own level, while also saving money. And you — what's your gesture? Write to us!
+    pronunciation:
+      title: "The -ant ending: en prenant, en faisant"
+      body: |
+        The gérondif begins and ends with the same nasal vowel [ɑ̃]: *en prenant* [ɑ̃.pʁə.nɑ̃]. Don't pronounce the final **t**, and don't add an [n] after the nasal.
+
+        Watch two traps: in *en faisant*, the **ai** is pronounced [ə]: [ɑ̃.fə.zɑ̃]. In *en étant* and *en ayant*, there is a compulsory liaison: [ɑ̃.ne.tɑ̃], [ɑ̃.nɛ.jɑ̃].
+      items: |
+        en prenant
+        en faisant
+        en mangeant
+        en étant
+        en ayant
+        le gaspillage
+    culture:
+      title: Le tri en France
+      body: |
+        Since 2023, all household packaging — plastic, metal, paper and cardboard — can go into the same recycling bin everywhere in France, usually the yellow one (*la poubelle jaune*). Glass goes into separate street containers. Since 2024, local authorities must also offer residents a way to sort food waste, for example with shared compost bins or special collections.
+    mistakes: |
+      En faisant du vélo, la pollution diminue. => En faisant du vélo, on réduit la pollution. | The gérondif must have the same subject as the main verb: on fait du vélo, on réduit la pollution.
+      En prendre le bus, j'économise. => En prenant le bus, j'économise. | After en, use the present participle (-ant), not the infinitive.
+      En savant cela, il a changé d'avis. => En sachant cela, il a changé d'avis. | Savoir has an irregular present participle: sachant.
+    task:
+      title: My green gesture
+      mode: writing
+      body: |
+        Write a short contribution (about 80 words) for the neighbourhood newspaper in the reading. Describe one or two green habits you have, explain how you do them and what they bring you, using at least three gérondifs (*en prenant…, en achetant…, tout en…*).
+    exercises: |
+      fill: On économise de l'eau ___ (fermer) le robinet. || en fermant || The means: en + present participle (nous fermons → fermant). || @tags fr.gerondif
+      fill: Il écoute des podcasts ___ (cuisiner). || en cuisinant || Two actions at the same time: en cuisinant. || @tags fr.gerondif
+      fill: ___ (faire) attention, on peut réduire ses déchets. || En faisant || Nous faisons → en faisant. || @tags fr.gerondif
+      fill: Elle a trouvé ce manteau ___ (aller) dans une friperie. || en allant || Nous allons → en allant. || @tags fr.gerondif
+      mc: Which sentence uses the gérondif correctly? || En prendre le vélo, je fais du sport. | *En prenant le vélo, je fais du sport. | En pris le vélo, je fais du sport. || En + present participle (-ant): en prenant. || @tags fr.gerondif
+      mc: "En triant vos déchets, vous réduirez vos poubelles." Here, "en triant" means… || *by sorting | before sorting | instead of sorting || The gérondif expresses the means (or a condition): by / if you sort. || @tags fr.gerondif
+      mc: How much does Mathilde save every month? || About fifty euros | *About a hundred euros | About two hundred euros || "J'économise environ cent euros d'essence par mois." || @ctx reading @tags fr.reading
+      tf: The compost made in Ousmane's building is used in a community garden. || true || "Le compost sert au jardin partagé !" || @ctx reading
+      short: Where does Clara buy her clothes? || kw: occasion/second-hand/second hand/friperie/seconde main/thrift || She buys them second-hand, in friperies or on second-hand websites. || @ctx reading
+      listen: J'ai réduit mes factures d'électricité en éteignant les appareils au lieu de les laisser en veille. || How did the speaker reduce the electricity bills? || *By switching devices off instead of leaving them on standby | By buying new appliances | By working outside the home || "En éteignant les appareils au lieu de les laisser en veille." || @tags fr.listening,fr.gerondif
+      rw: Join the two actions with a gérondif :: Je vais au travail à pied. En même temps, j'écoute de la musique. || Je vais au travail à pied en écoutant de la musique. | J'écoute de la musique en allant au travail à pied. || Same subject, same time: en + present participle. || @tags fr.gerondif
+      tr: You can save money by buying second-hand. || On peut économiser de l'argent en achetant d'occasion. | On peut faire des économies en achetant d'occasion. | Vous pouvez économiser de l'argent en achetant d'occasion. | On peut économiser en achetant d'occasion. | On peut économiser de l'argent en achetant de seconde main. || By + -ing = en + present participle: en achetant. || @tags fr.gerondif
+      dict: En triant nos déchets, nous avons réduit nos poubelles de moitié. || en triant
+      ask: Describe one green habit you have and what it brings you, using a gérondif. || kw: en prenant/en allant/en achetant/en triant/en éteignant/en faisant/en utilisant/en mangeant/en réduisant/en recyclant/en marchant/en baissant/en évitant/en réparant || Je fais mes courses au marché en apportant mes propres sacs. En achetant des produits locaux, je réduis les emballages.
+
+  - title: Proposing solutions
+    summary: Make proposals at a neighbourhood meeting with je propose que and je souhaite que, react to other people's ideas and reach a decision.
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [fr.subjonctif-triggers, fr.opinion]
+    objectives:
+      - Make proposals with je propose que, je souhaite que and il faudrait que + subjunctive
+      - Suggest ideas with pourquoi ne pas + infinitive and react with je suis pour / contre
+      - Express a doubt politely with je ne suis pas sûr(e) que + subjunctive
+    intro: |
+      Traffic outside the school, a square with no trees, no bike racks… Local problems are often discussed at public meetings, where residents make proposals and vote. To take part, you need to **propose** (*je propose que…*), **express wishes** (*je souhaite que…*), **react** (*je suis pour, mais…*) and **express doubt** (*je ne suis pas sûr que…*) — again with the subjunctive.
+    vocab: |
+      un conseil de quartier | a neighbourhood council | n | Le conseil de quartier se réunit une fois par mois. | The neighbourhood council meets once a month. | g: m
+      un élu | an elected representative; a councillor | n | L'élue du quartier a écouté nos propositions. | Our neighbourhood councillor listened to our proposals. | g: m | n: Feminine: une élue.
+      un habitant | a resident; an inhabitant | n | Les habitants ont voté pour le projet. | The residents voted for the project. | g: m | n: Feminine: une habitante.
+      la circulation | traffic | n | Il y a trop de circulation devant l'école. | There's too much traffic outside the school. | g: f
+      se garer | to park | v | Les parents se garent sur le trottoir. | Parents park on the pavement.
+      une rue piétonne | a pedestrian street | n | Le centre-ville a trois rues piétonnes. | The town centre has three pedestrian streets. | g: f
+      une piste cyclable | a cycle lane | n | On a besoin d'une piste cyclable jusqu'à la gare. | We need a cycle lane to the station. | g: f
+      un arceau à vélos | a bike rack | n | La mairie va installer dix arceaux à vélos. | The town hall is going to install ten bike racks. | g: m | pl: des arceaux à vélos
+      un espace vert | a green space; a park | n | Le quartier manque d'espaces verts. | The neighbourhood lacks green spaces. | g: m
+      aménager | to develop; to redesign (a space) | v | Ils veulent aménager la place avec des bancs et des arbres. | They want to redesign the square with benches and trees.
+      le budget participatif | the participatory budget | n | Notre projet a été choisi grâce au budget participatif. | Our project was chosen through the participatory budget. | g: m
+      voter | to vote | v | Les habitants votent en ligne jusqu'au 30 juin. | Residents can vote online until 30 June. | c: voter pour; voter contre
+    grammar:
+      title: "Making proposals: je propose que, je souhaite que"
+      body: |
+        To make a proposal for other people, French uses verbs of wish and proposal followed by **que + subjunctive**:
+
+        - *je propose que…* — *Je propose qu'on **ferme** la rue aux voitures.*
+        - *je souhaite que… / je voudrais que…* — *Je souhaite que les habitants **puissent** accéder à leur garage.*
+        - *il faudrait que… / l'idéal serait que…* — *Il faudrait que la mairie **installe** des arceaux.*
+
+        To suggest an idea without naming who will do it, use **pourquoi ne pas** + infinitive or **je propose de** + infinitive: *Pourquoi ne pas planter des arbres ? Je propose de voter.*
+
+        To **react**: *Je suis pour ! · Je suis contre. · C'est une bonne idée, mais…* To express a polite **doubt**, use *je ne suis pas sûr(e) que* + subjunctive: *Je ne suis pas sûr que nous **ayons** assez d'argent.* And the gérondif helps you explain how: *en utilisant le budget participatif*.
+      table: |
+        Function | Structure | Example
+        propose | je propose que + subjunctive | Je propose qu'on vote.
+        wish | je souhaite que / je voudrais que + subjunctive | Je souhaite que chacun donne son avis.
+        soft proposal | il faudrait que / l'idéal serait que + subjunctive | Il faudrait que la rue soit piétonne.
+        open suggestion | pourquoi ne pas + infinitive | Pourquoi ne pas planter des arbres ?
+        react | je suis pour / contre, c'est une bonne idée, mais… | Je suis pour, mais pas le samedi.
+        doubt | je ne suis pas sûr(e) que + subjunctive | Je ne suis pas sûre que ce soit possible.
+      examples: |
+        Je propose que la rue devienne piétonne le samedi. | I propose that the street becomes pedestrian on Saturdays. | proposal
+        Nous souhaitons que la mairie crée un jardin partagé. | We would like the town hall to create a community garden. | wish
+        Pourquoi ne pas transformer le parking en espace vert ? | Why not turn the car park into a green space? | open suggestion
+        Je ne suis pas sûr que tout le monde soit d'accord. | I'm not sure everyone agrees. | doubt
+      tip: "With -er verbs, the subjunctive often sounds like the present (qu'on ferme, qu'elle installe). Listen for que + subject: that's your signal."
+    dialogue:
+      title: Le conseil de quartier
+      setting: A neighbourhood council meeting in Nantes. M. Garcia, a local councillor, chairs the discussion about traffic outside a primary school. Mme Benali, a resident, and Hugo, a parent, make proposals.
+      speakers: G=M. Garcia/m; B=Mme Benali/f; H=Hugo/m
+      lines: |
+        G: Bonsoir à tous. Ce soir, nous parlons de la circulation devant l'école Jules-Verne. | Good evening everyone. Tonight we're discussing traffic outside the Jules Verne school.
+        B: Le matin, c'est dangereux : les voitures se garent n'importe où. | In the mornings it's dangerous: cars park anywhere.
+        H: Je propose qu'on ferme la rue aux voitures à l'entrée et à la sortie des classes. | I propose that we close the street to cars when school starts and finishes.
+        G: C'est une idée intéressante. D'autres villes l'ont fait, avec de bons résultats. | That's an interesting idea. Other towns have done it, with good results.
+        B: Je suis pour, mais je souhaite que les habitants puissent toujours accéder à leur garage. | I'm for it, but I'd like residents to still be able to get to their garages.
+        H: Bien sûr. Il faudrait aussi que la mairie installe des arceaux pour les vélos. | Of course. The town hall should also install bike racks.
+        G: Ce serait possible en utilisant le budget participatif de cette année. | That would be possible by using this year's participatory budget.
+        B: Et pourquoi ne pas planter des arbres ? La cour est un vrai four en juin. | And why not plant trees? The playground is a real oven in June.
+        H: Excellente idée ! Les enfants pourraient même participer en arrosant les plantes. | Excellent idea! The children could even take part by watering the plants.
+        G: Je ne suis pas sûr que nous ayons assez d'argent pour tout faire cette année. | I'm not sure we have enough money to do everything this year.
+        B: Alors, je propose qu'on vote pour choisir la priorité. | Then I propose we vote to choose the priority.
+        G: D'accord. Je souhaite que chacun donne son avis avant la fin du mois. | Agreed. I'd like everyone to give their opinion before the end of the month.
+    pronunciation:
+      title: Proposing and reacting
+      body: |
+        A suggestion with *pourquoi ne pas…* rises at the end like a question: *Pourquoi ne pas planter des **ar**bres ?* In *je suis pour* and *je suis contre*, stress the last word clearly and let the voice fall: it's a statement of position.
+
+        In fast speech, *je suis* is often reduced to [ʃɥi]: *je suis pour* [ʃɥi.puʁ]. In *piste cyclable* [pist.si.klabl], pronounce both [s] sounds and keep the final *-ble* short.
+      items: |
+        je propose qu'on vote
+        pourquoi ne pas planter des arbres ?
+        je suis pour
+        je suis contre
+        une piste cyclable
+        le budget participatif
+    culture:
+      title: Budgets participatifs et conseils de quartier
+      body: |
+        Since 2002, French towns with more than 80,000 inhabitants must have neighbourhood councils, where residents meet local councillors to discuss projects. Many cities, including Paris, also run a *budget participatif*: residents propose projects — cycle lanes, community gardens, playgrounds — and then vote online for the ones the town will pay for.
+    mistakes: |
+      Je souhaite que les habitants peuvent accéder à leur garage. => Je souhaite que les habitants puissent accéder à leur garage. | Souhaiter que is followed by the subjunctive: puissent.
+      Je ne suis pas sûr que nous avons assez d'argent. => Je ne suis pas sûr que nous ayons assez d'argent. | Je ne suis pas sûr que expresses doubt: subjunctive.
+      Pourquoi ne pas on plante des arbres ? => Pourquoi ne pas planter des arbres ? | Pourquoi ne pas is followed directly by an infinitive.
+    task:
+      title: A proposal for your street
+      mode: interaction
+      body: |
+        Choose a real problem in your street or neighbourhood (traffic, noise, no green spaces, nowhere to park bikes). In a group, each person makes one proposal (*je propose que…, il faudrait que…*), the others react (*je suis pour, mais… / je ne suis pas sûr que…*), and the group votes. Then practise chairing or joining a discussion in the "Taking part in a business meeting" scenario with the AI coach.
+    exercises: |
+      fill: Je propose qu'on ___ (planter) des arbres dans la cour. || plante || Proposer que + subjunctive: qu'on plante. || @tags fr.subjonctif-triggers
+      fill: Je souhaite que tout le monde ___ (pouvoir) donner son avis. || puisse || Souhaiter que + subjunctive: pouvoir → puisse. || @tags fr.subjonctif-triggers,fr.subjonctif
+      fill: Il faudrait que la mairie ___ (faire) une piste cyclable. || fasse || Il faudrait que + subjunctive: faire → fasse. || @tags fr.subjonctif
+      fill: Je ne suis pas sûre que ce projet ___ (être) réaliste. || soit || Doubt: je ne suis pas sûre que + subjunctive. || @tags fr.subjonctif-triggers
+      mc: Which suggestion is correct? || Pourquoi ne pas on vote ? | *Pourquoi ne pas voter ? | Pourquoi ne voter pas ? || Pourquoi ne pas + infinitive, with ne pas together. || @tags fr.negation
+      mc: "Aménager la place" means… || *to redesign the square | to clean the square | to close the square || Aménager = to develop or redesign a space (benches, trees, paths). || @skill vocabulary @tags fr.vocabulary
+      tf: Mme Benali is against closing the street to cars. || false || She is for it, as long as residents can still reach their garages. || @ctx dialogue
+      short: How could the bike racks be paid for, according to M. Garcia? || kw: budget participatif/participatory/budget || "En utilisant le budget participatif de cette année." || @ctx dialogue
+      listen: @dialogue || What do they decide at the end of the meeting? || *To vote to choose the priority | To close the street immediately | To plant trees this year || "Je propose qu'on vote pour choisir la priorité. — D'accord." || @tags fr.listening
+      listen: Je propose que la rue devienne piétonne le samedi, pour que les familles puissent se promener tranquillement. || What does the speaker propose? || *Making the street pedestrian on Saturdays | Closing the street every day | Building a new car park || "Que la rue devienne piétonne le samedi." || @tags fr.listening,fr.subjonctif-triggers
+      rw: Turn it into a wish. Start with "Je souhaite que…" :: La mairie doit installer des bancs. || Je souhaite que la mairie installe des bancs. || Souhaiter que + subjunctive: installe. || @tags fr.subjonctif-triggers
+      tr: I propose that we meet again next month. || Je propose qu'on se réunisse le mois prochain. | Je propose que nous nous réunissions le mois prochain. | Je propose qu'on se réunisse à nouveau le mois prochain. | Je propose que nous nous réunissions à nouveau le mois prochain. || Proposer que + subjunctive: se réunir → qu'on se réunisse. || @tags fr.subjonctif-triggers
+      dict: Je souhaite que chaque habitant puisse donner son avis. || puisse
+      ask: At a neighbourhood meeting, propose one solution for your street and give a reason. || kw: propose que/souhaite que/faudrait que/pourquoi ne pas/voudrais que & parce que/car/pour/comme/en || Je propose que la mairie installe des arceaux à vélos devant la boulangerie, parce que les gens attachent leur vélo aux arbres.

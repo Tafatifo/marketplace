@@ -1,0 +1,107 @@
+language: de
+level: A2
+title: "German A2 · Everyday life"
+description: Talk about your past, your holidays, your health, work and home, handle everyday errands, celebrate with others and make plans — in clear, connected German.
+hours: 90
+summary: >-
+  A2 learners can understand sentences and frequently used expressions about areas of immediate relevance — personal
+  history, travel, health, work, housing and services — and can communicate in simple, routine tasks that require a
+  direct exchange of information. They can describe their background, past experiences and plans in simple terms and
+  link ideas with weil, dass and wenn. This course delivers around 90 hours of guided practice across 8 units, set in
+  German cities from Rostock to Regensburg.
+objectives:
+  - Talk about past events, your life story and your childhood with the Perfekt and war/hatte
+  - Describe holidays, plan a trip and explain what went wrong while travelling
+  - Describe symptoms, understand advice at the doctor's and the pharmacy, and give advice to friends
+  - Talk about your studies and your job, and give reasons and opinions with weil and dass
+  - Find a flat, compare options and say where things are and where they go in your home
+  - Handle errands at the bank, the post office and in shops, and make and take phone calls
+  - Invite people, accept and decline politely, and give good wishes and presents
+  - Talk about future plans, make arrangements with conditions and compare choices
+canDo:
+  listening:
+    - Understand the main point of short, clear messages and announcements, for example on the phone, at a station or at the doctor's
+    - Follow a simple conversation about past events, plans and everyday problems when people speak clearly
+  reading:
+    - Understand short, simple texts such as personal emails, notices, job adverts, flat listings and instructions on medicine
+    - Find specific, predictable information in everyday material like timetables, menus, brochures and house rules
+  spokenInteraction:
+    - Handle short exchanges in shops, at the post office, at the bank and at the doctor's, and make simple arrangements
+    - Invite someone, accept or decline politely and agree on a time and place
+  spokenProduction:
+    - Describe your education, work experience, childhood and a past holiday in a series of simple sentences
+    - Give simple reasons and opinions, and compare two or three options
+  writing:
+    - Write short personal emails and messages about past events, plans and invitations
+    - Write a short, simple formal email, for example a job application or a complaint about a booking
+grammar:
+  - Perfekt with haben — regular, irregular, separable and inseparable verbs, and verbs ending in -ieren
+  - Perfekt with sein for movement and change (fahren, kommen, bleiben, passieren)
+  - Präteritum of sein and haben (war, hatte)
+  - The du-imperative and sollen for advice and instructions
+  - Subordinate clauses with weil and dass (verb at the end)
+  - seit + dative for actions that started in the past and are still going on
+  - Comparatives (größer als, so groß wie, besser, lieber, mehr) and superlatives (am größten)
+  - Two-way prepositions with the dative (wo?) and the accusative (wohin?), stellen/stehen, legen/liegen, hängen
+  - Dative personal pronouns and verbs with a dative object (helfen, gefallen, passen, gehören)
+  - Reflexive verbs with accusative and dative pronouns (sich treffen, sich wünschen)
+  - Konjunktiv II for polite requests, invitations and wishes (würde, hätte gern, könnte)
+  - Futur I and wenn-clauses
+vocabularyDomains:
+  - Weekend activities, life stages and childhood
+  - Holidays, transport and travel problems
+  - The body, illness, the doctor's and the pharmacy
+  - Studies, workplaces and job applications
+  - Flats, furniture, chores and neighbours
+  - Banks, post offices, returns and phone calls
+  - Festivals, parties, presents and good wishes
+  - Plans, appointments and comparing options
+assessment: A 50-minute cumulative test covering vocabulary, grammar, listening and reading tasks from all eight units, with a short writing task. A score of 70% or more confirms the A2 level.
+units:
+  - title: Lebensgeschichten
+    theme: Life stories
+    lessons: [Last weekend, My life so far, Childhood memories]
+  - title: Urlaub und Reisen
+    theme: Holidays and travel
+    lessons: [A holiday to remember, Planning a trip, When things go wrong on a trip]
+  - title: Körper und Gesundheit
+    theme: Health and the body
+    lessons: [Aches and pains, "At the doctor's and the pharmacy", Healthy habits]
+  - title: Arbeit und Studium
+    theme: Work and studies
+    lessons: [My studies, A day at work, Applying for a job]
+  - title: Wohnen und Nachbarschaft
+    theme: Home and housing
+    lessons: [Finding a flat, Furniture and chores, Neighbours and community]
+  - title: Erledigungen im Alltag
+    theme: Services and errands
+    lessons: [At the bank and the post office, Returns and exchanges, Phone calls and messages]
+  - title: Feste und Traditionen
+    theme: Celebrations and traditions
+    lessons: [Festivals and holidays, Invitations and parties, Gifts and good wishes]
+  - title: Pläne und Entscheidungen
+    theme: Plans and choices
+    lessons: [Future plans, Making arrangements, Comparing options]
+assessmentItems: |
+  fill: Letzten Samstag ___ wir mit unseren Nachbarn gegrillt. || haben || Grillen takes haben in the Perfekt: wir haben … gegrillt. || @tags de.perfekt @obj Talk about past events, your life story and your childhood with the Perfekt and war/hatte
+  fill: Wo hast du ___? – In Bochum, Maschinenbau. (studieren) || studiert || Verbs ending in -ieren never take ge-: studiert. || @tags de.perfekt
+  mc: "We flew to Lisbon." || Wir haben nach Lissabon geflogen. | *Wir sind nach Lissabon geflogen. | Wir sind nach Lissabon gefliegt. || Fliegen is movement from A to B, so the Perfekt uses sein; the participle is irregular: geflogen. || @tags de.perfekt-sein @obj Describe holidays, plan a trip and explain what went wrong while travelling
+  fill: Das Hotel ___ sehr schön, aber wir ___ leider kein WLAN. || war ; hatten || The simple past of sein and haben: das Hotel war, wir hatten. || @tags de.praeteritum
+  listen: Unser Zug hatte zwei Stunden Verspätung, und dann war auch noch das Hotelzimmer schmutzig. || What went wrong? || The flight was cancelled and the hotel was full | *The train was late and the room was dirty | The train was on time, but the room was dirty || Zwei Stunden Verspätung = two hours late; schmutzig = dirty. || @tags de.listening,de.praeteritum
+  mc: Your friend has a cold. Which piece of advice is correct? || Trinkst viel Tee! | *Trink viel Tee! | Trinken viel Tee! || The du-imperative is the du-form without -st and without du: du trinkst → Trink! || @tags de.imperative @obj Describe symptoms, understand advice at the doctor's and the pharmacy, and give advice to friends
+  fill: Die Ärztin sagt, ich ___ dreimal am Tag eine Tablette nehmen. || soll || Sollen passes on advice or instructions from another person: ich soll (no ending in the ich-form). || @tags de.modal-verbs
+  mc: How do you say "My throat hurts"? || *Mir tut der Hals weh. | Ich tue den Hals weh. | Mein Hals hat weh. || The fixed pattern is mir tut … weh (one body part) or mir tun … weh (plural). || @tags de.vocabulary
+  mc: Which sentence is correct? || Ich lerne Deutsch, weil ich will in Wien arbeiten. | *Ich lerne Deutsch, weil ich in Wien arbeiten will. | Ich lerne Deutsch, weil will ich in Wien arbeiten. || In a weil-clause the conjugated verb (will) goes to the very end. || @tags de.subordinate-clauses,de.connectors @obj Talk about your studies and your job, and give reasons and opinions with weil and dass
+  fill: Malik arbeitet ___ zwei Jahren in dieser Firma. || seit || Seit + dative for something that started in the past and is still true; German uses the present tense here. || @tags de.seit
+  tr: I think that the job is interesting. || Ich glaube, dass die Stelle interessant ist. | Ich glaube, dass der Job interessant ist. | Ich denke, dass die Stelle interessant ist. | Ich denke, dass der Job interessant ist. | Ich finde, dass die Stelle interessant ist. | Ich finde, dass der Job interessant ist. | Ich glaube, die Stelle ist interessant. | Ich glaube, der Job ist interessant. || After dass the verb (ist) goes to the end. || @tags de.subordinate-clauses
+  fill: Die Wohnung in der Altstadt ist ___ als die Wohnung am Stadtrand, aber sie ist auch kleiner. (teuer) || teurer || Teuer drops its second e in the comparative: teurer als. || @tags de.comparatives @obj Find a flat, compare options and say where things are and where they go in your home
+  mc: "I'm putting the vase on the table." || Ich stelle die Vase auf dem Tisch. | *Ich stelle die Vase auf den Tisch. | Ich stehe die Vase auf den Tisch. || Stellen answers wohin? (where to?), so auf takes the accusative: auf den Tisch. Stehen describes position and has no object. || @tags de.two-way-prepositions
+  fill: Kannst du ___ bitte helfen? Die Kiste ist so schwer! (me) || mir || Helfen always takes the dative: mir, not mich. || @tags de.dative,de.dative-verbs @obj Handle errands at the bank, the post office and in shops, and make and take phone calls
+  mc: You want to return trousers that are too small. You say: || *Die Hose passt mir leider nicht. | Die Hose passt mich leider nicht. | Ich passe die Hose leider nicht. || Passen takes a dative person: Die Hose passt mir (nicht). || @tags de.dative-verbs
+  listen: Guten Tag, hier spricht Carla Weiß. Ich kann morgen leider nicht zum Termin kommen. Rufen Sie mich bitte zurück. || What does Carla want? || To book a second appointment | *A call back about her appointment | To cancel her bank account || She can't come to tomorrow's appointment and asks: Rufen Sie mich bitte zurück — please call me back. || @tags de.listening
+  fill: Danke für die Einladung! Ich freue ___ sehr. || mich || Sich freuen is reflexive: ich freue mich. || @tags de.reflexive @obj Invite people, accept and decline politely, and give good wishes and presents
+  rw: Make it more polite :: Gib mir das Salz! || Würdest du mir bitte das Salz geben? | Könntest du mir bitte das Salz geben? | Würdest du mir das Salz geben? | Könntest du mir das Salz geben? | Kannst du mir bitte das Salz geben? || Konjunktiv II (würdest, könntest) turns an order into a polite request. || @tags de.konjunktiv2
+  mc: "Next year I will study in Vienna." || *Nächstes Jahr werde ich in Wien studieren. | Nächstes Jahr ich werde in Wien studieren. | Nächstes Jahr werde ich studieren in Wien. || Werden is in position 2 and the infinitive goes to the end. || @tags de.futur,de.word-order @obj Talk about future plans, make arrangements with conditions and compare choices
+  fill: Wenn es morgen ___, gehen wir ins Museum. (regnen) || regnet || In a wenn-clause the verb goes to the end: wenn es regnet. || @tags de.subordinate-clauses
+  short: Berlin to Munich takes 7 hours by bus, 6 by car and 4 by train. Which is the fastest? Answer in German with "am schnellsten". || kw: zug/bahn & am schnellsten || Mit dem Zug ist es am schnellsten. — superlative with am …sten. || @tags de.comparatives
+  write: Write an email to a friend (6–8 sentences). Tell them about your last holiday — where you went and what you did — say why you liked it, and invite them to travel with you next year. || min=50 || req: bin/sind/habe/haben/war | weil | würde/hätte/möchte/werde/wenn || Liebe Mara, im August bin ich mit meiner Schwester nach Rügen gefahren. Wir haben in einer kleinen Pension gewohnt und sind jeden Tag geschwommen. Das Wetter war super. Mir hat die Insel sehr gut gefallen, weil sie so ruhig ist. Nächstes Jahr würde ich gern mit dir an die Ostsee fahren. Hättest du Lust? Wenn du Zeit hast, können wir im Juni fahren. Liebe Grüße, Paula

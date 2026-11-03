@@ -1,0 +1,362 @@
+unit: 6
+title: Going shopping
+theme: Shopping
+description: Talk about clothes and colors with this, that, these and those, understand prices with numbers to 100, and buy things in a store with How much…?, How many…? and Can I…?
+objectives:
+  - Point to and describe clothes with this, that, these, those and colors
+  - Say and understand numbers to 100 and prices in dollars, pounds and euros
+  - Buy clothes in a store — ask for sizes, try things on and pay — with How much…?, How many…? and Can I…?
+canDo:
+  - I can name clothes and colors.
+  - I can point to things near me and far from me with this, that, these and those.
+  - I can ask for the price and understand the answer.
+  - I can ask to try something on and pay in a store.
+review: |
+  fill: ___ boots over there are really nice. || Those || The boots are plural and far away: those. || @tags en.demonstratives
+  fill: Is ___ your jacket, here on my chair? || this || One thing, near the speaker: this. || @tags en.demonstratives
+  rw: Make it plural :: That dress is very nice. || Those dresses are very nice. || That → those, dress → dresses, is → are. || @tags en.demonstratives,en.plural
+  mc: Which number is "eighty-four"? || 48 | *84 | 804 || Eighty-four = 80 + 4 = 84. || @tags en.numbers
+  fill: How much ___ these socks? || are || Socks is plural, so we say How much are…? || @tags en.questions,en.agreement
+  fill: How ___ T-shirts do you want? || many || T-shirts are countable: How many…? || @tags en.quantifiers,en.questions
+  mc: You try on a sweater. It's very big for you. You say: || It's too small. | *It's too big. | It's very cheap. || Too big = bigger than you need. || @tags en.vocabulary
+  listen: That's twenty-three dollars and fifty cents, please. || How much is it? || $20.53 | *$23.50 | $33.50 || Twenty-three dollars and fifty cents = $23.50. || @tags en.numbers
+  listen: I like this blue shirt, but those green pants are too long. || What is the problem? || The blue shirt is too long. | *The green pants are too long. | The blue pants are too long. || "Those green pants are too long." The speaker likes the blue shirt. || @tags en.demonstratives
+  ask: Buy a T-shirt in a store — ask for your size and color, and ask the price. || kw: size/small/medium/large & how much || Hi! Have you got this T-shirt in a medium? In black, please. How much is it?
+  write: Write about your favorite clothes (British English: favourite). Say what they are, their colors, the prices and where you buy them. || min=30 || req: my favorite/this/these | color/red/blue/green/black/white | dollars/pounds/euros/cheap/expensive || My favorite clothes are my old blue jeans and this green sweater. The jeans are very comfortable. The sweater is from a small store near my home. It's forty dollars, but it's very warm. I usually buy clothes on sale because they're cheap.
+lessons:
+  - title: Clothes and colors
+    summary: Name clothes and colors and point to them with this, that, these and those.
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [en.demonstratives]
+    objectives:
+      - Name common clothes and colors
+      - Use this and these for things near you, that and those for things far from you
+      - Ask "What color is it?" and put colors before nouns
+    intro: |
+      In a store, you point and say: *I like **this** jacket! Look at **those** shoes!* In this lesson you will learn the names of clothes and colors (British English: colours), and the words **this**, **that**, **these** and **those** for things near you and far from you.
+    vocab: |
+      T-shirt | a simple shirt with short sleeves and no buttons | n | This T-shirt is my favorite. | -
+      shirt | clothing for the top of the body, with buttons | n | He's got a white shirt for work. | -
+      jeans | pants made of strong blue or black cotton | n | These jeans are new. | - | n: Always plural: these jeans are, a pair of jeans.
+      pants | clothing that covers each leg, from the middle of the body to the feet | n | Those gray pants are nice. | - | n: British English: trousers. (In British English, pants are underwear!)
+      dress | one piece of clothing that covers the top of the body and the legs | n | That red dress is beautiful. | -
+      jacket | a short coat | n | I need a warm jacket. | -
+      sweater | a warm piece of clothing with long sleeves | n | This sweater is very warm. | - | n: British English also: jumper.
+      shoes | things that you wear on your feet | n | I like those black shoes. | - | c: a pair of shoes
+      color | red, blue, green and yellow are colors | n | What color is your jacket? | - | n: British English: colour.
+      red | the color of tomatoes | adj | She's got a red dress. | -
+      blue | the color of the sky on a sunny day | adj | His eyes are blue. | -
+      green | the color of grass | adj | I've got a green sweater. | -
+      black | the darkest color, like the sky at night | adj | These black jeans are cool. | -
+      white | the color of snow and milk | adj | A white T-shirt, please. | -
+    grammar:
+      title: "this, that, these, those"
+      body: |
+        We use these four words to point to things.
+
+        - **this** = one thing near me: *This T-shirt is nice.*
+        - **that** = one thing far from me: *That jacket is expensive.*
+        - **these** = two or more things near me: *These shoes are new.*
+        - **those** = two or more things far from me: *Those jeans are cool.*
+
+        Use **is** with *this* and *that*, and **are** with *these* and *those*. The words can also stand alone: *What's this? I like those!*
+
+        Some clothes are always plural in English: *jeans, pants, shorts* — *these jeans are…* To count them, say **a pair of**: *a pair of jeans*.
+
+        Colors are adjectives. They go **before** the noun and never add -s: *a red dress, two blue shirts*. Ask: ***What color is** it?*
+      table: |
+        Number | Near (here) | Far (there)
+        One | this shirt | that shirt
+        Two or more | these shirts | those shirts
+      examples: |
+        This sweater is very warm. | | one thing, near
+        Look at that red dress! | | one thing, far
+        These jeans are too long. | | plural, near
+        I like those black shoes. | | plural, far
+        What color is this jacket? — It's green. | | asking about color
+      tip: "Jeans, pants and shorts are plural: these jeans (not this jeans). For one, say this pair of jeans."
+    dialogue:
+      title: What do you think?
+      setting: Zoe and Nico are friends. They are shopping at a mall in Chicago on Saturday afternoon.
+      speakers: Z=Zoe/f; N=Nico/m
+      lines: |
+        Z: Nico, look at this jacket!
+        N: The green one? Hmm, it's OK.
+        Z: No, not that one. This blue jacket.
+        N: Oh, I like that. It's nice.
+        Z: And these jeans? What do you think?
+        N: They're great. Are they black?
+        Z: No, they're dark blue.
+        N: Look at those shoes over there!
+        Z: The white shoes? They're cool.
+        N: I need some shoes for work.
+        Z: Let's ask the salesperson.
+        N: Good idea!
+    pronunciation:
+      title: "this or these?"
+      body: |
+        **This** has a short sound [ɪ], like *it*. **These** has a long sound [iː], like *eat* — and it ends in a [z] sound. Smile a little for *these*.
+
+        Both words start with the soft, buzzing **th** (tongue between your teeth). *That* and *those* start with the same sound. Listen and repeat.
+      items: |
+        this
+        these
+        this shirt
+        these shoes
+        that jacket
+        those jeans
+    culture:
+      title: Clothes words in the US and the UK
+      body: |
+        American and British English have different words for some clothes. Americans say **pants**, **sweater** and **sneakers**; British people say **trousers**, **jumper** and **trainers**. Be careful: in British English, **pants** means underwear!
+
+        Spelling is different too: American *color, favorite, gray* — British *colour, favourite, grey*. Both are correct; this course uses American spelling.
+    mistakes: |
+      This jeans is nice. => These jeans are nice. | Jeans is plural: these jeans are.
+      I like this shoes. => I like these shoes. | Use these with plural nouns near you.
+      She's got a dress red. => She's got a red dress. | Colors go before the noun.
+    task:
+      title: My closet
+      mode: speaking
+      body: |
+        Choose four things from your closet (British English: wardrobe). Hold them up or point to them and describe them with this, that, these or those and a color: *This is my favorite T-shirt. It's white. These are my work shoes…* Record yourself in Speaking practice.
+    exercises: |
+      fill: ___ shoes here are very nice. (near me) || These || Plural and near: these. || @tags en.demonstratives
+      fill: Look at ___ dress over there! || that || One thing, far away (over there): that. || @tags en.demonstratives
+      fill: ___ T-shirt is my favorite. (in my hand) || This || One thing, near: this. || @tags en.demonstratives
+      mc: Choose the correct sentence. || This jeans is new. | *These jeans are new. | These jeans is new. || Jeans is plural: these jeans are. || @tags en.demonstratives,en.agreement
+      mc: What color is grass? || blue | *green | red || Grass is green. || @skill vocabulary @tags en.vocabulary
+      rw: Make it plural :: This shirt is red. || These shirts are red. || This → these, shirt → shirts, is → are. The color doesn't change. || @tags en.demonstratives
+      match: snow = white ; grass = green ; the sky at night = black ; tomatoes = red || Match each thing with its color. || @skill vocabulary @tags en.vocabulary
+      order: These blue jeans are very nice. || @tags en.demonstratives
+      tf: Zoe's new jeans are black. || false || Zoe says, "No, they're dark blue." || @ctx dialogue
+      short: What does Nico need for work? || kw: shoes || Nico says, "I need some shoes for work." || @ctx dialogue
+      listen: I like that red dress, but I don't like these shoes. || What does the speaker like? || the shoes | *the red dress | the red shoes || "I like that red dress, but I don't like these shoes." || @tags en.demonstratives
+      listen: @dialogue || What color is the jacket that Zoe likes? || green | *blue | black || Zoe says, "Not that one. This blue jacket." || @tags en.listening
+      dict: These jeans are dark blue.
+      ask: Describe two things you are wearing or can see. Use this, that, these or those and say the colors. || kw: this/that/these/those & red/blue/green/black/white/yellow/gray/brown/pink/orange || This is my favorite sweater. It's green. And these are my new white shoes.
+      write: You are in a clothes store. Write a message to a friend about what you see. Use this, that, these and those, and colors. || min=25 || req: this/that | these/those | red/blue/green/black/white/color || Hi Ana! I'm at the mall. This store is great! I love this black jacket, and these white T-shirts are very nice. That red dress is beautiful, but those shoes are ugly!
+
+  - title: Prices and numbers to 100
+    summary: Count to 100, say and understand prices, and ask How much is…? and How much are…?
+    minutes: 40
+    skills: [listening, vocabulary, speaking]
+    tags: [en.numbers, en.questions]
+    objectives:
+      - Count from 20 to 100
+      - Say and understand prices in dollars, pounds and euros
+      - Ask How much is…? and How much are…? and talk about cheap and expensive things
+    intro: |
+      *How much is it? — It's forty-five dollars.* Prices are everywhere: in stores, at markets, in cafés and online. In this lesson you will learn numbers to 100, how to say prices like **$12.50**, and the difference between **thirteen** and **thirty** — very important when you pay!
+    vocab: |
+      twenty-one, twenty-two | the numbers 21 and 22 | num | My sister is twenty-two. | - | n: Use a hyphen between the parts: twenty-one, forty-five.
+      thirty, forty, fifty | the numbers 30, 40, 50 | num | It's forty dollars. | - | n: Forty has no u (not fourty).
+      sixty, seventy, eighty | the numbers 60, 70, 80 | num | My grandma is eighty. | -
+      ninety, a hundred | the numbers 90 and 100 | num | The shoes are ninety dollars. | - | n: 100 = a hundred or one hundred.
+      dollar | money in the US, Canada, Australia and other countries ($) | n | It's ten dollars. | - | n: $1 = 100 cents.
+      cent | a small amount of money; 100 cents make one dollar or one euro | n | It's ninety-nine cents. | -
+      pound | money in the UK (£) | n | The ticket is twelve pounds. | - | n: £1 = 100 pence. People often say "p": fifty p.
+      price | how much money something costs | n | The price is on the tag. | - | c: a good price; a low price
+      cost | to have a price | v | How much does it cost? — It costs twenty dollars. | -
+      expensive | costing a lot of money | adj | That jacket is very expensive. | -
+      cheap | not costing much money | adj | These T-shirts are cheap. | - | n: The opposite is expensive.
+      on sale | at a lower price than usual | expr | These jeans are on sale. | - | n: British English: in the sale.
+      cash | money in coins and bills (paper money) | n | Can I pay in cash? | - | n: British English: notes, not bills.
+      credit card | a plastic card that you use to pay | n | Can I pay by credit card? | - | c: pay by card; pay in cash
+    grammar:
+      title: Numbers to 100 and prices
+      body: |
+        The tens are: *20 twenty, 30 thirty, 40 forty, 50 fifty, 60 sixty, 70 seventy, 80 eighty, 90 ninety, 100 a hundred*. Between the tens, use a hyphen: *21 twenty-one, 35 thirty-five, 99 ninety-nine*.
+
+        Be careful with **-teen** and **-ty**: *13 thir**teen*** has the stress at the end; *30 **thir**ty* has the stress at the start.
+
+        **Prices:** we write the symbol first (*$10, £40*), but we **say** the number first: *ten dollars, forty pounds*. For dollars and cents, say *$3.50 → three dollars and fifty cents*, or just *three fifty*.
+
+        **Asking the price:** *How much **is** this T-shirt? — **It's** $15.* (one thing) *How much **are** these shoes? — **They're** $60.* (plural) You can also say: *How much does it cost? — It costs $20.*
+      table: |
+        Written | Say
+        $25 | twenty-five dollars
+        $3.50 | three fifty / three dollars and fifty cents
+        £40 | forty pounds
+        €99.99 | ninety-nine ninety-nine
+        75¢ | seventy-five cents
+      examples: |
+        How much is this sweater? — It's forty-five dollars. | | one thing: is / it's
+        How much are those shoes? — They're eighty dollars. | | plural: are / they're
+        The jacket costs ninety-nine pounds. | | cost (he/she/it costs)
+        That's twelve fifty, please. | | the short way to say $12.50
+      tip: "If you aren't sure if you heard 15 or 50, ask: \"Sorry — one-five or five-zero?\""
+    dialogue:
+      title: At the street market
+      setting: Saturday at a street market in London. Amara wants to buy something. Ray has a stall with bags and sunglasses.
+      speakers: A=Amara/f; R=Ray/m
+      lines: |
+        A: Excuse me, how much is this bag?
+        R: It's thirty-five pounds.
+        A: Thirty-five? That's expensive!
+        R: But it's a very good bag.
+        A: And how much are these sunglasses?
+        R: They're on sale. Only fifteen pounds.
+        A: Fifteen or fifty?
+        R: Fifteen. One, five.
+        A: Great. I'd like the sunglasses, please.
+        R: Cash or card?
+        A: Card, please. Here you are.
+        R: Thanks! Enjoy your sunglasses!
+    pronunciation:
+      title: "-teen or -ty?"
+      body: |
+        In numbers from 13 to 19, the stress is on **-teen**, and the *ee* is long: *thir-TEEN, fif-TEEN, eigh-TEEN*.
+
+        In 30, 40, 50… the stress is at the **start**, and *-ty* is short: *THIR-ty, FIF-ty, EIGH-ty*. In American English the t in -ty often sounds like a soft d: "thirdy". Listen and repeat each pair.
+      items: |
+        thirteen
+        thirty
+        fifteen
+        fifty
+        eighteen
+        eighty
+    culture:
+      title: Sales tax and coins
+      body: |
+        In most of the United States, the price on the tag doesn't include **sales tax**. When you pay, the total is a little higher — for example, a $20.00 shirt can cost $21.60. In the UK, Ireland and Australia, the tax is already in the price.
+
+        American coins have names: a **penny** (1¢), a **nickel** (5¢), a **dime** (10¢) and a **quarter** (25¢). Today many people pay by card or phone, even for a coffee.
+    mistakes: |
+      It's fourty dollars. => It's forty dollars. | Forty has no u.
+      It's dollars twenty. => It's twenty dollars. | Say the number first, then dollars.
+      How much is these shoes? => How much are these shoes? | Use are with plural nouns.
+    task:
+      title: Market prices
+      mode: interaction
+      body: |
+        You are at a street market. Choose two things to buy. Ask the price of each one, check any number you aren't sure about (*Fifteen or fifty?*), say if it's cheap or expensive, and pay in cash or by card. Then practice the conversation with the AI coach.
+    exercises: |
+      rw: Write the number in words :: 45 || forty-five || 45 = forty + five, with a hyphen. || @tags en.numbers,en.spelling
+      fill: How much ___ these jeans? || are || Jeans is plural, so we say How much are…? || @tags en.questions
+      fill: How much ___ this T-shirt? || is || One thing: How much is…? || @tags en.questions
+      fill: The jacket ___ eighty dollars. (cost) || costs || The jacket = it, so add -s: it costs. || @tags en.present-simple
+      mc: Which number is "seventy"? || 17 | *70 | 77 || Seventy = 70. Seventeen = 17. || @tags en.numbers @skill vocabulary
+      mc: The opposite of "expensive" is… || *cheap | big | new || Cheap = not costing much money. || @skill vocabulary @tags en.vocabulary
+      match: $10.50 = ten fifty ; $15 = fifteen dollars ; $50 = fifty dollars ; 50¢ = fifty cents || Match each written price with the words. || @tags en.numbers
+      order: How much are those white shoes? || @tags en.questions
+      tf: The sunglasses cost fifty pounds. || false || Ray says, "Fifteen. One, five." They cost £15. || @ctx dialogue
+      short: How does Amara pay? || kw: card || Amara says, "Card, please." || @ctx dialogue
+      listen: These shoes are on sale. They're sixty dollars. || How much are the shoes? || $16 | *$60 | $66 || "Sixty dollars" — the stress is on the first part: SIX-ty. || @tags en.numbers
+      listen: That's thirteen ninety-nine, please. || How much is it? || $30.99 | *$13.99 | $13.19 || Thirteen ninety-nine = $13.99. || @tags en.numbers
+      dict: How much is this sweater? It's forty-five dollars.
+      ask: Ask the price of two things in a store — one thing and two or more things. || kw: how much & is/are || Excuse me, how much is this jacket? And how much are those jeans?
+      write: Write a message to a friend about a sale at your favorite store. Give three things and their prices. || min=25 || req: dollars/pounds/euros | on sale/cheap/expensive | is/are/costs || Hi Tom! There's a big sale at Green Street Clothes. The jeans are only thirty dollars, and the T-shirts are ten dollars. This black jacket is sixty-five dollars — not cheap, but very nice!
+
+  - title: In a shop
+    summary: Buy clothes in a store — ask for your size, try things on and pay — with How much…?, How many…? and Can I…?
+    minutes: 40
+    skills: [speaking, grammar, listening]
+    tags: [en.quantifiers, en.questions]
+    objectives:
+      - Talk to a salesperson and ask for a size
+      - Use How much with uncountable nouns and How many with plural nouns
+      - Ask for permission with Can I…? (Can I try it on?) and say what's wrong with too
+    intro: |
+      *Can I help you? — Yes, please. Can I try this on?* In this lesson you will learn what to say in a clothes store: sizes, the fitting room and paying. You will also learn when to use **How much…?** and **How many…?**, and how to say a problem with **too**: *It's too big.*
+    vocab: |
+      Can I help you? | a question a salesperson asks a customer | expr | Hi! Can I help you? | -
+      I'm just looking. | I don't need help now; I only want to look | expr | No, thanks. I'm just looking. | -
+      look for | to try to find | v | I'm looking for a warm jacket. | - | n: In a store: I'm looking for… = I want to find…
+      try on | to put on clothes to see if they are good for you | v | Can I try on these jeans? | - | n: With it or them: Can I try it on? Can I try them on?
+      fitting room | a small room in a store where you try on clothes | n | The fitting room is over there. | - | n: British English: changing room.
+      size | how big something is — small, medium, large or a number | n | What size are you? — Medium. | - | c: in a small; my size
+      fit | to be the right size for you | v | These shoes don't fit. | -
+      too big | bigger than you need | expr | This jacket is too big. | -
+      too small | smaller than you need | expr | Sorry, it's too small. | -
+      money | what you use to pay for things | n | How much money have you got? | - | n: Uncountable: how much money, some money.
+      pay | to give money for something | v | Can I pay by card? | - | c: pay in cash; pay by card
+      receipt | a piece of paper that shows what you paid | n | Here's your receipt. | - | n: Say "ri-SEET" — the p is silent. | t: es=recibo; fr=ticket de caisse; de=Kassenbon; da=kvittering
+      change | the money you get back when you pay too much | n | Here's your change. | - | t: es=cambio; fr=monnaie; de=Wechselgeld; da=byttepenge
+      customer | a person who buys things in a store | n | There are a lot of customers today. | -
+    grammar:
+      title: "How much…? How many…? Can I…?"
+      body: |
+        - **How many** + a plural countable noun: ***How many** T-shirts have you got? **How many** people are there?*
+        - **How much** + an uncountable noun: ***How much** money have you got? **How much** milk is there?*
+        - **How much** for prices: ***How much** is it? **How much** are they?*
+
+        Remember (Unit 4): countable nouns can be counted — *shirts, shoes, people*. Uncountable nouns can't — *money, time, water*.
+
+        In a store, use **Can I…?** to ask if something is OK: *Can I try it on? Can I pay by card?* — *Sure. / Yes, of course.*
+
+        Use **too** + adjective for a problem: *It's **too** big. They're **too** expensive.* (*Too* means more than you want; *very* just means a lot: *It's very nice.*)
+      table: |
+        Question | Noun | Example
+        How many…? | plural countable | How many sweaters have you got?
+        How much…? | uncountable | How much money do you need?
+        How much is…? | price of one thing | How much is this shirt?
+        How much are…? | price of two or more | How much are these socks?
+      examples: |
+        How many shirts do you want? — Two, please. | | countable
+        How much money have you got? — About fifty dollars. | | uncountable
+        Can I try these jeans on? — Sure. The fitting room is over there. | | permission
+        This sweater is too small. Have you got a large? | | too + adjective
+      tip: "Money is uncountable — How much money? — but dollars are countable — How many dollars?"
+    dialogue:
+      title: Can I try it on?
+      setting: Luis is in a clothes store in Sydney, Australia. Mia works there.
+      speakers: M=Mia/f; L=Luis/m
+      lines: |
+        M: Hi! Can I help you?
+        L: Yes, please. I'm looking for a sweater.
+        M: What size are you?
+        L: Medium, I think.
+        M: We've got this one in blue and gray.
+        L: The gray one is nice. Can I try it on?
+        M: Sure. The fitting room is over there.
+        L: Hmm, it's too big. Have you got a small?
+        M: Yes, here you are.
+        L: Perfect, it fits! How much is it?
+        M: Forty-nine dollars. Or two for seventy!
+        L: Just one, thanks. Can I pay by card?
+    pronunciation:
+      title: "Weak \"can\": Can I help you?"
+      body: |
+        At the start of a question, **can** is usually weak and quick: *Can I help you?* sounds like "k'n-I help you?". The important words — *help*, *try*, *pay* — are strong.
+
+        Join *try it on* into one group: "try-i-ton". In *receipt*, the **p** is silent: "ri-SEET". Listen and repeat.
+      items: |
+        Can I help you?
+        Can I try it on?
+        Can I pay by card?
+        How much is it?
+        How many?
+        receipt
+    culture:
+      title: Sizes and returns
+      body: |
+        Clothes sizes are different around the world. In the US, many clothes are S, M, L or XL, but jeans often use numbers for the waist and the leg. Shoe sizes are different in the US, the UK and Europe — a US size 9 is about a UK size 8.
+
+        Keep your **receipt**! In many stores in the US, the UK and Australia, you can bring clothes back and get your money back if they don't fit — often within 30 days.
+    mistakes: |
+      How many money have you got? => How much money have you got? | Money is uncountable: how much.
+      How much shirts do you want? => How many shirts do you want? | Shirts are countable: how many.
+      Can I try on it? => Can I try it on? | With it, put it between try and on.
+    task:
+      title: Buying clothes
+      mode: interaction
+      body: |
+        In a clothes store, ask for something you need, say your size, ask to try it on, explain a problem (too big or too small), ask the price and pay. Then practice the conversation with the AI coach, or try the "Returning an item in a shop" scenario.
+    exercises: |
+      fill: How ___ sweaters have you got? || many || Sweaters are countable: How many…? || @tags en.quantifiers,en.questions
+      fill: How ___ money do you need? || much || Money is uncountable: How much…? || @tags en.quantifiers,en.questions
+      mc: Choose the correct question. || How many milk is there? | *How much milk is there? | How much milks is there? || Milk is uncountable: How much milk…? || @tags en.quantifiers,en.countable
+      mc: A salesperson asks, "Can I help you?" You don't need help. You say: || No, I don't. | *I'm just looking, thanks. | Yes, I can. || "I'm just looking, thanks" is the polite answer. || @tags en.requests
+      rw: Correct the mistake :: Can I try on it? || Can I try it on? || With it, the word goes between try and on. || @tags en.phrasal-verbs
+      rw: Make a question with How many :: I've got three jackets. || How many jackets have you got? | How many jackets do you have? || Jackets are countable: How many jackets…? || @tags en.quantifiers,en.questions
+      match: What size are you? = Medium. ; Can I try it on? = Sure, the fitting room is over there. ; Can I pay by card? = Yes, of course. ; How much is it? = Forty dollars. || Each question has one natural answer. || @tags en.requests
+      order: Can I pay by credit card, please? || @tags en.requests
+      tf: The first sweater is too small for Luis. || false || Luis says, "Hmm, it's too big. Have you got a small?" || @ctx dialogue
+      short: What color is the sweater that Luis tries on? || kw: gray/grey || Luis says, "The gray one is nice. Can I try it on?" || @ctx dialogue
+      listen: Sorry, these shoes are too small. Have you got a size nine? || What is the problem? || The shoes are too big. | *The shoes are too small. | The shoes are too expensive. || "These shoes are too small." || @tags en.vocabulary
+      listen: @dialogue || How much is one sweater? || $19 | *$49 | $70 || Mia says, "Forty-nine dollars. Or two for seventy!" || @tags en.numbers
+      dict: Can I try this jacket on, please?
+      ask: In a clothes store, ask to try something on, say there's a problem with the size, and ask the price. || kw: try & too/size & how much || Can I try these jeans on, please? … They're too small. Have you got a size 32? How much are they?
+      write: Write a short review of a clothes store for a website. Talk about the prices, the sizes and the salespeople. || min=30 || req: expensive/cheap/dollars/price | size | too/very || Blue Bay Clothes is a great store. The prices are good — T-shirts are only twelve dollars. They've got a lot of sizes, from extra small to extra large. The fitting rooms are very small, but the salespeople are friendly and helpful.

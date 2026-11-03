@@ -1,0 +1,374 @@
+unit: 8
+title: De viaje
+theme: Travel
+description: Travel by train, bus and metro, buy tickets and understand timetables, talk about your plans with ir a + infinitive, and book a hotel room using question words.
+objectives:
+  - Get around by public transport and buy tickets
+  - Talk about plans and intentions with ir a + infinitive
+  - Book a room and ask for information with question words
+canDo:
+  - I can buy a train or bus ticket and ask when it leaves and arrives.
+  - I can say how I travel and how long the journey takes.
+  - I can talk about my plans for the weekend or the holidays.
+  - I can book a hotel room and ask questions about it.
+review: |
+  fill: Mañana yo ___ a visitar el museo. || voy || Near future: yo voy + a + infinitive. || @tags es.ir-a
+  fill: Voy a Toledo ___ tren. || en || Transport takes en with no article: en tren. || @tags es.prepositions
+  fill: ¿___ cuesta el billete? (how much) || Cuánto || ¿Cuánto cuesta…? = How much is…? || @tags es.question-words
+  fill: ¿De ___ sale el autobús? (where) || dónde || From where = de dónde, with an accent. || @tags es.question-words
+  mc: Choose the correct sentence. || Vamos a viajamos en julio. | *Vamos a viajar en julio. | Vamos viajar en julio. || Ir + a + infinitive: vamos a viajar. || @tags es.ir-a
+  mc: "¿Cuánto tarda el autobús?" asks about… || the price | *the journey time | the departure time || Tardar = to take (time). The price would be ¿Cuánto cuesta? || @tags es.question-words
+  tr: Next week we're going to travel by plane. || La semana que viene vamos a viajar en avión. | La próxima semana vamos a viajar en avión. | Vamos a viajar en avión la semana que viene. || Vamos a + infinitive; en avión. || @tags es.ir-a,es.prepositions
+  tr: Where is the lift, please? || ¿Dónde está el ascensor, por favor? | Perdone, ¿dónde está el ascensor? | Perdona, ¿dónde está el ascensor? || ¿Dónde está…? asks where something is. || @tags es.question-words,es.estar
+  listen: El autobús número veinte va al aeropuerto. Sale cada quince minutos. || How often does the bus leave? || Every 20 minutes | *Every 15 minutes | Every 50 minutes || "Sale cada quince minutos" — every fifteen minutes. Veinte is the bus number. || @tags es.numbers
+  listen: Tenemos una habitación individual por cincuenta euros, sin desayuno. || What does the price include? || *Only the room, without breakfast | The room and breakfast | Breakfast and dinner || Sin desayuno = without breakfast. || @tags es.listening
+  ask: Tell a friend your plans for next weekend — where you are going, how you are travelling and what you are going to do. || kw: voy a/vamos a & en tren/en coche/en autobús/en avión/en bici/a pie || El sábado voy a ir a Segovia en tren con mi pareja. Vamos a visitar el acueducto y a comer en un restaurante típico.
+  write: Write an email to a friend about your next trip — where you are going, how you are travelling, where you are staying and what you are going to do. || min=40 || req: voy a/vamos a | en tren/en avión/en coche/en autobús | hotel/habitación/hostal || ¡Hola, Irene! En agosto voy a ir a Asturias con mis padres. Vamos a viajar en tren porque es muy cómodo. Tenemos una habitación doble en un hotel pequeño cerca de la playa. Vamos a comer pescado, pasear por la montaña y visitar Oviedo. ¿Y tú? ¿Qué vas a hacer en verano?
+lessons:
+  - title: Getting around
+    summary: Travel by train, bus and metro — buy tickets, ask when trains leave and arrive and how long the journey takes.
+    minutes: 40
+    skills: [vocabulary, listening, speaking]
+    tags: [es.prepositions, es.question-words]
+    objectives:
+      - Say how you travel with en tren, en autobús, a pie…
+      - Buy a single or return ticket
+      - Ask when a train leaves and arrives, and how long it takes
+    intro: |
+      Spain has fast trains, cheap buses and good metro systems in its big cities. To use them you need a handful of verbs — **salir** (to leave), **llegar** (to arrive), **tardar** (to take time) — and the right prepositions: **en tren**, **en autobús**, but **a pie**.
+    vocab: |
+      el tren | train | n | Voy a Barcelona en tren. | I'm going to Barcelona by train. | g: m
+      el autobús | bus | n | Voy al trabajo en autobús. | I go to work by bus. | g: m | n: In the Canaries and the Caribbean: la guagua; in Mexico: el camión.
+      el metro | underground, metro | n | El metro es rápido y barato. | The metro is fast and cheap. | g: m
+      el avión | plane | n | El avión a Tenerife sale a las siete. | The plane to Tenerife leaves at seven. | g: m
+      el coche | car | n | No tengo coche; voy en bici. | I don't have a car; I go by bike. | g: m | n: In Latin America: el carro or el auto.
+      a pie | on foot | expr | Voy a clase a pie. | I walk to class. | n: Also andando. Note: a pie, but en tren, en bici.
+      el billete | ticket (transport) | n | Un billete para Sevilla, por favor. | A ticket to Seville, please. | g: m | n: In Latin America: el boleto.
+      de ida y vuelta | return (ticket) | expr | Quería un billete de ida y vuelta a Toledo. | I'd like a return ticket to Toledo. | c: de ida (single)
+      salir | to leave, to depart | v | ¿A qué hora sale el autobús? | What time does the bus leave? | n: Irregular yo form: salgo.
+      llegar | to arrive | v | El tren llega a Madrid a las doce y media. | The train arrives in Madrid at half past twelve. | n: Llegar a + place.
+      tardar | to take (time) | v | El tren tarda dos horas y media. | The train takes two and a half hours. | n: ¿Cuánto tarda? = How long does it take?
+      el andén | platform | n | El tren sale del andén cuatro. | The train leaves from platform four. | g: m | n: Announcements often say la vía (track): vía cuatro.
+      la parada | stop | n | La parada de autobús está enfrente del hotel. | The bus stop is opposite the hotel. | g: f
+      el horario | timetable | n | ¿Tiene el horario de los trenes? | Do you have the train timetable? | g: m
+    grammar:
+      title: "Getting around: en, a pie; salir, llegar, tardar"
+      body: |
+        For transport, use **en + vehicle, with no article**: *en tren, en autobús, en metro, en coche, en avión, en bici*. The exception is **a pie** (on foot), also **andando**.
+
+        Say where you are going with **a**: *Voy a Valencia*. *From… to…* is **de… a…**: *de Madrid a Toledo*.
+
+        - **salir de** (to leave from): *El tren sale de Madrid a las nueve.* Salir is irregular only in the yo form: *salgo, sales, sale…*
+        - **llegar a** (to arrive in/at): *Llega a Sevilla a las once* — never ~~llegar en~~.
+        - **tardar** + time (to take): *El autobús tarda una hora. ¿Cuánto tarda?*
+
+        At the ticket office, ask for **un billete de ida** (single) or **de ida y vuelta** (return). Timetables use the 24-hour clock: *sale a las 15:40* (*las quince cuarenta*).
+      table: |
+        How | Spanish | Example
+        by train | en tren | Voy a Sevilla en tren.
+        by bus | en autobús | Vamos al centro en autobús.
+        by metro | en metro | ¿Vas a la universidad en metro?
+        by car | en coche | Mis padres van en coche.
+        by plane | en avión | Viajo a Tenerife en avión.
+        by bike | en bici | Voy a clase en bici.
+        on foot | a pie / andando | Voy al trabajo a pie.
+      examples: |
+        ¿A qué hora sale el próximo tren para Cuenca? | What time does the next train to Cuenca leave?
+        El autobús llega a Granada a las tres. | The bus gets to Granada at three.
+        ¿Cuánto tarda el metro hasta el aeropuerto? | How long does the metro take to the airport?
+        Quería un billete de ida, por favor. | I'd like a single ticket, please.
+      tip: "Llegar a, not llegar en: Llego a Madrid a las ocho."
+    dialogue:
+      title: En la taquilla
+      setting: Grace, a tourist from Leeds, buys a train ticket to Toledo at the ticket office in Madrid's Atocha station.
+      speakers: R=Ramón/m; G=Grace/f
+      lines: |
+        G: Buenos días. Un billete para Toledo, por favor. | Good morning. A ticket to Toledo, please.
+        R: ¿De ida o de ida y vuelta? | Single or return?
+        G: De ida y vuelta. ¿A qué hora sale el próximo tren? | Return. What time does the next train leave?
+        R: Sale a las diez y cuarto. | It leaves at quarter past ten.
+        G: ¿Y cuánto tarda? | And how long does it take?
+        R: Unos treinta minutos. | About thirty minutes.
+        G: Perfecto. ¿Cuánto es? | Perfect. How much is it?
+        R: Son veintiún euros con cuarenta. | That's twenty-one euros forty.
+        G: ¿De qué andén sale? | Which platform does it leave from?
+        R: Del andén cinco. | From platform five.
+        G: ¿Y a qué hora llega a Toledo? | And what time does it get to Toledo?
+        R: A las once menos cuarto. | At quarter to eleven.
+    pronunciation:
+      title: "p, t, k without a puff of air"
+      body: |
+        In English, *p, t* and *k* at the start of a word come with a small puff of air. In Spanish they don't. Hold a sheet of paper in front of your mouth and say *tren, parada, coche*: the paper should hardly move.
+
+        For **t** and **d**, touch the back of your top teeth with the tip of your tongue, not the ridge behind them as in English.
+      items: |
+        el tren
+        el coche
+        tarda
+        la parada
+        ¿cuánto tarda?
+        el billete
+    culture:
+      title: Trains, buses and metros
+      body: |
+        Spain has the longest high-speed rail network in Europe: fast trains link Madrid with Barcelona, Seville, Valencia, Málaga and many other cities in a few hours. For short trips around big cities there are commuter trains called **Cercanías** (Rodalies in Catalonia).
+
+        Long-distance buses are cheap and reach almost every town. Madrid, Barcelona, Valencia, Bilbao, Seville and several other cities have a metro; many offer rechargeable cards or multi-journey tickets that are cheaper than single tickets.
+    mistakes: |
+      Voy en pie. => Voy a pie. | "On foot" is a pie; vehicles take en.
+      Llego en Madrid a las ocho. => Llego a Madrid a las ocho. | Arriving somewhere is llegar a.
+      Voy a Bilbao en el tren. => Voy a Bilbao en tren. | No article after en with means of transport.
+    task:
+      title: A day trip by train
+      mode: interaction
+      body: |
+        You want to visit Segovia from Madrid for the day. At the ticket office, ask for a return ticket, ask what time the next train leaves, how long it takes, which platform it leaves from and what time it arrives. Practise with a partner or the AI coach.
+    exercises: |
+      fill: Voy al trabajo ___ autobús. || en || Transport: en + vehicle. || @tags es.prepositions
+      fill: Mi hermana va a clase ___ pie. || a || On foot = a pie. || @tags es.prepositions
+      fill: El tren ___ a Sevilla a las doce. (llegar) || llega || Él + llegar = llega; llegar a + place. || @tags es.present-regular
+      fill: Yo ___ de casa a las ocho. (salir) || salgo || Salir is irregular in the yo form: salgo. || @tags es.present-irregular
+      mc: Choose the correct sentence. || Voy a Bilbao en el avión. | *Voy a Bilbao en avión. | Voy a Bilbao con avión. || En + vehicle, with no article. || @tags es.prepositions
+      mc: "Un billete de ida y vuelta" is… || a single ticket | *a return ticket | a day pass || Ida = going; vuelta = coming back. A single is un billete de ida. || @skill vocabulary @tags es.vocabulary
+      match: el tren = train ; el avión = plane ; el coche = car ; el autobús = bus ; la bici = bike || Tren, avión, coche, autobús, bici. || @tags es.vocabulary
+      mc: How long does the train to Toledo take? || Fifteen minutes | *About thirty minutes | An hour || "Unos treinta minutos." It leaves at 10:15 and arrives at 10:45. || @ctx dialogue @skill reading @tags es.reading
+      tf: The train leaves from platform four. || false || "Del andén cinco" — from platform five. || @ctx dialogue
+      rw: Ask the question for this answer :: El autobús sale a las nueve. || ¿A qué hora sale el autobús? | ¿Cuándo sale el autobús? || Ask about the time with ¿A qué hora…? || @tags es.question-words
+      tr: How long does the bus take? || ¿Cuánto tarda el autobús? || Tardar = to take (time); ¿Cuánto tarda…? || @tags es.question-words
+      tr: I'd like a single ticket to Valencia, please. || Quería un billete de ida a Valencia, por favor. | Quería un billete de ida para Valencia, por favor. | Quisiera un billete de ida para Valencia, por favor. | Un billete de ida para Valencia, por favor. || Single = de ida; a / para + destination. || @tags es.ordering
+      listen: El autobús para Granada sale a las cinco y media y llega a las nueve. || What time does the bus arrive in Granada? || 5:30 | *9:00 | 9:30 || "Llega a las nueve." It leaves at half past five. || @tags es.time
+      dict: Voy a la universidad en metro.
+      ask: At the ticket office, ask for a ticket, then ask when the train leaves and how long it takes. || kw: billete & a qué hora/cuándo & tarda || Buenos días, quería un billete de ida y vuelta para Segovia. ¿A qué hora sale el tren? ¿Cuánto tarda?
+
+  - title: Plans for the weekend
+    summary: Talk about your plans and intentions with ir a + infinitive and future time expressions.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [es.ir-a]
+    objectives:
+      - Form the near future with ir a + infinitive
+      - Use future time expressions (mañana, este fin de semana, la semana que viene)
+      - Talk about your plans and ask about other people's
+    intro: |
+      *¿Qué vas a hacer este fin de semana?* is one of the most common questions on a Friday afternoon. To answer it, Spanish uses a simple structure you already half know: **ir** + **a** + **infinitive** — *voy a descansar*, *vamos a visitar Segovia*.
+    vocab: |
+      ir a + infinitivo | to be going to | expr | Voy a visitar a mis abuelos. | I'm going to visit my grandparents. | n: The a before mis abuelos is the "personal a", used with people.
+      este fin de semana | this weekend | expr | Este fin de semana voy a descansar. | This weekend I'm going to rest.
+      mañana | tomorrow | adv | Mañana vamos a ir a la playa. | Tomorrow we're going to go to the beach. | n: Mañana por la mañana = tomorrow morning.
+      esta noche | tonight | expr | Esta noche voy a cenar con Lucía. | Tonight I'm going to have dinner with Lucía.
+      la semana que viene | next week | expr | La semana que viene voy a empezar un curso. | Next week I'm going to start a course. | c: el sábado que viene; el mes que viene | n: Also: la próxima semana.
+      visitar | to visit | v | Vamos a visitar la Alhambra. | We're going to visit the Alhambra. | n: With people, add a: visitar a mi tía.
+      hacer una excursión | to go on a trip; to go hiking | expr | El domingo vamos a hacer una excursión a la sierra. | On Sunday we're going on a trip to the mountains.
+      descansar | to rest | v | El domingo voy a descansar en casa. | On Sunday I'm going to rest at home.
+      ver una película | to watch a film | expr | Esta noche vamos a ver una película. | Tonight we're going to watch a film. | n: Ver: veo, ves, ve…
+      hacer la compra | to do the food shopping | expr | El sábado por la mañana hago la compra. | On Saturday morning I do the food shopping.
+      el plan | plan | n | ¿Tienes planes para el fin de semana? | Do you have plans for the weekend? | g: m
+      ¿qué vas a hacer? | what are you going to do? | expr | ¿Qué vas a hacer el sábado? | What are you going to do on Saturday? | n: Formal: ¿Qué va a hacer usted?
+      la montaña | mountains; mountain | n | En agosto vamos a ir a la montaña. | In August we're going to go to the mountains. | g: f | n: In Spain, la sierra is a mountain range.
+      pasar el fin de semana | to spend the weekend | expr | Voy a pasar el fin de semana en Cádiz. | I'm going to spend the weekend in Cádiz.
+    grammar:
+      title: "The near future: ir a + infinitive"
+      body: |
+        To talk about **plans and intentions**, use **ir** (conjugated) + **a** + **infinitive**: *Voy a estudiar. ¿Qué vas a hacer?* It's the most common way to talk about the future in everyday Spanish.
+
+        Useful time expressions: *hoy, esta tarde, esta noche, mañana, pasado mañana* (the day after tomorrow), *este fin de semana, el sábado que viene, la semana que viene, el próximo verano, en agosto*.
+
+        - **Negative**: *no* before ir — *No voy a salir.*
+        - **Reflexive verbs**: the pronoun goes before *ir* or on the end of the infinitive — *Me voy a levantar tarde* = *Voy a levantarme tarde*.
+        - **Ir a ir** is fine: *Voy a ir a Granada.*
+        - **Personal a**: when the object of the verb is a person, add *a* — *Voy a visitar **a** mis abuelos* (but *Voy a visitar Granada*).
+      table: |
+        Pronoun | ir | a + infinitive
+        yo | voy | a descansar
+        tú | vas | a salir
+        él / ella / usted | va | a trabajar
+        nosotros / nosotras | vamos | a viajar
+        vosotros / vosotras | vais | a cocinar
+        ellos / ellas / ustedes | van | a ver una película
+      examples: |
+        Este fin de semana voy a visitar a mis abuelos. | This weekend I'm going to visit my grandparents.
+        ¿Qué vais a hacer en verano? | What are you (all) going to do in the summer? | Spain; Latin America: ¿Qué van a hacer…?
+        Mañana no voy a trabajar. | I'm not going to work tomorrow.
+        El domingo vamos a levantarnos tarde. | On Sunday we're going to get up late.
+      tip: "Don't drop the a: voy a comer, not voy comer. In fast speech vas a hacer sounds like 'vasacer', but you always write the a."
+    dialogue:
+      title: Planes para el fin de semana
+      setting: Friday afternoon in an office in Madrid. Mónica asks her colleague Carlos about his weekend.
+      speakers: M=Mónica/f; C=Carlos/m
+      lines: |
+        M: Carlos, ¿qué vas a hacer este fin de semana? | Carlos, what are you going to do this weekend?
+        C: Voy a ir a Segovia con mi familia. | I'm going to go to Segovia with my family.
+        M: ¡Qué bien! ¿Vais a ir en coche? | Great! Are you going to go by car?
+        C: No, en tren. Es muy rápido. | No, by train. It's very fast.
+        M: ¿Y qué vais a hacer allí? | And what are you going to do there?
+        C: Vamos a visitar el acueducto y el Alcázar. | We're going to visit the aqueduct and the Alcázar.
+        M: ¿Y vais a comer allí? | And are you going to eat there?
+        C: Sí, en un restaurante típico. ¿Y tú? | Yes, at a traditional restaurant. And you?
+        M: El sábado voy a hacer una excursión a la sierra. | On Saturday I'm going on a trip to the mountains.
+        C: ¿Y el domingo? | And on Sunday?
+        M: El domingo no voy a hacer nada. ¡Voy a descansar! | On Sunday I'm not going to do anything. I'm going to rest!
+        C: ¡Buen plan! | Good plan!
+    pronunciation:
+      title: "voy a, vas a, va a: smooth linking"
+      body: |
+        In *ir a + infinitive*, the words run together: *voy a* sounds like [ˈbo.ja], *vamos a ir* like [ˈba.mo.sa.ˈiɾ], and *va a* is almost one long [a]: *va a viajar*.
+
+        Practise the phrases below without pauses, then slowly, making sure you can still hear the **a**.
+      items: |
+        voy a descansar
+        vas a salir
+        va a trabajar
+        vamos a ir
+        ¿qué vas a hacer?
+        no voy a hacer nada
+    culture:
+      title: Escapadas and puentes
+      body: |
+        A short weekend trip — **una escapada** — is a favourite Spanish pastime. From Madrid, cities like Toledo, Segovia and Salamanca are easy day trips by train, and Spain has dozens of places on UNESCO's World Heritage list.
+
+        Long weekends are popular too. In early December, two public holidays (6 and 8 December) are so close together that people sometimes joke about an **acueducto** — a "bridge" so long it becomes an aqueduct!
+    mistakes: |
+      Voy comer con mis padres. => Voy a comer con mis padres. | The structure is ir + a + infinitive.
+      Vamos a visitar mis abuelos. => Vamos a visitar a mis abuelos. | Add the personal a before people.
+      ¿Qué vas hacer mañana? => ¿Qué vas a hacer mañana? | Don't drop the a, even if you can hardly hear it.
+    task:
+      title: My weekend plans
+      mode: writing
+      body: |
+        Write a message (40–50 words) to a friend about your plans for this weekend: what you are going to do on Friday night, Saturday and Sunday, and with whom. Then tell the AI coach about them in the "Making weekend plans" scenario.
+    exercises: |
+      fill: Este fin de semana ___ a descansar. (yo) || voy || Yo + ir = voy, then a + infinitive. || @tags es.ir-a
+      fill: ¿Qué ___ a hacer vosotros en verano? || vais || Vosotros + ir = vais. || @tags es.ir-a
+      fill: Mañana mis padres van ___ viajar a Lisboa. || a || Ir + a + infinitive: van a viajar. || @tags es.ir-a
+      fill: El sábado vamos a visitar ___ nuestros abuelos. || a || With people as the object, add the personal a. || @tags es.ir-a,es.prepositions
+      mc: Choose the correct sentence. || Voy comer en casa. | *Voy a comer en casa. | Voy a como en casa. || Ir + a + infinitive (comer). || @tags es.ir-a
+      mc: How is Carlos travelling to Segovia? || By car | *By train | By bus || "No, en tren. Es muy rápido." || @ctx dialogue @skill reading @tags es.reading
+      short: What is Mónica going to do on Sunday? || kw: descansar/rest/nada/nothing || "El domingo no voy a hacer nada. ¡Voy a descansar!" || @ctx dialogue
+      rw: Put it in the future with ir a :: El sábado trabajo en casa. || El sábado voy a trabajar en casa. || Ir (voy) + a + infinitive (trabajar). || @tags es.ir-a
+      rw: Make it negative :: Esta noche vamos a salir. || Esta noche no vamos a salir. || No goes before the conjugated form of ir. || @tags es.ir-a,es.negation
+      order: La semana que viene voy a empezar un curso de cocina. || Next week I'm going to start a cooking course. || @tags es.ir-a
+      tr: What are you going to do tomorrow? (informal) || ¿Qué vas a hacer mañana? | Mañana, ¿qué vas a hacer? | ¿Tú qué vas a hacer mañana? || Tú + vas a + hacer. || @tags es.ir-a,es.question-words
+      tr: We're going to watch a film tonight. || Esta noche vamos a ver una película. | Vamos a ver una película esta noche. || Vamos a + ver; tonight = esta noche. || @tags es.ir-a
+      listen: El sábado voy a jugar al tenis y el domingo voy a comer con mi familia. || What is the speaker going to do on Sunday? || Play tennis | *Have lunch with family | Rest at home || "El domingo voy a comer con mi familia." Tennis is on Saturday. || @tags es.ir-a
+      dict: Esta tarde voy a hacer la compra con mi madre.
+      ask: Say three things you are going to do this weekend. || kw: voy a & sábado/domingo/fin de semana || Este fin de semana voy a descansar. El sábado voy a ver una película y el domingo voy a comer con mis padres.
+
+  - title: Booking a room
+    summary: Book a hotel room by phone or at reception, and ask for information with question words.
+    minutes: 40
+    skills: [speaking, grammar, listening]
+    tags: [es.question-words, es.ordering]
+    objectives:
+      - Book a room and give dates and the number of people
+      - Ask about the price, breakfast and facilities
+      - Use question words correctly (qué, cuál, dónde, cuándo, cuánto…)
+    intro: |
+      Booking a room is a classic travel task: you give dates, say how many people, and ask questions — *¿Cuánto cuesta? ¿El desayuno está incluido? ¿A qué hora…?* This lesson brings together all the question words you have met in the course, with their accents and their little traps, like *qué* vs *cuál*.
+    vocab: |
+      reservar | to book | v | Quería reservar una habitación. | I'd like to book a room.
+      la habitación doble | double room | n | Una habitación doble para dos noches. | A double room for two nights. | g: f | n: A single room: una habitación individual.
+      la noche | night | n | ¿Para cuántas noches? Para tres. | For how many nights? For three. | g: f
+      el desayuno | breakfast | n | El desayuno es de siete a diez. | Breakfast is from seven to ten. | g: m
+      incluido | included | adj | El desayuno está incluido en el precio. | Breakfast is included in the price.
+      la reserva | booking, reservation | n | Tengo una reserva a nombre de Kim. | I have a booking in the name of Kim. | g: f | n: A nombre de = in the name of.
+      la llave | key | n | Aquí tiene la llave de su habitación. | Here's the key to your room. | g: f | n: Many hotels use una tarjeta (key card).
+      el ascensor | lift, elevator | n | El ascensor está a la derecha. | The lift is on the right. | g: m
+      la planta | floor (storey) | n | Su habitación está en la tercera planta. | Your room is on the third floor. | g: f | n: The ground floor is la planta baja.
+      la recepción | reception | n | La recepción está abierta las veinticuatro horas. | Reception is open twenty-four hours. | g: f
+      el aire acondicionado | air conditioning | n | ¿La habitación tiene aire acondicionado? | Does the room have air conditioning? | g: m
+      el pasaporte | passport | n | ¿Me deja su pasaporte, por favor? | Could I have your passport, please? | g: m | n: Spanish citizens show their DNI.
+      libre | free, available | adj | ¿Tienen habitaciones libres para esta noche? | Do you have any rooms available for tonight?
+      ¿para cuántas personas? | for how many people? | expr | ¿Para cuántas personas es la reserva? | How many people is the booking for?
+    grammar:
+      title: Question words
+      body: |
+        Question words **always have a written accent**, and questions open with **¿**: *¿Dónde está el ascensor?*
+
+        - **qué** (what), **cuál / cuáles** (which; *what* + ser), **quién / quiénes** (who)
+        - **dónde** (where), **adónde** (where to), **de dónde** (where from)
+        - **cuándo** (when), **a qué hora** (at what time)
+        - **cuánto / cuánta / cuántos / cuántas** (how much, how many — they agree with the noun)
+        - **cómo** (how; what… like), **por qué** (why) — the answer is **porque** (because)
+
+        **Qué or cuál?** Use *qué* + noun (*¿Qué habitación prefiere?*) and *cuál* + ser to ask for a piece of information: *¿Cuál es su nombre? ¿Cuál es su número de teléfono?*
+
+        A **preposition** goes before the question word: *¿De dónde es usted? ¿Para cuántas personas? ¿A qué hora?* After a question word, the verb usually comes next: *¿Cuándo llegan ustedes?*
+      table: |
+        Question word | Meaning | Example
+        ¿qué? | what? | ¿Qué incluye el precio?
+        ¿cuál? | which? / what? (+ ser) | ¿Cuál es su nombre?
+        ¿quién? | who? | ¿Quién es el último?
+        ¿dónde? | where? | ¿Dónde está el ascensor?
+        ¿cuándo? | when? | ¿Cuándo llegan ustedes?
+        ¿a qué hora? | at what time? | ¿A qué hora es el desayuno?
+        ¿cuánto/a/os/as? | how much? how many? | ¿Cuántas noches?
+        ¿cómo? | how? | ¿Cómo quiere pagar?
+        ¿por qué? | why? | ¿Por qué no vamos en tren?
+      examples: |
+        ¿Para cuántas noches? Para tres. | For how many nights? For three.
+        ¿Cuál es su número de teléfono? | What's your phone number?
+        ¿A qué hora es el desayuno? De siete a diez. | What time is breakfast? From seven to ten.
+        ¿Por qué no reservamos un hotel en el centro? Porque es muy caro. | Why don't we book a hotel in the centre? Because it's very expensive.
+      tip: "¿Por qué? (two words, with an accent) asks why; porque (one word, no accent) means because."
+    dialogue:
+      title: Una reserva por teléfono
+      setting: Kim calls a small hotel in San Sebastián to book a room for a weekend in June. Íñigo answers the phone.
+      speakers: I=Íñigo/m; K=Kim/f
+      lines: |
+        I: Hotel Mar Azul, buenas tardes. | Hotel Mar Azul, good afternoon.
+        K: Hola. Quería reservar una habitación doble. | Hello. I'd like to book a double room.
+        I: ¿Para qué fechas? | For which dates?
+        K: Del viernes doce al domingo catorce. | From Friday the twelfth to Sunday the fourteenth.
+        I: Dos noches, entonces. ¿Cuántas personas son? | Two nights, then. How many people?
+        K: Dos. ¿Cuánto cuesta la habitación? | Two. How much is the room?
+        I: Noventa euros por noche, con desayuno. | Ninety euros a night, with breakfast.
+        K: ¿A qué hora es el desayuno? | What time is breakfast?
+        I: De siete a diez y media. | From seven to half past ten.
+        K: ¿La habitación tiene aire acondicionado? | Does the room have air conditioning?
+        I: Sí, y una terraza con vistas al mar. | Yes, and a balcony with a sea view.
+        K: ¡Genial! Mi nombre es Kim Lee. | Great! My name is Kim Lee.
+    pronunciation:
+      title: "Question words carry the stress"
+      body: |
+        Question words are always **stressed** and written with an accent: *¿QUÉ…?*, *¿DÓNde…?*, *¿CUÁNdo…?* The same words without an accent — *que, donde, cuando, como* — are unstressed linking words inside a sentence.
+
+        Compare *¿Cómo está?* (How are you?) with *Como pescado* (I eat fish): the stressed *cómo* is said more strongly and on a higher note.
+      items: |
+        ¿qué?
+        ¿cuál?
+        ¿dónde?
+        ¿cuándo?
+        ¿cuántas noches?
+        ¿por qué?
+    culture:
+      title: Where to stay in Spain
+      body: |
+        Besides hotels (rated with stars), Spain has **hostales** and **pensiones** — simpler, often family-run places that are usually cheaper. There are also state-run hotels called **paradores**, many of them in historic buildings such as castles and monasteries.
+
+        When you check in, the reception will ask for your passport or ID card: hotels in Spain must register every guest. In some regions, such as Catalonia and the Balearic Islands, there is also a small tourist tax per night.
+    mistakes: |
+      ¿Qué hora es el desayuno? => ¿A qué hora es el desayuno? | "At what time" needs a: ¿A qué hora…?
+      ¿Cuántos noches? => ¿Cuántas noches? | Noche is feminine, so cuántas.
+      ¿Porque no hay toallas? => ¿Por qué no hay toallas? | To ask why, write por qué (two words, accent); porque means because.
+      ¿Qué es su nombre? => ¿Cuál es su nombre? | To ask for a piece of information with ser, use cuál.
+    task:
+      title: Book a room by phone
+      mode: interaction
+      body: |
+        Call a hotel (your partner or the AI coach in the "Booking a hotel room" scenario). Book a room: say the type of room, the dates and the number of people, then ask at least three questions with different question words — price, breakfast time, facilities.
+    exercises: |
+      fill: ¿___ noches quiere? (how many) || Cuántas || Noches is feminine plural: cuántas. || @tags es.question-words
+      fill: ¿___ está el ascensor? (where) || Dónde || Where = dónde, with an accent. || @tags es.question-words
+      fill: ¿___ es su número de pasaporte? (what) || Cuál || To ask for a piece of information with ser, use cuál. || @tags es.question-words
+      mc: Which question asks "why"? || ¿Cuándo? | *¿Por qué? | ¿Porque? || ¿Por qué? (two words, accent) = why; porque = because; cuándo = when. || @tags es.question-words
+      mc: The receptionist asks "¿Para cuántas noches?". She wants to know… || *how many nights you're staying | what time you're arriving | how many people are coming || Noches = nights; cuántas = how many. || @tags es.question-words
+      match: ¿dónde? = where? ; ¿cuándo? = when? ; ¿quién? = who? ; ¿cómo? = how? ; ¿por qué? = why? || Dónde where · cuándo when · quién who · cómo how · por qué why. || @tags es.question-words
+      mc: How much is the room? || €19 a night | *€90 a night, with breakfast | €90 for two nights || "Noventa euros por noche, con desayuno." || @ctx dialogue @skill reading @tags es.reading
+      tf: Kim is booking three nights. || false || From Friday the 12th to Sunday the 14th is two nights: "Dos noches, entonces." || @ctx dialogue
+      rw: Ask the question for this answer :: El desayuno es de siete a diez. || ¿A qué hora es el desayuno? | ¿Cuándo es el desayuno? || Ask about a time with ¿A qué hora…? or ¿Cuándo…? || @tags es.question-words
+      tr: I'd like to book a single room for two nights. || Quería reservar una habitación individual para dos noches. | Quisiera reservar una habitación individual para dos noches. | Quiero reservar una habitación individual para dos noches. || Quería/quisiera + reservar; single room = habitación individual. || @tags es.ordering
+      tr: Is breakfast included? || ¿El desayuno está incluido? | ¿Está incluido el desayuno? | ¿Incluye el desayuno? || Incluido agrees with desayuno (masculine); use estar. || @tags es.questions
+      listen: Su habitación es la veintitrés, en la segunda planta. El ascensor está a la izquierda. || Which floor is the room on? || The first | *The second | The third || "En la segunda planta" — on the second floor. Veintitrés is the room number. || @tags es.numbers
+      dict: Tengo una reserva a nombre de Pablo Ortega.
+      ask: Call a hotel — book a room, give the dates and the number of people, and ask one question about the room or breakfast. || kw: reservar & habitación & noche/noches & cuánto/a qué hora/tiene/incluido || Buenas tardes. Quería reservar una habitación doble para dos noches, del sábado al lunes. ¿Cuánto cuesta? ¿El desayuno está incluido?
+      write: Write a short email to a hotel to book a room — type of room, dates, number of people and one question. || min=35 || req: reservar | habitación | noches | desayuno/aire acondicionado/terraza/aparcamiento || Buenos días: Quería reservar una habitación doble para dos personas, del 3 al 6 de agosto (tres noches). ¿Cuánto cuesta la habitación por noche? ¿El desayuno está incluido? Muchas gracias. Un saludo, Laura Gómez

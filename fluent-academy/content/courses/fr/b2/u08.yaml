@@ -1,0 +1,369 @@
+unit: 8
+title: Et demain ?
+theme: Looking ahead
+description: Speculate about the future, look back on regrets and lessons learned, and give a structured oral presentation, using the futur antérieur, si + plus-que-parfait + conditionnel passé and the signposts of public speaking.
+free: false
+objectives:
+  - Use the futur antérieur for completed future actions, after quand and dès que, and for probability
+  - Express regrets and imagine a different past with si + plus-que-parfait + conditionnel passé
+  - Structure and deliver an oral presentation with clear signposts
+canDo:
+  - I can speculate about what will have changed in my life and in the world in twenty years.
+  - I can talk about a decision I regret, or don't regret, and imagine what would have happened otherwise.
+  - I can draw lessons from past experiences.
+  - I can give a structured presentation on a debated question and answer questions about it.
+review: |
+  fill: D'ici la fin de l'année, nous ___ (terminer) les travaux. || aurons terminé || An action completed before a point in the future: futur antérieur, nous aurons terminé. || @tags fr.futur-simple
+  fill: Dès que vous ___ (recevoir) le code, vous pourrez vous connecter. || aurez reçu || After dès que, an action completed before the main future action: futur antérieur. || @tags fr.futur-simple
+  mc: "Il ne répond pas ? Il ___ son téléphone au bureau." || *aura oublié | aurait oublié | oubliera || The futur antérieur expresses a probability about the past: he must have forgotten. || @tags fr.futur-simple
+  fill: Si j'___ (partir) plus tôt, je n'aurais pas raté le train. || étais parti / étais partie || Imaginary past: si + plus-que-parfait; partir takes être. || @tags fr.si-clauses,fr.plus-que-parfait
+  mc: "Si elle avait fait des études de médecine, elle ___ médecin aujourd'hui." || aurait été | *serait | sera || Past condition, present result (aujourd'hui): conditionnel présent, elle serait. || @tags fr.si-clauses,fr.conditionnel
+  mc: Which sentence is correct? || Si j'aurais su, je serais venue. | *Si j'avais su, je serais venue. | Si j'avais su, je viendrais hier. || Never use the conditional after si; a past result needs the conditionnel passé (je serais venue). || @tags fr.si-clauses
+  rw: Express the regret with "si" :: Je ne t'ai pas écouté, alors je me suis perdu. || Si je t'avais écouté, je ne me serais pas perdu. | Si je t'avais écoutée, je ne me serais pas perdu. | Si je t'avais écouté, je ne me serais pas perdue. | Si je t'avais écoutée, je ne me serais pas perdue. || Si + plus-que-parfait (je t'avais écouté), conditionnel passé (je ne me serais pas perdu). || @tags fr.si-clauses,fr.conditionnel-passe
+  tr: Without your help, I would never have finished. || Sans ton aide, je n'aurais jamais fini. | Sans votre aide, je n'aurais jamais fini. | Sans ton aide, je n'aurais jamais terminé. | Sans votre aide, je n'aurais jamais terminé. || Sans + noun followed by the conditionnel passé imagines a different past. || @tags fr.conditionnel-passe
+  listen: Quand vous aurez fini de lire le document, posez-le sur la table et sortez sans bruit. || What should people do once they have finished reading? || *Put the document on the table and leave quietly | Take the document home with them | Sign the document and hand it in || "Posez-le sur la table et sortez sans bruit." || @tags fr.listening,fr.futur-simple
+  listen: Si seulement j'avais gardé les lettres de ma grand-mère ! Aujourd'hui, je pourrais les lire à mes enfants. || What does the speaker regret? || *Not keeping her grandmother's letters | Not reading enough to her children | Never writing to her grandmother || "Si seulement j'avais gardé les lettres de ma grand-mère !" || @tags fr.listening,fr.si-clauses
+  ask: Speculate about your town in twenty years: what will have changed? || kw: aura/auront/aurons/sera/seront & d'ici/dans vingt ans/en 2045/quand || Dans vingt ans, ma ville aura sûrement changé. On aura planté des arbres partout, et les voitures auront presque disparu du centre. Quand on aura rénové la gare, on pourra aller à Paris en une heure.
+  write: Write a short text (100–120 words) about a decision that changed your life — what would have happened otherwise, and what you hope will have happened in ten years. || min=100 || req: si j'avais/si je n'avais pas/si j'étais/si je n'étais pas | aurais/serais | d'ici/quand j'aurai/une fois que/dès que || À dix-huit ans, j'ai décidé de partir un an en Irlande au lieu de commencer mes études. Mes parents étaient inquiets. Pourtant, si je n'étais pas partie, je n'aurais jamais découvert le métier de guide, et je ne parlerais pas anglais aussi bien aujourd'hui. Si j'avais écouté tout le monde, je serais restée à Bordeaux, dans une école que je n'aimais pas. Je ne regrette rien. D'ici dix ans, j'espère que j'aurai créé ma propre agence de voyages. Et quand j'aurai assez d'expérience, je formerai à mon tour de jeunes guides.
+lessons:
+  - title: Predictions and speculation
+    summary: Write letters to your future self with friends, speculate about the world in twenty years, and use the futur antérieur for completed future actions and for probability.
+    minutes: 45
+    skills: [listening, grammar, writing]
+    tags: [fr.futur-simple]
+    objectives:
+      - Make predictions and speculate about the future with nuance
+      - Form the futur antérieur and use it for actions completed by a future point
+      - Use it after quand, dès que and une fois que, and to express probability about the past
+    intro: |
+      What will your life look like in twenty years? Speculating about the future often means imagining what **will have happened** by then: *d'ici là, j'aurai changé trois fois de métier*. French uses the **futur antérieur** for this — and also in places where English uses a present tense (*when you've read this letter…*) or a modal (*she must have missed her bus*).
+    vocab: |
+      une capsule temporelle | a time capsule | n | Nous avons enterré une capsule temporelle sous le chêne. | We buried a time capsule under the oak tree. | g: f
+      d'ici là | by then; between now and then | expr | D'ici là, beaucoup de choses auront changé. | By then, many things will have changed.
+      prédire | to predict | v | Personne ne peut prédire l'avenir. | Nobody can predict the future. | n: Vous prédisez (not prédites). Une prédiction.
+      une prévision | a forecast | n | Les prévisions pour 2050 sont incertaines. | The forecasts for 2050 are uncertain. | g: f
+      spéculer | to speculate | v | On peut spéculer, mais rien n'est sûr. | We can speculate, but nothing is certain.
+      à l'horizon | by; looking ahead to | expr | À l'horizon 2050, la ville veut supprimer les voitures du centre. | By 2050, the city wants to remove cars from the centre. | n: Followed by a year: à l'horizon 2040.
+      la quarantaine | about forty; one's forties | n | Nous aurons tous la quarantaine. | We'll all be in our forties. | g: f | n: Also quarantine.
+      enterrer | to bury | v | On enterre la boîte sous le grand chêne. | We're burying the box under the big oak tree.
+      un cadenas | a padlock | n | N'oublie pas le cadenas ! | Don't forget the padlock! | g: m | n: The final s is silent.
+      partagé | shared | adj | Les transports partagés vont se développer. | Shared transport is going to develop. | n: Feminine: partagée.
+      du moins | at least | expr | Les voitures auront disparu, du moins en ville. | Cars will have disappeared, at least in cities.
+      aucun risque | no danger of that | expr | — Et si on oubliait l'endroit ? — Aucun risque ! | — What if we forgot the place? — No danger of that!
+    grammar:
+      title: "The futur antérieur: what will have happened"
+      body: |
+        The **futur antérieur** is formed with **avoir** or **être** in the futur simple + the **past participle**: *j'**aurai** appris, tu **auras** changé, elle **sera** partie, nous **nous serons** revus.* Auxiliary choice and agreement follow the rules of the passé composé.
+
+        It has three uses:
+
+        - **An action completed before a point in the future**, often with *d'ici là, dans vingt ans, en 2050*: *D'ici là, j'**aurai** sûrement **changé** trois fois de métier.*
+        - **After quand, lorsque, dès que, aussitôt que, une fois que** when that action will be finished before the main future action: *Quand les machines **auront appris** à traduire, on **aura** encore envie de se parler.* English uses a present or present perfect here (*when machines have learnt*); French needs a future tense. The main clause is in the futur simple or the imperative: *Dès que tu **auras fini**, appelle-moi.*
+        - **Probability about the past**: *Elle **aura raté** son bus* = she has probably missed her bus (like *elle a dû rater son bus*).
+      table: |
+        Verb | Futur simple | Futur antérieur
+        apprendre | j'apprendrai | j'aurai appris
+        changer | tu changeras | tu auras changé
+        partir | elle partira | elle sera partie
+        signer | nous signerons | nous aurons signé
+        se revoir | nous nous reverrons | nous nous serons revus
+      examples: |
+        D'ici 2040, la ville aura planté cinquante mille arbres. | By 2040, the city will have planted fifty thousand trees. | completed by a future date
+        Une fois que tout le monde aura signé, on enterrera la boîte. | Once everyone has signed, we'll bury the box. | une fois que
+        Appelle-moi dès que tu seras arrivé. | Call me as soon as you've arrived. | dès que + imperative
+        Il n'est pas là ? Il aura oublié l'heure. | He isn't here? He must have forgotten the time. | probability
+      tip: "With a future main clause, don't use the passé composé after quand: Quand tu auras lu cette lettre, tu sauras… (not quand tu as lu)."
+    dialogue:
+      title: La capsule temporelle
+      setting: A park in Nantes on the last day of their master's degree. Clémentine, Naïm and Basile are preparing a time capsule with letters to their future selves.
+      speakers: C=Clémentine/f; N=Naïm/m; B=Basile/m
+      lines: |
+        C: Bon, on met nos lettres dans la boîte, et on l'ouvrira dans vingt ans, quand on aura tous la quarantaine. | Right, we put our letters in the box, and we'll open it in twenty years, when we're all in our forties.
+        N: Dans vingt ans ! D'ici là, j'aurai sûrement changé trois fois de métier. | Twenty years! By then I'll probably have changed jobs three times.
+        B: Moi, j'espère que j'aurai enfin appris à jouer du piano. Je le dis depuis le lycée ! | I hope I'll finally have learnt to play the piano. I've been saying it since secondary school!
+        C: Et le monde, à votre avis, à quoi il ressemblera ? Qu'est-ce qui aura changé ? | And the world — what do you think it will look like? What will have changed?
+        N: Je pense qu'on aura remplacé une bonne partie des voitures par des transports partagés, du moins en ville. | I think we'll have replaced a good share of cars with shared transport, at least in cities.
+        B: Et les langues ? Avec les traducteurs automatiques, on n'en apprendra peut-être plus aucune. | And languages? With machine translation, maybe we won't learn any at all.
+        C: J'en doute. Même quand les machines auront appris à traduire parfaitement, on aura encore envie de se parler directement. | I doubt it. Even when machines have learnt to translate perfectly, we'll still want to talk to each other directly.
+        N: Au fait, où est Maëlys ? C'est elle qui devait apporter le cadenas. | By the way, where's Maëlys? She was the one who was supposed to bring the padlock.
+        B: Elle aura raté son bus, comme d'habitude. Elle arrivera dès qu'elle aura trouvé un vélo. | She'll have missed her bus, as usual. She'll get here as soon as she's found a bike.
+        C: Bon, une fois que tout le monde aura signé, on enterrera la boîte sous le grand chêne. | OK, once everyone has signed, we'll bury the box under the big oak tree.
+        N: Et si on ne retrouve plus l'endroit dans vingt ans ? | And what if we can't find the spot in twenty years?
+        B: Aucun risque : d'ici là, on aura noté les coordonnées GPS dans nos téléphones… s'ils existent encore ! | No danger: by then we'll have saved the GPS coordinates in our phones… if they still exist!
+    pronunciation:
+      title: "nous aurons appris, ils auront oublié"
+      body: |
+        After *nous, vous, ils* and *elles*, the liaison with the auxiliary is compulsory: *nous aurons appris* [nu.zo.ʁɔ̃.za.pʁi], *ils auront oublié* [il.zo.ʁɔ̃.tu.bli.je]. The liaison between the auxiliary and the participle (*aurons‿appris, auront‿oublié*) is optional but frequent in careful speech.
+
+        Be careful with *j'aurai* [ʒo.ʁe] (future) and *j'aurais* [ʒo.ʁɛ] (conditional): in standard French the endings differ slightly, [e] versus [ɛ], although many speakers pronounce them the same.
+      items: |
+        nous aurons appris
+        ils auront oublié
+        quand tu auras fini
+        dès qu'elle sera arrivée
+        d'ici là
+        une capsule temporelle
+    mistakes: |
+      Quand tu as lu cette lettre, tu sauras la vérité. => Quand tu auras lu cette lettre, tu sauras la vérité. | With a future main clause, an action completed first takes the futur antérieur after quand.
+      Elle aura parti avant nous. => Elle sera partie avant nous. | Partir takes être in compound tenses, and the participle agrees.
+      Dès que j'aurai fini, je t'appellerais. => Dès que j'aurai fini, je t'appellerai. | The main clause is in the futur simple (-ai), not the conditional (-ais).
+    task:
+      title: A letter to your future self
+      mode: writing
+      body: |
+        Write a letter (about 120 words) to the person you will be in twenty years, to be opened at a reunion with friends. Say what you hope you will have done by then, what will probably have changed in the world, and what you want your future self to do once they have read the letter. Use at least five futurs antérieurs, including one after *quand* or *dès que*.
+    exercises: |
+      fill: D'ici 2040, nous ___ (changer) notre façon de travailler. || aurons changé || Completed before a future date: futur antérieur, nous aurons changé. || @tags fr.futur-simple
+      fill: Appelle-moi dès que tu ___ (arriver) à la gare. || seras arrivé / seras arrivée || After dès que, the futur antérieur; arriver takes être. || @tags fr.futur-simple,fr.past-participle-agreement
+      fill: Une fois que vous ___ (signer), nous enterrerons la boîte. || aurez signé || Une fois que + futur antérieur: the signing will be finished first. || @tags fr.futur-simple
+      mc: "Elle n'est pas encore là ? Elle ___ son bus." (a guess) || a raté | *aura raté | raterait || The futur antérieur expresses a probability about the past: she must have missed her bus. || @tags fr.futur-simple
+      mc: "Quand tu ___ cette lettre, tu comprendras tout." || as lu | *auras lu | lirais || The reading will be finished before the understanding, in the future: quand + futur antérieur. || @tags fr.futur-simple
+      tf: Naïm thinks he will still have the same job in twenty years. || false || "D'ici là, j'aurai sûrement changé trois fois de métier." || @ctx dialogue
+      short: Where will they bury the box? || kw: chêne/oak/arbre/tree || "On enterrera la boîte sous le grand chêne." || @ctx dialogue
+      listen: @dialogue || According to Basile, why is Maëlys late? || *She has probably missed her bus | She forgot the padlock at home | She doesn't want to come || "Elle aura raté son bus, comme d'habitude" — the futur antérieur of probability. || @tags fr.listening,fr.futur-simple
+      listen: À l'horizon 2050, la moitié des toits de la ville auront été couverts de panneaux solaires. || What will have happened by 2050? || *Half the roofs in the city will have been covered with solar panels | All the roofs in the city will have been planted with gardens | The city will have built two thousand and fifty solar farms || "La moitié des toits… auront été couverts de panneaux solaires" — a futur antérieur in the passive. || @tags fr.listening,fr.futur-simple
+      rw: Express the guess with the futur antérieur :: Il a probablement oublié notre rendez-vous. || Il aura oublié notre rendez-vous. || Probability about the past: futur antérieur (il aura oublié). || @tags fr.futur-simple
+      tr: When you've finished, call me. || Quand tu auras fini, appelle-moi. | Dès que tu auras fini, appelle-moi. | Lorsque tu auras fini, appelle-moi. | Quand vous aurez fini, appelez-moi. | Dès que vous aurez fini, appelez-moi. | Lorsque vous aurez fini, appelez-moi. || English present perfect after when = futur antérieur in French. || @tags fr.futur-simple
+      dict: D'ici là, j'aurai sûrement appris à jouer du piano. || j'aurai appris
+      ask: What will have changed in your life in ten years? Speculate, using the futur antérieur. || kw: aurai/aura/aurons/aurez/auront/serai/sera/serons/seront & d'ici/dans dix ans/quand/dès que/une fois que || Dans dix ans, j'aurai sans doute déménagé dans une autre ville, et j'aurai peut-être eu des enfants. Quand j'aurai fini de rembourser mon prêt, je voyagerai davantage.
+
+  - title: Regrets and lessons learned
+    summary: Read a letter a woman writes to her twenty-year-old self, express regrets with si + plus-que-parfait + conditionnel passé, and draw lessons from experience.
+    minutes: 50
+    skills: [reading, grammar, writing]
+    tags: [fr.si-clauses, fr.conditionnel-passe]
+    objectives:
+      - Imagine a different past with si + plus-que-parfait + conditionnel passé
+      - Link a past condition to a present result (si j'avais…, je serais aujourd'hui…)
+      - Express regrets with si seulement, sans + noun and je regrette de ne pas avoir…
+    intro: |
+      "If I had known…": everyone has wondered what their life would have been like if they had made a different choice. To imagine a **different past**, French uses **si + plus-que-parfait** with the **conditionnel passé** — the last piece of the *si*-clause system you started in A2 and B1. It is also the language of **lessons learned**: looking back without bitterness, and seeing what a failure made possible.
+    vocab: |
+      un regret | a regret | n | Je n'ai aucun regret. | I have no regrets. | g: m | n: Regretter de + infinitive; regretter que + subjunctive.
+      un échec | a failure | n | Cet échec m'a beaucoup appris. | That failure taught me a lot. | g: m | n: The final c is pronounced [e.ʃɛk].
+      rater | to fail; to miss | v | Elle a raté son concours d'entrée. | She failed her entrance exam. | n: Informal; formal equivalents: échouer à, manquer.
+      un concours | a competitive exam; a contest | n | Il faut réussir un concours pour entrer dans cette école. | You have to pass a competitive exam to get into this school. | g: m
+      avec le recul | with hindsight | expr | Avec le recul, c'était la bonne décision. | With hindsight, it was the right decision.
+      changer de voie | to change direction; to change careers | expr | À trente-cinq ans, elle a décidé de changer de voie. | At thirty-five, she decided to change careers.
+      oser | to dare | v | Si j'avais osé, je lui aurais parlé. | If I had dared, I would have spoken to him.
+      serein | calm; at peace | adj | Je suis plus sereine aujourd'hui. | I'm more at peace today. | n: Feminine: sereine. La sérénité.
+      l'entêtement | stubbornness | n | Son entêtement a fini par payer. | Her stubbornness paid off in the end. | g: m | n: Têtu = stubborn.
+      tirer une leçon de | to learn a lesson from | expr | Quelles leçons as-tu tirées de cette expérience ? | What lessons did you learn from this experience?
+      si seulement | if only | expr | Si seulement je l'avais su ! | If only I had known!
+      une librairie | a bookshop | n | Nous avons ouvert une petite librairie. | We opened a little bookshop. | g: f | n: False friend: a library is une bibliothèque.
+    grammar:
+      title: "Regrets: si + plus-que-parfait + conditionnel passé"
+      body: |
+        To imagine a **different past**, French uses **si + plus-que-parfait** for the condition and the **conditionnel passé** for the result: *Si tu **avais réussi** ce concours, tu ne **serais** jamais **partie** à Montréal.* Neither part actually happened.
+
+        This completes the *si*-clause system:
+        - *si* + présent → futur: a real possibility (*Si tu oses, tu réussiras.*)
+        - *si* + imparfait → conditionnel présent: an imaginary present (B1)
+        - *si* + plus-que-parfait → conditionnel passé: an imaginary past
+
+        In a **mixed** sentence, the condition is in the past and the result in the **present**: *si* + plus-que-parfait → **conditionnel présent**: *Si j'avais osé plus tôt, je **serais** plus sereine **aujourd'hui**.*
+
+        Other ways to express a regret:
+        - **si seulement** + plus-que-parfait: *Si seulement quelqu'un me l'avait dit !*
+        - **sans** + noun + conditionnel passé: *Sans ta curiosité, je n'aurais jamais appris l'espagnol.*
+        - **je regrette de ne pas avoir** + participle: *Je regrette de ne pas avoir assez appelé ma grand-mère.*
+
+        Never use the conditional after *si*: ~~si j'aurais su~~ → *si j'avais su*.
+      table: |
+        Condition | Result | Meaning
+        si + présent | futur | Si tu travailles, tu réussiras. (real)
+        si + imparfait | conditionnel présent | Si j'avais le temps, j'apprendrais le piano. (imaginary present)
+        si + plus-que-parfait | conditionnel passé | Si j'avais su, je serais venu. (imaginary past)
+        si + plus-que-parfait | conditionnel présent | Si j'avais fait médecine, je serais médecin aujourd'hui. (past → present)
+        si seulement + plus-que-parfait | — | Si seulement je l'avais écouté !
+        sans + noun | conditionnel passé | Sans toi, je n'aurais pas réussi.
+      examples: |
+        Si j'avais écouté mon intuition, j'aurais quitté ce poste plus tôt. | If I had listened to my intuition, I would have left that job sooner. | imaginary past
+        Si nous étions partis à l'heure, nous n'aurions pas raté le train. | If we had left on time, we wouldn't have missed the train. | verb with être
+        Si elle avait accepté ce poste, elle vivrait à Lyon aujourd'hui. | If she had accepted that job, she would be living in Lyon today. | mixed: past → present
+        Sans ton aide, je n'aurais jamais fini ce dossier. | Without your help, I would never have finished this file. | sans + noun
+      tip: "Si j'aurais su is a classic mistake — so classic that it is used as a joke in French films. After si, never the conditional: si j'avais su."
+    reading:
+      title: Lettre à mes vingt ans
+      text: |
+        Chère moi de vingt ans,
+
+        Tu ne me croiras pas, mais j'ai aujourd'hui cinquante ans, et j'ai plusieurs choses à te dire.
+
+        D'abord, tu vas rater ton concours d'architecture. Tu en pleureras pendant des semaines. Pourtant, si tu l'avais réussi, tu ne serais jamais partie à Montréal, et tu n'aurais jamais rencontré Samuel. Avec le recul, cet échec est la meilleure chose qui te soit arrivée.
+
+        Ensuite, tu vas passer dix ans dans une banque, parce que c'était un emploi « sûr ». Si j'avais écouté mon intuition, j'aurais quitté ce poste bien plus tôt. Si seulement quelqu'un m'avait dit qu'on a le droit de changer de voie à trente-cinq ans ! Si j'avais osé plus tôt, je serais sans doute plus sereine aujourd'hui.
+
+        Je regrette aussi une chose plus simple : ne pas avoir assez appelé grand-mère. Tu penses qu'elle sera toujours là. Si j'avais su que le temps passait si vite, je serais allée la voir chaque dimanche, et elle m'aurait appris ses recettes.
+
+        Mais ne crois pas que tout soit raté. Au contraire. Sans ta curiosité, je n'aurais jamais appris l'espagnol. Sans ton entêtement, nous n'aurions pas ouvert notre petite librairie, qui fête ses dix ans cette année.
+
+        Alors voici les leçons que j'en ai tirées. Un échec n'est pas une fin. Une erreur, c'est une information. Et les regrets les plus lourds ne concernent presque jamais ce qu'on a fait, mais ce qu'on n'a pas osé faire.
+
+        Fais des erreurs, ma grande. Mais fais-les avec courage.
+
+        Je t'embrasse,
+        Toi, trente ans plus tard
+      translation: |
+        Dear twenty-year-old me,
+
+        You won't believe me, but I'm fifty today, and I have a few things to tell you.
+
+        First, you're going to fail your architecture entrance exam. You'll cry about it for weeks. And yet, if you had passed it, you would never have gone to Montreal, and you would never have met Samuel. With hindsight, that failure is the best thing that ever happened to you.
+
+        Then you're going to spend ten years in a bank, because it was a "safe" job. If I had listened to my intuition, I would have left that job much sooner. If only someone had told me that you're allowed to change careers at thirty-five! If I had dared sooner, I would probably be more at peace today.
+
+        I also regret something simpler: not calling Grandma enough. You think she'll always be there. If I had known that time went by so fast, I would have gone to see her every Sunday, and she would have taught me her recipes.
+
+        But don't think it's all been a failure. Quite the opposite. Without your curiosity, I would never have learnt Spanish. Without your stubbornness, we wouldn't have opened our little bookshop, which celebrates its tenth anniversary this year.
+
+        So here are the lessons I've learnt. A failure isn't an end. A mistake is a piece of information. And the heaviest regrets are almost never about what we did, but about what we didn't dare to do.
+
+        Make mistakes, my dear. But make them with courage.
+
+        Love,
+        You, thirty years later
+    pronunciation:
+      title: "Si j'avais su, je serais venue"
+      body: |
+        In a *si*-clause, the voice **rises** at the end of the condition and **falls** at the end of the result: *Si j'avais su* ↗, *je serais venue* ↘. A short pause after the condition makes the sentence clearer.
+
+        In *un échec* [œ̃.ne.ʃɛk], the liaison is compulsory and the final **c** is pronounced. In *j'aurais quitté* [ʒo.ʁɛ.ki.te], keep the open [ɛ] of the conditional.
+      items: |
+        Si j'avais su, je serais venue.
+        si seulement
+        j'aurais quitté ce poste
+        elle m'aurait appris
+        avec le recul
+        un échec
+    mistakes: |
+      Si j'aurais su, je serais venu. => Si j'avais su, je serais venu. | After si, never use the conditional: si + plus-que-parfait.
+      Si j'avais su, je viendrais hier. => Si j'avais su, je serais venu hier. | The result is in the past (hier), so it needs the conditionnel passé.
+      Je regrette de ne pas appeler assez ma grand-mère. (about the past) => Je regrette de ne pas avoir assez appelé ma grand-mère. | To regret something in the past, use the past infinitive: ne pas avoir + participle.
+    task:
+      title: A letter to your younger self
+      mode: writing
+      body: |
+        Write a letter (about 150 words) to yourself at a younger age, in the style of the reading. Mention one failure that turned out well, one real regret and one lesson you have learnt. Use at least three *si*-clauses with the plus-que-parfait — including one mixed sentence with a present result — and one sentence with *sans* + noun.
+    exercises: |
+      fill: Si j'___ (savoir), je serais venu plus tôt. || avais su || Imaginary past: si + plus-que-parfait, j'avais su. || @tags fr.si-clauses,fr.plus-que-parfait
+      fill: Si nous avions pris le train, nous ___ (arriver) à l'heure. || serions arrivés / serions arrivées || Result of an imaginary past: conditionnel passé; arriver takes être. || @tags fr.si-clauses,fr.conditionnel-passe
+      fill: Sans ton aide, je n'___ jamais ___ (réussir). || aurais ; réussi || Sans + noun + conditionnel passé, with ne… jamais around the auxiliary. || @tags fr.conditionnel-passe
+      mc: "Si elle avait accepté ce poste, elle ___ à Lyon aujourd'hui." || aurait vécu | *vivrait | vivra || Past condition, present result (aujourd'hui): conditionnel présent. || @tags fr.si-clauses,fr.conditionnel
+      mc: Which sentence is correct? || Si j'aurais su, je ne serais pas venu. | *Si j'avais su, je ne serais pas venu. | Si je savais, je ne serais pas venu. || Si + plus-que-parfait, then conditionnel passé. No conditional after si. || @tags fr.si-clauses
+      mc: Why does the author now see her exam failure as a good thing? || *It led her to Montreal, where she met Samuel | She became an architect anyway, a year later | It made her decide to work in a bank || "Si tu l'avais réussi, tu ne serais jamais partie à Montréal, et tu n'aurais jamais rencontré Samuel." || @ctx reading @tags fr.reading
+      tf: The author thinks she stayed in her bank job longer than she should have. || true || "Si j'avais écouté mon intuition, j'aurais quitté ce poste bien plus tôt." || @ctx reading
+      short: What would her grandmother have taught her? || kw: recettes/recette/recipes/recipe/cuisine/cooking || "Elle m'aurait appris ses recettes." || @ctx reading
+      listen: Si j'avais commencé l'espagnol plus jeune, je le parlerais couramment aujourd'hui… mais il n'est jamais trop tard ! || What does the speaker regret? || *Not starting Spanish when they were younger | Never going to Spain | Giving up Spanish lessons || "Si j'avais commencé l'espagnol plus jeune…" — a mixed sentence with a present result. || @tags fr.listening,fr.si-clauses
+      rw: Express the regret with "si" :: Je n'ai pas révisé, alors j'ai raté l'examen. || Si j'avais révisé, je n'aurais pas raté l'examen. | Si j'avais révisé, j'aurais réussi l'examen. || Si + plus-que-parfait (j'avais révisé), conditionnel passé (je n'aurais pas raté). || @tags fr.si-clauses,fr.conditionnel-passe
+      tr: If only I had dared! || Si seulement j'avais osé ! || Si seulement + plus-que-parfait expresses a regret. || @tags fr.si-clauses
+      dict: Avec le recul, cet échec est la meilleure chose qui me soit arrivée. || avec le recul
+      ask: Talk about a decision you regret — or don't regret — and imagine what would have happened otherwise. || kw: si j'avais/si je n'avais pas/si j'étais/si je n'étais pas & aurais/serais/aurait/serait || Je ne regrette pas d'avoir arrêté le droit. Si j'avais continué, je serais sans doute avocate, mais je n'aurais jamais découvert la photographie, qui est aujourd'hui mon métier.
+
+  - title: Presenting an argument
+    summary: Rehearse an oral presentation on daylight saving time with a teacher, and structure a talk with clear signposts, hypotheses and a conclusion.
+    minutes: 50
+    skills: [speaking, listening, grammar]
+    tags: [fr.opinion, fr.connectors]
+    objectives:
+      - Announce a question and a plan, and move clearly from one part to the next
+      - Use si-clauses and the futur antérieur to explore hypotheses and frame a talk
+      - Answer objections and conclude with a personal position
+    intro: |
+      The French school system values the *exposé* and, since 2021, every baccalauréat student sits the *Grand oral*. At B2, you should be able to present a debated question for a few minutes, with a clear plan, examples, hypotheses and a conclusion. Listeners can't go back as readers can, so **signposts** — *dans un premier temps, j'en viens maintenant à, pour conclure* — are essential.
+    vocab: |
+      un exposé | a presentation; a talk | n | Elle prépare un exposé de dix minutes. | She's preparing a ten-minute presentation. | g: m | c: faire un exposé; un exposé oral
+      le jury | the examining panel | n | Le jury pose des questions après l'exposé. | The panel asks questions after the presentation. | g: m
+      une épreuve | an exam; a test | n | L'épreuve dure vingt minutes. | The exam lasts twenty minutes. | g: f
+      annoncer son plan | to outline one's structure | expr | Pensez à annoncer votre plan dès l'introduction. | Remember to outline your structure in the introduction.
+      une transition | a transition | n | Cette phrase fait une bonne transition. | This sentence makes a good transition. | g: f
+      l'heure d'été | summer time; daylight saving time | n | On passe à l'heure d'été fin mars. | We switch to summer time at the end of March. | g: f | n: The opposite is l'heure d'hiver.
+      le choc pétrolier | the oil crisis | n | Le choc pétrolier de 1973 a tout changé. | The 1973 oil crisis changed everything. | g: m
+      voir le jour | to come into being | expr | Ce projet n'aurait jamais vu le jour sans elle. | This project would never have come into being without her.
+      perturber | to disrupt; to disturb | v | Le changement d'heure perturbe le sommeil. | The clock change disrupts sleep.
+      trancher | to decide; to settle (a question) | v | Il faudra bien trancher un jour. | A decision will have to be made one day. | n: Literally to slice.
+      être favorable à | to be in favour of | expr | Je suis favorable à une heure fixe. | I'm in favour of a fixed time.
+      en attendant | in the meantime | expr | En attendant, on continue de changer d'heure. | In the meantime, we keep changing the clocks.
+    grammar:
+      title: "Presenting an argument: signposts, hypotheses and conclusion"
+      body: |
+        An oral presentation needs **signposts** so that the audience can follow:
+
+        - **Announcing the question and the plan**: *Ma question est la suivante : … Dans un premier temps, je rappellerai… ; dans un second temps, j'analyserai… ; enfin, je proposerai…*
+        - **Moving on**: *J'en viens maintenant à… / Passons à… / Cela m'amène à…*
+        - **Illustrating**: *Prenons l'exemple de… / C'est le cas de…*
+        - **Answering an objection**: *On pourrait me répondre que… C'est un vrai argument ; néanmoins…*
+        - **Concluding**: *Pour conclure… / Si je devais résumer en une phrase, je dirais que…*
+
+        The tenses of this unit help you frame a talk: the **futur** to announce (*je rappellerai, j'analyserai*), the **futur antérieur** to promise a result (*À la fin de cet exposé, vous **aurez compris** pourquoi…*), and **si-clauses** to explore hypotheses — about the present or future (*Si on **supprimait** le changement d'heure, quelle heure **garderait**-on ?*) or about the past (*Sans le choc pétrolier, cette mesure n'**aurait** jamais **vu** le jour*).
+      table: |
+        Function | Expressions | Example
+        announce | dans un premier temps / dans un second temps / enfin | Dans un premier temps, je rappellerai l'origine de la mesure.
+        move on | j'en viens maintenant à / passons à / cela m'amène à | J'en viens maintenant aux arguments actuels.
+        illustrate | prenons l'exemple de / c'est le cas de | Prenons l'exemple de l'Espagne.
+        hypothesis | si + imparfait → conditionnel / si + plus-que-parfait → conditionnel passé | Si on supprimait le changement, on garderait une seule heure.
+        answer an objection | c'est un vrai argument ; néanmoins… | C'est un vrai argument ; néanmoins, il a ses limites.
+        conclude | pour conclure / si je devais résumer | Pour conclure, je suis favorable à une heure fixe.
+      examples: |
+        À la fin de cet exposé, vous aurez compris pourquoi ce débat divise l'Europe. | By the end of this talk, you'll have understood why this debate divides Europe. | futur antérieur
+        J'en viens maintenant à la deuxième partie de mon exposé. | I now come to the second part of my talk. | moving on
+        Si l'heure d'hiver était gardée toute l'année, il ferait nuit plus tôt en été. | If winter time were kept all year, it would get dark earlier in summer. | hypothesis
+        Si je devais résumer en une phrase, je dirais que tout est une question d'équilibre. | If I had to sum up in one sentence, I'd say it's all a question of balance. | conclusion
+      tip: "Announce your plan in the introduction and repeat the signposts during the talk: listeners can't scroll back as readers can."
+    dialogue:
+      title: Répétition pour le grand oral
+      setting: A secondary school classroom in Clermont-Ferrand. Anaïs, in her final year, rehearses her oral exam with her teacher, M. Lacombe.
+      speakers: L=M. Lacombe/m; A=Anaïs/f
+      lines: |
+        L: Anaïs, c'est à vous. Vous avez dix minutes pour présenter votre sujet, puis nous en discuterons. | Anaïs, it's your turn. You have ten minutes to present your topic, then we'll discuss it.
+        A: Merci. Faut-il arrêter de changer d'heure ? Dans un premier temps, je rappellerai pourquoi la France a adopté l'heure d'été en 1976. | Thank you. Should we stop changing the clocks? First, I will recall why France adopted summer time in 1976.
+        L: Le plan s'annonce clair, c'est bien. Mais regardez le jury plutôt que vos notes. Allez-y. | Your plan sounds clear, that's good. But look at the panel rather than your notes. Go on.
+        A: À l'époque, on voulait économiser de l'énergie. Sans le choc pétrolier, cette mesure n'aurait sans doute jamais vu le jour. | At the time, people wanted to save energy. Without the oil crisis, this measure would probably never have come into being.
+        L: Bonne transition historique. Et aujourd'hui, l'argument des économies tient-il toujours ? | Good historical transition. And today, does the energy-saving argument still hold?
+        A: J'en viens justement à la situation actuelle : selon plusieurs études, les économies d'énergie sont devenues très faibles. | That's exactly what I'm coming to: according to several studies, the energy savings have become very small.
+        L: Et qu'est-ce que vous répondez à ceux qui défendent les longues soirées d'été ? | And what do you say to those who defend long summer evenings?
+        A: Que c'est un vrai argument. Néanmoins, le changement d'heure perturbe le sommeil de beaucoup de gens, surtout des enfants. | That it's a real argument. Nevertheless, the clock change disrupts many people's sleep, especially children's.
+        L: Et si on supprimait le changement, quelle heure garderait-on ? C'est la question que le jury vous posera. | And if we abolished the change, which time would we keep? That's the question the panel will ask you.
+        A: Justement, c'est ma dernière partie : en 2018, l'Union européenne a lancé le débat, mais les pays ont eu du mal à s'accorder. | That's my last part: in 2018 the European Union launched the debate, but the countries struggled to agree.
+        L: Parfait. Et pour conclure ? Le jury voudra savoir ce que vous pensez, vous. | Perfect. And to conclude? The panel will want to know what you yourself think.
+        A: Pour conclure, d'ici quelques années, l'Europe aura peut-être tranché. En attendant, je suis favorable à une heure fixe. | To conclude, in a few years Europe may have made a decision. In the meantime, I'm in favour of a fixed time.
+    pronunciation:
+      title: Pace and pauses in a presentation
+      body: |
+        In a presentation, speak a little more slowly than in conversation and pause after each signpost: *Dans un premier temps,* | *je rappellerai…* Stress the key word of each part and let your voice fall at the end of each idea.
+
+        In a question with inversion, link the verb and the pronoun with a [t]: *garderait-on* [ɡaʁ.də.ʁɛ.tɔ̃]. In *heure d'été* [œʁ.de.te], don't forget the [ʁ] at the end of *heure*.
+      items: |
+        dans un premier temps
+        j'en viens maintenant à
+        pour conclure
+        si je devais résumer
+        l'heure d'été
+        Si on supprimait le changement d'heure, quelle heure garderait-on ?
+    culture:
+      title: Le grand oral du bac
+      body: |
+        Since 2021, the French baccalauréat has included a *Grand oral*: a twenty-minute oral exam in front of a panel of two teachers. Students present a question they have prepared during the year, without reading their notes, then answer the panel's questions, and finally explain how the question connects to their plans for the future. Teachers now spend more time training pupils to speak in public — a skill long considered less important than writing in French schools.
+    mistakes: |
+      En premier temps, je présenterai le problème. => Dans un premier temps, je présenterai le problème. | The fixed expression is dans un premier temps.
+      Si on supprimerait le changement d'heure, on dormirait mieux. => Si on supprimait le changement d'heure, on dormirait mieux. | After si, use the imparfait, never the conditional.
+      J'en viens maintenant de la deuxième partie. => J'en viens maintenant à la deuxième partie. | The expression is en venir à: j'en viens à…
+    task:
+      title: Your five-minute presentation
+      mode: speaking
+      body: |
+        Choose a debated question (*Faut-il arrêter de changer d'heure ? Faut-il apprendre à coder à l'école ? La semaine de quatre jours est-elle l'avenir ?*). Prepare a five-minute presentation: introduce the question and your plan, develop two or three parts with signposts, include one hypothesis with *si* and one objection, and end with your position. Record yourself, then defend your conclusion in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: Dans un premier ___, je présenterai l'origine du problème. || temps || Fixed expression: dans un premier temps, dans un second temps. || @tags fr.connectors
+      fill: J'en ___ maintenant à la deuxième partie de mon exposé. || viens || En venir à: j'en viens à = I now come to. || @tags fr.connectors
+      fill: À la fin de cet exposé, vous ___ (comprendre) pourquoi ce débat divise l'Europe. || aurez compris || Completed by a future point (the end of the talk): futur antérieur. || @tags fr.futur-simple
+      mc: "Si on ___ le changement d'heure, quelle heure garderait-on ?" || supprimerait | *supprimait | supprime || Imaginary situation: si + imparfait, conditionnel in the main clause. || @tags fr.si-clauses
+      mc: Which expression introduces a conclusion? || Passons à… | *Si je devais résumer en une phrase… | Prenons l'exemple de… || Si je devais résumer introduces a summary; the others move on or illustrate. || @tags fr.connectors
+      tf: According to Anaïs, France adopted summer time in 1976. || true || "Je rappellerai pourquoi la France a adopté l'heure d'été en 1976." || @ctx dialogue
+      short: What does M. Lacombe advise Anaïs to do instead of reading her notes? || kw: regarder/look/jury/panel || "Regardez le jury plutôt que vos notes." || @ctx dialogue
+      listen: @dialogue || What is Anaïs's personal position at the end? || *She is in favour of a fixed time all year round | She wants to keep changing the clocks | She thinks each country should decide alone || "En attendant, je suis favorable à une heure fixe." || @tags fr.listening
+      listen: Si vous parlez aussi clairement le jour de l'épreuve, vous aurez convaincu le jury en dix minutes. || What does the teacher mean? || *If Anaïs speaks this clearly in the exam, she will convince the panel | Anaïs has already convinced the panel | Anaïs will need more than ten minutes || Si + présent, then futur antérieur: the result will be complete by the end of the ten minutes. || @tags fr.listening,fr.futur-simple
+      rw: Rewrite the sentence with "sans" :: Si la crise n'avait pas eu lieu, cette mesure n'aurait pas vu le jour. || Sans la crise, cette mesure n'aurait pas vu le jour. | Sans cette crise, cette mesure n'aurait pas vu le jour. || Sans + noun can replace a si-clause in the plus-que-parfait; the result stays in the conditionnel passé. || @tags fr.si-clauses,fr.conditionnel-passe
+      tr: I now come to the last part of my presentation. || J'en viens maintenant à la dernière partie de mon exposé. | J'en viens maintenant à la dernière partie de ma présentation. | Passons maintenant à la dernière partie de mon exposé. | Passons maintenant à la dernière partie de ma présentation. || I now come to = j'en viens maintenant à (or passons à). || @tags fr.connectors
+      dict: Si je devais résumer en une phrase, je dirais que tout est une question d'équilibre. || si je devais résumer
+      ask: Give the introduction of a short presentation on a topic of your choice — state the question and announce your plan. || kw: dans un premier temps/tout d'abord/d'abord/premièrement & ensuite/dans un second temps/puis/enfin || Ma question est la suivante : faut-il apprendre à coder à l'école ? Dans un premier temps, je présenterai les arguments pour ; dans un second temps, j'examinerai les limites ; enfin, je donnerai mon avis.

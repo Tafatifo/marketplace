@@ -1,0 +1,355 @@
+unit: 2
+title: Vacances et voyages
+theme: Holidays and travel
+description: Tell the story of a holiday, organise a trip and explain what went wrong on a journey, using the passé composé with être and past participle agreement.
+free: true
+objectives:
+  - Tell the story of a past holiday with verbs that take être
+  - Say what you have already organised for a trip and what you are going to do
+  - Explain a travel problem, choosing between avoir and être
+canDo:
+  - I can tell someone where I went on holiday, how long I stayed and what I did.
+  - I can make the past participle agree with the subject after être.
+  - I can talk about the preparations for a trip.
+  - I can explain a problem at a station, an airport or a hotel.
+review: |
+  fill: Elles ___ (aller) au Maroc l'été dernier. || sont allées || Aller takes être; a feminine plural subject gives allées. || @tags fr.passe-compose-etre,fr.past-participle-agreement
+  fill: Nous ___ (visiter) le musée Picasso à Antibes. || avons visité || Visiter is not a verb of movement: it takes avoir. || @tags fr.passe-compose-avoir
+  fill: Il ___ (se tromper) de quai. || s'est trompé || Reflexive verbs take être: il s'est trompé. || @tags fr.passe-compose-etre,fr.reflexive
+  mc: Choose the correct sentence. || Mes parents sont arrivé hier. | *Mes parents sont arrivés hier. | Mes parents ont arrivés hier. || Arriver takes être, and the participle agrees with the plural subject: arrivés. || @tags fr.passe-compose-etre,fr.past-participle-agreement
+  mc: "Tu t'es renseignée sur les hôtels, Inès ?" — Inès hasn't done it yet. She answers: || *Pas encore, je vais regarder ce soir. | Non, je suis renseignée hier. | Oui, je vais me renseigner hier. || Pas encore + near future for what she is going to do; hier can't go with the near future. || @tags fr.futur-proche,fr.reflexive
+  rw: Put it in the passé composé :: Léa part à huit heures et elle arrive à Nice à midi. || Léa est partie à huit heures et elle est arrivée à Nice à midi. || Partir and arriver take être; Léa is feminine, so partie and arrivée. || @tags fr.passe-compose-etre,fr.past-participle-agreement
+  tr: Our luggage didn't arrive. || Nos bagages ne sont pas arrivés. | Nos bagages ne sont pas encore arrivés. || Les bagages is masculine plural: ne sont pas arrivés. || @tags fr.passe-compose-etre,fr.negation
+  order: Nous ne sommes pas encore partis. || We haven't left yet. || @tags fr.passe-compose-etre,fr.negation
+  listen: Bonjour, je suis arrivée hier soir, mais ma valise est restée à Montréal. || What is the problem? || She missed her flight | *Her suitcase stayed in Montreal | Her hotel room isn't ready || "Ma valise est restée à Montréal" — she arrived, her suitcase didn't. || @tags fr.listening
+  listen: On est partis tôt, mais la voiture est tombée en panne près de Lyon. || What happened? || They left late | *The car broke down near Lyon | They got lost in Lyon || "Tombée en panne" = broke down; they left early (tôt). || @tags fr.listening
+  ask: Tell the AI coach about your last trip — where you went, how long you stayed and one problem you had. || kw: allé/allée/allés/allées/parti/partie/partis/parties & resté/restée/restés/restées || L'été dernier, je suis allée en Espagne avec mon frère. Nous sommes restés dix jours à Valence. Le premier jour, j'ai perdu mes lunettes de soleil !
+  write: Write a message to a friend about your last holiday — where you went, what you did, one problem and where you are going to go next time. || min=50 || req: suis/sommes/est | j'ai/nous avons/on a | vais/allons/va || Salut Malik ! En mai, je suis partie quatre jours à Amsterdam avec Lou. Nous sommes arrivées le jeudi soir et nous avons loué des vélos. Nous avons visité des musées et nous avons mangé des crêpes hollandaises. Malheureusement, le dernier jour, nous avons raté le train ! L'année prochaine, on va aller à Lisbonne. Bises, Anaïs
+lessons:
+  - title: A holiday to remember
+    summary: Tell the story of a holiday with the passé composé of aller, partir, arriver, rester and the other verbs that take être.
+    minutes: 45
+    skills: [grammar, speaking, listening]
+    tags: [fr.passe-compose-etre, fr.past-participle-agreement]
+    objectives:
+      - Use être as the auxiliary with verbs of movement and change
+      - Make the participle agree with the subject (allé, allée, allés, allées)
+      - Tell a holiday story in a few connected sentences
+    intro: |
+      Where did you go, when did you leave, how long did you stay? To tell a holiday story in French you need a small group of very common verbs — *aller, partir, arriver, rester, rentrer* — which form the passé composé with **être**, not avoir. With être, the participle behaves like an adjective: it agrees with the subject.
+    vocab: |
+      partir | to leave | v | Nous sommes partis à six heures du matin. | We left at six in the morning. | c: partir en vacances; partir en week-end | n: Takes être in the passé composé.
+      arriver | to arrive | v | Le train est arrivé à Marseille à midi. | The train arrived in Marseille at noon. | c: arriver à l'heure; arriver en retard
+      rester | to stay | v | Elles sont restées une semaine à Biarritz. | They stayed a week in Biarritz. | n: Rester means "to stay", not "to rest" (se reposer).
+      rentrer | to come back (home) | v | Je suis rentrée dimanche soir, très fatiguée. | I came back on Sunday evening, very tired. | c: rentrer de vacances; rentrer à la maison
+      les vacances | holidays; vacation | n | Tu es parti où en vacances ? | Where did you go on holiday? | c: partir en vacances; les grandes vacances | g: f | n: Always plural in this meaning.
+      la plage | the beach | n | Nous sommes allés à la plage tous les matins. | We went to the beach every morning. | c: aller à la plage; une plage de sable | g: f
+      un séjour | a stay | n | Nous avons fait un séjour de dix jours en Corse. | We had a ten-day stay in Corsica. | c: un bon séjour; un séjour linguistique | g: m
+      monter | to go up; to climb | v | Nous sommes montés au sommet de la dune du Pilat. | We climbed to the top of the Dune du Pilat. | n: Takes être when it means "to go up".
+      descendre | to go down; to get off | v | Elle est descendue du bus devant l'hôtel. | She got off the bus in front of the hotel. | c: descendre du train; descendre à la plage
+      tomber | to fall | v | Ma sœur est tombée dans la piscine tout habillée ! | My sister fell into the pool fully dressed! | n: Takes être.
+      visiter | to visit (a place) | v | Nous avons visité le château de Chambord. | We visited the Château de Chambord. | n: Takes avoir. For people, use aller voir or rendre visite à.
+      inoubliable | unforgettable | adj | Ce voyage reste un souvenir inoubliable. | That trip is still an unforgettable memory.
+      un coucher de soleil | a sunset | n | On a vu un coucher de soleil magnifique sur la mer. | We saw a magnificent sunset over the sea. | g: m
+    grammar:
+      title: The passé composé with être
+      body: |
+        About fifteen verbs form the passé composé with **être** instead of avoir. Most of them describe a movement or a change of state: *aller, venir, arriver, partir, entrer, sortir, monter, descendre, rester, tomber, rentrer, retourner, passer (par), naître, mourir, devenir, revenir.*
+
+        With être, the participle **agrees with the subject**, like an adjective: add **-e** for a feminine subject and **-s** for a plural one: *Il est parti. Elle est partie. Ils sont partis. Elles sont parties.* Most of the time you can't hear the agreement, but you must write it. A group with at least one man takes the masculine plural.
+
+        With **on** meaning *we*, people usually make the agreement with the group: *On est allés à la plage.* You will also see the singular *on est allé*.
+
+        Visiter, faire, voir and most other verbs keep **avoir**: *Nous avons visité Lyon.*
+      table: |
+        Subject | aller | partir
+        je | suis allé / allée | suis parti / partie
+        tu | es allé / allée | es parti / partie
+        il / elle | est allé / est allée | est parti / est partie
+        nous | sommes allés / allées | sommes partis / parties
+        vous | êtes allé(e)(s) | êtes parti(e)(s)
+        ils / elles | sont allés / sont allées | sont partis / sont parties
+      examples: |
+        Je suis allée en Grèce avec ma sœur. | I went to Greece with my sister. | a woman is speaking: allée
+        Nous sommes arrivés à l'hôtel à minuit. | We arrived at the hotel at midnight. | plural: arrivés
+        Mes cousines sont restées trois jours. | My cousins stayed three days. | feminine plural: restées
+        Paul est tombé dans la piscine ! | Paul fell into the pool! | masculine singular: tombé
+      tip: "Vous can be one person or several: Madame, vous êtes partie quand ? / Les enfants, vous êtes rentrés ? The participle follows the real people."
+    dialogue:
+      title: Retour de Corse
+      setting: Early September in a bakery in Nantes. Élodie meets her neighbour, Amadou Diallo, who has just come back from holiday.
+      speakers: E=Élodie/f; A=Amadou/m
+      lines: |
+        E: Bonjour, monsieur Diallo ! Vous êtes rentré de vacances ? | Hello, Mr Diallo! Are you back from your holiday?
+        A: Oui, nous sommes rentrés samedi. Quinze jours en Corse ! | Yes, we came back on Saturday. Two weeks in Corsica!
+        E: Quelle chance ! Vous êtes partis en avion ? | How lucky! Did you fly?
+        A: Non, nous sommes allés à Marseille en voiture, puis en bateau. | No, we drove to Marseille, then took the boat.
+        E: Et vous êtes restés où ? | And where did you stay?
+        A: D'abord à Ajaccio, ensuite dans un petit village de montagne. | First in Ajaccio, then in a small mountain village.
+        E: Votre fille est venue avec vous ? | Did your daughter come with you?
+        A: Oui, Awa est arrivée la deuxième semaine avec son copain. | Yes, Awa arrived in the second week with her boyfriend.
+        E: Et le temps ? Il a fait beau ? | And the weather? Was it nice?
+        A: Très beau ! Un soir, on a vu un coucher de soleil magnifique. | Lovely! One evening we saw a magnificent sunset.
+        E: Et le retour ? Pas trop fatigant ? | And the trip back? Not too tiring?
+        A: Si, un peu. Le bateau est arrivé avec trois heures de retard ! | Yes, a bit. The boat arrived three hours late!
+    pronunciation:
+      title: "Ils sont or ils ont?"
+      body: |
+        The auxiliary tells you which kind of verb you hear. *Ils **sont** partis* has an [s]: [il.sɔ̃.paʁ.ti]. *Ils **ont** parlé* has a [z] liaison: [il.zɔ̃.paʁ.le]. Train your ear to catch this difference — it's often the only clue.
+
+        Before a vowel, *sont* often links with a [t]: *ils sont allés* [il.sɔ̃.ta.le]. The agreement itself is usually silent: *allé, allée, allés* and *allées* all sound [a.le].
+      items: |
+        ils sont partis
+        ils ont parlé
+        elles sont arrivées
+        elles ont acheté
+        ils sont allés
+        nous sommes restés
+    culture:
+      title: Les grandes vacances
+      body: |
+        In France, employees have five weeks of paid holiday a year (*les congés payés*), and many people take two or three weeks in July or August. For schoolchildren, the summer holidays — *les grandes vacances* — last about two months.
+
+        Around the end of July, the change-over between July and August holidaymakers (*les juillettistes* and *les aoûtiens*) creates huge traffic jams on the motorways to the south. Radio stations give live traffic news all day.
+    mistakes: |
+      J'ai allé à Nice. => Je suis allé(e) à Nice. | Aller takes être in the passé composé.
+      Elle est parti hier. => Elle est partie hier. | With être, the participle agrees with the subject: elle → partie.
+      Nous sommes visités le musée. => Nous avons visité le musée. | Visiter is not a verb of movement: it takes avoir, like most verbs.
+    task:
+      title: Tell your holiday story
+      mode: speaking
+      body: |
+        Tell the story of a holiday you remember: where you went, when you left and came back, how long you stayed and one thing that happened. Use at least four verbs with être and two with avoir. Practise with the AI coach, who will ask you follow-up questions.
+    exercises: |
+      fill: Mes parents ___ (partir) en Italie samedi. || sont partis || Partir takes être; a masculine or mixed plural subject gives partis. || @tags fr.passe-compose-etre,fr.past-participle-agreement
+      fill: Clara ___ (arriver) à Lyon à midi. || est arrivée || Arriver takes être; Clara is feminine, so arrivée. || @tags fr.passe-compose-etre,fr.past-participle-agreement
+      fill: Nous ___ (rester) une semaine chez nos cousins. (Hana and Lucie are speaking) || sommes restées || Nous = two women, so the participle is feminine plural: restées. || @tags fr.passe-compose-etre,fr.past-participle-agreement
+      mc: Choose the correct sentence. || J'ai arrivé en retard. | *Je suis arrivé en retard. | Je suis arriver en retard. || Arriver takes être + the participle arrivé (arrivée for a woman). || @tags fr.passe-compose-etre
+      mc: Which verb takes avoir in the passé composé? || partir | rester | *visiter || Visiter takes avoir: nous avons visité. Partir and rester are verbs of the être group. || @tags fr.passe-compose-avoir,fr.passe-compose-etre
+      tf: Mr Diallo travelled to Corsica by plane. || false || He drove to Marseille and then took the boat: "en voiture, puis en bateau". || @ctx dialogue
+      short: Who arrived in Corsica in the second week? || kw: Awa/daughter/fille || "Awa est arrivée la deuxième semaine avec son copain." Awa is his daughter. || @ctx dialogue
+      listen: @dialogue || What went wrong on the way back? || The car broke down | *The boat was three hours late | It rained every day || "Le bateau est arrivé avec trois heures de retard !" || @tags fr.listening
+      listen: Elles sont parties lundi et elles sont rentrées jeudi. || When were they away? || From Thursday to Monday | *From Monday to Thursday | All week || Parties lundi (left on Monday), rentrées jeudi (came back on Thursday). || @tags fr.passe-compose-etre,fr.listening
+      rw: Make the subject feminine :: Il est descendu du train et il est resté à la gare. || Elle est descendue du train et elle est restée à la gare. || With être, add -e to each participle for a feminine subject. || @tags fr.past-participle-agreement
+      tr: We went to the mountains in February. (a mixed group) || Nous sommes allés à la montagne en février. | On est allés à la montagne en février. | En février, nous sommes allés à la montagne. | On est allé à la montagne en février. || Aller takes être; a mixed group gives allés. French says à la montagne (singular). || @tags fr.passe-compose-etre,fr.past-participle-agreement
+      dict: Nous sommes partis tôt et nous sommes arrivés à la mer à midi. || partis, arrivés
+      ask: A colleague asks you "Tu es parti(e) où en vacances ?" Say where you went and how long you stayed. || kw: allé/allée/allés/allées/parti/partie/partis/parties & resté/restée/restés/restées || Je suis allé en Bretagne avec ma famille. Nous sommes restés une semaine près de Saint-Malo.
+      write: Write a message to a friend about a holiday you remember — where you went, how you travelled, how long you stayed and one thing that happened. || min=40 || req: suis/sommes/est | allé/allée/allés/allées/parti/partie/partis/parties || Coucou Jade ! Tu te souviens de notre voyage en Sicile ? Nous sommes partis en juin, en avion. Nous sommes restés dix jours à Palerme. Un soir, nous sommes montés sur une colline et nous avons vu un coucher de soleil magnifique. Un souvenir inoubliable ! Bises, Tom
+
+  - title: Planning a trip
+    summary: Talk about what you have already organised for a trip and what you still have to do, with reflexive verbs in the passé composé and the near future.
+    minutes: 40
+    skills: [grammar, speaking, reading]
+    tags: [fr.passe-compose-etre, fr.reflexive, fr.futur-proche]
+    objectives:
+      - Form the passé composé of reflexive verbs (je me suis renseigné)
+      - Say what is done and what you are going to do with the near future
+      - Share out the preparations for a trip with friends
+    intro: |
+      Before a trip there is a lot to organise: tickets, accommodation, documents, a route. In conversation you constantly switch between what is done (*je me suis occupé des billets*) and what you are going to do (*on va réserver l'hôtel*). Reflexive verbs, which you know from your daily routine, form the passé composé with **être**.
+    vocab: |
+      s'occuper de | to take care of; to deal with | v | Je me suis occupé des billets de train. | I took care of the train tickets. | n: De + le = du, de + les = des: s'occuper du vol, des billets.
+      se renseigner (sur) | to find out (about) | v | Elle s'est renseignée sur les horaires des bus. | She found out about the bus times. | c: se renseigner sur internet; se renseigner à l'office de tourisme
+      réserver | to book | v | On va réserver une chambre d'hôtes près de la plage. | We're going to book a B&B near the beach. | c: réserver un billet; réserver en ligne
+      un billet | a ticket | n | J'ai acheté les billets d'avion hier soir. | I bought the plane tickets last night. | c: un billet de train; un billet électronique | g: m
+      un aller-retour | a return ticket | n | Un aller-retour Paris-Bordeaux, c'est combien ? | How much is a return ticket from Paris to Bordeaux? | g: m | pl: des allers-retours | n: One way: un aller simple.
+      un itinéraire | a route; an itinerary | n | Nous avons préparé l'itinéraire ensemble. | We planned the route together. | g: m
+      un passeport | a passport | n | Mon passeport n'est plus valable ! | My passport isn't valid any more! | c: une carte d'identité; un passeport valable | g: m
+      la valise | the suitcase | n | Je vais faire ma valise ce soir. | I'm going to pack my suitcase tonight. | c: faire sa valise; défaire sa valise | g: f
+      un hébergement | accommodation | n | On n'a pas encore trouvé d'hébergement. | We haven't found accommodation yet. | g: m | n: The h is silent: l'hébergement.
+      une auberge de jeunesse | a youth hostel | n | Nous allons dormir dans une auberge de jeunesse. | We're going to sleep in a youth hostel. | g: f
+      se décider (pour) | to make up your mind; to decide (on) | v | Finalement, nous nous sommes décidés pour la Bretagne. | In the end, we decided on Brittany.
+      s'inscrire (à) | to sign up (for) | v | Je me suis inscrite à une visite guidée. | I signed up for a guided tour. | n: Participle: inscrit (like écrire → écrit).
+      prévoir | to plan; to allow (time) | v | Nous avons prévu trois jours à Bordeaux. | We've planned three days in Bordeaux. | n: Participle: prévu.
+    grammar:
+      title: Reflexive verbs in the passé composé
+      body: |
+        All reflexive verbs (*se lever, s'occuper, se renseigner…*) form the passé composé with **être**. The reflexive pronoun stays before the auxiliary: *je **me suis** levé, tu **t'es** occupé, elle **s'est** renseignée.*
+
+        As with the other être verbs, the participle usually agrees with the subject: *Léa s'est inscrite. Nous nous sommes décidés.* In the negative, *ne… pas* goes around the pronoun and the auxiliary together: *Je **ne** me suis **pas** occupé de l'hôtel.*
+
+        For what still needs doing, use the **near future** (aller + infinitive): *On va réserver demain.* With a reflexive verb, the pronoun goes before the infinitive and matches the subject: *Je vais **me** renseigner. Nous allons **nous** inscrire.*
+      table: |
+        Subject | Passé composé | Near future
+        je | me suis renseigné(e) | vais me renseigner
+        tu | t'es renseigné(e) | vas te renseigner
+        il / elle / on | s'est renseigné / renseignée | va se renseigner
+        nous | nous sommes renseigné(e)s | allons nous renseigner
+        vous | vous êtes renseigné(e)(s) | allez vous renseigner
+        ils / elles | se sont renseignés / renseignées | vont se renseigner
+      examples: |
+        Je me suis occupée des billets. | I took care of the tickets. | a woman is speaking: occupée
+        Ils se sont inscrits à une visite du port. | They signed up for a tour of the harbour. | inscrit + s
+        Tu ne t'es pas renseigné sur les horaires ? | Didn't you check the timetable? | ne… pas around the pronoun and être
+        Demain, je vais m'occuper de l'hôtel. | Tomorrow I'm going to deal with the hotel. | near future: pronoun before the infinitive
+      tip: "Before a trip, make a two-column list: C'est fait (passé composé) and À faire (aller + infinitive). That's exactly how French speakers talk about their plans."
+    dialogue:
+      title: Trois jours à Bordeaux
+      setting: Julien, Mei and Rachid are planning a long weekend in Bordeaux. They go through their to-do list on a video call.
+      speakers: J=Julien/m; M=Mei/f; R=Rachid/m
+      lines: |
+        J: Alors, on fait le point pour Bordeaux ? | So, shall we see where we are with Bordeaux?
+        M: Oui ! Moi, je me suis occupée des billets de train. | Yes! I took care of the train tickets.
+        R: Super. Tu as pris des allers-retours ? | Great. Did you get return tickets?
+        M: Oui, départ vendredi à huit heures, retour lundi soir. | Yes, leaving on Friday at eight, back on Monday evening.
+        J: Et l'hébergement ? Rachid, tu t'es renseigné ? | And the accommodation? Rachid, did you look into it?
+        R: Oui, je me suis renseigné, mais je n'ai pas encore réservé. | Yes, I looked into it, but I haven't booked yet.
+        M: Il y a une auberge de jeunesse près de la gare. | There's a youth hostel near the station.
+        R: C'est ça, elle n'est pas chère. Je vais réserver ce soir. | That's right, it isn't expensive. I'm going to book tonight.
+        J: Parfait. Moi, je me suis inscrit à une visite des vignobles. | Perfect. I signed up for a tour of the vineyards.
+        M: Génial ! Et le programme pour samedi ? | Great! And the plan for Saturday?
+        J: Je vais préparer ça demain, promis ! | I'll prepare that tomorrow, I promise!
+        R: Et n'oubliez pas vos cartes d'identité ! | And don't forget your ID cards!
+    pronunciation:
+      title: "Je me suis…: saying the small words together"
+      body: |
+        In the passé composé of reflexive verbs, three short words come together: *je me suis*. In everyday speech the *e* of *je* or *me* often disappears: [ʒəm.sɥi]. Practise saying the group as one unit before the participle, without pausing.
+
+        With *vous*, the s links with a [z] before *êtes*: *vous vous êtes décidés* [vu.vu.zɛt.de.si.de]. With *tu*, the pronoun becomes *t'*: *tu t'es occupé* [ty.tɛ.zɔ.ky.pe].
+      items: |
+        je me suis renseigné
+        tu t'es occupé
+        elle s'est inscrite
+        vous vous êtes décidés
+        nous allons nous renseigner
+        je vais faire ma valise
+    culture:
+      title: Voyager en train en France
+      body: |
+        France has a large high-speed rail network: the TGV links Paris to Bordeaux in about two hours. Tickets are often cheaper when you book early, and young people and seniors can buy discount cards.
+
+        For accommodation, many French travellers like *les chambres d'hôtes* (B&Bs, often in a family home) and *les gîtes* (holiday cottages in the countryside). The local *office de tourisme* is a good place to find maps, ideas and opening times.
+    mistakes: |
+      Je m'ai occupé des billets. => Je me suis occupé des billets. | Reflexive verbs always take être: je me suis…
+      Elle s'est renseigné. => Elle s'est renseignée. | With être, the participle agrees with the subject: elle → renseignée.
+      Je vais renseigner sur l'hôtel. => Je vais me renseigner sur l'hôtel. | In the near future, keep the reflexive pronoun before the infinitive.
+    task:
+      title: The trip checklist
+      mode: interaction
+      body: |
+        You are organising a weekend trip with a friend. Make a list of five tasks (tickets, accommodation, route, activities, documents). Tell the AI coach or a classmate what you have already done (*je me suis occupé(e) de…, j'ai réservé…*) and what you are going to do (*je vais…*), then share out the remaining tasks.
+    exercises: |
+      fill: Je ___ (s'occuper) des billets. (Mei is speaking) || me suis occupée || Reflexive verb → être; Mei is a woman, so occupée. || @tags fr.passe-compose-etre,fr.reflexive,fr.past-participle-agreement
+      fill: Ils ___ (se renseigner) à l'office de tourisme. || se sont renseignés || Ils + se + sont + renseignés (masculine plural). || @tags fr.passe-compose-etre,fr.reflexive
+      fill: Tu ___ (s'inscrire) à la visite guidée, Bastien ? || t'es inscrit || Tu + t'es; s'inscrire → inscrit (Bastien is a man). || @tags fr.passe-compose-etre,fr.reflexive
+      mc: Choose the correct sentence. || Elle s'a décidée pour Nice. | *Elle s'est décidée pour Nice. | Elle est se décidée pour Nice. || Reflexive verbs take être, and the pronoun comes before the auxiliary: elle s'est décidée. || @tags fr.passe-compose-etre,fr.reflexive
+      mc: You want to say you will deal with the hotel tomorrow. || Je me suis occupé de l'hôtel demain. | *Je vais m'occuper de l'hôtel demain. | Je vais occuper de l'hôtel demain. || Near future: aller + reflexive pronoun + infinitive. || @tags fr.futur-proche,fr.reflexive
+      tf: Rachid has already booked the youth hostel. || false || "Je n'ai pas encore réservé" — he is going to book tonight. || @ctx dialogue
+      short: What did Julien sign up for? || kw: vignoble/vignobles/vineyard/vineyards/wine || "Je me suis inscrit à une visite des vignobles." || @ctx dialogue
+      listen: @dialogue || When are they coming back from Bordeaux? || Friday morning | Sunday evening | *Monday evening || Mei says: "départ vendredi à huit heures, retour lundi soir." || @tags fr.listening
+      listen: Je me suis occupé de l'hôtel, mais je ne me suis pas renseigné sur les trains. || Which statement is true? || He dealt with the trains but not the hotel | *He dealt with the hotel but not the trains | He dealt with both the hotel and the trains || "Je me suis occupé de l'hôtel" (done) but "je ne me suis pas renseigné sur les trains" (not done). || @tags fr.reflexive,fr.listening
+      rw: Put it in the passé composé (two men are speaking) :: Nous nous renseignons sur les campings. || Nous nous sommes renseignés sur les campings. || Reflexive verb → être; two men → masculine plural renseignés. || @tags fr.passe-compose-etre,fr.reflexive
+      order: Nous ne nous sommes pas encore décidés. || We haven't made up our minds yet. || @tags fr.reflexive,fr.negation
+      tr: I've taken care of the passports. || Je me suis occupé des passeports. | Je me suis occupée des passeports. || S'occuper de + les passeports = des passeports; reflexive → être. || @tags fr.passe-compose-etre,fr.reflexive
+      dict: Elle s'est renseignée et elle a réservé deux nuits à Bordeaux. || renseignée
+      ask: Your friend asks "Tu t'es occupé(e) de l'hôtel ?" You haven't done it yet. Say so and say what you are going to do. || kw: pas encore/non & vais/va || Non, pas encore ! Je vais me renseigner ce soir et je vais réserver demain matin.
+      write: Write a message to your travel companions — what you have done for the trip and what you are going to do this week. || min=35 || req: me suis/j'ai | vais || Salut tout le monde ! Bon, je me suis occupée des billets : départ samedi à 7 h 30. Je me suis aussi renseignée sur les musées. Cette semaine, je vais réserver le restaurant pour samedi soir et je vais acheter un guide. Vous vous occupez de l'hôtel ? Bises, Léna
+
+  - title: When things go wrong on a trip
+    summary: Explain what went wrong on a journey — a missed connection, lost luggage, a breakdown — and choose between avoir and être in the passé composé.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [fr.passe-compose-avoir, fr.passe-compose-etre, fr.negation]
+    objectives:
+      - Choose the right auxiliary, avoir or être, in a story
+      - Make negative sentences with être verbs (je ne suis pas parti)
+      - Explain a travel problem at a counter and ask for a solution
+    intro: |
+      Trains are late, suitcases get lost, cars break down. When something goes wrong, you have to explain clearly what happened — and that means mixing verbs with avoir and verbs with être in the same story. This lesson helps you choose the right auxiliary quickly and gives you the words for the most common travel problems.
+    vocab: |
+      rater | to miss (a train, a plane) | v | J'ai raté le dernier métro. | I missed the last metro. | n: Everyday word; more formal: manquer le train.
+      le retard | the delay | n | Le train a quarante minutes de retard. | The train is forty minutes late. | c: être en retard; avoir du retard; un vol en retard | g: m
+      annulé | cancelled | adj | Le train de dix-huit heures est annulé. | The 6 p.m. train is cancelled. | n: The verb is annuler: la compagnie a annulé le vol.
+      perdre | to lose | v | J'ai perdu mon portefeuille dans le bus. | I lost my wallet on the bus. | n: Participle: perdu.
+      oublier | to forget | v | Nous avons oublié le chargeur à l'hôtel. | We forgot the charger at the hotel.
+      voler | to steal | v | Quelqu'un a volé le sac de Marc dans le train. | Someone stole Marc's bag on the train. | n: Un vol is a theft — and also a flight.
+      les bagages | luggage | n | Mes bagages ne sont pas arrivés. | My luggage hasn't arrived. | c: un bagage à main | g: m | n: Usually plural in French.
+      le guichet | the ticket office; the counter | n | Je suis allée au guichet pour changer mon billet. | I went to the ticket office to change my ticket. | g: m
+      une panne | a breakdown | n | La voiture est tombée en panne sur l'autoroute. | The car broke down on the motorway. | c: tomber en panne; une panne d'électricité | g: f
+      la correspondance | the connection (train, flight) | n | J'ai raté ma correspondance à Lyon. | I missed my connection in Lyon. | g: f
+      un remboursement | a refund | n | Vous pouvez demander un remboursement en ligne. | You can ask for a refund online. | c: demander un remboursement | g: m
+      la grève | the strike | n | Il y a une grève des contrôleurs aujourd'hui. | There's a ticket inspectors' strike today. | c: être en grève | g: f
+      heureusement | fortunately | adv | Heureusement, un passager a trouvé mon sac. | Fortunately, a passenger found my bag. | n: Opposite: malheureusement.
+    grammar:
+      title: Avoir or être?
+      body: |
+        In a story, most verbs take **avoir**: *J'ai perdu mon billet, j'ai attendu, j'ai téléphoné.* Use **être** only with:
+
+        - the verbs of movement and change from lesson 1: *aller, venir, partir, arriver, rester, tomber, rentrer, sortir…*
+        - all reflexive verbs: *je me suis trompé, elle s'est perdue*
+
+        A quick test: is the verb reflexive, or is it on the "être list"? If yes, use être and make the participle agree with the subject. If not, use avoir — and the participle doesn't agree with the subject: *Elle a perdu sa valise.*
+
+        **Negatives** work the same way with both auxiliaries: *ne… pas* goes around être or avoir: *Le train **n'**est **pas** parti. Nous **n'**avons **pas** attendu.* With reflexive verbs, it goes around the pronoun too: *Je **ne** me suis **pas** réveillé.*
+      table: |
+        With avoir (most verbs) | With être (movement, change, reflexive)
+        J'ai raté le train. | Je suis arrivé(e) en retard.
+        Elle a perdu sa valise. | Elle est partie sans valise.
+        Nous avons attendu une heure. | Nous sommes restés à la gare.
+        Ils n'ont pas trouvé l'hôtel. | Ils se sont perdus.
+      examples: |
+        Le bus n'est pas venu, alors nous avons pris un taxi. | The bus didn't come, so we took a taxi. | être (venir) + avoir (prendre)
+        Je me suis trompée de quai et j'ai raté le train. | I went to the wrong platform and missed the train. | se tromper de = to get the wrong…
+        Ma valise n'est pas arrivée à Montréal. | My suitcase didn't arrive in Montreal. | negative with être
+        Heureusement, nous n'avons rien perdu. | Fortunately, we didn't lose anything. | ne… rien with avoir
+      tip: "Tomber en panne takes être because of tomber: La voiture est tombée en panne."
+    dialogue:
+      title: Au guichet de la gare
+      setting: Lyon Part-Dieu station, Friday evening. Fatou has missed her connection to Grenoble and goes to the ticket office.
+      speakers: F=Fatou/f; E=L'agent/m
+      lines: |
+        F: Bonsoir, monsieur. J'ai raté ma correspondance pour Grenoble. | Good evening. I've missed my connection to Grenoble.
+        E: Bonsoir, madame. Votre premier train est arrivé en retard ? | Good evening, madam. Did your first train arrive late?
+        F: Oui, il est parti de Paris avec une heure de retard. | Yes, it left Paris an hour late.
+        E: Je comprends. Vous avez votre billet, s'il vous plaît ? | I see. Do you have your ticket, please?
+        F: Oui, voilà, il est sur mon téléphone. | Yes, here you are, it's on my phone.
+        E: Merci. Il y a un autre train pour Grenoble à vingt et une heures. | Thank you. There's another train to Grenoble at 9 p.m.
+        F: Très bien. Est-ce que je dois acheter un nouveau billet ? | Very good. Do I have to buy a new ticket?
+        E: Non, c'est gratuit : le retard n'est pas de votre faute. | No, it's free — the delay isn't your fault.
+        F: Ah, heureusement ! Et je peux demander un remboursement ? | Oh, thank goodness! And can I ask for a refund?
+        E: Pour le retard, oui. Faites la demande en ligne. | For the delay, yes. Make the request online.
+        F: Merci beaucoup, vous êtes très gentil ! | Thank you very much, you're very kind!
+        E: Je vous en prie. Bon voyage, madame ! | You're welcome. Have a good journey, madam!
+    pronunciation:
+      title: Nasal vowels in travel words
+      body: |
+        Travel vocabulary is full of nasal vowels. *En retard* and *remboursement* contain [ɑ̃] (mouth open, air through the nose); *train* has [ɛ̃] (lips spread); *correspondance* has [ɔ̃] and [ɑ̃]: [kɔ.ʁɛs.pɔ̃.dɑ̃s]. Don't add an [n] after a nasal vowel — the letter n only shows that the vowel is nasal.
+
+        Compare *une panne* [pan]: here the double **n** is pronounced and the *a* is an ordinary oral vowel.
+      items: |
+        en retard
+        le train
+        la correspondance
+        un remboursement
+        une panne
+        heureusement
+    culture:
+      title: Grèves et retards
+      body: |
+        Strikes (*les grèves*) in public transport are part of French life, but they are announced in advance: before you travel, check the transport company's website or app. On strike days, a reduced service often still runs.
+
+        When a train is very late, passengers can often ask for partial compensation online, so keep your ticket. And at the counter, stay polite: *Bonjour* first, then the problem — it really makes a difference.
+    mistakes: |
+      La voiture a tombé en panne. => La voiture est tombée en panne. | Tomber takes être, and the participle agrees with la voiture.
+      Nous sommes attendu le bus. => Nous avons attendu le bus. | Attendre is not a verb of movement: it takes avoir.
+      Le train n'a pas parti. => Le train n'est pas parti. | Partir takes être, in the negative too.
+    task:
+      title: At the lost-luggage desk
+      mode: interaction
+      body: |
+        Your suitcase didn't arrive at Nice airport. Explain to the agent (a classmate or the AI coach) where you flew from, when you arrived, what your suitcase looks like and what is in it. Use at least two verbs with avoir and two with être, then ask what you have to do now.
+    exercises: |
+      fill: Hier, le train ___ (partir) avec vingt minutes de retard. || est parti || Partir takes être; le train is masculine singular: parti. || @tags fr.passe-compose-etre
+      fill: Ma valise n'___ pas ___ (arriver) à Nice. || est ; arrivée || Negative around être; la valise is feminine, so arrivée. || @tags fr.passe-compose-etre,fr.negation,fr.past-participle-agreement
+      fill: Les enfants ___ (se perdre) dans la gare ! || se sont perdus || Reflexive verb → être; les enfants (mixed or boys) → perdus. || @tags fr.passe-compose-etre,fr.reflexive
+      mc: Choose the correct sentence. || *Je me suis trompé de train. | Je m'ai trompé de train. | Je suis trompé de train. || Se tromper is reflexive: pronoun + être + participle. || @tags fr.passe-compose-etre,fr.reflexive
+      mc: Fatou ___ sa correspondance à Lyon. || est ratée | *a raté | s'est ratée || Rater is neither reflexive nor a verb of movement, so it takes avoir: elle a raté. || @tags fr.passe-compose-avoir
+      tf: Fatou has to buy a new ticket. || false || The agent says: "Non, c'est gratuit : le retard n'est pas de votre faute." || @ctx dialogue
+      short: What time is the next train to Grenoble? || kw: 21/vingt et une/9 p.m./9 pm/9pm || "Il y a un autre train pour Grenoble à vingt et une heures" — 21:00, 9 p.m. || @ctx dialogue
+      listen: @dialogue || Why did Fatou miss her connection? || She went to the wrong platform | *Her first train left Paris an hour late | There was a strike in Lyon || "Il est parti de Paris avec une heure de retard." || @tags fr.listening
+      listen: Mesdames et messieurs, en raison d'une grève, le train de dix-huit heures quarante-cinq pour Marseille est annulé. || What has happened to the 6:45 p.m. train to Marseille? || It is 45 minutes late | *It is cancelled because of a strike | It leaves from another platform || "En raison d'une grève… est annulé" — because of a strike, it is cancelled. || @tags fr.listening
+      rw: Make it negative :: Nous sommes sortis de l'aéroport. || Nous ne sommes pas sortis de l'aéroport. || Ne… pas goes around the auxiliary être. || @tags fr.negation,fr.passe-compose-etre
+      tr: I lost my passport and I went to the police station. (a man is speaking) || J'ai perdu mon passeport et je suis allé au commissariat. | J'ai perdu mon passeport, alors je suis allé au commissariat. | J'ai perdu mon passeport et je suis allé à la police. || Perdre takes avoir; aller takes être (allé for a man). || @tags fr.passe-compose-avoir,fr.passe-compose-etre
+      dict: Nous sommes arrivés à minuit et l'hôtel a perdu notre réservation. || arrivés, perdu
+      ask: At a ticket office, explain that you missed your train because your bus was late, and ask for a ticket for the next train. || kw: raté/manqué & bus/retard || Bonjour, madame. J'ai raté mon train parce que mon bus est arrivé en retard. Est-ce que je peux avoir une place dans le prochain train ?
+      write: Write a message to a friend about a journey that went wrong — what happened, what you did and how it ended. || min=50 || req: j'ai/nous avons/on a | suis/sommes/est || Salut Noé ! Quel voyage ! Samedi, je suis partie de Bruxelles à huit heures, mais le train est tombé en panne près de Lille. Nous sommes restés deux heures dans le train ! Ensuite, j'ai raté ma correspondance pour Rennes. Heureusement, l'agent a été très gentil et j'ai pris un autre train. Je suis arrivée à minuit, très fatiguée ! Bises, Margaux

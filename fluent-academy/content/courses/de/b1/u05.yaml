@@ -1,0 +1,345 @@
+unit: 5
+title: Stadt und Umwelt
+theme: City and environment
+description: Compare life in the city and the countryside with adjective endings after der, die, das, talk about green habits with obwohl, and propose solutions for your neighbourhood.
+objectives:
+  - Use adjective endings after the definite article in the nominative and accusative
+  - Express a contrast with obwohl and compare it with trotzdem
+  - Make proposals and use adjective endings in the dative
+canDo:
+  - I can compare living in a city and in the country and give reasons for my preference.
+  - I can describe what I do for the environment — and what I find difficult.
+  - I can make and discuss suggestions in a meeting of neighbours.
+  - I can understand short statements in a magazine about everyday habits.
+review: |
+  fill: Obwohl die Wohnung klein ___, nehmen wir sie. (sein) || ist || In an obwohl-clause the verb goes to the end: obwohl die Wohnung klein ist. || @tags de.connectors,de.subordinate-clauses
+  fill: Die Miete ist hoch. ___ wohnen wir gern hier. || Trotzdem || A contrast in a new main clause: trotzdem + verb (wohnen) + subject. || @tags de.connectors
+  mc: "___ ich auf dem Land wohne, brauche ich kein Auto." || *Obwohl | Trotzdem | Deshalb || The first clause has its verb at the end (wohne), so it needs a subordinating conjunction: obwohl. Trotzdem and deshalb are followed directly by the verb. || @tags de.connectors
+  fill: Ich vermisse den ___ Park hinter unserem alten Haus. (schön) || schönen || Der Park is masculine and accusative here (vermissen + object): den schönen Park. || @tags de.adjective-endings,de.accusative
+  fill: In der ___ Straße gibt es jetzt einen Gemeinschaftsgarten. (ruhig) || ruhigen || Dative after the definite article: always -en — in der ruhigen Straße. || @tags de.adjective-endings,de.dative
+  mc: "Die ___ Nachbarn sind wirklich nett." (neu) || *neuen | neue | neuer || In the plural, adjectives after die always end in -en. || @tags de.adjective-endings,de.plural
+  rw: Join the sentences with obwohl :: Es regnet. Wir arbeiten im Garten. || Obwohl es regnet, arbeiten wir im Garten. | Wir arbeiten im Garten, obwohl es regnet. || The surprising contrast goes in the main clause; obwohl introduces the fact that would normally stop you. || @tags de.connectors,de.subordinate-clauses
+  tr: The old flat was nicer than the new one. || Die alte Wohnung war schöner als die neue. | Die alte Wohnung war schöner als die neue Wohnung. || Nominative feminine after die: alte, neue (-e). Comparative: schöner als. || @tags de.adjective-endings,de.comparatives
+  listen: Wir wohnen jetzt am Stadtrand. Die frische Luft ist toll, aber der lange Weg zur Arbeit nervt mich jeden Tag. || What annoys the speaker? || The noise | *The long commute | The neighbours || "Der lange Weg zur Arbeit nervt mich jeden Tag." || @tags de.listening,de.adjective-endings
+  listen: Obwohl wir den Müll genau trennen, ist unsere Tonne für Verpackungen jede Woche voll. Deshalb kaufen wir jetzt mehr auf dem Markt ein. || What has the family changed? || They have stopped sorting their rubbish. | *They now buy more at the market. | They have ordered a bigger bin. || "Deshalb kaufen wir jetzt mehr auf dem Markt ein" — to avoid packaging. || @tags de.listening,de.connectors
+  ask: Describe one problem in your street or neighbourhood and propose a solution. || kw: ich schlage vor/wir könnten/wie wäre es/man könnte & dass/mit/bauen/pflanzen/machen/organisieren || In unserer Straße fahren die Autos viel zu schnell. Ich schlage vor, dass die Stadt vor der kleinen Schule eine Tempo-30-Zone einrichtet.
+  write: Write a message (60–80 words) to your neighbours. Describe a problem in your building, say what you already do about it and suggest a solution. Use obwohl once. || min=50 || req: obwohl | ich schlage vor/wir könnten/wie wäre es | liebe nachbarn/liebe nachbarinnen/hallo || Liebe Nachbarinnen und Nachbarn, im Keller stehen viele alte Fahrräder, obwohl niemand sie mehr benutzt. Ich habe schon die kaputten Räder fotografiert. Ich schlage vor, dass wir am ersten Samstag im Mai zusammen aufräumen. Die alten Räder könnten wir der Fahrradwerkstatt in der Lindenstraße schenken. Wer hat Zeit und Lust? Viele Grüße, Hanne Vogt (2. Stock)
+lessons:
+  - title: "City or countryside?"
+    summary: Compare city and country life and describe places precisely with adjective endings after der, die, das in the nominative and accusative.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.adjective-endings]
+    objectives:
+      - Use the endings -e and -en after der, die, das and dieser
+      - Describe the advantages and disadvantages of city and country life
+      - Give your preference with reasons
+    intro: |
+      High rents, noise and traffic — or a long commute and the last bus at eight? Many people in German cities ask themselves whether they should move to the country. To compare places precisely you need adjectives in front of nouns: *der **lange** Weg, die **lebendige** Stadt, den **ständigen** Lärm*. After the definite article there are only two endings to learn: **-e** and **-en**.
+    vocab: |
+      die Großstadt | big city | n | In der Großstadt ist immer etwas los. | There's always something going on in the big city. | g: f | pl: die Großstädte | n: Officially a town with more than 100,000 inhabitants.
+      auf dem Land | in the country(side) | expr | Meine Eltern wohnen auf dem Land. | My parents live in the countryside. | n: Direction: aufs Land ziehen (to move to the country).
+      die Landschaft | landscape; scenery | n | Die Landschaft im Taunus ist wunderschön. | The scenery in the Taunus is beautiful. | g: f | pl: die Landschaften
+      lebendig | lively; alive | adj | Ich liebe die lebendige Atmosphäre in der Stadt. | I love the lively atmosphere in the city.
+      der Lärm | noise | n | Den ständigen Lärm an der Hauptstraße finde ich schrecklich. | I find the constant noise on the main road terrible. | g: m | pl: (no plural)
+      die Luft | air | n | Auf dem Land ist die Luft viel besser. | The air is much better in the country. | g: f | pl: (no plural in this meaning) | c: frische Luft; an die frische Luft gehen
+      pendeln | to commute | v | Jakob würde jeden Tag nach Frankfurt pendeln. | Jakob would commute to Frankfurt every day. | n: Perfekt with sein: ist gependelt. A commuter is der Pendler / die Pendlerin.
+      die Anbindung | (transport) connection; link | n | Das Dorf hat eine gute Anbindung an die Stadt. | The village has a good transport link to the city. | g: f | pl: die Anbindungen | n: Often: die Verkehrsanbindung.
+      entfernt | away; distant | adj | Der Bahnhof ist nur zwei Kilometer entfernt. | The station is only two kilometres away.
+      riesig | huge | adj | Der riesige Garten wäre ein Traum für die Kinder. | The huge garden would be a dream for the children.
+      das Angebot | range of things on offer; offer | n | Das kulturelle Angebot in Berlin ist enorm. | The range of cultural events in Berlin is enormous. | g: n | pl: die Angebote
+      vermissen | to miss | v | Auf dem Land würde ich die vielen Cafés vermissen. | In the country I would miss all the cafés. | n: Inseparable: hat vermisst.
+    grammar:
+      title: "Adjective endings after der, die, das (nominative and accusative)"
+      body: |
+        When an adjective stands **before a noun**, it needs an ending. After the **definite article** (der, die, das) — and after **dieser, jeder, welcher** and plural **alle** — there are only two possible endings, **-e** and **-en**, because the article already shows gender and case.
+
+        - **-e**: in the **nominative singular** of all three genders, and in the **accusative singular** of feminine and neuter nouns: *der lange Weg, die kleine Wohnung, das alte Haus.*
+        - **-en**: in the **masculine accusative** and in **all plurals**: *Ich hasse den ständigen Lärm. Die neuen Nachbarn sind nett.*
+
+        An adjective **after sein, werden or bleiben** has **no ending**: *Der Garten ist riesig. Das Haus ist alt.*
+      table: |
+        Case | masculine | feminine | neuter | plural
+        nominative | der lange Weg | die kleine Wohnung | das alte Haus | die neuen Nachbarn
+        accusative | den langen Weg | die kleine Wohnung | das alte Haus | die neuen Nachbarn
+      examples: |
+        Der riesige Garten wäre ein Traum für die Kinder. | The huge garden would be a dream for the kids. | nominative masculine: -e
+        Ich hasse den ständigen Lärm an der Hauptstraße. | I hate the constant noise on the main road. | accusative masculine: -en
+        Trotzdem liebe ich die lebendige Stadt. | Still, I love the lively city. | accusative feminine: -e
+        Diesen Samstag nehmen wir den frühen Zug. | This Saturday we'll take the early train. | dieser works like der
+      tip: Only the masculine accusative and the plural are different — in the singular nominative and the feminine/neuter accusative, it's always -e.
+    dialogue:
+      title: Raus aufs Land?
+      setting: A Sunday evening in a small flat on a busy street in Frankfurt. Selin wants to move to a village in the Taunus hills with their two children. Jakob isn't so sure.
+      speakers: S=Selin/f; J=Jakob/m
+      lines: |
+        S: Schau mal, Jakob: Das alte Haus in Glashütten ist immer noch frei. | Look, Jakob: the old house in Glashütten is still available.
+        J: Meinst du das kleine Haus, das wir im Mai gesehen haben? | Do you mean the little house we saw in May?
+        S: Genau. Und der riesige Garten wäre ein Traum für die Kinder. | Exactly. And the huge garden would be a dream for the kids.
+        J: Aber der lange Weg zur Arbeit! Ich wäre jeden Tag über eine Stunde unterwegs. | But the long commute! I'd be on the road for more than an hour every day.
+        S: Mit dem Zug geht das. Und für die kleine Wohnung hier zahlen wir fast 1.800 Euro. | It's fine by train. And for the little flat here we pay almost 1,800 euros.
+        J: Stimmt. Trotzdem liebe ich die lebendige Stadt – die Cafés, die Kinos, die vielen Leute. | True. Still, I love the lively city – the cafés, the cinemas, all the people.
+        S: Und ich hasse den ständigen Lärm und die schlechte Luft an der Hauptstraße. | And I hate the constant noise and the bad air on the main road.
+        J: Okay, aber auf dem Land fährt der letzte Bus um acht Uhr abends. | Okay, but in the country the last bus leaves at eight in the evening.
+        S: Dann kaufen wir eben ein E-Bike. Der kleine Bahnhof ist nur zwei Kilometer entfernt. | Then we'll just buy an e-bike. The little station is only two kilometres away.
+        J: Und die neuen Nachbarn? Im Dorf kennt doch jeder jeden. | And the new neighbours? In a village everybody knows everybody.
+        S: Genau das finde ich schön! Willst du das alte Haus nicht wenigstens noch mal anschauen? | That's exactly what I like! Don't you at least want to look at the old house again?
+        J: Na gut. Diesen Samstag fahren wir hin – aber wir nehmen den frühen Zug! | All right. We'll go there this Saturday – but we're taking the early train!
+    pronunciation:
+      title: "Unstressed endings: -e and -en"
+      body: |
+        Adjective endings are never stressed, but they must be audible. The ending **-e** is a short, relaxed schwa [ə]: *die kleine Wohnung* [ˈklaɪ̯nə]. In **-en**, the e almost disappears in normal speech and you mainly hear the n: *den kleinen Garten* [ˈklaɪ̯nn̩].
+
+        Listen for the difference — it tells you the case: *der lange Weg* (subject) vs. *den langen Weg* (object). Keep the stress on the adjective stem: *LE-ben-di-ge, RIE-si-ge*.
+      items: |
+        die kleine Wohnung
+        den kleinen Garten
+        das alte Haus
+        die neuen Nachbarn
+        der letzte Bus
+        Ich liebe die lebendige Stadt.
+    culture:
+      title: Commuters and the "Speckgürtel"
+      body: |
+        Rents in cities like Munich, Frankfurt, Hamburg and Berlin have risen sharply, so many families move to the *Speckgürtel* — literally the "bacon belt", the ring of towns and villages around a big city. Millions of people in Germany commute to work in another town, by car or by regional train.
+
+        Village life has its own rhythm: there is often a sports club, a volunteer fire brigade and a choir, and the neighbours really do know each other. On the other hand, buses can be rare, and in some regions the nearest doctor or supermarket is a car journey away.
+    mistakes: |
+      Ich liebe der kleine Garten. => Ich liebe den kleinen Garten. | Der Garten is the object (accusative masculine): den + adjective with -en.
+      Die neue Nachbarn sind sehr nett. => Die neuen Nachbarn sind sehr nett. | In the plural the adjective after die always ends in -en.
+      Das Haus ist alte. => Das Haus ist alt. | After sein the adjective has no ending.
+    task:
+      title: Where would you rather live?
+      mode: speaking
+      body: |
+        Describe the place where you live now with at least four adjective + noun combinations (der laute Verkehr, die schöne Altstadt …). Then say whether you would rather live in a big city or in the country, and why. Record yourself, or discuss it with the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: Der ___ Garten ist ein Traum für die Kinder. (riesig) || riesige || Nominative masculine after der: -e. || @tags de.adjective-endings,de.nominative
+      fill: Ich hasse den ___ Lärm an der Hauptstraße. (ständig) || ständigen || Accusative masculine after den: -en. || @tags de.adjective-endings,de.accusative
+      fill: Wir nehmen die ___ Wohnung in der Altstadt. (hell) || helle || Accusative feminine after die: -e (same as the nominative). || @tags de.adjective-endings,de.accusative
+      fill: Kennst du schon die ___ Nachbarn? (neu) || neuen || Plural after die: always -en. || @tags de.adjective-endings,de.plural
+      mc: "Siehst du ___ Haus da hinten?" || *das alte | das alten | den alten || Das Haus is neuter; in the accusative the neuter adjective after das ends in -e. || @tags de.adjective-endings,de.accusative
+      mc: "Dieser ___ Bahnhof ist nur zwei Kilometer entfernt." (klein) || *kleine | kleinen | kleiner || Dieser works like der: nominative masculine → -e. || @tags de.adjective-endings,de.demonstratives
+      rw: Add the adjective "ruhig" :: Wir suchen das Dorf in der Nähe von Kassel. || Wir suchen das ruhige Dorf in der Nähe von Kassel. || Accusative neuter after das: -e. || @tags de.adjective-endings
+      tf: Jakob likes the lively atmosphere of the city. || true || "Trotzdem liebe ich die lebendige Stadt – die Cafés, die Kinos, die vielen Leute." || @ctx dialogue
+      short: How much rent do Selin and Jakob pay for their flat? || kw: 1800/1.800/achtzehnhundert/eintausendachthundert || "Für die kleine Wohnung hier zahlen wir fast 1.800 Euro." || @ctx dialogue
+      listen: @dialogue || What do they decide at the end? || To buy the house immediately | *To look at the house again on Saturday | To stay in Frankfurt for good || "Diesen Samstag fahren wir hin – aber wir nehmen den frühen Zug!"
+      listen: Ich wohne gern auf dem Land. Die frische Luft und die schöne Landschaft sind mir wichtig, aber manchmal vermisse ich die vielen Konzerte in der Stadt. || What does the speaker sometimes miss? || The fresh air | *The concerts in the city | Her old neighbours || "Manchmal vermisse ich die vielen Konzerte in der Stadt." || @tags de.listening,de.adjective-endings
+      tr: I love the old houses, but I hate the heavy traffic. || Ich liebe die alten Häuser, aber ich hasse den starken Verkehr. | Ich liebe die alten Häuser, aber den starken Verkehr hasse ich. | Ich liebe die alten Häuser, aber ich hasse den dichten Verkehr. || Plural die alten Häuser (-en); accusative masculine den starken Verkehr (-en). || @tags de.adjective-endings
+      dict: Der kleine Bahnhof ist nur zwei Kilometer entfernt.
+      ask: City or countryside? Say where you would rather live and give two reasons. || kw: lieber/am liebsten/würde/möchte & stadt/land/dorf/großstadt & weil/denn/deshalb/obwohl || Ich würde lieber auf dem Land wohnen, weil die Luft besser ist. Den ständigen Verkehr in der Stadt finde ich anstrengend.
+
+  - title: Green habits
+    summary: Read four short statements about green living and express a contrast with obwohl — and compare it with trotzdem.
+    minutes: 40
+    skills: [reading, grammar, writing]
+    tags: [de.connectors, de.subordinate-clauses]
+    objectives:
+      - Use obwohl with the verb at the end of the clause
+      - Choose between obwohl and trotzdem
+      - Talk about recycling, shopping and transport habits
+    intro: |
+      Most people want to do something for the environment — but real life gets in the way: the bike ride is long, second-hand clothes take time to find, the family lives far away. In this lesson you will read how four people from different parts of Germany manage, and learn to express this kind of contrast with **obwohl** (although).
+    vocab: |
+      die Umwelt | the environment | n | Was tun Sie im Alltag für die Umwelt? | What do you do for the environment in everyday life? | g: f | pl: (no plural) | c: umweltfreundlich; der Umweltschutz
+      nachhaltig | sustainable | adj | Wir versuchen, nachhaltig zu leben. | We try to live sustainably. | n: Noun: die Nachhaltigkeit.
+      der Müll | rubbish; waste | n | Bring bitte den Müll raus! | Please take the rubbish out! | g: m | pl: (no plural) | c: den Müll trennen; den Müll rausbringen
+      trennen | to separate; to sort | v | In Deutschland trennen fast alle ihren Müll. | In Germany almost everyone sorts their rubbish. | n: Noun: die Mülltrennung.
+      die Tonne | (wheelie) bin | n | Die Verpackungen kommen in die gelbe Tonne. | Packaging goes in the yellow bin. | g: f | pl: die Tonnen | n: Also: die Mülltonne.
+      die Verpackung | packaging | n | Auf dem Markt kaufen wir ohne Verpackung ein. | At the market we shop without packaging. | g: f | pl: die Verpackungen
+      wegwerfen | to throw away | v | Ich werfe kaputte Sachen nicht sofort weg. | I don't throw broken things away straight away. | n: Separable and irregular: warf … weg, hat weggeworfen.
+      gebraucht | second-hand; used | adj | Fast alle meine Möbel sind gebraucht. | Almost all my furniture is second-hand. | n: Also: aus zweiter Hand.
+      tauschen | to swap; to exchange | v | Auf der Party tauschen wir Kleidung. | At the party we swap clothes. | c: etwas gegen etwas tauschen
+      leihen | to borrow; to lend | v | Für Ausflüge leihen wir uns ein Auto. | We borrow a car for trips. | n: sich etwas leihen = to borrow; jemandem etwas leihen = to lend. Irregular: lieh, hat geliehen.
+      anbauen | to grow (plants) | v | Auf dem Balkon baue ich Tomaten an. | I grow tomatoes on the balcony. | n: Separable: baute … an, hat angebaut.
+      konsequent | consistent | adj | Beim Fliegen sind wir nicht konsequent. | When it comes to flying we're not consistent.
+    grammar:
+      title: "obwohl: although"
+      body: |
+        **obwohl** (although) introduces a fact that would normally lead to the **opposite** result: *Ich fahre mit dem Rad, **obwohl** es zwölf Kilometer **sind**.* Like *weil* and *dass*, obwohl starts a subordinate clause, so the **conjugated verb goes to the end**.
+
+        If the obwohl-clause comes first, the main clause starts with its **verb**: *Obwohl ich keinen Garten habe, **baue** ich Tomaten an.*
+
+        You know **trotzdem** from Unit 2. It expresses the same idea from the other side: trotzdem stands in the main clause that contains the unexpected result, and the verb follows it directly.
+
+        *Obwohl es regnet, fahre ich Rad.* = *Es regnet. Trotzdem fahre ich Rad.*
+      table: |
+        Word | Where | Word order | Example
+        obwohl | starts the clause with the obstacle | verb at the end | Ich fahre Rad, obwohl es regnet.
+        obwohl (first) | clause 1 | verb – comma – verb | Obwohl es regnet, fahre ich Rad.
+        trotzdem | starts the clause with the result | verb right after it | Es regnet, trotzdem fahre ich Rad.
+      examples: |
+        Ich fahre jeden Tag mit dem Rad, obwohl es zwölf Kilometer sind. | I cycle every day, although it's twelve kilometres. | verb sind at the end
+        Obwohl ich keinen Garten habe, baue ich Tomaten an. | Although I don't have a garden, I grow tomatoes. | obwohl first: verb – comma – verb
+        Jule kauft gebrauchte Kleidung, obwohl sie oft lange suchen muss. | Jule buys second-hand clothes, although she often has to search for a long time. | modal verb at the very end
+        Bio-Gemüse ist teurer. Trotzdem kaufen wir es. | Organic vegetables are more expensive. We still buy them. | trotzdem: same idea
+      tip: obwohl goes with the obstacle (it's far, it rains), trotzdem goes with what you do anyway.
+    reading:
+      title: Grüner leben – vier Menschen, vier Wege
+      text: |
+        Wir haben unsere Leserinnen und Leser gefragt: Was tun Sie im Alltag für die Umwelt? Hier sind vier Antworten.
+
+        Katharina, 41, Ärztin aus Stuttgart: „Ich fahre jeden Tag mit dem Fahrrad zur Klinik, obwohl es zwölf Kilometer sind. Am Anfang war das hart, aber heute bin ich fitter als je zuvor. Unser Auto haben wir letztes Jahr verkauft. Für Ausflüge leihen wir uns ein Carsharing-Auto.“
+
+        Mehmet, 67, Rentner aus Duisburg: „Obwohl ich keinen Garten habe, baue ich auf meinem Balkon Tomaten, Kräuter und Erdbeeren an. Das schmeckt besser als alles aus dem Supermarkt. Außerdem repariere ich alte Fahrräder für die Kinder in meiner Straße, damit sie nicht im Müll landen.“
+
+        Jule, 19, Studentin aus Lüneburg: „Ich kaufe fast nur noch gebrauchte Kleidung, obwohl ich oft lange suchen muss. Einmal im Monat organisiere ich mit Freundinnen eine Tauschparty: Jede bringt fünf Teile mit und nimmt fünf andere mit nach Hause.“
+
+        Familie Nguyen aus Leipzig: „Wir trennen unseren Müll sehr genau und kaufen auf dem Markt ohne Verpackung ein. Obwohl unsere Kinder erst sechs und neun sind, kennen sie schon alle Tonnen. Nur beim Fliegen sind wir nicht konsequent: Die Großeltern wohnen in Vietnam, und wir wollen sie mindestens einmal im Jahr besuchen.“
+      translation: |
+        We asked our readers: what do you do for the environment in everyday life? Here are four answers.
+
+        Katharina, 41, a doctor from Stuttgart: "I cycle to the clinic every day, although it's twelve kilometres. At first it was hard, but today I'm fitter than ever. We sold our car last year. For trips we borrow a car-sharing car."
+
+        Mehmet, 67, a pensioner from Duisburg: "Although I don't have a garden, I grow tomatoes, herbs and strawberries on my balcony. They taste better than anything from the supermarket. I also repair old bikes for the children in my street so that they don't end up in the rubbish."
+
+        Jule, 19, a student from Lüneburg: "I buy almost only second-hand clothes now, although I often have to search for a long time. Once a month I organise a swap party with friends: everyone brings five items and takes five others home."
+
+        The Nguyen family from Leipzig: "We sort our rubbish very carefully and shop at the market without packaging. Although our children are only six and nine, they already know all the bins. We're only inconsistent when it comes to flying: the grandparents live in Vietnam, and we want to visit them at least once a year."
+    pronunciation:
+      title: "obwohl: final devoicing and the new start"
+      body: |
+        In **obwohl** the **b** comes at the end of a syllable, so it sounds like [p]: [ɔpˈvoːl]. The stress is on the second syllable, *ob-WOHL*, with a long o.
+
+        German words that begin with a vowel get a tiny new start in the throat (a glottal stop), so words are not linked as in English: *obwohl | es regnet*, *die | Umwelt*, *ich | arbeite*. In *Umwelt* and *Müll* the vowels are short because two consonants follow.
+      items: |
+        obwohl
+        die Umwelt
+        der Müll
+        die Verpackung
+        gebraucht
+        Obwohl es regnet, fahre ich Rad.
+    culture:
+      title: Five bins and a bottle deposit
+      body: |
+        Sorting rubbish (*Mülltrennung*) is part of everyday life in Germany. In many towns there is a bin for paper, one for packaging (*gelbe Tonne* or *gelber Sack*), one for organic waste (*Biotonne*) and one for everything else (*Restmüll*); glass goes into public containers sorted by colour. The colours and rules vary a little from town to town.
+
+        Most drinks bottles and cans carry a deposit (*Pfand*): you pay it when you buy the drink and get it back when you return the empty bottle to a machine in the supermarket.
+    mistakes: |
+      Obwohl es regnet, ich fahre mit dem Rad. => Obwohl es regnet, fahre ich mit dem Rad. | After an obwohl-clause, the main clause begins with its verb.
+      Ich fahre mit dem Rad, obwohl es ist kalt. => Ich fahre mit dem Rad, obwohl es kalt ist. | Obwohl sends the conjugated verb to the end of its clause.
+      Es ist weit, obwohl fahre ich mit dem Rad. => Es ist weit, trotzdem fahre ich mit dem Rad. | Obwohl must introduce the obstacle (es ist weit); for the unexpected result, use trotzdem.
+    task:
+      title: My green habit
+      mode: writing
+      body: |
+        The magazine wants more answers. Write your own statement (60–80 words): one thing you do for the environment, one difficulty, and one thing where you are not consistent. Use obwohl at least twice and trotzdem once.
+    exercises: |
+      fill: Ich fahre mit dem Rad zur Arbeit, ___ es zwölf Kilometer sind. || obwohl || The verb sind is at the end, and the clause names an obstacle: obwohl. || @tags de.connectors,de.subordinate-clauses
+      fill: Es sind zwölf Kilometer. ___ fahre ich mit dem Rad. || Trotzdem || New main clause with the unexpected result: trotzdem + verb. || @tags de.connectors
+      mc: Choose the correct sentence. || Obwohl es regnet, ich fahre mit dem Rad. | *Obwohl es regnet, fahre ich mit dem Rad. | Obwohl regnet es, fahre ich mit dem Rad. || In the obwohl-clause the verb goes to the end; the main clause then starts with its verb. || @tags de.connectors,de.word-order
+      rw: Join the sentences with obwohl :: Jule muss oft lange suchen. Sie kauft gebrauchte Kleidung. || Jule kauft gebrauchte Kleidung, obwohl sie oft lange suchen muss. | Obwohl Jule oft lange suchen muss, kauft sie gebrauchte Kleidung. || The obstacle (lange suchen) goes into the obwohl-clause; muss goes to the very end. || @tags de.connectors,de.subordinate-clauses
+      rw: Rewrite with trotzdem :: Obwohl das Bio-Gemüse teurer ist, kaufen wir es. || Das Bio-Gemüse ist teurer, trotzdem kaufen wir es. | Das Bio-Gemüse ist teurer. Trotzdem kaufen wir es. | Das Bio-Gemüse ist teurer, aber wir kaufen es trotzdem. || Two main clauses: the obstacle first, then trotzdem + verb. || @tags de.connectors
+      mc: "Wir trennen unseren Müll." What do they do? || *They sort their rubbish into different bins. | They take their rubbish out every day. | They produce no rubbish at all. || Trennen = to separate; Mülltrennung is sorting waste. || @skill vocabulary @tags de.vocabulary
+      tf: Katharina's family still uses their own car for day trips. || false || They sold their car and borrow a car-sharing car for trips. || @ctx reading
+      mc: What happens at Jule's swap party? || *Everyone brings five items and takes five others home. | Everyone repairs an old bike. | Everyone cooks with vegetables from their balcony. || "Jede bringt fünf Teile mit und nimmt fünf andere mit nach Hause." || @ctx reading @skill reading
+      short: Why does the Nguyen family still fly? || kw: großeltern/grandparents/vietnam/familie/family || The grandparents live in Vietnam, and they want to visit them once a year. || @ctx reading
+      listen: Obwohl ich in der Stadt wohne, habe ich kein Auto. Für den Wocheneinkauf nehme ich einfach das Lastenrad von unserem Nachbarn. || How does the speaker do the weekly shopping? || By bus | *With the neighbour's cargo bike | Online || "Für den Wocheneinkauf nehme ich einfach das Lastenrad von unserem Nachbarn." || @tags de.listening,de.connectors
+      tr: Although it's cold, we're cycling. || Obwohl es kalt ist, fahren wir mit dem Rad. | Obwohl es kalt ist, fahren wir mit dem Fahrrad. | Obwohl es kalt ist, fahren wir Rad. | Wir fahren mit dem Rad, obwohl es kalt ist. | Wir fahren Rad, obwohl es kalt ist. || Obwohl + verb at the end; if it comes first, the main clause starts with fahren. || @tags de.connectors,de.subordinate-clauses
+      dict: Obwohl ich keinen Garten habe, baue ich Tomaten an.
+      say: Ich kaufe fast nur noch gebrauchte Kleidung. || I buy almost only second-hand clothes now.
+      write: Write a statement (60–80 words) for the magazine about your green habits. Use obwohl twice and trotzdem once. || min=50 || req: obwohl | trotzdem || Ich heiße Ana und wohne in Bremen. Obwohl ich wenig Zeit habe, koche ich jeden Tag frisch und kaufe auf dem Markt ein. Ich nehme immer meine eigenen Taschen mit. Leider bestelle ich oft Kleidung im Internet, obwohl ich weiß, dass das viel Verpackung macht. Das ist schlecht für die Umwelt. Trotzdem ist es so praktisch! Nächstes Jahr möchte ich das ändern.
+
+  - title: Proposing solutions
+    summary: Discuss problems in a shared courtyard, make proposals and agree on solutions — with adjective endings in the dative.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.adjective-endings, de.dative]
+    objectives:
+      - Use adjective endings after the definite article in the dative (always -en)
+      - Make proposals with Ich schlage vor, dass …, Wir könnten … and Wie wäre es mit …?
+      - Agree, add ideas and divide up tasks
+    intro: |
+      Too many bikes in the hallway, ugly bins, a grey courtyard — problems like these are solved in a *Hausversammlung*, a meeting of the people who live in a building. In this lesson you will listen to one and learn how to make proposals. You will also complete the picture of adjective endings after the definite article: in the **dative**, it's always **-en**.
+    vocab: |
+      die Lösung | solution | n | Wir brauchen eine Lösung für die vielen Fahrräder. | We need a solution for all the bikes. | g: f | pl: die Lösungen | c: eine Lösung finden
+      der Vorschlag | suggestion; proposal | n | Hat jemand einen besseren Vorschlag? | Does anyone have a better suggestion? | g: m | pl: die Vorschläge | c: einen Vorschlag machen
+      vorschlagen | to suggest; to propose | v | Ich schlage vor, dass wir eine Hecke pflanzen. | I suggest that we plant a hedge. | n: Separable and irregular: schlug … vor, hat vorgeschlagen.
+      der Hinterhof | backyard; inner courtyard | n | Der Hinterhof ist grau und leer. | The backyard is grey and empty. | g: m | pl: die Hinterhöfe
+      der Fahrradständer | bike rack | n | Neben der Mauer könnten wir Fahrradständer bauen. | We could build bike racks next to the wall. | g: m | pl: die Fahrradständer
+      die Mülltonne | wheelie bin | n | Die Mülltonnen stehen direkt vor dem Fenster. | The bins are right in front of the window. | g: f | pl: die Mülltonnen
+      die Fläche | area; space | n | Auf der freien Fläche ist Platz für einen Garten. | There's room for a garden on the empty space. | g: f | pl: die Flächen
+      der Gemeinschaftsgarten | community garden | n | Im Gemeinschaftsgarten gärtnern Nachbarn zusammen. | In the community garden neighbours garden together. | g: m | pl: die Gemeinschaftsgärten
+      das Hochbeet | raised bed | n | In den Hochbeeten wachsen Salat und Kräuter. | Lettuce and herbs grow in the raised beds. | g: n | pl: die Hochbeete
+      pflanzen | to plant | v | Im Frühling pflanzen wir eine Hecke. | In spring we're planting a hedge. | n: Noun: die Pflanze.
+      die Hausverwaltung | property management (company) | n | Die Hausverwaltung muss die Kosten genehmigen. | The property management has to approve the costs. | g: f | pl: die Hausverwaltungen
+      mitmachen | to join in; to take part | v | Wer möchte beim Garten mitmachen? | Who would like to join in with the garden? | n: Separable: hat mitgemacht.
+    grammar:
+      title: "Adjective endings in the dative — and the full picture"
+      body: |
+        After the definite article in the **dative**, the adjective always ends in **-en** — in all genders and in the plural: *mit **dem** klein**en** Schuppen, neben **der** groß**en** Mauer, auf **dem** frei**en** Platz, mit **den** viel**en** Fahrrädern.* In the dative plural the noun also adds **-n** if it doesn't already end in -n or -s: *die Fahrräder → mit den Fahrrädern*.
+
+        That completes the endings after der, die, das (and dieser, jeder, welcher): **-e** in five places (nominative singular of all genders, accusative feminine and neuter), **-en** everywhere else.
+
+        Useful phrases for proposals: **Ich schlage vor, dass** … (verb at the end), **Wir könnten** … (infinitive at the end), **Wie wäre es mit** + dative?, **Was halten Sie von** + dative? To agree: *Gute Idee! Einverstanden. Das finde ich gut.*
+      table: |
+        Case | masculine | feminine | neuter | plural
+        nominative | der kleine Hof | die große Mauer | das neue Beet | die alten Tonnen
+        accusative | den kleinen Hof | die große Mauer | das neue Beet | die alten Tonnen
+        dative | dem kleinen Hof | der großen Mauer | dem neuen Beet | den alten Tonnen
+      examples: |
+        Mit den vielen Fahrrädern kommt man kaum ins Haus. | With all the bikes you can hardly get into the building. | dative plural: -en, noun + -n
+        Ich schlage vor, dass wir neben der großen Mauer Fahrradständer bauen. | I suggest we build bike racks next to the big wall. | dative feminine: -en
+        Wir könnten die Tonnen neben dem kleinen Schuppen aufstellen. | We could put the bins next to the little shed. | dative masculine: -en
+        Ich spreche mit der neuen Verwalterin. | I'll speak to the new property manager. | mit + dative: -en
+      tip: In the dative there is nothing to choose — after dem, der or den the adjective always ends in -en.
+    dialogue:
+      title: Die Hausversammlung
+      setting: An evening in the courtyard of an old apartment building in Hannover-Linden. Three tenants meet to talk about how to improve the shared courtyard.
+      speakers: A=Frau Albers/f; K=Kemal/m; L=Lotte/f
+      lines: |
+        A: Danke, dass Sie alle gekommen sind. Heute geht es um unseren grauen Hinterhof. | Thank you all for coming. Today it's about our grey backyard.
+        K: Gut so. Mit den vielen Fahrrädern vor der Tür kommt man kaum noch ins Haus. | Good. With all the bikes in front of the door you can hardly get into the building.
+        L: Ich schlage vor, dass wir neben der großen Mauer überdachte Fahrradständer bauen. | I suggest we build covered bike racks next to the big wall.
+        A: Gute Idee. Und was machen wir mit den hässlichen Mülltonnen vor den Fenstern? | Good idea. And what shall we do with the ugly bins in front of the windows?
+        K: Wir könnten sie neben dem kleinen Schuppen aufstellen und dort eine Hecke pflanzen. | We could put them next to the little shed and plant a hedge there.
+        L: Und auf der freien Fläche in der Mitte machen wir einen Gemeinschaftsgarten! | And on the empty space in the middle we'll make a community garden!
+        A: Wie wäre es mit Hochbeeten? Dann können auch die älteren Nachbarn mitmachen. | How about raised beds? Then the older neighbours can join in too.
+        K: Super. Aber wer bezahlt das alles? Die Hausverwaltung ist nicht gerade großzügig. | Great. But who's going to pay for all this? The property management isn't exactly generous.
+        A: Ich spreche mit der neuen Verwalterin. Sie hat schon Interesse gezeigt. | I'll talk to the new property manager. She's already shown interest.
+        L: Für die Pflanzen könnten wir beim nächsten Hoffest Geld sammeln. | For the plants we could collect money at the next courtyard party.
+        K: Und ich frage meinen Schwager. Er arbeitet in der großen Gärtnerei an der Hauptstraße. | And I'll ask my brother-in-law. He works at the big garden nursery on the main road.
+        A: Wunderbar! Dann treffen wir uns in zwei Wochen wieder hier im Hof. | Wonderful! Then we'll meet here in the courtyard again in two weeks.
+    pronunciation:
+      title: "ng is one sound: Lösung, Verwaltung, Versammlung"
+      body: |
+        The letters **ng** stand for one single sound [ŋ], as in English *singer* — not *finger*. There is no separate [g] afterwards: *die Lösung* [ˈløːzʊŋ], *die Hausverwaltung, die Versammlung*.
+
+        Many nouns end in **-ung**, so you will need this sound constantly. In the plural, *-ungen* still has no [g]: *die Lösungen* [ˈløːzʊŋən].
+      items: |
+        die Lösung
+        die Hausverwaltung
+        die Versammlung
+        die Lösungen
+        Ich schlage vor, dass wir anfangen.
+        Wie wäre es mit Hochbeeten?
+    culture:
+      title: Courtyards and community gardens
+      body: |
+        Many German cities have rows of old apartment buildings from around 1900 with a *Hinterhof* — an inner courtyard behind the street front. Once dark and grey, many of them have been turned into green spaces with benches, raised beds and bike racks. Community gardens (*Gemeinschaftsgärten*) and *urban gardening* projects on unused city land are popular too.
+
+        In rented buildings, changes to the courtyard usually need the approval of the landlord or the *Hausverwaltung*, and the *Hausordnung* (house rules) often says when you may make noise or barbecue.
+    mistakes: |
+      Mit den viele Fahrrädern kommt man nicht ins Haus. => Mit den vielen Fahrrädern kommt man nicht ins Haus. | In the dative the adjective after den always ends in -en.
+      Wir bauen sie neben der große Mauer. => Wir bauen sie neben der großen Mauer. | Dative feminine (neben der … — where?): the adjective ends in -en.
+      Ich schlage vor, dass wir bauen einen Fahrradständer. => Ich schlage vor, dass wir einen Fahrradständer bauen. | In a dass-clause the conjugated verb goes to the end.
+    task:
+      title: Your house meeting
+      mode: interaction
+      body: |
+        In a group (or with the AI coach), hold a short meeting about a problem in your building, street or workplace: noise, parking, rubbish or an empty space. Each person makes at least one proposal with Ich schlage vor, dass …, Wir könnten … or Wie wäre es mit …?, reacts to the others and takes on a task. Practise the meeting language with the "Taking part in a business meeting" scenario.
+    exercises: |
+      fill: Mit den ___ Fahrrädern kommt man kaum ins Haus. (viel) || vielen || Dative plural after den: -en. || @tags de.adjective-endings,de.dative
+      fill: Wir bauen die Ständer neben der ___ Mauer. (groß) || großen || Dative feminine after der: -en. || @tags de.adjective-endings,de.dative
+      fill: Auf der ___ Fläche machen wir einen Garten. (frei) || freien || Auf der … (where?) is dative: -en. || @tags de.adjective-endings,de.dative
+      mc: "Wir stellen die Tonnen neben ___ Schuppen." (klein) || *den kleinen | dem kleine | den kleine || Stellen answers "where to?", so neben takes the accusative: den kleinen Schuppen (masculine accusative: -en). || @tags de.adjective-endings,de.two-way-prepositions
+      mc: Which sentence makes a correct proposal? || *Ich schlage vor, dass wir eine Hecke pflanzen. | Ich schlage vor, dass wir pflanzen eine Hecke. | Ich schlage vor, wir eine Hecke pflanzen. || In the dass-clause the verb pflanzen goes to the end. Without dass you would need normal word order: …, wir pflanzen eine Hecke. || @tags de.subordinate-clauses
+      rw: Add the adjective "alt" :: Wir sprechen mit den Nachbarn aus dem dritten Stock. || Wir sprechen mit den alten Nachbarn aus dem dritten Stock. || Dative plural after den: alten. || @tags de.adjective-endings,de.dative
+      rw: Make it a proposal starting with "Ich schlage vor, dass …" :: Wir sammeln beim Hoffest Geld. || Ich schlage vor, dass wir beim Hoffest Geld sammeln. || The verb sammeln moves to the end of the dass-clause. || @tags de.subordinate-clauses
+      tf: Frau Albers suggests raised beds so that older neighbours can take part. || true || "Wie wäre es mit Hochbeeten? Dann können auch die älteren Nachbarn mitmachen." || @ctx dialogue
+      short: Where does Kemal's brother-in-law work? || kw: gärtnerei/nursery/garden centre/garten || "Er arbeitet in der großen Gärtnerei an der Hauptstraße." || @ctx dialogue
+      listen: @dialogue || When will the tenants meet again? || *In two weeks | Next Saturday | At the next courtyard party || "Dann treffen wir uns in zwei Wochen wieder hier im Hof."
+      listen: Ich schlage vor, dass wir auf dem großen Parkplatz hinter dem Rathaus einen Wochenmarkt machen. Dann haben die Leute im Viertel endlich frisches Gemüse. || Where should the market take place? || In front of the town hall | *On the big car park behind the town hall | In a courtyard || "Auf dem großen Parkplatz hinter dem Rathaus." || @tags de.listening,de.adjective-endings
+      tr: We could plant flowers in the old courtyard. || Wir könnten im alten Hof Blumen pflanzen. | Wir könnten Blumen im alten Hof pflanzen. | Wir könnten im alten Hinterhof Blumen pflanzen. | Wir könnten Blumen im alten Hinterhof pflanzen. || Im = in dem (dative): im alten Hof; könnten + infinitive at the end. || @tags de.adjective-endings,de.konjunktiv2
+      dict: Ich schlage vor, dass wir neben der großen Mauer Fahrradständer bauen.
+      ask: Your street has a problem with rubbish and parked cars. Make two proposals. || kw: ich schlage vor/wir könnten/wie wäre es/man könnte & müll/tonnen/parkplatz/autos/fahrrad/bäume/hecke/garten/bänke/schild || Ich schlage vor, dass wir mehr Mülltonnen aufstellen. Und wir könnten auf dem kleinen Platz an der Ecke Fahrradständer bauen.

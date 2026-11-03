@@ -1,0 +1,102 @@
+language: fr
+level: A1
+title: "French A1 · Foundations"
+description: Build a solid base in everyday French — greetings, personal information, daily routines, food, places, shopping, free time and simple travel.
+hours: 70
+summary: >-
+  A1 learners can understand and use familiar everyday expressions and very basic phrases, introduce themselves,
+  ask and answer simple questions about personal details, and interact simply when the other person talks slowly
+  and clearly. This course delivers around 70 hours of guided practice across 8 units.
+objectives:
+  - Greet people and introduce yourself formally and informally
+  - Give and ask for personal information (name, age, nationality, address, phone number)
+  - Talk about family, jobs and daily routines in the present tense
+  - Order food and drinks and buy things in shops
+  - Ask for and understand simple directions
+  - Talk about likes, hobbies and the weather
+  - Make simple plans and handle basic travel situations
+canDo:
+  listening:
+    - Understand familiar words and very basic phrases about yourself, your family and your surroundings when people speak slowly and clearly
+    - Catch numbers, prices and times in short announcements
+  reading:
+    - Understand familiar names, words and very simple sentences on notices, menus, forms and short messages
+  spokenInteraction:
+    - Interact in a simple way if the other person repeats or rephrases and helps you
+    - Ask and answer simple questions on very familiar topics
+  spokenProduction:
+    - Use simple phrases and sentences to describe where you live and people you know
+  writing:
+    - Write a short, simple message or postcard
+    - Fill in forms with personal details
+grammar:
+  - Subject pronouns and tu/vous register
+  - Présent of être, avoir, aller, faire, prendre, venir and regular -er verbs
+  - Articles (un/une/des, le/la/les), gender and plural of nouns
+  - Adjective agreement and position
+  - Possessive determiners (mon, ma, mes…)
+  - Negation with ne… pas
+  - Yes/no questions and question words (où, quand, comment, combien…)
+  - Partitive articles (du, de la, des) and quantities
+  - Prepositions of place and à + le = au
+  - Reflexive verbs in the present
+  - Near future (aller + infinitive)
+  - Imperative for directions
+vocabularyDomains:
+  - Greetings and politeness
+  - Personal information, numbers and the alphabet
+  - Family and descriptions
+  - Jobs and daily routine
+  - Time, days and frequency
+  - Food, drink and shopping
+  - Places in town and the home
+  - Clothes, colours and prices
+  - Hobbies and the weather
+  - Transport and accommodation
+assessment: A 40-minute cumulative test covering vocabulary, grammar, listening and reading tasks from all eight units, with a short writing task. A score of 70% or more confirms the A1 level.
+units:
+  - title: "Bonjour !"
+    theme: Greetings and introductions
+    lessons: [Greetings and goodbyes, Introducing yourself, "Numbers, age and spelling"]
+  - title: Ma famille et moi
+    theme: Family and people
+    lessons: [My family, Describing people, Jobs and workplaces]
+  - title: Une journée ordinaire
+    theme: Time and daily routine
+    lessons: [Telling the time, My daily routine, Days and frequency]
+  - title: Au café et au marché
+    theme: Food and drink
+    lessons: [Ordering at a café, At the market, At the restaurant]
+  - title: Ma ville, ma maison
+    theme: Places and the home
+    lessons: [Places in town, Asking for directions, My home]
+  - title: Faire du shopping
+    theme: Shopping
+    lessons: [Clothes and colours, Prices and numbers to 100, In a shop]
+  - title: Loisirs et météo
+    theme: Free time and weather
+    lessons: [Hobbies and likes, Weather and seasons, Making plans]
+  - title: En voyage
+    theme: Travel
+    lessons: [Getting around, Plans for the weekend, Booking a room]
+assessmentItems: |
+  mc: Which greeting is right for a shopkeeper in the morning? || Salut ! | *Bonjour, madame. | Bonsoir ! || Bonjour + madame/monsieur is the polite daytime greeting. || @tags fr.register @obj Greet people and introduce yourself formally and informally
+  fill: Je ___ vingt-cinq ans. || ai || Age uses avoir: j'ai vingt-cinq ans. || @tags fr.avoir @obj Give and ask for personal information
+  fill: Nous ___ français. || sommes || Nous + être = nous sommes. || @tags fr.etre
+  mc: "My mother" in French is… || mon mère | *ma mère | mes mère || Mère is feminine singular, so the possessive is ma. || @tags fr.possessives @obj Talk about family, jobs and daily routines in the present tense
+  fill: Elle ___ (se lever) à sept heures. || se lève || Se lever: elle se lève (accent grave). || @tags fr.reflexive
+  mc: You want a coffee. You say: || Je veux café. | *Je voudrais un café, s'il vous plaît. | Je suis un café. || Je voudrais + article is the polite way to order. || @tags fr.ordering @obj Order food and drinks and buy things in shops
+  fill: Je voudrais ___ pain, s'il vous plaît. || du || Bread (le pain) is uncountable here: du pain. || @tags fr.partitive
+  mc: "Turn left" is… || Tournez à droite. | *Tournez à gauche. | Allez tout droit. || À gauche = left; à droite = right; tout droit = straight on. || @tags fr.imperative @obj Ask for and understand simple directions
+  fill: Je vais ___ cinéma ce soir. || au || À + le = au: au cinéma. || @tags fr.prepositions-place
+  mc: Which sentence is negative? || Je parle anglais. | *Je ne parle pas anglais. | Je parle pas de anglais. || Negation surrounds the verb: ne… pas. || @tags fr.negation
+  fill: Il ___ beau aujourd'hui. || fait || Weather expressions use faire: il fait beau. || @tags fr.weather @obj Talk about likes, hobbies and the weather
+  mc: "I like swimming" is… || *J'aime nager. | Je aime nager. | J'aime de nager. || Aimer + infinitive, and je becomes j' before a vowel. || @tags fr.likes
+  fill: Demain, nous ___ visiter Lyon. || allons || Near future: aller (nous allons) + infinitive. || @tags fr.futur-proche @obj Make simple plans and handle basic travel situations
+  mc: At a hotel you say: || *Je voudrais réserver une chambre pour deux nuits. | Je voudrais une chambre pour deux nuit. | Je réserve chambre deux nuits. || Use je voudrais + infinitive; nuits takes -s in the plural. || @tags fr.ordering
+  listen: Le train pour Bordeaux part à quatorze heures trente, voie trois. || When does the train leave? || 4:30 | *14:30 | 13:40 || Quatorze heures trente = 14:30 (2:30 p.m.). || @tags fr.time
+  listen: Une baguette et deux croissants, ça fait trois euros vingt. || How much does it cost? || €2.20 | *€3.20 | €3.02 || Trois euros vingt = €3.20. || @tags fr.numbers
+  short: In French, how do you ask someone (formally) where they live? || Où habitez-vous ? | Vous habitez où ? | Où est-ce que vous habitez ? || Où + habiter (vous habitez) in any of the three question forms. || @tags fr.questions
+  tr: I don't speak German. || Je ne parle pas allemand. || Negation: ne… pas around the verb; languages take no capital. || @tags fr.negation
+  tr: Where is the train station, please? || Où est la gare, s'il vous plaît ? | La gare, s'il vous plaît ? || Où est + la gare; s'il vous plaît makes it polite. || @tags fr.questions
+  write: Write a short postcard to a friend from your holiday: where you are, the weather, what you do every day. || min=30 || req: je suis/nous sommes | il fait | je/nous || Salut Léa ! Je suis à Nice avec ma sœur. Il fait beau et chaud. Le matin, nous allons à la plage et le soir, nous mangeons au restaurant. Bisous, Anna

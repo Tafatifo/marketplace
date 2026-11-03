@@ -1,0 +1,360 @@
+unit: 1
+title: "Hej!"
+theme: Greetings and introductions
+description: Greet people at any time of day, choose between du and I (and recognise the very formal De), introduce yourself, and give your age, phone number and the spelling of your name.
+free: true
+objectives:
+  - Greet people and say goodbye at different times of day
+  - Introduce yourself with your name, where you come from, where you live and the languages you speak
+  - Use numbers 0–20 to give your age and phone number, and spell your name
+canDo:
+  - I can greet someone and say goodbye at different times of day.
+  - I can choose between du and I, and I know that De is rare and very formal.
+  - I can say my name, where I come from, where I live and which languages I speak.
+  - I can give my age and phone number and spell my name.
+review: |
+  mc: Your new boss, who is about 60, says "Hej!" to you on your first day. What do you answer? || *Hej! Hvordan har du det? | Goddag. Hvordan har De det? | Godnat! || In Denmark, hej and du are normal with your boss too. De would sound stiff, and godnat is for bedtime. || @tags da.register
+  mc: "Hvordan har I det?" is a question for… || one friend | *two or more people | a very formal stranger || I (always with a capital I) is the plural "you". One person is du; the very formal, rare form is De. || @tags da.register,da.pronouns
+  fill: Ida og Emil ___ seksten år. || er || For age, Danish uses være: er — the same form for every person. || @tags da.vaere-have
+  fill: Vi ___ i Aalborg. (live) || bor || Bo → bor: add -r for the present tense. || @tags da.present
+  fill: Hvad ___ du? – Jeg hedder Bo. || hedder || Ask a name with hedde: Hvad hedder du? || @tags da.present
+  tr: I'm English and I live in Aarhus. || Jeg er engelsk, og jeg bor i Aarhus. | Jeg er engelsk og bor i Aarhus. | Jeg er englænder, og jeg bor i Aarhus. || Nationality with være and a small letter (engelsk); bo i + city. || @tags da.vaere-have,da.present
+  tr: Nice to meet you! || Hyggeligt at møde dig! | Dejligt at møde dig! | Rart at møde dig! || All three are friendly ways to say "nice to meet you". || @tags da.register
+  mc: Which answer fits "Er du svensk?" || Ja, jeg har svensk. | *Nej, jeg er norsk. | Nej, jeg hedder norsk. || Nationality uses være: jeg er norsk. Har (have) and hedder (am called) don't fit. || @tags da.vaere-have
+  listen: Hej! Jeg hedder Freja, jeg er femten år, og jeg taler dansk og engelsk. || How old is Freja? || 5 | 13 | *15 || "Jeg er femten år" — I'm fifteen. Tretten would be 13. || @tags da.numbers
+  listen: Farvel, og tak for i dag! || What is happening? || Someone arrives in the morning | *Someone leaves at the end of the day | Someone goes to bed || Farvel = goodbye, and "tak for i dag" (thanks for today) is said at the end of a workday or class. || @tags da.register
+  ask: Introduce yourself to a new colleague — greet them, then give your name, where you come from and where you live. || kw: hej/goddag/godmorgen & jeg hedder/mit navn er & jeg bor/jeg kommer fra/jeg er fra || Hej! Jeg hedder Mark. Jeg kommer fra England, og jeg bor i Aarhus. Hyggeligt at møde dig!
+  write: Write a short email to your new Danish teacher introducing yourself (name, age, where you come from, city, languages). || min=25 || req: hej | jeg hedder/mit navn er | år | jeg bor | jeg taler || Hej Karen! Jeg hedder Lucas. Jeg er nitten år, og jeg kommer fra Canada. Jeg bor i Odense. Jeg taler engelsk, fransk og lidt dansk. Mange hilsner, Lucas
+lessons:
+  - title: Greetings and goodbyes
+    summary: Say hello, ask how someone is and say goodbye — and learn why Danes say du to almost everyone.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [da.register]
+    objectives:
+      - Choose between hej, godmorgen, goddag, godaften and godnat
+      - Ask how someone is with du or I and answer politely
+      - Say goodbye with farvel, hej hej and vi ses
+    intro: |
+      Danish greetings are short and friendly. **Hej** works almost everywhere — with friends, in shops and even with your boss — and nearly everyone says **du** (you) to each other. In this lesson you will learn the greetings Danes use every day, how to ask how someone is, and how to say goodbye at the end of the day.
+    vocab: |
+      hej | hi; hello | interj | Hej, Mette! Hvordan går det? | Hi, Mette! How's it going? | c: sige hej; hej med dig | n: Danes say hej to almost everyone — friends, shop staff, colleagues and their boss.
+      godmorgen | good morning | interj | Godmorgen, alle sammen! | Good morning, everyone! | n: Used until about 10 a.m. The d is silent and morgen sounds like "morn".
+      goddag | hello; good day (formal) | interj | Goddag, og velkommen til Roskilde. | Hello, and welcome to Roskilde. | n: More formal than hej. You hear it from older people and in formal settings.
+      godaften | good evening | interj | Godaften, Ole. Hyggeligt at se dig! | Good evening, Ole. Nice to see you! | n: A greeting when you arrive in the evening; a little formal.
+      godnat | good night | interj | Godnat, skat. Sov godt! | Good night, darling. Sleep well! | n: Only when someone goes to bed or very late at night.
+      farvel | goodbye | interj | Farvel, og tak for i dag! | Goodbye, and thanks for today! | c: sige farvel
+      hej hej | bye (informal) | interj | Hej hej, vi ses! | Bye, see you! | n: Hej means hello and goodbye; doubled, it is a friendly goodbye.
+      vi ses | see you | expr | Vi ses i morgen, Jonas! | See you tomorrow, Jonas! | c: vi ses i morgen; vi ses senere
+      hvordan har du det? | how are you? | expr | Hej, Freja. Hvordan har du det? | Hi, Freja. How are you? | n: The answer uses have too: Jeg har det godt (I'm fine).
+      hvordan går det? | how's it going? | expr | Hej, Ahmed! Hvordan går det? | Hi, Ahmed! How's it going? | n: Answer: Det går fint or Det går godt.
+      godt | well; good | adv | Jeg har det godt, tak. | I'm fine, thanks. | n: The d is silent — godt sounds like "got".
+      fint | fine | adv | Det går fint, tak. | It's going fine, thanks.
+      tak | thank you; thanks | interj | Fint, tak. Og dig? | Fine, thanks. And you? | c: mange tak; tusind tak; selv tak | n: Selv tak means "you're welcome" — the answer to a thank-you.
+      undskyld | excuse me; sorry | interj | Undskyld, er du Mette? | Excuse me, are you Mette? | n: Use it to get attention and to apologise.
+    grammar:
+      title: "Du, I or De?"
+      body: |
+        Danish has three words for *you*:
+
+        - **du** — one person. Danes say *du* to almost everyone: friends, colleagues, their boss, teachers, doctors and shop staff.
+        - **I** — two or more people. It is always written with a capital *I*: *Hvordan har I det?* (How are you, all of you?)
+        - **De** — a very formal *you*, also with a capital letter. It is rare today. You may meet it in very formal letters, in contact with the royal family, or from some very old people. You don't need to use it, but you should recognise it.
+
+        Most Danes stopped using *De* in everyday life around the 1970s, so saying *De* to a colleague can sound cold or even ironic. When in doubt, use **du**.
+
+        Good news: the verb never changes with the person. It is *du har*, *I har* and *De har*. After a word like *og* (and) or *med* (with), *du* becomes **dig**: *Og dig?* *Hvad med dig?*
+      table: |
+        Pronoun | Who? | How are you?
+        du | one person (almost everyone) | Hvordan har du det?
+        I | two or more people | Hvordan har I det?
+        De | very formal, rare | Hvordan har De det?
+      examples: |
+        Hej, Sofie! Hvordan har du det? | Hi, Sofie! How are you? | du: one person
+        Hej, alle sammen! Hvordan har I det? | Hi, everyone! How are you all? | I: several people
+        Godt, tak. Hvad med dig? | Fine, thanks. What about you? | dig after med
+        Goddag. Hvordan har De det? | Good day. How are you? | De: very formal and rare
+      tip: Return the question with "Og dig?" or "Hvad med dig?" (And you? / What about you?) — it works in every situation.
+    dialogue:
+      title: Mandag morgen
+      setting: Monday morning at a small design office in Aarhus. Mette arrives and meets her colleagues Lars and Amira. At the end of the day, Amira goes home.
+      speakers: M=Mette/f; L=Lars/m; A=Amira/f
+      lines: |
+        M: Godmorgen, Lars! | Good morning, Lars!
+        L: Godmorgen, Mette. Hvordan har du det? | Good morning, Mette. How are you?
+        M: Jeg har det godt, tak. Og dig? | I'm fine, thanks. And you?
+        L: Fint, tak. Men jeg er lidt træt. | Fine, thanks. But I'm a bit tired.
+        A: Hej, Mette! Hej, Lars! | Hi, Mette! Hi, Lars!
+        M: Hej, Amira! Hvordan går det? | Hi, Amira! How's it going?
+        A: Det går godt. Og jeg har kaffe! | It's going well. And I've got coffee!
+        L: Tusind tak, Amira! | Thanks a lot, Amira!
+        A: Nå, farvel. Tak for i dag! | Well, goodbye. Thanks for today!
+        M: Tak for i dag. Vi ses i morgen! | Thanks for today. See you tomorrow!
+        L: Hej hej, Amira! | Bye, Amira!
+    pronunciation:
+      title: Silent letters in greetings
+      body: |
+        Danish spelling often shows letters you hardly hear. In **godt** the d is silent, so the word sounds like "got". In **godmorgen** the d disappears and the end of *morgen* is very weak — it sounds roughly like "go-morn". In **godaften** and **goddag** the first d is silent too, and the final g of *goddag* is so weak that you mainly hear "go-da".
+
+        In **hvordan** the h is silent: *hv* is simply a v sound. Listen to each item, repeat it slowly, then say it at normal speed.
+      items: |
+        godt
+        godmorgen
+        goddag
+        godaften
+        hvordan
+        farvel
+    culture:
+      title: First names, du and "tak for i dag"
+      body: |
+        Denmark is an informal country. Colleagues, students and teachers use first names and *du*, and many people greet their boss with a simple *hej*. When you meet someone for the first time, a handshake is common; good friends often hug.
+
+        Danes say *tak* (thanks) a lot. At the end of a workday, a class or a meeting you will hear **tak for i dag** (thanks for today). After a meal, guests say **tak for mad** (thanks for the food), and the next time you see a host, you say **tak for sidst** (thanks for last time).
+    mistakes: |
+      Hvordan har De det? (to a classmate) => Hvordan har du det? | De is very formal and rare. With classmates, colleagues and almost everyone else, use du.
+      Godnat! (leaving work at 5 p.m.) => Farvel! Vi ses i morgen! | Godnat is only for bedtime or very late at night. When you leave, say farvel, hej hej or vi ses.
+      Jeg er godt, tak. => Jeg har det godt, tak. | Danish says "I have it good": jeg har det godt, with have — not være.
+    task:
+      title: Three greetings
+      mode: speaking
+      body: |
+        You start a Danish course in Odense. Greet the teacher when you arrive in the morning, greet a classmate and ask how they are, and at the end of the day say "Tak for i dag" and goodbye. Record yourself in Speaking practice, or try the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      mc: You walk into a small bakery in Odense at 8 a.m. Which greeting fits? || *Godmorgen! | Godnat! | Godaften! || Godmorgen is the morning greeting. Godaften is for the evening and godnat for bedtime. || @tags da.register
+      mc: You greet a group of classmates. Which question fits? || Hvordan har du det? | *Hvordan har I det? | Hvordan har De det? || I (capital I) is "you" for two or more people. Du is for one person, De is very formal. || @tags da.register,da.pronouns
+      fill: Hej, Jonas! Hvordan ___ du det? || har || The fixed phrase uses have: Hvordan har du det? || @tags da.vaere-have @hint have
+      fill: Jeg har det ___, tak. (well) || godt / fint || Jeg har det godt (or fint), tak — I'm fine, thanks. || @tags da.vaere-have
+      mc: It's 11 p.m. and your flatmate goes to bed. You say: || *Godnat! | Godaften! | Goddag! || Godnat is said when someone goes to bed. Godaften is a greeting when you arrive in the evening. || @tags da.register
+      mc: A friend asks "Hvordan går det?". The most natural answer is: || *Det går fint, tak. Hvad med dig? | Hvordan går det? | Godnat! || Answer (Det går fint), then return the question with "Hvad med dig?". || @tags da.register
+      order: Jeg har det godt, tak. || I'm fine, thanks. || @tags da.vaere-have
+      tr: Goodbye, see you tomorrow! || Farvel, vi ses i morgen! | Farvel. Vi ses i morgen! | Hej hej, vi ses i morgen! || "See you tomorrow" is vi ses i morgen. || @tags da.register
+      tr: Hi, everyone! How are you? || Hej, alle sammen! Hvordan har I det? | Hej alle sammen, hvordan har I det? | Hej, alle sammen! Hvordan går det? || Alle sammen = everyone; I is "you" for a group. || @tags da.register,da.pronouns
+      short: How does Lars feel? || kw: træt/tired || Lars says "Jeg er lidt træt" — he's a bit tired. || @ctx dialogue
+      listen: @dialogue || When does Amira say "Tak for i dag"? || When she arrives in the morning | *When she leaves at the end of the day | When she brings the coffee || "Tak for i dag" (thanks for today) is said at the end of a workday, a class or a meeting. || @tags da.listening
+      listen: Godnat, og sov godt! || When would you hear this? || In the morning, at breakfast | *At bedtime | When you arrive at a party || Godnat = good night, sov godt = sleep well. || @tags da.register
+      ask: Greet a colleague in the morning and ask how they are. || kw: godmorgen/hej & hvordan || Godmorgen, Lars! Hvordan har du det?
+      write: Write a short message (2–3 sentences) to a classmate — say hi, ask how they are, and say see you tomorrow. || min=8 || req: hej | hvordan | vi ses || Hej Freja! Hvordan har du det? Jeg har det fint. Vi ses i morgen!
+      dict: Hej, Jonas! Hvordan har du det?
+
+  - title: Introducing yourself
+    summary: Say your name, where you come from, where you live and which languages you speak, using hedde, være, komme fra, bo and tale.
+    minutes: 40
+    skills: [grammar, speaking, reading]
+    tags: [da.vaere-have, da.present, da.questions]
+    objectives:
+      - Give your name with hedde
+      - Say where you come from and where you live
+      - Ask simple questions with the verb first or after a question word
+    intro: |
+      Introducing yourself is the first real conversation you will have in Danish. You need a way to give your name (**jeg hedder**), the verb **være** (to be), and verbs for where you come from (**komme fra**), where you live (**bo**) and which languages you speak (**tale**). The best news: Danish verbs have the same form for every person.
+    vocab: |
+      jeg hedder | my name is (I am called) | expr | Jeg hedder Sofie. | My name is Sofie. | n: From the verb hedde (to be called). The dd is a soft d.
+      hvad hedder du? | what's your name? | expr | Hej! Hvad hedder du? | Hi! What's your name? | n: The h and the d in hvad are silent: it sounds like "va".
+      være | to be | v | Jeg er studerende i Aarhus. | I'm a student in Aarhus. | n: Present tense: er for every person — jeg er, du er, vi er.
+      komme fra | to come from | v | Jeg kommer fra Polen. | I come from Poland. | c: Hvor kommer du fra? | n: Present tense: kommer.
+      bo | to live (somewhere) | v | Jeg bor i Odense. | I live in Odense. | c: bo i + city; bo i Danmark | n: Present tense: bor.
+      tale | to speak | v | Jeg taler engelsk og lidt dansk. | I speak English and a little Danish. | n: Present tense: taler. Languages have a small letter.
+      dansk | Danish | adj | Min veninde er dansk. | My friend is Danish. | n: Also the language: Jeg taler dansk. A Danish person is en dansker.
+      engelsk | English | adj | Tom er engelsk, men han bor i Vejle. | Tom is English, but he lives in Vejle.
+      tysk | German | adj | Hun taler tysk og dansk. | She speaks German and Danish.
+      svensk | Swedish | adj | Erik er svensk. Han kommer fra Malmø. | Erik is Swedish. He comes from Malmö. | n: Danes write the Swedish city Malmö as Malmø.
+      lidt | a little | adv | Jeg taler lidt dansk. | I speak a little Danish.
+      hyggeligt at møde dig | nice to meet you | expr | Hej, Anders. Hyggeligt at møde dig! | Hi, Anders. Nice to meet you! | n: You can also say Dejligt at møde dig or Rart at møde dig.
+      og | and | conj | Jeg hedder Ali, og jeg bor i Esbjerg. | My name is Ali, and I live in Esbjerg. | n: The g is silent: og sounds like "å".
+      hvor | where | adv | Hvor bor du? | Where do you live? | n: The h is silent: hv sounds like v.
+    grammar:
+      title: "Være, hedde — and one verb form for everyone"
+      body: |
+        Danish verbs do **not** change with the person. *Jeg er, du er, hun er, vi er, de er* — it is always **er**. The same goes for *hedder, bor, kommer* and *taler*.
+
+        - **være** (to be) → **er**: *Jeg er dansk. Vi er fra Aalborg.*
+        - **hedde** (to be called) → **hedder**: *Jeg hedder Mikkel. Hun hedder Aisha.* This is the normal way to give your name. *Mit navn er Mikkel* is also possible, but more formal.
+        - Most other verbs add **-r** to the infinitive: *bo → bor, tale → taler, komme → kommer.*
+
+        **Questions.** For a yes/no question, put the verb first: *Taler du dansk? Er du svensk?* With a question word, the verb comes straight after it: *Hvor bor du? Hvad hedder du?* In *Hvor kommer du fra?* the little word **fra** goes to the end.
+
+        Nationalities and languages have a **small letter**: *dansk, engelsk, tysk*.
+      table: |
+        Pronoun | være | hedde | bo
+        jeg (I) | er | hedder | bor
+        du (you) | er | hedder | bor
+        han / hun (he / she) | er | hedder | bor
+        vi (we) | er | hedder | bor
+        I (you, plural) | er | hedder | bor
+        de (they) | er | hedder | bor
+      examples: |
+        Jeg hedder Ida, og jeg er dansk. | My name is Ida, and I'm Danish.
+        Er du tysk? | Are you German? | yes/no question: verb first
+        Hun hedder Aisha, og hun bor i Aalborg. | Her name is Aisha, and she lives in Aalborg.
+        Hvor kommer du fra? | Where do you come from? | fra goes to the end
+      tip: "Answer a question by repeating its verb: Bor du i Aarhus? – Ja, jeg bor i Aarhus. Hvor kommer du fra? – Jeg kommer fra Irland."
+    dialogue:
+      title: På sprogcaféen
+      setting: A language café at a library in Copenhagen. Signe, a Danish volunteer, talks to Kwame, who is learning Danish.
+      speakers: S=Signe/f; K=Kwame/m
+      lines: |
+        S: Hej! Jeg hedder Signe. Hvad hedder du? | Hi! I'm Signe. What's your name?
+        K: Hej, Signe. Jeg hedder Kwame. | Hi, Signe. My name is Kwame.
+        S: Hyggeligt at møde dig! Hvor kommer du fra? | Nice to meet you! Where do you come from?
+        K: Jeg kommer fra Ghana, men jeg bor i København. | I come from Ghana, but I live in Copenhagen.
+        S: Nå, spændende! Taler du dansk? | Oh, exciting! Do you speak Danish?
+        K: Ja, lidt. Jeg taler engelsk og fransk. | Yes, a little. I speak English and French.
+        S: Du taler godt dansk! | You speak Danish well!
+        K: Tak! Er du fra København? | Thanks! Are you from Copenhagen?
+        S: Nej, jeg er fra Aarhus. Men jeg bor her nu. | No, I'm from Aarhus. But I live here now.
+        K: Er du studerende? | Are you a student?
+        S: Ja, jeg er studerende. | Yes, I'm a student.
+    pronunciation:
+      title: "Soft d and silent d: hedder, hvad"
+      body: |
+        Danish has a famous **soft d**. After a vowel, d is often not a hard d but a soft, relaxed sound — close to the *th* in English *the*, but weaker, with the tip of the tongue resting low behind the front teeth. You hear it in **hedder** and **Odense**.
+
+        Sometimes the d is not pronounced at all. In **hvad** both the h and the d are silent, so it sounds like "va". And **jeg** sounds roughly like "yai". Listen and repeat, first word by word, then the whole sentence.
+      items: |
+        hedder
+        Odense
+        hvad
+        Hvad hedder du?
+        jeg
+        Jeg bor i Odense.
+    culture:
+      title: Danish and its neighbours
+      body: |
+        Danish, Norwegian and Swedish are closely related. Many Danes can read Norwegian and Swedish quite easily, and understand some of the spoken languages too. Danish is also taught in schools in Greenland and the Faroe Islands, which are part of the Danish kingdom.
+
+        Many Danes speak excellent English and may switch to it to help you. If you want to practise, smile and say: *Jeg vil gerne øve mit dansk* (I'd like to practise my Danish). Language cafés — *sprogcaféer* — at libraries are a great place to start.
+    mistakes: |
+      Jeg er hedder Kwame. => Jeg hedder Kwame. | Hedder is already the verb ("am called"); don't add er.
+      Jeg taler Dansk. => Jeg taler dansk. | Languages and nationalities take a small letter in Danish.
+      Hvor du bor? => Hvor bor du? | In a question, the verb comes straight after the question word.
+    task:
+      title: Your 30-second introduction
+      mode: speaking
+      body: |
+        Prepare a short introduction: your name, where you come from, where you live and the languages you speak. Practise it aloud three times, then try it in the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      fill: Jeg ___ Mikkel. || hedder || Give your name with hedde: jeg hedder. || @tags da.present
+      fill: Vi ___ studerende i Aarhus. || er || Være → er, the same form for every person: vi er. || @tags da.vaere-have
+      fill: Hvor ___ du? – Jeg bor i Roskilde. || bor || The answer repeats the verb: bor. || @tags da.present,da.questions
+      mc: Choose the correct question. || Hvor du kommer fra? | *Hvor kommer du fra? | Hvor fra du kommer? || Question word + verb + subject, and fra goes to the end: Hvor kommer du fra? || @tags da.questions,da.word-order
+      mc: Where does Kwame live? || Ghana | *Copenhagen | Aarhus || "Jeg kommer fra Ghana, men jeg bor i København." || @ctx dialogue @skill reading @tags da.reading
+      tf: Signe comes from Copenhagen. || false || Signe is from Aarhus, but she lives in Copenhagen now. || @ctx dialogue
+      fill: Jeg taler ___ og lidt dansk. (English) || engelsk || English = engelsk, with a small letter. || @skill vocabulary @tags da.vocabulary
+      order: Jeg kommer fra Irland, og jeg bor i Vejle. || I come from Ireland, and I live in Vejle. || @tags da.present
+      tr: My name is Sara, and I'm Swedish. || Jeg hedder Sara, og jeg er svensk. | Jeg hedder Sara og er svensk. | Mit navn er Sara, og jeg er svensk. || Use hedde for names and være + svensk (small letter) for nationality. || @tags da.present,da.vaere-have
+      tr: Do you speak Danish? || Taler du dansk? || A yes/no question starts with the verb: Taler du…? || @tags da.questions
+      rw: Make it a question :: Du bor i Aarhus. || Bor du i Aarhus? || For a yes/no question, move the verb to the front. || @tags da.questions,da.word-order
+      listen: Hej, jeg hedder Yasmin. Jeg kommer fra Libanon, og jeg bor i Odense. || Where does Yasmin live? || Lebanon | *Odense | Aarhus || She comes from Lebanon (Libanon), but "jeg bor i Odense" — she lives in Odense. || @tags da.listening
+      ask: Introduce yourself — say your name, where you come from and where you live. || kw: jeg hedder/mit navn er & jeg kommer fra/jeg er fra/jeg bor || Hej! Jeg hedder Emma. Jeg kommer fra Skotland, og jeg bor i Roskilde.
+      write: Write a short profile for a language-exchange website (name, where you come from, city, languages). || min=20 || req: jeg hedder/mit navn er | jeg kommer fra/jeg er fra | jeg bor | jeg taler || Hej! Jeg hedder Emma. Jeg kommer fra Skotland, men jeg bor i Roskilde. Jeg taler engelsk, fransk og lidt dansk.
+      dict: Jeg bor i Odense, og jeg taler lidt dansk.
+
+  - title: "Numbers, age and spelling"
+    summary: Count from 0 to 20, give your age with være, use have, read phone numbers in pairs and spell your name.
+    minutes: 35
+    skills: [vocabulary, listening, grammar]
+    tags: [da.vaere-have, da.numbers]
+    objectives:
+      - Count from 0 to 20
+      - Give and ask someone's age, and say what you have with have
+      - Understand phone numbers read in pairs and spell a name
+    intro: |
+      Numbers are everywhere: ages, prices, phone numbers and times. In this lesson you will learn 0–20, give your age with **være** (just like in English), use **have** (to have), and practise the way Danes read phone numbers — in pairs of digits. You will also spell your name with the Danish alphabet, which ends with æ, ø and å.
+    vocab: |
+      nul | zero | num | Det koster nul kroner – det er gratis! | It costs zero kroner — it's free!
+      en, to, tre | one, two, three | num | En, to, tre – nu! | One, two, three — now! | n: One is en or et, depending on the noun: en dag, et år.
+      fire, fem, seks | four, five, six | num | Vi er seks i klassen. | There are six of us in the class.
+      syv, otte, ni | seven, eight, nine | num | Min søn er otte år. | My son is eight. | n: Syv sounds like "syu"; in otte the tt sounds like a soft d.
+      ti, elleve, tolv | ten, eleven, twelve | num | Hun er tolv år gammel. | She is twelve years old. | n: Elleve is usually said in two syllables: "elve".
+      tretten, fjorten, femten | thirteen, fourteen, fifteen | num | Min datter er fjorten år. | My daughter is fourteen.
+      seksten, sytten, atten | sixteen, seventeen, eighteen | num | Han er sytten år gammel. | He is seventeen years old. | n: Seksten sounds like "sai-sten".
+      nitten, tyve | nineteen, twenty | num | Vi er tyve i klassen. | There are twenty of us in the class.
+      et år | a year | n | Jeg er nitten år. | I'm nineteen. | g: n | pl: år | n: For age, Danish uses være, like English: jeg er nitten år (gammel).
+      hvor gammel er du? | how old are you? | expr | Hvor gammel er du, Emil? | How old are you, Emil? | n: Gammel = old. You can answer without it: Jeg er tolv.
+      have | to have | v | Har du en kuglepen? | Do you have a pen? | n: Present tense: har for every person.
+      et telefonnummer | a phone number | n | Hvad er dit telefonnummer? | What's your phone number? | g: n | pl: telefonnumre
+      stave | to spell | v | Kan du stave dit efternavn? | Can you spell your surname? | n: Kan du…? = Can you…?
+      et navn | a name | n | Mit navn er Ole Sørensen. | My name is Ole Sørensen. | g: n | pl: navne | c: et fornavn (first name); et efternavn (surname)
+    grammar:
+      title: "Have — and age with være"
+      body: |
+        **Have** (to have) is **har** for every person: *jeg har, du har, vi har*. Use it for things and people you have: *Jeg har en cykel. Har du børn?* (Do you have children?)
+
+        For **age**, Danish uses **være** — just like English: *Jeg er tyve år* (gammel). *Hvor gammel er du?* You can leave out *år gammel*: *Hun er seksten.* (If you know French or Spanish, be careful: Danish does **not** use *have* for age.)
+
+        The number one has two forms: **en** with en-words (*en cykel*) and **et** with et-words (*et år*). When you count, say *en*.
+
+        **Phone numbers** in Denmark have eight digits. Danes usually read them in pairs: *20 12 18 15* = *tyve, tolv, atten, femten*. You will learn the numbers above 20 in unit 6 — until then, you can read a number digit by digit: *to, nul, en, to…*
+      table: |
+        Pronoun | have | være
+        jeg | har | er
+        du | har | er
+        han / hun | har | er
+        vi | har | er
+        I | har | er
+        de | har | er
+      examples: |
+        Jeg er atten år. | I'm eighteen.
+        Min bror er elleve år gammel. | My brother is eleven years old.
+        Har du et telefonnummer i Danmark? | Do you have a phone number in Denmark?
+        Vi har to katte. | We have two cats.
+      tip: "Age always takes være: Jeg er tyve år — never \"jeg har tyve år\"."
+    dialogue:
+      title: I receptionen
+      setting: Paolo signs up at a fitness centre in Odense. Hanne at the reception fills in his membership form.
+      speakers: H=Hanne/f; P=Paolo/m
+      lines: |
+        H: Hej! Hvad hedder du? | Hi! What's your name?
+        P: Jeg hedder Paolo Rossi. | My name is Paolo Rossi.
+        H: Kan du stave dit efternavn? | Can you spell your surname?
+        P: Ja. R, O, dobbelt-s, I. | Yes. R, O, double S, I.
+        H: Tak. Og hvor gammel er du? | Thanks. And how old are you?
+        P: Jeg er nitten år. | I'm nineteen.
+        H: Hvad er dit telefonnummer? | What's your phone number?
+        P: Det er tyve, tolv, atten, femten. | It's 20 12 18 15.
+        H: Tyve, tolv, atten, femten. Perfekt! | 20 12 18 15. Perfect!
+        P: Tak for hjælpen! | Thanks for your help!
+        H: Selv tak. Og velkommen! | You're welcome. And welcome!
+    pronunciation:
+      title: Numbers that don't sound like they look
+      body: |
+        Some Danish numbers sound different from their spelling. **Syv** (7) ends in a u-like sound: "syu". **Seksten** (16) sounds like "sai-sten". **Elleve** (11) is usually two syllables: "elve". In **otte** (8) the tt sounds more like a soft d: "o-de".
+
+        **Tyve** (20) has the Danish **y**: say "ee" with your lips rounded, as if for "oo". Listen and repeat each number, then the whole sentence.
+      items: |
+        syv
+        seksten
+        elleve
+        otte
+        tyve
+        Jeg er tyve år.
+    culture:
+      title: Æ, ø, å and names ending in -sen
+      body: |
+        The Danish alphabet has 29 letters: the three extra letters **æ, ø** and **å** come after z. When you spell, Danes say the letter names, for example *h* ("hå"), *j* ("yåd") and *k* ("kå"), and *dobbelt-s* for ss.
+
+        Before 1948, å was written **aa** — and you still see it in names such as *Aarhus* and *Aalborg*. Many common surnames end in **-sen**, like *Jensen, Nielsen* and *Hansen*: they once meant "son of Jens", "son of Niels" and "son of Hans".
+    mistakes: |
+      Jeg har tyve år. => Jeg er tyve år. | For age, Danish uses være, just like English.
+      Hvor gammel du er? => Hvor gammel er du? | In a question, the verb comes straight after the question phrase.
+      Hvor mange år har du? => Hvor gammel er du? | Danish asks how old you are (hvor gammel) with være — not how many years you have.
+    task:
+      title: Sign up by phone
+      mode: interaction
+      body: |
+        You are joining a fitness centre in Odense. Say your name, spell your surname, give your age and read out a phone number in pairs of digits (tyve, tolv, atten, femten), exactly as Paolo does in the dialogue.
+    exercises: |
+      fill: Hvor gammel ___ du? || er || Age uses være: Hvor gammel er du? || @tags da.vaere-have
+      fill: Min søster ___ tolv år. || er || Age: være → er. || @tags da.vaere-have
+      fill: Vi ___ to katte og en hund. || har || Have → har: vi har to katte. || @tags da.vaere-have
+      mc: How do you say "I'm eighteen"? || Jeg har atten år. | *Jeg er atten år. | Jeg atten år. || Age uses være + number + år: Jeg er atten år. || @tags da.vaere-have
+      mc: Which number is "fjorten"? || 4 | *14 | 40 || Fjorten = 14. Fire = 4. || @tags da.numbers @skill vocabulary
+      mc: Syv + otte = ? || seksten | *femten | sytten || Syv (7) + otte (8) = femten (15). || @tags da.numbers @skill vocabulary
+      match: tre = 3 ; tretten = 13 ; otte = 8 ; atten = 18 ; to = 2 ; tolv = 12 || tre 3 · tretten 13 · otte 8 · atten 18 · to 2 · tolv 12 || @tags da.numbers
+      listen: seksten || Which number do you hear? || 6 | *16 | 60 || Seksten = 16. It sounds like "sai-sten". || @tags da.numbers
+      listen: Mit nummer er tyve, elleve, nitten, fjorten. || What is the phone number? || *20 11 19 14 | 20 12 19 04 | 12 11 09 14 || Danish phone numbers are read in pairs: tyve (20), elleve (11), nitten (19), fjorten (14). || @tags da.numbers
+      short: How old is Paolo? || kw: 19/nitten/nineteen || Paolo says "Jeg er nitten år." || @ctx dialogue
+      tr: How old are you? || Hvor gammel er du? || Hvor gammel + er + du. || @tags da.vaere-have,da.question-words
+      tr: We have a dog. || Vi har en hund. || Have → har; hund is an en-word: en hund. || @tags da.vaere-have
+      dict: Jeg er nitten år, og jeg bor i Odense.
+      ask: Say how old you are and give a (made-up) phone number in pairs of digits. || kw: jeg er & år || Jeg er tyve år. Mit nummer er tyve, tolv, atten, femten.

@@ -1,0 +1,345 @@
+unit: 5
+title: Wohnen und Nachbarschaft
+theme: Home and housing
+description: Compare flats, say where things are and where they go, share the housework and get on with your neighbours — with comparatives and two-way prepositions.
+objectives:
+  - Compare flats and neighbourhoods with comparatives, als and so … wie
+  - Say where things are and where you put them with two-way prepositions
+  - Talk about house rules, chores and preferences with besser, lieber and mehr
+canDo:
+  - I can understand a simple flat advert and ask questions at a viewing.
+  - I can compare two flats or neighbourhoods.
+  - I can say where furniture stands and where I am putting things.
+  - I can talk to a neighbour about house rules and offer help.
+review: |
+  fill: Die Wohnung am Park ist ___ als unsere, aber auch teurer. (hell) || heller || Hell + -er = heller; als introduces the comparison. || @tags de.comparatives
+  fill: Ich lege das Handy auf ___ Tisch. || den || Legen = movement to a new place (wohin?), so auf + accusative: den Tisch. || @tags de.two-way-prepositions,de.accusative
+  fill: Das Fahrrad steht hinter ___ Haus. || dem || Stehen = position (wo?), so hinter + dative: dem Haus. || @tags de.two-way-prepositions,de.dative
+  fill: Unsere neue Küche ist viel ___ als die alte. (gut) || besser || Gut has an irregular comparative: besser. || @tags de.comparatives
+  mc: Which sentence is correct? || Die Küche ist so groß als das Bad. | *Die Küche ist so groß wie das Bad. | Die Küche ist so größer wie das Bad. || Equal things: so + adjective + wie. || @tags de.comparatives
+  mc: "Wohin hängst du das Bild?" Choose the answer. || Über dem Sofa. | *Über das Sofa. | Über der Sofa. || Wohin? asks for direction, so über takes the accusative: über das Sofa. || @tags de.two-way-prepositions
+  rw: Say where it is now :: Ich stelle die Pflanze ans Fenster. || Die Pflanze steht am Fenster. | Die Pflanze steht an dem Fenster. || Stellen + accusative (ans) becomes stehen + dative (am). || @tags de.two-way-prepositions
+  tr: The new flat is bigger than the old one. || Die neue Wohnung ist größer als die alte. | Die neue Wohnung ist größer als die alte Wohnung. || Groß → größer (umlaut) + als. || @tags de.comparatives
+  listen: Die Wohnung liegt im vierten Stock und hat leider keinen Aufzug. Aber sie ist sehr hell. || What is the problem with the flat? || *There's no lift. | It's very dark. | It's on the ground floor. || Keinen Aufzug = no lift; im vierten Stock = on the fourth floor. || @tags de.listening
+  listen: In unserer WG räume ich lieber auf, und mein Mitbewohner kocht lieber. || What does the speaker prefer to do? || Cook | *Tidy up | Vacuum || Ich räume lieber auf = I prefer tidying up. || @tags de.listening,de.comparatives
+  ask: Compare your home now with a home you had before. || kw: als & größer/kleiner/heller/dunkler/ruhiger/lauter/billiger/teurer/besser/schöner/moderner/näher || Meine Wohnung jetzt ist kleiner als die alte, aber sie ist heller und ruhiger.
+  write: Write a message to a friend about your new flat: where it is, how it compares with the old one and where you have put your furniture. || min=40 || req: als | steht/stehen/liegt/liegen/hängt/hängen | größer/kleiner/heller/ruhiger/billiger/teurer/besser/schöner/näher || Hallo Lou, ich wohne jetzt in Potsdam! Die Wohnung ist kleiner als die alte, aber viel heller und ruhiger. Das Sofa steht am Fenster, und über dem Sofa hängt dein Bild. Mein Schreibtisch steht im Schlafzimmer. Die Miete ist auch billiger. Komm mich bald besuchen! Liebe Grüße, Ben
+lessons:
+  - title: Finding a flat
+    summary: Read flat adverts, ask questions at a viewing and compare flats with comparatives — größer als, so hell wie.
+    minutes: 40
+    skills: [grammar, reading, speaking]
+    tags: [de.comparatives]
+    objectives:
+      - Form comparatives with -er, including umlauts (größer, wärmer)
+      - Compare with als and so … wie
+      - Understand flat adverts and ask about rent and extra costs
+    intro: |
+      Looking for a flat in a German city often means comparing many options: one is bigger, another is cheaper, a third is closer to work. In this lesson you learn the comparative — **größer, billiger, ruhiger** — and the words you need to read adverts and ask the right questions at a viewing.
+    vocab: |
+      die Miete | rent | n | Die Miete ist 750 Euro im Monat. | The rent is 750 euros a month. | g: f | pl: die Mieten | c: die Kaltmiete; die Warmmiete
+      die Nebenkosten | additional costs (heating, water, rubbish) | n | Sind die Nebenkosten in der Miete enthalten? | Are the additional costs included in the rent? | pl: die Nebenkosten | n: Plural only. Kaltmiete + Nebenkosten = Warmmiete.
+      die Kaution | deposit | n | Wir müssen drei Monatsmieten Kaution zahlen. | We have to pay three months' rent as a deposit. | g: f | pl: die Kautionen
+      die Besichtigung | viewing | n | Die Besichtigung ist am Samstag um elf. | The viewing is on Saturday at eleven. | g: f | pl: die Besichtigungen | c: die Wohnungsbesichtigung
+      der Quadratmeter | square metre | n | Die Wohnung hat 65 Quadratmeter. | The flat is 65 square metres. | g: m | pl: die Quadratmeter | n: Written m² in adverts.
+      der Vermieter | landlord | n | Der Vermieter wohnt im Erdgeschoss. | The landlord lives on the ground floor. | g: m | pl: die Vermieter | n: Female: die Vermieterin. The tenant: der Mieter, die Mieterin.
+      der Stock | floor; storey | n | Die Wohnung liegt im dritten Stock. | The flat is on the third floor. | g: m | n: The ground floor is das Erdgeschoss; der erste Stock is one floor up.
+      die Lage | location | n | Die Lage ist super, der Bahnhof ist nur fünf Minuten entfernt. | The location is great; the station is only five minutes away. | g: f | pl: die Lagen
+      hell | bright; light | adj | Das Wohnzimmer ist hell, es hat zwei große Fenster. | The living room is bright; it has two big windows. | n: The opposite is dunkel.
+      ruhig | quiet; peaceful | adj | Unsere Straße ist ruhiger als die Hauptstraße. | Our street is quieter than the main road.
+      möbliert | furnished | adj | Das Zimmer ist möbliert, mit Bett und Schreibtisch. | The room is furnished, with a bed and a desk.
+      der Balkon | balcony | n | Die neue Wohnung hat einen Balkon nach Süden. | The new flat has a south-facing balcony. | g: m | pl: die Balkone
+    grammar:
+      title: "Comparatives: größer als, so groß wie"
+      body: |
+        To compare two things, add **-er** to the adjective: *billig → billig**er**, ruhig → ruhig**er**, hell → hell**er***. Use **als** (than) for the thing you compare with: *Die Wohnung in Durlach ist billig**er als** die Wohnung in der Südstadt.*
+
+        Many short adjectives with **a, o, u** add an umlaut: *groß → größer, alt → älter, warm → wärmer, kurz → kürzer, nah → näher*. Adjectives ending in **-el** or **-er** drop an e: *teuer → teurer, dunkel → dunkler*.
+
+        To say two things are equal, use **so … wie**: *Die Küche ist **so groß wie** das Bad.* The negative is *nicht so … wie* (not as … as): *Das Zimmer ist nicht so hell wie das Wohnzimmer.* After a comparative, standard German always uses **als**, never wie.
+      table: |
+        Adjective | Comparative | Example
+        billig | billiger | Durlach ist billiger als die Südstadt.
+        ruhig | ruhiger | Der Hof ist ruhiger als die Straße.
+        groß | größer | Die erste Wohnung ist größer.
+        warm | wärmer | Unter dem Dach ist es wärmer.
+        teuer | teurer | Die Altbauwohnung ist teurer.
+        dunkel | dunkler | Das Schlafzimmer ist dunkler.
+      examples: |
+        Die Wohnung in der Altstadt ist kleiner als die am Stadtrand, aber zentraler. | The flat in the old town is smaller than the one on the edge of town, but more central. | -er + als
+        Im dritten Stock ist es heller als im Erdgeschoss. | It's brighter on the third floor than on the ground floor. | hell → heller
+        Die Miete ist hier so hoch wie in München! | The rent here is as high as in Munich! | so … wie = as … as
+        Das Bad ist nicht so modern wie die Küche. | The bathroom isn't as modern as the kitchen. | nicht so … wie
+      tip: If you can say "than" in English, you need als; for "as … as", use so … wie.
+    dialogue:
+      title: Zwei Wohnungen zur Auswahl
+      setting: Marlene and her partner Can are looking for a flat in Karlsruhe. After two viewings they compare the flats in the car.
+      speakers: M=Marlene/f; C=Can/m
+      lines: |
+        C: Und? Was denkst du über die zwei Wohnungen? | So? What do you think about the two flats?
+        M: Die Wohnung in der Südstadt ist größer und heller. | The flat in the Südstadt is bigger and brighter.
+        C: Stimmt, aber sie ist auch viel teurer als die in Durlach. | True, but it's also much more expensive than the one in Durlach.
+        M: Wie hoch ist die Miete in Durlach noch mal? | How much is the rent in Durlach again?
+        C: 890 Euro warm. In der Südstadt sind es 1050. | 890 euros including bills. In the Südstadt it's 1,050.
+        M: Aber die Wohnung in der Südstadt hat einen Balkon. | But the flat in the Südstadt has a balcony.
+        C: Ja, und die Lage ist zentraler. Ich bin schneller bei der Arbeit. | Yes, and the location is more central. I'd get to work faster.
+        M: Aber die Straße ist lauter. Durlach ist viel ruhiger. | But the street is noisier. Durlach is much quieter.
+        C: Und die Küche in Durlach ist so groß wie unser Wohnzimmer jetzt! | And the kitchen in Durlach is as big as our living room now!
+        M: Das stimmt. Und der Vermieter war sehr nett. | That's true. And the landlord was very nice.
+        C: Also: kleiner, aber billiger und ruhiger. Durlach? | So: smaller, but cheaper and quieter. Durlach?
+        M: Ja, Durlach! Ich rufe morgen den Vermieter an. | Yes, Durlach! I'll call the landlord tomorrow.
+    pronunciation:
+      title: "The ending -er in comparatives"
+      body: |
+        The comparative ending **-er** is not a full "er": it is a short, relaxed vowel [ɐ], like the *u* in English *but*: *größer* [ˈɡrøːsɐ], *heller, ruhiger*. In *teurer* you hear it once at the end — don't add an extra syllable.
+
+        Keep the umlauts round and clear: *größer, wärmer, kürzer*. Then link the comparison smoothly: *größer als*.
+      items: |
+        größer
+        heller
+        wärmer
+        teurer
+        ruhiger
+        Die Wohnung ist größer als unsere.
+    culture:
+      title: Renting in Germany
+      body: |
+        Around half of all households in Germany rent their home — far more than in many other countries. Adverts show the *Kaltmiete* (rent without heating and other costs) plus *Nebenkosten*; together they make the *Warmmiete*. The deposit (*Kaution*) can be up to three months' Kaltmiete.
+
+        Rooms are counted without kitchen and bathroom, so a *2-Zimmer-Wohnung* has a living room and a bedroom. And be prepared: unfurnished flats sometimes come without a fitted kitchen — tenants often bring their own.
+    mistakes: |
+      Die Wohnung ist größer wie unsere. => Die Wohnung ist größer als unsere. | After a comparative, use als (than).
+      Die Küche ist großer als das Bad. => Die Küche ist größer als das Bad. | Groß adds an umlaut in the comparative: größer.
+      Diese Wohnung ist teuerer. => Diese Wohnung ist teurer. | Teuer drops an e in the comparative: teurer.
+    task:
+      title: At the viewing
+      mode: interaction
+      body: |
+        You are at a flat viewing. Ask the landlord about the rent, the additional costs, the deposit and the date you can move in. Then tell a friend how this flat compares with your current home — bigger, quieter, cheaper? Role-play it with a partner or record both parts yourself.
+    exercises: |
+      fill: Die Wohnung in der Altstadt ist ___ als die Wohnung am Stadtrand. (klein) || kleiner || Klein + -er = kleiner, followed by als. || @tags de.comparatives
+      fill: Unser neues Wohnzimmer ist viel ___ als das alte. (groß) || größer || Groß adds an umlaut: größer. || @tags de.comparatives
+      fill: Die Küche ist ___ groß ___ das Schlafzimmer. (as … as) || so ; wie || Equal size: so groß wie. || @tags de.comparatives
+      fill: Die Wohnung am Park ist schön, aber ___ als unsere. (teuer) || teurer || Teuer drops an e: teurer. || @tags de.comparatives
+      mc: Which sentence is correct? || Die Straße ist lauter wie die Hauptstraße. | *Die Straße ist lauter als die Hauptstraße. | Die Straße ist mehr laut als die Hauptstraße. || Comparative with -er + als; German doesn't use mehr + adjective for this. || @tags de.comparatives
+      rw: Compare the flats with billig :: Wohnung in Durlach: 890 Euro – Wohnung in der Südstadt: 1050 Euro || Die Wohnung in Durlach ist billiger als die Wohnung in der Südstadt. | Die Wohnung in Durlach ist billiger als die in der Südstadt. | Die Wohnung in Durlach ist billiger. || Billig + -er = billiger, then als. || @tags de.comparatives
+      tf: The flat in the Südstadt has a balcony. || true || "Aber die Wohnung in der Südstadt hat einen Balkon." || @ctx dialogue
+      short: Which flat do Marlene and Can choose? || kw: durlach || They choose Durlach: smaller, but cheaper and quieter. || @ctx dialogue
+      listen: @dialogue || What is better about the flat in Durlach? || It's bigger and brighter. | *It's cheaper and quieter. | It has a balcony. || "Kleiner, aber billiger und ruhiger."
+      listen: Die Wohnung hat drei Zimmer und 70 Quadratmeter. Die Kaltmiete ist 680 Euro, plus 160 Euro Nebenkosten. || How much is the rent including additional costs? || €680 | *€840 | €860 || 680 + 160 = 840 euros (Warmmiete). || @tags de.listening,de.numbers
+      tr: Our flat is smaller than yours. (informal) || Unsere Wohnung ist kleiner als deine. | Unsere Wohnung ist kleiner als deine Wohnung. | Unsere Wohnung ist kleiner als eure. || Klein → kleiner + als. || @tags de.comparatives,de.possessives
+      dict: Die neue Wohnung ist heller und ruhiger.
+      ask: At a viewing, ask the landlord two questions about costs. || kw: miete/nebenkosten/kaution/kostet & wie hoch/wie viel/sind/ist || Wie hoch sind die Nebenkosten? Und wie hoch ist die Kaution?
+
+  - title: Furniture and chores
+    summary: Say where furniture is and where you put things with two-way prepositions — wo? + dative, wohin? + accusative — and share the housework.
+    minutes: 40
+    skills: [grammar, vocabulary, writing]
+    tags: [de.two-way-prepositions, de.dative, de.accusative]
+    objectives:
+      - Use two-way prepositions with the dative for position (wo?) and the accusative for direction (wohin?)
+      - Use stehen/stellen, liegen/legen and hängen correctly
+      - Talk about chores and agree who does what
+    intro: |
+      Moving in means many decisions: Where shall we put the sofa? Where's the lamp? German answers with nine **two-way prepositions** — *in, an, auf, über, unter, vor, hinter, neben, zwischen* — which take the dative or the accusative depending on the question. You will also learn how to share the housework with flatmates.
+    vocab: |
+      stellen | to put (upright); to place | v | Stell das Sofa bitte an die Wand. | Please put the sofa against the wall. | n: Direction → accusative. Perfekt: hat gestellt
+      stehen | to stand; to be (upright) | v | Das Sofa steht an der Wand. | The sofa is against the wall. | n: Position → dative. Perfekt: hat gestanden
+      legen | to lay; to put (flat) | v | Ich lege die Bücher auf den Tisch. | I'm putting the books on the table. | n: Perfekt: hat gelegt
+      liegen | to lie; to be (lying flat) | v | Die Bücher liegen auf dem Tisch. | The books are on the table. | n: Perfekt: hat gelegen
+      hängen | to hang | v | Ich hänge das Bild über das Sofa. Jetzt hängt es über dem Sofa. | I'm hanging the picture above the sofa. Now it's hanging above the sofa. | n: One verb for both: with an object (direction) + accusative; without (position) + dative.
+      das Regal | shelf; bookcase | n | Das Regal steht neben dem Fenster. | The bookcase is next to the window. | g: n | pl: die Regale
+      der Teppich | rug; carpet | n | Wir legen den Teppich vor das Sofa. | We're putting the rug in front of the sofa. | g: m | pl: die Teppiche
+      der Haushalt | household; housework | n | Im Haushalt helfen alle mit. | Everyone helps with the housework. | g: m | pl: die Haushalte | c: den Haushalt machen
+      staubsaugen | to vacuum; to hoover | v | Kannst du heute staubsaugen? | Can you vacuum today? | n: Also: Staub saugen (ich sauge Staub).
+      den Müll rausbringen | to take the rubbish out | expr | Wer bringt heute den Müll raus? | Who's taking the rubbish out today? | n: Separable: raus goes to the end.
+      die Spülmaschine | dishwasher | n | Kannst du bitte die Spülmaschine ausräumen? | Can you please empty the dishwasher? | g: f | pl: die Spülmaschinen | c: die Spülmaschine einräumen; die Spülmaschine ausräumen
+      der Putzplan | cleaning rota | n | In unserer WG haben wir einen Putzplan. | In our shared flat we have a cleaning rota. | g: m | pl: die Putzpläne
+    grammar:
+      title: "Two-way prepositions: wo? or wohin?"
+      body: |
+        Nine prepositions can take the dative or the accusative: **in, an, auf, über, unter, vor, hinter, neben, zwischen**.
+
+        - **Wo?** (where — a position, no movement to a new place) → **dative**: *Das Sofa steht **an der** Wand. Die Bücher liegen **auf dem** Tisch.*
+        - **Wohin?** (where to — movement to a new place) → **accusative**: *Ich stelle das Sofa **an die** Wand. Ich lege die Bücher **auf den** Tisch.*
+
+        Verb pairs help you choose: **stellen** (put upright) → **stehen**, **legen** (put flat) → **liegen**, and **hängen** for both. Stellen, legen and hängen + object answer *wohin?*; stehen, liegen and hängen without object answer *wo?*. Remember the contractions *in dem → im, an dem → am, in das → ins, an das → ans*, and that the dative plural adds -n to the noun: *zwischen den Fenstern*.
+      table: |
+        Gender | Wohin? (accusative) | Wo? (dative)
+        masculine | auf den Tisch | auf dem Tisch
+        feminine | an die Wand | an der Wand
+        neuter | ins Regal | im Regal
+        plural | zwischen die Fenster | zwischen den Fenstern
+      examples: |
+        Wir stellen den Schreibtisch vor das Fenster. | We're putting the desk in front of the window. | wohin? → accusative
+        Der Schreibtisch steht vor dem Fenster. | The desk is in front of the window. | wo? → dative
+        Leg die Schlüssel bitte auf den Tisch! | Please put the keys on the table! | legen → accusative
+        Die Lampe hängt über dem Esstisch. | The lamp hangs above the dining table. | position → dative
+      tip: Is something moving to a new place? Wohin → accusative. Is it staying where it is? Wo → dative.
+    dialogue:
+      title: Der Umzugstag
+      setting: Moving day in Lübeck. Jule and Emeka are moving into a shared flat together and decide where everything goes.
+      speakers: J=Jule/f; E=Emeka/m
+      lines: |
+        E: So, das Sofa ist schwer! Wohin stellen wir es? | Right, the sofa is heavy! Where shall we put it?
+        J: Stell es bitte an die Wand, zwischen die Fenster. | Put it against the wall, please, between the windows.
+        E: Okay. Und der Teppich? Legen wir ihn vor das Sofa? | Okay. And the rug? Shall we put it in front of the sofa?
+        J: Ja, genau. Und das Regal kommt neben die Tür. | Yes, exactly. And the bookcase goes next to the door.
+        E: Wo sind eigentlich die Kisten mit den Büchern? | Where are the boxes with the books, by the way?
+        J: Die stehen noch im Flur, neben der Garderobe. | They're still in the hall, next to the coat rack.
+        E: Gut. Ich hänge dann das Bild über das Sofa, oder? | Good. Then I'll hang the picture above the sofa, okay?
+        J: Super! Und jetzt müssen wir über den Haushalt reden. | Great! And now we need to talk about the housework.
+        E: Machen wir einen Putzplan? Ich koche gern, aber ich hasse Staubsaugen. | Shall we make a cleaning rota? I like cooking, but I hate vacuuming.
+        J: Kein Problem, ich sauge Staub und du bringst den Müll raus. | No problem, I'll vacuum and you take the rubbish out.
+        E: Und das Bad putzen wir abwechselnd, jede Woche jemand anders. | And we'll take turns cleaning the bathroom, someone different every week.
+        J: Abgemacht! Aber zuerst stellen wir die Kaffeemaschine in die Küche. | Deal! But first we'll put the coffee machine in the kitchen.
+    pronunciation:
+      title: "den or dem? Hearing the difference"
+      body: |
+        After two-way prepositions, the article often carries the whole meaning — and *den* and *dem* differ only in their last sound. Close your lips clearly for the **m** in *dem*; keep them open with the tongue behind the teeth for the **n** in *den*.
+
+        Practise the pairs slowly, then at normal speed: *auf den Tisch – auf dem Tisch*. Contractions are short and unstressed: *ins, im, ans, am*.
+      items: |
+        auf den Tisch
+        auf dem Tisch
+        an die Wand
+        an der Wand
+        ins Regal
+        im Regal
+    culture:
+      title: WG life and the Kehrwoche
+      body: |
+        Shared flats (*Wohngemeinschaften*, or *WGs*) are very popular with students and young professionals. Many WGs have a *Putzplan* on the fridge, and the WG kitchen is often the centre of social life.
+
+        In some buildings, especially in the south-west, tenants take turns cleaning the stairs and the pavement outside — the famous *Kehrwoche*. A small sign hangs on the door of whoever's turn it is.
+    mistakes: |
+      Ich stelle die Lampe auf dem Tisch. => Ich stelle die Lampe auf den Tisch. | Stellen means movement to a new place (wohin?), so auf takes the accusative.
+      Das Buch liegt auf den Tisch. => Das Buch liegt auf dem Tisch. | Liegen describes a position (wo?), so auf takes the dative.
+      Der Teppich steht vor dem Sofa. => Der Teppich liegt vor dem Sofa. | Flat things lie (liegen); upright things stand (stehen).
+    task:
+      title: Furnish your room
+      mode: writing
+      body: |
+        Describe your living room or your dream room in five or six sentences: where the furniture stands, what lies on the floor and what hangs on the walls. Then write a short message to a flatmate suggesting who does which chore this week.
+    exercises: |
+      fill: Das Sofa steht an ___ Wand. || der || Wo? → dative: die Wand → an der Wand. || @tags de.two-way-prepositions,de.dative
+      fill: Stell den Stuhl bitte neben ___ Schreibtisch! || den || Wohin? → accusative: der Schreibtisch → neben den Schreibtisch. || @tags de.two-way-prepositions,de.accusative
+      fill: Die Schlüssel liegen auf ___ Tisch. || dem || Liegen = position → dative: auf dem Tisch. || @tags de.two-way-prepositions,de.dative
+      fill: Wir hängen das Bild über ___ Sofa. || das || Hängen + object = direction → accusative; das Sofa stays das. || @tags de.two-way-prepositions,de.accusative
+      mc: Which sentence is correct? || Ich hänge die Lampe über dem Tisch. | *Ich hänge die Lampe über den Tisch. | Ich hänge die Lampe über der Tisch. || Hängen with an object answers wohin?, so über takes the accusative: den Tisch. || @tags de.two-way-prepositions
+      rw: Say where it is now :: Ich stelle das Regal neben die Tür. || Das Regal steht neben der Tür. || Stellen + accusative (die Tür) → stehen + dative (der Tür). || @tags de.two-way-prepositions,de.dative
+      tf: The rug goes in front of the sofa. || true || Emeka: "Legen wir ihn vor das Sofa?" – Jule: "Ja, genau." || @ctx dialogue
+      short: Which chore does Emeka hate? || kw: staubsaugen/staub/vacuum/vacuuming/hoovering/hoover || "Ich koche gern, aber ich hasse Staubsaugen." || @ctx dialogue
+      listen: @dialogue || Where are the boxes of books? || In the kitchen | *In the hall, next to the coat rack | Under the window || "Die stehen noch im Flur, neben der Garderobe."
+      listen: Die Spülmaschine ist fertig. Kannst du sie bitte ausräumen? Die Teller kommen in den Schrank über der Spüle. || Where do the plates go? || Into the dishwasher | *Into the cupboard above the sink | Onto the table || In den Schrank über der Spüle = into the cupboard above the sink. || @tags de.listening,de.two-way-prepositions
+      dict: Stell das Regal bitte neben die Tür.
+      ask: A friend is helping you move. Tell them where to put two things. || kw: stell/leg/häng/stellen/legen/hängen & auf/an/in/neben/vor/hinter/unter/über/zwischen/ins/ans || Stell den Tisch bitte vor das Fenster und leg den Teppich unter den Tisch.
+      write: Describe your living room (5–6 sentences): where the furniture stands, what lies on the floor and what hangs on the walls. || min=35 || req: steht/stehen | liegt/liegen/hängt/hängen | an/auf/neben/vor/über/unter/zwischen/hinter/im || Mein Wohnzimmer ist klein, aber gemütlich. Das Sofa steht an der Wand, und vor dem Sofa liegt ein bunter Teppich. Neben dem Sofa steht eine Lampe. Über dem Sofa hängen drei Fotos von meiner Familie. Der Fernseher steht auf einem Regal zwischen den Fenstern.
+
+  - title: Neighbours and community
+    summary: Get to know your neighbours, understand house rules and talk about preferences with besser, lieber and mehr.
+    minutes: 35
+    skills: [grammar, listening, speaking]
+    tags: [de.comparatives, de.gern]
+    objectives:
+      - Use the irregular comparatives besser, lieber, mehr and höher
+      - Express preferences with lieber
+      - Understand house rules and offer or ask for help
+    intro: |
+      Good neighbours make a big difference — they take in your parcels, water your plants and tell you when the bins are emptied. In this lesson you learn the house rules that matter in German buildings and the irregular comparatives you need for everyday preferences: *besser, lieber, mehr*.
+    vocab: |
+      der Nachbar | neighbour (male) | n | Unser Nachbar gießt im Urlaub unsere Blumen. | Our neighbour waters our flowers when we're on holiday. | g: m | pl: die Nachbarn | n: Female: die Nachbarin. Accusative and dative: den/dem Nachbarn.
+      die Hausordnung | house rules | n | In der Hausordnung steht, dass man nach 22 Uhr leise sein soll. | The house rules say that you should be quiet after 10 p.m. | g: f | pl: die Hausordnungen
+      die Ruhezeit | quiet hours | n | Die Ruhezeit beginnt um 22 Uhr. | Quiet hours start at 10 p.m. | g: f | pl: die Ruhezeiten
+      der Müll | rubbish; waste | n | Den Müll trennen wir: Papier, Glas, Bio und Restmüll. | We separate our rubbish: paper, glass, organic and general waste. | g: m | pl: (no plural) | c: den Müll trennen; die Mülltonne; die Müllabfuhr
+      das Paket | parcel | n | Ein Paket für Sie liegt bei mir. | There's a parcel for you at my place. | g: n | pl: die Pakete | c: ein Paket annehmen
+      der Hof | courtyard | n | Die Fahrräder stehen im Hof. | The bikes are in the courtyard. | g: m | pl: die Höfe
+      das Treppenhaus | stairwell | n | Im Treppenhaus ist es abends dunkel. | It's dark in the stairwell in the evening. | g: n | pl: die Treppenhäuser
+      leise | quiet (not loud) | adj | Bitte seid nach zehn Uhr leise! | Please be quiet after ten o'clock! | n: The opposite is laut. Ruhig means calm or peaceful.
+      gießen | to water (plants) | v | Ich gieße deine Pflanzen, kein Problem. | I'll water your plants, no problem. | n: Irregular: hat gegossen
+      besser | better | adj | Gute Nachbarn sind besser als ein großer Garten. | Good neighbours are better than a big garden. | n: Irregular comparative of gut.
+      lieber | rather; preferably | adv | Ich wohne lieber in der Stadt als auf dem Land. | I'd rather live in town than in the country. | n: Comparative of gern.
+      mehr | more | adv | In unserem Haus wohnen jetzt mehr Familien als früher. | More families live in our building now than before. | n: Comparative of viel; it never takes an ending.
+    grammar:
+      title: "Irregular comparatives: besser, lieber, mehr"
+      body: |
+        A few very common words have irregular comparatives:
+
+        - **gut → besser**: *Die neue Wohnung ist besser als die alte.*
+        - **gern → lieber**: *Ich trinke gern Kaffee, aber ich trinke **lieber** Tee.* Lieber expresses a preference: *Ich wohne lieber im Erdgeschoss.*
+        - **viel → mehr**: *In der Stadt gibt es mehr Lärm.* Mehr never takes an ending.
+        - **hoch → höher** (the c disappears): *Die Miete ist hier höher.*
+
+        Compare with **als** as usual: *Wir grillen lieber im Hof als auf dem Balkon.* Ask about preferences with lieber: *Was machst du lieber – kochen oder putzen?* Make a comparison stronger with **viel** (much) or **noch** (even): *viel besser, noch mehr*.
+      table: |
+        Base | Comparative | Example
+        gut | besser | Hier ist die Luft besser.
+        gern | lieber | Ich wohne lieber zentral.
+        viel | mehr | Wir brauchen mehr Platz.
+        hoch | höher | Die Miete ist höher.
+        nah | näher | Der Supermarkt ist näher.
+      examples: |
+        Unsere neue Nachbarschaft ist viel besser als die alte. | Our new neighbourhood is much better than the old one. | gut → besser; viel = much
+        Ich grille lieber im Hof als auf dem Balkon. | I'd rather barbecue in the courtyard than on the balcony. | gern → lieber
+        In unserem Haus wohnen mehr Kinder als früher. | More children live in our building than before. | viel → mehr
+        Die Mieten in München sind noch höher als in Hamburg. | Rents in Munich are even higher than in Hamburg. | hoch → höher; noch = even
+      tip: Lieber is a polite way to choose — "Ich nehme lieber den Tee" sounds softer than "Ich will…".
+    dialogue:
+      title: Die neue Nachbarin
+      setting: Thanh Pham has just moved into an old building in Rostock. In the stairwell she meets Herr Schulze, who has lived there for decades.
+      speakers: S=Herr Schulze/m; T=Thanh/f
+      lines: |
+        S: Guten Tag! Sind Sie die neue Nachbarin aus dem zweiten Stock? | Hello! Are you the new neighbour from the second floor?
+        T: Ja, genau. Ich heiße Thanh Pham. Ich wohne seit Montag hier. | Yes, that's right. My name is Thanh Pham. I've been living here since Monday.
+        S: Schulze, freut mich. Ich wohne schon seit dreißig Jahren in diesem Haus. | Schulze, pleased to meet you. I've been living in this building for thirty years.
+        T: Dreißig Jahre! Dann kennen Sie ja alle hier. | Thirty years! Then you must know everyone here.
+        S: Fast alle. Früher war es ruhiger, heute wohnen mehr Familien hier. | Almost everyone. It used to be quieter; today more families live here.
+        T: Und finden Sie das besser? | And do you think that's better?
+        S: Viel besser! Ich höre lieber Kinder als den Verkehr auf der Straße. | Much better! I'd rather hear children than the traffic in the street.
+        T: Gibt es hier eigentlich eine Hausordnung? | Is there actually a set of house rules here?
+        S: Ja, sie hängt im Treppenhaus. Ab 22 Uhr ist Ruhezeit. | Yes, it's on the wall in the stairwell. Quiet hours start at 10 p.m.
+        T: Und wann kommt die Müllabfuhr? | And when do the bin men come?
+        S: Am Dienstag. Die Tonnen stehen im Hof, neben den Fahrrädern. | On Tuesday. The bins are in the courtyard, next to the bikes.
+        S: Und ich bin fast immer zu Hause – ich nehme gern Ihre Pakete an. | And I'm almost always at home – I'm happy to take in your parcels.
+    pronunciation:
+      title: "o and ö, u and ü"
+      body: |
+        Umlauts change the sound — and sometimes the meaning. Say **o** in *Hof*, then keep your lips in the same round position and say *e*: you get **ö** in *höher*. Say **u** in *Ruhezeit*, keep the lips round and say *i*: you get **ü** in *Müll*.
+
+        *Lieber* has a long ie and a relaxed -er at the end: [ˈliːbɐ].
+      items: |
+        der Hof
+        höher
+        der Müll
+        die Ruhezeit
+        lieber
+        Ich wohne lieber hier.
+    culture:
+      title: Quiet hours and sorting rubbish
+      body: |
+        Many buildings have house rules with quiet hours (*Ruhezeiten*), usually from 10 p.m. to 6 or 7 a.m., and in many places also on Sundays and public holidays. Noisy jobs like drilling are best done on weekdays.
+
+        Rubbish is carefully sorted: paper, packaging, organic waste and general waste go into different bins, and glass goes into bottle banks by colour. Many bottles and cans have a deposit (*Pfand*) — you take them back to the supermarket and get money back.
+    mistakes: |
+      Das Essen ist guter als gestern. => Das Essen ist besser als gestern. | Gut has an irregular comparative: besser.
+      Ich trinke gerner Tee. => Ich trinke lieber Tee. | The comparative of gern is lieber.
+      Wir brauchen mehre Zimmer. => Wir brauchen mehr Zimmer. | Mehr never takes an ending.
+    task:
+      title: Meet your neighbour
+      mode: interaction
+      body: |
+        You have just moved in. Introduce yourself to a neighbour, ask about the house rules and the rubbish collection, and offer to help — for example by taking in parcels or watering plants. Practise with the AI coach in the "Introducing yourself" scenario.
+    exercises: |
+      fill: Die neue Wohnung ist viel ___ als die alte. (gut) || besser || Gut → besser (irregular). || @tags de.comparatives
+      fill: Ich trinke gern Kaffee, aber ich trinke ___ Tee. || lieber || Gern → lieber expresses a preference. || @tags de.comparatives,de.gern
+      fill: In der Stadt gibt es ___ Verkehr als auf dem Land. (viel) || mehr || Viel → mehr; mehr never takes an ending. || @tags de.comparatives
+      fill: Die Mieten sind hier ___ als in meiner Heimatstadt. (hoch) || höher || Hoch → höher: umlaut, and the c disappears. || @tags de.comparatives
+      mc: "Ich wohne lieber in der Stadt." means… || *I prefer living in the city. | I lived in the city before. | I love the city more than anything. || Lieber = rather, preferably — it expresses a preference, not a superlative. || @tags de.comparatives,de.gern
+      rw: Say that you prefer the balcony, using lieber :: Wir grillen gern im Hof. || Wir grillen lieber auf dem Balkon. | Wir grillen lieber auf dem Balkon als im Hof. || Gern → lieber; als names the other option. || @tags de.comparatives,de.gern
+      tf: Herr Schulze has lived in the building for thirty years. || true || "Ich wohne schon seit dreißig Jahren in diesem Haus." || @ctx dialogue
+      short: When does the rubbish collection come? || kw: dienstag/tuesday || "Am Dienstag." || @ctx dialogue
+      listen: @dialogue || What does Herr Schulze offer to do? || Help Thanh carry boxes | *Take in her parcels | Water her plants || "Ich nehme gern Ihre Pakete an."
+      listen: Liebe Nachbarn, am Samstag machen wir ein kleines Fest im Hof. Bitte bringt etwas zu essen mit! || What should the neighbours bring? || Something to drink | *Something to eat | Chairs || Bitte bringt etwas zu essen mit = please bring something to eat. || @tags de.listening
+      tr: I'd rather live in the country. || Ich wohne lieber auf dem Land. | Ich lebe lieber auf dem Land. | Ich würde lieber auf dem Land wohnen. || Gern → lieber: Ich wohne lieber… || @tags de.comparatives,de.gern
+      dict: Ab zweiundzwanzig Uhr ist im Haus Ruhezeit.
+      ask: Introduce yourself to a new neighbour and ask one question about the house rules or the rubbish. || kw: ich heiße/ich bin/mein name/ich wohne & müll/hausordnung/ruhezeit/wann/wo/tonne/tonnen/fahrrad || Guten Tag, ich heiße Sam und wohne seit gestern im ersten Stock. Wann kommt hier die Müllabfuhr?

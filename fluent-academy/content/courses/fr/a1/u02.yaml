@@ -1,0 +1,369 @@
+unit: 2
+title: Ma famille et moi
+theme: Family and people
+description: Talk about your family, describe what people look like and what they are like, and say what you and others do for a living.
+free: true
+objectives:
+  - Talk about your family with possessive determiners (mon, ma, mes…)
+  - Describe people's appearance and personality with adjectives that agree
+  - Say what people do and where they work, with and without an article
+canDo:
+  - I can name the people in my family and say how old they are.
+  - I can use mon, ma and mes with the right noun.
+  - I can describe someone's appearance and personality.
+  - I can say what my job is and where I work.
+review: |
+  mc: "Our children" in French is… || notre enfants | *nos enfants | nous enfants || Enfants is plural, so our = nos. Nous is a subject pronoun, not a possessive. || @tags fr.possessives
+  fill: Sophie habite à Lyon avec ___ frère. || son || Frère is masculine, so her brother = son frère. || @tags fr.possessives @hint her
+  fill: Mes grands-mères sont très ___. || gentilles || Feminine plural: gentil → gentille → gentilles. || @tags fr.adjective-agreement @hint gentil
+  mc: Choose the correct sentence. || *J'ai une petite sœur. | J'ai une sœur petit. | J'ai un petit sœur. || Petit goes before the noun and agrees with sœur (feminine): une petite sœur. || @tags fr.adjective-position,fr.adjective-agreement
+  rw: Talk about two women :: Il est grand et sérieux. || Elles sont grandes et sérieuses. | Elles sont grandes et sérieuses || Il → elles, est → sont, and both adjectives take the feminine plural: grandes, sérieuses. || @tags fr.adjective-agreement,fr.etre
+  tr: My brother is a waiter. || Mon frère est serveur. || No article after est before a job: il est serveur. || @tags fr.articles,fr.possessives
+  tr: Their daughter is a nurse. || Leur fille est infirmière. || Leur = their (one thing owned); infirmière is the feminine of infirmier. || @tags fr.possessives,fr.gender
+  listen: Voici ma famille : mon mari Paul, notre fils Léo et notre fille Emma. || How many children are mentioned? || 1 | *2 | 3 || Notre fils Léo et notre fille Emma — a son and a daughter. Paul is the husband.
+  listen: Mon amie Clara est grande et blonde. Elle est vendeuse. || What is Clara's job? || waitress | *shop assistant | teacher || "Elle est vendeuse" — she's a shop assistant. A waitress is une serveuse.
+  ask: Show a family photo (real or imaginary) and present two people — who they are, what they look like and what they do. || kw: mon/ma/mes & il est/elle est || Voici ma mère. Elle est petite et brune, et elle est médecin. Et voici mon frère : il est grand et il est étudiant.
+  write: Write a short email to your future host family in France describing your family (who, ages, appearance or personality, jobs). || min=35 || req: mon/ma/mes | il est/elle est | ans || Bonjour ! Je m'appelle Ana et j'ai vingt ans. Dans ma famille, nous sommes quatre. Mon père est grand et très drôle ; il est avocat. Ma mère est infirmière. Mon petit frère s'appelle Pablo, il a douze ans et il est un peu timide. À bientôt !
+lessons:
+  - title: My family
+    summary: Name the people in your family and use possessive determiners — mon, ma, mes and the rest.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [fr.possessives, fr.gender]
+    objectives:
+      - Name the members of your family
+      - Use the possessives mon/ma/mes, ton/ta/tes, son/sa/ses and notre, votre, leur
+      - Say how many brothers, sisters or children you have
+    intro: |
+      Family is one of the first topics people talk about when they get to know each other. To present your family in French you need the family words and the possessive determiners — **mon père**, **ma mère**, **mes parents**. Unlike in English, the possessive changes with the noun that follows, not with the person who "owns" it.
+    vocab: |
+      la famille | family | n | Ma famille habite à Rennes. | My family lives in Rennes. | g: f | c: en famille; une grande famille
+      le père | father | n | Mon père s'appelle Karim. | My father's name is Karim. | g: m | n: Children usually say papa.
+      la mère | mother | n | Ma mère est professeure. | My mother is a teacher. | g: f | n: Children usually say maman.
+      les parents | parents | n | Mes parents ont deux enfants. | My parents have two children. | g: m | n: Always plural in this meaning.
+      le frère | brother | n | J'ai un frère et une sœur. | I have a brother and a sister. | g: m | c: des frères et sœurs; un grand frère; un petit frère
+      la sœur | sister | n | Ma sœur a dix-sept ans. | My sister is seventeen. | g: f | n: Note the letters œ joined together: s-œ-u-r.
+      le fils | son | n | Leur fils s'appelle Noé. | Their son's name is Noé. | g: m | c: fils unique (only child, boy) | n: Pronounced [fis] — the l is silent and the s is pronounced.
+      la fille | daughter; girl | n | Ma fille a six ans. | My daughter is six. | g: f | c: fille unique (only child, girl) | n: Pronounced [fij], like the end of famille.
+      l'enfant | child | n | Vous avez des enfants ? | Do you have children? | g: m/f | n: un enfant (a boy) or une enfant (a girl); plural des enfants.
+      le mari | husband | n | Son mari est espagnol. | Her husband is Spanish. | g: m
+      la femme | wife; woman | n | Sa femme s'appelle Inès. | His wife's name is Inès. | g: f | n: Pronounced [fam], like the start of famille.
+      les grands-parents | grandparents | n | Mes grands-parents habitent à Dakar. | My grandparents live in Dakar. | g: m | n: le grand-père (grandfather), la grand-mère (grandmother).
+      la tante | aunt | n | Ma tante Sylvie a trois enfants. | My aunt Sylvie has three children. | g: f | n: Uncle: l'oncle (m).
+      le cousin | cousin (male) | n | Mon cousin Hugo habite à Québec. | My cousin Hugo lives in Quebec City. | g: m | n: A female cousin is une cousine.
+    grammar:
+      title: "Possessives: mon, ma, mes"
+      body: |
+        In French, a possessive (*my, your, his, her…*) agrees with the **noun that follows**, not with the owner. Every noun is masculine or feminine, so learn each family word with its article: *le père* (m), *la mère* (f).
+
+        - Before a masculine noun: **mon** père, **ton** frère, **son** fils.
+        - Before a feminine noun: **ma** mère, **ta** sœur, **sa** fille.
+        - Before any plural noun: **mes** parents, **tes** cousins, **ses** enfants.
+
+        **Son, sa, ses** mean both *his* and *her*: *sa mère* is "his mother" or "her mother" — the context tells you which.
+
+        Before a feminine noun starting with a vowel sound, use **mon, ton, son** — it is easier to say: *mon amie*, *ton école*.
+
+        For *our*, *your* (vous) and *their*, there is one singular form and one plural form: **notre / nos**, **votre / vos**, **leur / leurs**.
+      table: |
+        English | + masculine | + feminine | + plural
+        my | mon | ma | mes
+        your (tu) | ton | ta | tes
+        his / her | son | sa | ses
+        our | notre | notre | nos
+        your (vous) | votre | votre | vos
+        their | leur | leur | leurs
+      examples: |
+        Mon frère habite à Toulouse. | My brother lives in Toulouse.
+        Ma sœur a deux enfants. | My sister has two children.
+        Paul et sa femme sont médecins. | Paul and his wife are doctors. | sa agrees with femme
+        Julie et son mari habitent à Nice. | Julie and her husband live in Nice. | son agrees with mari
+        Vous avez une photo de vos enfants ? | Do you have a photo of your children?
+      tip: Look at the noun, not the owner. Julie's father is son père; Marc's mother is sa mère.
+    dialogue:
+      title: La photo de famille
+      setting: Yasmine shows her new flatmate Tom a family photo on her phone.
+      speakers: Y=Yasmine/f; T=Tom/m
+      lines: |
+        T: C'est ta famille sur la photo ? | Is that your family in the photo?
+        Y: Oui ! Voilà mon père et ma mère. | Yes! Here are my father and my mother.
+        T: Et le garçon, c'est ton frère ? | And the boy, is that your brother?
+        Y: Oui, c'est Samir. Il a seize ans. | Yes, that's Samir. He's sixteen.
+        T: Et la petite, là ? | And the little one, there?
+        Y: C'est Lina, la fille de ma sœur. | That's Lina, my sister's daughter.
+        T: Ah, ta sœur a des enfants ? | Oh, your sister has children?
+        Y: Oui, une fille et un fils. Et toi ? | Yes, a daughter and a son. And you?
+        T: Moi, je suis fils unique. | I'm an only child.
+        Y: Ah bon ? Et tu as des cousins ? | Really? And do you have cousins?
+        T: Oui, j'ai dix cousins ! | Yes, I have ten cousins!
+        Y: Dix ? C'est une grande famille ! | Ten? That's a big family!
+    pronunciation:
+      title: "Tricky family words: fils, fille, femme"
+      body: |
+        Some family words don't sound the way they are spelt. In **fils** [fis] the l is silent but the s is pronounced. In **fille** and **famille**, the letters *ill* sound like the *y* in *yes*: [fij], [famij]. In **femme**, the e sounds like an a: [fam].
+
+        **Sœur** has the vowel [œ], a little like the vowel in English *her*, but with rounded lips. Finally, **mon, ton, son** link to a following vowel with an [n]: *mon enfant* [mɔ̃.nɑ̃.fɑ̃].
+      items: |
+        fils
+        fille
+        famille
+        femme
+        sœur
+        mon enfant
+    culture:
+      title: Families in France
+      body: |
+        French families come in many shapes: married and unmarried couples, single-parent families (**familles monoparentales**) and blended families (**familles recomposées**), where a child may have a **beau-père** (stepfather) or a **belle-mère** (stepmother). The same words also mean father-in-law and mother-in-law.
+
+        Grandparents often play a big part in family life. Many children spend some of the school holidays with **papi et mamie** — grandpa and grandma.
+    mistakes: |
+      Ma père s'appelle Ali. => Mon père s'appelle Ali. | Père is masculine, so the possessive is mon.
+      Ma amie Léa habite à Paris. => Mon amie Léa habite à Paris. | Before a vowel sound, use mon even with a feminine noun: mon amie.
+      Paul et son sœur => Paul et sa sœur | The possessive agrees with sœur (feminine), not with Paul.
+    task:
+      title: Your family tree
+      mode: speaking
+      body: |
+        Draw a simple family tree with four or five people. Present it aloud: for each person, say who they are (mon frère, ma tante…), their name and their age. Record yourself in Speaking practice, then compare with the dialogue.
+    exercises: |
+      fill: ___ père s'appelle Ahmed. || mon || Père is masculine singular: mon père. || @tags fr.possessives @hint my
+      fill: Tu habites avec ___ parents ? || tes || Parents is plural, so your (tu) = tes. || @tags fr.possessives @hint your (tu)
+      fill: Léa et ___ mari habitent à Nantes. || son || Mari is masculine, so her husband = son mari. || @tags fr.possessives @hint her
+      mc: "His mother" in French is… || son mère | *sa mère | ses mère || Mère is feminine singular, so sa — even though the owner is a man. || @tags fr.possessives
+      mc: Choose the right phrase for "my friend" (a woman). || ma amie | *mon amie | mes amie || Before a vowel sound, ma becomes mon: mon amie. Mes is only for plural nouns. || @tags fr.possessives
+      mc: Who is Lina? || Yasmine's sister | *Yasmine's sister's daughter | Tom's cousin || Yasmine says "C'est Lina, la fille de ma sœur" — Lina is her niece. || @ctx dialogue @skill reading @tags fr.reading
+      tf: Tom has no brothers or sisters. || true || Tom says "je suis fils unique" — he is an only child. || @ctx dialogue
+      rw: Replace "de Marc" with a possessive :: La sœur de Marc s'appelle Zoé. || Sa sœur s'appelle Zoé. || Sœur is feminine, so Marc's sister = sa sœur. || @tags fr.possessives
+      order: Leur fils a dix ans et leur fille a sept ans. || Their son is ten and their daughter is seven. || @tags fr.possessives
+      tr: My brother is called Lucas. || Mon frère s'appelle Lucas. | Mon frère, c'est Lucas. || Frère is masculine: mon frère. Names use s'appeler. || @tags fr.possessives,fr.sappeler
+      listen: Je m'appelle Nadia. J'ai deux frères et une sœur. || How many brothers does Nadia have? || 1 | *2 | 3 || "J'ai deux frères et une sœur" — two brothers and one sister.
+      listen: @dialogue || How old is Samir? || 6 | *16 | 10 || Yasmine says "Il a seize ans" — he's sixteen. Ten is the number of Tom's cousins.
+      dict: Ma sœur et son mari ont deux enfants.
+      ask: Talk about your family — say how many brothers, sisters or children you have and give one person's name. || kw: j'ai/je suis & frère/sœur/enfant/fils/fille/unique || J'ai une sœur et un frère. Ma sœur s'appelle Clara et elle a vingt ans.
+      write: Write a short message to a pen friend describing your family (who they are, names and ages). || min=25 || req: mon/ma/mes | j'ai | ans || Salut Léo ! Dans ma famille, nous sommes cinq : mon père, ma mère, mes deux sœurs et moi. Mon père s'appelle Marc et ma mère s'appelle Nadia. Ma sœur Chloé a dix-neuf ans. Et toi ?
+
+  - title: Describing people
+    summary: Describe what people look like and what they are like, making adjectives agree in gender and number.
+    minutes: 40
+    skills: [grammar, vocabulary, listening]
+    tags: [fr.adjective-agreement, fr.adjective-position]
+    objectives:
+      - Describe someone's appearance (height, hair)
+      - Describe someone's personality
+      - Make adjectives agree with the person they describe
+    intro: |
+      When you talk about people, you describe them — tall or short, funny or shy. In French, the adjective changes its ending to match the person: **il est grand**, **elle est grande**, **ils sont grands**. Getting these endings right is one of the clearest signs of careful French.
+    vocab: |
+      grand | tall; big | adj | Mon frère est très grand. | My brother is very tall. | n: Feminine: grande. Goes before the noun: un grand garçon.
+      petit | short; small; little | adj | Ma grand-mère est petite. | My grandmother is short. | n: Feminine: petite. Goes before the noun: un petit frère (a younger brother).
+      jeune | young | adj | Notre professeure est jeune. | Our teacher is young. | n: Same form for masculine and feminine.
+      beau | handsome; beautiful | adj | Ton frère est beau ! | Your brother is handsome! | n: Irregular feminine: belle. Goes before the noun: une belle photo.
+      les cheveux | hair | n | Elle a les cheveux longs. | She has long hair. | g: m | c: avoir les cheveux longs; avoir les cheveux courts | n: Always plural in French.
+      brun | dark-haired | adj | Mon père est brun. | My father has dark hair. | n: Feminine: brune. Used for hair, not skin.
+      blond | blond | adj | Ses enfants sont blonds. | Her children are blond. | n: Feminine: blonde.
+      les yeux | eyes | n | Lucie a les yeux bleus. | Lucie has blue eyes. | g: m | c: avoir les yeux bleus; avoir les yeux marron | n: Singular: un œil.
+      sympa | nice; friendly | adj | Ta cousine est très sympa ! | Your cousin is really nice! | n: Informal. Same form for masculine and feminine; plural sympas.
+      gentil | kind | adj | Le directeur est gentil. | The manager is kind. | n: Feminine: gentille (double l).
+      drôle | funny | adj | Mon oncle est très drôle. | My uncle is very funny. | n: Same form for masculine and feminine.
+      timide | shy | adj | Au début, Hugo est un peu timide. | At first, Hugo is a little shy.
+      sérieux | serious; hard-working | adj | Ce sont des étudiants sérieux. | They're hard-working students. | n: Feminine: sérieuse. The masculine plural doesn't change.
+      assez | quite; fairly | adv | Il est assez grand. | He's quite tall. | n: Goes before the adjective, like très and un peu.
+    grammar:
+      title: Adjective agreement and position
+      body: |
+        A French adjective **agrees** with the person or thing it describes: masculine or feminine, singular or plural.
+
+        - **Feminine:** usually add **-e** — *grand → grande*, *petit → petite*, *blond → blonde*. The -e often makes the last consonant heard: *petit* [pəti], *petite* [pətit].
+        - Adjectives that already end in **-e** don't change: *jeune, drôle, timide*. *Sympa* doesn't change either.
+        - **Plural:** usually add a silent **-s** — *grands, petites*. Adjectives ending in -x don't change in the masculine plural: *sérieux*.
+        - Some common irregular feminines: *gentil → gentille*, *sérieux → sérieuse*, *beau → belle*.
+
+        A mixed group of men and women takes the **masculine plural**: *Paul et Julie sont grands.*
+
+        **Position:** most adjectives go **after** the noun (*une fille timide*), but a few short, very common ones go **before** it — *grand, petit, jeune, beau*: *un petit garçon, une belle photo*.
+      table: |
+        Type | masculine | feminine | m. plural | f. plural
+        regular | grand | grande | grands | grandes
+        ends in -e | jeune | jeune | jeunes | jeunes
+        -eux → -euse | sérieux | sérieuse | sérieux | sérieuses
+        double consonant | gentil | gentille | gentils | gentilles
+        irregular | beau | belle | beaux | belles
+      examples: |
+        Mon fils est petit, mais ma fille est grande. | My son is short, but my daughter is tall.
+        Mes sœurs sont blondes. | My sisters are blond. | feminine plural
+        C'est une femme très gentille. | She's a very kind woman.
+        Marc et Sophie sont sérieux. | Marc and Sophie are hard-working. | mixed group: masculine plural
+        J'ai un petit frère. | I have a younger brother. | petit goes before the noun
+      tip: "For hair and eyes, French uses avoir + les: Elle a les cheveux blonds. Il a les yeux bleus."
+    dialogue:
+      title: À la gare
+      setting: Karim and his friend Manon wait at Lille station for Karim's cousin Élodie, whom Manon has never met.
+      speakers: K=Karim/m; M=Manon/f; E=Élodie/f
+      lines: |
+        K: Ma cousine Élodie arrive de Paris. | My cousin Élodie is arriving from Paris.
+        M: Elle est comment, ta cousine ? | What's she like, your cousin?
+        K: Elle est grande et brune. | She's tall and dark-haired.
+        M: Elle a les cheveux longs ? | Does she have long hair?
+        K: Non, elle a les cheveux courts. | No, she has short hair.
+        M: Et elle est sympa ? | And is she nice?
+        K: Oui, très ! Elle est drôle et gentille. | Yes, very! She's funny and kind.
+        M: C'est elle, la grande fille brune, là ? | Is that her, the tall dark-haired girl, there?
+        K: Oui, c'est elle ! Élodie ! | Yes, that's her! Élodie!
+        E: Salut, Karim ! Ça va ? | Hi, Karim! How are you?
+        K: Très bien ! Élodie, voici mon amie Manon. | Very well! Élodie, this is my friend Manon.
+        E: Enchantée, Manon ! Karim parle beaucoup de toi. | Nice to meet you, Manon! Karim talks about you a lot.
+    pronunciation:
+      title: "Hearing the feminine: petit, petite"
+      body: |
+        Many masculine adjectives end in a silent consonant. In the feminine, the -e makes that consonant heard: *petit* [pəti] → *petite* [pətit], *grand* [ɡʁɑ̃] → *grande* [ɡʁɑ̃d], *blond* [blɔ̃] → *blonde* [blɔ̃d].
+
+        So when you listen, the final consonant often tells you whether the person is a man or a woman. Adjectives ending in -e (*jeune, drôle, timide*) sound exactly the same in both forms.
+      items: |
+        il est petit
+        elle est petite
+        il est grand
+        elle est grande
+        il est blond
+        elle est blonde
+    culture:
+      title: Describing people politely
+      body: |
+        When French speakers describe someone, they often soften a negative word with **un peu** (*a little*): *il est un peu timide*. Comments about someone's weight are considered rude, and for older people **âgé** (*elderly*) sounds more respectful than **vieux** (*old*).
+
+        **Brun** and **blond** describe hair. They are also used as nouns: *un grand brun* is a tall man with dark hair.
+    mistakes: |
+      Ma sœur est grand. => Ma sœur est grande. | The adjective agrees with sœur (feminine): add -e.
+      Elle est gentile. => Elle est gentille. | The feminine of gentil doubles the l: gentille.
+      J'ai un frère petit. => J'ai un petit frère. | Petit is one of the short adjectives that go before the noun.
+    task:
+      title: Guess who?
+      mode: interaction
+      body: |
+        Think of a person everyone in your class or family knows. Describe them in three or four sentences — appearance and personality — without saying the name, and let a partner guess. Use il est / elle est, il a / elle a les cheveux…, and at least two personality adjectives.
+    exercises: |
+      fill: Ma mère est ___. || petite || Mère is feminine: petit + e = petite. || @tags fr.adjective-agreement @hint petit
+      fill: Mes cousins sont très ___. || drôles || Masculine plural: add -s. Drôle already ends in -e. || @tags fr.adjective-agreement @hint drôle
+      fill: Léa est très ___. || gentille || Gentil doubles the l in the feminine: gentille. || @tags fr.adjective-agreement @hint gentil
+      fill: Karim et Julie sont ___. || sérieux || A mixed group takes the masculine plural, and sérieux doesn't change in the masculine plural. || @tags fr.adjective-agreement @hint sérieux
+      mc: Choose the correct sentence. || *C'est une petite fille. | C'est une fille petit. | C'est un petite fille. || Petit goes before the noun and agrees with fille: une petite fille. || @tags fr.adjective-position,fr.adjective-agreement
+      mc: Which adjective has the same form for a man and a woman? || grand | *timide | gentil || Timide already ends in -e, so it doesn't change. Grand → grande, gentil → gentille. || @tags fr.adjective-agreement
+      mc: "She's beautiful" is… || Elle est beau. | *Elle est belle. | Elle est beaue. || Beau has an irregular feminine: belle. || @tags fr.adjective-agreement
+      short: What does Élodie look like? Give two details. || kw: grande/tall/courts/short & brune/dark/brown/courts/short || Karim says "Elle est grande et brune" and "elle a les cheveux courts". || @ctx dialogue
+      tf: Karim says his cousin is shy. || false || He says she is "drôle et gentille" — funny and kind. || @ctx dialogue
+      rw: Talk about your sister instead :: Mon frère est grand, brun et très sympa. || Ma sœur est grande, brune et très sympa. || Frère → sœur (ma), grand → grande, brun → brune. Sympa doesn't change. || @tags fr.adjective-agreement,fr.possessives
+      tr: My father is tall and funny. || Mon père est grand et drôle. || Masculine adjectives after est: grand, drôle. || @tags fr.adjective-agreement,fr.possessives
+      tr: She has blond hair. || Elle a les cheveux blonds. | Elle est blonde. || Avoir + les cheveux + adjective; blonds agrees with cheveux (masculine plural). || @tags fr.adjective-agreement,fr.avoir
+      listen: Ma voisine est petite, brune et très sympa. || What is the neighbour like? || tall and blond | *short, dark-haired and nice | short and shy || "Petite, brune et très sympa" — short, dark-haired and very nice.
+      dict: Ma cousine est grande et très drôle.
+      ask: Describe a friend — say what they look like and what they are like. || kw: il est/elle est & grand/petit/brun/blond/cheveux/jeune & sympa/gentil/drôle/timide/sérieux/sérieuse || Mon ami Hugo est grand et brun. Il est très drôle et un peu timide.
+      write: Describe two people in your family (appearance and personality) for a short class blog post. || min=30 || req: il est/elle est | grand/petit/jeune/brun/blond/cheveux | sympa/gentil/drôle/timide/sérieux/sérieuse || Ma sœur Inès a vingt ans. Elle est petite et brune, et elle est très drôle. Mon père s'appelle Marc. Il est grand et blond. Il est sérieux mais très gentil.
+
+  - title: Jobs and workplaces
+    summary: Say what you do and where you work, with masculine and feminine jobs, un/une and le/la/l'/les.
+    minutes: 40
+    skills: [vocabulary, grammar, reading]
+    tags: [fr.articles, fr.gender, fr.etre]
+    objectives:
+      - Say what you and other people do for a living
+      - Use masculine and feminine job names without an article after être
+      - Choose between un/une/des and le/la/l'/les
+    intro: |
+      After your name, one of the first questions people ask is what you do: *Qu'est-ce que vous faites dans la vie ?* In this lesson you will name jobs and workplaces, learn the masculine and feminine forms of jobs, and see why French says **je suis infirmière** — with no *une*.
+    vocab: |
+      qu'est-ce que vous faites dans la vie ? | what do you do (for a living)? | expr | Et vous, qu'est-ce que vous faites dans la vie ? | And you, what do you do for a living? | n: Informal: Tu fais quoi dans la vie ?
+      travailler | to work | v | Je travaille dans un hôpital. | I work in a hospital. | c: travailler dans un bureau; travailler à la maison
+      le médecin | doctor | n | Elle est médecin à Lyon. | She's a doctor in Lyon. | g: m | n: Also used for women: elle est médecin.
+      l'infirmier | nurse (male) | n | Mon mari est infirmier. | My husband is a nurse. | g: m | n: Feminine: infirmière.
+      le professeur | teacher | n | Il est professeur de maths. | He's a maths teacher. | g: m | n: Feminine: professeure. Informal: le prof, la prof.
+      le serveur | waiter | n | Le serveur est très sympa. | The waiter is very nice. | g: m | n: Feminine: serveuse (waitress).
+      le vendeur | shop assistant | n | Ma sœur est vendeuse dans une librairie. | My sister is a shop assistant in a bookshop. | g: m | n: Feminine: vendeuse.
+      l'ingénieur | engineer | n | Je suis ingénieure. | I'm an engineer. | g: m | n: Feminine: ingénieure — same pronunciation.
+      l'avocat | lawyer | n | Son père est avocat à Paris. | Her father is a lawyer in Paris. | g: m | n: Feminine: avocate. Un avocat is also an avocado!
+      le bureau | office; desk | n | Le bureau est à Nanterre. | The office is in Nanterre. | g: m | pl: les bureaux
+      l'hôpital | hospital | n | L'hôpital est très grand. | The hospital is very big. | g: m | pl: les hôpitaux | n: The h is silent: l'hôpital.
+      l'école | school | n | Ma tante travaille dans une école. | My aunt works in a school. | g: f
+      le magasin | shop | n | Il est vendeur dans un magasin de sport. | He's a shop assistant in a sports shop. | g: m
+      l'entreprise | company | n | Je travaille pour une entreprise française. | I work for a French company. | g: f
+    grammar:
+      title: "Articles and jobs: il est médecin, c'est un médecin"
+      body: |
+        Every French noun is **masculine** or **feminine**, and the article shows which.
+
+        - **Indefinite** (*a, some*): **un** (m) — *un bureau*; **une** (f) — *une école*; **des** (plural) — *des magasins*.
+        - **Definite** (*the*): **le** (m) — *le bureau*; **la** (f) — *la librairie*; **l'** before a vowel or silent h — *l'école, l'hôpital*; **les** (plural) — *les enfants*.
+
+        **Jobs:** after *je suis, il est, elle est…* French uses **no article**: *Elle est infirmière.* After **c'est** you need one: *C'est une infirmière.* When you add an adjective, use c'est: *C'est un bon médecin.*
+
+        Many jobs have a masculine and a feminine form: *serveur → serveuse*, *infirmier → infirmière*, *avocat → avocate*, *professeur → professeure*. Some, like *médecin* or *architecte*, are the same for everyone.
+      table: |
+        Pattern | masculine | feminine
+        -eur → -euse | serveur, vendeur | serveuse, vendeuse
+        -ier → -ière | infirmier | infirmière
+        add -e | avocat, ingénieur | avocate, ingénieure
+        same form | médecin, architecte | médecin, architecte
+      examples: |
+        Je suis serveuse dans un café. | I'm a waitress in a café.
+        Il est ingénieur. C'est un ingénieur allemand. | He's an engineer. He's a German engineer. | no article after il est
+        Ma tante travaille à l'hôpital. | My aunt works at the hospital.
+        Les bureaux sont à Lille. | The offices are in Lille.
+      tip: Learn every noun with un or une, not le or la — l' and les hide the gender (l'école, les écoles).
+    dialogue:
+      title: Les nouveaux voisins
+      setting: At a small party in their building in Nantes, Julien meets his new neighbours, Aïcha and Sam.
+      speakers: J=Julien/m; A=Aïcha/f; S=Sam/m
+      lines: |
+        J: Bonsoir ! Vous habitez dans l'immeuble ? | Good evening! Do you live in the building?
+        A: Oui, nous sommes vos voisins ! | Yes, we're your neighbours!
+        J: Enchanté ! Qu'est-ce que vous faites dans la vie ? | Nice to meet you! What do you do for a living?
+        A: Je suis infirmière. Je travaille à l'hôpital. | I'm a nurse. I work at the hospital.
+        J: Et vous, monsieur ? | And you, sir?
+        S: Moi, je suis professeur dans une école. | I'm a teacher at a school.
+        J: Ah, c'est un beau métier ! | Oh, that's a great job!
+        S: Oui, c'est super. Et vous ? | Yes, it's great. And you?
+        J: Je suis ingénieur, mais je travaille à la maison. | I'm an engineer, but I work from home.
+        A: À la maison ? C'est pratique ! | From home? That's handy!
+        J: Oui, mon bureau, c'est ma cuisine ! | Yes, my office is my kitchen!
+    pronunciation:
+      title: "Masculine and feminine jobs: -eur / -euse, -ier / -ière"
+      body: |
+        The ending of a job often changes its sound. *Serveur* [sɛʁ.vœʁ] becomes *serveuse* [sɛʁ.vøz]. In *infirmier* [ɛ̃.fiʁ.mje] the final r is silent, but in *infirmière* [ɛ̃.fiʁ.mjɛʁ] you hear it. In *avocat* the t is silent; in *avocate* it is pronounced.
+
+        Some pairs sound exactly the same — *ingénieur / ingénieure*, *professeur / professeure* — only the spelling changes.
+      items: |
+        serveur
+        serveuse
+        infirmier
+        infirmière
+        avocat
+        avocate
+    culture:
+      title: Work in France
+      body: |
+        The official full-time working week in France is **35 heures** (35 hours), and the lunch break is often a real meal, sometimes in a staff canteen (**la cantine**).
+
+        When someone asks *Qu'est-ce que vous faites dans la vie ?*, people answer with their job or their situation: *je suis étudiante*, *je suis retraité* (I'm retired), *je cherche un emploi* (I'm looking for a job).
+    mistakes: |
+      Je suis un médecin. => Je suis médecin. | After je suis / il est / elle est, use no article before a job.
+      Elle est serveur. => Elle est serveuse. | Use the feminine form of the job for a woman: serveur → serveuse.
+      Il est un bon professeur. => C'est un bon professeur. | With an adjective, use c'est + un/une + job.
+    task:
+      title: Who does what?
+      mode: writing
+      body: |
+        Write a sentence about the job and workplace of three people you know (or imagine them), for example: Sara est avocate. Elle travaille dans un bureau à Lyon. Then say the sentences aloud and check the masculine or feminine form of each job.
+    exercises: |
+      fill: Mon oncle est ___ dans un restaurant. || serveur || Oncle is masculine: serveur. || @tags fr.gender @hint waiter
+      fill: Ma cousine est ___. || infirmière || -ier becomes -ière in the feminine: infirmière. || @tags fr.gender @hint infirmier
+      fill: Il travaille dans ___ bureau à Paris. || un || Bureau is masculine: un bureau. || @tags fr.articles,fr.gender
+      fill: ___ hôpital est très moderne. || l' || Before a vowel or a silent h, le and la become l': l'hôpital. || @tags fr.articles,fr.elision
+      mc: How do you say "She's a lawyer"? || Elle est une avocate. | *Elle est avocate. | Elle est avocat. || No article after elle est, and the job takes the feminine form: avocate. || @tags fr.articles,fr.gender
+      mc: Complete the sentence "___ un très bon médecin." || Il est | *C'est | Il a || With un/une + job + adjective, use c'est. Il est takes no article; il a means he has. || @tags fr.articles,fr.etre
+      mc: Where does Aïcha work? || in a school | *in a hospital | at home || "Je suis infirmière. Je travaille à l'hôpital." || @ctx dialogue @skill reading @tags fr.reading
+      tf: Julien works from home. || true || Julien says "je travaille à la maison" — his office is his kitchen. || @ctx dialogue
+      rw: Talk about a woman :: Il est vendeur dans un magasin. || Elle est vendeuse dans un magasin. || Il → elle; vendeur → vendeuse. Magasin stays masculine: un magasin. || @tags fr.gender
+      tr: My sister is a doctor. || Ma sœur est médecin. || No article after est; médecin is also used for women. || @tags fr.articles,fr.possessives
+      listen: Bonjour, je m'appelle Hélène. Je suis professeure et je travaille dans une école à Lyon. || What is Hélène's job? || nurse | *teacher | shop assistant || "Je suis professeure" — I'm a teacher.
+      listen: @dialogue || What does Sam do? || He's an engineer. | *He's a teacher. | He's a nurse. || Sam says "je suis professeur dans une école". Julien is the engineer.
+      dict: Elle est vendeuse dans un petit magasin.
+      ask: Answer the question "Qu'est-ce que vous faites dans la vie ?" — say your job (or what you study) and where you work or study. || kw: je suis/je travaille/j'étudie & dans/à/pour || Je suis serveur. Je travaille dans un café à Montpellier.
+      write: Write a short profile for a networking app — your job or studies, where you work, and one family member and their job. || min=25 || req: je suis | je travaille/j'étudie | il est/elle est || Bonjour ! Je m'appelle Zoé. Je suis ingénieure et je travaille dans un bureau à Toulouse. Ma mère est infirmière et mon père est professeur.

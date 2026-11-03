@@ -1,0 +1,373 @@
+unit: 2
+title: Vacaciones y viajes
+theme: Holidays and travel
+description: Tell the story of a holiday with irregular preterites, check what you have already done before a trip with the pretérito perfecto, and explain problems when things go wrong.
+free: true
+objectives:
+  - Tell the story of a holiday with irregular preterites (fui, estuve, hice, tuve)
+  - Talk about experiences and trip preparations with the pretérito perfecto
+  - Explain a travel problem, choosing between perfecto and indefinido
+canDo:
+  - I can say where I went on holiday, where I stayed and what it was like.
+  - I can say what I have already done and what I haven't done yet before a trip.
+  - I can ask someone if they have ever been to a place.
+  - I can explain a problem at an airport or a hotel and ask for help.
+review: |
+  fill: En julio ___ (ir, nosotras) a Menorca en barco. || fuimos || Ir in the preterite: fui, fuiste, fue, fuimos, fuisteis, fueron. || @tags es.preterite-irregular
+  fill: ¿Qué ___ (hacer, tú) el fin de semana pasado? || hiciste || Hacer → hic- + -iste: hiciste. || @tags es.preterite-irregular
+  fill: Mis padres ___ (estar) dos semanas en Perú. || estuvieron || Estar → estuv- + -ieron. || @tags es.preterite-irregular
+  mc: Anoche el niño no ___ bien. || dormió | *durmió | durmí || Dormir changes o → u in the él/ella form: durmió. Durmí doesn't exist (yo = dormí). || @tags es.preterite-irregular
+  fill: ¿___ (estar, tú) alguna vez en Lisboa? || has estado || Experiences with alguna vez take the perfecto: has + estado. || @tags es.present-perfect
+  fill: Todavía no he ___ (abrir) la maleta. || abierto || Abrir has an irregular participle: abierto. || @tags es.present-perfect
+  mc: You're in Madrid. Which sentence sounds natural there? || Ayer he perdido el móvil. | *Esta mañana he perdido el móvil. | Anoche he perdido el móvil. || In Spain, esta mañana (today) takes the perfecto; ayer and anoche are finished times and take the indefinido (perdí). || @tags es.present-perfect,es.preterite
+  tr: We've already booked the hotel. || Ya hemos reservado el hotel. | Hemos reservado ya el hotel. | Ya hemos hecho la reserva del hotel. | Hemos reservado el hotel ya. || Ya + perfecto: hemos reservado. Ya usually goes before haber. || @tags es.present-perfect
+  listen: El sábado fuimos a Toledo. Comimos en una terraza y por la tarde visitamos la catedral. Fue un día perfecto. || What did they do in the afternoon? || *They visited the cathedral | They had lunch on a terrace | They went back home || "Por la tarde visitamos la catedral." Lunch on the terrace came first. || @tags es.listening,es.preterite-irregular
+  listen: Atención, por favor. El vuelo de las seis y media con destino a Roma se ha cancelado. || What has happened to the 6:30 flight to Rome? || *It has been cancelled | It is delayed | It is boarding now || "Se ha cancelado" = it has been cancelled. || @tags es.listening,es.present-perfect
+  ask: Tell a friend about a holiday: where you went, where you stayed and one thing that went wrong. || kw: fui/fuimos & estuve/estuvimos/dormimos/pasamos & perdí/perdimos/se estropeó/cancelaron/robaron/llovió/no pude/no pudimos || El año pasado fuimos a Mallorca. Estuvimos en un hotel cerca de la playa. Todo fue genial, pero el último día cancelaron el vuelo y dormimos en el aeropuerto.
+  write: Write a message to a friend from your holiday. Say what you did yesterday, what you have done today and one thing you haven't done yet. || min=40 || req: ayer | hoy/esta mañana | todavía no/aún no || ¡Hola, Lola! Te escribo desde Cádiz. Ayer llegamos a las doce, comimos pescado frito y por la tarde fuimos a la playa de la Caleta. Hoy hemos visitado la catedral y hemos subido a la torre. ¡Qué vistas! Todavía no hemos probado el famoso atún de Barbate, pero mañana vamos a un restaurante muy bueno. Un beso, Fátima
+lessons:
+  - title: A holiday to remember
+    summary: Tell the story of a holiday with irregular preterites — fui, estuve, hice, tuve — and say what it was like.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [es.preterite-irregular, es.preterite]
+    objectives:
+      - Use the irregular preterites of ir, ser, estar, tener, hacer, poder and querer
+      - Use the -ir stem changes in the preterite (pidió, durmió)
+      - Say what a trip was like with fue + adjective
+    intro: |
+      A good holiday story needs the most common verbs in Spanish — *ir, ser, estar, tener, hacer* — and they are all irregular in the preterite. The good news is that most of them follow one pattern: a new stem and endings with no written accents. Learn them as a group and you can tell any trip: *Fuimos a Menorca, estuvimos diez días e hicimos muchas excursiones.*
+    vocab: |
+      ir de vacaciones | to go on holiday | expr | El verano pasado fuimos de vacaciones a Menorca. | Last summer we went on holiday to Menorca. | n: Estar de vacaciones = to be on holiday.
+      el viaje | trip; journey | n | El viaje en tren duró seis horas. | The train journey took six hours. | g: m | c: hacer un viaje; ¡buen viaje!
+      la casa rural | country cottage (holiday rental) | n | Estuvimos en una casa rural en los Picos de Europa. | We stayed in a country cottage in the Picos de Europa. | g: f
+      el albergue | hostel | n | Dormimos dos noches en un albergue del Camino. | We slept two nights in a hostel on the Camino. | g: m
+      hacer una excursión | to go on a trip; to go on an outing | expr | Hicimos una excursión en barco a las islas Cíes. | We went on a boat trip to the Cíes Islands.
+      hacer senderismo | to go hiking | expr | Hice senderismo por los Pirineos. | I went hiking in the Pyrenees.
+      pasar | to spend (time) | v | Pasamos una semana en Lanzarote. | We spent a week in Lanzarote.
+      tomar el sol | to sunbathe | expr | Los niños nadaron y yo tomé el sol. | The children swam and I sunbathed.
+      probar | to try (food) | v | En Galicia probé el pulpo por primera vez. | In Galicia I tried octopus for the first time. | n: Stem change only in the present (pruebo); the preterite is regular: probé.
+      el paisaje | landscape; scenery | n | ¡Qué paisaje tan bonito! | What beautiful scenery! | g: m
+      inolvidable | unforgettable | adj | Fue un viaje inolvidable. | It was an unforgettable trip.
+      ¡qué pasada! | amazing! | expr | ¿Viste la playa? ¡Qué pasada! | Did you see the beach? Amazing! | n: Informal, Spain. More neutral: ¡Qué maravilla!
+    grammar:
+      title: "Irregular preterites: fui, estuve, hice…"
+      body: |
+        The most frequent verbs are irregular in the preterite.
+
+        **Ser** and **ir** share the same forms: *fui, fuiste, fue, fuimos, fuisteis, fueron*. The context tells you which verb it is: *Fui a Cádiz* (I went) — *Fue increíble* (it was amazing).
+
+        Many other verbs take a **new stem** and one set of endings: **-e, -iste, -o, -imos, -isteis, -ieron**, with **no written accents**:
+        - estar → **estuv-** (estuve, estuvo); tener → **tuv-**; poder → **pud-**; poner → **pus-**
+        - hacer → **hic-** (but él/ella: **hizo**); venir → **vin-**; querer → **quis-**
+        - decir → **dij-**: the ellos form drops the i: *dijeron*
+
+        **-ir verbs with a stem change** in the present (*pedir, dormir, preferir*) change only in the **él / ella** and **ellos** forms: e → i, o → u: *pidió, pidieron; durmió, durmieron*. The yo form is regular: *pedí, dormí*.
+
+        To say what a trip was like, use **fue** + adjective or noun: *Fue genial. Fue un desastre.* For a stay, use **estar**: *Estuvimos una semana en Asturias.*
+      table: |
+        Pronoun | ir / ser | estar | tener | hacer
+        yo | fui | estuve | tuve | hice
+        tú | fuiste | estuviste | tuviste | hiciste
+        él / ella / usted | fue | estuvo | tuvo | hizo
+        nosotros / nosotras | fuimos | estuvimos | tuvimos | hicimos
+        vosotros / vosotras (Spain) | fuisteis | estuvisteis | tuvisteis | hicisteis
+        ellos / ellas / ustedes | fueron | estuvieron | tuvieron | hicieron
+      examples: |
+        En agosto fuimos a Lanzarote y estuvimos diez días. | In August we went to Lanzarote and stayed for ten days.
+        ¿Qué hiciste en Semana Santa? | What did you do at Easter?
+        No pudimos entrar en la Alhambra. | We couldn't get into the Alhambra.
+        Mi hermano pidió paella y luego durmió la siesta. | My brother ordered paella and then had a siesta.
+      tip: "Fue can mean 'he/she went' or 'it was'. Look at what follows: fue a Roma (went) — fue precioso (was)."
+    dialogue:
+      title: ¿Qué tal las vacaciones?
+      setting: The first week of September at a hairdresser's in Oviedo. Paloma, the hairdresser, asks her regular client Darío about his summer holiday.
+      speakers: P=Paloma/f; D=Darío/m
+      lines: |
+        P: ¡Hola, Darío! ¡Qué moreno estás! ¿Qué tal las vacaciones? | Hi, Darío! You're so tanned. How was your holiday?
+        D: ¡Genial! Fuimos a Galicia, a las Rías Baixas. | Great! We went to Galicia, to the Rías Baixas.
+        P: ¡Qué bien! ¿Y dónde estuvisteis? | How nice! And where did you stay?
+        D: En una casa rural cerca de Pontevedra. Estuvimos diez días. | In a country cottage near Pontevedra. We were there for ten days.
+        P: ¿Y qué tal el tiempo? Allí llueve mucho, ¿no? | And what was the weather like? It rains a lot there, doesn't it?
+        D: Tuvimos suerte: solo llovió un día. | We were lucky: it only rained one day.
+        P: ¿Y qué hicisteis? | And what did you do?
+        D: Hicimos una excursión en barco a las islas Cíes. ¡Qué pasada! | We went on a boat trip to the Cíes Islands. Amazing!
+        P: Dicen que las playas son preciosas. | They say the beaches are beautiful.
+        D: Sí, pero el agua, fría, fría. Mi marido no quiso bañarse. | Yes, but the water was freezing. My husband refused to go in.
+        P: ¿Y la comida? ¿Probasteis el pulpo? | And the food? Did you try the octopus?
+        D: Sí, y Martín pidió marisco todos los días. | Yes, and Martín ordered seafood every day.
+    pronunciation:
+      title: "The sound of j and g: viaje, dijeron, Galicia"
+      body: |
+        The letter **j** — and **g** before *e* or *i* — is pronounced [x], a strong sound from the back of the throat, like the *ch* in Scottish *loch*: *viaje, dijeron, paisaje, Gerona*. In southern Spain, the Canaries and much of Latin America it is softer, closer to an English *h*.
+
+        Before *a, o, u*, **g** is a hard [g] as in *go*: *Galicia, tengo*. Between vowels it softens: *el lago, amigo*. Listen and repeat.
+      items: |
+        el viaje
+        dijeron
+        trajimos
+        el paisaje
+        Galicia
+        hicimos senderismo
+    culture:
+      title: Holidays the Spanish way
+      body: |
+        In Spain the big holiday month is **August**. Many businesses close or shorten their hours, cities like Madrid feel half-empty and the coast is full. Many families rent an apartment by the sea for two weeks or go back to *el pueblo*.
+
+        **Turismo rural** is popular too: people book a *casa rural* in the mountains or the countryside, often in Asturias, Cantabria or Galicia, where summers are cooler. In Galicia, try **pulpo a feira** — octopus with paprika, olive oil and coarse salt, served on a wooden plate.
+    mistakes: |
+      Fuimos a Mallorca y estemos una semana. => Fuimos a Mallorca y estuvimos una semana. | Estar has an irregular preterite stem: estuv- + -imos.
+      Hací muchas fotos. => Hice muchas fotos. | Hacer is irregular: hice, hiciste, hizo… with no accents. (In Latin America people usually say tomar fotos.)
+      Mi hija dormió en el coche. => Mi hija durmió en el coche. | Dormir changes o → u in the él/ella and ellos forms: durmió, durmieron.
+    task:
+      title: Tell your best holiday
+      mode: speaking
+      body: |
+        Think of a holiday you remember well. Prepare a one-minute story: where you went and who with, how you travelled, where you stayed, three things you did and what it was like (*fue…*). Include at least one problem or surprise (*no pudimos…, tuvimos suerte…*). Record yourself in Speaking practice and listen back for the irregular forms.
+    exercises: |
+      fill: El verano pasado ___ (ir, yo) a Tenerife con mi familia. || fui || Ir in the preterite: fui, fuiste, fue… || @tags es.preterite-irregular
+      fill: ¿Dónde ___ (estar, vosotros) en Semana Santa? || estuvisteis || Estar → estuv- + -isteis. || @tags es.preterite-irregular
+      fill: Mis amigos ___ (hacer) el Camino de Santiago en julio. || hicieron || Hacer → hic- + -ieron. || @tags es.preterite-irregular
+      fill: Martina no ___ (poder) venir a la excursión. || pudo || Poder → pud- + -o, with no accent. || @tags es.preterite-irregular
+      fill: El camarero nos recomendó el pescado, pero Ana ___ (pedir) carne. || pidió || Pedir changes e → i in the él/ella form: pidió. || @tags es.preterite-irregular
+      mc: «El viaje fue muy largo.» Which verb is fue here? || ir | *ser | estar || Fue + an adjective (largo) describes the trip, so it's ser. With ir it would be fue a + a place. || @tags es.preterite-irregular
+      mc: Which sentence is correct? || Estuvé en Sevilla una semana. | *Estuve en Sevilla una semana. | Esté en Sevilla una semana. || Preterites with a new stem have no written accent: estuve, tuve, hice. || @tags es.preterite-irregular,es.spelling
+      rw: Change to the past, starting with El año pasado :: Este año hacemos senderismo en los Pirineos. || El año pasado hicimos senderismo en los Pirineos. || Hacer → hicimos in the nosotros form. || @tags es.preterite-irregular
+      tf: It rained every day during Darío's holiday. || false || "Tuvimos suerte: solo llovió un día." || @ctx dialogue
+      short: Who ordered seafood every day? || kw: Martín/marido/husband || "Martín pidió marisco todos los días." Martín is Darío's husband. || @ctx dialogue
+      listen: @dialogue || Why didn't Darío's husband swim at the Cíes Islands? || The beach was closed | *The water was too cold | It was raining || "El agua, fría, fría. Mi marido no quiso bañarse." No quiso = he refused. || @tags es.listening
+      listen: En Semana Santa estuvimos en Granada. Fuimos en coche y tardamos cinco horas, pero la ciudad fue una maravilla. || How did they travel to Granada? || By train | *By car | By plane || "Fuimos en coche y tardamos cinco horas." || @tags es.listening,es.preterite-irregular
+      tr: We stayed in a country cottage for a week. || Estuvimos en una casa rural una semana. | Estuvimos una semana en una casa rural. | Pasamos una semana en una casa rural. | Estuvimos en una casa rural durante una semana. || For a stay, use estar in the preterite (estuvimos) or pasar. || @tags es.preterite-irregular
+      dict: Fuimos a Cantabria en tren y estuvimos cinco días.
+      ask: A friend asks «¿Qué tal las vacaciones?». Say where you went, how long you stayed and what it was like. || kw: fui/fuimos & estuve/estuvimos/pasé/pasamos & fue || ¡Muy bien! Fuimos a Portugal en coche. Estuvimos una semana en el Algarve y fue genial: tomamos el sol y probamos un pescado buenísimo.
+
+  - title: Planning a trip
+    summary: Check what you have already done and what you still haven't done before a trip, and talk about experiences with the pretérito perfecto.
+    minutes: 40
+    skills: [grammar, speaking, vocabulary]
+    tags: [es.present-perfect]
+    objectives:
+      - Form the pretérito perfecto with haber and a past participle
+      - Use ya, todavía no, alguna vez and nunca
+      - Use the common irregular participles (hecho, visto, puesto, escrito, vuelto, abierto)
+    intro: |
+      Before a trip there are lists: Have you booked the hotel? Have we bought the tickets? Have you ever been to Lisbon? Spanish uses the **pretérito perfecto** (*he reservado, hemos comprado*) for these checks and for life experiences. In Spain it is also the tense for things that happened today or this week — you will practise that in the next lesson.
+    vocab: |
+      reservar | to book | v | Ya he reservado el hotel. | I've already booked the hotel. | c: reservar una mesa; hacer una reserva
+      el billete | ticket (for transport) | n | ¿Has comprado los billetes de avión? | Have you bought the plane tickets? | g: m | n: In Latin America: el boleto or el pasaje. For a museum or a concert: la entrada.
+      el vuelo | flight | n | El vuelo sale a las siete y cuarenta. | The flight leaves at seven forty. | g: m
+      hacer la maleta | to pack (your suitcase) | expr | Todavía no he hecho la maleta. | I haven't packed yet. | n: Hecho is the participle of hacer.
+      el equipaje de mano | hand luggage | n | Solo llevo equipaje de mano. | I've only got hand luggage. | g: m
+      el pasaporte | passport | n | ¿Dónde has puesto el pasaporte? | Where have you put the passport? | g: m | n: For trips inside the EU, Spanish citizens can travel with their DNI.
+      el itinerario | itinerary; route | n | Hemos preparado un itinerario de cinco días. | We've prepared a five-day itinerary. | g: m
+      alquilar un coche | to hire a car | expr | Hemos alquilado un coche para ir a la costa. | We've hired a car to go to the coast. | n: In Latin America: rentar un auto (Mexico), arrendar un auto (Chile).
+      ya | already; yet (in questions) | adv | ¿Ya has hecho la reserva? | Have you made the booking yet?
+      todavía no | not yet | adv | Todavía no hemos decidido el hotel. | We haven't decided on the hotel yet. | n: Also aún no.
+      alguna vez | ever | expr | ¿Has estado alguna vez en Portugal? | Have you ever been to Portugal?
+      nunca | never | adv | Nunca he viajado sola. | I've never travelled alone. | n: Before the verb, or no + verb + nunca: No he viajado nunca sola.
+    grammar:
+      title: "The pretérito perfecto: he reservado, has hecho"
+      body: |
+        The **pretérito perfecto** is the present of **haber** + a **past participle**: *he reservado* (I have booked).
+
+        Regular participles: **-ar → -ado** (*reservar → reservado*), **-er / -ir → -ido** (*comer → comido, salir → salido*). After haber, the participle never changes: *Ella ha reservado. Nosotras hemos reservado.*
+
+        Some very common participles are irregular: *hacer → hecho, ver → visto, poner → puesto, escribir → escrito, volver → vuelto, abrir → abierto, decir → dicho, romper → roto*.
+
+        Use the perfecto for:
+        - **life experiences**, with *alguna vez* (ever) and *nunca* (never): *¿Has estado alguna vez en Lisboa?*
+        - **things done or not done yet**, with *ya* and *todavía no*: *Ya he hecho la maleta. Todavía no he comprado el billete.*
+
+        Haber and the participle always stay together. *No* and pronouns go in front of haber: *No me he duchado. Nunca hemos ido.*
+
+        In most of Latin America, people often use the preterite in these situations: *¿Ya compraste los billetes?*
+      table: |
+        Pronoun | haber | + participle
+        yo | he | reservado
+        tú | has | comprado
+        él / ella / usted | ha | salido
+        nosotros / nosotras | hemos | hecho
+        vosotros / vosotras (Spain) | habéis | visto
+        ellos / ellas / ustedes | han | vuelto
+      examples: |
+        ¿Has estado alguna vez en Oporto? | Have you ever been to Porto?
+        Ya hemos reservado el apartamento. | We've already booked the apartment.
+        Todavía no he hecho la maleta. | I haven't packed my suitcase yet.
+        Mis padres nunca han viajado en avión. | My parents have never travelled by plane.
+      tip: "Answer a ¿Ya has…? question with the same tense: —¿Ya has comprado los billetes? —Sí, ya he comprado los billetes. / —No, todavía no."
+    dialogue:
+      title: La lista del viaje
+      setting: Two days before a long weekend in Lisbon, Amaia and her friend Rafa go through their checklist in Amaia's flat in Pamplona.
+      speakers: A=Amaia/f; R=Rafa/m
+      lines: |
+        A: Bueno, el viernes nos vamos a Lisboa. ¿Repasamos la lista? | Right, on Friday we're off to Lisbon. Shall we go through the list?
+        R: Vale. Yo ya he comprado los billetes de avión. | OK. I've already bought the plane tickets.
+        A: Perfecto. Y yo he reservado el apartamento para cuatro noches. | Perfect. And I've booked the apartment for four nights.
+        R: ¿Has mirado cómo ir del aeropuerto al centro? | Have you looked up how to get from the airport to the centre?
+        A: Sí, hay metro. Es fácil y barato. | Yes, there's a metro. It's easy and cheap.
+        R: ¿Y has alquilado el coche para ir a Sintra? | And have you hired the car to go to Sintra?
+        A: Todavía no. Creo que es mejor ir en tren. | Not yet. I think it's better to go by train.
+        R: Buena idea. ¿Has estado alguna vez en Sintra? | Good idea. Have you ever been to Sintra?
+        A: No, nunca. Pero he visto fotos y es precioso. | No, never. But I've seen photos and it's beautiful.
+        R: Oye, ¿y tú ya has hecho la maleta? | Hey, and have you packed yet?
+        A: ¡Qué va! Solo he puesto el pasaporte encima de la cama. | No way! I've only put my passport on the bed.
+        R: ¡Pues ya has hecho lo más importante! | Well, you've already done the most important thing!
+    pronunciation:
+      title: "Linking vowels: ha hecho, he estado"
+      body: |
+        Spanish speakers link a vowel at the end of one word to the vowel at the start of the next, so short phrases sound like one word. Because **h** is silent, *ha hecho* sounds like [aˈe.tʃo] and *he estado* like [e.esˈta.ðo] — no break, no glottal stop.
+
+        This linking (*sinalefa*) makes the perfecto flow: *¿Has estado alguna vez?* Listen and repeat each phrase in one breath.
+      items: |
+        he hecho
+        ha estado
+        hemos ido
+        todavía no
+        alguna vez
+        ya he reservado
+    culture:
+      title: Getting around Spain and beyond
+      body: |
+        Spain has one of the largest high-speed rail networks in the world. The **AVE** and other fast trains link Madrid with Seville, Barcelona, Valencia, Málaga and many other cities, so a trip that once took a day now takes two or three hours. Booking early usually means much cheaper tickets.
+
+        Portugal is a favourite short trip for Spaniards, especially Lisbon and Porto. And for trips inside the European Union, Spanish citizens don't need a passport: their **DNI** (national identity card) is enough.
+    mistakes: |
+      He hacido la maleta. => He hecho la maleta. | Hacer has an irregular participle: hecho.
+      ¿Has ya comprado los billetes? => ¿Ya has comprado los billetes? | Nothing goes between haber and the participle. Put ya before haber, or at the end.
+      Nunca no he estado en Lisboa. => Nunca he estado en Lisboa. | With nunca before the verb, don't add no. (No he estado nunca en Lisboa is also correct.)
+    task:
+      title: Before you go
+      mode: interaction
+      body: |
+        You and a friend are going away for a weekend. Make a checklist of six jobs (book the hotel, buy the tickets, hire a car, pack, print the boarding passes, check the weather) and tell your friend what you have already done and what you haven't done yet (*Ya he… / Todavía no he…*). Then practise booking your room in the "Booking a hotel room" scenario with the AI coach.
+    exercises: |
+      fill: ¿Ya ___ (reservar, tú) la mesa para esta noche? || has reservado || Pretérito perfecto: has + reservado. || @tags es.present-perfect
+      fill: Todavía no ___ (hacer, nosotros) la maleta. || hemos hecho || Hacer has an irregular participle: hecho. || @tags es.present-perfect
+      fill: Mis padres nunca ___ (estar) en Portugal. || han estado || Ellos form of haber (han) + estado. || @tags es.present-perfect
+      fill: ¿Dónde ___ (poner, tú) el pasaporte? || has puesto || Poner has an irregular participle: puesto. || @tags es.present-perfect
+      fill: ¿___ (ver, vosotros) alguna vez la Alhambra de noche? || habéis visto || Vosotros form of haber (habéis) + visto, the irregular participle of ver. || @tags es.present-perfect
+      mc: Ya he ___ un correo al hotel. || escribido | *escrito | escribiendo || Escribir has an irregular participle: escrito. Escribiendo is the gerund (writing). || @tags es.present-perfect
+      mc: Your friend asks «¿Has estado alguna vez en Lisboa?». You've never been. You answer: || *No, nunca. | No, todavía. | Sí, ya. || Nunca = never. "Not yet" is todavía no; sí, ya means "yes, already". || @tags es.present-perfect
+      order: Todavía no hemos reservado el hotel. || We haven't booked the hotel yet. || @tags es.present-perfect
+      tf: Amaia has already hired a car. || false || "Todavía no. Creo que es mejor ir en tren." || @ctx dialogue
+      short: How will they get from the airport to the centre of Lisbon? || kw: metro/underground/subway || "Sí, hay metro. Es fácil y barato." || @ctx dialogue
+      listen: @dialogue || What has Amaia put on the bed? || Her suitcase | *Her passport | The plane tickets || "Solo he puesto el pasaporte encima de la cama." || @tags es.listening
+      listen: Ya he comprado los billetes de tren, pero todavía no he reservado el hotel. || What hasn't the speaker done yet? || Bought the train tickets | *Booked the hotel | Packed a suitcase || "Todavía no he reservado el hotel." The tickets are already bought. || @tags es.listening,es.present-perfect
+      tr: Have you ever travelled alone? (informal, to a man) || ¿Has viajado solo alguna vez? | ¿Alguna vez has viajado solo? | ¿Has viajado alguna vez solo? | ¿Tú has viajado solo alguna vez? || Experience: has viajado + alguna vez. Solo agrees with a man. || @tags es.present-perfect
+      dict: Ya he hecho la maleta y he puesto el pasaporte en la mochila.
+      ask: A friend asks «¿Lo tienes todo listo para el viaje?». Say two things you have already done and one you haven't done yet. || kw: ya he/ya hemos & todavía no/aún no || Casi. Ya he reservado el hotel y he comprado los billetes, pero todavía no he hecho la maleta.
+
+  - title: When things go wrong on a trip
+    summary: Explain a problem on a trip — a lost suitcase, a cancelled flight, a stolen wallet — and choose between the pretérito perfecto and the indefinido.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [es.present-perfect, es.preterite, es.preterite-irregular]
+    objectives:
+      - Choose between perfecto (hoy, esta mañana) and indefinido (ayer, el lunes) as people do in Spain
+      - Explain a problem with me han robado…, he perdido…, han cancelado…
+      - Ask for help politely at an information desk or a hotel reception
+    intro: |
+      Lost luggage, a missed train, a stolen wallet: problems happen, and you need to explain them clearly. In Spain, what happened *today* is usually told with the perfecto (*he perdido la maleta*) and what happened *yesterday* with the indefinido (*ayer perdí el tren*). This lesson shows you how to choose — and gives you the words to get help.
+    vocab: |
+      perder | to lose; to miss (a train, a flight) | v | He perdido la cartera. | I've lost my wallet. | c: perder el tren; perder el vuelo | n: Present pierdo; preterite perdí; participle perdido.
+      robar | to steal | v | Me han robado el móvil en el metro. | My phone has been stolen on the metro. | n: Me han robado… = literally "they have stolen … from me".
+      la cartera | wallet | n | En la cartera llevo el DNI y las tarjetas. | In my wallet I carry my ID card and my cards. | g: f | n: In Latin America also la billetera.
+      la maleta | suitcase | n | Mi maleta no ha llegado. | My suitcase hasn't arrived. | g: f
+      cancelar | to cancel | v | Han cancelado nuestro vuelo por la niebla. | They've cancelled our flight because of the fog. | n: Also: el vuelo se ha cancelado.
+      el retraso | delay | n | El tren lleva una hora de retraso. | The train is an hour late. | g: m | c: llegar con retraso
+      la reclamación | complaint; claim | n | Quiero poner una reclamación. | I'd like to make a complaint. | g: f | c: poner una reclamación; la hoja de reclamaciones
+      denunciar | to report (to the police) | v | Fuimos a la comisaría a denunciar el robo. | We went to the police station to report the theft. | n: La denuncia = the police report.
+      la comisaría | police station | n | ¿Dónde está la comisaría más cercana? | Where's the nearest police station? | g: f
+      estropearse | to break down | v | El coche se estropeó en la autopista. | The car broke down on the motorway. | n: In Latin America also descomponerse.
+      el mostrador | counter; desk | n | El mostrador de equipajes está al lado de la salida. | The baggage desk is next to the exit. | g: m
+      ¿qué ha pasado? | what's happened? | expr | ¿Qué ha pasado? ¿Estás bien? | What's happened? Are you OK?
+      menos mal | thank goodness | expr | ¡Menos mal que tienes otra tarjeta! | Thank goodness you've got another card!
+    grammar:
+      title: Perfecto or indefinido?
+      body: |
+        In Spain, the choice between the two past tenses depends mainly on **when** you place the action.
+
+        - **Pretérito perfecto** (*he perdido*): the time period is **not over** or is connected to now — *hoy, esta mañana, esta semana, este verano, hace un rato* — or no time is mentioned: *¡Me han robado la cartera!*
+        - **Pretérito indefinido** (*perdí*): the time is **finished** — *ayer, anoche, el lunes, la semana pasada, en 2019, hace tres días*.
+
+        Compare: *Esta mañana he perdido el tren* (today) — *Ayer perdí el tren* (yesterday).
+
+        When you report a problem that has just happened, the perfecto is the natural choice: *Mi maleta no ha llegado. Han cancelado el vuelo.* When you tell the story of a finished day, switch to the indefinido: *Ayer llegamos tarde y no pudimos cenar.*
+
+        Use the **ellos** form for an unknown person: *Me han robado el móvil* (someone has stolen my phone).
+
+        In the Canary Islands, parts of northern Spain and most of Latin America, people use the indefinido in both cases: *Esta mañana perdí el tren.* Both are correct; this course follows the usage of central Spain.
+      table: |
+        Time expression | Tense | Example
+        hoy, esta mañana, esta semana | perfecto | Esta mañana he perdido el autobús.
+        este verano, este año | perfecto | Este verano hemos viajado poco.
+        hace un rato, or no time given | perfecto | ¡Me han robado el móvil!
+        ayer, anoche, anteayer | indefinido | Anoche perdí las llaves.
+        el lunes, la semana pasada | indefinido | La semana pasada se estropeó el coche.
+        en 2019, hace tres días | indefinido | Hace tres días cancelaron el vuelo.
+      examples: |
+        Esta mañana han cancelado nuestro vuelo a Tenerife. | This morning they cancelled our flight to Tenerife. | today → perfecto
+        Ayer perdimos el último tren y dormimos en un hotel de la estación. | Yesterday we missed the last train and slept in a hotel at the station. | finished time → indefinido
+        Perdone, mi maleta no ha llegado. | Excuse me, my suitcase hasn't arrived. | a problem now → perfecto
+      tip: "Ask yourself: is the time period over? Ayer, el lunes, en julio → indefinido. Hoy, esta semana, este año (still going on) → perfecto."
+    dialogue:
+      title: En el mostrador de equipajes
+      setting: Bilbao airport, late afternoon. Yasmin has just landed, but her suitcase hasn't come out. She goes to the baggage desk, where Sergio works. They use usted.
+      speakers: S=Sergio/m; Y=Yasmin/f
+      lines: |
+        S: Buenas tardes. ¿En qué puedo ayudarle? | Good afternoon. How can I help you?
+        Y: Buenas tardes. Mi maleta no ha llegado. | Good afternoon. My suitcase hasn't arrived.
+        S: Vaya, lo siento. ¿De dónde viene usted? | Oh dear, I'm sorry. Where are you flying in from?
+        Y: De Ámsterdam. Mi vuelo ha llegado a las cinco. | From Amsterdam. My flight landed at five.
+        S: ¿Me deja su tarjeta de embarque, por favor? | Could I have your boarding pass, please?
+        Y: Sí, aquí tiene. He hecho escala en París. | Yes, here you are. I had a stopover in Paris.
+        S: Ya veo. A veces las maletas se quedan en la escala. | I see. Sometimes suitcases get left behind at the stopover.
+        Y: ¡Qué semana! Ayer cancelaron mi primer vuelo y hoy, esto. | What a week! Yesterday they cancelled my first flight and today, this.
+        S: Tranquila. ¿Cómo es la maleta? | Don't worry. What does the suitcase look like?
+        Y: Es grande, azul, con una cinta roja en el asa. | It's big and blue, with a red ribbon on the handle.
+        S: Normalmente llegan en veinticuatro horas, y el envío al hotel es gratis. | They usually arrive within twenty-four hours, and delivery to your hotel is free.
+        Y: ¡Menos mal! Muchas gracias por su ayuda. | Thank goodness! Thank you very much for your help.
+    pronunciation:
+      title: "Tapped r and trilled rr: retraso, robar, perder"
+      body: |
+        Spanish has two r sounds. A single **r** between vowels or at the end of a syllable is a quick tap [ɾ], like the *tt* in American *better*: *pero, perdido, tarjeta*.
+
+        **rr** — and **r** at the start of a word or after *n, l, s* — is a strong trill [r], with the tip of the tongue vibrating several times: *retraso, robar, reclamación*. Try *perro* (dog) against *pero* (but): the difference matters. Listen and repeat.
+      items: |
+        el retraso
+        me han robado
+        he perdido
+        la reclamación
+        el aeropuerto
+        el tren
+    culture:
+      title: La hoja de reclamaciones
+      body: |
+        Businesses in Spain that serve the public — hotels, restaurants, shops, car hire companies — must have official complaint forms, **hojas de reclamaciones**, and give you one if you ask. You keep a copy and the complaint goes to the regional consumer office. Often, just asking for the form solves the problem.
+
+        If something is stolen, report it at a **comisaría**. You need the **denuncia** to cancel your cards and documents and to claim on your travel insurance. In big tourist cities you can often make the report in English.
+    mistakes: |
+      Ayer he perdido el tren. => Ayer perdí el tren. | Ayer is a finished time, so it takes the indefinido.
+      Mi maleta no ha llegada. => Mi maleta no ha llegado. | After haber, the participle never changes: ha llegado, even with a feminine subject.
+      Me ha robado el móvil. (you don't know who did it) => Me han robado el móvil. | For an unknown thief, Spanish uses the ellos form: han robado.
+    task:
+      title: Report a problem
+      mode: interaction
+      body: |
+        You arrive at your hotel in Seville and things have gone wrong: yesterday your first train was cancelled, and today your suitcase hasn't arrived. Explain both problems at the reception desk, choosing the right past tense for each, and ask politely for help. Then practise in the "Handling a travel problem" scenario with the AI coach.
+    exercises: |
+      mc: You're in Madrid. Esta mañana ___ el autobús y he llegado tarde al trabajo. || perdí | *he perdido | pierdo || Esta mañana is part of today, so in central Spain you use the perfecto: he perdido. Pierdo is the present. || @tags es.present-perfect
+      fill: Ayer ___ (cancelar, ellos) nuestro vuelo por la niebla. || cancelaron || Ayer is a finished time, so use the indefinido: cancelaron. || @tags es.preterite
+      fill: Hoy ___ (llegar, nosotros) al hotel muy tarde. || hemos llegado || Hoy is still going on, so use the perfecto: hemos llegado. || @tags es.present-perfect
+      fill: La semana pasada se ___ (estropear) el coche de alquiler. || estropeó || La semana pasada is finished: indefinido, él/ella form. || @tags es.preterite
+      fill: Perdone, me ___ (robar) la cartera hace un rato. || han robado || Hace un rato (a little while ago) connects to now → perfecto. For an unknown thief, use the ellos form. || @tags es.present-perfect
+      mc: In Spain, which time expression goes best with «he perdido las llaves»? || *hoy | anoche | el martes pasado || Hoy is still going on → perfecto. Anoche and el martes pasado are finished → indefinido (perdí). || @tags es.present-perfect,es.preterite
+      rw: Change hoy to ayer :: Hoy he perdido el tren de las nueve. || Ayer perdí el tren de las nueve. || With ayer, use the indefinido: perdí. || @tags es.preterite,es.present-perfect
+      tf: Yasmin's first flight was cancelled yesterday. || true || "Ayer cancelaron mi primer vuelo y hoy, esto." || @ctx dialogue
+      short: What colour is Yasmin's suitcase? || kw: azul/blue || "Es grande, azul, con una cinta roja en el asa." The ribbon is red. || @ctx dialogue
+      listen: @dialogue || When will the suitcase probably arrive? || In a week | *Within 24 hours | In three or four days || "Normalmente llegan en veinticuatro horas", and delivery to the hotel is free. || @tags es.listening
+      listen: Atención, por favor. El tren con destino a Málaga sale con cuarenta minutos de retraso. || What is the problem? || *The train is forty minutes late | The train is cancelled | The train leaves from another platform || "Sale con cuarenta minutos de retraso." || @tags es.listening
+      tr: My suitcase hasn't arrived. || Mi maleta no ha llegado. | No ha llegado mi maleta. | Mi maleta todavía no ha llegado. || A problem now: perfecto, no + ha llegado. || @tags es.present-perfect
+      dict: Esta mañana han cancelado el vuelo y hemos perdido un día.
+      ask: At the hotel reception, explain that someone stole your wallet this morning and ask where the police station is. || kw: han robado & cartera & comisaría || Perdone, esta mañana me han robado la cartera. ¿Dónde está la comisaría más cercana?
+      write: Write a message to a friend. Yesterday your flight was cancelled and today your suitcase hasn't arrived. || min=30 || req: ayer | hoy/esta mañana || ¡Hola, Clara! ¡Qué viaje! Ayer cancelaron mi vuelo a Sevilla y dormí en un hotel del aeropuerto. Esta mañana he volado por fin, pero mi maleta no ha llegado. He puesto una reclamación en el mostrador. ¡Menos mal que llevo el cargador en la mochila! Un beso.

@@ -1,0 +1,364 @@
+unit: 2
+title: Working life
+theme: Work and careers
+description: Talk about your experience in a job interview with the present perfect continuous, write formal and informal work emails, take part in meetings, and explain a career change with connectors of contrast, reason and result.
+free: true
+objectives:
+  - Describe your work experience and current responsibilities with the present perfect continuous
+  - Write formal and informal work emails and use key meeting language
+  - Explain a career change, linking reasons, results and contrasts with connectors
+canDo:
+  - I can answer common job interview questions about my experience, strengths and weaknesses.
+  - I can write a formal email to reschedule a meeting or ask for information.
+  - I can follow and take part in a simple work meeting.
+  - I can explain why someone changed careers, giving reasons and results.
+review: |
+  fill: I'm exhausted. I ___ (answer) customer emails all morning. || have been answering / 've been answering || A long activity that has just stopped and explains how you feel now: present perfect continuous. || @tags en.present-perfect-continuous
+  mc: "How many interviews ___ this month?" || have you been doing | *have you done | are you doing || How many asks for a number or result, so use the present perfect simple. || @tags en.present-perfect-continuous,en.present-perfect
+  rw: Rewrite with the present perfect continuous and "since" :: Ama started working in the lab in March. She still works there. || Ama has been working in the lab since March. | Ama's been working in the lab since March. || Since + the starting point; has been + -ing for an action that continues now. || @tags en.present-perfect-continuous
+  mc: Which sentence is best in a formal email? || *I would be grateful if you could send me the report by Friday. | Send me the report by Friday, OK? | Can u send the report Friday? || I would be grateful if you could… is a polite formal request. The others are too direct or informal. || @tags en.formal-writing,en.register
+  fill: I look forward to ___ (hear) from you. || hearing || Look forward to + -ing, because to is a preposition here. || @tags en.formal-writing,en.gerund-infinitive
+  mc: "___ she had no experience, they offered her the job." || Because of | *Although | However || Although + clause shows a surprising contrast inside one sentence. However starts a new sentence; because of is followed by a noun. || @tags en.connectors
+  rw: Rewrite with "However" :: The pay was good, but I didn't enjoy the work. || The pay was good. However, I didn't enjoy the work. | The pay was good; however, I didn't enjoy the work. || However usually starts a new sentence and is followed by a comma. || @tags en.connectors
+  listen: Good morning, everyone. The first item on the agenda is the new website. Malik, could you give us a quick update? || What is Malik asked to do? || Take the minutes | *Talk about the progress of the website | Reschedule the meeting || "Could you give us a quick update?" — on the new website, the first item on the agenda. || @tags en.listening
+  listen: I've been working as a nurse for fifteen years. I love it. However, I'm tired of night shifts, so I've been studying to become a midwife. || Why is the speaker studying? || She doesn't like her colleagues. | *She wants to stop working night shifts. | Her hospital is closing. || "I'm tired of night shifts, so I've been studying to become a midwife." || @tags en.listening,en.connectors
+  ask: An interviewer says, "Tell me about a challenge you have dealt with at work or school." Answer in three or four sentences. || kw: was/had/happened & so/as a result/because/however || Last year our team had a very tight deadline because two colleagues were sick. I made a plan, gave everyone clear tasks and stayed late twice. As a result, we finished on time, and the client was very happy.
+  write: Write a formal email (60–80 words) to a training company. Ask about the dates and price of a course, and ask whether it is possible to study online. || min=50 || req: Dear | I am writing/I'm writing | would be grateful/would it be possible/could you | regards/look forward || Dear Ms. Clarke, I am writing to ask about your project management course. Could you please tell me the dates of the next course and the price? In addition, I would be grateful if you could tell me whether it is possible to study online, as I work full-time. I look forward to hearing from you. Kind regards, Jonas Weber
+lessons:
+  - title: The job interview
+    summary: Talk about your experience, responsibilities, strengths and weaknesses in an interview, using the present perfect continuous and the present perfect simple.
+    minutes: 45
+    skills: [grammar, speaking, listening]
+    tags: [en.present-perfect-continuous, en.present-perfect, en.schwa]
+    objectives:
+      - Use the present perfect continuous to say how long you have been doing something
+      - Choose between the present perfect simple (results, numbers) and continuous (activities, duration)
+      - Answer common interview questions with examples
+    intro: |
+      In a job interview, you have a few minutes to show who you are. Interviewers want to know **how long** you have been doing your job, **what** you are responsible for and **what** you have achieved. In this lesson you will use the **present perfect continuous** (*I've been working…*) together with the present perfect simple (*I've trained twenty people*), and practice answering the questions almost every interviewer asks.
+    vocab: |
+      candidate | a person who is applying for a job | n | We interviewed six candidates for the role. | - | c: a strong candidate; the ideal candidate
+      role | a job or position in an organization | n | This role involves a lot of travel. | - | c: a key role; take on a new role
+      strength | a good quality or skill that someone has | n | My main strength is staying calm when things go wrong. | - | n: The opposite is weakness.
+      weakness | a quality or skill that someone needs to improve | n | Public speaking is a weakness of mine, so I've been taking a course. | -
+      experience | knowledge and skill that you get from doing a job | n | She has ten years of experience in sales. | - | c: work experience; experience in something | n: Uncountable in this meaning: a lot of experience, not "experiences".
+      deal with | to take action to solve a problem or handle a person | phr v | I deal with customer complaints every day. | - | n: Past: dealt with.
+      be responsible for | to have the job of taking care of something | expr | I'm responsible for training new staff. | - | c: be responsible for a team; be responsible for a budget
+      under pressure | in a situation with a lot of stress or very little time | expr | Can you work well under pressure? | -
+      team player | someone who works well with other people | n | We're looking for a team player with good communication skills. | -
+      notice period | the time you must keep working after you tell your employer you're leaving | n | My notice period is one month. | - | n: Give notice = tell your employer that you will leave.
+      salary | the fixed amount of money you earn each year or month | n | The starting salary is lower than in my current job. | - | c: a starting salary; earn a good salary
+      recently | not long ago; during the last few weeks or months | adv | I've recently been leading a small team. | - | n: Also: lately (I've been very busy lately).
+    grammar:
+      title: "Present perfect continuous"
+      body: |
+        Use **have/has been + -ing** for an activity that started in the past and is **still going on now** (or has only just stopped). It is very common with **for**, **since** and **How long…?**: *I**'ve been working** here for six years. She**'s been studying** Spanish since January. How long **have** you **been learning** English?*
+
+        Compare it with the **present perfect simple**, which you already know:
+        - The **continuous** focuses on the **activity** and how long it has lasted: *I've been writing reports all morning.*
+        - The **simple** focuses on the **result**, or on **how many** or **how much**: *I've written four reports.*
+        - **State verbs** (know, be, have for possession, like, believe, understand) normally use the simple: *I've known her for years* (not ~~I've been knowing~~).
+
+        With some verbs, like *work*, *live* and *teach*, both forms are possible with for and since: *I've worked / I've been working here for six years.*
+      table: |
+        Use | Example | Form
+        Activity continuing now | I've been working here for three years. | have/has + been + -ing
+        Negative | She hasn't been sleeping well lately. | hasn't + been + -ing
+        Question | How long have you been learning English? | have + subject + been + -ing
+        Result or number | I've trained twelve new colleagues. | present perfect simple
+        State verb | I've known my manager since 2019. | present perfect simple
+      examples: |
+        I've been leading a team of five since last summer. | | since + starting point
+        We've been looking for a new designer for three months. | | for + length of time
+        She's interviewed nine candidates this week. | | a number: present perfect simple
+        How long have you been working as a pharmacist? | | question
+      tip: "Ask yourself: am I talking about the activity (been + -ing) or about what I have achieved, with a number (present perfect simple)?"
+    dialogue:
+      title: Team leader
+      setting: An interview room at a train company's customer service center in Glasgow, Scotland. Ruth Adeyemi is interviewing Tanvir Hossain for a job as a team leader.
+      speakers: R=Ruth/f; T=Tanvir/m
+      lines: |
+        R: Thanks for coming in, Tanvir. Let's start with your current job.
+        T: Of course. I've been working in customer service at a phone company for six years.
+        R: And what exactly are you responsible for at the moment?
+        T: I deal with complaints, and recently I've been training new staff as well.
+        R: How many people have you trained so far?
+        T: About twenty, I think. I really enjoy helping new people find their feet.
+        R: That's impressive. So why do you want to leave the company?
+        T: I've been doing the same job for years. I'm ready for a new challenge.
+        R: I understand. And what would you say is your biggest weakness?
+        T: Public speaking. I've been taking an evening course to get better at it.
+        R: Good to hear. Last question: what's your notice period?
+        T: One month, so I could start at the beginning of June.
+    pronunciation:
+      title: "Weak forms: I've been working"
+      body: |
+        In the present perfect continuous, **have** is usually contracted (*I've, she's, we've*) and **been** is weak and quick — it sounds like "bin", not "bean". The stress goes on the main verb and on the time: *I've been WORKing here for SIX YEARS.*
+
+        In questions, *have you been* runs together: "How long havya bin waiting?" Listen and repeat, keeping *been* short.
+      items: |
+        I've been working here for six years.
+        She's been training new staff.
+        How long have you been waiting?
+        We've been looking for a designer.
+        I've known her since 2019.
+    culture:
+      title: Talking about yourself in an interview
+      body: |
+        In interviews in the US, Canada, the UK and Ireland, candidates are expected to talk confidently about their achievements and to give **concrete examples**: a situation, what you did and the result. Saying *I'm a hard worker* is weak; saying *I trained twenty new colleagues last year* is strong.
+
+        At the end, the interviewer almost always asks, *Do you have any questions for us?* Always prepare one or two — about the team, training or the first few months in the job. Saying *No, nothing* can make you seem uninterested.
+    mistakes: |
+      I'm working here since 2020. => I've been working here since 2020. | For an activity that started in the past and continues now, use the present perfect (continuous), not the present continuous.
+      I've been knowing my manager for ten years. => I've known my manager for ten years. | Know is a state verb, so use the present perfect simple.
+      I have a lot of experiences in sales. => I have a lot of experience in sales. | Experience meaning knowledge from work is uncountable.
+    task:
+      title: Your interview answers
+      mode: interaction
+      body: |
+        Prepare answers to four classic questions: *Tell me about your current job. What are you responsible for? What is your biggest strength — and weakness? Why do you want this job?* Use *for*, *since* and the present perfect continuous, and give one concrete example with a number. Then practice a full interview with the AI coach in the "Preparing for a job interview" scenario.
+    exercises: |
+      fill: I'm exhausted. I ___ (reply) to emails all morning. || have been replying / 've been replying || A long activity up to now that explains how you feel: present perfect continuous. || @tags en.present-perfect-continuous
+      fill: How long ___ you ___ (learn) English? || have ; been learning || Question: How long + have + subject + been + -ing? || @tags en.present-perfect-continuous,en.questions
+      mc: "I ___ three job applications this week." || have been writing | *have written | have been wrote || With a number (three applications), use the present perfect simple to show the result. || @tags en.present-perfect-continuous,en.present-perfect
+      mc: Choose the correct sentence. || I've been knowing her since college. | *I've known her since college. | I know her since college. || Know is a state verb: use the present perfect simple, with since for the starting point. || @tags en.present-perfect
+      rw: Rewrite with the present perfect continuous and "for" :: Kemal started working at the hospital five years ago. He still works there. || Kemal has been working at the hospital for five years. | Kemal's been working at the hospital for five years. || For + a length of time; has been + -ing for an action that started in the past and continues now. || @tags en.present-perfect-continuous
+      mc: An interviewer asks, "What's your notice period?" What do they want to know? || *How soon you can leave your current job and start | How much you earn now | How many hours you work each week || Your notice period is the time you must stay in your old job after you resign. || @tags en.vocabulary @skill vocabulary
+      fill: I'm responsible ___ training new staff and dealing ___ complaints. || for ; with || The fixed phrases are be responsible for and deal with. || @tags en.collocations @skill vocabulary
+      tf: Tanvir has never trained anyone in his current job. || false || He has trained "about twenty" new staff. || @ctx dialogue
+      short: What has Tanvir been doing to improve his public speaking? || kw: course/class/evening || "I've been taking an evening course to get better at it." || @ctx dialogue
+      listen: @dialogue || When could Tanvir start the new job? || *At the beginning of June | Next week | In six months || His notice period is one month, "so I could start at the beginning of June." || @tags en.listening
+      listen: I've been working in hotels since I was nineteen. For the last two years, I've been managing the front desk at a big hotel in Dublin. || What is the speaker's job now? || *Front desk manager | Waiter in a restaurant | Hotel owner || "I've been managing the front desk" for the last two years. || @tags en.listening,en.present-perfect-continuous
+      order: How long have you been working for your current employer? || @tags en.present-perfect-continuous,en.questions
+      dict: I've been training new staff for about a year. || present perfect continuous + for
+      ask: An interviewer says, "Tell me about your current job or studies." Say how long you've been doing it and what you're responsible for. || kw: been & for/since & responsible/deal with/in charge/manage/my job/I study || I've been working as a sales assistant at a bookstore for two years. I'm responsible for ordering new books, and I deal with customers every day.
+      write: Write a paragraph (60–80 words) for a job application. Describe your current job or studies, how long you've been doing it, one achievement with a number, and why you want the new role. || min=50 || req: have been/'ve been/has been | for/since || I have been working as a receptionist at a dental clinic in Leeds since 2021. I'm responsible for booking appointments and dealing with patients' questions. Last year I created a new online booking system, and we have reduced missed appointments by thirty percent. I'm interested in this role because I would like to work in a bigger team and develop my management skills.
+
+  - title: Emails and meetings
+    summary: Read and write formal and informal work emails, choose the right register, and use the key language of meetings.
+    minutes: 45
+    skills: [reading, writing, speaking]
+    tags: [en.formal-writing, en.register, en.intonation]
+    objectives:
+      - Recognize the differences between formal and informal emails
+      - Use fixed phrases to give reasons, make requests, attach files and close an email
+      - Understand and use basic meeting language (agenda, minutes, update)
+    intro: |
+      Most working people write emails every day, and the same message can sound polite, cold or rude depending on the words you choose. In this lesson you will read two emails about the same meeting — one formal, one informal — and learn the fixed phrases that make a work email sound professional. You will also learn the words you need to follow and take part in a meeting.
+    vocab: |
+      agenda | a list of things to discuss at a meeting | n | The first item on the agenda is the budget. | - | c: on the agenda; the next item on the agenda
+      minutes | a written record of what people said and decided at a meeting | n | Could you take the minutes today? | - | c: take the minutes | n: Always plural in this meaning.
+      reschedule | to change the date or time of a planned event | v | We need to reschedule Monday's meeting. | - | c: reschedule a meeting; reschedule an appointment
+      postpone | to move an event to a later date or time | v | They postponed the launch until May. | - | n: The opposite is bring forward.
+      attach | to add a file to an email | v | I've attached the latest version of the report. | - | c: Please find attached…; an attachment
+      convenient | suitable for you and not causing problems | adj | Is Friday morning convenient for you? | - | n: The opposite is inconvenient.
+      inconvenience | a small problem or difficulty that affects someone | n | We apologize for any inconvenience. | -
+      unfortunately | a word that introduces bad news | adv | Unfortunately, I won't be able to attend the meeting. | -
+      alternatively | a word that introduces another possibility | adv | We could meet on Monday. Alternatively, we could talk by phone. | -
+      be grateful if | a very polite way to ask for something in formal writing | expr | I would be grateful if you could reply by Friday. | -
+      look forward to | to feel happy about something that is going to happen | phr v | I look forward to meeting you next week. | - | n: To is a preposition here, so use -ing: look forward to hearing, not to hear.
+      action point | a task that someone agrees to do after a meeting | n | There are three action points from today's meeting. | -
+      update | the newest information about something | n | Here's a quick update on the project. | - | c: give someone an update; a quick update
+    grammar:
+      title: "Formal and informal emails"
+      body: |
+        **Formal** emails — to clients, people you don't know, senior managers or organizations — use full forms (*I am*, *I would*), indirect polite requests and fixed phrases. **Informal** emails — to colleagues you know well and friends — use contractions, direct questions and short sentences.
+
+        Formal emails usually follow a clear order: greeting → reason for writing → details or request → polite closing line → sign-off. Use **Dear** + title + surname (*Dear Ms. Patel*) when you know the name. In American English, titles have a period (*Mr.*, *Ms.*, *Dr.*); in British English they often don't (*Mr*, *Ms*).
+
+        Polite requests become longer and less direct as they become more formal: *Can you…?* → *Could you…?* → *Would it be possible to…?* → *I would be grateful if you could…*
+      table: |
+        Purpose | Formal | Informal
+        Greeting | Dear Mr. Okoro, | Hi Ben,
+        Reason for writing | I am writing to let you know that… | Just a quick note to say…
+        Request | I would be grateful if you could… | Can you…?
+        Attachment | Please find attached… | I've attached…
+        Apology | I apologize for any inconvenience. | Sorry about that!
+        Closing line | I look forward to hearing from you. | Speak soon!
+        Sign-off | Kind regards, | Thanks, / Best,
+      examples: |
+        I am writing to ask about the training course on May 5. | | formal: reason for writing
+        I would be grateful if you could confirm the time. | | formal request
+        Can you send me the slides before the meeting? | | informal request to a colleague
+        Please find attached the agenda for Monday. | | formal: attachment
+      tip: "In a formal email, avoid exclamation marks and very short forms (u, thx), and never start with Hey."
+    reading:
+      title: Two emails about one meeting
+      text: |
+        Subject: Project review meeting — new date
+
+        Dear Mr. Okoro,
+
+        I am writing to let you know that we need to reschedule our project review meeting, which was planned for Thursday, March 12. Unfortunately, two members of our design team will be at a conference that week.
+
+        Would Tuesday, March 17, at 10 a.m. be convenient for you? Alternatively, we could meet on Wednesday afternoon.
+
+        Please find attached the agenda for the meeting and the latest version of the floor plans. I would be grateful if you could send us your comments before the meeting, as this will give us time to prepare.
+
+        I apologize for any inconvenience, and I look forward to hearing from you.
+
+        Kind regards,
+        Lucía Ferreira
+        Project Manager, Northlight Interiors
+
+        Subject: Okoro meeting
+
+        Hi Ben,
+
+        Quick update — I've asked Mr. Okoro to move the review to next Tuesday, so Thursday is free again. Can you take the minutes on Tuesday? I'll be running the meeting, so I won't be able to write everything down.
+
+        Also, I've sent him the floor plans, but I've just noticed that the kitchen measurements might be out of date. Could you double-check them and send me the new version by Monday?
+
+        Thanks a lot!
+        Lucía
+    pronunciation:
+      title: Polite intonation in requests
+      body: |
+        In spoken requests, your voice matters as much as your words. Polite questions like *Could you…?* and *Would it be possible…?* usually start fairly high and **rise** at the end. A flat or falling tone can make the same words sound like an order or a complaint.
+
+        In meetings, slow down a little and stress the key words: *Could you take the MINutes?* Listen and repeat.
+      items: |
+        Could you take the minutes?
+        Would Tuesday be convenient?
+        Sorry, could you repeat that?
+        Can we move the meeting to Friday?
+        Shall we get started?
+        Sorry to interrupt, but can I add something?
+    culture:
+      title: Meetings and email etiquette
+      body: |
+        English-speaking meetings often begin with a minute of small talk (*How was your weekend?*) before the person leading the meeting says *Shall we get started?* or *Let's begin.* If you need to interrupt, soften it: *Sorry to interrupt, but…* or *Can I just add something?*
+
+        With email, people generally expect a reply within a day or two, even if it is just *Thanks — I'll get back to you on Friday.* Think twice before clicking **Reply all**: only include people who really need the message.
+    mistakes: |
+      I look forward to hear from you. => I look forward to hearing from you. | To in look forward to is a preposition, so it's followed by -ing.
+      Hey Mr. Okoro, => Dear Mr. Okoro, | Hey is very informal. In a formal email, use Dear + title + surname.
+      Please find attach the agenda. => Please find attached the agenda. | The fixed phrase is Please find attached…
+    task:
+      title: Move the meeting
+      mode: writing
+      body: |
+        You have a meeting with an external client next Monday, but you have to be at your company's head office that day. Write a formal email (80–100 words) to the client: explain the problem, suggest two new times, mention an attachment and apologize. Then write a two-line informal message to a colleague asking them to take the minutes. Finally, try the "Taking part in a business meeting" scenario with the AI coach.
+    exercises: |
+      mc: Why does Lucía need to move the meeting? || *Two designers will be at a conference. | Mr. Okoro is on vacation. | The floor plans aren't ready yet. || "Two members of our design team will be at a conference that week." || @ctx reading @tags en.reading
+      tf: Lucía asks Ben to lead the meeting on Tuesday. || false || Lucía will run the meeting herself. She asks Ben to take the minutes. || @ctx reading
+      short: What does Lucía ask Ben to double-check? || kw: kitchen/measurements/floor plans || "The kitchen measurements might be out of date. Could you double-check them?" || @ctx reading
+      mc: Which request is the most formal? || Can you send me your comments? | *I would be grateful if you could send me your comments. | Send me your comments, please. || I would be grateful if you could… is the most polite and indirect form. || @tags en.formal-writing,en.register
+      rw: Make it formal :: Sorry about the trouble! || I apologize for any inconvenience. | I apologise for any inconvenience. | We apologize for any inconvenience. | We apologise for any inconvenience. || The formal fixed phrase is I/We apologize for any inconvenience. || @tags en.formal-writing,en.register
+      rw: Make it formal, starting with "I would be grateful" :: Can you call me back tomorrow? || I would be grateful if you could call me back tomorrow. | I would be grateful if you could call me tomorrow. || I would be grateful + if you could + base form. || @tags en.formal-writing,en.register
+      fill: I look forward to ___ (meet) you on Tuesday. || meeting || Look forward to + -ing. || @tags en.formal-writing,en.gerund-infinitive
+      fill: Please find ___ the minutes from Monday's meeting. || attached || The fixed formal phrase is Please find attached… || @tags en.formal-writing
+      match: Dear Ms. Lin, = Hi Grace, ; I am writing to let you know… = Just a quick note to say… ; Please find attached… = I've attached… ; I look forward to hearing from you. = Speak soon! ; Kind regards, = Cheers, || Each formal phrase is matched with an informal phrase that does the same job. || @hint Match each formal phrase with its informal equivalent. @skill vocabulary @tags en.register
+      listen: Hi everyone, thanks for joining. Before we start, a quick update — the client has postponed the launch until May, so we have four extra weeks. || What has changed? || *The launch is now later. | The client has canceled the project. | The meeting has moved to May. || Postponed means moved to a later date: the launch is now in May. || @tags en.listening
+      dict: I would be grateful if you could send me the agenda. || a formal request
+      say: Sorry to interrupt, but could I just add something?
+      ask: In a meeting, your manager asks you to take on an extra task this week, but you're very busy. Respond politely and suggest an alternative. || kw: sorry/unfortunately/I'm afraid/I am afraid & could/would/alternatively/maybe/how about/next week || I'm sorry, but I'm afraid I can't this week — I'm finishing the sales report. Alternatively, I could start it on Monday, or maybe Jordan could help.
+      write: Write a formal email (60–80 words) to a hotel to ask whether they have a meeting room for twelve people on June 3, and how much it costs. || min=50 || req: Dear | I am writing/I'm writing | would be grateful/would it be possible/could you | regards/look forward || Dear Sir or Madam, I am writing to ask whether you have a meeting room for twelve people available on June 3, from 9 a.m. to 1 p.m. I would be grateful if you could tell me the price, and whether coffee and lunch are included. In addition, could you let me know if the room has a projector? I look forward to hearing from you. Kind regards, Amira Haddad
+
+  - title: Changing careers
+    summary: Explain a career change — the reasons, the problems and the results — using connectors of contrast, reason, result and addition.
+    minutes: 45
+    skills: [grammar, speaking, writing]
+    tags: [en.connectors, en.present-perfect-continuous, en.word-stress]
+    objectives:
+      - Link ideas with connectors of contrast (although, even though, however), reason (because, as) and result (so, therefore, as a result)
+      - Use connectors with the correct punctuation
+      - Talk about the advantages and disadvantages of changing careers
+    intro: |
+      More and more people change careers during their working lives — an accountant becomes a teacher, a lawyer opens a café, a nurse learns to code. When we explain a big decision like this, we need to connect reasons, results and contrasts clearly. In this lesson you will learn the most useful **connectors** in English and where to put them in a sentence.
+    vocab: |
+      retrain | to learn the skills you need for a new job | v | At forty-two, she retrained as a nurse. | - | c: retrain as a teacher
+      career change | a move to a different type of work | n | A career change can feel scary, but it can also be exciting. | - | c: make a career change
+      pay cut | a reduction in the money you earn | n | He took a pay cut to work for a charity. | - | c: take a pay cut | n: The opposite is a raise (British English: a pay rise).
+      fulfilling | making you feel happy and satisfied because it's useful or important | adj | Teaching is hard, but it's very fulfilling. | - | n: The noun is fulfillment (British: fulfilment).
+      qualification | an exam you have passed or a course you have finished | n | You need a teaching qualification to work in a public school. | - | c: get a qualification; professional qualifications
+      apprenticeship | a job in which you learn a skill from an experienced worker | n | My cousin did a two-year apprenticeship as an electrician. | -
+      take the plunge | to finally decide to do something difficult or risky | expr | After years of thinking about it, I took the plunge and quit. | -
+      quit | to leave a job or stop doing something | v | She quit her job in banking to open a bakery. | - | n: The past is also quit.
+      stable | not likely to change; safe and regular | adj | I wanted a stable job with a regular income. | - | c: a stable income; financially stable
+      doubts | feelings of not being sure about something | n | I had doubts at first, but now I know I made the right decision. | - | c: have doubts about something
+      passion | a very strong interest in or love for something | n | Cooking has always been my passion. | - | c: a passion for something; follow your passion
+      regret | to feel sorry or sad about something you did or didn't do | v | I don't regret leaving my old job. | - | n: Regret + -ing. Also a noun: I have no regrets.
+    grammar:
+      title: "Connectors: contrast, reason, result and addition"
+      body: |
+        Connectors show how two ideas are related. Each one has its own grammar.
+
+        - **Contrast:** *but* joins two clauses. **Although** and **even though** (stronger) are followed by a clause and can start the sentence or go in the middle: *Although the pay was good, I wasn't happy.* **However** usually starts a new sentence and is followed by a comma: *The pay was good. However, I wasn't happy.*
+        - **Reason:** **because** + clause; **because of** + noun; **as** + clause, often at the start: *As the course was online, I kept my job.*
+        - **Result:** **so** + clause (neutral); **therefore** and **as a result** are more formal and usually start a new sentence: *I took a pay cut. As a result, we moved to a smaller apartment.*
+        - **Addition:** **also**, **too** and, more formally, **in addition** at the start of a sentence: *In addition, I volunteer at a school.*
+
+        Never use *although* and *but* in the same sentence.
+      table: |
+        Function | Neutral | More formal | Example
+        Contrast | but; although | however | The hours were long. However, I loved the job.
+        Reason | because | as; because of + noun | I left because of the long hours.
+        Result | so | therefore; as a result | I had no qualifications, so I did a course.
+        Addition | also; too | in addition | In addition, the job is closer to home.
+      examples: |
+        Even though I had doubts, I took the plunge. | | even though: strong contrast
+        I didn't have a degree. However, I had a lot of experience. | | however: new sentence + comma
+        As I wanted more time with my kids, I looked for a part-time job. | | as: reason
+        The course was free. As a result, hundreds of people signed up. | | as a result: formal result
+      tip: "Although and however mean the same thing but work differently: Although I was tired, I finished. / I was tired. However, I finished."
+    dialogue:
+      title: No regrets
+      setting: A Sunday afternoon at a café in Cape Town, South Africa. Lauren meets her former colleague Bongani, who left their accounting firm last year to retrain as a primary school teacher.
+      speakers: L=Lauren/f; B=Bongani/m
+      lines: |
+        L: Bongani! Everyone at the office misses you. How's the teacher training going?
+        B: It's hard work, but I love it. I've been teaching a class of eight-year-olds since January.
+        L: Wow. But you were doing so well in accounting. Why did you leave?
+        B: I was earning good money. However, I felt bored and tired every single day.
+        L: I complain about work all the time, but starting again sounds terrifying.
+        B: It was scary. I took a big pay cut, so money is tight at the moment.
+        L: And what did your family think about it?
+        B: My parents were worried. Even though they had doubts, they supported me.
+        L: That's great. Is there anything you miss about the old job?
+        B: Honestly? The salary — and the people. The coffee was much better, too!
+        L: Ha! So, do you have any regrets about changing careers?
+        B: None. I earn less now. However, I've never felt so useful in my life.
+    pronunciation:
+      title: "Word stress with -tion and -sion"
+      body: |
+        In words ending in **-tion** and **-sion**, the stress falls on the syllable **just before** the ending: qualifi**CA**tion, pro**FES**sion, de**CI**sion, ap**PLI**cation. The ending itself is weak: "-shən".
+
+        Notice the sound in the ending: **-tion** and **-ssion** sound like "shən" (*qualification, passion*), but after a vowel, **-sion** often sounds like the middle of *measure*: *decision, television*. Listen and repeat.
+      items: |
+        qualification
+        profession
+        passion
+        decision
+        application
+        I made the decision to retrain.
+    culture:
+      title: "Career changes and the résumé"
+      body: |
+        In the US, Canada, the UK and Australia, it's common to change careers more than once, and adults often retrain through evening classes, online courses or community colleges. When people meet, *What do you do?* is a very common question, so be ready to explain your path in a few sentences.
+
+        When you apply for a job, Americans and Canadians usually send a **résumé** (often written *resume*): one or two pages, with no photo. In the UK and Ireland, the same document is called a **CV**.
+    mistakes: |
+      Although I was tired, but I finished the report. => Although I was tired, I finished the report. | Don't use although and but in the same sentence.
+      The job was boring, however I stayed for ten years. => The job was boring. However, I stayed for ten years. | However usually starts a new sentence (or follows a semicolon) and has a comma after it.
+      I changed jobs because of I wanted more free time. => I changed jobs because I wanted more free time. | Because + clause; because of + noun (because of the hours).
+    task:
+      title: My career path
+      mode: speaking
+      body: |
+        Talk for one or two minutes about a career change — one you have made, one you would like to make, or one made by someone you know. Explain the reasons, the problems and the results, using at least four different connectors (*although, however, because, as, so, as a result, in addition*). Then try it with the AI coach in the "Preparing for a job interview" scenario, where the interviewer asks why you want to change careers.
+    exercises: |
+      mc: "___ the salary was lower, she accepted the job." || *Although | However | Because of || Although + clause shows a contrast in one sentence. However starts a new sentence, and because of needs a noun. || @tags en.connectors
+      fill: I didn't have the right qualifications. ___, I signed up for an evening course. || As a result / Therefore / So || A result connector starts the second sentence. As a result and therefore sound more formal than so. || @tags en.connectors
+      mc: Choose the correctly punctuated sentence. || However the hours were long, I loved the job. | *The hours were long. However, I loved the job. | The hours were long, however I loved the job. || However starts a new sentence (or follows a semicolon) and is followed by a comma. || @tags en.connectors
+      fill: He left accounting because ___ the long hours. || of || Because of + noun (the long hours). Because alone needs a clause. || @tags en.connectors
+      rw: Join the sentences with "although" :: The course was expensive. It was worth every penny. || Although the course was expensive, it was worth every penny. | Although the course was expensive it was worth every penny. | The course was worth every penny, although it was expensive. || Although + clause; if it starts the sentence, use a comma after the first clause. || @tags en.connectors
+      rw: Rewrite with "As a result" :: I took a pay cut, so we moved to a smaller apartment. || I took a pay cut. As a result, we moved to a smaller apartment. | I took a pay cut; as a result, we moved to a smaller apartment. || As a result usually starts a new sentence and is followed by a comma. || @tags en.connectors
+      match: I quit my job in banking = because I wanted more creative work. ; Although the pay was low, = I found the work fulfilling. ; She didn't have a qualification, = so she did an apprenticeship. ; In addition to his day job, = he studies coding at night. ; I had doubts at first. = However, I don't regret it now. || Each beginning is matched with the ending that completes it grammatically and logically. || @hint Match the beginnings and endings. @tags en.connectors @skill grammar
+      tf: Bongani's parents supported his decision. || true || "Even though they had doubts, they supported me." || @ctx dialogue
+      short: What was Bongani's job before he became a teacher? || kw: accounting/accountant || He left "accounting" and the accounting firm where he worked with Lauren. || @ctx dialogue
+      listen: @dialogue || What does Bongani miss about his old job? || *The salary and the people | The long hours | Nothing at all || "Honestly? The salary — and the people." || @tags en.listening
+      listen: I worked as a lawyer for twelve years. Although I earned a lot, I never had time for my family. So last year I took the plunge and became a yoga teacher. || Why did the speaker change careers? || *They didn't have enough time for their family. | They lost their job. | They wanted to earn more money. || "Although I earned a lot, I never had time for my family." || @tags en.listening,en.connectors
+      dict: Even though I took a pay cut, I don't regret it at all. || even though + clause
+      ask: A friend asks, "Why did you change jobs?" Answer about a real or imaginary career change. Give a reason, a problem and a result. || kw: because/as/since & however/although/even though/but & so/as a result/therefore || I changed jobs because I wanted to work outside. Although I earn less as a park ranger, I'm much happier. As a result, I sleep better and I never dread Mondays.
+      write: Write a short blog post (80–100 words) about a career change — yours or someone you know. Explain why it happened, one difficulty and the result. || min=70 || req: however/although/even though | as a result/therefore/so | because/as/since || My aunt Rosa worked in a bank for twenty years. Although the job was stable, she always dreamed of working with animals. When she was forty-five, she took the plunge and retrained as a vet nurse. It wasn't easy, because she had to study at night and she took a big pay cut. However, she never gave up. As a result, she now works at an animal hospital, and she says it's the most fulfilling job she has ever had.

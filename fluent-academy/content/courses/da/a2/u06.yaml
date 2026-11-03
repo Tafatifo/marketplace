@@ -1,0 +1,368 @@
+unit: 6
+title: Ærinder og service
+theme: Services and errands
+description: Collect parcels and sort out bank errands with object pronouns, return or exchange things in a shop with den, det and dem, and make phone calls and polite requests with kunne du…? and vil du være sød at…?
+free: false
+objectives:
+  - Handle errands at the bank and the parcel shop with object pronouns
+  - Return or exchange something and explain what's wrong
+  - Make phone calls, leave messages and make polite requests
+canDo:
+  - I can collect and send a parcel and ask simple questions at the bank.
+  - I can use mig, dig, ham, hende, den, det, os, jer and dem, and put them in the right place with ikke.
+  - I can explain what's wrong with something I bought and ask for an exchange or a refund.
+  - I can ask to speak to someone on the phone, leave a message and make polite requests.
+review: |
+  fill: Kan du ringe til ___ i aften? (me) || mig || After a preposition (til), use the object form: mig. || @tags da.pronouns
+  fill: Jeg har fået et nyt kort, men jeg har ikke aktiveret ___ endnu. || det || Kortet is an et-word, so "it" is det. || @tags da.pronouns
+  mc: Choose the correct sentence. || *Jeg så ham ikke i går. | Jeg så ikke ham i går. | Jeg ikke så ham i går. || With only one verb (så), a short pronoun comes before ikke: så ham ikke. || @tags da.pronouns,da.negation
+  mc: The jumper doesn't fit. You say: || Den er alt stor. | *Den er for stor. | Den er meget større. || "Too big" is for stor. Meget større means "much bigger". || @tags da.adjective-agreement
+  fill: Støvlerne er for store. Må jeg bytte ___ til en mindre størrelse? || dem || Plural object: dem. || @tags da.pronouns
+  mc: Which request is the most polite? || Giv mig pengene tilbage. | *Vil du være sød at give mig pengene tilbage? | Du giver mig pengene tilbage. || Vil du være sød at…? is warm and polite; the others sound like orders. || @tags da.ordering
+  rw: Replace both names with pronouns :: Lise ringer til Mai. || Hun ringer til hende. || Lise is the subject (hun); Mai is the object (hende). || @tags da.pronouns
+  tr: May I speak to the manager? || Må jeg tale med chefen? | Må jeg tale med lederen? | Må jeg snakke med chefen? | Kan jeg tale med chefen? || Må jeg…? asks permission; "speak to" is tale med. || @tags da.modal-verbs,da.ordering
+  listen: Du kan hente din pakke i pakkeshoppen fra i morgen klokken tolv. Husk at tage ID med. || What must you bring? || The receipt | *ID | Your bank card || "Husk at tage ID med." || @tags da.listening
+  listen: Jeg har købt en kaffemaskine hos jer, men den virker ikke. Kunne I sende en ny? || What's the problem? || The machine is too big | *The machine doesn't work | The machine never arrived || "Den virker ikke" — it doesn't work. || @tags da.pronouns,da.listening
+  ask: Call a shop — explain that something you bought is broken, and ask politely for a new one or your money back. || kw: virker ikke/i stykker/fejl & kunne/vil du være sød at/må jeg/kan jeg & ny/bytte/pengene tilbage || Hej, jeg købte en lampe hos jer i sidste uge, men den virker ikke. Kunne I sende en ny, eller må jeg få pengene tilbage?
+  write: Write a polite email to your landlord — the heating in your flat doesn't work. Ask him to call you back. || min=35 || req: virker ikke | kunne/vil du være sød at/kan du | ringe || Kære Bent. Varmen i min lejlighed virker ikke, og det er meget koldt om aftenen. Jeg har prøvet at tænde radiatorerne, men de bliver ikke varme. Kunne du sende en VVS'er i denne uge? Vil du være sød at ringe til mig på 31 42 56 78? Venlig hilsen Olga Petrova
+lessons:
+  - title: At the bank and the post office
+    summary: Collect and send parcels and sort out a lost bank card — with object pronouns (mig, dig, ham, hende, den, det, os, jer, dem).
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [da.pronouns, da.negation]
+    objectives:
+      - Send and collect a parcel and buy stamps
+      - Handle simple bank errands — a card, an account, a transfer
+      - Use object pronouns instead of repeating nouns
+    intro: |
+      Errands are full of little words like *it*, *me* and *them*: Can I send it? Where can I collect it? I've lost my card — can you block it? Danish object pronouns are **mig, dig, ham, hende, den, det, os, jer** and **dem**, and the choice between den and det depends on the noun. In this lesson you will handle the parcel shop and the bank.
+    vocab: |
+      en pakke | a parcel; a package | n | Jeg skal hente en pakke i pakkeshoppen. | I have to collect a parcel at the parcel shop. | g: c | pl: pakker | c: sende en pakke; hente en pakke
+      en pakkeshop | a parcel shop | n | Pakkeshoppen ligger inde i supermarkedet. | The parcel shop is inside the supermarket. | g: c | pl: pakkeshops | n: Many parcels are collected at a pakkeshop or a parcel locker, en pakkeboks.
+      et frimærke | a stamp | n | Hvad koster et frimærke til Tyskland? | How much is a stamp to Germany? | g: n | pl: frimærker
+      et brev | a letter | n | Jeg sender sjældent breve nu om dage. | I rarely send letters these days. | g: n | pl: breve
+      hente | to collect; to fetch | v | Du kan hente den fra klokken 14. | You can collect it from 2 p.m. | n: Past: hentede.
+      sende | to send | v | Kan jeg sende den med posten i dag? | Can I send it by post today? | n: Past: sendte; perfect: har sendt.
+      en bank | a bank | n | Jeg har et møde i banken på fredag. | I have a meeting at the bank on Friday. | g: c | pl: banker
+      en konto | an account | n | Jeg vil gerne oprette en konto. | I'd like to open an account. | g: c | pl: konti | c: oprette en konto (open an account); et kontonummer (an account number) | n: The plural kontoer is also correct.
+      et betalingskort | a bank card; a debit card | n | Mit betalingskort virker ikke. | My bank card isn't working. | g: n | pl: betalingskort
+      spærre | to block (a card) | v | Jeg har mistet mit kort. Kan I spærre det? | I've lost my card. Can you block it? | n: Past: spærrede.
+      overføre | to transfer | v | Jeg har overført pengene til din konto. | I've transferred the money to your account. | n: Past: overførte.
+      en kvittering | a receipt | n | Gem kvitteringen, hvis pakken bliver væk. | Keep the receipt in case the parcel goes missing. | g: c | pl: kvitteringer
+      et nummer | a number; a queue ticket | n | Har du trukket et nummer? | Have you taken a number? | g: n | pl: numre | n: In many offices and shops you take a queue number.
+    grammar:
+      title: "Object pronouns: mig, dig, den, det, dem"
+      body: |
+        Object pronouns replace a noun after a verb or a preposition: *Hun hjælper **mig**. Jeg ringer til **dig** i morgen. Kan du give **ham** kvitteringen?*
+
+        **Den, det or dem?** For things, use **den** for en-words, **det** for et-words and **dem** for plurals: *Pakken? Jeg henter den i morgen. Kortet? Jeg har spærret det. Frimærkerne? Jeg har købt dem.*
+
+        **Position with ikke.** In a main clause with only **one** verb, a short pronoun comes **before** ikke: *Jeg kender ham ikke. Vi så dem ikke. Jeg finder den ikke.* With **two** verbs (*kan, har, vil* + another verb), the pronoun stays after the second verb, so it comes after ikke: *Jeg kan ikke finde den. Jeg har ikke set ham.*
+
+        In speech, **mig** and **dig** sound like "mai" and "dai", and the d in **hende** is silent: "HEN-ne".
+      table: |
+        Subject | Object | Example
+        jeg | mig | Kan du hjælpe mig?
+        du | dig | Jeg ringer til dig.
+        han | ham | Kender du ham?
+        hun | hende | Jeg sender pakken til hende.
+        den / det | den / det | Jeg henter den. Jeg spærrer det.
+        vi | os | Skriv til os.
+        I | jer | Jeg venter på jer.
+        de | dem | Jeg har købt dem.
+      examples: |
+        Pakken er kommet. Du kan hente den i morgen. | The parcel has arrived. You can collect it tomorrow. | pakken (en-word) → den
+        Mit kort virker ikke. Kan I hjælpe mig? | My card isn't working. Can you help me? | mig after hjælpe
+        Jeg har købt frimærker, men jeg kan ikke finde dem. | I've bought stamps, but I can't find them. | two verbs: ikke before finde dem
+        Jeg kender hende ikke. | I don't know her. | one verb: the pronoun before ikke
+      tip: "Before you say \"it\", ask: en-word (den), et-word (det) or plural (dem)? Pakken → den, kortet → det, brevene → dem."
+    dialogue:
+      title: Et mistet kort
+      setting: A bank branch in Hillerød on a Monday morning. Gabriel has lost his bank card and talks to Anne, a bank adviser.
+      speakers: G=Gabriel/m; A=Anne/f
+      lines: |
+        G: Hej. Jeg har mistet mit betalingskort. | Hi. I've lost my bank card.
+        A: Åh nej. Hvornår brugte du det sidst? | Oh no. When did you last use it?
+        G: I går i et supermarked. Nu kan jeg ikke finde det. | Yesterday in a supermarket. Now I can't find it.
+        A: Så skal vi spærre det med det samme. | Then we must block it straight away.
+        G: Ja tak. Kan du hjælpe mig med det? | Yes, please. Can you help me with that?
+        A: Selvfølgelig. Må jeg se noget ID? | Of course. May I see some ID?
+        G: Værsgo, her er mit kørekort. | Here you are, here's my driving licence.
+        A: Tak. Nu har jeg spærret kortet. Du får et nyt om en uge. | Thanks. I've blocked the card now. You'll get a new one in a week.
+        G: Sender I det med posten? | Will you send it by post?
+        A: Ja, vi sender det til din adresse. | Yes, we'll send it to your address.
+        G: Og min kone? Hun bruger også kontoen. | And my wife? She uses the account too.
+        A: Hendes kort virker stadig. Vi har ikke spærret det. | Her card still works. We haven't blocked it.
+    pronunciation:
+      title: "Short pronouns: mig, dig, hende"
+      body: |
+        Object pronouns are short and unstressed, so they are easy to miss. **Mig** and **dig** sound like "mai" and "dai" — the g turns into a short "i" glide. In **hende** the d is silent: "HEN-ne". **Dem** has a short e, as in English *them* without the th.
+
+        **Jer** (you, plural) sounds like "yer". Listen and repeat — first the pronouns alone, then in whole sentences, where they join the verb: "HJÆL-pe-mai".
+      items: |
+        mig
+        dig
+        hende
+        dem
+        Kan du hjælpe mig?
+        Jeg ringer til dig.
+    culture:
+      title: Cards, codes and parcel shops
+      body: |
+        Denmark is almost cashless: most people pay with a card or a phone, even for a coffee. For online banking and public services, people log in with **MitID**, the national digital ID, and letters from the authorities arrive in **Digital Post** rather than in the letterbox.
+
+        Fewer and fewer letters are sent. Parcels are usually delivered to a **pakkeshop** — often a counter in a supermarket or a kiosk — or to a parcel locker. You get a text message with a code, and you show the code and your ID when you collect the parcel.
+    mistakes: |
+      Kan du hjælpe jeg? => Kan du hjælpe mig? | After a verb, use the object form: mig.
+      Pakken? Jeg henter det i morgen. => Pakken? Jeg henter den i morgen. | Pakken is an en-word, so "it" is den.
+      Jeg kender ikke ham. => Jeg kender ham ikke. | With only one verb, a short pronoun comes before ikke.
+    task:
+      title: At the parcel shop
+      mode: interaction
+      body: |
+        You get a text: your parcel is ready at the parcel shop. At the counter, say why you are there and give the code. Then send a small parcel to a friend in Sweden: ask the price and how long it takes, and ask for a receipt. Record both conversations in Speaking practice.
+    exercises: |
+      fill: Kan du hjælpe ___? (me) || mig || After a verb, the object form of jeg is mig. || @tags da.pronouns
+      fill: Pakken er kommet. Du kan hente ___ i morgen. || den || Pakken is an en-word, so "it" is den. || @tags da.pronouns
+      fill: Kortet virker ikke, så vi har spærret ___. || det || Kortet is an et-word, so "it" is det. || @tags da.pronouns
+      mc: "Jeg ringer til ___ i morgen." (her) || hun | *hende | hendes || After til, use the object form hende. Hendes means "her" as in "her card". || @tags da.pronouns
+      mc: Choose the correct sentence. || Jeg kender ikke ham. | *Jeg kender ham ikke. | Jeg ikke kender ham. || With one verb (kender), the short pronoun comes before ikke. || @tags da.pronouns,da.negation
+      mc: Choose the correct sentence. || Jeg har set den ikke. | *Jeg har ikke set den. | Jeg den har ikke set. || With two verbs, ikke follows har and the pronoun follows the participle: har ikke set den. || @tags da.pronouns,da.negation
+      tf: Gabriel's wife's card has also been blocked. || false || "Hendes kort virker stadig. Vi har ikke spærret det." || @ctx dialogue
+      short: How long will it take before Gabriel gets a new card? || kw: uge/week || "Du får et nyt om en uge" — in a week. || @ctx dialogue
+      listen: @dialogue || Which ID does Gabriel show? || His passport | *His driving licence | His health card || "Her er mit kørekort" — his driving licence. || @tags da.listening
+      listen: Din pakke er klar i pakkeshoppen på Torvegade. Husk din kode: fire, otte, to, ni. || What is the code? || *4829 | 4892 | 8429 || "Fire, otte, to, ni" = 4, 8, 2, 9. || @tags da.numbers,da.listening
+      rw: Replace the noun with a pronoun :: Jeg sender brevet i dag. || Jeg sender det i dag. || Brevet is an et-word, so it becomes det. || @tags da.pronouns
+      tr: I've lost my card. Can you block it? || Jeg har mistet mit kort. Kan I spærre det? | Jeg har mistet mit kort. Kan du spærre det? | Jeg har mistet mit betalingskort. Kan I spærre det? | Jeg har mistet mit betalingskort. Kan du spærre det? || Kort is an et-word: mit kort … spærre det. || @tags da.pronouns,da.perfect
+      ask: At the parcel shop — say you want to send a parcel to a friend, and ask how much it costs and when it will arrive. || kw: sende/pakke & koster/pris & hvornår/hvor lang tid || Hej, jeg vil gerne sende den her pakke til min veninde i Malmø. Hvad koster det, og hvornår kommer den frem?
+      write: Write a short message to a friend — you have collected their parcel and will bring it tomorrow. || min=20 || req: pakke | den | i morgen || Hej Emil! Jeg har hentet din pakke i pakkeshoppen. Den er ret tung! Jeg tager den med i morgen, når jeg kommer forbi. Hilsen Sana
+      dict: Jeg har ikke fået mit nye kort, men banken har sendt det.
+
+  - title: Returns and exchanges
+    summary: Return or exchange something in a shop — explain what's wrong and ask for another size or your money back — with den, det, dem and for + adjective.
+    minutes: 40
+    skills: [speaking, listening, vocabulary]
+    tags: [da.pronouns, da.adjective-agreement, da.ordering]
+    objectives:
+      - Explain what is wrong with something you bought
+      - Ask to exchange it or to get your money back
+      - Refer back to things with den, det and dem, and say "too big" with for
+    intro: |
+      In Denmark you can usually exchange a present or something that doesn't fit — as long as you have the receipt or an exchange slip, **en byttelap**. In this lesson you will explain what's wrong (*Den er for lille. Det virker ikke.*), ask politely for a solution, and understand what the shop assistant offers you.
+    vocab: |
+      bytte | to exchange; to swap | v | Må jeg bytte den til en større størrelse? | May I exchange it for a bigger size? | n: Past: byttede. Bytte noget til = exchange something for.
+      returnere | to return | v | Jeg vil gerne returnere de her sko. | I'd like to return these shoes. | n: Past: returnerede.
+      en byttelap | an exchange slip | n | Der er en byttelap i posen. | There's an exchange slip in the bag. | g: c | pl: byttelapper | n: Given with presents, so you can exchange them without seeing the price.
+      et tilgodebevis | a credit note | n | Vi kan give dig et tilgodebevis på 400 kroner. | We can give you a credit note for 400 kroner. | g: n | pl: tilgodebeviser
+      en størrelse | a size | n | Har I den i en mindre størrelse? | Do you have it in a smaller size? | g: c | pl: størrelser
+      for stor | too big | expr | Jakken er for stor i ærmerne. | The jacket is too big in the sleeves. | n: For + adjective = too: for lille, for dyr, for kort. Alt for = far too.
+      i stykker | broken | expr | Lynlåsen gik i stykker efter to dage. | The zip broke after two days. | n: Være i stykker = be broken; gå i stykker = break.
+      virke | to work; to function | v | Opladeren virker ikke. | The charger doesn't work. | n: Past: virkede.
+      en fejl | a fault; a mistake | n | Der er en fejl ved skærmen. | There's a fault with the screen. | g: c | pl: fejl
+      prøve | to try on; to try | v | Jeg prøvede den derhjemme, og den passer ikke. | I tried it on at home, and it doesn't fit. | n: Past: prøvede.
+      passe | to fit | v | Bukserne passer ikke. De er for korte. | The trousers don't fit. They're too short. | n: Past: passede.
+      en reklamation | a complaint (about faulty goods) | n | Du kan lave en reklamation inden for to år. | You can make a complaint within two years. | g: c | pl: reklamationer | n: Your legal right to complain about faulty goods lasts two years.
+      en ekspedient | a shop assistant | n | Ekspedienten var meget hjælpsom. | The shop assistant was very helpful. | g: c | pl: ekspedienter
+    grammar:
+      title: "Den, det, dem — and too big with for"
+      body: |
+        When you explain a problem, you name the thing once and then refer back to it with a pronoun:
+
+        - en-word → **den**: *Jeg har købt en jakke. Den er for stor. Kan jeg bytte den?*
+        - et-word → **det**: *Jeg har købt et ur. Det virker ikke. Kan I reparere det?*
+        - plural → **de** as subject, **dem** as object: *Skoene er for små. De passer ikke. Kan jeg returnere dem?*
+
+        Den and det look the same as subject and object; only the plural changes: **de** → **dem**.
+
+        **Too** + adjective is **for** + adjective: *for stor, for lille, for dyr, for kort.* The adjective agrees as usual: *Den er for kort. Det er for kort. De er for korte.* For "far too", say **alt for**: *Den er alt for dyr.*
+
+        Useful questions at the counter use the same pronouns: *Har I den i en anden farve? Må jeg bytte den? Kan jeg få pengene tilbage?*
+      table: |
+        Thing | Subject | Object
+        en jakke | Den er for stor. | Kan jeg bytte den?
+        et ur | Det virker ikke. | Kan I reparere det?
+        et tørklæde | Det er for kort. | Kan jeg returnere det?
+        skoene (plural) | De er for små. | Kan jeg returnere dem?
+      examples: |
+        Jeg fik den her trøje i fødselsdagsgave, men den er for lille. | I got this jumper as a birthday present, but it's too small. | den = trøjen
+        Kan jeg bytte den til en medium? | Can I exchange it for a medium? | object: den
+        Høretelefonerne virker ikke. Jeg har kun brugt dem én gang. | The headphones don't work. I've only used them once. | de / dem for plurals
+        Bukserne er for korte, og de er også for dyre. | The trousers are too short, and they're too expensive as well. | for + plural adjective
+      tip: "Before you go to the counter, decide: den, det or dem? Then every sentence is easy: Den er for stor. Kan jeg bytte den?"
+    dialogue:
+      title: Løbeskoene
+      setting: A sports shop in Esbjerg on a Wednesday afternoon. Ebba wants to return a pair of running shoes she bought on Saturday. Kim works in the shop.
+      speakers: K=Kim/m; E=Ebba/f
+      lines: |
+        K: Hej. Kan jeg hjælpe dig? | Hi. Can I help you?
+        E: Ja tak. Jeg købte de her løbesko i lørdags. | Yes, please. I bought these running shoes last Saturday.
+        K: Okay. Er der noget galt med dem? | Okay. Is there anything wrong with them?
+        E: De er for små. Jeg har prøvet dem derhjemme. | They're too small. I've tried them on at home.
+        K: Har du brugt dem udenfor? | Have you worn them outside?
+        E: Nej, kun i stuen. Her er kvitteringen. | No, only in the living room. Here's the receipt.
+        K: Fint. Vil du bytte dem til en større størrelse? | Fine. Would you like to exchange them for a bigger size?
+        E: Ja, gerne. Har I dem i 39? | Yes, please. Do you have them in a 39?
+        K: Lad mig se… Nej, desværre, kun i 40. | Let me see… No, unfortunately, only in a 40.
+        E: Hm. Kan jeg så få pengene tilbage? | Hmm. Can I get my money back, then?
+        K: Ja, eller du kan få et tilgodebevis. | Yes, or you can get a credit note.
+        E: Jeg tager pengene, tak. Gerne tilbage på mit kort. | I'll take the money, thanks. Back on my card, please.
+    pronunciation:
+      title: Long words at the counter
+      body: |
+        Shop words can be long, so find the stressed syllable first. **Kvittering** is "kvi-TE-ring", **størrelse** is "STØR-rel-se", and in **tilgodebevis** the stress is on -go-: "til-GO-the-be-vis".
+
+        Words ending in **-tion** are stressed at the end, and -tion sounds like "shohn": **reklamation** is "re-kla-ma-SHOHN". **Ekspedient** is stressed on the last syllable: "eks-pe-di-ENT". Listen, find the stress, and repeat.
+      items: |
+        kvittering
+        størrelse
+        tilgodebevis
+        reklamation
+        ekspedient
+        Kan jeg få pengene tilbage?
+    culture:
+      title: Your rights when you shop
+      body: |
+        Danish shops don't have to take back things that aren't faulty, but most of them let you exchange or return items within 14 to 30 days if you have the receipt or a byttelap. If something is **faulty**, you have a legal right to complain — **reklamationsret** — for two years. When you buy online, you can usually change your mind within 14 days: **fortrydelsesret**.
+
+        The days after Christmas are famous for long queues: everyone is exchanging presents that didn't fit or that they already had.
+    mistakes: |
+      Skoene er for små. Kan jeg bytte de? => Kan jeg bytte dem? | After a verb, the plural object form is dem.
+      Jakken er for stor. Kan jeg bytte det? => Kan jeg bytte den? | Jakken is an en-word, so "it" is den.
+      Den er alt stor. => Den er for stor. | "Too" + adjective is for. Alt for means "far too": alt for stor.
+    task:
+      title: Return a jacket
+      mode: interaction
+      body: |
+        You bought a jacket last week, but it's too small and the zip is broken. Go back to the shop: explain the problems, show the receipt, and ask to exchange it or to get your money back. Practise in the "Returning an item in a shop" scenario with the AI coach.
+    exercises: |
+      fill: Jakken er ___ stor. Har I en mindre? (too) || for || "Too big" = for stor. || @tags da.adjective-agreement
+      fill: Skoene er for små. Kan jeg bytte ___? || dem || Skoene is plural, and after a verb the plural object form is dem. || @tags da.pronouns
+      fill: Uret virker ikke. Kan I reparere ___? || det || Uret is an et-word: det. || @tags da.pronouns
+      mc: Choose the correct sentence. || De er for kort. | *De er for korte. | De er for kortere. || With a plural subject, the adjective takes -e: for korte. || @tags da.adjective-agreement
+      mc: There is no price on the present, but there's a slip so you can exchange it. It's called… || *en byttelap | et tilgodebevis | en reklamation || En byttelap is an exchange slip. Et tilgodebevis is a credit note, and en reklamation is a complaint about faulty goods. || @tags da.vocabulary
+      tf: Ebba has worn the shoes outside. || false || "Nej, kun i stuen" — only in the living room. || @ctx dialogue
+      short: What does Ebba choose in the end? || kw: penge/pengene/money/refund/kort/card || She takes the money back on her card instead of a credit note. || @ctx dialogue
+      listen: @dialogue || Which size does the shop have? || 38 | 39 | *40 || "Nej, desværre, kun i 40." || @tags da.listening
+      listen: Du kan bytte varen inden for 30 dage, hvis du har kvitteringen. Uden kvittering kan du få et tilgodebevis. || What do you get without a receipt? || Your money back | *A credit note | Nothing at all || "Uden kvittering kan du få et tilgodebevis." || @tags da.listening
+      rw: Replace the noun with a pronoun :: Jeg vil gerne returnere skoene. || Jeg vil gerne returnere dem. || Skoene (plural object) → dem. || @tags da.pronouns
+      order: Den er for lille, så jeg vil gerne bytte den. || It's too small, so I'd like to exchange it. || @tags da.pronouns,da.adjective-agreement
+      tr: The charger doesn't work. Can I exchange it? || Opladeren virker ikke. Kan jeg bytte den? | Opladeren virker ikke. Må jeg bytte den? | Min oplader virker ikke. Kan jeg bytte den? | Min oplader virker ikke. Må jeg bytte den? || Opladeren is an en-word, so "it" is den. || @tags da.pronouns
+      ask: Return a jumper that's too small — explain the problem and ask for another size or your money back. || kw: for lille/for stor/passer ikke & bytte/pengene tilbage/returnere/tilgodebevis || Hej, jeg fik den her trøje i gave, men den er for lille. Må jeg bytte den til en større størrelse? Ellers vil jeg gerne have pengene tilbage.
+      write: Write a short email to an online shop — the lamp you received is broken. Ask them to send a new one or refund the money. || min=35 || req: i stykker/virker ikke/fejl | den | ny/pengene tilbage || Hej. Jeg har købt en lampe hos jer, ordre nummer 45821. Den kom i går, men den er i stykker – glasset er knust. Kunne I sende en ny lampe? Ellers vil jeg gerne have pengene tilbage. Venlig hilsen Thea Mortensen
+      dict: Bukserne er for korte, så jeg vil gerne bytte dem.
+
+  - title: Phone calls and messages
+    summary: Make a phone call, ask for someone, leave a message and make polite requests with kunne du…?, vil du være sød at…? and må jeg…?
+    minutes: 40
+    skills: [listening, speaking, writing]
+    tags: [da.ordering, da.modal-verbs, da.pronouns]
+    objectives:
+      - Start and end a phone call politely
+      - Ask to speak to someone and leave a message
+      - Make polite requests with kunne du…?, vil du være sød at…? and må jeg…?
+    intro: |
+      Phone calls are hard in a new language: no gestures, no lip-reading, and people speak fast. It helps to know the fixed phrases — how Danes answer the phone, how to ask for someone and how to leave a message. In this lesson you will also learn the most polite ways to ask for something: **kunne du…?** and **vil du være sød at…?**
+    vocab: |
+      ringe tilbage | to call back | expr | Kan hun ringe tilbage i eftermiddag? | Can she call back this afternoon? | n: Past: ringede tilbage.
+      en besked | a message | n | Vil du give ham en besked? | Will you give him a message? | g: c | pl: beskeder | c: lægge en besked (leave a message)
+      en telefonsvarer | a voicemail; an answering machine | n | Jeg har lagt en besked på hans telefonsvarer. | I've left a message on his voicemail. | g: c | pl: telefonsvarere
+      et opkald | a call | n | Jeg har tre ubesvarede opkald. | I have three missed calls. | g: n | pl: opkald
+      en sms | a text message | n | Jeg sender dig en sms med adressen. | I'll text you the address. | g: c | pl: sms'er | n: Pronounced "es-em-es". People also just say en besked.
+      tale med | to speak to | expr | Må jeg tale med Lise Holm? | May I speak to Lise Holm? | n: Also snakke med.
+      vente lidt | to hold on; to wait a moment | expr | Vent lidt, så ser jeg, om hun er her. | Hold on, I'll see if she's here. | n: Vent et øjeblik is slightly more formal.
+      angående | regarding; about | prep | Jeg ringer angående min tid hos tandlægen. | I'm calling about my appointment at the dentist. | n: A little formal. In everyday speech: Jeg ringer om…
+      kunne du…? | could you…? | expr | Kunne du sende mig en mail? | Could you send me an email? | n: More polite than kan du…? — kunne is the past form of kan, like English could.
+      vil du være sød at…? | would you mind…? | expr | Vil du være sød at stave dit efternavn? | Would you mind spelling your surname? | n: Literally "will you be sweet and…" — very common and friendly.
+      optaget | busy; engaged | adj | Hun er optaget lige nu. Hun sidder i et møde. | She's busy right now. She's in a meeting. | n: Also about a phone line: Linjen er optaget.
+      en mailadresse | an email address | n | Hvad er din mailadresse? | What's your email address? | g: c | pl: mailadresser | n: @ is snabel-a, and the dot is punktum.
+      lige | just; quickly | adv | Kan du lige vente et øjeblik? | Could you just wait a moment? | n: Lige makes a request lighter and more casual.
+    grammar:
+      title: "Polite requests: kunne du…?, vil du være sød at…?, må jeg…?"
+      body: |
+        Danish politeness lives in small words, not in a formal *you*. From friendly to very polite:
+
+        - **Kan du…?** — normal and friendly: *Kan du ringe tilbage?*
+        - **Kan du lige…?** — lige makes it light and casual: *Kan du lige stave det?*
+        - **Kunne du…?** — more polite (kunne is the past of kan, like English *could*): *Kunne du give hende en besked?*
+        - **Vil du være sød at…?** — warm and very common: *Vil du være sød at sende mig adressen?*
+        - **Må jeg…?** — asking permission: *Må jeg tale med Jens? Må jeg lægge en besked?*
+
+        Danes often add **ikke** to soften a request: *Kunne du ikke ringe tilbage i morgen?* It isn't negative here — it just sounds friendly. If someone asks you a question with ikke and the answer is yes, say **jo**, not ja: *Kunne du ikke sende en sms? – Jo, selvfølgelig.*
+
+        After *kan, kunne, vil* and *må*, the infinitive has no at. After *være sød* you need **at**: *Vil du være sød at vente?* And with **bede** (ask someone to), the infinitive comes straight after the person: *Kunne du bede ham ringe til mig?*
+      table: |
+        Request | Example | Tone
+        Kan du…? | Kan du ringe tilbage? | friendly
+        Kan du lige…? | Kan du lige stave det? | casual and light
+        Kunne du…? | Kunne du give ham en besked? | polite
+        Vil du være sød at…? | Vil du være sød at vente lidt? | warm and polite
+        Må jeg…? | Må jeg tale med Lise? | asking permission
+        Kunne du ikke…? | Kunne du ikke sende en mail? | soft and friendly
+      examples: |
+        Kunne du bede hende ringe til mig i eftermiddag? | Could you ask her to call me this afternoon? | bede + person + infinitive
+        Vil du være sød at gentage nummeret? | Would you mind repeating the number? | være sød + at
+        Må jeg lægge en besked til Ahmad? | May I leave a message for Ahmad? | asking permission
+        Kan du ikke lige sende mig en sms, når du er hjemme? | Could you just text me when you're home? | ikke softens — it isn't negative here
+      tip: "Kunne du…? and Vil du være sød at…? work with everyone — a stranger, a receptionist or your boss. Don't forget the at after sød."
+    dialogue:
+      title: En besked til læreren
+      setting: A Tuesday morning. Mai calls the office of her son's school in Køge because she wants to speak to his teacher. Kenneth answers the phone.
+      speakers: K=Kenneth/m; M=Mai/f
+      lines: |
+        K: Søndermarkskolen, det er Kenneth. | Søndermark School, Kenneth speaking.
+        M: Hej, det er Mai Nguyen, Theos mor fra 4.b. | Hi, this is Mai Nguyen, Theo's mum from class 4b.
+        M: Må jeg tale med hans lærer, Lise Holm? | May I speak to his teacher, Lise Holm?
+        K: Hun er desværre optaget. Hun har time lige nu. | Unfortunately she's busy. She's teaching right now.
+        M: Okay. Kunne du give hende en besked? | Okay. Could you give her a message?
+        K: Selvfølgelig. Hvad drejer det sig om? | Of course. What is it about?
+        M: Det er angående turen til Lejre på fredag. | It's about the trip to Lejre on Friday.
+        K: Vil du være sød at stave dit efternavn? | Would you mind spelling your surname?
+        M: N-G-U-Y-E-N. Og mit nummer er 22 45 67 18. | N-G-U-Y-E-N. And my number is 22 45 67 18.
+        K: Tak. Jeg beder hende ringe til dig efter klokken to. | Thanks. I'll ask her to call you after two o'clock.
+        M: Kunne hun ikke sende en sms i stedet? Jeg er på arbejde. | Couldn't she send a text instead? I'm at work.
+        K: Jo, det kan hun sagtens. Hav en god dag! | Yes, she can easily do that. Have a good day!
+    pronunciation:
+      title: "Saying email addresses: snabel-a and punktum"
+      body: |
+        On the phone you often have to give an email address. In Danish, **@** is *snabel-a* ("elephant's-trunk a"), the dot is *punktum*, a hyphen is *bindestreg*, and an underscore is *understreg*.
+
+        So *mai.nguyen@post.dk* is "mai punktum nguyen snabel-a post punktum de-ko". Say the parts slowly, with a small pause before each *punktum*, and ask *Kan du stave det?* if you didn't catch a name.
+      items: |
+        snabel-a
+        punktum
+        bindestreg
+        mai punktum nguyen snabel-a post punktum dk
+        Kan du stave det?
+        Jeg ringer tilbage.
+    culture:
+      title: On the phone in Denmark
+      body: |
+        Danes often answer the phone with their name — *Det er Mette* or simply *Mette* — and workplaces answer with the name of the place and then the person. Calls are usually short and to the point, and many people prefer a text message to a call.
+
+        It's normal to end a call quickly with *Tak for det, hej hej!* Calling someone you don't know well in the evening or at the weekend is unusual unless it's urgent; a text or an email is the polite choice.
+    mistakes: |
+      Kunne du at ringe tilbage? => Kunne du ringe tilbage? | After kunne, the infinitive has no at.
+      Kunne du ikke sende en sms? – Ja, selvfølgelig. => – Jo, selvfølgelig. | Answer yes to a question with ikke with jo.
+      Må jeg snakke til Lise? => Må jeg tale med Lise? | "Speak to someone" is tale med or snakke med.
+    task:
+      title: Leave a voicemail
+      mode: interaction
+      body: |
+        Call a dentist's clinic to move your appointment. Nobody answers, so leave a voicemail: say who you are, why you are calling, your phone number in pairs of digits, and ask them politely to call you back. Record it in Speaking practice and check that you used kunne or vil du være sød at.
+    exercises: |
+      fill: ___ du give hende en besked? (could) || Kunne || Kunne du…? = Could you…? — more polite than kan du. || @tags da.modal-verbs,da.ordering
+      fill: Vil du være sød ___ stave dit navn? || at || Være sød is followed by at + infinitive. || @tags da.ordering,da.infinitive
+      fill: ___ jeg tale med Lise Holm? (may) || Må || Må jeg…? asks permission. || @tags da.modal-verbs
+      mc: Which request is the most polite? || Giv mig en besked. | Du ringer tilbage. | *Kunne du ringe tilbage i morgen? || Kunne du…? is a polite request. The imperative and the statement sound like orders. || @tags da.ordering
+      mc: "Kunne du ikke sende en sms?" What does the speaker want? || *A text message | No text message | To know if you can't send texts || Ikke softens the request — it isn't negative here. || @tags da.ordering
+      mc: Someone asks "Har du ikke fået min mail?" You did get it. You answer: || Ja, det har jeg. | *Jo, det har jeg. | Nej, det har jeg. || A yes to a question with ikke is jo. || @tags da.questions
+      tf: Lise Holm can come to the phone right now. || false || "Hun er desværre optaget. Hun har time lige nu." || @ctx dialogue
+      short: What is Mai calling about? || kw: tur/turen/trip/Lejre/fredag/Friday || "Det er angående turen til Lejre på fredag." || @ctx dialogue
+      listen: @dialogue || What does Mai ask for at the end? || A meeting at the school | *A text message instead of a call | A call before two o'clock || "Kunne hun ikke sende en sms i stedet? Jeg er på arbejde." || @tags da.listening
+      listen: Hej, det er Susanne fra tandlægen. Du har en tid på tirsdag klokken ti. Vil du være sød at ringe tilbage og bekræfte? || What should the listener do? || Come on Tuesday at nine | *Call back to confirm | Send an email || "Vil du være sød at ringe tilbage og bekræfte?" || @tags da.ordering,da.listening
+      rw: Make it more polite with "kunne" :: Send mig adressen. || Kunne du sende mig adressen? | Kunne du ikke sende mig adressen? || Kunne du + infinitive (without at). || @tags da.ordering,da.modal-verbs
+      tr: Could you ask him to call me? || Kunne du bede ham ringe til mig? | Kunne du bede ham om at ringe til mig? | Vil du være sød at bede ham ringe til mig? | Kunne du bede ham ringe mig op? || Bede + ham + infinitive; ham and mig are object pronouns. || @tags da.ordering,da.pronouns
+      ask: Phone a company — ask to speak to someone, and when they're busy, leave a message with your name and number. || kw: må jeg tale med/kan jeg tale med/må jeg snakke med & besked/ringe tilbage & nummer || Hej, det er Sami Haddad. Må jeg tale med Pia Lund? Nå, hun er optaget. Kunne du bede hende ringe tilbage? Mit nummer er 40 12 33 65.
+      write: Write a text message to a colleague — you can't come to the meeting, and you ask them politely to send you the notes. || min=20 || req: kunne du/vil du være sød at/kan du | ikke | møde/mødet || Hej Jonas! Jeg kan desværre ikke komme til mødet i dag, fordi min datter er syg. Vil du være sød at sende mig dine noter bagefter? Tusind tak! Hilsen Amira
+      dict: Vil du være sød at sende mig en sms i stedet?

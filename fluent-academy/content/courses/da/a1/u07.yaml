@@ -1,0 +1,369 @@
+unit: 7
+title: Fritid og vejr
+theme: Free time and weather
+description: Talk about hobbies with kan lide and elsker, describe the weather and the seasons, and make plans with the modal verbs kan, vil and skal.
+objectives:
+  - Say what you like, love and don't like doing with kan lide + at + infinitive
+  - Describe the weather and the seasons
+  - Suggest, accept and refuse plans with kan, vil and skal
+canDo:
+  - I can talk about my hobbies and ask others about theirs.
+  - I can describe today's weather and what the seasons are like in Denmark.
+  - I can invite someone, suggest a day and time, and say no politely.
+review: |
+  fill: Jeg kan godt lide ___ svømme. || at || A verb after kan lide needs at: kan lide at svømme. || @tags da.likes,da.infinitive
+  mc: Which sentence is correct? || Jeg kan lide spille fodbold. | *Jeg kan godt lide at spille fodbold. | Jeg godt kan lide at spille fodbold. || Kan godt lide + at + infinitive; godt comes after kan. || @tags da.likes
+  fill: Det er ___ i dag. (varm) || varmt || After det er, the adjective takes -t: varmt. || @tags da.weather
+  mc: Which sentence is correct? || I dag det regner. | *I dag regner det. | I dag regner. || Verb second, and the weather sentence needs det: I dag regner det. || @tags da.weather,da.word-order
+  fill: ___ vi gå en tur? (Shall) || Skal || Suggestions start with Skal vi…? || @tags da.modal-verbs
+  rw: Make it negative :: Jeg kan komme i aften. || Jeg kan ikke komme i aften. || Ikke comes straight after the modal verb kan. || @tags da.modal-verbs,da.negation
+  tr: Do you want to come to the cinema? || Vil du med i biografen? | Vil du gå med i biografen? || Vil du med…? — the verb of movement is often left out. || @tags da.modal-verbs
+  tr: In winter it's cold and dark. || Om vinteren er det koldt og mørkt. | Det er koldt og mørkt om vinteren. || Om vinteren = in winter; det er + koldt, mørkt (with -t). || @tags da.weather,da.word-order
+  listen: Jeg elsker at male, men jeg kan ikke lide at synge. || What does the speaker love doing? || Singing | *Painting | Knitting || "Jeg elsker at male" — I love painting. || @tags da.likes
+  listen: I dag er det overskyet og elleve grader. I morgen skinner solen. || What will the weather be like tomorrow? || Cloudy | *Sunny | Rainy || "I morgen skinner solen" — tomorrow the sun will shine. || @tags da.weather
+  ask: Invite a friend to do something at the weekend, and mention the weather. || kw: skal vi/vil du & det || Skal vi tage til stranden på søndag? Solen skinner, og det er varmt!
+  write: Write an email to a pen-pal about your free time — what you like and don't like doing — and invite them to do something with you. || min=35 || req: kan godt lide/kan lide/elsker | at | vil du/skal vi || Hej Kim! I min fritid kan jeg godt lide at læse og gå tur. Jeg elsker at svømme, men jeg kan ikke lide at løbe. Om sommeren svømmer jeg i havet. Vil du med til stranden på lørdag? Hilsen Nora
+lessons:
+  - title: Hobbies and likes
+    summary: Talk about free-time activities and say what you like, love and don't like doing with kan lide + at + infinitive.
+    minutes: 35
+    skills: [speaking, grammar, vocabulary]
+    tags: [da.likes, da.infinitive]
+    objectives:
+      - Name common hobbies and sports
+      - Use kan (godt) lide and elsker with a noun or at + infinitive
+      - Say what you don't like with kan ikke lide
+    intro: |
+      What do you do in your free time? Talking about hobbies is a great way to get to know people — and Danes are keen members of clubs, from handball to choirs. In Danish, "to like" is **kan lide**, and when a verb follows, it takes **at**: *Jeg kan godt lide at svømme.*
+    vocab: |
+      fritid | free time | n | Hvad laver du i din fritid? | What do you do in your free time? | g: c
+      kan lide | to like | expr | Jeg kan lide at læse. | I like reading. | n: Kan godt lide is very common and sounds softer: Jeg kan godt lide kaffe.
+      elske | to love | v | Hun elsker at danse. | She loves dancing.
+      svømme | to swim | v | Vi svømmer i havet om sommeren. | We swim in the sea in summer.
+      løbe | to run | v | Jeg løber tre gange om ugen. | I run three times a week.
+      spille fodbold | to play football | expr | Han spiller fodbold om tirsdagen. | He plays football on Tuesdays.
+      spille håndbold | to play handball | expr | Min datter spiller håndbold i en klub. | My daughter plays handball in a club. | n: Handball is one of the most popular sports in Denmark.
+      gå tur | to go for a walk | expr | Vi går tur med hunden. | We walk the dog. | n: Also: gå en tur.
+      høre musik | to listen to music | expr | Jeg hører musik i bussen. | I listen to music on the bus.
+      synge | to sing | v | Hun synger i et kor. | She sings in a choir.
+      male | to paint | v | Min morfar maler hver dag. | My grandfather paints every day.
+      strikke | to knit | v | Jeg strikker en hue. | I'm knitting a hat.
+      en klub | a club | n | Jeg er med i en løbeklub. | I'm in a running club. | g: c | pl: klubber | n: Være med i = be a member of.
+      interesseret i | interested in | expr | Er du interesseret i musik? | Are you interested in music?
+    grammar:
+      title: "Kan lide — to like"
+      body: |
+        Danish says **kan lide** for *like*.
+
+        - With a **noun**: *Jeg kan lide kaffe.*
+        - With a **verb**: **at + infinitive** — *Jeg kan lide **at** læse.* (English uses *-ing*; Danish uses *at*.)
+
+        Danes very often add **godt**: *Jeg kan **godt** lide at svømme.* It sounds natural and a little softer. *Godt* comes straight after *kan*.
+
+        **Negative:** *ikke* comes after *kan*, and you drop *godt*: *Jeg kan **ikke** lide at løbe.*
+
+        **Questions:** *Kan du lide at danse? Hvad kan du lide at lave?*
+
+        **Elske** (to love) works the same way: *Jeg elsker at svømme. Hun elsker musik.*
+      table: |
+        | Positive | Negative | Question
+        + noun | Jeg kan godt lide kaffe. | Jeg kan ikke lide kaffe. | Kan du lide kaffe?
+        + verb | Jeg kan godt lide at læse. | Jeg kan ikke lide at løbe. | Kan du lide at danse?
+        love | Jeg elsker at svømme. | – | Elsker du at synge?
+      examples: |
+        Jeg kan godt lide at gå tur i skoven. | I like going for walks in the forest.
+        Min søn kan ikke lide at læse. | My son doesn't like reading. | negative: no godt
+        Hvad kan du lide at lave i weekenden? | What do you like doing at the weekend?
+        Hun elsker at spille håndbold. | She loves playing handball.
+      tip: "After kan lide and elsker, a verb needs at: Jeg kan lide at svømme — never \"kan lide svømme\"."
+    dialogue:
+      title: Hvad laver du i din fritid?
+      setting: Two new colleagues, Asger and Laila, chat during a coffee break at an office in Odense.
+      speakers: A=Asger/m; L=Laila/f
+      lines: |
+        A: Hvad laver du i din fritid, Laila? | What do you do in your free time, Laila?
+        L: Jeg spiller håndbold to gange om ugen. | I play handball twice a week.
+        A: Sejt! Kan du lide at løbe? | Cool! Do you like running?
+        L: Nej, jeg kan ikke lide at løbe. | No, I don't like running.
+        L: Men jeg elsker at svømme. Og du? | But I love swimming. And you?
+        A: Jeg kan godt lide at læse og strikke. | I like reading and knitting.
+        L: Strikke? Hvad strikker du? | Knitting? What do you knit?
+        A: Lige nu strikker jeg en hue. | Right now I'm knitting a hat.
+        L: Hvor hyggeligt! Er du med i en klub? | How cosy! Are you in a club?
+        A: Ja, i en strikkeklub på biblioteket. | Yes, in a knitting club at the library.
+        L: Det lyder sjovt! | That sounds fun!
+    pronunciation:
+      title: "kan godt lide at…"
+      body: |
+        **Lide** has a soft d in the middle, and in **godt** the d is silent ("got"). The little word **at** before an infinitive is weak and short — it usually sounds like "o", just like *og*. So *Jeg kan godt lide at læse* flows like "yai kan got li-ðe o læ-se".
+
+        In **håndbold** the first d is silent: "hån-bold". Listen and repeat.
+      items: |
+        lide
+        kan godt lide
+        Jeg kan godt lide at læse.
+        håndbold
+        synge
+        svømme
+    culture:
+      title: Clubs and associations
+      body: |
+        Danes love their **foreninger** — clubs and associations for sport, music, crafts and much more. Many people are members of at least one, and a lot of clubs are run by volunteers. Joining one is one of the best ways to meet people and practise Danish.
+
+        **Håndbold** (handball) is a national passion: Denmark is one of the strongest handball nations in the world, and big matches are watched by huge numbers of people. Football, swimming, cycling and badminton are also very popular.
+    mistakes: |
+      Jeg kan lide svømme. => Jeg kan lide at svømme. | A verb after kan lide needs at.
+      Jeg godt kan lide kaffe. => Jeg kan godt lide kaffe. | Godt comes after kan.
+      Jeg kan godt ikke lide at løbe. => Jeg kan ikke lide at løbe. | In the negative, drop godt: kan ikke lide.
+    task:
+      title: Three hobbies
+      mode: speaking
+      body: |
+        Tell a new friend about your free time: one thing you like doing (kan godt lide at…), one thing you love (elsker at…) and one thing you don't like (kan ikke lide at…). Then ask them the same questions. Try the "Hobbies" scenario with the AI coach.
+    exercises: |
+      fill: Jeg kan godt lide ___ læse. || at || A verb after kan lide takes at. || @tags da.likes,da.infinitive
+      mc: Which sentence is correct? || Jeg godt kan lide kaffe. | *Jeg kan godt lide kaffe. | Jeg kan lide godt kaffe. || Godt comes straight after kan: kan godt lide. || @tags da.likes
+      rw: Make it negative :: Jeg kan godt lide at løbe. || Jeg kan ikke lide at løbe. || Replace godt with ikke: kan ikke lide. || @tags da.likes,da.negation
+      fill: Hun ___ at danse. (loves) || elsker || Elske → elsker: hun elsker at danse. || @tags da.likes,da.present
+      mc: How do you ask "Do you like swimming?" || *Kan du lide at svømme? | Kan du lide svømme? | Lider du at svømme? || Question: Kan du lide + at + infinitive. || @tags da.likes,da.questions
+      mc: Which sport does Laila play? || *Handball | Football | Badminton || "Jeg spiller håndbold to gange om ugen." || @ctx dialogue @skill reading @tags da.reading
+      tf: Laila likes running. || false || "Nej, jeg kan ikke lide at løbe." || @ctx dialogue
+      short: What is Asger knitting right now? || kw: hue/hat || "Lige nu strikker jeg en hue." || @ctx dialogue
+      match: svømme = to swim ; løbe = to run ; synge = to sing ; male = to paint ; strikke = to knit || Five hobby verbs. || @tags da.vocabulary @skill vocabulary
+      order: Jeg kan godt lide at gå tur i skoven. || I like going for walks in the forest. || @tags da.likes
+      tr: I don't like football. || Jeg kan ikke lide fodbold. || Kan ikke lide + noun (no at before a noun). || @tags da.likes,da.negation
+      tr: What do you do in your free time? || Hvad laver du i din fritid? | Hvad laver du i fritiden? || Hvad laver du…? + i din fritid. || @tags da.question-words
+      listen: Jeg hedder Ali. Jeg elsker at spille fodbold, men jeg kan ikke lide at løbe. || What doesn't Ali like? || Playing football | *Running | Swimming || "Jeg kan ikke lide at løbe." He loves football. || @tags da.likes
+      ask: Tell a new friend two things you like doing and one thing you don't like doing. || kw: kan godt lide/kan lide/elsker & kan ikke lide & at || Jeg kan godt lide at læse, og jeg elsker at svømme. Men jeg kan ikke lide at løbe.
+      dict: Hun elsker at spille håndbold.
+
+  - title: Weather and seasons
+    summary: Describe the weather with det regner, det blæser and det er koldt, give temperatures, and talk about the four seasons.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [da.weather, da.word-order]
+    objectives:
+      - Describe the weather with det + verb or det er + adjective
+      - Give temperatures in degrees
+      - Talk about the seasons with om sommeren, om vinteren…
+    intro: |
+      Danes talk about the weather a lot — it changes quickly, and wind and rain are part of daily life. Weather sentences start with **det**, as in English: *Det regner. Det er koldt.* When you start a sentence with a time, remember verb-second: *I dag **regner det**.*
+    vocab: |
+      vejret | the weather | n | Hvordan er vejret i dag? | What's the weather like today? | g: n | n: From et vejr.
+      det regner | it's raining | expr | Det regner igen! | It's raining again!
+      det sner | it's snowing | expr | I dag sner det. | Today it's snowing.
+      det blæser | it's windy | expr | Det blæser meget ved vandet. | It's very windy by the water.
+      solen skinner | the sun is shining | expr | I dag skinner solen. | Today the sun is shining. | n: Verb second: I dag skinner solen.
+      koldt; varmt | cold; warm | adj | Det er koldt i dag, men varmt i morgen. | It's cold today, but warm tomorrow. | n: After det er, adjectives take -t: koldt, varmt.
+      overskyet | cloudy | adj | Det er gråt og overskyet. | It's grey and cloudy.
+      en grad | a degree | n | Det er atten grader. | It's eighteen degrees. | g: c | pl: grader | n: Below zero: Det er minus fem grader.
+      foråret | (the) spring | n | Om foråret blomstrer træerne. | In spring the trees blossom. | g: n | n: From et forår.
+      sommeren | (the) summer | n | Om sommeren er det lyst til klokken ti. | In summer it's light until ten o'clock. | g: c | n: From en sommer.
+      efteråret | (the) autumn | n | Om efteråret regner det tit. | In autumn it often rains. | g: n | n: From et efterår.
+      vinteren | (the) winter | n | Om vinteren er det mørkt klokken fire. | In winter it's dark at four o'clock. | g: c | n: From en vinter.
+      en paraply | an umbrella | n | Tag en paraply med! | Take an umbrella with you! | g: c | pl: paraplyer
+      en regnjakke | a rain jacket | n | Jeg cykler i regnjakke. | I cycle in a rain jacket. | g: c | pl: regnjakker
+    grammar:
+      title: "The weather with det"
+      body: |
+        Weather sentences start with **det** (it), just like in English:
+
+        - **det + verb**: *Det regner. Det sner. Det blæser.*
+        - **det er + adjective with -t**: *Det er koldt. Det er varmt. Det er dejligt vejr.*
+        - **temperature**: *Det er tyve grader. Det er minus tre grader.*
+
+        To ask, say **Hvordan er vejret?** (What's the weather like?)
+
+        **Verb second:** if you start with a time or a place, the verb comes second and *det* follows it: *I dag **regner det**. Om vinteren **er det** koldt. I Skagen **blæser det**.*
+
+        **Seasons:** use **om** + the definite form to talk about every year: *om sommeren* (in summer), *om vinteren* (in winter). *I sommer* means *this summer*.
+      table: |
+        Danish | English
+        Det regner. | It's raining.
+        Det sner. | It's snowing.
+        Det blæser. | It's windy.
+        Solen skinner. | The sun is shining.
+        Det er koldt / varmt. | It's cold / warm.
+        Det er overskyet. | It's cloudy.
+        Det er femten grader. | It's fifteen degrees.
+        I dag regner det. | Today it's raining.
+      examples: |
+        Hvordan er vejret i Aarhus? – Det regner, og det blæser. | What's the weather like in Aarhus? – It's raining and windy.
+        Om vinteren er det koldt og mørkt. | In winter it's cold and dark. | verb second: er det
+        I dag skinner solen, og det er tyve grader. | Today the sun is shining, and it's twenty degrees.
+        Det er dejligt vejr i dag! | It's lovely weather today! | vejr is an et-word: dejligt
+      tip: "Use om + season for every year — om sommeren = in summer. I sommer means this summer."
+    dialogue:
+      title: Dansk sommer
+      setting: A phone call in July. Lene is on holiday on Bornholm; her son Magnus is at home in Aalborg.
+      speakers: L=Lene/f; M=Magnus/m
+      lines: |
+        L: Hej, Magnus! Hvordan er vejret i Aalborg? | Hi, Magnus! What's the weather like in Aalborg?
+        M: Det regner, og det blæser meget. | It's raining, and it's very windy.
+        L: Øv! Her på Bornholm skinner solen. | Oh no! Here on Bornholm the sun is shining.
+        M: Heldigt! Er det varmt? | Lucky! Is it warm?
+        L: Ja, det er toogtyve grader. | Yes, it's twenty-two degrees.
+        M: Her er det kun tretten grader. | Here it's only thirteen degrees.
+        L: Har du en regnjakke? | Do you have a rain jacket?
+        M: Ja, og en paraply. Men det blæser! | Yes, and an umbrella. But it's windy!
+        L: Om sommeren er det tit sådan i Danmark. | In summer it's often like that in Denmark.
+        M: Ja, dansk sommer! Og i morgen? | Yes, Danish summer! And tomorrow?
+        L: Solskin i hele landet, siger de. | Sunshine all over the country, they say.
+    pronunciation:
+      title: "vejret, regner, koldt"
+      body: |
+        In **vejret** the *ej* sounds like the *i* in English *high*, and in **regner** the *eg* makes the same "ai" sound: "rai-ner". **Grader** has a soft d in the middle.
+
+        In **koldt** the d is silent — it sounds like "kolt". **Sommeren** has a short o, as the double m shows. Listen and repeat.
+      items: |
+        vejret
+        det regner
+        det blæser
+        grader
+        sommeren
+        Det er koldt i dag.
+    culture:
+      title: Light, wind and Sankthans
+      body: |
+        Danish weather is often mild, windy and changeable — sun, clouds and rain can all come in one afternoon. The light changes a lot through the year: in June it stays light until around ten in the evening, while in December it gets dark around four in the afternoon.
+
+        On **Sankthansaften** (23 June), Danes celebrate midsummer with bonfires, often on the beach, and sing together. In the dark months, candles and **hygge** at home help people enjoy the winter.
+    mistakes: |
+      Det er regner. => Det regner. | Regner is already the verb; don't add er.
+      I dag det er koldt. => I dag er det koldt. | Verb second: I dag + er + det.
+      Det er kold. => Det er koldt. | After det er, the adjective takes -t.
+    task:
+      title: Weather report
+      mode: speaking
+      body: |
+        Give a short weather report for your town today (temperature, sun or rain, wind), then say what the weather is usually like there in summer and in winter. Start at least two sentences with a time word — "I dag…", "Om vinteren…".
+    exercises: |
+      mc: "It's raining" is… || Det er regner. | *Det regner. | Det regn. || Det + verb: det regner. Don't add er. || @tags da.weather
+      fill: I dag ___ det. (sne) || sner || Sne → sner; after I dag, the verb comes before det. || @tags da.weather,da.word-order
+      fill: Det er ___ i dag. (kold) || koldt || After det er, add -t: koldt. || @tags da.weather,da.adjective-agreement
+      mc: Which sentence is correct? || Om vinteren det er mørkt. | *Om vinteren er det mørkt. | Om vinteren er mørkt det. || Verb second: Om vinteren (1) er (2) det. || @tags da.word-order,da.weather
+      rw: Start with "I dag" :: Solen skinner i dag. || I dag skinner solen. || The verb stays second, so solen moves after skinner. || @tags da.word-order
+      mc: What's the weather like in Aalborg? || *Rainy and windy | Sunny and warm | Snowy and cold || "Det regner, og det blæser meget." || @ctx dialogue @skill reading @tags da.reading
+      tf: It's 22 degrees on Bornholm. || true || "Ja, det er toogtyve grader." || @ctx dialogue
+      short: How many degrees is it in Aalborg? || kw: 13/tretten/thirteen || "Her er det kun tretten grader." || @ctx dialogue
+      match: det regner = it's raining ; det sner = it's snowing ; det blæser = it's windy ; solen skinner = the sun is shining ; det er overskyet = it's cloudy || Five weather phrases. || @tags da.weather
+      fill: ___ sommeren er det lyst til klokken ti. || Om || Om + season = every year: om sommeren. || @tags da.weather,da.prepositions-time
+      tr: It's cold and windy today. || Det er koldt, og det blæser i dag. | I dag er det koldt, og det blæser. | Det er koldt og blæsende i dag. | I dag er det koldt og blæsende. || Det er koldt (with -t); windy = det blæser. || @tags da.weather
+      listen: I morgen regner det i hele Jylland, men på Sjælland skinner solen. || Where will the sun shine tomorrow? || In Jutland | *On Zealand | Everywhere || "På Sjælland skinner solen." In Jutland it will rain. || @tags da.weather
+      listen: Det er minus fire grader, og det sner. || What's the temperature? || 4 degrees | *Minus 4 degrees | 14 degrees || "Minus fire grader" = −4 °C. || @tags da.weather,da.numbers
+      ask: Describe today's weather where you are. || kw: det & regner/sner/blæser/skinner/koldt/varmt/grader/overskyet || I dag er det koldt, og det blæser. Det er fem grader.
+      dict: Om efteråret regner det tit.
+
+  - title: Making plans
+    summary: Suggest plans with skal vi…?, invite with vil du med?, and accept or refuse with kan, vil and skal.
+    minutes: 40
+    skills: [speaking, grammar, writing]
+    tags: [da.modal-verbs]
+    objectives:
+      - Use the modal verbs kan, vil and skal + infinitive without at
+      - Suggest, invite and accept (Skal vi…? Vil du med? Ja, gerne!)
+      - Refuse politely and suggest another day
+    intro: |
+      "Skal vi…?" (Shall we…?) and "Vil du med?" (Do you want to come?) are two of the most useful questions in Danish social life. They use **modal verbs** — *kan, vil, skal* — which are followed by a verb **without at**. In this lesson you will make plans, agree on a time and say no politely.
+    vocab: |
+      skal vi…? | shall we…? | expr | Skal vi gå i biografen? | Shall we go to the cinema? | n: The usual way to suggest something.
+      vil du med? | do you want to come along? | expr | Vi skal i biografen. Vil du med? | We're going to the cinema. Do you want to come? | n: A verb of movement is understood: vil du (gå) med?
+      kan | can; to be able to | v | Jeg kan ikke i aften. | I can't tonight. | n: Infinitive: kunne. No -r in the present tense.
+      vil | want to; will | v | Vil du spille tennis? | Do you want to play tennis? | n: Infinitive: ville.
+      skal | shall; have to; be going to | v | Jeg skal arbejde på lørdag. | I have to work on Saturday. | n: Infinitive: skulle.
+      en biograf | a cinema | n | Biografen ligger på torvet. | The cinema is on the square. | g: c | pl: biografer
+      en koncert | a concert | n | Der er en koncert i parken i aften. | There's a concert in the park tonight. | g: c | pl: koncerter
+      i aften | tonight; this evening | adv | Hvad laver du i aften? | What are you doing tonight?
+      har du tid? | are you free? | expr | Har du tid på søndag? | Are you free on Sunday? | n: Literally "do you have time?".
+      gerne | gladly; I'd love to | adv | Ja, gerne! | Yes, I'd love to!
+      desværre | unfortunately | adv | Desværre kan jeg ikke. | Unfortunately I can't. | n: Verb second: Desværre kan jeg…
+      det lyder godt | that sounds good | expr | Klokken syv? Det lyder godt! | Seven o'clock? That sounds good!
+      hvad med…? | what about…? | expr | Hvad med fredag? | What about Friday?
+      ses | to meet; to see each other | v | Skal vi ses klokken otte? | Shall we meet at eight? | n: You know it from vi ses (see you).
+    grammar:
+      title: "Modal verbs: kan, vil, skal"
+      body: |
+        **Modal verbs** are followed by an infinitive **without at**:
+
+        - **kan** (can, be able to): *Jeg kan spille guitar. Kan du komme i aften?*
+        - **vil** (want to): *Vil du se en film?* With **gerne** it means *would like to*: *Jeg vil gerne med.*
+        - **skal** (shall; have to; be going to): *Skal vi gå en tur? Jeg skal arbejde i morgen.*
+
+        The present-tense forms have **no -r**: *kan, vil, skal* (infinitives: *kunne, ville, skulle*).
+
+        **Word order:** the modal is the verb in second place; the infinitive comes later. *Ikke* goes after the modal: *I aften **skal** jeg arbejde. Jeg **kan ikke** komme.*
+
+        Danes often leave out a verb of movement after a modal: *Jeg skal i biografen* (I'm going to the cinema). *Vil du med?* (Do you want to come along?)
+      table: |
+        Modal | Meaning | Example
+        kan | can, be able to | Jeg kan ikke i aften.
+        vil | want to | Vil du spille tennis?
+        vil gerne | would like to | Jeg vil gerne se filmen.
+        skal | shall (suggestions) | Skal vi gå en tur?
+        skal | have to, plan to | Jeg skal arbejde på lørdag.
+      examples: |
+        Skal vi gå i biografen i aften? | Shall we go to the cinema tonight?
+        Jeg kan desværre ikke. Jeg skal arbejde. | Unfortunately I can't. I have to work.
+        Vil du med til koncerten på lørdag? | Do you want to come to the concert on Saturday?
+        På søndag kan jeg godt. | On Sunday I can. | verb second: kan jeg
+      tip: "No at after kan, vil and skal: Jeg vil spille — never \"jeg vil at spille\"."
+    dialogue:
+      title: Koncert i parken
+      setting: Emil calls his friend Zainab on a Wednesday to invite her to a free summer concert in a park in Aarhus.
+      speakers: E=Emil/m; Z=Zainab/f
+      lines: |
+        E: Hej, Zainab! Har du tid på fredag? | Hi, Zainab! Are you free on Friday?
+        Z: Måske. Hvad skal du? | Maybe. What are you doing?
+        E: Der er en koncert i parken. Vil du med? | There's a concert in the park. Do you want to come?
+        Z: Ja, gerne! Hvornår starter den? | Yes, I'd love to! When does it start?
+        E: Klokken otte. Skal vi spise først? | At eight. Shall we eat first?
+        Z: Desværre kan jeg ikke før klokken syv. | Unfortunately I can't before seven.
+        Z: Jeg skal arbejde til halv syv. | I have to work until half past six.
+        E: Okay. Skal vi ses ved indgangen kvart i otte? | Okay. Shall we meet at the entrance at a quarter to eight?
+        Z: Det lyder godt! Skal jeg tage noget med? | That sounds good! Shall I bring something?
+        E: Ja, et tæppe. Det kan blive koldt. | Yes, a blanket. It might get cold.
+        Z: Fint. Vi ses på fredag! | Great. See you on Friday!
+    pronunciation:
+      title: "Short modals: Skal vi…? Vil du med?"
+      body: |
+        Modal verbs are short and usually unstressed. In fast speech **skal** often sounds like "ska", so *Skal vi ses?* is roughly "ska-vi-ses". The stress goes on the important word: *Vil du **MED**?*
+
+        **Desværre** is stressed in the middle: des-**VÆR**-re. **Koncert** starts with a k sound and the c sounds like s: kon-**SERT**. In **lyder** you hear a soft d. Listen and repeat.
+      items: |
+        Skal vi ses?
+        Vil du med?
+        desværre
+        koncert
+        biografen
+        Det lyder godt!
+    culture:
+      title: Planning ahead — and summer festivals
+      body: |
+        Many Danes plan their free time well in advance, and calendars fill up quickly. It's common to suggest a date a week or two ahead: *Skal vi finde en dag?* (Shall we find a day?). Dropping by a friend's home without asking first is less common than in some countries.
+
+        In summer, towns and parks host free concerts and markets, and **Roskilde Festival** — one of the largest music festivals in Europe — takes place every year at the end of June or the start of July.
+    mistakes: |
+      Jeg vil at spille tennis. => Jeg vil spille tennis. | No at after modal verbs.
+      Jeg ikke kan i aften. => Jeg kan ikke i aften. | Ikke comes after the modal verb.
+      På fredag jeg skal arbejde. => På fredag skal jeg arbejde. | Verb second: the modal skal comes before jeg.
+    task:
+      title: An invitation
+      mode: interaction
+      body: |
+        Invite a friend to something this weekend (a film, a concert, a walk). Agree on a day and a time — or, if your partner can't come, say no politely with desværre and suggest another day (Hvad med…?). Practise with a partner or the AI coach.
+    exercises: |
+      fill: Skal vi ___ en tur? (gå) || gå || After a modal: the infinitive, without at. || @tags da.modal-verbs,da.infinitive
+      mc: Which sentence is correct? || Jeg vil at se en film. | *Jeg vil se en film. | Jeg vil ser en film. || Vil + infinitive without at: vil se. || @tags da.modal-verbs
+      mc: Which sentence is correct? || Jeg ikke kan i aften. | *Jeg kan ikke i aften. | Ikke jeg kan i aften. || Ikke comes after the modal verb kan. || @tags da.modal-verbs,da.negation
+      fill: På lørdag ___ jeg arbejde. (have to) || skal || Skal = have to; verb second after På lørdag. || @tags da.modal-verbs,da.word-order
+      mc: Your friend asks "Vil du med til koncerten?". You'd love to go. You say: || *Ja, gerne! | Nej, gerne! | Desværre, ja! || Ja, gerne = yes, I'd love to. || @tags da.modal-verbs
+      mc: Where is the concert? || *In the park | At the cinema | At the library || "Der er en koncert i parken." || @ctx dialogue @skill reading @tags da.reading
+      tf: Zainab works until half past seven. || false || "Jeg skal arbejde til halv syv" — until half past six. || @ctx dialogue
+      short: What should Zainab bring? || kw: tæppe/blanket || "Ja, et tæppe. Det kan blive koldt." || @ctx dialogue
+      rw: Make it a suggestion with "Skal vi" :: Vi går i biografen. || Skal vi gå i biografen? | Skal vi i biografen? || Skal vi + infinitive (gå); the verb of movement can be dropped. || @tags da.modal-verbs,da.questions
+      order: På søndag kan jeg godt. || On Sunday I can. || @alt Jeg kan godt på søndag. @tags da.modal-verbs,da.word-order
+      tr: Unfortunately I can't on Friday. || Desværre kan jeg ikke på fredag. | Jeg kan desværre ikke på fredag. | Jeg kan ikke på fredag, desværre. || After desværre comes the verb: Desværre kan jeg ikke. || @tags da.modal-verbs,da.negation
+      listen: Skal vi spille badminton på torsdag? – Nej, jeg kan ikke. Hvad med fredag? || Which day does the second person suggest? || Thursday | *Friday | Saturday || "Hvad med fredag?" — what about Friday? || @tags da.modal-verbs
+      ask: Invite a friend to the cinema this weekend and suggest a time. || kw: skal vi/vil du & biografen/film & klokken || Skal vi gå i biografen på lørdag? Filmen starter klokken otte.
+      write: Write a text message inviting a friend to an event — what, when and where — and ask if they want to come. || min=20 || req: vil du/skal vi | klokken | på/i || Hej Ida! Der er en koncert i parken på lørdag. Den starter klokken syv. Vil du med? Skal vi spise først? Kram, Ali
+      dict: Skal vi ses klokken otte?

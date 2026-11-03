@@ -1,0 +1,373 @@
+unit: 7
+title: Tiempo libre
+theme: Free time and weather
+description: Say what you like doing in your free time with gustar and encantar, talk about the weather and the seasons with hacer, and make plans with friends using ir and quedar.
+objectives:
+  - Talk about likes and dislikes with gustar and encantar
+  - Describe the weather and the seasons with hacer, llover and nevar
+  - Suggest plans, accept or decline, and arrange a time and place with ir and quedar
+canDo:
+  - I can say what I like and don't like doing, and agree or disagree with others.
+  - I can describe the weather today and in different seasons.
+  - I can invite a friend, accept or say no politely.
+  - I can agree a time and a place to meet.
+review: |
+  fill: A mis amigos les ___ los videojuegos. || gustan || Videojuegos is plural, so gustan. || @tags es.gustar
+  fill: En invierno ___ mucho en los Pirineos. (nevar) || nieva || Nevar changes e → ie: nieva. || @tags es.weather
+  fill: Nosotros ___ a la playa en verano. (ir) || vamos || Nosotros + ir = vamos. || @tags es.present-irregular
+  mc: "I love dancing" is… || Me encanto bailar. | *Me encanta bailar. | Yo encanta bailar. || Encantar works like gustar: me encanta + infinitive. || @tags es.gustar
+  mc: Choose the correct sentence. || Hace muy viento. | *Hace mucho viento. | Es mucho viento. || Viento is a noun: hace mucho viento. || @tags es.weather
+  tr: We don't like the rain. || No nos gusta la lluvia. | A nosotros no nos gusta la lluvia. || The person is nos; la lluvia is singular, so gusta. || @tags es.gustar,es.negation
+  tr: Do you fancy going to the concert? (informal) || ¿Te apetece ir al concierto? | ¿Quieres ir al concierto? | ¿Te gustaría ir al concierto? || ¿Te apetece…? (Spain) or ¿Quieres…? + infinitive; a + el = al. || @tags es.contractions
+  listen: Hoy en Bilbao está nublado y llueve por la tarde. || What's the weather like in Bilbao today? || Sunny and hot | *Cloudy, with rain in the afternoon | Snowy all day || Está nublado = it's cloudy; llueve por la tarde = it rains in the afternoon. || @tags es.weather
+  listen: Me gusta mucho el cine, pero no me gusta nada el teatro. || What does the speaker dislike? || Films | *The theatre | Music || "No me gusta nada el teatro" — I don't like the theatre at all. || @tags es.gustar
+  ask: Tell a friend what you like doing when it's sunny and what you like doing when it rains. || kw: me gusta/me encanta & hace sol/hace buen tiempo/hace calor & llueve || Cuando hace sol, me encanta ir a la playa. Cuando llueve, me gusta leer en casa.
+  write: Write a message to a friend with a plan for the weekend — the weather, the activity, and a time and place to meet. || min=35 || req: hace/llueve/está nublado | vamos/quedamos/te apetece/quieres | a las || ¡Hola, Dani! El sábado hace sol y mucho calor. ¿Te apetece ir a la playa? Yo voy con mi hermana. Quedamos a las diez en la estación de tren. Si llueve, vamos al cine por la tarde. ¿Vale?
+lessons:
+  - title: Hobbies and likes
+    summary: Say what you like and love doing with gustar and encantar, and agree or disagree with a mí también / tampoco.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [es.gustar]
+    objectives:
+      - Talk about hobbies and free-time activities
+      - Use gustar and encantar with nouns and infinitives
+      - Agree and disagree with a mí también, a mí tampoco, a mí sí, a mí no
+    intro: |
+      What do you do in your free time? To answer in Spanish you need **gustar** — a verb that works "back to front": *me gusta el cine* literally means "cinema pleases me". Once you have the pattern, you can talk about everything you like, love and can't stand, and react to what other people say.
+    vocab: |
+      gustar | to like (literally "to please") | v | Me gusta la música. | I like music. | n: Me gusta + singular noun or infinitive; me gustan + plural noun.
+      encantar | to love (things, activities) | v | Me encanta bailar. | I love dancing. | n: Works like gustar. Don't add mucho: me encanta is already strong.
+      el tiempo libre | free time | n | En mi tiempo libre leo mucho. | In my free time I read a lot. | g: m
+      el deporte | sport | n | ¿Haces deporte? | Do you do any sport? | g: m | c: hacer deporte
+      nadar | to swim | v | Me gusta nadar en el mar. | I like swimming in the sea.
+      bailar | to dance | v | Los viernes bailamos salsa. | On Fridays we dance salsa.
+      cocinar | to cook | v | A mi padre le gusta cocinar. | My father likes cooking.
+      el cine | cinema; films | n | Me encanta el cine español. | I love Spanish films. | g: m
+      la música | music | n | ¿Qué música te gusta? | What music do you like? | g: f
+      los videojuegos | video games | n | A mi hermano le gustan los videojuegos. | My brother likes video games. | g: m
+      tocar la guitarra | to play the guitar | expr | Toco la guitarra en un grupo. | I play the guitar in a band. | n: Instruments use tocar; sports and games use jugar a.
+      jugar al fútbol | to play football | expr | Los sábados juego al fútbol. | On Saturdays I play football. | n: u → ue: juego, juegas. Jugar a + el = al.
+      salir con amigos | to go out with friends | expr | Los viernes salgo con mis amigos. | On Fridays I go out with my friends. | n: Yo salgo (irregular yo form).
+      a mí también | me too | expr | Me gusta el jazz. ¡A mí también! | I like jazz. Me too! | n: To agree with a negative sentence: a mí tampoco (me neither).
+    grammar:
+      title: "Gustar and encantar"
+      body: |
+        **Gustar** works differently from English *like*. The thing you like is the **subject**, and the person who likes it is shown by a pronoun: **me, te, le, nos, os, les**. *Me gusta el cine* = literally "cinema pleases me".
+
+        - **gusta** + a singular noun or an infinitive: *Me gusta el chocolate. Me gusta nadar.*
+        - **gustan** + a plural noun: *Me gustan los perros.*
+        - Use the **article** with nouns: *Me gusta **la** música* (not ~~me gusta música~~).
+        - Negative: **no** goes before the pronoun: *No me gusta el fútbol.*
+
+        For emphasis or contrast, add **a mí, a ti, a él / ella / usted…**: *A mí me gusta, pero a mi hermano no.* With a name or a noun, you need **a** + **le / les**: *A Laura le gusta bailar. A mis padres les gusta el teatro.*
+
+        Scale: *me encanta* > *me gusta mucho* > *me gusta* > *no me gusta mucho* > *no me gusta nada*. To react: **a mí también** (me too), **a mí tampoco** (me neither), **a mí sí** / **a mí no** (to disagree).
+      table: |
+        Who | Pronoun | + singular noun / infinitive | + plural noun
+        (a mí) | me | me gusta el cine | me gustan los libros
+        (a ti) | te | te gusta bailar | te gustan las series
+        (a él / ella / usted) | le | le gusta la música | le gustan los perros
+        (a nosotros/as) | nos | nos gusta cocinar | nos gustan los museos
+        (a vosotros/as) | os | os gusta el fútbol | os gustan los videojuegos
+        (a ellos / ellas / ustedes) | les | les gusta nadar | les gustan las películas
+      examples: |
+        Me gusta mucho leer, pero no me gusta la tele. | I really like reading, but I don't like TV.
+        ¿Te gustan los gatos? | Do you like cats?
+        A mi madre le encanta bailar salsa. | My mother loves dancing salsa.
+        No me gusta el fútbol. A mí tampoco. | I don't like football. Me neither.
+      tip: "Never say yo gusto. The person is me / te / le…, and gusta / gustan agrees with the thing you like."
+    dialogue:
+      title: ¿Qué haces en tu tiempo libre?
+      setting: Lunch break in a company canteen in Málaga. Sofía and Bruno, two new colleagues, get to know each other.
+      speakers: S=Sofía/f; B=Bruno/m
+      lines: |
+        S: Bruno, ¿qué haces en tu tiempo libre? | Bruno, what do you do in your free time?
+        B: Me encanta la música. Toco la guitarra. | I love music. I play the guitar.
+        S: ¡Qué bien! ¿Qué música te gusta? | Great! What music do you like?
+        B: Me gusta mucho el jazz. ¿Y a ti? | I really like jazz. And you?
+        S: A mí no mucho. Me gusta el flamenco. | Not so much. I like flamenco.
+        B: ¿Y te gusta el deporte? | And do you like sport?
+        S: Sí, me gusta nadar. ¿Y a ti? | Yes, I like swimming. And you?
+        B: A mí no. Prefiero jugar al fútbol. | Not me. I prefer playing football.
+        S: ¿Y los videojuegos? | And video games?
+        B: ¡Me encantan! | I love them!
+        S: ¡A mí también! | Me too!
+    pronunciation:
+      title: "Pronouns glued to the verb: me gusta"
+      body: |
+        The pronouns **me, te, le, nos, os, les** are unstressed — say them as part of the verb, with the stress on **gus-**: *me GUSta* [me.ˈɣus.ta], *te GUStan*.
+
+        **Mí** in *a mí* has an accent and is stressed: *a MÍ también*. Notice the soft g between vowels in *me gusta* [ɣ]: the back of the tongue comes close to the palate without closing.
+      items: |
+        me gusta
+        te gustan
+        me encanta
+        a mí también
+        a mí tampoco
+        la guitarra
+    culture:
+      title: Free time, Spanish style
+      body: |
+        Much of Spanish social life happens outside the home: on bar terraces, in squares and parks, and on the evening **paseo**. Going out for tapas with friends (*salir de tapas*) is one of the most popular free-time activities.
+
+        Football is followed with passion, but so are basketball, cycling and padel. **Flamenco**, from Andalusia, is on UNESCO's list of the Intangible Cultural Heritage of Humanity, and many towns have cheap classes in dance, music and languages at their local cultural centre.
+    mistakes: |
+      Yo gusto el cine. => Me gusta el cine. | The person is me; the verb agrees with el cine.
+      Me gusta los perros. => Me gustan los perros. | With a plural noun, use gustan.
+      Me gusta música. => Me gusta la música. | Use the article with nouns after gustar.
+      Me encanta mucho bailar. => Me encanta bailar. | Encantar is already strong; don't add mucho.
+    task:
+      title: Find a hobby partner
+      mode: interaction
+      body: |
+        Write down three things you love, three you like and two you don't like. Then talk to a partner or the AI coach in the "Discussing hobbies" scenario: say what you like, ask *¿Y a ti?* and react with *a mí también / a mí tampoco*. Find one activity you could do together.
+    exercises: |
+      fill: Me ___ los gatos. || gustan || Gatos is plural: me gustan. || @tags es.gustar
+      fill: ¿Te ___ cocinar? || gusta || With an infinitive, use gusta. || @tags es.gustar
+      fill: A mi hermana ___ gusta bailar. || le || A mi hermana (= a ella) → le gusta. || @tags es.gustar
+      fill: A nosotros ___ encanta el cine. || nos || A nosotros → nos encanta. || @tags es.gustar
+      mc: Choose the correct sentence. || Yo gusto el fútbol. | *Me gusta el fútbol. | Me gustan el fútbol. || The person is me; el fútbol is singular, so gusta. || @tags es.gustar
+      mc: Your friend says "No me gusta el café." You agree. You say: || A mí también. | *A mí tampoco. | A mí sí. || To agree with a negative sentence, say a mí tampoco (me neither). || @tags es.gustar
+      mc: What does Sofía like? || Jazz and football | *Flamenco and swimming | Only video games || She says "Me gusta el flamenco" and "me gusta nadar". She likes video games too, but not only those. || @ctx dialogue @skill reading @tags es.reading
+      tf: Bruno likes swimming. || false || When Sofía says she likes swimming, Bruno says "A mí no. Prefiero jugar al fútbol." || @ctx dialogue
+      rw: Talk about your brother :: Me gustan los videojuegos. || A mi hermano le gustan los videojuegos. | Le gustan los videojuegos. || For someone else, use le (with a mi hermano for clarity). || @tags es.gustar
+      order: A mis padres les encanta bailar. || My parents love dancing. || @tags es.gustar
+      tr: I don't like football at all. || No me gusta nada el fútbol. | El fútbol no me gusta nada. | A mí no me gusta nada el fútbol. || No + me gusta + nada = not at all. || @tags es.gustar,es.negation
+      tr: Do you like films? (informal) || ¿Te gustan las películas? | ¿Te gusta el cine? | ¿A ti te gustan las películas? || Plural películas → gustan; el cine → gusta. || @tags es.gustar
+      listen: Me encanta leer y me gusta mucho pasear, pero no me gustan los deportes. || What doesn't the speaker like? || Reading | *Sport | Walking || "No me gustan los deportes." || @tags es.gustar
+      dict: A mí me gusta mucho cocinar los domingos.
+      ask: Say two things you like, one thing you love and one thing you don't like. || kw: me gusta/me gustan & me encanta/me encantan & no me gusta/no me gustan || Me gusta nadar y me gustan los museos. Me encanta la música. No me gusta el fútbol.
+
+  - title: Weather and seasons
+    summary: Ask and talk about the weather with hacer, llover and nevar, and name the seasons and months.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [es.weather, es.present-irregular]
+    objectives:
+      - Describe the weather with hace, llueve, nieva and está nublado
+      - Name the seasons and months
+      - Use the verb hacer in the present
+    intro: |
+      The weather is the perfect small talk — and in Spain it changes a lot from region to region: rain in Galicia, snow in the Pyrenees, 40 degrees in Córdoba in July. Spanish uses the verb **hacer** for most weather expressions: **hace calor, hace frío, hace sol**.
+    vocab: |
+      ¿qué tiempo hace? | what's the weather like? | expr | ¿Qué tiempo hace en Sevilla? | What's the weather like in Seville? | n: El tiempo means both "the weather" and "time".
+      hace calor | it's hot | expr | En agosto hace mucho calor. | In August it's very hot. | n: Hace mucho calor — use mucho, not muy.
+      hace frío | it's cold | expr | En Burgos hace frío en invierno. | In Burgos it's cold in winter.
+      hace sol | it's sunny | expr | Hoy hace sol y no hay nubes. | Today it's sunny and there are no clouds.
+      hace viento | it's windy | expr | En Tarifa hace mucho viento. | In Tarifa it's very windy.
+      hace buen tiempo | the weather's nice | expr | Hace buen tiempo: ¿comemos en la terraza? | The weather's nice: shall we eat on the terrace? | c: hace mal tiempo
+      llueve | it's raining; it rains | v | En Galicia llueve mucho. | It rains a lot in Galicia. | n: From llover (o → ue). Rain: la lluvia.
+      nieva | it's snowing; it snows | v | En la sierra nieva en enero. | It snows in the mountains in January. | n: From nevar (e → ie). Snow: la nieve.
+      está nublado | it's cloudy | expr | Hoy está nublado. | It's cloudy today.
+      los grados | degrees | n | Estamos a treinta grados. | It's thirty degrees. | g: m | n: Also: hace treinta grados. Below zero: bajo cero.
+      la primavera | spring | n | En primavera hace buen tiempo. | In spring the weather's nice. | g: f
+      el verano | summer | n | En verano hace mucho calor en Córdoba. | In summer it's very hot in Córdoba. | g: m
+      el otoño | autumn | n | En otoño llueve bastante. | In autumn it rains quite a lot. | g: m
+      el invierno | winter | n | En invierno nieva en los Pirineos. | In winter it snows in the Pyrenees. | g: m
+    grammar:
+      title: "The weather: hacer, llover, nevar"
+      body: |
+        Spanish uses **hacer** (*to do, to make*) for many weather expressions: *hace calor, hace frío, hace sol, hace viento, hace buen / mal tiempo*. Because *calor, frío, sol* are **nouns**, you make them stronger with **mucho**: *hace mucho calor* (never ~~muy calor~~).
+
+        **Llover** and **nevar** are used only in the *él* form, with their stem change: **llueve** (it rains), **nieva** (it snows). Other useful patterns: **está nublado** (it's cloudy), **hay niebla / tormenta** (it's foggy / there's a storm), **estamos a 25 grados** (it's 25 degrees).
+
+        For how **you** feel, use **tener**: *Tengo frío* (I'm cold). *Hace frío* describes the weather.
+
+        **Hacer** is irregular only in the *yo* form: *hago, haces, hace, hacemos, hacéis, hacen*. It also means *to do*: *¿Qué haces cuando llueve?*
+
+        Seasons: *en primavera, en verano, en otoño, en invierno*. Months have no capital letter: *enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre* — *en julio*.
+      table: |
+        Verb | Expression | Meaning
+        hacer | hace calor / frío | it's hot / cold
+        hacer | hace sol / viento | it's sunny / windy
+        hacer | hace buen / mal tiempo | the weather's good / bad
+        llover | llueve | it's raining
+        nevar | nieva | it's snowing
+        estar | está nublado | it's cloudy
+        hay | hay niebla / tormenta | it's foggy / there's a storm
+      examples: |
+        En Sevilla hace mucho calor en julio. | In Seville it's very hot in July.
+        Hoy está nublado, pero no llueve. | Today it's cloudy, but it isn't raining.
+        En invierno nieva en la sierra de Madrid. | In winter it snows in the mountains near Madrid.
+        ¿Qué haces cuando llueve? Leo en casa. | What do you do when it rains? I read at home.
+      tip: "Say hace mucho calor, never hace muy calor: calor is a noun."
+    dialogue:
+      title: Una llamada desde Galicia
+      setting: A Sunday in October. Lola, who lives in Santiago de Compostela, calls her friend Adrián in Málaga.
+      speakers: L=Lola/f; A=Adrián/m
+      lines: |
+        A: ¡Hola, Lola! ¿Qué tal por Santiago? | Hi, Lola! How are things in Santiago?
+        L: Bien, pero llueve mucho. | Fine, but it's raining a lot.
+        A: ¿Otra vez? | Again?
+        L: Sí, aquí llueve mucho en otoño. ¿Y en Málaga? | Yes, it rains a lot here in autumn. What about Málaga?
+        A: Aquí hace sol y mucho calor. | Here it's sunny and very hot.
+        L: ¿Calor en octubre? | Hot in October?
+        A: Sí, estamos a veintisiete grados. | Yes, it's twenty-seven degrees.
+        L: ¡Qué envidia! Aquí hace frío. | I'm so jealous! It's cold here.
+        A: ¿Y qué haces cuando llueve? | And what do you do when it rains?
+        L: Leo, cocino y veo series. | I read, cook and watch series.
+        A: ¿Por qué no visitas Málaga en diciembre? | Why don't you visit Málaga in December?
+        L: ¡Buena idea! | Good idea!
+    pronunciation:
+      title: "frío, día: when two vowels split"
+      body: |
+        **i** and **u** next to another vowel normally join it in one syllable: *vien-to, llue-ve, nie-va* — each is two syllables.
+
+        A written accent on **í** or **ú** splits the vowels into **two** syllables: *frí-o, dí-a, tí-o*. So *frío* has two syllables, with the stress on the í. Compare *viento* (2 syllables) and *frío* (2 syllables, but no glide).
+      items: |
+        frío
+        hace frío
+        viento
+        llueve
+        nieva
+        buenos días
+    culture:
+      title: One country, many climates
+      body: |
+        The green north of Spain — Galicia, Asturias, Cantabria and the Basque Country — has an Atlantic climate with mild summers and a lot of rain. The Mediterranean coast has hot, dry summers and mild winters, while the interior, including Madrid, has hot summers and cold winters. The Canary Islands enjoy spring-like weather all year round.
+
+        Spanish has many weather sayings. One you'll hear every spring: *En abril, aguas mil* — "In April, a thousand waters".
+    mistakes: |
+      Hace muy calor. => Hace mucho calor. | Calor is a noun, so use mucho.
+      Es frío hoy. => Hace frío hoy. | Weather expressions use hacer.
+      Estoy frío. (meaning "I feel cold") => Tengo frío. | For how you feel, use tener: tengo frío, tengo calor.
+    task:
+      title: The weather where you live
+      mode: speaking
+      body: |
+        Give a short weather report for your town: what the weather is like today, and what it is usually like in summer and in winter. Then ask a partner (or the AI coach) *¿Qué tiempo hace en tu ciudad?* and *¿Qué haces cuando llueve?*
+    exercises: |
+      fill: En agosto ___ mucho calor en Córdoba. || hace || Weather with calor uses hacer: hace calor. || @tags es.weather
+      fill: En Galicia ___ mucho en otoño. (llover) || llueve || Llover changes o → ue: llueve. || @tags es.weather,es.present-irregular
+      fill: Hoy hace ___ frío. (very) || mucho || Frío is a noun, so "very" is mucho: hace mucho frío. || @tags es.weather
+      fill: ¿Qué ___ tú los domingos? (hacer) || haces || Tú + hacer = haces. || @tags es.present-irregular
+      mc: Choose the correct sentence. || Hace muy frío. | *Hace mucho frío. | Es mucho frío. || Hacer + mucho + noun: hace mucho frío. || @tags es.weather
+      mc: You feel cold. You say: || Hace frío. | *Tengo frío. | Soy frío. || Tengo frío describes how you feel; hace frío describes the weather; soy frío means "I'm a cold person". || @tags es.tener,es.weather
+      match: la primavera = spring ; el verano = summer ; el otoño = autumn ; el invierno = winter || Primavera, verano, otoño, invierno. || @tags es.dates
+      mc: What's the weather like in Málaga? || Rainy and cold | *Sunny and hot | Cloudy and windy || "Aquí hace sol y mucho calor." It's raining in Santiago. || @ctx dialogue @skill reading @tags es.reading
+      tf: It's raining in Santiago. || true || "Bien, pero llueve mucho." || @ctx dialogue
+      rw: Make it negative :: Hoy llueve. || Hoy no llueve. || Put no before the verb: no llueve. || @tags es.weather,es.negation
+      tr: In winter it snows in the mountains. || En invierno nieva en la montaña. | En invierno nieva en las montañas. | En invierno nieva en la sierra. || It snows = nieva (nevar, e → ie). || @tags es.weather
+      tr: What's the weather like today? || ¿Qué tiempo hace hoy? | Hoy, ¿qué tiempo hace? || "What's the weather like?" = ¿Qué tiempo hace? || @tags es.weather,es.question-words
+      listen: Mañana en Madrid, sol por la mañana y lluvia por la tarde. Máxima de dieciocho grados. || What will the weather be like tomorrow afternoon? || Sunny | *Rainy | Snowy || "Lluvia por la tarde" — rain in the afternoon. || @tags es.weather
+      dict: En primavera hace buen tiempo en Valencia.
+      ask: Describe the weather in your city in summer and in winter. || kw: hace/llueve/nieva/está & verano & invierno || En mi ciudad, en verano hace mucho calor y en invierno llueve y hace frío.
+
+  - title: Making plans
+    summary: Suggest an activity, accept or decline, and arrange a time and place with ir, quedar and ¿te apetece…?
+    minutes: 40
+    skills: [speaking, grammar, writing]
+    tags: [es.present-irregular]
+    objectives:
+      - Conjugate ir and say where you are going with a / al
+      - Suggest plans with ¿vamos…?, ¿quedamos…?, ¿te apetece…?
+      - Accept, decline politely and agree a time and place
+    intro: |
+      In Spain, friends rarely invite each other home — they **quedan** (arrange to meet) in a square, a bar or at the door of a cinema. In this lesson you will learn **ir** (to go), the very Spanish verb **quedar**, and how to suggest, accept and politely turn down a plan.
+    vocab: |
+      ir | to go | v | Voy al cine con mi pareja. | I'm going to the cinema with my partner. | n: Irregular: voy, vas, va, vamos, vais, van.
+      quedar | to meet up; to arrange to meet | v | ¿Quedamos el sábado? | Shall we meet up on Saturday? | n: Quedar con alguien = to meet someone. Very common in Spain.
+      ¿te apetece…? | do you fancy…? | expr | ¿Te apetece ir a la playa? | Do you fancy going to the beach? | n: Works like gustar. Mainly used in Spain.
+      ¿quieres venir? | do you want to come? | expr | ¿Quieres venir al concierto? | Do you want to come to the concert? | n: Venir: vengo, vienes, viene…
+      el concierto | concert | n | El concierto es el viernes a las nueve. | The concert is on Friday at nine. | g: m
+      la exposición | exhibition | n | La exposición es gratis los domingos. | The exhibition is free on Sundays. | g: f
+      la playa | beach | n | Los domingos vamos a la playa. | On Sundays we go to the beach. | g: f
+      la fiesta | party | n | ¿Vas a la fiesta de Marta? | Are you going to Marta's party? | g: f
+      la entrada | ticket (for a show) | n | Tengo dos entradas para el teatro. | I have two tickets for the theatre. | g: f | n: For transport: el billete.
+      vale | OK | interj | ¿Quedamos a las ocho? ¡Vale! | Shall we meet at eight? OK! | n: Very Spanish; in Latin America: está bien, dale.
+      ¡genial! | great! | interj | ¿Vamos al cine? ¡Genial! | Shall we go to the cinema? Great!
+      lo siento, no puedo | sorry, I can't | expr | Lo siento, el sábado no puedo. | Sorry, I can't on Saturday.
+      conmigo / contigo | with me / with you | prep | ¿Vienes conmigo? | Are you coming with me? | n: Never con mí or con ti.
+      ¿a qué hora quedamos? | what time shall we meet? | expr | ¿A qué hora quedamos? ¿A las siete? | What time shall we meet? At seven?
+    grammar:
+      title: "Ir and making plans"
+      body: |
+        **Ir** (*to go*) is very irregular: *voy, vas, va, vamos, vais, van*. Say where with **a**: *Voy a la playa. Vamos al cine* (a + el = **al**). To ask: **¿Adónde vas?** (Where are you going?).
+
+        The **present tense** works for plans you have already made: *El sábado voy al teatro* (On Saturday I'm going to the theatre).
+
+        To **suggest** a plan:
+        - **¿Vamos al…?** — Shall we go to…?
+        - **¿Quedamos el viernes?** — Shall we meet up on Friday?
+        - **¿Te apetece + infinitive?** — Do you fancy…? (Spain)
+        - **¿Quieres + infinitive?** — Do you want to…?
+
+        To **accept**: *¡Vale! ¡Genial! ¡Buena idea! ¡Claro!* To **decline** politely: *Lo siento, no puedo. ¿Y el domingo?*
+
+        *With me* and *with you* are special words: **conmigo, contigo**.
+      table: |
+        Pronoun | ir | Example
+        yo | voy | Voy al gimnasio los lunes.
+        tú | vas | ¿Vas a la fiesta?
+        él / ella / usted | va | Mi hermana va al concierto.
+        nosotros / nosotras | vamos | ¿Vamos a la playa?
+        vosotros / vosotras | vais | ¿Vais al cine el sábado?
+        ellos / ellas / ustedes | van | Mis padres van al teatro.
+      examples: |
+        ¿Vamos al cine el viernes? | Shall we go to the cinema on Friday?
+        ¿Te apetece ir a la exposición? | Do you fancy going to the exhibition?
+        Lo siento, el sábado no puedo. ¿Y el domingo? | Sorry, I can't on Saturday. What about Sunday?
+        ¿Quedamos a las ocho en la plaza? | Shall we meet at eight in the square?
+      tip: "Where are you going? = ¿Adónde vas? Where are you? = ¿Dónde estás?"
+    dialogue:
+      title: ¿Quedamos el sábado?
+      setting: Ibrahim calls his friend Raquel in Seville. He has tickets for a concert.
+      speakers: I=Ibrahim/m; R=Raquel/f
+      lines: |
+        I: Raquel, ¿qué haces el sábado? | Raquel, what are you doing on Saturday?
+        R: Por la mañana voy al mercado. ¿Por qué? | In the morning I'm going to the market. Why?
+        I: Tengo dos entradas para un concierto. | I have two tickets for a concert.
+        R: ¡Genial! ¿Qué concierto? | Great! What concert?
+        I: De flamenco, en el teatro de la plaza. | Flamenco, at the theatre on the square.
+        R: ¡Me encanta el flamenco! ¿A qué hora es? | I love flamenco! What time is it?
+        I: A las nueve de la noche. | At nine at night.
+        R: Vale. ¿A qué hora quedamos? | OK. What time shall we meet?
+        I: ¿Quedamos a las ocho y cenamos algo? | Shall we meet at eight and have something to eat?
+        R: Perfecto. ¿Dónde quedamos? | Perfect. Where shall we meet?
+        I: En la puerta del teatro. | At the door of the theatre.
+        R: ¡Hasta el sábado! | See you on Saturday!
+    pronunciation:
+      title: Sounding enthusiastic — or sorry
+      body: |
+        Exclamations start high and fall clearly at the end: *¡Genial!* ↘, *¡Qué bien!* ↘, *¡Me encanta el flamenco!* ↘. A flat voice can sound bored, so exaggerate a little.
+
+        A polite refusal is softer and slower, with a gentle fall: *Lo siento… no puedo.* A suggestion is a yes/no question, so it rises: *¿Quedamos el sábado?* ↗
+      items: |
+        ¡Genial!
+        ¡Qué bien!
+        ¡Vale!
+        ¡Me encanta el flamenco!
+        Lo siento, no puedo.
+        ¿Quedamos el sábado?
+    culture:
+      title: Quedar, Spanish style
+      body: |
+        Spaniards usually meet friends out rather than at home: *en la plaza*, *en la puerta del cine*, *en el bar de siempre*. Plans can be made at the last minute, and among friends *a las ocho* may really mean ten past eight.
+
+        Evenings start late: cinema sessions at 10 p.m. and concerts at 9 or 10 p.m. are normal, and on summer nights the streets are full long after midnight.
+    mistakes: |
+      Voy a el cine. => Voy al cine. | A + el = al.
+      ¿Vienes con mí? => ¿Vienes conmigo? | With me = conmigo; with you = contigo.
+      Yo vamos a la playa. => Yo voy a la playa. | Ir is irregular: yo voy, nosotros vamos.
+    task:
+      title: Arrange to meet
+      mode: interaction
+      body: |
+        Invite a friend to something this weekend (a concert, an exhibition, the beach). Your partner or the AI coach declines your first suggestion, so suggest another day. Agree on a time and a meeting place. Try the "Making weekend plans" scenario.
+    exercises: |
+      fill: Yo ___ al gimnasio los martes. (ir) || voy || Yo + ir = voy. || @tags es.present-irregular
+      fill: ¿___ vosotros a la fiesta? (ir) || Vais || Vosotros + ir = vais. || @tags es.present-irregular
+      fill: ¿Vamos ___ cine el viernes? || al || A + el = al. || @tags es.contractions
+      fill: ¿Vienes ___ al concierto? (with me) || conmigo || With me = conmigo. || @tags es.prepositions
+      mc: Your friend suggests going to the beach, but you're busy. You say: || ¡Genial! | *Lo siento, no puedo. | ¡Vale! || Lo siento, no puedo = sorry, I can't. ¡Genial! and ¡Vale! accept the plan. || @tags es.speaking
+      mc: "¿Quedamos a las siete?" means… || *Shall we meet at seven? | Shall we stay until seven? | Is it seven o'clock? || In Spain quedar means to arrange to meet; "to stay" is quedarse. || @skill vocabulary @tags es.vocabulary
+      mc: Where do Raquel and Ibrahim agree to meet? || At the market | *At the door of the theatre | At a restaurant || "En la puerta del teatro." || @ctx dialogue @skill reading @tags es.reading
+      short: What time is the concert? || kw: 9/nueve/nine || "A las nueve de la noche." They meet at eight to have dinner first. || @ctx dialogue
+      rw: Make it a suggestion with ¿Vamos…? :: ir a la playa el domingo || ¿Vamos a la playa el domingo? | El domingo, ¿vamos a la playa? || ¿Vamos a + place? = Shall we go to…? || @tags es.present-irregular
+      order: ¿Te apetece ir a la exposición el domingo? || Do you fancy going to the exhibition on Sunday? || @tags es.gustar
+      tr: Shall we go to the cinema on Saturday? || ¿Vamos al cine el sábado? | El sábado, ¿vamos al cine? | ¿Quedamos para ir al cine el sábado? || ¿Vamos al…? is the simplest suggestion; a + el = al. || @tags es.present-irregular,es.contractions
+      listen: Hola, Marta. ¿Quedamos mañana a las seis en la puerta del museo? || Where does the speaker want to meet? || At the cinema | *At the door of the museum | At Marta's house || "En la puerta del museo." || @tags es.listening
+      dict: Lo siento, el viernes no puedo. ¿Y el sábado?
+      ask: Invite a friend to do something at the weekend, and suggest a time and a place to meet. || kw: vamos/quedamos/te apetece/quieres & a las || ¿Te apetece ir a la playa el domingo? Quedamos a las diez en la estación.
+      write: Write a message inviting a friend to an event — what it is, when it is and where to meet. || min=25 || req: vamos/quedamos/te apetece/quieres | el lunes/el martes/el miércoles/el jueves/el viernes/el sábado/el domingo | a las || ¡Hola, Nico! El viernes hay un concierto de jazz en el parque. ¿Te apetece venir conmigo? Es a las nueve. Quedamos a las ocho y media en la puerta del parque. ¡Hasta el viernes!

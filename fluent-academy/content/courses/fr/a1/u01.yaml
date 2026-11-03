@@ -1,0 +1,330 @@
+unit: 1
+title: "Bonjour !"
+theme: Greetings and introductions
+description: Greet people in formal and informal situations, introduce yourself, and give your age, phone number and the spelling of your name.
+free: true
+objectives:
+  - Greet people and say goodbye with the right level of formality
+  - Introduce yourself with your name, nationality, city and languages
+  - Use numbers 0–20 to give your age and phone number
+canDo:
+  - I can greet someone and say goodbye politely.
+  - I can choose between tu and vous.
+  - I can say my name, nationality and where I live.
+  - I can give my age and spell my name.
+review: |
+  mc: Your elderly neighbour says "Bonjour !". You answer: || Salut, ça va ? | *Bonjour, madame. Comment allez-vous ? | Coucou ! || With madame and an older neighbour, use the formal greeting and vous. || @tags fr.register
+  fill: Ils ___ dix-huit ans. || ont || Ils + avoir = ils ont. || @tags fr.avoir
+  fill: Nous ___ étudiants à Lille. || sommes || Nous + être = nous sommes. || @tags fr.etre
+  fill: Tu ___ où ? || habites || Tu + habiter = tu habites (regular -er verb). || @tags fr.present-er
+  tr: I'm German and I live in Berlin. (you are a woman) || Je suis allemande et j'habite à Berlin. | Je suis allemande, j'habite à Berlin. || Feminine nationality: allemande; habiter à + city. || @tags fr.adjective-agreement,fr.etre
+  tr: Nice to meet you! (a man speaking) || Enchanté ! | Enchanté. || A man says enchanté; a woman writes enchantée (pronounced the same). || @tags fr.register
+  mc: Which answer fits "Vous êtes anglaise ?" || Oui, j'ai anglaise. | *Non, je suis irlandaise. | Non, je m'appelle irlandaise. || Nationality uses être: je suis irlandaise. || @tags fr.etre
+  listen: Salut ! Je m'appelle Chloé, j'ai quinze ans et je parle anglais et français. || How old is Chloé? || 5 | 13 | *15 || "J'ai quinze ans" — I'm fifteen. || @tags fr.numbers
+  listen: Au revoir, madame Petit, bonne soirée ! || What is happening? || Someone arrives in the morning | *Someone leaves in the evening | Someone introduces a friend || Au revoir + bonne soirée is said when leaving in the evening. || @tags fr.register
+  ask: Introduce yourself to a new colleague — greet them formally, then give your name, nationality and city. || kw: bonjour & je m'appelle/je suis/moi c'est & j'habite/je viens || Bonjour, je m'appelle Mark. Je suis anglais et j'habite à Lyon. Enchanté !
+  write: Write an email to your new French teacher introducing yourself (name, age, nationality, city, languages). || min=30 || req: bonjour/madame/monsieur | je m'appelle | j'ai | ans | je parle || Bonjour madame, je m'appelle Lucas. J'ai dix-neuf ans, je suis canadien et j'habite à Toronto. Je parle anglais et un peu français. À bientôt !
+lessons:
+  - title: Greetings and goodbyes
+    summary: Say hello, ask how someone is, and say goodbye — choosing between formal and informal French.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [fr.register]
+    objectives:
+      - Choose between bonjour, bonsoir and salut
+      - Ask how someone is and answer with tu or vous
+      - Say goodbye appropriately at different times of day
+    intro: |
+      In French, the first word you say matters. Shopkeepers, neighbours and colleagues expect a **bonjour** before anything else, and the choice between the informal **tu** and the formal **vous** shows respect. In this lesson you will learn the greetings French speakers use every day and when to use each one.
+    vocab: |
+      bonjour | hello; good morning | interj | Bonjour, madame Martin ! | Hello, Mrs Martin! | c: dire bonjour; bonjour à tous | n: Use it with anyone, from morning until early evening.
+      bonsoir | good evening | interj | Bonsoir, monsieur. Une table pour deux ? | Good evening, sir. A table for two? | n: Used mainly when arriving, from about 6 p.m.
+      salut | hi; bye (informal) | interj | Salut, Théo ! Ça va ? | Hi, Théo! How's it going? | n: Informal — friends, family, classmates, children.
+      au revoir | goodbye | interj | Au revoir et bonne journée ! | Goodbye and have a nice day! | c: dire au revoir
+      à bientôt | see you soon | expr | Merci pour tout, à bientôt ! | Thanks for everything, see you soon!
+      à demain | see you tomorrow | expr | Bonne soirée, Julie. À demain ! | Have a nice evening, Julie. See you tomorrow!
+      ça va ? | how are you? (informal) | expr | Salut, Nina, ça va ? | Hi, Nina, how are you? | n: The answer can be the same words: Ça va !
+      comment allez-vous ? | how are you? (formal) | expr | Bonjour, madame. Comment allez-vous ? | Hello, madam. How are you? | n: Informal equivalent: Comment vas-tu ?
+      très bien | very well | adv | Je vais très bien, merci. | I'm very well, thank you.
+      merci | thank you | interj | Merci beaucoup, monsieur ! | Thank you very much, sir! | c: merci beaucoup; merci bien
+      madame | madam; Mrs | n | Bonjour, madame Leroy. | Hello, Mrs Leroy. | g: f | n: A polite form of address — no surname needed.
+      monsieur | sir; Mr | n | Merci, monsieur. | Thank you, sir. | g: m | n: Pronounced [məsjø]: the letters "on" and "r" are silent.
+      bonne journée | have a nice day | expr | Au revoir, bonne journée ! | Goodbye, have a nice day! | n: Said when leaving during the day; in the evening say bonne soirée.
+    grammar:
+      title: "Tu or vous?"
+      body: |
+        French has two ways to say *you* to one person.
+
+        - **Tu** is informal. Use it with friends, family, children and people your own age in relaxed settings.
+        - **Vous** is formal. Use it with strangers, older people, shop staff, colleagues you don't know well — anyone you call *madame* or *monsieur*.
+        - **Vous** is also the only way to say *you* to two or more people.
+
+        The verb changes with the pronoun: *tu **vas***, *vous **allez***. When in doubt, start with **vous**. The other person may suggest switching: *On se tutoie ?* ("Shall we use tu?").
+      table: |
+        Situation | Pronoun | Greeting | How are you?
+        A friend or classmate | tu | Salut ! | Ça va ? / Comment vas-tu ?
+        A shopkeeper or stranger | vous | Bonjour, madame. | Comment allez-vous ?
+        Two or more people | vous | Bonjour à tous ! | Comment allez-vous ?
+      examples: |
+        Salut, Hugo ! Comment vas-tu ? | Hi, Hugo! How are you? | informal
+        Bonjour, monsieur. Comment allez-vous ? | Hello, sir. How are you? | formal
+        Ça va bien, et toi ? | I'm fine, and you? | informal: et toi
+        Très bien, merci. Et vous ? | Very well, thanks. And you? | formal: et vous
+      tip: Return the question with "Et toi ?" (informal) or "Et vous ?" (formal) — it works in every situation.
+    dialogue:
+      title: Au bureau
+      setting: Monday morning. Léa arrives at the office, meets her manager, then her colleague Thomas. In the evening, she leaves.
+      speakers: L=Léa/f; M=M. Bernard/m; T=Thomas/m
+      lines: |
+        L: Bonjour, monsieur Bernard ! | Good morning, Mr Bernard!
+        M: Bonjour, Léa. Comment allez-vous ? | Good morning, Léa. How are you?
+        L: Très bien, merci. Et vous ? | Very well, thank you. And you?
+        M: Ça va bien, merci. | I'm fine, thank you.
+        T: Salut, Léa ! Ça va ? | Hi, Léa! How's it going?
+        L: Salut, Thomas ! Oui, ça va. Et toi ? | Hi, Thomas! Yes, fine. And you?
+        T: Bof, comme ci comme ça. Je suis fatigué. | Meh, so-so. I'm tired.
+        L: Oh là là ! Bon courage ! | Oh dear! Hang in there!
+        M: Au revoir, Léa. Bonne soirée ! | Goodbye, Léa. Have a nice evening!
+        L: Au revoir, monsieur. À demain ! | Goodbye, sir. See you tomorrow!
+    pronunciation:
+      title: Silent final letters and the nasal "on"
+      body: |
+        Many French words end in letters you don't pronounce. In *salut*, the final **t** is silent: [saly]. In *monsieur*, much of the spelling is silent: [məsjø].
+
+        The **on** in *bonjour* and *bonsoir* is a nasal vowel [ɔ̃]: air passes through the nose and you don't close your mouth for an [n]. Listen and repeat each item, first slowly, then at normal speed.
+      items: |
+        salut
+        bonjour
+        bonsoir
+        monsieur
+        très bien
+        au revoir
+    culture:
+      title: La bise and the shop "bonjour"
+      body: |
+        Friends and family in France often greet each other with **la bise** — light kisses on the cheeks (usually two, but the number varies by region). In professional settings a handshake is more usual.
+
+        Always say *bonjour* when you walk into a small shop, a bakery or a waiting room, and *au revoir* when you leave. Skipping it is considered rude.
+    mistakes: |
+      Bonjour, Paul ! Comment vas-vous ? => Bonjour, Paul ! Comment vas-tu ? | The verb must match the pronoun: tu vas, vous allez.
+      Salut, madame ! => Bonjour, madame ! | Salut is informal; it doesn't go with madame or monsieur.
+      Bonsoir ! (leaving a shop at 7 p.m.) => Au revoir, bonne soirée ! | Bonsoir is mainly a greeting when you arrive; when you leave, say au revoir or bonne soirée.
+    task:
+      title: Three greetings
+      mode: speaking
+      body: |
+        You arrive at a language school in Lyon. Greet the receptionist (formal), greet a classmate your age (informal), and at the end of the day say goodbye to your teacher. Record yourself in Speaking practice, or try the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      mc: You walk into a bakery at 10 a.m. What do you say? || Salut ! | *Bonjour, madame. | Bonsoir ! || Bonjour (+ madame/monsieur) is the polite greeting during the day with people you don't know.
+      mc: Which question would you ask your new manager? || Ça va, toi ? | *Comment allez-vous ? | Comment vas-tu ? || Use vous with people you address formally: Comment allez-vous ?
+      fill: Salut, Inès ! Comment ___-tu ? || vas || With tu, aller becomes vas: Comment vas-tu ? || @hint aller
+      fill: Bonjour, monsieur. Comment ___-vous ? || allez || With vous, aller becomes allez: Comment allez-vous ? || @hint aller
+      mc: It's 8 p.m. and you arrive at a restaurant. You say: || Bonjour ! | *Bonsoir ! | Bonne journée ! || From early evening, greet people with bonsoir.
+      mc: Your friend asks "Ça va ?". The most natural answer is: || Comment allez-vous ? | *Oui, ça va, et toi ? | Au revoir ! || Answer, then return the question with "et toi ?" (informal).
+      order: Très bien, merci. Et vous ? || Very well, thank you. And you?
+      tr: Goodbye, see you tomorrow! || Au revoir, à demain ! | Au revoir et à demain ! | Au revoir. À demain ! || "See you tomorrow" is à demain.
+      tr: Hello, sir. How are you? || Bonjour, monsieur. Comment allez-vous ? | Bonjour monsieur, comment allez-vous ? || Formal: monsieur + vous + allez.
+      short: How does Thomas feel? || kw: fatigué/fatigue/tired/so-so/comme ci comme ça/bof || Thomas says "Bof, comme ci comme ça. Je suis fatigué" — he's tired. || @ctx dialogue
+      listen: @dialogue || Who uses "tu" with each other in the dialogue? || Léa and Mr Bernard | *Léa and Thomas | Mr Bernard and Thomas || Léa and Thomas are colleagues of the same age; they say "Salut", "Ça va ?" and "Et toi ?".
+      listen: Bonne soirée, à demain ! || When would you hear this? || In the morning, when someone arrives | *In the evening, when someone leaves | At night, when someone arrives || "Bonne soirée" is said when leaving in the evening; "à demain" means see you tomorrow.
+      ask: Greet your teacher formally and ask how they are. || kw: bonjour/bonsoir & allez-vous/allez vous || Bonjour, madame. Comment allez-vous ?
+      write: Write a short message (2–3 sentences) to a friend — say hi, ask how they are, and say see you tomorrow. || min=8 || req: salut/coucou | ça va/vas-tu | à demain || Salut Marc ! Ça va ? Moi, ça va bien. À demain !
+
+  - title: Introducing yourself
+    summary: Say your name, nationality and where you live and come from, using être, s'appeler, habiter and venir de.
+    minutes: 40
+    skills: [grammar, speaking, reading]
+    tags: [fr.etre, fr.sappeler, fr.adjective-agreement]
+    objectives:
+      - Give your name with s'appeler
+      - Say your nationality and job with être
+      - Say where you live and where you come from
+    intro: |
+      Introducing yourself is the first real conversation you will have in French. You need three things: a way to give your name (**je m'appelle**), the verb **être** for nationality and status, and verbs for where you live (**habiter**) and come from (**venir de**).
+    vocab: |
+      je m'appelle | my name is | expr | Je m'appelle Camille. | My name is Camille. | n: From the verb s'appeler (literally "to call oneself").
+      comment tu t'appelles ? | what's your name? (informal) | expr | Salut ! Comment tu t'appelles ? | Hi! What's your name? | n: Formal: Comment vous appelez-vous ?
+      enchanté | nice to meet you | adj | Enchanté, madame ! | Nice to meet you, madam! | n: A woman writes enchantée; the pronunciation is the same.
+      être | to be | v | Je suis étudiant à Lyon. | I'm a student in Lyon.
+      habiter | to live (somewhere) | v | J'habite à Marseille. | I live in Marseille. | c: habiter à + city; habiter en France | n: The h is silent, so je becomes j': j'habite.
+      venir de | to come from | v | Je viens de Montréal. | I come from Montreal. | n: Je viens de Paris, du Canada, des États-Unis.
+      parler | to speak | v | Je parle anglais et un peu français. | I speak English and a little French. | c: parler un peu; parler couramment
+      français | French | adj | Il est français, elle est française. | He's French, she's French. | n: Feminine: française. No capital letter for nationality adjectives.
+      anglais | English | adj | Mon ami Tom est anglais. | My friend Tom is English. | n: Feminine: anglaise.
+      espagnol | Spanish | adj | Elle est espagnole, de Valence. | She's Spanish, from Valencia. | n: Feminine: espagnole.
+      allemand | German | adj | Mon professeur est allemand. | My teacher is German. | n: Feminine: allemande.
+      étudiant | student | n | Tu es étudiant ? | Are you a student? | g: m | n: Feminine: étudiante.
+      un peu | a little | adv | Je parle un peu espagnol. | I speak a little Spanish.
+    grammar:
+      title: "Être and s'appeler"
+      body: |
+        **Être** (*to be*) is irregular — learn it by heart. Use it for nationality, job and description: *Je suis canadienne.*
+
+        After *être*, French usually has **no article** before a job or nationality: *Il est professeur* (not ~~il est un professeur~~).
+
+        To give your name, French uses **s'appeler** (literally *to call oneself*). The small pronoun *me / te / se* comes before the verb: *je **m'**appelle, tu **t'**appelles, il **s'**appelle*.
+
+        Adjectives of nationality agree with the person: add **-e** for a woman (*français → française*, *allemand → allemande*). If the masculine already ends in -e, nothing changes: *belge, suisse*.
+      table: |
+        Pronoun | être | s'appeler
+        je | suis | m'appelle
+        tu | es | t'appelles
+        il / elle / on | est | s'appelle
+        nous | sommes | nous appelons
+        vous | êtes | vous appelez
+        ils / elles | sont | s'appellent
+      examples: |
+        Je suis Sophie, je suis française. | I'm Sophie, I'm French.
+        Vous êtes anglais ? | Are you English?
+        Elle s'appelle Amina et elle est médecin. | Her name is Amina and she's a doctor.
+        Nous sommes étudiants à Lille. | We're students in Lille.
+      tip: In everyday French you can ask a yes/no question just by raising your voice at the end — Tu es étudiant ?
+    dialogue:
+      title: Premier jour au cours de français
+      setting: Camille and Daniel meet on the first day of an evening French class in Geneva.
+      speakers: C=Camille/f; D=Daniel/m
+      lines: |
+        C: Salut ! Je m'appelle Camille. Et toi, comment tu t'appelles ? | Hi! I'm Camille. And you, what's your name?
+        D: Salut, Camille. Moi, c'est Daniel. Enchanté ! | Hi, Camille. I'm Daniel. Nice to meet you!
+        C: Enchantée ! Tu es anglais ? | Nice to meet you! Are you English?
+        D: Non, je suis américain. Je viens de Boston. Et toi ? | No, I'm American. I'm from Boston. And you?
+        C: Je suis française, mais j'habite à Genève, en Suisse. | I'm French, but I live in Geneva, in Switzerland.
+        D: Tu parles anglais ? | Do you speak English?
+        C: Oui, un peu. Et toi, tu parles bien français ! | Yes, a little. And you speak French well!
+        D: Merci, mais je suis étudiant… je parle un peu ! | Thanks, but I'm a student… I speak a little!
+    pronunciation:
+      title: "Liaison: vous êtes, nous habitons"
+      body: |
+        When *vous*, *nous*, *ils* or *elles* is followed by a vowel sound, the final **s** is pronounced [z] and links to the next word: *vous êtes* [vu.zɛt], *nous habitons* [nu.za.bi.tɔ̃]. This link is called **liaison**.
+
+        Before a consonant the s stays silent: *vous parlez* [vu paʁ.le]. Compare *ils sont* (they are) and *ils ont* (they have) — the liaison is the only difference you hear.
+      items: |
+        vous êtes
+        nous habitons
+        vous parlez
+        ils sont
+        ils ont
+    mistakes: |
+      Je suis un étudiant. => Je suis étudiant. | After être, French usually drops the article before a job or status.
+      Je m'appelle est Paul. => Je m'appelle Paul. | M'appelle is already the verb; don't add est.
+      Il est Français. => Il est français. | Nationality adjectives take no capital letter (only the noun does: un Français).
+      Je viens de Canada. => Je viens du Canada. | Countries take an article: de + le Canada = du Canada.
+    task:
+      title: Your 30-second introduction
+      mode: speaking
+      body: |
+        Prepare a short introduction: your name, nationality, where you live, and the languages you speak. Practise it aloud three times, then try it in the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      fill: Je ___ étudiante à Toulouse. || suis || Je + être = je suis. || @tags fr.etre
+      fill: Vous ___ canadien ? || êtes || Vous + être = vous êtes. || @tags fr.etre
+      fill: Elle ___ Amina. || s'appelle || Il/elle + s'appeler = s'appelle (with double l). || @tags fr.sappeler
+      mc: Choose the correct sentence. || Je suis une professeure. | *Je suis professeure. | Je professeure. || With être + job, French normally has no article. || @tags fr.etre
+      mc: Where is Daniel from? || Geneva | *Boston | London || "Je suis américain. Je viens de Boston." || @ctx dialogue @skill reading @tags fr.reading
+      tf: Camille lives in France. || false || She is French but lives in Geneva, in Switzerland. || @ctx dialogue
+      fill: Nous ___ à Paris. || habitons || Nous + habiter = nous habitons (-ons ending). || @tags fr.present-er @hint habiter
+      order: Je viens de Montréal et j'habite à Québec. || I come from Montreal and I live in Quebec City. || @tags fr.present-er
+      tr: My name is Sara and I'm Spanish. || Je m'appelle Sara et je suis espagnole. | Je m'appelle Sara, je suis espagnole. | Moi, c'est Sara et je suis espagnole. || Use s'appeler for names; espagnole takes -e for a woman. || @tags fr.sappeler,fr.adjective-agreement
+      tr: Do you speak French? (informal) || Tu parles français ? | Est-ce que tu parles français ? | Parles-tu français ? || Tu parles + language (no article, no capital letter). || @tags fr.present-er,fr.questions
+      rw: Make it feminine :: Il est allemand et il est étudiant. || Elle est allemande et elle est étudiante. || Add -e to the adjective and the noun: allemande, étudiante. || @tags fr.adjective-agreement
+      listen: Je m'appelle Hugo, je suis belge et j'habite à Bruxelles. || Where does Hugo live? || Paris | *Brussels | Geneva || "J'habite à Bruxelles" — Bruxelles is Brussels.
+      ask: Introduce yourself — say your name, your nationality and where you live. || kw: je m'appelle/moi c'est & je suis/j'habite/je viens || Bonjour ! Je m'appelle Emma, je suis irlandaise et j'habite à Dublin.
+      write: Write a short profile for a language-exchange website (name, nationality, city, languages). || min=20 || req: je m'appelle/moi c'est | je suis | j'habite | je parle || Bonjour ! Je m'appelle Emma. Je suis irlandaise et j'habite à Dublin. Je parle anglais, irlandais et un peu français.
+
+  - title: "Numbers, age and spelling"
+    summary: Count from 0 to 20, give your age with avoir, read phone numbers and spell your name.
+    minutes: 35
+    skills: [vocabulary, listening, grammar]
+    tags: [fr.avoir, fr.numbers]
+    objectives:
+      - Count from 0 to 20
+      - Give and ask someone's age with avoir
+      - Understand phone numbers read in pairs and spell a name
+    intro: |
+      Numbers appear everywhere: ages, prices, phone numbers, times. In this lesson you will learn 0–20, use the verb **avoir** to give your age, and practise the way French speakers read phone numbers — in pairs of digits.
+    vocab: |
+      zéro | zero | num | Mon numéro commence par zéro six. | My number starts with zero six.
+      un, deux, trois | one, two, three | num | Un, deux, trois… partez ! | One, two, three… go!
+      quatre, cinq, six | four, five, six | num | J'ai six cousins. | I have six cousins.
+      sept, huit, neuf | seven, eight, nine | num | Mon fils a huit ans. | My son is eight.
+      dix, onze, douze | ten, eleven, twelve | num | Le cours commence à onze heures. | The class starts at eleven o'clock.
+      treize, quatorze, quinze | thirteen, fourteen, fifteen | num | Ma fille a quatorze ans. | My daughter is fourteen.
+      seize, dix-sept, dix-huit | sixteen, seventeen, eighteen | num | Il a dix-sept ans. | He's seventeen.
+      dix-neuf, vingt | nineteen, twenty | num | Nous sommes vingt dans la classe. | There are twenty of us in the class.
+      avoir | to have | v | J'ai vingt ans. | I'm twenty (years old). | n: French uses avoir — not être — for age.
+      quel âge ? | how old? | expr | Tu as quel âge ? | How old are you? | n: Formal: Quel âge avez-vous ?
+      un numéro de téléphone | a phone number | n | Quel est ton numéro de téléphone ? | What's your phone number? | g: m
+      épeler | to spell | v | Vous pouvez épeler votre nom, s'il vous plaît ? | Can you spell your name, please?
+      s'il vous plaît | please (formal) | expr | Votre nom, s'il vous plaît ? | Your name, please? | n: Informal: s'il te plaît.
+    grammar:
+      title: Avoir and talking about age
+      body: |
+        **Avoir** (*to have*) is the second essential irregular verb.
+
+        French uses **avoir** — not *être* — to give someone's age, and you must add **ans** (*years*): *J'ai dix-neuf ans* (literally "I have nineteen years").
+
+        To ask: *Tu as quel âge ?* (informal) or *Quel âge avez-vous ?* (formal).
+
+        **Je** becomes **j'** in front of a vowel or silent h: *j'ai, j'habite*.
+      table: |
+        Pronoun | avoir | Example
+        j' | ai | J'ai vingt ans.
+        tu | as | Tu as quel âge ?
+        il / elle / on | a | Elle a seize ans.
+        nous | avons | Nous avons deux enfants.
+        vous | avez | Vous avez un stylo ?
+        ils / elles | ont | Ils ont dix-huit ans.
+      examples: |
+        J'ai quinze ans. | I'm fifteen.
+        Mon frère a onze ans. | My brother is eleven.
+        Quel âge avez-vous, madame ? | How old are you, madam?
+      tip: "Ils ont (they have) has a [z] liaison; ils sont (they are) has an [s]. Listen carefully!"
+    dialogue:
+      title: À l'accueil de la salle de sport
+      setting: Paolo signs up at a gym in Nice. The receptionist fills in his membership form.
+      speakers: R=La réceptionniste/f; P=Paolo/m
+      lines: |
+        R: Bonjour, monsieur. Votre nom, s'il vous plaît ? | Hello, sir. Your name, please?
+        P: Je m'appelle Paolo Rossi. | My name is Paolo Rossi.
+        R: Vous pouvez épeler votre nom de famille ? | Can you spell your surname?
+        P: Oui, bien sûr. R, O, deux S, I. | Yes, of course. R, O, double S, I.
+        R: Merci. Et vous avez quel âge ? | Thank you. And how old are you?
+        P: J'ai dix-neuf ans. | I'm nineteen.
+        R: Et votre numéro de téléphone ? | And your phone number?
+        P: C'est le zéro six, douze, quinze, dix-huit, vingt. | It's 06 12 15 18 20.
+        R: Parfait, merci. Bonne journée ! | Perfect, thank you. Have a nice day!
+    pronunciation:
+      title: "Numbers: six, dix and vingt"
+      body: |
+        The final **x** in *six* and *dix* is pronounced [s] when the number stands alone, [z] before a vowel (*six ans* [si.zɑ̃]) and is silent before a consonant (*six livres* [si livʁ]).
+
+        In *vingt*, the **gt** is silent: [vɛ̃]. In *neuf ans*, the f becomes a [v]: [nœ.vɑ̃].
+      items: |
+        six
+        six ans
+        dix
+        dix ans
+        vingt
+        neuf ans
+    mistakes: |
+      Je suis vingt ans. => J'ai vingt ans. | Age uses avoir in French.
+      J'ai vingt. => J'ai vingt ans. | Don't forget ans (years).
+      Je ai dix-huit ans. => J'ai dix-huit ans. | Je becomes j' before a vowel.
+    task:
+      title: Sign up by phone
+      mode: interaction
+      body: |
+        You are joining a gym in Nice. Spell your name, give your age and read out a phone number in pairs of digits (06 12 34 56 78), exactly as Paolo does in the dialogue.
+    exercises: |
+      fill: Tu ___ quel âge ? || as || Tu + avoir = tu as. || @tags fr.avoir
+      fill: Ma sœur ___ douze ans. || a || Elle (ma sœur) + avoir = a. || @tags fr.avoir
+      fill: J'ai seize ___. || ans || For age, always add ans (years). || @tags fr.avoir
+      mc: How do you say "I'm eighteen"? || Je suis dix-huit. | *J'ai dix-huit ans. | J'ai dix-huit. || Avoir + number + ans. || @tags fr.avoir
+      mc: Which number is "quatorze"? || 4 | *14 | 40 || Quatorze = 14. Quatre = 4. || @tags fr.numbers @skill vocabulary
+      mc: Sept + huit = ? || treize | *quinze | seize || Sept (7) + huit (8) = quinze (15). || @tags fr.numbers @skill vocabulary
+      listen: dix-sept || Which number do you hear? || 7 | *17 | 70 || Dix-sept = 10 + 7 = 17. || @tags fr.numbers
+      listen: Mon numéro, c'est le zéro six, onze, treize, dix-neuf, vingt. || What is the phone number? || *06 11 13 19 20 | 06 12 13 09 20 | 06 11 16 19 02 || French phone numbers are read in pairs: zéro six, onze, treize, dix-neuf, vingt. || @tags fr.numbers
+      short: How old is Paolo? || kw: 19/dix-neuf/nineteen || Paolo says "J'ai dix-neuf ans." || @ctx dialogue
+      tr: How old are you? (formal) || Quel âge avez-vous ? | Vous avez quel âge ? || Formal: vous avez; the question word is quel âge. || @tags fr.avoir,fr.questions
+      tr: My brother is ten. || Mon frère a dix ans. || Use avoir + ans: il a dix ans. || @tags fr.avoir
+      dict: J'ai dix-neuf ans et j'habite à Nice.
+      ask: Say how old you are and give a (made-up) phone number in pairs of digits. || kw: j'ai & ans || J'ai vingt ans. Mon numéro, c'est le zéro six, douze, quinze, dix-huit, vingt.

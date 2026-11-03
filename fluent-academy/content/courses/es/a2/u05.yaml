@@ -1,0 +1,372 @@
+unit: 5
+title: Mi casa, mi barrio
+theme: Home and housing
+description: Read flat adverts and compare flats, share out the housework with por and para, and describe your neighbourhood and neighbours using comparisons of quality, quantity and actions.
+free: false
+objectives:
+  - Understand flat adverts and compare homes with más/menos … que, tan … como, mejor and peor
+  - Name furniture and chores, and use por and para in common phrases
+  - Describe a neighbourhood and compare quantities and actions with tanto … como
+canDo:
+  - I can understand the key information in a flat advert.
+  - I can compare two flats or two neighbourhoods.
+  - I can say who does which chores at home and how often.
+  - I can talk politely to a neighbour about a problem.
+review: |
+  fill: Este piso es ___ grande ___ el otro: tiene 90 m² y el otro, 60. || más ; que || More … than: más + adjective + que. || @tags es.comparatives
+  fill: La zona norte es ___ que la zona sur: tiene metro y más parques. (bueno) || mejor || Bueno has an irregular comparative: mejor (not más bueno). || @tags es.comparatives
+  mc: Mi abuela tiene ochenta años y mi abuelo, ochenta y cinco. Mi abuelo es ___ que mi abuela. || *mayor | menor | más grande || For people's age, use mayor (older) and menor (younger). || @tags es.comparatives
+  fill: Gracias ___ ayudarme con la mudanza. || por || After gracias, use por: the reason for thanking. || @tags es.por-para
+  fill: Compré esta mesa ___ trabajar en casa. || para || Purpose (in order to) takes para. || @tags es.por-para
+  mc: El alquiler cuesta ___ mil euros al mes. || *más de | más que | tanto como || Before a number, use más de. || @tags es.comparatives
+  rw: Rewrite with menos … que :: El centro es más ruidoso que mi barrio. || Mi barrio es menos ruidoso que el centro. || Swap the two places and use menos + adjective + que. || @tags es.comparatives
+  tr: We vacuum twice a week. || Pasamos la aspiradora dos veces por semana. | Pasamos la aspiradora dos veces a la semana. | Nosotros pasamos la aspiradora dos veces por semana. || Pasar la aspiradora; frequency with por semana or a la semana. || @tags es.por-para,es.frequency
+  listen: Se alquila habitación en piso compartido, cerca de la universidad. Trescientos cincuenta euros al mes, gastos incluidos. || How much is the room? || *€350, bills included | €350 plus bills | €530, bills included || "Trescientos cincuenta euros al mes, gastos incluidos." || @tags es.listening,es.numbers
+  listen: En mi casa yo cocino, mi hermano friega los platos y mi padre plancha la ropa. || Who does the ironing? || The speaker | The brother | *The father || "Mi padre plancha la ropa." || @tags es.listening
+  ask: Compare two places you know — two flats, two neighbourhoods or two towns. Give three differences. || kw: más/menos/mejor/peor/tan/tanto/tantos/tantas & que/como || Mi piso de ahora es más pequeño que el anterior, pero es más luminoso. El barrio es mejor: hay más tiendas y no hay tanto tráfico.
+  write: Write an advert to find a flatmate. Describe the flat, compare the two free rooms and explain how you share the chores. || min=40 || req: más/menos | por semana/a la semana || Buscamos compañero o compañera de piso en Granada. El piso es exterior, muy luminoso y está cerca del centro. Hay dos habitaciones libres: la grande cuesta 380 euros y es más luminosa que la pequeña, que cuesta 320. Repartimos las tareas: cada persona limpia la cocina una vez por semana y sacamos la basura por turnos.
+lessons:
+  - title: Finding a flat
+    summary: Read flat adverts and compare flats — price, size, light, location — with más/menos … que, tan … como, mejor and peor.
+    minutes: 40
+    skills: [reading, grammar, speaking]
+    tags: [es.comparatives]
+    objectives:
+      - Understand the key words in a flat advert
+      - Compare two things with más … que, menos … que and tan … como
+      - Use the irregular comparatives mejor, peor, mayor and menor
+    intro: |
+      Looking for a flat means comparing: this one is cheaper, that one is brighter, the third is nearer the metro. In this lesson you will learn the vocabulary of Spanish property adverts (*alquiler, amueblado, exterior, gastos incluidos*) and how to compare with **más … que**, **menos … que** and **tan … como**.
+    vocab: |
+      alquilar | to rent | v | Queremos alquilar un piso de dos habitaciones. | We want to rent a two-bedroom flat. | n: Se alquila = for rent.
+      el alquiler | rent | n | El alquiler es de 850 euros al mes. | The rent is 850 euros a month. | g: m
+      la fianza | deposit | n | Hay que pagar un mes de fianza. | You have to pay one month's deposit. | g: f
+      amueblado / amueblada | furnished | adj | El piso está amueblado, pero no tiene lavavajillas. | The flat is furnished, but it hasn't got a dishwasher.
+      los gastos | bills | n | El precio es con gastos incluidos: agua, luz e internet. | The price includes bills: water, electricity and internet. | g: m | c: gastos incluidos; gastos aparte
+      exterior / interior | facing the street / facing the inside | adj | Prefiero un piso exterior: tiene más luz. | I prefer a flat that faces the street: it gets more light. | n: Interior flats look onto an inner courtyard (el patio de luces).
+      luminoso / luminosa | bright; full of light | adj | El salón es muy luminoso. | The living room is very bright.
+      los metros cuadrados | square metres | n | El piso tiene setenta metros cuadrados. | The flat is seventy square metres. | g: m | n: Written 70 m².
+      el ascensor | lift | n | Es un cuarto sin ascensor. | It's a fourth-floor flat with no lift. | g: m | n: Un cuarto = a fourth-floor flat. In Latin America: el elevador.
+      la zona | area | n | Es una zona tranquila y bien comunicada. | It's a quiet area with good transport links. | g: f | c: bien comunicado (well connected)
+      el casero / la casera | landlord / landlady | n | La casera vive en el piso de abajo. | The landlady lives in the flat downstairs. | g: m/f | n: More formal: el propietario / la propietaria.
+      la visita | viewing; visit | n | Tenemos una visita al piso a las seis. | We've got a viewing of the flat at six. | g: f
+    grammar:
+      title: "Comparing: más … que, menos … que, tan … como"
+      body: |
+        To compare two things with an **adjective**:
+        - **más** + adjective + **que** (more … than): *Este piso es más grande que el otro.*
+        - **menos** + adjective + **que** (less … than): *El barrio es menos ruidoso que el centro.*
+        - **tan** + adjective + **como** (as … as): *La cocina es tan grande como el salón.*
+
+        The adjective agrees with the first noun: *La habitación es más luminosa que el salón.*
+
+        Four comparatives are irregular:
+        - **bueno → mejor**, **malo → peor**: *Esta zona es mejor que la otra* (not *más buena*).
+        - For people's age, **mayor** (older) and **menor** (younger): *Mi hermana es mayor que yo.* For size, use *más grande / más pequeño*: *Mi piso es más pequeño que el de Ana.*
+
+        After **que** and **como**, use subject pronouns: *más alto que yo, tan alta como tú*. Before a number, use **más de / menos de**: *Cuesta más de 900 euros.*
+      table: |
+        Structure | Example
+        más + adjective + que | El piso nuevo es más caro que el viejo.
+        menos + adjective + que | Este barrio es menos ruidoso que el centro.
+        tan + adjective + como | El dormitorio es tan grande como el salón.
+        mejor / peor + que | La zona norte es mejor que la zona sur.
+        mayor / menor + que | Mi compañera de piso es mayor que yo.
+        más de / menos de + number | El alquiler cuesta más de mil euros.
+      examples: |
+        El piso de la calle Alcalá es más luminoso que el de Vallecas. | The flat on Calle Alcalá is brighter than the one in Vallecas.
+        Esta habitación es menos cara, pero también es más pequeña. | This room is less expensive, but it's also smaller.
+        El barrio no es tan tranquilo como mi barrio anterior. | The area isn't as quiet as my old neighbourhood.
+        Un piso exterior es mejor que uno interior. | A flat facing the street is better than one facing the inside.
+      tip: "Say mejor and peor to compare quality, not más bueno or más malo: Este piso es mejor que el otro."
+    dialogue:
+      title: Dos pisos en Sevilla
+      setting: Gabriela and her partner Oriol have just seen two flats to rent in Seville, one in Triana and one in Nervión. They talk it over in a café.
+      speakers: G=Gabriela/f; O=Oriol/m
+      lines: |
+        G: Bueno, ¿qué piso te gusta más, el de Triana o el de Nervión? | So, which flat do you like more, the one in Triana or the one in Nervión?
+        O: El de Triana es más bonito, pero es más viejo. | The one in Triana is prettier, but it's older.
+        G: Sí, pero es mucho más luminoso. El otro es interior. | Yes, but it's much brighter. The other one faces the inside.
+        O: Es verdad. ¿Y el precio? ¿Cuál es más barato? | That's true. And the price? Which one is cheaper?
+        G: El de Triana: cuesta setecientos ochenta. El otro, ochocientos veinte. | The one in Triana: it's 780. The other one, 820.
+        O: Pero el de Triana es un tercero sin ascensor. | But the one in Triana is on the third floor with no lift.
+        G: Bueno, así hacemos ejercicio. ¡Es mejor que el gimnasio! | Well, that way we get some exercise. It's better than the gym!
+        O: ¡Ja, ja! ¿Y las habitaciones? ¿Son tan grandes como en el otro? | Ha ha! And the bedrooms? Are they as big as in the other one?
+        G: No, son un poco más pequeñas, pero la cocina es mejor. | No, they're a bit smaller, but the kitchen is better.
+        O: Y la zona de Triana es más animada. | And Triana is a livelier area.
+        G: Entonces, ¿llamamos a la casera de Triana? | So, shall we call the landlady in Triana?
+        O: Sí, ahora mismo. ¡Triana nos espera! | Yes, right now. Triana is waiting for us!
+    pronunciation:
+      title: "Intonation in choice questions: ¿el de Triana o el de Nervión?"
+      body: |
+        In a question that offers a choice with **o**, your voice **rises** on the first option and **falls** at the end of the last one: *¿el de Triana ↗ o el de Nervión ↘?* The fall tells the listener the list is finished.
+
+        In comparisons, stress the adjective and link the small words: *más_barato_que, tan_grande_como*. Listen and repeat.
+      items: |
+        ¿el de Triana o el de Nervión?
+        ¿interior o exterior?
+        ¿con muebles o sin muebles?
+        más barato que
+        tan grande como
+        mejor que el otro
+    culture:
+      title: Renting in Spain
+      body: |
+        Most Spaniards own their home, but in big cities more and more people rent, especially the young. Adverts give the monthly price, the number of bedrooms and the square metres. For a home, the law sets the deposit (**fianza**) at one month's rent, although landlords sometimes ask for extra guarantees.
+
+        In towns, most people live in **pisos** in blocks. Floors are counted from the **planta baja** (ground floor), and older buildings may have an *entresuelo* or a *principal* before the first floor — so a *tercero* can be higher than you think!
+    mistakes: |
+      Este piso es más bueno que el otro. => Este piso es mejor que el otro. | Bueno has an irregular comparative: mejor.
+      La cocina es tan grande que el salón. => La cocina es tan grande como el salón. | For equality, use tan … como, never tan … que.
+      El alquiler cuesta más que 900 euros. => El alquiler cuesta más de 900 euros. | Before a number, use más de.
+    task:
+      title: Choose a flat
+      mode: speaking
+      body: |
+        You are moving to Madrid and have found two flats. **A**: Lavapiés, 750 €, 50 m², exterior, fourth floor with no lift. **B**: Chamartín, 900 €, 75 m², interior, with a lift, next to the metro. Compare them in at least six sentences (*más … que, menos … que, tan … como, mejor, peor*), then say which one you choose and why. Record yourself in Speaking practice.
+    exercises: |
+      fill: Este piso es ___ caro ___ el otro: cuesta 1.100 euros y el otro, 800. || más ; que || 1,100 is more than 800: más + adjective + que. || @tags es.comparatives
+      fill: Las dos habitaciones tienen dos ventanas: la pequeña es ___ luminosa ___ la grande. || tan ; como || The same amount of light: tan + adjective + como. || @tags es.comparatives
+      fill: Mi barrio es ___ ruidoso que el centro: aquí no hay bares. || menos || No bars means less noise: menos + adjective + que. || @tags es.comparatives
+      fill: Esta zona es ___ que la otra: tiene metro, parques y tiendas. (bueno) || mejor || Bueno → mejor, never más bueno. || @tags es.comparatives
+      fill: Mi hermano tiene treinta años y yo, veinticinco. Él es ___ que yo. || mayor || For age, use mayor (older). || @tags es.comparatives
+      mc: The rent is 950 euros. El alquiler cuesta ___ 900 euros. || *más de | más que | tan como || Before a number, use más de. || @tags es.comparatives
+      mc: Which sentence is correct? || La cocina es más grande como el baño. | *La cocina es más grande que el baño. | La cocina es tan grande que el baño. || Más goes with que; tan goes with como. || @tags es.comparatives
+      rw: Rewrite with tan … como :: El salón y el dormitorio son igual de grandes. || El salón es tan grande como el dormitorio. | El dormitorio es tan grande como el salón. || Equality: tan + adjective + como. || @tags es.comparatives
+      tf: The flat in Triana is cheaper than the flat in Nervión. || true || The flat in Triana costs 780 euros and the one in Nervión, 820. || @ctx dialogue
+      short: What doesn't the building in Triana have? || kw: ascensor/lift/elevator || "Es un tercero sin ascensor." || @ctx dialogue
+      listen: @dialogue || Which flat do they decide to call about? || The one in Nervión | *The one in Triana | Neither of them || They decide to call the landlady in Triana: "¡Triana nos espera!" || @tags es.listening
+      listen: Se alquila piso exterior de tres habitaciones, con ascensor y terraza. Ochocientos euros al mes, gastos no incluidos. || Which is true about the flat? || Bills are included | *It has a terrace | It faces the inside || "Con ascensor y terraza"; it's exterior and bills are not included (gastos no incluidos). || @tags es.listening
+      tr: My bedroom is smaller than the living room. || Mi dormitorio es más pequeño que el salón. | Mi habitación es más pequeña que el salón. | El dormitorio es más pequeño que el salón. || Más + adjective + que; the adjective agrees with the first noun. || @tags es.comparatives
+      dict: El piso es más pequeño, pero es mucho más luminoso.
+      ask: Compare where you live now with a place where you lived before. Say two differences. || kw: más/menos/mejor/peor/tan & que/como || Mi piso de ahora es más pequeño que el anterior, pero es más luminoso y la zona es mejor.
+
+  - title: Furniture and chores
+    summary: Name furniture and household chores, share out the housework and meet por and para.
+    minutes: 40
+    skills: [vocabulary, grammar, writing]
+    tags: [es.por-para, es.frequency]
+    objectives:
+      - Name furniture, appliances and household chores
+      - Say who does which chores and how often
+      - Use para for purpose, recipients and deadlines, and por for reasons, places you go through and frequency
+    intro: |
+      Who does the washing-up in your home? Who puts the washing machine on? Sharing a flat or a home means talking about **las tareas de casa** — and saying things like *una estantería para los libros* or *gracias por limpiar*. This lesson introduces two small words that English often translates as "for": **por** and **para**.
+    vocab: |
+      el sofá | sofa | n | El sofá es para tres personas. | The sofa seats three. | g: m | pl: sofás
+      el armario | wardrobe; cupboard | n | No cabe más ropa en el armario. | There's no more room in the wardrobe. | g: m
+      la estantería | shelves; bookcase | n | Necesito una estantería para los libros. | I need some shelves for my books. | g: f
+      la lavadora | washing machine | n | ¿Pones tú la lavadora hoy? | Will you put the washing on today? | g: f | c: poner la lavadora
+      el lavavajillas | dishwasher | n | Vacía el lavavajillas, por favor. | Empty the dishwasher, please. | g: m | pl: lavavajillas | n: Also el lavaplatos.
+      fregar los platos | to do the washing-up | expr | Yo friego los platos y tú barres la cocina. | I'll do the washing-up and you sweep the kitchen. | n: Fregar: e → ie (friego). In Latin America: lavar los platos.
+      barrer | to sweep | v | Barro la terraza una vez por semana. | I sweep the terrace once a week.
+      pasar la aspiradora | to vacuum | expr | Paso la aspiradora los sábados por la mañana. | I vacuum on Saturday mornings.
+      hacer la cama | to make the bed | expr | Mis hijos hacen la cama todos los días. | My children make their beds every day.
+      tender la ropa | to hang out the washing | expr | En verano tendemos la ropa en la terraza. | In summer we hang the washing out on the terrace. | n: Tender: e → ie (tiendo).
+      sacar la basura | to take out the rubbish | expr | ¿Quién saca la basura esta noche? | Who's taking out the rubbish tonight?
+      planchar | to iron | v | Odio planchar camisas. | I hate ironing shirts.
+      repartir las tareas | to share out the chores | expr | En mi casa repartimos las tareas cada semana. | At home we share out the chores every week.
+    grammar:
+      title: "Por and para: a first look"
+      body: |
+        **Por** and **para** can both translate as *for*, but they are not interchangeable. At A2, learn their most common uses.
+
+        **Para** looks ahead — to a goal, a person or a deadline:
+        - **purpose** (in order to, for a use): *Compré una estantería para los libros. Ahorro para comprar un sofá.*
+        - **recipient**: *Esta llave es para ti.*
+        - **deadline**: *Necesito el sofá para el viernes.*
+
+        **Por** looks at causes and routes:
+        - **reason**, including thanks: *Gracias por tu ayuda. No dormí por el ruido.*
+        - **through or around a place**: *Paso la aspiradora por toda la casa. Paseamos por el barrio.*
+        - **frequency** (per): *dos veces por semana, 80 euros por persona*
+        - **parts of the day**: *por la mañana, por la tarde, por la noche*
+
+        Quick test: if you can say "in order to", use **para**: *Vengo para ayudar.* If you can say "because of" or "thanks for", use **por**: *Gracias por venir.*
+      table: |
+        Use | por / para | Example
+        purpose (in order to) | para | Necesito una mesa para trabajar.
+        recipient | para | Esta llave es para ti.
+        deadline | para | Tiene que estar limpio para el lunes.
+        reason, thanks | por | Gracias por fregar los platos.
+        through, around | por | Pasa la aspiradora por el pasillo.
+        frequency, per | por | Ponemos la lavadora tres veces por semana.
+      examples: |
+        He comprado un armario nuevo para el dormitorio. | I've bought a new wardrobe for the bedroom.
+        Gracias por sacar la basura. | Thanks for taking the rubbish out.
+        Pasamos la aspiradora dos veces por semana. | We vacuum twice a week.
+        Necesito la casa limpia para el sábado: vienen mis padres. | I need the house clean by Saturday: my parents are coming.
+      tip: "For frequency, Spanish also uses al / a la: una vez al día, dos veces a la semana. Both a la semana and por semana are correct."
+    dialogue:
+      title: Las tareas de casa
+      setting: Sunday evening in a shared flat in Salamanca. Ainhoa, Tomás and Ruth decide to organise the housework.
+      speakers: A=Ainhoa/f; T=Tomás/m; R=Ruth/f
+      lines: |
+        A: Chicos, tenemos que hablar. La cocina está fatal. | Guys, we need to talk. The kitchen is a mess.
+        T: Vale, vale. ¿Por qué no repartimos las tareas? | OK, OK. Why don't we share out the chores?
+        R: Buena idea. Yo friego los platos por la noche. | Good idea. I'll do the washing-up in the evenings.
+        A: Pues yo paso la aspiradora dos veces por semana. | Well, I'll vacuum twice a week.
+        T: Yo puedo sacar la basura y poner la lavadora. | I can take out the rubbish and put the washing on.
+        R: ¿Y quién plancha? Yo no sé planchar. | And who does the ironing? I can't iron.
+        A: Tranquila, nadie plancha en esta casa. | Don't worry, nobody irons in this house.
+        T: Oye, y necesitamos una estantería para el salón. | Hey, and we need some shelves for the living room.
+        R: Sí, para los libros de Ainhoa. ¡Están por todo el suelo! | Yes, for Ainhoa's books. They're all over the floor!
+        A: Vale, yo compro una el sábado. | OK, I'll buy some on Saturday.
+        T: Perfecto. Y gracias por organizar todo esto, Ainhoa. | Perfect. And thanks for organising all this, Ainhoa.
+        A: De nada. ¡Pero la lista es para todos! | You're welcome. But the list is for everyone!
+    pronunciation:
+      title: "The soft d: todo, nadie, cada día"
+      body: |
+        Spanish **d** has two sounds. At the start of a phrase and after **n** or **l** it is a hard [d], with the tongue touching the back of the top teeth: *¿Dónde?, el dormitorio, cuando*.
+
+        Between vowels and at the end of a word it is soft [ð], like the *th* in English *this*, but lighter: *todo, nadie, cada día, ordenado*. At the end of a word it is very weak: *usted, la ciudad*. Listen and repeat.
+      items: |
+        todo
+        nadie
+        cada día
+        el dormitorio
+        ordenado
+        usted
+    culture:
+      title: Who does the housework?
+      body: |
+        Surveys show that women in Spain still do more of the housework and caring than men, although the gap is smaller among younger couples. Sharing out the chores — *repartir las tareas* — is a common topic in shared flats and families.
+
+        In Spain, washing is usually hung out to dry rather than tumble-dried: on a balcony, a terrace or a line outside the kitchen window. Rubbish is sorted into street containers by colour: **yellow** for packaging, **blue** for paper and **green** for glass.
+    mistakes: |
+      Gracias para tu ayuda. => Gracias por tu ayuda. | After gracias, use por: the reason for thanking.
+      Necesito una mesa por trabajar. => Necesito una mesa para trabajar. | Purpose (in order to) takes para.
+      Pongo la lavadora tres veces para semana. => Pongo la lavadora tres veces por semana. | Frequency takes por (or a la): tres veces por semana / a la semana.
+    task:
+      title: The chores rota
+      mode: writing
+      body: |
+        You share a flat with two other people. Write a weekly chores rota (who does what and how often), then a short message to your flatmates (50–70 words) explaining it. Use para at least twice (purpose, recipient or deadline) and por at least twice (*por semana, gracias por, por la noche…*).
+    exercises: |
+      fill: Estas flores son ___ tu madre. || para || The recipient of something takes para. || @tags es.por-para
+      fill: Gracias ___ fregar los platos. || por || After gracias, use por. || @tags es.por-para
+      fill: Paso la aspiradora dos veces ___ semana. || por / a la || Frequency: dos veces por semana or dos veces a la semana. || @tags es.por-para,es.frequency
+      fill: Necesito una estantería ___ los libros. || para || Purpose or use: para. || @tags es.por-para
+      fill: No pude dormir ___ el ruido de los vecinos. || por || The reason or cause: por. || @tags es.por-para
+      mc: «Paseamos ___ el parque todas las tardes.» || *por | para || Por = through or around a place. || @tags es.por-para
+      rw: Join the sentences with para :: Ahorro dinero. Quiero comprar un sofá. || Ahorro dinero para comprar un sofá. || Purpose: para + infinitive. || @tags es.por-para,es.join
+      tf: Tomás offers to do the ironing. || false || Nobody irons. Tomás offers to take out the rubbish and put the washing on. || @ctx dialogue
+      short: Why do they need shelves? || kw: libros/books || "Para los libros de Ainhoa. ¡Están por todo el suelo!" || @ctx dialogue
+      listen: @dialogue || How often will Ainhoa vacuum? || Every day | *Twice a week | Once a week || "Yo paso la aspiradora dos veces por semana." || @tags es.listening,es.frequency
+      listen: En mi casa, mi pareja cocina y yo friego los platos. Los sábados limpiamos juntos el baño. || What do they do together on Saturdays? || The cooking | *Clean the bathroom | The washing-up || "Los sábados limpiamos juntos el baño." || @tags es.listening
+      tr: Thanks for making the bed! || ¡Gracias por hacer la cama! | Gracias por hacer la cama. || Gracias por + infinitive. Making the bed = hacer la cama. || @tags es.por-para
+      dict: Pongo la lavadora tres veces por semana y tiendo la ropa en la terraza.
+      ask: Say which chores you do at home and how often. || kw: friego/paso/barro/hago/saco/pongo/plancho/limpio/tiendo & por semana/a la semana/al día/todos los días/los sábados/los domingos/una vez/dos veces || Yo hago la cama todos los días y paso la aspiradora dos veces por semana. Mi pareja friega los platos y los domingos limpiamos juntos el baño.
+
+  - title: Neighbours and community
+    summary: Describe your neighbourhood and your neighbours, compare quantities and actions with tanto … como, and deal politely with a small problem.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [es.comparatives, es.hay]
+    objectives:
+      - Compare quantities with más/menos + noun + que and tanto/a/os/as + noun + como
+      - Compare actions with más que, menos que and tanto como
+      - Describe your neighbourhood and talk politely to a neighbour about a problem
+    intro: |
+      Your neighbourhood (*barrio*) and neighbours (*vecinos*) shape your daily life: the bakery downstairs, the noisy flat upstairs, the residents' meeting. In this lesson you will compare places and habits — *aquí hay más parques que en el centro*, *no hay tanto tráfico como en mi barrio anterior* — and talk to a neighbour about a problem, politely.
+    vocab: |
+      el barrio | neighbourhood; area | n | Mi barrio tiene muchas tiendas pequeñas. | My neighbourhood has lots of small shops. | g: m
+      el vecino / la vecina | neighbour | n | Mi vecina del tercero es muy simpática. | My neighbour on the third floor is very nice. | g: m/f
+      la comunidad de vecinos | residents' association | n | La comunidad de vecinos se reúne dos veces al año. | The residents' association meets twice a year. | g: f
+      el portal | entrance hall (of a building) | n | Hay un cartel nuevo en el portal. | There's a new notice in the entrance hall. | g: m
+      el ruido | noise | n | Por la noche hay mucho ruido en la calle. | At night there's a lot of noise in the street. | g: m
+      molestar | to bother; to disturb | v | ¿Le molesta la música? | Does the music bother you? | n: Works like gustar: me molesta, le molesta.
+      quejarse | to complain | v | Los vecinos se quejan del ruido de la terraza. | The neighbours complain about the noise from the terrace. | c: quejarse de algo
+      el tráfico | traffic | n | En mi calle hay mucho tráfico. | There's a lot of traffic in my street. | g: m
+      la zona verde | green space; park area | n | Este barrio tiene pocas zonas verdes. | This neighbourhood has few green spaces. | g: f
+      animado / animada | lively | adj | La plaza está muy animada los domingos. | The square is very lively on Sundays.
+      el comercio de barrio | local shops | n | Prefiero el comercio de barrio al supermercado. | I prefer local shops to the supermarket. | g: m
+      echar una mano | to lend a hand | expr | ¿Te echo una mano con las bolsas? | Shall I give you a hand with the bags?
+      llevarse bien con | to get on well with | expr | Me llevo muy bien con mis vecinos. | I get on very well with my neighbours.
+      tanto … como | as much … as; as many … as | expr | No hay tantos bares como en el centro. | There aren't as many bars as in the centre. | n: Agrees with the noun: tanto, tanta, tantos, tantas.
+    grammar:
+      title: "Comparing quantities and actions: tanto, tantos, tanto como"
+      body: |
+        In Lesson 1 you compared qualities with adjectives. To compare **quantities** (with a noun):
+        - **más / menos** + noun + **que**: *Aquí hay más parques que en el centro. Hay menos tráfico que antes.*
+        - **tanto / tanta / tantos / tantas** + noun + **como** (as much / as many … as). *Tanto* agrees with the noun: *No hay tanto ruido como en mi calle anterior. Hay tantas tiendas como en el centro.*
+
+        To compare **actions** (with a verb):
+        - verb + **más que / menos que**: *Mi vecino trabaja más que yo.*
+        - verb + **tanto como** (it never changes): *Ahora salgo tanto como antes.*
+
+        Remember: before an adjective, **tan** (*tan tranquilo como*); before a noun, **tanto / tanta / tantos / tantas** (*tantos vecinos como*); after a verb, **tanto** (*duermo tanto como tú*).
+      table: |
+        Compare | Structure | Example
+        quality | tan + adjective + como | La plaza es tan animada como el centro.
+        quantity (singular) | tanto / tanta + noun + como | Hay tanta gente como ayer.
+        quantity (plural) | tantos / tantas + noun + como | Hay tantos bares como tiendas.
+        quantity | más / menos + noun + que | Hay menos coches que antes.
+        action | verb + tanto como | Aquí paseo tanto como en el pueblo.
+        action | verb + más / menos que | Mi vecino trabaja más que yo.
+      examples: |
+        En mi barrio nuevo hay más zonas verdes que en el anterior. | In my new neighbourhood there are more green spaces than in my old one.
+        No hay tanto tráfico como en el centro, pero hay menos autobuses. | There isn't as much traffic as in the centre, but there are fewer buses.
+        Mis vecinos de arriba hacen tanto ruido como una banda de música. | My upstairs neighbours make as much noise as a brass band.
+        Ahora salgo menos que antes porque trabajo más. | Now I go out less than before because I work more.
+      tip: "Menos never changes: menos tráfico, menos tiendas. But tanto agrees with the noun: tanto tráfico, tantas tiendas."
+    dialogue:
+      title: Un problema con el vecino
+      setting: Saturday morning on the landing of an old building in Valencia. Consuelo, an elderly neighbour, knocks on Bilal's door. They use usted.
+      speakers: C=Consuelo/f; B=Bilal/m
+      lines: |
+        C: Buenos días, joven. Soy Consuelo, la vecina del segundo. | Good morning, young man. I'm Consuelo, the neighbour on the second floor.
+        B: Ah, buenos días. Yo soy Bilal. ¿Pasa algo? | Oh, good morning. I'm Bilal. Is something wrong?
+        C: Pues sí. Anoche hubo mucho ruido en su piso. | Well, yes. Last night there was a lot of noise in your flat.
+        B: Lo siento mucho. Fue el cumpleaños de mi compañero de piso. | I'm very sorry. It was my flatmate's birthday.
+        C: Ya. Pero eran las tres de la mañana y tengo ochenta años. | I see. But it was three in the morning and I'm eighty.
+        B: Tiene toda la razón. No va a pasar más, de verdad. | You're absolutely right. It won't happen again, honestly.
+        C: Gracias. Antes en este edificio había más familias y menos fiestas. | Thank you. This building used to have more families and fewer parties.
+        B: Ya, ahora hay tantos estudiantes como familias, ¿no? | I know, now there are as many students as families, aren't there?
+        C: Sí, y no me molesta, ¿eh? Me gusta la gente joven. | Yes, and it doesn't bother me, you know. I like young people.
+        B: Oiga, ¿le echo una mano con esas bolsas? | Excuse me, can I give you a hand with those bags?
+        C: ¡Ay, sí, gracias! Pesan tanto como yo. | Oh, yes, thanks! They weigh as much as I do.
+        B: ¡Qué exagerada! Venga, vamos al segundo. | You do exaggerate! Come on, let's go up to the second floor.
+    pronunciation:
+      title: "C, z and qu: vecino, plaza, comercio"
+      body: |
+        In most of Spain, **c before e or i** and **z** are pronounced [θ], like the *th* in *think*: *vecino, la ciudad, la plaza*. In Latin America, the Canaries and parts of Andalusia they sound like [s].
+
+        Before *a, o, u* and consonants, **c** is [k]: *comercio, el tráfico, la comunidad*. Many words have both sounds: *comercio* [ko-ˈmeɾ-θjo]. Listen and repeat.
+      items: |
+        el vecino
+        la ciudad
+        el comercio
+        el tráfico
+        la plaza
+        la comunidad
+    culture:
+      title: Life in a comunidad de vecinos
+      body: |
+        Most people in Spanish towns live in blocks of flats, and every block has a **comunidad de vecinos**: the owners pay a monthly fee for cleaning, the lift and repairs, and meet at a **junta** to make decisions. Notices about meetings, works or rules go up in the **portal**.
+
+        Spanish streets are lively, and noise is a classic topic between neighbours. Many towns have rules about noise at night, and talking to the neighbour first — politely, with usted if they are older — is usually the best solution. Local shops, the bar on the corner and the neighbourhood **fiestas** keep the community together.
+    mistakes: |
+      Hay tanto tiendas como en el centro. => Hay tantas tiendas como en el centro. | Before a noun, tanto agrees with it: tantas tiendas (feminine plural).
+      No hay tan tráfico como antes. => No hay tanto tráfico como antes. | Tan goes before adjectives; before a noun, use tanto/a/os/as.
+      Mi vecino trabaja tan como yo. => Mi vecino trabaja tanto como yo. | After a verb, use tanto como.
+    task:
+      title: My neighbourhood, then and now
+      mode: speaking
+      body: |
+        Compare the neighbourhood where you live now with one where you lived before or grew up. Talk about shops, green spaces, traffic, noise and neighbours, using *más/menos … que*, *tanto/a/os/as … como* and *tanto como*. Then say which one you prefer and why. Record yourself in Speaking practice (about one minute).
+    exercises: |
+      fill: En mi barrio hay ___ parques ___ en el centro: aquí hay cinco y allí, uno. || más ; que || More parks: más + noun + que. || @tags es.comparatives
+      fill: No hay ___ tráfico como en Madrid. || tanto || Tráfico is masculine singular: tanto tráfico como. || @tags es.comparatives
+      fill: En esta calle hay ___ tiendas como bares: doce de cada. || tantas || Tiendas is feminine plural: tantas tiendas como. || @tags es.comparatives
+      fill: Mi vecina sale ___ ___ yo: las dos salimos todos los viernes. || tanto ; como || Comparing actions: verb + tanto como. || @tags es.comparatives
+      mc: Choose the correct sentence. || *No hay tantos coches como antes. | No hay tantas coches como antes. | No hay tan coches como antes. || Coches is masculine plural, so tantos. Tan only goes before adjectives. || @tags es.comparatives
+      mc: Esta plaza es ___ animada como la plaza Mayor. || *tan | tanta | tanto || Before an adjective (animada), use tan. || @tags es.comparatives
+      rw: Rewrite with tanto … como :: En el pueblo hay diez bares y diez tiendas. || En el pueblo hay tantos bares como tiendas. | En el pueblo hay tantas tiendas como bares. || The same number: tantos bares como tiendas (or tantas tiendas como bares). || @tags es.comparatives
+      tf: Bilal had a party for his own birthday. || false || "Fue el cumpleaños de mi compañero de piso" — his flatmate's birthday. || @ctx dialogue
+      short: What time was it when the noise bothered Consuelo? || kw: tres/3/three || "Eran las tres de la mañana." || @ctx dialogue
+      listen: @dialogue || What does Bilal offer to do at the end? || Turn the music down | *Help with her bags | Invite her to a party || "¿Le echo una mano con esas bolsas?" || @tags es.listening
+      listen: Me gusta mi barrio nuevo: hay menos tráfico, más zonas verdes y los vecinos son muy amables. || What does the speaker NOT say about the new neighbourhood? || There's less traffic | There are more green spaces | *There are more shops || The speaker mentions less traffic, more green spaces and friendly neighbours — nothing about shops. || @tags es.listening,es.comparatives
+      tr: There aren't as many shops as in the centre. || No hay tantas tiendas como en el centro. || Tiendas is feminine plural: tantas … como. || @tags es.comparatives
+      dict: En mi barrio hay menos tráfico y más zonas verdes que en el centro.
+      ask: A friend asks «¿Qué tal tu barrio?». Compare it with the city centre and give two differences. || kw: más/menos/tanto/tanta/tantos/tantas & que/como || Me gusta mucho. Hay menos tráfico que en el centro y no hay tanto ruido, pero hay menos tiendas.

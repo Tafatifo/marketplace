@@ -1,0 +1,380 @@
+unit: 6
+title: På indkøb
+theme: Shopping
+description: Describe clothes and colours with the right endings, count to 100 (including halvtreds, tres, halvfjerds, firs and halvfems), ask prices, and choose items in a shop with den her, det her and de her.
+objectives:
+  - Describe clothes with colour adjectives that agree with the noun
+  - Understand and say numbers and prices up to 100
+  - Choose, try on and pay for items in a shop with den her / det her / de her
+canDo:
+  - I can say what I'm wearing, with colours.
+  - I can understand prices up to 100 kroner, including the numbers 50–90.
+  - I can ask how much something costs and whether I can try it on.
+  - I can say that something is too big or too small and ask for another size.
+review: |
+  fill: et ___ tørklæde (hvid) || hvidt || Tørklæde is an et-word: hvid → hvidt. || @tags da.adjective-agreement
+  fill: Skoene er ___. (brun) || brune || Sko is plural here: brun → brune. || @tags da.adjective-agreement
+  mc: 90 in Danish is… || *halvfems | halvfjerds | firs || Halvfems = 4½ × 20 = 90. Halvfjerds = 70, firs = 80. || @tags da.numbers
+  mc: "Seksogfyrre" is… || 64 | *46 | 56 || Seks-og-fyrre = six and forty = 46. The unit comes first. || @tags da.numbers
+  fill: ___ her bukser er for store. || De || Bukser is plural: de her. || @tags da.demonstratives
+  fill: Hvad koster ___ her tørklæde? || det || Tørklæde is an et-word: det her. || @tags da.demonstratives
+  tr: How much is this jumper? || Hvor meget koster den her trøje? | Hvad koster den her trøje? | Hvad koster denne trøje? | Hvor meget koster denne trøje? || Trøje is an en-word: den her trøje (or the written denne trøje). || @tags da.demonstratives
+  tr: I'm wearing black trousers and a red jumper. || Jeg har sorte bukser og en rød trøje på. | Jeg har et par sorte bukser og en rød trøje på. || Have … på = wear; sorte (plural), rød (en-word). || @tags da.adjective-agreement
+  listen: Tørklædet koster otteogtres kroner, og huen koster tooghalvtreds. || How much is the hat? || *52 kr. | 68 kr. | 25 kr. || To-og-halvtreds = 2 + 50 = 52. The scarf is otteogtres (68). || @tags da.numbers
+  listen: Den her kjole er for lille. Har I den i large? || What is the problem? || *The dress is too small | The dress is too expensive | The dress is the wrong colour || "Den her kjole er for lille" — this dress is too small. || @tags da.demonstratives
+  ask: In a shop, ask how much something costs, say it's too big or too small, and ask for another size. || kw: koster & for stor/for lille/for små/for store & har i/har du || Hvad koster den her jakke? Den er for stor. Har I den i small?
+  write: Write a text to a friend from a shop — describe two things you like (colour and price) and ask which one to buy. || min=25 || req: den her/det her/de her | koster | kroner || Hej Maja! Jeg er i en butik i Aalborg. Der er en grøn jakke på tilbud. Den koster halvfems kroner. Der er også et blåt tørklæde. Det koster femogfyrre kroner. Den her jakke eller det her tørklæde? Kram, Ida
+lessons:
+  - title: Clothes and colours
+    summary: Name everyday clothes and describe them with colours that take -t and -e endings, like other adjectives.
+    minutes: 35
+    skills: [vocabulary, grammar, writing]
+    tags: [da.adjective-agreement]
+    objectives:
+      - Name common clothes and say what you are wearing (have … på)
+      - Use colour adjectives with en-words, et-words and plurals
+      - Remember the special cases sort, grøn, blå and orange
+    intro: |
+      Clothes are perfect for practising adjective endings, because you always say what colour things are: *en rød jakke, et rødt tørklæde, røde sko*. In this lesson you will name clothes, describe them, and say what you are wearing — in Danish, you *have* clothes *on*: **Jeg har en trøje på.**
+    vocab: |
+      en trøje | a jumper; a top | n | Trøjen er varm. | The jumper is warm. | g: c | pl: trøjer
+      en skjorte | a shirt | n | Han har en hvid skjorte på. | He's wearing a white shirt. | g: c | pl: skjorter
+      en kjole | a dress | n | Hun har en rød kjole på. | She's wearing a red dress. | g: c | pl: kjoler
+      et par bukser | a pair of trousers | n | Jeg køber et par sorte bukser. | I'm buying a pair of black trousers. | g: n | n: Bukser is always plural: Bukserne er nye.
+      en jakke | a jacket | n | Jakken er grøn. | The jacket is green. | g: c | pl: jakker
+      et par sko | a pair of shoes | n | Skoene er brune. | The shoes are brown. | g: n | n: Sko is the same in singular and plural: en sko, to sko, skoene.
+      en hue | a woolly hat | n | Om vinteren har jeg en hue på. | In winter I wear a woolly hat. | g: c | pl: huer
+      et tørklæde | a scarf | n | Tørklædet er gult. | The scarf is yellow. | g: n | pl: tørklæder
+      rød | red | adj | Jeg har en rød kjole og et rødt tørklæde. | I have a red dress and a red scarf. | n: rød, rødt, røde
+      blå | blue | adj | Hun har et blåt tørklæde. | She has a blue scarf. | n: blå, blåt, blå (the plural can also be blåe).
+      grøn | green | adj | Han har grønne sko. | He has green shoes. | n: The n doubles in the plural: grønne.
+      sort; hvid | black; white | adj | Skjorten er hvid, og bukserne er sorte. | The shirt is white, and the trousers are black. | n: Sort already ends in -t: et sort tørklæde.
+      gul; brun; grå | yellow; brown; grey | adj | Jeg har en gul jakke og grå bukser. | I have a yellow jacket and grey trousers. | n: grå, gråt, grå (or gråe).
+      have … på | to wear | expr | Hvad har du på i dag? | What are you wearing today? | n: Literally "have on": Jeg har en trøje på.
+    grammar:
+      title: "Colours: rød, rødt, røde"
+      body: |
+        Colours are adjectives, so they follow the rule from unit 2: **en-word** — no ending, **et-word** — add **-t**, **plural** — add **-e**: *en rød jakke, et rødt tørklæde, røde sko.* The same endings appear after *er*: *Tørklædet er rødt. Skoene er røde.*
+
+        Colours to watch:
+
+        - **sort** already ends in -t: *et sort tørklæde*, plural *sorte*.
+        - **grøn** doubles the n in the plural: *grønne sko*.
+        - **blå** and **grå** take -t (*blåt, gråt*), but in the plural usually stay *blå, grå*.
+        - **orange** and **lilla** (purple) never change: *et orange tørklæde, lilla sko*.
+
+        **Bukser** (trousers) and **briller** (glasses) are always plural: *Bukserne er sorte.*
+
+        To say what someone is wearing, use **have … på**: *Hun har en blå kjole på.*
+      table: |
+        Colour | en-word | et-word | plural
+        rød (red) | en rød jakke | et rødt tørklæde | røde sko
+        hvid (white) | en hvid skjorte | et hvidt tørklæde | hvide sko
+        grøn (green) | en grøn hue | et grønt tørklæde | grønne sko
+        sort (black) | en sort kjole | et sort tørklæde | sorte bukser
+        blå (blue) | en blå jakke | et blåt tørklæde | blå sko
+        orange | en orange hue | et orange tørklæde | orange sko
+      examples: |
+        Jeg har en grøn jakke og et gult tørklæde. | I have a green jacket and a yellow scarf.
+        Bukserne er sorte. | The trousers are black. | bukser is plural → -e
+        Hun har en blå kjole på i dag. | She's wearing a blue dress today. | have … på
+        Skoene er brune. | The shoes are brown.
+      tip: "Bukser and briller are always plural in Danish — Bukserne er nye means \"the trousers are new\"."
+    dialogue:
+      title: Hvad har du på?
+      setting: Nadia and Mathias are getting ready for a friend's party in Aalborg on a cold evening.
+      speakers: N=Nadia/f; M=Mathias/m
+      lines: |
+        N: Hvad har du på til festen? | What are you wearing to the party?
+        M: Min blå skjorte og sorte bukser. | My blue shirt and black trousers.
+        N: Fint! Og hvilke sko? | Nice! And which shoes?
+        M: Brune sko. Eller hvide? | Brown shoes. Or white?
+        N: Brune, helt sikkert. | Brown, definitely.
+        M: Og du? Har du en kjole på? | And you? Are you wearing a dress?
+        N: Ja, en grøn kjole og et gult tørklæde. | Yes, a green dress and a yellow scarf.
+        M: Grøn og gul? Det er flot! | Green and yellow? That looks great!
+        N: Tak! Og en sort jakke. Det er koldt. | Thanks! And a black jacket. It's cold.
+        M: Godt. Er du klar? | Good. Are you ready?
+        N: Næsten! Hvor er min hue? | Almost! Where's my woolly hat?
+    pronunciation:
+      title: "rød, rødt — hvid, hvidt"
+      body: |
+        In **rød** and **hvid** you hear the soft d at the end, and in *hvid* the h is silent: "vid". But in the et-forms **rødt** and **hvidt** the d is silent and you hear a short t: roughly "røt" and "vit".
+
+        **Grøn** has the rounded ø, and **blå** the å sound from unit 2. Listen and repeat each pair, then the whole sentence.
+      items: |
+        rød
+        rødt
+        hvid
+        hvidt
+        grøn
+        En rød jakke og et hvidt tørklæde.
+    culture:
+      title: Dressed for the weather
+      body: |
+        In Denmark you see a lot of practical clothing: rain jackets, warm layers, woolly hats and comfortable shoes for cycling. A popular saying goes *Der findes ikke dårligt vejr, kun forkert påklædning* — "There's no such thing as bad weather, only the wrong clothes."
+
+        **Tøj** (clothes) is a singular, uncountable word in Danish: *Mit tøj er vådt* (My clothes are wet). Big sales, **udsalg**, usually come after Christmas and in summer.
+    mistakes: |
+      et rød tørklæde => et rødt tørklæde | Tørklæde is an et-word, so the colour takes -t.
+      grøne sko => grønne sko | Grøn doubles the n in the plural.
+      Bukserne er sort. => Bukserne er sorte. | Bukser is plural, so the colour takes -e.
+    task:
+      title: Today's outfit
+      mode: writing
+      body: |
+        Write three or four sentences about what you are wearing today and what a friend or family member is wearing — use have … på and at least four colours, with the right endings.
+    exercises: |
+      fill: et ___ tørklæde (rød) || rødt || Tørklæde is an et-word: rød → rødt. || @tags da.adjective-agreement
+      fill: to ___ trøjer (hvid) || hvide || Plural: hvid → hvide. || @tags da.adjective-agreement
+      fill: Bukserne er ___. (sort) || sorte || Bukser is plural: sort → sorte. || @tags da.adjective-agreement
+      mc: How do you say "a black scarf"? || et sortt tørklæde | *et sort tørklæde | en sort tørklæde || Sort already ends in -t, and tørklæde is an et-word: et sort tørklæde. || @tags da.adjective-agreement,da.gender
+      mc: How do you say "an orange hat"? || *en orange hue | et orange hue | en oranget hue || Hue is an en-word, and orange never changes. || @tags da.adjective-agreement
+      mc: What colour is Nadia's dress? || *Green | Yellow | Black || "En grøn kjole og et gult tørklæde." || @ctx dialogue @skill reading @tags da.reading
+      tf: Mathias wears white shoes. || false || Nadia says "Brune, helt sikkert" — brown shoes. || @ctx dialogue
+      short: What can't Nadia find? || kw: hue/hat || "Hvor er min hue?" — her woolly hat. || @ctx dialogue
+      match: rød = red ; gul = yellow ; grøn = green ; sort = black ; hvid = white ; grå = grey || Six basic colours. || @tags da.vocabulary @skill vocabulary
+      order: Hun har en rød kjole og et gult tørklæde på. || She's wearing a red dress and a yellow scarf. || @alt Hun har et gult tørklæde og en rød kjole på. @tags da.adjective-agreement
+      tr: I'm wearing a blue jumper today. || Jeg har en blå trøje på i dag. | I dag har jeg en blå trøje på. || Have … på = wear; trøje is an en-word: en blå trøje. || @tags da.adjective-agreement
+      listen: Min søn har en gul jakke, blå bukser og røde sko. || What colour is the boy's jacket? || Red | Blue | *Yellow || "En gul jakke" — a yellow jacket. The shoes are red. || @tags da.adjective-agreement
+      say: Jeg har en rød jakke og et hvidt tørklæde. || I have a red jacket and a white scarf.
+      write: Describe what you are wearing today, with colours. || min=15 || req: har | på || I dag har jeg en grøn trøje, blå bukser og hvide sko på. Min jakke er sort, og mit tørklæde er gult.
+      dict: Skoene er brune, og jakken er grøn.
+
+  - title: Prices and numbers to 100
+    summary: Count from 21 to 100 — including the Danish twenties-based numbers halvtreds, tres, halvfjerds, firs and halvfems — and ask how much things cost.
+    minutes: 40
+    skills: [vocabulary, listening, grammar]
+    tags: [da.numbers]
+    objectives:
+      - Say and understand numbers from 21 to 100
+      - Recognise the special words for 50, 60, 70, 80 and 90
+      - Ask prices with hvor meget / hvad koster and quantities with hvor mange
+    intro: |
+      Danish numbers above 20 are famous among learners. First, the unit comes before the ten: **femogtyve** is "five-and-twenty". Second, 50 to 90 come from an old way of counting in twenties: **tres** (60) means "three twenties". Don't worry — you don't need to calculate. Learn the five words, listen a lot, and prices will soon make sense.
+    vocab: |
+      tredive; fyrre | thirty; forty | num | Bogen koster fyrre kroner. | The book costs forty kroner. | n: Fyrre is a short form of the old fyrretyve.
+      halvtreds | fifty | num | Billetten koster halvtreds kroner. | The ticket costs fifty kroner. | n: Short for halvtredsindstyve: 2½ × 20.
+      tres | sixty | num | Min far er tres år. | My father is sixty. | n: Short for tresindstyve: 3 × 20.
+      halvfjerds | seventy | num | Min farmor er halvfjerds. | My grandmother is seventy. | n: 3½ × 20.
+      firs | eighty | num | Huen koster firs kroner. | The hat costs eighty kroner. | n: 4 × 20.
+      halvfems | ninety | num | T-shirten koster halvfems kroner. | The T-shirt costs ninety kroner. | n: 4½ × 20.
+      hundrede | a hundred | num | Det koster hundrede kroner. | It costs a hundred kroner. | n: Also et hundrede.
+      enogtyve | twenty-one | num | Hun er enogtyve år. | She's twenty-one. | n: Unit + og + ten, written as one word: en-og-tyve.
+      femogfyrre | forty-five | num | Det bliver femogfyrre kroner. | That will be forty-five kroner.
+      hvor meget koster…? | how much is…? | expr | Hvor meget koster tørklædet? | How much is the scarf? | n: You can also say Hvad koster…?
+      hvor mange | how many | expr | Hvor mange sko har du? | How many shoes do you have? | n: For things you can count.
+      dyr; billig | expensive; cheap | adj | Jakken er dyr, men trøjen er billig. | The jacket is expensive, but the jumper is cheap. | n: In billig the g is silent: "bil-li".
+      et tilbud | a special offer | n | Sko på tilbud: halvfjerds kroner! | Shoes on offer: seventy kroner! | g: n | pl: tilbud
+      tilbage | back; change | adv | Her er ti kroner tilbage. | Here's ten kroner change.
+    grammar:
+      title: "Numbers to 100 — and hvor meget?"
+      body: |
+        From 21 to 99, Danish says the **unit first**, then **og**, then the ten — like the old English "four-and-twenty". The number is written as one word: *21 enogtyve, 35 femogtredive, 47 syvogfyrre.*
+
+        **20, 30, 40** are *tyve, tredive, fyrre*. **50 to 90** come from an old system of counting in twenties (scores):
+
+        - **halvtreds** = 50 (from *halvtredsindstyve*, 2½ × 20)
+        - **tres** = 60 (3 × 20)
+        - **halvfjerds** = 70 (3½ × 20)
+        - **firs** = 80 (4 × 20)
+        - **halvfems** = 90 (4½ × 20)
+
+        You never need to do the maths — just learn the five words. So: *58 otteoghalvtreds, 64 fireogtres, 73 treoghalvfjerds, 86 seksogfirs, 99 nioghalvfems.* 100 is **hundrede**.
+
+        **Hvor meget or hvor mange?** Use **hvor meget** (how much) for prices and things you can't count: *Hvor meget koster den?* Use **hvor mange** (how many) for things you count: *Hvor mange trøjer har du?*
+
+        Prices are written with a comma: *49,95 kr.*
+      table: |
+        Number | Danish | Literally
+        21 | enogtyve | one and twenty
+        35 | femogtredive | five and thirty
+        47 | syvogfyrre | seven and forty
+        50 | halvtreds | 2½ × 20
+        60 | tres | 3 × 20
+        70 | halvfjerds | 3½ × 20
+        80 | firs | 4 × 20
+        90 | halvfems | 4½ × 20
+        99 | nioghalvfems | nine and ninety
+      examples: |
+        Hvor meget koster huen? – Den koster niogtres kroner. | How much is the hat? – It costs sixty-nine kroner. | 9 + 60
+        Min mormor er treoghalvfjerds år. | My grandmother is seventy-three. | 3 + 70
+        Hvor mange elever er der i klassen? – Seksogtyve. | How many pupils are there in the class? – Twenty-six.
+        Det bliver femoghalvtreds kroner. | That will be fifty-five kroner. | 5 + 50
+      tip: "Listen to the end of the number — the ten comes last: in femoghalvfems you hear five first, then ninety."
+    dialogue:
+      title: På loppemarked
+      setting: A Saturday flea market in Roskilde. Tobias is looking at a lamp and some books at Vera's table.
+      speakers: T=Tobias/m; V=Vera/f
+      lines: |
+        T: Undskyld, hvor meget koster lampen? | Excuse me, how much is the lamp?
+        V: Den koster halvfjerds kroner. | It costs seventy kroner.
+        T: Halvfjerds? Det er lidt dyrt. | Seventy? That's a bit expensive.
+        V: Okay, du kan få den for tres. | Okay, you can have it for sixty.
+        T: Og hvad koster bøgerne? | And how much are the books?
+        V: Ti kroner stykket. | Ten kroner each.
+        T: Så tager jeg tre bøger og lampen. | Then I'll take three books and the lamp.
+        V: Det bliver… halvfems kroner. | That comes to… ninety kroner.
+        T: Værsgo, her er hundrede. | Here you are, here's a hundred.
+        V: Tak. Og ti kroner tilbage. | Thanks. And ten kroner change.
+        T: Tak, og hav en god dag! | Thanks, and have a nice day!
+    pronunciation:
+      title: "halvtreds, halvfjerds, halvfems"
+      body: |
+        In the "half" numbers the v is silent, and the stress falls on the second part: hal-**TREDS**, hal-**FJERDS**, hal-**FEMS**. In *halvtreds* and *halvfjerds* the d is silent too, so the endings sound like "-tres" and "-fjers".
+
+        In longer numbers, **og** in the middle is short and weak, close to "o": *femoghalvfems* ≈ "fem-o-hal-fems". Listen and repeat.
+      items: |
+        halvtreds
+        tres
+        halvfjerds
+        firs
+        halvfems
+        femoghalvfems
+    culture:
+      title: Kroner, øre and flea markets
+      body: |
+        Denmark uses the **krone** (DKK), divided into 100 **øre**. There are coins of 50 øre and 1, 2, 5, 10 and 20 kroner, and notes from 50 kroner upwards. Most people pay by card or phone, but cash is still taken in most shops.
+
+        **Loppemarkeder** (flea markets) are popular, especially in summer, in schoolyards, squares and parks. It's normal to ask *Hvad koster den?* and to suggest a slightly lower price.
+    mistakes: |
+      tyveogen => enogtyve | Danish says the unit first: en-og-tyve.
+      Hvor mange koster det? => Hvor meget koster det? | For prices, use hvor meget (or Hvad koster…?).
+      femti (for 50) => halvtreds | 50 is halvtreds — the tens from 50 to 90 have special names.
+    task:
+      title: Bargain hunting
+      mode: interaction
+      body: |
+        At a flea market, ask the price of three things, repeat each price to check it, say one thing is too expensive, and agree on a lower price. Practise numbers like halvtreds, tres and halvfjerds out loud.
+    exercises: |
+      mc: How do you say 70? || tres | *halvfjerds | halvfems || Tres = 60, halvfjerds = 70, halvfems = 90. || @tags da.numbers
+      mc: "Fireogtres" is… || 46 | *64 | 34 || Fire-og-tres = four and sixty = 64. || @tags da.numbers
+      fill: 21 = ___ || enogtyve || Unit first: en-og-tyve, written as one word. || @tags da.numbers
+      fill: 50 = ___ || halvtreds || 50 is halvtreds. || @tags da.numbers
+      fill: ___ meget koster jakken? || Hvor || For prices: Hvor meget koster…? || @tags da.question-words
+      mc: How do you ask "How many jumpers do you have?" || Hvor meget trøjer har du? | *Hvor mange trøjer har du? | Hvad mange trøjer har du? || Trøjer can be counted, so use hvor mange. || @tags da.question-words
+      mc: How much does Tobias pay in the end? || 70 kr. | *90 kr. | 100 kr. || The lamp is tres (60) + three books at ten = halvfems (90). He gives a hundred and gets ten back. || @ctx dialogue @skill reading @tags da.reading
+      short: How much is one book? || kw: 10/ti/ten || "Ti kroner stykket." || @ctx dialogue
+      match: tres = 60 ; firs = 80 ; halvtreds = 50 ; halvfems = 90 ; halvfjerds = 70 || The numbers 50–90 come from counting in twenties. || @tags da.numbers
+      tr: How much is the scarf? || Hvor meget koster tørklædet? | Hvad koster tørklædet? || Tørklæde + t = tørklædet (the scarf). || @tags da.question-words
+      tr-en: Min farfar er niogfirs år. || My grandfather is eighty-nine. | My grandfather is 89. | My grandfather is eighty-nine years old. | My grandfather is 89 years old. || Ni-og-firs = nine and eighty = 89. || @tags da.numbers
+      listen: Det bliver femoghalvfems kroner, tak. || How much is it? || 59 kr. | *95 kr. | 55 kr. || Fem-og-halvfems = five and ninety = 95. || @tags da.numbers
+      listen: Mit nummer er toogtyve, femogfyrre, otteoghalvfjerds, tres. || What is the phone number? || *22 45 78 60 | 22 54 87 60 | 22 45 78 70 || To-og-tyve 22, fem-og-fyrre 45, otte-og-halvfjerds 78, tres 60. || @tags da.numbers
+      ask: Ask the price of a jacket, then say that it's a bit expensive. || kw: hvor meget koster/hvad koster & dyr/dyrt || Hvor meget koster jakken? Halvfems kroner? Det er lidt dyrt.
+      dict: Huen koster niogtres kroner.
+
+  - title: In a shop
+    summary: Point to things with den her, det her and de her, try clothes on, ask for another size and pay.
+    minutes: 40
+    skills: [speaking, grammar, listening]
+    tags: [da.demonstratives]
+    objectives:
+      - Choose items with den her / det her / de her (and den der…)
+      - Ask to try something on and say it is too big or too small
+      - Understand shop assistants and pay
+    intro: |
+      In a shop you constantly point at things: *this jacket, these shoes, that one*. Danish does this with **den her**, **det her** and **de her** — the same en/et/plural system you already know. In this lesson you will also learn the phrases you need to try things on, ask for another size and pay.
+    vocab: |
+      kan jeg hjælpe? | can I help you? | expr | Hej, kan jeg hjælpe? | Hi, can I help you? | n: The h in hjælpe is silent.
+      jeg kigger bare | I'm just looking | expr | Nej tak, jeg kigger bare. | No thanks, I'm just looking.
+      prøve | to try; to try on | v | Må jeg prøve den her? | May I try this one on?
+      et prøverum | a fitting room | n | Prøverummet er derovre. | The fitting room is over there. | g: n | pl: prøverum
+      en størrelse | a size | n | Hvilken størrelse bruger du? | What size do you take? | g: c | pl: størrelser
+      passe | to fit | v | Bukserne passer fint. | The trousers fit well.
+      for stor; for lille | too big; too small | expr | Jakken er for stor. | The jacket is too big. | n: Plural: for store, for små.
+      den her | this (en-word) | pron | Jeg tager den her. | I'll take this one. | n: den her jakke = this jacket; den der = that one.
+      det her | this (et-word) | pron | Hvad koster det her tørklæde? | How much is this scarf?
+      de her | these | pron | De her sko er flotte. | These shoes are nice.
+      betale | to pay | v | Kan jeg betale med kort? | Can I pay by card?
+      en kvittering | a receipt | n | Vil du have kvitteringen? | Would you like the receipt? | g: c | pl: kvitteringer
+      bytte | to exchange | v | Kan jeg bytte den? | Can I exchange it?
+      flot | nice; good-looking | adj | Den er flot på dig! | It looks great on you! | n: Flot already ends in -t; plural flotte.
+    grammar:
+      title: "Den her, det her, de her"
+      body: |
+        To say *this* and *these*, Danish uses **den / det / de + her** (here). For *that* and *those*, use **den / det / de + der** (there):
+
+        - **den her** + en-word: *den her jakke* (this jacket), *den der jakke* (that jacket)
+        - **det her** + et-word: *det her tørklæde*
+        - **de her** + plural: *de her sko*
+
+        The noun keeps its **basic form**: *den her jakke* — not ~~den her jakken~~.
+
+        You can also use them alone, as pronouns: *Jeg tager den her. Hvad koster de der?*
+
+        When you talk about a thing you have already mentioned, **den** and **det** mean *it*, and **de** means *they*: *Den er for stor* (an en-word, e.g. *jakken*), *Det er for lille* (an et-word, e.g. *tørklædet*), *De er flotte* (plural).
+
+        In writing you will also see **denne, dette, disse** — a more formal version: *denne jakke, dette tørklæde, disse sko.*
+      table: |
+        | this (here) | that (there)
+        en-word | den her jakke | den der jakke
+        et-word | det her tørklæde | det der tørklæde
+        plural | de her sko | de der sko
+        written, formal | denne / dette / disse | –
+      examples: |
+        Hvad koster den her trøje? | How much is this jumper? | trøje is an en-word
+        Det her tørklæde er flot. | This scarf is nice.
+        De der sko er for små. | Those shoes are too small. | plural of lille: små
+        Den er for stor. Har I den i medium? | It's too big. Do you have it in medium?
+      tip: "Point and choose: den her (en-word), det her (et-word), de her (plural) — and the noun after it has no ending."
+    dialogue:
+      title: I tøjbutikken
+      setting: A clothes shop in Aalborg during the summer sale. Oscar is looking for a jacket; Maja works in the shop.
+      speakers: M=Maja/f; O=Oscar/m
+      lines: |
+        M: Hej! Kan jeg hjælpe? | Hi! Can I help you?
+        O: Ja tak. Hvad koster den her jakke? | Yes, please. How much is this jacket?
+        M: Nioghalvfems kroner. Den er på tilbud. | Ninety-nine kroner. It's on offer.
+        O: Godt! Må jeg prøve den? | Great! May I try it on?
+        M: Selvfølgelig. Prøverummet er derovre. | Of course. The fitting room is over there.
+        O: Hmm, den er for stor. | Hmm, it's too big.
+        M: Hvilken størrelse bruger du? | What size do you take?
+        O: Medium. Har I den i medium? | Medium. Do you have it in medium?
+        M: Ja, værsgo. De her trøjer er også på tilbud. | Yes, here you are. These jumpers are on offer too.
+        O: Den passer fint. Jeg tager jakken. | It fits well. I'll take the jacket.
+        M: Godt. Betaler du med kort? | Good. Are you paying by card?
+        O: Ja tak. | Yes, please.
+    pronunciation:
+      title: "hj, hv and ø in the shop"
+      body: |
+        Two silent h's: in **hjælpe** the *hj* is a y sound ("yel-pe"), and in **hvilken** the *hv* is a v sound ("vil-ken"). **Størrelse** and **prøve** have the rounded ø — keep your lips rounded.
+
+        **Kvittering** starts with a clear *kv*, as in *quick*, and is stressed on *-te-*: kvit-**TE**-ring. Listen and repeat.
+      items: |
+        hjælpe
+        hvilken
+        størrelse
+        prøverum
+        kvittering
+        Må jeg prøve den her?
+    culture:
+      title: Exchanging and the byttemærke
+      body: |
+        Many Danish shops let you exchange an item, often within a few weeks, if you have the receipt — but the rules vary from shop to shop, so ask: *Kan jeg bytte den?*
+
+        When Danes buy a present, they often ask for a **byttemærke** — a small exchange sticker on the item — so the person who gets the gift can exchange it without seeing the price. You'll hear this a lot in December.
+    mistakes: |
+      den her jakken => den her jakke | After den her, the noun has no definite ending.
+      det her sko => de her sko | Sko is plural here, so use de her.
+      Hvad koster denne her jakke? => Hvad koster den her jakke? | Use den her (spoken) or denne (written), not both together.
+    task:
+      title: Finding the right size
+      mode: interaction
+      body: |
+        In a clothes shop: ask the price of an item with den her / det her, ask to try it on, say that it is too big or too small, ask for another size, and pay. Try it with a partner or the AI coach.
+    exercises: |
+      fill: Hvad koster ___ her jakke? || den || Jakke is an en-word: den her jakke. || @tags da.demonstratives
+      fill: ___ her tørklæde er flot. || Det || Tørklæde is an et-word: det her. || @tags da.demonstratives
+      fill: ___ her sko er for små. || De || Sko is plural here: de her. || @tags da.demonstratives
+      mc: Which is correct? || den her jakken | *den her jakke | det her jakke || Den her + en-word in its basic form: den her jakke. || @tags da.demonstratives
+      mc: The shop assistant asks "Kan jeg hjælpe?". You're just looking. You say: || *Nej tak, jeg kigger bare. | Ja tak, jeg kigger bare. | Nej tak, jeg betaler bare. || Jeg kigger bare = I'm just looking; nej tak makes it polite. || @tags da.ordering
+      mc: Why doesn't the first jacket work for Oscar? || *It's too big | It's too expensive | It's the wrong colour || "Hmm, den er for stor." || @ctx dialogue @skill reading @tags da.reading
+      tf: Oscar pays by card. || true || "Betaler du med kort? – Ja tak." || @ctx dialogue
+      short: What size does Oscar take? || kw: medium || "Medium. Har I den i medium?" || @ctx dialogue
+      rw: Make it plural :: Den her trøje er billig. || De her trøjer er billige. || Plural: de her, trøjer, billige. || @tags da.demonstratives,da.adjective-agreement
+      order: Hvad koster det her tørklæde? || How much is this scarf? || @tags da.demonstratives
+      tr: This jacket is too small. || Den her jakke er for lille. | Denne jakke er for lille. || Den her + jakke (no ending); too small = for lille. || @tags da.demonstratives
+      tr: Can I pay by card? || Kan jeg betale med kort? || Kan jeg + infinitive; by card = med kort. || @tags da.questions
+      listen: De her bukser koster halvfems kroner, men den her skjorte er på tilbud. || What is on offer? || The trousers | *The shirt | The shoes || "Den her skjorte er på tilbud." The trousers cost 90 kroner. || @tags da.demonstratives
+      ask: In a shop, ask the price of a jumper and ask if you can try it on. || kw: hvad koster/hvor meget koster & prøve || Hvad koster den her trøje? Må jeg prøve den?
+      dict: Den her jakke er for stor.

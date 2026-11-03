@@ -1,0 +1,348 @@
+unit: 6
+title: Arts et patrimoine
+theme: Arts and culture
+description: Describe and discuss works of art, present a heritage site and enjoy French wordplay, using the compound relative pronouns lequel, auquel and duquel, interrogative lequel and the right choice between dont and duquel.
+free: false
+objectives:
+  - Use lequel, laquelle, lesquels and lesquelles after prepositions
+  - Choose between auquel, duquel and dont according to the preposition
+  - Ask "which one?" with interrogative lequel and understand puns based on sound and double meaning
+canDo:
+  - I can describe a painting or a photo and say what moves me in it.
+  - I can present a local heritage site and its history.
+  - I can choose the right relative pronoun after any preposition.
+  - I can explain a pun or a double meaning in French.
+review: |
+  fill: C'est le pinceau avec ___ il a peint son dernier tableau. || lequel || Avec + a masculine singular thing (le pinceau): avec lequel. || @tags fr.relative-compound
+  fill: L'association ___ j'ai adhéré restaure de vieux moulins. || à laquelle || Adhérer à + a feminine noun (l'association): à laquelle. || @tags fr.relative-compound
+  mc: "La chapelle, près ___ se trouve le cimetière, date du XVᵉ siècle." || dont | *de laquelle | à laquelle || After the compound preposition près de, use de laquelle (feminine). Dont can't follow a preposition. || @tags fr.relative-compound
+  mc: "C'est l'exposition ___ tout le monde parle." || *dont | duquel | laquelle || Parler de + noun directly after the verb: dont. || @tags fr.relative-pronouns
+  fill: Les visiteurs, parmi ___ beaucoup d'étudiants, étaient enthousiastes. || lesquels || After parmi, always use lesquels / lesquelles, even for people. || @tags fr.relative-compound
+  mc: "— Tu as vu les deux expositions ? — Oui. — ___ as-tu préférée ?" || Quelle | *Laquelle | Lequel || Without a noun, use the pronoun; exposition is feminine: laquelle. || @tags fr.relative-compound,fr.questions
+  rw: Join the sentences with "au cours duquel" :: Il y a eu un concert. Pendant ce concert, une chorale d'enfants a chanté. || Il y a eu un concert au cours duquel une chorale d'enfants a chanté. || Au cours de + le concert → au cours duquel. || @tags fr.relative-compound
+  tr: These are questions to which I have no answer. || Ce sont des questions auxquelles je n'ai pas de réponse. | Ce sont les questions auxquelles je n'ai pas de réponse. | Voici des questions auxquelles je n'ai pas de réponse. | Voici les questions auxquelles je n'ai pas de réponse. || Répondre à → à + lesquelles = auxquelles (feminine plural). || @tags fr.relative-compound
+  listen: Le château, autour duquel la ville s'est construite, restera fermé jusqu'à la fin des travaux de restauration. || What will happen to the castle? || *It will stay closed until the restoration work is finished | It will be sold to the town | It will open in the evenings || "Restera fermé jusqu'à la fin des travaux de restauration." || @tags fr.listening,fr.relative-compound
+  listen: — Laquelle de ces deux toiles est la plus ancienne ? — Celle sur laquelle on voit le port. || Which painting is older? || *The one showing the harbour | The one showing the castle | They are the same age || "Celle sur laquelle on voit le port." || @tags fr.listening,fr.relative-compound
+  ask: Present a work of art or a monument you like to a friend, using two compound relative pronouns. || kw: lequel/laquelle/lesquels/lesquelles/auquel/à laquelle/auxquels/auxquelles/duquel/de laquelle/desquels/desquelles & tableau/monument/œuvre/château/église/musée/statue/photo/pont || J'adore le pont du Gard, au pied duquel on peut se baigner l'été. C'est un monument auquel je pense chaque fois que je passe dans le Sud.
+  write: Write a short text (80–100 words) for a tourist website presenting a heritage site you know. || min=80 || req: lequel/laquelle/lesquels/lesquelles | auquel/à laquelle/auxquels/auxquelles/duquel/de laquelle/desquels/desquelles | dont || Au cœur du village se trouve une halle du XVᵉ siècle, sous laquelle se tient chaque samedi un marché très animé. Sa charpente en chêne, grâce à laquelle elle a résisté à cinq siècles de tempêtes, est la fierté des habitants. Autour de la halle, vous découvrirez des maisons à colombages au pied desquelles fleurissent des roses. C'est un lieu dont les habitants sont fiers et auquel ils restent très attachés. Ne manquez pas la fête de la Saint-Jean, au cours de laquelle tout le village danse sous la halle !
+lessons:
+  - title: Talking about art
+    summary: Visit an exhibition with two friends, describe a painting and what it makes you feel, and use lequel, laquelle, lesquels and lesquelles after prepositions.
+    minutes: 45
+    skills: [listening, vocabulary, speaking]
+    tags: [fr.relative-compound]
+    objectives:
+      - Describe a work of art — technique, colours, composition, emotion
+      - Use preposition + lequel / laquelle / lesquels / lesquelles for things
+      - Choose qui for people and quoi after ce, rien and quelque chose
+    intro: |
+      Describing a painting precisely means talking about the **technique with which** it was made, the **window behind which** the light appears, the **artists among whom** the painter worked. In French, each of these needs a preposition followed by a relative pronoun — **lequel**, which agrees with the noun. It's the key to a more elaborate, written-sounding style, and it's very common in museum guides and reviews.
+    vocab: |
+      une œuvre | a work (of art) | n | Cette œuvre a été peinte en 1952. | This work was painted in 1952. | g: f | c: une œuvre d'art; l'œuvre d'un artiste (his or her body of work)
+      une toile | a canvas; a painting | n | La toile mesure trois mètres de large. | The canvas is three metres wide. | g: f
+      un tableau | a painting | n | Ce tableau est le plus célèbre de l'exposition. | This painting is the most famous in the exhibition. | g: m | pl: des tableaux
+      un pinceau | a paintbrush | n | Elle peignait sans pinceau, avec un couteau. | She painted without a brush, with a palette knife. | g: m | pl: des pinceaux
+      la matière | texture; material | n | On sent la matière épaisse de la peinture. | You can feel the thick texture of the paint. | g: f
+      flou | blurred | adj | Au fond, les silhouettes sont floues. | In the background, the figures are blurred. | n: Feminine: floue.
+      un cartel | a museum label | n | Le cartel indique la date et la technique. | The label gives the date and the technique. | g: m
+      sombre | dark | adj | Les couleurs sont très sombres. | The colours are very dark.
+      un contraste | a contrast | n | Le contraste entre l'ombre et la lumière est saisissant. | The contrast between shadow and light is striking. | g: m
+      émouvoir | to move (emotionally) | v | Ce portrait m'émeut beaucoup. | This portrait moves me deeply. | n: Je m'émeus, il émeut; émouvant = moving; ému = moved.
+      un atelier | a studio; a workshop | n | On peut visiter l'atelier de l'artiste. | You can visit the artist's studio. | g: m
+      une exposition | an exhibition | n | L'exposition dure jusqu'en janvier. | The exhibition runs until January. | g: f | n: Informally: une expo.
+    grammar:
+      title: "Preposition + lequel, laquelle, lesquels, lesquelles"
+      body: |
+        After a **preposition** (*avec, sur, dans, pour, par, sans, derrière, parmi, entre…*), French uses **lequel** to refer back to a thing. It agrees in gender and number with the noun it replaces:
+
+        - masculine singular: *le tableau **pour lequel** le musée a organisé l'exposition*
+        - feminine singular: *la technique **avec laquelle** elle peignait*
+        - masculine plural: *les artistes **parmi lesquels** elle exposait*
+        - feminine plural: *les œuvres **sans lesquelles** on ne la comprend pas*
+
+        For **people**, *qui* is usually preferred: *la femme **avec qui** elle vivait*. But after **parmi** and **entre**, always use *lesquels / lesquelles*.
+
+        When there is no specific noun to refer to (*ce, rien, quelque chose*), use **quoi**: *C'est ce **à quoi** je pensais.*
+
+        After the pronoun, the word order is normal: *la série **sur laquelle elle a travaillé***. And never leave the preposition at the end, as English does (*the series she worked on*). With **à** and **de**, the forms contract (*auquel, duquel*): that's lesson 2.
+      table: |
+        Noun | Preposition + pronoun | Example
+        le tableau (m. sg.) | pour lequel | le tableau pour lequel le musée a organisé l'exposition
+        la technique (f. sg.) | avec laquelle | la technique avec laquelle elle peignait
+        les artistes (m. pl.) | parmi lesquels | les artistes parmi lesquels elle exposait
+        les œuvres (f. pl.) | sans lesquelles | les œuvres sans lesquelles on ne la comprend pas
+        a person | avec qui | la personne avec qui elle travaillait
+        ce / rien / quelque chose | à quoi / sur quoi | ce sur quoi je voudrais insister
+      examples: |
+        C'est l'atelier dans lequel il a peint ses derniers tableaux. | It's the studio in which he painted his last paintings. | dans + lequel
+        Voici la photo sur laquelle on voit l'artiste au travail. | Here's the photo in which you can see the artist at work. | sur + laquelle
+        Les visiteurs, parmi lesquels beaucoup d'enfants, ont adoré l'exposition. | The visitors, many of them children, loved the exhibition. | parmi + lesquels
+        C'est exactement ce à quoi je pensais. | That's exactly what I was thinking of. | ce à quoi
+      tip: "Lequel only follows a preposition. Without a preposition, keep qui (subject) or que (object): le tableau que je regarde, not le tableau lequel je regarde."
+    dialogue:
+      title: Devant la grande toile
+      setting: A museum in Rouen. Solène and Mehdi visit a retrospective of Hélène Darmont, a painter they have never heard of.
+      speakers: S=Solène/f; M=Mehdi/m
+      lines: |
+        S: Regarde ce tableau : c'est celui pour lequel le musée a organisé toute l'exposition. | Look at this painting: it's the one the museum organised the whole exhibition for.
+        M: La toile est immense ! Et la technique avec laquelle elle a peint le ciel est étonnante. | The canvas is huge! And the technique she used to paint the sky is amazing.
+        S: Elle utilisait un couteau au lieu d'un pinceau. C'est ce qui donne cette matière épaisse. | She used a palette knife instead of a brush. That's what gives this thick texture.
+        M: Et ces silhouettes floues au fond du tableau, tu sais qui elles représentent ? | And those blurred figures at the back of the painting, do you know who they represent?
+        S: D'après le cartel, ce sont des ouvrières de l'usine dans laquelle son père travaillait. | According to the label, they're workers from the factory where her father worked.
+        M: Je comprends mieux pourquoi les couleurs sont si sombres. Il y a une vraie tension dans cette œuvre. | Now I understand why the colours are so dark. There's real tension in this work.
+        S: Oui. Et regarde la fenêtre, derrière laquelle on devine la lumière du jour : c'est le seul point clair. | Yes. And look at the window, behind which you can make out the daylight: it's the only bright spot.
+        M: C'est un contraste sur lequel on pourrait écrire des pages. Moi, ça m'émeut beaucoup. | That's a contrast you could write pages about. Personally, I find it very moving.
+        S: Elle faisait partie d'un groupe de peintres parmi lesquels elle était la seule femme. | She belonged to a group of painters among whom she was the only woman.
+        M: Je ne la connaissais pas du tout. Quelles sont les œuvres sans lesquelles on ne peut pas comprendre son travail ? | I didn't know her at all. Which works are essential to understanding what she did?
+        S: Le guide en cite trois, dont la série sur laquelle elle a travaillé pendant dix ans. | The guide mentions three, including the series she worked on for ten years.
+        M: Alors allons-y. Mais avant, je veux acheter la carte postale de ce tableau ! | Let's go, then. But first I want to buy the postcard of this painting!
+    pronunciation:
+      title: "lequel, laquelle, lesquels"
+      body: |
+        *Lequel* [lə.kɛl] and *laquelle* [la.kɛl] differ only in their first vowel. *Lesquels* and *lesquelles* sound exactly the same [le.kɛl]: the **s** of *les* is silent and the plural endings are not heard. Only the written form shows the gender.
+
+        In *œuvre* [œvʁ], the **œ** is an open [œ], as in *peur*; don't pronounce it [u]. In *émouvant* [e.mu.vɑ̃], every syllable is clear.
+      items: |
+        pour lequel
+        avec laquelle
+        parmi lesquels
+        sans lesquelles
+        une œuvre
+        émouvant
+    mistakes: |
+      La technique avec lequel elle peignait. => La technique avec laquelle elle peignait. | Lequel agrees with the noun: la technique is feminine, so laquelle.
+      C'est le tableau lequel je préfère. => C'est le tableau que je préfère. | Without a preposition, use que (object) or qui (subject), not lequel.
+      Les peintres parmi qui elle exposait. => Les peintres parmi lesquels elle exposait. | After parmi, always use lesquels / lesquelles, even for people.
+    task:
+      title: Your favourite work of art
+      mode: speaking
+      body: |
+        Choose a painting, photo, sculpture or poster you love. Describe it for two minutes: what you see, the technique, the colours, the context, and what it makes you feel. Use at least four compound relative pronouns (*dans lequel, avec laquelle, sur lequel, parmi lesquels…*). Then talk about art and culture in your free time with the AI coach in the "Discussing hobbies" scenario.
+    exercises: |
+      fill: C'est la technique avec ___ elle peignait le ciel. || laquelle || Avec + la technique (feminine singular): avec laquelle. || @tags fr.relative-compound
+      fill: Voici l'atelier dans ___ il a travaillé pendant trente ans. || lequel || Dans + l'atelier (masculine singular): dans lequel. || @tags fr.relative-compound
+      fill: Les artistes parmi ___ elle exposait étaient tous des hommes. || lesquels || After parmi, use lesquels for people too (masculine plural). || @tags fr.relative-compound
+      mc: "Ce sont des œuvres sans ___ on ne peut pas comprendre son travail." || lesquels | *lesquelles | quoi || Les œuvres is feminine plural: sans lesquelles. Quoi is used after ce, rien or quelque chose. || @tags fr.relative-compound
+      mc: Which sentence is correct? || C'est le tableau lequel je préfère. | *C'est le tableau que je préfère. | C'est le tableau auquel je préfère. || Préférer has a direct object: que. Lequel is only used after a preposition. || @tags fr.relative-compound,fr.relative-pronouns
+      mc: "C'est exactement ce ___ je pensais." || à laquelle | *à quoi | auquel || After ce, use quoi: ce à quoi (penser à). || @tags fr.relative-compound
+      tf: The painter used a brush to paint the sky. || false || "Elle utilisait un couteau au lieu d'un pinceau." || @ctx dialogue
+      short: Who are the blurred figures in the painting? || kw: ouvrières/ouvrière/workers/worker/usine/factory || "Des ouvrières de l'usine dans laquelle son père travaillait." || @ctx dialogue
+      listen: @dialogue || What does Mehdi want to do before seeing the other works? || *Buy a postcard of the painting | Have a coffee in the museum café | Read the whole guide || "Mais avant, je veux acheter la carte postale de ce tableau !" || @tags fr.listening
+      rw: Join the sentences with "sur laquelle" :: Voici la table. L'artiste a dessiné toute sa vie sur cette table. || Voici la table sur laquelle l'artiste a dessiné toute sa vie. || Sur + la table (feminine singular): sur laquelle; the rest of the clause keeps its normal order. || @tags fr.relative-compound
+      tr: It's the painting for which she won a prize. || C'est le tableau pour lequel elle a gagné un prix. | C'est le tableau pour lequel elle a reçu un prix. | C'est le tableau pour lequel elle a obtenu un prix. | C'est la toile pour laquelle elle a gagné un prix. | C'est la toile pour laquelle elle a reçu un prix. | C'est la toile pour laquelle elle a obtenu un prix. || For which = pour lequel (le tableau) or pour laquelle (la toile). || @tags fr.relative-compound
+      dict: Le pinceau avec lequel il peignait est exposé dans la vitrine. || avec lequel
+      ask: Describe a painting or a photo you like, using at least one compound relative pronoun. || kw: lequel/laquelle/lesquels/lesquelles/quoi & tableau/photo/œuvre/toile/couleurs/affiche/sculpture || J'adore une photo de mon grand-père sur laquelle il répare un vieux bateau. Les couleurs sont passées, mais c'est une image à laquelle je tiens beaucoup.
+
+  - title: Cultural heritage
+    summary: Read about a village association that restored an old wash-house, and choose between auquel, duquel and dont.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [fr.relative-compound, fr.relative-pronouns]
+    objectives:
+      - Talk about heritage, restoration and local associations
+      - Use auquel, à laquelle, auxquels and auxquelles with verbs built with à
+      - Use duquel after compound prepositions (près de, au cours de, autour de) and dont after a verb or noun + de
+    intro: |
+      Heritage isn't only castles and cathedrals: it is also the wash-house, the mill or the covered market **to which** a village is attached, **around which** its life was built. When the preposition is **à** or **de**, *lequel* contracts like the definite article — *auquel, duquel* — and you must also decide when to use the simpler **dont**.
+    vocab: |
+      le patrimoine | heritage | n | Les Journées du patrimoine attirent des millions de visiteurs. | Heritage Days attract millions of visitors. | g: m
+      un lavoir | a wash-house | n | Autrefois, les femmes lavaient le linge au lavoir. | In the past, women washed the laundry at the wash-house. | g: m
+      s'effondrer | to collapse | v | Le toit menaçait de s'effondrer. | The roof was in danger of collapsing.
+      une tuile | a roof tile | n | Le toit a perdu la moitié de ses tuiles. | The roof has lost half its tiles. | g: f
+      la charpente | the roof frame; timberwork | n | La charpente en chêne date du XIXᵉ siècle. | The oak roof frame dates from the 19th century. | g: f
+      être attaché à | to be attached to | expr | Les habitants sont très attachés à ce lieu. | The residents are very attached to this place.
+      adhérer à | to join (an association) | v | Quarante habitants ont adhéré à l'association. | Forty residents have joined the association. | n: Un adhérent, une adhérente = a member.
+      une collecte de fonds | fundraising | n | L'association a lancé une collecte de fonds. | The association launched a fundraising campaign. | g: f
+      un chantier bénévole | a volunteer work project | n | Les chantiers bénévoles ont lieu l'été. | The volunteer work projects take place in summer. | g: m | n: Un chantier = a building site.
+      une subvention | a grant; a subsidy | n | Le projet a reçu une subvention de la région. | The project received a grant from the region. | g: f
+      un artisan | a craftsman; a tradesperson | n | Un artisan spécialisé a restauré la charpente. | A specialised craftsman restored the roof frame. | g: m | n: Feminine: une artisane.
+      restaurer | to restore | v | Il faudra dix ans pour restaurer la chapelle. | It will take ten years to restore the chapel. | n: La restauration also means catering.
+    grammar:
+      title: "auquel, duquel — or dont?"
+      body: |
+        After **à**, *lequel* contracts like the article: à + lequel = **auquel**, à + lesquels = **auxquels**, à + lesquelles = **auxquelles**; *à laquelle* doesn't change. Use it with verbs and adjectives built with *à*: *être attaché à, adhérer à, penser à, participer à, tenir à*: *un lieu **auquel** les anciens étaient attachés*. For people, *à qui* is more common: *la présidente **à qui** j'ai parlé*.
+
+        After **de**, there are two possibilities:
+        - **dont** when *de* follows a verb, an adjective or a noun directly (*parler de, se souvenir de, être fier de, l'histoire de*): *le lavoir **dont** je t'ai parlé.*
+        - **duquel, de laquelle, desquels, desquelles** after a **compound preposition** ending in *de* (*près de, à côté de, au bord de, au cours de, autour de, au milieu de, en face de*): *le lavoir, **au bord duquel** des générations de femmes avaient lavé le linge*. *Dont* is impossible here.
+
+        The same contraction happens with *grâce à*: *une subvention **grâce à laquelle**…, un don **grâce auquel**…*
+      table: |
+        Base | Masc. sing. | Fem. sing. | Masc. pl. | Fem. pl.
+        à + lequel | auquel | à laquelle | auxquels | auxquelles
+        de + lequel | duquel | de laquelle | desquels | desquelles
+        with à | un lieu auquel je tiens | une fête à laquelle je participe | des aînés auxquels on parle | des traditions auxquelles on tient
+        with près de / au cours de | le lavoir près duquel… | la place au milieu de laquelle… | les travaux au cours desquels… | les photos à côté desquelles…
+      examples: |
+        C'est une tradition à laquelle le village tient beaucoup. | It's a tradition the village cares about a lot. | tenir à
+        Le château, autour duquel la ville s'est développée, date du XIIIᵉ siècle. | The castle, around which the town grew up, dates from the 13th century. | autour de
+        Voici le musée dont je t'ai parlé. | Here's the museum I told you about. | parler de → dont
+        Les fouilles, au cours desquelles on a découvert une mosaïque, ont duré trois ans. | The excavations, during which a mosaic was found, lasted three years. | au cours de
+      tip: "Ask yourself which preposition the verb or expression needs: penser à → auquel; parler de → dont; près de → duquel."
+    reading:
+      title: Le lavoir retrouve une seconde vie
+      text: |
+        Chaque année, le troisième week-end de septembre, les Journées européennes du patrimoine ouvrent au public des milliers de lieux, des châteaux les plus célèbres aux bâtiments les plus modestes. Cette année, dans un petit village de la Sarthe, c'est un lavoir du XIXᵉ siècle qui attire les curieux.
+
+        Il y a cinq ans, ce lavoir, au bord duquel des générations de femmes avaient lavé le linge de la famille, menaçait de s'effondrer. Le toit avait perdu la moitié de ses tuiles et le bassin était envahi par les herbes. « C'est un lieu auquel les anciens étaient très attachés, raconte Monique Pelletier, présidente de l'association des Amis du lavoir. On y venait laver son linge, mais surtout bavarder. C'était le réseau social de l'époque ! »
+
+        L'association, à laquelle une quarantaine d'habitants ont adhéré, a lancé une collecte de fonds et organisé des chantiers bénévoles. Les travaux, au cours desquels des jeunes du village ont appris à poser des tuiles anciennes, ont duré deux étés. Grâce à une subvention de la région, sans laquelle le projet aurait été impossible, un artisan spécialisé a pu restaurer la charpente.
+
+        Aujourd'hui, le lavoir est redevenu un lieu de rencontre. Des panneaux, à côté desquels sont exposées des photos anciennes, racontent son histoire. Les enfants de l'école voisine viennent y écouter les souvenirs des aînés, auxquels ils posent mille questions.
+
+        « Le patrimoine, ce ne sont pas seulement les grands monuments, conclut Monique Pelletier. Ce sont aussi ces petits lieux autour desquels s'est construite la vie d'un village. »
+      translation: |
+        Every year, on the third weekend of September, European Heritage Days open thousands of places to the public, from the most famous castles to the most modest buildings. This year, in a small village in the Sarthe, it is a 19th-century wash-house that is attracting curious visitors.
+
+        Five years ago, this wash-house, at the edge of which generations of women had washed the family laundry, was in danger of collapsing. The roof had lost half its tiles and the pool was overgrown with weeds. "It's a place the older residents were very attached to," says Monique Pelletier, president of the Friends of the Wash-House association. "People came here to wash their laundry, but above all to chat. It was the social network of the time!"
+
+        The association, which around forty residents have joined, launched a fundraising campaign and organised volunteer work projects. The work, during which young people from the village learnt to lay old tiles, took two summers. Thanks to a grant from the region, without which the project would have been impossible, a specialised craftsman was able to restore the roof frame.
+
+        Today the wash-house has once again become a meeting place. Information panels, next to which old photos are displayed, tell its story. Children from the nearby school come to listen to the older residents' memories, and they ask them a thousand questions.
+
+        "Heritage isn't just the great monuments," Monique Pelletier concludes. "It's also these small places around which a village's life was built."
+    pronunciation:
+      title: "auquel, auxquelles, duquel"
+      body: |
+        *Auquel*, *auxquels* and *auxquelles* are all pronounced [o.kɛl]: the **x** and the plural endings are silent. *Duquel* is [dy.kɛl], with the closed [y] of *du*; *desquels* is [de.kɛl].
+
+        In *charpente* [ʃaʁ.pɑ̃t] and *patrimoine* [pa.tʁi.mwan], pronounce the final consonant clearly after the vowel; the final *e* is silent.
+      items: |
+        auquel
+        auxquelles
+        duquel
+        au bord duquel
+        le patrimoine
+        la charpente
+    culture:
+      title: Sauver le petit patrimoine
+      body: |
+        The European Heritage Days began in France in 1984, when the Ministry of Culture opened historic monuments to the public for one day; they became European in 1991. Since 2018, a special heritage lottery has also helped fund the restoration of endangered buildings chosen each year in every region — often modest places such as chapels, mills, wash-houses and covered markets that local associations are trying to save.
+    mistakes: |
+      Le lavoir près dont nous avons pique-niqué. => Le lavoir près duquel nous avons pique-niqué. | After a compound preposition ending in de (près de), use duquel, never dont.
+      L'association à lequel j'ai adhéré. => L'association à laquelle j'ai adhéré. | L'association is feminine: à laquelle.
+      C'est un lieu à lequel je tiens. => C'est un lieu auquel je tiens. | À + lequel always contracts to auquel.
+    task:
+      title: A place worth saving
+      mode: writing
+      body: |
+        Write a short presentation (about 120 words) of a heritage site in your town or region — famous or modest — for a heritage-days website. Explain its history, why people are attached to it and what has been done (or should be done) to preserve it. Use at least four compound relative pronouns, including one with à (*auquel…*) and one with a compound preposition (*autour duquel, au cours de laquelle…*).
+    exercises: |
+      fill: C'est une fête ___ tout le village participe. || à laquelle || Participer à + une fête (feminine): à laquelle. || @tags fr.relative-compound
+      fill: Les aînés, ___ les enfants posent des questions, racontent leurs souvenirs. || auxquels / à qui || Poser des questions à + people: auxquels (à + lesquels) or à qui. || @tags fr.relative-compound
+      fill: Le château, au pied ___ coule la rivière, est ouvert au public. || duquel || Au pied de + le château: au pied duquel. Dont is impossible after a compound preposition. || @tags fr.relative-compound
+      mc: "Voici le monument ___ je t'ai parlé." || duquel | *dont | auquel || Parler de + noun directly after the verb: dont. || @tags fr.relative-pronouns
+      mc: "La place, au milieu ___ se trouve la fontaine, a été rénovée." || dont | *de laquelle | à laquelle || Au milieu de + la place (feminine): au milieu de laquelle. || @tags fr.relative-compound
+      mc: Why was the wash-house important for older villagers? || *It was a place to meet and chat | It was the only source of drinking water | It was where village festivals were held || "On y venait laver son linge, mais surtout bavarder. C'était le réseau social de l'époque !" || @ctx reading @tags fr.reading
+      tf: The project was funded only by the volunteers. || false || A grant from the region, "sans laquelle le projet aurait été impossible", paid for the restoration of the roof frame. || @ctx reading
+      short: What did young people from the village learn during the work? || kw: tuiles/tuile/tiles/tile/toit/roof || "Des jeunes du village ont appris à poser des tuiles anciennes." || @ctx reading
+      listen: Le festival, auquel participent plus de deux cents bénévoles, aura lieu le dernier week-end de juin. || Who helps to run the festival? || *More than two hundred volunteers | The town hall staff only | Around twenty professional artists || "Auquel participent plus de deux cents bénévoles." || @tags fr.listening,fr.relative-compound
+      rw: Join the sentences with "auquel" :: C'est un vieux moulin. Les habitants tiennent beaucoup à ce moulin. || C'est un vieux moulin auquel les habitants tiennent beaucoup. || Tenir à + le moulin → auquel. || @tags fr.relative-compound
+      tr: The church, next to which there is a small museum, dates from 1150. || L'église, à côté de laquelle il y a un petit musée, date de 1150. | L'église, à côté de laquelle se trouve un petit musée, date de 1150. || À côté de + l'église (feminine): à côté de laquelle. || @tags fr.relative-compound
+      dict: Grâce à une subvention, sans laquelle rien n'aurait été possible, le toit a été restauré. || sans laquelle
+      ask: Talk about a place in your town that you are attached to, using a compound relative pronoun. || kw: auquel/à laquelle/auxquels/auxquelles/duquel/de laquelle/desquels/desquelles/lequel/laquelle & lieu/place/endroit/parc/bâtiment/église/marché/café/rue || Il y a un petit café sur le port auquel je suis très attaché. C'est l'endroit dans lequel j'ai fait mes devoirs pendant toute mon adolescence.
+
+  - title: Humour and wordplay
+    summary: Invent punning shop names with friends, understand double meanings and homophones, ask "which one?" with lequel and review all the relative pronouns.
+    minutes: 45
+    skills: [listening, speaking, vocabulary]
+    tags: [fr.relative-compound, fr.relative-pronouns]
+    objectives:
+      - Understand and explain puns based on sound and double meaning
+      - Ask "which one?" with interrogative lequel, laquelle, lesquels, auquel, duquel
+      - Choose the right relative pronoun — qui, que, dont, où, lequel or quoi
+    intro: |
+      French humour loves wordplay: hair salons, bakeries and florists compete for the best pun (*calembour*), and comedians play with homophones and double meanings. Understanding a joke in another language is a real sign of fluency. In this lesson you will also meet **lequel** as a question word — *Laquelle tu préfères ?* — and review how to choose the right relative pronoun.
+    vocab: |
+      un jeu de mots | a pun; wordplay | n | Le nom du salon est un jeu de mots. | The salon's name is a pun. | g: m | pl: des jeux de mots
+      un calembour | a pun | n | Mon oncle fait des calembours à chaque repas. | My uncle makes puns at every meal. | g: m
+      un double sens | a double meaning | n | Ce slogan a un double sens. | This slogan has a double meaning. | g: m
+      une blague | a joke | n | Tu connais la blague du ver vert ? | Do you know the joke about the green worm? | g: f | c: raconter une blague; une blague de mauvais goût
+      l'ironie | irony | n | Il parle souvent avec ironie. | He often speaks ironically. | g: f | n: Ironique = ironic.
+      l'autodérision | self-mockery | n | L'autodérision est une marque d'intelligence. | Self-mockery is a sign of intelligence. | g: f
+      se prendre au sérieux | to take yourself seriously | expr | Il ne faut pas trop se prendre au sérieux. | You shouldn't take yourself too seriously.
+      faire sourire | to make someone smile | expr | Ce nom me fait sourire. | This name makes me smile.
+      un humoriste | a comedian | n | Cet humoriste joue avec les mots. | This comedian plays with words. | g: m | n: Feminine: une humoriste.
+      avoir du pain sur la planche | to have a lot of work to do | expr | Avec ce déménagement, on a du pain sur la planche ! | With this move, we've got a lot on our plate!
+      une baguette magique | a magic wand | n | Il n'y a pas de baguette magique pour apprendre une langue. | There's no magic wand for learning a language. | g: f
+      un homophone | a homophone | n | Ver, vert et verre sont des homophones. | Ver, vert and verre are homophones. | g: m
+    grammar:
+      title: "Which one? Interrogative lequel — and choosing a relative pronoun"
+      body: |
+        **Lequel** is also a question word meaning *which one?*. It agrees with the noun it refers to and contracts with *à* and *de*: ***Laquelle** tu préfères ? **Lesquels** ? **Auquel** penses-tu ? **Duquel** parles-tu ?* It is often followed by **de** + a group: ***Laquelle de** ces idées est la meilleure ?* Don't confuse it with the determiner **quel**, which needs a noun: *Quel nom ? → Lequel ?*
+
+        To choose a **relative** pronoun, ask what the verb of the relative clause needs:
+        - a subject → **qui**: *le salon **qui** ouvre lundi*
+        - a direct object → **que**: *le nom **que** tu proposes*
+        - a place or a time → **où**: *le jour **où** elle a ouvert*
+        - *de* + noun after a verb, adjective or noun → **dont**: *la blague **dont** je me souviens*
+        - any other preposition + a thing → **preposition + lequel**: *le jeu de mots **auquel** personne ne résiste, l'humour **sans lequel**…* (for people: *qui*)
+        - no specific antecedent → **ce qui, ce que, ce dont, ce à quoi**: *c'est **ce à quoi** je pensais*
+      table: |
+        What the verb needs | Pronoun | Example
+        a subject | qui | une blague qui fait rire
+        a direct object | que | la blague que tu racontes
+        de + noun | dont | la blague dont je me souviens
+        à + a thing | auquel / à laquelle | le jeu de mots auquel je pense
+        another preposition + a thing | lequel / laquelle | l'humour sans lequel la vie serait triste
+        which one? | lequel / laquelle | Laquelle tu préfères ?
+      examples: |
+        Voici deux noms : lequel choisirais-tu ? | Here are two names: which one would you choose? | interrogative lequel
+        Parmi ces blagues, laquelle t'a fait le plus rire ? | Of these jokes, which one made you laugh the most? | laquelle with parmi
+        C'est une humoriste dont j'adore les spectacles. | She's a comedian whose shows I love. | dont
+        C'est le genre d'ironie à laquelle il faut s'habituer. | It's the kind of irony you have to get used to. | s'habituer à
+      tip: "In speech, Lequel tu préfères ? without inversion is very common. In writing, prefer Lequel préfères-tu ?"
+    dialogue:
+      title: Un nom pour le salon
+      setting: Capucine is helping her cousin find a name for her new hair salon. She asks her friends Lucien, a fan of puns, and Maud, who can't stand them.
+      speakers: C=Capucine/f; L=Lucien/m; M=Maud/f
+      lines: |
+        C: Lucien, ma cousine ouvre un salon de coiffure et elle cherche un nom. Lequel tu proposerais ? | Lucien, my cousin is opening a hair salon and she's looking for a name. Which one would you suggest?
+        L: Facile : « Coupe-Circuit ». Une coupe, un circuit… c'est le genre de jeu de mots auquel personne ne résiste. | Easy: "Coupe-Circuit". A haircut, a circuit… it's the kind of pun nobody can resist.
+        M: Oh non… Ce sont exactement les calembours à cause desquels je fuis les repas de famille ! | Oh no… These are exactly the puns that make me run away from family dinners!
+        C: Moi, j'aime bien. Et pour la boulangerie de mon oncle, j'hésite encore entre deux noms. | I quite like it. And for my uncle's bakery, I'm still hesitating between two names.
+        L: Lesquels ? Dis toujours, je suis l'expert auquel il faut s'adresser ! | Which ones? Go on, tell me, I'm the expert to ask!
+        C: « Du pain sur la planche » ou « La Baguette magique ». Laquelle tu préfères ? | "Du pain sur la planche" or "La Baguette magique". Which do you prefer?
+        M: La deuxième, sans hésiter. Une baguette magique, c'est un double sens que même les enfants comprennent. | The second one, no question. A magic wand is a double meaning that even children understand.
+        L: Et tu connais celle du ver vert qui passe à travers un verre vert ? | And do you know the one about the green worm going through a green glass?
+        M: Pitié, pas celle-là ! C'est une blague à laquelle j'ai droit à chaque anniversaire depuis vingt ans. | Please, not that one! It's a joke I've had to put up with at every birthday for twenty years.
+        C: Avoue que l'humour français, c'est surtout une affaire de sons et de mots, non ? | Admit it, French humour is mostly a matter of sounds and words, isn't it?
+        L: En partie. Il y a aussi l'ironie et l'autodérision, sans lesquelles on se prendrait trop au sérieux. | Partly. There's also irony and self-mockery, without which we'd take ourselves too seriously.
+        M: Bon, je l'admets : « La Baguette magique », ça me fait sourire. Mais je ne rirai jamais du ver vert ! | OK, I admit it: "La Baguette magique" makes me smile. But I'll never laugh at the green worm!
+    pronunciation:
+      title: "Homophones: ver, vert, verre, vers"
+      body: |
+        French has many homophones — words that sound the same but are spelt differently. *Ver* (worm), *vert* (green), *verre* (glass) and *vers* (towards; a line of poetry) are all pronounced [vɛʁ]. Likewise *cent, sans, sang* and *s'en* are all [sɑ̃].
+
+        Puns often rely on these sounds, so the context decides the meaning. Say the famous tongue-twister slowly, then faster: *un ver vert passe à travers un verre vert*.
+      items: |
+        un ver vert
+        un verre vert
+        vers la ville
+        cent euros
+        sans sucre
+        Un ver vert passe à travers un verre vert.
+    mistakes: |
+      Quel tu préfères ? => Lequel tu préfères ? | Without a noun, use the pronoun lequel; quel must be followed by a noun (quel nom ?).
+      C'est un jeu de mots à lequel personne ne résiste. => C'est un jeu de mots auquel personne ne résiste. | À + lequel contracts to auquel.
+      C'est une blague que je me souviens. => C'est une blague dont je me souviens. | Se souvenir de → dont.
+    task:
+      title: Pun names for the high street
+      mode: interaction
+      body: |
+        In a group, invent punning names for three shops — for example a hairdresser, a florist and a bike repair shop. Present your best idea to the others and explain the double meaning in French (*c'est un jeu de mots sur…, ça veut dire à la fois… et…*). The others ask questions with lequel (*Lequel tu préfères ? Laquelle est la plus drôle ?*) and vote for their favourite.
+    exercises: |
+      fill: — J'ai deux idées de nom. — ___ préfères-tu ? || Laquelle || Interrogative pronoun for une idée (feminine singular): laquelle. || @tags fr.relative-compound,fr.questions
+      fill: C'est un jeu de mots ___ personne ne résiste. || auquel || Résister à + le jeu de mots: auquel. || @tags fr.relative-compound
+      fill: C'est une humoriste ___ j'adore les spectacles. || dont || Les spectacles de l'humoriste: dont. || @tags fr.relative-pronouns
+      mc: "Voici trois blagues. ___ est la plus drôle ?" || Quelle | *Laquelle | Lequel || No noun follows, so you need the pronoun; une blague is feminine: laquelle. || @tags fr.relative-compound,fr.questions
+      mc: "C'est l'autodérision sans ___ on se prendrait trop au sérieux." || lequel | *laquelle | quoi || L'autodérision is feminine singular: sans laquelle. || @tags fr.relative-compound
+      mc: What is the double meaning of "La Baguette magique" for a bakery? || *A loaf of bread and a magic wand | A loaf of bread and a pair of chopsticks | A magic wand and a conductor's baton || Une baguette is a loaf of bread; une baguette magique is a magic wand. || @skill vocabulary @tags fr.vocabulary
+      tf: Maud loves puns. || false || She says these puns make her run away from family dinners, although she finally smiles at "La Baguette magique". || @ctx dialogue
+      short: What name does Lucien suggest for the hair salon? || kw: Coupe-Circuit/coupe circuit/coupe-circuit || "Facile : « Coupe-Circuit »." || @ctx dialogue
+      listen: @dialogue || Which name for the bakery do they finally agree on? || *La Baguette magique | Du pain sur la planche | Coupe-Circuit || Maud chooses the second one "sans hésiter" and admits it makes her smile. || @tags fr.listening
+      listen: — Lequel de ces deux spectacles tu me conseilles ? — Celui dont tout le monde parle, évidemment ! || Which show does the second speaker recommend? || *The one everyone is talking about | The cheaper one | The one they saw last year || "Celui dont tout le monde parle." || @tags fr.listening,fr.relative-pronouns
+      rw: Ask the question with a pronoun :: Quel film veux-tu voir ? || Lequel veux-tu voir ? | Lequel tu veux voir ? || Replace quel + noun with the pronoun lequel (le film, masculine singular). || @tags fr.relative-compound,fr.questions
+      tr: Which of these jokes made you laugh? || Laquelle de ces blagues t'a fait rire ? | Laquelle de ces blagues vous a fait rire ? || Which of = laquelle de (une blague, feminine). || @tags fr.relative-compound,fr.questions
+      dict: L'ironie et l'autodérision nous évitent de nous prendre trop au sérieux. || l'autodérision
+      ask: Tell a French pun or joke you know (or invent a shop name) and explain the double meaning. || kw: jeu de mots/double sens/calembour/blague/veut dire/signifie & aussi/à la fois/deux || Pour un fleuriste, je proposerais « Fleur de peau ». C'est un jeu de mots : « à fleur de peau » veut dire très sensible, et en même temps on parle de fleurs.

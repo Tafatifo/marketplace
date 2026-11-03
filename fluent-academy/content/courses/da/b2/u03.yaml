@@ -1,0 +1,349 @@
+unit: 3
+title: Videnskab og teknologi
+theme: Science and technology
+description: Discuss innovation, ethics, artificial intelligence and health news — with the blive-passive in all tenses, passives with modal verbs and der, få + participle, and the nominal style of news and reports.
+objectives:
+  - Use the blive-passive in all tenses and choose between the s-passive and the blive-passive
+  - Use passives with modal verbs and der, and få + participle (få noget repareret)
+  - Understand nominal style in news (stigningen i, brugen af) and turn it back into verbs
+canDo:
+  - I can explain how a technology was developed and how it is used.
+  - I can discuss the ethical questions raised by new technology.
+  - I can understand and write rules in the passive.
+  - I can follow a health news story and retell it in plain spoken Danish.
+review: |
+  fill: Vaccinen ___ godkendt sidste år. (past passive) || blev || Past blive-passive: blev + participle. || @tags da.passive
+  fill: Kontrakten er ___ underskrevet af begge parter. || blevet || Perfect passive: er blevet + participle. Blive takes er, not har. || @tags da.passive,da.perfect-er
+  mc: Which sentence is natural in everyday Danish? || *Huset blev solgt sidste år. | Huset solgtes sidste år. | Huset har blevet solgt sidste år. || In the past tense, blev + participle is the normal passive; solgtes sounds old-fashioned, and blive takes er in the perfect. || @tags da.passive
+  rw: Make it passive :: Man skal sende ansøgningen før fredag. || Ansøgningen skal sendes før fredag. | Ansøgningen skal blive sendt før fredag. || After a modal, the s-infinitive (sendes) is the usual choice. || @tags da.passive,da.modal-verbs
+  fill: Han fik sin opgave ___ af læreren. (rette) || rettet || Få + object + past participle: he had his assignment corrected. || @tags da.passive
+  mc: Complete the headline — "Kraftig stigning ___ antallet af elbiler" || *i | af | på || A rise or fall is always in something: stigning i, fald i. || @tags da.register
+  tr-en: Behandlingen af patienterne er blevet forbedret. || The treatment of the patients has been improved. | The treatment of the patients has improved. | The patients' treatment has been improved. || Nominal style: behandlingen af (the treatment of) + perfect passive (er blevet forbedret). || @tags da.passive,da.translation
+  listen: Forsøget blev stoppet, efter at tre af deltagerne var blevet syge. || Why was the trial stopped? || *Three participants had become ill | It had become too expensive | The results were already clear || "…efter at tre af deltagerne var blevet syge." || @tags da.listening,da.passive
+  listen: Der bliver brugt mere og mere kunstig intelligens på sygehusene, men alle diagnoser skal stadig godkendes af en læge. || What must still happen? || *A doctor must approve every diagnosis | Patients must give their consent | The AI must be tested every year || "…alle diagnoser skal stadig godkendes af en læge." || @tags da.listening,da.passive
+  ask: Explain a technology you use every day. Say when it was developed and how it is used. || kw: blev/bliver/er blevet & udviklet/opfundet/brugt/bruges || Jeg bruger en app til at betale i bussen. Systemet blev udviklet for nogle år siden, og nu bliver det brugt i hele landet. Billetten bliver sendt direkte til telefonen.
+  write: Write a short news item (5–7 sentences) about an invented medical breakthrough. Use the passive and at least two nominal phrases. || min=50 || req: blev/bliver/er blevet | undersøgelse/behandling/stigning/udvikling || Ny behandling mod migræne testet i Aarhus. En ny behandling er blevet udviklet af forskere ved et dansk universitetshospital. Behandlingen blev testet på to hundrede patienter sidste år. Ifølge undersøgelsen oplevede over halvdelen et fald i antallet af anfald. Behandlingen skal nu godkendes, før den kan bruges i hele landet. Forskerne understreger, at der er behov for flere undersøgelser.
+lessons:
+  - title: Innovation and ethics
+    summary: Discuss a new technology and its ethical problems, and use the blive-passive in all tenses — bliver sendt, blev hacket, er blevet slettet.
+    minutes: 50
+    skills: [grammar, speaking, listening]
+    tags: [da.passive, da.perfect-er]
+    objectives:
+      - Form the blive-passive in the present, past, perfect and past perfect
+      - Choose between the s-passive and the blive-passive
+      - Discuss consent, data and ethical dilemmas
+    intro: |
+      New technology raises new questions: who owns the data from a DNA test, and what happens to it once the sample has been analysed? When we talk about processes like these, the focus is often on what *happens* rather than on who does it — so we need the passive. In this lesson Søren has been given a home DNA test, and his sister Malene, a biologist, has some questions. You'll learn the **blive-passive**, Danish's second passive, in all tenses.
+    vocab: |
+      etisk | ethical | adj | Det er et etisk dilemma, om man må ændre generne i et menneske. | Whether you may change a person's genes is an ethical dilemma. | n: Et-words: etisk; plural: etiske. Noun: etik (ethics).
+      et dilemma | a dilemma | n | Lægerne stod over for et svært dilemma. | The doctors faced a difficult dilemma. | g: n | pl: dilemmaer
+      en opfindelse | an invention | n | Insulin er en af de vigtigste opfindelser i medicinens historie. | Insulin is one of the most important inventions in the history of medicine. | g: c | pl: opfindelser
+      udvikle | to develop | v | Teknologien blev udviklet af forskere i Lyngby. | The technology was developed by researchers in Lyngby. | n: Past: udviklede. En udvikling = a development.
+      en prøve | a sample; a test | n | Prøven bliver analyseret inden for tre uger. | The sample will be analysed within three weeks. | g: c | pl: prøver
+      opbevare | to store; to keep | v | Oplysningerne bliver opbevaret i fem år. | The information is stored for five years. | n: Past: opbevarede.
+      en oplysning | a piece of information | n | Hvem har adgang til mine personlige oplysninger? | Who has access to my personal data? | g: c | pl: oplysninger | n: Often plural: personlige oplysninger = personal data.
+      misbruge | to misuse; to abuse | v | Data kan blive misbrugt, hvis de ikke er beskyttet. | Data can be misused if it isn't protected. | n: Past: misbrugte.
+      et samtykke | a consent | n | Dine data må kun deles med dit samtykke. | Your data may only be shared with your consent. | g: n | c: give samtykke til noget
+      et fremskridt | a step forward; progress | n | Den nye scanner er et stort fremskridt for patienterne. | The new scanner is a big step forward for the patients. | g: n | pl: fremskridt
+      hacke | to hack | v | Systemet blev hacket i weekenden. | The system was hacked at the weekend. | n: Past: hackede.
+    grammar:
+      title: "The blive-passive: bliver sendt, blev hacket, er blevet slettet"
+      body: |
+        At B1 you learned the s-passive (*sorteres, kan genbruges*). Danish has a second passive: **blive + past participle**. It exists in all tenses:
+
+        - present: *Prøven **bliver sendt** til et laboratorium.*
+        - past: *Firmaet **blev hacket** sidste år.*
+        - perfect: *Dine data **er blevet** analyseret.* (Blive takes er, so it's er blevet, never ~~har blevet~~.)
+        - past perfect: *Profilerne **var blevet** stjålet.*
+        - future or with a modal: *Dataene **vil blive** slettet.* · *kan blive misbrugt*
+
+        The doer is added with **af**: *Testen blev udviklet **af** et dansk firma.*
+
+        **s-passive or blive-passive?** In the past tense, *blev* + participle is the normal choice; *solgtes, udvikledes* sound formal or old-fashioned. In the present, both exist with a difference in nuance: the s-passive tends to describe rules, habits and general processes (*Prøver **opbevares** i fem år*), while the blive-passive tends to describe a concrete event or a process leading to a result (*Din prøve **bliver analyseret** i næste uge*).
+      table: |
+        Tense | blive-passive | s-passive
+        present | bliver analyseret | analyseres
+        past | blev analyseret | analyseredes (formal, rare)
+        perfect | er blevet analyseret | —
+        past perfect | var blevet analyseret | —
+        with a modal | skal blive analyseret | skal analyseres
+      examples: |
+        Vaccinen blev udviklet på under et år. | The vaccine was developed in under a year. | past: blev + participle
+        Dine oplysninger er blevet slettet. | Your information has been deleted. | perfect: er blevet
+        Systemet var blevet hacket, før nogen opdagede det. | The system had been hacked before anyone noticed. | past perfect
+        Prøver opbevares i fem år, men din bliver analyseret i morgen. | Samples are stored for five years, but yours will be analysed tomorrow. | general rule vs. concrete event
+      tip: "For a single event in the past, use blev + participle. In the perfect, it's always er blevet — never har blevet."
+    dialogue:
+      title: Gaven i røret
+      setting: Søren's flat in Odense. He has been given a home DNA test for his birthday and shows it to his older sister Malene, who works as a biologist.
+      speakers: S=Søren/m; M=Malene/f
+      lines: |
+        S: Se, hvad jeg har fået i fødselsdagsgave! Man spytter i et rør, og så bliver prøven sendt til et laboratorium. | Look what I got for my birthday! You spit into a tube, and then the sample is sent to a laboratory.
+        M: Spændende. Men ved du, hvad der bliver gjort med dine data, når de er blevet analyseret? | Exciting. But do you know what's done with your data once it has been analysed?
+        S: Der står, at de bliver opbevaret sikkert. Og jeg får at vide, om jeg har vikingeblod. | It says that it's stored securely. And I'll find out whether I have Viking blood.
+        M: For et par år siden blev et stort testfirma i USA hacket, og oplysninger om millioner af kunder blev stjålet. | A couple of years ago a big testing company in the USA was hacked, and information about millions of customers was stolen.
+        S: Det havde jeg ikke hørt om. Men hvad skulle nogen bruge mit DNA til? | I hadn't heard about that. But what would anyone want my DNA for?
+        M: Dit DNA er ikke kun dit. Det siger også noget om mig, om mor og om dine fremtidige børn. | Your DNA isn't only yours. It also says something about me, about Mum and about your future children.
+        S: Det har jeg aldrig tænkt over. Er der ikke regler for, hvordan oplysningerne må bruges? | I've never thought about that. Aren't there rules about how the information may be used?
+        M: Jo, i EU er der strenge regler. Men når prøven bliver sendt ud af Europa, er det mere usikkert. | Yes, in the EU there are strict rules. But when the sample is sent outside Europe, it's less certain.
+        S: Så du mener, at jeg ikke skal bruge den? Den er jo en gave fra min kæreste. | So you think I shouldn't use it? It's a present from my girlfriend, after all.
+        M: Det er din beslutning. Men læs betingelserne, og find ud af, om dine data kan blive slettet bagefter. | It's your decision. But read the terms, and find out whether your data can be deleted afterwards.
+        S: Okay, det gør jeg. Og sender jeg den, bliver du den første, der får resultatet at vide. | OK, I'll do that. And if I send it, you'll be the first to hear the result.
+    pronunciation:
+      title: "Bliver and blev: short in fast speech"
+      body: |
+        In everyday speech *bliver* is shortened to one syllable, close to "blir". *Blev* ends in a soft, u-like sound rather than a hard v. In *er blevet* the auxiliaries are weak, and the main stress falls on the participle that carries the meaning: *er blevet SLETTET*, *blev HACKET*.
+
+        Listen and repeat — keep blive light and let the participle stand out.
+      items: |
+        bliver sendt
+        blev hacket
+        er blevet slettet
+        kan blive misbrugt
+        Prøven bliver sendt til et laboratorium.
+    mistakes: |
+      Firmaet har blevet hacket. => Firmaet er blevet hacket. | Blive takes er in the perfect: er blevet.
+      Huset solgtes sidste år. (in everyday speech) => Huset blev solgt sidste år. | In the past tense, blev + participle is the normal passive; the s-form sounds old-fashioned.
+      Testen blev udviklet fra et dansk firma. => Testen blev udviklet af et dansk firma. | The doer in a passive sentence is introduced with af.
+    task:
+      title: An ethical dilemma
+      mode: speaking
+      body: |
+        Choose a new technology — home DNA tests, gene editing, facial recognition or lab-grown meat. Prepare a two-minute explanation: how was it developed, and how is it used? Use the blive-passive at least four times. Finish with one argument for and one against, and then discuss the dilemma in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: Prøven ___ sendt til laboratoriet i næste uge. (present passive) || bliver || Present blive-passive: bliver + participle. || @tags da.passive
+      fill: Systemet ___ hacket i weekenden, men ingen data gik tabt. (past passive) || blev || Past blive-passive: blev + participle. || @tags da.passive
+      fill: Dine oplysninger er ___ slettet. || blevet || Perfect passive: er blevet + participle. || @tags da.passive,da.perfect-er
+      mc: Which sentence is correct? || *Vaccinen er blevet godkendt. | Vaccinen har blevet godkendt. | Vaccinen er bliver godkendt. || Perfect of blive: er blevet + participle. || @tags da.passive,da.perfect-er
+      mc: "Prøver opbevares i fem år." What kind of statement is this? || *A general rule | A single event in the past | A request || The present s-passive typically describes rules and general processes. || @tags da.passive
+      tf: Søren bought the DNA test himself. || false || It was a birthday present from his girlfriend. || @ctx dialogue
+      short: Why does Malene say that Søren's DNA isn't only his? || kw: familie/family/mor/mother/søster/sister/børn/children || "Det siger også noget om mig, om mor og om dine fremtidige børn." || @ctx dialogue
+      listen: @dialogue || What does Malene advise Søren to do? || *Read the terms and check whether his data can be deleted | Throw the test away | Send the test straight away || "Læs betingelserne, og find ud af, om dine data kan blive slettet bagefter." || @tags da.listening
+      listen: Den nye teknologi til høreapparater blev udviklet af forskere i Odense og er allerede blevet testet på over tusind patienter. || How many patients has it been tested on? || *More than a thousand | About a hundred | None yet || "…er allerede blevet testet på over tusind patienter." || @tags da.listening,da.passive
+      rw: Make it passive (past) :: Hackerne stjal tusindvis af profiler. || Tusindvis af profiler blev stjålet af hackerne. | Tusindvis af profiler blev stjålet. || Stjal → blev stjålet; the doer can be added with af. || @tags da.passive
+      tr: The data has been deleted. || Dataene er blevet slettet. | Data er blevet slettet. | Oplysningerne er blevet slettet. | Dataene er slettet. || Perfect passive: er blevet + participle. || @tags da.passive
+      ask: Explain how a technology you know works. Use at least two blive-passive forms. || kw: bliver/blev/er blevet/blive || Når man søger et nyt pas, bliver man fotograferet på borgerservice. Billedet bliver sendt elektronisk, og passet er blevet produceret, inden der er gået to uger.
+      write: Write a short text (6–8 sentences) about an invention that has changed everyday life. When and by whom was it developed, and what ethical questions does it raise? || min=60 || req: blev/bliver/er blevet | udviklet/opfundet/brugt || Smartphonen er nok den opfindelse, der har ændret vores hverdag mest. De første modeller blev udviklet for omkring tyve år siden. I dag bliver den brugt til alt fra betaling til lægebesøg. Men der bliver også indsamlet enorme mængder data om os. Mange af vores oplysninger er blevet solgt videre, uden at vi har tænkt over det. Derfor bør der stilles større krav til samtykke.
+      dict: Prøven bliver sendt til et laboratorium og analyseret inden for tre uger.
+
+  - title: Artificial intelligence
+    summary: Discuss rules for using artificial intelligence at school and at work, with the passive after modal verbs, der + passive and få + participle.
+    minutes: 50
+    skills: [grammar, listening, writing]
+    tags: [da.passive, da.modal-verbs]
+    objectives:
+      - Use the passive after modal verbs (skal skrives, må ikke deles)
+      - Use der + passive when there is no definite subject
+      - Use få + participle (få noget repareret, få noget tilsendt)
+    intro: |
+      Chatbots that write essays, translate letters and summarise reports have changed schools and workplaces almost overnight — and created a need for new rules. Rules are typically written in the passive: *Teksten skal skrives af jer selv. Alle kilder skal kontrolleres.* In this lesson a teacher at a gymnasium in Roskilde goes through the AI rules for a major written assignment with two of her students.
+    vocab: |
+      kunstig intelligens | artificial intelligence | n | Kunstig intelligens bruges allerede i mange danske virksomheder. | Artificial intelligence is already used in many Danish companies. | g: c | n: Often shortened to AI, pronounced "a-i".
+      en chatbot | a chatbot | n | Chatbotten svarede forkert på halvdelen af spørgsmålene. | The chatbot answered half of the questions wrongly. | g: c | pl: chatbots
+      en kilde | a source | n | Alle kilder skal angives i en litteraturliste. | All sources must be listed in a bibliography. | g: c | pl: kilder | c: en troværdig kilde (a reliable source)
+      kontrollere | to check; to verify | v | Fakta skal altid kontrolleres. | Facts must always be checked. | n: Past: kontrollerede. Informal: tjekke.
+      angive | to state; to indicate | v | Det skal angives, hvis du har brugt AI. | It must be stated if you have used AI. | n: Irregular: angav, har angivet. Formal register.
+      lægge vægt på | to emphasise; to attach importance to | expr | Vi lægger stor vægt på den mundtlige eksamen. | We attach great importance to the oral exam. | n: Passive: der lægges vægt på…
+      finde på | to make up; to come up with | v | Chatbots finder nogle gange på kilder, der ikke findes. | Chatbots sometimes make up sources that don't exist. | n: Particle verb. Past: fandt på.
+      afsløre | to reveal; to expose | v | Snyderiet blev afsløret til eksamen. | The cheating was exposed at the exam. | n: Past: afslørede.
+      en algoritme | an algorithm | n | Algoritmen bestemmer, hvilke opslag du ser. | The algorithm decides which posts you see. | g: c | pl: algoritmer
+      tilsende | to send (to someone) | v | Du får reglerne tilsendt på mail. | You'll have the rules sent to you by email. | n: Formal; mostly in få noget tilsendt.
+    grammar:
+      title: "Passive with modals, der + passive and få + participle"
+      body: |
+        **Modal + passive.** After a modal verb you can use the s-infinitive (*skal skrives, må deles, kan oversættes*) or blive + participle (*skal blive skrevet*). The s-form is shorter and the usual choice in rules; blive stresses a process or a result: *Reglerne kan godt blive ændret senere.*
+
+        **Der + passive.** When there is no definite subject, *der* fills the subject position: *Der **bliver brugt** AI i mange fag.* · *Der **skal lægges** mere vægt på det mundtlige.* After a first element, der follows the verb: *Derfor **bliver der** lagt vægt på eksamen.*
+
+        **State or process?** *Er + participle* describes a state or result: *Teksten **er skrevet** af en elev* (that's who wrote it). *Bliver + participle* describes the process: *Teksten **bliver skrevet** i denne uge.*
+
+        **Få + participle** has two common meanings:
+        - have something done by someone else: *Hun **fik** sin computer **repareret**.* (also: *fik repareret sin computer*)
+        - receive: *I **får** reglerne **tilsendt** i aften.*
+      table: |
+        Structure | Example | Meaning
+        modal + s-passive | Teksten skal skrives af jer. | The text must be written by you.
+        modal + blive | Reglerne kan blive ændret. | The rules may be changed.
+        der + blive | Der bliver brugt AI i alle fag. | AI is used in all subjects.
+        der + modal + s | Der skal lægges vægt på det mundtlige. | Emphasis must be put on the oral part.
+        er + participle | Opgaven er skrevet af en elev. | The assignment was written by a student.
+        få + participle | Hun fik sin cykel repareret. | She had her bike repaired.
+      examples: |
+        Alle kilder skal kontrolleres. | All sources must be checked. | modal + s-passive
+        Der bliver stillet mange spørgsmål om kunstig intelligens. | Lots of questions are being asked about AI. | der + blive
+        Jeg fik oversat brevet af en kollega. | I had the letter translated by a colleague. | få + participle
+        Billedet er lavet af en computer. | The picture was made by a computer. | state: er + participle
+      tip: "After a modal verb, the short s-passive is usually best: skal sendes, kan bruges, må ikke deles."
+    dialogue:
+      title: Reglerne for den store opgave
+      setting: A classroom at a gymnasium in Roskilde. Birgitte, a teacher of Danish and history, goes through the rules for the major written assignment with Oliver and Yasmin.
+      speakers: B=Birgitte/f; O=Oliver/m; Y=Yasmin/f
+      lines: |
+        B: Før vi går i gang, skal vi tale om reglerne for kunstig intelligens i den store skriftlige opgave. | Before we start, we need to talk about the rules for artificial intelligence in the major written assignment.
+        O: Må den slet ikke bruges? Alle bruger den jo alligevel. | Can't it be used at all? Everyone uses it anyway.
+        B: Jo, den må gerne bruges til at finde idéer, men selve teksten skal skrives af jer. | Yes, it may be used to find ideas, but the text itself must be written by you.
+        Y: Hvordan kan I se, om en tekst er skrevet af en chatbot? | How can you tell whether a text has been written by a chatbot?
+        B: Ikke altid. Derfor bliver der lagt mere vægt på den mundtlige del, hvor I skal forsvare opgaven. | Not always. That's why more weight is being put on the oral part, where you have to defend your assignment.
+        O: Så hvis man får sin opgave skrevet af en maskine, bliver man afsløret til eksamen? | So if you get your assignment written by a machine, you'll be found out at the exam?
+        B: Højst sandsynligt. Det bliver hurtigt tydeligt, om man forstår sin egen tekst. | Very likely. It soon becomes clear whether you understand your own text.
+        Y: Men chatbots finder også på ting. Min bror fik en kilde, der slet ikke findes. | But chatbots make things up as well. My brother got a source that doesn't exist at all.
+        B: Præcis. Alle kilder skal kontrolleres, og det skal angives, hvis der er brugt kunstig intelligens. | Exactly. All sources must be checked, and it must be stated if artificial intelligence has been used.
+        O: Hvad med vores engelske citater? Må de oversættes automatisk? | What about our English quotations? May they be translated automatically?
+        B: Ja, men oversættelsen skal læses grundigt igennem. Maskinen kender jo ikke jeres fag. | Yes, but the translation must be read through carefully. The machine doesn't know your subject, after all.
+        Y: Det lyder fair. Kan vi få reglerne sendt på mail, så vi kan huske dem? | That sounds fair. Could we have the rules sent by email so we can remember them?
+    pronunciation:
+      title: "Letters and abbreviations: AI, IT, EU, DNA"
+      body: |
+        Danish reads most abbreviations letter by letter, with Danish letter names: **A** "a", **I** "i", **E** "e", **U** "u", **D** "de", **N** "en", **T** "te", **C** "se", **P** "pe". So *AI* is "a-i", *IT* is "i-te", *EU* is "e-u", *DNA* is "de-en-a" and *pc* is "pe-se". The stress falls on the last letter.
+
+        Many Danes also say *kunstig intelligens* in full, especially in formal contexts. Listen and repeat.
+      items: |
+        AI
+        IT
+        EU
+        DNA
+        Vi bruger AI i IT-afdelingen.
+    mistakes: |
+      Teksten skal blive skrives af jer. => Teksten skal skrives af jer. | After a modal, use either the s-infinitive (skrives) or blive + participle (blive skrevet) — not both.
+      Der bruger meget AI i skolen. => Der bliver brugt meget AI i skolen. | With der and no doer, the verb must be passive (bliver brugt or bruges).
+      Jeg fik min cykel reparere. => Jeg fik min cykel repareret. | Få + object + past participle.
+    task:
+      title: Rules for AI
+      mode: writing
+      body: |
+        Write a set of six to eight rules for using artificial intelligence at your workplace, school or language course. Use modal + passive (skal kontrolleres, må ikke deles), der + passive and at least one sentence with få + participle. Then explain the rules aloud, as if to a new colleague or classmate.
+    exercises: |
+      fill: Teksten skal ___ af jer selv. (skrive — passive) || skrives / blive skrevet || After a modal: s-infinitive (skrives) or blive + participle (blive skrevet). || @tags da.passive,da.modal-verbs
+      fill: Der ___ brugt kunstig intelligens i næsten alle fag nu. (present) || bliver || Der + bliver + participle: AI is being used. || @tags da.passive
+      fill: Hun fik sin computer ___ i går. (reparere) || repareret || Få + object + participle: she had her computer repaired. || @tags da.passive
+      mc: Which sentence is correct? || *Personlige oplysninger må ikke deles. | Personlige oplysninger må deles ikke. | Personlige oplysninger ikke må deles. || Main clause: modal + ikke + passive infinitive. || @tags da.passive,da.negation
+      mc: "Billedet er lavet af en computer." What does it mean? || *A computer made the picture | The picture is making a computer | A computer will make the picture || Er + participle describes a state or result: the picture was made by a computer. || @tags da.passive
+      tf: According to the teacher, AI may not be used at all. || false || "Den må gerne bruges til at finde idéer, men selve teksten skal skrives af jer." || @ctx dialogue
+      short: Why will more weight be put on the oral part of the exam? || kw: forsvare/defend/forstå/understand/afslør/found out/chatbot || Teachers can't always see whether a chatbot wrote the text, so students must defend their assignment orally. || @ctx dialogue
+      listen: @dialogue || What must students do if they have used AI? || *State that they have used it | Delete the text | Ask the teacher's permission first || "Det skal angives, hvis der er brugt kunstig intelligens." || @tags da.listening
+      listen: I vores kommune bliver der brugt kunstig intelligens til at planlægge ruterne for skraldebilerne. Det har sparet både tid og brændstof. || What is AI used for? || *Planning the routes of the rubbish lorries | Answering citizens' emails | Sorting the rubbish || "…til at planlægge ruterne for skraldebilerne." || @tags da.listening,da.passive
+      rw: Rewrite with der + passive :: Man bruger AI i mange virksomheder. || Der bliver brugt AI i mange virksomheder. | Der bruges AI i mange virksomheder. || Man + active → der + passive. || @tags da.passive
+      tr: All sources must be checked. || Alle kilder skal kontrolleres. | Alle kilder skal tjekkes. | Alle kilder skal blive kontrolleret. | Alle kilder skal blive tjekket. || Modal + passive: skal kontrolleres. || @tags da.passive,da.modal-verbs
+      ask: Explain two rules for using AI at your school or workplace. Use the passive after a modal verb. || kw: skal/må/kan & kontrolleres/bruges/deles/skrives/angives/blive || Hos os må AI bruges til at skrive udkast, men alle tekster skal læses igennem af en kollega. Kundernes oplysninger må aldrig deles med en chatbot.
+      write: Write six to eight rules for using AI at a workplace or school. || min=50 || req: skal/må/kan | der/ikke || Regler for brug af kunstig intelligens. AI må bruges til at finde idéer og skrive udkast. Alle tekster skal læses grundigt igennem, før de sendes til kunder. Fakta og tal skal altid kontrolleres. Personlige oplysninger må ikke deles med en chatbot. Det skal angives i rapporten, hvis der er brugt AI. Er du i tvivl, kan du få dine spørgsmål besvaret af IT-afdelingen.
+      dict: Alle kilder skal kontrolleres, og det skal angives, hvis der er brugt kunstig intelligens.
+
+  - title: Health and medicine in the news
+    summary: Read a news article about young people's sleep and understand nominal style — stigningen i, brugen af, behov for — then retell it in plain spoken Danish.
+    minutes: 50
+    skills: [reading, grammar, writing]
+    tags: [da.register, da.passive, da.reading]
+    objectives:
+      - Recognise nominal style in news and reports (-ning, -else, -hed and the prepositions that go with them)
+      - Turn nominal phrases back into verbs when you retell a story
+      - Understand a health news article and the limits of what a study shows
+    intro: |
+      Health stories fill the Danish news: new studies, new treatments, new warnings. News and official texts are full of nouns made from verbs — *stigningen i, brugen af, behandlingen af* — a style that packs a lot of information into few words. In this lesson you'll read an article about teenagers' sleep, learn to unpack its nominal style, and retell it the way you'd tell a friend.
+    vocab: |
+      en undersøgelse | a study; an examination | n | En ny undersøgelse viser, at unge sover for lidt. | A new study shows that young people sleep too little. | g: c | pl: undersøgelser | c: en undersøgelse af noget
+      en stigning | a rise; an increase | n | Der er sket en stigning i antallet af søvnproblemer. | There has been a rise in the number of sleep problems. | g: c | pl: stigninger | c: en stigning i noget
+      et fald | a fall; a decrease | n | Undersøgelsen viser et fald i antallet af rygere. | The study shows a fall in the number of smokers. | g: n | pl: fald | c: et fald i noget
+      en sammenhæng | a connection; a correlation | n | Forskerne har fundet en sammenhæng mellem skærmtid og søvn. | The researchers have found a connection between screen time and sleep. | g: c | pl: sammenhænge | c: en årsagssammenhæng (a causal link)
+      påvise | to demonstrate; to prove | v | Undersøgelsen kan ikke påvise en direkte årsag. | The study can't prove a direct cause. | n: Past: påviste. Formal.
+      en trivsel | well-being | n | Søvn har stor betydning for børns trivsel. | Sleep is very important for children's well-being. | g: c | n: No plural. Verb: trives (to thrive).
+      en indlæring | learning | n | Mangel på søvn går ud over indlæringen. | Lack of sleep affects learning. | g: c | n: No plural.
+      en overlæge | a consultant (senior doctor) | n | Overlægen fra børneafdelingen udtaler sig i artiklen. | The consultant from the children's ward comments in the article. | g: c | pl: overlæger
+      et behov | a need | n | Der er behov for flere undersøgelser. | There is a need for more studies. | g: n | pl: behov | c: behov for noget
+      anbefale | to recommend | v | Eksperterne anbefaler otte til ti timers søvn. | The experts recommend eight to ten hours of sleep. | n: Past: anbefalede. En anbefaling = a recommendation.
+      gå forrest | to lead by example; to go first | expr | De voksne må gå forrest. | The adults must lead by example.
+    grammar:
+      title: "Nominal style: stigningen i, brugen af"
+      body: |
+        News, reports and official texts often turn verbs and adjectives into nouns. This **nominal style** packs information into few words and sounds objective:
+
+        - *Søvnproblemerne er steget.* → ***Stigningen i** søvnproblemer…*
+        - *De unge bruger mobilen.* → *De unges **brug af** mobilen…*
+        - *Man behandler patienterne.* → ***Behandlingen af** patienterne…*
+
+        Common noun endings: **-ning / -ing** (behandling, stigning, forskning), **-else** (undersøgelse, forståelse), **-hed** (sundhed, mulighed), **-tion** (reaktion, produktion) — all en-words — and the bare verb stem (*et fald, et valg, en brug*).
+
+        The preposition comes with the noun, so learn them together: *stigning **i**, fald **i**, brug **af**, behandling **af**, undersøgelse **af**, behov **for**, mangel **på**.*
+
+        To understand a heavy sentence, turn it back into verbs and ask who does what: *Stigningen i antallet af patienter skyldes en ændring af reglerne.* → *Der er flere patienter, fordi man har ændret reglerne.* In conversation, the verbal version almost always sounds more natural.
+      table: |
+        Verb / adjective | Noun | With preposition
+        stige (rise) | en stigning | stigningen i antallet af…
+        falde (fall) | et fald | et fald i ledigheden
+        bruge (use) | en brug | brugen af mobiltelefoner
+        behandle (treat) | en behandling | behandlingen af patienter
+        undersøge (examine) | en undersøgelse | en undersøgelse af søvnvaner
+        mangle (lack) | en mangel | mangel på søvn
+      examples: |
+        Stigningen i søvnproblemer er bekymrende. | The rise in sleep problems is worrying. | nominal: stigning i
+        Det er bekymrende, at flere unge sover dårligt. | It's worrying that more young people sleep badly. | the same idea with verbs
+        Behandlingen af patienterne er blevet forbedret. | The treatment of the patients has been improved. | behandling af
+        Der er behov for flere undersøgelser af sammenhængen. | There's a need for more studies of the connection. | behov for, undersøgelse af
+      tip: When a news sentence feels heavy, find the -ning, -else and -hed nouns and ask — what is the verb behind each one, and who is doing it?
+    reading:
+      title: Unge sover for lidt – og skærmen får en del af skylden
+      text: |
+        Unge sover for lidt – og skærmen får en del af skylden
+
+        Danske teenagere sover i gennemsnit næsten en time mindre om natten, end eksperterne anbefaler. Det viser en ny undersøgelse, hvor over tre tusind elever i ottende og niende klasse har svaret på spørgsmål om deres søvnvaner.
+
+        Ifølge undersøgelsen er mangel på søvn tæt forbundet med brugen af mobiltelefon efter sengetid. Blandt de elever, der har telefonen liggende ved sengen, svarer hver tredje, at de ofte har svært ved at falde i søvn. Blandt dem, der lader telefonen ligge i et andet rum, gælder det kun hver tiende.
+
+        "Stigningen i søvnproblemer blandt unge er bekymrende," siger en af forskerne bag undersøgelsen, overlæge Hanne Bech. "Søvn har stor betydning for både indlæring og trivsel. Når søvnen bliver forstyrret igen og igen, får det konsekvenser for koncentrationen i skolen og for humøret derhjemme."
+
+        Forskerne understreger dog, at undersøgelsen ikke kan påvise en direkte årsagssammenhæng. "Det er også muligt, at unge, der i forvejen sover dårligt, bruger telefonen mere, fordi de ligger vågne," siger Hanne Bech. "Der er behov for flere undersøgelser af, hvordan sammenhængen præcis ser ud."
+
+        Flere kommuner har allerede reageret på resultaterne. I en kommune på Sjælland er der i år blevet indført et frivilligt forsøg med "skærmfri sengetid", hvor forældre og elever i fællesskab aftaler, at telefonerne skal sove i køkkenet. Erfaringerne skal evalueres til sommer.
+
+        Eksperterne anbefaler, at teenagere sover mellem otte og ti timer om natten, og at skærme slukkes mindst en time før sengetid. Men ifølge Hanne Bech handler det ikke kun om forbud. "Det vigtigste er, at de unge selv forstår, hvorfor søvnen betyder noget. Og at de voksne går forrest – også med deres egen telefon."
+      translation: |
+        Young people sleep too little – and the screen gets part of the blame
+
+        On average, Danish teenagers sleep almost an hour less a night than the experts recommend. That is shown by a new study in which more than three thousand pupils in years eight and nine answered questions about their sleeping habits.
+
+        According to the study, lack of sleep is closely linked to the use of mobile phones after bedtime. Among the pupils who keep their phone by the bed, one in three say they often find it hard to fall asleep. Among those who leave their phone in another room, this applies to only one in ten.
+
+        "The rise in sleep problems among young people is worrying," says one of the researchers behind the study, consultant Hanne Bech. "Sleep is very important for both learning and well-being. When sleep is disturbed again and again, it has consequences for concentration at school and for the mood at home."
+
+        The researchers stress, however, that the study cannot prove a direct causal link. "It's also possible that young people who already sleep badly use their phones more because they lie awake," says Hanne Bech. "There is a need for more studies of exactly what the connection looks like."
+
+        Several municipalities have already reacted to the results. In a municipality on Zealand, a voluntary trial of "screen-free bedtime" has been introduced this year, in which parents and pupils agree together that the phones should sleep in the kitchen. The experience will be evaluated next summer.
+
+        The experts recommend that teenagers sleep between eight and ten hours a night and that screens are switched off at least an hour before bedtime. But according to Hanne Bech, it isn't only about bans. "The most important thing is that young people themselves understand why sleep matters. And that the adults lead by example – with their own phones too."
+    pronunciation:
+      title: "Unstressed be- and for-: behandling, forbedring"
+      body: |
+        Many nouns in news Danish are built on verbs with the prefixes **be-** and **for-**. These prefixes are unstressed — the stress falls on the syllable after them: *be-HAND-ling, for-BED-ring, be-TYD-ning, be-KYM-ring, for-AN-dring*.
+
+        English speakers often stress the first syllable, which makes the words hard to recognise. Keep be- and for- short and weak, and land firmly on the next syllable. Listen and repeat.
+      items: |
+        behandling
+        forbedring
+        betydning
+        bekymring
+        forandring
+        Behandlingen er blevet forbedret.
+    mistakes: |
+      stigningen af søvnproblemer => stigningen i søvnproblemer | A rise or fall is in something: stigning i, fald i.
+      brugen på mobiltelefoner => brugen af mobiltelefoner | Brug takes af: brugen af noget.
+      Der er behov af flere undersøgelser. => Der er behov for flere undersøgelser. | Behov takes for.
+    task:
+      title: Tell a friend
+      mode: writing
+      body: |
+        A friend with teenage children hasn't read the article. Write them a message (80–100 words) that explains the main points in everyday spoken Danish: replace the nominal phrases with verbs (stigningen i søvnproblemer → flere unge sover dårligt). Then read both versions aloud and notice the difference in style.
+    exercises: |
+      fill: Der er sket en kraftig stigning ___ antallet af elbiler. || i || Stigning i noget: a rise in something. || @tags da.register
+      fill: Brugen ___ antibiotika skal reduceres. || af || Brug af noget: the use of something. || @tags da.register
+      fill: Mange unge lider af mangel ___ søvn. || på || Mangel på noget: a lack of something. || @tags da.register
+      rw: Rewrite in nominal style, starting "Der er sket en stigning…" :: Antallet af patienter er steget. || Der er sket en stigning i antallet af patienter. || The verb stige becomes the noun stigning + i. || @tags da.register
+      rw: Rewrite in everyday spoken style :: Behandlingen af patienterne er blevet forbedret. || Patienterne bliver behandlet bedre nu. | Patienterne bliver behandlet bedre. | Man behandler patienterne bedre nu. | Man behandler patienterne bedre. | Patienterne får en bedre behandling nu. || Turn the noun behandling back into the verb behandle. || @tags da.register,da.passive
+      mc: What is the noun from the verb undersøge? || *en undersøgelse | en undersøgning | et undersøg || Undersøge → en undersøgelse (-else). || @tags da.register @skill vocabulary
+      tf: The study proves that mobile phones cause sleep problems. || false || "Undersøgelsen [kan] ikke påvise en direkte årsagssammenhæng." || @ctx reading
+      mc: According to the article, how much less do teenagers sleep than recommended? || *Almost an hour | About two hours | Ten minutes || "…næsten en time mindre om natten, end eksperterne anbefaler." || @ctx reading @skill reading @tags da.reading
+      short: What do the experts recommend about screens? || kw: time/hour/sluk/off/sengetid/bedtime || Screens should be switched off at least an hour before bedtime. || @ctx reading
+      listen: Ifølge en ny rapport er der sket et fald i antallet af rygere blandt unge, men en stigning i brugen af nikotinposer. || What has increased? || *The use of nicotine pouches | The number of young smokers | The number of reports || "…en stigning i brugen af nikotinposer." Smoking has fallen. || @tags da.listening,da.register
+      tr: There is a need for more research. || Der er behov for mere forskning. | Der er brug for mere forskning. || Behov for (or brug for) + noun. || @tags da.register
+      ask: Retell a health story you've heard recently in plain spoken Danish — use verbs rather than heavy nouns. || kw: undersøgelse/forskere/viser/ifølge & fordi/så/at || Jeg hørte i radioen, at forskere har undersøgt, hvor meget unge sover. De sover næsten en time for lidt, og dem, der har telefonen ved sengen, sover dårligst. Men man ved ikke, om det er telefonen, der er skyld i det.
+      write: Write a message to a friend (5–7 sentences) that sums up the article in everyday spoken style. || min=50 || req: sover/søvn | telefon/mobil/skærm || Hej Rasmus! Jeg har lige læst en artikel om unges søvn. Mange teenagere sover næsten en time for lidt hver nat. Dem, der har mobilen ved sengen, har sværere ved at falde i søvn. Forskerne ved dog ikke helt, om det er telefonen, der er problemet. De anbefaler, at man slukker skærmen en time før sengetid. Måske skulle vi prøve det med børnene — og os selv!
+      dict: Stigningen i søvnproblemer blandt unge er bekymrende.

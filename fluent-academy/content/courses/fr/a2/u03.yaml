@@ -1,0 +1,350 @@
+unit: 3
+title: Le corps et la santé
+theme: Health and the body
+description: Say where it hurts, see a doctor and a pharmacist, and talk about healthy habits, using avoir mal à, the imperative and il faut.
+free: false
+objectives:
+  - Say where it hurts and describe simple symptoms with avoir mal à
+  - Understand and give instructions and advice with the imperative
+  - Talk about healthy habits with il faut and il ne faut pas
+canDo:
+  - I can say where it hurts and how I feel.
+  - I can make an appointment and explain my symptoms to a doctor.
+  - I can understand how to take a medicine.
+  - I can give simple advice about a healthy lifestyle.
+review: |
+  fill: Après l'écran, j'ai mal ___ yeux. || aux || Les yeux is plural: à + les = aux. || @tags fr.avoir-mal,fr.contractions
+  fill: (vous, se reposer) ___ deux ou trois jours. || Reposez-vous / Reposez vous || Affirmative imperative of a reflexive verb: verb + hyphen + pronoun. || @tags fr.imperative,fr.reflexive
+  fill: Il ne ___ pas manger trop de sel. || faut || Il ne faut pas + infinitive = you shouldn't. || @tags fr.modals
+  mc: The doctor says "Ne prenez pas ce médicament avec du lait." What should you do? || Take it with milk | *Not take it with milk | Take it before drinking milk || Ne prenez pas = don't take; avec du lait = with milk. || @tags fr.imperative,fr.negation
+  mc: Choose the correct sentence. || *J'ai mal à la tête et j'ai de la fièvre. | J'ai mal à ma tête et je suis de la fièvre. | J'ai mal au tête et j'ai fièvre. || Avoir mal à + definite article (la tête is feminine: à la), and avoir de la fièvre. || @tags fr.avoir-mal
+  rw: Make it negative :: Couche-toi tard ! || Ne te couche pas tard ! || In the negative imperative, the pronoun goes back before the verb: ne te couche pas. || @tags fr.imperative,fr.negation
+  tr: My son has a stomach ache. || Mon fils a mal au ventre. || Avoir mal à + le ventre = au ventre. || @tags fr.avoir-mal
+  listen: Bonjour, je voudrais un rendez-vous ce matin. Mon fils a de la fièvre et il tousse. || Why does the caller want an appointment? || The caller has backache | *The caller's son has a temperature and a cough | The caller's son has hurt his knee || "Mon fils a de la fièvre et il tousse." || @tags fr.listening
+  listen: Prenez une cuillère de sirop trois fois par jour, et ne conduisez pas après. || What instruction does the pharmacist give? || Take the syrup once a day | *Don't drive after taking it | Give it only to children || "Ne conduisez pas après" = don't drive afterwards; the syrup is three times a day. || @tags fr.imperative,fr.listening
+  ask: Your friend looks ill. Ask what's wrong and give two pieces of advice. || kw: qu'est-ce qui/ça va/mal & repose/bois/prends/il faut/va || Qu'est-ce qui ne va pas ? Tu as l'air fatigué. Rentre chez toi, repose-toi et bois beaucoup d'eau. Il faut appeler le médecin !
+  write: Write a message to your sports club — you can't come to training this week. Explain what's wrong and what the doctor said. || min=40 || req: mal | médecin/docteur || Bonjour Karine, je suis désolé, mais je ne peux pas venir à l'entraînement cette semaine. Samedi, je suis tombé et j'ai très mal au genou. Je suis allé chez le médecin hier. Il a dit : « Reposez-vous et ne courez pas cette semaine. » Je reviens bientôt ! Bonne semaine, Hugo
+lessons:
+  - title: Aches and pains
+    summary: Name parts of the body, say where it hurts with avoir mal à, and describe how you feel.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [fr.avoir-mal, fr.contractions]
+    objectives:
+      - Name the main parts of the body
+      - Say where it hurts with avoir mal au / à la / à l' / aux
+      - Describe common symptoms (fever, cough, a cold, tiredness)
+    intro: |
+      Whether you have a headache after a long day or a sore knee after a hike, you need to explain what is wrong — to a friend, a colleague or a doctor. French uses one very flexible expression, **avoir mal à**, plus a few other expressions with avoir for symptoms such as a temperature or a cold.
+    vocab: |
+      la tête | the head | n | J'ai mal à la tête, je vais me coucher. | I've got a headache, I'm going to bed. | g: f
+      le dos | the back | n | Après le déménagement, j'ai eu mal au dos. | After the move, I had backache. | g: m
+      le ventre | the stomach; the belly | n | Le petit a mal au ventre ce matin. | The little one has a stomach ache this morning. | g: m
+      la gorge | the throat | n | J'ai mal à la gorge, je ne peux pas chanter. | I have a sore throat, I can't sing. | g: f
+      les dents | teeth | n | Mon fils a mal aux dents. | My son has toothache. | g: f | n: Singular: une dent.
+      l'oreille | the ear | n | J'ai mal à l'oreille droite. | My right ear hurts. | g: f
+      le genou | the knee | n | Il est tombé et il a mal au genou. | He fell and his knee hurts. | g: m | pl: les genoux
+      le pied | the foot | n | J'ai marché toute la journée, j'ai mal aux pieds. | I walked all day; my feet hurt. | g: m
+      la fièvre | fever; a temperature | n | Elle a de la fièvre : trente-neuf ! | She has a temperature: 39! | c: avoir de la fièvre | g: f
+      tousser | to cough | v | Tu tousses beaucoup, tu as pris froid ? | You're coughing a lot, have you caught a cold? | n: La toux = a cough.
+      un rhume | a cold | n | J'ai un rhume, je reste à la maison. | I've got a cold, I'm staying at home. | c: attraper un rhume | g: m
+      malade | ill; sick | adj | Je suis malade, je ne vais pas au travail. | I'm ill, I'm not going to work. | n: Same form for men and women. Un/une malade = a patient.
+      avoir mal au cœur | to feel sick | expr | En bateau, j'ai toujours mal au cœur. | On boats I always feel sick. | n: It does not mean heart pain! Also: avoir la nausée.
+    grammar:
+      title: Avoir mal à
+      body: |
+        To say that something hurts, French uses **avoir mal à** + the body part with the **definite article**, not a possessive: *J'ai mal à la tête* (literally "I have pain at the head") — never ~~j'ai mal à ma tête~~.
+
+        Remember the contractions: **à + le = au**, **à + les = aux**. *À la* and *à l'* don't change.
+
+        Other symptoms also use **avoir**: *avoir de la fièvre, avoir un rhume, avoir froid, avoir mal au cœur*. For a general state, use **être** + adjective: *Je suis malade, je suis fatigué(e).* To ask: *Qu'est-ce qui ne va pas ? Où est-ce que vous avez mal ?*
+
+        In the passé composé, avoir becomes *j'ai eu*: *Hier, j'ai eu mal au dos.*
+      table: |
+        Article | avoir mal à… | Example
+        le (masculine) | au | J'ai mal au dos.
+        la (feminine) | à la | Tu as mal à la gorge ?
+        l' (before a vowel) | à l' | Elle a mal à l'oreille.
+        les (plural) | aux | Nous avons mal aux pieds.
+      examples: |
+        J'ai mal au ventre et j'ai de la fièvre. | I have a stomach ache and a temperature. | au + de la
+        Où est-ce que vous avez mal ? | Where does it hurt? | formal question
+        Mon fils a mal aux oreilles. | My son's ears hurt. | aux + plural
+        Hier soir, j'ai eu mal à la tête. | Last night I had a headache. | passé composé: j'ai eu
+      tip: "J'ai mal ! on its own means 'It hurts!' If you don't know the word for the body part, point and say: J'ai mal ici."
+    dialogue:
+      title: Pas en forme
+      setting: Thursday morning. Antoine phones his colleague Leïla to say he can't come to work.
+      speakers: A=Antoine/m; L=Leïla/f
+      lines: |
+        L: Allô, Antoine ? Tu n'es pas au bureau ? | Hello, Antoine? Aren't you at the office?
+        A: Non, je suis malade. J'ai mal partout. | No, I'm ill. I ache all over.
+        L: Oh non ! Qu'est-ce qui ne va pas ? | Oh no! What's wrong?
+        A: J'ai mal à la tête et j'ai très mal à la gorge. | I've got a headache and a very sore throat.
+        L: Tu as de la fièvre ? | Do you have a temperature?
+        A: Oui, trente-huit cinq. Et je tousse beaucoup. | Yes, 38.5. And I'm coughing a lot.
+        L: C'est peut-être la grippe. Tu as appelé le médecin ? | Maybe it's flu. Have you called the doctor?
+        A: Pas encore. Hier soir, j'ai eu mal au ventre aussi. | Not yet. Last night I had a stomach ache too.
+        L: Alors reste au lit et prends rendez-vous ce matin ! | Then stay in bed and make an appointment this morning!
+        A: Oui, tu as raison. Tu peux prévenir Mme Martin ? | Yes, you're right. Can you let Mrs Martin know?
+        L: Bien sûr. Soigne-toi bien et repose-toi ! | Of course. Look after yourself and get some rest!
+        A: Merci, Leïla. À lundi, j'espère ! | Thanks, Leïla. See you on Monday, I hope!
+    pronunciation:
+      title: "Au, aux, à la: hearing the article"
+      body: |
+        *Au* and *aux* are both pronounced [o]: *j'ai mal au pied* and *j'ai mal aux pieds* sound the same — only the context tells you. Before a vowel, *aux* links with a [z]: *aux oreilles* [o.zɔ.ʁɛj], *aux yeux* [o.zjø].
+
+        Pronounce *mal* with a clear [a] and [l]: [mal]. In *fièvre*, say [fjɛvʁ] in one syllable, gliding from [j] to [ɛ].
+      items: |
+        j'ai mal au dos
+        j'ai mal à la gorge
+        j'ai mal à l'oreille
+        j'ai mal aux oreilles
+        j'ai mal aux yeux
+        tu as de la fièvre ?
+    culture:
+      title: Être malade quand on travaille
+      body: |
+        In France, if you are too ill to work, a doctor can give you *un arrêt de travail* (a sick note). You have to send it to your employer and to the health insurance quickly, usually within 48 hours.
+
+        When someone is ill, people say *Soigne-toi bien !* or *Bon rétablissement !* (Get well soon!). Between colleagues, a short message is often enough.
+    mistakes: |
+      J'ai mal à ma tête. => J'ai mal à la tête. | With body parts, French uses the definite article, not a possessive.
+      J'ai mal à le dos. => J'ai mal au dos. | À + le always contracts to au.
+      Je suis de la fièvre. => J'ai de la fièvre. | Fever, colds and pain take avoir, not être.
+    task:
+      title: Calling in sick
+      mode: interaction
+      body: |
+        You wake up feeling ill on a workday. Phone your manager (the AI coach): say that you are ill, describe two or three symptoms with *avoir mal à* and *avoir de la fièvre*, and say what you are going to do (see a doctor, stay in bed, work from home).
+    exercises: |
+      fill: J'ai mal ___ dos. || au || Le dos is masculine: à + le = au. || @tags fr.avoir-mal,fr.contractions
+      fill: Elle a mal ___ gorge. || à la || La gorge is feminine: à la does not contract. || @tags fr.avoir-mal
+      fill: Après la randonnée, nous avons mal ___ pieds. || aux || Les pieds is plural: à + les = aux. || @tags fr.avoir-mal,fr.contractions
+      fill: Tu as mal ___ oreille ? || à l' || L'oreille starts with a vowel: à l'. || @tags fr.avoir-mal
+      mc: Choose the correct sentence. || J'ai mal à mon ventre. | *J'ai mal au ventre. | Je suis mal au ventre. || Avoir mal à + definite article: au ventre. || @tags fr.avoir-mal
+      match: la tête = head ; la gorge = throat ; le ventre = stomach ; le genou = knee ; le dos = back || Body parts take the definite article in French: j'ai mal au genou. || @skill vocabulary @tags fr.vocabulary
+      tf: Antoine has a temperature. || true || "Oui, trente-huit cinq" — 38.5 °C is a temperature. || @ctx dialogue
+      listen: @dialogue || What does Antoine ask Leïla to do? || Call the doctor for him | *Tell Mme Martin that he is ill | Bring him some medicine || "Tu peux prévenir Mme Martin ?" — prévenir = to let someone know. || @tags fr.listening
+      listen: Maman, j'ai mal aux dents et j'ai un peu de fièvre. || What's wrong with the child? || Earache and a cold | *Toothache and a slight temperature | A sore throat and a cough || Mal aux dents = toothache; un peu de fièvre = a slight temperature. || @tags fr.avoir-mal,fr.listening
+      rw: Put it in the passé composé :: Les enfants ont mal au ventre. || Les enfants ont eu mal au ventre. || Avoir in the passé composé: ont eu. || @tags fr.avoir-mal,fr.passe-compose-avoir
+      tr: I have a sore throat and I'm coughing. || J'ai mal à la gorge et je tousse. | J'ai mal à la gorge, je tousse. || Avoir mal à la gorge; tousser → je tousse. || @tags fr.avoir-mal
+      dict: Mon fils a mal à l'oreille et il a de la fièvre. || à l'oreille
+      ask: A friend asks you "Qu'est-ce qui ne va pas ?" Describe two symptoms. || kw: mal/fièvre/rhume/tousse || J'ai mal à la tête et j'ai un peu de fièvre. Je suis très fatigué.
+      write: Write a short message to your French teacher — you can't come to class today. Say what's wrong. || min=25 || req: malade/mal | désolé/désolée || Bonjour madame Rivière, je suis désolée, je ne peux pas venir au cours aujourd'hui. Je suis malade : j'ai mal à la gorge et j'ai de la fièvre. À jeudi, j'espère ! Ana
+
+  - title: "At the doctor's and the pharmacy"
+    summary: Make an appointment, explain your symptoms to a doctor and understand instructions at the pharmacy, using the imperative.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [fr.imperative, fr.avoir-mal]
+    objectives:
+      - Make a medical appointment and describe your symptoms
+      - Understand and use the imperative, including negative and reflexive forms
+      - Understand how and when to take a medicine
+    intro: |
+      At the doctor's and at the pharmacy, you mostly hear instructions: *Ouvrez la bouche, prenez ce médicament, ne buvez pas d'alcool.* These are all in the **imperative**, which you used in A1 for directions. In this lesson you will learn its negative and reflexive forms, so you can follow medical advice — and give advice to your friends.
+    vocab: |
+      prendre rendez-vous | to make an appointment | expr | Je voudrais prendre rendez-vous avec le docteur Lambert. | I'd like to make an appointment with Dr Lambert. | n: Un rendez-vous (m), often written RDV.
+      le médecin | the doctor | n | Mon médecin traitant est en vacances. | My GP is on holiday. | g: m | n: Le médecin traitant = your registered GP. You address a doctor as docteur.
+      examiner | to examine | v | Le médecin va vous examiner. | The doctor is going to examine you.
+      une ordonnance | a prescription | n | Voici votre ordonnance, madame. | Here is your prescription, madam. | g: f
+      un médicament | a medicine | n | Ce médicament est en vente sans ordonnance. | This medicine is sold without a prescription. | g: m
+      un comprimé | a tablet | n | Prenez un comprimé matin et soir. | Take one tablet morning and evening. | c: un comprimé effervescent | g: m
+      trois fois par jour | three times a day | expr | Prenez une cuillère de sirop trois fois par jour. | Take a spoonful of syrup three times a day. | c: une fois par jour; deux fois par semaine
+      la pharmacie | the pharmacy; the chemist's | n | La pharmacie de garde est ouverte le dimanche. | The duty pharmacy is open on Sundays. | g: f | n: La pharmacie de garde = the pharmacy open at night and on Sundays.
+      se reposer | to rest | v | Reposez-vous deux ou trois jours. | Rest for two or three days. | n: Imperative: repose-toi, reposez-vous.
+      se soigner | to look after yourself (when ill) | v | Soigne-toi bien ! | Look after yourself! | n: Soigner quelqu'un = to treat someone.
+      grave | serious | adj | Ce n'est pas grave, c'est un petit rhume. | It's not serious, it's just a little cold. | n: Ce n'est pas grave also means "never mind".
+      la carte Vitale | the French health insurance card | n | Vous avez votre carte Vitale ? | Do you have your health insurance card? | g: f
+      allergique (à) | allergic (to) | adj | Je suis allergique à la pénicilline. | I'm allergic to penicillin.
+    grammar:
+      title: The imperative for instructions and advice
+      body: |
+        The **imperative** gives instructions and advice. It is the present tense without the subject pronoun: *(tu) prends → **Prends**, (vous) prenez → **Prenez**.* With -er verbs (and *aller*), the tu form drops its -s: *tu restes → **Reste** au lit ! tu vas → **Va** chez le médecin !*
+
+        **Negative:** put *ne… pas* around the verb: ***Ne** prenez **pas** d'aspirine. **Ne** sors **pas** ce soir.*
+
+        **Reflexive verbs:** in the affirmative, the pronoun comes after the verb with a hyphen, and *te* becomes *toi*: ***Repose-toi !** **Reposez-vous !*** In the negative, the pronoun goes back before the verb: ***Ne t'**inquiète **pas.***
+
+        Two useful irregular forms: *être → sois, soyez* (*Sois prudent !*) and *avoir → aie, ayez* (*N'aie pas peur !*).
+      table: |
+        Verb | tu | vous | Negative (vous)
+        prendre | prends | prenez | ne prenez pas
+        boire | bois | buvez | ne buvez pas
+        rester | reste | restez | ne restez pas
+        se lever | lève-toi | levez-vous | ne vous levez pas
+        être | sois | soyez | ne soyez pas
+      examples: |
+        Prenez deux comprimés par jour, matin et soir. | Take two tablets a day, morning and evening. | vous form
+        Bois beaucoup d'eau et repose-toi. | Drink lots of water and get some rest. | tu forms
+        Ne buvez pas d'alcool avec ce médicament. | Don't drink alcohol with this medicine. | negative: de after pas
+        Ne t'inquiète pas, ce n'est pas grave. | Don't worry, it's not serious. | negative reflexive: pronoun before the verb
+      tip: "Doctors say vous to their patients — Ouvrez la bouche, respirez — but to a friend you say Prends…, Repose-toi !"
+    dialogue:
+      title: Chez le médecin, puis à la pharmacie
+      setting: Antoine sees Dr Lambert, his GP in Rouen, then takes his prescription to the pharmacy.
+      speakers: D=Dr Lambert/f; A=Antoine/m; P=Le pharmacien/m
+      lines: |
+        D: Bonjour, monsieur Moreau. Qu'est-ce qui vous arrive ? | Hello, Mr Moreau. What's the matter?
+        A: J'ai de la fièvre, je tousse et j'ai mal à la gorge. | I have a temperature, a cough and a sore throat.
+        D: Ouvrez la bouche, s'il vous plaît… Maintenant, respirez fort. | Open your mouth, please… Now breathe in deeply.
+        A: Alors, docteur, c'est grave ? | So, doctor, is it serious?
+        D: Non, c'est une grippe. Reposez-vous et buvez beaucoup d'eau. | No, it's flu. Rest and drink plenty of water.
+        A: Est-ce que je peux retourner au travail lundi ? | Can I go back to work on Monday?
+        D: Oui, normalement. Voici votre ordonnance et un arrêt de travail. | Yes, normally. Here's your prescription and a sick note.
+        P: Bonjour, monsieur. Vous avez votre carte Vitale ? | Hello, sir. Do you have your health card?
+        A: Oui, voilà. Comment est-ce que je prends ces médicaments ? | Yes, here you are. How do I take these medicines?
+        P: Prenez un comprimé trois fois par jour, après les repas. | Take one tablet three times a day, after meals.
+        A: Et le sirop ? | And the syrup?
+        P: Une cuillère le soir. Et ne buvez pas d'alcool ! | One spoonful in the evening. And don't drink any alcohol!
+    pronunciation:
+      title: "Prenez, buvez, reposez-vous"
+      body: |
+        The vous form of the imperative ends in **-ez**, pronounced [e]: *prenez* [pʁə.ne], *buvez* [by.ve]. The z is silent. The tu form of -er verbs ends in a silent e: *reste* [ʁɛst], *repose-toi* [ʁə.poz.twa].
+
+        French stress falls on the last syllable of a word group, so in reflexive imperatives the pronoun is slightly stressed: *reposez-VOUS, lève-TOI*.
+      items: |
+        prenez un comprimé
+        buvez beaucoup d'eau
+        reposez-vous
+        ne vous inquiétez pas
+        repose-toi
+        ouvrez la bouche
+    culture:
+      title: Le médecin traitant et la pharmacie
+      body: |
+        In France, adults are encouraged to register with a *médecin traitant* (GP), who refers them to specialists. You usually pay at the end of the appointment, and *l'Assurance maladie* reimburses most of the cost — with the *carte Vitale*, this happens automatically.
+
+        Pharmacies are easy to spot thanks to their green cross, and pharmacists give a lot of advice: for small problems, many people go to the pharmacy before the doctor. At night and on Sundays, look for *la pharmacie de garde*.
+    mistakes: |
+      Prendez un comprimé. => Prenez un comprimé. | The imperative uses the present-tense form: vous prenez → prenez.
+      Restes au lit ! => Reste au lit ! | With -er verbs, the tu imperative drops the final -s.
+      Ne inquiète-toi pas. => Ne t'inquiète pas. | In the negative, the reflexive pronoun goes back before the verb (te → t').
+    task:
+      title: At the doctor's
+      mode: interaction
+      body: |
+        Role-play an appointment with the AI coach as the doctor. Describe your symptoms (where it hurts, fever, cough), answer the doctor's questions, then ask how to take the medicine. Repeat the main instructions to check that you have understood: *Alors, je prends…, je ne bois pas…*
+    exercises: |
+      fill: (vous, prendre) ___ ce sirop le soir. || Prenez || The vous imperative is the present form without vous: prenez. || @tags fr.imperative
+      fill: (tu, boire) ___ beaucoup d'eau ! || Bois || Tu bois → bois (not an -er verb, so the -s stays). || @tags fr.imperative
+      fill: (tu, se reposer) ___ ce week-end. || Repose-toi / Repose toi || Affirmative reflexive imperative: verb + -toi; the -er verb loses its -s. || @tags fr.imperative,fr.reflexive
+      fill: Ne ___ pas d'alcool avec ce médicament. (vous, boire) || buvez || Negative imperative: ne + buvez + pas. || @tags fr.imperative,fr.negation
+      mc: Your friend is worried. You say: || Ne t'inquiètes pas. | *Ne t'inquiète pas. | Ne inquiète-toi pas. || -er verbs drop the -s in the tu imperative, and in the negative the pronoun goes before the verb. || @tags fr.imperative,fr.reflexive
+      tf: According to Dr Lambert, Antoine has flu. || true || "Non, c'est une grippe." || @ctx dialogue
+      listen: @dialogue || How should Antoine take the syrup? || Three times a day | *One spoonful in the evening | After every meal || The pharmacist says: "Une cuillère le soir." The tablets are three times a day. || @tags fr.listening
+      listen: Cabinet du docteur Haddad, bonjour. Le docteur peut vous recevoir jeudi à quinze heures trente. || When is the appointment? || Tuesday at 3:30 p.m. | *Thursday at 3:30 p.m. | Thursday at 5:30 p.m. || Jeudi = Thursday; quinze heures trente = 3:30 p.m. || @tags fr.time,fr.listening
+      rw: Make it negative :: Lève-toi ! || Ne te lève pas ! || In the negative, toi becomes te and goes before the verb. || @tags fr.imperative,fr.negation
+      tr: Don't go to work tomorrow, stay in bed! (informal) || Ne va pas au travail demain, reste au lit ! | Ne va pas travailler demain, reste au lit ! | Demain, ne va pas au travail, reste au lit ! || Aller and -er verbs drop the -s in the tu imperative: va, reste. || @tags fr.imperative,fr.negation
+      dict: Prenez ce médicament le matin et ne conduisez pas. || conduisez
+      ask: Phone a doctor's surgery. Ask for an appointment and describe one symptom. || kw: rendez-vous & mal/fièvre/tousse || Bonjour, madame. Je voudrais prendre rendez-vous avec le docteur, s'il vous plaît. J'ai mal à l'oreille et j'ai de la fièvre.
+      write: A friend has a bad cold. Write a short message with three pieces of advice in the imperative. || min=25 || req: toi/bois/prends/reste/va/mange/ne || Oh, mon pauvre ! Reste à la maison et repose-toi. Bois beaucoup de thé chaud avec du miel. Ne sors pas ce soir, il fait trop froid ! Et va à la pharmacie demain. Bisous !
+
+  - title: Healthy habits
+    summary: Talk about a healthy lifestyle and give advice about sleep, food and exercise with il faut and il ne faut pas.
+    minutes: 40
+    skills: [grammar, reading, speaking]
+    tags: [fr.modals, fr.frequency, fr.imperative]
+    objectives:
+      - Say what is necessary or not allowed with il faut / il ne faut pas + infinitive
+      - Talk about your own habits with frequency expressions
+      - Give and discuss advice for a healthy lifestyle
+    intro: |
+      Sleep, food, sport, stress: everyone has an opinion about healthy habits. To give general advice in French, the simplest structure is **il faut** + infinitive (*il faut dormir huit heures*). It never changes with the person, so it's easy to use — you just need to know what the negative really means and where to put it.
+    vocab: |
+      être en forme | to be fit; to feel good | expr | Je fais du sport pour rester en forme. | I do sport to stay in shape. | c: rester en forme; garder la forme
+      dormir | to sleep | v | Il faut dormir au moins sept heures par nuit. | You need to sleep at least seven hours a night. | n: Present: je dors, nous dormons.
+      l'alimentation | diet; food | n | Une alimentation équilibrée, c'est important. | A balanced diet is important. | g: f | n: Un régime = a (weight-loss) diet.
+      équilibré | balanced | adj | Elle prépare des repas équilibrés. | She makes balanced meals.
+      les fruits et légumes | fruit and vegetables | n | Mangez au moins cinq fruits et légumes par jour. | Eat at least five portions of fruit and vegetables a day. | g: m
+      grignoter | to snack; to nibble | v | Il ne faut pas grignoter entre les repas. | You shouldn't snack between meals.
+      le sucre | sugar | n | Il y a trop de sucre dans les sodas. | There's too much sugar in fizzy drinks. | c: sans sucre; trop de sucre | g: m
+      marcher | to walk | v | Je marche trente minutes tous les jours. | I walk thirty minutes every day. | n: Aller au travail à pied = to walk to work.
+      le stress | stress | n | Le yoga est bon contre le stress. | Yoga is good for stress. | c: être stressé(e); gérer son stress | g: m
+      arrêter de | to stop (doing) | v | Mon père a arrêté de fumer l'année dernière. | My father stopped smoking last year. | c: arrêter de fumer; arrêter le sucre
+      un écran | a screen | n | Il ne faut pas regarder les écrans avant de dormir. | You shouldn't look at screens before going to sleep. | g: m
+      se coucher tôt | to go to bed early | expr | En semaine, je me couche tôt. | During the week I go to bed early. | n: Opposite: se coucher tard.
+      la santé | health | n | Le sport, c'est bon pour la santé. | Sport is good for your health. | c: être en bonne santé; À ta santé ! | g: f
+    grammar:
+      title: Il faut and il ne faut pas
+      body: |
+        **Il faut** + infinitive expresses a general necessity: *Il faut boire de l'eau* (You need to / One must drink water). It is impersonal — *il* doesn't refer to anyone — and the form never changes: *il faut* for everybody.
+
+        **Il ne faut pas** + infinitive means *you mustn't* or *you shouldn't* — **not** "you don't have to": *Il ne faut pas fumer ici* (Smoking is not allowed here). *Ne… pas* goes around *faut*, and the infinitive comes after.
+
+        **Il faut** + noun means *you need* or *it takes*: *Il faut du temps et de la patience.* In the passé composé: *il a fallu* (*Il a fallu attendre une heure* — We had to wait an hour).
+
+        For personal advice, you can also use the imperative (*Mange des légumes !*) or devoir (*Tu dois dormir plus.*).
+      table: |
+        Structure | Meaning | Example
+        il faut + infinitive | you need to / you must | Il faut bouger tous les jours.
+        il ne faut pas + infinitive | you mustn't / you shouldn't | Il ne faut pas manger trop vite.
+        il faut + noun | you need / it takes | Il faut huit heures de sommeil.
+        il a fallu + infinitive | we / I had to | Il a fallu attendre une heure.
+      examples: |
+        Pour être en forme, il faut bien dormir. | To be in good shape, you need to sleep well. | il faut + infinitive
+        Il ne faut pas manger trop de sucre. | You shouldn't eat too much sugar. | ne… pas around faut
+        Il faut du courage pour arrêter de fumer. | It takes courage to stop smoking. | il faut + noun
+        Tu es fatigué ? Couche-toi plus tôt ! | Are you tired? Go to bed earlier! | personal advice with the imperative
+      tip: "Il ne faut pas = you mustn't. To say 'you don't have to', use ce n'est pas obligatoire or pas besoin de: Pas besoin de courir dix kilomètres !"
+    dialogue:
+      title: Nouvelle année, nouvelles habitudes
+      setting: January, in a café in Strasbourg. Sophie, a 45-year-old teacher, wants to change her habits and asks her friend Mamadou, a sports coach, for advice.
+      speakers: S=Sophie/f; M=Mamadou/m
+      lines: |
+        S: Cette année, je veux changer mes habitudes. Je suis toujours fatiguée ! | This year I want to change my habits. I'm always tired!
+        M: Tu dors combien d'heures par nuit ? | How many hours a night do you sleep?
+        S: Six heures, parfois moins. Je me couche après minuit. | Six hours, sometimes less. I go to bed after midnight.
+        M: C'est trop peu. Il faut dormir au moins sept heures. | That's too little. You need at least seven hours.
+        S: Je sais… Mais le soir, je regarde des séries sur mon téléphone. | I know… But in the evening I watch series on my phone.
+        M: Il ne faut pas regarder les écrans au lit. Lis un livre ! | You shouldn't look at screens in bed. Read a book!
+        S: D'accord. Et pour le sport ? Je n'ai pas le temps. | OK. And what about sport? I don't have time.
+        M: Pas besoin de faire deux heures de sport ! Marche trente minutes par jour. | No need to do two hours of sport! Walk thirty minutes a day.
+        S: Je peux aller au travail à pied, c'est à vingt minutes. | I can walk to work, it's twenty minutes away.
+        M: Parfait ! Et tu manges bien ? | Perfect! And do you eat well?
+        S: À midi, oui. Mais l'après-midi, je grignote des biscuits… | At lunchtime, yes. But in the afternoon I snack on biscuits…
+        M: Alors, prends une pomme ou des noix. Petit à petit ! | Then have an apple or some nuts. Little by little!
+    pronunciation:
+      title: "Il faut [il.fo]"
+      body: |
+        In *il faut*, the letters **-aut** sound like [o] and the final t is silent: [il.fo]. In fast speech, the *ne* of the negative often disappears: *il faut pas* [il.fo.pa]. You will hear this all the time, but write *il ne faut pas*.
+
+        Practise the glide [ɥ] in *huit* and *nuit*: *huit heures par nuit* [ɥi.tœʁ.paʁ.nɥi]. Push your lips forward as for [y], then move quickly to [i].
+      items: |
+        il faut dormir
+        il ne faut pas fumer
+        huit heures par nuit
+        en forme
+        équilibré
+        la santé
+    culture:
+      title: Manger à la française
+      body: |
+        In France, mealtimes are still quite regular: lunch around 12:30, dinner around 8 p.m., and an afternoon snack (*le goûter*) for children after school. Snacking between meals is less common than in many countries, and adverts for food carry health messages such as *Pour votre santé, mangez au moins cinq fruits et légumes par jour.*
+
+        In many towns, more and more people walk or cycle to work, and cities have built new cycle lanes and bike-sharing schemes.
+    mistakes: |
+      Il faut de dormir. => Il faut dormir. | Il faut is followed directly by the infinitive, without de.
+      Il ne faut fumer pas. => Il ne faut pas fumer. | Ne… pas goes around faut; the infinitive comes after.
+      Il ne faut pas aller à la salle de sport tous les jours. (meaning "you don't have to") => Pas besoin d'aller à la salle de sport tous les jours. | Il ne faut pas means "you mustn't". For "you don't have to", say ce n'est pas obligatoire or pas besoin de.
+    task:
+      title: A healthy-habits poster
+      mode: writing
+      body: |
+        Your language school is making a poster: *Nos conseils pour être en forme*. Write six tips — three with *il faut*, two with *il ne faut pas* and one in the imperative. Then compare your tips with the AI coach's and choose the three best.
+    exercises: |
+      fill: Pour bien dormir, il ___ éviter le café le soir. || faut || Il faut + infinitive (éviter) = you need to avoid. || @tags fr.modals
+      fill: Il ne faut ___ grignoter entre les repas. || pas || Il ne faut pas + infinitive = you shouldn't. || @tags fr.modals,fr.negation
+      mc: "Il ne faut pas fumer ici" means… || You don't have to smoke here | *You mustn't smoke here | You can smoke here || Il ne faut pas = you mustn't; it is a prohibition, not a lack of obligation. || @tags fr.modals
+      mc: Choose the correct sentence. || Il faut de boire de l'eau. | *Il faut boire de l'eau. | Il faut boit de l'eau. || Il faut + infinitive, with no de: il faut boire. || @tags fr.modals
+      rw: Turn it into general advice with "il faut" :: Tu dois manger des légumes. || Il faut manger des légumes. || Il faut + infinitive gives the same advice to everybody. || @tags fr.modals
+      rw: Make it negative :: Il faut regarder les écrans au lit. || Il ne faut pas regarder les écrans au lit. || Ne… pas goes around faut. || @tags fr.modals,fr.negation
+      tf: Sophie sleeps about six hours a night. || true || "Six heures, parfois moins." || @ctx dialogue
+      short: How is Sophie going to get more exercise? || kw: pied/marcher/walk/walking || "Je peux aller au travail à pied" — she is going to walk to work. || @ctx dialogue
+      listen: @dialogue || What does Mamadou suggest instead of biscuits? || A yoghurt and some juice | *An apple or some nuts | A coffee without sugar || "Prends une pomme ou des noix." || @tags fr.listening
+      listen: Pour être en forme, il faut bouger tous les jours, mais il ne faut pas oublier de se reposer. || What two pieces of advice does the speaker give? || Eat less and sleep more | *Move every day and remember to rest | Stop sugar and walk to work || "Il faut bouger tous les jours" + "il ne faut pas oublier de se reposer". || @tags fr.modals,fr.listening
+      tr: You need to sleep well and eat fruit. || Il faut bien dormir et manger des fruits. | Il faut bien dormir et manger des fruits ! || General advice: il faut + infinitive; bien goes before dormir. || @tags fr.modals
+      dict: Il faut marcher un peu tous les jours et se coucher tôt. || il faut
+      ask: The AI coach says "Je suis toujours stressé." Give two pieces of advice. || kw: il faut/il ne faut pas/tu dois/essaie/fais || Il faut faire du sport et il ne faut pas travailler le soir. Essaie aussi le yoga, c'est très bon contre le stress !
+      write: Write six tips for a class poster about a healthy life. || min=30 || req: il faut | il ne faut pas || Nos conseils pour être en forme : Il faut dormir au moins sept heures. Il faut manger des fruits et légumes. Il faut marcher trente minutes par jour. Il ne faut pas grignoter devant la télé. Il ne faut pas regarder les écrans au lit. Et buvez de l'eau !

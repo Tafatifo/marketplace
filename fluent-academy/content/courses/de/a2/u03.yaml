@@ -1,0 +1,353 @@
+unit: 3
+title: Körper und Gesundheit
+theme: Health and the body
+description: Say what hurts, describe symptoms at the doctor's, understand instructions at the pharmacy and give friends advice for a healthy life — with body vocabulary, sollen and the du-imperative.
+objectives:
+  - Name parts of the body and say what hurts
+  - Describe symptoms and understand and pass on instructions with sollen
+  - Give friends advice with the du-imperative
+canDo:
+  - I can say where it hurts and how I feel.
+  - I can ask for an appointment and describe my symptoms to a doctor.
+  - I can understand how and when to take a medicine.
+  - I can give a friend simple advice about health.
+review: |
+  fill: Mir ___ die Augen weh. || tun || Die Augen is plural, so the verb is tun: Mir tun die Augen weh. || @tags de.vocabulary,de.plural
+  fill: Ich habe ___. Mein Zahn tut so weh! || Zahnschmerzen || Der Zahn + -schmerzen = Zahnschmerzen (toothache). || @tags de.vocabulary
+  fill: Der Arzt sagt, wir ___ heute nicht schwimmen gehen. || sollen || Wir + sollen = wir sollen; the doctor's advice is passed on with sollen. || @tags de.modal-verbs
+  fill: ___ mehr Obst! (essen) || Iss || Du isst → Iss! The e → i change stays in the imperative. || @tags de.imperative
+  mc: Which is the correct du-imperative of "fahren"? || Fähr langsam! | *Fahr langsam! | Fährst langsam! || Verbs with a → ä lose the umlaut in the imperative: Fahr! || @tags de.imperative
+  mc: The pharmacist says: "Nehmen Sie die Tabletten vor dem Essen." When do you take them? || *Before meals | After meals | With meals || Vor dem Essen = before eating; nach dem Essen = after eating. || @tags de.vocabulary
+  rw: Pass on the advice with sollen :: Meine Ärztin sagt: "Trinken Sie viel Tee!" || Ich soll viel Tee trinken. || Sollen in position 2, the infinitive trinken at the end. || @tags de.modal-verbs
+  tr: Go for a walk! (to a friend) || Geh spazieren! | Geh doch spazieren! | Geh mal spazieren! | Geh doch mal spazieren! | Gehe spazieren! || Du gehst → Geh!; spazieren stays at the end. || @tags de.imperative
+  listen: Praxis Dr. Wenzel, guten Tag. Heute ist leider kein Termin mehr frei, aber morgen um neun Uhr geht es. || When can the caller come? || Today at nine | *Tomorrow at nine | Tomorrow afternoon || Heute ist kein Termin mehr frei, aber morgen um neun Uhr. || @tags de.listening
+  listen: Ich habe Husten und Schnupfen, aber zum Glück kein Fieber. || Which symptom does the speaker NOT have? || A cough | A runny nose | *A temperature || Husten = cough, Schnupfen = runny nose, kein Fieber = no temperature. || @tags de.listening
+  ask: A colleague looks ill. Ask what's wrong and give one piece of advice. || kw: was/tut/geht/fehlt & geh/trink/bleib/nimm/ruf/schlaf/leg || Was ist los? Tut dir der Kopf weh? Geh doch nach Hause und schlaf ein bisschen!
+  write: Write a short email to your German teacher: you are ill, say what hurts and what the doctor told you to do. || min=35 || req: schmerzen/weh/fieber/erkältet/krank | soll | arzt/ärztin || Liebe Frau Sommer, leider kann ich heute nicht zum Kurs kommen. Ich bin krank und habe starke Halsschmerzen. Ich war heute Morgen beim Arzt. Er sagt, ich soll drei Tage zu Hause bleiben und viel trinken. Nächste Woche komme ich wieder. Viele Grüße, Diego
+lessons:
+  - title: Aches and pains
+    summary: Name the parts of the body, say what hurts with weh tun and -schmerzen, and describe how you feel.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [de.vocabulary, de.plural]
+    objectives:
+      - Name the main parts of the body, with their plurals
+      - Say what hurts with "Mir tut … weh" and "Ich habe …schmerzen"
+      - Ask someone how they feel and react with sympathy
+    intro: |
+      When you feel ill in a German-speaking country, you need to explain quickly what is wrong. German has two simple patterns for pain — *Ich habe Kopfschmerzen* and *Mir tut der Rücken weh* — plus a few useful phrases for colds and flu. In this lesson you learn the body and these patterns.
+    vocab: |
+      der Kopf | head | n | Nach der Arbeit tut mir oft der Kopf weh. | My head often hurts after work. | g: m | pl: die Köpfe
+      der Hals | throat; neck | n | Mein Hals ist ganz rot und trocken. | My throat is all red and dry. | g: m | pl: die Hälse
+      der Rücken | back | n | Vom langen Sitzen tut mir der Rücken weh. | My back hurts from sitting for a long time. | g: m | pl: die Rücken
+      der Bauch | stomach; belly | n | Nach dem Essen hat er Bauchschmerzen bekommen. | After the meal he got a stomach ache. | g: m | pl: die Bäuche
+      das Bein | leg | n | Nach dem Unfall konnte ich das Bein nicht bewegen. | After the accident I couldn't move my leg. | g: n | pl: die Beine
+      die Hand | hand | n | Im Winter sind meine Hände immer kalt. | In winter my hands are always cold. | g: f | pl: die Hände
+      der Fuß | foot | n | Nach der Wanderung haben mir die Füße wehgetan. | After the hike my feet hurt. | g: m | pl: die Füße
+      das Auge | eye | n | Meine Augen sind rot, ich habe zu lange am Computer gesessen. | My eyes are red; I sat at the computer for too long. | g: n | pl: die Augen
+      der Zahn | tooth | n | Ich habe Zahnschmerzen und brauche einen Termin beim Zahnarzt. | I have toothache and need an appointment at the dentist's. | g: m | pl: die Zähne
+      weh tun | to hurt | v | Tut es hier weh? | Does it hurt here? | n: Also written wehtun. One thing hurts: tut weh; several: tun weh. Perfekt: hat wehgetan.
+      der Schmerz | pain | n | Ich habe starke Schmerzen im Knie. | I have severe pain in my knee. | g: m | pl: die Schmerzen | c: Kopfschmerzen; Bauchschmerzen; Halsschmerzen | n: Usually used in the plural.
+      erkältet | having a cold | adj | Ich bin erkältet und habe Schnupfen. | I've got a cold and a runny nose. | c: erkältet sein; eine Erkältung haben
+      das Fieber | fever; temperature | n | Mein Sohn hat 39 Grad Fieber. | My son has a temperature of 39 degrees. | g: n | pl: (no plural) | c: Fieber haben; Fieber messen
+    grammar:
+      title: "Saying what hurts: weh tun and -schmerzen"
+      body: |
+        German has two everyday ways to talk about pain.
+
+        1. **Ich habe + …schmerzen.** Join the body part and *-schmerzen* into one word: *Kopfschmerzen, Halsschmerzen, Bauchschmerzen, Rückenschmerzen, Zahnschmerzen* (earache: *Ohrenschmerzen*). In German these are plural: *Ich habe Kopfschmerzen.*
+        2. **Mir tut … weh.** Here the body part is the subject, so the verb agrees with it: one part → *Mir **tut** der Rücken weh*; several → *Mir **tun** die Füße weh*. *Mir* means "to me" — you will learn these dative forms in Unit 6. For now, learn the chunks *Mir tut … weh* and the questions *Was tut dir weh?* / *Was tut Ihnen weh?*
+
+        For other symptoms use **sein** + adjective (*Ich bin krank / erkältet / müde*) or **haben** + noun (*Ich habe Fieber / Husten / Schnupfen*). Many body parts have an umlaut in the plural: *der Fuß → die Füße, der Zahn → die Zähne*.
+      table: |
+        Body part | Plural | Pain
+        der Kopf | die Köpfe | Kopfschmerzen
+        der Hals | die Hälse | Halsschmerzen
+        der Bauch | die Bäuche | Bauchschmerzen
+        der Rücken | die Rücken | Rückenschmerzen
+        der Zahn | die Zähne | Zahnschmerzen
+        das Ohr | die Ohren | Ohrenschmerzen
+        der Fuß | die Füße | Mir tun die Füße weh.
+      examples: |
+        Ich habe schreckliche Kopfschmerzen. | I have a terrible headache. | -schmerzen: plural in German
+        Mir tut der Rücken weh. | My back hurts. | one body part: tut
+        Mir tun die Augen weh. | My eyes hurt. | plural: tun
+        Was tut Ihnen weh? – Der Bauch. | What hurts? – My stomach. | formal question
+      tip: If you can't remember the word for a body part, point and say "Hier tut es weh."
+    dialogue:
+      title: Du siehst blass aus
+      setting: Early morning in a shared flat in Osnabrück. Nele comes into the kitchen, and her flatmate Konstantin sees that she isn't well.
+      speakers: K=Konstantin/m; N=Nele/f
+      lines: |
+        K: Morgen, Nele! Du siehst aber blass aus. Alles okay? | Morning, Nele! You look pale. Everything okay?
+        N: Nicht wirklich. Ich habe die ganze Nacht schlecht geschlafen. | Not really. I slept badly all night.
+        K: Oh nein. Was tut dir denn weh? | Oh no. What hurts?
+        N: Der Kopf, der Hals … und mir tun alle Knochen weh. | My head, my throat… and I'm aching all over.
+        K: Hast du Fieber? Ich habe ein Thermometer. | Have you got a temperature? I've got a thermometer.
+        N: Gestern Abend hatte ich schon 38,5 Grad. | Last night I already had 38.5 degrees.
+        K: Dann bist du bestimmt erkältet. Oder ist es eine Grippe? | Then you've definitely got a cold. Or is it flu?
+        N: Keine Ahnung. Ich habe auch Husten und Schnupfen. | No idea. I've also got a cough and a runny nose.
+        N: Aber ich habe um zehn eine wichtige Prüfung! | But I've got an important exam at ten!
+        K: Mit Fieber? Du musst im Bett bleiben. Die Prüfung kannst du später schreiben. | With a temperature? You have to stay in bed. You can take the exam later.
+        N: Du hast recht. Ich gehe wieder ins Bett. | You're right. I'm going back to bed.
+        K: Gute Besserung! Ich koche dir einen Tee. | Get well soon! I'll make you a cup of tea.
+    pronunciation:
+      title: "pf and umlaut plurals"
+      body: |
+        The letters **pf** are one quick sound: close your lips for *p* and let the air out through them as *f*. Don't drop the p — *Kopf* is not "Kof": *Kopf, Kopfschmerzen*.
+
+        Many body parts form their plural with an umlaut. Practise the pairs: *Fuß – Füße, Zahn – Zähne, Hand – Hände, Kopf – Köpfe*. Round your lips for ü and ö; for ä, open your mouth as in English *bed*.
+      items: |
+        die Füße
+        die Zähne
+        die Hände
+        die Köpfe
+        Kopfschmerzen
+        Mir tut der Bauch weh.
+    culture:
+      title: Calling in sick
+      body: |
+        If you are ill and can't work, you must tell your employer on the first day, usually by phone or message before work starts. From the fourth day at the latest you need a sick note from a doctor (*Krankschreibung*), and many employers ask for one from the first day. The doctor usually sends it electronically to your health insurance.
+
+        When someone is ill, Germans always say ***Gute Besserung!*** — get well soon. A short message with *Gute Besserung* is the polite reaction when a colleague is off sick.
+    mistakes: |
+      Ich habe Kopfschmerz. => Ich habe Kopfschmerzen. | Pain is normally plural in German: Kopfschmerzen, Bauchschmerzen.
+      Mir tut die Füße weh. => Mir tun die Füße weh. | Die Füße is plural, so the verb is tun.
+      Ich bin Fieber. => Ich habe Fieber. | Fieber is a noun, so use haben. Use sein with adjectives: Ich bin krank.
+    task:
+      title: A voicemail to your boss
+      mode: speaking
+      body: |
+        You wake up ill. Leave a short voicemail for your boss or your teacher: say who you are, that you are ill, what hurts and one other symptom, and that you can't come today. Record yourself in Speaking practice.
+    exercises: |
+      fill: Ich habe starke ___. Mein Kopf tut so weh! || Kopfschmerzen || Der Kopf + -schmerzen = Kopfschmerzen (plural in German). || @tags de.vocabulary
+      fill: Mir ___ der Rücken weh. || tut || One body part (der Rücken), so the verb is tut. || @tags de.vocabulary
+      fill: Nach dem Marathon ___ mir die Beine weh. || tun || Die Beine is plural, so the verb is tun. || @tags de.vocabulary,de.plural
+      fill: Ich ___ erkältet und ___ Fieber. || bin ; habe || Sein + adjective (erkältet), haben + noun (Fieber). || @tags de.sein,de.haben
+      mc: What is the plural of "der Zahn"? || die Zahne | *die Zähne | die Zahnen || Der Zahn has an umlaut plural: die Zähne. || @tags de.plural
+      rw: Say it another way, with weh tun :: Ich habe Rückenschmerzen. || Mir tut der Rücken weh. | Der Rücken tut mir weh. | Mein Rücken tut weh. || One body part: tut … weh. || @tags de.vocabulary
+      tf: Nele has a temperature. || true || She had 38.5 degrees last night. || @ctx dialogue
+      short: Why doesn't Nele want to stay in bed at first? || kw: prüfung/exam/test || She has an important exam at ten. || @ctx dialogue
+      listen: @dialogue || What does Konstantin offer to do? || Call Nele's professor | *Make her a cup of tea | Take her to the doctor || "Gute Besserung! Ich koche dir einen Tee."
+      listen: Mir tut das linke Knie weh, und ich kann nicht gut laufen. || What is the problem? || *The left knee hurts. | The right knee hurts. | The left foot hurts. || Das linke Knie = the left knee. || @tags de.listening
+      tr: My eyes hurt. || Mir tun die Augen weh. | Die Augen tun mir weh. | Meine Augen tun weh. | Meine Augen tun mir weh. || Die Augen is plural: tun … weh. || @tags de.vocabulary
+      dict: Ich habe Halsschmerzen und ein bisschen Fieber.
+      ask: A friend calls and asks "Wie geht's dir?" You are ill. Say what hurts and give one other symptom. || kw: tut/tun/schmerzen/weh & fieber/husten/schnupfen/erkältet/krank/müde || Nicht so gut. Ich habe Kopfschmerzen und mir tut der Hals weh. Ich glaube, ich bin erkältet.
+
+  - title: "At the doctor's and the pharmacy"
+    summary: Ask for an appointment, describe your symptoms and understand and pass on instructions with sollen — at the surgery and at the pharmacy.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.modal-verbs, de.register]
+    objectives:
+      - Ask for an appointment at a doctor's surgery
+      - Understand and pass on instructions and advice with sollen
+      - Understand how and when to take a medicine
+    intro: |
+      At the doctor's you first need an appointment, then you describe your symptoms and follow the doctor's instructions. Afterwards you often repeat those instructions — to the pharmacist, your partner or your boss — with **sollen**: *Ich soll drei Tage im Bett bleiben.*
+    vocab: |
+      der Termin | appointment | n | Ich brauche dringend einen Termin. | I urgently need an appointment. | g: m | pl: die Termine | c: einen Termin machen; einen Termin vereinbaren
+      die Praxis | doctor's surgery; practice | n | Die Praxis ist am Mittwochnachmittag geschlossen. | The surgery is closed on Wednesday afternoons. | g: f | pl: die Praxen
+      die Versichertenkarte | health insurance card | n | Haben Sie Ihre Versichertenkarte dabei? | Do you have your health insurance card with you? | g: f | pl: die Versichertenkarten | n: Also called die Gesundheitskarte.
+      untersuchen | to examine | v | Die Ärztin hat mich gründlich untersucht. | The doctor examined me thoroughly. | n: No ge-: hat untersucht
+      das Rezept | prescription | n | Hier ist Ihr Rezept für die Apotheke. | Here is your prescription for the pharmacy. | g: n | pl: die Rezepte | n: Also means a recipe for cooking.
+      die Apotheke | pharmacy; chemist's | n | Die Apotheke am Markt hat bis 20 Uhr geöffnet. | The pharmacy on the market square is open until 8 p.m. | g: f | pl: die Apotheken
+      das Medikament | medicine; drug | n | Das Medikament macht ein bisschen müde. | The medicine makes you a bit tired. | g: n | pl: die Medikamente
+      die Tablette | tablet; pill | n | Nehmen Sie morgens und abends eine Tablette. | Take one tablet in the morning and one in the evening. | g: f | pl: die Tabletten
+      der Hustensaft | cough syrup | n | Der Hustensaft schmeckt leider nicht gut. | Unfortunately the cough syrup doesn't taste nice. | g: m | pl: die Hustensäfte
+      krankschreiben | to sign someone off sick | v | Die Ärztin hat mich für drei Tage krankgeschrieben. | The doctor signed me off sick for three days. | n: Separable: hat krankgeschrieben
+      sollen | to be supposed to; should | v | Der Arzt sagt, ich soll viel trinken. | The doctor says I should drink a lot. | n: Advice or instructions from someone else. ich soll, du sollst, er soll.
+      dreimal täglich | three times a day | expr | Nehmen Sie die Tropfen dreimal täglich. | Take the drops three times a day. | c: einmal täglich; vor dem Essen; nach dem Essen
+    grammar:
+      title: "sollen: passing on instructions and advice"
+      body: |
+        **Sollen** shows that *someone else* wants or advises you to do something — a doctor, a pharmacist, your boss. It is a modal verb like *müssen* and *können*: sollen is in position 2 and the infinitive goes to the end: *Ich **soll** viel Wasser **trinken**.* Like other modals, it has no ending in the ich- and er/sie/es-forms: *ich soll, sie soll*.
+
+        Use it to report instructions. The doctor says: *"Bleiben Sie im Bett!"* You tell your partner: *Die Ärztin sagt, ich soll im Bett bleiben.* In questions, sollen asks for instructions: *Wie oft soll ich die Tabletten nehmen? Soll ich morgen wiederkommen?*
+
+        Compare **müssen** — something is necessary (*Ich muss zum Arzt*) — with **sollen** — someone tells or advises me (*Ich soll zwei Tage zu Hause bleiben*). Doctors usually give instructions with the Sie-imperative: *Nehmen Sie…, Trinken Sie…, Kommen Sie…*
+      table: |
+        Pronoun | sollen | Example
+        ich | soll | Ich soll viel schlafen.
+        du | sollst | Du sollst den Saft vor dem Essen nehmen.
+        er / sie / es | soll | Er soll keinen Sport machen.
+        wir | sollen | Wir sollen um acht Uhr da sein.
+        ihr | sollt | Ihr sollt leise sein, das Baby schläft.
+        sie / Sie | sollen | Sie sollen die Karte mitbringen.
+      examples: |
+        Die Ärztin sagt, ich soll drei Tage im Bett bleiben. | The doctor says I should stay in bed for three days. | passing on an instruction
+        Wie oft soll ich die Tabletten nehmen? | How often should I take the tablets? | asking for instructions
+        Mein Mann soll keinen Kaffee trinken. | My husband isn't supposed to drink coffee. | negative with kein
+        Soll ich morgen wiederkommen? | Should I come back tomorrow? | yes/no question
+      tip: If you could add "…says the doctor" in your head, use sollen. If the need is your own, use müssen.
+    dialogue:
+      title: In der Hausarztpraxis
+      setting: Rafael Gomes goes to his family doctor's surgery in Hannover without an appointment. First he speaks to Frau Lorenz at reception, then to Dr. Brandt.
+      speakers: L=Frau Lorenz/f; R=Herr Gomes/m; B=Dr. Brandt/f
+      lines: |
+        L: Guten Morgen! Haben Sie einen Termin? | Good morning! Do you have an appointment?
+        R: Nein, leider nicht. Ich habe starke Rückenschmerzen. | No, I'm afraid not. I've got bad back pain.
+        L: Haben Sie Ihre Versichertenkarte dabei? Dann nehmen Sie bitte im Wartezimmer Platz. | Have you got your insurance card with you? Then please take a seat in the waiting room.
+        B: Herr Gomes, bitte! Was fehlt Ihnen denn? | Mr Gomes, please! What seems to be the problem?
+        R: Mir tut der Rücken sehr weh, besonders am Morgen. | My back hurts a lot, especially in the morning.
+        B: Haben Sie am Wochenende etwas Schweres getragen? | Did you carry anything heavy at the weekend?
+        R: Ja, ich bin umgezogen und habe viele Kisten getragen. | Yes, I moved house and carried lots of boxes.
+        B: Ich untersuche Sie kurz … Es ist eine Verspannung, nichts Schlimmes. | I'll examine you briefly… It's muscle tension, nothing serious.
+        B: Tragen Sie eine Woche nichts Schweres und nehmen Sie zweimal täglich eine Tablette. | Don't carry anything heavy for a week and take one tablet twice a day.
+        R: Soll ich auch zur Physiotherapie gehen? | Should I go to physiotherapy as well?
+        B: Ja, das hilft. Hier ist Ihr Rezept, und kommen Sie in einer Woche wieder. | Yes, that helps. Here is your prescription, and come back in a week.
+        R: Also, ich soll nichts tragen, Tabletten nehmen und nächste Woche wiederkommen. | So I'm not supposed to carry anything, I should take tablets and come back next week.
+    pronunciation:
+      title: "z, x, th and ph"
+      body: |
+        The letter **z** is always [ts], like the end of English *cats*: *Rezept, zweimal, Zahn*. The letter **x** is [ks]: *Praxis*. In German, **th** is simply [t] — *Apotheke, Physiotherapie* — and **ph** is [f]: *Physiotherapie*.
+
+        Listen and repeat, and keep the [ts] in *Rezept* sharp and short.
+      items: |
+        das Rezept
+        zweimal täglich
+        die Praxis
+        die Apotheke
+        die Physiotherapie
+        Nehmen Sie eine Tablette.
+    culture:
+      title: Family doctor, out-of-hours service and pharmacy
+      body: |
+        In Germany you usually go to your family doctor (*Hausarzt* or *Hausärztin*) first, who sends you to a specialist if necessary. Many surgeries have a consultation hour without appointments (*offene Sprechstunde*). At night and at weekends you can call **116 117** for the out-of-hours medical service; in an emergency, dial **112**.
+
+        Many medicines, even simple painkillers and cough syrups, are sold only in pharmacies. Every pharmacy door shows the nearest pharmacy on night duty (*Notdienst*).
+    mistakes: |
+      Ich soll nehmen die Tabletten. => Ich soll die Tabletten nehmen. | With modal verbs the infinitive goes to the end of the sentence.
+      Er sollt im Bett bleiben. => Er soll im Bett bleiben. | With er/sie/es, sollen has no ending: er soll.
+      Ich habe ein Termin. => Ich habe einen Termin. | Der Termin is masculine, so the accusative is einen Termin.
+    task:
+      title: At the doctor's
+      mode: interaction
+      body: |
+        Practise with the AI coach in the "At the doctor's" scenario: describe your symptoms, answer the doctor's questions, and then repeat the instructions with sollen to check that you have understood — "Ich soll also…?"
+    exercises: |
+      fill: Die Ärztin sagt, ich ___ viel Tee trinken. || soll || Ich + sollen = ich soll (no ending). || @tags de.modal-verbs
+      fill: Wie oft ___ ich die Tabletten nehmen? || soll || Asking for an instruction: Wie oft soll ich…? || @tags de.modal-verbs,de.questions
+      fill: Du ___ den Hustensaft dreimal täglich nehmen, sagt die Apothekerin. || sollst || Du + sollen = du sollst. || @tags de.modal-verbs
+      fill: Mein Vater ___ keinen Kaffee mehr trinken. || soll || Er + sollen = er soll (no ending). || @tags de.modal-verbs
+      mc: The doctor says: "Bleiben Sie zwei Tage zu Hause!" You tell your boss: || *Ich soll zwei Tage zu Hause bleiben. | Ich soll zwei Tage zu Hause. | Ich sollen zwei Tage zu Hause bleiben. || Ich soll + infinitive (bleiben) at the end. || @tags de.modal-verbs
+      order: Ich soll die Tabletten nach dem Essen nehmen. || I'm supposed to take the tablets after meals. || Sollen in position 2, the infinitive at the end. || @tags de.modal-verbs,de.word-order @alt Nach dem Essen soll ich die Tabletten nehmen. | Die Tabletten soll ich nach dem Essen nehmen.
+      rw: Tell your partner what the doctor said, starting with "Ich soll" :: "Nehmen Sie zweimal täglich eine Tablette." || Ich soll zweimal täglich eine Tablette nehmen. | Ich soll täglich zweimal eine Tablette nehmen. || The imperative nehmen Sie becomes ich soll … nehmen. || @tags de.modal-verbs,de.imperative
+      tf: Herr Gomes had an appointment. || false || "Haben Sie einen Termin?" – "Nein, leider nicht." || @ctx dialogue
+      short: Why does Herr Gomes's back hurt? || kw: umgezogen/umzug/moved/moving/kisten/boxes/carried/carrying || He moved house and carried lots of boxes. || @ctx dialogue
+      listen: @dialogue || When should Herr Gomes come back? || Tomorrow | *In a week | In two weeks || "Kommen Sie in einer Woche wieder."
+      listen: Nehmen Sie den Saft dreimal täglich, immer nach dem Essen, und trinken Sie dazu keinen Alkohol. || How should the syrup be taken? || Three times a day, before meals | *Three times a day, after meals | Twice a day, with water || Dreimal täglich, immer nach dem Essen. || @tags de.listening
+      tr: How often should I take the tablets? || Wie oft soll ich die Tabletten nehmen? | Wie oft sollte ich die Tabletten nehmen? || Question word + soll ich + … + nehmen. || @tags de.modal-verbs
+      dict: Ich brauche heute dringend einen Termin.
+      ask: Phone a doctor's surgery: say who you are, that you need an appointment, and describe one symptom. || kw: termin & schmerzen/fieber/husten/weh/erkältet/krank || Guten Tag, hier ist Lara Fischer. Ich brauche bitte einen Termin. Ich habe Fieber und starke Halsschmerzen.
+
+  - title: Healthy habits
+    summary: Give friends advice for a healthier life with the du-imperative — Trink mehr Wasser! Schlaf genug! — and talk about your own habits.
+    minutes: 35
+    skills: [grammar, speaking, writing]
+    tags: [de.imperative]
+    objectives:
+      - Form the du-imperative of regular, stem-changing and separable verbs
+      - Give and react to advice about sleep, food, exercise and stress
+      - Talk about your own healthy and unhealthy habits
+    intro: |
+      Friends and family love giving advice — and in German they do it with the **du-imperative**: *Trink mehr Wasser! Geh früher schlafen! Fang langsam an!* In this lesson you learn to form it correctly, including the tricky stem-changing verbs, and you talk about the habits that keep you healthy.
+    vocab: |
+      gesund | healthy | adj | Gemüse ist gesund und schmeckt gut. | Vegetables are healthy and taste good. | n: The opposite is ungesund. Die Gesundheit = health.
+      die Bewegung | exercise; movement | n | Bewegung ist gut gegen Stress. | Exercise is good for stress. | g: f | pl: die Bewegungen | c: genug Bewegung; mehr Bewegung
+      der Stress | stress | n | Im Moment habe ich viel Stress bei der Arbeit. | At the moment I've got a lot of stress at work. | g: m | pl: (no plural) | c: Stress haben; gestresst sein
+      die Treppe | stairs; staircase | n | Nimm doch die Treppe und nicht den Aufzug! | Take the stairs, not the lift! | g: f | pl: die Treppen
+      genug | enough | adv | Schläfst du genug? | Do you get enough sleep?
+      der Zucker | sugar | n | Limonade hat sehr viel Zucker. | Lemonade has a lot of sugar. | g: m | pl: (no plural)
+      aufhören | to stop | v | Hör endlich mit dem Rauchen auf! | Stop smoking at last! | n: Separable: Hör auf! With a noun: mit + dative (mit dem Rauchen).
+      spazieren gehen | to go for a walk | v | Geh in der Mittagspause spazieren! | Go for a walk in your lunch break! | n: Perfekt: ist spazieren gegangen
+      der Schlaf | sleep | n | Guter Schlaf ist wichtig für die Gesundheit. | Good sleep is important for your health. | g: m | pl: (no plural)
+      anfangen | to start; to begin | v | Fang langsam an – zehn Minuten reichen am Anfang. | Start slowly – ten minutes is enough at the beginning. | n: Separable and stem-changing: du fängst an → Fang an!
+      regelmäßig | regularly | adv | Ich gehe regelmäßig schwimmen, zweimal pro Woche. | I go swimming regularly, twice a week.
+      weniger | less; fewer | adv | Iss weniger Süßes und mehr Gemüse! | Eat fewer sweet things and more vegetables! | n: The opposite: mehr.
+    grammar:
+      title: "The du-imperative: giving advice"
+      body: |
+        To give advice or instructions to a friend, use the **du-imperative**. Take the du-form of the present tense, remove **-st** and leave out **du**: *du trinkst → **Trink** mehr Wasser! du gehst → **Geh** früher ins Bett!*
+
+        - Verbs with **e → i / ie** keep the change: *du isst → **Iss**!, du nimmst → **Nimm**!, du liest → **Lies**!*
+        - Verbs with **a → ä** lose the umlaut: *du schläfst → **Schlaf**!, du fährst → **Fahr**!, du fängst an → **Fang** an!*
+        - **Separable verbs** send the prefix to the end: *Hör auf! Ruf deine Ärztin an!*
+        - If the stem ends in **-t** or **-d**, add **-e**: *Arbeite nicht so viel! Warte kurz!*
+        - **sein** is irregular: ***Sei** nicht so gestresst!*
+
+        Add **doch**, **mal** or **bitte** to sound friendly rather than bossy: *Geh doch mal spazieren!* To two or more friends, use the ihr-form without ihr: *Trinkt mehr Wasser!*
+      table: |
+        Infinitive | du-form | Imperative
+        trinken | du trinkst | Trink!
+        schlafen | du schläfst | Schlaf!
+        essen | du isst | Iss!
+        nehmen | du nimmst | Nimm!
+        anfangen | du fängst an | Fang an!
+        arbeiten | du arbeitest | Arbeite!
+        sein | du bist | Sei!
+      examples: |
+        Trink mehr Wasser und weniger Kaffee! | Drink more water and less coffee! | regular: trinkst → trink
+        Nimm doch die Treppe! | Why don't you take the stairs? | e → i stays: nimm
+        Schlaf am Wochenende mal richtig aus! | Have a proper lie-in at the weekend! | a → ä is dropped; aus goes to the end
+        Sei nicht so streng mit dir! | Don't be so hard on yourself! | sein → sei
+      tip: Soften advice with doch or mal — "Geh doch mal früher schlafen!" sounds friendly, not like an order.
+    dialogue:
+      title: Neues Jahr, neues Leben?
+      setting: A January evening in Bielefeld. Timo wants to live more healthily. Over a cup of tea, his friend Anja, a nurse, gives him some tips.
+      speakers: T=Timo/m; A=Anja/f
+      lines: |
+        T: Anja, ich will dieses Jahr endlich gesund leben. | Anja, this year I finally want to live healthily.
+        A: Super Idee! Was willst du denn ändern? | Great idea! So what do you want to change?
+        T: Ich schlafe zu wenig und esse zu viel Süßes. | I don't sleep enough and I eat too many sweet things.
+        A: Dann geh abends früher ins Bett, so um elf. | Then go to bed earlier in the evening, around eleven.
+        A: Und nimm das Handy nicht mit ins Schlafzimmer! | And don't take your phone into the bedroom!
+        T: Okay. Und Sport? Ich habe keine Lust auf ein Fitnessstudio. | Okay. And sport? I don't fancy a gym.
+        A: Dann fang langsam an. Geh jeden Tag eine halbe Stunde spazieren. | Then start slowly. Go for a walk for half an hour every day.
+        T: Das ist alles? Kein Joggen? | Is that all? No jogging?
+        A: Am Anfang reicht das. Und nimm im Büro immer die Treppe! | That's enough at the beginning. And always take the stairs at the office!
+        T: Und was mache ich gegen den Stress? | And what do I do about the stress?
+        A: Mach regelmäßig Pausen und sei nicht so streng mit dir. | Take regular breaks and don't be so hard on yourself.
+        T: Danke, Frau Doktor! Ich fange morgen an. | Thank you, doctor! I'll start tomorrow.
+    pronunciation:
+      title: Friendly intonation in advice
+      body: |
+        A short imperative can sound rude if it is spoken flat and hard. To sound friendly, stress the most important word, add *doch* or *mal*, and let your voice fall gently at the end: *Geh doch mal spaZIEren!*
+
+        Make the imperative itself short and clear — there is no ending to swallow: *Trink!, Nimm!, Iss!* Repeat each sentence twice: once as an order, once as friendly advice.
+      items: |
+        Trink mehr Wasser!
+        Nimm doch die Treppe!
+        Schlaf genug!
+        Iss weniger Zucker!
+        Fang langsam an!
+        Sei nicht so gestresst!
+    culture:
+      title: Fresh air and the Sunday walk
+      body: |
+        Many Germans believe strongly in fresh air. Even in winter they air their rooms several times a day by opening the windows wide for a few minutes (*Stoßlüften*). A walk after a big Sunday lunch is a tradition in many families, and parks and forests are full of walkers at the weekend.
+
+        Work-life balance matters too: *Feierabend* — the end of the working day — is protected time, and many people avoid work emails in the evening.
+    mistakes: |
+      Isst mehr Gemüse! => Iss mehr Gemüse! | The imperative drops the -st and the pronoun: du isst → Iss!
+      Schläf genug! => Schlaf genug! | Verbs with a → ä lose the umlaut in the imperative.
+      Du trink mehr Wasser! => Trink mehr Wasser! | The du-imperative has no pronoun.
+    task:
+      title: Advice for a friend
+      mode: writing
+      body: |
+        A friend writes to you: "Ich bin immer müde und gestresst. Was soll ich machen?" Reply with four or five pieces of advice using the du-imperative — about sleep, food, exercise and breaks — and say what you do yourself.
+    exercises: |
+      fill: ___ mehr Wasser! (trinken) || Trink / Trinke || Du trinkst → Trink! (Trinke is also correct but sounds more formal.) || @tags de.imperative @hint trinken
+      fill: ___ doch die Treppe! (nehmen) || Nimm || Du nimmst → Nimm! The e → i change stays. || @tags de.imperative @hint nehmen
+      fill: ___ am Wochenende mal richtig ___! (ausschlafen) || Schlaf / Schlafe ; aus || Du schläfst aus → Schlaf … aus! No umlaut, and the prefix goes to the end. || @tags de.imperative,de.separable
+      fill: ___ nicht so gestresst! (sein) || Sei || The du-imperative of sein is irregular: Sei! || @tags de.imperative
+      mc: Your friend smokes. Which advice is correct? || Hörst mit dem Rauchen auf! | *Hör mit dem Rauchen auf! | Auf hör mit dem Rauchen! || Remove -st from du hörst; the prefix auf goes to the end. || @tags de.imperative,de.separable
+      rw: Turn this into direct advice (du-imperative) :: Du sollst regelmäßig Pausen machen. || Mach regelmäßig Pausen! | Mache regelmäßig Pausen! | Mach doch regelmäßig Pausen! || Du machst → Mach! The rest of the sentence stays the same. || @tags de.imperative
+      tf: Anja tells Timo to go jogging every day. || false || She tells him to start slowly with a half-hour walk every day. || @ctx dialogue
+      short: What should Timo always do at the office, according to Anja? || kw: treppe/stairs/staircase || "Nimm im Büro immer die Treppe!" || @ctx dialogue
+      listen: @dialogue || When is Timo going to start? || Today | *Tomorrow | Next month || "Ich fange morgen an."
+      listen: Iss nicht so spät am Abend und mach nach dem Essen einen kleinen Spaziergang. || What advice does the speaker give? || Eat late and then rest | *Don't eat late, and go for a short walk after eating | Skip dinner and go jogging || Iss nicht so spät … mach einen kleinen Spaziergang. || @tags de.listening,de.imperative
+      dict: Fang langsam an und mach regelmäßig Pausen.
+      ask: Your friend says "Ich schlafe so schlecht." Give two pieces of advice. || kw: geh/trink/mach/nimm/lies/iss/schlaf/hör & doch/mal/nicht/kein/keinen/früher/weniger/mehr || Geh doch früher ins Bett und trink abends keinen Kaffee!
+      write: Reply to a friend who writes "Ich bin immer müde und gestresst." Give four pieces of advice with the du-imperative. || min=35 || req: trink/iss/schlaf/geh/mach/nimm/fang/hör/sei | doch/mal | nicht/kein/keinen/weniger/mehr || Liebe Jana, das tut mir leid! Geh doch abends früher ins Bett und schlaf mindestens sieben Stunden. Trink weniger Kaffee und mehr Wasser. Mach in der Mittagspause einen Spaziergang. Und sei nicht so streng mit dir! Ich mache jeden Abend Yoga, das hilft mir sehr. Liebe Grüße, Mia

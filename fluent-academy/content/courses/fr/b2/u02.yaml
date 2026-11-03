@@ -1,0 +1,352 @@
+unit: 2
+title: Travailler demain
+theme: Work and the economy
+description: Discuss how work is changing, negotiate pay and conditions, and talk about what we buy and why, using the conditionnel passé for unconfirmed information, polite requests, regrets and reproaches.
+free: true
+objectives:
+  - Form the conditionnel passé and use it for unconfirmed information and missed possibilities
+  - Negotiate politely, setting conditions and proposing compromises
+  - Express regrets and reproaches about past choices and purchases
+canDo:
+  - I can understand a news article that reports unconfirmed information with the conditional.
+  - I can negotiate a pay rise or a rate, set conditions and reach a compromise.
+  - I can say what I should or could have done differently.
+  - I can discuss consumer habits, repairs and second-hand buying.
+review: |
+  fill: Selon le journal local, l'usine ___ (recruter) cinquante personnes en janvier. || aurait recruté || Unconfirmed information about the past: conditionnel passé, elle aurait recruté. || @tags fr.conditionnel-passe
+  fill: Elle ___ (devoir) négocier son salaire dès l'entretien d'embauche. || aurait dû || A regret or reproach about the past: aurait dû + infinitive. || @tags fr.conditionnel-passe
+  mc: "Je baisse mon tarif, à condition que vous ___ pour six mois." || signez | *signiez | signerez || À condition que is followed by the subjunctive: que vous signiez. || @tags fr.subjonctif-triggers
+  mc: Which sentence is a polite opening in a negotiation? || Je veux une augmentation. | *J'aurais souhaité aborder la question de ma rémunération. | Donnez-moi une augmentation. || The conditionnel passé (j'aurais souhaité) turns a demand into a modest wish. || @tags fr.conditionnel-passe,fr.register
+  fill: Nous partirons à neuf heures, à moins qu'il ne ___ (pleuvoir). || pleuve || À moins que + subjunctive: pleuvoir → qu'il pleuve. The ne has no negative meaning. || @tags fr.subjonctif-triggers
+  rw: Turn it into a missed possibility with "pouvoir" :: On n'a pas testé le produit avant le lancement. || On aurait pu tester le produit avant le lancement. | Nous aurions pu tester le produit avant le lancement. || Pouvoir in the conditionnel passé + infinitive = could have. || @tags fr.conditionnel-passe
+  fill: J'aurais mieux ___ (faire) d'acheter un modèle d'occasion. || fait || J'aurais mieux fait de + infinitive = I would have done better to. || @tags fr.conditionnel-passe
+  tr: It would have been better to repair it. || Il aurait mieux valu le réparer. | Il aurait mieux valu la réparer. | Il aurait mieux valu le faire réparer. | Il aurait mieux valu la faire réparer. | Il aurait été préférable de le réparer. | Il aurait été préférable de la réparer. || Il aurait mieux valu + infinitive = it would have been better to. || @tags fr.conditionnel-passe
+  listen: D'après plusieurs sources, la direction aurait accepté la semaine de quatre jours, mais rien n'est encore officiel. || What is the status of this information? || *It hasn't been officially confirmed | It was officially announced | The management denied it || Aurait accepté + rien n'est encore officiel: the information is unconfirmed. || @tags fr.listening,fr.conditionnel-passe
+  listen: Je vous propose un compromis : je livre en deux fois et, en contrepartie, vous me payez la moitié à la commande. || What does the speaker propose? || *Two deliveries in exchange for half the payment upfront | A fifty per cent discount | One free delivery || "Je livre en deux fois… en contrepartie, vous me payez la moitié à la commande." || @tags fr.listening
+  ask: Your client asks for a 20% discount. Answer diplomatically and propose a compromise. || kw: compromis/à condition que/à condition de/en contrepartie/en échange/quitte à & pourrais/pourrions/serait/aurais/accepter/proposer/propose || Vingt pour cent, ce serait difficile. En revanche, je pourrais vous accorder dix pour cent, à condition que vous me confiiez les trois prochains projets.
+  write: Write an email (80–100 words) to your manager asking to renegotiate your working hours. || min=80 || req: j'aurais souhaité/j'aurais aimé/j'aurais voulu | à condition que/à condition de/en contrepartie/en échange | serait-il envisageable/seriez-vous prêt/seriez-vous prête/pourriez-vous/serait-il possible || Bonjour Madame Lemaire, j'aurais souhaité vous rencontrer pour revoir mon organisation. Depuis la naissance de ma fille, il m'est difficile de quitter le bureau après dix-huit heures. Serait-il envisageable que je commence à huit heures et que je parte à seize heures trente ? En contrepartie, je resterais joignable par téléphone jusqu'à dix-huit heures et je pourrais assurer la permanence du vendredi. Je reste bien sûr ouvert à un essai de trois mois, à condition que nous fassions un bilan ensemble. Bien cordialement, Julien Bertin
+lessons:
+  - title: The future of work
+    summary: Read a news article about a company's year-long four-day-week experiment and use the conditionnel passé for unconfirmed information and missed possibilities.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [fr.conditionnel-passe]
+    objectives:
+      - Discuss new ways of organising work, such as the four-day week and remote work
+      - Form the conditionnel passé with avoir and être
+      - Use it to report unconfirmed information and to say what could or should have happened
+    intro: |
+      Four-day weeks, remote work, shorter careers in more companies: the way we work is changing fast, and the press reports on it every day. Journalists use a specific tool when information is **not confirmed**: the conditional. *Deux cadres auraient quitté l'entreprise* means "two managers are said to have left". The same tense — the **conditionnel passé** — also lets you say what **could** or **should** have happened.
+    vocab: |
+      la semaine de quatre jours | the four-day week | n | La semaine de quatre jours séduit de plus en plus de salariés. | The four-day week appeals to more and more employees. | g: f
+      un salarié | an employee | n | L'entreprise compte soixante salariés. | The company has sixty employees. | g: m | n: Feminine: une salariée.
+      la productivité | productivity | n | La productivité a légèrement augmenté. | Productivity has risen slightly. | g: f
+      un arrêt maladie | sick leave | n | Il est en arrêt maladie depuis lundi. | He's been on sick leave since Monday. | g: m | c: être en arrêt maladie; un arrêt de travail
+      un cadre | a manager; an executive | n | Les cadres ont souvent des horaires plus libres. | Managers often have more flexible hours. | g: m | n: In France, cadre is an official employment status, not just a job title.
+      l'équilibre entre vie professionnelle et vie personnelle | work–life balance | n | J'ai enfin trouvé un bon équilibre entre vie professionnelle et vie personnelle. | I've finally found a good work–life balance. | g: m | n: Informally: l'équilibre vie pro / vie perso.
+      un pari | a bet; a gamble | n | Passer à trente-deux heures était un pari audacieux. | Moving to thirty-two hours was a bold gamble. | g: m | c: faire un pari; un pari risqué
+      un bilan | an assessment; a review | n | Nous ferons le bilan dans six mois. | We'll take stock in six months. | g: m | c: faire le bilan; un premier bilan
+      la direction | the management | n | La direction n'a pas souhaité répondre. | The management declined to comment. | g: f
+      joindre | to reach; to contact | v | Les clients n'arrivent pas à nous joindre le vendredi. | Clients can't reach us on Fridays. | n: Conjugated like craindre: je joins, nous joignons.
+      par roulement | on a rota basis; in turns | expr | Les salariés assurent la permanence par roulement. | Employees take turns to cover the phones. | n: Une permanence = a duty period; someone is on call.
+      revenir en arrière | to go back; to turn the clock back | expr | Personne ne veut revenir en arrière. | Nobody wants to go back.
+    grammar:
+      title: "The conditionnel passé: form and first uses"
+      body: |
+        The **conditionnel passé** is formed with **avoir** or **être** in the present conditional + the **past participle**: *j'**aurais** travaillé, elle **serait** partie, ils **se seraient** adaptés.* Verbs take the same auxiliary as in the passé composé, and the participle agrees in the same way.
+
+        It has three main uses:
+
+        - **Something that did not happen** — a missed possibility, a regret or a reproach: *Nous **aurions dû** mieux préparer les équipes. Certaines réunions **auraient pu** disparaître plus tôt. Je n'**aurais** jamais **imaginé** un tel équilibre.*
+        - **Unconfirmed information about the past**, typical of the press: *Deux cadres **auraient quitté** l'entreprise* (= reportedly left). It often comes with *selon* or *d'après* and a remark that nothing has been confirmed.
+        - **Politeness**: *J'**aurais voulu** vous poser une question* is even softer than *je voudrais*.
+
+        Compare the present conditional, which is about the present: *les arrêts maladie **diminueraient*** (are reportedly falling) / *auraient diminué* (reportedly fell). In unit 8 you will combine the conditionnel passé with *si* + plus-que-parfait.
+      table: |
+        Verb | Conditionnel passé | Example
+        travailler | j'aurais travaillé | J'aurais travaillé moins.
+        devoir | tu aurais dû | Tu aurais dû le dire.
+        pouvoir | on aurait pu | On aurait pu commencer plus tôt.
+        partir | elle serait partie | Elle serait partie en mars.
+        s'adapter | ils se seraient adaptés | Ils se seraient vite adaptés.
+      examples: |
+        Selon la direction, la productivité aurait augmenté de 5 %. | According to the management, productivity has reportedly risen by 5%. | unconfirmed information
+        Nous aurions pu tester le projet sur une seule équipe. | We could have tested the project on a single team. | missed possibility
+        Je n'aurais jamais cru qu'on puisse travailler moins et mieux. | I would never have believed you could work less and better. | surprise about the past
+        J'aurais voulu vous parler de mon emploi du temps. | I wanted to talk to you about my schedule. | politeness
+      tip: "Aurait dû + infinitive = should have; aurait pu + infinitive = could have. The infinitive never changes: ils auraient dû partir."
+    reading:
+      title: "La semaine de quatre jours : un an après"
+      text: |
+        Il y a un an, une PME nantaise de soixante salariés, spécialisée dans les logiciels de gestion, passait à la semaine de quatre jours, sans baisse de salaire. Le pari était audacieux : produire autant en travaillant trente-deux heures au lieu de trente-cinq. Premier bilan.
+
+        Côté salariés, l'enthousiasme est réel. « Le vendredi, je m'occupe de mes enfants et je fais du sport. Je n'aurais jamais imaginé retrouver un tel équilibre », confie Sandrine, développeuse. Selon une enquête interne, neuf salariés sur dix se disent plus motivés qu'avant, et les arrêts maladie auraient diminué d'un tiers.
+
+        Côté direction, le ton est plus prudent. La productivité aurait légèrement augmenté, mais les chiffres définitifs ne seront publiés qu'en mars. Le PDG, Thomas Royer, reconnaît que la transition n'a pas été simple : « Nous aurions dû mieux préparer les équipes. Certaines réunions inutiles auraient pu disparaître bien plus tôt. » D'après plusieurs salariés, deux cadres auraient même quitté l'entreprise, faute de s'adapter au nouveau rythme. La direction n'a pas souhaité confirmer.
+
+        Car le modèle a ses limites. Les journées sont plus denses, et certains clients se plaignent de ne pouvoir joindre personne le vendredi. Pour y répondre, l'entreprise a mis en place une permanence par roulement.
+
+        Pour les économistes, l'expérience est intéressante mais difficile à généraliser. « Ce qui fonctionne dans une entreprise de logiciels n'aurait sans doute pas fonctionné de la même manière dans un hôpital ou dans un commerce », souligne la chercheuse Nadia Chérif. Ailleurs en Europe, des essais similaires ont donné des résultats encourageants, notamment au Royaume-Uni en 2022.
+
+        Reste une question : la semaine de quatre jours est-elle l'avenir du travail, ou seulement celui de certains métiers ? À Nantes, en tout cas, personne ne souhaite revenir en arrière.
+      translation: |
+        A year ago, a sixty-employee SME in Nantes specialising in management software switched to a four-day week, with no pay cut. It was a bold gamble: producing as much while working thirty-two hours instead of thirty-five. Here is a first assessment.
+
+        On the employees' side, the enthusiasm is real. "On Fridays I look after my children and do some sport. I would never have imagined finding such a balance again," says Sandrine, a developer. According to an internal survey, nine employees out of ten say they are more motivated than before, and sick leave has reportedly fallen by a third.
+
+        On the management side, the tone is more cautious. Productivity has reportedly risen slightly, but the final figures will not be published until March. The CEO, Thomas Royer, admits that the transition was not easy: "We should have prepared the teams better. Some pointless meetings could have disappeared much earlier." According to several employees, two managers even left the company because they couldn't adapt to the new pace. The management declined to confirm this.
+
+        Because the model has its limits. Days are more intense, and some clients complain that they can't reach anyone on Fridays. To deal with this, the company has set up a rota so that someone is always on duty.
+
+        For economists, the experiment is interesting but hard to generalise. "What works in a software company would probably not have worked in the same way in a hospital or a shop," points out the researcher Nadia Chérif. Elsewhere in Europe, similar trials have produced encouraging results, notably in the United Kingdom in 2022.
+
+        One question remains: is the four-day week the future of work, or only the future of certain jobs? In Nantes, at any rate, nobody wants to go back.
+    pronunciation:
+      title: "Liaison with the auxiliary: ils auraient, elles se seraient"
+      body: |
+        After *ils*, *elles*, *nous* and *vous*, the liaison with *auraient, aurions, auriez* is compulsory: *ils auraient dû* [il.zo.ʁɛ.dy], *nous aurions pu* [nu.zo.ʁjɔ̃.py]. With *être*, there is no liaison: *ils seraient partis* [il.sə.ʁɛ.paʁ.ti].
+
+        The ending *-aient* is a single sound [ɛ]: never pronounce the *-nt*. Listen to how the participle carries the stress at the end of the group: *ils auraient **dû**, on aurait **pu**.*
+      items: |
+        ils auraient dû
+        nous aurions pu
+        vous auriez préféré
+        elles se seraient adaptées
+        on aurait pu
+        la productivité
+    mistakes: |
+      Nous aurions dû de mieux préparer les équipes. => Nous aurions dû mieux préparer les équipes. | Devoir is followed directly by the infinitive, without de.
+      Elle aurait parti en mars. => Elle serait partie en mars. | Partir takes être in compound tenses, and the participle agrees with the subject.
+      Tu aurais pu me le dis. => Tu aurais pu me le dire. | After aurait pu / aurait dû, the second verb is an infinitive.
+    task:
+      title: A news brief
+      mode: writing
+      body: |
+        Write a short news item (about 100 words) for a local website about a company or an organisation that has changed its working hours. Report at least two pieces of unconfirmed information with the conditionnel passé (*selon…, d'après…, aurait…*), quote one person who says what should or could have been done differently, and end with an open question.
+    exercises: |
+      fill: Selon la presse, l'entreprise ___ (embaucher) trente personnes l'an dernier. || aurait embauché || Unconfirmed information about the past: avoir in the conditional + participle, aurait embauché. || @tags fr.conditionnel-passe
+      fill: Deux cadres ___ (partir) faute de s'adapter, mais la direction ne confirme pas. || seraient partis || Partir takes être; plural masculine subject: ils seraient partis. || @tags fr.conditionnel-passe,fr.past-participle-agreement
+      fill: Nous ___ (pouvoir) commencer l'expérience plus tôt. || aurions pu || A missed possibility: nous aurions pu + infinitive. || @tags fr.conditionnel-passe
+      mc: "Les arrêts maladie auraient diminué." This means that sick leave… || fell, as the company has confirmed | *reportedly fell, but this isn't confirmed | will probably fall next year || The conditionnel passé in the press reports unconfirmed information about the past. || @tags fr.conditionnel-passe
+      mc: Which sentence expresses a reproach? || Tu pourrais m'aider. | *Tu aurais dû m'aider. | Tu devras m'aider. || Tu aurais dû = you should have (but didn't). Tu pourrais is a present suggestion; tu devras is a future obligation. || @tags fr.conditionnel-passe
+      tf: The company's final productivity figures have already been published. || false || "Les chiffres définitifs ne seront publiés qu'en mars." || @ctx reading
+      short: What does Sandrine do on Fridays now? || kw: enfants/children/kids/sport/exercise || "Le vendredi, je m'occupe de mes enfants et je fais du sport." || @ctx reading
+      mc: According to the CEO, what should the company have done? || *Prepared the teams better | Hired more managers | Kept the thirty-five-hour week || "Nous aurions dû mieux préparer les équipes." || @ctx reading @tags fr.reading
+      listen: D'après nos informations, la jeune entreprise aurait levé deux millions d'euros, mais ses fondateurs refusent de commenter. || What do we know? || *The company may have raised two million euros | The founders confirmed raising two million euros | The company has lost two million euros || Aurait levé = reportedly raised; the founders won't comment, so it is unconfirmed. || @tags fr.listening,fr.conditionnel-passe
+      rw: Present it as unconfirmed information :: La société a fermé son usine de Lille. || La société aurait fermé son usine de Lille. || Replace the passé composé with the conditionnel passé: a fermé → aurait fermé. || @tags fr.conditionnel-passe
+      tr: We should have tested the project with a single team first. || Nous aurions dû d'abord tester le projet avec une seule équipe. | Nous aurions dû tester le projet avec une seule équipe d'abord. | On aurait dû d'abord tester le projet avec une seule équipe. | On aurait dû tester le projet avec une seule équipe d'abord. | Nous aurions dû tester d'abord le projet avec une seule équipe. | On aurait dû tester d'abord le projet avec une seule équipe. || Should have + past participle = aurait dû + infinitive. || @tags fr.conditionnel-passe
+      dict: D'après la direction, les ventes auraient progressé de dix pour cent. || auraient progressé
+      ask: Would you like to work four days a week? Explain why, and say what your company or school could have done differently. || kw: aimerais/voudrais/préférerais/aurait pu/aurait dû/auraient pu/auraient dû & quatre jours/semaine/vendredi || J'aimerais beaucoup travailler quatre jours par semaine, pour avoir plus de temps pour ma famille. Mon entreprise aurait pu tester l'idée l'année dernière, mais elle a eu peur de perdre des clients.
+
+  - title: Negotiating
+    summary: Negotiate a pay rise and remote work in an annual review, soften your requests with the conditional, set conditions and reach a compromise.
+    minutes: 50
+    skills: [listening, speaking, grammar]
+    tags: [fr.conditionnel-passe, fr.conditionnel]
+    objectives:
+      - Make polite requests and counter-offers with the present and past conditional
+      - Set conditions with à condition que and à moins que + subjunctive
+      - Offer something in return and close a deal
+    intro: |
+      Whether you are asking for a pay rise, setting a freelance rate or buying a used car, negotiating in French is a matter of **tone**. Direct demands (*je veux…*) sound aggressive; the conditional — and especially the conditionnel passé (*j'aurais souhaité…*) — turns them into proposals. You also need precise tools to **set conditions**, **make exceptions** and **offer something in return**.
+    vocab: |
+      négocier | to negotiate | v | Elle a négocié son salaire avant de signer. | She negotiated her salary before signing. | n: La négociation; négociable = open to negotiation.
+      la rémunération | pay; remuneration | n | La rémunération comprend un fixe et une prime. | The pay includes a fixed salary and a bonus. | g: f | n: More formal than le salaire.
+      une augmentation | a pay rise | n | Il a obtenu une augmentation de 4 %. | He got a 4% pay rise. | g: f | c: demander une augmentation; obtenir une augmentation
+      l'entretien annuel | the annual review | n | L'entretien annuel a lieu en juin. | The annual review takes place in June. | g: m | n: Also: l'entretien individuel.
+      une contrainte | a constraint | n | Je comprends vos contraintes budgétaires. | I understand your budget constraints. | g: f
+      envisageable | conceivable; possible | adj | Un troisième jour de télétravail n'est pas envisageable. | A third day of remote work isn't possible. | n: Serait-il envisageable de… ? is a very polite way to ask.
+      en contrepartie | in return | expr | En contrepartie, je resterai joignable le vendredi. | In return, I'll stay reachable on Fridays. | n: En échange de + noun has a similar meaning.
+      encadrer | to supervise; to mentor | v | Elle encadre une équipe de six personnes. | She supervises a team of six. | n: L'encadrement = supervision; management.
+      un stagiaire | an intern; a trainee | n | Nous accueillons deux stagiaires cet été. | We're taking on two interns this summer. | g: m | n: Feminine: une stagiaire. Un stage = an internship.
+      un compromis | a compromise | n | Nous avons fini par trouver un compromis. | We ended up finding a compromise. | g: m | c: trouver un compromis; faire des compromis
+      une prime | a bonus | n | Les salariés ont reçu une prime de fin d'année. | Employees received an end-of-year bonus. | g: f
+      marché conclu | it's a deal | expr | — Cinq pour cent et un jour de télétravail ? — Marché conclu ! | — Five per cent and one day of remote work? — It's a deal!
+    grammar:
+      title: "Negotiating: soft requests, conditions and compromises"
+      body: |
+        Negotiation in French relies heavily on the **conditional**, which turns demands into suggestions. The **conditionnel passé** is even softer: *J'**aurais souhaité** faire le point* presents a request as a modest wish. It also lets you signal a limit without saying no: *J'**aurais pu** vous proposer 3 %.*
+
+        - **Asking**: *Seriez-vous prêt(e) à… ? Serait-il envisageable de… ? Pourriez-vous… ?*
+        - **Setting a condition**: **à condition que** + subjunctive (*à condition que mes objectifs **soient** atteints*), **à condition de** + infinitive when the subject is the same.
+        - **Making an exception**: **à moins que** + subjunctive, often with a *ne* that has no negative meaning in formal speech (*ne explétif*): *à moins que vous **ne soyez** présente*. With the same subject: *à moins de* + infinitive.
+        - **Offering something in return**: *en contrepartie*, *en échange de* + noun.
+        - **Accepting a cost**: **quitte à** + infinitive (*even if it means*): *quitte à en ajouter un plus tard.*
+        - **Closing**: *Je vous propose un compromis… Marché conclu !*
+      table: |
+        Function | Expression | Example
+        soft request | j'aurais souhaité / j'aurais aimé + infinitive | J'aurais souhaité revoir mon salaire.
+        asking | seriez-vous prêt(e) à / serait-il envisageable de | Serait-il envisageable de commencer en mars ?
+        condition | à condition que + subjunctive / à condition de + infinitive | À condition que le budget le permette.
+        exception | à moins que (ne) + subjunctive | À moins que vous ne refusiez.
+        in return | en contrepartie / en échange de | En échange d'une prime, je reste.
+        accepting a cost | quitte à + infinitive | Quitte à gagner un peu moins.
+      examples: |
+        Nous aurions préféré un délai de paiement de trente jours. | We would have preferred a thirty-day payment period. | polite disagreement
+        Je peux baisser mon tarif, à condition que vous signiez pour un an. | I can lower my rate, provided you sign for a year. | condition
+        Nous livrerons vendredi, à moins qu'il n'y ait un problème de stock. | We'll deliver on Friday, unless there's a stock problem. | exception with ne explétif
+        Je préfère partir à l'heure, quitte à finir le dossier demain matin. | I'd rather leave on time, even if it means finishing the file tomorrow morning. | quitte à
+      tip: "The ne in à moins que vous ne soyez is not a negation. It is optional and mostly formal: à moins que vous soyez is also correct."
+    dialogue:
+      title: L'entretien annuel
+      setting: A design agency in Bordeaux. Léonie, a project manager, has her annual review with her manager, M. Diallo. She wants a pay rise and two days of remote work.
+      speakers: L=Léonie/f; D=M. Diallo/m
+      lines: |
+        L: Merci de me recevoir. J'aurais souhaité faire le point avec vous sur ma rémunération et mon organisation. | Thank you for seeing me. I wanted to review my pay and my working arrangements with you.
+        D: Je vous écoute. Vous savez que l'année a été difficile pour l'agence, mais allez-y. | I'm listening. You know it's been a difficult year for the agency, but go ahead.
+        L: Cette année, j'ai géré trois clients importants. Je pensais donc à une augmentation de huit pour cent. | This year I managed three major clients. So I was thinking of an eight per cent rise.
+        D: Huit pour cent, ce serait compliqué. J'aurais pu vous proposer trois, éventuellement quatre en fin d'année. | Eight per cent would be difficult. I could have offered you three, possibly four at the end of the year.
+        L: Je comprends vos contraintes. Seriez-vous prêt à aller jusqu'à cinq, à condition que mes objectifs soient atteints ? | I understand your constraints. Would you be prepared to go up to five, provided my targets are met?
+        D: C'est envisageable. En contrepartie, j'aimerais que vous encadriez le nouveau stagiaire à partir de septembre. | That's possible. In return, I'd like you to supervise the new intern from September.
+        L: Volontiers. J'aurais également aimé travailler deux jours par semaine à distance, comme mes collègues de Paris. | Gladly. I would also have liked to work remotely two days a week, like my colleagues in Paris.
+        D: Deux jours, c'est beaucoup, à moins que vous ne soyez présente à toutes les réunions clients. | Two days is a lot, unless you're present at all the client meetings.
+        L: Bien sûr. Je pourrais même regrouper les réunions le mardi et le jeudi, si cela vous convient. | Of course. I could even group the meetings on Tuesdays and Thursdays, if that suits you.
+        D: Pour être honnête, j'aurais préféré commencer par un seul jour, quitte à en ajouter un plus tard. | To be honest, I'd have preferred to start with just one day, even if it means adding another later.
+        L: Je vous propose un compromis : deux jours dès septembre, avec un bilan au bout de trois mois. | Let me suggest a compromise: two days from September, with a review after three months.
+        D: Marché conclu. Je vous envoie un récapitulatif par écrit d'ici vendredi. | It's a deal. I'll send you a written summary by Friday.
+    pronunciation:
+      title: "Inversion links: serait-il, pourrait-on"
+      body: |
+        In formal questions with inversion, the final **t** of the verb is pronounced and linked to *il, elle* or *on*: *serait-il* [sə.ʁɛ.til], *pourrait-on* [pu.ʁɛ.tɔ̃]. When the verb ends in a vowel, a **-t-** is added in writing and in speech: *a-t-il*, *parle-t-elle*.
+
+        In negotiation, keep these questions calm: the voice rises gently at the end, without stressing any word too much. A sharp rise sounds impatient.
+      items: |
+        Serait-il envisageable de commencer en mars ?
+        Pourrait-on en reparler vendredi ?
+        Seriez-vous prêt à aller jusqu'à cinq ?
+        j'aurais souhaité
+        en contrepartie
+        marché conclu
+    mistakes: |
+      À condition que vous signez le contrat. => À condition que vous signiez le contrat. | À condition que is followed by the subjunctive.
+      J'aurais souhaité de vous parler. => J'aurais souhaité vous parler. | Souhaiter is followed directly by the infinitive.
+      Quitte à que je gagne moins. => Quitte à gagner moins. | Quitte à is followed by an infinitive, not by que.
+    task:
+      title: Negotiate your rate
+      mode: interaction
+      body: |
+        You are a freelance translator, photographer or developer. A client offers a rate 30% below what you usually charge. Negotiate with a partner: open politely (*j'aurais souhaité…*), refuse diplomatically, set at least one condition (*à condition que…, à moins que…*), offer something in return and close the deal. Then practise the same skills in the "Taking part in a business meeting" scenario with the AI coach.
+    exercises: |
+      fill: Je peux vous faire une remise, à condition que vous ___ (payer) d'avance. || payiez || À condition que + subjunctive: payer → que vous payiez. || @tags fr.subjonctif-triggers
+      fill: Nous signerons demain, à moins que la direction ne ___ (faire) une autre proposition. || fasse || À moins que + subjunctive: faire → qu'elle fasse. The ne is explétif (no negative meaning). || @tags fr.subjonctif-triggers,fr.subjonctif
+      fill: J'___ (souhaiter, conditionnel passé) revoir avec vous les conditions du contrat. || aurais souhaité || The conditionnel passé of souhaiter softens the request: j'aurais souhaité. || @tags fr.conditionnel-passe
+      mc: Which is the most diplomatic way to turn down a request for 8%? || Non, c'est impossible. | *Huit pour cent, ce serait compliqué ; j'aurais pu vous proposer quatre. | Vous ne méritez pas huit pour cent. || The conditional (ce serait, j'aurais pu) softens the refusal and opens a counter-offer. || @tags fr.conditionnel-passe,fr.conditionnel
+      mc: "Quitte à finir plus tard" means… || *even if it means finishing later | unless we finish later | so that we finish later || Quitte à + infinitive: you accept a cost to get what you want. || @tags fr.connectors
+      mc: What does M. Diallo ask for in return for the pay rise? || *That Léonie supervises the new intern | That she works on Fridays | That she accepts three per cent || "En contrepartie, j'aimerais que vous encadriez le nouveau stagiaire." || @ctx dialogue
+      tf: Léonie gets two days of remote work from September. || true || The compromise: "deux jours dès septembre, avec un bilan au bout de trois mois". M. Diallo accepts. || @ctx dialogue
+      listen: @dialogue || What will M. Diallo send Léonie by Friday? || *A written summary of their agreement | A new employment contract | The intern's CV || "Je vous envoie un récapitulatif par écrit d'ici vendredi." || @tags fr.listening
+      listen: Nous pourrions baisser nos prix de cinq pour cent, à condition que vous vous engagiez sur deux ans. || What condition does the speaker set? || *A two-year commitment | Payment in advance | A larger first order || "À condition que vous vous engagiez sur deux ans." || @tags fr.listening,fr.subjonctif-triggers
+      rw: Make the request more polite with the conditionnel passé :: Je veux parler de mon salaire. || J'aurais voulu parler de mon salaire. | J'aurais aimé parler de mon salaire. | J'aurais souhaité parler de mon salaire. | J'aurais voulu vous parler de mon salaire. | J'aurais aimé vous parler de mon salaire. | J'aurais souhaité vous parler de mon salaire. || J'aurais voulu / aimé / souhaité + infinitive is a very polite way to raise a topic. || @tags fr.conditionnel-passe
+      tr: I can accept, provided that delivery is free. || Je peux accepter, à condition que la livraison soit gratuite. | J'accepte, à condition que la livraison soit gratuite. | Je pourrais accepter, à condition que la livraison soit gratuite. || Provided that = à condition que + subjunctive (soit). || @tags fr.subjonctif-triggers
+      dict: Seriez-vous prêt à revoir votre offre en échange d'un contrat plus long ? || en échange d'un contrat
+      ask: You're a freelance translator and a client offers you too low a rate. Negotiate politely. || kw: à condition que/à condition de/en contrepartie/en échange/quitte à/compromis & seriez-vous/serait-il/aurais/pourrais/pourrions/serait || J'aurais souhaité un tarif un peu plus élevé. Seriez-vous prêt à aller jusqu'à dix centimes le mot, à condition que je livre en une semaine ?
+
+  - title: Consumer society
+    summary: Talk about impulse buying, repairs and second-hand goods, and express regrets and reproaches with j'aurais dû, tu aurais pu and il aurait mieux valu.
+    minutes: 45
+    skills: [listening, grammar, speaking, writing]
+    tags: [fr.conditionnel-passe]
+    objectives:
+      - Talk about consumer habits, guarantees, repairs and refurbished goods
+      - Express regrets and reproaches with devoir, pouvoir and falloir in the conditionnel passé
+      - Say what would have been better with il aurait mieux valu and j'aurais mieux fait de
+    intro: |
+      Bought on a whim during the sales, broken after a year, impossible to repair: many of us have had a purchase like this. Talking about it means looking back at what we **should** or **could** have done — *j'aurais dû lire les avis*, *tu aurais pu me prévenir !* These structures with the conditionnel passé are among the most frequent in everyday French, for regrets and for reproaches.
+    vocab: |
+      la société de consommation | consumer society | n | La société de consommation nous pousse à acheter toujours plus. | Consumer society pushes us to buy more and more. | g: f
+      un achat impulsif | an impulse buy | n | Ce robot, c'était un achat impulsif. | That robot was an impulse buy. | g: m | n: Un achat coup de cœur is a purchase you fell in love with.
+      les soldes | the sales | n | J'ai acheté ce manteau pendant les soldes d'hiver. | I bought this coat in the winter sales. | g: m | n: In France the dates of the winter and summer sales are set by the state.
+      à moitié prix | half price | expr | Il était à moitié prix, je n'ai pas réfléchi. | It was half price, I didn't think. | n: Also: à -50 %.
+      reconditionné | refurbished | adj | J'ai acheté un ordinateur reconditionné avec un an de garantie. | I bought a refurbished computer with a one-year guarantee. | n: Feminine: reconditionnée.
+      un avis | a review; an opinion | n | Les avis des clients sont très partagés. | Customer reviews are very mixed. | g: m | c: lire les avis; un avis client; à mon avis
+      un réparateur | a repairer | n | Le réparateur m'a dit que la pièce n'était plus fabriquée. | The repairer told me the part was no longer made. | g: m | n: Feminine: une réparatrice.
+      l'obsolescence programmée | planned obsolescence | n | Est-ce de l'obsolescence programmée ou un simple défaut ? | Is it planned obsolescence or just a defect? | g: f
+      la garantie légale | the legal guarantee | n | La garantie légale couvre ce type de panne. | The legal guarantee covers this kind of breakdown. | g: f | n: In France the legal guarantee of conformity lasts two years for new goods.
+      une extension de garantie | an extended warranty | n | Le vendeur m'a proposé une extension de garantie. | The salesperson offered me an extended warranty. | g: f
+      l'indice de réparabilité | the repairability index | n | Ce lave-linge a un indice de réparabilité de 8 sur 10. | This washing machine has a repairability index of 8 out of 10. | g: m
+      un ticket de caisse | a receipt | n | Gardez bien votre ticket de caisse. | Make sure you keep your receipt. | g: m
+    grammar:
+      title: "Regrets and reproaches: j'aurais dû, tu aurais pu, il aurait fallu"
+      body: |
+        To talk about what **should** or **could** have happened — but didn't — use the conditionnel passé of a few key verbs followed by an **infinitive**:
+
+        - **devoir** → regret or reproach (*should have*): *J'aurais dû lire les avis. Tu aurais dû me demander.*
+        - **pouvoir** → missed possibility or reproach (*could have*): *Tu aurais pu en prendre un reconditionné. Le vendeur aurait pu me le dire !*
+        - **falloir** → what was necessary: *Il aurait fallu comparer les prix.*
+        - **valoir mieux** and **faire mieux de** → the better option: *Il aurait mieux valu attendre. J'aurais mieux fait de garder notre vieux balai.*
+        - **aimer, vouloir, préférer** → unfulfilled wishes: *J'aurais préféré un modèle plus simple.*
+
+        With a different subject, *il aurait fallu que* and *il aurait mieux valu que* take the **subjunctive**: *Il aurait mieux valu que je t'**écoute**.*
+
+        Reproaches with **pouvoir** are stronger than they look: *Tu aurais pu prévenir !* means "You could at least have warned me!" Adding *au moins* or *quand même* makes them even stronger.
+      table: |
+        Structure | Meaning | Example
+        j'aurais dû + infinitive | I should have | J'aurais dû comparer les prix.
+        tu aurais pu + infinitive | you could have | Tu aurais pu me prévenir !
+        il aurait fallu + infinitive / que + subjunctive | it would have been necessary | Il aurait fallu qu'on attende.
+        il aurait mieux valu + infinitive / que + subjunctive | it would have been better | Il aurait mieux valu réparer.
+        j'aurais mieux fait de + infinitive | I'd have done better to | J'aurais mieux fait de louer.
+        j'aurais préféré + noun or infinitive | I would have preferred | J'aurais préféré un modèle d'occasion.
+      examples: |
+        J'aurais dû garder le ticket de caisse. | I should have kept the receipt. | regret
+        Vous auriez pu vérifier l'article avant de l'envoyer ! | You could have checked the item before sending it! | reproach
+        Il aurait mieux valu faire réparer ton téléphone. | It would have been better to get your phone repaired. | the better option
+        Elle aurait préféré qu'on lui offre un objet d'occasion. | She would have preferred to be given something second-hand. | different subject: subjunctive
+      tip: "To say that something nearly happened, use faillir in the passé composé, not the conditional: J'ai failli acheter le modèle le plus cher (I nearly bought…)."
+    dialogue:
+      title: L'aspirateur robot
+      setting: A shared flat in Grenoble. Anouk comes home and finds a large box in the hall. Her flatmate Bastien looks embarrassed.
+      speakers: A=Anouk/f; B=Bastien/m
+      lines: |
+        A: Qu'est-ce que c'est que ce carton dans l'entrée ? Tu as encore commandé quelque chose ? | What's this box in the hall? Have you ordered something again?
+        B: C'est l'aspirateur robot que j'avais acheté pendant les soldes. Il ne marche plus depuis hier. | It's the robot vacuum I bought in the sales. It stopped working yesterday.
+        A: Déjà ? Tu aurais dû lire les avis avant de l'acheter, je te l'avais dit. | Already? You should have read the reviews before buying it, I told you.
+        B: Je sais… Il était à moitié prix, je n'ai pas réfléchi. C'était un achat impulsif. | I know… It was half price, I didn't think. It was an impulse buy.
+        A: Tu aurais pu en prendre un reconditionné, ça t'aurait coûté encore moins cher. | You could have got a refurbished one; it would have cost you even less.
+        B: Le pire, c'est que le réparateur dit que la pièce n'est plus fabriquée. Il faudrait racheter un robot entier ! | The worst part is that the repairer says the part isn't made any more. I'd have to buy a whole new robot!
+        A: C'est de l'obsolescence programmée, ou tout simplement un produit de mauvaise qualité ? | Is it planned obsolescence, or just a poor-quality product?
+        B: Aucune idée. En tout cas, j'aurais mieux fait de garder notre vieux balai ! | No idea. Anyway, I'd have done better to keep our old broom!
+        A: Attends, il a moins de deux ans, non ? Tu as droit à la garantie légale. | Wait, it's less than two years old, isn't it? You're entitled to the legal guarantee.
+        B: Tu crois ? Le vendeur aurait pu me le dire, au lieu de me proposer une extension de garantie ! | You think so? The salesperson could have told me, instead of offering me an extended warranty!
+        A: Envoie-leur un courrier. Et la prochaine fois, regarde l'indice de réparabilité avant d'acheter. | Send them a letter. And next time, look at the repairability index before you buy.
+        B: Promis. Il aurait mieux valu que je t'écoute dès le début. | Promise. It would have been better if I'd listened to you from the start.
+    pronunciation:
+      title: "Reproach melody: Tu aurais pu me le dire !"
+      body: |
+        In a reproach, the stress falls on the participle or the infinitive, and the voice falls sharply at the end: *Tu aurais **pu** me le dire !* In relaxed speech, *tu aurais* is often reduced to [tɔ.ʁɛ] (written *t'aurais* in informal texts) — recognise it, but write *tu aurais*.
+
+        In *obsolescence* [ɔp.sɔ.le.sɑ̃s], the *b* is pronounced [p] before *s*, as in *absent* [ap.sɑ̃].
+      items: |
+        Tu aurais pu me le dire !
+        j'aurais dû
+        il aurait fallu
+        j'aurais mieux fait de
+        l'obsolescence programmée
+        reconditionné
+    culture:
+      title: Réparer plutôt que jeter
+      body: |
+        Since 2015, planned obsolescence has been an offence under French law, and since 2021 many electronic products sold in France display a repairability index out of 10. A *bonus réparation* also reduces the bill when you have certain appliances repaired by an approved repairer. Volunteer-run *repair cafés*, where people learn to fix their own objects, now exist in hundreds of French towns.
+    mistakes: |
+      J'aurais dû de lire les avis. => J'aurais dû lire les avis. | Devoir is followed directly by the infinitive, without de.
+      Il aurait fallu que tu m'as écouté. => Il aurait fallu que tu m'écoutes. | Il aurait fallu que is followed by the subjunctive.
+      J'aurais presque acheté le plus cher. => J'ai failli acheter le plus cher. | To say "I nearly did something", use faillir + infinitive.
+    task:
+      title: My worst purchase
+      mode: speaking
+      body: |
+        Tell a partner about a purchase you regret (or invent one): what you bought, why, and what went wrong. Use at least four structures from the lesson (*j'aurais dû, j'aurais pu, il aurait mieux valu, j'aurais mieux fait de…*); your partner reacts with one reproach (*tu aurais pu…!*). Then try returning a faulty item in the "Returning an item in a shop" scenario with the AI coach.
+    exercises: |
+      fill: J'___ (devoir) garder le ticket de caisse. || aurais dû || A regret: conditionnel passé of devoir, j'aurais dû + infinitive. || @tags fr.conditionnel-passe
+      fill: Tu ___ (pouvoir) me demander mon avis avant de commander ! || aurais pu || A reproach: tu aurais pu + infinitive. || @tags fr.conditionnel-passe
+      fill: Il ___ (falloir) comparer les prix avant d'acheter. || aurait fallu || What was necessary but not done: il aurait fallu + infinitive. || @tags fr.conditionnel-passe
+      mc: "J'aurais mieux fait de louer une voiture." What does the speaker mean? || *Renting a car would have been a better choice | The speaker rented a car and liked it | The speaker is going to rent a car || J'aurais mieux fait de = I would have done better to — so the speaker didn't rent one. || @tags fr.conditionnel-passe
+      mc: "Il aurait mieux valu que tu ___ le modèle reconditionné." || as pris | *prennes | prendrais || Il aurait mieux valu que + subjunctive: que tu prennes. || @tags fr.conditionnel-passe,fr.subjonctif
+      mc: "Un produit reconditionné" is… || *a used product that has been checked and restored for resale | a new product sold at half price in the sales | a new product with an extended warranty || Reconditionné = refurbished: used, then tested and repaired before being sold again. || @skill vocabulary @tags fr.vocabulary
+      tf: According to the repairer, the robot vacuum is easy to repair. || false || "La pièce n'est plus fabriquée. Il faudrait racheter un robot entier !" || @ctx dialogue
+      short: What does Anouk tell Bastien to check before his next purchase? || kw: indice de réparabilité/réparabilité/repairability || "Regarde l'indice de réparabilité avant d'acheter." || @ctx dialogue
+      listen: J'ai failli acheter le téléphone le plus cher, mais finalement j'en ai pris un reconditionné, et il marche très bien. || What did the speaker buy? || *A refurbished phone | The most expensive phone | No phone at all || J'ai failli acheter = I nearly bought (but didn't); "j'en ai pris un reconditionné". || @tags fr.listening
+      rw: Turn the advice into a reproach about the past :: Tu dois lire les avis. || Tu aurais dû lire les avis. || Present obligation → reproach about the past: tu aurais dû + infinitive. || @tags fr.conditionnel-passe
+      tr: You could have told me that the guarantee lasts two years! || Tu aurais pu me dire que la garantie dure deux ans ! | Vous auriez pu me dire que la garantie dure deux ans ! | Tu aurais pu me dire que la garantie durait deux ans ! | Vous auriez pu me dire que la garantie durait deux ans ! || A reproach: aurait pu + infinitive (dire). || @tags fr.conditionnel-passe
+      dict: Il aurait mieux valu faire réparer l'ancien modèle. || il aurait mieux valu
+      write: Write a message (60–80 words) to a friend about a purchase you regret, using at least three structures from the lesson. || min=60 || req: aurais dû/aurait dû | aurait pu/aurais pu/auraient pu | aurait fallu/aurait mieux valu/aurais mieux fait/aurais préféré || Salut Inès ! Tu te souviens de la machine à café que j'ai achetée en janvier ? Elle est déjà en panne. J'aurais dû lire les avis, et j'aurais pu en prendre une reconditionnée. Le vendeur aurait pu me dire que la garantie légale dure deux ans, au lieu de me vendre une extension ! Bref, j'aurais mieux fait de garder ma vieille cafetière italienne. Je t'en parle samedi !

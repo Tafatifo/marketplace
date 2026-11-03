@@ -1,0 +1,91 @@
+slug: weekend-plans
+title: Making weekend plans
+description: Arrange to meet a friend at the weekend — suggest activities, agree on a time and place.
+category: social
+levels: A1-A2
+free: true
+order: 12
+goals:
+  - Suggest an activity
+  - Accept, decline or suggest an alternative
+  - Agree on a day, time and meeting place
+  - Confirm the plan
+roles:
+  tutor: a friend
+  learner: yourself
+languages:
+  fr:
+    opener: Salut ! Tu fais quelque chose ce week-end ? | Hi! Are you doing anything this weekend?
+    focus: [fr.futur-proche, fr.time, fr.modals]
+    vocab: |
+      on pourrait… | we could…
+      ça te dit de… ? | do you fancy…?
+      je ne peux pas, je… | I can't, I…
+      on se retrouve où ? | where shall we meet?
+      à samedi ! | see you on Saturday!
+    script: |
+      Moi, je suis libre samedi. On pourrait faire quelque chose ensemble ? | I'm free on Saturday. We could do something together? | Suggest an activity: On pourrait… | kw: pourrait/aller/cinéma/restaurant/parc/ça te dit
+      Bonne idée ! Samedi après-midi, ça te va ? | Good idea! Does Saturday afternoon suit you? | Agree or suggest another time | kw: oui/d'accord/plutôt/matin/soir/heure
+      Parfait. On se retrouve où ? | Perfect. Where shall we meet? | Suggest a meeting place | kw: devant/à/gare/café/chez
+      Super. Et après, on pourrait manger ensemble ? | Great. And afterwards, could we eat together? | Accept or decline | kw: oui/non/volontiers/désolé
+      Génial. Alors, c'est noté ! | Great. So it's settled! | Confirm the plan: À samedi ! | kw: samedi/à/ok/d'accord
+  es:
+    opener: ¡Hola! ¿Haces algo este fin de semana? | Hi! Are you doing anything this weekend?
+    focus: [es.ir-a, es.time]
+    vocab: |
+      podríamos… | we could…
+      ¿te apetece…? | do you fancy…?
+      no puedo, tengo que… | I can't, I have to…
+      ¿dónde quedamos? | where shall we meet?
+      ¡hasta el sábado! | see you on Saturday!
+    script: |
+      Yo estoy libre el sábado. ¿Hacemos algo juntos? | I'm free on Saturday. Shall we do something together? | Suggest an activity | kw: podríamos/ir/cine/restaurante/parque/te apetece
+      ¡Buena idea! ¿El sábado por la tarde te va bien? | Good idea! Is Saturday afternoon OK for you? | Agree or suggest another time | kw: sí/vale/mejor/mañana/noche/hora
+      Perfecto. ¿Dónde quedamos? | Perfect. Where shall we meet? | Suggest a meeting place | kw: en/delante/estación/café/casa
+      Genial. ¿Y después cenamos juntos? | Great. And shall we have dinner together afterwards? | Accept or decline | kw: sí/no/claro/lo siento
+      ¡Estupendo! Pues quedamos así. | Great! So that's the plan. | Confirm the plan | kw: sábado/hasta/vale/perfecto
+  de:
+    opener: Hi! Hast du am Wochenende schon was vor? | Hi! Have you got any plans this weekend?
+    focus: [de.modal-verbs, de.time, de.word-order]
+    vocab: |
+      wir könnten… | we could…
+      hast du Lust auf…? | do you fancy…?
+      ich kann leider nicht, ich muss… | unfortunately I can't, I have to…
+      wo treffen wir uns? | where shall we meet?
+      bis Samstag! | see you on Saturday!
+    script: |
+      Ich habe am Samstag Zeit. Wollen wir etwas zusammen machen? | I'm free on Saturday. Shall we do something together? | Suggest an activity: Wir könnten… | kw: könnten/gehen/kino/restaurant/park/lust
+      Gute Idee! Passt dir Samstagnachmittag? | Good idea! Does Saturday afternoon suit you? | Agree or suggest another time | kw: ja/gern/lieber/morgen/abend/uhr
+      Super. Wo treffen wir uns? | Great. Where shall we meet? | Suggest a meeting place | kw: vor/am/bahnhof/café/bei
+      Prima. Und danach könnten wir zusammen essen gehen? | Great. And afterwards we could go for something to eat? | Accept or decline | kw: ja/nein/gern/leider
+      Toll, dann machen wir das so! | Great, let's do that then! | Confirm the plan | kw: samstag/bis/okay/super
+  en:
+    opener: Hey! Are you up to anything this weekend? | -
+    focus: [en.future-forms, en.suggestions]
+    vocab: |
+      we could… / how about…? | making suggestions
+      I'd love to | accepting enthusiastically
+      I can't, I've got to… | declining with a reason
+      where shall we meet? | arranging a place
+      see you Saturday! | confirming
+    script: |
+      I'm free on Saturday. Shall we do something? | - | Suggest an activity: We could… / How about…? | kw: could/how about/cinema/park/restaurant/let's
+      Good idea! Does Saturday afternoon work for you? | - | Agree or suggest another time | kw: yes/sure/better/morning/evening/o'clock
+      Perfect. Where shall we meet? | - | Suggest a meeting place | kw: outside/at/station/café/my place
+      Great. And how about getting something to eat afterwards? | - | Accept or decline | kw: yes/no/love/sorry
+      Brilliant, it's a plan then! | - | Confirm the plan | kw: Saturday/see you/OK/great
+  da:
+    opener: Hej! Har du planer i weekenden? | Hi! Have you got any plans this weekend?
+    focus: [da.modal-verbs, da.time, da.word-order]
+    vocab: |
+      vi kunne… | we could…
+      har du lyst til at…? | do you fancy …?
+      jeg kan desværre ikke, jeg skal… | unfortunately I can't, I have to…
+      hvor skal vi mødes? | where shall we meet?
+      vi ses på lørdag! | see you on Saturday!
+    script: |
+      Jeg har tid på lørdag. Skal vi lave noget sammen? | I'm free on Saturday. Shall we do something together? | Suggest an activity: Vi kunne… | kw: kunne/skal vi/biografen/stranden/park/lyst
+      God idé! Kan du lørdag eftermiddag? | Good idea! Can you do Saturday afternoon? | Agree or suggest another time | kw: ja/gerne/hellere/søndag/aften/klokken
+      Super. Hvor skal vi mødes? | Great. Where shall we meet? | Suggest a meeting place, e.g. ved Nørreport Station | kw: ved/foran/stationen/café/hos
+      Fedt! Skal vi også spise sammen bagefter? | Great! Shall we have something to eat together afterwards? | Accept or decline | kw: ja/nej/gerne/desværre
+      Fint, så gør vi det! | Fine, let's do that then! | Confirm the plan | kw: lørdag/ses/okay/super

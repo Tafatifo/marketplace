@@ -1,0 +1,360 @@
+unit: 4
+title: Médias et numérique
+theme: Media and technology
+description: Report the news and what people say, talk about your digital habits and explain a technical problem, using reported speech with a present introductory verb and the plus-que-parfait.
+free: false
+objectives:
+  - Report statements, questions and instructions with dire que, demander si, demander ce que and dire de
+  - Use the plus-que-parfait to say what had happened before another past event
+  - Explain a technical problem and understand the instructions to solve it
+canDo:
+  - I can report the main points of a news item or of what someone has told me.
+  - I can talk about my digital habits and how they have changed.
+  - I can say what had happened before a past event.
+  - I can describe a technical problem to a helpline and follow simple instructions.
+review: |
+  fill: Quand nous sommes arrivés, le concert ___ déjà ___ (commencer). || avait ; commencé || The concert started before we arrived: plus-que-parfait, avait commencé. || @tags fr.plus-que-parfait
+  fill: Elle ___ (oublier) son téléphone, alors elle n'a pas pu m'appeler. || avait oublié || Forgetting the phone happened first: plus-que-parfait. || @tags fr.plus-que-parfait
+  mc: "Je n'avais jamais vu ça." This means… || I never see that. | *I had never seen that. | I have never seen that. || Avais + past participle = plus-que-parfait: had seen. || @tags fr.plus-que-parfait
+  rw: Report what Léo says. Start with "Léo dit que…" :: « Je suis en retard parce que mon train est bloqué. » || Léo dit qu'il est en retard parce que son train est bloqué. || Je becomes il and mon becomes son; the present stays the present. || @tags fr.reported-speech
+  fill: Ma mère me demande ___ je rentre ce week-end. || si || A yes/no question is reported with si. || @tags fr.reported-speech
+  fill: Il demande ___ nous faisons ce soir. || ce que || « Qu'est-ce que vous faites ? » becomes il demande ce que nous faisons. || @tags fr.reported-speech
+  mc: « Où est-ce que la gare se trouve ? » is reported as: Elle demande… || *où se trouve la gare. | où est-ce que la gare se trouve. | est-ce que la gare se trouve où. || In a reported question, est-ce que disappears. || @tags fr.reported-speech
+  tr: My phone crashed because I had downloaded a strange app. || Mon téléphone a planté parce que j'avais téléchargé une application bizarre. | Mon téléphone a planté parce que j'avais téléchargé une appli bizarre. | Mon téléphone a planté parce que j'avais téléchargé une drôle d'application. || The crash (a planté) comes after the download (avais téléchargé). || @tags fr.plus-que-parfait
+  listen: Selon la radio, le tram est coupé ce matin, et la mairie conseille de prendre le bus. || What does the town hall advise? || *Taking the bus | Waiting for the tram | Walking to work || "La mairie conseille de prendre le bus." || @tags fr.listening,fr.reported-speech
+  listen: Je n'ai pas vu ton message parce que j'avais coupé les notifications pour travailler. || Why didn't the speaker see the message? || *They had turned off notifications to work. | Their phone was broken. | They were asleep. || "J'avais coupé les notifications pour travailler." || @tags fr.listening,fr.plus-que-parfait
+  ask: Report something a friend or relative told you recently — a piece of news, a question or a piece of advice. || kw: dit que/demande si/demande ce que/dit de/explique que/annonce que & il/elle/ils/elles || Ma sœur m'a appelé hier. Elle dit qu'elle a trouvé un nouveau travail à Lyon et elle me demande si je peux l'aider à déménager.
+  write: Write a message to a friend about a day when everything went wrong with technology. || min=70 || req: j'avais/j'étais/je m'étais | dit que/demande si/dit de/demandait | soudain/finalement/quand || Salut Jade ! Quelle journée ! Ce matin, mon réveil n'a pas sonné parce que mon téléphone s'était éteint pendant la nuit. Je suis arrivée en retard au bureau, et là, mon ordinateur ne voulait pas démarrer. Le message dit qu'une mise à jour est en cours ! J'ai appelé le service informatique : le technicien me dit de patienter. Finalement, tout a marché à midi… mais j'avais raté ma réunion. Bises, Inès
+lessons:
+  - title: News and how we follow it
+    summary: Talk about how you follow the news and report what articles, journalists and friends say, ask and advise.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [fr.reported-speech]
+    objectives:
+      - Talk about how you follow the news and which sources you trust
+      - Report statements with dire que, expliquer que and annoncer que
+      - Report questions and instructions with demander si, demander ce que and dire de
+    intro: |
+      *Ils disent que le métro sera fermé… L'article explique que… Ma mère me demande si…* We spend a lot of time passing on what other people say. When the reporting verb is in the present, reported speech in French is simple: the tenses don't change, but pronouns, question words and word order do. This lesson shows you exactly what changes.
+    vocab: |
+      l'actualité | the news; current affairs | n | Je suis l'actualité sur mon téléphone. | I follow the news on my phone. | g: f | n: Actuellement = currently (not "actually").
+      les infos | the news (informal) | n | Tu as écouté les infos ce matin ? | Did you listen to the news this morning? | g: f | n: Short for les informations.
+      s'informer | to keep informed; to get the news | v | Les jeunes s'informent surtout en ligne. | Young people get their news mainly online.
+      les réseaux sociaux | social media; social networks | n | Elle passe une heure par jour sur les réseaux sociaux. | She spends an hour a day on social media. | g: m
+      une source | a source | n | Il faut toujours vérifier la source d'une information. | You should always check the source of a piece of information. | g: f
+      vérifier | to check | v | J'ai vérifié l'information sur deux sites. | I checked the information on two websites.
+      un titre | a headline; a title | n | J'ai seulement lu le titre de l'article. | I only read the headline of the article. | g: m | c: les gros titres
+      faire la une | to make the front page; to be top news | expr | La tempête fait la une de tous les journaux. | The storm is on the front page of every newspaper.
+      annoncer | to announce | v | La mairie annonce la fermeture de la piscine. | The town hall announces the closure of the swimming pool.
+      préciser | to specify; to add (a detail) | v | Le journaliste précise que la route est fermée jusqu'à lundi. | The journalist adds that the road is closed until Monday.
+      se demander si | to wonder whether | expr | Je me demande si cette information est vraie. | I wonder whether this information is true.
+      un abonnement | a subscription | n | J'ai pris un abonnement à un journal en ligne. | I've taken out a subscription to an online newspaper. | g: m | c: prendre un abonnement; résilier un abonnement
+    grammar:
+      title: Reported speech with a present reporting verb
+      body: |
+        When the reporting verb is in the **present** (*il dit, elle explique, ils annoncent, je me demande*), the tenses of the original words **don't change**. Only the pronouns, possessives and question forms change: *« Je suis fatiguée. »* → *Elle dit **qu'elle est** fatiguée.*
+
+        - **Statements**: *dire / expliquer / annoncer / préciser / répondre* + **que**. Repeat *que* before each new clause: *Il dit qu'il est malade **et qu'il** reste chez lui.*
+        - **Yes/no questions**: *demander* + **si**: *« Tu viens ? »* → *Elle demande **si** tu viens.* Si becomes **s'** before *il / ils* only.
+        - **Questions with a question word**: keep the word, use normal word order, no *est-ce que*: *« Où habitez-vous ? »* → *Il demande **où** nous habitons.*
+        - **Qu'est-ce que** becomes **ce que**: *« Qu'est-ce que tu lis ? »* → *Elle demande **ce que** je lis.*
+        - **Instructions** (imperative): *dire / demander / conseiller* + **de** + infinitive: *« Vérifiez la source ! »* → *Il nous dit **de** vérifier la source.*
+      table: |
+        Direct speech | Reported speech | What changes
+        « Je suis malade. » | Il dit qu'il est malade. | que + the pronoun
+        « Tu viens ? » | Elle demande si tu viens. | yes/no question → si
+        « Où habitez-vous ? » | Il demande où nous habitons. | normal word order
+        « Qu'est-ce que tu lis ? » | Elle demande ce que je lis. | qu'est-ce que → ce que
+        « Lisez cet article ! » | Il nous dit de lire cet article. | imperative → de + infinitive
+      examples: |
+        L'article explique que les jeunes regardent moins la télévision. | The article explains that young people watch less television. | statement
+        Mon père me demande si j'ai lu le journal. | My father asks me whether I've read the paper. | yes/no question
+        La journaliste se demande pourquoi le projet a été abandonné. | The journalist wonders why the project was abandoned. | question word
+        Le prof nous conseille de lire un article par jour. | The teacher advises us to read one article a day. | instruction
+      tip: "Si + il = s'il, but si + elle never changes: Il demande s'il pleut. Il demande si elle vient."
+    dialogue:
+      title: Les infos du petit-déjeuner
+      setting: Breakfast in a shared flat in Rennes. Malo is reading the news on his phone; his flatmate Sofia prefers to get the news from her mother.
+      speakers: M=Malo/m; S=Sofia/f
+      lines: |
+        S: Tu lis quoi sur ton téléphone depuis vingt minutes ? | What have you been reading on your phone for twenty minutes?
+        M: Les infos. Ils disent que le métro sera fermé tout le week-end pour travaux. | The news. They say the metro will be closed all weekend for works.
+        S: Encore ? Et ils expliquent comment on va au centre-ville ? | Again? And do they explain how we get to the city centre?
+        M: Oui, ils précisent que des bus remplaceront le métro entre la gare et République. | Yes, they say that buses will replace the metro between the station and République.
+        S: Bon. Ma mère me demande si on a des bougies… Elle dit qu'une tempête arrive ! | OK. My mum's asking if we have candles… She says a storm is coming!
+        M: C'est vrai, la météo annonce des vents très forts pour demain soir. | That's true, the weather forecast says there will be very strong winds tomorrow evening.
+        S: Tu vois, je n'ai pas besoin de lire les journaux : ma mère me dit tout ! | You see, I don't need to read the papers: my mum tells me everything!
+        M: Justement, un article dit que les jeunes s'informent surtout sur les réseaux sociaux. | Funnily enough, an article says young people mostly get their news on social media.
+        S: Moi, je regarde des vidéos courtes, mais je vérifie toujours la source. | I watch short videos, but I always check the source.
+        M: Le journaliste se demande si on peut vraiment comprendre l'actualité en une minute. | The journalist wonders whether you can really understand the news in one minute.
+        S: Bonne question… Et il dit ce qu'il faut faire, ton journaliste ? | Good question… And does your journalist say what we should do?
+        M: Il conseille de varier les sources et de lire un article complet chaque jour. | He advises varying your sources and reading one full article every day.
+    pronunciation:
+      title: "S'il, si elle, qu'il, qu'elle"
+      body: |
+        In reported speech you constantly hear *que* and *si* in front of pronouns. *Que* always elides before a vowel: *qu'il* [kil], *qu'elle* [kɛl], *qu'ils arrivent* [kil.za.ʁiv]. *Si* elides **only** before *il* and *ils*: *s'il* [sil], but *si elle* [si.ɛl] keeps both vowels.
+
+        The word *actualité* has five syllables, all equally short, with a slight stress on the last: [ak.tɥa.li.te]. In *réseaux sociaux*, both words end in [o]: [ʁe.zo.sɔ.sjo].
+      items: |
+        il dit qu'il vient
+        elle demande s'il vient
+        il demande si elle vient
+        ils disent qu'ils arrivent
+        l'actualité
+        les réseaux sociaux
+    culture:
+      title: Le « 20 heures » et la presse régionale
+      body: |
+        For decades, the French have followed the news on the evening TV bulletin, *le journal de 20 heures*, and on morning radio. Regional daily newspapers are also very important: the best-selling daily in France is a regional paper from the west of the country. Today, more and more people — especially under 35 — get their news from websites, podcasts and social media, which has made checking sources (*vérifier l'information*) a common topic at school.
+    mistakes: |
+      Il demande si il pleut. => Il demande s'il pleut. | Si becomes s' before il and ils.
+      Elle demande qu'est-ce que tu fais. => Elle demande ce que tu fais. | In a reported question, qu'est-ce que becomes ce que.
+      Paul dit que je suis fatigué. (Paul said « Je suis fatigué. ») => Paul dit qu'il est fatigué. | Change the pronoun to refer to the person who spoke.
+    task:
+      title: The news in one minute
+      mode: speaking
+      body: |
+        Choose three headlines from a French news website or radio programme today. Report them to a partner in about one minute, using at least four different structures: *l'article dit que…, ils annoncent que…, le journaliste se demande si…, la mairie conseille de…* Your partner asks one follow-up question for each item.
+    exercises: |
+      rw: Report it. Start with "Il dit que…" :: « Je travaille ce soir. » || Il dit qu'il travaille ce soir. || Je becomes il; que becomes qu' before il. || @tags fr.reported-speech
+      rw: Report the question. Start with "Elle demande à Paul…" :: « Paul, tu as lu cet article ? » || Elle demande à Paul s'il a lu cet article. || A yes/no question is reported with si; si + il = s'il, and tu becomes il. || @tags fr.reported-speech
+      fill: Le journaliste se demande ___ les jeunes lisent encore la presse. || si || A yes/no question is reported with si. || @tags fr.reported-speech
+      fill: « Qu'est-ce que tu regardes ? » → Elle demande ___ tu regardes. || ce que || Qu'est-ce que becomes ce que in reported speech. || @tags fr.reported-speech
+      fill: Le professeur nous dit ___ vérifier nos sources. || de || An instruction is reported with dire de + infinitive. || @tags fr.reported-speech
+      mc: « Où est-ce que vous habitez ? » → Il demande… || où est-ce que nous habitons | *où nous habitons | où habitons-nous || A reported question has no est-ce que and no inversion. || @tags fr.reported-speech
+      mc: Which word means "current affairs"? || *l'actualité | actuellement | la publicité || L'actualité = the news, current affairs. Actuellement means "currently" — a false friend. || @skill vocabulary @tags fr.vocabulary
+      tf: The metro will be closed all week. || false || "Le métro sera fermé tout le week-end", only the weekend. || @ctx dialogue
+      short: What does the journalist advise? || kw: source/sources/article || He advises varying your sources and reading one full article every day. || @ctx dialogue
+      listen: @dialogue || How does Sofia usually follow the news? || *She watches short videos and checks the source. | She listens to the radio in the morning. | She reads a printed newspaper. || "Je regarde des vidéos courtes, mais je vérifie toujours la source" — and her mother tells her everything! || @tags fr.listening
+      listen: Le maire annonce que la piscine municipale rouvrira lundi, après trois mois de travaux. || What does the mayor announce? || *The swimming pool will reopen on Monday. | The pool will close for three months. | The works will start on Monday. || "La piscine rouvrira lundi, après trois mois de travaux." || @tags fr.listening,fr.reported-speech
+      tr: She asks whether the film starts at eight. || Elle demande si le film commence à huit heures. | Elle demande si le film commence à vingt heures. | Elle demande si le film commence à 20 heures. || Whether / if = si; the present stays the present. || @tags fr.reported-speech
+      dict: Ils annoncent que des bus remplaceront le métro ce week-end. || remplaceront
+      ask: Report a piece of news you read or heard today, using two different reporting verbs. || kw: dit que/disent que/annonce/explique/précise & demande si/se demande/conseille de/selon/d'après || L'article dit que les prix des trains vont augmenter cet été. Le journaliste se demande si les jeunes vont encore pouvoir voyager.
+
+  - title: Digital life
+    summary: Read a testimony about a month without a smartphone and use the plus-que-parfait to say what had happened before.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [fr.plus-que-parfait]
+    objectives:
+      - Talk about screen time and digital habits
+      - Form the plus-que-parfait with avoir and être
+      - Use the plus-que-parfait to explain causes and earlier events in a past story
+    intro: |
+      How much time do you spend on your screens? In this lesson you'll read the testimony of a young woman who lived for a month without her smartphone. To tell a story like hers, you often need to go **one step further back** in time: *j'avais déjà essayé*, *je n'avais jamais remarqué*, *je m'étais perdue parce que j'avais oublié mon plan*. That is the job of the **plus-que-parfait**.
+    vocab: |
+      un écran | a screen | n | Je passe trop de temps devant les écrans. | I spend too much time in front of screens. | g: m
+      le temps d'écran | screen time | n | Mon temps d'écran a baissé de moitié. | My screen time has halved. | g: m
+      être accro à | to be hooked on; addicted to | expr | Mon fils est accro aux jeux vidéo. | My son is hooked on video games. | n: Informal; accro doesn't change in the feminine.
+      faire défiler | to scroll | expr | Je fais défiler les vidéos sans réfléchir. | I scroll through videos without thinking.
+      une notification | a notification | n | J'ai coupé les notifications le soir. | I've turned off notifications in the evening. | g: f
+      couper | to switch off; to turn off | v | Coupe ton téléphone pendant le film ! | Turn off your phone during the film! | n: Also: éteindre.
+      se connecter | to log in; to go online | v | Je me connecte seulement deux fois par jour. | I only go online twice a day. | n: Opposite: se déconnecter.
+      une appli | an app | n | J'ai supprimé trois applis de mon téléphone. | I deleted three apps from my phone. | g: f | n: Short for une application.
+      télécharger | to download | v | Tu as téléchargé la nouvelle version ? | Have you downloaded the new version?
+      un forfait | a (phone) plan | n | Mon forfait comprend vingt gigas par mois. | My plan includes twenty gigabytes a month. | g: m
+      prévenir | to warn; to let (someone) know | v | J'avais prévenu mes amis avant de partir. | I had let my friends know before I left. | n: Conjugated like venir, but with avoir: j'ai prévenu.
+      petit à petit | little by little | adv | Petit à petit, j'ai changé mes habitudes. | Little by little, I changed my habits.
+    grammar:
+      title: The plus-que-parfait
+      body: |
+        The **plus-que-parfait** expresses an action that happened **before another past action**. It usually translates English *had done*: *Je me suis perdue parce que **j'avais laissé** mon plan à la maison.*
+
+        **Formation**: the **imparfait** of *avoir* or *être* + the past participle. The choice of auxiliary and the agreement rules are exactly the same as in the passé composé: *j'avais acheté*, *elle **était** partie*, *nous nous **étions** préparés*.
+
+        Typical uses:
+        - to explain a **cause** in the past: *… parce que j'avais oublié mon mot de passe.*
+        - to say what was done **before** the story starts: *Avant de commencer, j'avais prévenu mes amis.*
+        - with **déjà** and **jamais**, placed between the auxiliary and the participle: *Je n'avais **jamais** vu cette librairie.*
+
+        Compare: *Quand je suis arrivée, il **est parti*** (he left when I arrived) / *Quand je suis arrivée, il **était parti*** (he had already left).
+      table: |
+        Pronoun | acheter (avoir) | partir (être) | se préparer
+        j' / je | avais acheté | étais parti(e) | m'étais préparé(e)
+        tu | avais acheté | étais parti(e) | t'étais préparé(e)
+        il / elle | avait acheté | était parti(e) | s'était préparé(e)
+        nous | avions acheté | étions parti(e)s | nous étions préparé(e)s
+        vous | aviez acheté | étiez parti(e)(s) | vous étiez préparé(e)(s)
+        ils / elles | avaient acheté | étaient parti(e)s | s'étaient préparé(e)s
+      examples: |
+        Je me suis perdue parce que j'avais laissé mon plan à la maison. | I got lost because I had left my map at home. | a cause before the event
+        Quand je suis arrivé, le film avait déjà commencé. | When I arrived, the film had already started. | déjà
+        Je n'avais jamais remarqué cette fresque. | I had never noticed this mural. | jamais
+        Elle était déjà partie quand tu as appelé. | She had already left when you called. | être + agreement
+      tip: "Picture a timeline: the plus-que-parfait sits one step further back than the passé composé."
+    reading:
+      title: Trente jours sans smartphone
+      text: |
+        Le mois dernier, j'ai tenté une expérience : vivre trente jours sans smartphone. Tout avait commencé un dimanche soir de janvier. Ce soir-là, j'ai regardé mon temps d'écran de la semaine : plus de cinq heures par jour ! J'avais déjà essayé de réduire, sans succès. Cette fois, j'ai décidé d'arrêter complètement.
+
+        Avant de commencer, je m'étais bien préparée. J'avais acheté un vieux téléphone qui permettait seulement d'appeler et d'envoyer des textos, j'avais imprimé les plans de mes trajets et j'avais prévenu mes amis.
+
+        La première semaine a été difficile. Je cherchais mon téléphone dans ma poche toutes les dix minutes et, dans le métro, je ne savais pas quoi faire de mes mains ! Puis, petit à petit, j'ai changé mes habitudes. J'ai recommencé à lire des romans, un plaisir que j'avais un peu oublié. J'ai aussi remarqué des choses que je n'avais jamais vues dans mon quartier : une petite librairie, une fresque sur un mur, un jardin partagé.
+
+        Bien sûr, tout n'était pas parfait. Un soir, je me suis perdue parce que j'avais laissé mon plan à la maison. Et mes collègues étaient agacés, car je n'avais pas vu leurs messages sur le groupe de l'équipe.
+
+        Aujourd'hui, j'ai récupéré mon smartphone, mais j'ai gardé de bonnes habitudes : pas d'écran pendant les repas, notifications coupées et téléphone hors de la chambre. Je ne suis pas devenue une ennemie de la technologie, mais j'ai compris une chose : c'est à moi de décider quand je me connecte.
+
+        Léna, 29 ans, Bordeaux
+      translation: |
+        Last month I tried an experiment: living for thirty days without a smartphone. It had all started on a Sunday evening in January. That evening, I looked at my screen time for the week: more than five hours a day! I had already tried to cut down, without success. This time, I decided to stop completely.
+
+        Before starting, I had prepared carefully. I had bought an old phone that could only make calls and send texts, I had printed maps of my journeys and I had let my friends know.
+
+        The first week was hard. I reached for my phone in my pocket every ten minutes and, on the metro, I didn't know what to do with my hands! Then, little by little, I changed my habits. I started reading novels again, a pleasure I had rather forgotten. I also noticed things in my neighbourhood that I had never seen: a little bookshop, a mural on a wall, a community garden.
+
+        Of course, not everything was perfect. One evening I got lost because I had left my map at home. And my colleagues were annoyed, because I hadn't seen their messages in the team group.
+
+        Today I've got my smartphone back, but I've kept some good habits: no screens during meals, notifications off and the phone out of the bedroom. I haven't become an enemy of technology, but I've understood one thing: it's up to me to decide when I go online.
+
+        Léna, 29, Bordeaux
+    pronunciation:
+      title: Hearing the plus-que-parfait
+      body: |
+        The plus-que-parfait starts with the imparfait of the auxiliary, so listen for **avais, avait, avions, étais, était**: *j'avais acheté* [ʒa.vɛ.(z)aʃ.te], *elle était partie* [ɛ.le.tɛ.paʁ.ti]. In careful speech, a liaison in [z] is often made after *avais* and *avait* before a vowel.
+
+        Compare *j'ai oublié* [ʒe.u.bli.je] (passé composé) with *j'avais oublié* [ʒa.vɛ.u.bli.je]: the extra syllable [vɛ] is the only difference.
+      items: |
+        j'avais acheté
+        elle était partie
+        nous avions oublié
+        ils avaient vu
+        je m'étais préparée
+        je n'avais jamais vu
+    culture:
+      title: Les écrans à l'école
+      body: |
+        Since 2018, French law has banned pupils from using their mobile phones in primary schools and collèges, except for teaching purposes. Lycées can set their own rules. Screen time is also a frequent public health topic: doctors advise no screens for very young children and a "digital break" in the evening for everyone.
+    mistakes: |
+      J'avais allé au cinéma. => J'étais allé au cinéma. | Aller takes être, in the plus-que-parfait as in the passé composé.
+      Quand je suis arrivée, il a déjà parti. => Quand je suis arrivée, il était déjà parti. | An action before another past action: plus-que-parfait, with être for partir.
+      Je n'avais vu jamais ça. => Je n'avais jamais vu ça. | Jamais goes between the auxiliary and the past participle.
+    task:
+      title: My digital detox
+      mode: writing
+      body: |
+        Write a short testimony (about 100 words) about a time you changed a digital habit, or a day you spent without internet. Say what had happened before (*j'avais déjà essayé…, je n'avais jamais…*), what you did and what you learned. Use at least three verbs in the plus-que-parfait.
+    exercises: |
+      fill: Quand je suis arrivé, le film ___ déjà ___ (commencer). || avait ; commencé || The film started before I arrived: plus-que-parfait, avait commencé. || @tags fr.plus-que-parfait
+      fill: Elle ___ déjà ___ (partir) quand tu as appelé. || était ; partie || Partir takes être; the participle agrees with elle: partie. || @tags fr.plus-que-parfait,fr.past-participle-agreement
+      fill: Je me suis perdue parce que j'___ (oublier) mon plan. || avais oublié || The cause happened first: plus-que-parfait. || @tags fr.plus-que-parfait
+      fill: Je n'___ jamais ___ (voir) cette librairie avant. || avais ; vu || Jamais goes between the auxiliary and the participle: je n'avais jamais vu. || @tags fr.plus-que-parfait,fr.negation
+      mc: "Il était parti." This means… || He left. | *He had left. | He was leaving. || Était + past participle = plus-que-parfait: he had left. || @tags fr.plus-que-parfait
+      mc: "Avant les vacances, ils ___." || s'avaient préparés | *s'étaient préparés | se sont préparé || Reflexive verbs take être; the participle agrees with ils: préparés. || @tags fr.plus-que-parfait,fr.reflexive
+      mc: What made Léna decide to try the experiment? || A friend's advice | *Seeing that she spent more than five hours a day on her screen | A problem at work || "J'ai regardé mon temps d'écran de la semaine : plus de cinq heures par jour !" || @ctx reading @tags fr.reading
+      tf: Before starting, Léna had let her friends know about her plan. || true || "J'avais prévenu mes amis." || @ctx reading
+      short: Why did Léna get lost one evening? || kw: plan/map/maison/home || "Parce que j'avais laissé mon plan à la maison." || @ctx reading
+      listen: Hier, je n'ai pas pu me connecter parce que j'avais oublié mon mot de passe. || Why couldn't the speaker log in? || *They had forgotten their password. | The internet was down. | They had lost their phone. || "J'avais oublié mon mot de passe." || @tags fr.listening,fr.plus-que-parfait
+      rw: Put the first action in the plus-que-parfait :: Je (télécharger) l'application, mais elle ne marchait pas. || J'avais téléchargé l'application, mais elle ne marchait pas. || The download came first: avais + téléchargé. || @tags fr.plus-que-parfait
+      tr: I had never used this app before. || Je n'avais jamais utilisé cette application avant. | Je n'avais jamais utilisé cette appli avant. | Je n'avais jamais utilisé cette application auparavant. | Je n'avais jamais utilisé cette appli auparavant. || Had never used = n'avais jamais utilisé. || @tags fr.plus-que-parfait
+      dict: J'avais coupé toutes mes notifications avant de commencer. || avais coupé
+      ask: Tell a partner about a digital habit you changed, and say what you had done or noticed before. || kw: j'avais/j'étais/je m'étais & téléphone/écran/appli/application/réseaux/notifications/internet/ordinateur || L'année dernière, j'ai supprimé les réseaux sociaux de mon téléphone. J'avais remarqué que je dormais mal parce que je faisais défiler des vidéos jusqu'à minuit.
+
+  - title: Solving a tech problem
+    summary: Explain a technical problem to a helpline, report what a screen or a technician says and say what you had done before.
+    minutes: 45
+    skills: [listening, speaking, writing]
+    tags: [fr.reported-speech, fr.plus-que-parfait]
+    objectives:
+      - Describe a technical problem and report error messages
+      - Report instructions with dire / demander de + infinitive and ask polite indirect questions
+      - Explain what you had done before the problem with the plus-que-parfait
+    intro: |
+      Your laptop won't start, an app keeps crashing, a website blocks your account. To get help, you have to explain **what the screen says** (*le message dit que…*), **what you had done** (*j'avais lancé une mise à jour*) and understand the technician's instructions (*il me demande de redémarrer*). This lesson brings together the two grammar points of the unit in a very practical situation.
+    vocab: |
+      redémarrer | to restart | v | Essayez de redémarrer l'ordinateur. | Try restarting the computer. | n: Démarrer = to start (a machine).
+      une mise à jour | an update | n | La mise à jour a duré une heure. | The update took an hour. | c: faire une mise à jour; une mise à jour en cours | g: f
+      sauvegarder | to back up; to save | v | Pensez à sauvegarder vos fichiers. | Remember to back up your files.
+      enregistrer | to save (a document) | v | J'avais enregistré le document sur le bureau. | I had saved the document on the desktop. | n: Also means to record (a song, a message).
+      un fichier | a file | n | Le fichier est trop lourd pour l'e-mail. | The file is too big for the email. | g: m
+      brancher | to plug in | v | Branchez le chargeur, s'il vous plaît. | Plug in the charger, please. | n: Opposite: débrancher.
+      le chargeur | the charger | n | J'ai oublié mon chargeur au bureau. | I left my charger at the office. | g: m
+      un mot de passe | a password | n | J'ai changé mon mot de passe hier. | I changed my password yesterday. | g: m | pl: des mots de passe
+      planter | to crash (informal) | v | L'application plante chaque fois que je l'ouvre. | The app crashes every time I open it. | n: Literally "to plant". Formal: se bloquer.
+      supprimer | to delete | v | Ne supprimez pas ce fichier ! | Don't delete this file!
+      une panne | a breakdown; an outage | n | Il y a une panne d'internet dans tout le quartier. | There's an internet outage in the whole area. | c: être en panne; une panne de courant | g: f
+      ça ne marche pas | it doesn't work | expr | Mon imprimante ne marche plus. | My printer doesn't work any more. | n: More formal: ça ne fonctionne pas.
+    grammar:
+      title: "Explaining a problem: reported speech and the plus-que-parfait"
+      body: |
+        When something goes wrong, you combine the two grammar points of this unit.
+
+        1. **Report** what a message, a device or a person says, with a present reporting verb: *Le message **dit qu'**une mise à jour est en cours. L'ordinateur me **demande si** je veux réparer le système.*
+        2. **Report instructions** with *dire / demander à quelqu'un **de*** + infinitive: *Le technicien me demande **de** brancher le chargeur.*
+        3. **Ask politely** with an indirect question: *Je voudrais savoir **si** c'est réparable / **pourquoi** ça ne marche pas / **comment** on fait.* No *est-ce que* after *savoir*.
+        4. **Explain what you had done** before the problem with the plus-que-parfait: *J'**avais lancé** la mise à jour. Je n'**avais** pas **sauvegardé** mes fichiers.*
+
+        A technician will ask you questions in the same way: *Vous **aviez** sauvegardé vos fichiers ? Qu'est-ce que vous **aviez** installé ?*
+      table: |
+        Situation | Structure | Example
+        what a message says | dire que + indicative | Le message dit que le mot de passe est incorrect.
+        what a device asks | demander si | L'ordinateur me demande si je veux redémarrer.
+        an instruction | dire / demander de + infinitive | Le technicien me dit de redémarrer.
+        a polite question | je voudrais savoir si / pourquoi / comment | Je voudrais savoir pourquoi ça ne marche pas.
+        what you had done | plus-que-parfait | J'avais installé une nouvelle application.
+      examples: |
+        Le site dit que mon compte est bloqué. | The website says my account is blocked. | reported statement
+        Le technicien me demande de débrancher la box. | The technician asks me to unplug the router. | instruction
+        Je voudrais savoir si mes fichiers sont perdus. | I'd like to know whether my files are lost. | polite indirect question
+        Ça ne marchait plus parce que j'avais supprimé un fichier important. | It wasn't working any more because I had deleted an important file. | cause before the problem
+      tip: "Ça ne marche pas is the everyday way to say 'it doesn't work'. On a helpline you can also say Ça ne fonctionne pas or J'ai un problème avec…"
+    dialogue:
+      title: Allô, le service informatique ?
+      setting: A secondary school in Marseille. Mme Fontaine, a history teacher, calls the IT department because her laptop won't start an hour before her class.
+      speakers: F=Mme Fontaine/f; T=Le technicien/m
+      lines: |
+        T: Service informatique, bonjour. Qu'est-ce qui se passe ? | IT department, hello. What's going on?
+        F: Bonjour. Mon ordinateur ne démarre plus, et il y a un message bizarre à l'écran. | Hello. My computer won't start any more, and there's a strange message on the screen.
+        T: D'accord. Qu'est-ce que le message dit, exactement ? | OK. What does the message say, exactly?
+        F: Il dit qu'une mise à jour est en cours et qu'il ne faut pas éteindre l'appareil. | It says an update is in progress and that you mustn't switch the device off.
+        T: Et vous l'avez éteint ? | And did you switch it off?
+        F: Oui, malheureusement. J'avais lancé la mise à jour hier soir, avant de partir. | Yes, unfortunately. I had started the update last night, before leaving.
+        T: Pas de panique. Je vous demande de brancher le chargeur et de redémarrer. | Don't panic. I'm going to ask you to plug in the charger and restart.
+        F: C'est fait… Maintenant, il me demande si je veux réparer le système. | Done… Now it's asking me whether I want to repair the system.
+        T: Oui, cliquez sur « Réparer ». Vous aviez sauvegardé vos fichiers ? | Yes, click on "Repair". Had you backed up your files?
+        F: Une partie seulement. Mon cours pour aujourd'hui, je l'avais enregistré sur le bureau. | Only some of them. Today's lesson, I had saved it on the desktop.
+        T: Normalement, la réparation ne supprime pas les fichiers. Attendez quelques minutes. | Normally the repair doesn't delete any files. Wait a few minutes.
+        F: Ça y est, il redémarre ! Et mon cours est là. Vous m'avez sauvé la vie ! | That's it, it's restarting! And my lesson is there. You've saved my life!
+    pronunciation:
+      title: Tech words, French style
+      body: |
+        French stresses the **last syllable** of a word or group, and tech vocabulary follows the rule: *sauvegar**der***, *redémar**rer***, *une mise à **jour***. Borrowed words are adapted to French sounds: *le wifi* is [wi.fi], with the stress at the end.
+
+        In *mot de passe*, the **t** of *mot* is silent and the **e** of *de* is often dropped: [mot.pas] → [mo.d(ə).pas]. In *ça ne marche pas*, everyday speech often drops *ne*: [sa.maʁʃ.pa].
+      items: |
+        une mise à jour
+        un mot de passe
+        sauvegarder
+        redémarrer
+        le wifi
+        ça ne marche pas
+    culture:
+      title: Courriel, logiciel, mot-dièse
+      body: |
+        France has official commissions that propose French words for new technology. Some became completely normal — *ordinateur* (computer), *logiciel* (software), *numérique* (digital) — while others are mostly used in official texts, such as *courriel* for email or *mot-dièse* for hashtag. In everyday conversation, most people say *un mail* or *un e-mail* and *un hashtag*. In Quebec, *courriel* is the usual word.
+    mistakes: |
+      Le message dit que il faut redémarrer. => Le message dit qu'il faut redémarrer. | Que becomes qu' before a vowel.
+      Le technicien me dit redémarrer. => Le technicien me dit de redémarrer. | To report an instruction, use dire de + infinitive.
+      Je voudrais savoir est-ce que c'est réparable. => Je voudrais savoir si c'est réparable. | In an indirect question, est-ce que becomes si.
+    task:
+      title: Call the helpline
+      mode: interaction
+      body: |
+        Role-play with a partner. One of you has a technical problem (a phone that won't charge, a blocked account, an app that keeps crashing); the other is the helpline technician. The user explains what the screen says (*le message dit que…*) and what they had done before (*j'avais…*). The technician asks questions and gives at least three instructions, which the user repeats (*Vous me demandez de… ?*). Then swap roles.
+    exercises: |
+      fill: Le message dit ___ le mot de passe est incorrect. || que || A reported statement: dire que. || @tags fr.reported-speech
+      fill: L'ordinateur me demande ___ je veux redémarrer. || si || A yes/no question is reported with si. || @tags fr.reported-speech
+      fill: Le technicien me dit ___ brancher le chargeur. || de || An instruction: dire de + infinitive. || @tags fr.reported-speech
+      fill: Je n'avais pas ___ (sauvegarder) mon fichier, et j'ai tout perdu. || sauvegardé || Plus-que-parfait: avais + past participle sauvegardé. || @tags fr.plus-que-parfait
+      mc: You want to ask politely whether your computer can be repaired. || Je voudrais savoir est-ce que c'est réparable. | *Je voudrais savoir si c'est réparable. | Je voudrais savoir que c'est réparable. || After savoir, a yes/no question is introduced by si, without est-ce que. || @tags fr.reported-speech,fr.questions
+      mc: "L'application a planté." This means… || The app was installed. | *The app crashed. | The app was updated. || Planter (informal) = to crash. || @skill vocabulary @tags fr.vocabulary
+      tf: Mme Fontaine had switched off her computer during the update. || true || "Et vous l'avez éteint ? — Oui, malheureusement." || @ctx dialogue
+      short: Where had Mme Fontaine saved today's lesson? || kw: bureau/desktop || "Je l'avais enregistré sur le bureau." || @ctx dialogue
+      listen: @dialogue || What happens in the end? || *The computer restarts and her lesson is still there. | The technician comes to her classroom. | She loses all her files. || "Ça y est, il redémarre ! Et mon cours est là." || @tags fr.listening
+      listen: Le site me dit que mon compte est bloqué parce que j'avais entré trois fois un mauvais mot de passe. || Why is the account blocked? || *A wrong password had been entered three times. | The website is under maintenance. | The account had expired. || "J'avais entré trois fois un mauvais mot de passe." || @tags fr.listening,fr.plus-que-parfait
+      rw: Report the instructions. Start with "Il me dit…" :: « Éteignez l'ordinateur et attendez une minute. » || Il me dit d'éteindre l'ordinateur et d'attendre une minute. || Each imperative becomes de + infinitive; de becomes d' before a vowel. || @tags fr.reported-speech
+      tr: The message says the update is in progress. || Le message dit que la mise à jour est en cours. | Le message indique que la mise à jour est en cours. || Dire que + present; in progress = en cours. || @tags fr.reported-speech
+      dict: Mon téléphone ne s'allume plus et le chargeur ne marche pas. || s'allume
+      ask: Explain a tech problem you once had — what the screen said and what you had done just before. || kw: dit que/disait que/demande si/demandait si/indiquait & j'avais/j'étais || Un jour, mon ordinateur s'est bloqué. Le message disait que le disque était plein, parce que j'avais téléchargé beaucoup de vidéos la veille.
+      write: Write an email to an online shop's customer service — your new laptop doesn't work. Say what the screen says, what you had done and what you would like. || min=60 || req: dit que/indique que | j'avais | pourriez/voudrais/aimerais/souhaiterais | cordialement/salutations || Madame, Monsieur, J'ai reçu mon ordinateur portable mardi, mais il ne démarre plus. L'écran dit qu'une erreur système est survenue. Pourtant, j'avais suivi toutes les instructions et je n'avais installé aucun logiciel. Pourriez-vous m'indiquer la marche à suivre ? Je voudrais un échange ou un remboursement. Cordialement, Hugo Lambert

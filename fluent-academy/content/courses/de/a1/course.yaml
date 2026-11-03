@@ -1,0 +1,105 @@
+language: de
+level: A1
+title: "German A1 · Foundations"
+description: Build a solid base in everyday German — greetings, personal information, family, daily routines, food, getting around town, shopping, free time and simple travel.
+hours: 70
+summary: >-
+  A1 learners can understand and use familiar everyday expressions and very basic phrases, introduce themselves,
+  ask and answer simple questions about personal details, and interact simply when the other person talks slowly
+  and clearly. This course delivers around 70 hours of guided practice across 8 units, set in German cities from
+  Hamburg to Munich.
+objectives:
+  - Greet people and introduce yourself, choosing between du and Sie
+  - Give and ask for personal information (name, age, origin, address, phone number)
+  - Talk about family, jobs and daily routines in the present tense
+  - Order food and drinks and buy things at the market and in shops
+  - Ask for and understand simple directions in town
+  - Talk about likes, hobbies and the weather, and make simple plans
+  - Handle basic travel situations such as tickets, timetables and booking a room
+canDo:
+  listening:
+    - Understand familiar words and very basic phrases about yourself, your family and your surroundings when people speak slowly and clearly
+    - Catch numbers, prices, times and platform numbers in short announcements
+  reading:
+    - Understand familiar names, words and very simple sentences on signs, menus, timetables, forms and short messages
+  spokenInteraction:
+    - Interact in a simple way if the other person repeats or rephrases and helps you
+    - Ask and answer simple questions on very familiar topics, using du or Sie appropriately
+  spokenProduction:
+    - Use simple phrases and sentences to describe where you live, your daily routine and people you know
+  writing:
+    - Write a short, simple message, invitation or postcard
+    - Fill in forms with personal details such as name, address and date of birth
+grammar:
+  - Personal pronouns and the du/Sie distinction
+  - Present tense of sein, haben and regular verbs (wohnen, kommen, heißen, arbeiten)
+  - Stem-changing verbs in the present (fahren, lesen, sehen, sprechen, essen, nehmen)
+  - Noun gender, definite and indefinite articles, plural forms
+  - Nominative and accusative (der/den, ein/einen) and negation with kein and nicht
+  - Possessive articles (mein, dein, sein, ihr, unser, Ihr)
+  - Separable verbs (aufstehen, einkaufen, anrufen, mitkommen)
+  - möchte and the modal verbs wollen, müssen and können
+  - Dative after in, an and auf for location (im Park, an der Ampel, auf dem Tisch) and es gibt
+  - The Sie-imperative for directions and instructions
+  - dieser/diese/dieses, colours and wie viel
+  - Likes and dislikes with gern and mögen
+  - Verb-second word order, yes/no questions and W-questions
+vocabularyDomains:
+  - Greetings and politeness
+  - Personal information, numbers and the alphabet
+  - Family and descriptions of people
+  - Jobs and workplaces
+  - Time, days, daily routine and frequency
+  - Food, drink, the market and restaurants
+  - Places in town, directions and the home
+  - Clothes, colours and prices
+  - Hobbies and the weather
+  - Transport, timetables and accommodation
+assessment: A 40-minute cumulative test covering vocabulary, grammar, listening and reading tasks from all eight units, with a short writing task. A score of 70% or more confirms the A1 level.
+units:
+  - title: "Hallo!"
+    theme: Greetings and introductions
+    lessons: [Greetings and goodbyes, Introducing yourself, "Numbers, age and spelling"]
+  - title: Meine Familie und ich
+    theme: Family and people
+    lessons: [My family, Describing people, Jobs and workplaces]
+  - title: Mein Alltag
+    theme: Time and daily routine
+    lessons: [Telling the time, My daily routine, Days and frequency]
+  - title: Essen und Trinken
+    theme: Food and drink
+    lessons: [Ordering at a café, At the market, At the restaurant]
+  - title: In der Stadt und zu Hause
+    theme: Town and home
+    lessons: [Places in town, Asking for directions, My home]
+  - title: Einkaufen
+    theme: Shopping
+    lessons: [Clothes and colours, Prices and numbers to 100, In a shop]
+  - title: Freizeit und Wetter
+    theme: Free time and weather
+    lessons: [Hobbies and likes, Weather and seasons, Making plans]
+  - title: Auf Reisen
+    theme: Travel
+    lessons: [Getting around, Plans for the weekend, Booking a room]
+assessmentItems: |
+  mc: It's 9 a.m. You meet your new manager, Frau Berger. What do you say? || Hallo, wie geht's dir? | *Guten Morgen, Frau Berger. Wie geht es Ihnen? | Tschüss, Frau Berger! || With Frau + surname use Sie: Wie geht es Ihnen? Tschüss is for leaving. || @tags de.register @obj Greet people and introduce yourself, choosing between du and Sie
+  fill: Wie ___ du? – Ich heiße Ömer. || heißt / heisst || Du + heißen = du heißt (the stem already ends in ß, so only -t is added). || @tags de.present-regular @obj Give and ask for personal information (name, age, origin, address, phone number)
+  mc: How do you say "My sister is called Aylin"? || Mein Schwester heißt Aylin. | *Meine Schwester heißt Aylin. | Meinen Schwester heißt Aylin. || Schwester is feminine (die Schwester), so the possessive is meine. || @tags de.possessives @obj Talk about family, jobs and daily routines in the present tense
+  mc: "She is a doctor." || *Sie ist Ärztin. | Sie hat Ärztin. | Sie arbeitet Ärztin. || Jobs follow sein without an article: Sie ist Ärztin. With arbeiten you need als: Sie arbeitet als Ärztin. || @tags de.articles,de.sein
+  fill: Ich ___ um halb sieben ___. (aufstehen) || stehe ; auf || Aufstehen is separable: the verb goes in position 2, the prefix auf goes to the end. || @tags de.separable
+  listen: Es ist Viertel nach acht. || What time is it? || 7:45 | *8:15 | 8:30 || Viertel nach acht = a quarter past eight (8:15). || @tags de.time
+  mc: You order a coffee in a café. You say: || Ich möchte ein Kaffee, bitte. | *Ich möchte einen Kaffee, bitte. | Ich möchte Kaffee einen, bitte. || Der Kaffee is masculine, so after möchte (accusative) it becomes einen Kaffee. || @tags de.accusative,de.ordering @obj Order food and drinks and buy things at the market and in shops
+  fill: Ich esse ___ Fleisch. Ich bin Vegetarierin. || kein || Kein negates a noun without an article: Fleisch → kein Fleisch. || @tags de.negation
+  mc: "Turn left at the traffic lights." || *Gehen Sie an der Ampel links. | Gehen Sie an der Ampel rechts. | Gehen Sie an der Ampel geradeaus. || Links = left, rechts = right, geradeaus = straight on. || @tags de.imperative @obj Ask for and understand simple directions in town
+  fill: Das Sofa steht ___ Wohnzimmer. || im || Location (wo?) takes the dative: in + dem Wohnzimmer = im Wohnzimmer. || @tags de.dative
+  mc: Which sentence is correct? || *Diese Jacke ist schwarz. | Dieser Jacke ist schwarz. | Dieses Jacke ist schwarz. || Jacke is feminine (die Jacke), so the demonstrative is diese. || @tags de.demonstratives
+  listen: Die Schuhe kosten neunundvierzig Euro. || How much are the shoes? || €94 | *€49 | €40.90 || German says the units first: neun-und-vierzig = nine-and-forty = 49. || @tags de.numbers
+  mc: "I like swimming." || *Ich schwimme gern. | Ich gern schwimme. | Ich mag gern schwimme. || Gern comes after the conjugated verb: ich schwimme gern. || @tags de.gern @obj Talk about likes, hobbies and the weather, and make simple plans
+  fill: Lena ___ am Wochenende nach Hamburg. (fahren) || fährt || Fahren changes its vowel with du and er/sie/es: du fährst, sie fährt. || @tags de.present-irregular
+  fill: Heute ist es kalt und es ___. (regnen) || regnet || Weather verbs use es: es regnet (it's raining); the stem regn- adds -e- before -t. || @tags de.weather
+  mc: Which word order is correct? || Am Samstag ich muss arbeiten. | *Am Samstag muss ich arbeiten. | Am Samstag muss arbeiten ich. || The modal verb is always in position 2; the infinitive goes to the end. || @tags de.word-order,de.modal-verbs @obj Handle basic travel situations such as tickets, timetables and booking a room
+  listen: Der Zug nach München fährt um vierzehn Uhr zwanzig von Gleis sieben. || When and where does the train leave? || 14:20 from platform 17 | *14:20 from platform 7 | 4:20 from platform 7 || Vierzehn Uhr zwanzig = 14:20; Gleis sieben = platform 7. || @tags de.time,de.numbers
+  short: How do you ask a hotel receptionist (formally) if they have a single room available? || Haben Sie ein Einzelzimmer frei? | Haben Sie noch ein Einzelzimmer frei? | Haben Sie ein Einzelzimmer? | Ist ein Einzelzimmer frei? | Ist noch ein Einzelzimmer frei? || Haben Sie + ein Einzelzimmer (+ frei)? The verb comes first in a yes/no question. || @tags de.questions,de.register
+  tr: I don't have time today. || Ich habe heute keine Zeit. | Heute habe ich keine Zeit. || Zeit is a noun, so it is negated with kein: keine Zeit. || @tags de.negation,de.word-order
+  tr: Excuse me, where is the station? || Entschuldigung, wo ist der Bahnhof? | Entschuldigen Sie, wo ist der Bahnhof? | Entschuldigung, wo ist bitte der Bahnhof? || Wo ist + der Bahnhof; Entschuldigung opens the question politely. || @tags de.question-words
+  write: Write a short postcard to a friend from your holiday: where you are, the weather, what you do every day and what you want to do tomorrow. || min=30 || req: ich bin/wir sind | es ist/es regnet/die sonne | will/wollen/möchte || Liebe Sara, ich bin mit Lukas in Hamburg. Es ist warm und die Sonne scheint. Jeden Tag frühstücken wir am Hafen und dann besuchen wir die Stadt. Morgen wollen wir eine Hafenrundfahrt machen. Viele Grüße, Jonas

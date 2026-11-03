@@ -1,0 +1,366 @@
+unit: 6
+title: Bien dans sa peau
+theme: Health and lifestyle
+description: Talk about stress and wellbeing, food and family meals, and getting back into sport, replacing repeated words with y and en after verbs + à / de and with double object pronouns, including in the imperative.
+free: false
+objectives:
+  - Use y and en to replace things and ideas after verbs such as penser à, s'habituer à, parler de and avoir besoin de
+  - Combine two object pronouns in the right order (je te le donne, je la lui ai donnée, il y en a)
+  - Give advice about sport and wellbeing with imperatives and pronouns (essayez-les, vas-y, ne le lui dis pas)
+canDo:
+  - I can talk about stress, sleep and what helps me relax.
+  - I can offer food, ask for a recipe and pass things at the table.
+  - I can avoid repeating words by using y, en and double pronouns.
+  - I can give practical advice to someone who wants to start a sport.
+review: |
+  fill: — Tu t'habitues à ton nouveau rythme ? — Oui, je m'___ habitue petit à petit. || y || S'habituer à + a thing → s'y habituer. || @tags fr.y-en
+  fill: — Vous avez besoin de ces documents ? — Oui, j'___ ai besoin pour demain. || en || Avoir besoin de + a thing → en avoir besoin. || @tags fr.y-en
+  fill: — Tu as rendu le livre à Léo ? — Oui, je ___ ai rendu hier. || le lui || Le (the book) comes before lui (to Léo). || @tags fr.object-pronouns
+  mc: "Du thé ? Je ___ sers une tasse ?" (offering to "vous") || *vous en | en vous | vous le || Vous comes before en; du thé (partitive) is replaced by en. || @tags fr.object-pronouns,fr.y-en
+  mc: How do you say "Tell me about it!" (tu)? || Parle-moi-en ! | *Parle-m'en ! | M'en parle ! || In the affirmative imperative, moi becomes m' before en: parle-m'en. || @tags fr.imperative,fr.y-en
+  rw: Replace both objects with pronouns :: Elle explique la règle aux joueurs. || Elle la leur explique. || La règle → la, aux joueurs → leur; la comes before leur. || @tags fr.object-pronouns
+  rw: Make it negative :: Dis-le-lui ! || Ne le lui dis pas ! || In the negative imperative, the pronouns go back before the verb in the normal order. || @tags fr.imperative,fr.object-pronouns
+  tr: There's some left in the fridge. || Il en reste dans le frigo. | Il y en a encore dans le frigo. | Il en reste encore dans le frigo. | Il en reste dans le réfrigérateur. | Il y en a encore dans le réfrigérateur. || "Some left" = il en reste or il y en a encore (y before en). || @tags fr.y-en
+  listen: Je fais de la course à pied depuis un an. Au début, je n'aimais pas ça, mais maintenant, j'en ai besoin pour décompresser. || Why does the speaker run now? || *To unwind | To lose weight | To prepare for a marathon || "J'en ai besoin pour décompresser" — to unwind. || @tags fr.listening,fr.y-en
+  listen: Le cassoulet ? Ma grand-mère me l'a appris quand j'avais dix ans, et je le prépare encore chaque hiver. || Who taught the speaker to make cassoulet? || *Their grandmother | Their mother | A chef || "Ma grand-mère me l'a appris." || @tags fr.listening,fr.object-pronouns
+  ask: Tell a friend about something that helps you feel good — a sport, a food or an activity — and how often you do it. || kw: j'en/j'y/m'en/m'y/en fais/y vais/en mange/en prends || Le yoga m'aide beaucoup. J'en fais deux fois par semaine, le mardi et le samedi. Le studio est près de chez moi, donc j'y vais à pied.
+  write: Write a short email inviting a friend to a cooking class or a sports class with you. Use y, en and at least one double pronoun. || min=60 || req: j'y/on y/vas-y/allez-y/y aller | j'en/en fais/en ai/t'en/vous en/en parler | te le/te la/te les/te l'/me l'/le lui/la lui/vous le/vous la || Salut Karim ! Tu te souviens du cours de cuisine du quartier ? J'y vais samedi et il reste une place. Le chef prépare des plats du Sud-Ouest : j'en rêve depuis des semaines ! Si tu veux, je t'inscris. Le programme, je te l'envoie ce soir. Réponds-moi vite ! Bises, Lina
+lessons:
+  - title: Stress and wellbeing
+    summary: Talk about stress, sleep and relaxation, and replace things and ideas after verbs + à / de with y and en.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [fr.y-en]
+    objectives:
+      - Talk about stress, tiredness and ways to relax
+      - Use y for à + a thing or idea and en for de + a thing or idea
+      - Place y and en correctly with the passé composé, an infinitive and the imperative
+    intro: |
+      *Tu en as parlé à ta responsable ? J'y pense tout le temps. J'en ai vraiment besoin.* When we talk about worries, we keep coming back to the same things — so French replaces them with the tiny pronouns **y** and **en**. At A2 you used *y* for places and *en* for quantities. Here you'll use them after verbs like *penser à* and *parler de*, which is how they appear most often in real conversation.
+    vocab: |
+      le stress | stress | n | Le stress m'empêche de dormir. | Stress stops me sleeping. | g: m
+      stressé | stressed | adj | Elle est très stressée avant les réunions. | She's very stressed before meetings. | n: Feminine: stressée.
+      épuisé | exhausted | adj | Après cette semaine, je suis épuisé. | After this week, I'm exhausted. | n: Feminine: épuisée.
+      le sommeil | sleep | n | Le sommeil est essentiel pour la santé. | Sleep is essential for health. | g: m | c: manquer de sommeil; un trouble du sommeil
+      se détendre | to relax | v | Je me détends en écoutant de la musique. | I relax by listening to music.
+      le bien-être | wellbeing | n | L'entreprise propose des ateliers de bien-être. | The company offers wellbeing workshops. | g: m
+      la charge de travail | workload | n | Ma charge de travail a doublé cette année. | My workload has doubled this year. | g: f
+      être à la hauteur | to be up to it; to measure up | expr | J'ai peur de ne pas être à la hauteur. | I'm afraid I won't be up to it.
+      prendre soin de soi | to look after oneself | expr | Il faut prendre soin de soi, surtout en hiver. | You have to look after yourself, especially in winter.
+      un jour de congé | a day off | n | Il me reste trois jours de congé. | I've got three days off left. | g: m | n: Les congés payés = paid holiday.
+      décompresser | to unwind; to decompress | v | Le sport m'aide à décompresser après le travail. | Sport helps me unwind after work.
+      la sophrologie | sophrology (relaxation and breathing method) | n | Elle fait de la sophrologie pour mieux dormir. | She does sophrology to sleep better. | g: f
+    grammar:
+      title: Y and en with verbs + à and de
+      body: |
+        Many verbs are followed by **à** or **de**. When the object is a **thing or an idea**, you replace it with **y** (for *à*) or **en** (for *de*):
+
+        - **y** = à + thing: *penser à son travail → **y** penser*; *s'habituer à → s'**y** habituer*; *réfléchir à, croire à, participer à*.
+        - **en** = de + thing: *parler de son stress → **en** parler*; *avoir besoin de → **en** avoir besoin*; *s'occuper de, profiter de, se souvenir de*.
+
+        For **people**, don't use y or en: *Ma grand-mère ? Je pense souvent **à elle**. Mon frère ? On parle souvent **de lui**.* (With *parler à* + person, use *lui / leur*: *je lui parle*.)
+
+        **Position**: before the conjugated verb (*j'y pense*), before the auxiliary in the passé composé (*tu **en** as parlé ?*), before the infinitive (*je vais **y** réfléchir*). In the negative: *je n'y pense plus, je n'en ai pas besoin*. In the affirmative imperative, after the verb — and -er verbs get back their **s**: *Penses-**y** ! Profites-**en** !*
+      table: |
+        Verb + à / de | Example | With y / en
+        penser à | Je pense à mon travail. | J'y pense.
+        s'habituer à | Je m'habitue au rythme. | Je m'y habitue.
+        réfléchir à | Je réfléchis à ta proposition. | J'y réfléchis.
+        parler de | Tu as parlé de ton stress ? | Tu en as parlé ?
+        avoir besoin de | J'ai besoin de repos. | J'en ai besoin.
+        profiter de | Profite de ce cours ! | Profites-en !
+      examples: |
+        Mes examens ? J'y pense jour et nuit. | My exams? I think about them day and night. | y = à mes examens
+        Ton problème de sommeil, tu en as parlé au médecin ? | Your sleep problem — have you talked to the doctor about it? | en before the auxiliary
+        Je vais y réfléchir ce week-end. | I'm going to think about it this weekend. | y before the infinitive
+        Ma grand-mère ? Je pense souvent à elle. | My grandmother? I often think about her. | a person: à + elle, not y
+      tip: "Imperative: -er verbs and aller take back their -s before y and en: Penses-y ! Profites-en ! Vas-y !"
+    dialogue:
+      title: Une pause bien méritée
+      setting: Lunchtime in the staff canteen of an insurance company in Lille. Antoine notices that his colleague Chloé looks exhausted.
+      speakers: A=Antoine/m; C=Chloé/f
+      lines: |
+        A: Ça va, Chloé ? Tu as l'air épuisée depuis quelques semaines. | Are you OK, Chloé? You've looked exhausted for a few weeks.
+        C: Franchement, non. Je dors mal et je pense au travail tout le temps. | Honestly, no. I'm sleeping badly and I think about work all the time.
+        A: Même le week-end ? | Even at weekends?
+        C: Oui, j'y pense même le dimanche soir. C'est devenu une obsession. | Yes, I even think about it on Sunday evenings. It's become an obsession.
+        A: Tu en as parlé à ta responsable ? | Have you talked to your manager about it?
+        C: Pas encore. J'ai peur qu'elle pense que je ne suis pas à la hauteur. | Not yet. I'm afraid she'll think I'm not up to the job.
+        A: À ta place, j'en parlerais vite. Tu as besoin de vacances, non ? | If I were you, I'd talk about it soon. You need a holiday, don't you?
+        C: J'en ai besoin, c'est sûr, mais il ne me reste plus de jours de congé. | I need one, that's for sure, but I've got no days off left.
+        A: Moi, j'ai essayé la sophrologie l'année dernière. Ça m'a beaucoup aidé à me détendre. | I tried sophrology last year. It really helped me relax.
+        C: La sophrologie ? Je n'y crois pas trop, mais je veux bien essayer. | Sophrology? I don't really believe in it, but I'm willing to try.
+        A: Il y a une séance gratuite le jeudi midi, à côté du bureau. Profites-en ! | There's a free session on Thursday lunchtimes, next to the office. Make the most of it!
+        C: D'accord, j'y réfléchis. Et promis, je parle à ma responsable demain. | OK, I'll think about it. And I promise I'll talk to my manager tomorrow.
+    pronunciation:
+      title: "J'y, j'en, n'y, n'en"
+      body: |
+        *Y* and *en* attach closely to the words around them. *J'y pense* is [ʒi.pɑ̃s]; *j'en ai besoin* has a liaison in [n]: [ʒɑ̃.ne.bə.zwɛ̃]. In the negative, *n'y* and *n'en* are also linked: *je n'y crois pas* [ʒə.ni.kʁwa.pa].
+
+        In the imperative, the added **s** is pronounced [z]: *profites-en* [pʁɔ.fit.zɑ̃], *penses-y* [pɑ̃s.zi], *vas-y* [va.zi].
+      items: |
+        j'y pense
+        j'en ai besoin
+        je n'y crois pas
+        profites-en
+        penses-y
+        vas-y
+    culture:
+      title: Sophrologie et congés payés
+      body: |
+        Sophrology, a method combining breathing, relaxation and visualisation created in the 1960s, is very popular in France: some companies, schools and maternity wards offer sessions. French employees are also entitled to five weeks of paid holiday a year (*les congés payés*), and many companies now run wellbeing workshops to prevent *le burn-out*.
+    mistakes: |
+      Mon travail ? J'en pense tout le temps. => Mon travail ? J'y pense tout le temps. | Penser à → y, not en.
+      Ma mère ? J'y pense souvent. => Ma mère ? Je pense souvent à elle. | For a person, use à + stressed pronoun; y is for things and ideas.
+      Profite-en ! => Profites-en ! | Before en and y, the tu imperative of -er verbs takes back its -s.
+    task:
+      title: My stress-busters
+      mode: speaking
+      body: |
+        Tell a partner what stresses you at the moment, whether you talk about it with someone and what you do to relax. Use *y* and *en* at least four times (*j'y pense…, je n'en parle pas…, j'en fais…, je m'y habitue…*). Then explain a sleep problem and ask for advice in the "At the doctor's" scenario with the AI coach.
+    exercises: |
+      fill: — Tu penses à tes examens ? — Oui, j'___ pense tout le temps. || y || Penser à + a thing → y. || @tags fr.y-en
+      fill: — Tu as besoin de repos ? — Oui, j'___ ai vraiment besoin. || en || Avoir besoin de + a thing → en. || @tags fr.y-en
+      fill: — Il s'habitue à son nouveau poste ? — Oui, il s'___ habitue petit à petit. || y || S'habituer à → s'y habituer. || @tags fr.y-en
+      fill: — Elle a parlé de son stress à son médecin ? — Non, elle n'___ a pas encore parlé. || en || Parler de → en; in the passé composé, en goes before the auxiliary. || @tags fr.y-en
+      mc: "— Tu t'occupes des réservations ? — Oui, je ___ occupe." || m'y | *m'en | me les || S'occuper de → en: je m'en occupe. || @tags fr.y-en
+      mc: "— Tu penses souvent à ton grand-père ? — Oui, …" || j'y pense souvent. | *je pense souvent à lui. | j'en pense souvent. || For a person after penser à, use à + stressed pronoun: à lui. || @tags fr.y-en
+      mc: Someone who is "épuisé" is… || *exhausted | relaxed | bored || Épuisé = extremely tired. || @skill vocabulary @tags fr.vocabulary
+      tf: Chloé has already talked to her manager about her stress. || false || "Pas encore." She promises to do it tomorrow. || @ctx dialogue
+      short: When is the free sophrology session? || kw: jeudi/thursday || "Le jeudi midi, à côté du bureau." || @ctx dialogue
+      listen: @dialogue || What does Chloé promise at the end? || *To talk to her manager tomorrow | To take a holiday next week | To stop thinking about work || "Promis, je parle à ma responsable demain." || @tags fr.listening
+      listen: Le yoga ? J'en fais depuis deux ans et maintenant, je ne pourrais plus m'en passer. || How does the speaker feel about yoga? || *They couldn't do without it now. | They've just started and find it hard. | They gave it up two years ago. || "Je ne pourrais plus m'en passer" — I couldn't do without it. || @tags fr.listening,fr.y-en
+      rw: Replace "à ce problème" with a pronoun :: Je réfléchis à ce problème depuis hier. || J'y réfléchis depuis hier. || Réfléchir à + a thing → y. || @tags fr.y-en
+      tr: Have you talked to your doctor about it? || Tu en as parlé à ton médecin ? | Vous en avez parlé à votre médecin ? | Est-ce que tu en as parlé à ton médecin ? | Est-ce que vous en avez parlé à votre médecin ? | En as-tu parlé à ton médecin ? | En avez-vous parlé à votre médecin ? || Parler de → en, placed before the auxiliary. || @tags fr.y-en
+      dict: Je n'y pense plus depuis que je fais du sport le soir. || n'y
+      ask: What do you do to relax when you're stressed? Answer using y or en at least once. || kw: j'y/j'en/n'y/n'en/m'en/m'y/en fais/en parle/y vais/y pense/en ai || Quand je suis stressée, je vais à la piscine. J'y vais deux fois par semaine, et ça m'aide beaucoup. J'en parle aussi avec ma sœur.
+
+  - title: Food culture
+    summary: Share a family meal, offer and accept food, ask for a recipe and use two object pronouns together in the right order.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [fr.object-pronouns, fr.y-en]
+    objectives:
+      - Offer, accept and pass food at the table and ask for a recipe
+      - Combine two object pronouns in the right order before the verb
+      - Use double pronouns in the passé composé and with an infinitive
+    intro: |
+      At a French family meal, sentences fly across the table: *Tu me le passes ? Je vous en ressers ? Elle me l'avait promise, cette recette !* Each one contains **two** pronouns. They always come in the same order, and once you know it, you can follow — and join — the conversation without repeating every noun.
+    vocab: |
+      la recette | the recipe | n | Ma tante m'a donné sa recette de tarte aux pommes. | My aunt gave me her apple-tart recipe. | g: f
+      resservir | to serve (someone) again; to give a second helping | v | Je vous ressers un peu de soupe ? | Can I give you some more soup?
+      goûter | to taste | v | Goûte la sauce, elle est parfaite ! | Taste the sauce, it's perfect! | n: Le goûter = afternoon snack for children.
+      salé | salty; savoury | adj | Le fromage est assez salé. | The cheese is quite salty. | n: Feminine: salée. Opposite: sucré (sweet).
+      une part | a slice; a portion | n | Tu veux une part de gâteau ? | Do you want a slice of cake? | g: f
+      mijoter | to simmer | v | Le cassoulet doit mijoter plusieurs heures. | Cassoulet has to simmer for several hours. | n: Un plat mijoté = a slow-cooked dish.
+      le terroir | the local area and its produce | n | Ce restaurant cuisine les produits du terroir. | This restaurant cooks local produce. | g: m | n: No exact English equivalent: land, climate and tradition together.
+      fait maison | home-made | adj | Tous nos desserts sont faits maison. | All our desserts are home-made. | n: Agrees in number: faits maison.
+      les restes | leftovers | n | On mange les restes demain midi. | We'll eat the leftovers tomorrow lunchtime. | g: m
+      emballer | to wrap (up) | v | Je vous emballe le gâteau ? | Shall I wrap the cake for you?
+      passer | to pass (something to someone) | v | Tu peux me passer le pain ? | Can you pass me the bread?
+      gourmand | someone who loves good food; greedy (for food) | adj | Je suis très gourmande, surtout pour le chocolat. | I love my food, especially chocolate. | n: Feminine: gourmande. Usually positive in French.
+    grammar:
+      title: Double object pronouns
+      body: |
+        When a sentence has **two object pronouns**, they always come in this order, **before the verb**:
+
+        **me / te / se / nous / vous** → **le / la / les** → **lui / leur** → **y** → **en**
+
+        - *Je **te le** passe.* (le sel, à toi)
+        - *Je **la lui** ai donnée.* (la recette, à Mei)
+        - *Je **vous en** ressers ?* (du cassoulet, à vous)
+        - *Il **y en** a encore.* (du gâteau)
+
+        In the **passé composé**, both pronouns go before the auxiliary, and the participle agrees with *le / la / les*: *Elle **me l'**a promis**e*** (la recette). With an **infinitive**, they go before the infinitive: *Je vais **te l'**écrire.* In the **negative**, *ne* comes before the two pronouns and *pas* after the verb: *Je **ne te le** donne **pas**.*
+
+        *Lui* and *leur* never combine with *me, te, nous, vous* — and you can't use two pronouns from the same group.
+      table: |
+        Combination | Example | Meaning
+        me / te / nous / vous + le / la / les | Je te le passe. | I'll pass it to you.
+        le / la / les + lui / leur | Je la lui ai donnée. | I gave it to him / her.
+        me / te / lui / vous… + en | Je vous en sers ? | Shall I serve you some?
+        y + en | Il y en a encore. | There's still some.
+        passé composé | Elle me l'a promise. | She promised it to me.
+        with an infinitive | Je vais te l'écrire. | I'm going to write it down for you.
+      examples: |
+        — Tu me prêtes ton livre de cuisine ? — Oui, je te le prête. | — Will you lend me your cookbook? — Yes, I'll lend it to you. | te + le
+        Les photos du repas ? Je les leur ai envoyées hier. | The photos of the meal? I sent them to them yesterday. | les + leur, with agreement
+        Des madeleines ? Ma voisine nous en apporte tous les dimanches. | Madeleines? My neighbour brings us some every Sunday. | nous + en
+        Je ne vous la donnerai pas, c'est un secret ! | I won't give it to you, it's a secret! | negative
+      tip: "Learn the order as a chain: me-te-nous-vous → le-la-les → lui-leur → y → en. Say it aloud: Je te le donne, je le lui donne, il y en a."
+    dialogue:
+      title: Le cassoulet de Mamie Odette
+      setting: Sunday lunch at Odette's house near Toulouse. Her grandson Samuel has brought his partner Mei to meet the family for the first time.
+      speakers: O=Odette/f; S=Samuel/m; M=Mei/f
+      lines: |
+        M: Ce cassoulet est délicieux ! Vous pourriez me donner la recette ? | This cassoulet is delicious! Could you give me the recipe?
+        O: Bien sûr, je vous la donnerai. Mais attention, c'est un secret de famille ! | Of course, I'll give it to you. But careful, it's a family secret!
+        S: Mamie, tu me l'avais promise il y a trois ans, cette recette ! | Grandma, you promised it to me three years ago, that recipe!
+        O: Je sais, mon chéri. Je vous l'écrirai ce soir, à tous les deux. | I know, darling. I'll write it down for you tonight, both of you.
+        M: Et ce fromage, vous l'avez acheté au marché ? | And this cheese, did you buy it at the market?
+        O: Non, c'est mon voisin qui me l'a apporté. Il le fabrique lui-même ! | No, my neighbour brought it for me. He makes it himself!
+        S: Mei, tu peux me passer le sel, s'il te plaît ? | Mei, can you pass me the salt, please?
+        M: Tiens, je te le passe. Mais goûte d'abord, c'est déjà bien salé ! | Here, I'll pass it to you. But taste first, it's already quite salty!
+        O: Et il y a un gâteau aux noix pour le dessert. Vous en voulez une part ? | And there's a walnut cake for dessert. Would you like a slice?
+        M: Juste une petite, merci. Je pourrais en garder une part pour ma colocataire ? | Just a small one, thanks. Could I keep a slice for my flatmate?
+        O: Bien sûr ! Je vous en emballe deux : une pour vous et une pour elle. | Of course! I'll wrap two for you: one for you and one for her.
+        S: Tu vois, Mei ? Ici, personne ne repart le ventre vide ! | You see, Mei? Here, nobody leaves on an empty stomach!
+    pronunciation:
+      title: "Pronoun clusters: je te le, je la lui"
+      body: |
+        In everyday speech, the mute e's in a pronoun cluster are often dropped, so the pronouns run together: *je te le passe* sounds like [ʃtəl.pas] or [ʒtəl.pas]; *je vous la donnerai* keeps all its vowels but links them smoothly.
+
+        *Je la lui ai donnée* is [ʒə.la.lɥi.e.dɔ.ne] — say *lui* as one syllable with the glide [ɥ]. *Il y en a* is [i.ljɑ̃.na] in careful speech and often [jɑ̃.na] in relaxed speech.
+      items: |
+        je te le passe
+        je vous la donnerai
+        je la lui ai donnée
+        il y en a
+        je vous en sers ?
+        tu me l'avais promise
+    culture:
+      title: Le repas gastronomique des Français
+      body: |
+        In 2010, UNESCO added "the gastronomic meal of the French" to its list of the Intangible Cultural Heritage of Humanity. It isn't a particular dish but a ritual: choosing good products, a set order (*apéritif, entrée, plat, fromage, dessert*), matching food and wine, and above all taking time to talk around the table. Regional dishes like *le cassoulet* from the south-west are a matter of local pride — Toulouse, Castelnaudary and Carcassonne each claim the best version.
+    mistakes: |
+      Je lui la donne. => Je la lui donne. | La (the thing) comes before lui (the person).
+      Tu me le peux passer ? => Tu peux me le passer ? | With an infinitive, the pronouns go just before the infinitive.
+      Elle me l'a promis. (la recette) => Elle me l'a promise. | The participle agrees with l' (= la recette) placed before avoir — and you hear it: [pʁɔ.miz].
+    task:
+      title: Around the table
+      mode: interaction
+      body: |
+        In groups of three, role-play a family meal: one person is the host, the others are guests. Offer and accept food (*je vous en ressers ?*), pass things (*tu me le passes ?*), ask for a recipe and say who gave it to whom (*ma mère me l'a apprise*). Use at least five double pronouns. Then practise ordering and asking about dishes in the "Ordering at a café or restaurant" scenario with the AI coach.
+    exercises: |
+      fill: — Tu me passes le sel ? — Oui, je te ___ passe. || le || Le sel → le; te comes before le. || @tags fr.object-pronouns
+      fill: — Tu as donné la recette à Mei ? — Oui, je ___ ai donnée. || la lui || La recette → la, à Mei → lui; la comes before lui (and donnée agrees). || @tags fr.object-pronouns,fr.past-participle-agreement
+      fill: — Il reste du gâteau ? — Oui, il y ___ a encore. || en || Du gâteau → en; y comes before en: il y en a. || @tags fr.y-en
+      fill: — Vous pouvez m'envoyer les photos ? — Oui, je vais vous ___ envoyer. || les || Vous comes before les; both go before the infinitive. || @tags fr.object-pronouns
+      mc: "Le livre ? Je ___ ai prêté hier." (to Paul) || lui l' | *le lui | lui le || Le / la / les come before lui / leur: je le lui ai prêté. || @tags fr.object-pronouns
+      mc: "Des fraises ? Je ___ donne volontiers." (to you, vous) || en vous | *vous en | vous les || Des fraises (some) → en, and vous comes before en. || @tags fr.object-pronouns,fr.y-en
+      tf: Odette had promised the recipe to Samuel years ago. || true || "Mamie, tu me l'avais promise il y a trois ans, cette recette !" || @ctx dialogue
+      short: Who brought the cheese? || kw: voisin/neighbour/neighbor || "C'est mon voisin qui me l'a apporté." || @ctx dialogue
+      listen: @dialogue || What does Odette do at the end of the meal? || *She wraps two slices of cake for Mei. | She writes the recipe down for Mei. | She serves more cassoulet. || "Je vous en emballe deux : une pour vous et une pour elle." || @tags fr.listening
+      listen: Ma mère m'a appris cette recette, et je vais te l'apprendre aussi. Il faut la laisser mijoter trois heures. || How long must the dish simmer? || *Three hours | Thirty minutes | Two hours || "Il faut la laisser mijoter trois heures." || @tags fr.listening
+      rw: Replace both objects with pronouns :: J'envoie la recette à ma sœur. || Je la lui envoie. || La recette → la, à ma sœur → lui; order: la lui. || @tags fr.object-pronouns
+      rw: Replace both objects with pronouns :: Tu donnes du gâteau aux enfants ? || Tu leur en donnes ? || Aux enfants → leur, du gâteau → en; order: leur en. || @tags fr.object-pronouns,fr.y-en
+      tr: Can you pass it to me? (the bread, tu) || Tu peux me le passer ? | Tu me le passes ? | Peux-tu me le passer ? | Est-ce que tu peux me le passer ? || Le pain → le; me comes before le, both before the infinitive. || @tags fr.object-pronouns
+      dict: Mon voisin nous en apporte tous les dimanches. || nous en
+      ask: Ask someone at the table to pass you something, then offer them some dessert. || kw: passer/passes/passez/donner & en || Tu peux me passer le pain, s'il te plaît ? Merci ! Et il y a de la tarte : je t'en sers une part ?
+
+  - title: Sport and fitness
+    summary: Read a forum thread about getting back into sport and give advice with imperatives and pronouns.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [fr.imperative, fr.object-pronouns, fr.y-en]
+    objectives:
+      - Understand and give advice about starting or getting back into sport
+      - Place pronouns correctly in the affirmative and negative imperative
+      - Use y, en and double pronouns to talk about your training
+    intro: |
+      *Allez-y progressivement. Essayez-les en magasin. Ne les choisissez pas sur internet.* Advice about sport is full of imperatives — and of pronouns, because we keep talking about the same shoes, the same pool, the same exercises. In the imperative, the pronouns move **after** the verb and their order changes. This lesson shows you how.
+    vocab: |
+      se remettre au sport | to get back into sport | expr | Après ma grossesse, je me suis remise au sport. | After my pregnancy, I got back into sport. | n: S'y remettre = to get back into it.
+      se mettre à | to take up; to start | v | Il s'est mis au tennis à soixante ans. | He took up tennis at sixty.
+      la course à pied | running | n | La course à pied est très populaire en France. | Running is very popular in France. | g: f
+      la natation | swimming | n | Je fais de la natation le mardi soir. | I go swimming on Tuesday evenings. | g: f
+      une longueur | a length (of a pool) | n | J'ai nagé vingt longueurs ce matin. | I swam twenty lengths this morning. | g: f
+      progressivement | gradually | adv | Augmentez la distance progressivement. | Increase the distance gradually.
+      s'échauffer | to warm up | v | Échauffez-vous bien avant de courir. | Warm up well before running. | n: L'échauffement = the warm-up.
+      les courbatures | aching muscles; stiffness | n | J'ai des courbatures partout ! | I'm aching all over! | g: f
+      un débutant | a beginner | n | Ce cours est pour les débutants. | This class is for beginners. | g: m | n: Feminine: une débutante.
+      être en forme | to be fit; to feel good | expr | Depuis que je nage, je suis en pleine forme. | Since I started swimming, I've been in great shape.
+      s'inscrire à | to sign up for; to join | v | Je me suis inscrit à un club de randonnée. | I've joined a hiking club.
+      se fixer un objectif | to set oneself a goal | expr | Je me suis fixé un objectif : courir dix kilomètres. | I've set myself a goal: running ten kilometres.
+    grammar:
+      title: Pronouns with the imperative
+      body: |
+        In an **affirmative** imperative, the pronouns come **after** the verb, joined by hyphens, and the order changes: **verb + le / la / les + moi / toi / lui / nous / vous / leur + y + en**.
+
+        - *Donne-**le-moi** !* · *Envoyez-**la-nous** !* · *Dis-**le-lui** !*
+        - *Me* and *te* become **moi** and **toi** at the end: *Aide-moi ! Échauffe-toi !*
+        - Before *en* and *y*, *moi* and *toi* become **m'** and **t'**: *Parle-**m'en** !*
+
+        In a **negative** imperative, everything goes back to the normal order, before the verb: *Ne **me le** donne pas ! Ne **les** choisissez pas sur internet !*
+
+        Remember that *tu* imperatives of -er verbs and *va* take an **s** before *y* and *en*: *Vas-y ! Achètes-en !* And very common fixed expressions: *Allez-y !* (Go ahead! / Go for it!), *Vas-y doucement !* (Take it easy!).
+      table: |
+        Affirmative | Negative | Meaning
+        Donne-le-moi. | Ne me le donne pas. | Give it to me. / Don't give it to me.
+        Essayez-les. | Ne les essayez pas. | Try them on. / Don't try them on.
+        Dis-le-lui. | Ne le lui dis pas. | Tell him / her. / Don't tell him / her.
+        Parle-m'en. | Ne m'en parle pas. | Tell me about it. / Don't tell me about it.
+        Vas-y ! | N'y va pas ! | Go! / Don't go!
+      examples: |
+        Tes chaussures ? Essaie-les avant de les acheter. | Your shoes? Try them on before you buy them. | essaie + les
+        Ce cours de natation, inscris-toi vite, il reste deux places ! | This swimming class — sign up quickly, there are two places left! | reflexive: toi
+        Ton programme d'entraînement, envoie-le-moi ! | Your training plan — send it to me! | le + moi
+        Ne vous découragez pas : les courbatures, c'est normal. | Don't get discouraged: aching muscles are normal. | negative reflexive
+      tip: "Affirmative imperative: the thing first (le / la / les), then the person (moi, lui…). Negative: back to the normal order — Ne me le donne pas."
+    reading:
+      title: Reprendre le sport après 40 ans ?
+      text: |
+        Forum Santé et Forme — Rubrique : reprendre le sport
+
+        Nadia_44 : Bonjour à tous ! J'ai 44 ans et je n'ai pas fait de sport depuis la naissance de mes enfants. Mon médecin me l'a conseillé lors de ma dernière visite, mais je ne sais pas par où commencer. La course à pied ? La natation ? Vous avez des idées ? Merci d'avance !
+
+        Coach_Sylvain : Bonjour Nadia ! D'abord, bravo pour votre décision. Mon conseil : allez-y progressivement. Commencez par trente minutes de marche rapide, trois fois par semaine. Fixez-vous un petit objectif, et surtout, ne vous comparez pas aux autres !
+
+        Marie-Jo : Moi, je me suis mise à la natation à 50 ans. Au début, je faisais deux longueurs et j'étais épuisée. Aujourd'hui, j'en fais quarante ! La piscine de mon quartier propose des cours pour adultes débutants : je vous les recommande vraiment.
+
+        Théo_runner : Si vous aimez courir, essayez un programme pour débutants qui alterne marche et course pendant huit semaines. Ma sœur l'a suivi l'an dernier et elle me l'a fait découvrir. Maintenant, on court ensemble le dimanche. Un conseil : achetez de bonnes chaussures. Ne les choisissez pas sur internet, essayez-les en magasin !
+
+        Nadia_44 : Merci beaucoup pour vos réponses ! J'ai parlé des cours de natation à mon amie Karine, et elle veut venir avec moi. La piscine ? On y va mardi soir ! Je vous en donnerai des nouvelles.
+      translation: |
+        Health and Fitness Forum — Section: getting back into sport
+
+        Nadia_44: Hello everyone! I'm 44 and I haven't done any sport since my children were born. My doctor recommended it at my last appointment, but I don't know where to start. Running? Swimming? Any ideas? Thanks in advance!
+
+        Coach_Sylvain: Hello Nadia! First of all, well done for your decision. My advice: take it gradually. Start with thirty minutes of brisk walking, three times a week. Set yourself a small goal, and above all, don't compare yourself to others!
+
+        Marie-Jo: I took up swimming at 50. At first, I swam two lengths and I was exhausted. Today I swim forty! The pool in my neighbourhood offers classes for adult beginners: I really recommend them to you.
+
+        Théo_runner: If you like running, try a beginners' programme that alternates walking and running for eight weeks. My sister followed it last year and she introduced me to it. Now we run together on Sundays. A tip: buy good shoes. Don't choose them online — try them on in a shop!
+
+        Nadia_44: Thank you so much for your replies! I told my friend Karine about the swimming classes, and she wants to come with me. The pool? We're going on Tuesday evening! I'll let you know how it goes.
+    pronunciation:
+      title: Imperatives with pronouns
+      body: |
+        In the imperative, the stress falls on the **last** pronoun: *donne-le-**moi*** [dɔn.lə.mwa], *dis-le-**lui***, *allez-**y*** [a.le.zi]. The added **s** before *y* and *en* is pronounced [z]: *vas-y* [va.zi], *achètes-en* [a.ʃɛt.zɑ̃].
+
+        In *essayez-les*, the y gives two [j] sounds: [e.sɛ.je.le]. Say these phrases with energy — they are encouragements!
+      items: |
+        donne-le-moi
+        dis-le-lui
+        allez-y
+        vas-y
+        achètes-en
+        essayez-les
+    culture:
+      title: Le sport en club
+      body: |
+        In France, most organised sport takes place in local clubs run as non-profit associations, often supported by the town. To join, you pay a yearly fee and get a *licence* from the sport's federation; for some sports and competitions, a medical certificate is required. Every September, many towns hold a *forum des associations* where you can discover and sign up for activities — sport, music, theatre — for the whole year.
+    mistakes: |
+      Donne-moi-le ! => Donne-le-moi ! | In the affirmative imperative, le / la / les comes before moi / lui.
+      Ne donne-le-moi pas ! => Ne me le donne pas ! | In the negative imperative, the pronouns go back before the verb in the normal order.
+      Va-y ! => Vas-y ! | Before y, va takes an s: vas-y.
+    task:
+      title: Reply to Nadia
+      mode: writing
+      body: |
+        Write a reply (about 80 words) to Nadia's post on the forum. Recommend a sport you know, explain how to start, and give practical tips. Use at least three imperatives with pronouns (*allez-y, essayez-les, inscrivez-vous, ne vous découragez pas…*) and one double pronoun (*je vous le conseille*). Then talk about your own favourite sport in the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: Tes chaussures de course ? Essaie-___ avant de les acheter ! || les || Affirmative imperative: the pronoun goes after the verb, essaie-les. || @tags fr.imperative,fr.object-pronouns
+      fill: Ce cours est génial, je vous ___ recommande. (le cours) || le || Vous comes before le: je vous le recommande. || @tags fr.object-pronouns
+      fill: La salle de sport ? Vas-___ avec moi demain ! || y || Aller à la salle → y; va takes an s before y: vas-y. || @tags fr.imperative,fr.y-en
+      fill: Ton entraînement ? Parle-m'___ ! || en || Parler de → en; moi becomes m' before en. || @tags fr.imperative,fr.y-en
+      mc: "Give it to me!" (the ball, tu) || Donne-moi-le ! | *Donne-le-moi ! | Le donne-moi ! || Affirmative imperative: verb + le + moi. || @tags fr.imperative,fr.object-pronouns
+      mc: "Don't tell him!" (the secret, tu) || Ne dis-le-lui pas ! | *Ne le lui dis pas ! | Ne lui le dis pas ! || Negative imperative: normal order before the verb, le before lui. || @tags fr.imperative,fr.object-pronouns
+      mc: What does Coach_Sylvain advise Nadia to start with? || *Thirty minutes of brisk walking three times a week | Running every day | Swimming forty lengths || "Commencez par trente minutes de marche rapide, trois fois par semaine." || @ctx reading @tags fr.reading
+      tf: Marie-Jo took up swimming at the age of 50. || true || "Je me suis mise à la natation à 50 ans." || @ctx reading
+      short: When are Nadia and Karine going to the pool? || kw: mardi/tuesday || "La piscine ? On y va mardi soir !" || @ctx reading
+      listen: Si tu as des courbatures, ne t'inquiète pas, c'est normal. Mais échauffe-toi bien avant la prochaine séance ! || What advice does the speaker give? || *Warm up well before the next session | Stop the sport for a week | Take some medicine || "Échauffe-toi bien avant la prochaine séance !" || @tags fr.listening,fr.imperative
+      rw: Make it negative :: Achète-les sur internet ! || Ne les achète pas sur internet ! || Negative imperative: the pronoun goes back before the verb. || @tags fr.imperative,fr.object-pronouns
+      tr: My doctor recommended it to me. (le sport) || Mon médecin me l'a recommandé. | Mon médecin me l'a conseillé. | Ma médecin me l'a recommandé. | Ma médecin me l'a conseillé. || Me before l'; both before the auxiliary. || @tags fr.object-pronouns
+      dict: Allez-y progressivement et ne vous comparez pas aux autres. || allez-y
+      ask: A friend wants to start a sport. Give two pieces of advice, with at least one imperative + pronoun. || kw: vas-y/allez-y/essaie-le/essaie-la/essaie-les/essayez-les/inscris-toi/inscrivez-vous/fixe-toi/fixez-vous/échauffe-toi/échauffez-vous/ne te décourage pas/ne vous découragez pas || Inscris-toi à un club de randonnée, c'est sympa pour commencer. Et pour les chaussures, essaie-les en magasin avant de les acheter !

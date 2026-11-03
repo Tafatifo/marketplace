@@ -1,0 +1,399 @@
+unit: 2
+title: Arbejde og karriere
+theme: Work and careers
+description: Answer questions at a job interview, write work emails and follow a meeting, and talk about changing careers — with fordi, derfor and så, a neutral and polite register, and selvom and alligevel.
+free: true
+objectives:
+  - Answer typical job-interview questions and give reasons with fordi, derfor and så
+  - Write and understand work emails and follow a meeting in a neutral, polite register
+  - Talk about career changes and contrasts with selvom and alligevel
+canDo:
+  - I can present my experience and strengths at a job interview and explain why I want the job.
+  - I can write a polite work email with the right opening, closing and fixed phrases.
+  - I can follow the agenda of a meeting and say that I can't attend.
+  - I can explain a big decision with selvom and alligevel.
+review: |
+  fill: Jeg har arbejdet som kok i ti år. ___ kender jeg branchen godt. || Derfor || Derfor gives the result, and the verb follows straight after it: Derfor kender jeg… || @tags da.connectors,da.word-order
+  mc: Which sentence is correct? || *Jeg søger jobbet, fordi jeg ikke vil arbejde om natten. | Jeg søger jobbet, fordi jeg vil ikke arbejde om natten. | Jeg søger jobbet, fordi ikke jeg vil arbejde om natten. || After fordi, the order is subject + ikke + verb: fordi jeg ikke vil. || @tags da.subordinate-clauses,da.negation
+  mc: You are writing to the customer service of a company. Which opening is suitable? || *Kære kundeservice | Hej skat | Halløjsa || Kære + the receiver is polite and neutral. Hej skat (hi darling) and halløjsa are only for people you know very well. || @tags da.formal-writing,da.register
+  fill: Vi har ___ din ansøgning og vender tilbage i næste uge. (the formal word for "fået") || modtaget || Modtage is the formal word for få: har modtaget = have received. || @tags da.formal-writing,da.perfect
+  fill: ___ det var en stor risiko, skiftede hun karriere. || Selvom / Selv om || Selvom introduces the surprise: she did it although it was risky. After the selvom-clause, the verb comes first: skiftede hun. || @tags da.connectors,da.subordinate-clauses
+  mc: "Lønnen var lav. ___ blev jeg i jobbet i fem år." || *Alligevel | Selvom | Fordi || Alligevel (all the same) is an adverb followed by the verb. Selvom and fordi would need a subordinate clause with subject before verb. || @tags da.connectors,da.word-order
+  tr: Please find my CV attached. || Vedhæftet finder du mit CV. | Vedhæftet er mit CV. | Mit CV er vedhæftet. | Jeg har vedhæftet mit CV. || The fixed phrase is Vedhæftet finder du… — with the verb straight after vedhæftet. CV is an et-word: mit CV. || @tags da.formal-writing,da.word-order
+  listen: Hej alle sammen. Mødet i morgen er flyttet fra klokken ni til klokken elleve, fordi chefen er forsinket. || What time is the meeting now? || At nine | *At eleven | At ten || "Fra klokken ni til klokken elleve" — from nine to eleven. || @tags da.listening,da.time
+  listen: Jeg hedder Anders. Selvom jeg elskede mit job som journalist, sagde jeg op sidste år, og nu læser jeg til lærer. || What is Anders doing now? || *Training to be a teacher | Working as a journalist | Looking for a job abroad || "Nu læser jeg til lærer" — læse til = study to become. || @tags da.listening,da.connectors
+  ask: In a job interview you are asked: "Hvorfor vil du gerne arbejde hos os?" Answer with fordi and derfor. || kw: fordi & derfor || Jeg vil gerne arbejde hos jer, fordi I arbejder meget med bæredygtighed. Det interesserer mig meget, og derfor søgte jeg stillingen med det samme.
+  write: Write a formal email (5–7 sentences) to a company you don't know, asking whether they offer internships. Say who you are, why you are interested and what experience you have. || min=50 || req: Kære | fordi/derfor | erfaring | Med venlig hilsen/Venlig hilsen || Kære Tegnestuen Nord. Jeg hedder Ana Ruiz, og jeg læser arkitektur på Aarhus Universitet. Jeg skriver til jer, fordi jeg gerne vil i praktik hos jer i foråret. Jeg har erfaring med 3D-tegning fra et sommerjob i Madrid, og jeg er meget interesseret i jeres projekter med træhuse. Vedhæftet finder I mit CV. Jeg ser frem til at høre fra jer. Med venlig hilsen Ana Ruiz
+lessons:
+  - title: The job interview
+    summary: Present your experience, strengths and motivation at a job interview, and give reasons and results with fordi, derfor and så.
+    minutes: 45
+    skills: [speaking, grammar, listening]
+    tags: [da.connectors, da.subordinate-clauses, da.word-order]
+    objectives:
+      - Talk about your experience, strengths and weaknesses
+      - Give reasons with fordi and results with derfor and så
+      - Use the right word order after each connector
+    intro: |
+      A Danish job interview is usually relaxed and informal — first names, coffee on the table — but the questions are serious: *Hvorfor søger du stillingen? Hvad er dine styrker?* Every answer needs a reason. In this lesson you will learn the three key words for reasons and results, **fordi**, **derfor** and **så**, and the word order that goes with each of them.
+    vocab: |
+      en stilling | a position; a post | n | Jeg søger stillingen som projektleder. | I'm applying for the position of project manager. | g: c | pl: stillinger
+      en ansøgning | an application | n | Tak for din ansøgning — vi vil gerne invitere dig til en samtale. | Thank you for your application — we'd like to invite you to an interview. | g: c | pl: ansøgninger
+      en jobsamtale | a job interview | n | Jeg skal til jobsamtale på torsdag klokken ti. | I have a job interview on Thursday at ten. | g: c | pl: jobsamtaler | n: Often just en samtale.
+      erfaring | experience | n | Jeg har seks års erfaring med kundeservice. | I have six years' experience in customer service. | g: c | c: have erfaring med noget | n: Usually without an article.
+      en styrke | a strength | n | Min største styrke er, at jeg er god til at samarbejde. | My greatest strength is that I'm good at working with others. | g: c | pl: styrker
+      en svaghed | a weakness | n | En af mine svagheder er, at jeg har svært ved at sige nej. | One of my weaknesses is that I find it hard to say no. | g: c | pl: svagheder
+      samarbejde | to cooperate; to work together | v | I vores team samarbejder vi på tværs af afdelingerne. | In our team we work together across the departments. | n: Also a noun: et samarbejde. Past: samarbejdede.
+      ansvar | responsibility | n | I mit nuværende job har jeg ansvar for tre medarbejdere. | In my current job I'm responsible for three employees. | g: n | c: have ansvar for; tage ansvar
+      en udfordring | a challenge | n | Jeg kan godt lide nye udfordringer. | I like new challenges. | g: c | pl: udfordringer
+      motiveret | motivated | adj | Jeg er meget motiveret for at lære jeres system. | I'm very motivated to learn your system. | c: motiveret for at + infinitive
+      derfor | that's why; therefore | adv | Jeg elsker at undervise. Derfor søger jeg jobbet. | I love teaching. That's why I'm applying for the job. | n: At the start of a sentence, the verb comes next.
+      en løn | a salary; pay | n | Hvad er dine forventninger til lønnen? | What are your salary expectations? | g: c | pl: lønninger
+    grammar:
+      title: "Reasons and results: fordi, derfor and så"
+      body: |
+        In an interview you explain **why** all the time. Danish has three key words, and each has its own word order.
+
+        **Fordi** (because) starts a subordinate clause: subject before the verb, ikke before the verb — *Jeg søger jobbet, **fordi** jeg gerne vil arbejde med mennesker.* · *…, fordi jeg ikke kan lide rutiner.*
+
+        **Derfor** (that's why, therefore) is an adverb that points back to a reason you have just given. At the start of a sentence it takes the first place, so the **verb comes next**: *Jeg elsker at undervise. **Derfor søger jeg** stillingen.* It can also stand after the verb: *Jeg søger **derfor** stillingen.*
+
+        **Så** (so) as a conjunction joins two main clauses and does **not** change the word order: *Jeg har arbejdet med kunder i fem år, **så jeg er** vant til travlhed.* Don't confuse it with *så* meaning "then", which is an adverb followed by the verb: *Så flyttede vi til Kolding.*
+
+        Fordi gives the reason; derfor and så give the result. Compare: *Jeg taler spansk, fordi min mor er fra Chile.* · *Min mor er fra Chile. Derfor taler jeg spansk.* · *Min mor er fra Chile, så jeg taler spansk.*
+      table: |
+        Word | Gives | Word order | Example
+        fordi | the reason | subject + (ikke) + verb | …, fordi jeg ikke har bil.
+        derfor | the result | verb + subject (V2) | Derfor tager jeg toget.
+        så (so) | the result | subject + verb | …, så jeg tager toget.
+        så (then) | the next event | verb + subject (V2) | Så tog jeg toget.
+      examples: |
+        Jeg søger stillingen, fordi jeg gerne vil have mere ansvar. | I'm applying for the position because I'd like more responsibility. | fordi + subject + verb
+        Jeg har boet i Spanien i fem år. Derfor taler jeg flydende spansk. | I've lived in Spain for five years. That's why I speak fluent Spanish. | derfor + verb + subject
+        Vores kunder kommer fra hele verden, så vi taler meget engelsk. | Our customers come from all over the world, so we speak a lot of English. | så + subject + verb
+        Det var et lille firma, så jeg havde ansvar for mange ting. | It was a small company, so I was responsible for many things. | så + subject + verb
+      tip: "Derfor = \"that's why\". Whenever you would say \"that's why\" in English, put the Danish verb straight after derfor."
+    dialogue:
+      title: Samtalen i Kolding
+      setting: A logistics company in Kolding. Helle from HR and the team leader Bo interview Rafael for a job as a logistics coordinator.
+      speakers: H=Helle/f; B=Bo/m; R=Rafael/m
+      lines: |
+        H: Velkommen, Rafael. Jeg hedder Helle, og det her er Bo, som er teamleder. | Welcome, Rafael. I'm Helle, and this is Bo, who is the team leader.
+        R: Tak, fordi jeg måtte komme. Jeg glæder mig til at høre mere om stillingen. | Thank you for having me. I'm looking forward to hearing more about the position.
+        B: Vil du starte med at fortælle lidt om dig selv og din erfaring? | Would you like to start by telling us a little about yourself and your experience?
+        R: Gerne. Jeg har arbejdet med logistik i seks år, først i Lissabon og så i Vejle. | Of course. I've worked in logistics for six years, first in Lisbon and then in Vejle.
+        H: Hvorfor søger du lige præcis den her stilling? | Why are you applying for this particular position?
+        R: Jeg vil gerne have mere ansvar, og derfor søger jeg en stilling som koordinator. | I'd like more responsibility, and that's why I'm applying for a job as a coordinator.
+        B: Hos os går det meget stærkt. Hvordan reagerer du, når der er travlt? | Things move very fast here. How do you react when it's busy?
+        R: Jeg holder hovedet koldt. Vi har tit travlt på lageret, så jeg er vant til det. | I keep a cool head. We're often busy at the warehouse, so I'm used to it.
+        H: Hvad vil du selv sige er din største svaghed? | What would you say is your biggest weakness?
+        R: Jeg har svært ved at sige nej, så jeg har lært at prioritere bedre. | I find it hard to say no, so I've learned to prioritise better.
+        H: Fint. Har du nogen spørgsmål til os, inden vi slutter? | Fine. Do you have any questions for us before we finish?
+        R: Ja. Hvordan ser en typisk arbejdsdag ud for en koordinator hos jer? | Yes. What does a typical working day look like for a coordinator here?
+    pronunciation:
+      title: "-tion and -sion: stress at the end"
+      body: |
+        Many work words end in **-tion** or **-sion**, and they are always stressed on that last syllable. The ending sounds like "-SJON", with an sh-sound: *situation* is "si-tu-a-SJON", *kommunikation* is "kom-mu-ni-ka-SJON".
+
+        Keep the other syllables short and light, and put all the energy into the end. The same pattern is found in *information*, *motivation*, *organisation* and *diskussion*.
+      items: |
+        situation
+        motivation
+        kommunikation
+        organisation
+        diskussion
+        Jeg er god til kommunikation.
+    culture:
+      title: Job interviews in Denmark
+      body: |
+        Danish job interviews are often relaxed in tone. Everyone uses first names, and the interviewers may include a future colleague as well as the manager. Many workplaces have two rounds of interviews, and some use a personality test or a small case task in the second round.
+
+        Interviewers are interested in how you work with others, so be ready for questions about cooperation and how you handle disagreement. Arrive on time, keep your answers concrete, and prepare a couple of questions of your own — asking nothing can look like a lack of interest.
+    mistakes: |
+      Derfor jeg søger stillingen. => Derfor søger jeg stillingen. | Derfor is an adverb: at the start of the sentence it is followed by the verb (V2).
+      …, fordi jeg har ikke erfaring. => …, fordi jeg ikke har erfaring. | After fordi, ikke goes before the verb.
+      Jeg har erfaring i seks år. => Jeg har seks års erfaring. | Danish says seks års erfaring (six years' experience), or: Jeg har arbejdet med det i seks år.
+    task:
+      title: Your interview answers
+      mode: interaction
+      body: |
+        Prepare answers to three classic questions: *Fortæl lidt om dig selv*, *Hvorfor søger du stillingen?* and *Hvad er dine styrker og svagheder?* Use fordi, derfor and så at least once each. Then practise them in the "Preparing for a job interview" scenario with the AI coach, and ask the coach one question about the job at the end.
+    exercises: |
+      fill: Jeg søger jobbet, ___ jeg gerne vil arbejde med mennesker. || fordi || The second part gives the reason, and it has subordinate word order (jeg gerne vil): fordi. || @tags da.connectors,da.subordinate-clauses
+      fill: Jeg har boet i Tyskland i ti år. ___ taler jeg godt tysk. || Derfor || The second sentence is the result, and the verb comes before the subject (taler jeg): derfor. || @tags da.connectors,da.word-order
+      mc: Which sentence is correct? || *Vores kunder kommer fra Tyskland. Derfor taler vi tysk hver dag. | Vores kunder kommer fra Tyskland. Derfor vi taler tysk hver dag. | Vores kunder kommer fra Tyskland, fordi vi taler tysk hver dag. || Derfor is followed by the verb. The fordi-sentence turns the logic upside down: the customers don't come from Germany because the staff speak German. || @tags da.connectors,da.word-order
+      mc: "Jeg er vant til travlhed, ___ jeg har arbejdet i en lufthavn i fem år." || *fordi | derfor | så || The second part is the reason, so you need fordi. Derfor and så introduce a result, which doesn't make sense here. || @tags da.connectors
+      mc: What does "Jeg har ansvar for budgettet" mean? || *I'm responsible for the budget | I'm worried about the budget | I've answered questions about the budget || Have ansvar for = be responsible for. || @tags da.vocabulary
+      tf: Rafael has worked in logistics for six years. || true || "Jeg har arbejdet med logistik i seks år, først i Lissabon og så i Vejle." || @ctx dialogue
+      short: Why is Rafael applying for the job? || kw: ansvar/responsibility/responsible/koordinator/coordinator || He wants more responsibility: "Jeg vil gerne have mere ansvar, og derfor søger jeg en stilling som koordinator." || @ctx dialogue
+      listen: @dialogue || What does Rafael say is his biggest weakness? || *He finds it hard to say no | He is often late | He doesn't like meetings || "Jeg har svært ved at sige nej, så jeg har lært at prioritere bedre." || @tags da.listening
+      listen: Jeg hedder Mona, og jeg er uddannet sygeplejerske. Jeg har arbejdet på et hospital i Odense i otte år, men nu vil jeg gerne prøve noget nyt. || How long has Mona worked at the hospital? || Six years | *Eight years | Eighteen years || "I otte år" — for eight years. Eighteen would be atten. || @tags da.listening,da.perfect
+      rw: Rewrite with derfor :: Jeg søger jobbet, fordi jeg elsker at arbejde med børn. || Jeg elsker at arbejde med børn. Derfor søger jeg jobbet. | Jeg elsker at arbejde med børn, og derfor søger jeg jobbet. | Jeg elsker at arbejde med børn, derfor søger jeg jobbet. || With derfor, the reason comes first and the result after it, with the verb straight after derfor: Derfor søger jeg… || @tags da.connectors,da.word-order
+      order: Jeg taler fire sprog, så jeg kan hjælpe mange forskellige kunder. || I speak four languages, so I can help many different customers. || @tags da.connectors
+      tr: I'm applying for the position because I would like more responsibility. || Jeg søger stillingen, fordi jeg gerne vil have mere ansvar. | Jeg søger stillingen, fordi jeg vil have mere ansvar. | Jeg søger jobbet, fordi jeg gerne vil have mere ansvar. | Jeg søger jobbet, fordi jeg vil have mere ansvar. || Søge = apply for; "would like" = vil gerne have. After fordi: subject + verb. || @tags da.connectors,da.subordinate-clauses
+      ask: The interviewer asks: "Hvorfor skulle vi vælge dig?" Give two reasons with fordi, derfor or så. || kw: fordi/derfor/så & erfaring/styrke/god til/motiveret/ansvar || I skal vælge mig, fordi jeg har fem års erfaring med kundeservice. Jeg er også god til at samarbejde, så jeg passer godt ind i et team.
+      write: Write the opening paragraph of a job application (4–5 sentences) — which job you're applying for, why, and what experience you have. || min=45 || req: søger | fordi/derfor/så | erfaring || Kære Helle Nielsen. Jeg søger stillingen som logistikkoordinator, som jeg så på jeres hjemmeside. Jeg har seks års erfaring med logistik fra Portugal og Danmark. I mit nuværende job har jeg ansvar for planlægningen af transporter, så jeg er vant til mange opgaver på én gang. Jeg vil gerne have mere ansvar, og derfor er stillingen hos jer perfekt for mig.
+      dict: Jeg har seks års erfaring, og derfor søger jeg en stilling med mere ansvar.
+
+  - title: Emails and meetings
+    summary: Read and write work emails in a neutral, polite register, and use the words you need for meetings — dagsorden, referat, deltage.
+    minutes: 45
+    skills: [reading, writing, vocabulary]
+    tags: [da.formal-writing, da.register]
+    objectives:
+      - Choose the right opening, closing and form of "you" in a work email
+      - Use formal words and fixed phrases such as modtage, bekræfte and vedhæftet finder du
+      - Understand a meeting summary and say that you can't attend
+    intro: |
+      Danish work emails are short and direct, and they often start with a simple *Hej*. But there are still unwritten rules: when to write *Kære*, how to end politely, and why *De* (formal you) is almost never right. In this lesson you will read a meeting summary and a reply, and learn the phrases that make your work emails sound natural.
+    vocab: |
+      en mail | an email | n | Tak for din mail. | Thank you for your email. | g: c | pl: mails | n: Also written en e-mail.
+      et møde | a meeting | n | Vi har møde hver mandag klokken ni. | We have a meeting every Monday at nine. | g: n | pl: møder | c: holde et møde (hold a meeting)
+      en dagsorden | an agenda | n | Hvad står der på dagsordenen i dag? | What's on the agenda today? | g: c | pl: dagsordener | n: The g is silent.
+      et referat | minutes (of a meeting) | n | Hvem skriver referat i dag? | Who's taking the minutes today? | g: n | pl: referater
+      deltage | to take part; to attend | v | Desværre kan jeg ikke deltage i mødet på torsdag. | Unfortunately I can't attend the meeting on Thursday. | c: deltage i noget | n: Irregular: deltog, har deltaget.
+      vedhæftet | attached | adj | Vedhæftet finder du mit CV. | Please find my CV attached. | n: From vedhæfte (to attach). Vedhæftet finder du… is a fixed phrase.
+      modtage | to receive | v | Vi har modtaget din ansøgning. | We have received your application. | n: More formal than få. Irregular: modtog, har modtaget.
+      bekræfte | to confirm | v | Kan du bekræfte tidspunktet for mødet? | Can you confirm the time of the meeting? | n: Past: bekræftede.
+      et forslag | a suggestion; a proposal | n | Har nogen et forslag til en dato? | Does anyone have a suggestion for a date? | g: n | pl: forslag
+      give besked | to let someone know | expr | Giv mig besked, hvis du ikke kan komme. | Let me know if you can't come. | n: En besked = a message.
+      senest | at the latest | adv | Send mig dine kommentarer senest fredag. | Send me your comments by Friday at the latest.
+      vende tilbage | to get back (to someone) | expr | Jeg vender tilbage, når jeg har talt med min chef. | I'll get back to you when I've talked to my manager. | n: Past: vendte tilbage.
+      med venlig hilsen | best regards; yours sincerely | expr | Med venlig hilsen, Signe Mortensen | Best regards, Signe Mortensen | n: Shortened to Mvh in quick emails.
+    grammar:
+      title: "Neutral and formal register at work"
+      body: |
+        Danish work emails are less formal than English or German ones, but a message to a customer, a manager you don't know or a public office still sounds different from a text to a friend.
+
+        **Openings.** *Kære Jonas* (Dear Jonas) is polite and warm. *Hej Jonas* is fine with colleagues and most work contacts, and *Hej alle* or *Kære alle* works for groups. *Til rette vedkommende* (To whom it may concern) sounds old-fashioned.
+
+        **Closings.** *Med venlig hilsen* (or *Venlig hilsen*, *Mvh*) is the neutral standard. *Hilsen* and *Mange hilsner* are friendlier; *Knus* and *Kram* are only for friends and family.
+
+        **You.** Use **du** — also with customers and managers — and **I** for several people. **De** (formal you) is very rare and can sound distant or old-fashioned.
+
+        **Formal words.** Written work Danish often prefers *modtage* to *få*, *ønske at* to *gerne ville*, and uses *bekræfte* (confirm) and *oplyse* (inform). Fixed phrases: *Tak for din mail*, *Vedhæftet finder du…*, *Jeg ser frem til at høre fra dig*, *Jeg vender tilbage*.
+
+        **Requests.** *Venligst* (please) can sound like an order. Danes usually prefer a question: *Kan du sende mig referatet?* rather than *Send venligst referatet.* Remember V2 after a first element like *Vedhæftet*: *Vedhæftet **finder du**…*
+      table: |
+        Everyday | Neutral or formal | Meaning
+        Hej Mette | Kære Mette | Dear Mette
+        Hilsen / Knus | Med venlig hilsen | Best regards
+        få | modtage | receive
+        vil gerne | ønsker at | would like to
+        Her er … | Vedhæftet finder du … | Please find … attached
+        Jeg skriver igen | Jeg vender tilbage | I'll get back to you
+      examples: |
+        Tak for din mail. Jeg vender tilbage i løbet af ugen. | Thank you for your email. I'll get back to you during the week. | two fixed phrases
+        Vedhæftet finder du referatet fra mødet i tirsdags. | Please find attached the minutes from Tuesday's meeting. | V2 after vedhæftet
+        Jeg kan hermed bekræfte, at vi har modtaget din ansøgning. | I can hereby confirm that we have received your application. | formal: hermed, bekræfte, modtage
+        Kan du give mig besked senest fredag? | Could you let me know by Friday at the latest? | a request as a question
+      tip: "When in doubt, write Kære + first name, use du, and end with Med venlig hilsen + your full name. That is never wrong."
+    reading:
+      title: Referat fra mødet om sommerfesten
+      text: |
+        Emne: Referat fra mødet om sommerfesten
+
+        Kære alle
+
+        Tak for et godt og effektivt møde i går. Her er et kort referat af det, vi besluttede.
+
+        1. Vi holder sommerfesten fredag den 20. juni kl. 15–22 i kantinen og i gården.
+        2. Ahmed undersøger priser på mad hos tre forskellige firmaer og giver besked senest den 15. maj.
+        3. Vi ønsker at invitere vores pensionerede kolleger. Karen laver en liste over navne og adresser.
+        4. Budgettet er 400 kr. pr. person. Hvis vi får brug for flere penge, tager jeg det op med ledelsen.
+
+        Vedhæftet finder I et udkast til invitationen. Vil I være søde at læse det igennem og sende mig jeres kommentarer senest fredag?
+
+        Vi mødes igen torsdag den 22. maj kl. 9.00 i mødelokale 3. Hvis I ikke kan deltage, må I meget gerne give mig besked.
+
+        Med venlig hilsen
+        Signe Mortensen
+        HR-konsulent
+
+        Svar fra Ahmed:
+
+        Hej Signe
+
+        Tak for referatet. Jeg har allerede fået to tilbud, så du hører fra mig i næste uge. Invitationen ser rigtig fin ud. Jeg har kun en lille kommentar: Kan vi skrive, at børn også er velkomne?
+
+        Hilsen Ahmed
+      translation: |
+        Subject: Minutes of the meeting about the summer party
+
+        Dear all
+
+        Thank you for a good and efficient meeting yesterday. Here is a short summary of what we decided.
+
+        1. We will hold the summer party on Friday 20 June from 3 to 10 p.m. in the canteen and the courtyard.
+        2. Ahmed will look into food prices at three different companies and let us know by 15 May at the latest.
+        3. We would like to invite our retired colleagues. Karen will make a list of names and addresses.
+        4. The budget is 400 kroner per person. If we need more money, I will take it up with the management.
+
+        Please find attached a draft of the invitation. Would you be kind enough to read it through and send me your comments by Friday at the latest?
+
+        We will meet again on Thursday 22 May at 9 a.m. in meeting room 3. If you can't attend, please let me know.
+
+        Best regards
+        Signe Mortensen
+        HR consultant
+
+        Reply from Ahmed:
+
+        Hi Signe
+
+        Thanks for the minutes. I've already received two quotes, so you'll hear from me next week. The invitation looks really nice. I just have one small comment: can we write that children are welcome too?
+
+        Best, Ahmed
+    pronunciation:
+      title: "The soft d in meeting words"
+      body: |
+        After a vowel, a written d is often the soft Danish d — a relaxed sound made with the tip of the tongue behind the lower teeth, close to the "th" in English *this*. You hear it in *med*, *ved*, *mødet* and *tidspunkt*.
+
+        In the fixed phrase *Med venlig hilsen*, *med* is quick and unstressed, and the g in *venlig* is silent: "með VEN-li HIL-sen". In *vedhæftet*, the first d is soft and the h is clearly pronounced. Listen and repeat, then say the full sentences.
+      items: |
+        med
+        ved
+        mødet
+        tidspunkt
+        Med venlig hilsen
+        Vedhæftet finder du referatet.
+    culture:
+      title: Danish email and meeting culture
+      body: |
+        Many Danes write short, direct emails and start with *Hej* + first name — even to their manager. Long, very polite introductions can seem unnecessary. What matters is a clear subject line, a clear request and a friendly tone.
+
+        Meetings usually start on time and follow a **dagsorden** that is sent out in advance. Someone writes a **referat**, and everyone — also new and junior staff — is expected to give their opinion. Coffee, and often a piece of cake on Fridays, is part of the meeting culture in many workplaces.
+    mistakes: |
+      Vedhæftet du finder referatet. => Vedhæftet finder du referatet. | Vedhæftet is the first element, so the verb comes next (V2).
+      Jeg kan ikke deltage mødet. => Jeg kan ikke deltage i mødet. | Deltage needs the preposition i.
+      Kan De sende mig referatet? (to a colleague) => Kan du sende mig referatet? | De is very rare and sounds distant. Use du with colleagues, customers and managers.
+    task:
+      title: After the meeting
+      mode: writing
+      body: |
+        Write an email to your team after a meeting: thank them, sum up two decisions, attach the agenda for the next meeting and ask for comments by a deadline. Use Kære alle or Hej alle, at least two fixed phrases from this lesson and Med venlig hilsen. Then practise giving an update in the "Taking part in a business meeting" scenario with the AI coach.
+    exercises: |
+      fill: Vedhæftet ___ du referatet fra mødet. (finde) || finder || Vedhæftet is the first element, so the verb comes next, before du. || @tags da.formal-writing,da.word-order
+      fill: Desværre kan jeg ikke deltage ___ mødet på torsdag. || i || Deltage always takes i: deltage i et møde. || @tags da.prepositions-place
+      mc: Which closing fits an email to a customer you have never met? || *Med venlig hilsen | Kram | Ses! || Med venlig hilsen is the neutral, polite closing. Kram (hugs) and Ses! (see you) are for friends. || @tags da.formal-writing
+      mc: Which word is the more formal alternative to "få" in "Vi har fået din ansøgning"? || *modtaget | taget | hentet || Modtage (receive) is the formal word: Vi har modtaget din ansøgning. || @tags da.formal-writing,da.vocabulary
+      mc: You email a colleague you don't know well. Which request sounds most natural in Danish? || *Kan du sende mig referatet inden fredag? | Send venligst referatet inden fredag. | Kan De sende mig referatet inden fredag? || Danes usually ask with a question and use du. Venligst can sound like an order, and De sounds distant. || @tags da.register,da.formal-writing
+      tf: The summer party will be held in the canteen and in the courtyard. || true || "Vi holder sommerfesten … i kantinen og i gården." || @ctx reading
+      mc: What should the colleagues do by Friday? || *Send comments on the draft invitation | Pay 400 kroner each | Find three food companies || "Vil I være søde at læse det igennem og sende mig jeres kommentarer senest fredag?" || @ctx reading @skill reading @tags da.reading
+      short: What does Ahmed want to add to the invitation? || kw: børn/children/kids || He wants to write that children are welcome too: "Kan vi skrive, at børn også er velkomne?" || @ctx reading
+      listen: Hej Signe, det er Karen. Jeg kan desværre ikke deltage i mødet på torsdag, fordi jeg er på kursus. Jeg sender mine kommentarer på mail i stedet. || Why can't Karen come to the meeting? || *She is on a course | She is ill | She is on holiday || "Fordi jeg er på kursus" — because I'm on a course. || @tags da.listening
+      rw: Make it more formal :: Vi har fået din ansøgning. || Vi har modtaget din ansøgning. || Modtage is the formal word for få: få → modtage, har fået → har modtaget. || @tags da.formal-writing
+      order: Jeg ser frem til at høre fra dig. || I look forward to hearing from you. || @tags da.formal-writing
+      tr: Thank you for your email. I'll get back to you on Monday. || Tak for din mail. Jeg vender tilbage på mandag. | Tak for din mail. Jeg vender tilbage mandag. | Tak for din e-mail. Jeg vender tilbage på mandag. | Tak for mailen. Jeg vender tilbage på mandag. || Two fixed phrases: Tak for din mail and Jeg vender tilbage. || @tags da.formal-writing
+      say: Kan vi gå videre til næste punkt på dagsordenen? || Can we move on to the next item on the agenda?
+      write: Write an email (5–7 sentences) to a colleague you don't know well. You can't attend Thursday's meeting: explain why, ask for the minutes and suggest another time to talk. || min=50 || req: Kære/Hej | deltage | referat | Med venlig hilsen/Venlig hilsen/Mvh || Kære Signe. Tak for invitationen til mødet på torsdag. Desværre kan jeg ikke deltage, fordi jeg er til en konference i Aalborg. Vil du være sød at sende mig referatet bagefter? Jeg vil også gerne høre mere om budgettet. Kunne vi tale sammen i telefonen på mandag formiddag? Med venlig hilsen Karim Haddad
+      dict: Kan du bekræfte tidspunktet for næste møde?
+
+  - title: Changing careers
+    summary: Talk about changing careers, taking a risk and following a dream — and express contrast with selvom and alligevel.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [da.connectors, da.subordinate-clauses, da.word-order]
+    objectives:
+      - Talk about changing jobs, retraining and taking risks
+      - Express contrast with selvom (subordinate clause) and alligevel (adverb)
+      - Choose between selvom and fordi
+    intro: |
+      More and more Danes change careers in the middle of their working lives — the bank adviser who becomes a carpenter, the engineer who becomes a teacher. Stories like these are full of contrasts: *I did it, even though it was risky.* In this lesson you will listen to a podcast interview with a career changer and learn to express contrast with **selvom** and **alligevel**.
+    vocab: |
+      skifte karriere | to change careers | expr | Som 45-årig besluttede hun at skifte karriere. | At 45 she decided to change careers. | n: Also skifte job, skifte branche (change industry).
+      sige op | to resign; to quit | v | Jeg sagde op i marts og startede på en ny uddannelse. | I quit in March and started a new course of study. | n: A particle verb. Past: sagde op. To be fired = blive fyret.
+      en efteruddannelse | further training | n | Firmaet betaler for min efteruddannelse. | The company pays for my further training. | g: c | pl: efteruddannelser
+      en branche | an industry; a sector | n | Jeg har arbejdet i hotelbranchen i tyve år. | I've worked in the hotel industry for twenty years. | g: c | pl: brancher | n: Pronounced the French way: "BRANG-she".
+      selvstændig | self-employed | adj | Nu er jeg selvstændig og har mit eget firma. | Now I'm self-employed and have my own company. | n: Also means independent. The v, the d and the g are silent.
+      en drøm | a dream | n | Det har altid været min drøm at blive tømrer. | It has always been my dream to become a carpenter. | g: c | pl: drømme | c: drømme om noget (dream of something)
+      tryg | safe; secure | adj | Mit gamle job var trygt, men kedeligt. | My old job was secure, but boring. | n: With et-words: trygt. En tryghed = security.
+      en risiko | a risk | n | Det var en stor risiko at sige op. | It was a big risk to quit. | g: c | pl: risici / risikoer | c: tage en risiko (take a risk)
+      turde | to dare | v | Jeg turde ikke sige op i mange år. | For many years I didn't dare to quit. | n: Present: tør; past: turde. Like a modal verb, it takes the infinitive without at.
+      kede sig | to be bored | v | Jeg kedede mig mere og mere på kontoret. | I was more and more bored at the office. | n: Reflexive: jeg keder mig, hun keder sig.
+      selvom | although; even though | conj | Selvom jeg tjente godt, var jeg ikke glad. | Although I earned well, I wasn't happy. | n: Also written selv om. The main verb comes right after the comma.
+      alligevel | anyway; still; all the same | adv | Det var svært, men jeg gjorde det alligevel. | It was hard, but I did it anyway.
+      fortryde | to regret | v | Jeg har aldrig fortrudt det. | I've never regretted it. | n: Irregular: fortrød, har fortrudt.
+    grammar:
+      title: "Selvom and alligevel"
+      body: |
+        To express contrast — something happens although you might expect the opposite — Danish uses **selvom** and **alligevel**.
+
+        **Selvom** (although, even though) starts a subordinate clause: subject before the verb, ikke before the verb — *selvom jeg **ikke havde** erfaring*. The selvom-clause can come second or first: *Jeg sagde op, selvom lønnen var god.* · *Selvom lønnen var god, **sagde jeg** op.* When it comes first, the main verb follows straight after the comma.
+
+        **Alligevel** (anyway, still, all the same) is an adverb in the main clause. At the start of the sentence it is followed by the verb: *Lønnen var god. **Alligevel sagde jeg** op.* It can also stand after the verb or at the end: *Jeg sagde alligevel op.* · *Jeg gjorde det alligevel.*
+
+        For extra emphasis you can use both: *Selvom det var en stor risiko, gjorde jeg det **alligevel**.*
+
+        **Selvom or fordi?** Fordi gives the reason you would expect; selvom gives the surprise: *Jeg blev, fordi lønnen var god.* · *Jeg sagde op, selvom lønnen var god.* Both spellings, *selvom* and *selv om*, are correct.
+      table: |
+        Word | Word order | Example
+        selvom (second) | subject + (ikke) + verb | Jeg søgte jobbet, selvom jeg ikke havde erfaring.
+        selvom (first) | verb right after the comma | Selvom jeg ikke havde erfaring, fik jeg jobbet.
+        alligevel (first) | verb + subject (V2) | Alligevel fik jeg jobbet.
+        alligevel (inside) | after the verb | Jeg fik alligevel jobbet.
+      examples: |
+        Selvom jeg var glad for mine kolleger, sagde jeg op efter tolv år. | Although I liked my colleagues, I quit after twelve years. | selvom first: the verb right after the comma
+        Hun startede et firma, selvom hun ikke havde mange penge. | She started a company even though she didn't have much money. | ikke before the verb
+        Det var en stor risiko. Alligevel fortryder jeg ingenting. | It was a big risk. Still, I don't regret anything. | alligevel + verb + subject
+        Selvom uddannelsen var hård, gennemførte han den alligevel. | Although the course was hard, he completed it anyway. | both in one sentence
+      tip: "Selvom gives the surprise, fordi gives the reason. And after a selvom-clause at the start, put the verb first."
+    dialogue:
+      title: Nyt kapitel
+      setting: A recording of the podcast "Nyt kapitel" (New chapter). The host, Vibeke, talks to Morten, who left his job in a bank to become a carpenter.
+      speakers: V=Vibeke/f; M=Morten/m
+      lines: |
+        V: Velkommen til "Nyt kapitel". I dag taler jeg med Morten, som var bankrådgiver i tyve år. | Welcome to "New chapter". Today I'm talking to Morten, who was a bank adviser for twenty years.
+        V: Morten, hvorfor sagde du op, da du var 46? | Morten, why did you quit when you were 46?
+        M: Jeg var glad for mine kolleger, men jeg kedede mig mere og mere. | I liked my colleagues, but I was more and more bored.
+        V: Var det ikke en stor risiko? Du havde jo et trygt job. | Wasn't it a big risk? After all, you had a secure job.
+        M: Jo. Selvom jeg drømte om at blive tømrer, turde jeg ikke i mange år. | Yes. Even though I dreamt of becoming a carpenter, I didn't dare for many years.
+        V: Hvordan var det at blive elev igen, da du var over fyrre? | What was it like to become an apprentice again when you were over forty?
+        M: Hårdt! Mine klassekammerater var tyve år yngre, men de tog godt imod mig. | Hard! My classmates were twenty years younger, but they welcomed me.
+        V: Og i dag er du selvstændig. Tjener du ikke mindre end i banken? | And today you're self-employed. Don't you earn less than at the bank?
+        M: Jo, meget mindre. Alligevel har jeg aldrig fortrudt det et eneste sekund. | Yes, much less. Still, I've never regretted it for a single second.
+        V: Hvad er dit bedste råd til lyttere, der overvejer at skifte karriere? | What's your best advice to listeners who are thinking about changing careers?
+        M: Tal med nogen, der har gjort det. Og vent ikke tyve år, som jeg gjorde. | Talk to someone who has done it. And don't wait twenty years like I did.
+    pronunciation:
+      title: "Selv, selvom, selvstændig: the silent v"
+      body: |
+        In **selv** (self, even) the v is silent, and the word sounds like "sel" with a little catch in the voice — the stød. The v stays silent in all the words built on it: *selvom* ("sel-om"), *selvfølgelig* ("sel-føl-ye-li") and *selvstændig*.
+
+        *Selvstændig* has three silent letters: the v, the d (after n) and the g (in -ig): "SEL-stæn-di". Listen to the items, repeat them slowly, and then say the sentence at normal speed.
+      items: |
+        selv
+        selvom
+        selvfølgelig
+        selvstændig
+        Selvom det var svært, fortryder jeg ingenting.
+    culture:
+      title: Changing careers in Denmark
+      body: |
+        Changing jobs is common in Denmark, and it is not unusual to change careers completely in your forties or fifties. Adult education and further training (**voksen- og efteruddannelse**) is a well-developed part of the education system, and many employers pay for courses for their staff.
+
+        Adults over 25 who want to learn a trade can train as a **voksenlærling** (adult apprentice), combining school and paid work, just like Morten. Unemployment insurance funds (**a-kasser**) and job centres also offer advice to people who want to switch to a new field.
+    mistakes: |
+      Selvom jeg var træt, jeg gik på arbejde. => Selvom jeg var træt, gik jeg på arbejde. | After a selvom-clause at the start, the main verb comes straight after the comma.
+      …, selvom jeg havde ikke tid. => …, selvom jeg ikke havde tid. | In a selvom-clause, ikke goes before the verb.
+      Alligevel jeg fortryder det ikke. => Alligevel fortryder jeg det ikke. | Alligevel at the start is followed by the verb (V2).
+    task:
+      title: Would you dare?
+      mode: speaking
+      body: |
+        Imagine you could start a completely new career tomorrow. Prepare six or seven sentences: what you do now (or did before), what you dream of, what the risks are, and why you would — or wouldn't — do it anyway. Use selvom and alligevel at least once each. Then discuss the question in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: Jeg sagde op, ___ lønnen var god. || selvom / selv om || The good salary is a reason to stay, so quitting is a surprise: selvom. || @tags da.connectors,da.subordinate-clauses
+      fill: Det regnede hele dagen. ___ cyklede vi til stranden. || Alligevel || Cycling to the beach in the rain is a surprise, and the verb comes straight after the gap (cyklede vi): alligevel. || @tags da.connectors,da.word-order
+      mc: Which sentence is correct? || *Selvom jeg ikke havde erfaring, fik jeg jobbet. | Selvom jeg havde ikke erfaring, fik jeg jobbet. | Selvom jeg ikke havde erfaring, jeg fik jobbet. || In the selvom-clause, ikke comes before the verb; after the clause, the main verb comes first: fik jeg. || @tags da.connectors,da.word-order
+      mc: "Jeg blev i mit gamle job, ___ lønnen var god." || *fordi | selvom | alligevel || A good salary is the reason for staying, so you need fordi. Alligevel is an adverb and can't introduce a clause like this. || @tags da.connectors
+      mc: "Jeg turde ikke sige op" means… || *I didn't dare to quit | I didn't need to quit | I didn't try to quit || Turde = dared (past of tør). || @tags da.vocabulary,da.modal-verbs
+      tf: Morten was a bank adviser for twenty years. || true || "Morten, som var bankrådgiver i tyve år." || @ctx dialogue
+      short: What did Morten dream of becoming? || kw: tømrer/carpenter || "Selvom jeg drømte om at blive tømrer, turde jeg ikke i mange år." || @ctx dialogue
+      listen: @dialogue || How does Morten feel about his decision today? || *He has never regretted it | He sometimes regrets it | He wants to go back to the bank || "Alligevel har jeg aldrig fortrudt det et eneste sekund." || @tags da.listening
+      listen: Selvom min mand var nervøs, tog han en efteruddannelse som 50-årig. Nu er han leder på et plejehjem. || What is the husband's job now? || *He manages a care home | He is a nurse at a hospital | He teaches at a school || "Nu er han leder på et plejehjem" — leder = manager, et plejehjem = a care home. || @tags da.listening,da.connectors
+      rw: Join the sentences with selvom :: Jeg var træt. Jeg tog til fodbold. || Selvom jeg var træt, tog jeg til fodbold. | Jeg tog til fodbold, selvom jeg var træt. | Selv om jeg var træt, tog jeg til fodbold. | Jeg tog til fodbold, selv om jeg var træt. || Selvom goes before the surprising contrast (being tired). If the clause comes first, the verb follows the comma: tog jeg. || @tags da.connectors,da.word-order
+      rw: Rewrite with alligevel :: Selvom det var svært, fortsatte hun. || Det var svært. Alligevel fortsatte hun. | Det var svært, men hun fortsatte alligevel. | Det var svært, men alligevel fortsatte hun. || Alligevel at the start takes V2 (fortsatte hun); it can also go at the end. || @tags da.connectors,da.word-order
+      tr: Although it was a risk, I don't regret it. || Selvom det var en risiko, fortryder jeg det ikke. | Jeg fortryder det ikke, selvom det var en risiko. | Selv om det var en risiko, fortryder jeg det ikke. | Jeg fortryder det ikke, selv om det var en risiko. || After the selvom-clause the verb comes first: fortryder jeg det ikke. || @tags da.connectors,da.word-order
+      ask: Tell a friend about a big decision you made even though it was difficult. Use selvom and alligevel. || kw: selvom/selv om & alligevel || Selvom jeg ikke talte dansk, flyttede jeg til Aalborg for tre år siden. Det var svært i starten, men jeg fortryder det alligevel ikke.
+      write: Write a forum post (5–7 sentences) answering the question "Ville du skifte karriere som 45-årig?" Give your opinion with reasons. || min=50 || req: selvom/selv om | alligevel | fordi/derfor || Ja, det ville jeg godt. Jeg er glad for mit job som revisor, men jeg drømmer om at arbejde med dyr. Selvom det er en risiko, tror jeg, at det er vigtigt at følge sine drømme. Det er selvfølgelig svært, fordi man tjener mindre som elev. Alligevel synes jeg, at det er det værd. Man lever kun én gang!
+      dict: Selvom jeg tjente godt, var jeg ikke glad for mit job.

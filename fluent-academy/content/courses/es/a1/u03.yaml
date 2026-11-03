@@ -1,0 +1,362 @@
+unit: 3
+title: Un día normal
+theme: Time and daily routine
+description: Tell the time, describe your daily routine with regular and reflexive verbs, and say which days and how often you do things.
+objectives:
+  - Ask and tell the time, and say when things happen
+  - Describe a daily routine with regular and reflexive verbs in the present
+  - Talk about days of the week and how often you do things
+canDo:
+  - I can ask what time it is and understand the answer.
+  - I can say what time I get up, eat and go to bed.
+  - I can describe a typical weekday and weekend.
+  - I can say how often I do something (siempre, a veces, nunca…).
+review: |
+  mc: "It's quarter past one" is… || *Es la una y cuarto. | Son las una y cuarto. | Es una y cuarto. || One o'clock is singular and needs the article: es la una. || @tags es.time
+  fill: Mi hermano se ___ (levantarse) a las seis. || levanta || Él + levantarse = se levanta. || @tags es.reflexive
+  fill: Vosotros ___ (vivir) en Bilbao, ¿no? || vivís || Vosotros + vivir = vivís (-ir verbs end in -ís). || @tags es.present-regular
+  fill: ¿A qué hora ___ (cenar) tú normalmente? || cenas || Tú + cenar = cenas. || @tags es.present-regular
+  mc: Choose the correct sentence. || Los domingos nunca no trabajo. | *Los domingos nunca trabajo. | Los domingos trabajo no nunca. || Nunca before the verb doesn't take no. || @tags es.frequency,es.negation
+  tr: I get up at seven and have a shower. || Me levanto a las siete y me ducho. | Me levanto a las siete y luego me ducho. | Me levanto a las siete y después me ducho. || Both verbs are reflexive: me levanto, me ducho. || @tags es.reflexive,es.time
+  tr: On Saturdays we have lunch with our grandparents. || Los sábados comemos con nuestros abuelos. | Comemos con nuestros abuelos los sábados. || Habit on a day: los sábados; nosotros + comer = comemos. || @tags es.dates,es.present-regular
+  listen: La biblioteca abre de lunes a viernes, de nueve a ocho. || When is the library open? || *Monday to Friday, 9 to 8 | Monday to Saturday, 9 to 8 | Monday to Friday, 8 to 9 || De lunes a viernes = Monday to Friday; de nueve a ocho = from 9 to 8. || @tags es.dates
+  listen: Perdona, ¿qué hora es? Son las doce menos cuarto. || What time is it? || 12:15 | *11:45 | 12:45 || Las doce menos cuarto = quarter to twelve (11:45). || @tags es.time
+  ask: Describe your typical Saturday — when you get up, when you eat and when you go to bed. || kw: me levanto & como/ceno/desayuno & me acuesto || Los sábados me levanto a las diez, desayuno tranquilamente, como a las tres y me acuesto a la una.
+  write: Write an email to a language partner about your weekdays and your weekend. || min=35 || req: me levanto | a las | los sábados/los domingos/el fin de semana | normalmente/siempre/a veces/nunca || ¡Hola, Teo! De lunes a viernes me levanto a las siete y trabajo en una oficina. Como a las dos y ceno a las nueve. El fin de semana me levanto tarde. Los sábados siempre como con mis padres y a veces ceno con amigos. ¿Y tú?
+lessons:
+  - title: Telling the time
+    summary: Ask and say what time it is, and say when things happen with a la / a las.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [es.time]
+    objectives:
+      - Ask and say what time it is
+      - Use y, menos, cuarto and media
+      - Say when something happens with a la / a las
+    intro: |
+      Times are part of every plan: classes, trains, meetings, dinner with friends. Spanish tells the time with **es la una** and **son las dos, las tres…**, adds minutes with **y** and takes them away with **menos**. And because the Spanish day runs late, *de la tarde* can still be 8 p.m.!
+    vocab: |
+      ¿qué hora es? | what time is it? | expr | Perdona, ¿qué hora es? | Excuse me, what time is it? | n: Formal: Perdone, ¿qué hora es?
+      es la una | it's one o'clock | expr | Es la una y diez. | It's ten past one. | n: Only one o'clock uses es la; all other hours use son las.
+      son las… | it's … o'clock | expr | Son las cuatro en punto. | It's four o'clock exactly. | c: en punto (exactly, sharp)
+      y cuarto | quarter past | expr | Son las nueve y cuarto. | It's quarter past nine.
+      y media | half past | expr | Son las seis y media. | It's half past six.
+      menos cuarto | quarter to | expr | Son las ocho menos cuarto. | It's quarter to eight. | n: Spanish says the next hour minus the minutes: las ocho menos cuarto = 7:45.
+      ¿a qué hora…? | (at) what time…? | expr | ¿A qué hora es la clase? | What time is the class?
+      a las… | at … o'clock | expr | El tren sale a las siete. | The train leaves at seven. | n: At one o'clock: a la una.
+      de la mañana | in the morning (a.m.) | expr | Abro la tienda a las nueve de la mañana. | I open the shop at nine in the morning.
+      de la tarde | in the afternoon/evening (p.m.) | expr | La reunión es a las cinco de la tarde. | The meeting is at five in the afternoon. | n: In Spain la tarde lasts until about 8–9 p.m.
+      de la noche | at night | expr | Ceno a las diez de la noche. | I have dinner at ten at night.
+      el mediodía | midday, noon | n | Son las doce del mediodía. | It's twelve noon. | g: m | n: In Spain, a mediodía often means lunchtime (around 2 p.m.).
+      la medianoche | midnight | n | La tienda abre hasta medianoche. | The shop is open until midnight. | g: f
+      tarde | late | adv | Lo siento, llego tarde. | Sorry, I'm late. | n: Early is pronto (Spain) or temprano.
+    grammar:
+      title: Telling the time
+      body: |
+        To ask the time, say **¿Qué hora es?** The answer uses **ser** and the feminine article (the word *hora* is understood):
+
+        - **Es la una** for one o'clock — singular.
+        - **Son las dos, son las tres…** for every other hour — plural.
+
+        Add minutes with **y** up to half past, and take them away from the **next** hour with **menos** after half past: *las cinco y diez* (5:10), *las seis menos diez* (5:50). A quarter is **cuarto**, half is **media**, and *exactly* is **en punto**.
+
+        To say **when** something happens, use **a la / a las**: *¿A qué hora es el concierto? — A las diez.* Instead of a.m. and p.m., add **de la mañana, de la tarde, de la noche**.
+
+        Timetables, stations and the radio often use the 24-hour clock: *las 17:30* is read *las diecisiete treinta*.
+      table: |
+        Time | In Spanish
+        1:00 | Es la una (en punto).
+        2:05 | Son las dos y cinco.
+        3:15 | Son las tres y cuarto.
+        4:30 | Son las cuatro y media.
+        5:40 | Son las seis menos veinte.
+        6:45 | Son las siete menos cuarto.
+        12:00 | Son las doce (del mediodía / de la noche).
+      examples: |
+        ¿Qué hora es? Son las diez y media. | What time is it? It's half past ten.
+        La clase es a la una y cuarto. | The class is at quarter past one.
+        La farmacia abre a las nueve y media. | The pharmacy opens at half past nine.
+        El concierto es a las diez de la noche. | The concert is at ten at night.
+      tip: "Use es la / son las to say what time it is now, and a la / a las to say when something happens."
+    dialogue:
+      title: ¡Llego tarde!
+      setting: A weekday morning in a shared flat in Barcelona. Marina is in a hurry; her flatmate Pau is having breakfast.
+      speakers: M=Marina/f; P=Pau/m
+      lines: |
+        M: Pau, ¿qué hora es? | Pau, what time is it?
+        P: Son las ocho menos cuarto. | It's quarter to eight.
+        M: ¡Uf! Mi clase es a las ocho y media. | Ugh! My class is at half past eight.
+        P: Tranquila, el autobús pasa a las ocho. | Relax, the bus comes at eight.
+        M: ¿A qué hora terminas hoy? | What time do you finish today?
+        P: Termino a las tres de la tarde. ¿Y tú? | I finish at three in the afternoon. And you?
+        M: Yo, a la una y media. | Me, at half past one.
+        P: ¿Comemos juntos a las tres y cuarto? | Shall we have lunch together at quarter past three?
+        M: ¡Vale! En el bar de la esquina. | OK! At the bar on the corner.
+        P: ¡Marina, son las ocho menos cinco! | Marina, it's five to eight!
+        M: ¡Adiós, adiós! ¡Hasta luego! | Bye, bye! See you later!
+    pronunciation:
+      title: "Diphthongs: cuarto, nueve, seis"
+      body: |
+        When two vowels meet in one syllable, Spanish glides them together but **each vowel keeps its own clear sound**: *cuarto* [ˈkwaɾ.to], *nueve* [ˈnwe.βe], *seis* [sejs], *diez* [djeθ], *media* [ˈme.ðja].
+
+        Don't add extra sounds: *seis* is one syllable, not "say-ees", and the *ue* in *nueve* is a quick [we], as in English *wet*.
+      items: |
+        cuarto
+        media
+        nueve
+        seis
+        diez
+        siete
+    culture:
+      title: Why is everything so late?
+      body: |
+        Mainland Spain uses Central European Time — the same clock as Paris and Berlin — even though it lies as far west as the UK. The sun rises and sets late, and so do meals: lunch is usually between 2 and 3 p.m. and dinner between 9 and 10 p.m.
+
+        The Canary Islands are one hour behind the mainland, so the radio there says *una hora menos en Canarias* when it gives the time.
+    mistakes: |
+      Son la una. => Es la una. | One o'clock is singular: es la una.
+      Es las tres. => Son las tres. | From two o'clock on, use the plural: son las.
+      La clase es en las nueve. => La clase es a las nueve. | "At" a time is a + las: a las nueve.
+    task:
+      title: A busy day
+      mode: interaction
+      body: |
+        You are planning a day in Madrid with a friend: a museum, lunch and a film. Ask and answer *¿A qué hora…?* for each plan, and agree on a time to meet. Use *a las…* and *de la mañana / tarde / noche*. Practise with a partner or the AI coach in the "Talking about your day" scenario.
+    exercises: |
+      mc: 3:30 is… || Son las tres y cuarto. | *Son las tres y media. | Son las cuatro menos media. || Half past is y media: son las tres y media. || @tags es.time
+      mc: 6:45 is… || Son las seis menos cuarto. | *Son las siete menos cuarto. | Son las seis y cuarto. || After half past, count back from the next hour: las siete menos cuarto. || @tags es.time
+      fill: ___ la una y diez. || Es || One o'clock is singular: es la una. || @tags es.time
+      fill: Son ___ cinco de la tarde. || las || Hours from two upwards take las: son las cinco. || @tags es.time
+      fill: La clase es ___ las nueve. || a || "At" + time = a las. || @tags es.time,es.prepositions
+      match: 1:00 = Es la una. ; 2:15 = Son las dos y cuarto. ; 3:30 = Son las tres y media. ; 4:45 = Son las cinco menos cuarto. ; 5:50 = Son las seis menos diez. || 4:45 is "five minus a quarter" and 5:50 is "six minus ten". || @tags es.time
+      short: What time does Pau finish today? || kw: 3/tres/three || "Termino a las tres de la tarde." || @ctx dialogue
+      tf: Marina's class is at half past eight. || true || "Mi clase es a las ocho y media." || @ctx dialogue
+      tr: It's quarter past nine. || Son las nueve y cuarto. || Quarter past = y cuarto; nine is plural: son las nueve. || @tags es.time
+      tr: What time is the train? || ¿A qué hora es el tren? | ¿A qué hora sale el tren? || "At what time" = ¿a qué hora…? || @tags es.time,es.question-words
+      listen: El museo abre a las diez y cierra a las seis de la tarde. || When does the museum close? || 10 a.m. | *6 p.m. | 7 p.m. || Cierra a las seis de la tarde — it closes at 6 p.m. || @tags es.time
+      listen: Son las once menos veinte. || What time is it? || 11:20 | *10:40 | 11:40 || Las once menos veinte = twenty to eleven (10:40). || @tags es.time
+      dict: La reunión es a las cinco y media.
+      ask: Someone asks you "¿Qué hora es?". It's 7:45 p.m. Answer. || kw: ocho menos cuarto & tarde/noche || Son las ocho menos cuarto de la tarde.
+      say: ¿A qué hora es la clase de español? || What time is the Spanish class?
+
+  - title: My daily routine
+    summary: Describe your day with regular -ar, -er and -ir verbs and reflexive verbs like levantarse and ducharse.
+    minutes: 40
+    skills: [grammar, reading, writing]
+    tags: [es.reflexive, es.present-regular]
+    objectives:
+      - Conjugate regular -ar, -er and -ir verbs in the present
+      - Use reflexive verbs for your routine (me levanto, me ducho…)
+      - Describe a typical day in order with por la mañana, después…
+    intro: |
+      To describe your day you need the **present tense**. Most Spanish verbs are regular: learn three patterns (-ar, -er, -ir) and you can use hundreds of verbs. Many routine verbs are **reflexive** — *me levanto* (I get up), *me ducho* (I shower) — with a small pronoun before the verb.
+    vocab: |
+      levantarse | to get up | v | Me levanto a las siete. | I get up at seven.
+      despertarse | to wake up | v | Me despierto muy pronto. | I wake up very early. | n: e → ie: me despierto. You'll practise this pattern in Unit 4.
+      ducharse | to have a shower | v | Me ducho por la mañana. | I shower in the morning.
+      lavarse los dientes | to brush your teeth | expr | Me lavo los dientes después de comer. | I brush my teeth after lunch.
+      desayunar | to have breakfast | v | Desayuno café con tostadas. | I have coffee and toast for breakfast.
+      comer | to eat; to have lunch | v | Comemos a las dos y media. | We have lunch at half past two. | n: In Spain comer often means "to have lunch".
+      cenar | to have dinner | v | Cenamos a las nueve y media. | We have dinner at half past nine.
+      estudiar | to study | v | Estudio Derecho en la universidad. | I study Law at university.
+      leer | to read | v | Leo el periódico en el metro. | I read the newspaper on the metro.
+      escribir | to write | v | Escribo correos todo el día. | I write emails all day.
+      llegar a casa | to get home | expr | Llego a casa a las siete. | I get home at seven.
+      acostarse | to go to bed | v | Me acuesto a las once y media. | I go to bed at half past eleven. | n: o → ue: me acuesto (another Unit 4 pattern).
+      por la mañana | in the morning | expr | Por la mañana me ducho y desayuno. | In the morning I shower and have breakfast. | c: por la tarde; por la noche | n: With a clock time, use de: a las ocho de la mañana.
+      después | afterwards, then | adv | Desayuno y después me ducho. | I have breakfast and then I shower. | n: Also luego.
+    grammar:
+      title: "The present: regular and reflexive verbs"
+      body: |
+        Spanish verbs fall into three groups by their infinitive: **-ar** (*hablar*), **-er** (*comer*) and **-ir** (*vivir*). Take off the ending and add the person endings in the table. **-er** and **-ir** verbs share most endings — they differ only in *nosotros* and *vosotros* (*comemos / vivimos, coméis / vivís*).
+
+        **Reflexive verbs** have **-se** in the infinitive: *levantarse, ducharse*. They describe things you do to yourself. The pronoun (**me, te, se, nos, os, se**) goes **before** the conjugated verb: *me levanto, te duchas, se acuesta*. Some verbs change meaning: *llamar* (to call) / *llamarse* (to be called).
+
+        A few routine verbs also change their stem: *me despierto, me acuesto*. You will study this pattern in Unit 4.
+      table: |
+        Pronoun | hablar | comer | vivir | levantarse
+        yo | hablo | como | vivo | me levanto
+        tú | hablas | comes | vives | te levantas
+        él / ella / usted | habla | come | vive | se levanta
+        nosotros / nosotras | hablamos | comemos | vivimos | nos levantamos
+        vosotros / vosotras | habláis | coméis | vivís | os levantáis
+        ellos / ellas / ustedes | hablan | comen | viven | se levantan
+      examples: |
+        Me levanto a las siete y desayuno en casa. | I get up at seven and have breakfast at home.
+        ¿A qué hora te acuestas? | What time do you go to bed?
+        Mis hijos comen en el colegio. | My children have lunch at school.
+        Vivimos en Málaga y trabajamos en el centro. | We live in Málaga and work in the centre.
+      tip: "The yo form of almost every regular verb ends in -o: hablo, como, vivo, me levanto."
+    dialogue:
+      title: Un día en la panadería
+      setting: A local radio presenter in Burgos interviews Concha, a baker, about her working day. He uses usted.
+      speakers: A=Álex/m; C=Concha/f
+      lines: |
+        A: Concha, ¿a qué hora se levanta usted? | Concha, what time do you get up?
+        C: Me levanto a las cuatro de la mañana. | I get up at four in the morning.
+        A: ¡Qué pronto! ¿Desayuna en casa? | So early! Do you have breakfast at home?
+        C: No, desayuno en la panadería, a las seis. | No, I have breakfast at the bakery, at six.
+        A: ¿Y a qué hora abre la panadería? | And what time does the bakery open?
+        C: Abrimos a las siete y media. | We open at half past seven.
+        A: ¿Come usted en casa? | Do you have lunch at home?
+        C: Sí, como con mi marido a las dos. | Yes, I have lunch with my husband at two.
+        A: ¿Y por la tarde? | And in the afternoon?
+        C: Leo un poco y descanso. | I read a bit and rest.
+        A: ¿A qué hora se acuesta? | What time do you go to bed?
+        C: ¡Muy pronto! A las nueve de la noche. | Very early! At nine at night.
+    pronunciation:
+      title: "B and v: one sound"
+      body: |
+        In Spanish, **b** and **v** are pronounced exactly the same. At the start of a phrase or after **m** or **n**, they sound like English [b]: *Burgos, vivo* (at the start of a sentence).
+
+        Between vowels, the lips come close together but don't quite close, making a softer sound [β]: *levanto, bebo, abrimos*. Never use the English [v] with your teeth on your lip.
+      items: |
+        vivo
+        me levanto
+        vivimos
+        bebo
+        abrimos
+        Burgos
+    culture:
+      title: Spanish meal times
+      body: |
+        A typical Spanish day has several food breaks: a light **desayuno** (coffee and toast), sometimes a mid-morning snack, the main meal of the day, **la comida**, between 2 and 3 p.m., a **merienda** around 6 p.m. (especially for children) and **la cena** at 9 or 10 p.m.
+
+        And the famous **siesta**? Most people who work full-time don't have one on weekdays — but a short nap after Sunday lunch or on a hot summer afternoon is still popular.
+    mistakes: |
+      Levanto a las siete. => Me levanto a las siete. | Reflexive verbs need their pronoun: me levanto.
+      Nosotros comen a las dos. => Nosotros comemos a las dos. | The nosotros ending of -er verbs is -emos.
+      Mi hermano se levantar a las ocho. => Mi hermano se levanta a las ocho. | Conjugate the verb: él se levanta.
+    task:
+      title: A day in my life
+      mode: writing
+      body: |
+        Write a short post (5–6 sentences) for a language-exchange blog about a typical weekday: when you get up, what you have for breakfast, when you work or study, when you eat and when you go to bed. Use *por la mañana, después, por la tarde, por la noche* to put things in order.
+    exercises: |
+      fill: Yo me ___ a las siete. (levantarse) || levanto || Yo + levantarse = me levanto. || @tags es.reflexive
+      fill: ¿A qué hora ___ duchas tú? || te || With tú, the reflexive pronoun is te: te duchas. || @tags es.reflexive
+      fill: Nosotros ___ a las nueve. (cenar) || cenamos || Nosotros + cenar = cenamos (-ar verbs: -amos). || @tags es.present-regular
+      fill: ¿Vosotros ___ en la universidad? (comer) || coméis || Vosotros + comer = coméis (with an accent). || @tags es.present-regular
+      mc: Choose the correct sentence. || Levanto a las seis. | *Me levanto a las seis. | Me levanta a las seis. || Yo + levantarse = me levanto: pronoun me and ending -o. || @tags es.reflexive
+      mc: What time does Concha get up? || At 6 a.m. | *At 4 a.m. | At 7:30 a.m. || "Me levanto a las cuatro de la mañana." She has breakfast at six and opens at 7:30. || @ctx dialogue @skill reading @tags es.reading
+      tf: Concha has lunch at the bakery. || false || She has breakfast at the bakery; she has lunch at home with her husband at two. || @ctx dialogue
+      order: Mi hermana se ducha por la noche. || My sister showers at night. || @tags es.reflexive
+      rw: Write about your friend Luis :: Me levanto a las ocho y desayuno en casa. || Luis se levanta a las ocho y desayuna en casa. | Se levanta a las ocho y desayuna en casa. || Me → se, and the -o endings become -a: se levanta, desayuna. || @tags es.reflexive,es.present-regular
+      tr: We have dinner at half past nine. || Cenamos a las nueve y media. | Nosotros cenamos a las nueve y media. || Nosotros + cenar = cenamos; half past = y media. || @tags es.present-regular,es.time
+      tr: What time do you go to bed? (informal) || ¿A qué hora te acuestas? | ¿Tú a qué hora te acuestas? || Acostarse changes o → ue: te acuestas. || @tags es.reflexive
+      listen: Normalmente me levanto a las siete, me ducho y desayuno un café. || What time does the speaker get up? || 6:00 | *7:00 | 8:00 || "Me levanto a las siete." || @tags es.reflexive
+      dict: Desayuno en casa y llego a la oficina a las nueve.
+      ask: Describe your morning routine — three things you do and when. || kw: me levanto & a las || Me levanto a las siete, me ducho y desayuno a las siete y media.
+      write: Write a short blog post about a typical weekday. || min=30 || req: me levanto | a las | desayuno/como/ceno | me acuesto || Me levanto a las seis y media y me ducho. Desayuno un café con tostadas. Trabajo en un hospital de ocho a tres. Como a las tres y media y por la tarde leo o estudio inglés. Ceno a las nueve y me acuesto a las once.
+
+  - title: Days and frequency
+    summary: Talk about the days of the week and say how often you do things with siempre, a veces, nunca and more.
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.frequency, es.dates]
+    objectives:
+      - Name the days of the week and use el lunes / los lunes
+      - Say how often you do things with frequency adverbs
+      - Use nunca correctly before and after the verb
+    intro: |
+      A routine isn't the same every day: *los lunes* you work late, *los sábados* you get up late, *a veces* you cook and *nunca* you iron! In this lesson you will learn the days of the week, the difference between *el lunes* and *los lunes*, and the words for saying how often you do something.
+    vocab: |
+      el lunes | Monday; on Monday | n | El lunes tengo clase de inglés. | On Monday I have an English class. | g: m | n: Days are masculine and have no capital letter.
+      martes, miércoles, jueves | Tuesday, Wednesday, Thursday | n | Trabajo los martes, miércoles y jueves. | I work on Tuesdays, Wednesdays and Thursdays. | g: m
+      viernes, sábado, domingo | Friday, Saturday, Sunday | n | El domingo como con mis abuelos. | On Sunday I'm having lunch with my grandparents. | g: m
+      el fin de semana | weekend | n | El fin de semana descanso. | At the weekend I rest. | g: m
+      siempre | always | adv | Siempre desayuno en casa. | I always have breakfast at home.
+      normalmente | usually | adv | Normalmente ceno a las nueve. | I usually have dinner at nine.
+      a menudo | often | adv | Leo a menudo en el tren. | I often read on the train.
+      a veces | sometimes | adv | A veces trabajo los sábados. | Sometimes I work on Saturdays.
+      nunca | never | adv | Nunca como carne. | I never eat meat. | n: After the verb, put no before the verb: No como carne nunca.
+      todos los días | every day | expr | Estudio español todos los días. | I study Spanish every day. | c: todas las semanas; todos los meses
+      una vez a la semana | once a week | expr | Hablo con mi madre una vez a la semana. | I talk to my mother once a week. | c: dos veces a la semana; tres veces al mes
+      hoy | today | adv | Hoy es miércoles. | Today is Wednesday. | c: mañana (tomorrow); ayer (yesterday)
+      la semana | week | n | Trabajo cinco días a la semana. | I work five days a week. | g: f
+      ¿qué día es hoy? | what day is it today? | expr | Perdona, ¿qué día es hoy? | Sorry, what day is it today? | n: Answer: Hoy es jueves.
+    grammar:
+      title: Days of the week and frequency
+      body: |
+        Days of the week are **masculine** and written **without a capital letter**. To say *on Monday*, use the article and **no preposition**: *El lunes trabajo en casa.* For something you do every week, use the **plural**: *los lunes* (on Mondays). Days ending in -s don't change in the plural (*los martes*); *sábado* and *domingo* add -s (*los sábados, los domingos*).
+
+        Frequency adverbs go at the start of the sentence or next to the verb: **siempre** (always), **normalmente** (usually), **a menudo** (often), **a veces** (sometimes), **nunca** (never).
+
+        **Nunca** goes **before** the verb on its own (*Nunca como carne*), or **after** the verb with **no** in front of the verb (*No como carne nunca*).
+
+        For regular habits, use **todos los días**, **una vez a la semana**, **dos veces al mes**. To ask how often: **¿Con qué frecuencia…?**
+      table: |
+        Expression | Meaning | Example
+        siempre | always | Siempre desayuno café.
+        normalmente | usually | Normalmente trabajo en casa.
+        a menudo | often | Leo a menudo.
+        a veces | sometimes | A veces ceno con amigos.
+        nunca / no… nunca | never | Nunca cocino. / No cocino nunca.
+        los lunes | on Mondays | Los lunes tengo yoga.
+        una vez a la semana | once a week | Nado una vez a la semana.
+      examples: |
+        Los sábados me levanto tarde. | On Saturdays I get up late.
+        El viernes ceno con mis amigos. | On Friday I'm having dinner with my friends.
+        Nunca trabajo los domingos. | I never work on Sundays.
+        ¿Con qué frecuencia lees? | How often do you read?
+      tip: "Compare el lunes (this Monday, once) and los lunes (every Monday)."
+    dialogue:
+      title: ¿Qué día cenamos?
+      setting: Nuria and Óscar are old friends with busy weeks. On the phone, they try to find an evening for dinner.
+      speakers: N=Nuria/f; O=Óscar/m
+      lines: |
+        N: Óscar, ¿cenamos juntos un día? | Óscar, shall we have dinner together one day?
+        O: ¡Vale! ¿El lunes? | OK! On Monday?
+        N: Los lunes no. Siempre tengo yoga. | Not on Mondays. I always have yoga.
+        O: ¿Y el martes o el miércoles? | What about Tuesday or Wednesday?
+        N: Los martes trabajo hasta las nueve. | On Tuesdays I work until nine.
+        O: Y yo los miércoles estudio alemán. | And on Wednesdays I study German.
+        N: ¿El jueves? Los jueves no tengo planes. | Thursday? I don't have plans on Thursdays.
+        O: ¡Perfecto! El jueves a las nueve. | Perfect! Thursday at nine.
+        N: ¿En el restaurante indio, como siempre? | At the Indian restaurant, as always?
+        O: ¡Claro! Tú nunca cocinas. | Of course! You never cook.
+        N: ¡Ja, ja! A veces cocino. | Ha ha! Sometimes I cook.
+    pronunciation:
+      title: "Linking words: una vez a la semana"
+      body: |
+        Spanish speakers link the words in a phrase so that it sounds like one long word. A final consonant joins the vowel of the next word: *los_ojos* [lo.ˈso.xos], *una vez_a la semana*. Two vowels that meet also run together: *todo_el día* [ˈto.ðo̯el.ˈdi.a].
+
+        Practise the phrases below as a single unit, without stopping between the words.
+      items: |
+        una vez a la semana
+        todos los días
+        el fin de semana
+        a menudo
+        los sábados
+        el miércoles
+    culture:
+      title: Martes y trece
+      body: |
+        In Spain and much of Latin America, the unlucky day is not Friday the 13th but **Tuesday the 13th** — *martes y trece*. An old saying warns: *En martes, ni te cases ni te embarques* (On a Tuesday, don't get married or set sail).
+
+        On a calendar the Spanish week starts on **Monday**, and in many towns most shops are closed on Sundays. When a public holiday falls on a Tuesday or Thursday, many people take a **puente** ("bridge") — a day off to make a long weekend.
+    mistakes: |
+      Trabajo en lunes. => Trabajo el lunes. | No preposition with days: el lunes (on Monday), los lunes (on Mondays).
+      Nunca no como carne. => Nunca como carne. | Nunca before the verb doesn't take no. After the verb you do need it: No como carne nunca.
+      El Lunes tengo clase. => El lunes tengo clase. | Days of the week take no capital letter.
+    task:
+      title: My week
+      mode: speaking
+      body: |
+        Make a quick plan of your week. Then tell a partner (or the AI coach) what you do on three different days and how often you do three activities — *Los lunes trabajo hasta las seis. A veces ceno con amigos. Nunca cocino los viernes.* Find one evening when you are both free.
+    exercises: |
+      fill: ___ sábados me levanto tarde. (every Saturday) || Los || For every Saturday, use the plural article: los sábados. || @tags es.dates
+      fill: Hoy es ___. (Friday) || viernes || Friday = viernes, with no capital letter. || @tags es.dates
+      mc: "On Monday I have an exam" is… || En lunes tengo un examen. | *El lunes tengo un examen. | Lunes en tengo un examen. || Days take the article and no preposition: el lunes. || @tags es.dates
+      mc: Which adverb means the most frequent? || a veces | *siempre | a menudo || Siempre = always; a menudo = often; a veces = sometimes. || @tags es.frequency
+      mc: Which sentence is correct? || Nunca no trabajo los domingos. | *Nunca trabajo los domingos. | Trabajo nunca los domingos. || Nunca before the verb on its own; after the verb it needs no before the verb. || @tags es.frequency,es.negation
+      fill: Estudio español dos ___ a la semana. || veces || Vez → veces in the plural (z changes to c). || @tags es.frequency,es.plural
+      match: lunes = Monday ; martes = Tuesday ; miércoles = Wednesday ; jueves = Thursday ; viernes = Friday ; domingo = Sunday || Lunes, martes, miércoles, jueves, viernes, sábado, domingo. || @tags es.dates
+      short: Why can't Nuria have dinner on Mondays? || kw: yoga || "Los lunes no. Siempre tengo yoga." || @ctx dialogue
+      tf: They decide to have dinner on Thursday. || true || "¡Perfecto! El jueves a las nueve." || @ctx dialogue
+      tr: I never work on Sundays. || Nunca trabajo los domingos. | No trabajo nunca los domingos. | Los domingos nunca trabajo. | No trabajo los domingos nunca. || Nunca before the verb, or no + verb + nunca. Habits on a day: los domingos. || @tags es.frequency,es.dates
+      tr: Sometimes we have dinner at home. || A veces cenamos en casa. | Cenamos en casa a veces. || A veces = sometimes; nosotros + cenar = cenamos. || @tags es.frequency,es.present-regular
+      listen: Nado los martes y los jueves, y los domingos descanso. || When does the speaker swim? || On Mondays and Wednesdays | *On Tuesdays and Thursdays | On Sundays || "Nado los martes y los jueves." On Sundays the speaker rests. || @tags es.dates
+      dict: Normalmente leo el periódico los sábados.
+      ask: Say how often you do three things — for example study Spanish, cook and read. || kw: siempre/normalmente/a menudo/a veces/nunca/todos los días || Estudio español todos los días, a veces cocino y nunca leo el periódico.
+      write: Write a message to your new flatmate about your weekly routine. || min=30 || req: los lunes/los martes/los miércoles/los jueves/los viernes/los sábados/los domingos | siempre/normalmente/a menudo/a veces/nunca | a las || ¡Hola, Lena! Los lunes y los miércoles trabajo hasta las siete. Los martes tengo clase de inglés a las ocho. Normalmente ceno a las nueve. Los sábados siempre me levanto tarde y a veces cocino para amigos. ¡Nunca trabajo los domingos!

@@ -1,0 +1,388 @@
+unit: 7
+title: Ciudadanía y vida pública
+theme: Citizenship and public life
+description: Discuss civic rights and duties, deal with public administration and write a formal letter of complaint — using the perfect subjunctive to react to recent events and in future time clauses, and the formulas of formal correspondence.
+objectives:
+  - React to and evaluate recent events with the perfect subjunctive (me alegra que hayan…, no creo que haya…)
+  - Follow and give instructions for administrative procedures with cuando / en cuanto / una vez que + subjunctive
+  - Write a formal letter of complaint with the right structure, formulas and register
+canDo:
+  - I can talk about my rights and duties as a citizen and react to civic news.
+  - I can deal with a public office, understand the steps of a procedure and ask the right questions.
+  - I can complain formally, in speech or in writing, and request a solution.
+  - I can write a formal letter with a clear structure and appropriate formulas.
+review: |
+  fill: Me alegra mucho que el barrio ___ (conseguir) por fin un centro de salud nuevo. || haya conseguido || A reaction to a completed action takes the perfect subjunctive: haya conseguido. || @tags es.subjunctive-triggers
+  mc: Choose the correct sentence. || *No creo que hayan leído mi solicitud. | No creo que han leído mi solicitud. | No creo que habían leído mi solicitud. || No creo que expresses doubt, so it takes the subjunctive; for a completed action, the perfect subjunctive: hayan leído. || @tags es.subjunctive-triggers
+  fill: Cuando ___ (terminar, tú) el formulario, envíalo por la sede electrónica. || hayas terminado / termines || A future time clause takes the subjunctive; haya + participle stresses that it must be finished first. || @tags es.subjunctive-triggers
+  mc: Los alumnos que no ___ la matrícula antes del viernes perderán la plaza. || han pagado | *hayan pagado | habrán pagado || The students are not specific people and the deadline is in the future: perfect subjunctive. || @tags es.relative-pronouns,es.subjunctive-triggers
+  mc: En cuanto ___ la documentación, le llamaremos. || recibiremos | *recibamos | recibimos || En cuanto referring to the future takes the subjunctive, never the future tense. || @tags es.subjunctive-triggers
+  mc: Which opening is appropriate for a formal letter to a company? || Hola, ¿qué tal?: | Querida empresa: | *Muy señores míos: || Muy señores míos (or Estimados señores) followed by a colon is the formal opening. || @tags es.formal-writing
+  fill: Les ruego que me ___ (devolver) el importe lo antes posible. || devuelvan || Rogar que + subjunctive; the request is addressed to ustedes: devuelvan. || @tags es.formal-writing,es.subjunctive-triggers
+  tr: I regret that the problem has not been solved yet. || Lamento que el problema no se haya resuelto todavía. | Lamento que el problema todavía no se haya resuelto. | Lamento que el problema no se haya solucionado todavía. | Lamento que el problema aún no se haya resuelto. | Lamento que todavía no se haya resuelto el problema. || Lamentar que + perfect subjunctive for a situation up to now. || @tags es.subjunctive-triggers,es.formal-writing
+  listen: Me sorprende que nadie del ayuntamiento haya venido a ver el estado del parque, después de todas las quejas de los vecinos. || What surprises the speaker? || That the neighbours have complained | *That nobody from the council has come to see the park | That the park has been closed || «Me sorprende que nadie del ayuntamiento haya venido a ver el estado del parque.» || @tags es.listening,es.subjunctive-triggers
+  listen: Una vez que haya pagado la tasa, recibirá un correo con el día y la hora de su cita. || When will the person receive an email with the appointment? || *After paying the fee | Before paying the fee | After the appointment || Una vez que haya pagado = once you have paid. || @tags es.listening,es.subjunctive-triggers
+  ask: A friend asks you how a procedure works in your country — for example getting an identity card, registering as a resident or enrolling at university. Explain the steps. || kw: cuando/en cuanto/una vez que/hasta que/después de que & haya/hayas/hayan/tengas/presentes/pagues || Primero tienes que pedir cita por internet. Cuando tengas la cita, vas a la oficina con el pasaporte y una foto. Una vez que hayas presentado los papeles, te dan un resguardo. Y en cuanto hayan comprobado todo, te mandan un mensaje para que vayas a recoger la tarjeta.
+  write: Write a short formal email (90–110 words) to a language school. You paid for a course that was cancelled and you haven't received your money back. || min=80 || req: estimado/estimada/estimados/muy señores | me dirijo/les escribo/por la presente | lamento que/me parece inadmisible que/me sorprende que | solicito/les ruego que | atentamente/quedo a la espera || Estimados señores: Me dirijo a ustedes en relación con el curso intensivo de francés que pagué el pasado mes de septiembre y que fue cancelado una semana antes de empezar. Aunque me aseguraron que me devolverían el importe en un plazo de diez días, a fecha de hoy no lo he recibido. Lamento que nadie haya respondido a mis dos correos anteriores. Por ello, les ruego que me devuelvan los trescientos euros lo antes posible. Adjunto el justificante de pago. Quedo a la espera de su respuesta. Atentamente, Óscar Delgado
+lessons:
+  - title: Rights and responsibilities
+    summary: Talk about civic rights and duties, such as serving on a jury, and react to recent events with the perfect subjunctive.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.subjunctive-triggers]
+    objectives:
+      - Talk about rights, duties and civic participation
+      - Form the perfect subjunctive (haya + participle)
+      - React to, evaluate or doubt completed actions with the perfect subjunctive
+    intro: |
+      Being a citizen means having rights — and also duties, from voting to serving on a jury or at a polling station. When we react to something that has just happened (*me sorprende que te hayan elegido, no creo que lo hayan leído*), Spanish uses the **perfect subjunctive**. It combines two things you already know: the subjunctive after emotion and doubt, and the pretérito perfecto for recent actions.
+    vocab: |
+      el derecho | right | n | Pedir un permiso para ser jurado es un derecho del trabajador. | Asking for leave to serve on a jury is an employee's right. | g: m | n: El Derecho (capital D) is also law as a subject: estudiar Derecho.
+      el deber | duty | n | Para ella, ser jurado es un deber como ciudadana. | For her, being on a jury is a duty as a citizen. | g: m
+      la ciudadanía | citizenship; citizens | n | La ciudadanía tiene derecho a recibir información clara. | Citizens have the right to receive clear information. | g: f | n: The individual is el ciudadano / la ciudadana.
+      el jurado | jury; juror | n | Me ha tocado ser jurado en un juicio. | I've been selected to serve on a jury. | g: m | n: It means both the group and one member: ser jurado.
+      el juzgado | court (building) | n | Me ha llegado una carta del juzgado. | I've received a letter from the court. | g: m
+      el juicio | trial; judgement | n | El juicio durará unas dos semanas. | The trial will last about two weeks. | g: m | n: Also "judgement, good sense": tener buen juicio.
+      el sorteo | draw; lottery | n | Los candidatos se eligen por sorteo. | The candidates are chosen by drawing lots. | g: m
+      el censo electoral | electoral register | n | Solo pueden ser jurado las personas inscritas en el censo electoral. | Only people on the electoral register can be jurors. | g: m
+      librarse de | to get out of; to escape | v | No es fácil librarse de ser jurado. | It isn't easy to get out of jury duty.
+      estar a la altura | to be up to it; to rise to the occasion | expr | Me preocupa no estar a la altura. | I'm worried I won't be up to it.
+      cumplir con | to fulfil; to carry out (a duty) | v | Todos tenemos que cumplir con nuestras obligaciones. | We all have to fulfil our obligations.
+      la convivencia | living together; coexistence | n | Las normas de convivencia del edificio están en el portal. | The building's rules for residents are in the entrance hall. | g: f
+    grammar:
+      title: "The perfect subjunctive: que te hayan elegido"
+      body: |
+        The **perfect subjunctive** is formed with the **present subjunctive of haber** + **past participle**: *haya, hayas, haya, hayamos, hayáis, hayan* + *elegido, hecho, vuelto…*
+
+        It is used in the same situations as the present subjunctive (emotion, evaluation, doubt, wishes), but for an action that is **completed**, usually in the recent past or up to now:
+
+        - **Emotion and evaluation**: *Me alegra que **hayas venido**. Me sorprende que te **hayan elegido**. Es una pena que no **haya podido** venir.*
+        - **Doubt and denial**: *No creo que lo **hayan leído**. Dudo que **haya votado** nunca.*
+        - **Wishes and hopes** about something that may already have happened: *Espero que **hayas llegado** bien. Ojalá **haya aprobado**.*
+
+        Compare: *Me alegra que **vengas*** (you are coming / will come) and *Me alegra que **hayas venido*** (you have come). The main verb is usually in the **present**, the **future** or the **imperative**.
+
+        Remember that verbs of emotion with a reflexive pronoun keep their preposition: *me alegro **de** que hayas venido*, but *me alegra que hayas venido.*
+      table: |
+        Person | haber (present subjunctive) | Example
+        yo | haya | Espero que no me haya equivocado.
+        tú | hayas | Me alegra que hayas venido.
+        él / ella / usted | haya | No creo que lo haya leído.
+        nosotros/as | hayamos | Es una suerte que hayamos llegado a tiempo.
+        vosotros/as | hayáis | Ojalá lo hayáis pasado bien.
+        ellos / ellas / ustedes | hayan | Me sorprende que te hayan elegido.
+      examples: |
+        Me sorprende que te hayan elegido a ti. | I'm surprised they've chosen you. | emotion about a completed action
+        No creo que me hayan elegido por mis conocimientos de derecho. | I don't think they've chosen me for my knowledge of law. | doubt
+        Me parece bien que te lo hayas tomado con tanta responsabilidad. | I think it's good that you've taken it so responsibly. | evaluation
+        Espero que en Recursos Humanos te hayan contestado ya. | I hope Human Resources have answered you already. | hope about a possibly completed action
+      tip: "If you would use the pretérito perfecto in the indicative (han elegido), and the sentence needs the subjunctive, just change han to hayan: me sorprende que hayan elegido."
+    dialogue:
+      title: «Me ha tocado ser jurado»
+      setting: The coffee machine in an office in Málaga. Elena has just received an official letter saying she has been selected as a candidate to serve on a jury.
+      speakers: E=Elena/f; A=Adrián/m
+      lines: |
+        E: No te lo vas a creer: me ha llegado una carta del juzgado. Me ha tocado ser candidata a jurado. | You won't believe it: I've received a letter from the court. I've been picked as a candidate for jury duty.
+        A: ¿En serio? Me sorprende que te hayan elegido a ti, con lo poco que te gustan las series de juicios. | Seriously? I'm surprised they've chosen you, given how little you like courtroom dramas.
+        E: Muy gracioso. Se elige por sorteo entre todas las personas inscritas en el censo electoral. | Very funny. It's chosen by drawing lots among everyone on the electoral register.
+        A: Ya. ¿Y no puedes librarte? Con el trabajo que tenemos este trimestre… | I see. And can't you get out of it? With all the work we have this quarter…
+        E: Solo por motivos muy concretos, y el trabajo no es uno de ellos. Además, es un deber como ciudadana. | Only for very specific reasons, and work isn't one of them. Besides, it's a duty as a citizen.
+        A: Hombre, visto así… Me parece bien que te lo hayas tomado con tanta responsabilidad. | Well, put like that… I think it's good that you've taken it so responsibly.
+        E: Lo que me preocupa es no estar a la altura. No creo que me hayan elegido por mis conocimientos de derecho. | What worries me is not being up to it. I don't think they've chosen me for my knowledge of law.
+        A: Precisamente se trata de eso: de que decidan personas normales, no expertos. La parte técnica es cosa de los jueces. | That's exactly the point: that ordinary people decide, not experts. The technical side is the judges' job.
+        E: Es verdad. Y me alegra que mi madre me haya contado su experiencia: fue jurado hace años y dice que aprendió muchísimo. | True. And I'm glad my mother has told me about her experience: she was a juror years ago and says she learned a lot.
+        A: ¿Y la empresa? Espero que en Recursos Humanos te hayan contestado ya. | What about the company? I hope Human Resources have answered you already.
+        E: Sí, esta mañana. Me han dicho que es un derecho del trabajador y que me pagarán esos días con normalidad. | Yes, this morning. They told me it's an employee's right and they'll pay me for those days as normal.
+        A: Pues entonces, enhorabuena. Cuando termine el juicio, quiero que me lo cuentes todo… bueno, lo que puedas. | Well then, congratulations. When the trial is over, I want you to tell me everything… well, whatever you can.
+    pronunciation:
+      title: "haya, halla, allá"
+      body: |
+        Because of *yeísmo* (Unit 5), most speakers pronounce **haya** (from *haber*: *que lo haya leído*) and **halla** (from *hallar*, to find: *se halla en el centro*) exactly the same way: [A-ya]. Only the context and the spelling tell them apart. **Allá** (over there) is different: the stress falls on the last syllable, [a-YA].
+
+        *Haya* is also a beech tree: *un bosque de hayas*. Read each phrase and think about which word it is.
+      items: |
+        que lo haya leído
+        que te hayan elegido
+        ojalá haya llegado
+        el juzgado se halla en el centro
+        más allá
+        un bosque de hayas
+    culture:
+      title: "Juries, polling stations and compulsory voting"
+      body: |
+        Spain has had a **jurado popular** since the 1990s: nine citizens, chosen by lot from the electoral register, decide on the facts in trials for certain serious crimes. Serving is a legal duty, and employers must give jurors time off. In the same way, citizens are chosen by lot to staff the **mesas electorales** (polling stations) on election day, and attendance is compulsory.
+
+        Voting itself is voluntary in Spain, but in several Latin American countries, such as Argentina, Uruguay, Peru, Ecuador and Bolivia, voting is compulsory for most adults.
+    mistakes: |
+      No creo que lo han leído. => No creo que lo hayan leído. | After no creo que, use the subjunctive; for a completed action, the perfect subjunctive.
+      Ojalá ha aprobado el examen. => Ojalá haya aprobado el examen. | Ojalá is always followed by the subjunctive.
+      Me alegro que has venido. => Me alegro de que hayas venido. | Alegrarse keeps de, and it is followed by the subjunctive.
+    task:
+      title: Rights, duties and reactions
+      mode: speaking
+      body: |
+        Choose one right and one duty that matter to you (education, health care, a clean environment, voting, jury service, paying taxes…) and explain why in about two minutes. Then react to three recent pieces of civic news from your town or country (a new service, a change in the rules, an initiative by local people) using the perfect subjunctive: *me alegra que…, me sorprende que…, no creo que…* Finally, discuss in the "Expressing an opinion" scenario with the AI coach whether duties such as jury service should be compulsory.
+    exercises: |
+      fill: Me alegra que el ayuntamiento ___ (instalar) rampas en todas las estaciones de metro. || haya instalado || Emotion about a completed action: perfect subjunctive. || @tags es.subjunctive-triggers
+      fill: No creo que ___ (leer, tú) todas las condiciones antes de firmar. || hayas leído || Doubt about a completed action: no creo que + perfect subjunctive. || @tags es.subjunctive-triggers
+      fill: Espero que ya te ___ (llegar) la carta del juzgado. || haya llegado || A hope about something that may already have happened: espero que + perfect subjunctive. || @tags es.subjunctive-triggers
+      mc: Choose the correct sentence. || Me sorprende que te han elegido. | *Me sorprende que te hayan elegido. | Me sorprende que te habían elegido. || Me sorprende que requires the subjunctive; the action is completed, so hayan elegido. || @tags es.subjunctive-triggers
+      mc: Compare «Dudo que haya votado» and «Dudo que vote». The first sentence refers to… || *a completed action | a future action | a habit || The perfect subjunctive refers to a completed action; vote refers to the present or future. || @tags es.subjunctive-triggers
+      mc: Your colleague says «No quiero librarme de ser jurado». She means she doesn't want to… || *get out of jury duty. | free the jury. | read about the jury. || Librarse de = to get out of, to escape something. || @skill vocabulary @tags es.vocabulary
+      tf: Elena can be excused from jury duty because of her workload. || false || «Solo por motivos muy concretos, y el trabajo no es uno de ellos.» || @ctx dialogue
+      short: Who told Elena that being a juror was a good experience? || kw: madre/mother/mum/mom || Her mother, who was a juror years ago. || @ctx dialogue
+      rw: React with «Me alegra que…» :: Mi hermana ha encontrado trabajo. || Me alegra que mi hermana haya encontrado trabajo. || Me alegra que + subjunctive: ha encontrado becomes haya encontrado. || @tags es.subjunctive-triggers
+      tr: I hope you've received the documents. || Espero que hayas recibido los documentos. | Espero que haya recibido los documentos. | Espero que hayáis recibido los documentos. | Espero que hayan recibido los documentos. | Espero que ya hayas recibido los documentos. || Esperar que + perfect subjunctive for an action that should already have happened. || @tags es.subjunctive-triggers
+      listen: Me parece increíble que todavía no hayan arreglado el semáforo del colegio, después de tantas quejas de los padres. || What does the speaker find incredible? || *That the traffic light near the school still hasn't been repaired | That the parents have complained | That the school has closed || «Todavía no hayan arreglado el semáforo del colegio.» || @tags es.listening,es.subjunctive-triggers
+      listen: @dialogue || What did Human Resources tell Elena? || *That it's an employee's right and she'll be paid as normal | That she has to use her holidays | That she can't take time off this quarter || «Es un derecho del trabajador y me pagarán esos días con normalidad.» || @tags es.listening
+      dict: Es una suerte que hayan abierto una biblioteca nueva en el barrio. || hayan abierto = have opened
+      ask: React to three recent pieces of news from your town or country (not politics): say how you feel about them or whether you believe them. || kw: me alegra que/me sorprende que/no creo que/es una pena que/me parece bien que/dudo que & haya/hayan || Me alegra que hayan ampliado el horario de la biblioteca. Me sorprende que el ayuntamiento haya plantado árboles en mi calle, porque los vecinos llevábamos años pidiéndolo. En cambio, es una pena que hayan cerrado la oficina de correos del barrio.
+
+  - title: Public services
+    summary: Deal with a public office, understand the steps of an administrative procedure, and use cuando, en cuanto and una vez que with the present and perfect subjunctive.
+    minutes: 50
+    skills: [listening, speaking, grammar]
+    tags: [es.subjunctive-triggers, es.register]
+    objectives:
+      - Understand and ask about the steps of an administrative procedure
+      - Use future time clauses with cuando, en cuanto, una vez que and hasta que + subjunctive
+      - Use the perfect subjunctive for actions that must be completed first
+    intro: |
+      Registering as a resident, getting a health card, applying for a grant: dealing with public administration — *el papeleo* — is part of life in any country. Officials explain procedures as a chain of steps: *Una vez que esté empadronada…, en cuanto lo hayamos revisado…, cuando haya recibido el certificado…* In this lesson you will learn to follow these instructions and give them yourself.
+    vocab: |
+      empadronarse | to register as a resident (with the town hall) | v | Lo primero que hice al llegar fue empadronarme. | The first thing I did when I arrived was register with the town hall. | n: The register is el padrón; the certificate, el certificado de empadronamiento.
+      la tarjeta sanitaria | health card | n | Con la tarjeta sanitaria puedes pedir cita en tu centro de salud. | With your health card you can book an appointment at your health centre. | g: f
+      el trámite | procedure; formality | n | Es un trámite sencillo, pero lleva tiempo. | It's a simple procedure, but it takes time. | g: m
+      tramitar | to process; to deal with (paperwork) | v | No puedo tramitar la solicitud sin la firma del propietario. | I can't process the application without the landlord's signature.
+      la cita previa | appointment (booked in advance) | n | Para renovar el DNI hace falta cita previa. | You need an appointment to renew your ID card. | g: f
+      la sede electrónica | official website (for online procedures) | n | Puede subir los documentos a la sede electrónica. | You can upload the documents to the online office. | g: f
+      la solicitud | application; request | n | Su solicitud está en trámite. | Your application is being processed. | g: f | c: presentar una solicitud
+      el certificado | certificate | n | Le mandaremos el certificado por correo electrónico. | We'll send you the certificate by email. | g: m
+      los días hábiles | working days | n | El plazo es de tres días hábiles. | The deadline is three working days. | g: m | n: Días hábiles exclude weekends and public holidays.
+      el papeleo | paperwork; red tape | n | El papeleo para alquilar un piso es interminable. | The paperwork for renting a flat is endless. | g: m
+      armarse de paciencia | to be patient; to summon up your patience | expr | Con la administración hay que armarse de paciencia. | With the administration you need a lot of patience.
+      el funcionario | civil servant; official | n | El funcionario me explicó todos los pasos. | The official explained all the steps to me. | g: m | n: Feminine: la funcionaria.
+    grammar:
+      title: "Time clauses: cuando hayas terminado, en cuanto lo recibamos"
+      body: |
+        When a time clause refers to the **future**, Spanish uses the **subjunctive**, never the future tense: *Cuando **reciba** el certificado, llévelo a su empresa* (not ~~cuando recibirá~~). This applies to **cuando, en cuanto, tan pronto como** (as soon as), **una vez que** (once), **hasta que** (until), **después de que** and **antes de que** (which always takes the subjunctive).
+
+        Use the **perfect subjunctive** when you want to stress that the action must be **completed first**: *Cuando **haya recibido** el certificado, llévelo a su empresa. **En cuanto lo hayamos revisado**, le mandaremos el certificado.* In many cases both forms are possible; the perfect is typical of official instructions.
+
+        With **hasta que**, speakers often add an extra **no** that doesn't make the sentence negative: *Hasta que no haya traído el contrato firmado, no puedo tramitarlo* = until you have brought it.
+
+        Compare with the indicative, which is used for **habits** and the **past**: *Cuando **llego** a casa, ceno* (habit). *Cuando **llegué**, ya habían cerrado* (past).
+
+        The perfect subjunctive also appears in **relative clauses** in official texts, for people who are not specific: *Los solicitantes que no **hayan presentado** el certificado quedarán excluidos.*
+      table: |
+        Time | Structure | Example
+        future | cuando + present subjunctive | Cuando tenga la cita, iré a la oficina.
+        future, completed first | cuando + perfect subjunctive | Cuando haya recibido el certificado, llévelo a su empresa.
+        future | en cuanto / una vez que + subjunctive | Una vez que esté empadronada, podrá pedir la tarjeta.
+        habit | cuando + present indicative | Cuando llego a casa, ceno.
+        past | cuando + indefinido | Cuando llegué, ya habían cerrado.
+      examples: |
+        Una vez que esté empadronada, podrá pedir la tarjeta sanitaria. | Once you're registered, you'll be able to apply for the health card. | una vez que + subjunctive
+        En cuanto lo hayamos revisado, le mandaremos el certificado por correo electrónico. | As soon as we've checked it, we'll send you the certificate by email. | completed first
+        Hasta que no haya traído el contrato firmado, no puedo tramitar la solicitud. | Until you've brought the signed contract, I can't process the application. | hasta que (no)
+        Los solicitantes que no hayan presentado el certificado quedarán excluidos. | Applicants who have not submitted the certificate will be excluded. | relative clause in official language
+      tip: "After cuando, en cuanto or una vez que, never use the future (cuando llegaré ✗). If the main verb is future or imperative, the time clause takes the subjunctive."
+    dialogue:
+      title: En la oficina de atención ciudadana
+      setting: The citizens' advice office at the town hall in Burgos. Mariela, who has just moved from Quito with a work contract, wants to register as a resident. Javier, a civil servant, attends to her.
+      speakers: J=Javier/m; M=Mariela/f
+      lines: |
+        J: Buenos días. Tiene el número cuarenta y dos, ¿verdad? Siéntese, por favor. ¿En qué puedo ayudarla? | Good morning. You've got number forty-two, right? Please take a seat. How can I help you?
+        M: Buenos días. Me acabo de mudar a Burgos y quería empadronarme. También necesito la tarjeta sanitaria. | Good morning. I've just moved to Burgos and I'd like to register as a resident. I also need a health card.
+        J: Muy bien. Vamos por partes. Una vez que esté empadronada, podrá pedir la tarjeta en su centro de salud. | Very good. One thing at a time. Once you're registered, you'll be able to apply for the card at your health centre.
+        M: Perfecto. Aquí traigo el pasaporte, el contrato de trabajo y el contrato de alquiler. | Perfect. I've brought my passport, my employment contract and my rental contract.
+        J: Déjeme ver… El contrato de alquiler está bien, pero falta la firma del propietario en la última página. | Let me see… The rental contract is fine, but the landlord's signature is missing on the last page.
+        M: ¡Vaya! ¿Y no puede tramitarlo igualmente? | Oh no! And can't you process it anyway?
+        J: Lo siento, pero hasta que no haya traído el contrato firmado, no puedo tramitar la solicitud. | I'm sorry, but until you've brought the signed contract, I can't process the application.
+        M: Entiendo. ¿Y lo puedo enviar por internet o tengo que pedir cita otra vez? | I understand. And can I send it online or do I have to make another appointment?
+        J: Puede subirlo a la sede electrónica. En cuanto lo hayamos revisado, le mandaremos el certificado por correo electrónico. | You can upload it to the online office. As soon as we've checked it, we'll send you the certificate by email.
+        M: ¿Y cuánto suele tardar? Es que en el trabajo me lo piden cuanto antes. | And how long does it usually take? It's just that they need it at work as soon as possible.
+        J: Normalmente, unos tres días hábiles. Cuando haya recibido el certificado, llévelo a su empresa y al centro de salud. | Usually about three working days. When you've received the certificate, take it to your company and to the health centre.
+        M: Muchas gracias, ha sido usted muy amable. Ya veo que aquí también hay que armarse de paciencia con el papeleo. | Thank you very much, you've been very kind. I can see that here, too, you need plenty of patience with the paperwork.
+    pronunciation:
+      title: "Polite commands with usted"
+      body: |
+        Officials use polite commands with *usted*, often with a pronoun attached: *siéntese, déjeme, llévelo, dígame*. Adding the pronoun makes the word longer, so it needs a written accent to keep the stress on the same syllable: ***sién**-te-se*, ***dé**-je-me*, ***llé**-ve-lo*.
+
+        Say them in a calm, friendly tone, with the voice falling gently at the end. *¿En qué puedo ayudarla?* rises slightly at the end, like any polite question.
+      items: |
+        Siéntese, por favor.
+        Déjeme ver.
+        Llévelo a su empresa.
+        Dígame.
+        ¿En qué puedo ayudarla?
+        Espere un momento, por favor.
+    mistakes: |
+      Cuando habré terminado, te llamo. => Cuando haya terminado, te llamo. | Future time clauses take the subjunctive, never the future or the future perfect.
+      En cuanto lo recibirá, le avisaremos. => En cuanto lo reciba, le avisaremos. | En cuanto referring to the future takes the subjunctive.
+      Los que no han pagado antes del viernes perderán la plaza. => Los que no hayan pagado antes del viernes perderán la plaza. | For people who are not specific, before a future deadline, use the perfect subjunctive.
+    task:
+      title: Dealing with the administration
+      mode: interaction
+      body: |
+        Explain to a partner the steps of a procedure you know (renewing a passport, enrolling at university, registering a car). Use at least four time clauses (*cuando, en cuanto, una vez que, hasta que*) with the present or perfect subjunctive. Then, in the "Handling a travel problem" scenario with the AI coach, imagine you have lost your passport abroad: explain the situation politely at the police station or consulate, ask what you need to bring and check the steps (*Entonces, cuando haya presentado la denuncia, ¿…?*).
+    exercises: |
+      fill: Cuando ___ (rellenar, usted) el formulario, entréguelo en la ventanilla tres. || haya rellenado / rellene || A future time clause takes the subjunctive; the perfect stresses that the form must be filled in first. || @tags es.subjunctive-triggers,es.register
+      fill: En cuanto ___ (recibir, nosotros) su solicitud, le daremos cita. || hayamos recibido / recibamos || En cuanto referring to the future: subjunctive, never the future tense. || @tags es.subjunctive-triggers
+      fill: Los solicitantes que no ___ (presentar) el certificado antes del día quince quedarán excluidos. || hayan presentado || Applicants in general (not specific people) before a future deadline: perfect subjunctive in the relative clause. || @tags es.subjunctive-triggers,es.relative-pronouns
+      mc: Choose the correct sentence. || Cuando habrás terminado, llámame. | *Cuando hayas terminado, llámame. | Cuando has terminado, llámame. || A future time clause before an imperative takes the subjunctive: hayas terminado. || @tags es.subjunctive-triggers
+      mc: «Cuando termino de trabajar, voy al gimnasio» describes… || *a habit | a future plan | a single past event || With the indicative, cuando describes a habit. A future plan would be: cuando termine… || @tags es.subjunctive-triggers
+      mc: «Con la administración hay que armarse de paciencia» means… || *you need to be very patient with the administration. | you need weapons to deal with the administration. | you need a lawyer to deal with the administration. || Armarse de paciencia = to summon up your patience. || @skill vocabulary @tags es.vocabulary
+      tf: The landlord's signature was missing from Mariela's rental contract. || true || «Falta la firma del propietario en la última página.» || @ctx dialogue
+      short: How long does the certificate usually take? || kw: tres/three/3 || About three working days. || @ctx dialogue
+      rw: Rewrite the instruction with «Una vez que…» + perfect subjunctive :: Primero pague la tasa; después pida cita. || Una vez que haya pagado la tasa, pida cita. || Una vez que + perfect subjunctive for the step that must be completed first. || @tags es.subjunctive-triggers,es.register
+      tr: As soon as you have received the certificate, take it to the health centre. (you = usted) || En cuanto haya recibido el certificado, llévelo al centro de salud. | Tan pronto como haya recibido el certificado, llévelo al centro de salud. | Cuando haya recibido el certificado, llévelo al centro de salud. | En cuanto reciba el certificado, llévelo al centro de salud. | Tan pronto como reciba el certificado, llévelo al centro de salud. || En cuanto / tan pronto como + subjunctive; usted command with a pronoun: llévelo. || @tags es.subjunctive-triggers,es.imperative
+      listen: Le recuerdo que, una vez que haya enviado la solicitud, no podrá modificar los datos personales. || What will you be unable to do after sending the application? || *Change your personal details | Cancel the application | Ask for an appointment || «No podrá modificar los datos personales.» || @tags es.listening,es.subjunctive-triggers
+      listen: @dialogue || How will Mariela receive the certificate? || *By email | By post | In person at the office || «Le mandaremos el certificado por correo electrónico.» || @tags es.listening
+      dict: Cuando hayan revisado los documentos, le llamarán para darle cita. || hayan revisado = have checked
+      say: ¿Podría decirme qué documentos tengo que traer? || Could you tell me which documents I need to bring?
+
+  - title: Formal complaints
+    summary: Read a formal letter of complaint to a town council and learn the structure, formulas and register of formal correspondence.
+    minutes: 50
+    skills: [reading, writing, vocabulary]
+    tags: [es.formal-writing, es.subjunctive-triggers]
+    objectives:
+      - Understand the structure of a formal letter of complaint
+      - Use the set formulas for opening, explaining, requesting and closing
+      - Express dissatisfaction formally with the perfect subjunctive (lamento que no se haya…)
+    intro: |
+      When a problem isn't solved by phone, it's time to put it in writing. A good formal complaint is firm but polite, gives precise facts and ends with a clear request. In this lesson you will read the letter a nurse in Valladolid sent to her town council about night-time roadworks, and learn the formulas that make a complaint effective — and taken seriously.
+    vocab: |
+      la reclamación | (formal) complaint; claim | n | Quiero presentar una reclamación por escrito. | I want to make a complaint in writing. | g: f | n: Also a claim for money: una reclamación de daños.
+      presentar una queja | to make a complaint | expr | El veintiocho de octubre presenté una queja por internet. | On the twenty-eighth of October I made a complaint online. | n: Una queja is more general; una reclamación is usually formal.
+      dirigirse a | to address; to write to | v | Me dirijo a ustedes para presentar una reclamación. | I am writing to you to make a complaint. | n: Spelling: me dirijo (g → j).
+      en calidad de | as; in my capacity as | expr | Les escribo en calidad de presidenta de la comunidad de vecinos. | I am writing to you as chair of the residents' association.
+      la ordenanza municipal | by-law; local regulation | n | La ordenanza municipal prohíbe las obras de noche. | The local by-law bans works at night. | g: f
+      el aviso | notice; warning | n | No hemos recibido ningún aviso. | We haven't received any notice. | g: m
+      adjuntar | to attach; to enclose | v | Adjunto copia de la queja anterior. | I attach a copy of my previous complaint.
+      inadmisible | unacceptable | adj | Me parece inadmisible que nadie nos haya informado. | I find it unacceptable that nobody has informed us. | n: Also: inaceptable.
+      solicitar | to request; to apply for | v | Les solicito que comprueben la autorización. | I request that you check the permit.
+      a fecha de hoy | as of today; to date | expr | A fecha de hoy, no he recibido respuesta. | To date, I have not received a reply.
+      sin otro particular | without further ado (closing formula) | expr | Sin otro particular, les saluda atentamente. | Yours faithfully. | n: A traditional closing formula, still common in formal letters.
+      la hoja de reclamaciones | official complaint form | n | Pidió la hoja de reclamaciones en la recepción del hotel. | She asked for the complaint form at the hotel reception. | g: f
+    grammar:
+      title: "Writing a formal complaint"
+      body: |
+        A formal letter or email of complaint in Spanish usually follows this structure, always with **usted / ustedes**:
+
+        1. **Heading**: recipient (*A la atención de…*) and subject (*Asunto: Reclamación por…*).
+        2. **Greeting**, followed by a **colon**: *Estimados señores: / Estimada señora Ruiz: / Muy señores míos:* (traditional).
+        3. **Purpose**: *Me dirijo a ustedes para… / Les escribo en relación con… / Por la presente…*
+        4. **Facts**, in order, with dates and objective language: *Desde el pasado veinte de octubre…, Como consecuencia…*
+        5. **Dissatisfaction**, often with the **perfect subjunctive** for what has (not) happened up to now: *Lamento que nadie **se haya puesto** en contacto conmigo. Me parece inadmisible que no **hayan dado** ninguna explicación.*
+        6. **Request**: *Les solicito que… / Les ruego que…* + **present subjunctive**: *Les ruego que **adopten** las medidas necesarias.* Or with an infinitive: *Solicito el reembolso del importe.*
+        7. **Closing**: *Quedo a la espera de su respuesta. / Sin otro particular, les saluda atentamente, / Atentamente,* + full name.
+
+        Keep the tone firm but polite: avoid exclamations, irony and colloquial words. Impersonal *se* and the passive help you sound objective: *se están realizando obras*.
+      table: |
+        Part | Formulas
+        Greeting | Estimados señores: · Estimada señora López: · Muy señores míos:
+        Purpose | Me dirijo a ustedes para… · Les escribo en relación con… · Por la presente…
+        Dissatisfaction | Lamento que… · Me parece inadmisible que… · Resulta sorprendente que… (+ subjunctive)
+        Request | Les solicito que… · Les ruego que… (+ subjunctive) · Solicito + noun
+        Attachments | Adjunto copia de… · Les adjunto…
+        Closing | Quedo a la espera de su respuesta. · Sin otro particular, les saluda atentamente, · Atentamente,
+      examples: |
+        Me dirijo a ustedes para presentar una reclamación formal por las obras de mi calle. | I am writing to you to make a formal complaint about the works in my street. | purpose
+        Lamento que, a fecha de hoy, nadie se haya puesto en contacto conmigo. | I regret that, to date, nobody has contacted me. | perfect subjunctive
+        Les ruego que adopten las medidas necesarias para reducir el ruido. | I request that you take the necessary measures to reduce the noise. | request + subjunctive
+        Quedo a la espera de su respuesta. Atentamente, Carmen Rubio. | I look forward to your reply. Yours faithfully, Carmen Rubio. | closing
+      tip: "Before you send it, check three things: a colon after the greeting, usted / ustedes all the way through, and one clear request at the end."
+    reading:
+      title: Reclamación por ruidos de obras en horario nocturno
+      text: |
+        A la atención del Servicio de Atención Ciudadana
+        Ayuntamiento de Valladolid
+
+        Asunto: Reclamación por ruidos de obras en horario nocturno
+
+        Estimados señores:
+
+        Me dirijo a ustedes en calidad de vecina de la calle Santa Lucía, número catorce, para presentar una reclamación formal por las obras que se están realizando en la red de alcantarillado de nuestra calle.
+
+        Desde el pasado veinte de octubre, las máquinas trabajan casi todas las noches entre las once y las tres de la madrugada. Según la ordenanza municipal, este tipo de trabajos solo está permitido durante el día, salvo en casos de urgencia debidamente comunicados a los vecinos. Sin embargo, en ningún momento hemos recibido aviso alguno.
+
+        Como consecuencia, muchos residentes, entre ellos varias personas mayores y familias con niños pequeños, llevamos tres semanas sin poder descansar con normalidad. En mi caso, trabajo como enfermera en el turno de mañana, y la falta de sueño está afectando seriamente a mi trabajo.
+
+        El veintiocho de octubre presenté una primera queja a través de la sede electrónica, de la cual adjunto copia. Lamento profundamente que, a fecha de hoy, nadie se haya puesto en contacto conmigo y que las obras hayan continuado en el mismo horario. Me parece inadmisible que un servicio público no haya dado ninguna explicación a los vecinos afectados.
+
+        Por todo ello, les solicito, en primer lugar, que comprueben si las obras cuentan con la autorización necesaria para trabajar de noche; en segundo lugar, que informen a los vecinos del calendario previsto; y, por último, que adopten las medidas necesarias para que los trabajos se realicen durante el día.
+
+        Quedo a la espera de su respuesta en el plazo establecido.
+
+        Sin otro particular, les saluda atentamente,
+
+        Carmen Rubio Gallego
+      translation: |
+        For the attention of the Citizens' Service
+        Valladolid City Council
+
+        Subject: Complaint about noise from night-time works
+
+        Dear Sir or Madam,
+
+        I am writing to you as a resident of number fourteen, Calle Santa Lucía, to make a formal complaint about the works being carried out on the sewer network in our street.
+
+        Since the twentieth of October, the machines have been working almost every night between eleven at night and three in the morning. According to the local by-law, this type of work is only permitted during the day, except in emergencies duly communicated to residents. However, at no point have we received any notice.
+
+        As a result, many residents, including several elderly people and families with small children, have been unable to rest properly for three weeks. In my case, I work as a nurse on the morning shift, and the lack of sleep is seriously affecting my work.
+
+        On the twenty-eighth of October I submitted a first complaint through the online office, a copy of which I attach. I deeply regret that, to date, nobody has contacted me and that the works have continued at the same hours. I find it unacceptable that a public service has given no explanation to the residents affected.
+
+        For all these reasons, I request, firstly, that you check whether the works have the necessary permit to operate at night; secondly, that you inform residents of the planned schedule; and finally, that you take the necessary measures so that the work is carried out during the day.
+
+        I look forward to your reply within the established period.
+
+        Yours faithfully,
+
+        Carmen Rubio Gallego
+    pronunciation:
+      title: "Formal formulas"
+      body: |
+        Formal formulas are often read aloud — in a meeting, a phone call or a presentation — so they need to sound fluent. Practise them as single units, linking the words: *Me_dirijo_a_ustedes*, *Quedo_a_la_espera*. Remember that **g** before *e* / *i* and **j** sound the same [x]: *dirijo, dirigirse*.
+
+        Keep a steady, calm rhythm and let the voice fall at the end of each formula.
+      items: |
+        Estimados señores:
+        Me dirijo a ustedes para…
+        Les ruego que…
+        Adjunto copia.
+        Quedo a la espera de su respuesta.
+        Les saluda atentamente.
+    culture:
+      title: "The hoja de reclamaciones"
+      body: |
+        In Spain, all shops, restaurants, hotels and other businesses must have official complaint forms — **hojas de reclamaciones** — and give one to any customer who asks for it. The customer fills it in, keeps a copy and can take it to the local consumer office. Simply asking for the form is often enough to solve a problem.
+
+        For complaints about public administration that are not resolved, citizens can turn to the **Defensor del Pueblo**, the national ombudsman, and in several regions to a regional equivalent.
+    mistakes: |
+      Querido Sr. López, => Estimado señor López: | A formal letter opens with estimado / estimada and a colon; querido is for people you know well.
+      Lamento que no han contestado a mi correo. => Lamento que no hayan contestado a mi correo. | Lamentar que + subjunctive; for something up to now, the perfect subjunctive.
+      Espero vuestra respuesta. Un beso. => Quedo a la espera de su respuesta. Atentamente, | Use usted / ustedes and a formal closing formula.
+    task:
+      title: Put it in writing
+      mode: writing
+      body: |
+        Write a formal letter or email of complaint (150–180 words) to a service that has let you down: your internet provider, a gym, a public sports centre or your town council. Follow the seven-part structure from this lesson: give precise facts and dates, express your dissatisfaction with at least two perfect subjunctives (*lamento que…, me parece inadmisible que…*), mention an attachment and make two concrete requests with *les solicito que* or *les ruego que*.
+    exercises: |
+      mc: Why is Carmen writing to the council? || *Because of the noise from night-time works | Because of a burst pipe in her flat | Because of the cost of the works || «Reclamación por ruidos de obras en horario nocturno.» || @ctx reading @tags es.reading
+      tf: The residents were warned before the night works began. || false || «En ningún momento hemos recibido aviso alguno.» || @ctx reading @tags es.reading
+      short: Why does the lack of sleep affect Carmen's work in particular? || kw: enfermera/nurse/turno/shift/mañana/morning/early || She is a nurse on the morning shift. || @ctx reading @tags es.reading
+      fill: Lamento que, a fecha de hoy, nadie ___ (ponerse) en contacto conmigo. || se haya puesto || Lamentar que + perfect subjunctive. Ponerse has an irregular participle: puesto. || @tags es.subjunctive-triggers,es.formal-writing
+      fill: Me parece inadmisible que la empresa no ___ (responder) a mis correos. || haya respondido || An evaluation of something that has not happened up to now: perfect subjunctive. || @tags es.subjunctive-triggers,es.formal-writing
+      fill: Les ruego que me ___ (enviar) una copia de la autorización. || envíen || Rogar que + present subjunctive for a request. Note the accent: envíen. || @tags es.subjunctive-triggers,es.formal-writing
+      mc: How should you open a formal complaint to a company? || Hola, chicos: | *Estimados señores: | Querida empresa, || Estimados señores followed by a colon is the standard formal greeting. || @tags es.formal-writing
+      mc: Which sentence is the most appropriate in a formal letter? || Esto es una vergüenza, ¡arreglad el problema ya! | *Les ruego que tomen las medidas necesarias para resolver el problema. | Porfa, a ver si lo arregláis pronto. || A formal request uses ustedes, les ruego que + subjunctive and no exclamations or colloquial words. || @tags es.formal-writing,es.register
+      rw: Rewrite in a formal register, starting with «Me dirijo a ustedes para…» :: Os escribo para quejarme del ruido. || Me dirijo a ustedes para quejarme del ruido. | Me dirijo a ustedes para presentar una queja por el ruido. | Me dirijo a ustedes para presentar una reclamación por el ruido. || Me dirijo a ustedes replaces the informal os escribo. || @tags es.formal-writing,es.register
+      tr: I attach a copy of the invoice. || Adjunto una copia de la factura. | Adjunto copia de la factura. | Les adjunto una copia de la factura. | Le adjunto una copia de la factura. | Les adjunto copia de la factura. || Adjuntar = to attach; in formal letters the article is often dropped: adjunto copia de… || @tags es.formal-writing
+      listen: Buenos días. Llamo porque presenté una reclamación hace un mes y me sorprende que todavía no me hayan contestado. || What surprises the caller? || *That nobody has answered her complaint yet | That her complaint was accepted | That she has to call again || «Me sorprende que todavía no me hayan contestado.» || @tags es.listening,es.subjunctive-triggers
+      listen: Si no está satisfecho con el servicio, puede pedir la hoja de reclamaciones en recepción; estamos obligados a facilitársela. || Where can you ask for the complaint form? || *At reception | On the website | At the town hall || «Puede pedir la hoja de reclamaciones en recepción.» || @tags es.listening,es.formal-writing
+      dict: Quedo a la espera de su respuesta. Sin otro particular, les saluda atentamente. || formal closing
+      say: Les ruego que tomen las medidas necesarias lo antes posible. || I request that you take the necessary measures as soon as possible.
+      write: Write a formal email of complaint (110–130 words) to your internet provider. Your connection has failed several times this month and the technician who was supposed to come never arrived. || min=100 || req: estimados/estimada/estimado/muy señores | me dirijo/les escribo/por la presente | lamento que/me parece inadmisible que/es inaceptable que/me sorprende que | solicito/les ruego que | atentamente/quedo a la espera || Estimados señores: Me dirijo a ustedes para presentar una reclamación por el servicio de internet de mi domicilio. Desde el pasado cinco de marzo, la conexión se ha cortado al menos seis veces, en algunos casos durante más de un día. Como trabajo desde casa, esto me ha causado graves problemas. El día doce me dieron cita con un técnico, pero nadie se presentó. Me parece inadmisible que, a fecha de hoy, nadie se haya puesto en contacto conmigo para explicarme lo sucedido. Por ello, les ruego que envíen un técnico esta semana y les solicito un descuento en la factura de este mes. Quedo a la espera de su respuesta. Atentamente, Laura Méndez Vidal

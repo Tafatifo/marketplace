@@ -1,0 +1,360 @@
+unit: 2
+title: Mi familia y yo
+theme: Family and people
+description: Talk about your family, describe what people look like and what they are like, and say what you and others do for a living.
+free: true
+objectives:
+  - Talk about your family with possessives (mi, tu, su, nuestro…)
+  - Describe people's appearance and personality with adjectives that agree
+  - Say what people do and where they work, using ser + job and the right article
+canDo:
+  - I can name the members of my family and say how old they are.
+  - I can describe what someone looks like and what they are like.
+  - I can say what I do and where I work or study.
+  - I can ask other people about their family and their job.
+review: |
+  mc: "Our grandmother" is… || nuestro abuela | *nuestra abuela | nuestras abuela || Abuela is feminine singular, so nuestro becomes nuestra. || @tags es.possessives
+  fill: Mis primas son muy ___ (simpático). || simpáticas || Primas is feminine plural: simpáticas. || @tags es.adjective-agreement
+  fill: Ella es ___ (profesor) de inglés. || profesora || Jobs in -or add -a for a woman: profesora. || @tags es.gender
+  fill: ¿Cómo se llaman ___ padres? (your, informal) || tus || Padres is plural, so tu becomes tus. || @tags es.possessives
+  mc: Choose the correct sentence. || Mi tío es un camarero. | *Mi tío es camarero. | Mi tío tiene camarero. || Ser + job normally takes no article: es camarero. || @tags es.ser
+  tr: My brother is tall and has curly hair. || Mi hermano es alto y tiene el pelo rizado. | Mi hermano es alto y tiene pelo rizado. || Ser for appearance (alto), tener for hair (el pelo rizado). || @tags es.adjective-agreement,es.tener
+  tr: Her parents are doctors. || Sus padres son médicos. || Su + plural noun = sus; médicos covers a mixed couple. || @tags es.possessives,es.ser
+  listen: Mi madre se llama Teresa. Es baja, morena y trabaja en una farmacia. || What does Teresa look like? || *Short and dark-haired | Tall and blonde | Tall and dark-haired || "Es baja, morena" — short and dark-haired. || @tags es.adjective-agreement
+  listen: Mi hermano Óscar tiene veinte años y es camarero. || What does Óscar do? || He's a student | *He's a waiter | He's a nurse || "Es camarero" — he's a waiter. || @tags es.ser
+  ask: Describe one member of your family — name, age, job and what they look like. || kw: se llama/es & tiene & es || Mi hermana se llama Julia. Tiene diecisiete años y es estudiante. Es alta, rubia y muy divertida.
+  write: Write a short email to a new pen-pal about your family (who they are, ages, jobs, what they are like). || min=35 || req: mi/mis | se llama/se llaman | tiene/tengo | es/son || ¡Hola, Inés! Mi familia es pequeña. Mis padres se llaman Ana y Luis. Mi madre es enfermera y mi padre es profesor. Tengo un hermano, Max. Tiene quince años y es muy simpático, pero un poco tímido. ¿Y tu familia?
+lessons:
+  - title: My family
+    summary: Name the people in your family and talk about them with possessives and the right articles.
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.possessives, es.gender]
+    objectives:
+      - Name the members of your family
+      - Use mi, tu, su, nuestro and vuestro correctly
+      - Ask and answer simple questions about someone's family
+    intro: |
+      Family comes up in almost every first conversation in Spain — *¿Tienes hermanos?* is a classic question. In this lesson you will learn the words for close family, how Spanish uses the masculine plural for mixed groups (**los padres**, **los hermanos**), and the possessives **mi, tu, su, nuestro, vuestro**.
+    vocab: |
+      la familia | family | n | Mi familia es pequeña. | My family is small. | g: f
+      el padre | father | n | Mi padre se llama Antonio. | My father's name is Antonio. | g: m | n: Informal: papá.
+      la madre | mother | n | Mi madre es de Lugo. | My mother is from Lugo. | g: f | n: Informal: mamá.
+      los padres | parents | n | Mis padres viven en Toledo. | My parents live in Toledo. | g: m | n: Careful — relatives are los parientes or los familiares.
+      el hermano | brother | n | Tengo un hermano y una hermana. | I have a brother and a sister. | g: m | n: Los hermanos = brothers, or brothers and sisters.
+      la hermana | sister | n | Mi hermana tiene dieciséis años. | My sister is sixteen. | g: f
+      el hijo | son | n | Nuestro hijo se llama Hugo. | Our son's name is Hugo. | g: m | n: Los hijos = sons, or children (sons and daughters).
+      la hija | daughter | n | Tienen una hija de tres años. | They have a three-year-old daughter. | g: f
+      el abuelo | grandfather | n | Mi abuelo es de Cuba. | My grandfather is from Cuba. | g: m | n: Los abuelos = grandparents.
+      la abuela | grandmother | n | Mi abuela vive con nosotros. | My grandmother lives with us. | g: f
+      el primo | cousin (male) | n | Tengo seis primos. | I have six cousins. | g: m | n: A female cousin is la prima.
+      la pareja | partner | n | Mi pareja se llama Sam. | My partner's name is Sam. | g: f | n: Always feminine, for a man or a woman. Married people also say mi marido / mi mujer (Spain) or mi esposo / mi esposa.
+      mayor | older | adj | Mi hermana mayor vive en Londres. | My older sister lives in London. | n: The same for masculine and feminine. Plural: mayores.
+      menor | younger | adj | Mis hermanos menores son gemelos. | My younger brothers are twins. | n: Also: el pequeño / la pequeña (the youngest child).
+    grammar:
+      title: "Possessives: mi, tu, su…"
+      body: |
+        Possessives go **before** the noun and agree with the **thing possessed**, not with the owner: *mi hermano, mis hermanos*.
+
+        - **mi, tu, su** have two forms: singular and plural (*mi padre, mis padres*).
+        - **nuestro** and **vuestro** have four forms, because they also agree in gender: *nuestro hijo, nuestra hija, nuestros hijos, nuestras hijas*.
+        - **su / sus** can mean *his, her, its, their* or *your* (usted, ustedes). Context makes it clear.
+        - **tu** (*your*) has no accent; **tú** with an accent means *you*.
+
+        Spanish has no **'s**. To say *Ana's brother*, use **de**: *el hermano de Ana*.
+
+        Family nouns show how gender works: *el hermano* (m) and *la hermana* (f). The **masculine plural** covers mixed groups: *los padres* (mother and father), *los abuelos* (grandmother and grandfather).
+      table: |
+        Owner | + singular noun | + plural noun
+        yo | mi hermano | mis hermanos
+        tú | tu madre | tus padres
+        él / ella / usted | su hija | sus hijas
+        nosotros / nosotras | nuestro abuelo · nuestra abuela | nuestros primos · nuestras primas
+        vosotros / vosotras (Spain) | vuestro padre · vuestra madre | vuestros hijos · vuestras hijas
+        ellos / ellas / ustedes | su familia | sus abuelos
+      examples: |
+        Mi hermana se llama Laura. | My sister's name is Laura.
+        ¿Cómo se llaman tus padres? | What are your parents' names?
+        Nuestra hija tiene seis años. | Our daughter is six.
+        Marta y su hermano son de Murcia. | Marta and her brother are from Murcia.
+      tip: "If su is ambiguous, use de instead: el hermano de Marta (Marta's brother), la casa de usted (your house)."
+    dialogue:
+      title: Las fotos de Elena
+      setting: In a café in Seville, Elena shows her friend Samir some family photos on her phone.
+      speakers: E=Elena/f; S=Samir/m
+      lines: |
+        S: ¿Quién es? ¿Es tu hermana? | Who's that? Is it your sister?
+        E: No, es mi prima Alba. | No, it's my cousin Alba.
+        S: ¿Y los niños? | And the children?
+        E: Son los hijos de mi hermano. | They're my brother's children.
+        S: ¿Cuántos años tienen? | How old are they?
+        E: Leo tiene cinco años y Vera, tres. | Leo is five and Vera is three.
+        S: ¿Tienes una familia grande? | Do you have a big family?
+        E: Sí, tengo dos hermanos y seis primos. | Yes, I have two brothers and six cousins.
+        S: Pues yo soy hijo único. | Well, I'm an only child.
+        E: ¿Y tus padres viven aquí, en Sevilla? | And do your parents live here, in Seville?
+        S: No, viven en Tánger, con mi abuela. | No, they live in Tangier, with my grandmother.
+    pronunciation:
+      title: "The tapped r and the trilled rr"
+      body: |
+        Spanish has two r sounds. A single **r** between vowels or after a consonant is a quick tap of the tongue, like the *tt* in American *butter*: *pero* (but), *padre*, *primo*.
+
+        **rr**, and **r** at the start of a word, is a trill — several quick taps: *perro* (dog), *Rocío*, *rizado*. *Pero* and *perro* are different words, so practise the contrast.
+      items: |
+        padre
+        hermano
+        primo
+        pero
+        perro
+        rizado
+    culture:
+      title: Family life in Spain
+      body: |
+        Family ties are strong in Spain. Many young people live with their parents until their late twenties or beyond, and Sunday lunch with grandparents, aunts, uncles and cousins is a common tradition.
+
+        Families come in all shapes: small families with one or two children are typical today, many couples live together without marrying, and same-sex marriage has been legal in Spain since 2005. **La pareja** (partner) is a useful, neutral word for any couple.
+    mistakes: |
+      Mi padres viven en Toledo. => Mis padres viven en Toledo. | The possessive agrees with the noun: padres is plural, so mis.
+      Mis parientes viven en Lima. (meaning "my parents") => Mis padres viven en Lima. | Padres = parents; parientes = relatives.
+      Tú hermano es muy alto. => Tu hermano es muy alto. | The possessive tu has no accent; tú with an accent means "you".
+      Nuestro hija tiene seis años. => Nuestra hija tiene seis años. | Nuestro agrees with the noun: hija is feminine, so nuestra.
+    task:
+      title: Your family photo
+      mode: speaking
+      body: |
+        Choose a family photo (or invent a family). Present three people: who they are, their names and their ages — *Esta es mi hermana. Se llama…* Then ask a partner or the AI coach two questions about their family: *¿Tienes hermanos? ¿Cómo se llaman tus padres?*
+    exercises: |
+      fill: ___ padres son de Lugo. (my) || Mis || Padres is plural, so mi becomes mis. || @tags es.possessives
+      fill: ¿Cómo se llama ___ hermana? (your, informal) || tu || Tu (no accent) is the possessive "your". || @tags es.possessives
+      fill: ___ hija tiene seis años. (our) || Nuestra || Hija is feminine singular: nuestra. || @tags es.possessives
+      mc: Marta and her brother live in Cádiz. → "Marta y ___ hermano viven en Cádiz." || *su | sus | tu || One brother, so singular su (her). Sus would need a plural noun. || @tags es.possessives
+      mc: "Mis hermanos" can mean… || *my brothers, or my brothers and sisters | only my sisters | my cousins || The masculine plural covers mixed groups. Sisters only would be mis hermanas. || @tags es.gender
+      fill: ___ abuela de Carlos es de Cuba. || La || Abuela is feminine singular: la abuela. || @tags es.articles,es.gender
+      mc: Who are Leo and Vera? || Elena's children | *Elena's brother's children | Samir's cousins || "Son los hijos de mi hermano" — they're her brother's children. || @ctx dialogue @skill reading @tags es.reading
+      tf: Samir has two brothers. || false || Samir is hijo único (an only child). It's Elena who has two brothers. || @ctx dialogue
+      tr: Ana's brother is twelve. || El hermano de Ana tiene doce años. || There's no 's in Spanish: el hermano de Ana. Age uses tener. || @tags es.possessives,es.tener
+      tr: Our parents live in Seville. || Nuestros padres viven en Sevilla. || Padres is masculine plural, so nuestros. || @tags es.possessives
+      rw: Make it plural :: Mi primo es de Bilbao. || Mis primos son de Bilbao. || Mi → mis, primo → primos, es → son. || @tags es.plural,es.possessives
+      listen: Tengo una hermana mayor y dos hermanos menores. || How many brothers and sisters does the speaker have? || Two | *Three | Four || One older sister plus two younger brothers makes three. || @tags es.numbers
+      dict: Mis abuelos viven con nosotros.
+      ask: Talk about your family — how many brothers and sisters you have and what your parents are called. || kw: tengo/hijo único/hija única & mi/mis || Tengo un hermano y una hermana. Mis padres se llaman Ruth y David.
+      write: Write 3–4 sentences about one of your relatives (name, age, where they live). || min=20 || req: mi/mis | se llama | tiene | años || Mi prima se llama Alba. Tiene dieciocho años y vive en Sevilla con sus padres. Su hermano se llama Pablo.
+
+  - title: Describing people
+    summary: Describe what people look like and what they are like, with ser, tener and llevar and adjectives that agree.
+    minutes: 40
+    skills: [grammar, vocabulary, listening]
+    tags: [es.adjective-agreement, es.ser]
+    objectives:
+      - Describe appearance with ser, tener (hair, eyes) and llevar (glasses)
+      - Describe personality with common adjectives
+      - Make adjectives agree in gender and number
+    intro: |
+      *¿Cómo es?* — "What is he/she like?" — is how you ask about someone's appearance and personality. To answer you need adjectives, and in Spanish adjectives change their ending to match the person: **alto** for a man, **alta** for a woman, **altos** and **altas** for groups.
+    vocab: |
+      alto | tall | adj | Mi hermano es muy alto. | My brother is very tall. | n: Opposite: bajo.
+      bajo | short (height) | adj | Mi madre es baja y morena. | My mother is short and dark-haired.
+      delgado | slim | adj | Es delgado y bastante alto. | He's slim and quite tall.
+      rubio | blond, fair-haired | adj | Mi hija es rubia. | My daughter is blonde. | n: Red-haired: pelirrojo.
+      moreno | dark-haired; dark-skinned | adj | Javier es moreno, con el pelo corto. | Javier is dark-haired, with short hair. | n: In summer, estar moreno means "to be tanned".
+      simpático | nice, friendly | adj | Tu prima es muy simpática. | Your cousin is very nice. | n: A false friend — it doesn't mean "sympathetic". Opposite: antipático.
+      divertido | fun, funny | adj | Mi tío es muy divertido. | My uncle is really fun.
+      tímido | shy | adj | Soy un poco tímida. | I'm a bit shy.
+      joven | young | adj | Los profesores son jóvenes. | The teachers are young. | n: Plural: jóvenes (with an accent). For older people, mayor is the polite word.
+      inteligente | intelligent, clever | adj | Tu hermana es muy inteligente. | Your sister is very clever. | n: The same form for masculine and feminine.
+      trabajador | hard-working | adj | Mi madre es muy trabajadora. | My mother is very hard-working. | n: Feminine: trabajadora.
+      el pelo | hair | n | Tiene el pelo largo y rizado. | She has long, curly hair. | g: m | c: el pelo corto; el pelo largo; el pelo liso; el pelo rizado
+      los ojos | eyes | n | Tiene los ojos azules. | He has blue eyes. | g: m | c: los ojos azules; los ojos verdes; los ojos marrones
+      llevar gafas | to wear glasses | expr | Mi padre lleva gafas. | My father wears glasses. | n: Also llevar barba (to have a beard). In Latin America: usar lentes or anteojos.
+    grammar:
+      title: Adjective agreement
+      body: |
+        Adjectives agree with the noun they describe in **gender** (masculine/feminine) and **number** (singular/plural), and they usually go **after** the noun: *un chico alto, una chica alta, unos chicos altos, unas chicas altas*.
+
+        - Adjectives ending in **-o** have four forms: *alto, alta, altos, altas*.
+        - Adjectives ending in **-e** or in most consonants have two forms: *inteligente, inteligentes*; *joven, jóvenes*.
+        - Adjectives ending in **-or** add **-a** for the feminine: *trabajador → trabajadora*.
+        - A mixed group takes the **masculine plural**: *Mis padres son simpáticos.*
+
+        To describe people, use **ser** for build and character (*Es alta. Es simpático.*), **tener** for hair and eyes (*Tiene el pelo corto. Tiene los ojos verdes.*) and **llevar** for glasses or a beard (*Lleva gafas.*).
+      table: |
+        Ending | masculine | feminine | masc. plural | fem. plural
+        -o | alto | alta | altos | altas
+        -e | inteligente | inteligente | inteligentes | inteligentes
+        consonant | joven | joven | jóvenes | jóvenes
+        -or | trabajador | trabajadora | trabajadores | trabajadoras
+      examples: |
+        Mi hermana es alta y morena. | My sister is tall and dark-haired.
+        Mis abuelos son muy simpáticos. | My grandparents are very nice.
+        Tiene el pelo rizado y lleva gafas. | He has curly hair and wears glasses.
+        Es un chico tímido pero muy divertido. | He's a shy boy but really fun.
+      tip: "Un poco (a bit) usually goes with less positive qualities: un poco tímido. With positive ones, use bastante (quite) or muy: bastante simpático."
+    dialogue:
+      title: ¿Cómo es tu primo?
+      setting: Irene is meeting Daniel's cousin Marcos at Atocha station in Madrid. She has never seen him, so she calls Daniel.
+      speakers: I=Irene/f; D=Daniel/m
+      lines: |
+        I: Daniel, ¿cómo es tu primo Marcos? | Daniel, what does your cousin Marcos look like?
+        D: Es alto y delgado. | He's tall and slim.
+        I: ¿Es rubio o moreno? | Is he blond or dark-haired?
+        D: Es moreno, con el pelo rizado. | He's dark-haired, with curly hair.
+        I: ¿Lleva gafas? | Does he wear glasses?
+        D: Sí, lleva gafas grandes. | Yes, he wears big glasses.
+        I: ¿Y cómo es? ¿Es simpático? | And what's he like? Is he nice?
+        D: Muy simpático, pero un poco tímido. | Very nice, but a bit shy.
+        I: ¡Perfecto! Gracias, Daniel. | Perfect! Thanks, Daniel.
+        D: ¡De nada! Marcos es muy divertido. | You're welcome! Marcos is really fun.
+    pronunciation:
+      title: Word stress and written accents
+      body: |
+        Spanish stress follows simple rules. Words ending in a **vowel, n or s** are stressed on the second-to-last syllable: *delgado, inteligente, joven*. Words ending in **another consonant** are stressed on the last syllable: *trabajador*.
+
+        A **written accent** marks a word that breaks the rules: *simpático, tímido*. That's why *joven* has no accent but its plural *jóvenes* needs one — the stress stays on the same syllable.
+      items: |
+        simpático
+        tímido
+        joven
+        jóvenes
+        delgado
+        trabajador
+    culture:
+      title: Talking about appearance
+      body: |
+        Spanish speakers are often quite direct when they describe people, but some words are kinder than others. For an older person, say **mayor** rather than *viejo*, which can sound rude. Diminutives soften a description: *bajito* (a bit short) sounds friendlier than *bajo*.
+
+        **Moreno** is a very common word in Spain: it can mean dark-haired, dark-skinned or — with estar in summer — tanned. Context tells you which.
+    mistakes: |
+      Mi hermana es alto. => Mi hermana es alta. | Adjectives agree with the person: hermana is feminine, so alta.
+      Es pelo largo. => Tiene el pelo largo. | Use tener for hair and eyes, with the article: tiene el pelo largo.
+      Mis padres son simpático. => Mis padres son simpáticos. | A plural noun needs a plural adjective.
+      Es un rubio chico. => Es un chico rubio. | Adjectives of colour and appearance go after the noun.
+    task:
+      title: Meet me at the airport
+      mode: writing
+      body: |
+        A Spanish friend of a friend is picking you up at Barcelona airport tomorrow. Write a short message describing yourself so they can recognise you: height, hair, eyes, glasses — and one word about your personality.
+    exercises: |
+      fill: Mi abuela es muy ___ (simpático). || simpática || Abuela is feminine singular: simpática. || @tags es.adjective-agreement
+      fill: Mis hermanos son ___ (alto). || altos || Hermanos is masculine plural: altos. || @tags es.adjective-agreement
+      fill: Las profesoras son ___ (joven). || jóvenes || Joven → jóvenes; the accent keeps the stress on the same syllable. || @tags es.adjective-agreement,es.plural
+      fill: Mi padre ___ el pelo corto. || tiene || Hair and eyes use tener: tiene el pelo corto. || @tags es.tener
+      mc: Choose the correct sentence. || Es una chica rubio. | *Es una chica rubia. | Es una rubia chica. || The adjective agrees (rubia) and goes after the noun. || @tags es.adjective-agreement
+      mc: "Simpático" means… || sympathetic | *nice, friendly | shy || A false friend: simpático = nice, friendly. Shy is tímido. || @skill vocabulary @tags es.vocabulary
+      mc: How does Daniel describe his cousin's personality? || Shy and unfriendly | *Very nice, but a bit shy | Serious and quiet || "Muy simpático, pero un poco tímido." || @ctx dialogue @skill reading @tags es.reading
+      tf: Marcos is blond. || false || He's moreno — dark-haired, with curly hair. || @ctx dialogue
+      rw: Describe a woman instead :: Es alto, moreno y muy trabajador. || Es alta, morena y muy trabajadora. || -o → -a, and trabajador → trabajadora. || @tags es.adjective-agreement
+      order: Mi tía es baja y lleva gafas. || My aunt is short and wears glasses. || @tags es.adjective-agreement
+      tr: My friends are very funny. || Mis amigos son muy divertidos. | Mis amigas son muy divertidas. || Plural noun, plural adjective: divertidos (or divertidas for women only). || @tags es.adjective-agreement,es.possessives
+      listen: Mi hermano Raúl es alto, rubio y lleva gafas. || Which description matches Raúl? || Short and dark-haired | *Tall, blond, with glasses | Tall, dark-haired, with a beard || Alto = tall, rubio = blond, lleva gafas = wears glasses. || @tags es.adjective-agreement
+      dict: Mi madre es baja, morena y muy simpática.
+      ask: Describe a friend — what they look like and what they are like. || kw: es & tiene/lleva || Mi amiga Sara es alta y delgada. Tiene el pelo largo y es muy divertida.
+      write: Describe yourself in a message to someone who is meeting you at the airport. || min=20 || req: soy | tengo | llevo || Hola, Pilar. Soy alta y morena. Tengo el pelo corto y los ojos marrones, y llevo gafas. ¡Soy muy simpática! Hasta mañana.
+
+  - title: Jobs and workplaces
+    summary: Say what you and other people do and where they work, with ser + job, the gender of nouns and articles.
+    minutes: 40
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.ser, es.articles, es.gender]
+    objectives:
+      - Say what someone does with ser + job (no article)
+      - Use masculine and feminine job titles
+      - Use el, la, un, una correctly with workplaces
+    intro: |
+      *¿A qué te dedicas?* (What do you do?) is the question that follows *¿Cómo te llamas?* In Spanish you answer with **ser + the job, without an article** — *Soy enfermera* — and most job titles have a masculine and a feminine form. You will also learn how to tell whether a noun is masculine or feminine.
+    vocab: |
+      trabajar | to work | v | Trabajo en un hospital. | I work in a hospital. | c: trabajar en (+ place); trabajar de (+ job)
+      ¿a qué te dedicas? | what do you do (for a living)? | expr | ¿Y tú, a qué te dedicas? | And you, what do you do? | n: Formal: ¿A qué se dedica usted? Also: ¿En qué trabajas?
+      el profesor | teacher | n | Mi madre es profesora de música. | My mother is a music teacher. | g: m | n: Feminine: la profesora.
+      el médico | doctor | n | Mi tía es médica en Burgos. | My aunt is a doctor in Burgos. | g: m | n: Feminine: la médica (you will also hear la médico).
+      el enfermero | nurse | n | Mi hermano es enfermero. | My brother is a nurse. | g: m | n: Feminine: la enfermera.
+      el camarero | waiter | n | Soy camarero en un bar de Cádiz. | I'm a waiter in a bar in Cádiz. | g: m | n: Feminine: la camarera. In Latin America: el mesero or el mozo.
+      el periodista | journalist | n | Carla es periodista. | Carla is a journalist. | g: m/f | n: Nouns in -ista are the same for both: el periodista, la periodista.
+      el ingeniero | engineer | n | Mi pareja es ingeniera. | My partner is an engineer. | g: m | n: Feminine: la ingeniera.
+      el dependiente | shop assistant | n | Mi hijo es dependiente en una librería. | My son is a shop assistant in a bookshop. | g: m | n: Feminine: la dependienta.
+      la oficina | office | n | Trabajo en una oficina en el centro. | I work in an office in the centre. | g: f
+      el hospital | hospital | n | La enfermera trabaja en el hospital. | The nurse works at the hospital. | g: m
+      la tienda | shop | n | Mi padre tiene una tienda de ropa. | My father has a clothes shop. | g: f
+      la empresa | company | n | Trabajo en una empresa de transporte. | I work for a transport company. | g: f
+      en casa | at home | expr | Mi pareja trabaja en casa. | My partner works from home. | n: No article: en casa.
+    grammar:
+      title: "Ser + job; nouns, gender and articles"
+      body: |
+        To say what someone does, use **ser + the job with no article**: *Soy enfermera* (not ~~soy una enfermera~~). You can also say **trabajar de**: *Trabaja de camarero*. Add an article only when there's an adjective: *Es una médica muy buena.*
+
+        Most jobs have two forms: **-o → -a** (*médico → médica*), **-or → -ora** (*profesor → profesora*). Jobs ending in **-ista** or **-e** usually stay the same (*el/la periodista, el/la estudiante*), with a few exceptions such as *dependiente → dependienta*.
+
+        Every Spanish noun is **masculine or feminine**. As a rule, nouns ending in **-o** are masculine (*el colegio*) and nouns ending in **-a**, **-ción** or **-dad** are feminine (*la oficina, la estación, la ciudad*). Other endings must be learnt: *el hospital, la mujer*. Watch out for exceptions like *el día, el problema, la mano, la foto*.
+
+        The article agrees with the noun: **el / la / los / las** (*the*) and **un / una / unos / unas** (*a, an, some*).
+      table: |
+        Article | masculine | feminine
+        the (singular) | el hospital | la oficina
+        the (plural) | los hospitales | las oficinas
+        a, an | un colegio | una tienda
+        some | unos colegios | unas tiendas
+      examples: |
+        Soy ingeniera y trabajo en una empresa de transporte. | I'm an engineer and I work for a transport company.
+        Mi hermano es camarero en un bar. | My brother is a waiter in a bar.
+        Es una médica muy buena. | She's a very good doctor. | adjective → article
+        Trabaja en casa. | He works from home.
+      tip: "Learn every noun with its article — el día, la mano — because the ending doesn't always tell you the gender."
+    dialogue:
+      title: En la boda
+      setting: At a wedding reception in Gijón, Rosa, the bride's aunt, chats with Kofi, a friend of the groom.
+      speakers: R=Rosa/f; K=Kofi/m
+      lines: |
+        R: Hola, soy Rosa, la tía de la novia. | Hi, I'm Rosa, the bride's aunt.
+        K: Encantado, Rosa. Soy Kofi, amigo de Pablo. | Nice to meet you, Rosa. I'm Kofi, a friend of Pablo's.
+        R: ¿Y a qué te dedicas, Kofi? | And what do you do, Kofi?
+        K: Soy enfermero. Trabajo en un hospital. | I'm a nurse. I work in a hospital.
+        R: ¡Qué bien! Mi hija también es enfermera. | How nice! My daughter is a nurse too.
+        K: ¿Y tú? ¿En qué trabajas? | And you? What's your job?
+        R: Soy periodista, pero trabajo en casa. | I'm a journalist, but I work from home.
+        K: ¡Qué interesante! ¿Escribes para un periódico? | How interesting! Do you write for a newspaper?
+        R: Sí, para un periódico de Asturias. | Yes, for a newspaper in Asturias.
+        K: Pablo es ingeniero, ¿no? | Pablo is an engineer, isn't he?
+        R: Sí, y la novia es profesora. | Yes, and the bride is a teacher.
+    pronunciation:
+      title: "The sound of j and g: trabajar, ingeniero"
+      body: |
+        The letter **j** is always a strong, breathy sound made at the back of the mouth, a bit like the *ch* in Scottish *loch*: *trabajar, jefe*. The letter **g** makes the same sound before **e** or **i**: *ingeniero, colegio, Gijón*.
+
+        Before **a, o, u** or a consonant, **g** is a soft [g] as in English *go*: *gafas, amigo, grande*.
+      items: |
+        trabajar
+        ingeniero
+        colegio
+        Gijón
+        gafas
+        amigo
+    culture:
+      title: The Spanish working day
+      body: |
+        Many Spanish offices and shops have a **jornada partida** (split day): work from about 9 a.m. to 2 p.m., a long lunch break, then work again from about 4 or 5 p.m. until 7 or 8 p.m. Small shops often close in the early afternoon.
+
+        In July and August many companies switch to a **jornada intensiva** (continuous day), for example 8 a.m. to 3 p.m., so people can enjoy the long summer afternoons.
+    mistakes: |
+      Soy un enfermero. => Soy enfermero. | With ser + job, Spanish normally leaves out the article.
+      Ella es profesor. => Ella es profesora. | Jobs ending in -or add -a for a woman.
+      Trabajo en la casa. => Trabajo en casa. | "At home" or "from home" is en casa, with no article.
+    task:
+      title: Networking event
+      mode: interaction
+      body: |
+        You are at a networking breakfast in Madrid. Introduce yourself, say what you do and where you work, then ask two other people *¿A qué te dedicas?* and *¿Dónde trabajas?* Practise with a partner or with the AI coach in the "Introducing yourself" scenario.
+    exercises: |
+      mc: Choose the correct sentence. || Soy una periodista. | *Soy periodista. | Estoy periodista. || Ser + job, with no article: soy periodista. || @tags es.ser
+      fill: Mi padre ___ camarero en un bar. || es || Él + ser = es; ser is used for jobs. || @tags es.ser
+      fill: Mi hermana es ___ (enfermero). || enfermera || -o → -a for a woman: enfermera. || @tags es.gender
+      fill: Trabajo en ___ oficina en el centro. (an) || una || Oficina is feminine: una oficina. || @tags es.articles
+      mc: Which article goes with "día"? || *el | la | las || Día ends in -a but is masculine: el día. || @tags es.gender,es.articles
+      mc: "¿A qué te dedicas?" means… || *What do you do for a living? | Where are you from? | What's your name? || Dedicarse a = to do (as a job). || @skill vocabulary @tags es.vocabulary
+      mc: What does Rosa do? || She's a nurse | *She's a journalist | She's a teacher || "Soy periodista, pero trabajo en casa." Her daughter is the nurse. || @ctx dialogue @skill reading @tags es.reading
+      tf: Kofi works in a hospital. || true || "Soy enfermero. Trabajo en un hospital." || @ctx dialogue
+      rw: Make it plural :: El profesor es muy simpático. || Los profesores son muy simpáticos. || el → los, profesor → profesores, es → son, simpático → simpáticos. || @tags es.plural,es.articles
+      tr: I'm a teacher and I work in a school. (you are a woman) || Soy profesora y trabajo en un colegio. | Soy profesora y trabajo en una escuela. || Ser + job without an article; profesora for a woman. || @tags es.ser,es.articles
+      tr: What do you do? (formal) || ¿A qué se dedica usted? | ¿A qué se dedica? | ¿En qué trabaja usted? | ¿En qué trabaja? || Formal forms use se dedica / trabaja (usted). || @tags es.register
+      listen: Me llamo Pilar, soy ingeniera y trabajo en una empresa de Bilbao. || What is Pilar's job? || Teacher | *Engineer | Doctor || "Soy ingeniera" — I'm an engineer. || @tags es.ser
+      dict: Mi pareja es periodista y trabaja en casa.
+      ask: Someone asks you "¿A qué te dedicas?". Answer with your job (or your studies) and where you work. || kw: soy/trabajo/estudio & en || Soy dependiente y trabajo en una tienda de ropa en el centro.
+      write: Write a short profile for a professional networking site — name, job, workplace and city. || min=20 || req: me llamo/soy | soy | trabajo en || Me llamo Andrés Molina. Soy ingeniero y trabajo en una empresa de transporte en Valencia. Hablo español, inglés y un poco de alemán.

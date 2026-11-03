@@ -1,0 +1,355 @@
+unit: 5
+title: Home sweet home
+theme: Home and housing
+description: Compare apartments and choose a place to live, talk about furniture and share the chores, and get to know your neighbors — with comparatives, as… as, too and enough, and quantifiers.
+free: false
+objectives:
+  - Compare places to live with comparative adjectives and than
+  - Talk about furniture and chores with quantifiers (much, many, a lot of, a few, a little, too much, enough)
+  - Talk about your neighborhood and neighbors with as… as, too and enough
+canDo:
+  - I can compare two apartments and explain which one I prefer.
+  - I can say what we have, what we need and who does which chores at home.
+  - I can welcome a neighbor and ask for or offer simple help.
+  - I can understand a simple ad for an apartment.
+review: |
+  fill: This apartment is ___ (big) than my old one, and it's ___ (bright) too. || bigger ; brighter || Short adjectives add -er. Big doubles the g: bigger. || @tags en.comparatives
+  fill: The new kitchen is ___ (good) than the old one. || better || Good is irregular: good → better. || @tags en.comparatives
+  fill: How ___ chairs do we need for the party? || many || Chairs are countable, so use How many…? || @tags en.quantifiers
+  mc: We can't put a desk in this room. There isn't ___ space. || *enough | many | a few || Enough = the amount you need. Many and a few go with plural nouns, and space is uncountable here. || @tags en.quantifiers
+  mc: Our street isn't ___ our old one. || *as quiet as | as quiet than | so quiet that || The structure is (not) as + adjective + as. || @tags en.comparatives
+  rw: Rewrite with "not as… as" :: My old flat was smaller than this one. || My old flat wasn't as big as this one. | My old flat was not as big as this one. || Smaller than = not as big as. || @tags en.comparatives
+  rw: Correct the mistake :: There are too much boxes in the hallway. || There are too many boxes in the hallway. || Boxes is a plural countable noun, so use too many. || @tags en.quantifiers
+  match: do = the dishes ; take out = the trash ; make = the bed ; vacuum = the carpet || Match the verbs with the chores. || @tags en.collocations @skill vocabulary
+  listen: The apartment on River Road is cheaper, but it's farther from the subway, so I chose the one on Main Street. || Which apartment did the speaker choose? || The one on River Road | *The one on Main Street | Neither of them || "So I chose the one on Main Street." || @tags en.listening,en.comparatives
+  listen: Sorry to bother you, but your music is a bit too loud. My baby can't sleep. || Why is the neighbor knocking? || *The music is too loud. | She wants to borrow something. | She wants to invite them to a party. || "Your music is a bit too loud. My baby can't sleep." || @tags en.listening
+  ask: Compare your home now with a home you lived in before. Use two comparatives. || kw: than/as & bigger/smaller/cheaper/nicer/older/newer/quieter/noisier/better/worse/more/brighter/darker/closer/farther || My apartment now is smaller than my old house, but it's much brighter. It's also closer to my work, so my commute is better.
+  write: Write a message to a friend about your new home — compare it with your old one, say what furniture you still need and how you share the chores. || min=50 || req: than | enough/a few/a lot of/too many/too much/a little || Hi Sam! We finally moved! The new apartment is bigger than our old place, and the kitchen is much nicer. But we don't have enough chairs, and we have too many boxes everywhere! My roommate does the dishes and I do the laundry. Come and visit soon! Kai
+lessons:
+  - title: Finding a flat
+    summary: Read ads, compare apartments (flats) and choose a place to live with comparative adjectives and than.
+    minutes: 40
+    skills: [grammar, reading, speaking]
+    tags: [en.comparatives, en.reading, en.schwa]
+    objectives:
+      - Form comparatives with -er, more and irregular forms
+      - Compare two apartments with than
+      - Understand the key words in an apartment ad
+    intro: |
+      Looking for a place to live means comparing: *This flat is **bigger**, but that one is **cheaper** and **closer to** the station.* In this lesson you will learn how to make comparatives, read apartment ads and discuss which place is **better** for you. You'll see both the American word **apartment** and the British word **flat**.
+    vocab: |
+      flat | an apartment (British English) | n | They rent a flat in Manchester. | - | n: American English: apartment. Both words are understood everywhere.
+      rent | the money you pay every month to live in a home that isn't yours | n | The rent is $1,400 a month. | - | c: pay the rent; high rent | n: Also a verb: We rent a two-bedroom apartment.
+      landlord | the person who owns a home and rents it to you | n | Our landlord fixed the heating quickly. | - | n: A woman can also be called a landlady.
+      roommate | a person you share an apartment or a room with | n | My roommate is a nurse. | - | n: British English: flatmate.
+      furnished | with furniture already in it | adj | The flat is furnished, so we don't need a sofa. | - | n: The opposite is unfurnished.
+      studio | a small apartment with one main room | n | I live in a studio near the university. | - | c: a studio apartment
+      deposit | money you pay at the start and get back when you leave | n | The deposit is one month's rent. | - | c: pay a deposit; get your deposit back
+      bills | money you pay for electricity, water, gas and the internet | n | The rent is $900, and bills are extra. | - | c: bills included; pay the bills | n: American English also: utilities.
+      spacious | with a lot of space inside | adj | The living room is bright and spacious. | - | n: Similar: big, roomy.
+      location | the place where something is | n | The location is great — it's next to the park. | - | c: a good location; a central location
+      noisy | with a lot of noise | adj | Our street is very noisy at night. | - | c: noisy neighbors; a noisy street | n: Comparative: noisier.
+      bright | with a lot of light | adj | I want a bright room with big windows. | - | n: The opposite is dark.
+      move in | to start living in a new home | phr v | We can move in on the first of May. | - | n: The opposite is move out.
+    grammar:
+      title: "Comparatives: bigger, more expensive, better"
+      body: |
+        We use **comparatives + than** to compare two things: *This flat is **bigger than** that one.*
+
+        - Short adjectives (one syllable) add **-er**: *cheap → cheaper, small → smaller*. If they end in **e**, add **-r**: *nice → nicer*. One vowel + one consonant: double it: *big → bigger, hot → hotter*.
+        - Adjectives ending in **-y** change to **-ier**: *noisy → noisier, easy → easier*.
+        - Most other adjectives with two or more syllables use **more**: *more expensive, more modern, more comfortable*.
+        - Irregular: *good → **better**, bad → **worse**, far → **farther**/**further***.
+
+        Use **than** after the comparative: *It's cheaper **than** my old flat.* (not ~~that~~). To make the difference bigger, add **much** or **a lot**: *It's **much** bigger. It's **a lot** more expensive.* Never use *more* with -er: ~~more bigger~~.
+      table: |
+        Adjective | Comparative | Rule
+        cheap | cheaper | add -er
+        nice | nicer | ends in e: add -r
+        big | bigger | double the consonant
+        noisy | noisier | y → -ier
+        expensive | more expensive | long adjective: more
+        good / bad | better / worse | irregular
+        far | farther / further | irregular
+      examples: |
+        The studio is cheaper than the two-bedroom flat. | | -er + than
+        This location is more convenient for work. | | more + long adjective
+        The new kitchen is much better than the old one. | | much + irregular comparative
+        Our street is noisier than yours. | | y → -ier
+      tip: "Learn adjectives in pairs: cheap – expensive, bright – dark, quiet – noisy, big – small. Then you can compare from both sides: The studio is cheaper. The flat is more expensive."
+    dialogue:
+      title: Two flats
+      setting: Saturday afternoon in Manchester, England. Esi and Jonah want to share a flat. They saw two flats today, and now they are talking about them on the bus home.
+      speakers: E=Esi/f; J=Jonah/m
+      lines: |
+        E: So, which flat did you like? The one on Elm Street?
+        J: Yes. It's bigger than the flat near the station.
+        E: True, but it's more expensive. The rent is £1,500.
+        J: The other one is cheaper, but it's really dark.
+        E: And it's noisier. The trains go past all night!
+        J: The Elm Street flat is closer to my office, too.
+        E: But it's farther from the city center.
+        J: Hmm. Is the kitchen better in the Elm Street flat?
+        E: Yes, much better. And it's furnished.
+        J: OK. It's more expensive, but it's nicer.
+        E: Let's call the landlord and ask about the deposit.
+    pronunciation:
+      title: "Weak -er and than"
+      body: |
+        The **-er** ending and the word **than** are both weak. They use the short, relaxed **schwa** sound: *bigger* sounds like "BIG-ə(r)" and *than* sounds like "thən". In American English you hear a soft r at the end of -er.
+
+        Say the adjective strongly and the rest quickly: *It's **BIG**ger than **MINE**.* Listen and repeat.
+      items: |
+        bigger than
+        cheaper than mine
+        more expensive
+        It's better than the other one.
+        It's noisier at night.
+    culture:
+      title: Apartments and flats
+      body: |
+        Americans live in **apartments** and share them with **roommates**; British people live in **flats** and share them with **flatmates**. Be careful with floors: in the US, the **first floor** is at street level, but in the UK, that's the **ground floor**, and the **first floor** is one floor up.
+
+        In UK ads you often see **pcm** (per calendar month) after the price, and **bills included** means the rent includes electricity, water and the internet. In the US, you'll see **utilities included** or **utilities extra**.
+    mistakes: |
+      This flat is more big than the other. => This flat is bigger than the other. | Short adjectives take -er, not more.
+      It's expensiver than my old flat. => It's more expensive than my old flat. | Long adjectives use more: more expensive.
+      It's bigger that my old flat. => It's bigger than my old flat. | After a comparative, use than, not that.
+    task:
+      title: Which one would you choose?
+      mode: speaking
+      body: |
+        Find two real apartment ads online in a city you like, or imagine two. Compare them in five or six sentences: price, size, location, light, noise and furniture. Then say which one you prefer and why. Share your choice with a friend, or practice with the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      fill: The studio is ___ (cheap) than the two-bedroom flat. || cheaper || Short adjective + -er + than. || @tags en.comparatives
+      fill: This street is ___ (noisy) than my old street. || noisier || Noisy ends in y: noisier. || @tags en.comparatives,en.spelling
+      fill: A furnished apartment is usually ___ (expensive) than an unfurnished one. || more expensive || Long adjectives use more. || @tags en.comparatives
+      fill: My new commute is much ___ (bad) than before. || worse || Bad is irregular: bad → worse. || @tags en.comparatives
+      mc: Choose the correct sentence. || This flat is more bigger than that one. | *This flat is bigger than that one. | This flat is bigger that that one. || Use -er or more, never both, and then than. || @tags en.comparatives
+      mc: The ad says "bills included." This means: || *The rent includes electricity, water and the internet. | You have to pay the bills separately. | You don't have to pay any rent. || Included means the bills are part of the rent. || @tags en.vocabulary @skill reading
+      rw: Compare with the opposite adjective :: The flat on Elm Street is bigger than the flat near the station. || The flat near the station is smaller than the flat on Elm Street. | The flat near the station is smaller than the one on Elm Street. || Big ↔ small: if A is bigger than B, B is smaller than A. || @tags en.comparatives
+      match: landlord = the person who owns the home you rent ; deposit = money you get back when you leave ; furnished = with furniture in it ; studio = a small apartment with one main room || Match each word with its meaning. || @tags en.vocabulary @skill vocabulary
+      tf: The flat near the station is more expensive. || false || The Elm Street flat is more expensive (£1,500). The flat near the station is cheaper. || @ctx dialogue
+      short: Why is the flat near the station noisy? || kw: train/trains || "The trains go past all night!" || @ctx dialogue
+      listen: @dialogue || Which flat do Esi and Jonah prefer in the end? || The flat near the station | *The flat on Elm Street | Neither of them || "It's more expensive, but it's nicer. Let's call the landlord." || @tags en.listening,en.comparatives
+      listen: For rent — a bright one-bedroom apartment, ten minutes from the beach. Twelve hundred dollars a month, utilities included. || How much is the rent? || $1,100 | *$1,200 | $2,100 || "Twelve hundred dollars a month" = $1,200. || @tags en.listening,en.numbers
+      dict: The new flat is bigger and brighter than our old one.
+      ask: Compare two places you know — two apartments, houses or neighborhoods. Use three comparatives. || kw: than & bigger/smaller/cheaper/nicer/older/newer/quieter/noisier/better/worse/more/brighter/darker/closer/farther/safer || My parents' house is bigger than my apartment, and it's quieter. But my apartment is closer to the city center, so it's more convenient.
+      write: You saw two apartments for rent. Write an email to a friend comparing them (price, size, location) and say which one you want. || min=40 || req: than || Hi Lina, I saw two apartments today. The first one is bigger and brighter, but it's more expensive — $1,600 a month. The second one is cheaper and closer to my office, but it's quite dark. I think I want the first one. It's nicer and the location is better for the weekends!
+
+  - title: Furniture and chores
+    summary: Talk about furniture, what you have and what you need, and share the housework — with much, many, a lot of, a few, a little, too and enough.
+    minutes: 40
+    skills: [grammar, vocabulary, listening]
+    tags: [en.quantifiers, en.countable, en.collocations]
+    objectives:
+      - Use much, many, a lot of, a few and a little with countable and uncountable nouns
+      - Say when there is too much, too many or not enough of something
+      - Talk about furniture and household chores
+    intro: |
+      Moving into a new home? You'll say things like *We have **too many** boxes* and *We don't have **enough** chairs.* And when you share a home, you need to decide who **does the dishes** and who **takes out the trash**! In this lesson you will use quantifiers to talk about amounts, and learn words for furniture and chores.
+    vocab: |
+      couch | a long, soft seat for two or more people | n | We watched TV on the couch. | - | n: Also sofa (more common in British English).
+      shelf | a flat board on a wall or in a cupboard for things like books | n | Put the plates on the top shelf. | - | pl: shelves | c: a bookshelf
+      rug | a small carpet for part of a floor | n | There's a blue rug in the living room. | - | n: A carpet usually covers the whole floor.
+      curtains | pieces of cloth that cover a window | n | Can you close the curtains, please? | - | c: open the curtains; close the curtains
+      lamp | a light that you can move, on a table or on the floor | n | I need a lamp for my desk. | - | c: a desk lamp; a floor lamp
+      drawer | a box in a piece of furniture that you pull out | n | The spoons are in the top drawer. | - | c: open a drawer
+      do the dishes | to wash the plates, glasses and pans after a meal | expr | I cooked, so you can do the dishes! | - | n: British English also: do the washing-up.
+      do the laundry | to wash clothes | expr | I do the laundry on Sunday mornings. | - | n: British English also: do the washing.
+      vacuum | to clean the floor with a machine that sucks up dust | v | Can you vacuum the living room? | - | n: Also a noun: a vacuum (cleaner). British English also: hoover.
+      take out the trash | to take the bag of rubbish out of the house | expr | It's your turn to take out the trash. | - | n: British English: take out the rubbish / the bins.
+      make the bed | to put the sheets and blankets on a bed neatly | expr | I make my bed every morning. | - | n: Past: made the bed.
+      mess | a situation where a place is dirty or not neat | n | The kitchen is a mess! | - | c: make a mess; clean up a mess | n: Adjective: messy.
+      furniture | the things in a room like chairs, tables and beds | n | We need some new furniture. | - | n: Uncountable: some furniture, a piece of furniture (not furnitures).
+    grammar:
+      title: "Quantifiers: a lot of, a few, a little, too much, enough"
+      body: |
+        Quantifiers say **how much** or **how many**. First decide: is the noun **countable** (chairs, boxes, books) or **uncountable** (space, time, money, furniture)?
+
+        - **many** + plural countable; **much** + uncountable. We use them mainly in **questions and negatives**: *How **many** shelves? We don't have **much** space.*
+        - **a lot of** works with both, especially in positive sentences: *We have **a lot of** books / **a lot of** furniture.*
+        - **a few** + plural (a small number): *a few chairs*; **a little** + uncountable (a small amount): *a little money*.
+        - **too many / too much** = more than you want: *too many boxes, too much noise*.
+        - **enough** = the amount you need; **not enough** = less than you need: *We don't have **enough** chairs. Is there **enough** space?* Enough goes **before** a noun.
+      table: |
+        Meaning | Countable (plural) | Uncountable
+        Question | How many chairs? | How much space?
+        A big amount | a lot of boxes / many boxes | a lot of furniture
+        A small amount | a few lamps | a little money
+        More than you want | too many books | too much noise
+        The amount you need | (not) enough shelves | (not) enough time
+      examples: |
+        How many chairs do we need? — About eight. | | many + countable
+        I don't have much time on weekdays. | | much in a negative
+        We have a few boxes and a little money left. | | a few / a little
+        There's too much furniture in this room, but not enough light. | | too much / not enough
+      tip: "Not sure if a noun is countable? Try putting a number before it. Two chairs ✓ → many, a few. Two furnitures ✗ → much, a little."
+    dialogue:
+      title: Moving day
+      setting: Moving day in a new apartment in Pittsburgh, Pennsylvania. Arjun and his new roommate Megan are surrounded by boxes.
+      speakers: A=Arjun/m; M=Megan/f
+      lines: |
+        A: Wow, there are too many boxes in here!
+        M: I know. And we don't have enough shelves for my books.
+        A: How many books do you have?
+        M: About three hundred. I can't give them away!
+        A: OK. We have a little money left. Let's buy two more shelves.
+        M: Good idea. Now, chores. Who's going to do the dishes?
+        A: I don't have much time on weekdays. I work late.
+        M: Then you vacuum on Saturdays, and I do the dishes.
+        A: Deal. What about the trash?
+        M: You take it out on Mondays, and I take it out on Thursdays.
+        A: Perfect. Just one problem — your couch is too big for the door!
+    pronunciation:
+      title: "a lot of → \"a lotta\""
+      body: |
+        In fast speech, **of** is weak: it often sounds like just "ə". *A lot of boxes* sounds like "a LOT-ə boxes". The t in *lot* is soft in American English — almost like a quick d.
+
+        In **a few** and **a little**, the stress is on *few* and *lit*: "ə FEW", "ə LIT-əl". Listen and repeat.
+      items: |
+        a lot of boxes
+        a few chairs
+        a little money
+        too much noise
+        not enough shelves
+    culture:
+      title: Sharing the housework
+      body: |
+        When people share an apartment or a house, they often make a **chore chart** (in British English, a **rota**) so everyone knows who does what and when. Some families with children use one too: kids do small chores like making their bed, and in the US many get an **allowance** (British English: **pocket money**) for it.
+
+        If you're a guest in someone's home, it's polite to offer help after a meal: *Can I help with the dishes?*
+    mistakes: |
+      We have a lot of furnitures. => We have a lot of furniture. | Furniture is uncountable: no -s, and use much or a little.
+      How much chairs do we need? => How many chairs do we need? | Chairs are countable, so use How many.
+      There isn't enough of space. => There isn't enough space. | Enough + noun, without of.
+    task:
+      title: Our chore chart
+      mode: writing
+      body: |
+        You share a home with two other people (real or imagined). Write a chore chart for one week: who does the dishes, the laundry, the vacuuming and the trash, and on which days. Then write three sentences about your home with quantifiers — something you have too much or too many of, something you don't have enough of, and something you have a few of.
+    exercises: |
+      fill: How ___ money do we have for furniture? || much || Money is uncountable: How much…? || @tags en.quantifiers,en.countable
+      fill: There are ___ boxes in the hall. We can't walk! (more than we want) || too many || Boxes are countable and there are more than we want: too many. || @tags en.quantifiers
+      fill: We only have four chairs. We don't have ___ chairs for eight people. || enough || Enough = the number you need. Not enough = too few. || @tags en.quantifiers
+      mc: There's ___ furniture in the living room. It feels very crowded. || too many | *too much | a few || Furniture is uncountable, so use too much. || @tags en.quantifiers,en.countable
+      mc: Choose the correct sentence. || I have a few time this evening. | *I have a little time this evening. | I have many time this evening. || Time is uncountable: a little time. || @tags en.quantifiers,en.countable
+      rw: Correct the mistake :: We bought some new furnitures for the bedroom. || We bought some new furniture for the bedroom. || Furniture is uncountable: no -s. || @tags en.countable
+      rw: Rewrite with "too many" :: There are more chairs than we need. || There are too many chairs. | We have too many chairs. || More than we need → too many. || @tags en.quantifiers
+      match: do = the laundry ; take out = the trash ; make = the bed ; vacuum = the floor || Match each verb with a chore. || @tags en.collocations @skill vocabulary
+      tf: Megan has about three hundred books. || true || She says, "About three hundred." || @ctx dialogue
+      short: When does Arjun vacuum? || kw: saturday/saturdays || "Then you vacuum on Saturdays." || @ctx dialogue
+      listen: @dialogue || What is the problem at the end? || There are no shelves. | *The couch is too big for the door. | They don't have any money. || "Your couch is too big for the door!" || @tags en.listening
+      listen: Our kitchen is really small. There isn't much space, and there are only a few cupboards. || What does the speaker say about the cupboards? || There are a lot of cupboards. | *There are only a few cupboards. | There aren't any cupboards. || "There are only a few cupboards." || @tags en.listening,en.quantifiers
+      dict: We don't have enough shelves for all these books.
+      ask: Describe your home's furniture and chores — say one thing you have a lot of, one thing you don't have enough of, and one chore you do. || kw: a lot of/lots of/many/much/too & enough & dishes/laundry/vacuum/trash/bed/clean || We have a lot of plants in our apartment, but we don't have enough chairs. I usually do the dishes, and my partner does the laundry.
+      write: Write four or five sentences about your home for a home-swap website — the furniture, what there is a lot of, what there isn't much of, and how guests can help with chores. || min=35 || req: a lot of/lots of/many/much/a few/a little/enough || Our apartment is small but cozy. There's a big couch and a lot of plants in the living room. There isn't much space in the kitchen, but there are enough plates and glasses for six people. Please do the dishes after meals and take out the trash on Wednesday. Enjoy your stay!
+
+  - title: Neighbors and community
+    summary: Welcome a new neighbor, talk about your neighborhood, ask for or offer help and make a polite complaint — with as… as, too and enough.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [en.comparatives, en.quantifiers, en.pronunciation]
+    objectives:
+      - Compare with (not) as… as
+      - Use too + adjective and adjective + enough
+      - Welcome a neighbor, ask to borrow something and make a polite complaint
+    intro: |
+      Good neighbors make life easier — they keep an eye on your home, lend you a ladder and tell you about the block party. In this lesson you will talk about your neighborhood with **as… as** (*It isn't as noisy as my old street*), **too** and **enough** (*The music is too loud. The walls aren't thick enough.*), and practice friendly conversations with neighbors.
+    vocab: |
+      get along with | to have a friendly relationship with someone | phr v | I get along with all my neighbors. | - | n: British English also: get on with.
+      noise | a loud or unpleasant sound | n | There's a lot of noise from the street. | - | c: make noise; too much noise
+      complain | to say that you are unhappy about something | v | Our neighbor complained about the noise. | - | c: complain about something | n: Noun: a complaint.
+      borrow | to take something from someone and give it back later | v | Can I borrow your ladder? | - | n: You borrow FROM someone.
+      lend | to give something to someone for a short time | v | Can you lend me your drill? | - | n: Past: lent. You lend something TO someone.
+      community center | a building where people in an area meet for activities and classes | n | There's a yoga class at the community center. | - | n: British English spelling: centre.
+      volunteer | to work without pay to help people | v | I volunteer at the food bank on Saturdays. | - | n: Also a noun: We need more volunteers.
+      bulletin board | a board on a wall for notices and ads | n | I saw the ad on the bulletin board in the lobby. | - | n: British English: notice board.
+      recycling | collecting used paper, glass and plastic so they can be used again | n | The recycling goes in the blue bin. | - | n: Verb: recycle.
+      block party | a party in the street for all the neighbors | n | Our street has a block party every July. | - | n: Mainly American English. British people may have a street party.
+      keep an eye on | to watch something to make sure it is safe | expr | Can you keep an eye on my cat this weekend? | - | n: Past: kept an eye on.
+      knock | to hit a door with your hand so people know you are there | v | Someone knocked on the door at ten p.m. | - | c: knock on the door | n: The k is silent.
+      friendly | kind and pleasant to other people | adj | The people on our street are really friendly. | - | n: It's an adjective, not an adverb.
+    grammar:
+      title: "as… as, too and enough"
+      body: |
+        **as + adjective + as** says that two things are the **same**: *Our new street is **as quiet as** our old one.* **not as… as** says that the first thing is **less**: *It **isn't as noisy as** our old street* (= our old street was noisier).
+
+        **too + adjective** means **more than is OK** — it's a problem: *The music is **too loud**. This ladder is **too heavy** for me.*
+
+        **adjective + enough** means **as much as you need**. Note the word order — enough goes **after** the adjective: *The flat is **big enough** for two.* The negative is common for complaints: *The walls **aren't thick enough**.*
+
+        Compare with lesson 2: **enough** goes **before a noun** (*enough chairs*) but **after an adjective** (*big enough*).
+      table: |
+        Structure | Example | Meaning
+        as + adj + as | Our street is as quiet as yours. | the same
+        not as + adj + as | It isn't as noisy as my old street. | less noisy
+        too + adj | The music is too loud. | more than is OK
+        adj + enough | The garden is big enough for a party. | as big as we need
+        not + adj + enough | The walls aren't thick enough. | less than we need
+      examples: |
+        This neighborhood isn't as expensive as downtown. | | not as… as
+        It's too late to call the landlord now. | | too + adjective
+        Is the park safe enough for children? | | adjective + enough
+        The street isn't wide enough for big trucks. | | not + adjective + enough
+      tip: "Too is negative: The flat is too small (we can't live there). Very is neutral: The flat is very small (but maybe it's OK)."
+    dialogue:
+      title: Welcome to the building
+      setting: A Saturday morning in an apartment building in Brooklyn, New York. Doris, who has lived in the building for years, knocks on the door of her new neighbor, Yusuf.
+      speakers: D=Doris/f; Y=Yusuf/m
+      lines: |
+        D: Hi! I'm Doris from 4B. Welcome to the building!
+        Y: Thanks! I'm Yusuf. We moved in on Tuesday.
+        D: So, how do you like the neighborhood?
+        Y: It's great. It isn't as noisy as our old street.
+        D: Well, it's quiet enough most of the time.
+        D: There's a block party in June. You should come!
+        Y: That sounds fun. Is there a community center near here?
+        D: Yes, on Park Avenue. I volunteer there on Fridays.
+        Y: Oh, by the way, can I borrow a ladder?
+        D: Sure. But it's too heavy for me to carry.
+        Y: No problem. I can come and get it now.
+    pronunciation:
+      title: "Linking: knock on, get along"
+      body: |
+        When a word ends in a consonant and the next word starts with a vowel, English speakers **link** them — there is no pause. *Knock on* sounds like "knoc-kon". *Get along* sounds like "ge-ta-long".
+
+        Linking makes your English sound smoother and more natural. Practice slowly first, then faster. Listen and repeat.
+      items: |
+        knock on the door
+        get along
+        keep an eye on it
+        come and get it
+        as quiet as
+        an old street
+    culture:
+      title: Being a good neighbor
+      body: |
+        In the US, people sometimes welcome new neighbors with cookies or a card, and many streets have a **block party** in summer, with food, music and games. In the UK, there are **Neighbourhood Watch** groups, where neighbors keep an eye on each other's homes.
+
+        Apartment buildings often have **quiet hours** at night, for example from 10 p.m. to 8 a.m. If there's a problem, people usually talk to the neighbor politely first: *Sorry to bother you, but…* — and only complain to the landlord if that doesn't work.
+    mistakes: |
+      It isn't as noisy than my old street. => It isn't as noisy as my old street. | The structure is as… as, not as… than.
+      The music is too much loud. => The music is too loud. | Use too + adjective, without much.
+      The apartment isn't enough big. => The apartment isn't big enough. | Enough goes after an adjective.
+    task:
+      title: Meet the neighbors
+      mode: interaction
+      body: |
+        Role-play two short conversations with a partner or the AI coach: (1) welcome a new neighbor, tell them two things about the neighborhood and invite them to an event; (2) knock on a neighbor's door and make a polite complaint about noise (*Sorry to bother you, but…*). Use as… as, too or enough at least three times.
+    exercises: |
+      fill: Our new street is quiet. It's ___ quiet ___ a village. || as ; as || Same: as + adjective + as. || @tags en.comparatives
+      fill: I can't carry this box. It's ___ heavy. || too || More than is OK → too + adjective. || @tags en.quantifiers,en.adverbs
+      fill: The kitchen isn't big ___ for a table. || enough || Enough goes after the adjective: big enough. || @tags en.quantifiers
+      mc: My new neighborhood isn't ___ my old one. || *as friendly as | as friendly than | friendly as || The structure is not as + adjective + as. || @tags en.comparatives
+      mc: Choose the correct sentence. || The walls aren't enough thick. | *The walls aren't thick enough. | The walls aren't thick too. || Adjective + enough: thick enough. || @tags en.quantifiers
+      rw: Rewrite with "not as… as" :: Downtown is more expensive than our neighborhood. || Our neighborhood isn't as expensive as downtown. | Our neighborhood is not as expensive as downtown. || More expensive than ↔ not as expensive as (swap the two places). || @tags en.comparatives
+      rw: Rewrite with "too" :: The music is very loud. We can't sleep. || The music is too loud. | The music is too loud. We can't sleep. || Very loud + it's a problem → too loud. || @tags en.quantifiers,en.adverbs
+      match: borrow = take something and give it back later ; lend = give something to someone for a short time ; volunteer = work without pay to help people ; complain = say you are unhappy about something || Match each verb with its meaning. || @tags en.vocabulary @skill vocabulary
+      tf: Yusuf's new street is noisier than his old street. || false || "It isn't as noisy as our old street." || @ctx dialogue
+      short: What does Yusuf want to borrow? || kw: ladder || "Can I borrow a ladder?" || @ctx dialogue
+      listen: @dialogue || When does Doris volunteer at the community center? || On Tuesdays | *On Fridays | In June || "I volunteer there on Fridays." The block party is in June. || @tags en.listening
+      listen: Hi, I'm from 2A. Sorry to bother you, but can you keep an eye on my cat this weekend? I'm away until Monday. || What does the neighbor want? || *Someone to watch her cat | To borrow some food | To complain about noise || "Can you keep an eye on my cat this weekend?" || @tags en.listening
+      dict: Our new neighborhood isn't as noisy as the old one.
+      ask: Knock on your neighbor's door and make a polite complaint about their loud music. || kw: sorry/excuse & too/loud/noise/music || Hi, sorry to bother you. Your music is a bit too loud, and I have to get up early tomorrow. Can you turn it down a little, please?
+      write: Write a notice for the bulletin board in your building — welcome new neighbors, tell them about one community event and give one rule or tip (noise, recycling). || min=40 || req: too/enough/as || Welcome to Maple House! Our building is friendly, and we hope you like it here. There's a coffee morning at the community center every first Sunday — everyone is welcome. Please remember: the walls aren't very thick, so don't play music too loud after 10 p.m. Recycling goes in the blue bins. Doris, 4B

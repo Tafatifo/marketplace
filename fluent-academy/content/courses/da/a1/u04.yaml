@@ -1,0 +1,366 @@
+unit: 4
+title: Mad og drikke
+theme: Food and drink
+description: Order politely at a café, buy food at the market with definite nouns (osten, brødet), and handle a restaurant visit — including saying what you don't eat with ikke.
+objectives:
+  - Order food and drinks politely with jeg vil gerne have… and kan jeg få…?
+  - Use the definite form of nouns (osten, brødet, æblet)
+  - Make negative sentences with ikke in the right place
+canDo:
+  - I can order a drink and a pastry at a café.
+  - I can ask what something costs and buy food at a market.
+  - I can order a meal, say what I don't eat or drink, and ask for the bill.
+review: |
+  mc: You'd like a glass of water. What do you say? || *Kan jeg få et glas vand? | Kan jeg have et glas vand? | Jeg gerne vil et glas vand. || Requests use få (get): Kan jeg få…? || @tags da.ordering
+  fill: Jeg vil ___ have en kanelsnegl. || gerne || The polite order is jeg vil gerne have… || @tags da.ordering
+  fill: Hvad koster ___? (the bread — et brød) || brødet || Et-words add -et: brød → brødet. || @tags da.definite
+  fill: ___ er fra Fyn. (the cheese — en ost) || Osten || En-words add -en: ost → osten. || @tags da.definite
+  rw: Make it negative :: Vi drikker vin. || Vi drikker ikke vin. || Ikke comes straight after the verb. || @tags da.negation
+  mc: Which sentence is correct? || I aften jeg spiser ikke kød. | *I aften spiser jeg ikke kød. | I aften spiser ikke jeg kød. || Verb second (spiser), then the subject (jeg), then ikke. || @tags da.negation,da.word-order
+  tr: The apple is sweet. || Æblet er sødt. || Æble ends in -e, so add only -t: æblet. Sødt has -t because æble is an et-word. || @tags da.definite,da.adjective-agreement
+  tr: I'd like a coffee to go. || Jeg vil gerne have en kaffe til at tage med. | Jeg vil gerne have en kop kaffe til at tage med. | Kan jeg få en kaffe til at tage med? | En kaffe til at tage med, tak. || To go / to take away = til at tage med. || @tags da.ordering
+  listen: Et wienerbrød og en te, tak. Nej tak, uden sukker. || What does the customer order? || *A Danish pastry and a tea without sugar | A Danish pastry and a coffee with sugar | A cinnamon swirl and a tea without milk || Wienerbrød = Danish pastry; uden sukker = without sugar. || @tags da.ordering
+  listen: Undskyld, jeg spiser ikke kød. Har I fisk? || What does the guest ask? || *Whether they have fish | Whether they have meat | Whether they have a table || "Jeg spiser ikke kød. Har I fisk?" — I don't eat meat. Do you have fish? || @tags da.negation
+  ask: At a market stall, ask the price of something, ask to taste it, and buy it. || kw: hvad koster & jeg tager/jeg vil gerne have/kan jeg få || Hvad koster osten? Må jeg smage? Mmm, jeg tager et stykke, tak.
+  write: Describe your favourite café — where it is, what you always order there, and something you don't order. || min=30 || req: jeg tager/jeg drikker/jeg spiser/jeg vil gerne have | ikke || Min yndlingscafé er i Aarhus. Den er lille og hyggelig. Jeg drikker altid en kop kaffe med mælk, og jeg spiser tit en kanelsnegl. Jeg tager ikke kage, for den er meget sød.
+lessons:
+  - title: Ordering at a café
+    summary: Order drinks and pastries politely with jeg vil gerne have… and kan jeg få…? — and learn the Danish way to say please.
+    minutes: 35
+    skills: [speaking, vocabulary, listening]
+    tags: [da.ordering]
+    objectives:
+      - Order with jeg vil gerne have…, kan jeg få…? and jeg tager…
+      - Offer and accept or refuse with vil du have…? – ja tak / nej tak
+      - Understand what staff say at the counter (hvad skal det være?, ellers andet?)
+    intro: |
+      Danish bakeries and cafés are a joy — and a great place to practise. Danish has no single word for *please*, so politeness comes from a few fixed phrases: **jeg vil gerne have…** (I'd like…), **kan jeg få…?** (can I have…?) and a friendly **tak** at the end. In this lesson you will order like a local.
+    vocab: |
+      en kop kaffe | a cup of coffee | n | Jeg vil gerne have en kop kaffe. | I'd like a cup of coffee. | g: c | pl: kopper kaffe
+      en te | a tea | n | En te med mælk, tak. | A tea with milk, please. | g: c
+      et glas vand | a glass of water | n | Kan jeg få et glas vand? | Can I have a glass of water? | g: n | pl: glas vand
+      mælk | milk | n | Vil du have mælk i kaffen? | Do you want milk in your coffee? | g: c | n: Like English "milk", it usually has no article.
+      sukker | sugar | n | Uden sukker, tak. | Without sugar, thanks. | g: n
+      et stykke kage | a piece of cake | n | Et stykke chokoladekage, tak. | A piece of chocolate cake, please. | g: n
+      en kanelsnegl | a cinnamon swirl | n | Jeg tager en kanelsnegl. | I'll have a cinnamon swirl. | g: c | pl: kanelsnegle | n: Literally "cinnamon snail".
+      et wienerbrød | a Danish pastry | n | Et wienerbrød og en kaffe, tak. | A Danish pastry and a coffee, please. | g: n | pl: wienerbrød | n: Literally "Viennese bread" — what the rest of the world calls a Danish.
+      jeg vil gerne have | I'd like | expr | Jeg vil gerne have en te. | I'd like a tea. | n: The standard polite way to order. Gerne comes straight after vil.
+      kan jeg få…? | can I have…? | expr | Kan jeg få en kop kaffe? | Can I have a cup of coffee? | n: Use få (get) in requests, not have.
+      værsgo | here you are | interj | Værsgo, din kaffe. | Here you are, your coffee. | n: Said when you hand something to someone.
+      ellers andet? | anything else? | expr | Ellers andet? – Nej tak, det var det. | Anything else? – No thanks, that's all.
+      til at tage med | to take away; to go | expr | Jeg vil gerne have en kaffe til at tage med. | I'd like a coffee to go.
+      ja tak; nej tak | yes please; no thanks | expr | Vil du have sukker? – Nej tak. | Would you like sugar? – No, thanks. | n: Tak after ja or nej makes the answer polite.
+    grammar:
+      title: "Ordering politely: jeg vil gerne have…"
+      body: |
+        The most useful café phrase is **Jeg vil gerne have** + what you want. Literally it means "I will gladly have". **Gerne** always comes straight after *vil*: *Jeg vil gerne have en te.*
+
+        Other polite ways to order:
+
+        - **Kan jeg få…?** (Can I have…?) — a question, so the verb comes first: *Kan jeg få et glas vand?* Use *få* (get) here, not *have*.
+        - **Jeg tager…** (I'll take…) — when you choose from the counter: *Jeg tager et wienerbrød.*
+        - Short and friendly: *En kaffe, tak.*
+
+        Danish has **no word for "please"**. Instead, put **tak** at the end and use a friendly tone. To offer something, say **Vil du have…?** (Would you like…?) — the answer is *ja tak* or *nej tak*.
+
+        Staff often ask **Hvad skal det være?** (What would you like?) and **Ellers andet?** (Anything else?).
+      table: |
+        Phrase | Use | Example
+        Jeg vil gerne have… | ordering politely | Jeg vil gerne have en te.
+        Kan jeg få…? | asking politely | Kan jeg få et glas vand?
+        Jeg tager… | choosing | Jeg tager et wienerbrød.
+        Vil du have…? | offering | Vil du have mælk?
+        Ja tak / Nej tak | answering an offer | Nej tak, uden mælk.
+      examples: |
+        Jeg vil gerne have en kop kaffe og en kanelsnegl. | I'd like a cup of coffee and a cinnamon swirl.
+        Kan jeg få et glas vand? | Can I have a glass of water? | question: verb first
+        Vil du have sukker? – Nej tak. | Would you like sugar? – No, thanks.
+        Jeg tager et stykke kage. | I'll have a piece of cake.
+      tip: "Danish has no word for \"please\" — say tak at the end (En kaffe, tak) and smile."
+    dialogue:
+      title: På caféen
+      setting: A small café in the Latin Quarter of Aarhus on a Saturday morning. Laura orders at the counter.
+      speakers: E=Emil/m; L=Laura/f
+      lines: |
+        E: Hej! Hvad skal det være? | Hi! What would you like?
+        L: Hej. Jeg vil gerne have en kop kaffe. | Hi. I'd like a cup of coffee.
+        E: Med mælk? | With milk?
+        L: Ja tak, men uden sukker. | Yes, please, but without sugar.
+        E: Ellers andet? | Anything else?
+        L: Ja. Kan jeg få en kanelsnegl? | Yes. Can I have a cinnamon swirl?
+        E: Selvfølgelig. Er det til at tage med? | Of course. Is it to take away?
+        L: Nej, jeg spiser her. | No, I'm eating here.
+        E: Værsgo. Betaler du med kort? | Here you are. Are you paying by card?
+        L: Ja. Tak! | Yes. Thanks!
+        E: Selv tak. Hav en god dag! | You're welcome. Have a nice day!
+    pronunciation:
+      title: "Café words: have, gerne, kanelsnegl"
+      body: |
+        In everyday speech **have** loses its v and sounds like "ha", so *Jeg vil gerne have* sounds roughly like "yai vil gær-ne ha". In **kanelsnegl** the end of *snegl* sounds like "snail" — the g is silent.
+
+        **Wienerbrød** ends with a soft d. **Værsgo** is said as one quick word, stressed on the last part: "værs-GO". Listen and repeat.
+      items: |
+        Jeg vil gerne have
+        kaffe
+        kanelsnegl
+        wienerbrød
+        værsgo
+        Kan jeg få en kop kaffe?
+    culture:
+      title: The Danish bakery
+      body: |
+        A **bageri** (bakery) is part of everyday life. On weekend mornings many families buy fresh **rundstykker** (crusty bread rolls) for breakfast. What the world calls a "Danish" is a **wienerbrød** in Denmark, and the **kanelsnegl** (cinnamon swirl) is a favourite with coffee.
+
+        In many bakeries you take a number from a small machine by the door and wait until it is called. Coffee is taken seriously: Danes drink a lot of it, at home, at work and in cafés.
+    mistakes: |
+      Jeg gerne vil have en kaffe. => Jeg vil gerne have en kaffe. | Gerne comes straight after vil.
+      Kan jeg have en te? => Kan jeg få en te? | In requests, Danes use få (get), not have.
+      Jeg vil gerne en kaffe. => Jeg vil gerne have en kaffe. | Don't forget have: vil gerne needs a verb after it.
+    task:
+      title: Coffee for two
+      mode: interaction
+      body: |
+        You are in a café in Aarhus with a friend. Order two drinks and two pastries, answer the barista's questions (med mælk? til at tage med?) and say thank you. Try the "Ordering at a café" scenario with the AI coach.
+    exercises: |
+      mc: Which sentence is correct? || Jeg gerne vil have en te. | *Jeg vil gerne have en te. | Jeg vil have gerne en te. || Gerne comes straight after vil: jeg vil gerne have. || @tags da.ordering,da.word-order
+      fill: Kan jeg ___ et glas vand? || få || Requests use få: Kan jeg få…? || @tags da.ordering
+      fill: Jeg vil gerne ___ en kop kaffe. || have || Jeg vil gerne have + what you want. || @tags da.ordering
+      mc: The barista hands you your coffee. What does she say? || *Værsgo! | Selv tak! | Ellers andet? || Værsgo = here you are. Selv tak answers a thank-you; ellers andet? means anything else? || @tags da.ordering
+      mc: The barista asks "Ellers andet?". You don't want anything more. You say: || *Nej tak, det var det. | Ja tak, det var det. | Værsgo, det var det. || Nej tak = no, thanks; det var det = that's all. || @tags da.ordering
+      mc: What does Laura order? || *A coffee with milk and a cinnamon swirl | A tea and a Danish pastry | A coffee with sugar and a piece of cake || "En kop kaffe… med mælk… uden sukker" and "en kanelsnegl". || @ctx dialogue @skill reading @tags da.reading
+      tf: Laura takes her order away. || false || "Nej, jeg spiser her" — she eats in the café. || @ctx dialogue
+      order: Jeg vil gerne have et stykke kage. || I'd like a piece of cake. || @tags da.ordering
+      rw: Make it a polite question with "Kan jeg få" :: Jeg vil gerne have en te. || Kan jeg få en te? || Kan jeg få + what you want, with the verb first. || @tags da.ordering,da.questions
+      tr: I'd like a cup of tea without sugar. || Jeg vil gerne have en kop te uden sukker. | Jeg vil gerne have en te uden sukker. | Kan jeg få en kop te uden sukker? | Kan jeg få en te uden sukker? || Jeg vil gerne have…; uden = without. || @tags da.ordering
+      tr: A Danish pastry and a coffee, please. || Et wienerbrød og en kaffe, tak. | Et wienerbrød og en kop kaffe, tak. | Jeg vil gerne have et wienerbrød og en kaffe. | Jeg vil gerne have et wienerbrød og en kop kaffe. || "Please" is tak at the end; wienerbrød is an et-word. || @tags da.ordering
+      listen: En te med mælk og to kanelsnegle, tak. || What does the customer order? || A coffee with milk and two cinnamon swirls | *A tea with milk and two cinnamon swirls | A tea with sugar and one cinnamon swirl || En te med mælk = a tea with milk; to kanelsnegle = two cinnamon swirls. || @tags da.ordering
+      ask: Order a drink and something to eat at a café, politely. || kw: jeg vil gerne have/kan jeg få/jeg tager & kaffe/te/vand/kakao & kage/kanelsnegl/wienerbrød/bolle/rundstykke || Hej! Jeg vil gerne have en kop te og et wienerbrød, tak.
+      write: Write a note to your flatmate — you are going to the bakery. Ask what they would like (Vil du have…?) and say what you are buying. || min=15 || req: vil du have | eller || Hej Sara! Jeg går til bageren nu. Vil du have et wienerbrød eller en kanelsnegl? Jeg køber også rugbrød. Hilsen Tom
+      dict: Kan jeg få en kop kaffe med mælk?
+
+  - title: At the market
+    summary: Buy fruit, vegetables, cheese and bread at a market stall — and use the Danish definite ending (osten, brødet).
+    minutes: 40
+    skills: [grammar, vocabulary, speaking]
+    tags: [da.definite]
+    objectives:
+      - Name common fruit, vegetables and basic foods
+      - Ask what things cost and buy quantities (et kilo, et stykke)
+      - Form the definite singular with -en / -et
+    intro: |
+      Danish markets and farm stalls sell wonderful seasonal food: new potatoes in early summer, strawberries in June and July, apples in autumn. In this lesson you will learn to shop at a stall — and meet one of the most typical features of Danish: "the" is an **ending**. *En ost* is "a cheese", and *osten* is "the cheese".
+    vocab: |
+      et æble | an apple | n | Æblet er sødt. | The apple is sweet. | g: n | pl: æbler
+      en pære | a pear | n | Pæren er sød og saftig. | The pear is sweet and juicy. | g: c | pl: pærer
+      en tomat | a tomato | n | Tomaten er fra Danmark. | The tomato is from Denmark. | g: c | pl: tomater
+      en kartoffel | a potato | n | Nye kartofler er en dansk sommerklassiker. | New potatoes are a Danish summer classic. | g: c | pl: kartofler | n: Definite: kartoflen — the e before l drops.
+      en gulerod | a carrot | n | Guleroden er fra Lammefjorden. | The carrot is from Lammefjorden. | g: c | pl: gulerødder | n: Lammefjorden, on Zealand, is famous for its carrots.
+      et jordbær | a strawberry | n | Danske jordbær er søde i juni. | Danish strawberries are sweet in June. | g: n | pl: jordbær | n: The d is silent: "jor-bær".
+      en ost | a cheese | n | Må jeg smage osten? | May I taste the cheese? | g: c | pl: oste
+      et brød | a loaf of bread | n | Brødet er friskt. | The bread is fresh. | g: n | pl: brød | n: Rugbrød is dark rye bread.
+      et kilo | a kilo | n | Et kilo kartofler, tak. | A kilo of potatoes, please. | g: n | pl: kilo | n: No "of" after a quantity: et kilo æbler. Half a kilo is et halvt kilo.
+      en pose | a bag | n | Vil du have en pose? | Would you like a bag? | g: c | pl: poser
+      frisk | fresh | adj | Fisken er frisk i dag. | The fish is fresh today. | n: frisk, friskt, friske
+      hvad koster…? | how much is…? | expr | Hvad koster osten? | How much is the cheese?
+      en krone | a krone (Danish currency) | n | Det koster ti kroner. | It costs ten kroner. | g: c | pl: kroner | n: Written kr.: 10 kr.
+      smage | to taste | v | Vil du smage? | Would you like to taste it?
+    grammar:
+      title: "The definite form: osten, brødet"
+      body: |
+        In English, *the* comes before the noun. In Danish, the definite article is an **ending** on the noun:
+
+        - en-words add **-en**: *en ost → osten* (the cheese), *en tomat → tomaten*
+        - et-words add **-et**: *et brød → brødet* (the bread), *et kilo → kiloet*
+        - If the noun ends in **-e**, add only **-n** or **-t**: *en pære → pæren, et æble → æblet, en pose → posen*
+
+        Two spelling details:
+
+        - After a short vowel, the last consonant often doubles: *en kop → koppen, en bus → bussen.*
+        - Some nouns ending in *-el* or *-er* lose the e: *en kartoffel → kartoflen.*
+
+        Use the definite form for something specific, or something you have already mentioned: *Jeg vil gerne have en ost. – Osten fra Fyn er god!*
+      table: |
+        Indefinite | Definite | Rule
+        en ost | osten | en-word: + en
+        en tomat | tomaten | en-word: + en
+        et brød | brødet | et-word: + et
+        en pære | pæren | ends in -e: + n
+        et æble | æblet | ends in -e: + t
+        en kop | koppen | short vowel: double consonant
+      examples: |
+        Hvad koster osten? | How much is the cheese?
+        Brødet er friskt i dag. | The bread is fresh today. | et-word: brød → brødet
+        Æblet er fra Fyn, og pæren er fra Jylland. | The apple is from Funen, and the pear is from Jutland.
+        Jeg tager en pose. – Værsgo, her er posen. | I'll take a bag. – Here you are, here's the bag.
+      tip: "Think of the article as glued to the end: ost + en = osten, brød + et = brødet."
+    dialogue:
+      title: Ved boden
+      setting: Saturday market on the square in Odense. Mohammed buys food at Kirsten's stall.
+      speakers: K=Kirsten/f; M=Mohammed/m
+      lines: |
+        K: Godmorgen! Hvad kan jeg gøre for dig? | Good morning! What can I do for you?
+        M: Godmorgen. Hvad koster et kilo kartofler? | Good morning. How much is a kilo of potatoes?
+        K: Tyve kroner. Det er nye kartofler! | Twenty kroner. They're new potatoes!
+        M: Dejligt. Et kilo, tak. Og osten? | Lovely. A kilo, please. And the cheese?
+        K: Osten er fra Fyn. Vil du smage? | The cheese is from Funen. Would you like to taste it?
+        M: Ja tak. Mmm, den er god! | Yes, please. Mmm, it's good!
+        K: Den er fra en lille gård. | It's from a small farm.
+        M: Jeg tager et stykke. Har du rugbrød? | I'll take a piece. Do you have rye bread?
+        K: Ja, og brødet er friskt i dag. | Yes, and the bread is fresh today.
+        M: Perfekt. Og en pose, tak. | Perfect. And a bag, please.
+        K: Værsgo, her er posen. | Here you are, here's the bag.
+    pronunciation:
+      title: "Soft d and silent d: brød, jordbær"
+      body: |
+        **Brød** and **rugbrød** end with the soft d — a relaxed sound close to the *th* in English *the*. The same sound is in **mad** (food). In **jordbær**, by contrast, the d is silent: "jor-bær".
+
+        Danes like to ask visitors to say **rødgrød med fløde** (a red berry pudding with cream) because it is full of soft d's and ø's. Try it slowly — and don't worry if it makes people smile!
+      items: |
+        brød
+        rugbrød
+        jordbær
+        mad
+        rødgrød med fløde
+        Brødet er friskt.
+    culture:
+      title: Seasonal food and farm stalls
+      body: |
+        Danes follow the seasons closely. The first **nye kartofler** (new potatoes) in early summer are big news, and Danish **jordbær** (strawberries) are a highlight of June and July. In autumn, apples and pears from Funen and Zealand fill the markets.
+
+        In the countryside you will see small stalls by the road selling potatoes, strawberries or eggs. Often nobody is there: you take what you want and leave the money in a box — a system built on trust.
+    mistakes: |
+      Hvad koster ostet? => Hvad koster osten? | Ost is an en-word, so the definite ending is -en.
+      Æbleet er sødt. => Æblet er sødt. | Æble already ends in -e: add only -t.
+      Et kilo af kartofler, tak. => Et kilo kartofler, tak. | Danish has no "of" after a quantity.
+    task:
+      title: Shopping at the market
+      mode: interaction
+      body: |
+        At a market stall, buy three things: ask the price of each (Hvad koster…?), ask to taste one (Må jeg smage?), choose quantities (et kilo, et stykke) and ask for a bag. Use the definite form when you talk about something you've already mentioned.
+    exercises: |
+      fill: en ost → ___ (the cheese) || osten || En-word: add -en. || @tags da.definite
+      fill: et brød → ___ (the bread) || brødet || Et-word: add -et. || @tags da.definite
+      fill: et æble → ___ (the apple) || æblet || Æble ends in -e, so add only -t. || @tags da.definite
+      mc: "The tomato" in Danish is… || tomatet | *tomaten | tomatten || Tomat is an en-word: tomaten. The vowel is long, so the t doesn't double. || @tags da.definite
+      mc: Which sentence is correct? || Brødet er frisk. | *Brødet er friskt. | Brøden er friskt. || Brød is an et-word: brødet, and the adjective takes -t: friskt. || @tags da.definite,da.adjective-agreement
+      fill: Hvad koster ___? (the cheese) || osten || Ost + en = osten. || @tags da.definite
+      mc: Where is the cheese from? || *Funen | Jutland | Zealand || "Osten er fra Fyn." Fyn is Funen. || @ctx dialogue @skill reading @tags da.reading
+      tf: Mohammed buys a kilo of potatoes. || true || "Et kilo, tak." || @ctx dialogue
+      short: What does Mohammed taste at the stall? || kw: ost/osten/cheese || Kirsten asks "Vil du smage?" about the cheese. || @ctx dialogue
+      order: Hvad koster et kilo kartofler? || How much is a kilo of potatoes? || @tags da.questions
+      tr: The bread is fresh today. || Brødet er friskt i dag. | I dag er brødet friskt. || Brød → brødet; friskt with -t for an et-word. || @tags da.definite,da.adjective-agreement
+      tr: A kilo of apples, please. || Et kilo æbler, tak. | Jeg vil gerne have et kilo æbler. | Kan jeg få et kilo æbler? || No "of" after kilo: et kilo æbler. || @tags da.ordering
+      listen: Et kilo gulerødder koster ti kroner, og en ost koster tyve kroner. || How much is a kilo of carrots? || *10 kr. | 20 kr. | 12 kr. || "Et kilo gulerødder koster ti kroner." The cheese is tyve (20). || @tags da.numbers
+      ask: At a market stall, ask the price of the cheese and say you'll take a kilo of potatoes. || kw: hvad koster & osten & kilo || Hvad koster osten? Og jeg tager et kilo kartofler, tak.
+      dict: Brødet er friskt, og osten er fra Fyn.
+
+  - title: At the restaurant
+    summary: Ask for a table, order a meal, say what you don't eat or drink with ikke, and ask for the bill.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [da.negation]
+    objectives:
+      - Ask for a table and order a starter, main course, dessert and drinks
+      - Make negative sentences with ikke after the verb
+      - Answer a negative question with jo
+    intro: |
+      Eating out in Denmark is relaxed, and Danish classics like **smørrebrød** and **frikadeller** are worth trying. To order well, you need to say what you *don't* want too: *Jeg spiser ikke kød* (I don't eat meat). In this lesson you will learn where **ikke** goes — and the handy little word **jo**.
+    vocab: |
+      et bord | a table | n | Har I et bord til to? | Do you have a table for two? | g: n | pl: borde | n: The d is silent: "bor".
+      et menukort | a menu | n | Kan vi få menukortet? | Can we have the menu? | g: n | pl: menukort
+      en forret | a starter | n | Som forret tager jeg suppe. | For a starter I'll have soup. | g: c | pl: forretter
+      en hovedret | a main course | n | Hvad er dagens hovedret? | What is today's main course? | g: c | pl: hovedretter
+      en dessert | a dessert | n | Til dessert tager vi is. | For dessert we'll have ice cream. | g: c | pl: desserter
+      smørrebrød | open sandwiches | n | Vi spiser smørrebrød til frokost. | We have open sandwiches for lunch. | g: n | n: Rye bread with toppings such as herring, egg or roast beef — a Danish lunch classic.
+      frikadeller | Danish meatballs | n | Frikadeller med kartofler smager godt. | Meatballs with potatoes taste good. | n: Singular: en frikadelle.
+      kød | meat | n | Jeg spiser ikke kød. | I don't eat meat. | g: n
+      fisk | fish | n | Spiser du fisk? | Do you eat fish? | g: c | n: As food, fisk usually has no article.
+      en vegetar | a vegetarian | n | Jeg er vegetar. | I'm a vegetarian. | g: c | pl: vegetarer
+      en øl | a beer | n | To øl, tak. | Two beers, please. | g: c | pl: øl
+      et glas vin | a glass of wine | n | Et glas rødvin, tak. | A glass of red wine, please. | g: n
+      ikke | not | adv | Jeg drikker ikke alkohol. | I don't drink alcohol. | n: In a main clause, ikke comes after the verb.
+      regningen | the bill | n | Må jeg bede om regningen? | Could I have the bill, please? | g: c | n: From en regning. Må jeg bede om…? is a polite, slightly formal request.
+    grammar:
+      title: Negation with ikke
+      body: |
+        To make a sentence negative, add **ikke** (not). In a main clause, *ikke* comes **straight after the verb**: *Jeg spiser **ikke** kød.* Danish doesn't need a helper verb like English *do*: "I don't eat" is simply *jeg spiser ikke*.
+
+        - If the sentence starts with something other than the subject, the verb stays second, the subject follows it, and then comes *ikke*: *I dag drikker jeg **ikke** vin.*
+        - In questions: *Spiser du **ikke** fisk?* (Don't you eat fish?)
+        - With *vil gerne have*, *ikke* replaces *gerne*: *Jeg vil **ikke** have dessert.*
+
+        **Ja, nej or jo?** Answer a normal question with *ja* or *nej*. But if the question is negative and your answer is *yes*, say **jo**: *Spiser du ikke fisk? – **Jo**, jeg spiser fisk.*
+      table: |
+        Positive | Negative
+        Jeg spiser kød. | Jeg spiser ikke kød.
+        Hun er sulten. | Hun er ikke sulten.
+        I dag drikker vi vin. | I dag drikker vi ikke vin.
+        Spiser du fisk? | Spiser du ikke fisk?
+        Jeg vil gerne have kaffe. | Jeg vil ikke have kaffe.
+      examples: |
+        Jeg spiser ikke kød, jeg er vegetar. | I don't eat meat, I'm a vegetarian.
+        Suppen er ikke varm. | The soup isn't hot.
+        I aften drikker jeg ikke vin. | Tonight I'm not drinking wine. | verb, subject, ikke
+        Drikker du ikke kaffe? – Jo, gerne! | Don't you drink coffee? – Yes, I'd love some! | jo = yes after a negative question
+      tip: "Find the verb, then put ikke right after it — or after the subject if the subject comes after the verb."
+    dialogue:
+      title: På restauranten
+      setting: A Danish restaurant in Copenhagen on a Friday evening. The waiter Søren serves Aisha and her friend Jonas.
+      speakers: S=Søren/m; A=Aisha/f; J=Jonas/m
+      lines: |
+        S: Godaften! Et bord til to? | Good evening! A table for two?
+        A: Ja tak. Kan vi få menukortet? | Yes, please. Can we have the menu?
+        S: Værsgo. Dagens ret er stegt flæsk. | Here you are. Today's special is crispy pork belly.
+        J: Dejligt! Jeg tager stegt flæsk. | Lovely! I'll have the pork belly.
+        A: Jeg spiser ikke kød. Har I fisk? | I don't eat meat. Do you have fish?
+        S: Ja, vi har stegt rødspætte. | Yes, we have fried plaice.
+        A: Godt, det tager jeg. | Good, I'll have that.
+        S: Og hvad vil I have at drikke? | And what would you like to drink?
+        J: En øl, tak. | A beer, please.
+        A: Jeg drikker ikke alkohol. En danskvand, tak. | I don't drink alcohol. A sparkling water, please.
+        J: Undskyld! Må vi bede om regningen? | Excuse me! Could we have the bill, please?
+        S: Selvfølgelig. Et øjeblik. | Of course. Just a moment.
+    pronunciation:
+      title: "ikke, bord and smørrebrød"
+      body: |
+        In **ikke** the double k tells you the i is short and quick. In **bord** the d is silent, so it sounds like "bor". **Smørrebrød** has two ø sounds and ends with a soft d; **kød** (meat) ends the same way.
+
+        In **regningen** the *eg* sounds like "ai": "rai-ning-en". Listen and repeat, then say the whole sentence.
+      items: |
+        ikke
+        bord
+        smørrebrød
+        frikadeller
+        regningen
+        Jeg spiser ikke kød.
+    culture:
+      title: Smørrebrød, stegt flæsk and "tak for mad"
+      body: |
+        **Smørrebrød** is the classic Danish lunch: a slice of rye bread with butter and toppings such as pickled herring, egg and shrimp, or roast beef. It is eaten with a knife and fork. In a public vote in 2014, **stegt flæsk med persillesovs** (crispy pork belly with parsley sauce and potatoes) was chosen as Denmark's national dish.
+
+        Service is included in Danish restaurant prices, so tipping is not expected, although rounding up is appreciated. After a meal at someone's home, always say **tak for mad** (thanks for the food).
+    mistakes: |
+      Jeg ikke spiser kød. => Jeg spiser ikke kød. | Ikke comes after the verb in a main clause.
+      I dag jeg drikker ikke vin. => I dag drikker jeg ikke vin. | Verb second: I dag + drikker + jeg + ikke.
+      Spiser du ikke fisk? – Ja! (you do eat fish) => Spiser du ikke fisk? – Jo! | Answer a negative question with jo when the answer is yes.
+    task:
+      title: Dinner for two
+      mode: interaction
+      body: |
+        At a restaurant in Copenhagen: ask for a table, order a main course and a drink, say one thing you don't eat or drink (Jeg spiser ikke… / Jeg drikker ikke…), and ask for the bill at the end. Practise it with a partner or the AI coach.
+    exercises: |
+      mc: Which sentence is correct? || Jeg ikke spiser kød. | *Jeg spiser ikke kød. | Ikke jeg spiser kød. || Ikke comes straight after the verb: jeg spiser ikke. || @tags da.negation
+      rw: Make it negative :: Hun drikker kaffe. || Hun drikker ikke kaffe. || Put ikke after the verb drikker. || @tags da.negation
+      rw: Make it negative :: I aften spiser vi fisk. || I aften spiser vi ikke fisk. || Verb second (spiser), subject (vi), then ikke. || @tags da.negation,da.word-order
+      fill: Jeg er vegetar. Jeg spiser ___ kød. || ikke || A vegetarian doesn't eat meat: jeg spiser ikke kød. || @tags da.negation
+      mc: Your friend asks "Drikker du ikke kaffe?". You do drink coffee. You answer: || *Jo, gerne! | Nej, gerne! | Ikke, tak! || After a negative question, "yes" is jo. || @tags da.negation
+      mc: How do you ask for the bill politely? || *Må jeg bede om regningen? | Jeg vil regningen. | Regningen nu! || Må jeg bede om…? is the polite, standard phrase. || @tags da.ordering
+      mc: Why doesn't Aisha order the pork belly? || *She doesn't eat meat | She doesn't like fish | She isn't hungry || "Jeg spiser ikke kød." || @ctx dialogue @skill reading @tags da.reading
+      tf: Jonas orders a beer. || true || "En øl, tak." || @ctx dialogue
+      short: What does Aisha drink? || kw: danskvand/sparkling water/water/vand || "Jeg drikker ikke alkohol. En danskvand, tak." || @ctx dialogue
+      order: I dag drikker jeg ikke vin. || Today I'm not drinking wine. || @alt Jeg drikker ikke vin i dag. @tags da.negation,da.word-order
+      tr: I don't eat fish. || Jeg spiser ikke fisk. || Ikke after the verb; fisk has no article as food. || @tags da.negation
+      tr: A table for two, please. || Et bord til to, tak. | Har I et bord til to? | Kan vi få et bord til to? || Bord is an et-word: et bord til to. || @tags da.ordering
+      listen: Jeg tager frikadeller med kartofler, men jeg vil ikke have dessert. || What does the guest NOT want? || Meatballs | Potatoes | *Dessert || "Jeg vil ikke have dessert." || @tags da.negation
+      ask: Order a main course and a drink at a restaurant, and say one thing you don't eat or drink. || kw: jeg tager/jeg vil gerne have/kan jeg få & ikke || Jeg tager smørrebrød med fisk og en danskvand. Jeg spiser ikke kød.
+      dict: Jeg spiser ikke kød, jeg er vegetar.

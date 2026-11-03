@@ -1,0 +1,373 @@
+unit: 3
+title: En helt almindelig dag
+theme: Time and daily routine
+description: Tell the time the Danish way (halv fire is 3:30!), describe your daily routine in the present tense, and say how often you do things — with the verb always in second place.
+objectives:
+  - Ask and tell the time, including halv, kvart over and kvart i
+  - Describe a daily routine with present-tense verbs (-r)
+  - Talk about days and frequency using verb-second word order
+canDo:
+  - I can ask for and tell the time.
+  - I can describe my typical day from morning to evening.
+  - I can say what I do on different days of the week and how often.
+  - I can start a sentence with a time expression and keep the verb in second place.
+review: |
+  mc: "Halv ni" is… || 9:30 | *8:30 | 9:50 || Halv counts towards the next hour: halv ni = half-way to nine = 8:30. || @tags da.time
+  fill: Hun ___ op klokken seks. (stå) || står || Stå → står: add -r for the present tense. || @tags da.present
+  fill: Om aftenen ___ vi tv. (se) || ser || Se → ser, and the verb comes second after Om aftenen. || @tags da.present,da.word-order
+  mc: Which sentence is correct? || I morgen jeg arbejder hjemme. | *I morgen arbejder jeg hjemme. | I morgen arbejder hjemme jeg. || Verb second: I morgen (1) arbejder (2) jeg. || @tags da.word-order
+  rw: Add the word "tit" (often) :: Vi spiser fisk om fredagen. || Vi spiser tit fisk om fredagen. | Om fredagen spiser vi tit fisk. || Tit goes straight after the verb: vi spiser tit fisk. || @tags da.frequency,da.sentence-adverbs
+  fill: Jeg spiller badminton to gange om ___. (the week) || ugen || To gange om ugen = twice a week. || @tags da.frequency
+  tr: What time is it? || Hvad er klokken? || Danish asks "what is the clock?": Hvad er klokken? || @tags da.time
+  tr: I never watch TV in the morning. || Jeg ser aldrig tv om morgenen. | Om morgenen ser jeg aldrig tv. || Aldrig comes after the verb (and after the subject when the sentence starts with om morgenen). || @tags da.frequency,da.word-order
+  listen: Bussen kører kvart i ni. || When does the bus leave? || 9:15 | *8:45 | 9:45 || Kvart i ni = a quarter to nine (8:45). || @tags da.time
+  listen: Om onsdagen svømmer Ida, og om fredagen spiller hun fodbold. || When does Ida play football? || On Wednesdays | *On Fridays | On Saturdays || "Om fredagen spiller hun fodbold" — on Fridays. On Wednesdays she swims. || @tags da.dates
+  ask: Tell a friend about your day — when you get up, how you get to work or school, and when you go to bed. || kw: står op & klokken & går i seng || Jeg står op klokken syv. Jeg cykler på arbejde, og jeg kommer hjem klokken fire. Jeg går i seng klokken elleve.
+  write: Write an email to a pen-pal about your week — what you do on different days, at what time, and how often. || min=35 || req: om/hver | klokken | altid/tit/nogle gange/aldrig/sjældent || Hej Kim! Om mandagen arbejder jeg fra klokken otte til fire. Om tirsdagen har jeg dansk, og om torsdagen spiller jeg badminton. Jeg cykler altid på arbejde. I weekenden sover jeg tit længe. Hvad med dig? Hilsen Ana
+lessons:
+  - title: Telling the time
+    summary: Ask what time it is and tell the time with hele, halve and kvarte timer — and learn why halv fire means 3:30.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [da.time]
+    objectives:
+      - Ask "Hvad er klokken?" and answer with Klokken er… / Den er…
+      - Use halv, kvart over, kvart i and minutes over/i
+      - Say at what time things happen (klokken seks)
+    intro: |
+      Buses, trains, classes and dinner invitations all run on time in Denmark, so you need to understand times quickly. The Danish clock has one big surprise: **halv fire** means 3:30 — half-way *to* four. In this lesson you will learn to ask the time, tell it, and say when things happen.
+    vocab: |
+      hvad er klokken? | what time is it? | expr | Undskyld, hvad er klokken? | Excuse me, what time is it? | n: Literally "what is the clock?". In speech the answer often starts with Den er…
+      klokken | o'clock; at (a time) | n | Klokken er tre. | It's three o'clock. | g: c | n: Written kl.: kl. 15. No preposition before it: Filmen starter klokken ni.
+      halv | half (towards the next hour) | adj | Klokken er halv fire. | It's half past three. | n: Careful! Halv fire = 3:30, half-way to four.
+      kvart over | a quarter past | expr | Den er kvart over syv. | It's a quarter past seven.
+      kvart i | a quarter to | expr | Bussen kører kvart i otte. | The bus leaves at a quarter to eight.
+      minutter over | minutes past | expr | Den er ti minutter over ni. | It's ten past nine. | n: In speech, minutter is often dropped: ti over ni.
+      minutter i | minutes to | expr | Klokken er fem minutter i tolv. | It's five to twelve.
+      et minut | a minute | n | Vent et minut! | Wait a minute! | g: n | pl: minutter
+      en time | an hour; a lesson | n | Filmen varer to timer. | The film lasts two hours. | g: c | pl: timer | n: False friend: en time is an hour. "Time" in general is tid.
+      om morgenen | in the morning | expr | Jeg drikker kaffe om morgenen. | I drink coffee in the morning.
+      om eftermiddagen | in the afternoon | expr | Hun arbejder om eftermiddagen. | She works in the afternoon.
+      om aftenen | in the evening | expr | Vi ser tv om aftenen. | We watch TV in the evening.
+      i dag; i morgen | today; tomorrow | adv | I dag har jeg fri. | Today I have the day off. | n: Notice the word order: I dag har jeg… — the verb comes second.
+      hvornår | when | adv | Hvornår starter filmen? | When does the film start? | n: The h is silent: "vor-når".
+    grammar:
+      title: "Hvad er klokken?"
+      body: |
+        To ask the time, say **Hvad er klokken?** The answer is **Klokken er…** or, in speech, **Den er…**
+
+        - Full hours: *Klokken er tre.*
+        - **Halv** counts towards the **next** hour: *halv fire* = 3:30 (half-way to four). This is the most common mistake for learners!
+        - Quarters: *kvart over tre* (3:15), *kvart i fire* (3:45).
+        - Minutes: *fem (minutter) over tre* (3:05), *ti (minutter) i fire* (3:50). Around the half hour, Danes count from *halv*: *fem minutter i halv fire* (3:25), *fem minutter over halv fire* (3:35).
+
+        To say **at** a time, just put *klokken* in front — no preposition: *Toget kører klokken seks.*
+
+        Timetables use the 24-hour clock with a full stop: *kl. 14.30*. In everyday speech, Danes usually say *halv tre* for that time. You will learn the numbers you need to read *14.30* aloud (*fjorten tredive*) in unit 6.
+      table: |
+        Time | Danish
+        3:00 | Klokken er tre.
+        3:05 | Den er fem minutter over tre.
+        3:15 | Den er kvart over tre.
+        3:25 | Den er fem minutter i halv fire.
+        3:30 | Den er halv fire.
+        3:35 | Den er fem minutter over halv fire.
+        3:45 | Den er kvart i fire.
+        3:50 | Den er ti minutter i fire.
+      examples: |
+        Hvad er klokken? – Den er halv otte. | What time is it? – It's half past seven. | halv otte = 7:30
+        Filmen starter klokken ni. | The film starts at nine o'clock.
+        Jeg spiser frokost kvart over tolv. | I have lunch at a quarter past twelve.
+        Kurset slutter ti minutter i fire. | The course ends at ten to four.
+      tip: "Halv + the NEXT hour: halv ti = 9:30. Think \"half-way to ten\"."
+    dialogue:
+      title: En travl morgen
+      setting: A weekday morning in a shared flat in Aalborg. Yasmin is late for a lecture; her flatmate Anders is making coffee.
+      speakers: Y=Yasmin/f; A=Anders/m
+      lines: |
+        Y: Anders! Hvad er klokken? | Anders! What time is it?
+        A: Den er kvart over syv. | It's a quarter past seven.
+        Y: Hvad? Min bus kører halv otte! | What? My bus leaves at half past seven!
+        A: Hvornår starter din forelæsning? | When does your lecture start?
+        Y: Klokken otte, og jeg er så træt. | At eight, and I'm so tired.
+        A: Bussen kvart i otte er også fin. | The quarter-to-eight bus is fine too.
+        Y: Nej, den er for sen. | No, it's too late.
+        A: Så løb! Her er din kaffe. | Then run! Here's your coffee.
+        Y: Tusind tak! Hvornår kommer du hjem? | Thanks a lot! When are you coming home?
+        A: Klokken fem. Vi ses! | At five. See you!
+        Y: Hej hej! | Bye!
+    pronunciation:
+      title: "Silent letters in halv and tolv"
+      body: |
+        In **halv** and **tolv** the v is silent: *halv* sounds like "hal", and *tolv* like "tol". In **hvad** both the h and the d are silent ("va"), so *Hvad er klokken?* flows like "va-er-klokken".
+
+        **Kvart** starts with a clear *kv*, as in English *quick* — the v is pronounced here. Listen and repeat each item.
+      items: |
+        halv
+        tolv
+        halv tolv
+        kvart over
+        klokken
+        Hvad er klokken?
+    culture:
+      title: On time in Denmark
+      body: |
+        Danes value punctuality. If a meeting or a class starts *klokken ni*, people arrive a few minutes before nine. For a dinner invitation at *klokken seks*, arrive at six — not much earlier and not much later.
+
+        Written times use the 24-hour clock (*kl. 18.30*), especially on timetables, tickets and invitations. In conversation, people usually switch to the 12-hour clock and words like *halv syv* or *kvart over otte*.
+    mistakes: |
+      Klokken er halv tre. (you mean 3:30) => Klokken er halv fire. | Halv counts towards the next hour: halv fire = 3:30.
+      Hvad tid er det? => Hvad er klokken? | Danish asks "what is the clock?": Hvad er klokken?
+      Filmen starter på klokken otte. => Filmen starter klokken otte. | No preposition before klokken.
+    task:
+      title: Times of my day
+      mode: speaking
+      body: |
+        Say aloud at what time four things happen in your day — for example when your first class or meeting starts, when you have lunch and when you come home. Use at least one halv and one kvart. Then ask a partner or the AI coach "Hvad er klokken?" and answer.
+    exercises: |
+      mc: "Halv fire" is… || 4:30 | *3:30 | 3:04 || Halv counts towards the next hour: halv fire = 3:30. || @tags da.time
+      mc: How do you say 7:15? || *Den er kvart over syv. | Den er kvart i syv. | Den er halv syv. || Kvart over = a quarter past. Kvart i syv is 6:45, and halv syv is 6:30. || @tags da.time
+      mc: How do you say 8:45? || Den er kvart over otte. | *Den er kvart i ni. | Den er halv ni. || 8:45 is a quarter to nine: kvart i ni. || @tags da.time
+      fill: 6:30 → Klokken er ___ syv. || halv || 6:30 = half-way to seven: halv syv. || @tags da.time
+      fill: 9:50 → Den er ti minutter ___ ti. || i || Ten minutes to ten: ti minutter i ti. || @tags da.time
+      fill: Hvad er ___? – Den er tre. || klokken || The question is Hvad er klokken? || @tags da.time
+      match: 12:00 = Klokken er tolv. ; 11:30 = Den er halv tolv. ; 12:15 = Den er kvart over tolv. ; 11:45 = Den er kvart i tolv. || Halv tolv = 11:30 and kvart i tolv = 11:45 both point towards twelve. || @tags da.time
+      mc: When does Yasmin's bus leave? || 7:15 | *7:30 | 7:45 || "Min bus kører halv otte" — half-way to eight = 7:30. || @ctx dialogue @skill reading @tags da.reading
+      short: When does Anders come home? || kw: 5/fem/five || Anders says "Klokken fem." || @ctx dialogue
+      tr: When does the film start? || Hvornår starter filmen? | Hvornår begynder filmen? || Question word, then the verb: Hvornår starter… || @tags da.question-words,da.time
+      tr: It's half past nine. || Klokken er halv ti. | Den er halv ti. || 9:30 is half-way to ten: halv ti. || @tags da.time
+      listen: Toget til Odense kører klokken kvart over elleve. || When does the train leave? || 10:45 | *11:15 | 11:45 || Kvart over elleve = a quarter past eleven. || @tags da.time
+      listen: Undskyld, hvad er klokken? – Den er fem minutter i halv to. || What time is it? || 2:25 | *1:25 | 1:35 || Halv to = 1:30, so five minutes before it is 1:25. || @tags da.time
+      ask: Someone asks you "Hvad er klokken?". Tell them it's a quarter to six. || kw: kvart i & seks || Den er kvart i seks.
+      dict: Klokken er halv otte om morgenen.
+
+  - title: My daily routine
+    summary: Describe your day from getting up to going to bed with present-tense verbs — one form for every person.
+    minutes: 40
+    skills: [grammar, writing, speaking]
+    tags: [da.present]
+    objectives:
+      - Form the present tense by adding -r
+      - Use everyday routine verbs such as stå op, tage et bad and gå i seng
+      - Order a description with først and så
+    intro: |
+      Talking about your day is a perfect way to practise verbs. The Danish present tense is wonderfully simple: add **-r** to the infinitive, and use the same form for everyone — *jeg spiser, du spiser, vi spiser*. There is no separate "-ing" form: *jeg spiser* means both "I eat" and "I'm eating".
+    vocab: |
+      stå op | to get up | v | Jeg står op klokken seks. | I get up at six. | n: A particle verb, stressed on op. Present tense: står op.
+      spise morgenmad | to have breakfast | expr | Vi spiser morgenmad klokken syv. | We have breakfast at seven.
+      tage et bad | to have a shower | expr | Jeg tager et bad om morgenen. | I have a shower in the morning. | n: Present tense: tager. You can also say gå i bad.
+      cykle | to cycle | v | Hun cykler på arbejde. | She cycles to work. | n: På arbejde = to work / at work.
+      tage bussen | to take the bus | expr | Han tager bussen til skole. | He takes the bus to school.
+      spise frokost | to have lunch | expr | Vi spiser frokost klokken tolv. | We have lunch at twelve.
+      komme hjem | to come home | expr | Jeg kommer hjem klokken fem. | I come home at five.
+      lave mad | to cook | expr | Min kæreste laver mad i dag. | My partner is cooking today. | n: Literally "make food".
+      spise aftensmad | to have dinner | expr | Vi spiser aftensmad klokken seks. | We have dinner at six. | n: Many Danes eat dinner early, around six.
+      se tv | to watch TV | expr | Om aftenen ser jeg tv. | In the evening I watch TV. | n: Present tense: ser.
+      gå i seng | to go to bed | expr | Jeg går i seng klokken elleve. | I go to bed at eleven.
+      sove | to sleep | v | Jeg sover otte timer. | I sleep for eight hours.
+      læse | to read | v | Hun læser avis om morgenen. | She reads the newspaper in the morning.
+      først; så | first; then | adv | Først tager jeg et bad, så spiser jeg morgenmad. | First I have a shower, then I have breakfast. | n: Both can start a sentence — and then the verb comes next: så spiser jeg…
+    grammar:
+      title: "The present tense: -r for everyone"
+      body: |
+        To form the present tense, take the infinitive and add **-r**. The form is the same for every person.
+
+        - Infinitive ending in **-e**: add -r — *spise → spiser, arbejde → arbejder, cykle → cykler.*
+        - Infinitive ending in another vowel: add -r — *gå → går, stå → står, se → ser, bo → bor.*
+        - A few common verbs are irregular: *være → er, have → har, gøre → gør, vide → ved.* The modal verbs (*kan, vil, skal*) have no -r — more about them in unit 7.
+
+        Dictionaries and teachers often show the infinitive with **at** (to): *at spise* = to eat.
+
+        Danish has **no "-ing" form**: *Hvad laver du? – Jeg laver mad* means "What are you doing? – I'm cooking."
+
+        In particle verbs like **stå op**, the small word comes after the verb: *Jeg står op klokken syv.*
+      table: |
+        Infinitive | Present | Example
+        at spise | spiser | Jeg spiser morgenmad.
+        at arbejde | arbejder | Hun arbejder hjemme.
+        at gå | går | Vi går i seng klokken elleve.
+        at se | ser | De ser tv.
+        at tage | tager | Han tager bussen.
+        at være | er | Jeg er træt.
+        at gøre | gør | Hvad gør du om aftenen?
+      examples: |
+        Jeg står op klokken seks og tager et bad. | I get up at six and have a shower.
+        Min mand cykler på arbejde. | My husband cycles to work.
+        Hvad laver du? – Jeg læser. | What are you doing? – I'm reading. | one form for "read" and "am reading"
+        Børnene går i skole klokken otte. | The children go to school at eight.
+      tip: "Danish has no \"-ing\" form: jeg læser = I read and I am reading."
+    dialogue:
+      title: A- eller B-menneske?
+      setting: Two friends, Esther and Kasper, chat in a café in Copenhagen about their daily rhythm. Esther is a morning person; Kasper is not.
+      speakers: E=Esther/f; K=Kasper/m
+      lines: |
+        E: Hvornår står du op, Kasper? | When do you get up, Kasper?
+        K: Klokken ni. Og du? | At nine. And you?
+        E: Jeg står op klokken halv seks. | I get up at half past five.
+        K: Halv seks? Hvorfor? | Half past five? Why?
+        E: Jeg løber en tur før arbejde. | I go for a run before work.
+        K: Wow. Jeg drikker bare kaffe. | Wow. I just drink coffee.
+        E: Hvordan kommer du på arbejde? | How do you get to work?
+        K: Jeg cykler. Det tager tyve minutter. | I cycle. It takes twenty minutes.
+        E: Og om aftenen? | And in the evening?
+        K: Jeg laver mad og ser en film. | I cook and watch a film.
+        E: Jeg går i seng klokken ti! | I go to bed at ten!
+        K: Ti? Så spiser jeg aftensmad! | Ten? That's when I have dinner!
+    pronunciation:
+      title: "Weak endings: spiser, tager"
+      body: |
+        The present-tense ending **-er** is weak and short: it sounds like a soft "a", so **spiser** is roughly "spee-sa". In **tager** the g is silent: it sounds like "ta-a" run together. The same happens in **dag** (day), where you hardly hear the g.
+
+        In particle verbs the stress falls on the small word: **stå OP**. Listen and repeat.
+      items: |
+        spiser
+        tager
+        arbejder
+        cykler
+        står op
+        Jeg står op klokken seks.
+    culture:
+      title: A Danish weekday
+      body: |
+        Many Danes start work or school around eight, eat a quick lunch at about twelve — often open sandwiches on **rugbrød** (dark rye bread) — and finish around four. Dinner, **aftensmad**, is usually eaten early, between six and seven, and is the main hot meal of the day.
+
+        Cycling is a normal way to get to work, school and the shops, in all weather. In Copenhagen and Odense you will see bike lanes everywhere and parents with children in cargo bikes.
+    mistakes: |
+      Jeg spise morgenmad. => Jeg spiser morgenmad. | The present tense needs -r: spiser.
+      Jeg er spiser nu. => Jeg spiser nu. | Danish has no "-ing" form, so don't add er.
+      Jeg op står klokken syv. => Jeg står op klokken syv. | In a particle verb, the small word comes after the verb.
+    task:
+      title: My typical day
+      mode: writing
+      body: |
+        Write five or six sentences about a typical weekday: when you get up, how you get to work or school, when you eat, and what you do in the evening. Use først and så, and give at least four times.
+    exercises: |
+      fill: Jeg ___ op klokken seks. (stå) || står || Stå → står. The particle op stays after the verb. || @tags da.present
+      fill: Hun ___ på arbejde. (cykle) || cykler || Cykle → cykler: add -r. || @tags da.present
+      fill: Vi ___ aftensmad klokken seks. (spise) || spiser || Spise → spiser, the same form for every person. || @tags da.present
+      fill: Han ___ bussen til skole. (tage) || tager || Tage → tager. || @tags da.present
+      mc: Which sentence is correct? || Jeg er spiser nu. | *Jeg spiser nu. | Jeg spiseer nu. || One verb form covers "I eat" and "I'm eating": jeg spiser. || @tags da.present
+      mc: What does Esther do before work? || *She goes for a run | She cycles to the office | She watches a film || "Jeg løber en tur før arbejde." || @ctx dialogue @skill reading @tags da.reading
+      tf: Kasper cycles to work. || true || "Jeg cykler. Det tager tyve minutter." || @ctx dialogue
+      short: When does Esther go to bed? || kw: 10/ti/ten || Esther says "Jeg går i seng klokken ti!" || @ctx dialogue
+      order: Om aftenen laver jeg mad og ser tv. || In the evening I cook and watch TV. || @alt Jeg laver mad og ser tv om aftenen. @tags da.present,da.word-order
+      rw: Put the verb in the present tense :: Jeg (gå) i seng klokken elleve. || Jeg går i seng klokken elleve. || Gå → går. || @tags da.present
+      tr: I get up at seven and have a shower. || Jeg står op klokken syv og tager et bad. | Jeg står op klokken syv, og jeg tager et bad. | Jeg står op klokken syv og går i bad. | Jeg står op kl. 7 og tager et bad. || Stå op → står op; tage et bad → tager et bad. || @tags da.present
+      listen: Mette står op klokken halv syv. Hun cykler på arbejde og kommer hjem klokken fire. || When does Mette come home? || *At four | At half past six | At half past four || "Hun kommer hjem klokken fire." She gets up at halv syv (6:30). || @tags da.listening
+      ask: Describe your morning — say when you get up and two things you do. || kw: står op & klokken || Jeg står op klokken syv. Først tager jeg et bad, så spiser jeg morgenmad.
+      write: Describe a typical weekday with at least four times. || min=30 || req: står op | klokken | spiser | går i seng || Jeg står op klokken halv syv. Først tager jeg et bad, så spiser jeg morgenmad. Klokken otte cykler jeg på arbejde. Jeg spiser frokost klokken tolv og kommer hjem klokken fire. Jeg går i seng klokken elleve.
+      dict: Jeg cykler på arbejde om morgenen.
+
+  - title: Days and frequency
+    summary: Name the days of the week, say how often you do things, and keep the verb in second place when a sentence starts with a time.
+    minutes: 40
+    skills: [grammar, vocabulary, speaking]
+    tags: [da.word-order, da.frequency, da.sentence-adverbs]
+    objectives:
+      - Use the days of the week with om mandagen, på mandag and hver mandag
+      - Say how often with altid, tit, nogle gange, sjældent and aldrig
+      - Apply verb-second word order when a sentence starts with a time or frequency word
+    intro: |
+      In this lesson you will learn the most important rule of Danish word order: in a statement, **the verb always comes second**. Start with *jeg* and nothing changes — but start with *om lørdagen* (on Saturdays) and the subject moves after the verb: *Om lørdagen spiller jeg fodbold.* You will also learn to say how often you do things.
+    vocab: |
+      mandag | Monday | n | Jeg har dansk om mandagen. | I have Danish on Mondays. | n: Days of the week have a small letter.
+      tirsdag; onsdag | Tuesday; Wednesday | n | Om onsdagen spiller jeg badminton. | On Wednesdays I play badminton.
+      torsdag; fredag | Thursday; Friday | n | På fredag har vi fest. | This Friday we're having a party. | n: På fredag = this coming Friday.
+      lørdag; søndag | Saturday; Sunday | n | Om søndagen sover vi længe. | On Sundays we sleep late.
+      en weekend | a weekend | n | Hvad laver du i weekenden? | What do you do at the weekend? | g: c | pl: weekender
+      en uge | a week | n | Jeg arbejder fire dage om ugen. | I work four days a week. | g: c | pl: uger
+      altid | always | adv | Jeg drikker altid te om aftenen. | I always drink tea in the evening.
+      tit | often | adv | Vi spiser tit fisk. | We often eat fish. | n: Ofte means the same and is a little more formal.
+      nogle gange | sometimes | adv | Nogle gange tager jeg bussen. | Sometimes I take the bus.
+      sjældent | rarely | adv | Han ser sjældent tv. | He rarely watches TV.
+      aldrig | never | adv | Hun drikker aldrig kaffe. | She never drinks coffee.
+      hver dag | every day | expr | Jeg cykler hver dag. | I cycle every day. | c: hver mandag; hver weekend
+      om mandagen | on Mondays | expr | Om mandagen har jeg fri. | On Mondays I have the day off. | n: Om + day + -en = every week. På mandag = this coming Monday.
+      spille | to play (a game, sport or instrument) | v | Mine børn spiller fodbold om lørdagen. | My children play football on Saturdays.
+    grammar:
+      title: "Verb second — and where altid goes"
+      body: |
+        In a Danish statement, the verb is always the **second element**. Usually the subject comes first: *Jeg spiller fodbold om lørdagen.* But you can start with something else — a time, a place or a frequency word. The verb stays in second place, and the **subject moves after the verb**:
+
+        - *Om lørdagen **spiller jeg** fodbold.* (not ~~Om lørdagen jeg spiller~~)
+        - *I dag **arbejder hun** hjemme.*
+        - *Nogle gange **tager vi** bussen.*
+
+        Frequency words like **altid, tit, sjældent** and **aldrig** go straight after the verb — or after the subject when the subject follows the verb:
+
+        - *Jeg spiser **altid** morgenmad.*
+        - *Om morgenen spiser jeg **altid** havregryn.*
+
+        Days: **om mandagen** = on Mondays (every week), **på mandag** = this coming Monday, **hver mandag** = every Monday.
+      table: |
+        Position 1 | Verb (2) | Subject | Rest
+        Jeg | spiller | – | fodbold om lørdagen.
+        Om lørdagen | spiller | jeg | fodbold.
+        I dag | arbejder | hun | hjemme.
+        Nogle gange | tager | vi | bussen.
+      examples: |
+        Om søndagen spiser vi brunch med min mormor. | On Sundays we have brunch with my grandmother. | subject after the verb
+        Hun cykler altid på arbejde. | She always cycles to work. | altid after the verb
+        Om aftenen ser jeg sjældent tv. | In the evening I rarely watch TV. | verb, subject, adverb
+        Hvor tit spiller du badminton? | How often do you play badminton?
+      tip: "Count the positions: whatever comes first, the verb is number two."
+    dialogue:
+      title: Birgit har travlt
+      setting: Ali meets his retired neighbour Birgit on the stairs of their building in Roskilde. She is always busy.
+      speakers: A=Ali/m; B=Birgit/f
+      lines: |
+        A: Hej, Birgit! Du har altid travlt! | Hi, Birgit! You're always busy!
+        B: Ja! Om mandagen svømmer jeg. | Yes! On Mondays I swim.
+        A: Og om tirsdagen? | And on Tuesdays?
+        B: Om tirsdagen synger jeg i kor. | On Tuesdays I sing in a choir.
+        A: Hvor tit ser du dine børnebørn? | How often do you see your grandchildren?
+        B: Hver onsdag. De spiser aftensmad hos mig. | Every Wednesday. They have dinner at my place.
+        A: Hyggeligt! Og i weekenden? | Lovely! And at the weekend?
+        B: Om lørdagen går jeg tit en lang tur. | On Saturdays I often go for a long walk.
+        A: Har du aldrig fri? | Do you never have time off?
+        B: Jo, om søndagen! Så sover jeg længe. | Yes, on Sundays! Then I sleep late.
+        A: Det lyder godt! | That sounds good!
+    pronunciation:
+      title: "Stød: hun or hund?"
+      body: |
+        Danish has a special feature called **stød**: a short catch or creak in the voice in some syllables, a little like a tiny hiccup in the throat. It is often the only difference between two words: **hun** (she) has no stød, but **hund** (dog) has one; **man** (one, you) has none, but **mand** (man) has one. The d in *hund* and *mand* is silent.
+
+        Don't worry if you can't produce stød yet — people will understand you from the context. Start by listening for it, then try the pairs slowly.
+      items: |
+        hun
+        hund
+        man
+        mand
+        Hun har en hund.
+        Min mand er sød.
+    culture:
+      title: Fredagshygge and week numbers
+      body: |
+        Friday evening is special in many Danish homes: **fredagshygge** means a cosy evening with a simple dinner, sweets (*fredagsslik*) for the children and a film on the sofa.
+
+        Danes also use **week numbers** a lot. Calendars show them, and people say things like *Jeg har ferie i uge 7* (I'm on holiday in week 7). The autumn school holiday is usually in *uge 42*, so "uge 42" simply means the October holiday.
+    mistakes: |
+      Om lørdagen jeg spiller fodbold. => Om lørdagen spiller jeg fodbold. | The verb must come second; the subject moves after it.
+      Jeg altid drikker te. => Jeg drikker altid te. | Altid goes after the verb in a main clause.
+      Jeg har dansk på Mandag. => Jeg har dansk på mandag. | Days of the week have a small letter.
+    task:
+      title: My week
+      mode: interaction
+      body: |
+        Tell a new friend about your week: what you do on three different days, and how often you do two activities (altid, tit, nogle gange, aldrig). Start at least two sentences with a day — "Om tirsdagen spiller jeg…" — and keep the verb second.
+    exercises: |
+      mc: Which sentence has the correct word order? || Om lørdagen jeg spiller fodbold. | *Om lørdagen spiller jeg fodbold. | Om lørdagen spiller fodbold jeg. || Verb second: Om lørdagen (1) spiller (2) jeg. || @tags da.word-order
+      mc: Where does altid go? || Jeg altid drikker te. | *Jeg drikker altid te. | Altid jeg drikker te. || In a main clause, altid comes straight after the verb. || @tags da.sentence-adverbs,da.frequency
+      fill: I dag ___ hun hjemme. (arbejde) || arbejder || After I dag, the verb comes next: I dag arbejder hun. || @tags da.word-order,da.present
+      fill: Nogle gange ___ vi bussen. (tage) || tager || Nogle gange (1) tager (2) vi. || @tags da.word-order,da.frequency
+      rw: Start the sentence with "Om søndagen" :: Vi sover længe om søndagen. || Om søndagen sover vi længe. || The verb stays second, so vi moves after sover. || @tags da.word-order
+      rw: Add the word "aldrig" (never) :: Han drikker kaffe. || Han drikker aldrig kaffe. || Aldrig goes straight after the verb. || @tags da.frequency,da.sentence-adverbs
+      order: Om tirsdagen synger jeg i kor. || On Tuesdays I sing in a choir. || @alt Jeg synger i kor om tirsdagen. @tags da.word-order
+      mc: What does Birgit do on Mondays? || *She swims | She sings in a choir | She sleeps late || "Om mandagen svømmer jeg." || @ctx dialogue @skill reading @tags da.reading
+      tf: Birgit sees her grandchildren every Wednesday. || true || "Hver onsdag. De spiser aftensmad hos mig." || @ctx dialogue
+      short: On which day does Birgit sleep late? || kw: søndag/sunday || "Jo, om søndagen! Så sover jeg længe." || @ctx dialogue
+      match: altid = always ; tit = often ; nogle gange = sometimes ; sjældent = rarely ; aldrig = never || From most to least often: altid, tit, nogle gange, sjældent, aldrig. || @tags da.frequency
+      tr: On Fridays I often eat with my family. || Om fredagen spiser jeg tit med min familie. | Jeg spiser tit med min familie om fredagen. | Om fredagen spiser jeg ofte med min familie. | Jeg spiser ofte med min familie om fredagen. || Om fredagen = on Fridays; after it comes the verb, then jeg, then tit. || @tags da.word-order,da.frequency
+      listen: Om torsdagen spiller Mikkel badminton, og om lørdagen arbejder han i en butik. || What does Mikkel do on Saturdays? || He plays badminton | *He works in a shop | He sleeps late || "Om lørdagen arbejder han i en butik." Badminton is on Thursdays. || @tags da.dates
+      ask: Tell a new friend about your week — say what you do on two different days. || kw: om & mandagen/tirsdagen/onsdagen/torsdagen/fredagen/lørdagen/søndagen/weekenden || Om mandagen arbejder jeg, og om onsdagen spiller jeg fodbold. I weekenden sover jeg tit længe.
+      dict: Om søndagen sover vi længe.

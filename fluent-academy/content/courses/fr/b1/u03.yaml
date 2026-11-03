@@ -1,0 +1,373 @@
+unit: 3
+title: Apprendre tout au long de la vie
+theme: Education and learning
+description: Compare school systems and memories, discuss how adults learn languages and give advice about studies and learning, using the present subjunctive after il faut que, il vaut mieux que and other expressions of necessity and advice.
+free: false
+objectives:
+  - Explain how school works and compare it with your own school memories
+  - Form the present subjunctive of regular and common irregular verbs after expressions of necessity
+  - Give advice with devoir in the conditional, conseiller de, à ta place, il vaut mieux and il faudrait que
+canDo:
+  - I can explain the main stages of the French school system and compare them with my own experience.
+  - I can say what someone has to do using il faut que + subjunctive.
+  - I can discuss common beliefs about learning languages.
+  - I can give friendly or formal advice about studies and learning.
+review: |
+  fill: Il faut que tu ___ (choisir) une filière avant mars. || choisisses || Ils choisissent → choisiss- + -es. || @tags fr.subjonctif
+  fill: Il est important que nous ___ (être) à l'heure à l'examen. || soyons || Être is irregular in the subjunctive: que nous soyons. || @tags fr.subjonctif
+  fill: Il vaut mieux que vous ___ (aller) aux portes ouvertes. || alliez || Aller: que vous alliez (the nous / vous forms look like the imparfait). || @tags fr.subjonctif,fr.subjonctif-triggers
+  mc: "Il ne faut pas que tu oublies ton carnet." This means… || You don't have to forget your planner. | *You mustn't forget your planner. | You forgot your planner. || Il ne faut pas que = must not. || @tags fr.subjonctif-triggers
+  mc: In a French collège, which year comes first? || *la sixième | la troisième | la terminale || Collège starts in sixième (age 11) and ends in troisième; terminale is the last year of lycée. || @skill vocabulary @tags fr.vocabulary
+  fill: À votre place, je ___ (demander) conseil à un professeur. || demanderais || À votre place + conditional: je demanderais. || @tags fr.conditionnel
+  rw: Start with "Il faut que…" :: Tu dois faire tes devoirs ce soir. || Il faut que tu fasses tes devoirs ce soir. || Il faut que + subjunctive; faire → que tu fasses. || @tags fr.subjonctif
+  tr: You should go to bed earlier. (tu) || Tu devrais te coucher plus tôt. | Tu devrais aller te coucher plus tôt. | Tu devrais aller au lit plus tôt. || Advice: devoir in the conditional (tu devrais) + infinitive. || @tags fr.conditionnel
+  listen: Pour le voyage à Berlin, il faut que vous apportiez votre carte d'identité et que vous soyez au lycée à six heures. || What time must the students be at school? || *At six | At seven | At eight || "Que vous soyez au lycée à six heures." || @tags fr.listening,fr.subjonctif
+  listen: J'apprends l'italien avec une application, mais je vais aussi à un échange linguistique le jeudi soir. Là, je progresse vraiment ! || When does the speaker feel they really make progress? || *At the language exchange on Thursday evenings | When using the app | At school || "Là, je progresse vraiment" refers to the Thursday language exchange. || @tags fr.listening
+  ask: Tell a new learner how you learn French, then give them one piece of advice. || kw: j'apprends/j'écoute/je regarde/je lis/je parle/je fais/j'utilise & devrais/conseille/faut que/vaut mieux/à ta place/faudrait || J'apprends le français avec des podcasts et je parle avec une amie québécoise le samedi. À ta place, je regarderais des séries en français : c'est très efficace.
+  write: Write a message to a friend who is about to start learning French, with at least four pieces of advice. || min=70 || req: faut que/vaut mieux que/faudrait que | devrais | conseille | sois/aies/fasses/ailles/puisses/saches || Salut Ben ! Super nouvelle, tu commences le français ! Voici mes conseils. D'abord, il faut que tu sois régulier : vingt minutes par jour, c'est mieux qu'une fois par semaine. Je te conseille aussi d'écouter des podcasts dans les transports. Tu devrais trouver un partenaire d'échange linguistique pour parler. Enfin, il vaut mieux que tu fasses des erreurs plutôt que de rester silencieux ! Bon courage, Sara
+lessons:
+  - title: School memories and systems
+    summary: Understand how French schools work, compare them with your own school memories and say what pupils and parents have to do, with il faut que + subjunctive.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [fr.subjonctif, fr.subjonctif-triggers]
+    objectives:
+      - Name the stages of the French school system and its key vocabulary
+      - Form the present subjunctive of regular verbs
+      - Say what someone has to do with il faut que + subjunctive and what is necessary in general with il faut + infinitive
+    intro: |
+      Every school system has its own rules, rhythms and words — *la rentrée*, *le collège*, *le carnet de correspondance*. Explaining them means saying what pupils and parents **have to do**. In French, as soon as you say **who** has to do it (*il faut que tu…, il faut que les parents…*), the verb goes into a new mood: the **subjonctif**. This lesson shows you how to form it for regular verbs.
+    vocab: |
+      la rentrée | the start of the school year | n | La rentrée a lieu début septembre. | The school year starts in early September. | g: f | n: Also the return to work after the summer holidays.
+      l'école maternelle | nursery school (age 3–6) | n | Ma fille est en dernière année d'école maternelle. | My daughter is in her last year of nursery school. | g: f | n: Often just la maternelle.
+      le collège | lower secondary school (age 11–15) | n | Au collège, j'avais cours de latin. | At secondary school I had Latin lessons. | g: m | n: False friend: a university is une université or une fac.
+      le carnet de correspondance | the school planner (for messages between school and home) | n | Il faut signer le carnet de correspondance. | The school planner has to be signed. | g: m | n: Also le carnet de liaison.
+      le bulletin | the school report | n | Les bulletins arrivent à la fin de chaque trimestre. | Reports arrive at the end of each term. | g: m
+      la cantine | the school canteen | n | Mon fils mange à la cantine le midi. | My son has lunch in the canteen. | g: f
+      l'emploi du temps | the timetable | n | Mon emploi du temps change chaque semestre. | My timetable changes every semester. | g: m
+      les devoirs | homework | n | Il fait ses devoirs tout de suite après l'école. | He does his homework straight after school. | g: m | n: Always plural in this meaning.
+      redoubler | to repeat a year | v | Il a redoublé sa seconde. | He repeated his first year of lycée. | n: Le redoublement is less common in France today than in the past.
+      le conseil de classe | the class council (end-of-term meeting about each pupil) | n | Le conseil de classe a lieu en décembre. | The class council meets in December. | g: m
+      s'habituer à | to get used to | v | Je me suis vite habitué aux notes sur vingt. | I quickly got used to marks out of twenty.
+      inscrire | to register; to enrol (someone) | v | Il faut que j'inscrive ma fille au club de théâtre. | I have to sign my daughter up for the drama club. | n: S'inscrire = to register oneself.
+    grammar:
+      title: The present subjunctive after il faut que
+      body: |
+        After **il faut que** — and after *il est important / nécessaire / essentiel que* — French uses the **subjonctif**: *Il faut que tu **finisses** tes devoirs.*
+
+        **Formation** (regular verbs and many others): take the **ils** form of the present, remove **-ent** and add **-e, -es, -e, -ions, -iez, -ent**: *ils finiss**ent** → que je finiss**e***; *ils prenn**ent** → que je prenn**e***; *ils écriv**ent** → que j'écriv**e***.
+
+        The **nous** and **vous** forms are the same as in the imparfait: *que nous finissions, que vous preniez*. For -er verbs, *je, tu, il* and *ils* sound like the present (*que je parle*); with other verbs you hear the difference (*il finit → qu'il finisse*).
+
+        Use **il faut + infinitive** for a general rule, with no particular person: *Il faut réserver la cantine.* Use **il faut que + subject + subjunctive** when you say who must do it: *Il faut que vous réserviez la cantine.*
+      table: |
+        Verb | ils (present) | que je | que nous | qu'ils
+        parler | parlent | parle | parlions | parlent
+        finir | finissent | finisse | finissions | finissent
+        attendre | attendent | attende | attendions | attendent
+        prendre | prennent | prenne | prenions | prennent
+        écrire | écrivent | écrive | écrivions | écrivent
+      examples: |
+        Il faut que tu finisses tes devoirs avant le dîner. | You have to finish your homework before dinner. | finir → finisses
+        Il est important que les parents lisent le carnet. | It's important that parents read the planner. | ils lisent → lisent
+        Il faut que nous inscrivions les enfants à la cantine. | We have to register the children for the canteen. | nous → -ions
+        Il faut partir tôt. · Il faut que je parte tôt. | We have to leave early (in general). · I have to leave early. | infinitive vs subjunctive
+      tip: "No person, no subjunctive: Il faut réserver. A person after que, subjunctive: Il faut que vous réserviez."
+    dialogue:
+      title: À la sortie du collège
+      setting: Outside a collège in Lyon, in September. Geneviève, who has just moved from Montreal, meets Sébastien, the father of a girl in her son's class.
+      speakers: G=Geneviève/f; S=Sébastien/m
+      lines: |
+        G: Bonjour ! Vous êtes le papa de Lucie ? Mon fils Félix est dans sa classe. | Hello! Are you Lucie's dad? My son Félix is in her class.
+        S: Oui, enchanté ! Alors, comment se passe la rentrée pour Félix ? | Yes, nice to meet you! So, how is the start of the year going for Félix?
+        G: Plutôt bien, mais le système est très différent du Québec. Les notes sur vingt, par exemple ! | Pretty well, but the system is very different from Quebec. Marks out of twenty, for example!
+        S: Ah oui, il faut qu'il s'habitue : un douze sur vingt, c'est déjà correct. | Oh yes, he'll have to get used to it: twelve out of twenty is already decent.
+        G: Et le carnet de correspondance, il faut que je le signe chaque semaine ? | And the school planner, do I have to sign it every week?
+        S: Seulement quand il y a un mot du professeur. Mais il faut que vous le regardiez souvent. | Only when there's a note from the teacher. But you should look at it often.
+        G: D'accord. Et pourquoi les élèves n'ont pas cours le mercredi après-midi ? | OK. And why don't pupils have lessons on Wednesday afternoons?
+        S: C'est une tradition. Quand j'étais petit, on avait même cours le samedi matin ! | It's a tradition. When I was little, we even had lessons on Saturday mornings!
+        G: Le samedi ? Félix serait horrifié ! Et pour la cantine, il faut réserver ? | On Saturdays? Félix would be horrified! And for the canteen, do you have to book?
+        S: Oui, il faut que vous l'inscriviez en ligne avant le vingt de chaque mois. | Yes, you have to register him online before the 20th of each month.
+        G: Merci, c'est précieux ! Il faut absolument qu'on prenne un café un de ces jours. | Thanks, that's really helpful! We really must have a coffee one of these days.
+        S: Avec plaisir ! Et n'hésitez pas à m'écrire si vous avez des questions. | With pleasure! And don't hesitate to write to me if you have any questions.
+    pronunciation:
+      title: "Present or subjunctive? il finit / qu'il finisse"
+      body: |
+        With many verbs, the subjunctive adds a consonant sound at the end that the present doesn't have: *il finit* [fi.ni] → *qu'il finisse* [fi.nis]; *il écrit* [e.kʁi] → *qu'il écrive* [e.kʁiv].
+
+        With *prendre*, the vowel changes too: *il prend* [pʁɑ̃] (nasal) → *qu'il prenne* [pʁɛn] (oral vowel + [n]). Listening for these final consonants helps you recognise the subjunctive in fast speech.
+      items: |
+        il finit
+        qu'il finisse
+        il prend
+        qu'il prenne
+        il écrit
+        qu'il écrive
+    culture:
+      title: L'école en France
+      body: |
+        School is compulsory in France from age 3. Children go to *l'école maternelle* (3–6), then *l'école élémentaire* (6–11), *le collège* (11–15), which ends with an exam called *le brevet*, and *le lycée* (15–18), which ends with *le baccalauréat* (*le bac*). Years at collège are counted backwards: *sixième, cinquième, quatrième, troisième*; at lycée come *seconde, première* and *terminale*.
+
+        Most primary schools have no lessons on Wednesdays, and collèges usually finish at lunchtime that day — a rhythm that surprises many families from abroad.
+    mistakes: |
+      Il faut que tu finis tes devoirs. => Il faut que tu finisses tes devoirs. | After il faut que, use the subjunctive: que tu finisses.
+      Il faut que réserver la cantine. => Il faut réserver la cantine. | With no subject, il faut is followed directly by the infinitive.
+      Il faut que nous prenons le bus. => Il faut que nous prenions le bus. | In the subjunctive, nous and vous take the -ions / -iez endings: prenions.
+    task:
+      title: School, then and now
+      mode: speaking
+      body: |
+        A French family is moving to your country. Explain in one or two minutes how school works there: the stages, the timetable, and three things parents or pupils have to do (*il faut que les parents…, il faut que les élèves…*). Then add one memory of your own school days with the imparfait (*Quand j'étais au collège, on…*).
+    exercises: |
+      fill: Il faut que tu ___ (finir) tes devoirs avant le dîner. || finisses || Ils finissent → finiss- + -es. || @tags fr.subjonctif
+      fill: Il faut que vous ___ (signer) le carnet de correspondance. || signiez || Vous form of the subjunctive: -iez (like the imparfait). || @tags fr.subjonctif
+      fill: Il est important que les élèves ___ (lire) tous les soirs. || lisent || Ils lisent → lis- + -ent. || @tags fr.subjonctif,fr.subjonctif-triggers
+      fill: Il faut que nous ___ (attendre) la fin du cours. || attendions || Nous attendions — the same form as the imparfait. || @tags fr.subjonctif
+      mc: Choose the correct sentence. || Il faut que je pars à huit heures. | *Il faut que je parte à huit heures. | Il faut que partir à huit heures. || Il faut que + subject + subjunctive: ils partent → que je parte. || @tags fr.subjonctif
+      mc: "Il faut s'inscrire avant le 20." This means… || *Everyone has to register before the 20th. | Nobody may register before the 20th. | The school registers you before the 20th. || Il faut + infinitive expresses a general obligation for everyone. || @tags fr.subjonctif-triggers
+      mc: In France, "le collège" is… || a university | *a lower secondary school (age 11 to 15) | a primary school || Le collège is for pupils aged 11 to 15; a university is une université or une fac. || @skill vocabulary @tags fr.vocabulary
+      tf: According to Sébastien, 12 out of 20 is a bad mark. || false || "Un douze sur vingt, c'est déjà correct" — it's already decent. || @ctx dialogue
+      short: When do parents have to register their children for the canteen? || kw: 20/vingt/twentieth || "Avant le vingt de chaque mois", online. || @ctx dialogue
+      listen: @dialogue || What does Sébastien say about his own school days? || *He even had lessons on Saturday mornings. | He never had a canteen. | He had no marks at all. || "Quand j'étais petit, on avait même cours le samedi matin !" || @tags fr.listening
+      listen: Pour la sortie au musée, il faut que chaque élève apporte un pique-nique et une autorisation signée. || What must each pupil bring? || A ticket and some money | *A packed lunch and a signed permission slip | A notebook and a pen || "Un pique-nique et une autorisation signée." || @tags fr.listening,fr.subjonctif
+      rw: Say who has to do it, using "nous" :: Il faut réserver la salle. || Il faut que nous réservions la salle. || Il faut que + subject + subjunctive; nous → réservions. || @tags fr.subjonctif
+      tr: You have to read this book before Monday. (tu) || Il faut que tu lises ce livre avant lundi. | Il faut que tu lises ce livre d'ici lundi. | Tu dois lire ce livre avant lundi. || Il faut que + subjunctive (ils lisent → que tu lises), or devoir + infinitive. || @tags fr.subjonctif
+      dict: Il faut que les parents inscrivent leurs enfants avant la rentrée. || inscrivent
+      ask: A friend's child is starting school in your country. Tell them two things the child or the parents have to do. || kw: faut que/important que/nécessaire que & il/elle/ils/vous/tu/les parents/les enfants/ton fils/ta fille || Il faut que ta fille arrive à huit heures et demie, et il est important que vous lisiez les messages de l'école tous les soirs.
+
+  - title: How we learn languages
+    summary: Read an article about common beliefs on learning languages and use the irregular subjunctives after il faut que, il est essentiel que and il vaut mieux que.
+    minutes: 45
+    skills: [reading, grammar, speaking]
+    tags: [fr.subjonctif, fr.subjonctif-triggers]
+    objectives:
+      - Understand an article about common beliefs on language learning
+      - Use the irregular subjunctive forms of être, avoir, faire, aller, pouvoir and savoir
+      - Express what is necessary or better with il est essentiel que, il vaut mieux que and il ne faut pas que
+    intro: |
+      You are learning a language right now, so you have your own ideas about what works. In this lesson you will read about five common beliefs — *les idées reçues* — and what specialists think of them. The article uses the subjunctive of the most frequent verbs, which are irregular: *que tu sois, que vous ayez, qu'on fasse, que j'aille*. These forms are used constantly in spoken French.
+    vocab: |
+      une idée reçue | a common belief; a preconception | n | C'est une idée reçue : on peut apprendre à tout âge. | That's a myth: you can learn at any age. | g: f
+      progresser | to make progress | v | J'ai beaucoup progressé grâce aux podcasts. | I've made a lot of progress thanks to podcasts. | n: Also faire des progrès.
+      se tromper | to make a mistake; to be wrong | v | Ce n'est pas grave de se tromper. | It doesn't matter if you make a mistake. | c: se tromper de + noun (se tromper de bus)
+      une faute | a mistake; an error | n | Il fait encore des fautes de grammaire. | He still makes grammar mistakes. | g: f | c: une faute d'orthographe | n: Also une erreur.
+      avoir un don pour | to have a gift for | expr | Elle a un don pour les langues. | She has a gift for languages.
+      apprendre par cœur | to learn by heart | expr | J'apprends les verbes irréguliers par cœur. | I learn irregular verbs by heart.
+      retenir | to remember; to retain | v | Je n'arrive pas à retenir ce mot. | I can't remember this word. | n: Conjugated like venir: je retiens.
+      le cerveau | the brain | n | Le cerveau a besoin de répétition. | The brain needs repetition. | g: m | pl: les cerveaux
+      la langue maternelle | the mother tongue | n | Sa langue maternelle est le wolof. | Her mother tongue is Wolof. | g: f
+      bilingue | bilingual | adj | Leurs enfants sont bilingues français-anglais. | Their children are bilingual in French and English. | n: Same form for men and women.
+      un échange linguistique | a language exchange | n | Je fais un échange linguistique avec une Espagnole. | I do a language exchange with a Spanish woman. | g: m
+      avoir un accent | to have an accent | expr | J'ai encore un petit accent, mais on me comprend. | I still have a slight accent, but people understand me. | n: Without an accent = sans accent.
+    grammar:
+      title: Irregular subjunctives and il vaut mieux que
+      body: |
+        Six very common verbs have irregular subjunctive forms that you need to learn by heart: **être, avoir, faire, aller, pouvoir, savoir**. *Vouloir* is irregular too: *que je veuille, que nous voulions*.
+
+        *Aller* is irregular only for *je, tu, il, ils* (*que j'aille*); its nous / vous forms are regular: *que nous allions, que vous alliez*.
+
+        Besides *il faut que*, these expressions of necessity or advice take the subjunctive:
+        - *il est important / essentiel / nécessaire que…*
+        - **il vaut mieux que…** (it's better that…): *Il vaut mieux que vous parliez avec des fautes.*
+
+        Careful with the negative: **il ne faut pas que** means *must not*: *Il ne faut pas que tu aies peur.* To say *you don't have to*, use *tu n'es pas obligé(e) de* or *ce n'est pas la peine de* + infinitive.
+      table: |
+        Infinitive | que je | que tu | qu'il / elle | que nous | que vous | qu'ils
+        être | sois | sois | soit | soyons | soyez | soient
+        avoir | aie | aies | ait | ayons | ayez | aient
+        faire | fasse | fasses | fasse | fassions | fassiez | fassent
+        aller | aille | ailles | aille | allions | alliez | aillent
+        pouvoir | puisse | puisses | puisse | puissions | puissiez | puissent
+        savoir | sache | saches | sache | sachions | sachiez | sachent
+      examples: |
+        Il faut que tu sois patient avec toi-même. | You have to be patient with yourself. | être
+        Il est essentiel que vous ayez un objectif clair. | It's essential that you have a clear goal. | avoir
+        Il vaut mieux que nous fassions un peu de français chaque jour. | It's better for us to do a little French every day. | faire
+        Il ne faut pas que tu aies peur de te tromper. | You mustn't be afraid of making mistakes. | must not
+      tip: "Il ne faut pas que… = you must not. For 'you don't have to', say tu n'es pas obligé de… or ce n'est pas la peine de…"
+    reading:
+      title: Apprendre une langue à l'âge adulte — cinq idées reçues
+      text: |
+        « Je suis trop vieux pour apprendre une langue. » « Il faut que je parte vivre à l'étranger pour progresser. » Nous entendons souvent ces phrases. Pourtant, les spécialistes de l'apprentissage sont beaucoup plus optimistes. Voici cinq idées reçues et leur réponse.
+
+        1. « Les enfants apprennent mieux que les adultes. » Pas tout à fait. Les enfants ont souvent un meilleur accent, mais les adultes progressent plus vite au début, car ils savent organiser leur travail et comprennent les règles de grammaire.
+
+        2. « Il faut vivre dans le pays. » C'est utile, mais pas obligatoire. Pour progresser, il faut surtout que vous soyez en contact avec la langue tous les jours : séries, podcasts, chansons, conversations en ligne.
+
+        3. « Il faut avoir un don pour les langues. » La motivation compte beaucoup plus que le talent. Il est essentiel que vous ayez un objectif clair : un voyage, un travail, une famille.
+
+        4. « Il faut éviter les fautes. » Au contraire ! Faire des fautes est normal, et même nécessaire. Il vaut mieux que vous parliez avec des erreurs plutôt que de rester silencieux.
+
+        5. « Une heure par semaine, ça suffit. » Malheureusement, non. Il vaut mieux étudier vingt minutes par jour que deux heures une fois par semaine : le cerveau a besoin de répétition.
+
+        Alors, que faire ? D'après les spécialistes, il faut que la langue fasse partie de votre quotidien et que vous puissiez l'associer à quelque chose d'agréable. Et surtout, il ne faut pas que vous ayez peur de vous tromper !
+      translation: |
+        "I'm too old to learn a language." "I have to go and live abroad to make progress." We often hear these sentences. Yet learning specialists are much more optimistic. Here are five common beliefs and their answer.
+
+        1. "Children learn better than adults." Not quite. Children often have a better accent, but adults make faster progress at the beginning, because they know how to organise their work and they understand grammar rules.
+
+        2. "You have to live in the country." It's useful, but not compulsory. To make progress, above all you need to be in contact with the language every day: series, podcasts, songs, online conversations.
+
+        3. "You need a gift for languages." Motivation matters much more than talent. It's essential that you have a clear goal: a trip, a job, a family.
+
+        4. "You must avoid mistakes." On the contrary! Making mistakes is normal, and even necessary. It's better to speak with errors than to stay silent.
+
+        5. "One hour a week is enough." Unfortunately not. It's better to study twenty minutes a day than two hours once a week: the brain needs repetition.
+
+        So what should you do? According to the specialists, the language needs to be part of your daily life and you need to be able to associate it with something pleasant. And above all, you mustn't be afraid of making mistakes!
+    pronunciation:
+      title: "Que j'aie, que j'aille, que je sois"
+      body: |
+        Several irregular subjunctives sound alike, so the context matters. *Que j'aie, que tu aies, qu'il ait, qu'ils aient* are all pronounced [ɛ]. *Que je sois, qu'il soit, qu'ils soient* are all [swa].
+
+        Don't confuse *que j'aie* [ʒɛ] (avoir) with *que j'aille* [ʒaj] (aller): the second ends in a [j] sound, like *travail*. In *que nous soyons* and *que vous ayez*, you hear the [j] glide: [swa.jɔ̃], [ɛ.je].
+      items: |
+        que je sois
+        que nous soyons
+        que j'aie
+        que j'aille
+        qu'il fasse
+        qu'ils puissent
+    culture:
+      title: Les langues à l'école française
+      body: |
+        French pupils start a first foreign language — usually English — at age 6, in the first year of primary school, and a second one in *cinquième*, at around 12. Spanish and German are the most popular second languages.
+
+        Some schools also teach regional languages such as Breton, Basque, Occitan, Alsatian or Corsican, and a few associative schools teach almost entirely in these languages from nursery school onwards.
+    mistakes: |
+      Il faut que tu es patient. => Il faut que tu sois patient. | Être is irregular in the subjunctive: que tu sois.
+      Il faut que je vais à la bibliothèque. => Il faut que j'aille à la bibliothèque. | After il faut que, aller becomes que j'aille.
+      Il ne faut pas que tu viennes. (meaning "you don't have to come") => Tu n'es pas obligé de venir. | Il ne faut pas que = must not. For "don't have to", use ne pas être obligé de or ce n'est pas la peine de.
+    task:
+      title: Myth or reality?
+      mode: writing
+      body: |
+        Choose one belief about learning languages that you used to have (or still have). In about 80 words, explain the belief, say whether you agree with the article, and give two recommendations with *il faut que, il est essentiel que* or *il vaut mieux que*, using at least two irregular subjunctives (*sois, aies, fasses, ailles, puisses, saches*).
+    exercises: |
+      fill: Il faut que tu ___ (être) patient avec toi-même. || sois || Être is irregular: que tu sois. || @tags fr.subjonctif
+      fill: Il est essentiel que vous ___ (avoir) un objectif clair. || ayez || Avoir is irregular: que vous ayez (no i after y). || @tags fr.subjonctif,fr.subjonctif-triggers
+      fill: Il vaut mieux que nous ___ (faire) un peu de français chaque jour. || fassions || Faire: que nous fassions. || @tags fr.subjonctif,fr.subjonctif-triggers
+      fill: Il faut que j'___ (aller) à mon cours de conversation ce soir. || aille || Aller: que j'aille. || @tags fr.subjonctif
+      mc: "Il est important qu'elle ___ parler avec des francophones." || peut | *puisse | pourra || Il est important que + subjunctive: pouvoir → qu'elle puisse. || @tags fr.subjonctif
+      mc: "Il ne faut pas que tu partes." This means… || You don't have to leave. | *You mustn't leave. | You won't leave. || Il ne faut pas que expresses a prohibition: must not. || @tags fr.subjonctif-triggers
+      mc: According to the article, why do adults make faster progress at the beginning? || They have a better accent. | *They can organise their work and understand grammar rules. | They usually live abroad. || "Ils savent organiser leur travail et comprennent les règles de grammaire." || @ctx reading @tags fr.reading
+      tf: The article says it's better to study for two hours once a week than twenty minutes a day. || false || It's the opposite: twenty minutes a day is better, because the brain needs repetition. || @ctx reading
+      short: According to the article, what matters more than talent? || kw: motivation || "La motivation compte beaucoup plus que le talent." || @ctx reading
+      listen: Pour bien retenir le vocabulaire, il vaut mieux que tu le révises le lendemain, puis une semaine plus tard. || When should you review new vocabulary? || *The next day, then a week later | Only once a week | Every hour on the same day || "Le lendemain, puis une semaine plus tard." || @tags fr.listening,fr.subjonctif-triggers
+      rw: Start with "Il faut que…" :: Vous devez savoir les verbes irréguliers par cœur. || Il faut que vous sachiez les verbes irréguliers par cœur. || Savoir is irregular: que vous sachiez. || @tags fr.subjonctif
+      tr: You mustn't be afraid of making mistakes. (tu) || Il ne faut pas que tu aies peur de faire des fautes. | Il ne faut pas que tu aies peur de faire des erreurs. | Il ne faut pas que tu aies peur de te tromper. | Tu ne dois pas avoir peur de faire des fautes. | Tu ne dois pas avoir peur de faire des erreurs. | Tu ne dois pas avoir peur de te tromper. || Must not = il ne faut pas que + subjunctive (que tu aies), or ne pas devoir. || @tags fr.subjonctif-triggers
+      dict: Il vaut mieux que vous fassiez un peu de français chaque jour. || fassiez
+      ask: In your opinion, what is the best way to learn a language? Give two ideas with il faut que or il vaut mieux que. || kw: faut que/vaut mieux que/important que/essentiel que & sois/soit/soyez/aies/ait/ayez/fasses/fasse/fassiez/ailles/aille/puisses/puisse/parles/parle/parliez/écoutes/écoute/lises/lise/regardes/regarde || À mon avis, il faut qu'on parle le plus possible, même avec des fautes. Et il vaut mieux que tu fasses un peu chaque jour plutôt que beaucoup le week-end.
+
+  - title: Giving advice
+    summary: Give friendly and formal advice about studies and choices with tu devrais, je te conseille de, à ta place, il vaut mieux and il faudrait que.
+    minutes: 45
+    skills: [speaking, grammar, writing]
+    tags: [fr.conditionnel, fr.subjonctif-triggers]
+    objectives:
+      - Give advice with devoir in the conditional, conseiller de and à ta place + conditional
+      - Use il vaut mieux + infinitive and il faudrait que + subjunctive
+      - Reassure someone who is worried about a choice
+    intro: |
+      Friends, colleagues and family often ask for advice — and you'll want to ask for it too. French has a whole range of ways to advise, from gentle (*tu pourrais peut-être…*) to firm (*il faut absolument que…*). In this lesson you'll combine the conditional from unit 2 and the subjunctive from this unit to give advice that sounds natural and kind.
+    vocab: |
+      un conseil | a piece of advice | n | Je peux te donner un conseil ? | Can I give you a piece of advice? | c: donner un conseil; suivre un conseil | g: m | n: Countable: des conseils = some advice.
+      conseiller à quelqu'un de | to advise someone to | v | Je te conseille de prendre ton temps. | I advise you to take your time.
+      demander conseil | to ask for advice | expr | J'ai demandé conseil à ma professeure. | I asked my teacher for advice.
+      l'orientation | (educational) guidance; career guidance | n | Le lycée organise une semaine de l'orientation. | The lycée organises a careers week. | g: f | c: un conseiller d'orientation
+      une filière | a course; a stream; a field of study | n | Elle hésite entre deux filières : droit ou économie. | She can't decide between two courses: law or economics. | g: f
+      faire ses vœux | to make one's choices (on an application platform) | expr | Les élèves font leurs vœux en janvier. | Pupils make their choices in January. | n: Un vœu also means a wish: tous mes vœux !
+      la date limite | the deadline | n | La date limite, c'est le 14 mars. | The deadline is 14 March. | g: f
+      une journée portes ouvertes | an open day | n | L'université organise une journée portes ouvertes samedi. | The university is holding an open day on Saturday. | g: f
+      se tromper de | to get the wrong… | expr | Je me suis trompé de salle ! | I went to the wrong room!
+      une piste | a lead; an option | n | J'ai plusieurs pistes, mais rien de sûr. | I have several options, but nothing definite. | g: f
+      prendre du recul | to step back; to get some perspective | expr | Tu devrais prendre du recul avant de décider. | You should step back before deciding.
+      être perdu | to feel lost; to be confused | expr | Je suis complètement perdue, je ne sais pas quoi choisir. | I'm completely lost; I don't know what to choose. | n: Feminine: perdue.
+    grammar:
+      title: Giving advice
+      body: |
+        French offers several structures for advice. They range from gentle to firm.
+
+        - **devoir** in the conditional + infinitive: *Tu **devrais** te renseigner. Vous **devriez** dormir plus.*
+        - **conseiller à quelqu'un de** + infinitive: *Je te conseille **d'**aller aux portes ouvertes.*
+        - **à ta place / à votre place** + conditional: *À ta place, je **n'écouterais** pas tout le monde.*
+        - **il vaut mieux** + infinitive (general) or **il vaut mieux que** + subjunctive (a specific person): *Il vaut mieux essayer. Il vaut mieux que tu en **parles** à tes profs.*
+        - **il faudrait que** + subjunctive — the conditional of *il faut*, softer and friendlier: *Il faudrait que tu **fasses** tes vœux.*
+        - **n'hésite pas à** + infinitive to encourage: *N'hésite pas à poser des questions.*
+
+        For negative advice: *tu ne devrais pas…*, *à ta place, je ne… pas*, *il vaut mieux **ne pas** attendre* (both parts of the negation go before the infinitive).
+      table: |
+        Structure | Followed by | Example
+        tu devrais / vous devriez | infinitive | Tu devrais te reposer.
+        je te / vous conseille de | infinitive | Je vous conseille de réserver.
+        à ta place, je… | conditional | À ta place, je partirais.
+        il vaut mieux | infinitive | Il vaut mieux ne pas attendre.
+        il vaut mieux que / il faudrait que | subjunctive | Il faudrait que tu prennes rendez-vous.
+        n'hésite pas à | infinitive | N'hésite pas à poser des questions.
+      examples: |
+        Tu devrais parler de tes projets à tes parents. | You should talk to your parents about your plans. | devoir in the conditional
+        Je vous conseille de garder une copie de votre dossier. | I advise you to keep a copy of your application. | conseiller de
+        À votre place, je prendrais rendez-vous avec un conseiller. | If I were you, I'd make an appointment with an adviser. | à votre place + conditional
+        Il faudrait que vous alliez à la journée portes ouvertes. | You ought to go to the open day. | il faudrait que + subjunctive
+      tip: "Il faudrait que is softer than il faut que — perfect for advice between friends: Il faudrait que tu dormes un peu !"
+    dialogue:
+      title: Grande sœur, bons conseils
+      setting: A Sunday afternoon in Montpellier. Nathan, 17, in his last year of lycée, has to choose his university courses. He asks his older sister Clémence for help.
+      speakers: N=Nathan/m; C=Clémence/f
+      lines: |
+        N: Je dois faire mes vœux sur Parcoursup et je n'ai aucune idée de quoi choisir. | I have to make my choices on Parcoursup and I have no idea what to choose.
+        C: Pas de panique. Qu'est-ce qui te plaît vraiment, à part les jeux vidéo ? | Don't panic. What do you really like, apart from video games?
+        N: J'aime bien la biologie, mais tout le monde dit que médecine, c'est trop dur. | I quite like biology, but everyone says medicine is too hard.
+        C: À ta place, je n'écouterais pas tout le monde. Tu devrais d'abord te renseigner. | If I were you, I wouldn't listen to everyone. You should find out first.
+        N: Me renseigner comment ? Les salons d'orientation, c'est ennuyeux. | Find out how? Careers fairs are boring.
+        C: Je te conseille d'aller aux journées portes ouvertes des facs. C'est bien plus concret. | I'd advise you to go to the universities' open days. It's much more concrete.
+        N: D'accord. Et si je me trompe de filière ? | OK. And what if I choose the wrong course?
+        C: Ce n'est pas grave. Il vaut mieux essayer que regretter toute ta vie. | It doesn't matter. It's better to try than to regret it all your life.
+        N: Tu as raison. Il faudrait aussi que j'en parle à mes profs, non ? | You're right. I should talk to my teachers about it too, shouldn't I?
+        C: Exactement. Et n'hésite pas à prendre rendez-vous avec la conseillère d'orientation. | Exactly. And don't hesitate to make an appointment with the careers adviser.
+        N: Merci, grande sœur. Tu devrais faire ce métier, toi ! | Thanks, big sister. You should do that job yourself!
+        C: Et surtout, il faut que tu fasses tes vœux avant la date limite ! | And above all, you have to make your choices before the deadline!
+    pronunciation:
+      title: "Conseil, conseiller, je conseille"
+      body: |
+        The word family of *conseil* plays with the sound [j]. *Un conseil* and *je conseille* both end in [ɛj]: [kɔ̃.sɛj]. In *conseiller* the ending is [eje]: [kɔ̃.se.je].
+
+        In *les vœux* [vø], the **x** is silent and *œu* is the rounded vowel [ø], as in *deux*. In *à ta place*, keep the [a] sounds clear and short: [a.ta.plas].
+      items: |
+        un conseil
+        je te conseille
+        conseiller
+        les vœux
+        l'orientation
+        à ta place
+    culture:
+      title: Parcoursup et l'orientation
+      body: |
+        In their final year of lycée (*terminale*), French students apply for higher education on a national platform, **Parcoursup**. In winter they list up to ten choices (*vœux*) — university courses, preparatory classes, technical diplomas — and from early June they receive offers. Universities and schools organise *journées portes ouvertes* between January and March to help them decide.
+
+        Among family and friends, advice is often given quite directly (*À ta place, je…*). With colleagues or people you don't know well, soften it: *Vous pourriez peut-être…*, *Je vous conseillerais de…*
+    mistakes: |
+      Je te conseille aller aux portes ouvertes. => Je te conseille d'aller aux portes ouvertes. | Conseiller is followed by de + infinitive.
+      À ta place, je partirai. => À ta place, je partirais. | À ta place takes the conditional (-ais), not the future (-ai).
+      Il vaut mieux que tu prends rendez-vous. => Il vaut mieux que tu prennes rendez-vous. | Il vaut mieux que is followed by the subjunctive.
+    task:
+      title: Agony aunt
+      mode: writing
+      body: |
+        A reader writes to a student magazine: *« J'ai 45 ans et je voudrais reprendre des études, mais j'ai peur d'être trop vieux. »* Reply in about 100 words. Reassure the reader, then give four pieces of advice using four different structures (*vous devriez, je vous conseille de, à votre place, il vaut mieux, il faudrait que…*).
+    exercises: |
+      fill: Tu ___ (devoir) dormir plus avant ton examen. || devrais || Advice: devoir in the conditional, tu devrais. || @tags fr.conditionnel
+      fill: Je vous conseille ___ réserver vos places à l'avance. || de || Conseiller (à quelqu'un) de + infinitive. || @tags fr.vocabulary
+      fill: À ta place, je ___ (prendre) une année pour voyager. || prendrais || À ta place + conditional: prendr- + -ais. || @tags fr.conditionnel
+      fill: Il faudrait que vous ___ (faire) une liste de vos priorités. || fassiez || Il faudrait que + subjunctive: que vous fassiez. || @tags fr.subjonctif,fr.subjonctif-triggers
+      mc: Your friend says "Je suis perdu, je ne sais pas quoi choisir." The best reply is… || *Pas de panique. Tu devrais d'abord te renseigner. | À ta place, j'ai choisi la médecine. | Il faut que tu choisis maintenant. || The second reply needs the conditional after à ta place (je choisirais); the third needs the subjunctive (que tu choisisses). || @tags fr.conditionnel,fr.subjonctif-triggers
+      mc: Which sentence gives negative advice correctly? || Il vaut mieux pas attendre. | *Il vaut mieux ne pas attendre. | Il vaut mieux n'attendre pas. || Before an infinitive, ne pas stays together in front of the verb. || @tags fr.negation
+      tf: Clémence advises Nathan to listen to what everyone says. || false || "À ta place, je n'écouterais pas tout le monde." || @ctx dialogue
+      short: Where does Clémence advise Nathan to go to find out more? || kw: portes ouvertes/open day/open days || "Je te conseille d'aller aux journées portes ouvertes des facs." || @ctx dialogue
+      listen: @dialogue || What is the most important thing for Nathan to do, according to Clémence? || *Make his choices before the deadline | Choose medicine | Talk to his parents first || "Surtout, il faut que tu fasses tes vœux avant la date limite !" || @tags fr.listening
+      listen: Si tu veux progresser à l'oral, je te conseille de regarder des séries en français, avec les sous-titres en français. || What does the speaker recommend? || *Watching series in French with French subtitles | Watching series in your own language with French subtitles | Reading French books aloud || "Des séries en français, avec les sous-titres en français." || @tags fr.listening
+      rw: Give the same advice with "À ta place, je…" :: Tu devrais parler à ton professeur. || À ta place, je parlerais à mon professeur. || À ta place + conditional (je parlerais); ton professeur becomes mon professeur. || @tags fr.conditionnel
+      tr: You shouldn't wait until the last minute. (vous) || Vous ne devriez pas attendre la dernière minute. | Vous ne devriez pas attendre le dernier moment. | Il vaut mieux ne pas attendre la dernière minute. || Devoir in the conditional, with ne… pas around devriez. || @tags fr.conditionnel,fr.negation
+      dict: À ta place, je prendrais rendez-vous avec la conseillère d'orientation. || à ta place
+      ask: A friend wants to learn Spanish but says they have no time. Give three pieces of advice using three different structures. || kw: devrais/conseille/à ta place/vaut mieux/faudrait/n'hésite pas & tu/te/t' || Tu devrais écouter des podcasts dans le métro. Je te conseille aussi d'utiliser une application le soir. Et à ta place, je ferais un échange linguistique le week-end.
+      write: Reply to this forum message — « Je pars six mois à Montréal pour mes études et je stresse un peu. » — with at least four pieces of advice. || min=70 || req: devrais | conseille | à ta place | vaut mieux/faudrait que || Salut ! Pas de stress, tu vas adorer Montréal ! D'abord, tu devrais chercher un logement avant de partir, près de ton université. Je te conseille aussi d'acheter de bons vêtements chauds, car l'hiver est très froid. À ta place, je m'inscrirais aux activités pour les étudiants étrangers : c'est la meilleure façon de rencontrer du monde. Enfin, il vaut mieux que tu ouvres un compte bancaire canadien dès ton arrivée. Bon voyage !

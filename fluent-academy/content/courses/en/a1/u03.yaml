@@ -1,0 +1,362 @@
+unit: 3
+title: Day by day
+theme: Time and daily routine
+description: Tell the time, describe your daily routine with the present simple, and say how often you do things on different days of the week.
+objectives:
+  - Ask for and tell the time, and use at, in and on with times and days
+  - Describe daily routines with the present simple (I get up, she gets up)
+  - Say how often you do things and make negatives and questions with do and does
+canDo:
+  - I can ask "What time is it?" and say the time in two ways.
+  - I can describe my day from morning to night.
+  - I can say what other people do every day.
+  - I can say how often I do things and ask "Do you…?"
+review: |
+  mc: The clock says 4:45. What time is it? || quarter past four | *quarter to five | quarter to four || 4:45 is 15 minutes before five: quarter to five. || @tags en.time
+  fill: The meeting is ___ 3 p.m. || at || Use at with clock times. || @tags en.prepositions-time
+  fill: My son ___ (go) to school at eight. || goes || He + go → goes (add -es). || @tags en.present-simple
+  rw: Change I to He :: I watch TV and study in the evening. || He watches TV and studies in the evening. || He + verb + -s: watches (-ch + es), studies (y → ies). || @tags en.present-simple
+  rw: Make it negative :: Ana works on Sunday. || Ana doesn't work on Sunday. | Ana does not work on Sunday. || Negative: doesn't + verb with no -s. || @tags en.present-simple
+  fill: ___ they have lunch at work? — Yes, they do. || Do || Questions with they: Do + they + verb. || @tags en.present-simple,en.questions
+  mc: Choose the correct sentence. || We go never to bed late. | *We never go to bed late. | Never we go to bed late. || Frequency adverbs go before the main verb: we never go. || @tags en.frequency
+  listen: The store opens at nine and closes at half past five. || When does the store close? || 9:00 | 5:00 | *5:30 || "Closes at half past five" = 5:30. || @tags en.time
+  listen: My grandma always gets up at five o'clock. || When does the speaker's grandma get up? || *At 5:00 every day | At 5:00 on Sundays | At 5:30 every day || "Always" means every time — every day. "Five o'clock" is 5:00. || @tags en.frequency
+  ask: Ask a friend about their routine — when they get up, start work or class, and go to bed. || kw: what time/when & do you || What time do you get up? When do you start work? And what time do you go to bed?
+  write: Write about your weekend routine. Say what you do, when you do it and how often. || min=30 || req: at | on | always/usually/often/sometimes/never || On Saturday I usually get up at nine. I have breakfast with my family and then I go to the market. On Sunday I always call my mom at noon. I sometimes go to the movies in the evening, but I never go to bed late.
+lessons:
+  - title: Telling the time
+    summary: Ask and say the time with o'clock, past, to, quarter and half, and use at, in and on for times.
+    minutes: 35
+    skills: [vocabulary, listening, speaking]
+    tags: [en.time, en.prepositions-time]
+    objectives:
+      - Ask "What time is it?" and say the time in two ways
+      - Understand a.m., p.m., noon and midnight
+      - Use at with times and in with parts of the day
+    intro: |
+      Trains, classes, movies and meetings all happen at a time. In this lesson you will learn to ask **What time is it?**, say the time in two ways (*half past seven* or *seven thirty*), and use the small words **at** and **in** with times — *at six o'clock, in the morning*.
+    vocab: |
+      What time is it? | a question to ask about the time now | expr | Excuse me, what time is it? | - | n: British English also: What's the time?
+      o'clock | a word for an exact hour, like 3:00 | adv | It's three o'clock. | - | n: Only for exact hours: five o'clock, not five thirty o'clock.
+      half past | 30 minutes after the hour | expr | It's half past six. | - | n: In American English, people often say six thirty.
+      quarter past | 15 minutes after the hour | expr | It's quarter past ten. | - | n: Also: a quarter past ten, or a quarter after ten (American English).
+      quarter to | 15 minutes before the hour | expr | It's quarter to four. | - | n: Also: a quarter to four. 3:45 = quarter to four.
+      past | after (for time) | prep | It's ten past nine. | - | n: American English also uses after: ten after nine.
+      to | before (for time) | prep | It's twenty to eight. | - | n: 7:40 = twenty to eight.
+      a.m. | in the morning, from midnight to 12 noon | abbr | The store opens at 9 a.m. | -
+      p.m. | after 12 noon — in the afternoon, evening or night | abbr | My class ends at 4 p.m. | -
+      noon | 12 o'clock in the middle of the day | n | Lunch is at noon. | - | n: British English also: midday.
+      midnight | 12 o'clock at night | n | The party ends at midnight. | -
+      early | before the usual or planned time | adj | The bus is early today. | -
+      late | after the usual or planned time | adj | Sorry, I'm late! | - | c: late for work; too late
+      hour | 60 minutes | n | The movie is two hours long. | - | c: half an hour | n: The h is silent, so we say an hour.
+    grammar:
+      title: "Telling the time; at and in"
+      body: |
+        To ask the time, say ***What time is it?*** There are two ways to answer:
+
+        1. **Hour + minutes**, like a digital clock: 7:15 → *seven fifteen*, 7:30 → *seven thirty*.
+        2. **Minutes + past or to + hour**: 7:10 → *ten **past** seven*, 7:50 → *ten **to** eight*. Use **quarter** for 15 minutes and **half** for 30: *quarter past seven, half past seven, quarter to eight*.
+
+        For an exact hour, say ***o'clock***: *It's seven o'clock.* Always start with ***It's***.
+
+        Use **at** with a clock time: *at 6:00, at noon, at midnight, at night.* Use **in** with parts of the day: *in the morning, in the afternoon, in the evening.* (With days we use **on**: *on Monday* — more in lesson 3.)
+      table: |
+        Time | Way 1 | Way 2
+        7:00 | seven o'clock | seven
+        7:10 | ten past seven | seven ten
+        7:15 | quarter past seven | seven fifteen
+        7:30 | half past seven | seven thirty
+        7:45 | quarter to eight | seven forty-five
+        7:50 | ten to eight | seven fifty
+      examples: |
+        What time is it? — It's half past two. | | asking the time
+        The train is at quarter past six. | | at + time
+        I'm very tired in the evening. | | in + part of the day
+        The class is at 9 a.m. | | a.m. = in the morning
+      tip: "Careful: in British English, people sometimes say \"half eight\". It means half past eight (8:30), not 7:30."
+    dialogue:
+      title: Are we late?
+      setting: Friday evening in Melbourne, Australia. Emma and Kofi are going to the movies.
+      speakers: E=Emma/f; K=Kofi/m
+      lines: |
+        E: Kofi, hurry! What time is it?
+        K: It's twenty to seven.
+        E: And the movie starts at seven?
+        K: No, at quarter past seven.
+        E: Oh, good. We aren't late, then.
+        K: Is it a long movie?
+        E: Yes, two hours. It ends at quarter past nine.
+        K: And the last bus home?
+        E: It's at half past nine.
+        K: Perfect. Popcorn time!
+    pronunciation:
+      title: "Linking: What time is it?"
+      body: |
+        In fast speech, English joins words together. In *What time is it?*, the **t** of *what* is very short, and *is it* sounds like one word: "i-zit".
+
+        When a word ends in a consonant and the next word starts with a vowel, join them: *half past eight* → "half pas-teight", *at eleven* → "a-televen". Listen and repeat, first slowly, then faster.
+      items: |
+        What time is it?
+        It's half past eight.
+        quarter past
+        quarter to
+        ten o'clock
+        at noon
+    culture:
+      title: a.m., p.m. and the 24-hour clock
+      body: |
+        In everyday English, people use the 12-hour clock and say **a.m.** (morning) or **p.m.** (afternoon and evening) when it isn't clear: *My flight is at 6 a.m.* In conversation, they often say *in the morning* or *at night* instead.
+
+        You see the 24-hour clock (18:30) on train and plane times in the UK, Ireland and Australia. In the United States, most people only use it in hospitals and the army. Be ready for both: 18:30 = half past six in the evening.
+    mistakes: |
+      It's seven and half. => It's half past seven. / It's seven thirty. | English says half past + the hour, or the hour + thirty.
+      I study at the morning. => I study in the morning. | Use in with parts of the day: in the morning, in the evening.
+      It's six thirty o'clock. => It's six thirty. | Use o'clock only for exact hours: six o'clock.
+    task:
+      title: Times around you
+      mode: speaking
+      body: |
+        Look at a clock three times today and say the time aloud in two ways (*It's quarter past four. It's four fifteen.*). Then say the times of three things in your town: when your bus comes, when a store opens and when a TV show starts.
+    exercises: |
+      mc: 7:30 is… || seven and half | *half past seven | half to eight || 7:30 = half past seven (or seven thirty). || @tags en.time
+      fill: It's ten ___ nine. (9:10) || past / after || 9:10 = ten minutes after nine: ten past nine (American English also: ten after nine). || @tags en.time
+      fill: It's twenty ___ eight. (7:40) || to || 7:40 = twenty minutes before eight: twenty to eight. || @tags en.time
+      fill: The class starts ___ 9 a.m. || at || Use at with clock times. || @tags en.prepositions-time
+      fill: I'm very tired ___ the evening. || in || Use in with parts of the day: in the evening. || @tags en.prepositions-time
+      short: The clock says 3:15. Write the time in words. || quarter past three | a quarter past three | three fifteen | quarter after three | a quarter after three || 3:15 = quarter past three or three fifteen. || @tags en.time
+      rw: Write the time with past or to :: 4:50 || ten to five | It's ten to five. || 4:50 is ten minutes before five: ten to five. || @tags en.time
+      match: 6:00 = six o'clock ; 6:15 = quarter past six ; 6:30 = half past six ; 6:45 = quarter to seven || Match each clock time to the words. || @tags en.time
+      tf: The movie starts at seven o'clock. || false || Kofi says, "No, at quarter past seven." The movie starts at 7:15. || @ctx dialogue
+      short: When is the last bus home? || kw: 9:30/half past nine/nine thirty || Emma says, "It's at half past nine." || @ctx dialogue
+      listen: The museum opens at quarter past ten. || When does the museum open? || 10:45 | *10:15 | 9:45 || Quarter past ten = 10:15. || @tags en.time
+      listen: It's midnight! Good night, everyone. || What time is it? || *12:00 at night | 12:00 in the day | 1:00 at night || Midnight is 12 o'clock at night. 12 o'clock in the day is noon. || @tags en.time
+      dict: The bus is at twenty past six.
+      ask: Ask someone the time politely. Then say the time 8:30 in two ways. || kw: what time & half past/eight thirty || Excuse me, what time is it? — It's half past eight. It's eight thirty.
+      write: Write a short message to a friend about tonight. Say the time of the movie and the time of the last bus. || min=15 || req: at | past/to/o'clock/thirty || Hi Jo! The movie is at quarter past seven, so let's meet at seven o'clock. The last bus home is at half past ten. See you later!
+
+  - title: My daily routine
+    summary: Describe your day with the present simple, and say what other people do with he, she + -s.
+    minutes: 40
+    skills: [grammar, vocabulary, writing]
+    tags: [en.present-simple]
+    objectives:
+      - Talk about everyday actions from morning to night
+      - Use the present simple with I, you, we and they
+      - Add -s, -es or -ies with he, she and it
+    intro: |
+      What do you do every day? You get up, have breakfast, go to work or school… In this lesson you will learn the words for daily actions and the **present simple**, the tense we use for routines and habits: *I get up at seven. My sister gets up at six.*
+    vocab: |
+      wake up | to stop sleeping | v | I wake up at six. | - | n: First you wake up, then you get up.
+      get up | to get out of bed | v | She gets up at seven. | -
+      take a shower | to wash your body under running water | expr | I take a shower in the morning. | - | n: British English also: have a shower.
+      have breakfast | to eat the first meal of the day | expr | We have breakfast at half past seven. | -
+      go to work | to travel to your job | expr | He goes to work by bus. | - | n: Also go to school, go to college — with no the.
+      start | to begin | v | My work starts at nine. | -
+      finish | to stop doing something; to end | v | Class finishes at four. | -
+      have lunch | to eat a meal in the middle of the day | expr | I have lunch at noon. | -
+      get home | to arrive at your house | expr | I get home at six. | -
+      make dinner | to cook the evening meal | expr | My husband makes dinner. | -
+      watch TV | to look at shows on television | expr | We watch TV in the evening. | - | n: TV = television.
+      study | to learn about a subject, for example at school | v | She studies English at night. | - | n: He or she studies (y → ies).
+      go to bed | to go and sleep for the night | expr | I go to bed at eleven. | -
+      every day | on all days | expr | I walk to work every day. | -
+    grammar:
+      title: "Present simple: I work, she works"
+      body: |
+        We use the **present simple** for things we do again and again — routines and habits.
+
+        - **I / you / we / they** + verb: *I **get up** at seven. They **work** in a bank.*
+        - **he / she / it** + verb + **-s**: *She **gets up** at six. He **works** in a hospital.*
+
+        Spelling with he, she and it:
+
+        - most verbs add **-s**: *works, starts, gets*
+        - verbs ending in -ch, -sh, -s, -x or -o add **-es**: *watches, finishes, goes, does*
+        - a consonant + y changes to **-ies**: *study → studies* (but a vowel + y just adds -s: *play → plays*)
+        - **have** changes to **has**: *She **has** breakfast at eight.*
+      table: |
+        Verb | I / you / we / they | he / she / it
+        get up | I get up at 7. | She gets up at 7.
+        watch | We watch TV. | He watches TV.
+        go | They go to work. | She goes to work.
+        study | You study a lot. | He studies a lot.
+        have | I have lunch at 1. | She has lunch at 1.
+      examples: |
+        I wake up at six and take a shower. | | I + verb
+        My dad makes dinner every day. | | he + verb + -s
+        Luisa finishes work at five. | | -sh + es
+        He has breakfast at home. | | have → has
+      tip: "Use the -s ending with he, she and it — and with one person or thing: my mom works, the bus leaves at six."
+    dialogue:
+      title: Early bird
+      setting: Lin and Carlos share an apartment in London (British English — a flat). It's Sunday, and they talk about their week.
+      speakers: L=Lin/f; C=Carlos/m
+      lines: |
+        C: Lin, you get up very early!
+        L: Yes, at half past five.
+        C: Half past five? Why?
+        L: I'm a baker. I start work at seven.
+        C: Wow. I get up at nine!
+        L: Lucky you! And your class?
+        C: It starts at ten. I have breakfast at a café.
+        L: I have breakfast at the bakery.
+        C: And you finish work at three?
+        L: Yes. Then I go to the gym.
+        C: I go to bed at one in the morning!
+        L: Ha! I go to bed at nine.
+    pronunciation:
+      title: "The -s ending: works, goes, watches"
+      body: |
+        The **-s** ending has three sounds. After sounds like p, t and k, it is [s]: *works, gets up, starts*. After most other sounds, it is [z]: *goes, studies, has*.
+
+        After -ch, -sh, -s and -x, the ending is a new syllable [ɪz]: *watch-es, finish-es*. Listen and repeat.
+      items: |
+        works
+        gets up
+        goes
+        studies
+        watches
+        finishes
+    culture:
+      title: A typical working day
+      body: |
+        In the United States and the UK, many office workers start at about 9 a.m. and finish at 5 p.m. — people call it a "nine-to-five" job. Lunch is often short: many people have a sandwich or a salad at their desk.
+
+        Dinner is usually early, at about 6 or 7 p.m. A lot of people also commute — they travel to work by car, bus or train, sometimes for an hour or more each way.
+    mistakes: |
+      She get up at seven. => She gets up at seven. | With he, she and it, add -s to the verb.
+      He watchs TV in the evening. => He watches TV in the evening. | Verbs ending in -ch add -es: watches.
+      My brother studys at night. => My brother studies at night. | A consonant + y changes to -ies: studies.
+    task:
+      title: A day in my life
+      mode: writing
+      body: |
+        Write 6–8 sentences about your typical weekday, from the morning to the evening. Give a time for each action (*I get up at quarter to seven.*). Then write two sentences about someone in your family, using he or she.
+    exercises: |
+      fill: My sister ___ (work) in a bank. || works || My sister = she, so add -s: works. || @tags en.present-simple
+      fill: Tom ___ (have) breakfast at seven. || has || With he, she and it, have changes to has. || @tags en.present-simple
+      fill: She ___ (watch) TV in the evening. || watches || Verbs ending in -ch add -es: watches. || @tags en.present-simple
+      fill: He ___ (study) English every day. || studies || A consonant + y changes to -ies: studies. || @tags en.present-simple
+      mc: Choose the correct sentence. || My dad go to work at eight. | *My dad goes to work at eight. | My dad gos to work at eight. || He + go → goes (add -es). || @tags en.present-simple
+      rw: Change I to She :: I get up at six and take a shower. || She gets up at six and takes a shower. || With she, both verbs add -s: gets, takes. || @tags en.present-simple
+      order: Lin goes to bed at nine o'clock. || @tags en.present-simple
+      match: have = breakfast ; take = a shower ; watch = TV ; go = to bed || Match each verb with the words that go with it. || @tags en.collocations
+      tf: Carlos gets up at half past five. || false || Lin gets up at half past five. Carlos gets up at nine. || @ctx dialogue
+      short: What is Lin's job? || kw: baker || Lin says, "I'm a baker." || @ctx dialogue
+      listen: My brother gets up at six, and he starts work at seven. || When does he start work? || 6:00 | *7:00 | 7:30 || "He starts work at seven." He gets up at six. || @tags en.present-simple
+      listen: @dialogue || What does Lin do after work? || She goes to bed. | *She goes to the gym. | She has breakfast at a café. || Lin finishes at three: "Then I go to the gym." || @tags en.listening
+      dict: She finishes work at five and goes home.
+      ask: Describe your morning — what time you get up, have breakfast and go to work or school. || kw: get up/wake up & at & breakfast || I wake up at seven and get up at quarter past seven. I have breakfast at eight, and I go to work at half past eight.
+      write: Write about a day in the life of someone you know (5–6 sentences). Use he or she. || min=30 || req: gets up/wakes up | at | goes/has || My friend Ayumi is a nurse. She wakes up at five and gets up at quarter past five. She has breakfast and goes to work by bus. She finishes work at three. In the evening she watches TV and goes to bed at ten.
+
+  - title: Days and frequency
+    summary: Talk about the days of the week, say how often you do things, and make negatives and questions with do and does.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [en.frequency, en.present-simple, en.dates]
+    objectives:
+      - Name the days of the week and use on with days
+      - Use always, usually, often, sometimes and never
+      - Make present simple negatives and questions with do and does
+    intro: |
+      Do you go to the gym on Monday? How often do you cook? In this lesson you will learn the days of the week, the words **always**, **usually**, **often**, **sometimes** and **never**, and how to make negatives and questions in the present simple with **don't**, **doesn't**, **do** and **does**.
+    vocab: |
+      Monday | the day after Sunday; the first day of the work week | n | I have English class on Monday. | -
+      Tuesday | the day after Monday | n | The store is closed on Tuesday. | -
+      Wednesday | the day after Tuesday | n | We play soccer on Wednesday. | - | n: Say "WENZ-day": the first d is silent.
+      Thursday | the day after Wednesday | n | See you on Thursday! | -
+      Friday | the last day of the work week | n | On Friday I finish work early. | -
+      Saturday | the first day of the weekend | n | I clean the house on Saturday. | -
+      Sunday | the day after Saturday | n | We have lunch with my parents on Sunday. | - | n: In the United States, calendars usually start with Sunday.
+      weekend | Saturday and Sunday | n | What do you do on the weekend? | - | c: on the weekend (American English); at the weekend (British English)
+      always | every time | adv | I always have coffee in the morning. | -
+      usually | almost always; most times | adv | She usually walks to work. | -
+      often | many times | adv | We often eat at home. | -
+      sometimes | some times, but not often | adv | I sometimes go to bed late. | -
+      never | not at any time | adv | He never drinks coffee. | -
+      How often…? | a question about how many times you do something | expr | How often do you go to the gym? — Twice a week. | - | n: Answers: once a week, twice a week, three times a week, every day.
+    grammar:
+      title: "always, sometimes, never; don't and doesn't"
+      body: |
+        **Frequency adverbs** say how often we do something: **always** → **usually** → **often** → **sometimes** → **never**.
+
+        - They go **before** the main verb: *I **always** get up at seven. She **never** cooks.*
+        - But they go **after** be: *I'm **always** tired on Monday.*
+
+        **Negatives:** use **don't** / **doesn't** + verb with no -s: *I **don't** work on Sunday. He **doesn't** work on Sunday.*
+
+        **Questions:** use **Do** / **Does** + person + verb: ***Do** you work on Saturday? — Yes, I do. / No, I don't.* ***Does** she cook? — Yes, she does. / No, she doesn't.*
+
+        With days, use **on**: *on Monday, on Fridays, on the weekend* (British English: *at the weekend*). Days always start with a capital letter.
+      table: |
+        Person | Positive | Negative | Question
+        I / you / we / they | I work on Monday. | I don't work on Monday. | Do you work on Monday?
+        he / she / it | She works on Monday. | She doesn't work on Monday. | Does she work on Monday?
+      examples: |
+        I usually have lunch at noon. | | adverb before the main verb
+        He's never late. | | adverb after be
+        We don't work on Sunday. | | negative: don't + verb
+        Does Mia cook? — Yes, she does. | | question and short answer
+        How often do you go to the gym? — Twice a week. | | How often…?
+      tip: "After doesn't and does, the verb has no -s: She doesn't work (not doesn't works). The -s is already in does."
+    dialogue:
+      title: A busy week
+      setting: Nadia and Pedro are classmates at a college in New York. They want to find a time to study together.
+      speakers: N=Nadia/f; P=Pedro/m
+      lines: |
+        N: Pedro, are you free on Tuesday?
+        P: No, sorry. I always work on Tuesdays.
+        N: What about Wednesday evening?
+        P: I usually go to the gym on Wednesday.
+        N: How often do you go to the gym?
+        P: Three times a week. And you?
+        N: Never! I don't like the gym.
+        P: Ha! Do you work on Thursday?
+        N: No, I don't. I'm free on Thursday.
+        P: Great! Thursday at six, at the library?
+        N: OK. See you on Thursday!
+    pronunciation:
+      title: "Days of the week: stress on the first part"
+      body: |
+        All the days of the week have the stress at the start: *MON-day, TUES-day, FRI-day, SAT-ur-day*. The ending **-day** is short and weak.
+
+        *Wednesday* sounds like "WENZ-day" — the first **d** and the second **e** are silent. *Thursday* starts with the **th** sound: tongue between your teeth. Listen and repeat.
+      items: |
+        Monday
+        Tuesday
+        Wednesday
+        Thursday
+        Saturday
+        on the weekend
+    culture:
+      title: The work week and the weekend
+      body: |
+        In English-speaking countries, the work week usually goes from Monday to Friday, and the weekend is Saturday and Sunday. Many people say **TGIF** ("Thank God it's Friday!") at the end of a long week.
+
+        Americans say **on the weekend**; British people say **at the weekend**. Both are correct. Remember that days always start with a capital letter: *Monday*, not *monday*.
+    mistakes: |
+      I go always to the gym. => I always go to the gym. | Frequency adverbs go before the main verb.
+      She don't work on Monday. => She doesn't work on Monday. | Use doesn't with he, she and it.
+      Do you works on Saturday? => Do you work on Saturday? | After do or does, the verb has no -s.
+    task:
+      title: How often?
+      mode: interaction
+      body: |
+        Ask a partner (or the AI coach) five "How often…?" questions — about the gym, cooking, TV, coffee and the movies. Answer their questions too, with always, usually, often, sometimes or never, and say which days you do things.
+    exercises: |
+      fill: The day after Thursday is ___. || Friday || Monday, Tuesday, Wednesday, Thursday, Friday… || @tags en.dates @skill vocabulary
+      rw: Add usually to the sentence :: He's late on Monday. || He's usually late on Monday. | He is usually late on Monday. || With be, the adverb goes after the verb: he's usually late. || @tags en.frequency
+      rw: Add never to the sentence :: I drink coffee at night. || I never drink coffee at night. || The adverb goes before the main verb: I never drink. || @tags en.frequency
+      fill: I ___ work on Sunday. (not) || don't / do not || With I, the negative is don't + verb. || @tags en.present-simple
+      fill: Mark ___ like the gym. (not) || doesn't / does not || With he (Mark), the negative is doesn't + verb with no -s. || @tags en.present-simple
+      fill: ___ your sister work on Saturday? — Yes, she does. || Does || Questions with he, she and it start with Does. || @tags en.present-simple,en.questions
+      mc: "Do you work on Saturday?" Choose the correct answer. || Yes, I does. | *No, I don't. | No, I not. || Short answers with I use do or don't: No, I don't. || @tags en.present-simple,en.questions
+      match: always = 100% ; usually = 80% ; sometimes = 30% ; never = 0% || A guide to how often: always is every time and never is not one time. || @tags en.frequency
+      tf: Nadia often goes to the gym. || false || Pedro asks "And you?" and Nadia says, "Never! I don't like the gym." || @ctx dialogue
+      short: Which day are Nadia and Pedro both free? || kw: Thursday || Nadia says, "I'm free on Thursday," and they plan to meet at six. || @ctx dialogue
+      listen: I never work on Fridays, but I always work on Saturdays. || When does the speaker work? || On Fridays | *On Saturdays | On Fridays and Saturdays || "I never work on Fridays, but I always work on Saturdays." || @tags en.frequency
+      listen: @dialogue || How often does Pedro go to the gym? || once a week | twice a week | *three times a week || Pedro says, "Three times a week." || @tags en.frequency
+      dict: We usually go to the park on Sunday.
+      ask: Say how often you do three things. Use always, sometimes and never. || kw: always/usually/often & sometimes/never || I always have breakfast at home. I sometimes go to the gym, and I never watch TV in the morning.
+      write: Write an email to a new friend about your week. Say what you do on different days and how often. || min=30 || req: on | always/usually/often/sometimes/never | don't/doesn't || Hi Leo! My week is busy. I work from Monday to Friday. On Tuesday and Thursday I usually go to English class. I sometimes go swimming on Wednesday. On the weekend I don't work, so I always sleep late! What about you?

@@ -1,0 +1,91 @@
+slug: hobbies
+title: Discussing hobbies
+description: Chat about what you like doing in your free time, how often, and why.
+category: social
+levels: A1-B1
+free: true
+order: 4
+goals:
+  - Say what you like and don't like doing
+  - Say how often you do an activity
+  - Explain why you enjoy something
+  - Suggest doing an activity together
+roles:
+  tutor: a friendly colleague during a coffee break
+  learner: a colleague who wants to get to know them
+languages:
+  fr:
+    opener: Alors, qu'est-ce que tu aimes faire le week-end ? | So, what do you like doing at the weekend?
+    focus: [fr.likes, fr.faire, fr.frequency]
+    vocab: |
+      j'adore / je déteste | I love / I hate
+      faire du sport | to do sport
+      jouer de la guitare | to play the guitar
+      de temps en temps | from time to time
+      ça te dit de… ? | do you fancy…?
+    script: |
+      Ah, sympa ! Tu fais ça souvent ? | Oh, nice! Do you do that often? | Say how often: tous les jours / le week-end / de temps en temps | kw: souvent/jours/semaine/week-end/temps
+      Et pourquoi tu aimes ça ? | And why do you like it? | Explain why: parce que c'est… | kw: parce/c'est/j'aime
+      Moi, je fais de la randonnée et je joue de la guitare. Tu joues d'un instrument ? | I go hiking and play the guitar. Do you play an instrument? | Answer yes or no and say which | kw: oui/non/joue/instrument
+      Il y a quelque chose que tu n'aimes pas du tout ? | Is there something you don't like at all? | Say what you don't like: Je n'aime pas… / Je déteste… | kw: n'aime/déteste/pas
+      Ça te dit de faire une randonnée ensemble samedi ? | Do you fancy going hiking together on Saturday? | Accept or decline politely | kw: oui/volontiers/désolé/super/bonne idée
+  es:
+    opener: Oye, ¿qué te gusta hacer los fines de semana? | Hey, what do you like doing at weekends?
+    focus: [es.gustar, es.frequency]
+    vocab: |
+      me encanta / odio | I love / I hate
+      hacer deporte | to do sport
+      tocar la guitarra | to play the guitar
+      de vez en cuando | from time to time
+      ¿te apetece…? | do you fancy…?
+    script: |
+      ¡Qué bien! ¿Lo haces a menudo? | Great! Do you do it often? | Say how often: todos los días / los fines de semana | kw: menudo/días/semana/vez
+      ¿Y por qué te gusta? | And why do you like it? | Explain why: porque es… | kw: porque/es/me gusta
+      Yo hago senderismo y toco la guitarra. ¿Tocas algún instrumento? | I go hiking and play the guitar. Do you play an instrument? | Answer and say which | kw: sí/no/toco/instrumento
+      ¿Hay algo que no te guste nada? | Is there anything you don't like at all? | Say what you don't like: No me gusta… / Odio… | kw: no me gusta/odio
+      ¿Te apetece hacer senderismo juntos el sábado? | Do you fancy going hiking together on Saturday? | Accept or decline politely | kw: sí/claro/lo siento/genial/vale
+  de:
+    opener: Sag mal, was machst du gern am Wochenende? | Tell me, what do you like doing at the weekend?
+    focus: [de.gern, de.frequency]
+    vocab: |
+      ich mache gern… | I like doing…
+      Sport machen | to do sport
+      Gitarre spielen | to play the guitar
+      ab und zu | now and then
+      hast du Lust, … zu …? | do you fancy …?
+    script: |
+      Toll! Machst du das oft? | Great! Do you do that often? | Say how often: jeden Tag / am Wochenende / ab und zu | kw: oft/tag/woche/wochenende/ab und zu
+      Und warum machst du das gern? | And why do you like it? | Explain why: weil es … ist | kw: weil/macht/ist
+      Ich wandere gern und spiele Gitarre. Spielst du ein Instrument? | I like hiking and play the guitar. Do you play an instrument? | Answer and say which | kw: ja/nein/spiele/instrument
+      Gibt es etwas, was du gar nicht gern machst? | Is there anything you really don't like doing? | Say what you don't like: Ich mag … nicht | kw: nicht/mag/gar
+      Hast du Lust, am Samstag zusammen wandern zu gehen? | Do you fancy going hiking together on Saturday? | Accept or decline politely | kw: ja/gern/leider/super/klar
+  en:
+    opener: So, what do you like doing at the weekend? | -
+    focus: [en.likes, en.frequency]
+    vocab: |
+      I'm really into… | I enjoy … a lot (informal)
+      I can't stand… | I really dislike…
+      every now and then | sometimes, not regularly
+      I'm (not) much of a… | I'm (not) the kind of person who…
+      do you fancy…? | would you like to… (British, informal)
+    script: |
+      Nice! How often do you do that? | - | Say how often: every day / at weekends / now and then | kw: often/every/week/weekend/time
+      And what do you like about it? | - | Explain why: because it's… | kw: because/it's/like
+      I go hiking and play the guitar. Do you play any instruments? | - | Answer and say which | kw: yes/no/play/instrument
+      Is there anything you really don't like doing? | - | Say what you don't like: I can't stand… / I don't like… | kw: don't/can't/hate
+      Do you fancy going hiking together on Saturday? | - | Accept or decline politely | kw: yes/sure/sorry/great/love
+  da:
+    opener: Sig mig, hvad kan du godt lide at lave i weekenden? | Tell me, what do you like doing at the weekend?
+    focus: [da.likes, da.frequency]
+    vocab: |
+      jeg kan godt lide at… | I like to…
+      at dyrke sport | to do sport
+      at spille guitar | to play the guitar
+      en gang imellem | now and then
+      har du lyst til at…? | do you fancy …?
+    script: |
+      Hvor fedt! Gør du det tit? | How cool! Do you do that often? | Say how often: hver dag / i weekenden / en gang imellem | kw: tit/ofte/hver/weekenden/gang
+      Og hvorfor kan du lide det? | And why do you like it? | Explain why: fordi det er… | kw: fordi/er/det
+      Jeg går tit lange ture, og jeg spiller guitar. Spiller du et instrument? | I often go for long walks, and I play the guitar. Do you play an instrument? | Answer and say which one | kw: ja/nej/spiller/instrument
+      Er der noget, du slet ikke kan lide at lave? | Is there anything you really don't like doing? | Say what you don't like: Jeg kan ikke lide at… | kw: ikke/slet/hader
+      Har du lyst til at gå en tur i Dyrehaven med mig på lørdag? | Do you fancy going for a walk in Dyrehaven with me on Saturday? | Accept or decline politely | kw: ja/gerne/desværre/fedt/klart

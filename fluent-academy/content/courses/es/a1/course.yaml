@@ -1,0 +1,110 @@
+language: es
+level: A1
+title: "Spanish A1 · Foundations"
+description: Build a solid base in everyday Spanish — greetings, personal information, family, daily routines, food, places, shopping, free time and simple travel, with peninsular Spanish as the model and Latin American alternatives along the way.
+hours: 70
+summary: >-
+  A1 learners can understand and use familiar everyday expressions and very basic phrases, introduce themselves,
+  ask and answer simple questions about personal details, and interact simply when the other person talks slowly
+  and clearly. This course teaches the Spanish of Spain (including vosotros) and points out the Latin American
+  forms you will hear most often, across around 70 hours of guided practice in 8 units.
+objectives:
+  - Greet people and introduce yourself formally (usted) and informally (tú)
+  - Give and ask for personal information (name, age, nationality, city, phone number)
+  - Talk about your family, jobs and daily routine in the present tense
+  - Order food and drink in a bar, a market and a restaurant
+  - Ask for and understand simple directions and describe your home
+  - Buy clothes and other things, and understand prices up to 100 euros
+  - Talk about what you like, the weather and plans with friends
+  - Get around by public transport, talk about weekend plans and book a room
+canDo:
+  listening:
+    - Understand familiar words and very basic phrases about yourself, your family and your surroundings when people speak slowly and clearly
+    - Catch numbers, prices and times in short announcements and conversations
+  reading:
+    - Understand familiar names, words and very simple sentences on signs, menus, timetables, forms and short messages
+  spokenInteraction:
+    - Interact in a simple way if the other person repeats or rephrases and helps you
+    - Ask and answer simple questions on very familiar topics, choosing between tú and usted
+  spokenProduction:
+    - Use simple phrases and sentences to describe where you live, your day and people you know
+  writing:
+    - Write a short, simple message, postcard or profile
+    - Fill in forms with personal details
+grammar:
+  - Subject pronouns; tú and usted; vosotros (Spain) and ustedes (Latin America and formal plural)
+  - "Present tense of ser, tener, estar, ir and hacer"
+  - Present tense of regular -ar, -er and -ir verbs
+  - "Reflexive verbs (llamarse, levantarse, ducharse…)"
+  - "Stem-changing verbs: e → ie (querer, preferir), o → ue (poder, costar), e → i (pedir)"
+  - Definite and indefinite articles, noun gender and plurals
+  - Adjective agreement, including colours
+  - "Possessives (mi, tu, su, nuestro, vuestro)"
+  - "Demonstratives (este, ese)"
+  - Negation with no
+  - "Questions and question words (qué, dónde, cuándo, cómo, cuánto, quién, por qué)"
+  - "hay vs estar, prepositions of place and the contractions al and del"
+  - "Imperative (tú) for directions: gira, sigue, toma, cruza"
+  - Telling the time and frequency expressions
+  - "gustar and encantar (me gusta, me gustan)"
+  - "Weather with hacer, llover and nevar"
+  - "Near future with ir a + infinitive"
+vocabularyDomains:
+  - Greetings and politeness
+  - Personal information, numbers and the alphabet
+  - Family, descriptions and jobs
+  - Time, days and daily routine
+  - Food and drink, the market and the restaurant
+  - Places in town, directions and the home
+  - Clothes, colours and prices
+  - Hobbies, the weather and seasons
+  - Transport and accommodation
+assessment: A 40-minute cumulative test covering vocabulary, grammar, listening and reading tasks from all eight units, with a short writing task. A score of 70% or more confirms the A1 level.
+units:
+  - title: "¡Hola!"
+    theme: Greetings and introductions
+    lessons: [Greetings and goodbyes, Introducing yourself, "Numbers, age and spelling"]
+  - title: Mi familia y yo
+    theme: Family and people
+    lessons: [My family, Describing people, Jobs and workplaces]
+  - title: Un día normal
+    theme: Time and daily routine
+    lessons: [Telling the time, My daily routine, Days and frequency]
+  - title: Comer y beber
+    theme: Food and drink
+    lessons: [Ordering at a café, At the market, At the restaurant]
+  - title: Mi barrio, mi casa
+    theme: Town and home
+    lessons: [Places in town, Asking for directions, My home]
+  - title: De compras
+    theme: Shopping
+    lessons: [Clothes and colours, Prices and numbers to 100, In a shop]
+  - title: Tiempo libre
+    theme: Free time and weather
+    lessons: [Hobbies and likes, Weather and seasons, Making plans]
+  - title: De viaje
+    theme: Travel
+    lessons: [Getting around, Plans for the weekend, Booking a room]
+assessmentItems: |
+  mc: You meet your partner's grandmother for the first time. You say: || ¡Hola! ¿Qué tal estás? | *Buenas tardes, señora. ¿Cómo está usted? | ¡Hasta luego! || With an older person you have just met, use usted: ¿Cómo está usted? || @tags es.register @obj Greet people and introduce yourself formally (usted) and informally (tú)
+  fill: Yo ___ veintiún años. || tengo || Age uses tener in Spanish: tengo veintiún años. || @tags es.tener @obj Give and ask for personal information (name, age, nationality, city, phone number)
+  mc: "My sisters" in Spanish is… || mi hermanas | *mis hermanas | mías hermanas || Before a plural noun the possessive is plural too: mis hermanas. || @tags es.possessives @obj Talk about your family, jobs and daily routine in the present tense
+  mc: Choose the correct sentence. || Mi padre es un enfermero. | *Mi padre es enfermero. | Mi padre tiene enfermero. || Ser + profession normally has no article in Spanish: es enfermero. || @tags es.ser
+  fill: Normalmente yo ___ (levantarse) a las siete. || me levanto || Reflexive verbs need the pronoun: yo me levanto. || @tags es.reflexive
+  mc: "It's half past two" is… || Es las dos y media. | *Son las dos y media. | Son dos horas y media. || From two o'clock on, use son las: son las dos y media. || @tags es.time
+  mc: You order a coffee with milk in a bar. You say: || Tengo un café con leche, por favor. | *Quería un café con leche, por favor. | Soy un café con leche, por favor. || Quería (or quisiera) + what you want + por favor is the polite way to order. || @tags es.ordering @obj Order food and drink in a bar, a market and a restaurant
+  fill: Lo siento, hoy no ___ (poder, yo) venir. || puedo || Poder changes o → ue: yo puedo. || @tags es.present-irregular
+  mc: A friend asks the way. "Turn left" is… || Gira a la derecha. | *Gira a la izquierda. | Sigue todo recto. || Izquierda = left, derecha = right, todo recto = straight on. || @tags es.imperative @obj Ask for and understand simple directions and describe your home
+  fill: ___ un supermercado al lado del hotel. || Hay || Hay introduces something that exists: hay un supermercado. || @tags es.hay
+  mc: Which word goes with "camisetas"? || este | esta | *estas || Camisetas is feminine plural, so the demonstrative is estas. || @tags es.demonstratives @obj Buy clothes and other things, and understand prices up to 100 euros
+  mc: 75 in Spanish is… || *setenta y cinco | sesenta y cinco | cincuenta y siete || Setenta = 70, so 75 = setenta y cinco. Sesenta = 60; cincuenta y siete = 57. || @tags es.numbers
+  mc: "I like films" is… || Me gusta las películas. | *Me gustan las películas. | Yo gusto las películas. || With a plural noun, gustar is plural: me gustan las películas. || @tags es.gustar @obj Talk about what you like, the weather and plans with friends
+  fill: Hoy ___ mucho calor en Sevilla. || hace || Weather with calor, frío, sol or viento uses hacer: hace calor. || @tags es.weather
+  fill: Mañana nosotros ___ a visitar Toledo. || vamos || Near future: ir (nosotros vamos) + a + infinitive. || @tags es.ir-a @obj Get around by public transport, talk about weekend plans and book a room
+  mc: At a hotel reception you say: || *Quería reservar una habitación doble para dos noches. | Quería reservar una habitación doble para dos noche. | Reservo habitación doble dos noches. || Quería + infinitive is polite, and noches takes -s in the plural. || @tags es.ordering
+  listen: El tren con destino Valencia sale a las cuatro y cuarto por la vía tres. || When does the train leave? || 3:15 | *4:15 | 4:45 || Las cuatro y cuarto = a quarter past four (4:15). || @tags es.time
+  listen: Dos cafés y un zumo de naranja: son seis euros con veinte. || How much is it? || €6.02 | *€6.20 | €16.20 || Seis euros con veinte = six euros twenty cents. || @tags es.numbers
+  short: How do you ask a stranger (usted) where they live? || ¿Dónde vive usted? | ¿Dónde vive? | ¿Usted dónde vive? || Dónde + vivir in the usted form: ¿Dónde vive usted? || @tags es.question-words
+  tr: I don't eat meat. || No como carne. | Yo no como carne. || Put no straight before the verb: no como. || @tags es.negation
+  tr: Excuse me, where is the station? (formal) || Perdone, ¿dónde está la estación? | Disculpe, ¿dónde está la estación? | Perdone, ¿la estación, por favor? || Perdone/disculpe is the polite usted form; location uses estar: ¿dónde está…? || @tags es.estar,es.question-words
+  write: Write a short postcard to a friend from your holiday — where you are, the weather, what you do every day and one plan for tomorrow. || min=35 || req: estoy/estamos | hace/llueve | voy a/vamos a || ¡Hola, Marta! Estoy en Cádiz con mi hermano. Hace sol y mucho calor. Por la mañana vamos a la playa y por la noche cenamos pescado en el puerto. Mañana vamos a visitar Jerez. ¡Un abrazo! Tom

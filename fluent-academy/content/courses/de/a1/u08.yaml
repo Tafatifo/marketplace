@@ -1,0 +1,368 @@
+unit: 8
+title: Auf Reisen
+theme: Travel
+description: Get around by public transport, talk about weekend plans with wollen, müssen and können, and book a room in a hotel or hostel.
+free: false
+objectives:
+  - Ask W-questions about transport and timetables and buy a ticket
+  - Talk about plans and obligations with wollen, müssen and können
+  - Book a room and ask polite questions with können
+canDo:
+  - I can buy a ticket and ask when and where a train leaves.
+  - I can understand simple announcements at a station.
+  - I can say what I want to do, have to do and can do at the weekend.
+  - I can book a room and ask about the price and breakfast.
+review: |
+  fill: ___ fährt die Straßenbahn ab? – Um 9:40. || Wann || Wann = when; the verb follows in position 2. || @tags de.question-words
+  mc: Which sentence is correct? || Am Montag ich muss früh aufstehen. | *Am Montag muss ich früh aufstehen. | Am Montag muss ich aufstehen früh. || The modal verb is in position 2 and the infinitive goes to the very end. || @tags de.word-order,de.modal-verbs
+  fill: Du ___ hier umsteigen. (müssen) || musst || Du + müssen = du musst (no umlaut in the singular). || @tags de.modal-verbs
+  fill: Wir ___ am Wochenende nach Wien fahren. (wollen) || wollen || Wir + wollen = wir wollen; fahren goes to the end. || @tags de.modal-verbs
+  rw: Add "können" :: Ich schlafe am Sonntag aus. || Ich kann am Sonntag ausschlafen. | Am Sonntag kann ich ausschlafen. || Kann in position 2; the separable verb goes to the end in one piece. || @tags de.modal-verbs,de.separable
+  rw: Ask a W-question about the price :: Die Fahrkarte kostet zwanzig Euro. || Wie viel kostet die Fahrkarte? | Was kostet die Fahrkarte? || Question word first, then the verb. || @tags de.question-words
+  tr: Can I pay by card? || Kann ich mit Karte bezahlen? | Kann ich mit Karte zahlen? || Kann ich + infinitive at the end. || @tags de.modal-verbs
+  tr: Where are you going? (informal) || Wohin fährst du? | Wo fährst du hin? | Wohin gehst du? | Wo gehst du hin? || Wohin = where to. || @tags de.question-words
+  listen: Der Bus Nummer elf fährt alle zwanzig Minuten. || How often does bus number 11 run? || *Every 20 minutes | Every 11 minutes | Every 12 minutes || Alle zwanzig Minuten = every twenty minutes. || @tags de.listening
+  listen: Ich möchte ein Einzelzimmer von Montag bis Mittwoch. || How many nights does the guest want to stay? || One | *Two | Three || From Monday to Wednesday = two nights (Monday and Tuesday). || @tags de.listening
+  ask: Tell a friend about your plans for next weekend — one thing you want to do, one thing you have to do, and how you will travel. || kw: will/möchte/moechte & muss & mit dem/mit der/zu fuß/zu fuss || Am Samstag will ich nach Köln fahren. Ich fahre mit dem Zug. Am Sonntag muss ich lernen.
+  write: Write a message to a friend about a weekend trip — where you want to go, how you travel, where you stay and what you can do there. || min=40 || req: will/wollen/möchte/moechte | mit dem/mit der | kann/können/koennen || Hallo Lina, am Wochenende wollen Tom und ich nach Lübeck fahren. Wir fahren am Freitag mit dem Zug und kommen um sieben Uhr an. Wir bleiben zwei Nächte in einer Jugendherberge. In Lübeck können wir die Altstadt besuchen und Marzipan essen. Am Sonntag müssen wir leider früh zurückfahren. Liebe Grüße, Ana
+lessons:
+  - title: Getting around
+    summary: Talk about means of transport, buy a ticket, and ask W-questions about times and platforms using verb-second word order.
+    minutes: 40
+    skills: [listening, speaking, grammar]
+    tags: [de.question-words, de.word-order]
+    objectives:
+      - Name means of transport and say how you travel (mit dem Bus, zu Fuß)
+      - Ask W-questions about departure times, platforms and prices
+      - Use verb-second word order in statements and W-questions
+    intro: |
+      Germany has an excellent public transport network — trains, trams, buses and the U-Bahn. To use it you need **W-questions**: *Wann fährt der Zug? Wo ist Gleis drei? Wie viel kostet die Fahrkarte?* You will also practise the golden rule of German word order: the verb is always in **position 2**.
+    vocab: |
+      der Zug | train | n | Der Zug nach Köln hat Verspätung. | The train to Cologne is delayed. | g: m | pl: die Züge
+      der Bus | bus | n | Ich fahre mit dem Bus zur Arbeit. | I go to work by bus. | g: m | pl: die Busse | n: mit + dative: mit dem Bus, mit der U-Bahn, mit dem Fahrrad.
+      die U-Bahn | underground; subway | n | Wir fahren mit der U-Bahn. | We're going by underground. | g: f | pl: die U-Bahnen | n: Die S-Bahn is a fast suburban train.
+      die Straßenbahn | tram | n | Die Straßenbahn kommt alle zehn Minuten. | The tram comes every ten minutes. | g: f | pl: die Straßenbahnen
+      das Fahrrad | bicycle | n | Viele Studenten fahren mit dem Fahrrad. | Many students go by bike. | g: n | pl: die Fahrräder | n: Informal: das Rad.
+      zu Fuß | on foot | expr | Zum Bahnhof gehe ich zu Fuß. | I walk to the station.
+      die Fahrkarte | ticket | n | Eine Fahrkarte nach Leipzig, bitte. | A ticket to Leipzig, please. | g: f | pl: die Fahrkarten | c: einfach (single); hin und zurück (return) | n: Also das Ticket.
+      das Gleis | platform; track | n | Der Zug fährt von Gleis drei. | The train leaves from platform three. | g: n | pl: die Gleise
+      abfahren | to depart; to leave | v | Der Zug fährt um zehn Uhr ab. | The train leaves at ten. | n: Separable, and fahren changes its vowel: er fährt … ab.
+      ankommen | to arrive | v | Wann kommen wir in Berlin an? | When do we arrive in Berlin? | n: Separable: Der Zug kommt um elf an.
+      umsteigen | to change (trains, buses) | v | Sie müssen in Hannover umsteigen. | You have to change in Hanover. | n: Separable: Wir steigen in Fulda um.
+      die Verspätung | delay | n | Der Bus hat zehn Minuten Verspätung. | The bus is ten minutes late. | g: f | pl: die Verspätungen
+      wann? | when? | adv | Wann fährt der nächste Zug? | When does the next train leave? | n: Other W-words: wer, was, wo, wohin, woher, wie, wie viel, welcher.
+      wohin? | where to? | adv | Wohin fährst du? – Nach Wien. | Where are you going? – To Vienna. | n: wo? = where; wohin? = where to; woher? = where from.
+    grammar:
+      title: W-questions and verb-second word order
+      body: |
+        In a German statement, the conjugated verb is always in **position 2**. Position 1 can be the subject, a time, a place or something else — but only **one** element: *Ich fahre morgen nach Bonn. **Morgen** fahre ich nach Bonn.* When something other than the subject comes first, the subject moves **after** the verb.
+
+        **W-questions** follow the same rule: question word in position 1, verb in position 2, then the subject: ***Wann** fährt der Zug? **Wohin** fahrt ihr? **Wie viel** kostet die Fahrkarte?* **Yes/no questions** start with the verb: *Fährt der Zug nach Bonn? Hat der Bus Verspätung?*
+
+        Separable verbs still send their prefix to the end: *Wann **kommt** der Zug in München **an**?*
+
+        Common W-words: **wer** (who), **was** (what), **wann** (when), **wo** (where), **wohin** (where to), **woher** (where from), **wie** (how), **wie viel** (how much), **wie lange** (how long), **welcher** (which).
+      table: |
+        Position 1 | Position 2 (verb) | Rest of the sentence
+        Ich | fahre | morgen mit dem Zug nach Bonn.
+        Morgen | fahre | ich mit dem Zug nach Bonn.
+        Mit dem Zug | fahre | ich morgen nach Bonn.
+        Wann | fährt | der Zug nach Bonn?
+        Wohin | fahren | Sie?
+        Wie viel | kostet | die Fahrkarte?
+      examples: |
+        Wann fährt der Zug nach Hamburg? | When does the train to Hamburg leave? | W-word + verb
+        Um acht Uhr fährt der Bus ab. | The bus leaves at eight. | time in position 1
+        Wo ist Gleis sieben? | Where is platform seven?
+        Fährt dieser Bus zum Bahnhof? | Does this bus go to the station? | yes/no question: verb first
+      tip: Count elements, not words — "mit dem Zug" is one element, so the verb comes right after it (Mit dem Zug fahre ich nach Bonn).
+    dialogue:
+      title: Am Fahrkartenschalter
+      setting: Leipzig main station. Ana buys a ticket to Dresden at the ticket office.
+      speakers: A=Ana/f; S=Der Mitarbeiter/m
+      lines: |
+        A: Guten Tag! Eine Fahrkarte nach Dresden, bitte. | Hello! A ticket to Dresden, please.
+        S: Einfach oder hin und zurück? | Single or return?
+        A: Hin und zurück, bitte. Was kostet das? | Return, please. How much is that?
+        S: Vierzig Euro. | Forty euros.
+        A: Und wann fährt der nächste Zug? | And when does the next train leave?
+        S: Um vierzehn Uhr zehn, von Gleis zwölf. | At 14:10, from platform twelve.
+        A: Muss ich umsteigen? | Do I have to change?
+        S: Nein, der Zug fährt direkt. | No, the train goes direct.
+        A: Und wann kommt der Zug in Dresden an? | And when does the train arrive in Dresden?
+        S: Um fünfzehn Uhr fünfzehn. | At 15:15.
+        A: Danke! Und wo ist Gleis zwölf? | Thanks! And where is platform twelve?
+        S: Gehen Sie geradeaus und dann links. | Go straight on and then left.
+    pronunciation:
+      title: Intonation in questions
+      body: |
+        In **W-questions** the melody usually **falls** at the end: *Wann fährt der Zug?* ↘. In **yes/no questions** it **rises**: *Fährt der Zug nach Köln?* ↗.
+
+        If you make a W-question rise, it can sound surprised, or as if you are asking someone to repeat: *Wann fährt der Zug?* ↗ = "When did you say?" Listen and copy the melody of each question.
+      items: |
+        Wann fährt der Zug?
+        Fährt der Zug nach Köln?
+        Wo ist Gleis fünf?
+        Ist das der Bus nach Dresden?
+        Wie viel kostet die Fahrkarte?
+        Muss ich umsteigen?
+    culture:
+      title: Public transport in Germany
+      body: |
+        Germany has a dense rail network, from fast long-distance trains to regional trains (*RE*, *RB*), plus S-Bahn, U-Bahn, trams and buses in the cities. Since 2023, the monthly *Deutschlandticket* has covered all local and regional transport across the whole country.
+
+        Buy your ticket before you get on; in some cities you also have to validate it (*entwerten*) in a small machine. Inspectors check tickets regularly, and travelling without a valid one means a fine. Delays (*Verspätungen*) do happen, so always check the platform display.
+    mistakes: |
+      Morgen ich fahre nach Bonn. => Morgen fahre ich nach Bonn. | The verb must be in position 2; if a time comes first, the subject follows the verb.
+      Wann der Zug fährt? => Wann fährt der Zug? | In a W-question the verb comes right after the question word.
+      Ich fahre mit Bus. => Ich fahre mit dem Bus. | Mit needs an article in the dative: mit dem Bus, mit der U-Bahn.
+    task:
+      title: At the ticket office
+      mode: interaction
+      body: |
+        Plan a train trip between two German cities. At the ticket office, ask for a single or return ticket, the price, the departure time, the platform and whether you have to change — as Ana does in the dialogue.
+    exercises: |
+      fill: ___ fährt der Bus? – Um Viertel nach acht. || Wann || Wann asks for a time. || @tags de.question-words
+      fill: ___ fährst du am Wochenende? – Nach Hamburg. || Wohin || Wohin asks for a destination (where to). || @tags de.question-words
+      fill: ___ kostet die Fahrkarte? – Zwanzig Euro. || Wie viel / Was || Both Wie viel kostet…? and Was kostet…? ask for the price. || @tags de.question-words
+      mc: Which sentence is correct? || Heute ich fahre mit dem Zug. | *Heute fahre ich mit dem Zug. | Heute fahre mit dem Zug ich. || With heute in position 1, the verb comes second and the subject follows it. || @tags de.word-order
+      mc: Choose the correct question. || Wann der Zug kommt an? | Wann kommt an der Zug? | *Wann kommt der Zug an? || Verb in position 2, subject after it, separable prefix an at the end. || @tags de.question-words,de.separable
+      mc: Which platform does Ana's train leave from? || 2 | *12 | 20 || "Um vierzehn Uhr zehn, von Gleis zwölf." || @ctx dialogue @skill reading @tags de.reading
+      tf: Ana has to change trains. || false || "Nein, der Zug fährt direkt." || @ctx dialogue
+      rw: Start with "Morgen" :: Ich fahre morgen mit dem Fahrrad nach Potsdam. || Morgen fahre ich mit dem Fahrrad nach Potsdam. || The verb stays in position 2, so ich moves after it. || @tags de.word-order
+      rw: Ask for the time with a W-question :: Der Zug fährt um neun Uhr ab. || Wann fährt der Zug ab? || Wann + verb + subject; the prefix ab stays at the end. || @tags de.question-words,de.separable
+      order: Wann kommt der Bus in Bremen an? || When does the bus arrive in Bremen? || @tags de.question-words,de.separable
+      tr: A return ticket to Munich, please. || Eine Fahrkarte nach München, hin und zurück, bitte. | Einmal München hin und zurück, bitte. | Eine Fahrkarte hin und zurück nach München, bitte. | Eine Rückfahrkarte nach München, bitte. || Hin und zurück = return; nach + city. || @tags de.ordering
+      tr: Where is platform five? || Wo ist Gleis fünf? || Wo + ist + Gleis fünf (no article before Gleis + number). || @tags de.question-words
+      listen: Achtung an Gleis vier! Der Zug nach Frankfurt hat zehn Minuten Verspätung. || What is the announcement about? || *The train to Frankfurt is ten minutes late. | The train to Frankfurt leaves from platform ten. | The train from Frankfurt arrives at four. || Zehn Minuten Verspätung = ten minutes' delay; Gleis vier = platform 4. || @tags de.listening
+      dict: Der Zug fährt um zehn Uhr von Gleis drei ab.
+      ask: At the ticket office, ask when the next train to Berlin leaves and from which platform. || kw: wann & fährt/faehrt/fahrt & gleis || Entschuldigung, wann fährt der nächste Zug nach Berlin? Und von welchem Gleis?
+
+  - title: Plans for the weekend
+    summary: Say what you want to do, have to do and can do with wollen, müssen and können, with the infinitive at the end.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [de.modal-verbs, de.word-order]
+    objectives:
+      - Talk about plans and wishes with wollen
+      - Talk about obligations with müssen and possibilities with können
+      - Put the infinitive at the end of the sentence
+    intro: |
+      What are you doing this weekend? Maybe you **want** to go hiking, but you **have to** clean the flat — and perhaps you **can** sleep in on Sunday. German expresses this with **modal verbs**: *wollen, müssen, können*. The modal verb goes in position 2 and the main verb goes to the end: *Ich **will** am Samstag **wandern**.*
+    vocab: |
+      wollen | to want (to) | v | Wir wollen am Samstag wandern. | We want to go hiking on Saturday. | n: ich will, du willst, er will.
+      müssen | to have to; must | v | Ich muss am Sonntag arbeiten. | I have to work on Sunday. | n: ich muss, du musst, er muss.
+      können | can; to be able to | v | Kannst du am Freitag kommen? | Can you come on Friday? | n: ich kann, du kannst, er kann.
+      vorhaben | to plan; to have planned | v | Was hast du am Wochenende vor? | What are you planning to do at the weekend? | n: Separable. Ich habe nichts vor = I have no plans.
+      der Ausflug | trip; outing | n | Am Sonntag machen wir einen Ausflug. | On Sunday we're going on a trip. | g: m | pl: die Ausflüge
+      besuchen | to visit | v | Ich will meine Oma besuchen. | I want to visit my grandma.
+      aufräumen | to tidy up | v | Am Samstag muss ich aufräumen. | On Saturday I have to tidy up. | n: Separable, but after a modal verb it stays in one piece at the end.
+      putzen | to clean | v | Wir müssen die Küche putzen. | We have to clean the kitchen.
+      ausschlafen | to sleep in; to have a lie-in | v | Am Sonntag kann ich ausschlafen. | On Sunday I can sleep in.
+      der Flohmarkt | flea market | n | Am Samstag ist ein Flohmarkt am Rathaus. | On Saturday there's a flea market by the town hall. | g: m | pl: die Flohmärkte
+      der See | lake | n | Der See ist sehr schön. | The lake is very beautiful. | g: m | pl: die Seen | n: Careful: die See (feminine) means the sea.
+      grillen | to have a barbecue | v | Am Abend grillen wir im Garten. | In the evening we're having a barbecue in the garden.
+      die Hausaufgabe | homework | n | Ich muss Hausaufgaben machen. | I have to do my homework. | g: f | pl: die Hausaufgaben | n: Usually plural: Hausaufgaben machen.
+      noch | still; also (yet to do) | adv | Ich muss noch einkaufen. | I still have to do the shopping.
+    grammar:
+      title: "Modal verbs: wollen, müssen, können"
+      body: |
+        Modal verbs express wishes, obligations and possibilities. They are irregular in the **singular**: *ich will, ich muss, ich kann*. The **ich**- and **er/sie/es**-forms are the same and have **no ending**.
+
+        In a sentence, the **modal verb** is conjugated and stands in **position 2**. The **main verb** goes to the **end** as an infinitive. Together they form a sentence bracket (*Satzklammer*): *Ich **muss** am Samstag **arbeiten**.* Separable verbs stay in one piece at the end: *Ich **muss** um sechs **aufstehen**.*
+
+        - **wollen** = to want to (a plan or a strong wish): *Wir wollen nach Wien fahren.*
+        - **müssen** = to have to: *Du musst eine Fahrkarte kaufen.*
+        - **können** = can (ability or possibility): *Ich kann gut schwimmen. Kannst du mitkommen?*
+
+        For polite wishes, remember **möchte** (unit 4): *Ich möchte ausschlafen* sounds softer than *Ich will ausschlafen*.
+      table: |
+        Pronoun | wollen | müssen | können
+        ich | will | muss | kann
+        du | willst | musst | kannst
+        er / sie / es | will | muss | kann
+        wir | wollen | müssen | können
+        ihr | wollt | müsst | könnt
+        sie / Sie | wollen | müssen | können
+      examples: |
+        Am Samstag will ich wandern. | On Saturday I want to go hiking. | modal verb in position 2
+        Ich muss noch die Küche putzen. | I still have to clean the kitchen. | infinitive at the end
+        Kannst du am Sonntag mitkommen? | Can you come along on Sunday? | separable verb in one piece
+        Wir können leider nicht kommen. | Unfortunately we can't come. | nicht before the infinitive
+      tip: Careful — ich will means "I want", not "I will". For future plans German usually just uses the present tense (Morgen fahre ich nach Bonn).
+    dialogue:
+      title: Was hast du am Wochenende vor?
+      setting: Friday afternoon in an office in Hanover. The colleagues Sven and Fatma talk about their plans for the weekend.
+      speakers: S=Sven/m; F=Fatma/f
+      lines: |
+        S: Was hast du am Wochenende vor? | What are you planning to do at the weekend?
+        F: Am Samstag will ich zum Flohmarkt gehen. | On Saturday I want to go to the flea market.
+        S: Schön! Ich muss leider arbeiten. | Nice! Unfortunately I have to work.
+        F: Oh nein! Wie lange? | Oh no! For how long?
+        S: Bis drei Uhr. Dann will ich grillen. | Until three. Then I want to have a barbecue.
+        F: Und am Sonntag? | And on Sunday?
+        S: Da kann ich ausschlafen! Und du? | Then I can sleep in! And you?
+        F: Ich muss meine Wohnung putzen. | I have to clean my flat.
+        F: Aber am Nachmittag besuche ich meine Schwester. | But in the afternoon I'm visiting my sister.
+        S: Kannst du am Samstagabend kommen? Wir grillen am See. | Can you come on Saturday evening? We're having a barbecue by the lake.
+        F: Gern! Um wie viel Uhr? | I'd love to! What time?
+        S: Um sieben. Bis Samstag! | At seven. See you on Saturday!
+    pronunciation:
+      title: "ü, ö and u in modal verbs"
+      body: |
+        Modal verbs are good practice for umlauts. In the plural, *müssen* and *können* have **ü** and **ö**; in the singular they lose the umlaut: *wir müssen – ich muss*, *wir können – ich kann*. Keep your lips rounded for ü and ö.
+
+        Compare *muss* [mʊs] (short u) and *müssen* [ˈmʏsn̩] (short ü). *Können* (can) and *kennen* (to know a person) are different verbs — the rounded lips make the difference!
+      items: |
+        ich muss
+        wir müssen
+        ich kann
+        wir können
+        du willst
+        Kannst du mitkommen?
+    culture:
+      title: The German weekend
+      body: |
+        Many people in Germany spend Saturday on errands — shopping, cleaning, going to the market — because most shops are closed on Sunday. Sunday is for rest, family and outings (*Ausflüge*): hiking, cycling, a museum, a lake, or *Kaffee und Kuchen* with relatives.
+
+        In summer, barbecues (*Grillen*) are very popular. In many parks they are only allowed in special areas, and apartment blocks have quiet hours (*Ruhezeiten*), usually from 10 p.m. and often all day on Sunday.
+    mistakes: |
+      Ich muss arbeiten am Samstag. => Ich muss am Samstag arbeiten. | With a modal verb, the infinitive goes to the very end of the sentence.
+      Er kannt gut schwimmen. => Er kann gut schwimmen. | With er/sie/es, modal verbs have no ending: er kann, sie muss, es will.
+      Am Sonntag ich kann ausschlafen. => Am Sonntag kann ich ausschlafen. | The modal verb is in position 2, so the subject comes after it.
+    task:
+      title: Weekend planner
+      mode: speaking
+      body: |
+        Make a plan for next weekend with three columns — Ich will…, Ich muss…, Ich kann… — and write at least two things in each. Then tell a partner about your weekend and find a time when you can both meet.
+    exercises: |
+      fill: Am Samstag ___ ich arbeiten. (müssen) || muss || Ich + müssen = ich muss (no ending, no umlaut). || @tags de.modal-verbs
+      fill: ___ du am Sonntag mitkommen? (können) || Kannst || Du + können = du kannst; the verb comes first in a yes/no question. || @tags de.modal-verbs,de.questions
+      fill: Wir ___ einen Ausflug machen. (wollen) || wollen || Wir + wollen = wir wollen. || @tags de.modal-verbs
+      fill: Lena ___ gut schwimmen. (können) || kann || Sie (Lena) + können = sie kann — no ending. || @tags de.modal-verbs
+      mc: Which sentence is correct? || Ich will wandern am Samstag. | *Ich will am Samstag wandern. | Ich am Samstag will wandern. || Modal verb in position 2, infinitive at the end. || @tags de.modal-verbs,de.word-order
+      mc: "Ich muss aufräumen" means… || *I have to tidy up. | I want to tidy up. | I can tidy up. || Müssen = to have to; wollen = to want to; können = can. || @tags de.modal-verbs
+      mc: What does Sven do on Sunday? || He works. | *He sleeps in. | He visits his sister. || "Da kann ich ausschlafen!" It's Fatma who visits her sister. || @ctx dialogue @skill reading @tags de.reading
+      tf: Fatma has to clean her flat on Sunday. || true || "Ich muss meine Wohnung putzen." || @ctx dialogue
+      rw: Add the modal verb müssen :: Ich stehe um sechs Uhr auf. || Ich muss um sechs Uhr aufstehen. || Muss in position 2; the separable verb goes to the end in one piece. || @tags de.modal-verbs,de.separable
+      order: Am Sonntag kann ich lange schlafen. || On Sunday I can sleep late. || @tags de.modal-verbs,de.word-order @alt Ich kann am Sonntag lange schlafen.
+      tr: I want to visit my grandma at the weekend. || Ich will am Wochenende meine Oma besuchen. | Am Wochenende will ich meine Oma besuchen. | Ich will meine Oma am Wochenende besuchen. | Ich möchte am Wochenende meine Oma besuchen. | Am Wochenende möchte ich meine Oma besuchen. || Will (or möchte) in position 2, besuchen at the end. || @tags de.modal-verbs
+      tr: Can you come on Friday? (informal) || Kannst du am Freitag kommen? | Kannst du am Freitag? || Kannst du + infinitive at the end. || @tags de.modal-verbs,de.questions
+      listen: Am Samstag muss ich einkaufen, aber am Sonntag will ich an den See fahren. || What does the speaker want to do on Sunday? || Go shopping | *Go to the lake | Work || Am Sonntag will ich an den See fahren = on Sunday I want to go to the lake. || @tags de.modal-verbs
+      dict: Am Wochenende will ich ausschlafen.
+      ask: Say one thing you want to do, one thing you have to do and one thing you can do this weekend. || kw: will/möchte/moechte & muss & kann || Am Samstag will ich wandern. Ich muss aber auch putzen. Am Sonntag kann ich ausschlafen.
+
+  - title: Booking a room
+    summary: Book a room in a hotel or hostel, ask polite questions with können, and understand the answers.
+    minutes: 40
+    skills: [speaking, writing, listening]
+    tags: [de.modal-verbs, de.register]
+    objectives:
+      - Book a room and give the dates and the number of nights
+      - Ask polite questions with Kann ich…? and Können Sie…?
+      - Ask about the price, breakfast and arrival times
+    intro: |
+      Whether you call a small guesthouse in the Black Forest or write to a hostel in Berlin, booking a room uses a handful of fixed phrases. **Können** helps you ask politely: *Kann ich ein Zimmer reservieren? Können Sie das bitte wiederholen?* And because you are talking to staff, you will use **Sie**.
+    vocab: |
+      das Hotel | hotel | n | Das Hotel ist im Zentrum. | The hotel is in the centre. | g: n | pl: die Hotels
+      die Jugendherberge | youth hostel | n | Die Jugendherberge ist billig und nett. | The youth hostel is cheap and nice. | g: f | pl: die Jugendherbergen
+      das Einzelzimmer | single room | n | Haben Sie ein Einzelzimmer frei? | Do you have a single room available? | g: n | pl: die Einzelzimmer
+      das Doppelzimmer | double room | n | Ich möchte ein Doppelzimmer für zwei Nächte. | I'd like a double room for two nights. | g: n | pl: die Doppelzimmer
+      reservieren | to book; to reserve | v | Ich möchte ein Zimmer reservieren. | I'd like to book a room. | n: Also: buchen.
+      die Nacht | night | n | Wie viele Nächte bleiben Sie? | How many nights are you staying? | g: f | pl: die Nächte
+      frei | free; available | adj | Ist das Zimmer noch frei? | Is the room still available?
+      inklusive | included | adv | Ist das Frühstück inklusive? | Is breakfast included? | n: Also: Das Frühstück ist im Preis enthalten.
+      bleiben | to stay | v | Wir bleiben bis Sonntag. | We're staying until Sunday.
+      die Rezeption | reception | n | Der Schlüssel ist an der Rezeption. | The key is at reception. | g: f | pl: die Rezeptionen
+      der Schlüssel | key | n | Hier ist Ihr Schlüssel. | Here's your key. | g: m | pl: die Schlüssel
+      das WLAN | Wi-Fi | n | Gibt es im Zimmer WLAN? | Is there Wi-Fi in the room? | g: n | pl: (no plural) | n: Pronounced [ˈveːlaːn].
+      der Ausweis | ID card | n | Kann ich bitte Ihren Ausweis sehen? | Can I see your ID, please? | g: m | pl: die Ausweise | c: der Personalausweis (ID card); der Reisepass (passport)
+      wiederholen | to repeat | v | Können Sie das bitte wiederholen? | Could you repeat that, please? | n: Not separable: ich wiederhole.
+    grammar:
+      title: Polite questions with können
+      body: |
+        **Können** is the key verb for polite requests. Use **Kann ich…?** to ask for permission and **Können Sie…?** to ask someone to do something. The infinitive goes to the end:
+
+        - *Kann ich ein Zimmer **reservieren**?* (Can I book a room?)
+        - *Können Sie das bitte **buchstabieren**?* (Can you spell that, please?)
+        - *Kann ich mit Karte **bezahlen**?* (Can I pay by card?)
+
+        Add **bitte** to sound polite. Some fixed phrases are also very useful: *Ich möchte ein Zimmer reservieren. Haben Sie ein Zimmer frei? Ist das Frühstück inklusive?*
+
+        To ask for information, use W-questions with the verb in position 2: *Wie viel **kostet** das Zimmer pro Nacht? Ab wann **gibt** es Frühstück?* For dates, simple phrases are enough at this level: *von Freitag bis Sonntag, für zwei Nächte*.
+      table: |
+        You want to… | You say
+        book a room | Ich möchte ein Zimmer reservieren.
+        ask if a room is free | Haben Sie ein Doppelzimmer frei?
+        give the dates | Von Freitag bis Sonntag, für zwei Nächte.
+        ask the price | Wie viel kostet das Zimmer pro Nacht?
+        ask about breakfast | Ist das Frühstück inklusive?
+        ask for permission | Kann ich mit Karte bezahlen?
+        ask for help | Können Sie das bitte wiederholen?
+      examples: |
+        Kann ich ein Einzelzimmer reservieren? | Can I book a single room? | Kann ich…?
+        Können Sie das bitte buchstabieren? | Could you spell that, please? | Können Sie…?
+        Wie viel kostet das Doppelzimmer pro Nacht? | How much is the double room per night? | W-question
+        Ab wann kann ich einchecken? | From what time can I check in? | modal + infinitive at the end
+      tip: With bitte, Können Sie…? is polite enough for any hotel — you don't need a more complicated form at this level.
+    dialogue:
+      title: Ein Zimmer, bitte
+      setting: Daniel calls a small hotel in Lübeck to book a double room for a weekend.
+      speakers: H=Frau Lorenz/f; D=Daniel/m
+      lines: |
+        H: Hotel am Hafen, Lorenz, guten Tag! | Hotel am Hafen, Lorenz speaking, hello!
+        D: Guten Tag! Haben Sie ein Doppelzimmer frei? | Hello! Do you have a double room available?
+        H: Für wann, bitte? | For when, please?
+        D: Von Freitag bis Sonntag, für zwei Nächte. | From Friday to Sunday, for two nights.
+        H: Ja, das geht. Das Zimmer kostet neunzig Euro pro Nacht. | Yes, that's possible. The room costs ninety euros a night.
+        D: Ist das Frühstück inklusive? | Is breakfast included?
+        H: Ja, Frühstück gibt es von sieben bis zehn. | Yes, breakfast is from seven to ten.
+        D: Super. Kann ich am Freitag spät ankommen? | Great. Can I arrive late on Friday?
+        H: Kein Problem. Die Rezeption ist bis dreiundzwanzig Uhr offen. | No problem. Reception is open until 11 p.m.
+        D: Perfekt. Dann möchte ich das Zimmer reservieren. | Perfect. Then I'd like to book the room.
+        H: Gern. Wie ist Ihr Name, bitte? | Certainly. What's your name, please?
+        D: Daniel Okoro – O, K, O, R, O. | Daniel Okoro – O, K, O, R, O.
+    pronunciation:
+      title: Stress in compound nouns
+      body: |
+        German loves compound nouns, and the main stress is almost always on the **first part**: *EINzelzimmer, DOPpelzimmer, JUgendherberge, FRÜHstück*. The last part decides the gender: *das Zimmer → das Einzelzimmer*, *die Herberge → die Jugendherberge*.
+
+        Say long words in chunks first, then join them: *Ju-gend | her-ber-ge → Jugendherberge*.
+      items: |
+        Einzelzimmer
+        Doppelzimmer
+        Jugendherberge
+        Frühstück
+        Haben Sie ein Zimmer frei?
+        Ist das Frühstück inklusive?
+    culture:
+      title: Where to stay
+      body: |
+        Besides hotels, Germany has many *Pensionen* (small family-run guesthouses), *Ferienwohnungen* (holiday flats, often for a minimum number of nights) and hundreds of *Jugendherbergen* (youth hostels), which welcome guests of all ages, including families.
+
+        Check-in is usually from 2 or 3 p.m. and check-out by 10 or 11 a.m. In many tourist towns and spa resorts, a small local tax per night (*Kurtaxe* or *Tourismusabgabe*) is added to the bill.
+    mistakes: |
+      Kann ich reservieren ein Zimmer? => Kann ich ein Zimmer reservieren? | After a modal verb, the infinitive goes to the end.
+      Können du das wiederholen? => Können Sie das wiederholen? | At a hotel you use Sie. With du the form would be kannst du.
+      Ich möchte ein Zimmer für zwei Nacht. => Ich möchte ein Zimmer für zwei Nächte. | Nacht has a plural with an umlaut: zwei Nächte.
+    task:
+      title: Book a weekend away
+      mode: interaction
+      body: |
+        Call a hotel (role-play) or write to a youth hostel. Say what kind of room you want and for how many nights, ask the price and whether breakfast is included, ask one more question with Kann ich…?, and give your name and spell it.
+    exercises: |
+      fill: ___ ich mit Karte bezahlen? (können) || Kann || Ich + können = ich kann; the verb comes first in a yes/no question. || @tags de.modal-verbs
+      fill: ___ Sie das bitte wiederholen? (können) || Können / Koennen || Sie + können = Sie können. || @tags de.modal-verbs,de.register
+      fill: Wir möchten ein Zimmer für drei ___. (Nacht) || Nächte / Naechte || The plural of die Nacht is die Nächte. || @tags de.plural
+      mc: Which question is polite and correct? || *Können Sie das bitte buchstabieren? | Kann Sie das bitte buchstabieren? | Können Sie buchstabieren das bitte? || Sie + können; the infinitive buchstabieren goes to the end. || @tags de.modal-verbs,de.register
+      mc: "Einzelzimmer" means… || a double room | *a single room | a youth hostel || Einzel- = single; Doppel- = double. || @skill vocabulary @tags de.vocabulary
+      mc: How much does the room cost per night? || €19 | *€90 | €99 || "Das Zimmer kostet neunzig Euro pro Nacht." || @ctx dialogue @skill reading @tags de.reading
+      tf: Breakfast costs extra. || false || Daniel asks "Ist das Frühstück inklusive?" and Frau Lorenz says yes. || @ctx dialogue
+      short: Until what time is reception open? || kw: 23/elf/11/dreiundzwanzig/eleven || "Die Rezeption ist bis dreiundzwanzig Uhr offen" — until 11 p.m. || @ctx dialogue
+      order: Wie viel kostet das Doppelzimmer pro Nacht? || How much is the double room per night? || @tags de.question-words
+      tr: I'd like to book a single room for two nights. || Ich möchte ein Einzelzimmer für zwei Nächte reservieren. | Ich möchte ein Einzelzimmer für zwei Nächte buchen. | Ich möchte für zwei Nächte ein Einzelzimmer reservieren. | Ich möchte für zwei Nächte ein Einzelzimmer buchen. || Möchte in position 2, reservieren (or buchen) at the end. || @tags de.modal-verbs,de.ordering
+      tr: Is there Wi-Fi in the room? || Gibt es im Zimmer WLAN? | Gibt es WLAN im Zimmer? | Hat das Zimmer WLAN? || Gibt es…? asks whether something exists; im Zimmer = in the room. || @tags de.questions
+      listen: Das Doppelzimmer kostet achtzig Euro pro Nacht, mit Frühstück. || What do you learn about the double room? || *€80 a night, breakfast included | €18 a night, no breakfast | €80 a night, breakfast extra || Achtzig Euro pro Nacht, mit Frühstück = €80 a night with breakfast. || @tags de.numbers
+      dict: Ich möchte ein Doppelzimmer für zwei Nächte.
+      ask: Call a hotel — ask whether they have a room available and how much it costs. || kw: haben sie/ist & zimmer & kostet/kosten/preis || Guten Tag! Haben Sie ein Einzelzimmer frei? Wie viel kostet das Zimmer pro Nacht?
+      write: Write a short email to a youth hostel to book a room — the dates, the room and one question. || min=30 || req: möchte/moechte | zimmer | nacht/nächte/naechte | kann ich/können sie/koennen sie/ist das/gibt es || Sehr geehrte Damen und Herren, ich möchte ein Doppelzimmer von Freitag bis Sonntag reservieren, also für zwei Nächte. Ist das Frühstück inklusive? Kann ich am Freitag erst um zehn Uhr abends ankommen? Mit freundlichen Grüßen, Maria Costa || @tags de.formal-writing

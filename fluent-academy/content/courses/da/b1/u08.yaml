@@ -1,0 +1,369 @@
+unit: 8
+title: Samfund og rejser
+theme: Society and travel
+description: Discuss responsible travel, play "what would you do if…?" and talk about customs and stereotypes — with hypotheses (hvis + past, ville + infinitive), hvis jeg var dig and jeg ville ønske.
+objectives:
+  - Discuss ways of travelling responsibly and imagine alternatives with hvis + past and ville or kunne
+  - Ask and answer hypothetical questions such as Hvad ville du gøre, hvis…?
+  - Talk about customs and stereotypes, express wishes with jeg ville ønske and judge politely with det ville være…
+canDo:
+  - I can compare ways of travelling and say what I would do if things were different.
+  - I can ask and answer "what would you do if…?" questions.
+  - I can explain Danish customs and say what would be polite or rude.
+  - I can express wishes about things that are not true now.
+review: |
+  fill: Hvis jeg ___ mere tid, ville jeg lære at sejle. (have) || havde || An imagined situation takes the past in the hvis-clause: havde (had). || @tags da.conditional
+  mc: "Hvis toget ___ billigere, ville flere tage det." || *var | er | har været || Imagined situation: hvis + past (var) + ville. Er would describe a real condition and wouldn't go with ville. || @tags da.conditional
+  mc: Which sentence is correct? || *Hvis jeg var dig, ville jeg sige ja. | Hvis jeg var dig, jeg ville sige ja. | Hvis jeg er dig, ville jeg sige ja. || After the hvis-clause, the verb comes first (ville jeg). And it is always hvis jeg var dig — with the past. || @tags da.conditional,da.word-order
+  fill: Hvad ___ du gøre, hvis du kunne bo hvor som helst? || ville || A hypothetical question: Hvad ville du gøre…? (What would you do…?) || @tags da.conditional,da.questions
+  fill: Jeg ville ønske, jeg ___ flere danske venner. (have) || havde || After jeg ville ønske, use the past: havde. || @tags da.conditional
+  mc: "Det ville være uhøfligt at komme en time for sent." What does the speaker mean? || *Coming an hour late would be rude | Coming an hour late was rude yesterday | It's fine to come an hour late || Det ville være + adjective = it would be… — a polite judgement about an imagined situation. || @tags da.conditional
+  tr: If we took the night train, we could save money. || Hvis vi tog nattoget, kunne vi spare penge. | Vi kunne spare penge, hvis vi tog nattoget. | Hvis vi tog nattoget, ville vi kunne spare penge. || Hvis + past (tog), then kunne + infinitive. After the hvis-clause, the verb comes first: kunne vi. || @tags da.conditional,da.word-order
+  listen: Hvis jeg vandt en rejse, ville jeg tage til Island. Jeg har altid drømt om at se nordlyset. || Why would the speaker go to Iceland? || *To see the northern lights | To visit family | To go skiing || "Jeg har altid drømt om at se nordlyset" — the northern lights. || @tags da.listening,da.conditional
+  listen: Mange tror, at danskere kun spiser rugbrød, men min familie spiser pasta tre gange om ugen. || What does the speaker's family eat three times a week? || *Pasta | Rye bread | Fish || "Min familie spiser pasta tre gange om ugen." || @tags da.listening
+  ask: Answer the question "Hvad ville du ændre i din by, hvis du var borgmester for en dag?" Give two changes and a reason. || kw: ville & hvis/fordi/så || Hvis jeg var borgmester for en dag, ville jeg lave flere cykelstier, fordi mange børn cykler i skole. Jeg ville også åbne biblioteket om søndagen.
+  write: Write an email (6–8 sentences) to a friend who is planning a trip by plane. Suggest a more responsible way to travel, say what you would do in their place, and add a wish. || min=60 || req: hvis | ville/kunne | ville ønske/ønsker || Hej Tobias! Jeg så, at du vil flyve til Amsterdam i juli. Har du overvejet toget? Hvis du tog toget fra Aarhus om morgenen, ville du være der om aftenen. Det tager længere tid, men du kunne læse, arbejde og se landskabet. Hvis jeg var dig, ville jeg også stoppe en nat i Hamborg. Jeg ville ønske, jeg kunne tage med! Kærlig hilsen Asta
+lessons:
+  - title: Travelling responsibly
+    summary: Compare trains, planes and holidays at home, and talk about imagined alternatives with hvis + past and ville or kunne + infinitive.
+    minutes: 45
+    skills: [grammar, speaking, listening]
+    tags: [da.conditional, da.word-order, da.subordinate-clauses]
+    objectives:
+      - Form hypotheses with hvis + past and ville or kunne + infinitive
+      - Tell the difference between real and imagined conditions
+      - Discuss more climate-friendly ways to travel
+    intro: |
+      Train or plane? Holidays abroad or in a summer house? More and more Danes think about the climate when they travel — and that means talking about **alternatives**: *Hvis toget var billigere, ville jeg tage det.* In this lesson you'll hear two friends plan a summer trip to Italy, and learn how Danish talks about situations that aren't real, using the past tense and **ville**.
+    vocab: |
+      et klima | a climate | n | Vi skal passe på klimaet. | We have to look after the climate. | g: n | n: Usually definite: klimaet.
+      klimavenlig | climate-friendly | adj | Toget er den mest klimavenlige måde at rejse på. | The train is the most climate-friendly way to travel.
+      udlede | to emit | v | Et fly udleder meget mere CO2 end et tog. | A plane emits much more CO2 than a train. | n: Past: udledte. Noun: en udledning.
+      dårlig samvittighed | a guilty conscience | expr | Jeg har dårlig samvittighed over at flyve. | I feel guilty about flying. | c: have dårlig samvittighed over noget
+      et nattog | a night train | n | Vi tog nattoget fra Hamborg. | We took the night train from Hamburg. | g: n | pl: nattog
+      et døgn | a day and a night (24 hours) | n | Turen tager over et døgn. | The journey takes over 24 hours. | g: n | pl: døgn | n: Danish has one word for 24 hours.
+      bagage | luggage | n | Vi har kun håndbagage med. | We only have hand luggage. | g: c | n: No plural.
+      pakke let | to pack light | expr | Hvis vi pakkede let, kunne vi tage cyklerne med. | If we packed light, we could take the bikes.
+      en overnatning | an overnight stay | n | Prisen er inklusive to overnatninger. | The price includes two nights' accommodation. | g: c | pl: overnatninger
+      tøve | to hesitate | v | Hvis jeg fik tilbuddet, ville jeg ikke tøve. | If I got the offer, I wouldn't hesitate. | n: Past: tøvede.
+      i stedet for | instead of | expr | Vi tog toget i stedet for at flyve. | We took the train instead of flying. | n: i stedet for at + infinitive.
+      ville | would | v | Hvis toget var billigere, ville jeg tage det. | If the train were cheaper, I would take it. | n: With an imagined situation, ville + infinitive means "would".
+    grammar:
+      title: "Imagined situations: hvis + past, ville + infinitive"
+      body: |
+        To talk about a situation that is **not real** — or not very likely — Danish uses the **past tense** in the hvis-clause and **ville** (or **kunne**) + infinitive in the main clause: *Hvis toget **var** billigere, **ville** flere tage det.* (If the train were cheaper, more people would take it.) The past form doesn't mean past time here; it shows that the situation is imagined.
+
+        Compare the real condition from A2: *Hvis toget **er** billigt, **tager** jeg det* (that's possible) · *Hvis toget **var** billigt, **ville** jeg tage det* (but it isn't).
+
+        **Word order** is the same as with all hvis-clauses: the hvis-clause is the first element, so the main clause starts with the verb — *Hvis jeg havde mere ferie, **ville jeg** tage toget til Rom.* You can also start with the main clause: *Jeg ville tage toget, hvis det var billigere.* In the hvis-clause, ikke goes before the verb: *Hvis det **ikke tog** så lang tid, …*
+
+        **Kunne** means "could": *Hvis vi tog nattoget, **kunne** vi spare en overnatning.* And remember that *havde* here is simply the past of *have*: *Hvis jeg havde mere tid…* = If I had more time…
+      table: |
+        Situation | Hvis-clause | Main clause
+        real (possible) | Hvis det regner i morgen, | tager vi bussen.
+        imagined | Hvis det var billigere, | ville flere tage toget.
+        imagined, could | Hvis vi havde bil, | kunne vi køre til Skagen.
+        main clause first | Jeg ville flyve mindre, | hvis toget var hurtigere.
+      examples: |
+        Hvis toget var billigere, ville jeg aldrig flyve inden for Europa. | If the train were cheaper, I would never fly within Europe. | hvis + past, ville + infinitive
+        Hvis vi havde mere tid, kunne vi cykle hele vejen. | If we had more time, we could cycle the whole way. | kunne = could
+        Hvis det ikke tog fjorten timer, ville jeg tage toget til Wien. | If it didn't take fourteen hours, I would take the train to Vienna. | ikke before the verb in the hvis-clause
+        Jeg ville tage med, hvis jeg kunne få fri. | I would come along if I could get time off. | the main clause first
+      tip: "Imagined = one step back in time: er → var, har → havde, kan → kunne. Then add ville or kunne in the other clause."
+    dialogue:
+      title: Tog eller fly til Italien?
+      setting: A flat in Aarhus on a winter evening. Maja and Elias are planning their summer holiday in Italy and disagree about how to get there.
+      speakers: M=Maja/f; E=Elias/m
+      lines: |
+        M: Skal vi ikke tage toget til Italien i sommer i stedet for at flyve? | Shouldn't we take the train to Italy this summer instead of flying?
+        E: Det tager over et døgn! Hvis vi fløj, ville vi være der på tre timer. | It takes over 24 hours! If we flew, we'd be there in three hours.
+        M: Ja, men flyet udleder meget mere CO2. Det har jeg dårlig samvittighed over. | Yes, but the plane emits much more CO2. I feel guilty about that.
+        E: Jeg forstår dig godt. Men hvis toget var billigere, ville jeg ikke tøve. | I understand you. But if the train were cheaper, I wouldn't hesitate.
+        M: Hvis vi bookede nu, kunne vi få billige billetter med et nattog fra Hamborg. | If we booked now, we could get cheap tickets on a night train from Hamburg.
+        E: Et nattog? Kan man overhovedet sove ordentligt i sådan et tog? | A night train? Can you actually sleep properly on a train like that?
+        M: Min søster gjorde det sidste år. Hun sagde, at det var en hel oplevelse. | My sister did it last year. She said it was quite an experience.
+        E: Okay. Og hvis vi stoppede i München på vejen, kunne vi se byen. | OK. And if we stopped in Munich on the way, we could see the city.
+        M: Præcis! Så bliver rejsen en del af ferien og ikke bare transport. | Exactly! Then the journey becomes part of the holiday and not just transport.
+        E: Hvad med bagagen? Jeg vil ikke slæbe på en stor kuffert i fire tog. | What about the luggage? I don't want to drag a big suitcase onto four trains.
+        M: Så pakker vi let. Hvis vi kun havde en rygsæk hver, ville det være nemt. | Then we pack light. If we only had one backpack each, it would be easy.
+        E: Fint, du har vundet. Men så vil jeg have vinduespladsen hele vejen! | Fine, you win. But then I want the window seat the whole way!
+    pronunciation:
+      title: "The w-like g and v: tog, flyve"
+      body: |
+        After the vowels o and å, a written **g** often turns into a soft **w-like glide**: *tog* (train) sounds roughly like "tow", and *toget* like "TOW-eð". You will hear the same glide in *nattoget*.
+
+        A **v** after a vowel can sound the same way: *flyve* is roughly "FLY-ue", with a rounded y. Don't pronounce a hard g or a clear English v in these words. Listen and repeat, then say the sentence.
+      items: |
+        tog
+        toget
+        nattoget
+        flyve
+        Nattoget kører fra Hamborg.
+    culture:
+      title: Greener holidays
+      body: |
+        Many Danes have started to think about the climate when they plan holidays. Some take the train to Germany, Sweden or further south, and night trains have become popular again. Young people often travel around Europe by **Interrail** after finishing upper secondary school.
+
+        Holidays at home are a classic, too: a week in a **sommerhus** by the sea, a cycling holiday along one of the national cycle routes, or a ferry trip to one of Denmark's many small islands. As Danes say, you don't always have to go far to have a good holiday.
+    mistakes: |
+      Hvis toget var billigere, jeg ville tage det. => Hvis toget var billigere, ville jeg tage det. | The hvis-clause is the first element, so the main clause starts with the verb (ville jeg).
+      Hvis toget er billigere, ville jeg tage det. => Hvis toget var billigere, ville jeg tage det. | With ville in the main clause, the hvis-clause needs the past: var.
+      Jeg ville at tage toget. => Jeg ville tage toget. | Ville is a modal verb, so the infinitive comes without at.
+    task:
+      title: Plan a greener trip
+      mode: interaction
+      body: |
+        With a partner, plan a trip to a European city. One of you wants to fly, the other wants to go by train, bus or ferry. Argue for your choice with at least four hypotheses (Hvis vi tog…, ville vi… / kunne vi…) and agree on a solution. Then practise a problem on the way — a cancelled connection — in the "Handling a travel problem" scenario with the AI coach.
+    exercises: |
+      fill: Hvis toget ___ hurtigere, ville flere tage det. (være) || var || Imagined situation: hvis + past. Være → var. || @tags da.conditional
+      fill: Hvis vi havde mere ferie, ___ vi cykle til Berlin. (could) || kunne || Could = kunne + infinitive in the main clause. After the hvis-clause, the verb comes first: kunne vi. || @tags da.conditional,da.modal-verbs
+      mc: "Hvis jeg ___ en bil, ville jeg køre til Skagen hver weekend." || *havde | har | har haft || Ville in the main clause shows an imagined situation, so the hvis-clause needs the past: havde. || @tags da.conditional
+      mc: Which sentence describes an imagined situation? || *Hvis det var sommer, ville vi bade. | Hvis det er sommer, bader vi. | Når det er sommer, bader vi. || Hvis + past + ville = imagined (it isn't summer). The other two describe real situations. || @tags da.conditional
+      mc: Which sentence is correct? || *Hvis det var billigere, ville jeg tage toget. | Hvis det var billigere, jeg ville tage toget. | Hvis var det billigere, ville jeg tage toget. || Inside the hvis-clause: subject + verb (det var). After it: verb + subject (ville jeg). || @tags da.conditional,da.word-order
+      tf: Elias wants to take the train right from the start. || false || At first he prefers to fly: "Hvis vi fløj, ville vi være der på tre timer." || @ctx dialogue
+      short: Why does Maja want to take the train? || kw: CO2/klima/klimaet/climate/samvittighed/conscience/guilty/miljø/environment/udleder || Because the plane emits much more CO2, and she feels guilty about flying. || @ctx dialogue
+      listen: @dialogue || What does Elias want if they take the train? || *The window seat all the way | A bigger suitcase | A first-class ticket || "Men så vil jeg have vinduespladsen hele vejen!" || @tags da.listening
+      listen: Hvis jeg kunne vælge frit, ville jeg holde ferie i Norge. Men det er for dyrt, så vi tager til et sommerhus på Lolland. || Where are they actually going on holiday? || *To a summer house on Lolland | To Norway | To Sweden || Norway is the imagined choice; the real plan is "et sommerhus på Lolland". || @tags da.listening,da.conditional
+      rw: Make it an imagined situation :: Hvis vi har tid, besøger vi dig. || Hvis vi havde tid, ville vi besøge dig. | Hvis vi havde tid, kunne vi besøge dig. || Har → havde in the hvis-clause, and besøger → ville (or kunne) besøge. || @tags da.conditional
+      order: Hvis vi tog nattoget, kunne vi spare en overnatning. || If we took the night train, we could save a night's accommodation. || @tags da.conditional,da.word-order
+      tr: If the train were cheaper, I would take it. || Hvis toget var billigere, ville jeg tage det. | Jeg ville tage toget, hvis det var billigere. | Jeg ville tage det, hvis toget var billigere. || Hvis + past (var), ville + infinitive. Tog is an et-word, so "it" is det. || @tags da.conditional
+      ask: A friend asks: "Hvordan ville du rejse, hvis du skulle til Paris?" Answer with ville and give a reason with hvis. || kw: ville & hvis || Jeg ville tage toget. Hvis jeg tog toget, kunne jeg arbejde på vejen, og jeg ville ikke få dårlig samvittighed.
+      write: Write a short post (5–6 sentences) for a travel forum: how would you travel more responsibly if you could? || min=45 || req: hvis | ville/kunne | i stedet for || Jeg flyver desværre tit på arbejde. Hvis jeg kunne bestemme, ville jeg tage toget til alle møder i Tyskland. I stedet for at flyve til Berlin kunne jeg arbejde i toget i syv timer. Hvis mine møder var online, ville jeg slet ikke rejse. Og på ferie ville jeg tage til Bornholm i stedet for til Spanien.
+      dict: Hvis vi pakkede let, kunne vi tage cyklerne med.
+
+  - title: What would you do if…?
+    summary: Ask and answer hypothetical questions — Hvad ville du gøre, hvis…? — and give advice with hvis jeg var dig, ville jeg…
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [da.conditional, da.questions, da.word-order]
+    objectives:
+      - Ask hypothetical questions with Hvad ville du gøre, hvis…?
+      - Answer with ville or kunne and give advice with hvis jeg var dig
+      - React with short answers such as Det ville jeg aldrig gøre!
+    intro: |
+      *What would you do if you won a million? Where would you live if you could choose?* Questions like these are perfect for breaking the ice at work or at a party. In this lesson you'll listen to colleagues playing "Hvad ville du gøre, hvis…?" over Friday breakfast, and learn to ask, answer and react — and finally understand how *hvis jeg var dig, ville jeg…* works.
+    vocab: |
+      vinde | to win | v | Hvis jeg vandt en million, ville jeg rejse jorden rundt. | If I won a million, I would travel round the world. | n: Irregular: vandt, har vundet.
+      forestille sig | to imagine | v | Kan du forestille dig et liv uden telefon? | Can you imagine a life without a phone? | n: Reflexive: jeg forestiller mig.
+      drømme om | to dream of | expr | Jeg drømmer om at sejle jorden rundt. | I dream of sailing round the world. | n: Past: drømte om.
+      hvor som helst | anywhere | expr | Hvis du kunne bo hvor som helst, hvor ville du så bo? | If you could live anywhere, where would you live? | n: Also hvem som helst (anyone), hvad som helst (anything).
+      uden tvivl | without a doubt | expr | Det er uden tvivl den bedste idé. | It's without a doubt the best idea.
+      behøve | to need (to) | v | Hvis jeg ikke behøvede at arbejde, ville jeg male hele dagen. | If I didn't need to work, I would paint all day. | n: Mostly used with ikke: Du behøver ikke at komme. Past: behøvede.
+      et studielån | a student loan | n | Jeg har næsten betalt mit studielån af. | I've almost paid off my student loan. | g: n | pl: studielån
+      en million | a million | n | Byen har næsten en million indbyggere. | The city has almost a million inhabitants. | g: c | pl: millioner
+      tage imod | to accept | v | Hvis jeg var dig, ville jeg tage imod tilbuddet. | If I were you, I would accept the offer. | n: A particle verb. Past: tog imod.
+      det kommer an på | it depends (on) | expr | Det kommer an på vejret. | It depends on the weather.
+      hvis jeg var dig | if I were you | expr | Hvis jeg var dig, ville jeg tale med ham. | If I were you, I would talk to him. | n: Var is used for every person in imagined situations, also jeg.
+      ærlig talt | honestly; to be honest | expr | Ærlig talt ved jeg det ikke. | To be honest, I don't know. | n: At the start of the sentence, the verb comes next.
+    grammar:
+      title: "Hvad ville du gøre, hvis…?"
+      body: |
+        Hypothetical questions follow the pattern from the last lesson: the **past** in the hvis-clause and **ville** + infinitive in the main clause.
+
+        - **Asking:** *Hvad **ville** du gøre, hvis du **vandt** en million?* · *Hvor ville du bo, hvis du kunne vælge?* · *Ville du flytte, hvis du fik et job i udlandet?* If the hvis-clause comes first, add **så**: *Hvis du kunne bo hvor som helst, hvor ville du **så** bo?*
+        - **Answering:** *Jeg ville…* + infinitive: *Jeg ville købe et hus ved havet.* Or with the hvis-clause first: *Hvis jeg vandt, **ville jeg** sige op.*
+        - **Advice:** ***Hvis jeg var dig, ville jeg…*** (If I were you, I would…) — var is used for all persons in imagined situations.
+        - **Kunne** works in both clauses: *Hvis jeg **kunne** tale japansk, **ville** jeg flytte til Tokyo.* · *Hvis vi vandt, **kunne** vi rejse.*
+        - **Short reactions:** *Det ville jeg også!* · *Det ville jeg aldrig gøre!* (det first, then V2) · *Det kommer an på…*
+
+        Imagined forms of common verbs: *være → var, have → havde, kunne → kunne, vinde → vandt, få → fik, bo → boede, behøve → behøvede.*
+
+        Remember that *ville* is also the past of *vil* (wanted to, unit 3). In a hypothetical question or after an imagined hvis-clause, it means **would**.
+      table: |
+        Hvis-clause (past) | Main clause (ville / kunne + infinitive)
+        Hvis jeg vandt en million, | ville jeg købe et hus på Bornholm.
+        Hvis jeg var dig, | ville jeg sige ja.
+        Hvis du kunne bo hvor som helst, | hvor ville du så bo?
+        Hvis vi ikke havde børn, | kunne vi rejse mere.
+      examples: |
+        Hvad ville du gøre, hvis du vandt en million? | What would you do if you won a million? | question word + ville + subject
+        Hvis jeg var dig, ville jeg tage imod jobbet. | If I were you, I would accept the job. | var for every person
+        Hvis jeg kunne flyve, ville jeg aldrig sidde i kø igen. | If I could fly, I would never sit in a traffic jam again. | kunne in the hvis-clause
+        Det ville jeg aldrig gøre! | I would never do that! | det first, then V2
+      tip: "Keep a few hvis-questions ready for small talk: Hvad ville du gøre, hvis…? Hvor ville du bo, hvis…? They work at any party."
+    dialogue:
+      title: Fredagsspørgsmålet
+      setting: Friday breakfast at an IT company in Odense. Every week Pernille asks her colleagues Jamal and Niels a "Friday question".
+      speakers: P=Pernille/f; J=Jamal/m; N=Niels/m
+      lines: |
+        P: Okay, fredagsspørgsmål: Hvad ville I gøre, hvis I vandt en million? | OK, Friday question: what would you do if you won a million?
+        J: Jeg ville betale mit studielån af og invitere min familie fra Marokko på ferie. | I'd pay off my student loan and invite my family from Morocco on holiday.
+        N: Kun en million? Så ville jeg nok bare købe en ny bil. | Only a million? Then I'd probably just buy a new car.
+        P: Kedeligt, Niels! Hvis jeg vandt, ville jeg sige op og åbne en lille boghandel. | Boring, Niels! If I won, I'd quit and open a little bookshop.
+        J: Ville du virkelig sige op? Du elsker jo dit job. | Would you really quit? You love your job, after all.
+        P: Det er rigtigt. Men hvis jeg ikke behøvede at tjene penge, ville jeg kun læse. | That's true. But if I didn't need to earn money, I would only read.
+        N: Næste spørgsmål: Hvis I kunne bo hvor som helst i verden, hvor ville I så bo? | Next question: if you could live anywhere in the world, where would you live?
+        J: I et lille hus ved havet på Bornholm. Det ser så smukt ud. | In a little house by the sea on Bornholm. It looks so beautiful.
+        N: Jeg ville bo i Tokyo. Hvis jeg kunne tale japansk, ville jeg flytte i morgen. | I'd live in Tokyo. If I could speak Japanese, I'd move tomorrow.
+        P: Og hvis du fik et job derovre, ville du så tage imod det? | And if you got a job over there, would you accept it?
+        N: Uden tvivl! Men min kæreste ville aldrig flytte så langt væk fra sin familie. | Without a doubt! But my girlfriend would never move so far away from her family.
+        J: Så må du jo vinde den million først, så I kan flyve hjem hver måned! | Then you'll have to win that million first, so you can fly home every month!
+    pronunciation:
+      title: "Hypotheses in fast speech"
+      body: |
+        In everyday speech, the small words in hypotheses are reduced. **Hvis** sounds like "vess" — the h is silent and the vowel is short. **Jeg** after the verb is a quick "ja": *ville jeg* sounds like "vil-le-ja". In **ville** the final e is weak.
+
+        In **gøre**, the r is hardly heard: "GØ-ah". Practise the phrases at normal speed, keeping the stress on the important words: *Hvad ville du **GØ**re?* · *Det ville jeg **AL**drig gøre!*
+      items: |
+        hvis jeg var dig
+        ville jeg
+        Hvad ville du gøre?
+        Det ville jeg aldrig gøre!
+        Hvis jeg vandt en million, ville jeg rejse.
+    culture:
+      title: Friday breakfast and small talk
+      body: |
+        Many Danish workplaces have a shared breakfast on Fridays, with fresh rolls, cheese and coffee — sometimes organised by a different colleague each week. In the afternoon there may be a **fredagsbar**, a relaxed get-together with drinks and snacks before the weekend.
+
+        Small talk at these events is usually light: the weekend, holidays, family, sport and the weather. Many Danes don't talk openly about their salary or how much they paid for their house, so a playful "what would you do if…?" question is a safe way to talk about dreams and money.
+    mistakes: |
+      Hvis jeg er dig, ville jeg tale med hende. => Hvis jeg var dig, ville jeg tale med hende. | The fixed phrase uses the past: hvis jeg var dig.
+      Hvad du ville gøre, hvis du vandt? => Hvad ville du gøre, hvis du vandt? | In a question, the verb comes straight after the question word.
+      Hvis jeg vinder en million, ville jeg rejse. => Hvis jeg vandt en million, ville jeg rejse. | With ville in the main clause, the hvis-clause needs the past: vandt.
+    task:
+      title: The Friday question
+      mode: interaction
+      body: |
+        Prepare three "Friday questions" of your own — for example *Hvad ville du gøre, hvis du kunne tale med dyr?* — and your own answers to them. Ask a partner or a group, react to their answers (Det ville jeg også! / Det ville jeg aldrig gøre!) and give one piece of advice with hvis jeg var dig, ville jeg… Then try the questions in the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: Hvad ___ du gøre, hvis du vandt en million? || ville || Hypothetical question: Hvad ville du gøre…? || @tags da.conditional,da.questions
+      fill: Hvis jeg ___ dig, ville jeg tage imod jobbet. (være) || var || The fixed phrase is hvis jeg var dig — the past of være for an imagined situation. || @tags da.conditional
+      fill: Hvis jeg ___ tale japansk, ville jeg flytte til Tokyo. (could) || kunne || Could = kunne, the past of kan, in the hvis-clause. || @tags da.conditional,da.modal-verbs
+      mc: Which sentence is correct? || *Hvad ville du gøre, hvis du var borgmester? | Hvad du ville gøre, hvis du var borgmester? | Hvad ville du gøre, hvis du er borgmester? || In the question, ville comes right after hvad. In the hvis-clause, the imagined situation needs the past: var. || @tags da.conditional,da.questions
+      mc: "Det kommer an på vejret." What does it mean? || *It depends on the weather | It comes with the weather | It's about the weather || Det kommer an på = it depends on. || @tags da.vocabulary,da.phrasal-verbs
+      mc: "Det ___ jeg aldrig gøre!" (I would never do that!) || *ville | vil gerne | ville at || Ville + infinitive without at = would. Vil gerne means "would like to", which makes no sense with aldrig here. || @tags da.conditional,da.word-order
+      tf: Pernille would quit her job and open a bookshop. || true || "Hvis jeg vandt, ville jeg sige op og åbne en lille boghandel." || @ctx dialogue
+      short: Where would Jamal like to live? || kw: Bornholm || "I et lille hus ved havet på Bornholm." || @ctx dialogue
+      listen: @dialogue || What would Jamal do with the million? || *Pay off his student loan and invite his family on holiday | Buy a new car | Open a bookshop || "Jeg ville betale mit studielån af og invitere min familie fra Marokko på ferie." || @tags da.listening
+      listen: Hvis jeg kunne skifte job i morgen, ville jeg arbejde som guide på Grønland. Jeg elsker natur og kulde! || What would the speaker like to work as? || *A guide in Greenland | A teacher in Norway | A pilot || "Ville jeg arbejde som guide på Grønland." || @tags da.listening,da.conditional
+      rw: Make it hypothetical :: Hvis jeg vinder, rejser jeg til Japan. || Hvis jeg vandt, ville jeg rejse til Japan. | Hvis jeg vandt, kunne jeg rejse til Japan. || Vinder → vandt in the hvis-clause, and rejser → ville rejse. || @tags da.conditional
+      tr: If I were you, I would talk to her. || Hvis jeg var dig, ville jeg tale med hende. | Hvis jeg var dig, ville jeg snakke med hende. | Jeg ville tale med hende, hvis jeg var dig. | Jeg ville snakke med hende, hvis jeg var dig. || Hvis jeg var dig is fixed; after it, the verb comes first: ville jeg. || @tags da.conditional,da.word-order
+      ask: Answer the question "Hvad ville du gøre, hvis du ikke behøvede at arbejde?" Give two things and a reason. || kw: ville & hvis/fordi || Hvis jeg ikke behøvede at arbejde, ville jeg lære at spille guitar. Jeg ville også rejse rundt i Sydamerika, fordi jeg aldrig har været der.
+      dict: Hvis jeg kunne bo hvor som helst, ville jeg bo ved havet.
+
+  - title: Customs and stereotypes
+    summary: Read a newcomer's blog about Danish customs and stereotypes, and express wishes and polite judgements with jeg ville ønske, det ville være… and hvis + past.
+    minutes: 45
+    skills: [reading, writing, speaking]
+    tags: [da.conditional, da.subordinate-clauses]
+    objectives:
+      - Express wishes with jeg ville ønske, (at) + past
+      - Make polite judgements with det ville være + adjective + at
+      - Talk about customs, politeness and stereotypes without generalising
+    intro: |
+      "Danes are cold." "Danes are always on time." Every country has its stereotypes — some partly true, most of them too simple. In this lesson you'll read a blog post by a Brazilian woman in Aalborg who compares what she had heard about Danes with what she has experienced. You'll also learn two useful hypothetical patterns: **jeg ville ønske, …** (I wish…) and **det ville være uhøfligt at…** (it would be rude to…).
+    vocab: |
+      en skik | a custom | n | Det er en gammel dansk skik at hejse flaget til fødselsdage. | It's an old Danish custom to raise the flag on birthdays. | g: c | pl: skikke
+      en stereotyp | a stereotype | n | Mange stereotyper om danskere passer ikke. | Many stereotypes about Danes aren't true. | g: c | pl: stereotyper | n: Also en fordom (a prejudice).
+      en fremmed | a stranger | n | Danskere taler sjældent med fremmede i bussen. | Danes rarely talk to strangers on the bus. | g: c | pl: fremmede | n: As an adjective, fremmed means foreign or strange.
+      præcis | punctual; precise | adj | Mine danske kolleger er altid meget præcise. | My Danish colleagues are always very punctual. | n: With et-words: præcist; plural: præcise.
+      uhøflig | rude; impolite | adj | Det ville være uhøfligt at komme for sent. | It would be rude to arrive late. | n: The opposite is høflig (polite).
+      en vært | a host | n | Værten havde allerede sat maden på bordet. | The host had already put the food on the table. | g: c | pl: værter
+      i forvejen | in advance | expr | Vi planlægger alt flere uger i forvejen. | We plan everything several weeks in advance.
+      passe | to be true; to fit | v | Det passer ikke! | That's not true! | n: Det passer = that's right. Past: passede.
+      dukke op | to turn up; to show up | v | Han dukkede op klokken syv præcis. | He turned up at exactly seven. | n: A particle verb. Past: dukkede op.
+      forvirret | confused | adj | Han så helt forvirret ud. | He looked completely confused. | n: Plural: forvirrede.
+      ønske | to wish | v | Jeg ville ønske, jeg kunne blive længere. | I wish I could stay longer. | n: Jeg ville ønske + past = I wish.
+      tak for mad | thank you for the meal | expr | Tak for mad, det smagte dejligt! | Thank you for the meal, it was delicious! | n: Said by everyone after a meal. The host answers velbekomme.
+    grammar:
+      title: "Wishes and polite judgements: jeg ville ønske, det ville være…"
+      body: |
+        The hypothetical forms you learned in this unit are also used for **wishes** and for careful, polite **judgements**.
+
+        **1. Jeg ville ønske, (at) … + past** = I wish …: *Jeg ville ønske, jeg **kunne** tale bedre dansk.* · *Jeg ville ønske, at det ikke **regnede** så meget.* The past in the second clause shows that it isn't true now. *At* can be left out.
+
+        **2. Det ville være + adjective + at + infinitive** = it would be … to …: *Det ville være uhøfligt at komme for sent.* · *Det ville være dejligt at få flere danske venner.*
+
+        **3. Hvis + past … ville** for imagined situations in another culture: *Hvis du kom en time for sent, ville værten nok blive bekymret.* · *Hvis jeg skulle beskrive danskerne med ét ord, ville det være…* (If I had to describe…)
+
+        **Word order.** The ønske-clause is a subordinate clause, so ikke goes before the verb: *Jeg ville ønske, at jeg **ikke var** så genert.*
+
+        **Talking about stereotypes** carefully: *mange danskere* (many Danes) rather than *danskere* (all Danes), *nogle gange*, *ofte*, *efter min erfaring* (in my experience).
+      table: |
+        Pattern | Example | Meaning
+        Jeg ville ønske, (at) + past | Jeg ville ønske, jeg boede tættere på havet. | I wish I lived closer to the sea.
+        Det ville være + adjective + at | Det ville være uhøfligt at gå uden at sige tak. | It would be rude to leave without saying thank you.
+        Hvis + past, ville … | Hvis du ikke tog skoene af, ville nogle synes, det var mærkeligt. | If you didn't take your shoes off, some people would find it strange.
+      examples: |
+        Jeg ville ønske, at mine danske kolleger inviterede mig hjem. | I wish my Danish colleagues would invite me home. | past after ville ønske
+        Det ville være uhøfligt at gå uden at sige tak for mad. | It would be rude to leave without saying thank you for the meal. | det ville være + adjective + at
+        Hvis du kom en time for sent, ville værten nok blive bekymret. | If you came an hour late, the host would probably get worried. | an imagined situation
+        Jeg ville ønske, at jeg ikke var så genert. | I wish I wasn't so shy. | ikke before the verb
+      tip: "Jeg ville ønske + one step back in time: kan → kunne, er → var, bor → boede."
+    reading:
+      title: Danskere er kolde – eller er de?
+      text: |
+        Danskere er kolde – eller er de?
+
+        Før jeg flyttede til Aalborg for tre år siden, havde jeg hørt mange ting om danskerne. De var kolde, de talte aldrig med fremmede, og de spiste rugbrød til alle måltider. Nogle af de ting passer, men de fleste er stereotyper.
+
+        Det er rigtigt, at mange danskere sjældent taler med fremmede i bussen. Hvis jeg begyndte at snakke med min sidemand, ville han sikkert blive lidt forvirret. Men når man først kender en dansker, er venskabet ofte meget stærkt.
+
+        Danskere er også meget præcise. Da jeg blev inviteret til middag første gang, kom jeg en halv time for sent, som man gør i Brasilien. Værten havde allerede sat maden på bordet! I dag ved jeg, at det ville være uhøfligt at komme mere end et kvarter for sent.
+
+        Der er mange små regler, som ingen fortæller én om. Man tager skoene af i entréen, og man siger "tak for mad", når man har spist. Til fødselsdage sætter mange danskere små flag på bordet og synger, før man spiser lagkage.
+
+        Og så kalenderen! Mine danske venner planlægger alt flere uger i forvejen. Jeg ville ønske, at de engang imellem ringede og sagde: "Skal vi ses i aften?"
+
+        Men hvis jeg skulle beskrive danskerne med ét ord, ville det ikke være "kolde". Det ville være "trygge". De holder, hvad de lover, og de dukker altid op – til tiden.
+
+        Camila, 31, fra São Paulo
+      translation: |
+        Danes are cold – or are they?
+
+        Before I moved to Aalborg three years ago, I had heard lots of things about the Danes. They were cold, they never talked to strangers, and they ate rye bread at every meal. Some of those things are true, but most are stereotypes.
+
+        It's true that many Danes rarely talk to strangers on the bus. If I started chatting to the person next to me, he would probably get a bit confused. But once you know a Dane, the friendship is often very strong.
+
+        Danes are also very punctual. When I was invited to dinner for the first time, I came half an hour late, as people do in Brazil. The host had already put the food on the table! Today I know that it would be rude to come more than a quarter of an hour late.
+
+        There are lots of little rules that nobody tells you about. You take your shoes off in the hall, and you say "thank you for the meal" when you have eaten. At birthdays, many Danes put small flags on the table and sing before they eat layer cake.
+
+        And then the calendar! My Danish friends plan everything several weeks in advance. I wish they would call now and then and say: "Shall we meet tonight?"
+
+        But if I had to describe the Danes in one word, it wouldn't be "cold". It would be "reliable". They keep their promises, and they always turn up – on time.
+
+        Camila, 31, from São Paulo
+    pronunciation:
+      title: "Small phrases with big meanings"
+      body: |
+        A few short phrases are said many times a day in Denmark, so they are spoken quickly, almost as one word. In **tak for mad**, the stress falls on *mad*, and the d is soft: "tak-fo-MAÐ". **Velbekomme** (the host's reply) runs together as one word.
+
+        **Tak for sidst** (thanks for the last time we met) is stressed on *sidst*. **Skål** (cheers) has a long å. **Det var så lidt** (you're welcome; it was nothing) is said lightly, with the d in *lidt* silent. Listen and repeat each phrase as one smooth unit.
+      items: |
+        tak for mad
+        velbekomme
+        tak for sidst
+        skål
+        Det var så lidt.
+    culture:
+      title: Tak for sidst — and the law of Jante
+      body: |
+        When Danes meet someone they last saw at a dinner or a party, they often say **tak for sidst** — thank you for the last time. After a meal, everyone says **tak for mad** to the host, and the host answers **velbekomme**. On birthdays, the red and white flag, **Dannebrog**, appears on cakes, tables and flagpoles.
+
+        You may also hear about **Janteloven**, the "law of Jante" from a 1933 novel by Aksel Sandemose. It describes an unwritten rule that you shouldn't think you are better than others. Many Danes use it to explain why boasting is frowned upon — and many also say that it belongs to the past.
+    mistakes: |
+      Jeg ville ønske, jeg kan tale dansk. => Jeg ville ønske, jeg kunne tale dansk. | After jeg ville ønske, use the past: kunne.
+      Det ville være uhøfligt komme for sent. => Det ville være uhøfligt at komme for sent. | The pattern is det ville være + adjective + at + infinitive.
+      Jeg ville ønske, at jeg var ikke så genert. => Jeg ville ønske, at jeg ikke var så genert. | The at-clause is a subordinate clause, so ikke goes before the verb.
+    task:
+      title: Myths and realities
+      mode: writing
+      body: |
+        Write a blog post (8–10 sentences) about a stereotype of your own country or of Denmark. Describe the stereotype, give an example from your own experience, explain a custom that surprised you, and end with a wish (Jeg ville ønske, …) and a balanced conclusion. Use at least one hypothesis with hvis + past and ville, and avoid generalising: mange, nogle, efter min erfaring.
+    exercises: |
+      fill: Jeg ville ønske, jeg ___ tale bedre dansk. (could) || kunne || After jeg ville ønske, use the past: kan → kunne. || @tags da.conditional,da.modal-verbs
+      fill: Det ville være uhøfligt ___ gå uden at sige tak for mad. || at || Det ville være + adjective + at + infinitive. || @tags da.conditional,da.infinitive
+      fill: Jeg ville ønske, at det ikke ___ så meget i Danmark. (regne) || regnede || After ville ønske, the verb is in the past: regne → regnede. || @tags da.conditional,da.past
+      mc: Which sentence is correct? || *Jeg ville ønske, at jeg ikke var så genert. | Jeg ville ønske, at jeg var ikke så genert. | Jeg ville ønske, at ikke jeg var så genert. || In the at-clause: subject + ikke + verb. || @tags da.conditional,da.negation
+      mc: What do you say to your host after a meal in Denmark? || *Tak for mad | Velbekomme | Skål || Guests say tak for mad. Velbekomme is the host's answer, and skål means "cheers". || @tags da.vocabulary
+      tf: Camila arrived on time for her first dinner invitation. || false || "Jeg kom en halv time for sent, som man gør i Brasilien." || @ctx reading
+      mc: What does Camila wish her Danish friends would do? || *Call and suggest meeting the same evening | Invite her for Christmas | Speak more English with her || "Jeg ville ønske, at de engang imellem ringede og sagde: Skal vi ses i aften?" || @ctx reading @skill reading @tags da.reading
+      short: Which word would Camila use to describe the Danes? || kw: trygge/tryg/reliable/safe/secure/trustworthy || "Det ville være trygge" — reliable: they keep their promises and turn up on time. || @ctx reading
+      listen: Hvis du bliver inviteret til middag i Danmark, så kom til tiden, og tag gerne en lille gave med, for eksempel blomster eller chokolade. || What does the speaker recommend bringing? || *A small gift such as flowers or chocolate | A bottle of wine and a cake | Nothing at all || "Tag gerne en lille gave med, for eksempel blomster eller chokolade." || @tags da.listening
+      rw: Make it a wish :: Jeg kan ikke blive længere. → Jeg ville ønske, … || Jeg ville ønske, jeg kunne blive længere. | Jeg ville ønske, at jeg kunne blive længere. || The wish is the opposite of reality, in the past: kan ikke → kunne. || @tags da.conditional
+      order: Det ville være dejligt at få flere danske venner. || It would be lovely to have more Danish friends. || @tags da.conditional
+      tr: I wish I lived closer to the sea. || Jeg ville ønske, jeg boede tættere på havet. | Jeg ville ønske, at jeg boede tættere på havet. | Jeg ville ønske, jeg boede nærmere havet. | Jeg ville ønske, at jeg boede nærmere havet. || I wish = jeg ville ønske + past: bo → boede. || @tags da.conditional
+      ask: Tell a Danish friend about a custom from your country, and say what would happen if a Dane didn't know about it. Use hvis + past and ville. || kw: hvis & ville || I Japan tager man altid skoene af, før man går ind. Hvis en dansker gik ind med sko på, ville værten nok blive lidt overrasket — men de fleste ville bare smile og forklare reglen.
+      write: Write a blog post (6–8 sentences) about a stereotype of your country or of Denmark. Is it true? || min=60 || req: hvis | ville | ville ønske/ville være || Mange tror, at alle tyskere er meget seriøse. Efter min erfaring passer det ikke helt. Mine tyske venner griner meget, men de er præcise, når det gælder arbejde. Hvis man kom for sent til et møde i Berlin, ville kollegerne nok sige noget. Det ville være uhøfligt ikke at give besked. Jeg ville ønske, at folk mødte flere tyskere, før de dømte dem. Stereotyper er sjældent hele sandheden.
+      dict: Jeg ville ønske, at mine venner ringede lidt oftere.

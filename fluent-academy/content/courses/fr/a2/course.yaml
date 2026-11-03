@@ -1,0 +1,110 @@
+language: fr
+level: A2
+title: "French A2 · Everyday life"
+description: Talk about your past, your travels, your health, your studies and work, your home, everyday errands, celebrations and future plans — the French you need to manage daily life.
+hours: 80
+summary: >-
+  A2 learners can talk about familiar topics in a series of simple, connected sentences: what they did last weekend,
+  where they went on holiday, how they feel, what they study or do for a living and what they plan to do next. They can
+  deal with routine situations at the doctor's, the bank, the post office or in a shop, and they can invite people,
+  make arrangements and compare options. This course delivers around 80 hours of guided practice across 8 units.
+objectives:
+  - Tell stories about past events with the passé composé (avoir and être)
+  - Describe past habits and situations with the imparfait and say how long things have lasted
+  - Explain health problems and understand advice and instructions from a doctor or pharmacist
+  - Talk about your studies and your job, and take part in a simple job interview
+  - Compare homes and options, and talk about your neighbourhood and household tasks
+  - Deal with banks, post offices, shops and phone calls using object pronouns
+  - Invite people, accept or decline politely, and give good wishes
+  - Talk about future plans and conditions with the futur simple and si + présent
+canDo:
+  listening:
+    - Understand the main point of short, clear messages and announcements about everyday matters
+    - Follow a simple conversation about past events, plans or arrangements when people speak clearly
+  reading:
+    - Find specific information in everyday texts such as ads, leaflets, timetables and notices
+    - Understand short personal emails and blog posts about experiences and plans
+  spokenInteraction:
+    - Handle routine exchanges such as making an appointment, returning a purchase or sending a parcel
+    - Make, accept and decline invitations and suggestions politely
+  spokenProduction:
+    - Describe your background, education and job in a series of simple sentences
+    - Tell a short story about a past event, a trip or a celebration
+  writing:
+    - Write short notes and messages about everyday needs
+    - Write a simple personal email describing experiences and plans
+grammar:
+  - Passé composé with avoir, regular and irregular past participles
+  - Passé composé with être, including reflexive verbs, and past participle agreement
+  - Negation and short adverbs in the passé composé (ne… pas, ne… jamais, déjà, pas encore)
+  - Avoir mal à and parts of the body
+  - The imperative for advice and instructions, including reflexive verbs
+  - Il faut / il ne faut pas + infinitive
+  - The imparfait, and an introduction to imparfait vs passé composé
+  - Depuis, il y a and pendant with time expressions
+  - Comparatives (plus, moins, aussi… que; meilleur, mieux)
+  - The pronoun y and possessive pronouns (le mien, la tienne…)
+  - Direct and indirect object pronouns (le, la, les, lui, leur, me, te, nous, vous)
+  - The pronoun en with quantities
+  - The conditionnel de politesse (je voudrais, j'aimerais, pourriez-vous, ça te dirait…)
+  - The futur simple (regular verbs and common irregular stems)
+  - Si + présent with the futur or the imperative
+  - Superlatives (le plus, le moins, le meilleur, le mieux)
+vocabularyDomains:
+  - Weekend activities and life events
+  - Holidays, transport and travel problems
+  - The body, illness, medicine and healthy habits
+  - Studies, jobs, the workplace and job applications
+  - Housing, furniture, household chores and neighbours
+  - Banks, post offices, shops, phone calls and messages
+  - Festivals, parties, gifts and good wishes
+  - Future plans, appointments and choices
+assessment: A 45-minute cumulative test covering grammar, vocabulary, listening and reading from all eight units, with a short writing task. A score of 70% or more confirms the A2 level.
+units:
+  - title: Histoires de vie
+    theme: Life stories
+    lessons: [Last weekend, My life so far, Childhood memories]
+  - title: Vacances et voyages
+    theme: Holidays and travel
+    lessons: [A holiday to remember, Planning a trip, When things go wrong on a trip]
+  - title: Le corps et la santé
+    theme: Health and the body
+    lessons: [Aches and pains, "At the doctor's and the pharmacy", Healthy habits]
+  - title: Études et travail
+    theme: Work and studies
+    lessons: [My studies, A day at work, Applying for a job]
+  - title: Chez soi
+    theme: Home and housing
+    lessons: [Finding a flat, Furniture and chores, Neighbours and community]
+  - title: Services et démarches
+    theme: Services and errands
+    lessons: [At the bank and the post office, Returns and exchanges, Phone calls and messages]
+  - title: Fêtes et traditions
+    theme: Celebrations and traditions
+    lessons: [Festivals and holidays, Invitations and parties, Gifts and good wishes]
+  - title: Projets et choix
+    theme: Plans and choices
+    lessons: [Future plans, Making arrangements, Comparing options]
+assessmentItems: |
+  fill: Hier soir, j'___ (prendre) un taxi pour rentrer. || ai pris || Prendre has an irregular past participle: j'ai pris. || @tags fr.passe-compose-avoir @obj Tell stories about past events with the passé composé (avoir and être)
+  mc: Choose the correct sentence. || Je n'ai vu jamais la mer. | *Je n'ai jamais vu la mer. | Je ne jamais ai vu la mer. || In the passé composé, ne… jamais goes around the auxiliary: je n'ai jamais vu. || @tags fr.negation,fr.passe-compose-avoir
+  fill: Léa et Chloé ___ (partir) à Rome hier matin. || sont parties || Partir takes être, and the participle agrees with a feminine plural subject: parties. || @tags fr.passe-compose-etre,fr.past-participle-agreement
+  tr: I went to the cinema yesterday. (you are a woman) || Je suis allée au cinéma hier. | Hier, je suis allée au cinéma. | Hier je suis allée au cinéma. || Aller takes être; a woman adds -e to the participle: je suis allée. || @tags fr.passe-compose-etre,fr.past-participle-agreement
+  mc: The pharmacist says "Prenez un comprimé trois fois par jour." What should you do? || Take three tablets once a day | *Take one tablet three times a day | Take one tablet every three days || Un comprimé = one tablet; trois fois par jour = three times a day. Prenez is the vous imperative of prendre. || @tags fr.imperative @skill vocabulary @obj Explain health problems and understand advice and instructions from a doctor or pharmacist
+  short: In French, how do you say "I have a headache"? || J'ai mal à la tête. | J'ai mal à la tête ! || Avoir mal à + body part: la tête → j'ai mal à la tête. || @tags fr.avoir-mal
+  fill: Quand j'étais petit, je ___ (jouer) au foot tous les mercredis. || jouais || A repeated habit in the past takes the imparfait: je jouais. || @tags fr.imparfait @obj Describe past habits and situations with the imparfait and say how long things have lasted
+  mc: Je regardais un film quand le téléphone ___. || sonnait | *a sonné | sonne || The action that interrupts the scene is in the passé composé; the background (je regardais) is in the imparfait. || @tags fr.imparfait-vs-pc
+  tr: I've been working here for three years. || Je travaille ici depuis trois ans. | Ça fait trois ans que je travaille ici. || For an action that is still going on, French uses the present + depuis. || @tags fr.depuis @obj Talk about your studies and your job, and take part in a simple job interview
+  fill: Mon appartement fait 60 m² et le tien fait 40 m². Le tien est ___ grand que le mien. || moins || 40 m² is smaller than 60 m²: le tien est moins grand que le mien. || @tags fr.comparatives @obj Compare homes and options, and talk about your neighbourhood and household tasks
+  mc: "Tu vas souvent à la piscine ?" — "Oui, ___ vais le samedi." || *j'y | j'en | je la || Y replaces à + a place: aller à la piscine → j'y vais. || @tags fr.y-en
+  mc: "Read the ad: Appartement 2 pièces, 45 m², 3e étage sans ascenseur, 750 € par mois charges comprises." Which statement is true? || There is a lift. | *Charges are included in the rent. | The flat has three rooms. || Charges comprises = service charges included; sans ascenseur = no lift; 2 pièces = two main rooms. || @skill reading @tags fr.reading
+  mc: "Vous envoyez ce colis aujourd'hui ?" — "Oui, je ___ envoie ce matin." || *l' | lui | en || Envoyer quelque chose: le colis is a direct object, so le becomes l' before a vowel. || @tags fr.object-pronouns @obj Deal with banks, post offices, shops and phone calls using object pronouns
+  fill: J'ai appelé ma grand-mère et je ___ ai souhaité un bon anniversaire. || lui || Souhaiter quelque chose à quelqu'un: à ma grand-mère is an indirect object, so lui. || @tags fr.object-pronouns
+  fill: Des crêpes ? J'___ ai mangé trois ! || en || En replaces de + noun when you give a quantity: j'en ai mangé trois. || @tags fr.y-en @obj Invite people, accept or decline politely, and give good wishes
+  mc: You need help from a stranger in the street. The most polite question is… || Aide-moi ! | Tu peux m'aider ? | *Pourriez-vous m'aider, s'il vous plaît ? || The conditionnel (pourriez-vous) with vous is the most polite form; tu and the imperative are too familiar with a stranger. || @tags fr.conditionnel
+  fill: L'année prochaine, j'___ (habiter) à Montréal. || habiterai || Futur simple of a regular -er verb: infinitive + -ai → j'habiterai. || @tags fr.futur-simple @hint futur simple @obj Talk about future plans and conditions with the futur simple and si + présent
+  fill: Si tu ___ (être) libre samedi, on ira au marché. || es || After si, use the présent (tu es); the main clause is in the futur (on ira). || @tags fr.si-clauses
+  mc: C'est ___ boulangerie du quartier. || la plus bonne | *la meilleure | la plus meilleure || Bon has an irregular superlative: le meilleur, la meilleure. || @tags fr.comparatives
+  listen: Bonjour, madame Petit. Votre colis arrivera jeudi matin, entre neuf heures et midi. Si vous êtes absente, nous le laisserons au bureau de poste. || When will the parcel arrive? || Tuesday morning | *Thursday morning | Thursday afternoon || "Jeudi matin, entre neuf heures et midi" — Thursday between 9 a.m. and noon. || @tags fr.listening
+  listen: Salut, c'est Clara. Désolée, je ne pourrai pas venir à ta fête samedi, je pars chez mes parents. Je t'appellerai dimanche ! || What is Clara doing on Saturday? || Coming to the party late | *Going to her parents' place | Working all day || "Je pars chez mes parents" — she is going to her parents', so she can't come to the party. || @tags fr.listening
+  write: Write an email to a French friend about your last holiday (where you went, what you did) and your plans for next summer. || min=50 || req: je suis allé/je suis allée/nous sommes allés/nous sommes allées/on est allés/on est allées | j'ai/nous avons/on a | l'été prochain/l'année prochaine/cet été || Salut Hugo ! En avril, je suis allée en Grèce avec ma sœur. Nous sommes restées dix jours sur une petite île. Nous avons nagé tous les jours et nous avons mangé beaucoup de poisson. Un soir, j'ai perdu mon téléphone, mais un serveur l'a trouvé ! L'été prochain, j'irai au Portugal et je visiterai Lisbonne. Et toi, tu as des projets ? Bises, Maya

@@ -1,0 +1,367 @@
+unit: 1
+title: Livshistorier
+theme: Life stories
+description: Say what you did last weekend, tell the main events of your life so far and share childhood memories — with the Danish past tense (datid) of regular verbs, plus var and havde.
+free: true
+objectives:
+  - Talk about what you did last weekend with regular past-tense verbs
+  - Tell the main events of your life so far with years and time expressions
+  - Share childhood memories and say what you used to do
+canDo:
+  - I can say what I did last weekend and ask others about theirs.
+  - I can form the past tense of regular verbs with -ede and -te.
+  - I can tell the main events of my life with years and expressions like for fem år siden.
+  - I can describe what I used to do as a child with plejede at.
+review: |
+  fill: I fredags ___ vi aftensmad hos Malene. (spise) || spiste || Spise belongs to the -te group: spise → spiste. || @tags da.past
+  fill: Han ___ i Aarhus fra 2018 til 2021. (bo) || boede || Bo doesn't end in -e, so it adds the whole ending: bo → boede. || @tags da.past
+  mc: Which sentence is correct? || I søndags jeg slappede af. | *I søndags slappede jeg af. | I søndags slappede af jeg. || Verb second: I søndags + verb + subject, and af comes after the subject. || @tags da.word-order
+  mc: "For to år siden" means… || in two years | *two years ago | for two years || For … siden = ago. "In two years" is om to år, and "for two years" is i to år. || @tags da.prepositions-time
+  fill: Som barn ___ min bror at samle på fodboldkort. (used to) || plejede || Used to = plejede at + infinitive. || @tags da.past,da.frequency
+  mc: How do you say the year 2016? || *to tusind og seksten | to hundrede og seksten | to tusind og tres || 2016 = to tusind og seksten. To hundrede og seksten is 216, and tres is 60. || @tags da.numbers
+  tr: Yesterday I worked from home and cooked dinner. || I går arbejdede jeg hjemme og lavede aftensmad. | Jeg arbejdede hjemme i går og lavede aftensmad. | I går arbejdede jeg hjemmefra og lavede aftensmad. | I går arbejdede jeg hjemme og lavede mad. | I går arbejdede jeg hjemme, og jeg lavede aftensmad. || Both verbs take -ede: arbejdede, lavede. After I går, the verb comes before jeg. || @tags da.past,da.word-order
+  rw: Put it in the past tense :: Vi bor i Køge og cykler i skole. || Vi boede i Køge og cyklede i skole. || Bo → boede, cykle → cyklede: both take -ede. || @tags da.past
+  listen: Sidste år flyttede min søster til Aalborg. Hun begyndte på et nyt job i august. || When did the sister start her new job? || *In August | In April | Last week || "Hun begyndte på et nyt job i august." || @tags da.past,da.listening
+  listen: Da jeg var lille, havde vi en hund. Den var stor og sort, og jeg elskede den. || What does the speaker say about the dog? || It was small and white | *It was big and black | It lived with the grandparents || "Den var stor og sort" — it was big and black. || @tags da.listening
+  ask: Tell a colleague what you did last weekend and one thing you used to do as a child. || kw: i weekenden/i lørdags/i søndags/sidste weekend & plejede at/som barn/da jeg var lille || I weekenden besøgte jeg min tante i Roskilde. Som barn plejede jeg at bo hos hende hver sommer.
+  write: Write a short email to a new Danish pen friend — where you were born and grew up, when you moved, one childhood memory and what you did last weekend. || min=50 || req: født | voksede op/boede | flyttede | i weekenden/i lørdags/i søndags/sidste weekend || Hej Johanne! Jeg hedder Ravi, og jeg er født i Chennai i Indien. Jeg voksede op i en stor lejlighed med mine bedsteforældre. Som barn plejede jeg at spille cricket på gaden hver dag. For tre år siden flyttede jeg til København. I lørdags cyklede jeg til stranden på Amager med nogle venner. Hvad med dig? Mange hilsner, Ravi
+lessons:
+  - title: Last weekend
+    summary: Say what you did last weekend with regular past-tense verbs in -ede and -te, plus the two irregular verbs var and havde.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [da.past, da.word-order]
+    objectives:
+      - Form the past tense of regular verbs with -ede and -te
+      - Ask and answer "Hvad lavede du i weekenden?"
+      - Use past time expressions such as i går, i lørdags and sidste weekend
+    intro: |
+      On Monday morning, Danes ask each other: **Hvad lavede du i weekenden?** (What did you do at the weekend?) To answer, you need the past tense — **datid**. The good news: just like the present tense, it has one form for every person. In this lesson you will learn the two regular patterns, -ede and -te, and the two irregular verbs you need from day one: **var** (was) and **havde** (had).
+    vocab: |
+      i weekenden | at the weekend | expr | Hvad lavede du i weekenden? | What did you do at the weekend? | n: With the past tense it means last weekend; with the present tense or skal it means this weekend: Hvad skal du i weekenden?
+      i lørdags | last Saturday | expr | I lørdags spillede jeg badminton med min bror. | Last Saturday I played badminton with my brother. | n: Add -s to a day for "last …": i mandags, i fredags, i søndags.
+      i går | yesterday | adv | I går arbejdede jeg hjemme hele dagen. | Yesterday I worked from home all day. | c: i går aftes (last night); i forgårs (the day before yesterday)
+      sidste weekend | last weekend | expr | Sidste weekend malede vi køkkenet. | Last weekend we painted the kitchen. | n: Also i sidste uge (last week) and sidste år (last year).
+      lave | to do; to make | v | Hvad lavede I i søndags? | What did you do last Sunday? | c: lave mad (cook); lave lektier (do homework) | n: Past: lavede.
+      slappe af | to relax | v | I søndags slappede vi bare af derhjemme. | Last Sunday we just relaxed at home. | n: Past: slappede af. Af comes after ikke: Jeg slappede ikke af.
+      handle ind | to do the (food) shopping | v | Vi handlede ind på vej hjem fra arbejde. | We did the shopping on the way home from work. | n: Past: handlede ind.
+      rydde op | to tidy up | v | I fredags ryddede jeg op på mit værelse. | Last Friday I tidied up my room. | c: rydde op i kælderen (tidy up the basement) | n: Past: ryddede op.
+      besøge | to visit | v | Vi besøgte min farmor i Kolding. | We visited my grandmother in Kolding. | n: Past: besøgte (-te group). Farmor is your father's mother.
+      invitere | to invite | v | Vi inviterede nogle venner til middag. | We invited some friends for dinner. | n: Past: inviterede. All verbs ending in -ere take -ede.
+      snakke | to chat; to talk | v | Vi snakkede længe om gamle dage. | We chatted for a long time about the old days. | n: Past: snakkede. Snakke is everyday; tale is a little more neutral.
+      var | was; were | v | Jeg var i Roskilde i weekenden. | I was in Roskilde at the weekend. | n: The past of være — one form for every person: jeg var, vi var, de var.
+      havde | had | v | Vi havde en dejlig weekend. | We had a lovely weekend. | n: The past of have. The v is silent: it sounds like "ha-the".
+      en fest | a party | n | Vi var til fest hos Malene i fredags. | We were at a party at Malene's last Friday. | g: c | pl: fester | c: holde fest (have a party); være til fest (be at a party)
+    grammar:
+      title: "Datid: the past tense with -ede and -te"
+      body: |
+        Use the past tense (**datid**) for finished events at a time in the past: *i går, i lørdags, sidste weekend*. Like the present tense, it has **one form for every person**: *jeg lavede, du lavede, vi lavede, de lavede*.
+
+        Regular verbs follow two patterns:
+
+        - **-ede** — the biggest group: *lave → lavede, spille → spillede, arbejde → arbejdede, snakke → snakkede*. All verbs ending in **-ere** belong here: *invitere → inviterede, studere → studerede*. A verb that doesn't end in -e adds the whole ending: *bo → boede*.
+        - **-te**: *spise → spiste, købe → købte, læse → læste, høre → hørte, besøge → besøgte, køre → kørte*.
+
+        No simple rule tells you which group a verb belongs to, so learn the past form together with each new verb — a dictionary always shows it.
+
+        Two very common verbs are irregular, and you need them from day one: *være* → **var** and *have* → **havde**. You will meet more irregular verbs in unit 2.
+
+        **Word order** works as in the present. The verb comes second, so after a time expression the subject follows the verb: *I lørdags **spillede** jeg fodbold.* **Ikke** comes after the verb: *Jeg arbejdede ikke i går.*
+      table: |
+        Infinitive | Present | Past (datid)
+        lave | laver | lavede
+        arbejde | arbejder | arbejdede
+        bo | bor | boede
+        spise | spiser | spiste
+        købe | køber | købte
+        være | er | var
+        have | har | havde
+      examples: |
+        I lørdags ryddede vi op i haven. | Last Saturday we tidied up the garden. | time first → verb → subject
+        Hvad lavede du i går aftes? | What did you do last night? | question word + verb + subject
+        Jeg læste en bog og slappede af. | I read a book and relaxed. | -te and -ede in one sentence
+        Vi var i Odense, og vi havde det sjovt. | We were in Odense, and we had fun. | the irregular verbs var and havde
+      tip: "Learn new verbs in pairs and say them aloud: lave – lavede, spise – spiste, være – var. After a few days the past forms come automatically."
+    dialogue:
+      title: Weekendsnak på lærerværelset
+      setting: Monday morning in the staff room of a school in Horsens. Two teachers, Camilla and Karim, talk about their weekend before the first lesson.
+      speakers: C=Camilla/f; K=Karim/m
+      lines: |
+        C: Godmorgen, Karim! Havde du en god weekend? | Good morning, Karim! Did you have a good weekend?
+        K: Ja, tak! Jeg var i Aarhus og besøgte min søster. | Yes, thanks! I was in Aarhus and visited my sister.
+        C: Hvor hyggeligt! Hvad lavede I? | How nice! What did you do?
+        K: I lørdags cyklede vi en lang tur langs vandet. | On Saturday we went for a long bike ride along the water.
+        K: Om aftenen lavede hun mad, og vi snakkede til midnat. | In the evening she cooked, and we chatted until midnight.
+        C: Det lyder dejligt. Min weekend var meget stille. | That sounds lovely. My weekend was very quiet.
+        K: Nå? Slappede du bare af derhjemme? | Oh? Did you just relax at home?
+        C: Nej, jeg ryddede op i kælderen hele lørdagen. | No, I tidied up the basement all Saturday.
+        K: Puha! Hvad så med søndagen? | Phew! What about Sunday, then?
+        C: I søndags inviterede vi naboerne til kaffe og kage. | On Sunday we invited the neighbours over for coffee and cake.
+        K: Det var da en god idé. | Well, that was a good idea.
+        C: Ja, men nu trænger jeg til en ny weekend! | Yes, but now I need another weekend!
+    pronunciation:
+      title: "-ede and -te: hearing the past"
+      body: |
+        The past-tense endings are short and quick, so train your ear. In **-ede**, the d is a soft d and the last e almost disappears: *lavede* sounds roughly like "LA-ve-the", and *snakkede* like "SNAK-ke-the".
+
+        In **-te**, the t comes straight after another consonant, and then it is soft — almost a d: *spiste* sounds like "SPIS-de" and *købte* like "KØB-de". In **havde** the v is silent: "ha-the". Listen to each word, repeat it, and then say the whole question at normal speed.
+      items: |
+        lavede
+        snakkede
+        spiste
+        købte
+        havde
+        Hvad lavede du i weekenden?
+    culture:
+      title: Monday small talk
+      body: |
+        On Monday morning, colleagues and classmates often ask **Havde du en god weekend?** or **Hvad lavede du i weekenden?** A short, friendly answer is all that's expected — two or three sentences and a question back. You don't need to share anything private.
+
+        Many Danes spend the weekend close to home: a long breakfast with fresh rolls, a walk in the woods or along the beach, and coffee and cake with family in the afternoon. Friday evening is often **fredagshygge** — a relaxed evening on the sofa, maybe with a film and sweets, especially in families with children.
+    mistakes: |
+      Jeg laver mad i går. => Jeg lavede mad i går. | I går (yesterday) needs the past tense: lavede, not the present tense laver.
+      I lørdags jeg spillede fodbold. => I lørdags spillede jeg fodbold. | Verb second: when a time expression starts the sentence, the verb comes next and the subject after it.
+      Jeg besøgede min mormor. => Jeg besøgte min mormor. | Besøge belongs to the -te group: besøgte. Learn each verb with its past form.
+    task:
+      title: Monday small talk
+      mode: speaking
+      body: |
+        Prepare three or four sentences about your last weekend: where you were, what you did on Saturday and on Sunday, and one thing you enjoyed. Then try the "Talking about your day" scenario with the AI coach and tell it about your weekend.
+    exercises: |
+      fill: I lørdags ___ jeg i haven hele dagen. (arbejde) || arbejdede || Arbejde belongs to the -ede group: arbejde → arbejdede. || @tags da.past
+      fill: Vi ___ pizza hos Simon i fredags. (spise) || spiste || Spise belongs to the -te group: spise → spiste. || @tags da.past
+      fill: ___ du en god weekend? (have) || Havde || Have is irregular in the past: havde. In a yes/no question the verb comes first. || @tags da.past,da.questions
+      mc: "Vi ___ min moster i Ribe i søndags." (besøge) || besøgede | *besøgte | besøger || Besøge takes -te: besøgte. Besøger is the present tense, which doesn't fit i søndags (last Sunday). || @tags da.past
+      mc: Choose the correct word order. || I går jeg ryddede op. | *I går ryddede jeg op. | I går ryddede op jeg. || Verb second: after I går comes the verb (ryddede), then the subject (jeg), then op. || @tags da.word-order,da.past
+      mc: What is the past tense of "invitere"? || inviterer | *inviterede | inviterte || All verbs ending in -ere take -ede: inviterede. Inviterer is the present tense. || @tags da.past
+      tf: Karim visited his brother in Aarhus. || false || He visited his sister: "Jeg var i Aarhus og besøgte min søster." || @ctx dialogue
+      short: What did Camilla do on Saturday? || kw: kælder/kælderen/basement/cellar || She tidied up the basement all day: "jeg ryddede op i kælderen hele lørdagen". || @ctx dialogue
+      listen: @dialogue || Who did Camilla invite on Sunday? || Her sister | *Her neighbours | Her colleagues || "I søndags inviterede vi naboerne til kaffe og kage." || @tags da.listening
+      listen: I går aftes var jeg hjemme. Jeg lavede mad og læste en god bog. || What did the speaker do last night? || *Cooked and read a book | Went to a party | Worked late || "Jeg lavede mad og læste en god bog" — I cooked and read a good book. || @tags da.past
+      rw: Put it in the past tense :: Vi handler ind og laver mad. || Vi handlede ind og lavede mad. || Handle → handlede and lave → lavede: both are in the -ede group. || @tags da.past
+      tr: Last Saturday I tidied up and relaxed. || I lørdags ryddede jeg op og slappede af. | Jeg ryddede op og slappede af i lørdags. | I lørdags ryddede jeg op, og så slappede jeg af. || I lørdags = last Saturday. If it starts the sentence, the verb comes before jeg. || @tags da.past,da.word-order
+      ask: Tell a colleague what you did last weekend — mention at least two activities. || kw: i weekenden/i lørdags/i søndags/sidste weekend & lavede/var/havde/besøgte/slappede/ryddede/spiste/købte/spillede/snakkede || I weekenden var jeg i Roskilde. I lørdags besøgte jeg en ven, og i søndags slappede jeg af derhjemme.
+      write: Write a short message to a friend about your weekend (3–4 sentences). || min=25 || req: i lørdags/i søndags/i weekenden | var/havde | lavede/besøgte/spiste/slappede/ryddede/handlede/snakkede/købte || Hej Sara! Jeg havde en rigtig god weekend. I lørdags besøgte jeg min bror i Vejle, og vi spiste frokost ved fjorden. I søndags slappede jeg bare af og læste. Hvad lavede du? Knus, Lea
+      dict: I fredags spillede vi kort hos min onkel.
+
+  - title: My life so far
+    summary: Tell the main events of your life — where you were born, grew up, studied and moved — with years, for … siden and linking words.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [da.past, da.prepositions-time, da.numbers]
+    objectives:
+      - Say when and where you were born, and say years in Danish
+      - Tell the main events of your life with the past tense and for … siden
+      - Link events with først, så, bagefter and senere
+    intro: |
+      When you meet new people in Denmark — at work, in a language class or at a party — they often ask where you grew up and what brought you here. In this lesson you will tell your own story in the past tense: where you were born, where you lived and studied, and when you moved. You will also learn how Danes say years, which is a small puzzle of its own.
+    vocab: |
+      være født | to be born | expr | Jeg er født i 1992 i Porto. | I was born in 1992 in Porto. | n: Danes usually say jeg er født (literally "I am born"). Jeg blev født is also correct.
+      vokse op | to grow up | v | Jeg voksede op på en gård i Vestjylland. | I grew up on a farm in West Jutland. | n: Past: voksede op. Hvor voksede du op? = Where did you grow up?
+      flytte | to move (house) | v | I 2019 flyttede jeg til Danmark. | In 2019 I moved to Denmark. | c: flytte til (move to); flytte hjemmefra (leave home) | n: Past: flyttede.
+      studere | to study (at university) | v | Hun studerede økonomi i Aarhus. | She studied economics in Aarhus. | n: Past: studerede. Danes also say læse: hun læste økonomi.
+      begynde | to begin; to start | v | Jeg begyndte på et danskkursus i 2022. | I started a Danish course in 2022. | c: begynde på et kursus; begynde i skole | n: Past: begyndte.
+      lære | to learn | v | I Ghana lærte jeg engelsk i skolen. | In Ghana I learned English at school. | n: Past: lærte. Lære at + infinitive: Jeg lærte at svømme.
+      møde | to meet | v | Jeg mødte min kæreste på en rejse i Spanien. | I met my partner on a trip in Spain. | n: Past: mødte.
+      en uddannelse | an education; a degree or training | n | Min mor har en uddannelse som sygeplejerske. | My mother is a trained nurse. | g: c | pl: uddannelser | n: Covers both university degrees and vocational training.
+      for … siden | … ago | expr | Jeg flyttede til Herning for fem år siden. | I moved to Herning five years ago. | n: The time goes in the middle: for to år siden, for længe siden.
+      først | first; at first | adv | Først boede vi i Odense, og så flyttede vi til Nyborg. | First we lived in Odense, and then we moved to Nyborg. | n: At the start of a sentence it is followed by the verb: Først boede vi…
+      bagefter | afterwards | adv | Bagefter arbejdede jeg et år på et hotel. | Afterwards I worked for a year at a hotel.
+      senere | later | adv | Senere studerede hun jura i København. | Later she studied law in Copenhagen.
+      et job | a job | n | Mit første job var i en børnehave. | My first job was in a kindergarten. | g: n | pl: job | n: The plural can be job or jobs; both are correct.
+      arbejde som | to work as | expr | Han arbejdede som kok i ti år. | He worked as a chef for ten years. | n: No article after som: arbejde som lærer, som kok.
+    grammar:
+      title: "Telling your story: years, for … siden and linking words"
+      body: |
+        **Years.** Up to 1999, Danes read years as hundreds: 1987 = *nitten hundrede og syvogfirs* (nineteen hundred and eighty-seven). From 2000 they usually say *to tusind og…*: 2010 = *to tusind og ti*, 2023 = *to tusind og treogtyve*. In casual speech you will also hear *tyve treogtyve*. Put **i** before a year: *i 1998, i 2015*.
+
+        **For … siden** means *ago*. The time goes in the middle: *for tre år siden* (three years ago), *for lang tid siden* (a long time ago).
+
+        **Linking events.** Use *først* (first), *så* (then), *bagefter* (afterwards) and *senere* (later). When one of them starts the sentence, the verb comes next (V2): *Så flyttede vi til Aalborg. Senere begyndte jeg at arbejde.* The words *og* and *men* don't count as a position, so the rule still works after them: *…, og så flyttede vi til Aalborg.*
+
+        **Birth** is the one event that doesn't use the past tense in everyday Danish: *Jeg er født i 1990* (also *jeg blev født*). Everything after that is past: *Jeg voksede op i Kolding, og i 2012 flyttede jeg til København.* **Ikke** still comes straight after the verb: *Vi boede ikke i byen.*
+      table: |
+        Year | In Danish
+        1975 | nitten hundrede og femoghalvfjerds
+        1999 | nitten hundrede og nioghalvfems
+        2008 | to tusind og otte
+        2017 | to tusind og sytten
+        2024 | to tusind og fireogtyve
+      examples: |
+        Jeg er født i 1996 i Lissabon. | I was born in 1996 in Lisbon. | er født: the usual way to talk about birth
+        For syv år siden flyttede vi til Silkeborg. | Seven years ago we moved to Silkeborg. | V2 after a time expression
+        Først studerede jeg biologi, men senere skiftede jeg til medicin. | First I studied biology, but later I switched to medicine.
+        Vi boede i Spanien i 2012, men vi boede ikke i Madrid. | We lived in Spain in 2012, but we didn't live in Madrid. | ikke after the verb
+      tip: "Tell your story in three steps — først, så, senere — and add one year or one for … siden to each step. A short story told this way is easy to follow."
+    dialogue:
+      title: Velkommen til Herning
+      setting: A welcome lunch at an engineering company in Herning. Henrik asks his new colleague Ngozi about her life before she came to Denmark.
+      speakers: H=Henrik/m; N=Ngozi/f
+      lines: |
+        H: Velkommen til Herning, Ngozi! Hvor kommer du egentlig fra? | Welcome to Herning, Ngozi! Where are you actually from?
+        N: Jeg er født i Lagos, men jeg voksede op i Abuja. | I was born in Lagos, but I grew up in Abuja.
+        H: Spændende! Hvornår flyttede du til Europa? | Exciting! When did you move to Europe?
+        N: For ti år siden. Først studerede jeg i Manchester. | Ten years ago. First I studied in Manchester.
+        H: Og bagefter? Arbejdede du i England? | And afterwards? Did you work in England?
+        N: Ja, jeg arbejdede som ingeniør i London i fire år. | Yes, I worked as an engineer in London for four years.
+        H: Og hvordan endte du så i Danmark? | And how did you end up in Denmark?
+        N: Jeg mødte min mand på en konference i København. | I met my husband at a conference in Copenhagen.
+        H: Nå, sådan! Hvornår flyttede I hertil? | Oh, I see! When did you move here?
+        N: I 2021. Men først boede vi et år i Aarhus. | In 2021. But first we lived in Aarhus for a year.
+        H: Og hvordan lærte du så godt dansk? | And how did you learn such good Danish?
+        N: Tak! Jeg begyndte på et danskkursus med det samme. | Thanks! I started a Danish course straight away.
+    pronunciation:
+      title: Saying years
+      body: |
+        Danish years look long, but they follow a clear pattern. Up to 1999, say the hundreds: *nitten hundrede og firs* (1980). In **hundrede** the d's are soft and the last e is weak, so it sounds roughly like "HUN-ro-the".
+
+        From 2000 on, say *to tusind og…*: *to tusind og ti* (2010). In **tusind** the d is silent: "TOO-sin". And remember that Danish puts the unit before the ten: *treogtyve* is "three-and-twenty" (23). Listen, then say each year first slowly and then at normal speed.
+      items: |
+        nitten hundrede og firs
+        nitten hundrede og femoghalvfems
+        to tusind og ti
+        to tusind og treogtyve
+        for ti år siden
+        Jeg er født i nitten hundrede og nioghalvfems.
+    culture:
+      title: Moving out and gap years
+      body: |
+        Many young Danes move away from home — **flytte hjemmefra** — at around 19 or 20, often to study in another city. Students over 18 can get a monthly state grant called **SU**, and university education is free for Danish and EU students.
+
+        Taking one or two gap years (**et sabbatår**) after upper secondary school (*gymnasiet*) is very common. Young people work, travel or spend a few months at a **højskole** — a folk high school where you live, study and take courses in anything from music to outdoor life — before they start their studies.
+    mistakes: |
+      Jeg født i 1995. => Jeg er født i 1995. | Født needs er (or blev): jeg er født / jeg blev født.
+      Jeg flyttede til Odense fem år siden. => Jeg flyttede til Odense for fem år siden. | "Ago" needs both words around the time: for … siden.
+      I 2018 jeg begyndte at arbejde. => I 2018 begyndte jeg at arbejde. | When a year starts the sentence, the verb comes next and then the subject.
+    task:
+      title: Your life in five sentences
+      mode: writing
+      body: |
+        Write five sentences about your life so far: where you were born, where you grew up, something you studied or learned, when you moved, and what you do now. Use at least two years and one for … siden. Then tell your story aloud in the "Introducing yourself" scenario with the AI coach.
+    exercises: |
+      fill: Jeg ___ op i en lille by på Fyn. (vokse) || voksede || Vokse op belongs to the -ede group: voksede op. || @tags da.past
+      fill: Vi flyttede til Aalborg ___ seks år ___. || for ; siden || "Ago" is for … siden, with the time in the middle: for seks år siden. || @tags da.prepositions-time
+      fill: Hun ___ jura i Aarhus fra 2015 til 2020. (studere) || studerede || All -ere verbs take -ede: studerede. || @tags da.past
+      mc: How do you say the year 1984? || nitten hundrede og otteogfyrre | *nitten hundrede og fireogfirs | nitten hundrede og fireogfyrre || 84 = fireogfirs (four-and-eighty). Otteogfyrre is 48, and fireogfyrre is 44. || @tags da.numbers
+      mc: Which sentence is correct? || *For fire år siden begyndte jeg at lære dansk. | For fire år siden jeg begyndte at lære dansk. | Fire år for siden begyndte jeg at lære dansk. || The time expression is for … siden, and when it comes first, the verb follows straight after: begyndte jeg. || @tags da.word-order,da.prepositions-time
+      mc: Where did Ngozi grow up? || Lagos | *Abuja | Manchester || "Jeg er født i Lagos, men jeg voksede op i Abuja." || @ctx dialogue @skill reading @tags da.reading
+      tf: Ngozi worked in London for four years. || true || "Jeg arbejdede som ingeniør i London i fire år." || @ctx dialogue
+      short: Where did Ngozi meet her husband? || kw: konference/conference || At a conference in Copenhagen: "på en konference i København". || @ctx dialogue
+      listen: Jeg er født i nitten hundrede og otteoghalvfems i Viborg. For tre år siden flyttede jeg til København. || When was the speaker born? || 1988 | *1998 | 1989 || Otteoghalvfems = 98, so the year is 1998. 1988 would be nitten hundrede og otteogfirs. || @tags da.numbers,da.listening
+      order: Senere arbejdede hun som lærer i Ribe. || Later she worked as a teacher in Ribe. || @alt Hun arbejdede senere som lærer i Ribe. @tags da.word-order
+      rw: Start the sentence with "I 2015" :: Jeg begyndte på universitetet i 2015. || I 2015 begyndte jeg på universitetet. || When the year comes first, the verb comes next and the subject after it (V2). || @tags da.word-order,da.past
+      tr: I grew up in Ireland, but I moved to Denmark three years ago. || Jeg voksede op i Irland, men jeg flyttede til Danmark for tre år siden. | Jeg voksede op i Irland, men flyttede til Danmark for tre år siden. | Jeg voksede op i Irland, men for tre år siden flyttede jeg til Danmark. || Vokse op → voksede op, flytte → flyttede; "ago" = for … siden. || @tags da.past,da.prepositions-time
+      ask: Tell a new colleague where you were born, where you grew up and when you moved to the town where you live now. || kw: født & voksede op/boede & flyttede || Jeg er født i Hamborg, og jeg voksede op i Kiel. For fire år siden flyttede jeg til Sønderborg.
+      write: Write a short "about me" text for your Danish class — where you were born, where you grew up, what you studied or worked as, and when you moved. || min=40 || req: født | voksede op/boede | flyttede | siden/først/senere/bagefter || Jeg hedder Tomás, og jeg er født i 1994 i Santiago i Chile. Jeg voksede op i en stor familie med fire brødre. Først studerede jeg musik, og bagefter arbejdede jeg som lærer i fem år. For to år siden flyttede jeg til Odense med min kone. Nu lærer jeg dansk og arbejder på en café.
+      dict: For to år siden begyndte jeg på et danskkursus i Vejle.
+
+  - title: Childhood memories
+    summary: Share childhood memories — where you lived, how you played and what you used to do — with the past tense, plejede at and som barn.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [da.past, da.frequency, da.sentence-adverbs]
+    objectives:
+      - Describe your childhood home, family and friends in the past tense
+      - Say what you used to do with plejede at and frequency words
+      - Set the scene with som barn and da jeg var lille
+    intro: |
+      Childhood memories are a natural topic with new friends, colleagues and a partner's family. To talk about them you need the past tense for habits — things you did again and again — and the Danish way to say "used to": **plejede at**. You will also learn two handy phrases that set the scene: **som barn** (as a child) and **da jeg var lille** (when I was little).
+    vocab: |
+      som barn | as a child | expr | Som barn boede jeg i et rækkehus i Køge. | As a child I lived in a terraced house in Køge. | n: When som barn starts the sentence, the verb comes next: Som barn boede jeg…
+      da jeg var lille | when I was little | expr | Da jeg var lille, legede jeg tit i skoven. | When I was little, I often played in the woods. | n: Da is only used about the past. After the phrase comes a comma and then the verb: …, legede jeg.
+      plejede at | used to | expr | Vi plejede at tage til stranden hver søndag. | We used to go to the beach every Sunday. | n: The past of pleje (to be in the habit of). The present, plejer at, means "usually".
+      lege | to play (as children do) | v | Børnene legede i gården til klokken seks. | The children played in the courtyard until six. | n: Past: legede. Lege is free play; spille is for sports, games with rules and instruments.
+      en legekammerat | a playmate | n | Min bedste legekammerat boede i huset ved siden af. | My best playmate lived in the house next door. | g: c | pl: legekammerater
+      et rækkehus | a terraced house | n | Vi boede i et gult rækkehus med en lille have. | We lived in a yellow terraced house with a small garden. | g: n | pl: rækkehuse
+      en skov | a forest; woods | n | Om sommeren byggede vi huler i skoven. | In summer we built dens in the woods. | g: c | pl: skove | c: gå en tur i skoven (go for a walk in the woods); bygge en hule (build a den)
+      hver sommer | every summer | expr | Hver sommer besøgte vi mine bedsteforældre på Ærø. | Every summer we visited my grandparents on Ærø. | n: Also hver dag, hver weekend, hver jul.
+      en gang imellem | now and then | expr | En gang imellem bagte min mor boller. | Now and then my mother baked buns. | n: A little less often than tit (often).
+      folkeskolen | the Danish state school | n | Vi cyklede til folkeskolen hver morgen. | We cycled to school every morning. | g: c | pl: folkeskoler | n: The free public school, from 0. to 9. klasse. Usually in the definite form: i folkeskolen.
+      et kæledyr | a pet | n | Havde du et kæledyr som barn? | Did you have a pet as a child? | g: n | pl: kæledyr
+      en barndom | a childhood | n | Jeg havde en lykkelig barndom på landet. | I had a happy childhood in the countryside. | g: c | n: Often with a possessive: min barndom, hans barndom.
+      huske | to remember | v | Jeg husker stadig min første cykel. | I still remember my first bike. | n: Past: huskede. Kan du huske…? = Do you remember…?
+      streng | strict | adj | Min far var meget streng med lektierne. | My father was very strict about homework. | n: With et-words: strengt; plural: strenge.
+    grammar:
+      title: "Habits in the past: plejede at, frequency words and som barn"
+      body: |
+        When you talk about your childhood, you often describe **habits**, not single events. Danish uses the normal past tense for both: *Vi legede i skoven* can mean "we played in the woods" (once) or "we used to play in the woods". A frequency word makes the habit clear: *Vi legede tit i skoven. Hver sommer besøgte vi min farmor.*
+
+        To say **used to**, use **plejede at + infinitive**: *Jeg plejede at cykle i skole* (I used to cycle to school). *Plejede* is the past of *pleje* (to be in the habit of). In the present tense, *plejer at* means "usually": *Jeg plejer at drikke te.*
+
+        **Setting the scene.** *Som barn* (as a child) and *da jeg var lille* (when I was little) often start the sentence, and then the verb comes next: *Som barn **havde** jeg en hund.* After *da jeg var lille*, put a comma, then the verb, then the subject: *Da jeg var lille, **boede** vi i Køge.* It's the V2 rule again — the whole da-phrase counts as the first element.
+
+        **Frequency words** (altid, tit, aldrig, ofte) go straight after the verb in a main clause, just like *ikke*: *Vi spiste altid klokken seks. Jeg legede aldrig med dukker.*
+      table: |
+        Expression | Example | Meaning
+        plejede at + infinitive | Jeg plejede at bade i havet. | I used to swim in the sea.
+        hver + time word | Hver vinter kælkede vi. | Every winter we went sledging.
+        verb + altid / tit / aldrig | Vi cyklede altid i skole. | We always cycled to school.
+        som barn | Som barn elskede jeg is. | As a child I loved ice cream.
+        da jeg var lille | Da jeg var lille, boede vi på landet. | When I was little, we lived in the countryside.
+      examples: |
+        Som barn plejede jeg at samle på frimærker. | As a child I used to collect stamps. | samle på = collect
+        Hver fredag købte vi slik for ti kroner. | Every Friday we bought ten kroner's worth of sweets. | hver + time word for a habit
+        Da jeg var lille, boede vi tæt på havnen i Frederikshavn. | When I was little, we lived close to the harbour in Frederikshavn. | the verb comes right after the comma
+        Min bror legede aldrig udenfor om vinteren. | My brother never played outside in winter. | aldrig after the verb
+      tip: "Pleje is one of the most useful Danish verbs: plejer at for what you usually do today, plejede at for what you used to do in the past."
+    dialogue:
+      title: Det gamle fotoalbum
+      setting: A Sunday afternoon at Ulla's house in Næstved. Her granddaughter Liv, who is fifteen, finds an old photo album on a shelf.
+      speakers: L=Liv/f; U=Ulla/f
+      lines: |
+        L: Mormor, er det dig på det her billede? | Grandma, is that you in this picture?
+        U: Ja, det er mig. Jeg var vist otte år. | Yes, that's me. I think I was eight.
+        L: Hvor boede I, da du var lille? | Where did you live when you were little?
+        U: Vi boede på en gård uden for Næstved. | We lived on a farm outside Næstved.
+        L: Havde I også dyr på gården? | Did you have animals on the farm too?
+        U: Ja, køer, grise og en stor, sort hund. | Yes, cows, pigs and a big black dog.
+        L: Hvad plejede du at lave efter skole? | What did you use to do after school?
+        U: Jeg passede tit min lillebror og fodrede hønsene. | I often looked after my little brother and fed the hens.
+        U: Og om sommeren legede vi i skoven til sent om aftenen. | And in summer we played in the woods until late in the evening.
+        L: Havde du ikke en mobiltelefon? | Didn't you have a mobile phone?
+        U: Ha! Nej, vi havde ikke engang et fjernsyn. | Ha! No, we didn't even have a TV.
+        L: Det lyder både hårdt og hyggeligt. | That sounds both hard and cosy.
+    pronunciation:
+      title: "The soft g: lege, pige, bage"
+      body: |
+        After a vowel, the Danish **g** is often not a hard g at all. In **lege** it turns into a j-like sound, so the word sounds like "LAI-e", and **legede** like "LAI-e-the". In **pige** (girl) the g almost disappears: "PEE-e". In **bage** (bake) you hear a soft "y" sound: "BAE-ye".
+
+        **Plejede** has the same j sound written as *j*: "PLAI-e-the". Listen and repeat the words, then the whole sentence. Keep the vowel long and relaxed, and don't push out a hard g.
+      items: |
+        lege
+        legede
+        pige
+        bage
+        plejede
+        Vi legede i skoven.
+    culture:
+      title: Growing up in Denmark
+      body: |
+        Danish children start school at about six, in **børnehaveklassen** (also called *0. klasse*, "zero class"). After school, most young children go to an after-school club, **SFO**, where they play until their parents pick them up.
+
+        Many Danes have happy memories of playing outside in all weathers. A well-known saying goes: *Der findes ikke dårligt vejr, kun dårligt tøj* — there's no such thing as bad weather, only bad clothes. Long summer holidays at the family's **sommerhus** by the sea, or with grandparents in the countryside, are classic childhood memories.
+    mistakes: |
+      Jeg plejede spille fodbold. => Jeg plejede at spille fodbold. | Plejede is followed by at + infinitive.
+      Da jeg var lille, jeg boede i Køge. => Da jeg var lille, boede jeg i Køge. | The da-phrase counts as the first element, so the verb comes straight after the comma.
+      Vi altid legede udenfor. => Vi legede altid udenfor. | In a main clause, altid (like ikke) goes after the verb.
+    task:
+      title: A childhood photo
+      mode: speaking
+      body: |
+        Choose a photo from your childhood — real or imagined. Describe it in five or six sentences: where you lived, who is in the picture, and one or two things you used to do. Use som barn or da jeg var lille, plejede at and at least one frequency word. Record yourself in Speaking practice and listen back.
+    exercises: |
+      fill: Som barn ___ jeg at cykle i skole hver dag. (used to) || plejede || Used to = plejede at + infinitive. || @tags da.past,da.frequency
+      fill: Vi ___ tit i skoven efter skole. (lege) || legede || Lege belongs to the -ede group: legede. || @tags da.past
+      mc: Choose the correct sentence. || *Da jeg var lille, boede vi på Fyn. | Da jeg var lille, vi boede på Fyn. | Da jeg lille var, boede vi på Fyn. || Inside the da-phrase the order is normal (jeg var lille). The whole phrase is the first element, so the main verb comes right after the comma: boede vi. || @tags da.word-order
+      mc: "Jeg plejer at drikke te om morgenen" means… || I used to drink tea in the morning. | *I usually drink tea in the morning. | I'm going to drink tea in the morning. || Plejer (present) means "usually"; plejede (past) means "used to". || @tags da.frequency
+      mc: Where does "altid" go? || Vi altid spiste klokken seks. | *Vi spiste altid klokken seks. | Altid vi spiste klokken seks. || In a main clause, altid goes straight after the verb, just like ikke. || @tags da.sentence-adverbs,da.word-order
+      tf: Ulla grew up in a flat in Næstved. || false || She grew up on a farm outside Næstved: "på en gård uden for Næstved". || @ctx dialogue
+      short: What did Ulla often do after school? || kw: lillebror/brother/høns/hønsene/hens || She looked after her little brother and fed the hens. || @ctx dialogue
+      listen: @dialogue || What didn't Ulla's family have? || A dog | *A TV | Any animals || "Vi havde ikke engang et fjernsyn" — they didn't even have a TV. They did have cows, pigs and a dog. || @tags da.listening
+      listen: Hver sommer plejede vi at besøge min morfar i Skagen. Vi fiskede og badede hver eneste dag. || What did they do every day? || *They fished and swam | They cycled and played football | They baked and read || "Vi fiskede og badede" — fiske = to fish, bade = to swim (in the sea). || @tags da.past,da.frequency
+      rw: Make it "used to" :: Jeg spillede klaver. || Jeg plejede at spille klaver. || Plejede at + infinitive: spillede → plejede at spille. || @tags da.past,da.frequency
+      order: Hver vinter kælkede vi på bakken bag skolen. || Every winter we went sledging on the hill behind the school. || @alt Vi kælkede på bakken bag skolen hver vinter. @tags da.word-order,da.frequency
+      tr: As a child I had a cat. || Som barn havde jeg en kat. | Jeg havde en kat som barn. || If som barn comes first, the verb (havde) comes before jeg. || @tags da.past,da.word-order
+      ask: Tell a friend where you lived as a child and one thing you used to do. || kw: som barn/da jeg var lille & plejede at/legede/boede || Som barn boede jeg i en lille by ved havet. Om sommeren plejede jeg at bade hver dag.
+      write: Write a short text (4–5 sentences) about your childhood — where you lived, your family or friends, and what you used to do. || min=35 || req: som barn/da jeg var lille | plejede at | boede/havde || Da jeg var lille, boede vi i et rækkehus i Aarhus. Jeg havde to søstre og en hund. Efter skole legede vi tit i gården. Om søndagen plejede vi at besøge min farfar, og han bagte altid pandekager. Jeg husker det stadig!
+      dict: Om vinteren byggede vi snemænd i haven.

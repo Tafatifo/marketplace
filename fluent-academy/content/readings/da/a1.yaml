@@ -1,0 +1,481 @@
+- slug: hej-fra-amira
+  kind: reading
+  title: Hej fra Amira
+  topic: Greetings and introductions
+  summary: Amira, a student in Aarhus, introduces herself on a language-exchange website and looks for a Danish language partner.
+  free: true
+  text: |
+    Hej! Jeg hedder Amira Haddad, og jeg er tyve år. Jeg kommer fra Jordan, men nu bor jeg i Aarhus. Jeg er studerende på universitetet. Jeg taler arabisk, engelsk og lidt dansk.
+
+    Jeg vil gerne øve mit dansk, så jeg søger en dansk sprogven. Jeg kan godt lide at læse, lave mad og gå ture ved vandet. Om tirsdagen går jeg til sprogcafé på biblioteket. Det er rigtig hyggeligt.
+
+    Mit telefonnummer er tyve, fjorten, atten, elleve. Du kan også skrive til mig her på siden.
+
+    Hvad med dig? Hvor kommer du fra, og hvilke sprog taler du? Skriv gerne!
+
+    Mange hilsner
+    Amira
+  translation: |
+    Hi! My name is Amira Haddad, and I'm twenty. I come from Jordan, but now I live in Aarhus. I'm a student at the university. I speak Arabic, English and a little Danish.
+
+    I'd like to practise my Danish, so I'm looking for a Danish language partner. I like reading, cooking and going for walks by the water. On Tuesdays I go to a language café at the library. It's really nice.
+
+    My phone number is 20 14 18 11. You can also write to me here on the site.
+
+    What about you? Where do you come from, and which languages do you speak? Feel free to write!
+
+    Best wishes,
+    Amira
+  glossary: |
+    jeg hedder | my name is | from hedde (to be called)
+    studerende | student | a university student
+    lidt | a little
+    øve | to practise
+    en sprogven | a language-exchange partner | literally "language friend"
+    ved vandet | by the water
+    en sprogcafé | a language café | often held at libraries
+    skriv gerne! | feel free to write! | gerne makes the request friendly
+  questions: |
+    mc: Where does Amira live now? || Jordan | *Aarhus | Odense || "Jeg kommer fra Jordan, men nu bor jeg i Aarhus."
+    tf: Amira speaks Danish very well. || false || She speaks "lidt dansk" — a little Danish.
+    short: How old is Amira? || kw: 20/tyve/twenty || "Jeg er tyve år."
+    fill: Om ___ går Amira til sprogcafé. || tirsdagen || "Om tirsdagen går jeg til sprogcafé på biblioteket."
+    mc: What is Amira looking for? || *A Danish language partner | A job at the library | A flat in Aarhus || "Jeg søger en dansk sprogven."
+
+- slug: familien-holm
+  kind: reading
+  title: Familien Holm
+  topic: Family and people
+  summary: A short description of the Holm family from Vejle — who they are, what they look like and what they do.
+  free: false
+  text: |
+    Familien Holm bor i et gult hus i Vejle. Der er fem personer i familien.
+
+    Peter er far. Han er fyrre år, og han er lærer på en skole. Han er høj og har kort, mørkt hår og briller. Sara er mor. Hun er otteogtredive år og sygeplejerske på hospitalet. Hun har langt, lyst hår og blå øjne, og hun er meget sjov.
+
+    Peter og Sara har tre børn. Emma er fjorten, og hun spiller håndbold. Oliver er ti. Han er lille og sød, og han elsker fodbold. Ida er kun et år gammel.
+
+    Familien har også en hund. Den hedder Bølle. Den er gammel, men glad.
+
+    Om søndagen spiser familien frokost hos mormor og morfar i Fredericia. Det er altid hyggeligt.
+  translation: |
+    The Holm family lives in a yellow house in Vejle. There are five people in the family.
+
+    Peter is the father. He is forty, and he is a teacher at a school. He is tall and has short, dark hair and glasses. Sara is the mother. She is thirty-eight and a nurse at the hospital. She has long, fair hair and blue eyes, and she is very funny.
+
+    Peter and Sara have three children. Emma is fourteen, and she plays handball. Oliver is ten. He is small and sweet, and he loves football. Ida is only one year old.
+
+    The family also has a dog. It's called Bølle. It's old, but happy.
+
+    On Sundays the family has lunch at the grandparents' house in Fredericia. It's always lovely.
+  glossary: |
+    en person | a person
+    lyst hår | fair hair | hår is an et-word, so lys → lyst
+    et barn, børn | a child, children
+    den hedder | it's called | den is used for an animal (en hund)
+    gammel, men glad | old, but happy
+    hos | at (someone's home) | hos mormor = at grandma's
+    mormor og morfar | grandmother and grandfather | the mother's parents
+    hyggeligt | cosy; lovely
+  questions: |
+    mc: What is Sara's job? || Teacher | *Nurse | Doctor || "Hun er … sygeplejerske på hospitalet."
+    tf: Peter has long hair. || false || Peter has "kort, mørkt hår" — short, dark hair.
+    short: How many children do Peter and Sara have? || kw: 3/tre/three || "Peter og Sara har tre børn."
+    fill: Emma er ___ år. || fjorten / 14 || "Emma er fjorten."
+    mc: Where do the grandparents live? || Vejle | *Fredericia | Odense || "Hos mormor og morfar i Fredericia."
+    tf: The dog is young. || false || "Den er gammel, men glad."
+
+- slug: bos-hverdag
+  kind: reading
+  title: Bos hverdag
+  topic: Time and daily routine
+  summary: Bo, a bus driver in Aalborg, describes his day from five in the morning until bedtime.
+  free: false
+  text: |
+    Bo er buschauffør i Aalborg. Han står op klokken fem — meget tidligt! Først drikker han en kop kaffe, og så spiser han havregryn. Klokken kvart i seks cykler han på arbejde.
+
+    Bo kører bus fra klokken seks til klokken to. Han kan godt lide arbejdet, for han møder mange mennesker hver dag. Klokken ti spiser han frokost: rugbrød med leverpostej.
+
+    Om eftermiddagen henter han Nora i skole. Nora er hans datter, og hun er otte år. De går tit en tur i parken. Om aftenen laver Bo aftensmad, og klokken halv otte læser han en historie for Nora.
+
+    Bo går altid i seng klokken ti. Om lørdagen sover han længe — til klokken otte!
+  translation: |
+    Bo is a bus driver in Aalborg. He gets up at five o'clock — very early! First he drinks a cup of coffee, and then he eats porridge. At a quarter to six he cycles to work.
+
+    Bo drives a bus from six o'clock to two o'clock. He likes the job, because he meets lots of people every day. At ten he has lunch: rye bread with liver pâté.
+
+    In the afternoon he picks Nora up from school. Nora is his daughter, and she is eight. They often go for a walk in the park. In the evening Bo cooks dinner, and at half past seven he reads Nora a story.
+
+    Bo always goes to bed at ten. On Saturdays he sleeps in — until eight o'clock!
+  glossary: |
+    en buschauffør | a bus driver
+    tidligt | early
+    havregryn | oats; porridge
+    køre bus | to drive a bus
+    møde | to meet
+    leverpostej | liver pâté | a classic topping on rye bread
+    hente | to pick up; to fetch
+    en historie | a story
+    sove længe | to sleep in
+  questions: |
+    mc: When does Bo get up? || *At 5:00 | At 5:45 | At 6:00 || "Han står op klokken fem." He cycles to work at kvart i seks (5:45).
+    mc: What does Bo have for lunch? || *Rye bread with liver pâté | Porridge | A cheese roll || "Klokken ti spiser han frokost: rugbrød med leverpostej."
+    tf: Bo takes the bus to work. || false || He drives a bus, but he cycles to work: "cykler han på arbejde".
+    short: How old is Nora? || kw: 8/otte/eight || "Nora er hans datter, og hun er otte år."
+    fill: Om lørdagen sover Bo længe — ___ klokken otte. || til || Til klokken otte = until eight o'clock.
+    tf: Bo goes to bed at ten. || true || "Bo går altid i seng klokken ti."
+
+- slug: mit-kvarter-i-odense
+  kind: reading
+  title: Mit kvarter i Odense
+  topic: Town and home
+  summary: Ahmad describes his small flat in Odense and the shops and places in his neighbourhood.
+  free: false
+  text: |
+    Jeg hedder Ahmad, og jeg bor i en lille lejlighed i Odense. Lejligheden ligger på tredje sal i en gammel bygning tæt på centrum. Der er to værelser, et køkken og et lille badeværelse. Fra stuen kan jeg se en park.
+
+    Mit kvarter er rigtig godt. På hjørnet er der en bager, og ved siden af bageren er der et supermarked. Biblioteket ligger fem minutter herfra, og over for min bygning er der en hyggelig café.
+
+    Om lørdagen er der marked på torvet. Der køber jeg frugt og grøntsager.
+
+    Der er kun ét problem: Der er ikke nogen elevator — og min cykel er tung!
+  translation: |
+    My name is Ahmad, and I live in a small flat in Odense. The flat is on the third floor of an old building close to the centre. There are two rooms, a kitchen and a small bathroom. From the living room I can see a park.
+
+    My neighbourhood is really good. On the corner there's a bakery, and next to the bakery there's a supermarket. The library is five minutes from here, and opposite my building there's a cosy café.
+
+    On Saturdays there's a market on the square. I buy fruit and vegetables there.
+
+    There's only one problem: there's no lift — and my bike is heavy!
+  glossary: |
+    en bygning | a building
+    centrum | the (town) centre
+    et kvarter | a neighbourhood | also: a quarter of an hour
+    herfra | from here
+    over for | opposite
+    frugt og grøntsager | fruit and vegetables
+    en elevator | a lift; an elevator
+    tung | heavy
+  questions: |
+    mc: Which floor does Ahmad live on? || The ground floor | The second floor | *The third floor || "Lejligheden ligger på tredje sal."
+    tf: The supermarket is next to the bakery. || true || "Ved siden af bageren er der et supermarked."
+    short: What can Ahmad see from his living room? || kw: park/parken || "Fra stuen kan jeg se en park."
+    fill: Biblioteket ligger fem ___ herfra. || minutter || Five minutes from here.
+    mc: What is the problem with the flat? || *There is no lift | The kitchen is too small | It is far from the centre || "Der er ikke nogen elevator — og min cykel er tung!"
+
+- slug: loppemarked-i-ribe
+  kind: reading
+  title: Loppemarked på skolen
+  topic: Shopping
+  summary: A school class in Ribe invites everyone to a flea market — with prices, a café and payment information.
+  free: false
+  text: |
+    LOPPEMARKED I SKOLEGÅRDEN
+
+    Kom til loppemarked på Ribe Skole på lørdag fra klokken ti til tre!
+
+    Der er mange gode ting til små priser:
+    – Børnetøj: 10 kr. per stykke
+    – Bøger: 5 kr., eller tre bøger for 10 kr.
+    – Cykler: fra 150 kr.
+    – Legetøj, lamper, kopper og meget mere
+
+    I caféen kan du købe kaffe, saft og hjemmebagt kage. En kop kaffe og et stykke kage koster 25 kr.
+
+    Alle pengene går til klassens tur til Bornholm i maj.
+
+    Du kan betale kontant eller med telefonen.
+
+    Vi glæder os til at se dig!
+
+    Klasse 6.B
+  translation: |
+    FLEA MARKET IN THE SCHOOLYARD
+
+    Come to the flea market at Ribe School on Saturday from ten to three!
+
+    There are lots of good things at low prices:
+    – Children's clothes: 10 kr. each
+    – Books: 5 kr., or three books for 10 kr.
+    – Bikes: from 150 kr.
+    – Toys, lamps, cups and much more
+
+    In the café you can buy coffee, squash and home-baked cake. A cup of coffee and a piece of cake cost 25 kr.
+
+    All the money goes to the class trip to Bornholm in May.
+
+    You can pay in cash or by phone.
+
+    We look forward to seeing you!
+
+    Class 6B
+  glossary: |
+    et loppemarked | a flea market
+    skolegården | the schoolyard
+    en pris | a price | små priser = low prices
+    per stykke | each
+    legetøj | toys | an uncountable word
+    hjemmebagt | home-baked
+    kontant | (in) cash
+    vi glæder os til | we're looking forward to
+  questions: |
+    mc: When does the flea market close? || *At 3 p.m. | At 10 a.m. | At 5 p.m. || "Fra klokken ti til tre" — from ten to three.
+    fill: Tre bøger koster ___ kroner. || 10 / ti || "Tre bøger for 10 kr."
+    tf: You can only pay in cash. || false || "Du kan betale kontant eller med telefonen."
+    short: What is the money for? || kw: tur/trip/bornholm || The money goes to the class trip to Bornholm.
+    mc: How much are a coffee and a piece of cake? || 15 kr. | *25 kr. | 52 kr. || "En kop kaffe og et stykke kage koster 25 kr."
+
+- slug: postkort-fra-skagen
+  kind: reading
+  title: Et postkort fra Skagen
+  topic: Travel
+  summary: Nora writes a postcard to her grandmother from a weekend in Skagen — the hotel, the weather and their plans.
+  free: false
+  text: |
+    Kære mormor!
+
+    Mange hilsner fra Skagen! Jeg er her med min kæreste, Jamal. Vi bor på et lille hotel ved havnen. Værelset er hyggeligt, og vi kan se bådene fra vinduet.
+
+    Vejret er dejligt. Solen skinner, men det blæser meget. Det er altid sådan i Skagen, siger de. I dag cykler vi til Grenen. Der kan man stå med en fod i Skagerrak og en fod i Kattegat!
+
+    I morgen skal vi på museum, og om aftenen skal vi spise fisk på havnen. På søndag tager vi toget hjem til Aarhus.
+
+    Vi ses snart!
+
+    Kærlig hilsen
+    Nora
+  translation: |
+    Dear Grandma,
+
+    Greetings from Skagen! I'm here with my partner, Jamal. We're staying at a small hotel by the harbour. The room is cosy, and we can see the boats from the window.
+
+    The weather is lovely. The sun is shining, but it's very windy. It's always like that in Skagen, they say. Today we're cycling to Grenen. There you can stand with one foot in the Skagerrak and one foot in the Kattegat!
+
+    Tomorrow we're going to a museum, and in the evening we're going to eat fish at the harbour. On Sunday we're taking the train home to Aarhus.
+
+    See you soon!
+
+    Love,
+    Nora
+  glossary: |
+    kære | dear | used to start a letter
+    en båd, bådene | a boat, the boats
+    et vindue | a window
+    det blæser | it's windy
+    sådan | like that
+    Grenen | the sandy point at the top of Jutland | where two seas meet
+    man | you; one | Der kan man… = there you can…
+    kærlig hilsen | love; with love | a warm way to end a letter
+  questions: |
+    mc: Who is Nora in Skagen with? || Her grandmother | *Her partner, Jamal | Her sister || "Jeg er her med min kæreste, Jamal."
+    tf: It's raining in Skagen. || false || "Solen skinner, men det blæser meget" — sunny but windy.
+    short: How are they getting to Grenen today? || kw: cykel/cykler/cykle/bike/bicycle/cycle/cycling || "I dag cykler vi til Grenen."
+    fill: På søndag tager de ___ hjem til Aarhus. || toget || "På søndag tager vi toget hjem til Aarhus."
+    mc: What are they doing tomorrow evening? || *Eating fish at the harbour | Cycling to Grenen | Visiting a museum || "Om aftenen skal vi spise fisk på havnen." The museum is during the day.
+
+- slug: paa-bageriet
+  kind: listening
+  title: På bageriet
+  topic: Food and drink
+  summary: A Saturday morning at a bakery — Ole buys bread rolls, rye bread and cinnamon swirls.
+  free: true
+  speakers: H=Hanne/f; O=Ole/m
+  text: |
+    H: Godmorgen! Hvem står for tur?
+    O: Det gør jeg. Godmorgen.
+    H: Hvad skal det være?
+    O: Jeg vil gerne have fire rundstykker og et rugbrød.
+    H: Groft eller almindeligt rugbrød?
+    O: Groft, tak. Og gerne skåret.
+    H: Ellers andet?
+    O: Ja. Har I wienerbrød i dag?
+    H: Ja, vi har spandauere og kanelsnegle.
+    O: Så tager jeg to kanelsnegle.
+    H: Det bliver fireoghalvfems kroner.
+    O: Værsgo, her er hundrede.
+    H: Tak, og seks kroner tilbage. God weekend!
+    O: Tak, i lige måde!
+  translation: |
+    Hanne: Good morning! Whose turn is it?
+    Ole: Mine. Good morning.
+    Hanne: What would you like?
+    Ole: I'd like four bread rolls and a rye bread.
+    Hanne: Coarse or ordinary rye bread?
+    Ole: Coarse, please. And sliced, please.
+    Hanne: Anything else?
+    Ole: Yes. Do you have Danish pastries today?
+    Hanne: Yes, we have spandauers and cinnamon swirls.
+    Ole: Then I'll take two cinnamon swirls.
+    Hanne: That's ninety-four kroner.
+    Ole: Here you are, here's a hundred.
+    Hanne: Thank you, and six kroner change. Have a nice weekend!
+    Ole: Thanks, you too!
+  glossary: |
+    hvem står for tur? | whose turn is it? | heard in bakeries and shops
+    det gør jeg | that's me (I do) | answer to "whose turn is it?"
+    et rundstykke | a bread roll | a weekend breakfast favourite
+    groft rugbrød | coarse rye bread
+    skåret | sliced
+    en spandauer | a round Danish pastry | with custard or jam in the middle
+    det bliver | that comes to
+    i lige måde | you too; likewise
+  questions: |
+    mc: How many bread rolls does Ole buy? || 2 | *4 | 6 || "Fire rundstykker" — four bread rolls.
+    tf: Ole wants the rye bread sliced. || true || "Og gerne skåret" — and sliced, please.
+    mc: Which pastries does Ole choose? || Two spandauers | *Two cinnamon swirls | One Danish pastry || "Så tager jeg to kanelsnegle."
+    fill: Det bliver ___ kroner. (94) || fireoghalvfems / 94 || Fire-og-halvfems = four and ninety = 94.
+    short: How much change does Ole get? || kw: 6/seks/six || He pays 100 and gets "seks kroner tilbage".
+
+- slug: vejen-til-biblioteket
+  kind: listening
+  title: Vejen til biblioteket
+  topic: Town and home
+  summary: Anna asks a local the way to the library in Aalborg and finds out about a café nearby.
+  free: false
+  speakers: A=Anna/f; K=Kristian/m
+  text: |
+    A: Undskyld, må jeg spørge om noget?
+    K: Ja, selvfølgelig.
+    A: Hvordan kommer jeg til biblioteket?
+    K: Biblioteket? Det er ikke så langt. Gå ligeud til lyskrydset.
+    K: Ved lyskrydset drejer du til venstre.
+    A: Til venstre ved lyskrydset. Og så?
+    K: Så går du over broen. Biblioteket ligger på højre side, over for kirken.
+    A: Over for kirken. Er der en café i nærheden?
+    K: Ja, der er en lille café ved siden af biblioteket. Den er rigtig hyggelig.
+    A: Hvor lang tid tager det at gå?
+    K: Cirka ti minutter.
+    A: Tusind tak for hjælpen!
+    K: Selv tak. Hav en god dag!
+  translation: |
+    Anna: Excuse me, may I ask you something?
+    Kristian: Yes, of course.
+    Anna: How do I get to the library?
+    Kristian: The library? It's not that far. Go straight on to the traffic lights.
+    Kristian: At the traffic lights, you turn left.
+    Anna: Left at the traffic lights. And then?
+    Kristian: Then you go over the bridge. The library is on the right-hand side, opposite the church.
+    Anna: Opposite the church. Is there a café nearby?
+    Kristian: Yes, there's a small café next to the library. It's really cosy.
+    Anna: How long does it take to walk?
+    Kristian: About ten minutes.
+    Anna: Thanks a lot for your help!
+    Kristian: You're welcome. Have a nice day!
+  glossary: |
+    må jeg spørge om noget? | may I ask you something?
+    ikke så langt | not that far
+    ved lyskrydset | at the traffic lights
+    drejer du | you turn | directions can use the present tense instead of the imperative
+    på højre side | on the right-hand side
+    over for | opposite
+    ved siden af | next to
+    cirka | about; approximately
+  questions: |
+    mc: Where does Anna want to go? || *To the library | To the church | To a café || "Hvordan kommer jeg til biblioteket?"
+    mc: Where does Anna turn left? || At the bridge | *At the traffic lights | At the church || "Ved lyskrydset drejer du til venstre."
+    tf: The library is opposite the church. || true || "Biblioteket ligger på højre side, over for kirken."
+    short: How long does it take to walk? || kw: 10/ti/ten || "Cirka ti minutter."
+    fill: Der er en lille café ved ___ af biblioteket. || siden || Ved siden af = next to.
+
+- slug: skal-vi-tage-til-stranden
+  kind: listening
+  title: Skal vi tage til stranden?
+  topic: Free time and weather
+  summary: Lærke and Emir check the weather forecast and plan a Saturday afternoon at the beach in Copenhagen.
+  free: false
+  speakers: L=Lærke/f; E=Emir/m
+  text: |
+    L: Hej, Emir! Har du planer for lørdag?
+    E: Nej, ikke endnu. Hvorfor?
+    L: Vejrudsigten siger sol og femogtyve grader. Skal vi tage til stranden?
+    E: Ja, gerne! Hvilken strand?
+    L: Hvad med Amager Strand? Vi kan cykle derud sammen.
+    E: Godt. Men jeg kan ikke om formiddagen. Jeg skal arbejde til klokken tolv.
+    L: Okay. Skal vi ses klokken et?
+    E: Det lyder godt. Hvor skal vi ses?
+    L: Hos dig. Så cykler vi sammen derfra.
+    E: Perfekt. Skal jeg tage noget med?
+    L: Ja, tag noget at drikke med. Jeg laver madpakker.
+    E: Super. Jeg glæder mig!
+    L: Det gør jeg også. Vi ses på lørdag!
+  translation: |
+    Lærke: Hi, Emir! Do you have plans for Saturday?
+    Emir: No, not yet. Why?
+    Lærke: The weather forecast says sun and twenty-five degrees. Shall we go to the beach?
+    Emir: Yes, I'd love to! Which beach?
+    Lærke: What about Amager Beach? We can cycle out there together.
+    Emir: Good. But I can't in the morning. I have to work until twelve o'clock.
+    Lærke: Okay. Shall we meet at one o'clock?
+    Emir: That sounds good. Where shall we meet?
+    Lærke: At your place. Then we'll cycle there together.
+    Emir: Perfect. Shall I bring something?
+    Lærke: Yes, bring something to drink. I'll make packed lunches.
+    Emir: Great. I'm looking forward to it!
+    Lærke: Me too. See you on Saturday!
+  glossary: |
+    planer | plans
+    ikke endnu | not yet
+    vejrudsigten | the weather forecast
+    derud | out there
+    om formiddagen | in the (late) morning
+    ses | to meet; to see each other
+    tage noget med | to bring something
+    en madpakke | a packed lunch | often open sandwiches on rye bread
+    jeg glæder mig | I'm looking forward to it
+  questions: |
+    mc: What will the weather be like on Saturday? || *Sunny, 25 degrees | Rainy, 15 degrees | Windy, 20 degrees || "Vejrudsigten siger sol og femogtyve grader."
+    tf: Emir can go to the beach in the morning. || false || "Jeg kan ikke om formiddagen. Jeg skal arbejde til klokken tolv."
+    short: At what time do they meet? || kw: 1/et/one/13 || "Skal vi ses klokken et?" — at one o'clock.
+    fill: Lærke laver ___ til turen. || madpakker || "Jeg laver madpakker" — I'll make packed lunches.
+    mc: How are they getting to the beach? || By metro | *By bike | By bus || "Vi kan cykle derud sammen."
+
+- slug: paa-banegaarden-i-aarhus
+  kind: listening
+  title: På banegården i Aarhus
+  topic: Travel
+  summary: Ingrid's train to Aalborg is delayed — she asks a member of staff about the new time, the track and the journey.
+  free: false
+  speakers: I=Ingrid/f; A=Ali/m
+  text: |
+    I: Undskyld, toget til Aalborg — er det forsinket?
+    A: Ja, desværre. Det er forsinket femten minutter.
+    I: Øv! Hvornår kører det så?
+    A: Fem minutter over halv to, fra spor fire.
+    I: Fra spor fire? Ikke spor to?
+    A: Nej, i dag kører det fra spor fire.
+    I: Okay. Skal jeg skifte i Randers?
+    A: Nej, det kører direkte til Aalborg.
+    I: Hvor lang tid tager det?
+    A: Cirka en time og tyve minutter.
+    I: Er der en café her på stationen?
+    A: Ja, der er en café ved indgangen. Du har tid til en kop kaffe!
+    I: Godt. Tusind tak!
+  translation: |
+    Ingrid: Excuse me, the train to Aalborg — is it delayed?
+    Ali: Yes, unfortunately. It's fifteen minutes late.
+    Ingrid: Oh no! When does it leave, then?
+    Ali: At twenty-five to two, from track four.
+    Ingrid: From track four? Not track two?
+    Ali: No, today it leaves from track four.
+    Ingrid: Okay. Do I have to change in Randers?
+    Ali: No, it goes direct to Aalborg.
+    Ingrid: How long does it take?
+    Ali: About an hour and twenty minutes.
+    Ingrid: Is there a café here at the station?
+    Ali: Yes, there's a café by the entrance. You have time for a cup of coffee!
+    Ingrid: Good. Thanks a lot!
+  glossary: |
+    forsinket | delayed; late
+    desværre | unfortunately
+    øv! | oh no! | shows mild disappointment
+    så | then
+    et spor | a track; a platform
+    skifte | to change (trains)
+    direkte | direct
+    ved indgangen | by the entrance
+  questions: |
+    mc: How late is the train? || 5 minutes | *15 minutes | 50 minutes || "Det er forsinket femten minutter."
+    mc: When does the train leave now? || 1:25 | *1:35 | 2:35 || Fem minutter over halv to = five minutes after half past one = 1:35.
+    fill: Toget kører fra spor ___. || fire / 4 || "I dag kører det fra spor fire."
+    tf: Ingrid has to change trains in Randers. || false || "Nej, det kører direkte til Aalborg."
+    short: Where is the café? || kw: indgang/indgangen/entrance || "Der er en café ved indgangen."

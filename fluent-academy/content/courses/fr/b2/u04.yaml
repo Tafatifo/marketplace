@@ -1,0 +1,350 @@
+unit: 4
+title: Agir pour le climat
+theme: Environment
+description: Understand climate goals, discuss how cities adapt to heat and debate transport solutions, using precise connectors of cause, consequence and opposition.
+free: false
+objectives:
+  - Explain causes precisely with puisque, étant donné que, en raison de, faute de and sous prétexte que
+  - Express consequences with si bien que, d'où, tellement… que and au point que
+  - Contrast facts and options with alors que, tandis que, en revanche, contrairement à and plutôt que de
+canDo:
+  - I can explain what carbon neutrality means and why it is difficult to achieve.
+  - I can describe how a city adapts to heatwaves and what the effects are.
+  - I can take part in a debate, contrasting two positions and conceding a point.
+  - I can choose a connector that matches both the logic and the register of what I want to say.
+review: |
+  fill: ___ de place dans le bus, j'ai dû attendre le suivant. || Faute || Faute de + noun without article expresses a cause that is a lack. || @tags fr.connectors
+  mc: "Il refuse de prendre le vélo, ___ il pleut trop souvent." || *sous prétexte qu' | grâce à | d'où || Sous prétexte que introduces a cause the speaker doubts; grâce à and d'où are followed by a noun. || @tags fr.connectors
+  fill: Les canicules sont de plus en plus fréquentes, ___ l'importance des arbres en ville. || d'où || D'où + noun introduces a consequence in a compact way. || @tags fr.connectors
+  fill: Il y avait ___ de pollution que la mairie a limité la circulation. || tant / tellement || Tant de / tellement de + noun + que expresses intensity and its consequence. || @tags fr.connectors
+  mc: "Le parc a été agrandi, ___ les familles y viennent plus nombreuses." || bien que | *si bien que | alors que || The second clause is a consequence: si bien que + indicative. || @tags fr.connectors
+  mc: "___ à ce qu'on croit, le recyclage ne suffit pas." || *Contrairement | Au lieu | Plutôt || Contrairement à ce que = contrary to what. Au lieu de and plutôt que de introduce an infinitive. || @tags fr.connectors
+  rw: Join the two sentences with "alors que" :: Le train met deux heures. La voiture met quatre heures. || Le train met deux heures, alors que la voiture en met quatre. | Le train met deux heures alors que la voiture met quatre heures. | Le train met deux heures, alors que la voiture met quatre heures. || Alors que + indicative contrasts two facts in one sentence. || @tags fr.connectors
+  tr: Because of the drought, watering gardens is forbidden. || En raison de la sécheresse, l'arrosage des jardins est interdit. | À cause de la sécheresse, l'arrosage des jardins est interdit. | En raison de la sécheresse, il est interdit d'arroser les jardins. | À cause de la sécheresse, il est interdit d'arroser les jardins. || En raison de (formal) or à cause de (negative cause) + noun. || @tags fr.connectors
+  listen: Comme les bus de nuit ont été supprimés, beaucoup d'étudiants rentrent désormais à vélo, si bien que la ville va éclairer les pistes cyclables. || What is the city going to do? || *Light the cycle paths | Bring back the night buses | Lend bikes to students || Comme gives the cause, si bien que the consequence: "la ville va éclairer les pistes cyclables". || @tags fr.listening,fr.connectors
+  listen: Certes, la rénovation coûte cher ; en revanche, elle divise souvent la facture de chauffage par deux. || What advantage of renovation does the speaker mention? || *It often halves the heating bill | It is cheaper than people think | It only takes a few days || "Elle divise souvent la facture de chauffage par deux." || @tags fr.listening,fr.connectors
+  ask: Should cars be banned from city centres? Give one argument for and one against, and conclude. || kw: certes/en revanche/alors que/tandis que/néanmoins/toutefois/par contre & si bien que/donc/c'est pourquoi/d'où/par conséquent/puisque/comme/en raison de || Certes, une ville sans voitures est plus calme et moins polluée, si bien que les habitants vivent mieux. En revanche, les personnes âgées et les artisans en ont souvent besoin. C'est pourquoi je préférerais limiter la circulation plutôt que de l'interdire complètement.
+  write: Write an argued paragraph (80–100 words) — "Planter des arbres en ville : une vraie solution ?" Use at least one connector of cause, one of consequence and one of opposition. || min=80 || req: puisque/comme/étant donné que/en raison de/du fait de/faute de/grâce à | si bien que/de sorte que/d'où/c'est pourquoi/par conséquent | alors que/tandis que/en revanche/néanmoins/toutefois/certes || Planter des arbres est utile, puisqu'un arbre fait de l'ombre et rafraîchit l'air autour de lui. Dans les cours d'école végétalisées, la température baisse de plusieurs degrés, si bien que les enfants peuvent jouer dehors même en juin. Certes, un arbre met des années à grandir, alors que les canicules sont déjà là. Néanmoins, faute de solutions plus rapides, c'est un bon investissement. D'autant plus qu'un arbre rend aussi la ville plus agréable. Il faut donc planter, mais aussi rénover les bâtiments et réduire la circulation.
+lessons:
+  - title: Climate policy
+    summary: Read an explainer on carbon neutrality and express causes precisely with puisque, comme, étant donné que, en raison de, faute de and sous prétexte que.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [fr.connectors]
+    objectives:
+      - Understand the key terms of climate policy (emissions, carbon neutrality, commitments)
+      - Choose the right cause connector for the type of cause and the register
+      - Explain a complex topic simply and neutrally
+    intro: |
+      Carbon neutrality, the Paris Agreement, greenhouse gases: climate policy has its own vocabulary, and understanding it means following chains of **causes**. At B1 you used *parce que, car, grâce à* and *à cause de*. At B2 you need connectors that say *what kind* of cause it is — known to everyone (*puisque*), a fact to take into account (*étant donné que*), a lack (*faute de*), or a reason you don't believe (*sous prétexte que*).
+    vocab: |
+      la neutralité carbone | carbon neutrality | n | L'Union européenne vise la neutralité carbone en 2050. | The European Union is aiming for carbon neutrality by 2050. | g: f
+      les gaz à effet de serre | greenhouse gases | n | Les transports émettent une grande part des gaz à effet de serre. | Transport emits a large share of greenhouse gases. | g: m
+      émettre | to emit | v | Un avion émet beaucoup de CO₂ par passager. | A plane emits a lot of CO₂ per passenger. | n: Les émissions (f). Conjugated like mettre.
+      absorber | to absorb | v | Les forêts absorbent une partie du carbone. | Forests absorb part of the carbon. | n: Un puits de carbone = a carbon sink.
+      le réchauffement climatique | global warming | n | Le réchauffement climatique accélère la fonte des glaciers. | Global warming is speeding up the melting of glaciers. | g: m
+      un engagement | a commitment | n | Les pays ont pris des engagements lors de l'accord de Paris. | Countries made commitments in the Paris Agreement. | g: m | c: prendre un engagement; tenir ses engagements
+      un levier | a lever; a means of action | n | La rénovation des logements est un levier important. | Renovating housing is an important lever. | g: m
+      les énergies renouvelables | renewable energy | n | Les énergies renouvelables se développent rapidement. | Renewable energy is developing rapidly. | g: f
+      une sécheresse | a drought | n | Après deux étés de sécheresse, les arbres souffrent. | After two summers of drought, the trees are suffering. | g: f
+      un ménage | a household | n | La transition ne doit pas peser trop lourd sur les ménages modestes. | The transition mustn't weigh too heavily on low-income households. | g: m | n: Faire le ménage = to do the cleaning.
+      un cap | a course; a direction | n | Il faut garder le cap malgré les difficultés. | We have to stay the course despite the difficulties. | g: m | n: Also a cape (geography): le cap Horn.
+    grammar:
+      title: Expressing cause with precision
+      body: |
+        Choose the cause connector that matches the **type of cause** and the **register**:
+
+        - **puisque** — the cause is known or obvious to both speakers: ***Puisque** les forêts captent du CO₂, l'objectif n'est pas zéro émission.*
+        - **comme** — at the start of the sentence, gives the cause before the result: ***Comme** il a fait très sec, la forêt a moins poussé.*
+        - **étant donné que / vu que** + indicative — a fact taken into account; *vu que* is more informal.
+        - **en raison de / du fait de** + noun — formal and neutral: ***en raison des** engagements pris, **du fait des** sécheresses.*
+        - **faute de** + noun without article, or + infinitive — the cause is a lack: ***faute de** solutions simples, **faute de** temps.*
+        - **sous prétexte que** + indicative — a reason the speaker doubts: *Il ne trie pas, **sous prétexte que** tout finit dans la même benne.*
+        - **d'autant plus… que** — adds a reason that makes something even truer: *La question est **d'autant plus** sensible **que** chaque pays part d'une situation différente.*
+
+        *Grâce à* (positive cause) and *à cause de* (negative cause) + noun remain useful in everyday speech.
+      table: |
+        Connector | Followed by | Nuance
+        puisque | indicative clause | a cause known to both speakers
+        comme | indicative clause, at the start | cause first, then result
+        étant donné que / vu que | indicative clause | a fact taken into account
+        en raison de / du fait de | noun | formal, neutral
+        faute de | noun without article or infinitive | a lack
+        sous prétexte que | indicative clause | a reason the speaker doubts
+        d'autant plus… que | indicative clause | an extra, stronger reason
+      examples: |
+        Faute de pluie, les nappes phréatiques ne se rechargent pas. | For lack of rain, the groundwater isn't being replenished. | faute de
+        Comme le CO₂ reste longtemps dans l'atmosphère, il faut agir vite. | As CO₂ stays in the atmosphere for a long time, we need to act quickly. | comme at the start
+        Le vol a été annulé en raison d'une tempête. | The flight was cancelled due to a storm. | en raison de
+        Il refuse de prendre le train sous prétexte que c'est trop cher. | He refuses to take the train on the grounds that it's too expensive. | a doubted reason
+      tip: "Puisque can't answer the question pourquoi ? — Pourquoi tu restes ? — Parce que j'ai du travail (not puisque)."
+    reading:
+      title: "Neutralité carbone : de quoi parle-t-on ?"
+      text: |
+        On entend souvent dire que l'Union européenne vise la « neutralité carbone » en 2050. Mais que signifie exactement cette expression ?
+
+        Être neutre en carbone, c'est ne pas émettre plus de gaz à effet de serre que la nature et les techniques ne peuvent en absorber. Puisque les forêts, les sols et les océans captent une partie du CO₂, il ne s'agit pas d'atteindre zéro émission, mais un équilibre.
+
+        Pourquoi 2050 ? En raison des engagements pris lors de l'accord de Paris, en 2015, les pays signataires cherchent à limiter le réchauffement « nettement en dessous de 2 °C ». Étant donné que le CO₂ reste très longtemps dans l'atmosphère, les scientifiques estiment qu'il faut réduire fortement les émissions d'ici le milieu du siècle.
+
+        Comment y parvenir ? Les stratégies combinent plusieurs leviers : la rénovation des logements, le développement des énergies renouvelables, l'évolution des transports et de l'agriculture. Les forêts jouent aussi un rôle clé ; or, du fait des sécheresses et des incendies, celles de France absorbent aujourd'hui moins de carbone qu'il y a quelques années.
+
+        Pourquoi est-ce si difficile ? Faute de solutions simples dans certains secteurs, comme l'aviation ou le ciment, les progrès sont inégaux. Les débats portent aussi sur le rythme et le coût de la transition : certains craignent qu'elle pèse trop sur les ménages modestes, d'autres estiment qu'attendre coûtera plus cher encore. La question est d'autant plus sensible que chaque pays part d'une situation différente.
+
+        Une chose est sûre : la neutralité carbone n'est pas une ligne d'arrivée, mais un cap. Et les décisions prises dans les dix prochaines années compteront davantage que celles de 2049.
+      translation: |
+        We often hear that the European Union is aiming for "carbon neutrality" by 2050. But what exactly does the expression mean?
+
+        Being carbon neutral means not emitting more greenhouse gases than nature and technology can absorb. Since forests, soils and oceans capture part of the CO₂, the aim is not to reach zero emissions, but a balance.
+
+        Why 2050? Because of the commitments made in the Paris Agreement in 2015, the signatory countries are trying to limit warming to "well below 2 °C". Given that CO₂ stays in the atmosphere for a very long time, scientists believe emissions must be cut sharply by the middle of the century.
+
+        How can it be achieved? Strategies combine several levers: renovating housing, developing renewable energy, and changing transport and agriculture. Forests also play a key role; yet, because of droughts and fires, France's forests now absorb less carbon than they did a few years ago.
+
+        Why is it so difficult? For lack of simple solutions in some sectors, such as aviation or cement, progress is uneven. The debates also concern the pace and cost of the transition: some fear it will weigh too heavily on low-income households, others believe that waiting will cost even more. The issue is all the more sensitive because each country starts from a different situation.
+
+        One thing is certain: carbon neutrality is not a finishing line but a direction. And the decisions taken in the next ten years will count more than those of 2049.
+    pronunciation:
+      title: "en raison de, étant donné que, d'autant plus que"
+      body: |
+        Many cause connectors contain nasal vowels: *en raison de* [ɑ̃.ʁɛ.zɔ̃.də], *étant donné que* [e.tɑ̃.dɔ.ne.kə]. Note that *donné* is **not** nasal: a double **n** followed by a vowel gives an oral vowel + [n].
+
+        In *d'autant plus que* [do.tɑ̃.ply.kə], the **s** of *plus* is silent. In *puisque* [pɥis.kə], the [ɥ] is the same glide as in *huit* and *nuit*.
+      items: |
+        en raison de
+        étant donné que
+        d'autant plus que
+        puisque
+        sous prétexte que
+        la neutralité carbone
+    mistakes: |
+      Faute du temps, je n'ai pas trié. => Faute de temps, je n'ai pas trié. | Faute de is followed by a noun without an article.
+      — Pourquoi tu prends le train ? — Puisque c'est moins polluant. => — Parce que c'est moins polluant. | Only parce que answers the question pourquoi ?
+      En raison qu'il pleut, le match est reporté. => En raison de la pluie, le match est reporté. | En raison de is followed by a noun, never by a clause.
+    task:
+      title: Explain it simply
+      mode: writing
+      body: |
+        A friend has asked you what "carbon neutrality" means. Write a short, neutral explanation (about 100 words) in your own words, as if you were writing a message. Use at least four different cause connectors (*puisque, étant donné que, en raison de, faute de, d'autant plus que…*).
+    exercises: |
+      fill: ___ de moyens, la commune a reporté la rénovation de l'école. || Faute || Faute de + noun without article: the cause is a lack of money. || @tags fr.connectors
+      fill: Le concert a été annulé en ___ de la tempête. || raison || En raison de + noun: a formal, neutral cause. || @tags fr.connectors
+      mc: "— Pourquoi tu prends le train ? — ___ c'est moins polluant." || Puisque | *Parce que | Faute de || Only parce que answers pourquoi ?; puisque presents a cause already known. || @tags fr.connectors
+      mc: "Il ne trie pas ses déchets, ___ tout finit dans la même benne." || *sous prétexte que | grâce à | d'autant plus que || The speaker doubts this reason: sous prétexte que. Grâce à needs a noun. || @tags fr.connectors
+      mc: "___ il a fait très sec cet été, les forêts ont moins poussé." || *Comme | Grâce à | Faute de || Comme + clause at the start of the sentence gives the cause; grâce à and faute de need a noun. || @tags fr.connectors
+      tf: Carbon neutrality means emitting no greenhouse gases at all. || false || "Il ne s'agit pas d'atteindre zéro émission, mais un équilibre." || @ctx reading
+      short: Why do French forests absorb less carbon than a few years ago? || kw: sécheresse/sécheresses/drought/droughts/incendie/incendies/fire/fires || "Du fait des sécheresses et des incendies." || @ctx reading
+      mc: In which sectors are there no simple solutions yet, according to the text? || *Aviation and cement | Housing and transport | Agriculture and forestry || "Faute de solutions simples dans certains secteurs, comme l'aviation ou le ciment." || @ctx reading @tags fr.reading
+      listen: Étant donné que les vols courts émettent beaucoup, l'entreprise a décidé de privilégier le train pour les trajets de moins de quatre heures. || What has the company decided? || *To favour the train for journeys of under four hours | To stop all business travel | To offset all its flights || "Privilégier le train pour les trajets de moins de quatre heures." || @tags fr.listening,fr.connectors
+      rw: Rewrite the sentence with "en raison de" :: Le festival est annulé parce qu'il fait trop chaud. || Le festival est annulé en raison de la chaleur. | Le festival est annulé en raison de la canicule. | Le festival est annulé en raison des fortes chaleurs. | Le festival est annulé en raison de la chaleur excessive. || En raison de + noun: the clause il fait trop chaud becomes a noun (la chaleur, la canicule). || @tags fr.connectors
+      tr: The issue is all the more sensitive because prices are rising. || La question est d'autant plus sensible que les prix augmentent. | Le sujet est d'autant plus sensible que les prix augmentent. | La question est d'autant plus sensible que les prix sont en hausse. | Le sujet est d'autant plus sensible que les prix sont en hausse. || All the more… because = d'autant plus… que. || @tags fr.connectors
+      dict: Faute de solutions simples, les progrès restent inégaux. || faute de
+      ask: Explain why you do — or don't do — one thing for the climate, using two different cause connectors. || kw: puisque/comme/étant donné que/vu que/en raison de/du fait de/faute de/d'autant plus que & climat/planète/émissions/pollue/polluant/carbone/CO2/train/vélo || Je prends le vélo pour aller au travail, puisque j'habite à trois kilomètres. Et comme il n'y a pas de parking près du bureau, c'est d'autant plus pratique !
+
+  - title: Sustainable cities
+    summary: Listen to an interview with an urban planner about heat islands and green schoolyards, and express consequences with si bien que, d'où, tellement… que and au point que.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [fr.connectors]
+    objectives:
+      - Talk about how cities adapt to heatwaves (greenery, schoolyards, the fifteen-minute city)
+      - Express consequences with si bien que, de sorte que, c'est pourquoi and d'où + noun
+      - Link intensity and consequence with si / tellement / tant… que and au point que
+    intro: |
+      Concrete, tarmac and traffic make cities several degrees hotter than the surrounding countryside, especially at night. To discuss how cities can adapt, you need to describe **chains of consequences**: *un arbre évapore de l'eau, si bien que la température baisse*. French offers connectors for every degree of formality and intensity — from *donc* to *d'où* and *au point que*.
+    vocab: |
+      une ville durable | a sustainable city | n | Une ville durable doit aussi rester accessible. | A sustainable city must also remain affordable. | g: f
+      un îlot de chaleur | a heat island | n | Les places bétonnées forment de véritables îlots de chaleur. | Concrete squares form real heat islands. | g: m
+      le béton | concrete | n | Le béton stocke la chaleur pendant la journée. | Concrete stores heat during the day. | g: m | n: Bétonner = to concrete over.
+      le bitume | tarmac; asphalt | n | On a remplacé le bitume par de la terre. | The tarmac was replaced with soil. | g: m
+      végétaliser | to green; to plant with vegetation | v | La mairie veut végétaliser les toits. | The town hall wants to green the roofs. | n: La végétalisation.
+      rafraîchir | to cool (down) | v | Les arbres rafraîchissent l'air. | Trees cool the air. | n: Conjugated like finir.
+      une cour d'école | a schoolyard | n | La cour d'école a été transformée en jardin. | The schoolyard has been turned into a garden. | g: f
+      la ville du quart d'heure | the fifteen-minute city | n | La ville du quart d'heure réduit les déplacements en voiture. | The fifteen-minute city reduces car journeys. | g: f
+      un urbaniste | an urban planner | n | Les urbanistes travaillent avec les habitants. | Urban planners work with residents. | g: m | n: Feminine: une urbaniste. L'urbanisme = town planning.
+      les inégalités | inequalities | n | Ces projets ne doivent pas creuser les inégalités. | These projects mustn't widen inequalities. | g: f
+      une canicule | a heatwave | n | Pendant la canicule, les parcs restent ouverts la nuit. | During the heatwave, the parks stay open at night. | g: f
+    grammar:
+      title: "Expressing consequence: si bien que, d'où, tellement… que"
+      body: |
+        Beyond *donc* and *par conséquent*, French has connectors for different structures and degrees of intensity:
+
+        - **si bien que / de sorte que** + indicative — a consequence after a full clause: *Un arbre évapore de l'eau, **si bien que** la température baisse.* Careful: *de sorte que* + **subjunctive** expresses a **purpose** (so that): *On ouvre la cour le week-end **de sorte que** tout le quartier **puisse** en profiter.*
+        - **c'est pourquoi / c'est pour ça que** (informal) — start a new clause: *Les travaux coûtent cher, **c'est pourquoi** on avance par étapes.*
+        - **d'où** + **noun** — a compact consequence, typical of writing: *Le bitume restitue la chaleur la nuit, **d'où** la formation d'îlots de chaleur.*
+        - **Intensity + consequence**: *si / tellement* + adjective or adverb + *que*; *tant de / tellement de* + noun + *que*; verb + *tellement / tant* + *que*: *Il a fait **si** chaud **que** les écoles ont fermé.*
+        - **au point que** — an extreme consequence: *Le quartier est devenu attractif **au point que** les loyers ont doublé.*
+        - **Verbs**: *entraîner, provoquer, causer* + noun; *permettre de* + infinitive.
+      table: |
+        Connector | Followed by | Example
+        si bien que / de sorte que | indicative | Il a plu, si bien que la fête a été annulée.
+        c'est pourquoi | a new clause | Les travaux coûtent cher, c'est pourquoi on avance par étapes.
+        d'où | noun | Le bitume stocke la chaleur, d'où les îlots de chaleur.
+        si / tellement + adjective + que | indicative | Il fait si chaud que l'école ferme.
+        tant de / tellement de + noun + que | indicative | Il y a tant de voitures que l'air est pollué.
+        au point que | indicative | La rue est bruyante au point que personne n'y dort.
+      examples: |
+        La rue est devenue piétonne, si bien que les commerces ont gagné des clients. | The street became pedestrian, so the shops gained customers. | si bien que
+        Les cours ont été végétalisées, d'où une baisse de la température en été. | The schoolyards were planted with greenery, hence a drop in temperature in summer. | d'où + noun
+        Il y avait tellement de bruit que nous avons déménagé. | There was so much noise that we moved. | tellement de… que
+        On a planté des arbres de sorte que les enfants aient de l'ombre. | Trees were planted so that the children would have shade. | de sorte que + subjunctive: purpose
+      tip: "D'où is followed by a noun, not by a clause: d'où la hausse des loyers, not d'où les loyers augmentent."
+    dialogue:
+      title: Rafraîchir la ville
+      setting: A morning radio show in Lyon after a summer heatwave. The journalist Romane interviews Hamid, an urban planner.
+      speakers: R=Romane/f; H=Hamid/m
+      lines: |
+        R: En juillet dernier, il a fait si chaud à Lyon que certaines écoles ont fermé plus tôt. Comment l'expliquer ? | Last July it was so hot in Lyon that some schools closed early. How can that be explained?
+        H: Le béton et le bitume stockent la chaleur le jour et la restituent la nuit, d'où la formation d'îlots de chaleur. | Concrete and tarmac store heat during the day and release it at night, hence the formation of heat islands.
+        R: Concrètement, quelles solutions proposez-vous pour rafraîchir nos villes sans tout reconstruire ? | In practical terms, what solutions do you suggest to cool our cities down without rebuilding everything?
+        H: D'abord, végétaliser. Un arbre adulte fait de l'ombre et évapore de l'eau, si bien que la température baisse autour de lui. | First, add greenery. A mature tree provides shade and evaporates water, so the temperature drops around it.
+        R: À Paris, de nombreuses cours d'école ont été transformées en « cours oasis ». Qu'est-ce que ça a changé ? | In Paris, many schoolyards have been turned into "oasis yards". What difference has that made?
+        H: On a remplacé le bitume par de la terre et des plantes, de sorte que les cours restent fraîches en été. | The tarmac was replaced with soil and plants, so the yards stay cool in summer.
+        R: Mais ces travaux coûtent cher. Les communes ont-elles vraiment les moyens de les financer ? | But this work is expensive. Do local councils really have the means to pay for it?
+        H: C'est pourquoi on avance par étapes. Et on peut ouvrir ces cours aux habitants le week-end, pour en faire profiter tout le quartier. | That's why we go step by step. And these yards can be opened to residents at weekends, so the whole neighbourhood benefits.
+        R: On parle aussi beaucoup de la « ville du quart d'heure ». De quoi s'agit-il exactement ? | People also talk a lot about the "fifteen-minute city". What exactly is it?
+        H: L'idée, c'est d'avoir les services essentiels à quinze minutes à pied ou à vélo. Par conséquent, on prend moins la voiture. | The idea is to have essential services fifteen minutes away on foot or by bike. As a result, people use the car less.
+        R: Certains habitants craignent pourtant que leur quartier devienne attractif au point que les loyers explosent. | Yet some residents fear that their neighbourhood will become so attractive that rents will soar.
+        H: C'est un vrai risque. Une ville durable doit aussi rester accessible, sinon elle crée de nouvelles inégalités. | That's a real risk. A sustainable city must also remain affordable, otherwise it creates new inequalities.
+    pronunciation:
+      title: "si chaud que, tellement de bruit que"
+      body: |
+        In consequence sentences, the intensity word carries the stress and is slightly lengthened: *Il a fait **si** chaud que…*, *Il y avait **tellement** de bruit que…*. The voice rises on the first part and falls on the consequence.
+
+        In *îlot* [i.lo], the circumflex changes nothing and the **t** is silent. *D'où* [du] (hence; from where) sounds the same as *doux*: the accent on *où* only matters in writing.
+      items: |
+        Il a fait si chaud que les écoles ont fermé.
+        tellement de bruit que
+        si bien que
+        d'où la formation d'îlots de chaleur
+        au point que
+        végétaliser
+    culture:
+      title: Les cours Oasis
+      body: |
+        Since 2018, Paris has been transforming its schoolyards into *cours Oasis*: tarmac is replaced with soil, plants, wooden structures and drinking fountains, and pupils are often involved in the design. Some of these yards are opened to local residents on Saturdays. Many other French cities, from Lyon to Strasbourg, have launched similar programmes to make schools more bearable during heatwaves.
+    mistakes: |
+      Le bitume stocke la chaleur, d'où les températures augmentent. => Le bitume stocke la chaleur, d'où la hausse des températures. | D'où is followed by a noun, not by a clause.
+      Il y a tellement des voitures que l'air est pollué. => Il y a tellement de voitures que l'air est pollué. | Tellement de / tant de + noun, without an article.
+      Il a plu, si bien que la fête soit annulée. => Il a plu, si bien que la fête a été annulée. | Si bien que introduces a real consequence: indicative.
+    task:
+      title: A cooler neighbourhood
+      mode: interaction
+      body: |
+        In a group, imagine you are planning to adapt your street or neighbourhood to heatwaves. Each person proposes one measure (trees, green roofs, fountains, a pedestrian street…) and explains its consequences with at least two connectors (*si bien que, d'où, c'est pourquoi, au point que…*); the others point out one possible side effect. Then run the same discussion as a planning meeting with the AI coach in the "Taking part in a business meeting" scenario.
+    exercises: |
+      fill: Le bitume stocke la chaleur, ___ la formation d'îlots de chaleur. || d'où || D'où + noun: a compact consequence. || @tags fr.connectors
+      fill: Il y avait ___ de monde dans le parc que nous sommes repartis. || tant / tellement || Tant de / tellement de + noun + que: intensity and consequence. || @tags fr.connectors
+      fill: Il a fait si chaud ___ l'école a fermé à midi. || que || Si + adjective + que introduces the consequence. || @tags fr.connectors
+      mc: "La rue est devenue piétonne, ___ le bruit a beaucoup diminué." || *si bien que | bien que | puisque || The second clause is a consequence: si bien que + indicative. || @tags fr.connectors
+      mc: "On plante des arbres de sorte que les enfants ___ de l'ombre." (a purpose) || ont | *aient | auront || De sorte que + subjunctive expresses a purpose: so that the children have shade. || @tags fr.connectors,fr.subjonctif
+      tf: In the "cours oasis", the tarmac was replaced with soil and plants. || true || "On a remplacé le bitume par de la terre et des plantes." || @ctx dialogue
+      short: What do some residents fear, according to Romane? || kw: loyer/loyers/rent/rents/explosent/prix || That their neighbourhood will become so attractive that rents will soar ("que les loyers explosent"). || @ctx dialogue
+      listen: @dialogue || Why do cities carry out the work step by step, according to Hamid? || *Because the work is expensive | Because residents are against it | Because trees take years to grow || "Mais ces travaux coûtent cher… — C'est pourquoi on avance par étapes." || @tags fr.listening
+      listen: La ville a planté tant d'arbres le long du boulevard qu'en été, il y fait trois degrés de moins qu'avant. || What is the consequence of planting the trees? || *It's three degrees cooler there in summer | There is less traffic on the boulevard | The boulevard has become more expensive || "Il y fait trois degrés de moins qu'avant." || @tags fr.listening,fr.connectors
+      rw: Join the two sentences with "si bien que" :: La ligne de tram a été prolongée. Beaucoup d'habitants ont laissé leur voiture. || La ligne de tram a été prolongée, si bien que beaucoup d'habitants ont laissé leur voiture. || Si bien que + indicative links the cause to its consequence. || @tags fr.connectors
+      tr: There were so many cars that the air was polluted. || Il y avait tellement de voitures que l'air était pollué. | Il y avait tant de voitures que l'air était pollué. || So many + noun = tellement de / tant de, without an article. || @tags fr.connectors
+      dict: Les loyers ont augmenté au point que les familles quittent le quartier. || au point que
+      ask: Describe a change in your town or neighbourhood and its consequences, using two consequence connectors. || kw: si bien que/de sorte que/d'où/c'est pourquoi/par conséquent/au point que/tellement/tant/si & ville/quartier/rue/arbres/voitures/vélo/parc/tram || Ma rue est devenue piétonne l'an dernier, si bien qu'il y a beaucoup moins de bruit. Les terrasses se sont multipliées, d'où une ambiance plus agréable le soir.
+
+  - title: Debating solutions
+    summary: Follow a debate on electric cars, contrast positions with alors que, tandis que, en revanche and contrairement à, and propose alternatives with au lieu de and plutôt que de.
+    minutes: 50
+    skills: [listening, speaking, grammar]
+    tags: [fr.connectors, fr.opinion]
+    objectives:
+      - Contrast two facts with alors que and tandis que
+      - Oppose ideas with en revanche, contrairement à, au contraire and néanmoins
+      - Reject one option and propose another with au lieu de and plutôt que de + infinitive
+    intro: |
+      In a debate, you rarely say *you're wrong*. You contrast facts (*alors que, tandis que*), concede before objecting (*certes… mais*), and propose an alternative (*plutôt que de…*). Debates on environmental solutions — electric cars, public transport, renovation — are a perfect place to practise these tools, because the best answer is often "it depends".
+    vocab: |
+      une voiture thermique | a petrol or diesel car | n | Une voiture thermique émet des gaz d'échappement. | A petrol or diesel car gives off exhaust fumes. | g: f | n: The opposite of une voiture électrique.
+      les gaz d'échappement | exhaust fumes | n | Les gaz d'échappement polluent l'air des villes. | Exhaust fumes pollute city air. | g: m
+      la durée de vie | lifespan | n | La durée de vie d'une batterie dépasse souvent dix ans. | A battery's lifespan often exceeds ten years. | g: f
+      peu carboné | low-carbon | adj | Une électricité peu carbonée améliore le bilan des voitures électriques. | Low-carbon electricity improves the footprint of electric cars. | n: Feminine: peu carbonée. Décarboner = to decarbonise.
+      le covoiturage | car-pooling | n | Je vais au travail en covoiturage avec deux collègues. | I car-pool to work with two colleagues. | g: m
+      l'autopartage | car-sharing | n | L'autopartage entre voisins se développe dans les villages. | Car-sharing between neighbours is growing in villages. | g: m
+      le transport à la demande | on-demand transport | n | Le transport à la demande se réserve la veille par téléphone. | On-demand transport is booked by phone the day before. | g: m
+      miser sur | to bet on; to count on | v | Il ne faut pas tout miser sur la technologie. | We mustn't count on technology alone. | n: Une mise = a stake (in a bet).
+      se passer de | to do without | v | En ville, on peut souvent se passer de voiture. | In town, you can often do without a car.
+      indispensable | essential | adj | À la campagne, la voiture reste indispensable. | In the countryside, the car remains essential.
+      au fond | basically; when you think about it | expr | Au fond, nous sommes d'accord. | Basically, we agree.
+    grammar:
+      title: "Opposition: alors que, tandis que, en revanche, plutôt que de"
+      body: |
+        **Opposition** sets two facts or ideas against each other; **concession** (unit 1) admits an obstacle. In a debate you need both.
+
+        - **alors que / tandis que** + indicative — contrast two facts in one sentence: *À la campagne, le bus passe deux fois par jour, **alors qu'**on a besoin de se déplacer à toute heure.*
+        - **en revanche / par contre** — start a contrasting sentence. *En revanche* is preferred in formal writing.
+        - **contrairement à / à la différence de** + noun: ***Contrairement à** une voiture thermique, elle n'émet rien en roulant.*
+        - **au contraire** — the opposite of what has just been said: *Ce n'est pas plus cher ; au contraire, c'est moins cher.*
+        - **au lieu de / plutôt que de** + infinitive — reject one option, propose another: ***Plutôt que de** tout miser sur la technologie, développons le vélo.*
+        - To concede before objecting: **certes… mais**, **il est vrai que…, néanmoins / toutefois**. *Néanmoins* and *toutefois* are formal equivalents of *cependant*.
+      table: |
+        Connector | Followed by | Example
+        alors que / tandis que | indicative clause | Il vit en ville, alors que je vis à la campagne.
+        en revanche / par contre | a new clause | En revanche, son bilan est meilleur.
+        contrairement à / à la différence de | noun | Contrairement au train, l'avion émet beaucoup.
+        au lieu de / plutôt que de | infinitive | Plutôt que de remplacer, réduisons.
+        certes… mais | two clauses | Certes, c'est cher, mais c'est durable.
+        néanmoins / toutefois | a new clause (formal) | Toutefois, des solutions existent.
+      examples: |
+        Le train émet très peu, tandis que l'avion émet beaucoup par passager. | The train emits very little, whereas the plane emits a lot per passenger. | tandis que
+        Contrairement à ce qu'on pense souvent, une grande partie des métaux d'une batterie peut être récupérée. | Contrary to what people often think, a large part of a battery's metals can be recovered. | contrairement à ce que
+        Au lieu de racheter une voiture, nous avons pris un abonnement d'autopartage. | Instead of buying another car, we signed up for car-sharing. | au lieu de + infinitive
+        Certes, un vélo électrique coûte cher ; néanmoins, il remplace souvent une deuxième voiture. | Admittedly, an e-bike is expensive; nevertheless, it often replaces a second car. | certes… néanmoins
+      tip: "Par contre is very common in speech, but many editors avoid it in formal writing. In an essay, use en revanche."
+    dialogue:
+      title: La voiture électrique, la solution ?
+      setting: A televised debate. Delphine moderates; Thibault is an automotive engineer and Khadija a researcher in transport and mobility.
+      speakers: D=Delphine/f; T=Thibault/m; K=Khadija/f
+      lines: |
+        D: Ce soir, une question simple en apparence : la voiture électrique est-elle la solution pour le climat ? | Tonight, a question that seems simple: is the electric car the solution for the climate?
+        T: En grande partie, oui. Contrairement à une voiture thermique, elle n'émet aucun gaz d'échappement en roulant. | Largely, yes. Unlike a petrol or diesel car, it gives off no exhaust fumes while driving.
+        K: Certes, mais sa fabrication, en particulier celle de la batterie, émet beaucoup plus de CO₂. | Admittedly, but manufacturing it, especially the battery, emits much more CO₂.
+        T: C'est vrai. En revanche, sur toute sa durée de vie, son bilan reste meilleur, surtout avec une électricité peu carbonée. | True. On the other hand, over its whole lifespan, its footprint is still better, especially with low-carbon electricity.
+        K: Pourtant, alors que les voitures deviennent de plus en plus lourdes, on oublie la vraie question : a-t-on besoin d'autant de voitures ? | And yet, while cars are getting heavier and heavier, we forget the real question: do we need so many cars?
+        D: Vous voulez dire qu'au lieu de remplacer chaque voiture, il faudrait en réduire le nombre ? | You mean that instead of replacing every car, we should reduce their number?
+        K: Exactement. Plutôt que de tout miser sur la technologie, développons les transports en commun, le vélo et le covoiturage. | Exactly. Rather than betting everything on technology, let's develop public transport, cycling and car-pooling.
+        T: Je suis d'accord pour les villes. Mais à la campagne, le bus passe deux fois par jour, alors qu'on a besoin de se déplacer à toute heure. | I agree for cities. But in the countryside the bus comes twice a day, whereas people need to travel at all hours.
+        K: Je ne dis pas le contraire. Néanmoins, même là, des solutions existent : le transport à la demande, l'autopartage entre voisins… | I'm not saying otherwise. Nevertheless, even there, solutions exist: on-demand transport, car-sharing between neighbours…
+        D: Finalement, vous êtes moins opposés que vous ne le pensiez, non ? | In the end, you disagree less than you thought, don't you?
+        T: Au fond, oui : la voiture électrique est une partie de la solution, pas la solution tout entière. | Basically, yes: the electric car is part of the solution, not the whole solution.
+        K: Toutefois, elle ne doit pas nous faire oublier qu'on peut parfois se passer de voiture. | However, it mustn't make us forget that we can sometimes do without a car.
+    pronunciation:
+      title: "certes, en revanche, néanmoins, toutefois"
+      body: |
+        Debate connectors are usually followed by a short pause, which gives weight to what comes next: *Certes,* | *c'est cher.* In *certes* [sɛʁt], the final **s** is silent.
+
+        *En revanche* [ɑ̃.ʁə.vɑ̃ʃ] has two nasal [ɑ̃] sounds; *néanmoins* [ne.ɑ̃.mwɛ̃] ends with [wɛ̃], as in *moins*; in *toutefois* [tut.fwa], the middle *e* is silent. In *tandis que*, both [tɑ̃.di.kə] and [tɑ̃.dis.kə] are heard.
+      items: |
+        certes
+        en revanche
+        néanmoins
+        toutefois
+        contrairement à
+        tandis que
+    mistakes: |
+      Contrairement que la voiture, le train pollue peu. => Contrairement à la voiture, le train pollue peu. | Contrairement is followed by à + noun.
+      Le train est lent, en revanche que l'avion est rapide. => Le train est lent, alors que l'avion est rapide. | En revanche starts a new clause; to link two facts in one sentence, use alors que or tandis que.
+      Au lieu que prendre la voiture, prends le bus. => Au lieu de prendre la voiture, prends le bus. | Au lieu de is followed by an infinitive.
+    task:
+      title: A three-way debate
+      mode: interaction
+      body: |
+        In groups of three, choose an environmental question (electric cars, short-haul flights, home renovation, eating less meat). One person moderates; the other two defend different views for four minutes. Each debater must concede one point (*certes…*), contrast two facts (*alors que…*) and propose an alternative (*plutôt que de…*). Then defend your own position in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: ___ à l'avion, le train émet très peu de CO₂. || Contrairement || Contrairement à + noun: unlike the plane. || @tags fr.connectors
+      fill: Mon frère vit en ville, ___ ma sœur habite à la campagne. || alors que / tandis que || Alors que / tandis que + indicative contrast two facts in one sentence. || @tags fr.connectors
+      fill: ___ de racheter une voiture, nous avons choisi l'autopartage. || Au lieu / Plutôt que || Au lieu de / plutôt que de + infinitive: rejecting one option for another. || @tags fr.connectors
+      mc: "Le vélo est idéal en ville. ___, il est moins pratique pour les longues distances." || *En revanche | Alors que | Contrairement à || The contrast starts a new sentence: en revanche. Alors que needs a clause in the same sentence; contrairement à needs a noun. || @tags fr.connectors
+      mc: Which connector would you choose for a formal essay? || Par contre | *Néanmoins | Mais bon || Néanmoins is formal; par contre and mais bon belong to everyday speech. || @tags fr.connectors,fr.register
+      tf: Khadija thinks that electric cars don't produce any CO₂. || false || She points out that manufacturing the car, especially the battery, "émet beaucoup plus de CO₂". || @ctx dialogue
+      short: What does Khadija suggest developing instead of betting everything on technology? || kw: transports en commun/transport/vélo/bike/bicycle/cycling/covoiturage/car-pooling/carpooling || "Développons les transports en commun, le vélo et le covoiturage." || @ctx dialogue
+      listen: @dialogue || What do Thibault and Khadija finally agree on? || *The electric car is part of the solution, but not all of it | Electric cars should replace all buses | The countryside doesn't need any cars || "La voiture électrique est une partie de la solution, pas la solution tout entière." || @tags fr.listening
+      listen: Plutôt que de construire un nouveau parking, la mairie a préféré agrandir la gare routière et ajouter des bus le soir. || What did the town hall choose to do? || *Expand the bus station and add evening buses | Build a new car park | Build a car park next to the bus station || Plutôt que de construire un parking = instead of building a car park. || @tags fr.listening,fr.connectors
+      rw: Join the two sentences with "tandis que" :: En ville, on peut se passer de voiture. À la campagne, elle reste souvent indispensable. || En ville, on peut se passer de voiture, tandis qu'à la campagne, elle reste souvent indispensable. || Tandis que + indicative links the two contrasting facts; que becomes qu' before à. || @tags fr.connectors
+      tr: Admittedly, it's expensive, but it lasts a long time. || Certes, c'est cher, mais ça dure longtemps. | Certes, c'est cher, mais cela dure longtemps. | C'est cher, certes, mais ça dure longtemps. | C'est cher, certes, mais cela dure longtemps. || Certes… mais concedes a point before the main argument. || @tags fr.connectors
+      dict: Toutefois, la voiture électrique ne doit pas nous faire oublier le vélo. || toutefois
+      ask: Is the electric car the solution? Give your view, contrasting at least two facts or options. || kw: certes/en revanche/alors que/tandis que/contrairement/au lieu de/plutôt que/néanmoins/toutefois & voiture/électrique/vélo/transports/bus/train || Certes, la voiture électrique pollue moins en ville. En revanche, elle coûte cher, alors que beaucoup de gens pourraient prendre le train ou le vélo. Plutôt que de remplacer toutes les voitures, je développerais les transports en commun.

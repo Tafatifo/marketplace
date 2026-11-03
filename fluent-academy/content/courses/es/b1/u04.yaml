@@ -1,0 +1,356 @@
+unit: 4
+title: Medios y tecnología
+theme: Media and technology
+description: Talk about how people follow the news, about digital habits and disconnecting, and solve a tech problem on the phone — reporting what others say and using the pluperfect for what had happened before.
+objectives:
+  - Report statements and questions with dice que, explica que and pregunta si / qué
+  - Use the pluperfect to say what had happened before another past event
+  - Report instructions with dice que + subjunctive when solving a problem
+canDo:
+  - I can say how I and others follow the news.
+  - I can pass on what someone has said or asked.
+  - I can talk about my digital habits and a time I disconnected.
+  - I can explain a technical problem and relay a technician's instructions.
+review: |
+  rw: Report it, starting with "Javier dice que…" :: «Escucho la radio en el coche.» || Javier dice que escucha la radio en el coche. || With dice que in the present the tense stays the same; only the person changes: escucho → escucha. || @tags es.reported-speech
+  rw: Report the question, starting with "Me pregunta si…" :: «¿Lees el periódico todos los días?» || Me pregunta si leo el periódico todos los días. || Yes/no questions are reported with si; the person changes: lees → leo. || @tags es.reported-speech
+  fill: «¿Dónde has leído esa noticia?» → Mi madre me pregunta ___ he leído esa noticia. || dónde || Wh-questions keep the question word, with its accent: pregunta dónde… || @tags es.reported-speech,es.question-words
+  fill: Cuando llegué a la estación, el tren ya ___ (salir). || había salido || The train left before I arrived: pluperfect, había + participle. || @tags es.pluperfect
+  fill: Nunca ___ (ver, nosotros) una noticia falsa tan bien hecha. || habíamos visto || Nunca + pluperfect = had never… before that moment. Ver has the irregular participle visto. || @tags es.pluperfect
+  mc: Choose the correct sentence. || Había ya cenado cuando llamaste. | *Ya había cenado cuando llamaste. | Ya cené cuando llamaste. || Nothing goes between había and the participle; ya goes before. || @tags es.pluperfect
+  mc: The technician says «Desenchufe el router». Your flatmate asks what he said. You answer: || Dice que desenchufo el router. | *Dice que desenchufe el router. | Dice que he desenchufado el router. || A reported instruction takes the subjunctive: dice que desenchufe. || @tags es.reported-speech,es.subjunctive
+  tr: She says she found out on the radio. || Dice que se enteró por la radio. | Dice que se ha enterado por la radio. | Ella dice que se enteró por la radio. | Ella dice que se ha enterado por la radio. || Enterarse de / por = to find out (about / through). The past tense of the original stays the same. || @tags es.reported-speech
+  listen: Según el telediario, mañana va a llover en todo el norte y las temperaturas van a bajar unos cinco grados. || What will happen to the temperatures? || They will rise. | *They will drop by about five degrees. | They will stay the same. || «Las temperaturas van a bajar unos cinco grados.» || @tags es.listening,es.numbers
+  listen: Cuando por fin encontré un wifi, mis amigos ya habían quedado sin mí y se habían ido a cenar. || What had happened? || *The friends had gone to dinner without the speaker. | The friends were waiting for the speaker. | The friends had cancelled the dinner. || «Ya habían quedado sin mí y se habían ido a cenar.» || @tags es.listening,es.pluperfect
+  ask: A friend calls while you are talking to the bank. Report one thing the bank employee says and one thing they ask. || kw: dice que & pregunta si/pregunta qué/pregunta cuándo/pregunta dónde || Dice que la tarjeta está bloqueada por seguridad y me pregunta si he hecho alguna compra por internet esta mañana.
+  write: Write a short post (60–80 words) for a forum about a day without internet — what had happened, how you felt and what you did instead. || min=50 || req: había/habían/habíamos | estaba/era/hacía/tenía || El jueves pasado se fue internet en todo mi barrio. Esa mañana ya había preparado una presentación importante, pero no la había guardado en la nube. Al principio estaba muy nerviosa, pero luego llamé a mi jefa y me dijo que no pasaba nada. Por la tarde, como no tenía wifi, salí a pasear y leí un libro en el parque. ¡Hacía meses que no leía tanto!
+lessons:
+  - title: News and how we follow it
+    summary: Talk about how people follow the news and report what they say and ask with dice que, explica que and pregunta si.
+    minutes: 45
+    skills: [reading, grammar, speaking]
+    tags: [es.reported-speech]
+    objectives:
+      - Talk about news sources and how much you trust them
+      - Report statements with dice que, explica que, cuenta que and reconoce que
+      - Report questions with pregunta si and pregunta + question word
+    intro: |
+      Radio, TV, newspapers, social media, short videos: everyone follows the news differently — and when we talk about it, we constantly pass on what other people say. In this lesson you will read a small survey and learn to **report** statements and questions: *Carmen dice que escucha la radio. Le preguntamos si comprueba las noticias.*
+    vocab: |
+      la actualidad | current affairs; the latest news | n | Me gusta estar al día de la actualidad. | I like to keep up with current affairs. | g: f | n: Actual = current, present (not "real").
+      la noticia | piece of news; news item | n | ¿Has visto la noticia del incendio? | Have you seen the news about the fire? | g: f | n: Countable: una noticia, las noticias.
+      el telediario | TV news (programme) | n | En mi casa siempre vemos el telediario de las nueve. | At home we always watch the nine o'clock news. | g: m | n: Spain. Latin America: el noticiero.
+      el titular | headline | n | Muchas personas solo leen los titulares. | Many people only read the headlines. | g: m
+      el periódico digital | online newspaper | n | Leo dos periódicos digitales cada mañana. | I read two online newspapers every morning. | g: m
+      las redes sociales | social media | n | Mi hermano se informa solo por las redes sociales. | My brother gets his news only from social media. | g: f | pl: redes sociales
+      informarse | to keep informed; to get the news | v | ¿Cómo te informas tú? | How do you keep up with the news?
+      enterarse de | to find out (about) | v | Me enteré del accidente por la radio. | I found out about the accident on the radio. | n: ¿Te has enterado? = Have you heard?
+      fiarse de | to trust | v | No me fío de las noticias que me llegan por el móvil. | I don't trust the news that reaches me on my phone. | n: Stress on the í: me fío, te fías.
+      la tertulia | discussion programme; panel debate | n | Por las mañanas escucho una tertulia en la radio. | In the mornings I listen to a discussion programme on the radio. | g: f
+      el bulo | hoax; fake news | n | Ese mensaje es un bulo: no lo compartas. | That message is a hoax: don't share it. | g: m | n: Spain. Also la noticia falsa.
+      comprobar | to check | v | Siempre compruebo la fuente antes de compartir algo. | I always check the source before sharing something. | n: o → ue: compruebo.
+      el / la periodista | journalist | n | Mi prima es periodista en una radio local. | My cousin is a journalist at a local radio station. | g: m/f
+    grammar:
+      title: "Reported speech in the present: dice que…, pregunta si…"
+      body: |
+        When the reporting verb is in the **present** — *dice, explica, cuenta, asegura, reconoce, pregunta* — the verb tense of the original words **does not change**. What changes is the point of view: the person of the verb (*escucho → escucha*), possessives (*mi → su*) and pronouns (*me → le / se*).
+
+        - **Statements**: *dice que* + indicative. Repeat *que* before each new clause: *Dice que escucha la radio **y que** ve el telediario.*
+        - **Yes/no questions**: *pregunta **si*** + indicative: *«¿Compruebas las noticias?» → Le preguntamos si comprueba las noticias.*
+        - **Questions with a question word**: keep the word and its accent: *«¿Dónde lo has leído?» → Pregunta **dónde** lo he leído.*
+
+        Other useful reporting verbs: *explica que* (explains), *cuenta que* (tells), *asegura que* (claims, assures), *reconoce que* / *admite que* (admits).
+      table: |
+        Direct speech | Reported speech
+        «Escucho la radio.» | Dice que escucha la radio.
+        «Mi hijo no lee periódicos.» | Dice que su hijo no lee periódicos.
+        «He visto el telediario.» | Dice que ha visto el telediario.
+        «¿Compruebas las noticias?» | Me pregunta si compruebo las noticias.
+        «¿Dónde lo has leído?» | Me pregunta dónde lo he leído.
+      examples: |
+        Carmen dice que no se fía de las noticias del móvil. | Carmen says she doesn't trust the news on her phone. | me fío → se fía
+        Javier reconoce que a veces no quiere saber nada de política. | Javier admits that sometimes he doesn't want to know anything about politics.
+        Le preguntamos si paga por leer el periódico. | We ask her whether she pays to read the newspaper. | yes/no question: si
+        Mi abuela pregunta qué es un pódcast. | My grandmother asks what a podcast is. | question word: qué
+      tip: "Don't add de after decir: dice que…, never dice de que…"
+    reading:
+      title: ¿Cómo te informas?
+      text: |
+        Para el periódico de nuestro instituto, hemos preguntado a cuatro personas de distintas edades cómo siguen la actualidad. Estas son sus respuestas.
+
+        Carmen, de 67 años, jubilada, dice que escucha la radio todas las mañanas mientras desayuna y que por la noche ve el telediario. Explica que no se fía de las noticias que le llegan por el móvil porque «muchas son mentira».
+
+        Javier, de 45 años, taxista, cuenta que pasa muchas horas en el coche y que por eso escucha tertulias y pódcast. Reconoce que a veces está tan cansado que no quiere saber nada de política.
+
+        Yasmina, de 29 años, periodista, asegura que lee tres periódicos digitales cada día, aunque admite que muchas veces solo lee los titulares. Dice que paga una suscripción porque «el buen periodismo cuesta dinero».
+
+        Por último, Hugo, de 17 años, estudiante, nos explica que se entera de casi todo por las redes sociales y por los vídeos cortos de algunos creadores de contenido. Cuando le preguntamos si comprueba las noticias, dice que no siempre, pero que, si algo le parece raro, lo busca en una web de verificación.
+
+        Al final, todos coinciden en una cosa: dicen que hay demasiada información y que cada vez es más difícil saber qué es verdad.
+      translation: |
+        For our school newspaper, we have asked four people of different ages how they follow current affairs. These are their answers.
+
+        Carmen, 67, retired, says that she listens to the radio every morning while she has breakfast and that in the evening she watches the TV news. She explains that she doesn't trust the news that reaches her on her phone because "a lot of it is lies".
+
+        Javier, 45, a taxi driver, says that he spends many hours in the car and that's why he listens to discussion programmes and podcasts. He admits that sometimes he is so tired that he doesn't want to know anything about politics.
+
+        Yasmina, 29, a journalist, claims that she reads three online newspapers every day, although she admits that she often reads only the headlines. She says she pays for a subscription because "good journalism costs money".
+
+        Finally, Hugo, 17, a student, explains to us that he finds out about almost everything on social media and through the short videos of some content creators. When we ask him whether he checks the news, he says not always, but that, if something seems strange to him, he looks it up on a fact-checking website.
+
+        In the end, they all agree on one thing: they say there is too much information and that it is harder and harder to know what is true.
+    pronunciation:
+      title: "Numbers in the news: por ciento, millones"
+      body: |
+        News is full of figures. **%** is read *por ciento*: *el 45 %* = *el cuarenta y cinco por ciento*. Spain writes decimals with a comma, read *coma*: *3,5* = *tres coma cinco*. **Millón** takes *de* before a noun: *dos millones **de** personas*, but *mil* doesn't: *mil quinientas personas*. Practise saying the figures smoothly, without pausing between the words.
+      items: |
+        por ciento
+        el cuarenta y cinco por ciento
+        dos millones de personas
+        tres coma cinco
+        mil quinientos
+        la mitad
+    culture:
+      title: Radio mornings and the evening telediario
+      body: |
+        Radio is still very strong in Spain: millions of people listen to the long morning programmes, full of interviews and **tertulias**, on their way to work. On television, the main news programmes are on at lunchtime, around 3 p.m., and in the evening, around 9 p.m. — that is why *el telediario* is part of family meals in many homes.
+
+        A word you will hear a lot is **bulo**, a hoax or piece of fake news. Several Spanish fact-checking websites check viral messages, and many people forward them to the family group chat with the warning *¡Ojo, es un bulo!*
+    mistakes: |
+      Dice de que no tiene tiempo. => Dice que no tiene tiempo. | Decir is followed directly by que, without de.
+      «Mi hijo trabaja en la radio.» → Dice que mi hijo trabaja en la radio. => Dice que su hijo trabaja en la radio. | The possessive changes with the point of view: mi → su.
+      Las noticias es muy interesante. => La noticia es muy interesante. | One news item is una noticia; las noticias is plural.
+    task:
+      title: A mini news survey
+      mode: speaking
+      body: |
+        Ask two people (friends, family or classmates) how they follow the news, what they trust and what they don't. Then report their answers in Spanish in about one minute, using at least four different reporting verbs (*dice que, explica que, reconoce que, pregunta si…*). Record yourself in Speaking practice.
+    exercises: |
+      mc: How does Carmen follow the news in the evening? || On the radio | *She watches the TV news | On social media || «Por la noche ve el telediario.» || @ctx reading @tags es.reading
+      tf: Yasmina always reads full articles. || false || «Admite que muchas veces solo lee los titulares.» || @ctx reading @tags es.reading
+      short: Where does Hugo check news that seems strange to him? || kw: verificación/fact/web/website || «Si algo le parece raro, lo busca en una web de verificación.» || @ctx reading @tags es.reading
+      mc: What do all four people agree on? || *There is too much information. | Social media is the best source. | Newspapers are too expensive. || «Dicen que hay demasiada información y que cada vez es más difícil saber qué es verdad.» || @ctx reading @tags es.reading
+      rw: Report it, starting with "Carmen dice que…" :: «No me fío de las noticias del móvil.» || Carmen dice que no se fía de las noticias del móvil. || Me fío → se fía: the person changes, the tense stays the same. || @tags es.reported-speech
+      rw: Report the question, starting with "Te pregunta si…" :: «¿Has visto el telediario?» || Te pregunta si has visto el telediario. || A yes/no question is reported with si. || @tags es.reported-speech
+      fill: «¿Dónde trabajas?» → Me pregunta ___ trabajo. || dónde || Keep the question word and its written accent. || @tags es.reported-speech,es.question-words
+      fill: «Mi hijo solo lee los titulares.» → Dice que ___ hijo solo lee los titulares. || su || The possessive changes with the point of view: mi → su. || @tags es.reported-speech,es.possessives
+      mc: «Me he enterado por la radio» means… || *I found out on the radio. | I got angry with the radio. | I went into the radio station. || Enterarse = to find out. || @skill vocabulary @tags es.vocabulary
+      tr: She says she doesn't trust social media. || Dice que no se fía de las redes sociales. | Dice que no confía en las redes sociales. | Ella dice que no se fía de las redes sociales. | Ella dice que no confía en las redes sociales. || Fiarse de or confiar en = to trust; the reported verb is in the third person. || @tags es.reported-speech
+      listen: Mi madre dice que han cortado la calle Mayor por una manifestación y que es mejor ir en metro. || What does the mother say? || The metro is closed. | *Calle Mayor is closed because of a demonstration. | There is a metro strike today. || «Han cortado la calle Mayor por una manifestación.» || @tags es.listening,es.reported-speech
+      listen: Según una encuesta, el cuarenta por ciento de los jóvenes se informa sobre todo por las redes sociales. || What percentage of young people mainly use social media for news, according to the survey? || 14% | *40% | 4% || Cuarenta por ciento = 40 %. || @tags es.listening,es.numbers
+      dict: Dice que se entera de casi todo por las redes sociales.
+      ask: A Spanish friend asks «¿Y tú cómo te informas?». Answer, then report what someone you know says about the news. || kw: leo/escucho/veo/me entero/me informo & dice que || Yo leo un periódico digital por la mañana y escucho la radio en el coche. Mi padre, en cambio, dice que solo se fía del telediario.
+
+  - title: Digital life
+    summary: Talk about your digital habits and a time you disconnected, using the pluperfect for what had happened before.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [es.pluperfect]
+    objectives:
+      - Form the pluperfect with había + past participle
+      - Say what had (or had never) happened before a past moment
+      - Talk about screen time, social media and disconnecting
+    intro: |
+      How many times have you looked at your phone today? In this lesson Carla tells a colleague about a week without her phone. To explain what had happened *before* that week — or what she had **never** done before — she needs the **pluperfect**: *Nunca había pasado ni un día sin conectarme.*
+    vocab: |
+      el móvil | mobile phone | n | Mi móvil se ha quedado sin batería. | My phone has run out of battery. | g: m | n: Latin America: el celular.
+      la pantalla | screen | n | Paso demasiadas horas delante de una pantalla. | I spend too many hours in front of a screen. | g: f
+      el tiempo de pantalla | screen time | n | Este mes he reducido mi tiempo de pantalla. | This month I've cut down my screen time. | g: m
+      la notificación | notification | n | He desactivado las notificaciones del trabajo. | I've switched off my work notifications. | g: f | pl: notificaciones
+      estar enganchado a | to be hooked on | expr | Mi hijo está enganchado a los videojuegos. | My son is hooked on video games. | n: Engancharse = to get hooked.
+      desconectar | to switch off; to disconnect | v | En vacaciones necesito desconectar del todo. | On holiday I need to switch off completely.
+      conectarse | to go online; to log on | v | Me conecto a internet desde el tren. | I go online on the train.
+      quedarse sin batería | to run out of battery | expr | Me quedé sin batería en mitad del viaje. | My battery died in the middle of the journey.
+      subir | to upload; to post | v | Subió cien fotos de la boda. | She posted a hundred photos of the wedding. | c: subir una foto; subir un vídeo
+      descargar(se) | to download | v | Me he descargado un mapa para usarlo sin conexión. | I've downloaded a map to use offline.
+      el mensaje de voz | voice message | n | Mi abuela me manda mensajes de voz de cinco minutos. | My grandmother sends me five-minute voice messages. | g: m | n: Colloquially, un audio.
+      previsor | far-sighted; well-prepared | adj | Qué previsora eres: lo tienes todo planeado. | How well-prepared you are: you've got it all planned.
+    grammar:
+      title: "The pluperfect: había + participle"
+      body: |
+        The **pluscuamperfecto** expresses an action that happened **before** another past action — the "past of the past", like English *had done*. Form it with the imperfect of *haber* + the past participle: **había, habías, había, habíamos, habíais, habían** + *-ado / -ido*.
+
+        *Cuando encendí el móvil, ya **habían llegado** trescientos mensajes.* (First the messages arrived, then I switched on the phone.)
+
+        It is very common with **ya** (already), **todavía no** (not yet) and **nunca** (never, up to that moment): *Nunca **había estado** tan tranquila.* Remember the irregular participles you learnt at A2: *hecho, dicho, visto, escrito, puesto, vuelto, roto, abierto, descubierto, muerto*.
+
+        Nothing goes between *había* and the participle: *ya **había** salido*, not *había ya salido*. Object and reflexive pronouns go before *había*: ***se** había quedado sin batería*.
+      table: |
+        Person | haber (imperfect) | + participle
+        yo | había | desconectado
+        tú | habías | visto
+        él / ella / usted | había | salido
+        nosotros / nosotras | habíamos | hecho
+        vosotros / vosotras | habíais | dicho
+        ellos / ellas / ustedes | habían | vuelto
+      examples: |
+        Cuando llegué a la oficina, la reunión ya había empezado. | When I got to the office, the meeting had already started. | ya + pluperfect
+        Nunca había pasado un fin de semana sin internet. | I had never spent a weekend without internet. | nunca
+        Laura no contestó porque se había quedado sin batería. | Laura didn't answer because her battery had died. | pronoun before había
+        Me había descargado un mapa, así que no me perdí. | I had downloaded a map, so I didn't get lost.
+      tip: "Use the pluperfect only when the order of events matters. In a simple sequence — me levanté, desayuné y salí — the indefinido is enough."
+    dialogue:
+      title: Una semana sin móvil
+      setting: Monday morning at an office in Bilbao. Carla is back from a week of digital detox in a village in the Pyrenees, and her colleague Mateo wants to know how it went.
+      speakers: M=Mateo/m; C=Carla/f
+      lines: |
+        M: ¡Carla! ¿Qué tal la semana sin móvil? ¿Sobreviviste? | Carla! How was the week without your phone? Did you survive?
+        C: ¡Sí! Y la verdad es que nunca había estado tan tranquila. | Yes! And honestly, I'd never been so relaxed.
+        M: Yo no podría. ¿No lo echaste de menos ni un poco? | I couldn't do it. Didn't you miss it even a bit?
+        C: Al principio, muchísimo. Hasta entonces nunca había pasado ni un día sin conectarme. | At first, a lot. Until then I had never gone a single day without going online.
+        M: ¿Y cómo sabías la hora, el camino, las noticias…? | And how did you know the time, the way, the news…?
+        C: Me había comprado un reloj y un mapa de papel antes de ir. | I had bought a watch and a paper map before going.
+        M: ¡Qué previsora! Seguro que al volver tenías mil mensajes, ¿no? | How well-prepared! I bet you had a thousand messages when you got back, didn't you?
+        C: Trescientos cuarenta. Y ninguno era urgente, ¿eh? El mundo había seguido sin mí. | Three hundred and forty. And none of them was urgent, you know? The world had carried on without me.
+        M: Pues yo esta mañana ya había mirado el móvil veinte veces antes de desayunar. | Well, this morning I'd already looked at my phone twenty times before breakfast.
+        C: Por eso te recomiendo que lo pruebes, por lo menos un fin de semana. | That's why I recommend you try it, at least for a weekend.
+        M: Vale, pero antes voy a desactivar las notificaciones. ¡Es un primer paso! | OK, but first I'm going to turn off notifications. It's a first step!
+    pronunciation:
+      title: "Tech words in Spanish: el wifi, el router, la app"
+      body: |
+        Many tech words come from English but are pronounced with Spanish sounds. *Wifi* is [ˈwifi] (some speakers say [ˈɡwifi]), *router* is usually [ˈruter], *app* sounds like [ap], and *email* like [iˈmeil]. Spanish also has its own words: *la aplicación* for app and *el correo* for email. Say the items with Spanish vowels — short and pure.
+      items: |
+        el wifi
+        el router
+        la app
+        el pódcast
+        el selfi
+        el email
+    culture:
+      title: Voice messages and the right to disconnect
+      body: |
+        In Spain and Latin America, **voice messages** (*audios*) are hugely popular — some people send them instead of writing, and the family group chat (*el grupo de la familia*) can be busy from early morning. Others find long audios annoying and ask: *¿Me lo puedes escribir?*
+
+        Spain recognises a legal **right to digital disconnection** (*derecho a la desconexión digital*) for workers, included in the 2018 data protection law: outside working hours, employees should not be expected to answer work emails or messages.
+    mistakes: |
+      Cuando llegué, la película ya empezó. => Cuando llegué, la película ya había empezado. | The action that happened first takes the pluperfect.
+      Había ya terminado cuando llamaste. => Ya había terminado cuando llamaste. | Nothing goes between había and the participle.
+      Se me cayó el móvil y la pantalla se había rompido. => Se me cayó el móvil y la pantalla se había roto. | Romper has an irregular participle: roto.
+    task:
+      title: My digital detox
+      mode: speaking
+      body: |
+        Tell the story of a time you were without your phone or internet (a trip, a power cut, a broken phone). Explain what had happened before, how you felt and what you did instead. Use at least three verbs in the pluperfect, plus the indefinido and the imperfecto. Speak for about a minute and record yourself in Speaking practice.
+    exercises: |
+      fill: Cuando encendí el móvil, ya ___ (llegar) trescientos mensajes. || habían llegado || The messages arrived before I switched on the phone: pluperfect. || @tags es.pluperfect
+      fill: Antes de ese viaje, nunca ___ (pasar, yo) un día sin internet. || había pasado || Nunca + pluperfect = I had never… up to that moment. || @tags es.pluperfect
+      fill: Laura no contestó porque ___ (quedarse) sin batería. || se había quedado || The reflexive pronoun goes before había. || @tags es.pluperfect,es.reflexive
+      fill: Cuando volví, mis compañeros ya ___ (escribir) el informe. || habían escrito || Escribir has an irregular participle: escrito. || @tags es.pluperfect
+      mc: Choose the correct form: «Se me cayó el móvil y la pantalla se había…» || rompido | *roto | rota || Romper → roto. With haber, the participle never changes for gender: se había roto. || @tags es.pluperfect
+      mc: «Estoy enganchado al móvil» means… || *I'm hooked on my phone. | My phone is broken. | I'm on the phone right now. || Estar enganchado a = to be hooked on. || @skill vocabulary @tags es.vocabulary
+      tf: Before this week, Carla had often spent days without the internet. || false || «Hasta entonces nunca había pasado ni un día sin conectarme.» || @ctx dialogue
+      short: What had Carla bought before the trip? || kw: reloj/watch & mapa/map || «Me había comprado un reloj y un mapa de papel antes de ir.» || @ctx dialogue
+      rw: Combine the two events, starting with "Cuando yo llegué…" :: Primero mi hermana se fue. Después yo llegué. || Cuando yo llegué, mi hermana ya se había ido. | Cuando llegué, mi hermana ya se había ido. || The earlier event (se fue) becomes pluperfect: se había ido. || @tags es.pluperfect
+      tr: I had never seen so many messages. || Nunca había visto tantos mensajes. | No había visto nunca tantos mensajes. || Nunca + había + visto (irregular participle). || @tags es.pluperfect
+      listen: Cuando llegué a casa, mi hijo ya había subido las fotos de la fiesta a internet. || What had the son done? || *He had posted the party photos online. | He had deleted the party photos. | He had forgotten to take photos. || «Ya había subido las fotos de la fiesta a internet.» || @tags es.listening,es.pluperfect
+      listen: @dialogue || How many messages did Carla have when she got back? || Thirty-four | *Three hundred and forty | Three thousand four hundred || «Trescientos cuarenta. Y ninguno era urgente.» || @tags es.listening,es.numbers
+      dict: Nunca había pasado una semana entera sin móvil.
+      say: Ya había salido de casa cuando me di cuenta de que no llevaba el móvil. || I had already left home when I realised I didn't have my phone.
+
+  - title: Solving a tech problem
+    summary: Explain a technical problem on the phone and pass on a technician's questions and instructions, using pregunta si and dice que + subjunctive.
+    minutes: 45
+    skills: [listening, speaking, grammar]
+    tags: [es.reported-speech, es.subjunctive]
+    objectives:
+      - Describe a technical problem with devices and the internet
+      - Report questions with pregunta si and pregunta + question word
+      - Report instructions with dice que / pide que + subjunctive
+    intro: |
+      The internet is down, the laptop has frozen, the app won't update — and someone has to call technical support while someone else asks *¿Qué te dice?* In this lesson you will learn the vocabulary of tech problems and how to pass on **questions** and **instructions**. A reported instruction uses the subjunctive you learnt in Unit 3: *Dice que **desenchufe** el router.*
+    vocab: |
+      el servicio técnico | technical support; repair service | n | He llamado al servicio técnico tres veces. | I've called technical support three times. | g: m
+      la avería | fault; breakdown | n | Hay una avería en la línea de todo el barrio. | There's a fault on the line in the whole neighbourhood. | g: f
+      funcionar | to work (machines) | v | El portátil no funciona desde ayer. | The laptop hasn't worked since yesterday. | n: People trabajan; machines funcionan.
+      reiniciar | to restart | v | ¿Ha probado a reiniciar el ordenador? | Have you tried restarting the computer?
+      colgarse | to freeze; to crash | v | Se me ha colgado el ordenador otra vez. | My computer has frozen again. | n: o → ue: se cuelga. Colgar (el teléfono) = to hang up.
+      actualizar | to update | v | Tienes que actualizar la aplicación. | You need to update the app. | n: La actualización = the update.
+      la contraseña | password | n | He olvidado la contraseña del wifi. | I've forgotten the wifi password. | g: f
+      desenchufar | to unplug | v | Desenchufe el router y espere un minuto. | Unplug the router and wait a minute. | n: Enchufar = to plug in; el enchufe = the socket.
+      parpadear | to blink; to flash | v | La luz del router parpadea en rojo. | The router light is flashing red.
+      los datos móviles | mobile data | n | Me he quedado sin datos móviles. | I've run out of mobile data. | g: m | pl: datos móviles
+      la copia de seguridad | backup | n | Haz una copia de seguridad antes de actualizar. | Make a backup before updating. | g: f
+      el ordenador | computer | n | Tengo el ordenador lleno de fotos. | My computer is full of photos. | g: m | n: Latin America: la computadora. A laptop is un portátil.
+    grammar:
+      title: Reporting questions and instructions
+      body: |
+        You already know how to report statements: *dice que* + indicative. Questions and instructions work like this:
+
+        - **Yes/no questions**: *pregunta si* + indicative: *«¿Ha reiniciado el router?» → Pregunta si he reiniciado el router.*
+        - **Questions with a question word**: *pregunta qué / cuándo / cómo / dónde…*: *«¿Qué luces ve?» → Pregunta qué luces veo.*
+        - **Instructions and requests**: *dice que / pide que* + **subjunctive**: *«Desenchufe el router.» → Dice que desenchufe el router.*
+
+        Compare: *Dice que **viene** el técnico* (information: the technician is coming) and *Dice que **vengas*** (an instruction: he wants you to come). The mood tells you which one it is.
+
+        Adjust the person to the new speaker: an instruction to me with usted (*reinicie*) becomes *dice que reinicie* when I report it, or *dice que reinicies* when I pass it on to you.
+      table: |
+        Original | Reported
+        «Hay una avería en su zona.» | Dice que hay una avería en nuestra zona.
+        «¿Tiene la última versión?» | Pregunta si tengo la última versión.
+        «¿Cuándo empezó el problema?» | Pregunta cuándo empezó el problema.
+        «Desenchufe el router.» | Dice que desenchufe el router.
+        «No toquéis nada.» | Dice que no toquemos nada.
+      examples: |
+        El técnico pregunta si la luz parpadea. | The technician is asking whether the light is flashing. | yes/no question
+        Me pregunta qué modelo de ordenador tengo. | He's asking me what computer model I have. | question word
+        Dice que hagamos una copia de seguridad antes de actualizar. | He says we should make a backup before updating. | instruction: subjunctive
+        Mi madre me pide que le cambie la contraseña del wifi. | My mother is asking me to change the wifi password for her. | pedir que
+      tip: "If you can translate it with 'says to…' or 'says we should…', it's an instruction: use the subjunctive."
+    dialogue:
+      title: Sin internet
+      setting: A shared flat in Málaga, Tuesday morning. The internet is down. Pilar is on the phone to technical support (Raúl, who uses usted with her) while her flatmate Dani waits for an important video call.
+      speakers: P=Pilar/f; R=Raúl/m; D=Dani/m
+      lines: |
+        D: ¿Todavía no funciona internet? Tengo una videollamada importante en diez minutos. | The internet still isn't working? I've got an important video call in ten minutes.
+        P: Espera, que por fin me ha contestado alguien del servicio técnico. | Hang on, someone from technical support has finally answered.
+        R: Buenos días. ¿Me podría decir qué luces ve en el router? | Good morning. Could you tell me what lights you can see on the router?
+        P: Hay una luz roja que parpadea. Y ya lo había reiniciado dos veces. | There's a red light flashing. And I had already restarted it twice.
+        R: Vale. Hay una avería en su barrio. Le recomiendo que desenchufe el router y espere media hora. | OK. There's a fault in your area. I recommend you unplug the router and wait half an hour.
+        D: ¿Qué te dice? ¿Es culpa nuestra o de la compañía? | What's he saying? Is it our fault or the company's?
+        P: Dice que hay una avería en el barrio y que desenchufe el router media hora. | He says there's a fault in the area and that I should unplug the router for half an hour.
+        D: Pregúntale si podemos usar los datos del móvil sin pagar más. | Ask him whether we can use mobile data without paying extra.
+        P: Perdone, mi compañero pregunta si podemos compartir los datos del móvil gratis. | Excuse me, my flatmate is asking whether we can share mobile data for free.
+        R: Sí, este mes tiene diez gigas extra sin coste. Ya están activados en su línea. | Yes, this month you have ten extra gigabytes at no cost. They're already activated on your line.
+        P: ¡Genial, muchas gracias! Dani, dice que tenemos diez gigas gratis. | Great, thank you very much! Dani, he says we've got ten free gigabytes.
+        D: ¡Menos mal! Entonces me conecto con el móvil y listo. | Thank goodness! Then I'll connect with my phone and that's it.
+    pronunciation:
+      title: "Direct and reported questions: ¿Funciona? / Pregunta si funciona"
+      body: |
+        A direct yes/no question **rises** at the end: *¿Funciona?* ↗. When you report it, it becomes a statement and the voice **falls** at the end: *Pregunta si funciona* ↘. Questions with a question word usually fall in both cases, but the question word is stressed: *¿**Qué** luces ve?* / *Pregunta **qué** luces veo.* Listen and copy the contrast.
+      items: |
+        ¿Funciona?
+        Pregunta si funciona.
+        ¿Lo ha reiniciado?
+        Dice que lo reinicie.
+        ¿Qué luces ve?
+        Pregunta qué luces veo.
+    culture:
+      title: "Ordenador or computadora? Tech words across the Spanish-speaking world"
+      body: |
+        Tech vocabulary varies a lot. In Spain you use an **ordenador** and a **móvil**; in most of Latin America, a **computadora** (or **computador** in some countries) and a **celular**. A laptop is a **portátil** in Spain and often a **laptop** or **computadora portátil** in Latin America. The person who fixes your computer is **el informático / la informática**.
+
+        When you call customer service, you will often hear a recorded menu first: *Para averías, pulse 1* — press 1 for faults. Saying *Quiero hablar con una persona* sometimes helps!
+    mistakes: |
+      Dice que reinicio el router. (passing on an instruction) => Dice que reinicie el router. | A reported instruction takes the subjunctive.
+      Me pregunta funciona internet. => Me pregunta si funciona internet. | Yes/no questions are reported with si.
+      Mi ordenador no trabaja. => Mi ordenador no funciona. | Machines funcionan; people trabajan.
+    task:
+      title: Calling technical support
+      mode: interaction
+      body: |
+        With a partner, role-play a call to technical support: one person explains a problem (no internet, a frozen laptop, an app that won't update); the other asks questions and gives two instructions with usted. A third person — or you, afterwards — reports the conversation: *Dice que…, pregunta si…, dice que + subjunctive.* If you practise alone, record both parts in Speaking practice.
+    exercises: |
+      fill: «Reinicie el ordenador.» → El técnico me dice que ___ el ordenador. || reinicie || A reported instruction takes the subjunctive; it is addressed to me: reinicie. || @tags es.reported-speech,es.subjunctive
+      fill: «¿Tiene usted la última versión?» → Me pregunta ___ tengo la última versión. || si || A yes/no question is reported with si. || @tags es.reported-speech
+      fill: «¿Cuándo empezó el problema?» → Pregunta ___ empezó el problema. || cuándo || Keep the question word with its accent. || @tags es.reported-speech,es.question-words
+      fill: «No apaguéis el router.» → Dice que no ___ el router. (vosotros) || apaguéis || Instruction to vosotros: subjunctive apaguéis (g → gu before e). || @tags es.reported-speech,es.subjunctive
+      mc: Your flatmate says «El técnico dice que vengas». This is… || information about the technician. | *an instruction for you to come. | a question for you. || Dice que + subjunctive (vengas) reports an instruction. || @tags es.reported-speech,es.subjunctive
+      mc: «Se me ha colgado el ordenador» means… || *My computer has frozen. | I've hung up the phone. | My computer has been stolen. || Colgarse = to freeze or crash. || @skill vocabulary @tags es.vocabulary
+      tf: Pilar had already restarted the router before calling. || true || «Y ya lo había reiniciado dos veces.» || @ctx dialogue
+      short: How much extra mobile data do they get this month? || kw: diez/10 || «Este mes tiene diez gigas extra sin coste.» || @ctx dialogue
+      rw: Pass on the instruction, starting with "Dice que…" :: «Actualice la aplicación.» || Dice que actualice la aplicación. | Dice que actualices la aplicación. || A reported instruction takes the subjunctive: actualice (to me) or actualices (to you). || @tags es.reported-speech,es.subjunctive
+      tr: She says the computer doesn't work. || Dice que el ordenador no funciona. | Dice que la computadora no funciona. | Ella dice que el ordenador no funciona. | Ella dice que la computadora no funciona. || Information: dice que + indicative. Machines funcionan. || @tags es.reported-speech
+      listen: Ha llamado tu hermano. Dice que se le ha roto el portátil y pregunta si puedes ayudarle esta tarde. || What does your brother want? || To borrow some money | *Help with his broken laptop this afternoon | A new phone || «Se le ha roto el portátil y pregunta si puedes ayudarle esta tarde.» || @tags es.listening,es.reported-speech
+      listen: @dialogue || What does the technician recommend? || Buying a new router | *Unplugging the router and waiting half an hour | Calling back the next day || «Le recomiendo que desenchufe el router y espere media hora.» || @tags es.listening
+      dict: El técnico dice que desenchufe el router y espere media hora.
+      ask: Your friend asks what the technician told you. Report one fact and one instruction. || kw: dice que & desenchufe/reinicie/actualice/espere/llame/haga/compruebe/apague || Dice que hay una avería en el barrio y que reinicie el router dentro de una hora.

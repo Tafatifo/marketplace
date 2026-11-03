@@ -1,0 +1,367 @@
+unit: 6
+title: Gesundheit und Lebensstil
+theme: Health and lifestyle
+description: Talk about stress and relaxation with reflexive verbs and their prepositions, compare food habits with wo- and da-compounds, and describe your relationship with sport using da-compounds before dass and zu.
+objectives:
+  - Use reflexive verbs with fixed prepositions (sich freuen auf, sich ärgern über, sich kümmern um)
+  - Ask with wo-compounds (Woran? Worüber?) and answer with da-compounds (daran, darüber)
+  - Use da-compounds to introduce a dass-clause or a zu-infinitive
+canDo:
+  - I can describe what stresses me and what helps me relax.
+  - I can compare eating habits in Germany and in my country.
+  - I can talk about a sport I do, what I'm proud of and what I look forward to.
+  - I can understand a personal blog post about health and fitness.
+review: |
+  fill: Ich ärgere mich ___ den ständigen Lärm im Büro. || über || The fixed combination is sich ärgern über + accusative. || @tags de.reflexive,de.prepositions
+  fill: Sie kümmert sich ___ ihren kranken Vater. || um || Sich kümmern um + accusative = to take care of. || @tags de.reflexive,de.prepositions
+  mc: "___ hast du dich so gefreut?" – "Über deine Nachricht!" || *Worüber | Wofür | Worauf || The answer uses über (sich freuen über = to be pleased about), so the question is worüber. || @tags de.questions,de.prepositions
+  fill: Freust du dich auf die Ferien? – Ja, ich freue mich sehr ___. || darauf || Auf + a thing is replaced by da + r + auf = darauf. || @tags de.prepositions
+  mc: "Wartest du auf Lena?" – "Ja, ich warte ___." || darauf | *auf sie | auf ihr || Lena is a person, so you keep the preposition and use a pronoun: auf sie (accusative). Da-compounds are only for things. || @tags de.prepositions,de.accusative
+  fill: Ich achte ___, dass ich jeden Tag genug Wasser trinke. || darauf || Achten auf; before a dass-clause, darauf announces the clause. || @tags de.prepositions,de.subordinate-clauses
+  rw: Ask about the object with a wo-compound :: Er interessiert sich für Fußball. || Wofür interessiert er sich? || Für + a thing → wofür; the verb follows in position 2. || @tags de.questions,de.reflexive
+  tr: I can't get used to the cold evening meal. || Ich kann mich nicht an das kalte Abendessen gewöhnen. | Ich kann mich nicht an das kalte Abendbrot gewöhnen. | An das kalte Abendessen kann ich mich nicht gewöhnen. | An das kalte Abendbrot kann ich mich nicht gewöhnen. || Sich gewöhnen an + accusative; the infinitive gewöhnen goes to the end. || @tags de.reflexive,de.prepositions
+  listen: Seit ich mich jeden Abend zehn Minuten auf meine Atmung konzentriere, schlafe ich viel besser. || What has improved for the speaker? || His concentration at work | *His sleep | His breathing during sport || "Seit ich mich jeden Abend … auf meine Atmung konzentriere, schlafe ich viel besser." || @tags de.listening,de.reflexive
+  listen: Woran ich mich in Deutschland nie gewöhnen werde? An die geschlossenen Geschäfte am Sonntag! || What can't the speaker get used to? || The cold evening meal | *Shops being closed on Sundays | The weather || "An die geschlossenen Geschäfte am Sonntag!" || @tags de.listening,de.prepositions
+  ask: Tell a friend what you are looking forward to this month and what you got annoyed about last week. || kw: freue mich/gefreut/ärgere mich/geärgert & auf/über || Ich freue mich auf das Konzert am Freitag. Letzte Woche habe ich mich über meinen Zug geärgert – er hatte jeden Tag Verspätung.
+  write: Write a message (60–80 words) to a friend who feels stressed. Say what you do when you're stressed and give advice. Use at least two reflexive verbs with prepositions. || min=50 || req: mich/dich | auf/über/um/von/mit | solltest/würde/könntest || Hallo Sami, das klingt nach einer schweren Woche! Wenn ich gestresst bin, verabrede ich mich mit Freunden zum Klettern. Danach kann ich mich viel besser auf die Arbeit konzentrieren. Du solltest dich am Wochenende richtig erholen – vielleicht mit einem langen Spaziergang am See? Und ärgere dich nicht über die vielen E-Mails, die können warten. Ich freue mich schon auf unser Treffen am Sonntag! Liebe Grüße, Lea
+lessons:
+  - title: Stress and wellbeing
+    summary: Talk about stress, worries and relaxation with reflexive verbs and their fixed prepositions.
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.reflexive, de.prepositions]
+    objectives:
+      - Use reflexive verbs with fixed prepositions and the right case
+      - Distinguish sich freuen auf and sich freuen über
+      - Describe causes of stress and ways to relax
+    intro: |
+      Deadlines, a new baby, too many emails — everyone gets stressed sometimes. To talk about it in German you need verbs like *sich ärgern **über***, *sich kümmern **um*** and *sich erholen **von***. Each of them comes with a fixed preposition, just as English says "look forward *to*" or "worry *about*". In this lesson two colleagues talk about stress during their lunch break.
+    vocab: |
+      gestresst | stressed | adj | In letzter Zeit bin ich total gestresst. | I've been really stressed recently. | n: Noun: der Stress. Adjective for a situation: stressig.
+      erschöpft | exhausted | adj | Nach der Nachtschicht bin ich völlig erschöpft. | After the night shift I'm completely exhausted.
+      abschalten | to switch off; to unwind | v | Beim Gärtnern kann ich richtig abschalten. | I can really unwind when I'm gardening. | n: Separable: hat abgeschaltet. Also used for machines.
+      sich entspannen | to relax | v | Am Wochenende entspanne ich mich in der Sauna. | At the weekend I relax in the sauna. | n: Noun: die Entspannung.
+      sich konzentrieren auf | to concentrate on | v | Ich kann mich kaum auf die Arbeit konzentrieren. | I can hardly concentrate on work. | n: auf + accusative
+      sich ärgern über | to be annoyed about | v | Ärgerst du dich immer noch über das neue Projekt? | Are you still annoyed about the new project? | n: über + accusative
+      sich kümmern um | to look after; to take care of | v | Nachts kümmere ich mich um unsere Tochter. | At night I look after our daughter. | n: um + accusative
+      sich erholen von | to recover from | v | Ich muss mich von der stressigen Woche erholen. | I need to recover from the stressful week. | n: von + dative. Noun: die Erholung.
+      sich gewöhnen an | to get used to | v | An die kurzen Nächte gewöhnt man sich nicht so schnell. | You don't get used to the short nights so quickly. | n: an + accusative
+      sich freuen auf | to look forward to | v | Ich freue mich schon auf den Urlaub im August. | I'm already looking forward to the holiday in August. | n: auf + accusative (something in the future). sich freuen über = to be pleased about.
+      sich verabreden mit | to arrange to meet | v | Ich habe mich mit Freunden zum Joggen verabredet. | I arranged to go jogging with friends. | n: mit + dative. Noun: die Verabredung.
+      das Wohlbefinden | wellbeing | n | Bewegung ist gut für das Wohlbefinden. | Exercise is good for your wellbeing. | g: n | pl: (no plural)
+    grammar:
+      title: "Reflexive verbs with prepositions"
+      body: |
+        Many reflexive verbs are always used with the same **preposition**, and the preposition decides the **case** of the noun that follows. Learn them as a unit: *sich freuen **auf** + accusative*, *sich erholen **von** + dative*.
+
+        The reflexive pronoun changes with the subject (*ich freue **mich**, du freust **dich**, er freut **sich**, wir freuen **uns**, ihr freut **euch**, sie freuen **sich***) and stays close to the verb. The prepositional phrase usually comes later in the sentence: *Ich freue **mich** schon lange **auf den Urlaub**.*
+
+        Watch out for **sich freuen**: **auf** = looking forward to something in the future; **über** = pleased about something that is happening or has happened. *Ich freue mich auf deinen Besuch* (it's coming) — *Ich freue mich über dein Geschenk* (I've got it).
+
+        The prepositions rarely match English: *sich interessieren **für*** (interested *in*), *sich konzentrieren **auf*** (concentrate *on*), *sich ärgern **über*** (annoyed *about*).
+      table: |
+        Verb | Preposition + case | Example
+        sich ärgern | über + acc. | Ich ärgere mich über den Stau.
+        sich freuen | auf + acc. (future) | Wir freuen uns auf das Wochenende.
+        sich freuen | über + acc. (now/past) | Sie freut sich über die Blumen.
+        sich kümmern | um + acc. | Er kümmert sich um seine Mutter.
+        sich konzentrieren | auf + acc. | Ich konzentriere mich auf die Prüfung.
+        sich gewöhnen | an + acc. | Man gewöhnt sich an alles.
+        sich interessieren | für + acc. | Interessierst du dich für Yoga?
+        sich erholen | von + dat. | Ich erhole mich von der Grippe.
+        sich verabreden | mit + dat. | Ich verabrede mich mit Jana.
+      examples: |
+        Ich kann mich kaum noch auf die Arbeit konzentrieren. | I can hardly concentrate on work any more. | konzentrieren auf + accusative
+        Nachts kümmere ich mich um unsere kleine Tochter. | At night I look after our little daughter. | kümmern um + accusative
+        Am Wochenende kann ich mich nicht richtig erholen. | At the weekend I can't really recover. | reflexive pronoun next to the verb
+        Und ich freue mich schon auf den Urlaub im August! | And I'm already looking forward to the holiday in August! | freuen auf (future)
+      tip: Write new verbs in your notebook with the pronoun, the preposition and the case — sich ärgern über + Akk.
+    dialogue:
+      title: Mittagspause im Park
+      setting: Lunchtime in a park in Düsseldorf. Birgit, who has worked in the company for twenty years, sits on a bench with Tobias, a younger colleague who recently became a father.
+      speakers: B=Birgit/f; T=Tobias/m
+      lines: |
+        B: Du siehst müde aus, Tobias. Ist alles in Ordnung? | You look tired, Tobias. Is everything all right?
+        T: Ehrlich gesagt nicht. Ich kann mich kaum noch auf die Arbeit konzentrieren. | Honestly, no. I can hardly concentrate on work any more.
+        B: Ärgerst du dich immer noch über das neue Projekt? | Are you still annoyed about the new project?
+        T: Auch. Aber vor allem kümmere ich mich nachts um unsere kleine Tochter. | That too. But above all I look after our little daughter at night.
+        B: Ach so, natürlich. An die kurzen Nächte gewöhnt man sich nicht so schnell. | Oh, of course. You don't get used to the short nights so quickly.
+        T: Und am Wochenende kann ich mich auch nicht richtig erholen. | And at the weekend I can't really recover either.
+        B: Als meine Söhne klein waren, habe ich mich oft mit Freundinnen zum Joggen verabredet. | When my sons were little, I often arranged to go jogging with friends.
+        T: Joggen? Für Sport habe ich im Moment wirklich keine Energie. | Jogging? I really don't have the energy for sport at the moment.
+        B: Dann mach etwas Kleines – zum Beispiel zehn Minuten spazieren gehen in der Mittagspause. | Then do something small – for example, a ten-minute walk in your lunch break.
+        T: Stimmt, hier im Park fühle ich mich schon besser. Ich sollte öfter rausgehen. | True, here in the park I already feel better. I should go out more often.
+        B: Und sprich mit unserer Chefin. Sie interessiert sich wirklich für ihr Team. | And talk to our boss. She really cares about her team.
+        T: Gute Idee. Und ich freue mich schon auf den Urlaub im August! | Good idea. And I'm already looking forward to the holiday in August!
+    pronunciation:
+      title: "mich, dich, sich: the ich-sound in reflexive pronouns"
+      body: |
+        All the reflexive pronouns *mich, dich, sich* end in the soft **ich-sound** [ç]. Keep your tongue high at the front, as for *ee*, and let the air hiss — no [k], no [ʃ]: *mich* [mɪç], not "mick" or "mish".
+
+        In a sentence the reflexive pronoun is unstressed; the stress falls on the verb or the important noun: *Ich ÄRgere mich*, *Ich freue mich auf den URlaub*.
+      items: |
+        mich
+        dich
+        sich erholen
+        Ich ärgere mich.
+        Ich freue mich auf den Urlaub.
+        Wir kümmern uns um alles.
+    culture:
+      title: Feierabend, holidays and the "Kur"
+      body: |
+        German working culture separates work and free time quite clearly: when you have *Feierabend*, many people don't expect work emails. Full-time employees are entitled by law to at least 20 days of paid holiday per year on a five-day week, and many contracts offer 25 to 30.
+
+        For serious stress or exhaustion, a doctor can recommend a longer stay in a clinic for recovery, often called a *Kur* or *Reha*, which health or pension insurance may pay for. There are even special *Mutter-Kind-Kuren* and *Vater-Kind-Kuren* for exhausted parents.
+    mistakes: |
+      Ich freue mich für den Urlaub. => Ich freue mich auf den Urlaub. | To look forward to something is sich freuen auf. Sich freuen für jemanden means to be happy for someone.
+      Ich kümmere um meine Tochter. => Ich kümmere mich um meine Tochter. | Reflexive verbs need the reflexive pronoun: ich kümmere mich.
+      Ich interessiere mich über Kunst. => Ich interessiere mich für Kunst. | The fixed preposition is für: sich interessieren für.
+    task:
+      title: Stress check
+      mode: speaking
+      body: |
+        Talk about your stress level at the moment: what you are annoyed about, what or whom you have to take care of, what you are looking forward to and how you relax. Use at least four reflexive verbs with prepositions. If stress affects your health, practise describing your symptoms with the "At the doctor's" scenario with the AI coach.
+    exercises: |
+      fill: Ich kann mich heute nicht ___ die Arbeit konzentrieren. || auf || Sich konzentrieren auf + accusative. || @tags de.reflexive,de.prepositions
+      fill: Wir freuen uns schon ___ den Urlaub im August. || auf || The holiday is in the future: sich freuen auf. || @tags de.reflexive,de.prepositions
+      fill: Wer kümmert sich ___ die Kinder, wenn du arbeitest? || um || Sich kümmern um + accusative. || @tags de.reflexive,de.prepositions
+      fill: Ärgerst ___ immer noch über deinen Chef? || du dich || The du-form needs the reflexive pronoun dich: Ärgerst du dich …? || @tags de.reflexive
+      mc: "I'm recovering from the stressful week." || *Ich erhole mich von der stressigen Woche. | Ich erhole mich über die stressige Woche. | Ich erhole von der stressigen Woche. || Sich erholen von + dative, and the reflexive pronoun mich is needed. || @tags de.reflexive,de.prepositions
+      mc: Sara opens her birthday present. "Sie freut sich ___ das Geschenk." || *über | auf | für || She already has the present, so she is pleased about it: sich freuen über. Auf is for the future. || @tags de.reflexive,de.prepositions
+      rw: Rewrite with "sich ärgern über" :: Der laute Nachbar nervt mich. || Ich ärgere mich über den lauten Nachbarn. || Über + accusative; Nachbar adds -n in the accusative (n-declension): den Nachbarn. || @tags de.reflexive,de.prepositions,de.n-declension
+      tf: Tobias is tired because he looks after his baby daughter at night. || true || "Vor allem kümmere ich mich nachts um unsere kleine Tochter." || @ctx dialogue
+      short: What is Tobias looking forward to? || kw: urlaub/holiday/vacation/august || "Ich freue mich schon auf den Urlaub im August!" || @ctx dialogue
+      listen: @dialogue || What small change does Birgit suggest? || Jogging every morning with friends | *A ten-minute walk in the lunch break | Taking a holiday straight away || "Zum Beispiel zehn Minuten spazieren gehen in der Mittagspause."
+      listen: Nach der Arbeit kann ich mich am besten beim Kochen entspannen. Ich höre dabei laut Musik und denke überhaupt nicht mehr ans Büro. || How does the speaker relax after work? || By doing sport | *By cooking and listening to music | By reading in the park || "Ich kann mich am besten beim Kochen entspannen. Ich höre dabei laut Musik." || @tags de.listening,de.reflexive
+      tr: I'm interested in yoga. || Ich interessiere mich für Yoga. || Sich interessieren für — never "in". || @tags de.reflexive,de.prepositions
+      dict: Ich kann mich kaum noch auf die Arbeit konzentrieren.
+      ask: What do you get annoyed about, and how do you relax? Use two reflexive verbs with prepositions. || kw: ärgere mich/freue mich/erhole mich/entspanne mich/kümmere mich/konzentriere mich/verabrede mich & über/auf/von/um/mit/beim || Ich ärgere mich oft über volle Züge. Am Wochenende erhole ich mich von der Arbeit und verabrede mich mit meiner Schwester zum Schwimmen.
+
+  - title: Food culture
+    summary: Compare eating habits in Germany and elsewhere, asking with wo-compounds (Woran? Worüber?) and answering with da-compounds (daran, darüber).
+    minutes: 40
+    skills: [grammar, listening, speaking]
+    tags: [de.prepositions, de.questions]
+    objectives:
+      - Ask about things with wo- + preposition (worauf, woran, worüber)
+      - Replace a preposition + thing with da- + preposition (darauf, daran, darüber)
+      - Use preposition + pronoun for people (an sie, auf ihn)
+    intro: |
+      Cold bread in the evening? Hundreds of kinds of bread? Food is one of the first things newcomers notice in Germany. In this lesson an exchange student talks with her host father about what surprised her. You will learn how German asks and answers about things after prepositional verbs: ***Woran** hast du dich gewöhnt? – **Daran** gewöhne ich mich nie!*
+    vocab: |
+      die Gastfamilie | host family | n | Ji-woo wohnt ein Jahr bei einer Gastfamilie in Augsburg. | Ji-woo is living with a host family in Augsburg for a year. | g: f | pl: die Gastfamilien
+      die Mahlzeit | meal | n | Das Mittagessen ist für viele die wichtigste Mahlzeit. | For many people lunch is the most important meal. | g: f | pl: die Mahlzeiten | n: "Mahlzeit!" is also a lunchtime greeting at work.
+      das Abendbrot | (cold) evening meal | n | Zum Abendbrot gibt es Brot, Käse und Salat. | For the evening meal there's bread, cheese and salad. | g: n | pl: (rarely used) | n: Mainly northern and central Germany; in the south: die Brotzeit.
+      warm essen | to have a hot meal | expr | Bei uns isst man abends fast immer warm. | At home we almost always have a hot meal in the evening.
+      die Brotsorte | kind of bread | n | In der Bäckerei gibt es über dreißig Brotsorten. | There are over thirty kinds of bread at the bakery. | g: f | pl: die Brotsorten
+      die Mensa | (student) canteen | n | In der Mensa kostet das Mittagessen nur drei Euro. | In the canteen lunch costs only three euros. | g: f | pl: die Mensen | n: At work: die Kantine.
+      die Portion | portion | n | Die Portionen in der Mensa sind riesig! | The portions in the canteen are huge! | g: f | pl: die Portionen
+      scharf | spicy; hot | adj | Ich koche gern scharf. | I like cooking spicy food. | c: etwas Scharfes; zu scharf | n: Also means sharp (a knife).
+      der Geschmack | taste; flavour | n | Das ist nicht mein Geschmack. | That's not to my taste. | g: m | pl: die Geschmäcker (informal) | c: Geschmack haben; Geschmackssache
+      sich wundern über | to be surprised about | v | Meine Freunde haben sich über die vielen Brotsorten gewundert. | My friends were surprised about all the kinds of bread. | n: über + accusative
+      träumen von | to dream of | v | Ich träume immer noch von Mamas Kimchi-Suppe. | I still dream of Mum's kimchi soup. | n: von + dative
+      denken an | to think of | v | Denk bitte an Oma – sie isst nichts Scharfes. | Please think of Grandma – she doesn't eat anything spicy. | n: an + accusative. Also: to remember to do something.
+    grammar:
+      title: "wo- and da-compounds: Woran? – Daran."
+      body: |
+        With verbs that have a fixed preposition, German asks about **things** with **wo + preposition** and replaces a thing already mentioned with **da + preposition**:
+
+        *Ich freue mich **auf das Essen**. → **Worauf** freust du dich? → Ich freue mich **darauf**.*
+
+        If the preposition starts with a vowel, add an **r**: *wo**r**auf, wo**r**an, wo**r**über – da**r**auf, da**r**an, da**r**über*. Otherwise just join them: *womit/damit, wofür/dafür, wovon/davon*.
+
+        For **people**, don't use these compounds. Keep the preposition and use a question word or a personal pronoun in the right case: ***An wen** denkst du? – **An Oma.** – Ich denke **an sie**.* ***Mit wem** sprichst du? – **Mit ihm**.*
+
+        In everyday speech you will also hear *Über was …?* or *Mit was …?*, but in standard German use worüber and womit.
+      table: |
+        Verb | Question (thing) | Answer (thing) | Question (person) | Answer (person)
+        denken an | Woran denkst du? | Ich denke daran. | An wen denkst du? | An sie.
+        sich freuen auf | Worauf freust du dich? | Ich freue mich darauf. | Auf wen freust du dich? | Auf ihn.
+        sich wundern über | Worüber wunderst du dich? | Ich wundere mich darüber. | Über wen …? | Über ihn.
+        träumen von | Wovon träumst du? | Ich träume davon. | Von wem …? | Von ihr.
+        zufrieden sein mit | Womit bist du zufrieden? | Ich bin damit zufrieden. | Mit wem …? | Mit ihm.
+      examples: |
+        Woran musstest du dich in Deutschland am meisten gewöhnen? | What did you have to get used to most in Germany? | wo + r + an
+        Hast du dich inzwischen daran gewöhnt? | Have you got used to it by now? | daran = an das Abendbrot
+        Und das Essen in der Mensa? Bist du damit zufrieden? | And the food in the canteen? Are you happy with it? | damit = mit dem Essen
+        Kein Problem, an sie habe ich schon gedacht. | No problem, I've already thought of her. | a person: an sie
+      tip: Ask yourself whether it is a thing or a person. For a thing use a da- or wo-compound, for a person a preposition + pronoun.
+    dialogue:
+      title: Abendbrot in Augsburg
+      setting: A Friday evening in Augsburg. Ji-woo, an exchange student from Seoul, has been living with a host family for three months. She and her host father Matthias are having the evening meal.
+      speakers: M=Matthias/m; J=Ji-woo/f
+      lines: |
+        M: Na, Ji-woo, nach drei Monaten: Woran musstest du dich hier am meisten gewöhnen? | So, Ji-woo, after three months: what did you have to get used to most here?
+        J: Ganz klar ans Abendbrot! Bei uns isst man abends fast immer warm. | The Abendbrot, definitely! At home people almost always have a hot meal in the evening.
+        M: Und hast du dich inzwischen daran gewöhnt? | And have you got used to it by now?
+        J: Ja, langsam. Aber ich träume immer noch von Mamas Kimchi-Suppe. | Yes, slowly. But I still dream of Mum's kimchi soup.
+        M: Worüber haben sich deine Freunde in Seoul am meisten gewundert? | What were your friends in Seoul most surprised about?
+        J: Über die vielen Brotsorten! Darüber habe ich sogar ein kleines Video gemacht. | About all the kinds of bread! I even made a little video about it.
+        M: Und das Essen in der Mensa? Bist du damit zufrieden? | And the food in the canteen? Are you happy with it?
+        J: Meistens schon, aber die Portionen sind riesig. Darüber lachen meine Freunde immer. | Mostly, yes, but the portions are huge. My friends always laugh about that.
+        M: Wir freuen uns übrigens schon auf Sonntag. Du kochst doch für uns, oder? | By the way, we're already looking forward to Sunday. You're cooking for us, aren't you?
+        J: Ja, ich freue mich auch sehr darauf! Worauf habt ihr mehr Lust: scharf oder mild? | Yes, I'm really looking forward to it too! What do you feel like more: spicy or mild?
+        M: Scharf, natürlich! Aber denk bitte an Oma – sie isst nichts Scharfes. | Spicy, of course! But please think of Grandma – she doesn't eat anything spicy.
+        J: Kein Problem, an sie habe ich schon gedacht. Für Oma mache ich eine milde Version. | No problem, I've already thought of her. For Grandma I'll make a mild version.
+    pronunciation:
+      title: "Stress in da-compounds: darAUF or DArauf?"
+      body: |
+        Normally the stress in a da-compound is on the **preposition**: *da**RAUF**, da**RAN**, da**RÜ**ber*. The *da* part is short and weak — often just [dɐ]: *Ich freue mich darauf.*
+
+        When you want to emphasise **this thing and not another**, stress the **da**: ***DA**ran habe ich nicht gedacht!* (I didn't think of *that*!). The wo-compounds are stressed on the preposition too: *wo**RAN**, wo**RÜ**ber*.
+      items: |
+        darauf
+        daran
+        worüber
+        Ich freue mich darauf.
+        Daran habe ich nicht gedacht!
+        Woran denkst du?
+    culture:
+      title: Abendbrot and bread culture
+      body: |
+        In many German families the main hot meal is lunch, and in the evening there is *Abendbrot*: bread with cheese, cold meats, spreads, vegetables and salad. In southern Germany a similar meal is called *Brotzeit*. Today many working families also cook in the evening, but the tradition is still strong.
+
+        Germany is famous for its bread: there are many hundreds of varieties, from dark rye bread to bread rolls (*Brötchen, Semmeln, Schrippen* — the name depends on the region). In 2014 German bread culture was added to the national list of intangible cultural heritage.
+    mistakes: |
+      Ich habe an es gedacht. => Ich habe daran gedacht. | For things, replace an + pronoun with the da-compound daran.
+      Worauf wartest du? (you expect a person) => Auf wen wartest du? | For people, use the preposition + wen/wem, not a wo-compound.
+      Ich freue mich daauf. => Ich freue mich darauf. | Before a preposition starting with a vowel, add r: da-r-auf, wo-r-an.
+    task:
+      title: Food habits compared
+      mode: interaction
+      body: |
+        With a partner, compare food habits in Germany and your country: what is eaten when, what surprised you, what you could never get used to and what you dream of when you're away from home. Ask with wo-compounds (Woran …? Worüber …? Wovon …?) and answer with da-compounds. Then order a typical German dish with the "Ordering at a café or restaurant" scenario with the AI coach.
+    exercises: |
+      fill: ___ freust du dich am meisten? – Auf das Essen bei Oma! || Worauf || The answer has auf + a thing, so the question is wo + r + auf. || @tags de.questions,de.prepositions
+      fill: Hast du an den Käse gedacht? – Ja, ___ habe ich gedacht. || daran || Denken an + a thing → daran. || @tags de.prepositions
+      fill: ___ hast du dich gewundert? – Über die vielen Brotsorten. || Worüber || Sich wundern über + a thing → worüber. || @tags de.questions,de.prepositions
+      mc: "Denkst du an Oma?" – "Ja, ich denke ___." || daran | *an sie | an ihr || Oma is a person, so you need an + pronoun (accusative): an sie. Daran is only for things. || @tags de.prepositions,de.accusative
+      mc: How do you ask "What do you cook with?" in standard German? || *Womit kochst du? | Mit wem kochst du? | Wo mit kochst du? || A thing: wo + mit = womit, written as one word. Mit wem asks about a person. || @tags de.questions,de.prepositions
+      rw: Replace "auf das Wochenende" with a da-compound :: Ich freue mich auf das Wochenende. || Ich freue mich darauf. || Auf + a thing → darauf. || @tags de.prepositions
+      rw: Ask about the object with a wo-compound :: Ji-woo hat sich an das Abendbrot gewöhnt. || Woran hat sich Ji-woo gewöhnt? | Woran hat Ji-woo sich gewöhnt? || An + a thing → woran; the verb hat comes second. || @tags de.questions,de.prepositions
+      tf: Ji-woo's friends in Seoul were surprised by the many kinds of bread. || true || "Über die vielen Brotsorten! Darüber habe ich sogar ein kleines Video gemacht." || @ctx dialogue
+      short: Why is Ji-woo going to make a mild version of the dish? || kw: oma/grandma/grandmother/scharf/spicy || Grandma doesn't eat anything spicy. || @ctx dialogue
+      listen: @dialogue || What did Ji-woo have to get used to most? || The food in the canteen | *The cold evening meal | Spicy food || "Ganz klar ans Abendbrot! Bei uns isst man abends fast immer warm."
+      listen: In unserer Familie gibt es sonntags immer ein großes Frühstück. Darauf freue ich mich die ganze Woche, besonders auf die frischen Brötchen. || What does the speaker look forward to all week? || A big Sunday lunch | *A big breakfast on Sundays | Baking bread with the family || "Sonntags immer ein großes Frühstück. Darauf freue ich mich die ganze Woche." || @tags de.listening,de.prepositions
+      tr: I hadn't thought of that. || Daran hatte ich nicht gedacht. | Ich hatte nicht daran gedacht. | Daran habe ich nicht gedacht. | Ich habe nicht daran gedacht. || Denken an + "that" (a thing) → daran. || @tags de.prepositions,de.plusquamperfekt
+      dict: Daran habe ich mich schnell gewöhnt.
+      ask: A German friend asks: "Woran musstest du dich bei uns gewöhnen?" Answer and add what you miss from home. || kw: an/daran & gewöhnt/gewöhnen & vermisse/träume/denke/fehlt || An das frühe Mittagessen! Daran habe ich mich schnell gewöhnt. Aber ich träume oft vom Frühstück bei meiner Oma.
+
+  - title: Sport and fitness
+    summary: Read a runner's story and talk about your own relationship with sport, using da-compounds before dass-clauses and zu-infinitives.
+    minutes: 40
+    skills: [reading, grammar, writing]
+    tags: [de.prepositions, de.infinitive-zu]
+    objectives:
+      - Use da-compounds to announce a dass-clause or a zu-infinitive (Ich freue mich darauf, … zu …)
+      - Use common verbs and adjectives with prepositions (achten auf, stolz sein auf, Angst haben vor)
+      - Talk about exercise, motivation and progress
+    intro: |
+      Two years ago, Fatima from Kiel found the stairs to her flat exhausting; last autumn she ran a half marathon. In this lesson you will read her story and learn a typical B1 pattern: when the object of a prepositional verb is a whole idea, a **da-compound** announces it — *Ich freue mich **darauf**, die anderen **zu sehen**. Die Trainerin achtet **darauf**, **dass** niemand zu schnell läuft.*
+    vocab: |
+      der Lauftreff | running group (that meets regularly) | n | Der Lauftreff trifft sich jeden Dienstag am Hafen. | The running group meets every Tuesday at the harbour. | g: m | pl: die Lauftreffs
+      die Anfängerin | beginner (female) | n | Der Kurs ist für Anfängerinnen und Anfänger. | The course is for beginners. | g: f | pl: die Anfängerinnen | n: Masculine: der Anfänger.
+      regelmäßig | regular; regularly | adj | Es ist wichtig, regelmäßig zu trainieren. | It's important to train regularly.
+      die Ausdauer | stamina; endurance | n | Meine Ausdauer ist viel besser geworden. | My stamina has got much better. | g: f | pl: (no plural)
+      trainieren | to train; to work out | v | Ich trainiere dreimal pro Woche. | I train three times a week. | n: -ieren verb: hat trainiert.
+      die Bewegung | exercise; movement | n | Bewegung an der frischen Luft tut gut. | Exercise in the fresh air does you good. | g: f | pl: die Bewegungen | n: sich bewegen = to move, to get exercise.
+      der Muskelkater | aching muscles (after exercise) | n | Nach dem ersten Training hatte ich drei Tage Muskelkater. | After the first training session my muscles ached for three days. | g: m | pl: (rarely used) | n: Literally "muscle tomcat".
+      achten auf | to pay attention to; to watch | v | Ich achte darauf, dass ich genug trinke. | I make sure that I drink enough. | n: auf + accusative
+      sich anmelden für | to register for; to sign up for | v | Ich habe mich für einen Halbmarathon angemeldet. | I've signed up for a half marathon. | n: Separable: hat sich angemeldet. Also: sich anmelden zu.
+      stolz sein auf | to be proud of | expr | Darauf bin ich unglaublich stolz. | I'm incredibly proud of that. | n: auf + accusative
+      das Ziel | finish line; goal | n | Meine ganze Laufgruppe wartete im Ziel auf mich. | My whole running group was waiting for me at the finish. | g: n | pl: die Ziele | c: ins Ziel kommen; ein Ziel erreichen
+      der Sportverein | sports club | n | Unser Sportverein hat über tausend Mitglieder. | Our sports club has over a thousand members. | g: m | pl: die Sportvereine
+    grammar:
+      title: "da-compounds that point forward: darauf, dass … / darauf, … zu …"
+      body: |
+        Sometimes the object of a prepositional verb is not a noun but a **whole idea** — a dass-clause or a zu-infinitive. Then the **da-compound** stays in the main clause and "announces" what follows: *Ich freue mich **darauf**, die anderen **zu sehen**.*
+
+        - **Same subject** in both parts → usually a **zu-infinitive**: *Ich habe Angst **davor**, nicht ins Ziel **zu kommen**.* (I am afraid — I might not finish.)
+        - **Different subject** → **dass-clause**: *Ulla achtet **darauf**, **dass** niemand zu schnell **läuft**.*
+
+        With some verbs the da-compound is necessary (*achten auf, stolz sein auf, Angst haben vor*); with others it is common but can be left out (*Ich freue mich, dich zu sehen* means "I'm glad to see you" — now; *Ich freue mich darauf, dich zu sehen* means "I'm looking forward to seeing you").
+
+        Remember the alternatives from Unit 3: *Ich habe aufgehört **zu rauchen**.* = *Ich habe **mit dem Rauchen** aufgehört.*
+      table: |
+        Verb / phrase | + zu-infinitive (same subject) | + dass-clause (different subject)
+        sich freuen auf | Ich freue mich darauf, euch zu sehen. | Ich freue mich darauf, dass ihr kommt.
+        achten auf | Ich achte darauf, genug zu trinken. | Ich achte darauf, dass mein Sohn genug trinkt.
+        stolz sein auf | Ich bin stolz darauf, so weit zu laufen. | Ich bin stolz darauf, dass meine Tochter mitläuft.
+        Angst haben vor | Ich habe Angst davor, aufzugeben. | Ich habe Angst davor, dass es regnet.
+        denken an | Denk daran, Wasser mitzunehmen! | Denk daran, dass der Lauf um acht beginnt!
+      examples: |
+        Ulla achtete immer darauf, dass niemand zu schnell lief. | Ulla always made sure that nobody ran too fast. | different subject: dass
+        Ich hatte Angst davor, nicht ins Ziel zu kommen. | I was afraid of not reaching the finish. | same subject: zu
+        Ich freue mich jedes Mal darauf, die anderen Frauen zu sehen. | I look forward to seeing the other women every time. | darauf announces the zu-infinitive
+        Dann denke ich daran, wie gut ich mich danach fühle. | Then I think of how good I feel afterwards. | daran + indirect question
+      tip: Look for the preposition first (achten auf → darauf), then decide. Same subject → zu-infinitive, different subject → dass-clause.
+    reading:
+      title: Vom Sofa zum Halbmarathon
+      text: |
+        Vor zwei Jahren habe ich mich überhaupt nicht für Sport interessiert. Nach der Arbeit lag ich meistens auf dem Sofa, und schon die Treppe in den dritten Stock war anstrengend. Dann sah ich im Frühling ein Plakat: „Lauftreff für Anfängerinnen – jeden Dienstag am Hafen“. Ich weiß bis heute nicht, warum, aber ich ging hin.
+
+        Die ersten Wochen waren hart. Wir liefen eine Minute und gingen dann zwei Minuten. Unsere Trainerin Ulla achtete immer darauf, dass niemand zu schnell lief. „Es ist egal, wie schnell ihr seid“, sagte sie. „Wichtig ist nur, dass ihr regelmäßig kommt.“ Nach jedem Training hatte ich Muskelkater.
+
+        Nach drei Monaten konnte ich zum ersten Mal dreißig Minuten ohne Pause laufen. Darauf war ich unglaublich stolz. Ich hörte auf, mit dem Bus zur Arbeit zu fahren, und nahm das Fahrrad. Ich achtete mehr auf mein Essen und schlief besser.
+
+        Letzten Herbst habe ich mich dann für meinen ersten Halbmarathon angemeldet. Ich hatte lange davon geträumt, aber ich hatte auch Angst davor, nicht ins Ziel zu kommen. Am Ende brauchte ich zwei Stunden und siebzehn Minuten – und meine ganze Laufgruppe wartete im Ziel auf mich.
+
+        Heute laufe ich dreimal pro Woche. Ich freue mich jedes Mal darauf, die anderen Frauen zu sehen. Und wenn ich mal keine Lust habe? Dann denke ich daran, wie gut ich mich danach fühle.
+
+        Fatima, Kiel
+      translation: |
+        Two years ago I wasn't interested in sport at all. After work I usually lay on the sofa, and even the stairs to the third floor were tiring. Then in spring I saw a poster: "Running group for beginners – every Tuesday at the harbour". To this day I don't know why, but I went.
+
+        The first weeks were hard. We ran for one minute and then walked for two minutes. Our coach Ulla always made sure that nobody ran too fast. "It doesn't matter how fast you are," she said. "The only important thing is that you come regularly." After every training session my muscles ached.
+
+        After three months I was able to run for thirty minutes without a break for the first time. I was incredibly proud of that. I stopped taking the bus to work and took my bike. I paid more attention to what I ate and slept better.
+
+        Last autumn I signed up for my first half marathon. I had dreamed of it for a long time, but I was also afraid of not reaching the finish. In the end I took two hours and seventeen minutes – and my whole running group was waiting for me at the finish.
+
+        Today I run three times a week. Every time, I look forward to seeing the other women. And if I don't feel like it now and then? Then I think of how good I feel afterwards.
+
+        Fatima, Kiel
+    pronunciation:
+      title: "z is always [ts]: Ziel, stolz, zu"
+      body: |
+        The German letter **z** is always pronounced [ts], like the end of English *cats*: *das Ziel* [tsiːl], *stolz* [ʃtɔlts], *zu, die Zeit*. The same sound is written **tz** after a short vowel: *trotzdem, sitzen*.
+
+        Don't say an English [z] — *zu* sounds like "tsoo", not "zoo". In *Ziel* and *Zeit* the [ts] comes right at the start, so start with your tongue behind your top teeth.
+      items: |
+        das Ziel
+        stolz
+        die Zeit
+        zu laufen
+        Ich bin stolz darauf.
+        Ich freue mich darauf, euch zu sehen.
+    culture:
+      title: Sport in the "Verein"
+      body: |
+        Much of the sport in Germany is organised in clubs (*Vereine*). There are around 90,000 sports clubs with well over 25 million memberships, from football and handball to rowing, gymnastics and chess. Membership fees are usually low, and the coaches are often volunteers.
+
+        Running groups (*Lauftreffs*) are popular because they are free and open to beginners. Big city runs — the Berlin Marathon is one of the best known in the world — attract tens of thousands of runners every year.
+    mistakes: |
+      Ich achte, dass ich genug trinke. => Ich achte darauf, dass ich genug trinke. | Achten needs its preposition auf; before a clause it becomes darauf.
+      Ich bin stolz auf, dass ich das geschafft habe. => Ich bin stolz darauf, dass ich das geschafft habe. | A preposition can't stand alone before a clause — use the da-compound.
+      Ich habe aufgehört mit rauchen. => Ich habe aufgehört zu rauchen. | Either aufhören + zu-infinitive or mit + noun: mit dem Rauchen aufhören.
+    task:
+      title: Me and sport
+      mode: writing
+      body: |
+        Write a short blog post (80–100 words) about your relationship with sport or exercise: how it started, what you are proud of, what you pay attention to and what you are looking forward to. Use at least two da-compounds that introduce a dass-clause or a zu-infinitive.
+    exercises: |
+      fill: Unsere Trainerin achtet ___, dass niemand zu schnell läuft. || darauf || Achten auf; before the dass-clause, auf becomes darauf. || @tags de.prepositions,de.subordinate-clauses
+      fill: Ich freue mich ___, am Samstag mit euch zu laufen. || darauf || Sich freuen auf (future); darauf announces the zu-infinitive. || @tags de.prepositions,de.infinitive-zu
+      fill: Ich bin stolz ___, dass ich den Halbmarathon geschafft habe. || darauf || Stolz sein auf → darauf + dass-clause. || @tags de.prepositions,de.subordinate-clauses
+      fill: Hast du ___ gedacht, deine Laufschuhe mitzubringen? || daran || Denken an → daran + zu-infinitive. || @tags de.prepositions,de.infinitive-zu
+      mc: "Ich habe Angst ___, nicht ins Ziel zu kommen." || *davor | darauf | daran || Angst haben vor → davor. || @tags de.prepositions,de.infinitive-zu
+      mc: "Nach dem Training hatte ich Muskelkater." What does that mean? || *My muscles ached. | I hurt my knee. | I was very hungry. || Muskelkater = muscle soreness after exercise. || @skill vocabulary @tags de.vocabulary
+      rw: Join the sentences with darauf + zu :: Ich freue mich. Ich sehe die anderen Frauen. || Ich freue mich darauf, die anderen Frauen zu sehen. || Same subject: darauf + zu-infinitive at the end. || @tags de.prepositions,de.infinitive-zu
+      rw: Join the sentences with darauf + dass :: Ich achte darauf. Mein Sohn trinkt genug Wasser. || Ich achte darauf, dass mein Sohn genug Wasser trinkt. || Different subject: dass-clause with trinkt at the end. || @tags de.prepositions,de.subordinate-clauses
+      tf: In the first weeks, the group ran for thirty minutes without a break. || false || They ran for one minute and then walked for two. Thirty minutes without a break came after three months. || @ctx reading
+      mc: Who was waiting for Fatima at the finish of the half marathon? || *Her whole running group | Her family | Only her coach Ulla || "Meine ganze Laufgruppe wartete im Ziel auf mich." || @ctx reading @skill reading
+      short: How did Fatima change the way she gets to work? || kw: fahrrad/rad/bike/bicycle/cycle/cycling || She stopped taking the bus and took her bike. || @ctx reading
+      listen: Ich habe mich im Sportverein für einen Schwimmkurs angemeldet. Ich freue mich schon darauf, endlich richtig kraulen zu lernen. || What does the speaker want to learn? || To dive | *To swim front crawl properly | To play water polo || "Endlich richtig kraulen zu lernen" — kraulen = front crawl. || @tags de.listening,de.prepositions
+      tr: I'm proud that I run three times a week. || Ich bin stolz darauf, dass ich dreimal pro Woche laufe. | Ich bin stolz darauf, dreimal pro Woche zu laufen. | Ich bin stolz darauf, dass ich dreimal in der Woche laufe. | Ich bin stolz darauf, dreimal in der Woche zu laufen. || Stolz sein auf → darauf + dass-clause or zu-infinitive. || @tags de.prepositions
+      dict: Ich freue mich jedes Mal darauf, die anderen zu sehen.
+      ask: Tell a friend about a sport or activity you do — what you pay attention to and what you are looking forward to. || kw: darauf/daran/davon & zu/dass || Ich schwimme jeden Mittwoch. Ich achte darauf, dass ich vorher nicht zu viel esse. Und ich freue mich schon darauf, im Sommer im See zu schwimmen.

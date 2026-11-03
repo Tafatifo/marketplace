@@ -1,0 +1,362 @@
+unit: 8
+title: On the move
+theme: Travel
+description: Get around a city with can and by bus, by train; talk about weekend plans with going to; and book a hotel room with clear questions.
+objectives:
+  - Ask about and explain ways to travel with can, can't and by + transport
+  - Talk about plans with be going to (positive, negative and questions)
+  - Ask clear questions with be, do, can and question words to book a room
+canDo:
+  - I can ask how to get somewhere and buy a ticket.
+  - I can say what I am going to do this weekend.
+  - I can book a hotel room by phone or email.
+  - I can ask questions with what, when, where, how much, how many and how long.
+review: |
+  fill: You ___ take the subway to the airport. It's fast. || can || Can + verb says that something is possible. || @tags en.modal-verbs
+  mc: Choose the correct sentence. || I go to work with the bus. | *I go to work by bus. | I go to work by the bus. || Use by + transport, with no the: by bus. || @tags en.prepositions-place
+  fill: We ___ going to visit Rome next summer. || are || We + are + going to + verb. || @tags en.future-forms
+  rw: Make it negative :: I'm going to drive to work tomorrow. || I'm not going to drive to work tomorrow. | I am not going to drive to work tomorrow. || Negative: I'm not going to + verb. || @tags en.future-forms
+  fill: What ___ you going to do on Saturday? || are || Question: What + are + you + going to…? || @tags en.future-forms,en.questions
+  rw: Make a question :: She can take a taxi. || Can she take a taxi? || Put can before the person: Can she…? || @tags en.modal-verbs,en.questions
+  fill: What time ___ the train leave? || does || Present simple question with the train (it): What time does…? || @tags en.questions,en.present-simple
+  mc: "___ nights are you going to stay?" || How much | *How many | How long || Nights are countable: How many nights? || @tags en.questions
+  listen: The number 7 bus can't stop here today. Please take the subway. || What can you do today? || take the number 7 bus here | *take the subway | walk to the station || "The number 7 bus can't stop here today. Please take the subway." || @tags en.modal-verbs
+  listen: Hi, I'd like to book a single room for three nights, from Friday. || What does the caller want? || a double room for three nights | *a single room for three nights | a single room for Friday only || "A single room for three nights, from Friday." || @tags en.questions
+  ask: You arrive at a hotel. Check in — say your name, and ask about breakfast and the Wi-Fi. || kw: name/I'm/I am/reservation & breakfast & Wi-Fi/wifi || Hi! I've got a reservation. My name's Ana Costa. What time is breakfast? And what's the Wi-Fi password, please?
+  write: Write an email to a friend about a trip next month. Say where you're going to go, how you're going to travel and where you're going to stay. || min=40 || req: going to | by/train/bus/plane/car | hotel/room/stay || Hi Jen! Next month I'm going to visit Montreal with my sister. We're going to go by train — it's eight hours, but it's cheap. We're going to stay in a small hotel downtown. We're going to visit the old town and eat a lot of bagels! Can you give me some ideas?
+lessons:
+  - title: Getting around
+    summary: Talk about transportation, buy a ticket and say what is possible with can, can't and by + transport.
+    minutes: 35
+    skills: [vocabulary, speaking, listening]
+    tags: [en.modal-verbs]
+    objectives:
+      - Name types of transportation and say how you travel (by bus, on foot)
+      - Use can and can't for what is possible
+      - Buy a ticket and understand simple information at a station
+    intro: |
+      How do you get from the airport to the city? *You **can** take the train or a taxi.* In this lesson you will learn words for transportation (British English: transport) and tickets, how to say how you travel (**by** bus, **on** foot), and how to use **can** and **can't** to say what is possible.
+    vocab: |
+      bus | a big vehicle that carries a lot of people on the road | n | I go to work by bus. | - | c: take the bus; by bus
+      train | a long vehicle that travels on a railroad | n | The train to Boston is fast. | - | c: take the train; by train | n: British English: railway, not railroad.
+      subway | an underground train in a city | n | You can take the subway to the museum. | - | n: British English: the Underground (in London: the Tube). Also: metro.
+      taxi | a car with a driver that you pay to take you somewhere | n | Let's take a taxi. | - | n: Also: cab.
+      bike | a vehicle with two wheels that you ride | n | She goes to school by bike. | - | c: ride a bike | n: Bike is short for bicycle.
+      on foot | walking | expr | It's ten minutes on foot. | - | n: Say on foot, not by foot.
+      ticket | a piece of paper or a code that lets you travel | n | Can I buy a ticket here? | - | c: a bus ticket; a train ticket
+      one-way ticket | a ticket to go to a place but not come back | n | A one-way ticket to Chicago, please. | - | n: British English: a single.
+      round-trip ticket | a ticket to go to a place and come back | n | A round-trip ticket is cheaper. | - | n: British English: a return.
+      platform | the place in a station where you get on and off a train | n | The train leaves from platform two. | - | n: American English also: track.
+      get on | to go into a bus, train or plane | v | Get on the bus at Main Street. | - | n: The opposite is get off.
+      get off | to leave a bus, train or plane | v | Get off at the next stop. | -
+      next stop | the place where a bus or train stops after this one | expr | The next stop is Central Station. | -
+      schedule | a list of the times when buses or trains leave and arrive | n | Look at the train schedule. | - | n: British English: timetable.
+    grammar:
+      title: can for possibility; by bus, on foot
+      body: |
+        We use **can** + verb to say that something is possible: *You **can** take the bus or the subway. You **can** buy tickets on the app.*
+
+        - **Can** is the same for every person: *I can, you can, he can, she can, we can, they can* — no -s!
+        - Negative: **can't** (= cannot): *You **can't** pay in cash on this bus.*
+        - Question: **Can** + person + verb: ***Can** I buy a ticket on the train? — Yes, you **can**. / No, you **can't**.* We also use *Can I…?* to ask if something is allowed: *Can I sit here?*
+        - After *can*, use the verb **without to**: *can go* (not ~~can to go~~).
+
+        To say how you travel, use **by** + transportation, with no *the*: *by bus, by train, by car, by bike*. But walking is **on foot**. You can also say **take**: *take the bus, take a taxi*.
+      table: |
+        Positive | Negative | Question | Short answers
+        You can take the subway. | You can't take the subway. | Can I take the subway? | Yes, you can. / No, you can't.
+        She can walk there. | She can't walk there. | Can she walk there? | Yes, she can. / No, she can't.
+      examples: |
+        You can go by train or by bus. | | possibility
+        Can I pay by card on the bus? — Yes, you can. | | question and short answer
+        You can't park here. | | not possible or not allowed
+        It's near. We can walk! | | can + verb without to
+      tip: "In a sentence, can is weak and quick (\"k'n go\"), but can't is strong and long (\"CAN'T go\"). Listen for the strong sound."
+    dialogue:
+      title: At the station
+      setting: Ines arrives at the airport in Chicago. She asks Andre, who works at the train station, how to get downtown.
+      speakers: I=Ines/f; A=Andre/m
+      lines: |
+        I: Excuse me. How can I get downtown?
+        A: You can take the train or a taxi.
+        I: Is the train expensive?
+        A: No, it's cheap. It's five dollars.
+        I: Can I buy a ticket here?
+        A: Yes, you can. Use this machine.
+        I: Can I pay by card?
+        A: Yes. A one-way or a round-trip ticket?
+        I: One-way, please. Which platform?
+        A: Platform two. The next train is at ten fifteen.
+        I: And where do I get off?
+        A: Get off at Clark Street. That's downtown.
+    pronunciation:
+      title: "can or can't?"
+      body: |
+        In a positive sentence, **can** is weak: *I can go* sounds like "I k'n GO". The stress is on the main verb.
+
+        **Can't** is strong: *I CAN'T go*. In American English it sounds like "kænt", and in British English like "kahnt". In short answers, both are strong: *Yes, you CAN. No, you CAN'T.* Listen and repeat.
+      items: |
+        I can go
+        I can't go
+        Can I pay by card?
+        Yes, you can.
+        No, you can't.
+        by bus
+    culture:
+      title: Getting around in English-speaking cities
+      body: |
+        Big cities like New York, London, Toronto and Sydney have good public transportation — subways, buses and trains. In many of them you can pay with a travel card or by tapping your bank card or phone on the machine.
+
+        In many American cities, people drive a lot, and buses are not very frequent. People also use taxis and ride apps. In London, the subway is called **the Tube**, and you hear "Mind the gap!" — be careful between the train and the platform.
+    mistakes: |
+      I go to work with the bus. => I go to work by bus. | Use by + transportation, with no the.
+      She cans drive. => She can drive. | Can never adds -s.
+      Can I to buy a ticket here? => Can I buy a ticket here? | After can, use the verb without to.
+    task:
+      title: Getting around my city
+      mode: speaking
+      body: |
+        A friend is visiting your city. Explain how they can get from the airport or train station to your home: two different ways (by train, by bus, by taxi…), where they can buy a ticket and how much it is. Use can and can't. Record yourself in Speaking practice.
+    exercises: |
+      fill: You ___ buy tickets on the app. (it's possible) || can || Can + verb: something is possible. || @tags en.modal-verbs
+      fill: You ___ pay in cash on this bus. It's card only. || can't / cannot || Not possible: can't (cannot). || @tags en.modal-verbs
+      fill: My sister goes to school ___ bike. || by || How you travel: by + transportation (by bike, by bus). || @tags en.prepositions-place
+      mc: Choose the correct sentence. || My brother cans drive. | *My brother can drive. | My brother can to drive. || Can has no -s, and the next verb has no to. || @tags en.modal-verbs
+      mc: You walk to work. You go… || by foot | *on foot | with foot || Walking = on foot (not by foot). || @tags en.prepositions-place
+      rw: Make a question :: I can pay by card. || Can I pay by card? || Put can before the person: Can I…? || @tags en.modal-verbs,en.questions
+      match: How can I get downtown? = You can take the train. ; Can I pay by card? = Yes, you can. ; Which platform? = Platform two. ; One-way or round-trip? = Round-trip, please. || Each question has one natural answer. || @tags en.questions
+      order: You can take the subway to the museum. || @tags en.modal-verbs
+      tf: Ines buys a round-trip ticket. || false || Ines says, "One-way, please." || @ctx dialogue
+      short: Where does Ines get off the train? || kw: Clark || Andre says, "Get off at Clark Street. That's downtown." || @ctx dialogue
+      listen: You can't take the bus today, but you can take the subway. || How can you travel today? || by bus | *by subway | by bus and by subway || "You can't take the bus today, but you can take the subway." || @tags en.modal-verbs
+      listen: @dialogue || When is the next train? || 10:50 | *10:15 | 2:15 || Andre says, "The next train is at ten fifteen." || @tags en.time
+      dict: Can I buy a ticket on the train?
+      ask: A visitor asks how to get from the station to your home. Tell them two ways. || kw: can & bus/train/subway/taxi/walk/foot/bike || You can take the number 5 bus, or you can walk — it's twenty minutes on foot.
+      write: Your friend is coming to visit. Write an email and explain how they can get from the airport to your home. || min=30 || req: can | by/take | ticket || Hi Omar! From the airport, you can take the train to Central Station. A ticket is about ten dollars, and you can buy it from the machine. Then you can take a taxi or the number 12 bus to my street. You can't walk — it's too far!
+
+  - title: Plans for the weekend
+    summary: Say what you are going to do on the weekend with be going to, and ask other people about their plans.
+    minutes: 40
+    skills: [grammar, speaking, writing]
+    tags: [en.future-forms]
+    objectives:
+      - Talk about weekend activities
+      - Use be going to for plans (positive, negative and questions)
+      - Ask "What are you going to do this weekend?" and answer
+    intro: |
+      *Any plans for the weekend?* It's a very common question on Friday at work or school. In this lesson you will learn weekend activities and **be going to** for plans: *I'm going to visit my grandparents. We aren't going to stay at home.*
+    vocab: |
+      plan | something you decide to do in the future | n | What are your plans for the weekend? | - | c: weekend plans; make plans
+      this weekend | the Saturday and Sunday that are coming | expr | What are you going to do this weekend? | -
+      tomorrow | the day after today | adv | I'm going to clean the house tomorrow. | -
+      next week | the week after this one | expr | We're going to visit Seattle next week. | -
+      visit | to go and see a person or a place | v | I'm going to visit my grandparents. | - | c: visit a museum; visit friends
+      stay at home | to not go out | expr | I'm going to stay at home and relax. | - | n: American English also: stay home.
+      relax | to rest and not work or worry | v | On Sunday I'm going to relax. | -
+      sleep late | to stay in bed after the usual time in the morning | expr | On Saturday I always sleep late. | - | n: British English also: have a lie-in.
+      go camping | to sleep in a tent outside, for fun | expr | We're going to go camping in the mountains. | - | t: es=ir de acampada; fr=faire du camping; de=zelten gehen; da=tage på camping
+      go shopping | to go to stores to buy things | expr | Are you going to go shopping on Saturday? | -
+      clean | to make something not dirty | v | I'm going to clean my apartment. | - | c: clean the house; clean the kitchen
+      trip | a short visit to a place, and the journey there | n | We're going to take a trip to the beach. | - | c: a day trip; a weekend trip
+      see friends | to meet and spend time with friends | expr | I'm going to see friends on Friday night. | -
+      barbecue | a meal of food that you cook outside over a fire | n | Let's have a barbecue on Sunday! | - | c: have a barbecue | n: Informal: BBQ. Australians say barbie.
+    grammar:
+      title: be going to for plans
+      body: |
+        We use **be going to** + verb for **plans** — things we decided before we speak: *I**'m going to** visit my grandparents this weekend. We**'re going to** have a barbecue.*
+
+        Form: **am / is / are** + **going to** + verb (no -s, no -ing): *She's going to **visit** Rome.*
+
+        - Negative: *I**'m not going to** work on Sunday. She **isn't going to** come.*
+        - Question: ***Are** you **going to** stay at home? — Yes, I am. / No, I'm not.* ***What are** you **going to** do this weekend?*
+
+        Time words for the future: *tomorrow, tonight, this weekend, next week, on Saturday*.
+
+        With *go*, people say *I'm going to go camping*, and very often just *I'm going camping*. Both are correct.
+      table: |
+        Person | Positive | Negative | Question
+        I | I'm going to relax. | I'm not going to work. | Am I going to see you?
+        he / she / it | She's going to visit Rome. | He isn't going to come. | Is she going to drive?
+        you / we / they | We're going to go camping. | They aren't going to stay. | Are you going to cook?
+      examples: |
+        I'm going to sleep late on Saturday. | | a plan
+        What are you going to do this weekend? | | question with what
+        My sister isn't going to come to the party. | | negative
+        Are they going to have a barbecue? — Yes, they are. | | short answer
+      tip: "In fast speech, going to often sounds like \"gonna\": I'm gonna relax. Understand it when you hear it, but write going to."
+    dialogue:
+      title: Any plans?
+      setting: It's Friday afternoon at an office in Sacramento, California. Gabriel and Asha are colleagues.
+      speakers: G=Gabriel/m; A=Asha/f
+      lines: |
+        G: Any plans for the weekend, Asha?
+        A: Yes! I'm going to go camping.
+        G: Camping? Where?
+        A: In the mountains, with my brother and his kids.
+        G: Great! Is it going to be cold?
+        A: Maybe, but we've got warm sweaters. And you?
+        G: Nothing special. I'm going to sleep late.
+        A: Are you going to see your friends?
+        G: Yes, we're going to have a barbecue on Sunday.
+        A: Sounds fun! Have a great weekend!
+        G: You too! Take a lot of photos!
+    pronunciation:
+      title: "going to → \"gonna\""
+      body: |
+        When people speak fast, **going to** + verb often sounds like "gonna": *I'm gonna relax. We're gonna go camping.* The **to** is weak and short.
+
+        In questions, *What are you going to do?* can sound like "Whaddaya gonna do?". Practice the full form first, then the fast form. Listen and repeat.
+      items: |
+        I'm going to relax.
+        We're going to go camping.
+        What are you going to do?
+        Are you going to come?
+        this weekend
+        tomorrow
+    culture:
+      title: Long weekends
+      body: |
+        In the US, the UK, Canada and Australia, there are a few **long weekends** every year, with a public holiday on Monday — for example Labor Day in the US or a "bank holiday" in the UK. Many people take a short trip, go camping or visit family.
+
+        On Friday, colleagues often ask *Any plans for the weekend?* and on Monday *How was your weekend?* A short, friendly answer is perfect.
+    mistakes: |
+      I going to visit my aunt. => I'm going to visit my aunt. | Don't forget be: I'm (I am) going to.
+      She's going to visits Rome. => She's going to visit Rome. | After going to, use the verb with no -s.
+      Tomorrow I clean the house. (a plan) => Tomorrow I'm going to clean the house. | For plans, use be going to.
+    task:
+      title: My weekend plans
+      mode: speaking
+      body: |
+        Say five things you're going to do next weekend and one thing you aren't going to do. Then ask a partner (or the AI coach) about their plans: *What are you going to do on Saturday? Are you going to…?* Try the "Making weekend plans" scenario.
+    exercises: |
+      fill: I ___ going to visit my grandparents. || am / 'm || I + am + going to. || @tags en.future-forms
+      fill: ___ you going to stay at home tonight? || Are || Question: Are + you + going to…? || @tags en.future-forms,en.questions
+      fill: She ___ going to work this weekend. (not) || isn't / is not || Negative with she: isn't going to. || @tags en.future-forms
+      mc: Choose the correct sentence. || He going to play tennis. | *He's going to play tennis. | He's going to plays tennis. || Be + going to + base verb: he's going to play. || @tags en.future-forms
+      mc: "Are you going to cook tonight?" — "No, ___." || I don't | *I'm not | I amn't || The short answer uses be: No, I'm not. || @tags en.future-forms
+      rw: It's a plan. Use going to :: Tomorrow I clean the house. || Tomorrow I'm going to clean the house. | I'm going to clean the house tomorrow. | Tomorrow I am going to clean the house. | I am going to clean the house tomorrow. || For plans, use be going to + verb. || @tags en.future-forms
+      match: sleep = late ; go = camping ; visit = my grandparents ; clean = the house || Match each verb with the words that go with it. || @tags en.collocations
+      order: My parents are going to visit us next week. || @tags en.future-forms
+      tf: Asha is going to go camping alone. || false || She is going with her brother and his kids. || @ctx dialogue
+      short: When is Gabriel going to have a barbecue? || kw: Sunday || Gabriel says, "We're going to have a barbecue on Sunday." || @ctx dialogue
+      listen: This weekend I'm not going to go out. I'm going to stay at home and read. || What is the speaker going to do? || go out with friends | *stay at home and read | go camping || "I'm going to stay at home and read." || @tags en.future-forms
+      listen: @dialogue || Who is Asha going camping with? || her friends | *her brother and his kids | Gabriel || Asha says, "With my brother and his kids." || @tags en.listening
+      dict: We're going to have a barbecue on Sunday.
+      ask: Say what you are going to do this weekend — give three plans. || kw: going to & Saturday/Sunday/weekend/tomorrow || This weekend I'm going to sleep late on Saturday. Then I'm going to go shopping, and on Sunday I'm going to visit my parents.
+      write: Write a message to a friend about your plans for next weekend, and invite them to one activity. || min=30 || req: going to | Saturday/Sunday/weekend | do you want to/let's/how about/why don't we || Hi Kim! Next weekend is very busy. On Saturday morning I'm going to clean my apartment. In the afternoon I'm going to go shopping with my mom. On Sunday I'm going to go hiking. Do you want to come with me?
+
+  - title: Booking a room
+    summary: Book a hotel room by phone or email and ask clear questions with be, do, can and question words.
+    minutes: 40
+    skills: [speaking, listening, writing]
+    tags: [en.questions]
+    objectives:
+      - Book a hotel room and give dates, room type and your name
+      - Make questions with be, do, can and going to
+      - Use question words — what, when, where, how much, how many, how long
+    intro: |
+      *I'd like to book a room, please.* In this lesson you will learn hotel words and how to make clear questions: *How much is a double room? Is breakfast included? What time can I check in?* You will use everything from this course — be, do, can and going to — in one conversation.
+    vocab: |
+      hotel | a building where you pay to sleep when you travel | n | Our hotel is near the beach. | -
+      book | to arrange to have a room, a table or a ticket | v | I'd like to book a room, please. | - | n: Also: make a reservation.
+      reservation | an arrangement to keep a room or a table for you | n | I've got a reservation for two nights. | - | n: British English also: booking.
+      single room | a hotel room for one person | n | A single room, please. | -
+      double room | a hotel room with one big bed for two people | n | How much is a double room? | -
+      night | the time when it's dark and people sleep; a hotel stay is counted in nights | n | It's ninety dollars a night. | - | c: for two nights; a night
+      available | free to use or to book | adj | Is there a room available on Friday? | - | t: es=disponible; fr=disponible; de=frei; da=ledig
+      check in | to arrive at a hotel and get your key | v | You can check in after 3 p.m. | -
+      check out | to pay and leave a hotel | v | We check out on Sunday. | - | n: The noun is check-out: Check-out is at eleven.
+      included | part of the price | adj | Is breakfast included? | -
+      front desk | the place in a hotel where you check in and ask questions | n | Ask at the front desk. | - | n: British English: reception.
+      key | a small piece of metal or a card that opens a door | n | Here's your key. Room 21. | - | c: a key card
+      Wi-Fi | a way to connect to the internet without a cable | n | What's the Wi-Fi password? | -
+      elevator | a small room that takes people up and down in a building | n | The elevator is on the left. | - | n: British English: lift.
+    grammar:
+      title: Question forms
+      body: |
+        English questions follow one pattern. The **helping verb** (*be, do, can*) comes **before** the person or thing:
+
+        - **be**: ***Is** breakfast included? **Are** you free?*
+        - **do / does** (present simple): ***Do** you have Wi-Fi? What time **does** breakfast start?*
+        - **can**: ***Can** I check in early? Where **can** I park?*
+        - **going to**: *How long **are** you **going to** stay?*
+
+        **Question words** go at the start: **what** (a thing), **what time / when** (time), **where** (a place), **who** (a person), **which** (a choice), **how much** (a price), **how many** (a number), **how long** (a period of time).
+
+        So the order is: **question word + helping verb + person/thing + main verb**: *What time **does** the restaurant **open**?*
+
+        Short answers repeat the helping verb: *Do you have Wi-Fi? — Yes, we **do**. Can I park here? — No, you **can't**.*
+      table: |
+        Question word | Helping verb | Person or thing | Rest
+        What time | does | breakfast | start?
+        How many nights | are | you | going to stay?
+        Where | can | I | park?
+        How much | is | a double room | for one night?
+        — | Is | breakfast | included?
+      examples: |
+        How much is a double room? — It's ninety-five dollars a night. | | be
+        What time does breakfast start? — At seven. | | do / does
+        Can I check in early? — Yes, you can. | | can
+        How long are you going to stay? — Three nights. | | going to
+      tip: "If you don't understand, ask: Sorry, can you repeat that, please? or Can you speak more slowly, please?"
+    dialogue:
+      title: Calling a hotel
+      setting: Karim calls a small hotel in San Francisco. He wants a room for the weekend. Ellen works at the front desk.
+      speakers: E=Ellen/f; K=Karim/m
+      lines: |
+        E: Good afternoon, Bay View Hotel. How can I help you?
+        K: Hello. I'd like to book a room, please.
+        E: Of course. When are you going to arrive?
+        K: On Friday. For two nights.
+        E: A single or a double room?
+        K: A double, please. How much is it?
+        E: It's ninety-five dollars a night.
+        K: Is breakfast included?
+        E: Yes, it is. Breakfast is from seven to ten.
+        K: Great. Can I check in early?
+        E: Yes, after twelve. What's your name, please?
+        K: Karim Haddad. H-A-double D-A-D.
+    pronunciation:
+      title: "Questions: up or down?"
+      body: |
+        **Yes/no questions** usually go **up** at the end: *Is breakfast included? ↗ Can I check in early? ↗*
+
+        **Questions with a question word** (what, where, how much…) usually go **down** at the end: *How much is it? ↘ What time does breakfast start? ↘* Listen and repeat each question.
+      items: |
+        How much is it?
+        Is breakfast included?
+        What time does breakfast start?
+        Can I check in early?
+        How long are you going to stay?
+        Do you have Wi-Fi?
+    culture:
+      title: Hotels and B&Bs
+      body: |
+        In US hotels, check-in is usually at about 3 p.m. and check-out at about 11 a.m. The price often doesn't include tax, and many hotels don't include breakfast — always ask. Some guests leave a small tip for the people who clean the room.
+
+        In the UK, Ireland and Australia, you can also stay in a **B&B** (bed and breakfast): a small, often family-run place where a big breakfast is part of the price.
+    mistakes: |
+      What time breakfast starts? => What time does breakfast start? | Present simple questions need do or does.
+      Where the elevator is? => Where is the elevator? | In questions, put be before the subject.
+      How many nights you are going to stay? => How many nights are you going to stay? | Put are before you.
+    task:
+      title: Book a room
+      mode: interaction
+      body: |
+        Call a hotel (a partner or the AI coach plays the receptionist). Say when you're going to arrive and for how many nights, choose a single or a double room, ask the price, ask about breakfast and check-in, and spell your name. Try the "Booking a hotel room" scenario.
+    exercises: |
+      fill: What time ___ breakfast start? || does || Present simple question: What time + does + breakfast + start? || @tags en.questions,en.present-simple
+      fill: ___ I check in early? — Yes, you can. || Can || Question with can: Can + I + verb? || @tags en.questions,en.modal-verbs
+      fill: How many nights ___ you going to stay? || are || Going to question: How many nights + are + you + going to…? || @tags en.questions,en.future-forms
+      mc: Choose the correct question. || Where the elevator is? | *Where is the elevator? | Where is it the elevator? || Question word + be + subject: Where is the elevator? || @tags en.questions
+      mc: "___ is a double room?" — "It's ninety dollars a night." || How many | *How much | How long || Use How much to ask about a price. || @tags en.questions
+      rw: Correct the mistake :: What time the restaurant opens? || What time does the restaurant open? || Use does, and the verb has no -s: does… open. || @tags en.questions,en.present-simple
+      match: How long are you going to stay? = Three nights. ; How much is a single room? = Seventy dollars. ; What time is check-out? = At eleven. ; Can I park here? = Yes, you can. || Each question has one natural answer. || @tags en.questions
+      order: Is there a room available on Friday? || @tags en.questions,en.be
+      tf: Breakfast is included in the price. || true || Ellen says, "Yes, it is. Breakfast is from seven to ten." || @ctx dialogue
+      short: How many nights is Karim going to stay? || kw: 2/two || Karim says, "On Friday. For two nights." || @ctx dialogue
+      listen: Check-out is at eleven, and the elevator is next to the front desk. || What time is check-out? || 7:00 | *11:00 | 12:00 || "Check-out is at eleven." || @tags en.time
+      listen: @dialogue || How much is the room? || $59 a night | *$95 a night | $95 for two nights || Ellen says, "It's ninety-five dollars a night." || @tags en.numbers
+      dict: What time does breakfast start?
+      ask: Call a hotel and ask three questions — about the price, breakfast and the check-in time. || kw: how much & breakfast & check in/what time/when || Hello! How much is a double room? Is breakfast included? And what time can I check in?
+      write: Write an email to a hotel to book a room. Give the dates and the room type, and ask two questions. || min=35 || req: book | night/nights | is/can/do/does/how || Dear Sir or Madam, I'd like to book a single room for three nights, from Friday to Monday. How much is the room? Is breakfast included? Can I check in after 10 p.m.? Thank you. Best regards, Sofia Mendes

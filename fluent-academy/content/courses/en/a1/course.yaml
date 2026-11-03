@@ -1,0 +1,114 @@
+language: en
+level: A1
+title: "English A1 · Foundations"
+description: Build a solid base in everyday English — greetings, personal information, family, daily routines, food, places, shopping, free time and simple travel, taught entirely in English.
+monolingual: true
+hours: 70
+summary: >-
+  A1 learners can understand and use familiar everyday expressions and very basic phrases, introduce themselves,
+  ask and answer simple questions about personal details, and interact simply when the other person talks slowly
+  and clearly. This course delivers around 70 hours of guided practice across 8 units. Everything is in simple
+  English, so learners from any language can follow it.
+objectives:
+  - Greet people, introduce yourself and give personal information
+  - Talk about your family and describe people and jobs
+  - Describe your daily routine and say how often you do things
+  - Order food and drinks and buy food at a market
+  - Describe your town and your home and ask for directions
+  - Buy clothes and other things and understand prices
+  - Talk about hobbies, likes and the weather and make simple plans
+  - Get around a city, talk about weekend plans and book a room
+canDo:
+  listening:
+    - Understand familiar words and very basic phrases about yourself, your family and your surroundings when people speak slowly and clearly
+    - Catch numbers, prices and times in short announcements and messages
+  reading:
+    - Understand familiar names, words and very simple sentences on signs, menus, forms and short messages
+  spokenInteraction:
+    - Interact in a simple way if the other person speaks slowly, repeats and helps you
+    - Ask and answer simple questions on very familiar topics, such as family, food, shopping and travel
+  spokenProduction:
+    - Use simple phrases and sentences to describe where you live, your day and people you know
+  writing:
+    - Write a short, simple message, email or postcard
+    - Fill in forms with personal details such as name, age, nationality and address
+grammar:
+  - The verb be (positive, negative, questions, short answers) and subject pronouns
+  - Possessive adjectives (my, your, his, her, our, their) and possessive 's
+  - have got for family, appearance and possessions
+  - Articles a and an with jobs and singular nouns; regular and irregular plurals
+  - Present simple (positive, negative, questions with do and does)
+  - Adverbs of frequency (always, usually, often, sometimes, never)
+  - Telling the time and prepositions of time (at, on, in)
+  - Countable and uncountable nouns; some and any
+  - would like for polite requests and offers
+  - there is and there are
+  - Prepositions of place (in, on, under, next to, between, behind, in front of)
+  - Imperatives for directions and instructions
+  - this, that, these, those
+  - How much…? and How many…?; numbers to 100 and prices
+  - like, love, don't like and hate + -ing
+  - Present continuous for actions happening now
+  - going to for plans
+  - can for possibility and permission
+  - Question forms with be, do and can and question words
+vocabularyDomains:
+  - Greetings and politeness
+  - Countries, nationalities, numbers and the alphabet
+  - Family, appearance and personality
+  - Jobs and workplaces
+  - Time, days and daily routines
+  - Food, drink, cafés, markets and restaurants
+  - Places in town, directions and the home
+  - Clothes, colors, sizes and prices
+  - Hobbies, sports, the weather and seasons
+  - Transportation, weekend plans and hotels
+assessment: A 40-minute cumulative test covering vocabulary, grammar, listening and reading tasks from all eight units, with a short writing task. A score of 70% or more confirms the A1 level.
+units:
+  - title: "Hello!"
+    theme: Greetings and introductions
+    lessons: [Greetings and goodbyes, Introducing yourself, "Numbers, age and spelling"]
+  - title: People in my life
+    theme: Family and people
+    lessons: [My family, Describing people, Jobs and workplaces]
+  - title: Day by day
+    theme: Time and daily routine
+    lessons: [Telling the time, My daily routine, Days and frequency]
+  - title: "Let's eat!"
+    theme: Food and drink
+    lessons: [Ordering at a café, At the market, At the restaurant]
+  - title: "My town, my home"
+    theme: Town and home
+    lessons: [Places in town, Asking for directions, My home]
+  - title: Going shopping
+    theme: Shopping
+    lessons: [Clothes and colors, Prices and numbers to 100, In a shop]
+  - title: Free time
+    theme: Free time and weather
+    lessons: [Hobbies and likes, Weather and seasons, Making plans]
+  - title: On the move
+    theme: Travel
+    lessons: [Getting around, Plans for the weekend, Booking a room]
+assessmentItems: |
+  mc: You meet your new manager at 9 a.m. What do you say? || Hey, what's up? | *Good morning. Nice to meet you. | Good night! || Good morning and "Nice to meet you" are polite for a first meeting. Good night is only for goodbye. || @tags en.register @obj Greet people, introduce yourself and give personal information
+  fill: My sister and I ___ from Brazil. || are || "My sister and I" = we, so the verb is are. || @tags en.be
+  fill: This is Tom. ___ wife is a doctor. || His || Tom is a man, so we say his wife. || @tags en.possessives @obj Talk about your family and describe people and jobs
+  fill: My brother ___ got blue eyes. || has || He, she and it use has got: he has got (he's got). || @tags en.have-got
+  mc: Choose the correct sentence. || He's a engineer. | *He's an engineer. | He's engineer. || Use an before a vowel sound (an engineer). Jobs always need a or an. || @tags en.articles
+  fill: Lucia ___ (work) in a hospital. || works || In the present simple, he, she and it add -s: she works. || @tags en.present-simple @obj Describe your daily routine and say how often you do things
+  mc: Choose the correct sentence. || I go always to work by bus. | *I always go to work by bus. | I go to work always by bus. || Frequency words like always go before the main verb. || @tags en.frequency
+  rw: Make it negative :: She lives in London. || She doesn't live in London. | She does not live in London. || Use doesn't + the verb without -s: she doesn't live. || @tags en.present-simple
+  short: The clock says 7:30. Write the time in words. || half past seven | seven thirty || 7:30 = half past seven or seven thirty. || @tags en.time
+  mc: You want a cup of tea in a café. You say: || I want tea. Give me. | *I'd like a tea, please. | I like a tea, please. || I'd like (I would like) is the polite way to order. "I like" means you enjoy something in general. || @tags en.requests @obj Order food and drinks and buy food at a market
+  fill: We haven't got ___ milk. Can you buy some? || any || Use any in negative sentences: not any milk. || @tags en.quantifiers
+  fill: There ___ two banks on Main Street. || are || Use there are with plural nouns (two banks). || @tags en.be @obj Describe your town and your home and ask for directions
+  mc: A tourist asks, "Where's the station?" Which answer is correct? || *Go straight on and turn left. | You going straight and turning left. | Going straight, turn to left. || For directions, use the base verb (the imperative): go, turn. || @tags en.verb-forms
+  fill: Look at ___ shoes over there! They're nice. || those || The shoes are far away and plural, so we say those. || @tags en.demonstratives @obj Buy clothes and other things and understand prices
+  mc: "___ is this T-shirt?" — "It's fifteen dollars." || How many | *How much | How old || Use How much to ask about a price. || @tags en.questions
+  fill: I love ___ (swim) in the sea. || swimming || After love, like and hate, use the -ing form: love swimming. || @tags en.likes @obj Talk about hobbies, likes and the weather and make simple plans
+  fill: Take an umbrella! It ___ (rain) now. || is raining || Use the present continuous (is + -ing) for things happening now. || @tags en.present-continuous
+  fill: Next weekend we ___ visit our grandparents. || are going to || Use be + going to + verb for plans: we are going to visit. || @tags en.future-forms @obj Get around a city, talk about weekend plans and book a room
+  rw: Make a question :: We can take the bus to the airport. || Can we take the bus to the airport? || In questions, can comes before the person: Can we…? || @tags en.modal-verbs,en.questions
+  listen: The next train to Boston leaves at nine fifteen from platform four. || When does the train leave? || 9:50 | *9:15 | 4:15 || Nine fifteen = 9:15. Platform four is the place, not the time. || @tags en.time
+  listen: Two coffees and a muffin. That's eleven dollars, please. || How much is it? || $7 | *$11 | $12 || "Eleven dollars" = $11. || @tags en.numbers
+  write: Write a short postcard to a friend from your vacation (British English: holiday). Say where you are, what the weather is like, what you do every day and what you are going to do tomorrow. || min=30 || req: I'm/I am/we're/we are | it's/it is | going to || Hi Sam! I'm in San Diego with my brother. It's sunny and hot. Every morning we go to the beach, and in the evening we eat in a small restaurant. Tomorrow we're going to visit the zoo. See you soon! Love, Mia

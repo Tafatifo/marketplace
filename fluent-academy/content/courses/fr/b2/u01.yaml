@@ -1,0 +1,346 @@
+unit: 1
+title: Identités plurielles
+theme: Identity and society
+description: Talk about identity, belonging and the ties between generations, and describe life between two languages, using the subjunctive after doubt and possibility, concession with bien que and avoir beau, and nuanced, hedged opinions.
+free: true
+objectives:
+  - Express doubt, possibility and certainty, choosing between the subjunctive and the indicative
+  - Concede a point with bien que, quoique, même si, malgré and avoir beau
+  - Nuance and hedge your opinions in conversation and in writing
+canDo:
+  - I can talk about what makes up my identity and where I feel I belong.
+  - I can say how certain or doubtful I am, choosing the right mood.
+  - I can compare generations and concede a point without giving up my argument.
+  - I can describe the experience of living between two languages with nuance.
+review: |
+  fill: Il est peu probable que nous ___ (pouvoir) venir à la fête des voisins. || puissions || Il est peu probable que presents the idea as unlikely: subjunctive, que nous puissions. || @tags fr.subjonctif-triggers,fr.subjonctif
+  fill: Je suis sûr que ton grand-père ___ (savoir) se servir d'une tablette. || sait || Être sûr que presents a certainty, so it takes the indicative: il sait. || @tags fr.subjonctif-triggers
+  mc: "Je me doute que tu ___ déçu." || sois | *es | être || Se douter que (to suspect) takes the indicative: tu es. Only douter que (to doubt) takes the subjunctive. || @tags fr.subjonctif-triggers
+  fill: J'___ beau leur expliquer, mes parents ne comprennent pas mon métier. || ai || Avoir beau + infinitive: avoir is conjugated (j'ai beau expliquer). || @tags fr.connectors
+  mc: "___ ses quatre-vingt-dix ans, elle conduit encore." || Bien que | *Malgré | Même si || Ses quatre-vingt-dix ans is a noun phrase, so you need malgré. Bien que and même si introduce a clause with a verb. || @tags fr.connectors
+  rw: Join the sentences with "bien que" :: Elle vit en France depuis trente ans. Elle a gardé son accent. || Bien qu'elle vive en France depuis trente ans, elle a gardé son accent. | Elle a gardé son accent bien qu'elle vive en France depuis trente ans. || Bien que + subjunctive: vivre → qu'elle vive. Que becomes qu' before elle. || @tags fr.subjonctif,fr.connectors
+  fill: C'est la seule langue étrangère que je ___ (connaître) vraiment bien. || connaisse || After la seule… que, the subjunctive stresses a subjective, unique case: que je connaisse. || @tags fr.subjonctif-triggers
+  tr: It seems to me that you're right. || Il me semble que tu as raison. | Il me semble que vous avez raison. | J'ai l'impression que tu as raison. | J'ai l'impression que vous avez raison. || Il me semble que (a personal impression) takes the indicative; to be right = avoir raison. || @tags fr.subjonctif-triggers,fr.opinion
+  listen: Bien que je sois née à Dakar, je me sens profondément lyonnaise, parce que c'est ici que j'ai grandi. || Where does the speaker feel she belongs? || *In Lyon, where she grew up | In Dakar, where she was born | Equally in both cities || "Je me sens profondément lyonnaise, parce que c'est ici que j'ai grandi." || @tags fr.listening,fr.subjonctif
+  listen: Il semble que de plus en plus de grands-parents s'occupent de leurs petits-enfants le mercredi, quand il n'y a pas école. || What trend does the speaker describe? || *More and more grandparents look after their grandchildren on Wednesdays | Fewer grandparents see their grandchildren during the week | More and more children go to school on Wednesdays || "De plus en plus de grands-parents s'occupent de leurs petits-enfants le mercredi." || @tags fr.listening
+  ask: Your cousin says that you can't really feel French if you weren't born in France. Disagree politely and with nuance. || kw: bien que/même si/il me semble/je doute que/je ne suis pas sûr/je ne suis pas sûre/je ne suis pas certain/je ne suis pas certaine/dans une certaine mesure & sentir/sent/sens/identité/français/française/né/née || Je ne suis pas sûre que ce soit si simple. Bien qu'on ne soit pas né en France, on peut s'y sentir chez soi : il me semble que la langue, les amis et les habitudes comptent autant que le lieu de naissance.
+  write: Write a short forum post (80–100 words) answering the question "Peut-on avoir plusieurs identités ?". || min=80 || req: bien que/bien qu'/quoique/quoiqu' | même si/même s'/malgré | il me semble/il semble/dans une certaine mesure/plutôt/à vrai dire | doute que/possible que/possible qu'/se peut que/se peut qu'/pas sûr que/pas sûre que || À mon avis, oui. Je suis née à Lille, mais ma mère est polonaise et j'ai passé tous mes étés près de Cracovie. Bien que je parle polonais avec un accent, je me sens polonaise dans une certaine mesure. Même si mes amis me voient comme une « vraie Lilloise », il me semble qu'une identité se construit avec plusieurs morceaux : une langue, des souvenirs, une cuisine, des valeurs. Je doute qu'on puisse résumer quelqu'un à une seule case. Il se peut que nos identités changent aussi avec le temps, et c'est plutôt une bonne nouvelle.
+lessons:
+  - title: Identity and belonging
+    summary: Talk about your roots and the groups you feel you belong to, and say how sure you are, using the subjunctive after doubt and possibility and the indicative after certainty.
+    minutes: 50
+    skills: [listening, grammar, speaking]
+    tags: [fr.subjonctif-triggers, fr.subjonctif]
+    objectives:
+      - Talk about roots, origins and the sense of belonging
+      - Use the subjunctive after douter que, il se peut que and il est peu probable que
+      - Keep the indicative after certainty and probability (je suis sûr que, il est probable que)
+    intro: |
+      "Where are you from?" sounds like a simple question, but for many people the honest answer is long and full of nuance. Talking about identity means saying how **sure** you are: *je suis sûr que…*, *il se peut que…*, *je doute que…*. In French, this degree of certainty is visible in the grammar — doubt and possibility call for the **subjunctive**, while certainty keeps the **indicative**.
+    vocab: |
+      l'identité | identity | n | Pour beaucoup de gens, la langue fait partie de l'identité. | For many people, language is part of their identity. | g: f | c: l'identité culturelle; une carte d'identité
+      le sentiment d'appartenance | sense of belonging | n | Le club de foot donne aux jeunes un fort sentiment d'appartenance. | The football club gives young people a strong sense of belonging. | g: m | n: L'appartenance (f) = belonging; membership.
+      appartenir à | to belong to | v | On peut appartenir à plusieurs communautés à la fois. | You can belong to several communities at once. | n: Conjugated like tenir: j'appartiens, nous appartenons; subjunctive que j'appartienne.
+      se sentir | to feel | v | Je me sens chez moi à Marseille. | I feel at home in Marseille. | c: se sentir chez soi; se sentir à l'aise | n: Followed by an adjective or adverb: elle se sent seule.
+      être originaire de | to come from; to be a native of | expr | Mes grands-parents sont originaires de Calabre. | My grandparents come from Calabria. | n: For a place. For a nationality, use d'origine + adjective: d'origine italienne.
+      les racines | roots | n | Il est retourné au Portugal pour retrouver ses racines. | He went back to Portugal to rediscover his roots. | g: f | n: Une racine is also the root of a plant.
+      revendiquer | to proudly assert; to claim | v | Elle revendique fièrement ses deux cultures. | She proudly asserts both her cultures. | n: Also to claim a right. Une revendication = a demand.
+      une case | a box; a category | n | On ne peut pas mettre les gens dans des cases. | You can't put people in boxes. | g: f | c: cocher une case; rentrer dans une case
+      une enquête | a survey; an investigation | n | Elle mène une enquête sur le sentiment d'appartenance des étudiants. | She's conducting a survey on students' sense of belonging. | g: f | c: mener une enquête; une enquête d'opinion
+      douter | to doubt | v | Je doute que ce soit si simple. | I doubt it's that simple. | n: Douter que + subjunctive; se douter que (to suspect) + indicative.
+      y être pour quelque chose | to have something to do with it | expr | Le climat y est sans doute pour quelque chose. | The weather probably has something to do with it. | n: Negative: je n'y suis pour rien = it's not my doing.
+    grammar:
+      title: "Doubt and possibility: subjunctive or indicative?"
+      body: |
+        In B1 you used the subjunctive after feelings, wishes and negative opinions (*je ne pense pas que…*). At B2, the key question is **how sure the speaker is**. When an idea is presented as **doubtful, possible or unlikely**, the verb goes into the **subjunctive**; when it is presented as **certain or probable**, it stays in the **indicative**.
+
+        - **Doubt**: *douter que, ne pas être sûr(e) / certain(e) que, il n'est pas certain que* → *Je doute que mes cousins me **trouvent** très libanaise.*
+        - **Possibility**: *il est possible que, il se peut que, il est impossible que* → *Il se peut qu'on me **demande** d'où je viens.*
+        - **Low probability and rarity**: *il est peu probable que, il est rare que* → *Il est peu probable qu'il **revienne** vivre ici.*
+        - **Certainty and probability** keep the **indicative**: *je suis sûr(e) que, il est certain que, il est évident que, il est probable que* → *Il est probable que la langue y **est** pour quelque chose.*
+
+        Watch the pair **douter que** (*to doubt*, + subjunctive) and **se douter que** (*to suspect, to imagine*, + indicative): *Je doute qu'il **soit** fatigué* (I don't think he is) / *Je me doute qu'il **est** fatigué* (I imagine he is).
+
+      table: |
+        Expression | How sure? | Mood | Example
+        je suis sûr(e) que / il est certain que | certain | indicative | Je suis sûre qu'elle comprend.
+        il est probable que | probable | indicative | Il est probable qu'il viendra.
+        il est possible que / il se peut que | possible | subjunctive | Il se peut qu'il vienne.
+        il est peu probable que | unlikely | subjunctive | Il est peu probable qu'il vienne.
+        je doute que / je ne suis pas sûr(e) que | doubtful | subjunctive | Je doute qu'il vienne.
+        je me doute que | suspected | indicative | Je me doute qu'il viendra.
+      examples: |
+        Il est possible que nos enfants se sentent plus européens que nous. | It's possible that our children feel more European than we do. | possibility
+        Je ne suis pas certain que ce questionnaire soit vraiment anonyme. | I'm not sure this questionnaire is really anonymous. | doubt
+        Il est évident que la langue a un rôle à jouer. | It's obvious that language has a part to play. | certainty: indicative
+        Je me doute que tu as beaucoup de travail en ce moment. | I imagine you've got a lot of work at the moment. | se douter que: indicative
+      tip: "Il se peut que and il est possible que mean the same thing; il se peut que sounds a little more conversational. Both take the subjunctive."
+    dialogue:
+      title: Tu te sens d'où ?
+      setting: A café in Lille. Ophélie, a sociology student, is testing the questionnaire for her survey on belonging with two friends, Erwan and Selma.
+      speakers: O=Ophélie/f; E=Erwan/m; S=Selma/f
+      lines: |
+        O: Merci d'avoir accepté, tous les deux. Première question : quand on vous demande d'où vous venez, que répondez-vous ? | Thanks for agreeing, both of you. First question: when people ask you where you're from, what do you answer?
+        E: Je réponds que je suis breton, même si j'habite à Lille depuis maintenant douze ans. | I say I'm Breton, even though I've been living in Lille for twelve years now.
+        S: Pour moi, c'est plus compliqué. Je suis née à Toulouse, mais mes parents sont originaires de Beyrouth. | For me it's more complicated. I was born in Toulouse, but my parents come from Beirut.
+        O: Et tu te sens plutôt française, plutôt libanaise, ou les deux à la fois ? | And do you feel more French, more Lebanese, or both at once?
+        S: Les deux, je crois. Mais je doute que mes cousins de Beyrouth me trouvent très libanaise ! | Both, I think. But I doubt my cousins in Beirut find me very Lebanese!
+        E: Il est possible qu'ils te voient comme « la Française » de la famille, non ? | Maybe they see you as "the French one" of the family, no?
+        S: Exactement. Et ici, il se peut qu'on me demande encore d'où je viens « vraiment ». | Exactly. And here, people may still ask me where I'm "really" from.
+        O: Erwan, à ton avis, est-ce qu'on peut se sentir breton sans parler un mot de breton ? | Erwan, in your opinion, can you feel Breton without speaking a word of Breton?
+        E: J'en suis sûr. Il est probable que la langue y est pour quelque chose, mais ce n'est pas tout. | I'm sure of it. Language probably has something to do with it, but it's not everything.
+        S: De toute façon, je ne suis pas certaine qu'une identité tienne dans une seule case. | Anyway, I'm not sure an identity fits into a single box.
+        O: C'est justement l'hypothèse de mon enquête : on appartient souvent à plusieurs groupes à la fois. | That's exactly the hypothesis of my survey: we often belong to several groups at once.
+        E: Alors je doute que tu aies vraiment besoin de nous pour la démontrer ! | Then I doubt you really need us to prove it!
+    pronunciation:
+      title: "Nasal or not? breton / bretonne"
+      body: |
+        Many adjectives of origin end in a nasal vowel in the masculine: *breton* [bʁə.tɔ̃], *algérien* [al.ʒe.ʁjɛ̃], *marocain* [ma.ʁɔ.kɛ̃]. In the feminine the vowel loses its nasality and you clearly pronounce the [n]: *bretonne* [bʁə.tɔn], *algérienne* [al.ʒe.ʁjɛn], *marocaine* [ma.ʁɔ.kɛn].
+
+        The same change makes some subjunctives easy to hear: *il appartient* [a.paʁ.tjɛ̃] → *qu'il appartienne* [a.paʁ.tjɛn]. In the masculine and in the indicative, don't let an [n] slip in after the nasal vowel.
+      items: |
+        breton
+        bretonne
+        algérien
+        algérienne
+        il appartient
+        qu'il appartienne
+    culture:
+      title: Les langues de France
+      body: |
+        Besides French, more than seventy *langues de France* are recognised, including Breton, Occitan, Basque, Alsatian, Corsican and Catalan, as well as the Creoles and other languages of the overseas territories. Since 2008 the Constitution has stated that regional languages "belong to the heritage of France". They can be studied at school, and associative immersion schools — such as the Diwan schools in Brittany, the first of which opened in 1977 — teach most subjects in the regional language.
+    mistakes: |
+      Je doute qu'il a raison. => Je doute qu'il ait raison. | Douter que presents the idea as doubtful, so it takes the subjunctive.
+      Je me doute qu'il soit fatigué. => Je me doute qu'il est fatigué. | Se douter que means "to suspect"; it takes the indicative.
+      Je suis d'origine de Lyon. => Je suis originaire de Lyon. | D'origine is followed by a nationality adjective (d'origine portugaise); for a place, use originaire de.
+    task:
+      title: Where are you from — really?
+      mode: speaking
+      body: |
+        Prepare a two-minute answer to Ophélie's question: *Quand on vous demande d'où vous venez, que répondez-vous ?* Talk about your roots and the places and groups you feel you belong to, and say how sure you are, using at least three expressions from the lesson (*je doute que, il se peut que, je suis sûr(e) que…*). Then discuss the topic with the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      fill: Je doute que ce questionnaire ___ (être) vraiment anonyme. || soit || Douter que + subjunctive: être → que ce soit. || @tags fr.subjonctif-triggers,fr.subjonctif
+      fill: Il se peut que nous ___ (devoir) remplir un deuxième formulaire. || devions || Il se peut que + subjunctive: devoir → que nous devions. || @tags fr.subjonctif-triggers,fr.subjonctif
+      fill: Je suis certaine qu'elle ___ (comprendre) le breton, même si elle ne le parle pas. || comprend || Être certain que expresses certainty: indicative, elle comprend. || @tags fr.subjonctif-triggers
+      mc: "Il est peu probable qu'il ___ s'installer à l'étranger." || veut | *veuille | voudra || Il est peu probable que presents the idea as unlikely: subjunctive, qu'il veuille. || @tags fr.subjonctif-triggers,fr.subjonctif
+      mc: Which sentence means "I imagine you're tired"? || Je doute que tu sois fatigué. | *Je me doute que tu es fatigué. | Je doute que tu es fatigué. || Se douter que = to suspect, to imagine (+ indicative). Douter que = to doubt (+ subjunctive). || @tags fr.subjonctif-triggers
+      tf: Erwan thinks you have to speak Breton to feel Breton. || false || He is sure you can feel Breton without speaking it: language plays a part, "mais ce n'est pas tout". || @ctx dialogue
+      short: Where do Selma's parents come from? || kw: Beyrouth/Beirut/Liban/Lebanon || "Mes parents sont originaires de Beyrouth." || @ctx dialogue
+      listen: @dialogue || What is the hypothesis of Ophélie's survey? || *People often belong to several groups at once | Language is the most important part of identity | Young people no longer feel attached to a region || "On appartient souvent à plusieurs groupes à la fois." || @tags fr.listening
+      listen: Il est possible que je reparte vivre au Québec, mais je doute que mes enfants veuillent quitter leurs amis. || What is the speaker unsure about? || *Whether the children will want to leave their friends | Whether Quebec will accept the family | Whether the speaker will find a job || "Je doute que mes enfants veuillent quitter leurs amis." || @tags fr.listening,fr.subjonctif-triggers
+      rw: Express a doubt. Start with "Je doute que…" :: Cette enquête va changer les mentalités. || Je doute que cette enquête change les mentalités. | Je doute que cette enquête puisse changer les mentalités. || Douter que + subjunctive; no futur proche after it: que cette enquête change. || @tags fr.subjonctif-triggers
+      tr: It's possible that she feels both French and Senegalese. || Il est possible qu'elle se sente à la fois française et sénégalaise. | Il est possible qu'elle se sente française et sénégalaise à la fois. | Il se peut qu'elle se sente à la fois française et sénégalaise. | Il se peut qu'elle se sente française et sénégalaise à la fois. || Il est possible que / il se peut que + subjunctive: qu'elle se sente. Both at once = à la fois. || @tags fr.subjonctif-triggers,fr.subjonctif
+      dict: Il se peut qu'on appartienne à plusieurs groupes à la fois. || appartienne
+      ask: Someone asks you where you're from. Answer with nuance, using at least one expression of doubt or possibility. || kw: doute que/possible que/possible qu'/se peut que/se peut qu'/pas sûr que/pas sûre que/pas certain que/pas certaine que/peu probable que/peu probable qu' & sens/suis/viens/origine/originaire/racines || Je suis né à Manchester, mais ma mère est originaire de Lagos. Je me sens anglais et nigérian, même si je doute que mes cousins me trouvent très nigérian !
+
+  - title: Generations
+    summary: Compare your generation with your parents' and grandparents', and concede a point without giving up your argument, with bien que, quoique, même si, malgré and avoir beau.
+    minutes: 50
+    skills: [listening, grammar, speaking, writing]
+    tags: [fr.connectors, fr.subjonctif]
+    objectives:
+      - Compare the lives, values and habits of different generations
+      - Concede a point with bien que and quoique + subjunctive, and même si + indicative
+      - Use malgré + noun and avoir beau + infinitive
+    intro: |
+      Job for life or freelance work, marriage or PACS, landlines or voice messages: every family dinner can turn into a debate between generations. To discuss these differences calmly, you need to **concede** a point — *bien que ce soit moins stable…*, *même si c'est vrai…*, *j'ai beau essayer…* — while keeping your own view. French has several ways to do this, and each one is followed by a different structure.
+    vocab: |
+      une génération | a generation | n | D'une génération à l'autre, les habitudes changent vite. | From one generation to the next, habits change fast. | g: f | c: le fossé entre les générations; la génération de mes parents
+      le fossé générationnel | the generation gap | n | Le fossé générationnel se voit surtout dans l'usage des écrans. | The generation gap shows above all in the use of screens. | g: m
+      un CDI | a permanent contract | n | Après deux ans de CDD, elle a enfin signé un CDI. | After two years of fixed-term contracts, she finally signed a permanent one. | g: m | n: Contrat à durée indéterminée. A fixed-term contract is un CDD (déterminée).
+      indépendant | freelance; self-employed | adj | Il est traducteur indépendant depuis cinq ans. | He's been a freelance translator for five years. | n: Feminine: indépendante. Also: travailler à son compte.
+      à mon époque | in my day | expr | À mon époque, on écrivait des lettres. | In my day, people wrote letters. | n: Often used by older speakers, sometimes with humour.
+      se débrouiller | to manage; to get by | v | Ma grand-mère se débrouille très bien avec son smartphone. | My grandmother manages very well with her smartphone. | n: Je me débrouille en espagnol = I get by in Spanish.
+      transmettre | to pass on; to hand down | v | Mon père m'a transmis sa passion pour la musique. | My father passed on his passion for music to me. | c: transmettre des valeurs; transmettre un savoir-faire | n: La transmission = passing on.
+      se plaindre de | to complain about | v | Ils se plaignent souvent du bruit. | They often complain about the noise. | n: Je me plains, nous nous plaignons; subjunctive que je me plaigne, que vous vous plaigniez.
+      nier | to deny | v | Je ne nie pas que les jeunes soient souvent sur leur téléphone. | I don't deny that young people are often on their phones. | n: Ne pas nier que is usually followed by the subjunctive.
+      évoluer | to change; to evolve | v | Les mentalités ont beaucoup évolué en cinquante ans. | Attitudes have changed a lot in fifty years. | n: L'évolution (f) = change; development.
+      se pacser | to enter a civil partnership | v | Ils se sont pacsés l'an dernier, sans grande fête. | They entered a civil partnership last year, without a big party. | n: From le PACS (pacte civil de solidarité).
+    grammar:
+      title: "Conceding a point: bien que, même si, malgré, avoir beau"
+      body: |
+        A **concession** admits a fact that could be an obstacle, then says that the main idea is true anyway. French offers several structures, and each one is followed by something different.
+
+        - **Bien que** and **quoique** + **subjunctive**: *Bien que nous ne **soyons** pas mariés, nous avons acheté un appartement.* *Quoique* is a little more formal. With the same subject, you can drop the verb: *bien que fatiguée, elle a continué.*
+        - **Même si** + **indicative** (never the subjunctive): *Même si c'**est** moins stable, je choisis mes clients.* Même si + imparfait makes the obstacle hypothetical: *même s'il pleuvait, je viendrais.*
+        - **Malgré** + **noun or pronoun**: *Malgré les prix, ils ont acheté.* *Malgré lui* = in spite of himself.
+        - **Avoir beau** + **infinitive**, at the start of the sentence; only *avoir* is conjugated: *J'ai beau avoir soixante-dix-huit ans, je me débrouille très bien.* The main clause expresses the result that you would not expect.
+        - **Pourtant** and **cependant** are adverbs that start a new clause: *Il est tard ; pourtant, elle travaille encore.*
+
+        Choose according to what follows: a clause with a subjunctive, a clause with an indicative, a noun, or an infinitive.
+      table: |
+        Structure | Followed by | Example
+        bien que / quoique | subjunctive | Bien qu'il soit tard, elle travaille encore.
+        même si | indicative | Même s'il est tard, elle travaille encore.
+        malgré | noun or pronoun | Malgré l'heure, elle travaille encore.
+        avoir beau | infinitive | Elle a beau être fatiguée, elle travaille encore.
+        pourtant / cependant | a full clause | Il est tard ; pourtant, elle travaille encore.
+      examples: |
+        Bien que mes parents aient des horaires fixes, ils ne comprennent pas le télétravail. | Although my parents have fixed hours, they don't understand remote work. | bien que + subjunctive
+        Même si on se dispute parfois, on s'entend bien. | Even if we sometimes argue, we get on well. | même si + indicative
+        Malgré la distance, mes petits-enfants m'appellent chaque semaine. | Despite the distance, my grandchildren call me every week. | malgré + noun
+        Il a beau répéter que c'était mieux avant, il adore sa tablette. | He keeps saying things were better before, yet he loves his tablet. | avoir beau + infinitive
+      tip: "Malgré que is common in speech, but careful writers avoid it. In writing, use bien que + subjunctive instead."
+    dialogue:
+      title: Trois générations à table
+      setting: A Sunday lunch in Montreuil. Paulette, 78, is visiting her granddaughter Maëva and Maëva's partner Ibrahim in the flat they have just bought.
+      speakers: P=Paulette/f; M=Maëva/f; I=Ibrahim/m
+      lines: |
+        P: Quand j'avais ton âge, j'étais déjà mariée, j'avais deux enfants et un emploi à la Poste. | When I was your age, I was already married, with two children and a job at the Post Office.
+        M: Je sais, mamie. Bien que nous ne soyons pas mariés, Ibrahim et moi, nous venons d'acheter un appartement. | I know, Grandma. Although we're not married, Ibrahim and I have just bought a flat.
+        P: Un appartement, malgré les prix d'aujourd'hui ? Vous avez du courage, mes enfants. | A flat, despite today's prices? You're brave, my dears.
+        I: On a eu beau chercher pendant un an, on n'a rien trouvé de moins cher qu'ici, à Montreuil. | We looked for a whole year, but we found nothing cheaper than here in Montreuil.
+        P: Et ton travail, Ibrahim ? Tu es toujours… comment dit-on déjà… indépendant ? | And your work, Ibrahim? Are you still… what's the word again… freelance?
+        I: Oui, graphiste indépendant. Même si c'est moins stable qu'un CDI, je choisis mes clients et mes horaires. | Yes, a freelance graphic designer. Even if it's less stable than a permanent contract, I choose my clients and my hours.
+        P: À mon époque, on gardait le même emploi toute sa vie, quoique ce ne soit pas toujours drôle, je vous assure ! | In my day, you kept the same job all your life, though it isn't always fun, I can tell you!
+        M: Tu vois, chaque génération a ses avantages : vous aviez la sécurité, nous, nous avons la liberté. | You see, every generation has its advantages: you had security, we have freedom.
+        P: La liberté, peut-être… mais vous êtes toujours sur vos téléphones, bien que vous vous plaigniez d'être fatigués ! | Freedom, maybe… but you're always on your phones, even though you complain about being tired!
+        I: Ça, je ne peux pas le nier ! Mais c'est vous qui m'avez appris à envoyer des messages vocaux, Paulette. | That I can't deny! But you're the one who taught me to send voice messages, Paulette.
+        P: Eh oui ! J'ai beau avoir soixante-dix-huit ans, je me débrouille très bien avec la technologie. | Oh yes! I may be seventy-eight, but I manage very well with technology.
+        M: C'est vrai. C'est même toi qui organises les appels vidéo de toute la famille le dimanche ! | That's true. You're even the one who organises the whole family's video calls on Sundays!
+    pronunciation:
+      title: The melody of concession
+      body: |
+        In a sentence that starts with a concession, the voice **rises** at the end of the concession and **falls** at the end of the main clause: *Bien qu'il soit tard* ↗, *elle travaille encore* ↘. The rise tells the listener "wait, there's a *but* coming".
+
+        In *quoique* [kwa.kə] and *malgré* [mal.ɡʁe], don't drop any syllable. In *j'ai beau* [ʒe.bo], *ai* is a closed [e], and *beau* is a closed [o] as in *eau*.
+      items: |
+        Bien qu'il soit tard, elle travaille encore.
+        même si c'est moins stable
+        j'ai beau chercher
+        malgré les prix
+        quoique
+        à mon époque
+    mistakes: |
+      Même si il soit tard, elle travaille. => Même s'il est tard, elle travaille. | Même si takes the indicative, and si becomes s' before il.
+      Bien qu'il est fatigué, il continue. => Bien qu'il soit fatigué, il continue. | Bien que is always followed by the subjunctive.
+      J'ai beau de chercher, je ne trouve rien. => J'ai beau chercher, je ne trouve rien. | Avoir beau is followed directly by the infinitive, without de.
+    task:
+      title: A debate between generations
+      mode: interaction
+      body: |
+        With a partner, play two members of the same family from different generations (for example a grandparent and a grandchild). Choose a topic — work, couples, technology or holidays — and discuss it for three minutes. Each of you must concede at least two points (*bien que…, même si…, j'ai beau…, malgré…*) before defending your own view. Then continue the discussion with the AI coach in the "Expressing an opinion" scenario.
+    exercises: |
+      fill: Bien qu'elle ___ (avoir) quatre-vingts ans, ma grand-mère voyage seule. || ait || Bien que + subjunctive: avoir → qu'elle ait. || @tags fr.subjonctif,fr.connectors
+      fill: Même s'il ___ (faire) froid, mon grand-père se baigne dans la mer tous les matins. || fait || Même si is followed by the indicative: il fait. || @tags fr.connectors
+      mc: "___ la distance, ils se voient chaque mois." || Bien que | *Malgré | Même si || La distance is a noun: malgré + noun. || @tags fr.connectors
+      mc: Which sentence is correct? || Même si elle soit occupée, elle m'aide. | *Bien qu'elle soit occupée, elle m'aide. | Bien qu'elle est occupée, elle m'aide. || Bien que + subjunctive (soit); même si would need the indicative (est). || @tags fr.subjonctif,fr.connectors
+      tf: Maëva and Ibrahim are married. || false || "Bien que nous ne soyons pas mariés…" — they bought a flat without being married. || @ctx dialogue
+      short: What job does Ibrahim do? || kw: graphiste/graphic designer/designer || "Graphiste indépendant" — a freelance graphic designer. || @ctx dialogue
+      listen: @dialogue || Who organises the family video calls on Sundays? || *Paulette, the grandmother | Maëva | Ibrahim || "C'est même toi qui organises les appels vidéo de toute la famille le dimanche !" || @tags fr.listening
+      listen: Mon père a beau être à la retraite, il n'a jamais été aussi occupé — chorale, randonnée et cours d'informatique ! || What does the speaker say about their father? || *He is retired but busier than ever | He wants to go back to work | He has given up all his activities || Avoir beau introduces the unexpected result: retired, yet never so busy. || @tags fr.listening,fr.connectors
+      rw: Rewrite the sentence with "bien que" :: Il est jeune, mais il a beaucoup d'expérience. || Bien qu'il soit jeune, il a beaucoup d'expérience. | Il a beaucoup d'expérience, bien qu'il soit jeune. || Bien que + subjunctive: il est → qu'il soit. || @tags fr.subjonctif,fr.connectors
+      tr: Even though my parents don't understand my job, they support me. || Même si mes parents ne comprennent pas mon travail, ils me soutiennent. | Même si mes parents ne comprennent pas mon métier, ils me soutiennent. | Bien que mes parents ne comprennent pas mon travail, ils me soutiennent. | Bien que mes parents ne comprennent pas mon métier, ils me soutiennent. || Même si + indicative or bien que + subjunctive; for -er and -re verbs like these, ils comprennent looks the same in both moods. || @tags fr.connectors
+      dict: Malgré les années, ma grand-mère n'a rien perdu de son humour. || malgré
+      ask: Your grandfather says that young people don't work as hard as before. Answer him politely, conceding one point. || kw: bien que/bien qu'/quoique/même si/même s'/malgré/beau & travail/travaille/travaillent/jeunes/génération || Bien que les horaires aient changé, je ne crois pas qu'on travaille moins. Même si on fait plus de télétravail, on est souvent joignables le soir.
+      write: Write a paragraph (60–80 words) comparing your generation with your grandparents' generation, conceding at least two points. || min=60 || req: bien que/bien qu'/quoique/quoiqu' | même si/même s' | malgré/beau || Mes grands-parents ont eu une vie plus stable que la mienne : ils ont gardé le même travail et la même maison pendant quarante ans. Bien que leur vie ait été dure, ils avaient une sécurité que nous n'avons plus. Même si je change souvent de projet, j'ai plus de liberté qu'eux. Malgré nos différences, nous partageons les mêmes valeurs : la famille et l'entraide. Et j'ai beau leur offrir des livres, ils préfèrent la radio !
+
+  - title: Living between languages
+    summary: Read a personal column about life between Portuguese and French, and nuance and hedge your opinions with il me semble que, il semble que, plutôt and dans une certaine mesure.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [fr.subjonctif-triggers, fr.opinion]
+    objectives:
+      - Describe the experience of living with two or more languages
+      - Distinguish il me semble que (+ indicative) from il semble que (+ subjunctive)
+      - Soften statements with plutôt, dans une certaine mesure, à vrai dire, and the subjunctive after le seul and personne qui
+    intro: |
+      People who live between two languages often say that each language has its own territory: one for counting, one for swearing, one for love. Describing this experience well requires **nuance**: an educated speaker rarely says *les bilingues changent de personnalité*; they say *il semble que, dans une certaine mesure, …*. In this lesson you will learn to soften, qualify and hedge your statements — and see how the choice of mood itself can make a sentence more or less certain.
+    vocab: |
+      bilingue | bilingual | adj | Leur fils est parfaitement bilingue. | Their son is perfectly bilingual. | n: Le bilinguisme = bilingualism; trilingue = trilingual.
+      la langue maternelle | mother tongue; first language | n | Sa langue maternelle est le portugais. | Her mother tongue is Portuguese. | g: f
+      un interprète | an interpreter | n | Elle travaille comme interprète pour des conférences internationales. | She works as an interpreter for international conferences. | g: m | n: Feminine: une interprète. An interpreter speaks; a translator (un traducteur) writes.
+      passer d'une langue à l'autre | to switch from one language to the other | expr | Les enfants passent d'une langue à l'autre sans effort. | Children switch from one language to the other effortlessly. | n: Linguists also say alterner les langues.
+      un accent | an accent | n | Il a gardé un léger accent du Sud. | He has kept a slight southern accent. | g: m | c: avoir un accent; un léger accent; un accent à couper au couteau (very strong)
+      sceptique | sceptical | adj | Je reste sceptique face à ces études. | I remain sceptical about these studies. | n: Same form in the masculine and feminine.
+      avoir tort | to be wrong | expr | Ils n'ont peut-être pas tout à fait tort. | They may not be entirely wrong. | n: The opposite is avoir raison.
+      une richesse | an asset; wealth | n | Parler deux langues est une vraie richesse. | Speaking two languages is a real asset. | g: f
+      à vrai dire | to tell the truth; actually | expr | À vrai dire, je n'en sais rien. | To tell the truth, I have no idea. | n: Softens an admission or a correction.
+      dans une certaine mesure | to some extent | expr | Dans une certaine mesure, le français est devenu ma langue principale. | To some extent, French has become my main language.
+      tout à fait | completely; quite | adv | Je ne suis pas tout à fait d'accord. | I don't quite agree. | n: Pas tout à fait = not quite. Alone, Tout à fait ! = Absolutely!
+    grammar:
+      title: "Nuance: il me semble que, il semble que, le seul qui…"
+      body: |
+        At B2, the way you present an idea matters as much as the idea itself. French speakers soften their statements in three main ways.
+
+        **1. Hedging expressions.** *Plutôt* (rather), *assez* (fairly), *dans une certaine mesure* (to some extent), *en quelque sorte* (in a way), *à vrai dire* (to tell the truth), *pas tout à fait* (not quite): *Je suis **plutôt** sceptique. Ils n'ont **pas tout à fait** tort.*
+
+        **2. Impressions and hearsay.** **Il me semble que** gives a personal impression and takes the **indicative**: *Il me semble que je **rêve** en portugais.* **Il semble que**, impersonal and more cautious, is generally followed by the **subjunctive**: *Il semble que certaines choses **refusent** de changer de langue.* *J'ai l'impression que* and *on dirait que* (indicative) express an impression; *il paraît que* (indicative) reports something you have heard.
+
+        **3. The subjunctive in relative clauses.** After **le seul, l'unique, le premier, le dernier** or a superlative, the subjunctive presents the statement as a personal judgement: *C'est la seule personne de la famille qui **soit** vraiment bilingue.* After a negative or indefinite antecedent (*personne, rien, aucun*), it shows that such a person or thing may not exist: *Je ne connais personne qui **prenne** autant de plaisir à changer de langue.* With the indicative, the same sentences sound like plain facts.
+      table: |
+        Expression | Mood | Effect
+        il me semble que / j'ai l'impression que | indicative | a personal impression
+        il semble que | subjunctive (usually) | cautious and impersonal
+        il paraît que / on dit que | indicative | hearsay — you heard it somewhere
+        le seul / le premier / le meilleur… qui / que | subjunctive (often) | a subjective judgement
+        je ne connais personne qui / il n'y a rien qui | subjunctive | the thing may not exist
+        plutôt / dans une certaine mesure / en quelque sorte | — | softening
+      examples: |
+        Il me semble que les enfants apprennent plus vite que nous. | It seems to me that children learn faster than we do. | il me semble que + indicative
+        Il semble que le bilinguisme soit de mieux en mieux accepté. | It seems that bilingualism is increasingly accepted. | il semble que + subjunctive
+        C'est le meilleur dictionnaire que je connaisse. | It's the best dictionary I know. | superlative + subjunctive
+        Il paraît que les bilingues changent de personnalité. | Apparently bilingual people change personality. | hearsay: indicative
+      tip: "A quick test: if there is a personal pronoun (il me semble, il nous semble), use the indicative; with the bare impersonal il semble que, use the subjunctive."
+    reading:
+      title: Entre deux langues
+      text: |
+        « Tu rêves en quelle langue ? » C'est la question qu'on me pose le plus souvent depuis que je vis à Lyon. À vrai dire, je n'en sais rien. Il me semble que je rêve dans la langue des personnes qui apparaissent dans mon rêve : en portugais avec ma mère, en français avec mes collègues.
+
+        Je suis arrivée de São Paulo il y a quinze ans, pour un master. Aujourd'hui, je suis interprète, et le français est devenu, dans une certaine mesure, ma langue de travail principale. Pourtant, il semble que certaines choses refusent de changer de langue. Je compte toujours en portugais. Je jure en portugais quand je me cogne contre une porte. Et quand je suis vraiment émue, c'est le portugais qui revient, sans que je le décide.
+
+        Il paraît que les bilingues changent de personnalité selon la langue qu'ils parlent. Je suis plutôt sceptique, mais mes amis affirment que je suis plus directe en français et plus chaleureuse en portugais. Ils n'ont peut-être pas tout à fait tort.
+
+        Ma fille, elle, a huit ans. C'est la seule personne de la famille qui soit vraiment bilingue : elle parle portugais avec moi, français avec son père, et elle corrige nos fautes à tous les deux. Je ne connais personne qui prenne autant de plaisir à passer d'une langue à l'autre.
+
+        Alors, en quelle langue est-ce que je rêve ? Peut-être dans une langue qui n'existe pas encore : la nôtre.
+
+        Mariana
+      translation: |
+        "What language do you dream in?" That's the question I'm asked most often since I've been living in Lyon. To tell the truth, I have no idea. It seems to me that I dream in the language of the people who appear in my dream: in Portuguese with my mother, in French with my colleagues.
+
+        I arrived from São Paulo fifteen years ago to do a master's degree. Today I'm an interpreter, and French has become, to some extent, my main working language. And yet it seems that some things refuse to change language. I still count in Portuguese. I swear in Portuguese when I bump into a door. And when I'm really moved, it's Portuguese that comes back, without my deciding it.
+
+        Apparently, bilingual people change personality depending on the language they're speaking. I'm rather sceptical, but my friends claim I'm more direct in French and warmer in Portuguese. They may not be entirely wrong.
+
+        My daughter is eight. She's the only person in the family who is truly bilingual: she speaks Portuguese with me, French with her father, and she corrects both our mistakes. I don't know anyone who takes so much pleasure in switching from one language to another.
+
+        So, what language do I dream in? Perhaps in a language that doesn't exist yet: ours.
+
+        Mariana
+    pronunciation:
+      title: "The dropped e: il me semble, je ne connais personne"
+      body: |
+        In natural speech, the unstressed **e** of short words (*me, ne, de, le, je*) is often dropped, which glues words together: *il me semble* [il.mə.sɑ̃bl] becomes [im.sɑ̃bl], *je ne connais personne* becomes [ʒən.kɔ.nɛ.pɛʁ.sɔn], and *à vrai dire* stays [a.vʁɛ.diʁ].
+
+        You don't have to drop every e yourself, but recognising these reduced forms will help you follow fast conversations. Practise each phrase slowly first, then at natural speed.
+      items: |
+        il me semble que
+        je ne connais personne
+        à vrai dire
+        pas tout à fait
+        dans une certaine mesure
+        la langue maternelle
+    mistakes: |
+      Il me semble que tu aies raison. => Il me semble que tu as raison. | With a personal pronoun (il me semble que), use the indicative.
+      Je connais personne qui parle cinq langues. => Je ne connais personne qui parle cinq langues. | In writing, keep ne with personne; in speech ne is often dropped, but never in a formal text.
+      Il paraît que ce soit vrai. => Il paraît que c'est vrai. | Il paraît que reports hearsay and takes the indicative.
+    task:
+      title: My languages, my identity
+      mode: writing
+      body: |
+        Write a short column (120–150 words) in the style of Mariana's text, about the languages in your life: which language you use for what, how you feel when you switch, and what you have gained or lost. Use at least four hedging expressions (*il me semble que, il semble que, plutôt, dans une certaine mesure, à vrai dire…*) and one subjunctive after *le seul* or *personne qui*.
+    exercises: |
+      fill: Il me semble que tu ___ (avoir) un léger accent du Sud. || as || Il me semble que (personal impression) takes the indicative: tu as. || @tags fr.subjonctif-triggers,fr.opinion
+      fill: Il semble que les jeunes enfants ___ (apprendre) plus facilement une deuxième langue. || apprennent || Impersonal il semble que is generally followed by the subjunctive: qu'ils apprennent. || @tags fr.subjonctif-triggers,fr.subjonctif
+      fill: C'est le seul dictionnaire qui ___ (être) vraiment utile pour les expressions. || soit || After le seul… qui, the subjunctive presents a personal judgement: qui soit. || @tags fr.subjonctif-triggers
+      mc: "Je ne connais personne qui ___ parler cinq langues." || sait | *sache | saura || After je ne connais personne qui, use the subjunctive: such a person may not exist. Savoir → qu'il sache. || @tags fr.subjonctif-triggers,fr.subjonctif
+      mc: In which language does Mariana count? || In French | *In Portuguese | In French or Portuguese, depending on the situation || "Je compte toujours en portugais." || @ctx reading @tags fr.reading
+      tf: Mariana is convinced that bilingual people change personality. || false || "Il paraît que…" — she has heard it, and she is "plutôt sceptique". || @ctx reading
+      short: Who is the only truly bilingual person in Mariana's family? || kw: fille/daughter || "C'est la seule personne de la famille qui soit vraiment bilingue" — her eight-year-old daughter. || @ctx reading
+      listen: Il paraît que le cerveau des bilingues vieillit moins vite, mais je ne connais aucune étude qui le prouve vraiment. || How does the speaker present the idea about the brain? || *As something they've heard, without proof | As a well-known scientific fact | As their own personal experience || "Il paraît que" reports hearsay, and the speaker knows no study "qui le prouve vraiment". || @tags fr.listening,fr.opinion
+      rw: Make the statement more cautious. Start with "Il semble que…" :: De plus en plus de familles font le choix du bilinguisme. || Il semble que de plus en plus de familles fassent le choix du bilinguisme. || Il semble que + subjunctive: elles font → qu'elles fassent. || @tags fr.subjonctif-triggers,fr.subjonctif
+      tr: To tell the truth, it seems to me that I'm more direct in French. || À vrai dire, il me semble que je suis plus direct en français. | À vrai dire, il me semble que je suis plus directe en français. | À vrai dire, j'ai l'impression que je suis plus direct en français. | À vrai dire, j'ai l'impression que je suis plus directe en français. || À vrai dire = to tell the truth; il me semble que + indicative (je suis). || @tags fr.subjonctif-triggers,fr.opinion
+      dict: Dans une certaine mesure, le français est devenu ma langue de travail. || dans une certaine mesure
+      ask: A friend asks whether you would like to raise your children with two languages. Answer with nuance. || kw: il me semble/il semble/plutôt/dans une certaine mesure/à vrai dire/j'ai l'impression/en quelque sorte/pas tout à fait & bilingue/langue/langues || À vrai dire, j'aimerais bien. Il me semble que c'est une vraie richesse, même si, dans une certaine mesure, ça demande beaucoup d'efforts aux parents.
+      write: Write a paragraph (60–80 words) about your relationship with the languages you speak, using at least two hedging expressions. || min=60 || req: il me semble/il semble/j'ai l'impression | plutôt/dans une certaine mesure/à vrai dire/en quelque sorte/pas tout à fait || À vrai dire, je ne suis pas tout à fait bilingue, mais l'anglais et le français font partie de ma vie. Il me semble que je suis plus patient en français, peut-être parce que je parle plus lentement. Dans une certaine mesure, chaque langue a son territoire : je compte en anglais, je cuisine en français. C'est le français que je préfère pour écrire, et il semble que mes amis trouvent ça plutôt drôle.

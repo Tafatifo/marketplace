@@ -1,0 +1,369 @@
+unit: 6
+title: Trámites y recados
+theme: Services and errands
+description: Deal with the bank and the post office, return or exchange things in a shop, and handle phone calls and messages — using direct and indirect object pronouns.
+free: false
+objectives:
+  - Use direct object pronouns (lo, la, los, las) at the bank and the post office
+  - Return or exchange something with indirect object pronouns (me, te, le, les) and quedar
+  - Make and answer phone calls, and leave and take messages
+canDo:
+  - I can send a parcel, collect a letter and ask about opening a bank account.
+  - I can explain what's wrong with something I bought and ask for an exchange or a refund.
+  - I can answer the phone, ask who is calling and take a message.
+  - I can replace nouns with pronouns so that I don't repeat them.
+review: |
+  fill: ¿El paquete? Ya ___ he enviado. || lo || El paquete is masculine singular: lo, before haber. || @tags es.object-pronouns
+  fill: ¿Las postales? ___ compré en el estanco. || las || Las postales is feminine plural: las. || @tags es.object-pronouns
+  fill: A mi hermano ___ queda pequeña la camisa. || le || Quedar works like gustar: a mi hermano → le. || @tags es.object-pronouns,es.gustar
+  mc: «¿Puedes ayudarme?» — «Sí, ___ ayudo ahora mismo.» || *te | le | lo || You're helping the person you're talking to (tú): te. || @tags es.object-pronouns
+  rw: Replace the noun with a pronoun :: Quiero enviar esta carta hoy. || La quiero enviar hoy. | Quiero enviarla hoy. || Esta carta → la, before the conjugated verb or attached to the infinitive. || @tags es.object-pronouns
+  fill: Un momento, ___ paso con mi compañera. (a usted) || le || Pasar con: you put someone through, so the caller is an indirect object: le. || @tags es.object-pronouns
+  mc: Which sentence is correct? || *A mis padres les doy las gracias. | A mis padres los doy las gracias. | A mis padres le doy las gracias. || A mis padres (to whom?) is a plural indirect object: les. || @tags es.object-pronouns
+  tr: Can you exchange it for another size? (it = el jersey; use usted) || ¿Puede cambiarlo por otra talla? | ¿Lo puede cambiar por otra talla? | ¿Me lo puede cambiar por otra talla? | ¿Puede cambiármelo por otra talla? || El jersey → lo, before puede or attached to cambiar. || @tags es.object-pronouns
+  listen: Buenas tardes, le llamo de la academia de idiomas. Su curso empieza el lunes a las seis. || When does the course start? || *On Monday at six | On Monday at two | On Thursday at six || "Su curso empieza el lunes a las seis." || @tags es.listening
+  listen: Puede cambiar la ropa en un plazo de treinta días, pero solo con el tique de compra. || What do you need to exchange clothes? || A credit card | *The receipt | Your ID card || "Solo con el tique de compra." || @tags es.listening
+  ask: At the bank, say you want to open an account and ask what documents you need. || kw: abrir & cuenta & documentos/necesito/necesita/tengo que traer || Buenos días. Quiero abrir una cuenta. ¿Qué documentos necesito? ¿Me vale el pasaporte?
+  write: Write a message to a friend. You can't go to the post office today: ask them to collect your parcel, and say where the notice is and what they need. || min=30 || req: lo/la | recoger/recogerlo || ¡Hola, Gorka! ¿Me haces un favor? Hoy no puedo ir a la oficina de correos y tengo un paquete allí. ¿Puedes recogerlo tú? El aviso está en la mesa de la cocina: llévalo con tu DNI. La oficina cierra a las dos. ¡Muchas gracias! Te invito a un café.
+lessons:
+  - title: At the bank and the post office
+    summary: Open an account, send a parcel and collect a letter, using direct object pronouns (lo, la, los, las) so you don't repeat nouns.
+    minutes: 40
+    skills: [grammar, vocabulary, speaking]
+    tags: [es.object-pronouns]
+    objectives:
+      - Use the direct object pronouns me, te, lo, la, nos, os, los and las
+      - Place pronouns before a conjugated verb or attach them to an infinitive
+      - Deal with simple tasks at the bank and the post office
+    intro: |
+      "Have you got the parcel? — Yes, I've got it." In Spanish, as in English, we replace a noun we have already mentioned with a pronoun: *¿El paquete? Sí, lo tengo.* At the bank and the post office you will hear and use these pronouns all the time: *¿La tarjeta? La puede recoger mañana.*
+    vocab: |
+      abrir una cuenta | to open an account | expr | Quiero abrir una cuenta corriente. | I'd like to open a current account. | c: la cuenta corriente; la cuenta de ahorro
+      la tarjeta | (bank) card | n | La tarjeta llega por correo en una semana. | The card arrives by post in a week. | g: f | c: pagar con tarjeta; tarjeta de débito
+      el cajero automático | cash machine | n | Hay un cajero automático en la esquina. | There's a cash machine on the corner. | g: m | n: El cajero / la cajera is also the cashier.
+      sacar dinero | to withdraw money | expr | Necesito sacar dinero antes de salir. | I need to get some money out before I go out.
+      la transferencia | bank transfer | n | Te hago una transferencia esta tarde. | I'll send you a transfer this afternoon. | g: f
+      el paquete | parcel | n | Quiero enviar este paquete a Italia. | I'd like to send this parcel to Italy. | g: m
+      enviar | to send | v | Lo envío por correo urgente. | I'm sending it express. | n: Also mandar. The i is stressed: envío, envías, envía.
+      el sobre | envelope | n | Necesito un sobre grande para estos papeles. | I need a big envelope for these papers. | g: m
+      el sello | stamp | n | ¿Cuánto cuesta un sello para Francia? | How much is a stamp for France? | g: m | n: In Mexico: el timbre.
+      la carta certificada | registered letter | n | Tiene usted una carta certificada. | You have a registered letter. | g: f
+      recoger | to collect; to pick up | v | Puede recogerlo en la oficina de correos. | You can collect it at the post office. | n: Spelling change in the yo form: recojo.
+      el aviso | (delivery) notice | n | Tengo un aviso de entrega en el buzón. | I've got a delivery notice in my letterbox. | g: m
+      el NIE | foreigner's identity number | n | Para abrir la cuenta necesita el NIE o el pasaporte. | To open the account you need your NIE or your passport. | g: m | n: Spanish citizens have a DNI (national identity card).
+    grammar:
+      title: "Direct object pronouns: lo, la, los, las"
+      body: |
+        The **direct object** answers *what?* or *whom?*: *Envío **el paquete**.* To avoid repeating it, use a pronoun:
+        - **lo** (masculine singular) / **la** (feminine singular): *¿El paquete? **Lo** envío hoy. ¿La tarjeta? **La** tengo aquí.*
+        - **los / las** (plural): *¿Los sellos? **Los** compro en el estanco.*
+        - For people: **me, te, lo / la, nos, os, los / las**: *¿Me ayudas? — Sí, te ayudo.*
+
+        **Position**:
+        - before a conjugated verb: *Lo envío. No lo tengo. Lo he enviado.*
+        - with an infinitive: before the conjugated verb **or** attached to the infinitive: *Lo quiero enviar = Quiero enviarlo. La puede recoger = Puede recogerla.*
+        - attached to an affirmative imperative: *Fírmelo aquí. Póngalo en la báscula.*
+
+        **Lo** can also stand for a whole idea: *No lo sé* (I don't know).
+
+        In Spain you will also hear **le** instead of *lo* for a man (*Le vi ayer*). It is accepted, but *lo* is correct everywhere.
+      table: |
+        Person or thing | Pronoun | Example
+        me | me | ¿Me llamas mañana?
+        you (tú) | te | Te espero en el banco.
+        him, you (usted, m), a masculine thing | lo | ¿El sobre? Lo necesito.
+        her, you (usted, f), a feminine thing | la | ¿La tarjeta? La tengo aquí.
+        us | nos | Nos atienden en la ventanilla dos.
+        you (vosotros/as) | os | Os espero en la puerta.
+        them (m), masculine things | los | ¿Los sellos? Los compro hoy.
+        them (f), feminine things | las | ¿Las cartas? Las envío mañana.
+      examples: |
+        —¿Tienes el aviso? —Sí, lo tengo en el bolso. | —Have you got the notice? —Yes, I've got it in my bag.
+        Quiero enviar estas cartas. ¿Las puedo enviar certificadas? | I want to send these letters. Can I send them by registered post?
+        La tarjeta nueva llega el lunes; puede recogerla en esta oficina. | The new card arrives on Monday; you can collect it at this branch.
+        No lo sé. Pregunto en la ventanilla. | I don't know. I'll ask at the counter.
+      tip: "Look at the noun you are replacing: el paquete → lo, la carta → la, los sobres → los, las tarjetas → las. The pronoun copies its gender and number."
+    dialogue:
+      title: En la oficina de correos
+      setting: A post office in León. Anja, a German nurse who lives in Spain, has come to collect a registered letter and send a parcel. The clerk, Eloy, uses usted.
+      speakers: E=Eloy/m; A=Anja/f
+      lines: |
+        E: Buenos días. Dígame, ¿qué necesita? | Good morning. What can I do for you?
+        A: Buenos días. Tengo este aviso para recoger una carta certificada. | Good morning. I've got this notice to collect a registered letter.
+        E: Muy bien. ¿Me deja su DNI o su pasaporte? | Fine. Could I see your ID card or your passport?
+        A: No tengo DNI. Tengo el NIE. ¿Le vale? | I haven't got a DNI. I've got my NIE. Is that all right?
+        E: Sí, claro… Aquí está su carta. Firme aquí, por favor. | Yes, of course… Here's your letter. Sign here, please.
+        A: Gracias. También quiero enviar este paquete a Alemania. | Thanks. I'd also like to send this parcel to Germany.
+        E: ¿Lo quiere enviar urgente? Tarda dos días; normal, cinco. | Do you want to send it express? It takes two days; standard, five.
+        A: Normal, entonces. Son libros, no hay prisa. | Standard, then. They're books, there's no hurry.
+        E: Vale. Póngalo en la báscula, por favor. | OK. Put it on the scales, please.
+        A: Ah, y necesito sellos para estas postales. ¿Los tiene aquí? | Oh, and I need stamps for these postcards. Have you got them here?
+        E: Sí, aquí los tiene. En total son doce euros con cuarenta. | Yes, here you are. That's twelve euros forty altogether.
+    pronunciation:
+      title: "Stress with attached pronouns: enviarlo, póngalo, fírmelo"
+      body: |
+        When a pronoun is attached to an **infinitive**, the stress stays on the infinitive ending and no accent is needed: *en-VIAR-lo, re-co-GER-la*.
+
+        When a pronoun is attached to an **imperative**, the word gets an extra syllable and the stress moves further from the end, so it needs a written accent: *PON-ga → PÓN-ga-lo, FIR-me → FÍR-me-lo*. Listen and repeat.
+      items: |
+        enviarlo
+        recogerla
+        póngalo
+        fírmelo
+        lo tengo aquí
+        ¿los tiene?
+    culture:
+      title: Banks, post offices and the estanco
+      body: |
+        To open a bank account in Spain, foreign residents usually need their **NIE** (foreigner's identity number) or a passport. Many accounts have fees (*comisiones*) unless your salary is paid into them, and branches often open in the mornings only — many people do almost everything on the bank's app.
+
+        You can buy stamps at the post office, but also at an **estanco**, the state-licensed tobacconist's, which sells stamps and official forms. Spanish postboxes are **yellow**.
+    mistakes: |
+      ¿La carta? Sí, envío la hoy. => ¿La carta? Sí, la envío hoy. | With a conjugated verb, the pronoun goes before it.
+      ¿Los sellos? La compro en el estanco. => ¿Los sellos? Los compro en el estanco. | The pronoun copies the gender and number of the noun: los sellos → los.
+      Quiero lo enviar. => Lo quiero enviar. | With an infinitive, put the pronoun before the conjugated verb (Lo quiero enviar) or attach it to the infinitive (Quiero enviarlo) — never in between.
+    task:
+      title: Errands in town
+      mode: interaction
+      body: |
+        You have three errands: collect a registered letter (you have the notice), send a parcel to your family, and ask at the bank how to open an account. Prepare what you will say at each counter, using *lo, la, los, las* so that you don't repeat nouns (*¿Lo puedo enviar urgente? ¿La puedo recoger hoy?*). Act out the three conversations aloud or record them in Speaking practice.
+    exercises: |
+      fill: ¿El paquete? Sí, ___ envío hoy. || lo || El paquete is masculine singular: lo, before the verb. || @tags es.object-pronouns
+      fill: ¿La tarjeta? ___ tengo en la cartera. || la || La tarjeta is feminine singular: la. || @tags es.object-pronouns
+      fill: ¿Los sobres? ___ compro en la papelería. || los || Los sobres is masculine plural: los. || @tags es.object-pronouns
+      fill: Quiero abrir una cuenta. ¿Puedo ___ hoy? (abrir + pronoun) || abrirla || Una cuenta → la, attached to the infinitive: abrirla. || @tags es.object-pronouns
+      mc: Which sentence is NOT correct? || La quiero recoger mañana. | Quiero recogerla mañana. | *Quiero la recoger mañana. || The pronoun goes before quiero or is attached to recoger — never between them. || @tags es.object-pronouns
+      rw: Replace the noun with a pronoun :: Necesito los sellos para mañana. || Los necesito para mañana. || Los sellos → los, before the conjugated verb. || @tags es.object-pronouns
+      rw: Attach the pronoun to the infinitive :: Lo voy a enviar por correo urgente. || Voy a enviarlo por correo urgente. || With ir a + infinitive, the pronoun can be attached: enviarlo. || @tags es.object-pronouns
+      tf: Anja shows her passport at the post office. || false || She has no DNI, so she shows her NIE. || @ctx dialogue
+      short: What is in Anja's parcel? || kw: libros/books || "Son libros, no hay prisa." || @ctx dialogue
+      listen: @dialogue || Why does Anja send the parcel by standard post? || Express post isn't available | *It's books and there's no hurry | The parcel is too heavy || "Normal, entonces. Son libros, no hay prisa." || @tags es.listening
+      listen: Su tarjeta nueva ya está aquí. Puede recogerla de lunes a viernes, de ocho y media a dos. || When can the customer collect the card? || *On weekday mornings | Every afternoon | On Saturdays || Monday to Friday, from half past eight to two. || @tags es.listening,es.object-pronouns
+      tr: I've got the stamps; I bought them yesterday. || Tengo los sellos; los compré ayer. | Tengo los sellos, los compré ayer. | Tengo los sellos. Los compré ayer. || Los sellos → los, before the verb compré. || @tags es.object-pronouns
+      dict: ¿La carta certificada? La puede recoger mañana por la mañana.
+      ask: At the post office, say you want to send a parcel to your country and ask how long it takes. || kw: enviar/mandar & paquete & cuánto tarda/cuántos días/cuándo llega || Buenos días. Quiero enviar este paquete a Irlanda. ¿Cuánto tarda?
+
+  - title: Returns and exchanges
+    summary: Return or exchange something in a shop — say what's wrong and what you want — using indirect object pronouns (me, te, le, les) and quedar.
+    minutes: 40
+    skills: [grammar, speaking, listening]
+    tags: [es.object-pronouns, es.gustar, es.register]
+    objectives:
+      - Use the indirect object pronouns me, te, le, nos, os and les
+      - Say how clothes fit with quedar (me queda pequeño)
+      - Ask politely for an exchange or a refund
+    intro: |
+      The trousers are too small, the speaker doesn't work, the jumper was a present and it isn't your style. To sort it out you need to say what you want and **to whom**: *¿Me puede cambiar la talla? Le devolvemos el dinero.* These small words — **me, te, le, nos, os, les** — are the indirect object pronouns, and you already know them from *gustar*.
+    vocab: |
+      devolver | to return (something); to give back | v | Quiero devolver estos pantalones. | I'd like to return these trousers. | n: o → ue: devuelvo. La devolución = the return.
+      cambiar | to exchange; to change | v | ¿Puedo cambiar el jersey por otra talla? | Can I exchange the jumper for another size? | c: cambiar algo por otra cosa
+      el tique | receipt | n | ¿Tiene el tique de compra? | Have you got the receipt? | g: m | n: Often written ticket. Un tique regalo = a gift receipt.
+      la talla | (clothes) size | n | Necesito una talla más. | I need one size bigger. | g: f | n: For shoes: el número.
+      quedar bien / mal | to fit well / badly; to suit | expr | Esta chaqueta te queda muy bien. | That jacket really suits you. | n: Works like gustar: me queda pequeño, me quedan grandes.
+      estrecho / estrecha | tight; narrow | adj | Los pantalones me quedan estrechos. | The trousers are tight on me.
+      funcionar | to work (machines) | v | El altavoz no funciona. | The speaker doesn't work.
+      roto / rota | broken; torn | adj | La caja llegó rota. | The box arrived broken.
+      el reembolso | refund | n | Quiero un reembolso, por favor. | I'd like a refund, please. | g: m | n: Also: devolver el dinero.
+      el vale | credit note; voucher | n | No devolvemos el dinero, pero le damos un vale. | We don't give refunds, but we'll give you a credit note. | g: m
+      el plazo | time limit; period | n | El plazo de devolución es de treinta días. | The return period is thirty days. | g: m
+      la garantía | guarantee; warranty | n | El móvil tiene tres años de garantía. | The phone has a three-year guarantee. | g: f
+    grammar:
+      title: "Indirect object pronouns: me, te, le, nos, os, les"
+      body: |
+        The **indirect object** answers *to whom?* or *for whom?*: *Devuelvo el dinero **a la clienta**.* The indirect pronouns are **me, te, le** (a él, a ella, a usted), **nos, os, les** (a ellos, a ellas, a ustedes).
+
+        They follow the same position rules as direct pronouns: before a conjugated verb, or attached to an infinitive: *Le devolvemos el dinero. Podemos devolverle el dinero.*
+
+        Spanish very often uses **both** the pronoun and the noun. This doubling is normal with *le* and *les*: *Le cambio el jersey a mi hermano. ¿Qué le regalo a Rosa?*
+
+        You already know these pronouns from **gustar** and **doler**. **Quedar** (to fit, to suit) works the same way: *Esta camisa **me** queda pequeña. Los zapatos **le** quedan grandes.*
+
+        Compare direct and indirect: *El jersey **lo** compré ayer* (what?) — *A mi padre **le** compré un jersey* (for whom?).
+
+        Combining two pronouns (*se lo, me lo*) comes at B1. For now, use one pronoun and name the thing: *Le devuelvo el dinero.*
+      table: |
+        Person | Indirect pronoun | Example
+        (a mí) | me | ¿Me cambia esta camisa?
+        (a ti) | te | Te devuelvo el libro mañana.
+        (a él / a ella / a usted) | le | Le damos un vale.
+        (a nosotros / a nosotras) | nos | Nos devolvieron el dinero.
+        (a vosotros / a vosotras) | os | ¿Os cambiaron los zapatos?
+        (a ellos / a ellas / a ustedes) | les | Les enviamos otro modelo.
+      examples: |
+        ¿Me puede cambiar estos vaqueros por una talla más? | Can you exchange these jeans for one size bigger?
+        Le devolvemos el dinero en la tarjeta. | We'll refund the money to your card.
+        A mi hija le quedan pequeños los zapatos. | My daughter's shoes are too small for her.
+        ¿Qué te pasa con la chaqueta? ¿No te gusta? | What's the problem with the jacket? Don't you like it?
+      tip: "Polite requests in shops often use ¿Me puede…? (usted) or ¿Me puedes…? (tú): ¿Me puede dar el tique? ¿Me puede cambiar la talla?"
+    dialogue:
+      title: Un jersey pequeño
+      setting: A clothes shop in Vigo. Arturo wants to exchange a jumper that his sister gave him. Rebeca, the shop assistant, uses usted.
+      speakers: R=Rebeca/f; A=Arturo/m
+      lines: |
+        R: Buenas tardes. ¿Le puedo ayudar? | Good afternoon. Can I help you?
+        A: Sí, quiero cambiar este jersey. Me queda pequeño. | Yes, I'd like to exchange this jumper. It's too small for me.
+        R: ¿Tiene el tique de compra? | Have you got the receipt?
+        A: No, es un regalo de mi hermana. Pero tengo el tique regalo. | No, it's a present from my sister. But I've got the gift receipt.
+        R: Perfecto. ¿Qué talla necesita? | Perfect. What size do you need?
+        A: Una ele, por favor. Esta es una eme. | A large, please. This one's a medium.
+        R: Lo siento, en este color no nos queda la ele. | I'm sorry, we haven't got any large left in this colour.
+        A: ¿Y en otro color? ¿En azul, por ejemplo? | And in another colour? In blue, for example?
+        R: En azul, sí. ¿Le traigo una? | In blue, yes. Shall I bring you one?
+        A: Sí, por favor… ¡Ah, esta me queda perfecta! | Yes, please… Ah, this one fits me perfectly!
+        R: Muy bien. Le cambio el jersey sin problema. | Fine. I'll exchange the jumper for you, no problem.
+        A: ¡Genial, gracias! Mi hermana no va a saber nada. | Great, thanks! My sister will never know.
+    pronunciation:
+      title: "Letters for sizes: una ese, una eme, una ele"
+      body: |
+        Clothes sizes are said with the Spanish names of the letters: **S** = *ese*, **M** = *eme*, **L** = *ele*, **XL** = *equis ele*. They are feminine because they refer to *la talla*: *una eme, la ele*.
+
+        Shoe sizes are numbers: *el treinta y ocho, el cuarenta y dos*. Listen and repeat, linking the article and the letter: *una_eme, una_ele*.
+      items: |
+        una ese
+        una eme
+        una ele
+        la equis ele
+        el tique regalo
+        la garantía
+    culture:
+      title: Returns in Spain
+      body: |
+        In Spain, shops don't always have to accept returns of items that aren't faulty, but most big shops do, usually within **30 days**, and they must display their return policy. Some give your money back; others give you a **vale** (a credit note). For online purchases you have **14 days** to change your mind.
+
+        If a product is faulty, the law gives you a **garantía** — three years for new products. Keep the **tique**, and when you buy a present, ask for a **tique regalo**: it shows no price, but allows an exchange.
+    mistakes: |
+      A mi madre la regalé un libro. => A mi madre le regalé un libro. | A mi madre is the indirect object (to whom?), so the pronoun is le.
+      Este pantalón queda pequeño a mí. => Este pantalón me queda pequeño. | Quedar works like gustar: the pronoun goes before the verb.
+      Los zapatos me queda grandes. => Los zapatos me quedan grandes. | The verb agrees with the thing: los zapatos → quedan.
+    task:
+      title: Back to the shop
+      mode: interaction
+      body: |
+        You bought a pair of trainers that are too small, and a speaker you got as a present doesn't work. Go back to the shop: explain each problem (*me quedan pequeñas, no funciona*), say what you want (an exchange, a refund or a credit note) and ask about the return period. Practise in the "Returning an item in a shop" scenario with the AI coach.
+    exercises: |
+      fill: ¿___ puede cambiar esta camisa, por favor? (a mí) || me || The request is for me: me. || @tags es.object-pronouns
+      fill: A mi padre ___ quedan grandes los pantalones. || le || A mi padre → le (indirect pronoun with quedar). || @tags es.object-pronouns,es.gustar
+      fill: Sin tique no devolvemos el dinero, pero ___ damos un vale. (a usted) || le || Usted as indirect object: le. || @tags es.object-pronouns,es.register
+      fill: A mis hijos ___ he comprado unas zapatillas. || les || A mis hijos (plural, to whom?) → les. || @tags es.object-pronouns
+      fill: Esta chaqueta me ___ muy bien. ¡Qué bonita! || queda || Quedar agrees with the thing: la chaqueta → queda. || @tags es.gustar
+      mc: «Devuelvo el dinero a la clienta.» → «___ devuelvo el dinero.» || La | *Le | Lo || La clienta receives the money (to whom?), so she is the indirect object: le. || @tags es.object-pronouns
+      mc: How do you say "These shoes are too big for me"? || *Estos zapatos me quedan grandes. | Estos zapatos me queda grandes. | Estos zapatos quedan grandes a mí. || Quedar agrees with los zapatos (quedan), and the pronoun me goes before it. || @tags es.gustar,es.object-pronouns
+      rw: Replace a Teresa with a pronoun :: Voy a devolver el libro a Teresa. || Le voy a devolver el libro. | Voy a devolverle el libro. || A Teresa is the indirect object: le, before voy or attached to devolver. || @tags es.object-pronouns
+      tf: Arturo has the normal receipt. || false || The jumper is a present, so he has a gift receipt (el tique regalo). || @ctx dialogue
+      short: Which colour does Arturo take in the end? || kw: azul/blue || "¿En azul, por ejemplo?" — the blue one fits him perfectly. || @ctx dialogue
+      listen: @dialogue || Why can't Arturo have a large in the same colour? || It's more expensive | *There are none left | The shop doesn't make large sizes || "En este color no nos queda la ele" — quedar here means "to be left". || @tags es.listening
+      listen: Puede devolver el producto en un plazo de treinta días. Le devolvemos el dinero en la misma tarjeta. || How will the customer get the money back? || In cash | As a credit note | *On the same card || "Le devolvemos el dinero en la misma tarjeta." || @tags es.listening,es.object-pronouns
+      tr: Can you give me a refund? (using usted) || ¿Me puede devolver el dinero? | ¿Puede devolverme el dinero? | ¿Me puede hacer un reembolso? | ¿Puede hacerme un reembolso? || Me (to me) goes before puede or is attached to the infinitive. || @tags es.object-pronouns,es.register
+      dict: Estos pantalones me quedan pequeños y quiero cambiarlos.
+      ask: In a shop, explain that a jacket you bought yesterday is too big for you and ask to exchange it for another size. || kw: me queda/me quedan & grande/grandes & cambiar/talla || Buenos días. Compré esta chaqueta ayer, pero me queda grande. ¿Puedo cambiarla por una talla menos?
+
+  - title: Phone calls and messages
+    summary: Make and answer phone calls, leave and take messages, and use object pronouns in phone phrases such as te llamo luego, le paso and ¿le digo algo?
+    minutes: 40
+    skills: [listening, speaking, grammar]
+    tags: [es.object-pronouns, es.register]
+    objectives:
+      - Answer the phone and ask who is calling
+      - Leave and take a simple message
+      - Choose direct or indirect pronouns in phone language (te llamo, le paso, le digo)
+    intro: |
+      Phone calls are hard in a foreign language: no gestures, no lip-reading, and fixed phrases you need to know. In this lesson you will learn how Spaniards answer the phone (*¿Diga?*), ask who's calling (*¿De parte de quién?*), put someone through (*Le paso*) and leave a message (*¿Le puede decir que he llamado?*).
+    vocab: |
+      ¿diga? / ¿dígame? | hello? (answering the phone) | expr | ¿Diga? — Hola, ¿está Ana? | Hello? — Hi, is Ana there? | n: Spain. Mexico: ¿Bueno?; many other countries: ¿Aló?
+      ¿de parte de quién? | who's calling? | expr | ¿De parte de quién, por favor? | Who's calling, please?
+      pasar con | to put (someone) through to | expr | Un momento, le paso con el departamento de ventas. | One moment, I'll put you through to the sales department.
+      dejar un mensaje | to leave a message | expr | ¿Quiere dejarle un mensaje? | Would you like to leave him a message?
+      devolver la llamada | to call back | expr | Le devuelvo la llamada en diez minutos. | I'll call you back in ten minutes.
+      llamar más tarde | to call later | expr | ¿Puedes llamar más tarde? Estoy en una reunión. | Can you call later? I'm in a meeting.
+      equivocarse de número | to get the wrong number | expr | Perdone, me he equivocado de número. | Sorry, I've got the wrong number.
+      comunicar | to be engaged (phone line) | v | Te llamé tres veces, pero comunicaba. | I called you three times, but it was engaged. | n: Spain. Elsewhere: la línea está ocupada.
+      colgar | to hang up | v | Colgué sin despedirme. ¡Lo siento! | I hung up without saying goodbye. Sorry! | n: Stem change in the present: cuelgo. Preterite yo: colgué.
+      el buzón de voz | voicemail | n | Te he dejado un mensaje en el buzón de voz. | I've left you a message on your voicemail. | g: m
+      el mensaje de voz | voice message | n | Te mando un mensaje de voz luego. | I'll send you a voice message later. | g: m | n: Informally, un audio.
+      la cobertura | (phone) signal | n | Aquí no hay cobertura. | There's no signal here. | g: f
+    grammar:
+      title: "Pronouns in phone calls: te llamo, le paso, le digo"
+      body: |
+        Phone calls are full of object pronouns. Choose them by asking **whom?** (direct) or **to whom?** (indirect):
+        - **Direct** — the person you call: *Te llamo luego. ¿Me llamas mañana?* With usted: *La llamo mañana, señora Gil. Lo llamo mañana, señor Gil.* (In Spain you will often hear *Le llamo* for a man; both are accepted.)
+        - **Indirect** — the person who receives something (a message, information, a call put through): *Le paso con la directora. ¿Le digo algo? Os mando un mensaje.*
+
+        With **decir**, **dar** and **mandar**, the person is always indirect: *Le doy mi número. Les digo que has llamado.*
+
+        Position is the same as always: before a conjugated verb (*Te llamo. Le he dejado un mensaje.*) or attached to an infinitive (*Te voy a llamar = Voy a llamarte*).
+
+        To leave a message, use **¿Le puede decir que…?** + present or perfecto: *¿Le puede decir que ha llamado Rosa? ¿Le puede decir que la reunión es a las cinco?*
+      table: |
+        Phrase | Pronoun | Meaning
+        Te llamo luego. | te (direct) | I'll call you later.
+        ¿Me llamas esta noche? | me (direct) | Will you call me tonight?
+        Le paso con Recursos Humanos. | le (indirect) | I'll put you through to HR.
+        ¿Le digo algo? | le (indirect) | Shall I give him/her a message?
+        Le doy mi número. | le (indirect) | I'll give you my number.
+        Os mando un mensaje de voz. | os (indirect) | I'll send you (all) a voice message.
+      examples: |
+        —¿Está Jaime? —No, ha salido. ¿Le digo algo? | —Is Jaime there? —No, he's gone out. Shall I give him a message?
+        Ahora no puedo hablar. Te llamo en media hora. | I can't talk now. I'll call you in half an hour.
+        ¿Le puede decir que ha llamado Rosa Medina? | Could you tell her that Rosa Medina called?
+        Voy a llamarla esta tarde. | I'm going to call her this afternoon.
+      tip: "To leave a message, ¿Le puede decir que…? + an ordinary verb is enough: ¿Le puede decir que llego tarde? — Could you tell him I'll be late?"
+    dialogue:
+      title: Una llamada al estudio
+      setting: Samuel Prieto, from a furniture company, calls an architects' studio in Valladolid. Nieves, the receptionist, answers. They use usted.
+      speakers: N=Nieves/f; S=Samuel/m
+      lines: |
+        N: Estudio Lara Arquitectos, buenos días. ¿Dígame? | Lara Architects, good morning. How can I help?
+        S: Buenos días. ¿Puedo hablar con la señora Lara, por favor? | Good morning. May I speak to Ms Lara, please?
+        N: ¿De parte de quién? | Who's calling?
+        S: De Samuel Prieto, de Muebles Ebro. | Samuel Prieto, from Ebro Furniture.
+        N: Un momento, por favor… Lo siento, comunica. ¿Quiere dejarle un mensaje? | One moment, please… I'm sorry, the line's engaged. Would you like to leave her a message?
+        S: Sí. ¿Le puede decir que ya tenemos las mesas para la oficina? | Yes. Could you tell her that we've got the tables for the office now?
+        N: Muy bien. ¿Y cuándo pueden traerlas? | Fine. And when can you bring them?
+        S: El jueves por la mañana. ¿Les va bien? | On Thursday morning. Is that all right for you?
+        N: Creo que sí, pero tengo que preguntarle a ella. | I think so, but I'll have to ask her.
+        S: Claro. ¿Le doy mi número de móvil? | Of course. Shall I give you my mobile number?
+        N: Sí, por favor. Ella le devuelve la llamada hoy. | Yes, please. She'll call you back today.
+        S: Es el seis cinco cinco, tres cero dos, siete uno ocho. ¡Gracias! | It's 655 302 718. Thank you!
+    pronunciation:
+      title: "Phone phrases and numbers"
+      body: |
+        In Spain, people usually read a mobile number in groups of three digits — *seis cinco cinco · tres cero dos · siete uno ocho* — with a small pause and a slight rise at the end of each group, and a fall at the end. Say each digit clearly.
+
+        Phone phrases are often said fast and as one unit: *¿de_parte_de_quién?, le_paso, ahora_comunica*. Listen and repeat.
+      items: |
+        seis, cinco, cinco
+        ¿de parte de quién?
+        le paso
+        ¿dígame?
+        comunica
+        el buzón de voz
+    culture:
+      title: Phone manners in the Spanish-speaking world
+      body: |
+        In Spain, people answer the phone with **¿Diga?**, **¿Dígame?** or simply **¿Sí?**; at work they say the company's name and *buenos días*. In Mexico you will hear **¿Bueno?**, and in many other countries **¿Aló?**
+
+        With friends, many Spaniards prefer voice messages and chat apps to calls, but phone calls are still normal for health centres, banks and official offices. In small businesses, nobody may answer between about 2 and 4 p.m. — that's lunchtime.
+    mistakes: |
+      ¿Puedo hablar a la señora Lara? => ¿Puedo hablar con la señora Lara? | On the phone, you speak con someone.
+      Lo digo que has llamado. => Le digo que has llamado. | With decir, the person who receives the message is an indirect object: le.
+      Voy a te llamar. => Te voy a llamar. | The pronoun goes before the conjugated verb (Te voy a llamar) or is attached to the infinitive (Voy a llamarte).
+    task:
+      title: Leave a message
+      mode: speaking
+      body: |
+        You call a language school about a course, but the person you need isn't there. Leave a clear message: who you are, why you're calling, when they can call you back and your phone number, read in groups of three. Then record a 20-second voicemail for a friend to say you are running late and will call later (*te llamo luego*).
+    exercises: |
+      fill: Ahora no puedo hablar. ___ llamo luego. (a ti) || te || You (tú) are the person called: te. || @tags es.object-pronouns
+      fill: Un momento, señora. ___ paso con el director. || le || Pasar con: the caller (usted) is the indirect object: le. || @tags es.object-pronouns,es.register
+      fill: ¿Está Pablo? ¿___ puede decir que ha llamado Elena? || le || With decir, the person who gets the message is indirect: le. || @tags es.object-pronouns
+      fill: Voy a ___ esta tarde. (llamar + te) || llamarte || With an infinitive, the pronoun can be attached: llamarte. || @tags es.object-pronouns
+      mc: You live in Madrid and your phone rings. The most typical way to answer is: || *¿Diga? | ¿Bueno? | ¿Aló? || ¿Diga? is typical of Spain. ¿Bueno? is Mexican and ¿Aló? is used in many Latin American countries. || @tags es.vocabulary
+      mc: How do you ask "Who's calling?" || ¿Quién llama usted? | *¿De parte de quién? | ¿De quién es? || ¿De parte de quién? is the fixed phrase. ¿De quién es? means "Whose is it?". || @tags es.questions
+      rw: Attach the pronoun to the infinitive :: Te voy a mandar un mensaje de voz. || Voy a mandarte un mensaje de voz. || Te can go before voy or be attached to mandar. || @tags es.object-pronouns
+      tf: Samuel speaks to Ms Lara on the phone. || false || Her line is engaged ("comunica"), so he leaves a message with Nieves. || @ctx dialogue
+      short: When can Samuel's company bring the tables? || kw: jueves/thursday || "El jueves por la mañana." || @ctx dialogue
+      listen: @dialogue || What will Ms Lara do today? || Visit the furniture company | *Call Samuel back | Send Samuel an email || "Ella le devuelve la llamada hoy." || @tags es.listening,es.object-pronouns
+      listen: Hola, soy Germán. Te llamo porque no puedo ir al cine esta noche. Te mando un mensaje luego. || Why is Germán calling? || To invite his friend to the cinema | *To cancel tonight's cinema plan | To ask for a phone number || "No puedo ir al cine esta noche." || @tags es.listening
+      tr: I'll call you later. (to a friend) || Te llamo luego. | Te llamo más tarde. | Luego te llamo. | Te voy a llamar luego. | Te voy a llamar más tarde. | Voy a llamarte luego. | Voy a llamarte más tarde. || Te (direct) goes before llamo, or is attached to the infinitive. || @tags es.object-pronouns
+      dict: Lo siento, ahora comunica. ¿Quiere dejarle un mensaje?
+      ask: You call a friend's office and he isn't there. Ask the receptionist to tell him that you called and say when you will call again. || kw: le puede decir/dígale & he llamado/ha llamado & llamo/vuelvo a llamar || Buenos días. ¿Le puede decir a Daniel que ha llamado Sophie? Lo llamo otra vez a las cinco.

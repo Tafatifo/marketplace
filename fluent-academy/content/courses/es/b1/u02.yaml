@@ -1,0 +1,369 @@
+unit: 2
+title: Trabajo y profesiones
+theme: Work and careers
+description: Handle a job interview, write formal emails and take part in meetings, and talk about changing careers — with the conditional, a formal register and connectors that organise your ideas.
+free: true
+objectives:
+  - Answer and ask questions in a job interview with the conditional and usted
+  - Write a formal email and use polite meeting language
+  - Weigh up the pros and cons of a career change with connectors
+canDo:
+  - I can present my strengths and weaknesses in a job interview.
+  - I can write a clear formal email to arrange or change a meeting.
+  - I can interrupt politely and add a point in a meeting.
+  - I can explain the reasons for a decision and its pros and cons.
+review: |
+  fill: ¿___ (poder, usted) enviarme el contrato por correo electrónico? || Podría || The conditional makes a request more polite. Poder has an irregular stem: podr-. || @tags es.conditional,es.register
+  fill: Con este sueldo, nosotros no ___ (tener) bastante para vivir en el centro. || tendríamos || Tener has an irregular conditional stem: tendr- + -íamos. || @tags es.conditional
+  mc: «Yo que tú, aceptaría la oferta.» The speaker is… || describing a past decision. | *giving advice. | making a complaint. || Yo que tú + conditional = if I were you, I would… || @tags es.conditional
+  mc: How do you start a formal email to a man you don't know? || Hola, guapo: | *Estimado señor Medina: | Querido Medina, || Formal emails open with Estimado/a + señor/señora + surname and a colon. || @tags es.formal-writing
+  rw: Make it formal (usted) :: ¿Puedes llamarme mañana para hablar de tu proyecto? || ¿Puede llamarme mañana para hablar de su proyecto? | ¿Podría llamarme mañana para hablar de su proyecto? | ¿Me puede llamar mañana para hablar de su proyecto? | ¿Me podría llamar mañana para hablar de su proyecto? || With usted, the verb is in the third person (puede / podría) and the possessive is su. || @tags es.register
+  fill: Me encanta mi trabajo; ___, el horario es agotador. || sin embargo / no obstante || The second idea contrasts with the first: sin embargo. || @tags es.connectors
+  mc: Choose the correct sentence. || Porque estaba cansada, dejé el trabajo. | *Como estaba cansada, dejé el trabajo. | Como estaba cansada, pero dejé el trabajo. || At the start of a sentence, give the cause with como. Porque usually goes after the main clause. || @tags es.connectors
+  listen: Buenas tardes, le llamo de la empresa Lumen. Nos gustaría hacerle una segunda entrevista el jueves a las diez. || What does the caller want? || To offer a contract | *To arrange a second interview | To cancel the interview || «Nos gustaría hacerle una segunda entrevista» — we'd like to give you a second interview. || @tags es.listening,es.conditional
+  listen: Por un lado, en el pueblo ganaría menos; por otro, tendría más tiempo para mi familia. || What would be the advantage of working in the village? || A higher salary | *More time for the family | A shorter journey || «Por otro, tendría más tiempo para mi familia.» The disadvantage is the lower salary. || @tags es.listening,es.connectors
+  ask: In an interview, you are asked «¿Por qué le interesa este puesto?». Answer politely, giving two reasons. || kw: gustaría/encantaría/podría/creo & porque/además/como || Me interesa porque me encanta trabajar con clientes y creo que podría aportar mi experiencia en ventas. Además, me gustaría crecer profesionalmente en una empresa internacional.
+  write: Write a formal email (60–80 words) to a language school asking about their evening courses for adults — start dates, price and timetable. || min=50 || req: estimad | le escribo/me pongo en contacto/me dirijo | podría/gustaría/querría | saludo/atentamente || Estimados señores: Me pongo en contacto con ustedes para pedir información sobre sus cursos de inglés para adultos. Trabajo hasta las seis, así que me interesaría un curso por la tarde. ¿Podrían decirme cuándo empieza el próximo curso, cuál es el horario y cuánto cuesta? Muchas gracias de antemano. Quedo a la espera de su respuesta. Un cordial saludo, Ana Ferrer
+lessons:
+  - title: The job interview
+    summary: Present yourself in a job interview, answer questions about strengths and availability, and use the conditional to sound polite and to talk about imagined situations.
+    minutes: 45
+    skills: [grammar, speaking, listening]
+    tags: [es.conditional, es.register]
+    objectives:
+      - Form the conditional of regular and irregular verbs
+      - Use the conditional to be polite, talk about imagined situations and give advice
+      - Answer typical interview questions with usted
+    intro: |
+      At A2 you used *me gustaría* and *¿podrías…?* as polite phrases. At B1 the **conditional** becomes a full tool: it softens requests, helps you talk about situations that haven't happened yet (*¿Estaría dispuesto a viajar?*) and gives advice (*yo que tú…*). A job interview needs all three — and a careful, consistent **usted**.
+    vocab: |
+      el puesto | job; position | n | Me interesa mucho el puesto de coordinador. | I'm very interested in the coordinator position. | g: m | c: un puesto de trabajo; solicitar un puesto
+      la entrevista de trabajo | job interview | n | Tengo una entrevista de trabajo el lunes a las nueve. | I've got a job interview on Monday at nine. | g: f
+      el currículum | CV; résumé | n | Le envío mi currículum actualizado. | I'm sending you my updated CV. | g: m | pl: currículums | n: Also el currículo or el CV. In Colombia: la hoja de vida.
+      la experiencia | experience | n | Tengo cinco años de experiencia en atención al cliente. | I have five years' experience in customer service. | g: f
+      el sueldo | salary; pay | n | El sueldo depende de la experiencia del candidato. | The salary depends on the candidate's experience. | g: m | n: Also el salario. Bruto = gross, neto = net.
+      el punto fuerte | strength | n | Mi punto fuerte es la organización. | My strength is organisation. | g: m | n: A weakness is un punto débil.
+      trabajar en equipo | to work in a team | expr | Me gusta trabajar en equipo y compartir ideas. | I like working in a team and sharing ideas.
+      la jornada completa | full-time | n | Es un puesto de jornada completa, de lunes a viernes. | It's a full-time position, Monday to Friday. | g: f | n: Part-time: media jornada.
+      estar dispuesto a | to be willing to | expr | Estaría dispuesta a cambiar de ciudad. | I'd be willing to move to another city. | n: Dispuesto agrees: dispuesta, dispuestos.
+      incorporarse | to start (a new job) | v | ¿Cuándo podría incorporarse? | When could you start? | n: La incorporación = start date.
+      el candidato / la candidata | candidate; applicant | n | Hay doce candidatos para el puesto. | There are twelve applicants for the position. | g: m/f
+      aportar | to contribute; to bring | v | Creo que podría aportar mucha experiencia al equipo. | I think I could bring a lot of experience to the team.
+      el contrato | contract | n | Le ofrecemos un contrato indefinido. | We're offering you a permanent contract. | g: m | n: Temporal = fixed-term; indefinido = permanent.
+    grammar:
+      title: "The conditional: forms and uses"
+      body: |
+        The conditional means *would*. Add the endings **-ía, -ías, -ía, -íamos, -íais, -ían** to the whole infinitive: *trabajar → trabajaría*, *ser → sería*, *vivir → viviría*. The endings are the same for -ar, -er and -ir verbs.
+
+        Irregular verbs use the same stems as the future: *tener → **tendr**ía*, *poder → **podr**ía*, *salir → **saldr**ía*, *venir → **vendr**ía*, *poner → **pondr**ía*, *saber → **sabr**ía*, *querer → **querr**ía*, *hacer → **har**ía*, *decir → **dir**ía*, *haber → **habr**ía*.
+
+        Main uses:
+        - **Politeness**: *¿Podría repetir la pregunta?* *Me gustaría saber…*
+        - **Imagined situations**: *¿Estaría dispuesto a viajar?* *Yo nunca trabajaría de noche.*
+        - **Advice**: *Deberías preparar la entrevista.* *Yo que tú, llegaría pronto.*
+        - **Softening an opinion**: *Diría que mi punto fuerte es la organización.*
+      table: |
+        Infinitive | Stem | yo | nosotros
+        trabajar | trabajar- | trabajaría | trabajaríamos
+        tener | tendr- | tendría | tendríamos
+        poder | podr- | podría | podríamos
+        hacer | har- | haría | haríamos
+        decir | dir- | diría | diríamos
+        salir | saldr- | saldría | saldríamos
+      examples: |
+        ¿Podría decirme cuál sería el horario? | Could you tell me what the working hours would be? | politeness
+        Me encantaría trabajar en un equipo internacional. | I'd love to work in an international team. | wish
+        Yo que tú, no hablaría del sueldo en la primera entrevista. | If I were you, I wouldn't talk about salary in the first interview. | advice
+        Tendría que avisar a mi empresa con quince días de antelación. | I would have to give my company two weeks' notice. | imagined situation
+      tip: "The conditional of -er and -ir verbs looks like the imperfect with an extra r: podía (I could, used to be able to) / podría (I could, would be able to). Listen for the r!"
+    dialogue:
+      title: La entrevista
+      setting: The offices of a rural tourism agency in Granada. Elena Robles, the HR manager, interviews Kofi for a customer-service coordinator post. They use usted.
+      speakers: E=Elena/f; K=Kofi/m
+      lines: |
+        E: Buenos días, Kofi. Siéntese, por favor. Cuénteme, ¿por qué le interesa este puesto? | Good morning, Kofi. Please sit down. Tell me, why are you interested in this position?
+        K: Me encanta el turismo rural y creo que podría aportar mucha experiencia. | I love rural tourism and I think I could bring a lot of experience.
+        E: ¿Cuál diría usted que es su punto fuerte? | What would you say is your strong point?
+        K: Diría que trabajo muy bien en equipo y que soy muy organizado. | I'd say I work very well in a team and that I'm very organised.
+        E: ¿Y un punto débil? Sea sincero, no pasa nada. | And a weakness? Be honest, it's fine.
+        K: A veces soy demasiado perfeccionista, aunque ahora intento delegar más. | Sometimes I'm too much of a perfectionist, although now I try to delegate more.
+        E: Muy bien. El puesto es de jornada completa. ¿Estaría dispuesto a viajar? | Very good. The position is full-time. Would you be willing to travel?
+        K: Sí, por supuesto. Me gustaría conocer los alojamientos con los que trabajan. | Yes, of course. I'd like to get to know the places to stay you work with.
+        E: Estupendo. ¿Cuándo podría incorporarse, si finalmente lo seleccionamos? | Great. When could you start, if we do select you?
+        K: Podría empezar el uno de marzo. Antes tendría que avisar a mi empresa actual. | I could start on the first of March. Before that I'd have to give notice to my current company.
+        E: De acuerdo. Le llamaremos la semana que viene. Muchas gracias por venir. | All right. We'll call you next week. Thank you very much for coming.
+    pronunciation:
+      title: "Conditional or imperfect? podía / podría"
+      body: |
+        In the conditional, the stress always falls on the **í** of the ending, which forms its own syllable: *po-**drí**-a*, *ten-**drí**-a*, *me gus-ta-**rí**-a*. The only difference from the imperfect (*po-**dí**-a*, *te-**ní**-a*) is the **r** before the ending — make it a light tap of the tongue so it is clearly heard. Practise the pairs *podía / podría*, *tenía / tendría* before the items below.
+      items: |
+        podría
+        tendría
+        sería
+        me gustaría
+        haría
+        diría
+    culture:
+      title: Interviews in Spain — tú or usted?
+      body: |
+        Many Spanish companies, especially young or creative ones, switch to **tú** within minutes of an interview starting. Still, the safe strategy is to start with **usted** and follow the interviewer's lead: if they say *puedes tutearme*, switch to tú for the rest of the conversation.
+
+        A Spanish CV used to include a photo, and you will still see many that do, but more and more recruiters prefer CVs without one. Personal details like age or marital status are not required. A short **carta de presentación** (cover letter) is appreciated, and new contracts usually begin with a **periodo de prueba** (probation period).
+    mistakes: |
+      ¿Podrías decirme el sueldo? (to an interviewer you have just met) => ¿Podría decirme cuál sería el sueldo? | In an interview, use usted unless you are invited to use tú.
+      Tenería que avisar a mi empresa. => Tendría que avisar a mi empresa. | Tener has an irregular conditional stem: tendr-.
+      Me gustaría de trabajar aquí. => Me gustaría trabajar aquí. | Gustaría is followed directly by the infinitive, with no preposition.
+    task:
+      title: Your interview answers
+      mode: interaction
+      body: |
+        Prepare answers to four classic questions: *¿Por qué le interesa este puesto?*, *¿Cuál es su punto fuerte?*, *¿Y su punto débil?* and *¿Cuándo podría incorporarse?* Use at least four conditionals and keep to usted. Then practise the whole interview in the "Preparing for a job interview" scenario with the AI coach.
+    exercises: |
+      fill: ¿___ (poder, usted) repetir la pregunta, por favor? || Podría || Polite request: conditional of poder, irregular stem podr-. || @tags es.conditional,es.register
+      fill: Me ___ (gustar) trabajar en una empresa más pequeña. || gustaría || Me gustaría + infinitive = I would like to. || @tags es.conditional
+      fill: Yo que tú, ___ (decir) la verdad en la entrevista. || diría || Advice with yo que tú + conditional. Decir has the irregular stem dir-. || @tags es.conditional
+      fill: Con ese horario, mis hijos y yo no ___ (poder) cenar juntos nunca. || podríamos || Nosotros form of the conditional: podr- + -íamos. || @tags es.conditional
+      mc: Which question sounds most polite in an interview? || ¿Me dices el sueldo? | *¿Podría decirme cuál sería el sueldo? | Quiero saber el sueldo. || The conditional (podría, sería) and usted make the question polite. || @tags es.conditional,es.register
+      mc: «Comería» means… || I used to eat. | *I would eat. | I will eat. || The conditional has an r before the ending: comería. Comía is the imperfect; comeré is the future. || @tags es.conditional
+      mc: «Estoy dispuesta a cambiar de ciudad» means… || *I'm willing to move to another city. | I've just moved to another city. | I've been forced to move to another city. || Estar dispuesto/a a + infinitive = to be willing to. || @skill vocabulary @tags es.vocabulary
+      tf: Kofi says that his weak point is being disorganised. || false || He says he is very organised; his weak point is being too much of a perfectionist. || @ctx dialogue
+      short: When could Kofi start the new job? || kw: marzo/march/1 || «Podría empezar el uno de marzo.» || @ctx dialogue
+      rw: Make the request more polite with the conditional :: ¿Puede enviarme más información sobre el puesto? || ¿Podría enviarme más información sobre el puesto? || Puede → podría: the conditional softens the request. || @tags es.conditional
+      tr: I would be willing to work at weekends. || Estaría dispuesto a trabajar los fines de semana. | Estaría dispuesta a trabajar los fines de semana. | Estaría dispuesto a trabajar el fin de semana. | Estaría dispuesta a trabajar el fin de semana. || Estar in the conditional (estaría) + dispuesto/a a + infinitive. || @tags es.conditional
+      listen: Buenas tardes. Le llamo de Recursos Humanos. Nos gustaría saber si podría venir a una segunda entrevista el martes. || What is the purpose of the call? || To offer a contract | *To invite the candidate to a second interview | To ask for an updated CV || «Nos gustaría saber si podría venir a una segunda entrevista» — a second interview on Tuesday. || @tags es.listening,es.conditional
+      listen: @dialogue || What does Elena ask Kofi about travelling? || Whether he has a car | *Whether he would be willing to travel | Whether he likes rural tourism || «¿Estaría dispuesto a viajar?» — Kofi says yes, of course. || @tags es.listening
+      dict: Diría que mi punto fuerte es la capacidad de trabajar en equipo.
+      ask: The interviewer asks «¿Por qué deberíamos elegirle a usted?». Answer with two strengths, using the conditional. || kw: podría/sería/diría/aportaría & equipo/experiencia/organizado/organizada/idiomas || Diría que soy una persona muy organizada y que trabajo bien en equipo. Además, tengo experiencia con clientes internacionales, así que podría aportar mucho a su empresa.
+
+  - title: Emails and meetings
+    summary: Write a formal email to arrange or change a meeting, and use polite expressions to take part in a meeting.
+    minutes: 45
+    skills: [reading, writing, speaking]
+    tags: [es.formal-writing, es.register]
+    objectives:
+      - Recognise and use the fixed formulas of a formal email
+      - Keep the usted / ustedes register consistent (le, les, su)
+      - Interrupt, add a point and move a meeting on politely
+    intro: |
+      At work, how you say something matters as much as what you say. Formal Spanish emails follow fixed formulas — *Estimado/a…:*, *Le escribo para…*, *Un cordial saludo* — and meetings have their own polite phrases for interrupting or moving on. In this lesson you will read a real-sounding work email and learn to write your own.
+    vocab: |
+      el correo (electrónico) | email | n | Le he enviado un correo esta mañana. | I sent you an email this morning. | g: m | n: Also el email or el mail in everyday speech.
+      el asunto | subject (of an email); matter | n | Escriba el número de pedido en el asunto. | Write the order number in the subject line. | g: m
+      adjuntar | to attach | v | Le adjunto el presupuesto en PDF. | Please find attached the quote in PDF. | n: El archivo adjunto = the attachment.
+      la reunión | meeting | n | La reunión empieza a las diez en punto. | The meeting starts at ten o'clock sharp. | g: f | c: convocar una reunión; aplazar una reunión
+      el orden del día | agenda (of a meeting) | n | Hay tres puntos en el orden del día. | There are three items on the agenda. | g: m | n: La agenda is your diary or planner.
+      el presupuesto | budget; quote | n | Tenemos que revisar el presupuesto del proyecto. | We need to review the project budget. | g: m
+      aplazar | to postpone | v | Hemos tenido que aplazar la reunión hasta el jueves. | We've had to postpone the meeting until Thursday. | n: Cancelar = to cancel.
+      venir bien | to suit; to be convenient | expr | ¿Le vendría bien el jueves a las diez? | Would Thursday at ten suit you? | n: Works like gustar: me viene bien, le viene bien.
+      quedar a la espera de | to look forward to (a reply) | expr | Quedo a la espera de su respuesta. | I look forward to your reply.
+      de antemano | in advance | adv | Muchas gracias de antemano por su ayuda. | Thank you in advance for your help.
+      tratar | to deal with; to discuss | v | En la reunión trataremos el calendario. | In the meeting we will discuss the schedule. | n: Tratar de tú / de usted = to address someone as tú / usted.
+      la videollamada | video call | n | Podemos hacer la reunión por videollamada. | We can hold the meeting by video call. | g: f
+    grammar:
+      title: Formal register in emails and meetings
+      body: |
+        In formal Spanish you address one person as **usted** and several people as **ustedes**. Both take third-person forms, and the pronouns and possessives change too: **le / les** (to you), **su / sus** (your), **se** for reflexives (*¿Se acuerda usted?*). The golden rule is consistency: once you start with usted, don't slip back into *te* or *tu*.
+
+        Formal emails use fixed formulas:
+        - **Opening**: *Estimado señor Ortiz:* / *Estimada señora Castillo:* / *Estimados señores:* — followed by a **colon**, not a comma.
+        - **Purpose**: *Le escribo para…*, *Me pongo en contacto con usted para…*, *Le escribo en relación con…*
+        - **Requests**, softened with the conditional: *¿Podría…?*, *¿Le vendría bien…?*, *Le agradecería mucho su respuesta.*
+        - **Closing**: *Quedo a la espera de su respuesta.* + *Un cordial saludo,* or *Atentamente,* (more formal).
+
+        Notice that Spanish uses the simple present for "I am writing to…": *Le escribo para…*
+      table: |
+        Informal | Formal
+        Hola, Marta: | Estimada señora Castillo:
+        Te escribo para… | Le escribo para…
+        ¿Te viene bien el jueves? | ¿Le vendría bien el jueves?
+        Te mando el archivo. | Le adjunto el archivo.
+        Espero tu respuesta. | Quedo a la espera de su respuesta.
+        Un abrazo, | Un cordial saludo, / Atentamente,
+      examples: |
+        Me pongo en contacto con ustedes para solicitar información. | I'm writing to you to request information. | ustedes: several people
+        ¿Le vendría bien aplazar la reunión al viernes? | Would it suit you to postpone the meeting to Friday? | le + conditional
+        Perdón por interrumpir, pero me gustaría añadir algo. | Sorry to interrupt, but I'd like to add something. | meeting
+        Si les parece bien, pasamos al siguiente punto. | If that's all right with you, let's move on to the next item. | meeting, ustedes
+      tip: "In many Spanish workplaces colleagues write to each other informally (Hola, Javi: …, Un saludo). Keep the full formal style for clients, people you don't know and official institutions."
+    reading:
+      title: "Asunto: Cambio de fecha de la reunión"
+      text: |
+        Estimada señora Castillo:
+
+        Le escribo en relación con la reunión sobre el proyecto de la nueva página web, prevista para el próximo martes 14. Lamentablemente, ese día nuestro director técnico no podrá asistir, por lo que le propongo cambiarla al jueves 16 a la misma hora, a las diez. ¿Le vendría bien?
+
+        La reunión sería en nuestras oficinas de la calle Alfonso I, aunque también podríamos hacerla por videollamada si usted lo prefiere. Le adjunto el orden del día con los tres puntos que querríamos tratar: el calendario del proyecto, el presupuesto y el diseño de la página principal.
+
+        Por otro lado, nos sería muy útil disponer de las fotografías de sus productos antes de la reunión. ¿Podría enviarnos las fotos antes del miércoles?
+
+        Quedo a la espera de su respuesta. Muchas gracias de antemano.
+
+        Un cordial saludo,
+
+        Jorge Sanz Ibarra
+        Coordinador de proyectos
+      translation: |
+        Dear Ms Castillo,
+
+        I am writing to you about the meeting on the new website project, scheduled for next Tuesday the 14th. Unfortunately, our technical director will not be able to attend that day, so I suggest moving it to Thursday the 16th at the same time, ten o'clock. Would that suit you?
+
+        The meeting would be at our offices on Calle Alfonso I, although we could also hold it by video call if you prefer. Please find attached the agenda with the three items we would like to discuss: the project schedule, the budget and the design of the home page.
+
+        Also, it would be very helpful for us to have the photographs of your products before the meeting. Could you send us the photos before Wednesday?
+
+        I look forward to your reply. Thank you very much in advance.
+
+        Kind regards,
+
+        Jorge Sanz Ibarra
+        Project coordinator
+    pronunciation:
+      title: "Saying an email address: arroba, punto, guion bajo"
+      body: |
+        You will often have to dictate an email address over the phone. **@** is *arroba*, **.** is *punto*, **-** is *guion* and **_** is *guion bajo*. Say *todo junto* (all one word) and *en minúsculas* (in lower case) to avoid confusion, and spell difficult names letter by letter: *jsanz@estudio-norte.es* → *jota, ese, a, ene, zeta, arroba, estudio, guion, norte, punto, e, ese*.
+      items: |
+        arroba
+        punto com
+        guion bajo
+        todo junto
+        en minúsculas
+        punto es
+    culture:
+      title: Emails, meetings and the summer timetable
+      body: |
+        In Spanish letters and emails, the greeting is followed by a **colon**: *Estimada señora Castillo:* — a comma is an English habit. *Un cordial saludo* is the standard closing; *Atentamente* is more distant and official. Colleagues who know each other often write just *Un saludo* or *Un abrazo*.
+
+        Meetings often begin with a few minutes of small talk, and in summer many offices switch to **la jornada intensiva**: a continuous working day from about 8 a.m. to 3 p.m. with no long lunch break — so don't expect meetings on July afternoons.
+    mistakes: |
+      Estimado señor García, => Estimado señor García: | In Spanish letters and emails, the greeting is followed by a colon.
+      Le escribo para pedirte información. => Le escribo para pedirle información. | Don't mix registers: with usted, the pronoun is le, not te.
+      Estoy escribiendo para informarle del cambio. => Le escribo para informarle del cambio. | Spanish uses the simple present for "I am writing to…".
+    task:
+      title: Rescheduling a meeting
+      mode: writing
+      body: |
+        You can't attend a meeting with a client next Monday. Write a formal email (80–100 words): explain why, suggest two alternative dates, offer a video call as an option, and ask the client to send a document before the meeting. Use at least two conditionals and the formulas from this lesson. Then practise taking part in the meeting itself in the "Taking part in a business meeting" scenario with the AI coach.
+    exercises: |
+      mc: Why does Jorge want to change the date of the meeting? || Señora Castillo is ill. | *The technical director can't attend. | The offices will be closed. || «Nuestro director técnico no podrá asistir.» || @ctx reading @tags es.reading
+      tf: The meeting can only take place in person at the offices. || false || «También podríamos hacerla por videollamada si usted lo prefiere.» || @ctx reading @tags es.reading
+      mc: How many items are on the agenda? || Two | *Three | Four || The schedule, the budget and the design of the home page. || @ctx reading @tags es.reading
+      short: What does Jorge ask Señora Castillo to send before Wednesday? || kw: fotos/fotografías/photos/photographs/pictures || «¿Podría enviarnos las fotos antes del miércoles?» || @ctx reading @tags es.reading
+      fill: ___ señor Medina: Le escribo para confirmar la reunión del lunes. || Estimado || Formal opening for a man: Estimado señor + surname + colon. || @tags es.formal-writing
+      fill: ¿Le ___ (venir) bien el jueves a las diez? (conditional) || vendría || Venir has the irregular stem vendr-; the conditional makes the suggestion polite. || @tags es.conditional,es.register
+      mc: Which closing is right for an email to a client? || Un besito, | Hasta luego, | *Un cordial saludo, || Un cordial saludo is the standard formal closing. || @tags es.formal-writing
+      match: Le escribo para = I am writing to ; Le adjunto = Please find attached ; Quedo a la espera de = I look forward to ; Muchas gracias de antemano = Thank you in advance || These fixed formulas appear in almost every formal email. || @tags es.formal-writing
+      rw: Make it formal (usted) :: ¿Puedes mandarme tu número de teléfono? || ¿Puede mandarme su número de teléfono? | ¿Podría mandarme su número de teléfono? | ¿Me puede mandar su número de teléfono? | ¿Me podría mandar su número de teléfono? | ¿Puede enviarme su número de teléfono? | ¿Podría enviarme su número de teléfono? || Usted takes the third-person verb (puede / podría) and the possessive su. || @tags es.register
+      tr: I look forward to your reply. (formal) || Quedo a la espera de su respuesta. | Quedamos a la espera de su respuesta. | Espero su respuesta. || The usual formal formula is quedo a la espera de su respuesta. || @tags es.formal-writing
+      listen: Bueno, si les parece bien, empezamos. El primer punto del orden del día es el presupuesto. || What is the first item of the meeting? || The schedule | *The budget | The design || «El primer punto del orden del día es el presupuesto.» || @tags es.listening
+      listen: Perdón por interrumpir, pero me gustaría añadir algo sobre el calendario antes de pasar al siguiente punto. || What does the speaker want to do? || End the meeting | *Add a comment about the schedule | Change the date of the meeting || «Me gustaría añadir algo sobre el calendario.» || @tags es.listening
+      dict: Le escribo en relación con la reunión del próximo martes.
+      ask: In a meeting, politely interrupt a colleague to add a comment about the budget. || kw: perdón/perdone/disculpe/disculpa & gustaría/añadir/comentar || Perdón por interrumpir, pero me gustaría añadir algo sobre el presupuesto.
+      write: Write a short formal email (50–70 words) to a hotel to ask whether they have a meeting room for twelve people next Friday, and how much it costs. || min=50 || req: estimad | escribo/me pongo en contacto/me dirijo | podría/gustaría/querría | saludo/atentamente || Estimados señores: Les escribo para preguntar si tienen una sala de reuniones para doce personas el próximo viernes, de nueve a dos. Nos gustaría saber también cuánto costaría y si incluye proyector y café. ¿Podrían enviarme un presupuesto? Muchas gracias de antemano. Un cordial saludo, Marta Ibáñez
+
+  - title: Changing careers
+    summary: Explain why someone changes careers and weigh up the pros and cons, organising your ideas with connectors.
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [es.connectors]
+    objectives:
+      - Link ideas with connectors of addition, contrast, cause and consequence
+      - Explain the reasons for a career change
+      - Weigh up advantages and disadvantages
+    intro: |
+      Changing careers in your thirties or forties is increasingly common, and explaining a decision like that needs more than short sentences. **Connectors** — *además, sin embargo, por eso, como, por un lado… por otro* — show how your ideas relate: what you add, what contrasts, what causes what. They are what makes B1 speech sound organised.
+    vocab: |
+      cambiar de profesión | to change careers | expr | A los cuarenta decidí cambiar de profesión. | At forty I decided to change careers. | c: cambiar de trabajo; cambiar de empresa
+      dejar | to leave; to quit | v | Dejé el despacho después de diez años. | I left the law firm after ten years. | n: Dejar un trabajo = to quit a job.
+      estar harto de | to be fed up with | expr | Estaba harta de trabajar doce horas al día. | I was fed up with working twelve hours a day. | n: Harto agrees: harta, hartos.
+      reinventarse | to reinvent oneself | v | Mucha gente se reinventa después de los cuarenta. | Many people reinvent themselves after forty.
+      arriesgarse | to take a risk | v | No me arriesgaría a dejar un trabajo fijo. | I wouldn't risk leaving a permanent job. | n: Correr un riesgo = to run a risk.
+      la estabilidad | stability; security | n | Para mí, la estabilidad es lo más importante. | For me, security is the most important thing. | g: f
+      el oficio | trade; craft | n | La carpintería es un oficio precioso. | Carpentry is a beautiful trade. | g: m
+      la formación | training; education | n | Hice un curso de formación profesional por las tardes. | I did a vocational training course in the evenings. | g: f | n: Formarse = to train.
+      el taller | workshop | n | Tengo un pequeño taller en las afueras. | I have a small workshop on the outskirts. | g: m
+      montar un negocio | to set up a business | expr | Montó un negocio de bicicletas con su hermano. | He set up a bike business with his brother.
+      merecer la pena | to be worth it | expr | Fue difícil, pero mereció la pena. | It was hard, but it was worth it. | n: Also valer la pena, the usual form in Latin America.
+      ganarse la vida | to earn a living | expr | Se gana la vida como fotógrafa. | She earns her living as a photographer.
+    grammar:
+      title: "Connectors: además, sin embargo, por eso, como…"
+      body: |
+        Connectors show the relationship between two ideas. Learn them in groups:
+
+        - **Adding**: *además* (also, what's more), *también*, *incluso* (even).
+        - **Contrast**: *pero*, *sin embargo* (however), *en cambio* (on the other hand, contrasting two people or things), *aunque* (although).
+        - **Cause**: *porque* (after the main idea), **como** (at the start of the sentence), *ya que* (since, a little more formal).
+        - **Consequence**: *por eso* (that's why), *así que* (so), *por lo tanto* (therefore, more formal).
+        - **Organising**: *por un lado… por otro (lado)*, *en primer lugar*, *de hecho* (in fact).
+
+        **Aunque** + indicative presents a fact: *Aunque gano menos, soy más feliz.* Never combine *aunque* and *pero* in one sentence. **Como** starts the sentence when you give the cause first: *Como estaba harta, lo dejé* — not *Porque estaba harta, lo dejé*. *Sin embargo* is usually followed by a comma: *Gano menos; sin embargo, soy feliz.*
+      table: |
+        Function | Connectors | Example
+        Addition | además, también, incluso | Además, no era feliz.
+        Contrast | pero, sin embargo, en cambio, aunque | Sin embargo, da miedo.
+        Cause | porque, como, ya que | Como tenía ahorros, me arriesgué.
+        Consequence | por eso, así que, por lo tanto | Por eso hice un curso.
+        Organisation | por un lado… por otro, de hecho | Por un lado gano menos; por otro, soy libre.
+      examples: |
+        Como no me gustaba mi trabajo, decidí reinventarme. | As I didn't like my job, I decided to reinvent myself. | cause first: como
+        Ganaba mucho; sin embargo, no tenía tiempo para nada. | I earned a lot; however, I had no time for anything. | contrast
+        Aunque tengo menos estabilidad, ahora disfruto de mi trabajo. | Although I have less security, I now enjoy my work. | aunque + fact
+        Mi hermano es muy prudente; yo, en cambio, me arriesgo enseguida. | My brother is very cautious; I, on the other hand, take risks straight away. | en cambio: two people
+      tip: "In speech, por eso and así que are the most common ways to say 'so'. Save por lo tanto for formal writing."
+    dialogue:
+      title: De abogada a carpintera
+      setting: A craft fair in Logroño on a Saturday morning. Tomás, a lawyer, recognises his former colleague Rocío at a stall selling handmade furniture.
+      speakers: T=Tomás/m; R=Rocío/f
+      lines: |
+        T: ¡Rocío! ¡Qué sorpresa! ¿Estos muebles tan bonitos los has hecho tú? | Rocío! What a surprise! Did you make this lovely furniture?
+        R: Sí, todos. Hace dos años dejé el despacho y monté mi propio taller. | Yes, all of it. Two years ago I left the firm and set up my own workshop.
+        T: ¡Qué valiente! Ganabas muy bien como abogada, ¿no? | How brave! You earned very good money as a lawyer, didn't you?
+        R: Sí, pero estaba harta de trabajar doce horas al día. Además, no era feliz. | Yes, but I was fed up with working twelve hours a day. And I wasn't happy.
+        T: Te entiendo. Sin embargo, dejar un sueldo fijo da mucho miedo. | I understand. However, giving up a regular salary is really scary.
+        R: Claro. Por eso primero hice un curso de formación profesional por las tardes. | Of course. That's why I first did a vocational training course in the evenings.
+        T: ¿Y cómo te va ahora? ¿Te puedes ganar la vida con esto? | And how's it going now? Can you make a living from this?
+        R: Por un lado, gano menos que antes; por otro, tengo mucha más libertad. | On the one hand, I earn less than before; on the other, I have much more freedom.
+        T: Pues yo, aunque me encanta cocinar, nunca me arriesgaría a abrir un restaurante. | Well, although I love cooking, I'd never risk opening a restaurant.
+        R: Hombre, como tienes dos hijos pequeños, es normal pensarlo dos veces. | Well, as you have two young children, it's normal to think twice.
+        T: ¿Y no echas de menos nada del despacho? | And don't you miss anything about the firm?
+        R: A mis compañeros, sí; el trabajo, en cambio, nada. Ha merecido la pena. | My colleagues, yes; the work, on the other hand, not at all. It's been worth it.
+    pronunciation:
+      title: Pausing around connectors
+      body: |
+        Connectors such as *sin embargo*, *por un lado* and *en cambio* are often said as a separate group, with a short pause after them and a slight rise in the voice: *Sin embargo, | da mucho miedo.* This signals to the listener that a new idea is coming. Shorter words like *pero*, *así que* or *porque* usually flow straight into the next words without a pause.
+      items: |
+        sin embargo
+        por un lado
+        por otro
+        además
+        por eso
+        en cambio
+    culture:
+      title: Oposiciones and second careers
+      body: |
+        In Spain, many public-sector jobs — teachers, firefighters, civil servants — are filled through **oposiciones**, competitive exams that people may prepare for over several years, often with an academy or a private tutor. A permanent public post (*una plaza fija*) is still a symbol of security for many families.
+
+        For people who want to change careers, **la Formación Profesional (FP)** offers practical two-year courses in trades and technical fields, and many adults take them in the evenings or online while they keep their current job.
+    mistakes: |
+      Aunque gano menos, pero soy más feliz. => Aunque gano menos, soy más feliz. | Don't use aunque and pero together in the same sentence.
+      Estoy harta trabajar tanto. => Estoy harta de trabajar tanto. | The expression is estar harto/a de + infinitive.
+      Porque no me gustaba mi trabajo, lo dejé. => Como no me gustaba mi trabajo, lo dejé. | When the cause comes first, use como; porque normally follows the main clause.
+    task:
+      title: Should I change careers?
+      mode: speaking
+      body: |
+        Talk for 1–2 minutes about a career change you have made, would like to make, or know about. Explain the reasons, then give two advantages and two disadvantages, using at least five different connectors (*como, además, sin embargo, por eso, por un lado… por otro*). Then discuss with the AI coach, in the "Expressing an opinion" scenario, whether a secure job matters more than a job you love.
+    exercises: |
+      fill: Me encanta mi trabajo; ___, el horario es horrible. || sin embargo / no obstante || Contrast between the two ideas: sin embargo. || @tags es.connectors
+      fill: Estaba harto de la oficina; ___ hice un curso de cocina. || por eso / así que / por lo tanto || The second idea is a consequence of the first. || @tags es.connectors
+      fill: ___ tenía algunos ahorros, pude estudiar un año sin trabajar. || Como / Ya que / Puesto que / Dado que || The cause comes at the start of the sentence: como (or ya que). || @tags es.connectors
+      mc: Choose the correct sentence. || Aunque gano menos, pero soy más feliz. | *Aunque gano menos, soy más feliz. | Aunque gano menos, sin embargo soy más feliz. || Aunque already expresses the contrast; don't add pero or sin embargo. || @tags es.connectors
+      mc: «Fue duro, pero mereció la pena.» The speaker thinks the experience was… || *worth it. | a pity. | a waste of time. || Merecer (or valer) la pena = to be worth it. || @skill vocabulary @tags es.vocabulary
+      match: además = addition ; sin embargo = contrast ; por eso = consequence ; como = cause || Además adds, sin embargo contrasts, por eso gives a result, and como introduces a cause. || @tags es.connectors
+      tf: Rocío earns more now than when she was a lawyer. || false || «Por un lado, gano menos que antes.» || @ctx dialogue
+      short: What did Rocío do before she left the law firm? || kw: curso/course/formación/training/FP || She did a vocational training course in the evenings. || @ctx dialogue
+      rw: Join the sentences with aunque :: Me encanta cocinar. Nunca abriría un restaurante. || Aunque me encanta cocinar, nunca abriría un restaurante. | Nunca abriría un restaurante, aunque me encanta cocinar. || Aunque + indicative introduces a fact that contrasts with the main idea. || @tags es.connectors,es.join
+      tr: On the one hand I have more freedom; on the other, I earn less. || Por un lado, tengo más libertad; por otro, gano menos. | Por un lado tengo más libertad y por otro gano menos. | Por un lado, tengo más libertad; por otro lado, gano menos. | Por una parte, tengo más libertad; por otra, gano menos. || Por un lado… por otro (lado) organises two sides of an argument. || @tags es.connectors
+      listen: Trabajé quince años en un banco, pero a los cuarenta decidí estudiar Enfermería. Ahora trabajo en un hospital y estoy encantada. || What does the speaker do now? || She works in a bank. | *She's a nurse in a hospital. | She's studying nursing. || She studied nursing at forty and now works in a hospital. || @tags es.listening
+      listen: @dialogue || What does Tomás say about opening a restaurant? || He's going to open one soon. | *He would never take the risk. | He has already tried and failed. || «Nunca me arriesgaría a abrir un restaurante.» || @tags es.listening,es.conditional
+      dict: Como estaba harta de mi trabajo, decidí reinventarme.
+      ask: A friend asks whether you would ever change careers. Answer with two reasons, using connectors. || kw: porque/como/ya que & sin embargo/aunque/por un lado/además/por eso || Sí, me arriesgaría. Por un lado, estoy harto de la oficina; por otro, siempre me ha gustado la cocina. Sin embargo, primero haría un curso, porque no quiero perder la estabilidad de golpe.

@@ -1,0 +1,378 @@
+unit: 5
+title: By og miljø
+theme: City and environment
+description: Compare city and country life, talk about recycling and green habits, and propose local solutions — with definite adjective phrases (den store by) and the s-passive (sorteres, skal afleveres).
+objectives:
+  - Compare places to live with definite adjective phrases such as den store by and det gamle hus
+  - Explain recycling rules and green habits with the s-passive
+  - Propose solutions for your area with foreslå, at…, man and der + passive
+canDo:
+  - I can describe and compare places with phrases like den lille landsby and de travle gader.
+  - I can explain how waste is sorted and what must not be thrown away.
+  - I can understand rules and notices written in the passive.
+  - I can make concrete proposals at a meeting or in a short letter.
+review: |
+  fill: Vi har købt ___ ___ hus ved kirken. (gul — definite) || det ; gule || Hus is an et-word, so the article is det, and after det the adjective takes -e: det gule hus. || @tags da.definite-adjectives
+  mc: "___ små butikker i landsbyen lukker klokken 17." || *De | Den | Det || Butikker is plural, so the article is de. Små is the plural of lille. || @tags da.definite-adjectives,da.plural
+  mc: Which phrase is correct? || *den grønne park | den grøn park | den grønne parken || After den the adjective takes -e (and the n doubles: grønne), and the noun has no definite ending. || @tags da.definite-adjectives
+  fill: Tøjet ___ genbruges. (can) || kan || Modal + passive infinitive: kan genbruges (can be reused). || @tags da.passive,da.modal-verbs
+  fill: Aviser og reklamer ___ hver anden uge. (hente — passive) || hentes || The present s-passive: hente + s = hentes (are collected). || @tags da.passive
+  mc: "Der smides for meget mad ud." Who throws the food away? || *The sentence doesn't say | The supermarkets | The municipality || The passive puts the focus on what happens and hides who does it. || @tags da.passive
+  rw: Make it passive :: Kommunen tømmer containerne hver mandag. || Containerne tømmes af kommunen hver mandag. | Containerne tømmes hver mandag af kommunen. | Containerne tømmes hver mandag. || Tømmer → tømmes. The doer can be added with af: af kommunen. || @tags da.passive
+  tr: We propose that the town plants more trees. || Vi foreslår, at byen planter flere træer. | Vi foreslår, at kommunen planter flere træer. | Vi foreslår, at der plantes flere træer i byen. || Foreslå, at + subordinate clause with the subject before the verb. || @tags da.subordinate-clauses,da.passive
+  listen: Vi elsker den store have og den stille landsby, men det er svært uden bil, fordi bussen kun kører to gange om dagen. || What is difficult for them? || *Getting around without a car | Finding a school | Heating the old house || "Det er svært uden bil, fordi bussen kun kører to gange om dagen." || @tags da.listening,da.definite-adjectives
+  listen: Husk, at glas og flasker ikke må stilles foran containeren. De skal lægges i containeren. || What must people not do? || *Leave glass in front of the container | Put glass into the container | Sort glass together with plastic || "Glas og flasker … ikke må stilles foran containeren." || @tags da.listening,da.passive
+  ask: Tell a friend about the place where you live: describe it with at least two definite adjective phrases, and explain how waste is sorted there. || kw: den/det/de & sorteres/afleveres/genbruges/smides/samles/hentes || Jeg bor i den lille gule bygning ved havnen. Fra det store vindue kan jeg se vandet. Hos os sorteres affaldet i ti dele, og pantflasker afleveres i supermarkedet.
+  write: Write an email (5–7 sentences) to your municipality proposing one change in your neighbourhood. Describe the problem and your solution. || min=50 || req: foreslår/foreslå | der/man | den/det/de || Kære Teknik og Miljø. Jeg bor på Østergade, og jeg vil gerne foreslå en forbedring. Den gamle legeplads ved skolen er i meget dårlig stand, og der kommer næsten ingen børn. Jeg foreslår, at den laves om til en naturlegeplads med træer og sten. Der kunne også plantes blomster til bierne. Mange forældre vil gerne hjælpe som frivillige. Med venlig hilsen Leila Ahmadi
+lessons:
+  - title: City or countryside?
+    summary: Compare life in the big city and in a small village, and describe places with definite adjective phrases — den store by, det gamle hus, de små butikker.
+    minutes: 45
+    skills: [speaking, grammar, listening]
+    tags: [da.definite-adjectives, da.adjective-agreement, da.comparatives]
+    objectives:
+      - Form definite adjective phrases with den, det and de + adjective-e
+      - Use lille and små, and adjectives after possessives (min gamle cykel)
+      - Compare the pros and cons of city and country life
+    intro: |
+      Big city or small village? Many Danes ask themselves that question, especially when they have children. To compare places, you need to talk about specific things — **den store have**, **det gamle hus**, **de travle gader**. In this lesson you'll hear a couple in Copenhagen discuss a house in the country, and learn how Danish puts an adjective in front of a definite noun.
+    vocab: |
+      en landsby | a village | n | Hun voksede op i en lille landsby på Fyn. | She grew up in a small village on Funen. | g: c | pl: landsbyer
+      landet | the countryside | n | Vi flytter ud på landet til sommer. | We're moving to the countryside this summer. | g: n | n: Bo på landet = live in the countryside.
+      en storby | a big city | n | Jeg har altid boet i en storby. | I've always lived in a big city. | g: c | pl: storbyer
+      travl | busy | adj | Vi bor ved den travle hovedgade. | We live on the busy high street. | n: Definite and plural: travle. About a person: have travlt (be busy).
+      en udsigt | a view | n | Fra huset er der udsigt over fjorden. | From the house there's a view over the fjord. | g: c | pl: udsigter | c: udsigt over noget; udsigt til noget
+      et kvarter | a neighbourhood; a quarter of an hour | n | Vi bor i et roligt kvarter tæt på parken. | We live in a quiet neighbourhood near the park. | g: n | pl: kvarterer
+      lige om hjørnet | just round the corner | expr | Supermarkedet ligger lige om hjørnet. | The supermarket is just round the corner.
+      pendle | to commute | v | Han pendler fra Roskilde til København hver dag. | He commutes from Roskilde to Copenhagen every day. | n: Past: pendlede. En pendler = a commuter.
+      en afstand | a distance | n | Afstanden til den nærmeste skole er fem kilometer. | The distance to the nearest school is five kilometres. | g: c | pl: afstande
+      en formue | a fortune | n | Det koster en formue at bo i centrum. | It costs a fortune to live in the centre. | g: c | pl: formuer
+      overbevise | to convince | v | Du har overbevist mig. | You've convinced me. | n: Past: overbeviste.
+      lille / små | small (singular / plural) | adj | Den lille landsby har to små butikker. | The little village has two small shops. | n: Lille in the singular, små in the plural — also after den, det and de.
+    grammar:
+      title: "Definite adjective phrases: den store by"
+      body: |
+        When an adjective comes before a **definite** noun, Danish puts a separate article in front — **den** (en-words), **det** (et-words), **de** (plural) — and the adjective always ends in **-e**. The noun itself has **no** definite ending:
+
+        *en stor by → byen → **den store by*** · *et gammelt hus → huset → **det gamle hus*** · *nye lejligheder → lejlighederne → **de nye lejligheder***
+
+        So you use either the ending (*byen*) or the article + adjective (*den store by*) — never both: not *den store byen*.
+
+        The same -e form is used after **possessives** and **genitives**: *min gamle cykel, vores nye nabo, byens bedste café, Københavns travle gader*.
+
+        Watch out for:
+        - **lille** in the singular (*den lille landsby, det lille hus*) and **små** in the plural (*de små butikker*).
+        - A short vowel + one consonant doubles the consonant in writing: *grøn → den grønne park*, *smuk → den smukke udsigt*, *tom → det tomme hus*.
+        - Adjectives that already end in -e don't change: *den moderne lejlighed*, *det stille kvarter*.
+      table: |
+        Indefinite | Definite noun | Definite with adjective
+        en stor by | byen | den store by
+        et gammelt hus | huset | det gamle hus
+        nye lejligheder | lejlighederne | de nye lejligheder
+        en lille landsby | landsbyen | den lille landsby
+        små butikker | butikkerne | de små butikker
+      examples: |
+        Vi bor i det gule hus ved kirken. | We live in the yellow house by the church. | det + adjective-e; huset loses its ending
+        Den lille landsby har kun én butik. | The little village only has one shop. | lille in the singular
+        De nye lejligheder ved havnen er meget dyre. | The new flats by the harbour are very expensive. | de + adjective-e
+        Min gamle cykel står stadig i kælderen. | My old bike is still in the basement. | -e after a possessive
+      tip: "Den, det or de + adjective-e + noun without an ending. Think of it as a sandwich: den store by."
+    dialogue:
+      title: Huset uden for Svendborg
+      setting: A small flat on Nørrebro in Copenhagen. Nanna has found an advert for an old house on South Funen and shows it to her partner, Asger.
+      speakers: N=Nanna/f; A=Asger/m
+      lines: |
+        N: Asger, se lige den her annonce! Et gammelt bondehus uden for Svendborg. | Asger, look at this advert! An old farmhouse outside Svendborg.
+        A: Det ser hyggeligt ud. Men vil du virkelig flytte fra den store by? | It looks cosy. But do you really want to move away from the big city?
+        N: Ja, jeg er træt af de travle gader og den lille lejlighed på fjerde sal. | Yes, I'm tired of the busy streets and the little flat on the fourth floor.
+        A: Men her har vi alt lige om hjørnet: caféer, biografer og vores venner. | But here we have everything just round the corner: cafés, cinemas and our friends.
+        N: Det ved jeg godt. Men tænk på den store have og den friske luft! | I know. But think of the big garden and the fresh air!
+        A: Og den lange vej til arbejde. Der kører jo kun én bus i timen. | And the long way to work. There's only one bus an hour, you know.
+        N: Vi kunne arbejde hjemme et par dage om ugen. Det gør mange i dag. | We could work from home a couple of days a week. Lots of people do that these days.
+        A: Hvad med børnene? Den lille landsby har sikkert ikke engang en skole. | What about the children? The little village probably doesn't even have a school.
+        N: Jo, der er en friskole i nabobyen med kun tolv elever i hver klasse. | Yes, there's an independent school in the next village with only twelve pupils in each class.
+        A: Hm. Og det gamle hus? Gamle huse koster tit en formue i varme. | Hm. And the old house? Old houses often cost a fortune in heating.
+        N: Måske, men hele huset koster det samme som en etværelses her i København. | Maybe, but the whole house costs the same as a one-room flat here in Copenhagen.
+        A: Okay, du har overbevist mig. Lad os tage derned og se på det på lørdag. | OK, you've convinced me. Let's go down there and look at it on Saturday.
+    pronunciation:
+      title: "The y sound: by, landsby, cykel"
+      body: |
+        The Danish **y** is an *i* said with rounded lips — like the vowel in French *tu* or German *über*. Say a long "ii", keep your tongue where it is, and round your lips as if to whistle: that is *by*.
+
+        It is long in *by* and *landsby* and short in *cykel* and *lyst*. Don't replace it with an English "u" or "oo": *by* (town) and *bo* (live) are different words. Listen and repeat each word, then the sentence.
+      items: |
+        by
+        landsby
+        storby
+        cykel
+        Den lille landsby ligger ved fjorden.
+    culture:
+      title: Moving to the country
+      body: |
+        House prices in Copenhagen and Aarhus are high, and every year many families move to smaller towns and villages, where a house with a garden can cost less than a flat in the city. Some villages actively welcome newcomers (**tilflyttere**) with open-house days and help finding work and childcare.
+
+        Distances in Denmark are short, and good train connections make it possible to commute to a big city. Since more people began working from home some days a week, life in the country has become an option for more families.
+    mistakes: |
+      den store byen => den store by | After den + adjective, the noun has no definite ending.
+      det gammel hus => det gamle hus | After den, det and de, the adjective always ends in -e.
+      de lille butikker => de små butikker | In the plural, lille becomes små.
+    task:
+      title: City or country?
+      mode: speaking
+      body: |
+        Would you rather live in a big city or in the countryside? Prepare a short talk (one to two minutes): describe a place you know well with at least four definite adjective phrases (den travle gade, det lille hus…), and give two advantages and one disadvantage. Then discuss the question in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: Vi bor i ___ ___ hus ved fjorden. (gammel — definite) || det ; gamle || Hus is an et-word: det. After det, the adjective takes -e, and gammel becomes gamle. || @tags da.definite-adjectives
+      fill: ___ ___ butikker i byen lukker tidligt om lørdagen. (lille — plural, definite) || De ; små || Plural: de, and lille becomes små. || @tags da.definite-adjectives,da.plural
+      mc: Which phrase is correct? || *den travle gade | den travl gade | den travle gaden || Den + adjective-e + noun without an ending. || @tags da.definite-adjectives
+      mc: "Jeg savner ___ luft på landet." || *den friske | det friske | den friskes || Luft is an en-word, so the article is den, and the adjective takes -e. || @tags da.definite-adjectives,da.gender
+      tf: Nanna wants to move away from Copenhagen. || true || "Jeg er træt af de travle gader og den lille lejlighed på fjerde sal." || @ctx dialogue
+      short: What worries Asger about the journey to work? || kw: bus/bussen/lang/far/long || The long way to work — there is only one bus an hour. || @ctx dialogue
+      listen: @dialogue || What do they decide to do on Saturday? || *Go and look at the house | Sign the contract | Visit their friends || "Lad os tage derned og se på det på lørdag." || @tags da.listening
+      listen: Vi flyttede fra Aarhus til en lille landsby for to år siden. Det bedste er den smukke udsigt over havet, men vi savner de gode caféer. || What do they miss? || *The good cafés | The view over the sea | Their old flat || "Vi savner de gode caféer." The view is the best thing about the village. || @tags da.listening,da.definite-adjectives
+      rw: Rewrite with den, det or de :: Vi så en smuk udsigt og nogle små huse. || Vi så den smukke udsigt og de små huse. || Den smukke udsigt (en-word, -e, double k) and de små huse (plural). || @tags da.definite-adjectives
+      order: Vi drømmer om det gamle hus med den store have. || We dream of the old house with the big garden. || @tags da.definite-adjectives
+      tr: The little village has no school. || Den lille landsby har ingen skole. | Den lille landsby har ikke nogen skole. | Den lille landsby har ikke en skole. || Den + lille + landsby — lille never changes in the singular. || @tags da.definite-adjectives,da.negation
+      ask: Would you rather live in the big city or in the countryside? Give two reasons and use at least two definite adjective phrases. || kw: den/det/de & by/byen/landet/landsby/landsbyen || Jeg vil helst bo i den store by. Jeg elsker de mange caféer og det travle liv. Men jeg savner nogle gange den friske luft på landet.
+      write: Write a short advert (4–6 sentences) for a house or flat you want to sell. Describe the rooms, the view and the area. || min=40 || req: den/det/de | udsigt/have/kvarter/område || Til salg: Hyggeligt rækkehus i et roligt kvarter i Vejle. Det store køkken har plads til hele familien, og fra den lille terrasse er der udsigt over fjorden. De to soveværelser ligger på første sal. Skolen og den nye svømmehal ligger lige om hjørnet.
+      dict: Vi savner den friske luft og den store have.
+
+  - title: Green habits
+    summary: Talk about recycling, saving energy and green habits, and understand rules and instructions in the s-passive — sorteres, kan genbruges, må ikke smides ud.
+    minutes: 45
+    skills: [grammar, listening, vocabulary]
+    tags: [da.passive, da.modal-verbs]
+    objectives:
+      - Form the s-passive in the present and with modal verbs
+      - Understand and explain recycling rules and notices
+      - Talk about your own green habits
+    intro: |
+      Danish households sort their waste into many different bins, and the rules are written on every container: *Glas sorteres her. Batterier må ikke smides i skraldespanden.* These sentences use the **s-passive**, the short Danish passive that puts the focus on *what happens* rather than *who does it*. In this lesson you'll hear a new tenant learn the recycling rules in his building.
+    vocab: |
+      sortere | to sort | v | Vi sorterer vores affald i ti dele. | We sort our waste into ten parts. | n: Passive: sorteres. Past: sorterede.
+      affald | waste; rubbish | n | Hvor meget affald smider en familie ud om ugen? | How much waste does a family throw away a week? | g: n | n: No plural. Madaffald = food waste; restaffald = residual waste.
+      genbruge | to recycle; to reuse | v | Glasset kan genbruges mange gange. | The glass can be recycled many times. | n: Past: genbrugte. En genbrugsstation = a recycling centre.
+      smide ud | to throw away | v | Vi smider alt for meget mad ud. | We throw away far too much food. | n: Irregular: smed ud, har smidt ud. Passive: smides ud.
+      aflevere | to hand in; to return | v | Pantflasker afleveres i supermarkedet. | Deposit bottles are returned at the supermarket. | n: Past: afleverede.
+      en pant | a deposit (on bottles and cans) | n | Der er pant på dåsen. | There's a deposit on the can. | g: c | c: en pantflaske; en pantautomat (a bottle-return machine)
+      en container | a (large) bin; a container | n | Plastik kommer i den gule container. | Plastic goes in the yellow bin. | g: c | pl: containere | n: Pronounced "kon-TEJ-ner".
+      et låg | a lid | n | Husk at tage låget af glasset. | Remember to take the lid off the jar. | g: n | pl: låg
+      ren | clean | adj | Kun rene bakker kan genbruges. | Only clean trays can be recycled. | n: With et-words: rent; plural and definite: rene.
+      spare på | to save (on) | expr | Vi sparer på varmen om vinteren. | We save on heating in winter. | n: Spare penge = save money.
+      bæredygtig | sustainable | adj | Vi prøver at leve mere bæredygtigt. | We try to live more sustainably. | n: As an adverb: bæredygtigt. Noun: bæredygtighed.
+      hente | to collect; to fetch | v | Skraldet hentes hver tirsdag. | The rubbish is collected every Tuesday. | n: Past: hentede.
+    grammar:
+      title: "The s-passive: sorteres, kan genbruges"
+      body: |
+        In a passive sentence the focus is on **what happens**, not on who does it. Danish has a very short passive: add **-s** to the verb.
+
+        - **Present:** infinitive + s: *sortere → **sorteres***, *bruge → **bruges***, *hente → **hentes***. Compare: *Vi sorterer glas* (active) → *Glas **sorteres*** (passive: glass is sorted).
+        - **With a modal verb:** modal + infinitive + s: ***skal sorteres*** (must be sorted), ***kan genbruges*** (can be recycled), ***må ikke smides ud*** (must not be thrown away).
+
+        The s-passive is typical of **rules, instructions, signs and general processes**: *Glas og metal sorteres i den grønne container. Batterier må ikke smides i skraldespanden.*
+
+        To say who does it, add **af**: *Containerne tømmes **af** kommunen hver tirsdag.* Usually, though, the doer isn't important.
+
+        **Word order.** The s-form is the verb, so ikke comes after it in a main clause, or after the modal: *Pap sorteres ikke som papir.* · *Batterier må ikke smides ud.*
+
+        Don't confuse the passive with the s-verbs you know from A2 (*synes, mødes, skændes*) — they end in -s but are not passive. In the past tense, Danish mostly uses *blev* + participle (*blev sorteret*); you'll learn that blive-passive at B2.
+      table: |
+        Active | s-passive | Meaning
+        Vi sorterer glas. | Glas sorteres. | Glass is sorted.
+        Man bruger flasken igen. | Flasken bruges igen. | The bottle is used again.
+        Du skal sortere madaffald. | Madaffald skal sorteres. | Food waste must be sorted.
+        Man kan genbruge tøjet. | Tøjet kan genbruges. | The clothes can be reused.
+        Du må ikke smide batterier ud. | Batterier må ikke smides ud. | Batteries must not be thrown away.
+      examples: |
+        Madaffald sorteres i de grønne poser. | Food waste is sorted into the green bags. | present s-passive
+        Flasker med pant kan afleveres i supermarkedet. | Bottles with a deposit can be returned at the supermarket. | modal + passive infinitive
+        Containerne tømmes af kommunen hver tirsdag. | The containers are emptied by the municipality every Tuesday. | af = by
+        Batterier må ikke smides i skraldespanden. | Batteries must not be thrown in the rubbish bin. | må ikke + passive
+      tip: "Look for the -s at the end of the verb on signs and notices: sorteres, afleveres, hentes. It tells you the rule, not who follows it."
+    dialogue:
+      title: I affaldsgården
+      setting: The waste area in the courtyard of an apartment block in Aarhus. Dario has just moved in, and he meets his neighbour Ingrid, who has lived there for thirty years.
+      speakers: D=Dario/m; I=Ingrid/f
+      lines: |
+        D: Undskyld, jeg er lige flyttet ind. Ved du, hvor pizzabakker skal smides ud? | Excuse me, I've just moved in. Do you know where pizza boxes should be thrown away?
+        I: Velkommen! Rene pizzabakker sorteres som pap, men fedtede bakker skal i restaffald. | Welcome! Clean pizza boxes are sorted as cardboard, but greasy ones go in the residual waste.
+        D: Okay. Og hvad med plastik? Der står ikke noget på den her container. | OK. And what about plastic? It doesn't say anything on this bin.
+        I: Plastik kommer i den gule container ved siden af. Låg skal tages af først. | Plastic goes in the yellow bin next to it. Lids must be taken off first.
+        D: Hvad med madaffald? Jeg har aldrig sorteret det før. | What about food waste? I've never sorted it before.
+        I: Det samles i de grønne poser, og de hentes hver anden uge. | It's collected in the green bags, and they're picked up every other week.
+        D: Smart. Kan gamle batterier og elpærer også afleveres her i gården? | Clever. Can old batteries and light bulbs be handed in here in the courtyard too?
+        I: Nej, de må ikke smides ud her. De skal afleveres på genbrugsstationen. | No, they mustn't be thrown away here. They have to be taken to the recycling centre.
+        D: Det lyder som meget arbejde. Gør folk virkelig alt det? | That sounds like a lot of work. Do people really do all that?
+        I: De fleste gør. Og pantflasker afleverer jeg i supermarkedet — det giver jo penge. | Most people do. And I take deposit bottles back to the supermarket — it gives you money, after all.
+        D: Godt tip. Hvad sker der egentlig med alt plastikket bagefter? | Good tip. What actually happens to all the plastic afterwards?
+        I: Det sendes til et anlæg, hvor det sorteres igen og laves til nye ting. | It's sent to a plant where it's sorted again and made into new things.
+    pronunciation:
+      title: "The passive ending -es: sorteres, genbruges"
+      body: |
+        The passive -s is added to the infinitive, so the -e stays and you hear a weak "-əs": *sortere → sorteres* ("sor-TE-res"), *hente → hentes* ("HEN-tes"). The stress doesn't move.
+
+        In *genbruges* the g in *-bruge* is silent: "GEN-bru-es". In *afleveres*, *af-* sounds like "ow": "OW-le-ve-res". Say each word slowly, then the whole sentence quickly — the -es ending must still be heard, or the sentence turns active.
+      items: |
+        sorteres
+        genbruges
+        afleveres
+        smides ud
+        Glas og metal sorteres sammen.
+    culture:
+      title: Sorting waste and the bottle deposit
+      body: |
+        Danish households sort their waste into around ten types (**fraktioner**): food waste, paper, cardboard, glass, metal, plastic, food and drink cartons, textiles, hazardous waste and residual waste. The exact bins and colours differ from one municipality to another, so the stickers on the containers are worth reading.
+
+        Most bottles and cans have a **pant** (deposit). You get the money back at a bottle-return machine in the supermarket. Large items, old electronics and batteries go to the local **genbrugsstation** — and many towns have a small shop there where you can take home useful things others have left.
+    mistakes: |
+      Glas sorterer i den grønne container. => Glas sorteres i den grønne container. | The glass doesn't sort anything — it is sorted: use the passive -s.
+      Batterier må smides ikke ud her. => Batterier må ikke smides ud her. | Ikke comes straight after the modal verb.
+      Flasken kan genbrugs. => Flasken kan genbruges. | The passive keeps the -e of the infinitive: genbruge + s = genbruges.
+    task:
+      title: The rules in your building
+      mode: writing
+      body: |
+        Write a short, friendly notice for the stairwell of your building (5–6 sentences) about how waste is sorted: what goes where, what must not be thrown in the bins, and when things are collected. Use the s-passive at least four times, with and without skal, kan and må ikke. Then explain the rules aloud, as if to a new neighbour.
+    exercises: |
+      fill: Aviser og reklamer ___ i papircontaineren. (samle — passive) || samles || Present s-passive: samle + s = samles (are collected). || @tags da.passive
+      fill: Madaffald skal ___ i de grønne poser. (lægge — passive) || lægges || Modal + passive infinitive: skal lægges (must be put). || @tags da.passive,da.modal-verbs
+      mc: "Containerne tømmes hver tirsdag." What does it mean? || *The containers are emptied every Tuesday | The containers empty every Tuesday | Empty the containers every Tuesday! || Tømmes is passive: the containers are emptied (by someone). || @tags da.passive
+      mc: Which sentence is correct? || *Batterier må ikke smides ud her. | Batterier må smides ikke ud her. | Batterier må ikke smider ud her. || Ikke goes after the modal, and the modal is followed by the passive infinitive smides. || @tags da.passive,da.negation
+      mc: Which sentence is passive? || *Flaskerne afleveres i supermarkedet. | Vi mødes i supermarkedet. | Hun synes om supermarkedet. || Afleveres is passive (the bottles are returned). Mødes and synes are s-verbs, not passives. || @tags da.passive,da.s-verbs
+      tf: Greasy pizza boxes are sorted as cardboard. || false || Only clean ones: "Rene pizzabakker sorteres som pap, men fedtede bakker skal i restaffald." || @ctx dialogue
+      short: Where must old batteries be taken? || kw: genbrugsstation/genbrugsstationen/recycling || "De skal afleveres på genbrugsstationen" — the recycling centre. || @ctx dialogue
+      listen: @dialogue || What happens to the plastic afterwards? || *It is sorted again and made into new things | It is burned for heating | It is buried || "Det sendes til et anlæg, hvor det sorteres igen og laves til nye ting." || @tags da.listening
+      listen: I vores opgang skal alt affald sorteres. Papir og pap samles i kælderen, og glas afleveres i containeren ved parkeringspladsen. || Where do people take glass? || *To the container by the car park | To the basement | To the supermarket || "Glas afleveres i containeren ved parkeringspladsen." || @tags da.listening,da.passive
+      rw: Make it passive :: Man sorterer plastik i den gule container. || Plastik sorteres i den gule container. || Man sorterer → sorteres; the object (plastik) becomes the subject. || @tags da.passive
+      rw: Make it passive :: Du kan genbruge tøjet. || Tøjet kan genbruges. || Modal + passive infinitive: kan genbruges. || @tags da.passive,da.modal-verbs
+      tr: Bottles with a deposit can be returned at the supermarket. || Flasker med pant kan afleveres i supermarkedet. | Pantflasker kan afleveres i supermarkedet. | Flasker med pant kan leveres tilbage i supermarkedet. || Can be returned = kan afleveres: modal + passive infinitive. || @tags da.passive
+      ask: A new neighbour asks how waste is sorted in your building. Explain three rules with the s-passive. || kw: sorteres/afleveres/smides/samles/hentes/genbruges/lægges || Hos os sorteres madaffald i de grønne poser. Glas og metal afleveres i containeren i gården, og batterier må ikke smides i skraldespanden.
+      write: Write a short notice (4–6 sentences) for the stairwell of your building about new waste rules. || min=40 || req: sorteres/afleveres/smides/samles/hentes/lægges | skal/kan/må | ikke || Kære naboer! Fra den 1. marts skal madaffald sorteres i de nye grønne poser. Poserne hentes hver anden mandag. Pap og papir afleveres stadig i kælderen. Husk, at elektronik og batterier ikke må smides i containerne. De kan afleveres på genbrugsstationen. Venlig hilsen bestyrelsen
+      dict: Gamle batterier må ikke smides i skraldespanden.
+
+  - title: Proposing solutions
+    summary: Read a letter to a local newspaper and make proposals for your own area with foreslå, at…, man kunne… and der + passive.
+    minutes: 45
+    skills: [reading, writing, grammar]
+    tags: [da.passive, da.modal-verbs, da.subordinate-clauses]
+    objectives:
+      - Make proposals with foreslå, at… and hvad med at…?
+      - Use man + modal and der + passive when the doer isn't important
+      - Structure an argument with for det første, for det andet…
+    intro: |
+      Danes like to get involved locally: in residents' associations, at public meetings and in letters to the local newspaper. A good proposal names the problem, offers concrete solutions and sounds constructive. In this lesson you'll read a letter about making a street greener and learn the phrases you need: **Vi foreslår, at…**, **Man kunne…** and **Der bør plantes flere træer.**
+    vocab: |
+      foreslå | to propose; to suggest | v | Jeg foreslår, at vi mødes på torsdag. | I suggest that we meet on Thursday. | n: Irregular: foreslog, har foreslået. Often followed by at + clause.
+      en løsning | a solution | n | Vi skal finde en løsning sammen. | We have to find a solution together. | g: c | pl: løsninger
+      en beboer | a resident | n | Alle beboere er inviteret til mødet. | All residents are invited to the meeting. | g: c | pl: beboere | c: en beboerforening (a residents' association)
+      kommunen | the municipality; the local council | n | Kommunen har lovet en ny cykelsti. | The council has promised a new cycle path. | g: c | pl: kommuner | n: Denmark has 98 municipalities.
+      plante | to plant | v | Der bør plantes flere træer i byen. | More trees should be planted in the town. | n: Past: plantede.
+      en skygge | a shade; a shadow | n | Træerne giver skygge om sommeren. | The trees give shade in summer. | g: c | pl: skygger
+      frivillig | voluntary; a volunteer | adj | Hun arbejder som frivillig i en genbrugsbutik. | She works as a volunteer in a second-hand shop. | n: Also a noun: en frivillig, plural frivillige.
+      reparere | to repair | v | Her kan du få repareret din cykel gratis. | Here you can get your bike repaired for free. | n: Past: reparerede.
+      for det første | firstly | expr | For det første er det billigt. | Firstly, it's cheap. | n: Then for det andet, for det tredje. The verb comes next.
+      tom | empty | adj | Den gamle butik har stået tom i et år. | The old shop has stood empty for a year. | n: With et-words: tomt; plural and definite: tomme.
+      et løft | a lift; a boost | n | Gaden trænger til et grønt løft. | The street needs a green boost. | g: n | pl: løft
+      hvad med at…? | how about…? | expr | Hvad med at holde et loppemarked? | How about holding a flea market? | n: Followed by the infinitive.
+    grammar:
+      title: "Proposals: foreslå, at…, man kunne… and der + passive"
+      body: |
+        When you propose a change for your street, school or town, you often talk about **what should be done**, not about who should do it. Three tools help:
+
+        **1. Man + modal verb.** *Man kunne plante flere træer.* · *Man burde lukke gaden for biler.* With kunne and burde, the proposal sounds polite and open (unit 3).
+
+        **2. Der + s-passive.** When there is no natural subject, **der** fills the subject position, and the passive verb follows: *Der **bruges** alt for meget plastik* (too much plastic is used). With a modal: *Der **bør plantes** flere træer.* · *Der **skal laves** en ny cykelsti.* After a first element, der comes after the verb: *For det andet **bør der** plantes træer.*
+
+        **3. Foreslå, at…** (propose that) + a subordinate clause: *Vi foreslår, at kommunen **laver** en ny legeplads.* Ikke goes before the verb: *Jeg foreslår, at vi **ikke bruger** engangsservice.* In speech, *Hvad med at…?* + infinitive is a friendly alternative: *Hvad med at starte en byttecentral?*
+
+        **Structure** your proposal with *for det første, for det andet, for det tredje* — each one is followed by the verb (V2).
+      table: |
+        Tool | Example | Meaning
+        man + modal | Man kunne lave en fælleshave. | We could make a shared garden.
+        der + passive | Der bruges for meget plastik. | Too much plastic is used.
+        der + modal + passive | Der bør plantes flere træer. | More trees should be planted.
+        foreslå, at | Vi foreslår, at gaden lukkes for biler. | We propose that the street is closed to cars.
+        hvad med at…? | Hvad med at holde et loppemarked? | How about holding a flea market?
+      examples: |
+        Der smides alt for meget mad ud i Danmark. | Far too much food is thrown away in Denmark. | der + s-passive
+        Der bør laves flere cykelstier i byen. | More cycle paths should be made in the town. | der + modal + passive
+        Vi foreslår, at den gamle parkeringsplads bliver til en park. | We propose that the old car park becomes a park. | foreslå, at + subordinate clause
+        Man kunne starte en reparationscafé på biblioteket. | You could start a repair café at the library. | man + kunne
+      tip: "Name the problem in one sentence, then give two or three solutions with for det første, for det andet. Short and concrete works best in Danish."
+    reading:
+      title: "Læserbrev: Giv Torvegade et grønt løft"
+      text: |
+        Læserbrev: Giv Torvegade et grønt løft
+
+        Jeg har boet på Torvegade i Viborg i tolv år, og jeg holder meget af vores lille gade. Men den har et problem: Der er næsten ingen træer, og den gamle parkeringsplads midt i gaden står tom det meste af dagen. Om sommeren bliver det meget varmt, og når det regner kraftigt, løber vandet ned i kældrene.
+
+        Derfor har vi i beboerforeningen tre forslag.
+
+        For det første foreslår vi, at parkeringspladsen bliver til en lille park med bænke, træer og blomster. I dag bruges kun omkring ti pladser om dagen, og bilerne kan parkere i p-huset 200 meter væk.
+
+        For det andet bør der plantes træer langs hele gaden. Træer giver skygge, og de kan opsuge en del af regnvandet.
+
+        For det tredje kunne man starte en reparationscafé i det tomme butikslokale på hjørnet. Her kan gamle cykler, lamper og tøj repareres i stedet for at ende i skraldespanden.
+
+        Vi ved godt, at det koster penge. Men mange beboere har allerede sagt, at de gerne vil hjælpe som frivillige. Vi håber, at kommunen vil se på forslagene til foråret.
+
+        Hanne Vestergaard, formand for Beboerforeningen Torvegade
+      translation: |
+        Letter to the editor: Give Torvegade a green boost
+
+        I have lived on Torvegade in Viborg for twelve years, and I'm very fond of our little street. But it has a problem: there are almost no trees, and the old car park in the middle of the street stands empty most of the day. In summer it gets very hot, and when it rains heavily, the water runs down into the basements.
+
+        That's why we in the residents' association have three proposals.
+
+        Firstly, we propose that the car park becomes a small park with benches, trees and flowers. Today only about ten spaces are used a day, and the cars can park in the multi-storey car park 200 metres away.
+
+        Secondly, trees should be planted along the whole street. Trees give shade, and they can soak up some of the rainwater.
+
+        Thirdly, a repair café could be started in the empty shop on the corner. Here old bikes, lamps and clothes can be repaired instead of ending up in the bin.
+
+        We know that it costs money. But many residents have already said that they would like to help as volunteers. We hope that the municipality will look at the proposals this spring.
+
+        Hanne Vestergaard, chair of the Torvegade Residents' Association
+    pronunciation:
+      title: "The weak -e in den gamle, det tomme"
+      body: |
+        The -e ending of definite adjectives is weak — a short, relaxed vowel — but it must be heard: *den gamle* is "den GAM-le", not "den gam". Without it, the phrase sounds wrong to Danish ears.
+
+        After a short vowel the consonant is doubled in writing — *tom → tomme*, *grøn → grønne* — but you say it only once and keep the vowel short: "TOM-me". *Lille* also ends in a weak e: "LIL-le". Listen and repeat the phrases, then the sentence.
+      items: |
+        den gamle parkeringsplads
+        det tomme butikslokale
+        de små gader
+        den grønne park
+        Vi foreslår, at den gamle parkeringsplads bliver til en park.
+    culture:
+      title: Getting involved locally
+      body: |
+        Denmark has 98 municipalities (**kommuner**), and they decide many things that affect daily life: schools, roads, parks and waste collection. Residents can take part in public meetings (*borgermøder*), send proposals by email, or write a **læserbrev** (letter to the editor) to the local newspaper — one of the most-read sections in many local papers.
+
+        Voluntary work is a big part of Danish life: around four in ten adults do some kind of unpaid work for a club, an association or their local area. Repair cafés, shared gardens and swap boxes for books and clothes have popped up in many towns.
+    mistakes: |
+      Der plantes skal flere træer. => Der skal plantes flere træer. | The modal comes first, then the passive infinitive.
+      Vi foreslår, at vi bruger ikke engangsservice. => Vi foreslår, at vi ikke bruger engangsservice. | The at-clause is a subordinate clause, so ikke goes before the verb.
+      For det første det er billigt. => For det første er det billigt. | For det første is the first element, so the verb comes next (V2).
+    task:
+      title: A proposal for your area
+      mode: writing
+      body: |
+        Think of a problem where you live — too much traffic, no place for young people, an empty building, litter in the park. Write a short letter to the editor (6–8 sentences): describe the problem, then give two or three proposals with for det første / for det andet, foreslå, at…, man kunne… and der + passive. Read it aloud afterwards and check the word order after each first element.
+    exercises: |
+      fill: Der ___ alt for meget mad ud i Danmark. (smide — passive) || smides || Der + present s-passive: der smides (is thrown away). || @tags da.passive
+      fill: Der bør ___ flere træer i byen. (plante — passive) || plantes || Modal + passive infinitive: bør plantes (should be planted). || @tags da.passive,da.modal-verbs
+      mc: "Der bruges for meget plastik." What does it mean? || *Too much plastic is used | Plastic is too expensive | Plastic is used too little || Der + passive: too much plastic is used — the sentence doesn't say by whom. || @tags da.passive
+      mc: Which sentence is correct? || *Vi foreslår, at man ikke bruger engangsservice. | Vi foreslår, at man bruger ikke engangsservice. | Vi foreslår, man at ikke bruger engangsservice. || In the at-clause: subject + ikke + verb. || @tags da.subordinate-clauses,da.negation
+      mc: Which sentence is correct? || *For det andet bør der plantes træer. | For det andet der bør plantes træer. | For det andet bør plantes der træer. || For det andet takes first place, so the modal comes next, then der, then the passive infinitive. || @tags da.passive,da.word-order
+      tf: The car park on Torvegade is full most of the day. || false || It "står tom det meste af dagen" — it stands empty most of the day. || @ctx reading
+      mc: What does the association want in the empty shop on the corner? || *A repair café | A new supermarket | A bike shop || "For det tredje kunne man starte en reparationscafé i det tomme butikslokale på hjørnet." || @ctx reading @skill reading @tags da.reading
+      short: Give one reason why the association wants more trees. || kw: skygge/shade/regnvand/vandet/water/rain/varmt/hot || Trees give shade and can soak up some of the rainwater. || @ctx reading
+      listen: Jeg foreslår, at vi holder et loppemarked i gården i maj. Pengene kan bruges til nye bænke og en grill til alle beboerne. || What would the money be used for? || *New benches and a barbecue | A new playground | Trees for the street || "Pengene kan bruges til nye bænke og en grill." || @tags da.listening,da.passive
+      rw: Rewrite with der and the passive :: Man bruger for meget vand. || Der bruges for meget vand. || Man bruger → der bruges: der fills the subject position. || @tags da.passive
+      rw: Make it a proposal with foreslå :: Kommunen skal lave flere cykelstier. → Vi foreslår, at … || Vi foreslår, at kommunen laver flere cykelstier. || After foreslå, at the verb is usually in the present: at kommunen laver. || @tags da.subordinate-clauses
+      tr: More cycle paths should be made in the town. || Der bør laves flere cykelstier i byen. | Der skal laves flere cykelstier i byen. | Der burde laves flere cykelstier i byen. | Man bør lave flere cykelstier i byen. | Man burde lave flere cykelstier i byen. || Der + modal + passive infinitive, or man + modal + infinitive. || @tags da.passive,da.modal-verbs
+      ask: At a residents' meeting, propose two things that could make your street greener. || kw: foreslår/kunne/bør/burde/hvad med at || Jeg foreslår, at vi laver en fælleshave i gården. Der kunne også plantes træer foran huset. Og hvad med at sætte en byttekasse op til bøger?
+      write: Write a short letter to the editor (6–8 sentences) proposing solutions to a problem in your area. || min=60 || req: foreslå/foreslår | der | for det første/for det andet | kunne/bør/burde || Læserbrev: Mere liv i den gamle stationsbygning. Den gamle stationsbygning i vores by har stået tom i tre år. Det er synd, for den ligger midt i byen. For det første foreslår jeg, at der laves et værested for unge i stueetagen. For det andet kunne man åbne en lille café, som drives af frivillige. Der bør også plantes træer på pladsen foran bygningen. Jeg håber, at kommunen vil lytte. Mange hilsner Omar Said
+      dict: For det første bør der plantes flere træer langs gaden.

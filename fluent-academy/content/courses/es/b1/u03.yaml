@@ -1,0 +1,350 @@
+unit: 3
+title: Educación y aprendizaje
+theme: Education and learning
+description: Compare school then and now, talk about how people learn languages, and give advice — with the present subjunctive for wishes, requests and recommendations, and the negative imperative.
+objectives:
+  - Form the present subjunctive and use it after querer que, esperar que and ojalá
+  - Ask and offer things with pedir que, necesitar que and ¿quieres que…?
+  - Give advice with te recomiendo que, es mejor que and the negative imperative
+canDo:
+  - I can compare my school years with the education system today.
+  - I can say what I want or hope other people will do.
+  - I can talk about how I learn languages and what I find difficult.
+  - I can give someone practical advice, including what not to do.
+review: |
+  fill: Ojalá ___ (aprobar, tú) todas las asignaturas este año. || apruebes || Ojalá is always followed by the subjunctive. Aprobar changes o → ue: apruebes. || @tags es.subjunctive
+  fill: Mis padres quieren que ___ (hacer, yo) una carrera de ciencias. || haga || Querer que + another person takes the subjunctive. Hacer → hago → haga. || @tags es.subjunctive,es.subjunctive-triggers
+  mc: Choose the correct sentence. || Espero que vienes a mi graduación. | *Espero que vengas a mi graduación. | Espero venir tú a mi graduación. || Esperar que + another person takes the subjunctive: vengas. || @tags es.subjunctive-triggers
+  fill: La profesora nos pide que ___ (llegar, nosotros) puntuales. || lleguemos || Pedir que + subjunctive. Llegar adds a u to keep the hard g: lleguemos. || @tags es.subjunctive,es.spelling
+  mc: You want to pass the exam yourself. You say: || Quiero que apruebe el examen. | *Quiero aprobar el examen. | Quiero que apruebo el examen. || When the subject is the same, use the infinitive, without que. || @tags es.subjunctive-triggers
+  rw: Turn it into a negative command :: Sal esta noche. || No salgas esta noche. || The negative tú command uses the subjunctive: salgo → salga → no salgas. || @tags es.imperative
+  tr: I recommend that you watch series in Spanish. || Te recomiendo que veas series en español. | Os recomiendo que veáis series en español. | Le recomiendo que vea series en español. || Recomendar que + subjunctive: veas (tú), veáis (vosotros), vea (usted). || @tags es.subjunctive-triggers
+  listen: Quiero que mis alumnos pierdan el miedo a equivocarse, porque los errores son parte del aprendizaje. || What does the teacher want? || *Her students to stop being afraid of mistakes | Her students to make fewer mistakes | Her students to study more grammar || «Quiero que pierdan el miedo a equivocarse» — to lose their fear of making mistakes. || @tags es.listening,es.subjunctive
+  listen: En España la ESO es obligatoria hasta los dieciséis años. Después, los alumnos eligen entre el Bachillerato y la FP. || Until what age is school compulsory in Spain? || 14 | *16 | 18 || «La ESO es obligatoria hasta los dieciséis años.» || @tags es.listening
+  ask: A friend has just started learning Spanish. Give her three pieces of advice, including one thing she shouldn't do. || kw: recomiendo/aconsejo/mejor que/importante que & no || Te recomiendo que veas series con subtítulos en español y que vayas a un intercambio. Es importante que hables desde el primer día. Y no tengas miedo a equivocarte.
+  write: Write about your school memories (60–80 words) and add two wishes for students today. || min=50 || req: era/había/teníamos/estudiaba/iba/íbamos | espero que/ojalá/quiero que || Mi colegio era pequeño y estaba cerca de casa. Éramos veinte en clase y teníamos una profesora de inglés muy divertida que nos enseñaba canciones. No me gustaban las matemáticas, pero me encantaba el recreo. Hoy los colegios tienen más tecnología, pero espero que los alumnos lean más libros en papel. Y ojalá tengan profesores tan cercanos como los míos.
+lessons:
+  - title: School memories and systems
+    summary: Compare school life in the past with the education system today, and express wishes for the future with the present subjunctive.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [es.subjunctive, es.subjunctive-triggers]
+    objectives:
+      - Describe your school memories and the Spanish education system
+      - Form the present subjunctive of regular and common irregular verbs
+      - Express wishes for other people with querer que, esperar que and ojalá
+    intro: |
+      Talking about school combines the imperfect you know (*éramos cuarenta en clase*) with something new: hopes for the next generation. *I want my daughter to enjoy learning* needs a new mood in Spanish — the **present subjunctive**: *Quiero que mi hija **disfrute** aprendiendo.* It is one of the big steps of B1, and you will use it all through this unit.
+    vocab: |
+      el colegio | (primary) school | n | Mi colegio estaba a cinco minutos de casa. | My school was five minutes from home. | g: m | n: Público, concertado (state-funded private) or privado.
+      el instituto | secondary school | n | En el instituto tuve una profesora de Historia increíble. | At secondary school I had an amazing History teacher. | g: m | n: In Latin America: el colegio, el liceo or la secundaria.
+      la asignatura | (school) subject | n | Mi asignatura favorita era la Biología. | My favourite subject was Biology. | g: f | n: Latin America: la materia.
+      aprobar | to pass (an exam, a subject) | v | Aprobé todas las asignaturas en junio. | I passed all my subjects in June. | n: o → ue: apruebo, aprueba.
+      suspender | to fail (an exam, a subject) | v | Suspendí Química y tuve que repetir el examen en septiembre. | I failed Chemistry and had to retake the exam in September. | n: Latin America: reprobar.
+      la nota | mark; grade | n | Sacó muy buenas notas en el último curso. | She got very good marks in the final year. | g: f | c: sacar buena nota; la nota media
+      el recreo | break; playtime | n | En el recreo jugábamos al fútbol en el patio. | At break we played football in the playground. | g: m
+      aprender de memoria | to learn by heart | expr | Aprendíamos de memoria los ríos de España. | We learnt the rivers of Spain by heart. | n: Also memorizar.
+      el curso | school year; course | n | Mi hija está en tercer curso de la ESO. | My daughter is in the third year of ESO. | g: m | n: El curso escolar runs from September to June.
+      repetir curso | to repeat a year | expr | Repitió curso en segundo de la ESO. | He repeated the second year of ESO.
+      obligatorio | compulsory | adj | La educación es obligatoria hasta los dieciséis años. | Education is compulsory until the age of sixteen.
+      equivocarse | to make a mistake; to be wrong | v | No pasa nada si te equivocas. | It doesn't matter if you make a mistake.
+    grammar:
+      title: "The present subjunctive: forms and wishes"
+      body: |
+        To form the present subjunctive, take the **yo** form of the present, drop the **-o** and add the "opposite" vowel: **-ar → -e**, **-er / -ir → -a**.
+        *hablo → hable, hables, hable, hablemos, habléis, hablen*; *como → coma*; *vivo → viva*.
+
+        Because it starts from the yo form, irregular yo forms carry over: *tengo → **tenga***, *hago → **haga***, *salgo → **salga***, *conozco → **conozca***, *digo → **diga***. Stem-changing verbs change in the same persons as in the present: *pueda, puedas… but podamos, podáis*. Six verbs are completely irregular: **ser → sea, estar → esté, ir → vaya, saber → sepa, dar → dé, haber → haya**.
+
+        Use the subjunctive to express a **wish about someone else**: *quiero que…, espero que…*, and always after **ojalá** (I really hope / if only). If the subject is the same, use the infinitive instead: *Quiero aprobar* (I want to pass) / *Quiero **que apruebes*** (I want you to pass).
+      table: |
+        Infinitive | Present (yo) | Subjunctive (yo / él) | nosotros
+        hablar | hablo | hable | hablemos
+        comer | como | coma | comamos
+        vivir | vivo | viva | vivamos
+        tener | tengo | tenga | tengamos
+        poder | puedo | pueda | podamos
+        ser | soy | sea | seamos
+        ir | voy | vaya | vayamos
+      examples: |
+        Quiero que mi hija disfrute del instituto. | I want my daughter to enjoy secondary school. | different subjects
+        Espero que tengáis un buen curso. | I hope you all have a good school year. | tener → tengáis
+        Ojalá aprueben todos el examen. | I really hope they all pass the exam. | ojalá + subjunctive
+        Quiero estudiar Medicina, y mis padres quieren que estudie Derecho. | I want to study Medicine, and my parents want me to study Law. | same subject: infinitive
+      tip: "Think of the subjunctive endings as 'swapped': -ar verbs take e (hable) and -er/-ir verbs take a (coma, viva)."
+    reading:
+      title: De la EGB a la ESO
+      text: |
+        Cuando yo era pequeña, en los años ochenta, el sistema educativo era diferente. Estudiábamos la EGB desde los seis hasta los catorce años, y luego hacíamos el BUP y el COU antes de la selectividad. En mi colegio éramos casi cuarenta alumnos por clase, nos sentábamos en filas y casi nunca trabajábamos en grupo. Recuerdo que aprendíamos de memoria los ríos de España y las tablas de multiplicar, cantando.
+
+        Hoy mi hija Lucía tiene catorce años y está en tercero de la ESO, la Educación Secundaria Obligatoria, que va de los doce a los dieciséis. Después podrá elegir entre el Bachillerato y la Formación Profesional. En su clase son veinticinco, hacen muchos proyectos en equipo y usan el ordenador a diario. A veces echo de menos la disciplina de mi época, pero reconozco que ella aprende a pensar, no solo a memorizar.
+
+        ¿Qué quiero para su futuro? Sobre todo, quiero que disfrute aprendiendo y que no tenga miedo a equivocarse. Espero que sus profesores la animen tanto como ahora y que el instituto le dé herramientas para la vida real. Y, sobre todo, ojalá sea feliz.
+
+        Pilar, 50 años, Albacete
+      translation: |
+        When I was little, in the eighties, the education system was different. We did EGB from six to fourteen, and then we did BUP and COU before the university entrance exam. At my school there were almost forty pupils per class, we sat in rows and we hardly ever worked in groups. I remember that we learnt the rivers of Spain and the times tables by heart, singing.
+
+        Today my daughter Lucía is fourteen and she's in the third year of ESO, Compulsory Secondary Education, which goes from twelve to sixteen. Afterwards she'll be able to choose between the Bachillerato and Vocational Training. There are twenty-five in her class, they do a lot of group projects and they use the computer every day. Sometimes I miss the discipline of my time, but I admit that she is learning to think, not just to memorise.
+
+        What do I want for her future? Above all, I want her to enjoy learning and not to be afraid of making mistakes. I hope her teachers keep encouraging her as much as they do now and that her school gives her tools for real life. And, above all, I hope she is happy.
+
+        Pilar, 50, Albacete
+    pronunciation:
+      title: "Acronyms: la ESO, la EGB, la FP"
+      body: |
+        Spanish education is full of acronyms. Some are read as a word when the letters allow it: **la ESO** [ˈeso], **el BUP** [bup], **el COU** [kou]. Others are spelt letter by letter: **la EGB** (e-ge-be), **la FP** (efe-pe). Notice the article: it agrees with the full name — *la* Educación Secundaria Obligatoria, *la* Formación Profesional.
+      items: |
+        la ESO
+        la EGB
+        el BUP
+        la FP
+        la selectividad
+        el Bachillerato
+    culture:
+      title: The Spanish school system
+      body: |
+        In Spain, children usually start **Educación Infantil** at three (it is optional but almost universal), then do **Primaria** from six to twelve and the compulsory **ESO** from twelve to sixteen. After that, students choose a two-year **Bachillerato**, which leads to the university entrance exam — still popularly called **la selectividad**, although its official name varies by region — or **Formación Profesional**.
+
+        Marks go from 0 to 10, and a 5 is a pass (*un aprobado*). There are three types of school: public (*público*), state-funded private (*concertado*, often religious) and fully private (*privado*).
+    mistakes: |
+      Quiero que tú vienes a mi graduación. => Quiero que vengas a mi graduación. | Querer que + another person takes the subjunctive.
+      Espero que aprobar el examen. => Espero aprobar el examen. | Same subject: use the infinitive, with no que.
+      Ojalá tienes suerte. => Ojalá tengas suerte. | Ojalá is always followed by the subjunctive.
+    task:
+      title: Then and now
+      mode: writing
+      body: |
+        Write a short text (90–120 words) for a Spanish blog about education: describe your school (size, subjects, teachers, what you did at break), compare it with schools today, and finish with three wishes for students now, using *quiero que*, *espero que* and *ojalá*.
+    exercises: |
+      mc: How many pupils were there in Pilar's class? || About twenty-five | *Almost forty | Fourteen || «Éramos casi cuarenta alumnos por clase.» Twenty-five is the number in Lucía's class. || @ctx reading @tags es.reading
+      tf: Pilar thinks her daughter only learns to memorise. || false || «Reconozco que ella aprende a pensar, no solo a memorizar.» || @ctx reading @tags es.reading
+      short: What two options will Lucía have after ESO? || kw: Bachillerato & FP/Formación Profesional/vocational/training || «Podrá elegir entre el Bachillerato y la Formación Profesional.» || @ctx reading @tags es.reading
+      fill: Quiero que mis hijos ___ (aprender) otro idioma desde pequeños. || aprendan || Querer que + subjunctive. -er verbs take -a: aprendan. || @tags es.subjunctive
+      fill: Espero que ___ (tener, vosotros) un curso estupendo. || tengáis || Tener → tengo → tenga; vosotros: tengáis. || @tags es.subjunctive
+      fill: Ojalá mañana no ___ (haber) examen sorpresa. || haya || Haber is fully irregular in the subjunctive: haya. || @tags es.subjunctive
+      fill: Mis padres quieren que ___ (ir, yo) a la universidad en mi ciudad. || vaya || Ir is fully irregular: vaya. || @tags es.subjunctive
+      mc: Choose the correct sentence. || Espero que aprobar el examen. | *Espero aprobar el examen. | Espero que apruebo el examen. || The speaker is the one who wants to pass, so use the infinitive. || @tags es.subjunctive-triggers
+      mc: Your friend says «He suspendido Química». He… || passed chemistry. | *failed chemistry. | dropped chemistry. || Suspender = to fail an exam or a subject; aprobar = to pass. || @skill vocabulary @tags es.vocabulary
+      rw: Express it as a wish, starting with "Quiero que…" :: Mi hermano estudia más. || Quiero que mi hermano estudie más. || Querer que + subjunctive: estudia → estudie. || @tags es.subjunctive
+      tr: I hope you pass all your subjects. || Espero que apruebes todas las asignaturas. | Espero que apruebes todas tus asignaturas. | Ojalá apruebes todas las asignaturas. | Espero que aprobéis todas las asignaturas. | Espero que apruebe todas las asignaturas. || Esperar que + subjunctive: apruebes (tú), aprobéis (vosotros), apruebe (usted). || @tags es.subjunctive
+      listen: En mi colegio no había comedor, así que volvíamos a casa a comer y por la tarde teníamos clase otra vez. || What did the speaker do at lunchtime? || Ate in the school canteen | *Went home to eat | Ate in the playground || «No había comedor, así que volvíamos a casa a comer.» || @tags es.listening
+      dict: Ojalá mi hija disfrute del instituto tanto como yo.
+      say: Espero que tengáis un curso estupendo. || I hope you all have a great school year.
+
+  - title: How we learn languages
+    summary: Talk about language-learning habits and difficulties, and ask or offer things with querer que, pedir que and ¿quieres que…? + subjunctive.
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [es.subjunctive, es.subjunctive-triggers]
+    objectives:
+      - Talk about how you learn languages and what you find difficult
+      - Use querer que, pedir que, necesitar que and preferir que + subjunctive
+      - Offer help with ¿quieres que…? and use irregular and spelling-change subjunctives
+    intro: |
+      Everyone learns languages differently: apps, series, classes, exchanges in a bar. In this lesson a teacher and her students talk about what works for them — and the teacher tells them what she **wants them to do**. Requests and offers like *Os pido que veáis una serie* or *¿Quieres que te acompañe?* all need the subjunctive.
+    vocab: |
+      el intercambio de idiomas | language exchange | n | Los jueves voy a un intercambio de idiomas en un bar. | On Thursdays I go to a language exchange in a bar. | g: m
+      la lengua materna | mother tongue | n | Mi lengua materna es el árabe. | My mother tongue is Arabic. | g: f
+      el hablante nativo / la hablante nativa | native speaker | n | Practico con una hablante nativa de Bogotá. | I practise with a native speaker from Bogotá. | g: m/f
+      cometer errores | to make mistakes | expr | Todo el mundo comete errores al principio. | Everyone makes mistakes at the beginning.
+      me cuesta + infinitive | I find it hard to | expr | Me cuesta mucho entender a la gente por teléfono. | I find it very hard to understand people on the phone. | n: Works like gustar: me cuesta, te cuesta, le cuesta.
+      dar vergüenza | to feel embarrassed | expr | Me da vergüenza hablar delante de mucha gente. | I feel embarrassed speaking in front of lots of people. | n: Works like gustar. Perder la vergüenza = to lose your inhibitions.
+      soltarse | to loosen up; to become fluent | v | Después de un mes en Cádiz, por fin me solté. | After a month in Cádiz, I finally loosened up. | n: o → ue: me suelto.
+      la versión original | original version (not dubbed) | n | Veo las series en versión original con subtítulos. | I watch series in the original version with subtitles. | g: f | n: Often written VO; VOSE = original version with Spanish subtitles.
+      los subtítulos | subtitles | n | Al principio ponía los subtítulos en inglés. | At first I used to put the subtitles in English. | g: m | pl: subtítulos
+      el nivel | level | n | ¿Qué nivel de español tienes? | What level of Spanish do you have? | g: m
+      apuntarse a | to sign up for | v | Me he apuntado a un curso de alemán. | I've signed up for a German course.
+      dominar | to master; to be fluent in | v | Domina cuatro idiomas. | She's fluent in four languages.
+    grammar:
+      title: "Querer que, pedir que, necesitar que + subjunctive"
+      body: |
+        When you want, ask or need **someone else** to do something, Spanish uses a verb of influence + **que** + **subjunctive**: *querer que, preferir que, necesitar que, pedir que, permitir que, prohibir que*. *La profesora quiere que **hablemos** más.* With the same subject, use the infinitive: *Quiero hablar más.*
+
+        To **offer** help, use **¿Quieres que + subjunctive?**: *¿Quieres que te acompañe?* (Shall I come with you?)
+
+        Watch the spelling of verbs ending in **-car, -gar, -zar** and **-ger**: the consonant changes to keep the same sound before e or a.
+        - practicar → practi**que**
+        - llegar → lle**gue**
+        - empezar → empie**ce**
+        - coger → co**ja**
+
+        Stem-changing **-ir** verbs also change in the nosotros and vosotros forms: *pedir → pidamos*, *dormir → durmamos*, *preferir → prefiramos*.
+      table: |
+        Infinitive | Subjunctive | Why
+        ir | vaya | fully irregular
+        saber | sepa | fully irregular
+        hacer | haga | from yo hago
+        practicar | practique | c → qu
+        llegar | llegue | g → gu
+        empezar | empiece | e → ie and z → c
+      examples: |
+        Os pido que veáis una serie con subtítulos en español. | I'm asking you to watch a series with Spanish subtitles. | pedir que
+        Necesito que me expliques otra vez el subjuntivo. | I need you to explain the subjunctive to me again. | necesitar que
+        ¿Quieres que practiquemos juntos los martes? | Shall we practise together on Tuesdays? | offer; c → qu
+        Prefiero que me corrijas cuando me equivoco. | I'd rather you corrected me when I make a mistake. | corregir → corrija
+      tip: "¿Quieres que…? is the most natural way to offer help in Spanish: ¿Quieres que te ayude?, ¿Quieres que lo repita?"
+    dialogue:
+      title: Al final de la clase
+      setting: The last ten minutes of an evening Spanish class at a language school in Salamanca. Begoña, the teacher, asks Liam and Aisha how they study at home. Teacher and students use tú and vosotros.
+      speakers: B=Begoña/f; L=Liam/m; A=Aisha/f
+      lines: |
+        B: Bueno, antes de terminar, quiero que me digáis cómo estudiáis en casa. | Right, before we finish, I want you to tell me how you study at home.
+        L: Yo uso una aplicación todos los días, pero me cuesta mucho hablar. | I use an app every day, but I find speaking really hard.
+        A: Yo, al revés: hablo sin parar, pero cometo muchísimos errores. | Me, the other way round: I talk non-stop, but I make loads of mistakes.
+        B: Eso no es ningún problema, Aisha. Equivocarse es parte del aprendizaje. | That's not a problem at all, Aisha. Making mistakes is part of learning.
+        L: Ya, pero a mí me da mucha vergüenza hablar delante de gente. | Yes, but I feel really embarrassed speaking in front of people.
+        B: Lo entiendo, Liam. Por eso quiero que esta semana vayas a un intercambio. | I understand, Liam. That's why I want you to go to a language exchange this week.
+        L: ¿Un intercambio de idiomas? ¿Y qué tengo que hacer exactamente? | A language exchange? And what exactly do I have to do?
+        B: Hablar media hora en español y media en inglés con un hablante nativo. | Speak for half an hour in Spanish and half an hour in English with a native speaker.
+        A: Yo voy los jueves a un bar del centro. ¿Quieres que te acompañe? | I go to a bar in the centre on Thursdays. Do you want me to come with you?
+        L: ¡Sí, por favor! Así pierdo la vergüenza poco a poco. | Yes, please! That way I'll lose my embarrassment little by little.
+        B: Perfecto. Y os pido una cosa más: que veáis una serie con subtítulos en español. | Perfect. And I'm asking you for one more thing: watch a series with Spanish subtitles.
+        A: ¡Genial! Y el lunes te contamos qué tal, ¿vale? | Great! And on Monday we'll tell you how it went, OK?
+    pronunciation:
+      title: "Keeping the sound: practique, llegue, empiece, coja"
+      body: |
+        The subjunctive often changes the spelling to keep the **sound** of the verb the same. *Practicar* has a [k] sound, so before *e* it is written **qu**: *practique*. *Llegar* has a hard [g], written **gu** before *e*: *llegue* (the u is silent). *Empezar* is written with **c** before e: *empiece* — [θ] in most of Spain, [s] in Latin America. *Coger* keeps its [x] sound with **j** before a: *coja*.
+      items: |
+        practique
+        llegue
+        empiece
+        coja
+        que vaya
+        que sepa
+    culture:
+      title: Escuelas Oficiales de Idiomas and the DELE
+      body: |
+        Spain has a network of public language schools, the **Escuelas Oficiales de Idiomas (EOI)**, where adults can study English, French, German and many other languages for a modest fee and obtain official certificates. Places are popular, so there is often a lottery or a waiting list.
+
+        If you want to certify your Spanish, the **DELE** diplomas (from A1 to C2) are issued by the Instituto Cervantes on behalf of Spain's Ministry of Education. Many learners combine classes with an informal **intercambio** in a bar or café — a very Spanish way to practise.
+    mistakes: |
+      Quiero que me ayudas con los deberes. => Quiero que me ayudes con los deberes. | After querer que + another person, use the subjunctive.
+      La profesora quiere que practico más. => La profesora quiere que practique más. | Subjunctive of practicar: c → qu before e.
+      ¿Quieres que te acompaño? => ¿Quieres que te acompañe? | Offers with ¿quieres que…? take the subjunctive.
+    task:
+      title: My language-learning plan
+      mode: speaking
+      body: |
+        Talk for 1–2 minutes about how you learn languages: what you do, what you find hard (*me cuesta…*, *me da vergüenza…*) and what you would like your teacher or exchange partner to do (*quiero que…*, *prefiero que…*, *necesito que…*). Record yourself in Speaking practice.
+    exercises: |
+      fill: Quiero que ___ (venir, tú) conmigo al intercambio del jueves. || vengas || Querer que + subjunctive. Venir → vengo → venga, vengas. || @tags es.subjunctive
+      fill: La profesora nos pide que ___ (hacer, nosotros) los deberes en español. || hagamos || Pedir que + subjunctive. Hacer → hago → hagamos. || @tags es.subjunctive
+      fill: El profesor quiere que ___ (practicar, yo) la pronunciación todos los días. || practique || Practicar: c → qu before e. || @tags es.subjunctive,es.spelling
+      fill: ¿Quieres que te ___ (explicar, yo) la regla otra vez? || explique || An offer with ¿quieres que…? + subjunctive. Explicar: c → qu. || @tags es.subjunctive,es.spelling
+      mc: Choose the correct sentence. || *Quiero aprender alemán este año. | Quiero que aprendo alemán este año. | Quiero que aprender alemán este año. || The same person wants and learns, so use the infinitive. || @tags es.subjunctive-triggers
+      mc: «Me da vergüenza hablar en público» means… || *I feel embarrassed speaking in public. | I'm proud of speaking in public. | I'm bored of speaking in public. || Dar vergüenza = to feel embarrassed. It works like gustar. || @skill vocabulary @tags es.vocabulary
+      tf: Liam finds it easy to speak in front of other people. || false || «A mí me da mucha vergüenza hablar delante de gente.» || @ctx dialogue
+      short: What does Begoña want Liam to do this week? || kw: intercambio/exchange || «Quiero que esta semana vayas a un intercambio.» || @ctx dialogue
+      rw: Report the teacher's wish, starting with "La profesora quiere que…" :: «Liam, habla más en clase.» || La profesora quiere que Liam hable más en clase. || Querer que + subjunctive: hable. || @tags es.subjunctive
+      tr: Do you want me to help you? || ¿Quieres que te ayude? | ¿Quiere que le ayude? | ¿Quiere que lo ayude? | ¿Queréis que os ayude? || ¿Quieres que…? + subjunctive: ayude. || @tags es.subjunctive
+      listen: Yo aprendí inglés viendo series en versión original con subtítulos. Al principio no entendía nada, pero poco a poco me solté. || How did the speaker learn English? || In a language school | *By watching series in the original version | With an exchange partner || «Aprendí inglés viendo series en versión original.» || @tags es.listening
+      listen: @dialogue || What does Aisha offer to do? || *Go with Liam to the language exchange | Lend Liam a series | Correct Liam's homework || «¿Quieres que te acompañe?» — she goes to a bar in the centre on Thursdays. || @tags es.listening
+      dict: Me cuesta mucho hablar, pero entiendo casi todo.
+      ask: Your classmate asks «¿Qué quieres que haga la profe para ayudarte?». Answer with two wishes. || kw: quiero que/prefiero que/necesito que || Quiero que hablemos más en clase y que me corrija los errores de pronunciación. También prefiero que los deberes sean más cortos.
+
+  - title: Giving advice
+    summary: Give practical advice with te recomiendo que, te aconsejo que and es mejor que, and tell people what not to do with the negative imperative.
+    minutes: 45
+    skills: [speaking, grammar, writing]
+    tags: [es.subjunctive-triggers, es.imperative]
+    objectives:
+      - Give advice with te recomiendo / te aconsejo que and es mejor / es importante que + subjunctive
+      - Form the negative imperative with no + subjunctive
+      - Place pronouns correctly in negative commands
+    intro: |
+      Moving away to study, choosing a course, organising your money: these are moments when people ask for advice. Spanish advice often uses the subjunctive — *te recomiendo que **vayas***, *es mejor que **estudies***. And the negative imperative (*no te preocupes, no dejes nada para el final*) is in fact the subjunctive too.
+    vocab: |
+      la carrera | university degree (course) | n | Estoy en segundo de carrera. | I'm in my second year at university. | g: f | c: hacer una carrera; terminar la carrera
+      la facultad | faculty; university department | n | La facultad de Derecho está en el centro. | The Law faculty is in the centre. | g: f
+      la beca | grant; scholarship | n | Me han dado una beca para estudiar en Italia. | I've been given a grant to study in Italy. | g: f
+      la residencia de estudiantes | student residence; hall | n | El primer año viví en una residencia de estudiantes. | In my first year I lived in a student residence. | g: f
+      el consejo | piece of advice | n | Te voy a dar un consejo. | I'm going to give you a piece of advice. | g: m | n: Countable: un consejo, dos consejos.
+      aconsejar | to advise | v | Te aconsejo que hables con tu tutor. | I advise you to talk to your tutor.
+      recomendar | to recommend | v | Os recomiendo que reservéis plaza pronto. | I recommend you book a place early. | n: e → ie: recomiendo.
+      estar hecho un flan | to be a nervous wreck | expr | Antes del examen estaba hecha un flan. | Before the exam I was a nervous wreck. | n: Colloquial, Spain. Literally "to be made into a crème caramel".
+      dar el primer paso | to take the first step | expr | Si quieres hacer amigos, da tú el primer paso. | If you want to make friends, take the first step yourself.
+      agobiarse | to get stressed; to feel overwhelmed | v | No te agobies, todavía tienes tiempo. | Don't stress, you still have time. | n: Very common in Spain. Agobiado = stressed out.
+      organizarse | to get organised | v | Tienes que organizarte mejor. | You need to get better organised.
+      dejar para el último momento | to leave until the last minute | expr | Siempre lo dejo todo para el último momento. | I always leave everything until the last minute.
+    grammar:
+      title: "Giving advice: te recomiendo que…, no + subjunctive"
+      body: |
+        To give advice to someone, use a verb of advice + **que** + subjunctive: **te recomiendo que, te aconsejo que, te sugiero que** — *Te recomiendo que **vayas** a las jornadas de bienvenida.* Impersonal expressions work the same way when you mean a specific person: **es mejor que, es importante que** — *Es mejor que **estudies** un poco cada día.* To give general advice to nobody in particular, use the infinitive: *Es importante dormir bien.*
+
+        The **negative imperative** is simply **no + present subjunctive**: *habla → no hables*, *come → no comas*, *ve → no vayas*, *haz → no hagas*. For vosotros: *no habléis, no vayáis*; for usted: *no hable, no vaya*.
+
+        With pronouns, the position changes: in affirmative commands they are attached to the end (*preocúpate, llámalo*); in negative commands they go **before the verb**, separately: ***no te** preocupes, **no lo** llames*.
+      table: |
+        Affirmative (tú) | Negative (tú) | Negative (vosotros)
+        habla | no hables | no habléis
+        come | no comas | no comáis
+        ve | no vayas | no vayáis
+        haz | no hagas | no hagáis
+        preocúpate | no te preocupes | no os preocupéis
+        déjalo | no lo dejes | no lo dejéis
+      examples: |
+        Te aconsejo que hagas un presupuesto cada mes. | I advise you to make a budget every month. | aconsejar que
+        Es importante que des el primer paso. | It's important that you take the first step. | dar → des
+        No te agobies: todavía tienes dos semanas. | Don't stress: you still have two weeks. | negative + pronoun
+        No dejéis los trabajos para el último momento. | Don't leave your assignments until the last minute. | vosotros
+      tip: "Yo que tú + conditional (Unit 2) and te recomiendo que + subjunctive mean almost the same thing. Using both makes your advice sound natural and varied."
+    dialogue:
+      title: Consejos de hermana mayor
+      setting: Sunday night, a video call. Adrián, eighteen, starts university in Santiago de Compostela tomorrow. His older sister Nuria, who studied there, gives him advice.
+      speakers: A=Adrián/m; N=Nuria/f
+      lines: |
+        A: Nuria, mañana empiezo la carrera y estoy hecho un flan. | Nuria, I start university tomorrow and I'm a nervous wreck.
+        N: Es normal, Adrián. ¡Pero no te preocupes tanto! Te va a encantar Santiago. | It's normal, Adrián. But don't worry so much! You're going to love Santiago.
+        A: ¿Qué me recomiendas para los primeros días? No conozco a nadie. | What do you recommend for the first few days? I don't know anyone.
+        N: Te recomiendo que vayas a todas las actividades de bienvenida de la facultad. | I recommend you go to all the welcome activities at the faculty.
+        A: ¿Y si no hablo con nadie? Ya sabes que soy bastante tímido. | And what if I don't talk to anyone? You know I'm quite shy.
+        N: Por eso es importante que des tú el primer paso con los compañeros. | That's why it's important that you take the first step with your classmates.
+        A: Vale. ¿Y con el dinero? Mamá dice que soy un desastre. | OK. And what about money? Mum says I'm a disaster.
+        N: Te aconsejo que hagas un presupuesto cada mes. Y no comas fuera todos los días. | I advise you to make a budget every month. And don't eat out every day.
+        A: ¿Y para estudiar? En el instituto siempre lo dejaba todo para el final. | And for studying? At school I always left everything until the end.
+        N: Pues no dejes nada para el último momento. Es mejor que estudies un poco cada día. | Well, don't leave anything until the last minute. It's better to study a little every day.
+        A: Lo intentaré. Gracias, Nuria, eres la mejor hermana del mundo. | I'll try. Thanks, Nuria, you're the best sister in the world.
+        N: De nada. Y no te olvides de llamar a mamá de vez en cuando, ¿eh? | You're welcome. And don't forget to call Mum now and then, OK?
+    pronunciation:
+      title: "Stress in commands: preocúpate / no te preocupes"
+      body: |
+        When pronouns are attached to an affirmative command, the stress stays on the same syllable of the verb, so you often need a written accent: *pre-o-**cú**-pa-te*, ***llá**-ma-lo*, *or-ga-**ní**-za-te*. In negative commands the pronoun stands alone before the verb and no accent is needed: *no te pre-o-**cu**-pes*, *no lo **lla**-mes*. Say each pair aloud and keep the stress in the same place.
+      items: |
+        preocúpate
+        no te preocupes
+        llámalo
+        no lo llames
+        organízate
+        no te agobies
+    culture:
+      title: Studying away from home
+      body: |
+        Many Spanish students go to a university in or near their home city and live with their parents during their degree. Those who move usually live in a **residencia** or **colegio mayor** (halls of residence with meals included) or share a flat with other students — the classic **piso de estudiantes**.
+
+        Spain is also one of the countries that sends and welcomes the most **Erasmus** students in Europe. For a whole generation, *irse de Erasmus* has become a rite of passage.
+    mistakes: |
+      No preocúpate. => No te preocupes. | Negative commands use the subjunctive, and the pronoun goes before the verb.
+      Te recomiendo que estudias un poco cada día. => Te recomiendo que estudies un poco cada día. | Recomendar que + another person takes the subjunctive.
+      No vas a la fiesta antes del examen. (as advice) => No vayas a la fiesta antes del examen. | The negative command of ir is no vayas.
+    task:
+      title: Advice for a new student
+      mode: writing
+      body: |
+        A Spanish student is coming to your city for a year. Write a message (80–100 words) with at least five pieces of advice about accommodation, money, making friends and studying. Use *te recomiendo que*, *te aconsejo que*, *es mejor que* and at least two negative commands (*no…*).
+    exercises: |
+      fill: Te recomiendo que ___ (ir, tú) a las actividades de bienvenida. || vayas || Recomendar que + subjunctive. Ir is fully irregular: vaya, vayas. || @tags es.subjunctive-triggers
+      fill: Es mejor que ___ (estudiar, tú) un poco cada día. || estudies || Es mejor que + a specific person takes the subjunctive. || @tags es.subjunctive-triggers
+      fill: ¡No ___ (preocuparse, tú) tanto! Todo va a salir bien. || te preocupes || Negative command: no + pronoun + subjunctive. || @tags es.imperative
+      fill: No ___ (dejar, vosotros) los trabajos para el último momento. || dejéis || Negative vosotros command: no + subjunctive (dejéis). || @tags es.imperative
+      mc: Your friend is nervous before an exam. You say: || *No te pongas nervioso. | No ponte nervioso. | No te pones nervioso. || Negative command of ponerse: no te pongas (pongo → ponga). || @tags es.imperative
+      mc: «Estoy hecha un flan» means… || I'm hungry. | *I'm very nervous. | I'm very relaxed. || Estar hecho/a un flan = to be a nervous wreck. || @skill vocabulary @tags es.vocabulary
+      tf: Adrián says that he is quite shy. || true || «Ya sabes que soy bastante tímido.» || @ctx dialogue
+      short: What does Nuria advise Adrián to do with his money? || kw: presupuesto/budget/fuera/eat out || She advises him to make a monthly budget and not to eat out every day. || @ctx dialogue
+      rw: Give the same advice with "Te aconsejo que…" :: Deberías hacer un presupuesto. || Te aconsejo que hagas un presupuesto. || Aconsejar que + subjunctive: hacer → hagas. || @tags es.subjunctive-triggers
+      tr: Don't worry, it's normal to be nervous. || No te preocupes, es normal estar nervioso. | No te preocupes, es normal estar nerviosa. | No te preocupes: es normal estar nervioso. | No te preocupes: es normal estar nerviosa. || Negative command: no te preocupes. General statement: es normal + infinitive. || @tags es.imperative
+      listen: Si vas a estudiar fuera, te aconsejo que busques piso antes de llegar. En septiembre es muy difícil encontrar algo. || What is the advice? || *Look for a flat before arriving | Arrive at the beginning of September | Live in a student residence || «Te aconsejo que busques piso antes de llegar.» || @tags es.listening,es.subjunctive-triggers
+      listen: @dialogue || What does Nuria say about studying? || Study only before exams | *Study a little every day | Study in the library || «Es mejor que estudies un poco cada día.» || @tags es.listening
+      dict: Es importante que te organices bien desde el primer día.
+      ask: A friend says «Quiero aprender a cocinar, pero no sé por dónde empezar». Give two pieces of advice. || kw: recomiendo/aconsejo/mejor que/importante que/deberías || Te recomiendo que empieces con recetas fáciles, como una tortilla o una pasta. Al principio, es mejor que cocines con tu madre o con un amigo. Y no te agobies si sale mal.
+      write: A Spanish friend is moving to your city. Write a message (50–70 words) with four pieces of advice. || min=50 || req: recomiendo/aconsejo/sugiero | mejor que/importante que | no || ¡Hola, Iker! ¡Por fin vienes! Te recomiendo que busques piso en el barrio de la universidad, porque es más barato. Es mejor que compres un abono de transporte mensual. No vayas al centro en coche, que es imposible aparcar. Y te aconsejo que te apuntes al club de senderismo: así conoces gente. ¡Nos vemos pronto!

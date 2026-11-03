@@ -1,0 +1,346 @@
+unit: 7
+title: Feste und Traditionen
+theme: Celebrations and traditions
+description: Talk about festivals and traditions, invite people and react to invitations politely, and choose presents and good wishes — with reflexive verbs and Konjunktiv II for politeness.
+objectives:
+  - Talk about festivals and traditions with reflexive verbs such as sich freuen, sich treffen and sich verkleiden
+  - Invite people, accept and decline politely with würde, hätte and könnte
+  - Talk about presents with sich wünschen and schenken, and give the right good wishes
+canDo:
+  - I can describe how people celebrate a festival in my country and in Germany.
+  - I can invite someone and accept or decline an invitation politely.
+  - I can say what I would like as a present and what I would give someone.
+  - I can write a short card with good wishes.
+review: |
+  fill: Wir treffen ___ um acht vor dem Kino. || uns || Sich treffen: wir → uns. || @tags de.reflexive
+  fill: Mein Bruder verkleidet ___ als Astronaut. || sich || Third person (er): the reflexive pronoun is sich. || @tags de.reflexive
+  fill: ___ du mir bitte den Zucker geben? (können, polite) || Könntest || Polite request: könntest du…? (Konjunktiv II of können). || @tags de.konjunktiv2
+  fill: Ich wünsche ___ zum Geburtstag einen Kochkurs. || mir || With a thing in the accusative (einen Kochkurs), ich takes the dative mir. || @tags de.reflexive,de.dative
+  mc: At a friend's house you'd like a coffee. What is the most polite? || Gib mir einen Kaffee! | Ich will einen Kaffee. | *Ich hätte gern einen Kaffee, bitte. || Ich hätte gern… is the polite way to ask for something. || @tags de.konjunktiv2,de.ordering
+  mc: Which wish fits a friend's exam tomorrow? || *Viel Erfolg! | Frohe Weihnachten! | Gute Nacht! || Viel Erfolg (good luck) is for exams, interviews and new jobs. || @tags de.vocabulary
+  rw: Put into the Perfekt :: Wir verkleiden uns als Piraten. || Wir haben uns als Piraten verkleidet. || Reflexive verbs take haben; the pronoun stays after haben. || @tags de.reflexive,de.perfekt
+  tr: Would you like to come to my party? (informal) || Hättest du Lust auf meine Party? | Würdest du gern zu meiner Party kommen? | Möchtest du zu meiner Party kommen? | Hast du Lust auf meine Party? | Hättest du Lust, zu meiner Party zu kommen? || Konjunktiv II (hättest, würdest) or möchtest makes the invitation polite. || @tags de.konjunktiv2
+  listen: Wir feiern Silvester bei uns zu Hause. Könntet ihr etwas zu trinken mitbringen? || What should the guests bring? || Something to eat | *Something to drink | Fireworks || Etwas zu trinken mitbringen = to bring something to drink. || @tags de.listening,de.konjunktiv2
+  listen: Danke für die Einladung, aber ich kann leider nicht kommen. Ich bin am Wochenende auf einer Hochzeit. || Why can't the speaker come? || She's ill. | *She's at a wedding. | She has to work. || Auf einer Hochzeit = at a wedding. || @tags de.listening
+  ask: Invite a colleague politely for a coffee after work. || kw: hätten/würden/könnten & lust/zeit/kaffee || Hätten Sie nach der Arbeit Lust auf einen Kaffee?
+  write: Reply to a party invitation: thank your friend, decline politely with a reason and suggest another day. || min=30 || req: danke/vielen dank | würde gern | aber || Liebe Carla, vielen Dank für die Einladung! Ich würde gern kommen, aber am Samstag bin ich leider bei meiner Schwester in Hamburg. Hättest du nächste Woche Zeit? Wir könnten zusammen frühstücken. Liebe Grüße, Hanno
+lessons:
+  - title: Festivals and holidays
+    summary: Describe festivals and traditions — Karneval, Christmas, New Year's Eve — with reflexive verbs like sich freuen, sich treffen and sich verkleiden.
+    minutes: 35
+    skills: [grammar, vocabulary, speaking]
+    tags: [de.reflexive]
+    objectives:
+      - Use reflexive verbs with the pronouns mich, dich, sich, uns and euch
+      - Talk about German festivals and traditions
+      - Describe how you celebrate a festival
+    intro: |
+      Every year German speakers celebrate Karneval, Easter, Christmas and New Year's Eve — with costumes, markets, fireworks and family meals. Talking about these traditions needs **reflexive verbs**: *Wir verkleiden uns. Ich freue mich. Wir treffen uns um elf.* In this lesson you learn how they work.
+    vocab: |
+      der Karneval | carnival | n | Im Februar oder März feiert Köln Karneval. | In February or March, Cologne celebrates carnival. | g: m | pl: (rarely used) | n: In the south it's called Fasching or Fastnacht.
+      das Kostüm | costume | n | Mein Kostüm habe ich selbst gemacht. | I made my costume myself. | g: n | pl: die Kostüme
+      sich verkleiden | to dress up (in costume) | v | Als was verkleidest du dich? | What are you dressing up as? | n: ich verkleide mich; Perfekt: ich habe mich verkleidet
+      sich freuen | to be happy; to be pleased | v | Ich freue mich so! | I'm so happy! | n: ich freue mich, du freust dich, er freut sich
+      sich treffen | to meet (up) | v | Wir treffen uns um elf am Dom. | We're meeting at eleven at the cathedral. | n: Irregular: du triffst dich; Perfekt: wir haben uns getroffen
+      sich beeilen | to hurry | v | Beeil dich, der Umzug fängt gleich an! | Hurry up, the parade is about to start! | n: du-imperative: Beeil dich!
+      sich ausruhen | to rest | v | Nach dem Fest ruhen wir uns aus. | After the festival we'll have a rest. | n: Separable: ich ruhe mich aus.
+      der Umzug | parade; procession | n | Der Umzug geht durch die ganze Innenstadt. | The parade goes through the whole city centre. | g: m | pl: die Umzüge | n: Der Umzug also means moving house.
+      der Feiertag | public holiday | n | Der 3. Oktober ist in Deutschland ein Feiertag. | October 3rd is a public holiday in Germany. | g: m | pl: die Feiertage
+      Weihnachten | Christmas | n | An Weihnachten fährt die ganze Familie zu meinen Eltern. | At Christmas the whole family goes to my parents'. | g: n | n: Usually without an article: an Weihnachten, zu Weihnachten. Frohe Weihnachten!
+      Silvester | New Year's Eve | n | An Silvester gibt es um Mitternacht ein Feuerwerk. | On New Year's Eve there are fireworks at midnight. | g: n | n: Usually without an article. At midnight: Frohes neues Jahr!
+      der Weihnachtsmarkt | Christmas market | n | Auf dem Weihnachtsmarkt trinken wir Glühwein. | We drink mulled wine at the Christmas market. | g: m | pl: die Weihnachtsmärkte
+    grammar:
+      title: "Reflexive verbs: ich freue mich"
+      body: |
+        **Reflexive verbs** have a pronoun that refers back to the subject: *Ich freue **mich**. Wir treffen **uns**.* The reflexive pronoun is the same as the accusative pronoun, except for **sich**, which is used for er, sie, es, sie (they) and Sie: *er freut sich, sie verkleiden sich, Sie beeilen sich*.
+
+        Some verbs are always reflexive (*sich beeilen, sich freuen, sich ausruhen*); others can be used with or without the pronoun (*Wir treffen uns* – we meet each other; *Ich treffe Freunde* – I meet friends).
+
+        The reflexive pronoun comes right after the conjugated verb, or after a subject pronoun when the subject follows the verb: *Wir treffen uns um elf. Um elf treffen wir uns.* In the Perfekt, reflexive verbs take **haben**: *Ich habe mich verkleidet.* In the du-imperative, dich stays: *Beeil dich!*
+      table: |
+        Pronoun | sich freuen | sich treffen
+        ich | freue mich | treffe mich
+        du | freust dich | triffst dich
+        er / sie / es | freut sich | trifft sich
+        wir | freuen uns | treffen uns
+        ihr | freut euch | trefft euch
+        sie / Sie | freuen sich | treffen sich
+      examples: |
+        Als was verkleidest du dich dieses Jahr? | What are you dressing up as this year? | du → dich
+        Wir treffen uns um elf Uhr elf am Rathaus. | We're meeting at 11:11 at the town hall. | wir → uns
+        An Weihnachten freut sich mein Opa immer sehr. | My grandpa is always very happy at Christmas. | er → sich
+        Wir haben uns auf dem Weihnachtsmarkt getroffen. | We met at the Christmas market. | Perfekt with haben
+      tip: Learn reflexive verbs with sich — sich freuen, sich treffen — and change sich to match the subject.
+    dialogue:
+      title: Karneval im Büro?
+      setting: A Wednesday in February in an office in Cologne. Ji-woo moved to Cologne from Seoul last autumn. Her colleague Till explains what happens tomorrow.
+      speakers: T=Till/m; J=Ji-woo/f
+      lines: |
+        T: Ji-woo, morgen ist Weiberfastnacht! Verkleidest du dich auch? | Ji-woo, tomorrow is Weiberfastnacht! Are you dressing up too?
+        J: Verkleiden? Im Büro? Ist das hier normal? | Dress up? At the office? Is that normal here?
+        T: Ja, in Köln schon! Viele Kollegen verkleiden sich. | Yes, in Cologne it is! Lots of colleagues dress up.
+        J: Und als was verkleidest du dich? | And what are you dressing up as?
+        T: Als Pirat, wie jedes Jahr. Am Abend treffen wir uns in der Altstadt. | As a pirate, like every year. In the evening we're meeting in the old town.
+        J: Klingt lustig! Aber ich habe kein Kostüm. | Sounds fun! But I haven't got a costume.
+        T: Kein Problem. Meine Schwester hat viele Kostüme. Sie leiht dir gern eins. | No problem. My sister has lots of costumes. She'll happily lend you one.
+        J: Super, danke! Und was passiert am Montag? | Great, thanks! And what happens on Monday?
+        T: Am Montag ist der große Umzug, der Rosenmontagszug. | On Monday there's the big parade, the Rosenmontag parade.
+        T: Die Leute stehen an der Straße und fangen Süßigkeiten. | People stand along the street and catch sweets.
+        J: Ich freue mich schon! Wann treffen wir uns am Montag? | I'm already looking forward to it! When are we meeting on Monday?
+        T: Um zehn am Bahnhof. Aber beeil dich, es wird sehr voll! | At ten at the station. But hurry, it gets very crowded!
+    pronunciation:
+      title: "mich, dich, sich and -ig"
+      body: |
+        The reflexive pronouns *mich, dich, sich* all end in the soft ich-sound [ç] — not [k] and not [ʃ]. In *sich* the s is voiced, like English *z*: [zɪç].
+
+        In standard German, **-ig** at the end of a word is pronounced with the same ich-sound: *lustig* [ˈlʊstɪç]. In the south you will often hear [ɪk] instead — both are understood.
+      items: |
+        mich
+        dich
+        sich
+        lustig
+        Ich freue mich!
+        Beeil dich!
+    culture:
+      title: Karneval, Advent and Silvester
+      body: |
+        The carnival season officially starts on 11 November at 11:11, but the big street carnival is in the days before Ash Wednesday, especially in Cologne, Düsseldorf and Mainz. On *Weiberfastnacht* (the Thursday) women traditionally cut off men's ties, and on *Rosenmontag* huge parades throw sweets into the crowds.
+
+        In December, Advent calendars, Advent wreaths and Christmas markets fill the weeks before Christmas. Presents are usually opened on the evening of 24 December (*Heiligabend*). On *Silvester*, people celebrate with fireworks at midnight and wish each other *Frohes neues Jahr!*
+    mistakes: |
+      Ich freue sehr. => Ich freue mich sehr. | Sich freuen is reflexive — you need the pronoun.
+      Wir treffen sich um acht. => Wir treffen uns um acht. | The reflexive pronoun must match the subject: wir → uns.
+      Ich bin mich verkleidet. => Ich habe mich verkleidet. | Reflexive verbs form the Perfekt with haben.
+    task:
+      title: A festival I love
+      mode: speaking
+      body: |
+        Describe a festival from your country in five or six sentences: when it is, what people do and eat, whether people dress up or meet, and how you feel about it. Then compare it with a German festival from this lesson. Record yourself in Speaking practice.
+    exercises: |
+      fill: Ich freue ___ sehr! Morgen ist Karneval. || mich || Ich → mich. || @tags de.reflexive
+      fill: Wann treffen wir ___? || uns || Wir → uns. || @tags de.reflexive
+      fill: Als was verkleidest du ___? || dich || Du → dich. || @tags de.reflexive
+      fill: Meine Kinder ___ sich jedes Jahr als Tiere. (verkleiden) || verkleiden || Meine Kinder = sie (plural): sie verkleiden sich. || @tags de.reflexive
+      mc: Which sentence is correct? || Wir haben sich auf dem Markt getroffen. | *Wir haben uns auf dem Markt getroffen. | Wir sind uns auf dem Markt getroffen. || Reflexive verbs take haben; wir → uns. || @tags de.reflexive,de.perfekt
+      rw: Put into the Perfekt :: Wir treffen uns am Dom. || Wir haben uns am Dom getroffen. || Haben + uns + … + getroffen. || @tags de.reflexive,de.perfekt
+      tf: Till dresses up as a pirate. || true || "Als Pirat, wie jedes Jahr." || @ctx dialogue
+      short: Where are Till and Ji-woo meeting on Monday? || kw: bahnhof/station || "Um zehn am Bahnhof." || @ctx dialogue
+      listen: @dialogue || Who is going to lend Ji-woo a costume? || Till | *Till's sister | A colleague || "Meine Schwester hat viele Kostüme. Sie leiht dir gern eins."
+      listen: An Weihnachten treffen wir uns immer bei meiner Oma. Am 24. Dezember gibt es abends die Geschenke. || When are the presents opened? || On the morning of 25 December | *On the evening of 24 December | On New Year's Eve || Am 24. Dezember … abends. || @tags de.listening,de.reflexive
+      tr: I'm meeting my friends at the Christmas market. || Ich treffe mich mit meinen Freunden auf dem Weihnachtsmarkt. | Ich treffe meine Freunde auf dem Weihnachtsmarkt. | Ich treffe mich mit meinen Freundinnen auf dem Weihnachtsmarkt. | Ich treffe meine Freundinnen auf dem Weihnachtsmarkt. || Sich treffen mit + dative, or treffen + accusative. || @tags de.reflexive
+      dict: Wir treffen uns um elf Uhr am Rathaus.
+      ask: Describe a festival you celebrate: when it is and what people do. || kw: im/am/an & feiern/treffen/verkleiden/essen/singen/tanzen/schenken || An Neujahr treffen wir uns mit der ganzen Familie. Wir essen zusammen und tanzen bis Mitternacht.
+
+  - title: Invitations and parties
+    summary: Invite people, accept and decline politely, and make requests with würde, hätte gern and könnte.
+    minutes: 35
+    skills: [grammar, speaking, writing]
+    tags: [de.konjunktiv2, de.register]
+    objectives:
+      - Use würde, hätte and könnte to make invitations and requests more polite
+      - Accept and decline invitations, giving a reason
+      - Write a short invitation
+    intro: |
+      Invitations are where politeness matters most. German softens requests and offers with **Konjunktiv II** forms: *Hättest du Lust auf…? Würdest du gern kommen? Könntest du … mitbringen?* In this lesson you learn these polite forms and how to say yes — or no — nicely.
+    vocab: |
+      einladen | to invite | v | Ich lade dich zu meinem Geburtstag ein. | I'm inviting you to my birthday. | n: Separable and irregular: du lädst ein; hat eingeladen
+      die Einladung | invitation | n | Vielen Dank für die Einladung! | Thank you very much for the invitation! | g: f | pl: die Einladungen
+      die Einweihungsparty | housewarming party | n | Am Samstag machen wir eine Einweihungsparty. | On Saturday we're having a housewarming party. | g: f | pl: die Einweihungspartys
+      zusagen | to accept (an invitation) | v | Ich habe für Samstag schon zugesagt. | I've already said yes for Saturday. | n: Separable. The opposite is absagen.
+      absagen | to decline; to cancel | v | Leider muss ich absagen, ich bin krank. | Unfortunately I have to cancel; I'm ill.
+      Lust haben | to feel like; to fancy | expr | Hättest du Lust auf ein Picknick? | Would you fancy a picnic? | c: Lust auf + accusative; keine Lust haben
+      mitbringen | to bring (along) | v | Soll ich etwas mitbringen? | Shall I bring something? | n: Separable, mixed verb: hat mitgebracht
+      der Gast | guest | n | Wir erwarten zwanzig Gäste. | We're expecting twenty guests. | g: m | pl: die Gäste
+      vorbeikommen | to drop by; to come round | v | Komm doch am Sonntag vorbei! | Come round on Sunday! | n: Separable: ist vorbeigekommen
+      schade | a pity; too bad | adj | Schade, dass du nicht kommen kannst! | What a pity you can't come!
+      würde gern | would like to | expr | Ich würde gern kommen, aber ich muss arbeiten. | I'd like to come, but I have to work. | n: würde + infinitive at the end
+      hätte gern | would like (to have) | expr | Ich hätte gern ein Glas Wasser. | I'd like a glass of water. | n: A polite alternative to ich will or ich möchte.
+    grammar:
+      title: "Konjunktiv II for politeness: hätte, würde, könnte"
+      body: |
+        To make invitations, requests and wishes polite, German uses **Konjunktiv II** forms. At this level you need three:
+
+        - **hätte** (from haben): *Ich hätte gern ein Stück Kuchen. Hättest du Lust auf einen Film? Hätten Sie am Freitag Zeit?*
+        - **würde + infinitive** (would): *Ich würde gern kommen. Würdest du mir bitte helfen?*
+        - **könnte** (could, from können): *Könntest du einen Salat mitbringen? Könnten Sie das bitte wiederholen?*
+
+        Like modal verbs, *würde* and *könnte* go in position 2 (or first in a yes/no question), and the infinitive goes to the end: *Ich **würde** gern **mitkommen**.* Compare: *Bring einen Salat mit!* (direct) → *Kannst du einen Salat mitbringen?* (friendly) → *Könntest du vielleicht einen Salat mitbringen?* (very polite). To decline, thank, say what you would like and give a reason: *Danke! Ich würde gern kommen, aber ich habe leider keine Zeit.*
+      table: |
+        Pronoun | haben → hätte | werden → würde | können → könnte
+        ich | hätte | würde | könnte
+        du | hättest | würdest | könntest
+        er / sie / es | hätte | würde | könnte
+        wir | hätten | würden | könnten
+        ihr | hättet | würdet | könntet
+        sie / Sie | hätten | würden | könnten
+      examples: |
+        Hättest du am Samstag Zeit? | Would you have time on Saturday? | hätte
+        Ich würde gern kommen, aber ich muss arbeiten. | I'd like to come, but I have to work. | würde + infinitive
+        Könntest du bitte Getränke mitbringen? | Could you bring some drinks, please? | könnte
+        Hätten Sie Lust auf einen Kaffee? | Would you like a coffee? | formal invitation
+      tip: In a polite request, bitte + könntest or würdest is almost always right — "Könntest du mir bitte helfen?"
+    dialogue:
+      title: Die Einweihungsparty
+      setting: Pia has just moved into a new flat in Jena. She phones her colleague Benedikt to invite him to her housewarming party.
+      speakers: P=Pia/f; B=Benedikt/m
+      lines: |
+        P: Hallo Benedikt! Hättest du am Samstagabend Zeit? | Hi Benedikt! Would you have time on Saturday evening?
+        B: Ich glaube schon. Warum? | I think so. Why?
+        P: Ich mache eine kleine Einweihungsparty. Ich würde dich gern einladen! | I'm having a small housewarming party. I'd like to invite you!
+        B: Oh, wie schön! Danke für die Einladung. Wann fängt die Party an? | Oh, how lovely! Thanks for the invitation. When does the party start?
+        P: So um acht. Könntest du vielleicht einen Salat mitbringen? | Around eight. Could you maybe bring a salad?
+        B: Klar, mache ich. Darf ich auch meine Freundin mitbringen? | Sure, I will. May I bring my girlfriend too?
+        P: Natürlich, sehr gern! Ich habe genug Platz. | Of course, I'd love that! I've got enough room.
+        B: Super. Hättest du gern etwas für die Wohnung? Eine Pflanze vielleicht? | Great. Would you like something for the flat? A plant, maybe?
+        P: Das ist lieb, aber du musst nichts mitbringen – nur den Salat! | That's sweet, but you don't have to bring anything – just the salad!
+        B: Okay. Wie ist deine neue Adresse? | Okay. What's your new address?
+        P: Lessingstraße 8, im zweiten Stock. Ich schicke sie dir auch per Nachricht. | Lessingstraße 8, on the second floor. I'll send it to you in a message too.
+        B: Prima. Ich freue mich, bis Samstag! | Great. I'm looking forward to it, see you on Saturday!
+    pronunciation:
+      title: "Short ä, ü and ö: hätte, würde, könnte"
+      body: |
+        The polite forms look almost like the simple past — only the umlaut is different: *hatte → hätte, wurde → würde, konnte → könnte*. So pronounce the umlaut clearly: **ä** like *e* in *bed*, **ü** with rounded lips, **ö** like *e* with rounded lips.
+
+        All three vowels are short here, because a double consonant or two consonants follow.
+      items: |
+        hätte
+        würde
+        könnte
+        Hättest du Lust?
+        Könntest du mir helfen?
+        Ich würde gern kommen.
+    culture:
+      title: Being a good guest
+      body: |
+        For a dinner invitation, Germans expect you to arrive on time — five or ten minutes late is fine, an hour is not. Guests usually bring a small present such as flowers, chocolates or a bottle of wine, even when the host says *Du musst nichts mitbringen*. A traditional present for a housewarming is bread and salt, for a home that never lacks the basics.
+
+        Reply clearly to invitations: say yes (*zusagen*) or no (*absagen*) in good time, ideally with a short reason.
+    mistakes: |
+      Ich würde gern kommen mit. => Ich würde gern mitkommen. | After würde, the whole infinitive, prefix included, goes to the end.
+      Könntest du mir helfen bitte? => Könntest du mir bitte helfen? | Bitte goes in the middle; the infinitive stays at the end.
+      Ich hätte gern kommen. => Ich würde gern kommen. | For actions use würde gern + infinitive; hätte gern is for things you want to have.
+    task:
+      title: Your invitation
+      mode: writing
+      body: |
+        Write a short invitation to a party: what you are celebrating, when and where it is, and what guests could bring. Then write two short replies — one accepting and one declining politely with a reason. To practise speaking, try the "Making weekend plans" scenario with the AI coach.
+    exercises: |
+      fill: ___ du am Freitag Zeit? (haben, polite) || Hättest || Haben → du hättest (Konjunktiv II). || @tags de.konjunktiv2
+      fill: Ich ___ gern kommen, aber ich muss arbeiten. || würde || Würde + infinitive (kommen) at the end. || @tags de.konjunktiv2
+      fill: ___ Sie das bitte wiederholen? (können, polite) || Könnten || Können → Sie könnten. || @tags de.konjunktiv2,de.register
+      mc: Which is the most polite request? || Bring Getränke mit! | Du bringst Getränke mit. | *Könntest du bitte Getränke mitbringen? || Könntest + bitte turns the request into a polite question. || @tags de.konjunktiv2
+      mc: How do you decline an invitation politely? || Nein, ich komme nicht. | *Danke für die Einladung! Ich würde gern kommen, aber ich habe leider keine Zeit. | Ich hätte gern nicht kommen. || Thank, use würde gern and give a reason. || @tags de.konjunktiv2
+      rw: Make it more polite with könnte :: Hilf mir bitte! || Könntest du mir bitte helfen? | Könntest du mir helfen? || Du-imperative → Könntest du … helfen? with helfen at the end. || @tags de.konjunktiv2,de.imperative
+      tf: Pia asks Benedikt to bring a salad. || true || "Könntest du vielleicht einen Salat mitbringen?" || @ctx dialogue
+      short: Who does Benedikt want to bring to the party? || kw: freundin/girlfriend/partner/friend || "Darf ich auch meine Freundin mitbringen?" || @ctx dialogue
+      listen: @dialogue || When does the party start? || At six | *At about eight | At ten || "So um acht."
+      listen: Liebe Mara, vielen Dank für die Einladung! Ich würde sehr gern kommen, aber am Samstag bin ich leider bei meinen Eltern. || Is the speaker coming to the party? || Yes, with her parents | *No, she's visiting her parents | Yes, but later || Ich würde gern kommen, aber … bei meinen Eltern = she can't come. || @tags de.listening,de.konjunktiv2
+      dict: Hättest du am Samstag Lust auf eine Party?
+      ask: Invite a friend politely to your birthday party and ask them to bring something. || kw: hättest/würdest/könntest & kommen/mitbringen/zeit/lust/einladen || Hallo Sam! Hättest du am Samstag Zeit? Ich feiere meinen Geburtstag. Könntest du einen Kuchen mitbringen?
+      write: Write an invitation to your housewarming party (4–6 sentences): when, where, what guests could bring. || min=35 || req: party/feier/einladen/einladung | hättet/hättest/würde/würdet/könntet/könntest | samstag/sonntag/freitag/uhr || Liebe Freundinnen und Freunde, ich habe eine neue Wohnung und würde euch gern zu meiner Einweihungsparty einladen! Die Party ist am Samstag, den 14. Juni, ab 19 Uhr in der Bergstraße 3. Könntet ihr vielleicht etwas zu trinken oder einen Salat mitbringen? Ich freue mich auf euch! Viele Grüße, Lukas
+
+  - title: Gifts and good wishes
+    summary: Talk about presents with sich wünschen and schenken, say what you would give someone, and choose the right good wishes for every occasion.
+    minutes: 35
+    skills: [grammar, writing, listening]
+    tags: [de.reflexive, de.dative, de.konjunktiv2]
+    objectives:
+      - Use reflexive pronouns in the dative — Ich wünsche mir…, Kauf dir…
+      - Say who gets a present with schenken, and what you would give with würde
+      - Choose good wishes for birthdays, weddings, exams and holidays
+    intro: |
+      What would you like for your birthday? What would you give your best friend? In German, wishes for yourself use a reflexive pronoun in the **dative**: *Ich wünsche **mir** ein Fahrrad.* In this lesson you talk about presents, combine the dative with Konjunktiv II, and learn the right good wishes for every occasion.
+    vocab: |
+      schenken | to give (as a present) | v | Was schenkst du deiner Mutter zum Geburtstag? | What are you giving your mother for her birthday? | n: someone (dative) something (accusative)
+      das Geschenk | present; gift | n | Das Geschenk ist toll, vielen Dank! | The present is great, thank you very much! | g: n | pl: die Geschenke
+      sich wünschen | to wish for; to want (as a present) | v | Ich wünsche mir ein neues Fahrrad. | I'd like a new bike (as a present). | n: Dative reflexive: ich wünsche mir, du wünschst dir.
+      der Gutschein | voucher; gift card | n | Ich schenke ihr einen Gutschein für ein Konzert. | I'm giving her a voucher for a concert. | g: m | pl: die Gutscheine
+      einpacken | to wrap (up) | v | Können Sie das Geschenk bitte einpacken? | Could you wrap the present, please? | n: Separable: hat eingepackt
+      die Überraschung | surprise | n | Die Party ist eine Überraschung – sag nichts! | The party is a surprise – don't say anything! | g: f | pl: die Überraschungen
+      der Glückwunsch | congratulations; good wishes | n | Herzlichen Glückwunsch zum Geburtstag! | Happy birthday! | g: m | pl: die Glückwünsche | c: Herzlichen Glückwunsch zur Hochzeit!
+      die Hochzeit | wedding | n | Zur Hochzeit schenken wir ihnen etwas für die Küche. | For the wedding we're giving them something for the kitchen. | g: f | pl: die Hochzeiten
+      Alles Gute! | All the best! | expr | Alles Gute zum Geburtstag! | Happy birthday! | n: Also: Alles Gute für die Zukunft!
+      Viel Erfolg! | Good luck! (with work, exams) | expr | Viel Erfolg bei der Prüfung! | Good luck in the exam! | n: Also: Viel Glück!
+      sich aussuchen | to choose (for yourself) | v | Such dir ein Buch aus, ich bezahle! | Pick a book for yourself, I'll pay! | n: Separable, with a dative reflexive: ich suche mir … aus.
+      die Kerze | candle | n | Auf dem Kuchen stehen dreißig Kerzen. | There are thirty candles on the cake. | g: f | pl: die Kerzen
+    grammar:
+      title: "Reflexive pronouns in the dative: Ich wünsche mir…"
+      body: |
+        When a reflexive verb also has an **accusative object** (the thing), the reflexive pronoun is in the **dative**: *Ich wünsche **mir** ein Fahrrad.* (ein Fahrrad = accusative). Only **ich** and **du** look different: **mir, dir** instead of mich, dich. All the others stay the same — *sich, uns, euch, sich*.
+
+        Common verbs of this kind: *sich etwas wünschen, sich etwas kaufen, sich etwas aussuchen, sich etwas ansehen*: *Kauf dir doch neue Schuhe! Wir sehen uns den Weihnachtsmarkt an.* Compare: *Ich freue **mich**.* (no other object → accusative) and *Ich wünsche **mir** ein Buch.* (a thing in the accusative → dative).
+
+        For presents, use **schenken** with a dative person and an accusative thing (Unit 6): *Ich schenke **meiner Schwester** einen Gutschein.* To talk about ideas, use **würde**: *Was würdest du ihm schenken? – Ich würde ihm ein Buch schenken.*
+      table: |
+        Pronoun | Without a thing (accusative) | With a thing (dative)
+        ich | Ich freue mich. | Ich wünsche mir ein Buch.
+        du | Du freust dich. | Du wünschst dir ein Rad.
+        er / sie | Er freut sich. | Sie wünscht sich einen Hund.
+        wir | Wir freuen uns. | Wir wünschen uns Ruhe.
+        ihr | Ihr freut euch. | Ihr wünscht euch ein Haus.
+        sie / Sie | Sie freuen sich. | Sie wünschen sich eine Reise.
+      examples: |
+        Was wünschst du dir zum Geburtstag? | What would you like for your birthday? | du → dir
+        Ich wünsche mir nur Zeit mit meiner Familie. | All I want is time with my family. | ich → mir
+        Kauf dir doch das Kleid! | Why don't you buy yourself the dress? | imperative + dir
+        Ich würde meinem Vater einen Kochkurs schenken. | I'd give my father a cooking course. | würde + schenken + dative
+      tip: If there is a thing in the sentence (ein Buch, Zeit, ein Fahrrad), ich and du take mir and dir.
+    dialogue:
+      title: Ein Geschenk für Oma
+      setting: Yasmin and her brother Noah, two students in Saarbrücken, are planning a present for their grandmother's 80th birthday.
+      speakers: Y=Yasmin/f; N=Noah/m
+      lines: |
+        Y: Noah, Oma wird nächsten Monat achtzig! Was schenken wir ihr? | Noah, Grandma turns eighty next month! What shall we give her?
+        N: Keine Ahnung. Was wünscht sie sich denn? | No idea. What would she like?
+        Y: Sie sagt immer: „Ich wünsche mir nichts, ich habe alles.“ | She always says: "I don't want anything, I've got everything."
+        N: Das sagt sie jedes Jahr. Ich würde ihr einen Gutschein schenken, für ein Konzert vielleicht. | She says that every year. I'd give her a voucher, for a concert maybe.
+        Y: Hm, ein Gutschein ist ein bisschen langweilig. | Hm, a voucher is a bit boring.
+        N: Dann vielleicht ein Fotoalbum mit Bildern von der ganzen Familie? | Then maybe a photo album with pictures of the whole family?
+        Y: Super Idee! Sie freut sich bestimmt sehr. | Great idea! She'll definitely be really pleased.
+        N: Gut. Ich sehe mir heute Abend alle alten Fotos an. | Good. I'll look through all the old photos this evening.
+        Y: Und ich kaufe ein schönes Album und packe es ein. | And I'll buy a nice album and wrap it.
+        N: Was schreiben wir auf die Karte? | What shall we write on the card?
+        Y: „Liebe Oma, herzlichen Glückwunsch zum Achtzigsten! Alles Liebe, Yasmin und Noah.“ | "Dear Grandma, happy 80th birthday! Lots of love, Yasmin and Noah."
+        N: Perfekt. Und eine Torte mit achtzig Kerzen! | Perfect. And a cake with eighty candles!
+    pronunciation:
+      title: "Glückwunsch: ü, w and stress in wishes"
+      body: |
+        In *Glückwunsch* and *wünschen*, the **ü** is short and round, and **w** is always [v], like English *v*: [ˈɡlʏkvʊnʃ]. The **sch** is like English *sh*.
+
+        In wishes, stress the key word and let your voice fall warmly at the end: *Herzlichen GLÜCKwunsch! ALles Gute! Viel ErFOLG!*
+      items: |
+        Herzlichen Glückwunsch!
+        Alles Gute zum Geburtstag!
+        Viel Erfolg!
+        Frohe Weihnachten!
+        Ich wünsche mir ein Buch.
+        Was wünschst du dir?
+    culture:
+      title: Birthdays and presents
+      body: |
+        In Germany it is considered bad luck to wish someone a happy birthday before the day itself — wait until the day, or until midnight at a party. At work, the person with the birthday often brings cake for the colleagues, and round birthdays like the 30th, 50th or 80th are celebrated in a big way.
+
+        Presents are usually opened straight away, in front of the person who gave them. Cards are short and warm: *Alles Gute*, *Herzlichen Glückwunsch*, *Alles Liebe*.
+    mistakes: |
+      Ich wünsche mich ein Fahrrad. => Ich wünsche mir ein Fahrrad. | With a thing in the accusative, the reflexive pronoun is dative: mir.
+      Ich schenke meine Schwester ein Buch. => Ich schenke meiner Schwester ein Buch. | The person who receives a present is dative.
+      Herzlichen Glückwunsch für deinen Geburtstag! => Herzlichen Glückwunsch zum Geburtstag! | The fixed phrase uses zum: zum Geburtstag, zur Hochzeit.
+    task:
+      title: A card for every occasion
+      mode: writing
+      body: |
+        Write three short cards: a birthday card for a friend, a wedding card for two colleagues, and a message for a friend who starts a new job. Use a different good wish in each card, and say in one card what you are giving them.
+    exercises: |
+      fill: Ich wünsche ___ einen Hund. || mir || With a thing (einen Hund), ich takes the dative mir. || @tags de.reflexive,de.dative
+      fill: Wir schenken ___ Lehrerin einen Blumenstrauß. (unsere) || unserer || The receiver is dative: die Lehrerin → unserer Lehrerin. || @tags de.dative
+      fill: Was ___ du deinem Bruder schenken? (würde) || würdest || Du → würdest; schenken goes to the end. || @tags de.konjunktiv2
+      mc: Your colleagues are getting married. You write: || Gute Besserung! | *Herzlichen Glückwunsch zur Hochzeit! | Viel Erfolg bei der Prüfung! || Zur Hochzeit = for the wedding; Gute Besserung is for someone who is ill. || @tags de.vocabulary
+      mc: "Meine Tochter wünscht ___ eine Katze." Choose the pronoun. || ihr | *sich | ihm || With the third person (sie = she), the reflexive pronoun is always sich. || @tags de.reflexive
+      rw: Say what you would give, with würde :: Ich schenke meiner Mutter ein Buch. || Ich würde meiner Mutter ein Buch schenken. || Würde in position 2, schenken at the end. || @tags de.konjunktiv2
+      tf: Grandma says she would like a new photo album. || false || She always says she wants nothing: "Ich wünsche mir nichts, ich habe alles." || @ctx dialogue
+      short: What are Yasmin and Noah giving their grandmother? || kw: fotoalbum/album/photo || A photo album with pictures of the whole family. || @ctx dialogue
+      listen: @dialogue || What is Noah going to do this evening? || Buy an album | *Look through all the old photos | Write the card || "Ich sehe mir heute Abend alle alten Fotos an."
+      listen: Herzlichen Glückwunsch zum Geburtstag, Tim! Ich wünsche dir alles Gute und viel Erfolg im neuen Job. || What is new in Tim's life? || A flat | *A job | A baby || Viel Erfolg im neuen Job = good luck in the new job. || @tags de.listening
+      dict: Ich wünsche mir zum Geburtstag nur Zeit mit dir.
+      ask: A friend asks "Was wünschst du dir zum Geburtstag?" Answer and say why. || kw: wünsche mir/ich wünsche & weil/denn || Ich wünsche mir ein Fahrrad, weil mein altes kaputt ist.
+      write: Write a short birthday card (3–4 sentences) for a friend: congratulate them, wish them something and say what your present is. || min=25 || req: liebe/lieber | glückwunsch/alles gute/alles liebe | wünsche/schenke || Lieber Jonte, herzlichen Glückwunsch zum Geburtstag! Ich wünsche dir viel Glück, Gesundheit und tolle Reisen. Ich schenke dir einen Gutschein für dein Lieblingsrestaurant – ich komme natürlich mit! Alles Liebe, Ronja

@@ -1,0 +1,343 @@
+unit: 4
+title: Miljø og klima
+theme: Environment
+description: Understand climate policy, discuss sustainable cities and debate green solutions — with connectors of cause and consequence (eftersom, idet, for, dermed), contrast (skønt, til trods for, imidlertid, derimod) and paired connectors (både … og, jo … desto).
+objectives:
+  - Explain causes and consequences with da, eftersom, idet, for, på grund af, dermed and således
+  - Concede and contrast with skønt, til trods for, trods, dog, imidlertid, derimod and til gengæld
+  - Structure a debate contribution with paired connectors (både … og, hverken … eller, jo … desto)
+canDo:
+  - I can explain why a climate goal is hard to reach and what a measure leads to.
+  - I can weigh the pros and cons of a local green project.
+  - I can concede a point and still argue for my position.
+  - I can take part in a debate and help reach a compromise.
+review: |
+  fill: Vi tog bussen, ___ vi havde ikke cyklerne med. || for || For is followed by main-clause word order (havde ikke); fordi would need ikke before the verb. || @tags da.connectors,da.word-order
+  fill: ___ stormen blev alle færger aflyst. (because of) || På grund af / Som følge af || På grund af (or som følge af) + noun gives a cause. || @tags da.connectors
+  mc: Choose the correct word order. || *Dermed er målet nået. | Dermed målet er nået. | Dermed er nået målet. || Dermed is an adverb: in first position the finite verb follows, then the subject. || @tags da.connectors,da.word-order
+  fill: ___ at det regnede, kom der mange mennesker. (despite the fact) || Til trods for || Til trods for at + clause = despite the fact that. || @tags da.connectors
+  mc: "Det var dyrt. Til gengæld holder det i mange år." What does til gengæld introduce? || *An advantage that makes up for the disadvantage | A second disadvantage | The reason why it was expensive || Til gengæld presents a compensating advantage. || @tags da.connectors
+  fill: Han drikker ___ kaffe ___ te. (neither … nor) || hverken ; eller || Hverken … eller is already negative, so there's no ikke. || @tags da.connectors,da.negation
+  rw: Combine with jo … desto :: Vi planter flere træer. Luften bliver renere. || Jo flere træer vi planter, desto renere bliver luften. | Jo flere træer vi planter, jo renere bliver luften. || Jo-part with the subject before the verb; desto-part with inversion. || @tags da.connectors,da.comparatives
+  listen: Eftersom vandstanden stiger, skal der bygges højere diger langs kysten. Projektet bliver dog dyrt for de små kommuner. || What is the problem with the project? || *It will be expensive for the small municipalities | The water level is falling | Nobody lives along the coast || "Projektet bliver dog dyrt for de små kommuner." || @tags da.listening,da.connectors
+  listen: Ikke alene sparer familien penge på varmen, men huset er også blevet meget mere behageligt at bo i. || What has changed for the family? || *They save money and the house is more comfortable | They pay more for heating | They have moved house || "Ikke alene sparer familien penge…, men huset er også blevet…" || @tags da.listening,da.connectors
+  ask: Should your town spend more money on cycle paths or on public transport? Give a reason, a consequence and a counter-argument. || kw: fordi/da/eftersom/for & derfor/dermed/så & selvom/men/dog/alligevel/derimod/imidlertid || Jeg synes, byen skal bruge pengene på busser, eftersom mange ældre ikke kan cykle. Dermed får flere mulighed for at lade bilen stå. Cykelstier er ganske vist billigere, men de hjælper ikke alle.
+  write: Write a short opinion text (8–10 sentences) about a climate measure. Use connectors of cause, consequence and contrast. || min=80 || req: fordi/da/eftersom/idet/for | derfor/dermed/således | selvom/skønt/dog/imidlertid/derimod/alligevel || Min kommune har indført gratis busser i weekenden. Det er en god idé, eftersom mange unge ikke har bil. Dermed kan de komme til fritidsjob og sport uden at blive kørt af deres forældre. Ordningen er dog dyr, og nogle mener, at pengene burde bruges på skolerne. Skønt jeg forstår det argument, synes jeg, at bussen er en investering i fremtiden. For hvis unge vænner sig til at tage bussen, gør de det måske også som voksne. Derfor håber jeg, at ordningen bliver gjort permanent.
+lessons:
+  - title: Climate policy
+    summary: Read an explainer about how climate goals become action, and link causes and consequences with da, eftersom, idet, for, på grund af, dermed and således.
+    minutes: 50
+    skills: [reading, grammar, writing]
+    tags: [da.connectors, da.word-order, da.reading]
+    objectives:
+      - Express cause with da, eftersom, idet, for and på grund af / som følge af
+      - Express consequence with derfor, dermed and således — with inversion
+      - Understand a factual text about climate goals and policy tools
+    intro: |
+      Setting a climate goal is one thing; reaching it is another. In this lesson you'll read an explainer about how Denmark works towards its climate targets — what has already been achieved, why the rest is harder, and which tools politicians can use. Explanatory texts like this are built on connectors of **cause** and **consequence**, and many of them come with their own word-order rules.
+    vocab: |
+      en udledning | an emission | n | Udledningen af drivhusgasser skal reduceres. | Greenhouse gas emissions must be reduced. | g: c | pl: udledninger | c: udledningen af CO₂
+      en drivhusgas | a greenhouse gas | n | CO₂ er den mest kendte drivhusgas. | CO₂ is the best-known greenhouse gas. | g: c | pl: drivhusgasser
+      reducere | to reduce | v | Virksomheden har reduceret sit energiforbrug med en tredjedel. | The company has reduced its energy consumption by a third. | n: Past: reducerede. En reduktion = a reduction.
+      forpligte sig til | to commit oneself to | v | Kommunen har forpligtet sig til at plante ti tusind træer. | The municipality has committed itself to planting ten thousand trees. | n: Reflexive. Past: forpligtede sig.
+      bindende | binding | adj | Aftalen er juridisk bindende. | The agreement is legally binding. | n: Same form for all genders and plural.
+      en afgift | a tax; a duty; a fee | n | Der er høj afgift på benzin i Danmark. | There's a high tax on petrol in Denmark. | g: c | pl: afgifter
+      et tilskud | a subsidy; a grant | n | Familien fik tilskud til en ny varmepumpe. | The family got a subsidy for a new heat pump. | g: n | pl: tilskud
+      en adfærd | behaviour | n | Afgifter kan ændre forbrugernes adfærd. | Taxes can change consumers' behaviour. | g: c | n: No plural.
+      tilstrækkelig | sufficient | adj | Ifølge eksperterne er indsatsen ikke tilstrækkelig. | According to the experts, the effort isn't sufficient. | n: Et-words: tilstrækkeligt.
+      en indsats | an effort; a measure | n | Indsatsen mod forurening skal styrkes. | The effort against pollution must be strengthened. | g: c | pl: indsatser
+      skyldes | to be due to | v | Faldet i udledningen skyldes især vindmøllerne. | The fall in emissions is mainly due to the wind turbines. | n: A deponent s-verb: no active form in this meaning. Past: skyldtes.
+    grammar:
+      title: "Cause and consequence: da, eftersom, idet, for, dermed"
+      body: |
+        At B1 you used fordi, derfor and så. Written and formal Danish has more options, and they follow three different word-order patterns.
+
+        **1. Subordinating conjunctions of cause** — *fordi, da, eftersom, idet* (formal). They introduce a subordinate clause: ikke goes before the verb. *Eftersom loven **ikke er** bindende, …* Da can also mean "when" with the past tense (*Da jeg var barn…*), so let the context decide.
+
+        **2. For** (for, because) is a **coordinating** conjunction. It always follows the main clause and is followed by **main-clause** word order: *Vi tog toget, for vi **havde ikke** råd til at flyve.* Compare: *…, fordi vi **ikke havde** råd.*
+
+        **3. Adverbs of consequence** — *derfor, dermed* (thereby, as a result), *således* (thus; formal), *så*. In first position they trigger inversion: ***Dermed er** elsektoren blevet grønnere.*
+
+        A cause can also be a noun phrase: *på grund af* (because of), *som følge af* (as a result of): *på grund af stormen*. And the verb *skyldes* (is due to) puts the cause at the end: *Faldet **skyldes** vindmøllerne.*
+      table: |
+        Connector | Type | Word order | Example
+        fordi, da, eftersom, idet | cause — subordinate clause | ikke before the verb | …, eftersom loven ikke er bindende.
+        for | cause — coordinating | main clause | …, for loven er ikke bindende.
+        på grund af, som følge af | cause + noun | — | på grund af stormen
+        derfor, dermed, således | consequence — adverb | inversion | Dermed er målet nået.
+        skyldes | "is due to" — verb | — | Faldet skyldes vindmøllerne.
+      examples: |
+        Eftersom det blæser meget i Danmark, er vindmøller et oplagt valg. | Since it's very windy in Denmark, wind turbines are an obvious choice. | eftersom + subordinate clause
+        Afgiften virker, idet den gør det dyrere at forurene. | The tax works in that it makes polluting more expensive. | idet: formal
+        Vi cykler til arbejde, for vi har ingen bil. | We cycle to work, because we haven't got a car. | for + main clause
+        Kulkraftværkerne er lukket. Dermed er udledningen faldet. | The coal-fired power stations have closed. As a result, emissions have fallen. | dermed + inversion
+      tip: "Fordi and for look alike but behave differently: …, fordi vi ikke har en bil — …, for vi har ikke en bil."
+    reading:
+      title: Fra mål til handling
+      text: |
+        Fra mål til handling
+
+        Klimapolitik handler om at sætte mål – men endnu mere om at nå dem. I 2020 vedtog Folketinget en klimalov, og dermed forpligtede Danmark sig til at reducere udledningen af drivhusgasser med 70 procent i 2030 i forhold til 1990. Eftersom loven er bindende, skal skiftende regeringer hvert år gøre rede for, hvordan målet skal nås. Det uafhængige Klimaråd vurderer løbende, om indsatsen er tilstrækkelig.
+
+        Hvorfor er det så svært? Det skyldes blandt andet, at de nemmeste reduktioner allerede er gennemført. I 1990 kom en stor del af strømmen fra kulkraftværker, men i dag dækker vindmøller omkring halvdelen af elforbruget. Dermed er elsektoren blevet langt grønnere. De resterende udledninger kommer især fra transport, landbrug og industri, og her er løsningerne ofte dyrere eller teknisk mere komplicerede.
+
+        Politikerne har grundlæggende tre slags redskaber. For det første kan de gøre det dyrere at forurene, for eksempel med afgifter på CO₂. For det andet kan de gøre det billigere at vælge grønt, for eksempel med tilskud til varmepumper. For det tredje kan de stille krav, for eksempel til energiforbruget i nye bygninger. Hvert redskab har fordele og ulemper. Afgifter virker ofte effektivt, idet de giver både virksomheder og forbrugere en økonomisk grund til at ændre adfærd. Men de kan ramme socialt skævt, da en afgift fylder mere i et lille budget end i et stort.
+
+        Klimapolitik er heller ikke kun et nationalt anliggende. Udledninger kender ingen grænser, og derfor bliver mange af reglerne aftalt i EU og i FN. Samtidig spiller kommunerne en stor rolle, for det er ofte dem, der planlægger busruter, cykelstier og fjernvarme. Næsten alle danske kommuner har således udarbejdet deres egen klimaplan.
+
+        Endelig er der borgerne. Som følge af den store opmærksomhed på klimaet har mange ændret vaner: De flyver mindre, spiser mindre kød eller sorterer mere affald. Forskere peger dog på, at individuelle valg ikke kan stå alene. Uden store, fælles beslutninger bliver målene næppe nået.
+      translation: |
+        From goals to action
+
+        Climate policy is about setting goals – but even more about reaching them. In 2020 the Danish parliament passed a climate act, and with it Denmark committed itself to reducing greenhouse gas emissions by 70 per cent by 2030 compared with 1990. Since the act is binding, successive governments must report every year on how the target is to be reached. The independent Climate Council continuously assesses whether the effort is sufficient.
+
+        Why is it so difficult? Partly because the easiest reductions have already been made. In 1990 a large part of the electricity came from coal-fired power stations, but today wind turbines cover around half of electricity consumption. As a result, the electricity sector has become far greener. The remaining emissions come mainly from transport, agriculture and industry, and here the solutions are often more expensive or technically more complicated.
+
+        Politicians basically have three kinds of tools. Firstly, they can make it more expensive to pollute, for example with taxes on CO₂. Secondly, they can make it cheaper to choose green, for example with subsidies for heat pumps. Thirdly, they can set requirements, for example for the energy consumption of new buildings. Each tool has advantages and disadvantages. Taxes often work effectively, in that they give both companies and consumers an economic reason to change their behaviour. But they can hit unevenly, since a tax takes up more of a small budget than of a large one.
+
+        Nor is climate policy only a national matter. Emissions know no borders, and that is why many of the rules are agreed in the EU and the UN. At the same time, the municipalities play a big role, because they are often the ones who plan bus routes, cycle paths and district heating. Almost all Danish municipalities have thus drawn up their own climate plan.
+
+        Finally, there are the citizens. As a result of the great attention to the climate, many have changed their habits: they fly less, eat less meat or sort more waste. Researchers point out, however, that individual choices cannot stand alone. Without big, shared decisions, the goals will hardly be reached.
+    pronunciation:
+      title: "International words with final stress: politik, energi"
+      body: |
+        Many words in climate and policy texts come from Latin, Greek or French, and Danish usually stresses them on the last syllable: *po-li-TIK, e-ner-GI, in-du-STRI, tek-no-lo-GI, re-duk-TION*. Words in -isk keep the stress before the ending: *ø-ko-NO-misk*.
+
+        Some common words don't follow the pattern: *KLI-ma* is stressed on the first syllable. Listen and repeat.
+      items: |
+        politik
+        energi
+        industri
+        økonomisk
+        klima
+        Klimapolitik handler om energi og industri.
+    culture:
+      title: Wind, coal and district heating
+      body: |
+        Denmark built some of the world's first modern wind turbines in the 1970s and 80s, and offshore wind farms now surround much of the coast. Most Danish homes in towns are heated by **fjernvarme** (district heating): hot water from a central plant is piped to thousands of homes. Over the past decades many of these plants have switched from coal to biomass, heat pumps and waste heat from industry.
+    mistakes: |
+      …, for vi ikke har en bil. => …, for vi har ikke en bil. | For is followed by main-clause word order: ikke after the verb.
+      Eftersom loven er ikke bindende, … => Eftersom loven ikke er bindende, … | Eftersom introduces a subordinate clause: ikke before the verb.
+      Dermed udledningen er faldet. => Dermed er udledningen faldet. | Dermed is an adverb; in first position the verb comes next.
+    task:
+      title: One measure, explained
+      mode: writing
+      body: |
+        Choose one climate measure in your country or town — a tax, a subsidy, a new cycle path, a ban, a district heating plant. In 100–120 words, explain why it was introduced and what its consequences have been. Use at least four different connectors of cause and consequence (eftersom, idet, for, på grund af, dermed, således). Read your text aloud and check the word order after each connector.
+    exercises: |
+      fill: ___ loven er bindende, skal regeringen hvert år gøre rede for sine planer. (since — formal) || Eftersom / Da / Idet || Eftersom (or da, idet) gives the cause in a subordinate clause. || @tags da.connectors
+      fill: Vi tog toget, ___ vi havde ikke råd til at flyve. || for || Main-clause word order after the connector (havde ikke) means it must be for. || @tags da.connectors,da.word-order
+      fill: Kraftværket er lukket. ___ er udledningen faldet med en tredjedel. (as a result) || Dermed / Derfor / Således || An adverb of consequence in first position, followed by the verb. || @tags da.connectors,da.word-order
+      mc: Which sentence is correct? || *Vi cykler, for vi har ikke en bil. | Vi cykler, for vi ikke har en bil. | Vi cykler, fordi vi har ikke en bil. || For takes main-clause order (har ikke); fordi takes subordinate order (ikke har). || @tags da.connectors,da.negation
+      mc: "Faldet i udledningen skyldes især vindmøllerne." What does it mean? || *The fall in emissions is mainly due to the wind turbines | The wind turbines are mainly to blame for emissions | Emissions have fallen despite the wind turbines || Skyldes = is due to: the wind turbines are the cause of the fall. || @tags da.connectors,da.s-verbs
+      tf: Today wind turbines cover about half of Denmark's electricity consumption. || true || "…i dag dækker vindmøller omkring halvdelen af elforbruget." || @ctx reading
+      mc: Why are the remaining reductions harder, according to the text? || *The easiest reductions have already been made | The EU has banned new measures | Citizens refuse to change their habits || "Det skyldes blandt andet, at de nemmeste reduktioner allerede er gennemført." || @ctx reading @skill reading @tags da.reading
+      short: Name one of the three kinds of tools politicians have. || kw: afgift/tax/tilskud/subsid/krav/requirement/rules || Taxes (afgifter), subsidies (tilskud) or requirements (krav). || @ctx reading
+      listen: På grund af de høje energipriser sidste vinter har mange familier installeret en varmepumpe. Dermed er deres forbrug af gas faldet markant. || What has happened to the families' gas consumption? || *It has fallen sharply | It has risen | It has stayed the same || "Dermed er deres forbrug af gas faldet markant." || @tags da.listening,da.connectors
+      rw: Combine the sentences with eftersom :: Afgiften på benzinbiler er høj. Mange køber elbiler. || Eftersom afgiften på benzinbiler er høj, køber mange elbiler. | Mange køber elbiler, eftersom afgiften på benzinbiler er høj. || The eftersom-clause gives the cause; if it comes first, the main clause starts with the verb. || @tags da.connectors,da.word-order
+      tr: The tax works because it makes polluting more expensive. || Afgiften virker, fordi den gør det dyrere at forurene. | Afgiften virker, idet den gør det dyrere at forurene. | Afgiften virker, da den gør det dyrere at forurene. | Afgiften virker, eftersom den gør det dyrere at forurene. | Afgiften virker, for den gør det dyrere at forurene. || Any causal connector works; afgift is an en-word, so it's den. || @tags da.connectors
+      ask: Explain one reason why it is hard to cut emissions, and one consequence of a climate measure you know. || kw: fordi/da/eftersom/idet/for/på grund af/skyldes & derfor/dermed/således/så || Det er svært at reducere udledningen fra landbruget, eftersom løsningerne er dyre. Men i min by har man bygget nye cykelstier, og dermed er der kommet færre biler i centrum.
+      write: Explain one climate measure in your country or town (100–120 words). || min=80 || req: eftersom/da/idet/fordi/for | derfor/dermed/således/som følge af || I min by har kommunen indført en ny regel om, at alle nye huse skal have solceller på taget. Reglen blev indført, eftersom kommunen har forpligtet sig til at være klimaneutral i 2035. Mange bygherrer var først imod, for solceller gør byggeriet dyrere. Men elregningen bliver lavere, idet husene selv producerer en del af strømmen. Dermed kan de ekstra udgifter tjenes hjem på nogle år. Som følge af reglen er der også kommet flere lokale arbejdspladser inden for installation. Derfor tror jeg, at flere kommuner vil gøre det samme.
+      dict: Eftersom loven er bindende, skal målet nås.
+
+  - title: Sustainable cities
+    summary: Discuss a climate-adapted park and car-free streets, and concede and contrast with skønt, til trods for, trods, dog, imidlertid, derimod and til gengæld.
+    minutes: 50
+    skills: [speaking, grammar, listening]
+    tags: [da.connectors, da.subordinate-clauses, da.word-order]
+    objectives:
+      - Concede a point with selvom, skønt and til trods for (at)
+      - Contrast with dog, imidlertid, derimod, hvorimod and til gengæld
+      - Discuss the pros and cons of green urban projects
+    intro: |
+      Danish cities are being rebuilt for heavier rain and fewer cars: parks that can hold rainwater during a cloudburst, streets without parking, more trees and cycle lanes. Not everyone is happy about it. In this lesson an urban planner shows a sceptical resident around a new climate park in Copenhagen. Listen to how they concede points and still argue their case — the key skill in any discussion at B2.
+    vocab: |
+      et skybrud | a cloudburst | n | Ved skybruddet i 2011 blev tusindvis af kældre oversvømmet. | In the cloudburst in 2011, thousands of basements were flooded. | g: n | pl: skybrud
+      oversvømme | to flood | v | Gaden bliver oversvømmet, hver gang det regner kraftigt. | The street floods every time it rains heavily. | n: Past: oversvømmede. En oversvømmelse = a flood.
+      en klimatilpasning | a climate adaptation | n | Parken er et eksempel på klimatilpasning. | The park is an example of climate adaptation. | g: c | pl: klimatilpasninger
+      en byplanlægger | an urban planner | n | Byplanlæggerne vil have flere træer i gaderne. | The urban planners want more trees in the streets. | g: c | pl: byplanlæggere
+      rumme | to hold; to contain | v | Bassinet kan rumme millioner af liter vand. | The basin can hold millions of litres of water. | n: Past: rummede.
+      indrømme | to admit | v | Jeg må indrømme, at det er blevet flot. | I have to admit that it has turned out nicely. | n: Past: indrømmede.
+      være imod | to be against | expr | Mange beboere var imod projektet i starten. | Many residents were against the project at first. | n: Opposite: være for (be in favour of).
+      vænne sig til | to get used to | v | Folk vænner sig hurtigt til færre biler. | People quickly get used to fewer cars. | n: Reflexive. Past: vænnede sig.
+      en forandring | a change | n | Store forandringer tager tid. | Big changes take time. | g: c | pl: forandringer
+      bilfri | car-free | adj | Hovedgaden blev bilfri sidste sommer. | The high street became car-free last summer. | n: Et-words: bilfrit.
+      ros | praise | n | Projektet har fået ros fra både beboere og eksperter. | The project has received praise from both residents and experts. | g: c | n: No plural. Verb: rose (to praise).
+    grammar:
+      title: "Contrast: skønt, til trods for, imidlertid, derimod"
+      body: |
+        At B1 you used men, selvom and alligevel. B2 adds more precise and more formal options. Sort them by grammar:
+
+        **1. Subordinating conjunctions** — subordinate-clause word order, ikke before the verb: *selvom / selv om*, *skønt* (formal), *til trods for at*, *hvorimod* (whereas). *Skønt jeg **ikke var** enig, sagde jeg ja.* · *I byen cykler mange, hvorimod man på landet har brug for en bil.*
+
+        **2. Prepositions + noun** — *trods*, *til trods for* (despite): *Trods regnen kom mange.* · *til trods for de høje priser*. With a clause you need at: *til trods for **at** det regnede*.
+
+        **3. Adverbs** — *alligevel* (even so), *dog* (however), *imidlertid* (however; formal), *derimod* (on the other hand, by contrast), *til gengæld* (but then — a compensating advantage). In first position they trigger inversion: ***Imidlertid er** det billigere.* Dog and imidlertid usually sit in the sentence-adverb slot instead: *Vi har **dog** lavet fire pladser.*
+
+        **Derimod or til gengæld?** Derimod simply contrasts two things: *Folk vænner sig langsomt til forandringer. Byen må derimod tilpasse sig hurtigt.* Til gengæld introduces an advantage that makes up for a disadvantage: *Det var dyrt. Til gengæld holder det i hundrede år.*
+      table: |
+        Type | Words | Example
+        subordinate clause | selvom, skønt, til trods for at, hvorimod | Skønt jeg var imod, må jeg indrømme…
+        preposition + noun | trods, til trods for | Trods klagerne fik vi ros.
+        adverb | alligevel, dog, imidlertid, derimod, til gengæld | Det var dyrt. Det er imidlertid billigere end…
+      examples: |
+        Til trods for at vi fjernede tredive pladser, er der stadig plads i p-huset. | Even though we removed thirty spaces, there's still room in the car park. | til trods for at + clause
+        Trods regnen kom over tusind mennesker til indvielsen. | Despite the rain, over a thousand people came to the opening. | trods + noun
+        Parken var dyr. Den er imidlertid billigere end oversvømmede kældre. | The park was expensive. However, it's cheaper than flooded basements. | imidlertid: formal
+        I byen er der mange cykelstier, hvorimod man på landet har brug for en bil. | In the city there are lots of cycle paths, whereas in the country you need a car. | hvorimod + subordinate clause
+      tip: "A strong B2 argument concedes first and then contrasts: Skønt projektet var dyrt, … / Det var dyrt. Til gengæld …"
+    dialogue:
+      title: Parken, der kan drikke regn
+      setting: A new climate-adapted park in Copenhagen. Pernille, an urban planner from the municipality, shows Lars, the chair of a local residents' association, around after the opening.
+      speakers: P=Pernille/f; L=Lars/m
+      lines: |
+        L: Det ser flot ud med alle de træer, men jeg forstår stadig ikke, hvorfor parkeringspladserne skulle fjernes. | It looks lovely with all the trees, but I still don't understand why the parking spaces had to be removed.
+        P: Det forstår jeg godt. Men til trods for at vi fjernede tredive pladser, er der stadig plads i p-huset. | I understand that. But even though we removed thirty spaces, there's still room in the multi-storey car park.
+        L: Ja, men det ligger fem minutter væk, og mine ældre naboer synes, det er langt. | Yes, but it's five minutes away, and my elderly neighbours think that's far.
+        P: Det er et rimeligt argument. Vi har dog lavet fire handicappladser lige her ved indgangen. | That's a fair point. We have, however, made four disabled parking spaces right here by the entrance.
+        L: Og hvad skal den lave del af parken bruges til? Den ligner en tom swimmingpool. | And what's the low part of the park for? It looks like an empty swimming pool.
+        P: Den er faktisk det vigtigste. Ved skybrud kan den rumme millioner af liter regnvand, så kældrene ikke bliver oversvømmet. | It's actually the most important part. During cloudbursts it can hold millions of litres of rainwater, so that basements don't flood.
+        L: Smart. Skønt jeg var imod projektet, må jeg indrømme, at kvarteret er blevet hyggeligere. | Clever. Although I was against the project, I have to admit that the neighbourhood has become nicer.
+        P: Det hører vi tit. Trods de mange klager i starten får vi næsten kun ros nu. | We hear that a lot. Despite all the complaints at the beginning, we get almost nothing but praise now.
+        L: Men det har vel kostet en formue? Skolerne i kommunen klager jo over, at de mangler penge. | But it must have cost a fortune? The schools in the municipality complain that they're short of money, after all.
+        P: Det var dyrt, ja. Det er imidlertid langt billigere end at reparere oversvømmede kældre bagefter. | It was expensive, yes. However, it's far cheaper than repairing flooded basements afterwards.
+        L: Hos os fik tre familier ødelagt deres kældre ved skybruddet i 2011. Alligevel var mange imod parken. | In our building three families had their basements ruined in the 2011 cloudburst. Even so, many people were against the park.
+        P: Folk vænner sig langsomt til forandringer. Byen må derimod tilpasse sig hurtigt, for skybruddene kommer oftere. | People get used to change slowly. The city, by contrast, has to adapt quickly, because cloudbursts are becoming more frequent.
+    pronunciation:
+      title: "Connector stress: DERfor, but derMED and deriMOD"
+      body: |
+        Connectors built on *der-* are not all stressed the same way. *Derfor* is stressed on the first syllable: "DER-for". *Dermed* and *derimod* are stressed on the last: "der-MED", "der-i-MOD" — and the final d is soft.
+
+        *Imidlertid* is stressed on the second syllable: "i-MID-ler-tid". Getting the stress right makes these formal words easy for listeners to recognise. Listen and repeat.
+      items: |
+        derfor
+        dermed
+        derimod
+        imidlertid
+        Byen må derimod tilpasse sig hurtigt.
+    mistakes: |
+      Skønt jeg var ikke enig, … => Skønt jeg ikke var enig, … | Skønt introduces a subordinate clause: ikke before the verb.
+      Til trods for det regnede, … => Til trods for at det regnede, … | Til trods for takes a noun; before a clause it needs at.
+      Imidlertid det er billigere. => Imidlertid er det billigere. | Imidlertid is an adverb: in first position, the verb comes next.
+    task:
+      title: A car-free street?
+      mode: interaction
+      body: |
+        Your municipality proposes to make your street car-free and plant trees where the parking spaces are now. Prepare for a residents' meeting: two arguments against, one concession and one compensating advantage (til gengæld). Use skønt, til trods for, dog and derimod. Then argue your case in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: ___ jeg var imod projektet, må jeg indrømme, at det er blevet flot. (although) || Skønt / Selvom / Selv om / Til trods for at || A concessive subordinate clause; skønt is the most formal. || @tags da.connectors
+      fill: ___ regnen kom over tusind mennesker til indvielsen. (despite) || Trods / Til trods for || Trods / til trods for + noun. || @tags da.connectors
+      fill: Parken var dyr. Til ___ holder den i mange år. (a compensating advantage) || gengæld || Til gengæld introduces an advantage that makes up for the cost. || @tags da.connectors
+      mc: Which sentence is correct? || *Skønt jeg ikke var enig, sagde jeg ja. | Skønt jeg var ikke enig, sagde jeg ja. | Skønt jeg ikke var enig, jeg sagde ja. || Skønt-clause: ikke before the verb; then the main clause starts with the verb. || @tags da.connectors,da.subordinate-clauses
+      mc: "I byen har man ikke brug for bil, hvorimod man på landet næsten ikke kan undvære den." What does hvorimod express? || *A contrast between two situations | A cause | A condition || Hvorimod = whereas: it contrasts the city with the countryside. || @tags da.connectors
+      tf: Lars supported the project from the start. || false || "Skønt jeg var imod projektet, må jeg indrømme…" || @ctx dialogue
+      short: What is the low part of the park for? || kw: regnvand/rainwater/regn/rain/skybrud/cloudburst/vand/water || It holds rainwater during cloudbursts so basements don't flood. || @ctx dialogue
+      listen: @dialogue || Why must the city adapt quickly, according to Pernille? || *Cloudbursts are becoming more frequent | Residents demand it | The money must be spent this year || "Byen må derimod tilpasse sig hurtigt, for skybruddene kommer oftere." || @tags da.listening
+      listen: Cykelstierne i Odense er blevet bredere, men trods forbedringerne tager mange stadig bilen på arbejde. || What is the situation? || *Many people still drive to work despite the improvements | Nobody drives to work any more | The cycle paths have become narrower || "…trods forbedringerne tager mange stadig bilen på arbejde." || @tags da.listening,da.connectors
+      rw: Combine with til trods for at :: Det regnede. Festivalen blev en succes. || Til trods for at det regnede, blev festivalen en succes. | Festivalen blev en succes, til trods for at det regnede. || Til trods for at + clause; if it comes first, the main clause starts with the verb. || @tags da.connectors,da.word-order
+      tr: The project was expensive. However, it is cheaper than repairing flooded basements. || Projektet var dyrt. Det er imidlertid billigere end at reparere oversvømmede kældre. | Projektet var dyrt. Imidlertid er det billigere end at reparere oversvømmede kældre. | Projektet var dyrt. Det er dog billigere end at reparere oversvømmede kældre. || However = imidlertid or dog, in the sentence-adverb slot or (imidlertid) first with inversion. || @tags da.connectors
+      ask: Your town wants to make your street car-free. Give one argument against it, then concede something positive. || kw: selvom/skønt/til trods for/trods/alligevel/dog/imidlertid/derimod/til gengæld || Jeg er imod forslaget, for mange ældre er afhængige af bilen. Skønt det ville blive mere grønt og stille, bliver det svært at få varer leveret. Til gengæld ville børnene kunne lege mere sikkert på gaden.
+      write: Write a short letter to your local newspaper (6–8 sentences) about a green project in your town. Concede one disadvantage and argue for or against it. || min=60 || req: selvom/skønt/til trods for/trods | alligevel/dog/imidlertid/derimod/til gengæld || Til redaktionen. Kommunen har lukket Strandvejen for biler og plantet træer. Skønt jeg forstår, at butikkerne er bekymrede, synes jeg, at projektet er en succes. Gaden er dog blevet sværere at nå for ældre, og det bør kommunen løse med en lille bybus. Til gengæld er der kommet liv i gaden: caféer, børn og musik. Trods kritikken i starten har jeg kun hørt ros fra mine naboer. Lad os give projektet tid. Venlig hilsen Hanne Juul
+      dict: Skønt jeg var imod projektet, må jeg indrømme, at kvarteret er blevet hyggeligere.
+
+  - title: Debating solutions
+    summary: Take part in a debate about a green proposal and structure your arguments with paired connectors — både … og, hverken … eller, enten … eller, dels … dels, ikke alene … men også and jo … desto.
+    minutes: 50
+    skills: [speaking, grammar, listening]
+    tags: [da.connectors, da.comparatives, da.opinion]
+    objectives:
+      - Use paired connectors to structure arguments
+      - Use jo … desto with the correct word order in both halves
+      - Argue, respond to counter-arguments and reach a compromise in a debate
+    intro: |
+      Debating is a core skill in Danish schools: pupils learn early to argue, listen to counter-arguments and find a compromise — and debates in student councils can be surprisingly lively. In this lesson two students at a gymnasium in Aarhus debate whether the canteen should go meat-free two days a week. Listen to how they structure their arguments with paired connectors: *både … og, hverken … eller, jo … desto*.
+    vocab: |
+      et forslag | a proposal | n | Forslaget blev vedtaget med stort flertal. | The proposal was adopted by a large majority. | g: n | pl: forslag | c: stille et forslag
+      lægge ud | to open; to start (a debate) | v | Emil, vil du lægge ud? | Emil, will you start? | n: Particle verb. Past: lagde ud.
+      et modargument | a counter-argument | n | Hun havde et godt modargument klar. | She had a good counter-argument ready. | g: n | pl: modargumenter
+      et princip | a principle | n | Jeg er imod forslaget af princip. | I'm against the proposal on principle. | g: n | pl: principper
+      en forsøgsordning | a trial scheme | n | Kødfri dage indføres som en forsøgsordning. | Meat-free days are being introduced as a trial scheme. | g: c | pl: forsøgsordninger
+      evaluere | to evaluate | v | Ordningen skal evalueres efter et halvt år. | The scheme is to be evaluated after six months. | n: Past: evaluerede.
+      stemme om | to vote on | v | Elevrådet stemmer om forslaget på fredag. | The student council votes on the proposal on Friday. | n: Past: stemte om.
+      være uenig i | to disagree with | expr | Jeg er uenig i princippet, ikke i maden. | I disagree with the principle, not with the food.
+      sikre | to ensure; to secure | v | Hvordan sikrer vi, at alle bliver hørt? | How do we ensure that everyone is heard? | n: Past: sikrede.
+      en indtægt | an income; revenue | n | Kantinen mister indtægter, hvis eleverne går et andet sted hen. | The canteen loses revenue if the pupils go somewhere else. | g: c | pl: indtægter
+      kødfri | meat-free | adj | Torsdag er kødfri dag i kantinen. | Thursday is meat-free day in the canteen. | n: Et-words: kødfrit.
+    grammar:
+      title: "Paired connectors: både … og, hverken … eller, jo … desto"
+      body: |
+        Paired (correlative) connectors help you structure an argument clearly:
+
+        - **både … og** (both … and): *Forslaget er godt for **både** klimaet **og** sundheden.*
+        - **hverken … eller** (neither … nor) — already negative, so no ikke: *Jeg er **hverken** imod grøntsager **eller** imod klimaet.*
+        - **enten … eller (også)** (either … or): *Enten giver vi eleverne et frit valg, eller også bliver kantinen tom.* Fronted *enten* and *eller også* are followed by the verb.
+        - **dels … dels** (partly … partly): *Det er **dels** et spørgsmål om frihed, **dels** et spørgsmål om penge.*
+        - **ikke alene / ikke kun … men også** (not only … but also): *Det er ikke alene billigere, men også sundere.* If *ikke alene* starts the sentence, the verb follows: *Ikke alene **er det** billigere, men det er også sundere.*
+        - **jo … desto / jo … jo** (the more … the more): the jo-half has subordinate word order (subject before verb), and the desto-half has inversion: ***Jo** mindre kød **vi spiser**, **desto** lavere **bliver udledningen**.* When the subject is a quantity word like *flere*, add der: *Jo flere **der** cykler, desto færre biler er der.* A short fixed version: *Jo før, jo bedre.*
+      table: |
+        Pair | Meaning | Example
+        både … og | both … and | både billigt og sundt
+        hverken … eller | neither … nor | hverken kød eller fisk
+        enten … eller (også) | either … or | Enten tager vi toget, eller også bliver vi hjemme.
+        dels … dels | partly … partly | dels for klimaets skyld, dels for økonomiens
+        ikke alene … men også | not only … but also | Ikke alene er det billigt, men det er også sundt.
+        jo … desto | the … the | Jo mere vi cykler, desto bedre har vi det.
+      examples: |
+        Jo flere der cykler, desto færre biler er der i byen. | The more people cycle, the fewer cars there are in town. | jo … desto
+        Hun spiser hverken kød eller fisk. | She eats neither meat nor fish. | no ikke with hverken
+        Ikke alene er løsningen billig, men den er også hurtig at gennemføre. | Not only is the solution cheap, it's also quick to implement. | inversion after ikke alene
+        Enten investerer vi nu, eller også betaler vi mere senere. | Either we invest now, or we pay more later. | enten … eller også
+      tip: "In jo … desto, the first half sounds like a subordinate clause (jo mere vi cykler) and the second half starts with the comparative and the verb (desto bedre har vi det)."
+    dialogue:
+      title: Debat i elevrådet
+      setting: The student council of a gymnasium in Aarhus. Teacher Mette chairs a debate on a proposal to make the canteen meat-free two days a week. Emil is for, Naja against.
+      speakers: M=Mette/f; E=Emil/m; N=Naja/f
+      lines: |
+        M: Velkommen til debatten. Forslaget er, at kantinen bliver kødfri to dage om ugen. Emil, du lægger ud. | Welcome to the debate. The proposal is that the canteen goes meat-free two days a week. Emil, you start.
+        E: Tak. Forslaget er godt for både klimaet og vores sundhed. Jo mindre kød vi spiser, desto lavere bliver udledningen. | Thanks. The proposal is good for both the climate and our health. The less meat we eat, the lower the emissions.
+        N: Jeg er hverken imod grøntsager eller imod klimaet. Men jeg er imod, at skolen bestemmer, hvad vi spiser. | I'm neither against vegetables nor against the climate. But I'm against the school deciding what we eat.
+        M: Så det er princippet, du er uenig i, og ikke selve maden? | So it's the principle you disagree with, and not the food itself?
+        N: Præcis. Enten giver vi eleverne et frit valg, eller også bliver kantinen et sted, folk undgår. | Exactly. Either we give the students a free choice, or the canteen becomes a place people avoid.
+        E: Men det frie valg findes jo stadig de andre tre dage. Og kødfri dage er ikke alene billigere, men også populære på andre skoler. | But the free choice still exists on the other three days. And meat-free days are not only cheaper but also popular at other schools.
+        N: Det er dels et spørgsmål om frihed, dels et spørgsmål om penge. Går eleverne til bageren i stedet, mister kantinen indtægter. | It's partly a question of freedom, partly a question of money. If the students go to the baker's instead, the canteen loses revenue.
+        M: Det er et godt modargument. Emil, hvordan vil du sikre, at eleverne ikke bare går et andet sted hen? | That's a good counter-argument. Emil, how will you make sure the students don't just go somewhere else?
+        E: Ved at lave menuen sammen med eleverne. Jo mere de selv er med til at bestemme, desto flere spiser i kantinen. | By planning the menu together with the students. The more they help decide themselves, the more of them eat in the canteen.
+        N: Det kan jeg faktisk godt se. Men så skal det være en forsøgsordning og ikke en fast regel. | I can actually see that. But then it must be a trial scheme and not a permanent rule.
+        E: Det kan jeg godt gå med til. Lad os evaluere ordningen efter et halvt år. | I can agree to that. Let's evaluate the scheme after six months.
+        M: Så har vi både et kompromis og en plan. Lad os stemme om forsøgsordningen. | Then we have both a compromise and a plan. Let's vote on the trial scheme.
+    pronunciation:
+      title: "Jo … desto: stress the comparatives"
+      body: |
+        In a jo … desto sentence the two comparatives carry the meaning, so they carry the stress: *Jo MINDRE kød vi spiser, desto LAVERE bliver udledningen.* *Jo* and *desto* themselves are short and light, and there is a small pause at the comma.
+
+        In *både … og* and *hverken … eller*, stress the two things you are comparing: *både KLIMAET og SUNDHEDEN*. Listen and repeat.
+      items: |
+        Jo før, jo bedre.
+        Jo mere vi cykler, desto bedre har vi det.
+        hverken kød eller fisk
+        både billigt og sundt
+        Enten nu eller aldrig.
+    mistakes: |
+      Jeg spiser hverken ikke kød eller fisk. => Jeg spiser hverken kød eller fisk. | Hverken is already negative: don't add ikke.
+      Jo mere vi cykler, desto vi har det bedre. => Jo mere vi cykler, desto bedre har vi det. | The desto-half starts with the comparative, followed by the verb and then the subject.
+      Ikke alene det er billigt, men … => Ikke alene er det billigt, men … | In first position, ikke alene triggers inversion.
+    task:
+      title: Your turn to debate
+      mode: interaction
+      body: |
+        Choose a green proposal for your school, workplace or town — meat-free days, free buses for young people, a ban on single-use cups. Prepare two arguments for, two against and a possible compromise, using at least four paired connectors. Then debate it in the "Expressing an opinion" scenario with the AI coach, and try to end with a compromise.
+    exercises: |
+      fill: Forslaget er godt for ___ klimaet og økonomien. (both … and) || både || Både … og = both … and. || @tags da.connectors
+      fill: Hun spiser ___ kød ___ fisk. (neither … nor) || hverken ; eller || Hverken … eller, with no ikke. || @tags da.connectors,da.negation
+      fill: ___ mere vi cykler, ___ bedre har vi det. || Jo ; desto / jo || Jo … desto (or jo … jo) = the more … the better. || @tags da.connectors,da.comparatives
+      mc: Which sentence is correct? || *Ikke alene er det billigt, men det er også sundt. | Ikke alene det er billigt, men det er også sundt. | Ikke alene er billigt det, men det er også sundt. || Fronted ikke alene is followed by the verb, then the subject. || @tags da.connectors,da.word-order
+      mc: Which sentence is correct? || *Jo flere der cykler, desto færre biler er der. | Jo flere der cykler, desto der er færre biler. | Jo cykler flere, desto færre biler er der. || Jo-half: subject (flere der) before the verb; desto-half: comparative + verb + subject. || @tags da.connectors,da.word-order
+      tf: Naja is against vegetarian food. || false || "Jeg er hverken imod grøntsager eller imod klimaet." She is against the principle. || @ctx dialogue
+      short: Which two problems does Naja see in the proposal? || kw: frihed/freedom/valg/choice & penge/money/indtægt/revenue/income || "Det er dels et spørgsmål om frihed, dels et spørgsmål om penge." || @ctx dialogue
+      listen: @dialogue || What do they agree on in the end? || *A trial scheme that will be evaluated after six months | A permanent rule from next month | Rejecting the proposal || "Lad os evaluere ordningen efter et halvt år." || @tags da.listening
+      listen: Enten bygger vi flere cykelstier nu, eller også bliver trafikken i midtbyen endnu værre om fem år. || What does the speaker say? || *Without more cycle paths now, traffic will get worse | Traffic has already improved | Cycle paths will be built in five years || Enten … eller også presents two alternatives: build now, or traffic gets worse. || @tags da.listening,da.connectors
+      rw: Rewrite with både … og :: Løsningen er billig. Den er også hurtig. || Løsningen er både billig og hurtig. || Both qualities go after både … og. || @tags da.connectors
+      tr: Not only is it cheaper, it is also healthier. || Ikke alene er det billigere, men det er også sundere. | Det er ikke alene billigere, men også sundere. | Det er ikke kun billigere, men også sundere. | Ikke kun er det billigere, men det er også sundere. || Ikke alene / ikke kun … men også; fronted, it triggers inversion. || @tags da.connectors
+      ask: In a debate, argue for or against free public transport for young people. Use at least two paired connectors. || kw: både/hverken/enten/dels/ikke alene/ikke kun/jo || Jeg er for gratis busser til unge. Det er både godt for klimaet og for de unges frihed. Jo flere unge der vænner sig til bussen, desto færre biler får vi i fremtiden.
+      write: Write a debate contribution (8–10 sentences) about a green proposal for your school, workplace or town. Use at least three paired connectors. || min=80 || req: både/hverken/enten/dels/ikke alene/ikke kun | jo/desto/eller || Jeg vil gerne argumentere for, at vores arbejdsplads indfører en cykelordning. Ordningen er både billig og nem at gennemføre. Jo flere der cykler, desto færre parkeringspladser skal vi betale for. Det er dels et spørgsmål om klimaet, dels et spørgsmål om sundhed. Ikke alene får medarbejderne motion, men de bliver også sjældnere syge. Nogle siger, at de hverken har tid eller lyst til at cykle. Men ingen skal tvinges. Enten prøver vi ordningen et halvt år, eller også forbliver alt, som det er.
+      dict: Jo mindre kød vi spiser, desto lavere bliver udledningen.

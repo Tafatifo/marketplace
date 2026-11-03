@@ -1,0 +1,346 @@
+unit: 3
+title: Learning for life
+theme: Education and learning
+description: Compare school rules and systems with modals of obligation and permission, talk about how you learn languages with gerunds and infinitives, and give useful advice with should, ought to, had better and other expressions.
+objectives:
+  - Describe rules and obligations in the present and past (must, have to, mustn't, don't have to, be allowed to)
+  - Talk about learning habits using the correct gerund or infinitive after verbs and prepositions
+  - Give and respond to advice with different levels of strength
+canDo:
+  - I can describe the rules at my school and compare them with schools today or in another country.
+  - I can explain how I learn languages and what works best for me.
+  - I can give a friend useful advice about studying, using different expressions.
+  - I can understand a text about someone's experience of education.
+review: |
+  mc: "You ___ wear a suit to the interview — smart jeans are fine." || mustn't | *don't have to | aren't allowed to || Don't have to = it isn't necessary. Mustn't and aren't allowed to mean it's forbidden. || @tags en.modal-verbs
+  fill: When I was at school, we ___ (not / allowed) to use our phones in class. || weren't allowed / were not allowed || Past of be allowed to: were(n't) allowed to. || @tags en.modal-verbs
+  rw: Put the sentence in the past :: I have to take the bus to school every morning. || I had to take the bus to school every morning. || The past of have to and must is had to. || @tags en.modal-verbs
+  fill: I gave up ___ (study) Russian because I didn't have time. || studying || Give up is followed by -ing. || @tags en.gerund-infinitive
+  fill: We managed ___ (finish) the project before the deadline. || to finish || Manage is followed by to + infinitive. || @tags en.gerund-infinitive
+  mc: Choose the correct sentence. || I'm interested in learn sign language. | *I'm interested in learning sign language. | I'm interested to learning sign language. || After a preposition (in), use -ing. || @tags en.gerund-infinitive
+  mc: "Your exam starts in ten minutes. You ___ leave now!" || *'d better | ought | would || Had better ('d better) gives strong, urgent advice. Ought needs to (ought to), and would doesn't give advice. || @tags en.modal-verbs
+  fill: It's worth ___ (ask) your teacher for feedback on your essays. || asking || It's worth + -ing. || @tags en.modal-verbs,en.gerund-infinitive
+  listen: At my school we didn't have to wear a uniform, but we had to be in class by eight, and we weren't allowed to leave at lunchtime. || What weren't the students allowed to do? || Wear their own clothes | *Leave the school at lunchtime | Arrive at eight || "We weren't allowed to leave at lunchtime." They didn't have to wear a uniform. || @tags en.listening,en.modal-verbs
+  listen: I'd recommend watching a series you already know in English. You understand the story, so it's easier to pick up new words. || Why does the speaker recommend a series you already know? || *You already understand the story. | It has no subtitles. | It's shorter than a movie. || "You understand the story, so it's easier to pick up new words." || @tags en.listening,en.gerund-infinitive
+  ask: A friend is starting to learn a new language. Give them two pieces of advice, using two different expressions. || kw: should/ought to/had better/'d better/why don't you/you could/I'd recommend/it's worth/try || You should practice a little every day. I'd also recommend joining a language exchange — speaking with real people is the fastest way to improve.
+  write: Write a short paragraph (60–80 words) about your best or worst teacher. Describe the rules in their class and what you learned from them. || min=50 || req: had to/didn't have to/were allowed/weren't allowed/couldn't | learn/learned/taught || My best teacher was Mr. Duarte, who taught us history. In his class we had to read a chapter every week, but we didn't have to memorize dates. Instead, we were allowed to choose a topic and present it to the class. I hated speaking in public at first, but he encouraged me to keep trying. He taught me that asking questions is more important than knowing all the answers.
+lessons:
+  - title: School memories and systems
+    summary: Read about one student's experience of two very different schools, and describe rules and obligations in the present and past with must, have to, mustn't, don't have to and be allowed to.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [en.modal-verbs, en.reading, en.schwa]
+    objectives:
+      - Understand the difference between must, have to, mustn't and don't have to
+      - Talk about past rules with had to, didn't have to, could and was/were allowed to
+      - Compare school systems and memories
+    intro: |
+      Everybody remembers the rules at their school — the uniform, the homework, the things you were never allowed to do. School systems also vary a lot from country to country. In this lesson you will read about a student who went to school in two countries, and learn to talk about **obligation** and **permission** in the present and the past.
+    vocab: |
+      strict | demanding that people obey rules and behave well | adj | Our math teacher was strict but fair. | - | c: strict about something; strict rules
+      uniform | special clothes that all students at a school wear | n | We had to wear a green uniform with a tie. | - | c: wear a uniform; a school uniform
+      learn by heart | to learn something so well that you can repeat it from memory | expr | We had to learn a poem by heart every month. | - | n: Also: memorize.
+      term | one of the periods that the school year is divided into | n | The spring term starts in January. | - | n: Many American colleges say semester.
+      grade | a letter or number that shows how good a piece of work is | n | I got a good grade in history. | - | n: In the US, grade also means a school year: She's in fifth grade. British English: mark.
+      detention | a punishment in which a student has to stay at school after classes | n | He got a detention for being rude to a teacher. | -
+      be allowed to | to have permission to do something | expr | We weren't allowed to use our phones at school. | -
+      locker | a small metal cupboard where students keep their things | n | I kept my books and my phone in my locker. | -
+      break | a short time between classes when students can rest or play | n | We played soccer during the morning break. | - | n: American English also: recess (for younger children).
+      public school | a school paid for by the government | n | Both my kids go to the public school near our house. | - | n: Careful: in England, a "public school" is an expensive private school!
+      compulsory | required by a rule or law | adj | Math and English are compulsory subjects. | - | n: The opposite is optional. Also: mandatory.
+      group project | a piece of work that several students do together | n | We did a group project on the history of our town. | -
+    grammar:
+      title: "Obligation and permission: present and past"
+      body: |
+        - **must** — strong obligation, often a rule that the speaker or writer thinks is important (common on signs and in written rules): *Visitors must sign in at reception.*
+        - **have to** — obligation, often from outside (laws, rules, circumstances). In conversation, *have to* is more common than *must*: *We have to wear a uniform.*
+        - **mustn't** — it is **not allowed**: *You mustn't use your phone during the exam.*
+        - **don't have to** — it is **not necessary**, but you can if you want: *You don't have to bring a dictionary.*
+        - **can / be allowed to** — permission; **can't / not be allowed to** — no permission.
+
+        **Must** has no past form. For the past, use **had to** and **didn't have to**. For past permission, use **could / couldn't** or **was/were (not) allowed to**: *We **weren't allowed to** call teachers by their first names.*
+      table: |
+        Meaning | Present | Past
+        Necessary | must / have to | had to
+        Not necessary | don't have to | didn't have to
+        Not allowed | mustn't / can't / am not allowed to | couldn't / wasn't allowed to
+        Allowed | can / am allowed to | could / was allowed to
+      examples: |
+        We had to stand up when the teacher came in. | | past obligation
+        We weren't allowed to use calculators in math exams. | | past: no permission
+        You don't have to bring lunch — the school provides it. | | not necessary
+        Students mustn't run in the hallways. | | forbidden: a rule
+      tip: "Mustn't and don't have to look similar but mean very different things: You mustn't tell her (it's a secret!) / You don't have to tell her (it's your choice)."
+    reading:
+      title: Two schools, two worlds
+      text: |
+        When I was eleven, my family moved from Porto, in Portugal, to Toronto. I still remember my first week at my new school, because almost everything was different.
+
+        At my school in Porto, we had to stand up when a teacher came into the classroom, and we weren't allowed to call teachers by their first names. We didn't have to wear a uniform, but we couldn't wear caps inside the building. Lunch was a hot meal in the school cafeteria, and the lunch break felt long and relaxed.
+
+        In Toronto, the rules were different. We didn't have to stand up, and two of my teachers asked us to call them by their first names, which felt very strange to me. On the other hand, most students brought lunch from home, and we had only forty minutes to eat it. Phones had to stay in our lockers until the end of the day, and if you broke that rule, you got a detention.
+
+        The biggest surprise was the homework. In Porto, we had homework every night, and we often had to learn long lists of facts by heart. In Toronto, we had to work in groups on projects that lasted several weeks. We were allowed to use the internet, and the teachers wanted to hear our opinions, not just the right answers. At first, I hated speaking in front of the class. Now I think it was the best thing that ever happened to me.
+
+        Today I'm a teacher myself, and there's a sign on my classroom door: "You must be kind. You don't have to be perfect."
+    pronunciation:
+      title: "Weak forms: have to, had to, mustn't"
+      body: |
+        In fast speech, **have to** sounds like "hafta", **has to** like "hasta" and **had to** like "hadta" — the *to* is weak, with a schwa. Notice that *have to* has an **f** sound, not a v.
+
+        In **mustn't**, the first **t** is silent: "MUS-ənt". Be careful: *must* and *mustn't* have opposite meanings, so the final "-ənt" is important. Listen and repeat.
+      items: |
+        We have to stand up.
+        She has to wear a uniform.
+        We had to learn it by heart.
+        You mustn't be late.
+        You don't have to come.
+        Were you allowed to use phones?
+    culture:
+      title: Schools in the English-speaking world
+      body: |
+        In the US, school years are called **grades** (first grade to twelfth grade), and most students finish **high school** at seventeen or eighteen. In England, students take **GCSE** exams at about sixteen and often **A levels** at eighteen. School uniforms are very common in the UK, Ireland, Australia and New Zealand, but much less common in American public schools.
+
+        Be careful with the words *public school*: in the US and Canada it means a free state school, but in England it traditionally means an old, expensive private school.
+    mistakes: |
+      You mustn't bring food, but you can if you want. => You don't have to bring food, but you can if you want. | Don't have to means it isn't necessary; mustn't means it isn't allowed.
+      We must wear a uniform when I was at school. => We had to wear a uniform when I was at school. | Must has no past form. Use had to.
+      We didn't allowed to use phones. => We weren't allowed to use phones. | Be allowed to uses was/were, not did.
+    task:
+      title: Rules then and now
+      mode: writing
+      body: |
+        Write 80–100 words comparing the rules at your school with the rules for students today (or at a school in another country you know). Include at least two things you had to do, one thing you didn't have to do and one thing you weren't allowed to do. Then talk about it with a friend or with the AI coach in the "Talking about your day" scenario.
+    exercises: |
+      mc: What did the writer find strange at her new school in Toronto? || *Calling some teachers by their first names | Wearing a uniform | Having a hot lunch at school || "Two of my teachers asked us to call them by their first names, which felt very strange to me." || @ctx reading @tags en.reading
+      tf: The writer had to wear a uniform in Porto. || false || "We didn't have to wear a uniform, but we couldn't wear caps inside the building." || @ctx reading
+      short: Where did students in Toronto have to keep their phones? || kw: locker/lockers || "Phones had to stay in our lockers until the end of the day." || @ctx reading
+      fill: At my first school, we ___ (have to) stand up when the teacher came in. || had to || Past obligation: had to + base form. || @tags en.modal-verbs
+      mc: "You ___ bring a towel — the gym gives you one for free." || mustn't | *don't have to | aren't allowed to || It isn't necessary, so use don't have to. Mustn't and aren't allowed to mean it's forbidden. || @tags en.modal-verbs
+      mc: A sign at a swimming pool says NO DIVING. What does it mean? || You don't have to dive. | *You mustn't dive. | You can dive if you want. || A sign that forbids something means you mustn't do it. || @tags en.modal-verbs
+      rw: Put the sentence in the past :: We aren't allowed to leave the school at lunchtime. || We weren't allowed to leave the school at lunchtime. | We were not allowed to leave the school at lunchtime. || Aren't allowed to → weren't allowed to. || @tags en.modal-verbs
+      rw: Rewrite with "had to" :: It was necessary for us to learn the poems by heart. || We had to learn the poems by heart. || It was necessary = had to. || @tags en.modal-verbs
+      fill: Were you ___ to use calculators in math exams? || allowed || Questions about past permission: Were you allowed to…? || @tags en.modal-verbs,en.questions
+      listen: In my school, we didn't have to wear a uniform, but we weren't allowed to wear jeans on exam days. || What couldn't students wear on exam days? || A uniform | *Jeans | Caps || "We weren't allowed to wear jeans on exam days." || @tags en.listening,en.modal-verbs
+      order: We weren't allowed to call teachers by their first names. || @tags en.modal-verbs
+      dict: We had to learn a new poem by heart every month. || had to + base form
+      ask: Tell a new friend about the rules at your old school — two things you had to do and one thing you weren't allowed to do. || kw: had to & weren't allowed/wasn't allowed/couldn't/were not allowed/was not allowed || At my school we had to wear a dark blue uniform, and we had to be there by quarter to eight. We weren't allowed to bring phones, so I left mine at home.
+      write: Write a short paragraph (60–80 words) comparing the rules at your school with the rules for students today. || min=50 || req: had to | didn't have to/weren't allowed/wasn't allowed/couldn't || When I was at school, we had to wear a uniform and we weren't allowed to have phones in class. We had to do homework every night, and we couldn't choose our subjects until we were sixteen. Today my nephew's school is very different. Students don't have to wear a uniform, and they are allowed to use tablets in class. However, they still have to do a lot of homework!
+
+  - title: How we learn languages
+    summary: Talk about how you learn languages and what works for you, using the correct gerund or infinitive after verbs and prepositions.
+    minutes: 45
+    skills: [grammar, speaking, listening]
+    tags: [en.gerund-infinitive, en.phrasal-verbs, en.pronunciation]
+    objectives:
+      - Use verb + -ing and verb + to-infinitive correctly
+      - Use -ing after prepositions and as the subject of a sentence
+      - Describe and compare different ways of learning a language
+    intro: |
+      Everyone learns languages differently: some people love grammar tables, others pick up words from songs and series. In this lesson you will compare learning methods and practice one of the trickiest parts of English grammar — knowing when a verb is followed by an **-ing form** (*I enjoy reading*) and when it needs a **to-infinitive** (*I decided to read more*).
+    vocab: |
+      fluent | able to speak a language easily and well | adj | She's fluent in three languages. | - | c: fluent in Spanish; speak fluent Italian | n: The noun is fluency.
+      native speaker | someone who has spoken a language since they were a baby | n | Practicing with native speakers is useful, but other learners can help too. | -
+      pick up | to learn something without formal study | phr v | I picked up some Greek while I was working in Athens. | -
+      brush up (on) | to practice and improve a skill you used to have | phr v | I need to brush up on my German before the trip. | -
+      memorize | to learn something so that you remember it exactly | v | I memorize ten new words every morning on the bus. | - | n: British spelling: memorise.
+      flashcard | a card with a word on one side and its meaning on the other | n | I make my own flashcards for new vocabulary. | -
+      accent | the way people from a particular place pronounce a language | n | He has a strong Scottish accent. | - | c: a strong accent; a slight accent
+      make progress | to improve or get closer to a goal | expr | I've made a lot of progress since I joined the group. | - | n: Progress is uncountable: not "progresses".
+      make a mistake | to do or say something wrong without meaning to | expr | Don't worry about making mistakes — that's how we learn. | - | n: Make, not do, a mistake.
+      subtitles | words on the screen that show or translate what people are saying | n | I watch movies with subtitles in the language I'm learning. | -
+      keep (doing) | to continue doing something, often again and again | v | I keep forgetting the word for "spoon." | - | n: Followed by -ing.
+      give up | to stop trying to do something | phr v | Don't give up when it gets difficult. | - | n: Followed by -ing: give up studying.
+      language exchange | a meeting where two people practice each other's languages | n | I found a partner for a language exchange at the library. | -
+    grammar:
+      title: "Gerund or infinitive?"
+      body: |
+        When one verb follows another, the second verb is usually either an **-ing form** (a gerund) or a **to-infinitive**. It depends on the first verb, so learn the verbs in groups.
+
+        - **verb + -ing:** enjoy, avoid, keep, finish, practice, mind, consider, give up, suggest — *I avoid translating every word.*
+        - **verb + to-infinitive:** want, decide, hope, plan, learn, manage, promise, refuse, offer, afford, need — *She managed to pass the exam.*
+        - **verb + object + to-infinitive:** encourage, ask, tell, allow, teach — *My teacher encouraged **me to read** more.*
+        - **both, with little change in meaning:** start, begin, like, love, hate, prefer — *I started learning / to learn Korean last year.*
+
+        After a **preposition** (at, in, of, about, for, without, before, after, instead of), always use **-ing**: *I'm terrible **at remembering** names. Thanks **for helping**.* A gerund can also be the **subject** of a sentence: ***Reading** every day helps.*
+      table: |
+        Pattern | Common verbs | Example
+        verb + -ing | enjoy, avoid, keep, practice, give up | I keep forgetting new words.
+        verb + to | decide, hope, learn, manage, promise | I've decided to join a class.
+        verb + object + to | encourage, ask, allow, teach | He taught me to use flashcards.
+        preposition + -ing | good at, interested in, before, without | I'm interested in learning Arabic.
+        -ing as subject | — | Speaking with other learners builds confidence.
+      examples: |
+        I enjoy watching comedies in English. | | enjoy + -ing
+        Last year I decided to take an online course. | | decide + to
+        My friend asked me to help her with her pronunciation. | | ask + object + to
+        Listening to podcasts is a great way to improve. | | -ing as subject
+      tip: "If the verb comes straight after a preposition, it's always -ing — even when that preposition is to: I'm looking forward to meeting you."
+    dialogue:
+      title: The language exchange
+      setting: A Thursday evening language exchange at a community center in Melbourne, Australia. Liam, who is learning Japanese, is chatting with Sakura, who moved to Melbourne from Osaka two years ago.
+      speakers: L=Liam/m; S=Sakura/f
+      lines: |
+        L: Your English sounds so natural, Sakura. How long have you been learning it?
+        S: About six years. But I only started speaking it a lot when I moved here.
+        L: So what's your secret? I've been studying Japanese for ages.
+        S: I avoid watching shows in Japanese. I watch everything in English, with English subtitles.
+        L: I tried doing that with Japanese dramas, but I kept stopping every two minutes.
+        S: That's normal at first. Have you thought about joining a conversation group?
+        L: I'd like to, but I'm terrible at remembering new words.
+        S: Writing words on sticky notes helps me. I put them all over my apartment!
+        L: I'll try that. Did you enjoy studying grammar at school?
+        S: Not really. We had to memorize rules, and nobody encouraged us to speak.
+        L: Same here. I gave up learning French because the lessons were so boring.
+        S: Well, don't give up on Japanese! I promise to practice with you every week.
+    pronunciation:
+      title: "The -ing ending"
+      body: |
+        The **-ing** ending is one sound, /ŋ/ — the sound at the end of *sing*. Your tongue touches the back of the mouth, and air goes through the nose. There is no hard **g** after it: say *learning*, not "learnin-g".
+
+        When an -ing word is followed by a vowel, the /ŋ/ links smoothly: *learning English* sounds like "learnin-English". Listen and repeat.
+      items: |
+        learning
+        remembering
+        speaking English
+        I keep forgetting.
+        I enjoy reading.
+        I'm good at listening.
+    culture:
+      title: Whose English is it?
+      body: |
+        Today, most people who speak English learned it as a second or foreign language, so English is used every day between people who are not native speakers — at international companies, at airports and online.
+
+        There isn't one "correct" accent. Teachers and employers usually care more about being **clear** than about sounding British or American. It's fine to keep your own accent, as long as people can understand you easily.
+    mistakes: |
+      I enjoy to watch series in English. => I enjoy watching series in English. | Enjoy is followed by -ing.
+      I'm interested in learn Korean. => I'm interested in learning Korean. | After a preposition (in), use -ing.
+      I decided learning Italian. => I decided to learn Italian. | Decide is followed by to + infinitive.
+    task:
+      title: My learning plan
+      mode: speaking
+      body: |
+        Talk for one minute about how you learn English: what you enjoy doing, what you avoid doing, what you keep forgetting, and what you have decided to do next. Use at least three verbs followed by -ing and two followed by to. Then tell the AI coach about language learning as a hobby in the "Discussing hobbies" scenario.
+    exercises: |
+      fill: I really enjoy ___ (watch) comedies in English. || watching || Enjoy is followed by -ing. || @tags en.gerund-infinitive
+      fill: Last year I decided ___ (take) an online course. || to take || Decide is followed by to + infinitive. || @tags en.gerund-infinitive
+      fill: She's very good at ___ (remember) people's names. || remembering || After a preposition (at), use -ing. || @tags en.gerund-infinitive
+      mc: Choose the correct sentence. || My teacher encouraged me practicing more. | *My teacher encouraged me to practice more. | My teacher encouraged to me practice more. || Encourage + object + to-infinitive. || @tags en.gerund-infinitive
+      mc: "I can't afford ___ for private lessons." || paying | *to pay | pay || Afford is followed by to + infinitive. || @tags en.gerund-infinitive
+      rw: Rewrite with an -ing form as the subject :: It helps a lot to read the news in English. || Reading the news in English helps a lot. || An -ing form can be the subject of a sentence. || @tags en.gerund-infinitive
+      match: I keep = forgetting the past tense of "think." ; I've decided = to join a conversation group. ; I'm interested = in learning sign language. ; My boss asked = me to translate a letter. ; I'm looking forward = to seeing my exchange partner again. || Keep + -ing; decide + to; interested in + -ing; ask + object + to; look forward to + -ing. || @hint Match the beginnings and endings. @tags en.gerund-infinitive @skill grammar
+      tf: Sakura enjoyed studying grammar at school. || false || "Not really. We had to memorize rules, and nobody encouraged us to speak." || @ctx dialogue
+      short: What does Sakura write new words on? || kw: sticky/notes/note || "Writing words on sticky notes helps me." || @ctx dialogue
+      listen: @dialogue || Why did Liam give up learning French? || *The lessons were boring. | He moved to Japan. | He didn't have time. || "I gave up learning French because the lessons were so boring." || @tags en.listening
+      listen: I picked up a lot of Portuguese while I was living in Lisbon, but I've forgotten most of it, so I'm going to brush up on it before my trip. || What is the speaker planning to do? || Start learning Portuguese from zero | *Practice and improve the Portuguese they used to know | Move back to Lisbon || To brush up on a language is to practice and improve a skill you used to have. || @tags en.listening,en.phrasal-verbs
+      dict: I keep forgetting the words I learned last week. || keep + -ing
+      ask: A friend wants to improve their English. Tell them two things you enjoy doing to practice and one thing you avoid doing. || kw: enjoy/like/love & avoid/don't/stop || I enjoy listening to podcasts on my way to work, and I love watching cooking shows in English. I avoid translating every word, because it's too slow.
+      write: Write a short post (60–80 words) for a language-learning forum about what works for you. Use at least two verbs + -ing and two verbs + to-infinitive. || min=50 || req: enjoy/avoid/keep/practice/give up/love/like | decided to/want to/hope to/plan to/managed to/try to/learned to || I've been learning English for four years. I enjoy reading short stories, and I keep a notebook of useful phrases. I avoid using a translation app in conversation, because it slows me down. Last month I decided to join an online speaking club, and I managed to talk for ten minutes without stopping! Next, I want to start writing a short diary in English.
+
+  - title: Giving advice
+    summary: Give advice about studying and learning with should, ought to and had better, and with softer expressions like Why don't you…? and I'd recommend…
+    minutes: 45
+    skills: [grammar, speaking, listening]
+    tags: [en.modal-verbs, en.gerund-infinitive, en.schwa]
+    objectives:
+      - Give advice with should, ought to and had better
+      - Use softer suggestions (Why don't you…?, You could…, I'd recommend + -ing, It's worth + -ing)
+      - Ask for and respond to advice about studying
+    intro: |
+      Whether it's a friend with an exam tomorrow or a colleague starting a course, people often ask us for advice. Good advice is useful — but it also has to sound right. In this lesson you will learn to choose between gentle suggestions (*You could…*), normal advice (*You should…*) and urgent warnings (*You'd better…*).
+    vocab: |
+      be behind (with) | to have done less work than you should have by now | expr | I'm behind with my reading for the course. | - | n: The opposite is be on track.
+      catch up (on) | to do work that you didn't do earlier | phr v | I'm staying in this weekend to catch up on my essays. | -
+      put off | to delay doing something, usually because you don't want to do it | phr v | Stop putting off your homework! | - | n: Followed by -ing: put off studying.
+      deadline | the time or date by which you must finish something | n | The deadline for the essay is Friday at noon. | - | c: meet a deadline; miss a deadline
+      extension | extra time to finish a piece of work | n | I asked for a one-week extension. | - | c: ask for an extension; get an extension
+      concentrate | to give all your attention to something | v | I can't concentrate with music on. | - | c: concentrate on something | n: Also: focus (on).
+      tutor | a teacher who works with one student or a small group | n | My tutor gave me some useful advice about my essay. | -
+      feedback | comments about how well or badly someone has done something | n | Our teacher gives detailed feedback on every essay. | - | n: Uncountable: some feedback, not "a feedback".
+      struggle (with) | to find something very difficult | v | Many first-year students struggle with time management. | -
+      worth (+ -ing) | useful or helpful enough to do | adj | It's worth asking your tutor for advice. | - | n: It's worth + -ing.
+      time management | the ability to use your time well | n | Good time management is a skill you can learn. | -
+      advice | an opinion about what someone should do | n | Can I give you some advice? | - | n: Uncountable: some advice, a piece of advice — not "an advice". The verb is advise.
+    grammar:
+      title: "Giving advice: should, ought to, had better and more"
+      body: |
+        - **should / shouldn't** + base form — the most common way to give advice: *You **should** talk to your tutor.*
+        - **ought to** + base form — means the same as should, but is less common, especially in questions and negatives: *You **ought to** back up your files.*
+        - **had better ('d better)** + base form — strong advice about a specific situation, often with a warning that something bad will happen if you don't: *You**'d better** leave now, or you'll miss the bus.* The negative is ***had better not***. Despite *had*, it is about now or the future, not the past.
+
+        Softer, friendlier ways to advise:
+        - **You could…** / **Why don't you…?** — a suggestion: *Why don't you study in the library?*
+        - **I'd recommend + -ing** / **It's worth + -ing**: *I'd recommend making a weekly plan.*
+        - **Don't forget to…** — a friendly reminder.
+      table: |
+        Strength | Form | Example
+        Soft suggestion | You could… / Why don't you…? | You could ask a classmate for help.
+        Normal advice | should / ought to | You should get more sleep.
+        Recommendation | I'd recommend + -ing / It's worth + -ing | It's worth asking for an extension.
+        Strong warning | had better ('d better) | You'd better start now, or you won't finish.
+      examples: |
+        You shouldn't study all night before an exam. | | shouldn't + base form
+        You ought to tell your teacher you were ill. | | ought to = should
+        You'd better not miss another deadline. | | had better not: warning
+        Why don't you join a study group? | | soft suggestion
+      tip: "Had better is not a comparison and not about the past: You'd better hurry means hurry now, or there will be a problem."
+    dialogue:
+      title: First-year blues
+      setting: A café on campus at a university in Adelaide, Australia. Oskar, a first-year exchange student from Sweden, asks Nimmi, a third-year student and mentor, for advice.
+      speakers: O=Oskar/m; N=Nimmi/f
+      lines: |
+        O: Thanks for meeting me, Nimmi. I'm really behind with my essays.
+        N: Don't worry, it happens to everyone in first year. What's the main problem?
+        O: I can't concentrate in my room, so I keep putting things off.
+        N: You should try studying in the library. It's much easier to focus there.
+        O: Good idea. But I also have two essays due next Friday.
+        N: Then you'd better talk to your tutor today and ask for an extension.
+        O: Won't she think I'm lazy? I don't want to make a bad impression.
+        N: Not at all. It's much better to ask now than to miss the deadline.
+        O: OK. And what about sleep? I've been going to bed at three every night.
+        N: That's way too late. Why don't you leave your phone in the kitchen at night?
+        O: That sounds hard, but I'll try. Anything else?
+        N: I'd recommend making a weekly plan. And don't forget to have some fun, too!
+    pronunciation:
+      title: "You'd better and ought to"
+      body: |
+        In **you'd better**, the 'd is very weak and often almost disappears: "yuh BET-ter". The stress is on **bet**. In **ought to**, the two t sounds join together, and to is weak: "AW-tə".
+
+        Advice with *should* is also weak: *You should try it* sounds like "yə shəd TRY it", with the stress on the main verb. Listen and repeat.
+      items: |
+        You'd better hurry.
+        You'd better not be late.
+        You ought to rest.
+        You should try it.
+        Why don't you ask her?
+        It's worth trying.
+    culture:
+      title: Asking for help at university
+      body: |
+        At universities in the US, the UK, Canada and Australia, students are expected to ask for help. American professors hold **office hours** — times when any student can visit them — and in the UK and Australia, students often have a personal **tutor**. Asking for an extension because of illness or a family problem is normal, as long as you ask before the deadline.
+
+        English speakers often give advice indirectly, especially to people they don't know well: *Have you thought about…?* or *Maybe you could…* sound friendlier than *You must…*.
+    mistakes: |
+      You should to talk to your teacher. => You should talk to your teacher. | Should is followed by the base form, without to.
+      You had better to leave now. => You'd better leave now. | Had better is followed by the base form, without to.
+      Can I give you an advice? => Can I give you some advice? | Advice is uncountable: some advice or a piece of advice.
+    task:
+      title: Advice line
+      mode: interaction
+      body: |
+        Work with a partner. Partner A describes a study problem (no time, can't concentrate, bad grades, exam nerves). Partner B gives three pieces of advice, each with a different structure (*should, Why don't you…?, I'd recommend…, You'd better…*). Partner A reacts: *That's a good idea* or *I'm not sure that would work, because…*. Then swap roles. You can also ask the AI coach for advice about your studies in the "Talking about your day" scenario.
+    exercises: |
+      fill: You look exhausted. You ___ go to bed earlier tonight. || should / ought to || Should or ought to + base form for normal advice. || @tags en.modal-verbs
+      mc: "It's 8:50 and the exam starts at 9:00. You ___ hurry!" || *'d better | ought | would || Had better ('d better) is for urgent advice. Ought needs to, and would doesn't give advice. || @tags en.modal-verbs
+      fill: It's worth ___ (ask) for an extension if you're ill. || asking || It's worth + -ing. || @tags en.modal-verbs,en.gerund-infinitive
+      fill: I'd recommend ___ (make) a weekly study plan. || making || Recommend is followed by -ing (or a that-clause). || @tags en.gerund-infinitive
+      rw: Give the same advice with "Why don't you" :: You should join a study group. || Why don't you join a study group? || Why don't you + base form…? is a friendly suggestion. || @tags en.modal-verbs,en.suggestions
+      rw: Make it negative :: You'd better tell your parents. || You'd better not tell your parents. | You had better not tell your parents. || The negative is had better not + base form. || @tags en.modal-verbs
+      mc: Your friend has an important exam tomorrow and wants to go to a party tonight. Which advice is the strongest? || You could stay at home. | Why don't you stay at home? | *You'd better stay at home tonight. || Had better is stronger than could or Why don't you…? and suggests a bad result if they don't follow it. || @tags en.modal-verbs
+      tf: Oskar has been going to bed very late. || true || "I've been going to bed at three every night." || @ctx dialogue
+      short: What does Nimmi advise Oskar to ask his tutor for? || kw: extension/more time/extra time || "You'd better talk to your tutor today and ask for an extension." || @ctx dialogue
+      listen: @dialogue || Where does Nimmi suggest Oskar should study? || *In the library | In his room | In a café || "You should try studying in the library." || @tags en.listening
+      listen: If you can't concentrate, you should turn off your notifications. It's also worth taking a short break every forty-five minutes. || What is one piece of advice? || Study for three hours without a break | *Take a short break regularly | Keep your notifications on || "It's also worth taking a short break every forty-five minutes." || @tags en.listening,en.modal-verbs
+      dict: You'd better start your essay today. || had better + base form
+      ask: A classmate says, "I keep putting off my homework." Give them two pieces of advice. || kw: should/ought/better/why don't you/could/recommend/worth || You should do your homework as soon as you get home, before you relax. I'd also recommend putting your phone in another room.
+      write: Reply to this forum post (60–80 words): "I'm starting university next month and I'm worried about managing my time. Any advice?" Use at least three different ways to give advice. || min=50 || req: should/ought to | why don't you/you could/I'd recommend/it's worth/had better/'d better || Don't worry, everyone feels like this at first! You should buy a planner and write down every deadline on day one. I'd recommend starting each essay as soon as you get the question. It's also worth finding a quiet place to study, like the library. And you'd better not leave everything until the last week — I did that once and never again!

@@ -1,0 +1,369 @@
+unit: 5
+title: I byen og derhjemme
+theme: Town and home
+description: Say what there is in your town with der er, ask for and give directions with the imperative, and describe your home using i and på.
+objectives:
+  - Say what there is in a town and where buildings are, with der er and ligge
+  - Ask for and give simple directions using the imperative
+  - Describe your home and say where things are with i and på
+canDo:
+  - I can say what there is in my town and ask if there is a pharmacy or a bakery nearby.
+  - I can ask the way and understand simple directions.
+  - I can give a tourist two or three simple instructions.
+  - I can describe my home and say which floor I live on.
+review: |
+  fill: ___ der et supermarked i nærheden? || Er || A question with der er starts with the verb: Er der…? || @tags da.questions
+  mc: Which sentence is correct? || I byen der er to biografer. | *I byen er der to biografer. | Der i byen er to biografer. || Verb second: I byen (1) er (2) der. || @tags da.word-order
+  fill: ___ til højre ved lyskrydset. (dreje) || Drej || Imperative = infinitive without -e: dreje → drej. || @tags da.imperative
+  fill: ___ den første gade til venstre. (tage) || Tag || Tage → tag. || @tags da.imperative
+  fill: Jeg bor ___ en lejlighed ___ anden sal. || i ; på || I en lejlighed (inside), på anden sal (floors take på). || @tags da.prepositions-place
+  mc: "Opposite the church" is… || ved siden af kirken | *over for kirken | tæt på kirken || Over for = opposite; ved siden af = next to; tæt på = close to. || @tags da.prepositions-place
+  tr: There's a bakery on the corner. || Der er en bager på hjørnet. || There is = der er; on the corner = på hjørnet. || @tags da.prepositions-place
+  tr: Go straight on and turn left. || Gå ligeud, og drej til venstre. | Gå ligeud og drej til venstre. || Two imperatives: gå, drej. || @tags da.imperative
+  listen: Undskyld, er der et apotek her? – Ja, det ligger ved siden af banken. || Where is the pharmacy? || *Next to the bank | Opposite the bank | On the square || Ved siden af banken = next to the bank. || @tags da.prepositions-place
+  listen: Gå over broen, og tag den første gade til højre. || What is the second instruction? || Turn left | *Take the first street on the right | Go over the bridge || First "gå over broen", then "tag den første gade til højre". || @tags da.imperative
+  ask: A tourist asks you the way to the station. Give two or three instructions. || kw: gå/drej/tag & venstre/højre/ligeud || Gå ligeud til lyskrydset, og drej til højre. Banegården ligger til venstre.
+  write: A friend is visiting. Write an email describing your neighbourhood (what there is) and how to walk from the station to your home. || min=35 || req: der er | gå/drej/tag | i/på || Hej Jonas! Jeg bor i en lejlighed på Østergade. Der er en god bager på hjørnet og en park tæt på. Fra stationen: gå ligeud til torvet, og drej til venstre ved kirken. Mit hus ligger over for biblioteket. Jeg bor på anden sal. Vi ses! Ida
+lessons:
+  - title: Places in town
+    summary: Name places in town, say what there is with der er, and say where buildings are with ligge.
+    minutes: 35
+    skills: [vocabulary, grammar, speaking]
+    tags: [da.prepositions-place, da.word-order]
+    objectives:
+      - Name common places in a Danish town
+      - Say what there is (der er) and ask Er der…?
+      - Say where a building is with ligge
+    intro: |
+      When you arrive in a new town, the first questions are simple: *Is there a supermarket? Where is the station?* In Danish you need two tools: **der er** (there is / there are) and the verb **ligge** (literally "to lie"), which Danes use for where buildings and towns are: *Biblioteket ligger på torvet.*
+    vocab: |
+      en by | a town; a city | n | Odense er en hyggelig by. | Odense is a lovely town. | g: c | pl: byer | n: I byen = in town.
+      banegården | the railway station | n | Hvor ligger banegården? | Where is the railway station? | g: c | n: From en banegård. You can also say stationen.
+      et bibliotek | a library | n | Der er et bibliotek i centrum. | There's a library in the centre. | g: n | pl: biblioteker | n: Stress on the last syllable: bib-li-o-TEK.
+      et supermarked | a supermarket | n | Supermarkedet er åbent til klokken ti. | The supermarket is open until ten. | g: n | pl: supermarkeder
+      et apotek | a pharmacy | n | Er der et apotek her i nærheden? | Is there a pharmacy near here? | g: n | pl: apoteker
+      en bager | a baker; a bakery | n | Der er en god bager på hjørnet. | There's a good bakery on the corner. | g: c | pl: bagere | n: The word is used for the person and the shop: Jeg går til bageren.
+      en kirke | a church | n | Kirken er meget gammel. | The church is very old. | g: c | pl: kirker
+      et torv | a square | n | Der er marked på torvet om lørdagen. | There's a market on the square on Saturdays. | g: n | pl: torve
+      en park | a park | n | Børnene leger i parken. | The children are playing in the park. | g: c | pl: parker
+      et museum | a museum | n | Museet er lukket om mandagen. | The museum is closed on Mondays. | g: n | pl: museer | n: Definite: museet (not museumet).
+      et rådhus | a town hall | n | Rådhuset ligger på torvet. | The town hall is on the square. | g: n | pl: rådhuse
+      der er | there is; there are | expr | Der er to biografer i byen. | There are two cinemas in town. | n: The same form for one thing or many.
+      ligge | to be (located); to lie | v | Biblioteket ligger ved siden af kirken. | The library is next to the church. | n: Danes use ligge for where buildings and towns are.
+      i nærheden | nearby; near here | expr | Er der en bager i nærheden? | Is there a bakery nearby?
+    grammar:
+      title: "Der er — there is, there are"
+      body: |
+        Use **der er** to say that something exists somewhere. It is the same for one thing and for many:
+
+        - *Der er en bager på hjørnet.* (There's a bakery on the corner.)
+        - *Der er mange cykler i København.* (There are lots of bikes in Copenhagen.)
+
+        **Questions** start with the verb: **Er der** et apotek i nærheden? In the negative, say **der er ikke noget** (et-word) or **der er ikke nogen** (en-word): *Der er ikke noget museum her.*
+
+        **Word order:** *der* behaves like a subject. If the sentence starts with a place or a time, the verb stays second and *der* comes after it: *Om lørdagen **er der** marked. I Aarhus **er der** en stor havn.*
+
+        To ask **where** a particular place is, don't use *der er* — use **Hvor er…?** or **Hvor ligger…?**: *Hvor ligger banegården? – Den ligger i centrum.*
+      table: |
+        Danish | English
+        Der er et apotek på torvet. | There's a pharmacy on the square.
+        Der er mange cykler i byen. | There are lots of bikes in town.
+        Er der en bager i nærheden? | Is there a bakery nearby?
+        Om lørdagen er der marked. | On Saturdays there's a market.
+        Der er ikke noget museum her. | There's no museum here.
+        Hvor ligger rådhuset? | Where is the town hall?
+      examples: |
+        Der er to supermarkeder i centrum. | There are two supermarkets in the centre.
+        Er der et bibliotek her i byen? | Is there a library in this town? | question: verb first
+        I Odense er der et museum for H.C. Andersen. | In Odense there's a museum about Hans Christian Andersen. | er before der
+        Rådhuset ligger på torvet. | The town hall is on the square. | ligge for buildings
+      tip: "When a sentence starts with a place or a time, der comes after the verb: I Aarhus er der en stor havn."
+    dialogue:
+      title: Ny i Svendborg
+      setting: Jakob has just moved to Svendborg. On his first morning he meets his neighbour Inge outside their building.
+      speakers: J=Jakob/m; I=Inge/f
+      lines: |
+        J: Undskyld, jeg er ny her i Svendborg. | Excuse me, I'm new here in Svendborg.
+        I: Nå, velkommen! Hvad leder du efter? | Oh, welcome! What are you looking for?
+        J: Er der et supermarked i nærheden? | Is there a supermarket nearby?
+        I: Ja, der er et lige rundt om hjørnet. | Yes, there's one just around the corner.
+        J: Godt. Er der også en bager? | Good. Is there a bakery too?
+        I: Ja, ved siden af supermarkedet. Den er rigtig god! | Yes, next to the supermarket. It's really good!
+        J: Og hvor ligger biblioteket? | And where is the library?
+        I: Det ligger på torvet, over for kirken. | It's on the square, opposite the church.
+        J: Er der også en park? | Is there a park too?
+        I: Ja. Og om lørdagen er der marked. | Yes. And on Saturdays there's a market.
+        J: Tusind tak for hjælpen! | Thanks a lot for your help!
+    pronunciation:
+      title: "Stress in town words"
+      body: |
+        Danish compound words are usually stressed on the **first** part: **RÅD**huset, **BANE**gården, **SUPER**marked. Many words borrowed from Greek or Latin are stressed at the **end**: bibli-o-**TEK**, apo-**TEK**, and mu-**SE**-um has the stress in the middle.
+
+        Getting the stress right helps people understand you, even if a vowel isn't perfect. Listen and repeat.
+      items: |
+        rådhuset
+        banegården
+        bibliotek
+        apotek
+        museum
+        Er der et apotek i nærheden?
+    culture:
+      title: Gågader, squares and libraries
+      body: |
+        Most Danish towns have a **gågade** (pedestrian street) with shops and cafés, a **torv** (square) — often with the town hall and a weekly market — and an old church. *Strøget* in Copenhagen is one of the longest pedestrian shopping streets in Europe.
+
+        Public libraries are popular meeting places, not just for books: people go there to study, meet friends, join a language café or visit an event. Entry is free.
+    mistakes: |
+      Det er en bager på hjørnet. => Der er en bager på hjørnet. | "There is" is der er — det er means "it is".
+      Om lørdagen der er marked. => Om lørdagen er der marked. | Verb second: er comes before der.
+      Hvor er der banegården? => Hvor ligger banegården? | To ask where a specific place is, use Hvor er…? or Hvor ligger…? without der.
+    task:
+      title: Welcome to my town
+      mode: speaking
+      body: |
+        A new neighbour asks about your town. Tell them four things there are (Der er…) and where two of them are (…ligger ved siden af / over for / på torvet). Start at least one sentence with a place — "På torvet er der…".
+    exercises: |
+      mc: How do you say "There's a pharmacy on the square"? || Det er et apotek på torvet. | *Der er et apotek på torvet. | Der et apotek er på torvet. || There is = der er. Det er means "it is". || @tags da.prepositions-place
+      fill: ___ der en bager i nærheden? || Er || Questions with der er start with the verb: Er der…? || @tags da.questions
+      fill: Om lørdagen er ___ marked på torvet. || der || After Om lørdagen comes the verb (er), then der. || @tags da.word-order
+      mc: Which sentence is correct? || I Aarhus der er en stor havn. | *I Aarhus er der en stor havn. | I Aarhus er en stor havn der. || Verb second: I Aarhus (1) er (2) der. || @tags da.word-order
+      fill: Biblioteket ___ ved siden af kirken. (is located) || ligger || Danes use ligge for where buildings are. || @tags da.prepositions-place
+      fill: et museum → ___ (the museum) || museet || Museum is irregular: the definite form is museet. || @tags da.definite
+      mc: Where is the bakery? || *Next to the supermarket | Opposite the church | On the square || "Ja, ved siden af supermarkedet." || @ctx dialogue @skill reading @tags da.reading
+      tf: The library is opposite the church. || true || "Det ligger på torvet, over for kirken." || @ctx dialogue
+      short: What is there on Saturdays? || kw: marked/market || "Om lørdagen er der marked." || @ctx dialogue
+      order: Er der et apotek her i nærheden? || Is there a pharmacy near here? || @tags da.questions
+      tr: There are two supermarkets in town. || Der er to supermarkeder i byen. | I byen er der to supermarkeder. || Der er is the same for one or many things. || @tags da.prepositions-place
+      tr: Is there a library here? || Er der et bibliotek her? || Question: Er der + et bibliotek. || @tags da.questions
+      listen: I Vejle er der en stor park, to museer og mange caféer. || How many museums are there? || One | *Two | Lots || "To museer" — two museums. "Mange caféer" means many cafés. || @tags da.numbers
+      ask: Tell a new neighbour three things there are in your town. || kw: der er & i/på/ved || I min by er der en stor park og et bibliotek. Der er også en god bager på torvet.
+      dict: Der er en god bager på hjørnet.
+
+  - title: Asking for directions
+    summary: Ask the way politely and give directions with the imperative — gå, drej, tag — plus left, right and straight on.
+    minutes: 40
+    skills: [listening, grammar, speaking]
+    tags: [da.imperative]
+    objectives:
+      - Ask "Hvordan kommer jeg til…?" politely
+      - Understand and give directions with til venstre, til højre and ligeud
+      - Form the imperative by dropping the final -e
+    intro: |
+      Danish towns are compact, and asking the way is easy if you know a few words. Directions are given with the **imperative** — the instruction form of the verb: *Gå ligeud. Drej til venstre.* It is simple to make: take the infinitive and drop the final *-e*.
+    vocab: |
+      gå ligeud | go straight on | expr | Gå ligeud til torvet. | Go straight on to the square. | n: The g in lige is silent: "lee-e-ud".
+      dreje | to turn | v | Drej til venstre ved kirken. | Turn left at the church. | n: Imperative: drej.
+      til venstre | (to the) left | expr | Banegården ligger til venstre. | The station is on the left.
+      til højre | (to the) right | expr | Tag den første gade til højre. | Take the first street on the right.
+      en gade | a street | n | Gaden hedder Vestergade. | The street is called Vestergade. | g: c | pl: gader
+      et lyskryds | traffic lights (at a junction) | n | Drej til højre ved lyskrydset. | Turn right at the traffic lights. | g: n | pl: lyskryds
+      en bro | a bridge | n | Gå over broen. | Go over the bridge. | g: c | pl: broer
+      ved siden af | next to | prep | Apoteket ligger ved siden af banken. | The pharmacy is next to the bank.
+      over for | opposite | prep | Caféen ligger over for museet. | The café is opposite the museum.
+      på hjørnet | on the corner | expr | Der er en kiosk på hjørnet. | There's a kiosk on the corner.
+      langt | far | adv | Er det langt herfra? | Is it far from here?
+      tæt på | close to | prep | Hotellet ligger tæt på stationen. | The hotel is close to the station.
+      første; anden; tredje | first; second; third | num | Tag den anden gade til venstre. | Take the second street on the left.
+      følge | to follow | v | Følg skiltene til havnen. | Follow the signs to the harbour. | n: Imperative: følg.
+    grammar:
+      title: "The imperative: gå, drej, tag"
+      body: |
+        The **imperative** is the form for instructions and directions. To make it, take the infinitive and **drop the final -e**:
+
+        - *dreje → **drej***, *følge → **følg***, *krydse → **kryds***, *tage → **tag***
+
+        If the infinitive doesn't end in -e, nothing changes: *gå → **gå***, *se → **se***, *stå → **stå***.
+
+        If dropping the -e leaves a double consonant, write only one: *komme → **kom*** (Kom ind! — Come in!).
+
+        In directions, the imperative is normal and polite. To ask the way, start with **Undskyld** and use **Hvordan kommer jeg til…?** (How do I get to…?): *Undskyld, hvordan kommer jeg til banegården?*
+
+        Left and right always take **til**: *til venstre, til højre*. For streets, use *den første / anden / tredje gade*.
+      table: |
+        Infinitive | Imperative | Example
+        dreje | drej | Drej til venstre.
+        tage | tag | Tag den første gade til højre.
+        følge | følg | Følg skiltene.
+        krydse | kryds | Kryds gaden ved lyskrydset.
+        gå | gå | Gå ligeud.
+        komme | kom | Kom ind!
+      examples: |
+        Gå ligeud, og drej til højre ved kirken. | Go straight on, and turn right at the church.
+        Tag den anden gade til venstre. | Take the second street on the left.
+        Gå over broen. Museet ligger på hjørnet. | Go over the bridge. The museum is on the corner.
+        Undskyld, hvordan kommer jeg til havnen? | Excuse me, how do I get to the harbour?
+      tip: "To find the imperative, say the infinitive and cut off the final -e: dreje → drej, følge → følg."
+    dialogue:
+      title: Vejen til Rundetårn
+      setting: Central Copenhagen. Priya, a visitor, asks Ole, a local, the way to Rundetårn (the Round Tower).
+      speakers: P=Priya/f; O=Ole/m
+      lines: |
+        P: Undskyld, hvordan kommer jeg til Rundetårn? | Excuse me, how do I get to the Round Tower?
+        O: Gå ligeud til lyskrydset. | Go straight on to the traffic lights.
+        P: Til lyskrydset. Og så? | To the traffic lights. And then?
+        O: Drej til venstre, og gå over pladsen. | Turn left, and walk across the square.
+        P: Over pladsen. Er det langt? | Across the square. Is it far?
+        O: Nej, kun fem minutter. | No, only five minutes.
+        P: Og så til højre? | And then right?
+        O: Ja, tag den anden gade til højre. | Yes, take the second street on the right.
+        O: Rundetårn ligger på venstre side. | The Round Tower is on the left-hand side.
+        P: Tusind tak! | Thanks a lot!
+        O: Selv tak. God tur! | You're welcome. Enjoy your visit!
+    pronunciation:
+      title: "Directions: ligeud, højre, drej"
+      body: |
+        In **lige** the g is silent, so **ligeud** sounds like "lee-e-ud". **Højre** starts with *øj*, which sounds like the *oy* in English *boy*, and **drej** has *ej*, like the *i* in *high*.
+
+        **Gade** has a soft d in the middle, and **venstre** keeps a clear v at the start. Listen and repeat each item, then the whole instruction.
+      items: |
+        ligeud
+        til venstre
+        til højre
+        gade
+        drej
+        Drej til højre ved kirken.
+    culture:
+      title: Watch the bike lane!
+      body: |
+        In Danish towns, bike lanes (*cykelstier*) run between the pavement and the road. Pedestrians should not walk or stand in them — cyclists are fast and there are a lot of them, especially in Copenhagen and Odense.
+
+        When Danes give directions, they often use landmarks — *ved kirken* (at the church), *over for rådhuset* (opposite the town hall) — and times rather than distances: *Det er fem minutter herfra.*
+    mistakes: |
+      Dreje til venstre! => Drej til venstre! | The imperative drops the final -e.
+      Komm ind! => Kom ind! | Komme → kom: write only one m at the end.
+      Tag den første gade på højre. => Tag den første gade til højre. | Left and right take til: til venstre, til højre.
+    task:
+      title: From the station to the café
+      mode: interaction
+      body: |
+        Give a visitor directions from the station to your favourite café, using at least three imperatives (gå, drej, tag) and one landmark (ved kirken, over for museet). Then ask the AI coach the way to a place, and repeat the directions back.
+    exercises: |
+      fill: ___ til venstre ved kirken. (dreje) || Drej || Drop the final -e: dreje → drej. || @tags da.imperative
+      fill: ___ den første gade til højre. (tage) || Tag || Tage → tag. || @tags da.imperative
+      fill: ___ skiltene til havnen. (følge) || Følg || Følge → følg. || @tags da.imperative
+      mc: "Go straight on" is… || *Gå ligeud. | Gå til højre. | Gå over broen. || Ligeud = straight on. || @tags da.imperative
+      mc: Which imperative is correct? || Komme ind! | Komm ind! | *Kom ind! || Komme → kom: drop the -e and write only one m. || @tags da.imperative
+      match: til venstre = to the left ; til højre = to the right ; ligeud = straight on ; over for = opposite ; ved siden af = next to || Five key words for directions. || @tags da.prepositions-place
+      mc: Where does Priya want to go? || *The Round Tower | The station | The harbour || "Hvordan kommer jeg til Rundetårn?" || @ctx dialogue @skill reading @tags da.reading
+      short: Which street on the right must Priya take — the first, second or third? || kw: anden/second/2 || "Tag den anden gade til højre." || @ctx dialogue
+      rw: Make it an instruction :: Du drejer til højre. || Drej til højre. || The imperative has no subject: drej. || @tags da.imperative
+      order: Gå over broen, og drej til venstre. || Go over the bridge, and turn left. || @alt Gå over broen og drej til venstre. @tags da.imperative
+      tr: Turn right at the traffic lights. || Drej til højre ved lyskrydset. || Drej (imperative) + til højre + ved lyskrydset. || @tags da.imperative
+      tr: Excuse me, how do I get to the station? || Undskyld, hvordan kommer jeg til stationen? | Undskyld, hvordan kommer jeg til banegården? || Hvordan kommer jeg til…? = How do I get to…? || @tags da.question-words
+      listen: Gå ligeud, tag den anden gade til venstre, og apoteket ligger på hjørnet. || Where is the pharmacy? || *Second street on the left, on the corner | First street on the left, opposite the church | Second street on the right, next to the bank || "Tag den anden gade til venstre… på hjørnet." || @tags da.imperative
+      ask: Give a tourist directions to the library — use two instructions and say where it is. || kw: gå/drej/tag & venstre/højre/ligeud || Gå ligeud, og drej til venstre ved kirken. Biblioteket ligger på hjørnet.
+      dict: Tag den anden gade til højre.
+
+  - title: My home
+    summary: Describe your flat or house, its rooms and floor, and say where things are with i and på.
+    minutes: 40
+    skills: [vocabulary, grammar, writing]
+    tags: [da.prepositions-place]
+    objectives:
+      - Name the rooms and some furniture in a home
+      - Say which floor you live on (på tredje sal, i stuen)
+      - Choose between i and på for rooms, places, towns and islands
+    intro: |
+      Where do you live, and what is your home like? In this lesson you will describe a flat or house, say which floor you live on, and practise the two most common Danish prepositions of place: **i** and **på**. They don't always match English *in* and *on*, so it pays to learn them together with the noun.
+    vocab: |
+      en lejlighed | a flat; an apartment | n | Vi bor i en lejlighed i Aarhus. | We live in a flat in Aarhus. | g: c | pl: lejligheder
+      et hus | a house | n | Mine forældre bor i et hus på landet. | My parents live in a house in the countryside. | g: n | pl: huse
+      et værelse | a room | n | Lejligheden har tre værelser. | The flat has three rooms. | g: n | pl: værelser
+      en stue | a living room | n | Vi ser tv i stuen. | We watch TV in the living room. | g: c | pl: stuer | n: In addresses, i stuen also means "on the ground floor".
+      et køkken | a kitchen | n | Køkkenet er lille, men hyggeligt. | The kitchen is small but cosy. | g: n | pl: køkkener
+      et badeværelse | a bathroom | n | Badeværelset er nyt. | The bathroom is new. | g: n | pl: badeværelser | n: Learn it with på: på badeværelset.
+      et soveværelse | a bedroom | n | Soveværelset er stort. | The bedroom is big. | g: n | pl: soveværelser
+      en altan | a balcony | n | Vi spiser morgenmad på altanen. | We have breakfast on the balcony. | g: c | pl: altaner
+      en have | a garden | n | Børnene leger i haven. | The children play in the garden. | g: c | pl: haver
+      en sal | a floor (storey) | n | Jeg bor på tredje sal. | I live on the third floor. | g: c | pl: sale | n: The ground floor is stuen: Jeg bor i stuen.
+      en seng | a bed | n | Katten sover i sengen. | The cat is sleeping in the bed. | g: c | pl: senge
+      en sofa | a sofa | n | Der er en stor sofa i stuen. | There's a big sofa in the living room. | g: c | pl: sofaer
+      et skab | a cupboard; a wardrobe | n | Koppene står i skabet. | The cups are in the cupboard. | g: n | pl: skabe
+      hjemme | at home | adv | Er du hjemme i aften? | Are you at home tonight? | n: Hjem = (to) home: Jeg går hjem. Hjemme = at home. The h is silent.
+    grammar:
+      title: "i or på?"
+      body: |
+        **I** and **på** both translate as *in*, *at* or *on*. These guidelines cover most A1 situations:
+
+        - **i** — inside something enclosed, and with **towns and countries**: *i stuen, i køkkenet, i haven, i skabet, i en lejlighed, i et hus, i Aarhus, i Danmark.*
+        - **på** — on a surface, and with **floors**, **islands** and many **public places and workplaces**: *på bordet, på altanen, på tredje sal, på Fyn, på Bornholm, på biblioteket, på kontoret, på hospitalet.*
+
+        Some combinations simply have to be learned: *på badeværelset* (in the bathroom), *på landet* (in the countryside), *i byen* (in town).
+
+        **Floors:** *stuen* is the ground floor, *første sal* the floor above it, and so on: *Jeg bor på anden sal.*
+
+        Danes often use **står** (stands) and **ligger** (lies) for where things are: *Koppene står i skabet. Bogen ligger på bordet.*
+      table: |
+        i | på
+        i stuen | på altanen
+        i køkkenet | på badeværelset
+        i haven | på tredje sal
+        i København | på Fyn
+        i skabet | på bordet
+        i byen | på landet
+      examples: |
+        Jeg bor i en lejlighed på anden sal. | I live in a flat on the second floor. | floors: på
+        Min søster bor i Odense, og min bror bor på Bornholm. | My sister lives in Odense, and my brother lives on Bornholm. | town: i, island: på
+        Kaffen står på bordet i køkkenet. | The coffee is on the table in the kitchen.
+        Vi spiser aftensmad på altanen om sommeren. | We have dinner on the balcony in summer.
+      tip: "Learn i and på together with the noun, as a pair: i køkkenet, på badeværelset, på tredje sal."
+    dialogue:
+      title: Den nye lejlighed
+      setting: Sofie has just moved into a flat in Aarhus. She shows it to her friend Lukas on a video call.
+      speakers: S=Sofie/f; L=Lukas/m
+      lines: |
+        L: Hej, Sofie! Hvordan er lejligheden? | Hi, Sofie! How's the flat?
+        S: Den er dejlig! Den ligger tæt på centrum. | It's lovely! It's close to the centre.
+        L: Hvor mange værelser er der? | How many rooms are there?
+        S: To værelser, et køkken og et badeværelse. | Two rooms, a kitchen and a bathroom.
+        L: Er køkkenet stort? | Is the kitchen big?
+        S: Nej, det er lille, men hyggeligt. | No, it's small, but cosy.
+        L: Har du en altan? | Do you have a balcony?
+        S: Ja! Jeg bor på fjerde sal. | Yes! I live on the fourth floor.
+        S: Om morgenen drikker jeg kaffe på altanen. | In the morning I drink coffee on the balcony.
+        L: Hvor hyggeligt! Og hvor er din cykel? | How cosy! And where's your bike?
+        S: Den står i gården. | It's in the courtyard.
+    pronunciation:
+      title: "hjemme, køkken and stuen"
+      body: |
+        In **hjem** and **hjemme** the h is silent: *hj* is a y sound, so *hjemme* sounds like "yem-me". In **køkken** the double k tells you the ø is short.
+
+        **Stuen** is said in two syllables: "stu-en". **Tredje** has a soft d in the middle, and in **badeværelset** the stress is on the first part: **BA**de-værelset. Listen and repeat.
+      items: |
+        hjemme
+        køkken
+        stuen
+        værelse
+        badeværelset
+        Jeg bor på tredje sal.
+    culture:
+      title: Reading a Danish address
+      body: |
+        A Danish address like *Vestergade 12, 3. th.* tells you a lot: number 12, **3. sal** (third floor), **th.** = *til højre* (the door on the right). *Tv.* means *til venstre* (left), and *st.* means *stuen* (ground floor). Names are usually on the doorbell.
+
+        Danish homes are known for **hygge** — candles, warm light, a comfortable sofa. When you visit someone, it is common to take your shoes off at the door.
+    mistakes: |
+      Jeg bor på København. => Jeg bor i København. | Towns and cities take i.
+      Vi bor i Bornholm. => Vi bor på Bornholm. | Islands usually take på.
+      Jeg bor i tredje sal. => Jeg bor på tredje sal. | Floors take på.
+    task:
+      title: Flat swap
+      mode: writing
+      body: |
+        Write a short ad for a home-swap website: what kind of home you have, where it is, which floor, how many rooms, and one nice detail (a balcony, a garden, a cosy kitchen). Use i and på at least three times.
+    exercises: |
+      fill: Jeg bor ___ København. || i || Towns and cities take i. || @tags da.prepositions-place
+      fill: Min mormor bor ___ Fyn. || på || Islands usually take på: på Fyn. || @tags da.prepositions-place
+      fill: Vi bor ___ anden sal. || på || Floors take på. || @tags da.prepositions-place
+      mc: Which is correct? || Kaffen står i bordet. | *Kaffen står på bordet. | Kaffen står til bordet. || On a surface: på bordet. || @tags da.prepositions-place
+      mc: In a Danish address, "3. th." means… || *Third floor, door on the right | Third floor, door on the left | Number 3, ground floor || 3. = tredje sal; th. = til højre (right). || @tags da.prepositions-place @skill reading
+      mc: Where does Sofie drink coffee in the morning? || *On the balcony | In the kitchen | In the courtyard || "Om morgenen drikker jeg kaffe på altanen." || @ctx dialogue @skill reading @tags da.reading
+      tf: Sofie's kitchen is big. || false || "Nej, det er lille, men hyggeligt." || @ctx dialogue
+      short: Which floor does Sofie live on? || kw: fjerde/4/fourth || "Jeg bor på fjerde sal." || @ctx dialogue
+      order: Jeg bor i en lejlighed på tredje sal. || I live in a flat on the third floor. || @tags da.prepositions-place
+      tr: The bathroom is on the first floor. || Badeværelset er på første sal. | Badeværelset ligger på første sal. || Floors take på; badeværelse + t = badeværelset. || @tags da.prepositions-place,da.definite
+      tr: My brother lives on Bornholm. || Min bror bor på Bornholm. || Islands take på. || @tags da.prepositions-place
+      listen: Huset har fire værelser og en stor have. Køkkenet er nyt. || What is new? || The garden | *The kitchen | The living room || "Køkkenet er nyt." The garden is big (stor). || @tags da.listening
+      ask: Tell a friend where you live and describe one room. || kw: jeg bor & i/på || Jeg bor i en lejlighed i Odense, på anden sal. Stuen er stor, og der er en altan.
+      write: Describe your home for a home-swap website — type of home, where it is, floor, rooms and one nice detail. || min=30 || req: jeg bor | i/på | der er | værelse/værelser/stue/køkken || Jeg bor i en lejlighed i Aarhus, tæt på centrum. Den ligger på tredje sal. Der er to værelser, et køkken og et badeværelse. Stuen er lys, og der er en lille altan. Om morgenen drikker jeg kaffe på altanen.
+      dict: Vi spiser morgenmad på altanen.

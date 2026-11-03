@@ -1,0 +1,346 @@
+unit: 2
+title: Urlaub und Reisen
+theme: Holidays and travel
+description: Tell the story of a holiday, plan a trip and explain what went wrong on a journey, using the Perfekt with sein and the simple past forms war and hatte.
+free: true
+objectives:
+  - Talk about a past holiday with the Perfekt with sein and haben
+  - Plan a trip and talk about past trips with war and hatte
+  - Explain what went wrong on a journey in a short story told in order
+canDo:
+  - I can tell someone where I went on holiday and what I did there.
+  - I can ask "Warst du schon mal in …?" and say what a place was like.
+  - I can explain a travel problem at a ticket desk or hotel reception.
+  - I can write a short holiday message.
+review: |
+  fill: Im Mai ___ wir mit dem Zug nach Prag gefahren. || sind || Fahren from A to B takes sein: wir sind … gefahren. || @tags de.perfekt-sein
+  fill: Wie ___ das Wetter in Hamburg? – Kalt und windig! || war || The past of sein: das Wetter war. || @tags de.praeteritum
+  fill: ___ ihr im Urlaub ein Auto? || Hattet || The past of haben with ihr: ihr hattet. || @tags de.praeteritum
+  mc: haben or sein? "Ich ___ drei Nächte in Graz geblieben." || habe | *bin | war || Bleiben always forms the Perfekt with sein: ich bin geblieben. || @tags de.perfekt-sein
+  mc: What do you say at the ticket desk? || Mein Zug hat ausgefallen. | *Mein Zug ist ausgefallen. | Mein Zug war ausfallen. || Ausfallen (to be cancelled) takes sein: ist ausgefallen. || @tags de.perfekt-sein
+  rw: Put into the Perfekt :: Wir kommen um acht Uhr an. || Wir sind um acht Uhr angekommen. || Ankommen takes sein; ge- goes after the prefix: an-ge-kommen. || @tags de.perfekt-sein,de.separable
+  tr: Were you in Berlin last year? (informal, one person) || Warst du letztes Jahr in Berlin? | Bist du letztes Jahr in Berlin gewesen? || Warst du is the most natural form; bist du … gewesen is also correct. || @tags de.praeteritum
+  listen: Wir sind um fünf Uhr aufgestanden, aber dann ist der Flug ausgefallen. || What happened? || *They got up early, but the flight was cancelled. | They overslept and missed the flight. | The flight was delayed by five hours. || Um fünf Uhr aufgestanden = got up at five; der Flug ist ausgefallen = the flight was cancelled. || @tags de.listening,de.perfekt-sein
+  listen: Die Ferienwohnung war klein, aber sie hatte einen Balkon mit Blick aufs Meer. || What was special about the holiday flat? || It was very big. | *It had a balcony with a sea view. | It was right next to the station. || Einen Balkon mit Blick aufs Meer = a balcony with a view of the sea. || @tags de.listening,de.praeteritum
+  ask: Tell a friend about a trip — where you went, how you travelled and what it was like. || kw: bin/sind & gefahren/geflogen/gegangen/gewandert & war/waren/hatte/hatten || Letzten Sommer bin ich mit dem Zug nach Wien gefahren. Die Stadt war wunderschön, und wir hatten tolles Wetter.
+  write: Write a holiday postcard (5–6 sentences) — where you are, how you travelled, what the accommodation is like and what you have done so far. || min=40 || req: bin/sind | gefahren/geflogen/angekommen/gewandert/geschwommen/gegangen | war/hatte || Liebe Oma, wir sind am Samstag auf Usedom angekommen. Wir sind mit dem Zug gefahren, das war sehr bequem. Unsere Ferienwohnung ist klein, aber gemütlich. Gestern sind wir am Strand gewandert und im Meer geschwommen. Das Wasser war ganz schön kalt! Viele Grüße, Lina
+lessons:
+  - title: A holiday to remember
+    summary: Describe a past holiday with the Perfekt with sein for movement and change — gefahren, angekommen, geblieben.
+    minutes: 35
+    skills: [grammar, listening, speaking]
+    tags: [de.perfekt-sein, de.perfekt]
+    objectives:
+      - Choose between haben and sein in the Perfekt
+      - Use common sein-verbs such as fahren, fliegen, ankommen, bleiben and passieren
+      - Tell a friend the story of a holiday
+    intro: |
+      Every holiday story is full of movement: you travel, arrive, go swimming, stay somewhere. These verbs form the Perfekt with **sein**, not haben. In this lesson you will learn when to use sein and tell the story of a holiday you won't forget.
+    vocab: |
+      fahren | to go (by vehicle); to drive | v | Wir sind mit dem Zug nach Konstanz gefahren. | We went to Konstanz by train. | n: Perfekt: ist gefahren
+      fliegen | to fly | v | Letzten Sommer bin ich nach Island geflogen. | Last summer I flew to Iceland. | n: Perfekt: ist geflogen
+      ankommen | to arrive | v | Um Mitternacht sind wir endlich im Hotel angekommen. | At midnight we finally arrived at the hotel. | n: Separable; Perfekt: ist angekommen
+      bleiben | to stay | v | Wir sind zehn Tage auf der Insel geblieben. | We stayed on the island for ten days. | n: Perfekt: ist geblieben — although you don't move.
+      schwimmen | to swim | v | Jeden Morgen bin ich im See geschwommen. | Every morning I swam in the lake. | n: Perfekt: ist geschwommen
+      wandern | to hike; to go walking | v | In den Alpen sind wir jeden Tag fünf Stunden gewandert. | In the Alps we hiked for five hours every day. | n: Perfekt: ist gewandert
+      passieren | to happen | v | Was ist passiert? | What happened? | n: Perfekt: ist passiert (-ieren: no ge-)
+      der Urlaub | holiday; vacation | n | Wir haben zwei Wochen Urlaub in Kroatien gemacht. | We spent two weeks on holiday in Croatia. | g: m | pl: die Urlaube | c: Urlaub machen; im Urlaub; in den Urlaub fahren
+      die Reise | journey; trip | n | Die Reise nach Wien hat acht Stunden gedauert. | The journey to Vienna took eight hours. | g: f | pl: die Reisen | c: eine Reise machen; Gute Reise!
+      die Insel | island | n | Wir sind mit der Fähre auf die Insel gefahren. | We took the ferry to the island. | g: f | pl: die Inseln
+      der Strand | beach | n | Am Strand haben wir stundenlang Volleyball gespielt. | We played volleyball on the beach for hours. | g: m | pl: die Strände
+      unterwegs | on the way; out and about | adv | Unterwegs haben wir in Lindau eine Pause gemacht. | On the way we took a break in Lindau.
+    grammar:
+      title: "The Perfekt with sein"
+      body: |
+        Most verbs form the Perfekt with haben, but a small and very common group uses **sein**:
+
+        - verbs of **movement from A to B**: *fahren, fliegen, gehen, kommen, laufen, schwimmen, wandern* — *Wir **sind** nach Rügen **gefahren**.*
+        - verbs of **change of state**: *aufstehen, einschlafen, aufwachen* — *Ich **bin** um sechs **aufgestanden**.*
+        - **bleiben**, **passieren** and **sein** itself: *Wir sind zu Hause geblieben. Was ist passiert?*
+
+        Many of these participles are irregular: *gefahren, geflogen, gegangen, gekommen, geblieben*. Activities without movement from one place to another take haben: *Am Strand **haben** wir Volleyball **gespielt**.*
+      table: |
+        Pronoun | sein | Participle
+        ich | bin | gefahren
+        du | bist | geflogen
+        er / sie / es | ist | angekommen
+        wir | sind | geblieben
+        ihr | seid | geschwommen
+        sie / Sie | sind | gewandert
+      examples: |
+        Im August sind wir nach Norwegen geflogen. | In August we flew to Norway. | movement: sein
+        Der Zug ist pünktlich angekommen. | The train arrived on time. | separable: an-ge-kommen
+        Am Sonntag sind wir im Hotel geblieben. | On Sunday we stayed at the hotel. | bleiben: always sein
+        Am Abend haben wir Karten gespielt. | In the evening we played cards. | no movement: haben
+      tip: Picture an arrow — if the verb moves you from A to B or changes your state, it takes sein.
+    dialogue:
+      title: Mit dem Rad um den Bodensee
+      setting: Breakfast in a shared flat in Ulm. Selin got back from a cycling holiday last night, and her flatmate Arne wants to hear all about it.
+      speakers: S=Selin/f; A=Arne/m
+      lines: |
+        A: Selin, willkommen zurück! Wann bist du denn angekommen? | Selin, welcome back! When did you get back?
+        S: Gestern Abend. Mein Zug ist erst um elf angekommen. | Last night. My train didn't get in until eleven.
+        A: Und? Seid ihr wirklich um den ganzen Bodensee gefahren? | So? Did you really cycle round the whole of Lake Constance?
+        S: Ja, mit dem Rad, durch Deutschland, Österreich und die Schweiz! | Yes, by bike, through Germany, Austria and Switzerland!
+        A: Wahnsinn! Und wo habt ihr übernachtet? | Amazing! And where did you stay?
+        S: In kleinen Pensionen. In Lindau sind wir zwei Nächte geblieben. | In small guesthouses. In Lindau we stayed two nights.
+        A: Seid ihr auch im See geschwommen? | Did you swim in the lake too?
+        S: Jeden Tag! Und in Österreich sind wir auf einen Berg gewandert. | Every day! And in Austria we hiked up a mountain.
+        A: Hat alles geklappt, oder ist etwas passiert? | Did everything go well, or did something happen?
+        S: Einmal ist mein Reifen geplatzt, mitten im Regen. | Once my tyre burst, in the middle of the rain.
+        A: Oh nein! Was habt ihr dann gemacht? | Oh no! What did you do then?
+        S: Wir haben ihn repariert und sind einfach weitergefahren. | We fixed it and simply rode on.
+    pronunciation:
+      title: "The umlauts ä, ö and ü"
+      body: |
+        **ä** sounds like the *e* in English *bed* (long in *Strände*, short in *Länder*). For **ö**, say *e* and round your lips: *Österreich*. For **ü**, say *ee* and round your lips as if to whistle: *übernachten, zurück*.
+
+        Umlauts change meaning, so don't drop them: *der Strand – die Strände*, *das Land – die Länder*. Listen and repeat, keeping your lips rounded for ö and ü.
+      items: |
+        die Länder
+        Österreich
+        die Strände
+        übernachtet
+        zurück
+        Willkommen zurück!
+    culture:
+      title: Holidays at home
+      body: |
+        Full-time employees in Germany have a legal right to at least 20 days of paid holiday a year on a five-day week, and many get 25 to 30. Many Germans spend their holidays abroad, but Germany itself is a top destination too: the islands of the Baltic and North Sea, the Bavarian Alps and the lakes in the south.
+
+        Cycling holidays are very popular. Long, well-signposted cycle routes follow rivers such as the Elbe, the Danube and the Rhine, and the route around Lake Constance crosses three countries in about 260 kilometres.
+    mistakes: |
+      Wir haben nach Italien gefahren. => Wir sind nach Italien gefahren. | Fahren from A to B takes sein in the Perfekt.
+      Ich habe zu Hause geblieben. => Ich bin zu Hause geblieben. | Bleiben always takes sein, although you don't move.
+      Der Zug ist um acht angekommt. => Der Zug ist um acht angekommen. | Kommen is irregular (gekommen), so the participle is angekommen.
+    task:
+      title: A holiday to remember
+      mode: speaking
+      body: |
+        Tell a friend about a holiday you will never forget: where you went, how you travelled, where you stayed, what you did and whether anything went wrong. Use at least three verbs with sein and two with haben. Record yourself in Speaking practice.
+    exercises: |
+      fill: Letzten Sommer ___ wir nach Portugal geflogen. || sind || Fliegen is movement from A to B: wir sind … geflogen. || @tags de.perfekt-sein
+      fill: Am Sonntag hat es geregnet, also ___ wir im Hotel geblieben. || sind || Bleiben always takes sein; after also the verb comes straight after. || @tags de.perfekt-sein
+      fill: Im Urlaub ___ ich jeden Tag am Strand gelesen. || habe || Lesen is not movement from A to B, so it takes haben. || @tags de.perfekt
+      fill: Der Bus ist pünktlich ___. (ankommen) || angekommen || Separable and irregular: an-ge-kommen. || @tags de.perfekt-sein,de.separable @hint ankommen
+      mc: haben or sein? "Wir ___ fünf Stunden gewandert." || haben | *sind | seid || Wandern is movement, so it takes sein: wir sind gewandert. Seid is the ihr-form. || @tags de.perfekt-sein
+      order: Im Juli sind wir mit dem Zug nach Wien gefahren. || In July we went to Vienna by train. || Sind in position 2, gefahren at the end; when – how – where in between. || @tags de.perfekt-sein,de.word-order @alt Wir sind im Juli mit dem Zug nach Wien gefahren. | Mit dem Zug sind wir im Juli nach Wien gefahren. | Nach Wien sind wir im Juli mit dem Zug gefahren.
+      tf: Selin cycled through three countries. || true || Germany, Austria and Switzerland — around Lake Constance. || @ctx dialogue
+      short: What went wrong on Selin's trip? || kw: reifen/tyre/tire/geplatzt/burst/flat || Her tyre burst in the rain: "Einmal ist mein Reifen geplatzt." || @ctx dialogue
+      listen: @dialogue || How long did Selin stay in Lindau? || One night | *Two nights | Seven days || "In Lindau sind wir zwei Nächte geblieben." The whole trip took seven days.
+      listen: Wir sind um sechs aufgestanden und mit dem ersten Bus zum Flughafen gefahren. || What did the speakers do? || *They got up at six and took the first bus to the airport. | They got up at six and took a taxi to the airport. | They missed the first bus to the airport. || Aufgestanden = got up; mit dem ersten Bus = with the first bus. || @tags de.listening,de.perfekt-sein
+      tr: We stayed at home. || Wir sind zu Hause geblieben. | Wir sind daheim geblieben. || Bleiben takes sein: wir sind … geblieben. || @tags de.perfekt-sein
+      dict: Am Abend sind wir noch im Meer geschwommen.
+      ask: Tell a friend about your last holiday — where you went and two things you did there. || kw: bin/sind & gefahren/geflogen/gegangen/geblieben/geschwommen/gewandert/angekommen || Im Mai bin ich mit meiner Freundin nach Lissabon geflogen. Wir sind viel zu Fuß gegangen und am Abend haben wir Fado gehört.
+
+  - title: Planning a trip
+    summary: Plan a trip with a friend, ask about past trips and give tips with war and hatte, the simple past of sein and haben.
+    minutes: 35
+    skills: [grammar, speaking, vocabulary]
+    tags: [de.praeteritum]
+    objectives:
+      - Use war and hatte for the past of sein and haben
+      - Ask "Warst du schon mal in …?" and describe what a place was like
+      - Plan transport, accommodation and sights for a trip
+    intro: |
+      When you plan a trip, you ask people who have already been there: "Warst du schon mal in Dresden? Wie war das Hotel?" For **sein** and **haben**, German speakers prefer the short simple past forms **war** and **hatte** to the Perfekt, even in conversation. In this lesson you plan a weekend away and learn these essential forms.
+    vocab: |
+      die Unterkunft | accommodation | n | Wir suchen noch eine Unterkunft für drei Nächte. | We're still looking for accommodation for three nights. | g: f | pl: die Unterkünfte
+      die Ferienwohnung | holiday flat; holiday rental | n | Die Ferienwohnung hatte eine große Terrasse. | The holiday flat had a big terrace. | g: f | pl: die Ferienwohnungen | n: Often shortened to FeWo in adverts.
+      buchen | to book | v | Hast du die Zugtickets schon gebucht? | Have you booked the train tickets yet? | n: Perfekt: hat gebucht
+      übernachten | to stay overnight | v | Wir übernachten bei einer Freundin in Erfurt. | We're staying with a friend in Erfurt. | n: Inseparable: hat übernachtet
+      die Jugendherberge | youth hostel | n | Die Jugendherberge war sauber und modern. | The youth hostel was clean and modern. | g: f | pl: die Jugendherbergen | n: Open to guests of all ages, including families.
+      der Koffer | suitcase | n | Mein Koffer war viel zu schwer. | My suitcase was far too heavy. | g: m | pl: die Koffer | c: den Koffer packen
+      die Sehenswürdigkeit | sight; place of interest | n | Wir haben alle Sehenswürdigkeiten zu Fuß besucht. | We visited all the sights on foot. | g: f | pl: die Sehenswürdigkeiten
+      die Führung | guided tour | n | Wir hatten eine Führung durch das Schloss. | We had a guided tour of the palace. | g: f | pl: die Führungen | c: eine Führung machen
+      günstig | good value; inexpensive | adj | Die Zugtickets waren sehr günstig. | The train tickets were very good value. | n: More positive than billig, which can mean "cheap and poor quality".
+      voll | full; crowded | adj | Im August war die Altstadt sehr voll. | In August the old town was very crowded.
+      Glück haben | to be lucky | expr | Wir hatten Glück mit dem Wetter. | We were lucky with the weather. | n: The opposite: Pech haben (to be unlucky).
+      vorher | beforehand; first | adv | Wir müssen vorher noch eine Unterkunft buchen. | We still have to book accommodation first.
+    grammar:
+      title: "war and hatte: the simple past of sein and haben"
+      body: |
+        For most verbs, spoken German uses the Perfekt. **Sein** and **haben** are different: in conversation people almost always use their short **Präteritum** (simple past) forms — **war** (was/were) and **hatte** (had): *Wie war der Urlaub? Wir hatten Glück mit dem Wetter.* The Perfekt forms *bin gewesen* and *habe gehabt* exist, but they are longer and less common in most regions.
+
+        The ich-form and the er/sie/es-form are the same and have no ending: *ich war, sie war; ich hatte, er hatte*. The other persons add the endings **-st, -en, -t, -en**.
+
+        Use war and hatte to ask about past trips and to describe what places, hotels and the weather were like. Note that German uses *Warst du schon mal in…?* where English says *Have you ever been to…?*
+      table: |
+        Pronoun | sein | haben
+        ich | war | hatte
+        du | warst | hattest
+        er / sie / es | war | hatte
+        wir | waren | hatten
+        ihr | wart | hattet
+        sie / Sie | waren | hatten
+      examples: |
+        Warst du schon mal in Dresden? | Have you ever been to Dresden? | du warst
+        Das Hotel war klein, aber sehr gemütlich. | The hotel was small but very cosy. | describing a place
+        Wir hatten leider nur zwei Tage Zeit. | Unfortunately we only had two days. | wir hatten
+        Hattet ihr eine Ferienwohnung oder ein Hotelzimmer? | Did you have a holiday flat or a hotel room? | ihr hattet
+      tip: With sein and haben choose war and hatte; with almost all other verbs, use the Perfekt.
+    dialogue:
+      title: Ein Wochenende in Dresden
+      setting: Zeynep and Jakob, two friends from Kassel, are planning a long weekend in Dresden on a video call. Zeynep has been there before.
+      speakers: Z=Zeynep/f; J=Jakob/m
+      lines: |
+        J: Zeynep, warst du nicht schon mal in Dresden? | Zeynep, haven't you been to Dresden before?
+        Z: Ja, vor drei Jahren, mit meiner Schwester. Es war toll! | Yes, three years ago, with my sister. It was great!
+        J: Super! Wo habt ihr damals übernachtet? | Great! Where did you stay back then?
+        Z: In einer Jugendherberge. Sie war günstig und ganz zentral. | In a youth hostel. It was good value and very central.
+        J: Hattet ihr ein eigenes Zimmer? | Did you have your own room?
+        Z: Ja, ein Doppelzimmer mit Bad. Das war sehr praktisch. | Yes, a double room with a bathroom. That was very practical.
+        J: Gut. Wollen wir mit dem Zug fahren oder mit dem Auto? | Good. Shall we go by train or by car?
+        Z: Mit dem Zug, bitte! Damals hatten wir nur Stress mit dem Parken. | By train, please! Last time we had nothing but stress with parking.
+        J: Okay. Und was müssen wir unbedingt sehen? | Okay. And what do we absolutely have to see?
+        Z: Die Altstadt und die Frauenkirche. Wir hatten damals eine tolle Führung. | The old town and the Frauenkirche. We had a great guided tour back then.
+        J: Und die Sächsische Schweiz? Da kann man super wandern, oder? | And Saxon Switzerland? You can go hiking there, can't you?
+        Z: Wunderschön! Ich buche heute Abend die Tickets, okay? | Beautiful! I'll book the tickets this evening, okay?
+    pronunciation:
+      title: "Long a in war, short a in hatte"
+      body: |
+        German vowels can be long or short, and the spelling usually tells you which. A vowel before a single consonant is often long: *war, waren, Bahn*. A vowel before a double consonant or a group of consonants is short: *hatte, hatten, Stadt*.
+
+        Make the long [aː] in *war* really long — about twice as long as the short [a] in *hatte*. Then contrast them in a sentence.
+      items: |
+        war
+        hatte
+        wir waren
+        wir hatten
+        die Altstadt
+        Das war praktisch.
+    culture:
+      title: By train and youth hostel
+      body: |
+        Germany has a dense rail network, and long-distance tickets are usually much cheaper if you book early and choose a fixed train. For local and regional transport, many people use a monthly ticket that is valid on buses, trams and regional trains all over the country.
+
+        Youth hostels (*Jugendherbergen*) were invented in Germany at the beginning of the 20th century. Today there are hundreds of them — in castles, in city centres and by lakes — and they welcome families and adults as well as school classes.
+    mistakes: |
+      Wie hat der Urlaub gewesen? => Wie war der Urlaub? | Use war for the past of sein in questions like this — and sein never forms its Perfekt with haben.
+      Wir war in Dresden. => Wir waren in Dresden. | With wir the form is waren (-en), like wir sind in the present.
+      Du hattst ein schönes Zimmer. => Du hattest ein schönes Zimmer. | The du-form is hattest, with -est.
+    task:
+      title: Plan a weekend away
+      mode: interaction
+      body: |
+        With a friend, plan a weekend trip: choose a city, transport and accommodation, and agree on two sights. Ask whether they have been there before and what it was like. Practise with the AI coach in the "Making weekend plans" scenario.
+    exercises: |
+      fill: ___ du schon mal in Hamburg? || Warst || The du-form of the past of sein is warst. || @tags de.praeteritum
+      fill: Das Hotel ___ klein, aber sehr sauber. || war || Das Hotel = es; es war. || @tags de.praeteritum
+      fill: Wir ___ leider kein Glück mit dem Wetter. || hatten || Glück haben → wir hatten Glück. || @tags de.praeteritum
+      fill: Meine Eltern ___ letztes Jahr in Kroatien. Es ___ wunderschön. || waren ; war || Meine Eltern = sie (plural): sie waren; es war. || @tags de.praeteritum
+      mc: How do you say "Have you ever been to Vienna?" || Hast du schon mal in Wien gewesen? | *Warst du schon mal in Wien? | Bist du schon mal in Wien? || German uses the past of sein: Warst du schon mal…? The Perfekt would need bist … gewesen, never hast. || @tags de.praeteritum
+      rw: Use war or hatte :: Wir haben eine schöne Unterkunft gehabt. || Wir hatten eine schöne Unterkunft. || Habe … gehabt becomes the shorter, more common hatte. || @tags de.praeteritum
+      tf: Zeynep stayed in a hotel in Dresden. || false || She stayed in a youth hostel (Jugendherberge). || @ctx dialogue
+      short: Why does Zeynep prefer to take the train? || kw: parken/parking/park || Last time they had a lot of stress with parking: "Stress mit dem Parken". || @ctx dialogue
+      listen: @dialogue || What is Zeynep going to do this evening? || Call her sister | *Book the tickets | Look for a youth hostel || "Ich buche heute Abend die Tickets, okay?"
+      listen: Letztes Jahr waren wir in Weimar. Das Wetter war schlecht, aber wir hatten ein tolles Hotel. || What was good about the trip to Weimar? || The weather | *The hotel | The food || Das Wetter war schlecht, aber wir hatten ein tolles Hotel. || @tags de.listening,de.praeteritum
+      tr: We were lucky with the weather. || Wir hatten Glück mit dem Wetter. | Wir hatten mit dem Wetter Glück. || German says "had luck": Glück haben → wir hatten Glück. || @tags de.praeteritum
+      dict: Wir waren drei Tage in Leipzig und hatten viel Spaß.
+      ask: A friend asks "Warst du schon mal in …?" about a city you know. Answer and say what it was like. || kw: war/waren & schön/toll/super/gut/interessant/teuer/günstig/voll/klein/groß/laut/ruhig || Ja, ich war letztes Jahr in Köln. Die Stadt war super, aber das Hotel war teuer.
+
+  - title: When things go wrong on a trip
+    summary: Tell the story of a journey that went wrong — combining the Perfekt with war and hatte — and explain a problem at a desk.
+    minutes: 40
+    skills: [listening, speaking, writing]
+    tags: [de.perfekt-sein, de.praeteritum, de.word-order]
+    objectives:
+      - Tell a short story in order with zuerst, dann, danach, plötzlich and zum Glück
+      - Combine the Perfekt for events with war and hatte for situations
+      - Describe common travel problems such as delays, cancellations and lost luggage
+    intro: |
+      Delays, cancelled trains, a lost suitcase — sooner or later every traveller has a story like this. Telling it well means putting the events in order and mixing the Perfekt (what happened) with war and hatte (what things were like). You will also learn the words you need at a ticket desk or hotel reception.
+    vocab: |
+      die Verspätung | delay | n | Der Zug hatte vierzig Minuten Verspätung. | The train was forty minutes late. | g: f | pl: die Verspätungen | c: Verspätung haben
+      ausfallen | to be cancelled | v | Unser Flug ist wegen Nebel ausgefallen. | Our flight was cancelled because of fog. | n: Separable; Perfekt: ist ausgefallen
+      verpassen | to miss (a train, a bus) | v | Wir haben den Anschluss verpasst. | We missed our connection. | n: No ge-: hat verpasst
+      der Anschluss | connection (train, bus, flight) | n | In Fulda hatte ich nur fünf Minuten für den Anschluss. | In Fulda I only had five minutes for my connection. | g: m | pl: die Anschlüsse
+      der Schalter | counter; desk | n | Am Schalter haben wir neue Tickets bekommen. | At the counter we got new tickets. | g: m | pl: die Schalter | c: der Fahrkartenschalter; der Check-in-Schalter
+      verlieren | to lose | v | Die Fluggesellschaft hat meinen Koffer verloren. | The airline lost my suitcase. | n: Irregular, no ge-: hat verloren
+      das Gepäck | luggage | n | Unser Gepäck ist erst zwei Tage später angekommen. | Our luggage only arrived two days later. | g: n | pl: (no plural)
+      kaputt | broken | adj | Die Klimaanlage im Zimmer war kaputt. | The air conditioning in the room was broken.
+      schmutzig | dirty | adj | Das Bad war leider schmutzig. | Unfortunately the bathroom was dirty.
+      plötzlich | suddenly | adv | Plötzlich ist der Zug stehen geblieben. | Suddenly the train stopped. | n: stehen bleiben (to stop) → ist stehen geblieben
+      zum Glück | luckily; fortunately | expr | Zum Glück hatte das Hotel noch ein Zimmer frei. | Luckily the hotel still had a room free.
+      zuerst | first; at first | adv | Zuerst hatte der Zug Verspätung, dann ist er ganz ausgefallen. | First the train was late, then it was cancelled altogether.
+    grammar:
+      title: "Telling a story: Perfekt, war/hatte and time words"
+      body: |
+        A good travel story has two kinds of information. **Events** — what happened, one after the other — are in the **Perfekt**: *Der Zug ist ausgefallen. Wir haben den Anschluss verpasst.* **Situations and descriptions** — what things were like — use **war** and **hatte**: *Der Bahnsteig war voll. Wir hatten keine Tickets mehr.*
+
+        Time words put the events in order: **zuerst** (first), **dann** (then), **danach** (after that), **plötzlich** (suddenly), **zum Glück** (luckily), **am Ende** (in the end). When they start the sentence they take position 1, so the verb follows immediately: *Dann **sind** wir zum Schalter gegangen.*
+
+        Keep choosing the right auxiliary: movement and change take **sein** (*ist ausgefallen, sind gegangen*), most other verbs take **haben** (*haben gewartet, hat verloren*).
+      table: |
+        Time word | Position 2 | Rest of the sentence
+        Zuerst | hatte | der Zug zwanzig Minuten Verspätung.
+        Dann | ist | er ganz ausgefallen.
+        Danach | haben | wir zwei Stunden gewartet.
+        Plötzlich | war | der Bahnsteig total voll.
+        Zum Glück | haben | wir noch einen Bus bekommen.
+        Am Ende | sind | wir um Mitternacht angekommen.
+      examples: |
+        Zuerst hatte unser Flug Verspätung. | First our flight was delayed. | situation: hatte
+        Dann haben wir den Anschlussflug verpasst. | Then we missed the connecting flight. | event: Perfekt with haben
+        Danach sind wir zum Schalter gegangen. | After that we went to the desk. | movement: sein
+        Das Zimmer war schmutzig, und die Dusche war kaputt. | The room was dirty and the shower was broken. | description: war
+      tip: Events → Perfekt; descriptions → war and hatte. Start each new step with a time word to keep your listener with you.
+    dialogue:
+      title: Eine Reise mit Hindernissen
+      setting: Fatima travelled from Cologne to a friend's wedding in Munich at the weekend. On Monday she tells her colleague Ole about the journey.
+      speakers: F=Fatima/f; O=Ole/m
+      lines: |
+        O: Und, wie war die Hochzeit in München? | So, how was the wedding in Munich?
+        F: Die Hochzeit war wunderschön. Aber die Reise war eine Katastrophe! | The wedding was beautiful. But the journey was a disaster!
+        O: Oje! Was ist denn passiert? | Oh dear! What happened?
+        F: Zuerst hatte mein Zug in Köln eine Stunde Verspätung. | First my train in Cologne was an hour late.
+        F: Dann habe ich in Frankfurt den Anschluss verpasst. | Then I missed my connection in Frankfurt.
+        O: Und dann? Bist du mit dem nächsten Zug gefahren? | And then? Did you take the next train?
+        F: Nein, der ist leider ausgefallen. Der Bahnsteig war total voll. | No, unfortunately that was cancelled. The platform was completely packed.
+        O: Und was hast du dann gemacht? | And what did you do then?
+        F: Ich bin zum Schalter gegangen und habe lange gewartet. | I went to the ticket desk and waited for a long time.
+        F: Zum Glück hatte die Mitarbeiterin eine gute Idee – den Fernbus. | Luckily the woman at the desk had a good idea – the long-distance coach.
+        O: Und wann bist du endlich angekommen? | And when did you finally arrive?
+        F: Um elf Uhr abends – gerade noch rechtzeitig für die Party! | At eleven at night – just in time for the party!
+    pronunciation:
+      title: "Word stress and unstressed prefixes"
+      body: |
+        Most German words are stressed on the first syllable: *ANschluss, SCHALter, PLÖTZlich*. The prefixes **be-, ge-, er-** and **ver-** are never stressed, so the stress moves to the next syllable: *verPASST, VerSPÄtung, GePÄCK*.
+
+        Compound nouns take the stress of their first part: *FAHRkartenschalter, HOtelzimmer*. Tap the table on the stressed syllable as you repeat.
+      items: |
+        die Verspätung
+        das Gepäck
+        der Anschluss
+        plötzlich
+        verpasst
+        der Fahrkartenschalter
+    culture:
+      title: Delays and your rights
+      body: |
+        Trains in Germany are often punctual, but delays happen. Under EU rules, rail passengers can get part of the ticket price back for long delays: 25 percent from 60 minutes and 50 percent from 120 minutes late at the destination. Keep your ticket and ask at the counter or apply online.
+
+        If you have to explain a problem, stay polite and precise: *Entschuldigung, mein Zug ist ausgefallen. Ich habe den Anschluss nach Wien verpasst. Was kann ich jetzt machen?*
+    mistakes: |
+      Zuerst der Zug hatte Verspätung. => Zuerst hatte der Zug Verspätung. | After a time word in position 1, the verb comes next.
+      Der Flug hat ausgefallen. => Der Flug ist ausgefallen. | Ausfallen (to be cancelled) is a change of state and takes sein.
+      Wir haben den Anschluss verpassen. => Wir haben den Anschluss verpasst. | The participle of verpassen is verpasst — no ge-, ending -t.
+    task:
+      title: At the ticket desk
+      mode: interaction
+      body: |
+        Your train has been cancelled and you are going to miss your connection. Explain what happened at the ticket desk and ask for a solution. Practise with the AI coach in the "Handling a travel problem" scenario, then write a short message to a friend telling the story with zuerst, dann and zum Glück.
+    exercises: |
+      fill: Zuerst ___ unser Flug zwei Stunden Verspätung. || hatte || Verspätung haben describes the situation: unser Flug hatte Verspätung. || @tags de.praeteritum
+      fill: Dann ___ der Anschlusszug leider ausgefallen. || ist || Ausfallen takes sein: der Zug ist ausgefallen. || @tags de.perfekt-sein
+      fill: Das Zimmer ___ schmutzig und ___ keinen Balkon. || war ; hatte || Descriptions use the simple past: das Zimmer war … und hatte … || @tags de.praeteritum
+      fill: Am Flughafen hat die Fluggesellschaft meinen Koffer ___. (verlieren) || verloren || Verlieren is irregular and has no ge-: verloren. || @tags de.perfekt @hint verlieren
+      mc: Which sentence is correct? || Plötzlich der Zug ist stehen geblieben. | *Plötzlich ist der Zug stehen geblieben. | Plötzlich ist stehen geblieben der Zug. || Plötzlich is in position 1, so ist comes second and the participle goes to the end. || @tags de.word-order,de.perfekt-sein
+      order: Danach sind wir mit dem Taxi zum Hotel gefahren. || After that we took a taxi to the hotel. || Time word, sein, subject — gefahren at the end. || @tags de.word-order,de.perfekt-sein @alt Wir sind danach mit dem Taxi zum Hotel gefahren. | Mit dem Taxi sind wir danach zum Hotel gefahren.
+      tf: Fatima arrived too late for the wedding party. || false || She arrived at eleven at night — "gerade noch rechtzeitig", just in time for the party. || @ctx dialogue
+      short: How did Fatima finally travel to Munich? || kw: bus/fernbus/coach || The woman at the desk suggested the long-distance coach (Fernbus). || @ctx dialogue
+      listen: @dialogue || Where did Fatima miss her connection? || In Cologne | *In Frankfurt | In Munich || "Dann habe ich in Frankfurt den Anschluss verpasst."
+      listen: Unser Gepäck ist nicht angekommen. Wir hatten zwei Tage nur die Sachen im Rucksack. || What was the problem? || The hotel was full. | *Their luggage didn't arrive. | Their rucksack was stolen. || Unser Gepäck ist nicht angekommen = our luggage didn't arrive. || @tags de.listening,de.praeteritum
+      dict: Danach haben wir lange am Schalter gewartet.
+      ask: You are at a hotel reception. Explain two problems with your room. || kw: zimmer/bad/dusche/fenster/heizung/klimaanlage/licht & kaputt/schmutzig/laut/kalt || Entschuldigung, in meinem Zimmer ist die Dusche kaputt, und das Bad ist schmutzig. Haben Sie ein anderes Zimmer?
+      write: Write a message to a friend (5–6 sentences) about a journey that went wrong. Put the events in order and say how it ended. || min=40 || req: zuerst/dann/danach | war/hatte | ist/sind/bin || Hallo Tom, meine Reise nach Bremen war chaotisch! Zuerst hatte mein Bus eine Stunde Verspätung. Dann habe ich den Zug in Hannover verpasst. Danach bin ich zum Schalter gegangen. Zum Glück hatte die Mitarbeiterin eine Lösung. Am Ende bin ich um zehn angekommen – müde, aber glücklich! Liebe Grüße, Esra

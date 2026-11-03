@@ -1,0 +1,367 @@
+unit: 7
+title: Fiestas y tradiciones
+theme: Celebrations and traditions
+description: Talk about festivals and what will happen with the simple future, invite people and reply politely with the conditional, and choose presents and the right good wishes for each occasion.
+free: false
+objectives:
+  - Describe festivals and say what will happen with the future of regular verbs and habrá
+  - Invite, accept and decline politely with ¿te gustaría…?, me encantaría and ¿podrías…?
+  - Use irregular futures and the right good wishes for birthdays, weddings and other occasions
+canDo:
+  - I can describe a festival and say what there will be and what we will do.
+  - I can invite someone and accept or decline an invitation politely.
+  - I can ask a favour politely with the conditional.
+  - I can choose the right phrase to congratulate someone or wish them well.
+review: |
+  fill: La fiesta ___ (empezar) a las nueve de la noche. || empezará || Future: infinitive + -á for él/ella: empezará. || @tags es.future
+  fill: Mañana ___ (haber) fuegos artificiales en el puerto. || habrá || The future of hay is habrá, the same for singular and plural. || @tags es.future
+  fill: El sábado no ___ (poder, yo) ir a tu cena. || podré || Poder has an irregular future stem: podr- + é. || @tags es.future
+  fill: ¿Te ___ venir con nosotros a la feria? (gustar) || gustaría || A polite invitation: ¿Te gustaría + infinitive? || @tags es.conditional
+  mc: You ask your elderly neighbour (usted) if she'd mind turning the music down. || *¿Le importaría bajar la música? | Baja la música. | ¿Quieres bajar la música? || ¿Le importaría…? is polite and uses usted. The other two are tú forms, and the imperative sounds abrupt. || @tags es.conditional,es.register
+  mc: Your friend has just had a baby. You say: || *¡Enhorabuena! | ¡Que te mejores! | ¡Buen viaje! || ¡Enhorabuena! congratulates someone on good news. ¡Que te mejores! is for someone who is ill. || @tags es.vocabulary
+  rw: Change ir a + infinitive to the future :: Vamos a hacer una fiesta en el jardín. || Haremos una fiesta en el jardín. || Hacer has an irregular future stem: har- + emos. || @tags es.future
+  tr: I'd love to, but I can't. || Me encantaría, pero no puedo. | Me encantaría ir, pero no puedo. || Me encantaría is the polite conditional of encantar. || @tags es.conditional
+  listen: Hola, Paco. Me encantaría ir a tu cumpleaños, pero el sábado trabajo hasta las diez. ¡Lo siento mucho! || Why can't the speaker go to the party? || *The speaker works until ten on Saturday | The speaker is ill | The speaker is on holiday || "El sábado trabajo hasta las diez." || @tags es.listening,es.conditional
+  listen: Este año celebraremos la Nochevieja en la Puerta del Sol y comeremos las doce uvas. || Where will they celebrate New Year's Eve? || *In the Puerta del Sol | At home | In a restaurant || "Celebraremos la Nochevieja en la Puerta del Sol." || @tags es.listening,es.future
+  ask: Invite a friend to a festival in your town. Say when it will be and what there will be. || kw: te gustaría/quieres & habrá/será/empezará/veremos/iremos || ¿Te gustaría venir a las fiestas de mi pueblo? Empezarán el viernes y habrá conciertos todas las noches.
+  write: Write a birthday message to a Spanish-speaking friend who lives far away. Congratulate them, say what you will do together when you visit, and wish them a great year. || min=30 || req: felicidades/feliz cumpleaños | tendrás/podrás/haremos/iremos/será/celebraremos/iré || ¡Felicidades, Maite! ¡Feliz cumpleaños! Siento no poder estar contigo hoy. En agosto iré a Bilbao y haremos una cena especial para celebrarlo. Seguro que tendrás un año fantástico: nuevo trabajo, nuevo piso… ¡Disfruta mucho! Un abrazo muy fuerte, Sam
+lessons:
+  - title: Festivals and holidays
+    summary: Talk about festivals and public holidays, and say what will happen with the simple future (regular verbs and habrá).
+    minutes: 40
+    skills: [vocabulary, grammar, listening]
+    tags: [es.future, es.dates]
+    objectives:
+      - Form the future of regular verbs (celebraré, verás, empezará)
+      - Describe a festival programme with habrá (there will be)
+      - Talk about the main festivals and public holidays in Spain
+    intro: |
+      Spain has a festival for almost every week of the year: Fallas, Semana Santa, ferias, patron saints' days, the bonfires of San Juan. To say what **will** happen — *La fiesta empezará el viernes; habrá conciertos en la plaza* — Spanish has a simple future tense, one of the most regular tenses in the language.
+    vocab: |
+      la fiesta | festival; party; holiday | n | Las fiestas del pueblo son en agosto. | The village festival is in August. | g: f | n: Las fiestas (plural) is a town's annual festival.
+      el día festivo | public holiday | n | El 12 de octubre es día festivo en toda España. | 12 October is a public holiday all over Spain. | g: m | n: Also un festivo.
+      celebrar | to celebrate | v | ¿Cómo celebras la Nochevieja? | How do you celebrate New Year's Eve?
+      el desfile | parade | n | El desfile pasará por la calle Mayor. | The parade will go along the high street. | g: m
+      los fuegos artificiales | fireworks | n | A medianoche habrá fuegos artificiales en el puerto. | At midnight there will be fireworks at the harbour. | g: m
+      la hoguera | bonfire | n | En la noche de San Juan hay hogueras en la playa. | On St John's Eve there are bonfires on the beach. | g: f
+      el patrón / la patrona | patron saint | n | San Isidro es el patrón de Madrid. | San Isidro is the patron saint of Madrid. | g: m/f
+      disfrazarse | to dress up (in a costume) | v | En Carnaval nos disfrazaremos de piratas. | At Carnival we'll dress up as pirates. | c: disfrazarse de…
+      la procesión | procession | n | En Semana Santa hay procesiones por todo el país. | At Easter there are processions all over the country. | g: f | pl: procesiones
+      el puente | long weekend | n | El festivo cae en jueves, así que habrá puente. | The holiday falls on a Thursday, so there'll be a long weekend. | g: m
+      típico / típica | traditional; typical | adj | El dulce típico de las Fallas son los buñuelos. | The traditional sweet of Fallas is buñuelos.
+      habrá | there will be | v | Mañana habrá música en todas las plazas. | Tomorrow there'll be music in every square. | n: The future of hay; it never changes for the plural.
+    grammar:
+      title: "The simple future: celebraré, verás, habrá"
+      body: |
+        The **futuro simple** says what will happen. For regular verbs, add the endings to the **whole infinitive**. The endings are the same for -ar, -er and -ir verbs: **-é, -ás, -á, -emos, -éis, -án**: *celebrar → celebraré, ver → verás, vivir → vivirá*.
+
+        All the forms except nosotros carry a written accent: *celebraré, celebrarás, celebrará, celebraremos, celebraréis, celebrarán*.
+
+        The future of **hay** is **habrá** (there will be), with singular and plural: *Habrá fuegos artificiales a medianoche.*
+
+        At A1 you used **ir a + infinitive** for plans. Both talk about the future:
+        - **ir a** is more usual in conversation for plans and intentions: *Este año voy a ir a las Fallas.*
+        - the **futuro** is typical of programmes, forecasts, predictions and promises: *La fiesta empezará a las diez. Mañana lloverá.*
+
+        Some common verbs have irregular future stems (*tendré, haré, podré…*): you'll learn them in Lesson 3.
+      table: |
+        Pronoun | celebrar | ver | vivir
+        yo | celebraré | veré | viviré
+        tú | celebrarás | verás | vivirás
+        él / ella / usted | celebrará | verá | vivirá
+        nosotros / nosotras | celebraremos | veremos | viviremos
+        vosotros / vosotras (Spain) | celebraréis | veréis | viviréis
+        ellos / ellas / ustedes | celebrarán | verán | vivirán
+      examples: |
+        La fiesta empezará el viernes a las ocho de la tarde. | The festival will start on Friday at eight in the evening.
+        El domingo habrá un desfile por el centro. | On Sunday there will be a parade through the centre.
+        ¿Os disfrazaréis este año en Carnaval? | Will you (all) dress up for Carnival this year? | Spain; in Latin America: ¿Se disfrazarán…?
+        Te encantará la noche de San Juan. | You'll love St John's Eve.
+      tip: "The future always contains the whole infinitive: celebrar + á = celebrará. Listen for the stress at the very end: celebrará, verán, habrá."
+    dialogue:
+      title: ¡Ven a las Fallas!
+      setting: Manuel, who lives in Valencia, talks on a video call with his friend Chloé, a French student in Madrid. She is coming to Fallas in March.
+      speakers: M=Manuel/m; C=Chloé/f
+      lines: |
+        M: Chloé, ¿al final vas a venir a las Fallas? | Chloé, are you coming to Fallas in the end?
+        C: ¡Sí! Llegaré a Valencia el dieciocho por la mañana. | Yes! I'll arrive in Valencia on the eighteenth in the morning.
+        M: ¡Genial! Ese día habrá mucha gente en el centro. | Great! There'll be lots of people in the centre that day.
+        C: ¿Y qué veremos? No sé mucho de las Fallas. | And what will we see? I don't know much about Fallas.
+        M: A las dos iremos a la mascletà, en la plaza del Ayuntamiento. | At two we'll go to the mascletà, in the town hall square.
+        C: ¿La mascletà? ¿Qué es eso? | The mascletà? What's that?
+        M: Son petardos: mucho ruido durante unos minutos. ¡Te encantará! | Firecrackers: a lot of noise for a few minutes. You'll love it!
+        C: ¿Y las fallas? ¿Son esas figuras gigantes? | And the fallas? Are they those giant figures?
+        M: Sí. Las quemarán la noche del diecinueve. | Yes. They'll burn them on the night of the nineteenth.
+        C: ¿Las queman todas? ¡Qué pena! | They burn them all? What a shame!
+        M: Es la tradición. Después cenaremos buñuelos con chocolate. | It's the tradition. Afterwards we'll have buñuelos and hot chocolate for dinner.
+        C: Vale, pero llevaré tapones para los oídos. | OK, but I'll bring earplugs.
+    pronunciation:
+      title: "Stress on the future endings: llegaré, verás, habrá"
+      body: |
+        The future is stressed on the ending: *lle-ga-RÉ, ve-RÁS, ha-BRÁ, que-ma-RÁN*. Only the nosotros form has no accent: it ends in -s and is stressed on the second-to-last syllable, *ce-na-RE-mos*.
+
+        Compare the present *celebra* (ce-LE-bra) with the future *celebrará* (ce-le-bra-RÁ): the stress tells you the tense. Listen and repeat.
+      items: |
+        llegaré
+        verás
+        habrá
+        iremos
+        quemarán
+        celebrará
+    culture:
+      title: A year of fiestas
+      body: |
+        The national public holidays in Spain include 1 and 6 January, Good Friday, 1 May, 15 August, 12 October, 1 November and 6, 8 and 25 December. On top of these, each region and town has its own: every town celebrates its **fiestas**, often in honour of its patron saint, with music, fairs and fireworks.
+
+        Some famous examples are **las Fallas** in Valencia (March), the **Feria de Abril** in Seville, the bonfires of **San Juan** on 23 June, and **Carnaval** in Cádiz and Santa Cruz de Tenerife. In Mexico and other Latin American countries, the **Día de Muertos** (1–2 November) honours family members who have died.
+    mistakes: |
+      La fiesta empezerá el viernes. => La fiesta empezará el viernes. | The future keeps the whole infinitive: empezar + á = empezará.
+      Mañana habrán fuegos artificiales. => Mañana habrá fuegos artificiales. | Like hay, habrá doesn't change for the plural.
+      Celebrarémos la Navidad en casa. => Celebraremos la Navidad en casa. | The nosotros form of the future has no written accent.
+    task:
+      title: Your festival guide
+      mode: writing
+      body: |
+        A Spanish-speaking friend is coming to a festival in your town or country. Write a short programme of 60–80 words for the weekend: when it will start, what there will be (*habrá…*), what you will do together and what typical food you will try. Use at least five verbs in the future.
+    exercises: |
+      fill: El desfile ___ (empezar) a las seis. || empezará || Él/ella form of the future: infinitive + -á. || @tags es.future
+      fill: Esta noche ___ (cenar, nosotros) buñuelos con chocolate. || cenaremos || Nosotros form: infinitive + -emos (no accent). || @tags es.future
+      fill: ¿___ (ver, tú) los fuegos artificiales desde la playa? || verás || Tú form: infinitive + -ás. || @tags es.future
+      fill: El domingo ___ (haber) conciertos en tres plazas. || habrá || The future of hay is habrá, even with a plural noun. || @tags es.future
+      mc: Which form is the future? || celebra | celebró | *celebrará || Celebrará = infinitive + -á. Celebra is the present and celebró the preterite. || @tags es.future
+      mc: How do you say "There will be a lot of people"? || Habrán mucha gente. | *Habrá mucha gente. | Hay a ser mucha gente. || Habrá is the future of hay and never takes -n. || @tags es.future
+      rw: Change ir a + infinitive to the future :: Vamos a celebrar la Nochevieja en Sevilla. || Celebraremos la Nochevieja en Sevilla. | Nosotros celebraremos la Nochevieja en Sevilla. || Vamos a celebrar → celebraremos. || @tags es.future,es.ir-a
+      tf: Chloé will arrive in Valencia on the nineteenth. || false || She'll arrive on the eighteenth: "Llegaré a Valencia el dieciocho." The fallas burn on the night of the nineteenth. || @ctx dialogue
+      short: What will they have for dinner after the fallas are burnt? || kw: buñuelos/chocolate || "Después cenaremos buñuelos con chocolate." || @ctx dialogue
+      listen: @dialogue || What is the mascletà? || A giant figure | *Lots of firecrackers and noise | A traditional dessert || "Son petardos: mucho ruido durante unos minutos." || @tags es.listening
+      listen: Las fiestas empezarán el viernes con un concierto en la plaza. El sábado habrá un mercado medieval y el domingo, fuegos artificiales. || What will there be on Saturday? || A concert | *A medieval market | Fireworks || "El sábado habrá un mercado medieval." || @tags es.listening,es.future
+      tr: There will be fireworks at midnight. || Habrá fuegos artificiales a medianoche. | A medianoche habrá fuegos artificiales. | Habrá fuegos artificiales a las doce de la noche. || There will be = habrá. || @tags es.future
+      dict: El sábado habrá un desfile y por la noche cenaremos en la plaza.
+      ask: Tell a friend about a festival in your town next month: when it will be and two things there will be or you will do. || kw: habrá/será/empezará & iremos/veremos/comeremos/bailaremos/celebraremos/cenaremos/iré/veré || Las fiestas de mi pueblo empezarán el quince de agosto. Habrá conciertos en la plaza y el último día veremos los fuegos artificiales.
+
+  - title: Invitations and parties
+    summary: Invite people, accept and decline politely, and make polite requests with the conditional (¿te gustaría…?, me encantaría, ¿podrías…?).
+    minutes: 40
+    skills: [speaking, grammar, writing]
+    tags: [es.conditional, es.register]
+    objectives:
+      - Invite someone with ¿Te gustaría…? and ¿Quieres…?
+      - Accept and decline politely (me encantaría, pero…)
+      - Make polite requests with ¿podrías…? and ¿te importaría…?
+    intro: |
+      "Would you like to come to my party?" "I'd love to, but…" Polite invitations and refusals use the **conditional**: *¿Te gustaría venir? Me encantaría, pero no puedo.* At A2 you will learn a handful of very useful conditional forms that make your Spanish sound friendly and polite.
+    vocab: |
+      invitar a | to invite to | v | Te invito a mi cumpleaños el sábado. | I'm inviting you to my birthday party on Saturday. | n: Te invito also means "it's on me" (I'll pay).
+      la invitación | invitation | n | Gracias por la invitación. | Thanks for the invitation. | g: f
+      ¿te gustaría…? | would you like…? | expr | ¿Te gustaría venir a cenar el viernes? | Would you like to come to dinner on Friday? | n: With usted: ¿Le gustaría…?
+      me encantaría | I'd love to | expr | ¡Me encantaría! ¿A qué hora? | I'd love to! What time?
+      ¿podrías…? | could you…? | expr | ¿Podrías traer hielo? | Could you bring some ice?
+      ¿te importaría…? | would you mind…? | expr | ¿Te importaría llegar un poco antes? | Would you mind arriving a bit earlier?
+      tener un compromiso | to have something on; to have a prior engagement | expr | Lo siento, ese día tengo un compromiso. | Sorry, I've got something on that day.
+      la cena de empresa | office dinner | n | La cena de empresa será el veinte de diciembre. | The office dinner will be on 20 December. | g: f
+      la sorpresa | surprise | n | Es una fiesta sorpresa para Ana. ¡Es un secreto! | It's a surprise party for Ana. It's a secret! | g: f
+      traer | to bring | v | Yo traigo la tarta. | I'll bring the cake. | n: Irregular yo form: traigo.
+      el brindis | toast (with a drink) | n | Ahora, ¡un brindis por los novios! | Now, a toast to the bride and groom! | g: m | n: Brindar por = to drink to.
+      la despedida | farewell party | n | El viernes hacemos una despedida para Marga, que se jubila. | On Friday we're having a farewell party for Marga, who's retiring. | g: f | n: Una despedida de soltero/a = a stag/hen party.
+      confirmar | to confirm | v | ¿Puedes confirmar si vienes antes del jueves? | Can you confirm whether you're coming before Thursday?
+    grammar:
+      title: The conditional for polite invitations and requests
+      body: |
+        The **conditional** (*would…*) makes invitations and requests softer and more polite. Like the future, it is built on the **whole infinitive**, but with the endings **-ía, -ías, -ía, -íamos, -íais, -ían**: *gustar → gustaría, encantar → encantaría, importar → importaría*.
+
+        At A2, learn these chunks:
+        - **Inviting**: *¿Te gustaría venir?* — softer than *¿Quieres venir?* With usted: *¿Le gustaría…?*
+        - **Accepting**: *¡Me encantaría! / ¡Claro, con mucho gusto!*
+        - **Declining** politely: *Me encantaría, pero no puedo* + a reason: *ese día tengo un compromiso.*
+        - **Requests**: *¿Podrías traer hielo? ¿Te importaría cerrar la puerta? Me gustaría hablar con Ana.*
+
+        **Poder** has an irregular stem: *podría, podrías, podría…* — the same stem as its future, which you will see in Lesson 3.
+
+        Compare: *¿Puedes traer hielo?* (neutral) → *¿Podrías traer hielo?* (more polite). With gustar, encantar and importar, the verb stays singular before an infinitive: *¿Os gustaría venir?*
+      table: |
+        Function | Expression | Example
+        invite (tú) | ¿Te gustaría + infinitive? | ¿Te gustaría venir a mi fiesta?
+        invite (usted) | ¿Le gustaría + infinitive? | ¿Le gustaría tomar algo?
+        accept | ¡Me encantaría! / Con mucho gusto. | ¡Me encantaría! ¿Llevo algo?
+        decline | Me encantaría, pero… | Me encantaría, pero ese día trabajo.
+        ask a favour | ¿Podrías + infinitive? | ¿Podrías traer las bebidas?
+        ask very politely | ¿Te importaría + infinitive? | ¿Te importaría bajar la música?
+      examples: |
+        ¿Te gustaría venir a la cena de Nochebuena con mi familia? | Would you like to come to Christmas Eve dinner with my family?
+        Me encantaría, pero el sábado tengo una boda. | I'd love to, but on Saturday I've got a wedding.
+        ¿Podrías comprar el pan de camino? | Could you buy the bread on the way?
+        ¿Le gustaría brindar con nosotros, señora Llorente? | Would you like to join our toast, Mrs Llorente?
+      tip: "In Spain a bare no sounds rude. Add a friendly phrase and a reason: ¡Qué pena! Me encantaría, pero tengo un compromiso. ¡La próxima vez, seguro!"
+    dialogue:
+      title: Una fiesta sorpresa
+      setting: The staff room of a secondary school in Zaragoza. Silvia is organising a surprise farewell party for Marga, a colleague who is retiring, and asks Rodrigo to come.
+      speakers: S=Silvia/f; R=Rodrigo/m
+      lines: |
+        S: Rodrigo, ¿tienes un momento? Preparamos una despedida para Marga. | Rodrigo, have you got a minute? We're preparing a farewell party for Marga.
+        R: ¿Para Marga? ¡Claro! Se jubila este mes, ¿no? | For Marga? Of course! She's retiring this month, isn't she?
+        S: Sí. Es una fiesta sorpresa, el viernes veintiocho, en el bar de la esquina. | Yes. It's a surprise party, on Friday the twenty-eighth, at the bar on the corner.
+        R: ¡Qué buena idea! ¿A qué hora? | What a good idea! What time?
+        S: A las ocho. ¿Te gustaría venir? | At eight. Would you like to come?
+        R: ¡Me encantaría! ¿Llevo algo? | I'd love to! Shall I bring anything?
+        S: Pues sí. ¿Podrías traer la tarta? Tú vives cerca de la pastelería. | Well, yes. Could you bring the cake? You live near the cake shop.
+        R: Sin problema. ¿Y quién más viene? | No problem. And who else is coming?
+        S: Todos los profes. Bueno, Félix no puede: tiene un compromiso. | All the teachers. Well, Félix can't: he's got something on.
+        R: ¡Qué pena! Oye, ¿te importaría enviarme la dirección del bar? | What a shame! Hey, would you mind sending me the address of the bar?
+        S: Claro, ahora mismo te mando un mensaje. | Sure, I'll send you a message right now.
+        R: Perfecto. ¡Y tranquila, es un secreto! | Perfect. And don't worry, my lips are sealed!
+    pronunciation:
+      title: "Polite intonation: ¿Te gustaría venir?"
+      body: |
+        In the conditional, the stress falls on the **í** of the ending, which always has a written accent: *gus-ta-RÍ-a, en-can-ta-RÍ-a, po-DRÍ-as*. Say *-ía* as two syllables.
+
+        Yes/no invitations rise at the end: *¿Te gustaría venir? ↗*. A warm, rising tone sounds friendly; a flat tone can sound like an order. Listen and repeat.
+      items: |
+        ¿te gustaría venir?
+        me encantaría
+        ¿podrías traer la tarta?
+        ¿te importaría?
+        ¡qué pena!
+        con mucho gusto
+    culture:
+      title: Invitations, Spanish style
+      body: |
+        Invitations among friends in Spain are often informal and last-minute: a message the same week, or *¿Te vienes?* ("Are you coming along?") on the day itself. If you are invited to someone's home, bring something — a dessert, a bottle of wine or some flowers — and don't arrive early: ten or fifteen minutes late is normal for dinner with friends.
+
+        **Invitar** means both "to invite" and "to pay for someone". On your birthday you may be expected to treat your friends or bring a cake to work, and at the end of a meal people often argue about the bill: *¡Te invito yo!* — *¡Ni hablar, hoy invito yo!*
+    mistakes: |
+      ¿Te gustarías venir? => ¿Te gustaría venir? | Gustar agrees with what is liked (venir), not with the person, so it stays singular: gustaría.
+      Me encantaría, pero no. => Me encantaría, pero no puedo: tengo un compromiso. | A bare no sounds rude. Give a reason.
+      ¿Puedrías traer hielo? => ¿Podrías traer hielo? | The conditional of poder is podría (stem podr-), with no ue.
+    task:
+      title: Invite and reply
+      mode: interaction
+      body: |
+        Write a short invitation to a party (what, when, where, what to bring) and send it to two classmates. Then reply to two invitations: accept one with enthusiasm and decline the other politely, giving a reason. Use *¿te gustaría…?*, *¿podrías…?* and *me encantaría*. To practise out loud, arrange a get-together in the "Making weekend plans" scenario with the AI coach.
+    exercises: |
+      fill: ¿Te ___ venir a mi cumpleaños el sábado? (gustar) || gustaría || A polite invitation: ¿Te gustaría + infinitive? || @tags es.conditional
+      fill: ¡Me ___! ¿A qué hora empieza? (encantar) || encantaría || Accepting warmly: me encantaría. || @tags es.conditional
+      fill: ¿___ traer unas sillas? (poder, tú) || podrías || Poder has an irregular stem in the conditional: podr- + ías. || @tags es.conditional
+      fill: Señora Vidal, ¿le ___ cenar con nosotros? (gustar) || gustaría || With usted, the pronoun is le: ¿Le gustaría…? || @tags es.conditional,es.register
+      mc: Which is the most polite way to ask a friend to bring ice? || Trae hielo. | ¿Traes hielo? | *¿Podrías traer hielo? || The conditional (podrías) softens the request. || @tags es.conditional
+      mc: You can't go to the party. What do you say? || No, gracias. Adiós. | *¡Qué pena! Me encantaría, pero tengo un compromiso. | Sí, me encantaría. || Decline politely: a friendly phrase, me encantaría, pero… and a reason. || @tags es.conditional
+      rw: Make the request more polite with podrías :: ¿Puedes poner la mesa? || ¿Podrías poner la mesa? || Puedes → podrías (conditional). || @tags es.conditional
+      tf: Rodrigo will bring the cake. || true || "¿Podrías traer la tarta?" — "Sin problema." || @ctx dialogue
+      short: Which colleague can't come to the party? || kw: Félix/Felix || "Félix no puede: tiene un compromiso." || @ctx dialogue
+      listen: @dialogue || Why are they having a party for Marga? || It's her birthday | *She's retiring | She's getting married || "Se jubila este mes, ¿no?" || @tags es.listening
+      listen: ¿Te gustaría venir a cenar el viernes? Seremos seis y cenaremos en la terraza. || How many people will there be at dinner? || Four | *Six | Eight || "Seremos seis" — there will be six of us. || @tags es.listening,es.conditional
+      tr: Would you like to come to my party? (to a friend) || ¿Te gustaría venir a mi fiesta? | ¿Quieres venir a mi fiesta? || ¿Te gustaría + infinitive? is the polite way; ¿Quieres…? is also fine with friends. || @tags es.conditional
+      dict: Me encantaría, pero el sábado tengo una boda.
+      ask: A colleague invites you to dinner on Friday, but you can't go. Decline politely and give a reason. || kw: me encantaría/qué pena/lo siento & pero & no puedo/tengo/trabajo || ¡Qué pena! Me encantaría, pero el viernes tengo un compromiso. ¿Lo dejamos para otro día?
+
+  - title: Gifts and good wishes
+    summary: Choose and give presents, use the right good wishes for each occasion, and make predictions and promises with irregular futures (tendrás, podrás, haré).
+    minutes: 40
+    skills: [vocabulary, grammar, writing]
+    tags: [es.future, es.vocabulary]
+    objectives:
+      - Use the irregular future stems tendr-, podr-, har-, pondr-, saldr-, vendr- and dir-
+      - Give the right good wishes for birthdays, weddings, exams and illness
+      - Talk about choosing, giving and thanking for presents
+    intro: |
+      A birthday card, a wedding message, a note for a friend's new job: good wishes often look to the future — *¡Tendrás un año fantástico!* — and many common verbs have irregular future stems. You will also learn the fixed phrases Spaniards use for each occasion, from *¡Felicidades!* to *¡Que te mejores!*
+    vocab: |
+      el regalo | present | n | Te he traído un regalo. | I've brought you a present. | g: m
+      envolver para regalo | to gift-wrap | expr | ¿Puede envolverlo para regalo? | Could you gift-wrap it? | n: Envolver: o → ue (envuelvo).
+      la tarjeta de felicitación | greetings card | n | Escribiremos una tarjeta de felicitación entre todos. | We'll all write a card together. | g: f
+      ¡felicidades! | congratulations!; happy birthday! | interj | ¡Felicidades, Nuria! ¿Cuántos cumples? | Happy birthday, Nuria! How old are you today? | n: For birthdays and other celebrations. Also ¡Feliz cumpleaños!
+      ¡enhorabuena! | congratulations! (on an achievement) | interj | ¡Enhorabuena por el nuevo trabajo! | Congratulations on the new job! | n: For success: an exam, a job, a baby, a wedding.
+      ¡que te mejores! | get well soon! | expr | ¿Tienes gripe? ¡Que te mejores! | You've got flu? Get well soon! | n: A fixed phrase — learn it as a whole.
+      ¡que lo pases bien! | have a good time! | expr | ¿Te vas a Roma? ¡Que lo pases muy bien! | You're off to Rome? Have a great time! | n: A fixed phrase.
+      ¡mucha suerte! | good luck! | expr | Mañana tienes el examen, ¿no? ¡Mucha suerte! | You've got the exam tomorrow, haven't you? Good luck!
+      los novios | bride and groom; the couple | n | Los novios abrirán los regalos después de la boda. | The couple will open the presents after the wedding. | g: m | n: El novio / la novia also means boyfriend / girlfriend.
+      la lista de bodas | wedding list | n | Muchos novios prefieren dinero a una lista de bodas. | Many couples prefer money to a wedding list. | g: f
+      agradecer | to thank (for) | v | Te agradezco mucho el regalo. | Thank you so much for the present. | n: Irregular yo form: agradezco.
+      el detalle | small gift; kind gesture | n | ¡Qué detalle! Muchas gracias. | How thoughtful! Thank you so much. | g: m
+    grammar:
+      title: "Irregular futures: tendrás, podrás, haré"
+      body: |
+        Some common verbs have an **irregular stem** in the future, but the endings are the usual ones: **-é, -ás, -á, -emos, -éis, -án**.
+
+        - The **e** of the infinitive disappears: *poder → **podr**é, saber → **sabr**é, querer → **querr**é, haber → **habr**á*
+        - A **d** takes the place of the vowel: *tener → **tendr**é, poner → **pondr**é, salir → **saldr**é, venir → **vendr**é*
+        - Completely irregular: *hacer → **har**é, decir → **dir**é*
+
+        These stems are the same in the conditional: *podría, tendría, haría*.
+
+        Good wishes and promises often use the future: *Tendrás mucho éxito. Podrás descansar. Te haré una tarta.*
+
+        Many fixed good wishes use **¡Que…!** + a verb form you will study at B1 (the subjunctive): *¡Que te mejores! ¡Que lo pases bien! ¡Que cumplas muchos más!* Learn them as set phrases.
+      table: |
+        Infinitive | Stem | yo | tú | ellos / ellas
+        tener | tendr- | tendré | tendrás | tendrán
+        poder | podr- | podré | podrás | podrán
+        hacer | har- | haré | harás | harán
+        venir | vendr- | vendré | vendrás | vendrán
+        salir | saldr- | saldré | saldrás | saldrán
+        decir | dir- | diré | dirás | dirán
+      examples: |
+        ¡Enhorabuena! Seguro que tendrás mucho éxito en el nuevo trabajo. | Congratulations! I'm sure you'll be very successful in your new job.
+        El año que viene podréis viajar juntos. | Next year you'll (both) be able to travel together. | Spain; in Latin America: podrán
+        Para tu cumpleaños te haré una tarta de queso. | For your birthday I'll make you a cheesecake.
+        Vendremos a la boda con los niños. | We'll come to the wedding with the children.
+      tip: "Learn each irregular future with its conditional: tendré / tendría, podré / podría, haré / haría. Same stem, different endings."
+    dialogue:
+      title: Los sesenta de mamá
+      setting: At home in Huesca, Itziar and her brother Gael plan a present for their mother's sixtieth birthday on Sunday.
+      speakers: I=Itziar/f; G=Gael/m
+      lines: |
+        I: Gael, el domingo mamá cumple sesenta años. ¿Qué le regalamos? | Gael, Mum turns sixty on Sunday. What shall we give her?
+        G: ¿Un perfume? No, siempre le regalamos perfume. | Perfume? No, we always give her perfume.
+        I: ¿Y un fin de semana en un balneario? Así podrá descansar. | What about a weekend at a spa? That way she'll be able to relax.
+        G: ¡Qué buena idea! Pero tendremos que reservar ya. | What a good idea! But we'll have to book now.
+        I: Yo haré la reserva esta noche. Tú puedes comprar la tarjeta. | I'll make the booking tonight. You can buy the card.
+        G: Vale. ¿Y qué ponemos en la tarjeta? | OK. And what shall we write in the card?
+        I: Algo así: «¡Felicidades, mamá! Tendrás un fin de semana de reina». | Something like: "Happy birthday, Mum! You'll have a weekend fit for a queen."
+        G: ¿Y vendrán los tíos a la comida? | And will our aunt and uncle come to the lunch?
+        I: Sí, vendrán todos. La abuela dirá unas palabras. | Yes, they'll all come. Grandma will say a few words.
+        G: ¡Uf! Entonces habrá lágrimas, seguro. | Phew! Then there'll be tears for sure.
+        I: Seguro. Y yo pondré la música de su boda. | For sure. And I'll put on the music from her wedding.
+        G: ¡Le encantará! Va a ser un día precioso. | She'll love it! It's going to be a lovely day.
+    pronunciation:
+      title: "Dr and ndr: tendré, podrás, vendrán"
+      body: |
+        In *tendré, podrás, vendrán, saldremos*, the **r** comes straight after a **d**. It is a single quick tap [ɾ], not a trill. Touch the back of your top teeth lightly for the d, then tap the r immediately: *ten-DRÉ, po-DRÁS*.
+
+        Don't add a vowel between the d and the r (not *ten-de-ré*). Listen and repeat.
+      items: |
+        tendré
+        podrás
+        vendrán
+        saldremos
+        pondré
+        habrá
+    culture:
+      title: Presents and good wishes
+      body: |
+        In Spain, presents are usually opened **in front of the giver**, with an enthusiastic thank-you: *¡Qué bonito! ¡Qué detalle!* At weddings, many guests give money, often by bank transfer, rather than choosing a present from a list.
+
+        Each occasion has its phrase: **¡Felicidades!** for birthdays, **¡Enhorabuena!** for success (a new job, a baby, a passed exam), **¡Feliz Navidad!** and **¡Feliz Año Nuevo!**, **¡Que te mejores!** for someone who is ill and **¡Que aproveche!** to people who are eating. On **el Día de Reyes** (6 January), the Three Kings bring children their presents.
+    mistakes: |
+      Mañana teneré tiempo. => Mañana tendré tiempo. | Tener has an irregular future stem: tendr-.
+      ¡Enhorabuena por tu cumpleaños! => ¡Felicidades por tu cumpleaños! | For birthdays, say ¡Felicidades! or ¡Feliz cumpleaños! ¡Enhorabuena! is for achievements.
+      Haceré una tarta. => Haré una tarta. | Hacer has an irregular future stem: har-.
+    task:
+      title: A card for every occasion
+      mode: writing
+      body: |
+        Write three short messages of 20–30 words each: a birthday card for a friend, congratulations to a colleague on a new job, and a get-well message for a neighbour. Use the right fixed phrase for each and at least one irregular future in each message (*tendrás, podrás, harás…*).
+    exercises: |
+      fill: El año que viene ___ (tener, yo) más tiempo libre. || tendré || Tener → tendr- + é. || @tags es.future
+      fill: ¿___ (poder, tú) venir a la boda? || podrás || Poder → podr- + ás. || @tags es.future
+      fill: Para tu cumpleaños te ___ (hacer, yo) una paella. || haré || Hacer → har- + é. || @tags es.future
+      fill: Mis padres ___ (venir) el domingo para la comida. || vendrán || Venir → vendr- + án. || @tags es.future
+      mc: Your colleague has passed her driving test. You say: || ¡Que te mejores! | *¡Enhorabuena! | ¡Que aproveche! || ¡Enhorabuena! is for an achievement. ¡Que te mejores! is for someone ill; ¡Que aproveche! for people eating. || @tags es.vocabulary
+      mc: A friend has a bad cold. You say: || ¡Felicidades! | ¡Mucha suerte! | *¡Que te mejores! || ¡Que te mejores! = get well soon. || @tags es.vocabulary
+      rw: Change to the future, starting with Mañana :: Hoy salimos a las ocho y ponemos la mesa en el jardín. || Mañana saldremos a las ocho y pondremos la mesa en el jardín. || Salir → saldr-, poner → pondr- + -emos. || @tags es.future
+      tf: Itziar and Gael will give their mother perfume. || false || They always give her perfume, so this time they choose a weekend at a spa. || @ctx dialogue
+      short: Who will say a few words at the lunch? || kw: abuela/grandmother/grandma || "La abuela dirá unas palabras." || @ctx dialogue
+      listen: @dialogue || Who will book the spa? || Gael | *Itziar | Their aunt and uncle || "Yo haré la reserva esta noche," says Itziar. || @tags es.listening,es.future
+      listen: ¡Felicidades, Óliver! Esta noche haremos una cena en casa y vendrán todos tus amigos. || What will happen tonight? || *A dinner at home with his friends | A party in a restaurant | A trip to the cinema || "Haremos una cena en casa y vendrán todos tus amigos." || @tags es.listening,es.future
+      tr: Get well soon! (to a friend) || ¡Que te mejores! | Que te mejores. | ¡Que te mejores pronto! || The fixed phrase is ¡Que te mejores! || @tags es.vocabulary
+      dict: Vendremos a la boda y os haremos un regalo especial.
+      ask: A friend tells you she has a new job. Congratulate her and wish her well, using a verb in the future. || kw: enhorabuena/felicidades & tendrás/podrás/harás/será/irá/aprenderás/estarás || ¡Enhorabuena! Seguro que tendrás mucho éxito y aprenderás un montón.

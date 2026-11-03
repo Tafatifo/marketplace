@@ -1,0 +1,349 @@
+unit: 5
+title: Medien und Meinungsbildung
+theme: Media and persuasion
+description: Check viral claims, see through advertising and write an opinion piece — with Konjunktiv I for reported speech, sollen and wollen for claims, and laut, zufolge and nach Angaben for sources.
+free: false
+objectives:
+  - Report what others say with Konjunktiv I in the present and the past, using substitute forms where necessary
+  - Reproduce claims with distance using sollen, wollen and angeblich
+  - Name sources with laut, zufolge and nach Angaben and write a structured opinion piece
+canDo:
+  - I can check a claim from social media and report what different sources say.
+  - I can analyse the promises of an advertisement and say what is actually proven.
+  - I can tell the difference between reported facts and opinions in a news text.
+  - I can write an opinion piece that weighs arguments and takes a clear position.
+review: |
+  fill: Die Sprecherin sagte, es ___ kein generelles Verbot. (geben) || gebe || Konjunktiv I of geben (er/sie/es-form): gebe. || @tags de.konjunktiv1
+  fill: Der Minister erklärte, er ___ von dem Problem nichts gewusst. (haben) || habe || Konjunktiv I past: habe + Partizip II. || @tags de.konjunktiv1
+  fill: Die Firmen behaupten, sie ___ keine Daten verkauft. (haben) || hätten || The Konjunktiv I sie haben looks like the indicative, so the Konjunktiv II hätten is used instead. || @tags de.konjunktiv1,de.konjunktiv2
+  mc: Er sagt: „Ich kann morgen nicht kommen.“ — Choose the indirect speech. || *Er sagt, er könne morgen nicht kommen. | Er sagt, ich könne morgen nicht kommen. | Er sagt, er konnte morgen nicht kommen. || The pronoun changes (ich → er) and the tense stays the same: Konjunktiv I könne. || @tags de.konjunktiv1
+  mc: „Der Schauspieler will den Text selbst geschrieben haben.“ What does this mean? || *The actor claims that he wrote the text himself. | People say that the actor wrote the text. | The actor wants to write the text himself. || Wollen + perfect infinitive = the subject claims something about himself. || @tags de.modal-verbs
+  rw: Use sollen to show it's only a claim :: Man sagt, dass der Tee beim Abnehmen hilft. || Der Tee soll beim Abnehmen helfen. || Sollen + infinitive = it is said / claimed (by others). || @tags de.modal-verbs
+  fill: Der Umfrage ___ vertrauen viele Menschen der Lokalzeitung mehr als sozialen Netzwerken. || zufolge || Zufolge follows the noun and takes the dative: der Umfrage zufolge. || @tags de.prepositions,de.dative
+  tr: According to the police, nobody was injured. || Laut Polizei wurde niemand verletzt. | Laut der Polizei wurde niemand verletzt. | Der Polizei zufolge wurde niemand verletzt. | Nach Angaben der Polizei wurde niemand verletzt. | Laut Polizei ist niemand verletzt worden. | Der Polizei zufolge ist niemand verletzt worden. | Nach Angaben der Polizei ist niemand verletzt worden. || Laut (+ dative, often without article), zufolge (after the noun) or nach Angaben + genitive. || @tags de.prepositions,de.passive
+  listen: Die Bürgermeisterin erklärte, die Sanierung des Hallenbads werde teurer als geplant. Die Stadt habe aber genug Geld zurückgelegt, sodass das Bad im Herbst öffnen könne. || What did the mayor say about the swimming pool? || It will close for good. | *It will cost more, but it can open in the autumn. | It will open early because the work was cheaper. || "… werde teurer als geplant … sodass das Bad im Herbst öffnen könne." || @tags de.listening,de.konjunktiv1
+  listen: Angeblich soll der neue Saft das Immunsystem stärken. Der Hersteller nennt dafür allerdings keine einzige Studie. || What is the problem with the claim? || The juice is too expensive. | *The manufacturer gives no study to support it. | The study shows the opposite. || "Der Hersteller nennt dafür allerdings keine einzige Studie." || @tags de.listening,de.modal-verbs
+  ask: Ein Bekannter erzählt: „Im Netz steht, dass das Freibad diesen Sommer geschlossen bleibt.“ Antworten Sie: Fragen Sie nach der Quelle und sagen Sie, wie man das überprüfen könnte. || kw: quelle/woher/wer/seite/account/post & prüf/nachseh/nachschau/anruf/webseite/website/stadt/zeitung || Woher hast du das denn? Wer hat das geschrieben? Ich würde erst mal auf der Webseite der Stadt nachsehen oder beim Bürgerbüro anrufen, bevor ich das weiterschicke.
+  write: Write a short report (70–90 words) for a school newspaper about a meeting or event. Report what at least two people said, using Konjunktiv I. || min=60 || req: sagte/erklärte/betonte/meinte/berichtete | sei/habe/werde/könne/müsse/gebe/hätten/seien || Bei der Versammlung am Donnerstag ging es um die neue Mensa. Die Schulleiterin erklärte, der Umbau werde bis zu den Sommerferien dauern. Bis dahin gebe es das Mittagessen in der Turnhalle. Ein Vertreter der Eltern betonte, viele Familien seien mit den Preisen unzufrieden. Die Schulleiterin antwortete, man habe bereits mit dem Caterer gesprochen und die Preise würden im nächsten Jahr nicht steigen. Die Schülervertretung sagte, sie wolle bei der Planung des neuen Speiseplans mitreden.
+lessons:
+  - title: Misinformation and media literacy
+    summary: Follow two fact-checkers as they verify a viral post — and report what different sources say with Konjunktiv I.
+    minutes: 45
+    skills: [grammar, listening, reading]
+    tags: [de.konjunktiv1, de.reading]
+    objectives:
+      - Form the Konjunktiv I in the present and use Konjunktiv II as a substitute
+      - Report statements and questions in indirect speech
+      - Check a claim by asking about sources, dates and context
+    intro: |
+      News reports constantly tell you what others have said: *Die Sprecherin sagte, es **gebe** kein Verbot.* This **Konjunktiv I** shows that the journalist is reporting someone's words without claiming they are true. Recognising it helps you read critically; using it lets you report neutrally. In this lesson two fact-checkers investigate a viral post about a barbecue ban.
+    vocab: |
+      die Falschmeldung | false report; piece of misinformation | n | Die Falschmeldung wurde tausendfach geteilt. | The false report was shared thousands of times. | g: f | pl: die Falschmeldungen | n: Also: die Fake News (pl.), die Desinformation.
+      behaupten | to claim; to assert | v | In dem Post wird behauptet, die Stadt plane ein Verbot. | The post claims that the city is planning a ban. | n: Noun: die Behauptung.
+      angeblich | supposedly; allegedly | adv | Angeblich soll das Verbot ab Juni gelten. | The ban is supposed to apply from June.
+      teilen | to share | v | Bitte teilen Sie keine ungeprüften Informationen. | Please don't share unchecked information. | n: Also: to divide.
+      verbreiten | to spread | v | Gerüchte verbreiten sich im Netz sehr schnell. | Rumours spread very quickly online. | n: Noun: die Verbreitung.
+      nachvollziehbar | comprehensible; traceable | adj | Die Quelle der Information ist nicht nachvollziehbar. | The source of the information can't be traced.
+      stammen aus | to come from; to date from | v | Das Foto stammt aus einem Artikel von 2019. | The photo comes from an article from 2019.
+      der Sprecher | spokesperson | n | Ein Sprecher der Stadt hat die Meldung dementiert. | A city spokesperson denied the report. | g: m | pl: die Sprecher | n: Feminine: die Sprecherin. Also: das Presseamt (press office).
+      vorübergehend | temporary; temporarily | adj | Der Park ist vorübergehend gesperrt. | The park is temporarily closed.
+      irreführend | misleading | adj | Die Überschrift ist irreführend. | The headline is misleading.
+      der Faktencheck | fact check | n | Nach dem Faktencheck war klar: Die Meldung stimmt nicht. | After the fact check it was clear: the report was not true. | g: m | pl: die Faktenchecks
+      die Medienkompetenz | media literacy | n | Medienkompetenz sollte schon in der Grundschule unterrichtet werden. | Media literacy should be taught at primary school. | g: f | pl: (no plural)
+    grammar:
+      title: "Konjunktiv I: reported speech"
+      body: |
+        In reports, news and formal writing, German uses the **Konjunktiv I** to reproduce what someone said. It signals distance: *this is what the person said*.
+
+        **Form:** infinitive stem + **-e, -est, -e, -en, -et, -en**. In practice you mainly need the **er/sie/es-form**, which ends in **-e**: *er habe, sie komme, es gebe, sie könne, er müsse, sie wisse, er werde*. **Sein** is irregular: *ich sei, du seist, er sei, wir seien, ihr seiet, sie seien*.
+
+        **Substitute forms:** where the Konjunktiv I looks the same as the indicative (*ich habe, wir haben, sie haben, sie können*), use the **Konjunktiv II** instead: *Die Firmen sagen, sie **hätten** keine Zeit. Sie fragt, ob wir das veröffentlichen **könnten**.*
+
+        **Changes:** pronouns and possessives shift to the speaker's perspective (*„Ich komme“ → sie komme*), and expressions of time can shift too (*morgen → am nächsten Tag*). The tense of the original stays: present → Konjunktiv I present.
+
+        **Questions** are reported with **ob** or a question word, verb at the end: *Sie fragt, ob die Quelle seriös **sei**.* The **dass** is optional: *Sie sagt, es gebe … / Sie sagt, dass es … gebe.*
+      table: |
+        Infinitive | ich | er/sie/es | wir/sie
+        sein | sei | sei | seien
+        haben | habe → hätte | habe | haben → hätten
+        werden | werde → würde | werde | werden → würden
+        können | könne | könne | können → könnten
+        geben | gebe → gäbe | gebe | geben → gäben
+      examples: |
+        Im Post heißt es, die Stadt plane ein Grillverbot. | The post says the city is planning a barbecue ban. | planen → plane
+        Die Sprecherin sagt, es gebe kein generelles Verbot. | The spokeswoman says there is no general ban. | geben → gebe
+        Nur im Stadtpark sei das Grillen vorübergehend verboten. | Barbecuing is only banned temporarily in the city park, (she says). | sein → sei
+        Sie hat gefragt, ob wir die richtige Information schnell veröffentlichen könnten. | She asked whether we could publish the correct information quickly. | wir können = indicative → könnten
+      tip: "If you're unsure, use er/sie/es: habe, sei, werde, könne are always clearly Konjunktiv I. For plural subjects, reach for hätten, wären, würden."
+    dialogue:
+      title: Der Faktencheck
+      setting: The fact-checking desk of a regional newspaper in Erfurt. Editor Nora Bauer and fact-checker Kemal Aydın look at a post that is spreading fast.
+      speakers: N=Nora Bauer/f; K=Kemal Aydın/m
+      lines: |
+        N: Kemal, schau mal: Dieser Post wurde seit gestern fast fünfzigtausend Mal geteilt. | Kemal, look: this post has been shared almost fifty thousand times since yesterday.
+        K: Und was genau wird da behauptet? Wieder irgendetwas mit einem angeblichen Verbot? | And what exactly does it claim? Something about an alleged ban again?
+        N: Im Post heißt es, die Stadt plane ein Grillverbot. Es gelte ab Juni in allen Parks und werde streng kontrolliert. | The post says the city is planning a barbecue ban. It will apply in all parks from June and will be strictly enforced.
+        K: Klingt dramatisch. Wer steckt dahinter? Ist die Quelle irgendwie nachvollziehbar? | Sounds dramatic. Who's behind it? Can the source be traced at all?
+        N: Ein Account ohne Namen, erst drei Wochen alt. Das Foto stammt außerdem aus einem Artikel von 2019. | An account with no name, only three weeks old. And the photo comes from an article from 2019.
+        K: Ich habe gerade beim Presseamt angerufen. Die Sprecherin sagt, es gebe kein generelles Verbot. | I've just called the press office. The spokeswoman says there is no general ban.
+        N: Und was ist mit dem Stadtpark? Da hängen doch seit Montag neue Schilder. | And what about the city park? There have been new signs up there since Monday.
+        K: Nur dort sei das Grillen vorübergehend verboten, weil die Wiesen bei dieser Trockenheit leicht brennen könnten. | Barbecuing is only banned there temporarily, because the grass could easily catch fire in this dry weather.
+        N: Sie hat außerdem gefragt, ob wir die richtige Information schnell veröffentlichen könnten. | She also asked whether we could publish the correct information quickly.
+        K: Machen wir. Ich schreibe, das Verbot betreffe nur einen Park und gelte bis Ende August. | Will do. I'll write that the ban only affects one park and applies until the end of August.
+        N: Und füg bitte einen Hinweis hinzu, wie man solche Fotos selbst überprüfen kann. | And please add a tip on how people can check photos like this themselves.
+    pronunciation:
+      title: "Make the -e audible: er hat – er habe"
+      body: |
+        In the third person the Konjunktiv I often differs from the indicative only by a final **-e**: *er hat – er hab**e***, *es gibt – es geb**e***, *er kann – er könn**e***. This unstressed **-e** is a short, relaxed [ə] — swallow it and the listener hears the indicative.
+
+        Note also the vowel change: in the Konjunktiv I there is **no** stem change: *er gibt → er gebe, sie fährt → sie fahre, er weiß → er wisse*.
+      items: |
+        er habe
+        es gebe
+        sie sei
+        das gelte
+        Die Sprecherin sagt, es gebe kein Verbot.
+        die Falschmeldung
+    mistakes: |
+      „Ich komme morgen“, sagte sie. – Sie sagte, ich komme morgen. => Sie sagte, sie komme am nächsten Tag. | In indirect speech the pronoun shifts to the reporter's perspective, and time words often shift too.
+      Die Firmen sagen, sie haben keine Zeit. => Die Firmen sagen, sie hätten keine Zeit. | In a written report, sie haben would look like the indicative, so use the Konjunktiv II hätten.
+      Er fragte, ob ich habe Zeit. => Er fragte, ob ich Zeit habe. | Ob introduces a subordinate clause: the verb goes to the end.
+    task:
+      title: Your fact check
+      mode: writing
+      body: |
+        Choose a surprising claim you have seen online (or invent one about your town). Write a short fact check (100–120 words): what the post claims, where it comes from, what an official source says and what readers should do. Report all claims with the Konjunktiv I.
+    exercises: |
+      fill: Die Polizei teilte mit, der Fahrer ___ nur leicht verletzt. (sein) || sei || Konjunktiv I of sein: er sei. || @tags de.konjunktiv1
+      fill: Der Trainer sagt, die Mannschaft ___ das Spiel noch gewinnen. (können) || könne || Konjunktiv I of können (er/sie/es-form): könne. || @tags de.konjunktiv1,de.modal-verbs
+      fill: Die Veranstalter sagen, sie ___ mit so vielen Gästen nicht gerechnet. (haben) || hätten || Sie haben = indicative, so the Konjunktiv II hätten is used. || @tags de.konjunktiv1,de.konjunktiv2
+      mc: Choose the Konjunktiv I form: „Der Wetterdienst meldet, es ___ am Wochenende stark regnen.“ || *werde | wird | würde || Werde is the Konjunktiv I of werden; wird is indicative, würde is Konjunktiv II. || @tags de.konjunktiv1
+      rw: Put into indirect speech :: Die Bürgermeisterin sagt: „Ich bin gegen den Plan.“ || Die Bürgermeisterin sagt, sie sei gegen den Plan. | Die Bürgermeisterin sagt, dass sie gegen den Plan sei. || Ich → sie; bin → sei (Konjunktiv I). || @tags de.konjunktiv1
+      rw: Report the question :: Die Leserin fragt: „Ist die Quelle seriös?“ || Die Leserin fragt, ob die Quelle seriös sei. | Die Leserin fragt, ob die Quelle seriös ist. || A yes/no question is reported with ob and the verb at the end. || @tags de.konjunktiv1,de.subordinate-clauses
+      tf: The press office confirms that barbecuing is banned in all parks. || false || "Die Sprecherin sagt, es gebe kein generelles Verbot." Only the city park is affected. || @ctx dialogue
+      short: Why is barbecuing banned in the city park? || kw: trocken/dry/brenn/burn/fire/feuer || Because it is so dry that the grass could easily catch fire. || @ctx dialogue
+      listen: @dialogue || What does Nora find out about the photo in the post? || It was taken in a different city. | *It comes from an article from 2019. | It was generated by AI. || "Das Foto stammt außerdem aus einem Artikel von 2019."
+      listen: Der Wetterdienst teilte mit, das Unwetter ziehe in der Nacht weiter nach Osten. Am Morgen sei mit Sonne zu rechnen. || According to the weather service, what will the storm do? || *Move on to the east during the night | Last until the next evening | Turn into snow in the morning || "… das Unwetter ziehe in der Nacht weiter nach Osten." || @tags de.listening,de.konjunktiv1
+      tr: The spokesman said the data was safe. (reported speech, as in a news report) || Der Sprecher sagte, die Daten seien sicher. | Der Sprecher sagte, dass die Daten sicher seien. | Der Sprecher sagte, die Daten wären sicher. || In a news report: Konjunktiv I seien (die Daten = plural). || @tags de.konjunktiv1
+      dict: Der Sprecher betonte, die Daten seien sicher gespeichert.
+      ask: You read: „Ab nächstem Jahr soll Bargeld in Supermärkten verboten werden.“ Explain how you would check this claim. || kw: quelle/woher/datum/wer/autor/account & prüf/such/nachseh/vergleich/zeitung/offiziell/webseite/website || Zuerst würde ich nachsehen, woher die Meldung stammt und wann sie veröffentlicht wurde. Dann würde ich auf offiziellen Webseiten oder in seriösen Zeitungen suchen, ob es dazu Informationen gibt.
+
+  - title: Advertising and persuasion
+    summary: See through the promises of influencer advertising — with Konjunktiv I in the past and sollen/wollen for claims.
+    minutes: 45
+    skills: [listening, grammar, speaking]
+    tags: [de.konjunktiv1, de.modal-verbs]
+    objectives:
+      - Report past statements with Konjunktiv I past (habe/sei + Partizip II)
+      - Express that something is only a claim with sollen, wollen and angeblich
+      - Analyse advertising language and know your rights as a consumer
+    intro: |
+      "I lost four kilos in two weeks!" Advertising works with promises, and good consumers know how to keep them at a distance. In German you can do this with grammar: *Sie sagte, sie **habe** vier Kilo **abgenommen**. Der Tee **soll** den Stoffwechsel ankurbeln. Sie **will** ihn selbst **entwickelt haben**.* In this lesson a customer who regrets buying a detox tea gets advice from a consumer adviser.
+    vocab: |
+      die Anzeige | advertisement | n | Unter dem Post stand ganz klein „Anzeige“. | "Advertisement" was written in tiny letters under the post. | g: f | pl: die Anzeigen | n: Also: a report to the police (eine Anzeige erstatten).
+      kennzeichnen | to label; to mark | v | Bezahlte Beiträge müssen als Werbung gekennzeichnet werden. | Paid posts must be labelled as advertising. | n: Noun: die Kennzeichnung.
+      der Beitrag | post; contribution; article | n | Ihr letzter Beitrag hatte über hunderttausend Likes. | Her last post had over a hundred thousand likes. | g: m | pl: die Beiträge
+      versprechen | to promise | v | Die Werbung verspricht schnelle Ergebnisse. | The advert promises quick results. | n: Irregular: versprach, hat versprochen. Noun: das Versprechen.
+      abnehmen | to lose weight | v | Er hat in drei Monaten fünf Kilo abgenommen. | He lost five kilos in three months. | n: Separable. Opposite: zunehmen. Also: den Hörer abnehmen (to pick up the phone).
+      ankurbeln | to boost; to stimulate | v | Der Tee soll angeblich den Stoffwechsel ankurbeln. | The tea is supposed to boost the metabolism. | n: Separable. Also: die Wirtschaft ankurbeln.
+      wissenschaftlich belegt | scientifically proven | expr | Die Wirkung ist wissenschaftlich nicht belegt. | The effect is not scientifically proven. | n: belegen = to prove with evidence.
+      die Aussage | statement; claim | n | Solche Aussagen sind in der Werbung typisch. | Statements like these are typical in advertising. | g: f | pl: die Aussagen
+      der Beweis | proof; evidence | n | Für diese Behauptung gibt es keinen Beweis. | There is no proof for this claim. | g: m | pl: die Beweise | n: Verb: beweisen.
+      der Hersteller | manufacturer | n | Der Hersteller nennt keine einzige Studie. | The manufacturer doesn't name a single study. | g: m | pl: die Hersteller
+      das Widerrufsrecht | right of withdrawal (to cancel a purchase) | n | Beim Onlinekauf haben Sie ein Widerrufsrecht von vierzehn Tagen. | When buying online you have fourteen days to withdraw from the purchase. | g: n | pl: (no plural) | n: Verb: einen Kauf widerrufen.
+      überzeugen | to convince; to persuade | v | Mich hat vor allem das Vorher-nachher-Foto überzeugt. | It was mainly the before-and-after photo that convinced me. | n: Inseparable: hat überzeugt.
+    grammar:
+      title: "Konjunktiv I past; claims with sollen and wollen"
+      body: |
+        **Konjunktiv I past.** German has only **one** past form in reported speech: **habe/sei + Partizip II** — whether the original was in the Perfekt, the Präteritum or the Plusquamperfekt: *„Ich nahm vier Kilo ab.“ / „Ich habe vier Kilo abgenommen.“ → Sie sagte, sie **habe** vier Kilo **abgenommen**.* Verbs of movement and change use *sei*: *Sie sei nie hungrig **gewesen**.* For plural subjects use the Konjunktiv II: *Tausende Kundinnen **hätten** ihr Leben verändert.* The future is reported with **werde/würden + infinitive**.
+
+        **Claims with modal verbs.** Two modal verbs have a special "reporting" meaning:
+        - **sollen** = *it is said / claimed* (by others): *Der Tee **soll** den Stoffwechsel ankurbeln.*
+        - **wollen** = *the subject claims about himself or herself*: *Sie **will** die Mischung selbst **entwickelt haben**.*
+
+        For the past, combine the modal with a **perfect infinitive** (Partizip II + haben/sein): *Der Sänger **soll** ein Schloss **gekauft haben**. Er **will** nie dort **gewesen sein**.* The adverb **angeblich** (allegedly) often accompanies these forms.
+      table: |
+        Direct speech | Reported
+        „Ich habe abgenommen.“ | Sie sagte, sie habe abgenommen.
+        „Ich war nie hungrig.“ | Sie sagte, sie sei nie hungrig gewesen.
+        „Wir haben es getestet.“ | Sie sagten, sie hätten es getestet.
+        „Ich werde es versuchen.“ | Er sagte, er werde es versuchen.
+        People say he bought a castle. | Er soll ein Schloss gekauft haben.
+        He claims he was never there. | Er will nie dort gewesen sein.
+      examples: |
+        Sie sagte, sie habe mit dem Tee in zwei Wochen vier Kilo abgenommen. | She said she had lost four kilos in two weeks with the tea. | Konjunktiv I past: habe + Partizip II
+        Die Hersteller schreiben, Tausende Kundinnen hätten ihr Leben verändert. | The manufacturers write that thousands of customers have changed their lives. | plural → Konjunktiv II hätten
+        Außerdem soll der Tee den Körper entgiften. | The tea is also supposed to detox the body. | sollen = it is claimed
+        Sie will die Mischung selbst entwickelt haben. | She claims to have developed the blend herself. | wollen + perfect infinitive
+      tip: "sollen points away from the speaker (others say so), wollen points back to the subject (he/she says so). Both mean: I don't vouch for it."
+    dialogue:
+      title: In der Verbraucherberatung
+      setting: A consumer advice centre in Würzburg. Mr Dimitriou bought an expensive detox tea after seeing it in an influencer's posts. He talks to the adviser, Ms Hoffmann.
+      speakers: D=Herr Dimitriou/m; H=Frau Hoffmann/f
+      lines: |
+        D: Ich habe mir diesen Detox-Tee gekauft, weil eine Influencerin ihn wochenlang empfohlen hat. Jetzt ärgere ich mich. | I bought this detox tea because an influencer recommended it for weeks. Now I'm annoyed with myself.
+        H: Was genau hat sie denn versprochen? Erinnern Sie sich noch an ihre Worte? | What exactly did she promise? Do you still remember her words?
+        D: Sie sagte, sie habe mit dem Tee in zwei Wochen vier Kilo abgenommen und sei nie hungrig gewesen. | She said she had lost four kilos in two weeks with the tea and had never felt hungry.
+        H: Und hat sie auch erwähnt, dass der Beitrag bezahlt war? Das muss als Werbung gekennzeichnet sein. | And did she also mention that the post was paid for? That has to be labelled as advertising.
+        D: Ganz klein stand „Anzeige“ darunter. Außerdem soll der Tee den Stoffwechsel ankurbeln und den Körper entgiften. | "Advertisement" was written underneath in tiny letters. The tea is also supposed to boost the metabolism and detox the body.
+        H: Solche Aussagen sind typisch. Wissenschaftlich belegt ist davon leider nichts – der Körper entgiftet sich selbst. | Claims like that are typical. Unfortunately none of it is scientifically proven – the body detoxes itself.
+        D: Sie will die Mischung sogar selbst entwickelt haben, zusammen mit einer Ernährungsberaterin. | She even claims to have developed the blend herself, together with a nutritionist.
+        H: Das behaupten viele. Die Hersteller schreiben oft, Tausende Kundinnen hätten ihr Leben verändert – ohne einen einzigen Beweis. | Lots of people claim that. Manufacturers often write that thousands of customers have changed their lives – without a single piece of evidence.
+        D: Kann ich das Geld zurückverlangen? Der Tee hat immerhin fast vierzig Euro gekostet. | Can I ask for my money back? The tea did cost almost forty euros, after all.
+        H: Wenn Sie online bestellt haben und die Packung noch verschlossen ist, können Sie innerhalb von vierzehn Tagen widerrufen. | If you ordered online and the packet is still sealed, you can withdraw from the purchase within fourteen days.
+        D: Ich habe vor zehn Tagen bestellt, und die zweite Packung ist noch zu. Die schicke ich gleich heute zurück. | I ordered ten days ago and the second packet is still unopened. I'll send it back today.
+    pronunciation:
+      title: "Sounding sceptical: soll, will, angeblich"
+      body: |
+        When you report a claim you don't believe, German intonation helps: stress the modal verb or *angeblich* and let the voice fall at the end. *Der Tee SOLL den Stoffwechsel ankurbeln. Sie WILL das selbst entwickelt haben. ANgeblich ist das ganz natürlich.*
+
+        A neutral report, by contrast, puts the stress on the new information: *Der Tee soll den STOFFwechsel ankurbeln.*
+      items: |
+        Der Tee soll den Stoffwechsel ankurbeln.
+        Sie will das selbst entwickelt haben.
+        angeblich
+        wissenschaftlich belegt
+        das Widerrufsrecht
+        Sie sagte, sie sei nie hungrig gewesen.
+    culture:
+      title: Advertising rules and consumer rights
+      body: |
+        In Germany, paid posts on social media must be clearly marked as *Werbung* or *Anzeige*; courts have repeatedly fined influencers who hid sponsored content. Consumer advice centres (*Verbraucherzentralen*) in every federal state offer independent advice. And for most purchases made online or by phone, EU law gives you a fourteen-day *Widerrufsrecht* — you can cancel without giving a reason, with exceptions such as opened hygiene products or perishable food.
+    mistakes: |
+      Sie sagte, sie hat vier Kilo abgenommen gehabt. => Sie sagte, sie habe vier Kilo abgenommen. | The Konjunktiv I past is simply habe/sei + Partizip II.
+      Er soll das selbst erfunden haben. (He says so himself.) => Er will das selbst erfunden haben. | If the subject makes the claim about himself, use wollen; sollen means other people say so.
+      Die Sängerin soll ein Haus kaufen haben. => Die Sängerin soll ein Haus gekauft haben. | The past after sollen/wollen is a perfect infinitive: Partizip II + haben/sein.
+    task:
+      title: Under the microscope
+      mode: writing
+      body: |
+        Find an advertisement or a sponsored post (or remember one). Write an analysis of 100–120 words: report what it promises using Konjunktiv I and *sollen/wollen*, say what is actually proven, and explain which techniques are used to persuade (photos, numbers, celebrities, time pressure).
+    exercises: |
+      fill: Die Influencerin sagte, sie ___ in zwei Wochen vier Kilo abgenommen. || habe || Konjunktiv I past: habe + Partizip II. || @tags de.konjunktiv1
+      fill: Der Hersteller behauptet, das Produkt ___ von Ärzten getestet worden. || sei || The passive Perfekt (ist … getestet worden) becomes sei … getestet worden. || @tags de.konjunktiv1,de.passive
+      fill: Die Kunden berichten, sie ___ sofort Ergebnisse gesehen. (haben) || hätten || Plural haben would look like the indicative, so use hätten. || @tags de.konjunktiv1,de.konjunktiv2
+      fill: Der Tee ___ angeblich beim Abnehmen helfen. (sollen) || soll || Sollen = it is claimed (by others). || @tags de.modal-verbs
+      mc: „Er will das Rezept selbst erfunden haben.“ What does this mean? || *He claims that he invented the recipe himself. | People say he invented the recipe. | He wants to invent a recipe. || Wollen + perfect infinitive = the subject's own claim. || @tags de.modal-verbs
+      mc: Choose the Konjunktiv I form: „Die Tester sagen, sie ___ nie so schnelle Ergebnisse gesehen.“ (Mind the plural.) || *hätten | haben | hatten || Sie haben would look like the indicative, so the Konjunktiv II hätten replaces it. || @tags de.konjunktiv1,de.konjunktiv2
+      rw: Put into indirect speech :: Der Trainer sagte: „Ich habe die Mannschaft gut vorbereitet.“ || Der Trainer sagte, er habe die Mannschaft gut vorbereitet. | Der Trainer sagte, dass er die Mannschaft gut vorbereitet habe. || Ich → er; habe … vorbereitet (Konjunktiv I past). || @tags de.konjunktiv1
+      rw: Use sollen :: Man sagt, dass das Hotel sehr luxuriös ist. || Das Hotel soll sehr luxuriös sein. || Sollen + infinitive replaces "man sagt, dass …". || @tags de.modal-verbs
+      tf: Mr Dimitriou can no longer return any of the tea. || false || He ordered ten days ago and the second packet is still sealed, so he can withdraw within fourteen days. || @ctx dialogue
+      short: What does the influencer claim about the tea blend? || kw: selbst/herself/entwickelt/developed/ernährungsberater/nutrition || That she developed it herself together with a nutritionist. || @ctx dialogue
+      listen: @dialogue || What does Ms Hoffmann say about the detox claims? || They are true for some people. | *They are not scientifically proven. | They have been tested by doctors. || "Wissenschaftlich belegt ist davon leider nichts – der Körper entgiftet sich selbst."
+      listen: In der Anzeige heißt es, die neue Zahnpasta mache die Zähne in einer Woche sichtbar weißer. Unabhängige Tests haben das allerdings nicht bestätigt. || What did the independent tests show? || The toothpaste works even faster. | *They did not confirm the claim. | The toothpaste damages the teeth. || "Unabhängige Tests haben das allerdings nicht bestätigt." || @tags de.listening,de.konjunktiv1
+      tr: The singer is said to have bought a castle. || Der Sänger soll ein Schloss gekauft haben. | Die Sängerin soll ein Schloss gekauft haben. || "Is said to have done" = sollen + perfect infinitive. || @tags de.modal-verbs
+      dict: Bezahlte Beiträge müssen als Werbung gekennzeichnet werden.
+      ask: Describe an advertisement you saw recently. What does it promise, and do you believe it? || kw: soll/sollen/angeblich/verspricht/versprechen/behauptet/will & glaub/überzeug/beweis/belegt/zweifel || In einer Anzeige für eine Gesichtscreme hieß es, die Creme mache die Haut in sieben Tagen zehn Jahre jünger. Sie soll sogar von Hautärzten empfohlen werden. Das glaube ich nicht, denn es gibt keinen Beweis dafür.
+
+  - title: Writing an opinion piece
+    summary: Read a commentary on the closure of a local newspaper, separate sources from opinions with laut, zufolge and nach Angaben, and write your own opinion piece.
+    minutes: 50
+    skills: [reading, writing, grammar]
+    tags: [de.prepositions, de.writing]
+    objectives:
+      - Name sources with laut, zufolge, nach Angaben and gemäß
+      - Structure an opinion piece: introduce, concede, weigh up, conclude
+      - Write a commentary that keeps facts and opinions apart
+    intro: |
+      A good opinion piece (*Kommentar*) does two things: it reports facts reliably and it argues for a clear position. In German, sources are typically introduced with **laut**, **zufolge** or **nach Angaben**, while your own view is marked with phrases like *meiner Ansicht nach*. In this lesson you will read a commentary about a local newspaper that has closed its office and use its structure as a model for your own text.
+    vocab: |
+      der Kommentar | commentary; opinion piece | n | Der Kommentar auf Seite drei hat viele Leserbriefe ausgelöst. | The commentary on page three prompted many letters from readers. | g: m | pl: die Kommentare
+      die Redaktion | editorial office; editorial team | n | Die Lokalredaktion wurde im Frühjahr geschlossen. | The local editorial office was closed in the spring. | g: f | pl: die Redaktionen
+      berichten | to report | v | Über die Sitzungen des Gemeinderats wird kaum noch berichtet. | Council meetings are hardly reported any more. | c: über etwas (acc.) berichten | n: Noun: der Bericht.
+      die Pressemitteilung | press release | n | Vereine schicken ihre Pressemitteilungen direkt an die Zentrale. | Clubs send their press releases directly to head office. | g: f | pl: die Pressemitteilungen
+      die Umfrage | survey; poll | n | Einer Umfrage zufolge lesen junge Leute kaum noch gedruckte Zeitungen. | According to a survey, young people hardly read printed newspapers any more. | g: f | pl: die Umfragen | c: eine Umfrage durchführen
+      einwenden | to object | v | Man könnte einwenden, dass sich heute jeder im Internet informiert. | One could object that everyone gets their information online nowadays. | n: Noun: der Einwand.
+      zu kurz greifen | to fall short; to be too simplistic | expr | Diese Erklärung greift zu kurz. | This explanation is too simplistic.
+      der Befund | finding; result | n | Noch schwerer wiegt ein anderer Befund. | Another finding carries even more weight. | g: m | pl: die Befunde | n: Also medical: test results.
+      der Verlag | publisher; publishing house | n | Der Verlag begründet die Schließung mit sinkenden Einnahmen. | The publisher justifies the closure with falling revenue. | g: m | pl: die Verlage
+      gemeinnützig | non-profit; charitable | adj | In einigen Ländern gibt es gemeinnützige Lokalredaktionen. | In some countries there are non-profit local newsrooms.
+      jemanden beim Wort nehmen | to take someone at their word | expr | Der Verlag verspricht, die Entscheidung zu überprüfen. Ich nehme ihn beim Wort. | The publisher promises to review the decision. I'm taking them at their word.
+      die Stimme | voice; vote | n | Ein Ort ohne Zeitung verliert seine gemeinsame Stimme. | A town without a newspaper loses its shared voice. | g: f | pl: die Stimmen
+    grammar:
+      title: "Naming sources: laut, zufolge, nach Angaben"
+      body: |
+        In news and opinion texts, every fact needs a source. German has several ways to introduce one:
+
+        - **laut** + dative (formal also genitive), often without an article: ***Laut** Verlag, **laut** einer Umfrage, **laut** dem Bericht.*
+        - **zufolge** + dative — it **follows** the noun: ***Einer Umfrage zufolge** …, **Dem Bericht zufolge** …*
+        - **nach Angaben** + genitive (or von + dative) — a set phrase in news: ***Nach Angaben** der Polizei …*
+        - **gemäß** + dative is formal and used mainly for rules: *gemäß der Hausordnung*.
+
+        These phrases usually take position 1, so the verb follows directly: ***Laut Verlag sollte** sich nichts ändern.* Statements quoted from a source are often in the **Konjunktiv I**: *Der Verlag betont, man **habe** keine andere Wahl **gehabt**.*
+
+        **Your own view** is marked differently: *Meiner Ansicht/Meinung nach …* (nach after the noun!), *Ich bin überzeugt, dass …*, *Aus meiner Sicht …*. A classic structure for a commentary: introduce the issue → concede a point (*Man könnte einwenden, dass … Das ist zwar richtig, greift aber zu kurz.*) → weigh up (*Einerseits … andererseits … Noch schwerer wiegt …*) → conclude (*Was also tun? …*).
+      table: |
+        Function | Phrase
+        source | Laut einer Umfrage … · Dem Bericht zufolge … · Nach Angaben der Stadt …
+        concession | Man könnte einwenden, dass … · Das ist zwar richtig, greift aber zu kurz.
+        weighing up | Einerseits … andererseits … · Noch schwerer wiegt …
+        own opinion | Meiner Ansicht nach … · Ich bin überzeugt, dass …
+        conclusion | Was also tun? · Deshalb sollten wir …
+      examples: |
+        Laut Verlag sollte sich für die Leserinnen und Leser nichts ändern. | According to the publisher, nothing was supposed to change for readers. | laut + noun without article
+        Einer aktuellen Umfrage zufolge vertrauen viele Menschen sozialen Netzwerken deutlich weniger als der Zeitung. | According to a recent survey, many people trust social networks much less than the newspaper. | zufolge after the noun (dative)
+        Nach Angaben des Verlags wird die Entscheidung regelmäßig überprüft. | According to the publisher, the decision is regularly reviewed. | nach Angaben + genitive
+        Meiner Ansicht nach sind wir alle gefragt. | In my view, we are all called upon. | nach after the noun
+      tip: "Laut stands before the noun, zufolge after it — never both at once."
+    reading:
+      title: Ohne Lokalzeitung wird es still im Ort
+      text: |
+        Ein Kommentar von Henrike Albers
+
+        Als unsere Kreiszeitung im Frühjahr ihre Lokalredaktion schloss, fiel das zunächst kaum jemandem auf. Laut Verlag sollte sich für die Leserinnen und Leser nichts ändern. Die Artikel kamen weiterhin, nur eben aus der Zentrale, sechzig Kilometer entfernt. Doch wer genauer liest, merkt den Unterschied: Über die Sitzungen des Gemeinderats wird kaum noch berichtet, und Vereine oder Schulen tauchen nur noch auf, wenn sie selbst Pressemitteilungen schicken.
+
+        Man könnte einwenden, dass sich heute ohnehin jeder im Internet informiert. Das ist zwar richtig, greift aber zu kurz. Einer aktuellen Umfrage zufolge nutzen zwar viele Menschen soziale Netzwerke als Nachrichtenquelle, sie vertrauen ihnen aber deutlich weniger als der Zeitung. Noch schwerer wiegt ein anderer Befund: Studien aus den USA zufolge gehen in Regionen ohne Lokalzeitung weniger Menschen zur Wahl, und es kandidieren weniger Menschen für ein Amt.
+
+        Einerseits ist verständlich, dass Verlage sparen müssen, denn die Einnahmen aus Anzeigen sind seit Jahren gesunken. Der Verlag betont, man habe keine andere Wahl gehabt. Andererseits ist Lokaljournalismus kein Luxus, sondern ein Stück öffentliche Infrastruktur – wie eine Bibliothek oder ein Schwimmbad.
+
+        Was also tun? Meiner Ansicht nach sind wir alle gefragt. Wer eine gute Lokalzeitung will, sollte bereit sein, für sie zu bezahlen, auch digital. Gemeinden und Stiftungen könnten zudem neue Modelle unterstützen, etwa gemeinnützige Lokalredaktionen, wie es sie in anderen Ländern bereits gibt.
+
+        Nach Angaben des Verlags wird die Entscheidung regelmäßig überprüft. Ich nehme ihn beim Wort. Denn ein Ort, über den niemand mehr berichtet, verliert mehr als nur seine Zeitung: Er verliert seine gemeinsame Stimme.
+      translation: |
+        A commentary by Henrike Albers
+
+        When our district newspaper closed its local office in the spring, hardly anyone noticed at first. According to the publisher, nothing was supposed to change for readers. The articles kept coming, only now from head office, sixty kilometres away. But anyone who reads more closely notices the difference: council meetings are hardly reported any more, and clubs or schools only appear when they send in press releases themselves.
+
+        One could object that everyone gets their information online anyway nowadays. That is true, but it is too simplistic. According to a recent survey, many people do use social networks as a source of news, but they trust them much less than the newspaper. Another finding carries even more weight: according to studies from the USA, fewer people vote and fewer people stand for office in regions without a local newspaper.
+
+        On the one hand, it is understandable that publishers have to save money, because advertising revenue has been falling for years. The publisher stresses that it had no other choice. On the other hand, local journalism is not a luxury but a piece of public infrastructure – like a library or a swimming pool.
+
+        So what should be done? In my view, we are all called upon. Anyone who wants a good local newspaper should be prepared to pay for it, digitally too. Local councils and foundations could also support new models, such as non-profit local newsrooms, which already exist in other countries.
+
+        According to the publisher, the decision is regularly reviewed. I'm taking them at their word. Because a town that nobody reports on any more loses more than just its newspaper: it loses its shared voice.
+    pronunciation:
+      title: "Reading a commentary aloud: sense groups"
+      body: |
+        Long written sentences become clear when you read them in **sense groups** — chunks that belong together — with a short pause between them: *Einer aktuellen Umfrage zufolge | nutzen zwar viele Menschen soziale Netzwerke | als Nachrichtenquelle.* Never pause between an article and its noun or between *zufolge* and the phrase it belongs to.
+
+        Stress the key word in each group and let the voice fall at the end of the sentence.
+      items: |
+        Einer Umfrage zufolge
+        Laut Verlag
+        Nach Angaben der Polizei
+        Meiner Ansicht nach sind wir alle gefragt.
+        die Pressemitteilung
+        gemeinnützig
+    mistakes: |
+      Laut dem Bericht zufolge wurden zwölf Redaktionen geschlossen. => Dem Bericht zufolge wurden zwölf Redaktionen geschlossen. | Use either laut or zufolge, not both at once.
+      Zufolge der Umfrage lesen junge Leute weniger. => Der Umfrage zufolge lesen junge Leute weniger. | Zufolge follows the noun and takes the dative.
+      Nach meiner Meinung nach ist das falsch. => Meiner Meinung nach ist das falsch. | Nach appears only once, after the noun phrase.
+    task:
+      title: Your commentary
+      mode: writing
+      body: |
+        Write an opinion piece (150–200 words) for a local newspaper on a topic that matters in your town — for example a closing swimming pool, a new cycle lane or shop opening hours on Sundays. Follow the structure of the model: introduce the issue, name at least two sources (laut, zufolge, nach Angaben), concede one point, weigh up the arguments and end with a clear conclusion.
+    exercises: |
+      fill: ___ einer neuen Umfrage lesen immer weniger Menschen eine gedruckte Zeitung. || Laut / Nach || Laut + dative before the noun; nach einer Umfrage is also possible. || @tags de.prepositions
+      fill: Dem Bericht ___ wurden im letzten Jahr zwölf Lokalredaktionen geschlossen. || zufolge || Zufolge follows the noun (dative): dem Bericht zufolge. || @tags de.prepositions,de.dative
+      mc: Which phrase is correct? || *Der Polizei zufolge | Zufolge der Polizei | Laut der Polizei zufolge || Zufolge comes after the noun; laut and zufolge are never combined. || @tags de.prepositions
+      rw: Rewrite with zufolge :: Laut der Studie vertrauen junge Leute sozialen Netzwerken weniger. || Der Studie zufolge vertrauen junge Leute sozialen Netzwerken weniger. || Laut + noun → noun (dative) + zufolge. || @tags de.prepositions,de.dative
+      rw: Put into indirect speech :: Der Verlag erklärt: „Wir haben keine andere Wahl.“ || Der Verlag erklärt, er habe keine andere Wahl. | Der Verlag erklärt, man habe keine andere Wahl. | Der Verlag erklärt, sie hätten keine andere Wahl. || Wir → er/man (singular: habe) or sie (plural: Konjunktiv II hätten). || @tags de.konjunktiv1
+      mc: Which sentence concedes a point before arguing against it? || *Man könnte einwenden, dass Zeitungen teuer sind – das greift aber zu kurz. | Deshalb sollten alle eine Zeitung abonnieren. | Laut Verlag wurde die Redaktion geschlossen. || Man könnte einwenden … greift aber zu kurz: first the counter-argument, then the rejection. || @tags de.opinion,de.writing
+      mc: What has changed since the local office closed? || There are no more articles at all. | *Council meetings are hardly reported any more. | The newspaper has become more expensive. || "Über die Sitzungen des Gemeinderats wird kaum noch berichtet." || @ctx reading @skill reading
+      tf: The author thinks the publisher had no reason to save money. || false || "Einerseits ist verständlich, dass Verlage sparen müssen …" || @ctx reading
+      short: What does the author compare local journalism to? || kw: infrastruktur/infrastructure/bibliothek/library/schwimmbad/swimming || Public infrastructure, like a library or a swimming pool. || @ctx reading
+      listen: Nach Angaben des Wetterdienstes wird es am Wochenende bis zu fünfunddreißig Grad heiß. Laut Gesundheitsamt sollten ältere Menschen tagsüber möglichst zu Hause bleiben. || What does the health office recommend? || Drinking less coffee | *Older people should stay at home during the day | Closing schools at the weekend || "Laut Gesundheitsamt sollten ältere Menschen tagsüber möglichst zu Hause bleiben." || @tags de.listening,de.prepositions
+      dict: Lokaljournalismus ist kein Luxus, sondern ein Stück öffentliche Infrastruktur.
+      say: Meiner Ansicht nach sind wir alle gefragt. || In my view, we are all called upon.
+      write: Write a short opinion piece (90–110 words) on the question „Sollten Museen am Sonntag kostenlos sein?“ Name a source, concede one point and give a clear conclusion. || min=80 || req: laut/zufolge/nach angaben | meiner ansicht nach/meiner meinung nach/ich bin überzeugt/aus meiner sicht | zwar/einerseits/man könnte einwenden || Laut einer Umfrage der Stadt besuchen nur wenige Familien mit geringem Einkommen unsere Museen. Ein kostenloser Sonntag könnte das ändern. Man könnte einwenden, dass den Museen dann wichtige Einnahmen fehlen. Das ist zwar richtig, greift aber zu kurz, denn Erfahrungen aus anderen Städten zufolge kaufen viele Gäste im Museumscafé oder im Shop ein. Außerdem kommen sie oft wieder. Meiner Ansicht nach ist Kultur ein öffentliches Gut, das allen offenstehen sollte. Deshalb sollte die Stadt den kostenlosen Sonntag zumindest ein Jahr lang testen.

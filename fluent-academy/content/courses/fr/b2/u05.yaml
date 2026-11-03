@@ -1,0 +1,364 @@
+unit: 5
+title: Informer et convaincre
+theme: Media and persuasion
+description: Check and report what people said, analyse the language of advertising and write a structured opinion piece, using reported speech in the past, reporting verbs and the connectors of argumentation.
+free: false
+objectives:
+  - Report statements, questions and orders in the past, changing tenses and time expressions
+  - Use reporting verbs (affirmer, prétendre, nier, reconnaître, promettre) with the right construction
+  - Structure an argument from introduction to conclusion
+canDo:
+  - I can explain how a false piece of information spread and what the person really said.
+  - I can report what an advert or a company claims and show whether I believe it.
+  - I can deal with an objection and refute it politely.
+  - I can write a clear opinion piece with a thesis, arguments and a conclusion.
+review: |
+  fill: « Je viendrai demain. » → Il a dit qu'il ___ le lendemain. || viendrait || After a past reporting verb, the futur becomes the conditionnel: il viendrait. || @tags fr.reported-speech
+  fill: « Nous avons publié l'article hier. » → Ils ont dit qu'ils avaient publié l'article ___. || la veille || In past reported speech, hier becomes la veille. || @tags fr.reported-speech
+  mc: « Est-ce que la photo est vraie ? » → Elle a demandé ___ la photo était vraie. || est-ce que | *si | ce que || A reported yes/no question is introduced by si. || @tags fr.reported-speech
+  rw: Report the order :: Le professeur nous a dit : « Vérifiez vos sources ! » || Le professeur nous a dit de vérifier nos sources. || A reported order: dire de + infinitive; vos becomes nos. || @tags fr.reported-speech
+  mc: "Le directeur ___ avoir reçu la lettre, mais nous avons la preuve qu'il l'a lue." || *nie | promet | se vante || Nier + past infinitive = to deny having done something. Promettre and se vanter would need de. || @tags fr.reported-speech
+  fill: Ils ont promis ___ corriger l'erreur. || de || Promettre de + infinitive. || @tags fr.reported-speech
+  mc: "Prétendre" means… || *to claim | to pretend | to prevent || Prétendre is a false friend: to pretend is faire semblant. || @skill vocabulary @tags fr.vocabulary
+  fill: ___, c'est cher ; mais c'est un investissement pour l'avenir. || Certes || Certes concedes a point before the main argument introduced by mais. || @tags fr.connectors,fr.opinion
+  listen: La chercheuse a précisé que ses résultats seraient publiés le mois suivant et qu'elle répondrait alors aux questions. || When will the researcher answer questions? || *When her results come out the following month | The next day | Never — she refuses to answer || "Ses résultats seraient publiés le mois suivant… elle répondrait alors aux questions." || @tags fr.listening,fr.reported-speech
+  listen: Force est de constater que la publicité cible de plus en plus les enfants, d'où la nécessité de mieux les protéger. || What does the speaker conclude? || *Children need better protection from advertising | Advertising for children should be banned completely | Children are not affected by advertising || "D'où la nécessité de mieux les protéger." || @tags fr.listening,fr.opinion
+  ask: Report three things a friend told you yesterday, using reported speech in the past. || kw: m'a dit que/m'a dit qu'/m'a expliqué que/m'a raconté que/m'a demandé si/m'a annoncé que & était/avait/avaient/serait/allait/pouvait/voulait || Hier, Léa m'a dit qu'elle avait trouvé un nouveau travail. Elle m'a expliqué qu'elle commencerait le mois suivant et elle m'a demandé si je voulais fêter ça avec elle.
+  write: Write a short opinion piece (100–120 words) — "Faut-il interdire la publicité destinée aux enfants ?" || min=100 || req: d'une part/non seulement/de plus/en outre | certes/il est vrai que/on pourrait objecter | or/reste que/néanmoins/toutefois/en revanche | en somme/en définitive/pour conclure/c'est pourquoi || On entend souvent dire que la publicité fait partie du monde des enfants. Je pense pourtant qu'il faudrait la limiter fortement. D'une part, les jeunes enfants ne distinguent pas toujours une publicité d'un programme. D'autre part, les produits les plus vantés sont souvent trop sucrés. Certes, on pourrait objecter que les parents restent responsables de leurs achats. Or, il est difficile de résister à un enfant qui réclame chaque jour le même jouet. Il est vrai aussi que les chaînes ont besoin de ressources. Reste que la santé des enfants doit passer avant. En somme, une interdiction aux heures de grande écoute serait une mesure raisonnable.
+lessons:
+  - title: Misinformation and media literacy
+    summary: Follow two fact-checkers as they trace a viral claim back to its source, and report what people said in the past with the right tense and time changes.
+    minutes: 50
+    skills: [listening, grammar, writing]
+    tags: [fr.reported-speech]
+    objectives:
+      - Talk about misinformation, sources and fact-checking
+      - Report statements in the past, shifting tenses (présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel)
+      - Report questions and orders, and change time expressions (la veille, le lendemain)
+    intro: |
+      A quote taken out of context can travel around the world in a few hours. To check it, you need to compare what someone **really said** with what others **claim** they said. That means mastering reported speech in the past: *elle a dit que trop de café **pouvait** perturber le sommeil*, *elle a précisé que ses résultats **seraient** publiés **le mois suivant***. In B1 you reported speech with a present verb; here everything moves into the past.
+    vocab: |
+      une fausse information | a piece of false news | n | Cette fausse information a été partagée des milliers de fois. | This false news story was shared thousands of times. | g: f | n: Also une infox (official term) or, informally, une fake news.
+      la désinformation | disinformation | n | La désinformation se répand plus vite que les corrections. | Disinformation spreads faster than corrections. | g: f
+      vérifier les faits | to fact-check | expr | Notre équipe vérifie les faits avant chaque publication. | Our team fact-checks before every publication. | n: Une vérification; many newsrooms say le fact-checking.
+      une publication | a post (online); a publication | n | Cette publication contient une citation inventée. | This post contains an invented quote. | g: f
+      une source | a source | n | Il faut toujours citer ses sources. | You must always cite your sources. | g: f | c: une source fiable; remonter à la source
+      une capture d'écran | a screenshot | n | Une capture d'écran peut facilement être truquée. | A screenshot can easily be faked. | g: f
+      sortir de son contexte | to take out of context | expr | Sa phrase a été sortie de son contexte. | Her sentence was taken out of context.
+      un rectificatif | a correction | n | Le journal a publié un rectificatif le lendemain. | The newspaper published a correction the next day. | g: m
+      l'espérance de vie | life expectancy | n | L'espérance de vie a beaucoup augmenté en un siècle. | Life expectancy has risen a lot in a century. | g: f
+      fiable | reliable | adj | Ce site n'est pas une source fiable. | This site isn't a reliable source. | n: La fiabilité = reliability.
+      l'esprit critique | critical thinking | n | L'école doit développer l'esprit critique des élèves. | Schools must develop pupils' critical thinking. | g: m
+    grammar:
+      title: "Reported speech in the past: tenses and time expressions"
+      body: |
+        When the reporting verb is in a past tense (*elle a dit que, il a expliqué que, elle a répondu que*), the tenses of the original words usually move **one step back**:
+
+        - présent → **imparfait**: « Trop de café **peut** perturber le sommeil. » → *Elle a dit que trop de café **pouvait** perturber le sommeil.*
+        - passé composé → **plus-que-parfait**: « Une étude **a observé**… » → *Elle a expliqué qu'une étude **avait observé**…*
+        - futur → **conditionnel présent**: « Mes résultats **seront** publiés. » → *Elle a précisé que ses résultats **seraient** publiés.*
+        - the imparfait, the plus-que-parfait and the conditionnel **don't change**.
+
+        Time and place expressions shift too, because "today" is no longer today: *aujourd'hui → ce jour-là / le jour même, hier → la veille, demain → le lendemain, la semaine prochaine → la semaine suivante, ici → là.*
+
+        **Questions**: yes/no → **si**; *qu'est-ce que* → **ce que**; *qu'est-ce qui* → **ce qui**; *où, quand, pourquoi* stay, with normal word order: *Elle m'a demandé **si** nous pouvions publier un rectificatif.* **Orders**: imperative → **de + infinitive**: *Elle m'a conseillé **de** vérifier.*
+
+        If a statement is still true today, you may keep the present: *Elle a dit que le café **est** la boisson la plus consommée au bureau.*
+      table: |
+        Direct speech | Reported in the past | Change
+        « Je travaille ici. » | Il a dit qu'il travaillait là. | présent → imparfait
+        « J'ai vérifié. » | Il a dit qu'il avait vérifié. | passé composé → plus-que-parfait
+        « Je publierai demain. » | Il a dit qu'il publierait le lendemain. | futur → conditionnel
+        « Vous pouvez venir ? » | Il a demandé si nous pouvions venir. | yes/no question → si
+        « Qu'est-ce que vous cherchez ? » | Il a demandé ce que nous cherchions. | qu'est-ce que → ce que
+        « Vérifiez ! » | Il nous a dit de vérifier. | imperative → de + infinitive
+      examples: |
+        Le journaliste a affirmé qu'il avait contacté trois sources. | The journalist stated that he had contacted three sources. | passé composé → plus-que-parfait
+        Elle a promis que la correction serait publiée le lendemain. | She promised that the correction would be published the next day. | futur → conditionnel; demain → le lendemain
+        On m'a demandé pourquoi j'avais partagé cette vidéo. | I was asked why I had shared that video. | reported question
+        Ils nous ont conseillé de toujours vérifier la date. | They advised us to always check the date. | imperative → de + infinitive
+      tip: "A reported question keeps normal word order and drops est-ce que: Il m'a demandé où j'habitais (not où habitais-je, not est-ce que j'habitais)."
+    dialogue:
+      title: Le café qui tue ?
+      setting: The fact-checking desk of a regional newspaper in Rennes. Lucille, a journalist, and Noé, an intern, investigate a viral post.
+      speakers: L=Lucille/f; N=Noé/m
+      lines: |
+        N: Lucille, tu as vu cette publication ? Elle a été partagée cinquante mille fois depuis hier soir. | Lucille, have you seen this post? It's been shared fifty thousand times since last night.
+        L: « Une chercheuse affirme que le café réduit l'espérance de vie de dix ans. » Ça sent le faux. | "A researcher claims that coffee reduces life expectancy by ten years." That smells fake.
+        N: Pourtant, la publication cite la chercheuse. Elle aurait dit ça dans une interview à la radio. | And yet the post quotes the researcher. She supposedly said it in a radio interview.
+        L: J'ai retrouvé l'interview. En réalité, elle a dit que trop de café pouvait perturber le sommeil. | I've found the interview. In fact, she said that too much coffee could disturb sleep.
+        N: Et les dix ans de vie en moins, alors ? D'où ça vient ? | And what about the ten years of life lost? Where does that come from?
+        L: Elle a expliqué qu'une étude ancienne avait observé de gros buveurs de café qui fumaient aussi. | She explained that an old study had observed heavy coffee drinkers who also smoked.
+        N: Donc ce n'était pas le café, c'était le tabac ! Et qu'est-ce qu'elle a ajouté ? | So it wasn't the coffee, it was the tobacco! And what else did she say?
+        L: Elle a précisé que ses propres résultats seraient publiés le mois suivant, et qu'ils étaient plutôt rassurants. | She specified that her own results would be published the following month, and that they were rather reassuring.
+        N: Je l'ai appelée ce matin. Elle m'a demandé si nous pouvions publier un rectificatif le jour même. | I called her this morning. She asked me if we could publish a correction the same day.
+        L: Bonne idée. Et elle t'a dit d'où venait la publication d'origine ? | Good idea. And did she tell you where the original post came from?
+        N: Elle m'a répondu qu'elle n'en savait rien, et elle m'a conseillé de vérifier les captures d'écran. | She replied that she had no idea, and she advised me to check the screenshots.
+        L: Alors au travail ! On publie la vérification avant ce soir, avec le lien vers l'interview complète. | Then let's get to work! We'll publish the fact-check before this evening, with a link to the full interview.
+    pronunciation:
+      title: "la veille, le lendemain, ce jour-là"
+      body: |
+        Time expressions of reported speech are short but easy to confuse. *La veille* [la.vɛj] ends with the same sound as *soleil*; *le lendemain* [lɑ̃d.mɛ̃] usually drops its middle *e*, and its two nasal vowels are different: [ɑ̃] then [ɛ̃].
+
+        Reported speech is spoken as one continuous melody, without the change of voice you use for a direct quote: *Elle a dit que trop de café pouvait perturber le sommeil* ↘.
+      items: |
+        la veille
+        le lendemain
+        ce jour-là
+        la semaine suivante
+        Elle a dit que trop de café pouvait perturber le sommeil.
+        une capture d'écran
+    culture:
+      title: L'éducation aux médias
+      body: |
+        French schools teach media and information literacy (*éducation aux médias et à l'information*) from primary school onwards. Since 1983, a public body, the CLEMI, has trained teachers and organises every spring the *Semaine de la presse et des médias dans l'école*, during which pupils meet journalists, produce their own newspapers and learn to check sources. Several national and regional newspapers also have permanent fact-checking teams.
+    mistakes: |
+      Elle a dit qu'elle publiera son étude le mois prochain. => Elle a dit qu'elle publierait son étude le mois suivant. | After a past reporting verb, the futur becomes the conditionnel and le mois prochain becomes le mois suivant.
+      Il m'a demandé est-ce que j'avais vérifié. => Il m'a demandé si j'avais vérifié. | A reported yes/no question is introduced by si, without est-ce que.
+      Elle m'a dit vérifie les sources. => Elle m'a dit de vérifier les sources. | A reported order becomes de + infinitive.
+    task:
+      title: Anatomy of a rumour
+      mode: writing
+      body: |
+        Think of a rumour or a false piece of news you have seen (or invent one). Write a short fact-check (about 120 words) explaining what the post claimed, what the person or the source had really said, and what they added when you contacted them. Use at least five verbs of reported speech in the past and two time expressions (*la veille, le lendemain, ce jour-là…*).
+    exercises: |
+      fill: « Je suis fatiguée. » → Elle a dit qu'elle ___ fatiguée. || était || Présent → imparfait after a past reporting verb. || @tags fr.reported-speech
+      fill: « Nous avons vérifié la source. » → Ils ont affirmé qu'ils ___ la source. || avaient vérifié || Passé composé → plus-que-parfait. || @tags fr.reported-speech,fr.plus-que-parfait
+      fill: « Je vous rappellerai demain. » → Il a promis qu'il me rappellerait ___. || le lendemain || In past reported speech, demain becomes le lendemain. || @tags fr.reported-speech
+      mc: « Où avez-vous trouvé cette photo ? » → Elle m'a demandé ___. || où avais-je trouvé cette photo | *où j'avais trouvé cette photo | si j'ai trouvé cette photo || A reported question keeps où, uses normal word order and shifts the tense (avais trouvé). || @tags fr.reported-speech
+      mc: « Qu'est-ce que vous allez publier ? » → Il a demandé ___ nous allions publier. || qu'est-ce que | *ce que | si || Qu'est-ce que becomes ce que in a reported question. || @tags fr.reported-speech
+      tf: The researcher said that coffee reduces life expectancy by ten years. || false || She said that too much coffee could disturb sleep; the ten years came from an old study about people who also smoked. || @ctx dialogue
+      short: What did the researcher ask Noé? || kw: rectificatif/correction/publier/publish/same day/jour même || "Elle m'a demandé si nous pouvions publier un rectificatif le jour même." || @ctx dialogue
+      listen: @dialogue || What really explained the shorter lives in the old study? || *The heavy coffee drinkers also smoked | The coffee drinkers slept very little | The study only lasted ten years || "De gros buveurs de café qui fumaient aussi… ce n'était pas le café, c'était le tabac !" || @tags fr.listening,fr.reported-speech
+      listen: Le porte-parole a annoncé la veille que le site fermerait pendant une semaine, mais il a changé d'avis le lendemain. || What happened? || *He announced a closure, then changed his mind the next day | The site closed for a week | The site reopened a week later || "Il a changé d'avis le lendemain." || @tags fr.listening,fr.reported-speech
+      rw: Report it in the past. Start with "Elle a dit que…" :: « Je publierai la vérification aujourd'hui. » || Elle a dit qu'elle publierait la vérification ce jour-là. | Elle a dit qu'elle publierait la vérification le jour même. || Futur → conditionnel (publierait); aujourd'hui → ce jour-là or le jour même. || @tags fr.reported-speech
+      tr: He asked me if I had checked the date of the video. || Il m'a demandé si j'avais vérifié la date de la vidéo. || Reported yes/no question with si; passé composé → plus-que-parfait (j'avais vérifié). || @tags fr.reported-speech
+      dict: Elle m'a conseillé de vérifier les captures d'écran avant de les partager. || conseillé de vérifier
+      ask: Tell someone about a false piece of news you saw: what it said and what the truth was. || kw: a dit que/a dit qu'/a affirmé que/a prétendu que/a expliqué que/disait que & était/avait/avaient/serait/pouvait/allait || Le mois dernier, une publication affirmait qu'une ville allait interdire les vélos. En réalité, le maire avait dit qu'il voulait créer de nouvelles pistes cyclables et que les travaux commenceraient au printemps.
+
+  - title: Advertising and persuasion
+    summary: Analyse an advert and the controversy around it, and use reporting verbs such as prétendre, reconnaître, nier and promettre to show your attitude to what others say.
+    minutes: 45
+    skills: [listening, vocabulary, speaking]
+    tags: [fr.reported-speech]
+    objectives:
+      - Identify common persuasion techniques in advertising
+      - Choose reporting verbs that show your attitude (affirmer, prétendre, reconnaître, nier)
+      - Use the right construction — que + clause, de + infinitive, past infinitive
+    intro: |
+      "Visible results in seven days", "recommended by experts", a famous actor who uses the product every morning: advertising is the art of persuasion. When you report what an advert or a company says, the verb you choose reveals what you think: *la marque **affirme***… is neutral, *la marque **prétend***… shows you don't believe it. Each verb also has its own construction, which is where learners often slip.
+    vocab: |
+      une publicité | an advert; advertising | n | Cette publicité passe à la télévision tous les soirs. | This advert is on TV every evening. | g: f | n: Informally: une pub.
+      un slogan | a slogan | n | Le slogan est court et facile à retenir. | The slogan is short and easy to remember. | g: m
+      un témoignage | a testimonial; a testimony | n | Les témoignages de clients rassurent les acheteurs. | Customer testimonials reassure buyers. | g: m
+      flatter | to flatter | v | Ce slogan flatte le consommateur. | This slogan flatters the consumer.
+      en petits caractères | in small print | expr | Les conditions sont écrites en petits caractères. | The conditions are written in small print.
+      tromper | to mislead; to deceive | v | Cette publicité trompe le public. | This advert misleads the public. | n: Trompeur = misleading; la publicité mensongère = false advertising.
+      une association de consommateurs | a consumer association | n | Une association de consommateurs a porté plainte. | A consumer association has filed a complaint. | g: f
+      prétendre | to claim | v | Ils prétendent que leur crème efface les rides. | They claim their cream erases wrinkles. | n: False friend: to pretend = faire semblant.
+      se vanter de | to boast about | v | La marque se vante d'être la plus écologique. | The brand boasts of being the most eco-friendly.
+      une preuve | a proof; evidence | n | Ils n'ont apporté aucune preuve. | They provided no evidence. | g: f
+      cibler | to target | v | Cette pub cible les adolescents. | This ad targets teenagers. | n: La cible = the target.
+      convaincre | to convince | v | Ses arguments ne m'ont pas convaincu. | Her arguments didn't convince me. | n: Convaincant = convincing. Past participle: convaincu.
+    grammar:
+      title: "Reporting verbs: affirmer, prétendre, nier, reconnaître…"
+      body: |
+        *Dire* is neutral. Other reporting verbs add the speaker's **attitude**:
+
+        - confident or neutral: *affirmer, déclarer, assurer, expliquer, préciser, ajouter*
+        - distancing — the reporter doubts it: ***prétendre*** (to claim), *se vanter de* (to boast)
+        - admitting: *reconnaître, admettre, avouer*
+        - denying: ***nier***, *démentir* (officially)
+        - promising and suggesting: *promettre, garantir, suggérer, proposer*
+        - accusing and criticising: *accuser quelqu'un de, reprocher à quelqu'un de*
+
+        **Constructions:**
+        - verb + **que** + clause, with the tense changes of lesson 1: *Elle a affirmé que ses résultats **étaient** prouvés.*
+        - same subject: verb + **infinitive** — without *de* after *affirmer, prétendre, reconnaître, nier, déclarer* (*Ils **prétendent effacer** les rides*), but with **de** after *promettre, se vanter, accepter, refuser* (*Ils ont promis **de** retirer la phrase*).
+        - for a **past** action, use the **past infinitive** (avoir / être + participle): *Elle a nié **avoir exagéré**. Il se vante d'**être allé** partout.*
+        - with a person: *accuser qqn **de**, reprocher à qqn **de**, promettre à qqn **de***: *L'association les a accusés **de** tromper le public.*
+
+        *Nier que* and *ne pas reconnaître que* are often followed by the subjunctive: *Il nie que la crème **soit** inefficace.*
+      table: |
+        Verb | Attitude | Construction | Example
+        affirmer / assurer | confident | que + clause / infinitive | Elle affirme être satisfaite.
+        prétendre | doubtful (for the reporter) | que + clause / infinitive | Ils prétendent effacer les rides.
+        reconnaître / admettre | admitting | que + clause / past infinitive | Il a reconnu avoir exagéré.
+        nier | denying | past infinitive / que + subjunctive | Elle nie avoir menti.
+        promettre | promising | de + infinitive / que + clause | Ils ont promis de changer la pub.
+        accuser qqn de | blaming | de + infinitive | On les accuse de mentir.
+      examples: |
+        La marque prétend que son produit est 100 % naturel. | The brand claims its product is 100% natural. | distancing
+        Le directeur a reconnu avoir payé les témoignages. | The director admitted to having paid for the testimonials. | past infinitive
+        Ils nous ont promis de rembourser les clients mécontents. | They promised us they would refund dissatisfied customers. | promettre de
+        On reproche à cette publicité de cibler les enfants. | This advert is criticised for targeting children. | reprocher à… de
+      tip: "Prétendre is a false friend: it means to claim. To pretend is faire semblant de: il fait semblant de dormir."
+    dialogue:
+      title: La crème miracle
+      setting: Élina, a marketing student, and her flatmate Grégoire are watching TV in Toulouse when an advert for an anti-wrinkle cream comes on.
+      speakers: E=Élina/f; G=Grégoire/m
+      lines: |
+        E: Tu as vu la pub pour cette crème ? Ils prétendent qu'elle efface les rides en sept jours. | Did you see the ad for that cream? They claim it erases wrinkles in seven days.
+        G: Et la comédienne assure qu'elle l'utilise tous les matins. Tu y crois, toi ? | And the actress says she uses it every morning. Do you believe that?
+        E: Pas une seconde. En cours de marketing, on a appris que ces témoignages étaient presque toujours payés. | Not for a second. In marketing class we learnt that these testimonials were almost always paid for.
+        G: Et le slogan est malin : « Révélez la jeunesse qui dort en vous. » On flatte la cliente. | And the slogan is clever: "Reveal the youth sleeping inside you." They flatter the customer.
+        E: Ils citent aussi une étude, mais ils reconnaissent en petits caractères qu'elle portait sur trente femmes seulement. | They also quote a study, but they admit in small print that it involved only thirty women.
+        G: Trente personnes ! Et ils ne disent pas qui a financé l'étude, j'imagine ? | Thirty people! And I suppose they don't say who paid for the study?
+        E: Justement. Une association de consommateurs les a accusés de tromper le public. | Exactly. A consumer association accused them of misleading the public.
+        G: Et qu'a répondu l'entreprise ? Elle a nié avoir exagéré, je suppose. | And what did the company reply? It denied exaggerating, I suppose.
+        E: Exactement. Elle a affirmé que tous ses résultats étaient « scientifiquement prouvés ». | Exactly. It stated that all its results were "scientifically proven".
+        G: Mais l'autorité de régulation leur a demandé de modifier la publicité, non ? | But the advertising regulator asked them to change the advert, didn't it?
+        E: Oui. Ils ont promis de retirer la phrase sur les sept jours, mais la pub passe toujours. | Yes. They promised to remove the sentence about the seven days, but the ad is still running.
+        G: Bref, la prochaine fois que quelqu'un se vante d'avoir la crème miracle, je demanderai des preuves ! | In short, next time someone boasts of having the miracle cream, I'll ask for evidence!
+    pronunciation:
+      title: "témoignage, convaincre, ils prétendent"
+      body: |
+        In *témoignage* [te.mwa.ɲaʒ], **gn** is the sound [ɲ], as in *montagne*, and the final *-age* is [aʒ]. *Convaincre* [kɔ̃.vɛ̃kʁ] contains two different nasal vowels: [ɔ̃] then [ɛ̃].
+
+        In *ils prétendent* [il.pʁe.tɑ̃d], the ending *-ent* is silent, but the **d** is pronounced: you can hear the difference from the singular *il prétend* [il.pʁe.tɑ̃].
+      items: |
+        un témoignage
+        convaincre
+        il prétend
+        ils prétendent
+        en petits caractères
+        se vanter de
+    mistakes: |
+      Elle a nié d'avoir menti. => Elle a nié avoir menti. | Nier is followed directly by the infinitive, without de.
+      Ils ont promis retirer la phrase. => Ils ont promis de retirer la phrase. | Promettre is followed by de + infinitive.
+      Il prétend être malade pour ne pas venir. (= he is pretending) => Il fait semblant d'être malade pour ne pas venir. | Prétendre means to claim; to pretend is faire semblant de.
+    task:
+      title: Decode an advert
+      mode: interaction
+      body: |
+        Choose a real or invented advert. With a partner, report what it claims and promises, using at least five different reporting verbs (*affirme, prétend, promet, se vante de, reconnaît…*), and identify two persuasion techniques (a testimonial, flattery, figures, urgency). Say whether you are convinced. Then defend your view in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: La marque ___ que sa crème efface les rides, mais aucune étude sérieuse ne le prouve. || prétend || Prétendre shows that the speaker doubts the claim; la marque = il/elle prétend. || @tags fr.reported-speech
+      fill: Le directeur a reconnu ___ (payer, infinitif passé) les témoignages. || avoir payé || A past action with the same subject: reconnaître + past infinitive. || @tags fr.reported-speech
+      fill: Ils nous ont promis ___ rembourser les clients. || de || Promettre (à quelqu'un) de + infinitive. || @tags fr.reported-speech
+      mc: "Elle a nié ___ menti." || d'avoir | *avoir | qu'elle a || Nier + past infinitive, without de. || @tags fr.reported-speech
+      mc: Which verb shows that the reporter doubts what was said? || affirmer | *prétendre | préciser || Prétendre (to claim) distances the speaker from the statement. || @tags fr.reported-speech
+      mc: Which sentence means "He's pretending to be ill"? || Il prétend être malade. | *Il fait semblant d'être malade. | Il se vante d'être malade. || To pretend = faire semblant de. Il prétend être malade = he claims he is ill. || @skill vocabulary @tags fr.vocabulary
+      tf: The study quoted in the advert involved thirty women. || true || "Ils reconnaissent en petits caractères qu'elle portait sur trente femmes seulement." || @ctx dialogue
+      short: What did the regulator ask the company to do? || kw: modifier/changer/change/modify/retirer/remove/withdraw || "L'autorité de régulation leur a demandé de modifier la publicité." || @ctx dialogue
+      listen: L'entreprise a d'abord nié avoir exagéré, puis elle a reconnu que ses chiffres étaient trompeurs. || What did the company do in the end? || *It admitted that its figures were misleading | It denied everything | It withdrew the product from sale || D'abord nié… puis reconnu = first denied, then admitted. || @tags fr.listening,fr.reported-speech
+      rw: Report it with "nier" + past infinitive :: Le vendeur dit : « Je n'ai pas menti. » || Le vendeur nie avoir menti. | Le vendeur a nié avoir menti. || Same subject + past action: nier avoir + participle. || @tags fr.reported-speech
+      tr: The brand claims that its product is natural. || La marque prétend que son produit est naturel. | La marque affirme que son produit est naturel. | La marque assure que son produit est naturel. || Prétendre (doubtful) or affirmer (neutral) + que; the present stays because the reporting verb is in the present. || @tags fr.reported-speech
+      dict: Cette publicité se vante d'être la plus écologique du marché. || se vante d'être
+      ask: Describe an advert that you find convincing or misleading, and report what it claims with two different reporting verbs. || kw: prétend/prétendent/affirme/affirment/assure/assurent/promet/promettent/garantit/garantissent/se vante/se vantent & que/qu'/de/d' || Il y a une pub pour une boisson qui prétend donner de l'énergie toute la journée. Elle promet aussi d'améliorer la concentration, mais elle ne cite aucune étude.
+
+  - title: Writing an opinion piece
+    summary: Read a newspaper opinion piece defending handwriting at school, and structure your own argument from introduction to conclusion.
+    minutes: 50
+    skills: [reading, writing, grammar]
+    tags: [fr.opinion, fr.connectors]
+    objectives:
+      - Recognise the structure of an opinion piece (thesis, arguments, objection, conclusion)
+      - Add and emphasise arguments with non seulement… mais aussi, en outre and force est de constater que
+      - Deal with an objection using certes, on pourrait objecter que, or and reste que
+    intro: |
+      An opinion piece (*une tribune*) is a short argued text, published in a newspaper, in which the author defends a clear position. Its strength lies in its **structure**: the debate is introduced, the thesis stated, the arguments ordered, the main objection answered, and the conclusion drawn. Each step has its own set of expressions — the ones you will need for the French B2 exam and for any formal discussion.
+    vocab: |
+      une tribune | an opinion piece | n | Elle a publié une tribune dans un quotidien national. | She published an opinion piece in a national daily. | g: f
+      l'écriture manuscrite | handwriting | n | L'écriture manuscrite aide à mémoriser. | Handwriting helps memorisation. | g: f
+      un clavier | a keyboard | n | Les élèves tapent sur un clavier dès huit ans. | Pupils type on a keyboard from the age of eight. | g: m
+      prendre des notes | to take notes | expr | Je prends mes notes à la main. | I take my notes by hand.
+      reformuler | to rephrase | v | Reformuler une idée oblige à la comprendre. | Rephrasing an idea forces you to understand it.
+      retenir | to remember; to retain | v | On retient mieux ce qu'on a écrit soi-même. | You remember better what you've written yourself. | n: Conjugated like tenir.
+      force est de constater que | one has to admit that | expr | Force est de constater que les habitudes ont changé. | One has to admit that habits have changed. | n: Formal; followed by the indicative.
+      objecter | to object | v | On pourrait objecter que le papier coûte cher. | One could object that paper is expensive. | n: Une objection.
+      indéniable | undeniable | adj | C'est un avantage indéniable. | It's an undeniable advantage.
+      reste que | the fact remains that | expr | Reste que la majorité des élèves en profite. | The fact remains that most pupils benefit. | n: Formal; no il at the start.
+      complémentaire | complementary | adj | Le stylo et l'ordinateur sont complémentaires. | Pens and computers are complementary.
+      une thèse | a thesis; a position | n | L'auteure défend une thèse claire. | The author defends a clear position. | g: f
+    grammar:
+      title: Structuring an argument
+      body: |
+        An opinion piece follows a clear path, and each step has its own expressions:
+
+        - **Introducing the debate**: *On entend souvent dire que…, À l'heure où…, La question mérite d'être posée.*
+        - **Adding arguments**: *d'une part… d'autre part; non seulement… mais (aussi); de plus; en outre* (formal).
+        - **Emphasising**: ***force est de constater que*** (one has to admit that), *il ne fait aucun doute que* + indicative, *il convient de* + infinitive (it is appropriate to).
+        - **Conceding**: *certes… mais; il est vrai que…; on pourrait objecter que…*
+        - **Refuting**: ***or*** (yet; now), which introduces the decisive fact, and ***reste que*** (the fact remains that).
+        - **Concluding**: *en somme, en définitive, pour conclure, c'est pourquoi.*
+
+        **Or** is not *ou*: it introduces a fact that changes the direction of the argument: *On pourrait objecter que le monde du travail exige des compétences numériques. **Or**, il ne s'agit pas de choisir.*
+
+        The reporting verbs of lesson 2 help you present other views fairly before answering them: *Certains affirment que…, d'autres prétendent que…*
+      table: |
+        Step | Expressions | Example
+        introduce | on entend souvent dire que / à l'heure où | À l'heure où tout est numérique…
+        add | d'une part… d'autre part / non seulement… mais aussi / en outre | Non seulement c'est utile, mais c'est aussi agréable.
+        emphasise | force est de constater que / il ne fait aucun doute que | Force est de constater que la situation a changé.
+        concede | certes… mais / il est vrai que / on pourrait objecter que | Certes, c'est plus lent, mais c'est plus efficace.
+        refute | or / reste que | Reste que la majorité en profite.
+        conclude | en somme / en définitive / c'est pourquoi | En somme, les deux sont complémentaires.
+      examples: |
+        Non seulement la lecture détend, mais elle enrichit aussi le vocabulaire. | Not only does reading relax you, it also enriches your vocabulary. | non seulement… mais aussi
+        Force est de constater que les jeunes lisent moins de journaux papier. | One has to admit that young people read fewer printed newspapers. | emphasis
+        On pourrait objecter que le papier coûte cher. Or, un cahier dure toute une année. | One could object that paper is expensive. Yet a notebook lasts a whole year. | objection, then or
+        En définitive, il convient de laisser le choix aux élèves. | Ultimately, pupils should be given the choice. | conclusion
+      tip: "Vary your connectors and don't stack them: one per sentence is usually enough, and a short, clear sentence is more convincing than a long one."
+    reading:
+      title: Faut-il encore apprendre à écrire à la main ?
+      text: |
+        À l'heure où les élèves tapent sur des claviers dès l'école primaire, on entend souvent dire que l'écriture manuscrite serait une compétence du passé. Pourquoi consacrer des heures à former des lettres quand un ordinateur le fait mieux et plus vite ? La question mérite d'être posée. Je voudrais pourtant défendre ici le stylo.
+
+        D'une part, écrire à la main aide à apprendre. Plusieurs études suggèrent que les élèves qui prennent leurs notes à la main retiennent mieux le contenu d'un cours : obligés de reformuler, ils trient l'information au lieu de tout recopier. D'autre part, le geste d'écriture lui-même semble faciliter l'apprentissage de la lecture chez les jeunes enfants.
+
+        Non seulement l'écriture manuscrite est utile, mais elle est aussi une forme de liberté. Une feuille de papier ne tombe jamais en panne, ne demande aucun mot de passe et n'envoie pas de notifications. Force est de constater qu'à l'ère des écrans, cette capacité de concentration est devenue précieuse.
+
+        Certes, on pourrait objecter que le monde du travail exige surtout des compétences numériques. C'est indéniable. Or, il ne s'agit pas de choisir entre le clavier et le stylo, mais de les combiner. Il est vrai, par ailleurs, que certains élèves souffrent de troubles qui rendent l'écriture difficile ; pour eux, l'ordinateur est un outil indispensable, et il convient de le leur proposer. Reste que, pour la majorité, renoncer à l'écriture manuscrite serait une perte.
+
+        En somme, l'écriture à la main n'est ni un luxe ni une nostalgie : c'est un outil de pensée. C'est pourquoi l'école devrait continuer à l'enseigner, tout en apprenant aux élèves à maîtriser le clavier. Le stylo et l'ordinateur ne sont pas rivaux ; ils sont complémentaires.
+
+        Claire Vasseur, professeure de lettres
+      translation: |
+        At a time when pupils type on keyboards from primary school onwards, we often hear that handwriting is a skill of the past. Why spend hours learning to form letters when a computer does it better and faster? The question deserves to be asked. And yet I would like to defend the pen here.
+
+        On the one hand, writing by hand helps you learn. Several studies suggest that pupils who take their notes by hand remember the content of a lesson better: because they have to rephrase, they sort the information instead of copying everything down. On the other hand, the act of writing itself seems to make it easier for young children to learn to read.
+
+        Not only is handwriting useful, it is also a form of freedom. A sheet of paper never breaks down, never asks for a password and doesn't send notifications. One has to admit that in the age of screens, this ability to concentrate has become precious.
+
+        Admittedly, one could object that the world of work mainly demands digital skills. That is undeniable. Yet the point is not to choose between the keyboard and the pen, but to combine them. It is also true that some pupils have disorders that make writing difficult; for them, the computer is an essential tool, and it should be offered to them. The fact remains that, for the majority, giving up handwriting would be a loss.
+
+        In short, writing by hand is neither a luxury nor nostalgia: it is a tool for thinking. That is why schools should keep teaching it, while also teaching pupils to master the keyboard. The pen and the computer are not rivals; they are complementary.
+
+        Claire Vasseur, French teacher
+    pronunciation:
+      title: Reading an argument aloud
+      body: |
+        When you read an argued text aloud, pause briefly after each structuring expression and stress its last syllable: *D'une **part**,* | *écrire à la main aide à apprendre.* This tells listeners where they are in the argument.
+
+        *Or* [ɔʁ] is pronounced exactly like *l'or* (gold): make it short and firm. In *force est de constater* [fɔʁ.sɛ.də.kɔ̃s.ta.te], link *force* and *est* without a pause.
+      items: |
+        d'une part
+        d'autre part
+        force est de constater que
+        non seulement… mais aussi
+        or
+        en somme
+    mistakes: |
+      Le stylo or le clavier ? => Le stylo ou le clavier ? | Or is a logical connector (yet, now); the word for "or" in a choice is ou.
+      Force est de constater que les élèves soient fatigués. => Force est de constater que les élèves sont fatigués. | Force est de constater que presents a fact: indicative.
+      D'une part… d'un autre part… => D'une part… d'autre part… | The fixed pair is d'une part… d'autre part.
+    task:
+      title: Your opinion piece
+      mode: writing
+      body: |
+        Write an opinion piece (150–180 words) for a local newspaper on one of these questions: *Faut-il supprimer les devoirs à la maison ? Lire sur écran ou sur papier ? Faut-il rendre les transports en commun gratuits ?* Introduce the debate, state your thesis, give two arguments, answer one objection (*certes… or…*) and conclude. Use at least six expressions from the lesson.
+    exercises: |
+      fill: ___ seulement l'écriture est utile, mais elle développe aussi la concentration. || Non || Non seulement… mais aussi adds a second, stronger argument. || @tags fr.connectors,fr.opinion
+      fill: ___ est de constater que les élèves écrivent de moins en moins à la main. || Force || Force est de constater que = one has to admit that. || @tags fr.opinion
+      mc: "On pourrait objecter que le papier coûte cher. ___, un cahier dure toute l'année." || *Or | Ou | Donc || Or introduces the fact that answers the objection; ou means "or" in a choice; donc would introduce a consequence. || @tags fr.connectors,fr.opinion
+      mc: Which expression introduces a conclusion? || D'une part | *En somme | Or || En somme = in short, to sum up. D'une part starts a list of arguments; or answers an objection. || @tags fr.connectors
+      mc: According to the author, why do pupils who take notes by hand remember better? || *They have to rephrase and sort the information | They write faster than on a keyboard | They are not distracted by teachers || "Obligés de reformuler, ils trient l'information au lieu de tout recopier." || @ctx reading @tags fr.reading
+      tf: The author wants to ban computers from schools. || false || She wants schools to teach handwriting "tout en apprenant aux élèves à maîtriser le clavier". || @ctx reading
+      short: For which pupils does the author say the computer is essential? || kw: troubles/trouble/disorder/disorders/difficulté/difficultés/difficulties/dyslexie/dyspraxie || "Certains élèves souffrent de troubles qui rendent l'écriture difficile." || @ctx reading
+      listen: Certes, les tablettes sont pratiques. Reste que, pour apprendre à lire, rien ne remplace un livre et un crayon. || What is the speaker's position? || *Tablets are practical, but books and pencils remain essential for learning to read | Tablets should replace books at school | Tablets are useless for children || Certes concedes the point; reste que gives the main idea. || @tags fr.listening,fr.opinion
+      rw: Rewrite with "non seulement… mais aussi" :: Ce projet est utile et il est peu coûteux. || Non seulement ce projet est utile, mais il est aussi peu coûteux. | Ce projet est non seulement utile, mais aussi peu coûteux. | Non seulement ce projet est utile, mais en plus il est peu coûteux. || Non seulement + first argument, mais (aussi) + second argument. || @tags fr.connectors
+      tr: One has to admit that the debate is not new. || Force est de constater que le débat n'est pas nouveau. | Force est de constater que ce débat n'est pas nouveau. || One has to admit that = force est de constater que + indicative. || @tags fr.opinion
+      dict: En somme, le stylo et l'ordinateur sont complémentaires. || en somme
+      say: Force est de constater qu'à l'ère des écrans, la concentration est devenue précieuse. || One has to admit that in the age of screens, concentration has become precious.
+      write: Write a paragraph (80–100 words) for or against reading on screens, with an argument, an objection and a conclusion. || min=80 || req: d'une part/non seulement/de plus/en outre | certes/il est vrai que/on pourrait objecter | or/reste que/néanmoins/toutefois | en somme/en définitive/pour conclure/c'est pourquoi || Faut-il lire sur écran ? Je pense que oui, dans certains cas. D'une part, une liseuse permet d'emporter des centaines de livres en voyage. D'autre part, on peut agrandir les caractères, ce qui aide beaucoup de lecteurs. Certes, on pourrait objecter que les écrans fatiguent les yeux et qu'on s'y concentre moins bien. Or, les liseuses à encre électronique ne sont pas rétroéclairées. Reste que, pour un texte difficile, le papier reste plus confortable. En somme, l'écran et le livre ne s'opposent pas : ils se complètent.

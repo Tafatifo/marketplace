@@ -1,0 +1,475 @@
+- slug: perfil-intercambio
+  kind: reading
+  title: Mi perfil de intercambio
+  topic: Greetings and introductions
+  summary: Lucía introduces herself on a language-exchange website — her age, where she is from, her studies and her languages.
+  free: true
+  text: |
+    ¡Hola! Me llamo Lucía Ortega Ramos y tengo veintitrés años. Soy española, de Valladolid, pero ahora vivo en Barcelona. Soy estudiante de Medicina en la universidad.
+
+    Mi padre es de Valladolid y mi madre es de Bilbao. En casa hablamos español. En Barcelona hablo español y catalán, y en la universidad hablo inglés con mis compañeros de clase.
+
+    Ahora estudio alemán. Mi alemán no es muy bueno: hablo un poco. Busco un compañero o una compañera de intercambio para hablar alemán y español una hora a la semana, en un bar o por videollamada.
+
+    Soy simpática, un poco tímida y muy trabajadora. ¿Hablas alemán? ¿Quieres practicar español? ¡Hasta pronto!
+  translation: |
+    Hi! My name is Lucía Ortega Ramos and I'm twenty-three. I'm Spanish, from Valladolid, but now I live in Barcelona. I'm a medical student at the university.
+
+    My father is from Valladolid and my mother is from Bilbao. At home we speak Spanish. In Barcelona I speak Spanish and Catalan, and at university I speak English with my classmates.
+
+    Now I'm learning German. My German isn't very good: I speak a little. I'm looking for an exchange partner to speak German and Spanish for one hour a week, in a bar or by video call.
+
+    I'm friendly, a bit shy and very hard-working. Do you speak German? Do you want to practise Spanish? See you soon!
+  glossary: |
+    busco | I'm looking for | from buscar
+    el compañero / la compañera de intercambio | exchange partner | a compañero de clase is a classmate
+    Medicina | medicine (as a subject) | university subjects are often written with a capital letter
+    el catalán | Catalan | co-official with Spanish in Catalonia
+    estudio | I study; I'm learning | from estudiar
+    un poco | a little
+    una hora a la semana | one hour a week
+    la videollamada | video call
+    ¡hasta pronto! | see you soon!
+  questions: |
+    mc: Where is Lucía from? || Barcelona | *Valladolid | Bilbao || "Soy española, de Valladolid, pero ahora vivo en Barcelona." Her mother is from Bilbao.
+    tf: Lucía is a medical student. || true || "Soy estudiante de Medicina en la universidad."
+    fill: Lucía ___ veintitrés años. || tiene || Age uses tener: tiene veintitrés años.
+    short: Which language does Lucía want to practise? || kw: alemán/german || She is learning German and is looking for an exchange partner to speak German.
+    mc: Which languages does Lucía speak in Barcelona? || *Spanish, Catalan and English | Spanish, German and Basque | Only Spanish || Spanish and Catalan in the city, English at university; her German is still basic.
+
+- slug: la-familia-de-marcos
+  kind: reading
+  title: Mi familia
+  topic: Family and people
+  summary: Twelve-year-old Marcos writes about his family for a school project — who they are, what they do and what they are like.
+  text: |
+    Me llamo Marcos y tengo doce años. Vivo en Zaragoza con mi familia. Mi familia no es muy grande: somos cuatro.
+
+    Mi madre se llama Elena. Es enfermera y trabaja en un hospital. Es alta, morena y muy divertida. Mi padre se llama Jorge. Es profesor de música en un colegio. Es bajo, tiene el pelo corto y lleva gafas. Es un poco serio, pero muy simpático.
+
+    Tengo una hermana, Ana. Tiene dieciséis años y es estudiante. Es rubia, como mi abuela, y muy inteligente. ¡Pero por la mañana es un poco antipática!
+
+    Mis abuelos viven en un pueblo cerca de Zaragoza. Mi abuelo se llama Luis y mi abuela, Carmen. Tienen un perro, Toby. Los domingos comemos con ellos en el pueblo.
+  translation: |
+    My name is Marcos and I'm twelve. I live in Zaragoza with my family. My family isn't very big: there are four of us.
+
+    My mother's name is Elena. She's a nurse and works in a hospital. She's tall, dark-haired and really fun. My father's name is Jorge. He's a music teacher in a school. He's short, has short hair and wears glasses. He's a bit serious, but very nice.
+
+    I have a sister, Ana. She's sixteen and she's a student. She's blonde, like my grandmother, and very clever. But in the morning she's a bit grumpy!
+
+    My grandparents live in a village near Zaragoza. My grandfather's name is Luis and my grandmother's is Carmen. They have a dog, Toby. On Sundays we have lunch with them in the village.
+  glossary: |
+    somos cuatro | there are four of us | literally "we are four"
+    serio | serious
+    antipático | unfriendly, grumpy | the opposite of simpático
+    como | like (in comparisons) | como is also "I eat"
+    el pueblo | village, small town
+    cerca de | near
+    el perro | dog
+    con ellos | with them
+  questions: |
+    mc: What does Marcos's mother do? || She's a teacher | *She's a nurse | She's a doctor || "Es enfermera y trabaja en un hospital." His father is the teacher.
+    tf: Marcos's father wears glasses. || true || "Es bajo, tiene el pelo corto y lleva gafas."
+    fill: Ana ___ dieciséis años. || tiene || Ella + tener = tiene.
+    short: Who does Ana look like? || kw: abuela/grandmother/Carmen || "Es rubia, como mi abuela" — she's blonde like her grandmother.
+    mc: When does the family have lunch with the grandparents? || On Saturdays | *On Sundays | Every day || "Los domingos comemos con ellos en el pueblo."
+
+- slug: un-dia-con-pilar
+  kind: reading
+  title: Un día con Pilar
+  topic: Time and daily routine
+  summary: A short magazine article about the unusual daily routine of Pilar, a night-shift nurse in Málaga.
+  text: |
+    Pilar tiene cuarenta y dos años y es enfermera en un hospital de Málaga. Trabaja de noche, de lunes a jueves, y su día es un poco diferente.
+
+    Pilar se levanta a las dos de la tarde. Se ducha, come con su hijo y después lee o pasea un rato. A las seis estudia inglés en una academia. Cena a las nueve menos cuarto y a las diez sale de casa.
+
+    Trabaja desde las diez y media de la noche hasta las siete y media de la mañana. Llega a casa a las ocho, desayuna con su hijo y se acuesta a las nueve.
+
+    Los viernes, los sábados y los domingos no trabaja. Normalmente se levanta pronto, va a la playa con su familia o cena con amigos. "Me encanta mi trabajo", dice Pilar, "pero los fines de semana son para mi familia".
+  translation: |
+    Pilar is forty-two and she's a nurse in a hospital in Málaga. She works nights, from Monday to Thursday, and her day is a little different.
+
+    Pilar gets up at two in the afternoon. She has a shower, has lunch with her son and then reads or goes for a walk for a while. At six she studies English at a language school. She has dinner at quarter to nine and at ten she leaves home.
+
+    She works from half past ten at night until half past seven in the morning. She gets home at eight, has breakfast with her son and goes to bed at nine.
+
+    On Fridays, Saturdays and Sundays she doesn't work. She usually gets up early, goes to the beach with her family or has dinner with friends. "I love my job," says Pilar, "but weekends are for my family."
+  glossary: |
+    de noche | at night (a night shift)
+    un rato | a while
+    la academia | private school (for languages, music…)
+    sale de casa | she leaves home | from salir
+    desde… hasta… | from… until…
+    se acuesta | she goes to bed | from acostarse (o → ue)
+    pronto | early | in Latin America: temprano
+    dice | she says | from decir
+  questions: |
+    mc: What time does Pilar get up on work days? || At 7:30 a.m. | *At 2 p.m. | At 9 p.m. || "Pilar se levanta a las dos de la tarde."
+    tf: Pilar works at weekends. || false || "Los viernes, los sábados y los domingos no trabaja."
+    fill: Pilar ___ acuesta a las nueve de la mañana. || se || Acostarse is reflexive: ella se acuesta.
+    short: What does Pilar study? || kw: inglés/english || "A las seis estudia inglés en una academia."
+    mc: What are Pilar's working hours? || *From 10:30 p.m. to 7:30 a.m. | From 10 p.m. to 8 a.m. | From 2 p.m. to 9 p.m. || "Desde las diez y media de la noche hasta las siete y media de la mañana."
+
+- slug: menu-casa-paqui
+  kind: reading
+  title: El menú de Casa Paqui
+  topic: Food and drink
+  summary: The weekday set menu board of a small neighbourhood restaurant in Seville — what's on it, what's included and what it costs.
+  text: |
+    Casa Paqui es un restaurante pequeño en el barrio de Triana, en Sevilla. Paqui, la cocinera, prepara la comida todos los días con productos del mercado.
+
+    MENÚ DEL DÍA: 13,50 €
+    De lunes a viernes, de 13:30 a 16:00
+
+    Primeros: gazpacho andaluz, ensalada mixta o lentejas con verduras.
+    Segundos: pollo asado con patatas, merluza a la plancha o tortilla de patatas con pimientos.
+    Postres: flan de la casa, fruta del tiempo o arroz con leche.
+
+    El menú incluye pan y bebida: agua, vino o refresco. El café no está incluido y cuesta 1,50 €.
+
+    Platos vegetarianos: la ensalada, las lentejas y la tortilla.
+
+    ¿Poca hambre? También tenemos medio menú: un plato, postre y bebida por 10 €.
+  translation: |
+    Casa Paqui is a small restaurant in the Triana neighbourhood of Seville. Paqui, the cook, makes the food every day with produce from the market.
+
+    SET MENU: €13.50
+    Monday to Friday, 1:30 p.m. to 4 p.m.
+
+    First courses: Andalusian gazpacho, mixed salad or lentils with vegetables.
+    Main courses: roast chicken with potatoes, grilled hake or Spanish omelette with peppers.
+    Desserts: home-made crème caramel, seasonal fruit or rice pudding.
+
+    The menu includes bread and a drink: water, wine or a soft drink. Coffee is not included and costs €1.50.
+
+    Vegetarian dishes: the salad, the lentils and the omelette.
+
+    Not very hungry? We also have a half menu: one course, dessert and a drink for €10.
+  glossary: |
+    la cocinera | the cook (woman) | el cocinero for a man
+    primeros / segundos | first courses / main courses
+    asado | roast
+    a la plancha | grilled (on a hot plate)
+    fruta del tiempo | seasonal fruit
+    arroz con leche | rice pudding
+    incluye | it includes | from incluir
+    el refresco | soft drink
+    medio menú | half menu (one course instead of two)
+    ¿poca hambre? | not very hungry? | literally "little hunger?"
+  questions: |
+    mc: How much is the full set menu? || €10 | *€13.50 | €15 || "Menú del día: 13,50 €." The half menu costs 10 euros.
+    tf: Coffee is included in the menu. || false || "El café no está incluido y cuesta 1,50 €."
+    mc: Which main course is vegetarian? || Roast chicken | Grilled hake | *Spanish omelette with peppers || The vegetarian dishes are the salad, the lentils and the omelette.
+    fill: El menú incluye pan y ___. || bebida || "El menú incluye pan y bebida."
+    tf: You can have the set menu on Saturdays. || false || It's served "de lunes a viernes" — Monday to Friday.
+    short: What does the half menu include? || kw: plato/dish/course & postre/dessert & bebida/drink || "Un plato, postre y bebida por 10 €."
+
+- slug: se-alquila-habitacion
+  kind: reading
+  title: Se alquila habitación
+  topic: Town and home
+  summary: An advert for a room in a shared flat in the centre of Salamanca, describing the flat, the room, the flatmates and the neighbourhood.
+  text: |
+    SE ALQUILA HABITACIÓN EN PISO COMPARTIDO
+
+    El piso está en una calle tranquila del centro de Salamanca, en la tercera planta. Es grande y tiene mucha luz. Tiene cuatro dormitorios, dos baños, un salón con terraza y una cocina con lavadora y lavaplatos.
+
+    La habitación es exterior. Tiene una cama grande, un armario y una mesa para estudiar delante de la ventana.
+
+    Ahora vivimos en el piso tres estudiantes: Clara, de Burgos; Malik, de Senegal; y Teresa, de Portugal. Somos simpáticos y tranquilos, y los domingos cenamos juntos.
+
+    El barrio es muy bonito. La Plaza Mayor está a cinco minutos andando. Enfrente del piso hay un supermercado, y al lado hay una farmacia y una parada de autobús. La universidad está a diez minutos.
+
+    Precio: 280 € al mes, con gastos incluidos. ¿Te interesa? ¡Escribe a Clara!
+  translation: |
+    ROOM FOR RENT IN A SHARED FLAT
+
+    The flat is on a quiet street in the centre of Salamanca, on the third floor. It's big and has a lot of light. It has four bedrooms, two bathrooms, a living room with a balcony and a kitchen with a washing machine and a dishwasher.
+
+    The room faces the street. It has a big bed, a wardrobe and a desk for studying in front of the window.
+
+    At the moment three students live in the flat: Clara, from Burgos; Malik, from Senegal; and Teresa, from Portugal. We're friendly and quiet, and on Sundays we have dinner together.
+
+    The neighbourhood is very nice. The Plaza Mayor is a five-minute walk away. Opposite the flat there's a supermarket, and next door there's a pharmacy and a bus stop. The university is ten minutes away.
+
+    Price: €280 a month, bills included. Interested? Write to Clara!
+  glossary: |
+    se alquila | for rent | a fixed phrase on signs and adverts
+    el piso compartido | shared flat
+    exterior | facing the street (with outside windows)
+    la lavadora | washing machine
+    el lavaplatos | dishwasher | also el lavavajillas
+    el armario | wardrobe, cupboard
+    tranquilo | quiet, calm
+    juntos | together
+    al mes | a month
+    gastos incluidos | bills included
+  questions: |
+    mc: How many bedrooms does the flat have? || Three | *Four | Two || "Tiene cuatro dormitorios." Three students live there now.
+    tf: The room has a desk in front of the window. || true || "Una mesa para estudiar delante de la ventana."
+    fill: Enfrente del piso ___ un supermercado. || hay || Hay introduces something that exists: hay un supermercado.
+    short: Where is Malik from? || kw: Senegal || "Malik, de Senegal."
+    mc: How far is the Plaza Mayor? || *Five minutes on foot | Ten minutes on foot | Five minutes by bus || "La Plaza Mayor está a cinco minutos andando." The university is ten minutes away.
+
+- slug: un-correo-desde-granada
+  kind: reading
+  title: Un correo desde Granada
+  topic: Free time, weather and travel
+  summary: Elena writes to a friend in London about her weekend in Granada — where she's staying, the weather, the tapas and her plans for tomorrow.
+  text: |
+    ¡Hola, Sam!
+
+    ¿Qué tal por Londres? Yo estoy en Granada con mi amiga Noa. Estamos en un hostal pequeño en el Albaicín, el barrio antiguo. Nuestra habitación tiene una terraza con vistas a la Alhambra. ¡Es muy bonito!
+
+    Aquí hace sol, pero por la noche hace frío: estamos en noviembre. Por la mañana paseamos por el centro y a mediodía comemos tapas. Me encantan las tapas de Granada: con cada bebida, ¡la tapa es gratis!
+
+    Mañana vamos a visitar la Alhambra. Las entradas son para las nueve de la mañana. Por la tarde vamos a ir a Sierra Nevada en autobús: tarda una hora. Noa quiere ver la nieve.
+
+    El domingo volvemos a Madrid en tren. ¿Te apetece quedar el fin de semana que viene? Tengo muchas fotos.
+
+    Un abrazo,
+    Elena
+  translation: |
+    Hi, Sam!
+
+    How are things in London? I'm in Granada with my friend Noa. We're staying in a small guesthouse in the Albaicín, the old quarter. Our room has a balcony with views of the Alhambra. It's really beautiful!
+
+    It's sunny here, but it's cold at night: it's November. In the morning we walk around the centre and at lunchtime we eat tapas. I love the tapas in Granada: with every drink, the tapa is free!
+
+    Tomorrow we're going to visit the Alhambra. Our tickets are for nine in the morning. In the afternoon we're going to go to Sierra Nevada by bus: it takes an hour. Noa wants to see the snow.
+
+    On Sunday we're going back to Madrid by train. Do you fancy meeting up next weekend? I have lots of photos.
+
+    Love,
+    Elena
+  glossary: |
+    el hostal | small, simple hotel; guesthouse
+    el barrio antiguo | the old quarter
+    con vistas a | with views of
+    a mediodía | at lunchtime | in Spain, around 2 p.m.
+    cada | every, each
+    gratis | free (no cost)
+    la entrada | ticket (for a monument or show)
+    volvemos | we're going back | from volver (o → ue)
+    un abrazo | love; best wishes | literally "a hug"; a common way to end an informal email
+  questions: |
+    mc: Where are Elena and Noa staying? || In a big hotel | *In a small guesthouse in the Albaicín | In a flat in the centre || "Estamos en un hostal pequeño en el Albaicín."
+    tf: It's warm at night in Granada. || false || "Por la noche hace frío: estamos en noviembre."
+    fill: Mañana ___ a visitar la Alhambra. || vamos || Near future with nosotros: vamos a visitar.
+    short: Why does Noa want to go to Sierra Nevada? || kw: nieve/snow || "Noa quiere ver la nieve."
+    mc: How are they going back to Madrid? || By bus | *By train | By plane || "El domingo volvemos a Madrid en tren." The bus is for Sierra Nevada.
+    mc: What does Elena love about Granada? || *The free tapas with every drink | The hot nights | The long bus journeys || "Me encantan las tapas de Granada: con cada bebida, ¡la tapa es gratis!"
+
+- slug: donde-esta-la-farmacia
+  kind: listening
+  title: ¿Dónde está la farmacia?
+  topic: Town and home
+  summary: Amira stops an older man in the street to ask the way to the nearest pharmacy. He gives directions with usted.
+  free: true
+  speakers: A=Amira/f; P=Pedro/m
+  text: |
+    A: Perdone, ¿hay una farmacia por aquí?
+    P: Sí, hay una en la calle Mayor.
+    A: ¿Está lejos?
+    P: No, está a cinco minutos andando.
+    A: ¿Cómo llego?
+    P: Siga todo recto hasta el semáforo.
+    A: ¿Hasta el semáforo? Vale.
+    P: Luego gire a la izquierda. Esa es la calle Mayor.
+    A: ¿Y la farmacia?
+    P: Está a la derecha, entre un banco y una panadería.
+    A: ¿Enfrente de la iglesia?
+    P: Sí, eso es. Enfrente de la iglesia.
+    A: ¿Y está abierta ahora?
+    P: Sí, abre hasta las nueve y media.
+    A: Muchas gracias, señor.
+    P: De nada. ¡Adiós!
+  translation: |
+    A: Excuse me, is there a pharmacy around here?
+    P: Yes, there's one on Calle Mayor.
+    A: Is it far?
+    P: No, it's five minutes on foot.
+    A: How do I get there?
+    P: Go straight on as far as the traffic lights.
+    A: As far as the traffic lights? OK.
+    P: Then turn left. That's Calle Mayor.
+    A: And the pharmacy?
+    P: It's on the right, between a bank and a bakery.
+    A: Opposite the church?
+    P: Yes, that's right. Opposite the church.
+    A: And is it open now?
+    P: Yes, it's open until half past nine.
+    A: Thank you very much, sir.
+    P: You're welcome. Goodbye!
+  glossary: |
+    perdone | excuse me (usted) | tú: perdona
+    el semáforo | traffic lights
+    siga | carry on, go (usted) | tú: sigue
+    gire | turn (usted) | tú: gira
+    entre… y… | between… and…
+    la panadería | bakery
+    eso es | that's right
+    abierta | open | from abrir; the opposite is cerrada
+  questions: |
+    mc: How far is the pharmacy? || *Five minutes on foot | Fifteen minutes on foot | Five minutes by car || "Está a cinco minutos andando."
+    mc: What should Amira do at the traffic lights? || Turn right | *Turn left | Cross the street || "Luego gire a la izquierda."
+    tf: The pharmacy is next to a bakery. || true || It's between a bank and a bakery, so it's next to both.
+    short: What is opposite the pharmacy? || kw: iglesia/church || "Enfrente de la iglesia."
+    fill: La farmacia está ___ un banco y una panadería. || entre || Entre… y… = between… and…
+
+- slug: en-la-zapateria
+  kind: listening
+  title: En la zapatería
+  topic: Shopping
+  summary: Hugo tries on shoes in a shoe shop, asks for another size and gets a discount.
+  speakers: N=Nuria/f; H=Hugo/m
+  text: |
+    N: Hola, buenas tardes. ¿Puedo ayudarle?
+    H: Sí, quería ver los zapatos marrones del escaparate.
+    N: ¿Qué número usa?
+    H: El cuarenta y dos.
+    N: Un momento… Aquí tiene. ¿Qué tal?
+    H: Me quedan un poco pequeños. ¿Tiene el cuarenta y tres?
+    N: En marrón, no. Lo siento. Pero tengo el cuarenta y tres en negro.
+    H: ¿Puedo probarme los negros?
+    N: Claro. ¿Qué tal le quedan?
+    H: Muy bien. ¿Cuánto cuestan?
+    N: Ochenta y nueve euros, pero hoy hay un descuento del veinte por ciento.
+    H: Entonces, ¿cuestan setenta y uno con veinte?
+    N: Exacto. ¿Paga con tarjeta o en efectivo?
+    H: Con tarjeta. Me los llevo.
+  translation: |
+    N: Hello, good afternoon. Can I help you?
+    H: Yes, I'd like to see the brown shoes in the window.
+    N: What size are you?
+    H: Forty-two.
+    N: Just a moment… Here you are. How are they?
+    H: They're a bit small on me. Do you have a forty-three?
+    N: Not in brown, sorry. But I have the forty-three in black.
+    H: Can I try on the black ones?
+    N: Of course. How do they fit?
+    H: Very well. How much are they?
+    N: Eighty-nine euros, but today there's a twenty per cent discount.
+    H: So they're seventy-one euros twenty?
+    N: Exactly. Are you paying by card or in cash?
+    H: By card. I'll take them.
+  glossary: |
+    la zapatería | shoe shop
+    el escaparate | shop window
+    ¿qué número usa? | what (shoe) size are you? | for clothes: ¿qué talla usa?
+    me quedan pequeños | they're too small for me | works like gustar
+    probarme | to try on (myself) | from probarse
+    un descuento del veinte por ciento | a twenty per cent discount
+    entonces | so, then
+    me los llevo | I'll take them | los = them (masculine plural)
+  questions: |
+    mc: What size does Hugo usually take? || 41 | *42 | 43 || "El cuarenta y dos." The 42 is a bit small, so he tries a 43.
+    mc: Why doesn't Hugo buy the brown shoes? || They're too expensive | *The shop doesn't have them in his size | He doesn't like the colour || The 42 is too small and there's no 43 in brown.
+    tf: There's a discount today. || true || "Hoy hay un descuento del veinte por ciento."
+    short: How much does Hugo pay? || kw: 71/setenta y uno/seventy-one/seventy one || "Setenta y uno con veinte" — €71.20.
+    fill: Hugo paga con ___. || tarjeta || "Con tarjeta. Me los llevo."
+
+- slug: que-hacemos-el-domingo
+  kind: listening
+  title: ¿Qué hacemos el domingo?
+  topic: Free time and weather
+  summary: Julia and Toni look at the weather forecast and plan their Sunday together.
+  speakers: J=Julia/f; T=Toni/m
+  text: |
+    J: Toni, ¿qué tiempo va a hacer el domingo?
+    T: Por la mañana, sol. Por la tarde, lluvia.
+    J: ¡Vaya! Yo quiero ir a la playa.
+    T: Pues vamos por la mañana, a las diez.
+    J: Vale. ¿Y por la tarde?
+    T: ¿Te apetece ir al cine? Hay una película francesa.
+    J: Mmm, no me gustan mucho las películas francesas.
+    T: ¿Y el museo? Hay una exposición de fotografía.
+    J: ¡Me encanta la fotografía! ¿A qué hora abre?
+    T: De cuatro a ocho. Y los domingos es gratis.
+    J: ¡Perfecto! ¿Quedamos en tu casa a las diez menos cuarto?
+    T: Mejor en la parada del autobús.
+    J: Vale. ¡Hasta el domingo!
+  translation: |
+    J: Toni, what's the weather going to be like on Sunday?
+    T: Sun in the morning. Rain in the afternoon.
+    J: Oh no! I want to go to the beach.
+    T: Then let's go in the morning, at ten.
+    J: OK. And in the afternoon?
+    T: Do you fancy going to the cinema? There's a French film on.
+    J: Hmm, I don't really like French films.
+    T: What about the museum? There's a photography exhibition.
+    J: I love photography! What time does it open?
+    T: From four to eight. And on Sundays it's free.
+    J: Perfect! Shall we meet at your house at quarter to ten?
+    T: Better at the bus stop.
+    J: OK. See you on Sunday!
+  glossary: |
+    ¿qué tiempo va a hacer? | what's the weather going to be like?
+    la lluvia | rain | the verb is llover: llueve
+    ¡vaya! | oh no!; oh dear!
+    pues | well, then
+    ¿te apetece…? | do you fancy…? | works like gustar
+    la exposición | exhibition
+    gratis | free (no cost)
+    mejor | better
+  questions: |
+    mc: What's the weather going to be like on Sunday afternoon? || Sunny | *Rainy | Windy || "Por la tarde, lluvia." The morning will be sunny.
+    tf: Julia likes French films. || false || "No me gustan mucho las películas francesas."
+    mc: What are they going to do in the afternoon? || Go to the cinema | *Go to a photography exhibition | Go to the beach || The beach is in the morning; in the afternoon they go to the museum's photography exhibition.
+    short: Where are they going to meet? || kw: parada/bus stop/autobús/bus || "Mejor en la parada del autobús."
+    fill: Los domingos el museo es ___. || gratis || "Y los domingos es gratis."
+
+- slug: llegada-al-hotel
+  kind: listening
+  title: Llegada al hotel
+  topic: Travel
+  summary: Omar arrives at his hotel in the evening, checks in and asks about the lift, breakfast and the wifi.
+  speakers: M=Mercedes/f; O=Omar/m
+  text: |
+    M: Buenas noches. ¿En qué puedo ayudarle?
+    O: Hola. Tengo una reserva a nombre de Omar Haddad.
+    M: Un momento… Sí, una habitación individual para tres noches, ¿verdad?
+    O: Sí, eso es. Hasta el jueves.
+    M: ¿Me deja su pasaporte, por favor?
+    O: Aquí tiene.
+    M: Gracias. Su habitación es la treinta y cuatro, en la tercera planta. Aquí tiene la llave.
+    O: ¿Dónde está el ascensor?
+    M: Al final del pasillo, a la izquierda.
+    O: ¿A qué hora es el desayuno?
+    M: De siete y media a diez, en el comedor, al lado de la recepción.
+    O: ¿Hay wifi en la habitación?
+    M: Sí, la contraseña está en la tarjeta de la llave.
+    O: Perfecto. Muchas gracias.
+    M: De nada. ¡Buenas noches!
+  translation: |
+    M: Good evening. How can I help you?
+    O: Hello. I have a booking in the name of Omar Haddad.
+    M: One moment… Yes, a single room for three nights, is that right?
+    O: Yes, that's right. Until Thursday.
+    M: Could I have your passport, please?
+    O: Here you are.
+    M: Thank you. Your room is thirty-four, on the third floor. Here's your key.
+    O: Where's the lift?
+    M: At the end of the corridor, on the left.
+    O: What time is breakfast?
+    M: From half past seven to ten, in the dining room, next to reception.
+    O: Is there wifi in the room?
+    M: Yes, the password is on the key card.
+    O: Perfect. Thank you very much.
+    M: You're welcome. Good night!
+  glossary: |
+    ¿en qué puedo ayudarle? | how can I help you? (formal)
+    a nombre de | in the name of
+    ¿verdad? | is that right?; isn't it?
+    ¿me deja…? | could I have…? | literally "will you let me (have)…?"
+    el pasillo | corridor
+    el comedor | dining room
+    la contraseña | password
+    la tarjeta | card; key card
+  questions: |
+    mc: What kind of room has Omar booked? || A double room | *A single room | A room with a balcony || "Una habitación individual para tres noches."
+    mc: Which floor is his room on? || The second | *The third | The fourth || "La treinta y cuatro, en la tercera planta." Thirty-four is the room number.
+    tf: Breakfast is served in the dining room next to reception. || true || "En el comedor, al lado de la recepción."
+    short: Until which day is Omar staying? || kw: jueves/thursday || "Hasta el jueves."
+    fill: El ascensor está al final del ___. || pasillo || "Al final del pasillo, a la izquierda."

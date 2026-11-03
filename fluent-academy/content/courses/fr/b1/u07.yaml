@@ -1,0 +1,371 @@
+unit: 7
+title: Culture et divertissement
+theme: Culture and entertainment
+description: Review films and series, present books and music you love, and retell and recommend a story, using ce qui and ce que, the relative pronoun dont, and past narration combining the imparfait, the passé composé and the plus-que-parfait.
+free: false
+objectives:
+  - Give a nuanced review with ce qui… c'est… and ce que… c'est…
+  - Describe books, music and people with dont (parler de, avoir besoin de, whose)
+  - Retell the plot of a story in the present or in the past and recommend it without giving away the ending
+canDo:
+  - I can say what I liked and didn't like about a film or a series, and why.
+  - I can present a book or an album and the people behind it.
+  - I can retell the beginning of a story using the three past tenses.
+  - I can recommend a book, film or series to someone.
+review: |
+  fill: C'est la chanteuse ___ je t'ai parlé hier. || dont || Parler de quelqu'un → dont. || @tags fr.relative-pronouns
+  fill: ___ me fait rire dans cette série, ce sont les dialogues. || Ce qui || The pronoun is the subject of fait rire: ce qui. || @tags fr.relative-pronouns
+  fill: Je ne sais pas ___ tu veux regarder ce soir. || ce que || Tu is the subject; the pronoun is the object of regarder: ce que. || @tags fr.relative-pronouns
+  mc: "C'est un roman ___ l'héroïne est une détective de soixante-dix ans." || que | qui | *dont || Possession (l'héroïne de ce roman): dont = whose. || @tags fr.relative-pronouns
+  mc: "Ce ___ j'ai besoin, c'est de vacances." || que | qui | *dont || Avoir besoin de → ce dont. || @tags fr.relative-pronouns
+  fill: Au début de l'histoire, la jeune femme ___ (habiter) chez ses parents. || habitait || The situation at the start of a story: imparfait. || @tags fr.imparfait-vs-pc
+  rw: Rewrite with "Ce que…, c'est…" :: J'ai adoré les dialogues. || Ce que j'ai adoré, ce sont les dialogues. | Ce que j'ai adoré, c'est les dialogues. || Ce que + subject + verb, then c'est / ce sont + the thing you liked. || @tags fr.relative-pronouns
+  tr: It's a series I recommend to everyone. || C'est une série que je recommande à tout le monde. | C'est une série que je conseille à tout le monde. | C'est une série que je recommande à tous. || The series is the direct object of recommande: que (not dont). || @tags fr.relative-pronouns
+  listen: Ce qui m'a déçu, c'est la fin : on comprend tout dès le premier épisode. || Why was the speaker disappointed? || *The ending was predictable from the first episode. | The episodes were too long. | The actors were bad. || "On comprend tout dès le premier épisode." || @tags fr.listening,fr.relative-pronouns
+  listen: C'est l'histoire d'un jeune pianiste qui avait perdu l'audition après un accident, et qui décide de rejouer en public. || What had happened to the pianist? || *He had lost his hearing after an accident. | He had sold his piano. | He had never played in public. || "Qui avait perdu l'audition après un accident" — plus-que-parfait. || @tags fr.listening,fr.plus-que-parfait
+  ask: Tell a friend about a concert, film or book that disappointed you — what you expected and what you didn't like. || kw: ce qui/ce que/ce qu' & déçu/déçue/décevant/pas aimé/gêné/gênée/ennuyé/ennuyée || Je suis allée voir le dernier film de Sami Kaci. Ce que j'attendais, c'était une comédie, mais ce qui m'a gênée, c'est que l'histoire était très triste et beaucoup trop longue.
+  write: Write a review (80–100 words) of a book or an album for a library newsletter. || min=80 || req: dont | ce qui/ce que/ce qu' | conseille/recommande || Notre coup de cœur du mois, c'est « Les Jardins de Tanger », le premier roman de Yasmina Haddad, une autrice dont on va beaucoup parler. C'est l'histoire de deux sœurs qui ne s'étaient pas vues depuis vingt ans et qui se retrouvent pour vendre la maison familiale. Ce qui nous a plu, c'est l'humour des dialogues, et ce que nous avons adoré, ce sont les descriptions de la ville. C'est un livre dont on sort ému. Nous vous le recommandons !
+lessons:
+  - title: Reviewing a film or series
+    summary: Talk about a film or a series you've just seen and give a nuanced opinion with ce qui… c'est… and ce que… c'est…
+    minutes: 45
+    skills: [listening, speaking, grammar]
+    tags: [fr.relative-pronouns, fr.opinion]
+    objectives:
+      - Talk about a film or series using cinema vocabulary (le scénario, la mise en scène, un rebondissement)
+      - Use ce qui and ce que to mean "what" and to put an idea in focus
+      - Give a balanced review and a rating
+    intro: |
+      You come out of the cinema and someone asks: *Alors, ça t'a plu ?* A one-word answer is easy — *génial, nul* — but a real review explains **what** you liked and **what** bothered you. French has a very natural structure for this: *Ce qui m'a plu, c'est la musique. Ce que je n'ai pas compris, c'est la fin.* In unit 1 you used qui and que after a noun; now you'll use them after **ce**.
+    vocab: |
+      la bande-annonce | the trailer | n | La bande-annonce m'a donné envie de voir le film. | The trailer made me want to see the film. | g: f | pl: les bandes-annonces
+      le scénario | the script; the plot | n | Le scénario est original, mais un peu compliqué. | The plot is original but a bit complicated. | g: m
+      la mise en scène | the directing | n | La mise en scène est très élégante. | The directing is very elegant. | g: f | n: Le metteur en scène / le réalisateur = the director.
+      le personnage principal | the main character | n | Le personnage principal est une avocate de Marseille. | The main character is a lawyer from Marseille. | g: m
+      le rythme | the pace | n | Le rythme est lent au début, puis tout s'accélère. | The pace is slow at first, then everything speeds up. | g: m
+      un rebondissement | a plot twist | n | La série est pleine de rebondissements. | The series is full of twists. | g: m
+      bouleversant | deeply moving | adj | La dernière scène est bouleversante. | The last scene is deeply moving. | n: Feminine: bouleversante. Bouleversé(e) = deeply moved.
+      décevant | disappointing | adj | La deuxième saison est un peu décevante. | The second season is a bit disappointing. | n: Feminine: décevante. From décevoir.
+      captivant | gripping | adj | C'est une histoire captivante du début à la fin. | It's a gripping story from start to finish. | n: Feminine: captivante.
+      être partagé | to be in two minds | expr | Sur ce film, je suis partagée. | I'm in two minds about this film. | n: Feminine: partagée.
+      mettre trois étoiles | to give three stars | expr | Je lui mets quatre étoiles sur cinq. | I'm giving it four stars out of five.
+      dévoiler la fin | to give away the ending | expr | Ne me dévoile pas la fin, s'il te plaît ! | Please don't give away the ending! | n: Also, informally: spoiler (from English).
+    grammar:
+      title: Ce qui and ce que
+      body: |
+        **Ce qui** and **ce que** mean *what* (= *the thing that*) when there is **no noun** before the relative pronoun.
+
+        - **ce qui** is the **subject** of the next verb: ***Ce qui** m'a plu, c'est la musique. Je ne sais pas **ce qui** s'est passé.*
+        - **ce que / ce qu'** is the **direct object**; a subject + verb follows: ***Ce que** j'ai aimé, c'est la fin. Dis-moi **ce que** tu en penses.*
+
+        In reviews, French loves the structure ***Ce qui / Ce que…, c'est…*** to put an idea in focus: *Ce qui m'a gênée, c'est la scène du dîner.* Use *ce sont* before a plural in careful speech: *Ce que j'ai adoré, ce sont les dialogues.*
+
+        **Tout ce qui / tout ce que** = everything that: *Elle adore tout ce qui se passe en Bretagne.*
+
+        Compare with unit 1: after a **noun**, use *qui / que* (*le film **qui** m'a plu*); with no noun, use *ce qui / ce que* (***ce qui** m'a plu*).
+      table: |
+        Pronoun | Role | Example
+        ce qui | subject | Ce qui m'a plu, c'est la musique.
+        ce que / ce qu' | direct object | Ce que je n'ai pas compris, c'est la fin.
+        tout ce qui | everything that (subject) | Tout ce qui se passe à l'écran est crédible.
+        tout ce que | everything that (object) | J'ai vu tout ce qu'elle a réalisé.
+        le film qui / que… | after a noun | Le film que j'ai vu hier était nul.
+      examples: |
+        Ce qui m'a surpris, c'est le rebondissement final. | What surprised me was the final twist. | ce qui = subject
+        Ce que j'ai préféré, c'est la musique. | What I liked best was the music. | ce que = object
+        Je ne comprends pas ce qui plaît tant dans cette série. | I don't understand what people like so much about this series. | indirect question
+        Tout ce qu'il dit dans cette interview est intéressant. | Everything he says in this interview is interesting. | tout ce que
+      tip: "Plaire works backwards: ce film me plaît = I like this film. So 'what I liked' is ce qui m'a plu — the thing is the subject."
+    dialogue:
+      title: À la sortie du cinéma
+      setting: A Saturday evening in Bordeaux. Jade and Moussa come out of a French drama set on the coast of Brittany.
+      speakers: J=Jade/f; M=Moussa/m
+      lines: |
+        J: Alors, ça t'a plu ? Moi, je suis encore toute bouleversée. | So, did you like it? I'm still really moved.
+        M: Franchement, je suis partagé. Ce qui m'a plu, c'est la photographie. | Honestly, I'm in two minds. What I liked was the cinematography.
+        J: Oui, les images de la côte bretonne étaient magnifiques. Et les acteurs ? | Yes, the shots of the Breton coast were magnificent. And the actors?
+        M: L'actrice principale est géniale. Ce que je n'ai pas compris, c'est la fin. | The lead actress is brilliant. What I didn't understand was the ending.
+        J: Ah bon ? Pour moi, c'est justement ce qui rend le film si fort. | Really? For me, that's exactly what makes the film so powerful.
+        M: Peut-être, mais le rythme était trop lent. Je me suis ennuyé au milieu. | Maybe, but the pace was too slow. I got bored in the middle.
+        J: C'est vrai que ça dure deux heures et demie… Tu as aimé la musique ? | True, it lasts two and a half hours… Did you like the music?
+        M: Oui, c'est ce que j'ai préféré, avec le grand rebondissement du milieu. | Yes, that's what I liked best, along with the big twist in the middle.
+        J: Moi, ce qui m'a gênée, c'est la scène du dîner. Beaucoup trop longue ! | What bothered me was the dinner scene. Far too long!
+        M: Alors, tu le conseillerais à tes parents ? | So, would you recommend it to your parents?
+        J: Oui, à ma mère surtout. Elle adore tout ce qui se passe en Bretagne ! | Yes, especially to my mum. She loves anything set in Brittany!
+        M: Moi, je lui mettrais trois étoiles sur cinq. Pas plus ! | I'd give it three stars out of five. No more!
+    pronunciation:
+      title: "Ce qui [ski], ce que [skə]"
+      body: |
+        In normal speech, the **e** of *ce* disappears: *ce qui* sounds like [ski] and *ce que* like [skə]. *Ce qui m'a plu* is [ski.ma.ply]; *ce que j'ai aimé* is [skə.ʒe.e.me], or even [skʒe.e.me] in fast speech.
+
+        In *mise en scène* [mi.zɑ̃.sɛn], link *mise* and *en* with a [z]. In *rebondissement* [ʁə.bɔ̃.dis.mɑ̃], the middle **e** is silent.
+      items: |
+        ce qui m'a plu
+        ce que j'ai aimé
+        tout ce qui
+        tout ce que
+        la mise en scène
+        un rebondissement
+    culture:
+      title: Le cinéma en France
+      body: |
+        France is one of the European countries where people go to the cinema most often. Part of the price of every cinema ticket helps to fund new French films, a system that supports a large and varied national production. Every summer, the *Fête du cinéma* offers cheap tickets for a few days, and the Cannes Film Festival in May is followed closely by the media.
+    mistakes: |
+      Qu'est-ce qui m'a plu, c'est la musique. => Ce qui m'a plu, c'est la musique. | Qu'est-ce qui asks a question; to say "what I liked", use ce qui.
+      Ce qui j'ai aimé, c'est la fin. => Ce que j'ai aimé, c'est la fin. | J' is the subject, so the pronoun is the object: ce que.
+      Je ne sais pas qu'est-ce que tu veux voir. => Je ne sais pas ce que tu veux voir. | In an indirect question, qu'est-ce que becomes ce que.
+    task:
+      title: After the film
+      mode: interaction
+      body: |
+        With a partner, discuss a film or series you have both seen (or describe one each). Say what you liked and didn't like with *ce qui… c'est…* and *ce que… c'est…* at least four times, talk about the actors, the pace and the ending (without giving it away!), and give a rating out of five. Then talk about your favourite series in the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: ___ m'a plu, c'est la musique. || Ce qui || The pronoun is the subject of a plu: ce qui. || @tags fr.relative-pronouns
+      fill: ___ je n'ai pas aimé, c'est la fin. || Ce que || Je is the subject; the pronoun is the object of aimer: ce que. || @tags fr.relative-pronouns
+      fill: Dis-moi ___ tu penses de cette série. || ce que || Tu is the subject: ce que. || @tags fr.relative-pronouns
+      fill: Je ne sais pas ___ s'est passé à la fin. || ce qui || The pronoun is the subject of s'est passé: ce qui. || @tags fr.relative-pronouns
+      mc: "Elle adore ___ se passe en Bretagne." || tout ce que | *tout ce qui | tout qui || The pronoun is the subject of se passe: tout ce qui. || @tags fr.relative-pronouns
+      mc: Choose the correct sentence. || Qu'est-ce que j'ai préféré, c'est l'actrice. | *Ce que j'ai préféré, c'est l'actrice. | Ce qui j'ai préféré, c'est l'actrice. || Not a question, and j' is the subject: ce que. || @tags fr.relative-pronouns
+      mc: "Un rebondissement" is… || *a plot twist | a sequel | a trailer || A sequel is une suite; a trailer is une bande-annonce. || @skill vocabulary @tags fr.vocabulary
+      tf: Moussa found the pace of the film too slow. || true || "Le rythme était trop lent. Je me suis ennuyé au milieu." || @ctx dialogue
+      short: How many stars would Moussa give the film? || kw: 3/trois/three || "Je lui mettrais trois étoiles sur cinq." || @ctx dialogue
+      listen: @dialogue || What bothered Jade? || *The dinner scene, which was far too long | The lead actress | The music || "Ce qui m'a gênée, c'est la scène du dîner." || @tags fr.listening
+      listen: Ce que j'ai adoré dans cette série, c'est que chaque épisode se passe dans une ville différente. || What did the speaker love about the series? || *Each episode takes place in a different town. | The episodes are very short. | The actors are unknown. || "Chaque épisode se passe dans une ville différente." || @tags fr.listening,fr.relative-pronouns
+      rw: Rewrite with "Ce qui…, c'est…" :: La musique m'a ému. || Ce qui m'a ému, c'est la musique. | Ce qui m'a émue, c'est la musique. || The music is the subject of ému: ce qui… c'est la musique. || @tags fr.relative-pronouns
+      tr: What surprised me was the ending. || Ce qui m'a surpris, c'est la fin. | Ce qui m'a surprise, c'est la fin. || The ending is the subject of surprendre: ce qui. || @tags fr.relative-pronouns
+      dict: Je ne comprends pas ce qui plaît tant dans cette série. || ce qui
+      ask: Talk about a film or series you saw recently — one thing you liked and one thing you didn't — using ce qui and ce que. || kw: ce qui/ce que/ce qu' & c'est/c'était/ce sont || J'ai regardé une série policière. Ce qui m'a plu, c'est le personnage principal. Ce que je n'ai pas aimé, c'est la fin, trop rapide.
+
+  - title: Books and music
+    summary: Read a library's recommendations of the month and use dont to talk about books, music and the people who create them.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [fr.relative-pronouns]
+    objectives:
+      - Present a book or an album with the right vocabulary
+      - Use dont with verbs and expressions built with de (parler de, se souvenir de, avoir besoin de)
+      - Use dont to mean "whose" and ce dont to mean "what"
+    intro: |
+      *Le livre dont tout le monde parle. Une autrice dont le premier roman a reçu un prix. Tout ce dont on rêve.* When you present a book, an album or an artist, you often need the relative pronoun **dont**. It replaces **de** + noun, and it is also the French equivalent of *whose*. It's the last of the four basic relative pronouns: qui, que, où — and dont.
+    vocab: |
+      un coup de cœur | a favourite; something you fall in love with | n | Ce roman est mon coup de cœur de l'année. | This novel is my favourite of the year. | g: m | pl: des coups de cœur
+      une autrice | a (female) author | n | C'est une autrice canadienne. | She's a Canadian author. | g: f | n: Masculine: un auteur. Also used: une auteure.
+      un personnage | a character | n | Les personnages sont très attachants. | The characters are very endearing. | g: m
+      l'intrigue | the plot | n | L'intrigue se passe en Normandie, dans les années 1950. | The plot is set in Normandy in the 1950s. | g: f
+      une œuvre | a work (of art, literature) | n | Ses œuvres ont été traduites en vingt langues. | Her works have been translated into twenty languages. | g: f
+      emprunter | to borrow | v | J'ai emprunté trois livres à la médiathèque. | I borrowed three books from the library. | c: emprunter quelque chose à quelqu'un | n: Prêter = to lend.
+      la médiathèque | the (multimedia) public library | n | La médiathèque prête aussi des films et des jeux. | The library also lends films and games. | g: f
+      les paroles | the lyrics | n | Les paroles de cette chanson sont très poétiques. | The lyrics of this song are very poetic. | g: f
+      un tube | a hit (song) | n | Cette chanson est devenue un tube cet été. | This song became a hit this summer. | g: m | n: Informal.
+      un recueil | a collection (of poems, stories) | n | Elle publie un recueil de nouvelles. | She's publishing a collection of short stories. | g: m
+      hériter de | to inherit | v | Il a hérité de la maison de son oncle. | He inherited his uncle's house.
+      dévorer un livre | to devour a book | expr | J'ai dévoré ce roman en un week-end. | I devoured this novel in one weekend.
+    grammar:
+      title: The relative pronoun dont
+      body: |
+        **Dont** replaces **de + noun** in a relative clause. Use it with verbs and expressions built with *de*: *parler de, se souvenir de, avoir besoin de, avoir envie de, rêver de, être fier de*.
+
+        - *On parle de ce livre.* → *C'est le livre **dont** on parle.*
+        - *Elle se souvient à peine de cette maison.* → *la maison **dont** elle se souvient à peine*
+
+        **Dont** also means **whose** (possession with *de*): *Le premier roman **de cette autrice** a reçu un prix.* → *une autrice **dont** le premier roman a reçu un prix*. After *dont*, keep the normal order: *l'autrice **dont** j'ai lu **le** roman* (not ~~son roman~~).
+
+        It can also mean *among them*: *des personnages, **dont** certains sont inoubliables*.
+
+        **Ce dont** = *what* with verbs + de: ***Ce dont** j'ai besoin, c'est de calme. Tout **ce dont** on rêve.*
+
+        Compare: *le livre **que** j'ai lu* (lire quelque chose) / *le livre **dont** j'ai parlé* (parler **de** quelque chose).
+      table: |
+        Verb / meaning | Sentence with de | With dont
+        parler de | On parle de ce livre. | C'est le livre dont on parle.
+        se souvenir de | Je me souviens de cette chanson. | la chanson dont je me souviens
+        avoir besoin de | J'ai besoin de ce dictionnaire. | le dictionnaire dont j'ai besoin
+        être fier de | Je suis fier de ce projet. | le projet dont je suis fier
+        possession (whose) | Le roman de cette autrice a gagné un prix. | l'autrice dont le roman a gagné un prix
+      examples: |
+        C'est le groupe dont je t'ai parlé. | It's the band I told you about. | parler de
+        J'ai rencontré un musicien dont les parents sont aussi musiciens. | I met a musician whose parents are also musicians. | whose
+        Voici le livre dont j'ai besoin pour mon cours. | Here's the book I need for my course. | avoir besoin de
+        Ce dont je me souviens, c'est la voix de la chanteuse. | What I remember is the singer's voice. | ce dont
+      tip: "Look for de: if the verb or expression needs de (parler de, avoir besoin de, se souvenir de), the relative pronoun is dont."
+    reading:
+      title: Les coups de cœur de la médiathèque
+      text: |
+        Les coups de cœur de la médiathèque — novembre
+
+        Le roman du mois : « La Maison aux volets bleus », d'Hélène Marchal
+
+        C'est le livre dont tout le monde parle à la médiathèque depuis la rentrée ! Hélène Marchal, une autrice dont le premier roman avait déjà reçu plusieurs prix, raconte l'histoire de Louise, une femme de quarante ans qui hérite de la maison de sa grand-mère, en Normandie. Dans cette maison dont elle se souvient à peine, elle découvre une boîte pleine de lettres jamais envoyées. Ce qu'elle y apprend va bouleverser sa vie… et celle de toute sa famille.
+
+        Ce qui nous a plu ? L'écriture, simple et précise, et les personnages, dont certains sont inoubliables, comme le vieux voisin pêcheur. C'est un roman dont on a du mal à sortir : nous l'avons dévoré en deux soirées !
+
+        L'album du mois : « Escales », du groupe Trois Rives
+
+        Trois Rives, c'est un trio lyonnais dont la musique mélange chanson française, jazz et sons électroniques. Leur deuxième album, dont la chanson « Partir en mars » passe déjà à la radio, parle de voyages, de départs et de tout ce dont on rêve sans jamais oser le faire. La voix de la chanteuse, Aïssata Koné, est magnifique, et les paroles sont pleines de poésie. Nous sommes très fiers d'accueillir le groupe en concert gratuit à la médiathèque, le samedi 23 novembre !
+
+        Le roman et l'album sont disponibles au prêt. Réservez-les en ligne ou à l'accueil !
+      translation: |
+        The library's favourites — November
+
+        Novel of the month: "The House with the Blue Shutters", by Hélène Marchal
+
+        It's the book everyone at the library has been talking about since September! Hélène Marchal, an author whose first novel had already won several prizes, tells the story of Louise, a forty-year-old woman who inherits her grandmother's house in Normandy. In this house, which she barely remembers, she discovers a box full of letters that were never sent. What she learns from them will turn her life upside down… and that of her whole family.
+
+        What did we like? The writing, simple and precise, and the characters, some of whom are unforgettable, like the old fisherman next door. It's a novel that's hard to put down: we devoured it in two evenings!
+
+        Album of the month: "Stopovers", by the band Trois Rives
+
+        Trois Rives is a trio from Lyon whose music mixes French chanson, jazz and electronic sounds. Their second album, whose song "Leaving in March" is already on the radio, is about travel, departures and everything we dream of without ever daring to do it. The singer Aïssata Koné's voice is magnificent, and the lyrics are full of poetry. We're very proud to welcome the band for a free concert at the library on Saturday 23 November!
+
+        The novel and the album are available to borrow. Reserve them online or at the front desk!
+    pronunciation:
+      title: "Dont, œuvre, autrice"
+      body: |
+        *Dont* is pronounced [dɔ̃], with a nasal vowel and a silent **t**. Before a vowel, a liaison in [t] is often made: *le livre dont on parle* [dɔ̃.tɔ̃.paʁl]. Don't confuse *dont* with *donc* [dɔ̃k].
+
+        *Une œuvre* is [y.nœvʁ]: round your lips for [œ] and keep the final *-vre* very short. In *autrice* [o.tʁis], the first syllable is a closed [o], as in *auto*.
+      items: |
+        dont
+        le livre dont on parle
+        ce dont j'ai besoin
+        une œuvre
+        une autrice
+        les paroles
+    culture:
+      title: Médiathèques et prix littéraires
+      body: |
+        Almost every French town has a *médiathèque*, a public library that lends books, films, music and games, often free of charge or for a small yearly fee, and organises readings and concerts. Every autumn, the literary prize season — the best known being the *prix Goncourt*, awarded in early November — boosts book sales. Since 1981, the price of new books has been fixed by the publisher, so shops can only offer a very small discount.
+    mistakes: |
+      C'est le livre que tout le monde parle. => C'est le livre dont tout le monde parle. | Parler de → dont, not que.
+      C'est l'autrice dont j'ai lu son roman. => C'est l'autrice dont j'ai lu le roman. | Dont already expresses possession: use le, not son.
+      Ce que j'ai besoin, c'est de calme. => Ce dont j'ai besoin, c'est de calme. | Avoir besoin de → ce dont.
+    task:
+      title: My favourite of the month
+      mode: writing
+      body: |
+        Write a short presentation (80–100 words) of a book or an album you love, for the library newsletter in this lesson. Say what it is about, who created it and why you love it. Use *dont* at least twice (*un livre dont…, un chanteur dont la voix…*) and *ce qui* or *ce que* at least once.
+    exercises: |
+      fill: Voici le dictionnaire ___ j'ai besoin pour mon cours. || dont || Avoir besoin de → dont. || @tags fr.relative-pronouns
+      fill: C'est un chanteur ___ je connais toutes les chansons. || dont || Possession: les chansons de ce chanteur → dont. || @tags fr.relative-pronouns
+      fill: La ville ___ je me souviens le mieux, c'est Lisbonne. || dont || Se souvenir de → dont. || @tags fr.relative-pronouns
+      fill: Le roman ___ j'ai lu cet été était passionnant. || que || Lire quelque chose (no de): the direct object pronoun is que. || @tags fr.relative-pronouns
+      mc: "C'est un projet ___ je suis très fier." || que | *dont | où || Être fier de → dont. || @tags fr.relative-pronouns
+      mc: "Ce ___ j'ai envie, c'est d'un week-end tranquille." || que | qui | *dont || Avoir envie de → ce dont. || @tags fr.relative-pronouns
+      mc: What does Louise find in her grandmother's house? || *A box of letters that were never sent | A family photo album | An old piano || "Elle découvre une boîte pleine de lettres jamais envoyées." || @ctx reading @tags fr.reading
+      tf: The band Trois Rives comes from Lyon. || true || "Un trio lyonnais." || @ctx reading
+      short: When is the free concert at the library? || kw: 23/samedi/saturday/vingt-trois || "Le samedi 23 novembre." || @ctx reading
+      listen: J'ai emprunté le recueil de poèmes dont tu m'as parlé : je l'ai dévoré en une soirée ! || What did the speaker think of the book? || *They loved it and read it in one evening. | They didn't finish it. | They found it boring. || "Je l'ai dévoré en une soirée !" || @tags fr.listening,fr.relative-pronouns
+      rw: Join the sentences with "dont" :: J'ai acheté un album. Tout le monde parle de cet album. || J'ai acheté un album dont tout le monde parle. || Parler de cet album → dont. || @tags fr.relative-pronouns
+      rw: Join the sentences with "dont" :: C'est une autrice. Le dernier roman de cette autrice est un succès. || C'est une autrice dont le dernier roman est un succès. || Possession (le roman de cette autrice) → dont + le dernier roman. || @tags fr.relative-pronouns
+      tr: This is the book I told you about. || C'est le livre dont je t'ai parlé. | Voici le livre dont je t'ai parlé. | C'est le livre dont je vous ai parlé. | Voici le livre dont je vous ai parlé. || Parler de → dont; English drops "that", French never drops dont. || @tags fr.relative-pronouns
+      dict: Ce dont j'ai besoin, c'est d'un bon roman et d'une tasse de thé. || ce dont
+      ask: Present a book, a song or an album you love, using dont at least once. || kw: dont & livre/roman/album/chanson/groupe/chanteur/chanteuse/auteur/autrice/série/BD || Mon album préféré, c'est le dernier disque d'une chanteuse belge dont la voix est incroyable. Ce sont des chansons dont les paroles parlent de son enfance à Liège.
+
+  - title: Recommending and retelling a story
+    summary: Retell the beginning of a story with the imparfait, the passé composé and the plus-que-parfait, and recommend it without giving away the ending.
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [fr.imparfait-vs-pc, fr.plus-que-parfait]
+    objectives:
+      - Summarise a plot in the present and retell a story in the past
+      - Combine the imparfait, the passé composé and the plus-que-parfait in a narration
+      - Recommend a book, film or series and react to someone's recommendation
+    intro: |
+      *Ça raconte quoi ?* — the classic question when someone recommends a book or a series. You can answer in the **present** (*c'est l'histoire d'une fille qui vit sur une île…*), or tell it like a story in the **past**, using the three tenses you now know: the imparfait for the situation, the passé composé for the events and the plus-que-parfait for what had happened before. This lesson puts everything together.
+    vocab: |
+      une BD | a comic book; a graphic novel | n | Je lis des BD depuis que je suis petit. | I've been reading comics since I was little. | g: f | n: Short for une bande dessinée.
+      ça raconte… | it's about… | expr | Ça raconte l'histoire d'un pêcheur breton. | It's about a Breton fisherman. | n: Also: ça parle de…
+      l'héroïne | the heroine; the main (female) character | n | L'héroïne est une jeune pilote. | The heroine is a young pilot. | g: f | n: Masculine: le héros (no liaison or elision: le héros).
+      un dessinateur | an illustrator; a comic artist | n | Le dessinateur a mis trois ans à finir cette BD. | The artist took three years to finish this comic. | g: m | n: Feminine: une dessinatrice.
+      se dérouler | to take place; to unfold | v | L'histoire se déroule sur une île bretonne. | The story takes place on a Breton island.
+      disparaître | to disappear | v | Son père a disparu pendant la guerre. | Her father disappeared during the war. | n: Past participle: disparu.
+      s'échouer | to run aground; to be washed up | v | Un bateau s'est échoué sur la plage. | A boat ran aground on the beach.
+      deviner | to guess | v | On ne devine jamais la fin ! | You never guess the ending!
+      ça vaut le coup | it's worth it | expr | Le film est long, mais ça vaut le coup. | The film is long, but it's worth it. | n: Also: ça vaut la peine.
+      à lire absolument | a must-read | expr | Cette BD est à lire absolument ! | This comic is a must-read! | n: Also: à voir absolument (film), à écouter absolument (album).
+      absorbé | absorbed; engrossed | adj | Elle était tellement absorbée par son livre qu'elle a raté son arrêt. | She was so engrossed in her book that she missed her stop. | n: Feminine: absorbée.
+      prêter | to lend | v | Tu me prêtes ton roman quand tu l'as fini ? | Will you lend me your novel when you've finished it?
+    grammar:
+      title: "Retelling a story: present summary and past narration"
+      body: |
+        There are two natural ways to retell a story in French.
+
+        **1. The present** — to summarise the plot of a book, a film or a series: *C'est l'histoire d'Anouk, une fille qui **vit** sur une île. Un jour, un bateau **arrive**…* This is the most common choice in reviews and conversations.
+
+        **2. The past** — to tell it like a story. The three tenses work together:
+        - **imparfait**: the situation and descriptions — *Anouk **vivait** seule avec son père. Il y **avait** une tempête.*
+        - **passé composé**: the events that move the story forward — *Un jour, un bateau **s'est échoué** sur la plage.*
+        - **plus-que-parfait**: what had happened **before** the story starts — *Sa mère **avait disparu** en mer. Elle n'**avait** jamais **quitté** l'île.*
+
+        Narrative markers guide the listener: *au début, un jour, à ce moment-là, alors, ensuite, à la fin.* To recommend: *Je te la conseille. Ça vaut le coup. C'est à lire absolument !* And to protect the suspense: *Ne me dis pas la fin !*
+      table: |
+        Tense | Role in the story | Example
+        imparfait | the situation, descriptions | Anouk vivait seule avec son père.
+        plus-que-parfait | what had happened before | Sa mère avait disparu en mer.
+        passé composé | the events | Un jour, un bateau s'est échoué sur la plage.
+        présent | a plot summary | C'est l'histoire d'une fille qui vit sur une île.
+      examples: |
+        Au début, le héros était un simple serveur à Marseille. | At the beginning, the hero was a simple waiter in Marseille. | imparfait: situation
+        Il avait quitté l'école à seize ans pour aider sa mère. | He had left school at sixteen to help his mother. | plus-que-parfait: before the story
+        Un soir, une cliente a oublié une valise au restaurant. | One evening, a customer left a suitcase behind at the restaurant. | passé composé: event
+        Ça raconte l'histoire d'une famille qui part vivre au Canada. | It's about a family who go to live in Canada. | present: summary
+      tip: "To summarise a plot, the present is the most natural choice. To tell it like an anecdote, use the three past tenses — and stop before the ending!"
+    dialogue:
+      title: Une BD à lire absolument
+      setting: A train between Nantes and Paris. Omar notices that his friend Lucie hasn't looked up from her comic book for an hour.
+      speakers: O=Omar/m; L=Lucie/f
+      lines: |
+        O: Tu lis quoi ? Tu as l'air complètement absorbée ! | What are you reading? You look completely engrossed!
+        L: Une BD géniale, « L'Île aux mille vents ». Je te la conseille vraiment ! | A brilliant comic, "The Island of a Thousand Winds". I really recommend it!
+        O: Ah oui ? Ça raconte quoi ? | Oh yes? What's it about?
+        L: C'est l'histoire d'Anouk, une fille qui vivait seule avec son père sur une île. | It's the story of Anouk, a girl who lived alone with her father on an island.
+        L: Elle n'avait jamais quitté l'île, parce que sa mère avait disparu en mer. | She had never left the island, because her mother had disappeared at sea.
+        O: Oh, c'est triste… Et qu'est-ce qui se passe ensuite ? | Oh, that's sad… And what happens next?
+        L: Un jour, pendant une tempête, un bateau inconnu s'est échoué sur la plage. | One day, during a storm, an unknown boat ran aground on the beach.
+        L: À bord, il y avait un vieil homme qui connaissait le secret de sa mère. | On board was an old man who knew her mother's secret.
+        O: Et alors ? Non, attends, ne me dis pas la fin ! | And then? No, wait, don't tell me the ending!
+        L: Promis, je ne te la dévoile pas ! Mais les dessins sont magnifiques. | I promise I won't give it away! But the drawings are magnificent.
+        O: Tu me la prêtes quand tu l'as finie ? | Will you lend it to me when you've finished it?
+        L: Bien sûr ! Ce que j'aime, c'est qu'on ne devine jamais ce qui va arriver. | Of course! What I love is that you can never guess what's going to happen.
+    pronunciation:
+      title: Storytelling rhythm
+      body: |
+        When you tell a story, slow down on the key moments and pause slightly after markers like *Un jour…* or *À ce moment-là…*. Listeners react with a rising *Et alors ?*
+
+        Listen to the tense endings: *elle vivait* [vi.vɛ] (imparfait), *sa mère avait disparu* [a.vɛ.dis.pa.ʁy] (plus-que-parfait), *un bateau s'est échoué* [sɛ.te.ʃwe] (passé composé, with a liaison in [t]).
+      items: |
+        elle vivait sur une île
+        sa mère avait disparu
+        un jour
+        un bateau s'est échoué
+        et alors ?
+        ça vaut le coup
+    culture:
+      title: La BD, le neuvième art
+      body: |
+        In France and Belgium, comics are taken very seriously: *la bande dessinée* is often called *le neuvième art*. Adults read them as much as children, and graphic novels on history, science or society are bestsellers. Every January, the town of Angoulême hosts one of the world's biggest comics festivals, where the most prestigious prizes in the field are awarded.
+    mistakes: |
+      C'était l'histoire d'une fille qui a vécu sur une île. => C'était l'histoire d'une fille qui vivait sur une île. | The situation in a story is described in the imparfait.
+      Elle n'a jamais quitté l'île parce que sa mère a disparu. (before the story starts) => Elle n'avait jamais quitté l'île parce que sa mère avait disparu. | For what had happened before the story begins, use the plus-que-parfait.
+      Le film est long, mais ça vaut la coup. => Le film est long, mais ça vaut le coup. | The expression is valoir le coup (masculine).
+    task:
+      title: Book club in two minutes
+      mode: speaking
+      body: |
+        Choose a book, film or series you love. In about two minutes, retell its beginning in the past — the situation (imparfait), what had happened before (plus-que-parfait) and the first events (passé composé) — then stop before the ending and say why it's worth it (*ça vaut le coup, c'est à voir absolument*). Then recommend it in the "Discussing hobbies" scenario with the AI coach.
+    exercises: |
+      fill: C'était l'histoire d'un homme qui ___ (vivre) seul dans la montagne. || vivait || The situation in a story: imparfait (nous vivons → vivait). || @tags fr.imparfait-vs-pc,fr.imparfait
+      fill: Un soir, quelqu'un ___ (frapper) à sa porte. || a frappé || An event that moves the story forward: passé composé. || @tags fr.imparfait-vs-pc
+      fill: Il n'___ jamais ___ (voir) la mer avant ce voyage. || avait ; vu || Before the story: plus-que-parfait, with jamais between the auxiliary and the participle. || @tags fr.plus-que-parfait
+      fill: Quand elle est rentrée, son frère ___ déjà ___ (partir). || était ; parti || The departure happened before her return: plus-que-parfait with être. || @tags fr.plus-que-parfait
+      mc: Which tense describes the situation at the start of a story told in the past? || passé composé | *imparfait | plus-que-parfait || The imparfait describes the situation; the plus-que-parfait goes back to what had happened before. || @tags fr.imparfait-vs-pc
+      mc: "Ça vaut le coup." This means… || *It's worth it. | It costs a lot. | It's a big hit. || Valoir le coup = to be worth it. || @skill vocabulary @tags fr.vocabulary
+      tf: Anouk's mother had disappeared at sea. || true || "Sa mère avait disparu en mer." || @ctx dialogue
+      short: What arrived on the island during the storm? || kw: bateau/boat/ship || "Un bateau inconnu s'est échoué sur la plage." || @ctx dialogue
+      listen: @dialogue || What does Omar ask Lucie at the end? || *To lend him the comic when she has finished it | To tell him the ending | To buy him a copy || "Tu me la prêtes quand tu l'as finie ?" || @tags fr.listening
+      listen: Au début du film, le héros travaillait dans une banque. Un jour, il a gagné au loto et il a tout quitté. || What happened one day? || *He won the lottery and left everything. | He lost his job at the bank. | He met his future wife. || "Un jour, il a gagné au loto et il a tout quitté." || @tags fr.listening,fr.imparfait-vs-pc
+      rw: Tell the story in the past :: Elle habite à Paris. Un jour, elle reçoit une lettre. || Elle habitait à Paris. Un jour, elle a reçu une lettre. || The situation in the imparfait; the event introduced by un jour in the passé composé. || @tags fr.imparfait-vs-pc
+      tr: She had never left her village before. || Elle n'avait jamais quitté son village avant. | Elle n'avait jamais quitté son village auparavant. | Elle n'était jamais partie de son village avant. || Had never left = plus-que-parfait: n'avait jamais quitté. || @tags fr.plus-que-parfait
+      dict: Au début, personne ne savait que le vieil homme avait connu sa mère. || avait connu
+      ask: Recommend a book, film or series to a friend — say what it's about and why it's worth it, without giving away the ending. || kw: c'est l'histoire/ça raconte/ça parle & conseille/recommande/vaut le coup/absolument || Je te conseille la série « Les Saisonniers ». Ça raconte l'histoire de jeunes qui travaillent tout l'été dans un hôtel à la montagne. C'est drôle et touchant, ça vaut vraiment le coup !
+      write: Retell the beginning of a story you like in about 100 words, using the three past tenses. Stop before the ending! || min=80 || req: c'était/il y avait/vivait/habitait/était | un jour/soudain/tout à coup/à ce moment-là | avait/avaient || C'était l'histoire de Malik, un jeune boulanger qui habitait dans un petit village des Alpes. Il avait repris la boulangerie de son grand-père, qui était mort l'hiver précédent. Tous les matins, il se levait à quatre heures. Un jour, une femme qu'il n'avait jamais vue est entrée dans la boutique. Elle lui a donné une vieille photo de son grand-père… avec une petite fille que personne ne connaissait. À ce moment-là, Malik a compris que sa famille avait un secret. La suite ? Lis le livre !

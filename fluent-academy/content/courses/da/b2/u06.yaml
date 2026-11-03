@@ -1,0 +1,368 @@
+unit: 6
+title: Kunst og kultur
+theme: Arts and culture
+description: Talk about art, read about Denmark's cultural heritage and get the joke — with compound words (linking -s- and -e-, gender from the last part), formal versus everyday register, and irony, understatement and fixed expressions.
+objectives:
+  - Build and understand compound words, with linking letters and the gender of the last part
+  - Recognise formal written register and switch between formal and everyday Danish
+  - Understand and use irony, understatement and common fixed expressions
+canDo:
+  - I can describe a work of art and say what it means to me.
+  - I can understand a formal text about a historical site and retell it informally.
+  - I can recognise when a Dane is being ironic or understated.
+  - I can use common idioms correctly in conversation.
+review: |
+  mc: Which article does "museumsbutik" take? || *en | et | den || A compound takes the gender of its last part: en butik → en museumsbutik. || @tags da.compound-words,da.gender
+  fill: Hun har malet et ___. (landskab + maleri) || landskabsmaleri || After -skab the linking -s- is used: landskabs-maleri, written as one word. || @tags da.compound-words
+  mc: Which sentence is written correctly? || *Vi besøgte et kunstmuseum. | Vi besøgte et kunst museum. | Vi besøgte et kunst-museum. || Danish compounds are written as one word without a hyphen. || @tags da.compound-words,da.spelling
+  fill: Stenen blev rejst af kongen til minde om ___ hustru. (his) || hans || The subject is stenen; kongen is only in the af-phrase, so sin is impossible: hans. || @tags da.reflexive-possessive
+  mc: Which word belongs to formal written register? || *modtage | få | snuppe || Modtage is the formal word for få (receive); snuppe is very informal (grab). || @tags da.register
+  rw: Rewrite in everyday Danish :: Kunderne bedes henvende sig ved kassen. || Spørg ved kassen. | Du kan spørge ved kassen. | Gå op til kassen. | Gå hen til kassen. || Replace bedes henvende sig with an everyday verb and address the reader directly. || @tags da.register
+  fill: Han tager bare gas ___ dig — han mener det ikke. || på || The idiom is tage gas på nogen (pull someone's leg). || @tags da.vocabulary
+  mc: Your friend says "Det er lidt køligt i dag" when it's minus fifteen. This is… || *an understatement | an exaggeration | a complaint about the heating || Saying much less than you mean is a typical Danish understatement. || @tags da.vocabulary
+  listen: Skulpturen i parken forestiller en kvinde, der læser, og den blev lavet af en lokal kunstner til minde om byens første bibliotekar. || What does the sculpture depict? || *A woman reading | A librarian at work | A local artist || "Skulpturen … forestiller en kvinde, der læser." || @tags da.listening,da.compound-words
+  listen: Den nye udstilling var ikke så ringe — jeg var der i tre timer og glemte helt at spise frokost. || What did the speaker think of the exhibition? || *It was very good | It was boring | It was too long || "Ikke så ringe" is an understatement, and the speaker forgot lunch. || @tags da.listening,da.vocabulary
+  ask: Describe a museum, a building or a work of art you know, using at least three compound words. || kw: kunst/maleri/udstilling/museum/kunstværk/bygning || Mit yndlingsmuseum er et lille kunstmuseum ved havnen. Der hænger mange landskabsmalerier, og i museumsbutikken kan man købe postkort. Om sommeren er der udstillinger i skulpturhaven.
+  write: Write a short formal text (5–7 sentences) for a museum leaflet about a work of art or a monument, then add one informal sentence recommending it to a friend. || min=50 || req: blev | besøgende/benytte/til minde om/udstilling || Statuen blev rejst i 1912 til minde om byens fiskere. Den blev udført af billedhuggeren Anna Holm og står i dag på torvet. Besøgende kan benytte museets app for at høre statuens historie. Statuen blev restaureret i 2019. Museet modtager gerne grupper efter aftale. Og til dig: Tag forbi en solskinsdag — den er virkelig flot!
+lessons:
+  - title: Talking about art
+    summary: Talk about paintings, installations and exhibitions, and build compound words — kunstværk, landskabsmaleri, udstillingskatalog — with the right linking letter and gender.
+    minutes: 50
+    skills: [vocabulary, speaking, listening]
+    tags: [da.compound-words, da.gender, da.spelling]
+    objectives:
+      - Form and spell compound words, with or without linking -s- and -e-
+      - Take the gender and plural of a compound from its last part
+      - Describe a work of art and say what it means to you
+    intro: |
+      Denmark has a rich art scene, from the Golden Age paintings at the National Gallery in Copenhagen to modern art museums by the sea. Talking about art in Danish means using lots of compound words: *kunstværk, landskabsmaleri, udstillingskatalog*. In this lesson Camilla, an art lover, and her friend Tobias, a sceptic, walk through an exhibition — and you'll learn how Danish builds compounds and why they must be written as one word.
+    vocab: |
+      et maleri | a painting | n | Maleriet hænger på museet i Skagen. | The painting hangs in the museum in Skagen. | g: n | pl: malerier
+      forestille | to depict; to represent | v | Hvad forestiller billedet? | What does the picture depict? | n: Past: forestillede. Not the same as forestille sig (imagine).
+      en kunstner | an artist | n | Kunstneren arbejder mest med glas og lys. | The artist works mostly with glass and light. | g: c | pl: kunstnere
+      et kunstværk | a work of art | n | Kunstværket blev købt af et museum i Aarhus. | The artwork was bought by a museum in Aarhus. | g: n | pl: kunstværker
+      en udstilling | an exhibition | n | Udstillingen er åben til slutningen af marts. | The exhibition is open until the end of March. | g: c | pl: udstillinger
+      en installation | an installation | n | Installationen fylder et helt rum. | The installation fills a whole room. | g: c | pl: installationer
+      afbilde | to depict; to portray | v | Guldalderens malere afbildede den danske natur. | The Golden Age painters portrayed Danish nature. | n: Past: afbildede. En afbildning = a depiction.
+      abstrakt | abstract | adj | Jeg har svært ved abstrakt kunst. | I find abstract art difficult. | n: Et-words: abstrakt; plural: abstrakte.
+      et selvportræt | a self-portrait | n | Hun malede over tredive selvportrætter. | She painted over thirty self-portraits. | g: n | pl: selvportrætter
+      give mening | to make sense | expr | Værket giver først mening, når man kender historien. | The work only makes sense once you know the story.
+    grammar:
+      title: "Compound words: kunstværk, landskabsmaleri, barnevogn"
+      body: |
+        Danish builds new words by joining existing ones, and a compound is written as **one word**: *kunst + værk → kunstværk*. Writing it as two words (*særskrivning*) is a spelling mistake that can change the meaning: *lammefrikadeller* (lamb meatballs) vs. *lamme frikadeller* (paralysed meatballs).
+
+        **Gender and plural come from the last part:** *et værk → et kunstværk*, *en butik → en museumsbutik*, *et glas → vandglassene*.
+
+        **Linking letters.** Sometimes the parts are joined with a short **-s-** or **-e-**:
+        - **-s-** is very common after first parts ending in *-ing, -else, -hed, -skab, -tion* and after *museum*: *udstilling**s**katalog, landskab**s**maleri, museum**s**butik*.
+        - **-e-** appears after some short nouns: *barn**e**vogn, hund**e**snor, jul**e**gave*. When the first part is a verb, it often keeps its infinitive -e: *drikkevand, spisebord*.
+        - Many compounds have no linking letter: *kunstværk, vandglas, havudsigt*.
+
+        There is no complete rule, so learn compounds as whole words. To understand a new long compound, read it **from the right**: the last part tells you what it is, the parts before it describe it. *Kunstmuseumsbutik* = a shop (butik) in an art museum (kunstmuseum).
+      table: |
+        Parts | Compound | Link
+        kunst + værk | et kunstværk | —
+        landskab + maleri | et landskabsmaleri | -s-
+        udstilling + katalog | et udstillingskatalog | -s-
+        museum + butik | en museumsbutik | -s-
+        barn + vogn | en barnevogn | -e-
+        drikke + vand | drikkevand | verb + noun
+      examples: |
+        Vi købte et postkort i museumsbutikken. | We bought a postcard in the museum shop. | museum + s + butik
+        Kunstværket blev købt af et privat museum. | The artwork was bought by a private museum. | et værk → et kunstværk
+        Hun maler mest landskabsmalerier og selvportrætter. | She mostly paints landscapes and self-portraits. | landskab + s + maleri
+        Udstillingen handler om drikkevand og vandmangel. | The exhibition is about drinking water and water shortage. | drikke + vand; vand + mangel
+      tip: "Read a long compound from the right: the last part is the thing itself, and everything before it describes it."
+    dialogue:
+      title: Blå streger
+      setting: An exhibition of contemporary Danish art at a museum north of Copenhagen. Camilla loves modern art; her friend Tobias is not so sure.
+      speakers: C=Camilla/f; T=Tobias/m
+      lines: |
+        T: Ærligt talt, Camilla — hvad forestiller det her maleri? Det ligner bare nogle blå streger. | Honestly, Camilla — what does this painting depict? It just looks like some blue lines.
+        C: Det er et landskabsmaleri. Prøv at træde et par skridt tilbage, så kan du se havet og horisonten. | It's a landscape painting. Try stepping back a few paces, then you can see the sea and the horizon.
+        T: Okay, nu kan jeg se det. Men hvorfor maler kunstneren ikke bare et rigtigt landskab? | OK, now I can see it. But why doesn't the artist just paint a real landscape?
+        C: Fordi hun vil vise, hvordan det føles at stå ved havet, og ikke hvordan det ser ud. | Because she wants to show how it feels to stand by the sea, and not what it looks like.
+        T: Hm. Jeg foretrækker nu guldaldermalerierne på Statens Museum for Kunst. Der kan man se hvert eneste blad på træerne. | Hm. I still prefer the Golden Age paintings at the National Gallery. There you can see every single leaf on the trees.
+        C: De er også fantastiske. Men de blev malet i en tid, hvor kunstnerne skulle afbilde virkeligheden. | They're fantastic too. But they were painted at a time when artists were expected to depict reality.
+        T: Og hvad med installationen i næste rum? Den med de hundrede vandglas på gulvet? | And what about the installation in the next room? The one with the hundred water glasses on the floor?
+        C: Ifølge udstillingskataloget handler den om vandmangel. Hvert glas kommer fra en by, hvor der mangler drikkevand. | According to the exhibition catalogue, it's about water shortage. Each glass comes from a city that lacks drinking water.
+        T: Det havde jeg aldrig gættet. Så kunstværket giver først mening, når man kender historien bag? | I'd never have guessed that. So the artwork only makes sense when you know the story behind it?
+        C: Ofte, ja. Men det er også fint bare at kunne lide farverne. Kunst skal ikke altid forstås. | Often, yes. But it's also fine just to like the colours. Art doesn't always have to be understood.
+        T: Så er jeg lettet. Skal vi slutte af i museumsbutikken? Jeg vil gerne købe et postkort med havmaleriet. | Then I'm relieved. Shall we finish in the museum shop? I'd like to buy a postcard of the sea painting.
+    pronunciation:
+      title: "Hearing the linking -s- and -e-"
+      body: |
+        The linking letters in compounds are short and unstressed, but they must be heard — they are part of the word: *landskabs-maleri*, *udstillings-katalog*, *barne-vogn*. The main stress stays on the first part: *LANDskabsmaleri, BARnevogn, KUNSTværk*. In *museumsbutik* the first part keeps its own stress: *mu-SE-ums-butik*.
+
+        Listen and repeat — say each compound as one word, without a pause between the parts.
+      items: |
+        landskabsmaleri
+        udstillingskatalog
+        barnevogn
+        kunstværk
+        museumsbutikken
+    culture:
+      title: The Golden Age and Skagen
+      body: |
+        The first half of the 1800s is known as Denmark's **guldalder** (Golden Age), when painters such as C.W. Eckersberg and Christen Købke painted precise, light-filled scenes of Copenhagen and the Danish countryside. Later in the century, artists gathered in Skagen at the northern tip of Jutland, drawn by the special light; P.S. Krøyer and Anna and Michael Ancher are the best known of the **Skagensmalerne**.
+    mistakes: |
+      et kunst værk => et kunstværk | Compounds are written as one word in Danish.
+      en kunstværk => et kunstværk | A compound takes the gender of its last part: et værk.
+      et landskabmaleri => et landskabsmaleri | After -skab the linking -s- is needed: landskabs-.
+    task:
+      title: My favourite work of art
+      mode: speaking
+      body: |
+        Choose a painting, sculpture, building or installation that you like — or strongly dislike. In one to two minutes, describe what it depicts, what it's made of, its colours and what it makes you feel. Use at least five compound words, and check their gender (en or et?) before you start.
+    exercises: |
+      fill: Vi købte et postkort i ___. (museum + butik, definite) || museumsbutikken || Museum + s + butik; butik is an en-word, so the definite form is museumsbutikken. || @tags da.compound-words,da.definite
+      fill: Hun har malet et ___ af sig selv. (self-portrait) || selvportræt || Selv + portræt = et selvportræt, written as one word. || @tags da.compound-words
+      mc: Which article does "landskabsmaleri" take? || *et | en | den || The last part is et maleri, so it's et landskabsmaleri. || @tags da.compound-words,da.gender
+      mc: Which word is spelled correctly? || *udstillingskatalog | udstilling katalog | udstillingkatalog || One word, with the linking -s- after -ing. || @tags da.compound-words,da.spelling
+      mc: What is "en drikkevandsforsyning"? || *a drinking water supply | a drinking competition | water for plants || Read from the right: forsyning (supply) of drikkevand (drinking water). || @tags da.compound-words @skill vocabulary
+      tf: Tobias prefers the Golden Age paintings. || true || "Jeg foretrækker nu guldaldermalerierne på Statens Museum for Kunst." || @ctx dialogue
+      short: What is the installation with the water glasses about? || kw: vandmangel/water shortage/shortage/drikkevand/drinking water || "Ifølge udstillingskataloget handler den om vandmangel." || @ctx dialogue
+      listen: @dialogue || What does Tobias want to buy? || *A postcard of the sea painting | The exhibition catalogue | A water glass || "Jeg vil gerne købe et postkort med havmaleriet." || @tags da.listening
+      listen: Udstillingen med kunstnerens selvportrætter er blevet forlænget til slutningen af marts på grund af den store interesse. || Why has the exhibition been extended? || *Because of the great interest | Because the artist asked for it | Because the museum is closing || "…på grund af den store interesse." || @tags da.listening,da.compound-words
+      rw: Make one compound word :: et museum for kunst || et kunstmuseum || The describing part comes first: kunst + museum; the gender comes from museum (et). || @tags da.compound-words
+      tr: The artwork only makes sense when you know the story behind it. || Kunstværket giver først mening, når man kender historien bag. | Kunstværket giver først mening, når man kender historien bag det. | Kunstværket giver først mening, når man kender historien bagved. || Give mening = make sense; først = only (not until). || @tags da.compound-words
+      ask: Describe a work of art you like — what it depicts and how it makes you feel. Use at least three compound words. || kw: maleri/kunstværk/billede/skulptur/installation & forestiller/viser/handler om || Mit yndlingskunstværk er et landskabsmaleri fra Skagen. Det forestiller to kvinder på stranden en sommeraften. Farverne gør mig glad og lidt melankolsk på samme tid.
+      write: Write a short review (6–8 sentences) of an exhibition or a work of art for a culture website. || min=60 || req: udstilling/maleri/kunstværk/kunstner | forestiller/viser/handler om || Den nye udstilling på kunstmuseet i Holstebro viser værker af en ung grønlandsk kunstner. De fleste værker er store installationer af træ, sten og lys. Det største værk forestiller et isbjerg, der langsomt smelter. Udstillingen handler om klimaforandringer, men den er aldrig belærende. Jeg blev især grebet af et lille selvportræt i det sidste rum. Udstillingen er et besøg værd.
+      dict: Kunstværket giver først mening, når man kender historien bag.
+
+  - title: Cultural heritage
+    summary: Read a formal text about the Jelling monuments, recognise formal written register (benytte, modtage, hustru, til minde om) and retell it in everyday Danish.
+    minutes: 50
+    skills: [reading, vocabulary, writing]
+    tags: [da.register, da.reflexive-possessive, da.reading]
+    objectives:
+      - Recognise formal register — formal verbs and nouns, passives, set phrases
+      - Switch between formal and everyday Danish
+      - Use hans, not sin, when the person is only in an af-phrase
+    intro: |
+      The two runestones in Jelling are among the most important monuments in Danish history — the larger one is often called Denmark's baptismal certificate. Texts about heritage, like museum guides and official websites, are written in a formal register that differs from everyday speech. In this lesson you'll read about Jelling, learn to recognise formal Danish and practise retelling it the way you'd tell a friend.
+    vocab: |
+      et fortidsminde | an ancient monument | n | Danmark har tusindvis af fredede fortidsminder. | Denmark has thousands of protected ancient monuments. | g: n | pl: fortidsminder
+      en runesten | a runestone | n | Runestenen er over tusind år gammel. | The runestone is over a thousand years old. | g: c | pl: runesten
+      en gravhøj | a burial mound | n | De to gravhøje kan ses på lang afstand. | The two burial mounds can be seen from far away. | g: c | pl: gravhøje
+      en verdensarv | a World Heritage site | n | Kronborg Slot er også på listen over verdensarv. | Kronborg Castle is also on the World Heritage list. | g: c | n: UNESCO's verdensarvsliste = the World Heritage List.
+      til minde om | in memory of | expr | Stenen blev rejst til minde om en dronning. | The stone was raised in memory of a queen. | n: Formal; also: mindes nogen (remember someone).
+      en hustru | a wife (formal) | n | Kongen rejste stenen efter sin hustru. | The king raised the stone for his wife. | g: c | pl: hustruer | n: Everyday Danish: kone.
+      en indskrift | an inscription | n | Indskriften er skrevet med runer. | The inscription is written in runes. | g: c | pl: indskrifter
+      vidne om | to bear witness to; to show | v | Monumenterne vidner om en tid med store forandringer. | The monuments bear witness to a time of great change. | n: Past: vidnede om. Formal.
+      benytte | to use (formal) | v | Besøgende bedes benytte de afmærkede stier. | Visitors are requested to use the marked paths. | n: Past: benyttede. Everyday Danish: bruge.
+      bevare | to preserve | v | Stenene skal bevares for eftertiden. | The stones must be preserved for posterity. | n: Past: bevarede. En bevaring = preservation.
+    grammar:
+      title: "Register: formal written and everyday Danish"
+      body: |
+        The gap between written and spoken Danish is fairly small, but official texts, museum guides, contracts and formal letters use a more formal register. Typical features:
+
+        - **Formal verbs** instead of everyday ones: *benytte* (bruge), *modtage* (få), *anskaffe* (købe), *henvende sig* (spørge, kontakte), *påbegynde* (begynde på).
+        - **Formal nouns:** *hustru* (kone), *bopæl* (hjem, adresse), *ophold* (besøg), *forespørgsel* (spørgsmål).
+        - **Passives and bedes** instead of du: *Besøgende **bedes** benytte stierne.* (After bedes, the infinitive has no at.)
+        - **Nominal style and set phrases:** *til minde om, vidne om, i henhold til*.
+
+        Everyday Danish prefers common verbs, du or man, particle verbs and modal particles: *Husk lige at bruge stierne!*
+
+        Neither register is better — choose the one that fits. A text message in formal style sounds cold or comic; a job application in chatty style sounds careless.
+
+        **Sin or hans in passive sentences.** Sin, sit and sine refer to the grammatical **subject**. In a passive sentence the doer is only in the af-phrase, so use hans/hendes: *Stenen blev rejst af Gorm til minde om **hans** hustru.* Compare the active: *Gorm rejste stenen til minde om **sin** hustru.*
+      table: |
+        Formal | Everyday | English
+        benytte | bruge | use
+        modtage | få | receive
+        anskaffe | købe | acquire, buy
+        henvende sig til | spørge, kontakte | contact, turn to
+        påbegynde | begynde på, gå i gang med | begin
+        en hustru | en kone | a wife
+        et ophold | et besøg | a stay
+      examples: |
+        Besøgende bedes benytte de afmærkede stier. | Visitors are requested to use the marked paths. | formal: bedes, benytte
+        Husk at bruge stierne! | Remember to use the paths! | everyday
+        Stenen blev rejst af Gorm til minde om hans hustru. | The stone was raised by Gorm in memory of his wife. | passive: hans, not sin
+        Gorm rejste stenen til minde om sin hustru. | Gorm raised the stone in memory of his wife. | active: sin refers to the subject Gorm
+      tip: "To make a formal text everyday: swap the formal verb for a common one, turn passives into active sentences with du or man, and unpack the nominal phrases."
+    reading:
+      title: Jellingmonumenterne – Danmarks dåbsattest
+      text: |
+        Jellingmonumenterne – Danmarks dåbsattest
+
+        I den lille by Jelling nord for Vejle findes nogle af Danmarks vigtigste fortidsminder. Monumenterne består af to store gravhøje, to runesten og en kirke, og i 1994 blev de optaget på UNESCO's liste over verdensarv.
+
+        Den mindste af runestenene blev rejst af kong Gorm den Gamle til minde om hans hustru, Thyra. Indskriften fortæller, at Gorm rejste stenen efter sin kone, og den nævner Danmark ved navn.
+
+        Den største sten blev rejst omkring år 965 af Gorms søn, Harald Blåtand, til minde om hans forældre. På stenen står der, at Harald vandt hele Danmark og Norge og gjorde danerne kristne. Derfor betegnes stenen ofte som Danmarks dåbsattest. Den bærer desuden en af de ældste kendte afbildninger af Kristus i Skandinavien.
+
+        Monumenterne vidner således om en afgørende periode i landets historie: overgangen fra den gamle nordiske tro til kristendommen og samlingen af Danmark som ét rige.
+
+        Arkæologiske udgravninger har i de seneste årtier vist, at anlægget var langt større end tidligere antaget. En kraftig palisade af træ omgav et område på mere end tolv hektar, og mellem højene lå en skibssætning af store sten, der var over 350 meter lang. I dag er palisadens forløb markeret i landskabet, så besøgende kan få et indtryk af anlæggets størrelse.
+
+        Runestenene har stået udendørs i over tusind år og er derfor præget af vejr og vind. For at bevare dem for eftertiden blev de i 2011 placeret i klimakontrollerede glasmontrer. Den største sten var oprindeligt malet i stærke farver, og i det nærliggende oplevelsescenter kan man se en rekonstruktion af, hvordan den kan have set ud.
+
+        Jellingmonumenterne betragtes i dag som et nationalt symbol, og de besøges hvert år af et stort antal skoleklasser og turister fra ind- og udland.
+      translation: |
+        The Jelling monuments – Denmark's baptismal certificate
+
+        In the small town of Jelling, north of Vejle, are some of Denmark's most important ancient monuments. The monuments consist of two large burial mounds, two runestones and a church, and in 1994 they were added to UNESCO's World Heritage List.
+
+        The smaller of the runestones was raised by King Gorm the Old in memory of his wife, Thyra. The inscription says that Gorm raised the stone for his wife, and it mentions Denmark by name.
+
+        The larger stone was raised around the year 965 by Gorm's son, Harald Bluetooth, in memory of his parents. The stone says that Harald won all of Denmark and Norway and made the Danes Christian. That is why the stone is often described as Denmark's baptismal certificate. It also bears one of the oldest known depictions of Christ in Scandinavia.
+
+        The monuments thus bear witness to a decisive period in the country's history: the transition from the old Norse religion to Christianity and the unification of Denmark as one kingdom.
+
+        Archaeological excavations in recent decades have shown that the site was far larger than previously assumed. A massive wooden palisade surrounded an area of more than twelve hectares, and between the mounds lay a ship setting of large stones that was over 350 metres long. Today the line of the palisade is marked in the landscape, so that visitors can get an impression of the size of the site.
+
+        The runestones stood outdoors for over a thousand years and are therefore marked by wind and weather. To preserve them for posterity, they were placed in climate-controlled glass cases in 2011. The larger stone was originally painted in strong colours, and in the nearby visitor centre you can see a reconstruction of how it may have looked.
+
+        Today the Jelling monuments are regarded as a national symbol, and every year they are visited by large numbers of school classes and tourists from Denmark and abroad.
+    pronunciation:
+      title: "Old names: Jelling, Thyra, Harald Blåtand"
+      body: |
+        Historical names follow normal Danish pronunciation rules. In *Jelling* the J sounds like English "y". In *Thyra* the h is silent: "TY-ra". In *Harald* and *Blåtand* the final d is silent: "HA-ral", "BLÅ-tan". *Gorm den Gamle* has the stress on *Gorm* and *Gam-*.
+
+        Listen and repeat — these names come up whenever Danes talk about the Viking Age.
+      items: |
+        Jelling
+        Gorm den Gamle
+        Thyra
+        Harald Blåtand
+        runestenene
+    mistakes: |
+      Stenen blev rejst af Gorm til minde om sin kone. => Stenen blev rejst af Gorm til minde om hans kone. | Sin refers to the grammatical subject (stenen); Gorm is only in the af-phrase, so use hans.
+      Vi påbegynder festen klokken otte! (to friends) => Vi går i gang med festen klokken otte! | Påbegynde is formal; in an invitation to friends it sounds stiff or comic.
+      Besøgende bedes at benytte stierne. => Besøgende bedes benytte stierne. | After bedes, the infinitive has no at.
+    task:
+      title: Two registers
+      mode: writing
+      body: |
+        Choose a historical site, building or object from your own country. Write two short texts about it: first a formal one for a museum website (5–6 sentences, with passives and at least three formal words), then an informal message to a friend recommending a visit (3–4 sentences). Compare the two and underline the words you changed.
+    exercises: |
+      mc: Which word is the formal equivalent of "bruge"? || *benytte | betragte | bevare || Benytte = use (formal); betragte = regard; bevare = preserve. || @tags da.register @skill vocabulary
+      mc: Which sentence is in formal written register? || *Besøgende bedes benytte de afmærkede stier. | Husk lige at bruge stierne, ikke? | Brug nu stierne, folkens! || Bedes + benytte and the impersonal besøgende are formal; the others are chatty. || @tags da.register
+      fill: Stenen blev rejst af Harald til minde om ___ forældre. (his) || hans || The subject is stenen; Harald is only in the af-phrase, so sine is impossible. || @tags da.reflexive-possessive,da.passive
+      fill: Harald rejste stenen til minde om ___ forældre. (his own) || sine || Now Harald is the subject, and forældre is plural: sine. || @tags da.reflexive-possessive
+      rw: Rewrite in everyday Danish :: Besøgende bedes henvende sig i informationen. || Spørg i informationen. | Du kan spørge i informationen. | Gå hen til informationen. | Kontakt informationen. || Replace bedes henvende sig with an everyday verb and talk to the reader directly. || @tags da.register
+      tf: The runestones were put into glass cases to protect them. || true || "For at bevare dem for eftertiden blev de i 2011 placeret i klimakontrollerede glasmontrer." || @ctx reading
+      mc: Why is the larger stone called Denmark's baptismal certificate? || *It says that Harald made the Danes Christian | It was found inside a church | It lists the names of baptised children || "…gjorde danerne kristne. Derfor betegnes stenen ofte som Danmarks dåbsattest." || @ctx reading @skill reading @tags da.reading
+      short: Who raised the smaller runestone, and in memory of whom? || kw: Gorm & Thyra || Gorm the Old raised it in memory of his wife Thyra. || @ctx reading
+      listen: Det bemærkes, at museet er lukket for besøgende i forbindelse med restaureringen af hovedbygningen. || What does the announcement say? || *The museum is closed while the main building is restored | The museum has new opening hours | The restoration is finished || "…lukket for besøgende i forbindelse med restaureringen af hovedbygningen." || @tags da.listening,da.register
+      rw: Rewrite in formal register :: Du kan hente billetterne ved indgangen. || Billetterne kan afhentes ved indgangen. | Billetter kan afhentes ved indgangen. | Billetterne udleveres ved indgangen. | Billetter udleveres ved indgangen. || Use the passive and a formal verb (afhentes, udleveres) instead of du + hente. || @tags da.register,da.passive
+      tr: The stone was raised in memory of his wife. || Stenen blev rejst til minde om hans hustru. | Stenen blev rejst til minde om hans kone. || Passive (blev rejst) + til minde om; hans because the subject is stenen. || @tags da.reflexive-possessive,da.passive
+      ask: Tell a friend about a historical place you have visited — in relaxed, everyday Danish. || kw: var/besøgte/så/tog & gammel/gamle/historie/historisk/vikinger || Sidste sommer var jeg i Jelling med mine børn. Vi så de to runesten — de står i store glaskasser nu. Børnene løb op ad gravhøjene, og bagefter var vi inde i det nye museum. Det var faktisk ret spændende.
+      write: Write a short formal text (5–7 sentences) for a museum website about a historical site or object in your country. || min=50 || req: blev/bliver/er blevet | besøgende/benytte/til minde om/bevare || Tårnet blev opført i 1620 til minde om byens grundlægger. Det blev restaureret i 1990'erne og fremstår i dag som oprindeligt. Fra toppen har besøgende udsigt over hele bugten. Besøgende bedes benytte trappen i nordsiden. Tårnet er åbent fra april til oktober. Grupper bedes henvende sig på forhånd.
+      dict: Den største sten blev rejst af Harald Blåtand til minde om hans forældre.
+
+  - title: Humour and wordplay
+    summary: Get the joke — understand Danish irony and understatement, puns built on compounds, and fixed expressions such as tage gas på nogen and grine sig flækket.
+    minutes: 45
+    skills: [listening, vocabulary, speaking]
+    tags: [da.vocabulary, da.compound-words, da.register]
+    objectives:
+      - Recognise irony and understatement and respond appropriately
+      - Use common fixed expressions with the right preposition or reflexive pronoun
+      - Explain wordplay based on compounds and særskrivning
+    intro: |
+      Danish humour is often dry: people say the opposite of what they mean, or much less than they mean, with a completely straight face. For newcomers this can be confusing — is "Det var ikke så ringe" praise or criticism? In this lesson Kirsten explains last night's summer revue to her Scottish colleague David, and you'll learn the irony, understatement and fixed expressions that make Danish humour tick.
+    vocab: |
+      en revy | a revue | n | Om sommeren går mange danskere i revy. | In summer many Danes go to a revue. | g: c | pl: revyer
+      et ordspil | a pun; wordplay | n | Sketchen var fuld af ordspil. | The sketch was full of wordplay. | g: n | pl: ordspil
+      en ironi | irony | n | Han sagde det med tydelig ironi. | He said it with obvious irony. | g: c | n: No plural. Ironisk = ironic.
+      en underdrivelse | an understatement | n | "Lidt køligt" var lidt af en underdrivelse. | "A bit chilly" was something of an understatement. | g: c | pl: underdrivelser
+      tør | dry | adj | Hun har en meget tør humor. | She has a very dry sense of humour. | n: Et-words: tørt; plural: tørre.
+      tage gas på | to pull someone's leg | expr | Du tager gas på mig, ikke? | You're pulling my leg, aren't you? | n: Always på: tage gas på nogen.
+      tværtimod | on the contrary | adv | Jeg var ikke skuffet — tværtimod! | I wasn't disappointed — quite the opposite!
+      bogstaveligt | literally | adv | Man skal ikke tage det bogstaveligt. | You shouldn't take it literally.
+      grine sig flækket | to laugh one's head off | expr | Vi grinede os flækket af sketchen. | We laughed our heads off at the sketch. | n: Reflexive: jeg griner mig, vi griner os flækket.
+      en særskrivning | a split compound (spelling mistake) | n | Skiltet var et klassisk eksempel på særskrivning. | The sign was a classic example of a split compound. | g: c | pl: særskrivninger
+    grammar:
+      title: "Irony, understatement and fixed expressions"
+      body: |
+        Danish humour relies heavily on **irony** (saying the opposite of what you mean) and **understatement** (saying much less than you mean). Some understatements are almost fixed phrases:
+
+        - *Det er ikke så ringe. / Det er ikke dårligt.* = It's really good.
+        - *Det var lidt af en oplevelse.* = It was quite an experience.
+        - *Det er lidt køligt i dag.* (on a freezing day)
+
+        Irony is signalled by context and tone — often a flat voice, sometimes with *da* or *nu*: *Det var **da** en dejlig sommer* (said in a rainy August).
+
+        **Fixed expressions** can't be translated word for word. Learn them as units, including their prepositions and reflexive pronouns:
+        - *tage gas på nogen* (pull someone's leg)
+        - *tage noget med et gran salt* (take something with a pinch of salt)
+        - *grine sig flækket* (laugh one's head off) — reflexive: *jeg griner mig flækket*
+        - *have et glimt i øjet* (have a twinkle in one's eye — be joking)
+        - *slå to fluer med ét smæk* (kill two birds with one stone)
+        - *Det er ikke lige min kop te* (it's not my cup of tea)
+
+        Wordplay often uses compounds and særskrivning: *lammefrikadeller* (lamb meatballs) vs. *lamme frikadeller* (paralysed meatballs). Most idioms belong to everyday and neutral speech; avoid them in formal letters.
+      table: |
+        Expression | Literally | Meaning
+        Det er ikke så ringe. | It isn't so poor. | It's really good.
+        tage gas på nogen | take gas on someone | pull someone's leg
+        tage noget med et gran salt | take something with a grain of salt | not take it too seriously
+        grine sig flækket | laugh oneself split | laugh one's head off
+        slå to fluer med ét smæk | kill two flies with one swat | kill two birds with one stone
+        have et glimt i øjet | have a gleam in the eye | be joking, be playful
+      examples: |
+        Du tager gas på mig, ikke? | You're pulling my leg, aren't you? | idiom with på
+        Ved at cykle til arbejde slår jeg to fluer med ét smæk: motion og transport. | By cycling to work I kill two birds with one stone: exercise and transport. | idiom
+        Det var da et dejligt vejr til grillfesten! | What lovely weather for the barbecue! (said in pouring rain) | irony with da
+        Maden var ikke så ringe. | The food was really good. | understatement
+      tip: If a Dane says something surprisingly modest — or surprisingly enthusiastic — in a flat voice, check the context. It may be understatement or irony.
+    dialogue:
+      title: Dagen efter revyen
+      setting: The canteen of an IT company in Odense. Kirsten took her colleague David, who moved from Glasgow a year ago, to a summer revue the night before.
+      speakers: K=Kirsten/f; D=David/m
+      lines: |
+        K: Nå, hvad syntes du om revyen i går? Du så lidt forvirret ud i pausen. | Well, what did you think of the revue last night? You looked a bit confused in the interval.
+        D: Jeg grinede af sangene, men jeg forstod ikke halvdelen af ordspillene. Hvorfor grinede alle af skiltet med "lamme frikadeller"? | I laughed at the songs, but I didn't understand half the wordplay. Why did everyone laugh at the sign saying "lamme frikadeller"?
+        K: Fordi der skulle have stået "lammefrikadeller" i ét ord. I to ord betyder det frikadeller, der ikke kan gå! | Because it should have said "lammefrikadeller" as one word. In two words it means meatballs that can't walk!
+        D: Ha! Så det var en joke om særskrivning. Den slags humor havde jeg ikke regnet med. | Ha! So it was a joke about split compounds. I hadn't expected that kind of humour.
+        K: Danskerne elsker at tage gas på hinanden og lege med sproget. Men det skal være med et glimt i øjet. | Danes love pulling each other's legs and playing with the language. But it has to be with a twinkle in the eye.
+        D: Og da du sagde "Det var ikke så ringe" bagefter, mente du så, at det var dårligt? | And when you said "Det var ikke så ringe" afterwards, did you mean it was bad?
+        K: Nej, tværtimod! Det betyder, at det var rigtig godt. Vi siger tit mindre, end vi mener. | No, quite the opposite! It means it was really good. We often say less than we mean.
+        D: Det er forvirrende. I Skotland har vi også en tør humor, men jeg troede, I mente det bogstaveligt. | That's confusing. In Scotland we have a dry sense of humour too, but I thought you meant it literally.
+        K: Tag det med et gran salt. Når en dansker siger, at det er lidt køligt, fryser hun sikkert helt vildt. | Take it with a pinch of salt. When a Dane says it's a bit chilly, she's probably freezing.
+        D: Okay, nu forstår jeg, hvorfor min nabo kaldte stormen i sidste uge "en frisk brise". | OK, now I understand why my neighbour called last week's storm "a fresh breeze".
+        K: Præcis! Du lærer hurtigt. Næste år skal du med igen — så griner du dig flækket. | Exactly! You learn fast. Next year you're coming again — then you'll laugh your head off.
+    pronunciation:
+      title: "Irony in the voice"
+      body: |
+        Ironic remarks are often said slowly and flatly, with a little extra weight on the positive word: *Det var da DEJLIGT.* The contrast between the cheerful word and the flat tone is what tells the listener it's ironic.
+
+        Understatement is said lightly and casually, as if it were nothing special: *Det var ikke så ringe.* Listen and repeat, and try both a sincere and an ironic version of the second item.
+      items: |
+        Det var ikke så ringe.
+        Det var da dejligt.
+        Du tager gas på mig.
+        Jeg grinede mig flækket.
+        Tag det med et gran salt.
+    culture:
+      title: Revy season
+      body: |
+        Every summer, revues (**revyer**) are performed all over Denmark, from big professional shows in Copenhagen to local amateur revues in village halls. They mix songs, sketches and satire about the past year — politicians, celebrities and everyday annoyances alike. Wordplay, self-irony and a good dose of nonsense are essential ingredients.
+    mistakes: |
+      Han tager gas af mig. => Han tager gas på mig. | The idiom is tage gas på nogen.
+      Jeg grinede flækket. => Jeg grinede mig flækket. | Grine sig flækket is reflexive.
+      Vi slog to fluer med en sten. => Vi slog to fluer med ét smæk. | Danish uses smæk (a swat); idioms don't translate word for word.
+    task:
+      title: Explain a joke
+      mode: speaking
+      body: |
+        Think of a joke, a pun or a funny sign from your own language or from Danish. Explain it in Danish in one to two minutes: what it says, why it's funny and whether it would work in Danish. Use at least two fixed expressions from the lesson, and finish with a Danish understatement about your own performance.
+    exercises: |
+      mc: A Danish colleague tastes your cake and says "Den er ikke så ringe." What does she mean? || *It's really good | It's rather bad | She hasn't decided yet || A typical understatement: "not so bad" means "really good". || @tags da.vocabulary
+      fill: Du tager gas ___ mig, ikke? || på || The idiom is tage gas på nogen. || @tags da.vocabulary
+      fill: Jeg grinede ___ flækket af sketchen. || mig || Grine sig flækket is reflexive: jeg griner mig flækket. || @tags da.vocabulary,da.reflexive
+      mc: What does "tage noget med et gran salt" mean? || *Not take something too seriously | Add salt to food | Be very angry about something || Like English "take it with a pinch of salt". || @tags da.vocabulary
+      mc: Which one is food made from lamb? || *lammefrikadeller | lamme frikadeller | Both mean the same. || Written as one word it's a compound (lamb meatballs); in two words, lamme is an adjective (paralysed). || @tags da.compound-words,da.spelling
+      tf: David understood all the wordplay in the revue. || false || "Jeg forstod ikke halvdelen af ordspillene." || @ctx dialogue
+      short: What did David's neighbour call last week's storm? || kw: frisk brise/fresh breeze/brise/breeze || "…min nabo kaldte stormen i sidste uge 'en frisk brise'." || @ctx dialogue
+      listen: @dialogue || According to Kirsten, what does "Det var ikke så ringe" mean? || *It was really good | It was terrible | It was quite cheap || "Nej, tværtimod! Det betyder, at det var rigtig godt." || @tags da.listening
+      listen: Det var da en fantastisk sommer — det regnede kun hver eneste dag i juli. || What does the speaker really mean? || *The summer was bad | The summer was fantastic | It only rained once in July || Irony: "kun hver eneste dag" shows that fantastisk means the opposite. || @tags da.listening,da.vocabulary
+      rw: Rewrite as a Danish understatement :: Maden var fantastisk. || Maden var ikke så ringe. | Maden var ikke dårlig. | Maden var ikke så dårlig. | Maden var slet ikke så ringe. || Say less than you mean: ikke så ringe / ikke dårlig. || @tags da.vocabulary
+      tr: You're pulling my leg! || Du tager gas på mig! | I tager gas på mig! | Du tager gas på mig. || Tage gas på nogen = pull someone's leg. || @tags da.vocabulary
+      ask: Tell a friend about something funny that happened to you. Use at least one fixed expression. || kw: grine/grinede/gas/flækket/glimt/fluer/salt/kop te || I går tog min søn gas på mig. Han sagde, at skolen var lukket på grund af sne — midt i maj! Vi grinede os flækket bagefter.
+      write: Write a short text (6–8 sentences) comparing humour in your culture with Danish humour. || min=60 || req: humor/ironi/sjov/grine | tør/ironi/underdrivelse/ordspil || I mit hjemland, Italien, er humoren mere direkte og højlydt. Danskerne bruger meget mere ironi og underdrivelse. Det tog mig et år at forstå, at "ikke så ringe" er ros. Min kollega har en meget tør humor, og i starten troede jeg, at han var sur. Nu griner vi os flækket sammen. Men ordspil på dansk er stadig svære for mig.
+      dict: Det betyder, at det var rigtig godt. Vi siger tit mindre, end vi mener.

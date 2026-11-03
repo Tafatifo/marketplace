@@ -1,0 +1,355 @@
+unit: 5
+title: Medier og overtalelse
+theme: Media and persuasion
+description: Check sources and rumours, see through advertising and write an opinion piece — with reported speech in the past (backshift, om, hvem der), reporting verbs (påstå, indrømme, opfordre til) and the language of argumentation.
+objectives:
+  - Report statements and questions in the past with backshift, om and hvem der / hvad der
+  - Choose reporting verbs that show attitude (påstå, indrømme, benægte, love, opfordre til)
+  - Build a written argument that concedes, counters and concludes
+canDo:
+  - I can report what a source, a post or a person said, and whether it was true.
+  - I can analyse what an advert claims and how it tries to persuade.
+  - I can deal fairly with a counter-argument and still make my point.
+  - I can write an opinion piece for a local newspaper.
+review: |
+  rw: Report it, starting "Han sagde, at…" :: "Vi kan ikke dokumentere det." || Han sagde, at de ikke kunne dokumentere det. || Backshift kan → kunne, vi → de, and ikke before the verb in the at-clause. || @tags da.reported-speech
+  fill: Hun spurgte, hvad ___ var sket. || der || When hvad is the subject of an indirect question, add der. || @tags da.reported-speech
+  fill: Jeg spurgte, ___ artiklen var troværdig. (whether) || om || Indirect yes/no questions are introduced by om. || @tags da.reported-speech
+  mc: Which reporting verb suggests that the speaker doubts the claim? || *påstod | bekræftede | understregede || Påstå (claim) signals doubt; bekræfte (confirm) and understrege (stress) don't. || @tags da.reported-speech
+  fill: Læreren opfordrede eleverne ___ at tjekke kilderne. || til || Opfordre nogen til at + infinitive. || @tags da.reported-speech
+  mc: Which phrase introduces a counter-argument? || *Man kan indvende, at… | Hertil kommer, at… | Alt i alt… || Indvende = object; hertil kommer adds an argument, alt i alt concludes. || @tags da.opinion
+  tr: Nevertheless, I think the proposal is good. || Ikke desto mindre synes jeg, at forslaget er godt. | Ikke desto mindre mener jeg, at forslaget er godt. | Jeg synes ikke desto mindre, at forslaget er godt. | Jeg mener ikke desto mindre, at forslaget er godt. || Ikke desto mindre in first position is followed by the verb. || @tags da.opinion,da.word-order
+  listen: Avisen skrev i går, at broen ville være lukket i en uge, men kommunen har nu bekræftet, at den åbner igen i morgen. || When will the bridge reopen? || *Tomorrow | In a week | It never closed || "Kommunen har nu bekræftet, at den åbner igen i morgen." || @tags da.listening,da.reported-speech
+  listen: Influenceren indrømmede, at hun var blevet betalt for at anbefale produktet, men hun benægtede, at hun havde skjult det. || What did the influencer deny? || *That she had hidden the payment | That she had been paid | That she had recommended the product || "…hun benægtede, at hun havde skjult det." || @tags da.listening,da.reported-speech
+  ask: Tell someone about a news story or rumour that turned out to be false. Report what was claimed and what was true. || kw: påstod/skrev/sagde/stod & at & var/havde/ville/kunne || Sidste år stod der på nettet, at en kendt sanger var død. Mange skrev, at de var chokerede. Men dagen efter sagde hans manager, at han havde det fint, og at historien var opdigtet.
+  write: Write a short opinion piece (8–10 sentences) on whether schools should teach source criticism from an early age. Include a counter-argument. || min=80 || req: for det første/hertil kommer/desuden | man kan indvende/det er rigtigt/andre vil sige | ikke desto mindre/alt i alt/derfor || Kildekritik bør stå på skemaet fra tredje klasse. For det første møder børn falske nyheder, så snart de får en telefon. Hertil kommer, at de sjældent kan se forskel på reklame og information. Man kan indvende, at skolen allerede har for mange fag. Det er rigtigt, men kildekritik kan sagtens indgå i dansk og samfundsfag. Ikke desto mindre kræver det, at lærerne får tid og uddannelse. Alt i alt er det en investering i fremtidens demokrati.
+lessons:
+  - title: Misinformation and media literacy
+    summary: Track down where a rumour came from and report what was said and asked — with backshift (er → var, har → havde), om and hvem der.
+    minutes: 50
+    skills: [grammar, listening, speaking]
+    tags: [da.reported-speech, da.subordinate-clauses]
+    objectives:
+      - Report statements in the past with backshift
+      - Report questions with om, question words and hvem der / hvad der
+      - Talk about how rumours spread and how to check a source
+    intro: |
+      A post claims the local swimming pool is closing; within hours a hundred people have shared it, and nobody has checked the source. Media literacy — *kildekritik* — means asking who said what, where it comes from and whether it is true. To retell what others said or wrote, you need reported speech in the past: *Der stod, at beslutningen var truffet. Hun spurgte, hvem der havde skrevet det.* At B1 you reported in the present; now you'll move everything one step back in time.
+    vocab: |
+      et opslag | a post (on social media) | n | Opslaget blev delt over tusind gange. | The post was shared over a thousand times. | g: n | pl: opslag | c: lægge et opslag op
+      dele | to share | v | Tjek kilden, før du deler noget. | Check the source before you share anything. | n: Past: delte.
+      en falsk nyhed | a fake news story | n | Falske nyheder spredes hurtigere end sande. | Fake news spreads faster than true news. | g: c | pl: falske nyheder
+      sprede | to spread | v | Rygtet spredte sig på få timer. | The rumour spread in a few hours. | n: Past: spredte. Sprede sig = spread (by itself).
+      henvise til | to refer to | v | Artiklen henviser til en rapport fra sidste år. | The article refers to a report from last year. | n: Past: henviste.
+      fordreje | to distort; to twist | v | Citatet var blevet fordrejet. | The quote had been twisted. | n: Past: fordrejede.
+      kildekritik | source criticism | n | Kildekritik er en vigtig del af undervisningen. | Source criticism is an important part of teaching. | g: c | n: No plural. Kildekritisk = critical of sources.
+      troværdig | credible; reliable | adj | Er hjemmesiden troværdig? | Is the website reliable? | n: Et-words: troværdigt. En troværdighed = credibility.
+      med vilje | on purpose | expr | Han fordrejede det ikke med vilje. | He didn't twist it on purpose.
+      stå bag | to be behind | v | Ingen ved, hvem der står bag siden. | Nobody knows who's behind the page. | n: Past: stod bag.
+    grammar:
+      title: "Reported speech in the past: backshift, om and hvem der"
+      body: |
+        When the reporting verb is in the past (*sagde, skrev, spurgte, der stod*), the verb in the reported clause usually moves one step back in time:
+
+        - present → past: *er → var, har → havde, vil → ville, kan → kunne, lukker → lukkede*
+        - past or perfect → past perfect: *lukkede / har lukket → havde lukket*
+
+        *"Beslutningen er truffet."* → *Der stod, at beslutningen **var** truffet.* If something is still true when you report it, the present is possible (*Hun sagde, at hun bor i Vejle*), but backshift is always safe.
+
+        Pronouns and time words change with the point of view: *i dag → den dag, i går → dagen før, i morgen → dagen efter / næste dag, her → der*.
+
+        **Reported questions.** Yes/no questions take **om** (never hvis): *Han spurgte, **om** beslutningen var truffet.* Question words stay: *Hun spurgte, hvor jeg havde det fra.* When the question word is the **subject**, add **der**: *Jeg spurgte, **hvem der** havde skrevet opslaget* · *hvad der var sket*.
+
+        All reported clauses have subordinate word order: ikke before the verb. *"Vi har ikke tid."* → *Han sagde, at de **ikke havde** tid.*
+      table: |
+        Direct speech | Reported in the past
+        "Svømmehallen lukker." | Der stod, at svømmehallen lukkede.
+        "Vi har ingen planer." | De sagde, at de ikke havde nogen planer.
+        "Vi vil renovere den." | De skrev, at de ville renovere den.
+        "Er beslutningen truffet?" | Han spurgte, om beslutningen var truffet.
+        "Hvem skrev opslaget?" | Hun spurgte, hvem der havde skrevet opslaget.
+      examples: |
+        Borgmesteren sagde, at kommunen ikke ville lukke svømmehallen. | The mayor said that the council would not close the swimming pool. | vil → ville; ikke before the verb
+        Artiklen påstod, at prisen var steget med halvtreds procent. | The article claimed that the price had risen by fifty per cent. | er steget → var steget
+        Journalisten spurgte, hvem der havde lækket dokumentet. | The journalist asked who had leaked the document. | hvem der
+        Hun sagde, at hun ville ringe dagen efter. | She said she would call the next day. | i morgen → dagen efter
+      tip: "Move the verb one step back and put ikke before it: \"Vi har ikke tid\" → Han sagde, at de ikke havde tid."
+    dialogue:
+      title: Rygtet om svømmehallen
+      setting: A Sunday lunch in Skive. Freja, a journalism student, asks her uncle Bent about a post he shared on social media.
+      speakers: F=Freja/f; B=Bent/m
+      lines: |
+        F: Bent, du delte et opslag i går om, at kommunen ville lukke svømmehallen. Hvor havde du det fra? | Bent, yesterday you shared a post saying the council was going to close the swimming pool. Where did you get it from?
+        B: En fra løbeklubben havde lagt det op. Der stod, at beslutningen allerede var truffet. | Someone from the running club had posted it. It said that the decision had already been made.
+        F: Jeg ringede til kommunen i morges. De sagde, at der ikke var nogen planer om at lukke den. | I rang the council this morning. They said there were no plans to close it.
+        B: Men opslaget henviste til et referat fra et møde. Det så meget officielt ud. | But the post referred to the minutes of a meeting. It looked very official.
+        F: Ja, men i referatet stod der kun, at man havde diskuteret, om svømmehallen skulle renoveres. | Yes, but the minutes only said that they had discussed whether the pool should be renovated.
+        B: Nå. Så nogen har altså misforstået det – eller fordrejet det med vilje? | Oh. So someone has misunderstood it — or twisted it on purpose?
+        F: Det ved jeg ikke. Jeg spurgte også, hvem der havde skrevet det første opslag, men det kunne ingen svare på. | I don't know. I also asked who had written the first post, but nobody could tell me.
+        B: Det er pinligt. Næsten hundrede mennesker har delt det, og mange skrev, at de var rasende. | That's embarrassing. Almost a hundred people have shared it, and lots of them wrote that they were furious.
+        F: Sådan spredes falske nyheder. Folk deler det, der gør dem vrede, uden at tjekke kilden. | That's how fake news spreads. People share what makes them angry without checking the source.
+        B: Du har ret. Jeg sletter mit opslag og skriver, at oplysningerne var forkerte. | You're right. I'll delete my post and write that the information was wrong.
+        F: God idé. Og næste gang spørger du dig selv, hvem der står bag, før du deler noget. | Good idea. And next time, ask yourself who's behind it before you share anything.
+    pronunciation:
+      title: "Silent g: sagde, lagde, spurgte"
+      body: |
+        The most common reporting verbs have silent letters in the past tense. In *sagde* and *lagde* the g is silent and the a sounds close to æ: "sæ-e", "læ-e". In *spurgte* the g is silent too: "spur-te".
+
+        In fast speech *sagde, at* runs together — the at is weak, almost just a vowel. Listen and repeat.
+      items: |
+        sagde
+        lagde op
+        spurgte
+        fortalte
+        Hun spurgte, hvem der havde skrevet det.
+    mistakes: |
+      Hun sagde, at hun har ikke tid. => Hun sagde, at hun ikke havde tid. | Backshift (har → havde) and ikke before the verb in the at-clause.
+      Han spurgte, hvem havde skrevet det. => Han spurgte, hvem der havde skrevet det. | When hvem is the subject of an indirect question, add der.
+      Jeg spurgte, hvis beslutningen var truffet. => Jeg spurgte, om beslutningen var truffet. | Indirect yes/no questions use om, not hvis.
+    task:
+      title: Fact-check a rumour
+      mode: speaking
+      body: |
+        Think of a rumour or a misleading headline you've come across. Retell the story in one to two minutes: what the post or headline claimed, what you (or a journalist) asked, and what the source said. Use backshift, om and hvem der / hvad der, and finish with one piece of advice about checking sources.
+    exercises: |
+      rw: Report it, starting "Hun sagde, at…" :: "Jeg har ikke tid i dag." || Hun sagde, at hun ikke havde tid den dag. | Hun sagde, at hun ikke havde tid i dag. || Backshift har → havde; ikke before the verb; i dag can become den dag. || @tags da.reported-speech
+      rw: Report the question, starting "Han spurgte, om…" :: "Er beslutningen truffet?" || Han spurgte, om beslutningen var truffet. | Han spurgte, om beslutningen var blevet truffet. || Yes/no question → om + subordinate clause, with backshift (er → var). || @tags da.reported-speech
+      fill: Journalisten spurgte, hvem ___ havde lækket dokumentet. || der || Hvem is the subject, so der is needed. || @tags da.reported-speech
+      fill: Borgmesteren sagde, at de ___ ___ planer om at lukke svømmehallen. (not + had) || ikke ; havde || Subordinate word order with backshift: ikke havde. || @tags da.reported-speech,da.negation
+      mc: "Vi vil renovere hallen." Reported in the past — De skrev, at de… || *ville renovere hallen | vil renoverede hallen | havde villet renovere hallen || Backshift vil → ville; the infinitive stays. || @tags da.reported-speech
+      tf: According to the minutes, the council had decided to close the pool. || false || The minutes only said they had discussed whether the pool should be renovated. || @ctx dialogue
+      short: What will Bent do about his post? || kw: slet/delete/remove/fjerne || "Jeg sletter mit opslag og skriver, at oplysningerne var forkerte." || @ctx dialogue
+      listen: @dialogue || According to Freja, why do fake news stories spread? || *People share things that make them angry without checking the source | Journalists invent stories | The council hides information || "Folk deler det, der gør dem vrede, uden at tjekke kilden." || @tags da.listening
+      listen: I går sagde ministeren, at reglerne ville blive ændret dagen efter, men i dag er der stadig ikke sket noget. || What is the situation? || *The rules haven't been changed yet | The rules were changed yesterday | The minister has resigned || "…i dag er der stadig ikke sket noget." || @tags da.listening,da.reported-speech
+      tr: She asked me where I had got it from. || Hun spurgte mig, hvor jeg havde det fra. | Hun spurgte, hvor jeg havde det fra. | Hun spurgte mig, hvor jeg havde fået det fra. | Hun spurgte, hvor jeg havde fået det fra. || The question word hvor stays; the clause has subordinate word order. || @tags da.reported-speech
+      ask: Report a rumour you have heard and what the source later said. || kw: sagde/skrev/stod/påstod & at & var/havde/ville/kunne || På arbejdet sagde en kollega, at kantinen ville lukke. Men da jeg spurgte chefen, sagde hun, at det ikke var rigtigt, og at kantinen kun skulle renoveres.
+      write: Write a short message (5–6 sentences) to a group chat correcting a false post you shared. || min=40 || req: skrev/stod/sagde | at | var/havde/ville || Hej allesammen. I går delte jeg et opslag, hvor der stod, at svømmehallen ville lukke. Jeg har talt med kommunen, og de sagde, at det ikke var rigtigt. De havde kun diskuteret, om hallen skulle renoveres. Jeg har slettet opslaget. Undskyld forvirringen!
+      dict: Der stod, at beslutningen allerede var truffet.
+
+  - title: Advertising and persuasion
+    summary: Analyse how adverts try to persuade, and report claims and promises with reporting verbs that show attitude — påstå, indrømme, love, opfordre til, advare mod.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [da.reported-speech, da.register]
+    objectives:
+      - Use reporting verbs with the right construction (at-clause, at + infinitive, om at, til at)
+      - Show your attitude through your choice of reporting verb
+      - Analyse the claims and techniques used in advertising
+    intro: |
+      "Danmarks grønneste", "klinisk testet", "kun i dag": adverts are full of claims, and Danish law says they must be documented. When you talk about what an advert — or a person — said, your choice of verb shows what you think: *Han **påstod**, at…* casts doubt, *Han **indrømmede**, at…* suggests reluctance. In this lesson two colleagues at an advertising agency in Copenhagen discuss a difficult client.
+    vocab: |
+      en reklame | an advert; advertising | n | Reklamen kører på alle kanaler i december. | The advert is running on all channels in December. | g: c | pl: reklamer
+      en påstand | a claim | n | Påstanden kunne ikke dokumenteres. | The claim couldn't be documented. | g: c | pl: påstande
+      dokumentere | to document; to substantiate | v | Alle påstande i en reklame skal kunne dokumenteres. | All claims in an advert must be documentable. | n: Past: dokumenterede.
+      overdrive | to exaggerate | v | Reklamen overdriver, hvor hurtigt cremen virker. | The advert exaggerates how quickly the cream works. | n: Irregular: overdrev, har overdrevet.
+      appellere til | to appeal to | v | Kampagnen appellerer til vores dårlige samvittighed. | The campaign appeals to our bad conscience. | n: Past: appellerede.
+      et budskab | a message | n | Hvad er reklamens hovedbudskab? | What is the advert's main message? | g: n | pl: budskaber
+      et mærke | a brand | n | Mange unge er loyale over for bestemte mærker. | Many young people are loyal to particular brands. | g: n | pl: mærker
+      skjult | hidden | adj | Skjult reklame er forbudt i Danmark. | Hidden advertising is prohibited in Denmark. | n: Et-words: skjult; plural: skjulte.
+      en målgruppe | a target group | n | Målgruppen er børnefamilier i forstæderne. | The target group is families with children in the suburbs. | g: c | pl: målgrupper
+      et udkast | a draft | n | Vi sender et nyt udkast i morgen. | We'll send a new draft tomorrow. | g: n | pl: udkast
+    grammar:
+      title: "Reporting verbs: påstå, indrømme, love, opfordre til"
+      body: |
+        Instead of always using *sagde*, choose a verb that shows how something was said — and how you judge it. Each verb has its own construction:
+
+        - **påstå / hævde** (claim) + at-clause — you signal doubt: *Han påstod, at følgerne ikke lagde mærke til det.*
+        - **indrømme** (admit), **benægte** (deny), **bekræfte** (confirm), **understrege** (stress), **nævne** (mention) + at-clause.
+        - **love** (promise) + at-clause or at + infinitive: *Jeg lovede at sende et udkast.*
+        - **insistere på, at…** (insist that).
+        - **bede nogen om at** + infinitive (ask someone to): *Han bad os om at ringe.*
+        - **opfordre nogen til at** + infinitive (urge someone to).
+        - **advare (nogen) mod / om** + noun (warn against / about): *Ombudsmanden advarede mod skjult reklame.*
+
+        A reported command becomes bede … om at: *"Send det i morgen!"* → *Han bad os om at sende det dagen efter.*
+
+        The at-clause keeps subordinate word order: *Han indrømmede, at de **ikke havde** lavet en sammenligning.*
+
+        Nuance: *sagde* is neutral; *påstod* suggests you don't believe it; *indrømmede* suggests it was awkward for the speaker; *understregede* shows that they found it important.
+      table: |
+        Verb | Construction | Example
+        påstå / hævde | at-clause | Han påstod, at det var Danmarks grønneste cykel.
+        indrømme / benægte | at-clause | Hun benægtede, at hun havde set mailen.
+        love | at-clause / at + infinitive | Jeg lovede at sende et udkast.
+        bede | nogen om at + infinitive | Han bad os om at ringe.
+        opfordre | nogen til at + infinitive | Kampagnen opfordrer folk til at cykle.
+        advare | mod / om + noun | Ombudsmanden advarede mod skjult reklame.
+      examples: |
+        Reklamen påstår, at cremen fjerner rynker på en uge. | The advert claims that the cream removes wrinkles in a week. | påstå: the speaker doubts it
+        Direktøren indrømmede, at tallene ikke var blevet kontrolleret. | The director admitted that the figures hadn't been checked. | indrømme + at-clause
+        Kampagnen opfordrer unge til at tjekke kilden, før de deler. | The campaign urges young people to check the source before they share. | opfordre til at
+        Hun bad mig om at slette opslaget. | She asked me to delete the post. | a reported request
+      tip: "Your reporting verb is itself a comment: påstod casts doubt, indrømmede suggests reluctance, understregede shows importance."
+    dialogue:
+      title: Danmarks grønneste elcykel?
+      setting: An advertising agency in Copenhagen. Copywriter Selma has just spoken on the phone to a client who sells electric bikes, and she briefs her colleague Mads.
+      speakers: S=Selma/f; M=Mads/m
+      lines: |
+        S: Kunden har ringet igen. Han insisterer på, at vi skriver "Danmarks grønneste elcykel" på plakaterne. | The client has called again. He insists that we write "Denmark's greenest e-bike" on the posters.
+        M: Kan han dokumentere det? Ellers kan vi ikke påstå det. Den slags påstande skal kunne bevises. | Can he document it? Otherwise we can't claim it. Claims like that have to be provable.
+        S: Det spurgte jeg ham om. Han indrømmede, at de ikke havde lavet nogen sammenligning med andre mærker. | I asked him that. He admitted that they hadn't made any comparison with other brands.
+        M: Så foreslår jeg, at vi i stedet fremhæver det, vi kan bevise — for eksempel at batteriet kan genbruges. | Then I suggest that we highlight what we can prove instead — for example, that the battery can be recycled.
+        S: Godt. Han nævnte også, at de vil betale en influencer for at vise cyklen frem. | Good. He also mentioned that they want to pay an influencer to show off the bike.
+        M: Fint, men så skal opslagene tydeligt markeres som reklame. Forbrugerombudsmanden har advaret mod skjult reklame mange gange. | Fine, but then the posts must be clearly marked as advertising. The Consumer Ombudsman has warned against hidden advertising many times.
+        S: Han påstod, at følgerne alligevel ikke lagde mærke til den slags. | He claimed that followers didn't notice that sort of thing anyway.
+        M: Det er netop derfor, reglerne findes. Folk skal kunne se, hvornår nogen prøver at sælge dem noget. | That's exactly why the rules exist. People must be able to see when someone is trying to sell them something.
+        S: Jeg lovede ham, at vi ville sende et nyt udkast i morgen. Hvad skal hovedbudskabet være? | I promised him we'd send a new draft tomorrow. What should the main message be?
+        M: Noget ærligt: "Til dig, der hellere vil cykle end holde i kø." Det appellerer til følelser uden at overdrive. | Something honest: "For you who'd rather cycle than sit in traffic." It appeals to feelings without exaggerating.
+        S: Fint. Og så understreger vi, at cyklen er produceret i Europa. Det har han jo selv bekræftet. | Fine. And then we stress that the bike is made in Europe. He confirmed that himself, after all.
+    pronunciation:
+      title: "Persuasive emphasis: virkelig, utrolig, helt"
+      body: |
+        Adverts and persuasive speech lean on intensifiers, and their stress is part of the effect. *Virkelig* is stressed on the first syllable, and the final g is silent: "VIR-ke-li". *Utrolig* is stressed on the second: "u-TRO-li". *Helt* has a short, sharp e.
+
+        In persuasive speech the intensifier often gets extra stress: *Det er HELT fantastisk.* Listen and repeat — and notice how much weight a single syllable can carry.
+      items: |
+        virkelig
+        utrolig
+        helt fantastisk
+        Det er virkelig utrolig godt.
+        Danmarks grønneste elcykel
+    mistakes: |
+      Han påstod, at følgerne lagde ikke mærke til det. => Han påstod, at følgerne ikke lagde mærke til det. | In the at-clause, ikke goes before the verb.
+      Hun bad mig at slette opslaget. => Hun bad mig om at slette opslaget. | Bede nogen om at + infinitive.
+      Kampagnen opfordrer folk at cykle. => Kampagnen opfordrer folk til at cykle. | Opfordre nogen til at + infinitive.
+    task:
+      title: Take an advert apart
+      mode: speaking
+      body: |
+        Choose an advert you've seen recently — on TV, on a bus shelter or on social media. In one to two minutes, report what it claims, promises or urges you to do (påstår, lover, opfordrer til), who the target group is and which feelings it appeals to. End by saying whether you believe it, and why.
+    exercises: |
+      fill: Direktøren ___, at tallene ikke var blevet kontrolleret. (admitted) || indrømmede || Indrømme (admit) + at-clause; past tense indrømmede. || @tags da.reported-speech
+      fill: Hun bad mig ___ at slette opslaget. || om || Bede nogen om at + infinitive. || @tags da.reported-speech
+      fill: Kampagnen opfordrer unge ___ at tjekke kilden. || til || Opfordre nogen til at + infinitive. || @tags da.reported-speech
+      mc: "Han påstod, at cyklen var Danmarks grønneste." What does påstod suggest? || *The speaker doubts the claim | The speaker agrees completely | The claim has been proven || Påstå signals that the reporter isn't convinced. || @tags da.reported-speech @skill vocabulary
+      mc: Which sentence is correct? || *Hun lovede at sende et nyt udkast. | Hun lovede for at sende et nyt udkast. | Hun lovede om at sende et nyt udkast. || Love + at + infinitive (or love, at + clause). || @tags da.reported-speech,da.infinitive
+      tf: The client can prove that his bike is Denmark's greenest. || false || "Han indrømmede, at de ikke havde lavet nogen sammenligning med andre mærker." || @ctx dialogue
+      short: What must happen if an influencer shows the bike? || kw: reklame/advert/advertising/markeres/marked/label || The posts must be clearly marked as advertising. || @ctx dialogue
+      listen: @dialogue || What did Selma promise the client? || *A new draft tomorrow | A lower price | A video with an influencer || "Jeg lovede ham, at vi ville sende et nyt udkast i morgen." || @tags da.listening
+      listen: Forbrugerombudsmanden advarer mod reklamer, der lover hurtigt vægttab uden dokumentation. || What does the Consumer Ombudsman warn against? || *Adverts that promise fast weight loss without evidence | All adverts for food | Adverts aimed at children || "…reklamer, der lover hurtigt vægttab uden dokumentation." || @tags da.listening,da.reported-speech
+      rw: Report the request, starting "Hun bad os om…" :: "Send udkastet i morgen!" || Hun bad os om at sende udkastet dagen efter. | Hun bad os om at sende udkastet næste dag. | Hun bad os om at sende udkastet i morgen. || An order becomes bede om at + infinitive; i morgen can become dagen efter. || @tags da.reported-speech
+      tr: The company denied that the figures were wrong. || Firmaet benægtede, at tallene var forkerte. | Virksomheden benægtede, at tallene var forkerte. | Firmaet afviste, at tallene var forkerte. | Virksomheden afviste, at tallene var forkerte. || Benægte (deny) + at-clause. || @tags da.reported-speech
+      ask: Describe an advert you've seen recently — what it claims, promises or urges people to do — and say whether you believe it. || kw: påstår/lover/hævder/opfordrer & at/til at || Der kører en reklame for en energidrik, som påstår, at man bliver mere koncentreret. Den opfordrer unge til at drikke den før eksamen. Jeg tror ikke på det — den lover alt for meget.
+      write: Write a short complaint (5–7 sentences) to a shop about a misleading advert. Report what it claimed. || min=50 || req: påstod/lovede/hævdede/skrev | at || Kære kundeservice. I jeres reklame påstod I, at madrassen ville forbedre min søvn på én uge. I lovede også, at jeg kunne returnere den gratis. Da jeg ringede, sagde en medarbejder, at returnering kostede fem hundrede kroner. Jeg finder det vildledende. Jeg beder jer om at hente madrassen uden beregning. Med venlig hilsen Mona Larsen
+      dict: Han indrømmede, at de ikke havde lavet nogen sammenligning.
+
+  - title: Writing an opinion piece
+    summary: Read an opinion piece about local journalism and learn to argue in writing — add arguments, concede a point, counter it and conclude (hertil kommer, man kan indvende, ikke desto mindre, alt i alt).
+    minutes: 55
+    skills: [reading, writing, grammar]
+    tags: [da.opinion, da.word-order, da.reading]
+    objectives:
+      - Structure an opinion piece with signposting phrases
+      - Concede and rebut a counter-argument fairly
+      - Emphasise with cleft sentences (Det var lokalavisen, der…)
+    intro: |
+      Danes love a good **debatindlæg** (opinion piece): local and national newspapers print thousands every year, written by teachers, students, pensioners and politicians. A convincing one takes the other side seriously before answering it. In this lesson you'll read a retired teacher's opinion piece arguing that local news is worth paying for, and learn the phrases that hold an argument together.
+    vocab: |
+      et debatindlæg | an opinion piece | n | Hun skrev et debatindlæg i lokalavisen om skolevejen. | She wrote an opinion piece in the local paper about the route to school. | g: n | pl: debatindlæg
+      en betalingsmur | a paywall | n | Artiklen ligger bag betalingsmuren. | The article is behind the paywall. | g: c | pl: betalingsmure
+      abonnere på | to subscribe to | v | Vi abonnerer på to aviser. | We subscribe to two newspapers. | n: Past: abonnerede. Et abonnement = a subscription.
+      indvende | to object | v | Man kan indvende, at det er for dyrt. | One might object that it's too expensive. | n: Past: indvendte. En indvending = an objection.
+      ikke desto mindre | nevertheless | expr | Ikke desto mindre er det det rigtige valg. | Nevertheless, it's the right choice. | n: In first position, followed by the verb.
+      hertil kommer | in addition; on top of that | expr | Hertil kommer, at mange aviser giver rabat. | On top of that, many newspapers give a discount. | n: Followed by an at-clause.
+      et lokalsamfund | a local community | n | Lokalavisen binder lokalsamfundet sammen. | The local paper holds the local community together. | g: n | pl: lokalsamfund
+      et rygte | a rumour | n | Rygtet viste sig at være forkert. | The rumour turned out to be wrong. | g: n | pl: rygter
+      afkræfte | to refute; to disprove | v | Journalisten fik afkræftet rygtet. | The journalist managed to disprove the rumour. | n: Past: afkræftede. Opposite: bekræfte.
+      en magthaver | a person in power | n | Pressen skal holde øje med magthaverne. | The press must keep an eye on those in power. | g: c | pl: magthavere
+      alt i alt | all in all | expr | Alt i alt er jeg tilfreds med forslaget. | All in all, I'm satisfied with the proposal. | n: In first position, followed by the verb.
+    grammar:
+      title: "Arguing in writing: concede, counter, conclude"
+      body: |
+        A Danish opinion piece usually presents the issue, gives arguments, deals with a counter-argument and ends with a clear position or a call to action. Learn the phrases for each move:
+
+        - **Add an argument:** *For det første… For det andet…* · *Desuden…* · *Hertil kommer, at…* (in addition)
+        - **Concede:** *Det er rigtigt, at…* · *Man kan indvende, at…* (one might object that) · *Andre vil sige, at…*
+        - **Counter:** *Men…* · *Ikke desto mindre…* (nevertheless) · *Det ændrer dog ikke ved, at…* (that doesn't change the fact that)
+        - **Conclude:** *Alt i alt…* · *Kort sagt…* · *Derfor vil jeg opfordre alle til at…*
+
+        **Word order.** Most of these are first elements, so the verb comes next: ***Ikke desto mindre koster** abonnementet…* · ***Alt i alt mener** jeg…*
+
+        **Emphasis with a cleft sentence.** *Det er / Det var + X + der/som…* puts the spotlight on X: *Det var lokalavisen, **der** fik afkræftet rygtet.* Use der when X is the subject of the following clause.
+      table: |
+        Move | Phrases
+        add an argument | For det første… / Desuden… / Hertil kommer, at…
+        concede | Det er rigtigt, at… / Man kan indvende, at… / Andre vil sige, at…
+        counter | Men… / Ikke desto mindre… / Det ændrer dog ikke ved, at…
+        emphasise | Det er netop… / Det var X, der…
+        conclude | Alt i alt… / Kort sagt… / Derfor vil jeg opfordre alle til at…
+      examples: |
+        Man kan indvende, at sociale medier har overtaget rollen. | One might object that social media have taken over the role. | conceding
+        Ikke desto mindre koster abonnementet mindre end to kopper kaffe. | Nevertheless, the subscription costs less than two cups of coffee. | V2 after ikke desto mindre
+        Hertil kommer, at mange aviser giver rabat til studerende. | On top of that, many newspapers give students a discount. | adding an argument
+        Det var lokalavisen, der fik afkræftet rygtet. | It was the local paper that got the rumour disproved. | cleft for emphasis
+      tip: Present the strongest counter-argument fairly before you answer it — a Danish reader trusts a writer who takes the other side seriously.
+    reading:
+      title: Lokalavisen er mere værd end et klik
+      text: |
+        Debatindlæg: Lokalavisen er mere værd end et klik
+        Af Birthe Kjær, pensioneret skolelærer, Ringkøbing
+
+        Da jeg var barn, landede lokalavisen på måtten hver morgen. I dag læser jeg den på skærmen – når jeg ellers kan komme forbi betalingsmuren. Mange af mine naboer er holdt op med at abonnere. "Hvorfor betale for nyheder, når de findes gratis på nettet?" spurgte en af dem forleden. Det spørgsmål vil jeg gerne svare på.
+
+        For det første er de gratis nyheder sjældent lokale. De landsdækkende medier sender ikke en journalist til byrådsmødet i Ringkøbing, når der skal tages stilling til skolernes budget eller en ny vindmøllepark. Hvis lokalavisen forsvinder, er der ingen, der holder øje med de beslutninger, der påvirker vores hverdag mest.
+
+        For det andet er lokalavisen vores fælles opslagstavle. Her læser vi om den nye bager, om håndboldklubbens oprykning og om naboen, der fylder hundrede. Det lyder måske banalt, men det er netop den slags historier, der skaber et fællesskab i et lokalsamfund.
+
+        Man kan selvfølgelig indvende, at de sociale medier har overtaget den rolle. Det er rigtigt, at de lokale grupper på nettet summer af liv. Men her er der ingen redaktør, der kontrollerer, om rygterne passer. For nylig gik der en historie om, at kommunen ville lukke svømmehallen – og den viste sig at være forkert. Det var lokalavisen, der fik afkræftet rygtet.
+
+        Andre vil sige, at et abonnement er for dyrt. Det forstår jeg godt, især for familier med et stramt budget. Ikke desto mindre koster et digitalt abonnement om måneden mindre end to kopper kaffe på en café. Hertil kommer, at mange aviser giver rabat til studerende og pensionister.
+
+        Alt i alt mener jeg, at en lokalavis er en investering i både demokratiet og fællesskabet. Den er ikke alene en kilde til nyheder, men også et redskab til at holde magthaverne fast på deres løfter. Derfor vil jeg opfordre alle, der har råd, til at tegne et abonnement.
+
+        For hvis vi ikke betaler for journalistikken, betaler vi på en anden måde: med uvidenhed.
+      translation: |
+        Opinion: The local paper is worth more than a click
+        By Birthe Kjær, retired schoolteacher, Ringkøbing
+
+        When I was a child, the local paper landed on the doormat every morning. Today I read it on screen – when I can get past the paywall, that is. Many of my neighbours have stopped subscribing. "Why pay for news when you can get it for free online?" one of them asked the other day. I'd like to answer that question.
+
+        Firstly, free news is rarely local. The national media don't send a journalist to the town council meeting in Ringkøbing when decisions are to be made about the schools' budget or a new wind farm. If the local paper disappears, nobody will keep an eye on the decisions that affect our everyday lives the most.
+
+        Secondly, the local paper is our shared noticeboard. Here we read about the new baker, the handball club's promotion and the neighbour who is turning a hundred. That may sound trivial, but it is precisely stories like these that create a sense of community in a local area.
+
+        One might of course object that social media have taken over that role. It's true that the local groups online are buzzing with life. But there is no editor there to check whether the rumours are true. Recently a story went round that the council was going to close the swimming pool – and it turned out to be wrong. It was the local paper that got the rumour disproved.
+
+        Others will say that a subscription is too expensive. I understand that, especially for families on a tight budget. Nevertheless, a digital subscription costs less a month than two cups of coffee in a café. On top of that, many newspapers give a discount to students and pensioners.
+
+        All in all, I believe that a local newspaper is an investment in both democracy and community. It is not only a source of news but also a tool for holding those in power to their promises. That is why I would urge everyone who can afford it to take out a subscription.
+
+        Because if we don't pay for journalism, we pay in another way: with ignorance.
+    pronunciation:
+      title: "Signposts with late stress: desuden, hertil, alligevel"
+      body: |
+        Many of the little words that structure an argument are stressed late. *Desuden* is "de-SU-den", *hertil* is "her-TIL" (like *dertil*), and *alligevel* is "al-LI-e-vel" with a silent g. In *ikke desto mindre* the main stress falls on *mindre*.
+
+        When you read an opinion piece aloud, make a short pause after each signpost so the listener can follow the structure. Listen and repeat.
+      items: |
+        desuden
+        hertil kommer
+        ikke desto mindre
+        alligevel
+        Alt i alt mener jeg, at det er pengene værd.
+    mistakes: |
+      Ikke desto mindre abonnementet er billigt. => Ikke desto mindre er abonnementet billigt. | Ikke desto mindre is the first element, so the verb comes next.
+      Alt i alt jeg mener, at… => Alt i alt mener jeg, at… | V2: the verb follows alt i alt.
+      Man kan indvende, at sociale medier har ikke overtaget… => Man kan indvende, at sociale medier ikke har overtaget… | In the at-clause, ikke goes before the verb.
+    task:
+      title: Your opinion piece
+      mode: writing
+      body: |
+        Write a debatindlæg (180–220 words) for your local newspaper about an issue where you live — a library's opening hours, a new cycle path, mobile phones at school. Give it a clear headline, an introduction, two arguments, one counter-argument with your answer, and a conclusion with a call to action. Use at least one cleft sentence (Det er…, der…).
+    exercises: |
+      fill: Man kan ___, at sociale medier har overtaget rollen. (object) || indvende || Man kan indvende, at… introduces a counter-argument. || @tags da.opinion
+      fill: Ikke desto ___ er abonnementet pengene værd. || mindre || The fixed expression is ikke desto mindre (nevertheless). || @tags da.opinion
+      mc: Which sentence is correct? || *Alt i alt mener jeg, at forslaget er godt. | Alt i alt jeg mener, at forslaget er godt. | Alt i alt mener, jeg at forslaget er godt. || Alt i alt is the first element: verb (mener) + subject (jeg). || @tags da.opinion,da.word-order
+      mc: What is "Hertil kommer, at…" used for? || *Adding another argument | Conceding a point | Concluding || Hertil kommer = in addition, on top of that. || @tags da.opinion
+      tf: The writer thinks the local groups on social media can replace the local paper. || false || "Men her er der ingen redaktør, der kontrollerer, om rygterne passer." || @ctx reading
+      mc: What happened with the rumour about the swimming pool? || *The local paper showed it was false | The pool was closed | The council started the rumour || "Det var lokalavisen, der fik afkræftet rygtet." || @ctx reading @skill reading @tags da.reading
+      short: What does the writer compare the price of a subscription to? || kw: kaffe/coffee || "…mindre end to kopper kaffe på en café." || @ctx reading
+      listen: Det er rigtigt, at cykelstien bliver dyr. Ikke desto mindre mener jeg, at den er pengene værd, fordi den gør skolevejen sikker. || What is the speaker's position? || *For the cycle path, despite the cost | Against the cycle path because of the cost | Undecided || Concession (det er rigtigt, at…) followed by the counter (ikke desto mindre…). || @tags da.listening,da.opinion
+      rw: Rewrite as a cleft sentence that emphasises lokalavisen :: Lokalavisen afkræftede rygtet. || Det var lokalavisen, der afkræftede rygtet. | Det var lokalavisen, som afkræftede rygtet. || Det var + X + der/som + the rest of the sentence. || @tags da.opinion,da.relative-clauses
+      tr: One might object that it is too expensive. || Man kan indvende, at det er for dyrt. | Man kunne indvende, at det er for dyrt. | Man kan indvende, at det er alt for dyrt. || Man kan indvende, at + subordinate clause. || @tags da.opinion
+      ask: Give one argument for paying for local news, then answer a counter-argument. || kw: for det første/hertil kommer/desuden & man kan indvende/det er rigtigt/andre vil sige & ikke desto mindre/men || For det første får vi nyheder, som ingen andre dækker. Man kan indvende, at det er dyrt. Det er rigtigt, men ikke desto mindre koster det mindre end et streamingabonnement.
+      write: Write an opinion piece (180–220 words) on a local issue. Include two arguments, a counter-argument and a conclusion. || min=150 || req: for det første/hertil kommer/desuden | man kan indvende/det er rigtigt/andre vil sige | ikke desto mindre/alt i alt/derfor || Lad biblioteket være åbent om søndagen. Kommunen vil spare penge ved at lukke biblioteket i weekenderne. Det er en dårlig idé. For det første er biblioteket et af de få steder, hvor man kan være sammen uden at købe noget. Hertil kommer, at mange studerende bruger det til at læse op til eksamen. Man kan indvende, at der kommer færre besøgende om søndagen. Det er rigtigt, men det er netop de besøgende, der har mest brug for det: ældre, der bor alene, og børnefamilier i små lejligheder. Ikke desto mindre forstår jeg, at kommunen skal spare. Men så kunne man holde åbent uden personale nogle timer. Alt i alt vil jeg opfordre byrådet til at tænke sig om. Det er biblioteket, der binder vores by sammen.
+      dict: Ikke desto mindre koster abonnementet mindre end to kopper kaffe.

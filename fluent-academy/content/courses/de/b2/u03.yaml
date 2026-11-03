@@ -1,0 +1,352 @@
+unit: 3
+title: Wissenschaft und Technik
+theme: Science and technology
+description: Explain how new technologies work, discuss their ethical side and follow health news — with the passive in all tenses, the passive with modal verbs, the Zustandspassiv and the alternatives to the passive.
+free: false
+objectives:
+  - Describe processes and developments with the passive in all tenses
+  - Formulate rules and requirements with the passive and modal verbs, and distinguish process from state
+  - Understand and use alternatives to the passive (man, sich lassen, sein + zu, -bar)
+canDo:
+  - I can explain how something is made or developed and who is responsible for it.
+  - I can discuss the ethical questions raised by a new technology.
+  - I can state rules for the use of artificial intelligence.
+  - I can understand a news report about a medical study and assess how reliable it is.
+review: |
+  fill: Der erste Laborburger ___ 2013 in London vorgestellt. || wurde || Präteritum passive: wurde + Partizip II. || @tags de.passive,de.praeteritum
+  fill: Das Verfahren ist seitdem deutlich weiterentwickelt ___. || worden || In the Perfekt passive, werden appears as worden (no ge-). || @tags de.passive
+  fill: Persönliche Daten dürfen nicht ohne Zustimmung gespeichert ___. || werden || Passive with a modal verb: modal + Partizip II + werden. || @tags de.passive,de.modal-verbs
+  mc: Die Schule muss entscheiden, wann KI im Unterricht ___. || *benutzt werden darf | darf benutzt werden | benutzt darf werden || In a subordinate clause the modal verb goes to the very end: benutzt werden darf. || @tags de.passive,de.subordinate-clauses
+  mc: Which sentence describes a state (a result), not a process? || *Die Daten sind verschlüsselt. | Die Daten werden verschlüsselt. | Die Daten wurden gestern verschlüsselt. || Sein + Partizip II (Zustandspassiv) describes the resulting state; werden describes the process. || @tags de.passive
+  rw: Rewrite with sich lassen :: Die Ursache kann nicht sofort erkannt werden. || Die Ursache lässt sich nicht sofort erkennen. || Kann + passive infinitive = sich lassen + infinitive. || @tags de.passive,de.reflexive
+  rw: Rewrite with sein + zu :: Der Antrag muss bis Ende Mai gestellt werden. || Der Antrag ist bis Ende Mai zu stellen. || Sein + zu + infinitive can replace a passive with müssen. || @tags de.passive,de.infinitive-zu
+  tr: The study was carried out by a team from Leipzig. || Die Studie wurde von einem Team aus Leipzig durchgeführt. | Die Studie ist von einem Team aus Leipzig durchgeführt worden. | Die Studie wurde von einem Leipziger Team durchgeführt. || Passive with von + dative for the agent; "to carry out a study" = eine Studie durchführen. || @tags de.passive
+  listen: Die Brücke über die Elbe wird seit März saniert. Sie soll im Dezember wieder für den Verkehr freigegeben werden. Bis dahin werden alle Busse umgeleitet. || What is happening to the buses at the moment? || They have been cancelled. | *They are being diverted. | They are running more often. || "Bis dahin werden alle Busse umgeleitet." || @tags de.listening,de.passive
+  listen: Gegen eine Virusinfektion lässt sich mit Antibiotika nichts ausrichten. Trotzdem werden sie in solchen Fällen immer noch zu oft verschrieben. || What is the problem the speaker describes? || Antibiotics are too expensive. | *Antibiotics are prescribed too often for viral infections. | There are not enough antibiotics. || Antibiotics don't work against viruses, "trotzdem werden sie … zu oft verschrieben". || @tags de.listening,de.passive
+  ask: „Welche Erfindung der letzten zwanzig Jahre hat unser Leben am stärksten verändert?“ Explain how it is used and what has changed. || kw: wird/werden/wurde/wurden/worden & benutzt/genutzt/verwendet/entwickelt/erfunden/verkauft/gesteuert/eingesetzt || Ich finde, das Smartphone hat unser Leben am stärksten verändert. Es wird heute für fast alles benutzt: zum Bezahlen, zum Navigieren und zum Arbeiten. Früher wurden dafür viele verschiedene Geräte gebraucht.
+  write: Write a short post (70–90 words) for your course forum about a new technology. Explain how it works, what it is used for and what should be regulated. || min=60 || req: wird/werden/wurde/wurden | muss/müssen/sollte/sollten/darf/dürfen || Drohnen werden heute in vielen Bereichen eingesetzt. In der Landwirtschaft wird mit ihnen zum Beispiel kontrolliert, welche Felder Wasser brauchen, und in den Bergen werden Medikamente zu abgelegenen Hütten geliefert. Die Technik ist inzwischen so günstig, dass sie auch privat genutzt wird. Genau das sehe ich kritisch. Meiner Meinung nach muss genauer geregelt werden, wo Drohnen fliegen dürfen, denn private Gärten sollten nicht ohne Erlaubnis gefilmt werden.
+lessons:
+  - title: Innovation and ethics
+    summary: Explain how cultivated meat is produced and discuss whether it is ethically acceptable — with the passive in all tenses.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [de.passive, de.opinion]
+    objectives:
+      - Form the passive in Präsens, Präteritum, Perfekt, Plusquamperfekt and Futur
+      - Name the agent with von and the means with durch
+      - Discuss the ethics of a new technology
+    intro: |
+      When we talk about science, the process is often more important than the person: *Die Zellen **werden vermehrt**. Der erste Burger **wurde** 2013 **vorgestellt**.* That is what the **passive** is for. You may already recognise *wird gemacht*; at B2 you need it in every tense, because news reports and discussions about technology are full of it. This lesson follows a radio interview about meat grown in the laboratory.
+    vocab: |
+      die Zelle | cell | n | Für das Verfahren werden nur wenige Zellen gebraucht. | Only a few cells are needed for the process. | g: f | pl: die Zellen
+      herstellen | to produce; to manufacture | v | Wie wird dieses Material hergestellt? | How is this material produced? | n: Separable. Noun: die Herstellung.
+      forschen | to (do) research | v | An der Uni wird seit Jahren an neuen Batterien geforscht. | Research into new batteries has been going on at the university for years. | c: an etwas (dat.) forschen | n: Noun: die Forschung; people: die Forschenden.
+      das Verfahren | process; method; procedure | n | Das neue Verfahren spart viel Energie. | The new process saves a lot of energy. | g: n | pl: die Verfahren
+      zulassen | to approve; to license | v | Das Medikament ist in der EU noch nicht zugelassen. | The drug has not yet been approved in the EU. | n: Separable. Noun: die Zulassung.
+      prüfen | to test; to examine; to check | v | Neue Lebensmittel werden streng geprüft. | New foods are tested strictly. | n: Noun: die Prüfung.
+      vertretbar | justifiable; acceptable | adj | Ist es ethisch vertretbar, Tiere für Versuche zu nutzen? | Is it ethically justifiable to use animals for experiments? | n: Opposite: unvertretbar.
+      eingreifen | to intervene; to interfere | v | Hier wird stark in die Natur eingegriffen. | This is a major intervention in nature. | c: in etwas (acc.) eingreifen | n: Separable, irregular: griff ein, hat eingegriffen. Noun: der Eingriff.
+      überwachen | to monitor; to supervise | v | Die Produktion wird von unabhängigen Stellen überwacht. | Production is monitored by independent bodies. | n: Inseparable: hat überwacht.
+      unabhängig | independent | adj | Die Ergebnisse wurden von einem unabhängigen Institut bestätigt. | The results were confirmed by an independent institute. | c: unabhängig von + dat.
+      die Ernährung | diet; nutrition | n | Unsere Ernährung hat großen Einfluss auf das Klima. | Our diet has a big impact on the climate. | g: f | pl: (no plural)
+      der Einblick | insight; glimpse | n | Das Interview gibt einen Einblick in die Arbeit im Labor. | The interview gives an insight into work in the lab. | g: m | pl: die Einblicke | c: einen Einblick in etwas geben/bekommen
+    grammar:
+      title: "The passive in all tenses"
+      body: |
+        The passive (*Vorgangspassiv*) puts the **action** in the foreground: **werden + Partizip II**. Only werden changes with the tense; the participle stays at the end.
+
+        - **Präsens:** *Die Zellen **werden** vermehrt.*
+        - **Präteritum:** *Der Burger **wurde** 2013 vorgestellt.*
+        - **Perfekt:** *Die Technik **ist** weiterentwickelt **worden**.* — in the passive the participle of werden is **worden**, without *ge-*.
+        - **Plusquamperfekt:** *Das Verfahren **war** schon getestet **worden**.*
+        - **Futur I:** *Das Fleisch **wird** bald verkauft **werden**.*
+
+        **Who or what?** A person or institution is introduced with **von** + dative (*von einem Team aus Delft*), a means or process often with **durch** + accusative (*durch neue Verfahren*).
+
+        **Dative objects stay dative.** Only an accusative object becomes the subject: *Man entnimmt **dem Tier** Zellen → **Dem Tier** werden Zellen entnommen.*
+
+        **Impersonal passive:** verbs without an object can be used in the passive to focus on the activity: *Hier **wird** seit Jahren **geforscht**.* If nothing else is in position 1, *es* fills it: ***Es** wird viel diskutiert.*
+      table: |
+        Tense | Passive
+        Präsens | Das Fleisch wird im Labor hergestellt.
+        Präteritum | Das Fleisch wurde im Labor hergestellt.
+        Perfekt | Das Fleisch ist im Labor hergestellt worden.
+        Plusquamperfekt | Das Fleisch war im Labor hergestellt worden.
+        Futur I | Das Fleisch wird im Labor hergestellt werden.
+      examples: |
+        Zuerst werden einem lebenden Tier ein paar Zellen entnommen. | First a few cells are taken from a living animal. | Präsens; dative (einem Tier) stays dative
+        Der erste Burger aus dem Labor wurde 2013 in London vorgestellt. | The first laboratory burger was presented in London in 2013. | Präteritum
+        In einigen Ländern ist das Produkt bereits zugelassen worden. | The product has already been approved in some countries. | Perfekt: ist … worden
+        Ohne Transparenz wird die Technik nicht akzeptiert werden. | Without transparency the technology will not be accepted. | Futur I: wird … werden
+      tip: "In the news, the Präteritum passive (wurde gemacht) is the most common past form. In conversation you will hear the Perfekt (ist gemacht worden) — remember: worden, never geworden."
+    dialogue:
+      title: Fleisch aus dem Labor
+      setting: "A science programme on a regional radio station. Presenter Paul Becker interviews the bioethicist Dr Mirjam Stein about cultivated meat."
+      speakers: P=Paul Becker/m; S=Dr. Mirjam Stein/f
+      lines: |
+        P: Frau Dr. Stein, wie wird Fleisch aus dem Labor eigentlich hergestellt – und seit wann wird daran geforscht? | Dr Stein, how is laboratory meat actually produced – and how long has research been going on?
+        S: Zuerst werden einem lebenden Tier ein paar Zellen entnommen. Diese Zellen werden dann in großen Behältern vermehrt. | First a few cells are taken from a living animal. These cells are then multiplied in large tanks.
+        P: Das klingt immer noch ein bisschen nach Science-Fiction. Gibt es solche Produkte überhaupt schon zu kaufen? | That still sounds a bit like science fiction. Can you actually buy products like this yet?
+        S: Der erste Burger aus dem Labor wurde schon 2013 in London vorgestellt. Damals kostete er rund eine Viertelmillion Euro. | The first laboratory burger was presented in London back in 2013. At the time it cost around a quarter of a million euros.
+        P: Inzwischen ist die Technik stark weiterentwickelt worden. Wird das Fleisch bald auch im Supermarkt verkauft werden? | The technology has been developed a lot since then. Will the meat soon be sold in supermarkets too?
+        S: In einigen Ländern ist es bereits zugelassen worden. In der EU muss jedes neue Lebensmittel dieser Art erst gründlich geprüft werden. | It has already been approved in a few countries. In the EU every new food of this kind first has to be tested thoroughly.
+        P: Viele Hörerinnen und Hörer fragen: Ist das ethisch vertretbar? Hier wird doch massiv in die Natur eingegriffen. | Many listeners ask: is this ethically justifiable? After all, this is a massive intervention in nature.
+        S: Man kann das auch umgekehrt sehen: Jedes Jahr werden weltweit Milliarden Tiere für unsere Ernährung geschlachtet. | You can also see it the other way round: every year billions of animals are slaughtered worldwide for our food.
+        P: Aber wer kontrolliert, was mit den Zellen passiert? Von wem werden diese Verfahren überhaupt überwacht? | But who checks what happens to the cells? Who actually monitors these processes?
+        S: Von unabhängigen Behörden, und das ist entscheidend. Ohne Transparenz wird die Technik von der Gesellschaft nicht akzeptiert werden. | By independent authorities, and that is crucial. Without transparency the technology will not be accepted by society.
+        P: Frau Dr. Stein, vielen Dank für diese spannenden und auch etwas beunruhigenden Einblicke! | Dr Stein, thank you very much for these fascinating and also somewhat unsettling insights!
+    pronunciation:
+      title: "w, v and f: werden, worden, Verfahren"
+      body: |
+        German **w** is always [v], like English *v*: *werden, wurde, worden, überwachen*. German **v** is usually [f]: *Verfahren, vermehrt, von, vertretbar* — only in some loanwords is it [v]: *Vitamine, Klavier, Universität, Video*.
+
+        Practise the passive forms as one unit, with the stress on the participle: *Die Zellen werden verMEHRT. Es ist weiterentWICkelt worden.*
+      items: |
+        Die Zellen werden vermehrt.
+        Es ist weiterentwickelt worden.
+        wurde vorgestellt
+        das Verfahren
+        überwachen
+        Von wem wird das überwacht?
+    mistakes: |
+      Die Technik ist weiterentwickelt geworden. => Die Technik ist weiterentwickelt worden. | In the passive Perfekt, werden appears as worden (without ge-). Geworden means "become".
+      Das Tier werden Zellen entnommen. => Dem Tier werden Zellen entnommen. | Entnehmen takes a dative (to take from someone); the dative stays dative in the passive.
+      Der Burger wurde durch einem Forscher vorgestellt. => Der Burger wurde von einem Forscher vorgestellt. | A person as agent is introduced with von + dative; durch (+ accusative) is mainly used for means and processes.
+    task:
+      title: How is it made?
+      mode: speaking
+      body: |
+        Choose a product or invention — chocolate, a vaccine, a bicycle, paper. Explain in one to two minutes how it is made or how it was developed, using the passive in at least three different tenses. Then discuss with the AI coach in the "Expressing an opinion" scenario whether a technology of your choice is ethically justifiable.
+    exercises: |
+      fill: Der Rechner Z3 ___ 1941 in Berlin von Konrad Zuse vorgestellt. || wurde || A completed event in the past, typical for written reports: Präteritum passive wurde + Partizip II. || @tags de.passive,de.praeteritum
+      fill: Seit Jahren ___ an neuen Impfstoffen gegen Malaria geforscht. || wird || Impersonal passive in the Präsens: wird + Partizip II, no subject needed. || @tags de.passive
+      fill: Die neue Brücke ist letzte Woche für den Verkehr freigegeben ___. || worden || Perfekt passive: ist + Partizip II + worden. || @tags de.passive
+      fill: Das Ergebnis der Studie wird erst im nächsten Jahr veröffentlicht ___. || werden || Futur I passive: wird + Partizip II + werden. || @tags de.passive,de.futur
+      fill: Als die Kritik laut wurde, ___ das Verfahren schon längst getestet worden. || war || Plusquamperfekt passive (earlier than the past event): war + Partizip II + worden. || @tags de.passive,de.plusquamperfekt
+      mc: ___ Patientin wurde eine Blutprobe entnommen. || *Der | Die | Den || Entnehmen takes a dative for the person; dative feminine = der. The subject is eine Blutprobe. || @tags de.passive,de.dative
+      rw: Put into the passive (Präteritum) :: Ein Team aus Heidelberg entwickelte das Verfahren. || Das Verfahren wurde von einem Team aus Heidelberg entwickelt. | Das Verfahren wurde von einem Heidelberger Team entwickelt. || The accusative object becomes the subject; the agent follows von + dative. || @tags de.passive
+      tf: The first laboratory burger was cheap to produce. || false || It cost "rund eine Viertelmillion Euro". || @ctx dialogue
+      short: According to Dr Stein, what is crucial if society is to accept the technology? || kw: transparenz/transparency/unabhängig/independent/behörde/authorit/kontroll/control || Transparency and monitoring by independent authorities. || @ctx dialogue
+      listen: @dialogue || How is cultivated meat produced? || It is made from plant proteins. | *Cells are taken from a living animal and multiplied. | Animals are cloned in the laboratory. || "Zuerst werden einem lebenden Tier ein paar Zellen entnommen. Diese Zellen werden dann … vermehrt."
+      listen: Das Technikmuseum wird zurzeit renoviert. Die Ausstellung zur Raumfahrt ist deshalb in die Stadtbibliothek verlegt worden. || Where can visitors see the space exhibition now? || *In the city library | In the museum's new wing | Nowhere until the autumn || "Die Ausstellung zur Raumfahrt ist … in die Stadtbibliothek verlegt worden." || @tags de.listening,de.passive
+      tr: The results were published last week. || Die Ergebnisse wurden letzte Woche veröffentlicht. | Die Ergebnisse wurden vergangene Woche veröffentlicht. | Die Ergebnisse sind letzte Woche veröffentlicht worden. | Die Ergebnisse sind vergangene Woche veröffentlicht worden. | Letzte Woche wurden die Ergebnisse veröffentlicht. || Präteritum passive (wurden veröffentlicht) or Perfekt passive (sind veröffentlicht worden). || @tags de.passive
+      dict: Hier wird seit zwanzig Jahren an neuen Materialien geforscht.
+      ask: „Sollte Fleisch aus dem Labor in Deutschland verkauft werden dürfen?“ Give your opinion and use at least two passive forms. || kw: wird/werden/wurde/wurden/worden & verkauft/geprüft/kontrolliert/hergestellt/geschlachtet/akzeptiert/zugelassen/gegessen || Ich finde schon, aber es muss streng kontrolliert werden. Wenn das Fleisch gründlich geprüft wird, sehe ich kein Problem. Schließlich werden jedes Jahr unglaublich viele Tiere geschlachtet.
+
+  - title: Artificial intelligence
+    summary: Discuss rules for AI at school and at work — with the passive and modal verbs (muss geprüft werden) and the Zustandspassiv (ist festgelegt).
+    minutes: 45
+    skills: [grammar, speaking, writing]
+    tags: [de.passive, de.modal-verbs]
+    objectives:
+      - Use the passive with modal verbs in main and subordinate clauses
+      - Distinguish the process (wird geschlossen) from the resulting state (ist geschlossen)
+      - Formulate and discuss rules for the use of AI tools
+    intro: |
+      Rules are often written in the passive: *Die Nutzung **muss angegeben werden**. Daten **dürfen** nicht **weitergegeben werden**.* And when we describe the result of a process, German uses **sein** instead of werden: *Die Regeln **sind** schon **festgelegt**.* In this lesson two teachers discuss what to do about homework written by AI — and practise exactly these structures.
+    vocab: |
+      die künstliche Intelligenz (KI) | artificial intelligence (AI) | n | Künstliche Intelligenz verändert die Art, wie wir lernen. | Artificial intelligence is changing the way we learn. | g: f | pl: (rarely used) | n: Usually abbreviated: die KI [kaː ˈʔiː].
+      das Sprachmodell | language model | n | Ein Sprachmodell berechnet, welches Wort wahrscheinlich als Nächstes kommt. | A language model calculates which word is likely to come next. | g: n | pl: die Sprachmodelle
+      erstellen | to create; to produce (a document) | v | Die Präsentation wurde mit einem KI-Tool erstellt. | The presentation was created with an AI tool. | n: Noun: die Erstellung.
+      die Quelle | source | n | Bitte geben Sie alle Quellen vollständig an. | Please give all sources in full. | g: f | pl: die Quellen | c: eine zuverlässige Quelle; Quellen angeben
+      frei erfunden | completely made up | expr | Zwei der zitierten Studien waren frei erfunden. | Two of the studies quoted were completely made up. | n: From erfinden (to invent).
+      angeben | to state; to declare; to indicate | v | Jede Hilfe durch KI muss angegeben werden. | Any help from AI must be declared. | n: Separable. Also: to show off.
+      regeln | to regulate; to settle | v | Der Datenschutz ist in der EU streng geregelt. | Data protection is strictly regulated in the EU. | n: Noun: die Regelung.
+      festlegen | to fix; to lay down; to set | v | Der Termin für die Konferenz ist schon festgelegt. | The date for the conference has already been set. | n: Separable.
+      sich auskennen | to know one's way around; to be knowledgeable | v | Mit Statistik kenne ich mich leider nicht aus. | Unfortunately I don't know much about statistics. | c: sich mit etwas / in etwas auskennen | n: Separable, irregular: kannte sich aus, hat sich ausgekannt.
+      der Datenschutz | data protection | n | Aus Gründen des Datenschutzes dürfen wir keine Namen eingeben. | For data protection reasons we may not enter any names. | g: m | pl: (no plural)
+      zuverlässig | reliable | adj | KI-Antworten sind nicht immer zuverlässig. | AI answers are not always reliable. | n: Noun: die Zuverlässigkeit.
+      überprüfen | to check; to verify | v | Die Ergebnisse müssen von Menschen überprüft werden. | The results must be checked by humans. | n: Inseparable: hat überprüft.
+    grammar:
+      title: "The passive with modal verbs; Zustandspassiv"
+      body: |
+        **Passive with modal verbs.** The modal verb is conjugated; at the end comes **Partizip II + werden** (the passive infinitive): *Die Nutzung **muss** angegeben **werden**. Das **kann** nicht einfach verboten **werden**. Es **dürfen** keine Namen eingegeben **werden**.* In the past, use the Präteritum of the modal: *Das **musste** geklärt **werden**.*
+
+        In a **subordinate clause** the modal verb moves to the very end: *…, dass jede KI-Nutzung angegeben werden **muss**. …, wann solche Tools benutzt werden **dürfen**.*
+
+        **Zustandspassiv (sein + Partizip II).** Compare:
+        - *Die Regeln **werden** festgelegt.* — the process: someone is setting them.
+        - *Die Regeln **sind** festgelegt.* — the result: they exist now.
+
+        The Zustandspassiv describes a state that is the result of an earlier action, much like an adjective: *Die Tür ist geschlossen. Der Text ist perfekt formuliert.* In the past: *Die Bibliothek **war** geschlossen.*
+      table: |
+        Structure | Example
+        modal passive (present) | Die Quellen müssen überprüft werden.
+        modal passive (past) | Die Quellen mussten überprüft werden.
+        in a subordinate clause | …, dass die Quellen überprüft werden müssen.
+        Vorgangspassiv (process) | Die Regeln werden gerade festgelegt.
+        Zustandspassiv (state) | Die Regeln sind schon festgelegt.
+      examples: |
+        Es müsste klar geregelt werden, wann solche Tools benutzt werden dürfen. | It ought to be clearly regulated when tools like these may be used. | modal passive in main and subordinate clause
+        In dem Entwurf ist festgelegt, dass jede KI-Nutzung angegeben werden muss. | The draft lays down that every use of AI must be declared. | Zustandspassiv + modal passive
+        Fehler können nur erkannt werden, wenn man sich im Thema auskennt. | Mistakes can only be spotted if you know the subject. | können + passive infinitive
+        Die Texte sind perfekt formuliert, aber völlig unpersönlich. | The texts are perfectly worded but completely impersonal. | Zustandspassiv as a description
+      tip: "Process or result? If you could say 'already' and you mean the situation now, use sein: Die Daten sind schon gelöscht. If you mean the action, use werden: Die Daten werden jede Nacht gelöscht."
+    dialogue:
+      title: KI im Lehrerzimmer
+      setting: The staff room of a comprehensive school in Bielefeld. Two teachers, Elena Ruiz and Jan Kowalczyk, talk about essays that may have been written with AI.
+      speakers: E=Elena Ruiz/f; J=Jan Kowalczyk/m
+      lines: |
+        E: Hast du die Hausarbeiten aus der Zehnten schon korrigiert? Ich glaube, einige sind von einer KI geschrieben worden. | Have you marked the year-ten essays yet? I think some of them were written by an AI.
+        J: Das ist mir auch aufgefallen. Die Texte sind perfekt formuliert, aber völlig unpersönlich. | I noticed that too. The texts are perfectly worded but completely impersonal.
+        E: Verbieten können wir das kaum. Aber es müsste klar geregelt werden, wann solche Tools benutzt werden dürfen. | We can hardly ban it. But it ought to be clearly regulated when tools like these may be used.
+        J: Die Schulleitung hat schon einen Entwurf geschrieben. Darin ist festgelegt, dass jede KI-Nutzung angegeben werden muss. | The head has already written a draft. It lays down that every use of AI must be declared.
+        E: Das reicht mir nicht. Die Schülerinnen und Schüler sollten auch lernen, wie solche Programme überhaupt funktionieren. | That's not enough for me. The pupils should also learn how programs like these actually work.
+        J: Da hast du recht. Viele glauben, dass alles, was die KI ausgibt, automatisch richtig ist. | You're right there. Many of them believe that everything the AI produces is automatically correct.
+        E: Genau. In meinem Kurs haben wir ein KI-Referat analysiert – drei Quellen waren frei erfunden! | Exactly. In my class we analysed a presentation written by AI – three of the sources were completely made up!
+        J: Das ist ein gutes Beispiel. Solche Fehler können nur erkannt werden, wenn man sich im Thema auskennt. | That's a good example. Mistakes like that can only be spotted if you know the subject.
+        E: Deshalb würde ich die Hausarbeiten künftig anders gestalten: weniger Zusammenfassung, mehr eigene Erfahrungen und Diskussion. | That's why I'd design the essays differently in future: less summary, more personal experience and discussion.
+        J: Und die Ergebnisse könnten im Unterricht mündlich präsentiert werden. Dann merkt man schnell, wer das Thema verstanden hat. | And the results could be presented orally in class. Then you quickly notice who has understood the topic.
+        E: Gute Idee. Lass uns das bei der nächsten Fachkonferenz vorschlagen – der Termin ist ja schon festgelegt. | Good idea. Let's suggest it at the next department meeting – the date has already been set, after all.
+    pronunciation:
+      title: "Abbreviations: KI, EU, PDF"
+      body: |
+        German abbreviations are spoken letter by letter with German letter names, and the **stress falls on the last letter**: *die KI* [kaː ˈʔiː], *die EU* [eː ˈʔuː], *das PDF* [peː deː ˈʔɛf], *die USA* [uː ʔɛs ˈʔaː]. Note the glottal stop before a letter that begins with a vowel.
+
+        Some abbreviations are pronounced as words: *die Kita, das BAföG*. In compounds the abbreviation keeps the main stress: *KI-Nutzung, EU-Recht*.
+      items: |
+        die KI
+        die EU
+        das PDF
+        die KI-Nutzung
+        der Datenschutz
+        Das muss klar geregelt werden.
+    culture:
+      title: Datenschutz
+      body: |
+        Data protection (*Datenschutz*) is taken very seriously in Germany. Since 2018 the EU's General Data Protection Regulation — in German the *Datenschutz-Grundverordnung* or *DSGVO* — has applied, and schools, companies and public authorities must check carefully which digital tools they are allowed to use. That is why you will often hear the sentence *Das geht aus Datenschutzgründen leider nicht.*
+    mistakes: |
+      Das muss geregelt sein werden. => Das muss geregelt werden. | The passive infinitive after a modal verb is Partizip II + werden.
+      …, dass jede Nutzung muss angegeben werden. => …, dass jede Nutzung angegeben werden muss. | In a subordinate clause the conjugated modal verb goes to the very end.
+      Die Bibliothek wird sonntags geschlossen, wir müssen morgen kommen. => Die Bibliothek ist sonntags geschlossen, wir müssen morgen kommen. | You are describing a state (it is closed), not the act of closing, so use sein.
+    task:
+      title: Rules for AI
+      mode: writing
+      body: |
+        Your language school, university or company wants clear rules for the use of AI tools. Write six rules (one sentence each) with the passive and modal verbs (*muss angegeben werden, darf nicht … werden, sollte überprüft werden*), then add a short explanation (50–70 words) of why the most important rule is necessary.
+    exercises: |
+      fill: Jede Hilfe durch KI muss im Text angegeben ___. || werden || Modal passive: muss + Partizip II + werden. || @tags de.passive,de.modal-verbs
+      fill: Persönliche Daten dürfen nicht ohne Zustimmung weitergegeben ___. || werden || Dürfen + passive infinitive: weitergegeben werden. || @tags de.passive,de.modal-verbs
+      fill: Ich bin nicht sicher, ob dieses Problem überhaupt gelöst werden ___. (können) || kann || In the ob-clause the conjugated modal verb goes to the very end. || @tags de.passive,de.subordinate-clauses
+      mc: Die Schule entscheidet, wann KI im Unterricht ___. || *eingesetzt werden darf | darf eingesetzt werden | eingesetzt darf werden || Subordinate clause: participle, then werden, then the conjugated modal verb at the end. || @tags de.passive,de.subordinate-clauses
+      mc: Which sentence describes the result (a state), not the process? || *Die Regeln sind festgelegt. | Die Regeln werden festgelegt. | Die Regeln wurden gestern festgelegt. || Sein + Partizip II = Zustandspassiv (state); the werden forms describe the action of setting the rules. || @tags de.passive
+      rw: Put into the passive with a modal verb :: Man muss die Quellen überprüfen. || Die Quellen müssen überprüft werden. || The object becomes the subject (plural → müssen); at the end: Partizip II + werden. || @tags de.passive,de.modal-verbs
+      rw: Describe the result with the Zustandspassiv :: Die Lehrerin hat alle Arbeiten korrigiert. || Alle Arbeiten sind korrigiert. | Die Arbeiten sind alle korrigiert. || Sein + Partizip II describes the state that results from the action. || @tags de.passive
+      tf: The school has already banned AI tools completely. || false || Elena says "Verbieten können wir das kaum"; the draft only says that every use of AI must be declared. || @ctx dialogue
+      short: What did Elena's class discover when they analysed a presentation written by AI? || kw: quell/source/studie/stud & erfund/invent/made up/fake/existier/falsch/wrong || Three of the sources were completely made up. || @ctx dialogue
+      listen: @dialogue || What does Jan suggest? || Banning AI tools during exams | *Having pupils present their results orally in class | Writing all essays at school || "Und die Ergebnisse könnten im Unterricht mündlich präsentiert werden."
+      listen: Ab Montag gilt eine neue Regel. Während der Prüfungen müssen alle Handys am Eingang abgegeben werden, und Taschenrechner dürfen nur in Mathematik benutzt werden. || What must students do with their mobile phones? || Switch them off and keep them in their bags | *Hand them in at the entrance | Use them only in maths || "Während der Prüfungen müssen alle Handys am Eingang abgegeben werden." || @tags de.listening,de.passive
+      tr: This text was written by an AI. || Dieser Text wurde von einer KI geschrieben. | Dieser Text ist von einer KI geschrieben worden. | Dieser Text wurde von einer künstlichen Intelligenz geschrieben. | Der Text wurde von einer KI geschrieben. || Präteritum passive with von + dative: von einer KI. || @tags de.passive
+      dict: Die Ergebnisse müssen von Menschen überprüft werden.
+      ask: „Wie sollte KI in Schulen oder am Arbeitsplatz geregelt werden?“ Name at least two rules. || kw: muss/müssen/darf/dürfen/sollte/sollten/kann/können & werden || Ich finde, die Nutzung von KI sollte nicht verboten werden. Aber jede Nutzung muss angegeben werden, und persönliche Daten dürfen nicht eingegeben werden.
+
+  - title: Health and medicine in the news
+    summary: Read a news report about a new rapid test and understand the alternatives to the passive (man, sich lassen, sein + zu, -bar adjectives).
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [de.passive, de.reading]
+    objectives:
+      - Recognise and use the alternatives to the passive (Passiversatz)
+      - Understand the structure and cautious language of a health news report
+      - Form adjectives in -bar and -lich with a passive meaning
+    intro: |
+      Health news has its own style: compact, cautious and full of passive meaning — even where there is no *werden*. *Das **lässt sich** nicht sofort **erkennen**. Das Ergebnis **ist** mit Vorsicht **zu bewerten**. Die Krankheit ist **heilbar**.* These are the **alternatives to the passive** (*Passiversatz*). In this lesson you will read a report about a new blood test and learn to recognise and use them.
+    vocab: |
+      die Infektion | infection | n | Die meisten Infektionen der Atemwege werden von Viren verursacht. | Most respiratory infections are caused by viruses. | g: f | pl: die Infektionen
+      verursachen | to cause | v | Der Ausschlag wurde durch eine Allergie verursacht. | The rash was caused by an allergy. | n: Noun: die Ursache (cause).
+      der Erreger | pathogen; germ | n | Je nach Erreger reagiert das Immunsystem anders. | The immune system reacts differently depending on the pathogen. | g: m | pl: die Erreger
+      verschreiben | to prescribe | v | Die Ärztin hat mir ein Schmerzmittel verschrieben. | The doctor prescribed me a painkiller. | n: Irregular: verschrieb, hat verschrieben. Also: sich verschreiben = to make a spelling slip.
+      das Antibiotikum | antibiotic | n | Ein Antibiotikum hilft nicht gegen Viren. | An antibiotic doesn't help against viruses. | g: n | pl: die Antibiotika
+      resistent | resistant | adj | Manche Bakterien sind gegen viele Medikamente resistent. | Some bacteria are resistant to many drugs. | c: resistent gegen + acc. | n: Noun: die Resistenz.
+      die Studie | study | n | An der Studie haben über tausend Menschen teilgenommen. | More than a thousand people took part in the study. | g: f | pl: die Studien | c: eine Studie durchführen; laut einer Studie
+      erproben | to test, try out (in practice) | v | Der Test wird zurzeit in zwanzig Praxen erprobt. | The test is currently being tried out in twenty practices. | n: Inseparable: hat erprobt.
+      ermutigend | encouraging | adj | Die ersten Ergebnisse sind ermutigend. | The first results are encouraging.
+      unverzichtbar | indispensable | adj | Das ärztliche Gespräch bleibt unverzichtbar. | The conversation with the doctor remains indispensable. | n: = Man kann nicht darauf verzichten.
+      erhältlich | available (to buy) | adj | Das Medikament ist rezeptfrei in Apotheken erhältlich. | The drug is available without prescription in pharmacies. | n: From erhalten (to receive).
+      die Krankenkasse | health insurance fund | n | Die Kosten werden von der Krankenkasse übernommen. | The costs are covered by the health insurance fund. | g: f | pl: die Krankenkassen
+    grammar:
+      title: "Alternatives to the passive (Passiversatz)"
+      body: |
+        German often expresses a passive meaning **without werden**. These alternatives are especially common in the media and in formal texts:
+
+        1. **man + active verb** — the simplest and most common in speech: *Gegen Viren **kann man** mit Antibiotika nichts ausrichten.*
+        2. **sich lassen + infinitive** = can be done: *Das **lässt sich** nicht sofort **erkennen*** (= kann nicht sofort erkannt werden).
+        3. **sein + zu + infinitive** = can be done **or** must be done — the context decides: *Das Ergebnis **ist** mit Vorsicht **zu bewerten*** (= muss bewertet werden). *Der Lärm **ist** kaum **zu ertragen*** (= kann kaum ertragen werden).
+        4. **adjectives in -bar** (and some in **-lich**) = can be done: *heilbar* (can be cured), *nachweisbar* (can be detected), *erhältlich* (can be obtained). With **un-**: *unheilbar, unverzichtbar* (cannot be done without).
+
+        Note: with sich lassen and sein + zu, the person who acts is usually left out. If it is important, use the normal passive with von.
+      table: |
+        Passive | Alternative
+        Das kann nicht sofort erkannt werden. | Das lässt sich nicht sofort erkennen.
+        Das Formular muss bis Freitag abgegeben werden. | Das Formular ist bis Freitag abzugeben.
+        Die Krankheit kann geheilt werden. | Die Krankheit ist heilbar.
+        Antibiotika werden oft zu schnell verschrieben. | Man verschreibt Antibiotika oft zu schnell.
+      examples: |
+        Ob eine Infektion von Bakterien oder von Viren verursacht wird, lässt sich nicht sofort erkennen. | Whether an infection is caused by bacteria or viruses cannot be seen immediately. | sich lassen + infinitive = can be
+        Das Ergebnis ist mit Vorsicht zu bewerten. | The result must be treated with caution. | sein + zu = must be
+        Das Gespräch mit den Patienten bleibt unverzichtbar. | The conversation with patients remains indispensable. | un- + -bar = cannot be done without
+        Der Test ist bisher nur in wenigen Praxen erhältlich. | The test is so far only available in a few practices. | -lich adjective with passive meaning
+      tip: "sein + zu is the trickiest: Anträge sind schriftlich zu stellen (must) — Das ist kaum zu glauben (can). Ask yourself which modal verb fits."
+    reading:
+      title: Ein Bluttest gegen zu viele Antibiotika
+      text: |
+        Husten, Fieber, Halsschmerzen: Ob eine Infektion von Bakterien oder von Viren verursacht wird, lässt sich in der Arztpraxis oft nicht sofort erkennen. Viele Ärztinnen und Ärzte verschreiben deshalb vorsichtshalber ein Antibiotikum – obwohl man damit gegen Viren nichts ausrichten kann. Fachleute sehen darin ein ernstes Problem, denn wer Antibiotika zu oft einsetzt, fördert die Entstehung resistenter Keime.
+
+        Ein neuer Schnelltest könnte das ändern. Forschende mehrerer Universitätskliniken haben ein Verfahren entwickelt, mit dem sich aus einem einzigen Tropfen Blut innerhalb von zwanzig Minuten bestimmen lässt, ob der Körper gegen Bakterien oder gegen Viren kämpft. Der Test misst dafür bestimmte Eiweiße, die das Immunsystem je nach Erreger in unterschiedlicher Menge bildet.
+
+        In einer ersten Studie mit rund zwölfhundert Patientinnen und Patienten wurde der Test in Hausarztpraxen erprobt. Das Ergebnis ist nach Ansicht der Forschenden ermutigend: In den Praxen, die den Test nutzten, wurden etwa ein Drittel weniger Antibiotika verschrieben, ohne dass es den Patienten schlechter ging.
+
+        Dennoch ist das Ergebnis mit Vorsicht zu bewerten. Die Studie war vergleichsweise klein, und nicht jede Infektion lässt sich eindeutig einordnen. Außerdem ist noch unklar, ob die Kosten von den Krankenkassen übernommen werden. Ein Test kostet derzeit rund dreißig Euro.
+
+        Die Forschenden betonen, dass der Test die ärztliche Untersuchung nicht ersetzen kann. „Das Gespräch und die körperliche Untersuchung bleiben unverzichtbar“, sagt die Leiterin der Studie. „Der Test ist eine Ergänzung, keine Wunderwaffe.“
+
+        Bis der Test überall erhältlich ist, wird es nach Einschätzung von Fachleuten noch mindestens zwei Jahre dauern. Bis dahin gilt: Bei einer gewöhnlichen Erkältung ist ein Antibiotikum fast nie nötig.
+      translation: |
+        Cough, fever, sore throat: whether an infection is caused by bacteria or by viruses often cannot be seen immediately in the doctor's surgery. Many doctors therefore prescribe an antibiotic as a precaution – although it does nothing against viruses. Experts see this as a serious problem, because anyone who uses antibiotics too often encourages the development of resistant germs.
+
+        A new rapid test could change that. Researchers from several university hospitals have developed a method that can determine from a single drop of blood within twenty minutes whether the body is fighting bacteria or viruses. To do this, the test measures certain proteins that the immune system produces in different amounts depending on the pathogen.
+
+        In a first study with around twelve hundred patients, the test was tried out in GP practices. In the researchers' view the result is encouraging: in the practices that used the test, about a third fewer antibiotics were prescribed, without the patients being any worse off.
+
+        Nevertheless, the result must be treated with caution. The study was comparatively small, and not every infection can be clearly classified. It is also still unclear whether the costs will be covered by the health insurance funds. One test currently costs around thirty euros.
+
+        The researchers stress that the test cannot replace a medical examination. "The conversation and the physical examination remain indispensable," says the head of the study. "The test is an addition, not a miracle cure."
+
+        According to experts, it will be at least another two years before the test is available everywhere. Until then: for an ordinary cold, an antibiotic is almost never necessary.
+    pronunciation:
+      title: "Stress in medical words"
+      body: |
+        Medical vocabulary comes mostly from Greek and Latin, and the stress is usually **not** on the first syllable: *das Antibi**O**tikum, die Infek**TION**, die Diag**NO**se, die Thera**PIE**, das Im**MUN**system*. Words ending in *-ion* and *-ie* are stressed on that ending.
+
+        German compounds, on the other hand, stress the first part: ***SCHNELL**test, **HAUS**arztpraxis, **KRAN**kenkasse.*
+      items: |
+        das Antibiotikum
+        die Infektion
+        die Diagnose
+        das Immunsystem
+        die Krankenkasse
+        Das lässt sich nicht sofort erkennen.
+    mistakes: |
+      Das lässt sich leicht erklärt. => Das lässt sich leicht erklären. | Sich lassen is followed by an infinitive, not a participle.
+      Das Ergebnis ist mit Vorsicht bewerten. => Das Ergebnis ist mit Vorsicht zu bewerten. | This structure needs zu: sein + zu + infinitive.
+      Das Medikament ist in jeder Apotheke erhaltbar. => Das Medikament ist in jeder Apotheke erhältlich. | The adjective from erhalten is erhältlich. Learn -bar and -lich adjectives as vocabulary — not every verb has one.
+    task:
+      title: Health news in brief
+      mode: writing
+      body: |
+        Write a short news item (100–120 words) about a medical development you have read or heard about. Say what was found, how it was tested and why the result should be treated with caution. Use at least three alternatives to the passive (man, sich lassen, sein + zu, an adjective in -bar/-lich).
+    exercises: |
+      rw: Rewrite with sich lassen :: Die Ursache kann nicht eindeutig bestimmt werden. || Die Ursache lässt sich nicht eindeutig bestimmen. || Kann + passive infinitive = sich lassen + infinitive. || @tags de.passive,de.reflexive
+      rw: Rewrite with sein + zu :: Die Formulare müssen bis Freitag abgegeben werden. || Die Formulare sind bis Freitag abzugeben. || Müssen + passive → sein + zu + infinitive; with separable verbs zu goes in the middle: abzugeben. || @tags de.passive,de.infinitive-zu
+      rw: Use an adjective in -bar :: Diese Krankheit kann heute geheilt werden. || Diese Krankheit ist heute heilbar. | Diese Krankheit ist inzwischen heilbar. || Kann geheilt werden = ist heilbar. || @tags de.passive,de.vocabulary
+      rw: Rewrite with man :: Antibiotika werden oft zu schnell verschrieben. || Man verschreibt Antibiotika oft zu schnell. | Antibiotika verschreibt man oft zu schnell. || The passive becomes an active sentence with man as the subject. || @tags de.passive
+      fill: Der Test lässt sich in jeder Hausarztpraxis ___. (durchführen) || durchführen || Sich lassen is followed by the infinitive. || @tags de.passive
+      fill: Die Nebenwirkungen sind bei dieser Dosis kaum ___ spüren. || zu || Sein + zu + infinitive: kaum zu spüren = can hardly be felt. || @tags de.passive,de.infinitive-zu
+      mc: „Die Schmerzen waren kaum zu ertragen.“ What does this mean? || *The pain could hardly be endured. | The pain had to be endured. | The pain was hardly noticeable. || With kaum, sein + zu expresses possibility: kaum ertragen werden können. || @tags de.passive
+      tf: The new test shows within twenty minutes whether the body is fighting bacteria or viruses. || true || "… innerhalb von zwanzig Minuten bestimmen lässt, ob der Körper gegen Bakterien oder gegen Viren kämpft." || @ctx reading
+      mc: What was the result of the first study? || The test replaced the medical examination. | *About a third fewer antibiotics were prescribed. | More patients had to go to hospital. || "In den Praxen, die den Test nutzten, wurden etwa ein Drittel weniger Antibiotika verschrieben." || @ctx reading @skill reading
+      short: Give one reason why the result should be treated with caution. || kw: klein/small/einordnen/classif/eindeutig/clear/kosten/cost/krankenkasse/insurance || The study was small, not every infection can be clearly classified, and it is unclear who will pay. || @ctx reading
+      listen: Die neue Grippeimpfung ist ab Oktober in allen Apotheken erhältlich. Für Menschen über sechzig werden die Kosten von der Krankenkasse übernommen. || Who does not have to pay for the vaccination? || Children under twelve | *People over sixty | Pharmacy staff || "Für Menschen über sechzig werden die Kosten von der Krankenkasse übernommen." || @tags de.listening,de.passive
+      tr: The cause cannot be determined. || Die Ursache lässt sich nicht bestimmen. | Die Ursache kann nicht bestimmt werden. | Die Ursache ist nicht zu bestimmen. | Man kann die Ursache nicht bestimmen. | Die Ursache lässt sich nicht feststellen. | Die Ursache kann nicht festgestellt werden. || Passive with können, sich lassen, sein + zu or man — all are correct. || @tags de.passive
+      dict: Bei einer gewöhnlichen Erkältung ist ein Antibiotikum fast nie nötig.
+      say: Das lässt sich leider nicht so einfach beantworten. || Unfortunately that can't be answered so easily.

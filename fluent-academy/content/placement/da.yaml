@@ -1,0 +1,33 @@
+# Placement check: 7 items per level. A level is passed with 5/7 or more.
+A1: |
+  mc: Hvad ___ du? — Jeg hedder Ali. || *hedder | er | har || Hedde is used for names: Hvad hedder du? — Jeg hedder … || @skill grammar
+  mc: Det er ___ hus. || *mit | min | mine || Hus is an et-word, so the possessive is mit: mit hus. Min goes with en-words, mine with plurals. || @skill grammar
+  mc: I morgen ___ til København. || *tager jeg | jeg tager | tage jeg || Danish main clauses have the verb in second position: when the sentence starts with I morgen, the verb comes next and then the subject. || @skill grammar
+  mc: "Tres" is… || *60 | 30 | 13 || Tres = 60. Thirty is tredive and thirteen is tretten. || @skill vocabulary
+  mc: Jeg kan godt lide ___ i skoven. || *at gå | går | gå || Kan lide is followed by at + infinitive: jeg kan godt lide at gå. || @skill grammar
+  fill: Jeg sidder i ___ og drikker kaffe. || køkkenet || Køkken is an et-word, so the definite form ends in -et: køkkenet. || @hint køkken (the kitchen)
+  listen: I weekenden skal jeg besøge min mormor i Odense. || What is the speaker going to do at the weekend? || *Visit their grandmother in Odense | Visit their grandmother in Aalborg | Work in Odense || "Skal besøge min mormor i Odense." Skal + infinitive is used for plans.
+A2: |
+  fill: I går ___ jeg til min mor. || ringede || Ringe is a regular verb: the past tense ends in -ede (ringede). || @hint ringe
+  mc: Sidste weekend ___ vi en god film i biografen. || *så | ser | har set || A finished time in the past (sidste weekend) takes the past tense. Se is irregular: så. || @skill grammar
+  mc: Lise er ikke her længere. Hun ___ gået hjem. || *er | har | bliver || Gå with a destination (hjem) forms the perfect with er: hun er gået hjem. || @skill grammar
+  mc: Jeg har ondt ___ hovedet. || *i | på | med || Danish says have ondt i + body part: jeg har ondt i hovedet. || @skill grammar
+  mc: Jeg tager bussen, fordi jeg ___. || *ikke har en bil | har en bil ikke | ikke en bil har || In subordinate clauses (fordi, at, hvis …), ikke goes before the verb: fordi jeg ikke har en bil. || @skill grammar
+  mc: Aarhus er ___ end Odense. || *større | stor | størst || The comparative of stor is irregular: større … end. Størst is the superlative. || @skill grammar
+  listen: Hvis toget er forsinket i morgen, tager jeg bussen på arbejde. || What will the speaker do if the train is late tomorrow? || *Take the bus to work | Stay at home | Cycle to work || "Hvis toget er forsinket, tager jeg bussen." After a hvis-clause, the main clause starts with the verb.
+B1: |
+  mc: Jonas ringer til ___ mor hver søndag. (his own mother) || *sin | hans | sit || When the owner is the subject of the same clause, Danish uses sin/sit/sine: sin mor. Hans mor would be another man's mother, and sit goes with et-words. || @skill grammar
+  mc: Hvis jeg havde mere tid, ___ jeg lære at spille klaver. || *ville | vil | skal || Imaginary situations use hvis + past tense (havde), then ville + infinitive. || @skill grammar
+  mc: Billetterne ___ i kiosken ved indgangen. || *sælges | sælger | solgt || The s-passive: sælge → sælges (are sold). The tickets do not sell anything themselves. || @skill grammar
+  mc: Det er den bog, ___ jeg læste i sommerferien. || *som | der | hvad || When the relative pronoun is the object, only som is possible (or it can be left out). Der can only be the subject of the relative clause. || @skill grammar
+  mc: Det regnede hele dagen. ___ blev vi hjemme. || *Derfor | Selvom | Fordi || Derfor (therefore) is an adverb: it starts the main clause and the verb follows directly (blev vi). Selvom and fordi introduce subordinate clauses. || @skill grammar
+  fill: Da jeg ringede til hende, ___ hun allerede spist. || havde || The past perfect (havde + past participle) is for something that happened before another past event. || @hint have or være?
+  listen: Hun fortalte mig, at hun havde fået nyt job i Aalborg, og at hun ville flytte i august. || What did she tell the speaker? || *She had got a new job in Aalborg | She was looking for a job in Aalborg | She had moved to Aalborg in April || "At hun havde fået nyt job i Aalborg." Reported speech about the past uses the past and past perfect.
+B2: |
+  mc: Hvis jeg havde vidst det, ___ jeg have hjulpet dig. || *ville | vil | havde || The conditional perfect is ville have + past participle: ville have hjulpet. || @skill grammar
+  mc: "Du ved jo, at jeg ikke spiser kød." What does "jo" add? || *That the listener already knows this | That the speaker is asking a question | That the speaker is not sure || The sentence adverb jo marks shared knowledge, like "as you know". || @skill vocabulary
+  mc: Vejen er lukket, fordi den ___ repareret. || *bliver | har | skal || The passive with blive + past participle describes a process: den bliver repareret (it is being repaired). || @skill grammar
+  mc: ___ det dårlige vejr blev koncerten gennemført. || *Trods | Selvom | Fordi || Trods (despite) is a preposition followed by a noun phrase. Selvom and fordi need a clause with a verb. || @skill grammar
+  mc: Hvis bare jeg ___ lyttet til dig! || *havde | har | ville || Regrets about the past: hvis bare + havde + past participle. || @skill grammar
+  fill: Vi skal beslutte noget vigtigt i dag. → Vi skal træffe en vigtig ___ i dag. || beslutning || Nominal style turns the verb beslutte into the noun en beslutning; the fixed phrase is træffe en beslutning. || @hint noun from beslutte
+  listen: Forslaget lyder godt, men det kommer nok til at koste mere, end man regner med. || What does the speaker suggest? || *The proposal will probably cost more than expected | The proposal is too complicated | The proposal will save money || "Det kommer nok til at koste mere, end man regner med." The sentence adverb nok means probably.

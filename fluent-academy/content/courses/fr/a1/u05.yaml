@@ -1,0 +1,371 @@
+unit: 5
+title: Ma ville, ma maison
+theme: Places and the home
+description: Name places in town and say what there is, ask for and give directions, and describe your home and where things are.
+objectives:
+  - Name places in town and say what there is with il y a
+  - Ask for and give directions with the imperative
+  - Describe your home and say where things are
+canDo:
+  - I can say what there is (and isn't) in my town or neighbourhood.
+  - I can ask the way and understand simple directions.
+  - I can give simple directions to a stranger or a friend.
+  - I can describe my home and say where things are.
+review: |
+  fill: Rendez-vous ___ parc à midi ! || au || À + le = au: au parc. || @tags fr.contractions
+  fill: Mes parents habitent ___ États-Unis. || aux || À + les = aux: aux États-Unis. || @tags fr.contractions,fr.prepositions-countries
+  fill: La pharmacie est en face ___ musée. || du || De + le = du: en face du musée. || @tags fr.contractions,fr.prepositions-place
+  mc: "There's no bank in my street." || Il n'y a pas une banque dans ma rue. | *Il n'y a pas de banque dans ma rue. | Il y a pas banque dans ma rue. || After il n'y a pas, une becomes de. || @tags fr.negation,fr.avoir
+  mc: Your friend says "Prends la deuxième rue à droite." What do you do? || Take the first street on the left. | *Take the second street on the right. | Go straight on. || Deuxième = second; à droite = on the right. || @tags fr.imperative
+  rw: Say it to a stranger (vous) :: Tourne à gauche et traverse la rue. || Tournez à gauche et traversez la rue. || The vous imperative ends in -ez: tournez, traversez. || @tags fr.imperative
+  tr: The keys are under the bed. || Les clés sont sous le lit. || Sous = under; several things, so sont. || @tags fr.prepositions-place
+  tr: Is there a supermarket near here? || Il y a un supermarché près d'ici ? | Est-ce qu'il y a un supermarché près d'ici ? | Y a-t-il un supermarché près d'ici ? || Il y a with question intonation; près de + ici = près d'ici. || @tags fr.avoir,fr.questions
+  listen: Pour aller à la bibliothèque, traversez le parc et tournez à droite. || What do you cross? || the street | *the park | the square || "Traversez le parc" — cross the park.
+  listen: Dans la cuisine, il y a une table et quatre chaises. Le frigo est à côté de la fenêtre. || Where is the fridge? || opposite the table | *next to the window | under the window || "Le frigo est à côté de la fenêtre" — next to the window.
+  ask: A neighbour asks you the way to the nearest bakery. Give two instructions and say what it's next to. || kw: tournez/allez/prenez/continuez/traversez/tourne/va/prends/continue/traverse & à côté/en face/près || Allez tout droit et tournez à gauche. La boulangerie est à côté de la pharmacie.
+  write: Write an email to a friend who is coming to stay. Describe your neighbourhood (what there is) and your home (rooms and where they are). || min=40 || req: il y a | au/à la/à l' | chambre/salon/cuisine || Salut Léa ! Mon quartier est très sympa : il y a une boulangerie, un petit parc et un cinéma. Le samedi, il y a un marché sur la place. Mon appartement est au deuxième étage. Il y a un salon, une cuisine et deux chambres. Ta chambre est à côté de la salle de bains. À bientôt !
+lessons:
+  - title: Places in town
+    summary: Name places in town, say what there is with il y a, and use au, à la, à l' and aux to say where people are.
+    minutes: 35
+    skills: [vocabulary, grammar, listening]
+    tags: [fr.contractions, fr.prepositions-place]
+    objectives:
+      - Name the main places in a town
+      - Say what there is and isn't with il y a and il n'y a pas de
+      - Use à la, à l', au and aux to say where someone is
+    intro: |
+      Whether you are visiting a new town or describing your own, you need the names of places and two key structures: **il y a** (*there is / there are*) and **à** (*at, in, to*), which joins with le and les: **au cinéma**, **aux États-Unis**.
+    vocab: |
+      la ville | town; city | n | J'habite dans une petite ville. | I live in a small town. | g: f | c: en ville (in town); le centre-ville (town centre)
+      le quartier | neighbourhood; area | n | Mon quartier est très calme. | My neighbourhood is very quiet. | g: m
+      la gare | (train) station | n | La gare est à dix minutes. | The station is ten minutes away. | g: f
+      la poste | post office | n | Je suis à la poste. | I'm at the post office. | g: f
+      la banque | bank | n | Il y a une banque près d'ici ? | Is there a bank near here? | g: f
+      la pharmacie | chemist's; pharmacy | n | La pharmacie est ouverte le dimanche. | The pharmacy is open on Sundays. | g: f | n: Look for the green cross.
+      la boulangerie | bakery | n | Il y a une boulangerie dans ma rue. | There's a bakery in my street. | g: f
+      le supermarché | supermarket | n | Le supermarché ferme à vingt heures. | The supermarket closes at 8 p.m. | g: m
+      le musée | museum | n | Le musée est fermé le mardi. | The museum is closed on Tuesdays. | g: m | n: It ends in -ée but it's masculine.
+      le parc | park | n | Les enfants jouent au parc. | The children are playing in the park. | g: m
+      le cinéma | cinema | n | On se retrouve au cinéma ? | Shall we meet at the cinema? | g: m
+      la mairie | town hall | n | La mairie est sur la place. | The town hall is on the square. | g: f | n: In big cities: l'hôtel de ville.
+      la bibliothèque | library | n | Je travaille à la bibliothèque le samedi. | I work at the library on Saturdays. | g: f | n: A bookshop is une librairie.
+      il y a | there is; there are | expr | Il y a trois cinémas en ville. | There are three cinemas in town. | n: Negative: il n'y a pas de… In fast speech it often sounds like "y a".
+    grammar:
+      title: "Il y a, and à + le = au"
+      body: |
+        **Il y a** means *there is* or *there are*, and it never changes: *Il y a **une** pharmacie. Il y a **des** restaurants.* To ask a question, just raise your voice: *Il y a une banque près d'ici ?* In the negative, un, une and des become **de**: *Il **n'y a pas de** cinéma.*
+
+        To say **where** someone is, French uses **à** (*at, in*). À joins with **le** and **les**:
+
+        - à + **la** → **à la**: *à la gare, à la poste*
+        - à + **l'** → **à l'**: *à l'hôpital, à l'école*
+        - à + **le** → **au**: *au cinéma, au parc* (never ~~à le~~)
+        - à + **les** → **aux**: *aux États-Unis, aux toilettes*
+
+        Use it with être, habiter, travailler and to arrange where to meet: *Je suis **au** musée. Elle travaille **à la** banque. Rendez-vous **au** café !*
+
+        **De** joins with le and les in the same way — *de + le = **du***, *de + les = **des*** — as in *à côté du parc*, which you'll use in the next lesson.
+      table: |
+        Article | à + article | Example
+        la | à la | Je suis à la gare.
+        l' | à l' | Il travaille à l'hôpital.
+        le | au | On se retrouve au cinéma.
+        les | aux | Elle habite aux États-Unis.
+      examples: |
+        Il y a un marché sur la place le samedi. | There's a market on the square on Saturdays.
+        Il n'y a pas de cinéma dans mon quartier. | There's no cinema in my neighbourhood. | il n'y a pas de
+        Ma sœur travaille au musée. | My sister works at the museum. | à + le = au
+        On se retrouve à la gare à midi ? | Shall we meet at the station at noon?
+      tip: Il y a is the same for one thing or many — il y a un parc, il y a trois parcs.
+    dialogue:
+      title: Bienvenue dans le quartier
+      setting: Sofia has just moved to Strasbourg from Lisbon. She asks her neighbour, Mr Weber, about the neighbourhood.
+      speakers: S=Sofia/f; W=M. Weber/m
+      lines: |
+        S: Bonjour, monsieur. Je suis nouvelle dans le quartier. | Hello. I'm new in the neighbourhood.
+        W: Bienvenue ! Vous venez d'où ? | Welcome! Where are you from?
+        S: De Lisbonne. Il y a une boulangerie près d'ici ? | From Lisbon. Is there a bakery near here?
+        W: Oui, il y a une boulangerie dans la rue. | Yes, there's a bakery in the street.
+        S: Super ! Et une pharmacie ? | Great! And a pharmacy?
+        W: La pharmacie est à côté de la poste. | The pharmacy is next to the post office.
+        S: Il y a un supermarché aussi ? | Is there a supermarket too?
+        W: Non, il n'y a pas de supermarché ici. | No, there's no supermarket here.
+        S: Ah, c'est dommage. | Oh, that's a shame.
+        W: Mais il y a un marché le samedi, sur la place. | But there's a market on Saturdays, on the square.
+        S: Et pour les enfants, il y a un parc ? | And for children, is there a park?
+        W: Oui, un grand parc, près de l'école. | Yes, a big park, near the school.
+    pronunciation:
+      title: "Au, aux and il y a"
+      body: |
+        **Au** and **aux** are both pronounced [o], like *eau*: *au parc* [o.paʁk]. Before a vowel, **aux** links with a [z]: *aux États-Unis* [o.ze.ta.zy.ni].
+
+        **Il y a** is [i.li.ja] in careful speech, but in everyday conversation you often hear just [ja]: *y a un parc*. Recognising this short form helps a lot when you listen.
+      items: |
+        au cinéma
+        au parc
+        à la gare
+        à l'hôpital
+        aux États-Unis
+        il y a
+    culture:
+      title: Squares, town halls and pharmacies
+      body: |
+        Every French commune, even a tiny village, has a **mairie** (town hall), often on the main square next to the church. Weddings take place there, and you go there for many official documents.
+
+        Pharmacies are easy to spot thanks to their green cross. At night and on Sundays, one pharmacy in each area stays open — **la pharmacie de garde** — and the others display its address on the door.
+    mistakes: |
+      Je suis à le cinéma. => Je suis au cinéma. | À + le always becomes au.
+      Il n'y a pas un cinéma. => Il n'y a pas de cinéma. | After il n'y a pas, un / une / des become de.
+      Ils sont deux banques dans la rue. => Il y a deux banques dans la rue. | To say there are, use il y a — it never changes.
+    task:
+      title: Your neighbourhood
+      mode: speaking
+      body: |
+        Describe your neighbourhood to a new neighbour. Say five things there are (Il y a…), two things there aren't (Il n'y a pas de…), and one place where people meet (Rendez-vous au… / à la…). Record yourself in Speaking practice.
+    exercises: |
+      fill: Je suis ___ cinéma avec Paul. || au || À + le = au: au cinéma. || @tags fr.contractions,fr.prepositions-place
+      fill: Elle travaille ___ banque. || à la || À + la doesn't change: à la banque. || @tags fr.prepositions-place
+      fill: Dans mon quartier, ___ une boulangerie et deux cafés. || il y a || Il y a = there is / there are, and it doesn't change. || @tags fr.avoir
+      fill: Il n'y a pas ___ musée dans ma ville. || de || After il n'y a pas, un becomes de. || @tags fr.negation,fr.avoir
+      mc: Choose the correct sentence. || Je travaille à le musée. | *Je travaille au musée. | Je travaille aux musée. || À + le = au; aux is only for plural nouns. || @tags fr.contractions
+      mc: "Is there a pharmacy near here?" || *Il y a une pharmacie près d'ici ? | Il est une pharmacie près d'ici ? | Il a une pharmacie près d'ici ? || Il y a = there is. Il est means he/it is; il a means he has. || @tags fr.avoir,fr.questions
+      mc: Where is the pharmacy? || next to the bakery | *next to the post office | next to the school || "La pharmacie est à côté de la poste." || @ctx dialogue @skill reading @tags fr.reading
+      tf: There is a supermarket in Sofia's new neighbourhood. || false || Mr Weber says "il n'y a pas de supermarché ici" — but there's a market on Saturdays. || @ctx dialogue
+      rw: Make the sentence negative :: Il y a une gare dans le village. || Il n'y a pas de gare dans le village. || Il n'y a pas + de: une becomes de. || @tags fr.negation,fr.avoir
+      tr: There are two museums in my town. || Il y a deux musées dans ma ville. | Dans ma ville, il y a deux musées. || Il y a + number + plural noun. || @tags fr.avoir,fr.plural
+      listen: Dans mon quartier, il y a deux boulangeries, une pharmacie et un petit parc. || How many bakeries are there? || 1 | *2 | 3 || "Deux boulangeries" — two bakeries.
+      listen: @dialogue || When is there a market? || every day | *on Saturdays | on Sundays || "Il y a un marché le samedi, sur la place."
+      dict: Il y a une pharmacie à côté de la gare.
+      ask: A visitor asks about your neighbourhood. Say three things there are and one thing there isn't. || kw: il y a & il n'y a pas/il y a pas || Dans mon quartier, il y a une boulangerie, un parc et une bibliothèque, mais il n'y a pas de cinéma.
+      write: Write a short description of your town or neighbourhood for a travel forum — what there is and what there isn't. || min=30 || req: il y a | il n'y a pas || J'habite à Annecy, une petite ville près des montagnes. Il y a un lac, un vieux château et beaucoup de restaurants. Le mardi, il y a un marché dans la vieille ville. Il n'y a pas d'aéroport, mais il y a une gare.
+
+  - title: Asking for directions
+    summary: Ask the way and understand directions with the imperative (tournez, allez, prenez) and prepositions of place.
+    minutes: 40
+    skills: [listening, grammar, speaking]
+    tags: [fr.imperative, fr.prepositions-place]
+    objectives:
+      - Ask politely how to get somewhere
+      - Understand and give directions with the imperative
+      - Use à côté de, en face de, près de, loin de and entre
+    intro: |
+      Getting lost is part of travelling — and a great reason to speak French. To ask the way you need one polite question, **Pardon, où est… ?**, and to understand the answer you need the **imperative** (*tournez, allez, prenez*) and a few words for left, right and straight on.
+    vocab: |
+      où est… ? | where is…? | expr | Pardon, où est la poste, s'il vous plaît ? | Excuse me, where is the post office, please? | n: For several things: Où sont… ?
+      à gauche | on the left; left | adv | Tournez à gauche. | Turn left.
+      à droite | on the right; right | adv | La banque est à droite. | The bank is on the right. | n: Don't confuse it with tout droit (straight on).
+      tout droit | straight on | adv | Allez tout droit. | Go straight on.
+      tourner | to turn | v | Tournez à droite après le pont. | Turn right after the bridge.
+      continuer | to carry on; to continue | v | Continuez jusqu'à la place. | Carry on as far as the square. | n: Jusqu'à = as far as; jusqu'au feu (à + le = au).
+      traverser | to cross | v | Traversez la rue au feu. | Cross the street at the lights.
+      prendre | to take | v | Prenez la première rue à gauche. | Take the first street on the left. | n: Imperative: prends (tu), prenez (vous). First = premier / première; second = deuxième.
+      la rue | street | n | J'habite rue Victor-Hugo. | I live on Victor Hugo Street. | g: f | n: Addresses need no preposition: j'habite rue…, j'habite 12, rue…
+      le feu | traffic lights | n | Au feu, tournez à gauche. | At the lights, turn left. | g: m | n: Also used in the plural: les feux.
+      à côté de | next to | prep | Le café est à côté de la banque. | The café is next to the bank. | n: De + le = du: à côté du parc.
+      en face de | opposite | prep | La pharmacie est en face de la gare. | The pharmacy is opposite the station.
+      près de / loin de | near / far from | prep | C'est loin d'ici ? | Is it far from here? | n: De becomes d' before a vowel: près d'ici, loin d'ici.
+      entre | between | prep | La poste est entre la banque et le café. | The post office is between the bank and the café.
+    grammar:
+      title: The imperative for directions
+      body: |
+        The **imperative** is the verb form for instructions and directions. It has no subject pronoun.
+
+        - With **vous** (formal, or more than one person), use the present tense without *vous*: *vous tournez → **Tournez** !*, *vous prenez → **Prenez** !*, *vous allez → **Allez** !*
+        - With **tu**, use the present tense without *tu* — and for -er verbs, drop the final **-s**: *tu tournes → **Tourne** !*, *tu continues → **Continue** !* Aller also loses its s: *tu vas → **Va** !* Other verbs keep their form: *tu prends → **Prends** !*
+
+        In the street, strangers use **vous**, so the -ez forms are the ones you'll hear most.
+
+        Directions also use **prepositions of place**: *à côté de, en face de, près de, loin de, entre, jusqu'à*. When **de** meets le or les, it contracts: *à côté **du** parc, en face **des** magasins* — but *à côté **de la** gare, près **de l'**école*. **À** does the same: *jusqu'**au** feu*.
+      table: |
+        Infinitive | tu | vous
+        tourner | Tourne ! | Tournez !
+        continuer | Continue ! | Continuez !
+        traverser | Traverse ! | Traversez !
+        prendre | Prends ! | Prenez !
+        aller | Va ! | Allez !
+      examples: |
+        Allez tout droit, puis tournez à gauche. | Go straight on, then turn left.
+        Prenez la deuxième rue à droite. | Take the second street on the right.
+        Traverse la place et continue jusqu'au feu. | Cross the square and carry on to the lights. | tu form
+        La gare est en face du musée. | The station is opposite the museum. | de + le = du
+      tip: Don't confuse à droite (on the right) with tout droit (straight on) — they sound alike but mean different things.
+    dialogue:
+      title: C'est par où ?
+      setting: Mei, a tourist visiting Rouen, stops a passer-by to ask the way to the town museum.
+      speakers: M=Mei/f; P=Le passant/m
+      lines: |
+        M: Pardon, monsieur. Où est le musée, s'il vous plaît ? | Excuse me. Where is the museum, please?
+        P: Le musée ? Ce n'est pas loin. | The museum? It isn't far.
+        M: Ah, très bien ! C'est par où ? | Oh, good! Which way is it?
+        P: Allez tout droit jusqu'au feu. | Go straight on as far as the lights.
+        M: Jusqu'au feu… D'accord. | As far as the lights… OK.
+        P: Au feu, tournez à gauche. | At the lights, turn left.
+        M: Et ensuite ? | And then?
+        P: Traversez la place et prenez la rue à droite. | Cross the square and take the street on the right.
+        M: La rue à droite, après la place ? | The street on the right, after the square?
+        P: Oui. Le musée est en face de la cathédrale. | Yes. The museum is opposite the cathedral.
+        M: Merci beaucoup, monsieur ! | Thank you very much!
+        P: De rien ! Bonne visite ! | You're welcome! Enjoy your visit!
+    pronunciation:
+      title: "The French r: rue, droite, traversez"
+      body: |
+        The French **r** [ʁ] is made at the back of the mouth, near the throat — a little like a soft gargle. Keep the tip of your tongue down behind your lower teeth. Practise *rue* [ʁy], *à droite* [a.dʁwat], *tout droit* [tu.dʁwa].
+
+        Notice the final t: you hear it in *droite*, but it is silent in *droit*. In *tournez, traversez, prenez*, the ending -ez sounds like [e].
+      items: |
+        la rue
+        à droite
+        tout droit
+        traversez
+        tournez
+        prenez
+    culture:
+      title: Finding your way in a French town
+      body: |
+        In French addresses the number comes first: **12, rue de la République**. Many streets are named after famous people — *rue Victor-Hugo, avenue Jean-Jaurès* — so the same names appear in town after town.
+
+        People usually give directions with landmarks: *la place, l'église, le feu, le rond-point* (roundabout). On the road, signs for **Centre-ville** take you to the town centre, and **Toutes directions** means "all destinations".
+    mistakes: |
+      Tournes à gauche ! => Tourne à gauche ! | In the tu imperative, -er verbs lose the final -s.
+      Allez à droit. => Allez tout droit. | Straight on is tout droit; on the right is à droite (with -e).
+      Pardon, où sont la gare ? => Pardon, où est la gare ? | For one place use où est; où sont is for several things.
+    task:
+      title: Give directions
+      mode: interaction
+      body: |
+        Choose two places near your home or school. Explain the route to each one to a partner using at least three imperatives (allez, tournez, prenez, traversez…) and one preposition (à côté de, en face de…). Your partner follows on a map and says where they arrive.
+    exercises: |
+      fill: ___ à gauche après la banque. || tournez / tourne || Imperative of tourner: tournez (vous) or tourne (tu). || @tags fr.imperative @hint tourner
+      fill: ___ la rue au feu, s'il vous plaît. || traversez || Vous imperative: traversez, with no subject pronoun. || @tags fr.imperative @hint traverser (vous)
+      fill: Le café est à côté ___ parc. || du || De + le = du: à côté du parc. || @tags fr.contractions,fr.prepositions-place
+      mc: "Go straight on" is… || Allez à droite. | *Allez tout droit. | Allez à gauche. || Tout droit = straight on. À droite = (on the) right. || @tags fr.imperative
+      mc: Which is the tu form? || Tournes à gauche ! | *Tourne à gauche ! | Tournez à gauche ! || For -er verbs, the tu imperative drops the -s. Tournez is the vous form. || @tags fr.imperative
+      mc: Where is the museum? || next to the cathedral | *opposite the cathedral | behind the cathedral || "Le musée est en face de la cathédrale." || @ctx dialogue @skill reading @tags fr.reading
+      short: What does Mei have to do at the traffic lights? || kw: gauche/left || "Au feu, tournez à gauche" — turn left. || @ctx dialogue
+      rw: Say it to a friend (tu) :: Prenez la rue à droite et continuez tout droit. || Prends la rue à droite et continue tout droit. || Tu imperative: prends; continue (no -s for -er verbs). || @tags fr.imperative
+      order: Traversez la place et prenez la rue à gauche. || Cross the square and take the street on the left. || @tags fr.imperative
+      tr: Excuse me, is the bank far from here? || Pardon, la banque est loin d'ici ? | Excusez-moi, la banque est loin d'ici ? | Pardon, c'est loin d'ici, la banque ? | Pardon, est-ce que la banque est loin d'ici ? || Loin de + ici = loin d'ici. || @tags fr.prepositions-place,fr.questions
+      listen: Allez tout droit, puis prenez la deuxième rue à gauche. || Which street should you take? || the first on the right | *the second on the left | the second on the right || "La deuxième rue à gauche" — the second street on the left. || @tags fr.imperative
+      listen: @dialogue || What does Mei have to cross? || a bridge | *a square | a park || "Traversez la place" — cross the square.
+      dict: Continuez tout droit et tournez à droite au feu.
+      ask: A tourist asks you the way to the station. Give directions with at least two instructions. || kw: allez/tournez/prenez/continuez/traversez & gauche/droite/tout droit || Allez tout droit, puis tournez à gauche au feu. La gare est en face du parc.
+      write: A friend is coming to your home for the first time. Write a message with directions from the station (use tu). || min=30 || req: tourne/prends/continue/traverse/va | à gauche/à droite/tout droit || Salut Marc ! De la gare, c'est facile. Va tout droit jusqu'à la place. Traverse la place et prends la rue à droite. Continue jusqu'à la boulangerie : ma maison est en face, au numéro 12. À ce soir !
+
+  - title: My home
+    summary: Describe your flat or house — the rooms, some furniture and where things are, with il y a and prepositions.
+    minutes: 40
+    skills: [vocabulary, grammar, writing]
+    tags: [fr.prepositions-place, fr.contractions]
+    objectives:
+      - Name the rooms of a home and some furniture
+      - Say where things are with dans, sur, sous, devant, derrière, à côté de…
+      - Describe your home with il y a and adjectives
+    intro: |
+      Your home says a lot about your daily life. In this lesson you will name rooms and furniture, describe your flat or house, and say exactly where things are — **sur la table**, **sous le lit**, **à côté de la fenêtre**.
+    vocab: |
+      la maison | house; home | n | Nous habitons dans une maison avec un jardin. | We live in a house with a garden. | g: f | c: à la maison (at home)
+      l'appartement | flat; apartment | n | Mon appartement est petit mais lumineux. | My flat is small but bright. | g: m | n: Informal: un appart.
+      la pièce | room | n | C'est un appartement de trois pièces. | It's a three-room flat. | g: f | n: Une pièce is any room; une chambre is a bedroom.
+      la cuisine | kitchen | n | La cuisine est petite mais pratique. | The kitchen is small but practical. | g: f | n: Also means cooking.
+      le salon | living room | n | Le soir, on regarde la télé dans le salon. | In the evening, we watch TV in the living room. | g: m
+      la chambre | bedroom | n | Il y a deux chambres. | There are two bedrooms. | g: f
+      la salle de bains | bathroom | n | La salle de bains est à côté de la chambre. | The bathroom is next to the bedroom. | g: f | n: The toilet is often a separate room: les toilettes.
+      le jardin | garden | n | Les enfants jouent dans le jardin. | The children are playing in the garden. | g: m
+      l'étage | floor; storey | n | J'habite au deuxième étage. | I live on the second floor. | g: m | n: The ground floor is le rez-de-chaussée.
+      le lit | bed | n | Le chat dort sur le lit. | The cat is sleeping on the bed. | g: m
+      le canapé | sofa | n | Le canapé est devant la télé. | The sofa is in front of the TV. | g: m
+      la table | table | n | Les clés sont sur la table. | The keys are on the table. | g: f
+      sur / sous | on / under | prep | Le livre est sous le canapé. | The book is under the sofa.
+      devant / derrière | in front of / behind | prep | Le jardin est derrière la maison. | The garden is behind the house.
+    grammar:
+      title: "Saying where things are: dans, sur, sous…"
+      body: |
+        Short **prepositions of place** go directly before the article and the noun:
+
+        - **dans** (in): *dans la cuisine*
+        - **sur** (on): *sur la table*
+        - **sous** (under): *sous le lit*
+        - **devant** (in front of): *devant la maison*
+        - **derrière** (behind): *derrière le canapé*
+        - **entre** (between): *entre la fenêtre et la porte*
+
+        Longer prepositions end in **de**, which contracts with le and les: **à côté de** (next to), **en face de** (opposite), **près de** (near), **au fond de** (at the end of): *à côté **du** lit, en face **de la** fenêtre, près **de l'**entrée, à côté **des** toilettes*.
+
+        To describe a home, combine **il y a** with these prepositions: *Dans le salon, il y a un canapé et une table.* To ask where something is, use **Où est… ?** for one thing and **Où sont… ?** for several: *Où sont mes clés ? — Elles sont sur la table.*
+      table: |
+        Preposition | Meaning | Example
+        dans | in | dans la cuisine
+        sur | on | sur le lit
+        sous | under | sous la table
+        devant | in front of | devant la fenêtre
+        derrière | behind | derrière la porte
+        à côté de | next to | à côté du salon
+        en face de | opposite | en face de la salle de bains
+      examples: |
+        Dans le salon, il y a un grand canapé. | In the living room, there's a big sofa.
+        Mon ordinateur est sur le bureau. | My computer is on the desk.
+        Où sont mes clés ? — Elles sont sous le journal. | Where are my keys? — They're under the newspaper.
+        La salle de bains est à côté de la chambre. | The bathroom is next to the bedroom.
+      tip: Sur and sous sound close — sur has the vowel u [y], sous has ou [u]. Practise sur la table and sous la table until you can hear the difference.
+    dialogue:
+      title: La visite de l'appartement
+      setting: Thomas is visiting a flat to rent in Bordeaux. The owner, Mrs Lambert, shows him around.
+      speakers: L=Mme Lambert/f; T=Thomas/m
+      lines: |
+        L: Bonjour ! Entrez, je vous en prie. | Hello! Come in, please.
+        T: Merci. Oh, c'est très lumineux ! | Thank you. Oh, it's very bright!
+        L: Oui. Ici, c'est le salon. | Yes. This is the living room.
+        T: Et la cuisine, elle est où ? | And where's the kitchen?
+        L: Elle est à côté du salon. | It's next to the living room.
+        T: Il y a deux chambres ? | Are there two bedrooms?
+        L: Non, il y a une chambre et un bureau. | No, there's one bedroom and a study.
+        T: Et la salle de bains ? | And the bathroom?
+        L: Elle est en face de la chambre. | It's opposite the bedroom.
+        T: Il y a un jardin ? | Is there a garden?
+        L: Non, mais il y a un grand balcon. | No, but there's a big balcony.
+        T: C'est parfait pour moi ! | It's perfect for me!
+    pronunciation:
+      title: "Sur or sous? The vowels u and ou"
+      body: |
+        French has two different "oo"-like vowels. **Ou** [u] is like the vowel in English *food*: *sous, tout, roue*. **U** [y] has no English equivalent: say *ee* as in *see*, then round your lips without moving your tongue: *sur, tu, rue*.
+
+        Many words change meaning with this vowel: *sur* (on) / *sous* (under), *tu* (you) / *tout* (all). Listen and repeat each pair.
+      items: |
+        sur la table
+        sous la table
+        sur le lit
+        sous le lit
+        tu
+        tout
+    culture:
+      title: Homes in France
+      body: |
+        In big French cities most people live in flats (**appartements**) in apartment buildings (**immeubles**), often with an entry code at the door. Flats are described by their number of main rooms: **un deux-pièces** (or **T2**) has a living room and one bedroom — the kitchen and bathroom aren't counted.
+
+        Floors are counted from **le rez-de-chaussée** (ground floor). **Le premier étage** is the first floor above it, so a British "first floor" is a French *premier étage*, but an American "second floor".
+    mistakes: |
+      Le livre est sur de la table. => Le livre est sur la table. | Short prepositions like sur, sous and dans take no de.
+      Le lit est à côté de le bureau. => Le lit est à côté du bureau. | De + le always contracts to du.
+      Il y a trois chambres dans la appartement. => Il y a trois chambres dans l'appartement. | Before a vowel, le and la become l'.
+    task:
+      title: Room tour
+      mode: writing
+      body: |
+        Write a short description of your home for a home-exchange website: the rooms, one or two pieces of furniture in each room, and where they are. Then record it as a voice message, as if you were showing the rooms on a video call.
+    exercises: |
+      fill: Les clés sont ___ la table. || sur || Sur = on. || @tags fr.prepositions-place @hint on
+      fill: La salle de bains est à côté ___ salon. || du || De + le = du: à côté du salon. || @tags fr.contractions,fr.prepositions-place
+      fill: Le jardin est ___ la maison. || derrière || Derrière = behind. || @tags fr.prepositions-place @hint behind
+      fill: Où ___ mes clés ? || sont || For several things, use où sont. || @tags fr.question-words,fr.etre
+      mc: "The sofa is in front of the window." || Le canapé est derrière la fenêtre. | *Le canapé est devant la fenêtre. | Le canapé est dans la fenêtre. || Devant = in front of; derrière = behind. || @tags fr.prepositions-place
+      mc: In a French building, le rez-de-chaussée is… || the first floor above the street | *the ground floor | the basement || Le rez-de-chaussée = the ground floor; le premier étage is the floor above it. || @skill vocabulary @tags fr.vocabulary
+      mc: Where is the kitchen? || opposite the bedroom | *next to the living room | next to the balcony || "Elle est à côté du salon." || @ctx dialogue @skill reading @tags fr.reading
+      tf: The flat has a garden. || false || Mrs Lambert says "Non, mais il y a un grand balcon." || @ctx dialogue
+      rw: Answer the question negatively :: Il y a un balcon ? || Non, il n'y a pas de balcon. | Il n'y a pas de balcon. || Il n'y a pas + de: un becomes de. || @tags fr.negation,fr.avoir
+      tr: There's a big sofa in the living room. || Il y a un grand canapé dans le salon. | Dans le salon, il y a un grand canapé. || Grand goes before the noun; dans le salon = in the living room. || @tags fr.avoir,fr.adjective-position,fr.prepositions-place
+      listen: Mon appartement a trois pièces : un salon, une chambre et un bureau. La cuisine est petite. || How many rooms does the flat have? || 2 | *3 | 4 || "Trois pièces : un salon, une chambre et un bureau." The kitchen isn't counted as a pièce.
+      listen: @dialogue || What is the flat like, according to Thomas? || dark | *bright | noisy || "Oh, c'est très lumineux !" — very bright.
+      dict: Il y a une table et deux chaises dans la cuisine.
+      ask: Describe your bedroom or living room — say three things that are in it and where they are. || kw: il y a & sur/sous/dans/devant/derrière/à côté/en face/entre || Dans ma chambre, il y a un lit, une table et une lampe. La lampe est sur la table, à côté du lit.
+      write: Write an advert for a home-exchange website describing your flat or house — rooms, furniture and where things are. || min=35 || req: il y a | chambre/salon/cuisine | à côté/en face/sur/dans/devant/derrière || Mon appartement est dans le centre de Bordeaux, au troisième étage. Il y a un salon, deux chambres, une cuisine et une salle de bains. Le salon est grand, avec un canapé devant la fenêtre. La cuisine est à côté du salon. Il n'y a pas de jardin, mais il y a un petit balcon.

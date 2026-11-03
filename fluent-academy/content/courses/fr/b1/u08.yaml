@@ -1,0 +1,363 @@
+unit: 8
+title: Voyager et vivre ensemble
+theme: Society and travel
+description: Imagine more responsible ways to travel, play with hypothetical questions and discuss customs and stereotypes with nuance, using si + imparfait + conditionnel, the conditional of irregular verbs and careful generalisations.
+free: false
+objectives:
+  - Imagine situations that are not real with si + imparfait and the conditionnel
+  - Ask and answer "What would you do if…?" questions and make suggestions with et si on + imparfait
+  - Discuss customs and stereotypes with nuance, testing them with hypotheses
+canDo:
+  - I can imagine how I would travel more responsibly and explain the consequences.
+  - I can ask and answer hypothetical questions about my dreams and choices.
+  - I can make friendly suggestions with et si on…?
+  - I can talk about customs and stereotypes without generalising.
+review: |
+  fill: Si j'___ (avoir) plus d'argent, je ferais le tour du monde. || avais || Si + imparfait for an imagined situation: j'avais. || @tags fr.si-clauses
+  fill: Si nous partions en train, nous ___ (voir) plus de paysages. || verrions || Result of the hypothesis: conditional; voir has the stem verr-. || @tags fr.si-clauses,fr.conditionnel
+  mc: "Si je pars demain, je ___ le train de huit heures." (a real plan) || prendrais | *prendrai | prenais || Si + present (a real possibility) → future: je prendrai. || @tags fr.si-clauses,fr.futur-simple
+  mc: "Et si on ___ un pique-nique dimanche ?" || *faisait | ferait | fera || A suggestion with et si takes the imparfait: et si on faisait… ? || @tags fr.si-clauses
+  fill: Qu'est-ce que tu ___ (faire) si tu étais à ma place ? || ferais || Hypothetical question: conditional, faire → fer- + -ais. || @tags fr.conditionnel,fr.si-clauses
+  rw: Make it hypothetical :: S'il fait beau, on ira à la plage. || S'il faisait beau, on irait à la plage. || Imagined situation: si + imparfait (faisait) + conditional (irait). || @tags fr.si-clauses
+  tr: If I could live anywhere, I would choose Montreal. || Si je pouvais vivre n'importe où, je choisirais Montréal. | Si je pouvais habiter n'importe où, je choisirais Montréal. | Je choisirais Montréal si je pouvais vivre n'importe où. || Si + imparfait (pouvais) + conditional (choisirais); anywhere = n'importe où. || @tags fr.si-clauses
+  mc: "La plupart des touristes ___ en août." || vient | *viennent | venait || La plupart des + plural noun takes a plural verb. || @tags fr.vocabulary
+  listen: Si les trains de nuit étaient moins chers, je les prendrais pour toutes mes vacances. || What would make the speaker take night trains? || *Lower prices | More comfortable beds | Faster journeys || "Si les trains de nuit étaient moins chers…" || @tags fr.listening,fr.si-clauses
+  listen: Au Japon, on enlève ses chaussures en entrant dans une maison, alors qu'en France, ce n'est pas toujours le cas. || What is the difference between the two countries? || *In Japan people take their shoes off at home; in France not always. | In France people never wear shoes indoors. | In Japan people keep their shoes on indoors. || "Alors qu'en France, ce n'est pas toujours le cas." || @tags fr.listening
+  ask: What would you do if you could spend a year in a French-speaking country? || kw: j'irais/je partirais/je vivrais/j'habiterais/je travaillerais/j'étudierais/je ferais/je choisirais/je prendrais/j'apprendrais/je chercherais || Si je pouvais passer un an dans un pays francophone, j'irais au Sénégal. J'habiterais à Dakar, je travaillerais dans une école et j'apprendrais aussi le wolof.
+  write: Write an email to a friend imagining your ideal trip — where you would go, how you would travel and what you would do. || min=80 || req: si j'/si je/si on/si nous | irais/partirais/prendrais/voyagerais/visiterais/irait/prendrait/ferais/ferait | parce que/car/comme/puisque || Salut Tom ! Tu sais à quoi je rêve ? Si j'avais trois mois de liberté, je ferais le tour de l'Europe en train. Je partirais de Lyon en avril, parce que c'est la basse saison. Je m'arrêterais à Turin, à Vienne et à Cracovie, et je dormirais chez l'habitant pour rencontrer des gens. Si tu pouvais venir avec moi, on visiterait les Balkans ensemble. Ce serait génial, non ? Bises, Nora
+lessons:
+  - title: Travelling responsibly
+    summary: Read an article about responsible travel and imagine how things would change with si + imparfait + conditionnel.
+    minutes: 45
+    skills: [reading, grammar, writing]
+    tags: [fr.si-clauses, fr.conditionnel]
+    objectives:
+      - Understand an article about the impact of tourism and ways to travel differently
+      - Form hypotheses with si + imparfait and the conditionnel
+      - Distinguish an imagined situation (si + imparfait) from a real possibility (si + présent)
+    intro: |
+      *Si chacun changeait quelques habitudes, l'impact serait très différent.* To talk about how the world **could** be, French uses a pair of tenses: the **imparfait** after *si* and the **conditionnel** in the result. At A2 you used *si* + present for real possibilities (*si je pars, je prendrai le train*). Now you'll imagine situations that aren't real — yet.
+    vocab: |
+      le tourisme de masse | mass tourism | n | Le tourisme de masse fatigue les habitants de certaines villes. | Mass tourism wears out the residents of some cities. | g: m
+      l'empreinte carbone | carbon footprint | n | Le train réduit beaucoup l'empreinte carbone d'un voyage. | The train greatly reduces a trip's carbon footprint. | g: f
+      le train de nuit | the night train; the sleeper | n | On a pris le train de nuit pour Nice. | We took the night train to Nice. | g: m
+      un séjour chez l'habitant | a homestay | n | Nous avons fait un séjour chez l'habitant au Maroc. | We did a homestay in Morocco. | g: m
+      la basse saison | the low season | n | Les prix sont plus bas en basse saison. | Prices are lower in the low season. | g: f | n: Opposite: la haute saison.
+      saturé | overcrowded; saturated | adj | En août, les plages sont saturées. | In August the beaches are overcrowded. | n: Feminine: saturée.
+      sur place | on site; locally; there | adv | On loue des vélos sur place. | We rent bikes when we get there.
+      dépenser | to spend (money) | v | Les touristes dépensent beaucoup dans les grands hôtels. | Tourists spend a lot in big hotels. | n: Passer = to spend (time).
+      un lieu | a place | n | Certains lieux sont trop visités. | Some places get too many visitors. | g: m | pl: des lieux
+      faire partie de | to be part of | expr | Le trajet fait partie du voyage. | The journey is part of the trip.
+      local | local | adj | Nous mangeons dans les restaurants locaux. | We eat in local restaurants. | n: Feminine: locale; masculine plural: locaux.
+      plutôt que | rather than | conj | Je préfère le train plutôt que l'avion. | I prefer the train rather than the plane. | n: Before an infinitive: plutôt que de partir.
+    grammar:
+      title: Hypotheses — si + imparfait, conditionnel
+      body: |
+        To imagine a situation that is **not real** now, or that is unlikely, use:
+
+        **si + imparfait** (the condition) → **conditionnel** (the result)
+
+        *Si je **partais** en Europe, je **prendrais** le train.* · *Si les touristes **venaient** au printemps, les villages **seraient** moins saturés.*
+
+        The two parts can swap places: *Je **prendrais** le train si je **partais** en Europe.*
+
+        **Never** put the conditional directly after *si*: ~~si je serais~~ → *si j'**étais***.
+
+        Compare with what you learned at A2:
+        - *Si je **pars** cet été, je **prendrai** le train.* — a real plan or possibility: si + présent → futur.
+        - *Si je **partais** cet été, je **prendrais** le train.* — I'm only imagining it: si + imparfait → conditionnel.
+
+        *Si* becomes *s'* only before *il / ils*: *S'il faisait beau…*, but *si elle venait…*
+      table: |
+        Condition | Result | Type
+        Si je partais en Europe, | je prendrais le train. | imagined
+        Si les touristes venaient au printemps, | les villages seraient moins saturés. | imagined
+        Si on mangeait local, | l'argent resterait dans la région. | imagined
+        Si je pars cet été, | je prendrai le train. | real possibility (A2)
+      examples: |
+        Si j'avais plus de vacances, je voyagerais plus lentement. | If I had more holiday, I would travel more slowly. | si + imparfait → conditionnel
+        On polluerait moins si on prenait le train. | We would pollute less if we took the train. | result first
+        S'il y avait moins de touristes en août, la ville serait plus agréable. | If there were fewer tourists in August, the town would be more pleasant. | s'il y avait
+        Si je pars en mai, je prendrai le train de nuit. | If I go in May, I'll take the night train. | a real plan: présent → futur
+      tip: "Never use the conditional right after si: si j'avais (not si j'aurais) le temps, je partirais."
+    reading:
+      title: Voyager autrement
+      text: |
+        Le tourisme fait vivre de nombreuses régions, mais il a aussi un coût pour la planète et pour les habitants des lieux les plus visités. Faut-il arrêter de voyager ? Pas forcément. Mais si chacun changeait quelques habitudes, l'impact serait déjà très différent. Nous avons demandé à trois spécialistes du voyage responsable ce qu'ils feraient à notre place.
+
+        « Si je partais en vacances en Europe, je prendrais le train plutôt que l'avion », explique Manon Lefort, autrice d'un guide sur le voyage lent. « Le trajet ferait partie du voyage. En train de nuit, par exemple, on économiserait une nuit d'hôtel et on arriverait reposé. »
+
+        Pour Idriss Benamar, guide de montagne dans les Pyrénées, le problème, c'est la concentration des visiteurs. « Si les touristes venaient au printemps ou en automne, les villages seraient moins saturés en août, et les habitants pourraient mieux profiter de leur région. »
+
+        Enfin, Sophie Nguyen, qui organise des séjours chez l'habitant, insiste sur l'argent dépensé sur place : « Si on dormait chez des habitants et si on mangeait dans les petits restaurants locaux, l'argent du tourisme resterait dans la région. Et on découvrirait la vraie vie du pays ! »
+
+        Ces conseils ne sont pas toujours faciles à suivre : le train coûte parfois plus cher, et tout le monde ne peut pas choisir ses dates de vacances. Mais si on voyageait un peu moins loin et un peu plus longtemps, on aurait peut-être des souvenirs plus riches. Et vous, que changeriez-vous si vous pouviez organiser vos prochaines vacances autrement ?
+      translation: |
+        Tourism keeps many regions alive, but it also has a cost for the planet and for the residents of the most visited places. Should we stop travelling? Not necessarily. But if everyone changed a few habits, the impact would already be very different. We asked three responsible-travel specialists what they would do in our place.
+
+        "If I went on holiday in Europe, I would take the train rather than the plane," explains Manon Lefort, author of a guide to slow travel. "The journey would be part of the trip. On a night train, for example, you would save a night in a hotel and arrive rested."
+
+        For Idriss Benamar, a mountain guide in the Pyrenees, the problem is that visitors all come at the same time. "If tourists came in spring or autumn, the villages would be less overcrowded in August, and the residents could enjoy their region more."
+
+        Finally, Sophie Nguyen, who organises homestays, stresses the money spent locally: "If we slept in people's homes and ate in small local restaurants, the money from tourism would stay in the region. And we would discover the country's real life!"
+
+        This advice isn't always easy to follow: the train is sometimes more expensive, and not everyone can choose their holiday dates. But if we travelled a little less far and a little longer, we might have richer memories. And you — what would you change if you could organise your next holiday differently?
+    pronunciation:
+      title: "Si je partais… je partirais"
+      body: |
+        The imparfait and the conditional share the same endings (*-ais, -ait, -aient* = [ɛ]), so listen for the **[ʁ]** just before the ending: it signals the conditional. *Si je partais* [paʁ.tɛ] → *je partirais* [paʁ.ti.ʁɛ]; *on prenait* [pʁə.nɛ] → *on prendrait* [pʁɑ̃.dʁɛ].
+
+        In a *si* sentence, the voice rises at the end of the condition and falls at the end of the result: *Si j'avais le temps ↗, je partirais ↘.*
+      items: |
+        si je partais
+        je partirais
+        si on prenait le train
+        on prendrait le train
+        si j'avais le temps
+        j'aurais
+    culture:
+      title: Le retour des trains de nuit
+      body: |
+        After many night-train lines closed in the 2000s and 2010s, France has reopened several since 2021, for example between Paris and Nice, as interest in low-carbon travel grows. To spread tourism over the year, France also divides the country into three zones (A, B and C) with different dates for the winter and spring school holidays, so that ski resorts and holiday regions are not full all at once.
+    mistakes: |
+      Si je serais riche, je voyagerais. => Si j'étais riche, je voyagerais. | Never use the conditional after si: use the imparfait.
+      Si j'avais le temps, je partirai en Asie. => Si j'avais le temps, je partirais en Asie. | With si + imparfait, the result is in the conditional (-ais), not the future (-ai).
+      Si je pars demain, je prendrais le train. => Si je pars demain, je prendrai le train. | With si + present (a real possibility), use the future in the result.
+    task:
+      title: My ideal responsible trip
+      mode: writing
+      body: |
+        Write a short text (80–100 words) answering the question at the end of the article: *Que changeriez-vous si vous pouviez organiser vos prochaines vacances autrement ?* Use at least four hypotheses with *si + imparfait + conditionnel* (*Si je partais…, je prendrais…, on dormirait…*) and explain the consequences.
+    exercises: |
+      fill: Si je ___ (partir) en Europe, je prendrais le train. || partais || The condition: si + imparfait. || @tags fr.si-clauses
+      fill: Si les touristes venaient en automne, les villages ___ (être) moins saturés. || seraient || The result: conditional, être → ser- + -aient. || @tags fr.si-clauses,fr.conditionnel
+      fill: Si on ___ (manger) dans les restaurants locaux, l'argent resterait dans la région. || mangeait || Si + imparfait; manger keeps its e before a: mangeait. || @tags fr.si-clauses
+      fill: Nous ___ (voyager) plus souvent si le train était moins cher. || voyagerions || The result comes first here: conditional, nous voyagerions. || @tags fr.si-clauses,fr.conditionnel
+      mc: Choose the correct sentence. || Si j'aurais plus de vacances, je partirais. | *Si j'avais plus de vacances, je partirais. | Si j'avais plus de vacances, je partirai. || Si + imparfait (avais), then the conditional (partirais). || @tags fr.si-clauses
+      mc: "Si je pars cet été, je ___ le train." (a real plan) || prendrais | *prendrai | prenais || A real possibility: si + présent → futur (je prendrai). || @tags fr.si-clauses,fr.futur-simple
+      mc: Why does Manon Lefort recommend the night train? || *You save a night in a hotel and arrive rested. | It's always cheaper than the plane. | It's faster than the plane. || "On économiserait une nuit d'hôtel et on arriverait reposé." || @ctx reading @tags fr.reading
+      tf: Idriss Benamar would like more tourists to come in August. || false || He'd like them to come in spring or autumn, so that villages are less overcrowded in August. || @ctx reading
+      short: According to Sophie Nguyen, where would the money from tourism stay? || kw: région/region/local/sur place/locally || "L'argent du tourisme resterait dans la région." || @ctx reading
+      listen: Si j'avais deux semaines de vacances, j'irais en Écosse à vélo, et je dormirais chez l'habitant. || How would the speaker travel? || *By bike, staying with local people | By plane, staying in hotels | By car, camping || "J'irais en Écosse à vélo, et je dormirais chez l'habitant." || @tags fr.listening,fr.si-clauses
+      rw: Turn the real plan into an imagined situation :: Si je gagne ce concours, je partirai au Japon. || Si je gagnais ce concours, je partirais au Japon. || Imagined: si + imparfait (gagnais) + conditional (partirais). || @tags fr.si-clauses
+      tr: If I had more time, I would travel by train. || Si j'avais plus de temps, je voyagerais en train. | Si j'avais plus de temps, je prendrais le train. | Je voyagerais en train si j'avais plus de temps. | Je prendrais le train si j'avais plus de temps. || Si + imparfait (avais) + conditional (voyagerais). || @tags fr.si-clauses
+      dict: Si on voyageait moins loin, on aurait peut-être des souvenirs plus riches. || voyageait
+      ask: How would you change your next holiday to travel more responsibly? Answer with si + imparfait + conditionnel. || kw: si j'/si je/si on/si nous & rais/rait/rions || Si je partais en vacances cet été, je prendrais le train plutôt que l'avion, et je dormirais chez l'habitant. On dépenserait notre argent sur place.
+
+  - title: "What would you do if…?"
+    summary: Ask and answer hypothetical questions about dreams and choices, use irregular conditionals and suggest plans with et si on…?
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [fr.si-clauses, fr.conditionnel]
+    objectives:
+      - Ask and answer "What would you do if…?" questions
+      - Use the conditional of irregular verbs (irais, ferais, verrais, viendrais…)
+      - Make suggestions with et si on + imparfait and give advice with si j'étais toi
+    intro: |
+      *Si tu gagnais au loto, qu'est-ce que tu ferais ?* Hypothetical questions are a classic way to get to know people — and a great way to practise. In this lesson you'll play the game "Et si…?" with three friends, learn the irregular conditionals you need most, and discover a very friendly way to make suggestions: *Et si on rentrait ?*
+    vocab: |
+      gagner au loto | to win the lottery | expr | Si je gagnais au loto, j'achèterais une maison. | If I won the lottery, I'd buy a house.
+      n'importe quel | any (at all) | det | Tu peux choisir n'importe quel pays. | You can choose any country. | n: Feminine: n'importe quelle. Also n'importe où (anywhere), n'importe qui (anyone).
+      célèbre | famous | adj | Elle aimerait rencontrer une chanteuse célèbre. | She'd like to meet a famous singer. | n: Same form for men and women.
+      trempé | soaked; drenched | adj | On est rentrés trempés de la promenade. | We came back from the walk soaked. | n: Feminine: trempée.
+      un orage | a storm; a thunderstorm | n | Il va y avoir un orage ce soir. | There's going to be a storm tonight. | g: m
+      changer de vie | to change one's life | expr | Si je pouvais, je changerais de vie. | If I could, I'd change my life.
+      faire le tour du monde | to travel around the world | expr | Ils ont fait le tour du monde en voilier. | They sailed around the world.
+      réaliser un rêve | to make a dream come true | expr | Partir au Québec, c'était réaliser un rêve. | Going to Quebec was a dream come true.
+      avoir le courage de | to have the courage to | expr | Je n'aurais pas le courage de tout quitter. | I wouldn't have the courage to leave everything.
+      au bord de la mer | by the sea; at the seaside | expr | Ils ont une petite maison au bord de la mer. | They have a little house by the sea.
+      à mon tour | my turn | expr | À mon tour de poser une question ! | My turn to ask a question! | n: À ton tour, à votre tour…
+      rêver de | to dream of | v | Je rêve de vivre à la montagne. | I dream of living in the mountains.
+    grammar:
+      title: "Imagining: what would you do if…?"
+      body: |
+        To ask a hypothetical question, put the **conditional** in the question and the **imparfait** after *si*: *Si tu **gagnais** au loto, qu'est-ce que tu **ferais** ? Où est-ce que vous **iriez** si vous **pouviez** vivre n'importe où ?*
+
+        Many frequent verbs have an **irregular conditional stem** — the same as in the future: *aller → **ir**ais*, *faire → **fer**ais*, *voir → **verr**ais*, *venir → **viendr**ais*, *être → **ser**ais*, *avoir → **aur**ais*, *pouvoir → **pourr**ais*, *savoir → **saur**ais*, *envoyer → **enverr**ais*, *il faut → il **faudr**ait*. Some -er verbs change their spelling: *acheter → j'**achèter**ais*, *appeler → j'**appeller**ais*.
+
+        Two very useful patterns:
+        - **Si j'étais toi / vous**, je… = If I were you, I'd…: *Si j'étais toi, j'arrêterais tout de suite !*
+        - **Et si on + imparfait ?** = How about…? A friendly suggestion, with no second clause: *Et si on **rentrait** avant l'orage ?*
+      table: |
+        Infinitive | Conditional stem | Example
+        aller | ir- | J'irais au Québec.
+        faire | fer- | Qu'est-ce que tu ferais ?
+        voir | verr- | Je verrais de vrais hivers.
+        venir | viendr- | Tu viendrais avec moi ?
+        acheter | achèter- | J'achèterais une maison.
+        falloir | faudr- | Il faudrait apprendre la langue.
+      examples: |
+        Si tu pouvais changer de métier, qu'est-ce que tu choisirais ? | If you could change jobs, what would you choose? | hypothetical question
+        Si nous avions un an de liberté, nous ferions le tour du monde. | If we had a year off, we'd travel around the world. | faire → ferions
+        Si j'étais toi, j'accepterais ce poste. | If I were you, I'd accept this job. | advice
+        Et si on allait au cinéma ce soir ? | How about going to the cinema tonight? | suggestion
+      tip: "Et si on + imparfait ? is the friendliest way to suggest something: Et si on partait ce week-end ?"
+    dialogue:
+      title: Le jeu du « Et si… »
+      setting: A picnic on the banks of the Saône in Lyon on a Sunday afternoon. Salomé suggests a game to her friends Lucas and Fatou.
+      speakers: S=Salomé/f; L=Lucas/m; F=Fatou/f
+      lines: |
+        S: On joue à « Et si… » ? Chacun pose une question, et les autres répondent vite ! | Shall we play "What if…"? Everyone asks a question, and the others answer quickly!
+        L: OK, je commence. Si tu gagnais au loto demain, qu'est-ce que tu ferais ? | OK, I'll start. If you won the lottery tomorrow, what would you do?
+        F: J'achèterais une maison au bord de la mer et j'inviterais tous mes amis ! | I'd buy a house by the sea and invite all my friends!
+        S: Moi, je continuerais à travailler, mais je prendrais une année pour voyager. | I'd keep working, but I'd take a year off to travel.
+        L: Vraiment ? Si j'étais toi, j'arrêterais tout de suite ! | Really? If I were you, I'd stop straight away!
+        F: À mon tour. Si vous pouviez vivre dans n'importe quel pays, où est-ce que vous iriez ? | My turn. If you could live in any country, where would you go?
+        L: J'irais au Québec. Je parlerais français et je verrais de vrais hivers ! | I'd go to Quebec. I'd speak French and I'd see real winters!
+        S: Moi, je choisirais le Portugal. Il ferait beau et la vie serait plus calme. | I'd choose Portugal. The weather would be nice and life would be calmer.
+        F: Et si vous pouviez rencontrer une personne célèbre, qui ce serait ? | And if you could meet a famous person, who would it be?
+        S: Marie Curie ! Je lui demanderais comment elle a trouvé le courage de tout faire. | Marie Curie! I'd ask her how she found the courage to do everything.
+        L: Bon, il commence à pleuvoir… Et si on rentrait avant d'être trempés ? | Right, it's starting to rain… How about heading home before we get soaked?
+        F: Bonne idée ! Si on courait, on arriverait avant l'orage ! | Good idea! If we ran, we'd get there before the storm!
+    pronunciation:
+      title: "Conditional or imparfait? je ferais / je faisais"
+      body: |
+        Several irregular conditionals look and sound close to the imparfait. Listen for the **[ʁ]**: *je ferais* [fə.ʁɛ] (conditional) / *je faisais* [fə.zɛ] (imparfait); *j'irais* [ʒi.ʁɛ] / *j'allais* [ʒa.lɛ]; *il ferait beau* [fə.ʁɛ] / *il faisait beau* [fə.zɛ].
+
+        In *Et si on rentrait ?*, the voice rises at the end like a question: it's an invitation, not an order.
+      items: |
+        je ferais
+        je faisais
+        j'irais
+        j'allais
+        il ferait beau
+        et si on rentrait ?
+    culture:
+      title: Le rêve québécois
+      body: |
+        Quebec is a dream destination for many young French people: the language is shared, the nature is spectacular and the winters are legendary. A working holiday programme allows French citizens aged 18 to 35 to live and work in Canada for up to two years, and thousands take part every year. They quickly discover that Quebec French has its own words — *magasiner* (to go shopping), *le char* (the car), *une blonde* (a girlfriend)!
+    mistakes: |
+      Si tu gagnerais au loto, qu'est-ce que tu ferais ? => Si tu gagnais au loto, qu'est-ce que tu ferais ? | No conditional after si: use the imparfait.
+      J'allerais au Québec. => J'irais au Québec. | Aller has the irregular conditional stem ir-.
+      Qu'est-ce que tu feras si tu pouvais partir ? => Qu'est-ce que tu ferais si tu pouvais partir ? | With si + imparfait, the other clause takes the conditional, not the future.
+    task:
+      title: The "Et si…" game
+      mode: interaction
+      body: |
+        Play the game from the dialogue in a group of three or four. Each person prepares three original "What if…?" questions (*Si tu pouvais…, si tu étais…, si tu avais…*). Answer quickly with at least two conditionals and give one piece of advice with *si j'étais toi*. End by suggesting a real plan with *Et si on…?* — then practise suggesting plans in the "Making weekend plans" scenario with the AI coach.
+    exercises: |
+      fill: Si tu pouvais vivre ailleurs, où est-ce que tu ___ (aller) ? || irais || Aller has the irregular conditional stem ir-: tu irais. || @tags fr.conditionnel,fr.si-clauses
+      fill: Qu'est-ce que vous ___ (faire) si vous aviez un an de liberté ? || feriez || Faire → fer- + -iez: vous feriez. || @tags fr.conditionnel,fr.si-clauses
+      fill: Si nous ___ (avoir) une voiture, nous partirions ce week-end. || avions || The condition: si + imparfait (nous avions). || @tags fr.si-clauses
+      fill: S'il ___ (faire) beau, on pique-niquerait au parc. || faisait || The condition: si + imparfait (il faisait). || @tags fr.si-clauses
+      mc: "Et si on ___ au cinéma ce soir ?" (a suggestion) || irait | *allait | va || A suggestion with et si takes the imparfait: et si on allait… ? || @tags fr.si-clauses
+      mc: "Si j'étais toi, j'___ ta sœur tout de suite." || appelle | *appellerais | appellerai || Advice with si j'étais toi: conditional, j'appellerais (double l). || @tags fr.conditionnel,fr.si-clauses
+      mc: "N'importe quel pays" means… || *any country at all | no country | a particular country || N'importe quel = any (at all). || @skill vocabulary @tags fr.vocabulary
+      tf: Salomé would stop working if she won the lottery. || false || She'd keep working but take a year off to travel. It's Lucas who would stop. || @ctx dialogue
+      short: Which country would Lucas choose? || kw: Québec/Quebec/Canada || "J'irais au Québec." || @ctx dialogue
+      listen: @dialogue || Why do the friends decide to go home? || *It's starting to rain. | It's getting dark. | They're hungry. || "Il commence à pleuvoir… Et si on rentrait avant d'être trempés ?" || @tags fr.listening
+      listen: Si je pouvais changer de métier, je deviendrais guide de montagne, parce que j'adore marcher et rencontrer des gens. || What job would the speaker choose? || *Mountain guide | Travel agent | Sports teacher || "Je deviendrais guide de montagne." || @tags fr.listening,fr.si-clauses
+      rw: Make it hypothetical :: Si tu viens à Lyon, je te montrerai la vieille ville. || Si tu venais à Lyon, je te montrerais la vieille ville. || Imagined: si + imparfait (venais) + conditional (montrerais). || @tags fr.si-clauses
+      tr: What would you do if you were the mayor? (tu) || Qu'est-ce que tu ferais si tu étais maire ? | Que ferais-tu si tu étais maire ? | Qu'est-ce que tu ferais si tu étais le maire ? | Si tu étais maire, qu'est-ce que tu ferais ? | Si tu étais maire, que ferais-tu ? || Si + imparfait (étais) + conditional (ferais). || @tags fr.si-clauses
+      dict: Si vous pouviez rencontrer une personne célèbre, qui choisiriez-vous ? || choisiriez
+      ask: Answer this question: « Si tu avais un mois de vacances et un budget illimité, qu'est-ce que tu ferais ? » || kw: ferais/irais/partirais/visiterais/voyagerais/achèterais/prendrais/louerais/inviterais/resterais/apprendrais/dormirais || Si j'avais un mois de vacances et un budget illimité, je partirais en Patagonie. Je louerais une voiture et je visiterais les glaciers, et j'inviterais ma meilleure amie.
+
+  - title: Customs and stereotypes
+    summary: Talk about customs that surprise you and discuss stereotypes with nuance, testing them with hypotheses.
+    minutes: 45
+    skills: [speaking, listening, grammar]
+    tags: [fr.si-clauses, fr.opinion]
+    objectives:
+      - Talk about customs and intercultural surprises
+      - Generalise carefully with en général, la plupart des, pas forcément and ça dépend
+      - Test a stereotype with a hypothesis and contrast two cultures with alors que
+    intro: |
+      *Les Français mangent des escargots, ils râlent tout le temps et ils arrivent en retard…* Every country has its clichés. Discussing them is a great B1 conversation topic, because it combines everything you have learned: reporting what people say (*on dit que*), giving nuanced opinions (*je ne pense pas que ce soit vrai*) and testing ideas with hypotheses (*si c'était vrai, il n'y aurait plus d'escargots !*).
+    vocab: |
+      un stéréotype | a stereotype | n | C'est un stéréotype : tous les Français ne portent pas de béret ! | That's a stereotype: not all French people wear berets! | g: m
+      un cliché | a cliché | n | Les clichés sur les Parisiens ont la vie dure. | Clichés about Parisians die hard. | g: m
+      une coutume | a custom | n | Chaque région a ses coutumes. | Every region has its customs. | g: f
+      râler | to grumble; to moan | v | Il râle tout le temps, mais il est très gentil. | He grumbles all the time, but he's very kind. | n: Informal. Un râleur, une râleuse = a moaner.
+      faire la bise | to greet with a kiss on the cheek | expr | Entre amis, on se fait la bise. | Among friends, people greet each other with a kiss on the cheek.
+      la politesse | politeness | n | La politesse, c'est d'abord dire bonjour. | Politeness is first of all saying hello. | g: f
+      à l'heure pile | on the dot; exactly on time | expr | Il est arrivé à vingt heures pile. | He arrived at eight on the dot.
+      généraliser | to generalise | v | Il ne faut pas généraliser : chacun est différent. | You mustn't generalise: everyone is different.
+      choquer | to shock | v | Ça m'a choquée qu'on dîne si tard. | It shocked me that people have dinner so late. | n: Ça m'a choqué(e) que + subjunctive.
+      il paraît que | apparently; they say that | expr | Il paraît que les Lyonnais adorent la bonne cuisine. | Apparently people from Lyon love good food. | n: Followed by the indicative.
+      la plupart des | most (of the) | det | La plupart des étudiants travaillent l'été. | Most students work in the summer. | n: Takes a plural verb.
+      pas forcément | not necessarily | adv | Les Parisiens ne sont pas forcément pressés. | Parisians aren't necessarily in a hurry.
+    grammar:
+      title: Talking about customs with nuance
+      body: |
+        When you talk about customs and stereotypes, avoid sweeping statements. Combine these tools:
+
+        - **Generalise carefully**: *en général, souvent, plutôt, beaucoup de / certains / la plupart des* + plural verb: *La plupart des Français **font** la bise entre amis.*
+        - **Add nuance**: *pas forcément, ça dépend (des gens, des régions, des générations)*.
+        - **Report a cliché**: *on dit que, il paraît que* + indicative: *Il paraît que les Français **râlent** beaucoup.*
+        - **Test a stereotype with a hypothesis**: *Si c'**était** vrai, il n'y **aurait** plus d'escargots en France !*
+        - **Contrast two cultures** with *alors que* + indicative: *Ici, on arrive dix minutes en retard, **alors que** chez moi, on arrive à l'heure pile.*
+        - **Disagree** with the subjunctive (unit 5): *Je ne pense pas que ce **soit** vrai pour tout le monde.*
+      table: |
+        To… | Say | Example
+        generalise carefully | en général, la plupart des, beaucoup de | La plupart des Français font la bise entre amis.
+        add nuance | pas forcément, ça dépend, plutôt | Ça dépend des régions.
+        report a cliché | on dit que, il paraît que + indicative | Il paraît que les Français râlent.
+        test a stereotype | si + imparfait → conditional | Si c'était vrai, il n'y aurait plus d'escargots.
+        contrast | alors que + indicative | Ici on dîne tard, alors que chez moi on dîne à six heures.
+        disagree | je ne pense pas que + subjunctive | Je ne pense pas que ce soit une règle.
+      examples: |
+        En général, les Français dînent vers vingt heures. | In general, French people have dinner around eight. | careful generalisation
+        Si tous les Parisiens étaient pressés, personne ne prendrait le temps de boire un café en terrasse ! | If all Parisians were in a hurry, nobody would take time for a coffee on a terrace! | testing a stereotype
+        Chez moi, on se serre la main, alors qu'ici, on se fait la bise. | Where I'm from, people shake hands, whereas here they kiss on the cheek. | contrast
+        Je ne pense pas que tous les Français soient râleurs. | I don't think all French people are moaners. | disagreement + subjunctive
+      tip: "La plupart des takes a plural verb: La plupart des gens font la bise. Il paraît que takes the indicative: Il paraît que c'est vrai."
+    dialogue:
+      title: Clichés et cartes postales
+      setting: A café near the university in Toulouse. Kasia, an exchange student from Kraków, talks with her French friend Mathis about what surprised her when she arrived.
+      speakers: K=Kasia/f; M=Mathis/m
+      lines: |
+        K: Avant de venir, je pensais que tous les Français mangeaient des escargots ! | Before coming, I thought all French people ate snails!
+        M: Ha ! Si c'était vrai, il n'y aurait plus un seul escargot en France ! | Ha! If that were true, there wouldn't be a single snail left in France!
+        K: Et on dit aussi que les Français râlent tout le temps. C'est un cliché ? | And people also say the French moan all the time. Is that a cliché?
+        M: Pas forcément… On aime bien critiquer, mais c'est souvent pour lancer la discussion. | Not necessarily… We do like to criticise, but it's often to get a discussion going.
+        K: En Pologne, si quelqu'un se plaignait autant, on penserait qu'il est malheureux. | In Poland, if someone complained that much, people would think he was unhappy.
+        M: Et chez vous, les gens se font la bise ? | And where you're from, do people kiss on the cheek?
+        K: Non, pas vraiment. Le premier jour, quand on m'a fait la bise, j'étais complètement perdue ! | No, not really. The first day, when someone kissed me on the cheek, I was completely lost!
+        M: Je comprends ! Si je partais en Pologne, je ferais sûrement des erreurs aussi. | I understand! If I went to Poland, I'd probably make mistakes too.
+        K: Par exemple, tu arriverais à l'heure pile, alors qu'ici on arrive dix minutes en retard ! | For example, you'd arrive exactly on time, whereas here people arrive ten minutes late!
+        M: Ah oui, le quart d'heure de politesse ! Mais ce n'est pas une règle partout. | Oh yes, the "polite quarter of an hour"! But it isn't a rule everywhere.
+        K: Finalement, les stéréotypes, c'est comme les cartes postales : un peu vrai, mais très incomplet. | In the end, stereotypes are like postcards: a bit true, but very incomplete.
+        M: Exactement. Si on voyageait plus, on aurait sûrement moins de clichés ! | Exactly. If we travelled more, we'd surely have fewer clichés!
+    pronunciation:
+      title: "Nuance: pas forcément, ça dépend"
+      body: |
+        Nuance is often carried by the voice. *Pas forcément…* is said slowly, with the last syllable lengthened and a slight rise, as if you were thinking: [pa.fɔʁ.se.mɑ̃ː]. *Ça dépend* falls at the end and is often followed by a pause before the explanation.
+
+        In *la plupart des gens*, the **t** of *plupart* is silent: [la.ply.paʁ.de.ʒɑ̃]. In *il paraît que*, the **t** is silent too: [il.pa.ʁɛ.kə].
+      items: |
+        pas forcément
+        ça dépend
+        en général
+        il paraît que
+        la plupart des gens
+        si c'était vrai
+    culture:
+      title: La bise et le quart d'heure de politesse
+      body: |
+        *La bise* — light kisses on the cheeks — is common among friends and family in France: usually two, but three or even four in some regions, and sometimes just one in parts of Brittany. In many workplaces, a handshake or a simple *bonjour* is now more usual. When invited to dinner at someone's home, arriving ten or fifteen minutes after the agreed time is often considered polite — *le quart d'heure de politesse* — but for a professional meeting or a doctor's appointment, punctuality is expected.
+    mistakes: |
+      Si c'était vrai, il n'y aura plus d'escargots. => Si c'était vrai, il n'y aurait plus d'escargots. | Si + imparfait → the result is in the conditional.
+      La plupart des Français fait la bise. => La plupart des Français font la bise. | La plupart des + plural noun takes a plural verb.
+      Il paraît que les Français soient râleurs. => Il paraît que les Français sont râleurs. | Il paraît que is followed by the indicative.
+    task:
+      title: Clichés about my country
+      mode: interaction
+      body: |
+        Present two common stereotypes about your country or region to a partner. For each one, say where it comes from (*on dit que, il paraît que*), whether it is true (*pas forcément, ça dépend, en général*) and test it with a hypothesis (*si c'était vrai, …*). Your partner compares with their own culture using *alors que*. Then discuss whether stereotypes are useful in the "Expressing an opinion" scenario with the AI coach.
+    exercises: |
+      fill: Si c'était vrai, il n'y ___ (avoir) plus d'escargots en France ! || aurait || The result of the hypothesis: conditional, il y aurait. || @tags fr.si-clauses,fr.conditionnel
+      fill: Si je ___ (partir) en Pologne, je ferais sûrement des erreurs. || partais || The condition: si + imparfait. || @tags fr.si-clauses
+      fill: La plupart des Français ___ (faire) la bise entre amis. || font || La plupart des + plural noun: plural verb. || @tags fr.vocabulary
+      fill: Il paraît que les Lyonnais ___ (adorer) la bonne cuisine. || adorent || Il paraît que + indicative. || @tags fr.reported-speech
+      mc: "Ici, on dîne vers vingt heures, ___ chez moi, on dîne à dix-huit heures." || *alors que | parce que | donc || Two different habits are contrasted: alors que (whereas). || @tags fr.connectors
+      mc: Someone says "Les Français ne parlent pas anglais." Which answer is nuanced? || *Pas forcément, ça dépend des gens et des générations. | Oui, aucun Français ne parle anglais. | Si les Français parleraient anglais, ce serait mieux. || The first answer nuances; the second generalises; the third has a conditional after si. || @tags fr.opinion,fr.si-clauses
+      mc: "Râler" means… || *to grumble | to laugh loudly | to be late || Râler (informal) = to grumble, to moan. || @skill vocabulary @tags fr.vocabulary
+      tf: According to Kasia, people in Poland greet friends with a kiss on the cheek as often as in France. || false || "Non, pas vraiment." The bise surprised her on her first day. || @ctx dialogue
+      short: What does Kasia compare stereotypes to? || kw: carte postale/cartes postales/postcard/postcards || "C'est comme les cartes postales : un peu vrai, mais très incomplet." || @ctx dialogue
+      listen: @dialogue || Why, according to Mathis, do French people like to criticise? || *It's often a way to get a discussion going. | Because they are unhappy. | Because it's polite. || "C'est souvent pour lancer la discussion." || @tags fr.listening
+      listen: En général, on arrive un peu en retard à un dîner chez des amis, mais jamais à un rendez-vous professionnel. || When should you arrive on time? || *For a professional appointment | For dinner at friends' | Never || "Mais jamais à un rendez-vous professionnel." || @tags fr.listening
+      rw: Test the cliché with si + imparfait + conditional :: Tous les Français mangent des escargots. Il n'y a plus d'escargots. || Si tous les Français mangeaient des escargots, il n'y aurait plus d'escargots. || Condition in the imparfait (mangeaient), result in the conditional (aurait). || @tags fr.si-clauses
+      tr: If you came to my country, you would see that it's not true. (tu) || Si tu venais dans mon pays, tu verrais que ce n'est pas vrai. | Si tu venais chez moi, tu verrais que ce n'est pas vrai. | Si tu venais dans mon pays, tu verrais que c'est faux. | Tu verrais que ce n'est pas vrai si tu venais dans mon pays. || Si + imparfait (venais) + conditional (verrais; voir → verr-). || @tags fr.si-clauses
+      dict: La plupart des stéréotypes sont un peu vrais, mais très incomplets. || la plupart des
+      ask: A French friend repeats a common stereotype about your country. Answer with nuance and a hypothesis. || kw: pas forcément/ça dépend/en général/plutôt/certains/la plupart/pas tous & si || Pas forcément ! Ça dépend des régions. Si tous les Anglais buvaient du thé à cinq heures, les cafés seraient vides l'après-midi, et ce n'est pas le cas !
+      write: Write a post for an international students' blog — one custom that surprised you in France (or another country) and one stereotype about your own country. || min=80 || req: en général/la plupart/pas forcément/ça dépend | si | alors que/mais || Quand je suis arrivé à Bordeaux, ce qui m'a surpris, c'est l'heure du dîner. Chez moi, au Danemark, on dîne vers dix-huit heures, alors qu'ici, la plupart des gens dînent à vingt heures ou plus tard ! Et un stéréotype sur les Danois ? On dit que nous sommes toujours heureux. Pas forcément ! En général, nous sommes plutôt calmes, mais si nous étions vraiment toujours heureux, nous ne parlerions pas autant de la météo !

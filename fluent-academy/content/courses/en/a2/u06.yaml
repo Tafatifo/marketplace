@@ -1,0 +1,360 @@
+unit: 6
+title: Getting things done
+theme: Services and errands
+description: Deal with banks and post offices, return and exchange things in a store, and make phone calls and leave messages — with polite requests and object pronouns.
+free: false
+objectives:
+  - Make polite requests at the bank and the post office with Can I…?, Could you…? and I'd like to…
+  - Return and exchange things in a store, using object pronouns (me, him, her, it, us, them)
+  - Make phone calls, take and leave messages, and ask people to do things
+canDo:
+  - I can open a bank account and send a package, asking politely for what I need.
+  - I can explain a problem with something I bought and ask for a refund or an exchange.
+  - I can leave a clear phone message and ask someone to call me back.
+  - I can understand the main point of a short voicemail.
+review: |
+  fill: ___ you tell me where the ATM is, please? || Could / Can || Could you…? or Can you…? asks someone to do something. Could is a little more polite. || @tags en.requests
+  fill: I'd ___ to send this letter by express mail. || like || I'd like to + base form is a polite way to say what you want. || @tags en.requests
+  fill: These shoes are too small for my daughter. They don't fit ___. || her || After a verb, she → her. || @tags en.pronouns
+  mc: You want the clerk to repeat something. What do you say? || *Could you say that again, please? | Say it again. | Can I say that again? || Could you…? asks the other person to do something. Can I…? is about you. || @tags en.requests
+  mc: "Where's my phone?" — "I put ___ on the table." || *it | them | him || The phone is one thing, so use it. || @tags en.pronouns
+  rw: Replace the words in brackets with a pronoun :: I called (Mr. and Mrs. Patel) yesterday. || I called them yesterday. || Mr. and Mrs. Patel = they → object pronoun them. || @tags en.pronouns
+  rw: Make it more polite :: Give me a form. || Could I have a form, please? | Can I have a form, please? | Could you give me a form, please? | Can you give me a form, please? || Use Could/Can + please instead of an imperative. || @tags en.requests
+  match: receipt = the paper that shows what you paid ; refund = money you get back ; voicemail = a recorded phone message ; stamp = a small sticker you put on a letter to pay for sending it || Match each word with its meaning. || @tags en.vocabulary @skill vocabulary
+  listen: Hi, this is Carmen from Westside Dry Cleaners. Your jacket is ready. You can pick it up any time before six. || What should the listener do? || *Pick up a jacket before six | Call Carmen back at six | Bring a jacket to the store || "Your jacket is ready. You can pick it up any time before six." || @tags en.listening,en.pronouns
+  listen: I'd like to return these headphones. They don't work, and I have the receipt. || What is the problem? || The headphones are too expensive. | *The headphones don't work. | The customer lost the receipt. || "They don't work, and I have the receipt." || @tags en.listening
+  ask: You call a hotel. Ask to speak to the manager, say who you are and ask them to call you back. || kw: speak/talk & this is/my name & call me back/call back || Hello, could I speak to the manager, please? This is Ravi Kumar. Could you ask her to call me back? My number is 555-0193.
+  write: You bought a lamp online, but it arrived broken. Write a short email to customer service — explain the problem and ask politely for a refund or a new lamp. || min=40 || req: could/can/I'd like | it || Dear Customer Service, I ordered a desk lamp from your website last week, but it arrived broken — the glass is damaged. I'd like a refund, please. Could you tell me how to send it back? I have the receipt. Thank you, Elena Ruiz
+lessons:
+  - title: At the bank and the post office
+    summary: Open a bank account and send a package, making polite requests with Can I…?, Could I…?, Could you…? and I'd like to…
+    minutes: 40
+    skills: [speaking, listening, grammar]
+    tags: [en.requests, en.register, en.intonation]
+    objectives:
+      - Make polite requests with Can I…?, Could I…?, Can you…? and Could you…?
+      - Say what you want politely with I'd like to…
+      - Reply to requests and understand a clerk's questions
+    intro: |
+      At the bank or the post office, the right words make everything easier — and friendlier. Instead of *Give me a form*, we say ***Could I have** a form, please?* In this lesson you will make polite requests, open a bank account and send a package.
+    vocab: |
+      open a bank account | to start using a bank to keep your money | expr | I opened a bank account when I moved here. | - | c: a checking account; a savings account | n: British English: a current account.
+      ATM | a machine in the street or in a bank where you get money with your card | n | Is there an ATM near here? | - | n: British English: cash machine or cashpoint.
+      PIN | the secret number for your bank card | n | Never tell anyone your PIN. | - | n: Short for personal identification number. Say "pin".
+      withdraw | to take money out of your bank account | v | I withdrew $200 from the ATM. | - | c: withdraw cash | n: Past: withdrew.
+      fill out | to write information in the spaces on a form | phr v | Please fill out this form. | - | n: British English also: fill in.
+      ID | a document that shows who you are, like a passport or a driver's license | n | Can I see some ID, please? | - | c: photo ID | n: Short for identification.
+      sign | to write your name in your own way at the bottom of a document | v | Could you sign here, please? | - | n: Noun: signature.
+      package | a box that you send by mail | n | I'm sending a package to my sister in Mexico. | - | n: British English: parcel.
+      stamp | a small sticker that you put on a letter to pay for sending it | n | Can I have three stamps for Canada? | - | c: buy stamps; put a stamp on
+      envelope | a paper cover for a letter | n | Write the address on the envelope. | - | n: Stress: EN-ve-lope.
+      mail | to send a letter or package | v | I mailed the documents on Monday. | - | n: British English: post. Also a noun: by mail.
+      wait in line | to stand behind other people until it is your turn | expr | We waited in line for twenty minutes. | - | n: British English: queue.
+      Sure. | a friendly way to say yes to a request | expr | Could you help me? — Sure. | - | n: Also: Of course. Certainly (more formal). No problem.
+    grammar:
+      title: "Polite requests: Can I…? Could you…? I'd like to…"
+      body: |
+        When we ask for something, English uses questions, not orders. There are two kinds of request:
+        - asking for something **for yourself**: **Can I / Could I** + base form: ***Could I have** five stamps, please? **Can I pay** by card?*
+        - asking **someone else to do** something: **Can you / Could you** + base form: ***Could you sign** here, please?*
+
+        **Could** is a little more polite than **can**, so it's good with people you don't know. Add **please** at the end or after the subject.
+
+        To say what you want, use **I'd like** + noun or **I'd like to** + base form: ***I'd like to open** an account. **I'd like** a receipt, please.* (*I'd like* = I would like. It's not the same as *I like*.)
+
+        Replies: *Sure. / Of course. / No problem. / Certainly.* To say no politely: *I'm sorry, but… / I'm afraid…*
+      table: |
+        Purpose | Request | Possible reply
+        something for you | Could I have a receipt, please? | Of course. Here you are.
+        permission | Can I pay by card? | Sure. / I'm sorry, cash only.
+        someone else's action | Could you fill out this form, please? | No problem.
+        what you want | I'd like to send this to Brazil. | Sure. By regular mail?
+      examples: |
+        Could I see some ID, please? — Of course. Here's my passport. | | Could I…? = ask for something
+        Could you write the address here, please? | | Could you…? = ask someone to do something
+        I'd like to withdraw some money. | | I'd like to + base form
+        Can I have three stamps? — I'm sorry, we only have two. | | polite refusal
+      tip: "To check which form you need, ask yourself who does the action. You? → Can I / Could I. The other person? → Can you / Could you."
+    dialogue:
+      title: Errands downtown
+      setting: Monday morning in Columbus, Ohio. Mónica is new in the city. First she goes to a bank, where Jason helps her. Then she goes to the post office, where Adaeze works at the counter.
+      speakers: J=Jason/m; M=Mónica/f; A=Adaeze/f
+      lines: |
+        J: Good morning. How can I help you?
+        M: Hi. I'd like to open a bank account, please.
+        J: Sure. Could I see some ID, please?
+        M: Of course. Here's my passport.
+        J: Thanks. Could you fill out this form and sign here?
+        M: No problem. Can I get my debit card today?
+        J: I'm afraid not. It comes by mail in about a week.
+        A: Next, please! How can I help you?
+        M: Hi. Could you send this package to Mexico, please?
+        A: Sure. Can you put it on the scale for me?
+        A: Would you like regular or express mail?
+        M: Regular, please. And could I have five stamps?
+    pronunciation:
+      title: "Sounding polite"
+      body: |
+        Polite words are not enough — your voice matters too. In requests, start a little higher and let your voice go **up** gently at the end ↗: *Could you sign here, please?* A flat voice can sound bored or rude.
+
+        In fast speech, **could you** often sounds like "couldja", and **can I** sounds like "kə-NAI". Listen and repeat.
+      items: |
+        Could you help me, please?
+        Could I see some ID?
+        Can I have five stamps?
+        I'd like to open an account.
+        Of course.
+        Sure, no problem.
+    culture:
+      title: Lines and lines
+      body: |
+        In the US, you **wait in line**; in the UK, you **queue**. In both countries, people take lines seriously — going to the front without waiting your turn is very rude. Clerks call the next person with *Next, please!* or *I can help whoever's next.*
+
+        Many British post offices also offer basic banking: you can take out cash or pay bills there. In the US and the UK, most people pay by card or phone, but it's useful to have some cash for small shops and tips.
+    mistakes: |
+      Could you to help me? => Could you help me? | After can and could, use the base form without to.
+      I like to open an account. => I'd like to open an account. | I'd like = I want (politely). I like = I enjoy.
+      Give me a form. => Could I have a form, please? | An imperative can sound like an order. Use a request with please.
+    task:
+      title: Errands role-play
+      mode: interaction
+      body: |
+        Role-play two short conversations with a partner or the AI coach: (1) at a bank, open an account — show your ID, fill out a form, ask about a card; (2) at a post office, send a package abroad and buy stamps. Use at least four requests with Can I…?, Could I…?, Could you…? or I'd like to….
+    exercises: |
+      fill: ___ I pay by card, please? || Can / Could || Asking for permission for yourself: Can I…? or Could I…? || @tags en.requests
+      fill: Could you ___ (sign) here, please? || sign || After could, use the base form without to. || @tags en.requests
+      fill: I'd like ___ withdraw two hundred dollars. || to || I'd like to + base form. || @tags en.requests
+      mc: You want the clerk to write the address for you. What do you say? || *Could you write the address, please? | Could I write the address, please? | You write the address. || The clerk does the action, so use Could you…? || @tags en.requests
+      mc: Choose the most polite request. || Give me five stamps. | I want five stamps now. | *Could I have five stamps, please? || Could I have…, please? is a polite request. The others sound like orders. || @tags en.requests,en.register
+      rw: Make it a polite request with "Could you" :: Close the door. || Could you close the door, please? | Could you please close the door? || Could you + base form + please. || @tags en.requests
+      rw: Make it more polite with "I'd like" :: I want to send this package. || I'd like to send this package. | I would like to send this package. | I'd like to send this package, please. || I'd like to = a polite way to say I want to. || @tags en.requests,en.register
+      match: withdraw = take money out of your account ; fill out = write information on a form ; PIN = the secret number for your card ; package = a box you send by mail || Match each word with its meaning. || @tags en.vocabulary @skill vocabulary
+      tf: Mónica gets her debit card at the bank. || false || The card comes by mail in about a week. || @ctx dialogue
+      short: Where is Mónica sending her package? || kw: mexico || "Could you send this package to Mexico, please?" || @ctx dialogue
+      listen: @dialogue || What ID does Mónica show at the bank? || Her driver's license | *Her passport | Her student card || "Here's my passport." || @tags en.listening
+      listen: I'm sorry, the ATM in the lobby isn't working today. You can use the one across the street. || What can the customer do? || Use the ATM in the lobby | *Use the ATM across the street | Come back tomorrow || The ATM in the lobby isn't working, but there's one across the street. || @tags en.listening
+      dict: Could I have a receipt, please?
+      ask: You're at the post office. Ask to send a letter to Canada and buy three stamps — politely. || kw: could/can/I'd like/I would like & send & stamps || Hi. I'd like to send this letter to Canada, please. And could I have three stamps?
+      write: You need to change your address at the bank. Write a short, polite email with two requests. || min=30 || req: could/can/I'd like/I would like | please || Dear Sir or Madam, I moved last month, so I'd like to change my address. My new address is 45 Oak Street, Columbus. Could you also send me a new debit card, please? Thank you, Mónica Torres
+
+  - title: Returns and exchanges
+    summary: Explain a problem with something you bought and ask for a refund or an exchange, using object pronouns.
+    minutes: 40
+    skills: [grammar, speaking, reading]
+    tags: [en.pronouns, en.requests, en.phrasal-verbs]
+    objectives:
+      - Use object pronouns (me, you, him, her, it, us, them) after verbs and prepositions
+      - Explain what's wrong with an item and ask for a refund or exchange
+      - Understand simple store return policies
+    intro: |
+      You bought a kettle, but it doesn't work. The jeans you got for your son don't fit **him**. Can you return **them**? In this lesson you will use **object pronouns** so you don't repeat the same nouns, and learn how to explain a problem and ask for a refund or an exchange.
+    vocab: |
+      return | to take something back to a store because you don't want it | v | I want to return these shoes. | - | c: return an item; take something back
+      exchange | to give something back to a store and get a different one | v | Can I exchange this shirt for a smaller size? | - | c: exchange something for something | n: Also a noun: an exchange.
+      refund | money that you get back when you return something | n | I'd like a refund, please. | - | c: get a refund; a full refund
+      receipt | the paper or email that shows what you bought and what you paid | n | Do you have the receipt? | - | n: The p is silent: "ri-SEET".
+      fit | to be the right size for someone | v | These jeans don't fit me. | - | n: Size is about numbers; fit is about your body: It doesn't fit.
+      tight | too small, so it presses on your body | adj | The jacket is too tight. | - | n: The opposite is loose.
+      loose | too big, so it doesn't stay close to your body | adj | These pants are a bit loose. | - | n: Don't confuse with lose (= not find).
+      broken | not working because it is damaged | adj | The zipper is broken. | - | c: a broken screen
+      damaged | hurt or broken in some way | adj | The box arrived damaged. | - | c: badly damaged
+      work | (of a machine) to function correctly | v | My new kettle doesn't work. | - | n: Also: It isn't working.
+      store credit | money you can only spend at the same store | n | We can't give you cash, but we can give you store credit. | - | n: British English also: a credit note.
+      customer service | the part of a company that helps customers with problems | n | Please take it to the customer service desk. | - | c: call customer service
+      change your mind | to make a new decision that is different from the first one | expr | I changed my mind. I don't want the red one. | - | n: Past: changed your mind.
+    grammar:
+      title: "Object pronouns: me, him, her, it, us, them"
+      body: |
+        Subject pronouns (*I, he, she…*) come **before** the verb. **Object pronouns** come **after** a verb or a preposition: *They don't fit **him**. Can I return **it**? This is for **her**.*
+
+        Use pronouns so you don't repeat nouns: *I bought these jeans for my son, but they don't fit **him**. Can I exchange **them**?*
+
+        - **it** = one thing: *the kettle → it*
+        - **them** = more than one thing or person, and words like *jeans, pants, shoes, glasses* (they are plural): *these jeans → them*
+
+        With **phrasal verbs** like *take back, try on, send back*, the pronoun goes **in the middle**: *Can I **take it back**?* (not ~~take back it~~).
+      table: |
+        Subject | Object | Example
+        I | me | Can you help me?
+        you | you | I can give you a refund.
+        he | him | They don't fit him.
+        she | her | I bought it for her.
+        it | it | It doesn't work. Can I return it?
+        we | us | Could you call us?
+        they | them | These jeans? I can exchange them.
+      examples: |
+        This sweater is for my sister, but it's too small for her. | | she → her (after a preposition)
+        The headphones don't work. I want to return them. | | plural → them
+        Could you help me with this box? | | I → me
+        It's broken, so I'm taking it back. | | phrasal verb: pronoun in the middle
+      tip: "Pants, jeans, shorts, glasses and scissors are always plural in English, so use them and they: My jeans? I washed them. They're on the bed."
+    dialogue:
+      title: At the customer service desk
+      setting: A Saturday afternoon at a department store in Calgary, Canada. Hiroshi is at the customer service desk with two things to return. Fatima works there.
+      speakers: F=Fatima/f; H=Hiroshi/m
+      lines: |
+        F: Hi there. How can I help you?
+        H: Hi. I bought this kettle last week, but it doesn't work.
+        F: Oh, I'm sorry. Do you have the receipt?
+        H: Yes, here it is. Can I return it?
+        F: Of course. Would you like a refund or a new one?
+        H: A refund, please. And these jeans are for my son.
+        H: They don't fit him. They're too tight.
+        F: No problem. Do you want to exchange them?
+        H: Yes, please. Do you have them in a bigger size?
+        F: Let me check… Yes, here you are. Is your son here?
+        H: No, he's at school. But I can send him a photo!
+    pronunciation:
+      title: "Weak him, her and them"
+      body: |
+        In fast speech, object pronouns are short and weak. The **h** in *him* and *her* often disappears: *send him a photo* sounds like "SEN-dim a photo", and *for her* sounds like "fə-rə". **Them** often sounds like "əm": *exchange them* → "ex-CHANGE-əm".
+
+        You don't have to speak like this, but it helps you understand people. Listen and repeat.
+      items: |
+        Can I return it?
+        They don't fit him.
+        Can I exchange them?
+        I can send him a photo.
+        It's a gift for her.
+        Could you help us?
+    culture:
+      title: Return policies
+      body: |
+        In the US and Canada, many stores let you return things within about **30 days** if you have the receipt — but each store has its own **return policy**, so check it before you buy. Some stores give **store credit** instead of cash.
+
+        In the UK, the law protects you when something is **faulty** (doesn't work): you can usually get a refund within 30 days. If you just **changed your mind**, a store doesn't have to take it back — but most do. For online shopping, you usually have 14 days to cancel.
+    mistakes: |
+      Can I return? => Can I return it? | Return needs an object: return it, return them.
+      They don't fit to him. => They don't fit him. | Fit is followed directly by the object — no to.
+      I want to take back them. => I want to take them back. | With a pronoun, put it in the middle of a phrasal verb.
+    task:
+      title: Take it back
+      mode: interaction
+      body: |
+        Choose two things to return: one that doesn't work and one that doesn't fit. At the customer service desk, explain each problem, say when you bought it, and ask for a refund or an exchange. Use object pronouns (it, them, him, her). Then practice with the AI coach in the "Returning an item in a shop" scenario.
+    exercises: |
+      fill: My mom loves this bag, so I bought it for ___. || her || After a preposition, she → her. || @tags en.pronouns
+      fill: These shoes are too small. Can I exchange ___? || them || Shoes are plural → them. || @tags en.pronouns
+      fill: The kettle doesn't work. I want to return ___. || it || The kettle is one thing → it. || @tags en.pronouns
+      mc: "Did your dad like the sweater?" — "No, it doesn't fit ___." || *him | he | his || After a verb, use the object pronoun him. || @tags en.pronouns
+      mc: Choose the correct sentence. || I want to take back it. | *I want to take it back. | I want to take back. || With a phrasal verb, the pronoun goes in the middle: take it back. || @tags en.pronouns,en.phrasal-verbs
+      rw: Replace the repeated noun with a pronoun :: I bought the headphones online, but the headphones are broken, so I'm sending the headphones back. || I bought the headphones online, but they're broken, so I'm sending them back. | I bought the headphones online, but they are broken, so I'm sending them back. | I bought the headphones online, but they are broken, so I am sending them back. || Subject → they; object → them (in the middle of send back). || @tags en.pronouns
+      rw: Ask politely for an exchange :: (this shirt — a smaller size) || Could I exchange this shirt for a smaller size? | Can I exchange this shirt for a smaller size? | Could I exchange this shirt for a smaller size, please? | Can I exchange this shirt for a smaller size, please? || Can/Could I exchange + item + for + new item? || @tags en.requests
+      match: refund = money you get back ; receipt = proof of what you paid ; store credit = money you can only spend in the same store ; tight = too small for your body || Match each word with its meaning. || @tags en.vocabulary @skill vocabulary
+      tf: Hiroshi wants a new kettle. || false || He asks for a refund: "A refund, please." || @ctx dialogue
+      short: What's wrong with the jeans? || kw: tight/small/fit || "They don't fit him. They're too tight." || @ctx dialogue
+      listen: @dialogue || How does Hiroshi plan to check the new jeans? || His son is coming to the store. | *He can send his son a photo. | He wants to try them on. || "He's at school. But I can send him a photo!" || @tags en.listening,en.pronouns
+      listen: Sorry, you can't get a refund without a receipt, but we can give you store credit. || What can the customer get? || A full refund | *Store credit | Nothing || Without a receipt, there's no refund, but the store offers store credit. || @tags en.listening
+      dict: These jeans don't fit me. Can I exchange them?
+      ask: You bought a phone case, but it doesn't fit your phone. Explain the problem to the clerk and ask for a refund. || kw: it & fit/fits/small/big/wrong & refund/return/money back || Hi. I bought this phone case yesterday, but it doesn't fit my phone. Could I return it and get a refund, please? Here's the receipt.
+      write: You ordered a sweater for your brother online, but it doesn't fit him. Write a short message to the store: say what you bought, what's wrong and what you want (a refund or an exchange). Use at least two object pronouns. || min=30 || req: it/them | him || Hi, I ordered a blue sweater for my brother last week, but it's too tight for him. Could I exchange it for a large? If you don't have it in a large, I'd like a refund, please. Thank you, Lucas Moreau
+
+  - title: Phone calls and messages
+    summary: Make phone calls, take and leave messages, and ask people to do things — with Could you ask him to…? and Could you tell her…?
+    minutes: 40
+    skills: [listening, speaking, writing]
+    tags: [en.requests, en.pronouns, en.pronunciation]
+    objectives:
+      - Start and end a phone call and ask to speak to someone
+      - Take and leave messages with ask/tell + object pronoun
+      - Check information: spell names and repeat numbers
+    intro: |
+      Phone calls in another language can be stressful: you can't see the other person, and names and numbers go fast. In this lesson you will learn the key phrases — *This is…, Can I take a message?, Could you ask her to call me back?* — and practice leaving clear messages.
+    vocab: |
+      call back | to phone someone again, or to phone someone who called you | phr v | Could you ask him to call me back? | - | c: call someone back | n: Pronoun in the middle: call me back.
+      leave a message | to give information for someone who isn't there | expr | She isn't here. Would you like to leave a message? | - | n: Past: left a message.
+      take a message | to write down information for someone who isn't there | expr | Can I take a message? | - | n: Past: took a message.
+      hold on | to wait for a short time, especially on the phone | phr v | Hold on a second, please. | - | n: Also: Hang on (informal).
+      put through | to connect a caller to another person's phone | phr v | Hold on, I can put you through to the manager. | - | n: Very common in offices.
+      voicemail | a system that records phone messages; a recorded message | n | I left you a voicemail this morning. | - | c: check your voicemail; leave a voicemail
+      text | to send a written message from a phone | v | Text me when you get home. | - | n: Also a noun: I sent you a text.
+      available | free to talk or meet | adj | Is Mr. Kowalski available? | - | n: The opposite is busy or unavailable.
+      extension | the number of a phone inside a big company or office | n | My extension is 224. | - | c: extension number
+      speak up | to talk more loudly | phr v | Could you speak up, please? It's very noisy here. | - | n: Also: Could you speak more slowly?
+      I'm calling about… | a phrase to say why you are phoning | expr | I'm calling about the apartment for rent. | - | c: I'm calling about my order
+      hang up | to end a phone call | phr v | Don't hang up! I have one more question. | - | n: Past: hung up.
+      get back to | to answer someone later | phr v | Can I get back to you tomorrow? | - | n: Common at work.
+    grammar:
+      title: "Messages and requests: ask him to…, tell her that…"
+      body: |
+        To pass on a message, use **ask** or **tell** + **object pronoun**:
+        - **ask + person + to + base form** (a request): *Could you **ask him to call** me back?*
+        - **tell + person + (that) + sentence** (information): *Could you **tell her (that)** the meeting is at three?*
+
+        Remember the object pronouns: *ask **him**, tell **her**, call **me** back, text **us**.* With phrasal verbs, the pronoun goes in the middle: *call **me** back, put **you** through.*
+
+        Useful phone phrases: on the phone, say **This is…** (not ~~I am…~~): *Hello, **this is** Sophie Martin.* Ask for a person with **Can I / Could I speak to…?** Say why you're calling with **I'm calling about…**. If you don't understand, ask: *Could you repeat that? Could you spell that, please?*
+      table: |
+        Situation | Phrase
+        say who you are | Hi, this is Sophie Martin.
+        ask for someone | Could I speak to Mr. Kowalski, please?
+        offer to help | Can I take a message?
+        leave a message | Could you ask him to call me back?
+        give information | Could you tell her that I'm running late?
+        check | Sorry, could you repeat that?
+      examples: |
+        Could you ask her to text me? | | ask + her + to + base form
+        Please tell him that the package arrived. | | tell + him + that
+        Can I take a message? — Yes, please ask them to call me back. | | ask + them + to
+        Hi, this is Leo. I'm calling about my order. | | phone phrases
+      tip: "Tell needs a person after it: tell him, tell Maria (not tell to him). Say needs no person: Say hello to your mom!"
+    dialogue:
+      title: The broken heater
+      setting: A cold Tuesday morning in Boston. Sophie calls her building's management office about her heater. Luke answers the phone.
+      speakers: L=Luke/m; S=Sophie/f
+      lines: |
+        L: Good morning, Harbor Property Management. Luke speaking.
+        S: Hi. Could I speak to Mr. Kowalski, please?
+        L: I'm sorry, he's in a meeting. Can I take a message?
+        S: Yes, please. This is Sophie Martin from apartment 12.
+        S: I'm calling about my heater. It doesn't work.
+        L: OK. Could you spell your last name, please?
+        S: M-A-R-T-I-N. Could you ask him to call me back?
+        L: Of course. What's the best number for you?
+        S: It's 555-0147. I'm home all afternoon.
+        L: Great. He's free at two, so I can give him the message then.
+        S: Thanks. And could you tell him that it's really cold?
+        L: Sure, I can tell him. Have a good day!
+    pronunciation:
+      title: "Checking information: fifteen or fifty?"
+      body: |
+        On the phone, numbers and letters are easy to confuse. To check, stress the part that is different: *Was that fif**TEEN** or **FIF**ty?* In -teen numbers, the stress is at the end; in -ty numbers, it's at the start.
+
+        To spell clearly, people use words for letters: *M as in Mike, N as in Nancy*. Listen and repeat.
+      items: |
+        Was that fifteen or fifty?
+        M as in Mike
+        Could you repeat that?
+        Sorry, I didn't catch that.
+        Could you speak up, please?
+    culture:
+      title: Phone manners
+      body: |
+        In offices, people often answer the phone with the company name and their own name: *Good morning, Harbor Property Management, Luke speaking.* At home or on a cell phone, most people just say *Hello?* or *Hi, this is Sophie.*
+
+        Today many people prefer **texts** to calls, especially younger people — some feel that a call without warning is a bit intrusive. A quick text first (*Can I call you in five minutes?*) is common. If you call a wrong number, just say *Sorry, wrong number* and hang up.
+    mistakes: |
+      Hello, I am Sophie. (on the phone) => Hello, this is Sophie. | On the phone, say This is… to give your name.
+      Could you ask him call me back? => Could you ask him to call me back? | Ask + person + to + base form.
+      Could you tell to her that I'm late? => Could you tell her that I'm late? | Tell + person, without to.
+    task:
+      title: Leave a voicemail
+      mode: speaking
+      body: |
+        Call a friend, a store or an office (imagine it) and leave a 30-second voicemail: say who you are, why you're calling, one request (*Could you…?*) and your phone number — slowly, in groups. Record it in Speaking practice. Then write the same message as a text in two or three sentences.
+    exercises: |
+      fill: Hello, ___ is Daniel Ortiz. Could I speak to Ms. Hill? || this || On the phone, say This is… to give your name. || @tags en.requests,en.register
+      fill: Could you ask her ___ call me back? || to || Ask + person + to + base form. || @tags en.requests
+      fill: Mr. Lee is busy. Could you tell ___ that I called? || him || Mr. Lee = he → object pronoun him. || @tags en.pronouns
+      mc: The line is bad and you can't hear the other person. What do you say? || *Could you speak up, please? | Could you hang up, please? | Could you hold on, please? || Speak up = talk more loudly. Hang up ends the call; hold on means wait. || @tags en.phrasal-verbs,en.requests
+      mc: Choose the correct sentence. || Could you say him that I'm late? | *Could you tell him that I'm late? | Could you tell to him that I'm late? || Tell + person (no to). Say doesn't take a person directly. || @tags en.requests,en.pronouns
+      rw: Rewrite as a request with "Could you ask him to" :: I want Mr. Kowalski to call me back. || Could you ask him to call me back? | Could you ask him to call me back, please? || Could you ask + him + to + base form? || @tags en.requests,en.pronouns
+      rw: Correct the mistake :: Could you call back me this afternoon? || Could you call me back this afternoon? || With a phrasal verb, the pronoun goes in the middle: call me back. || @tags en.pronouns,en.phrasal-verbs
+      match: hold on = wait a moment ; hang up = end a call ; call back = phone again later ; put through = connect a caller to another phone || Match each phrasal verb with its meaning. || @tags en.phrasal-verbs @skill vocabulary
+      tf: Sophie speaks to Mr. Kowalski. || false || He's in a meeting, so Luke takes a message. || @ctx dialogue
+      short: What is Sophie's phone number? || kw: 555 & 0147 || "It's 555-0147." || @ctx dialogue
+      listen: @dialogue || What is Sophie's problem? || Her door is broken. | *Her heater doesn't work. | Her rent is too high. || "I'm calling about my heater. It doesn't work." || @tags en.listening
+      listen: Hi Noah, it's Priya. I'm running late, so could you tell the others to start without me? I can be there at eight. || What does Priya want Noah to do? || *Tell the others to start | Call her back at eight | Wait for her outside || "Could you tell the others to start without me?" || @tags en.listening,en.requests
+      dict: Could you ask her to call me back this afternoon?
+      ask: You call your doctor's office, but the receptionist is busy. Leave a message — say who you are, why you're calling and ask them to call you back. || kw: this is/my name & calling about/about & call me back/call back || Hi, this is Omar Haddad. I'm calling about my appointment on Friday. Could you ask the doctor's assistant to call me back? My number is 555-0168. Thank you.
+      write: You took a phone message for your roommate, Kim. Write the message — who called, why, what Kim should do and the phone number. || min=25 || req: called | call/text || Kim — Jake from the bike shop called at 11. Your bike is ready, but the store closes at five today. He asked you to call him back at 555-0131 before then. Thanks!

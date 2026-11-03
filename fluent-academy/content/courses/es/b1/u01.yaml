@@ -1,0 +1,355 @@
+unit: 1
+title: Personas y relaciones
+theme: People and relationships
+description: Describe people's personality, talk about friendships, arguments and making up, and tell an anecdote — joining ideas with relative pronouns and choosing between the indefinido and the imperfecto.
+free: true
+objectives:
+  - Describe personality and the people around you with relative clauses (que, quien, donde, el que)
+  - Talk about arguments and making up, contrasting the indefinido and the imperfecto
+  - Tell an anecdote with a clear setting, turning point and ending
+canDo:
+  - I can describe someone's personality and say how I get on with them.
+  - I can join ideas about people and places with que, quien, donde and el que.
+  - I can explain what happened in an argument and how it was resolved.
+  - I can tell a short anecdote using the right past tenses and time markers.
+review: |
+  fill: Mi cuñado es una persona ___ nunca pierde la calma. || que || No preposition before the pronoun, so use que. || @tags es.relative-pronouns
+  fill: El restaurante ___ celebramos la boda ya no existe. || donde / en el que / en que || A place: donde, or en el que (restaurante is masculine). || @tags es.relative-pronouns
+  mc: Your colleague says «El nuevo vecino me cae fatal». She means: || She fell in front of the new neighbour. | *She really doesn't like the new neighbour. | The new neighbour fell over. || Caer bien / mal / fatal expresses how much you like a person. It works like gustar. || @tags es.vocabulary
+  fill: Cuando ___ (vivir, yo) en Cádiz, iba a la playa casi todos los días. || vivía || A period of life and a habit in the past: imperfect. || @tags es.preterite-vs-imperfect
+  fill: Ayer Lucía y yo ___ (hacer) las paces después de una semana sin hablarnos. || hicimos || A completed event on a specific day: indefinido. Hacer is irregular: hicimos. || @tags es.preterite-vs-imperfect,es.preterite-irregular
+  mc: Which sentence is correct? || Mientras me duché, sonaba el teléfono. | *Mientras me duchaba, sonó el teléfono. | Mientras me duchaba, de repente sonaba el teléfono. || The action in progress takes the imperfect (me duchaba); the interruption takes the indefinido (sonó). || @tags es.preterite-vs-imperfect
+  rw: Join the sentences with con quien or con la que :: Tengo una amiga. Hablo con ella todos los días. || Tengo una amiga con quien hablo todos los días. | Tengo una amiga con la que hablo todos los días. || The preposition goes before the relative pronoun: con quien / con la que. || @tags es.relative-pronouns,es.join
+  tr: I realised that I didn't have my keys. || Me di cuenta de que no tenía las llaves. | Me di cuenta de que no tenía mis llaves. | Me di cuenta de que no llevaba las llaves. | Me di cuenta de que no llevaba mis llaves. || Darse cuenta de que + a situation in the imperfect: no tenía / no llevaba. || @tags es.preterite-vs-imperfect
+  listen: Mi abuelo era muy serio con todo el mundo, pero conmigo siempre era cariñoso y me contaba historias de su pueblo. || What was the grandfather like with the speaker? || Serious and strict | *Affectionate | Stubborn || «Conmigo siempre era cariñoso» — with me he was always affectionate. || @tags es.listening
+  listen: Estábamos ya en el tren cuando, de repente, Marta gritó: «¡Me he dejado la maleta en el andén!» || What happened? || Marta lost her ticket. | *Marta left her suitcase on the platform. | The train stopped suddenly. || «Me he dejado la maleta en el andén» = I've left my suitcase on the platform. || @tags es.listening,es.preterite-vs-imperfect
+  ask: Tell a friend about a person you get on very well with — who they are, what they are like and how you met. || kw: llevo/llevamos/cae & es & conocí/conocimos || Mi compañera de trabajo Nerea me cae genial. Es muy abierta y muy de fiar, aunque un poco testaruda. La conocí hace tres años en una reunión y desde entonces nos llevamos muy bien.
+  write: Write a message (60–80 words) to a friend you argued with. Explain what happened from your point of view, apologise and suggest meeting up. || min=50 || req: perdón/siento/disculpa | estaba/era/quería/pensaba | dije/fui/hice/llegué || Hola, Edu. Siento mucho lo del sábado. Estaba muy cansada después de toda la semana y, cuando empezaste a hablar del viaje, me enfadé por una tontería. Dije cosas que no pensaba y me fui sin despedirme. Te pido perdón, de verdad. ¿Quedamos el jueves para tomar algo y hablamos tranquilamente? Te echo de menos. Un abrazo, Sara
+lessons:
+  - title: Personality and character
+    summary: Describe personality with precise adjectives and expressions such as caer bien and llevarse bien, and add detail with relative clauses.
+    minutes: 45
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.relative-pronouns, es.adjective-agreement]
+    objectives:
+      - Describe personality with precise adjectives and expressions
+      - Add information about people and places with que, quien, donde and el/la que
+      - Say how you get on with people using caer bien and llevarse bien
+    intro: |
+      At A2 you described people with simple adjectives: *es simpático, es alta*. At B1 you can paint a real portrait — what someone is like, how you get on with them and why. **Relative pronouns** (*que, quien, donde, el que*) let you join ideas into one smooth sentence instead of several short ones: *Tengo una vecina que toca el violonchelo y con la que me llevo genial.*
+    vocab: |
+      abierto | open; outgoing | adj | Mi compañera de piso es muy abierta: habla con todo el mundo. | My flatmate is very outgoing: she talks to everybody. | n: Opposites: reservado, cerrado.
+      tímido | shy | adj | De pequeño era muy tímido, pero ahora no para de hablar. | As a child he was very shy, but now he never stops talking.
+      cariñoso | affectionate | adj | Mi abuela es muy cariñosa con todos sus nietos. | My grandmother is very affectionate with all her grandchildren.
+      testarudo | stubborn | adj | Mi padre es tan testarudo que nunca reconoce un error. | My father is so stubborn that he never admits a mistake. | n: Colloquial in Spain: cabezota (same form for men and women).
+      egoísta | selfish | adj | Es un poco egoísta: solo piensa en sí mismo. | He's a bit selfish: he only thinks about himself. | n: Same form for men and women, like optimista and realista.
+      sensato | sensible | adj | Mi hermana mayor es la más sensata de la familia. | My older sister is the most sensible one in the family. | n: False friend: sensible means "sensitive".
+      de fiar | trustworthy | expr | Íñigo es muy de fiar: nunca cuenta los secretos de nadie. | Íñigo is very trustworthy: he never tells anyone's secrets.
+      el carácter | character; temperament | n | Tiene muy buen carácter y casi nunca se enfada. | He's very good-natured and hardly ever gets angry. | g: m | pl: caracteres | n: The stress moves in the plural: caracteres. Tener mal carácter = to be bad-tempered.
+      la manera de ser | personality; the way someone is | n | Me encanta su manera de ser: es tranquila y muy divertida. | I love the way she is: she's calm and really funny. | g: f
+      caer bien / mal | to like / dislike (a person) | v | Tu primo me cae muy bien. | I really like your cousin. | n: Works like gustar: me cae bien (one person), me caen bien (several).
+      llevarse bien con | to get on well with | v | Me llevo muy bien con mi suegra. | I get on very well with my mother-in-law. | c: llevarse mal con; llevarse genial
+      parecerse a | to look like; to be like | v | Me parezco mucho a mi madre, sobre todo en el carácter. | I'm very like my mother, especially in temperament. | n: Irregular yo form: me parezco.
+      el defecto | flaw; fault | n | Su único defecto es que siempre llega tarde. | His only flaw is that he's always late. | g: m | n: The opposite is la virtud.
+      la gente | people | n | La gente de mi barrio es muy amable. | The people in my neighbourhood are very kind. | g: f | n: Singular in Spanish: la gente es… (not son).
+    grammar:
+      title: "Relative pronouns: que, quien, donde"
+      body: |
+        Relative pronouns join two ideas about the same person, thing or place, so you don't have to repeat it: *Tengo una vecina. Mi vecina es pianista.* → *Tengo una vecina **que** es pianista.*
+
+        - **que** is the all-purpose pronoun for people and things: *el chico **que** vino ayer*, *la película **que** vimos*. It can never be left out, unlike English "the film (that) we saw".
+        - After a **preposition** (*con, de, en, para, a…*) use **el que / la que / los que / las que**, agreeing with the noun, or **quien / quienes** for people: *la amiga **con la que** viajé* = *la amiga **con quien** viajé*.
+        - **donde** refers to places and means the same as *en el que / en la que*: *el barrio **donde** crecí*.
+        - The preposition always goes **before** the pronoun — never at the end, as in English "the friend I travelled *with*".
+
+        A clause between commas adds extra information: *Mi hermana, que vive en Lugo, es enfermera* (I have one sister). Without commas it tells you *which one*: *Mi hermana que vive en Lugo es enfermera* (I have more than one).
+      table: |
+        Pronoun | Refers to | Example
+        que | people and things | La chica que vino ayer es muy maja.
+        preposition + el/la/los/las que | people and things | Es la empresa en la que trabajo.
+        preposition + quien / quienes | people only | Es el amigo con quien comparto piso.
+        donde | places | Este es el bar donde nos conocimos.
+      examples: |
+        Tengo un compañero que habla cinco idiomas. | I have a colleague who speaks five languages.
+        Esa es la profesora de la que te hablé. | That's the teacher I told you about. | the preposition goes before the pronoun
+        Mis vecinos, que son de Ecuador, me invitaron a cenar. | My neighbours, who are from Ecuador, invited me to dinner. | extra information, between commas
+        Este es el parque donde jugaba de niña. | This is the park where I used to play as a child.
+      tip: "In everyday speech, Spaniards usually say el que / la que after a preposition: la chica con la que salgo. Quien sounds slightly more formal, but both are correct."
+    dialogue:
+      title: Buscando compañera de piso
+      setting: A Sunday evening in a shared flat in Valencia. Irene and Bilal have shown their spare room to several people and now have to choose a new flatmate.
+      speakers: I=Irene/f; B=Bilal/m
+      lines: |
+        I: Bueno, ¿qué te pareció la chica que vino ayer a ver la habitación? | So, what did you think of the girl who came to see the room yesterday?
+        B: ¿Noelia? Me cayó muy bien. Es abierta y parece muy de fiar. | Noelia? I really liked her. She's outgoing and seems very trustworthy.
+        I: A mí también. Además, fue la única que preguntó por las tareas de casa. | Me too. And she was the only one who asked about the housework.
+        B: Sí, eso me gustó. El chico con el que hablamos el lunes no preguntó nada. | Yes, I liked that. The guy we talked to on Monday didn't ask anything.
+        I: Es que ese chico era un poco egoísta, ¿no? Solo hablaba de sí mismo. | Well, that guy was a bit selfish, wasn't he? He only talked about himself.
+        B: Hombre, a lo mejor era tímido. Hay gente que habla mucho cuando está nerviosa. | Come on, maybe he was shy. Some people talk a lot when they're nervous.
+        I: Puede ser. Por cierto, Noelia es enfermera en el hospital donde trabaja mi hermana. | Could be. By the way, Noelia is a nurse at the hospital where my sister works.
+        B: ¡Qué casualidad! ¿Y qué dice tu hermana de ella? | What a coincidence! And what does your sister say about her?
+        I: Que es muy sensata, muy generosa y que siempre está de buen humor. | That she's very sensible, very generous and always in a good mood.
+        B: Pues no hay más que hablar. ¿La llamas tú o la llamo yo? | Well, that settles it. Will you call her or shall I?
+        I: La llamo yo ahora mismo. ¡Por fin tenemos compañera de piso! | I'll call her right now. At last we have a flatmate!
+    pronunciation:
+      title: "Word stress: tímido, simpático, egoísta"
+      body: |
+        Spanish word stress follows clear rules. Words ending in a vowel, **-n** or **-s** are normally stressed on the second-to-last syllable: *ca-ri-**ño**-so*, *a-**bier**-to*, *so-**cia**-ble*. Words stressed on the third-to-last syllable (*esdrújulas*) always carry a written accent: ***tí**-mi-do*, *sim-**pá**-ti-co*, *an-ti-**pá**-ti-co*.
+
+        In *egoísta*, the accent on the **í** shows that *o* and *i* belong to separate syllables: *e-go-**ís**-ta*. Listen and repeat, tapping the table on the stressed syllable.
+      items: |
+        tímido
+        simpático
+        egoísta
+        sociable
+        cariñoso
+        antipático
+    culture:
+      title: "Majo, buena gente and caer bien"
+      body: |
+        In Spain, a very common way to say someone is nice is **majo / maja**: *Tu novio es muy majo.* You will also hear **es muy buena gente** (he's / she's a really good person) — *gente* stays feminine and singular even when it describes one man: *Andrés es muy buena gente.* In Latin America other words are common: **buena onda** in Mexico, Argentina or Chile, and **chévere** in Venezuela, Colombia and the Caribbean.
+
+        Be careful with **gustar** for people: *Me gusta Carlos* often suggests you find him attractive. To say you simply like someone as a person, use **caer bien**: *Carlos me cae muy bien.*
+    mistakes: |
+      La persona quien vive conmigo es italiana. => La persona que vive conmigo es italiana. | Without a preposition, a defining clause uses que, not quien.
+      El chico que hablé con él es mi primo. => El chico con el que hablé es mi primo. | The preposition goes before the relative pronoun, and you don't repeat the person with él.
+      Mi hermana es muy sensible y nunca hace tonterías. => Mi hermana es muy sensata y nunca hace tonterías. | Sensible means "sensitive"; English "sensible" is sensato / sensata.
+    task:
+      title: A portrait in words
+      mode: speaking
+      body: |
+        Think of a person who is important to you — a friend, a relative or a colleague. In about one minute, describe their personality (two qualities and one flaw), say how you get on and why, and use at least three relative clauses (*que*, *con quien / con el que*, *donde*). Record yourself in Speaking practice and check that every adjective agrees with the person.
+    exercises: |
+      fill: Tengo una amiga ___ vive en Lisboa y trabaja como traductora. || que || No preposition comes before the pronoun, so use que. || @tags es.relative-pronouns
+      fill: Esta es la cafetería ___ nos conocimos Andrés y yo. || donde / en la que / en que || A place: donde, or en la que (cafetería is feminine). || @tags es.relative-pronouns
+      fill: El compañero con ___ comparto despacho es de Chile. || quien / el que || After con, use quien or el que (compañero is masculine). || @tags es.relative-pronouns
+      mc: Choose the correct sentence. || La vecina quien vive arriba es médica. | *La vecina que vive arriba es médica. | La vecina donde vive arriba es médica. || There is no preposition and no comma, so the pronoun is que. Donde is only for places. || @tags es.relative-pronouns
+      mc: Your friend says «Tu hermano me cae genial». She means: || She finds your brother attractive. | *She really likes your brother as a person. | She fell over in front of your brother. || Caer bien / genial = to like someone as a person. It works like gustar. || @skill vocabulary @tags es.vocabulary
+      match: generoso = egoísta ; tímido = abierto ; sensato = imprudente ; tranquilo = nervioso || Each adjective is paired with its opposite. || @skill vocabulary @tags es.vocabulary
+      tf: Irene and Bilal both had a good impression of Noelia. || true || Bilal says «Me cayó muy bien» and Irene answers «A mí también». || @ctx dialogue
+      short: Why does Irene's sister know Noelia? || kw: hospital & trabaja/trabajan/works/work/enfermera/nurse/colleague/compañera || Noelia is a nurse at the hospital where Irene's sister works. || @ctx dialogue
+      rw: Join the two sentences with a relative pronoun :: Tengo un vecino. Mi vecino toca el piano por las noches. || Tengo un vecino que toca el piano por las noches. || Que replaces mi vecino and joins the two sentences. || @tags es.relative-pronouns,es.join
+      rw: Join the two sentences with donde :: Este es el pueblo. Mi abuela nació en este pueblo. || Este es el pueblo donde nació mi abuela. | Este es el pueblo donde mi abuela nació. || Donde replaces en este pueblo. The verb often comes before the subject: donde nació mi abuela. || @tags es.relative-pronouns,es.join
+      tr: My sister is very stubborn, but she's very trustworthy. || Mi hermana es muy testaruda, pero es muy de fiar. | Mi hermana es muy cabezota, pero es muy de fiar. | Mi hermana es muy terca, pero es muy de fiar. | Mi hermana es muy testaruda, pero es de mucha confianza. || Testaruda agrees with hermana; trustworthy is de fiar. || @tags es.adjective-agreement
+      listen: Mi jefe es un hombre que nunca pierde la calma. Por eso todo el mundo confía en él. || What is the speaker's boss like? || Nervous and impatient | *Calm and trusted by everyone | Shy and quiet || «Nunca pierde la calma» = he never loses his cool, and everyone trusts him (confía en él). || @tags es.listening
+      listen: @dialogue || What did Irene and Bilal think of the young man who came on Monday? || He was too quiet. | *He only talked about himself. | He asked too many questions. || Irene says «Solo hablaba de sí mismo»; Bilal thinks he was maybe just nervous. || @tags es.listening
+      dict: Mi mejor amiga es una persona con la que puedo hablar de todo. || con la que = with whom
+      ask: Describe your best friend — two qualities, one small flaw and how you met. Use at least one relative clause. || kw: es & que/quien/donde & conocí/conocimos || Mi mejor amiga se llama Alba. Es muy generosa y sensata, aunque es un poco testaruda. La conocí en el instituto donde estudiábamos las dos, y es la persona con la que mejor me llevo.
+
+  - title: Friendship and disagreements
+    summary: Talk about friendship, arguments and making up, choosing between the indefinido for events and the imperfecto for background and habits.
+    minutes: 45
+    skills: [grammar, listening, speaking]
+    tags: [es.preterite-vs-imperfect]
+    objectives:
+      - Choose between the indefinido (events) and the imperfecto (background, habits, descriptions)
+      - Talk about arguments, apologies and making up
+      - Use conocer and saber in the past with the right meaning
+    intro: |
+      You already know both past tenses from A2. The B1 challenge is **choosing** between them in the same story. The **indefinido** moves the story forward — *discutimos, se fue, me llamó* — while the **imperfecto** paints the background — *estábamos en su casa, todo iba bien*. Telling a friend about a falling-out is perfect practice, because you need both in almost every sentence.
+    vocab: |
+      la amistad | friendship | n | Nuestra amistad empezó en primero de primaria. | Our friendship started in the first year of primary school. | g: f
+      discutir | to argue | v | Mi hermano y yo discutimos por cualquier tontería. | My brother and I argue over any silly little thing. | n: To talk something over calmly, say hablar de or comentar.
+      enfadarse (con) | to get angry (with) | v | Se enfadó conmigo porque llegué tarde. | She got angry with me because I arrived late. | n: Latin America: enojarse. Estar enfadado = to be angry.
+      el malentendido | misunderstanding | n | Todo fue un malentendido. | It was all a misunderstanding. | g: m
+      tener razón | to be right | expr | Tenías razón: no era buena idea. | You were right: it wasn't a good idea. | n: No tener razón = to be wrong.
+      pedir perdón | to apologise; to say sorry | expr | Le pedí perdón a la mañana siguiente. | I said sorry to her the next morning. | c: pedir disculpas; pedirle perdón a alguien
+      perdonar | to forgive | v | ¿Me perdonas? No quería hacerte daño. | Will you forgive me? I didn't mean to hurt you.
+      hacer las paces | to make up | expr | Al final hicimos las paces y fuimos a cenar. | In the end we made up and went for dinner.
+      echar de menos | to miss (someone or something) | expr | Te echo mucho de menos desde que te mudaste. | I've missed you a lot since you moved. | n: Latin America: extrañar.
+      confiar en | to trust | v | Confío en ella completamente. | I trust her completely. | n: Stress on the í: confío, confías, confía.
+      dejar de + infinitive | to stop (doing something) | expr | Dejamos de hablarnos durante casi un año. | We stopped speaking to each other for almost a year.
+      hacer daño | to hurt | expr | Sus palabras me hicieron mucho daño. | His words hurt me a lot.
+      contar | to tell | v | ¿Por qué no me contaste nada? | Why didn't you tell me anything? | n: o → ue in the present: cuento, cuentas. It also means "to count".
+    grammar:
+      title: Indefinido or imperfecto?
+      body: |
+        Both tenses talk about the past, but they show it differently. Think of a film: the **imperfecto** is the scenery and the **indefinido** is the action.
+
+        - **Imperfecto** — background and description (*era tarde, estaba nerviosa, hacía frío*), habits and repeated actions (*siempre quedábamos los viernes*), and actions in progress at a moment in the past (*mientras cortaba la tarta…*).
+        - **Indefinido** — completed events, especially when we say *when* or *how many times* (*el sábado discutimos, te llamé tres veces*), and events that move the story forward one after another (*se levantó, cogió el abrigo y se fue*).
+
+        A very common pattern: an action in progress (imperfecto) is **interrupted** by an event (indefinido): *Estábamos en su cumpleaños cuando les conté que me iba a Berlín.*
+
+        A few verbs change their English translation: **conocía** = I knew (someone) / **conocí** = I met (for the first time); **sabía** = I knew / **supe** = I found out; **tenía que ir** = I had to go (perhaps I didn't) / **tuve que ir** = I had to go (and I did).
+      table: |
+        Imperfecto | Indefinido
+        Background: Era tarde y llovía. | Event: De repente sonó el teléfono.
+        Habit: Siempre quedábamos los viernes. | One occasion: Ese viernes no quedamos.
+        In progress: Mientras hablábamos… | Interruption: …llegó su novio.
+        Description: Lorena estaba muy nerviosa. | Reaction: Lorena se enfadó.
+      examples: |
+        Cuando éramos niñas, Lorena y yo nos veíamos todos los días. | When we were little, Lorena and I saw each other every day. | habit
+        Un día discutimos por una tontería y estuvimos un mes sin hablarnos. | One day we argued over something silly and didn't speak for a month. | completed events
+        Estaba muy enfadada, pero cuando me pidió perdón, lo perdoné. | I was very angry, but when he apologised, I forgave him. | state + events
+        Conocí a Álex en un concierto; entonces no sabía que era mi vecino. | I met Álex at a concert; at the time I didn't know he was my neighbour. | conocer and saber
+      tip: "Ask yourself: is it the scenery or the action? If you could add 'and then…' after it, it is probably the indefinido."
+    dialogue:
+      title: Una discusión en el cumpleaños
+      setting: A café in Zaragoza on Monday afternoon. Óscar notices that his friend Marga is unusually quiet and asks her what is wrong.
+      speakers: M=Marga/f; O=Óscar/m
+      lines: |
+        O: Oye, ¿qué te pasa? Estás muy callada hoy y casi no has comido. | Hey, what's up? You're very quiet today and you've hardly eaten.
+        M: Es que el sábado discutí con Lorena y todavía estoy fatal. | It's just that I argued with Lorena on Saturday and I still feel awful.
+        O: ¿Con Lorena? ¡Pero si sois amigas desde el colegio! | With Lorena? But you've been friends since school!
+        M: Ya. Estábamos en su cumpleaños y todo iba genial, de verdad. | I know. We were at her birthday party and everything was going great, honestly.
+        O: ¿Y entonces qué pasó? Cuéntame, que no entiendo nada. | So what happened? Tell me, because I don't get it at all.
+        M: Mientras ella cortaba la tarta, les conté a todos que me iba a Berlín. | While she was cutting the cake, I told everyone that I was moving to Berlin.
+        O: Vaya… ¿Y ella todavía no sabía nada de lo de Berlín? | Oh dear… And she still didn't know anything about the Berlin thing?
+        M: Nada. Se enfadó muchísimo y dijo que yo nunca le contaba nada. | Nothing. She got really angry and said I never told her anything.
+        O: Bueno, en parte tenía razón, ¿no? Es una noticia muy importante. | Well, she was partly right, wasn't she? It's very big news.
+        M: Lo sé. Y encima me fui de la fiesta sin pedirle perdón. | I know. And on top of that, I left the party without apologising to her.
+        O: Pues llámala hoy mismo. Seguro que ella también te echa de menos. | Then call her today. I'm sure she misses you too.
+        M: Tienes razón. La llamo esta tarde y a ver si hacemos las paces. | You're right. I'll call her this afternoon and see if we can make up.
+    pronunciation:
+      title: "Reacting with intonation: ¡No me digas!"
+      body: |
+        When someone tells you a story, short reactions show you are listening. Exclamations start high and fall clearly at the end: *¡Qué fuerte!* Surprised questions rise at the end: *¿En serio?*
+
+        **Pero si…** at the start of a sentence expresses surprise or protest — keep your voice high on *pero si* and let it fall at the end: *¡Pero si sois amigas!* Listen and copy the melody, not only the words.
+      items: |
+        ¡No me digas!
+        ¿En serio?
+        ¡Qué fuerte!
+        ¡Pero si sois amigas!
+        ¡Vaya!
+        ¡Qué pena!
+    culture:
+      title: "Friends for life: la cuadrilla and la pandilla"
+      body: |
+        Many Spaniards keep the same group of friends from school or from their home town for decades. In the Basque Country, Navarre and La Rioja this group is called **la cuadrilla**; elsewhere you'll hear **la pandilla** or simply **el grupo**. People also talk about their **amigos del pueblo** — the friends they see every summer in the village their family comes from.
+
+        Disagreements within the group are usually sorted out face to face, often over a coffee or a drink. A typical way to close the matter is *Venga, no pasa nada* or *Olvídalo* — come on, it's fine / forget it.
+    mistakes: |
+      Cuando era pequeña, fui al parque todos los días. => Cuando era pequeña, iba al parque todos los días. | Repeated actions and habits in the past take the imperfect.
+      Ayer discutía con mi hermano. => Ayer discutí con mi hermano. | A single, completed event at a specific time takes the indefinido.
+      Conocía a Lorena en 2010. => Conocí a Lorena en 2010. | "I met" (for the first time) is conocí; conocía means "I knew".
+    task:
+      title: Making up
+      mode: writing
+      body: |
+        You argued with a friend last weekend. Write them a message of 70–90 words: describe the situation (where you were, how you felt), say what happened, apologise and suggest meeting up to make peace. Use at least three verbs in the imperfecto and three in the indefinido, and check each one with the question "scenery or action?".
+    exercises: |
+      fill: Cuando ___ (ser, nosotras) pequeñas, Lorena y yo nos veíamos todos los días. || éramos || Describing a period of the past: imperfect of ser, éramos. || @tags es.preterite-vs-imperfect,es.imperfect
+      fill: El sábado pasado ___ (discutir, yo) con mi mejor amigo por una tontería. || discutí || One completed event on a specific day: indefinido. || @tags es.preterite-vs-imperfect,es.preterite
+      fill: Mientras ___ (cortar, ella) la tarta, alguien apagó la luz. || cortaba || Mientras + an action in progress: imperfect. The interruption (apagó) is in the indefinido. || @tags es.preterite-vs-imperfect
+      fill: Hacía mucho frío, así que ___ (ponerse, yo) el abrigo y ___ (salir, yo) a buscarla. || me puse ; salí || Two events, one after the other, move the story forward: indefinido. Hacía frío is the background. || @tags es.preterite-vs-imperfect,es.preterite-irregular
+      mc: «Conocí a mi mejor amigo en la universidad» means… || I knew my best friend at university. | *I met my best friend at university. | I used to meet my best friend at university. || Conocer in the indefinido means "to meet for the first time". || @tags es.preterite-vs-imperfect
+      mc: Cuando la conocí, Lorena ___ el pelo muy largo. || tuvo | *tenía | tiene || Physical description in the past takes the imperfect: tenía. || @tags es.preterite-vs-imperfect
+      mc: Your friend says «Vale, tienes razón». She is… || *agreeing with you. | asking you for a reason. | saying you are wrong. || Tener razón = to be right. || @skill vocabulary @tags es.vocabulary
+      tf: Lorena already knew that Marga was moving to Berlin. || false || Óscar asks «¿Y ella todavía no sabía nada?» and Marga answers «Nada». || @ctx dialogue
+      short: What does Óscar advise Marga to do? || kw: llamar/llama/llámala/call/phone/ring || He says «Pues llámala hoy mismo» — call her today. || @ctx dialogue
+      rw: Put the sentence in the past :: Estoy en el bar y de repente entra mi ex. || Estaba en el bar y de repente entró mi ex. || The background goes in the imperfect (estaba); the sudden event in the indefinido (entró). || @tags es.preterite-vs-imperfect
+      tr: I missed you a lot when you lived in Berlin. || Te eché mucho de menos cuando vivías en Berlín. | Te echaba mucho de menos cuando vivías en Berlín. | Te eché muchísimo de menos cuando vivías en Berlín. | Te echaba muchísimo de menos cuando vivías en Berlín. | Te extrañé mucho cuando vivías en Berlín. | Te extrañaba mucho cuando vivías en Berlín. || Cuando vivías is background: imperfect. Echar de menos can be eché (the whole period) or echaba (an ongoing feeling); extrañar is the Latin American verb. || @tags es.preterite-vs-imperfect
+      listen: Cuando éramos adolescentes, Pablo y yo lo hacíamos todo juntos. Pero un verano él se mudó a Chile y poco a poco dejamos de escribirnos. || What happened one summer? || They had a big argument. | *Pablo moved to Chile. | They went on holiday together. || «Un verano él se mudó a Chile» — after that they slowly stopped writing to each other. || @tags es.listening,es.preterite-vs-imperfect
+      listen: @dialogue || Why did Lorena get angry? || Marga forgot her birthday. | *She heard about Marga's move to Berlin in front of everyone. | Marga arrived late to the party. || Marga told everyone about Berlin while Lorena was cutting the cake — and Lorena didn't know. || @tags es.listening
+      dict: Tenías razón: al final hicimos las paces y fuimos a cenar.
+      say: Lo siento mucho, de verdad. No quería hacerte daño. || I'm really sorry, honestly. I didn't mean to hurt you.
+
+  - title: Telling an anecdote
+    summary: Tell a short personal story with a clear setting, a turning point and an ending, using time markers with the indefinido and the imperfecto.
+    minutes: 45
+    skills: [reading, writing, speaking]
+    tags: [es.preterite-vs-imperfect, es.connectors]
+    objectives:
+      - Structure an anecdote with a setting, a turning point and an ending
+      - Use time markers such as de repente, al cabo de and al final with the right past tense
+      - React to and comment on someone else's story
+    intro: |
+      Anecdotes are the heart of conversation in Spain — over coffee, at dinner, during the long chat after a meal. A good anecdote needs a **setting** (imperfecto), a **turning point** (indefinido, often after *de repente*) and an **ending**. In this lesson you will read one, learn the small words that hold a story together, and tell your own.
+    vocab: |
+      ¿sabes qué me pasó? | guess what happened to me? | expr | ¿Sabes qué me pasó ayer en el metro? | Guess what happened to me yesterday on the metro? | n: Pasarle algo a alguien works like gustar: me pasó, te pasó, le pasó.
+      el otro día | the other day | expr | El otro día me encontré a mi profesora de primaria. | The other day I bumped into my primary school teacher.
+      hace un par de años | a couple of years ago | expr | Hace un par de años me pasó algo increíble en Roma. | A couple of years ago something incredible happened to me in Rome. | n: Hace + period of time + indefinido = "ago".
+      de repente | suddenly | adv | De repente, la puerta se cerró detrás de mí. | Suddenly, the door shut behind me. | n: Usually followed by the indefinido.
+      al cabo de | after (a period of time) | expr | Al cabo de media hora empecé a ponerme nerviosa. | After half an hour I started to get nervous. | n: Similar: media hora después.
+      en ese momento | at that moment | expr | En ese momento vi a mi vecino en su terraza. | At that moment I saw my neighbour on his terrace.
+      al final | in the end | expr | Al final no pasó nada grave. | In the end nothing serious happened. | n: Not en el final.
+      total, que | long story short; so anyway | expr | Total, que llegamos tres horas tarde. | Long story short, we arrived three hours late. | n: Colloquial; used to jump to the end of a story.
+      menos mal que | thank goodness; luckily | expr | Menos mal que mi hermana tenía una copia de las llaves. | Thank goodness my sister had a spare set of keys.
+      darse cuenta de | to realise | v | Entonces me di cuenta de que no llevaba el móvil. | Then I realised I didn't have my phone on me. | n: Keep de before que. False friend: realizar = to carry out.
+      quedarse encerrado | to get locked in / locked out | expr | Me quedé encerrada en el balcón. | I got locked out on the balcony. | n: Encerrado agrees: encerrada, encerrados.
+      la llave | key | n | Nunca salgo sin las llaves. | I never go out without my keys. | g: f
+      hacer señas | to wave; to signal (to get attention) | expr | Le hice señas con los brazos y me vio. | I waved my arms at him and he saw me.
+      ponerse nervioso | to get nervous | expr | Cuando vi la hora, me puse muy nervioso. | When I saw the time, I got very nervous. | n: Ponerse + adjective expresses a change of mood: ponerse rojo, ponerse contento.
+    grammar:
+      title: "Telling an anecdote: time markers and past tenses"
+      body: |
+        A good anecdote has three parts, and each has its own tense and its own little words.
+
+        1. **Opening and setting** — when and where it happened, and what the situation was like. Open with a time marker (*el otro día, una vez, hace un par de años*) and describe the scene in the **imperfecto**: *Vivía sola y hacía un calor horrible.*
+        2. **The turning point** — what suddenly happened. Use **de repente, en ese momento, entonces** + **indefinido**: *De repente, la puerta se cerró.* Actions in progress still take the imperfecto: *Mientras regaba las plantas…*
+        3. **What happened next and the ending** — a chain of events in the **indefinido**, linked with *luego, al cabo de, por suerte*, and closed with **al final** or **total, que**: *Al final no pasó nada grave.*
+
+        To say what you were about to do, use **iba a + infinitive**: *Iba a llamarte, pero me quedé sin batería* (I was going to call you, but my battery died). Finish with a comment in the present: *Desde entonces nunca salgo sin llaves.*
+      table: |
+        Part | Useful markers | Main tense
+        Opening | el otro día, una vez, hace un par de años | indefinido: me pasó una cosa…
+        Setting | aquel día, como, mientras | imperfecto: era tarde, estaba sola
+        Turning point | de repente, en ese momento, entonces | indefinido: la puerta se cerró
+        Ending | al cabo de, por suerte, al final, total, que | indefinido: al final llamé a mi hermana
+        Comment | desde entonces, ahora | presente: desde entonces nunca salgo sin llaves
+      examples: |
+        Aquel día hacía un calor horrible y yo estaba sola en casa. | That day it was horribly hot and I was alone at home. | setting: imperfecto
+        Mientras regaba las plantas, de repente se cerró la puerta del balcón. | While I was watering the plants, the balcony door suddenly shut. | in progress + interruption
+        Iba a salir de casa cuando me di cuenta de que no tenía las llaves. | I was about to leave the house when I realised I didn't have my keys. | iba a + infinitive
+        Total, que al final llegamos a la boda en taxi y descalzos. | Long story short, in the end we arrived at the wedding by taxi and barefoot. | ending
+      tip: "Keep your listener with you: pause after the setting, raise your voice slightly on de repente, and finish with a short comment such as ¡Qué vergüenza! or ¡Menos mal!"
+    reading:
+      title: El día que me quedé encerrada en el balcón
+      text: |
+        Hace un par de años, en pleno agosto, me pasó una de las cosas más ridículas de mi vida. Vivía sola en un cuarto piso en Sevilla y aquel día hacía un calor horrible. Eran casi las once de la noche cuando salí al balcón para regar las plantas. Mientras las regaba, se levantó un poco de viento y, de repente, la puerta del balcón se cerró detrás de mí. Intenté abrirla, pero no había manera: aquella puerta solo se abría desde dentro.
+
+        Mi móvil, claro, estaba en el sofá. Al principio me reí, pero al cabo de media hora empecé a ponerme nerviosa. En ese momento vi a mi vecino de enfrente, un señor mayor que siempre leía el periódico en su terraza. Le hice señas con los brazos y, por suerte, me entendió enseguida. Llamó a mi hermana, que tenía una copia de mis llaves, y una hora después ella estaba en mi casa, muerta de risa.
+
+        Total, que no pasó nada grave, pero desde entonces nunca salgo al balcón sin las llaves… ¡ni sin el móvil!
+      translation: |
+        A couple of years ago, in the middle of August, one of the most ridiculous things in my life happened to me. I lived alone on a fourth floor in Seville and that day it was horribly hot. It was almost eleven at night when I went out onto the balcony to water the plants. While I was watering them, a bit of wind picked up and, suddenly, the balcony door shut behind me. I tried to open it, but there was no way: that door only opened from the inside.
+
+        My phone, of course, was on the sofa. At first I laughed, but after half an hour I started to get nervous. At that moment I saw my neighbour across the street, an older man who always read the newspaper on his terrace. I waved my arms at him and, luckily, he understood straight away. He called my sister, who had a copy of my keys, and an hour later she was at my flat, laughing her head off.
+
+        Long story short, nothing serious happened, but since then I never go out onto the balcony without my keys… or without my phone!
+    pronunciation:
+      title: "Imperfect endings: estaba, tenía, leía"
+      body: |
+        -ar verbs form the imperfect with **-aba**, stressed on the first *a*: *es-**ta**-ba*, *re-**ga**-ba*. -er and -ir verbs use **-ía**, and the written accent on the **í** tells you to pronounce *í-a* as two separate syllables, never as one: *te-**ní**-a*, *ha-**bí**-a*, *le-**í**-a*.
+
+        Don't stress the last syllable: *estaba* is never "estabá". Read each item slowly, syllable by syllable, then at normal speed.
+      items: |
+        estaba
+        tenía
+        había
+        leía
+        me reía
+        abría
+    culture:
+      title: "Storytelling Spanish style: interrupting is listening"
+      body: |
+        In Spain a story is rarely told in silence. Listeners react constantly — *¿Y qué hiciste?*, *¡Qué dices!*, *¡Madre mía!* — and may even finish your sentence for you. This isn't rude: it shows interest. A silent listener can seem cold or bored.
+
+        Storytellers use fillers to hold the floor and move the story on: **pues nada** (well, anyway), **resulta que** (it turns out that), **total, que** (long story short). Many anecdotes come out during **la sobremesa**, the long chat at the table after a meal, which can easily last longer than the meal itself.
+    mistakes: |
+      De repente sonaba el timbre. => De repente sonó el timbre. | De repente introduces a sudden, completed event: indefinido.
+      Me di cuenta que no tenía las llaves. => Me di cuenta de que no tenía las llaves. | The verb is darse cuenta de, so keep de before que.
+      En el final, todo salió bien. => Al final, todo salió bien. | "In the end" is al final.
+    task:
+      title: Your own anecdote
+      mode: writing
+      body: |
+        A Spanish blog asks its readers: *¿Te ha pasado algo curioso, vergonzoso o increíble?* Write your anecdote in 90–120 words. Open with a time marker, set the scene in the imperfecto, use *de repente* or *en ese momento* for the turning point, and close with *al final* or *total, que* plus a comment in the present. Then tell it aloud in under a minute.
+    exercises: |
+      mc: Where was the writer when the door shut? || In the kitchen | *On the balcony | In the lift || «Salí al balcón para regar las plantas… la puerta del balcón se cerró detrás de mí.» || @ctx reading @tags es.reading
+      tf: The writer had her phone with her. || false || «Mi móvil, claro, estaba en el sofá.» || @ctx reading @tags es.reading
+      short: Who saw the writer first and helped her? || kw: vecino/neighbour/neighbor || Her neighbour across the street saw her waving and called her sister. || @ctx reading @tags es.reading
+      mc: Why was the writer's sister able to help? || She lived next door. | *She had a copy of the keys. | She was a locksmith. || «Mi hermana, que tenía una copia de mis llaves…» || @ctx reading @tags es.reading
+      fill: Aquel día ___ (hacer) un calor horrible y yo ___ (estar) sola en casa. || hacía ; estaba || The setting — weather and situation — goes in the imperfecto. || @tags es.preterite-vs-imperfect
+      fill: Mientras regaba las plantas, de repente la puerta ___ (cerrarse). || se cerró || De repente + a sudden event: indefinido. || @tags es.preterite-vs-imperfect
+      fill: ___ salir de casa cuando me di cuenta de que no tenía las llaves. (I was about to) || Iba a || Iba a + infinitive = I was going to / I was about to. || @tags es.imperfect
+      mc: Which marker introduces the end of a story? || De repente | Mientras | *Total, que || Total, que jumps to the conclusion. De repente introduces a turning point; mientras, an action in progress. || @tags es.connectors
+      rw: Rewrite the sentence in the past :: Salgo de casa, pero a los cinco minutos me doy cuenta de que no llevo el paraguas. || Salí de casa, pero a los cinco minutos me di cuenta de que no llevaba el paraguas. || The two events take the indefinido (salí, me di cuenta); the situation takes the imperfect (no llevaba). || @tags es.preterite-vs-imperfect
+      tr: Suddenly I realised that the door only opened from the inside. || De repente me di cuenta de que la puerta solo se abría desde dentro. | De repente, me di cuenta de que la puerta solo se abría desde dentro. | De repente me di cuenta de que la puerta solo se abría por dentro. | De repente me di cuenta de que la puerta solo se abría desde adentro. || Me di cuenta (event) + de que + a permanent situation in the imperfect (se abría). Desde adentro is common in Latin America. || @tags es.preterite-vs-imperfect
+      listen: El otro día iba en bici al trabajo y, de repente, un perro cruzó la calle. Frené justo a tiempo, menos mal. || What happened? || The speaker fell off the bike. | *The speaker braked just in time. | A dog bit the speaker. || «Frené justo a tiempo» — I braked just in time. || @tags es.listening,es.preterite-vs-imperfect
+      listen: Total, que al final perdimos el tren, pero conocimos a una pareja encantadora en la estación. || How did the story end? || They caught the train. | *They missed the train but met a lovely couple. | They stayed at a hotel near the station. || «Perdimos el tren, pero conocimos a una pareja encantadora.» || @tags es.listening
+      dict: Eran las once de la noche y todavía hacía mucho calor.
+      ask: Tell a friend a short anecdote — when it happened, what the situation was, what suddenly happened and how it ended. || kw: de repente/en ese momento/entonces & al final/total || El otro día estaba en el supermercado y, de repente, vi a mi profesora de primaria. Hacía veinte años que no la veía. Al final tomamos un café juntas y hablamos durante una hora.
+      write: Write the ending of this story (40–60 words) — «Era mi primer día en el trabajo nuevo y llegué con veinte minutos de antelación. Cuando entré en el ascensor…» || min=40 || req: de repente/en ese momento/entonces | al final/total || …de repente se paró entre dos pisos. Dentro también estaba un señor muy serio que no decía nada. Al cabo de diez minutos, el ascensor empezó a moverse otra vez. Total, que llegué tarde a la primera reunión… ¡y el señor serio era mi nuevo jefe! Al final nos reímos mucho los dos.

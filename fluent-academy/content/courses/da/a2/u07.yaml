@@ -1,0 +1,370 @@
+unit: 7
+title: Fester og traditioner
+theme: Celebrations and traditions
+description: Talk about Danish holidays with reflexive verbs (glæde sig, klæde sig ud), invite people and arrange to meet with s-verbs (synes, mødes, ses), and choose presents and send good wishes with ønske sig, sig and tillykke med.
+free: false
+objectives:
+  - Talk about Danish holidays and how you celebrate, using reflexive verbs
+  - Invite people, accept or decline, and arrange to meet with s-verbs
+  - Choose a present, thank someone and send good wishes
+canDo:
+  - I can name the main Danish holidays and say how I celebrate a holiday.
+  - I can use reflexive verbs like glæde sig til, more sig and skynde sig.
+  - I can invite someone, accept or decline politely, and say what I think with synes.
+  - I can write a short card with the right wishes and thank someone for a present.
+review: |
+  fill: Jeg glæder ___ til sommerferien. || mig || Glæde sig is reflexive; with jeg the pronoun is mig. || @tags da.reflexive
+  fill: Vi har moret ___ på festen. || os || With vi, the reflexive pronoun is os. || @tags da.reflexive,da.perfect
+  mc: Choose the correct sentence. || Hun klæder hende ud som heks. | *Hun klæder sig ud som heks. | Hun klæder ud sig som heks. || The pronoun refers back to hun, so it's sig, and it comes straight after the verb. || @tags da.reflexive
+  fill: Hvad ___ du om filmen i går? (think — opinion) || syntes / synes || Synes is an s-verb; the past is syntes. || @tags da.s-verbs
+  mc: "Vi ses!" means… || We see them! | *See you! | We are seen! || Ses means "see each other": Vi ses = see you. || @tags da.s-verbs
+  mc: "Skal vi ___ ad til koncerten?" || *følges | følge | følger || Følges ad = go somewhere together. After skal, you need the infinitive, and this s-verb keeps its -s. || @tags da.s-verbs
+  tr: Happy New Year! || Godt nytår! | Godt nytår til dig! | Godt nytår til jer! || Nytår is an et-word, so god → godt. || @tags da.adjective-agreement
+  rw: Put it in the past tense :: De ses hver sommer. || De sås hver sommer. || Ses → sås in the past. || @tags da.s-verbs,da.past
+  listen: Tillykke med brylluppet! Vi glæder os til at fejre jer på lørdag. || What's the occasion? || A birthday | *A wedding | A new job || "Tillykke med brylluppet" — congratulations on the wedding. || @tags da.listening
+  listen: Kan vi mødes ved kirken klokken halv tre? Så kan vi følges ad til festen. || Where will they meet? || At the station | *At the church | At the party || "Kan vi mødes ved kirken?" || @tags da.s-verbs,da.listening
+  ask: Tell a friend about a celebration you are looking forward to — when it is and what you will do. || kw: glæder mig & til & fejre/fejrer/holde/holder/spise/spiser/danse/synge || Jeg glæder mig til sankthansaften. Vi skal tænde bål på stranden og synge med vores naboer.
+  write: Write a thank-you message to a host after a party. || min=30 || req: tak for | hyggede/morede/glæder | synes/syntes || Kære Lone og Peter! Tusind tak for en dejlig aften i lørdags. Vi hyggede os rigtig meget, og vi syntes, maden var fantastisk. Tak, fordi vi måtte komme. Vi glæder os til at se jer igen! Kærlig hilsen Amir og Sofie
+lessons:
+  - title: Festivals and holidays
+    summary: Talk about Danish holidays — jul, nytår, fastelavn, påske, sankthans — and how you celebrate, with reflexive verbs like glæde sig til and klæde sig ud.
+    minutes: 40
+    skills: [vocabulary, grammar, reading]
+    tags: [da.reflexive, da.dates]
+    objectives:
+      - Name the main Danish holidays and say when they are
+      - Describe how you celebrate a holiday
+      - Use reflexive verbs with mig, dig, sig, os and jer
+    intro: |
+      Danish holidays have their own food, songs and customs: children dress up at fastelavn, people sing around a bonfire on sankthansaften, and families dance around the Christmas tree on juleaften. To talk about them you need reflexive verbs — verbs with *mig, dig, sig*: **Jeg glæder mig til jul!** In this lesson you will learn the holiday calendar and describe your own traditions.
+    vocab: |
+      jul | Christmas | n | Vi holder jul hos mine forældre i år. | We're having Christmas at my parents' this year. | g: c | c: holde jul (celebrate Christmas); glædelig jul (merry Christmas) | n: Til jul = at Christmas; i julen = during Christmas.
+      juleaften | Christmas Eve | n | Juleaften danser vi om juletræet. | On Christmas Eve we dance around the Christmas tree. | g: c | n: The main day in Denmark is the evening of 24 December, with dinner, dancing and presents.
+      et juletræ | a Christmas tree | n | Vi pynter juletræet den 23. december. | We decorate the Christmas tree on 23 December. | g: n | pl: juletræer | n: Pynte = decorate. Some families still use real candles.
+      nytårsaften | New Year's Eve | n | Nytårsaften spiser vi kransekage klokken tolv. | On New Year's Eve we eat kransekage at midnight. | g: c | n: Kransekage is a tower of almond rings.
+      fastelavn | Shrovetide; the Danish carnival | n | Til fastelavn klæder børnene sig ud. | At fastelavn the children dress up. | g: c | n: In February or March, seven weeks before Easter.
+      påske | Easter | n | I påsken tager vi i sommerhus. | At Easter we go to a summer house. | g: c | n: Definite: påsken. Many Danes have five days off.
+      sankthansaften | Midsummer Eve | n | Sankthansaften tænder vi bål på stranden. | On Midsummer Eve we light a bonfire on the beach. | g: c | n: The evening of 23 June.
+      en tradition | a tradition | n | Det er en gammel tradition i vores familie. | It's an old tradition in our family. | g: c | pl: traditioner
+      fejre | to celebrate | v | Hvordan fejrer I jul i dit land? | How do you celebrate Christmas in your country? | n: Past: fejrede.
+      glæde sig til | to look forward to | expr | Jeg glæder mig til juleferien. | I'm looking forward to the Christmas holidays. | n: Reflexive: jeg glæder mig, du glæder dig, vi glæder os.
+      klæde sig ud | to dress up (in a costume) | expr | Min søn klæder sig ud som pirat. | My son is dressing up as a pirate. | n: Klæde sig ud som + costume.
+      more sig | to have fun; to enjoy yourself | expr | Vi morede os rigtig godt til festen. | We had a really good time at the party. | n: Past: morede sig. Hygge sig = have a cosy, pleasant time.
+      skynde sig | to hurry | expr | Skynd dig! Vi kommer for sent til kirken. | Hurry up! We'll be late for church. | n: Imperative: skynd dig (one person), skynd jer (several people).
+    grammar:
+      title: "Reflexive verbs: Jeg glæder mig"
+      body: |
+        Some Danish verbs need a **reflexive pronoun** — a word that refers back to the subject, like English *myself*. They are much more common in Danish, and English often has no pronoun at all: *Jeg glæder mig* (I'm looking forward to it). *Skynd dig!* (Hurry up!)
+
+        The reflexive pronouns are the object pronouns you know — *mig, dig, os, jer* — except in the third person, which has its own form: **sig** for *han, hun, den, det* and *de*.
+
+        Common reflexive verbs: *glæde sig (til)* — look forward (to), *more sig* — have fun, *hygge sig* — have a cosy time, *skynde sig* — hurry, *sætte sig* — sit down, *klæde sig ud* — dress up, *føle sig* — feel (*Jeg føler mig træt*).
+
+        **Word order.** The pronoun comes straight after the verb: *Vi glæder os til jul.* In a main clause with one verb, ikke comes after the pronoun: *Jeg glæder mig ikke til mandag.* With two verbs, the pronoun follows the second verb: *Vi har moret os. Du skal skynde dig.* In a question: *Glæder du dig?*
+
+        **Holidays and prepositions:** *til jul, til påske, til fastelavn* (at, for), *i julen, i påsken* (during), and *juleaften, nytårsaften* with no preposition.
+      table: |
+        Subject | Reflexive | Example
+        jeg | mig | Jeg glæder mig til jul.
+        du | dig | Skynd dig!
+        han / hun | sig | Hun klæder sig ud som heks.
+        vi | os | Vi morede os i går.
+        I | jer | Sæt jer ned.
+        de | sig | De hygger sig i haven.
+      examples: |
+        Glæder du dig til påske? | Are you looking forward to Easter? | question: verb, subject, pronoun
+        Børnene klæder sig ud som superhelte til fastelavn. | The children dress up as superheroes for fastelavn. | de → sig
+        Vi har hygget os hele aftenen. | We've had a lovely time all evening. | perfect: har hygget os
+        Jeg glæder mig ikke til at arbejde nytårsaften. | I'm not looking forward to working on New Year's Eve. | ikke after the pronoun
+      tip: "Only han, hun, den, det and de use the special form sig. Everyone else uses the object pronoun: mig, dig, os, jer."
+    dialogue:
+      title: Jul på dansk
+      setting: A December evening at the language café in the library in Ribe. Arjun, who moved to Denmark in the summer, asks Vibeke, a volunteer, about Danish Christmas.
+      speakers: A=Arjun/m; V=Vibeke/f
+      lines: |
+        A: Vibeke, hvordan fejrer man jul i Danmark? | Vibeke, how do people celebrate Christmas in Denmark?
+        V: Den store dag er juleaften, den 24. december. | The big day is Christmas Eve, the 24th of December.
+        A: Ikke den 25.? Det er nyt for mig. | Not the 25th? That's new to me.
+        V: Nej. Vi spiser and eller flæskesteg om aftenen. | No. We eat duck or roast pork in the evening.
+        V: Og til dessert får vi risalamande med en hel mandel i. | And for dessert we have risalamande with a whole almond in it.
+        A: En mandel? Hvorfor det? | An almond? Why's that?
+        V: Man får en lille gave, hvis man finder mandlen. | You get a small present if you find the almond.
+        A: Sjovt! Og hvad sker der bagefter? | Fun! And what happens afterwards?
+        V: Så danser vi om juletræet og synger julesange. | Then we dance around the Christmas tree and sing carols.
+        A: Danser I virkelig rundt om træet? | Do you really dance around the tree?
+        V: Ja! Og så åbner vi gaverne. Børnene glæder sig hele december. | Yes! And then we open the presents. The children look forward to it all December.
+        A: Det lyder hyggeligt. Jeg glæder mig til at prøve det! | That sounds lovely. I'm looking forward to trying it!
+    pronunciation:
+      title: Holiday names
+      body: |
+        **Jul** sounds like English "yule": "yool". **Påske** has a long å: "PO-ske". In **fastelavn** the v becomes a short "oo" glide before the n: roughly "FAS-te-laun". In **sankthansaften** the stress is on *hans*: "sankt-HANS-af-ten".
+
+        In **glæder** (from glæde sig) the d is soft: "GLÆ-ther". Listen and repeat each holiday, then the whole sentence.
+      items: |
+        jul
+        påske
+        fastelavn
+        sankthansaften
+        nytårsaften
+        Jeg glæder mig til jul.
+    culture:
+      title: The Danish year of celebrations
+      body: |
+        At **fastelavn** children dress up, hit a decorated barrel until it breaks (*slå katten af tønden*) and eat cream-filled buns. Before **påske**, children send *gækkebreve* — paper-cut letters with a riddle. On **sankthansaften** (23 June) people gather around a bonfire, often with a witch figure on top, and sing the midsummer song.
+
+        December is full of traditions: a TV Christmas calendar for children, **julefrokost** parties with colleagues, and on **juleaften** a long dinner, dancing around the tree and presents. On **nytårsaften** many people watch the monarch's New Year speech at six, eat kransekage at midnight and jump off a chair "into" the new year.
+    mistakes: |
+      Jeg glæder til jul. => Jeg glæder mig til jul. | Glæde sig is reflexive: you need mig.
+      Hun klæder hende ud som heks. => Hun klæder sig ud som heks. | With han, hun and de, the reflexive pronoun is sig. Hende would be another woman.
+      Jeg glæder mig på jul. => Jeg glæder mig til jul. | "Look forward to" is glæde sig til.
+    task:
+      title: My favourite holiday
+      mode: writing
+      body: |
+        Write a short text (60–80 words) for your Danish class about a holiday you celebrate: when it is, what you eat, what you do, and what you look forward to. Use at least two reflexive verbs, for example glæde sig til, more sig or klæde sig ud.
+    exercises: |
+      fill: Jeg glæder ___ til jul. || mig || With jeg, the reflexive pronoun is mig. || @tags da.reflexive
+      fill: Børnene klæder ___ ud til fastelavn. || sig || Børnene = de, and the reflexive pronoun for de is sig. || @tags da.reflexive
+      fill: Skynd ___! Toget kører om fem minutter. (one person) || dig || Imperative to one person: skynd dig. || @tags da.reflexive,da.imperative
+      mc: "Vi har moret ___ hele aftenen." || sig | *os | vores || With vi, the reflexive pronoun is os. Vores means "our". || @tags da.reflexive
+      mc: Choose the correct sentence. || Jeg glæder ikke mig til mandag. | *Jeg glæder mig ikke til mandag. | Jeg ikke glæder mig til mandag. || The reflexive pronoun comes straight after the verb, and ikke follows it. || @tags da.reflexive,da.negation
+      match: jul = Christmas ; påske = Easter ; nytårsaften = New Year's Eve ; fastelavn = the Danish carnival ; sankthansaften = Midsummer Eve ; juleaften = Christmas Eve || The big Danish holidays. || @skill vocabulary @tags da.vocabulary
+      tf: In Denmark, the main Christmas celebration is on 25 December. || false || "Den store dag er juleaften, den 24. december." || @ctx dialogue
+      short: What is hidden in the risalamande? || kw: mandel/almond || "Risalamande med en hel mandel i" — a whole almond. || @ctx dialogue
+      listen: @dialogue || What do they do after dinner? || Go to church | *Dance around the tree and sing | Watch a film || "Så danser vi om juletræet og synger julesange." || @tags da.listening
+      listen: Til fastelavn klæder alle børn sig ud, og så slår de katten af tønden. Bagefter spiser vi fastelavnsboller. || What do they eat afterwards? || Risalamande | *Fastelavn buns | Kransekage || "Bagefter spiser vi fastelavnsboller." || @tags da.reflexive,da.listening
+      rw: Change the subject to "vi" :: Hun glæder sig til påske. || Vi glæder os til påske. || With vi, sig becomes os. || @tags da.reflexive
+      tr: Are you looking forward to Christmas? || Glæder du dig til jul? | Glæder du dig til julen? | Glæder I jer til jul? || Question: verb + subject + reflexive pronoun + til. || @tags da.reflexive,da.questions
+      ask: Tell a friend how you celebrate a holiday you like, and what you look forward to. || kw: fejrer/holder/spiser/danser/synger & glæder mig || Vi fejrer nytår hos mine venner. Vi spiser sammen og ser fyrværkeri, og jeg glæder mig altid til at danse.
+      write: Write a short text about a holiday you celebrate — when it is, what you eat and do, and what you look forward to. || min=40 || req: fejrer/holder | glæder mig/glæder os | spiser || I min familie fejrer vi Eid. Om morgenen klæder vi os i nyt tøj og besøger familien. Vi spiser meget god mad, og børnene får penge og gaver. Jeg glæder mig mest til at se mine kusiner. Vi morer os altid sammen.
+      dict: Vi glæder os til at tænde bål sankthansaften.
+
+  - title: Invitations and parties
+    summary: Invite people to a party, accept or decline politely, and talk about the party afterwards with s-verbs like synes, mødes, ses and følges.
+    minutes: 40
+    skills: [speaking, listening, grammar]
+    tags: [da.s-verbs, da.opinion]
+    objectives:
+      - Invite someone and accept or decline politely
+      - Arrange to meet with mødes, ses and følges ad
+      - Give your opinion with synes and ask Hvad synes du om…?
+    intro: |
+      Danes plan parties well in advance, and an invitation often says exactly when to come — and sometimes when the party ends. In this lesson you will invite friends, accept or decline politely, and arrange to meet. You will also meet a small group of verbs that always end in **-s**, like **synes** (think) and **mødes** (meet each other).
+    vocab: |
+      en invitation | an invitation | n | Tak for invitationen! Jeg kommer gerne. | Thanks for the invitation! I'd love to come. | g: c | pl: invitationer
+      holde fest | to have a party | expr | Vi holder fest på lørdag, fordi jeg fylder 30. | We're having a party on Saturday because I'm turning 30. | n: Holde → holdt.
+      fylde år | to have a birthday | expr | Hvornår fylder du år? | When is your birthday? | n: Fylde + age = turn: Hun fylder 40.
+      synes | to think (have an opinion) | v | Hvad synes du om maden? | What do you think of the food? | n: Past: syntes. Synes is for opinions; tro is for guesses.
+      mødes | to meet (each other) | v | Skal vi mødes ved stationen klokken syv? | Shall we meet at the station at seven? | n: Past: mødtes. No object: vi mødes — but jeg møder Ali.
+      ses | to see each other | v | Vi ses på lørdag! | See you on Saturday! | n: Past: sås.
+      følges ad | to go together | expr | Skal vi følges ad til festen? | Shall we go to the party together? | n: Past: fulgtes ad.
+      takke nej | to decline | expr | Jeg må desværre takke nej. | Unfortunately I have to decline. | n: Takke ja = accept.
+      en vært | a host | n | Værten laver al maden selv. | The host makes all the food himself. | g: c | pl: værter | n: A female host is often called en værtinde.
+      tage med | to bring | expr | Skal jeg tage noget med? | Shall I bring something? | n: Tage noget med til festen = bring something to the party.
+      skåle | to toast; to say cheers | v | Lad os skåle for Signe! | Let's drink a toast to Signe! | n: Skål! = Cheers! Look the others in the eyes when you say it.
+      svar senest | please reply by | expr | Svar senest den 10. maj. | Please reply by 10 May. | n: The Danish RSVP on invitations.
+      en overraskelse | a surprise | n | Festen er en overraskelse, så sig ikke noget! | The party is a surprise, so don't say anything! | g: c | pl: overraskelser
+    grammar:
+      title: "S-verbs: synes, mødes, ses"
+      body: |
+        A small group of Danish verbs always ends in **-s**, even in the infinitive. They look passive, but they're not. The most common ones:
+
+        - **synes** (think, find — an opinion): *Jeg synes, festen var sjov.* Past: *syntes*.
+        - **mødes** (meet each other): *Vi mødes klokken syv.* Past: *mødtes*.
+        - **ses** (see each other): *Vi ses i morgen!* Past: *sås*.
+        - **følges ad** (go somewhere together): *Skal vi følges ad?* Past: *fulgtes ad*.
+        - and *skændes* (argue), *lykkes* (succeed: *det lykkedes*).
+
+        They have one form for every person, and the present tense **doesn't add -r**: *jeg synes, vi mødes, de ses*. After a modal verb the form looks the same: *Skal vi mødes? Vi kan ses i weekenden.*
+
+        **Mødes or møde?** *Mødes* and *ses* already mean "each other", so they take no object: *Vi mødes på caféen.* With an object, use *møde* or *se*: *Jeg møder Ali på caféen. Jeg ser Ida i morgen.*
+
+        **Synes or tro?** Use *synes* for your opinion about something you know or have experienced, and *tro* when you are guessing: *Jeg synes, maden er lækker. Jeg tror, festen slutter klokken to.*
+      table: |
+        Verb | Present | Past | Example
+        synes | synes | syntes | Hvad synes du om musikken?
+        mødes | mødes | mødtes | Vi mødtes til en fest.
+        ses | ses | sås | Vi ses på lørdag!
+        følges ad | følges ad | fulgtes ad | Skal vi følges ad?
+        skændes | skændes | skændtes | De skændes aldrig.
+      examples: |
+        Hvad syntes du om festen i lørdags? | What did you think of the party last Saturday? | past: syntes
+        Skal vi mødes foran restauranten klokken halv otte? | Shall we meet in front of the restaurant at half past seven? | mødes after skal
+        Min kæreste og jeg mødtes til en julefrokost. | My partner and I met at a Christmas party. | past: mødtes
+        Jeg synes ikke, at musikken var for høj. | I don't think the music was too loud. | ikke after synes
+      tip: "S-verbs never add -r in the present: jeg synes, vi mødes, de ses."
+    dialogue:
+      title: Hjalte fylder 30
+      setting: A phone call on a Monday evening. Hjalte is turning 30 and invites his friend Sabrina to a party at his flat in Copenhagen.
+      speakers: H=Hjalte/m; S=Sabrina/f
+      lines: |
+        H: Hej Sabrina! Jeg fylder 30 på lørdag og holder fest. | Hi Sabrina! I'm turning 30 on Saturday and having a party.
+        S: Tillykke på forhånd! Hvor holder du den? | Happy birthday in advance! Where are you having it?
+        H: Hjemme hos mig. Kan du komme? | At my place. Can you come?
+        S: Jeg kommer gerne, men jeg arbejder til klokken otte. | I'd love to come, but I'm working until eight.
+        H: Det er helt fint. Vi spiser først klokken ni. | That's fine. We're not eating until nine.
+        S: Super! Skal jeg tage noget med? | Great! Shall I bring anything?
+        H: Ja, gerne en flaske vin eller en dessert. | Yes, a bottle of wine or a dessert would be great.
+        S: Kommer Mads og Freja også? | Are Mads and Freja coming too?
+        H: Ja. Måske kan I følges ad fra Nørreport? | Yes. Maybe you could go together from Nørreport?
+        S: God idé. Vi kan mødes på stationen. | Good idea. We can meet at the station.
+        H: Hvad synes du — skal vi have et tema? | What do you think — shall we have a theme?
+        S: Nej, det synes jeg ikke. Vi ses på lørdag! | No, I don't think so. See you on Saturday!
+    pronunciation:
+      title: "The -s verbs: synes, mødes, ses"
+      body: |
+        The final -s is always clear and short. **Synes** sounds like "SY-nes" with the Danish y (say "ee" with rounded lips). In **mødes** the d is soft: "MØ-thes". **Ses** is a single syllable with a long e: "sehs".
+
+        In **følges** the g sounds like a y: "FØL-yes". In the past, **syntes** and **mødtes** have a clear t-sound before the ending: "SYN-tes", "MØT-tes". Listen and repeat.
+      items: |
+        synes
+        mødes
+        ses
+        følges
+        Vi ses på lørdag!
+        Hvad synes du?
+    culture:
+      title: Danish parties
+      body: |
+        Invitations to birthdays and weddings are often sent weeks in advance, with **svar senest** (reply by) and sometimes an end time, for example *kl. 19–01*. Arrive on time, and bring a small present for the host — flowers, wine or chocolate.
+
+        At a big party, dinner can last for hours, with speeches and songs written for the occasion and sung to a well-known melody. When people raise their glasses, they say **Skål!** and look each other in the eyes. When you leave, say **Tak for i aften**, and the next time you meet the host, **Tak for sidst**.
+    mistakes: |
+      Vi mødes os på caféen. => Vi mødes på caféen. | Mødes already means "meet each other" — no pronoun.
+      Jeg synesr, det er sjovt. => Jeg synes, det er sjovt. | S-verbs don't add -r in the present.
+      Jeg tror, kagen er lækker. (after tasting it) => Jeg synes, kagen er lækker. | For an opinion about something you have tasted or seen, use synes. Tro is for guesses.
+    task:
+      title: Plan a party together
+      mode: interaction
+      body: |
+        Invite a friend to a party or a dinner: say when and where, what to bring, and agree where to meet first. Then practise in the "Making weekend plans" scenario with the AI coach — accept one suggestion and decline another one politely.
+    exercises: |
+      fill: Hvor skal vi ___ på lørdag? – På stationen. (meet each other) || mødes || Mødes = meet each other; after skal it keeps its -s. || @tags da.s-verbs
+      fill: Hvad ___ du om maden? (think — opinion) || synes || Synes is for opinions: Hvad synes du om…? || @tags da.s-verbs,da.opinion
+      fill: Vi ___ i morgen! (see each other) || ses || Vi ses = see you. || @tags da.s-verbs
+      mc: What is the past tense of "synes"? || synede | *syntes | synest || Synes → syntes. || @tags da.s-verbs,da.past
+      mc: Choose the correct sentence. || Vi mødes os klokken otte. | *Vi mødes klokken otte. | Vi møder klokken otte. || Mødes means "meet each other" and takes no pronoun. Møder needs an object (jeg møder Ali). || @tags da.s-verbs
+      mc: You have tasted the cake and you like it. You say: || Jeg tror, kagen er lækker. | *Jeg synes, kagen er lækker. | Jeg håber, kagen er lækker. || Synes gives your opinion about something you have experienced. Tro and håbe are for things you don't know yet. || @tags da.s-verbs,da.opinion
+      tf: Sabrina can't come to the party. || false || "Jeg kommer gerne, men jeg arbejder til klokken otte." || @ctx dialogue
+      short: What should Sabrina bring? || kw: vin/wine/dessert || "Gerne en flaske vin eller en dessert." || @ctx dialogue
+      listen: @dialogue || When will they eat? || At eight | *At nine | At seven || "Vi spiser først klokken ni." || @tags da.listening
+      listen: Kære alle. Vi holder sommerfest i haven lørdag den 14. juni klokken 15. Tag gerne en salat med. Svar senest den 1. juni. || What should the guests bring? || A cake | *A salad | Some wine || "Tag gerne en salat med." || @tags da.listening
+      rw: Put it in the past tense :: Vi mødes på en café. || Vi mødtes på en café. || Mødes → mødtes. || @tags da.s-verbs,da.past
+      tr: What did you think of the party? || Hvad syntes du om festen? | Hvad synes du om festen? | Hvad syntes I om festen? || Synes → syntes about something in the past. || @tags da.s-verbs,da.opinion
+      ask: Invite a friend to your birthday party — say when and where, and suggest where you can meet first. || kw: fest/fødselsdag & lørdag/fredag/klokken & mødes/ses/følges || Jeg holder fødselsdagsfest på fredag klokken syv. Skal vi mødes på stationen og følges ad?
+      write: Write an invitation to a party — when, where, what to bring, and when to reply. || min=35 || req: fest | klokken | tag/tage med | svar || Kære venner! Jeg fylder 25 og holder fest lørdag den 8. marts klokken 19 i fælleshuset på Vestergade. Der er mad og musik, og I må gerne tage en flaske vin med. Svar senest den 1. marts. Jeg glæder mig til at se jer! Hilsen Noor
+      dict: Tak for invitationen, men jeg må desværre takke nej.
+
+  - title: Gifts and good wishes
+    summary: Choose a present, thank someone and send good wishes — tillykke, god bedring, god tur — with ønske sig and the difference between sig and ham or hende.
+    minutes: 35
+    skills: [writing, vocabulary, listening]
+    tags: [da.reflexive, da.pronouns, da.writing]
+    objectives:
+      - Ask and say what someone wants as a present with ønske sig
+      - Thank someone for a present or a party
+      - Write a card with the right good wishes
+    intro: |
+      Birthdays, weddings, new babies, exams — there's always a reason to give a present or send a card. In this lesson you will learn the fixed Danish wishes (**Tillykke! God bedring! God tur!**), how to thank someone in Danish style, and the reflexive verb **ønske sig**: *Hvad ønsker du dig?* You will also learn when to use sig and when to use ham or hende.
+    vocab: |
+      en gave | a present; a gift | n | Hvad skal vi give hende i gave? | What shall we give her as a present? | g: c | pl: gaver | c: give i gave (give as a present); få i gave (get as a present)
+      ønske sig | to wish for; to want (as a present) | expr | Hvad ønsker du dig i fødselsdagsgave? | What would you like for your birthday? | n: Reflexive: jeg ønsker mig, hun ønsker sig.
+      en ønskeseddel | a wish list | n | Min søn har skrevet en lang ønskeseddel. | My son has written a long wish list. | g: c | pl: ønskesedler
+      tillykke | congratulations; happy birthday | interj | Tillykke med fødselsdagen! | Happy birthday! | c: tillykke med … (congratulations on …); hjertelig tillykke (warmest congratulations)
+      god bedring | get well soon | expr | God bedring! Jeg håber, du snart har det bedre. | Get well soon! I hope you feel better soon.
+      god tur | have a good trip | expr | God tur til Grønland! | Have a good trip to Greenland! | n: Also god rejse, god weekend, god ferie.
+      et kort | a card | n | Vi har skrevet et kort til farmor. | We've written a card to Grandma. | g: n | pl: kort | c: et fødselsdagskort (a birthday card)
+      takke for | to thank for | expr | Jeg vil gerne takke for gaven. | I'd like to thank you for the present. | n: The short form: Tak for gaven!
+      et bryllup | a wedding | n | Vi skal til bryllup i juli. | We're going to a wedding in July. | g: n | pl: bryllupper
+      pakke ind | to wrap (a present) | expr | Kan du pakke den ind? Det er en gave. | Can you wrap it? It's a present. | n: Past: pakkede ind.
+      glæde sig over | to be happy about | expr | Han glæder sig over gaven. | He's happy with the present. | n: Glæde sig til = look forward to; glæde sig over = be happy about.
+      en buket blomster | a bunch of flowers | expr | Vi tog en buket blomster med til værtinden. | We brought a bunch of flowers for the hostess.
+      et gavekort | a gift card | n | Hvis du er i tvivl, kan du give et gavekort. | If you're not sure, you can give a gift card. | g: n | pl: gavekort
+    grammar:
+      title: "Sig or ham/hende? — and wishes with tillykke med"
+      body: |
+        **Ønske sig** (to want something as a present) is reflexive: *Hvad ønsker du dig? Jeg ønsker mig en cykel. Hvad ønsker din mor sig?*
+
+        **Sig or ham/hende/dem?** With *han, hun* and *de*, use **sig** when the pronoun refers back to the subject. If you use *ham, hende* or *dem*, you are talking about **someone else**:
+
+        - *Ida køber en gave til sig selv.* (Ida buys a present for herself.)
+        - *Ida køber en gave til hende.* (Ida buys a present for her — another woman.)
+        - *De glæder sig over gaven.* (They are happy about the present.) — here only sig is possible.
+
+        A simple test: if *himself, herself* or *themselves* fits in English, use **sig** (or *sig selv* for emphasis).
+
+        **Wishes** are fixed phrases. Congratulations take **tillykke med** + the occasion: *Tillykke med fødselsdagen / med brylluppet / med eksamen / med babyen.* Other wishes: *God bedring, god tur, god weekend, glædelig jul* — and *godt nytår*, because nytår is an et-word. Thanks are just as fixed: *Tak for gaven, tak for i aften, tak for sidst.*
+      table: |
+        Sentence | Who is it about?
+        Ida ønsker sig en ny cykel. | Ida (herself)
+        Ida køber en gave til sig selv. | Ida (herself)
+        Ida køber en gave til hende. | another woman
+        De glæder sig til festen. | they (themselves)
+        De køber en gave til dem. | other people
+      examples: |
+        Hvad ønsker din datter sig til jul? | What does your daughter want for Christmas? | hun → sig
+        Tillykke med eksamen! Du har fortjent det. | Congratulations on your exam! You deserve it. | tillykke med + occasion
+        Han glæder sig over gaven, men han siger ikke så meget. | He's happy with the present, but he doesn't say much. | glæde sig over
+        Godt nytår, og tak for i år! | Happy New Year, and thanks for this year! | nytår is an et-word: godt
+      tip: "If you could say himself, herself or themselves in English, use sig. If it's someone else, use ham, hende or dem."
+    dialogue:
+      title: En gave til far
+      setting: A Saturday afternoon in Aarhus. Helene and her brother Carl are walking through the shopping streets, looking for a present for their father, who is turning 70.
+      speakers: H=Helene/f; C=Carl/m
+      lines: |
+        H: Far fylder 70 på søndag. Hvad skal vi give ham? | Dad turns 70 on Sunday. What shall we give him?
+        C: Har han ønsket sig noget? | Has he asked for anything?
+        H: Nej, han siger altid, at han ikke ønsker sig noget. | No, he always says that he doesn't want anything.
+        C: Typisk! Hvad med en god bog om fugle? | Typical! What about a good book about birds?
+        H: Han har mange bøger. Han glæder sig mere over oplevelser. | He has lots of books. He's happier with experiences.
+        C: Okay. Vi kunne give ham et gavekort til en koncert. | Okay. We could give him a gift card for a concert.
+        H: God idé! Eller en middag på en god restaurant. | Good idea! Or a dinner at a good restaurant.
+        C: Så kan mor også komme med. | Then Mum can come too.
+        H: Perfekt. Og vi skriver et kort fra os alle sammen. | Perfect. And we'll write a card from all of us.
+        C: Hvad skriver vi? "Hjertelig tillykke med de 70 år"? | What shall we write? "Warmest congratulations on your 70 years"?
+        H: Ja, og "Tak for alt, far". Han bliver rørt. | Yes, and "Thanks for everything, Dad". He'll be touched.
+        C: Og så skal vi selvfølgelig synge for ham! | And then of course we have to sing for him!
+    pronunciation:
+      title: Wishes and thanks
+      body: |
+        Wishes are short, so say them clearly and warmly. In **tillykke** the stress is on the second syllable and the i sounds like a short e: "te-LØK-ke". In **god bedring** the d of god is silent and the d of bedring is soft: "go BETH-ring". **Godt nytår** sounds like "got NYT-or".
+
+        In **glædelig jul** the d and the g are soft or silent: "GLÆ-the-li yool". In **hjertelig** the h is silent: "YER-te-li". Listen and repeat each wish.
+      items: |
+        Tillykke med fødselsdagen!
+        God bedring!
+        Godt nytår!
+        Glædelig jul!
+        hjertelig tillykke
+        Tak for gaven!
+    culture:
+      title: Birthdays, flags and wish lists
+      body: |
+        Danes love their flag, **Dannebrog**, and use it for birthdays: on the flagpole in the garden, on the table and on top of the cake. Children's birthdays often have a **kagemand** (a cake shaped like a boy or a girl), and everyone sings the birthday song.
+
+        Wish lists, **ønskesedler**, are common — for adults too — so presents are useful and nobody gets three of the same thing. Round birthdays like 30, 50 and 70 are big events with speeches. Presents are usually opened straight away, in front of the person who gave them.
+    mistakes: |
+      Hvad ønsker du til jul? => Hvad ønsker du dig til jul? | When it means "want as a present", ønske is reflexive: ønske sig.
+      Hun glæder hende over gaven. => Hun glæder sig over gaven. | The pronoun refers back to hun, so it's sig.
+      God nytår! => Godt nytår! | Nytår is an et-word, so god → godt.
+    task:
+      title: Two cards
+      mode: writing
+      body: |
+        Write two short cards: one to a colleague who is getting married (congratulate them and wish them a lovely day), and one to a friend who has been ill (wish them well and suggest meeting soon). Use tillykke med, god bedring and at least one more wish.
+    exercises: |
+      fill: Hvad ønsker du ___ til jul? || dig || Ønske sig is reflexive; with du the pronoun is dig. || @tags da.reflexive
+      fill: Min bror ønsker ___ en ny telefon. || sig || Min bror = han, and the reflexive pronoun for han is sig. || @tags da.reflexive
+      fill: ___ med fødselsdagen! || Tillykke || Tillykke med + the occasion. || @tags da.vocabulary
+      mc: Which wish fits a friend who is ill? || God tur! | *God bedring! | Tillykke! || God bedring = get well soon. God tur is for a trip; tillykke is for congratulations. || @tags da.vocabulary
+      mc: Which is correct? || *Godt nytår! | God nytår! | Gode nytår! || Nytår is an et-word, so the adjective takes -t: godt nytår. || @tags da.adjective-agreement
+      mc: "Ida køber en gave til hende." Who is the present for? || For Ida herself | *For another woman | For Ida's brother || Hende is someone other than the subject. For Ida herself, it would be til sig selv. || @tags da.reflexive,da.pronouns
+      tf: Their father has a long wish list. || false || "Han siger altid, at han ikke ønsker sig noget." || @ctx dialogue
+      short: Which present ideas do Helene and Carl talk about? || kw: bog/book/gavekort/gift card/koncert/concert/middag/dinner/restaurant || A bird book, a gift card for a concert and a dinner at a restaurant — so Mum can come too. || @ctx dialogue
+      listen: @dialogue || How old is their father turning? || 60 | *70 | 75 || "Far fylder 70 på søndag." || @tags da.listening
+      listen: Tusind tak for gaven og for en dejlig aften. Vi glæder os til at se jer igen snart. || What is the speaker doing? || Inviting someone | *Thanking someone | Apologising || "Tusind tak for gaven og for en dejlig aften." || @tags da.listening
+      rw: Change the subject to "Anna" :: Jeg glæder mig over gaven. || Anna glæder sig over gaven. || With a name (= hun), mig becomes sig. || @tags da.reflexive
+      tr: Thank you for the present! || Tak for gaven! | Tusind tak for gaven! | Mange tak for gaven! || Tak for + the definite form: gaven. || @tags da.vocabulary
+      ask: Your friend has just passed an exam. Congratulate her and ask what she would like as a present. || kw: tillykke & ønsker du dig || Tillykke med eksamen! Hvad ønsker du dig i gave?
+      write: Write a card to a colleague who is getting married. || min=25 || req: tillykke | med | hilsen/hilsner || Kære Signe og Jakob! Hjertelig tillykke med brylluppet! Vi håber, I får en fantastisk dag med familie og venner. Vi glæder os til at se billederne. Mange hilsner fra alle os på kontoret
+      dict: Vi har pakket gaven ind og skrevet et kort.

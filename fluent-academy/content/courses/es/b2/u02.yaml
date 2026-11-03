@@ -1,0 +1,360 @@
+unit: 2
+title: Trabajo y economía
+theme: Work and the economy
+description: Discuss how work is changing, negotiate prices and conditions, and talk critically about consumer habits — using the conditional perfect for unrealised possibilities, conditions with the subjunctive, and debería haber for criticism and regret.
+free: true
+objectives:
+  - Talk about unrealised past possibilities with the conditional perfect (habría hecho)
+  - Negotiate and set conditions with siempre que, con tal de que, a condición de que and en caso de que
+  - Criticise past decisions with debería / tendría que / podría + haber + participle
+canDo:
+  - I can explain how my working life would have been different in other circumstances.
+  - I can make a diplomatic proposal and set conditions in a negotiation.
+  - I can say what someone should or could have done differently.
+  - I can discuss consumer habits, sales and returns.
+review: |
+  fill: Sin la ayuda de mis compañeros, nunca ___ (terminar, yo) el proyecto a tiempo. || habría terminado / hubiera terminado || An unrealised past possibility takes the conditional perfect. || @tags es.conditional
+  mc: Yo, en tu lugar, no ___ esa oferta sin negociar el sueldo. || *habría aceptado | habré aceptado | había aceptado || Advice about the past (yo en tu lugar) takes the conditional perfect: habría aceptado. || @tags es.conditional
+  fill: Les mandamos las muestras mañana, siempre que nos ___ (dar, ustedes) la dirección hoy. || den || Siempre que meaning "provided that" takes the subjunctive: den. || @tags es.subjunctive-triggers
+  mc: Podríamos ampliar el plazo, a condición de que el pago ___ por adelantado. || se hace | se hará | *se hiciera || A condition after a conditional (podríamos) usually takes the imperfect subjunctive: se hiciera. || @tags es.subjunctive-triggers,es.imperfect-subjunctive
+  mc: «Siempre que llueve, se inunda el garaje.» Siempre que means: || provided that | *whenever | in case || With the indicative, siempre que means "every time that". || @tags es.connectors
+  fill: Tendrías que ___ (preguntar) el precio antes de pedir. || haber preguntado || Tener que in the conditional + haber + participle criticises a past action. || @tags es.conditional
+  rw: Rewrite as a reproach about the past, using podrías + haber :: ¿Por qué no me avisaste? || Podrías haberme avisado. | Me podrías haber avisado. || Podría + haber + participle expresses a reproach. The pronoun attaches to haber or goes before podrías. || @tags es.conditional,es.object-pronouns
+  tr: We would have preferred a longer contract. || Habríamos preferido un contrato más largo. | Hubiéramos preferido un contrato más largo. | Nosotros habríamos preferido un contrato más largo. || The conditional perfect expresses polite disappointment: habríamos preferido. || @tags es.conditional
+  listen: Mi jefa dice que podemos teletrabajar tres días a la semana, siempre y cuando estemos en la oficina los lunes y los jueves. || What is the condition for working from home? || Working longer hours | *Being in the office on Mondays and Thursdays | Having a laptop of their own || «Siempre y cuando estemos en la oficina los lunes y los jueves.» || @tags es.listening,es.subjunctive-triggers
+  listen: Compré la lavadora más barata y se estropeó a los seis meses. Lo más sensato habría sido gastar un poco más. || What does the speaker think now? || That cheap washing machines are fine | *That spending a bit more would have been wiser | That the shop should repair it for free || «Lo más sensato habría sido gastar un poco más.» || @tags es.listening,es.conditional
+  ask: A colleague asks you how you would have negotiated your last contract or rent differently. Answer with at least two conditional perfects and one condition with siempre que or con tal de que. || kw: habría/hubiera & siempre que/con tal de que/a condición de que/siempre y cuando || Yo habría pedido un sueldo un poco más alto y habría negociado más días de teletrabajo. Habría aceptado una jornada más larga, siempre que los viernes pudiera salir a las tres. Pero entonces tenía tantas ganas de empezar que no me atreví a pedir nada.
+  write: Write an email (90–110 words) to a supplier. Accept their offer, but set two conditions and suggest one change, in a polite formal register. || min=80 || req: estimado/estimada | siempre que/con tal de que/a condición de que/siempre y cuando/en caso de que | podríamos/sería/estaríamos/nos gustaría | atentamente/un saludo/saludos || Estimada señora Ruiz: Le agradecemos su propuesta, que hemos estudiado con atención. Estaríamos dispuestos a aceptar el precio que nos indica, siempre que el transporte esté incluido y que el primer pedido nos llegue antes del 15 de marzo. Por otro lado, nos gustaría proponerle un cambio: ¿sería posible pagar a sesenta días en lugar de a treinta? En caso de que necesite más información, no dude en ponerse en contacto conmigo. Quedo a la espera de su respuesta. Atentamente, Daniel Ortega
+lessons:
+  - title: The future of work
+    summary: Discuss remote work, automation and new ways of working, and imagine how things would have turned out differently with the conditional perfect.
+    minutes: 50
+    skills: [vocabulary, grammar, speaking]
+    tags: [es.conditional]
+    objectives:
+      - Talk about remote work, training and changes in the labour market
+      - Form the conditional perfect, including irregular participles
+      - Describe unrealised past possibilities and give advice about the past (yo en tu lugar habría…)
+    intro: |
+      Twenty years ago few people would have imagined working for a Dutch company from a village in Teruel. To talk about how work has changed — and how things *would have* turned out in other circumstances — you need the **conditional perfect**: *habría hecho, habrías dicho, habríamos llegado*. It is also the polite way to say what you would have preferred, and to give advice about decisions that have already been made.
+    vocab: |
+      el teletrabajo | remote working; working from home | n | Gracias al teletrabajo, muchas personas han vuelto a su pueblo. | Thanks to remote working, many people have returned to their villages. | g: m | n: The verb is teletrabajar.
+      la sucursal | branch (of a bank or company) | n | El banco cerró la sucursal del barrio en marzo. | The bank closed its local branch in March. | g: f
+      la automatización | automation | n | La automatización está cambiando el trabajo en las fábricas. | Automation is changing work in factories. | g: f
+      el puesto de trabajo | job; position | n | La empresa va a crear doscientos puestos de trabajo. | The company is going to create two hundred jobs. | g: m | n: Also simply el puesto.
+      la jornada laboral | working day; working hours | n | En verano tenemos jornada intensiva, de ocho a tres. | In summer we work a continuous day, from eight to three. | g: f | c: jornada completa; media jornada; jornada intensiva
+      la formación | training; education | n | La empresa no nos ofreció ninguna formación antes del cambio. | The company didn't offer us any training before the change. | g: f | n: False friend: formación is not "formation" here.
+      reciclarse | to retrain; to update your skills | v | A los cincuenta años decidí reciclarme y aprender a programar. | At fifty I decided to retrain and learn to code. | n: Also: recycling (reciclar) in other contexts.
+      quedarse obsoleto | to become obsolete | expr | Muchas profesiones se quedarán obsoletas en pocos años. | Many professions will become obsolete in a few years.
+      la conciliación | work–life balance | n | La conciliación sigue siendo difícil para muchas familias. | Work–life balance is still difficult for many families. | g: f | n: Full form: la conciliación de la vida laboral y familiar.
+      el presupuesto | budget | n | Nos dijeron que no había presupuesto para cursos. | They told us there was no budget for courses. | g: m | n: Also "quote" (estimate of a price).
+      el despido | dismissal; redundancy | n | Tras el despido, tardó un año en encontrar otro trabajo. | After being made redundant, it took her a year to find another job. | g: m | n: Verb: despedir (e → i).
+      desanimado | discouraged; down | adj | Te veo un poco desanimada con el tema del trabajo. | You seem a bit down about the job situation.
+    grammar:
+      title: "The conditional perfect: habría hecho"
+      body: |
+        The conditional perfect is formed with the **conditional of haber** + **past participle**: *habría, habrías, habría, habríamos, habríais, habrían* + *trabajado, vivido, hecho…* Remember the irregular participles: *hecho, dicho, visto, puesto, vuelto, escrito, abierto, roto.*
+
+        It describes something that **would have happened** in the past but didn't:
+
+        - **Unrealised past hypothesis**, often with an implicit condition (*sin…, con…, de no ser por…*): *Sin el teletrabajo, no **habría vuelto** al pueblo.*
+        - **Advice or opinion about a past decision**: *Yo, en tu lugar, **habría pedido** un curso.*
+        - **Polite disappointment or past preference**: *Yo **habría preferido** seguir en la oficina. **Me habría gustado** estudiar Medicina.*
+        - **The future seen from the past**, looking back at something completed: *Nos dijeron que para junio **habrían terminado** las obras* (that by June the works would have been finished).
+
+        In everyday speech, especially in Spain, the pluperfect subjunctive is often used with the same meaning: *no **hubiera vuelto** = no **habría vuelto***. Both are correct. You will study full conditional sentences (*si hubiera… habría…*) in Unit 8.
+      table: |
+        Person | haber (conditional) | + participle
+        yo | habría | trabajado
+        tú | habrías | vuelto
+        él / ella / usted | habría | hecho
+        nosotros/as | habríamos | dicho
+        vosotros/as | habríais | puesto
+        ellos / ellas / ustedes | habrían | visto
+      examples: |
+        Hace veinte años nadie habría imaginado una oficina sin papeles. | Twenty years ago nobody would have imagined an office without paper. | unrealised past hypothesis
+        Con un poco de formación, lo habríamos llevado mucho mejor. | With a bit of training, we would have coped much better. | implicit condition: con…
+        Yo, en tu lugar, habría negociado el sueldo. | If I were you, I would have negotiated the salary. | advice about the past
+        Me habría gustado trabajar menos horas cuando mis hijos eran pequeños. | I would have liked to work fewer hours when my children were small. | past preference
+      tip: "Habría is the same for yo and él / ella / usted. If the subject isn't clear, add the pronoun: yo habría aceptado; ella no."
+    dialogue:
+      title: Del banco a la videollamada
+      setting: A terrace bar in a village in Teruel during the summer festival. Begoña, who has worked for the same bank for twenty-five years, catches up with her nephew Samuel, a programmer who now works remotely from the village.
+      speakers: B=Begoña/f; S=Samuel/m
+      lines: |
+        S: ¿Sabes que hace diez años nadie habría imaginado que yo trabajaría para una empresa de Ámsterdam desde aquí? | Do you know that ten years ago nobody would have imagined me working for a company in Amsterdam from here?
+        B: Pues no, la verdad. Sin el teletrabajo, seguro que no habrías vuelto al pueblo. | No, to be honest. Without remote working, I'm sure you wouldn't have come back to the village.
+        S: Ni de broma. Me habría quedado en Madrid, pagando novecientos euros por un piso diminuto. | No way. I would have stayed in Madrid, paying nine hundred euros for a tiny flat.
+        B: En mi caso ha sido al revés. Cerraron la sucursal en marzo y ahora atiendo a los clientes por videollamada. | In my case it's been the other way round. They closed the branch in March and now I see customers by video call.
+        S: ¿Y cómo lo llevas? Te veo un poco desanimada con el tema. | And how are you coping? You seem a bit down about it.
+        B: Es que yo habría preferido seguir en la oficina. Con los clientes mayores, el trato en persona es fundamental. | It's just that I would have preferred to stay in the office. With older customers, face-to-face contact is essential.
+        S: Ya, pero todos los bancos se están digitalizando. Tarde o temprano, habría pasado igual. | I know, but all the banks are going digital. Sooner or later it would have happened anyway.
+        B: Puede ser. Lo que me fastidia es que nadie nos preguntó. Con un poco de formación, lo habríamos llevado mucho mejor. | Maybe. What annoys me is that nobody asked us. With a bit of training, we'd have coped much better.
+        S: Eso es verdad. Yo, en tu lugar, habría pedido un curso a la empresa antes del cambio. | That's true. If I were you, I would have asked the company for a course before the change.
+        B: ¡Si lo pedimos! Pero nos dijeron que no había presupuesto. Y nos habría venido de maravilla. | But we did ask! They told us there was no budget. And it would have been really useful.
+        S: Bueno, ¿y lo de la semana de cuatro días? Eso sí que te gustaría, ¿no? | Well, what about the four-day week? You'd like that, wouldn't you?
+        B: Me encantaría. Aunque, conociendo a mi jefe, dudo que la veamos antes de que me jubile. | I'd love it. Although, knowing my boss, I doubt we'll see it before I retire.
+    pronunciation:
+      title: "Habría: stress and the soft b"
+      body: |
+        In *habría* the **h** is silent and the stress falls on the **í**: [a-BRÍ-a]. The written accent breaks the diphthong, so *rí-a* are two syllables. The **b** between vowels is soft: your lips come close together but don't fully close.
+
+        In the participle, the **d** of *-ado* and *-ido* is also soft, almost like the *th* in English "this": *llevado, pedido*. Keep it light, but don't drop it in careful speech.
+      items: |
+        habría pasado
+        habrías vuelto
+        lo habríamos llevado
+        me habría quedado
+        habría preferido
+        nos habría venido bien
+    culture:
+      title: "Jornada intensiva, jornada partida"
+      body: |
+        Many Spanish workplaces have a **jornada partida** — a split working day with a long lunch break, finishing around seven in the evening. In summer, and in many public offices all year round, the **jornada intensiva** is common: a continuous day from about eight to three, with lunch afterwards at home. **La conciliación**, balancing work and family life, is one of the most discussed topics in Spanish workplaces.
+
+        Since 2021 a law has regulated remote work in Spain, including who pays for equipment. In Latin America remote work is often called **trabajo remoto** or **home office**, and **teletrabajo** is also widely understood.
+    mistakes: |
+      Yo, en tu lugar, habría hacido lo mismo. => Yo, en tu lugar, habría hecho lo mismo. | Hacer has an irregular participle: hecho.
+      Con más tiempo, lo habré terminado. => Con más tiempo, lo habría terminado. | An unrealised past hypothesis needs the conditional perfect (habría), not the future perfect (habré).
+      Me habría gustado que me lo dices antes. => Me habría gustado que me lo dijeras antes. | Me habría gustado que is followed by the subjunctive in a past tense, not the present indicative.
+    task:
+      title: A different career path
+      mode: speaking
+      body: |
+        Talk for one to two minutes about how your studies or working life would have been different without one thing: the internet, a particular person, a move or a lucky break. Use at least five verbs in the conditional perfect (*habría estudiado, no habría conocido…*) and one *yo, en tu lugar, habría…* about a friend's decision. Then practise in the "Preparing for a job interview" scenario with the AI coach, explaining how you adapted to a big change at work or in your studies.
+    exercises: |
+      fill: Sin internet, el teletrabajo nunca ___ (ser) posible. || habría sido / hubiera sido || An unrealised past hypothesis with an implicit condition (sin internet): conditional perfect. || @tags es.conditional
+      fill: Yo, en tu lugar, ___ (aceptar) la oferta de Barcelona sin pensarlo. || habría aceptado / hubiera aceptado || Advice about a decision already made: yo en tu lugar + conditional perfect. || @tags es.conditional
+      fill: Con un poco de formación, los empleados ___ (adaptarse) mucho mejor al cambio. || se habrían adaptado / se hubieran adaptado || The reflexive pronoun goes before haber: se habrían adaptado. || @tags es.conditional,es.reflexive
+      mc: Sin la crisis, mis padres nunca ___ al pueblo. || habrían volvido | *habrían vuelto | habrían volviendo || Volver has an irregular participle: vuelto. || @tags es.conditional
+      mc: «Me habría gustado estudiar Medicina» means: || I would like to study medicine. | *I would have liked to study medicine. | I liked studying medicine. || Me habría gustado = I would have liked (but I didn't). || @tags es.conditional
+      mc: Your colleague says «A mi edad, tengo que reciclarme». He means: || He has to recycle more at home. | *He needs to retrain and update his skills. | He needs to change companies. || Reciclarse in a work context means to retrain or update your skills. || @skill vocabulary @tags es.vocabulary
+      tf: Begoña still sees her customers in the bank branch. || false || The branch closed in March and she now sees customers by video call. || @ctx dialogue
+      short: According to Begoña, what would have helped the employees cope with the change? || kw: formación/curso/training/course || «Con un poco de formación, lo habríamos llevado mucho mejor.» || @ctx dialogue
+      rw: Rewrite as an unrealised past hypothesis :: Con más tiempo, termino el informe. || Con más tiempo, habría terminado el informe. | Con más tiempo, hubiera terminado el informe. || The present describes a real possibility; the conditional perfect describes one that didn't happen. || @tags es.conditional
+      tr: Without remote working, I wouldn't have gone back to my village. || Sin el teletrabajo, no habría vuelto a mi pueblo. | Sin el teletrabajo, no hubiera vuelto a mi pueblo. | Sin teletrabajo, no habría vuelto a mi pueblo. | Sin teletrabajo, no hubiera vuelto a mi pueblo. | Sin el teletrabajo no habría vuelto a mi pueblo. || Sin + noun gives the implicit condition; the result goes in the conditional perfect. || @tags es.conditional
+      listen: Si te soy sincera, me habría gustado trabajar menos horas cuando mis hijos eran pequeños, pero entonces nadie hablaba de conciliación. || What would the speaker have liked? || *To work fewer hours when her children were small | To have more children | To stop working completely || «Me habría gustado trabajar menos horas cuando mis hijos eran pequeños.» || @tags es.listening,es.conditional
+      listen: @dialogue || Why does Begoña doubt she will see a four-day week soon? || Because the law doesn't allow it | *Because she knows what her boss is like | Because she prefers working five days || «Conociendo a mi jefe, dudo que la veamos antes de que me jubile.» || @tags es.listening
+      dict: Hace diez años nadie habría imaginado una oficina sin papeles. || habría imaginado = would have imagined
+      ask: A friend asks how your working or student life would have been different without the internet. Answer with at least two conditional perfects. || kw: habría/habríamos/hubiera/hubiéramos & sin/con || Sin internet, no habría podido estudiar a distancia mientras trabajaba. Habría tenido que ir a clase todas las tardes y seguramente lo habría dejado. Además, nunca habría encontrado este trabajo, porque la oferta la vi en una página web.
+
+  - title: Negotiating
+    summary: Negotiate prices and conditions diplomatically, making proposals with the conditional and setting conditions with siempre que, con tal de que and a condición de que.
+    minutes: 50
+    skills: [grammar, listening, speaking]
+    tags: [es.subjunctive-triggers, es.conditional]
+    objectives:
+      - Make diplomatic proposals and counter-offers with the conditional
+      - Set conditions with siempre que, siempre y cuando, con tal de que, a condición de que and en caso de que
+      - Distinguish siempre que + subjunctive (provided that) from siempre que + indicative (whenever)
+    intro: |
+      A good negotiator in Spanish sounds both firm and friendly. The **conditional** softens proposals (*estaríamos dispuestos a…, ¿qué le parecería si…?*), the **conditional perfect** expresses polite disappointment (*habríamos preferido…*), and a family of **conditional connectors** with the subjunctive sets the terms of the deal: *siempre que, con tal de que, a condición de que.* In this lesson you will listen in on a negotiation between an olive-oil cooperative and a buyer.
+    vocab: |
+      negociar | to negotiate | v | Hay que negociar el precio antes de firmar. | You have to negotiate the price before signing. | c: negociar un contrato; negociar las condiciones
+      la propuesta | proposal; offer | n | Hemos estudiado su propuesta con calma. | We have looked at your proposal carefully. | g: f | c: hacer una propuesta; aceptar / rechazar una propuesta
+      la contraoferta | counter-offer | n | Si el precio no les convence, pueden hacernos una contraoferta. | If the price doesn't suit you, you can make us a counter-offer. | g: f
+      cerrar un trato | to close a deal | expr | Si nos ponemos de acuerdo en el plazo, cerramos el trato hoy mismo. | If we agree on the deadline, we can close the deal today. | n: ¡Trato hecho! = It's a deal!
+      llegar a un acuerdo | to reach an agreement | expr | Después de dos horas, llegamos a un acuerdo. | After two hours, we reached an agreement.
+      rebajar | to lower; to reduce (a price) | v | Podríamos rebajar el precio un ocho por ciento. | We could lower the price by eight per cent. | n: Related: estar rebajado (to be on sale), la rebaja.
+      el margen | margin | n | Con ese precio, nuestro margen de beneficio es muy pequeño. | At that price, our profit margin is very small. | g: m | pl: márgenes | c: margen de beneficio; margen de maniobra
+      el plazo | deadline; period; instalment | n | El plazo de pago es de sesenta días. | The payment period is sixty days. | g: m | c: plazo de entrega; pagar a plazos
+      por adelantado | in advance | expr | El primer pedido se paga por adelantado. | The first order is paid in advance.
+      hacerse cargo de | to take charge of; to cover (a cost) | expr | Nosotros nos hacemos cargo de los gastos de transporte. | We'll cover the transport costs.
+      ceder | to give way; to concede | v | Si ustedes ceden en el plazo, nosotros cedemos en el precio. | If you give way on the deadline, we'll give way on the price.
+      poner pegas | to raise objections | expr | Salvo que dirección ponga alguna pega, firmamos el lunes. | Unless management raises any objections, we'll sign on Monday. | n: Colloquial. More formal: poner objeciones.
+    grammar:
+      title: "Proposals and conditions in a negotiation"
+      body: |
+        **Soft proposals with the conditional.** *Podríamos ofrecerle…, Estaríamos dispuestos a…, ¿Sería posible…?, Necesitaríamos…* After *¿Qué le parecería si…?* use the **imperfect subjunctive**: *¿Qué le parecería si fijáramos un año?* (With the present *¿Qué le parece si…?* use the present indicative: *si fijamos*.) The conditional perfect rejects politely: ***Habríamos preferido** un contrato de un año.*
+
+        **Conditions with the subjunctive.** These connectors restrict the deal to one condition and are always followed by the subjunctive:
+
+        - **siempre que / siempre y cuando** — provided that
+        - **con tal de que** — as long as, so long as
+        - **a condición de que** — on condition that (more formal)
+        - **en caso de que** — in case, if (a possibility)
+        - **salvo que / a no ser que** — unless
+
+        Use the **present subjunctive** when the main verb is in the present or future, and the **imperfect subjunctive** when it is in the conditional: *Rebajamos el precio siempre que **firmen** hoy* / *Rebajaríamos el precio siempre que **firmaran** hoy.*
+
+        Careful: **siempre que + indicative** means "whenever, every time that": *Siempre que **hay** un retraso, avisamos al cliente.*
+      table: |
+        Connector | Meaning | Example
+        siempre que / siempre y cuando | provided that | Aceptamos, siempre que la calidad se mantenga.
+        con tal de que | as long as | Podemos esperar, con tal de que nos avisen.
+        a condición de que | on condition that | Le rebajamos un ocho por ciento, a condición de que firme por dos años.
+        en caso de que | in case, if | En caso de que haya un problema, llámeme.
+        salvo que / a no ser que | unless | Salvo que dirección ponga pegas, firmamos el lunes.
+        siempre que + indicative | whenever | Siempre que hay un retraso, avisamos.
+      examples: |
+        Compraríamos veinte mil litros, siempre que la calidad fuera la de las muestras. | We would buy twenty thousand litres, provided the quality was the same as in the samples. | conditional + imperfect subjunctive
+        Podemos aceptar sesenta días, con tal de que el primer pedido se pague por adelantado. | We can accept sixty days, as long as the first order is paid in advance. | present + present subjunctive
+        En caso de que surja algún problema, nos hacemos cargo nosotros. | If any problem comes up, we'll take care of it. | en caso de que
+        ¿Qué le parecería si revisáramos el precio a los seis meses? | How would you feel about reviewing the price after six months? | proposal with the imperfect subjunctive
+      tip: "When you hear siempre que, check the next verb: subjunctive → a condition (provided that); indicative → a habit (whenever)."
+    dialogue:
+      title: «¿Cerramos el trato?»
+      setting: A video call between Rocío Medina, sales manager of an olive-oil cooperative in Jaén, and Xabier Etxeberria, buyer for a chain of delicatessens in the Basque Country.
+      speakers: X=Xabier/m; R=Rocío/f
+      lines: |
+        X: Hemos estudiado su propuesta con calma. El aceite nos encanta, pero el precio por litro se nos queda un poco alto. | We've studied your proposal carefully. We love the oil, but the price per litre is a little high for us.
+        R: Lo entiendo. ¿Qué cantidad estarían pensando en comprar al año? El precio depende mucho del volumen. | I understand. What quantity would you be thinking of buying per year? The price depends a lot on the volume.
+        X: Unos veinte mil litros, siempre que la calidad se mantenga como en las muestras que nos enviaron. | About twenty thousand litres, provided the quality stays the same as in the samples you sent us.
+        R: Eso se lo garantizo. Con ese volumen, podríamos rebajarlo un ocho por ciento, a condición de que firmen por dos años. | I can guarantee that. With that volume, we could lower it by eight per cent, on condition that you sign for two years.
+        X: ¿Dos años? Sinceramente, habríamos preferido empezar con un año y ver cómo funciona. | Two years? Honestly, we would have preferred to start with one year and see how it goes.
+        R: Comprendo. ¿Y qué le parecería si fijáramos un año, con una revisión del precio a los seis meses? | I see. And how would you feel about setting one year, with a price review after six months?
+        X: Eso suena más razonable. Otra cosa: necesitaríamos pagar a noventa días, no a treinta. | That sounds more reasonable. Another thing: we would need to pay at ninety days, not thirty.
+        R: Noventa días es mucho para una cooperativa pequeña. Podemos aceptar sesenta, con tal de que el primer pedido se pague por adelantado. | Ninety days is a lot for a small cooperative. We can accept sixty, as long as the first order is paid in advance.
+        X: Me parece justo. ¿Y en caso de que haya algún problema con el transporte, quién se haría cargo? | That seems fair. And if there's any problem with transport, who would take responsibility?
+        R: Nosotros, por supuesto. Siempre que hay un retraso, avisamos al cliente con al menos cuarenta y ocho horas. | We would, of course. Whenever there's a delay, we let the customer know at least forty-eight hours in advance.
+        X: Perfecto. Lo consulto con dirección y, salvo que pongan alguna pega, le mando el contrato el lunes. | Perfect. I'll check with management and, unless they raise any objections, I'll send you the contract on Monday.
+        R: Estupendo. Ha sido un placer, Xabier. Espero que sea el comienzo de una larga colaboración. | Great. It's been a pleasure, Xabier. I hope it's the start of a long working relationship.
+    pronunciation:
+      title: "Sounding diplomatic"
+      body: |
+        In a negotiation, how you say something matters as much as what you say. Diplomatic proposals are spoken a little more slowly, with a gentle rise at the end of questions and no sharp stress on any single word: *¿Qué le parecería si…? ↗* Firm statements fall clearly at the end: *Me parece justo. ↘*
+
+        Notice the stress in the conditional endings: *estaríamos, podríamos, necesitaríamos* — always on the **í**. Practise each phrase in a calm, friendly voice.
+      items: |
+        ¿Qué le parecería si…?
+        Estaríamos dispuestos a…
+        Habríamos preferido un año.
+        Me parece justo.
+        ¿Cerramos el trato?
+        Lo consulto con dirección.
+    mistakes: |
+      Le hacemos descuento siempre que paga por adelantado. => Le hacemos descuento siempre que pague por adelantado. | Siempre que meaning "provided that" takes the subjunctive; with the indicative it means "whenever".
+      ¿Qué le parecería si fijamos un año? => ¿Qué le parecería si fijáramos un año? | After the conditional parecería, si takes the imperfect subjunctive.
+      Estaríamos dispuestos de bajar el precio. => Estaríamos dispuestos a bajar el precio. | The expression is estar dispuesto a + infinitive.
+    task:
+      title: Close the deal
+      mode: interaction
+      body: |
+        You run a small business (a bakery, a design studio or a language school) and need a new supplier or client. Prepare your ideal deal and your limits on three points: price, payment period and delivery. Then negotiate in the "Taking part in a business meeting" scenario with the AI coach. Make at least two soft proposals with the conditional, set three conditions with *siempre que, con tal de que* or *a condición de que*, and reject one offer politely with *habríamos preferido…*
+    exercises: |
+      fill: Podemos entregar el pedido el viernes, siempre que nos ___ (confirmar, ustedes) hoy la cantidad. || confirmen || Siempre que meaning "provided that" + present subjunctive, because the main verb is in the present. || @tags es.subjunctive-triggers
+      fill: Aceptaríamos ese precio a condición de que el contrato ___ (incluir) el transporte. || incluyera / incluyese || The main verb is in the conditional (aceptaríamos), so the condition takes the imperfect subjunctive. || @tags es.subjunctive-triggers,es.imperfect-subjunctive
+      fill: En caso de que ___ (haber) algún retraso, les avisaremos con antelación. || haya || En caso de que is always followed by the subjunctive. Haber is irregular: haya. || @tags es.subjunctive-triggers
+      mc: «Siempre que viene a Madrid, nos trae aceite de su pueblo.» Here siempre que means: || provided that | *whenever | unless || With the indicative (viene), siempre que describes a habit: every time that. || @tags es.connectors
+      mc: ¿Qué le parecería si ___ la reunión al jueves? || movemos | *moviéramos | moveremos || After ¿qué le parecería si…? use the imperfect subjunctive. || @tags es.imperfect-subjunctive,es.conditional
+      mc: Which is the most diplomatic way to reject a proposal? || No queremos eso. | Su propuesta no nos sirve para nada. | *Habríamos preferido otra solución, la verdad. || The conditional perfect softens the rejection and sounds polite. || @tags es.conditional,es.register
+      mc: «El director no ha puesto ninguna pega» means: || *The director hasn't raised any objections. | The director hasn't paid anything. | The director hasn't signed anything yet. || Poner pegas = to raise objections (colloquial). || @skill vocabulary @tags es.vocabulary
+      tf: Xabier is happy to sign a two-year contract from the start. || false || He says «habríamos preferido empezar con un año y ver cómo funciona». || @ctx dialogue
+      short: What does Rocío ask for in exchange for accepting payment at sixty days? || kw: adelantado/advance/primer pedido/first order || The first order must be paid in advance (por adelantado). || @ctx dialogue
+      tr: We would be willing to lower the price provided that you sign today. (you = usted) || Estaríamos dispuestos a bajar el precio siempre que firmara hoy. | Estaríamos dispuestos a bajar el precio siempre que firme hoy. | Estaríamos dispuestos a rebajar el precio siempre que firmara hoy. | Estaríamos dispuestos a rebajar el precio siempre que firme hoy. | Estaríamos dispuestos a bajar el precio siempre y cuando firmara hoy. | Estaríamos dispuestos a rebajar el precio siempre y cuando firmara hoy. | Estaríamos dispuestos a bajar el precio siempre que usted firmara hoy. || Estar dispuesto a + infinitive; siempre que + subjunctive (firmara after a conditional, firme is also heard). || @tags es.subjunctive-triggers,es.conditional
+      listen: Estamos dispuestos a ampliar el plazo de entrega a dos semanas, siempre y cuando nos confirmen el pedido antes del viernes. || What must the client do? || Pay in advance | *Confirm the order before Friday | Accept a higher price || «Siempre y cuando nos confirmen el pedido antes del viernes.» || @tags es.listening,es.subjunctive-triggers
+      listen: @dialogue || When will Xabier send the contract? || *On Monday, unless management objects | Today, straight after the call | After the price review in six months || «Salvo que pongan alguna pega, le mando el contrato el lunes.» || @tags es.listening
+      dict: Habríamos preferido un plazo más largo, pero aceptamos sus condiciones.
+      say: Estaríamos dispuestos a ceder en el precio, siempre que ustedes cedan en el plazo. || We'd be willing to give way on the price, provided that you give way on the deadline.
+
+  - title: Consumer society
+    summary: Talk about impulse buying, sales and returns, and criticise past decisions with debería haber, tendría que haber and podría haber.
+    minutes: 50
+    skills: [vocabulary, listening, speaking]
+    tags: [es.conditional]
+    objectives:
+      - Talk about consumer habits, sales, returns and second-hand shopping
+      - Criticise past actions with debería / tendría que / podría + haber + participle
+      - Make general suggestions with habría que + infinitive
+    intro: |
+      Flash sales, endless adverts and one-click payments make it easy to buy things we don't need. Talking about it afterwards usually involves some self-criticism: *Debería haber comparado los precios. Podría haber esperado.* In this lesson you will learn to criticise past decisions — your own and other people's — and to say what *should be done* in general with *habría que*.
+    vocab: |
+      el consumismo | consumerism | n | El consumismo nos lleva a comprar cosas que no necesitamos. | Consumerism leads us to buy things we don't need. | g: m
+      el consumo responsable | responsible consumption | n | Cada vez se habla más de consumo responsable en los colegios. | Responsible consumption is being talked about more and more in schools. | g: m
+      comprar por impulso | to buy on impulse | expr | Compré el sofá por impulso y ahora no cabe en el salón. | I bought the sofa on impulse and now it doesn't fit in the living room. | n: Noun: la compra por impulso.
+      darse un capricho | to treat yourself | expr | Después del examen, me di un capricho y me compré unas zapatillas. | After the exam, I treated myself to some trainers. | n: Un capricho is also a whim.
+      estar rebajado | to be on sale; to be reduced | expr | El abrigo está rebajado un treinta por ciento. | The coat is reduced by thirty per cent. | n: Las rebajas = the sales.
+      la letra pequeña | the small print | n | Antes de pagar, lee siempre la letra pequeña. | Before paying, always read the small print. | g: f
+      engañoso | misleading; deceptive | adj | Esa oferta es engañosa: el precio no ha bajado. | That offer is misleading: the price hasn't gone down. | c: publicidad engañosa
+      la devolución | return; refund | n | El plazo de devolución es de catorce días. | The return period is fourteen days. | g: f | n: Verb: devolver (o → ue).
+      el derecho de desistimiento | right of withdrawal | n | Las compras por internet tienen derecho de desistimiento. | Online purchases come with a right of withdrawal. | g: m | n: In the EU: fourteen days to cancel most online purchases.
+      de segunda mano | second-hand | expr | Casi toda mi ropa es de segunda mano. | Almost all my clothes are second-hand.
+      resistirse a | to resist | v | No pude resistirme a comprarlo. | I couldn't resist buying it.
+      fustigarse | to beat yourself up | v | No te fustigues: le puede pasar a cualquiera. | Don't beat yourself up: it could happen to anyone. | n: Colloquial in this sense.
+    grammar:
+      title: "Should have, could have: debería haber + participle"
+      body: |
+        To criticise or regret a past action, put **deber, tener que** or **poder** in the **conditional** and add **haber + participle**:
+
+        - **debería haber / tendría que haber** + participle = "should have": *Deberías haber comparado los precios.* *Tendría que haber leído la letra pequeña.* Both mean the same; *tendría que* is slightly more colloquial.
+        - **podría haber** + participle = (1) "could have", as a reproach: *Podrías haberme avisado.* (2) a possibility that didn't happen: *Podría haber sido peor.*
+
+        **Pronouns** either attach to *haber* or go before the conjugated verb: *Deberías haberlo pensado* = *Lo deberías haber pensado.* With two pronouns, *haber* needs a written accent: *Deberías **habérmelo** dicho.*
+
+        For general criticism or suggestions with no specific subject, use **habría que** + infinitive ("something should be done"): *Habría que prohibir las ofertas engañosas.* And to judge a decision: ***Lo más sensato habría sido** esperar.*
+
+        In Latin America, and also in Spain, you will hear the indefinido with the same meaning: *Debiste comparar los precios.* Note that **deber de** + infinitive expresses probability (*Debe de costar mucho*), so avoid it for obligation.
+      table: |
+        Structure | Meaning | Example
+        debería haber + participle | should have | Deberías haber comparado los precios.
+        tendría que haber + participle | should have | Tendría que haber esperado una semana.
+        podría haber + participle | could have (reproach) | Podrías haberme avisado.
+        podría haber + participle | could have (possibility) | Podría haber sido peor.
+        habría que + infinitive | something should be done | Habría que enseñar consumo responsable.
+      examples: |
+        Debería haber comparado los precios antes de comprarlo. | I should have compared prices before buying it. | self-criticism
+        Tendrías que haberte preguntado si de verdad lo necesitabas. | You should have asked yourself whether you really needed it. | pronoun attached to haber
+        Me lo podrías haber dicho antes de pagar. | You could have told me before paying. | pronouns before the verb
+        Habría que prohibir este tipo de ofertas. | This kind of offer ought to be banned. | general suggestion
+      tip: "Debería haber is the polite, slightly formal version; tendría que haber is what you'll hear most among friends. Both are always followed by a participle."
+    dialogue:
+      title: Las rebajas que no eran rebajas
+      setting: A shared flat in Granada at the end of November. Ingrid finds her flatmate Marcos staring at an expensive smartwatch he bought on impulse during a big online sale.
+      speakers: I=Ingrid/f; M=Marcos/m
+      lines: |
+        I: ¿Otro paquete? Marcos, esta semana ya van tres. ¿Qué has comprado esta vez? | Another parcel? Marcos, that's three this week. What have you bought this time?
+        M: Un reloj inteligente. Estaba rebajado un cuarenta por ciento y no pude resistirme. | A smartwatch. It was forty per cent off and I couldn't resist.
+        I: ¿Rebajado? Mira, en esta página dice que hace un mes costaba lo mismo. Lo subieron justo antes de las rebajas. | Reduced? Look, this website says it cost the same a month ago. They put the price up just before the sale.
+        M: ¡No puede ser! Debería haber comparado los precios antes de comprarlo. ¡Qué tonto soy! | That can't be! I should have compared prices before buying it. How stupid of me!
+        I: Hombre, no te fustigues. Pero tendrías que haberte preguntado si de verdad lo necesitabas. | Come on, don't beat yourself up. But you should have asked yourself whether you really needed it.
+        M: Ya… Es que con tanta publicidad acabas pensando que todo el mundo tiene uno menos tú. | I know… It's just that with so much advertising you end up thinking that everybody has one except you.
+        I: Eso es justo lo que quieren que pienses. ¿Y no puedes devolverlo? Tienes catorce días. | That's exactly what they want you to think. Can't you return it? You've got fourteen days.
+        M: Ese es el problema: el vendedor no es de la Unión Europea y las condiciones de devolución son un lío. | That's the problem: the seller isn't in the European Union and the return conditions are a mess.
+        I: Pues podrías haber leído la letra pequeña antes de pagar. Habría sido lo más sensato, ¿no? | Well, you could have read the small print before paying. That would have been the sensible thing, wouldn't it?
+        M: Vale, vale, ya lo sé. Habría que prohibir este tipo de ofertas engañosas, ¿no crees? | OK, OK, I know. This kind of misleading offer ought to be banned, don't you think?
+        I: Ahí te doy la razón. Mientras tanto, ¿por qué no lo vendes en una aplicación de segunda mano? | I agree with you there. In the meantime, why don't you sell it on a second-hand app?
+        M: Buena idea. Y a partir de ahora, antes de comprar algo, esperaré una semana a ver si sigo queriéndolo. | Good idea. And from now on, before buying anything, I'll wait a week to see if I still want it.
+    pronunciation:
+      title: "Written accents when pronouns are added"
+      body: |
+        When you add pronouns to an infinitive or a gerund, the stress stays on the same syllable of the verb, but the word gets longer, so it often needs a written accent. *Haber* + *me* + *lo* = ***ha**-bér-me-lo*: the stress is now on the fourth syllable from the end, so the accent is obligatory. The same happens with *devolvérselo*, *comprándolo*, *preguntártelo*.
+
+        Say each form slowly, clapping on the stressed syllable, then at normal speed.
+      items: |
+        deberías habérmelo dicho
+        devolvérselo
+        comprándolo
+        preguntártelo
+        fíjate
+        no te fustigues
+    culture:
+      title: "Rebajas and second-hand"
+      body: |
+        Traditionally, the big sales in Spain — **las rebajas** — begin just after the Day of the Three Kings in January and at the start of July, although shops can now hold sales whenever they like, and November sales imported from the United States have become very popular. By law, a "reduced" price must be compared with the real previous price.
+
+        Second-hand buying has grown enormously, especially among young people, thanks to apps for selling clothes, furniture and electronics. In Spain people often use the word **chollo** for a real bargain: *¡Qué chollo!*
+    mistakes: |
+      Deberías habermelo dicho. => Deberías habérmelo dicho. | With two pronouns attached, haber needs a written accent: habérmelo.
+      Deberías de haber leído la letra pequeña. => Deberías haber leído la letra pequeña. | For obligation and advice, use deber without de; deber de + infinitive expresses probability.
+      Habría que se prohíban estas ofertas. => Habría que prohibir estas ofertas. | Habría que is followed directly by an infinitive.
+    task:
+      title: A purchase I regret
+      mode: interaction
+      body: |
+        Tell a partner about a purchase you regret: what you bought, why, what went wrong and what you should have done (*debería haber…, tendría que haber…, podría haber…*). Your partner reacts and gives one general suggestion with *habría que*. Then practise in the "Returning an item in a shop" scenario with the AI coach: explain what is wrong with the item, mention the return period and ask for a refund or an exchange.
+    exercises: |
+      fill: ___ (deber, tú) haber comparado los precios antes de comprar el portátil. || Deberías || Criticism of a past action: the conditional of deber (deberías) + haber + participle. || @tags es.conditional
+      fill: Tendríamos que ___ (leer) la letra pequeña antes de firmar. || haber leído || After tendríamos que, use haber + participle to talk about the past. || @tags es.conditional
+      fill: Podrías ___ avisado de que había rebajas: ¡me habría ahorrado cincuenta euros! (haber + me) || haberme || The pronoun attaches to haber: podrías haberme avisado. || @tags es.conditional,es.object-pronouns
+      fill: Lo más sensato ___ (ser) esperar unos días antes de comprarlo. || habría sido / hubiera sido || Judging a past decision: lo más sensato habría sido + infinitive. || @tags es.conditional
+      mc: Choose the correct sentence. || Deberías habermelo dicho antes. | *Deberías habérmelo dicho antes. | Deberías haber dichómelo antes. || Pronouns attach to haber, not to the participle, and habérmelo needs a written accent. || @tags es.conditional,es.object-pronouns
+      mc: «Podría haber sido peor» means: || It could get worse in the future. | *It could have been worse. | It should have been worse. || Podría haber + participle describes a possibility that didn't happen. || @tags es.conditional
+      mc: Your friend says «Ayer me di un capricho». She means: || *She treated herself to something. | She had a tantrum. | She changed her mind. || Darse un capricho = to treat yourself. || @skill vocabulary @tags es.vocabulary
+      tf: The smartwatch was really forty per cent cheaper than a month before. || false || Ingrid finds that a month ago it cost the same: the price had been raised just before the sale. || @ctx dialogue
+      short: Why is it difficult for Marcos to return the watch? || kw: Unión Europea/UE/EU/European/vendedor/seller/condiciones/conditions || The seller isn't in the European Union and the return conditions are complicated. || @ctx dialogue
+      rw: Turn the advice into a criticism of the past :: Deberías leer las condiciones antes de pagar. || Deberías haber leído las condiciones antes de pagar. || Add haber + participle to refer to the past. || @tags es.conditional
+      tr: We should have bought it second-hand. || Deberíamos haberlo comprado de segunda mano. | Tendríamos que haberlo comprado de segunda mano. | Lo deberíamos haber comprado de segunda mano. | Lo tendríamos que haber comprado de segunda mano. || Debería / tendría que + haber + participle; the pronoun lo attaches to haber or goes first. || @tags es.conditional,es.object-pronouns
+      listen: Compré el sofá por impulso y ahora no cabe por la puerta del salón. Tendría que haber medido el pasillo antes. || What should the speaker have done? || Bought a bigger sofa | *Measured the corridor first | Asked for a discount || «Tendría que haber medido el pasillo antes.» || @tags es.listening,es.conditional
+      listen: @dialogue || What will Marcos do from now on before buying something? || Compare prices in three shops | *Wait a week to see if he still wants it | Ask Ingrid for her opinion || «Antes de comprar algo, esperaré una semana a ver si sigo queriéndolo.» || @tags es.listening
+      dict: Habría que enseñar consumo responsable en los colegios. || habría que = something should be done
+      ask: Tell a friend about a purchase you regret — what you bought, why, and what you should have done. || kw: compré/me compré & debería haber/tendría que haber/podría haber/habría sido || El año pasado me compré una bicicleta estática carísima porque estaba rebajada. La usé tres veces y ahora sirve para colgar la ropa. Debería haber probado primero un gimnasio y tendría que haber pensado si de verdad tenía tiempo. Lo más sensato habría sido comprarla de segunda mano.

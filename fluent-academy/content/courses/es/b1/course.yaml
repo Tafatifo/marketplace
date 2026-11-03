@@ -1,0 +1,111 @@
+language: es
+level: B1
+title: "Spanish B1 · Independence"
+description: Become an independent user of Spanish — describe people and tell anecdotes, handle interviews, formal emails and meetings, give advice, report news, discuss city life and the environment, talk about wellbeing, food and sport, review films and books, and imagine what you would do if things were different.
+hours: 100
+summary: >-
+  B1 learners can understand the main points of clear standard speech on familiar matters, deal with most
+  situations while travelling or living in a Spanish-speaking country, produce simple connected text on topics
+  of personal interest, and describe experiences, events, hopes and plans with brief reasons and explanations.
+  This course builds on A1 and A2 with the big steps of the intermediate level — the contrast of past tenses,
+  the conditional, the present and imperfect subjunctive, the pluperfect, reported speech and double object
+  pronouns — in peninsular Spanish, with Latin American usage pointed out along the way.
+objectives:
+  - Describe personality and relationships, and tell anecdotes contrasting the indefinido and the imperfecto
+  - Handle a job interview, formal emails and meetings using the conditional, a formal register and connectors
+  - Express wishes and give advice with the present subjunctive and the negative imperative
+  - Report what other people say and talk about news and technology, using the pluperfect
+  - Give opinions on city life and the environment and react to problems with the subjunctive
+  - Talk about wellbeing, food culture and sport using double object pronouns and impersonal se
+  - Review films, series, books and music and retell a story with lo que and all the past tenses
+  - Discuss responsible travel, customs and hypothetical situations with si + imperfect subjunctive + conditional
+canDo:
+  listening:
+    - Understand the main points of conversations, announcements and radio or podcast segments on familiar topics when speech is clear and standard
+    - Follow a story, a set of instructions or the gist of a discussion between native speakers
+  reading:
+    - Understand everyday texts such as articles, reviews, blog posts and formal emails, and find specific information in them
+    - Understand the description of events, feelings and wishes in personal messages
+  spokenInteraction:
+    - Deal with most situations at work, at a service desk or while travelling, including a job interview and a phone call to technical support
+    - Take part in a discussion on familiar topics, giving and asking for opinions, agreeing and disagreeing politely
+  spokenProduction:
+    - Tell an anecdote or retell the plot of a film or book, describing reactions
+    - Give reasons and explanations for opinions, plans and hypothetical choices
+  writing:
+    - Write a clear formal email or a cover letter using the right register
+    - Write a connected personal text, a short review or a forum post on a topic of interest
+grammar:
+  - Pretérito indefinido vs imperfecto in narration; time markers for anecdotes (de repente, mientras, al final)
+  - "Relative pronouns: que, quien, donde, el/la/los/las que after prepositions"
+  - Conditional of regular and irregular verbs for politeness, advice (yo que tú) and hypotheses
+  - "Formal register (usted/ustedes) in speech and email; connectors (sin embargo, aunque, por eso, además, por un lado…)"
+  - "Present subjunctive: regular, stem-changing and irregular forms"
+  - "Subjunctive for wishes (quiero que, espero que, ojalá) and advice (te recomiendo que, es mejor que); negative imperative"
+  - "Pluscuamperfecto (había + participio)"
+  - "Reported speech in the present: dice que, pregunta si / qué, dice que + subjunctive for instructions"
+  - "Subjunctive after negative opinion (no creo que) and after emotion and evaluation (me preocupa que, es importante que)"
+  - "estar + gerundio and related forms (seguir, llevar + gerundio)"
+  - "Double object pronouns (se lo, te la) and their position with infinitives, gerunds and imperatives"
+  - "Impersonal se (se vive bien, se recomienda)"
+  - "lo que and lo + adjective (lo mejor, lo malo)"
+  - Past narration combining the indefinido, imperfecto and pluscuamperfecto
+  - "Imperfect subjunctive and si + imperfect subjunctive + conditional"
+vocabularyDomains:
+  - Personality, friendship and relationships
+  - Job interviews, office communication and careers
+  - Education systems and language learning
+  - News, the internet and devices
+  - City and rural life, recycling and the environment
+  - Stress and wellbeing, food culture, sport and fitness
+  - Film, series, books and music
+  - Tourism, customs and stereotypes
+assessment: A 60-minute cumulative test covering grammar, vocabulary, listening and reading from all eight units, with a connected writing task. A score of 70% or more confirms the B1 level.
+units:
+  - title: Personas y relaciones
+    theme: People and relationships
+    lessons: [Personality and character, Friendship and disagreements, Telling an anecdote]
+  - title: Trabajo y profesiones
+    theme: Work and careers
+    lessons: [The job interview, Emails and meetings, Changing careers]
+  - title: Educación y aprendizaje
+    theme: Education and learning
+    lessons: [School memories and systems, How we learn languages, Giving advice]
+  - title: Medios y tecnología
+    theme: Media and technology
+    lessons: [News and how we follow it, Digital life, Solving a tech problem]
+  - title: Ciudad y medio ambiente
+    theme: City and environment
+    lessons: [City or countryside?, Green habits, Proposing solutions]
+  - title: Salud y estilo de vida
+    theme: Health and lifestyle
+    lessons: [Stress and wellbeing, Food culture, Sport and fitness]
+  - title: Cultura y ocio
+    theme: Culture and entertainment
+    lessons: [Reviewing a film or series, Books and music, Recommending and retelling a story]
+  - title: Sociedad y viajes
+    theme: Society and travel
+    lessons: [Travelling responsibly, "What would you do if…?", Customs and stereotypes]
+assessmentItems: |
+  mc: Choose the correct sentence. || Cuando era pequeño, fui a la playa todos los veranos. | *Cuando era pequeño, iba a la playa todos los veranos. | Cuando fui pequeño, iba a la playa todos los veranos. || Habits and descriptions in the past take the imperfect: era, iba. Fui would describe one single trip. || @tags es.preterite-vs-imperfect @obj Describe personality and relationships, and tell anecdotes contrasting the indefinido and the imperfecto
+  fill: Esta es la amiga con ___ viajé a Perú el año pasado. || quien / la que || After a preposition, a person is referred to with quien or el/la que: con quien, con la que. || @tags es.relative-pronouns
+  fill: ¿___ (poder, usted — conditional) enviarme su currículum antes del viernes? || Podría || The conditional of poder is irregular: podría. It makes a request more polite. || @tags es.conditional,es.register @obj Handle a job interview, formal emails and meetings using the conditional, a formal register and connectors
+  mc: How do you open a formal email to a woman you have never met? || ¡Hola, guapa! | *Estimada señora Ruiz: | Querida Ruiz, || Formal emails open with Estimado/a + señor/señora + surname, followed by a colon. Querido/a is for people you know well. || @tags es.formal-writing
+  mc: El trabajo me encanta; ___, el sueldo es muy bajo. || por eso | *sin embargo | así que || The second idea contrasts with the first, so you need sin embargo. Por eso and así que introduce a consequence. || @tags es.connectors
+  fill: Espero que ___ (tener, tú) mucha suerte en el examen. || tengas || Esperar que + a different subject takes the subjunctive: tenga, tengas, tenga… || @tags es.subjunctive @obj Express wishes and give advice with the present subjunctive and the negative imperative
+  mc: Your friend wants to improve her Spanish. You say: || Te recomiendo que ves series en español. | *Te recomiendo que veas series en español. | Te recomiendo que ver series en español. || Recomendar que + another person takes the subjunctive: veas. || @tags es.subjunctive-triggers
+  fill: Cuando llegamos al cine, la película ya ___ (empezar). || había empezado || The film started before we arrived: the earlier past action takes the pluperfect, había + participle. || @tags es.pluperfect @obj Report what other people say and talk about news and technology, using the pluperfect
+  rw: Report what Ana says, starting with "Ana dice que…" :: «No tengo tiempo para leer las noticias.» || Ana dice que no tiene tiempo para leer las noticias. || With dice que in the present, the tense stays the same; only the person changes: tengo → tiene. || @tags es.reported-speech
+  mc: Choose the correct sentence. || No creo que el centro tiene bastantes zonas verdes. | *No creo que el centro tenga bastantes zonas verdes. | Creo que el centro tenga bastantes zonas verdes. || No creo que takes the subjunctive (tenga); creo que takes the indicative (tiene). || @tags es.subjunctive-triggers,es.opinion @obj Give opinions on city life and the environment and react to problems with the subjunctive
+  mc: —¿Le has dado el regalo a tu madre? —Sí, ya ___ he dado. || le lo | *se lo | lo le || Le becomes se before lo, la, los or las, and the indirect pronoun comes first: se lo. || @tags es.object-pronouns @obj Talk about wellbeing, food culture and sport using double object pronouns and impersonal se
+  mc: En España ___ cena bastante tarde, sobre las nueve o las diez. || *se | le | lo || Impersonal se + third-person singular talks about people in general: se cena = people have dinner. || @tags es.passive
+  fill: ___ que más me gustó de la película fue la banda sonora. || Lo || Lo que means "what / the thing that": lo que más me gustó… || @tags es.relative-pronouns @obj Review films, series, books and music and retell a story with lo que and all the past tenses
+  mc: Choose the best way to continue the story: «Estábamos cenando tranquilamente cuando…» || *de repente se fue la luz. | de repente se iba la luz. | de repente se ha ido la luz. || A sudden event that interrupts the background takes the indefinido: se fue. || @tags es.preterite-vs-imperfect
+  fill: Si ___ (tener, yo) más tiempo, viajaría en tren por toda Europa. || tuviera / tuviese || An unreal condition about the present takes si + imperfect subjunctive: tuviera (or tuviese). || @tags es.si-clauses,es.imperfect-subjunctive @obj Discuss responsible travel, customs and hypothetical situations with si + imperfect subjunctive + conditional
+  mc: Si me tocara la lotería, ___ una casa en el campo. || compro | compraré | *compraría || Si + imperfect subjunctive is followed by the conditional: compraría. || @tags es.si-clauses,es.conditional
+  listen: Le escribo para solicitar información sobre el puesto de recepcionista que aparece en su página web. || Why is the person writing? || To complain about a service | *To ask about a job | To cancel a booking || Solicitar información sobre el puesto = to ask for information about the position. || @tags es.listening,es.formal-writing
+  listen: Dicen en la radio que mañana habrá huelga de metro, así que pienso ir en bici al trabajo. || How will the speaker get to work tomorrow? || By metro | By car | *By bike || There will be a metro strike (huelga de metro), so the speaker plans to cycle: ir en bici. || @tags es.listening,es.reported-speech
+  listen: Llevo dos meses yendo al gimnasio y, la verdad, me siento mucho mejor. || How long has the speaker been going to the gym? || Two weeks | *Two months | Two years || Llevar + time + gerund: llevo dos meses yendo = I've been going for two months. || @tags es.listening,es.estar-gerund
+  tr: If I were you, I would accept the job. || Yo que tú, aceptaría el trabajo. | Yo que tú aceptaría el trabajo. | Si yo fuera tú, aceptaría el trabajo. | Si fuera tú, aceptaría el trabajo. | Yo en tu lugar aceptaría el trabajo. | Yo que tú, aceptaría el puesto. | Si yo fuera tú, aceptaría el puesto. | Si fuera tú, aceptaría el puesto. || Advice with yo que tú (or si yo fuera tú) + conditional: aceptaría. || @tags es.conditional,es.si-clauses
+  short: Using a negative imperative, how do you tell a friend not to worry? || No te preocupes | No te preocupes. || The negative tú imperative uses the present subjunctive, with the pronoun before the verb: no te preocupes. || @tags es.imperative,es.subjunctive
+  write: Write a post for a travel forum (80–100 words). Tell the story of a trip that went wrong, say what you would do differently next time, and give other travellers one piece of advice. || min=80 || req: era/estaba/había/hacía | fue/perdí/llegué/tuve/pasó/empezó | si | recomiendo/aconsejo/mejor que || El verano pasado fui a Asturias con mi pareja. Hacía muy buen tiempo y todo iba perfecto hasta que llegamos al hotel: habían perdido nuestra reserva y no quedaban habitaciones. Al final dormimos en un pueblo a treinta kilómetros. Si volviera a viajar en agosto, reservaría con más antelación y llamaría al hotel unos días antes para confirmar. Os recomiendo que guardéis siempre el correo de confirmación y que tengáis un plan B. ¡Aun así, Asturias nos encantó!
